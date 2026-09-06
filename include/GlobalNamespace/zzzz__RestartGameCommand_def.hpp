@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RestartGameCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/RestartGameCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ MARK_VAL_T(::GlobalNamespace::RestartGameCommand__GameRestarted_d__8);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RestartGameCommand*, "", "RestartGameCommand");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RestartGameCommand___c__DisplayClass7_0*, "", "RestartGameCommand/<>c__DisplayClass7_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RestartGameCommand__GameRestarted_d__8, "", "RestartGameCommand/<GameRestarted>d__8");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -97,13 +98,13 @@ protected:
   constexpr RestartGameCommand___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RestartGameCommand___c__DisplayClass7_0(RestartGameCommand___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RestartGameCommand___c__DisplayClass7_0(RestartGameCommand___c__DisplayClass7_0 const&) = delete;
+  RestartGameCommand___c__DisplayClass7_0(RestartGameCommand___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19409 };
@@ -124,6 +125,7 @@ static_assert(offsetof(::GlobalNamespace::RestartGameCommand___c__DisplayClass7_
 static_assert(sizeof(::GlobalNamespace::RestartGameCommand___c__DisplayClass7_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -137,6 +139,7 @@ public:
   /// @brief Method MoveNext, addr 0x32e3184, size 0x1d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32e3354, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -147,9 +150,9 @@ public:
   // @brief default ctor
   constexpr RestartGameCommand__GameRestarted_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::RestartGameCommand*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::RestartGameCommand*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr RestartGameCommand__GameRestarted_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::RestartGameCommand* __4__this,
                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -185,6 +188,7 @@ static_assert(offsetof(::GlobalNamespace::RestartGameCommand__GameRestarted_d__8
 static_assert(sizeof(::GlobalNamespace::RestartGameCommand__GameRestarted_d__8) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -212,6 +216,7 @@ public:
   /// @brief Method ExecuteAsync, addr 0x32e2c18, size 0x1dc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
+  /// [AsyncStateMachine(typeof(RestartGameCommand::<GameRestarted>d__8))]
   /// @brief Method GameRestarted, addr 0x32e2f90, size 0xa4, virtual false, abstract: false, final false
   inline void GameRestarted(::Zenject::DiContainer* container);
 
@@ -250,20 +255,22 @@ protected:
   constexpr RestartGameCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RestartGameCommand(RestartGameCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RestartGameCommand(RestartGameCommand const&) = delete;
+  RestartGameCommand(RestartGameCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19411 };
 
+  /// [Inject]
   /// @brief Field _menuTransitionsHelper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
+  /// [Inject]
   /// @brief Field _terminalController, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::TerminalController* ____terminalController;
 

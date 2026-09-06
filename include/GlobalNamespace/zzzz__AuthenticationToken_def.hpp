@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AuthenticationToken.hpp"
+// IWYU pragma private; include "GlobalNamespace/AuthenticationToken.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
   // @brief default ctor
   constexpr AuthenticationToken_PlatformType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr AuthenticationToken_PlatformType(uint8_t value__) noexcept;
 
   /// @brief Field Oculus value: U8(2)
@@ -126,6 +126,7 @@ static_assert(offsetof(::GlobalNamespace::AuthenticationToken_PlatformType, valu
 static_assert(sizeof(::GlobalNamespace::AuthenticationToken_PlatformType) == 0x1, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies AuthenticationToken::PlatformType
 namespace GlobalNamespace {
 // Is value type: true
@@ -178,8 +179,9 @@ public:
   // @brief default ctor
   constexpr AuthenticationToken();
 
-  // Ctor Parameters [CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers:
-  // "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sessionToken", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: None, comment: None }, CppParam { name: "userId", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "sessionToken", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr AuthenticationToken(::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW userId, ::StringW userName, ::StringW sessionToken) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

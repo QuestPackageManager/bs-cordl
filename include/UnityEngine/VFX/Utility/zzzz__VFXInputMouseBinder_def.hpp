@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXInputMouseBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXInputMouseBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class VFXInputMouseBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXInputMouseBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXInputMouseBinder*, "UnityEngine.VFX.Utility", "VFXInputMouseBinder");
+// [AddComponentMenu("VFX/Property Binders/Input Mouse Binder")]
+// [VFXBinder("Input/Mouse")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase, UnityEngine.Vector3
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -186,26 +188,38 @@ protected:
   constexpr VFXInputMouseBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXInputMouseBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXInputMouseBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXInputMouseBinder(VFXInputMouseBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXInputMouseBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXInputMouseBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXInputMouseBinder(VFXInputMouseBinder const&) = delete;
+  VFXInputMouseBinder(VFXInputMouseBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19995 };
 
+  /// [VFXPropertyBinding(new[] { "System.Boolean" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_MouseLeftClickParameter")]
   /// @brief Field m_MouseLeftClickProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_MouseLeftClickProperty;
 
+  /// [VFXPropertyBinding(new[] { "System.Boolean" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_MouseRightClickParameter")]
   /// @brief Field m_MouseRightClickProperty, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_MouseRightClickProperty;
 
+  /// [VFXPropertyBinding(new[] { "UnityEditor.VFX.Position", "UnityEngine.Vector3" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_PositionParameter")]
   /// @brief Field m_PositionProperty, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_PositionProperty;
 
+  /// [VFXPropertyBinding(new[] { "UnityEngine.Vector3" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_VelocityParameter")]
   /// @brief Field m_VelocityProperty, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_VelocityProperty;
 

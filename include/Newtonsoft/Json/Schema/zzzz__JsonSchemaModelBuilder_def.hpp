@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaModelBuilder.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaModelBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class JsonSchemaModelBuilder;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*, "Newtonsoft.Json.Schema", "JsonSchemaModelBuilder");
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -105,13 +106,13 @@ protected:
   constexpr JsonSchemaModelBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaModelBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaModelBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaModelBuilder(JsonSchemaModelBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaModelBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaModelBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaModelBuilder(JsonSchemaModelBuilder const&) = delete;
+  JsonSchemaModelBuilder(JsonSchemaModelBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13551 };

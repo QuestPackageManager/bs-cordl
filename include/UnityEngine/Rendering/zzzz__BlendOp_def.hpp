@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BlendOp.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BlendOp.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct BlendOp;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BlendOp);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BlendOp, "UnityEngine.Rendering", "BlendOp");
+// [NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -76,7 +77,7 @@ public:
   // @brief default ctor
   constexpr BlendOp();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BlendOp(int32_t value__) noexcept;
 
   /// @brief Field Add value: I32(0)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IPointerEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IPointerEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,84 +83,84 @@ public:
 
   __declspec(property(get = get_twist)) float_t twist;
 
-  /// @brief Method get_actionKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_actionKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_actionKey();
 
-  /// @brief Method get_altKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_altKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_altKey();
 
-  /// @brief Method get_altitudeAngle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_altitudeAngle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_altitudeAngle();
 
-  /// @brief Method get_azimuthAngle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_azimuthAngle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_azimuthAngle();
 
-  /// @brief Method get_button, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_button, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_button();
 
-  /// @brief Method get_clickCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_clickCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_clickCount();
 
-  /// @brief Method get_commandKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_commandKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_commandKey();
 
-  /// @brief Method get_ctrlKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ctrlKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ctrlKey();
 
-  /// @brief Method get_deltaPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_deltaPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_deltaPosition();
 
-  /// @brief Method get_deltaTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_isPrimary, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isPrimary, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isPrimary();
 
-  /// @brief Method get_localPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method get_modifiers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
 
-  /// @brief Method get_penStatus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_penStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::PenStatus get_penStatus();
 
-  /// @brief Method get_pointerId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_pointerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_pointerId();
 
-  /// @brief Method get_pointerType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_pointerType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_pointerType();
 
-  /// @brief Method get_position, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_pressedButtons, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_pressedButtons, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_pressedButtons();
 
-  /// @brief Method get_pressure, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_pressure();
 
-  /// @brief Method get_radius, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_radius, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 get_radius();
 
-  /// @brief Method get_radiusVariance, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_radiusVariance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 get_radiusVariance();
 
-  /// @brief Method get_shiftKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_shiftKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_shiftKey();
 
-  /// @brief Method get_tangentialPressure, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_tangentialPressure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_tangentialPressure();
 
-  /// @brief Method get_tilt, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_tilt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 get_tilt();
 
-  /// @brief Method get_twist, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_twist, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_twist();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPointerEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPointerEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPointerEvent(IPointerEvent const&) = delete;
+  IPointerEvent(IPointerEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4535 };

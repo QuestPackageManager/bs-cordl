@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlDecimal.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlDecimal.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlDecimal_def.hpp"
 #include "System/Data/SqlTypes/zzzz__EComparison_def.hpp"
 #include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
@@ -1655,10 +1655,11 @@ constexpr System::Data::SqlTypes::SqlDecimal::operator ::System::Xml::Serializat
 constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlDecimal::i___System__Xml__Serialization__IXmlSerializable() {
   return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_bStatus", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bLen", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_bPrec", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bScale", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_data1", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_data2", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_data3", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_data4", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_bStatus", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_bLen", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_bPrec", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_bScale", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_data1", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_data2", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_data3", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_data4", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Data::SqlTypes::SqlDecimal::SqlDecimal(uint8_t _bStatus, uint8_t _bLen, uint8_t _bPrec, uint8_t _bScale, uint32_t _data1, uint32_t _data2, uint32_t _data3,
                                                            uint32_t _data4) noexcept {
   this->_bStatus = _bStatus;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarPoseData.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarPoseData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct AvatarPoseData;
 // Write type traits
 MARK_VAL_T(::BeatSaber::AvatarCore::AvatarPoseData);
 DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarPoseData, "BeatSaber.AvatarCore", "AvatarPoseData");
+// [IsReadOnly]
 // Dependencies UnityEngine.Pose
 namespace BeatSaber::AvatarCore {
 // Is value type: true
@@ -30,8 +31,8 @@ public:
   // @brief default ctor
   constexpr AvatarPoseData();
 
-  // Ctor Parameters [CppParam { name: "headPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "leftHandPose", ty: "::UnityEngine::Pose", modifiers: "", def_value:
-  // None }, CppParam { name: "rightHandPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "headPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftHandPose", ty: "::UnityEngine::Pose", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "rightHandPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None, comment: None }]
   constexpr AvatarPoseData(::UnityEngine::Pose headPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\PlatformID.hpp"
+// IWYU pragma private; include "System/PlatformID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct PlatformID;
 // Write type traits
 MARK_VAL_T(::System::PlatformID);
 DEFINE_IL2CPP_CLASS(::System::PlatformID, "System", "PlatformID");
+// [ComVisible(true)]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr PlatformID();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformID(int32_t value__) noexcept;
 
   /// @brief Field MacOSX value: I32(6)

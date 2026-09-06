@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\PanelRaycaster.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/PanelRaycaster.hpp"
 #include "GlobalNamespace/zzzz__OVRRaycaster_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__PanelRaycaster_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"

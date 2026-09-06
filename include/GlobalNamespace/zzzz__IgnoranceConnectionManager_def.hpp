@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IgnoranceConnectionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/IgnoranceConnectionManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceChannelTypes_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncValueTaskMethodBuilder_def.hpp"
@@ -30,7 +31,9 @@ namespace GlobalNamespace {
 struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
 class IConnectionManager;
@@ -208,7 +211,7 @@ public:
   // @brief default ctor
   constexpr IgnoranceConnectionManager_ConnectionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IgnoranceConnectionManager_ConnectionState(int32_t value__) noexcept;
 
   /// @brief Field Connected value: I32(1)
@@ -322,13 +325,13 @@ protected:
   constexpr IgnoranceConnectionManager_IgnoranceConnectionParamsBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnectionParamsBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnectionParamsBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceConnectionManager_IgnoranceConnectionParamsBase(IgnoranceConnectionManager_IgnoranceConnectionParamsBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnectionParamsBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnectionParamsBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager_IgnoranceConnectionParamsBase(IgnoranceConnectionManager_IgnoranceConnectionParamsBase const&) = delete;
+  IgnoranceConnectionManager_IgnoranceConnectionParamsBase(IgnoranceConnectionManager_IgnoranceConnectionParamsBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18175 };
@@ -432,13 +435,13 @@ protected:
   constexpr IgnoranceConnectionManager_StartServerParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_StartServerParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_StartServerParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceConnectionManager_StartServerParams(IgnoranceConnectionManager_StartServerParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_StartServerParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_StartServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager_StartServerParams(IgnoranceConnectionManager_StartServerParams const&) = delete;
+  IgnoranceConnectionManager_StartServerParams(IgnoranceConnectionManager_StartServerParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18176 };
@@ -555,13 +558,13 @@ protected:
   constexpr IgnoranceConnectionManager_ConnectToServerParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_ConnectToServerParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_ConnectToServerParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceConnectionManager_ConnectToServerParams(IgnoranceConnectionManager_ConnectToServerParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_ConnectToServerParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_ConnectToServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager_ConnectToServerParams(IgnoranceConnectionManager_ConnectToServerParams const&) = delete;
+  IgnoranceConnectionManager_ConnectToServerParams(IgnoranceConnectionManager_ConnectToServerParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18177 };
@@ -692,30 +695,38 @@ public:
   /// @brief Method .ctor, addr 0x3334b9c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
+  /// [CompilerGenerated]
   /// @brief Method get_compatibilityVersion, addr 0x333578c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_compatibilityVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isConnectionOwner, addr 0x333577c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userId, addr 0x333575c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userName, addr 0x333576c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnection"
   constexpr ::GlobalNamespace::IConnection* i___GlobalNamespace__IConnection() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_compatibilityVersion, addr 0x3335794, size 0x8, virtual false, abstract: false, final false
   inline void set_compatibilityVersion(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isConnectionOwner, addr 0x3335784, size 0x8, virtual false, abstract: false, final false
   inline void set_isConnectionOwner(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_userId, addr 0x3335764, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_userName, addr 0x3335774, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
@@ -725,13 +736,13 @@ protected:
   constexpr IgnoranceConnectionManager_IgnoranceConnection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceConnectionManager_IgnoranceConnection(IgnoranceConnectionManager_IgnoranceConnection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager_IgnoranceConnection(IgnoranceConnectionManager_IgnoranceConnection const&) = delete;
+  IgnoranceConnectionManager_IgnoranceConnection(IgnoranceConnectionManager_IgnoranceConnectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18178 };
@@ -742,15 +753,19 @@ public:
   /// @brief Field peerId, offset: 0x18, size: 0x4, def value: None
   uint32_t ___peerId;
 
+  /// [CompilerGenerated]
   /// @brief Field <userId>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____userId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <userName>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____userName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isConnectionOwner>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____isConnectionOwner_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <compatibilityVersion>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____compatibilityVersion_k__BackingField;
 
@@ -772,6 +787,7 @@ static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceCo
 static_assert(sizeof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -802,13 +818,13 @@ protected:
   constexpr IgnoranceConnectionManager___c__DisplayClass81_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceConnectionManager___c__DisplayClass81_0(IgnoranceConnectionManager___c__DisplayClass81_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager___c__DisplayClass81_0(IgnoranceConnectionManager___c__DisplayClass81_0 const&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass81_0(IgnoranceConnectionManager___c__DisplayClass81_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18179 };
@@ -824,6 +840,7 @@ static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager___c__Displa
 static_assert(sizeof(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -854,13 +871,13 @@ protected:
   constexpr IgnoranceConnectionManager___c__DisplayClass81_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceConnectionManager___c__DisplayClass81_1(IgnoranceConnectionManager___c__DisplayClass81_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager___c__DisplayClass81_1(IgnoranceConnectionManager___c__DisplayClass81_1 const&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass81_1(IgnoranceConnectionManager___c__DisplayClass81_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18180 };
@@ -876,6 +893,7 @@ static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager___c__Displa
 static_assert(sizeof(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_1) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -906,13 +924,13 @@ protected:
   constexpr IgnoranceConnectionManager___c__DisplayClass85_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass85_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass85_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceConnectionManager___c__DisplayClass85_0(IgnoranceConnectionManager___c__DisplayClass85_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass85_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass85_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager___c__DisplayClass85_0(IgnoranceConnectionManager___c__DisplayClass85_0 const&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass85_0(IgnoranceConnectionManager___c__DisplayClass85_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18181 };
@@ -928,6 +946,7 @@ static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager___c__Displa
 static_assert(sizeof(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass85_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -941,6 +960,7 @@ public:
   /// @brief Method MoveNext, addr 0x3335814, size 0x48c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3335ca0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -951,10 +971,10 @@ public:
   // @brief default ctor
   constexpr IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::IgnoranceConnectionManager*", modifiers: "",
-  // def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::IgnoranceConnectionManager*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                           ::GlobalNamespace::IgnoranceConnectionManager* __4__this, ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -996,6 +1016,7 @@ static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__Background
 static_assert(sizeof(::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -1009,6 +1030,7 @@ public:
   /// @brief Method MoveNext, addr 0x3335d0c, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x333613c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1019,9 +1041,10 @@ public:
   // @brief default ctor
   constexpr IgnoranceConnectionManager__DisposeAsync_d__81();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::IgnoranceConnectionManager*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::IgnoranceConnectionManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr IgnoranceConnectionManager__DisposeAsync_d__81(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder __t__builder,
                                                            ::GlobalNamespace::IgnoranceConnectionManager* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -1057,7 +1080,7 @@ static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__DisposeAsy
 static_assert(sizeof(::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IgnoranceConnectionManager::ConnectionState, IgnoranceCore.IgnoranceChannelTypes, System.Object
+// Dependencies IConnectionManager, IgnoranceConnectionManager::ConnectionState, IgnoranceCore.IgnoranceChannelTypes, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IgnoranceConnectionManager
@@ -1209,6 +1232,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [AsyncStateMachine(typeof(IgnoranceConnectionManager::<BackgroundDisconnectSentry>d__104))]
   /// @brief Method BackgroundDisconnectSentry, addr 0x3335684, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BackgroundDisconnectSentry();
 
@@ -1224,6 +1248,7 @@ public:
   /// @brief Method Dispose, addr 0x3334600, size 0x34, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [AsyncStateMachine(typeof(IgnoranceConnectionManager::<DisposeAsync>d__81))]
   /// @brief Method DisposeAsync, addr 0x333452c, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
@@ -1246,8 +1271,12 @@ public:
   inline void HandleIncomingEvents();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+  inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
 
+  /// [Conditional("BG_VERBOSE_LOGGING")]
+  /// [Conditional("BG_MULTIPLAYER_SERVER")]
   /// @brief Method Log, addr 0x33353e8, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW msg);
 
@@ -1460,27 +1489,35 @@ public:
   /// @brief Method .ctor, addr 0x3333d24, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectedEvent, addr 0x33332a8, size 0xac, virtual true, abstract: false, final true
   inline void add_onConnectedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectionConnectedEvent, addr 0x3333700, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectionDisconnectedEvent, addr 0x3333880, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectionFailedEvent, addr 0x3333580, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onDisconnectedEvent, addr 0x3333400, size 0xc0, virtual true, abstract: false, final true
   inline void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onInitializedEvent, addr 0x3333150, size 0xac, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onReceivedDataEvent, addr 0x3333a00, size 0xc0, virtual true, abstract: false, final true
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_compatibilityVersion, addr 0x3333ba0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_compatibilityVersion();
 
@@ -1502,15 +1539,19 @@ public:
   /// @brief Method get_isDisposed, addr 0x3333c40, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisposed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_serverUserId, addr 0x3333c50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serverUserId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_serverUserName, addr 0x3333c60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serverUserName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userId, addr 0x3333b80, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userName, addr 0x3333b90, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
@@ -1526,39 +1567,51 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectedEvent, addr 0x3333354, size 0xac, virtual true, abstract: false, final true
   inline void remove_onConnectedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectionConnectedEvent, addr 0x33337c0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x3333940, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectionFailedEvent, addr 0x3333640, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onDisconnectedEvent, addr 0x33334c0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onInitializedEvent, addr 0x33331fc, size 0xac, virtual true, abstract: false, final true
   inline void remove_onInitializedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onReceivedDataEvent, addr 0x3333ac0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_compatibilityVersion, addr 0x3333ba8, size 0x8, virtual false, abstract: false, final false
   inline void set_compatibilityVersion(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_serverUserId, addr 0x3333c58, size 0x8, virtual false, abstract: false, final false
   inline void set_serverUserId(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_serverUserName, addr 0x3333c68, size 0x8, virtual false, abstract: false, final false
   inline void set_serverUserName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_userId, addr 0x3333b88, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_userName, addr 0x3333b98, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
@@ -1568,13 +1621,13 @@ protected:
   constexpr IgnoranceConnectionManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceConnectionManager(IgnoranceConnectionManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager(IgnoranceConnectionManager const&) = delete;
+  IgnoranceConnectionManager(IgnoranceConnectionManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18184 };
@@ -1591,33 +1644,43 @@ public:
   /// @brief Field kMaxServerShutdownTimeMs offset 0xffffffff size 0x4
   static constexpr int32_t kMaxServerShutdownTimeMs{ static_cast<int32_t>(0x12c) };
 
+  /// [CompilerGenerated]
   /// @brief Field onInitializedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___onInitializedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectedEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___onConnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onDisconnectedEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DisconnectedReason>* ___onDisconnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectionFailedEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* ___onConnectionFailedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectionConnectedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IConnection*>* ___onConnectionConnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectionDisconnectedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* ___onConnectionDisconnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onReceivedDataEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* ___onReceivedDataEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <userId>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::StringW ____userId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <userName>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::StringW ____userName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <compatibilityVersion>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::StringW ____compatibilityVersion_k__BackingField;
 
@@ -1666,9 +1729,11 @@ public:
   /// @brief Field _taskUtility, offset: 0xd0, size: 0x8, def value: None
   ::BGNet::Core::ITaskUtility* ____taskUtility;
 
+  /// [CompilerGenerated]
   /// @brief Field <serverUserId>k__BackingField, offset: 0xd8, size: 0x8, def value: None
   ::StringW ____serverUserId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <serverUserName>k__BackingField, offset: 0xe0, size: 0x8, def value: None
   ::StringW ____serverUserName_k__BackingField;
 

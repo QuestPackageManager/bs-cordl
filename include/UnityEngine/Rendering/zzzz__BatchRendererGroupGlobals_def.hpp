@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchRendererGroupGlobals.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchRendererGroupGlobals.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ struct BatchRendererGroupGlobals;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchRendererGroupGlobals);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BatchRendererGroupGlobals, "UnityEngine.Rendering", "BatchRendererGroupGlobals");
+// [Obsolete("BatchRendererGroupGlobals and associated cbuffer are now set automatically by Unity. Setting it manually is no longer necessary or supported.")]
 // Dependencies UnityEngine.Rendering.SHCoefficients, UnityEngine.Vector4
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -64,9 +65,9 @@ public:
   // @brief default ctor
   constexpr BatchRendererGroupGlobals();
 
-  // Ctor Parameters [CppParam { name: "ProbesOcclusion", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "SpecCube0_HDR", ty: "::UnityEngine::Vector4", modifiers: "",
-  // def_value: None }, CppParam { name: "SpecCube1_HDR", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "SHCoefficients", ty:
-  // "::UnityEngine::Rendering::SHCoefficients", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ProbesOcclusion", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "SpecCube0_HDR", ty: "::UnityEngine::Vector4",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "SpecCube1_HDR", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "SHCoefficients", ty: "::UnityEngine::Rendering::SHCoefficients", modifiers: "", def_value: None, comment: None }]
   constexpr BatchRendererGroupGlobals(::UnityEngine::Vector4 ProbesOcclusion, ::UnityEngine::Vector4 SpecCube0_HDR, ::UnityEngine::Vector4 SpecCube1_HDR,
                                       ::UnityEngine::Rendering::SHCoefficients SHCoefficients) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberNetworkUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberNetworkUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberNetworkUtility_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"

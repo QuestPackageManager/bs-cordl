@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\DepthOnlyPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DepthOnlyPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DepthOnlyPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -121,13 +123,13 @@ protected:
   constexpr DepthOnlyPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DepthOnlyPass_PassData(DepthOnlyPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DepthOnlyPass_PassData(DepthOnlyPass_PassData const&) = delete;
+  DepthOnlyPass_PassData(DepthOnlyPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13087 };
@@ -143,6 +145,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DepthOnlyP
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::DepthOnlyPass_PassData) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -183,13 +186,13 @@ protected:
   constexpr DepthOnlyPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DepthOnlyPass___c(DepthOnlyPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DepthOnlyPass___c(DepthOnlyPass___c const&) = delete;
+  DepthOnlyPass___c(DepthOnlyPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13088 };
@@ -238,6 +241,7 @@ public:
 
   __declspec(property(get = get_shaderTagId, put = set_shaderTagId)) ::UnityEngine::Rendering::ShaderTagId shaderTagId;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68ffd94, size 0x1fc, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -252,6 +256,7 @@ public:
   static inline ::UnityEngine::Rendering::Universal::Internal::DepthOnlyPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                                                                                        ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x68ffc20, size 0xc4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -299,9 +304,11 @@ public:
 
   static inline int32_t getStaticF_s_CameraDepthTextureID();
 
+  /// [CompilerGenerated]
   /// @brief Method get_destination, addr 0x68ffa48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_destination();
 
+  /// [CompilerGenerated]
   /// @brief Method get_shaderTagId, addr 0x68ffa58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderTagId get_shaderTagId();
 
@@ -309,9 +316,11 @@ public:
 
   static inline void setStaticF_s_CameraDepthTextureID(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_destination, addr 0x68ffa50, size 0x8, virtual false, abstract: false, final false
   inline void set_destination(::UnityEngine::Rendering::RTHandle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_shaderTagId, addr 0x68ffa60, size 0x8, virtual false, abstract: false, final false
   inline void set_shaderTagId(::UnityEngine::Rendering::ShaderTagId value);
 
@@ -321,23 +330,25 @@ protected:
   constexpr DepthOnlyPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DepthOnlyPass(DepthOnlyPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DepthOnlyPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DepthOnlyPass(DepthOnlyPass const&) = delete;
+  DepthOnlyPass(DepthOnlyPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13089 };
 
+  /// [CompilerGenerated]
   /// @brief Field <destination>k__BackingField, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____destination_k__BackingField;
 
   /// @brief Field depthStencilFormat, offset: 0xc0, size: 0x4, def value: None
   ::UnityEngine::Experimental::Rendering::GraphicsFormat ___depthStencilFormat;
 
+  /// [CompilerGenerated]
   /// @brief Field <shaderTagId>k__BackingField, offset: 0xc4, size: 0x4, def value: None
   ::UnityEngine::Rendering::ShaderTagId ____shaderTagId_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\FontFeatureLookupFlags.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/FontFeatureLookupFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FontFeatureLookupFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags, "UnityEngine.TextCore.LowLevel", "FontFeatureLookupFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr FontFeatureLookupFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FontFeatureLookupFlags(int32_t value__) noexcept;
 
   /// @brief Field IgnoreLigatures value: I32(4)

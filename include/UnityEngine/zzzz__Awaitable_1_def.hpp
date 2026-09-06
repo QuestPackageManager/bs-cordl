@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Awaitable_1.hpp"
+// IWYU pragma private; include "UnityEngine/Awaitable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ namespace System {
 template <typename TResult> class Func_1;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine {
 template <typename T> class Awaitable_1___c;
@@ -35,6 +37,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::Awaitable_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::Awaitable_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Awaitable_1, "UnityEngine", "Awaitable`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Awaitable_1___c, "UnityEngine", "Awaitable`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine {
 // cpp template
@@ -75,13 +78,13 @@ protected:
   constexpr Awaitable_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Awaitable_1___c(Awaitable_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable_1___c(Awaitable_1___c const&) = delete;
+  Awaitable_1___c(Awaitable_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10325 };
@@ -90,6 +93,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine
+// [AsyncMethodBuilder(typeof(UnityEngine.Awaitable::AwaitableAsyncMethodBuilder`1<T>))]
 // Dependencies System.Object
 namespace UnityEngine {
 // cpp template
@@ -146,13 +150,13 @@ protected:
   constexpr Awaitable_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Awaitable_1(Awaitable_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable_1(Awaitable_1 const&) = delete;
+  Awaitable_1(Awaitable_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10326 };

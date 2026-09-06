@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Events\InvokableCall.hpp"
+// IWYU pragma private; include "UnityEngine/Events/InvokableCall.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,9 +57,11 @@ public:
   /// @brief Method .ctor, addr 0x6afcdcc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
+  /// [CompilerGenerated]
   /// @brief Method add_Delegate, addr 0x6afcc74, size 0xac, virtual false, abstract: false, final false
   inline void add_Delegate(::UnityEngine::Events::UnityAction* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_Delegate, addr 0x6afcd20, size 0xac, virtual false, abstract: false, final false
   inline void remove_Delegate(::UnityEngine::Events::UnityAction* value);
 
@@ -69,17 +71,19 @@ protected:
   constexpr InvokableCall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvokableCall(InvokableCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokableCall(InvokableCall const&) = delete;
+  InvokableCall(InvokableCallconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10443 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction* ___Delegate;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandaloneMonobehavior.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandaloneMonobehavior.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,6 +83,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandaloneMonobehavior*, "", "StandaloneM
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25*, "", "StandaloneMonobehavior/<RunAsyncCoroutine>d__25");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandaloneMonobehavior__WhenReadyAsync_d__21, "", "StandaloneMonobehavior/<WhenReadyAsync>d__21");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandaloneMonobehavior__WhenReady_d__20, "", "StandaloneMonobehavior/<WhenReady>d__20");
+// [CompilerGenerated]
 // Dependencies System.Object, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: false
@@ -121,17 +122,22 @@ public:
   /// @brief Method MoveNext, addr 0x3341620, size 0x1c0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x33417e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x33417e8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3341820, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x334161c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -165,6 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3341570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -183,13 +190,13 @@ protected:
   constexpr StandaloneMonobehavior__RunAsyncCoroutine_d__25();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior__RunAsyncCoroutine_d__25", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior__RunAsyncCoroutine_d__25", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandaloneMonobehavior__RunAsyncCoroutine_d__25(StandaloneMonobehavior__RunAsyncCoroutine_d__25&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior__RunAsyncCoroutine_d__25", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior__RunAsyncCoroutine_d__25", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneMonobehavior__RunAsyncCoroutine_d__25(StandaloneMonobehavior__RunAsyncCoroutine_d__25 const&) = delete;
+  StandaloneMonobehavior__RunAsyncCoroutine_d__25(StandaloneMonobehavior__RunAsyncCoroutine_d__25const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18286 };
@@ -225,6 +232,7 @@ static_assert(offsetof(::GlobalNamespace::StandaloneMonobehavior__RunAsyncCorout
 static_assert(sizeof(::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -238,6 +246,7 @@ public:
   /// @brief Method MoveNext, addr 0x3341828, size 0x218, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3341a40, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -248,10 +257,10 @@ public:
   // @brief default ctor
   constexpr StandaloneMonobehavior__WhenReady_d__20();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandaloneMonobehavior>",
-  // modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::StandaloneMonobehavior>", modifiers: "", def_value: None, comment: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr StandaloneMonobehavior__WhenReady_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                     ::UnityW<::GlobalNamespace::StandaloneMonobehavior> __4__this, ::System::Action* action,
                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
@@ -293,6 +302,7 @@ static_assert(offsetof(::GlobalNamespace::StandaloneMonobehavior__WhenReady_d__2
 static_assert(sizeof(::GlobalNamespace::StandaloneMonobehavior__WhenReady_d__20) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -306,6 +316,7 @@ public:
   /// @brief Method MoveNext, addr 0x3341a48, size 0x318, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3341d60, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -316,11 +327,11 @@ public:
   // @brief default ctor
   constexpr StandaloneMonobehavior__WhenReadyAsync_d__21();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandaloneMonobehavior>",
-  // modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Func_1<::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::StandaloneMonobehavior>", modifiers: "", def_value: None, comment: None }, CppParam { name: "action", ty: "::System::Func_1<::System::Threading::Tasks::Task*>*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr StandaloneMonobehavior__WhenReadyAsync_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                          ::UnityW<::GlobalNamespace::StandaloneMonobehavior> __4__this, ::System::Func_1<::System::Threading::Tasks::Task*>* action,
                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
@@ -428,6 +439,7 @@ public:
   /// @brief Method RunAsync, addr 0x334139c, size 0x164, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [IteratorStateMachine(typeof(StandaloneMonobehavior::<RunAsyncCoroutine>d__25))]
   /// @brief Method RunAsyncCoroutine, addr 0x3341500, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RunAsyncCoroutine(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, ::System::Threading::CancellationToken cancellationToken);
 
@@ -440,9 +452,11 @@ public:
   /// @brief Method Update, addr 0x3341224, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
+  /// [AsyncStateMachine(typeof(StandaloneMonobehavior::<WhenReady>d__20))]
   /// @brief Method WhenReady, addr 0x3341230, size 0xac, virtual true, abstract: false, final true
   inline void WhenReady(::System::Action* action);
 
+  /// [AsyncStateMachine(typeof(StandaloneMonobehavior::<WhenReadyAsync>d__21))]
   /// @brief Method WhenReadyAsync, addr 0x33412dc, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* WhenReadyAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
@@ -503,13 +517,13 @@ protected:
   constexpr StandaloneMonobehavior();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandaloneMonobehavior(StandaloneMonobehavior&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneMonobehavior(StandaloneMonobehavior const&) = delete;
+  StandaloneMonobehavior(StandaloneMonobehaviorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18289 };

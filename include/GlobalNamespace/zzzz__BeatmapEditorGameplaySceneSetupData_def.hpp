@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEditorGameplaySceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEditorGameplaySceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   /// @brief Field data, offset 0x10, size 0x58
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::GlobalNamespace::BeatmapEditorStartTestLevelData data;
 
-  static inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData* New_ctor(::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
+  static inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
 
   constexpr ::GlobalNamespace::BeatmapEditorStartTestLevelData const& __cordl_internal_get_data() const;
 
@@ -35,7 +35,7 @@ public:
   constexpr void __cordl_internal_set_data(::GlobalNamespace::BeatmapEditorStartTestLevelData value);
 
   /// @brief Method .ctor, addr 0x590cddc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
 
 protected:
   // Ctor Parameters []
@@ -43,13 +43,13 @@ protected:
   constexpr BeatmapEditorGameplaySceneSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorGameplaySceneSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorGameplaySceneSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEditorGameplaySceneSetupData(BeatmapEditorGameplaySceneSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorGameplaySceneSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorGameplaySceneSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEditorGameplaySceneSetupData(BeatmapEditorGameplaySceneSetupData const&) = delete;
+  BeatmapEditorGameplaySceneSetupData(BeatmapEditorGameplaySceneSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6718 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerResultsPyramidViewAvatar.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerResultsPyramidViewAvatar.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__GhostDuplicationEffect_impl.hpp"
 #include "HMUI/zzzz__ImageView_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\RecordStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/RecordStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ protected:
   constexpr RecordStream_HandshakeHashUpdateStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordStream_HandshakeHashUpdateStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordStream_HandshakeHashUpdateStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordStream_HandshakeHashUpdateStream(RecordStream_HandshakeHashUpdateStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordStream_HandshakeHashUpdateStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordStream_HandshakeHashUpdateStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordStream_HandshakeHashUpdateStream(RecordStream_HandshakeHashUpdateStream const&) = delete;
+  RecordStream_HandshakeHashUpdateStream(RecordStream_HandshakeHashUpdateStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1263 };
@@ -149,13 +149,13 @@ protected:
   constexpr RecordStream_SequenceNumber();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordStream_SequenceNumber", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordStream_SequenceNumber", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordStream_SequenceNumber(RecordStream_SequenceNumber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordStream_SequenceNumber", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordStream_SequenceNumber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordStream_SequenceNumber(RecordStream_SequenceNumber const&) = delete;
+  RecordStream_SequenceNumber(RecordStream_SequenceNumberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1264 };
@@ -456,13 +456,13 @@ protected:
   constexpr RecordStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordStream(RecordStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordStream(RecordStream const&) = delete;
+  RecordStream(RecordStreamconst&) = delete;
 
   /// @brief Field DEFAULT_PLAINTEXT_LIMIT offset 0xffffffff size 0x4
   static constexpr int32_t DEFAULT_PLAINTEXT_LIMIT{ static_cast<int32_t>(0x4000) };

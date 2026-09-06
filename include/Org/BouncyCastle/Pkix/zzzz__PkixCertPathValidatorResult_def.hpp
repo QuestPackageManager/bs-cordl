@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixCertPathValidatorResult.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixCertPathValidatorResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr PkixCertPathValidatorResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkixCertPathValidatorResult(PkixCertPathValidatorResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PkixCertPathValidatorResult(PkixCertPathValidatorResult const&) = delete;
+  PkixCertPathValidatorResult(PkixCertPathValidatorResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1719 };

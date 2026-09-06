@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LoadLocalInstruction.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LoadLocalInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,13 +63,13 @@ protected:
   constexpr LoadLocalInstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LoadLocalInstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoadLocalInstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LoadLocalInstruction(LoadLocalInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LoadLocalInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoadLocalInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LoadLocalInstruction(LoadLocalInstruction const&) = delete;
+  LoadLocalInstruction(LoadLocalInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16456 };

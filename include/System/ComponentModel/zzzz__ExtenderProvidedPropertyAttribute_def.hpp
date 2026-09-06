@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ExtenderProvidedPropertyAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/ExtenderProvidedPropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class ExtenderProvidedPropertyAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::ExtenderProvidedPropertyAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::ExtenderProvidedPropertyAttribute*, "System.ComponentModel", "ExtenderProvidedPropertyAttribute");
+// [AttributeUsage((System.AttributeTargets)32767)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -85,21 +86,27 @@ public:
   /// @brief Method .ctor, addr 0x63c2070, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ExtenderProperty, addr 0x63c2074, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptor* get_ExtenderProperty();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Provider, addr 0x63c2084, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::IExtenderProvider* get_Provider();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReceiverType, addr 0x63c2094, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ReceiverType();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ExtenderProperty, addr 0x63c207c, size 0x8, virtual false, abstract: false, final false
   inline void set_ExtenderProperty(::System::ComponentModel::PropertyDescriptor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Provider, addr 0x63c208c, size 0x8, virtual false, abstract: false, final false
   inline void set_Provider(::System::ComponentModel::IExtenderProvider* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReceiverType, addr 0x63c209c, size 0x8, virtual false, abstract: false, final false
   inline void set_ReceiverType(::System::Type* value);
 
@@ -109,23 +116,26 @@ protected:
   constexpr ExtenderProvidedPropertyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtenderProvidedPropertyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtenderProvidedPropertyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtenderProvidedPropertyAttribute(ExtenderProvidedPropertyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtenderProvidedPropertyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtenderProvidedPropertyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtenderProvidedPropertyAttribute(ExtenderProvidedPropertyAttribute const&) = delete;
+  ExtenderProvidedPropertyAttribute(ExtenderProvidedPropertyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11267 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ExtenderProperty>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::PropertyDescriptor* ____ExtenderProperty_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Provider>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::ComponentModel::IExtenderProvider* ____Provider_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ReceiverType>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ____ReceiverType_k__BackingField;
 

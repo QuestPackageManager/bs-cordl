@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\StandaloneInputModule.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/StandaloneInputModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_VAL_T(::UnityEngine::EventSystems::StandaloneInputModule_InputMode);
 MARK_REF_T(::UnityEngine::EventSystems::StandaloneInputModule*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::StandaloneInputModule_InputMode, "UnityEngine.EventSystems", "StandaloneInputModule/InputMode");
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::StandaloneInputModule*, "UnityEngine.EventSystems", "StandaloneInputModule");
+// [Obsolete("Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.", false)]
 // Dependencies
 namespace UnityEngine::EventSystems {
 // Is value type: true
@@ -66,7 +67,7 @@ public:
   // @brief default ctor
   constexpr StandaloneInputModule_InputMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StandaloneInputModule_InputMode(int32_t value__) noexcept;
 
   /// @brief Field Buttons value: I32(1)
@@ -92,6 +93,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::StandaloneInputModule_InputM
 static_assert(sizeof(::UnityEngine::EventSystems::StandaloneInputModule_InputMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
+// [AddComponentMenu("Event/Standalone Input Module")]
 // Dependencies UnityEngine.EventSystems.PointerInputModule, UnityEngine.Vector2
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -101,16 +103,19 @@ public:
   // Declarations
   using InputMode = ::UnityEngine::EventSystems::StandaloneInputModule_InputMode;
 
+  /// @brief [Obsolete("allowActivationOnMobileDevice has been deprecated. Use forceModuleActive instead (UnityUpgradable) -> forceModuleActive")]
   __declspec(property(get = get_allowActivationOnMobileDevice, put = set_allowActivationOnMobileDevice)) bool allowActivationOnMobileDevice;
 
   __declspec(property(get = get_cancelButton, put = set_cancelButton)) ::StringW cancelButton;
 
+  /// @brief [Obsolete("forceModuleActive has been deprecated. There is no need to force the module awake as StandaloneInputModule works for all platforms")]
   __declspec(property(get = get_forceModuleActive, put = set_forceModuleActive)) bool forceModuleActive;
 
   __declspec(property(get = get_horizontalAxis, put = set_horizontalAxis)) ::StringW horizontalAxis;
 
   __declspec(property(get = get_inputActionsPerSecond, put = set_inputActionsPerSecond)) float_t inputActionsPerSecond;
 
+  /// @brief [Obsolete("Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.", false)]
   __declspec(property(get = get_inputMode)) ::UnityEngine::EventSystems::StandaloneInputModule_InputMode inputMode;
 
   /// @brief Field m_CancelButton, offset 0xb0, size 0x8
@@ -167,6 +172,7 @@ public:
   /// @brief Method DeactivateModule, addr 0x6e209fc, size 0x4, virtual true, abstract: false, final false
   inline void DeactivateModule();
 
+  /// [Obsolete("This method is no longer checked, overriding it with return true does nothing!")]
   /// @brief Method ForceAutoSelect, addr 0x6e21d48, size 0x8, virtual true, abstract: false, final false
   inline bool ForceAutoSelect();
 
@@ -361,13 +367,13 @@ protected:
   constexpr StandaloneInputModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneInputModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneInputModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandaloneInputModule(StandaloneInputModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneInputModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneInputModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneInputModule(StandaloneInputModule const&) = delete;
+  StandaloneInputModule(StandaloneInputModuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17574 };
@@ -396,24 +402,33 @@ public:
   /// @brief Field m_InputPointerEvent, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::EventSystems::PointerEventData* ___m_InputPointerEvent;
 
+  /// [SerializeField]
   /// @brief Field m_HorizontalAxis, offset: 0x98, size: 0x8, def value: None
   ::StringW ___m_HorizontalAxis;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalAxis, offset: 0xa0, size: 0x8, def value: None
   ::StringW ___m_VerticalAxis;
 
+  /// [SerializeField]
   /// @brief Field m_SubmitButton, offset: 0xa8, size: 0x8, def value: None
   ::StringW ___m_SubmitButton;
 
+  /// [SerializeField]
   /// @brief Field m_CancelButton, offset: 0xb0, size: 0x8, def value: None
   ::StringW ___m_CancelButton;
 
+  /// [SerializeField]
   /// @brief Field m_InputActionsPerSecond, offset: 0xb8, size: 0x4, def value: None
   float_t ___m_InputActionsPerSecond;
 
+  /// [SerializeField]
   /// @brief Field m_RepeatDelay, offset: 0xbc, size: 0x4, def value: None
   float_t ___m_RepeatDelay;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_AllowActivationOnMobileDevice")]
+  /// [HideInInspector]
   /// @brief Field m_ForceModuleActive, offset: 0xc0, size: 0x1, def value: None
   bool ___m_ForceModuleActive;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RaycastHit2D.hpp"
+// IWYU pragma private; include "UnityEngine/RaycastHit2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,9 @@ struct RaycastHit2D;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RaycastHit2D);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
+// [NativeHeader("Runtime/Interfaces/IPhysics2D.h")]
+// [NativeClass("RaycastHit2D", "struct RaycastHit2D;")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
 // Dependencies UnityEngine.Vector2
 namespace UnityEngine {
 // Is value type: true
@@ -57,9 +60,10 @@ public:
   // @brief default ctor
   constexpr RaycastHit2D();
 
-  // Ctor Parameters [CppParam { name: "m_Centroid", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Point", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
-  // None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Fraction", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Centroid", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Point", ty: "::UnityEngine::Vector2", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Distance", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Fraction", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Collider", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr RaycastHit2D(::UnityEngine::Vector2 m_Centroid, ::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, float_t m_Distance, float_t m_Fraction, int32_t m_Collider) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -68,21 +72,27 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
+  /// [NativeName("centroid")]
   /// @brief Field m_Centroid, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_Centroid;
 
+  /// [NativeName("point")]
   /// @brief Field m_Point, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_Point;
 
+  /// [NativeName("normal")]
   /// @brief Field m_Normal, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_Normal;
 
+  /// [NativeName("distance")]
   /// @brief Field m_Distance, offset: 0x18, size: 0x4, def value: None
   float_t m_Distance;
 
+  /// [NativeName("fraction")]
   /// @brief Field m_Fraction, offset: 0x1c, size: 0x4, def value: None
   float_t m_Fraction;
 
+  /// [NativeName("collider")]
   /// @brief Field m_Collider, offset: 0x20, size: 0x4, def value: None
   int32_t m_Collider;
 

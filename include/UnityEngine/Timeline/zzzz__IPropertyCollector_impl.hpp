@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\IPropertyCollector.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/IPropertyCollector.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
@@ -178,7 +179,9 @@ inline void UnityEngine::Timeline::IPropertyCollector::AddFromClips(::System::Co
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Timeline::IPropertyCollector*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, clips);
 }
-template <typename T> inline void UnityEngine::Timeline::IPropertyCollector::AddFromName(::StringW name) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline void UnityEngine::Timeline::IPropertyCollector::AddFromName(::StringW name) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Timeline::IPropertyCollector*>(), 4 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
@@ -199,7 +202,9 @@ inline void UnityEngine::Timeline::IPropertyCollector::AddFromClips(::UnityEngin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Timeline::IPropertyCollector*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj, clips);
 }
-template <typename T> inline void UnityEngine::Timeline::IPropertyCollector::AddFromName(::UnityEngine::GameObject* obj, ::StringW name) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline void UnityEngine::Timeline::IPropertyCollector::AddFromName(::UnityEngine::GameObject* obj, ::StringW name) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Timeline::IPropertyCollector*>(), 8 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));

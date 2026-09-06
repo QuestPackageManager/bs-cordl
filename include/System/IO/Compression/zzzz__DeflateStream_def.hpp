@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Compression\DeflateStream.hpp"
+// IWYU pragma private; include "System/IO/Compression/DeflateStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,13 +107,13 @@ protected:
   constexpr DeflateStream_ReadMethod();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_ReadMethod", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_ReadMethod", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeflateStream_ReadMethod(DeflateStream_ReadMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_ReadMethod", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_ReadMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStream_ReadMethod(DeflateStream_ReadMethod const&) = delete;
+  DeflateStream_ReadMethod(DeflateStream_ReadMethodconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11436 };
@@ -151,13 +151,13 @@ protected:
   constexpr DeflateStream_WriteMethod();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_WriteMethod", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_WriteMethod", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeflateStream_WriteMethod(DeflateStream_WriteMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_WriteMethod", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_WriteMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStream_WriteMethod(DeflateStream_WriteMethod const&) = delete;
+  DeflateStream_WriteMethod(DeflateStream_WriteMethodconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11437 };
@@ -334,13 +334,13 @@ protected:
   constexpr DeflateStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeflateStream(DeflateStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStream(DeflateStream const&) = delete;
+  DeflateStream(DeflateStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11438 };

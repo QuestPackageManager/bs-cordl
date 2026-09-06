@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDifficultySegmentedControlController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultySegmentedControlController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,12 +106,14 @@ public:
   /// @brief Method .ctor, addr 0x59453bc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectDifficultyEvent, addr 0x5944a20, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
   /// @brief Method get_selectedDifficulty, addr 0x5944ba0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectDifficultyEvent, addr 0x5944ae0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
@@ -121,20 +123,22 @@ protected:
   constexpr BeatmapDifficultySegmentedControlController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySegmentedControlController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySegmentedControlController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDifficultySegmentedControlController(BeatmapDifficultySegmentedControlController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySegmentedControlController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySegmentedControlController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDifficultySegmentedControlController(BeatmapDifficultySegmentedControlController const&) = delete;
+  BeatmapDifficultySegmentedControlController(BeatmapDifficultySegmentedControlControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6906 };
 
+  /// [SerializeField]
   /// @brief Field _difficultySegmentedControl, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____difficultySegmentedControl;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectDifficultyEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* ___didSelectDifficultyEvent;
 

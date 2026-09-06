@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkStatisticsState.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkStatisticsState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ class CORDL_TYPE NetworkStatisticsState_NetworkStatisticsUpdateDelegate : public
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x333b664, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x333b6f4, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
+  inline void EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x333b650, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState);
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState);
 
   static inline ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -64,13 +64,13 @@ protected:
   constexpr NetworkStatisticsState_NetworkStatisticsUpdateDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkStatisticsState_NetworkStatisticsUpdateDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkStatisticsState_NetworkStatisticsUpdateDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkStatisticsState_NetworkStatisticsUpdateDelegate(NetworkStatisticsState_NetworkStatisticsUpdateDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkStatisticsState_NetworkStatisticsUpdateDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkStatisticsState_NetworkStatisticsUpdateDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkStatisticsState_NetworkStatisticsUpdateDelegate(NetworkStatisticsState_NetworkStatisticsUpdateDelegate const&) = delete;
+  NetworkStatisticsState_NetworkStatisticsUpdateDelegate(NetworkStatisticsState_NetworkStatisticsUpdateDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18235 };
@@ -81,6 +81,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -96,19 +97,21 @@ public:
                     int64_t decryptionProcessingTime);
 
   /// @brief Method op_Subtraction, addr 0x333b554, size 0x50, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(::by_ref<::GlobalNamespace::NetworkStatisticsState> a, ::by_ref<::GlobalNamespace::NetworkStatisticsState> b);
+  static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> a,
+                                                                         /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> b);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr NetworkStatisticsState();
 
-  // Ctor Parameters [CppParam { name: "packetsSent", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceived", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "bytesSent", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "bytesReceived", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsLost", ty:
-  // "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsSentEncrypted", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsSentPlaintext", ty: "int64_t",
-  // modifiers: "", def_value: None }, CppParam { name: "packetsSentRejected", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceivedEncrypted", ty: "int64_t", modifiers:
-  // "", def_value: None }, CppParam { name: "packetsReceivedPlaintext", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceivedRejected", ty: "int64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "encryptionProcessingTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "decryptionProcessingTime", ty: "int64_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "packetsSent", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsReceived", ty: "int64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "bytesSent", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bytesReceived", ty: "int64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "packetsLost", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsSentEncrypted", ty: "int64_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "packetsSentPlaintext", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsSentRejected", ty: "int64_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "packetsReceivedEncrypted", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsReceivedPlaintext", ty:
+  // "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsReceivedRejected", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "encryptionProcessingTime", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "decryptionProcessingTime", ty: "int64_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr NetworkStatisticsState(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted,
                                    int64_t packetsSentPlaintext, int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected,
                                    int64_t encryptionProcessingTime, int64_t decryptionProcessingTime) noexcept;

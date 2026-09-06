@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -82,7 +82,7 @@ UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly::CPUInstanceArrayToGPUIns
                                                                                              ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instances, gpuInstanceIndices);
 }
-// Ctor Parameters [CppParam { name: "instancesNumPrefixSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instancesNumPrefixSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly::GPUInstanceDataBuffer_ReadOnly(::Unity::Collections::NativeArray_1<int32_t> instancesNumPrefixSum) noexcept {
   this->instancesNumPrefixSum = instancesNumPrefixSum;
 }
@@ -117,9 +117,9 @@ constexpr UnityEngine::Rendering::GPUInstanceDataBuffer_ConvertCPUInstancesToGPU
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::GPUInstanceDataBuffer_ConvertCPUInstancesToGPUInstancesJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "instancesNumPrefixSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpuInstanceIndices", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instancesNumPrefixSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instances",
+// ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gpuInstanceIndices", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUInstanceDataBuffer_ConvertCPUInstancesToGPUInstancesJob::GPUInstanceDataBuffer_ConvertCPUInstancesToGPUInstancesJob(
     ::Unity::Collections::NativeArray_1<int32_t> instancesNumPrefixSum, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices) noexcept {
@@ -502,8 +502,9 @@ inline bool UnityEngine::Rendering::GPUInstanceDataBuffer::get_valid() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(), { "get_valid", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::GPUInstanceIndex UnityEngine::Rendering::GPUInstanceDataBuffer::CPUInstanceToGPUInstance(::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instancesNumPrefixSum,
-                                                                                                                          ::UnityEngine::Rendering::InstanceHandle instance) {
+inline ::UnityEngine::Rendering::GPUInstanceIndex
+UnityEngine::Rendering::GPUInstanceDataBuffer::CPUInstanceToGPUInstance(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instancesNumPrefixSum,
+                                                                        ::UnityEngine::Rendering::InstanceHandle instance) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(

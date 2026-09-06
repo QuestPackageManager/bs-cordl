@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DrawingSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DrawingSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,8 @@ MARK_VAL_T(::UnityEngine::Rendering::DrawingSettings);
 MARK_VAL_T(::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DrawingSettings, "UnityEngine.Rendering", "DrawingSettings");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer, "UnityEngine.Rendering", "DrawingSettings/<shaderPassNames>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -57,7 +59,7 @@ public:
   // @brief default ctor
   constexpr DrawingSettings__shaderPassNames_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DrawingSettings__shaderPassNames_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -169,13 +171,14 @@ public:
   // @brief default ctor
   constexpr DrawingSettings();
 
-  // Ctor Parameters [CppParam { name: "m_SortingSettings", ty: "::UnityEngine::Rendering::SortingSettings", modifiers: "", def_value: None }, CppParam { name: "shaderPassNames", ty:
-  // "::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "m_PerObjectData", ty: "::UnityEngine::Rendering::PerObjectData",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::DrawRendererFlags", modifiers: "", def_value: None }, CppParam { name: "m_OverrideShaderID", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OverrideShaderPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OverrideMaterialInstanceId", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OverrideMaterialPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_fallbackMaterialInstanceId", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_MainLightIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_UseSrpBatcher", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_SortingSettings", ty: "::UnityEngine::Rendering::SortingSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "shaderPassNames", ty:
+  // "::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PerObjectData", ty:
+  // "::UnityEngine::Rendering::PerObjectData", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::DrawRendererFlags", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_OverrideShaderID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OverrideShaderPassIndex", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OverrideMaterialInstanceId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_OverrideMaterialPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_fallbackMaterialInstanceId", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_MainLightIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UseSrpBatcher", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr DrawingSettings(::UnityEngine::Rendering::SortingSettings m_SortingSettings, ::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer shaderPassNames,
                             ::UnityEngine::Rendering::PerObjectData m_PerObjectData, ::UnityEngine::Rendering::DrawRendererFlags m_Flags, int32_t m_OverrideShaderID, int32_t m_OverrideShaderPassIndex,
                             int32_t m_OverrideMaterialInstanceId, int32_t m_OverrideMaterialPassIndex, int32_t m_fallbackMaterialInstanceId, int32_t m_MainLightIndex,
@@ -190,6 +193,7 @@ public:
   /// @brief Field m_SortingSettings, offset: 0x0, size: 0x60, def value: None
   ::UnityEngine::Rendering::SortingSettings m_SortingSettings;
 
+  /// [FixedBuffer(typeof(System.Int32), 16)]
   /// @brief Field shaderPassNames, offset: 0x60, size: 0x40, def value: None
   ::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer shaderPassNames;
 

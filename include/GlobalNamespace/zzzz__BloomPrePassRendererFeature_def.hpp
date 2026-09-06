@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassRendererFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassRendererFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,6 +8,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BloomPrePassRendererFeature)
 namespace GlobalNamespace {
 class BloomPrePassEffectSO;
@@ -19,7 +20,9 @@ namespace GlobalNamespace {
 class BloomPrePassRendererFeature_IterationHandle;
 }
 namespace GlobalNamespace {
-template <typename T> class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
 }
 namespace GlobalNamespace {
 class BloomPrePassRendererFeature___c__DisplayClass6_0;
@@ -31,7 +34,9 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject> class AssetReferenceT_1;
+template <typename TObject>
+  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
+class AssetReferenceT_1;
 }
 namespace UnityEngine::Rendering::Universal {
 struct RenderingData;
@@ -53,7 +58,9 @@ namespace GlobalNamespace {
 class BloomPrePassRendererFeature_IterationHandle;
 }
 namespace GlobalNamespace {
-template <typename T> class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
 }
 namespace GlobalNamespace {
 class BloomPrePassRendererFeature___c__DisplayClass6_0;
@@ -94,13 +101,13 @@ protected:
   constexpr BloomPrePassRendererFeature_IterationHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature_IterationHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature_IterationHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRendererFeature_IterationHandle(BloomPrePassRendererFeature_IterationHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature_IterationHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature_IterationHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature_IterationHandle(BloomPrePassRendererFeature_IterationHandle const&) = delete;
+  BloomPrePassRendererFeature_IterationHandle(BloomPrePassRendererFeature_IterationHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19470 };
@@ -116,10 +123,12 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererFeature_IterationH
 static_assert(sizeof(::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: BloomPrePassRendererFeature/<>c__DisplayClass10_0`1<T>
 class CORDL_TYPE BloomPrePassRendererFeature___c__DisplayClass10_0_1 : public ::System::Object {
@@ -148,13 +157,13 @@ protected:
   constexpr BloomPrePassRendererFeature___c__DisplayClass10_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass10_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass10_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRendererFeature___c__DisplayClass10_0_1(BloomPrePassRendererFeature___c__DisplayClass10_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass10_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass10_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature___c__DisplayClass10_0_1(BloomPrePassRendererFeature___c__DisplayClass10_0_1 const&) = delete;
+  BloomPrePassRendererFeature___c__DisplayClass10_0_1(BloomPrePassRendererFeature___c__DisplayClass10_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19471 };
@@ -166,6 +175,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -205,13 +215,13 @@ protected:
   constexpr BloomPrePassRendererFeature___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRendererFeature___c__DisplayClass6_0(BloomPrePassRendererFeature___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature___c__DisplayClass6_0(BloomPrePassRendererFeature___c__DisplayClass6_0 const&) = delete;
+  BloomPrePassRendererFeature___c__DisplayClass6_0(BloomPrePassRendererFeature___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19472 };
@@ -232,7 +242,7 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererFeature___c__Displ
 static_assert(sizeof(::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies UnityEngine.Rendering.Universal.RenderPassEvent, UnityEngine.Rendering.Universal.ScriptableRendererFeature,
+// Dependencies UnityEngine.Object, UnityEngine.Rendering.Universal.RenderPassEvent, UnityEngine.Rendering.Universal.ScriptableRendererFeature,
 // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace GlobalNamespace {
 // Is value type: false
@@ -242,7 +252,9 @@ public:
   // Declarations
   using IterationHandle = ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle;
 
-  template <typename T> using __c__DisplayClass10_0_1 = ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  using __c__DisplayClass10_0_1 = ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>;
 
   using __c__DisplayClass6_0 = ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0;
 
@@ -276,6 +288,7 @@ public:
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
   inline void LoadAssetAsync(::UnityEngine::AddressableAssets::AssetReferenceT_1<T>* reference, ::by_ref<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>> handle,
                              ::System::Action_1<T>* onLoadFinished);
 
@@ -326,20 +339,23 @@ protected:
   constexpr BloomPrePassRendererFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRendererFeature(BloomPrePassRendererFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature(BloomPrePassRendererFeature const&) = delete;
+  BloomPrePassRendererFeature(BloomPrePassRendererFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19473 };
 
+  /// [SerializeField]
   /// @brief Field _renderPassEvent, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderPassEvent ____renderPassEvent;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _effectOverrideRef, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>>* ____effectOverrideRef;
 

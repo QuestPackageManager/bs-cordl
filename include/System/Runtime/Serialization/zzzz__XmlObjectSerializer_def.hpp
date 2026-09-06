@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlObjectSerializer.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlObjectSerializer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -147,7 +147,7 @@ public:
   /// @brief Method ReadObject, addr 0x6165aec, size 0x78, virtual true, abstract: false, final false
   inline ::System::Object* ReadObject(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ReadObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ReadObject(::System::Xml::XmlDictionaryReader* reader, bool verifyObjectName);
 
   /// @brief Method ReadObject, addr 0x6165b64, size 0x84, virtual true, abstract: false, final false
@@ -166,7 +166,7 @@ public:
   /// @brief Method TryAddLineInfo, addr 0x61661cc, size 0x1ec, virtual false, abstract: false, final false
   static inline ::StringW TryAddLineInfo(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::StringW errorMessage);
 
-  /// @brief Method WriteEndObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteEndObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteEndObject(::System::Xml::XmlDictionaryWriter* writer);
 
   /// @brief Method WriteEndObject, addr 0x6164f74, size 0x78, virtual true, abstract: false, final false
@@ -184,7 +184,7 @@ public:
   /// @brief Method WriteObject, addr 0x6164fec, size 0x7c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Xml::XmlDictionaryWriter* writer, ::System::Object* graph);
 
-  /// @brief Method WriteObjectContent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteObjectContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteObjectContent(::System::Xml::XmlDictionaryWriter* writer, ::System::Object* graph);
 
   /// @brief Method WriteObjectContent, addr 0x6164ef4, size 0x80, virtual true, abstract: false, final false
@@ -204,7 +204,7 @@ public:
   inline void WriteRootElement(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Runtime::Serialization::DataContract* contract, ::System::Xml::XmlDictionaryString* name,
                                ::System::Xml::XmlDictionaryString* ns, bool needsContractNsAtRoot);
 
-  /// @brief Method WriteStartObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteStartObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteStartObject(::System::Xml::XmlDictionaryWriter* writer, ::System::Object* graph);
 
   /// @brief Method WriteStartObject, addr 0x6164e74, size 0x80, virtual true, abstract: false, final false
@@ -232,13 +232,13 @@ protected:
   constexpr XmlObjectSerializer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlObjectSerializer(XmlObjectSerializer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializer(XmlObjectSerializer const&) = delete;
+  XmlObjectSerializer(XmlObjectSerializerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17136 };

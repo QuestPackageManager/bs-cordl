@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ReflectionTypeLoadException.hpp"
+// IWYU pragma private; include "System/Reflection/ReflectionTypeLoadException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,12 +85,14 @@ public:
   /// @brief Method .ctor, addr 0x5b81130, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// [CompilerGenerated]
   /// @brief Method get_LoaderExceptions, addr 0x5b81388, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Exception*> get_LoaderExceptions();
 
   /// @brief Method get_Message, addr 0x5b81390, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Types, addr 0x5b81380, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_Types();
 
@@ -103,20 +105,22 @@ protected:
   constexpr ReflectionTypeLoadException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeLoadException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeLoadException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionTypeLoadException(ReflectionTypeLoadException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeLoadException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeLoadException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeLoadException(ReflectionTypeLoadException const&) = delete;
+  ReflectionTypeLoadException(ReflectionTypeLoadExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3513 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Types>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::System::Type*> ____Types_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <LoaderExceptions>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::ArrayW<::System::Exception*> ____LoaderExceptions_k__BackingField;
 

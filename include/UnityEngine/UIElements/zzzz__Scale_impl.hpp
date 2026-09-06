@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Scale.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Scale.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -209,7 +209,8 @@ constexpr UnityEngine::UIElements::Scale::operator ::System::IEquatable_1<::Unit
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Scale>* UnityEngine::UIElements::Scale::i___System__IEquatable_1___UnityEngine__UIElements__Scale_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Scale>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Scale::Scale(::UnityEngine::Vector3 m_Scale, bool m_IsNone) noexcept {
   this->m_Scale = m_Scale;
   this->m_IsNone = m_IsNone;

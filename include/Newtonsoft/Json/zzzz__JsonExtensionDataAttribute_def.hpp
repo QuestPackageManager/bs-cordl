@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonExtensionDataAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonExtensionDataAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class JsonExtensionDataAttribute;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::JsonExtensionDataAttribute*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonExtensionDataAttribute*, "Newtonsoft.Json", "JsonExtensionDataAttribute");
+// [AttributeUsage((System.AttributeTargets)384, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -46,15 +47,19 @@ public:
   /// @brief Method .ctor, addr 0x5cd74b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReadData, addr 0x5cd74a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_WriteData, addr 0x5cd7498, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReadData, addr 0x5cd74b0, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadData(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_WriteData, addr 0x5cd74a0, size 0x8, virtual false, abstract: false, final false
   inline void set_WriteData(bool value);
 
@@ -64,20 +69,22 @@ protected:
   constexpr JsonExtensionDataAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonExtensionDataAttribute(JsonExtensionDataAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonExtensionDataAttribute(JsonExtensionDataAttribute const&) = delete;
+  JsonExtensionDataAttribute(JsonExtensionDataAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13255 };
 
+  /// [CompilerGenerated]
   /// @brief Field <WriteData>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WriteData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ReadData>k__BackingField, offset: 0x11, size: 0x1, def value: None
   bool ____ReadData_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CvarIntCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/CvarIntCommand.hpp"
 #include "GlobalNamespace/zzzz__CvarCommand_1_impl.hpp"
 #include "GlobalNamespace/zzzz__CvarIntCommand_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CvarIntCommand._ctor

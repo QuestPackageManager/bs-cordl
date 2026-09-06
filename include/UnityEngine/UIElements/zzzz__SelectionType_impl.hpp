@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\SelectionType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/SelectionType.hpp"
 #include "UnityEngine/UIElements/zzzz__SelectionType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::SelectionType::SelectionType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\NumberStyles.hpp"
+// IWYU pragma private; include "System/Globalization/NumberStyles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct NumberStyles;
 // Write type traits
 MARK_VAL_T(::System::Globalization::NumberStyles);
 DEFINE_IL2CPP_CLASS(::System::Globalization::NumberStyles, "System.Globalization", "NumberStyles");
+// [Flags]
 // Dependencies
 namespace System::Globalization {
 // Is value type: true
@@ -57,7 +58,7 @@ public:
   // @brief default ctor
   constexpr NumberStyles();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NumberStyles(int32_t value__) noexcept;
 
   /// @brief Field AllowCurrencySymbol value: I32(256)

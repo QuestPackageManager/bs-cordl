@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\BuildingBlocks\EntitlementCheck.hpp"
+// IWYU pragma private; include "Oculus/Platform/BuildingBlocks/EntitlementCheck.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,15 +78,19 @@ public:
   /// @brief Method .ctor, addr 0x5df3730, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_UserFailedEntitlementCheck, addr 0x5df2d54, size 0xac, virtual false, abstract: false, final false
   inline void add_UserFailedEntitlementCheck(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_UserPassedEntitlementCheck, addr 0x5df2eac, size 0xac, virtual false, abstract: false, final false
   inline void add_UserPassedEntitlementCheck(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_UserFailedEntitlementCheck, addr 0x5df2e00, size 0xac, virtual false, abstract: false, final false
   inline void remove_UserFailedEntitlementCheck(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_UserPassedEntitlementCheck, addr 0x5df2f58, size 0xac, virtual false, abstract: false, final false
   inline void remove_UserPassedEntitlementCheck(::System::Action* value);
 
@@ -96,13 +100,13 @@ protected:
   constexpr EntitlementCheck();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EntitlementCheck", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntitlementCheck", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EntitlementCheck(EntitlementCheck&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EntitlementCheck", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntitlementCheck", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EntitlementCheck(EntitlementCheck const&) = delete;
+  EntitlementCheck(EntitlementCheckconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18107 };
@@ -110,9 +114,11 @@ public:
   /// @brief Field quitAppOnNotEntitled, offset: 0x20, size: 0x1, def value: None
   bool ___quitAppOnNotEntitled;
 
+  /// [CompilerGenerated]
   /// @brief Field UserFailedEntitlementCheck, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___UserFailedEntitlementCheck;
 
+  /// [CompilerGenerated]
   /// @brief Field UserPassedEntitlementCheck, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___UserPassedEntitlementCheck;
 

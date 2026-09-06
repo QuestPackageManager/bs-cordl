@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialSceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialSceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class TutorialSceneSetupData;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TutorialSceneSetupData*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TutorialSceneSetupData*, "", "TutorialSceneSetupData");
+// [ZenjectAllowDuringValidation]
 // Dependencies SceneSetupData
 namespace GlobalNamespace {
 // Is value type: false
@@ -42,13 +43,13 @@ protected:
   constexpr TutorialSceneSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSceneSetupData(TutorialSceneSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSceneSetupData(TutorialSceneSetupData const&) = delete;
+  TutorialSceneSetupData(TutorialSceneSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6730 };

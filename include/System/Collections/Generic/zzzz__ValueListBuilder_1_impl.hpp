@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\ValueListBuilder_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/ValueListBuilder_1.hpp"
 #include "System/zzzz__Span_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__ValueListBuilder_1_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -12,6 +12,11 @@ template <typename T> inline void System::Collections::Generic::ValueListBuilder
 template <typename T> inline int32_t System::Collections::Generic::ValueListBuilder_1<T>::get_Length() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ValueListBuilder_1<T>>(), { "get_Length", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+template <typename T> inline ::by_ref<T> System::Collections::Generic::ValueListBuilder_1<T>::get_Item(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ValueListBuilder_1<T>>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method, index);
 }
 template <typename T> inline void System::Collections::Generic::ValueListBuilder_1<T>::Append(T item) {
   static auto* ___internal_method =
@@ -30,8 +35,12 @@ template <typename T> inline void System::Collections::Generic::ValueListBuilder
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ValueListBuilder_1<T>>(), { "Grow", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+template <typename T> inline T System::Collections::Generic::ValueListBuilder_1<T>::Pop() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ValueListBuilder_1<T>>(), { "Pop", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<T>(*this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::System::Collections::Generic::ValueListBuilder_1<T>::ValueListBuilder_1(::System::Span_1<T> _span, ::ArrayW<T> _arrayFromPool, int32_t _pos) noexcept {
   this->_span = _span;
   this->_arrayFromPool = _arrayFromPool;

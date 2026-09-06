@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\OpenSsl\PemUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   // @brief default ctor
   constexpr PemUtilities_PemBaseAlg();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PemUtilities_PemBaseAlg(int32_t value__) noexcept;
 
   /// @brief Field AES_128 value: I32(0)
@@ -153,7 +153,7 @@ public:
   // @brief default ctor
   constexpr PemUtilities_PemMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PemUtilities_PemMode(int32_t value__) noexcept;
 
   /// @brief Field CBC value: I32(0)
@@ -216,13 +216,13 @@ protected:
   constexpr PemUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PemUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PemUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PemUtilities(PemUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PemUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PemUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PemUtilities(PemUtilities const&) = delete;
+  PemUtilities(PemUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1689 };

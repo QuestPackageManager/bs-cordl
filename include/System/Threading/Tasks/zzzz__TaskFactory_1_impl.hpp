@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\TaskFactory_1.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/TaskFactory_1.hpp"
 #include "System/Threading/Tasks/zzzz__TaskContinuationOptions_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCreationOptions_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
@@ -22,45 +22,57 @@
 #include "System/zzzz__Func_6_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-template <typename TResult, typename TInstance> constexpr TInstance& System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_get_m_thisRef() {
+template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
+constexpr TInstance& System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_get_m_thisRef() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_thisRef;
 }
-template <typename TResult, typename TInstance> constexpr TInstance const& System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_get_m_thisRef() const {
+template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
+constexpr TInstance const& System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_get_m_thisRef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_thisRef;
 }
-template <typename TResult, typename TInstance> constexpr void System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_set_m_thisRef(TInstance value) {
+template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
+constexpr void System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_set_m_thisRef(TInstance value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_thisRef = value;
 }
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 constexpr ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>*& System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_get_m_endMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_endMethod;
 }
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 constexpr ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* const&
 System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_get_m_endMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_endMethod;
 }
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 constexpr void
 System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_set_m_endMethod(::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_endMethod = value;
 }
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 inline void System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::setStaticF_s_completeFromAsyncResult(::System::AsyncCallback* value) {
   ::cordl_internals::setStaticField<::System::AsyncCallback*, "s_completeFromAsyncResult", ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>*>(
       std::forward<::System::AsyncCallback*>(value));
 }
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 inline ::System::AsyncCallback* System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::getStaticF_s_completeFromAsyncResult() {
   return ::cordl_internals::getStaticField<::System::AsyncCallback*, "s_completeFromAsyncResult", ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>*>();
 }
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 inline void System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::_ctor(TInstance thisRef, ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>*>(),
@@ -68,12 +80,14 @@ inline void System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResu
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, thisRef, endMethod);
 }
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 inline void System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::CompleteFromAsyncResult(::System::IAsyncResult* asyncResult) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>*>(),
                                                                                          { "CompleteFromAsyncResult", {}, { ::i2c::type_of<::System::IAsyncResult*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, asyncResult);
 }
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 inline void System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::Complete(TInstance thisRef, ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod,
                                                                                                          ::System::IAsyncResult* asyncResult, bool requiresSynchronization) {
   static auto* ___internal_method =
@@ -85,12 +99,15 @@ inline void System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResu
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, thisRef, endMethod, asyncResult, requiresSynchronization);
 }
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 inline ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>*
 System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::New_ctor(TInstance thisRef, ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>*>(thisRef, endMethod));
 }
 // Ctor Parameters []
-template <typename TResult, typename TInstance> constexpr ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::TaskFactory_1_FromAsyncTrimPromise_1() {}
+template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
+constexpr ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::TaskFactory_1_FromAsyncTrimPromise_1() {}
 template <typename TResult> constexpr ::System::IAsyncResult*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_asyncResult() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncResult;
@@ -643,6 +660,7 @@ System::Threading::Tasks::TaskFactory_1<TResult>::FromAsyncImpl(::System::Func_6
 }
 template <typename TResult>
 template <typename TInstance, typename TArgs>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 inline ::System::Threading::Tasks::Task_1<TResult>*
 System::Threading::Tasks::TaskFactory_1<TResult>::FromAsyncTrim(TInstance thisRef, TArgs args,
                                                                 ::System::Func_5<TInstance, TArgs, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BitArray8.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BitArray8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ struct BitArray8;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BitArray8);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BitArray8, "UnityEngine.Rendering", "BitArray8");
+// [DefaultMember("Item")]
+// [DebuggerDisplay("{this.GetType().Name} {humanizedData}")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -104,7 +106,7 @@ public:
   // @brief default ctor
   constexpr BitArray8();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr BitArray8(uint8_t data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -113,6 +115,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// [SerializeField]
   /// @brief Field data, offset: 0x0, size: 0x1, def value: None
   uint8_t data;
 

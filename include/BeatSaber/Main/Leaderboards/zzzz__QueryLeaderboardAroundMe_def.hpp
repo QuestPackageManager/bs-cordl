@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\Leaderboards\QueryLeaderboardAroundMe.hpp"
+// IWYU pragma private; include "BeatSaber/Main/Leaderboards/QueryLeaderboardAroundMe.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,13 +59,13 @@ protected:
   constexpr QueryLeaderboardAroundMe();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardAroundMe", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardAroundMe", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QueryLeaderboardAroundMe(QueryLeaderboardAroundMe&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardAroundMe", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardAroundMe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QueryLeaderboardAroundMe(QueryLeaderboardAroundMe const&) = delete;
+  QueryLeaderboardAroundMe(QueryLeaderboardAroundMeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20609 };

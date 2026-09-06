@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XDocument.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XDocument.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Linq/zzzz__XContainer_def.hpp"
+#include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(XDocument)
 namespace System::Xml::Linq {
@@ -31,7 +32,7 @@ class XDocument;
 // Write type traits
 MARK_REF_T(::System::Xml::Linq::XDocument*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Linq::XDocument*, "System.Xml.Linq", "XDocument");
-// Dependencies System.Xml.Linq.XContainer
+// Dependencies System.Xml.Linq.XContainer, System.Xml.Linq.XNode
 namespace System::Xml::Linq {
 // Is value type: false
 // CS Name: System.Xml.Linq.XDocument
@@ -57,7 +58,9 @@ public:
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   /// @brief Method GetFirstNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetFirstNode();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Xml::Linq::XNode*>)
+  inline T GetFirstNode();
 
   /// @brief Method IsWhitespace, addr 0x61a8430, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsWhitespace(::StringW s);
@@ -108,13 +111,13 @@ protected:
   constexpr XDocument();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XDocument", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XDocument", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XDocument(XDocument&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XDocument", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XDocument", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XDocument(XDocument const&) = delete;
+  XDocument(XDocumentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21973 };

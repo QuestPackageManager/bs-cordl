@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\MaskableGraphic.hpp"
+// IWYU pragma private; include "UnityEngine/UI/MaskableGraphic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +66,13 @@ protected:
   constexpr MaskableGraphic_CullStateChangedEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaskableGraphic_CullStateChangedEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaskableGraphic_CullStateChangedEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaskableGraphic_CullStateChangedEvent(MaskableGraphic_CullStateChangedEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaskableGraphic_CullStateChangedEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaskableGraphic_CullStateChangedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaskableGraphic_CullStateChangedEvent(MaskableGraphic_CullStateChangedEvent const&) = delete;
+  MaskableGraphic_CullStateChangedEvent(MaskableGraphic_CullStateChangedEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17468 };
@@ -159,6 +159,8 @@ public:
   /// @brief Method OnTransformParentChanged, addr 0x6e00940, size 0x50, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("Not used anymore.", true)]
   /// @brief Method ParentMaskStateChanged, addr 0x6e00990, size 0x4, virtual true, abstract: false, final false
   inline void ParentMaskStateChanged();
 
@@ -282,13 +284,13 @@ protected:
   constexpr MaskableGraphic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaskableGraphic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaskableGraphic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaskableGraphic(MaskableGraphic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaskableGraphic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaskableGraphic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaskableGraphic(MaskableGraphic const&) = delete;
+  MaskableGraphic(MaskableGraphicconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17469 };
@@ -302,18 +304,24 @@ public:
   /// @brief Field m_ParentMask, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::RectMask2D> ___m_ParentMask;
 
+  /// [SerializeField]
   /// @brief Field m_Maskable, offset: 0xb8, size: 0x1, def value: None
   bool ___m_Maskable;
 
   /// @brief Field m_IsMaskingGraphic, offset: 0xb9, size: 0x1, def value: None
   bool ___m_IsMaskingGraphic;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("Not used anymore.", true)]
   /// @brief Field m_IncludeForMasking, offset: 0xba, size: 0x1, def value: None
   bool ___m_IncludeForMasking;
 
+  /// [SerializeField]
   /// @brief Field m_OnCullStateChanged, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent* ___m_OnCullStateChanged;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("Not used anymore", true)]
   /// @brief Field m_ShouldRecalculate, offset: 0xc8, size: 0x1, def value: None
   bool ___m_ShouldRecalculate;
 

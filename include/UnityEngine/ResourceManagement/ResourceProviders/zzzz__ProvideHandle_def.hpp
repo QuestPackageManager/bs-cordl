@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\ProvideHandle.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/ProvideHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,9 +103,9 @@ public:
   // @brief default ctor
   constexpr ProvideHandle();
 
-  // Ctor Parameters [CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_InternalOp", ty:
-  // "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*", modifiers: "", def_value: None }, CppParam { name: "m_ResourceManager", ty:
-  // "::UnityEngine::ResourceManagement::ResourceManager*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_InternalOp", ty:
+  // "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ResourceManager", ty:
+  // "::UnityEngine::ResourceManagement::ResourceManager*", modifiers: "", def_value: None, comment: None }]
   constexpr ProvideHandle(int32_t m_Version, ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* m_InternalOp,
                           ::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager) noexcept;
 

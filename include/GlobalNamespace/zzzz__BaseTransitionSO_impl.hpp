@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BaseTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BaseTransitionSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__TransitionTimingSO_def.hpp"

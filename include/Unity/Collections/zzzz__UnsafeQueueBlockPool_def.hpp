@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnsafeQueueBlockPool.hpp"
+// IWYU pragma private; include "Unity/Collections/UnsafeQueueBlockPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ public:
   /// @brief Field Data, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Data, put = setStaticF_Data)) ::Unity::Burst::SharedStatic_1<::System::IntPtr> Data;
 
+  /// [BurstDiscard]
   /// @brief Method AppDomainOnDomainUnload, addr 0x64c93b4, size 0x94, virtual false, abstract: false, final false
   static inline void AppDomainOnDomainUnload();
 
@@ -57,13 +58,13 @@ protected:
   constexpr UnsafeQueueBlockPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeQueueBlockPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeQueueBlockPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeQueueBlockPool(UnsafeQueueBlockPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeQueueBlockPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeQueueBlockPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeQueueBlockPool(UnsafeQueueBlockPool const&) = delete;
+  UnsafeQueueBlockPool(UnsafeQueueBlockPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15732 };

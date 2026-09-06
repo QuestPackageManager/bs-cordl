@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\IOptionalAvatarDataProvider.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/IOptionalAvatarDataProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,24 +35,26 @@ public:
 
   __declspec(property(get = get_playbackDelayMs)) int64_t playbackDelayMs;
 
-  /// @brief Method SetDisplayContext, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetDisplayContext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext);
 
-  /// @brief Method add_dataDidChangeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_dataDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
-  /// @brief Method get_currentData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_currentData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>* get_currentData();
 
-  /// @brief Method get_playbackDelayMs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_playbackDelayMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_playbackDelayMs();
 
-  /// @brief Method remove_dataDidChangeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_dataDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IOptionalAvatarDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IOptionalAvatarDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IOptionalAvatarDataProvider(IOptionalAvatarDataProvider const&) = delete;
+  IOptionalAvatarDataProvider(IOptionalAvatarDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21669 };

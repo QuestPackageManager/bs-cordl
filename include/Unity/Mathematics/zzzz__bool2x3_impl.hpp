@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\bool2x3.hpp"
+// IWYU pragma private; include "Unity/Mathematics/bool2x3.hpp"
 #include "Unity/Mathematics/zzzz__bool2_impl.hpp"
 #include "Unity/Mathematics/zzzz__bool2x3_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -483,8 +483,8 @@ constexpr Unity::Mathematics::bool2x3::operator ::System::IEquatable_1<::Unity::
 constexpr ::System::IEquatable_1<::Unity::Mathematics::bool2x3>* Unity::Mathematics::bool2x3::i___System__IEquatable_1___Unity__Mathematics__bool2x3_() {
   return static_cast<::System::IEquatable_1<::Unity::Mathematics::bool2x3>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: Some("{}") }, CppParam { name: "c1", ty: "::Unity::Mathematics::bool2", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "c2", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "c1", ty: "::Unity::Mathematics::bool2",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "c2", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::bool2x3::bool2x3(::Unity::Mathematics::bool2 c0, ::Unity::Mathematics::bool2 c1, ::Unity::Mathematics::bool2 c2) noexcept {
   this->c0 = c0;
   this->c1 = c1;

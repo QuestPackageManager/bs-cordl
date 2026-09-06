@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerBmpString.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerBmpString.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBmpString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -164,6 +164,7 @@ inline void Org::BouncyCastle::Asn1::DerBmpString::Encode(::Org::BouncyCastle::A
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::DerBmpString*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, derOut);
 }
+/// @brief [Obsolete("Will become internal")]
 inline ::Org::BouncyCastle::Asn1::DerBmpString* Org::BouncyCastle::Asn1::DerBmpString::New_ctor(::ArrayW<uint8_t> str) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::DerBmpString*>(str));
 }

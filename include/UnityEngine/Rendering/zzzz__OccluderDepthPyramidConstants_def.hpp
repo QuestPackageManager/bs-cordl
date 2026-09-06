@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderDepthPyramidConstants.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderDepthPyramidConstants.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OccluderDepthPyramidConstants___Mi
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer, "UnityEngine.Rendering",
                     "OccluderDepthPyramidConstants/<_SilhouettePlanes>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer, "UnityEngine.Rendering", "OccluderDepthPyramidConstants/<_SrcOffset>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -61,7 +63,7 @@ public:
   // @brief default ctor
   constexpr OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -85,6 +87,8 @@ static_assert(offsetof(::UnityEngine::Rendering::OccluderDepthPyramidConstants__
 static_assert(sizeof(::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer) == 0x180, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -97,7 +101,7 @@ public:
   // @brief default ctor
   constexpr OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -121,6 +125,8 @@ static_assert(offsetof(::UnityEngine::Rendering::OccluderDepthPyramidConstants__
 static_assert(sizeof(::UnityEngine::Rendering::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -133,7 +139,7 @@ public:
   // @brief default ctor
   constexpr OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -157,6 +163,8 @@ static_assert(offsetof(::UnityEngine::Rendering::OccluderDepthPyramidConstants__
 static_assert(sizeof(::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -169,7 +177,7 @@ public:
   // @brief default ctor
   constexpr OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -193,7 +201,9 @@ static_assert(offsetof(::UnityEngine::Rendering::OccluderDepthPyramidConstants__
 static_assert(sizeof(::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.OccluderDepthPyramidConstants::<_InvViewProjMatrix>e__FixedBuffer, UnityEngine.Rendering.OccluderDepthPyramidConstants::<_MipOffsetAndSize>e__FixedBuffer,
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\OccluderDepthPyramidConstants.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// UnityEngine.Rendering.OccluderDepthPyramidConstants::<_InvViewProjMatrix>e__FixedBuffer, UnityEngine.Rendering.OccluderDepthPyramidConstants::<_MipOffsetAndSize>e__FixedBuffer,
 // UnityEngine.Rendering.OccluderDepthPyramidConstants::<_SilhouettePlanes>e__FixedBuffer, UnityEngine.Rendering.OccluderDepthPyramidConstants::<_SrcOffset>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -213,14 +223,15 @@ public:
   // @brief default ctor
   constexpr OccluderDepthPyramidConstants();
 
-  // Ctor Parameters [CppParam { name: "_InvViewProjMatrix", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer", modifiers: "", def_value: None },
-  // CppParam { name: "_SilhouettePlanes", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "_SrcOffset", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "_MipOffsetAndSize", ty:
-  // "::UnityEngine::Rendering::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "_OccluderMipLayoutSizeX", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_OccluderDepthPyramidPad0", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_OccluderDepthPyramidPad1", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_SrcSliceIndices", ty: "uint32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "_DstSubviewIndices", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_MipCount", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_SilhouettePlaneCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_InvViewProjMatrix", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_SilhouettePlanes", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_SrcOffset", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_MipOffsetAndSize", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_OccluderMipLayoutSizeX", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_OccluderDepthPyramidPad0", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_OccluderDepthPyramidPad1", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_SrcSliceIndices", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_DstSubviewIndices", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_MipCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_SilhouettePlaneCount", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OccluderDepthPyramidConstants(::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer _InvViewProjMatrix,
                                           ::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer _SilhouettePlanes,
                                           ::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer _SrcOffset,
@@ -234,15 +245,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2b0 };
 
+  /// [FixedBuffer(typeof(System.Single), 96)]
+  /// [HLSLArray(6, typeof(UnityEngine.Matrix4x4))]
   /// @brief Field _InvViewProjMatrix, offset: 0x0, size: 0x180, def value: None
   ::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer _InvViewProjMatrix;
 
+  /// [FixedBuffer(typeof(System.Single), 24)]
+  /// [HLSLArray(6, typeof(UnityEngine.Vector4))]
   /// @brief Field _SilhouettePlanes, offset: 0x180, size: 0x60, def value: None
   ::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer _SilhouettePlanes;
 
+  /// [FixedBuffer(typeof(System.UInt32), 24)]
+  /// [HLSLArray(6, typeof(UnityEngine.Rendering.ShaderGenUInt4))]
   /// @brief Field _SrcOffset, offset: 0x1e0, size: 0x60, def value: None
   ::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer _SrcOffset;
 
+  /// [FixedBuffer(typeof(System.UInt32), 20)]
+  /// [HLSLArray(5, typeof(UnityEngine.Rendering.ShaderGenUInt4))]
   /// @brief Field _MipOffsetAndSize, offset: 0x240, size: 0x50, def value: None
   ::UnityEngine::Rendering::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer _MipOffsetAndSize;
 

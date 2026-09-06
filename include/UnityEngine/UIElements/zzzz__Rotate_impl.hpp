@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Rotate.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Rotate.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_impl.hpp"
@@ -280,8 +280,8 @@ constexpr UnityEngine::UIElements::Rotate::operator ::System::IEquatable_1<::Uni
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>* UnityEngine::UIElements::Rotate::i___System__IEquatable_1___UnityEngine__UIElements__Rotate_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Rotate>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Angle", ty: "::UnityEngine::UIElements::Angle", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Axis", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Angle", ty: "::UnityEngine::UIElements::Angle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Axis", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Rotate::Rotate(::UnityEngine::UIElements::Angle m_Angle, ::UnityEngine::Vector3 m_Axis, bool m_IsNone) noexcept {
   this->m_Angle = m_Angle;
   this->m_Axis = m_Axis;

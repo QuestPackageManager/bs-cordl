@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TempMeshAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TempMeshAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
@@ -23,6 +25,8 @@ struct TempMeshAllocator;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::TempMeshAllocator);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TempMeshAllocator, "UnityEngine.UIElements", "TempMeshAllocator");
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
 // Dependencies System.Runtime.InteropServices.GCHandle
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -41,7 +45,7 @@ public:
   // @brief default ctor
   constexpr TempMeshAllocator();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None, comment: None }]
   constexpr TempMeshAllocator(::System::Runtime::InteropServices::GCHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

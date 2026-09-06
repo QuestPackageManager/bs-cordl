@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\WindowsPlatform.hpp"
+// IWYU pragma private; include "Oculus/Platform/WindowsPlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::Oculus::Platform::WindowsPlatform*);
 MARK_REF_T(::Oculus::Platform::WindowsPlatform_UnityLogDelegate*);
 DEFINE_IL2CPP_CLASS(::Oculus::Platform::WindowsPlatform*, "Oculus.Platform", "WindowsPlatform");
 DEFINE_IL2CPP_CLASS(::Oculus::Platform::WindowsPlatform_UnityLogDelegate*, "Oculus.Platform", "WindowsPlatform/UnityLogDelegate");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Oculus::Platform {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr WindowsPlatform_UnityLogDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform_UnityLogDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform_UnityLogDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WindowsPlatform_UnityLogDelegate(WindowsPlatform_UnityLogDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform_UnityLogDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform_UnityLogDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WindowsPlatform_UnityLogDelegate(WindowsPlatform_UnityLogDelegate const&) = delete;
+  WindowsPlatform_UnityLogDelegate(WindowsPlatform_UnityLogDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18002 };
@@ -116,13 +117,13 @@ protected:
   constexpr WindowsPlatform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WindowsPlatform(WindowsPlatform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WindowsPlatform(WindowsPlatform const&) = delete;
+  WindowsPlatform(WindowsPlatformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18003 };

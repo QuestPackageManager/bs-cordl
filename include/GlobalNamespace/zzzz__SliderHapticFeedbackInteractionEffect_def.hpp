@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderHapticFeedbackInteractionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderHapticFeedbackInteractionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,13 +93,13 @@ protected:
   constexpr SliderHapticFeedbackInteractionEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderHapticFeedbackInteractionEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderHapticFeedbackInteractionEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderHapticFeedbackInteractionEffect(SliderHapticFeedbackInteractionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderHapticFeedbackInteractionEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderHapticFeedbackInteractionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderHapticFeedbackInteractionEffect(SliderHapticFeedbackInteractionEffect const&) = delete;
+  SliderHapticFeedbackInteractionEffect(SliderHapticFeedbackInteractionEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5725 };
@@ -107,12 +107,15 @@ public:
   /// @brief Field kVibrationSaberInteractionParamThreshold offset 0xffffffff size 0x4
   static constexpr float_t kVibrationSaberInteractionParamThreshold{ static_cast<float_t>(0.2f) };
 
+  /// [SerializeField]
   /// @brief Field _hapticPreset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____hapticPreset;
 
+  /// [Inject]
   /// @brief Field _hapticFeedbackManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
+  /// [Inject]
   /// @brief Field _gamePause, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 

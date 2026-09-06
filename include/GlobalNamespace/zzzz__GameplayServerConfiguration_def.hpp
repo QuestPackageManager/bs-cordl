@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayServerConfiguration.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayServerConfiguration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ struct GameplayServerConfiguration;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::GameplayServerConfiguration);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayServerConfiguration, "", "GameplayServerConfiguration");
+// [IsReadOnly]
 // Dependencies DiscoveryPolicy, GameplayServerControlSettings, GameplayServerMode, InvitePolicy, SongSelectionMode
 namespace GlobalNamespace {
 // Is value type: true
@@ -80,7 +81,7 @@ public:
   inline bool Equals(::GlobalNamespace::GameplayServerConfiguration other);
 
   /// @brief Method Equals, addr 0x32b14b0, size 0x6c, virtual false, abstract: false, final false
-  inline bool Equals(::by_ref<::GlobalNamespace::GameplayServerConfiguration> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> other);
 
   /// @brief Method GetHashCode, addr 0x32b15ec, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
@@ -91,6 +92,7 @@ public:
   /// @brief Method WithMaxPlayerCount, addr 0x32b180c, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration WithMaxPlayerCount(int32_t maxPlayerCount);
 
+  /// [JsonConstructor]
   /// @brief Method .ctor, addr 0x32abbe0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxPlayerCount, ::GlobalNamespace::DiscoveryPolicy discoveryPolicy, ::GlobalNamespace::InvitePolicy invitePolicy, ::GlobalNamespace::GameplayServerMode gameplayServerMode,
                     ::GlobalNamespace::SongSelectionMode songSelectionMode, ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings);
@@ -106,19 +108,20 @@ public:
   constexpr ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>* i___System__IEquatable_1___GlobalNamespace__GameplayServerConfiguration_();
 
   /// @brief Method op_Equality, addr 0x32b162c, size 0x4, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::GlobalNamespace::GameplayServerConfiguration> a, ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b);
 
   /// @brief Method op_Inequality, addr 0x32b1630, size 0x18, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::by_ref<::GlobalNamespace::GameplayServerConfiguration> a, ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GameplayServerConfiguration();
 
-  // Ctor Parameters [CppParam { name: "maxPlayerCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "discoveryPolicy", ty: "::GlobalNamespace::DiscoveryPolicy", modifiers: "",
-  // def_value: None }, CppParam { name: "invitePolicy", ty: "::GlobalNamespace::InvitePolicy", modifiers: "", def_value: None }, CppParam { name: "gameplayServerMode", ty:
-  // "::GlobalNamespace::GameplayServerMode", modifiers: "", def_value: None }, CppParam { name: "songSelectionMode", ty: "::GlobalNamespace::SongSelectionMode", modifiers: "", def_value: None },
-  // CppParam { name: "gameplayServerControlSettings", ty: "::GlobalNamespace::GameplayServerControlSettings", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "maxPlayerCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "discoveryPolicy", ty: "::GlobalNamespace::DiscoveryPolicy",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "invitePolicy", ty: "::GlobalNamespace::InvitePolicy", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "gameplayServerMode", ty: "::GlobalNamespace::GameplayServerMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "songSelectionMode", ty:
+  // "::GlobalNamespace::SongSelectionMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "gameplayServerControlSettings", ty: "::GlobalNamespace::GameplayServerControlSettings",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr GameplayServerConfiguration(int32_t maxPlayerCount, ::GlobalNamespace::DiscoveryPolicy discoveryPolicy, ::GlobalNamespace::InvitePolicy invitePolicy,
                                         ::GlobalNamespace::GameplayServerMode gameplayServerMode, ::GlobalNamespace::SongSelectionMode songSelectionMode,
                                         ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings) noexcept;
@@ -129,21 +132,27 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [JsonProperty("max_player_count")]
   /// @brief Field maxPlayerCount, offset: 0x0, size: 0x4, def value: None
   int32_t maxPlayerCount;
 
+  /// [JsonProperty("discovery_policy")]
   /// @brief Field discoveryPolicy, offset: 0x4, size: 0x1, def value: None
   ::GlobalNamespace::DiscoveryPolicy discoveryPolicy;
 
+  /// [JsonProperty("invite_policy")]
   /// @brief Field invitePolicy, offset: 0x8, size: 0x4, def value: None
   ::GlobalNamespace::InvitePolicy invitePolicy;
 
+  /// [JsonProperty("gameplay_server_mode")]
   /// @brief Field gameplayServerMode, offset: 0xc, size: 0x4, def value: None
   ::GlobalNamespace::GameplayServerMode gameplayServerMode;
 
+  /// [JsonProperty("song_selection_mode")]
   /// @brief Field songSelectionMode, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::SongSelectionMode songSelectionMode;
 
+  /// [JsonProperty("gameplay_server_control_settings")]
   /// @brief Field gameplayServerControlSettings, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutCoreEffectsSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutCoreEffectsSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ class NoteCutCoreEffectsSpawner;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NoteCutCoreEffectsSpawner*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteCutCoreEffectsSpawner*, "", "NoteCutCoreEffectsSpawner");
+// [AddComponentMenu("Beat Saber/Gameplay/NoteCutCoreEffectsSpawner")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -104,7 +105,7 @@ public:
                       put = __cordl_internal_set__sliderInteractionManagers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* _sliderInteractionManagers;
 
   /// @brief Method HandleNoteWasCut, addr 0x598ad40, size 0x19c, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method IsArcHapticsCurrentlyActive, addr 0x598b38c, size 0x98, virtual false, abstract: false, final false
   inline bool IsArcHapticsCurrentlyActive(::GlobalNamespace::ColorType colorType);
@@ -121,10 +122,10 @@ public:
   inline void PlayHitNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, ::GlobalNamespace::NoteData* noteData);
 
   /// @brief Method SpawnBombCutEffect, addr 0x598b2cc, size 0x54, virtual false, abstract: false, final false
-  inline void SpawnBombCutEffect(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
+  inline void SpawnBombCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
 
   /// @brief Method SpawnNoteCutEffect, addr 0x598aedc, size 0x2ec, virtual false, abstract: false, final false
-  inline void SpawnNoteCutEffect(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int32_t sparkleParticlesCount,
+  inline void SpawnNoteCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int32_t sparkleParticlesCount,
                                  int32_t explosionParticlesCount);
 
   /// @brief Method Start, addr 0x598ab04, size 0x1a4, virtual false, abstract: false, final false
@@ -208,13 +209,13 @@ protected:
   constexpr NoteCutCoreEffectsSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutCoreEffectsSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutCoreEffectsSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutCoreEffectsSpawner(NoteCutCoreEffectsSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutCoreEffectsSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutCoreEffectsSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutCoreEffectsSpawner(NoteCutCoreEffectsSpawner const&) = delete;
+  NoteCutCoreEffectsSpawner(NoteCutCoreEffectsSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5810 };
@@ -231,33 +232,44 @@ public:
   /// @brief Field kNormalNoteSparkleParticlesCount offset 0xffffffff size 0x4
   static constexpr int32_t kNormalNoteSparkleParticlesCount{ static_cast<int32_t>(0x96) };
 
+  /// [SerializeField]
   /// @brief Field _shockWaveYPos, offset: 0x20, size: 0x4, def value: None
   float_t ____shockWaveYPos;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _noteCutParticlesEffect, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteCutParticlesEffect> ____noteCutParticlesEffect;
 
+  /// [SerializeField]
   /// @brief Field _noteDebrisSpawner, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebrisSpawner> ____noteDebrisSpawner;
 
+  /// [SerializeField]
   /// @brief Field _noteCutHapticEffect, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteCutHapticEffect> ____noteCutHapticEffect;
 
+  /// [SerializeField]
   /// @brief Field _shockwaveEffect, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ShockwaveEffect> ____shockwaveEffect;
 
+  /// [SerializeField]
   /// @brief Field _bombExplosionEffect, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BombExplosionEffect> ____bombExplosionEffect;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _sliderInteractionManagers, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* ____sliderInteractionManagers;
 

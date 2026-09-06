@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\MetaRemoteAssets\MetaRemoteAssetsCatalogUpdater.hpp"
+// IWYU pragma private; include "BGLib/MetaRemoteAssets/MetaRemoteAssetsCatalogUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,6 +72,7 @@ DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*, 
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c*, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsCatalogUpdater/<>c");
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater__CheckForCatalogUpdateWithInterval_d__10, "BGLib.MetaRemoteAssets",
                     "MetaRemoteAssetsCatalogUpdater/<CheckForCatalogUpdateWithInterval>d__10");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
@@ -87,6 +88,7 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <HandleGameSceneChanged>b__9_0, addr 0x3317858, size 0x4c, virtual false, abstract: false, final false
   inline bool _HandleGameSceneChanged_b__9_0(::StringW sceneName);
 
@@ -107,13 +109,13 @@ protected:
   constexpr MetaRemoteAssetsCatalogUpdater___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsCatalogUpdater___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsCatalogUpdater___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MetaRemoteAssetsCatalogUpdater___c(MetaRemoteAssetsCatalogUpdater___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsCatalogUpdater___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsCatalogUpdater___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsCatalogUpdater___c(MetaRemoteAssetsCatalogUpdater___c const&) = delete;
+  MetaRemoteAssetsCatalogUpdater___c(MetaRemoteAssetsCatalogUpdater___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22484 };
@@ -124,6 +126,7 @@ public:
 static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c) == 0x10, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
 // System.Threading.CancellationToken
 namespace BGLib::MetaRemoteAssets {
@@ -138,8 +141,9 @@ public:
   /// @brief Method MoveNext, addr 0x33178a4, size 0x540, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3317f84, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -148,11 +152,11 @@ public:
   // @brief default ctor
   constexpr MetaRemoteAssetsCatalogUpdater__CheckForCatalogUpdateWithInterval_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*",
-  // modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr MetaRemoteAssetsCatalogUpdater__CheckForCatalogUpdateWithInterval_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater* __4__this,
                                                                                     ::System::Threading::CancellationToken cancellationToken,
@@ -171,12 +175,14 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
@@ -201,6 +207,8 @@ static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater
 static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater__CheckForCatalogUpdateWithInterval_d__10) == 0x40, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
@@ -231,6 +239,7 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsCatalogUpdater::<CheckForCatalogUpdateWithInterval>d__10))]
   /// @brief Method CheckForCatalogUpdateWithInterval, addr 0x331747c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CheckForCatalogUpdateWithInterval(::System::Threading::CancellationToken cancellationToken);
 
@@ -286,13 +295,13 @@ protected:
   constexpr MetaRemoteAssetsCatalogUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsCatalogUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsCatalogUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MetaRemoteAssetsCatalogUpdater(MetaRemoteAssetsCatalogUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsCatalogUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsCatalogUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsCatalogUpdater(MetaRemoteAssetsCatalogUpdater const&) = delete;
+  MetaRemoteAssetsCatalogUpdater(MetaRemoteAssetsCatalogUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22486 };
@@ -303,15 +312,18 @@ public:
   /// @brief Field kWaitIntervalInSeconds offset 0xffffffff size 0x4
   static constexpr int32_t kWaitIntervalInSeconds{ static_cast<int32_t>(0x14) };
 
+  /// [Inject]
   /// @brief Field _remoteAssetsManager, offset: 0x10, size: 0x8, def value: None
   ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* ____remoteAssetsManager;
 
+  /// [Inject]
   /// @brief Field _scenesManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____scenesManager;
 
   /// @brief Field _cancellationTokenSource, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
+  /// [Nullable(2)]
   /// @brief Field _checkForCatalogUpdateOngoingTask, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____checkForCatalogUpdateOngoingTask;
 

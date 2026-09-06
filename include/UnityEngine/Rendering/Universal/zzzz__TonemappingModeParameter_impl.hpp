@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TonemappingModeParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TonemappingModeParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__TonemappingMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__TonemappingModeParameter_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableOutputHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableOutputHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -394,7 +394,7 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::Playables::PlayableOutputHan
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(), { "GetUserData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(*this, ___internal_method);
 }
-inline void UnityEngine::Playables::PlayableOutputHandle::SetUserData(::UnityEngine::Object* target) {
+inline void UnityEngine::Playables::PlayableOutputHandle::SetUserData(/* [Writable] */ ::UnityEngine::Object* target) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(), { "SetUserData", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, target);
@@ -484,7 +484,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>
 UnityEngine::Playables::PlayableOutputHandle::i___System__IEquatable_1___UnityEngine__Playables__PlayableOutputHandle_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Playables::PlayableOutputHandle::PlayableOutputHandle(::System::IntPtr m_Handle, uint32_t m_Version) noexcept {
   this->m_Handle = m_Handle;
   this->m_Version = m_Version;

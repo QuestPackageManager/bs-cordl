@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\LinkedPool_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/LinkedPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinkedPool_1)
 namespace System {
@@ -14,15 +15,18 @@ template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class LinkedPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
+class LinkedPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::LinkedPool_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::LinkedPool_1, "UnityEngine.UIElements.UIR", "LinkedPool`1");
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.UIElements.UIR.LinkedPoolItem`1<T>
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.LinkedPool`1<T>
 class CORDL_TYPE LinkedPool_1 : public ::System::Object {
@@ -89,9 +93,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
@@ -101,13 +107,13 @@ protected:
   constexpr LinkedPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinkedPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinkedPool_1(LinkedPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinkedPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinkedPool_1(LinkedPool_1 const&) = delete;
+  LinkedPool_1(LinkedPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5306 };
@@ -124,6 +130,8 @@ public:
   /// @brief Field m_PoolFirst, offset: 0x28, size: 0x8, def value: None
   T ___m_PoolFirst;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Count>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
 

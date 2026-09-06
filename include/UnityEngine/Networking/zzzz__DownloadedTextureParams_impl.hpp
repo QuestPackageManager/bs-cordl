@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadedTextureParams.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadedTextureParams.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadedTextureFlags_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadedTextureParams_def.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadedTextureFlags_def.hpp"
@@ -58,8 +58,8 @@ inline void UnityEngine::Networking::DownloadedTextureParams::SetFlags(::UnityEn
                                                            { "SetFlags", {}, { ::i2c::type_of<::UnityEngine::Networking::DownloadedTextureFlags>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, flgs, add);
 }
-// Ctor Parameters [CppParam { name: "flags", ty: "::UnityEngine::Networking::DownloadedTextureFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "mipmapCount", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "flags", ty: "::UnityEngine::Networking::DownloadedTextureFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mipmapCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Networking::DownloadedTextureParams::DownloadedTextureParams(::UnityEngine::Networking::DownloadedTextureFlags flags, int32_t mipmapCount) noexcept {
   this->flags = flags;
   this->mipmapCount = mipmapCount;

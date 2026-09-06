@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SupportedOnRenderPipelineAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SupportedOnRenderPipelineAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
@@ -8,7 +8,7 @@
 #include "System/zzzz__Lazy_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SupportedOnRenderPipelineAttribute_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode::SupportedOnRenderPipelineAttribute_SupportedMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -207,7 +207,7 @@ inline void UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::_ctor(::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderPipeline);
 }
-inline void UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::_ctor(::ArrayW<::System::Type*> renderPipeline) {
+inline void UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderPipeline) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderPipeline);
@@ -234,7 +234,7 @@ inline bool UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::IsTypeSu
 inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::New_ctor(::System::Type* renderPipeline) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute*>(renderPipeline));
 }
-inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::New_ctor(::ArrayW<::System::Type*> renderPipeline) {
+inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::New_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderPipeline) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute*>(renderPipeline));
 }
 // Ctor Parameters []

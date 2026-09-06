@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\WhiteSpace.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/WhiteSpace.hpp"
 #include "UnityEngine/UIElements/zzzz__WhiteSpace_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::WhiteSpace::WhiteSpace(int32_t value__) noexcept {
   this->value__ = value__;
 }

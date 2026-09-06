@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\KnucklesHapticImpulseTransmitter.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/KnucklesHapticImpulseTransmitter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
@@ -191,6 +191,7 @@ inline ::System::Object* BeatSaber::Haptics::KnucklesHapticImpulseTransmitter__H
                    (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9* BeatSaber::Haptics::KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9*>(__1__state));
 }

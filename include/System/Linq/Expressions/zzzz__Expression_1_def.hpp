@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Expression_1.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Expression_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ public:
 
   static inline ::System::Linq::Expressions::Expression_1<TDelegate>* New_ctor(::System::Linq::Expressions::Expression* body);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method Rewrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression_1<TDelegate>* Rewrite(::System::Linq::Expressions::Expression* body, ::ArrayW<::System::Linq::Expressions::ParameterExpression*> parameters);
 
@@ -67,13 +68,13 @@ protected:
   constexpr Expression_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Expression_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Expression_1(Expression_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Expression_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_1(Expression_1 const&) = delete;
+  Expression_1(Expression_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16184 };

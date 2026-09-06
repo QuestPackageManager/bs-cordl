@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\IRasterRenderGraphBuilder.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/IRasterRenderGraphBuilder.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IRasterRenderGraphBuilder_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__AccessFlags_def.hpp"
@@ -204,6 +204,7 @@ UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::UseBufferR
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::BufferHandle>(this, ___internal_method, tex, index, preserveCounterValue, flags);
 }
 template <typename PassData>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
 inline void UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetRenderFunc(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<PassData, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* renderFunc) {
   auto* ___internal_method_base = THROW_UNLESS(

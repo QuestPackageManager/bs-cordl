@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_InputValidator.hpp"
+// IWYU pragma private; include "TMPro/TMP_InputValidator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::TMPro::TMP_InputValidator* New_ctor();
 
-  /// @brief Method Validate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t Validate(::by_ref<::StringW> text, ::by_ref<int32_t> pos, char16_t ch);
 
   /// @brief Method .ctor, addr 0x6994824, size 0x8, virtual false, abstract: false, final false
@@ -35,13 +35,13 @@ protected:
   constexpr TMP_InputValidator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputValidator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputValidator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputValidator(TMP_InputValidator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputValidator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputValidator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputValidator(TMP_InputValidator const&) = delete;
+  TMP_InputValidator(TMP_InputValidatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15952 };

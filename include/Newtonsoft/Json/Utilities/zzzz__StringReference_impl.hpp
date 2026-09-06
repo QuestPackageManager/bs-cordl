@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\StringReference.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringReference.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringReference_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::StringReference.get_Item
 template <>
@@ -106,8 +106,8 @@ inline ::StringW Newtonsoft::Json::Utilities::StringReference::ToString() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::StringReference>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_chars", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_startIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_chars", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_startIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Utilities::StringReference::StringReference(::ArrayW<char16_t> _chars, int32_t _startIndex, int32_t _length) noexcept {
   this->_chars = _chars;
   this->_startIndex = _startIndex;

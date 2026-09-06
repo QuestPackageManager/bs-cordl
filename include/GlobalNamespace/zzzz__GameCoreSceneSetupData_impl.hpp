@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameCoreSceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameCoreSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__GameCoreSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameCoreSceneSetupData._ctor

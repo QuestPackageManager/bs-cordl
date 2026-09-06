@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Event.hpp"
+// IWYU pragma private; include "UnityEngine/Event.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +67,13 @@ protected:
   constexpr Event_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Event_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Event_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Event_BindingsMarshaller(Event_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Event_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Event_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Event_BindingsMarshaller(Event_BindingsMarshaller const&) = delete;
+  Event_BindingsMarshaller(Event_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19864 };
@@ -84,6 +84,8 @@ public:
 static_assert(sizeof(::UnityEngine::Event_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [StaticAccessor("GUIEvent", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Modules/IMGUI/Event.bindings.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -93,16 +95,20 @@ public:
   // Declarations
   using BindingsMarshaller = ::UnityEngine::Event_BindingsMarshaller;
 
+  /// @brief [NativeProperty("keycode", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_Internal_keyCode, put = set_Internal_keyCode)) ::UnityEngine::KeyCode Internal_keyCode;
 
   __declspec(property(get = get_alt)) bool alt;
 
+  /// @brief [NativeProperty("button", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_button)) int32_t button;
 
   __declspec(property(get = get_capsLock)) bool capsLock;
 
+  /// @brief [NativeProperty("character", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_character, put = set_character)) char16_t character;
 
+  /// @brief [NativeProperty("clickCount", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_clickCount)) int32_t clickCount;
 
   __declspec(property(get = get_command)) bool command;
@@ -111,8 +117,10 @@ public:
 
   __declspec(property(get = get_control)) bool control;
 
+  /// @brief [NativeProperty("delta", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_delta, put = set_delta)) ::UnityEngine::Vector2 delta;
 
+  /// @brief [NativeProperty("displayIndex", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_displayIndex, put = set_displayIndex)) int32_t displayIndex;
 
   __declspec(property(get = get_functionKey)) bool functionKey;
@@ -133,18 +141,24 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
+  /// @brief [NativeProperty("modifiers", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_modifiers, put = set_modifiers)) ::UnityEngine::EventModifiers modifiers;
 
+  /// @brief [NativeProperty("mousePosition", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_mousePosition, put = set_mousePosition)) ::UnityEngine::Vector2 mousePosition;
 
   __declspec(property(get = get_numeric)) bool numeric;
 
+  /// @brief [NativeProperty("penStatus", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_penStatus)) ::UnityEngine::PenStatus penStatus;
 
+  /// @brief [NativeProperty("pointerType", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_pointerType)) ::UnityEngine::PointerType pointerType;
 
+  /// @brief [NativeProperty("pressure", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_pressure)) float_t pressure;
 
+  /// @brief [NativeProperty("type", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_rawType)) ::UnityEngine::EventType rawType;
 
   /// @brief Field s_Current, offset 0xffffffff, size 0x8
@@ -155,15 +169,20 @@ public:
 
   __declspec(property(get = get_shift)) bool shift;
 
+  /// @brief [NativeProperty("tilt", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_tilt)) ::UnityEngine::Vector2 tilt;
 
+  /// @brief [NativeProperty("twist", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_twist)) float_t twist;
 
   __declspec(property(get = get_type, put = set_type)) ::UnityEngine::EventType type;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method CopyFrom, addr 0x6b3ed20, size 0x24, virtual false, abstract: false, final false
   inline void CopyFrom(::UnityEngine::Event* e);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+  /// [FreeFunction("GUIEvent::CopyFromPtr", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method CopyFromPtr, addr 0x6b3e854, size 0x58, virtual false, abstract: false, final false
   inline void CopyFromPtr(::System::IntPtr ptr);
 
@@ -176,11 +195,13 @@ public:
   /// @brief Method Finalize, addr 0x6b3eca0, size 0x80, virtual true, abstract: false, final false
   inline void Finalize();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEngine.InputForUIModule" })]
   /// @brief Method GetDoubleClickTime, addr 0x6b3ec34, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetDoubleClickTime();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.InputForUIModule" })]
   /// @brief Method GetEventAtIndex, addr 0x6b3e9bc, size 0xa0, virtual false, abstract: false, final false
-  static inline void GetEventAtIndex(int32_t index, ::UnityEngine::Event* outEvent);
+  static inline void GetEventAtIndex(int32_t index, /* [NotNull] */ ::UnityEngine::Event* outEvent);
 
   /// @brief Method GetEventAtIndex_Injected, addr 0x6b3ea5c, size 0x44, virtual false, abstract: false, final false
   static inline void GetEventAtIndex_Injected(int32_t index, ::System::IntPtr outEvent);
@@ -191,18 +212,22 @@ public:
   /// @brief Method GetHashCode, addr 0x6b40460, size 0xcc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [FreeFunction("GUIEvent::Internal_Create", IsThreadSafe = true)]
   /// @brief Method Internal_Create, addr 0x6b3e7dc, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(int32_t displayIndex);
 
+  /// [FreeFunction("GUIEvent::Internal_Destroy", IsThreadSafe = true)]
   /// @brief Method Internal_Destroy, addr 0x6b3e818, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
+  /// [RequiredByNativeCode]
   /// @brief Method Internal_MakeMasterEventCurrent, addr 0x6b3eb04, size 0xe8, virtual false, abstract: false, final false
   static inline void Internal_MakeMasterEventCurrent(int32_t displayIndex);
 
   /// @brief Method Internal_SetNativeEvent, addr 0x6b3eac8, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_SetNativeEvent(::System::IntPtr ptr);
 
+  /// [NativeMethod("Use")]
   /// @brief Method Internal_Use, addr 0x6b3e750, size 0x50, virtual false, abstract: false, final false
   inline void Internal_Use();
 
@@ -217,7 +242,7 @@ public:
   static inline ::UnityEngine::Event* New_ctor(int32_t displayIndex);
 
   /// @brief Method PopEvent, addr 0x6b3e8f0, size 0x90, virtual false, abstract: false, final false
-  static inline bool PopEvent(::UnityEngine::Event* outEvent);
+  static inline bool PopEvent(/* [NotNull] */ ::UnityEngine::Event* outEvent);
 
   /// @brief Method PopEvent_Injected, addr 0x6b3e980, size 0x3c, virtual false, abstract: false, final false
   static inline bool PopEvent_Injected(::System::IntPtr outEvent);
@@ -279,6 +304,7 @@ public:
   /// @brief Method get_command, addr 0x6b3ed80, size 0x14, virtual false, abstract: false, final false
   inline bool get_command();
 
+  /// [FreeFunction("GUIEvent::GetCommandName", HasExplicitThis = true)]
   /// @brief Method get_commandName, addr 0x6b3e474, size 0x100, virtual false, abstract: false, final false
   inline ::StringW get_commandName();
 
@@ -306,6 +332,7 @@ public:
   /// @brief Method get_functionKey, addr 0x6b3edbc, size 0x14, virtual false, abstract: false, final false
   inline bool get_functionKey();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method get_isDirectManipulationDevice, addr 0x6b3eec8, size 0x34, virtual false, abstract: false, final false
   inline bool get_isDirectManipulationDevice();
 
@@ -375,6 +402,7 @@ public:
   /// @brief Method get_twist_Injected, addr 0x6b3dd04, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_twist_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("GUIEvent::GetType", HasExplicitThis = true)]
   /// @brief Method get_type, addr 0x6b3e34c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::EventType get_type();
 
@@ -399,6 +427,7 @@ public:
   /// @brief Method set_character_Injected, addr 0x6b3dfe0, size 0x44, virtual false, abstract: false, final false
   static inline void set_character_Injected(::System::IntPtr _unity_self, char16_t value);
 
+  /// [FreeFunction("GUIEvent::SetCommandName", HasExplicitThis = true)]
   /// @brief Method set_commandName, addr 0x6b3e5b8, size 0x154, virtual false, abstract: false, final false
   inline void set_commandName(::StringW value);
 
@@ -435,6 +464,7 @@ public:
   /// @brief Method set_mousePosition_Injected, addr 0x6b3d860, size 0x44, virtual false, abstract: false, final false
   static inline void set_mousePosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
 
+  /// [FreeFunction("GUIEvent::SetType", HasExplicitThis = true)]
   /// @brief Method set_type, addr 0x6b3e3d8, size 0x58, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::EventType value);
 
@@ -447,13 +477,13 @@ protected:
   constexpr Event();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Event", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Event", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Event(Event&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Event", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Event", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Event(Event const&) = delete;
+  Event(Eventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19865 };

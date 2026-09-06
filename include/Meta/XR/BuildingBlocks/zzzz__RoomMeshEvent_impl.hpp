@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\RoomMeshEvent.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/RoomMeshEvent.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__RoomMeshEvent_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"

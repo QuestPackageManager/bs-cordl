@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Experimental\PointerUpLinkTagEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/PointerUpLinkTagEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ MARK_REF_T(::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent*);
 MARK_REF_T(::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent*, "UnityEngine.UIElements.Experimental", "PointerUpLinkTagEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent___c*, "UnityEngine.UIElements.Experimental", "PointerUpLinkTagEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
@@ -53,13 +54,13 @@ protected:
   constexpr PointerUpLinkTagEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerUpLinkTagEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpLinkTagEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerUpLinkTagEvent___c(PointerUpLinkTagEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerUpLinkTagEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpLinkTagEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerUpLinkTagEvent___c(PointerUpLinkTagEvent___c const&) = delete;
+  PointerUpLinkTagEvent___c(PointerUpLinkTagEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5497 };
@@ -115,9 +116,11 @@ public:
   /// @brief Method .ctor, addr 0x6d1f7f4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_linkID, addr 0x6d1f714, size 0x8, virtual false, abstract: false, final false
   inline void set_linkID(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_linkText, addr 0x6d1f71c, size 0x8, virtual false, abstract: false, final false
   inline void set_linkText(::StringW value);
 
@@ -127,20 +130,24 @@ protected:
   constexpr PointerUpLinkTagEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerUpLinkTagEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpLinkTagEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerUpLinkTagEvent(PointerUpLinkTagEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerUpLinkTagEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpLinkTagEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerUpLinkTagEvent(PointerUpLinkTagEvent const&) = delete;
+  PointerUpLinkTagEvent(PointerUpLinkTagEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5498 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <linkID>k__BackingField, offset: 0xf8, size: 0x8, def value: None
   ::StringW ____linkID_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <linkText>k__BackingField, offset: 0x100, size: 0x8, def value: None
   ::StringW ____linkText_k__BackingField;
 

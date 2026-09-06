@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerVerticalPlayerMovementManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerVerticalPlayerMovementManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerVerticalPlayerMovementManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerFacade_def.hpp"

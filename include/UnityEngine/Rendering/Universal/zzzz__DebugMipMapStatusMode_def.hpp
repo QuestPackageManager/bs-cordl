@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugMipMapStatusMode.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugMipMapStatusMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct DebugMipMapStatusMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::DebugMipMapStatusMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DebugMipMapStatusMode, "UnityEngine.Rendering.Universal", "DebugMipMapStatusMode");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@bd2aa618476e\\ShaderLibrary\\Debug\\DebugViewEnums.cs")] Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.DebugMipMapStatusMode
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr DebugMipMapStatusMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugMipMapStatusMode(int32_t value__) noexcept;
 
   /// @brief Field Material value: I32(0)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SelectLanguageViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SelectLanguageViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,9 +74,11 @@ public:
   /// @brief Method .ctor, addr 0x596776c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didChangeLanguageEvent, addr 0x5967368, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didChangeLanguageEvent, addr 0x5967428, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
@@ -86,23 +88,26 @@ protected:
   constexpr SelectLanguageViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLanguageViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLanguageViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectLanguageViewController(SelectLanguageViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLanguageViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLanguageViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectLanguageViewController(SelectLanguageViewController const&) = delete;
+  SelectLanguageViewController(SelectLanguageViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6992 };
 
+  /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
+  /// [SerializeField]
   /// @brief Field _languageSettingsController, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LanguageSettingsController> ____languageSettingsController;
 
+  /// [CompilerGenerated]
   /// @brief Field didChangeLanguageEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* ___didChangeLanguageEvent;
 

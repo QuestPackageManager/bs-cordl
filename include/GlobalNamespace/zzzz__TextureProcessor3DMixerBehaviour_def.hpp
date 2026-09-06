@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextureProcessor3DMixerBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextureProcessor3DMixerBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ protected:
   constexpr TextureProcessor3DMixerBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DMixerBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DMixerBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureProcessor3DMixerBehaviour(TextureProcessor3DMixerBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DMixerBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DMixerBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureProcessor3DMixerBehaviour(TextureProcessor3DMixerBehaviour const&) = delete;
+  TextureProcessor3DMixerBehaviour(TextureProcessor3DMixerBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6701 };

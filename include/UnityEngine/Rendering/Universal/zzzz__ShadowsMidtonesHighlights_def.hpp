@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowsMidtonesHighlights.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowsMidtonesHighlights.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class ShadowsMidtonesHighlights;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights*, "UnityEngine.Rendering.Universal", "ShadowsMidtonesHighlights");
+// [VolumeComponentMenu("Post-processing/Shadows, Midtones, Highlights")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -55,6 +57,7 @@ public:
   /// @brief Method IsActive, addr 0x687f780, size 0xac, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687f82c, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -114,13 +117,13 @@ protected:
   constexpr ShadowsMidtonesHighlights();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShadowsMidtonesHighlights", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShadowsMidtonesHighlights", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShadowsMidtonesHighlights(ShadowsMidtonesHighlights&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShadowsMidtonesHighlights", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShadowsMidtonesHighlights", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShadowsMidtonesHighlights(ShadowsMidtonesHighlights const&) = delete;
+  ShadowsMidtonesHighlights(ShadowsMidtonesHighlightsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12810 };
@@ -134,15 +137,21 @@ public:
   /// @brief Field highlights, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::Vector4Parameter* ___highlights;
 
+  /// [Header("Shadow Limits")]
+  /// [Tooltip("Start point of the transition between shadows and midtones.")]
   /// @brief Field shadowsStart, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___shadowsStart;
 
+  /// [Tooltip("End point of the transition between shadows and midtones.")]
   /// @brief Field shadowsEnd, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___shadowsEnd;
 
+  /// [Header("Highlight Limits")]
+  /// [Tooltip("Start point of the transition between midtones and highlights.")]
   /// @brief Field highlightsStart, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___highlightsStart;
 
+  /// [Tooltip("End point of the transition between midtones and highlights.")]
   /// @brief Field highlightsEnd, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___highlightsEnd;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\JumpReceiver.hpp"
+// IWYU pragma private; include "GlobalNamespace/JumpReceiver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,12 +54,14 @@ public:
   /// @brief Method .ctor, addr 0x585957c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_jumpToDestinationValid, addr 0x5859424, size 0x8, virtual false, abstract: false, final false
   inline bool get_jumpToDestinationValid();
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_jumpToDestinationValid, addr 0x585942c, size 0x8, virtual false, abstract: false, final false
   inline void set_jumpToDestinationValid(bool value);
 
@@ -69,17 +71,18 @@ protected:
   constexpr JumpReceiver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JumpReceiver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JumpReceiver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JumpReceiver(JumpReceiver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JumpReceiver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JumpReceiver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JumpReceiver(JumpReceiver const&) = delete;
+  JumpReceiver(JumpReceiverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21442 };
 
+  /// [CompilerGenerated]
   /// @brief Field <jumpToDestinationValid>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____jumpToDestinationValid_k__BackingField;
 

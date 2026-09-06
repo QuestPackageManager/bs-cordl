@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\RawAcl.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/RawAcl.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAcl_impl.hpp"
 #include "System/Security/AccessControl/zzzz__RawAcl_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

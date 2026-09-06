@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ArcAndObstacleHapticEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/ArcAndObstacleHapticEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,13 +115,13 @@ protected:
   constexpr ArcAndObstacleHapticEffectManager_EffectState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager_EffectState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager_EffectState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArcAndObstacleHapticEffectManager_EffectState(ArcAndObstacleHapticEffectManager_EffectState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager_EffectState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager_EffectState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArcAndObstacleHapticEffectManager_EffectState(ArcAndObstacleHapticEffectManager_EffectState const&) = delete;
+  ArcAndObstacleHapticEffectManager_EffectState(ArcAndObstacleHapticEffectManager_EffectStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5752 };
@@ -274,29 +274,34 @@ protected:
   constexpr ArcAndObstacleHapticEffectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArcAndObstacleHapticEffectManager(ArcAndObstacleHapticEffectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArcAndObstacleHapticEffectManager(ArcAndObstacleHapticEffectManager const&) = delete;
+  ArcAndObstacleHapticEffectManager(ArcAndObstacleHapticEffectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5753 };
 
+  /// [SerializeField]
   /// @brief Field _hapticPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____hapticPreset;
 
+  /// [Inject]
   /// @brief Field _obstacleSaberSparkleEffectManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager> ____obstacleSaberSparkleEffectManager;
 
+  /// [Inject]
   /// @brief Field _sliderInteractionManagers, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* ____sliderInteractionManagers;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _hapticFeedbackManager, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 

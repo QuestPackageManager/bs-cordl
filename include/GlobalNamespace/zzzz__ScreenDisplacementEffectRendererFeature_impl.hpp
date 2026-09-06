@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenDisplacementEffectRendererFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenDisplacementEffectRendererFeature.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "GlobalNamespace/zzzz__ScreenDisplacementEffectRendererFeature_def.hpp"

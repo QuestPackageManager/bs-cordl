@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Serialization\FormerlySerializedAsAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Serialization/FormerlySerializedAsAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class FormerlySerializedAsAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Serialization::FormerlySerializedAsAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Serialization::FormerlySerializedAsAttribute*, "UnityEngine.Serialization", "FormerlySerializedAsAttribute");
+// [AttributeUsage((System.AttributeTargets)256, AllowMultiple = true, Inherited = false)]
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace UnityEngine::Serialization {
 // Is value type: false
@@ -40,13 +42,13 @@ protected:
   constexpr FormerlySerializedAsAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormerlySerializedAsAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormerlySerializedAsAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FormerlySerializedAsAttribute(FormerlySerializedAsAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormerlySerializedAsAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormerlySerializedAsAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormerlySerializedAsAttribute(FormerlySerializedAsAttribute const&) = delete;
+  FormerlySerializedAsAttribute(FormerlySerializedAsAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10464 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\Design\Serialization\InstanceDescriptor.hpp"
+// IWYU pragma private; include "System/ComponentModel/Design/Serialization/InstanceDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,9 +72,11 @@ public:
   /// @brief Method .ctor, addr 0x63ec390, size 0x534, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Arguments, addr 0x63ec8c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Arguments();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MemberInfo, addr 0x63ec8cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
@@ -84,23 +86,26 @@ protected:
   constexpr InstanceDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstanceDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstanceDescriptor(InstanceDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstanceDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceDescriptor(InstanceDescriptor const&) = delete;
+  InstanceDescriptor(InstanceDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11360 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Arguments>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ICollection* ____Arguments_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsComplete>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____IsComplete_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MemberInfo>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ____MemberInfo_k__BackingField;
 

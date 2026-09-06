@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Vector4Field.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Vector4Field.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,13 +16,17 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> struct BaseCompositeField_3_FieldDescription;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+struct BaseCompositeField_3_FieldDescription;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> class FieldDescription_BaseCompositeField_3_WriteDelegate;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+class FieldDescription_BaseCompositeField_3_WriteDelegate;
 }
 namespace UnityEngine::UIElements {
 class FloatField;
@@ -70,6 +74,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Vector4Field*, "UnityEngine.UIEle
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Vector4Field_UxmlFactory*, "UnityEngine.UIElements", "Vector4Field/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Vector4Field_UxmlTraits*, "UnityEngine.UIElements", "Vector4Field/UxmlTraits");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Vector4Field___c*, "UnityEngine.UIElements", "Vector4Field/<>c");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -88,13 +93,13 @@ protected:
   constexpr Vector4Field_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector4Field_UxmlFactory(Vector4Field_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector4Field_UxmlFactory(Vector4Field_UxmlFactory const&) = delete;
+  Vector4Field_UxmlFactory(Vector4Field_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4165 };
@@ -105,6 +110,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Vector4Field_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>, UnityEngine.Vector4
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -162,13 +168,13 @@ protected:
   constexpr Vector4Field_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector4Field_UxmlTraits(Vector4Field_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector4Field_UxmlTraits(Vector4Field_UxmlTraits const&) = delete;
+  Vector4Field_UxmlTraits(Vector4Field_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4166 };
@@ -199,6 +205,7 @@ static_assert(offsetof(::UnityEngine::UIElements::Vector4Field_UxmlTraits, ___m_
 static_assert(sizeof(::UnityEngine::UIElements::Vector4Field_UxmlTraits) == 0xb8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -316,13 +323,13 @@ protected:
   constexpr Vector4Field___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector4Field___c(Vector4Field___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector4Field___c(Vector4Field___c const&) = delete;
+  Vector4Field___c(Vector4Field___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4167 };
@@ -333,6 +340,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Vector4Field___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.UIElements.BaseCompositeField`3<TValueType, TField, TFieldValue>, UnityEngine.Vector4
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -386,13 +394,13 @@ protected:
   constexpr Vector4Field();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector4Field(Vector4Field&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector4Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector4Field(Vector4Field const&) = delete;
+  Vector4Field(Vector4Fieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4168 };

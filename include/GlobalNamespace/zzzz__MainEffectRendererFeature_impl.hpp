@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectRendererFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectRendererFeature.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectRendererFeature_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectController_def.hpp"

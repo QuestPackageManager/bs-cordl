@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\LineInfo.hpp"
+// IWYU pragma private; include "System/Xml/LineInfo.hpp"
 #include "System/Xml/zzzz__LineInfo_def.hpp"
 //  Writing Method size for method: ::System::Xml::LineInfo._ctor
 template <>
@@ -37,7 +37,8 @@ inline void System::Xml::LineInfo::Set(int32_t lineNo, int32_t linePos) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::LineInfo>(), { "Set", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, lineNo, linePos);
 }
-// Ctor Parameters [CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "linePos", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "linePos", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Xml::LineInfo::LineInfo(int32_t lineNo, int32_t linePos) noexcept {
   this->lineNo = lineNo;
   this->linePos = linePos;

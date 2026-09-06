@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\PlatformInternal.hpp"
+// IWYU pragma private; include "Oculus/Platform/PlatformInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__PlatformInternal_def.hpp"
 #include "Oculus/Platform/Models/zzzz__HttpTransferUpdate_def.hpp"
@@ -11,7 +11,7 @@
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
 #include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::PlatformInternal_MessageTypeInternal::PlatformInternal_MessageTypeInternal(uint32_t value__) noexcept {
   this->value__ = value__;
 }

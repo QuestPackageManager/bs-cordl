@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Environments\Definitions\EnvironmentsAsyncInstaller.hpp"
+// IWYU pragma private; include "Environments/Definitions/EnvironmentsAsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
@@ -44,6 +46,7 @@ MARK_REF_T(::Environments::Definitions::EnvironmentsAsyncInstaller*);
 MARK_REF_T(::Environments::Definitions::EnvironmentsAsyncInstaller___c*);
 DEFINE_IL2CPP_CLASS(::Environments::Definitions::EnvironmentsAsyncInstaller*, "Environments.Definitions", "EnvironmentsAsyncInstaller");
 DEFINE_IL2CPP_CLASS(::Environments::Definitions::EnvironmentsAsyncInstaller___c*, "Environments.Definitions", "EnvironmentsAsyncInstaller/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Environments::Definitions {
 // Is value type: false
@@ -59,6 +62,7 @@ public:
 
   static inline ::Environments::Definitions::EnvironmentsAsyncInstaller___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <LoadResourcesBeforeInstall>b__5_0, addr 0x376d010, size 0x14, virtual false, abstract: false, final false
   inline int32_t _LoadResourcesBeforeInstall_b__5_0(::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
 
@@ -79,13 +83,13 @@ protected:
   constexpr EnvironmentsAsyncInstaller___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentsAsyncInstaller___c(EnvironmentsAsyncInstaller___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsAsyncInstaller___c(EnvironmentsAsyncInstaller___c const&) = delete;
+  EnvironmentsAsyncInstaller___c(EnvironmentsAsyncInstaller___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15489 };
@@ -96,6 +100,8 @@ public:
 static_assert(sizeof(::Environments::Definitions::EnvironmentsAsyncInstaller___c) == 0x10, "Size mismatch!");
 
 } // namespace Environments::Definitions
+// [NullableContext(1)]
+// [Nullable(new[] { 0, 1 })]
 // Dependencies BGLib.AppFlow.Initialization.AddressablesAsyncInstaller`1<T>
 namespace Environments::Definitions {
 // Is value type: false
@@ -148,13 +154,13 @@ protected:
   constexpr EnvironmentsAsyncInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentsAsyncInstaller(EnvironmentsAsyncInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsAsyncInstaller(EnvironmentsAsyncInstaller const&) = delete;
+  EnvironmentsAsyncInstaller(EnvironmentsAsyncInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15490 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\EventBoxGroup.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/EventBoxGroup.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__EventBoxGroupType_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__EventBox_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

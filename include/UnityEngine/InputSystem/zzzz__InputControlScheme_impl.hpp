@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputControlScheme.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputControlScheme.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -15,7 +16,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result::MatchResult_InputControlScheme_Result(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -24,7 +25,7 @@ constexpr ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result::Mat
 constexpr ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result UnityEngine::InputSystem::MatchResult_InputControlScheme_Result::AllSatisfied{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result UnityEngine::InputSystem::MatchResult_InputControlScheme_Result::MissingRequired{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result UnityEngine::InputSystem::MatchResult_InputControlScheme_Result::MissingOptional{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags::DeviceRequirement_InputControlScheme_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -321,8 +322,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme_
 UnityEngine::InputSystem::InputControlScheme_DeviceRequirement::i___System__IEquatable_1___UnityEngine__InputSystem__InputControlScheme_DeviceRequirement_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_ControlPath", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty:
-// "::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ControlPath", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty:
+// "::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement::InputControlScheme_DeviceRequirement(
     ::StringW m_ControlPath, ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags m_Flags) noexcept {
   this->m_ControlPath = m_ControlPath;
@@ -425,9 +426,9 @@ inline bool UnityEngine::InputSystem::MatchResult_InputControlScheme_Match::get_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::MatchResult_InputControlScheme_Match>(), { "get_isOptional", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_RequirementIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Requirements", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Controls", ty:
-// "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_RequirementIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Requirements", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Controls", ty:
+// "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Match::MatchResult_InputControlScheme_Match(
     int32_t m_RequirementIndex, ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement> m_Requirements,
     ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> m_Controls) noexcept {
@@ -558,9 +559,9 @@ constexpr UnityEngine::InputSystem::MatchResult_InputControlScheme_Enumerator::o
 constexpr ::System::IDisposable* UnityEngine::InputSystem::MatchResult_InputControlScheme_Enumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Requirements", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Controls", ty:
-// "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Requirements", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Controls", ty:
+// "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Enumerator::MatchResult_InputControlScheme_Enumerator(
     int32_t m_Index, ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement> m_Requirements,
     ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> m_Controls) noexcept {
@@ -758,10 +759,11 @@ constexpr UnityEngine::InputSystem::InputControlScheme_MatchResult::operator ::S
 constexpr ::System::IDisposable* UnityEngine::InputSystem::InputControlScheme_MatchResult::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Result", ty: "::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Score", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Devices", ty: "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Controls", ty: "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Requirements", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Result", ty: "::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Score", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Devices", ty:
+// "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Controls", ty:
+// "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Requirements", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlScheme_MatchResult::InputControlScheme_MatchResult(
     ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result m_Result, float_t m_Score, ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*> m_Devices,
     ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> m_Controls,
@@ -813,8 +815,8 @@ UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson::From(::Unity
                                                                                          { "From", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson>(nullptr, ___internal_method, requirement);
 }
-// Ctor Parameters [CppParam { name: "devicePath", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "isOptional", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "isOR", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "devicePath", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isOptional", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "isOR", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson::SchemeJson_InputControlScheme_DeviceJson(::StringW devicePath, bool isOptional, bool isOR) noexcept {
   this->devicePath = devicePath;
   this->isOptional = isOptional;
@@ -900,8 +902,8 @@ UnityEngine::InputSystem::InputControlScheme_SchemeJson::ToSchemes(::ArrayW<::Un
                                                            { "ToSchemes", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::InputSystem::InputControlScheme>>(nullptr, ___internal_method, schemes);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "bindingGroup", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "devices", ty: "::ArrayW<::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bindingGroup", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "devices", ty: "::ArrayW<::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlScheme_SchemeJson::InputControlScheme_SchemeJson(::StringW name, ::StringW bindingGroup,
                                                                                                    ::ArrayW<::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson> devices) noexcept {
   this->name = name;
@@ -1129,6 +1131,7 @@ inline void UnityEngine::InputSystem::InputControlScheme::SetNameAndBindingGroup
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, name, bindingGroup);
 }
 template <typename TDevices, typename TSchemes>
+  requires(::cordl_internals::type_constraint<TDevices, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::InputDevice*>*>)
 inline ::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme>
 UnityEngine::InputSystem::InputControlScheme::FindControlSchemeForDevices(TDevices devices, TSchemes schemes, ::UnityEngine::InputSystem::InputDevice* mustIncludeDevice, bool allowUnsuccesfulMatch) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1141,6 +1144,7 @@ UnityEngine::InputSystem::InputControlScheme::FindControlSchemeForDevices(TDevic
                                                                                                                    allowUnsuccesfulMatch);
 }
 template <typename TDevices, typename TSchemes>
+  requires(::cordl_internals::type_constraint<TDevices, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::InputDevice*>*>)
 inline bool UnityEngine::InputSystem::InputControlScheme::FindControlSchemeForDevices(TDevices devices, TSchemes schemes, ::by_ref<::UnityEngine::InputSystem::InputControlScheme> controlScheme,
                                                                                       ::by_ref<::UnityEngine::InputSystem::InputControlScheme_MatchResult> matchResult,
                                                                                       ::UnityEngine::InputSystem::InputDevice* mustIncludeDevice, bool allowUnsuccessfulMatch) {
@@ -1171,6 +1175,7 @@ inline bool UnityEngine::InputSystem::InputControlScheme::SupportsDevice(::Unity
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, device);
 }
 template <typename TDevices>
+  requires(::cordl_internals::type_constraint<TDevices, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::InputDevice*>*>)
 inline ::UnityEngine::InputSystem::InputControlScheme_MatchResult UnityEngine::InputSystem::InputControlScheme::PickDevicesFrom(TDevices devices,
                                                                                                                                 ::UnityEngine::InputSystem::InputDevice* favorDevice) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1223,8 +1228,9 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme>
 UnityEngine::InputSystem::InputControlScheme::i___System__IEquatable_1___UnityEngine__InputSystem__InputControlScheme_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingGroup", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_DeviceRequirements", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BindingGroup", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_DeviceRequirements", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlScheme::InputControlScheme(::StringW m_Name, ::StringW m_BindingGroup,
                                                                              ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement> m_DeviceRequirements) noexcept {
   this->m_Name = m_Name;

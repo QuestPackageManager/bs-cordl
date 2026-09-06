@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingInfo.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingInfo.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingInfo_def.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_def.hpp"
@@ -74,7 +74,7 @@ inline ::UnityEngine::UIElements::Binding* UnityEngine::UIElements::BindingInfo:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(), { "get_binding", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Binding*>(*this, ___internal_method);
 }
-inline void UnityEngine::UIElements::BindingInfo::_ctor(::UnityEngine::UIElements::VisualElement* targetElement, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline void UnityEngine::UIElements::BindingInfo::_ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                                         ::UnityEngine::UIElements::Binding* binding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(),
@@ -85,7 +85,8 @@ inline void UnityEngine::UIElements::BindingInfo::_ctor(::UnityEngine::UIElement
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, targetElement, bindingId, binding);
 }
 inline ::UnityEngine::UIElements::BindingInfo UnityEngine::UIElements::BindingInfo::FromRequest(::UnityEngine::UIElements::VisualElement* target,
-                                                                                                ::by_ref<::Unity::Properties::PropertyPath> targetPath, ::UnityEngine::UIElements::Binding* binding) {
+                                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> targetPath,
+                                                                                                ::UnityEngine::UIElements::Binding* binding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(),
                                                            { "FromRequest",
@@ -94,15 +95,16 @@ inline ::UnityEngine::UIElements::BindingInfo UnityEngine::UIElements::BindingIn
                                                                ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingInfo>(nullptr, ___internal_method, target, targetPath, binding);
 }
-inline ::UnityEngine::UIElements::BindingInfo UnityEngine::UIElements::BindingInfo::FromBindingData(::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData) {
+inline ::UnityEngine::UIElements::BindingInfo
+UnityEngine::UIElements::BindingInfo::FromBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(),
                                                            { "FromBindingData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingInfo>(nullptr, ___internal_method, bindingData);
 }
-// Ctor Parameters [CppParam { name: "_targetElement_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_bindingId_k__BackingField", ty: "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}") }, CppParam { name: "_binding_k__BackingField", ty:
-// "::UnityEngine::UIElements::Binding*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_targetElement_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_bindingId_k__BackingField", ty: "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_binding_k__BackingField", ty:
+// "::UnityEngine::UIElements::Binding*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BindingInfo::BindingInfo(::UnityEngine::UIElements::VisualElement* _targetElement_k__BackingField, ::UnityEngine::UIElements::BindingId _bindingId_k__BackingField,
                                                               ::UnityEngine::UIElements::Binding* _binding_k__BackingField) noexcept {
   this->_targetElement_k__BackingField = _targetElement_k__BackingField;

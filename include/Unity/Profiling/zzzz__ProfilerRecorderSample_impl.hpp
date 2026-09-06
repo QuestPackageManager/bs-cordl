@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerRecorderSample.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerRecorderSample.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorderSample_def.hpp"
 //  Writing Method size for method: ::Unity::Profiling::ProfilerRecorderSample.get_Value
 template <>
@@ -33,8 +33,8 @@ inline int64_t Unity::Profiling::ProfilerRecorderSample::get_Count() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerRecorderSample>(), { "get_Count", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "count", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "refValue", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "count", ty: "int64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "refValue", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::ProfilerRecorderSample::ProfilerRecorderSample(int64_t value, int64_t count, int64_t refValue) noexcept {
   this->value = value;
   this->count = count;

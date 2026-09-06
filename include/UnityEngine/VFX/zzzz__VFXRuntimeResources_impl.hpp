@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXRuntimeResources.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXRuntimeResources.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXRuntimeResources_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"

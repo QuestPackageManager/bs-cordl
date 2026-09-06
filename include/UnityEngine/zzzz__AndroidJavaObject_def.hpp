@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AndroidJavaObject.hpp"
+// IWYU pragma private; include "UnityEngine/AndroidJavaObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,49 +61,49 @@ public:
   static inline ::UnityEngine::AndroidJavaObject* AndroidJavaObjectDeleteLocalRef(::System::IntPtr jobject);
 
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename ReturnType> inline ReturnType Call(::System::IntPtr methodID, ::ArrayW<::System::Object*> args);
+  template <typename ReturnType> inline ReturnType Call(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType, typename T> inline ReturnType Call(::System::IntPtr methodID, ::ArrayW<T> args);
 
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename ReturnType> inline ReturnType Call(::StringW methodName, ::ArrayW<::System::Object*> args);
+  template <typename ReturnType> inline ReturnType Call(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType, typename T> inline ReturnType Call(::StringW methodName, ::ArrayW<T> args);
 
   /// @brief Method Call, addr 0x6a30a20, size 0x4, virtual false, abstract: false, final false
-  inline void Call(::System::IntPtr methodID, ::ArrayW<::System::Object*> args);
+  inline void Call(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Call(::System::IntPtr methodID, ::ArrayW<T> args);
 
   /// @brief Method Call, addr 0x6a309dc, size 0x4, virtual false, abstract: false, final false
-  inline void Call(::StringW methodName, ::ArrayW<::System::Object*> args);
+  inline void Call(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Call(::StringW methodName, ::ArrayW<T> args);
 
   /// @brief Method CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename ReturnType> inline ReturnType CallStatic(::System::IntPtr methodID, ::ArrayW<::System::Object*> args);
+  template <typename ReturnType> inline ReturnType CallStatic(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType, typename T> inline ReturnType CallStatic(::System::IntPtr methodID, ::ArrayW<T> args);
 
   /// @brief Method CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename ReturnType> inline ReturnType CallStatic(::StringW methodName, ::ArrayW<::System::Object*> args);
+  template <typename ReturnType> inline ReturnType CallStatic(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType, typename T> inline ReturnType CallStatic(::StringW methodName, ::ArrayW<T> args);
 
   /// @brief Method CallStatic, addr 0x6a30ca8, size 0x4, virtual false, abstract: false, final false
-  inline void CallStatic(::System::IntPtr methodID, ::ArrayW<::System::Object*> args);
+  inline void CallStatic(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void CallStatic(::System::IntPtr methodID, ::ArrayW<T> args);
 
   /// @brief Method CallStatic, addr 0x6a30c64, size 0x4, virtual false, abstract: false, final false
-  inline void CallStatic(::StringW methodName, ::ArrayW<::System::Object*> args);
+  inline void CallStatic(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void CallStatic(::StringW methodName, ::ArrayW<T> args);
@@ -154,7 +154,7 @@ public:
 
   static inline ::UnityEngine::AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::StringW> args);
 
-  static inline ::UnityEngine::AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::System::Object*> args);
+  static inline ::UnityEngine::AndroidJavaObject* New_ctor(::StringW className, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   static inline ::UnityEngine::AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaClass*> args);
 
@@ -164,7 +164,7 @@ public:
 
   static inline ::UnityEngine::AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaRunnable*> args);
 
-  static inline ::UnityEngine::AndroidJavaObject* New_ctor(::System::IntPtr clazz, ::System::IntPtr constructorID, ::ArrayW<::System::Object*> args);
+  static inline ::UnityEngine::AndroidJavaObject* New_ctor(::System::IntPtr clazz, ::System::IntPtr constructorID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   static inline ::UnityEngine::AndroidJavaObject* New_ctor(::System::IntPtr jobject);
 
@@ -181,34 +181,34 @@ public:
   template <typename FieldType> inline void SetStatic(::StringW fieldName, FieldType val);
 
   /// @brief Method _AndroidJavaObject, addr 0x6a3029c, size 0x148, virtual false, abstract: false, final false
-  inline void _AndroidJavaObject(::StringW className, ::ArrayW<::System::Object*> args);
+  inline void _AndroidJavaObject(::StringW className, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _AndroidJavaObject, addr 0x6a30750, size 0x28c, virtual false, abstract: false, final false
-  inline void _AndroidJavaObject(::System::IntPtr constructorID, ::ArrayW<::System::Object*> args);
+  inline void _AndroidJavaObject(::System::IntPtr constructorID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename ReturnType> inline ReturnType _Call(::System::IntPtr methodID, ::ArrayW<::System::Object*> args);
+  template <typename ReturnType> inline ReturnType _Call(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename ReturnType> inline ReturnType _Call(::StringW methodName, ::ArrayW<::System::Object*> args);
+  template <typename ReturnType> inline ReturnType _Call(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _Call, addr 0x6a30a24, size 0x240, virtual false, abstract: false, final false
-  inline void _Call(::System::IntPtr methodID, ::ArrayW<::System::Object*> args);
+  inline void _Call(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _Call, addr 0x6a309e0, size 0x40, virtual false, abstract: false, final false
-  inline void _Call(::StringW methodName, ::ArrayW<::System::Object*> args);
+  inline void _Call(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename ReturnType> inline ReturnType _CallStatic(::System::IntPtr methodID, ::ArrayW<::System::Object*> args);
+  template <typename ReturnType> inline ReturnType _CallStatic(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename ReturnType> inline ReturnType _CallStatic(::StringW methodName, ::ArrayW<::System::Object*> args);
+  template <typename ReturnType> inline ReturnType _CallStatic(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _CallStatic, addr 0x6a30cac, size 0x240, virtual false, abstract: false, final false
-  inline void _CallStatic(::System::IntPtr methodID, ::ArrayW<::System::Object*> args);
+  inline void _CallStatic(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _CallStatic, addr 0x6a30c68, size 0x40, virtual false, abstract: false, final false
-  inline void _CallStatic(::StringW methodName, ::ArrayW<::System::Object*> args);
+  inline void _CallStatic(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method _Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename FieldType> inline FieldType _Get(::System::IntPtr fieldID);
@@ -259,7 +259,7 @@ public:
   inline void _ctor(::StringW className, ::ArrayW<::StringW> args);
 
   /// @brief Method .ctor, addr 0x6a30694, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW className, ::ArrayW<::System::Object*> args);
+  inline void _ctor(::StringW className, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method .ctor, addr 0x6a30490, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaClass*> args);
@@ -274,7 +274,7 @@ public:
   inline void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaRunnable*> args);
 
   /// @brief Method .ctor, addr 0x6a30698, size 0xb8, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr clazz, ::System::IntPtr constructorID, ::ArrayW<::System::Object*> args);
+  inline void _ctor(::System::IntPtr clazz, ::System::IntPtr constructorID, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method .ctor, addr 0x6a2ef6c, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr jobject);
@@ -292,13 +292,13 @@ protected:
   constexpr AndroidJavaObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidJavaObject(AndroidJavaObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidJavaObject(AndroidJavaObject const&) = delete;
+  AndroidJavaObject(AndroidJavaObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20159 };

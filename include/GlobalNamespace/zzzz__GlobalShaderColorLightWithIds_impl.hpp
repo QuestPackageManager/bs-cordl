@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GlobalShaderColorLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/GlobalShaderColorLightWithIds.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__GlobalShaderColorLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__GlobalShaderColorLightWithIds_def.hpp"

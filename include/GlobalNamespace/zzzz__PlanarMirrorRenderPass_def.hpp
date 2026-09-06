@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlanarMirrorRenderPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlanarMirrorRenderPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,9 @@ namespace UnityEngine::Experimental::Rendering {
 class XRPass;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -122,13 +124,13 @@ protected:
   constexpr PlanarMirrorRenderPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlanarMirrorRenderPass_PassData(PlanarMirrorRenderPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlanarMirrorRenderPass_PassData(PlanarMirrorRenderPass_PassData const&) = delete;
+  PlanarMirrorRenderPass_PassData(PlanarMirrorRenderPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20661 };
@@ -159,6 +161,7 @@ static_assert(offsetof(::GlobalNamespace::PlanarMirrorRenderPass_PassData, ___tr
 static_assert(sizeof(::GlobalNamespace::PlanarMirrorRenderPass_PassData) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -198,13 +201,13 @@ protected:
   constexpr PlanarMirrorRenderPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlanarMirrorRenderPass___c(PlanarMirrorRenderPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlanarMirrorRenderPass___c(PlanarMirrorRenderPass___c const&) = delete;
+  PlanarMirrorRenderPass___c(PlanarMirrorRenderPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20662 };
@@ -287,13 +290,13 @@ protected:
   constexpr PlanarMirrorRenderPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlanarMirrorRenderPass(PlanarMirrorRenderPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlanarMirrorRenderPass(PlanarMirrorRenderPass const&) = delete;
+  PlanarMirrorRenderPass(PlanarMirrorRenderPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20663 };

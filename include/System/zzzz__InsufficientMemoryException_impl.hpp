@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\InsufficientMemoryException.hpp"
+// IWYU pragma private; include "System/InsufficientMemoryException.hpp"
 #include "System/zzzz__OutOfMemoryException_impl.hpp"
 #include "System/zzzz__InsufficientMemoryException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

@@ -1,57 +1,61 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Hammersley.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Hammersley.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__Hammersley_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__Hammersley_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer(float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "hammersley2dSeq16", ty: "::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hammersley2dSeq16", ty: "::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::Rendering::Hammersley_Hammersley2dSeq16::Hammersley_Hammersley2dSeq16(
     ::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer hammersley2dSeq16) noexcept {
   this->hammersley2dSeq16 = hammersley2dSeq16;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Hammersley_Hammersley2dSeq16::Hammersley_Hammersley2dSeq16() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer(float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "hammersley2dSeq32", ty: "::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hammersley2dSeq32", ty: "::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::Rendering::Hammersley_Hammersley2dSeq32::Hammersley_Hammersley2dSeq32(
     ::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer hammersley2dSeq32) noexcept {
   this->hammersley2dSeq32 = hammersley2dSeq32;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Hammersley_Hammersley2dSeq32::Hammersley_Hammersley2dSeq32() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer(float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "hammersley2dSeq64", ty: "::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hammersley2dSeq64", ty: "::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::Rendering::Hammersley_Hammersley2dSeq64::Hammersley_Hammersley2dSeq64(
     ::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer hammersley2dSeq64) noexcept {
   this->hammersley2dSeq64 = hammersley2dSeq64;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Hammersley_Hammersley2dSeq64::Hammersley_Hammersley2dSeq64() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer(
     float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "hammersley2dSeq256", ty: "::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hammersley2dSeq256", ty: "::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::Hammersley_Hammersley2dSeq256::Hammersley_Hammersley2dSeq256(
     ::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer hammersley2dSeq256) noexcept {
   this->hammersley2dSeq256 = hammersley2dSeq256;

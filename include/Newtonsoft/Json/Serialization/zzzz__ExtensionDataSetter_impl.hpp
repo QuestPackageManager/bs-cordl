@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ExtensionDataSetter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ExtensionDataSetter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ExtensionDataSetter_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -68,12 +68,13 @@ inline void Newtonsoft::Json::Serialization::ExtensionDataSetter::_ctor(::System
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void Newtonsoft::Json::Serialization::ExtensionDataSetter::Invoke(::System::Object* o, ::StringW key, ::System::Object* value) {
+inline void Newtonsoft::Json::Serialization::ExtensionDataSetter::Invoke(::System::Object* o, ::StringW key, /* [Nullable(2)] */ ::System::Object* value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::ExtensionDataSetter*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, o, key, value);
 }
-inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::ExtensionDataSetter::BeginInvoke(::System::Object* o, ::StringW key, ::System::Object* value, ::System::AsyncCallback* callback,
+inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::ExtensionDataSetter::BeginInvoke(/* [Nullable(1)] */ ::System::Object* o, /* [Nullable(1)] */ ::StringW key,
+                                                                                                 /* [Nullable(2)] */ ::System::Object* value, ::System::AsyncCallback* callback,
                                                                                                  ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::ExtensionDataSetter*>(), 14 })));

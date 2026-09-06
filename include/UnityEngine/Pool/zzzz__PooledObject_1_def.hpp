@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Pool\PooledObject_1.hpp"
+// IWYU pragma private; include "UnityEngine/Pool/PooledObject_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,11 +9,15 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::Pool {
-template <typename T> class IObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class IObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
-template <typename T> struct PooledObject_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct PooledObject_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Pool::PooledObject_1);
@@ -22,6 +26,7 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Pool::PooledObject_1, "UnityEngine.Pool",
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Pool.PooledObject`1<T>
 struct CORDL_TYPE PooledObject_1 {
@@ -43,8 +48,8 @@ public:
   // @brief default ctor
   constexpr PooledObject_1();
 
-  // Ctor Parameters [CppParam { name: "m_ToReturn", ty: "T", modifiers: "", def_value: None }, CppParam { name: "m_Pool", ty: "::UnityEngine::Pool::IObjectPool_1<T>*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "m_ToReturn", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Pool", ty: "::UnityEngine::Pool::IObjectPool_1<T>*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr PooledObject_1(T m_ToReturn, ::UnityEngine::Pool::IObjectPool_1<T>* m_Pool) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

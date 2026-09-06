@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUI.hpp"
+// IWYU pragma private; include "UnityEngine/GUI.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

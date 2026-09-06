@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\ExecuteEvents.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/ExecuteEvents.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__ExecuteEvents_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -773,7 +774,9 @@ inline void UnityEngine::EventSystems::ExecuteEvents::setStaticF_s_InternalTrans
 inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* UnityEngine::EventSystems::ExecuteEvents::getStaticF_s_InternalTransformList() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*, "s_InternalTransformList", ::UnityEngine::EventSystems::ExecuteEvents*>();
 }
-template <typename T> inline T UnityEngine::EventSystems::ExecuteEvents::ValidateEventData(::UnityEngine::EventSystems::BaseEventData* data) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T UnityEngine::EventSystems::ExecuteEvents::ValidateEventData(::UnityEngine::EventSystems::BaseEventData* data) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::ExecuteEvents*>(),
                                                            { "ValidateEventData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>() } })));
@@ -978,6 +981,7 @@ inline void UnityEngine::EventSystems::ExecuteEvents::GetEventChain(::UnityEngin
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, root, eventChain);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
 inline bool UnityEngine::EventSystems::ExecuteEvents::Execute(::UnityEngine::GameObject* target, ::UnityEngine::EventSystems::BaseEventData* eventData,
                                                               ::UnityEngine::EventSystems::ExecuteEvents_EventFunction_1<T>* functor) {
   static auto* ___internal_method_base =
@@ -990,6 +994,7 @@ inline bool UnityEngine::EventSystems::ExecuteEvents::Execute(::UnityEngine::Gam
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, target, eventData, functor);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
 inline ::UnityW<::UnityEngine::GameObject> UnityEngine::EventSystems::ExecuteEvents::ExecuteHierarchy(::UnityEngine::GameObject* root, ::UnityEngine::EventSystems::BaseEventData* eventData,
                                                                                                       ::UnityEngine::EventSystems::ExecuteEvents_EventFunction_1<T>* callbackFunction) {
   static auto* ___internal_method_base =
@@ -1001,13 +1006,16 @@ inline ::UnityW<::UnityEngine::GameObject> UnityEngine::EventSystems::ExecuteEve
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, root, eventData, callbackFunction);
 }
-template <typename T> inline bool UnityEngine::EventSystems::ExecuteEvents::ShouldSendToComponent(::UnityEngine::Component* component) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
+inline bool UnityEngine::EventSystems::ExecuteEvents::ShouldSendToComponent(::UnityEngine::Component* component) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::ExecuteEvents*>(),
                                                                                               { "ShouldSendToComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Component*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, component);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
 inline void UnityEngine::EventSystems::ExecuteEvents::GetEventList(::UnityEngine::GameObject* go, ::System::Collections::Generic::IList_1<::UnityEngine::EventSystems::IEventSystemHandler*>* results) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1018,13 +1026,17 @@ inline void UnityEngine::EventSystems::ExecuteEvents::GetEventList(::UnityEngine
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, go, results);
 }
-template <typename T> inline bool UnityEngine::EventSystems::ExecuteEvents::CanHandleEvent(::UnityEngine::GameObject* go) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
+inline bool UnityEngine::EventSystems::ExecuteEvents::CanHandleEvent(::UnityEngine::GameObject* go) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::ExecuteEvents*>(),
                                                                                               { "CanHandleEvent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, go);
 }
-template <typename T> inline ::UnityW<::UnityEngine::GameObject> UnityEngine::EventSystems::ExecuteEvents::GetEventHandler(::UnityEngine::GameObject* root) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::EventSystems::ExecuteEvents::GetEventHandler(::UnityEngine::GameObject* root) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::ExecuteEvents*>(),
                                                                                               { "GetEventHandler", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

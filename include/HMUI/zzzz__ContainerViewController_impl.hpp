@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ContainerViewController.hpp"
+// IWYU pragma private; include "HMUI/ContainerViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__ContainerViewController_def.hpp"
@@ -304,6 +304,7 @@ inline ::System::Object* HMUI::ContainerViewController__AddViewControllerCorouti
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16* HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(__1__state));
 }
@@ -586,6 +587,7 @@ inline ::System::Object* HMUI::ContainerViewController__RemoveViewControllersCor
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18* HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(__1__state));
 }
@@ -930,7 +932,7 @@ inline void HMUI::ContainerViewController::SetChildViewController(::HMUI::ViewCo
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "SetChildViewController", {}, { ::i2c::type_of<::HMUI::ViewController*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, viewController);
 }
-inline void HMUI::ContainerViewController::SetChildViewControllers(::ArrayW<::HMUI::ViewController*> viewControllers) {
+inline void HMUI::ContainerViewController::SetChildViewControllers(/* [ParamArray] */ ::ArrayW<::HMUI::ViewController*> viewControllers) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "SetChildViewControllers", {}, { ::i2c::type_of<::ArrayW<::HMUI::ViewController*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, viewControllers);

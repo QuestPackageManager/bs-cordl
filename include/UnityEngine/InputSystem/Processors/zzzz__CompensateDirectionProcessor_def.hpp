@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Processors\CompensateDirectionProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Processors/CompensateDirectionProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class CompensateDirectionProcessor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor*, "UnityEngine.InputSystem.Processors", "CompensateDirectionProcessor");
+// [DesignTimeVisible(false)]
 // Dependencies UnityEngine.InputSystem.InputProcessor`1<TValue>, UnityEngine.Vector3
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
@@ -52,13 +53,13 @@ protected:
   constexpr CompensateDirectionProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompensateDirectionProcessor(CompensateDirectionProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompensateDirectionProcessor(CompensateDirectionProcessor const&) = delete;
+  CompensateDirectionProcessor(CompensateDirectionProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9076 };

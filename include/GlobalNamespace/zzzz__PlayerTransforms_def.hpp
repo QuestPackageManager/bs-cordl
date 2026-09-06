@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerTransforms.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerTransforms.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class PlayerTransforms;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PlayerTransforms*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerTransforms*, "", "PlayerTransforms");
+// [AddComponentMenu("Beat Saber/Gameplay/PlayerTransforms")]
 // Dependencies BeatmapKey, System.Nullable`1<T>, UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -254,29 +255,34 @@ protected:
   constexpr PlayerTransforms();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerTransforms", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerTransforms", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerTransforms(PlayerTransforms&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerTransforms", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerTransforms", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerTransforms(PlayerTransforms const&) = delete;
+  PlayerTransforms(PlayerTransformsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6212 };
 
+  /// [SerializeField]
   /// @brief Field _headTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headTransform;
 
+  /// [SerializeField]
   /// @brief Field _originTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____originTransform;
 
+  /// [SerializeField]
   /// @brief Field _leftHandTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____leftHandTransform;
 
+  /// [SerializeField]
   /// @brief Field _rightHandTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____rightHandTransform;
 
+  /// [InjectOptional]
   /// @brief Field _beatmapKey, offset: 0x40, size: 0x18, def value: None
   ::System::Nullable_1<::GlobalNamespace::BeatmapKey> ____beatmapKey;
 

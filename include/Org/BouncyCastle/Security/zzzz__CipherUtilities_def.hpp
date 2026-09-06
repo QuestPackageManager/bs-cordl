@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\CipherUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/CipherUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,7 +120,7 @@ public:
   // @brief default ctor
   constexpr CipherUtilities_CipherAlgorithm();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CipherUtilities_CipherAlgorithm(int32_t value__) noexcept;
 
   /// @brief Field AES value: I32(0)
@@ -298,7 +298,7 @@ public:
   // @brief default ctor
   constexpr CipherUtilities_CipherMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CipherUtilities_CipherMode(int32_t value__) noexcept;
 
   /// @brief Field CBC value: I32(2)
@@ -419,7 +419,7 @@ public:
   // @brief default ctor
   constexpr CipherUtilities_CipherPadding();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CipherUtilities_CipherPadding(int32_t value__) noexcept;
 
   /// @brief Field ISO10126D2PADDING value: I32(3)
@@ -594,13 +594,13 @@ protected:
   constexpr CipherUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CipherUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CipherUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CipherUtilities(CipherUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CipherUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CipherUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CipherUtilities(CipherUtilities const&) = delete;
+  CipherUtilities(CipherUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1743 };

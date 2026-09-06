@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SortingSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SortingSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__DistanceMetric_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SortingCriteria_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
@@ -125,10 +125,10 @@ constexpr UnityEngine::Rendering::SortingSettings::operator ::System::IEquatable
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SortingSettings>* UnityEngine::Rendering::SortingSettings::i___System__IEquatable_1___UnityEngine__Rendering__SortingSettings_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::SortingSettings>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_WorldToCameraMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CustomAxis", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Criteria", ty:
-// "::UnityEngine::Rendering::SortingCriteria", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DistanceMetric", ty: "::UnityEngine::Rendering::DistanceMetric", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_WorldToCameraMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CameraPosition", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CustomAxis", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "m_Criteria", ty: "::UnityEngine::Rendering::SortingCriteria", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DistanceMetric", ty:
+// "::UnityEngine::Rendering::DistanceMetric", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SortingSettings::SortingSettings(::UnityEngine::Matrix4x4 m_WorldToCameraMatrix, ::UnityEngine::Vector3 m_CameraPosition, ::UnityEngine::Vector3 m_CustomAxis,
                                                                      ::UnityEngine::Rendering::SortingCriteria m_Criteria, ::UnityEngine::Rendering::DistanceMetric m_DistanceMetric) noexcept {
   this->m_WorldToCameraMatrix = m_WorldToCameraMatrix;

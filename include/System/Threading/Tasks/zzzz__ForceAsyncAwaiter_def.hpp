@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\ForceAsyncAwaiter.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/ForceAsyncAwaiter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ struct ForceAsyncAwaiter;
 // Write type traits
 MARK_VAL_T(::System::Threading::Tasks::ForceAsyncAwaiter);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::ForceAsyncAwaiter, "System.Threading.Tasks", "ForceAsyncAwaiter");
+// [IsReadOnly]
 // Dependencies
 namespace System::Threading::Tasks {
 // Is value type: true
@@ -67,7 +68,7 @@ public:
   // @brief default ctor
   constexpr ForceAsyncAwaiter();
 
-  // Ctor Parameters [CppParam { name: "_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None }]
   constexpr ForceAsyncAwaiter(::System::Threading::Tasks::Task* _task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

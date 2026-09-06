@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\IPAddress.hpp"
+// IWYU pragma private; include "System/Net/IPAddress.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -245,13 +245,13 @@ protected:
   constexpr IPAddress();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddress", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddress", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IPAddress(IPAddress&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddress", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddress", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPAddress(IPAddress const&) = delete;
+  IPAddress(IPAddressconst&) = delete;
 
   /// @brief Field LoopbackMask offset 0xffffffff size 0x8
   static constexpr int64_t LoopbackMask{ static_cast<int64_t>(0xff) };

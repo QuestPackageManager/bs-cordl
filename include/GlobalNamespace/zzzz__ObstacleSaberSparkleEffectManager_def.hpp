@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleSaberSparkleEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleSaberSparkleEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,13 +128,13 @@ protected:
   constexpr ObstacleSaberSparkleEffectManager_BoxSideRotations();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager_BoxSideRotations", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager_BoxSideRotations", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleSaberSparkleEffectManager_BoxSideRotations(ObstacleSaberSparkleEffectManager_BoxSideRotations&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager_BoxSideRotations", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager_BoxSideRotations", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleSaberSparkleEffectManager_BoxSideRotations(ObstacleSaberSparkleEffectManager_BoxSideRotations const&) = delete;
+  ObstacleSaberSparkleEffectManager_BoxSideRotations(ObstacleSaberSparkleEffectManager_BoxSideRotationsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5813 };
@@ -145,6 +145,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::ObstacleSaberSparkleEffectManager_BoxSideRotations) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/ObstacleSaberSparkleEffectManager")]
 // Dependencies ObstacleSaberSparkleEffect, Saber, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -193,16 +194,17 @@ public:
                       put = __cordl_internal_set_sparkleEffectDidStartEvent)) ::System::Action_1<::GlobalNamespace::SaberType>* sparkleEffectDidStartEvent;
 
   /// @brief Method FindBoxSurfaceRotation, addr 0x598d5cc, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion FindBoxSurfaceRotation(::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 position);
+  static inline ::UnityEngine::Quaternion FindBoxSurfaceRotation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 position);
 
   /// @brief Method IntersectBounds, addr 0x598d040, size 0x1e0, virtual false, abstract: false, final false
   static inline bool IntersectBounds(::UnityEngine::Bounds bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end);
 
   /// @brief Method IntersectBoxSurfacePose, addr 0x598cffc, size 0x44, virtual false, abstract: false, final false
-  static inline bool IntersectBoxSurfacePose(::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::Pose> hit);
+  static inline bool IntersectBoxSurfacePose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::Pose> hit);
 
   /// @brief Method IntersectBoxSurfacePosition, addr 0x598d220, size 0x3ac, virtual false, abstract: false, final false
-  static inline bool IntersectBoxSurfacePosition(::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::Vector3> hit);
+  static inline bool IntersectBoxSurfacePosition(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end,
+                                                 ::by_ref<::UnityEngine::Vector3> hit);
 
   /// @brief Method IntersectSaberWithObstacles, addr 0x598cce0, size 0x31c, virtual false, abstract: false, final false
   static inline bool IntersectSaberWithObstacles(::GlobalNamespace::Saber* saber, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacles,
@@ -285,15 +287,19 @@ public:
   /// @brief Method .ctor, addr 0x598d778, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_sparkleEffectDidEndEvent, addr 0x598c67c, size 0xc0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_sparkleEffectDidStartEvent, addr 0x598c4fc, size 0xc0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x598c73c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x598c5bc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
@@ -303,35 +309,42 @@ protected:
   constexpr ObstacleSaberSparkleEffectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleSaberSparkleEffectManager(ObstacleSaberSparkleEffectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleSaberSparkleEffectManager(ObstacleSaberSparkleEffectManager const&) = delete;
+  ObstacleSaberSparkleEffectManager(ObstacleSaberSparkleEffectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5814 };
 
+  /// [SerializeField]
   /// @brief Field _obstacleSaberSparkleEffectPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect> ____obstacleSaberSparkleEffectPrefab;
 
+  /// [SerializeField]
   /// @brief Field _rumblePreset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____rumblePreset;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _hapticFeedbackManager, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x50, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
@@ -341,9 +354,11 @@ public:
   /// @brief Field _effects, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>> ____effects;
 
+  /// [CompilerGenerated]
   /// @brief Field sparkleEffectDidStartEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::SaberType>* ___sparkleEffectDidStartEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field sparkleEffectDidEndEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::SaberType>* ___sparkleEffectDidEndEvent;
 

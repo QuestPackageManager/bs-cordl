@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextGenerator.hpp"
+// IWYU pragma private; include "UnityEngine/TextGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,13 +102,13 @@ protected:
   constexpr TextGenerator_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextGenerator_BindingsMarshaller(TextGenerator_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextGenerator_BindingsMarshaller(TextGenerator_BindingsMarshaller const&) = delete;
+  TextGenerator_BindingsMarshaller(TextGenerator_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22416 };
@@ -119,6 +119,8 @@ public:
 static_assert(sizeof(::UnityEngine::TextGenerator_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/TextRendering/TextGenerator.h")]
+// [UsedByNativeCode]
 // Dependencies System.IntPtr, System.Object, UnityEngine.TextGenerationError, UnityEngine.TextGenerationSettings
 namespace UnityEngine {
 // Is value type: false
@@ -184,6 +186,7 @@ public:
   /// @brief Method GetCharacters, addr 0x6c15c54, size 0x4, virtual false, abstract: false, final false
   inline void GetCharacters(::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* characters);
 
+  /// [NativeThrows]
   /// @brief Method GetCharactersInternal, addr 0x6c15c58, size 0x58, virtual false, abstract: false, final false
   inline void GetCharactersInternal(::System::Object* characters);
 
@@ -193,6 +196,7 @@ public:
   /// @brief Method GetLines, addr 0x6c15cb0, size 0x4, virtual false, abstract: false, final false
   inline void GetLines(::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>* lines);
 
+  /// [NativeThrows]
   /// @brief Method GetLinesInternal, addr 0x6c15cb4, size 0x58, virtual false, abstract: false, final false
   inline void GetLinesInternal(::System::Object* lines);
 
@@ -208,15 +212,18 @@ public:
   /// @brief Method GetVertices, addr 0x6c15d0c, size 0x4, virtual false, abstract: false, final false
   inline void GetVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vertices);
 
+  /// [NativeThrows]
   /// @brief Method GetVerticesInternal, addr 0x6c15d10, size 0x58, virtual false, abstract: false, final false
   inline void GetVerticesInternal(::System::Object* vertices);
 
   /// @brief Method GetVerticesInternal_Injected, addr 0x6c16920, size 0x44, virtual false, abstract: false, final false
   static inline void GetVerticesInternal_Injected(::System::IntPtr _unity_self, ::System::Object* vertices);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method Internal_Create, addr 0x6c15758, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create();
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method Internal_Destroy, addr 0x6c1589c, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
@@ -375,13 +382,13 @@ protected:
   constexpr TextGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextGenerator(TextGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextGenerator(TextGenerator const&) = delete;
+  TextGenerator(TextGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22417 };

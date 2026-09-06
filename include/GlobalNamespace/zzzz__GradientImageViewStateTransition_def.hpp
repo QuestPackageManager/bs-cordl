@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GradientImageViewStateTransition.hpp"
+// IWYU pragma private; include "GlobalNamespace/GradientImageViewStateTransition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,8 @@ class GradientImageViewStateTransition;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::GradientImageViewStateTransition*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GradientImageViewStateTransition*, "", "GradientImageViewStateTransition");
+// [AddComponentMenu("Transitions/Gradient Image View State Transition")]
+// [RequireComponent(typeof(HMUI.ImageView))]
 // Dependencies BaseStateTransition`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -105,15 +107,19 @@ public:
   /// @brief Method TransitionToSelectedState, addr 0x6444470, size 0x90, virtual true, abstract: false, final false
   inline void TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
+  /// [CompilerGenerated]
   /// @brief Method <StartTweens>b__18_2, addr 0x6444cd0, size 0x20, virtual false, abstract: false, final false
   inline void _StartTweens_b__18_2(::UnityEngine::Color color);
 
+  /// [CompilerGenerated]
   /// @brief Method <StartTweens>b__18_3, addr 0x6444cf0, size 0x20, virtual false, abstract: false, final false
   inline void _StartTweens_b__18_3(::UnityEngine::Color color);
 
+  /// [CompilerGenerated]
   /// @brief Method <StartTweens>g__Color1CompleteAction|18_0, addr 0x6444bb0, size 0x90, virtual false, abstract: false, final false
   inline void _StartTweens_g__Color1CompleteAction_18_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <StartTweens>g__Color2CompleteAction|18_1, addr 0x6444c40, size 0x90, virtual false, abstract: false, final false
   inline void _StartTweens_g__Color2CompleteAction_18_1();
 
@@ -147,17 +153,19 @@ protected:
   constexpr GradientImageViewStateTransition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GradientImageViewStateTransition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientImageViewStateTransition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GradientImageViewStateTransition(GradientImageViewStateTransition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GradientImageViewStateTransition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientImageViewStateTransition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GradientImageViewStateTransition(GradientImageViewStateTransition const&) = delete;
+  GradientImageViewStateTransition(GradientImageViewStateTransitionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22363 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _transition, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GradientTransitionSO> ____transition;
 

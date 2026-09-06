@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeParallelMultiHashMapDebuggerTypeProxy_2.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeParallelMultiHashMapDebuggerTypeProxy_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeParallelMultiHashMap_2_def.hpp"
 CORDL_MODULE_EXPORT(NativeParallelMultiHashMapDebuggerTypeProxy_2)
@@ -10,22 +11,32 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::Collections {
-template <typename Key, typename Value> struct ListPair_2;
+template <typename Key, typename Value>
+  requires(::cordl_internals::type_constraint<Value, ::System::Collections::IList*>)
+struct ListPair_2;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelMultiHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelMultiHashMap_2;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename TKey, typename TValue> class NativeParallelMultiHashMapDebuggerTypeProxy_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class NativeParallelMultiHashMapDebuggerTypeProxy_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::NativeParallelMultiHashMapDebuggerTypeProxy_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::NativeParallelMultiHashMapDebuggerTypeProxy_2, "Unity.Collections", "NativeParallelMultiHashMapDebuggerTypeProxy`2");
-// Dependencies System.Object, Unity.Collections.NativeParallelMultiHashMap`2<TKey, TValue>
+// Dependencies System.IEquatable`1<T>, System.Object, Unity.Collections.NativeParallelMultiHashMap`2<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Unity.Collections.NativeParallelMultiHashMapDebuggerTypeProxy`2<TKey,TValue>
 class CORDL_TYPE NativeParallelMultiHashMapDebuggerTypeProxy_2 : public ::System::Object {
@@ -56,13 +67,13 @@ protected:
   constexpr NativeParallelMultiHashMapDebuggerTypeProxy_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelMultiHashMapDebuggerTypeProxy_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelMultiHashMapDebuggerTypeProxy_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeParallelMultiHashMapDebuggerTypeProxy_2(NativeParallelMultiHashMapDebuggerTypeProxy_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelMultiHashMapDebuggerTypeProxy_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelMultiHashMapDebuggerTypeProxy_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeParallelMultiHashMapDebuggerTypeProxy_2(NativeParallelMultiHashMapDebuggerTypeProxy_2 const&) = delete;
+  NativeParallelMultiHashMapDebuggerTypeProxy_2(NativeParallelMultiHashMapDebuggerTypeProxy_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15675 };

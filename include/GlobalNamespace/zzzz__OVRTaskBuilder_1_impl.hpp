@@ -1,7 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTaskBuilder_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTaskBuilder_1.hpp"
 #include "GlobalNamespace/zzzz__OVRTaskBuilder_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTask_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTaskBuilder_1_def.hpp"
@@ -58,70 +61,95 @@ template <typename T> constexpr ::System::IDisposable* GlobalNamespace::OVRTaskB
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>::OVRTaskBuilder_1_PooledStateMachine() {}
-template <typename T, typename TStateMachine> constexpr TStateMachine& GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::__cordl_internal_get_StateMachine() {
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+constexpr TStateMachine& GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::__cordl_internal_get_StateMachine() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StateMachine;
 }
-template <typename T, typename TStateMachine> constexpr TStateMachine const& GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::__cordl_internal_get_StateMachine() const {
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+constexpr TStateMachine const& GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::__cordl_internal_get_StateMachine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StateMachine;
 }
-template <typename T, typename TStateMachine> constexpr void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::__cordl_internal_set_StateMachine(TStateMachine value) {
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+constexpr void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::__cordl_internal_set_StateMachine(TStateMachine value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___StateMachine = value;
 }
 template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 inline ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>* GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::Get() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>*>(), { "Get", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>*>(nullptr, ___internal_method);
 }
-template <typename T, typename TStateMachine> inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::Dispose() {
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::Dispose() {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T, typename TStateMachine> inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::_ctor() {
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T, typename TStateMachine> inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::ExecuteMoveNext() {
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::ExecuteMoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>*>(), { "ExecuteMoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T, typename TStateMachine> inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::OVRObjectPool_IPoolObject_OnGet() {
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::OVRObjectPool_IPoolObject_OnGet() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>*>(), { "OVRObjectPool.IPoolObject.OnGet", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T, typename TStateMachine> inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::OVRObjectPool_IPoolObject_OnReturn() {
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline void GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::OVRObjectPool_IPoolObject_OnReturn() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>*>(), { "OVRObjectPool.IPoolObject.OnReturn", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 inline ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>* GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>*>());
 }
 /// @brief Convert operator to "::GlobalNamespace::OVRObjectPool_IPoolObject"
-template <typename T, typename TStateMachine> constexpr GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::operator ::GlobalNamespace::OVRObjectPool_IPoolObject*() noexcept {
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+constexpr GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::operator ::GlobalNamespace::OVRObjectPool_IPoolObject*() noexcept {
   return static_cast<::GlobalNamespace::OVRObjectPool_IPoolObject*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::OVRObjectPool_IPoolObject"
 template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 constexpr ::GlobalNamespace::OVRObjectPool_IPoolObject* GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::i___GlobalNamespace__OVRObjectPool_IPoolObject() noexcept {
   return static_cast<::GlobalNamespace::OVRObjectPool_IPoolObject*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T, typename TStateMachine> constexpr ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::OVRTaskBuilder_1_PooledStateMachine_1() {}
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+constexpr ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>::OVRTaskBuilder_1_PooledStateMachine_1() {}
 template <typename T> inline ::GlobalNamespace::OVRTask_1<T> GlobalNamespace::OVRTaskBuilder_1<T>::get_Task() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1<T>>(), { "get_Task", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<T>>(*this, ___internal_method);
 }
 template <typename T>
 template <typename TAwaiter, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::INotifyCompletion*> &&
+           ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 inline void GlobalNamespace::OVRTaskBuilder_1<T>::AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1<T>>(), { "AwaitOnCompleted",
@@ -132,6 +160,8 @@ inline void GlobalNamespace::OVRTaskBuilder_1<T>::AwaitOnCompleted(::by_ref<TAwa
 }
 template <typename T>
 template <typename TAwaiter, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+           ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 inline void GlobalNamespace::OVRTaskBuilder_1<T>::AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1<T>>(), { "AwaitUnsafeOnCompleted",
@@ -140,7 +170,10 @@ inline void GlobalNamespace::OVRTaskBuilder_1<T>::AwaitUnsafeOnCompleted(::by_re
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TAwaiter>(), ::i2c::class_of<TStateMachine>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, awaiter, stateMachine);
 }
-template <typename T> template <typename TStateMachine> inline void GlobalNamespace::OVRTaskBuilder_1<T>::Start(::by_ref<TStateMachine> stateMachine) {
+template <typename T>
+template <typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline void GlobalNamespace::OVRTaskBuilder_1<T>::Start(::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1<T>>(), { "Start", { ::i2c::class_of<TStateMachine>() }, { ::i2c::type_of<::by_ref<TStateMachine>>() } })));
@@ -151,7 +184,10 @@ template <typename T> inline ::GlobalNamespace::OVRTaskBuilder_1<T> GlobalNamesp
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1<T>>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTaskBuilder_1<T>>(nullptr, ___internal_method);
 }
-template <typename T> template <typename TStateMachine> inline ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>* GlobalNamespace::OVRTaskBuilder_1<T>::GetPooledStateMachine() {
+template <typename T>
+template <typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>* GlobalNamespace::OVRTaskBuilder_1<T>::GetPooledStateMachine() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTaskBuilder_1<T>>(), { "GetPooledStateMachine", { ::i2c::class_of<TStateMachine>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TStateMachine>() })));
@@ -171,8 +207,8 @@ template <typename T> inline void GlobalNamespace::OVRTaskBuilder_1<T>::SetState
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
-// Ctor Parameters [CppParam { name: "_pooledStateMachine", ty: "::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_task", ty:
-// "::System::Nullable_1<::GlobalNamespace::OVRTask_1<T>>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_pooledStateMachine", ty: "::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_task", ty: "::System::Nullable_1<::GlobalNamespace::OVRTask_1<T>>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
 constexpr ::GlobalNamespace::OVRTaskBuilder_1<T>::OVRTaskBuilder_1(::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>* _pooledStateMachine,
                                                                    ::System::Nullable_1<::GlobalNamespace::OVRTask_1<T>> _task) noexcept {

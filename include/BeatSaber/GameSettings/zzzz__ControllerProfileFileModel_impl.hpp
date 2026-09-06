@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfileFileModel.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfileFileModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfileFileModel_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfilesSaveData_def.hpp"

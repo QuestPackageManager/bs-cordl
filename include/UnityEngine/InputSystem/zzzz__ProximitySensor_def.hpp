@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\ProximitySensor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/ProximitySensor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class ProximitySensor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::ProximitySensor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::ProximitySensor*, "UnityEngine.InputSystem", "ProximitySensor");
+// [InputControlLayout(displayName = "Proximity")]
 // Dependencies UnityEngine.InputSystem.Sensor
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -29,6 +30,7 @@ public:
   __declspec(property(get = __cordl_internal_get__distance_k__BackingField,
                       put = __cordl_internal_set__distance_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _distance_k__BackingField;
 
+  /// @brief [InputControl(displayName = "Distance", noisy = true)]
   __declspec(property(get = get_distance, put = set_distance)) ::UnityEngine::InputSystem::Controls::AxisControl* distance;
 
   /// @brief Method FinishSetup, addr 0x6566c70, size 0x70, virtual true, abstract: false, final false
@@ -53,17 +55,21 @@ public:
 
   static inline ::UnityEngine::InputSystem::ProximitySensor* getStaticF__current_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6566af4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::ProximitySensor* get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_distance, addr 0x6566ae4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_distance();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::ProximitySensor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6566b40, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::ProximitySensor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_distance, addr 0x6566aec, size 0x8, virtual false, abstract: false, final false
   inline void set_distance(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
@@ -73,17 +79,18 @@ protected:
   constexpr ProximitySensor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProximitySensor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProximitySensor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProximitySensor(ProximitySensor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProximitySensor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProximitySensor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProximitySensor(ProximitySensor const&) = delete;
+  ProximitySensor(ProximitySensorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8767 };
 
+  /// [CompilerGenerated]
   /// @brief Field <distance>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____distance_k__BackingField;
 

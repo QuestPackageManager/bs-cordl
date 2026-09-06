@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonException.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class JsonException;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::JsonException*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonException*, "Newtonsoft.Json", "JsonException");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Exception
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -41,7 +43,7 @@ public:
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message);
 
-  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
+  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, /* [Nullable(2)] */ ::System::Exception* innerException);
 
   /// @brief Method .ctor, addr 0x5cd6f08, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
@@ -53,7 +55,7 @@ public:
   inline void _ctor(::StringW message);
 
   /// @brief Method .ctor, addr 0x5cd6fcc, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
+  inline void _ctor(::StringW message, /* [Nullable(2)] */ ::System::Exception* innerException);
 
 protected:
   // Ctor Parameters []
@@ -61,13 +63,13 @@ protected:
   constexpr JsonException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonException(JsonException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonException(JsonException const&) = delete;
+  JsonException(JsonExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13254 };

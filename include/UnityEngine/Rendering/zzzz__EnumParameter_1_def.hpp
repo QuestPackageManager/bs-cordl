@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\EnumParameter_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/EnumParameter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ template <typename T> class EnumParameter_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::EnumParameter_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::EnumParameter_1, "UnityEngine.Rendering", "EnumParameter`1");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.VolumeParameter`1<T>
 namespace UnityEngine::Rendering {
 // cpp template
@@ -32,13 +33,13 @@ protected:
   constexpr EnumParameter_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumParameter_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumParameter_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumParameter_1(EnumParameter_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumParameter_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumParameter_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumParameter_1(EnumParameter_1 const&) = delete;
+  EnumParameter_1(EnumParameter_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12332 };

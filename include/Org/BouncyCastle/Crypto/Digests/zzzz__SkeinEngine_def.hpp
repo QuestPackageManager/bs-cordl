@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\SkeinEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/SkeinEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,13 +91,13 @@ protected:
   constexpr SkeinEngine_Configuration();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Configuration", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Configuration", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkeinEngine_Configuration(SkeinEngine_Configuration&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Configuration", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Configuration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine_Configuration(SkeinEngine_Configuration const&) = delete;
+  SkeinEngine_Configuration(SkeinEngine_Configurationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 777 };
@@ -159,13 +159,13 @@ protected:
   constexpr SkeinEngine_Parameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Parameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Parameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkeinEngine_Parameter(SkeinEngine_Parameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Parameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Parameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine_Parameter(SkeinEngine_Parameter const&) = delete;
+  SkeinEngine_Parameter(SkeinEngine_Parameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 778 };
@@ -261,13 +261,13 @@ protected:
   constexpr SkeinEngine_UbiTweak();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UbiTweak", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UbiTweak", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkeinEngine_UbiTweak(SkeinEngine_UbiTweak&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UbiTweak", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UbiTweak", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine_UbiTweak(SkeinEngine_UbiTweak const&) = delete;
+  SkeinEngine_UbiTweak(SkeinEngine_UbiTweakconst&) = delete;
 
   /// @brief Field LOW_RANGE offset 0xffffffff size 0x8
   static constexpr uint64_t LOW_RANGE{ static_cast<uint64_t>(0xffffffff00000000u) };
@@ -375,13 +375,13 @@ protected:
   constexpr SkeinEngine_UBI();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UBI", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UBI", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkeinEngine_UBI(SkeinEngine_UBI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UBI", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UBI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine_UBI(SkeinEngine_UBI const&) = delete;
+  SkeinEngine_UBI(SkeinEngine_UBIconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 780 };
@@ -609,13 +609,13 @@ protected:
   constexpr SkeinEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkeinEngine(SkeinEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine(SkeinEngine const&) = delete;
+  SkeinEngine(SkeinEngineconst&) = delete;
 
   /// @brief Field PARAM_TYPE_CONFIG offset 0xffffffff size 0x4
   static constexpr int32_t PARAM_TYPE_CONFIG{ static_cast<int32_t>(0x4) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\PoseControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/PoseControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,8 @@ class PoseControl;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::XR::PoseControl*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::XR::PoseControl*, "UnityEngine.InputSystem.XR", "PoseControl");
+// [Preserve]
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.XR.PoseState))]
 // Dependencies UnityEngine.InputSystem.InputControl`1<TValue>, UnityEngine.InputSystem.XR.PoseState
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
@@ -127,39 +129,51 @@ public:
   /// @brief Method .ctor, addr 0x6586d48, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_angularVelocity, addr 0x6586d38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_angularVelocity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isTracked, addr 0x6586ce8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
+  /// [CompilerGenerated]
   /// @brief Method get_position, addr 0x6586d08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_position();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rotation, addr 0x6586d18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rotation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackingState, addr 0x6586cf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
+  /// [CompilerGenerated]
   /// @brief Method get_velocity, addr 0x6586d28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_velocity();
 
+  /// [CompilerGenerated]
   /// @brief Method set_angularVelocity, addr 0x6586d40, size 0x8, virtual false, abstract: false, final false
   inline void set_angularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isTracked, addr 0x6586cf0, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_position, addr 0x6586d10, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rotation, addr 0x6586d20, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackingState, addr 0x6586d00, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_velocity, addr 0x6586d30, size 0x8, virtual false, abstract: false, final false
   inline void set_velocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
@@ -169,32 +183,38 @@ protected:
   constexpr PoseControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoseControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoseControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoseControl(PoseControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoseControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoseControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoseControl(PoseControl const&) = delete;
+  PoseControl(PoseControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8810 };
 
+  /// [CompilerGenerated]
   /// @brief Field <isTracked>k__BackingField, offset: 0x178, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____isTracked_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackingState>k__BackingField, offset: 0x180, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____trackingState_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <position>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____position_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rotation>k__BackingField, offset: 0x190, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____rotation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <velocity>k__BackingField, offset: 0x198, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____velocity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <angularVelocity>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____angularVelocity_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\DualShock4GamepadAndroid.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/DualShock4GamepadAndroid.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class DualShock4GamepadAndroid;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid*, "UnityEngine.InputSystem.Android", "DualShock4GamepadAndroid");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.Android.LowLevel.AndroidGameControllerState), displayName = "Android DualShock 4 Gamepad", variants = "Gamepad;DpadAxes")]
 // Dependencies UnityEngine.InputSystem.DualShock.DualShockGamepad
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr DualShock4GamepadAndroid();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DualShock4GamepadAndroid", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DualShock4GamepadAndroid", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DualShock4GamepadAndroid(DualShock4GamepadAndroid&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DualShock4GamepadAndroid", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DualShock4GamepadAndroid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DualShock4GamepadAndroid(DualShock4GamepadAndroid const&) = delete;
+  DualShock4GamepadAndroid(DualShock4GamepadAndroidconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8923 };

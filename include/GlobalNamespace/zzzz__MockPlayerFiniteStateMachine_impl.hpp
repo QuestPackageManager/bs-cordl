@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlayerFiniteStateMachine.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlayerFiniteStateMachine.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerFiniteStateMachine_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"

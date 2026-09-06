@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,6 +113,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlatformLoader__InitializeAnalyticsEvents
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13, "", "PlatformLoader/<InitializeMockedPlatformAsync>d__13");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11, "", "PlatformLoader/<InitializePlatformAsync>d__11");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10, "", "PlatformLoader/<LoadInternalAsync>d__10");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -148,13 +149,13 @@ protected:
   constexpr PlatformLoader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLoader___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLoader___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLoader___c(PlatformLoader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLoader___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLoader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLoader___c(PlatformLoader___c const&) = delete;
+  PlatformLoader___c(PlatformLoader___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21034 };
@@ -165,6 +166,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::PlatformLoader___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -178,6 +180,7 @@ public:
   /// @brief Method MoveNext, addr 0x3778384, size 0x374, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x37786f8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -188,11 +191,11 @@ public:
   // @brief default ctor
   constexpr PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "platform", ty: "::OculusStudios::Platform::Core::IPlatform*", modifiers: "",
-  // def_value: None }, CppParam { name: "analyticsManager", ty: "::UnityW<::OSCE::Analytics::AnalyticsManager>", modifiers: "", def_value: None }, CppParam { name: "telemetry", ty:
-  // "::Analytics::Model::TelemetryModel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "platform", ty: "::OculusStudios::Platform::Core::IPlatform*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "analyticsManager", ty: "::UnityW<::OSCE::Analytics::AnalyticsManager>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "telemetry", ty: "::Analytics::Model::TelemetryModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                            ::OculusStudios::Platform::Core::IPlatform* platform, ::UnityW<::OSCE::Analytics::AnalyticsManager> analyticsManager,
                                                                            ::Analytics::Model::TelemetryModel* telemetry,
@@ -240,6 +243,7 @@ static_assert(offsetof(::GlobalNamespace::PlatformLoader__InitializeAnalyticsEve
 static_assert(sizeof(::GlobalNamespace::PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -253,6 +257,7 @@ public:
   /// @brief Method MoveNext, addr 0x3778764, size 0x318, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3778a84, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -263,9 +268,10 @@ public:
   // @brief default ctor
   constexpr PlatformLoader__InitializeMockedPlatformAsync_d__13();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr PlatformLoader__InitializeMockedPlatformAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                 ::UnityW<::GlobalNamespace::PlatformLoader> __4__this,
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__1) noexcept;
@@ -302,6 +308,7 @@ static_assert(offsetof(::GlobalNamespace::PlatformLoader__InitializeMockedPlatfo
 static_assert(sizeof(::GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -315,6 +322,7 @@ public:
   /// @brief Method MoveNext, addr 0x3778af0, size 0x588, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3779078, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -325,12 +333,12 @@ public:
   // @brief default ctor
   constexpr PlatformLoader__InitializePlatformAsync_d__11();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "useMock", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None },
-  // CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "useMock", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "container", ty:
+  // "::Zenject::DiContainer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformLoader__InitializePlatformAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, bool useMock,
                                                           ::UnityW<::GlobalNamespace::PlatformLoader> __4__this, ::Zenject::DiContainer* container, ::System::Diagnostics::Stopwatch* _stopwatch_5__2,
                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
@@ -388,6 +396,7 @@ static_assert(offsetof(::GlobalNamespace::PlatformLoader__InitializePlatformAsyn
 static_assert(sizeof(::GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -401,6 +410,7 @@ public:
   /// @brief Method MoveNext, addr 0x37790e4, size 0x550, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3779634, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -411,11 +421,11 @@ public:
   // @brief default ctor
   constexpr PlatformLoader__LoadInternalAsync_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers: "",
-  // def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None }, CppParam { name: "registry", ty:
-  // "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None }, CppParam { name: "_useMock_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "registry", ty:
+  // "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_useMock_5__2", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformLoader__LoadInternalAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PlatformLoader> __4__this,
                                                     ::Zenject::DiContainer* container, ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, bool _useMock_5__2,
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -521,16 +531,20 @@ public:
   /// @brief Method GetPlatformInitParams, addr 0x3777de4, size 0x298, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::PlatformInitParams* GetPlatformInitParams();
 
+  /// [AsyncStateMachine(typeof(PlatformLoader::<InitializeAnalyticsEventsDispatcherAsync>d__15))]
   /// @brief Method InitializeAnalyticsEventsDispatcherAsync, addr 0x3778250, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* InitializeAnalyticsEventsDispatcherAsync(::Analytics::Model::TelemetryModel* telemetry, ::OculusStudios::Platform::Core::IPlatform* platform,
                                                                                            ::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
+  /// [AsyncStateMachine(typeof(PlatformLoader::<InitializeMockedPlatformAsync>d__13))]
   /// @brief Method InitializeMockedPlatformAsync, addr 0x377807c, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeMockedPlatformAsync();
 
+  /// [AsyncStateMachine(typeof(PlatformLoader::<InitializePlatformAsync>d__11))]
   /// @brief Method InitializePlatformAsync, addr 0x3777d14, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializePlatformAsync(bool useMock, ::Zenject::DiContainer* container);
 
+  /// [AsyncStateMachine(typeof(PlatformLoader::<LoadInternalAsync>d__10))]
   /// @brief Method LoadInternalAsync, addr 0x3777c4c, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadInternalAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container,
                                                              ::System::Threading::CancellationToken cancellationToken);
@@ -597,29 +611,34 @@ protected:
   constexpr PlatformLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLoader(PlatformLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLoader(PlatformLoader const&) = delete;
+  PlatformLoader(PlatformLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21039 };
 
+  /// [SerializeField]
   /// @brief Field _appIdentification, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppIdentificationSO> ____appIdentification;
 
+  /// [SerializeField]
   /// @brief Field _mainSettingsAsyncLoader, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSettingsAsyncLoader> ____mainSettingsAsyncLoader;
 
+  /// [SerializeField]
   /// @brief Field _achievementIdsModel, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementIdsModelSO> ____achievementIdsModel;
 
+  /// [SerializeField]
   /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> ____mockPlatformAdditionalContentModelInitialData;
 
+  /// [SerializeField]
   /// @brief Field _graphQLClientProviderInstaller, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO> ____graphQLClientProviderInstaller;
 

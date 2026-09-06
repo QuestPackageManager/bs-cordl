@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkPlayersTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkPlayersTableView.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersTableView_def.hpp"
@@ -12,7 +12,7 @@
 #include "HMUI/zzzz__TableView_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType::CellInfo_NetworkPlayersTableView_CellType(int32_t value__) noexcept {
   this->value__ = value__;
 }

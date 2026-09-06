@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\AvatarPropertyBlockColorSetter.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarPropertyBlockColorSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class AvatarPropertyBlockColorSetter;
 // Write type traits
 MARK_REF_T(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*, "BeatSaber.BeatAvatarSDK", "AvatarPropertyBlockColorSetter");
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
@@ -157,32 +158,38 @@ protected:
   constexpr AvatarPropertyBlockColorSetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarPropertyBlockColorSetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarPropertyBlockColorSetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarPropertyBlockColorSetter(AvatarPropertyBlockColorSetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarPropertyBlockColorSetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarPropertyBlockColorSetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarPropertyBlockColorSetter(AvatarPropertyBlockColorSetter const&) = delete;
+  AvatarPropertyBlockColorSetter(AvatarPropertyBlockColorSetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22337 };
 
+  /// [SerializeField]
   /// @brief Field _defaultColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____defaultColor;
 
+  /// [SerializeField]
   /// @brief Field _darkerColorMultiplier, offset: 0x30, size: 0x4, def value: None
   float_t ____darkerColorMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _whiteBoost, offset: 0x34, size: 0x4, def value: None
   float_t ____whiteBoost;
 
+  /// [SerializeField]
   /// @brief Field _editInPlayMode, offset: 0x38, size: 0x1, def value: None
   bool ____editInPlayMode;
 
+  /// [SerializeField]
   /// @brief Field _ignoreRimLight, offset: 0x39, size: 0x1, def value: None
   bool ____ignoreRimLight;
 
+  /// [SerializeField]
   /// @brief Field _renderer, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 

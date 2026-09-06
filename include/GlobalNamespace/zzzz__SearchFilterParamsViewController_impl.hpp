@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SearchFilterParamsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SearchFilterParamsViewController.hpp"
 #include "GlobalNamespace/zzzz__LevelFilter_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SearchFilterParamsViewController_def.hpp"
@@ -437,7 +437,8 @@ GlobalNamespace::SearchFilterParamsViewController::remove_didFinishEvent(::Syste
                           { "remove_didFinishEvent", {}, { ::i2c::type_of<::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SearchFilterParamsViewController::Setup(::by_ref<::GlobalNamespace::LevelFilter> filter, ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> notAllowedCharacteristics) {
+inline void GlobalNamespace::SearchFilterParamsViewController::Setup(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter,
+                                                                     ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> notAllowedCharacteristics) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(),
                                               { "Setup", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>() } })));
@@ -479,7 +480,7 @@ inline void GlobalNamespace::SearchFilterParamsViewController::HandleFilterByNot
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(), { "HandleFilterByNotOwnedValueValueChanged", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isOn);
 }
-inline void GlobalNamespace::SearchFilterParamsViewController::Refresh(::by_ref<::GlobalNamespace::LevelFilter> filter) {
+inline void GlobalNamespace::SearchFilterParamsViewController::Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(), { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>() } })));

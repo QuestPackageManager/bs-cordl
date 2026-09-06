@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DrawScreenSpaceUIPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DrawScreenSpaceUIPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
@@ -637,8 +637,8 @@ inline void UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::RenderOffs
 }
 inline void UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::RenderOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                     ::UnityEngine::Rendering::ContextContainer* frameData,
-                                                                                    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer,
-                                                                                    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> depthBuffer) {
+                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer,
+                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> depthBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass*>(),
                                               { "RenderOverlay",

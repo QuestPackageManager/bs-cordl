@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MakeRunPackFileCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/MakeRunPackFileCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,9 @@ namespace GlobalNamespace {
 class MakeRunPackFileCommand___c__DisplayClass5_0;
 }
 namespace GlobalNamespace {
-template <typename T> class RequiredArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class RequiredArgument_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -39,6 +41,7 @@ MARK_REF_T(::GlobalNamespace::MakeRunPackFileCommand*);
 MARK_REF_T(::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MakeRunPackFileCommand*, "", "MakeRunPackFileCommand");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0*, "", "MakeRunPackFileCommand/<>c__DisplayClass5_0");
+// [CompilerGenerated]
 // Dependencies BeatmapDifficulty, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -87,13 +90,13 @@ protected:
   constexpr MakeRunPackFileCommand___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunPackFileCommand___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunPackFileCommand___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MakeRunPackFileCommand___c__DisplayClass5_0(MakeRunPackFileCommand___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunPackFileCommand___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunPackFileCommand___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MakeRunPackFileCommand___c__DisplayClass5_0(MakeRunPackFileCommand___c__DisplayClass5_0 const&) = delete;
+  MakeRunPackFileCommand___c__DisplayClass5_0(MakeRunPackFileCommand___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19403 };
@@ -119,6 +122,7 @@ static_assert(offsetof(::GlobalNamespace::MakeRunPackFileCommand___c__DisplayCla
 static_assert(sizeof(::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [UsedImplicitly]
 // Dependencies MakeRunsongFileBaseCommand
 namespace GlobalNamespace {
 // Is value type: false
@@ -163,13 +167,13 @@ protected:
   constexpr MakeRunPackFileCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunPackFileCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunPackFileCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MakeRunPackFileCommand(MakeRunPackFileCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunPackFileCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunPackFileCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MakeRunPackFileCommand(MakeRunPackFileCommand const&) = delete;
+  MakeRunPackFileCommand(MakeRunPackFileCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19404 };

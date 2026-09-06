@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ProcessPort.hpp"
+// IWYU pragma private; include "GlobalNamespace/ProcessPort.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,27 +82,35 @@ public:
   /// @brief Method .ctor, addr 0x5ef0c8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_portNumber, addr 0x5ef0064, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_portNumber();
 
+  /// [CompilerGenerated]
   /// @brief Method get_processId, addr 0x5ef0054, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_processId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_processName, addr 0x5ef0044, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_processName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_protocol, addr 0x5ef0074, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_protocol();
 
+  /// [CompilerGenerated]
   /// @brief Method set_portNumber, addr 0x5ef006c, size 0x8, virtual false, abstract: false, final false
   inline void set_portNumber(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_processId, addr 0x5ef005c, size 0x8, virtual false, abstract: false, final false
   inline void set_processId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_processName, addr 0x5ef004c, size 0x8, virtual false, abstract: false, final false
   inline void set_processName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_protocol, addr 0x5ef007c, size 0x8, virtual false, abstract: false, final false
   inline void set_protocol(::StringW value);
 
@@ -112,26 +120,30 @@ protected:
   constexpr ProcessPort();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProcessPort", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessPort", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProcessPort(ProcessPort&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProcessPort", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessPort", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProcessPort(ProcessPort const&) = delete;
+  ProcessPort(ProcessPortconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7823 };
 
+  /// [CompilerGenerated]
   /// @brief Field <processName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____processName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <processId>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____processId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <portNumber>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____portNumber_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <protocol>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____protocol_k__BackingField;
 

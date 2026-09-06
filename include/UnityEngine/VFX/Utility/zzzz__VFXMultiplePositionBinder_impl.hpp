@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXMultiplePositionBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXMultiplePositionBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXMultiplePositionBinder_def.hpp"

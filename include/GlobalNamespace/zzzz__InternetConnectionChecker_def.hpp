@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\InternetConnectionChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace/InternetConnectionChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::GlobalNamespace::InternetConnectionChecker*);
 MARK_VAL_T(::GlobalNamespace::InternetConnectionChecker__IsConnectedToInternetAsync_d__0);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InternetConnectionChecker*, "", "InternetConnectionChecker");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InternetConnectionChecker__IsConnectedToInternetAsync_d__0, "", "InternetConnectionChecker/<IsConnectedToInternetAsync>d__0");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -46,6 +47,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a299c4, size 0x2dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a29ca0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -56,9 +58,9 @@ public:
   // @brief default ctor
   constexpr InternetConnectionChecker__IsConnectedToInternetAsync_d__0();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr InternetConnectionChecker__IsConnectedToInternetAsync_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
@@ -98,6 +100,7 @@ public:
   // Declarations
   using _IsConnectedToInternetAsync_d__0 = ::GlobalNamespace::InternetConnectionChecker__IsConnectedToInternetAsync_d__0;
 
+  /// [AsyncStateMachine(typeof(InternetConnectionChecker::<IsConnectedToInternetAsync>d__0))]
   /// @brief Method IsConnectedToInternetAsync, addr 0x5a298e8, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -112,13 +115,13 @@ protected:
   constexpr InternetConnectionChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternetConnectionChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternetConnectionChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternetConnectionChecker(InternetConnectionChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternetConnectionChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternetConnectionChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternetConnectionChecker(InternetConnectionChecker const&) = delete;
+  InternetConnectionChecker(InternetConnectionCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22847 };

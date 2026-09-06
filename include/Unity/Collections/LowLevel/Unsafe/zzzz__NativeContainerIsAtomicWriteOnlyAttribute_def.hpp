@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeContainerIsAtomicWriteOnlyAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeContainerIsAtomicWriteOnlyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class NativeContainerIsAtomicWriteOnlyAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerIsAtomicWriteOnlyAttribute");
+// [AttributeUsage((System.AttributeTargets)8)]
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr NativeContainerIsAtomicWriteOnlyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerIsAtomicWriteOnlyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerIsAtomicWriteOnlyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeContainerIsAtomicWriteOnlyAttribute(NativeContainerIsAtomicWriteOnlyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerIsAtomicWriteOnlyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerIsAtomicWriteOnlyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeContainerIsAtomicWriteOnlyAttribute(NativeContainerIsAtomicWriteOnlyAttribute const&) = delete;
+  NativeContainerIsAtomicWriteOnlyAttribute(NativeContainerIsAtomicWriteOnlyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10012 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\CustomAttributeFormatException.hpp"
+// IWYU pragma private; include "System/Reflection/CustomAttributeFormatException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr CustomAttributeFormatException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomAttributeFormatException(CustomAttributeFormatException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomAttributeFormatException(CustomAttributeFormatException const&) = delete;
+  CustomAttributeFormatException(CustomAttributeFormatExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3482 };

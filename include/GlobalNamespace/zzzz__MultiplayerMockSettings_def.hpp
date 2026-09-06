@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerMockSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerMockSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,29 +125,34 @@ protected:
   constexpr MultiplayerMockSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMockSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMockSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerMockSettings(MultiplayerMockSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMockSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMockSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerMockSettings(MultiplayerMockSettings const&) = delete;
+  MultiplayerMockSettings(MultiplayerMockSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6124 };
 
+  /// [SerializeField]
   /// @brief Field _localPlayer, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::MockPlayerSettings* ____localPlayer;
 
+  /// [SerializeField]
   /// @brief Field _otherPlayers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* ____otherPlayers;
 
+  /// [SerializeField]
   /// @brief Field _quickplayServer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MockServerSettings* ____quickplayServer;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerStatusData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerStatusData* ____multiplayerStatusData;
 
+  /// [SerializeField]
   /// @brief Field _quickPlaySetupData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::QuickPlaySetupData* ____quickPlaySetupData;
 

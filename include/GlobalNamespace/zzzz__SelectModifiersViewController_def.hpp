@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SelectModifiersViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SelectModifiersViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,17 +58,18 @@ protected:
   constexpr SelectModifiersViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectModifiersViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectModifiersViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectModifiersViewController(SelectModifiersViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectModifiersViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectModifiersViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectModifiersViewController(SelectModifiersViewController const&) = delete;
+  SelectModifiersViewController(SelectModifiersViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6982 };
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersPanelController, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> ____gameplayModifiersPanelController;
 

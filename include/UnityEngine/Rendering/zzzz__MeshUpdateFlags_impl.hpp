@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MeshUpdateFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MeshUpdateFlags.hpp"
 #include "UnityEngine/Rendering/zzzz__MeshUpdateFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::MeshUpdateFlags::MeshUpdateFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

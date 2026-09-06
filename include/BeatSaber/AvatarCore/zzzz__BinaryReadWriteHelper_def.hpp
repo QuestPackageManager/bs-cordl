@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\BinaryReadWriteHelper.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/BinaryReadWriteHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class BinaryReadWriteHelper;
 // Write type traits
 MARK_REF_T(::BeatSaber::AvatarCore::BinaryReadWriteHelper*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::BinaryReadWriteHelper*, "BeatSaber.AvatarCore", "BinaryReadWriteHelper");
+// [Extension]
 // Dependencies System.Object
 namespace BeatSaber::AvatarCore {
 // Is value type: false
@@ -28,9 +29,11 @@ namespace BeatSaber::AvatarCore {
 class CORDL_TYPE BinaryReadWriteHelper : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ReadColor, addr 0x326ed54, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ReadColor(::System::IO::BinaryReader* binaryReader);
 
+  /// [Extension]
   /// @brief Method Write, addr 0x326eccc, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color);
 
@@ -40,13 +43,13 @@ protected:
   constexpr BinaryReadWriteHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryReadWriteHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryReadWriteHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryReadWriteHelper(BinaryReadWriteHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryReadWriteHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryReadWriteHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryReadWriteHelper(BinaryReadWriteHelper const&) = delete;
+  BinaryReadWriteHelper(BinaryReadWriteHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21653 };

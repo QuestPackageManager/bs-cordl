@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Concurrent\ConcurrentQueue_1.hpp"
+// IWYU pragma private; include "System/Collections/Concurrent/ConcurrentQueue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,6 +70,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Concurrent::ConcurrentQueue_1
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Concurrent::ConcurrentQueue_1_Segment, "System.Collections.Concurrent", "ConcurrentQueue`1/Segment");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Concurrent::ConcurrentQueue_1__Enumerate_d__28, "System.Collections.Concurrent", "ConcurrentQueue`1/<Enumerate>d__28");
 DEFINE_IL2CPP_GEN_CLASS(::System::Collections::Concurrent::Segment_ConcurrentQueue_1_Slot, "System.Collections.Concurrent", "ConcurrentQueue`1/Segment/Slot");
+// [DebuggerDisplay("Item = {Item}, SequenceNumber = {SequenceNumber}")]
 // Dependencies
 namespace System::Collections::Concurrent {
 // cpp template
@@ -83,7 +84,8 @@ public:
   // @brief default ctor
   constexpr Segment_ConcurrentQueue_1_Slot();
 
-  // Ctor Parameters [CppParam { name: "Item", ty: "T", modifiers: "", def_value: None }, CppParam { name: "SequenceNumber", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Item", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "SequenceNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr Segment_ConcurrentQueue_1_Slot(T Item, int32_t SequenceNumber) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -102,6 +104,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
+// [DebuggerDisplay("Capacity = {Capacity}")]
 // Dependencies System.Collections.Concurrent.ConcurrentQueue`1::Segment::Slot<T>, System.Collections.Concurrent.PaddedHeadAndTail, System.Object
 namespace System::Collections::Concurrent {
 // cpp template
@@ -200,13 +203,13 @@ protected:
   constexpr ConcurrentQueue_1_Segment();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1_Segment", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1_Segment", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentQueue_1_Segment(ConcurrentQueue_1_Segment&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1_Segment", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1_Segment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentQueue_1_Segment(ConcurrentQueue_1_Segment const&) = delete;
+  ConcurrentQueue_1_Segment(ConcurrentQueue_1_Segmentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3735 };
@@ -233,6 +236,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
@@ -291,17 +295,22 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Collections::Concurrent::ConcurrentQueue_1__Enumerate_d__28<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -371,6 +380,7 @@ public:
 
   constexpr void __cordl_internal_set_tailTail(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -389,13 +399,13 @@ protected:
   constexpr ConcurrentQueue_1__Enumerate_d__28();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1__Enumerate_d__28", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1__Enumerate_d__28", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentQueue_1__Enumerate_d__28(ConcurrentQueue_1__Enumerate_d__28&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1__Enumerate_d__28", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1__Enumerate_d__28", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentQueue_1__Enumerate_d__28(ConcurrentQueue_1__Enumerate_d__28 const&) = delete;
+  ConcurrentQueue_1__Enumerate_d__28(ConcurrentQueue_1__Enumerate_d__28const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3736 };
@@ -437,6 +447,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Concurrent.IProducerConsumerCollectionDebugView`1<T>))]
 // Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
@@ -491,6 +503,7 @@ public:
   /// @brief Method EnqueueSlow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void EnqueueSlow(T item);
 
+  /// [IteratorStateMachine(typeof(System.Collections.Concurrent.ConcurrentQueue`1::<Enumerate>d__28<T>))]
   /// @brief Method Enumerate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<T>* Enumerate(::System::Collections::Concurrent::ConcurrentQueue_1_Segment<T>* head, int32_t headHead,
                                                                      ::System::Collections::Concurrent::ConcurrentQueue_1_Segment<T>* tail, int32_t tailTail);
@@ -592,13 +605,13 @@ protected:
   constexpr ConcurrentQueue_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentQueue_1(ConcurrentQueue_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentQueue_1(ConcurrentQueue_1 const&) = delete;
+  ConcurrentQueue_1(ConcurrentQueue_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3737 };

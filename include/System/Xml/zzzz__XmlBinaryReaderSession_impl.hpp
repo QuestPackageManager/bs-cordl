@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlBinaryReaderSession.hpp"
+// IWYU pragma private; include "System/Xml/XmlBinaryReaderSession.hpp"
 #include "System/Xml/zzzz__XmlDictionaryString_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlBinaryReaderSession_def.hpp"

@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Attr\ImageAttrib.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Attr/ImageAttrib.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Attr/zzzz__ImageAttrib_def.hpp"
 #include "Org/BouncyCastle/Bcpg/Attr/zzzz__ImageAttrib_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib_Format::ImageAttrib_Format(uint8_t value__) noexcept {
   this->value__ = value__;
 }

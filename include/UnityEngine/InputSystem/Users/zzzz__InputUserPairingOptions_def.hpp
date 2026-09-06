@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Users\InputUserPairingOptions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Users/InputUserPairingOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct InputUserPairingOptions;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Users::InputUserPairingOptions);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Users::InputUserPairingOptions, "UnityEngine.InputSystem.Users", "InputUserPairingOptions");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr InputUserPairingOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputUserPairingOptions(int32_t value__) noexcept;
 
   /// @brief Field ForceNoPlatformUserAccountSelection value: I32(2)

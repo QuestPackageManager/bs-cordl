@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUResidentDrawer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUResidentDrawer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +28,19 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeHashSet_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeHashSet_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Jobs {
 class IJobParallelForBatch;
@@ -164,6 +170,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUResidentDrawer_ClassifyMaterial
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUResidentDrawer_FindRenderersFromMaterialJob, "UnityEngine.Rendering", "GPUResidentDrawer/FindRenderersFromMaterialJob");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUResidentDrawer_FindUnsupportedRenderersJob, "UnityEngine.Rendering", "GPUResidentDrawer/FindUnsupportedRenderersJob");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUResidentDrawer_GetMaterialsWithChangedPackedMaterialJob, "UnityEngine.Rendering", "GPUResidentDrawer/GetMaterialsWithChangedPackedMaterialJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1::ReadOnly<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2::ReadOnly<TKey, TValue>,
 // UnityEngine.Rendering.BatchMaterialID, UnityEngine.Rendering.GPUDrivenPackedMaterialData
 namespace UnityEngine::Rendering {
@@ -186,10 +193,10 @@ public:
   constexpr GPUResidentDrawer_ClassifyMaterialsJob();
 
   // Ctor Parameters [CppParam { name: "batchMaterialHash", ty: "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMaterialID>", modifiers: "", def_value:
-  // None }, CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None }, CppParam { name: "supportedMaterialIDs", ty:
-  // "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "unsupportedMaterialIDs", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "supportedPackedMaterialDatas", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None
-  // }]
+  // None, comment: None }, CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "supportedMaterialIDs", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "unsupportedMaterialIDs", ty:
+  // "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportedPackedMaterialDatas", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None, comment: None }]
   constexpr GPUResidentDrawer_ClassifyMaterialsJob(::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::BatchMaterialID> batchMaterialHash,
                                                    ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs, ::Unity::Collections::NativeList_1<int32_t> supportedMaterialIDs,
                                                    ::Unity::Collections::NativeList_1<int32_t> unsupportedMaterialIDs,
@@ -201,9 +208,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [ReadOnly]
   /// @brief Field batchMaterialHash, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::BatchMaterialID> batchMaterialHash;
 
+  /// [ReadOnly]
   /// @brief Field materialIDs, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs;
 
@@ -232,6 +241,7 @@ static_assert(offsetof(::UnityEngine::Rendering::GPUResidentDrawer_ClassifyMater
 static_assert(sizeof(::UnityEngine::Rendering::GPUResidentDrawer_ClassifyMaterialsJob) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1::ReadOnly<T>, Unity.Collections.NativeList`1<T>, UnityEngine.Rendering.SmallIntegerArray
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -252,10 +262,10 @@ public:
   // @brief default ctor
   constexpr GPUResidentDrawer_FindUnsupportedRenderersJob();
 
-  // Ctor Parameters [CppParam { name: "unsupportedMaterials", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None }, CppParam { name: "materialIDArrays", ty:
-  // "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: None }, CppParam { name: "rendererGroups", ty:
-  // "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None }, CppParam { name: "unsupportedRenderers", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "unsupportedMaterials", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "materialIDArrays", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "rendererGroups", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "unsupportedRenderers", ty:
+  // "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr GPUResidentDrawer_FindUnsupportedRenderersJob(::Unity::Collections::NativeArray_1_ReadOnly<int32_t> unsupportedMaterials,
                                                           ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray> materialIDArrays,
                                                           ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> rendererGroups,
@@ -267,12 +277,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [ReadOnly]
   /// @brief Field unsupportedMaterials, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> unsupportedMaterials;
 
+  /// [ReadOnly]
   /// @brief Field materialIDArrays, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray> materialIDArrays;
 
+  /// [ReadOnly]
   /// @brief Field rendererGroups, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> rendererGroups;
 
@@ -293,6 +306,7 @@ static_assert(offsetof(::UnityEngine::Rendering::GPUResidentDrawer_FindUnsupport
 static_assert(sizeof(::UnityEngine::Rendering::GPUResidentDrawer_FindUnsupportedRenderersJob) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1::ReadOnly<T>, Unity.Collections.NativeHashSet`1::ReadOnly<T>, Unity.Collections.NativeList`1::ParallelWriter<T>, UnityEngine.Rendering.SmallIntegerArray
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -313,11 +327,11 @@ public:
   // @brief default ctor
   constexpr GPUResidentDrawer_FindRenderersFromMaterialJob();
 
-  // Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeHashSet_1_ReadOnly<int32_t>", modifiers: "", def_value: None }, CppParam { name: "materialIDArrays", ty:
-  // "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: None }, CppParam { name: "rendererGroupIDs", ty:
-  // "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None }, CppParam { name: "sortedExcludeRendererIDs", ty:
-  // "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None }, CppParam { name: "selectedRenderGroups", ty:
-  // "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeHashSet_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "materialIDArrays", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "rendererGroupIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sortedExcludeRendererIDs", ty:
+  // "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "selectedRenderGroups", ty:
+  // "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr GPUResidentDrawer_FindRenderersFromMaterialJob(::Unity::Collections::NativeHashSet_1_ReadOnly<int32_t> materialIDs,
                                                            ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray> materialIDArrays,
                                                            ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> rendererGroupIDs,
@@ -333,18 +347,23 @@ public:
   /// @brief Field k_BatchSize offset 0xffffffff size 0x4
   static constexpr int32_t k_BatchSize{ static_cast<int32_t>(0x80) };
 
+  /// [ReadOnly]
   /// @brief Field materialIDs, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::NativeHashSet_1_ReadOnly<int32_t> materialIDs;
 
+  /// [ReadOnly]
   /// @brief Field materialIDArrays, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray> materialIDArrays;
 
+  /// [ReadOnly]
   /// @brief Field rendererGroupIDs, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> rendererGroupIDs;
 
+  /// [ReadOnly]
   /// @brief Field sortedExcludeRendererIDs, offset: 0x28, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> sortedExcludeRendererIDs;
 
+  /// [WriteOnly]
   /// @brief Field selectedRenderGroups, offset: 0x38, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1_ParallelWriter<int32_t> selectedRenderGroups;
 
@@ -364,6 +383,7 @@ static_assert(offsetof(::UnityEngine::Rendering::GPUResidentDrawer_FindRenderers
 static_assert(sizeof(::UnityEngine::Rendering::GPUResidentDrawer_FindRenderersFromMaterialJob) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1::ReadOnly<T>, Unity.Collections.NativeHashSet`1<T>, Unity.Collections.NativeParallelHashMap`2::ReadOnly<TKey, TValue>,
 // UnityEngine.Rendering.GPUDrivenPackedMaterialData
 namespace UnityEngine::Rendering {
@@ -385,10 +405,10 @@ public:
   // @brief default ctor
   constexpr GPUResidentDrawer_GetMaterialsWithChangedPackedMaterialJob();
 
-  // Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None }, CppParam { name: "packedMaterialDatas", ty:
-  // "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None }, CppParam { name: "packedMaterialHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None }, CppParam { name: "filteredMaterials",
-  // ty: "::Unity::Collections::NativeHashSet_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "packedMaterialDatas", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "packedMaterialHash", ty: "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "filteredMaterials", ty: "::Unity::Collections::NativeHashSet_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr GPUResidentDrawer_GetMaterialsWithChangedPackedMaterialJob(
       ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas,
       ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash,
@@ -400,15 +420,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [ReadOnly]
   /// @brief Field materialIDs, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs;
 
+  /// [ReadOnly]
   /// @brief Field packedMaterialDatas, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas;
 
+  /// [ReadOnly]
   /// @brief Field packedMaterialHash, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash;
 
+  /// [WriteOnly]
   /// @brief Field filteredMaterials, offset: 0x30, size: 0x8, def value: None
   ::Unity::Collections::NativeHashSet_1<int32_t> filteredMaterials;
 
@@ -482,13 +506,13 @@ protected:
   constexpr GPUResidentDrawer_Strings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer_Strings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer_Strings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUResidentDrawer_Strings(GPUResidentDrawer_Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer_Strings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUResidentDrawer_Strings(GPUResidentDrawer_Strings const&) = delete;
+  GPUResidentDrawer_Strings(GPUResidentDrawer_Stringsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17620 };
@@ -542,7 +566,7 @@ public:
   __declspec(property(get = get_settings)) ::UnityEngine::Rendering::GPUResidentDrawerSettings settings;
 
   /// @brief Method AppendNewInstance, addr 0x6815284, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::InstanceHandle AppendNewInstance(int32_t rendererGroupID, ::by_ref<::UnityEngine::Matrix4x4> instanceTransform);
+  inline ::UnityEngine::Rendering::InstanceHandle AppendNewInstance(int32_t rendererGroupID, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> instanceTransform);
 
   /// @brief Method ClassifyMaterials, addr 0x681421c, size 0x1c4, virtual false, abstract: false, final false
   inline void ClassifyMaterials(::Unity::Collections::NativeArray_1<int32_t> materials, ::by_ref<::Unity::Collections::NativeList_1<int32_t>> unsupportedMaterials,
@@ -584,7 +608,8 @@ public:
   inline void InsertIntoPlayerLoop();
 
   /// @brief Method InstanceOcclusionTest, addr 0x6812770, size 0xa0, virtual false, abstract: false, final false
-  static inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+  static inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
                                            ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests);
 
   /// @brief Method IsEnabled, addr 0x680ebd0, size 0x54, virtual false, abstract: false, final false
@@ -699,7 +724,8 @@ public:
                                  ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices);
 
   /// @brief Method UpdateInstanceOccluders, addr 0x6812810, size 0xa0, virtual false, abstract: false, final false
-  static inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParameters,
+  static inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParameters,
                                              ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
   constexpr ::UnityEngine::Rendering::GPUResidentBatcher* const& __cordl_internal_get_m_Batcher() const;
@@ -760,13 +786,13 @@ protected:
   constexpr GPUResidentDrawer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUResidentDrawer(GPUResidentDrawer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUResidentDrawer(GPUResidentDrawer const&) = delete;
+  GPUResidentDrawer(GPUResidentDrawerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17621 };

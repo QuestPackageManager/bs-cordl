@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\AutomaticColocationLauncher.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/AutomaticColocationLauncher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,9 @@ namespace System {
 struct Guid;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -117,6 +119,7 @@ DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocati
                     "AutomaticColocationLauncher/<LocalizeAnchor>d__30");
 DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__OnAnchorShareRequestReceived_d__28, "Meta.XR.MultiplayerBlocks.Colocation",
                     "AutomaticColocationLauncher/<OnAnchorShareRequestReceived>d__28");
+// [CompilerGenerated]
 // Dependencies Meta.XR.MultiplayerBlocks.Colocation.Anchor, System.Collections.Generic.List`1::Enumerator<T>, System.Runtime.CompilerServices.AsyncVoidMethodBuilder,
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
@@ -131,6 +134,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7bc48, size 0x4d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7c128, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -141,12 +145,12 @@ public:
   // @brief default ctor
   constexpr AutomaticColocationLauncher__ColocateAutomaticallyInternal_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None }, CppParam { name: "_successfullyAlignedToAnchor_5__2", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "__7__wrap2", ty: "::System::Collections::Generic::List_1_Enumerator<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>", modifiers: "", def_value: None },
-  // CppParam { name: "_anchor_5__4", ty: "::Meta::XR::MultiplayerBlocks::Colocation::Anchor", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_successfullyAlignedToAnchor_5__2", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty: "::System::Collections::Generic::List_1_Enumerator<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_anchor_5__4", ty: "::Meta::XR::MultiplayerBlocks::Colocation::Anchor", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr AutomaticColocationLauncher__ColocateAutomaticallyInternal_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                              ::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher* __4__this, bool _successfullyAlignedToAnchor_5__2,
                                                                              ::System::Collections::Generic::List_1_Enumerator<::Meta::XR::MultiplayerBlocks::Colocation::Anchor> __7__wrap2,
@@ -200,6 +204,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColoc
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateAutomaticallyInternal_d__19) == 0xa0, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies Meta.XR.MultiplayerBlocks.Colocation.Anchor, System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -213,6 +218,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7c130, size 0x490, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7c5c0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -223,11 +229,11 @@ public:
   // @brief default ctor
   constexpr AutomaticColocationLauncher__ColocateByPlayerWithOculusIdInternal_d__20();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None }, CppParam { name: "oculusId", ty: "uint64_t", modifiers: "", def_value: None },
-  // CppParam { name: "_anchorToAlignTo_5__2", ty: "::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "oculusId", ty: "uint64_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_anchorToAlignTo_5__2", ty: "::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr AutomaticColocationLauncher__ColocateByPlayerWithOculusIdInternal_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                     ::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher* __4__this, uint64_t oculusId,
                                                                                     ::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor> _anchorToAlignTo_5__2,
@@ -275,6 +281,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColoc
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateByPlayerWithOculusIdInternal_d__20) == 0x70, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -288,6 +295,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7c5c8, size 0x4e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7cac4, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -298,10 +306,10 @@ public:
   // @brief default ctor
   constexpr AutomaticColocationLauncher__CreateNewColocatedSpace_d__23();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>", modifiers: "", def_value: None, comment: None }]
   constexpr AutomaticColocationLauncher__CreateNewColocatedSpace_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                        ::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher* __4__this,
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>> __u__1) noexcept;
@@ -338,6 +346,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColoc
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__CreateNewColocatedSpace_d__23) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -351,6 +360,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7cacc, size 0x4f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7d0b0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -361,11 +371,12 @@ public:
   // @brief default ctor
   constexpr AutomaticColocationLauncher__LocalizeAnchor_d__30();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None }, CppParam { name: "anchorToLocalize", ty: "::System::Guid", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "anchorToLocalize", ty: "::System::Guid", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr AutomaticColocationLauncher__LocalizeAnchor_d__30(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher* __4__this,
       ::System::Guid anchorToLocalize,
@@ -408,6 +419,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColoc
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__LocalizeAnchor_d__30) == 0x48, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies Meta.XR.MultiplayerBlocks.Colocation.ShareAndLocalizeParams, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -421,6 +433,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7d0b8, size 0x54c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7d6f0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -431,11 +444,11 @@ public:
   // @brief default ctor
   constexpr AutomaticColocationLauncher__OnAnchorShareRequestReceived_d__28();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None }, CppParam { name: "shareAndLocalizeParams", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "shareAndLocalizeParams", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr AutomaticColocationLauncher__OnAnchorShareRequestReceived_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                             ::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher* __4__this,
                                                                             ::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams shareAndLocalizeParams,
@@ -536,12 +549,14 @@ public:
   /// @brief Method ColocateAutomatically, addr 0x5a72c98, size 0x4, virtual false, abstract: false, final false
   inline void ColocateAutomatically();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.AutomaticColocationLauncher::<ColocateAutomaticallyInternal>d__19))]
   /// @brief Method ColocateAutomaticallyInternal, addr 0x5a7a8ec, size 0xa4, virtual false, abstract: false, final false
   inline void ColocateAutomaticallyInternal();
 
   /// @brief Method ColocateByPlayerWithOculusId, addr 0x5a7a990, size 0x4, virtual false, abstract: false, final false
   inline void ColocateByPlayerWithOculusId(uint64_t oculusId);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.AutomaticColocationLauncher::<ColocateByPlayerWithOculusIdInternal>d__20))]
   /// @brief Method ColocateByPlayerWithOculusIdInternal, addr 0x5a7a994, size 0xb4, virtual false, abstract: false, final false
   inline void ColocateByPlayerWithOculusIdInternal(uint64_t oculusId);
 
@@ -551,6 +566,7 @@ public:
   /// @brief Method CreateColocatedSpaceInternal, addr 0x5a7aa4c, size 0x4, virtual false, abstract: false, final false
   inline void CreateColocatedSpaceInternal();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.AutomaticColocationLauncher::<CreateNewColocatedSpace>d__23))]
   /// @brief Method CreateNewColocatedSpace, addr 0x5a7af24, size 0xa4, virtual false, abstract: false, final false
   inline void CreateNewColocatedSpace();
 
@@ -564,6 +580,7 @@ public:
   inline void Init(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* networkData, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* networkMessenger,
                    ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* sharedAnchorManager, ::UnityEngine::GameObject* cameraRig, uint64_t myPlayerId, uint64_t myOculusId);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.AutomaticColocationLauncher::<LocalizeAnchor>d__30))]
   /// @brief Method LocalizeAnchor, addr 0x5a7bb90, size 0xb8, virtual false, abstract: false, final false
   inline void LocalizeAnchor(::System::Guid anchorToLocalize);
 
@@ -572,6 +589,7 @@ public:
   /// @brief Method OnAnchorShareRequestCompleted, addr 0x5a7b934, size 0x25c, virtual false, abstract: false, final false
   inline void OnAnchorShareRequestCompleted(::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams shareAndLocalizeParams);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.AutomaticColocationLauncher::<OnAnchorShareRequestReceived>d__28))]
   /// @brief Method OnAnchorShareRequestReceived, addr 0x5a7b874, size 0xc0, virtual false, abstract: false, final false
   inline void OnAnchorShareRequestReceived(::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams shareAndLocalizeParams);
 
@@ -650,15 +668,19 @@ public:
   /// @brief Method .ctor, addr 0x5a729e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_ColocationFailed, addr 0x5a72bd8, size 0xc0, virtual false, abstract: false, final false
   inline void add_ColocationFailed(::System::Action_1<::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_ColocationReady, addr 0x5a7a6d4, size 0xac, virtual false, abstract: false, final false
   inline void add_ColocationReady(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_ColocationFailed, addr 0x5a7a82c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_ColocationFailed(::System::Action_1<::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_ColocationReady, addr 0x5a7a780, size 0xac, virtual false, abstract: false, final false
   inline void remove_ColocationReady(::System::Action* value);
 
@@ -668,20 +690,22 @@ protected:
   constexpr AutomaticColocationLauncher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AutomaticColocationLauncher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutomaticColocationLauncher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutomaticColocationLauncher(AutomaticColocationLauncher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AutomaticColocationLauncher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutomaticColocationLauncher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutomaticColocationLauncher(AutomaticColocationLauncher const&) = delete;
+  AutomaticColocationLauncher(AutomaticColocationLauncherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20896 };
 
+  /// [CompilerGenerated]
   /// @brief Field ColocationReady, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___ColocationReady;
 
+  /// [CompilerGenerated]
   /// @brief Field ColocationFailed, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason>* ___ColocationFailed;
 

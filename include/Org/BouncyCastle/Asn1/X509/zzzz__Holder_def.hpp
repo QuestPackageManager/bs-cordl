@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\Holder.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Holder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -144,13 +144,13 @@ protected:
   constexpr Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Holder(Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Holder(Holder const&) = delete;
+  Holder(Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 364 };

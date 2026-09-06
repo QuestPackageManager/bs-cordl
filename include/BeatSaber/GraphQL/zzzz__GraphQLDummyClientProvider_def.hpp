@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\GraphQLDummyClientProvider.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/GraphQLDummyClientProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,12 +117,15 @@ public:
   /// @brief Method .ctor, addr 0x329755c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_globalRequestFailureEvent, addr 0x3297264, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_globalRequestSucceededEvent, addr 0x32970e4, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_initializationDidFinishEvent, addr 0x3296f8c, size 0xac, virtual true, abstract: false, final true
   inline void add_initializationDidFinishEvent(::System::Action* value);
 
@@ -141,12 +144,15 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_globalRequestFailureEvent, addr 0x3297324, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_globalRequestSucceededEvent, addr 0x32971a4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_initializationDidFinishEvent, addr 0x3297038, size 0xac, virtual true, abstract: false, final true
   inline void remove_initializationDidFinishEvent(::System::Action* value);
 
@@ -156,23 +162,26 @@ protected:
   constexpr GraphQLDummyClientProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLDummyClientProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLDummyClientProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLDummyClientProvider(GraphQLDummyClientProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLDummyClientProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLDummyClientProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLDummyClientProvider(GraphQLDummyClientProvider const&) = delete;
+  GraphQLDummyClientProvider(GraphQLDummyClientProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22665 };
 
+  /// [CompilerGenerated]
   /// @brief Field initializationDidFinishEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___initializationDidFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field globalRequestSucceededEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___globalRequestSucceededEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field globalRequestFailureEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___globalRequestFailureEvent;
 

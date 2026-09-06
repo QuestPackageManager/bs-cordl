@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerT61String.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerT61String.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +77,13 @@ protected:
   constexpr DerT61String();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerT61String", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerT61String", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerT61String(DerT61String&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerT61String", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerT61String", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerT61String(DerT61String const&) = delete;
+  DerT61String(DerT61Stringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 517 };

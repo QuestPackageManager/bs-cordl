@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\Collections\LRUCache_2.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/Collections/LRUCache_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/Collections/zzzz__LRUCache_2_def.hpp"
 #include "BGLib/DotnetExtension/Collections/zzzz__LRUCache_2_def.hpp"
@@ -110,12 +110,14 @@ template <typename TKey, typename TValue> constexpr void BGLib::DotnetExtension:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxNumberElements = value;
 }
-template <typename TKey, typename TValue> inline void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::add_itemWillBeRemovedFromCacheEvent(::System::Action_2<TKey, TValue>* value) {
+template <typename TKey, typename TValue>
+inline void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::add_itemWillBeRemovedFromCacheEvent(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<TKey, TValue>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*>(),
                                                                                          { "add_itemWillBeRemovedFromCacheEvent", {}, { ::i2c::type_of<::System::Action_2<TKey, TValue>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TKey, typename TValue> inline void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::remove_itemWillBeRemovedFromCacheEvent(::System::Action_2<TKey, TValue>* value) {
+template <typename TKey, typename TValue>
+inline void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::remove_itemWillBeRemovedFromCacheEvent(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<TKey, TValue>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*>(),
                                                                                          { "remove_itemWillBeRemovedFromCacheEvent", {}, { ::i2c::type_of<::System::Action_2<TKey, TValue>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
@@ -137,7 +139,7 @@ template <typename TKey, typename TValue> inline int32_t BGLib::DotnetExtension:
 }
 template <typename TKey, typename TValue>
 inline void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::MakeNodeMostRecentlyUsed(
-    ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>* node) {
+    /* [Nullable(new[] { 1, 1, 0, 0 })] */ ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>* node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -145,7 +147,8 @@ inline void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::MakeN
           { "MakeNodeMostRecentlyUsed", {}, { ::i2c::type_of<::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node);
 }
-template <typename TKey, typename TValue> inline bool BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::TryGetFromCache(TKey key, ::by_ref<TValue> value) {
+template <typename TKey, typename TValue>
+inline bool BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::TryGetFromCache(TKey key, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*>(),
                                                                                          { "TryGetFromCache", {}, { ::i2c::type_of<TKey>(), ::i2c::type_of<::by_ref<TValue>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key, value);

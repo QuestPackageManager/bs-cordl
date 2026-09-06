@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelPackSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelPackSO.hpp"
 #include "GlobalNamespace/zzzz__PackBuyOption_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"

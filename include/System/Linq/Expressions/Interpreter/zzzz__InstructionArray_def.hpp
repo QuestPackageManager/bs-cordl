@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InstructionArray.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InstructionArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,8 @@ MARK_REF_T(::System::Linq::Expressions::Interpreter::InstructionArray_DebugView*
 MARK_VAL_T(::System::Linq::Expressions::Interpreter::InstructionArray);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::InstructionArray_DebugView*, "System.Linq.Expressions.Interpreter", "InstructionArray/DebugView");
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::InstructionArray, "System.Linq.Expressions.Interpreter", "InstructionArray");
+// [IsReadOnly]
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Interpreter.InstructionArray::DebugView))]
 // Dependencies System.Linq.Expressions.Interpreter.Instruction, System.Linq.Expressions.Interpreter.RuntimeLabel, System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: true
@@ -61,10 +63,11 @@ public:
   // @brief default ctor
   constexpr InstructionArray();
 
-  // Ctor Parameters [CppParam { name: "MaxStackDepth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "MaxContinuationDepth", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "Instructions", ty: "::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*>", modifiers: "", def_value: None }, CppParam { name: "Objects", ty:
-  // "::ArrayW<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "Labels", ty: "::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel>", modifiers: "", def_value: None
-  // }, CppParam { name: "DebugCookies", ty: "::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<int32_t,::System::Object*>>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "MaxStackDepth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "MaxContinuationDepth", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Instructions", ty: "::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Objects", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Labels", ty:
+  // "::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel>", modifiers: "", def_value: None, comment: None }, CppParam { name: "DebugCookies", ty:
+  // "::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<int32_t,::System::Object*>>*", modifiers: "", def_value: None, comment: None }]
   constexpr InstructionArray(int32_t MaxStackDepth, int32_t MaxContinuationDepth, ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> Instructions, ::ArrayW<::System::Object*> Objects,
                              ::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel> Labels,
                              ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<int32_t, ::System::Object*>>* DebugCookies) noexcept;
@@ -126,6 +129,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::InstructionArray_DebugView* New_ctor(::System::Linq::Expressions::Interpreter::InstructionArray array);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetInstructionViews>b__4_0, addr 0x5f98530, size 0x34, virtual false, abstract: false, final false
   inline int32_t _GetInstructionViews_b__4_0(int32_t index);
 
@@ -144,13 +148,13 @@ protected:
   constexpr InstructionArray_DebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstructionArray_DebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstructionArray_DebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstructionArray_DebugView(InstructionArray_DebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstructionArray_DebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstructionArray_DebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstructionArray_DebugView(InstructionArray_DebugView const&) = delete;
+  InstructionArray_DebugView(InstructionArray_DebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16388 };

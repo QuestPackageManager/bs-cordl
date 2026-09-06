@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ConverterGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ConverterGroup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TypeConverterRegistry_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ConverterGroup_def.hpp"
@@ -99,7 +99,7 @@ template <typename TSource, typename TDestination> inline bool UnityEngine::UIEl
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, source, destination);
 }
 template <typename TContainer, typename TValue>
-inline bool UnityEngine::UIElements::ConverterGroup::TrySetValue(::by_ref<TContainer> container, ::by_ref<::Unity::Properties::PropertyPath> path, TValue value,
+inline bool UnityEngine::UIElements::ConverterGroup::TrySetValue(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, TValue value,
                                                                  ::by_ref<::Unity::Properties::VisitReturnCode> returnCode) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroup*>(),
                                                                                               { "TrySetValue",

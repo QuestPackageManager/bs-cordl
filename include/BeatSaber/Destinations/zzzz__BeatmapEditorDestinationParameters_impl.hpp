@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\BeatmapEditorDestinationParameters.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/BeatmapEditorDestinationParameters.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
@@ -87,7 +87,8 @@ inline void BeatSaber::Destinations::BeatmapEditorDestinationParameters::_ctor()
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void BeatSaber::Destinations::BeatmapEditorDestinationParameters::_ctor(
-    ::StringW projectPath, bool ignoreTempFolder, ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel) {
+    /* [Nullable(1)] */ ::StringW projectPath, bool ignoreTempFolder, /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */
+    ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::BeatmapEditorDestinationParameters*>(),
                                               { ".ctor",
@@ -100,7 +101,8 @@ inline ::BeatSaber::Destinations::BeatmapEditorDestinationParameters* BeatSaber:
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Destinations::BeatmapEditorDestinationParameters*>());
 }
 inline ::BeatSaber::Destinations::BeatmapEditorDestinationParameters* BeatSaber::Destinations::BeatmapEditorDestinationParameters::New_ctor(
-    ::StringW projectPath, bool ignoreTempFolder, ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel) {
+    /* [Nullable(1)] */ ::StringW projectPath, bool ignoreTempFolder, /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */
+    ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Destinations::BeatmapEditorDestinationParameters*>(projectPath, ignoreTempFolder, startLevel));
 }
 // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioClipAsyncLoaderExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioClipAsyncLoaderExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class AudioClipAsyncLoaderExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::AudioClipAsyncLoaderExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AudioClipAsyncLoaderExtensions*, "", "AudioClipAsyncLoaderExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -34,17 +35,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioClipAsyncLoaderExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method LoadPreview, addr 0x3720840, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadPreview(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                     ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
+  /// [Extension]
   /// @brief Method LoadSong, addr 0x3720998, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                  ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
+  /// [Extension]
   /// @brief Method UnloadPreview, addr 0x37208ec, size 0xac, virtual false, abstract: false, final false
   static inline void UnloadPreview(::GlobalNamespace::AudioClipAsyncLoader* _, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
+  /// [Extension]
   /// @brief Method UnloadSong, addr 0x371f120, size 0x1d4, virtual false, abstract: false, final false
   static inline void UnloadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
@@ -54,13 +59,13 @@ protected:
   constexpr AudioClipAsyncLoaderExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoaderExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoaderExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoaderExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoaderExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions const&) = delete;
+  AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14952 };

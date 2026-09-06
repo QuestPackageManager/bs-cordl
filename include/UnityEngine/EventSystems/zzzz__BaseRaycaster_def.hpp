@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\BaseRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/BaseRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ public:
   /// @brief Field m_RootRaycaster, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RootRaycaster, put = __cordl_internal_set_m_RootRaycaster)) ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> m_RootRaycaster;
 
+  /// @brief [Obsolete("Please use sortOrderPriority and renderOrderPriority", false)]
   __declspec(property(get = get_priority)) int32_t priority;
 
   __declspec(property(get = get_renderOrderPriority)) int32_t renderOrderPriority;
@@ -60,7 +61,7 @@ public:
   /// @brief Method OnTransformParentChanged, addr 0x6e23548, size 0x8, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method Raycast, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   /// @brief Method ToString, addr 0x6e232b0, size 0x1dc, virtual true, abstract: false, final false
@@ -75,7 +76,7 @@ public:
   /// @brief Method .ctor, addr 0x6e17d8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventCamera, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
   /// @brief Method get_priority, addr 0x6e23298, size 0x8, virtual true, abstract: false, final false
@@ -96,13 +97,13 @@ protected:
   constexpr BaseRaycaster();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRaycaster", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRaycaster", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseRaycaster(BaseRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRaycaster", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseRaycaster(BaseRaycaster const&) = delete;
+  BaseRaycaster(BaseRaycasterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17578 };

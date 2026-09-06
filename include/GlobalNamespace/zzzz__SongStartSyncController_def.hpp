@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongStartSyncController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongStartSyncController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -158,12 +158,15 @@ public:
   /// @brief Method .ctor, addr 0x5ccf3d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_syncResumeEvent, addr 0x5ccefa0, size 0xc0, virtual false, abstract: false, final false
   inline void add_syncResumeEvent(::System::Action_1<int64_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_syncStartFailedEvent, addr 0x5ccecc8, size 0xac, virtual false, abstract: false, final false
   inline void add_syncStartFailedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_syncStartSuccessEvent, addr 0x5ccee20, size 0xc0, virtual false, abstract: false, final false
   inline void add_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
@@ -173,12 +176,15 @@ public:
   /// @brief Method get_songStartSyncTime, addr 0x5ccecb0, size 0x18, virtual false, abstract: false, final false
   inline int64_t get_songStartSyncTime();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_syncResumeEvent, addr 0x5ccf060, size 0xc0, virtual false, abstract: false, final false
   inline void remove_syncResumeEvent(::System::Action_1<int64_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_syncStartFailedEvent, addr 0x5cced74, size 0xac, virtual false, abstract: false, final false
   inline void remove_syncStartFailedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_syncStartSuccessEvent, addr 0x5cceee0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
@@ -188,13 +194,13 @@ protected:
   constexpr SongStartSyncController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongStartSyncController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongStartSyncController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongStartSyncController(SongStartSyncController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongStartSyncController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongStartSyncController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongStartSyncController(SongStartSyncController const&) = delete;
+  SongStartSyncController(SongStartSyncControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21603 };
@@ -202,9 +208,11 @@ public:
   /// @brief Field kAudioLoadTimeout offset 0xffffffff size 0x4
   static constexpr float_t kAudioLoadTimeout{ static_cast<float_t>(15.0f) };
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _gameplayRpcManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____gameplayRpcManager;
 
@@ -223,12 +231,15 @@ public:
   /// @brief Field _songStartHandler, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::SongStartHandler* ____songStartHandler;
 
+  /// [CompilerGenerated]
   /// @brief Field syncStartFailedEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___syncStartFailedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field syncStartSuccessEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<int64_t>* ___syncStartSuccessEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field syncResumeEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action_1<int64_t>* ___syncResumeEvent;
 

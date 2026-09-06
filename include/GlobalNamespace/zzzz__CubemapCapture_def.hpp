@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CubemapCapture.hpp"
+// IWYU pragma private; include "GlobalNamespace/CubemapCapture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   // @brief default ctor
   constexpr CubemapCapture_ImageType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CubemapCapture_ImageType(int32_t value__) noexcept;
 
   /// @brief Field EXR value: I32(3)
@@ -216,35 +216,46 @@ protected:
   constexpr CubemapCapture();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CubemapCapture", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CubemapCapture", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CubemapCapture(CubemapCapture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CubemapCapture", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CubemapCapture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CubemapCapture(CubemapCapture const&) = delete;
+  CubemapCapture(CubemapCaptureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6509 };
 
+  /// [SerializeField]
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
+  /// [SerializeField]
   /// @brief Field _triggerKey, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Key ____triggerKey;
 
+  /// [SerializeField]
   /// @brief Field _cubemapSize, offset: 0x2c, size: 0x4, def value: None
   int32_t ____cubemapSize;
 
+  /// [SerializeField]
   /// @brief Field _saveDirectoryAbsolutePath, offset: 0x30, size: 0x8, def value: None
   ::StringW ____saveDirectoryAbsolutePath;
 
+  /// [Header("Image Settings")]
+  /// [SerializeField]
   /// @brief Field _imageType, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::CubemapCapture_ImageType ____imageType;
 
+  /// [Tooltip("Value between 0 - 100")]
+  /// [SerializeField]
+  /// [DrawIf("_imageType", (CubemapCapture::ImageType)1, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _jpegCompression, offset: 0x3c, size: 0x4, def value: None
   int32_t ____jpegCompression;
 
+  /// [SerializeField]
+  /// [DrawIf("_imageType", (CubemapCapture::ImageType)3, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _exrFlags, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::Texture2D_EXRFlags ____exrFlags;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseListViewController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseListViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,6 +114,7 @@ public:
   /// @brief Method Swap, addr 0x6c4d000, size 0x244, virtual false, abstract: false, final false
   inline void Swap(int32_t lhs, int32_t rhs);
 
+  /// [CompilerGenerated]
   /// @brief Method <AddItems>g__IsGenericList|19_0, addr 0x6c4dc30, size 0xb4, virtual false, abstract: false, final false
   static inline bool _AddItems_g__IsGenericList_19_0(::System::Type* t);
 
@@ -138,24 +139,30 @@ public:
   /// @brief Method .ctor, addr 0x6c4dc28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_itemsAdded, addr 0x6c4b7e8, size 0xc0, virtual false, abstract: false, final false
   inline void add_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_itemsRemoved, addr 0x6c4b968, size 0xc0, virtual false, abstract: false, final false
   inline void add_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_itemsSourceSizeChanged, addr 0x6c4b690, size 0xac, virtual false, abstract: false, final false
   inline void add_itemsSourceSizeChanged(::System::Action* value);
 
   /// @brief Method get_baseListView, addr 0x6c4bae8, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseListView* get_baseListView();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_itemsAdded, addr 0x6c4b8a8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_itemsRemoved, addr 0x6c4ba28, size 0xc0, virtual false, abstract: false, final false
   inline void remove_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_itemsSourceSizeChanged, addr 0x6c4b73c, size 0xac, virtual false, abstract: false, final false
   inline void remove_itemsSourceSizeChanged(::System::Action* value);
 
@@ -165,23 +172,29 @@ protected:
   constexpr BaseListViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseListViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseListViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseListViewController(BaseListViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseListViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseListViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseListViewController(BaseListViewController const&) = delete;
+  BaseListViewController(BaseListViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4072 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field itemsSourceSizeChanged, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___itemsSourceSizeChanged;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field itemsAdded, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* ___itemsAdded;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field itemsRemoved, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* ___itemsRemoved;
 

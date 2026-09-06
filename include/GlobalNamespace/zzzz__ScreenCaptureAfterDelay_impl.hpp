@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenCaptureAfterDelay.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenCaptureAfterDelay.hpp"
 #include "GlobalNamespace/zzzz__ScreenCaptureCache_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -241,6 +241,7 @@ inline ::System::Object* GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6* GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6*>(__1__state));
 }

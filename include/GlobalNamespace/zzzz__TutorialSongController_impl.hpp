@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialSongController.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialSongController.hpp"
 #include "GlobalNamespace/zzzz__ColorType_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
@@ -70,7 +70,7 @@ inline ::GlobalNamespace::TutorialSongController_InitData* GlobalNamespace::Tuto
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TutorialSongController_InitData::TutorialSongController_InitData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SequenceCutInfo_TutorialSongController_NoteType::SequenceCutInfo_TutorialSongController_NoteType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -275,7 +275,7 @@ inline void GlobalNamespace::TutorialSongController_SequenceCutInfo::_ctor(int32
                                                            { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::SequenceCutInfo_TutorialSongController_NoteType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cuttableObjectsCount, noteType);
 }
-inline void GlobalNamespace::TutorialSongController_SequenceCutInfo::MarkCut(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::TutorialSongController_SequenceCutInfo::MarkCut(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController_SequenceCutInfo*>(),
                                                                                          { "MarkCut", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteCutInfo);
@@ -1477,7 +1477,7 @@ inline void GlobalNamespace::TutorialSongController::ResumeSong() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::TutorialSongController*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::TutorialSongController::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::TutorialSongController::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController*>(),
                                               { "HandleNoteWasCut", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));

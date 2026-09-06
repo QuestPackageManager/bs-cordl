@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JValue.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,7 +84,9 @@ namespace System {
 class IFormattable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -113,6 +115,8 @@ MARK_REF_T(::Newtonsoft::Json::Linq::JValue*);
 MARK_REF_T(::Newtonsoft::Json::Linq::JValue_JValueDynamicProxy*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JValue*, "Newtonsoft.Json.Linq", "JValue");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JValue_JValueDynamicProxy*, "Newtonsoft.Json.Linq", "JValue/JValueDynamicProxy");
+// [NullableContext(1)]
+// [Nullable(new[] { 0, 1 })]
 // Dependencies Newtonsoft.Json.Utilities.DynamicProxy`1<T>
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
@@ -123,10 +127,11 @@ public:
   static inline ::Newtonsoft::Json::Linq::JValue_JValueDynamicProxy* New_ctor();
 
   /// @brief Method TryBinaryOperation, addr 0x5d8c754, size 0x330, virtual true, abstract: false, final false
-  inline bool TryBinaryOperation(::Newtonsoft::Json::Linq::JValue* instance, ::System::Dynamic::BinaryOperationBinder* binder, ::System::Object* arg, ::by_ref<::System::Object*> result);
+  inline bool TryBinaryOperation(::Newtonsoft::Json::Linq::JValue* instance, ::System::Dynamic::BinaryOperationBinder* binder, ::System::Object* arg,
+                                 /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method TryConvert, addr 0x5d8c59c, size 0x1b8, virtual true, abstract: false, final false
-  inline bool TryConvert(::Newtonsoft::Json::Linq::JValue* instance, ::System::Dynamic::ConvertBinder* binder, ::by_ref<::System::Object*> result);
+  inline bool TryConvert(::Newtonsoft::Json::Linq::JValue* instance, ::System::Dynamic::ConvertBinder* binder, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method .ctor, addr 0x5d8bea0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
@@ -137,13 +142,13 @@ protected:
   constexpr JValue_JValueDynamicProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JValue_JValueDynamicProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JValue_JValueDynamicProxy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JValue_JValueDynamicProxy(JValue_JValueDynamicProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JValue_JValueDynamicProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JValue_JValueDynamicProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JValue_JValueDynamicProxy(JValue_JValueDynamicProxy const&) = delete;
+  JValue_JValueDynamicProxy(JValue_JValueDynamicProxyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13618 };
@@ -154,6 +159,8 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::Linq::JValue_JValueDynamicProxy) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JTokenType
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
@@ -190,33 +197,41 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*() noexcept;
 
+  /// [NullableContext(1)]
   /// @brief Method CloneToken, addr 0x5d8afb8, size 0x6c, virtual true, abstract: false, final false
-  inline ::Newtonsoft::Json::Linq::JToken* CloneToken(::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
+  inline ::Newtonsoft::Json::Linq::JToken* CloneToken(/* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
   /// @brief Method Compare, addr 0x5d89b7c, size 0xaec, virtual false, abstract: false, final false
   static inline int32_t Compare(::Newtonsoft::Json::Linq::JTokenType valueType, ::System::Object* objA, ::System::Object* objB);
 
+  /// [NullableContext(1)]
   /// @brief Method CompareBigInteger, addr 0x5d89888, size 0x2f4, virtual false, abstract: false, final false
   static inline int32_t CompareBigInteger(::System::Numerics::BigInteger i1, ::System::Object* i2);
 
+  /// [NullableContext(1)]
   /// @brief Method CompareFloat, addr 0x5d8a668, size 0x138, virtual false, abstract: false, final false
   static inline int32_t CompareFloat(::System::Object* objA, ::System::Object* objB);
 
   /// @brief Method CompareTo, addr 0x5d8bf9c, size 0x30, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Newtonsoft::Json::Linq::JValue* obj);
 
+  /// [NullableContext(1)]
   /// @brief Method CreateComment, addr 0x5d8767c, size 0x60, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Linq::JValue* CreateComment(::StringW value);
+  static inline ::Newtonsoft::Json::Linq::JValue* CreateComment(/* [Nullable(2)] */ ::StringW value);
 
+  /// [NullableContext(1)]
   /// @brief Method CreateNull, addr 0x5d873fc, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JValue* CreateNull();
 
+  /// [NullableContext(1)]
   /// @brief Method CreateString, addr 0x5d8b024, size 0x60, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Linq::JValue* CreateString(::StringW value);
+  static inline ::Newtonsoft::Json::Linq::JValue* CreateString(/* [Nullable(2)] */ ::StringW value);
 
+  /// [NullableContext(1)]
   /// @brief Method CreateUndefined, addr 0x5d8757c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JValue* CreateUndefined();
 
+  /// [NullableContext(1)]
   /// @brief Method DeepEquals, addr 0x5d89778, size 0xac, virtual true, abstract: false, final false
   inline bool DeepEquals(::Newtonsoft::Json::Linq::JToken* node);
 
@@ -232,6 +247,7 @@ public:
   /// @brief Method GetHashCode, addr 0x5d8bbfc, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [NullableContext(1)]
   /// @brief Method GetMetaObject, addr 0x5d8bdc8, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* GetMetaObject(::System::Linq::Expressions::Expression* parameter);
 
@@ -241,9 +257,11 @@ public:
   /// @brief Method GetValueType, addr 0x5d89414, size 0x364, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JTokenType GetValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> current, ::System::Object* value);
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Linq::JValue* New_ctor(::Newtonsoft::Json::Linq::JValue* other);
 
-  static inline ::Newtonsoft::Json::Linq::JValue* New_ctor(::Newtonsoft::Json::Linq::JValue* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
+  /// @brief [NullableContext(1)]
+  static inline ::Newtonsoft::Json::Linq::JValue* New_ctor(::Newtonsoft::Json::Linq::JValue* other, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JValue* New_ctor(::StringW value);
 
@@ -273,6 +291,7 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JValue* New_ctor(int64_t value);
 
+  /// @brief [CLSCompliant(false)]
   static inline ::Newtonsoft::Json::Linq::JValue* New_ctor(uint64_t value);
 
   /// @brief Method Operation, addr 0x5d8a7a0, size 0x818, virtual false, abstract: false, final false
@@ -317,8 +336,9 @@ public:
   /// @brief Method System.IConvertible.ToSingle, addr 0x5d8c424, size 0x5c, virtual true, abstract: false, final true
   inline float_t System_IConvertible_ToSingle(::System::IFormatProvider* provider);
 
+  /// [NullableContext(1)]
   /// @brief Method System.IConvertible.ToType, addr 0x5d8c594, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_IConvertible_ToType(::System::Type* conversionType, ::System::IFormatProvider* provider);
+  inline ::System::Object* System_IConvertible_ToType(::System::Type* conversionType, /* [Nullable(2)] */ ::System::IFormatProvider* provider);
 
   /// @brief Method System.IConvertible.ToUInt16, addr 0x5d8c258, size 0x5c, virtual true, abstract: false, final true
   inline uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
@@ -329,27 +349,33 @@ public:
   /// @brief Method System.IConvertible.ToUInt64, addr 0x5d8c3c8, size 0x5c, virtual true, abstract: false, final true
   inline uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
 
+  /// [NullableContext(1)]
   /// @brief Method ToString, addr 0x5d8bc14, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [NullableContext(1)]
   /// @brief Method ToString, addr 0x5d8bc3c, size 0x74, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format);
 
   /// @brief Method ToString, addr 0x5d8bcb0, size 0x10c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
+  /// [NullableContext(1)]
   /// @brief Method ToString, addr 0x5d8bdbc, size 0xc, virtual true, abstract: false, final true
-  inline ::StringW ToString(::System::IFormatProvider* formatProvider);
+  inline ::StringW ToString(/* [Nullable(2)] */ ::System::IFormatProvider* formatProvider);
 
+  /// [NullableContext(1)]
   /// @brief Method ValuesEquals, addr 0x5d89824, size 0x5c, virtual false, abstract: false, final false
   static inline bool ValuesEquals(::Newtonsoft::Json::Linq::JValue* v1, ::Newtonsoft::Json::Linq::JValue* v2);
 
+  /// [NullableContext(1)]
   /// @brief Method WriteTo, addr 0x5d8b1e0, size 0x944, virtual true, abstract: false, final false
-  inline void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
+  inline void WriteTo(::Newtonsoft::Json::JsonWriter* writer, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
 
+  /// [NullableContext(1)]
   /// @brief Method WriteToAsync, addr 0x5d888c4, size 0x98c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteToAsync(::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
-                                                        ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
+                                                        /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
 
   constexpr ::System::Object* const& __cordl_internal_get__value() const;
 
@@ -363,11 +389,13 @@ public:
 
   constexpr void __cordl_internal_set__valueType(::Newtonsoft::Json::Linq::JTokenType value);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d89320, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JValue* other);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d89250, size 0xd0, virtual false, abstract: false, final false
-  inline void _ctor(::Newtonsoft::Json::Linq::JValue* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
+  inline void _ctor(::Newtonsoft::Json::Linq::JValue* other, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
   /// @brief Method .ctor, addr 0x5d8776c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
@@ -411,6 +439,7 @@ public:
   /// @brief Method .ctor, addr 0x5d878b8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5d879d8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
@@ -447,13 +476,13 @@ protected:
   constexpr JValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JValue(JValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JValue(JValue const&) = delete;
+  JValue(JValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13619 };

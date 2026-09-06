@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AABB.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AABB.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,8 +50,8 @@ public:
   // @brief default ctor
   constexpr AABB();
 
-  // Ctor Parameters [CppParam { name: "center", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }, CppParam { name: "extents", ty: "::Unity::Mathematics::float3", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "center", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "extents", ty: "::Unity::Mathematics::float3",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr AABB(::Unity::Mathematics::float3 center, ::Unity::Mathematics::float3 extents) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

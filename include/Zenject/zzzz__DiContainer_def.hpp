@@ -1,9 +1,29 @@
 #pragma once
-// IWYU pragma private; include "Zenject\DiContainer.hpp"
+// IWYU pragma private; include "Zenject/DiContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
+#include "Zenject/zzzz__IFixedTickable_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "Zenject/zzzz__ILateDisposable_def.hpp"
+#include "Zenject/zzzz__ILateTickable_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
+#include "Zenject/zzzz__IPoolable_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
+#include "Zenject/zzzz__Installer_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_11_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_1_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_2_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_3_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_4_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_5_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_6_def.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_7_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
@@ -48,7 +68,9 @@ namespace System {
 template <typename T> class Lazy_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -303,6 +325,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e8292c, size 0x19c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e82ac8, size 0x3d8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -315,13 +338,13 @@ protected:
   constexpr DiContainer_ProviderInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer_ProviderInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer_ProviderInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiContainer_ProviderInfo(DiContainer_ProviderInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer_ProviderInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer_ProviderInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer_ProviderInfo(DiContainer_ProviderInfo const&) = delete;
+  DiContainer_ProviderInfo(DiContainer_ProviderInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14514 };
@@ -352,6 +375,7 @@ static_assert(offsetof(::Zenject::DiContainer_ProviderInfo, ___Condition) == 0x2
 static_assert(sizeof(::Zenject::DiContainer_ProviderInfo) == 0x30, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -404,6 +428,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e830f8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8313c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -457,13 +482,13 @@ protected:
   constexpr DiContainer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiContainer___c(DiContainer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c(DiContainer___c const&) = delete;
+  DiContainer___c(DiContainer___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14515 };
@@ -474,6 +499,7 @@ public:
 static_assert(sizeof(::Zenject::DiContainer___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -531,13 +557,13 @@ protected:
   constexpr DiContainer___c__DisplayClass178_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass178_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass178_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiContainer___c__DisplayClass178_0(DiContainer___c__DisplayClass178_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass178_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass178_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass178_0(DiContainer___c__DisplayClass178_0 const&) = delete;
+  DiContainer___c__DisplayClass178_0(DiContainer___c__DisplayClass178_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14516 };
@@ -568,6 +594,7 @@ static_assert(offsetof(::Zenject::DiContainer___c__DisplayClass178_0, ___concret
 static_assert(sizeof(::Zenject::DiContainer___c__DisplayClass178_0) == 0x30, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -600,13 +627,13 @@ protected:
   constexpr DiContainer___c__DisplayClass203_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass203_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass203_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiContainer___c__DisplayClass203_0_1(DiContainer___c__DisplayClass203_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass203_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass203_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass203_0_1(DiContainer___c__DisplayClass203_0_1 const&) = delete;
+  DiContainer___c__DisplayClass203_0_1(DiContainer___c__DisplayClass203_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14517 };
@@ -618,6 +645,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -659,13 +687,13 @@ protected:
   constexpr DiContainer___c__DisplayClass244_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass244_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass244_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiContainer___c__DisplayClass244_0_1(DiContainer___c__DisplayClass244_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass244_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass244_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass244_0_1(DiContainer___c__DisplayClass244_0_1 const&) = delete;
+  DiContainer___c__DisplayClass244_0_1(DiContainer___c__DisplayClass244_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14518 };
@@ -680,6 +708,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -721,13 +750,13 @@ protected:
   constexpr DiContainer___c__DisplayClass246_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass246_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass246_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiContainer___c__DisplayClass246_0_1(DiContainer___c__DisplayClass246_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass246_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass246_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass246_0_1(DiContainer___c__DisplayClass246_0_1 const&) = delete;
+  DiContainer___c__DisplayClass246_0_1(DiContainer___c__DisplayClass246_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14519 };
@@ -742,6 +771,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -772,13 +802,13 @@ protected:
   constexpr DiContainer___c__DisplayClass86_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass86_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass86_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiContainer___c__DisplayClass86_0(DiContainer___c__DisplayClass86_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass86_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass86_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass86_0(DiContainer___c__DisplayClass86_0 const&) = delete;
+  DiContainer___c__DisplayClass86_0(DiContainer___c__DisplayClass86_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14520 };
@@ -794,6 +824,7 @@ static_assert(offsetof(::Zenject::DiContainer___c__DisplayClass86_0, ___context)
 static_assert(sizeof(::Zenject::DiContainer___c__DisplayClass86_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -844,23 +875,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e83520, size 0x300, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Zenject::DiContainer__GetDependencyContracts_d__96* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x6e83af4, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x6e83aac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e83b94, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e83ab4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e83aec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e83504, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -909,6 +947,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6e839f8, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e834e4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -933,13 +972,13 @@ protected:
   constexpr DiContainer__GetDependencyContracts_d__96();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer__GetDependencyContracts_d__96", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer__GetDependencyContracts_d__96", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiContainer__GetDependencyContracts_d__96(DiContainer__GetDependencyContracts_d__96&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer__GetDependencyContracts_d__96", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer__GetDependencyContracts_d__96", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer__GetDependencyContracts_d__96(DiContainer__GetDependencyContracts_d__96 const&) = delete;
+  DiContainer__GetDependencyContracts_d__96(DiContainer__GetDependencyContracts_d__96const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14521 };
@@ -985,7 +1024,12 @@ static_assert(offsetof(::Zenject::DiContainer__GetDependencyContracts_d__96, ___
 static_assert(sizeof(::Zenject::DiContainer__GetDependencyContracts_d__96) == 0x48, "Size mismatch!");
 
 } // namespace Zenject
-// Dependencies System.Object
+// [NoReflectionBaking]
+// Dependencies System.IDisposable, System.Object, UnityEngine.Component, UnityEngine.ScriptableObject, Zenject.IFactory, Zenject.IFixedTickable, Zenject.IInitializable, Zenject.ILateDisposable,
+// Zenject.ILateTickable, Zenject.IMemoryPool, Zenject.IPoolable, Zenject.ITickable, Zenject.Installer, Zenject.PlaceholderFactory`11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7,
+// TParam8, TParam9, TParam10, TValue>, Zenject.PlaceholderFactory`1<TValue>, Zenject.PlaceholderFactory`2<TParam1, TValue>, Zenject.PlaceholderFactory`3<TParam1, TParam2, TValue>,
+// Zenject.PlaceholderFactory`4<TParam1, TParam2, TParam3, TValue>, Zenject.PlaceholderFactory`5<TParam1, TParam2, TParam3, TParam4, TValue>, Zenject.PlaceholderFactory`6<TParam1, TParam2, TParam3,
+// TParam4, TParam5, TValue>, Zenject.PlaceholderFactory`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.DiContainer
@@ -1116,7 +1160,7 @@ public:
   template <typename TContract> inline ::Zenject::ConcreteIdBinderGeneric_1<TContract>* Bind(::Zenject::BindStatement* bindStatement);
 
   /// @brief Method Bind, addr 0x6e6e7e8, size 0x90, virtual false, abstract: false, final false
-  inline ::Zenject::ConcreteIdBinderNonGeneric* Bind(::ArrayW<::System::Type*> contractTypes);
+  inline ::Zenject::ConcreteIdBinderNonGeneric* Bind(/* [ParamArray] */ ::ArrayW<::System::Type*> contractTypes);
 
   /// @brief Method Bind, addr 0x6e80fd8, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdBinderNonGeneric* Bind(::System::Collections::Generic::IEnumerable_1<::System::Type*>* contractTypes);
@@ -1125,7 +1169,9 @@ public:
   inline ::Zenject::ConcreteIdBinderNonGeneric* Bind(::System::Action_1<::Zenject::ConventionSelectTypesBinder*>* generator);
 
   /// @brief Method BindDisposableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Zenject::CopyNonLazyBinder* BindDisposableExecutionOrder(int32_t order);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IDisposable*>)
+  inline ::Zenject::CopyNonLazyBinder* BindDisposableExecutionOrder(int32_t order);
 
   /// @brief Method BindDisposableExecutionOrder, addr 0x6e8223c, size 0x128, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindDisposableExecutionOrder(::System::Type* type, int32_t order);
@@ -1139,97 +1185,147 @@ public:
   /// @brief Method BindFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
             typename TContract, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>)
   inline ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindFactory();
 
   /// @brief Method BindFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TContract, typename TFactory> inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactory();
+  template <typename TContract, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_1<TContract>*>)
+  inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactory();
 
   /// @brief Method BindFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TParam1, typename TContract, typename TFactory> inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactory();
+  template <typename TParam1, typename TContract, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_2<TParam1, TContract>*>)
+  inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactory();
 
   /// @brief Method BindFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TParam1, typename TParam2, typename TContract, typename TFactory> inline ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactory();
+  template <typename TParam1, typename TParam2, typename TContract, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_3<TParam1, TParam2, TContract>*>)
+  inline ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactory();
 
   /// @brief Method BindFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_4<TParam1, TParam2, TParam3, TContract>*>)
   inline ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindFactory();
 
   /// @brief Method BindFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TContract>*>)
   inline ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindFactory();
 
   /// @brief Method BindFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*>)
   inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindFactory();
 
   /// @brief Method BindFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
   inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindFactory();
 
   /// @brief Method BindFactoryCustomInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
             typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+    requires(
+        ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*> &&
+        ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindFactoryCustomInterface();
 
   /// @brief Method BindFactoryCustomInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TContract, typename TFactoryConcrete, typename TFactoryContract> inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactoryCustomInterface();
+  template <typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+    requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_1<TContract>*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
+  inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactoryCustomInterface();
 
   /// @brief Method BindFactoryCustomInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TParam1, typename TContract, typename TFactoryConcrete, typename TFactoryContract> inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactoryCustomInterface();
+  template <typename TParam1, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+    requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_2<TParam1, TContract>*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
+  inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactoryCustomInterface();
 
   /// @brief Method BindFactoryCustomInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+    requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_3<TParam1, TParam2, TContract>*> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactoryCustomInterface();
 
   /// @brief Method BindFactoryCustomInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+    requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_4<TParam1, TParam2, TParam3, TContract>*> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindFactoryCustomInterface();
 
   /// @brief Method BindFactoryCustomInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+    requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TContract>*> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindFactoryCustomInterface();
 
   /// @brief Method BindFactoryCustomInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+    requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindFactoryCustomInterface();
 
   /// @brief Method BindFactoryCustomInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+    requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindFactoryCustomInterface();
 
   /// @brief Method BindFactoryInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
             typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+    requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindFactoryInternal();
 
   /// @brief Method BindFactoryInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TContract, typename TFactoryContract, typename TFactoryConcrete> inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactoryInternal();
+  template <typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+    requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
+  inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactoryInternal();
 
   /// @brief Method BindFactoryInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TParam1, typename TContract, typename TFactoryContract, typename TFactoryConcrete> inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactoryInternal();
+  template <typename TParam1, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+    requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
+  inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactoryInternal();
 
   /// @brief Method BindFactoryInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+    requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactoryInternal();
 
   /// @brief Method BindFactoryInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+    requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindFactoryInternal();
 
   /// @brief Method BindFactoryInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+    requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindFactoryInternal();
 
   /// @brief Method BindFactoryInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+    requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindFactoryInternal();
 
   /// @brief Method BindFactoryInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+    requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+             ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
   inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindFactoryInternal();
 
   /// @brief Method BindFixedTickableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Zenject::CopyNonLazyBinder* BindFixedTickableExecutionOrder(int32_t order);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Zenject::IFixedTickable*>)
+  inline ::Zenject::CopyNonLazyBinder* BindFixedTickableExecutionOrder(int32_t order);
 
   /// @brief Method BindFixedTickableExecutionOrder, addr 0x6e824b4, size 0x18c, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindFixedTickableExecutionOrder(::System::Type* type, int32_t order);
@@ -1264,7 +1360,9 @@ public:
   inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindIFactory();
 
   /// @brief Method BindInitializableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Zenject::CopyNonLazyBinder* BindInitializableExecutionOrder(int32_t order);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Zenject::IInitializable*>)
+  inline ::Zenject::CopyNonLazyBinder* BindInitializableExecutionOrder(int32_t order);
 
   /// @brief Method BindInitializableExecutionOrder, addr 0x6e82114, size 0x128, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindInitializableExecutionOrder(::System::Type* type, int32_t order);
@@ -1273,7 +1371,7 @@ public:
   template <typename TContract> inline ::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder* BindInstance(TContract instance);
 
   /// @brief Method BindInstances, addr 0x6e8163c, size 0x164, virtual false, abstract: false, final false
-  inline void BindInstances(::ArrayW<::System::Object*> instances);
+  inline void BindInstances(/* [ParamArray] */ ::ArrayW<::System::Object*> instances);
 
   /// @brief Method BindInterfacesAndSelfTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::FromBinderNonGeneric* BindInterfacesAndSelfTo();
@@ -1291,13 +1389,17 @@ public:
   inline ::Zenject::ConcreteIdBinderNonGeneric* BindInternal(::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindingFinalizer);
 
   /// @brief Method BindLateDisposableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Zenject::CopyNonLazyBinder* BindLateDisposableExecutionOrder(int32_t order);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Zenject::ILateDisposable*>)
+  inline ::Zenject::CopyNonLazyBinder* BindLateDisposableExecutionOrder(int32_t order);
 
   /// @brief Method BindLateDisposableExecutionOrder, addr 0x6e82364, size 0x150, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindLateDisposableExecutionOrder(::System::Type* type, int32_t order);
 
   /// @brief Method BindLateTickableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Zenject::CopyNonLazyBinder* BindLateTickableExecutionOrder(int32_t order);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Zenject::ILateTickable*>)
+  inline ::Zenject::CopyNonLazyBinder* BindLateTickableExecutionOrder(int32_t order);
 
   /// @brief Method BindLateTickableExecutionOrder, addr 0x6e82640, size 0x18c, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindLateTickableExecutionOrder(::System::Type* type, int32_t order);
@@ -1306,31 +1408,43 @@ public:
   template <typename TItemContract> inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPool();
 
   /// @brief Method BindMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TItemContract, typename TPool> inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPool();
+  template <typename TItemContract, typename TPool>
+    requires(::cordl_internals::type_constraint<TPool, ::Zenject::IMemoryPool*>)
+  inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPool();
 
   /// @brief Method BindMemoryPoolCustomInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TItemContract, typename TPoolConcrete, typename TPoolContract>
+    requires(::cordl_internals::type_constraint<TPoolConcrete, TPoolContract> && ::cordl_internals::type_constraint<TPoolConcrete, ::Zenject::IMemoryPool*> &&
+             ::cordl_internals::type_constraint<TPoolContract, ::Zenject::IMemoryPool*>)
   inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPoolCustomInterface(bool includeConcreteType);
 
   /// @brief Method BindMemoryPoolCustomInterfaceInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TItemContract, typename TPoolConcrete, typename TPoolContract>
+    requires(::cordl_internals::type_constraint<TPoolConcrete, TPoolContract> && ::cordl_internals::type_constraint<TPoolConcrete, ::Zenject::IMemoryPool*> &&
+             ::cordl_internals::type_constraint<TPoolContract, ::Zenject::IMemoryPool*>)
   inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPoolCustomInterfaceInternal(bool includeConcreteType, ::Zenject::BindStatement* statement);
 
   /// @brief Method BindMemoryPoolCustomInterfaceNoFlush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TItemContract, typename TPoolConcrete, typename TPoolContract>
+    requires(::cordl_internals::type_constraint<TPoolConcrete, TPoolContract> && ::cordl_internals::type_constraint<TPoolConcrete, ::Zenject::IMemoryPool*> &&
+             ::cordl_internals::type_constraint<TPoolContract, ::Zenject::IMemoryPool*>)
   inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPoolCustomInterfaceNoFlush(bool includeConcreteType);
 
   /// @brief Method BindNoFlush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::Zenject::ConcreteIdBinderGeneric_1<TContract>* BindNoFlush();
 
   /// @brief Method BindPoolableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Zenject::CopyNonLazyBinder* BindPoolableExecutionOrder(int32_t order);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Zenject::IPoolable*>)
+  inline ::Zenject::CopyNonLazyBinder* BindPoolableExecutionOrder(int32_t order);
 
   /// @brief Method BindPoolableExecutionOrder, addr 0x6e827cc, size 0x150, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindPoolableExecutionOrder(::System::Type* type, int32_t order);
 
   /// @brief Method BindTickableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Zenject::CopyNonLazyBinder* BindTickableExecutionOrder(int32_t order);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Zenject::ITickable*>)
+  inline ::Zenject::CopyNonLazyBinder* BindTickableExecutionOrder(int32_t order);
 
   /// @brief Method BindTickableExecutionOrder, addr 0x6e81fec, size 0x128, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindTickableExecutionOrder(::System::Type* type, int32_t order);
@@ -1396,6 +1510,7 @@ public:
   /// @brief Method GetDependencyContracts, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetDependencyContracts();
 
+  /// [IteratorStateMachine(typeof(Zenject.DiContainer::<GetDependencyContracts>d__96))]
   /// @brief Method GetDependencyContracts, addr 0x6e7c368, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetDependencyContracts(::System::Type* contract);
 
@@ -1457,10 +1572,14 @@ public:
                                                         ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InjectGameObjectForComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  inline T InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method InjectGameObjectForComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  inline T InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InjectGameObjectForComponentExplicit, addr 0x6e7fcd8, size 0x3d4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> InjectGameObjectForComponentExplicit(::UnityEngine::GameObject* gameObject, ::System::Type* componentType,
@@ -1472,10 +1591,14 @@ public:
                                    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::System::Object* concreteIdentifier, bool isDryRun);
 
   /// @brief Method Install, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TInstaller> inline void Install();
+  template <typename TInstaller>
+    requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::Installer*>)
+  inline void Install();
 
   /// @brief Method Install, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TInstaller> inline void Install(::ArrayW<::System::Object*> extraArgs);
+  template <typename TInstaller>
+    requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::Installer*>)
+  inline void Install(::ArrayW<::System::Object*> extraArgs);
 
   /// @brief Method InstallDefaultBindings, addr 0x6e7740c, size 0x22c, virtual false, abstract: false, final false
   inline void InstallDefaultBindings();
@@ -1500,26 +1623,38 @@ public:
                                                                  ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InstantiateComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TContract> inline TContract InstantiateComponent(::UnityEngine::GameObject* gameObject);
+  template <typename TContract>
+    requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*>)
+  inline TContract InstantiateComponent(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method InstantiateComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TContract> inline TContract InstantiateComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
+  template <typename TContract>
+    requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*>)
+  inline TContract InstantiateComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InstantiateComponentExplicit, addr 0x6e7ee7c, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> InstantiateComponentExplicit(::System::Type* componentType, ::UnityEngine::GameObject* gameObject,
                                                                          ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
   /// @brief Method InstantiateComponentOnNewGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline T InstantiateComponentOnNewGameObject();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  inline T InstantiateComponentOnNewGameObject();
 
   /// @brief Method InstantiateComponentOnNewGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline T InstantiateComponentOnNewGameObject(::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  inline T InstantiateComponentOnNewGameObject(::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InstantiateComponentOnNewGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline T InstantiateComponentOnNewGameObject(::StringW gameObjectName);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  inline T InstantiateComponentOnNewGameObject(::StringW gameObjectName);
 
   /// @brief Method InstantiateComponentOnNewGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline T InstantiateComponentOnNewGameObject(::StringW gameObjectName, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  inline T InstantiateComponentOnNewGameObject(::StringW gameObjectName, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InstantiateExplicit, addr 0x6e817a0, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Object* InstantiateExplicit(::System::Type* concreteType, bool autoInject, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs,
@@ -1655,10 +1790,14 @@ public:
                                                                ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InstantiateScriptableObjectResource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline T InstantiateScriptableObjectResource(::StringW resourcePath);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
+  inline T InstantiateScriptableObjectResource(::StringW resourcePath);
 
   /// @brief Method InstantiateScriptableObjectResource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline T InstantiateScriptableObjectResource(::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
+  inline T InstantiateScriptableObjectResource(::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InstantiateScriptableObjectResourceExplicit, addr 0x6e7fae8, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Object* InstantiateScriptableObjectResourceExplicit(::System::Type* scriptableObjectType, ::StringW resourcePath,
@@ -1785,13 +1924,17 @@ public:
   inline ::System::Object* TryResolve(::System::Type* contractType);
 
   /// @brief Method TryResolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TContract> inline TContract TryResolve();
+  template <typename TContract>
+    requires(::cordl_internals::reference_type_constraint<TContract>)
+  inline TContract TryResolve();
 
   /// @brief Method TryResolveId, addr 0x6e80268, size 0x184, virtual false, abstract: false, final false
   inline ::System::Object* TryResolveId(::System::Type* contractType, ::System::Object* identifier);
 
   /// @brief Method TryResolveId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TContract> inline TContract TryResolveId(::System::Object* identifier);
+  template <typename TContract>
+    requires(::cordl_internals::reference_type_constraint<TContract>)
+  inline TContract TryResolveId(::System::Object* identifier);
 
   /// @brief Method Unbind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline bool Unbind();
@@ -1990,6 +2133,7 @@ public:
   /// @brief Method get_AncestorContainers, addr 0x6e783f8, size 0x2c, virtual false, abstract: false, final false
   inline ::ArrayW<::Zenject::DiContainer*> get_AncestorContainers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AssertOnNewGameObjects, addr 0x6e783d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_AssertOnNewGameObjects();
 
@@ -2023,6 +2167,7 @@ public:
   /// @brief Convert to "::Zenject::IInstantiator"
   constexpr ::Zenject::IInstantiator* i___Zenject__IInstantiator() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_AssertOnNewGameObjects, addr 0x6e783e0, size 0x8, virtual false, abstract: false, final false
   inline void set_AssertOnNewGameObjects(bool value);
 
@@ -2041,13 +2186,13 @@ protected:
   constexpr DiContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiContainer(DiContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer(DiContainer const&) = delete;
+  DiContainer(DiContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14522 };
@@ -2115,6 +2260,7 @@ public:
   /// @brief Field _isInstalling, offset: 0x9b, size: 0x1, def value: None
   bool ____isInstalling;
 
+  /// [CompilerGenerated]
   /// @brief Field <AssertOnNewGameObjects>k__BackingField, offset: 0x9c, size: 0x1, def value: None
   bool ____AssertOnNewGameObjects_k__BackingField;
 

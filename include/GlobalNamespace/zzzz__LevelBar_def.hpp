@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelBar.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelBar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,6 +85,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelBar*, "", "LevelBar");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelBar__SetupData_d__22, "", "LevelBar/<SetupData>d__22");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelBar__Setup_d__20, "", "LevelBar/<Setup>d__20");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelBar__Setup_d__21, "", "LevelBar/<Setup>d__21");
+// [CompilerGenerated]
 // Dependencies BeatmapKey, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -98,6 +99,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a240c4, size 0x1c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a24284, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -108,10 +110,10 @@ public:
   // @brief default ctor
   constexpr LevelBar__Setup_d__20();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr LevelBar__Setup_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
                                   ::GlobalNamespace::BeatmapKey beatmapKey, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -152,6 +154,7 @@ static_assert(offsetof(::GlobalNamespace::LevelBar__Setup_d__20, __u__1) == 0x40
 static_assert(sizeof(::GlobalNamespace::LevelBar__Setup_d__20) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapCharacteristic, BeatmapDifficulty, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -165,6 +168,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a2428c, size 0x18c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a24418, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -175,11 +179,12 @@ public:
   // @brief default ctor
   constexpr LevelBar__Setup_d__21();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty:
-  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "beatmapDifficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapCharacteristic", ty:
+  // "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr LevelBar__Setup_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
                                   ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic,
                                   ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -231,6 +236,7 @@ static_assert(offsetof(::GlobalNamespace::LevelBar__Setup_d__21, __u__1) == 0x40
 static_assert(sizeof(::GlobalNamespace::LevelBar__Setup_d__21) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapCharacteristic, BeatmapDifficulty, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
 // System.Threading.CancellationToken
 namespace GlobalNamespace {
@@ -245,6 +251,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a24420, size 0x794, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a24bb4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -255,12 +262,13 @@ public:
   // @brief default ctor
   constexpr LevelBar__SetupData_d__22();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty:
-  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: None
-  // }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "beatmapDifficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapCharacteristic", ty:
+  // "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr LevelBar__SetupData_d__22(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
                                       ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                       ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic, ::System::Threading::CancellationToken _cancellationToken_5__2,
@@ -394,12 +402,15 @@ public:
   /// @brief Method OnDestroy, addr 0x5a24094, size 0x2c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [AsyncStateMachine(typeof(LevelBar::<Setup>d__20))]
   /// @brief Method Setup, addr 0x5a1c850, size 0xb8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapKey beatmapKey);
 
+  /// [AsyncStateMachine(typeof(LevelBar::<Setup>d__21))]
   /// @brief Method Setup, addr 0x5a23ef8, size 0xc4, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
+  /// [AsyncStateMachine(typeof(LevelBar::<SetupData>d__22))]
   /// @brief Method SetupData, addr 0x5a23fbc, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SetupData(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                      ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
@@ -524,62 +535,95 @@ protected:
   constexpr LevelBar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelBar(LevelBar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelBar(LevelBar const&) = delete;
+  LevelBar(LevelBarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6487 };
 
+  /// [SerializeField]
   /// @brief Field _songArtworkImageView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____songArtworkImageView;
 
+  /// [SerializeField]
   /// @brief Field _songNameText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____songNameText;
 
+  /// [SerializeField]
   /// @brief Field _authorNameText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____authorNameText;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _showSongSubName, offset: 0x38, size: 0x1, def value: None
   bool ____showSongSubName;
 
+  /// [DrawIf("_showSongSubName", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showSongSubName", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _singleLineSongInfoContainer, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____singleLineSongInfoContainer;
 
+  /// [DrawIf("_showSongSubName", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showSongSubName", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _multiLineSongInfoContainer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____multiLineSongInfoContainer;
 
+  /// [DrawIf("_showSongSubName", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showSongSubName", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _multiLineSongNameText, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____multiLineSongNameText;
 
+  /// [DrawIf("_showSongSubName", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showSongSubName", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _multiLineAuthorNameText, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____multiLineAuthorNameText;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _showDifficultyAndCharacteristic, offset: 0x60, size: 0x1, def value: None
   bool ____showDifficultyAndCharacteristic;
 
+  /// [DrawIf("_showDifficultyAndCharacteristic", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showDifficultyAndCharacteristic", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _difficultyText, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____difficultyText;
 
+  /// [DrawIf("_showDifficultyAndCharacteristic", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showDifficultyAndCharacteristic", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _characteristicIconImageView, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____characteristicIconImageView;
 
+  /// [SerializeField]
   /// @brief Field _useArtworkBackground, offset: 0x78, size: 0x1, def value: None
   bool ____useArtworkBackground;
 
+  /// [DrawIf("_useArtworkBackground", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_useArtworkBackground", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _artworkBackgroundImage, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____artworkBackgroundImage;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _defaultArtworkImage, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____defaultArtworkImage;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [Inject]
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 

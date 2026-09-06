@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalRendererFeature.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalRendererFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,6 +103,9 @@ class DecalRendererFeature;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::DecalRendererFeature*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DecalRendererFeature*, "UnityEngine.Rendering.Universal", "DecalRendererFeature");
+// [SupportedOnRenderer(typeof(UnityEngine.Rendering.Universal.UniversalRendererData))]
+// [DisallowMultipleRendererFeature("Decal")]
+// [Tooltip("With this Renderer Feature, Unity can project specific Materials (decals) onto other objects in the Scene.")]
 // Dependencies UnityEngine.Rendering.Universal.DecalTechnique, UnityEngine.Rendering.Universal.ScriptableRendererFeature
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -206,6 +209,7 @@ public:
   /// @brief Method AddRenderPasses, addr 0x68af050, size 0x1ac, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
+  /// [Conditional("ADAPTIVE_PERFORMANCE_4_0_0_OR_NEWER")]
   /// @brief Method ChangeAdaptivePerformanceDrawDistances, addr 0x68af4f0, size 0x4, virtual false, abstract: false, final false
   inline void ChangeAdaptivePerformanceDrawDistances();
 
@@ -236,17 +240,17 @@ public:
   static inline ::UnityEngine::Rendering::Universal::DecalRendererFeature* New_ctor();
 
   /// @brief Method OnCameraPreCull, addr 0x68aef0c, size 0x144, virtual true, abstract: false, final false
-  inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
   /// @brief Method RecreateSystemsIfNeeded, addr 0x68ae90c, size 0x600, virtual false, abstract: false, final false
-  inline bool RecreateSystemsIfNeeded(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline bool RecreateSystemsIfNeeded(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
   /// @brief Method RequireRenderingLayers, addr 0x68ae248, size 0xc8, virtual true, abstract: false, final false
   inline bool RequireRenderingLayers(bool isDeferred, bool needsGBufferAccurateNormals, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event> atEvent,
                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize> maskSize);
 
   /// @brief Method SetupRenderPasses, addr 0x68af210, size 0x1bc, virtual true, abstract: false, final false
-  inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+  inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// @brief Method SupportsNativeRenderPass, addr 0x68af1fc, size 0x14, virtual true, abstract: false, final false
   inline bool SupportsNativeRenderPass();
@@ -412,6 +416,7 @@ public:
   /// @brief Method get_settings, addr 0x68ae154, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::Universal::DecalSettings*> get_settings();
 
+  /// [CompilerGenerated]
   /// @brief Method get_sharedDecalEntityManager, addr 0x68ae0f8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::SharedDecalEntityManager* get_sharedDecalEntityManager();
 
@@ -423,17 +428,18 @@ protected:
   constexpr DecalRendererFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalRendererFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalRendererFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalRendererFeature(DecalRendererFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalRendererFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalRendererFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalRendererFeature(DecalRendererFeature const&) = delete;
+  DecalRendererFeature(DecalRendererFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12912 };
 
+  /// [SerializeField]
   /// @brief Field m_Settings, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalSettings* ___m_Settings;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Int16.hpp"
+// IWYU pragma private; include "System/Int16.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ struct Int16;
 // Write type traits
 MARK_VAL_T(::System::Int16);
 DEFINE_IL2CPP_CLASS(::System::Int16, "System", "Int16");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -97,6 +98,7 @@ public:
   /// @brief Method Equals, addr 0x5c440c0, size 0x34, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NonVersionable]
   /// @brief Method Equals, addr 0x5c440f4, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(int16_t obj);
 
@@ -203,7 +205,7 @@ public:
   // @brief default ctor
   constexpr Int16();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "int16_t", modifiers: "", def_value: None, comment: None }]
   constexpr Int16(int16_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

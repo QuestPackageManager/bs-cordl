@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IUnsafeCommandBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IUnsafeCommandBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,59 +53,59 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IRasterCommandBuffer"
   constexpr operator ::UnityEngine::Rendering::IRasterCommandBuffer*() noexcept;
 
-  /// @brief Method Clear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetBinding binding);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetBinding binding, int32_t mipLevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier color, ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction,
                               ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, ::UnityEngine::Rendering::RenderTargetIdentifier depth,
                               ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier color, ::UnityEngine::Rendering::RenderTargetIdentifier depth);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier color, ::UnityEngine::Rendering::RenderTargetIdentifier depth, int32_t mipLevel);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier color, ::UnityEngine::Rendering::RenderTargetIdentifier depth, int32_t mipLevel, ::UnityEngine::CubemapFace cubemapFace);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier color, ::UnityEngine::Rendering::RenderTargetIdentifier depth, int32_t mipLevel, ::UnityEngine::CubemapFace cubemapFace,
                               int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colors, ::UnityEngine::Rendering::RenderTargetIdentifier depth);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colors, ::UnityEngine::Rendering::RenderTargetIdentifier depth, int32_t mipLevel,
                               ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier rt);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier rt, ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction,
                               ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction,
                               ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier rt, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                               ::UnityEngine::Rendering::RenderBufferStoreAction storeAction);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier rt, int32_t mipLevel);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier rt, int32_t mipLevel, ::UnityEngine::CubemapFace cubemapFace);
 
-  /// @brief Method SetRenderTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier rt, int32_t mipLevel, ::UnityEngine::CubemapFace cubemapFace, int32_t depthSlice);
 
   /// @brief Convert to "::UnityEngine::Rendering::IBaseCommandBuffer"
@@ -117,9 +117,9 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRasterCommandBuffer"
   constexpr ::UnityEngine::Rendering::IRasterCommandBuffer* i___UnityEngine__Rendering__IRasterCommandBuffer() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IUnsafeCommandBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IUnsafeCommandBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IUnsafeCommandBuffer(IUnsafeCommandBuffer const&) = delete;
+  IUnsafeCommandBuffer(IUnsafeCommandBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11876 };

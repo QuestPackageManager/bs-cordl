@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\Unsafe.hpp"
+// IWYU pragma private; include "Unity/Burst/Unsafe.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/zzzz__Unsafe_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -220,7 +220,9 @@ inline void Unity::Burst::Unsafe::InitBlockUnaligned(::by_ref<uint8_t> startAddr
       (::i2c::find_method(::i2c::class_of<::Unity::Burst::Unsafe*>(), { "InitBlockUnaligned", {}, { ::i2c::type_of<::by_ref<uint8_t>>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, startAddress, value, byteCount);
 }
-template <typename T> inline T Unity::Burst::Unsafe::As(::System::Object* o) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T Unity::Burst::Unsafe::As(::System::Object* o) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Unsafe*>(), { "As", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -232,7 +234,7 @@ template <typename T> inline ::by_ref<T> Unity::Burst::Unsafe::AsRef(void* sourc
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(nullptr, ___internal_method, source);
 }
-template <typename T> inline ::by_ref<T> Unity::Burst::Unsafe::AsRef(::by_ref<T> source) {
+template <typename T> inline ::by_ref<T> Unity::Burst::Unsafe::AsRef(/* [IsReadOnly] */ ::by_ref<T> source) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Unsafe*>(), { "AsRef", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -244,7 +246,9 @@ template <typename TFrom, typename TTo> inline ::by_ref<TTo> Unity::Burst::Unsaf
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TFrom>(), ::i2c::class_of<TTo>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<TTo>>(nullptr, ___internal_method, source);
 }
-template <typename T> inline ::by_ref<T> Unity::Burst::Unsafe::Unbox(::System::Object* box) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::by_ref<T> Unity::Burst::Unsafe::Unbox(::System::Object* box) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Unsafe*>(), { "Unbox", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

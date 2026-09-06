@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\Leaderboard.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/Leaderboard.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,13 +74,13 @@ protected:
   constexpr Leaderboard();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Leaderboard", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Leaderboard", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Leaderboard(Leaderboard&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Leaderboard", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Leaderboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Leaderboard(Leaderboard const&) = delete;
+  Leaderboard(Leaderboardconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18056 };
@@ -91,6 +91,7 @@ public:
   /// @brief Field DestinationOptional, offset: 0x18, size: 0x8, def value: None
   ::Oculus::Platform::Models::Destination* ___DestinationOptional;
 
+  /// [Obsolete("Deprecated in favor of DestinationOptional")]
   /// @brief Field Destination, offset: 0x20, size: 0x8, def value: None
   ::Oculus::Platform::Models::Destination* ___Destination;
 

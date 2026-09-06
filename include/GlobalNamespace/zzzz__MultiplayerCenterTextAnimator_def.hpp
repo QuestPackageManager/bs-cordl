@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerCenterTextAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerCenterTextAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,21 +89,27 @@ public:
   /// @brief Method SetText, addr 0x59d10b8, size 0x20, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__8_0, addr 0x59d10dc, size 0x7c, virtual false, abstract: false, final false
   inline void _Awake_b__8_0(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__8_1, addr 0x59d1158, size 0x7c, virtual false, abstract: false, final false
   inline void _Awake_b__8_1(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__8_2, addr 0x59d1200, size 0x18, virtual false, abstract: false, final false
   inline void _Awake_b__8_2(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__8_3, addr 0x59d1218, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__8_3(::UnityEngine::Color val);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__8_4, addr 0x59d1238, size 0x18, virtual false, abstract: false, final false
   inline void _Awake_b__8_4(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__8_5, addr 0x59d11d4, size 0x2c, virtual false, abstract: false, final false
   inline void _Awake_b__8_5();
 
@@ -164,23 +170,27 @@ protected:
   constexpr MultiplayerCenterTextAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterTextAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterTextAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerCenterTextAnimator(MultiplayerCenterTextAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterTextAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterTextAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerCenterTextAnimator(MultiplayerCenterTextAnimator const&) = delete;
+  MultiplayerCenterTextAnimator(MultiplayerCenterTextAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6129 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;
 
+  /// [SerializeField]
   /// @brief Field _scalingTarget, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____scalingTarget;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

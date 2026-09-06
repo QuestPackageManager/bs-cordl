@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\EntryPointNotFoundException.hpp"
+// IWYU pragma private; include "System/EntryPointNotFoundException.hpp"
 #include "System/zzzz__TypeLoadException_impl.hpp"
 #include "System/zzzz__EntryPointNotFoundException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

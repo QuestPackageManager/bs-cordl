@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\HDRDebugViewPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/HDRDebugViewPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HDRDebugViewPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -132,7 +134,7 @@ public:
   // @brief default ctor
   constexpr HDRDebugViewPass_HDRDebugPassId();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HDRDebugViewPass_HDRDebugPassId(int32_t value__) noexcept;
 
   /// @brief Field CIExyPrepass value: I32(0)
@@ -221,13 +223,13 @@ protected:
   constexpr HDRDebugViewPass_PassDataCIExy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataCIExy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataCIExy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HDRDebugViewPass_PassDataCIExy(HDRDebugViewPass_PassDataCIExy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataCIExy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataCIExy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass_PassDataCIExy(HDRDebugViewPass_PassDataCIExy const&) = delete;
+  HDRDebugViewPass_PassDataCIExy(HDRDebugViewPass_PassDataCIExyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12836 };
@@ -353,13 +355,13 @@ protected:
   constexpr HDRDebugViewPass_PassDataDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataDebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HDRDebugViewPass_PassDataDebugView(HDRDebugViewPass_PassDataDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass_PassDataDebugView(HDRDebugViewPass_PassDataDebugView const&) = delete;
+  HDRDebugViewPass_PassDataDebugView(HDRDebugViewPass_PassDataDebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12837 };
@@ -463,13 +465,13 @@ protected:
   constexpr HDRDebugViewPass_ShaderConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_ShaderConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_ShaderConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HDRDebugViewPass_ShaderConstants(HDRDebugViewPass_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_ShaderConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass_ShaderConstants(HDRDebugViewPass_ShaderConstants const&) = delete;
+  HDRDebugViewPass_ShaderConstants(HDRDebugViewPass_ShaderConstantsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12838 };
@@ -480,6 +482,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::HDRDebugViewPass_ShaderConstants) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -535,13 +538,13 @@ protected:
   constexpr HDRDebugViewPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HDRDebugViewPass___c(HDRDebugViewPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass___c(HDRDebugViewPass___c const&) = delete;
+  HDRDebugViewPass___c(HDRDebugViewPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12839 };
@@ -591,6 +594,7 @@ public:
   /// @brief Method Dispose, addr 0x68856b4, size 0x34, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6885868, size 0x1c8, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -659,13 +663,13 @@ protected:
   constexpr HDRDebugViewPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HDRDebugViewPass(HDRDebugViewPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass(HDRDebugViewPass const&) = delete;
+  HDRDebugViewPass(HDRDebugViewPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12840 };

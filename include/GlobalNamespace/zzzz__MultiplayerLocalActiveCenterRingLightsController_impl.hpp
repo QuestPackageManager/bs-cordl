@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActiveCenterRingLightsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActiveCenterRingLightsController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Transform_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActiveCenterRingLightsController_def.hpp"

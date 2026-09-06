@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpColorParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpColorParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpColorParameter_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXBatchedEffectInfo.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXBatchedEffectInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct VFXBatchedEffectInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::VFX::VFXBatchedEffectInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXBatchedEffectInfo, "UnityEngine.VFX", "VFXBatchedEffectInfo");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::VFX {
 // Is value type: true
@@ -27,11 +28,12 @@ public:
   // @brief default ctor
   constexpr VFXBatchedEffectInfo();
 
-  // Ctor Parameters [CppParam { name: "vfxAsset", ty: "::UnityW<::UnityEngine::VFX::VisualEffectAsset>", modifiers: "", def_value: None }, CppParam { name: "activeBatchCount", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "inactiveBatchCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "activeInstanceCount", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "unbatchedInstanceCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "totalInstanceCapacity", ty: "uint32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "maxInstancePerBatchCapacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "totalGPUSizeInBytes", ty: "uint64_t", modifiers: "", def_value: None },
-  // CppParam { name: "totalCPUSizeInBytes", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vfxAsset", ty: "::UnityW<::UnityEngine::VFX::VisualEffectAsset>", modifiers: "", def_value: None, comment: None }, CppParam { name: "activeBatchCount", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "inactiveBatchCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "activeInstanceCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unbatchedInstanceCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "totalInstanceCapacity", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxInstancePerBatchCapacity", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "totalGPUSizeInBytes", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "totalCPUSizeInBytes", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr VFXBatchedEffectInfo(::UnityW<::UnityEngine::VFX::VisualEffectAsset> vfxAsset, uint32_t activeBatchCount, uint32_t inactiveBatchCount, uint32_t activeInstanceCount,
                                  uint32_t unbatchedInstanceCount, uint32_t totalInstanceCapacity, uint32_t maxInstancePerBatchCapacity, uint64_t totalGPUSizeInBytes,
                                  uint64_t totalCPUSizeInBytes) noexcept;

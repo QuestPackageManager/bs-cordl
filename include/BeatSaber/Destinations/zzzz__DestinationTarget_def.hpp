@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\DestinationTarget.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/DestinationTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
   // @brief default ctor
   constexpr DestinationTarget();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DestinationTarget(int32_t value__) noexcept;
 
   /// @brief Field Credits value: I32(7)

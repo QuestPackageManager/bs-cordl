@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenRendererDataCallback.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenRendererDataCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenRendererDataCallback_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -42,7 +42,7 @@ inline void UnityEngine::Rendering::GPUDrivenRendererDataCallback::_ctor(::Syste
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void UnityEngine::Rendering::GPUDrivenRendererDataCallback::Invoke(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+inline void UnityEngine::Rendering::GPUDrivenRendererDataCallback::Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                                           ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                           ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials) {
   auto* ___internal_method =

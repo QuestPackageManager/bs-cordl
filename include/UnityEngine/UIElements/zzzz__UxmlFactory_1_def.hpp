@@ -1,24 +1,29 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlFactory_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlFactory_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 CORDL_MODULE_EXPORT(UxmlFactory_1)
 namespace UnityEngine::UIElements {
 class VisualElement_UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TCreatedType> class UxmlFactory_1;
+template <typename TCreatedType>
+  requires(::cordl_internals::type_constraint<TCreatedType, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::default_constructor_constraint<TCreatedType>)
+class UxmlFactory_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlFactory_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlFactory_1, "UnityEngine.UIElements", "UxmlFactory`1");
-// Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
+// [Obsolete("UxmlFactory<TCreatedType> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>, UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType>
+  requires(::cordl_internals::type_constraint<TCreatedType, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::default_constructor_constraint<TCreatedType>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlFactory`1<TCreatedType>
 class CORDL_TYPE UxmlFactory_1 : public ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, ::UnityEngine::UIElements::VisualElement_UxmlTraits*> {
@@ -35,13 +40,13 @@ protected:
   constexpr UxmlFactory_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlFactory_1(UxmlFactory_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlFactory_1(UxmlFactory_1 const&) = delete;
+  UxmlFactory_1(UxmlFactory_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5186 };

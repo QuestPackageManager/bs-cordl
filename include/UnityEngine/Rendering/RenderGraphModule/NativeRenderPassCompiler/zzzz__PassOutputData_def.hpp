@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassOutputData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassOutputData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct PassOutputData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "PassOutputData");
+// [DebuggerDisplay("PassOutputData: Res({resource.index})")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
@@ -24,7 +25,7 @@ public:
   // @brief default ctor
   constexpr PassOutputData();
 
-  // Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None, comment: None }]
   constexpr PassOutputData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

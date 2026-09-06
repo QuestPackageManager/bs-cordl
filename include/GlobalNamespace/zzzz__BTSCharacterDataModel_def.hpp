@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BTSCharacterDataModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/BTSCharacterDataModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,20 +80,22 @@ protected:
   constexpr BTSCharacterDataModel_PrefabWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_PrefabWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_PrefabWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterDataModel_PrefabWithId(BTSCharacterDataModel_PrefabWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_PrefabWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_PrefabWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterDataModel_PrefabWithId(BTSCharacterDataModel_PrefabWithId const&) = delete;
+  BTSCharacterDataModel_PrefabWithId(BTSCharacterDataModel_PrefabWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22006 };
 
+  /// [SerializeField]
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 
+  /// [SerializeField]
   /// @brief Field _prefabAssetReference, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReference* ____prefabAssetReference;
 
@@ -154,20 +156,22 @@ protected:
   constexpr BTSCharacterDataModel_AnimationClipWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_AnimationClipWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_AnimationClipWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterDataModel_AnimationClipWithId(BTSCharacterDataModel_AnimationClipWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_AnimationClipWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_AnimationClipWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterDataModel_AnimationClipWithId(BTSCharacterDataModel_AnimationClipWithId const&) = delete;
+  BTSCharacterDataModel_AnimationClipWithId(BTSCharacterDataModel_AnimationClipWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22007 };
 
+  /// [SerializeField]
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 
+  /// [SerializeField]
   /// @brief Field _animationClipAssetReference, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReference* ____animationClipAssetReference;
 
@@ -232,20 +236,22 @@ protected:
   constexpr BTSCharacterDataModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterDataModel(BTSCharacterDataModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterDataModel(BTSCharacterDataModel const&) = delete;
+  BTSCharacterDataModel(BTSCharacterDataModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22008 };
 
+  /// [SerializeField]
   /// @brief Field _prefabsWithIds, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*> ____prefabsWithIds;
 
+  /// [SerializeField]
   /// @brief Field _animationClipsWithIds, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId*> ____animationClipsWithIds;
 

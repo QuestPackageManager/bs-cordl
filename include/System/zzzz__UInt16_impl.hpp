@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UInt16.hpp"
+// IWYU pragma private; include "System/UInt16.hpp"
 #include "System/zzzz__UInt16_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
@@ -672,7 +672,7 @@ constexpr System::UInt16::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::UInt16::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::UInt16::UInt16(uint16_t m_value) noexcept {
   this->m_value = m_value;
 }

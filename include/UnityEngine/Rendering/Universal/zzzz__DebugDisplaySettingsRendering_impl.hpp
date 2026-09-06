@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugDisplaySettingsRendering.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugDisplaySettingsRendering.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugFullScreenMode_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugMipInfoMode_impl.hpp"
@@ -34,7 +34,7 @@
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsQuery_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode::DebugDisplaySettingsRendering_TaaDebugMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

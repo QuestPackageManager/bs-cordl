@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarShadowController.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarShadowController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,35 +124,45 @@ protected:
   constexpr AvatarShadowController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarShadowController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarShadowController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarShadowController(AvatarShadowController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarShadowController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarShadowController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarShadowController(AvatarShadowController const&) = delete;
+  AvatarShadowController(AvatarShadowControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21644 };
 
+  /// [SerializeField]
   /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _distanceScale, offset: 0x28, size: 0x4, def value: None
   float_t ____distanceScale;
 
+  /// [SerializeField]
   /// @brief Field _scale, offset: 0x2c, size: 0x4, def value: None
   float_t ____scale;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _alpha, offset: 0x30, size: 0x4, def value: None
   float_t ____alpha;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _floorYPos, offset: 0x34, size: 0x4, def value: None
   float_t ____floorYPos;
 
+  /// [SerializeField]
   /// @brief Field _floorYPosLocal, offset: 0x38, size: 0x1, def value: None
   bool ____floorYPosLocal;
 
+  /// [Inject]
   /// @brief Field _avatarController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::AvatarController> ____avatarController;
 

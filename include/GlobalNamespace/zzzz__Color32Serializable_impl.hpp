@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Color32Serializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/Color32Serializable.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "GlobalNamespace/zzzz__Color32Serializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
@@ -185,7 +185,7 @@ constexpr GlobalNamespace::Color32Serializable::operator ::System::IEquatable_1<
 constexpr ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>* GlobalNamespace::Color32Serializable::i___System__IEquatable_1___GlobalNamespace__Color32Serializable_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Color32Serializable::Color32Serializable(::UnityEngine::Color32 _color) noexcept {
   this->_color = _color;
 }

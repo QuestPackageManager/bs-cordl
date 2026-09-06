@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\StateInfoIndex.hpp"
+// IWYU pragma private; include "UnityEngine/StateInfoIndex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   // @brief default ctor
   constexpr StateInfoIndex();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StateInfoIndex(int32_t value__) noexcept;
 
   /// @brief Field CurrentState value: I32(0)

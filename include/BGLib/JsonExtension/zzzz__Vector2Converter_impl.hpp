@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\JsonExtension\Vector2Converter.hpp"
+// IWYU pragma private; include "BGLib/JsonExtension/Vector2Converter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "BGLib/JsonExtension/zzzz__Vector2Converter_def.hpp"

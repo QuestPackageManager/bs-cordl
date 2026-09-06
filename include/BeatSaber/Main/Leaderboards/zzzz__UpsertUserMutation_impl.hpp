@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\Leaderboards\UpsertUserMutation.hpp"
+// IWYU pragma private; include "BeatSaber/Main/Leaderboards/UpsertUserMutation.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__MutationRequest_1_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__UpsertUserMutation_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_def.hpp"

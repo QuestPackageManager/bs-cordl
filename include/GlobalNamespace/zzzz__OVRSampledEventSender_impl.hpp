@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSampledEventSender.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSampledEventSender.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetryMarker_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSampledEventSender_def.hpp"

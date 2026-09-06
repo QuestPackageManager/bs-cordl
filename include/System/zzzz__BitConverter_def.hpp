@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\BitConverter.hpp"
+// IWYU pragma private; include "System/BitConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::System::BitConverter*);
 MARK_REF_T(::System::BitConverter___c*);
 DEFINE_IL2CPP_CLASS(::System::BitConverter*, "System", "BitConverter");
 DEFINE_IL2CPP_CLASS(::System::BitConverter___c*, "System", "BitConverter/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -49,7 +50,7 @@ public:
   static inline ::System::BitConverter___c* New_ctor();
 
   /// @brief Method <ToString>b__38_0, addr 0x5bb00f8, size 0x194, virtual false, abstract: false, final false
-  inline void _ToString_b__38_0(::System::Span_1<char16_t> dst, ::System::ValueTuple_3<::ArrayW<uint8_t>, int32_t, int32_t> state);
+  inline void _ToString_b__38_0(::System::Span_1<char16_t> dst, /* [TupleElementNames(new[] { "value", "startIndex", "length" })] */ ::System::ValueTuple_3<::ArrayW<uint8_t>, int32_t, int32_t> state);
 
   /// @brief Method .ctor, addr 0x5bb00f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -68,13 +69,13 @@ protected:
   constexpr BitConverter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitConverter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitConverter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitConverter___c(BitConverter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitConverter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitConverter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitConverter___c(BitConverter___c const&) = delete;
+  BitConverter___c(BitConverter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2359 };
@@ -121,12 +122,15 @@ public:
   /// @brief Method GetBytes, addr 0x5baf930, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetBytes(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetBytes, addr 0x5baf998, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetBytes(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetBytes, addr 0x5bafa00, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetBytes(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetBytes, addr 0x5bafae0, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetBytes(uint64_t value);
 
@@ -163,15 +167,19 @@ public:
   /// @brief Method ToString, addr 0x5bafd74, size 0x29c, virtual false, abstract: false, final false
   static inline ::StringW ToString(::ArrayW<uint8_t> value, int32_t startIndex, int32_t length);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bafd40, size 0x4, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::ArrayW<uint8_t> value, int32_t startIndex);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bafd44, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::ArrayW<uint8_t> value, int32_t startIndex);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bafd48, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::ArrayW<uint8_t> value, int32_t startIndex);
 
+  /// [CLSCompliant(false)]
   /// @brief Method TryWriteBytes, addr 0x5bafa68, size 0x78, virtual false, abstract: false, final false
   static inline bool TryWriteBytes(::System::Span_1<uint8_t> destination, uint32_t value);
 
@@ -185,13 +193,13 @@ protected:
   constexpr BitConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitConverter(BitConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitConverter(BitConverter const&) = delete;
+  BitConverter(BitConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2360 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\SerializableHashSetBase.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/SerializableHashSetBase.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__SerializableHashSetBase_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\DHParametersHelper.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/DHParametersHelper.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__DHParametersHelper_def.hpp"

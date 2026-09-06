@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Bitwise.hpp"
+// IWYU pragma private; include "Unity/Collections/Bitwise.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct Bitwise;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::Bitwise);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::Bitwise, "Unity.Collections", "Bitwise");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true

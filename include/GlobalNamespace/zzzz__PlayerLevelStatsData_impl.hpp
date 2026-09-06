@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerLevelStatsData.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerLevelStatsData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
@@ -351,7 +351,7 @@ inline int32_t GlobalNamespace::PlayerLevelStatsData::get_playCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_playCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerLevelStatsData::_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::PlayerLevelStatsData::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey);
@@ -389,7 +389,7 @@ inline ::GlobalNamespace::BeatmapKey GlobalNamespace::PlayerLevelStatsData::GetB
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "GetBeatmapKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapKey>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PlayerLevelStatsData* GlobalNamespace::PlayerLevelStatsData::New_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::GlobalNamespace::PlayerLevelStatsData* GlobalNamespace::PlayerLevelStatsData::New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlayerLevelStatsData*>(beatmapKey));
 }
 inline ::GlobalNamespace::PlayerLevelStatsData* GlobalNamespace::PlayerLevelStatsData::New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty,

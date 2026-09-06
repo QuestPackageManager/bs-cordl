@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SectionTableView.hpp"
+// IWYU pragma private; include "HMUI/SectionTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,24 +57,24 @@ namespace HMUI {
 class CORDL_TYPE SectionTableView_IDataSource {
 public:
   // Declarations
-  /// @brief Method CellForRowInSection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CellForRowInSection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::HMUI::TableCell> CellForRowInSection(int32_t section, int32_t row);
 
-  /// @brief Method CellForSectionHeader, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CellForSectionHeader, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::HMUI::TableCell> CellForSectionHeader(int32_t section, bool unfolded);
 
-  /// @brief Method NumberOfRowsInSection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NumberOfRowsInSection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t NumberOfRowsInSection(int32_t section);
 
-  /// @brief Method NumberOfSections, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NumberOfSections, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t NumberOfSections();
 
-  /// @brief Method RowHeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RowHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t RowHeight();
 
-  // Ctor Parameters [CppParam { name: "", ty: "SectionTableView_IDataSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SectionTableView_IDataSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SectionTableView_IDataSource(SectionTableView_IDataSource const&) = delete;
+  SectionTableView_IDataSource(SectionTableView_IDataSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19126 };
@@ -94,8 +94,8 @@ public:
   // @brief default ctor
   constexpr SectionTableView_Section();
 
-  // Ctor Parameters [CppParam { name: "unfolded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "startBaseRow", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "numberOfBaseRows", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "unfolded", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "startBaseRow", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "numberOfBaseRows", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SectionTableView_Section(bool unfolded, int32_t startBaseRow, int32_t numberOfBaseRows) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -232,9 +232,11 @@ public:
   /// @brief Method .ctor, addr 0x588e21c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectHeaderEvent, addr 0x588cd90, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectRowInSectionEvent, addr 0x588cc10, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value);
 
@@ -244,9 +246,11 @@ public:
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectHeaderEvent, addr 0x588ce50, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectRowInSectionEvent, addr 0x588ccd0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value);
 
@@ -259,23 +263,26 @@ protected:
   constexpr SectionTableView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SectionTableView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SectionTableView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SectionTableView(SectionTableView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SectionTableView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SectionTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SectionTableView(SectionTableView const&) = delete;
+  SectionTableView(SectionTableViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19128 };
 
+  /// [SerializeField]
   /// @brief Field _unfoldSectionsByDefault, offset: 0xc2, size: 0x1, def value: None
   bool ____unfoldSectionsByDefault;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectRowInSectionEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* ___didSelectRowInSectionEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectHeaderEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* ___didSelectHeaderEvent;
 

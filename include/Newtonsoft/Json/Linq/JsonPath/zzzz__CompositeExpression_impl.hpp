@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\CompositeExpression.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/CompositeExpression.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__CompositeExpression_def.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
@@ -95,7 +95,7 @@ inline void Newtonsoft::Json::Linq::JsonPath::CompositeExpression::_ctor(::Newto
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_operator);
 }
 inline bool Newtonsoft::Json::Linq::JsonPath::CompositeExpression::IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t,
-                                                                           ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+                                                                           /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, root, t, settings);

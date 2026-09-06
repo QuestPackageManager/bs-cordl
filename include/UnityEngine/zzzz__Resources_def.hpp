@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Resources.hpp"
+// IWYU pragma private; include "UnityEngine/Resources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(Resources)
@@ -29,7 +30,9 @@ class Resources;
 // Write type traits
 MARK_REF_T(::UnityEngine::Resources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Resources*, "UnityEngine", "Resources");
-// Dependencies System.Object
+// [NativeHeader("Runtime/Export/Resources/Resources.bindings.h")]
+// [NativeHeader("Runtime/Misc/ResourceManagerUtility.h")]
+// Dependencies System.Object, UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.Resources
@@ -37,19 +40,27 @@ class CORDL_TYPE Resources : public ::System::Object {
 public:
   // Declarations
   /// @brief Method ConvertObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T> ConvertObjects(::ArrayW<::UnityEngine::Object*> rawObjects);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline ::ArrayW<T> ConvertObjects(::ArrayW<::UnityEngine::Object*> rawObjects);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x6ad9560, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T> FindObjectsOfTypeAll();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline ::ArrayW<T> FindObjectsOfTypeAll();
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)0)]
+  /// [FreeFunction("GetScriptingBuiltinResource", ThrowsException = true)]
   /// @brief Method GetBuiltinResource, addr 0x6ad9728, size 0x28c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> GetBuiltinResource(::System::Type* type, ::StringW path);
+  static inline ::UnityW<::UnityEngine::Object> GetBuiltinResource(/* [NotNull] */ ::System::Type* type, ::StringW path);
 
   /// @brief Method GetBuiltinResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetBuiltinResource(::StringW path);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline T GetBuiltinResource(::StringW path);
 
   /// @brief Method GetBuiltinResource_Injected, addr 0x6ad99b4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetBuiltinResource_Injected(::System::Type* type, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path);
@@ -61,7 +72,9 @@ public:
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Load(::StringW path);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline T Load(::StringW path);
 
   /// @brief Method LoadAll, addr 0x6ad96b8, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(::StringW path);
@@ -69,6 +82,7 @@ public:
   /// @brief Method LoadAll, addr 0x6ad963c, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
+  /// [FreeFunction("Resources_Bindings::UnloadUnusedAssets")]
   /// @brief Method UnloadUnusedAssets, addr 0x6ad99f8, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadUnusedAssets();
 
@@ -81,13 +95,13 @@ protected:
   constexpr Resources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Resources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Resources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Resources(Resources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Resources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Resources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Resources(Resources const&) = delete;
+  Resources(Resourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10295 };

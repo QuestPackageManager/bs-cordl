@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\EnvironmentDepth\EnvironmentDepthManager.hpp"
+// IWYU pragma private; include "Meta/XR/EnvironmentDepth/EnvironmentDepthManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,13 +138,13 @@ protected:
   constexpr EnvironmentDepthManager_Mask();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager_Mask", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager_Mask", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentDepthManager_Mask(EnvironmentDepthManager_Mask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager_Mask", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager_Mask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentDepthManager_Mask(EnvironmentDepthManager_Mask const&) = delete;
+  EnvironmentDepthManager_Mask(EnvironmentDepthManager_Maskconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23026 };
@@ -279,12 +279,14 @@ public:
   /// @brief Method CacheCameraRig, addr 0x5a3ded8, size 0xa0, virtual false, abstract: false, final false
   inline void CacheCameraRig();
 
+  /// [NotNull]
   /// @brief Method CreateProvider, addr 0x5a3c7b8, size 0x2ec, virtual false, abstract: false, final false
   static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* CreateProvider();
 
   /// @brief Method GetTrackingSpaceWorldToLocalMatrix, addr 0x5a3d96c, size 0x144, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetTrackingSpaceWorldToLocalMatrix();
 
+  /// [Conditional("UNITY_ASSERTIONS")]
   /// @brief Method Log, addr 0x5a3edc8, size 0x124, virtual false, abstract: false, final false
   static inline void Log(::UnityEngine::LogType type, ::StringW msg);
 
@@ -413,6 +415,7 @@ public:
   /// @brief Method .ctor, addr 0x5a3eeec, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onDepthTextureUpdate, addr 0x5a3c5b4, size 0xc0, virtual false, abstract: false, final false
   inline void add_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
@@ -432,6 +435,7 @@ public:
 
   static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* getStaticF__provider();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDepthAvailable, addr 0x5a3cb74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDepthAvailable();
 
@@ -441,6 +445,7 @@ public:
   /// @brief Method get_MaskBias, addr 0x5a3cf00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MaskBias();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MaskMeshFilters, addr 0x5a3c5a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* get_MaskMeshFilters();
 
@@ -453,6 +458,7 @@ public:
   /// @brief Method get_provider, addr 0x5a3c734, size 0x84, virtual false, abstract: false, final false
   static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* get_provider();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onDepthTextureUpdate, addr 0x5a3c674, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
@@ -472,12 +478,14 @@ public:
 
   static inline void setStaticF__provider(::Meta::XR::EnvironmentDepth::IDepthProvider* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDepthAvailable, addr 0x5a3cb7c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDepthAvailable(bool value);
 
   /// @brief Method set_MaskBias, addr 0x5a3cf08, size 0x9c, virtual false, abstract: false, final false
   inline void set_MaskBias(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MaskMeshFilters, addr 0x5a3c5ac, size 0x8, virtual false, abstract: false, final false
   inline void set_MaskMeshFilters(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* value);
 
@@ -493,13 +501,13 @@ protected:
   constexpr EnvironmentDepthManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentDepthManager(EnvironmentDepthManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentDepthManager(EnvironmentDepthManager const&) = delete;
+  EnvironmentDepthManager(EnvironmentDepthManagerconst&) = delete;
 
   /// @brief Field HardOcclusionKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString HardOcclusionKeyword{ u"HARD_OCCLUSION" };
@@ -513,21 +521,29 @@ public:
   /// @brief Field numViews offset 0xffffffff size 0x4
   static constexpr int32_t numViews{ static_cast<int32_t>(0x2) };
 
+  /// [SerializeField]
   /// @brief Field _occlusionShadersMode, offset: 0x20, size: 0x4, def value: None
   ::Meta::XR::EnvironmentDepth::OcclusionShadersMode ____occlusionShadersMode;
 
+  /// [SerializeField]
+  /// [Tooltip("If set to true, hands will be removed from the depth texture.")]
   /// @brief Field _removeHands, offset: 0x24, size: 0x1, def value: None
   bool ____removeHands;
 
+  /// [SerializeField]
   /// @brief Field CustomTrackingSpace, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___CustomTrackingSpace;
 
+  /// [CompilerGenerated]
+  /// [SerializeField]
   /// @brief Field <MaskMeshFilters>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* ____MaskMeshFilters_k__BackingField;
 
   /// @brief Field _isCameraRigCached, offset: 0x38, size: 0x1, def value: None
   bool ____isCameraRigCached;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field _cameraRig, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRCameraRig> ____cameraRig;
 
@@ -537,12 +553,14 @@ public:
   /// @brief Field _preprocessMaterial, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____preprocessMaterial;
 
+  /// [CanBeNull]
   /// @brief Field _preprocessTexture, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____preprocessTexture;
 
   /// @brief Field _preprocessRenderTargetSetup, offset: 0x60, size: 0x40, def value: None
   ::UnityEngine::RenderTargetSetup ____preprocessRenderTargetSetup;
 
+  /// [CompilerGenerated]
   /// @brief Field onDepthTextureUpdate, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* ___onDepthTextureUpdate;
 
@@ -555,6 +573,7 @@ public:
   /// @brief Field _mask, offset: 0xb8, size: 0x8, def value: None
   ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* ____mask;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDepthAvailable>k__BackingField, offset: 0xc0, size: 0x1, def value: None
   bool ____IsDepthAvailable_k__BackingField;
 

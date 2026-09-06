@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneVolumeMeshFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneVolumeMeshFilter.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
@@ -46,8 +46,8 @@ constexpr GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob::op
 constexpr ::Unity::Jobs::IJob* GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: Some("{}") }, CppParam { name: "Results", ty: "::Unity::Collections::NativeArray_1<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Results", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob::OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob(::GlobalNamespace::OVRSpace Space,
                                                                                                                                   ::Unity::Collections::NativeArray_1<int32_t> Results) noexcept {
   this->Space = Space;
@@ -80,9 +80,9 @@ constexpr GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshJob::operator
 constexpr ::Unity::Jobs::IJob* GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: Some("{}") }, CppParam { name: "Vertices", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Vertices", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Triangles", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshJob::OVRSceneVolumeMeshFilter_GetTriangleMeshJob(::GlobalNamespace::OVRSpace Space,
                                                                                                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices,
                                                                                                                       ::Unity::Collections::NativeArray_1<int32_t> Triangles) noexcept {
@@ -117,8 +117,9 @@ constexpr GlobalNamespace::OVRSceneVolumeMeshFilter_PopulateMeshDataJob::operato
 constexpr ::Unity::Jobs::IJob* GlobalNamespace::OVRSceneVolumeMeshFilter_PopulateMeshDataJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Triangles", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "MeshData", ty: "::UnityEngine::Mesh_MeshData", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Triangles",
+// ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MeshData", ty: "::UnityEngine::Mesh_MeshData", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneVolumeMeshFilter_PopulateMeshDataJob::OVRSceneVolumeMeshFilter_PopulateMeshDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices,
                                                                                                                         ::Unity::Collections::NativeArray_1<int32_t> Triangles,
                                                                                                                         ::UnityEngine::Mesh_MeshData MeshData) noexcept {
@@ -152,7 +153,8 @@ constexpr GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob::operator ::Unit
 constexpr ::Unity::Jobs::IJob* GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "MeshID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Convex", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "MeshID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Convex", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob::OVRSceneVolumeMeshFilter_BakeMeshJob(int32_t MeshID, bool Convex) noexcept {
   this->MeshID = MeshID;
   this->Convex = Convex;
@@ -400,6 +402,7 @@ inline ::System::Object* GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolume
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7* GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7*>(__1__state));
 }

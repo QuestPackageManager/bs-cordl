@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapDataEnumerator.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapDataEnumerator.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapDataEnumerator_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__KeyValue_2_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapData_def.hpp"
@@ -61,21 +62,25 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnume
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline ::Unity::Collections::LowLevel::Unsafe::KeyValue_2<TKey, TValue> Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::GetCurrent() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(),
                                                                                               { "GetCurrent", { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::LowLevel::Unsafe::KeyValue_2<TKey, TValue>>(*this, ___internal_method);
 }
-template <typename TKey> inline TKey Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::GetCurrentKey() {
+template <typename TKey>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
+inline TKey Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::GetCurrentKey() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(), { "GetCurrentKey", { ::i2c::class_of<TKey>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TKey>() })));
   return ::cordl_internals::RunMethodRethrow<TKey>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BucketIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NextIndex", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BucketIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_NextIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::UnsafeParallelHashMapDataEnumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer,
                                                                                                                            int32_t m_Index, int32_t m_BucketIndex, int32_t m_NextIndex) noexcept {
   this->m_Buffer = m_Buffer;

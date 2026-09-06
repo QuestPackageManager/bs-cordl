@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Application.hpp"
+// IWYU pragma private; include "UnityEngine/Application.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Application_def.hpp"
@@ -96,7 +96,7 @@ inline void UnityEngine::Application_MemoryUsageChangedCallback::_ctor(::System:
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void UnityEngine::Application_MemoryUsageChangedCallback::Invoke(::by_ref<::UnityEngine::ApplicationMemoryUsageChange> usage) {
+inline void UnityEngine::Application_MemoryUsageChangedCallback::Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ApplicationMemoryUsageChange> usage) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Application_MemoryUsageChangedCallback*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, usage);

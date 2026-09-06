@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\GCHandle.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/GCHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ struct GCHandle;
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::GCHandle);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::GCHandle, "System.Runtime.InteropServices", "GCHandle");
+// [ComVisible(true)]
 // Dependencies System.IntPtr
 namespace System::Runtime::InteropServices {
 // Is value type: true
@@ -113,7 +114,7 @@ public:
   // @brief default ctor
   constexpr GCHandle();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr GCHandle(::System::IntPtr handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FullComboMissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace/FullComboMissionObjectiveChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,17 +51,18 @@ protected:
   constexpr FullComboMissionObjectiveChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FullComboMissionObjectiveChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullComboMissionObjectiveChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FullComboMissionObjectiveChecker(FullComboMissionObjectiveChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FullComboMissionObjectiveChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullComboMissionObjectiveChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullComboMissionObjectiveChecker(FullComboMissionObjectiveChecker const&) = delete;
+  FullComboMissionObjectiveChecker(FullComboMissionObjectiveCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6791 };
 
+  /// [Inject]
   /// @brief Field _comboController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ComboController> ____comboController;
 

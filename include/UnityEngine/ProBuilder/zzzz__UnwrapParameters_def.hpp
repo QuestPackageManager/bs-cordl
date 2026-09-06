@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\UnwrapParameters.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/UnwrapParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,13 +111,13 @@ protected:
   constexpr UnwrapParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnwrapParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnwrapParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnwrapParameters(UnwrapParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnwrapParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnwrapParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnwrapParameters(UnwrapParameters const&) = delete;
+  UnwrapParameters(UnwrapParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16822 };
@@ -134,15 +134,28 @@ public:
   /// @brief Field k_PackMargin offset 0xffffffff size 0x4
   static constexpr float_t k_PackMargin{ static_cast<float_t>(20.0f) };
 
+  /// [Tooltip("Angle between neighbor triangles that will generate seam.")]
+  /// [Range(1, 180)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("hardAngle")]
   /// @brief Field m_HardAngle, offset: 0x10, size: 0x4, def value: None
   float_t ___m_HardAngle;
 
+  /// [Tooltip("Measured in pixels, assuming mesh will cover an entire 1024x1024 lightmap.")]
+  /// [Range(1, 64)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("packMargin")]
   /// @brief Field m_PackMargin, offset: 0x14, size: 0x4, def value: None
   float_t ___m_PackMargin;
 
+  /// [Tooltip("Measured in percents. Angle error measures deviation of UV angles from geometry angles. Area error measures deviation of UV triangles area from geometry triangles if they were
+  /// uniformly scaled.")] [Range(1, 75)] [SerializeField] [FormerlySerializedAs("angleError")]
   /// @brief Field m_AngleError, offset: 0x18, size: 0x4, def value: None
   float_t ___m_AngleError;
 
+  /// [Range(1, 75)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("areaError")]
   /// @brief Field m_AreaError, offset: 0x1c, size: 0x4, def value: None
   float_t ___m_AreaError;
 

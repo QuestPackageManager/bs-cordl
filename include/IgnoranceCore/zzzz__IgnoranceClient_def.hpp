@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore\IgnoranceClient.hpp"
+// IWYU pragma private; include "IgnoranceCore/IgnoranceClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,11 +58,12 @@ public:
   // @brief default ctor
   constexpr IgnoranceClient_ThreadParamInfo();
 
-  // Ctor Parameters [CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Port", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Verbosity", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "UseSsl", ty: "bool", modifiers: "", def_value: None }, CppParam
-  // { name: "ValidateCertificate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "RootCertificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "RootCertificate", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Port", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "UseSsl", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "ValidateCertificate", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "RootCertificatePath", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "RootCertificate", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr IgnoranceClient_ThreadParamInfo(int32_t Channels, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity, ::StringW Address, bool UseSsl, bool ValidateCertificate,
                                             ::StringW RootCertificatePath, ::StringW RootCertificate) noexcept;
 
@@ -347,13 +348,13 @@ protected:
   constexpr IgnoranceClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceClient(IgnoranceClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceClient(IgnoranceClient const&) = delete;
+  IgnoranceClient(IgnoranceClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21736 };

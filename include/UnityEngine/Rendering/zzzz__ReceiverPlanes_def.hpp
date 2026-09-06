@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ReceiverPlanes.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ReceiverPlanes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -39,7 +41,7 @@ struct CORDL_TYPE ReceiverPlanes {
 public:
   // Declarations
   /// @brief Method Create, addr 0x680f980, size 0x8a8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::ReceiverPlanes Create(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator);
+  static inline ::UnityEngine::Rendering::ReceiverPlanes Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method CreateEmptyForTesting, addr 0x680f8b4, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverPlanes CreateEmptyForTesting(::Unity::Collections::Allocator allocator);
@@ -60,8 +62,8 @@ public:
   // @brief default ctor
   constexpr ReceiverPlanes();
 
-  // Ctor Parameters [CppParam { name: "planes", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Plane>", modifiers: "", def_value: None }, CppParam { name: "lightFacingPlaneCount", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "planes", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Plane>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "lightFacingPlaneCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ReceiverPlanes(::Unity::Collections::NativeList_1<::UnityEngine::Plane> planes, int32_t lightFacingPlaneCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

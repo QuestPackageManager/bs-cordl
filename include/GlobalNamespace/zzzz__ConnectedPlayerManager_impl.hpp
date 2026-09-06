@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConnectedPlayerManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConnectedPlayerManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ConnectedPlayerManager_InternalMessageType::ConnectedPlayerManager_InternalMessageType(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -22,7 +22,7 @@ constexpr ::GlobalNamespace::ConnectedPlayerManager_InternalMessageType GlobalNa
 constexpr ::GlobalNamespace::ConnectedPlayerManager_InternalMessageType GlobalNamespace::ConnectedPlayerManager_InternalMessageType::Ping{ static_cast<uint8_t>(0xau) };
 constexpr ::GlobalNamespace::ConnectedPlayerManager_InternalMessageType GlobalNamespace::ConnectedPlayerManager_InternalMessageType::Pong{ static_cast<uint8_t>(0xbu) };
 constexpr ::GlobalNamespace::ConnectedPlayerManager_InternalMessageType GlobalNamespace::ConnectedPlayerManager_InternalMessageType::GameSpecificMessageType{ static_cast<uint8_t>(0xcu) };
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ConnectedPlayerManager_MessageType::ConnectedPlayerManager_MessageType(uint8_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\PoseControl.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/PoseControl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__Pose_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__PoseControl_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\TypeFilter.hpp"
+// IWYU pragma private; include "System/Reflection/TypeFilter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Reflection/zzzz__TypeFilter_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

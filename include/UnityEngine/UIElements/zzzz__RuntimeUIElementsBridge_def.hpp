@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RuntimeUIElementsBridge.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RuntimeUIElementsBridge.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ protected:
   constexpr RuntimeUIElementsBridge();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeUIElementsBridge", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeUIElementsBridge", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeUIElementsBridge(RuntimeUIElementsBridge&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeUIElementsBridge", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeUIElementsBridge", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeUIElementsBridge(RuntimeUIElementsBridge const&) = delete;
+  RuntimeUIElementsBridge(RuntimeUIElementsBridgeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5111 };

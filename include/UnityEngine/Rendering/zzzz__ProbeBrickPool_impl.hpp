@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeBrickPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeBrickPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeSHBands_impl.hpp"
@@ -35,8 +35,8 @@ inline int32_t UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc::flattenIn
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>(), { "flattenIndex", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, sx, sy);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "z", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc::ProbeBrickPool_BrickChunkAlloc(int32_t x, int32_t y, int32_t z) noexcept {
   this->x = x;
   this->y = y;
@@ -60,14 +60,16 @@ inline void UnityEngine::Rendering::ProbeBrickPool_DataLocation::Cleanup() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickPool_DataLocation>(), { "Cleanup", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "TexL0_L1rx", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "TexL1_G_ry", ty:
-// "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "TexL1_B_rz", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "TexL2_0", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "TexL2_1", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "TexL2_2", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "TexL2_3", ty: "::UnityW<::UnityEngine::Texture>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "TexProbeOcclusion", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "TexValidity", ty:
-// "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "TexSkyOcclusion", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "TexSkyShadingDirectionIndices", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "TexL0_L1rx", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TexL1_G_ry", ty:
+// "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TexL1_B_rz", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "TexL2_0", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TexL2_1", ty:
+// "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TexL2_2", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "TexL2_3", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TexProbeOcclusion", ty:
+// "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TexValidity", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "TexSkyOcclusion", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "TexSkyShadingDirectionIndices", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeBrickPool_DataLocation::ProbeBrickPool_DataLocation(::UnityW<::UnityEngine::Texture> TexL0_L1rx, ::UnityW<::UnityEngine::Texture> TexL1_G_ry,
                                                                                              ::UnityW<::UnityEngine::Texture> TexL1_B_rz, ::UnityW<::UnityEngine::Texture> TexL2_0,
                                                                                              ::UnityW<::UnityEngine::Texture> TexL2_1, ::UnityW<::UnityEngine::Texture> TexL2_2,

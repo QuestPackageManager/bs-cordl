@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\CodeAnalysis\MaybeNullWhenAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/CodeAnalysis/MaybeNullWhenAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class MaybeNullWhenAttribute;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::CodeAnalysis::MaybeNullWhenAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::CodeAnalysis::MaybeNullWhenAttribute*, "System.Diagnostics.CodeAnalysis", "MaybeNullWhenAttribute");
+// [AttributeUsage((System.AttributeTargets)2048, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
@@ -39,17 +40,18 @@ protected:
   constexpr MaybeNullWhenAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaybeNullWhenAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaybeNullWhenAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaybeNullWhenAttribute(MaybeNullWhenAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaybeNullWhenAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaybeNullWhenAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaybeNullWhenAttribute(MaybeNullWhenAttribute const&) = delete;
+  MaybeNullWhenAttribute(MaybeNullWhenAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3679 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ReturnValue>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ReturnValue_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayersLobbyPermissionConfigurationNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayersLobbyPermissionConfigurationNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerLobbyPermissionConfigurationNetSerializable_def.hpp"
@@ -181,6 +181,7 @@ inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable:
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+/// @brief [Preserve]
 inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>());
 }

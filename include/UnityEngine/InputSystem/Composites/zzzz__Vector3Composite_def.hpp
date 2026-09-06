@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Composites\Vector3Composite.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/Vector3Composite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr Vector3Composite_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector3Composite_Mode(int32_t value__) noexcept;
 
   /// @brief Field Analog value: I32(0)
@@ -89,6 +89,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::Vector3Composite_
 static_assert(sizeof(::UnityEngine::InputSystem::Composites::Vector3Composite_Mode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Composites
+// [DisplayStringFormat("{up}+{down}/{left}+{right}/{forward}+{backward}")]
+// [DisplayName("Up/Down/Left/Right/Forward/Backward Composite")]
 // Dependencies UnityEngine.InputSystem.Composites.Vector3Composite::Mode, UnityEngine.InputSystem.InputBindingComposite`1<TValue>, UnityEngine.Vector3
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
@@ -178,32 +180,38 @@ protected:
   constexpr Vector3Composite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Composite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3Composite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector3Composite(Vector3Composite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Composite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3Composite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector3Composite(Vector3Composite const&) = delete;
+  Vector3Composite(Vector3Compositeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9221 };
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field up, offset: 0x10, size: 0x4, def value: None
   int32_t ___up;
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field down, offset: 0x14, size: 0x4, def value: None
   int32_t ___down;
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field left, offset: 0x18, size: 0x4, def value: None
   int32_t ___left;
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field right, offset: 0x1c, size: 0x4, def value: None
   int32_t ___right;
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field forward, offset: 0x20, size: 0x4, def value: None
   int32_t ___forward;
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field backward, offset: 0x24, size: 0x4, def value: None
   int32_t ___backward;
 

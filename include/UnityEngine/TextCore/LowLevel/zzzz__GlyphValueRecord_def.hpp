@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphValueRecord.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphValueRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct GlyphValueRecord;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphValueRecord);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -81,8 +82,9 @@ public:
   // @brief default ctor
   constexpr GlyphValueRecord();
 
-  // Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr GlyphValueRecord(float_t m_XPlacement, float_t m_YPlacement, float_t m_XAdvance, float_t m_YAdvance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -91,15 +93,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeName("xPlacement")]
+  /// [SerializeField]
   /// @brief Field m_XPlacement, offset: 0x0, size: 0x4, def value: None
   float_t m_XPlacement;
 
+  /// [NativeName("yPlacement")]
+  /// [SerializeField]
   /// @brief Field m_YPlacement, offset: 0x4, size: 0x4, def value: None
   float_t m_YPlacement;
 
+  /// [SerializeField]
+  /// [NativeName("xAdvance")]
   /// @brief Field m_XAdvance, offset: 0x8, size: 0x4, def value: None
   float_t m_XAdvance;
 
+  /// [NativeName("yAdvance")]
+  /// [SerializeField]
   /// @brief Field m_YAdvance, offset: 0xc, size: 0x4, def value: None
   float_t m_YAdvance;
 

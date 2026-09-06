@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IAnalyticsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/IAnalyticsModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,33 +28,33 @@ public:
   // Declarations
   __declspec(property(get = get_supportsOpenDataPrivacyPage)) bool supportsOpenDataPrivacyPage;
 
-  /// @brief Method LogClick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogClick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogEditAvatarEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogEditAvatarEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogExposure, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogExposure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
-  /// @brief Method LogImpression, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogImpression, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
-  /// @brief Method LogSessionEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogSessionEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogSessionEvent(::GlobalNamespace::BeatSaberSessionEventType eventType, int32_t timeSinceSessionStart);
 
-  /// @brief Method OpenDataPrivacyPage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OpenDataPrivacyPage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_supportsOpenDataPrivacyPage();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAnalyticsModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAnalyticsModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAnalyticsModel(IAnalyticsModel const&) = delete;
+  IAnalyticsModel(IAnalyticsModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23428 };

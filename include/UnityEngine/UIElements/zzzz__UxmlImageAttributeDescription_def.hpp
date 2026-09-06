@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlImageAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlImageAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class UxmlImageAttributeDescription;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UxmlImageAttributeDescription*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlImageAttributeDescription*, "UnityEngine.UIElements", "UxmlImageAttributeDescription");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies UnityEngine.UIElements.Background, UnityEngine.UIElements.UxmlAttributeDescription
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -61,6 +62,7 @@ public:
   /// @brief Method .ctor, addr 0x6cbfd94, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_defaultValue, addr 0x6cbfe14, size 0x10, virtual false, abstract: false, final false
   inline void set_defaultValue(::UnityEngine::UIElements::Background value);
 
@@ -70,13 +72,13 @@ protected:
   constexpr UxmlImageAttributeDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlImageAttributeDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlImageAttributeDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlImageAttributeDescription(UxmlImageAttributeDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlImageAttributeDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlImageAttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlImageAttributeDescription(UxmlImageAttributeDescription const&) = delete;
+  UxmlImageAttributeDescription(UxmlImageAttributeDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5187 };
@@ -84,6 +86,8 @@ public:
   /// @brief Field m_AssetType, offset: 0x40, size: 0x8, def value: None
   ::System::Type* ___m_AssetType;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <defaultValue>k__BackingField, offset: 0x48, size: 0x20, def value: None
   ::UnityEngine::UIElements::Background ____defaultValue_k__BackingField;
 

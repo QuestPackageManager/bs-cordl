@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_DynamicFontAssetUtilities.hpp"
+// IWYU pragma private; include "TMPro/TMP_DynamicFontAssetUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,9 +41,9 @@ public:
   // @brief default ctor
   constexpr TMP_DynamicFontAssetUtilities_FontReference();
 
-  // Ctor Parameters [CppParam { name: "familyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "faceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "filePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "uint64_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "familyName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "filePath", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "hashCode", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_DynamicFontAssetUtilities_FontReference(::StringW familyName, ::StringW styleName, int32_t faceIndex, ::StringW filePath, uint64_t hashCode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -150,13 +150,13 @@ protected:
   constexpr TMP_DynamicFontAssetUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_DynamicFontAssetUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_DynamicFontAssetUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_DynamicFontAssetUtilities(TMP_DynamicFontAssetUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_DynamicFontAssetUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_DynamicFontAssetUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_DynamicFontAssetUtilities(TMP_DynamicFontAssetUtilities const&) = delete;
+  TMP_DynamicFontAssetUtilities(TMP_DynamicFontAssetUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15912 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CommandBufferBlurryScreenGrab.hpp"
+// IWYU pragma private; include "GlobalNamespace/CommandBufferBlurryScreenGrab.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class CommandBufferBlurryScreenGrab;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CommandBufferBlurryScreenGrab*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CommandBufferBlurryScreenGrab*, "", "CommandBufferBlurryScreenGrab");
+// [ExecuteInEditMode]
 // Dependencies CommandBufferGOCore, KawaseBlurRendererSO::KernelSize, UnityEngine.Rendering.CameraEvent
 namespace GlobalNamespace {
 // Is value type: false
@@ -104,26 +105,30 @@ protected:
   constexpr CommandBufferBlurryScreenGrab();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferBlurryScreenGrab", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferBlurryScreenGrab", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandBufferBlurryScreenGrab(CommandBufferBlurryScreenGrab&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferBlurryScreenGrab", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferBlurryScreenGrab", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandBufferBlurryScreenGrab(CommandBufferBlurryScreenGrab const&) = delete;
+  CommandBufferBlurryScreenGrab(CommandBufferBlurryScreenGrabconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20620 };
 
+  /// [SerializeField]
   /// @brief Field _kawaseBlurRenderer, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> ____kawaseBlurRenderer;
 
+  /// [SerializeField]
   /// @brief Field _kernelSize, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::KawaseBlurRendererSO_KernelSize ____kernelSize;
 
+  /// [SerializeField]
   /// @brief Field _cameraEvent, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::Rendering::CameraEvent ____cameraEvent;
 
+  /// [SerializeField]
   /// @brief Field _downsample, offset: 0x40, size: 0x4, def value: None
   int32_t ____downsample;
 

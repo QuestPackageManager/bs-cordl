@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\AudioMixerProperties.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/AudioMixerProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,23 +67,26 @@ protected:
   constexpr AudioMixerProperties();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerProperties", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerProperties", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioMixerProperties(AudioMixerProperties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerProperties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioMixerProperties(AudioMixerProperties const&) = delete;
+  AudioMixerProperties(AudioMixerPropertiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19189 };
 
+  /// [Range(0, 1)]
   /// @brief Field volume, offset: 0x10, size: 0x4, def value: None
   float_t ___volume;
 
+  /// [Range(-1, 1)]
   /// @brief Field stereoPan, offset: 0x14, size: 0x4, def value: None
   float_t ___stereoPan;
 
+  /// [Range(0, 1)]
   /// @brief Field spatialBlend, offset: 0x18, size: 0x4, def value: None
   float_t ___spatialBlend;
 

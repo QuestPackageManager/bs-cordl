@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Volatile.hpp"
+// IWYU pragma private; include "System/Threading/Volatile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   // @brief default ctor
   constexpr Volatile_VolatileBoolean();
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr Volatile_VolatileBoolean(bool Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -83,7 +83,7 @@ public:
   // @brief default ctor
   constexpr Volatile_VolatileInt32();
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Volatile_VolatileInt32(int32_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -114,7 +114,7 @@ public:
   // @brief default ctor
   constexpr Volatile_VolatileObject();
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr Volatile_VolatileObject(::System::Object* Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -147,27 +147,39 @@ public:
 
   using VolatileObject = ::System::Threading::Volatile_VolatileObject;
 
+  /// [Intrinsic]
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Read(::by_ref<T> location);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T Read(::by_ref<T> location);
 
+  /// [Intrinsic]
   /// @brief Method Read, addr 0x5cbb108, size 0xc, virtual false, abstract: false, final false
   static inline bool Read(::by_ref<bool> location);
 
+  /// [Intrinsic]
   /// @brief Method Read, addr 0x5cbb120, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Read(::by_ref<int32_t> location);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Read, addr 0x5cbb138, size 0xc, virtual false, abstract: false, final false
   static inline int64_t Read(::by_ref<int64_t> location);
 
+  /// [Intrinsic]
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Write(::by_ref<T> location, T value);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline void Write(::by_ref<T> location, T value);
 
+  /// [Intrinsic]
   /// @brief Method Write, addr 0x5cbb114, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::by_ref<bool> location, bool value);
 
+  /// [Intrinsic]
   /// @brief Method Write, addr 0x5cbb12c, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::by_ref<int32_t> location, int32_t value);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Write, addr 0x5cbb144, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::by_ref<int64_t> location, int64_t value);
 
@@ -177,13 +189,13 @@ protected:
   constexpr Volatile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Volatile(Volatile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Volatile(Volatile const&) = delete;
+  Volatile(Volatileconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2769 };

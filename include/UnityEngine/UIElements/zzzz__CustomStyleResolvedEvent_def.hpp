@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CustomStyleResolvedEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CustomStyleResolvedEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ MARK_REF_T(::UnityEngine::UIElements::CustomStyleResolvedEvent*);
 MARK_REF_T(::UnityEngine::UIElements::CustomStyleResolvedEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::CustomStyleResolvedEvent*, "UnityEngine.UIElements", "CustomStyleResolvedEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::CustomStyleResolvedEvent___c*, "UnityEngine.UIElements", "CustomStyleResolvedEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -52,13 +53,13 @@ protected:
   constexpr CustomStyleResolvedEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomStyleResolvedEvent___c(CustomStyleResolvedEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomStyleResolvedEvent___c(CustomStyleResolvedEvent___c const&) = delete;
+  CustomStyleResolvedEvent___c(CustomStyleResolvedEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4560 };
@@ -69,6 +70,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::CustomStyleResolvedEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)8)]
 // Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -94,13 +96,13 @@ protected:
   constexpr CustomStyleResolvedEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomStyleResolvedEvent(CustomStyleResolvedEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomStyleResolvedEvent(CustomStyleResolvedEvent const&) = delete;
+  CustomStyleResolvedEvent(CustomStyleResolvedEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4561 };

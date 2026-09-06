@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\InputFeatureUsage_1.hpp"
+// IWYU pragma private; include "UnityEngine/XR/InputFeatureUsage_1.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureUsage_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -39,7 +39,7 @@ template <typename T>
 constexpr ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>* UnityEngine::XR::InputFeatureUsage_1<T>::i___System__IEquatable_1___UnityEngine__XR__InputFeatureUsage_1_T__() {
   return static_cast<::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::UnityEngine::XR::InputFeatureUsage_1<T>::InputFeatureUsage_1(::StringW _name_k__BackingField) noexcept {
   this->_name_k__BackingField = _name_k__BackingField;
 }

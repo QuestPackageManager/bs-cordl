@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionLevelDetailViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionLevelDetailViewController.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

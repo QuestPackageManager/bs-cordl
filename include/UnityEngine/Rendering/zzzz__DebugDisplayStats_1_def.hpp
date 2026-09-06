@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplayStats_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplayStats_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,13 +140,13 @@ protected:
   constexpr DebugDisplayStats_1_AccumulatedTiming();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1_AccumulatedTiming", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1_AccumulatedTiming", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayStats_1_AccumulatedTiming(DebugDisplayStats_1_AccumulatedTiming&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1_AccumulatedTiming", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1_AccumulatedTiming", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1_AccumulatedTiming(DebugDisplayStats_1_AccumulatedTiming const&) = delete;
+  DebugDisplayStats_1_AccumulatedTiming(DebugDisplayStats_1_AccumulatedTimingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11969 };
@@ -193,7 +193,7 @@ public:
   // @brief default ctor
   constexpr DebugDisplayStats_1_DebugProfilingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugDisplayStats_1_DebugProfilingType(int32_t value__) noexcept;
 
   /// @brief Field CPU value: I32(0)
@@ -218,6 +218,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Rendering.DebugDisplayStats`1::DebugProfilingType<TProfileId>
 namespace UnityEngine::Rendering {
 // cpp template
@@ -277,13 +278,13 @@ protected:
   constexpr DebugDisplayStats_1___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayStats_1___c__DisplayClass19_0(DebugDisplayStats_1___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1___c__DisplayClass19_0(DebugDisplayStats_1___c__DisplayClass19_0 const&) = delete;
+  DebugDisplayStats_1___c__DisplayClass19_0(DebugDisplayStats_1___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11971 };
@@ -304,6 +305,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
@@ -345,13 +347,13 @@ protected:
   constexpr DebugDisplayStats_1___c__DisplayClass19_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayStats_1___c__DisplayClass19_1(DebugDisplayStats_1___c__DisplayClass19_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1___c__DisplayClass19_1(DebugDisplayStats_1___c__DisplayClass19_1 const&) = delete;
+  DebugDisplayStats_1___c__DisplayClass19_1(DebugDisplayStats_1___c__DisplayClass19_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11972 };
@@ -366,6 +368,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
@@ -408,13 +411,13 @@ protected:
   constexpr DebugDisplayStats_1___c__DisplayClass19_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayStats_1___c__DisplayClass19_2(DebugDisplayStats_1___c__DisplayClass19_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1___c__DisplayClass19_2(DebugDisplayStats_1___c__DisplayClass19_2 const&) = delete;
+  DebugDisplayStats_1___c__DisplayClass19_2(DebugDisplayStats_1___c__DisplayClass19_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11973 };
@@ -429,6 +432,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
@@ -470,13 +474,13 @@ protected:
   constexpr DebugDisplayStats_1___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayStats_1___c__DisplayClass6_0(DebugDisplayStats_1___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1___c__DisplayClass6_0(DebugDisplayStats_1___c__DisplayClass6_0 const&) = delete;
+  DebugDisplayStats_1___c__DisplayClass6_0(DebugDisplayStats_1___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11974 };
@@ -542,10 +546,10 @@ public:
   /// @brief Method BuildProfilingSamplerWidgetList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* BuildProfilingSamplerWidgetList(::System::Collections::Generic::IEnumerable_1<TProfileId>* samplers);
 
-  /// @brief Method DisableProfilingRecorders, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DisableProfilingRecorders, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DisableProfilingRecorders();
 
-  /// @brief Method EnableProfilingRecorders, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EnableProfilingRecorders, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EnableProfilingRecorders();
 
   /// @brief Method GetProfilerIdsToDisplay, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -556,10 +560,10 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplayStats_1<TProfileId>* New_ctor();
 
-  /// @brief Method RegisterDebugUI, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterDebugUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDebugUI(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* list);
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update();
 
   /// @brief Method UpdateDetailedStats, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -568,6 +572,7 @@ public:
   /// @brief Method UpdateListOfAveragedProfilerTimings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateListOfAveragedProfilerTimings(bool needUpdatingAverages, ::System::Collections::Generic::List_1<TProfileId>* samplers);
 
+  /// [CompilerGenerated]
   /// @brief Method <BuildProfilingSamplerWidgetList>g__CreateWidgetForSampler|19_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Value* _BuildProfilingSamplerWidgetList_g__CreateWidgetForSampler_19_0(TProfileId samplerId, ::UnityEngine::Rendering::ProfilingSampler* sampler,
                                                                                                                   ::UnityEngine::Rendering::DebugDisplayStats_1_DebugProfilingType<TProfileId> type);
@@ -624,13 +629,13 @@ protected:
   constexpr DebugDisplayStats_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayStats_1(DebugDisplayStats_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1(DebugDisplayStats_1 const&) = delete;
+  DebugDisplayStats_1(DebugDisplayStats_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11975 };

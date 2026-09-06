@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetParticleSystemSeed.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetParticleSystemSeed.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetParticleSystemSeed_def.hpp"
 #include "GlobalNamespace/zzzz__DeterminismConfig_def.hpp"

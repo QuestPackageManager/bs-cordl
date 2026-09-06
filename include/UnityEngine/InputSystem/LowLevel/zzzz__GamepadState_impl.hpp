@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\GamepadState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/GamepadState.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__GamepadState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__GamepadButton_def.hpp"
@@ -112,7 +112,7 @@ inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::L
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::GamepadState>(), { "get_format", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::FourCC>(*this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::LowLevel::GamepadState::_ctor(::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton> buttons) {
+inline void UnityEngine::InputSystem::LowLevel::GamepadState::_ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton> buttons) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::GamepadState>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, buttons);
@@ -131,9 +131,9 @@ constexpr UnityEngine::InputSystem::LowLevel::GamepadState::operator ::UnityEngi
 constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* UnityEngine::InputSystem::LowLevel::GamepadState::i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "buttons", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "leftStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "rightStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "leftTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rightTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "buttons", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "leftStick", ty: "::UnityEngine::Vector2", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "rightStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "leftTrigger", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::GamepadState::GamepadState(uint32_t buttons, ::UnityEngine::Vector2 leftStick, ::UnityEngine::Vector2 rightStick, float_t leftTrigger,
                                                                            float_t rightTrigger) noexcept {
   this->buttons = buttons;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\StreamReader_NullStreamReader.hpp"
+// IWYU pragma private; include "System/IO/StreamReader_NullStreamReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr StreamReader_NullStreamReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StreamReader_NullStreamReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StreamReader_NullStreamReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StreamReader_NullStreamReader(StreamReader_NullStreamReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StreamReader_NullStreamReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StreamReader_NullStreamReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StreamReader_NullStreamReader(StreamReader_NullStreamReader const&) = delete;
+  StreamReader_NullStreamReader(StreamReader_NullStreamReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3854 };

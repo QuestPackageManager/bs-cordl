@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenDisplacementEffectCopyDepthPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenDisplacementEffectCopyDepthPass.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__CopyDepthPass_impl.hpp"
 #include "GlobalNamespace/zzzz__ScreenDisplacementEffectCopyDepthPass_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"

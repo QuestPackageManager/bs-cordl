@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ButtonSpriteSwapCapsLockState.hpp"
+// IWYU pragma private; include "HMUI/ButtonSpriteSwapCapsLockState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,38 +126,47 @@ protected:
   constexpr ButtonSpriteSwapCapsLockState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwapCapsLockState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwapCapsLockState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonSpriteSwapCapsLockState(ButtonSpriteSwapCapsLockState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwapCapsLockState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwapCapsLockState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonSpriteSwapCapsLockState(ButtonSpriteSwapCapsLockState const&) = delete;
+  ButtonSpriteSwapCapsLockState(ButtonSpriteSwapCapsLockStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19076 };
 
+  /// [SerializeField]
   /// @brief Field _lowercaseSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____lowercaseSprite;
 
+  /// [SerializeField]
   /// @brief Field _uppercaseOnceSprite, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____uppercaseOnceSprite;
 
+  /// [SerializeField]
   /// @brief Field _uppercaseSprite, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____uppercaseSprite;
 
+  /// [SerializeField]
   /// @brief Field _lowercaseColor, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Color ____lowercaseColor;
 
+  /// [SerializeField]
   /// @brief Field _uppercaseOnceColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____uppercaseOnceColor;
 
+  /// [SerializeField]
   /// @brief Field _uppercaseColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____uppercaseColor;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _keyboard, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboard> ____keyboard;
 
+  /// [SerializeField]
   /// @brief Field _images, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Image>> ____images;
 

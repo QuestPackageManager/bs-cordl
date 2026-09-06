@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DisconnectPromptView.hpp"
+// IWYU pragma private; include "GlobalNamespace/DisconnectPromptView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::GlobalNamespace::DisconnectPromptView*);
 MARK_REF_T(::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DisconnectPromptView*, "", "DisconnectPromptView");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0*, "", "DisconnectPromptView/<>c__DisplayClass12_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -78,13 +79,13 @@ protected:
   constexpr DisconnectPromptView___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisconnectPromptView___c__DisplayClass12_0(DisconnectPromptView___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisconnectPromptView___c__DisplayClass12_0(DisconnectPromptView___c__DisplayClass12_0 const&) = delete;
+  DisconnectPromptView___c__DisplayClass12_0(DisconnectPromptView___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6481 };
@@ -149,9 +150,11 @@ public:
   /// @brief Method Show, addr 0x5a23730, size 0x40, virtual false, abstract: false, final false
   inline void Show();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__9_0, addr 0x5a238d4, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__9_1, addr 0x5a238f4, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_1();
 
@@ -200,9 +203,11 @@ public:
   /// @brief Method .ctor, addr 0x5a23878, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didViewFinishEvent, addr 0x5a23470, size 0xc0, virtual false, abstract: false, final false
   inline void add_didViewFinishEvent(::System::Action_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didViewFinishEvent, addr 0x5a23530, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didViewFinishEvent(::System::Action_1<bool>* value);
 
@@ -212,32 +217,39 @@ protected:
   constexpr DisconnectPromptView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisconnectPromptView(DisconnectPromptView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisconnectPromptView(DisconnectPromptView const&) = delete;
+  DisconnectPromptView(DisconnectPromptViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6482 };
 
+  /// [SerializeField]
   /// @brief Field _presentPanelAnimation, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimation;
 
+  /// [SerializeField]
   /// @brief Field _dismissPanelAnimation, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____dismissPanelAnimation;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _promptGameObject, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____promptGameObject;
 
+  /// [SerializeField]
   /// @brief Field _yesButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____yesButton;
 
+  /// [SerializeField]
   /// @brief Field _noButton, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____noButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didViewFinishEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<bool>* ___didViewFinishEvent;
 

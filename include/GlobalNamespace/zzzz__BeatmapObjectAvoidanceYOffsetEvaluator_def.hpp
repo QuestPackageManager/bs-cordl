@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectAvoidanceYOffsetEvaluator.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectAvoidanceYOffsetEvaluator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*);
 MARK_VAL_T(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*, "", "BeatmapObjectAvoidanceYOffsetEvaluator");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData, "", "BeatmapObjectAvoidanceYOffsetEvaluator/BufferData");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -47,7 +48,8 @@ public:
   // @brief default ctor
   constexpr BeatmapObjectAvoidanceYOffsetEvaluator_BufferData();
 
-  // Ctor Parameters [CppParam { name: "songTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "songTime", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr BeatmapObjectAvoidanceYOffsetEvaluator_BufferData(float_t songTime, float_t yOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -146,13 +148,13 @@ protected:
   constexpr BeatmapObjectAvoidanceYOffsetEvaluator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidanceYOffsetEvaluator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidanceYOffsetEvaluator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectAvoidanceYOffsetEvaluator(BeatmapObjectAvoidanceYOffsetEvaluator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidanceYOffsetEvaluator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidanceYOffsetEvaluator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectAvoidanceYOffsetEvaluator(BeatmapObjectAvoidanceYOffsetEvaluator const&) = delete;
+  BeatmapObjectAvoidanceYOffsetEvaluator(BeatmapObjectAvoidanceYOffsetEvaluatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22003 };

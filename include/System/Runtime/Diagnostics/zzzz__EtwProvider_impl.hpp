@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\EtwProvider.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/EtwProvider.hpp"
 #include "System/Runtime/Diagnostics/zzzz__DiagnosticsEventProvider_impl.hpp"
 #include "System/Runtime/Diagnostics/zzzz__EtwProvider_def.hpp"
 #include "System/Runtime/Diagnostics/zzzz__EventDescriptor_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SortingLayer.hpp"
+// IWYU pragma private; include "UnityEngine/SortingLayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct SortingLayer;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SortingLayer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SortingLayer, "UnityEngine", "SortingLayer");
+// [NativeHeader("Runtime/BaseClasses/TagManager.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -20,6 +21,7 @@ namespace UnityEngine {
 struct CORDL_TYPE SortingLayer {
 public:
   // Declarations
+  /// [FreeFunction("GetTagManager().GetSortingLayerValueFromUniqueID")]
   /// @brief Method GetLayerValueFromID, addr 0x6a65824, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLayerValueFromID(int32_t id);
 
@@ -27,7 +29,7 @@ public:
   // @brief default ctor
   constexpr SortingLayer();
 
-  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SortingLayer(int32_t m_Id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

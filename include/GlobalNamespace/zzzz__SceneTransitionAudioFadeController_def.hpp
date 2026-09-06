@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SceneTransitionAudioFadeController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SceneTransitionAudioFadeController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,13 +95,13 @@ protected:
   constexpr SceneTransitionAudioFadeController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneTransitionAudioFadeController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneTransitionAudioFadeController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneTransitionAudioFadeController(SceneTransitionAudioFadeController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneTransitionAudioFadeController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneTransitionAudioFadeController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneTransitionAudioFadeController(SceneTransitionAudioFadeController const&) = delete;
+  SceneTransitionAudioFadeController(SceneTransitionAudioFadeControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5580 };
@@ -112,9 +112,11 @@ public:
   /// @brief Field kTransitionFadeOutMinDuration offset 0xffffffff size 0x4
   static constexpr float_t kTransitionFadeOutMinDuration{ static_cast<float_t>(0.2f) };
 
+  /// [Inject]
   /// @brief Field _audioManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::AudioManager* ____audioManager;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 

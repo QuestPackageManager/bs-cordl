@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HttpRequestHeader.hpp"
+// IWYU pragma private; include "System/Net/HttpRequestHeader.hpp"
 #include "System/Net/zzzz__HttpRequestHeader_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::HttpRequestHeader::HttpRequestHeader(int32_t value__) noexcept {
   this->value__ = value__;
 }

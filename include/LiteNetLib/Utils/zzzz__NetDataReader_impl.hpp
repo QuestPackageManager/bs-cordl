@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NetDataReader.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
@@ -1234,7 +1235,9 @@ inline ::System::ArraySegment_1<uint8_t> LiteNetLib::Utils::NetDataReader::GetRe
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetDataReader*>(), { "GetRemainingBytesSegment", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::ArraySegment_1<uint8_t>>(this, ___internal_method);
 }
-template <typename T> inline T LiteNetLib::Utils::NetDataReader::Get() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+inline T LiteNetLib::Utils::NetDataReader::Get() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetDataReader*>(), { "Get", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);

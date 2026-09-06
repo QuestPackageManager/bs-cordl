@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AI\NavMesh.hpp"
+// IWYU pragma private; include "UnityEngine/AI/NavMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ protected:
   constexpr NavMesh_OnNavMeshPreUpdate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavMesh_OnNavMeshPreUpdate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavMesh_OnNavMeshPreUpdate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavMesh_OnNavMeshPreUpdate(NavMesh_OnNavMeshPreUpdate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavMesh_OnNavMeshPreUpdate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavMesh_OnNavMeshPreUpdate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavMesh_OnNavMeshPreUpdate(NavMesh_OnNavMeshPreUpdate const&) = delete;
+  NavMesh_OnNavMeshPreUpdate(NavMesh_OnNavMeshPreUpdateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23409 };
@@ -65,6 +65,10 @@ public:
 static_assert(sizeof(::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::AI
+// [NativeHeader("Modules/AI/NavMeshManager.h")]
+// [StaticAccessor("NavMeshBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [MovedFrom("UnityEngine")]
+// [NativeHeader("Modules/AI/NavMesh/NavMesh.bindings.h")]
 // Dependencies System.Object
 namespace UnityEngine::AI {
 // Is value type: false
@@ -77,6 +81,7 @@ public:
   /// @brief Field onPreUpdate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_onPreUpdate, put = setStaticF_onPreUpdate)) ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate* onPreUpdate;
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)1)]
   /// @brief Method ClearPreUpdateListeners, addr 0x6a1ef10, size 0x4c, virtual false, abstract: false, final false
   static inline void ClearPreUpdateListeners();
 
@@ -90,13 +95,13 @@ protected:
   constexpr NavMesh();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavMesh(NavMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavMesh(NavMesh const&) = delete;
+  NavMesh(NavMeshconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23410 };

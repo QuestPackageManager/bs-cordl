@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Drawing\SizeF.hpp"
+// IWYU pragma private; include "System/Drawing/SizeF.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,8 @@ public:
   // @brief default ctor
   constexpr SizeF();
 
-  // Ctor Parameters [CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr SizeF(float_t width, float_t height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

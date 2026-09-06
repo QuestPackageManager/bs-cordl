@@ -1,14 +1,16 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\FixedBuffer16_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/FixedBuffer16_1.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__FixedBuffer16_1_def.hpp"
-// Ctor Parameters [CppParam { name: "__0", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "__1", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "__2", ty: "T",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__3", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "__5", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "__6", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7", ty: "T", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__8", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "__9", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "_10", ty: "T",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_11", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "_12", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_13", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "_14", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "_15", ty: "T", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "__0", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__1", ty: "T", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "__2", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__3", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__4", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__5", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__6", ty: "T",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8", ty: "T", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__9", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_10", ty: "T", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_11", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_12", ty: "T", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_13", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_14", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_15", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::UnityEngine::UIElements::Layout::FixedBuffer16_1<T>::FixedBuffer16_1(T __0, T __1, T __2, T __3, T __4, T __5, T __6, T __7, T __8, T __9, T _10, T _11, T _12, T _13, T _14,
                                                                                  T _15) noexcept {
   this->__0 = __0;
@@ -29,4 +31,6 @@ constexpr ::UnityEngine::UIElements::Layout::FixedBuffer16_1<T>::FixedBuffer16_1
   this->_15 = _15;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::Layout::FixedBuffer16_1<T>::FixedBuffer16_1() {}
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::UIElements::Layout::FixedBuffer16_1<T>::FixedBuffer16_1() {}

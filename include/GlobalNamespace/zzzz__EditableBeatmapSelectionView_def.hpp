@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EditableBeatmapSelectionView.hpp"
+// IWYU pragma private; include "GlobalNamespace/EditableBeatmapSelectionView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   static inline ::GlobalNamespace::EditableBeatmapSelectionView* New_ctor();
 
   /// @brief Method SetBeatmap, addr 0x596bfd4, size 0x60, virtual true, abstract: false, final false
-  inline void SetBeatmap(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// @brief Method SetVisibility, addr 0x596bfa4, size 0x28, virtual false, abstract: false, final false
   inline void SetVisibility(bool visible);
@@ -104,12 +104,14 @@ public:
   /// @brief Method get_interactable, addr 0x596bf2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_showClearButton, addr 0x596bf94, size 0x8, virtual false, abstract: false, final false
   inline bool get_showClearButton();
 
   /// @brief Method set_interactable, addr 0x596bf34, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_showClearButton, addr 0x596bf9c, size 0x8, virtual false, abstract: false, final false
   inline void set_showClearButton(bool value);
 
@@ -119,29 +121,34 @@ protected:
   constexpr EditableBeatmapSelectionView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EditableBeatmapSelectionView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditableBeatmapSelectionView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditableBeatmapSelectionView(EditableBeatmapSelectionView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EditableBeatmapSelectionView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditableBeatmapSelectionView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EditableBeatmapSelectionView(EditableBeatmapSelectionView const&) = delete;
+  EditableBeatmapSelectionView(EditableBeatmapSelectionViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7004 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _editButton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editButton;
 
+  /// [SerializeField]
   /// @brief Field _clearButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____clearButton;
 
+  /// [SerializeField]
   /// @brief Field _levelBarCanvasGroup, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____levelBarCanvasGroup;
 
   /// @brief Field _interactable, offset: 0x48, size: 0x1, def value: None
   bool ____interactable;
 
+  /// [CompilerGenerated]
   /// @brief Field <showClearButton>k__BackingField, offset: 0x49, size: 0x1, def value: None
   bool ____showClearButton_k__BackingField;
 

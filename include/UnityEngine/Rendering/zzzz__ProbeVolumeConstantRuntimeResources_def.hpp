@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeConstantRuntimeResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeConstantRuntimeResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr ProbeVolumeConstantRuntimeResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeConstantRuntimeResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeConstantRuntimeResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeConstantRuntimeResources(ProbeVolumeConstantRuntimeResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeConstantRuntimeResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeConstantRuntimeResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeConstantRuntimeResources(ProbeVolumeConstantRuntimeResources const&) = delete;
+  ProbeVolumeConstantRuntimeResources(ProbeVolumeConstantRuntimeResourcesconst&) = delete;
 
   /// @brief Field NB_SKY_PRECOMPUTED_DIRECTIONS offset 0xffffffff size 0x4
   static constexpr int32_t NB_SKY_PRECOMPUTED_DIRECTIONS{ static_cast<int32_t>(0xff) };

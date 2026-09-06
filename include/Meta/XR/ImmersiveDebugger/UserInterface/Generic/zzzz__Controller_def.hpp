@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Controller.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Controller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,7 +108,9 @@ public:
   __declspec(property(get = __cordl_internal_get__visibility, put = __cordl_internal_set__visibility)) bool _visibility;
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Append(::StringW childName);
+  template <typename T>
+    requires(::cordl_internals::default_constructor_constraint<T>)
+  inline T Append(::StringW childName);
 
   /// @brief Method Append, addr 0x5a58390, size 0xf0, virtual false, abstract: false, final false
   inline void Append(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller);
@@ -123,10 +125,14 @@ public:
   inline void Hide();
 
   /// @brief Method InsertAfter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T InsertAfter(::StringW childName, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* previous);
+  template <typename T>
+    requires(::cordl_internals::default_constructor_constraint<T>)
+  inline T InsertAfter(::StringW childName, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* previous);
 
   /// @brief Method InsertBefore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T InsertBefore(::StringW childName, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* next);
+  template <typename T>
+    requires(::cordl_internals::default_constructor_constraint<T>)
+  inline T InsertBefore(::StringW childName, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* next);
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* New_ctor();
 
@@ -140,7 +146,9 @@ public:
   inline void OnVisibilityChanged();
 
   /// @brief Method Prepend, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Prepend(::StringW childName);
+  template <typename T>
+    requires(::cordl_internals::default_constructor_constraint<T>)
+  inline T Prepend(::StringW childName);
 
   /// @brief Method RefreshLayout, addr 0x5a4c5c4, size 0x14, virtual false, abstract: false, final false
   inline void RefreshLayout();
@@ -164,7 +172,9 @@ public:
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   /// @brief Method SetupChildController, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T SetupChildController(::StringW childName);
+  template <typename T>
+    requires(::cordl_internals::default_constructor_constraint<T>)
+  inline T SetupChildController(::StringW childName);
 
   /// @brief Method Show, addr 0x5a4c5d8, size 0x18, virtual false, abstract: false, final false
   inline void Show();
@@ -256,24 +266,29 @@ public:
   /// @brief Method .ctor, addr 0x5a510ec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnVisibilityChangedEvent, addr 0x5a4dbd8, size 0xc0, virtual false, abstract: false, final false
   inline void add_OnVisibilityChangedEvent(::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller>>* value);
 
   /// @brief Method get_Children, addr 0x5a58140, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller>>* get_Children();
 
+  /// [CompilerGenerated]
   /// @brief Method get_GameObject, addr 0x5a58130, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_GameObject();
 
   /// @brief Method get_LayoutStyle, addr 0x5a58148, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle> get_LayoutStyle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Owner, addr 0x5a58100, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller> get_Owner();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RectTransform, addr 0x5a58120, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_RectTransform();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Transform, addr 0x5a58110, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Transform();
 
@@ -283,21 +298,26 @@ public:
   /// @brief Method get_Visibility, addr 0x5a58520, size 0x8, virtual false, abstract: false, final false
   inline bool get_Visibility();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnVisibilityChangedEvent, addr 0x5a582c8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_OnVisibilityChangedEvent(::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_GameObject, addr 0x5a58138, size 0x8, virtual false, abstract: false, final false
   inline void set_GameObject(::UnityEngine::GameObject* value);
 
   /// @brief Method set_LayoutStyle, addr 0x5a493e4, size 0xdc, virtual false, abstract: false, final false
   inline void set_LayoutStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Owner, addr 0x5a58108, size 0x8, virtual false, abstract: false, final false
   inline void set_Owner(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RectTransform, addr 0x5a58128, size 0x8, virtual false, abstract: false, final false
   inline void set_RectTransform(::UnityEngine::RectTransform* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Transform, addr 0x5a58118, size 0x8, virtual false, abstract: false, final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
@@ -313,13 +333,13 @@ protected:
   constexpr Controller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Controller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Controller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Controller(Controller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Controller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Controller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Controller(Controller const&) = delete;
+  Controller(Controllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18390 };
@@ -336,27 +356,33 @@ public:
   /// @brief Field _layoutStyleHasChanged, offset: 0x23, size: 0x1, def value: None
   bool ____layoutStyleHasChanged;
 
+  /// [SerializeField]
   /// @brief Field _layoutStyle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle> ____layoutStyle;
 
   /// @brief Field _children, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller>>* ____children;
 
+  /// [CompilerGenerated]
   /// @brief Field <Owner>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller> ____Owner_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Transform>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____Transform_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RectTransform>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____RectTransform_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <GameObject>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____GameObject_k__BackingField;
 
   /// @brief Field _mask, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::RectMask2D> ____mask;
 
+  /// [CompilerGenerated]
   /// @brief Field OnVisibilityChangedEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller>>* ___OnVisibilityChangedEvent;
 

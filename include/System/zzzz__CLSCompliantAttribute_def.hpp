@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\CLSCompliantAttribute.hpp"
+// IWYU pragma private; include "System/CLSCompliantAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class CLSCompliantAttribute;
 // Write type traits
 MARK_REF_T(::System::CLSCompliantAttribute*);
 DEFINE_IL2CPP_CLASS(::System::CLSCompliantAttribute*, "System", "CLSCompliantAttribute");
+// [AttributeUsage((System.AttributeTargets)32767, Inherited = true, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System {
 // Is value type: false
@@ -39,13 +40,13 @@ protected:
   constexpr CLSCompliantAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CLSCompliantAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CLSCompliantAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CLSCompliantAttribute(CLSCompliantAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CLSCompliantAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CLSCompliantAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CLSCompliantAttribute(CLSCompliantAttribute const&) = delete;
+  CLSCompliantAttribute(CLSCompliantAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2363 };

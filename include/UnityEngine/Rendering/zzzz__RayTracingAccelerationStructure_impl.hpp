@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RayTracingAccelerationStructure.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RayTracingAccelerationStructure.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RayTracingAccelerationStructureBuildFlags_impl.hpp"
@@ -69,8 +69,8 @@ inline void UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSetting
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_buildFlags_k__BackingField", ty: "::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_relativeOrigin_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_buildFlags_k__BackingField", ty: "::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_relativeOrigin_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::RayTracingAccelerationStructure_BuildSettings(
     ::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags _buildFlags_k__BackingField, ::UnityEngine::Vector3 _relativeOrigin_k__BackingField) noexcept {
   this->_buildFlags_k__BackingField = _buildFlags_k__BackingField;

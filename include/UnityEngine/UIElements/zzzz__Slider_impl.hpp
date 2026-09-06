@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Slider.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Slider.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Slider_def.hpp"

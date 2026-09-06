@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PlayerLoop\FixedUpdate.hpp"
+// IWYU pragma private; include "UnityEngine/PlayerLoop/FixedUpdate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,6 +116,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::FixedUpdate_PhysicsFixedUpdate, "
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunBehaviourFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/ScriptRunBehaviourFixedUpdate");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunDelayedFixedFrameRate, "UnityEngine.PlayerLoop", "FixedUpdate/ScriptRunDelayedFixedFrameRate");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::FixedUpdate_XRFixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate/XRFixedUpdate");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -144,6 +145,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_ClearLines) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -172,6 +174,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedSampleTime) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -200,6 +203,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_AudioFixedUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -228,6 +232,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunBehaviourFixedUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -256,6 +261,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -284,6 +290,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_LegacyFixedAnimationUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -312,6 +319,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_XRFixedUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -340,6 +348,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_PhysicsFixedUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -368,6 +377,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_Physics2DFixedUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -396,6 +406,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_PhysicsClothFixedUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -424,6 +435,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_DirectorFixedUpdatePostPhysics) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -452,6 +464,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_ScriptRunDelayedFixedFrameRate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -480,6 +493,8 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::FixedUpdate_NewInputFixedUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true

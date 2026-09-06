@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelSearchViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelSearchViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,6 +91,7 @@ MARK_REF_T(::GlobalNamespace::LevelSearchViewController*);
 MARK_VAL_T(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42, "", "LevelSearchViewController/<RefreshAsync>d__42");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -104,6 +105,7 @@ public:
   /// @brief Method MoveNext, addr 0x5956b70, size 0xa5c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x59575cc, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -114,10 +116,10 @@ public:
   // @brief default ctor
   constexpr LevelSearchViewController__RefreshAsync_d__42();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelSearchViewController>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::LevelSearchViewController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>", modifiers: "", def_value: None, comment: None }]
   constexpr LevelSearchViewController__RefreshAsync_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                           ::UnityW<::GlobalNamespace::LevelSearchViewController> __4__this,
                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>> __u__1) noexcept;
@@ -239,7 +241,7 @@ public:
   inline bool IsFilteringPlayCounts();
 
   /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x59563e8, size 0x68c, virtual false, abstract: false, final false
-  static inline ::StringW LocalizedLevelFilterParamsDescription(::by_ref<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
+  static inline ::StringW LocalizedLevelFilterParamsDescription(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
                                                                 ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>* characteristics,
                                                                 bool isPlayerSensitivityForced);
 
@@ -249,8 +251,9 @@ public:
   inline void Refresh();
 
   /// @brief Method Refresh, addr 0x5956038, size 0x20, virtual false, abstract: false, final false
-  inline void Refresh(::by_ref<::GlobalNamespace::LevelFilter> filter);
+  inline void Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter);
 
+  /// [AsyncStateMachine(typeof(LevelSearchViewController::<RefreshAsync>d__42))]
   /// @brief Method RefreshAsync, addr 0x5955f94, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAsync();
 
@@ -272,12 +275,15 @@ public:
   /// @brief Method Setup, addr 0x5955f74, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::ArrayW<::GlobalNamespace::BeatmapLevelPack*> beatmapLevelPacks);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__37_0, addr 0x5956afc, size 0x50, virtual false, abstract: false, final false
   inline void _DidActivate_b__37_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__37_1, addr 0x5956b4c, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__37_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <LocalizedLevelFilterParamsDescription>g__Append|44_0, addr 0x5956a74, size 0x84, virtual false, abstract: false, final false
   static inline void _LocalizedLevelFilterParamsDescription_g__Append_44_0(::System::Text::StringBuilder* sb, ::StringW value);
 
@@ -398,21 +404,27 @@ public:
   /// @brief Method .ctor, addr 0x5956af8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFilterBeatmapLevelCollectionEvent, addr 0x5952f10, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressSearchButtonEvent, addr 0x5955df4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didStartLoadingEvent, addr 0x5952fd0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFilterBeatmapLevelCollectionEvent, addr 0x5953734, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressSearchButtonEvent, addr 0x5955eb4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didStartLoadingEvent, addr 0x59537f4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
@@ -422,13 +434,13 @@ protected:
   constexpr LevelSearchViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelSearchViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelSearchViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelSearchViewController(LevelSearchViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelSearchViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelSearchViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelSearchViewController(LevelSearchViewController const&) = delete;
+  LevelSearchViewController(LevelSearchViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6940 };
@@ -454,42 +466,55 @@ public:
   /// @brief Field kMinBpmLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kMinBpmLocalizationKey{ u"MIN_BPM" };
 
+  /// [SerializeField]
   /// @brief Field _searchButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____searchButton;
 
+  /// [SerializeField]
   /// @brief Field _clearFiltersButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____clearFiltersButton;
 
+  /// [SerializeField]
   /// @brief Field _filterParamsText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____filterParamsText;
 
+  /// [SerializeField]
   /// @brief Field _filterPlaceholder, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____filterPlaceholder;
 
+  /// [SerializeField]
   /// @brief Field _searchTextInputFieldView, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____searchTextInputFieldView;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _songPackMasksModel, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;
 
+  /// [Inject]
   /// @brief Field _entitlementModel, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
+  /// [Inject]
   /// @brief Field _beatmapCharacteristicCollection, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 
+  /// [Inject]
   /// @brief Field _uiKeyboardManager, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UIKeyboardManager> ____uiKeyboardManager;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressSearchButtonEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* ___didPressSearchButtonEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didFilterBeatmapLevelCollectionEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* ___didFilterBeatmapLevelCollectionEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didStartLoadingEvent, offset: 0xd8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* ___didStartLoadingEvent;
 

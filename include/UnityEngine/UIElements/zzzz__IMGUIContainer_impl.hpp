@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IMGUIContainer.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IMGUIContainer.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextType_impl.hpp"
@@ -65,10 +65,11 @@ inline ::UnityEngine::UIElements::IMGUIContainer_UxmlTraits* UnityEngine::UIElem
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::IMGUIContainer_UxmlTraits::IMGUIContainer_UxmlTraits() {}
-// Ctor Parameters [CppParam { name: "matrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "contentColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "backgroundColor", ty: "::UnityEngine::Color", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "changed", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "displayIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pixelsPerPoint", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "matrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "contentColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "backgroundColor",
+// ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "changed", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "displayIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "pixelsPerPoint", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::IMGUIContainer_GUIGlobals::IMGUIContainer_GUIGlobals(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Color color, ::UnityEngine::Color contentColor,
                                                                                           ::UnityEngine::Color backgroundColor, bool enabled, bool changed, int32_t displayIndex,
                                                                                           float_t pixelsPerPoint) noexcept {

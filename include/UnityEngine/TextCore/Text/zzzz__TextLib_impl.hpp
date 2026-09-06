@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextLib.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextLib.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextLib_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LightUnitUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LightUnitUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,13 +111,13 @@ protected:
   constexpr LightUnitUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightUnitUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightUnitUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightUnitUtils(LightUnitUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightUnitUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightUnitUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightUnitUtils(LightUnitUtils const&) = delete;
+  LightUnitUtils(LightUnitUtilsconst&) = delete;
 
   /// @brief Field SphereSolidAngle offset 0xffffffff size 0x4
   static constexpr float_t SphereSolidAngle{ static_cast<float_t>(12.566371f) };

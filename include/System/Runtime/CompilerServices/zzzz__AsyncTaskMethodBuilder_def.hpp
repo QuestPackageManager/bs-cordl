@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncTaskMethodBuilder)
@@ -29,7 +32,8 @@ struct AsyncTaskMethodBuilder;
 // Write type traits
 MARK_VAL_T(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder, "System.Runtime.CompilerServices", "AsyncTaskMethodBuilder");
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Threading.Tasks.VoidTaskResult
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.ICriticalNotifyCompletion,
+// System.Runtime.CompilerServices.INotifyCompletion, System.Threading.Tasks.VoidTaskResult
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
@@ -42,10 +46,16 @@ public:
   __declspec(property(get = getStaticF_s_cachedCompleted, put = setStaticF_s_cachedCompleted)) ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>* s_cachedCompleted;
 
   /// @brief Method AwaitOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::INotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method Create, addr 0x5b71d28, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
@@ -59,8 +69,11 @@ public:
   /// @brief Method SetStateMachine, addr 0x5b6f938, size 0x7c, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
+  /// [DebuggerStepThrough]
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TStateMachine> inline void Start(::by_ref<TStateMachine> stateMachine);
+  template <typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void Start(::by_ref<TStateMachine> stateMachine);
 
   static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>* getStaticF_s_cachedCompleted();
 
@@ -73,7 +86,8 @@ public:
   // @brief default ctor
   constexpr AsyncTaskMethodBuilder();
 
-  // Ctor Parameters [CppParam { name: "m_builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr AsyncTaskMethodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult> m_builder) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

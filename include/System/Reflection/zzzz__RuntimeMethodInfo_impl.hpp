@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\RuntimeMethodInfo.hpp"
+// IWYU pragma private; include "System/Reflection/RuntimeMethodInfo.hpp"
 #include "System/Reflection/zzzz__MethodInfo_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Reflection/zzzz__RuntimeMethodInfo_def.hpp"
@@ -991,7 +991,7 @@ inline ::System::Reflection::CustomAttributeData* System::Reflection::RuntimeMet
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::RuntimeMethodInfo*>(), { "GetDllImportAttributeData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::CustomAttributeData*>(this, ___internal_method);
 }
-inline ::System::Reflection::MethodInfo* System::Reflection::RuntimeMethodInfo::MakeGenericMethod(::ArrayW<::System::Type*> methodInstantiation) {
+inline ::System::Reflection::MethodInfo* System::Reflection::RuntimeMethodInfo::MakeGenericMethod(/* [ParamArray] */ ::ArrayW<::System::Type*> methodInstantiation) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::RuntimeMethodInfo*>(), 44 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method, methodInstantiation);
 }

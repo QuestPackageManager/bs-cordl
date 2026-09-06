@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CurrentPipelineHelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CurrentPipelineHelpURLAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class CurrentPipelineHelpURLAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute*, "UnityEngine.Rendering", "CurrentPipelineHelpURLAttribute");
+// [Conditional("UNITY_EDITOR")]
+// [AttributeUsage((System.AttributeTargets)20, AllowMultiple = false)]
 // Dependencies UnityEngine.HelpURLAttribute
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -52,9 +54,11 @@ public:
   /// @brief Method get_URL, addr 0x6787c60, size 0x14, virtual true, abstract: false, final false
   inline ::StringW get_URL();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pageHash, addr 0x6787bf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pageHash();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pageName, addr 0x6787be8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pageName();
 
@@ -64,20 +68,22 @@ protected:
   constexpr CurrentPipelineHelpURLAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurrentPipelineHelpURLAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurrentPipelineHelpURLAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurrentPipelineHelpURLAttribute(CurrentPipelineHelpURLAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurrentPipelineHelpURLAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurrentPipelineHelpURLAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurrentPipelineHelpURLAttribute(CurrentPipelineHelpURLAttribute const&) = delete;
+  CurrentPipelineHelpURLAttribute(CurrentPipelineHelpURLAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12069 };
 
+  /// [CompilerGenerated]
   /// @brief Field <pageName>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____pageName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pageHash>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____pageHash_k__BackingField;
 

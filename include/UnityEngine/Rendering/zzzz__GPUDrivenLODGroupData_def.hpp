@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenLODGroupData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenLODGroupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,15 +28,16 @@ public:
   // @brief default ctor
   constexpr GPUDrivenLODGroupData();
 
-  // Ctor Parameters [CppParam { name: "lodGroupID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "lodOffset", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "lodCount", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None
-  // }, CppParam { name: "fadeMode", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::LODFadeMode>", modifiers: "", def_value: None }, CppParam { name: "worldSpaceReferencePoint", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "worldSpaceSize", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers:
-  // "", def_value: None }, CppParam { name: "renderersCount", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None }, CppParam { name: "lastLODIsBillboard", ty:
-  // "::Unity::Collections::NativeArray_1<bool>", modifiers: "", def_value: None }, CppParam { name: "invalidLODGroupID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value:
-  // None }, CppParam { name: "lodRenderersCount", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None }, CppParam { name: "lodScreenRelativeTransitionHeight", ty:
-  // "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "lodFadeTransitionWidth", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "lodGroupID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodOffset", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodCount", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "fadeMode", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::LODFadeMode>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "worldSpaceReferencePoint", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldSpaceSize", ty:
+  // "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderersCount", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "lastLODIsBillboard", ty: "::Unity::Collections::NativeArray_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "invalidLODGroupID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodRenderersCount", ty:
+  // "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodScreenRelativeTransitionHeight", ty:
+  // "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodFadeTransitionWidth", ty: "::Unity::Collections::NativeArray_1<float_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr GPUDrivenLODGroupData(::Unity::Collections::NativeArray_1<int32_t> lodGroupID, ::Unity::Collections::NativeArray_1<int32_t> lodOffset,
                                   ::Unity::Collections::NativeArray_1<int32_t> lodCount, ::Unity::Collections::NativeArray_1<::UnityEngine::LODFadeMode> fadeMode,
                                   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> worldSpaceReferencePoint, ::Unity::Collections::NativeArray_1<float_t> worldSpaceSize,

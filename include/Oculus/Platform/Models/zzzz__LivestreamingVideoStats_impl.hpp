@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\LivestreamingVideoStats.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/LivestreamingVideoStats.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__LivestreamingVideoStats_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

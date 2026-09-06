@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationStream.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,10 @@ struct AnimationStream;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationStream);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationStream, "UnityEngine.Animations", "AnimationStream");
+// [MovedFrom("UnityEngine.Experimental.Animations")]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationStream.bindings.h")]
+// [NativeHeader("Modules/Animation/Director/AnimationStream.h")]
+// [RequiredByNativeCode]
 // Dependencies System.IntPtr
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -25,10 +29,10 @@ public:
   // @brief default ctor
   constexpr AnimationStream();
 
-  // Ctor Parameters [CppParam { name: "m_AnimatorBindingsVersion", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "constant", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }, CppParam { name: "input", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "output", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
-  // "workspace", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "inputStreamAccessor", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
-  // "animationHandleBinder", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_AnimatorBindingsVersion", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "constant", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "input", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "output", ty: "::System::IntPtr", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "workspace", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputStreamAccessor", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "animationHandleBinder", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationStream(uint32_t m_AnimatorBindingsVersion, ::System::IntPtr constant, ::System::IntPtr input, ::System::IntPtr output, ::System::IntPtr workspace,
                             ::System::IntPtr inputStreamAccessor, ::System::IntPtr animationHandleBinder) noexcept;
 

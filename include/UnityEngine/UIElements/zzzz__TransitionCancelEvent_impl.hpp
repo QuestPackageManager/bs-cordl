@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TransitionCancelEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TransitionCancelEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionCancelEvent_def.hpp"

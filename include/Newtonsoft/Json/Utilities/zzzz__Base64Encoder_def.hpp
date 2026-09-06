@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\Base64Encoder.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/Base64Encoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ MARK_REF_T(::Newtonsoft::Json::Utilities::Base64Encoder*);
 MARK_VAL_T(::Newtonsoft::Json::Utilities::Base64Encoder__EncodeAsync_d__13);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::Base64Encoder*, "Newtonsoft.Json.Utilities", "Base64Encoder");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::Base64Encoder__EncodeAsync_d__13, "Newtonsoft.Json.Utilities", "Base64Encoder/<EncodeAsync>d__13");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
@@ -51,8 +52,9 @@ public:
   /// @brief Method MoveNext, addr 0x5d1b2c8, size 0x3e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5d1b6b0, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -61,12 +63,13 @@ public:
   // @brief default ctor
   constexpr Base64Encoder__EncodeAsync_d__13();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::Utilities::Base64Encoder*", modifiers: "",
-  // def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam {
-  // name: "_num4_5__2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_length_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::Utilities::Base64Encoder*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_num4_5__2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "_length_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr Base64Encoder__EncodeAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::Utilities::Base64Encoder* __4__this,
                                              ::ArrayW<uint8_t> buffer, int32_t index, int32_t count, ::System::Threading::CancellationToken cancellationToken, int32_t _num4_5__2, int32_t _length_5__3,
                                              ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -83,9 +86,11 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::Base64Encoder* __4__this;
 
+  /// [Nullable(0)]
   /// @brief Field buffer, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t> buffer;
 
@@ -133,6 +138,8 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::Base64Encoder__EncodeAsync
 static_assert(sizeof(::Newtonsoft::Json::Utilities::Base64Encoder__EncodeAsync_d__13) == 0x58, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -157,6 +164,7 @@ public:
   /// @brief Method Encode, addr 0x5d1abdc, size 0x1a0, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t> buffer, int32_t index, int32_t count);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.Utilities.Base64Encoder::<EncodeAsync>d__13))]
   /// @brief Method EncodeAsync, addr 0x5d1b000, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* EncodeAsync(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
@@ -216,13 +224,13 @@ protected:
   constexpr Base64Encoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Base64Encoder(Base64Encoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Base64Encoder(Base64Encoder const&) = delete;
+  Base64Encoder(Base64Encoderconst&) = delete;
 
   /// @brief Field Base64LineSize offset 0xffffffff size 0x4
   static constexpr int32_t Base64LineSize{ static_cast<int32_t>(0x4c) };
@@ -239,6 +247,7 @@ public:
   /// @brief Field _writer, offset: 0x18, size: 0x8, def value: None
   ::System::IO::TextWriter* ____writer;
 
+  /// [Nullable(2)]
   /// @brief Field _leftOverBytes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____leftOverBytes;
 

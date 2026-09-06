@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutNative.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutNative.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutNode_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutNative_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutNative_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogEventType::LayoutNative_LayoutLogEventType(int32_t value__) noexcept {
   this->value__ = value__;
 }

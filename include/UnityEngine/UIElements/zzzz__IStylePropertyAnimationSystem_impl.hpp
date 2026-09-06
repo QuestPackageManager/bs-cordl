@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IStylePropertyAnimationSystem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IStylePropertyAnimationSystem.hpp"
 #include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -329,105 +329,105 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 };
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     float_t startValue, float_t endValue, int32_t durationMs, int32_t delayMs,
-                                                                                    ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     int32_t startValue, int32_t endValue, int32_t durationMs, int32_t delayMs,
-                                                                                    ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 1 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::Length startValue, ::UnityEngine::UIElements::Length endValue, int32_t durationMs,
-                                                                                    int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::Color startValue, ::UnityEngine::Color endValue, int32_t durationMs, int32_t delayMs,
-                                                                                    ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::Background startValue, ::UnityEngine::UIElements::Background endValue,
-                                                                                    int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::FontDefinition startValue, ::UnityEngine::UIElements::FontDefinition endValue,
-                                                                                    int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::Font* startValue, ::UnityEngine::Font* endValue, int32_t durationMs, int32_t delayMs,
-                                                                                    ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::TextShadow startValue, ::UnityEngine::UIElements::TextShadow endValue,
-                                                                                    int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::Scale startValue, ::UnityEngine::UIElements::Scale endValue, int32_t durationMs,
-                                                                                    int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::TransformOrigin startValue, ::UnityEngine::UIElements::TransformOrigin endValue,
-                                                                                    int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::Translate startValue, ::UnityEngine::UIElements::Translate endValue, int32_t durationMs,
-                                                                                    int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::Rotate startValue, ::UnityEngine::UIElements::Rotate endValue, int32_t durationMs,
-                                                                                    int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::BackgroundPosition startValue, ::UnityEngine::UIElements::BackgroundPosition endValue,
-                                                                                    int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::BackgroundRepeat startValue, ::UnityEngine::UIElements::BackgroundRepeat endValue,
-                                                                                    int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
 }
 inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                     ::UnityEngine::UIElements::BackgroundSize startValue, ::UnityEngine::UIElements::BackgroundSize endValue,
-                                                                                    int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                    int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);

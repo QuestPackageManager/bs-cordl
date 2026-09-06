@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ArrayUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ArrayUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -81,7 +82,7 @@ public:
   // @brief default ctor
   constexpr ArrayUtility_SearchRange();
 
-  // Ctor Parameters [CppParam { name: "begin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "begin", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ArrayUtility_SearchRange(int32_t begin, int32_t end) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -106,6 +107,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::ArrayUtility_SearchRange, end)
 static_assert(sizeof(::UnityEngine::ProBuilder::ArrayUtility_SearchRange) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // cpp template
@@ -143,13 +145,13 @@ protected:
   constexpr ArrayUtility___c__23_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__23_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__23_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayUtility___c__23_1(ArrayUtility___c__23_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__23_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__23_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayUtility___c__23_1(ArrayUtility___c__23_1 const&) = delete;
+  ArrayUtility___c__23_1(ArrayUtility___c__23_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16706 };
@@ -158,6 +160,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // cpp template
@@ -199,13 +202,13 @@ protected:
   constexpr ArrayUtility___c__DisplayClass21_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__DisplayClass21_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__DisplayClass21_0_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayUtility___c__DisplayClass21_0_2(ArrayUtility___c__DisplayClass21_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__DisplayClass21_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__DisplayClass21_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayUtility___c__DisplayClass21_0_2(ArrayUtility___c__DisplayClass21_0_2 const&) = delete;
+  ArrayUtility___c__DisplayClass21_0_2(ArrayUtility___c__DisplayClass21_0_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16707 };
@@ -220,7 +223,8 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.IComparable`1<T>, System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: UnityEngine.ProBuilder.ArrayUtility
@@ -233,31 +237,40 @@ public:
 
   template <typename TSource, typename TKey> using __c__DisplayClass21_0_2 = ::UnityEngine::ProBuilder::ArrayUtility___c__DisplayClass21_0_2<TSource, TKey>;
 
+  /// [Extension]
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> Add(::ArrayW<T> arr, T val);
 
+  /// [Extension]
   /// @brief Method AddOrAppend, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename K> static inline void AddOrAppend(::System::Collections::Generic::Dictionary_2<T, ::System::Collections::Generic::List_1<K>*>* dictionary, T key, K value);
 
+  /// [Extension]
   /// @brief Method AddOrAppendRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename K>
   static inline void AddOrAppendRange(::System::Collections::Generic::Dictionary_2<T, ::System::Collections::Generic::List_1<K>*>* dictionary, T key, ::System::Collections::Generic::List_1<K>* value);
 
+  /// [Extension]
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> AddRange(::ArrayW<T> arr, ::ArrayW<T> val);
 
+  /// [Extension]
   /// @brief Method AllIndexesOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<int32_t>* AllIndexesOf(::System::Collections::Generic::IList_1<T>* list, ::System::Func_2<T, bool>* lambda);
 
+  /// [Extension]
   /// @brief Method Concat, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> Concat(::ArrayW<T> x, ::ArrayW<T> y);
 
+  /// [Extension]
   /// @brief Method ContainsMatch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ContainsMatch(::ArrayW<T> a, ::ArrayW<T> b);
 
+  /// [Extension]
   /// @brief Method ContainsMatch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ContainsMatch(::ArrayW<T> a, ::ArrayW<T> b, ::by_ref<int32_t> index_a, ::by_ref<int32_t> index_b);
 
+  /// [Extension]
   /// @brief Method DistinctBy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TKey>
   static inline ::System::Collections::Generic::IEnumerable_1<TSource>* DistinctBy(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector);
@@ -271,36 +284,48 @@ public:
   /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::List_1<T>* Fill(::System::Func_2<int32_t, T>* ctor, int32_t length);
 
+  /// [Extension]
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<T>*>* InList, T InValue);
 
   /// @brief Method NearestIndexPriorToValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t NearestIndexPriorToValue(::System::Collections::Generic::IList_1<T>* sorted_list, T value);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+  static inline int32_t NearestIndexPriorToValue(::System::Collections::Generic::IList_1<T>* sorted_list, T value);
 
+  /// [Extension]
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> Remove(::ArrayW<T> arr, ::System::Collections::Generic::IEnumerable_1<T>* val);
 
+  /// [Extension]
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> Remove(::ArrayW<T> arr, T val);
 
+  /// [Extension]
   /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> RemoveAt(::ArrayW<T> arr, int32_t index);
 
+  /// [Extension]
   /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> RemoveAt(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
+  /// [Extension]
   /// @brief Method SortedRemoveAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> SortedRemoveAt(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<int32_t>* sorted);
 
+  /// [Extension]
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW ToString(::System::Collections::Generic::IEnumerable_1<T>* arr, ::StringW separator);
 
+  /// [Extension]
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> static inline ::StringW ToString(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dict);
 
+  /// [Extension]
   /// @brief Method ValuesWithIndexes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> ValuesWithIndexes(::ArrayW<T> arr, ::ArrayW<int32_t> indexes);
 
+  /// [Extension]
   /// @brief Method ValuesWithIndexes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Collections::Generic::List_1<T>* ValuesWithIndexes(::System::Collections::Generic::List_1<T>* arr, ::System::Collections::Generic::IList_1<int32_t>* indexes);
@@ -311,13 +336,13 @@ protected:
   constexpr ArrayUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayUtility(ArrayUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayUtility(ArrayUtility const&) = delete;
+  ArrayUtility(ArrayUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16708 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\AttributeTable.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/AttributeTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeTable_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_def.hpp"
@@ -156,6 +156,7 @@ inline ::System::Collections::IDictionary* Org::BouncyCastle::Asn1::X509::Attrib
 inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* Org::BouncyCastle::Asn1::X509::AttributeTable::New_ctor(::System::Collections::IDictionary* attrs) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::AttributeTable*>(attrs));
 }
+/// @brief [Obsolete]
 inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* Org::BouncyCastle::Asn1::X509::AttributeTable::New_ctor(::System::Collections::Hashtable* attrs) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::AttributeTable*>(attrs));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpLiteralDataGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpLiteralDataGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr PgpLiteralDataGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpLiteralDataGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpLiteralDataGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpLiteralDataGenerator(PgpLiteralDataGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpLiteralDataGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpLiteralDataGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpLiteralDataGenerator(PgpLiteralDataGenerator const&) = delete;
+  PgpLiteralDataGenerator(PgpLiteralDataGeneratorconst&) = delete;
 
   /// @brief Field Binary offset 0xffffffff size 0x2
   static constexpr char16_t Binary{ u'b' };

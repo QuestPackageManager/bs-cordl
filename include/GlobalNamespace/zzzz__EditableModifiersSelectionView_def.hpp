@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EditableModifiersSelectionView.hpp"
+// IWYU pragma private; include "GlobalNamespace/EditableModifiersSelectionView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,12 +104,14 @@ public:
   /// @brief Method get_interactable, addr 0x596c050, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_showClearButton, addr 0x596c0b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_showClearButton();
 
   /// @brief Method set_interactable, addr 0x596c058, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_showClearButton, addr 0x596c0c0, size 0x8, virtual false, abstract: false, final false
   inline void set_showClearButton(bool value);
 
@@ -119,29 +121,34 @@ protected:
   constexpr EditableModifiersSelectionView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EditableModifiersSelectionView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditableModifiersSelectionView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditableModifiersSelectionView(EditableModifiersSelectionView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EditableModifiersSelectionView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditableModifiersSelectionView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EditableModifiersSelectionView(EditableModifiersSelectionView const&) = delete;
+  EditableModifiersSelectionView(EditableModifiersSelectionViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7005 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _editButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editButton;
 
+  /// [SerializeField]
   /// @brief Field _clearButton, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____clearButton;
 
+  /// [SerializeField]
   /// @brief Field _modifiersListCanvasGroup, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____modifiersListCanvasGroup;
 
   /// @brief Field _interactable, offset: 0x50, size: 0x1, def value: None
   bool ____interactable;
 
+  /// [CompilerGenerated]
   /// @brief Field <showClearButton>k__BackingField, offset: 0x51, size: 0x1, def value: None
   bool ____showClearButton_k__BackingField;
 

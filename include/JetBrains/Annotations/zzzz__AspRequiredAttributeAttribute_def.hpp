@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspRequiredAttributeAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspRequiredAttributeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AspRequiredAttributeAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::AspRequiredAttributeAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::AspRequiredAttributeAttribute*, "JetBrains.Annotations", "AspRequiredAttributeAttribute");
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -20,12 +21,13 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE AspRequiredAttributeAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [NotNull]
   __declspec(property(get = get_Attribute, put = set_Attribute)) ::StringW Attribute;
 
   /// @brief Field <Attribute>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Attribute_k__BackingField, put = __cordl_internal_set__Attribute_k__BackingField)) ::StringW _Attribute_k__BackingField;
 
-  static inline ::JetBrains::Annotations::AspRequiredAttributeAttribute* New_ctor(::StringW attribute);
+  static inline ::JetBrains::Annotations::AspRequiredAttributeAttribute* New_ctor(/* [NotNull] */ ::StringW attribute);
 
   constexpr ::StringW const& __cordl_internal_get__Attribute_k__BackingField() const;
 
@@ -34,11 +36,13 @@ public:
   constexpr void __cordl_internal_set__Attribute_k__BackingField(::StringW value);
 
   /// @brief Method .ctor, addr 0x6e3e234, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW attribute);
+  inline void _ctor(/* [NotNull] */ ::StringW attribute);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Attribute, addr 0x6e3e23c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Attribute();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Attribute, addr 0x6e3e244, size 0x8, virtual false, abstract: false, final false
   inline void set_Attribute(::StringW value);
 
@@ -48,17 +52,18 @@ protected:
   constexpr AspRequiredAttributeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspRequiredAttributeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspRequiredAttributeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspRequiredAttributeAttribute(AspRequiredAttributeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspRequiredAttributeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspRequiredAttributeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AspRequiredAttributeAttribute(AspRequiredAttributeAttribute const&) = delete;
+  AspRequiredAttributeAttribute(AspRequiredAttributeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22600 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Attribute>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Attribute_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\DelayedActionManager.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/DelayedActionManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,15 +61,18 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method .ctor, addr 0x6915d0c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Delegate* d, float_t invocationTime, ::ArrayW<::System::Object*> p);
+  inline void _ctor(::System::Delegate* d, float_t invocationTime, /* [ParamArray] */ ::ArrayW<::System::Object*> p);
 
   static inline int32_t getStaticF_s_Id();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_InvocationTime, addr 0x69167b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InvocationTime();
 
   static inline void setStaticF_s_Id(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_InvocationTime, addr 0x69167c0, size 0x8, virtual false, abstract: false, final false
   inline void set_InvocationTime(float_t value);
 
@@ -77,8 +80,9 @@ public:
   // @brief default ctor
   constexpr DelayedActionManager_DelegateInfo();
 
-  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Delegate", ty: "::System::Delegate*", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Target", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "_InvocationTime_k__BackingField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Delegate", ty: "::System::Delegate*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_Target", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_InvocationTime_k__BackingField", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr DelayedActionManager_DelegateInfo(int32_t m_Id, ::System::Delegate* m_Delegate, ::ArrayW<::System::Object*> m_Target, float_t _InvocationTime_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -96,6 +100,7 @@ public:
   /// @brief Field m_Target, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Object*> m_Target;
 
+  /// [CompilerGenerated]
   /// @brief Field <InvocationTime>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t _InvocationTime_k__BackingField;
 
@@ -143,10 +148,10 @@ public:
       ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>*>* m_NodeCache;
 
   /// @brief Method AddAction, addr 0x69159f4, size 0x78, virtual false, abstract: false, final false
-  static inline void AddAction(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*> parameters);
+  static inline void AddAction(::System::Delegate* action, float_t delay, /* [ParamArray] */ ::ArrayW<::System::Object*> parameters);
 
   /// @brief Method AddActionInternal, addr 0x6915a6c, size 0x2a0, virtual false, abstract: false, final false
-  inline void AddActionInternal(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*> parameters);
+  inline void AddActionInternal(::System::Delegate* action, float_t delay, /* [ParamArray] */ ::ArrayW<::System::Object*> parameters);
 
   /// @brief Method Clear, addr 0x691596c, size 0x7c, virtual false, abstract: false, final false
   static inline void Clear();
@@ -217,13 +222,13 @@ protected:
   constexpr DelayedActionManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelayedActionManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayedActionManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelayedActionManager(DelayedActionManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelayedActionManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayedActionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelayedActionManager(DelayedActionManager const&) = delete;
+  DelayedActionManager(DelayedActionManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18740 };

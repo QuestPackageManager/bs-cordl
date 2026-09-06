@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheet.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheet.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__Dimension_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__ScalableImage_impl.hpp"
@@ -21,15 +21,15 @@
 #include "UnityEngine/UIElements/zzzz__StyleValueType_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "styleSheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("{}") }, CppParam { name: "mediaQueries", ty:
-// "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "styleSheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mediaQueries", ty:
+// "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheet_ImportStruct::StyleSheet_ImportStruct(::UnityW<::UnityEngine::UIElements::StyleSheet> styleSheet, ::ArrayW<::StringW> mediaQueries) noexcept {
   this->styleSheet = styleSheet;
   this->mediaQueries = mediaQueries;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheet_ImportStruct::StyleSheet_ImportStruct() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheet_OrderedSelectorType::StyleSheet_OrderedSelectorType(int32_t value__) noexcept {
   this->value__ = value__;
 }

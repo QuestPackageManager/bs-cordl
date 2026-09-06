@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerMarker.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerMarker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,8 @@ MARK_VAL_T(::Unity::Profiling::ProfilerMarker);
 MARK_VAL_T(::Unity::Profiling::ProfilerMarker_AutoScope);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::ProfilerMarker, "Unity.Profiling", "ProfilerMarker");
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::ProfilerMarker_AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");
+// [IgnoredByDeepProfiler]
+// [UsedByNativeCode]
 // Dependencies System.IntPtr
 namespace Unity::Profiling {
 // Is value type: true
@@ -54,7 +56,7 @@ public:
   // @brief default ctor
   constexpr ProfilerMarker_AutoScope();
 
-  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerMarker_AutoScope(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -63,6 +65,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_Ptr;
 
@@ -74,6 +77,8 @@ static_assert(offsetof(::Unity::Profiling::ProfilerMarker_AutoScope, m_Ptr) == 0
 static_assert(sizeof(::Unity::Profiling::ProfilerMarker_AutoScope) == 0x8, "Size mismatch!");
 
 } // namespace Unity::Profiling
+// [IgnoredByDeepProfiler]
+// [UsedByNativeCode]
 // Dependencies System.IntPtr
 namespace Unity::Profiling {
 // Is value type: true
@@ -85,6 +90,7 @@ public:
 
   __declspec(property(get = get_Handle)) ::System::IntPtr Handle;
 
+  /// [Pure]
   /// @brief Method Auto, addr 0x6a5d44c, size 0x48, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker_AutoScope Auto();
 
@@ -101,7 +107,7 @@ public:
   // @brief default ctor
   constexpr ProfilerMarker();
 
-  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerMarker(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -110,6 +116,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_Ptr;
 

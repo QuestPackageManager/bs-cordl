@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\F2mFieldElement.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/F2mFieldElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,8 +104,10 @@ public:
   /// @brief Method Negate, addr 0x352965c, size 0x4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Negate();
 
+  /// @brief [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
   static inline ::Org::BouncyCastle::Math::EC::F2mFieldElement* New_ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* x);
 
+  /// @brief [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
   static inline ::Org::BouncyCastle::Math::EC::F2mFieldElement* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Math::EC::F2mFieldElement* New_ctor(int32_t m, ::ArrayW<int32_t> ks, ::Org::BouncyCastle::Math::EC::LongArray* x);
@@ -158,9 +160,11 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::EC::LongArray* value);
 
+  /// [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
   /// @brief Method .ctor, addr 0x3527fc8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* x);
 
+  /// [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
   /// @brief Method .ctor, addr 0x3525480, size 0x200, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* x);
 
@@ -203,13 +207,13 @@ protected:
   constexpr F2mFieldElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "F2mFieldElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mFieldElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   F2mFieldElement(F2mFieldElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "F2mFieldElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mFieldElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  F2mFieldElement(F2mFieldElement const&) = delete;
+  F2mFieldElement(F2mFieldElementconst&) = delete;
 
   /// @brief Field Gnb offset 0xffffffff size 0x4
   static constexpr int32_t Gnb{ static_cast<int32_t>(0x1) };

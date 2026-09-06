@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Extensions\PerformanceSettings\PerformanceChangeNotification.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Extensions/PerformanceSettings/PerformanceChangeNotification.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
   // @brief default ctor
   constexpr PerformanceChangeNotification();
 
-  // Ctor Parameters [CppParam { name: "domain", ty: "::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain", modifiers: "", def_value: None }, CppParam { name:
-  // "subDomain", ty: "::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceSubDomain", modifiers: "", def_value: None }, CppParam { name: "fromLevel", ty:
-  // "::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceNotificationLevel", modifiers: "", def_value: None }, CppParam { name: "toLevel", ty:
-  // "::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceNotificationLevel", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "domain", ty: "::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "subDomain", ty: "::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceSubDomain", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "fromLevel", ty: "::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceNotificationLevel", modifiers: "", def_value: None, comment: None }, CppParam { name: "toLevel",
+  // ty: "::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceNotificationLevel", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceChangeNotification(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain domain,
                                           ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceSubDomain subDomain,
                                           ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceNotificationLevel fromLevel,

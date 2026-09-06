@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlBinary.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlBinary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,8 @@ struct SqlBinary;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlBinary);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlBinary, "System.Data.SqlTypes", "SqlBinary");
+// [DefaultMember("Item")]
+// [XmlSchemaProvider("GetXsdType")]
 // Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -145,7 +147,7 @@ public:
   // @brief default ctor
   constexpr SqlBinary();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr SqlBinary(::ArrayW<uint8_t> _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

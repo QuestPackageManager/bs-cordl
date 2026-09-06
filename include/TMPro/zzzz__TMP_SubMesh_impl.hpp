@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_SubMesh.hpp"
+// IWYU pragma private; include "TMPro/TMP_SubMesh.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_SubMesh_def.hpp"
 #include "TMPro/zzzz__MaterialReference_def.hpp"

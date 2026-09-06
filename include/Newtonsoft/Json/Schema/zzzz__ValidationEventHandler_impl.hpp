@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\ValidationEventHandler.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/ValidationEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__ValidationEventHandler_def.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__ValidationEventArgs_def.hpp"

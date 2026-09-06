@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SelectableCell.hpp"
+// IWYU pragma private; include "HMUI/SelectableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +87,7 @@ public:
   // @brief default ctor
   constexpr SelectableCell_TransitionType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SelectableCell_TransitionType(int32_t value__) noexcept;
 
   /// @brief Field Animated value: I32(1)
@@ -113,6 +113,7 @@ static_assert(offsetof(::HMUI::SelectableCell_TransitionType, value__) == 0x0, "
 static_assert(sizeof(::HMUI::SelectableCell_TransitionType) == 0x4, "Size mismatch!");
 
 } // namespace HMUI
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies HMUI.Interactable
 namespace HMUI {
 // Is value type: false
@@ -169,7 +170,7 @@ public:
   /// @brief Method HighlightDidChange, addr 0x588b180, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method InternalToggle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InternalToggle();
 
   static inline ::HMUI::SelectableCell* New_ctor();
@@ -240,18 +241,23 @@ public:
   /// @brief Method .ctor, addr 0x588b35c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_highlightDidChangeEvent, addr 0x588acfc, size 0xc0, virtual false, abstract: false, final false
   inline void add_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_nonInteractableCellWasPressedEvent, addr 0x588ae7c, size 0xc0, virtual false, abstract: false, final false
   inline void add_nonInteractableCellWasPressedEvent(::System::Action_1<::UnityW<::HMUI::SelectableCell>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectionDidChangeEvent, addr 0x588ab7c, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_highlighted, addr 0x588affc, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlighted();
 
+  /// [CompilerGenerated]
   /// @brief Method get_selected, addr 0x588b00c, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
 
@@ -270,18 +276,23 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_highlightDidChangeEvent, addr 0x588adbc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_nonInteractableCellWasPressedEvent, addr 0x588af3c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_nonInteractableCellWasPressedEvent(::System::Action_1<::UnityW<::HMUI::SelectableCell>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectionDidChangeEvent, addr 0x588ac3c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_highlighted, addr 0x588b004, size 0x8, virtual false, abstract: false, final false
   inline void set_highlighted(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_selected, addr 0x588b014, size 0x8, virtual false, abstract: false, final false
   inline void set_selected(bool value);
 
@@ -291,32 +302,39 @@ protected:
   constexpr SelectableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectableCell(SelectableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectableCell(SelectableCell const&) = delete;
+  SelectableCell(SelectableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19112 };
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _wasPressedSignal, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____wasPressedSignal;
 
+  /// [CompilerGenerated]
   /// @brief Field selectionDidChangeEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* ___selectionDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field highlightDidChangeEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* ___highlightDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field nonInteractableCellWasPressedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::HMUI::SelectableCell>>* ___nonInteractableCellWasPressedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <highlighted>k__BackingField, offset: 0x60, size: 0x1, def value: None
   bool ____highlighted_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <selected>k__BackingField, offset: 0x61, size: 0x1, def value: None
   bool ____selected_k__BackingField;
 

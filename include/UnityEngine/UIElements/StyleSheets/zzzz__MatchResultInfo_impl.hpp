@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\MatchResultInfo.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/MatchResultInfo.hpp"
 #include "UnityEngine/UIElements/zzzz__PseudoStates_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResultInfo_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PseudoStates_def.hpp"
@@ -27,8 +27,8 @@ inline void UnityEngine::UIElements::StyleSheets::MatchResultInfo::_ctor(bool su
                           { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::UIElements::PseudoStates>(), ::i2c::type_of<::UnityEngine::UIElements::PseudoStates>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, success, triggerPseudoMask, dependencyPseudoMask);
 }
-// Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "triggerPseudoMask", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "dependencyPseudoMask", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "triggerPseudoMask", ty: "::UnityEngine::UIElements::PseudoStates",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dependencyPseudoMask", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::MatchResultInfo::MatchResultInfo(bool success, ::UnityEngine::UIElements::PseudoStates triggerPseudoMask,
                                                                                    ::UnityEngine::UIElements::PseudoStates dependencyPseudoMask) noexcept {
   this->success = success;

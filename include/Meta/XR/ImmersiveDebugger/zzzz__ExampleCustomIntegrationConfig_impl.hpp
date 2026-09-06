@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\ExampleCustomIntegrationConfig.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/ExampleCustomIntegrationConfig.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__CustomIntegrationConfigBase_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__ExampleCustomIntegrationConfig_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"

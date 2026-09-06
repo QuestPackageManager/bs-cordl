@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCallbacksController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCallbacksController.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
@@ -690,6 +691,7 @@ inline void GlobalNamespace::BeatmapCallbacksController::ManualUpdate(float_t so
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, songTime);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapCallbacksController::AddBeatmapCallback(float_t aheadTime, ::GlobalNamespace::BeatmapDataCallback_1<T>* callback) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCallbacksController*>(),
@@ -697,7 +699,9 @@ inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapCa
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataCallbackWrapper*>(this, ___internal_method, aheadTime, callback);
 }
-template <typename T> inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapCallbacksController::AddBeatmapCallback(::GlobalNamespace::BeatmapDataCallback_1<T>* callback) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapCallbacksController::AddBeatmapCallback(::GlobalNamespace::BeatmapDataCallback_1<T>* callback) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCallbacksController*>(),
                                                            { "AddBeatmapCallback", { ::i2c::class_of<T>() }, { ::i2c::type_of<::GlobalNamespace::BeatmapDataCallback_1<T>*>() } })));
@@ -705,8 +709,9 @@ template <typename T> inline ::GlobalNamespace::BeatmapDataCallbackWrapper* Glob
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataCallbackWrapper*>(this, ___internal_method, callback);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapCallbacksController::AddBeatmapCallback(::GlobalNamespace::BeatmapDataCallback_1<T>* callback,
-                                                                                                                      ::ArrayW<int32_t> beatmapDataSubtypeIdentifiers) {
+                                                                                                                      /* [ParamArray] */ ::ArrayW<int32_t> beatmapDataSubtypeIdentifiers) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCallbacksController*>(),
@@ -715,8 +720,9 @@ inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapCa
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataCallbackWrapper*>(this, ___internal_method, callback, beatmapDataSubtypeIdentifiers);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapCallbacksController::AddBeatmapCallback(float_t aheadTime, ::GlobalNamespace::BeatmapDataCallback_1<T>* callback,
-                                                                                                                      ::ArrayW<int32_t> beatmapDataSubtypeIdentifiers) {
+                                                                                                                      /* [ParamArray] */ ::ArrayW<int32_t> beatmapDataSubtypeIdentifiers) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -761,6 +767,7 @@ inline void GlobalNamespace::BeatmapCallbacksController::HandleBeatmapEventDataW
                                                                                          { "HandleBeatmapEventDataWasRemoved", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapEventData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapEventData);
 }
+/// @brief [Inject]
 inline ::GlobalNamespace::BeatmapCallbacksController* GlobalNamespace::BeatmapCallbacksController::New_ctor(::GlobalNamespace::BeatmapCallbacksController_InitData* initData) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapCallbacksController*>(initData));
 }

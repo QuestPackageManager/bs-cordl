@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugMipInfoMode.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugMipInfoMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct DebugMipInfoMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::DebugMipInfoMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DebugMipInfoMode, "UnityEngine.Rendering.Universal", "DebugMipInfoMode");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@bd2aa618476e\\ShaderLibrary\\Debug\\DebugViewEnums.cs")] Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.DebugMipInfoMode
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr DebugMipInfoMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugMipInfoMode(int32_t value__) noexcept;
 
   /// @brief Field MipCount value: I32(5)

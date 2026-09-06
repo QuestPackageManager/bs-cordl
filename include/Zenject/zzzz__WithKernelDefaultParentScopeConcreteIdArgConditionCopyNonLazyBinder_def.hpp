@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "Zenject\WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject/WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
+#include "Zenject/zzzz__Kernel_def.hpp"
 CORDL_MODULE_EXPORT(WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder)
 namespace Zenject {
 class BindInfo;
@@ -21,7 +22,8 @@ class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
 // Write type traits
 MARK_REF_T(::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*);
 DEFINE_IL2CPP_CLASS(::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder");
-// Dependencies Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
+// [NoReflectionBaking]
+// Dependencies Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder, Zenject.Kernel
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
@@ -34,7 +36,9 @@ public:
   inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
   /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TKernel> inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
+  template <typename TKernel>
+    requires(::cordl_internals::type_constraint<TKernel, ::Zenject::Kernel*>)
+  inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
   /// @brief Method .ctor, addr 0x6e5d1cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
@@ -45,13 +49,13 @@ protected:
   constexpr WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
+  WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14294 };

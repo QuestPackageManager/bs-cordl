@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Versioning\NonVersionableAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Versioning/NonVersionableAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class NonVersionableAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::Versioning::NonVersionableAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Versioning::NonVersionableAttribute*, "System.Runtime.Versioning", "NonVersionableAttribute");
+// [AttributeUsage((System.AttributeTargets)108, AllowMultiple = false, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::Versioning {
 // Is value type: false
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Versioning::NonVersionableAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6493848, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4bb58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -30,16 +31,16 @@ protected:
   constexpr NonVersionableAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NonVersionableAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NonVersionableAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NonVersionableAttribute(NonVersionableAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NonVersionableAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NonVersionableAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NonVersionableAttribute(NonVersionableAttribute const&) = delete;
+  NonVersionableAttribute(NonVersionableAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

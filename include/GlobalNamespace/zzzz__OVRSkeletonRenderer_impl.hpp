@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSkeletonRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -186,9 +186,9 @@ inline void GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_Shoul
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData>(), { "set_ShouldUseSystemGestureMaterial", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_RootScale_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_RootScale_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_IsDataValid_k__BackingField", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::OVRSkeletonRenderer_SkeletonRendererData(float_t _RootScale_k__BackingField, bool _IsDataValid_k__BackingField,
                                                                                                                 bool _IsDataHighConfidence_k__BackingField,
                                                                                                                 bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept {
@@ -199,7 +199,7 @@ constexpr ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::OVRSkelet
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::OVRSkeletonRenderer_SkeletonRendererData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior::OVRSkeletonRenderer_ConfidenceBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -207,7 +207,7 @@ constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior::OVRSkeleton
 constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior::OVRSkeletonRenderer_ConfidenceBehavior() {}
 constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior::None{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior::ToggleRenderer{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior::OVRSkeletonRenderer_SystemGestureBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }

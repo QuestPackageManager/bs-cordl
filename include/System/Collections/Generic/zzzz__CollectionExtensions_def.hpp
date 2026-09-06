@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\CollectionExtensions.hpp"
+// IWYU pragma private; include "System/Collections/Generic/CollectionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class CollectionExtensions;
 // Write type traits
 MARK_REF_T(::System::Collections::Generic::CollectionExtensions*);
 DEFINE_IL2CPP_CLASS(::System::Collections::Generic::CollectionExtensions*, "System.Collections.Generic", "CollectionExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // Is value type: false
@@ -22,9 +23,11 @@ namespace System::Collections::Generic {
 class CORDL_TYPE CollectionExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> static inline TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key);
 
+  /// [Extension]
   /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> static inline TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key, TValue defaultValue);
 
@@ -34,13 +37,13 @@ protected:
   constexpr CollectionExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionExtensions(CollectionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionExtensions(CollectionExtensions const&) = delete;
+  CollectionExtensions(CollectionExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3790 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\jvalue.hpp"
+// IWYU pragma private; include "UnityEngine/jvalue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ struct jvalue;
 // Write type traits
 MARK_VAL_T(::UnityEngine::jvalue);
 DEFINE_IL2CPP_CLASS(::UnityEngine::jvalue, "UnityEngine", "jvalue");
+// [NativeType((UnityEngine.Bindings.CodegenOptions)1, "ScriptingJvalue")]
 // Dependencies System.IntPtr
 namespace UnityEngine {
 // Is value type: true
@@ -107,10 +108,11 @@ public:
   // @brief default ctor
   constexpr jvalue();
 
-  // Ctor Parameters [CppParam { name: "z", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "b", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "c", ty: "char16_t",
-  // modifiers: "", def_value: None }, CppParam { name: "s", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "j", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "f", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "double_t", modifiers: "", def_value: None
-  // }, CppParam { name: "l", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "z", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "b", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "c", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "s", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "i", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "j", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "f", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "d", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "l", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr jvalue(bool z, int8_t b, char16_t c, int16_t s, int32_t i, int64_t j, float_t f, double_t d, ::System::IntPtr l) noexcept;
 
 private:

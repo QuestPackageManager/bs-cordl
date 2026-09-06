@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\ShaderInfoStorageRGBAFloat.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/ShaderInfoStorageRGBAFloat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ MARK_REF_T(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat*);
 MARK_REF_T(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat*, "UnityEngine.UIElements.UIR", "ShaderInfoStorageRGBAFloat");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c*, "UnityEngine.UIElements.UIR", "ShaderInfoStorageRGBAFloat/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
@@ -57,13 +58,13 @@ protected:
   constexpr ShaderInfoStorageRGBAFloat___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderInfoStorageRGBAFloat___c(ShaderInfoStorageRGBAFloat___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderInfoStorageRGBAFloat___c(ShaderInfoStorageRGBAFloat___c const&) = delete;
+  ShaderInfoStorageRGBAFloat___c(ShaderInfoStorageRGBAFloat___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5344 };
@@ -101,13 +102,13 @@ protected:
   constexpr ShaderInfoStorageRGBAFloat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderInfoStorageRGBAFloat(ShaderInfoStorageRGBAFloat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderInfoStorageRGBAFloat(ShaderInfoStorageRGBAFloat const&) = delete;
+  ShaderInfoStorageRGBAFloat(ShaderInfoStorageRGBAFloatconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5345 };

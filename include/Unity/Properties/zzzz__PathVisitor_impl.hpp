@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PathVisitor.hpp"
+// IWYU pragma private; include "Unity/Properties/PathVisitor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
 #include "Unity/Properties/zzzz__VisitReturnCode_impl.hpp"
@@ -58,8 +58,8 @@ constexpr Unity::Properties::PathVisitor_PropertyScope::operator ::System::IDisp
 constexpr ::System::IDisposable* Unity::Properties::PathVisitor_PropertyScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Visitor", ty: "::Unity::Properties::PathVisitor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Property", ty: "::Unity::Properties::IProperty*",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Visitor", ty: "::Unity::Properties::PathVisitor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Property", ty:
+// "::Unity::Properties::IProperty*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Properties::PathVisitor_PropertyScope::PathVisitor_PropertyScope(::Unity::Properties::PathVisitor* m_Visitor, ::Unity::Properties::IProperty* m_Property) noexcept {
   this->m_Visitor = m_Visitor;
   this->m_Property = m_Property;

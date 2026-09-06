@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\NativePassAttachment.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/NativePassAttachment.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct NativePassAttachment;
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassAttachment);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassAttachment, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler",
                     "NativePassAttachment");
+// [DebuggerDisplay("Res({handle.index}) : {loadAction} : {storeAction} : {memoryless}")]
 // Dependencies UnityEngine.Rendering.RenderBufferLoadAction, UnityEngine.Rendering.RenderBufferStoreAction, UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
@@ -28,10 +29,10 @@ public:
   // @brief default ctor
   constexpr NativePassAttachment();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None }, CppParam { name: "loadAction", ty:
-  // "::UnityEngine::Rendering::RenderBufferLoadAction", modifiers: "", def_value: None }, CppParam { name: "storeAction", ty: "::UnityEngine::Rendering::RenderBufferStoreAction", modifiers: "",
-  // def_value: None }, CppParam { name: "memoryless", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mipLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "depthSlice", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "loadAction", ty:
+  // "::UnityEngine::Rendering::RenderBufferLoadAction", modifiers: "", def_value: None, comment: None }, CppParam { name: "storeAction", ty: "::UnityEngine::Rendering::RenderBufferStoreAction",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "memoryless", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "mipLevel", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NativePassAttachment(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle handle, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                                  ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, bool memoryless, int32_t mipLevel, int32_t depthSlice) noexcept;
 

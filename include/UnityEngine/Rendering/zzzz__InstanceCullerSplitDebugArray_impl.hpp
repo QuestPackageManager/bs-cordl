@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceCullerSplitDebugArray.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceCullerSplitDebugArray.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeQueue_1_impl.hpp"
@@ -12,8 +12,8 @@
 #include "UnityEngine/Rendering/zzzz__BatchCullingViewType_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugRendererBatcherStats_def.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceCullerSplitDebugArray_def.hpp"
-// Ctor Parameters [CppParam { name: "viewType", ty: "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: Some("{}") }, CppParam { name: "viewInstanceID", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "splitIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "viewType", ty: "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewInstanceID", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "splitIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugArray_Info::InstanceCullerSplitDebugArray_Info(::UnityEngine::Rendering::BatchCullingViewType viewType, int32_t viewInstanceID,
                                                                                                            int32_t splitIndex) noexcept {
   this->viewType = viewType;
@@ -140,9 +140,9 @@ constexpr UnityEngine::Rendering::InstanceCullerSplitDebugArray::operator ::Syst
 constexpr ::System::IDisposable* UnityEngine::Rendering::InstanceCullerSplitDebugArray::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Info", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceCullerSplitDebugArray_Info>", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "m_Counters", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CounterSync", ty:
-// "::Unity::Collections::NativeQueue_1<::Unity::Jobs::JobHandle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Info", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceCullerSplitDebugArray_Info>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_Counters", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CounterSync", ty:
+// "::Unity::Collections::NativeQueue_1<::Unity::Jobs::JobHandle>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugArray::InstanceCullerSplitDebugArray(
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceCullerSplitDebugArray_Info> m_Info, ::Unity::Collections::NativeArray_1<int32_t> m_Counters,
     ::Unity::Collections::NativeQueue_1<::Unity::Jobs::JobHandle> m_CounterSync) noexcept {

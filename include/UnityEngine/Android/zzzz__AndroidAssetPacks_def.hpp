@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidAssetPacks.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,6 +79,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerMo
                     "AndroidAssetPacks/AssetPackManagerMobileDataConfirmationCallback");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerStatusQueryCallback*, "UnityEngine.Android", "AndroidAssetPacks/AssetPackManagerStatusQueryCallback");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c*, "UnityEngine.Android", "AndroidAssetPacks/AssetPackManagerDownloadStatusCallback/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Android {
 // Is value type: false
@@ -124,13 +125,13 @@ protected:
   constexpr AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c(AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c(AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c const&) = delete;
+  AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c(AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20170 };
@@ -175,6 +176,7 @@ public:
   /// @brief Method .ctor, addr 0x6a335bc, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>* callback, ::ArrayW<::StringW> assetPacks);
 
+  /// [Preserve]
   /// @brief Method onStatusUpdate, addr 0x6a337b4, size 0x274, virtual false, abstract: false, final false
   inline void onStatusUpdate(::StringW assetPackName, int32_t assetPackStatus, int64_t assetPackSize, int64_t assetPackBytesDownloaded, int32_t assetPackTransferProgress, int32_t assetPackErrorCode);
 
@@ -184,13 +186,13 @@ protected:
   constexpr AndroidAssetPacks_AssetPackManagerDownloadStatusCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerDownloadStatusCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerDownloadStatusCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidAssetPacks_AssetPackManagerDownloadStatusCallback(AndroidAssetPacks_AssetPackManagerDownloadStatusCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerDownloadStatusCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerDownloadStatusCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPacks_AssetPackManagerDownloadStatusCallback(AndroidAssetPacks_AssetPackManagerDownloadStatusCallback const&) = delete;
+  AndroidAssetPacks_AssetPackManagerDownloadStatusCallback(AndroidAssetPacks_AssetPackManagerDownloadStatusCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20171 };
@@ -234,6 +236,7 @@ public:
   /// @brief Method .ctor, addr 0x6a33acc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>* callback);
 
+  /// [Preserve]
   /// @brief Method onMobileDataConfirmationResult, addr 0x6a33b54, size 0x88, virtual false, abstract: false, final false
   inline void onMobileDataConfirmationResult(bool allowed);
 
@@ -243,13 +246,13 @@ protected:
   constexpr AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback(AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback(AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback const&) = delete;
+  AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback(AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20172 };
@@ -314,6 +317,7 @@ public:
   /// @brief Method .ctor, addr 0x6a33bdc, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*>>* callback, ::ArrayW<::StringW> assetPacks);
 
+  /// [Preserve]
   /// @brief Method onStatusResult, addr 0x6a33cdc, size 0x360, virtual false, abstract: false, final false
   inline void onStatusResult(int64_t totalBytes, ::ArrayW<::StringW> assetPackNames, ::ArrayW<int32_t> assetPackStatuses, ::ArrayW<int32_t> assetPackErrorCodes);
 
@@ -323,13 +327,13 @@ protected:
   constexpr AndroidAssetPacks_AssetPackManagerStatusQueryCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerStatusQueryCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerStatusQueryCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidAssetPacks_AssetPackManagerStatusQueryCallback(AndroidAssetPacks_AssetPackManagerStatusQueryCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerStatusQueryCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerStatusQueryCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPacks_AssetPackManagerStatusQueryCallback(AndroidAssetPacks_AssetPackManagerStatusQueryCallback const&) = delete;
+  AndroidAssetPacks_AssetPackManagerStatusQueryCallback(AndroidAssetPacks_AssetPackManagerStatusQueryCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20173 };
@@ -360,6 +364,8 @@ static_assert(offsetof(::UnityEngine::Android::AndroidAssetPacks_AssetPackManage
 static_assert(sizeof(::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerStatusQueryCallback) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::Android
+// [StaticAccessor("AndroidAssetPacksBindingsHelpers", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Modules/AndroidJNI/Public/AndroidAssetPacksBindingsHelpers.h")]
 // Dependencies System.Object
 namespace UnityEngine::Android {
 // Is value type: false
@@ -396,13 +402,13 @@ protected:
   constexpr AndroidAssetPacks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidAssetPacks(AndroidAssetPacks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPacks(AndroidAssetPacks const&) = delete;
+  AndroidAssetPacks(AndroidAssetPacksconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20174 };

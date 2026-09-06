@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\BurstCompileAttribute.hpp"
+// IWYU pragma private; include "Unity/Burst/BurstCompileAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class BurstCompileAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Burst::BurstCompileAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Burst::BurstCompileAttribute*, "Unity.Burst", "BurstCompileAttribute");
+// [AttributeUsage((System.AttributeTargets)77)]
 // Dependencies System.Attribute, System.Nullable`1<T>, Unity.Burst.FloatMode, Unity.Burst.FloatPrecision, Unity.Burst.OptimizeFor
 namespace Unity::Burst {
 // Is value type: false
@@ -150,15 +151,19 @@ public:
   /// @brief Method get_DisableSafetyChecks, addr 0x646fad8, size 0x70, virtual false, abstract: false, final false
   inline bool get_DisableSafetyChecks();
 
+  /// [CompilerGenerated]
   /// @brief Method get_FloatMode, addr 0x646f920, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Burst::FloatMode get_FloatMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_FloatPrecision, addr 0x646f930, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Burst::FloatPrecision get_FloatPrecision();
 
+  /// [CompilerGenerated]
   /// @brief Method get_OptimizeFor, addr 0x646fc70, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Burst::OptimizeFor get_OptimizeFor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Options, addr 0x646fc80, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_Options();
 
@@ -174,15 +179,19 @@ public:
   /// @brief Method set_DisableSafetyChecks, addr 0x646fb48, size 0x5c, virtual false, abstract: false, final false
   inline void set_DisableSafetyChecks(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_FloatMode, addr 0x646f928, size 0x8, virtual false, abstract: false, final false
   inline void set_FloatMode(::Unity::Burst::FloatMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_FloatPrecision, addr 0x646f938, size 0x8, virtual false, abstract: false, final false
   inline void set_FloatPrecision(::Unity::Burst::FloatPrecision value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_OptimizeFor, addr 0x646fc78, size 0x8, virtual false, abstract: false, final false
   inline void set_OptimizeFor(::Unity::Burst::OptimizeFor value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Options, addr 0x646fc88, size 0x8, virtual false, abstract: false, final false
   inline void set_Options(::ArrayW<::StringW> value);
 
@@ -192,20 +201,22 @@ protected:
   constexpr BurstCompileAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompileAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompileAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstCompileAttribute(BurstCompileAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompileAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompileAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompileAttribute(BurstCompileAttribute const&) = delete;
+  BurstCompileAttribute(BurstCompileAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17298 };
 
+  /// [CompilerGenerated]
   /// @brief Field <FloatMode>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Unity::Burst::FloatMode ____FloatMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FloatPrecision>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::Unity::Burst::FloatPrecision ____FloatPrecision_k__BackingField;
 
@@ -221,9 +232,11 @@ public:
   /// @brief Field _disableDirectCall, offset: 0x1e, size: 0x2, def value: None
   ::System::Nullable_1<bool> ____disableDirectCall;
 
+  /// [CompilerGenerated]
   /// @brief Field <OptimizeFor>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::Unity::Burst::OptimizeFor ____OptimizeFor_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Options>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::StringW> ____Options_k__BackingField;
 

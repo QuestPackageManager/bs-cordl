@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Vector3Extensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/Vector3Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector3Extensions_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
@@ -98,7 +98,7 @@ inline ::UnityEngine::Vector3 GlobalNamespace::Vector3Extensions::MirrorEulerAng
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3Extensions*>(), { "MirrorEulerAnglesOnYZPlane", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, vector);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::Vector3Extensions::Abs(::by_ref<::UnityEngine::Vector3> vector) {
+inline ::UnityEngine::Vector3 GlobalNamespace::Vector3Extensions::Abs(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> vector) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3Extensions*>(), { "Abs", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, vector);

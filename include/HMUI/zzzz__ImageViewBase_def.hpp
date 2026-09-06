@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ImageViewBase.hpp"
+// IWYU pragma private; include "HMUI/ImageViewBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,22 +33,22 @@ public:
   /// @brief Method .ctor, addr 0x588608c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color0, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_color0, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_color0();
 
-  /// @brief Method get_color1, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_color1, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_color1();
 
-  /// @brief Method get_gradient, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_gradient, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_gradient();
 
-  /// @brief Method set_color0, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_color0, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_color0(::UnityEngine::Color value);
 
-  /// @brief Method set_color1, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_color1, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_color1(::UnityEngine::Color value);
 
-  /// @brief Method set_gradient, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_gradient, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_gradient(bool value);
 
 protected:
@@ -57,13 +57,13 @@ protected:
   constexpr ImageViewBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImageViewBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImageViewBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImageViewBase(ImageViewBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImageViewBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImageViewBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImageViewBase(ImageViewBase const&) = delete;
+  ImageViewBase(ImageViewBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19085 };

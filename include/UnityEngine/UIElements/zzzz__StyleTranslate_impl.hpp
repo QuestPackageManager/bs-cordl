@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleTranslate.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleTranslate.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Translate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleTranslate_def.hpp"
@@ -283,8 +283,8 @@ constexpr UnityEngine::UIElements::StyleTranslate::operator ::System::IEquatable
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleTranslate>* UnityEngine::UIElements::StyleTranslate::i___System__IEquatable_1___UnityEngine__UIElements__StyleTranslate_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleTranslate>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Translate", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Keyword", ty:
-// "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Translate", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Keyword", ty:
+// "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleTranslate::StyleTranslate(::UnityEngine::UIElements::Translate m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept {
   this->m_Value = m_Value;
   this->m_Keyword = m_Keyword;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\CryptoPro\CryptoProObjectIdentifiers.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/CryptoPro/CryptoProObjectIdentifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -196,13 +196,13 @@ protected:
   constexpr CryptoProObjectIdentifiers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoProObjectIdentifiers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoProObjectIdentifiers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CryptoProObjectIdentifiers(CryptoProObjectIdentifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoProObjectIdentifiers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoProObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CryptoProObjectIdentifiers(CryptoProObjectIdentifiers const&) = delete;
+  CryptoProObjectIdentifiers(CryptoProObjectIdentifiersconst&) = delete;
 
   /// @brief Field GostID offset 0xffffffff size 0x8
   static constexpr ::ConstString GostID{ u"1.2.643.2.2" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Experimental\EventDebuggerLogIMGUICall.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/EventDebuggerLogIMGUICall.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__EventDebuggerLogIMGUICall_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"

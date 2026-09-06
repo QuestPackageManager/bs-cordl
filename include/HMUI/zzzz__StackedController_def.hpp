@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\StackedController.hpp"
+// IWYU pragma private; include "HMUI/StackedController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ MARK_REF_T(::HMUI::StackedController*);
 MARK_REF_T(::HMUI::StackedController___c__DisplayClass5_0*);
 DEFINE_IL2CPP_CLASS(::HMUI::StackedController*, "HMUI", "StackedController");
 DEFINE_IL2CPP_CLASS(::HMUI::StackedController___c__DisplayClass5_0*, "HMUI", "StackedController/<>c__DisplayClass5_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr StackedController___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StackedController___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackedController___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackedController___c__DisplayClass5_0(StackedController___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StackedController___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackedController___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackedController___c__DisplayClass5_0(StackedController___c__DisplayClass5_0 const&) = delete;
+  StackedController___c__DisplayClass5_0(StackedController___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20965 };
@@ -117,6 +118,7 @@ public:
   /// @brief Method SetupViewControllerRect, addr 0x32f655c, size 0x28, virtual false, abstract: false, final false
   static inline void SetupViewControllerRect(::HMUI::ViewController* viewController, int32_t index);
 
+  /// [CompilerGenerated]
   /// @brief Method <PushViewController>g__AnimationLayouter|3_0, addr 0x32f6860, size 0x90, virtual false, abstract: false, final false
   static inline void _PushViewController_g__AnimationLayouter_3_0(float_t t, ::ArrayW<::HMUI::ViewController*> viewControllers);
 
@@ -132,13 +134,13 @@ protected:
   constexpr StackedController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StackedController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackedController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackedController(StackedController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StackedController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackedController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackedController(StackedController const&) = delete;
+  StackedController(StackedControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20966 };

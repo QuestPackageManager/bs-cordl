@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\LowLevel\Unsafe\ProfilerRecorderDescription.hpp"
+// IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerRecorderDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ struct ProfilerRecorderDescription;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription, "Unity.Profiling.LowLevel.Unsafe", "ProfilerRecorderDescription");
+// [UsedByNativeCode]
+// [IsReadOnly]
 // Dependencies Unity.Profiling.LowLevel.MarkerFlags, Unity.Profiling.LowLevel.ProfilerMarkerDataType, Unity.Profiling.ProfilerCategory, Unity.Profiling.ProfilerMarkerDataUnit
 namespace Unity::Profiling::LowLevel::Unsafe {
 // Is value type: true
@@ -114,10 +116,11 @@ public:
   // @brief default ctor
   constexpr ProfilerRecorderDescription();
 
-  // Ctor Parameters [CppParam { name: "category", ty: "::Unity::Profiling::ProfilerCategory", modifiers: "", def_value: None }, CppParam { name: "flags", ty:
-  // "::Unity::Profiling::LowLevel::MarkerFlags", modifiers: "", def_value: None }, CppParam { name: "dataType", ty: "::Unity::Profiling::LowLevel::ProfilerMarkerDataType", modifiers: "", def_value:
-  // None }, CppParam { name: "unitType", ty: "::Unity::Profiling::ProfilerMarkerDataUnit", modifiers: "", def_value: None }, CppParam { name: "reserved0", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "nameUtf8Len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameUtf8", ty: "uint8_t*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "category", ty: "::Unity::Profiling::ProfilerCategory", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty:
+  // "::Unity::Profiling::LowLevel::MarkerFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "dataType", ty: "::Unity::Profiling::LowLevel::ProfilerMarkerDataType", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "unitType", ty: "::Unity::Profiling::ProfilerMarkerDataUnit", modifiers: "", def_value: None, comment: None }, CppParam { name: "reserved0",
+  // ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nameUtf8Len", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nameUtf8", ty:
+  // "uint8_t*", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerRecorderDescription(::Unity::Profiling::ProfilerCategory category, ::Unity::Profiling::LowLevel::MarkerFlags flags, ::Unity::Profiling::LowLevel::ProfilerMarkerDataType dataType,
                                         ::Unity::Profiling::ProfilerMarkerDataUnit unitType, int32_t reserved0, int32_t nameUtf8Len, uint8_t* nameUtf8) noexcept;
 

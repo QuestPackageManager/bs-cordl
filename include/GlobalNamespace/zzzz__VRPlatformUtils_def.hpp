@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRPlatformUtils.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRPlatformUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class VRPlatformUtils;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::VRPlatformUtils*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::VRPlatformUtils*, "", "VRPlatformUtils");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -26,6 +27,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE VRPlatformUtils : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x585d130, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxisDefaultImplementation(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
@@ -41,13 +43,13 @@ protected:
   constexpr VRPlatformUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRPlatformUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRPlatformUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRPlatformUtils(VRPlatformUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRPlatformUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRPlatformUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRPlatformUtils(VRPlatformUtils const&) = delete;
+  VRPlatformUtils(VRPlatformUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21456 };

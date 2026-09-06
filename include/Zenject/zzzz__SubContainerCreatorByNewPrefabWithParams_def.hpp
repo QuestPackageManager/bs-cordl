@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerCreatorByNewPrefabWithParams.hpp"
+// IWYU pragma private; include "Zenject/SubContainerCreatorByNewPrefabWithParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ MARK_REF_T(::Zenject::SubContainerCreatorByNewPrefabWithParams*);
 MARK_REF_T(::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerCreatorByNewPrefabWithParams*, "Zenject", "SubContainerCreatorByNewPrefabWithParams");
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0*, "Zenject", "SubContainerCreatorByNewPrefabWithParams/<>c__DisplayClass7_0");
+// [CompilerGenerated]
 // Dependencies System.Object, Zenject.TypeValuePair
 namespace Zenject {
 // Is value type: false
@@ -83,6 +84,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e8c484, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8c4c8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -95,13 +97,13 @@ protected:
   constexpr SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0(SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0(SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0 const&) = delete;
+  SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0(SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14646 };
@@ -117,6 +119,7 @@ static_assert(offsetof(::Zenject::SubContainerCreatorByNewPrefabWithParams___c__
 static_assert(sizeof(::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -191,13 +194,13 @@ protected:
   constexpr SubContainerCreatorByNewPrefabWithParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByNewPrefabWithParams(SubContainerCreatorByNewPrefabWithParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewPrefabWithParams(SubContainerCreatorByNewPrefabWithParams const&) = delete;
+  SubContainerCreatorByNewPrefabWithParams(SubContainerCreatorByNewPrefabWithParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14647 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VirtualOffsetSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VirtualOffsetSettings.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VirtualOffsetSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeBakingProcessSettings_def.hpp"
@@ -46,9 +46,10 @@ inline void UnityEngine::Rendering::VirtualOffsetSettings::UpgradeFromTo(::Unity
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, from, to);
 }
-// Ctor Parameters [CppParam { name: "useVirtualOffset", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "validityThreshold", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "outOfGeoOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "searchMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "rayOriginBias", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "collisionMask", ty: "::UnityEngine::LayerMask", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "useVirtualOffset", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "validityThreshold", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "outOfGeoOffset", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "searchMultiplier", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rayOriginBias", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "collisionMask", ty:
+// "::UnityEngine::LayerMask", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::VirtualOffsetSettings::VirtualOffsetSettings(bool useVirtualOffset, float_t validityThreshold, float_t outOfGeoOffset, float_t searchMultiplier,
                                                                                  float_t rayOriginBias, ::UnityEngine::LayerMask collisionMask) noexcept {
   this->useVirtualOffset = useVirtualOffset;

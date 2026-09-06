@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlEncodedRawTextWriterIndent.hpp"
+// IWYU pragma private; include "System/Xml/XmlEncodedRawTextWriterIndent.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_impl.hpp"
 #include "System/Xml/zzzz__XmlEncodedRawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlEncodedRawTextWriterIndent_def.hpp"

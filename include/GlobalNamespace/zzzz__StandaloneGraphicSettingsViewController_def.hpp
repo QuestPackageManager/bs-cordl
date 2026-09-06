@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandaloneGraphicSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandaloneGraphicSettingsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -147,38 +147,46 @@ protected:
   constexpr StandaloneGraphicSettingsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneGraphicSettingsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneGraphicSettingsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandaloneGraphicSettingsViewController(StandaloneGraphicSettingsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneGraphicSettingsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneGraphicSettingsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneGraphicSettingsViewController(StandaloneGraphicSettingsViewController const&) = delete;
+  StandaloneGraphicSettingsViewController(StandaloneGraphicSettingsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6468 };
 
+  /// [SerializeField]
   /// @brief Field _antiAliasingLevel, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedIntListSettingsController> ____antiAliasingLevel;
 
+  /// [SerializeField]
   /// @brief Field _vrRenderingScale, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____vrRenderingScale;
 
+  /// [SerializeField]
   /// @brief Field _fullscreen, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____fullscreen;
 
+  /// [SerializeField]
   /// @brief Field _shockwaveMaxParticles, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedIntListSettingsController> ____shockwaveMaxParticles;
 
+  /// [SerializeField]
   /// @brief Field _smoke, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____smoke;
 
+  /// [SerializeField]
   /// @brief Field _screenDisplacementEffects, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____screenDisplacementEffects;
 
+  /// [SerializeField]
   /// @brief Field _mainEffect, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PresetsSettingsController> ____mainEffect;
 
+  /// [SerializeField]
   /// @brief Field _mirror, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PresetsSettingsController> ____mirror;
 

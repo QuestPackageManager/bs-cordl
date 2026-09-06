@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Exception.hpp"
+// IWYU pragma private; include "System/Exception.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr Exception_ExceptionMessageKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Exception_ExceptionMessageKind(int32_t value__) noexcept;
 
   /// @brief Field OutOfMemory value: I32(3)
@@ -109,6 +109,7 @@ static_assert(offsetof(::System::Exception_ExceptionMessageKind, value__) == 0x0
 static_assert(sizeof(::System::Exception_ExceptionMessageKind) == 0x4, "Size mismatch!");
 
 } // namespace System
+// [ComVisible(true)]
 // Dependencies System.Diagnostics.StackTrace, System.IntPtr, System.Object
 namespace System {
 // Is value type: false
@@ -214,6 +215,7 @@ public:
 
   static inline ::System::Exception* New_ctor(::StringW message, ::System::Exception* innerException);
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x5c7fab0, size 0x70, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
@@ -377,13 +379,13 @@ protected:
   constexpr Exception();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Exception", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Exception", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Exception(Exception&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Exception", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Exception", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Exception(Exception const&) = delete;
+  Exception(Exceptionconst&) = delete;
 
   /// @brief Field _COMPlusExceptionCode offset 0xffffffff size 0x4
   static constexpr int32_t _COMPlusExceptionCode{ static_cast<int32_t>(0xe0434352) };
@@ -427,6 +429,7 @@ public:
   /// @brief Field _source, offset: 0x68, size: 0x8, def value: None
   ::StringW ____source;
 
+  /// [OptionalField(VersionAdded = 4)]
   /// @brief Field _safeSerializationManager, offset: 0x70, size: 0x8, def value: None
   ::System::Runtime::Serialization::SafeSerializationManager* ____safeSerializationManager;
 

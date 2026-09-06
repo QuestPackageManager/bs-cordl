@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlyingScoreEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlyingScoreEffect.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Mesh_impl.hpp"

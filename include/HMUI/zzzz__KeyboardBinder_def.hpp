@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\KeyboardBinder.hpp"
+// IWYU pragma private; include "HMUI/KeyboardBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   // @brief default ctor
   constexpr KeyboardBinder_KeyBindingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr KeyboardBinder_KeyBindingType(int32_t value__) noexcept;
 
   /// @brief Field KeyDown value: I32(0)
@@ -185,9 +185,11 @@ public:
   /// @brief Method .ctor, addr 0x5876fbc, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::KeyCode keycode, ::HMUI::KeyboardBinder_KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
 
+  /// [CompilerGenerated]
   /// @brief Method get_enabled, addr 0x5876f04, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
+  /// [CompilerGenerated]
   /// @brief Method set_enabled, addr 0x5876f0c, size 0x8, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
@@ -197,17 +199,18 @@ protected:
   constexpr KeyboardBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyboardBinder(KeyboardBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyboardBinder(KeyboardBinder const&) = delete;
+  KeyboardBinder(KeyboardBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19028 };
 
+  /// [CompilerGenerated]
   /// @brief Field <enabled>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____enabled_k__BackingField;
 

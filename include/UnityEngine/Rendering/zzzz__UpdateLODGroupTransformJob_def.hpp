@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UpdateLODGroupTransformJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UpdateLODGroupTransformJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ struct UpdateLODGroupTransformJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::UpdateLODGroupTransformJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UpdateLODGroupTransformJob, "UnityEngine.Rendering", "UpdateLODGroupTransformJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeAtomicCounter32, Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>,
 // UnityEngine.Rendering.GPUInstanceIndex, UnityEngine.Rendering.LODGroupCullingData, UnityEngine.Rendering.LODGroupData, UnityEngine.Vector3
 namespace UnityEngine::Rendering {
@@ -46,13 +47,14 @@ public:
   // @brief default ctor
   constexpr UpdateLODGroupTransformJob();
 
-  // Ctor Parameters [CppParam { name: "lodGroupDataHash", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None },
-  // CppParam { name: "lodGroupIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "worldSpaceReferencePoints", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "worldSpaceSizes", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers:
-  // "", def_value: None }, CppParam { name: "requiresGPUUpload", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportDitheringCrossFade", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "lodGroupData", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: None }, CppParam { name: "lodGroupCullingData", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: None }, CppParam { name: "atomicUpdateCount", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "lodGroupDataHash", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "lodGroupIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldSpaceReferencePoints",
+  // ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldSpaceSizes", ty:
+  // "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "requiresGPUUpload", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "supportDitheringCrossFade", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodGroupData", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodGroupCullingData", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: None, comment: None }, CppParam { name: "atomicUpdateCount", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: None, comment: None }]
   constexpr UpdateLODGroupTransformJob(::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataHash,
                                        ::Unity::Collections::NativeArray_1<int32_t> lodGroupIDs, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> worldSpaceReferencePoints,
                                        ::Unity::Collections::NativeArray_1<float_t> worldSpaceSizes, bool requiresGPUUpload, bool supportDitheringCrossFade,
@@ -69,30 +71,43 @@ public:
   /// @brief Field k_BatchSize offset 0xffffffff size 0x4
   static constexpr int32_t k_BatchSize{ static_cast<int32_t>(0x100) };
 
+  /// [ReadOnly]
   /// @brief Field lodGroupDataHash, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataHash;
 
+  /// [ReadOnly]
   /// @brief Field lodGroupIDs, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> lodGroupIDs;
 
+  /// [ReadOnly]
   /// @brief Field worldSpaceReferencePoints, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> worldSpaceReferencePoints;
 
+  /// [ReadOnly]
   /// @brief Field worldSpaceSizes, offset: 0x30, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<float_t> worldSpaceSizes;
 
+  /// [ReadOnly]
   /// @brief Field requiresGPUUpload, offset: 0x40, size: 0x1, def value: None
   bool requiresGPUUpload;
 
+  /// [ReadOnly]
   /// @brief Field supportDitheringCrossFade, offset: 0x41, size: 0x1, def value: None
   bool supportDitheringCrossFade;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [ReadOnly]
   /// @brief Field lodGroupData, offset: 0x48, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData> lodGroupData;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field lodGroupCullingData, offset: 0x50, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field atomicUpdateCount, offset: 0x58, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 atomicUpdateCount;
 

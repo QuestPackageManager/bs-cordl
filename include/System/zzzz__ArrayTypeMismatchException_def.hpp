@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ArrayTypeMismatchException.hpp"
+// IWYU pragma private; include "System/ArrayTypeMismatchException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ protected:
   constexpr ArrayTypeMismatchException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayTypeMismatchException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayTypeMismatchException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayTypeMismatchException(ArrayTypeMismatchException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayTypeMismatchException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayTypeMismatchException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayTypeMismatchException(ArrayTypeMismatchException const&) = delete;
+  ArrayTypeMismatchException(ArrayTypeMismatchExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2352 };

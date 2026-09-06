@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshArrays.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshArrays.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MeshArrays;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::MeshArrays);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshArrays, "UnityEngine.ProBuilder", "MeshArrays");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr MeshArrays();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MeshArrays(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(255)

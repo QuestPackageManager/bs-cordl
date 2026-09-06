@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PropertyCollection_1.hpp"
+// IWYU pragma private; include "Unity/Properties/PropertyCollection_1.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "Unity/Properties/zzzz__IndexedCollectionPropertyBagEnumerable_1_impl.hpp"
 #include "Unity/Properties/zzzz__IndexedCollectionPropertyBagEnumerator_1_impl.hpp"
@@ -15,7 +15,7 @@
 #include "Unity/Properties/zzzz__IndexedCollectionPropertyBagEnumerable_1_def.hpp"
 #include "Unity/Properties/zzzz__IndexedCollectionPropertyBagEnumerator_1_def.hpp"
 #include "Unity/Properties/zzzz__PropertyCollection_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TContainer> constexpr ::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer>::PropertyCollection_1_EnumeratorType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -104,11 +104,11 @@ template <typename TContainer> constexpr Unity::Properties::PropertyCollection_1
 template <typename TContainer> constexpr ::System::IDisposable* Unity::Properties::PropertyCollection_1_Enumerator<TContainer>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Type", ty: "::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Enumerator", ty:
-// "::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Properties", ty:
-// "::System::Collections::Generic::List_1_Enumerator<::Unity::Properties::IProperty_1<TContainer>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IndexedCollectionPropertyBag", ty:
-// "::Unity::Properties::IndexedCollectionPropertyBagEnumerator_1<TContainer>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Current_k__BackingField", ty:
-// "::Unity::Properties::IProperty_1<TContainer>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Type", ty: "::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Enumerator", ty: "::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Properties", ty: "::System::Collections::Generic::List_1_Enumerator<::Unity::Properties::IProperty_1<TContainer>*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_IndexedCollectionPropertyBag", ty: "::Unity::Properties::IndexedCollectionPropertyBagEnumerator_1<TContainer>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_Current_k__BackingField", ty: "::Unity::Properties::IProperty_1<TContainer>*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TContainer>
 constexpr ::Unity::Properties::PropertyCollection_1_Enumerator<TContainer>::PropertyCollection_1_Enumerator(
     ::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer> m_Type, ::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TContainer>*>* m_Enumerator,
@@ -187,10 +187,10 @@ template <typename TContainer> constexpr Unity::Properties::PropertyCollection_1
 template <typename TContainer> constexpr ::System::Collections::IEnumerable* Unity::Properties::PropertyCollection_1<TContainer>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Type", ty: "::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Enumerable", ty:
-// "::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Properties", ty:
-// "::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IndexedCollectionPropertyBag", ty:
-// "::Unity::Properties::IndexedCollectionPropertyBagEnumerable_1<TContainer>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Type", ty: "::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Enumerable", ty: "::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Properties", ty: "::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_IndexedCollectionPropertyBag", ty: "::Unity::Properties::IndexedCollectionPropertyBagEnumerable_1<TContainer>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TContainer>
 constexpr ::Unity::Properties::PropertyCollection_1<TContainer>::PropertyCollection_1(
     ::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer> m_Type, ::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TContainer>*>* m_Enumerable,

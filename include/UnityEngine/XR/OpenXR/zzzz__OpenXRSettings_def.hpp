@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRSettings.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,7 +119,7 @@ public:
   // @brief default ctor
   constexpr OpenXRSettings_ColorSubmissionModeGroup();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRSettings_ColorSubmissionModeGroup(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -181,13 +181,13 @@ protected:
   constexpr OpenXRSettings_ColorSubmissionModeList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings_ColorSubmissionModeList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings_ColorSubmissionModeList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRSettings_ColorSubmissionModeList(OpenXRSettings_ColorSubmissionModeList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings_ColorSubmissionModeList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings_ColorSubmissionModeList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRSettings_ColorSubmissionModeList(OpenXRSettings_ColorSubmissionModeList const&) = delete;
+  OpenXRSettings_ColorSubmissionModeList(OpenXRSettings_ColorSubmissionModeListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18491 };
@@ -232,7 +232,7 @@ public:
   // @brief default ctor
   constexpr OpenXRSettings_RenderMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRSettings_RenderMode(int32_t value__) noexcept;
 
   /// @brief Field MultiPass value: I32(0)
@@ -288,7 +288,7 @@ public:
   // @brief default ctor
   constexpr OpenXRSettings_DepthSubmissionMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRSettings_DepthSubmissionMode(int32_t value__) noexcept;
 
   /// @brief Field Depth16Bit value: I32(1)
@@ -346,7 +346,7 @@ public:
   // @brief default ctor
   constexpr OpenXRSettings_BackendFovationApi();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRSettings_BackendFovationApi(uint8_t value__) noexcept;
 
   /// @brief Field Legacy value: U8(0)
@@ -401,7 +401,7 @@ public:
   // @brief default ctor
   constexpr OpenXRSettings_SpaceWarpMotionVectorTextureFormat();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRSettings_SpaceWarpMotionVectorTextureFormat(int32_t value__) noexcept;
 
   /// @brief Field RG16f value: I32(1)
@@ -427,6 +427,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotion
 static_assert(sizeof(::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR {
 // Is value type: false
@@ -482,13 +483,13 @@ protected:
   constexpr OpenXRSettings___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRSettings___c(OpenXRSettings___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRSettings___c(OpenXRSettings___c const&) = delete;
+  OpenXRSettings___c(OpenXRSettings___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18496 };
@@ -596,7 +597,9 @@ public:
   inline ::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature> GetFeature(::System::Type* featureType);
 
   /// @brief Method GetFeature, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TFeature> inline TFeature GetFeature();
+  template <typename TFeature>
+    requires(::cordl_internals::type_constraint<TFeature, ::UnityEngine::XR::OpenXR::Features::OpenXRFeature*>)
+  inline TFeature GetFeature();
 
   /// @brief Method GetFeatures, addr 0x69ebad0, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> GetFeatures();
@@ -614,7 +617,9 @@ public:
   inline int32_t GetFeatures(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>>* featuresOut);
 
   /// @brief Method GetFeatures, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TFeature> inline int32_t GetFeatures(::System::Collections::Generic::List_1<TFeature>* featuresOut);
+  template <typename TFeature>
+    requires(::cordl_internals::type_constraint<TFeature, ::UnityEngine::XR::OpenXR::Features::OpenXRFeature*>)
+  inline int32_t GetFeatures(::System::Collections::Generic::List_1<TFeature>* featuresOut);
 
   /// @brief Method GetInstance, addr 0x69ec598, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRSettings> GetInstance(bool useActiveBuildTarget);
@@ -836,13 +841,13 @@ protected:
   constexpr OpenXRSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRSettings(OpenXRSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRSettings(OpenXRSettings const&) = delete;
+  OpenXRSettings(OpenXRSettingsconst&) = delete;
 
   /// @brief Field LibraryName offset 0xffffffff size 0x8
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
@@ -850,33 +855,44 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18497 };
 
+  /// [FormerlySerializedAs("extensions")]
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field features, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> ___features;
 
+  /// [SerializeField]
   /// @brief Field m_renderMode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode ___m_renderMode;
 
+  /// [SerializeField]
   /// @brief Field m_autoColorSubmissionMode, offset: 0x24, size: 0x1, def value: None
   bool ___m_autoColorSubmissionMode;
 
+  /// [SerializeField]
   /// @brief Field m_colorSubmissionModes, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeList* ___m_colorSubmissionModes;
 
   /// @brief Field m_eyeTrackingPermissionsToRequest, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_eyeTrackingPermissionsToRequest;
 
+  /// [SerializeField]
   /// @brief Field m_depthSubmissionMode, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode ___m_depthSubmissionMode;
 
+  /// [SerializeField]
   /// @brief Field m_spacewarpMotionVectorTextureFormat, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat ___m_spacewarpMotionVectorTextureFormat;
 
+  /// [SerializeField]
   /// @brief Field m_optimizeBufferDiscards, offset: 0x40, size: 0x1, def value: None
   bool ___m_optimizeBufferDiscards;
 
+  /// [SerializeField]
   /// @brief Field m_symmetricProjection, offset: 0x41, size: 0x1, def value: None
   bool ___m_symmetricProjection;
 
+  /// [SerializeField]
   /// @brief Field m_foveatedRenderingApi, offset: 0x42, size: 0x1, def value: None
   ::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi ___m_foveatedRenderingApi;
 

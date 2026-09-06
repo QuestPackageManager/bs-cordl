@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ParticleSystemEventController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ParticleSystemEventController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ protected:
   constexpr ParticleSystemEventController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemEventController_Pool(ParticleSystemEventController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEventController_Pool(ParticleSystemEventController_Pool const&) = delete;
+  ParticleSystemEventController_Pool(ParticleSystemEventController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5936 };
@@ -126,9 +126,11 @@ public:
   /// @brief Method get_endTime, addr 0x599f754, size 0xc, virtual false, abstract: false, final false
   inline float_t get_endTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_startTime, addr 0x599ff48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
+  /// [CompilerGenerated]
   /// @brief Method set_startTime, addr 0x599ff50, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(float_t value);
 
@@ -138,13 +140,13 @@ protected:
   constexpr ParticleSystemEventController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemEventController(ParticleSystemEventController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEventController(ParticleSystemEventController const&) = delete;
+  ParticleSystemEventController(ParticleSystemEventControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5937 };
@@ -152,12 +154,16 @@ public:
   /// @brief Field kMaxSimDelta offset 0xffffffff size 0x4
   static constexpr float_t kMaxSimDelta{ static_cast<float_t>(0.033333335f) };
 
+  /// [SerializeField]
   /// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _particleSystemFullDuration, offset: 0x28, size: 0x4, def value: None
   float_t ____particleSystemFullDuration;
 
+  /// [CompilerGenerated]
   /// @brief Field <startTime>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   float_t ____startTime_k__BackingField;
 

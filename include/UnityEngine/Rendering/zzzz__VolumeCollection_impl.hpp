@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeCollection.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeCollection.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeCollection_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -190,7 +191,9 @@ inline void UnityEngine::Rendering::VolumeCollection::SetLayerIndexDirty(int32_t
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeCollection*>(), { "SetLayerIndexDirty", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, layerIndex);
 }
-template <typename T> inline bool UnityEngine::Rendering::VolumeCollection::IsComponentActiveInMask(::UnityEngine::LayerMask layerMask) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline bool UnityEngine::Rendering::VolumeCollection::IsComponentActiveInMask(::UnityEngine::LayerMask layerMask) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeCollection*>(), { "IsComponentActiveInMask", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::LayerMask>() } })));

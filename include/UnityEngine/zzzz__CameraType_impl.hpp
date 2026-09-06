@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CameraType.hpp"
+// IWYU pragma private; include "UnityEngine/CameraType.hpp"
 #include "UnityEngine/zzzz__CameraType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::CameraType::CameraType(int32_t value__) noexcept {
   this->value__ = value__;
 }

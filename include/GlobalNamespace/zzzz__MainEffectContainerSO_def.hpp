@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectContainerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectContainerSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,8 +43,8 @@ public:
   // @brief default ctor
   constexpr MainEffectContainerSO_HardwareOverride();
 
-  // Ctor Parameters [CppParam { name: "hardwareCategory", ty: "::GlobalNamespace::HardwareCategory", modifiers: "", def_value: None }, CppParam { name: "mainEffect", ty:
-  // "::UnityW<::GlobalNamespace::MainEffectSO>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hardwareCategory", ty: "::GlobalNamespace::HardwareCategory", modifiers: "", def_value: None, comment: None }, CppParam { name: "mainEffect", ty:
+  // "::UnityW<::GlobalNamespace::MainEffectSO>", modifiers: "", def_value: None, comment: None }]
   constexpr MainEffectContainerSO_HardwareOverride(::GlobalNamespace::HardwareCategory hardwareCategory, ::UnityW<::GlobalNamespace::MainEffectSO> mainEffect) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -154,6 +154,7 @@ public:
 
   static inline ::GlobalNamespace::BoolCvar* getStaticF__enabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mainEffect, addr 0x5f429a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainEffectSO> get_mainEffect();
 
@@ -162,6 +163,7 @@ public:
 
   static inline void setStaticF__enabled(::GlobalNamespace::BoolCvar* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mainEffect, addr 0x5f429b0, size 0x8, virtual false, abstract: false, final false
   inline void set_mainEffect(::GlobalNamespace::MainEffectSO* value);
 
@@ -171,29 +173,34 @@ protected:
   constexpr MainEffectContainerSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectContainerSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectContainerSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectContainerSO(MainEffectContainerSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectContainerSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectContainerSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectContainerSO(MainEffectContainerSO const&) = delete;
+  MainEffectContainerSO(MainEffectContainerSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20632 };
 
+  /// [SerializeField]
   /// @brief Field _mainEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectSO> ____mainEffect;
 
+  /// [SerializeField]
   /// @brief Field _mainEffectDisabled, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectSO> ____mainEffectDisabled;
 
+  /// [SerializeField]
   /// @brief Field _postProcessEnabled, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____postProcessEnabled;
 
+  /// [SerializeField]
   /// @brief Field _hardwareOverrides, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MainEffectContainerSO_HardwareOverride> ____hardwareOverrides;
 
+  /// [CompilerGenerated]
   /// @brief Field <mainEffect>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectSO> ____mainEffect_k__BackingField;
 

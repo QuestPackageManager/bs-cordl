@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleVariableContext.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleVariableContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ MARK_REF_T(::UnityEngine::UIElements::StyleVariableContext*);
 MARK_VAL_T(::UnityEngine::UIElements::StyleVariableContext___c__DisplayClass7_0);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleVariableContext*, "UnityEngine.UIElements", "StyleVariableContext");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleVariableContext___c__DisplayClass7_0, "UnityEngine.UIElements", "StyleVariableContext/<>c__DisplayClass7_0");
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -40,7 +41,7 @@ public:
   // @brief default ctor
   constexpr StyleVariableContext___c__DisplayClass7_0();
 
-  // Ctor Parameters [CppParam { name: "hash", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hash", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StyleVariableContext___c__DisplayClass7_0(int32_t hash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -60,6 +61,7 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleVariableContext___c__Disp
 static_assert(sizeof(::UnityEngine::UIElements::StyleVariableContext___c__DisplayClass7_0) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -103,6 +105,7 @@ public:
   /// @brief Method TryFindVariable, addr 0x6c9dd9c, size 0xec, virtual false, abstract: false, final false
   inline bool TryFindVariable(::StringW name, ::by_ref<::UnityEngine::UIElements::StyleVariable> v);
 
+  /// [CompilerGenerated]
   /// @brief Method <Add>g__ComputeOrderSensitiveHash|7_0, addr 0x6c9d97c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t _Add_g__ComputeOrderSensitiveHash_7_0(int32_t index, ::by_ref<::UnityEngine::UIElements::StyleVariableContext___c__DisplayClass7_0> _cordl_fixed_empty_name_whitespace);
 
@@ -146,13 +149,13 @@ protected:
   constexpr StyleVariableContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleVariableContext(StyleVariableContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleVariableContext(StyleVariableContext const&) = delete;
+  StyleVariableContext(StyleVariableContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5080 };

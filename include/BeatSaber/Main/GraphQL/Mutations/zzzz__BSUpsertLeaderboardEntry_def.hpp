@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Mutations\BSUpsertLeaderboardEntry.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Mutations/BSUpsertLeaderboardEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ class BSUpsertLeaderboardEntry;
 // Write type traits
 MARK_REF_T(::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry*, "BeatSaber.Main.GraphQL.Mutations", "BSUpsertLeaderboardEntry");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLMutationOperation
 namespace BeatSaber::Main::GraphQL::Mutations {
 // Is value type: false
@@ -52,13 +54,13 @@ protected:
   constexpr BSUpsertLeaderboardEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BSUpsertLeaderboardEntry(BSUpsertLeaderboardEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSUpsertLeaderboardEntry(BSUpsertLeaderboardEntry const&) = delete;
+  BSUpsertLeaderboardEntry(BSUpsertLeaderboardEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20542 };

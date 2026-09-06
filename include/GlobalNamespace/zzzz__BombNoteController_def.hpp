@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BombNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BombNoteController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,13 +60,13 @@ protected:
   constexpr BombNoteController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BombNoteController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombNoteController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BombNoteController_Pool(BombNoteController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BombNoteController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombNoteController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombNoteController_Pool(BombNoteController_Pool const&) = delete;
+  BombNoteController_Pool(BombNoteController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5647 };
@@ -105,7 +105,7 @@ public:
   inline void HiddenStateDidChange(bool hide);
 
   /// @brief Method Init, addr 0x58ce960, size 0x58, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData);
+  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData);
 
   static inline ::GlobalNamespace::BombNoteController* New_ctor();
 
@@ -142,20 +142,22 @@ protected:
   constexpr BombNoteController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BombNoteController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombNoteController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BombNoteController(BombNoteController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BombNoteController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombNoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombNoteController(BombNoteController const&) = delete;
+  BombNoteController(BombNoteControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5648 };
 
+  /// [SerializeField]
   /// @brief Field _cuttableBySaber, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CuttableBySaber> ____cuttableBySaber;
 
+  /// [SerializeField]
   /// @brief Field _wrapperGO, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____wrapperGO;
 

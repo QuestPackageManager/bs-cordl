@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Index.hpp"
+// IWYU pragma private; include "System/Data/Index.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,19 @@ namespace System::Data {
 class Index___c__DisplayClass86_0;
 }
 namespace System::Data {
-template <typename TElem, typename T1, typename T2, typename T3, typename T4> class Listeners_1_Action_4;
+template <typename TElem, typename T1, typename T2, typename T3, typename T4>
+  requires(::cordl_internals::reference_type_constraint<TElem>)
+class Listeners_1_Action_4;
 }
 namespace System::Data {
-template <typename TElem, typename T1, typename TResult> class Listeners_1_Func_2;
+template <typename TElem, typename T1, typename TResult>
+  requires(::cordl_internals::reference_type_constraint<TElem>)
+class Listeners_1_Func_2;
 }
 namespace System::Data {
-template <typename TElem> class Listeners_1;
+template <typename TElem>
+  requires(::cordl_internals::reference_type_constraint<TElem>)
+class Listeners_1;
 }
 namespace System::Data {
 template <typename K> struct RBTree_1_RBTreeEnumerator;
@@ -129,13 +135,13 @@ protected:
   constexpr Index_IndexTree();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Index_IndexTree", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Index_IndexTree", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Index_IndexTree(Index_IndexTree&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Index_IndexTree", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Index_IndexTree", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Index_IndexTree(Index_IndexTree const&) = delete;
+  Index_IndexTree(Index_IndexTreeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13854 };
@@ -151,6 +157,7 @@ static_assert(offsetof(::System::Data::Index_IndexTree, ____index) == 0x40, "Off
 static_assert(sizeof(::System::Data::Index_IndexTree) == 0x48, "Size mismatch!");
 
 } // namespace System::Data
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Data {
 // Is value type: false
@@ -200,13 +207,13 @@ protected:
   constexpr Index___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Index___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Index___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Index___c(Index___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Index___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Index___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Index___c(Index___c const&) = delete;
+  Index___c(Index___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13855 };
@@ -217,6 +224,7 @@ public:
 static_assert(sizeof(::System::Data::Index___c) == 0x10, "Size mismatch!");
 
 } // namespace System::Data
+// [CompilerGenerated]
 // Dependencies System.ComponentModel.ListChangedType, System.Object
 namespace System::Data {
 // Is value type: false
@@ -247,13 +255,13 @@ protected:
   constexpr Index___c__DisplayClass86_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Index___c__DisplayClass86_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Index___c__DisplayClass86_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Index___c__DisplayClass86_0(Index___c__DisplayClass86_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Index___c__DisplayClass86_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Index___c__DisplayClass86_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Index___c__DisplayClass86_0(Index___c__DisplayClass86_0 const&) = delete;
+  Index___c__DisplayClass86_0(Index___c__DisplayClass86_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13856 };
@@ -439,7 +447,9 @@ public:
   inline void GetUniqueKeyValues(::System::Collections::Generic::List_1<::ArrayW<::System::Object*>>* list, int32_t curNodeId);
 
   /// @brief Method IndexOfReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline int32_t IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item);
 
   /// @brief Method InitRecords, addr 0x604d590, size 0x3b8, virtual false, abstract: false, final false
   inline void InitRecords(::System::Data::IFilter* filter);
@@ -630,13 +640,13 @@ protected:
   constexpr Index();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Index", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Index", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Index(Index&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Index", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Index", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Index(Index const&) = delete;
+  Index(Indexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13857 };

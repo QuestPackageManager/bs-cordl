@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ColorUsageAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/ColorUsageAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class ColorUsageAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::ColorUsageAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ColorUsageAttribute*, "UnityEngine", "ColorUsageAttribute");
+// [AttributeUsage((System.AttributeTargets)384, Inherited = true, AllowMultiple = false)]
 // Dependencies UnityEngine.PropertyAttribute
 namespace UnityEngine {
 // Is value type: false
@@ -90,13 +91,13 @@ protected:
   constexpr ColorUsageAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUsageAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorUsageAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorUsageAttribute(ColorUsageAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUsageAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorUsageAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorUsageAttribute(ColorUsageAttribute const&) = delete;
+  ColorUsageAttribute(ColorUsageAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10285 };
@@ -107,15 +108,19 @@ public:
   /// @brief Field hdr, offset: 0x16, size: 0x1, def value: None
   bool ___hdr;
 
+  /// [Obsolete("This field is no longer used for anything.")]
   /// @brief Field minBrightness, offset: 0x18, size: 0x4, def value: None
   float_t ___minBrightness;
 
+  /// [Obsolete("This field is no longer used for anything.")]
   /// @brief Field maxBrightness, offset: 0x1c, size: 0x4, def value: None
   float_t ___maxBrightness;
 
+  /// [Obsolete("This field is no longer used for anything.")]
   /// @brief Field minExposureValue, offset: 0x20, size: 0x4, def value: None
   float_t ___minExposureValue;
 
+  /// [Obsolete("This field is no longer used for anything.")]
   /// @brief Field maxExposureValue, offset: 0x24, size: 0x4, def value: None
   float_t ___maxExposureValue;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarEditorFlowCoordinator.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarEditorFlowCoordinator.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
@@ -7,7 +7,7 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction::AvatarEditorFlowCoordinator_FinishAction(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -15,7 +15,7 @@ constexpr ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction::Ava
 constexpr ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction::AvatarEditorFlowCoordinator_FinishAction() {}
 constexpr ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction::Cancel{ static_cast<int32_t>(0x0) };
 constexpr ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction::Apply{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode::AvatarEditorFlowCoordinator_EditMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

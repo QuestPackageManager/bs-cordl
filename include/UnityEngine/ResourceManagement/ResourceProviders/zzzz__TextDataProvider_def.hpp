@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\TextDataProvider.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/TextDataProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,6 +98,7 @@ public:
   /// @brief Method WaitForCompletionHandler, addr 0x6923180, size 0x74, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
+  /// [CompilerGenerated]
   /// @brief Method <SendWebRequest>b__13_0, addr 0x6923884, size 0x9c, virtual false, abstract: false, final false
   inline void _SendWebRequest_b__13_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
 
@@ -152,13 +153,13 @@ protected:
   constexpr TextDataProvider_InternalOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider_InternalOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider_InternalOp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextDataProvider_InternalOp(TextDataProvider_InternalOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider_InternalOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider_InternalOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextDataProvider_InternalOp(TextDataProvider_InternalOp const&) = delete;
+  TextDataProvider_InternalOp(TextDataProvider_InternalOpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18795 };
@@ -204,6 +205,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Tex
 static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
+// [DisplayName("Text Data Provider")]
 // Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
@@ -235,9 +237,11 @@ public:
   /// @brief Method .ctor, addr 0x6920338, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreFailures, addr 0x6922b88, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
+  /// [CompilerGenerated]
   /// @brief Method set_IgnoreFailures, addr 0x6922b90, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
@@ -247,17 +251,18 @@ protected:
   constexpr TextDataProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextDataProvider(TextDataProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextDataProvider(TextDataProvider const&) = delete;
+  TextDataProvider(TextDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18796 };
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreFailures>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   bool ____IgnoreFailures_k__BackingField;
 

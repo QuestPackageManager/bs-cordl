@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ExecuteCommandsFromFileConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/ExecuteCommandsFromFileConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ namespace GlobalNamespace {
 struct ConsoleMessage;
 }
 namespace GlobalNamespace {
-template <typename T> class RequiredArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class RequiredArgument_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -25,6 +27,7 @@ class ExecuteCommandsFromFileConsoleCommand;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ExecuteCommandsFromFileConsoleCommand*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ExecuteCommandsFromFileConsoleCommand*, "", "ExecuteCommandsFromFileConsoleCommand");
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -65,13 +68,13 @@ protected:
   constexpr ExecuteCommandsFromFileConsoleCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandsFromFileConsoleCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandsFromFileConsoleCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExecuteCommandsFromFileConsoleCommand(ExecuteCommandsFromFileConsoleCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandsFromFileConsoleCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandsFromFileConsoleCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExecuteCommandsFromFileConsoleCommand(ExecuteCommandsFromFileConsoleCommand const&) = delete;
+  ExecuteCommandsFromFileConsoleCommand(ExecuteCommandsFromFileConsoleCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19391 };

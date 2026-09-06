@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\DeferredConfig.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DeferredConfig.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,9 +29,11 @@ public:
 
   static inline bool getStaticF__IsOpenGL_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDX10, addr 0x68e92d0, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_IsDX10();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsOpenGL, addr 0x68e9230, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_IsOpenGL();
 
@@ -39,9 +41,11 @@ public:
 
   static inline void setStaticF__IsOpenGL_k__BackingField(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDX10, addr 0x68e931c, size 0x54, virtual false, abstract: false, final false
   static inline void set_IsDX10(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsOpenGL, addr 0x68e927c, size 0x54, virtual false, abstract: false, final false
   static inline void set_IsOpenGL(bool value);
 
@@ -51,13 +55,13 @@ protected:
   constexpr DeferredConfig();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredConfig", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredConfig", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeferredConfig(DeferredConfig&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredConfig", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredConfig(DeferredConfig const&) = delete;
+  DeferredConfig(DeferredConfigconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13052 };

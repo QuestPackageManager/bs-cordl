@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugRenderSetup.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugRenderSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -154,13 +154,13 @@ protected:
   constexpr DebugRenderSetup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugRenderSetup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugRenderSetup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugRenderSetup(DebugRenderSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugRenderSetup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugRenderSetup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugRenderSetup(DebugRenderSetup const&) = delete;
+  DebugRenderSetup(DebugRenderSetupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12668 };

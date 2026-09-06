@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Scripting\AlwaysLinkAssemblyAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Scripting/AlwaysLinkAssemblyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AlwaysLinkAssemblyAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Scripting::AlwaysLinkAssemblyAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Scripting::AlwaysLinkAssemblyAttribute*, "UnityEngine.Scripting", "AlwaysLinkAssemblyAttribute");
+// [AttributeUsage((System.AttributeTargets)1)]
 // Dependencies System.Attribute
 namespace UnityEngine::Scripting {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AlwaysLinkAssemblyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlwaysLinkAssemblyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlwaysLinkAssemblyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlwaysLinkAssemblyAttribute(AlwaysLinkAssemblyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlwaysLinkAssemblyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlwaysLinkAssemblyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlwaysLinkAssemblyAttribute(AlwaysLinkAssemblyAttribute const&) = delete;
+  AlwaysLinkAssemblyAttribute(AlwaysLinkAssemblyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10478 };

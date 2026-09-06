@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\CVRExtendedDisplay.hpp"
+// IWYU pragma private; include "OVR/OpenVR/CVRExtendedDisplay.hpp"
 #include "OVR/OpenVR/zzzz__IVRExtendedDisplay_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRExtendedDisplay_def.hpp"

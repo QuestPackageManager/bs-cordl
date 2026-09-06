@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLightCollisionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLightCollisionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -214,44 +214,68 @@ protected:
   constexpr TubeBloomPrePassLightCollisionEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightCollisionEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightCollisionEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeBloomPrePassLightCollisionEffect(TubeBloomPrePassLightCollisionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightCollisionEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightCollisionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeBloomPrePassLightCollisionEffect(TubeBloomPrePassLightCollisionEffect const&) = delete;
+  TubeBloomPrePassLightCollisionEffect(TubeBloomPrePassLightCollisionEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5949 };
 
+  /// [Header("Light")]
+  /// [SerializeField]
   /// @brief Field _tubeBloomPrePassLight, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
+  /// [Header("Ray Settings")]
+  /// [SerializeField]
   /// @brief Field _environmentLayerMask, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____environmentLayerMask;
 
+  /// [Tooltip("Enable this to adjust the laser length based on the selected transform\'s scale. Useful if the object or its parent is scaled.")]
+  /// [SerializeField]
   /// @brief Field _useScale, offset: 0x2c, size: 0x1, def value: None
   bool ____useScale;
 
+  /// [DrawIf("_useScale", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_useScale", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _scaleTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____scaleTransform;
 
+  /// [Header("Hit Point")]
+  /// [SerializeField]
   /// @brief Field _showHitPoint, offset: 0x38, size: 0x1, def value: None
   bool ____showHitPoint;
 
+  /// [DrawIf("_showHitPoint", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showHitPoint", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _hitPointGameObject, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____hitPointGameObject;
 
+  /// [DrawIf("_showHitPoint", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showHitPoint", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _hitPointTransform, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____hitPointTransform;
 
+  /// [DrawIf("_showHitPoint", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showHitPoint", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _hitPointLightWithId, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::InstancedMaterialLightWithId> ____hitPointLightWithId;
 
+  /// [DrawIf("_showHitPoint", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_showHitPoint", false, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _hitPointDistanceToAlphaCurve, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____hitPointDistanceToAlphaCurve;
 
+  /// [Inject]
   /// @brief Field _effectUpdater, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater> ____effectUpdater;
 

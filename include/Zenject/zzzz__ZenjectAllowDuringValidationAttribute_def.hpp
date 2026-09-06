@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ZenjectAllowDuringValidationAttribute.hpp"
+// IWYU pragma private; include "Zenject/ZenjectAllowDuringValidationAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ZenjectAllowDuringValidationAttribute;
 // Write type traits
 MARK_REF_T(::Zenject::ZenjectAllowDuringValidationAttribute*);
 DEFINE_IL2CPP_CLASS(::Zenject::ZenjectAllowDuringValidationAttribute*, "Zenject", "ZenjectAllowDuringValidationAttribute");
+// [AttributeUsage((System.AttributeTargets)1028, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace Zenject {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr ZenjectAllowDuringValidationAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectAllowDuringValidationAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectAllowDuringValidationAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectAllowDuringValidationAttribute(ZenjectAllowDuringValidationAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectAllowDuringValidationAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectAllowDuringValidationAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectAllowDuringValidationAttribute(ZenjectAllowDuringValidationAttribute const&) = delete;
+  ZenjectAllowDuringValidationAttribute(ZenjectAllowDuringValidationAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22612 };

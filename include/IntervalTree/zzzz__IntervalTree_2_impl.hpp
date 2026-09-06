@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IntervalTree\IntervalTree_2.hpp"
+// IWYU pragma private; include "IntervalTree/IntervalTree_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "IntervalTree/zzzz__IntervalTree_2_def.hpp"
 #include "IntervalTree/zzzz__IIntervalTree_2_def.hpp"
@@ -128,7 +128,7 @@ template <typename TKey, typename TValue> inline void IntervalTree::IntervalTree
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
-inline bool IntervalTree::IntervalTree_2___c__DisplayClass23_0<TKey, TValue>::_GetClosestPrevValueTo_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> pair) {
+inline bool IntervalTree::IntervalTree_2___c__DisplayClass23_0<TKey, TValue>::_GetClosestPrevValueTo_b__0(/* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> pair) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IntervalTree::IntervalTree_2___c__DisplayClass23_0<TKey, TValue>*>(),
                                                                                          { "<GetClosestPrevValueTo>b__0", {}, { ::i2c::type_of<::IntervalTree::RangeValuePair_2<TKey, TValue>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pair);
@@ -169,7 +169,7 @@ template <typename TKey, typename TValue> inline void IntervalTree::IntervalTree
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
-inline bool IntervalTree::IntervalTree_2___c__DisplayClass24_0<TKey, TValue>::_GetClosestNextValueTo_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> pair) {
+inline bool IntervalTree::IntervalTree_2___c__DisplayClass24_0<TKey, TValue>::_GetClosestNextValueTo_b__0(/* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> pair) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IntervalTree::IntervalTree_2___c__DisplayClass24_0<TKey, TValue>*>(),
                                                                                          { "<GetClosestNextValueTo>b__0", {}, { ::i2c::type_of<::IntervalTree::RangeValuePair_2<TKey, TValue>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pair);
@@ -255,7 +255,7 @@ template <typename TKey, typename TValue> inline void IntervalTree::IntervalTree
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IntervalTree::IntervalTree_2<TKey, TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline void IntervalTree::IntervalTree_2<TKey, TValue>::_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer) {
+template <typename TKey, typename TValue> inline void IntervalTree::IntervalTree_2<TKey, TValue>::_ctor(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IComparer_1<TKey>* comparer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::IntervalTree::IntervalTree_2<TKey, TValue>*>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IComparer_1<TKey>*>() } })));
@@ -319,7 +319,8 @@ template <typename TKey, typename TValue> inline ::IntervalTree::IntervalTree_2<
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::IntervalTree::IntervalTree_2<TKey, TValue>*>());
 }
 template <typename TKey, typename TValue>
-inline ::IntervalTree::IntervalTree_2<TKey, TValue>* IntervalTree::IntervalTree_2<TKey, TValue>::New_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer) {
+inline ::IntervalTree::IntervalTree_2<TKey, TValue>*
+IntervalTree::IntervalTree_2<TKey, TValue>::New_ctor(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IComparer_1<TKey>* comparer) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::IntervalTree::IntervalTree_2<TKey, TValue>*>(comparer));
 }
 /// @brief Convert operator to "::IntervalTree::IIntervalTree_2<TKey,TValue>"

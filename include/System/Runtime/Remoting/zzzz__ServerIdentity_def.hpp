@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\ServerIdentity.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/ServerIdentity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   /// @brief Field _serverSink, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__serverSink, put = __cordl_internal_set__serverSink)) ::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink;
 
-  /// @brief Method AsyncObjectProcessMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
@@ -89,7 +89,7 @@ public:
   /// @brief Method StartTrackingLifetime, addr 0x5b2afa0, size 0x1ac, virtual false, abstract: false, final false
   inline void StartTrackingLifetime(::System::Runtime::Remoting::Lifetime::ILease* lease);
 
-  /// @brief Method SyncObjectProcessMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Contexts::Context* const& __cordl_internal_get__context() const;
@@ -143,13 +143,13 @@ protected:
   constexpr ServerIdentity();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServerIdentity", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerIdentity", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerIdentity(ServerIdentity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServerIdentity", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerIdentity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServerIdentity(ServerIdentity const&) = delete;
+  ServerIdentity(ServerIdentityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3088 };

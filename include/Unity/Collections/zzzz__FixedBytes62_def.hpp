@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedBytes62.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedBytes62.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct FixedBytes62;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::FixedBytes62);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::FixedBytes62, "Unity.Collections", "FixedBytes62");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.FixedBytes16
 namespace Unity::Collections {
 // Is value type: true
@@ -179,14 +180,15 @@ public:
   // @brief default ctor
   constexpr FixedBytes62();
 
-  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0016", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0032", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "byte0048", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0049", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0050", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "byte0051", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0052", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "byte0053", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0054", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0055", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "byte0056", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0057", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "byte0058", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0059", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0060", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "byte0061", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0016", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0032", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "byte0048", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0049", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "byte0050", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0051", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "byte0052", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0053", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "byte0054", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0055", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "byte0056", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0057", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "byte0058", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0059", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "byte0060", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0061", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr FixedBytes62(::Unity::Collections::FixedBytes16 offset0000, ::Unity::Collections::FixedBytes16 offset0016, ::Unity::Collections::FixedBytes16 offset0032, uint8_t byte0048,
                          uint8_t byte0049, uint8_t byte0050, uint8_t byte0051, uint8_t byte0052, uint8_t byte0053, uint8_t byte0054, uint8_t byte0055, uint8_t byte0056, uint8_t byte0057,
                          uint8_t byte0058, uint8_t byte0059, uint8_t byte0060, uint8_t byte0061) noexcept;

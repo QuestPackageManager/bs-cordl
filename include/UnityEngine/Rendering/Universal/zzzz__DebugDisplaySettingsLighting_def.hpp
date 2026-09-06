@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugDisplaySettingsLighting.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugDisplaySettingsLighting.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,13 +127,13 @@ protected:
   constexpr DebugDisplaySettingsLighting_Strings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_Strings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_Strings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsLighting_Strings(DebugDisplaySettingsLighting_Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_Strings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsLighting_Strings(DebugDisplaySettingsLighting_Strings const&) = delete;
+  DebugDisplaySettingsLighting_Strings(DebugDisplaySettingsLighting_Stringsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12605 };
@@ -144,6 +144,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_Strings) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -183,13 +184,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12606 };
@@ -205,6 +206,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -238,13 +240,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12607 };
@@ -260,6 +262,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -299,13 +302,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12608 };
@@ -349,13 +352,13 @@ protected:
   constexpr DebugDisplaySettingsLighting_WidgetFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_WidgetFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_WidgetFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsLighting_WidgetFactory(DebugDisplaySettingsLighting_WidgetFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_WidgetFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_WidgetFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsLighting_WidgetFactory(DebugDisplaySettingsLighting_WidgetFactory const&) = delete;
+  DebugDisplaySettingsLighting_WidgetFactory(DebugDisplaySettingsLighting_WidgetFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12609 };
@@ -366,6 +369,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_WidgetFactory) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [DisplayInfo(name = "Lighting", order = 3)]
 // Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel`1<T>
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -384,13 +388,13 @@ protected:
   constexpr DebugDisplaySettingsLighting_SettingsPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_SettingsPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_SettingsPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsLighting_SettingsPanel(DebugDisplaySettingsLighting_SettingsPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_SettingsPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsLighting_SettingsPanel(DebugDisplaySettingsLighting_SettingsPanel const&) = delete;
+  DebugDisplaySettingsLighting_SettingsPanel(DebugDisplaySettingsLighting_SettingsPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12610 };
@@ -479,12 +483,15 @@ public:
   /// @brief Method get_IsPostProcessingAllowed, addr 0x683fe00, size 0x14, virtual true, abstract: false, final true
   inline bool get_IsPostProcessingAllowed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hdrDebugMode, addr 0x683fdc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::HDRDebugMode get_hdrDebugMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lightingDebugMode, addr 0x683fda8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugLightingMode get_lightingDebugMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lightingFeatureFlags, addr 0x683fdb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugLightingFeatureFlags get_lightingFeatureFlags();
 
@@ -494,12 +501,15 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_hdrDebugMode, addr 0x683fdd0, size 0x8, virtual false, abstract: false, final false
   inline void set_hdrDebugMode(::UnityEngine::Rendering::Universal::HDRDebugMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lightingDebugMode, addr 0x683fdb0, size 0x8, virtual false, abstract: false, final false
   inline void set_lightingDebugMode(::UnityEngine::Rendering::Universal::DebugLightingMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lightingFeatureFlags, addr 0x683fdc0, size 0x8, virtual false, abstract: false, final false
   inline void set_lightingFeatureFlags(::UnityEngine::Rendering::Universal::DebugLightingFeatureFlags value);
 
@@ -509,23 +519,26 @@ protected:
   constexpr DebugDisplaySettingsLighting();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsLighting(DebugDisplaySettingsLighting&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsLighting(DebugDisplaySettingsLighting const&) = delete;
+  DebugDisplaySettingsLighting(DebugDisplaySettingsLightingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12611 };
 
+  /// [CompilerGenerated]
   /// @brief Field <lightingDebugMode>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugLightingMode ____lightingDebugMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <lightingFeatureFlags>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugLightingFeatureFlags ____lightingFeatureFlags_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hdrDebugMode>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::HDRDebugMode ____hdrDebugMode_k__BackingField;
 

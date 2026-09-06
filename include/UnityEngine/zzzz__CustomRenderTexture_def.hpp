@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CustomRenderTexture.hpp"
+// IWYU pragma private; include "UnityEngine/CustomRenderTexture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class CustomRenderTexture;
 // Write type traits
 MARK_REF_T(::UnityEngine::CustomRenderTexture*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CustomRenderTexture*, "UnityEngine", "CustomRenderTexture");
+// [NativeHeader("Runtime/Graphics/CustomRenderTexture.h")]
+// [UsedByNativeCode]
 // Dependencies UnityEngine.RenderTexture
 namespace UnityEngine {
 // Is value type: false
@@ -25,13 +27,13 @@ protected:
   constexpr CustomRenderTexture();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTexture", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTexture", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomRenderTexture(CustomRenderTexture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTexture", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomRenderTexture(CustomRenderTexture const&) = delete;
+  CustomRenderTexture(CustomRenderTextureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10230 };

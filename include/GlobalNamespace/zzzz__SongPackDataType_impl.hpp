@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongPackDataType.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongPackDataType.hpp"
 #include "GlobalNamespace/zzzz__SongPackDataType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SongPackDataType::SongPackDataType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\MatchTargetFields.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/MatchTargetFields.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MatchTargetFields;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Timeline::MatchTargetFields);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::MatchTargetFields, "UnityEngine.Timeline", "MatchTargetFields");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr MatchTargetFields();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MatchTargetFields(int32_t value__) noexcept;
 
   /// @brief Field PositionX value: I32(1)

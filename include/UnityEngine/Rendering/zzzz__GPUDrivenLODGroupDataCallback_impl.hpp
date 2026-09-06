@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenLODGroupDataCallback.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenLODGroupDataCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenLODGroupDataCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -38,7 +38,7 @@ inline void UnityEngine::Rendering::GPUDrivenLODGroupDataCallback::_ctor(::Syste
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void UnityEngine::Rendering::GPUDrivenLODGroupDataCallback::Invoke(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData) {
+inline void UnityEngine::Rendering::GPUDrivenLODGroupDataCallback::Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, lodGroupData);

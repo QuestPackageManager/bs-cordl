@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\FileShare.hpp"
+// IWYU pragma private; include "System/IO/FileShare.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FileShare;
 // Write type traits
 MARK_VAL_T(::System::IO::FileShare);
 DEFINE_IL2CPP_CLASS(::System::IO::FileShare, "System.IO", "FileShare");
+// [Flags]
 // Dependencies
 namespace System::IO {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr FileShare();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FileShare(int32_t value__) noexcept;
 
   /// @brief Field Delete value: I32(4)

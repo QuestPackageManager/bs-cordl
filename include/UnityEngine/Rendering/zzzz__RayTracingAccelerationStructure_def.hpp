@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RayTracingAccelerationStructure.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RayTracingAccelerationStructure.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,9 +58,11 @@ public:
   /// @brief Method .ctor, addr 0x6b0b57c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_buildFlags, addr 0x6b0b568, size 0x8, virtual false, abstract: false, final false
   inline void set_buildFlags(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_relativeOrigin, addr 0x6b0b570, size 0xc, virtual false, abstract: false, final false
   inline void set_relativeOrigin(::UnityEngine::Vector3 value);
 
@@ -68,8 +70,8 @@ public:
   // @brief default ctor
   constexpr RayTracingAccelerationStructure_BuildSettings();
 
-  // Ctor Parameters [CppParam { name: "_buildFlags_k__BackingField", ty: "::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags", modifiers: "", def_value: None }, CppParam { name:
-  // "_relativeOrigin_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_buildFlags_k__BackingField", ty: "::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_relativeOrigin_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr RayTracingAccelerationStructure_BuildSettings(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags _buildFlags_k__BackingField,
                                                           ::UnityEngine::Vector3 _relativeOrigin_k__BackingField) noexcept;
 
@@ -79,9 +81,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <buildFlags>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags _buildFlags_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <relativeOrigin>k__BackingField, offset: 0x4, size: 0xc, def value: None
   ::UnityEngine::Vector3 _relativeOrigin_k__BackingField;
 
@@ -111,13 +117,13 @@ protected:
   constexpr RayTracingAccelerationStructure_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RayTracingAccelerationStructure_BindingsMarshaller(RayTracingAccelerationStructure_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RayTracingAccelerationStructure_BindingsMarshaller(RayTracingAccelerationStructure_BindingsMarshaller const&) = delete;
+  RayTracingAccelerationStructure_BindingsMarshaller(RayTracingAccelerationStructure_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10772 };
@@ -128,6 +134,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [MovedFrom("UnityEngine.Experimental.Rendering")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -145,6 +152,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [FreeFunction("RayTracingAccelerationStructure_Bindings::Destroy")]
   /// @brief Method Destroy, addr 0x6b0b4e4, size 0x48, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Rendering::RayTracingAccelerationStructure* accelStruct);
 
@@ -172,13 +180,13 @@ protected:
   constexpr RayTracingAccelerationStructure();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RayTracingAccelerationStructure(RayTracingAccelerationStructure&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RayTracingAccelerationStructure(RayTracingAccelerationStructure const&) = delete;
+  RayTracingAccelerationStructure(RayTracingAccelerationStructureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10773 };

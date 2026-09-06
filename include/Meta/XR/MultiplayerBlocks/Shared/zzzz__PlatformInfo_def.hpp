@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\PlatformInfo.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/PlatformInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr PlatformInfo();
 
-  // Ctor Parameters [CppParam { name: "IsEntitled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "OculusUser", ty: "::Oculus::Platform::Models::User*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "IsEntitled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "OculusUser", ty: "::Oculus::Platform::Models::User*", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformInfo(bool IsEntitled, ::StringW Token, ::Oculus::Platform::Models::User* OculusUser) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

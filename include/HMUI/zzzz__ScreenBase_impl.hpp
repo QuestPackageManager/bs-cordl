@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ScreenBase.hpp"
+// IWYU pragma private; include "HMUI/ScreenBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenBase_def.hpp"
 //  Writing Method size for method: ::HMUI::ScreenBase._ctor

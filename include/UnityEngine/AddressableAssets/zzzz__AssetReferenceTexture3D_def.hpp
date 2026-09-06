@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\AssetReferenceTexture3D.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/AssetReferenceTexture3D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ protected:
   constexpr AssetReferenceTexture3D();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetReferenceTexture3D(AssetReferenceTexture3D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetReferenceTexture3D(AssetReferenceTexture3D const&) = delete;
+  AssetReferenceTexture3D(AssetReferenceTexture3Dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19821 };

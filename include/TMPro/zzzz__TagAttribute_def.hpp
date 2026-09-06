@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TagAttribute.hpp"
+// IWYU pragma private; include "TMPro/TagAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr TagAttribute();
 
-  // Ctor Parameters [CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "hashCode", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TagAttribute(int32_t startIndex, int32_t length, int32_t hashCode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

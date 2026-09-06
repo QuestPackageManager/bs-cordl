@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockRandomValueSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockRandomValueSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,26 +102,31 @@ protected:
   constexpr MaterialPropertyBlockRandomValueSetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockRandomValueSetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockRandomValueSetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockRandomValueSetter(MaterialPropertyBlockRandomValueSetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockRandomValueSetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockRandomValueSetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockRandomValueSetter(MaterialPropertyBlockRandomValueSetter const&) = delete;
+  MaterialPropertyBlockRandomValueSetter(MaterialPropertyBlockRandomValueSetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19576 };
 
+  /// [SerializeField]
   /// @brief Field _renderers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Renderer>> ____renderers;
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromRenderer("_renderers", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)3)]
   /// @brief Field _propertyName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____propertyName;
 
+  /// [SerializeField]
   /// @brief Field _minValue, offset: 0x30, size: 0x4, def value: None
   float_t ____minValue;
 
+  /// [SerializeField]
   /// @brief Field _maxValue, offset: 0x34, size: 0x4, def value: None
   float_t ____maxValue;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\Disposables\DisposableExtensions.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/Disposables/DisposableExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,9 @@ class DisposableExtensions;
 // Write type traits
 MARK_REF_T(::BGLib::DotnetExtension::Disposables::DisposableExtensions*);
 DEFINE_IL2CPP_CLASS(::BGLib::DotnetExtension::Disposables::DisposableExtensions*, "BGLib.DotnetExtension.Disposables", "DisposableExtensions");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace BGLib::DotnetExtension::Disposables {
 // Is value type: false
@@ -28,9 +31,11 @@ namespace BGLib::DotnetExtension::Disposables {
 class CORDL_TYPE DisposableExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AddTo, addr 0x3310c08, size 0x1c, virtual false, abstract: false, final false
   static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::CompositeDisposable* compositeDisposable);
 
+  /// [Extension]
   /// @brief Method AddTo, addr 0x3310c24, size 0x1c, virtual false, abstract: false, final false
   static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* compositeDisposable);
 
@@ -40,13 +45,13 @@ protected:
   constexpr DisposableExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisposableExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisposableExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisposableExtensions(DisposableExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisposableExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisposableExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisposableExtensions(DisposableExtensions const&) = delete;
+  DisposableExtensions(DisposableExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20515 };

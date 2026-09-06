@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\UnconnectedMessageType.hpp"
+// IWYU pragma private; include "LiteNetLib/UnconnectedMessageType.hpp"
 #include "LiteNetLib/zzzz__UnconnectedMessageType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::LiteNetLib::UnconnectedMessageType::UnconnectedMessageType(int32_t value__) noexcept {
   this->value__ = value__;
 }

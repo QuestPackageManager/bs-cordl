@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Queue.hpp"
+// IWYU pragma private; include "System/Collections/Queue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,13 +129,13 @@ protected:
   constexpr Queue_QueueEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Queue_QueueEnumerator(Queue_QueueEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Queue_QueueEnumerator(Queue_QueueEnumerator const&) = delete;
+  Queue_QueueEnumerator(Queue_QueueEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3706 };
@@ -179,13 +179,13 @@ protected:
   constexpr Queue_QueueDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueDebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Queue_QueueDebugView(Queue_QueueDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Queue_QueueDebugView(Queue_QueueDebugView const&) = delete;
+  Queue_QueueDebugView(Queue_QueueDebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3707 };
@@ -196,6 +196,8 @@ public:
 static_assert(sizeof(::System::Collections::Queue_QueueDebugView) == 0x10, "Size mismatch!");
 
 } // namespace System::Collections
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Queue::QueueDebugView))]
 // Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
@@ -353,13 +355,13 @@ protected:
   constexpr Queue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Queue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Queue(Queue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Queue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Queue(Queue const&) = delete;
+  Queue(Queueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3708 };

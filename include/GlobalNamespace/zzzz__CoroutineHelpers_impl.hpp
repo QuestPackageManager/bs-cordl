@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CoroutineHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace/CoroutineHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CoroutineHelpers_def.hpp"
 #include "GlobalNamespace/zzzz__CoroutineHelpers_def.hpp"
@@ -172,6 +172,7 @@ inline ::System::Object* GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCor
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0* GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0*>(__1__state));
 }
@@ -351,6 +352,7 @@ inline ::System::Object* GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1* GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1*>(__1__state));
 }

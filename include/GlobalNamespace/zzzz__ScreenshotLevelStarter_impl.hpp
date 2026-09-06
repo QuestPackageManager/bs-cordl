@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenshotLevelStarter.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenshotLevelStarter.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -37,8 +37,8 @@
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__WaitForEndOfFrame_def.hpp"
-// Ctor Parameters [CppParam { name: "framerate", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "screenshotPeriod", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "overwriteExistingFolder", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "framerate", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "screenshotPeriod", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "overwriteExistingFolder", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings::RunScreenshotLevelData_ScreenshotLevelStarter_Settings(int32_t framerate, float_t screenshotPeriod,
                                                                                                                                             bool overwriteExistingFolder) noexcept {
   this->framerate = framerate;
@@ -86,8 +86,8 @@ inline ::GlobalNamespace::BeatmapKey GlobalNamespace::RunScreenshotLevelData_Scr
                                                                                          { "ToBeatmapKey", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelsModel*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapKey>(*this, ___internal_method, beatmapLevels);
 }
-// Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "characteristic", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "difficulty", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "characteristic", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "difficulty", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey(::StringW levelId,
                                                                                                                                                                     ::StringW characteristic,
                                                                                                                                                                     ::StringW difficulty) noexcept {
@@ -97,10 +97,10 @@ constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Seria
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey() {}
-// Ctor Parameters [CppParam { name: "beatmapKey", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "screenshotTimes", ty: "::System::Collections::Generic::List_1<float_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "overrideGlobalSettings", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "settings", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "differenceThreshold", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "beatmapKey", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "screenshotTimes", ty: "::System::Collections::Generic::List_1<float_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overrideGlobalSettings", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "settings", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "differenceThreshold", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command::RunScreenshotLevelData_ScreenshotLevelStarter_Command(
     ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey beatmapKey, ::System::Collections::Generic::List_1<float_t>* screenshotTimes, bool overrideGlobalSettings,
     ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings settings, float_t differenceThreshold) noexcept {
@@ -112,9 +112,10 @@ constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Comma
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command::RunScreenshotLevelData_ScreenshotLevelStarter_Command() {}
-// Ctor Parameters [CppParam { name: "command", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameSettings",
-// ty: "::BeatSaber::Settings::Settings", modifiers: "", def_value: Some("{}") }, CppParam { name: "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "command", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "gameSettings", ty: "::BeatSaber::Settings::Settings", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "playerSpecificSettings", ty:
+// "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_FolderMetadata::RunScreenshotLevelData_ScreenshotLevelStarter_FolderMetadata(
     ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command, ::BeatSaber::Settings::Settings gameSettings, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers) noexcept {
@@ -125,9 +126,9 @@ constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Folde
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_FolderMetadata::RunScreenshotLevelData_ScreenshotLevelStarter_FolderMetadata() {}
-// Ctor Parameters [CppParam { name: "deviceUID", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "deviceName", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "deviceType", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "devicePlatform", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "deviceModel", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "deviceUID", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "deviceName", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "deviceType", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "devicePlatform", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "deviceModel", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata::RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata(::StringW deviceUID, ::StringW deviceName,
                                                                                                                                                         ::StringW deviceType, ::StringW devicePlatform,
                                                                                                                                                         ::StringW deviceModel) noexcept {
@@ -139,14 +140,14 @@ constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Devic
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata::RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata() {}
-// Ctor Parameters [CppParam { name: "gameVersion", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "gameVersion", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata::RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata(::StringW gameVersion) noexcept {
   this->gameVersion = gameVersion;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata::RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata() {}
-// Ctor Parameters [CppParam { name: "globalScreenshotSettings", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "screenshotLevels", ty: "::ArrayW<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "globalScreenshotSettings", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "screenshotLevels", ty: "::ArrayW<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ScreenshotLevelStarter_RunScreenshotLevelData::ScreenshotLevelStarter_RunScreenshotLevelData(
     ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings globalScreenshotSettings,
     ::ArrayW<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command> screenshotLevels) noexcept {
@@ -709,6 +710,7 @@ inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotL
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(__1__state));
 }
@@ -890,6 +892,7 @@ inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotL
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(__1__state));
 }
@@ -1306,8 +1309,9 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::ScreenshotLevelStart
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method, command);
 }
 inline void GlobalNamespace::ScreenshotLevelStarter::SaveMetadata(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command, ::StringW metadataFolderPath,
-                                                                  ::by_ref<::BeatSaber::Settings::Settings> settings, ::by_ref<::GlobalNamespace::PlayerSpecificSettings*> playerSpecificSettings,
-                                                                  ::by_ref<::GlobalNamespace::GameplayModifiers*> gameplayModifiers) {
+                                                                  /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings,
+                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::PlayerSpecificSettings*> playerSpecificSettings,
+                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayModifiers*> gameplayModifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
                                                            { "SaveMetadata",
@@ -1322,7 +1326,7 @@ inline void GlobalNamespace::ScreenshotLevelStarter::SaveDeviceMetadata(::String
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "SaveDeviceMetadata", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, metadataFolderPath);
 }
-inline void GlobalNamespace::ScreenshotLevelStarter::SaveBuildSpecificMetadata(::StringW metadataFolderPath, ::by_ref<::StringW> gameVersion) {
+inline void GlobalNamespace::ScreenshotLevelStarter::SaveBuildSpecificMetadata(::StringW metadataFolderPath, /* [IsReadOnly] */ ::by_ref<::StringW> gameVersion) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
                                                                                          { "SaveBuildSpecificMetadata", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, metadataFolderPath, gameVersion);

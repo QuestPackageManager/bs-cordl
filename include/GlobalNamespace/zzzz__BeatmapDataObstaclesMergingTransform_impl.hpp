@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataObstaclesMergingTransform.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataObstaclesMergingTransform.hpp"
 #include "GlobalNamespace/zzzz__ObstacleData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataObstaclesMergingTransform_def.hpp"

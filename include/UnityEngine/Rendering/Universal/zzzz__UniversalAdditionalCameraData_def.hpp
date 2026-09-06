@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalAdditionalCameraData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalAdditionalCameraData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,6 +89,7 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*);
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*, "UnityEngine.Rendering.Universal", "UniversalAdditionalCameraData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*, "UnityEngine.Rendering.Universal", "UniversalAdditionalCameraData/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -124,13 +125,13 @@ protected:
   constexpr UniversalAdditionalCameraData___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalAdditionalCameraData___c(UniversalAdditionalCameraData___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalAdditionalCameraData___c(UniversalAdditionalCameraData___c const&) = delete;
+  UniversalAdditionalCameraData___c(UniversalAdditionalCameraData___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12992 };
@@ -141,6 +142,9 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(UnityEngine.Camera))]
+// [ExecuteAlways]
 // Dependencies UnityEngine.LayerMask, UnityEngine.MonoBehaviour, UnityEngine.Rendering.Universal.AntialiasingMode, UnityEngine.Rendering.Universal.AntialiasingQuality,
 // UnityEngine.Rendering.Universal.CameraOverrideOption, UnityEngine.Rendering.Universal.CameraRenderType, UnityEngine.Rendering.Universal.TemporalAA::Settings,
 // UnityEngine.Rendering.Universal.VolumeFrameworkUpdateMode, UnityEngine.Vector4
@@ -699,13 +703,13 @@ protected:
   constexpr UniversalAdditionalCameraData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalAdditionalCameraData(UniversalAdditionalCameraData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalAdditionalCameraData(UniversalAdditionalCameraData const&) = delete;
+  UniversalAdditionalCameraData(UniversalAdditionalCameraDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12993 };
@@ -722,75 +726,102 @@ public:
   /// @brief Field k_PostProcessingGizmoPath offset 0xffffffff size 0x8
   static constexpr ::ConstString k_PostProcessingGizmoPath{ u"Packages/com.unity.render-pipelines.universal/Editor/Gizmos/Camera_PostProcessing.png" };
 
+  /// [FormerlySerializedAs("renderShadows")]
+  /// [SerializeField]
   /// @brief Field m_RenderShadows, offset: 0x20, size: 0x1, def value: None
   bool ___m_RenderShadows;
 
+  /// [SerializeField]
   /// @brief Field m_RequiresDepthTextureOption, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::CameraOverrideOption ___m_RequiresDepthTextureOption;
 
+  /// [SerializeField]
   /// @brief Field m_RequiresOpaqueTextureOption, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::CameraOverrideOption ___m_RequiresOpaqueTextureOption;
 
+  /// [SerializeField]
   /// @brief Field m_CameraType, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::CameraRenderType ___m_CameraType;
 
+  /// [SerializeField]
   /// @brief Field m_Cameras, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* ___m_Cameras;
 
+  /// [SerializeField]
   /// @brief Field m_RendererIndex, offset: 0x38, size: 0x4, def value: None
   int32_t ___m_RendererIndex;
 
+  /// [SerializeField]
   /// @brief Field m_VolumeLayerMask, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_VolumeLayerMask;
 
+  /// [SerializeField]
   /// @brief Field m_VolumeTrigger, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___m_VolumeTrigger;
 
+  /// [SerializeField]
   /// @brief Field m_VolumeFrameworkUpdateModeOption, offset: 0x48, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode ___m_VolumeFrameworkUpdateModeOption;
 
+  /// [SerializeField]
   /// @brief Field m_RenderPostProcessing, offset: 0x4c, size: 0x1, def value: None
   bool ___m_RenderPostProcessing;
 
+  /// [SerializeField]
   /// @brief Field m_Antialiasing, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::AntialiasingMode ___m_Antialiasing;
 
+  /// [SerializeField]
   /// @brief Field m_AntialiasingQuality, offset: 0x54, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::AntialiasingQuality ___m_AntialiasingQuality;
 
+  /// [SerializeField]
   /// @brief Field m_StopNaN, offset: 0x58, size: 0x1, def value: None
   bool ___m_StopNaN;
 
+  /// [SerializeField]
   /// @brief Field m_Dithering, offset: 0x59, size: 0x1, def value: None
   bool ___m_Dithering;
 
+  /// [SerializeField]
   /// @brief Field m_ClearDepth, offset: 0x5a, size: 0x1, def value: None
   bool ___m_ClearDepth;
 
+  /// [SerializeField]
   /// @brief Field m_AllowXRRendering, offset: 0x5b, size: 0x1, def value: None
   bool ___m_AllowXRRendering;
 
+  /// [SerializeField]
   /// @brief Field m_AllowHDROutput, offset: 0x5c, size: 0x1, def value: None
   bool ___m_AllowHDROutput;
 
+  /// [SerializeField]
   /// @brief Field m_UseScreenCoordOverride, offset: 0x5d, size: 0x1, def value: None
   bool ___m_UseScreenCoordOverride;
 
+  /// [SerializeField]
   /// @brief Field m_ScreenSizeOverride, offset: 0x60, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_ScreenSizeOverride;
 
+  /// [SerializeField]
   /// @brief Field m_ScreenCoordScaleBias, offset: 0x70, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_ScreenCoordScaleBias;
 
   /// @brief Field m_Camera, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ___m_Camera;
 
+  /// [FormerlySerializedAs("requiresDepthTexture")]
+  /// [SerializeField]
   /// @brief Field m_RequiresDepthTexture, offset: 0x88, size: 0x1, def value: None
   bool ___m_RequiresDepthTexture;
 
+  /// [FormerlySerializedAs("requiresColorTexture")]
+  /// [SerializeField]
   /// @brief Field m_RequiresColorTexture, offset: 0x89, size: 0x1, def value: None
   bool ___m_RequiresColorTexture;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_Version, offset: 0x8c, size: 0x4, def value: None
   float_t ___m_Version;
 
@@ -800,6 +831,7 @@ public:
   /// @brief Field m_History, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraHistory* ___m_History;
 
+  /// [SerializeField]
   /// @brief Field m_TaaSettings, offset: 0xa0, size: 0x20, def value: None
   ::UnityEngine::Rendering::Universal::TemporalAA_Settings ___m_TaaSettings;
 

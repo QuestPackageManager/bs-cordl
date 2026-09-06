@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\TypedObject.hpp"
+// IWYU pragma private; include "System/Xml/Schema/TypedObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,13 +87,13 @@ protected:
   constexpr TypedObject_DecimalStruct();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypedObject_DecimalStruct", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedObject_DecimalStruct", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypedObject_DecimalStruct(TypedObject_DecimalStruct&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypedObject_DecimalStruct", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedObject_DecimalStruct", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypedObject_DecimalStruct(TypedObject_DecimalStruct const&) = delete;
+  TypedObject_DecimalStruct(TypedObject_DecimalStructconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9582 };
@@ -230,13 +230,13 @@ protected:
   constexpr TypedObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypedObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypedObject(TypedObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypedObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypedObject(TypedObject const&) = delete;
+  TypedObject(TypedObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9583 };

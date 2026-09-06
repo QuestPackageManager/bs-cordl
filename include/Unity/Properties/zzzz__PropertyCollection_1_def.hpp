@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PropertyCollection_1.hpp"
+// IWYU pragma private; include "Unity/Properties/PropertyCollection_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,7 +98,7 @@ public:
   // @brief default ctor
   constexpr PropertyCollection_1_EnumeratorType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PropertyCollection_1_EnumeratorType(int32_t value__) noexcept;
 
   /// @brief Field Empty value: I32(0)
@@ -170,6 +170,8 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1_Enumerator<::Unity::Properties::IProperty_1<TContainer>*> properties);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::Unity::Properties::IProperty_1<TContainer>* get_Current();
 
@@ -183,6 +185,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Current, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Current(::Unity::Properties::IProperty_1<TContainer>* value);
 
@@ -190,11 +193,11 @@ public:
   // @brief default ctor
   constexpr PropertyCollection_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Type", ty: "::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer>", modifiers: "", def_value: None }, CppParam { name: "m_Enumerator", ty:
-  // "::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: None }, CppParam { name: "m_Properties", ty:
-  // "::System::Collections::Generic::List_1_Enumerator<::Unity::Properties::IProperty_1<TContainer>*>", modifiers: "", def_value: None }, CppParam { name: "m_IndexedCollectionPropertyBag", ty:
-  // "::Unity::Properties::IndexedCollectionPropertyBagEnumerator_1<TContainer>", modifiers: "", def_value: None }, CppParam { name: "_Current_k__BackingField", ty:
-  // "::Unity::Properties::IProperty_1<TContainer>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Type", ty: "::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Enumerator", ty: "::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Properties", ty: "::System::Collections::Generic::List_1_Enumerator<::Unity::Properties::IProperty_1<TContainer>*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_IndexedCollectionPropertyBag", ty: "::Unity::Properties::IndexedCollectionPropertyBagEnumerator_1<TContainer>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_Current_k__BackingField", ty: "::Unity::Properties::IProperty_1<TContainer>*", modifiers: "", def_value: None, comment: None }]
   constexpr PropertyCollection_1_Enumerator(::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer> m_Type,
                                             ::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TContainer>*>* m_Enumerator,
                                             ::System::Collections::Generic::List_1_Enumerator<::Unity::Properties::IProperty_1<TContainer>*> m_Properties,
@@ -219,6 +222,8 @@ public:
   /// @brief Field m_IndexedCollectionPropertyBag, offset: 0x28, size: 0x20, def value: None
   ::Unity::Properties::IndexedCollectionPropertyBagEnumerator_1<TContainer> m_IndexedCollectionPropertyBag;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Current>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::Unity::Properties::IProperty_1<TContainer>* _Current_k__BackingField;
 
@@ -226,6 +231,7 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Properties
+// [IsReadOnly]
 // Dependencies Unity.Properties.IndexedCollectionPropertyBagEnumerable`1<TContainer>, Unity.Properties.PropertyCollection`1::EnumeratorType<TContainer>
 namespace Unity::Properties {
 // cpp template
@@ -268,6 +274,7 @@ public:
 
   static inline ::Unity::Properties::PropertyCollection_1<TContainer> getStaticF__Empty_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Empty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyCollection_1<TContainer> get_Empty();
 
@@ -284,10 +291,10 @@ public:
   // @brief default ctor
   constexpr PropertyCollection_1();
 
-  // Ctor Parameters [CppParam { name: "m_Type", ty: "::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer>", modifiers: "", def_value: None }, CppParam { name: "m_Enumerable", ty:
-  // "::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: None }, CppParam { name: "m_Properties", ty:
-  // "::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: None }, CppParam { name: "m_IndexedCollectionPropertyBag", ty:
-  // "::Unity::Properties::IndexedCollectionPropertyBagEnumerable_1<TContainer>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Type", ty: "::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Enumerable", ty: "::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Properties", ty: "::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_IndexedCollectionPropertyBag", ty: "::Unity::Properties::IndexedCollectionPropertyBagEnumerable_1<TContainer>", modifiers: "", def_value: None, comment: None }]
   constexpr PropertyCollection_1(::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer> m_Type,
                                  ::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TContainer>*>* m_Enumerable,
                                  ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>* m_Properties,

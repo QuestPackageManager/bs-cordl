@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\SafeStringMarshal.hpp"
+// IWYU pragma private; include "Mono/SafeStringMarshal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,8 @@ public:
   // @brief default ctor
   constexpr SafeStringMarshal();
 
-  // Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "marshaled_string", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "marshaled_string", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr SafeStringMarshal(::StringW str, ::System::IntPtr marshaled_string) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

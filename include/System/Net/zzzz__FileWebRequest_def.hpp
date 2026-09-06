@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FileWebRequest.hpp"
+// IWYU pragma private; include "System/Net/FileWebRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -188,6 +188,7 @@ public:
   /// @brief Method GetResponseCallback, addr 0x64233a4, size 0x338, virtual false, abstract: false, final false
   static inline void GetResponseCallback(::System::Object* state);
 
+  /// @brief [Obsolete("Serialization is obsoleted for this type. http://go.microsoft.com/fwlink/?linkid=14202")]
   static inline ::System::Net::FileWebRequest* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Net::FileWebRequest* New_ctor(::System::Uri* uri);
@@ -319,6 +320,7 @@ public:
 
   constexpr void __cordl_internal_set_m_writing(bool value);
 
+  /// [Obsolete("Serialization is obsoleted for this type. http://go.microsoft.com/fwlink/?linkid=14202")]
   /// @brief Method .ctor, addr 0x6421748, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -390,13 +392,13 @@ protected:
   constexpr FileWebRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileWebRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileWebRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileWebRequest(FileWebRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileWebRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileWebRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileWebRequest(FileWebRequest const&) = delete;
+  FileWebRequest(FileWebRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11558 };

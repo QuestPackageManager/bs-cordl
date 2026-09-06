@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\KdTree\HyperRect_1.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/HyperRect_1.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__HyperRect_1_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
 template <typename T> inline ::ArrayW<T> UnityEngine::ProBuilder::KdTree::HyperRect_1<T>::get_MinPoint() {
@@ -37,7 +37,8 @@ template <typename T> inline ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T> U
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::KdTree::HyperRect_1<T>>(), { "Clone", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::KdTree::HyperRect_1<T>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "minPoint", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxPoint", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "minPoint", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxPoint", ty: "::ArrayW<T>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 template <typename T> constexpr ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T>::HyperRect_1(::ArrayW<T> minPoint, ::ArrayW<T> maxPoint) noexcept {
   this->minPoint = minPoint;
   this->maxPoint = maxPoint;

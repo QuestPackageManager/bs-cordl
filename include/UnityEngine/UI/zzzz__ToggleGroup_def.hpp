@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\ToggleGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UI/ToggleGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ MARK_REF_T(::UnityEngine::UI::ToggleGroup*);
 MARK_REF_T(::UnityEngine::UI::ToggleGroup___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::ToggleGroup*, "UnityEngine.UI", "ToggleGroup");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::ToggleGroup___c*, "UnityEngine.UI", "ToggleGroup/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -81,13 +82,13 @@ protected:
   constexpr ToggleGroup___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleGroup___c(ToggleGroup___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleGroup___c(ToggleGroup___c const&) = delete;
+  ToggleGroup___c(ToggleGroup___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17502 };
@@ -98,6 +99,8 @@ public:
 static_assert(sizeof(::UnityEngine::UI::ToggleGroup___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("UI/Toggle Group", 31)]
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.EventSystems.UIBehaviour
 namespace UnityEngine::UI {
 // Is value type: false
@@ -177,17 +180,18 @@ protected:
   constexpr ToggleGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleGroup(ToggleGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleGroup(ToggleGroup const&) = delete;
+  ToggleGroup(ToggleGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17503 };
 
+  /// [SerializeField]
   /// @brief Field m_AllowSwitchOff, offset: 0x20, size: 0x1, def value: None
   bool ___m_AllowSwitchOff;
 

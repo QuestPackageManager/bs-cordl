@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnsafeQueueData.hpp"
+// IWYU pragma private; include "Unity/Collections/UnsafeQueueData.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueData_def.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_def.hpp"
@@ -64,6 +64,7 @@ inline void Unity::Collections::UnsafeQueueData::SetCurrentWriteBlockTLS(int32_t
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, threadIndex, currentWriteBlock);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::UnsafeQueueBlockHeader* Unity::Collections::UnsafeQueueData::AllocateWriteBlockMT(::Unity::Collections::UnsafeQueueData* data,
                                                                                                                ::Unity::Collections::UnsafeQueueBlockPoolData* pool, int32_t threadIndex) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -76,6 +77,7 @@ inline ::Unity::Collections::UnsafeQueueBlockHeader* Unity::Collections::UnsafeQ
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::UnsafeQueueBlockHeader*>(nullptr, ___internal_method, data, pool, threadIndex);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::UnsafeQueueData::AllocateQueue(::Unity::Collections::AllocatorManager_AllocatorHandle label, ::by_ref<::Unity::Collections::UnsafeQueueData*> outBuf) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueData>(),
@@ -95,9 +97,9 @@ inline void Unity::Collections::UnsafeQueueData::DeallocateQueue(::Unity::Collec
                                                                ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, pool, allocation);
 }
-// Ctor Parameters [CppParam { name: "m_FirstBlock", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LastBlock", ty: "::System::IntPtr", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_MaxItems", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentRead", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "m_CurrentWriteBlockTLS", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_FirstBlock", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LastBlock", ty: "::System::IntPtr", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MaxItems", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentRead", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentWriteBlockTLS", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::UnsafeQueueData::UnsafeQueueData(::System::IntPtr m_FirstBlock, ::System::IntPtr m_LastBlock, int32_t m_MaxItems, int32_t m_CurrentRead,
                                                                  uint8_t* m_CurrentWriteBlockTLS) noexcept {
   this->m_FirstBlock = m_FirstBlock;

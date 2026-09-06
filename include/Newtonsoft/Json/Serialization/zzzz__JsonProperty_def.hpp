@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonProperty.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonProperty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,9 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -69,6 +71,8 @@ class JsonProperty;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::JsonProperty*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonProperty*, "Newtonsoft.Json.Serialization", "JsonProperty");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.DefaultValueHandling, Newtonsoft.Json.NullValueHandling, Newtonsoft.Json.ObjectCreationHandling, Newtonsoft.Json.ReferenceLoopHandling, Newtonsoft.Json.Required,
 // Newtonsoft.Json.TypeNameHandling, System.Nullable`1<T>, System.Object
 namespace Newtonsoft::Json::Serialization {
@@ -87,6 +91,7 @@ public:
 
   __declspec(property(get = get_DefaultValueHandling, put = set_DefaultValueHandling)) ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> DefaultValueHandling;
 
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_GetIsSpecified, put = set_GetIsSpecified)) ::System::Predicate_1<::System::Object*>* GetIsSpecified;
 
   __declspec(property(get = get_HasMemberAttribute, put = set_HasMemberAttribute)) bool HasMemberAttribute;
@@ -105,6 +110,7 @@ public:
 
   __declspec(property(get = get_ItemTypeNameHandling, put = set_ItemTypeNameHandling)) ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ItemTypeNameHandling;
 
+  /// @brief [Obsolete("MemberConverter is obsolete. Use Converter instead.")]
   __declspec(property(get = get_MemberConverter, put = set_MemberConverter)) ::Newtonsoft::Json::JsonConverter* MemberConverter;
 
   __declspec(property(get = get_NullValueHandling, put = set_NullValueHandling)) ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> NullValueHandling;
@@ -125,10 +131,13 @@ public:
 
   __declspec(property(get = get_Required, put = set_Required)) ::Newtonsoft::Json::Required Required;
 
+  /// @brief [Nullable(new[] { 2, 1, 2 })]
   __declspec(property(get = get_SetIsSpecified, put = set_SetIsSpecified)) ::System::Action_2<::System::Object*, ::System::Object*>* SetIsSpecified;
 
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_ShouldDeserialize, put = set_ShouldDeserialize)) ::System::Predicate_1<::System::Object*>* ShouldDeserialize;
 
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_ShouldSerialize, put = set_ShouldSerialize)) ::System::Predicate_1<::System::Object*>* ShouldSerialize;
 
   __declspec(property(get = get_TypeNameHandling, put = set_TypeNameHandling)) ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> TypeNameHandling;
@@ -263,9 +272,11 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::JsonProperty* New_ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method ToString, addr 0x5d447f0, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [NullableContext(1)]
   /// @brief Method WritePropertyName, addr 0x5d44850, size 0x58, virtual false, abstract: false, final false
   inline void WritePropertyName(::Newtonsoft::Json::JsonWriter* writer);
 
@@ -464,60 +475,76 @@ public:
   /// @brief Method .ctor, addr 0x5d3919c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AttributeProvider, addr 0x5d44590, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::IAttributeProvider* get_AttributeProvider();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Converter, addr 0x5d445a8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* get_Converter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DeclaringType, addr 0x5d44550, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
   /// @brief Method get_DefaultValue, addr 0x5d39840, size 0x18, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DefaultValueHandling, addr 0x5d44770, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> get_DefaultValueHandling();
 
+  /// [CompilerGenerated]
   /// @brief Method get_GetIsSpecified, addr 0x5d447d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Predicate_1<::System::Object*>* get_GetIsSpecified();
 
+  /// [CompilerGenerated]
   /// @brief Method get_HasMemberAttribute, addr 0x5d445f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasMemberAttribute();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Ignored, addr 0x5d445c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Ignored();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReference, addr 0x5d44750, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_IsReference();
 
   /// @brief Method get_IsRequiredSpecified, addr 0x5d4470c, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsRequiredSpecified();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ItemConverter, addr 0x5d44810, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ItemIsReference, addr 0x5d44820, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ItemIsReference();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ItemReferenceLoopHandling, addr 0x5d44840, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ItemTypeNameHandling, addr 0x5d44830, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
 
   /// @brief Method get_MemberConverter, addr 0x5d445b8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* get_MemberConverter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_NullValueHandling, addr 0x5d44760, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> get_NullValueHandling();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ObjectCreationHandling, addr 0x5d44790, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> get_ObjectCreationHandling();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Order, addr 0x5d44560, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Order();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PropertyContract, addr 0x5d44538, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_PropertyContract();
 
@@ -527,87 +554,112 @@ public:
   /// @brief Method get_PropertyType, addr 0x5d445a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Readable, addr 0x5d445d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Readable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReferenceLoopHandling, addr 0x5d44780, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ReferenceLoopHandling();
 
   /// @brief Method get_Required, addr 0x5d44028, size 0x44, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Required get_Required();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SetIsSpecified, addr 0x5d447e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::System::Object*, ::System::Object*>* get_SetIsSpecified();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ShouldDeserialize, addr 0x5d447c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Predicate_1<::System::Object*>* get_ShouldDeserialize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ShouldSerialize, addr 0x5d447b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Predicate_1<::System::Object*>* get_ShouldSerialize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TypeNameHandling, addr 0x5d447a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_TypeNameHandling();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UnderlyingName, addr 0x5d44570, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_UnderlyingName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ValueProvider, addr 0x5d44580, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::IValueProvider* get_ValueProvider();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Writable, addr 0x5d445e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Writable();
 
+  /// [CompilerGenerated]
   /// @brief Method set_AttributeProvider, addr 0x5d44598, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeProvider(::Newtonsoft::Json::Serialization::IAttributeProvider* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Converter, addr 0x5d445b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Converter(::Newtonsoft::Json::JsonConverter* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DeclaringType, addr 0x5d44558, size 0x8, virtual false, abstract: false, final false
   inline void set_DeclaringType(::System::Type* value);
 
   /// @brief Method set_DefaultValue, addr 0x5d39858, size 0x10, virtual false, abstract: false, final false
   inline void set_DefaultValue(::System::Object* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DefaultValueHandling, addr 0x5d44778, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValueHandling(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_GetIsSpecified, addr 0x5d447d8, size 0x8, virtual false, abstract: false, final false
-  inline void set_GetIsSpecified(::System::Predicate_1<::System::Object*>* value);
+  inline void set_GetIsSpecified(/* [Nullable(new[] { 2, 1 })] */ ::System::Predicate_1<::System::Object*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_HasMemberAttribute, addr 0x5d44600, size 0x8, virtual false, abstract: false, final false
   inline void set_HasMemberAttribute(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Ignored, addr 0x5d445d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Ignored(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsReference, addr 0x5d44758, size 0x8, virtual false, abstract: false, final false
   inline void set_IsReference(::System::Nullable_1<bool> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ItemConverter, addr 0x5d44818, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ItemIsReference, addr 0x5d44828, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemIsReference(::System::Nullable_1<bool> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ItemReferenceLoopHandling, addr 0x5d44848, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ItemTypeNameHandling, addr 0x5d44838, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
   /// @brief Method set_MemberConverter, addr 0x5d445c0, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberConverter(::Newtonsoft::Json::JsonConverter* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_NullValueHandling, addr 0x5d44768, size 0x8, virtual false, abstract: false, final false
   inline void set_NullValueHandling(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ObjectCreationHandling, addr 0x5d44798, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectCreationHandling(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Order, addr 0x5d44568, size 0x8, virtual false, abstract: false, final false
   inline void set_Order(::System::Nullable_1<int32_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_PropertyContract, addr 0x5d44540, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
@@ -617,33 +669,42 @@ public:
   /// @brief Method set_PropertyType, addr 0x5d391a0, size 0x44, virtual false, abstract: false, final false
   inline void set_PropertyType(::System::Type* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Readable, addr 0x5d445e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Readable(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReferenceLoopHandling, addr 0x5d44788, size 0x8, virtual false, abstract: false, final false
   inline void set_ReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
   /// @brief Method set_Required, addr 0x5d446b4, size 0x58, virtual false, abstract: false, final false
   inline void set_Required(::Newtonsoft::Json::Required value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SetIsSpecified, addr 0x5d447e8, size 0x8, virtual false, abstract: false, final false
-  inline void set_SetIsSpecified(::System::Action_2<::System::Object*, ::System::Object*>* value);
+  inline void set_SetIsSpecified(/* [Nullable(new[] { 2, 1, 2 })] */ ::System::Action_2<::System::Object*, ::System::Object*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ShouldDeserialize, addr 0x5d447c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_ShouldDeserialize(::System::Predicate_1<::System::Object*>* value);
+  inline void set_ShouldDeserialize(/* [Nullable(new[] { 2, 1 })] */ ::System::Predicate_1<::System::Object*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ShouldSerialize, addr 0x5d447b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_ShouldSerialize(::System::Predicate_1<::System::Object*>* value);
+  inline void set_ShouldSerialize(/* [Nullable(new[] { 2, 1 })] */ ::System::Predicate_1<::System::Object*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TypeNameHandling, addr 0x5d447a8, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_UnderlyingName, addr 0x5d44578, size 0x8, virtual false, abstract: false, final false
   inline void set_UnderlyingName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ValueProvider, addr 0x5d44588, size 0x8, virtual false, abstract: false, final false
   inline void set_ValueProvider(::Newtonsoft::Json::Serialization::IValueProvider* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Writable, addr 0x5d445f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Writable(bool value);
 
@@ -653,13 +714,13 @@ protected:
   constexpr JsonProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonProperty(JsonProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonProperty(JsonProperty const&) = delete;
+  JsonProperty(JsonPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13513 };
@@ -685,78 +746,107 @@ public:
   /// @brief Field _propertyType, offset: 0x40, size: 0x8, def value: None
   ::System::Type* ____propertyType;
 
+  /// [CompilerGenerated]
   /// @brief Field <PropertyContract>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonContract* ____PropertyContract_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DeclaringType>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::System::Type* ____DeclaringType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Order>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::System::Nullable_1<int32_t> ____Order_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <UnderlyingName>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::StringW ____UnderlyingName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ValueProvider>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::IValueProvider* ____ValueProvider_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AttributeProvider>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::IAttributeProvider* ____AttributeProvider_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Converter>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonConverter* ____Converter_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Ignored>k__BackingField, offset: 0x80, size: 0x1, def value: None
   bool ____Ignored_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Readable>k__BackingField, offset: 0x81, size: 0x1, def value: None
   bool ____Readable_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Writable>k__BackingField, offset: 0x82, size: 0x1, def value: None
   bool ____Writable_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <HasMemberAttribute>k__BackingField, offset: 0x83, size: 0x1, def value: None
   bool ____HasMemberAttribute_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsReference>k__BackingField, offset: 0x84, size: 0x2, def value: None
   ::System::Nullable_1<bool> ____IsReference_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <NullValueHandling>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> ____NullValueHandling_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DefaultValueHandling>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> ____DefaultValueHandling_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ReferenceLoopHandling>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> ____ReferenceLoopHandling_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ObjectCreationHandling>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> ____ObjectCreationHandling_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TypeNameHandling>k__BackingField, offset: 0xa8, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ____TypeNameHandling_k__BackingField;
 
+  /// [Nullable(new[] { 2, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field <ShouldSerialize>k__BackingField, offset: 0xb0, size: 0x8, def value: None
   ::System::Predicate_1<::System::Object*>* ____ShouldSerialize_k__BackingField;
 
+  /// [Nullable(new[] { 2, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field <ShouldDeserialize>k__BackingField, offset: 0xb8, size: 0x8, def value: None
   ::System::Predicate_1<::System::Object*>* ____ShouldDeserialize_k__BackingField;
 
+  /// [Nullable(new[] { 2, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field <GetIsSpecified>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::System::Predicate_1<::System::Object*>* ____GetIsSpecified_k__BackingField;
 
+  /// [Nullable(new[] { 2, 1, 2 })]
+  /// [CompilerGenerated]
   /// @brief Field <SetIsSpecified>k__BackingField, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_2<::System::Object*, ::System::Object*>* ____SetIsSpecified_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ItemConverter>k__BackingField, offset: 0xd0, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonConverter* ____ItemConverter_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ItemIsReference>k__BackingField, offset: 0xd8, size: 0x2, def value: None
   ::System::Nullable_1<bool> ____ItemIsReference_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ItemTypeNameHandling>k__BackingField, offset: 0xdc, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ____ItemTypeNameHandling_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ItemReferenceLoopHandling>k__BackingField, offset: 0xe4, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> ____ItemReferenceLoopHandling_k__BackingField;
 

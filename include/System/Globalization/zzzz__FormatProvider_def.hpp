@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\FormatProvider.hpp"
+// IWYU pragma private; include "System/Globalization/FormatProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,8 +63,8 @@ public:
   // @brief default ctor
   constexpr Number_FormatProvider_NumberBuffer();
 
-  // Ctor Parameters [CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sign",
-  // ty: "bool", modifiers: "", def_value: None }, CppParam { name: "overrideDigits", ty: "char16_t*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "sign", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "overrideDigits", ty: "char16_t*", modifiers: "", def_value: None, comment: None }]
   constexpr Number_FormatProvider_NumberBuffer(int32_t precision, int32_t scale, bool sign, char16_t* overrideDigits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -228,13 +228,13 @@ protected:
   constexpr FormatProvider_Number();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormatProvider_Number", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormatProvider_Number", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FormatProvider_Number(FormatProvider_Number&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormatProvider_Number", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormatProvider_Number", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormatProvider_Number(FormatProvider_Number const&) = delete;
+  FormatProvider_Number(FormatProvider_Numberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21850 };
@@ -268,13 +268,13 @@ protected:
   constexpr FormatProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormatProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormatProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FormatProvider(FormatProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormatProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormatProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormatProvider(FormatProvider const&) = delete;
+  FormatProvider(FormatProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21851 };

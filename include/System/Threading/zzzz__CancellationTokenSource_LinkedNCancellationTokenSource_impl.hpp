@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\CancellationTokenSource_LinkedNCancellationTokenSource.hpp"
+// IWYU pragma private; include "System/Threading/CancellationTokenSource_LinkedNCancellationTokenSource.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_LinkedNCancellationTokenSource_def.hpp"
@@ -55,7 +55,7 @@ inline void GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSou
 inline ::System::Action_1<::System::Object*>* GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource::getStaticF_s_linkedTokenCancelDelegate() {
   return ::cordl_internals::getStaticField<::System::Action_1<::System::Object*>*, "s_linkedTokenCancelDelegate", ::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource*>();
 }
-inline void GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource::_ctor(::ArrayW<::System::Threading::CancellationToken> tokens) {
+inline void GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource::_ctor(/* [ParamArray] */ ::ArrayW<::System::Threading::CancellationToken> tokens) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Threading::CancellationToken>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tokens);
@@ -66,7 +66,7 @@ inline void GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSou
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
 }
 inline ::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource*
-GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource::New_ctor(::ArrayW<::System::Threading::CancellationToken> tokens) {
+GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource::New_ctor(/* [ParamArray] */ ::ArrayW<::System::Threading::CancellationToken> tokens) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource*>(tokens));
 }
 // Ctor Parameters []

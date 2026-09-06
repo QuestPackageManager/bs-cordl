@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\MergeNullValueHandling.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/MergeNullValueHandling.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MergeNullValueHandling;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::Linq::MergeNullValueHandling);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::MergeNullValueHandling, "Newtonsoft.Json.Linq", "MergeNullValueHandling");
+// [Flags]
 // Dependencies
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr MergeNullValueHandling();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MergeNullValueHandling(int32_t value__) noexcept;
 
   /// @brief Field Ignore value: I32(0)

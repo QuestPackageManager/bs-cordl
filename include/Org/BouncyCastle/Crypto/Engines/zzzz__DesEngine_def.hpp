@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\DesEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/DesEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -176,13 +176,13 @@ protected:
   constexpr DesEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesEngine(DesEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesEngine(DesEngine const&) = delete;
+  DesEngine(DesEngineconst&) = delete;
 
   /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x8) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassRendererSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,15 +118,16 @@ public:
   // @brief default ctor
   constexpr BloomPrePassRendererSO_InputData();
 
-  // Ctor Parameters [CppParam { name: "limitAlpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "useCollision", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "minAlpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxAlpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startAlpha", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "calculatedLength", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "multiplyLengthByAlphaBloomFogMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "multiplyLengthByAlphaMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "center", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "lightWidthMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "endWidth", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "boostToWhite", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bloomFogIntensityMultiplier", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "limitAlpha", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "useCollision", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "minAlpha", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxAlpha", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "startAlpha", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "length", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "calculatedLength", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "multiplyLengthByAlphaBloomFogMultiplier", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "multiplyLengthByAlphaMultiplier", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "center", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightWidthMultiplier", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "startWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "endWidth", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "boostToWhite", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bloomFogIntensityMultiplier",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }]
   constexpr BloomPrePassRendererSO_InputData(float_t limitAlpha, float_t useCollision, float_t minAlpha, float_t maxAlpha, float_t startAlpha, float_t endAlpha, float_t length,
                                              float_t calculatedLength, float_t multiplyLengthByAlphaBloomFogMultiplier, float_t multiplyLengthByAlphaMultiplier, float_t center,
                                              float_t lightWidthMultiplier, float_t startWidth, float_t endWidth, float_t boostToWhite, float_t bloomFogIntensityMultiplier, ::UnityEngine::Color color,
@@ -270,13 +271,13 @@ protected:
   constexpr BloomPrePassRendererSO_PreallocationData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO_PreallocationData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO_PreallocationData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRendererSO_PreallocationData(BloomPrePassRendererSO_PreallocationData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO_PreallocationData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO_PreallocationData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererSO_PreallocationData(BloomPrePassRendererSO_PreallocationData const&) = delete;
+  BloomPrePassRendererSO_PreallocationData(BloomPrePassRendererSO_PreallocationDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19478 };
@@ -399,13 +400,13 @@ protected:
   constexpr BloomPrePassRendererSO_LightsRenderingData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO_LightsRenderingData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO_LightsRenderingData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRendererSO_LightsRenderingData(BloomPrePassRendererSO_LightsRenderingData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO_LightsRenderingData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO_LightsRenderingData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererSO_LightsRenderingData(BloomPrePassRendererSO_LightsRenderingData const&) = delete;
+  BloomPrePassRendererSO_LightsRenderingData(BloomPrePassRendererSO_LightsRenderingDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19479 };
@@ -672,23 +673,27 @@ protected:
   constexpr BloomPrePassRendererSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRendererSO(BloomPrePassRendererSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererSO(BloomPrePassRendererSO const&) = delete;
+  BloomPrePassRendererSO(BloomPrePassRendererSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19480 };
 
+  /// [SerializeField]
   /// @brief Field _bloomFog, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _preallocationData, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_PreallocationData*> ____preallocationData;
 
+  /// [SerializeField]
   /// @brief Field _computeShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ____computeShader;
 

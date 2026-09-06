@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PanelChangedEventBase_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PanelChangedEventBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,15 +10,19 @@ class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class PanelChangedEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class PanelChangedEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::PanelChangedEventBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::PanelChangedEventBase_1, "UnityEngine.UIElements", "PanelChangedEventBase`1");
+// [EventCategory((UnityEngine.UIElements.EventCategory)12)]
 // Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.PanelChangedEventBase`1<T>
 class CORDL_TYPE PanelChangedEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
@@ -62,15 +66,19 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_destinationPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IPanel* get_destinationPanel();
 
+  /// [CompilerGenerated]
   /// @brief Method get_originPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IPanel* get_originPanel();
 
+  /// [CompilerGenerated]
   /// @brief Method set_destinationPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_destinationPanel(::UnityEngine::UIElements::IPanel* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_originPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_originPanel(::UnityEngine::UIElements::IPanel* value);
 
@@ -80,20 +88,24 @@ protected:
   constexpr PanelChangedEventBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PanelChangedEventBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelChangedEventBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PanelChangedEventBase_1(PanelChangedEventBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PanelChangedEventBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelChangedEventBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelChangedEventBase_1(PanelChangedEventBase_1 const&) = delete;
+  PanelChangedEventBase_1(PanelChangedEventBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4525 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <originPanel>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____originPanel_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <destinationPanel>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____destinationPanel_k__BackingField;
 

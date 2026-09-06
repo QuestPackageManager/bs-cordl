@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BufferedLightColorGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/BufferedLightColorGroupEffect.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"

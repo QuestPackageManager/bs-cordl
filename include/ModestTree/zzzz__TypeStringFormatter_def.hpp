@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\TypeStringFormatter.hpp"
+// IWYU pragma private; include "ModestTree/TypeStringFormatter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ MARK_REF_T(::ModestTree::TypeStringFormatter*);
 MARK_REF_T(::ModestTree::TypeStringFormatter___c*);
 DEFINE_IL2CPP_CLASS(::ModestTree::TypeStringFormatter*, "ModestTree", "TypeStringFormatter");
 DEFINE_IL2CPP_CLASS(::ModestTree::TypeStringFormatter___c*, "ModestTree", "TypeStringFormatter/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
@@ -65,13 +66,13 @@ protected:
   constexpr TypeStringFormatter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeStringFormatter___c(TypeStringFormatter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeStringFormatter___c(TypeStringFormatter___c const&) = delete;
+  TypeStringFormatter___c(TypeStringFormatter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13975 };
@@ -82,6 +83,7 @@ public:
 static_assert(sizeof(::ModestTree::TypeStringFormatter___c) == 0x10, "Size mismatch!");
 
 } // namespace ModestTree
+// [Extension]
 // Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
@@ -97,9 +99,11 @@ public:
   /// @brief Method GetCSharpTypeName, addr 0x6e41ef0, size 0x38c, virtual false, abstract: false, final false
   static inline ::StringW GetCSharpTypeName(::StringW typeName);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e41990, size 0xc4, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
+  /// [Extension]
   /// @brief Method PrettyName, addr 0x6e3fe20, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW PrettyName(::System::Type* type);
 
@@ -116,13 +120,13 @@ protected:
   constexpr TypeStringFormatter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeStringFormatter(TypeStringFormatter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeStringFormatter(TypeStringFormatter const&) = delete;
+  TypeStringFormatter(TypeStringFormatterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13976 };

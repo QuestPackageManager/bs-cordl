@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConditionalMove.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConditionalMove.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,23 +64,26 @@ protected:
   constexpr ConditionalMove();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalMove(ConditionalMove&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalMove(ConditionalMove const&) = delete;
+  ConditionalMove(ConditionalMoveconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6658 };
 
+  /// [SerializeField]
   /// @brief Field _offset, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____offset;
 
+  /// [SerializeField]
   /// @brief Field _value, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____value;
 
+  /// [SerializeField]
   /// @brief Field _activateOnFalse, offset: 0x38, size: 0x1, def value: None
   bool ____activateOnFalse;
 

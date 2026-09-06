@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CloudsMeshGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace/CloudsMeshGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,10 +77,11 @@ public:
   // @brief default ctor
   constexpr CloudsMeshGenerator_Cloud();
 
-  // Ctor Parameters [CppParam { name: "precisionOpaqueMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "lowPolyMesh", ty:
-  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "sizeModifier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bottomThreshold", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "precisionVertexCount", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "lowPolyVertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "generatedCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "precisionOpaqueMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lowPolyMesh", ty:
+  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sizeModifier", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "bottomThreshold", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "weight", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "precisionVertexCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lowPolyVertexCount", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "generatedCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CloudsMeshGenerator_Cloud(::UnityW<::UnityEngine::Mesh> precisionOpaqueMesh, ::UnityW<::UnityEngine::Mesh> lowPolyMesh, float_t sizeModifier, float_t bottomThreshold, int32_t weight,
                                       int32_t precisionVertexCount, int32_t lowPolyVertexCount, int32_t generatedCount) noexcept;
 
@@ -105,6 +106,7 @@ public:
   /// @brief Field weight, offset: 0x18, size: 0x4, def value: None
   int32_t weight;
 
+  /// [Header("Information only")]
   /// @brief Field precisionVertexCount, offset: 0x1c, size: 0x4, def value: None
   int32_t precisionVertexCount;
 
@@ -147,9 +149,9 @@ public:
   // @brief default ctor
   constexpr CloudsMeshGenerator_Ring();
 
-  // Ctor Parameters [CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "normalizedRadius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "meshCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cloudIDs", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "sizeMultiplier", ty:
-  // "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "normalizedRadius", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "meshCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cloudIDs", ty: "::ArrayW<int32_t>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "sizeMultiplier", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr CloudsMeshGenerator_Ring(float_t radius, float_t normalizedRadius, int32_t meshCount, ::ArrayW<int32_t> cloudIDs, float_t sizeMultiplier) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -200,8 +202,8 @@ public:
   // @brief default ctor
   constexpr CloudsMeshGenerator_ProhibitedRadius();
 
-  // Ctor Parameters [CppParam { name: "transform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "transform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "distance", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr CloudsMeshGenerator_ProhibitedRadius(::UnityW<::UnityEngine::Transform> transform, float_t distance, float_t radius) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -210,12 +212,14 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field transform, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> transform;
 
   /// @brief Field distance, offset: 0x8, size: 0x4, def value: None
   float_t distance;
 
+  /// [Min(0.1)]
   /// @brief Field radius, offset: 0xc, size: 0x4, def value: None
   float_t radius;
 
@@ -242,8 +246,9 @@ public:
   // @brief default ctor
   constexpr CloudsMeshGenerator_RadiusChunk();
 
-  // Ctor Parameters [CppParam { name: "normalizedStart", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "normalizedEnd", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "absoluteStart", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "absoluteEnd", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "normalizedStart", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "normalizedEnd", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "absoluteStart", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "absoluteEnd", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr CloudsMeshGenerator_RadiusChunk(float_t normalizedStart, float_t normalizedEnd, float_t absoluteStart, float_t absoluteEnd) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -603,98 +608,143 @@ protected:
   constexpr CloudsMeshGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CloudsMeshGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CloudsMeshGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CloudsMeshGenerator(CloudsMeshGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CloudsMeshGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CloudsMeshGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CloudsMeshGenerator(CloudsMeshGenerator const&) = delete;
+  CloudsMeshGenerator(CloudsMeshGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22020 };
 
+  /// [SerializeField]
   /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
+  /// [SerializeField]
   /// @brief Field _meshName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____meshName;
 
+  /// [Header("Pause")]
+  /// [SerializeField]
   /// @brief Field _pauseGenerator, offset: 0x30, size: 0x1, def value: None
   bool ____pauseGenerator;
 
+  /// [Header("Bottom Push")]
+  /// [SerializeField]
   /// @brief Field _bottomPushEnabled, offset: 0x31, size: 0x1, def value: None
   bool ____bottomPushEnabled;
 
+  /// [SerializeField]
+  /// [DrawIf("_bottomPushEnabled", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _bottomPushDistance, offset: 0x34, size: 0x4, def value: None
   float_t ____bottomPushDistance;
 
+  /// [SerializeField]
+  /// [DrawIf("_bottomPushEnabled", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _bottomScaleTopBottom, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____bottomScaleTopBottom;
 
+  /// [SerializeField]
+  /// [DrawIf("_bottomPushEnabled", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _bottomHorizontalScale, offset: 0x40, size: 0x4, def value: None
   float_t ____bottomHorizontalScale;
 
+  /// [Header("Radius Prohibition")]
+  /// [SerializeField]
   /// @brief Field _drawRingGizmos, offset: 0x44, size: 0x1, def value: None
   bool ____drawRingGizmos;
 
+  /// [SerializeField]
   /// @brief Field _prohibitedRadii, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::CloudsMeshGenerator_ProhibitedRadius> ____prohibitedRadii;
 
+  /// [Header("Size Settings")]
+  /// [SerializeField]
   /// @brief Field _meshSize, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____meshSize;
 
+  /// [SerializeField]
+  /// [Range(0, 2)]
   /// @brief Field _sizeRandomness, offset: 0x58, size: 0x4, def value: None
   float_t ____sizeRandomness;
 
+  /// [SerializeField]
+  /// [Range(0, 1)]
   /// @brief Field _ratioRandomness, offset: 0x5c, size: 0x4, def value: None
   float_t ____ratioRandomness;
 
+  /// [Header("Settings")]
+  /// [SerializeField]
+  /// [Tooltip("To prevent clipping")]
+  /// [Range(0.01, 0.4)]
   /// @brief Field _perMeshRadiusOffset, offset: 0x60, size: 0x4, def value: None
   float_t ____perMeshRadiusOffset;
 
+  /// [SerializeField]
   /// @brief Field _possibleColors, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Gradient* ____possibleColors;
 
+  /// [SerializeField]
+  /// [Range(0, 256)]
   /// @brief Field _randomSeed, offset: 0x70, size: 0x4, def value: None
   int32_t ____randomSeed;
 
+  /// [SerializeField]
   /// @brief Field _heightRandomness, offset: 0x74, size: 0x4, def value: None
   float_t ____heightRandomness;
 
+  /// [SerializeField]
   /// @brief Field _ringRotationRandomness, offset: 0x78, size: 0x4, def value: None
   float_t ____ringRotationRandomness;
 
+  /// [SerializeField]
+  /// [Min(1)]
   /// @brief Field _ringCount, offset: 0x7c, size: 0x4, def value: None
   int32_t ____ringCount;
 
+  /// [SerializeField]
   /// @brief Field _meshesPerRadius, offset: 0x80, size: 0x4, def value: None
   float_t ____meshesPerRadius;
 
+  /// [Header("Close Far Settings")]
+  /// [SerializeField]
   /// @brief Field _radiusCloseFar, offset: 0x84, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radiusCloseFar;
 
+  /// [SerializeField]
   /// @brief Field _sizeCloseFar, offset: 0x8c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____sizeCloseFar;
 
+  /// [SerializeField]
   /// @brief Field _heightCloseFar, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____heightCloseFar;
 
+  /// [SerializeField]
   /// @brief Field _lowPolyThreshold, offset: 0xa0, size: 0x4, def value: None
   float_t ____lowPolyThreshold;
 
+  /// [Header("Debug")]
+  /// [SerializeField]
   /// @brief Field _flipNormals, offset: 0xa4, size: 0x1, def value: None
   bool ____flipNormals;
 
+  /// [SerializeField]
   /// @brief Field _curveMesh, offset: 0xa5, size: 0x1, def value: None
   bool ____curveMesh;
 
+  /// [SerializeField]
   /// @brief Field _clouds, offset: 0xa8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::CloudsMeshGenerator_Cloud> ____clouds;
 
+  /// [Header("Info")]
+  /// [SerializeField]
   /// @brief Field _meshCount, offset: 0xb0, size: 0x4, def value: None
   int32_t ____meshCount;
 
+  /// [SerializeField]
   /// @brief Field _vertexCount, offset: 0xb4, size: 0x4, def value: None
   int32_t ____vertexCount;
 

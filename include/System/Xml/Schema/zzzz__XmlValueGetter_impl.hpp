@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlValueGetter.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlValueGetter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlValueGetter_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

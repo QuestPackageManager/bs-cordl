@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputRemoting.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputRemoting.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_impl.hpp"
@@ -18,7 +18,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputRemoting_MessageType::InputRemoting_MessageType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -34,8 +34,9 @@ constexpr ::UnityEngine::InputSystem::InputRemoting_MessageType UnityEngine::Inp
 constexpr ::UnityEngine::InputSystem::InputRemoting_MessageType UnityEngine::InputSystem::InputRemoting_MessageType::ChangeUsages{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::InputSystem::InputRemoting_MessageType UnityEngine::InputSystem::InputRemoting_MessageType::StartSending{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::InputSystem::InputRemoting_MessageType UnityEngine::InputSystem::InputRemoting_MessageType::StopSending{ static_cast<int32_t>(0x9) };
-// Ctor Parameters [CppParam { name: "participantId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "::UnityEngine::InputSystem::InputRemoting_MessageType",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "participantId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty:
+// "::UnityEngine::InputSystem::InputRemoting_MessageType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputRemoting_Message::InputRemoting_Message(int32_t participantId, ::UnityEngine::InputSystem::InputRemoting_MessageType type, ::ArrayW<uint8_t> data) noexcept {
   this->participantId = participantId;
   this->type = type;
@@ -43,7 +44,7 @@ constexpr ::UnityEngine::InputSystem::InputRemoting_Message::InputRemoting_Messa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputRemoting_Message::InputRemoting_Message() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputRemoting_Flags::InputRemoting_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -51,8 +52,8 @@ constexpr ::UnityEngine::InputSystem::InputRemoting_Flags::InputRemoting_Flags(i
 constexpr ::UnityEngine::InputSystem::InputRemoting_Flags::InputRemoting_Flags() {}
 constexpr ::UnityEngine::InputSystem::InputRemoting_Flags UnityEngine::InputSystem::InputRemoting_Flags::Sending{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::InputRemoting_Flags UnityEngine::InputSystem::InputRemoting_Flags::StartSendingOnConnect{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "remoteId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "localId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "remoteId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localId", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice::InputRemoting_RemoteInputDevice(int32_t remoteId, int32_t localId,
                                                                                                        ::UnityEngine::InputSystem::Layouts::InputDeviceDescription description) noexcept {
   this->remoteId = remoteId;
@@ -61,9 +62,9 @@ constexpr ::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice::InputRemo
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice::InputRemoting_RemoteInputDevice() {}
-// Ctor Parameters [CppParam { name: "senderId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "layouts", ty:
-// "::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString>", modifiers: "", def_value: Some("{}") }, CppParam { name: "devices", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "senderId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "layouts", ty:
+// "::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "devices", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputRemoting_RemoteSender::InputRemoting_RemoteSender(int32_t senderId, ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> layouts,
                                                                                              ::ArrayW<::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice> devices) noexcept {
   this->senderId = senderId;
@@ -227,8 +228,8 @@ inline void UnityEngine::InputSystem::InputRemoting_DisconnectMsg::Process(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputRemoting_DisconnectMsg::InputRemoting_DisconnectMsg() {}
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "layoutJson", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "isOverride", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "layoutJson", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "isOverride", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::NewLayoutMsg_InputRemoting_Data::NewLayoutMsg_InputRemoting_Data(::StringW name, ::StringW layoutJson, bool isOverride) noexcept {
   this->name = name;
   this->layoutJson = layoutJson;
@@ -283,9 +284,9 @@ inline void UnityEngine::InputSystem::InputRemoting_NewLayoutMsg::Process(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputRemoting_NewLayoutMsg::InputRemoting_NewLayoutMsg() {}
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "layout", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "deviceId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "usages", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "layout", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "deviceId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "usages", ty: "::ArrayW<::StringW>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting_Data::NewDeviceMsg_InputRemoting_Data(::StringW name, ::StringW layout, int32_t deviceId, ::ArrayW<::StringW> usages,
                                                                                                        ::UnityEngine::InputSystem::Layouts::InputDeviceDescription description) noexcept {
   this->name = name;
@@ -482,7 +483,8 @@ inline void UnityEngine::InputSystem::InputRemoting_NewEventsMsg::Process(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputRemoting_NewEventsMsg::InputRemoting_NewEventsMsg() {}
-// Ctor Parameters [CppParam { name: "deviceId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "usages", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "deviceId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "usages", ty: "::ArrayW<::StringW>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting_Data::ChangeUsageMsg_InputRemoting_Data(int32_t deviceId, ::ArrayW<::StringW> usages) noexcept {
   this->deviceId = deviceId;
   this->usages = usages;

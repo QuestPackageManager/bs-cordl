@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongTimeAnimationPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongTimeAnimationPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,20 +58,22 @@ protected:
   constexpr SongTimeAnimationPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeAnimationPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeAnimationPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongTimeAnimationPlayer(SongTimeAnimationPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeAnimationPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeAnimationPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongTimeAnimationPlayer(SongTimeAnimationPlayer const&) = delete;
+  SongTimeAnimationPlayer(SongTimeAnimationPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5587 };
 
+  /// [SerializeField]
   /// @brief Field _animationClip, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____animationClip;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 

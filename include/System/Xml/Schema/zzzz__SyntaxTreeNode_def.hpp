@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SyntaxTreeNode.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SyntaxTreeNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
 
   __declspec(property(get = get_IsRangeNode)) bool IsRangeNode;
 
-  /// @brief Method ConstructPos, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
 
-  /// @brief Method ExpandTree, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::SyntaxTreeNode* New_ctor();
@@ -47,7 +47,7 @@ public:
   /// @brief Method .ctor, addr 0x631e99c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsNullable();
 
   /// @brief Method get_IsRangeNode, addr 0x631e994, size 0x8, virtual true, abstract: false, final false
@@ -59,13 +59,13 @@ protected:
   constexpr SyntaxTreeNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SyntaxTreeNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SyntaxTreeNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SyntaxTreeNode(SyntaxTreeNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SyntaxTreeNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SyntaxTreeNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SyntaxTreeNode(SyntaxTreeNode const&) = delete;
+  SyntaxTreeNode(SyntaxTreeNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9589 };

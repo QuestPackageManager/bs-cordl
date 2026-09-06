@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore\IgnoranceClient.hpp"
+// IWYU pragma private; include "IgnoranceCore/IgnoranceClient.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceClient_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceClientStats_def.hpp"
@@ -11,11 +11,12 @@
 #include "IgnoranceThirdparty/zzzz__RingBuffer_1_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Port", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Verbosity", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "UseSsl", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "ValidateCertificate", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "RootCertificatePath", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "RootCertificate", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Port", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Address", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "UseSsl", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ValidateCertificate", ty: "bool", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "RootCertificatePath", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RootCertificate", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::IgnoranceCore::IgnoranceClient_ThreadParamInfo::IgnoranceClient_ThreadParamInfo(int32_t Channels, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity,
                                                                                             ::StringW Address, bool UseSsl, bool ValidateCertificate, ::StringW RootCertificatePath,
                                                                                             ::StringW RootCertificate) noexcept {

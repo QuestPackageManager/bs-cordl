@@ -1,6 +1,8 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GenericLogger.hpp"
+// IWYU pragma private; include "GlobalNamespace/GenericLogger.hpp"
+#include "GlobalNamespace/zzzz__IVerboseLogger_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GenericLogger_def.hpp"
 #include "GlobalNamespace/zzzz__GenericLogger_def.hpp"
 #include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
@@ -129,7 +131,9 @@ inline void GlobalNamespace::GenericLogger::Log(::GlobalNamespace::IVerboseLogge
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GenericLogger*>(), { "Log", {}, { ::i2c::type_of<::GlobalNamespace::IVerboseLogger*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, logger, message);
 }
-template <typename T> inline void GlobalNamespace::GenericLogger::Log(T logger, ::StringW message) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IVerboseLogger*>)
+inline void GlobalNamespace::GenericLogger::Log(T logger, ::StringW message) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GenericLogger*>(), { "Log", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

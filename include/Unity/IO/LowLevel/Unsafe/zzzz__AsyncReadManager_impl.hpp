@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\AsyncReadManager.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/AsyncReadManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__AsyncReadManager_def.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__FileHandle_def.hpp"
@@ -190,14 +190,14 @@ inline ::Unity::IO::LowLevel::Unsafe::ReadHandle Unity::IO::LowLevel::Unsafe::As
                                                            { "GetFileInfo", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Unity::IO::LowLevel::Unsafe::FileInfoResult*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::IO::LowLevel::Unsafe::ReadHandle>(nullptr, ___internal_method, filename, result);
 }
-inline ::Unity::IO::LowLevel::Unsafe::ReadHandle Unity::IO::LowLevel::Unsafe::AsyncReadManager::ReadWithHandlesInternal_NativeCopy(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle,
-                                                                                                                                   void* readCmdArray) {
+inline ::Unity::IO::LowLevel::Unsafe::ReadHandle
+Unity::IO::LowLevel::Unsafe::AsyncReadManager::ReadWithHandlesInternal_NativeCopy(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, void* readCmdArray) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::AsyncReadManager*>(),
                                               { "ReadWithHandlesInternal_NativeCopy", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>(), ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::IO::LowLevel::Unsafe::ReadHandle>(nullptr, ___internal_method, fileHandle, readCmdArray);
 }
-inline ::Unity::IO::LowLevel::Unsafe::ReadHandle Unity::IO::LowLevel::Unsafe::AsyncReadManager::Read(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle,
+inline ::Unity::IO::LowLevel::Unsafe::ReadHandle Unity::IO::LowLevel::Unsafe::AsyncReadManager::Read(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle,
                                                                                                      ::Unity::IO::LowLevel::Unsafe::ReadCommandArray readCmdArray) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -215,7 +215,8 @@ inline ::Unity::IO::LowLevel::Unsafe::FileHandle Unity::IO::LowLevel::Unsafe::As
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::AsyncReadManager*>(), { "OpenFileAsync", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::IO::LowLevel::Unsafe::FileHandle>(nullptr, ___internal_method, fileName);
 }
-inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::AsyncReadManager::CloseFileAsync(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, ::Unity::Jobs::JobHandle dependency) {
+inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::AsyncReadManager::CloseFileAsync(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle,
+                                                                                              ::Unity::Jobs::JobHandle dependency) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::AsyncReadManager*>(),
                                               { "CloseFileAsync", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>(), ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
@@ -230,8 +231,8 @@ inline void Unity::IO::LowLevel::Unsafe::AsyncReadManager::GetFileInfoInternal_I
                                                                                              ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, filename, cmd, ret);
 }
-inline void Unity::IO::LowLevel::Unsafe::AsyncReadManager::ReadWithHandlesInternal_NativeCopy_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, void* readCmdArray,
-                                                                                                       ::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> ret) {
+inline void Unity::IO::LowLevel::Unsafe::AsyncReadManager::ReadWithHandlesInternal_NativeCopy_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle,
+                                                                                                       void* readCmdArray, ::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> ret) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::AsyncReadManager*>(),
                                                                                          { "ReadWithHandlesInternal_NativeCopy_Injected",
                                                                                            {},
@@ -248,8 +249,8 @@ inline void Unity::IO::LowLevel::Unsafe::AsyncReadManager::OpenFileAsync_Interna
                                                 { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, fileName, ret);
 }
-inline void Unity::IO::LowLevel::Unsafe::AsyncReadManager::CloseFileAsync_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, ::by_ref<::Unity::Jobs::JobHandle> dependency,
-                                                                                   ::by_ref<::Unity::Jobs::JobHandle> ret) {
+inline void Unity::IO::LowLevel::Unsafe::AsyncReadManager::CloseFileAsync_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle,
+                                                                                   ::by_ref<::Unity::Jobs::JobHandle> dependency, ::by_ref<::Unity::Jobs::JobHandle> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::AsyncReadManager*>(),
                                                            { "CloseFileAsync_Injected",

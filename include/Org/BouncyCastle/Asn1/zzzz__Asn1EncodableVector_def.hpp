@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1EncodableVector.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1EncodableVector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class Asn1EncodableVector;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Asn1::Asn1EncodableVector*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Asn1::Asn1EncodableVector*, "Org.BouncyCastle.Asn1", "Asn1EncodableVector");
+// [DefaultMember("Item")]
 // Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, System.Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
@@ -54,13 +55,13 @@ public:
   inline void Add(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
   /// @brief Method Add, addr 0x367fc04, size 0x6c, virtual false, abstract: false, final false
-  inline void Add(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
+  inline void Add(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
 
   /// @brief Method AddAll, addr 0x36810e8, size 0x164, virtual false, abstract: false, final false
   inline void AddAll(::Org::BouncyCastle::Asn1::Asn1EncodableVector* other);
 
   /// @brief Method AddOptional, addr 0x3681078, size 0x6c, virtual false, abstract: false, final false
-  inline void AddOptional(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
+  inline void AddOptional(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
 
   /// @brief Method AddOptionalTagged, addr 0x36785e4, size 0x9c, virtual false, abstract: false, final false
   inline void AddOptionalTagged(bool isExplicit, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
@@ -81,7 +82,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* New_ctor(int32_t initialCapacity);
 
-  static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v);
+  static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v);
 
   /// @brief Method Reallocate, addr 0x3680fb0, size 0xc8, virtual false, abstract: false, final false
   inline void Reallocate(int32_t minCapacity);
@@ -114,7 +115,7 @@ public:
   inline void _ctor(int32_t initialCapacity);
 
   /// @brief Method .ctor, addr 0x36785b8, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v);
 
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> getStaticF_EmptyElements();
 
@@ -135,13 +136,13 @@ protected:
   constexpr Asn1EncodableVector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1EncodableVector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1EncodableVector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1EncodableVector(Asn1EncodableVector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1EncodableVector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1EncodableVector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1EncodableVector(Asn1EncodableVector const&) = delete;
+  Asn1EncodableVector(Asn1EncodableVectorconst&) = delete;
 
   /// @brief Field DefaultCapacity offset 0xffffffff size 0x4
   static constexpr int32_t DefaultCapacity{ static_cast<int32_t>(0xa) };

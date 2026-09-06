@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRKeyboard.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRKeyboard.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,10 +49,10 @@ public:
   // @brief default ctor
   constexpr OVRKeyboard_TrackedKeyboardState();
 
-  // Ctor Parameters [CppParam { name: "isPositionValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPositionTracked", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "isOrientationValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isOrientationTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "position", ty:
-  // "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "timeInSeconds", ty:
-  // "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "isPositionValid", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isPositionTracked", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "isOrientationValid", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isOrientationTracked", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "timeInSeconds", ty: "double_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRKeyboard_TrackedKeyboardState(bool isPositionValid, bool isPositionTracked, bool isOrientationValid, bool isOrientationTracked, ::UnityEngine::Vector3 position,
                                              ::UnityEngine::Quaternion rotation, double_t timeInSeconds) noexcept;
 
@@ -114,9 +114,10 @@ public:
   // @brief default ctor
   constexpr OVRKeyboard_TrackedKeyboardInfo();
 
-  // Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Identifier", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Dimensions", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "KeyboardFlags", ty: "::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags", modifiers: "", def_value:
-  // None }, CppParam { name: "SupportedPresentationStyles", ty: "::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Identifier", ty: "uint64_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Dimensions", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "KeyboardFlags", ty:
+  // "::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "SupportedPresentationStyles", ty:
+  // "::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles", modifiers: "", def_value: None, comment: None }]
   constexpr OVRKeyboard_TrackedKeyboardInfo(::StringW Name, uint64_t Identifier, ::UnityEngine::Vector3 Dimensions, ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags KeyboardFlags,
                                             ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles SupportedPresentationStyles) noexcept;
 
@@ -157,6 +158,8 @@ static_assert(offsetof(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo, Suppo
 static_assert(sizeof(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Feature((Meta.XR.Util.Feature)8)]
+// [Obsolete("The TrackedKeyboard feature has been removed as of v72. For real-time object tracking such as physical keyboards, we recommend using Trackables in MR Utility Kit.", true)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -183,13 +186,13 @@ protected:
   constexpr OVRKeyboard();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRKeyboard(OVRKeyboard&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRKeyboard(OVRKeyboard const&) = delete;
+  OVRKeyboard(OVRKeyboardconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7776 };

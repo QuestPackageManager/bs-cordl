@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BlurredCoverImageView.hpp"
+// IWYU pragma private; include "GlobalNamespace/BlurredCoverImageView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::GlobalNamespace::BlurredCoverImageView*);
 MARK_VAL_T(::GlobalNamespace::BlurredCoverImageView__SetTextureAsync_d__7);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BlurredCoverImageView*, "", "BlurredCoverImageView");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BlurredCoverImageView__SetTextureAsync_d__7, "", "BlurredCoverImageView/<SetTextureAsync>d__7");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -60,6 +61,7 @@ public:
   /// @brief Method MoveNext, addr 0x596b680, size 0x894, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x596bf14, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -70,11 +72,11 @@ public:
   // @brief default ctor
   constexpr BlurredCoverImageView__SetTextureAsync_d__7();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::BlurredCoverImageView>", modifiers:
-  // "", def_value: None }, CppParam { name: "level", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::BlurredCoverImageView>", modifiers: "", def_value: None, comment: None }, CppParam { name: "level", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None, comment: None }]
   constexpr BlurredCoverImageView__SetTextureAsync_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                         ::UnityW<::GlobalNamespace::BlurredCoverImageView> __4__this, ::GlobalNamespace::BeatmapLevel* level,
                                                         ::System::Threading::CancellationToken _cancellationToken_5__2,
@@ -154,6 +156,7 @@ public:
   /// @brief Method OnDestroy, addr 0x596b518, size 0xb4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [AsyncStateMachine(typeof(BlurredCoverImageView::<SetTextureAsync>d__7))]
   /// @brief Method SetTextureAsync, addr 0x596b5cc, size 0xb0, virtual false, abstract: false, final false
   inline void SetTextureAsync(::GlobalNamespace::BeatmapLevel* level);
 
@@ -202,20 +205,23 @@ protected:
   constexpr BlurredCoverImageView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlurredCoverImageView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlurredCoverImageView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlurredCoverImageView(BlurredCoverImageView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlurredCoverImageView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlurredCoverImageView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlurredCoverImageView(BlurredCoverImageView const&) = delete;
+  BlurredCoverImageView(BlurredCoverImageViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7003 };
 
+  /// [SerializeField]
   /// @brief Field _coverImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____coverImage;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _kawaseBlurRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> ____kawaseBlurRenderer;
 

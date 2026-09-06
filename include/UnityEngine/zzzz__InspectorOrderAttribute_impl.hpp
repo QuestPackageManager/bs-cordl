@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InspectorOrderAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/InspectorOrderAttribute.hpp"
 #include "UnityEngine/zzzz__InspectorSortDirection_impl.hpp"
 #include "UnityEngine/zzzz__InspectorSort_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"

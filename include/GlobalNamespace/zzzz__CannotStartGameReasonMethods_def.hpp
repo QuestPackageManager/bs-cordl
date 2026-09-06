@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CannotStartGameReasonMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace/CannotStartGameReasonMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class CannotStartGameReasonMethods;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CannotStartGameReasonMethods*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CannotStartGameReasonMethods*, "", "CannotStartGameReasonMethods");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -23,6 +24,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method LocalizedKey, addr 0x373671c, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
@@ -32,13 +34,13 @@ protected:
   constexpr CannotStartGameReasonMethods();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CannotStartGameReasonMethods", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CannotStartGameReasonMethods", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CannotStartGameReasonMethods(CannotStartGameReasonMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CannotStartGameReasonMethods", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CannotStartGameReasonMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CannotStartGameReasonMethods(CannotStartGameReasonMethods const&) = delete;
+  CannotStartGameReasonMethods(CannotStartGameReasonMethodsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15086 };

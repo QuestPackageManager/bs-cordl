@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\DictionaryWrapper_2.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DictionaryWrapper_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,6 +79,8 @@ MARK_GEN_VAL_T(::Newtonsoft::Json::Utilities::DictionaryWrapper_2_DictionaryEnum
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::DictionaryWrapper_2, "Newtonsoft.Json.Utilities", "DictionaryWrapper`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::DictionaryWrapper_2___c, "Newtonsoft.Json.Utilities", "DictionaryWrapper`2/<>c");
 DEFINE_IL2CPP_GEN_CLASS(::Newtonsoft::Json::Utilities::DictionaryWrapper_2_DictionaryEnumerator_2, "Newtonsoft.Json.Utilities", "DictionaryWrapper`2/DictionaryEnumerator`2");
+// [Nullable(0)]
+// [IsReadOnly]
 // Dependencies
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -94,6 +96,7 @@ public:
 
   __declspec(property(get = get_Key)) ::System::Object* Key;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_Value)) ::System::Object* Value;
 
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
@@ -109,7 +112,7 @@ public:
   inline void Reset();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e);
+  inline void _ctor(/* [Nullable(new[] { 1, 0, 1, 1 })] */ ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e);
 
   /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
@@ -120,6 +123,7 @@ public:
   /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
+  /// [NullableContext(2)]
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
@@ -134,7 +138,7 @@ public:
   constexpr DictionaryWrapper_2_DictionaryEnumerator_2();
 
   // Ctor Parameters [CppParam { name: "_e", ty: "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>*", modifiers: "",
-  // def_value: None }]
+  // def_value: None, comment: None }]
   constexpr DictionaryWrapper_2_DictionaryEnumerator_2(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _e) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -143,6 +147,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [Nullable(new[] { 1, 0, 1, 1 })]
   /// @brief Field _e, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _e;
 
@@ -150,6 +155,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -168,6 +174,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2___c<TKey, TValue>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <GetEnumerator>b__29_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _GetEnumerator_b__29_0(::System::Collections::DictionaryEntry de);
 
@@ -188,13 +195,13 @@ protected:
   constexpr DictionaryWrapper_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DictionaryWrapper_2___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DictionaryWrapper_2___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DictionaryWrapper_2___c(DictionaryWrapper_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DictionaryWrapper_2___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DictionaryWrapper_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DictionaryWrapper_2___c(DictionaryWrapper_2___c const&) = delete;
+  DictionaryWrapper_2___c(DictionaryWrapper_2___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13391 };
@@ -203,6 +210,9 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -233,6 +243,7 @@ public:
 
   __declspec(property(get = System_Collections_IDictionary_get_IsFixedSize)) bool System_Collections_IDictionary_IsFixedSize;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = System_Collections_IDictionary_get_Item, put = System_Collections_IDictionary_set_Item)) ::System::Object* System_Collections_IDictionary_Item[];
 
   __declspec(property(get = System_Collections_IDictionary_get_Keys)) ::System::Collections::ICollection* System_Collections_IDictionary_Keys;
@@ -278,7 +289,7 @@ public:
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Add(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item);
+  inline void Add(/* [Nullable(new[] { 0, 1, 1 })] */ ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(TKey key, TValue value);
@@ -287,13 +298,13 @@ public:
   inline void Clear();
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool Contains(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item);
+  inline bool Contains(/* [Nullable(new[] { 0, 1, 1 })] */ ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item);
 
   /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool ContainsKey(TKey key);
 
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void CopyTo(::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int32_t arrayIndex);
+  inline void CopyTo(/* [Nullable(new[] { 1, 0, 1, 1 })] */ ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int32_t arrayIndex);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* GetEnumerator();
@@ -305,7 +316,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>* New_ctor(::System::Collections::IDictionary* dictionary);
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool Remove(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item);
+  inline bool Remove(/* [Nullable(new[] { 0, 1, 1 })] */ ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item);
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(TKey key);
@@ -323,7 +334,7 @@ public:
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
   /// @brief Method System.Collections.IDictionary.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_Collections_IDictionary_Add(::System::Object* key, ::System::Object* value);
+  inline void System_Collections_IDictionary_Add(::System::Object* key, /* [Nullable(2)] */ ::System::Object* value);
 
   /// @brief Method System.Collections.IDictionary.Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IDictionary_Contains(::System::Object* key);
@@ -344,13 +355,13 @@ public:
   inline ::System::Collections::ICollection* System_Collections_IDictionary_get_Values();
 
   /// @brief Method System.Collections.IDictionary.set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_Collections_IDictionary_set_Item(::System::Object* key, ::System::Object* value);
+  inline void System_Collections_IDictionary_set_Item(::System::Object* key, /* [Nullable(2)] */ ::System::Object* value);
 
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool TryGetValue(TKey key, ::by_ref<TValue> value);
+  inline bool TryGetValue(TKey key, /* [Nullable(2)] */ ::by_ref<TValue> value);
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get__dictionary() const;
 
@@ -438,26 +449,30 @@ protected:
   constexpr DictionaryWrapper_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DictionaryWrapper_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DictionaryWrapper_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DictionaryWrapper_2(DictionaryWrapper_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DictionaryWrapper_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DictionaryWrapper_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DictionaryWrapper_2(DictionaryWrapper_2 const&) = delete;
+  DictionaryWrapper_2(DictionaryWrapper_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13392 };
 
+  /// [Nullable(2)]
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ____dictionary;
 
+  /// [Nullable(new[] { 2, 1, 1 })]
   /// @brief Field _genericDictionary, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IDictionary_2<TKey, TValue>* ____genericDictionary;
 
+  /// [Nullable(new[] { 2, 1, 1 })]
   /// @brief Field _readOnlyDictionary, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* ____readOnlyDictionary;
 
+  /// [Nullable(2)]
   /// @brief Field _syncRoot, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 

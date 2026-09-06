@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataError.hpp"
+// IWYU pragma private; include "System/Data/DataError.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,8 @@ public:
   // @brief default ctor
   constexpr DataError_ColumnError();
 
-  // Ctor Parameters [CppParam { name: "_column", ty: "::System::Data::DataColumn*", modifiers: "", def_value: None }, CppParam { name: "_error", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_column", ty: "::System::Data::DataColumn*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_error", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr DataError_ColumnError(::System::Data::DataColumn* _column, ::StringW _error) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -149,13 +150,13 @@ protected:
   constexpr DataError();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataError", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataError", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataError(DataError&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataError", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataError", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataError(DataError const&) = delete;
+  DataError(DataErrorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13770 };

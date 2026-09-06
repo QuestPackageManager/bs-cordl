@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FrameTimeSample.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FrameTimeSample.hpp"
 #include "UnityEngine/Rendering/zzzz__FrameTimeSample_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::FrameTimeSample._ctor
 template <>
@@ -19,10 +19,10 @@ inline void UnityEngine::Rendering::FrameTimeSample::_ctor(float_t initValue) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrameTimeSample>(), { ".ctor", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, initValue);
 }
-// Ctor Parameters [CppParam { name: "FramesPerSecond", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "FullFrameTime", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "MainThreadCPUFrameTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "MainThreadCPUPresentWaitTime", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "RenderThreadCPUFrameTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "GPUFrameTime", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "FramesPerSecond", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FullFrameTime", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "MainThreadCPUFrameTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MainThreadCPUPresentWaitTime", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RenderThreadCPUFrameTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GPUFrameTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::FrameTimeSample::FrameTimeSample(float_t FramesPerSecond, float_t FullFrameTime, float_t MainThreadCPUFrameTime, float_t MainThreadCPUPresentWaitTime,
                                                                      float_t RenderThreadCPUFrameTime, float_t GPUFrameTime) noexcept {
   this->FramesPerSecond = FramesPerSecond;

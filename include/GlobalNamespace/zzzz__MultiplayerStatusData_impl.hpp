@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerStatusData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerStatusData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerStatusData_AvailabilityStatus::MultiplayerStatusData_AvailabilityStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }

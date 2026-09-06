@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PlayerPoseFrames.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PlayerPoseFrames.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseFrame_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__PlayerPoseFrames_def.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseFrame_def.hpp"
-// Ctor Parameters [CppParam { name: "head", ty: "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value: Some("{}") }, CppParam { name: "leftHand", ty:
-// "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rightHand", ty: "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "head", ty: "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "leftHand", ty:
+// "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightHand", ty: "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::RecPlay::PlayerPoseFrames::PlayerPoseFrames(::ArrayW<::BeatSaber::RecPlay::PoseFrame> head, ::ArrayW<::BeatSaber::RecPlay::PoseFrame> leftHand,
                                                                    ::ArrayW<::BeatSaber::RecPlay::PoseFrame> rightHand) noexcept {
   this->head = head;

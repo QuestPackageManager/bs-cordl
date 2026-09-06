@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Notepad\NoteSO.hpp"
+// IWYU pragma private; include "Notepad/NoteSO.hpp"
 #include "Notepad/zzzz__NoteURL_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Notepad/zzzz__NoteSO_def.hpp"

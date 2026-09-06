@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\StackFrame.hpp"
+// IWYU pragma private; include "System/Diagnostics/StackFrame.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class StackFrame;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::StackFrame*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
+// [MonoTODO("Serialized objects are not compatible with MS.NET")]
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Diagnostics {
 // Is value type: false
@@ -155,13 +157,13 @@ protected:
   constexpr StackFrame();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StackFrame", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackFrame", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackFrame(StackFrame&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StackFrame", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackFrame", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackFrame(StackFrame const&) = delete;
+  StackFrame(StackFrameconst&) = delete;
 
   /// @brief Field OFFSET_UNKNOWN offset 0xffffffff size 0x4
   static constexpr int32_t OFFSET_UNKNOWN{ static_cast<int32_t>(0xffffffff) };

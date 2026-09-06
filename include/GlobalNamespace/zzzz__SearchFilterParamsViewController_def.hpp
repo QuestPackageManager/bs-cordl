@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SearchFilterParamsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SearchFilterParamsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -145,10 +145,10 @@ public:
   inline void OkButtonPressed();
 
   /// @brief Method Refresh, addr 0x5957794, size 0x3dc, virtual false, abstract: false, final false
-  inline void Refresh(::by_ref<::GlobalNamespace::LevelFilter> filter);
+  inline void Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter);
 
   /// @brief Method Setup, addr 0x5957754, size 0x40, virtual false, abstract: false, final false
-  inline void Setup(::by_ref<::GlobalNamespace::LevelFilter> filter, ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> notAllowedCharacteristics);
+  inline void Setup(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> notAllowedCharacteristics);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicsDropdown> const& __cordl_internal_get__beatmapCharacteristicsDropdown() const;
 
@@ -267,9 +267,11 @@ public:
   /// @brief Method .ctor, addr 0x595849c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x59575d4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5957694, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
@@ -279,71 +281,89 @@ protected:
   constexpr SearchFilterParamsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SearchFilterParamsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SearchFilterParamsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SearchFilterParamsViewController(SearchFilterParamsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SearchFilterParamsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SearchFilterParamsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SearchFilterParamsViewController(SearchFilterParamsViewController const&) = delete;
+  SearchFilterParamsViewController(SearchFilterParamsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6942 };
 
+  /// [SerializeField]
   /// @brief Field _filterByOwnedToggle, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByOwnedToggle;
 
+  /// [SerializeField]
   /// @brief Field _filterByNotOwnedToggle, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByNotOwnedToggle;
 
+  /// [SerializeField]
   /// @brief Field _filterByCharacteristicToggle, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByCharacteristicToggle;
 
+  /// [SerializeField]
   /// @brief Field _beatmapCharacteristicsDropdown, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicsDropdown> ____beatmapCharacteristicsDropdown;
 
+  /// [SerializeField]
   /// @brief Field _filterByDifficultyToggle, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByDifficultyToggle;
 
+  /// [SerializeField]
   /// @brief Field _beatmapDifficultyDropdown, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> ____beatmapDifficultyDropdown;
 
+  /// [SerializeField]
   /// @brief Field _filterBySongPacksToggle, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterBySongPacksToggle;
 
+  /// [SerializeField]
   /// @brief Field _songPacksDropdown, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPacksDropdown> ____songPacksDropdown;
 
+  /// [SerializeField]
   /// @brief Field _filterByNotPlayedYetToggle, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByNotPlayedYetToggle;
 
+  /// [SerializeField]
   /// @brief Field _filterByMinBpmToggle, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByMinBpmToggle;
 
+  /// [SerializeField]
   /// @brief Field _minBpmController, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____minBpmController;
 
+  /// [SerializeField]
   /// @brief Field _filterByMaxBpmToggle, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByMaxBpmToggle;
 
+  /// [SerializeField]
   /// @brief Field _maxBpmController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____maxBpmController;
 
+  /// [SerializeField]
   /// @brief Field _filterBySensitivity, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerSensitivityDropdown> ____filterBySensitivity;
 
+  /// [SerializeField]
   /// @brief Field _forcedSensitivityOptionNotice, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____forcedSensitivityOptionNotice;
 
+  /// [SerializeField]
   /// @brief Field _okButton, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _currentSearchFilter, offset: 0x100, size: 0x50, def value: None
   ::GlobalNamespace::LevelFilter ____currentSearchFilter;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x150, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* ___didFinishEvent;
 

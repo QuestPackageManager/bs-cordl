@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ConverterGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ConverterGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
 
   /// @brief Method TrySetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer, typename TValue>
-  inline bool TrySetValue(::by_ref<TContainer> container, ::by_ref<::Unity::Properties::PropertyPath> path, TValue value, ::by_ref<::Unity::Properties::VisitReturnCode> returnCode);
+  inline bool TrySetValue(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, TValue value, ::by_ref<::Unity::Properties::VisitReturnCode> returnCode);
 
   constexpr ::StringW const& __cordl_internal_get__description_k__BackingField() const;
 
@@ -81,6 +81,7 @@ public:
   /// @brief Method .ctor, addr 0x6c3274c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::StringW displayName, ::StringW description);
 
+  /// [CompilerGenerated]
   /// @brief Method get_registry, addr 0x6c32744, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TypeConverterRegistry get_registry();
 
@@ -90,26 +91,34 @@ protected:
   constexpr ConverterGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConverterGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConverterGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConverterGroup(ConverterGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConverterGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConverterGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConverterGroup(ConverterGroup const&) = delete;
+  ConverterGroup(ConverterGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4030 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <displayName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <description>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____description_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <registry>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::TypeConverterRegistry ____registry_k__BackingField;
 

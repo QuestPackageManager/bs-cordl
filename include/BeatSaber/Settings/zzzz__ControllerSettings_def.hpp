@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\ControllerSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/ControllerSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr ControllerSettings();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::Unity::Mathematics::float3", modifiers: "",
-  // def_value: None }, CppParam { name: "hapticFeedback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "selectedProfile", ty: "::BeatSaber::Settings::SelectedProfile", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "::Unity::Mathematics::float3",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "hapticFeedback", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "selectedProfile", ty:
+  // "::BeatSaber::Settings::SelectedProfile", modifiers: "", def_value: None, comment: None }]
   constexpr ControllerSettings(::Unity::Mathematics::float3 position, ::Unity::Mathematics::float3 rotation, bool hapticFeedback, ::BeatSaber::Settings::SelectedProfile selectedProfile) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

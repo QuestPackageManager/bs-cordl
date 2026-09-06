@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeReferenceVolume.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeReferenceVolume.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
@@ -175,10 +175,10 @@ inline int32_t UnityEngine::Rendering::ProbeReferenceVolume_ShaderIDs::getStatic
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_ShaderIDs::ProbeReferenceVolume_ShaderIDs() {}
-// Ctor Parameters [CppParam { name: "positionInBricks", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "minSubdiv", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "minBrickPos", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxBrickPosPlusOne", ty: "::UnityEngine::Vector3Int",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "hasMinMax", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "hasOnlyBiggerBricks", ty: "bool", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "positionInBricks", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minSubdiv", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "minBrickPos", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "maxBrickPosPlusOne", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hasMinMax", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "hasOnlyBiggerBricks", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_IndirectionEntryInfo::ProbeReferenceVolume_IndirectionEntryInfo(::UnityEngine::Vector3Int positionInBricks, int32_t minSubdiv,
                                                                                                                          ::UnityEngine::Vector3Int minBrickPos,
                                                                                                                          ::UnityEngine::Vector3Int maxBrickPosPlusOne, bool hasMinMax,
@@ -328,12 +328,12 @@ inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* UnityEngine::Ren
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc::ProbeReferenceVolume_CellDesc() {}
-// Ctor Parameters [CppParam { name: "shL0L1RxData", ty: "::Unity::Collections::NativeArray_1<uint16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "shL1GL1RyData", ty:
-// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "shL1BL1RzData", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "shL2Data_0", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "shL2Data_1", ty:
-// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "shL2Data_2", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "shL2Data_3", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "probeOcclusion", ty:
-// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "shL0L1RxData", ty: "::Unity::Collections::NativeArray_1<uint16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shL1GL1RyData", ty:
+// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shL1BL1RzData", ty: "::Unity::Collections::NativeArray_1<uint8_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shL2Data_0", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "shL2Data_1", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shL2Data_2", ty:
+// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shL2Data_3", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "probeOcclusion", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData::CellData_ProbeReferenceVolume_PerScenarioData(
     ::Unity::Collections::NativeArray_1<uint16_t> shL0L1RxData, ::Unity::Collections::NativeArray_1<uint8_t> shL1GL1RyData, ::Unity::Collections::NativeArray_1<uint8_t> shL1BL1RzData,
     ::Unity::Collections::NativeArray_1<uint8_t> shL2Data_0, ::Unity::Collections::NativeArray_1<uint8_t> shL2Data_1, ::Unity::Collections::NativeArray_1<uint8_t> shL2Data_2,
@@ -821,7 +821,7 @@ inline void UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_layer(::U
                                                                                          { "set_layer", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::Rendering::ProbeReferenceVolume_CellData::CleanupPerScenarioData(::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData> data) {
+inline void UnityEngine::Rendering::ProbeReferenceVolume_CellData::CleanupPerScenarioData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData> data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(),
                                                            { "CleanupPerScenarioData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData>>() } })));
@@ -1753,10 +1753,10 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ProbeReferenceVolume_
 UnityEngine::Rendering::ProbeReferenceVolume_Volume::i___System__IEquatable_1___UnityEngine__Rendering__ProbeReferenceVolume_Volume_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "corner", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "X", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Y", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "Z", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "maxSubdivisionMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minSubdivisionMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "corner", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "X", ty: "::UnityEngine::Vector3", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Y", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Z", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxSubdivisionMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "minSubdivisionMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_Volume::ProbeReferenceVolume_Volume(::UnityEngine::Vector3 corner, ::UnityEngine::Vector3 X, ::UnityEngine::Vector3 Y,
                                                                                              ::UnityEngine::Vector3 Z, float_t maxSubdivisionMultiplier, float_t minSubdivisionMultiplier) noexcept {
   this->corner = corner;
@@ -1768,8 +1768,8 @@ constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_Volume::ProbeReferenceV
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_Volume::ProbeReferenceVolume_Volume() {}
-// Ctor Parameters [CppParam { name: "posWS", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "rot", ty: "::UnityEngine::Quaternion", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "posWS", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rot", ty: "::UnityEngine::Quaternion", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_RefVolTransform::ProbeReferenceVolume_RefVolTransform(::UnityEngine::Vector3 posWS, ::UnityEngine::Quaternion rot, float_t scale) noexcept {
   this->posWS = posWS;
   this->rot = rot;
@@ -1777,16 +1777,17 @@ constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_RefVolTransform::ProbeR
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_RefVolTransform::ProbeReferenceVolume_RefVolTransform() {}
-// Ctor Parameters [CppParam { name: "index", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cellIndices", ty: "::UnityEngine::ComputeBuffer*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "L0_L1rx", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "L1_G_ry", ty:
-// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "L1_B_rz", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "L2_0", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "L2_1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "L2_2", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "L2_3", ty:
-// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "ProbeOcclusion", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Validity", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "SkyOcclusionL0L1", ty:
-// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "SkyShadingDirectionIndices", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "SkyPrecomputedDirections", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "QualityLeakReductionData", ty:
-// "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "index", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cellIndices", ty:
+// "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "L0_L1rx", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "L1_G_ry", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "L1_B_rz", ty:
+// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "L2_0", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "L2_1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "L2_2", ty:
+// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "L2_3", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "ProbeOcclusion", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Validity", ty:
+// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SkyOcclusionL0L1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "SkyShadingDirectionIndices", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "SkyPrecomputedDirections", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "QualityLeakReductionData", ty:
+// "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources::ProbeReferenceVolume_RuntimeResources(
     ::UnityEngine::ComputeBuffer* index, ::UnityEngine::ComputeBuffer* cellIndices, ::UnityW<::UnityEngine::RenderTexture> L0_L1rx, ::UnityW<::UnityEngine::RenderTexture> L1_G_ry,
     ::UnityW<::UnityEngine::RenderTexture> L1_B_rz, ::UnityW<::UnityEngine::RenderTexture> L2_0, ::UnityW<::UnityEngine::RenderTexture> L2_1, ::UnityW<::UnityEngine::RenderTexture> L2_2,
@@ -2183,20 +2184,22 @@ inline ::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest* Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::ProbeReferenceVolume_DiskStreamingRequest() {}
-// Ctor Parameters [CppParam { name: "_SharedDestChunksOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_L0L1rxOffset", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_L1GryOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_L1BrzOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_ValidityOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ProbeOcclusionOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "_SkyOcclusionOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_SkyShadingDirectionOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "_L2_0Offset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_L2_1Offset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_L2_2Offset",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_L2_3Offset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_L0Size", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_L0ProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_L1Size", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_L1ProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ValiditySize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_ValidityProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ProbeOcclusionSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_ProbeOcclusionProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_SkyOcclusionSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_SkyOcclusionProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_SkyShadingDirectionSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_SkyShadingDirectionProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_L2Size", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_L2ProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ProbeCountInChunkLine", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_ProbeCountInChunkSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_SharedDestChunksOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_L0L1rxOffset", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_L1GryOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_L1BrzOffset", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ValidityOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_ProbeOcclusionOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_SkyOcclusionOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_SkyShadingDirectionOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_L2_0Offset", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_L2_1Offset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_L2_2Offset", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_L2_3Offset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_L0Size", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_L0ProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_L1Size", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_L1ProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ValiditySize", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ValidityProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_ProbeOcclusionSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ProbeOcclusionProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_SkyOcclusionSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_SkyOcclusionProbeSize", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_SkyShadingDirectionSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_SkyShadingDirectionProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_L2Size", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "_L2ProbeSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ProbeCountInChunkLine", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_ProbeCountInChunkSlice", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout::ProbeReferenceVolume_CellStreamingScratchBufferLayout(
     int32_t _SharedDestChunksOffset, int32_t _L0L1rxOffset, int32_t _L1GryOffset, int32_t _L1BrzOffset, int32_t _ValidityOffset, int32_t _ProbeOcclusionOffset, int32_t _SkyOcclusionOffset,
     int32_t _SkyShadingDirectionOffset, int32_t _L2_0Offset, int32_t _L2_1Offset, int32_t _L2_2Offset, int32_t _L2_3Offset, int32_t _L0Size, int32_t _L0ProbeSize, int32_t _L1Size,
@@ -2413,7 +2416,7 @@ UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::New_cto
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::ProbeReferenceVolume_CellStreamingScratchBuffer() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_State::CellStreamingRequest_ProbeReferenceVolume_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -8636,7 +8639,7 @@ inline ::UnityEngine::Rendering::ProbeReferenceVolume* UnityEngine::Rendering::P
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_instance", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ProbeReferenceVolume*>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Rendering::ProbeReferenceVolume::Initialize(::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters> parameters) {
+inline void UnityEngine::Rendering::ProbeReferenceVolume::Initialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters> parameters) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
                                                                                          { "Initialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parameters);
@@ -8863,7 +8866,9 @@ UnityEngine::Rendering::ProbeReferenceVolume::GetSourceLocations(int32_t count, 
                           { "GetSourceLocations", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::ProbeBrickPool_DataLocation>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>*>(this, ___internal_method, count, chunkSize, dataLoc);
 }
-template <typename T> inline void UnityEngine::Rendering::ProbeReferenceVolume::UpdateDataLocationTexture(::UnityEngine::Texture* output, ::Unity::Collections::NativeArray_1<T> input) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::ProbeReferenceVolume::UpdateDataLocationTexture(::UnityEngine::Texture* output, ::Unity::Collections::NativeArray_1<T> input) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\RetryConditionHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/RetryConditionHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -89,18 +91,22 @@ public:
   /// @brief Method .ctor, addr 0x60ef3d8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan delta);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Date, addr 0x60ef4bc, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Delta, addr 0x60ef4e4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_Delta();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Date, addr 0x60ef4d0, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Delta, addr 0x60ef4f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Delta(::System::Nullable_1<::System::TimeSpan> value);
 
@@ -110,20 +116,22 @@ protected:
   constexpr RetryConditionHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RetryConditionHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RetryConditionHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RetryConditionHeaderValue(RetryConditionHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RetryConditionHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RetryConditionHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RetryConditionHeaderValue(RetryConditionHeaderValue const&) = delete;
+  RetryConditionHeaderValue(RetryConditionHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20341 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Date>k__BackingField, offset: 0x10, size: 0x18, def value: None
   ::System::Nullable_1<::System::DateTimeOffset> ____Date_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Delta>k__BackingField, offset: 0x28, size: 0x10, def value: None
   ::System::Nullable_1<::System::TimeSpan> ____Delta_k__BackingField;
 

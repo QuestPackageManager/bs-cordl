@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "StyledUITemplates\OverridableData_1.hpp"
+// IWYU pragma private; include "StyledUITemplates/OverridableData_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,20 +66,23 @@ protected:
   constexpr OverridableData_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OverridableData_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OverridableData_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OverridableData_1(OverridableData_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OverridableData_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OverridableData_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OverridableData_1(OverridableData_1 const&) = delete;
+  OverridableData_1(OverridableData_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23651 };
 
+  /// [SerializeField]
   /// @brief Field _override, offset: 0x10, size: 0x1, def value: None
   bool ____override;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
   T ____data;
 

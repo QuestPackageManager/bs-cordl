@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\AbstractTlsClient.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,13 +104,13 @@ public:
   /// @brief Method CheckForUnexpectedServerExtension, addr 0x3435490, size 0xd0, virtual true, abstract: false, final false
   inline void CheckForUnexpectedServerExtension(::System::Collections::IDictionary* serverExtensions, int32_t extensionType);
 
-  /// @brief Method GetAuthentication, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAuthentication, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* GetAuthentication();
 
   /// @brief Method GetCipher, addr 0x3435bd8, size 0x10c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* GetCipher();
 
-  /// @brief Method GetCipherSuites, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<int32_t> GetCipherSuites();
 
   /// @brief Method GetClientExtensions, addr 0x34355e4, size 0x274, virtual true, abstract: false, final false
@@ -125,7 +125,7 @@ public:
   /// @brief Method GetCompressionMethods, addr 0x3435928, size 0x48, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetCompressionMethods();
 
-  /// @brief Method GetKeyExchange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
   /// @brief Method GetSessionToResume, addr 0x3435568, size 0x8, virtual true, abstract: false, final false
@@ -237,13 +237,13 @@ protected:
   constexpr AbstractTlsClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractTlsClient(AbstractTlsClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractTlsClient(AbstractTlsClient const&) = delete;
+  AbstractTlsClient(AbstractTlsClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1165 };

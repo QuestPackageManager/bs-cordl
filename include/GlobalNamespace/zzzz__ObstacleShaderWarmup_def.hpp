@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleShaderWarmup.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleShaderWarmup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,20 +58,22 @@ protected:
   constexpr ObstacleShaderWarmup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleShaderWarmup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleShaderWarmup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleShaderWarmup(ObstacleShaderWarmup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleShaderWarmup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleShaderWarmup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleShaderWarmup(ObstacleShaderWarmup const&) = delete;
+  ObstacleShaderWarmup(ObstacleShaderWarmupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5708 };
 
+  /// [SerializeField]
   /// @brief Field _obstacleMaterialSetter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleMaterialSetter> ____obstacleMaterialSetter;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

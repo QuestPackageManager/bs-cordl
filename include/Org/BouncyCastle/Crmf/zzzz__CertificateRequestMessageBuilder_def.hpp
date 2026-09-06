@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crmf\CertificateRequestMessageBuilder.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crmf/CertificateRequestMessageBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -245,13 +245,13 @@ protected:
   constexpr CertificateRequestMessageBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateRequestMessageBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateRequestMessageBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateRequestMessageBuilder(CertificateRequestMessageBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateRequestMessageBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateRequestMessageBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateRequestMessageBuilder(CertificateRequestMessageBuilder const&) = delete;
+  CertificateRequestMessageBuilder(CertificateRequestMessageBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 697 };

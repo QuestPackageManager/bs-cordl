@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchCullingOutputDrawCommands.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingOutputDrawCommands.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,15 +40,17 @@ public:
   // @brief default ctor
   constexpr BatchCullingOutputDrawCommands();
 
-  // Ctor Parameters [CppParam { name: "drawCommands", ty: "::UnityEngine::Rendering::BatchDrawCommand*", modifiers: "", def_value: None }, CppParam { name: "indirectDrawCommands", ty:
-  // "::UnityEngine::Rendering::BatchDrawCommandIndirect*", modifiers: "", def_value: None }, CppParam { name: "proceduralDrawCommands", ty: "::UnityEngine::Rendering::BatchDrawCommandProcedural*",
-  // modifiers: "", def_value: None }, CppParam { name: "proceduralIndirectDrawCommands", ty: "::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect*", modifiers: "", def_value: None },
-  // CppParam { name: "visibleInstances", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "drawRanges", ty: "::UnityEngine::Rendering::BatchDrawRange*", modifiers: "", def_value:
-  // None }, CppParam { name: "instanceSortingPositions", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "drawCommandPickingInstanceIDs", ty: "int32_t*", modifiers: "", def_value:
-  // None }, CppParam { name: "drawCommandCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indirectDrawCommandCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "proceduralDrawCommandCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "proceduralIndirectDrawCommandCount", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "visibleInstanceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "drawRangeCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "instanceSortingPositionFloatCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "drawCommands", ty: "::UnityEngine::Rendering::BatchDrawCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectDrawCommands", ty:
+  // "::UnityEngine::Rendering::BatchDrawCommandIndirect*", modifiers: "", def_value: None, comment: None }, CppParam { name: "proceduralDrawCommands", ty:
+  // "::UnityEngine::Rendering::BatchDrawCommandProcedural*", modifiers: "", def_value: None, comment: None }, CppParam { name: "proceduralIndirectDrawCommands", ty:
+  // "::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect*", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleInstances", ty: "int32_t*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "drawRanges", ty: "::UnityEngine::Rendering::BatchDrawRange*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "instanceSortingPositions", ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCommandPickingInstanceIDs", ty: "int32_t*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "drawCommandCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectDrawCommandCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "proceduralDrawCommandCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "proceduralIndirectDrawCommandCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleInstanceCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "drawRangeCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceSortingPositionFloatCount", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr BatchCullingOutputDrawCommands(::UnityEngine::Rendering::BatchDrawCommand* drawCommands, ::UnityEngine::Rendering::BatchDrawCommandIndirect* indirectDrawCommands,
                                            ::UnityEngine::Rendering::BatchDrawCommandProcedural* proceduralDrawCommands,
                                            ::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect* proceduralIndirectDrawCommands, int32_t* visibleInstances,

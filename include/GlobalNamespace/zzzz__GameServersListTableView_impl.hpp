@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServersListTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServersListTableView.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServersListTableView_def.hpp"

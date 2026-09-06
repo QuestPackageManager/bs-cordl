@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\RumbleData.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/RumbleData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Haptics/zzzz__RumbleData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Haptics::RumbleData._ctor

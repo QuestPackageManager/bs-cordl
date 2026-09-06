@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderPathCompatibleAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderPathCompatibleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPathCompatibility_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPathCompatibleAttribute_def.hpp"

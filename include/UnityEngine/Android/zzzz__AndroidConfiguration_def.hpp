@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidConfiguration.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidConfiguration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,9 @@ class AndroidConfiguration;
 // Write type traits
 MARK_REF_T(::UnityEngine::Android::AndroidConfiguration*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Android::AndroidConfiguration*, "UnityEngine.Android", "AndroidConfiguration");
+// [NativeAsStruct]
+// [NativeType(Header = "Modules/AndroidJNI/Public/AndroidConfiguration.bindings.h")]
+// [RequiredByNativeCode]
 // Dependencies System.Object, UnityEngine.Android.AndroidHardwareKeyboardHidden, UnityEngine.Android.AndroidKeyboard, UnityEngine.Android.AndroidKeyboardHidden, UnityEngine.Android.AndroidNavigation,
 // UnityEngine.Android.AndroidNavigationHidden, UnityEngine.Android.AndroidOrientation, UnityEngine.Android.AndroidTouchScreen
 namespace UnityEngine::Android {
@@ -207,6 +210,7 @@ public:
 
   __declspec(property(get = get_uiModeType)) ::UnityEngine::Android::AndroidUIModeType uiModeType;
 
+  /// [Preserve]
   /// @brief Method ToString, addr 0x6a34dec, size 0x11b0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
@@ -330,6 +334,7 @@ public:
 
   constexpr void __cordl_internal_set__uiMode_k__BackingField(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_colorMode, addr 0x6a34bf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_colorMode();
 
@@ -339,51 +344,66 @@ public:
   /// @brief Method get_colorModeWideColorGamut, addr 0x6a34d98, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidColorModeWideColorGamut get_colorModeWideColorGamut();
 
+  /// [CompilerGenerated]
   /// @brief Method get_densityDpi, addr 0x6a34bfc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_densityDpi();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fontScale, addr 0x6a34c04, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fontScale();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fontWeightAdjustment, addr 0x6a34c0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fontWeightAdjustment();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hardKeyboardHidden, addr 0x6a34c1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidHardwareKeyboardHidden get_hardKeyboardHidden();
 
+  /// [CompilerGenerated]
   /// @brief Method get_keyboard, addr 0x6a34c14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidKeyboard get_keyboard();
 
+  /// [CompilerGenerated]
   /// @brief Method get_keyboardHidden, addr 0x6a34c24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidKeyboardHidden get_keyboardHidden();
 
   /// @brief Method get_locales, addr 0x6a34c94, size 0xf8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Android::AndroidLocale*> get_locales();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mobileCountryCode, addr 0x6a34c2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mobileCountryCode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mobileNetworkCode, addr 0x6a34c34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mobileNetworkCode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_navigation, addr 0x6a34c3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidNavigation get_navigation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_navigationHidden, addr 0x6a34c44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidNavigationHidden get_navigationHidden();
 
+  /// [CompilerGenerated]
   /// @brief Method get_orientation, addr 0x6a34c4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidOrientation get_orientation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_primaryLocaleCountry, addr 0x6a34c84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_primaryLocaleCountry();
 
+  /// [CompilerGenerated]
   /// @brief Method get_primaryLocaleLanguage, addr 0x6a34c8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_primaryLocaleLanguage();
 
+  /// [CompilerGenerated]
   /// @brief Method get_screenHeightDp, addr 0x6a34c54, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_screenHeightDp();
 
+  /// [CompilerGenerated]
   /// @brief Method get_screenLayout, addr 0x6a34c6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_screenLayout();
 
@@ -399,15 +419,19 @@ public:
   /// @brief Method get_screenLayoutSize, addr 0x6a34dc8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidScreenLayoutSize get_screenLayoutSize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_screenWidthDp, addr 0x6a34c5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_screenWidthDp();
 
+  /// [CompilerGenerated]
   /// @brief Method get_smallestScreenWidthDp, addr 0x6a34c64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_smallestScreenWidthDp();
 
+  /// [CompilerGenerated]
   /// @brief Method get_touchScreen, addr 0x6a34c74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidTouchScreen get_touchScreen();
 
+  /// [CompilerGenerated]
   /// @brief Method get_uiMode, addr 0x6a34c7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_uiMode();
 
@@ -423,74 +447,114 @@ protected:
   constexpr AndroidConfiguration();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidConfiguration", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidConfiguration", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidConfiguration(AndroidConfiguration&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidConfiguration", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidConfiguration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidConfiguration(AndroidConfiguration const&) = delete;
+  AndroidConfiguration(AndroidConfigurationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20182 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <colorMode>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____colorMode_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <densityDpi>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____densityDpi_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <fontScale>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t ____fontScale_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <fontWeightAdjustment>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____fontWeightAdjustment_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <keyboard>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidKeyboard ____keyboard_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <hardKeyboardHidden>k__BackingField, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidHardwareKeyboardHidden ____hardKeyboardHidden_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <keyboardHidden>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidKeyboardHidden ____keyboardHidden_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <mobileCountryCode>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____mobileCountryCode_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <mobileNetworkCode>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____mobileNetworkCode_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <navigation>k__BackingField, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidNavigation ____navigation_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <navigationHidden>k__BackingField, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidNavigationHidden ____navigationHidden_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <orientation>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidOrientation ____orientation_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <screenHeightDp>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____screenHeightDp_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <screenWidthDp>k__BackingField, offset: 0x44, size: 0x4, def value: None
   int32_t ____screenWidthDp_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <smallestScreenWidthDp>k__BackingField, offset: 0x48, size: 0x4, def value: None
   int32_t ____smallestScreenWidthDp_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <screenLayout>k__BackingField, offset: 0x4c, size: 0x4, def value: None
   int32_t ____screenLayout_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <touchScreen>k__BackingField, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidTouchScreen ____touchScreen_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <uiMode>k__BackingField, offset: 0x54, size: 0x4, def value: None
   int32_t ____uiMode_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <primaryLocaleCountry>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::StringW ____primaryLocaleCountry_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <primaryLocaleLanguage>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::StringW ____primaryLocaleLanguage_k__BackingField;
 

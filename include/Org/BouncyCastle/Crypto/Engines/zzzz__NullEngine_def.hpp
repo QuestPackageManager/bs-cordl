@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\NullEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/NullEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +76,13 @@ protected:
   constexpr NullEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullEngine(NullEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NullEngine(NullEngine const&) = delete;
+  NullEngine(NullEngineconst&) = delete;
 
   /// @brief Field BlockSize offset 0xffffffff size 0x4
   static constexpr int32_t BlockSize{ static_cast<int32_t>(0x1) };

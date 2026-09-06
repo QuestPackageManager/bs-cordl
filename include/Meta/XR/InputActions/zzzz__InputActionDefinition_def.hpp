@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\InputActions\InputActionDefinition.hpp"
+// IWYU pragma private; include "Meta/XR/InputActions/InputActionDefinition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,23 +60,27 @@ protected:
   constexpr InputActionDefinition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionDefinition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionDefinition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputActionDefinition(InputActionDefinition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionDefinition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionDefinition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionDefinition(InputActionDefinition const&) = delete;
+  InputActionDefinition(InputActionDefinitionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8576 };
 
+  /// [Tooltip("The name of this action. This is used in functions like OVRPlugin.GetActionStateBoolean to identify this specific action.")]
   /// @brief Field ActionName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___ActionName;
 
+  /// [Tooltip("The type of this action. Does it return a bool, pose, vector2, float or trigger a vibration?")]
   /// @brief Field Type, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::OVRPlugin_ActionTypes ___Type;
 
+  /// [Tooltip("Paths: the path from where this action will get its data. This is based on the OpenXR specification for the device.")]
+  /// [FormerlySerializedAs("Path")]
   /// @brief Field Paths, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::StringW> ___Paths;
 

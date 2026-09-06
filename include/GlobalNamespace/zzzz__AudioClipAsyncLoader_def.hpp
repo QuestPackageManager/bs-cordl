@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioClipAsyncLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioClipAsyncLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,13 +127,13 @@ protected:
   constexpr AudioClipAsyncLoader_LoadMethodDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader_LoadMethodDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader_LoadMethodDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipAsyncLoader_LoadMethodDelegate(AudioClipAsyncLoader_LoadMethodDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader_LoadMethodDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader_LoadMethodDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipAsyncLoader_LoadMethodDelegate(AudioClipAsyncLoader_LoadMethodDelegate const&) = delete;
+  AudioClipAsyncLoader_LoadMethodDelegate(AudioClipAsyncLoader_LoadMethodDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22834 };
@@ -144,6 +144,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -179,13 +180,13 @@ protected:
   constexpr AudioClipAsyncLoader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipAsyncLoader___c(AudioClipAsyncLoader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipAsyncLoader___c(AudioClipAsyncLoader___c const&) = delete;
+  AudioClipAsyncLoader___c(AudioClipAsyncLoader___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22835 };
@@ -196,6 +197,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::AudioClipAsyncLoader___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -226,13 +228,13 @@ protected:
   constexpr AudioClipAsyncLoader___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipAsyncLoader___c__DisplayClass13_0(AudioClipAsyncLoader___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipAsyncLoader___c__DisplayClass13_0(AudioClipAsyncLoader___c__DisplayClass13_0 const&) = delete;
+  AudioClipAsyncLoader___c__DisplayClass13_0(AudioClipAsyncLoader___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22836 };
@@ -248,6 +250,7 @@ static_assert(offsetof(::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass
 static_assert(sizeof(::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass13_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -287,13 +290,13 @@ protected:
   constexpr AudioClipAsyncLoader___c__DisplayClass14_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipAsyncLoader___c__DisplayClass14_0(AudioClipAsyncLoader___c__DisplayClass14_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipAsyncLoader___c__DisplayClass14_0(AudioClipAsyncLoader___c__DisplayClass14_0 const&) = delete;
+  AudioClipAsyncLoader___c__DisplayClass14_0(AudioClipAsyncLoader___c__DisplayClass14_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22837 };
@@ -314,6 +317,7 @@ static_assert(offsetof(::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass
 static_assert(sizeof(::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass14_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -327,6 +331,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a29554, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a298e0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -337,10 +342,11 @@ public:
   // @brief default ctor
   constexpr AudioClipAsyncLoader__Unload_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::AudioClipAsyncLoader*", modifiers: "",
-  // def_value: None }, CppParam { name: "cacheKey", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "onDelete", ty: "::System::Action_1<::UnityW<::UnityEngine::AudioClip>>*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::AudioClipAsyncLoader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cacheKey", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "onDelete", ty:
+  // "::System::Action_1<::UnityW<::UnityEngine::AudioClip>>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None, comment: None }]
   constexpr AudioClipAsyncLoader__Unload_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::AudioClipAsyncLoader* __4__this,
                                                int32_t cacheKey, ::System::Action_1<::UnityW<::UnityEngine::AudioClip>>* onDelete,
                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__1) noexcept;
@@ -441,6 +447,7 @@ public:
   /// @brief Method Load, addr 0x5a288c8, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* Load(::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* source);
 
+  /// [Conditional("AUDIO_ASYNC_LOADER_LOG_ENABLED")]
   /// @brief Method LogError, addr 0x5a29320, size 0x5c, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
@@ -453,6 +460,7 @@ public:
   /// @brief Method Unload, addr 0x5a28e84, size 0xb0, virtual false, abstract: false, final false
   inline void Unload(::StringW audioClipFilePath);
 
+  /// [AsyncStateMachine(typeof(AudioClipAsyncLoader::<Unload>d__18))]
   /// @brief Method Unload, addr 0x5a29264, size 0xbc, virtual false, abstract: false, final false
   inline void Unload(int32_t cacheKey, ::System::Action_1<::UnityW<::UnityEngine::AudioClip>>* onDelete);
 
@@ -490,13 +498,13 @@ protected:
   constexpr AudioClipAsyncLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipAsyncLoader(AudioClipAsyncLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipAsyncLoader(AudioClipAsyncLoader const&) = delete;
+  AudioClipAsyncLoader(AudioClipAsyncLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22839 };

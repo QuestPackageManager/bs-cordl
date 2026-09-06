@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalDeclaration.hpp"
+// IWYU pragma private; include "Zenject/SignalDeclaration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e4765c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e476d4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -79,13 +80,13 @@ protected:
   constexpr SignalDeclaration_Factory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration_Factory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration_Factory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalDeclaration_Factory(SignalDeclaration_Factory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration_Factory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration_Factory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalDeclaration_Factory(SignalDeclaration_Factory const&) = delete;
+  SignalDeclaration_Factory(SignalDeclaration_Factoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14011 };
@@ -150,7 +151,7 @@ public:
   /// @brief Method FireInternal, addr 0x6e46b44, size 0x258, virtual false, abstract: false, final false
   inline void FireInternal(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* subscriptions, ::System::Object* signal);
 
-  static inline ::Zenject::SignalDeclaration* New_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings);
+  static inline ::Zenject::SignalDeclaration* New_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings);
 
   /// @brief Method Remove, addr 0x6e471c4, size 0x5c, virtual false, abstract: false, final false
   inline void Remove(::Zenject::SignalSubscription* subscription);
@@ -203,11 +204,12 @@ public:
   /// @brief Method __zenCreate, addr 0x6e47220, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e47344, size 0x2dc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x6e465a4, size 0x170, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings);
+  inline void _ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings);
 
   /// @brief Method get_BindingId, addr 0x6e4672c, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_BindingId();
@@ -215,6 +217,7 @@ public:
   /// @brief Method get_IsAsync, addr 0x6e46724, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAsync();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TickPriority, addr 0x6e46714, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TickPriority();
 
@@ -224,6 +227,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_TickPriority, addr 0x6e4671c, size 0x8, virtual false, abstract: false, final false
   inline void set_TickPriority(int32_t value);
 
@@ -233,13 +237,13 @@ protected:
   constexpr SignalDeclaration();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalDeclaration(SignalDeclaration&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclaration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalDeclaration(SignalDeclaration const&) = delete;
+  SignalDeclaration(SignalDeclarationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14012 };
@@ -262,6 +266,7 @@ public:
   /// @brief Field _settings, offset: 0x38, size: 0x8, def value: None
   ::Zenject::ZenjectSettings_SignalSettings* ____settings;
 
+  /// [CompilerGenerated]
   /// @brief Field <TickPriority>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____TickPriority_k__BackingField;
 

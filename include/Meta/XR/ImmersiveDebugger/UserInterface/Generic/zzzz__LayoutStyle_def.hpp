@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\LayoutStyle.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/LayoutStyle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   // @brief default ctor
   constexpr LayoutStyle_Layout();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutStyle_Layout(int32_t value__) noexcept;
 
   /// @brief Field Fill value: I32(1)
@@ -130,7 +130,7 @@ public:
   // @brief default ctor
   constexpr LayoutStyle_Direction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutStyle_Direction(int32_t value__) noexcept;
 
   /// @brief Field Down value: I32(2)
@@ -341,13 +341,13 @@ protected:
   constexpr LayoutStyle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutStyle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutStyle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutStyle(LayoutStyle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutStyle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutStyle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutStyle(LayoutStyle const&) = delete;
+  LayoutStyle(LayoutStyleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18421 };

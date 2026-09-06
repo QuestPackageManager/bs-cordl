@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LensFlareOcclusionPermutation.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LensFlareOcclusionPermutation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct LensFlareOcclusionPermutation;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::LensFlareOcclusionPermutation);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LensFlareOcclusionPermutation, "UnityEngine.Rendering", "LensFlareOcclusionPermutation");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\PostProcessing\\LensFlareOcclusionPermutation.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.LensFlareOcclusionPermutation
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr LensFlareOcclusionPermutation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LensFlareOcclusionPermutation(int32_t value__) noexcept;
 
   /// @brief Field Depth value: I32(1)

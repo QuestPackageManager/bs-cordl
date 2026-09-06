@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\Extensions.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/Extensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::Extensions*, "Newtonsoft.Json.Schema", "Extensions");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0*, "Newtonsoft.Json.Schema", "Extensions/<>c__DisplayClass0_0");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0*, "Newtonsoft.Json.Schema", "Extensions/<>c__DisplayClass1_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr Extensions___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0 const&) = delete;
+  Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13539 };
@@ -99,6 +100,7 @@ static_assert(offsetof(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0
 static_assert(sizeof(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Schema
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -129,13 +131,13 @@ protected:
   constexpr Extensions___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0 const&) = delete;
+  Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13540 };
@@ -151,6 +153,8 @@ static_assert(offsetof(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1
 static_assert(sizeof(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Schema
+// [Extension]
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -162,15 +166,23 @@ public:
 
   using __c__DisplayClass1_0 = ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0;
 
+  /// [Extension]
+  /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
   /// @brief Method IsValid, addr 0x5d5cdb4, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
+  /// [Extension]
+  /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
   /// @brief Method IsValid, addr 0x5d5d1e0, size 0x190, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::by_ref<::System::Collections::Generic::IList_1<::StringW>*> errorMessages);
 
+  /// [Extension]
+  /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
   /// @brief Method Validate, addr 0x5d5d374, size 0x8, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
+  /// [Extension]
+  /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
   /// @brief Method Validate, addr 0x5d5cfc8, size 0x218, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::Newtonsoft::Json::Schema::ValidationEventHandler* validationEventHandler);
 
@@ -180,13 +192,13 @@ protected:
   constexpr Extensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extensions(Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions(Extensions const&) = delete;
+  Extensions(Extensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13541 };

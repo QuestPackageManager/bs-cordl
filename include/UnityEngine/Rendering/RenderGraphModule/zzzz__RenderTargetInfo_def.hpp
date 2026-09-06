@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderTargetInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderTargetInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct RenderTargetInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo, "UnityEngine.Rendering.RenderGraphModule", "RenderTargetInfo");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies UnityEngine.Experimental.Rendering.GraphicsFormat
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -25,9 +26,10 @@ public:
   // @brief default ctor
   constexpr RenderTargetInfo();
 
-  // Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "volumeDepth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "msaaSamples", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty:
-  // "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "bindMS", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "volumeDepth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "msaaSamples", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "format", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindMS", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr RenderTargetInfo(int32_t width, int32_t height, int32_t volumeDepth, int32_t msaaSamples, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, bool bindMS) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

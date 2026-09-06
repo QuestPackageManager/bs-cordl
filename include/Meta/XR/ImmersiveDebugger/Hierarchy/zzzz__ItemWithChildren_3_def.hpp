@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Hierarchy\ItemWithChildren_3.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Hierarchy/ItemWithChildren_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Meta::XR::ImmersiveDebugger::Hierarchy {
-template <typename TargetType, typename ChildType, typename ChildTargetType> class ItemWithChildren_3;
+template <typename TargetType, typename ChildType, typename ChildTargetType>
+  requires(::cordl_internals::type_constraint<ChildType, ::Meta::XR::ImmersiveDebugger::Hierarchy::Item_1<ChildTargetType>*> && ::cordl_internals::default_constructor_constraint<ChildType>)
+class ItemWithChildren_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::Hierarchy::ItemWithChildren_3);
@@ -21,6 +23,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::Hierarchy::ItemWithCh
 namespace Meta::XR::ImmersiveDebugger::Hierarchy {
 // cpp template
 template <typename TargetType, typename ChildType, typename ChildTargetType>
+  requires(::cordl_internals::type_constraint<ChildType, ::Meta::XR::ImmersiveDebugger::Hierarchy::Item_1<ChildTargetType>*> && ::cordl_internals::default_constructor_constraint<ChildType>)
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.Hierarchy.ItemWithChildren`3<TargetType,ChildType,ChildTargetType>
 class CORDL_TYPE ItemWithChildren_3 : public ::Meta::XR::ImmersiveDebugger::Hierarchy::Item_1<TargetType> {
@@ -41,7 +44,7 @@ public:
   /// @brief Method ClearDirtyChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ClearDirtyChildren();
 
-  /// @brief Method CompareChildren, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CompareChildren, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CompareChildren(ChildTargetType lhs, ChildTargetType rhs);
 
   /// @brief Method ComputeNeedsRefresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -50,7 +53,7 @@ public:
   /// @brief Method ComputeNumberOfChildren, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t ComputeNumberOfChildren();
 
-  /// @brief Method FetchExpectedChildren, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FetchExpectedChildren, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<ChildTargetType> FetchExpectedChildren();
 
   /// @brief Method GetChild, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -76,13 +79,13 @@ protected:
   constexpr ItemWithChildren_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ItemWithChildren_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ItemWithChildren_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ItemWithChildren_3(ItemWithChildren_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ItemWithChildren_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ItemWithChildren_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ItemWithChildren_3(ItemWithChildren_3 const&) = delete;
+  ItemWithChildren_3(ItemWithChildren_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18468 };

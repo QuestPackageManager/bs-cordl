@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\MissionDestinationParameters.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/MissionDestinationParameters.hpp"
 #include "BeatSaber/Destinations/zzzz__SimpleMissionObjective_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__MissionDestinationParameters_def.hpp"

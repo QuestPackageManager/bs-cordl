@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerOutputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ public:
   /// @brief Method WriteObject, addr 0x3685618, size 0x58, virtual true, abstract: false, final false
   inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
+  /// [Obsolete("Use version taking an Asn1Encodable arg instead")]
   /// @brief Method WriteObject, addr 0x368543c, size 0x16c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
@@ -74,13 +75,13 @@ protected:
   constexpr DerOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerOutputStream(DerOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerOutputStream(DerOutputStream const&) = delete;
+  DerOutputStream(DerOutputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 457 };

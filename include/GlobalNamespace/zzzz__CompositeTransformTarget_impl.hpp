@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeTransformTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeTransformTarget.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CompositeTransformTarget_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CompositeTransformTarget._ctor

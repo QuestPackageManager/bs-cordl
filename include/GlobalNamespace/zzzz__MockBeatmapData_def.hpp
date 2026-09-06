@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockBeatmapData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockBeatmapData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,39 +105,51 @@ public:
   /// @brief Method .ctor, addr 0x5a825e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_bombNotes, addr 0x5a825c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*> get_bombNotes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_leftNotes, addr 0x5a825a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*> get_leftNotes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_numberOfLines, addr 0x5a82584, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
+  /// [CompilerGenerated]
   /// @brief Method get_obstacles, addr 0x5a825d4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockObstacleData*> get_obstacles();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rightNotes, addr 0x5a825b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*> get_rightNotes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_songEndTime, addr 0x5a82594, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songEndTime();
 
+  /// [CompilerGenerated]
   /// @brief Method set_bombNotes, addr 0x5a825cc, size 0x8, virtual false, abstract: false, final false
   inline void set_bombNotes(::ArrayW<::GlobalNamespace::MockNoteData*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_leftNotes, addr 0x5a825ac, size 0x8, virtual false, abstract: false, final false
   inline void set_leftNotes(::ArrayW<::GlobalNamespace::MockNoteData*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_numberOfLines, addr 0x5a8258c, size 0x8, virtual false, abstract: false, final false
   inline void set_numberOfLines(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_obstacles, addr 0x5a825dc, size 0x8, virtual false, abstract: false, final false
   inline void set_obstacles(::ArrayW<::GlobalNamespace::MockObstacleData*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rightNotes, addr 0x5a825bc, size 0x8, virtual false, abstract: false, final false
   inline void set_rightNotes(::ArrayW<::GlobalNamespace::MockNoteData*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_songEndTime, addr 0x5a8259c, size 0x8, virtual false, abstract: false, final false
   inline void set_songEndTime(float_t value);
 
@@ -147,32 +159,38 @@ protected:
   constexpr MockBeatmapData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockBeatmapData(MockBeatmapData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockBeatmapData(MockBeatmapData const&) = delete;
+  MockBeatmapData(MockBeatmapDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22224 };
 
+  /// [CompilerGenerated]
   /// @brief Field <numberOfLines>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____numberOfLines_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <songEndTime>k__BackingField, offset: 0x14, size: 0x4, def value: None
   float_t ____songEndTime_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <leftNotes>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockNoteData*> ____leftNotes_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rightNotes>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockNoteData*> ____rightNotes_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <bombNotes>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockNoteData*> ____bombNotes_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <obstacles>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockObstacleData*> ____obstacles_k__BackingField;
 

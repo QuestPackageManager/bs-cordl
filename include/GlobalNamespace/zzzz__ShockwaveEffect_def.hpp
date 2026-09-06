@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ShockwaveEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/ShockwaveEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class ShockwaveEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ShockwaveEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ShockwaveEffect*, "", "ShockwaveEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/ShockwaveEffect")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem::EmitParams
 namespace GlobalNamespace {
 // Is value type: false
@@ -83,20 +84,22 @@ protected:
   constexpr ShockwaveEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShockwaveEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShockwaveEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShockwaveEffect(ShockwaveEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShockwaveEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShockwaveEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShockwaveEffect(ShockwaveEffect const&) = delete;
+  ShockwaveEffect(ShockwaveEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5798 };
 
+  /// [SerializeField]
   /// @brief Field _shockwavePS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____shockwavePS;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

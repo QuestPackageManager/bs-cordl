@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\KeyValueCollectionPropertyBag_3.hpp"
+// IWYU pragma private; include "Unity/Properties/KeyValueCollectionPropertyBag_3.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_impl.hpp"
@@ -27,33 +28,41 @@
 #include "Unity/Properties/zzzz__KeyValueCollectionPropertyBag_3_def.hpp"
 #include "Unity/Properties/zzzz__PropertyCollection_1_def.hpp"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr TKey& Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::__cordl_internal_get__Key_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Key_k__BackingField;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr TKey const& Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::__cordl_internal_get__Key_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Key_k__BackingField;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr void Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::__cordl_internal_set__Key_k__BackingField(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Key_k__BackingField = value;
 }
-template <typename TDictionary, typename TKey, typename TValue> inline ::StringW Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::get_Name() {
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+inline ::StringW Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
                                                            { ::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-template <typename TDictionary, typename TKey, typename TValue> inline bool Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::get_IsReadOnly() {
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+inline bool Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::get_IsReadOnly() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
                                                            { ::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>
 Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::GetValue(::by_ref<TDictionary> container) {
   auto* ___internal_method =
@@ -62,6 +71,7 @@ Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDiction
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>(this, ___internal_method, container);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline void Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::SetValue(::by_ref<TDictionary> container,
                                                                                                                          ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value) {
   auto* ___internal_method =
@@ -69,127 +79,154 @@ inline void Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairPrope
                                                            { ::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container, value);
 }
-template <typename TDictionary, typename TKey, typename TValue> inline TKey Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::get_Key() {
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+inline TKey Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::get_Key() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*>(), { "get_Key", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<TKey>(this, ___internal_method);
 }
-template <typename TDictionary, typename TKey, typename TValue> inline void Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::set_Key(TKey value) {
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+inline void Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::set_Key(TKey value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*>(), { "set_Key", {}, { ::i2c::type_of<TKey>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::System::Object* Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::get_ObjectKey() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*>(), { "get_ObjectKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-template <typename TDictionary, typename TKey, typename TValue> inline void Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::_ctor() {
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+inline void Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*
 Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*>());
 }
 /// @brief Convert operator to "::Unity::Properties::IDictionaryElementProperty"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::operator ::Unity::Properties::IDictionaryElementProperty*() noexcept {
   return static_cast<::Unity::Properties::IDictionaryElementProperty*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Unity::Properties::IDictionaryElementProperty"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::IDictionaryElementProperty*
 Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::i___Unity__Properties__IDictionaryElementProperty() noexcept {
   return static_cast<::Unity::Properties::IDictionaryElementProperty*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>::KeyValueCollectionPropertyBag_3_KeyValuePairProperty() {}
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr TDictionary& Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Dictionary() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dictionary;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr TDictionary const& Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Dictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dictionary;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_set_m_Dictionary(TDictionary value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Dictionary = value;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*&
 Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Property() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Property;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* const&
 Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Property() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Property;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_set_m_Property(
     ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Property = value;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr TKey& Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Previous() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Previous;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr TKey const& Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Previous() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Previous;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_set_m_Previous(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Previous = value;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::System::Collections::Generic::List_1<TKey>*& Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Keys() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Keys;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::System::Collections::Generic::List_1<TKey>* const&
 Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Keys() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Keys;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_set_m_Keys(::System::Collections::Generic::List_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Keys = value;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr int32_t& Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Position() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Position;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr int32_t const& Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_get_m_Position() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Position;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::__cordl_internal_set_m_Position(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Position = value;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::_ctor(
     TDictionary dictionary, ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* property) {
   static auto* ___internal_method =
@@ -200,34 +237,43 @@ inline void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumer
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dictionary, property);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::Unity::Properties::IProperty_1<TDictionary>* Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>*>(), { "get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IProperty_1<TDictionary>*>(this, ___internal_method);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::System::Object* Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>*>(),
                                                            { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-template <typename TDictionary, typename TKey, typename TValue> inline bool Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::MoveNext() {
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+inline bool Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename TDictionary, typename TKey, typename TValue> inline void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::Reset() {
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+inline void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::Reset() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>*>(), { "Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TDictionary, typename TKey, typename TValue> inline void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::Dispose() {
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+inline void Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>*
 Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::New_ctor(
     TDictionary dictionary, ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* property) {
@@ -235,12 +281,14 @@ Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictio
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TDictionary>*>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::operator ::System::Collections::Generic::IEnumerator_1<
     ::Unity::Properties::IProperty_1<TDictionary>*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TDictionary>*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TDictionary>*>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TDictionary>*>*
 Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey,
                                                                          TValue>::i___System__Collections__Generic__IEnumerator_1___Unity__Properties__IProperty_1_TDictionary___() noexcept {
@@ -248,28 +296,34 @@ Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictio
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::System::Collections::IEnumerator* Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::System::IDisposable* Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator<TDictionary, TKey, TValue>::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator() {}
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline void Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>::_ctor(
     TDictionary dictionary, ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* property) {
   static auto* ___internal_method =
@@ -280,12 +334,14 @@ inline void Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDicti
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, dictionary, property);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::System::Collections::IEnumerator* Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>>(),
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(*this, ___internal_method);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TDictionary>*>*
 Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>::System_Collections_Generic_IEnumerable_Unity_Properties_IProperty_TDictionary___GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>>(),
@@ -294,29 +350,34 @@ Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey,
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TDictionary>*>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey,
                                                                         TValue>::operator ::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TDictionary>*>*() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TDictionary>*>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TDictionary>*>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TDictionary>*>*
 Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___Unity__Properties__IProperty_1_TDictionary___() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TDictionary>*>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>::operator ::System::Collections::IEnumerable*() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::System::Collections::IEnumerable* Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Dictionary", ty: "TDictionary", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Property", ty:
-// "::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary,TKey,TValue>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Dictionary", ty: "TDictionary", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Property", ty:
+// "::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary,TKey,TValue>*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>::KeyValueCollectionPropertyBag_3_Enumerable(
     TDictionary m_Dictionary, ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* m_Property) noexcept {
   this->m_Dictionary = m_Dictionary;
@@ -324,26 +385,31 @@ constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDicti
 }
 // Ctor Parameters []
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable<TDictionary, TKey, TValue>::KeyValueCollectionPropertyBag_3_Enumerable() {}
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>*&
 Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::__cordl_internal_get_m_KeyValuePairProperty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_KeyValuePairProperty;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* const&
 Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::__cordl_internal_get_m_KeyValuePairProperty() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_KeyValuePairProperty;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr void Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::__cordl_internal_set_m_KeyValuePairProperty(
     ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_KeyValuePairProperty = value;
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::Unity::Properties::PropertyCollection_1<TDictionary> Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::GetProperties() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -351,6 +417,7 @@ inline ::Unity::Properties::PropertyCollection_1<TDictionary> Unity::Properties:
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyCollection_1<TDictionary>>(this, ___internal_method);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::Unity::Properties::PropertyCollection_1<TDictionary> Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::GetProperties(::by_ref<TDictionary> container) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -358,6 +425,7 @@ inline ::Unity::Properties::PropertyCollection_1<TDictionary> Unity::Properties:
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyCollection_1<TDictionary>>(this, ___internal_method, container);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline void Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::Unity_Properties_ICollectionPropertyBagAccept_TDictionary__Accept(
     ::Unity::Properties::ICollectionPropertyBagVisitor* visitor, ::by_ref<TDictionary> container) {
   static auto* ___internal_method =
@@ -368,6 +436,7 @@ inline void Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, visitor, container);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline void Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::Unity_Properties_IDictionaryPropertyBagAccept_TDictionary__Accept(
     ::Unity::Properties::IDictionaryPropertyBagVisitor* visitor, ::by_ref<TDictionary> container) {
   static auto* ___internal_method =
@@ -378,6 +447,7 @@ inline void Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, visitor, container);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline bool Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::Unity_Properties_IKeyedProperties_TDictionary_System_Object__TryGetProperty(
     ::by_ref<TDictionary> container, ::System::Object* key, ::by_ref<::Unity::Properties::IProperty_1<TDictionary>*> property) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -388,34 +458,41 @@ inline bool Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey
                             { ::i2c::type_of<::by_ref<TDictionary>>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::Unity::Properties::IProperty_1<TDictionary>*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, container, key, property);
 }
-template <typename TDictionary, typename TKey, typename TValue> inline void Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::_ctor() {
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+inline void Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>* Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>*>());
 }
 /// @brief Convert operator to "::Unity::Properties::IDictionaryPropertyBag_3<TDictionary,TKey,TValue>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::operator ::Unity::Properties::IDictionaryPropertyBag_3<TDictionary, TKey, TValue>*() noexcept {
   return static_cast<::Unity::Properties::IDictionaryPropertyBag_3<TDictionary, TKey, TValue>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Unity::Properties::IDictionaryPropertyBag_3<TDictionary,TKey,TValue>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::IDictionaryPropertyBag_3<TDictionary, TKey, TValue>*
 Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::i___Unity__Properties__IDictionaryPropertyBag_3_TDictionary_TKey_TValue_() noexcept {
   return static_cast<::Unity::Properties::IDictionaryPropertyBag_3<TDictionary, TKey, TValue>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Unity::Properties::ICollectionPropertyBag_2<TDictionary,::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::operator ::Unity::Properties::ICollectionPropertyBag_2<
     TDictionary, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
   return static_cast<::Unity::Properties::ICollectionPropertyBag_2<TDictionary, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Unity::Properties::ICollectionPropertyBag_2<TDictionary,::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::ICollectionPropertyBag_2<TDictionary, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
 Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey,
                                                    TValue>::i___Unity__Properties__ICollectionPropertyBag_2_TDictionary___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
@@ -423,57 +500,69 @@ Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey,
 }
 /// @brief Convert operator to "::Unity::Properties::IPropertyBag_1<TDictionary>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::operator ::Unity::Properties::IPropertyBag_1<TDictionary>*() noexcept {
   return static_cast<::Unity::Properties::IPropertyBag_1<TDictionary>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Unity::Properties::IPropertyBag_1<TDictionary>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::IPropertyBag_1<TDictionary>*
 Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::i___Unity__Properties__IPropertyBag_1_TDictionary_() noexcept {
   return static_cast<::Unity::Properties::IPropertyBag_1<TDictionary>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Unity::Properties::IPropertyBag"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::operator ::Unity::Properties::IPropertyBag*() noexcept {
   return static_cast<::Unity::Properties::IPropertyBag*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Unity::Properties::IPropertyBag"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::IPropertyBag* Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::i___Unity__Properties__IPropertyBag() noexcept {
   return static_cast<::Unity::Properties::IPropertyBag*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Unity::Properties::ICollectionPropertyBagAccept_1<TDictionary>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::operator ::Unity::Properties::ICollectionPropertyBagAccept_1<TDictionary>*() noexcept {
   return static_cast<::Unity::Properties::ICollectionPropertyBagAccept_1<TDictionary>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Unity::Properties::ICollectionPropertyBagAccept_1<TDictionary>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::ICollectionPropertyBagAccept_1<TDictionary>*
 Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::i___Unity__Properties__ICollectionPropertyBagAccept_1_TDictionary_() noexcept {
   return static_cast<::Unity::Properties::ICollectionPropertyBagAccept_1<TDictionary>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Unity::Properties::IDictionaryPropertyBagAccept_1<TDictionary>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::operator ::Unity::Properties::IDictionaryPropertyBagAccept_1<TDictionary>*() noexcept {
   return static_cast<::Unity::Properties::IDictionaryPropertyBagAccept_1<TDictionary>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Unity::Properties::IDictionaryPropertyBagAccept_1<TDictionary>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::IDictionaryPropertyBagAccept_1<TDictionary>*
 Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::i___Unity__Properties__IDictionaryPropertyBagAccept_1_TDictionary_() noexcept {
   return static_cast<::Unity::Properties::IDictionaryPropertyBagAccept_1<TDictionary>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Unity::Properties::IKeyedProperties_2<TDictionary,::System::Object*>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::operator ::Unity::Properties::IKeyedProperties_2<TDictionary, ::System::Object*>*() noexcept {
   return static_cast<::Unity::Properties::IKeyedProperties_2<TDictionary, ::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Unity::Properties::IKeyedProperties_2<TDictionary,::System::Object*>"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 constexpr ::Unity::Properties::IKeyedProperties_2<TDictionary, ::System::Object*>*
 Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::i___Unity__Properties__IKeyedProperties_2_TDictionary___System__Object__() noexcept {
   return static_cast<::Unity::Properties::IKeyedProperties_2<TDictionary, ::System::Object*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename TDictionary, typename TKey, typename TValue> constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::KeyValueCollectionPropertyBag_3() {}
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+constexpr ::Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::KeyValueCollectionPropertyBag_3() {}

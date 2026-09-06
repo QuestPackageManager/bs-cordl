@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\BuddyAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/BuddyAllocator.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__BuddyAllocator_def.hpp"
@@ -9,8 +9,9 @@
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__BuddyAllocation_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__BuddyAllocator_def.hpp"
-// Ctor Parameters [CppParam { name: "branchingOrder", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "levelCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "allocationCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "freeAllocationIdsCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "branchingOrder", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "allocationCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "freeAllocationIdsCount", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::BuddyAllocator_Header::BuddyAllocator_Header(int32_t branchingOrder, int32_t levelCount, int32_t allocationCount,
                                                                                             int32_t freeAllocationIdsCount) noexcept {
   this->branchingOrder = branchingOrder;
@@ -331,7 +332,9 @@ inline void UnityEngine::Rendering::Universal::BuddyAllocator::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocator>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::Universal::BuddyAllocator::GetNativeArray(int32_t offset, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::Universal::BuddyAllocator::GetNativeArray(int32_t offset, int32_t length) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocator>(),
                                                            { "GetNativeArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
@@ -362,7 +365,9 @@ inline int32_t UnityEngine::Rendering::Universal::BuddyAllocator::LevelLength64(
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocator>(), { "LevelLength64", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, level, branchingOrder);
 }
-template <typename T> inline ::System::ValueTuple_2<int32_t, int32_t> UnityEngine::Rendering::Universal::BuddyAllocator::AllocateRange(int32_t length, ::by_ref<int32_t> dataSize) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::System::ValueTuple_2<int32_t, int32_t> UnityEngine::Rendering::Universal::BuddyAllocator::AllocateRange(int32_t length, ::by_ref<int32_t> dataSize) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocator>(),
                                                            { "AllocateRange", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
@@ -398,10 +403,10 @@ constexpr UnityEngine::Rendering::Universal::BuddyAllocator::operator ::System::
 constexpr ::System::IDisposable* UnityEngine::Rendering::Universal::BuddyAllocator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ActiveFreeMaskCounts", ty: "::System::ValueTuple_2<int32_t,int32_t>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_FreeMasksStorage", ty: "::System::ValueTuple_2<int32_t,int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_FreeMaskIndicesStorage", ty: "::System::ValueTuple_2<int32_t,int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ActiveFreeMaskCounts", ty:
+// "::System::ValueTuple_2<int32_t,int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FreeMasksStorage", ty: "::System::ValueTuple_2<int32_t,int32_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FreeMaskIndicesStorage", ty: "::System::ValueTuple_2<int32_t,int32_t>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::BuddyAllocator::BuddyAllocator(void* m_Data, ::System::ValueTuple_2<int32_t, int32_t> m_ActiveFreeMaskCounts,
                                                                               ::System::ValueTuple_2<int32_t, int32_t> m_FreeMasksStorage,
                                                                               ::System::ValueTuple_2<int32_t, int32_t> m_FreeMaskIndicesStorage, ::Unity::Collections::Allocator m_Allocator) noexcept {

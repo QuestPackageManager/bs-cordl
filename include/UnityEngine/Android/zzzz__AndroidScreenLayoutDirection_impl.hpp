@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidScreenLayoutDirection.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidScreenLayoutDirection.hpp"
 #include "UnityEngine/Android/zzzz__AndroidScreenLayoutDirection_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Android::AndroidScreenLayoutDirection::AndroidScreenLayoutDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }

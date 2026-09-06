@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\FileSystemRights.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/FileSystemRights.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FileSystemRights;
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::FileSystemRights);
 DEFINE_IL2CPP_CLASS(::System::Security::AccessControl::FileSystemRights, "System.Security.AccessControl", "FileSystemRights");
+// [Flags]
 // Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
@@ -63,7 +64,7 @@ public:
   // @brief default ctor
   constexpr FileSystemRights();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FileSystemRights(int32_t value__) noexcept;
 
   /// @brief Field AppendData value: I32(4)

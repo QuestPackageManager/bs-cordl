@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\MonoIOStat.hpp"
+// IWYU pragma private; include "System/IO/MonoIOStat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr MonoIOStat();
 
-  // Ctor Parameters [CppParam { name: "fileAttributes", ty: "::System::IO::FileAttributes", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "int64_t", modifiers: "", def_value: None
-  // }, CppParam { name: "CreationTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "LastAccessTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "LastWriteTime", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "fileAttributes", ty: "::System::IO::FileAttributes", modifiers: "", def_value: None, comment: None }, CppParam { name: "Length", ty: "int64_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "CreationTime", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "LastAccessTime", ty: "int64_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "LastWriteTime", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr MonoIOStat(::System::IO::FileAttributes fileAttributes, int64_t Length, int64_t CreationTime, int64_t LastAccessTime, int64_t LastWriteTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

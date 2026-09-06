@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoUserAgeWarningViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoUserAgeWarningViewController.hpp"
 #include "GlobalNamespace/zzzz__CompletableViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__NoUserAgeWarningViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"

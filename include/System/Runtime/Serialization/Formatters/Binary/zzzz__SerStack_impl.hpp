@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\SerStack.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/SerStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerStack_def.hpp"
 #include "System/zzzz__Object_def.hpp"

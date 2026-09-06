@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberConnectedPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberConnectedPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,12 @@ namespace GlobalNamespace {
 struct BeatSaberPlayerIdentityPacketData;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class ConnectedPlayerManager_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class ConnectedPlayerManager_3;
 }
 namespace GlobalNamespace {
 class IBeatSaberConnectedPlayer;
@@ -135,13 +140,13 @@ protected:
   constexpr BeatSaberConnectedPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatSaberConnectedPlayer(BeatSaberConnectedPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberConnectedPlayer(BeatSaberConnectedPlayer const&) = delete;
+  BeatSaberConnectedPlayer(BeatSaberConnectedPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18836 };

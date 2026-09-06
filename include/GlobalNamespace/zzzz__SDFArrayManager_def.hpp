@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SDFArrayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/SDFArrayManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class SDFArrayManager;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SDFArrayManager*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SDFArrayManager*, "", "SDFArrayManager");
+// [ExecuteAlways]
 // Dependencies SDFPoint, UnityEngine.MonoBehaviour, UnityEngine.Vector4
 namespace GlobalNamespace {
 // Is value type: false
@@ -77,17 +78,18 @@ protected:
   constexpr SDFArrayManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SDFArrayManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SDFArrayManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SDFArrayManager(SDFArrayManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SDFArrayManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SDFArrayManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SDFArrayManager(SDFArrayManager const&) = delete;
+  SDFArrayManager(SDFArrayManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19585 };
 
+  /// [SerializeField]
   /// @brief Field _sdfPointArray, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::SDFPoint>> ____sdfPointArray;
 

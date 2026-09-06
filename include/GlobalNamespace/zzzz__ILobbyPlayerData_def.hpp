@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ILobbyPlayerData.hpp"
+// IWYU pragma private; include "GlobalNamespace/ILobbyPlayerData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,36 +32,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr operator ::GlobalNamespace::ILevelGameplaySetupData*() noexcept;
 
-  /// @brief Method get_isActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isInLobby, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isInLobby, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isInLobby();
 
-  /// @brief Method get_isPartyOwner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isPartyOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isPartyOwner();
 
-  /// @brief Method get_isReady, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isReady();
 
   /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr ::GlobalNamespace::ILevelGameplaySetupData* i___GlobalNamespace__ILevelGameplaySetupData() noexcept;
 
-  /// @brief Method set_isActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method set_isInLobby, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_isInLobby, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isInLobby(bool value);
 
-  /// @brief Method set_isPartyOwner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_isPartyOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isPartyOwner(bool value);
 
-  /// @brief Method set_isReady, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isReady(bool value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILobbyPlayerData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ILobbyPlayerData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILobbyPlayerData(ILobbyPlayerData const&) = delete;
+  ILobbyPlayerData(ILobbyPlayerDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15093 };

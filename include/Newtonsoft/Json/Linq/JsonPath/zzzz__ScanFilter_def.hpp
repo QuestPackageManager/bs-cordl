@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\ScanFilter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/ScanFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::Newtonsoft::Json::Linq::JsonPath::ScanFilter*);
 MARK_REF_T(::Newtonsoft::Json::Linq::JsonPath::ScanFilter__ExecuteFilter_d__2*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JsonPath::ScanFilter*, "Newtonsoft.Json.Linq.JsonPath", "ScanFilter");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JsonPath::ScanFilter__ExecuteFilter_d__2*, "Newtonsoft.Json.Linq.JsonPath", "ScanFilter/<ExecuteFilter>d__2");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
@@ -104,23 +105,30 @@ public:
   /// @brief Method MoveNext, addr 0x5d95568, size 0x418, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Newtonsoft::Json::Linq::JsonPath::ScanFilter__ExecuteFilter_d__2* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x5d95a7c, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x5d95a34, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5d95b1c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d95a3c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d95a74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5d9553c, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -181,6 +189,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x5d95980, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5d9551c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -205,13 +214,13 @@ protected:
   constexpr ScanFilter__ExecuteFilter_d__2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScanFilter__ExecuteFilter_d__2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScanFilter__ExecuteFilter_d__2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScanFilter__ExecuteFilter_d__2(ScanFilter__ExecuteFilter_d__2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScanFilter__ExecuteFilter_d__2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScanFilter__ExecuteFilter_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScanFilter__ExecuteFilter_d__2(ScanFilter__ExecuteFilter_d__2 const&) = delete;
+  ScanFilter__ExecuteFilter_d__2(ScanFilter__ExecuteFilter_d__2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13645 };
@@ -219,27 +228,34 @@ public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
+  /// [Nullable(1)]
   /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* _____2__current;
 
   /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
   int32_t _____l__initialThreadId;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field current, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ___current;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field <>3__current, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _____3__current;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x38, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JsonPath::ScanFilter* _____4__this;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field <>7__wrap1, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* _____7__wrap1;
 
+  /// [Nullable(0)]
   /// @brief Field <c>5__3, offset: 0x48, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* ____c_5__3;
 
+  /// [Nullable(0)]
   /// @brief Field <value>5__4, offset: 0x50, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* ____value_5__4;
 
@@ -267,6 +283,8 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::ScanFilter__ExecuteFi
 static_assert(sizeof(::Newtonsoft::Json::Linq::JsonPath::ScanFilter__ExecuteFilter_d__2) == 0x58, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq::JsonPath
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Linq.JsonPath.PathFilter
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
@@ -279,10 +297,12 @@ public:
   /// @brief Field Name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
+  /// [NullableContext(1)]
+  /// [IteratorStateMachine(typeof(Newtonsoft.Json.Linq.JsonPath.ScanFilter::<ExecuteFilter>d__2))]
   /// @brief Method ExecuteFilter, addr 0x5d954a4, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
-                                                                                                         ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
+                                                                                                         /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::ScanFilter* New_ctor(::StringW name);
 
@@ -301,13 +321,13 @@ protected:
   constexpr ScanFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScanFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScanFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScanFilter(ScanFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScanFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScanFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScanFilter(ScanFilter const&) = delete;
+  ScanFilter(ScanFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13646 };

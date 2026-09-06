@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetTubeBloomPrePassLightColor.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetTubeBloomPrePassLightColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class SetTubeBloomPrePassLightColor;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SetTubeBloomPrePassLightColor*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SetTubeBloomPrePassLightColor*, "", "SetTubeBloomPrePassLightColor");
+// [AddComponentMenu("Beat Saber/Gameplay/SetTubeBloomPrePassLightColor")]
 // Dependencies TubeBloomPrePassLight, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -56,20 +57,22 @@ protected:
   constexpr SetTubeBloomPrePassLightColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetTubeBloomPrePassLightColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetTubeBloomPrePassLightColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetTubeBloomPrePassLightColor(SetTubeBloomPrePassLightColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetTubeBloomPrePassLightColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetTubeBloomPrePassLightColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetTubeBloomPrePassLightColor(SetTubeBloomPrePassLightColor const&) = delete;
+  SetTubeBloomPrePassLightColor(SetTubeBloomPrePassLightColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6244 };
 
+  /// [SerializeField]
   /// @brief Field _color, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color;
 
+  /// [SerializeField]
   /// @brief Field _tubeLights, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> ____tubeLights;
 

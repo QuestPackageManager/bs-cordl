@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRDevice.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRDevice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class XRDevice;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::XRDevice*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::XRDevice*, "UnityEngine.XR", "XRDevice");
+// [NativeConditional("ENABLE_VR")]
 // Dependencies System.Object
 namespace UnityEngine::XR {
 // Is value type: false
@@ -35,15 +36,20 @@ public:
   /// @brief Field deviceLoaded, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded)) ::System::Action_1<::StringW>* deviceLoaded;
 
+  /// [NativeName("DisableAutoVRCameraTracking")]
+  /// [StaticAccessor("GetIVRDevice()", (UnityEngine.Bindings.StaticAccessorType)3)]
   /// @brief Method DisableAutoXRCameraTracking, addr 0x6e367e4, size 0xb4, virtual false, abstract: false, final false
-  static inline void DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled);
+  static inline void DisableAutoXRCameraTracking(/* [NotNull] */ ::UnityEngine::Camera* camera, bool disabled);
 
   /// @brief Method DisableAutoXRCameraTracking_Injected, addr 0x6e36898, size 0x44, virtual false, abstract: false, final false
   static inline void DisableAutoXRCameraTracking_Injected(::System::IntPtr camera, bool disabled);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeDeviceLoaded, addr 0x6e368dc, size 0x70, virtual false, abstract: false, final false
   static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
 
+  /// [StaticAccessor("GetIVRDevice()", (UnityEngine.Bindings.StaticAccessorType)3)]
+  /// [Obsolete("This is obsolete, and should no longer be used.  Please use XRInputSubsystem.TrySetTrackingOriginMode.")]
   /// @brief Method SetTrackingSpaceType, addr 0x6e367a8, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
@@ -57,13 +63,13 @@ protected:
   constexpr XRDevice();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRDevice", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDevice", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRDevice(XRDevice&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRDevice", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRDevice(XRDevice const&) = delete;
+  XRDevice(XRDeviceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23219 };

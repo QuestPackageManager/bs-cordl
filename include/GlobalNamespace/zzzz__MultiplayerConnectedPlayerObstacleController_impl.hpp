@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerObstacleController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerObstacleController.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
@@ -105,7 +105,8 @@ constexpr void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplayerConnectedPlayerObstacleClippingController = value;
 }
-inline void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init(::GlobalNamespace::ObstacleData* obstacleData, ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
+inline void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init(::GlobalNamespace::ObstacleData* obstacleData,
+                                                                                /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obstacleData, obstacleSpawnData);

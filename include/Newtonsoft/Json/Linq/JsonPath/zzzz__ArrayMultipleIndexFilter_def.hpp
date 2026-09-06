@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\ArrayMultipleIndexFilter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/ArrayMultipleIndexFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter*);
 MARK_REF_T(::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter__ExecuteFilter_d__2*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter*, "Newtonsoft.Json.Linq.JsonPath", "ArrayMultipleIndexFilter");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter__ExecuteFilter_d__2*, "Newtonsoft.Json.Linq.JsonPath", "ArrayMultipleIndexFilter/<ExecuteFilter>d__2");
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
@@ -113,23 +114,30 @@ public:
   /// @brief Method MoveNext, addr 0x5d8d8a0, size 0x38c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter__ExecuteFilter_d__2* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x5d8dd70, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x5d8dd28, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5d8de18, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d8dd30, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d8dd68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5d8d7bc, size 0xe4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -205,6 +213,7 @@ public:
   /// @brief Method <>m__Finally2, addr 0x5d8dc2c, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5d8d79c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -229,13 +238,13 @@ protected:
   constexpr ArrayMultipleIndexFilter__ExecuteFilter_d__2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter__ExecuteFilter_d__2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter__ExecuteFilter_d__2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayMultipleIndexFilter__ExecuteFilter_d__2(ArrayMultipleIndexFilter__ExecuteFilter_d__2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter__ExecuteFilter_d__2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter__ExecuteFilter_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayMultipleIndexFilter__ExecuteFilter_d__2(ArrayMultipleIndexFilter__ExecuteFilter_d__2 const&) = delete;
+  ArrayMultipleIndexFilter__ExecuteFilter_d__2(ArrayMultipleIndexFilter__ExecuteFilter_d__2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13625 };
@@ -249,27 +258,35 @@ public:
   /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
   int32_t _____l__initialThreadId;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field current, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ___current;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field <>3__current, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _____3__current;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x38, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter* _____4__this;
 
+  /// [Nullable(0)]
   /// @brief Field settings, offset: 0x40, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JsonSelectSettings* ___settings;
 
+  /// [Nullable(0)]
   /// @brief Field <>3__settings, offset: 0x48, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JsonSelectSettings* _____3__settings;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field <>7__wrap1, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* _____7__wrap1;
 
+  /// [Nullable(0)]
   /// @brief Field <t>5__3, offset: 0x58, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* ____t_5__3;
 
+  /// [Nullable(0)]
   /// @brief Field <>7__wrap3, offset: 0x60, size: 0x18, def value: None
   ::System::Collections::Generic::List_1_Enumerator<int32_t> _____7__wrap3;
 
@@ -301,6 +318,8 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFil
 static_assert(sizeof(::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter__ExecuteFilter_d__2) == 0x78, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq::JsonPath
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Linq.JsonPath.PathFilter
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
@@ -313,10 +332,11 @@ public:
   /// @brief Field Indexes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Indexes, put = __cordl_internal_set_Indexes)) ::System::Collections::Generic::List_1<int32_t>* Indexes;
 
+  /// [IteratorStateMachine(typeof(Newtonsoft.Json.Linq.JsonPath.ArrayMultipleIndexFilter::<ExecuteFilter>d__2))]
   /// @brief Method ExecuteFilter, addr 0x5d8d71c, size 0x80, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
-                                                                                                         ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
+                                                                                                         /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter* New_ctor(::System::Collections::Generic::List_1<int32_t>* indexes);
 
@@ -335,13 +355,13 @@ protected:
   constexpr ArrayMultipleIndexFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayMultipleIndexFilter(ArrayMultipleIndexFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayMultipleIndexFilter(ArrayMultipleIndexFilter const&) = delete;
+  ArrayMultipleIndexFilter(ArrayMultipleIndexFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13626 };

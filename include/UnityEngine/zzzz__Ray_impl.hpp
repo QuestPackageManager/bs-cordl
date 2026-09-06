@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Ray.hpp"
+// IWYU pragma private; include "UnityEngine/Ray.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Ray_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -147,8 +147,8 @@ constexpr UnityEngine::Ray::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::Ray::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Ray::Ray(::UnityEngine::Vector3 m_Origin, ::UnityEngine::Vector3 m_Direction) noexcept {
   this->m_Origin = m_Origin;
   this->m_Direction = m_Direction;

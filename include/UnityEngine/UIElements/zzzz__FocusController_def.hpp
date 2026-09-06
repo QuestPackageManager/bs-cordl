@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FocusController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FocusController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,8 +57,8 @@ public:
   // @brief default ctor
   constexpr FocusController_FocusedElement();
 
-  // Ctor Parameters [CppParam { name: "m_SubTreeRoot", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "m_FocusedElement", ty:
-  // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_SubTreeRoot", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FocusedElement", ty:
+  // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }]
   constexpr FocusController_FocusedElement(::UnityEngine::UIElements::VisualElement* m_SubTreeRoot, ::UnityEngine::UIElements::VisualElement* m_FocusedElement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -135,9 +135,11 @@ public:
   /// @brief Method Blur, addr 0x6da7ae0, size 0x58, virtual false, abstract: false, final false
   inline void Blur(::UnityEngine::UIElements::Focusable* focusable, bool bIsFocusDelegated, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method BlurLastFocusedElement, addr 0x6da8cf0, size 0x98, virtual false, abstract: false, final false
   inline void BlurLastFocusedElement();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method DoFocusChange, addr 0x6da8d88, size 0x84, virtual false, abstract: false, final false
   inline void DoFocusChange(::UnityEngine::UIElements::Focusable* f);
 
@@ -150,6 +152,7 @@ public:
   /// @brief Method GetFocusableParentForPointerEvent, addr 0x6da9abc, size 0xfc, virtual false, abstract: false, final false
   inline bool GetFocusableParentForPointerEvent(::UnityEngine::UIElements::Focusable* target, ::by_ref<::UnityEngine::UIElements::Focusable*> effectiveTarget);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetLeafFocusedElement, addr 0x6d9bd90, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* GetLeafFocusedElement();
 
@@ -169,6 +172,7 @@ public:
   /// @brief Method IsLocalElement, addr 0x6da8918, size 0x3c, virtual false, abstract: false, final false
   inline bool IsLocalElement(::UnityEngine::UIElements::Focusable* f);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method IsPendingFocus, addr 0x6da8ba8, size 0xbc, virtual false, abstract: false, final false
   inline bool IsPendingFocus(::UnityEngine::UIElements::Focusable* f);
 
@@ -245,15 +249,18 @@ public:
   /// @brief Method .ctor, addr 0x6da85f8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IFocusRing* focusRing);
 
+  /// [CompilerGenerated]
   /// @brief Method get_focusRing, addr 0x6da8680, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IFocusRing* get_focusRing();
 
   /// @brief Method get_focusedElement, addr 0x6da8748, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* get_focusedElement();
 
+  /// [CompilerGenerated]
   /// @brief Method get_imguiKeyboardControl, addr 0x6da9bb8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_imguiKeyboardControl();
 
+  /// [CompilerGenerated]
   /// @brief Method set_imguiKeyboardControl, addr 0x6da9bc0, size 0x8, virtual false, abstract: false, final false
   inline void set_imguiKeyboardControl(int32_t value);
 
@@ -266,17 +273,19 @@ protected:
   constexpr FocusController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FocusController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusController(FocusController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FocusController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FocusController(FocusController const&) = delete;
+  FocusController(FocusControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4583 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <focusRing>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::IFocusRing* ____focusRing_k__BackingField;
 
@@ -289,12 +298,15 @@ public:
   /// @brief Field m_LastFocusedElement, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ___m_LastFocusedElement;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field m_LastPendingFocusedElement, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ___m_LastPendingFocusedElement;
 
   /// @brief Field m_PendingFocusCount, offset: 0x38, size: 0x4, def value: None
   int32_t ___m_PendingFocusCount;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <imguiKeyboardControl>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   int32_t ____imguiKeyboardControl_k__BackingField;
 

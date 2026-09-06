@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\OpenXRDevice.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/OpenXRDevice.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__OpenXRDevice_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::Input::OpenXRDevice.FinishSetup

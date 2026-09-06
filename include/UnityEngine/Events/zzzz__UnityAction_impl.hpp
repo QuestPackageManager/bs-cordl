@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Events\UnityAction.hpp"
+// IWYU pragma private; include "UnityEngine/Events/UnityAction.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

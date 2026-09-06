@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\SystemThreadingTasks_FutureDebugView_1.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/SystemThreadingTasks_FutureDebugView_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +27,13 @@ protected:
   constexpr SystemThreadingTasks_FutureDebugView_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemThreadingTasks_FutureDebugView_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemThreadingTasks_FutureDebugView_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemThreadingTasks_FutureDebugView_1(SystemThreadingTasks_FutureDebugView_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemThreadingTasks_FutureDebugView_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemThreadingTasks_FutureDebugView_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SystemThreadingTasks_FutureDebugView_1(SystemThreadingTasks_FutureDebugView_1 const&) = delete;
+  SystemThreadingTasks_FutureDebugView_1(SystemThreadingTasks_FutureDebugView_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2788 };

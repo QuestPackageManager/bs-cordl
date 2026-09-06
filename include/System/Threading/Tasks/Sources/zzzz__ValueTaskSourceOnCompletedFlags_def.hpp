@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\Sources\ValueTaskSourceOnCompletedFlags.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/Sources/ValueTaskSourceOnCompletedFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ValueTaskSourceOnCompletedFlags;
 // Write type traits
 MARK_VAL_T(::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags, "System.Threading.Tasks.Sources", "ValueTaskSourceOnCompletedFlags");
+// [Flags]
 // Dependencies
 namespace System::Threading::Tasks::Sources {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ValueTaskSourceOnCompletedFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ValueTaskSourceOnCompletedFlags(int32_t value__) noexcept;
 
   /// @brief Field FlowExecutionContext value: I32(2)

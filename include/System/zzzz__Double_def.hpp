@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Double.hpp"
+// IWYU pragma private; include "System/Double.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ struct Double;
 // Write type traits
 MARK_VAL_T(::System::Double);
 DEFINE_IL2CPP_CLASS(::System::Double, "System", "Double");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -106,21 +107,27 @@ public:
   /// @brief Method GetTypeCode, addr 0x5c2fdd8, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
+  /// [NonVersionable]
   /// @brief Method IsFinite, addr 0x5c2f140, size 0x14, virtual false, abstract: false, final false
   static inline bool IsFinite(double_t d);
 
+  /// [NonVersionable]
   /// @brief Method IsInfinity, addr 0x5c2f154, size 0x18, virtual false, abstract: false, final false
   static inline bool IsInfinity(double_t d);
 
+  /// [NonVersionable]
   /// @brief Method IsNaN, addr 0x5c2f16c, size 0x18, virtual false, abstract: false, final false
   static inline bool IsNaN(double_t d);
 
+  /// [NonVersionable]
   /// @brief Method IsNegative, addr 0x5c2f184, size 0xc, virtual false, abstract: false, final false
   static inline bool IsNegative(double_t d);
 
+  /// [NonVersionable]
   /// @brief Method IsNegativeInfinity, addr 0x5c2f190, size 0x14, virtual false, abstract: false, final false
   static inline bool IsNegativeInfinity(double_t d);
 
+  /// [NonVersionable]
   /// @brief Method IsPositiveInfinity, addr 0x5c2f1a4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPositiveInfinity(double_t d);
 
@@ -224,7 +231,7 @@ public:
   // @brief default ctor
   constexpr Double();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "double_t", modifiers: "", def_value: None, comment: None }]
   constexpr Double(double_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\GetterProvider_2.hpp"
+// IWYU pragma private; include "Zenject/GetterProvider_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ template <typename TObj, typename TResult> class GetterProvider_2;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::GetterProvider_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::GetterProvider_2, "Zenject", "GetterProvider`2");
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.InjectSources
 namespace Zenject {
 // cpp template
@@ -135,13 +136,13 @@ protected:
   constexpr GetterProvider_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GetterProvider_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetterProvider_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetterProvider_2(GetterProvider_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GetterProvider_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetterProvider_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GetterProvider_2(GetterProvider_2 const&) = delete;
+  GetterProvider_2(GetterProvider_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14547 };

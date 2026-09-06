@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaxHeightVerticalLayoutGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaxHeightVerticalLayoutGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,20 +72,22 @@ protected:
   constexpr MaxHeightVerticalLayoutGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaxHeightVerticalLayoutGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaxHeightVerticalLayoutGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaxHeightVerticalLayoutGroup(MaxHeightVerticalLayoutGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaxHeightVerticalLayoutGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaxHeightVerticalLayoutGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaxHeightVerticalLayoutGroup(MaxHeightVerticalLayoutGroup const&) = delete;
+  MaxHeightVerticalLayoutGroup(MaxHeightVerticalLayoutGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20748 };
 
+  /// [SerializeField]
   /// @brief Field _useMaxHeight, offset: 0x6b, size: 0x1, def value: None
   bool ____useMaxHeight;
 
+  /// [SerializeField]
   /// @brief Field _maxHeight, offset: 0x6c, size: 0x4, def value: None
   float_t ____maxHeight;
 

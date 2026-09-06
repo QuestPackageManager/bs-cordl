@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ExecuteCommandEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ExecuteCommandEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_REF_T(::UnityEngine::UIElements::ExecuteCommandEvent*);
 MARK_REF_T(::UnityEngine::UIElements::ExecuteCommandEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ExecuteCommandEvent*, "UnityEngine.UIElements", "ExecuteCommandEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ExecuteCommandEvent___c*, "UnityEngine.UIElements", "ExecuteCommandEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr ExecuteCommandEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExecuteCommandEvent___c(ExecuteCommandEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExecuteCommandEvent___c(ExecuteCommandEvent___c const&) = delete;
+  ExecuteCommandEvent___c(ExecuteCommandEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4443 };
@@ -86,13 +87,13 @@ protected:
   constexpr ExecuteCommandEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExecuteCommandEvent(ExecuteCommandEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExecuteCommandEvent(ExecuteCommandEvent const&) = delete;
+  ExecuteCommandEvent(ExecuteCommandEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4444 };

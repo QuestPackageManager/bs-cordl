@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\StencilState.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/StencilState.hpp"
 #include "UnityEngine/Rendering/zzzz__StencilState_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -629,12 +629,13 @@ constexpr UnityEngine::Rendering::StencilState::operator ::System::IEquatable_1<
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::StencilState>* UnityEngine::Rendering::StencilState::i___System__IEquatable_1___UnityEngine__Rendering__StencilState_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::StencilState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Enabled", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ReadMask", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "m_WriteMask", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Padding", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_CompareFunctionFront", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PassOperationFront", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_FailOperationFront", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ZFailOperationFront", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_CompareFunctionBack", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PassOperationBack", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_FailOperationBack", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ZFailOperationBack", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Enabled", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ReadMask", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_WriteMask", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Padding", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_CompareFunctionFront", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PassOperationFront", ty:
+// "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FailOperationFront", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_ZFailOperationFront", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CompareFunctionBack", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_PassOperationBack", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FailOperationBack", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_ZFailOperationBack", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::StencilState::StencilState(uint8_t m_Enabled, uint8_t m_ReadMask, uint8_t m_WriteMask, uint8_t m_Padding, uint8_t m_CompareFunctionFront,
                                                                uint8_t m_PassOperationFront, uint8_t m_FailOperationFront, uint8_t m_ZFailOperationFront, uint8_t m_CompareFunctionBack,
                                                                uint8_t m_PassOperationBack, uint8_t m_FailOperationBack, uint8_t m_ZFailOperationBack) noexcept {

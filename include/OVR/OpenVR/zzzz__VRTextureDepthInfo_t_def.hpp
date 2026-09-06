@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VRTextureDepthInfo_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VRTextureDepthInfo_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,8 @@ public:
   // @brief default ctor
   constexpr VRTextureDepthInfo_t();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "mProjection", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value:
-  // None }, CppParam { name: "vRange", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "mProjection", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "vRange", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None, comment: None }]
   constexpr VRTextureDepthInfo_t(::System::IntPtr handle, ::OVR::OpenVR::HmdMatrix44_t mProjection, ::OVR::OpenVR::HmdVector2_t vRange) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

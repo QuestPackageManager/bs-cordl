@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ProvidePropertyAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/ProvidePropertyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__ProvidePropertyAttribute_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::ProvidePropertyAttribute.get_PropertyName

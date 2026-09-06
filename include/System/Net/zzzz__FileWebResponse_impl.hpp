@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FileWebResponse.hpp"
+// IWYU pragma private; include "System/Net/FileWebResponse.hpp"
 #include "System/IO/zzzz__FileAccess_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/Net/zzzz__FileWebResponse_def.hpp"
@@ -283,6 +283,7 @@ inline ::System::IO::Stream* System::Net::FileWebResponse::GetResponseStream() {
 inline ::System::Net::FileWebResponse* System::Net::FileWebResponse::New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::FileWebResponse*>(request, uri, access, asyncHint));
 }
+/// @brief [Obsolete("Serialization is obsoleted for this type. http://go.microsoft.com/fwlink/?linkid=14202")]
 inline ::System::Net::FileWebResponse* System::Net::FileWebResponse::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                               ::System::Runtime::Serialization::StreamingContext streamingContext) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::FileWebResponse*>(serializationInfo, streamingContext));

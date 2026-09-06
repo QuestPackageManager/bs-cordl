@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class MaterialPropertyBlockAnimator;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MaterialPropertyBlockAnimator*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MaterialPropertyBlockAnimator*, "", "MaterialPropertyBlockAnimator");
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -49,6 +50,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockAnimator* New_ctor();
 
+  /// [ContextMenu("RefreshPropertyID")]
   /// @brief Method RefreshProperty, addr 0x5871b5c, size 0x20, virtual false, abstract: false, final false
   inline void RefreshProperty();
 
@@ -97,20 +99,23 @@ protected:
   constexpr MaterialPropertyBlockAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockAnimator(MaterialPropertyBlockAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockAnimator(MaterialPropertyBlockAnimator const&) = delete;
+  MaterialPropertyBlockAnimator(MaterialPropertyBlockAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19566 };
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromProperty("_materialPropertyBlockController", "_renderers", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)0)]
   /// @brief Field _property, offset: 0x20, size: 0x8, def value: None
   ::StringW ____property;
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 

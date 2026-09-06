@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SwapCollectionExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SwapCollectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SwapCollectionExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 template <typename TValue>
-inline bool UnityEngine::Rendering::SwapCollectionExtensions::TrySwap(::System::Collections::Generic::IList_1<TValue>* list, int32_t from, int32_t to, ::by_ref<::System::Exception*> error) {
+inline bool UnityEngine::Rendering::SwapCollectionExtensions::TrySwap(/* [DisallowNull] */ ::System::Collections::Generic::IList_1<TValue>* list, int32_t from, int32_t to,
+                                                                      /* [NotNullWhen(false)] */ ::by_ref<::System::Exception*> error) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SwapCollectionExtensions*>(),
                                                                                               { "TrySwap",
                                                                                                 { ::i2c::class_of<TValue>() },

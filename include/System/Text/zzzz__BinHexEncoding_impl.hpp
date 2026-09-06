@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\BinHexEncoding.hpp"
+// IWYU pragma private; include "System/Text/BinHexEncoding.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__BinHexEncoding_def.hpp"
 //  Writing Method size for method: ::System::Text::BinHexEncoding.GetMaxByteCount

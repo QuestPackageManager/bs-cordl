@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedList64Bytes_1.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedList64Bytes_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,45 +36,69 @@ namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T> struct FixedList128Bytes_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedList128Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T> struct FixedList32Bytes_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedList32Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T> struct FixedList4096Bytes_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedList4096Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T> struct FixedList512Bytes_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedList512Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T> struct FixedList64Bytes_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedList64Bytes_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T> class IIndexable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IIndexable_1;
 }
 namespace Unity::Collections {
-template <typename T> class INativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class INativeList_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct FixedList64Bytes_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedList64Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T> struct FixedList64Bytes_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedList64Bytes_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::FixedList64Bytes_1);
 MARK_GEN_VAL_T(::Unity::Collections::FixedList64Bytes_1_Enumerator);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::FixedList64Bytes_1, "Unity.Collections", "FixedList64Bytes`1");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::FixedList64Bytes_1_Enumerator, "Unity.Collections", "FixedList64Bytes`1/Enumerator");
+// [DefaultMember("Item")]
+// [DebuggerTypeProxy(typeof(Unity.Collections.FixedList64BytesDebugView`1<T>))]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
 // Dependencies Unity.Collections.FixedBytes64Align8
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.FixedList64Bytes`1<T>
 struct CORDL_TYPE FixedList64Bytes_1 {
@@ -86,12 +110,14 @@ public:
 
   __declspec(property(get = get_Capacity, put = set_Capacity)) int32_t Capacity;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_Elements)) ::System::Collections::Generic::IEnumerable_1<T>* Elements;
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_Length, put = set_Length)) int32_t Length;
 
   __declspec(property(get = get_LengthInBytes)) int32_t LengthInBytes;
@@ -143,10 +169,10 @@ public:
   constexpr operator ::Unity::Collections::INativeList_1<T>*();
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(::by_ref<T> item);
+  inline void Add(/* [IsReadOnly] */ ::by_ref<T> item);
 
   /// @brief Method AddNoResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddNoResize(::by_ref<T> item);
+  inline void AddNoResize(/* [IsReadOnly] */ ::by_ref<T> item);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(void* ptr, int32_t length);
@@ -155,7 +181,7 @@ public:
   inline void AddRangeNoResize(void* ptr, int32_t length);
 
   /// @brief Method AddReplicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddReplicate(::by_ref<T> value, int32_t count);
+  inline void AddReplicate(/* [IsReadOnly] */ ::by_ref<T> value, int32_t count);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
@@ -178,6 +204,7 @@ public:
   /// @brief Method ElementAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::by_ref<T> ElementAt(int32_t index);
 
+  /// [ExcludeFromBurstCompatTesting("Takes managed object")]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
@@ -203,19 +230,19 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Initialize(::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other);
+  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other);
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Initialize(::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other);
+  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other);
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Initialize(::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other);
+  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other);
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Initialize(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other);
+  inline int32_t Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other);
 
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Insert(int32_t index, ::by_ref<T> item);
+  inline void Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T> item);
 
   /// @brief Method InsertRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InsertRange(int32_t index, int32_t count);
@@ -241,6 +268,7 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [ExcludeFromBurstCompatTesting("Returns managed array")]
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T> ToArray();
 
@@ -248,41 +276,48 @@ public:
   inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other);
 
+  /// [IsReadOnly]
   /// @brief Method get_Buffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline uint8_t* get_Buffer();
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Capacity();
 
   /// @brief Method get_Elements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<T>* get_Elements();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
+  /// [IsReadOnly]
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Item(int32_t index);
 
+  /// [IsReadOnly]
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Length();
 
   /// @brief Method get_LengthInBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_LengthInBytes();
 
+  /// [IsReadOnly]
   /// @brief Method get_buffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline uint8_t* get_buffer();
 
+  /// [IsReadOnly]
   /// @brief Method get_length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline uint16_t get_length();
 
@@ -329,46 +364,46 @@ public:
   constexpr ::Unity::Collections::INativeList_1<T>* i___Unity__Collections__INativeList_1_T_();
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> b);
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> b);
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> b);
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> b);
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> b);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other);
+  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other);
+  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other);
+  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other);
+  static inline ::Unity::Collections::FixedList64Bytes_1<T> op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> b);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> b);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> b);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> b);
 
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> b);
 
   /// @brief Method set_Capacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_Capacity(int32_t value);
@@ -386,7 +421,7 @@ public:
   // @brief default ctor
   constexpr FixedList64Bytes_1();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "::Unity::Collections::FixedBytes64Align8", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "::Unity::Collections::FixedBytes64Align8", modifiers: "", def_value: None, comment: None }]
   constexpr FixedList64Bytes_1(::Unity::Collections::FixedBytes64Align8 data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -395,6 +430,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
+  /// [SerializeField]
   /// @brief Field data, offset: 0x0, size: 0x40, def value: None
   ::Unity::Collections::FixedBytes64Align8 data;
 
@@ -406,6 +442,7 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.FixedList64Bytes`1/Enumerator<T>
 struct CORDL_TYPE FixedList64Bytes_1_Enumerator {
@@ -455,8 +492,8 @@ public:
   // @brief default ctor
   constexpr FixedList64Bytes_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_List", ty: "::Unity::Collections::FixedList64Bytes_1<T>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_List", ty: "::Unity::Collections::FixedList64Bytes_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr FixedList64Bytes_1_Enumerator(::Unity::Collections::FixedList64Bytes_1<T> m_List, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

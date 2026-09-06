@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XElementWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XElementWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class XElementWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XElementWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XElementWrapper*, "Newtonsoft.Json.Converters", "XElementWrapper");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.XContainerWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -38,10 +40,13 @@ public:
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_NamespaceUri)) ::StringW NamespaceUri;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
   /// @brief Field _attributes, offset 0x20, size 0x8
@@ -85,12 +90,15 @@ public:
   /// @brief Method get_IsEmpty, addr 0x5da295c, size 0x24, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
+  /// [NullableContext(2)]
   /// @brief Method get_LocalName, addr 0x5da290c, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
+  /// [NullableContext(2)]
   /// @brief Method get_NamespaceUri, addr 0x5da2930, size 0x2c, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
+  /// [NullableContext(2)]
   /// @brief Method get_Value, addr 0x5da28b8, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
@@ -100,6 +108,7 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
+  /// [NullableContext(2)]
   /// @brief Method set_Value, addr 0x5da28d4, size 0x38, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
@@ -109,17 +118,18 @@ protected:
   constexpr XElementWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XElementWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XElementWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XElementWrapper(XElementWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XElementWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XElementWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XElementWrapper(XElementWrapper const&) = delete;
+  XElementWrapper(XElementWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13688 };
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _attributes, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ____attributes;
 

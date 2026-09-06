@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspChildControlTypeAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspChildControlTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class AspChildControlTypeAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::AspChildControlTypeAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::AspChildControlTypeAttribute*, "JetBrains.Annotations", "AspChildControlTypeAttribute");
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -23,8 +24,10 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE AspChildControlTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [NotNull]
   __declspec(property(get = get_ControlType, put = set_ControlType)) ::System::Type* ControlType;
 
+  /// @brief [NotNull]
   __declspec(property(get = get_TagName, put = set_TagName)) ::StringW TagName;
 
   /// @brief Field <ControlType>k__BackingField, offset 0x18, size 0x8
@@ -33,7 +36,7 @@ public:
   /// @brief Field <TagName>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__TagName_k__BackingField, put = __cordl_internal_set__TagName_k__BackingField)) ::StringW _TagName_k__BackingField;
 
-  static inline ::JetBrains::Annotations::AspChildControlTypeAttribute* New_ctor(::StringW tagName, ::System::Type* controlType);
+  static inline ::JetBrains::Annotations::AspChildControlTypeAttribute* New_ctor(/* [NotNull] */ ::StringW tagName, /* [NotNull] */ ::System::Type* controlType);
 
   constexpr ::System::Type* const& __cordl_internal_get__ControlType_k__BackingField() const;
 
@@ -48,17 +51,21 @@ public:
   constexpr void __cordl_internal_set__TagName_k__BackingField(::StringW value);
 
   /// @brief Method .ctor, addr 0x6e3e200, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW tagName, ::System::Type* controlType);
+  inline void _ctor(/* [NotNull] */ ::StringW tagName, /* [NotNull] */ ::System::Type* controlType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ControlType, addr 0x6e3e218, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ControlType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TagName, addr 0x6e3e208, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TagName();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ControlType, addr 0x6e3e220, size 0x8, virtual false, abstract: false, final false
   inline void set_ControlType(::System::Type* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TagName, addr 0x6e3e210, size 0x8, virtual false, abstract: false, final false
   inline void set_TagName(::StringW value);
 
@@ -68,20 +75,22 @@ protected:
   constexpr AspChildControlTypeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspChildControlTypeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspChildControlTypeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspChildControlTypeAttribute(AspChildControlTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspChildControlTypeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspChildControlTypeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AspChildControlTypeAttribute(AspChildControlTypeAttribute const&) = delete;
+  AspChildControlTypeAttribute(AspChildControlTypeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22596 };
 
+  /// [CompilerGenerated]
   /// @brief Field <TagName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____TagName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ControlType>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____ControlType_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Drawing\SizeF.hpp"
+// IWYU pragma private; include "System/Drawing/SizeF.hpp"
 #include "System/Drawing/zzzz__SizeF_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -129,7 +129,8 @@ constexpr System::Drawing::SizeF::operator ::System::IEquatable_1<::System::Draw
 constexpr ::System::IEquatable_1<::System::Drawing::SizeF>* System::Drawing::SizeF::i___System__IEquatable_1___System__Drawing__SizeF_() {
   return static_cast<::System::IEquatable_1<::System::Drawing::SizeF>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "width", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "width", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Drawing::SizeF::SizeF(float_t width, float_t height) noexcept {
   this->width = width;
   this->height = height;

@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\ExecuteEvents.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/ExecuteEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 CORDL_MODULE_EXPORT(ExecuteEvents)
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -137,13 +138,13 @@ protected:
   constexpr ExecuteEvents_EventFunction_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteEvents_EventFunction_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteEvents_EventFunction_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExecuteEvents_EventFunction_1(ExecuteEvents_EventFunction_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteEvents_EventFunction_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteEvents_EventFunction_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExecuteEvents_EventFunction_1(ExecuteEvents_EventFunction_1 const&) = delete;
+  ExecuteEvents_EventFunction_1(ExecuteEvents_EventFunction_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17565 };
@@ -152,7 +153,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::EventSystems
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.EventSystems.IEventSystemHandler
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: UnityEngine.EventSystems.ExecuteEvents
@@ -240,10 +241,13 @@ public:
       put = setStaticF_s_UpdateSelectedHandler)) ::UnityEngine::EventSystems::ExecuteEvents_EventFunction_1<::UnityEngine::EventSystems::IUpdateSelectedHandler*>* s_UpdateSelectedHandler;
 
   /// @brief Method CanHandleEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool CanHandleEvent(::UnityEngine::GameObject* go);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
+  static inline bool CanHandleEvent(::UnityEngine::GameObject* go);
 
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
   static inline bool Execute(::UnityEngine::GameObject* target, ::UnityEngine::EventSystems::BaseEventData* eventData, ::UnityEngine::EventSystems::ExecuteEvents_EventFunction_1<T>* functor);
 
   /// @brief Method Execute, addr 0x6e1bbf0, size 0x100, virtual false, abstract: false, final false
@@ -302,6 +306,7 @@ public:
 
   /// @brief Method ExecuteHierarchy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
   static inline ::UnityW<::UnityEngine::GameObject> ExecuteHierarchy(::UnityEngine::GameObject* root, ::UnityEngine::EventSystems::BaseEventData* eventData,
                                                                      ::UnityEngine::EventSystems::ExecuteEvents_EventFunction_1<T>* callbackFunction);
 
@@ -309,16 +314,24 @@ public:
   static inline void GetEventChain(::UnityEngine::GameObject* root, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Transform>>* eventChain);
 
   /// @brief Method GetEventHandler, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityW<::UnityEngine::GameObject> GetEventHandler(::UnityEngine::GameObject* root);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
+  static inline ::UnityW<::UnityEngine::GameObject> GetEventHandler(::UnityEngine::GameObject* root);
 
   /// @brief Method GetEventList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void GetEventList(::UnityEngine::GameObject* go, ::System::Collections::Generic::IList_1<::UnityEngine::EventSystems::IEventSystemHandler*>* results);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
+  static inline void GetEventList(::UnityEngine::GameObject* go, ::System::Collections::Generic::IList_1<::UnityEngine::EventSystems::IEventSystemHandler*>* results);
 
   /// @brief Method ShouldSendToComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool ShouldSendToComponent(::UnityEngine::Component* component);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::EventSystems::IEventSystemHandler*>)
+  static inline bool ShouldSendToComponent(::UnityEngine::Component* component);
 
   /// @brief Method ValidateEventData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T ValidateEventData(::UnityEngine::EventSystems::BaseEventData* data);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T ValidateEventData(::UnityEngine::EventSystems::BaseEventData* data);
 
   static inline ::UnityEngine::EventSystems::ExecuteEvents_EventFunction_1<::UnityEngine::EventSystems::IBeginDragHandler*>* getStaticF_s_BeginDragHandler();
 
@@ -456,13 +469,13 @@ protected:
   constexpr ExecuteEvents();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteEvents", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteEvents", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExecuteEvents(ExecuteEvents&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExecuteEvents", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecuteEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExecuteEvents(ExecuteEvents const&) = delete;
+  ExecuteEvents(ExecuteEventsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17566 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Color.hpp"
+// IWYU pragma private; include "UnityEngine/Color.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -738,8 +738,8 @@ constexpr UnityEngine::Color::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::Color::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "b", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "b", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Color::Color(float_t r, float_t g, float_t b, float_t a) noexcept {
   this->r = r;
   this->g = g;

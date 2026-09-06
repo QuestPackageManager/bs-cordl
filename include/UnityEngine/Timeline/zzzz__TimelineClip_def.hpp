@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineClip.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineClip.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,7 +102,7 @@ public:
   // @brief default ctor
   constexpr TimelineClip_Versions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimelineClip_Versions(int32_t value__) noexcept;
 
   /// @brief Field ClipInFromGlobalToLocal value: I32(1)
@@ -144,13 +144,13 @@ protected:
   constexpr TimelineClip_TimelineClipUpgrade();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineClip_TimelineClipUpgrade", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineClip_TimelineClipUpgrade", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineClip_TimelineClipUpgrade(TimelineClip_TimelineClipUpgrade&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineClip_TimelineClipUpgrade", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineClip_TimelineClipUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineClip_TimelineClipUpgrade(TimelineClip_TimelineClipUpgrade const&) = delete;
+  TimelineClip_TimelineClipUpgrade(TimelineClip_TimelineClipUpgradeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19169 };
@@ -193,7 +193,7 @@ public:
   // @brief default ctor
   constexpr TimelineClip_ClipExtrapolation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimelineClip_ClipExtrapolation(int32_t value__) noexcept;
 
   /// @brief Field Continue value: I32(4)
@@ -257,7 +257,7 @@ public:
   // @brief default ctor
   constexpr TimelineClip_BlendCurveMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimelineClip_BlendCurveMode(int32_t value__) noexcept;
 
   /// @brief Field Auto value: I32(0)
@@ -334,10 +334,12 @@ public:
 
   __declspec(property(get = get_easeOutTime)) double_t easeOutTime;
 
+  /// @brief [Obsolete("Use easeOutTime instead (UnityUpgradable) -> easeOutTime", true)]
   __declspec(property(get = get_eastOutTime)) double_t eastOutTime;
 
   __declspec(property(get = get_end)) double_t end;
 
+  /// @brief [Obsolete("exposedParameter is deprecated and will be removed in a future release", true)]
   __declspec(property(get = get_exposedParameters)) ::System::Collections::Generic::List_1<::StringW>* exposedParameters;
 
   __declspec(property(get = get_extrapolatedDuration)) double_t extrapolatedDuration;
@@ -461,6 +463,8 @@ public:
 
   __declspec(property(get = get_mixOutTime)) double_t mixOutTime;
 
+  /// @brief [Obsolete("parentTrack is deprecated and will be removed in a future release. Use GetParentTrack() and TimelineClipExtensions::MoveToTrack() or TimelineClipExtensions::TryMoveToTrack()
+  /// instead.", false)]
   __declspec(property(get = get_parentTrack, put = set_parentTrack)) ::UnityW<::UnityEngine::Timeline::TrackAsset> parentTrack;
 
   __declspec(property(get = get_postExtrapolationMode, put = set_postExtrapolationMode)) ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation postExtrapolationMode;
@@ -473,6 +477,7 @@ public:
 
   __declspec(property(get = get_timeScale, put = set_timeScale)) double_t timeScale;
 
+  /// @brief [Obsolete("underlyingAsset property is obsolete. Use asset property instead", true)]
   __declspec(property(get = get_underlyingAsset, put = set_underlyingAsset)) ::UnityW<::UnityEngine::Object> underlyingAsset;
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
@@ -925,13 +930,13 @@ protected:
   constexpr TimelineClip();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineClip", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineClip", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineClip(TimelineClip&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineClip", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineClip(TimelineClip const&) = delete;
+  TimelineClip(TimelineClipconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19172 };
@@ -939,72 +944,97 @@ public:
   /// @brief Field k_LatestVersion offset 0xffffffff size 0x4
   static constexpr int32_t k_LatestVersion{ static_cast<int32_t>(0x1) };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [SerializeField]
   /// @brief Field m_Start, offset: 0x18, size: 0x8, def value: None
   double_t ___m_Start;
 
+  /// [SerializeField]
   /// @brief Field m_ClipIn, offset: 0x20, size: 0x8, def value: None
   double_t ___m_ClipIn;
 
+  /// [SerializeField]
   /// @brief Field m_Asset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ___m_Asset;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_HackDuration")]
   /// @brief Field m_Duration, offset: 0x30, size: 0x8, def value: None
   double_t ___m_Duration;
 
+  /// [SerializeField]
   /// @brief Field m_TimeScale, offset: 0x38, size: 0x8, def value: None
   double_t ___m_TimeScale;
 
+  /// [SerializeField]
   /// @brief Field m_ParentTrack, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Timeline::TrackAsset> ___m_ParentTrack;
 
+  /// [SerializeField]
   /// @brief Field m_EaseInDuration, offset: 0x48, size: 0x8, def value: None
   double_t ___m_EaseInDuration;
 
+  /// [SerializeField]
   /// @brief Field m_EaseOutDuration, offset: 0x50, size: 0x8, def value: None
   double_t ___m_EaseOutDuration;
 
+  /// [SerializeField]
   /// @brief Field m_BlendInDuration, offset: 0x58, size: 0x8, def value: None
   double_t ___m_BlendInDuration;
 
+  /// [SerializeField]
   /// @brief Field m_BlendOutDuration, offset: 0x60, size: 0x8, def value: None
   double_t ___m_BlendOutDuration;
 
+  /// [SerializeField]
   /// @brief Field m_MixInCurve, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___m_MixInCurve;
 
+  /// [SerializeField]
   /// @brief Field m_MixOutCurve, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___m_MixOutCurve;
 
+  /// [SerializeField]
   /// @brief Field m_BlendInCurveMode, offset: 0x78, size: 0x4, def value: None
   ::UnityEngine::Timeline::TimelineClip_BlendCurveMode ___m_BlendInCurveMode;
 
+  /// [SerializeField]
   /// @brief Field m_BlendOutCurveMode, offset: 0x7c, size: 0x4, def value: None
   ::UnityEngine::Timeline::TimelineClip_BlendCurveMode ___m_BlendOutCurveMode;
 
+  /// [SerializeField]
   /// @brief Field m_ExposedParameterNames, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_ExposedParameterNames;
 
+  /// [SerializeField]
   /// @brief Field m_AnimationCurves, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ___m_AnimationCurves;
 
+  /// [SerializeField]
   /// @brief Field m_Recordable, offset: 0x90, size: 0x1, def value: None
   bool ___m_Recordable;
 
+  /// [SerializeField]
   /// @brief Field m_PostExtrapolationMode, offset: 0x94, size: 0x4, def value: None
   ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation ___m_PostExtrapolationMode;
 
+  /// [SerializeField]
   /// @brief Field m_PreExtrapolationMode, offset: 0x98, size: 0x4, def value: None
   ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation ___m_PreExtrapolationMode;
 
+  /// [SerializeField]
   /// @brief Field m_PostExtrapolationTime, offset: 0xa0, size: 0x8, def value: None
   double_t ___m_PostExtrapolationTime;
 
+  /// [SerializeField]
   /// @brief Field m_PreExtrapolationTime, offset: 0xa8, size: 0x8, def value: None
   double_t ___m_PreExtrapolationTime;
 
+  /// [SerializeField]
   /// @brief Field m_DisplayName, offset: 0xb0, size: 0x8, def value: None
   ::StringW ___m_DisplayName;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUIContent.hpp"
+// IWYU pragma private; include "UnityEngine/GUIContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class GUIContent;
 // Write type traits
 MARK_REF_T(::UnityEngine::GUIContent*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [NativeHeader("Modules/IMGUI/GUIContent.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -64,6 +66,7 @@ public:
 
   __declspec(property(get = get_tooltip, put = set_tooltip)) ::StringW tooltip;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method ClearStaticCache, addr 0x6b44040, size 0x9c, virtual false, abstract: false, final false
   static inline void ClearStaticCache();
 
@@ -131,6 +134,7 @@ public:
   /// @brief Method .ctor, addr 0x6b43fb8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::StringW tooltip);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnTextChanged, addr 0x6b43c68, size 0xac, virtual false, abstract: false, final false
   inline void add_OnTextChanged(::System::Action* value);
 
@@ -153,6 +157,7 @@ public:
   /// @brief Method get_tooltip, addr 0x6b4267c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_tooltip();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnTextChanged, addr 0x6b43d14, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnTextChanged(::System::Action* value);
 
@@ -184,29 +189,35 @@ protected:
   constexpr GUIContent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUIContent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIContent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUIContent(GUIContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUIContent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUIContent(GUIContent const&) = delete;
+  GUIContent(GUIContentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19874 };
 
+  /// [SerializeField]
   /// @brief Field m_Text, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Text;
 
+  /// [SerializeField]
   /// @brief Field m_Image, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> ___m_Image;
 
+  /// [SerializeField]
   /// @brief Field m_Tooltip, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_Tooltip;
 
+  /// [SerializeField]
   /// @brief Field m_TextWithWhitespace, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_TextWithWhitespace;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field OnTextChanged, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___OnTextChanged;
 

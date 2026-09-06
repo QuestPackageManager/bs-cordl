@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssetReferenceUILabelRestriction.hpp"
+// IWYU pragma private; include "UnityEngine/AssetReferenceUILabelRestriction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class AssetReferenceUILabelRestriction;
 // Write type traits
 MARK_REF_T(::UnityEngine::AssetReferenceUILabelRestriction*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AssetReferenceUILabelRestriction*, "UnityEngine", "AssetReferenceUILabelRestriction");
+// [AttributeUsage((System.AttributeTargets)384, AllowMultiple = false)]
 // Dependencies UnityEngine.AssetReferenceUIRestriction
 namespace UnityEngine {
 // Is value type: false
@@ -30,7 +31,7 @@ public:
   /// @brief Field m_CachedToString, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CachedToString, put = __cordl_internal_set_m_CachedToString)) ::StringW m_CachedToString;
 
-  static inline ::UnityEngine::AssetReferenceUILabelRestriction* New_ctor(::ArrayW<::StringW> allowedLabels);
+  static inline ::UnityEngine::AssetReferenceUILabelRestriction* New_ctor(/* [ParamArray] */ ::ArrayW<::StringW> allowedLabels);
 
   /// @brief Method ToString, addr 0x644aa6c, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
@@ -54,7 +55,7 @@ public:
   constexpr void __cordl_internal_set_m_CachedToString(::StringW value);
 
   /// @brief Method .ctor, addr 0x644aa54, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::StringW> allowedLabels);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::StringW> allowedLabels);
 
 protected:
   // Ctor Parameters []
@@ -62,13 +63,13 @@ protected:
   constexpr AssetReferenceUILabelRestriction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUILabelRestriction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUILabelRestriction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetReferenceUILabelRestriction(AssetReferenceUILabelRestriction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUILabelRestriction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUILabelRestriction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetReferenceUILabelRestriction(AssetReferenceUILabelRestriction const&) = delete;
+  AssetReferenceUILabelRestriction(AssetReferenceUILabelRestrictionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19776 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\Challenge.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/Challenge.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,13 +152,13 @@ protected:
   constexpr Challenge();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Challenge", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Challenge", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Challenge(Challenge&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Challenge", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Challenge", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Challenge(Challenge const&) = delete;
+  Challenge(Challengeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18030 };
@@ -178,6 +178,7 @@ public:
   /// @brief Field InvitedUsersOptional, offset: 0x30, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___InvitedUsersOptional;
 
+  /// [Obsolete("Deprecated in favor of InvitedUsersOptional")]
   /// @brief Field InvitedUsers, offset: 0x38, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___InvitedUsers;
 
@@ -187,6 +188,7 @@ public:
   /// @brief Field ParticipantsOptional, offset: 0x48, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___ParticipantsOptional;
 
+  /// [Obsolete("Deprecated in favor of ParticipantsOptional")]
   /// @brief Field Participants, offset: 0x50, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___Participants;
 

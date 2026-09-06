@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DelegateSerializationHolder.hpp"
+// IWYU pragma private; include "System/DelegateSerializationHolder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,13 +124,13 @@ protected:
   constexpr DelegateSerializationHolder_DelegateEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder_DelegateEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder_DelegateEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelegateSerializationHolder_DelegateEntry(DelegateSerializationHolder_DelegateEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder_DelegateEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder_DelegateEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelegateSerializationHolder_DelegateEntry(DelegateSerializationHolder_DelegateEntry const&) = delete;
+  DelegateSerializationHolder_DelegateEntry(DelegateSerializationHolder_DelegateEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2601 };
@@ -226,13 +226,13 @@ protected:
   constexpr DelegateSerializationHolder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelegateSerializationHolder(DelegateSerializationHolder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelegateSerializationHolder(DelegateSerializationHolder const&) = delete;
+  DelegateSerializationHolder(DelegateSerializationHolderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2602 };

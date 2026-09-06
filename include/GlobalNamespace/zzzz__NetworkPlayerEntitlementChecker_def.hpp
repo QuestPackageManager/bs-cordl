@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkPlayerEntitlementChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkPlayerEntitlementChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ MARK_VAL_T(::GlobalNamespace::NetworkPlayerEntitlementChecker__HandleGetIsEntitl
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NetworkPlayerEntitlementChecker*, "", "NetworkPlayerEntitlementChecker");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NetworkPlayerEntitlementChecker__GetEntitlementStatus_d__10, "", "NetworkPlayerEntitlementChecker/<GetEntitlementStatus>d__10");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NetworkPlayerEntitlementChecker__HandleGetIsEntitledToLevel_d__8, "", "NetworkPlayerEntitlementChecker/<HandleGetIsEntitledToLevel>d__8");
+// [CompilerGenerated]
 // Dependencies EntitlementStatus, EntitlementsStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -73,6 +74,7 @@ public:
   /// @brief Method MoveNext, addr 0x5cd22f4, size 0x2ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cd25e0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -83,10 +85,10 @@ public:
   // @brief default ctor
   constexpr NetworkPlayerEntitlementChecker__GetEntitlementStatus_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementsStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker>", modifiers: "", def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementsStatus>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker>", modifiers: "", def_value: None, comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None, comment: None }]
   constexpr NetworkPlayerEntitlementChecker__GetEntitlementStatus_d__10(int32_t __1__state,
                                                                         ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementsStatus> __t__builder,
                                                                         ::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker> __4__this, ::StringW levelId,
@@ -129,6 +131,7 @@ static_assert(offsetof(::GlobalNamespace::NetworkPlayerEntitlementChecker__GetEn
 static_assert(sizeof(::GlobalNamespace::NetworkPlayerEntitlementChecker__GetEntitlementStatus_d__10) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies EntitlementsStatus, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -142,6 +145,7 @@ public:
   /// @brief Method MoveNext, addr 0x5cd2660, size 0x288, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cd28e8, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -152,10 +156,10 @@ public:
   // @brief default ctor
   constexpr NetworkPlayerEntitlementChecker__HandleGetIsEntitledToLevel_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker>",
-  // modifiers: "", def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementsStatus>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker>", modifiers: "", def_value: None, comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementsStatus>", modifiers: "", def_value: None, comment: None }]
   constexpr NetworkPlayerEntitlementChecker__HandleGetIsEntitledToLevel_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                              ::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker> __4__this, ::StringW levelId,
                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementsStatus> __u__1) noexcept;
@@ -223,12 +227,14 @@ public:
   /// @brief Field _rpcManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager)) ::GlobalNamespace::IMenuRpcManager* _rpcManager;
 
+  /// [AsyncStateMachine(typeof(NetworkPlayerEntitlementChecker::<GetEntitlementStatus>d__10))]
   /// @brief Method GetEntitlementStatus, addr 0x5cd2200, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
 
   /// @brief Method HandleDataInvalidated, addr 0x5cd2010, size 0xa8, virtual false, abstract: false, final false
   inline void HandleDataInvalidated();
 
+  /// [AsyncStateMachine(typeof(NetworkPlayerEntitlementChecker::<HandleGetIsEntitledToLevel>d__8))]
   /// @brief Method HandleGetIsEntitledToLevel, addr 0x5cd20b8, size 0xac, virtual false, abstract: false, final false
   inline void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
 
@@ -282,29 +288,34 @@ protected:
   constexpr NetworkPlayerEntitlementChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerEntitlementChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerEntitlementChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkPlayerEntitlementChecker(NetworkPlayerEntitlementChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerEntitlementChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerEntitlementChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerEntitlementChecker(NetworkPlayerEntitlementChecker const&) = delete;
+  NetworkPlayerEntitlementChecker(NetworkPlayerEntitlementCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23533 };
 
+  /// [Inject]
   /// @brief Field _rpcManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMenuRpcManager* ____rpcManager;
 
+  /// [Inject]
   /// @brief Field _additionalContentModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
+  /// [Inject]
   /// @brief Field _entitlementModel, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TransformData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TransformData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,9 +67,9 @@ public:
   // @brief default ctor
   constexpr TransformData();
 
-  // Ctor Parameters [CppParam { name: "rotate", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::UnityEngine::UIElements::Scale", modifiers:
-  // "", def_value: None }, CppParam { name: "transformOrigin", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: None }, CppParam { name: "translate", ty:
-  // "::UnityEngine::UIElements::Translate", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rotate", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty:
+  // "::UnityEngine::UIElements::Scale", modifiers: "", def_value: None, comment: None }, CppParam { name: "transformOrigin", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "translate", ty: "::UnityEngine::UIElements::Translate", modifiers: "", def_value: None, comment: None }]
   constexpr TransformData(::UnityEngine::UIElements::Rotate rotate, ::UnityEngine::UIElements::Scale scale, ::UnityEngine::UIElements::TransformOrigin transformOrigin,
                           ::UnityEngine::UIElements::Translate translate) noexcept;
 

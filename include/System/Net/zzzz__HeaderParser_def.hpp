@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HeaderParser.hpp"
+// IWYU pragma private; include "System/Net/HeaderParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ protected:
   constexpr HeaderParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeaderParser(HeaderParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HeaderParser(HeaderParser const&) = delete;
+  HeaderParser(HeaderParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11525 };

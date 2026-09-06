@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\TweakManagerForAddon.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/TweakManagerForAddon.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__SubManagerForAddon_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__TweakManagerForAddon_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__IMember_def.hpp"

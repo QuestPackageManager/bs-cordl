@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PlayerLoop\Initialization.hpp"
+// IWYU pragma private; include "UnityEngine/PlayerLoop/Initialization.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,6 +68,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs,
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::Initialization_SynchronizeState, "UnityEngine.PlayerLoop", "Initialization/SynchronizeState");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors, "UnityEngine.PlayerLoop", "Initialization/UpdateCameraMotionVectors");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate, "UnityEngine.PlayerLoop", "Initialization/XREarlyUpdate");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -96,6 +97,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Initialization_ProfilerStartFrame) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -124,6 +126,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -152,6 +155,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -180,6 +184,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -208,6 +213,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Initialization_SynchronizeState) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -236,6 +242,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -264,6 +271,8 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
+// [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true

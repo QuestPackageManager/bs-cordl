@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoopBlockLevelGameplayAnalyticsEventsCache.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoopBlockLevelGameplayAnalyticsEventsCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoopBlockLevelGameplayAnalyticsEventsCache_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"

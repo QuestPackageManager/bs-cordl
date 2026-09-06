@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirrorRendererFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirrorRendererFeature.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererFeature_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
@@ -148,35 +149,48 @@ inline ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0* GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0::MirrorRendererFeature___c__DisplayClass17_0() {}
-template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::__cordl_internal_get_onLoadFinished() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+constexpr ::System::Action_1<T>*& GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::__cordl_internal_get_onLoadFinished() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLoadFinished;
 }
-template <typename T> constexpr ::System::Action_1<T>* const& GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::__cordl_internal_get_onLoadFinished() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+constexpr ::System::Action_1<T>* const& GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::__cordl_internal_get_onLoadFinished() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLoadFinished;
 }
-template <typename T> constexpr void GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::__cordl_internal_set_onLoadFinished(::System::Action_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+constexpr void GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::__cordl_internal_set_onLoadFinished(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onLoadFinished = value;
 }
-template <typename T> inline void GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline void GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 inline void GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::_LoadAssetAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> handle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>*>(),
                                                            { "<LoadAssetAsync>b__0", {}, { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, handle);
 }
-template <typename T> inline ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>* GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>* GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::MirrorRendererFeature___c__DisplayClass21_0_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+constexpr ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>::MirrorRendererFeature___c__DisplayClass21_0_1() {}
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererFeature.Create
 template <>
 
@@ -500,6 +514,7 @@ inline void GlobalNamespace::MirrorRendererFeature::ReleaseHandles() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 inline void GlobalNamespace::MirrorRendererFeature::LoadAssetAsync(::UnityEngine::AddressableAssets::AssetReferenceT_1<T>* reference,
                                                                    ::by_ref<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>> handle,
                                                                    ::System::Action_1<T>* onLoadFinished) {

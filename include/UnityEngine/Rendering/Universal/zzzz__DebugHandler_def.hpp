@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugHandler.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -249,13 +251,13 @@ protected:
   constexpr DebugHandler_DebugFinalValidationPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugFinalValidationPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugFinalValidationPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugHandler_DebugFinalValidationPassData(DebugHandler_DebugFinalValidationPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugFinalValidationPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugFinalValidationPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugHandler_DebugFinalValidationPassData(DebugHandler_DebugFinalValidationPassData const&) = delete;
+  DebugHandler_DebugFinalValidationPassData(DebugHandler_DebugFinalValidationPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12663 };
@@ -376,13 +378,13 @@ protected:
   constexpr DebugHandler_DebugSetupPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugSetupPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugSetupPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugHandler_DebugSetupPassData(DebugHandler_DebugSetupPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugSetupPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugSetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugHandler_DebugSetupPassData(DebugHandler_DebugSetupPassData const&) = delete;
+  DebugHandler_DebugSetupPassData(DebugHandler_DebugSetupPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12664 };
@@ -413,6 +415,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DebugHandler_DebugSe
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -469,13 +472,13 @@ protected:
   constexpr DebugHandler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugHandler___c(DebugHandler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugHandler___c(DebugHandler___c const&) = delete;
+  DebugHandler___c(DebugHandler___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12665 };
@@ -741,6 +744,8 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DebugHandler* New_ctor();
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method Render, addr 0x684fff8, size 0xcc, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle srcColor, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayTexture,
@@ -752,15 +757,23 @@ public:
   /// @brief Method SetDebugRenderTarget, addr 0x684e80c, size 0x24, virtual false, abstract: false, final false
   inline void SetDebugRenderTarget(::UnityEngine::Rendering::RTHandle* renderTarget, ::UnityEngine::Rect displayRect, bool supportsStereo, ::UnityEngine::Vector4 dataRangeRemap);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method Setup, addr 0x684fbf4, size 0x4, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::CommandBuffer* cmd, bool isPreviewCamera);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method Setup, addr 0x684f7e4, size 0x410, virtual false, abstract: false, final false
   static inline void Setup(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DebugHandler_DebugSetupPassData* passData);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method Setup, addr 0x684fbf8, size 0x400, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool isPreviewCamera);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method SetupShaderProperties, addr 0x684e264, size 0x5a8, virtual false, abstract: false, final false
   inline void SetupShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, int32_t passIndex);
 
@@ -773,6 +786,8 @@ public:
   /// @brief Method TryGetScreenClearColor, addr 0x684dc64, size 0x1c, virtual true, abstract: false, final true
   inline bool TryGetScreenClearColor(::by_ref<::UnityEngine::Color> color);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method UpdateShaderGlobalPropertiesForFinalValidationPass, addr 0x684ed50, size 0x1b0, virtual false, abstract: false, final false
   inline void UpdateShaderGlobalPropertiesForFinalValidationPass(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isFinalPass);
 
@@ -780,6 +795,8 @@ public:
   static inline void UpdateShaderGlobalPropertiesForFinalValidationPass(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                                                         ::UnityEngine::Rendering::Universal::DebugHandler_DebugFinalValidationPassData* data);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method UpdateShaderGlobalPropertiesForFinalValidationPass, addr 0x684ef00, size 0x87c, virtual false, abstract: false, final false
   inline void UpdateShaderGlobalPropertiesForFinalValidationPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                  ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isFinalPass);
@@ -1092,13 +1109,13 @@ protected:
   constexpr DebugHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugHandler(DebugHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugHandler(DebugHandler const&) = delete;
+  DebugHandler(DebugHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12666 };

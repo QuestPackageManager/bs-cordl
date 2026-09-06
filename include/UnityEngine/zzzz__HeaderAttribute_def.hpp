@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HeaderAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/HeaderAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class HeaderAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::HeaderAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::HeaderAttribute*, "UnityEngine", "HeaderAttribute");
+// [AttributeUsage((System.AttributeTargets)384, Inherited = true, AllowMultiple = true)]
 // Dependencies UnityEngine.PropertyAttribute
 namespace UnityEngine {
 // Is value type: false
@@ -40,13 +41,13 @@ protected:
   constexpr HeaderAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeaderAttribute(HeaderAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HeaderAttribute(HeaderAttribute const&) = delete;
+  HeaderAttribute(HeaderAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10280 };

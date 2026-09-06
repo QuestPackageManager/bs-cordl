@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DisplayInfoAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DisplayInfoAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DisplayInfoAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::DisplayInfoAttribute._ctor

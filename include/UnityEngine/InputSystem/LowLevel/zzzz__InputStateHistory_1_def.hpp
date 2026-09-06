@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputStateHistory_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputStateHistory_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,32 +34,46 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct InputStateHistory_1_Enumerator;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct InputStateHistory_1_Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct InputStateHistory_1_Record;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct InputStateHistory_1_Record;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputStateHistory_RecordHeader;
 }
 namespace UnityEngine::InputSystem {
-template <typename TValue> class InputControl_1;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class InputControl_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> class InputStateHistory_1;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct InputStateHistory_1_Enumerator;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct InputStateHistory_1_Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct InputStateHistory_1_Record;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct InputStateHistory_1_Record;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1);
@@ -72,6 +86,7 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::LowLevel::InputStateHistory_
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Enumerator<TValue>
 struct CORDL_TYPE InputStateHistory_1_Enumerator {
@@ -122,8 +137,8 @@ public:
   // @brief default ctor
   constexpr InputStateHistory_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>*", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputStateHistory_1_Enumerator(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>* m_History, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -146,6 +161,7 @@ public:
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Record<TValue>
 struct CORDL_TYPE InputStateHistory_1_Record {
@@ -246,8 +262,8 @@ public:
   // @brief default ctor
   constexpr InputStateHistory_1_Record();
 
-  // Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>*", modifiers: "", def_value: None }, CppParam { name: "m_IndexPlusOne", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_IndexPlusOne", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputStateHistory_1_Record(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>* m_Owner, int32_t m_IndexPlusOne, uint32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -269,10 +285,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::LowLevel
+// [DefaultMember("Item")]
 // Dependencies UnityEngine.InputSystem.LowLevel.InputStateHistory
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1<TValue>
 class CORDL_TYPE InputStateHistory_1 : public ::UnityEngine::InputSystem::LowLevel::InputStateHistory {
@@ -353,13 +371,13 @@ protected:
   constexpr InputStateHistory_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputStateHistory_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputStateHistory_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputStateHistory_1(InputStateHistory_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputStateHistory_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputStateHistory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputStateHistory_1(InputStateHistory_1 const&) = delete;
+  InputStateHistory_1(InputStateHistory_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9071 };

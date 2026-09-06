@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderHandles.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderHandles.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OccluderHandles_def.hpp"
@@ -62,8 +62,8 @@ inline void UnityEngine::Rendering::OccluderHandles::UseForOccluderUpdate(::Unit
                                                            { "UseForOccluderUpdate", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, builder);
 }
-// Ctor Parameters [CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "occlusionDebugOverlay", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "occlusionDebugOverlay", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OccluderHandles::OccluderHandles(::UnityEngine::Rendering::RenderGraphModule::TextureHandle occluderDepthPyramid,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::BufferHandle occlusionDebugOverlay) noexcept {
   this->occluderDepthPyramid = occluderDepthPyramid;

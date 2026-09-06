@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\SpinWait.hpp"
+// IWYU pragma private; include "System/Threading/SpinWait.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   // @brief default ctor
   constexpr SpinWait();
 
-  // Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SpinWait(int32_t _count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

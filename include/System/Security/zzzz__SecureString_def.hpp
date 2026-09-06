@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\SecureString.hpp"
+// IWYU pragma private; include "System/Security/SecureString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class SecureString;
 // Write type traits
 MARK_REF_T(::System::Security::SecureString*);
 DEFINE_IL2CPP_CLASS(::System::Security::SecureString*, "System.Security", "SecureString");
+// [MonoTODO("work in progress - encryption is missing")]
 // Dependencies System.Object
 namespace System::Security {
 // Is value type: false
@@ -55,6 +56,7 @@ public:
 
   static inline ::System::Security::SecureString* New_ctor();
 
+  /// @brief [CLSCompliant(false)]
   static inline ::System::Security::SecureString* New_ctor(char16_t* value, int32_t length);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_data() const;
@@ -78,6 +80,7 @@ public:
   /// @brief Method .ctor, addr 0x5af04a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5af062c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(char16_t* value, int32_t length);
 
@@ -93,13 +96,13 @@ protected:
   constexpr SecureString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecureString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecureString(SecureString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecureString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureString(SecureString const&) = delete;
+  SecureString(SecureStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2905 };

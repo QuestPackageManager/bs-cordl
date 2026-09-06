@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\AttributeCollection.hpp"
+// IWYU pragma private; include "System/ComponentModel/AttributeCollection.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__AttributeCollection_def.hpp"
@@ -12,7 +12,8 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::ComponentModel::AttributeCollection_AttributeEntry::AttributeCollection_AttributeEntry(::System::Type* type, int32_t index) noexcept {
   this->type = type;
   this->index = index;
@@ -238,7 +239,7 @@ inline void System::ComponentModel::AttributeCollection::setStaticF_s_internalSy
 inline ::System::Object* System::ComponentModel::AttributeCollection::getStaticF_s_internalSyncObject() {
   return ::cordl_internals::getStaticField<::System::Object*, "s_internalSyncObject", ::System::ComponentModel::AttributeCollection*>();
 }
-inline void System::ComponentModel::AttributeCollection::_ctor(::ArrayW<::System::Attribute*> attributes) {
+inline void System::ComponentModel::AttributeCollection::_ctor(/* [ParamArray] */ ::ArrayW<::System::Attribute*> attributes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::AttributeCollection*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Attribute*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attributes);
@@ -296,7 +297,7 @@ inline void System::ComponentModel::AttributeCollection::CopyTo(::System::Array*
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::AttributeCollection*>(), { "CopyTo", {}, { ::i2c::type_of<::System::Array*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array, index);
 }
-inline ::System::ComponentModel::AttributeCollection* System::ComponentModel::AttributeCollection::New_ctor(::ArrayW<::System::Attribute*> attributes) {
+inline ::System::ComponentModel::AttributeCollection* System::ComponentModel::AttributeCollection::New_ctor(/* [ParamArray] */ ::ArrayW<::System::Attribute*> attributes) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::ComponentModel::AttributeCollection*>(attributes));
 }
 /// @brief Convert operator to "::System::Collections::ICollection"

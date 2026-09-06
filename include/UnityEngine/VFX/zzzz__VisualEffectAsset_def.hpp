@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectAsset.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,9 @@ class VisualEffectAsset;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::VisualEffectAsset*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VisualEffectAsset*, "UnityEngine.VFX", "VisualEffectAsset");
+// [UsedByNativeCode]
+// [NativeHeader("VFXScriptingClasses.h")]
+// [NativeHeader("Modules/VFX/Public/VisualEffectAsset.h")]
 // Dependencies UnityEngine.VFX.VisualEffectObject
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -33,6 +36,7 @@ public:
   /// @brief Field StopEventID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_StopEventID, put = setStaticF_StopEventID)) int32_t StopEventID;
 
+  /// [FreeFunction(Name = "VisualEffectAssetBindings::GetExposedSpace", HasExplicitThis = true)]
   /// @brief Method GetExposedSpace, addr 0x6e2dc08, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXSpace GetExposedSpace(int32_t nameID);
 
@@ -58,13 +62,13 @@ protected:
   constexpr VisualEffectAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffectAsset(VisualEffectAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectAsset(VisualEffectAsset const&) = delete;
+  VisualEffectAsset(VisualEffectAssetconst&) = delete;
 
   /// @brief Field PlayEventName offset 0xffffffff size 0x8
   static constexpr ::ConstString PlayEventName{ u"OnPlay" };

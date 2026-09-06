@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\RuntimeFieldInfo.hpp"
+// IWYU pragma private; include "System/Reflection/RuntimeFieldInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -156,6 +156,8 @@ public:
   inline void SetValue(::System::Object* obj, ::System::Object* val, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::System::Globalization::CultureInfo* culture);
 
+  /// [DebuggerHidden]
+  /// [DebuggerStepThrough]
   /// @brief Method SetValueDirect, addr 0x5b8c4b8, size 0x154, virtual true, abstract: false, final false
   inline void SetValueDirect(::System::TypedReference obj, ::System::Object* value);
 
@@ -168,6 +170,8 @@ public:
   /// @brief Method UnsafeGetValue, addr 0x5b8c314, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* UnsafeGetValue(::System::Object* obj);
 
+  /// [DebuggerStepThrough]
+  /// [DebuggerHidden]
   /// @brief Method UnsafeSetValue, addr 0x5b8c478, size 0x40, virtual true, abstract: false, final false
   inline void UnsafeSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                              ::System::Globalization::CultureInfo* culture);
@@ -247,13 +251,13 @@ protected:
   constexpr RuntimeFieldInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeFieldInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeFieldInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeFieldInfo(RuntimeFieldInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeFieldInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeFieldInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeFieldInfo(RuntimeFieldInfo const&) = delete;
+  RuntimeFieldInfo(RuntimeFieldInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3548 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HideInDebugUIAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HideInDebugUIAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__HideInDebugUIAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::HideInDebugUIAttribute._ctor

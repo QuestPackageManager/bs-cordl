@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RecordingToolSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/RecordingToolSettingsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ public:
 
   static inline ::GlobalNamespace::RecordingToolSettingsViewController* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__6_0, addr 0x5a1d96c, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
@@ -78,9 +79,11 @@ public:
   /// @brief Method .ctor, addr 0x5a1d968, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5a1d6ac, size 0xac, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5a1d758, size 0xac, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
@@ -90,26 +93,30 @@ protected:
   constexpr RecordingToolSettingsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingToolSettingsViewController(RecordingToolSettingsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolSettingsViewController(RecordingToolSettingsViewController const&) = delete;
+  RecordingToolSettingsViewController(RecordingToolSettingsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6459 };
 
+  /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
+  /// [SerializeField]
   /// @brief Field _textPageScrollView, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
 
+  /// [InjectOptional]
   /// @brief Field _recordingToolManager, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::RecordingToolManager* ____recordingToolManager;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ___didFinishEvent;
 

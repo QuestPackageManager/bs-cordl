@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRKtxTexture.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRKtxTexture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class OVRKtxTexture;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRKtxTexture*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRKtxTexture*, "", "OVRKtxTexture");
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-runtime-controller/#use-apis-in-customized-scripts")]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -38,13 +39,13 @@ protected:
   constexpr OVRKtxTexture();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRKtxTexture(OVRKtxTexture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRKtxTexture(OVRKtxTexture const&) = delete;
+  OVRKtxTexture(OVRKtxTextureconst&) = delete;
 
   /// @brief Field KTX_TTF_ASTC_4x4_RGBA offset 0xffffffff size 0x4
   static constexpr uint32_t KTX_TTF_ASTC_4x4_RGBA{ static_cast<uint32_t>(0xau) };

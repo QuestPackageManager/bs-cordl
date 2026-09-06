@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\IAsymmetricCipherKeyPairGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IAsymmetricCipherKeyPairGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,15 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IAsymmetricCipherKeyPairGenerator {
 public:
   // Declarations
-  /// @brief Method GenerateKeyPair, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAsymmetricCipherKeyPairGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAsymmetricCipherKeyPairGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAsymmetricCipherKeyPairGenerator(IAsymmetricCipherKeyPairGenerator const&) = delete;
+  IAsymmetricCipherKeyPairGenerator(IAsymmetricCipherKeyPairGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 891 };

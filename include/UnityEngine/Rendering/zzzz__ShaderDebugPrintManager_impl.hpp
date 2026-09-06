@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderDebugPrintManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderDebugPrintManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderDebugPrintManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -19,7 +19,7 @@ inline ::UnityEngine::Rendering::ProfilingSampler* UnityEngine::Rendering::Shade
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ShaderDebugPrintManager_Profiling::ShaderDebugPrintManager_Profiling() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ShaderDebugPrintManager_DebugValueType::ShaderDebugPrintManager_DebugValueType(int32_t value__) noexcept {
   this->value__ = value__;
 }

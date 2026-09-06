@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UriParser.hpp"
+// IWYU pragma private; include "System/UriParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   // @brief default ctor
   constexpr UriParser_UriQuirksVersion();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UriParser_UriQuirksVersion(int32_t value__) noexcept;
 
   /// @brief Field V2 value: I32(2)
@@ -396,13 +396,13 @@ protected:
   constexpr UriParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UriParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UriParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UriParser(UriParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UriParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UriParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UriParser(UriParser const&) = delete;
+  UriParser(UriParserconst&) = delete;
 
   /// @brief Field FtpSyntaxFlags value: I32(367005533)
   static ::System::UriSyntaxFlags const FtpSyntaxFlags;

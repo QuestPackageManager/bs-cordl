@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Vector3.hpp"
+// IWYU pragma private; include "UnityEngine/Vector3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,13 @@ struct Vector3;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Vector3);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Vector3, "UnityEngine", "Vector3");
+// [NativeClass("Vector3f")]
+// [NativeHeader("Runtime/Math/MathScripting.h")]
+// [NativeType(Header = "Runtime/Math/Vector3.h")]
+// [DefaultMember("Item")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [Il2CppEagerStaticClassConstruction]
+// [NativeHeader("Runtime/Math/Vector3.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -123,6 +130,7 @@ public:
   /// @brief Method OrthoNormalize, addr 0x6acea14, size 0x44, virtual false, abstract: false, final false
   static inline void OrthoNormalize(::by_ref<::UnityEngine::Vector3> normal, ::by_ref<::UnityEngine::Vector3> tangent);
 
+  /// [FreeFunction("VectorScripting::OrthoNormalize", IsThreadSafe = true)]
   /// @brief Method OrthoNormalize2, addr 0x6ace9d0, size 0x44, virtual false, abstract: false, final false
   static inline void OrthoNormalize2(::by_ref<::UnityEngine::Vector3> a, ::by_ref<::UnityEngine::Vector3> b);
 
@@ -278,8 +286,8 @@ public:
   // @brief default ctor
   constexpr Vector3();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector3(float_t x, float_t y, float_t z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

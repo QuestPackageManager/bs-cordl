@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MemoryPoolBindInfo.hpp"
+// IWYU pragma private; include "Zenject/MemoryPoolBindInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class MemoryPoolBindInfo;
 // Write type traits
 MARK_REF_T(::Zenject::MemoryPoolBindInfo*);
 DEFINE_IL2CPP_CLASS(::Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.PoolExpandMethods
 namespace Zenject {
 // Is value type: false
@@ -73,27 +74,35 @@ public:
   /// @brief Method .ctor, addr 0x6e60bc8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ExpandMethod, addr 0x6e60bf0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::PoolExpandMethods get_ExpandMethod();
 
+  /// [CompilerGenerated]
   /// @brief Method get_InitialSize, addr 0x6e60c00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InitialSize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MaxSize, addr 0x6e60c10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ShowExpandWarning, addr 0x6e60be0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowExpandWarning();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ExpandMethod, addr 0x6e60bf8, size 0x8, virtual false, abstract: false, final false
   inline void set_ExpandMethod(::Zenject::PoolExpandMethods value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_InitialSize, addr 0x6e60c08, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialSize(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MaxSize, addr 0x6e60c18, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxSize(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ShowExpandWarning, addr 0x6e60be8, size 0x8, virtual false, abstract: false, final false
   inline void set_ShowExpandWarning(bool value);
 
@@ -103,26 +112,30 @@ protected:
   constexpr MemoryPoolBindInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolBindInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolBindInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPoolBindInfo(MemoryPoolBindInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolBindInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolBindInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemoryPoolBindInfo(MemoryPoolBindInfo const&) = delete;
+  MemoryPoolBindInfo(MemoryPoolBindInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14305 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ShowExpandWarning>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ShowExpandWarning_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ExpandMethod>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::Zenject::PoolExpandMethods ____ExpandMethod_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <InitialSize>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____InitialSize_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MaxSize>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____MaxSize_k__BackingField;
 

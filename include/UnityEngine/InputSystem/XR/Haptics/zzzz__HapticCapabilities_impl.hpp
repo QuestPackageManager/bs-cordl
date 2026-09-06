@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\HapticCapabilities.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/HapticCapabilities.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticCapabilities_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities._ctor
 template <>
@@ -160,10 +160,10 @@ inline uint32_t UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::get_o
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities>(), { "get_optimalBufferSize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_numChannels_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_supportsImpulse_k__BackingField", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_supportsBuffer_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_frequencyHz_k__BackingField", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_maxBufferSize_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_optimalBufferSize_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_numChannels_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_supportsImpulse_k__BackingField", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_supportsBuffer_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_frequencyHz_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_maxBufferSize_k__BackingField", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_optimalBufferSize_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::HapticCapabilities(uint32_t _numChannels_k__BackingField, bool _supportsImpulse_k__BackingField,
                                                                                           bool _supportsBuffer_k__BackingField, uint32_t _frequencyHz_k__BackingField,
                                                                                           uint32_t _maxBufferSize_k__BackingField, uint32_t _optimalBufferSize_k__BackingField) noexcept {

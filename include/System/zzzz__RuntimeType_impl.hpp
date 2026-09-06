@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\RuntimeType.hpp"
+// IWYU pragma private; include "System/RuntimeType.hpp"
 #include "System/Reflection/zzzz__BindingFlags_impl.hpp"
 #include "System/Reflection/zzzz__TypeInfo_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
@@ -45,7 +45,7 @@
 #include "System/zzzz__TypeCode_def.hpp"
 #include "System/zzzz__TypeNameKind_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::RuntimeType_MemberListType::RuntimeType_MemberListType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -55,43 +55,60 @@ constexpr ::System::RuntimeType_MemberListType System::RuntimeType_MemberListTyp
 constexpr ::System::RuntimeType_MemberListType System::RuntimeType_MemberListType::CaseSensitive{ static_cast<int32_t>(0x1) };
 constexpr ::System::RuntimeType_MemberListType System::RuntimeType_MemberListType::CaseInsensitive{ static_cast<int32_t>(0x2) };
 constexpr ::System::RuntimeType_MemberListType System::RuntimeType_MemberListType::HandleToInfo{ static_cast<int32_t>(0x3) };
-template <typename T> inline void System::RuntimeType_ListBuilder_1<T>::_ctor(int32_t capacity) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void System::RuntimeType_ListBuilder_1<T>::_ctor(int32_t capacity) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::RuntimeType_ListBuilder_1<T>>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, capacity);
 }
-template <typename T> inline T System::RuntimeType_ListBuilder_1<T>::get_Item(int32_t index) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::RuntimeType_ListBuilder_1<T>::get_Item(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::RuntimeType_ListBuilder_1<T>>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(*this, ___internal_method, index);
 }
-template <typename T> inline ::ArrayW<T> System::RuntimeType_ListBuilder_1<T>::ToArray() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline ::ArrayW<T> System::RuntimeType_ListBuilder_1<T>::ToArray() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::RuntimeType_ListBuilder_1<T>>(), { "ToArray", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(*this, ___internal_method);
 }
-template <typename T> inline void System::RuntimeType_ListBuilder_1<T>::CopyTo(::ArrayW<::System::Object*> array, int32_t index) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void System::RuntimeType_ListBuilder_1<T>::CopyTo(::ArrayW<::System::Object*> array, int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::RuntimeType_ListBuilder_1<T>>(), { "CopyTo", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, array, index);
 }
-template <typename T> inline int32_t System::RuntimeType_ListBuilder_1<T>::get_Count() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline int32_t System::RuntimeType_ListBuilder_1<T>::get_Count() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::RuntimeType_ListBuilder_1<T>>(), { "get_Count", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename T> inline void System::RuntimeType_ListBuilder_1<T>::Add(T item) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void System::RuntimeType_ListBuilder_1<T>::Add(T item) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::RuntimeType_ListBuilder_1<T>>(), { "Add", {}, { ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, item);
 }
-// Ctor Parameters [CppParam { name: "_items", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_item", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-template <typename T> constexpr ::System::RuntimeType_ListBuilder_1<T>::RuntimeType_ListBuilder_1(::ArrayW<T> _items, T _item, int32_t _count, int32_t _capacity) noexcept {
+// Ctor Parameters [CppParam { name: "_items", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_item", ty: "T", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_capacity", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::System::RuntimeType_ListBuilder_1<T>::RuntimeType_ListBuilder_1(::ArrayW<T> _items, T _item, int32_t _count, int32_t _capacity) noexcept {
   this->_items = _items;
   this->_item = _item;
   this->_count = _count;
   this->_capacity = _capacity;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::System::RuntimeType_ListBuilder_1<T>::RuntimeType_ListBuilder_1() {}
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::System::RuntimeType_ListBuilder_1<T>::RuntimeType_ListBuilder_1() {}
 //  Writing Method size for method: ::System::RuntimeType.GetType
 template <>
 
@@ -2497,7 +2514,7 @@ inline ::ArrayW<::System::Type*> System::RuntimeType::GetGenericArguments() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::RuntimeType*>(), 50 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*>>(this, ___internal_method);
 }
-inline ::System::Type* System::RuntimeType::MakeGenericType(::ArrayW<::System::Type*> instantiation) {
+inline ::System::Type* System::RuntimeType::MakeGenericType(/* [ParamArray] */ ::ArrayW<::System::Type*> instantiation) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::RuntimeType*>(), 129 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, instantiation);
 }

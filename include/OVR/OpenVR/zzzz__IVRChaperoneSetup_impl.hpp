@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRChaperoneSetup.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRChaperoneSetup.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRChaperoneSetup_def.hpp"
 #include "OVR/OpenVR/zzzz__EChaperoneConfigFile_def.hpp"
@@ -1684,26 +1684,26 @@ inline ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking* OVR::OpenVR:
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking::IVRChaperoneSetup__ImportFromBufferToWorking() {}
-// Ctor Parameters [CppParam { name: "CommitWorkingCopy", ty: "::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy*", modifiers: "", def_value: Some("{}") }, CppParam { name: "RevertWorkingCopy", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetWorkingPlayAreaSize", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetWorkingPlayAreaRect", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetWorkingCollisionBoundsInfo", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetLiveCollisionBoundsInfo", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetWorkingSeatedZeroPoseToRawTrackingPose", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetWorkingStandingZeroPoseToRawTrackingPose", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetWorkingPlayAreaSize", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetWorkingCollisionBoundsInfo", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetWorkingSeatedZeroPoseToRawTrackingPose", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetWorkingStandingZeroPoseToRawTrackingPose", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ReloadFromDisk", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetLiveSeatedZeroPoseToRawTrackingPose", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetWorkingCollisionBoundsTagsInfo", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetLiveCollisionBoundsTagsInfo", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetWorkingPhysicalBoundsInfo", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetLivePhysicalBoundsInfo", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExportLiveToBuffer", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ImportFromBufferToWorking", ty:
-// "::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "CommitWorkingCopy", ty: "::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "RevertWorkingCopy", ty: "::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetWorkingPlayAreaSize", ty:
+// "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetWorkingPlayAreaRect", ty:
+// "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetWorkingCollisionBoundsInfo", ty:
+// "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetLiveCollisionBoundsInfo", ty:
+// "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetWorkingSeatedZeroPoseToRawTrackingPose", ty:
+// "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetWorkingStandingZeroPoseToRawTrackingPose", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "SetWorkingPlayAreaSize", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "SetWorkingCollisionBoundsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "SetWorkingSeatedZeroPoseToRawTrackingPose", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "SetWorkingStandingZeroPoseToRawTrackingPose", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "ReloadFromDisk", ty: "::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetLiveSeatedZeroPoseToRawTrackingPose", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "SetWorkingCollisionBoundsTagsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetLiveCollisionBoundsTagsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "SetWorkingPhysicalBoundsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetLivePhysicalBoundsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExportLiveToBuffer", ty:
+// "::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ImportFromBufferToWorking", ty:
+// "::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IVRChaperoneSetup::IVRChaperoneSetup(
     ::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy* CommitWorkingCopy, ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy* RevertWorkingCopy,
     ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize* GetWorkingPlayAreaSize, ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect* GetWorkingPlayAreaRect,

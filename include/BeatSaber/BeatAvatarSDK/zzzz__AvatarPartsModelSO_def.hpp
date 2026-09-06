@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\AvatarPartsModelSO.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarPartsModelSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,35 +137,42 @@ protected:
   constexpr AvatarPartsModelSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModelSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModelSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarPartsModelSO(AvatarPartsModelSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModelSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModelSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarPartsModelSO(AvatarPartsModelSO const&) = delete;
+  AvatarPartsModelSO(AvatarPartsModelSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22335 };
 
+  /// [SerializeField]
   /// @brief Field _headTops, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> ____headTops;
 
+  /// [SerializeField]
   /// @brief Field _eyes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>> ____eyes;
 
+  /// [SerializeField]
   /// @brief Field _mouths, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>> ____mouths;
 
+  /// [SerializeField]
   /// @brief Field _glasses, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> ____glasses;
 
+  /// [SerializeField]
   /// @brief Field _facialHair, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> ____facialHair;
 
+  /// [SerializeField]
   /// @brief Field _hands, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> ____hands;
 
+  /// [SerializeField]
   /// @brief Field _clothes, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>> ____clothes;
 

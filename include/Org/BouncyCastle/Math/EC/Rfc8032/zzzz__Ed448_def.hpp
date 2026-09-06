@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Rfc8032\Ed448.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Rfc8032/Ed448.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr Ed448_Algorithm();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Ed448_Algorithm(int32_t value__) noexcept;
 
   /// @brief Field Ed448 value: I32(0)
@@ -151,13 +151,13 @@ protected:
   constexpr Ed448_PointExt();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed448_PointExt", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed448_PointExt", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed448_PointExt(Ed448_PointExt&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed448_PointExt", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed448_PointExt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed448_PointExt(Ed448_PointExt const&) = delete;
+  Ed448_PointExt(Ed448_PointExtconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1562 };
@@ -219,13 +219,13 @@ protected:
   constexpr Ed448_PointPrecomp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed448_PointPrecomp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed448_PointPrecomp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed448_PointPrecomp(Ed448_PointPrecomp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed448_PointPrecomp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed448_PointPrecomp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed448_PointPrecomp(Ed448_PointPrecomp const&) = delete;
+  Ed448_PointPrecomp(Ed448_PointPrecompconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1563 };
@@ -517,13 +517,13 @@ protected:
   constexpr Ed448();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed448", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed448", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed448(Ed448&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed448", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed448", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed448(Ed448 const&) = delete;
+  Ed448(Ed448const&) = delete;
 
   /// @brief Field C_d offset 0xffffffff size 0x4
   static constexpr int32_t C_d{ static_cast<int32_t>(0xffff6757) };

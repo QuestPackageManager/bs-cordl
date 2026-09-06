@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\DistortionCoordinates_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/DistortionCoordinates_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,9 @@ public:
   // @brief default ctor
   constexpr DistortionCoordinates_t();
 
-  // Ctor Parameters [CppParam { name: "rfRed0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rfRed1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rfGreen0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rfGreen1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rfBlue0", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "rfBlue1", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rfRed0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rfRed1", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "rfGreen0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rfGreen1", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "rfBlue0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rfBlue1", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr DistortionCoordinates_t(float_t rfRed0, float_t rfRed1, float_t rfGreen0, float_t rfGreen1, float_t rfBlue0, float_t rfBlue1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

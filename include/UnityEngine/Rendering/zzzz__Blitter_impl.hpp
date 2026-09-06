@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Blitter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Blitter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__Blitter_def.hpp"
@@ -84,7 +84,7 @@ inline int32_t UnityEngine::Rendering::Blitter_BlitShaderIDs::getStaticF__InputD
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Blitter_BlitShaderIDs::Blitter_BlitShaderIDs() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Blitter_BlitShaderPassNames::Blitter_BlitShaderPassNames(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -113,7 +113,7 @@ constexpr ::UnityEngine::Rendering::Blitter_BlitShaderPassNames UnityEngine::Ren
 constexpr ::UnityEngine::Rendering::Blitter_BlitShaderPassNames UnityEngine::Rendering::Blitter_BlitShaderPassNames::BilinearQuadRed{ static_cast<int32_t>(0x14) };
 constexpr ::UnityEngine::Rendering::Blitter_BlitShaderPassNames UnityEngine::Rendering::Blitter_BlitShaderPassNames::NearestCubeToOctahedralPadding{ static_cast<int32_t>(0x15) };
 constexpr ::UnityEngine::Rendering::Blitter_BlitShaderPassNames UnityEngine::Rendering::Blitter_BlitShaderPassNames::BilinearCubeToOctahedralPadding{ static_cast<int32_t>(0x16) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Blitter_BlitColorAndDepthPassNames::Blitter_BlitColorAndDepthPassNames(int32_t value__) noexcept {
   this->value__ = value__;
 }

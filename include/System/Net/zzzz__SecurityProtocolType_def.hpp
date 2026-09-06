@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\SecurityProtocolType.hpp"
+// IWYU pragma private; include "System/Net/SecurityProtocolType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct SecurityProtocolType;
 // Write type traits
 MARK_VAL_T(::System::Net::SecurityProtocolType);
 DEFINE_IL2CPP_CLASS(::System::Net::SecurityProtocolType, "System.Net", "SecurityProtocolType");
+// [Flags]
 // Dependencies
 namespace System::Net {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr SecurityProtocolType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SecurityProtocolType(int32_t value__) noexcept;
 
   /// @brief Field Ssl3 value: I32(48)

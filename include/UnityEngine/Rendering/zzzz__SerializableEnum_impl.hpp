@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SerializableEnum.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SerializableEnum.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SerializableEnum_def.hpp"
 #include "System/zzzz__Enum_def.hpp"

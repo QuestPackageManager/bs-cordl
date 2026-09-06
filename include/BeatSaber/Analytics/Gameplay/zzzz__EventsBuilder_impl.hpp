@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventsBuilder.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventsBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__EventsBuilder_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipEventType_def.hpp"
@@ -324,9 +324,9 @@ inline void BeatSaber::Analytics::Gameplay::EventsBuilder::SetMatchId(::StringW 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilder*>(), { "SetMatchId", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, matchId);
 }
-inline void BeatSaber::Analytics::Gameplay::EventsBuilder::SetupSegmentFields(::StringW segmentName, ::StringW segmentId,
-                                                                              ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* currentSegmentType,
-                                                                              ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* currentSegmentSettings) {
+inline void
+BeatSaber::Analytics::Gameplay::EventsBuilder::SetupSegmentFields(::StringW segmentName, ::StringW segmentId, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* currentSegmentType,
+                                                                  /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* currentSegmentSettings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilder*>(),
                                               { "SetupSegmentFields",
@@ -342,7 +342,7 @@ inline void BeatSaber::Analytics::Gameplay::EventsBuilder::_ctor(::BeatSaber::An
 }
 inline ::BeatSaber::Analytics::Gameplay::EventsBuilder*
 BeatSaber::Analytics::Gameplay::EventsBuilder::StartSegment(::StringW segmentName, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* type,
-                                                            ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings) {
+                                                            /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilder*>(),
                                                            { "StartSegment",
@@ -384,8 +384,8 @@ BeatSaber::Analytics::Gameplay::EventsBuilder::WithMetric(::StringW metricName, 
                           { "WithMetric", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::Analytics::Gameplay::EventsBuilder*>(this, ___internal_method, metricName, spaceshipMetricType, value);
 }
-inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* BeatSaber::Analytics::Gameplay::EventsBuilder::WithCustomEvent(::StringW payload,
-                                                                                                                       ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* eventType) {
+inline ::BeatSaber::Analytics::Gameplay::EventsBuilder*
+BeatSaber::Analytics::Gameplay::EventsBuilder::WithCustomEvent(::StringW payload, /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* eventType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilder*>(),
                                               { "WithCustomEvent", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>() } })));

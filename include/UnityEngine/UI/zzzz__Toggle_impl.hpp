@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Toggle.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Toggle.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
@@ -14,7 +14,7 @@
 #include "UnityEngine/UI/zzzz__ToggleGroup_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Toggle_ToggleTransition::Toggle_ToggleTransition(int32_t value__) noexcept {
   this->value__ = value__;
 }

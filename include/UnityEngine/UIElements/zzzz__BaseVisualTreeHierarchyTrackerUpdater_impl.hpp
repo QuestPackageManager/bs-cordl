@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseVisualTreeHierarchyTrackerUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseVisualTreeHierarchyTrackerUpdater.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeHierarchyTrackerUpdater_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeHierarchyTrackerUpdater_def.hpp"
 #include "UnityEngine/UIElements/zzzz__HierarchyChangeType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater_State::BaseVisualTreeHierarchyTrackerUpdater_State(int32_t value__) noexcept {
   this->value__ = value__;
 }

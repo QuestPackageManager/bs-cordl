@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidApplication.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidApplication.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,8 @@ class AndroidApplication;
 // Write type traits
 MARK_REF_T(::UnityEngine::Android::AndroidApplication*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Android::AndroidApplication*, "UnityEngine.Android", "AndroidApplication");
+// [NativeHeader("Modules/AndroidJNI/Public/AndroidApplication.bindings.h")]
+// [StaticAccessor("AndroidApplication", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies System.Object
 namespace UnityEngine::Android {
 // Is value type: false
@@ -53,15 +55,19 @@ public:
   /// @brief Field onConfigurationChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_onConfigurationChanged, put = setStaticF_onConfigurationChanged)) ::System::Action_1<::UnityEngine::Android::AndroidConfiguration*>* onConfigurationChanged;
 
+  /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method AcquireMainThreadSynchronizationContext, addr 0x6a32ed0, size 0xac, virtual false, abstract: false, final false
   static inline void AcquireMainThreadSynchronizationContext();
 
+  /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method DispatchConfigurationChanged, addr 0x6a33180, size 0x74, virtual false, abstract: false, final false
   static inline void DispatchConfigurationChanged(bool notifySubscribers);
 
+  /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method GetCurrentConfiguration, addr 0x6a33134, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Android::AndroidConfiguration* GetCurrentConfiguration();
 
+  /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method SetCurrentConfiguration, addr 0x6a330e4, size 0x50, virtual false, abstract: false, final false
   static inline void SetCurrentConfiguration(::UnityEngine::Android::AndroidConfiguration* config);
 
@@ -75,12 +81,15 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::Android::AndroidConfiguration*>* getStaticF_onConfigurationChanged();
 
+  /// [ThreadSafe]
   /// @brief Method get_CurrentActivityRaw, addr 0x6a32ea8, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_CurrentActivityRaw();
 
+  /// [ThreadSafe]
   /// @brief Method get_CurrentContextRaw, addr 0x6a32e80, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_CurrentContextRaw();
 
+  /// [ThreadSafe]
   /// @brief Method get_UnityPlayerRaw, addr 0x6a1fb88, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_UnityPlayerRaw();
 
@@ -106,13 +115,13 @@ protected:
   constexpr AndroidApplication();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidApplication", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidApplication", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidApplication(AndroidApplication&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidApplication", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidApplication", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidApplication(AndroidApplication const&) = delete;
+  AndroidApplication(AndroidApplicationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20164 };

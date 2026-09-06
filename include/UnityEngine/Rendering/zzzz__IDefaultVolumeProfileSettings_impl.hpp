@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IDefaultVolumeProfileSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IDefaultVolumeProfileSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__IDefaultVolumeProfileSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeProfile_def.hpp"

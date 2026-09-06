@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\ContextAwareResult.hpp"
+// IWYU pragma private; include "System/Net/ContextAwareResult.hpp"
 #include "System/Net/zzzz__LazyAsyncResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ContextAwareResult_def.hpp"
@@ -9,7 +9,7 @@
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::ContextAwareResult_StateFlags::ContextAwareResult_StateFlags(uint8_t value__) noexcept {
   this->value__ = value__;
 }

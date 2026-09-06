@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutDelegates.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutDelegates.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,9 +59,11 @@ public:
   /// @brief Field s_InvokeMeasureFunctionMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_InvokeMeasureFunctionMarker, put = setStaticF_s_InvokeMeasureFunctionMarker)) ::Unity::Profiling::ProfilerMarker s_InvokeMeasureFunctionMarker;
 
+  /// [MonoPInvokeCallback(typeof(UnityEngine.UIElements.Layout.InvokeBaselineFunctionDelegate))]
   /// @brief Method InvokeBaselineFunction, addr 0x6d02938, size 0x174, virtual false, abstract: false, final false
   static inline float_t InvokeBaselineFunction(::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, float_t height);
 
+  /// [MonoPInvokeCallback(typeof(UnityEngine.UIElements.Layout.InvokeMeasureFunctionDelegate))]
   /// @brief Method InvokeMeasureFunction, addr 0x6d026a4, size 0x294, virtual false, abstract: false, final false
   static inline void InvokeMeasureFunction(::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, ::UnityEngine::UIElements::Layout::LayoutMeasureMode widthMode, float_t height,
                                            ::UnityEngine::UIElements::Layout::LayoutMeasureMode heightMode, ::by_ref<::System::IntPtr> exception,
@@ -97,13 +99,13 @@ protected:
   constexpr LayoutDelegates();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutDelegates", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutDelegates", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutDelegates(LayoutDelegates&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutDelegates", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutDelegates", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutDelegates(LayoutDelegates const&) = delete;
+  LayoutDelegates(LayoutDelegatesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5401 };

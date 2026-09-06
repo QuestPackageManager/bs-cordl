@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ViewControllerBase.hpp"
+// IWYU pragma private; include "HMUI/ViewControllerBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,13 +68,13 @@ protected:
   constexpr ViewControllerBase_DidActivateDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidActivateDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidActivateDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViewControllerBase_DidActivateDelegate(ViewControllerBase_DidActivateDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidActivateDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidActivateDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerBase_DidActivateDelegate(ViewControllerBase_DidActivateDelegate const&) = delete;
+  ViewControllerBase_DidActivateDelegate(ViewControllerBase_DidActivateDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19072 };
@@ -112,13 +112,13 @@ protected:
   constexpr ViewControllerBase_DidDeactivateDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidDeactivateDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidDeactivateDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViewControllerBase_DidDeactivateDelegate(ViewControllerBase_DidDeactivateDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidDeactivateDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidDeactivateDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerBase_DidDeactivateDelegate(ViewControllerBase_DidDeactivateDelegate const&) = delete;
+  ViewControllerBase_DidDeactivateDelegate(ViewControllerBase_DidDeactivateDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19073 };
@@ -169,15 +169,19 @@ public:
   /// @brief Method .ctor, addr 0x5881384, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didActivateEvent, addr 0x5881088, size 0xac, virtual false, abstract: false, final false
   inline void add_didActivateEvent(::HMUI::ViewControllerBase_DidActivateDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didDeactivateEvent, addr 0x58811e0, size 0xac, virtual false, abstract: false, final false
   inline void add_didDeactivateEvent(::HMUI::ViewControllerBase_DidDeactivateDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didActivateEvent, addr 0x5881134, size 0xac, virtual false, abstract: false, final false
   inline void remove_didActivateEvent(::HMUI::ViewControllerBase_DidActivateDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didDeactivateEvent, addr 0x588128c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didDeactivateEvent(::HMUI::ViewControllerBase_DidDeactivateDelegate* value);
 
@@ -187,20 +191,22 @@ protected:
   constexpr ViewControllerBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViewControllerBase(ViewControllerBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerBase(ViewControllerBase const&) = delete;
+  ViewControllerBase(ViewControllerBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19074 };
 
+  /// [CompilerGenerated]
   /// @brief Field didActivateEvent, offset: 0x20, size: 0x8, def value: None
   ::HMUI::ViewControllerBase_DidActivateDelegate* ___didActivateEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didDeactivateEvent, offset: 0x28, size: 0x8, def value: None
   ::HMUI::ViewControllerBase_DidDeactivateDelegate* ___didDeactivateEvent;
 

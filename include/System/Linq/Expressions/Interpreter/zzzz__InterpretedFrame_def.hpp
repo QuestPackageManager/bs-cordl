@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InterpretedFrame.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InterpretedFrame.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ MARK_REF_T(::System::Linq::Expressions::Interpreter::InterpretedFrame*);
 MARK_REF_T(::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::InterpretedFrame*, "System.Linq.Expressions.Interpreter", "InterpretedFrame");
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*, "System.Linq.Expressions.Interpreter", "InterpretedFrame/<GetStackTraceDebugInfo>d__29");
+// [CompilerGenerated]
 // Dependencies System.Linq.Expressions.Interpreter.InterpretedFrameInfo, System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
@@ -104,24 +105,31 @@ public:
   /// @brief Method MoveNext, addr 0x5f9e7c4, size 0x8c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.GetEnumerator, addr 0x5f9e8fc, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*
   System_Collections_Generic_IEnumerable_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current, addr 0x5f9e858, size 0xc, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo System_Collections_Generic_IEnumerator_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5f9e994, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5f9e864, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5f9e89c, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5f9e7c0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -155,6 +163,7 @@ public:
 
   constexpr void __cordl_internal_set__frame_5__2(::System::Linq::Expressions::Interpreter::InterpretedFrame* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5f9df90, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -181,13 +190,13 @@ protected:
   constexpr InterpretedFrame__GetStackTraceDebugInfo_d__29();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame__GetStackTraceDebugInfo_d__29", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame__GetStackTraceDebugInfo_d__29", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InterpretedFrame__GetStackTraceDebugInfo_d__29(InterpretedFrame__GetStackTraceDebugInfo_d__29&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame__GetStackTraceDebugInfo_d__29", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame__GetStackTraceDebugInfo_d__29", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InterpretedFrame__GetStackTraceDebugInfo_d__29(InterpretedFrame__GetStackTraceDebugInfo_d__29 const&) = delete;
+  InterpretedFrame__GetStackTraceDebugInfo_d__29(InterpretedFrame__GetStackTraceDebugInfo_d__29const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16393 };
@@ -278,6 +287,7 @@ public:
   /// @brief Method GetDebugInfo, addr 0x5f9dc34, size 0x78, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::DebugInfo* GetDebugInfo(int32_t instructionIndex);
 
+  /// [IteratorStateMachine(typeof(System.Linq.Expressions.Interpreter.InterpretedFrame::<GetStackTraceDebugInfo>d__29))]
   /// @brief Method GetStackTraceDebugInfo, addr 0x5f9df20, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* GetStackTraceDebugInfo();
 
@@ -423,13 +433,13 @@ protected:
   constexpr InterpretedFrame();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InterpretedFrame(InterpretedFrame&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InterpretedFrame(InterpretedFrame const&) = delete;
+  InterpretedFrame(InterpretedFrameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16394 };

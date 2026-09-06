@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RectInt.hpp"
+// IWYU pragma private; include "UnityEngine/RectInt.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ struct RectInt;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RectInt);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RectInt, "UnityEngine", "RectInt");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -122,8 +123,8 @@ public:
   // @brief default ctor
   constexpr RectInt();
 
-  // Ctor Parameters [CppParam { name: "m_XMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_YMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_XMin", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_YMin", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RectInt(int32_t m_XMin, int32_t m_YMin, int32_t m_Width, int32_t m_Height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

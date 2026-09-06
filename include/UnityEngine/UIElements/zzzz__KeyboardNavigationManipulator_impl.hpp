@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\KeyboardNavigationManipulator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/KeyboardNavigationManipulator.hpp"
 #include "UnityEngine/UIElements/zzzz__Manipulator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
@@ -10,7 +10,7 @@
 #include "UnityEngine/UIElements/zzzz__NavigationCancelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
-// Ctor Parameters [CppParam { name: "evt", ty: "::UnityEngine::UIElements::KeyDownEvent*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "evt", ty: "::UnityEngine::UIElements::KeyDownEvent*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0::KeyboardNavigationManipulator___c__DisplayClass4_0(::UnityEngine::UIElements::KeyDownEvent* evt) noexcept {
   this->evt = evt;
 }

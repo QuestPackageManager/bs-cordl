@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RendererListLegacyResource.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RendererListLegacyResource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,14 +21,14 @@ struct CORDL_TYPE RendererListLegacyResource {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x67e9c80, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<bool> active);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<bool> active);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RendererListLegacyResource();
 
-  // Ctor Parameters [CppParam { name: "rendererList", ty: "::UnityEngine::Rendering::RendererList", modifiers: "", def_value: None }, CppParam { name: "isActive", ty: "bool", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "rendererList", ty: "::UnityEngine::Rendering::RendererList", modifiers: "", def_value: None, comment: None }, CppParam { name: "isActive", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr RendererListLegacyResource(::UnityEngine::Rendering::RendererList rendererList, bool isActive) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

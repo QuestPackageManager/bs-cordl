@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TypeSpec.hpp"
+// IWYU pragma private; include "System/TypeSpec.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeSpec_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,7 +13,7 @@
 #include "System/zzzz__TypeIdentifier_def.hpp"
 #include "System/zzzz__TypeSpec_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::TypeSpec_DisplayNameFormat::TypeSpec_DisplayNameFormat(int32_t value__) noexcept {
   this->value__ = value__;
 }

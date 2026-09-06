@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\DPadInteraction.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/DPadInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,8 @@ MARK_REF_T(::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction*, "UnityEngine.XR.OpenXR.Features.Interactions", "DPadInteraction");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad*, "UnityEngine.XR.OpenXR.Features.Interactions", "DPadInteraction/DPad");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c*, "UnityEngine.XR.OpenXR.Features.Interactions", "DPadInteraction/<>c");
+// [Preserve]
+// [InputControlLayout(displayName = "D-Pad Binding (OpenXR)", commonUsages = new[] { "LeftHand", "RightHand" })]
 // Dependencies UnityEngine.InputSystem.XR.XRController
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
@@ -98,22 +100,40 @@ public:
   __declspec(property(get = __cordl_internal_get__trackpadDpadUp_k__BackingField,
                       put = __cordl_internal_set__trackpadDpadUp_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _trackpadDpadUp_k__BackingField;
 
+  /// [Preserve]
+  /// @brief [InputControl]
   __declspec(property(get = get_thumbstickDpadDown, put = set_thumbstickDpadDown)) ::UnityEngine::InputSystem::Controls::ButtonControl* thumbstickDpadDown;
 
+  /// [Preserve]
+  /// @brief [InputControl]
   __declspec(property(get = get_thumbstickDpadLeft, put = set_thumbstickDpadLeft)) ::UnityEngine::InputSystem::Controls::ButtonControl* thumbstickDpadLeft;
 
+  /// [Preserve]
+  /// @brief [InputControl]
   __declspec(property(get = get_thumbstickDpadRight, put = set_thumbstickDpadRight)) ::UnityEngine::InputSystem::Controls::ButtonControl* thumbstickDpadRight;
 
+  /// [Preserve]
+  /// @brief [InputControl]
   __declspec(property(get = get_thumbstickDpadUp, put = set_thumbstickDpadUp)) ::UnityEngine::InputSystem::Controls::ButtonControl* thumbstickDpadUp;
 
+  /// [Preserve]
+  /// @brief [InputControl]
   __declspec(property(get = get_trackpadDpadCenter, put = set_trackpadDpadCenter)) ::UnityEngine::InputSystem::Controls::ButtonControl* trackpadDpadCenter;
 
+  /// [Preserve]
+  /// @brief [InputControl]
   __declspec(property(get = get_trackpadDpadDown, put = set_trackpadDpadDown)) ::UnityEngine::InputSystem::Controls::ButtonControl* trackpadDpadDown;
 
+  /// [Preserve]
+  /// @brief [InputControl]
   __declspec(property(get = get_trackpadDpadLeft, put = set_trackpadDpadLeft)) ::UnityEngine::InputSystem::Controls::ButtonControl* trackpadDpadLeft;
 
+  /// [Preserve]
+  /// @brief [InputControl]
   __declspec(property(get = get_trackpadDpadRight, put = set_trackpadDpadRight)) ::UnityEngine::InputSystem::Controls::ButtonControl* trackpadDpadRight;
 
+  /// [Preserve]
+  /// @brief [InputControl]
   __declspec(property(get = get_trackpadDpadUp, put = set_trackpadDpadUp)) ::UnityEngine::InputSystem::Controls::ButtonControl* trackpadDpadUp;
 
   /// @brief Method FinishSetup, addr 0x69fe2b4, size 0x1dc, virtual true, abstract: false, final false
@@ -178,57 +198,75 @@ public:
   /// @brief Method .ctor, addr 0x69fe490, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_thumbstickDpadDown, addr 0x69fe234, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickDpadDown();
 
+  /// [CompilerGenerated]
   /// @brief Method get_thumbstickDpadLeft, addr 0x69fe244, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickDpadLeft();
 
+  /// [CompilerGenerated]
   /// @brief Method get_thumbstickDpadRight, addr 0x69fe254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickDpadRight();
 
+  /// [CompilerGenerated]
   /// @brief Method get_thumbstickDpadUp, addr 0x69fe224, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickDpadUp();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackpadDpadCenter, addr 0x69fe2a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadCenter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackpadDpadDown, addr 0x69fe274, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadDown();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackpadDpadLeft, addr 0x69fe284, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadLeft();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackpadDpadRight, addr 0x69fe294, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadRight();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackpadDpadUp, addr 0x69fe264, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadUp();
 
+  /// [CompilerGenerated]
   /// @brief Method set_thumbstickDpadDown, addr 0x69fe23c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickDpadDown(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_thumbstickDpadLeft, addr 0x69fe24c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickDpadLeft(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_thumbstickDpadRight, addr 0x69fe25c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickDpadRight(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_thumbstickDpadUp, addr 0x69fe22c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickDpadUp(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackpadDpadCenter, addr 0x69fe2ac, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadCenter(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackpadDpadDown, addr 0x69fe27c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadDown(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackpadDpadLeft, addr 0x69fe28c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadLeft(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackpadDpadRight, addr 0x69fe29c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadRight(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackpadDpadUp, addr 0x69fe26c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadUp(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
@@ -238,41 +276,50 @@ protected:
   constexpr DPadInteraction_DPad();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction_DPad", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction_DPad", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DPadInteraction_DPad(DPadInteraction_DPad&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction_DPad", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction_DPad", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DPadInteraction_DPad(DPadInteraction_DPad const&) = delete;
+  DPadInteraction_DPad(DPadInteraction_DPadconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18565 };
 
+  /// [CompilerGenerated]
   /// @brief Field <thumbstickDpadUp>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____thumbstickDpadUp_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <thumbstickDpadDown>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____thumbstickDpadDown_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <thumbstickDpadLeft>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____thumbstickDpadLeft_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <thumbstickDpadRight>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____thumbstickDpadRight_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackpadDpadUp>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____trackpadDpadUp_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackpadDpadDown>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____trackpadDpadDown_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackpadDpadLeft>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____trackpadDpadLeft_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackpadDpadRight>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____trackpadDpadRight_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackpadDpadCenter>k__BackingField, offset: 0x1e8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____trackpadDpadCenter_k__BackingField;
 
@@ -300,6 +347,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::Interactions::DPadIn
 static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad) == 0x1f0, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Features::Interactions
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
@@ -365,13 +413,13 @@ protected:
   constexpr DPadInteraction___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DPadInteraction___c(DPadInteraction___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DPadInteraction___c(DPadInteraction___c const&) = delete;
+  DPadInteraction___c(DPadInteraction___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18566 };
@@ -527,13 +575,13 @@ protected:
   constexpr DPadInteraction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DPadInteraction(DPadInteraction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DPadInteraction(DPadInteraction const&) = delete;
+  DPadInteraction(DPadInteractionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18567 };

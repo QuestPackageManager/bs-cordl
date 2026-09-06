@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlObjectFactory_2.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlObjectFactory_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseUxmlFactory_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlObjectTraits_1_def.hpp"
 CORDL_MODULE_EXPORT(UxmlObjectFactory_2)
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -18,19 +19,27 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IUxmlObjectFactory_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class IUxmlObjectFactory_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TCreatedType, typename TTraits> class UxmlObjectFactory_2;
+template <typename TCreatedType, typename TTraits>
+  requires(::cordl_internals::default_constructor_constraint<TCreatedType> && ::cordl_internals::type_constraint<TTraits, ::UnityEngine::UIElements::UxmlObjectTraits_1<TCreatedType>*> &&
+           ::cordl_internals::default_constructor_constraint<TTraits>)
+class UxmlObjectFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlObjectFactory_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlObjectFactory_2, "UnityEngine.UIElements", "UxmlObjectFactory`2");
-// Dependencies UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType, TTraits>
+// [Obsolete("UxmlObjectFactory<TCreatedType, TTraits> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType, TTraits>, UnityEngine.UIElements.UxmlObjectTraits`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType, typename TTraits>
+  requires(::cordl_internals::default_constructor_constraint<TCreatedType> && ::cordl_internals::type_constraint<TTraits, ::UnityEngine::UIElements::UxmlObjectTraits_1<TCreatedType>*> &&
+           ::cordl_internals::default_constructor_constraint<TTraits>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlObjectFactory`2<TCreatedType,TTraits>
 class CORDL_TYPE UxmlObjectFactory_2 : public ::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits> {
@@ -68,13 +77,13 @@ protected:
   constexpr UxmlObjectFactory_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactory_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactory_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlObjectFactory_2(UxmlObjectFactory_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactory_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactory_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlObjectFactory_2(UxmlObjectFactory_2 const&) = delete;
+  UxmlObjectFactory_2(UxmlObjectFactory_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5185 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\InMultiplayerRichPresenceData.hpp"
+// IWYU pragma private; include "GlobalNamespace/InMultiplayerRichPresenceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,21 +95,26 @@ public:
   /// @brief Method .ctor, addr 0x58ff4f0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize);
 
+  /// [CompilerGenerated]
   /// @brief Method get_apiName, addr 0x58ff470, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_atMaxPartySize, addr 0x58ff4a0, size 0x8, virtual true, abstract: false, final true
   inline bool get_atMaxPartySize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_canInvite, addr 0x58ff4b0, size 0x8, virtual true, abstract: false, final true
   inline bool get_canInvite();
 
   /// @brief Method get_isJoinable, addr 0x58ff4c0, size 0x30, virtual true, abstract: false, final true
   inline bool get_isJoinable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_localizedDescription, addr 0x58ff480, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
+  /// [CompilerGenerated]
   /// @brief Method get_multiplayerSecret, addr 0x58ff490, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerSecret();
 
@@ -119,18 +124,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
   constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_apiName, addr 0x58ff478, size 0x8, virtual false, abstract: false, final false
   inline void set_apiName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_atMaxPartySize, addr 0x58ff4a8, size 0x8, virtual true, abstract: false, final true
   inline void set_atMaxPartySize(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_canInvite, addr 0x58ff4b8, size 0x8, virtual true, abstract: false, final true
   inline void set_canInvite(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_localizedDescription, addr 0x58ff488, size 0x8, virtual false, abstract: false, final false
   inline void set_localizedDescription(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_multiplayerSecret, addr 0x58ff498, size 0x8, virtual true, abstract: false, final true
   inline void set_multiplayerSecret(::StringW value);
 
@@ -140,13 +150,13 @@ protected:
   constexpr InMultiplayerRichPresenceData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InMultiplayerRichPresenceData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InMultiplayerRichPresenceData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InMultiplayerRichPresenceData(InMultiplayerRichPresenceData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InMultiplayerRichPresenceData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InMultiplayerRichPresenceData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InMultiplayerRichPresenceData(InMultiplayerRichPresenceData const&) = delete;
+  InMultiplayerRichPresenceData(InMultiplayerRichPresenceDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6644 };
@@ -154,18 +164,23 @@ public:
   /// @brief Field kInMultiplayerLobbyRichPresenceLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kInMultiplayerLobbyRichPresenceLocalizationKey{ u"IN_MULTIPLAYER_LOBBY_PRESENCE" };
 
+  /// [CompilerGenerated]
   /// @brief Field <apiName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____apiName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <localizedDescription>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____localizedDescription_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <multiplayerSecret>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____multiplayerSecret_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <atMaxPartySize>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____atMaxPartySize_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <canInvite>k__BackingField, offset: 0x29, size: 0x1, def value: None
   bool ____canInvite_k__BackingField;
 

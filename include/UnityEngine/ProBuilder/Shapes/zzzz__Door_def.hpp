@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Door.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Door.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class Door;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Shapes::Door*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Shapes::Door*, "UnityEngine.ProBuilder.Shapes", "Door");
+// [Shape("Door")]
 // Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
@@ -70,20 +71,24 @@ protected:
   constexpr Door();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Door", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Door", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Door(Door&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Door", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Door", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Door(Door const&) = delete;
+  Door(Doorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16839 };
 
+  /// [Min(0.01)]
+  /// [SerializeField]
   /// @brief Field m_DoorHeight, offset: 0x10, size: 0x4, def value: None
   float_t ___m_DoorHeight;
 
+  /// [Min(0.01)]
+  /// [SerializeField]
   /// @brief Field m_LegWidth, offset: 0x14, size: 0x4, def value: None
   float_t ___m_LegWidth;
 

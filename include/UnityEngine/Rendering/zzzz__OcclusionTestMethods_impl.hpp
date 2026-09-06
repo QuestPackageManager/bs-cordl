@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionTestMethods.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionTestMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionTestMethods_def.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionTest_def.hpp"

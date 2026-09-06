@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_InputField.hpp"
+// IWYU pragma private; include "TMPro/TMP_InputField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -306,7 +306,7 @@ public:
   // @brief default ctor
   constexpr TMP_InputField_ContentType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_InputField_ContentType(int32_t value__) noexcept;
 
   /// @brief Field Alphanumeric value: I32(4)
@@ -386,7 +386,7 @@ public:
   // @brief default ctor
   constexpr TMP_InputField_InputType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_InputField_InputType(int32_t value__) noexcept;
 
   /// @brief Field AutoCorrect value: I32(1)
@@ -451,7 +451,7 @@ public:
   // @brief default ctor
   constexpr TMP_InputField_CharacterValidation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_InputField_CharacterValidation(int32_t value__) noexcept;
 
   /// @brief Field Alphanumeric value: I32(4)
@@ -528,7 +528,7 @@ public:
   // @brief default ctor
   constexpr TMP_InputField_LineType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_InputField_LineType(int32_t value__) noexcept;
 
   /// @brief Field MultiLineNewline value: I32(2)
@@ -584,13 +584,13 @@ protected:
   constexpr TMP_InputField_OnValidateInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_OnValidateInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_OnValidateInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputField_OnValidateInput(TMP_InputField_OnValidateInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_OnValidateInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_OnValidateInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputField_OnValidateInput(TMP_InputField_OnValidateInput const&) = delete;
+  TMP_InputField_OnValidateInput(TMP_InputField_OnValidateInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15941 };
@@ -619,13 +619,13 @@ protected:
   constexpr TMP_InputField_SubmitEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_SubmitEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_SubmitEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputField_SubmitEvent(TMP_InputField_SubmitEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_SubmitEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_SubmitEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputField_SubmitEvent(TMP_InputField_SubmitEvent const&) = delete;
+  TMP_InputField_SubmitEvent(TMP_InputField_SubmitEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15942 };
@@ -654,13 +654,13 @@ protected:
   constexpr TMP_InputField_OnChangeEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_OnChangeEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_OnChangeEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputField_OnChangeEvent(TMP_InputField_OnChangeEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_OnChangeEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_OnChangeEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputField_OnChangeEvent(TMP_InputField_OnChangeEvent const&) = delete;
+  TMP_InputField_OnChangeEvent(TMP_InputField_OnChangeEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15943 };
@@ -689,13 +689,13 @@ protected:
   constexpr TMP_InputField_SelectionEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_SelectionEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_SelectionEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputField_SelectionEvent(TMP_InputField_SelectionEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_SelectionEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_SelectionEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputField_SelectionEvent(TMP_InputField_SelectionEvent const&) = delete;
+  TMP_InputField_SelectionEvent(TMP_InputField_SelectionEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15944 };
@@ -724,13 +724,13 @@ protected:
   constexpr TMP_InputField_TextSelectionEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_TextSelectionEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_TextSelectionEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputField_TextSelectionEvent(TMP_InputField_TextSelectionEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_TextSelectionEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_TextSelectionEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputField_TextSelectionEvent(TMP_InputField_TextSelectionEvent const&) = delete;
+  TMP_InputField_TextSelectionEvent(TMP_InputField_TextSelectionEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15945 };
@@ -759,13 +759,13 @@ protected:
   constexpr TMP_InputField_TouchScreenKeyboardEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_TouchScreenKeyboardEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_TouchScreenKeyboardEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputField_TouchScreenKeyboardEvent(TMP_InputField_TouchScreenKeyboardEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_TouchScreenKeyboardEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField_TouchScreenKeyboardEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputField_TouchScreenKeyboardEvent(TMP_InputField_TouchScreenKeyboardEvent const&) = delete;
+  TMP_InputField_TouchScreenKeyboardEvent(TMP_InputField_TouchScreenKeyboardEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15946 };
@@ -805,7 +805,7 @@ public:
   // @brief default ctor
   constexpr TMP_InputField_EditState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_InputField_EditState(int32_t value__) noexcept;
 
   /// @brief Field Continue value: I32(0)
@@ -831,6 +831,7 @@ static_assert(offsetof(::TMPro::TMP_InputField_EditState, value__) == 0x0, "Offs
 static_assert(sizeof(::TMPro::TMP_InputField_EditState) == 0x4, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -863,17 +864,22 @@ public:
   /// @brief Method MoveNext, addr 0x69943f4, size 0x13c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::TMPro::TMP_InputField__CaretBlink_d__295* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6994530, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6994538, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6994570, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69943f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -895,6 +901,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TMP_InputField> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69943e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -913,13 +920,13 @@ protected:
   constexpr TMP_InputField__CaretBlink_d__295();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField__CaretBlink_d__295", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField__CaretBlink_d__295", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputField__CaretBlink_d__295(TMP_InputField__CaretBlink_d__295&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField__CaretBlink_d__295", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField__CaretBlink_d__295", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputField__CaretBlink_d__295(TMP_InputField__CaretBlink_d__295 const&) = delete;
+  TMP_InputField__CaretBlink_d__295(TMP_InputField__CaretBlink_d__295const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15948 };
@@ -945,6 +952,7 @@ static_assert(offsetof(::TMPro::TMP_InputField__CaretBlink_d__295, _____4__this)
 static_assert(sizeof(::TMPro::TMP_InputField__CaretBlink_d__295) == 0x28, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -980,17 +988,22 @@ public:
   /// @brief Method MoveNext, addr 0x6994584, size 0x20c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6994790, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6994798, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69947d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6994580, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -1018,6 +1031,7 @@ public:
 
   constexpr void __cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6994578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -1036,13 +1050,13 @@ protected:
   constexpr TMP_InputField__MouseDragOutsideRect_d__316();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField__MouseDragOutsideRect_d__316", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField__MouseDragOutsideRect_d__316", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputField__MouseDragOutsideRect_d__316(TMP_InputField__MouseDragOutsideRect_d__316&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField__MouseDragOutsideRect_d__316", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField__MouseDragOutsideRect_d__316", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputField__MouseDragOutsideRect_d__316(TMP_InputField__MouseDragOutsideRect_d__316 const&) = delete;
+  TMP_InputField__MouseDragOutsideRect_d__316(TMP_InputField__MouseDragOutsideRect_d__316const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15949 };
@@ -1073,6 +1087,8 @@ static_assert(offsetof(::TMPro::TMP_InputField__MouseDragOutsideRect_d__316, ___
 static_assert(sizeof(::TMPro::TMP_InputField__MouseDragOutsideRect_d__316) == 0x30, "Size mismatch!");
 
 } // namespace TMPro
+// [AddComponentMenu("UI/TextMeshPro - Input Field", 11)]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/index.html")]
 // Dependencies TMPro.TMP_InputField::CharacterValidation, TMPro.TMP_InputField::ContentType, TMPro.TMP_InputField::InputType, TMPro.TMP_InputField::LineType, UnityEngine.Color, UnityEngine.KeyCode,
 // UnityEngine.TouchScreenKeyboardType, UnityEngine.UI.Selectable, UnityEngine.UIVertex, UnityEngine.Vector2
 namespace TMPro {
@@ -1607,6 +1623,7 @@ public:
   /// @brief Method CalculateLayoutInputVertical, addr 0x696c7e0, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
+  /// [IteratorStateMachine(typeof(TMPro.TMP_InputField::<CaretBlink>d__295))]
   /// @brief Method CaretBlink, addr 0x6964038, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CaretBlink();
 
@@ -1706,6 +1723,7 @@ public:
   /// @brief Method MayDrag, addr 0x69662d4, size 0xe8, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
+  /// [IteratorStateMachine(typeof(TMPro.TMP_InputField::<MouseDragOutsideRect>d__316))]
   /// @brief Method MouseDragOutsideRect, addr 0x6966764, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* MouseDragOutsideRect(::UnityEngine::EventSystems::PointerEventData* eventData);
 
@@ -1886,7 +1904,7 @@ public:
   inline void SetToCustom(::TMPro::TMP_InputField_CharacterValidation characterValidation);
 
   /// @brief Method SetToCustomIfContentTypeIsNot, addr 0x6961fe8, size 0x5c, virtual false, abstract: false, final false
-  inline void SetToCustomIfContentTypeIsNot(::ArrayW<::TMPro::TMP_InputField_ContentType> allowedContentTypes);
+  inline void SetToCustomIfContentTypeIsNot(/* [ParamArray] */ ::ArrayW<::TMPro::TMP_InputField_ContentType> allowedContentTypes);
 
   /// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x69648d4, size 0xd0, virtual false, abstract: false, final false
   inline bool TouchScreenKeyboardShouldBeUsed();
@@ -2920,13 +2938,13 @@ protected:
   constexpr TMP_InputField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_InputField(TMP_InputField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_InputField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_InputField(TMP_InputField const&) = delete;
+  TMP_InputField(TMP_InputFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15950 };
@@ -2949,6 +2967,7 @@ public:
   /// @brief Field m_RectTransform, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_RectTransform;
 
+  /// [SerializeField]
   /// @brief Field m_TextViewport, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_TextViewport;
 
@@ -2958,24 +2977,29 @@ public:
   /// @brief Field m_TextViewportRectMask, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::RectMask2D> ___m_TextViewportRectMask;
 
+  /// [SerializeField]
   /// @brief Field m_TextComponent, offset: 0x128, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ___m_TextComponent;
 
   /// @brief Field m_TextComponentRectTransform, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_TextComponentRectTransform;
 
+  /// [SerializeField]
   /// @brief Field m_Placeholder, offset: 0x138, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ___m_Placeholder;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalScrollbar, offset: 0x140, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Scrollbar> ___m_VerticalScrollbar;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalScrollbarEventHandler, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_ScrollbarEventHandler> ___m_VerticalScrollbarEventHandler;
 
   /// @brief Field m_IsDrivenByLayoutComponents, offset: 0x150, size: 0x1, def value: None
   bool ___m_IsDrivenByLayoutComponents;
 
+  /// [SerializeField]
   /// @brief Field m_LayoutGroup, offset: 0x158, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::LayoutGroup> ___m_LayoutGroup;
 
@@ -2985,90 +3009,122 @@ public:
   /// @brief Field m_ScrollPosition, offset: 0x168, size: 0x4, def value: None
   float_t ___m_ScrollPosition;
 
+  /// [SerializeField]
   /// @brief Field m_ScrollSensitivity, offset: 0x16c, size: 0x4, def value: None
   float_t ___m_ScrollSensitivity;
 
+  /// [SerializeField]
   /// @brief Field m_ContentType, offset: 0x170, size: 0x4, def value: None
   ::TMPro::TMP_InputField_ContentType ___m_ContentType;
 
+  /// [SerializeField]
   /// @brief Field m_InputType, offset: 0x174, size: 0x4, def value: None
   ::TMPro::TMP_InputField_InputType ___m_InputType;
 
+  /// [SerializeField]
   /// @brief Field m_AsteriskChar, offset: 0x178, size: 0x2, def value: None
   char16_t ___m_AsteriskChar;
 
+  /// [SerializeField]
   /// @brief Field m_KeyboardType, offset: 0x17c, size: 0x4, def value: None
   ::UnityEngine::TouchScreenKeyboardType ___m_KeyboardType;
 
+  /// [SerializeField]
   /// @brief Field m_LineType, offset: 0x180, size: 0x4, def value: None
   ::TMPro::TMP_InputField_LineType ___m_LineType;
 
+  /// [SerializeField]
   /// @brief Field m_HideMobileInput, offset: 0x184, size: 0x1, def value: None
   bool ___m_HideMobileInput;
 
+  /// [SerializeField]
   /// @brief Field m_HideSoftKeyboard, offset: 0x185, size: 0x1, def value: None
   bool ___m_HideSoftKeyboard;
 
+  /// [SerializeField]
   /// @brief Field m_CharacterValidation, offset: 0x188, size: 0x4, def value: None
   ::TMPro::TMP_InputField_CharacterValidation ___m_CharacterValidation;
 
+  /// [SerializeField]
   /// @brief Field m_RegexValue, offset: 0x190, size: 0x8, def value: None
   ::StringW ___m_RegexValue;
 
+  /// [SerializeField]
   /// @brief Field m_GlobalPointSize, offset: 0x198, size: 0x4, def value: None
   float_t ___m_GlobalPointSize;
 
+  /// [SerializeField]
   /// @brief Field m_CharacterLimit, offset: 0x19c, size: 0x4, def value: None
   int32_t ___m_CharacterLimit;
 
+  /// [SerializeField]
   /// @brief Field m_OnEndEdit, offset: 0x1a0, size: 0x8, def value: None
   ::TMPro::TMP_InputField_SubmitEvent* ___m_OnEndEdit;
 
+  /// [SerializeField]
   /// @brief Field m_OnSubmit, offset: 0x1a8, size: 0x8, def value: None
   ::TMPro::TMP_InputField_SubmitEvent* ___m_OnSubmit;
 
+  /// [SerializeField]
   /// @brief Field m_OnSelect, offset: 0x1b0, size: 0x8, def value: None
   ::TMPro::TMP_InputField_SelectionEvent* ___m_OnSelect;
 
+  /// [SerializeField]
   /// @brief Field m_OnDeselect, offset: 0x1b8, size: 0x8, def value: None
   ::TMPro::TMP_InputField_SelectionEvent* ___m_OnDeselect;
 
+  /// [SerializeField]
   /// @brief Field m_OnTextSelection, offset: 0x1c0, size: 0x8, def value: None
   ::TMPro::TMP_InputField_TextSelectionEvent* ___m_OnTextSelection;
 
+  /// [SerializeField]
   /// @brief Field m_OnEndTextSelection, offset: 0x1c8, size: 0x8, def value: None
   ::TMPro::TMP_InputField_TextSelectionEvent* ___m_OnEndTextSelection;
 
+  /// [SerializeField]
   /// @brief Field m_OnValueChanged, offset: 0x1d0, size: 0x8, def value: None
   ::TMPro::TMP_InputField_OnChangeEvent* ___m_OnValueChanged;
 
+  /// [SerializeField]
   /// @brief Field m_OnTouchScreenKeyboardStatusChanged, offset: 0x1d8, size: 0x8, def value: None
   ::TMPro::TMP_InputField_TouchScreenKeyboardEvent* ___m_OnTouchScreenKeyboardStatusChanged;
 
+  /// [SerializeField]
   /// @brief Field m_OnValidateInput, offset: 0x1e0, size: 0x8, def value: None
   ::TMPro::TMP_InputField_OnValidateInput* ___m_OnValidateInput;
 
+  /// [SerializeField]
   /// @brief Field m_CaretColor, offset: 0x1e8, size: 0x10, def value: None
   ::UnityEngine::Color ___m_CaretColor;
 
+  /// [SerializeField]
   /// @brief Field m_CustomCaretColor, offset: 0x1f8, size: 0x1, def value: None
   bool ___m_CustomCaretColor;
 
+  /// [SerializeField]
   /// @brief Field m_SelectionColor, offset: 0x1fc, size: 0x10, def value: None
   ::UnityEngine::Color ___m_SelectionColor;
 
+  /// [SerializeField]
+  /// [TextArea(5, 10)]
   /// @brief Field m_Text, offset: 0x210, size: 0x8, def value: None
   ::StringW ___m_Text;
 
+  /// [SerializeField]
+  /// [Range(0, 4)]
   /// @brief Field m_CaretBlinkRate, offset: 0x218, size: 0x4, def value: None
   float_t ___m_CaretBlinkRate;
 
+  /// [SerializeField]
+  /// [Range(1, 5)]
   /// @brief Field m_CaretWidth, offset: 0x21c, size: 0x4, def value: None
   int32_t ___m_CaretWidth;
 
+  /// [SerializeField]
   /// @brief Field m_ReadOnly, offset: 0x220, size: 0x1, def value: None
   bool ___m_ReadOnly;
 
+  /// [SerializeField]
   /// @brief Field m_RichText, offset: 0x221, size: 0x1, def value: None
   bool ___m_RichText;
 
@@ -3168,15 +3224,18 @@ public:
   /// @brief Field m_PreviousIMEInsertionLine, offset: 0x2ac, size: 0x4, def value: None
   int32_t ___m_PreviousIMEInsertionLine;
 
+  /// [SerializeField]
   /// @brief Field m_GlobalFontAsset, offset: 0x2b0, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_FontAsset> ___m_GlobalFontAsset;
 
+  /// [SerializeField]
   /// @brief Field m_OnFocusSelectAll, offset: 0x2b8, size: 0x1, def value: None
   bool ___m_OnFocusSelectAll;
 
   /// @brief Field m_isSelectAll, offset: 0x2b9, size: 0x1, def value: None
   bool ___m_isSelectAll;
 
+  /// [SerializeField]
   /// @brief Field m_ResetOnDeActivation, offset: 0x2ba, size: 0x1, def value: None
   bool ___m_ResetOnDeActivation;
 
@@ -3192,24 +3251,30 @@ public:
   /// @brief Field m_PreviouslySelectedObject, offset: 0x2c8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_PreviouslySelectedObject;
 
+  /// [SerializeField]
   /// @brief Field m_KeepTextSelectionVisible, offset: 0x2d0, size: 0x1, def value: None
   bool ___m_KeepTextSelectionVisible;
 
+  /// [SerializeField]
   /// @brief Field m_RestoreOriginalTextOnEscape, offset: 0x2d1, size: 0x1, def value: None
   bool ___m_RestoreOriginalTextOnEscape;
 
+  /// [SerializeField]
   /// @brief Field m_isRichTextEditingAllowed, offset: 0x2d2, size: 0x1, def value: None
   bool ___m_isRichTextEditingAllowed;
 
+  /// [SerializeField]
   /// @brief Field m_LineLimit, offset: 0x2d4, size: 0x4, def value: None
   int32_t ___m_LineLimit;
 
   /// @brief Field isAlert, offset: 0x2d8, size: 0x1, def value: None
   bool ___isAlert;
 
+  /// [SerializeField]
   /// @brief Field m_InputValidator, offset: 0x2e0, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_InputValidator> ___m_InputValidator;
 
+  /// [SerializeField]
   /// @brief Field m_ShouldActivateOnSelect, offset: 0x2e8, size: 0x1, def value: None
   bool ___m_ShouldActivateOnSelect;
 

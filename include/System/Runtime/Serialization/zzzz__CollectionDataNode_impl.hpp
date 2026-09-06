@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\CollectionDataNode.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/CollectionDataNode.hpp"
 #include "System/Runtime/Serialization/zzzz__DataNode_1_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__CollectionDataNode_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"

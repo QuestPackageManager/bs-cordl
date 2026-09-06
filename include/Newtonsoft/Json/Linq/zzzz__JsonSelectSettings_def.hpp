@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonSelectSettings.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonSelectSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__TimeSpan_def.hpp"
 CORDL_MODULE_EXPORT(JsonSelectSettings)
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 struct TimeSpan;
@@ -55,15 +57,19 @@ public:
   /// @brief Method .ctor, addr 0x5d7b024, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ErrorWhenNoMatch, addr 0x5d7b014, size 0x8, virtual false, abstract: false, final false
   inline bool get_ErrorWhenNoMatch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RegexMatchTimeout, addr 0x5d7b000, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_RegexMatchTimeout();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ErrorWhenNoMatch, addr 0x5d7b01c, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorWhenNoMatch(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RegexMatchTimeout, addr 0x5d7b00c, size 0x8, virtual false, abstract: false, final false
   inline void set_RegexMatchTimeout(::System::Nullable_1<::System::TimeSpan> value);
 
@@ -73,20 +79,22 @@ protected:
   constexpr JsonSelectSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSelectSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSelectSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSelectSettings(JsonSelectSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSelectSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSelectSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSelectSettings(JsonSelectSettings const&) = delete;
+  JsonSelectSettings(JsonSelectSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13605 };
 
+  /// [CompilerGenerated]
   /// @brief Field <RegexMatchTimeout>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Nullable_1<::System::TimeSpan> ____RegexMatchTimeout_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ErrorWhenNoMatch>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____ErrorWhenNoMatch_k__BackingField;
 

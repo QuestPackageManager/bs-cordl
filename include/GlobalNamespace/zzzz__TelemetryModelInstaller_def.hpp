@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TelemetryModelInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/TelemetryModelInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ protected:
   constexpr TelemetryModelInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TelemetryModelInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TelemetryModelInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TelemetryModelInstaller(TelemetryModelInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TelemetryModelInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TelemetryModelInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TelemetryModelInstaller(TelemetryModelInstaller const&) = delete;
+  TelemetryModelInstaller(TelemetryModelInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21044 };

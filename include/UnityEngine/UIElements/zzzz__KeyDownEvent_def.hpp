@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\KeyDownEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/KeyDownEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::UnityEngine::UIElements::KeyDownEvent*);
 MARK_REF_T(::UnityEngine::UIElements::KeyDownEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyDownEvent*, "UnityEngine.UIElements", "KeyDownEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyDownEvent___c*, "UnityEngine.UIElements", "KeyDownEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -55,13 +56,13 @@ protected:
   constexpr KeyDownEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyDownEvent___c(KeyDownEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyDownEvent___c(KeyDownEvent___c const&) = delete;
+  KeyDownEvent___c(KeyDownEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4479 };
@@ -101,13 +102,13 @@ protected:
   constexpr KeyDownEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyDownEvent(KeyDownEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyDownEvent(KeyDownEvent const&) = delete;
+  KeyDownEvent(KeyDownEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4480 };

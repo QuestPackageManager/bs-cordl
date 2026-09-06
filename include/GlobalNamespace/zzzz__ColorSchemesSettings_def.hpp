@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorSchemesSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorSchemesSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
   // @brief default ctor
   constexpr ColorSchemesSettings_ColorOverrideType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ColorSchemesSettings_ColorOverrideType(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(0)
@@ -104,6 +104,7 @@ static_assert(offsetof(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType
 static_assert(sizeof(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -139,13 +140,13 @@ protected:
   constexpr ColorSchemesSettings___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemesSettings___c(ColorSchemesSettings___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemesSettings___c(ColorSchemesSettings___c const&) = delete;
+  ColorSchemesSettings___c(ColorSchemesSettings___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15150 };
@@ -255,6 +256,7 @@ public:
   /// @brief Method .ctor, addr 0x37458b4, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
+  /// [CompilerGenerated]
   /// @brief Method get_colorOverrideType, addr 0x37458a4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType get_colorOverrideType();
 
@@ -264,6 +266,7 @@ public:
   /// @brief Method get_selectedColorSchemeId, addr 0x374589c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_selectedColorSchemeId();
 
+  /// [CompilerGenerated]
   /// @brief Method set_colorOverrideType, addr 0x37458ac, size 0x8, virtual false, abstract: false, final false
   inline void set_colorOverrideType(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType value);
 
@@ -279,17 +282,18 @@ protected:
   constexpr ColorSchemesSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemesSettings(ColorSchemesSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemesSettings(ColorSchemesSettings const&) = delete;
+  ColorSchemesSettings(ColorSchemesSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15151 };
 
+  /// [CompilerGenerated]
   /// @brief Field <colorOverrideType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType ____colorOverrideType_k__BackingField;
 

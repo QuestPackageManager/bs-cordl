@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUSort.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUSort.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,7 +105,7 @@ public:
   // @brief default ctor
   constexpr GPUSort_Stage();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GPUSort_Stage(int32_t value__) noexcept;
 
   /// @brief Field BigDisperse value: I32(3)
@@ -154,8 +154,8 @@ public:
   // @brief default ctor
   constexpr GPUSort_SupportResources();
 
-  // Ctor Parameters [CppParam { name: "sortBufferKeys", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }, CppParam { name: "sortBufferValues", ty:
-  // "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sortBufferKeys", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "sortBufferValues", ty:
+  // "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }]
   constexpr GPUSort_SupportResources(::UnityEngine::GraphicsBuffer* sortBufferKeys, ::UnityEngine::GraphicsBuffer* sortBufferValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -191,10 +191,10 @@ public:
   // @brief default ctor
   constexpr GPUSort_Args();
 
-  // Ctor Parameters [CppParam { name: "count", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxDepth", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "inputKeys", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }, CppParam { name: "inputValues", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None },
-  // CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUSort_SupportResources", modifiers: "", def_value: None }, CppParam { name: "workGroupCount", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "count", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxDepth", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "inputKeys", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputValues", ty: "::UnityEngine::GraphicsBuffer*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUSort_SupportResources", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "workGroupCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GPUSort_Args(uint32_t count, uint32_t maxDepth, ::UnityEngine::GraphicsBuffer* inputKeys, ::UnityEngine::GraphicsBuffer* inputValues,
                          ::UnityEngine::Rendering::GPUSort_SupportResources resources, int32_t workGroupCount) noexcept;
 
@@ -255,8 +255,8 @@ public:
   // @brief default ctor
   constexpr GPUSort_RenderGraphResources();
 
-  // Ctor Parameters [CppParam { name: "sortBufferKeys", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }, CppParam { name: "sortBufferValues", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sortBufferKeys", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "sortBufferValues", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }]
   constexpr GPUSort_RenderGraphResources(::UnityEngine::Rendering::RenderGraphModule::BufferHandle sortBufferKeys, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle sortBufferValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -292,7 +292,7 @@ public:
   // @brief default ctor
   constexpr GPUSort_SystemResources();
 
-  // Ctor Parameters [CppParam { name: "computeAsset", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "computeAsset", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None, comment: None }]
   constexpr GPUSort_SystemResources(::UnityW<::UnityEngine::ComputeShader> computeAsset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -348,8 +348,8 @@ public:
   // @brief default ctor
   constexpr GPUSort();
 
-  // Ctor Parameters [CppParam { name: "m_Keywords", ty: "::ArrayW<::UnityEngine::Rendering::LocalKeyword>", modifiers: "", def_value: None }, CppParam { name: "resources", ty:
-  // "::UnityEngine::Rendering::GPUSort_SystemResources", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Keywords", ty: "::ArrayW<::UnityEngine::Rendering::LocalKeyword>", modifiers: "", def_value: None, comment: None }, CppParam { name: "resources", ty:
+  // "::UnityEngine::Rendering::GPUSort_SystemResources", modifiers: "", def_value: None, comment: None }]
   constexpr GPUSort(::ArrayW<::UnityEngine::Rendering::LocalKeyword> m_Keywords, ::UnityEngine::Rendering::GPUSort_SystemResources resources) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

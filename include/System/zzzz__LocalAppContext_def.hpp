@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\LocalAppContext.hpp"
+// IWYU pragma private; include "System/LocalAppContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ MARK_REF_T(::System::LocalAppContext*);
 MARK_REF_T(::System::LocalAppContext___c*);
 DEFINE_IL2CPP_CLASS(::System::LocalAppContext*, "System", "LocalAppContext");
 DEFINE_IL2CPP_CLASS(::System::LocalAppContext___c*, "System", "LocalAppContext/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -63,13 +64,13 @@ protected:
   constexpr LocalAppContext___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalAppContext___c(LocalAppContext___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalAppContext___c(LocalAppContext___c const&) = delete;
+  LocalAppContext___c(LocalAppContext___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13725 };
@@ -125,13 +126,13 @@ protected:
   constexpr LocalAppContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalAppContext(LocalAppContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalAppContext(LocalAppContext const&) = delete;
+  LocalAppContext(LocalAppContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13726 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlAtomicValue.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlAtomicValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,9 +116,9 @@ public:
   // @brief default ctor
   constexpr XmlAtomicValue_Union();
 
-  // Ctor Parameters [CppParam { name: "boolVal", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dblVal", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "i64Val",
-  // ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "i32Val", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dtVal", ty: "::System::DateTime", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "boolVal", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "dblVal", ty: "double_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "i64Val", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "i32Val", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "dtVal", ty: "::System::DateTime", modifiers: "", def_value: None, comment: None }]
   constexpr XmlAtomicValue_Union(bool boolVal, double_t dblVal, int64_t i64Val, int32_t i32Val, ::System::DateTime dtVal) noexcept;
 
 private:
@@ -261,13 +261,13 @@ protected:
   constexpr XmlAtomicValue_NamespacePrefixForQName();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue_NamespacePrefixForQName", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue_NamespacePrefixForQName", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlAtomicValue_NamespacePrefixForQName(XmlAtomicValue_NamespacePrefixForQName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue_NamespacePrefixForQName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue_NamespacePrefixForQName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlAtomicValue_NamespacePrefixForQName(XmlAtomicValue_NamespacePrefixForQName const&) = delete;
+  XmlAtomicValue_NamespacePrefixForQName(XmlAtomicValue_NamespacePrefixForQNameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9737 };
@@ -458,13 +458,13 @@ protected:
   constexpr XmlAtomicValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlAtomicValue(XmlAtomicValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlAtomicValue(XmlAtomicValue const&) = delete;
+  XmlAtomicValue(XmlAtomicValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9738 };

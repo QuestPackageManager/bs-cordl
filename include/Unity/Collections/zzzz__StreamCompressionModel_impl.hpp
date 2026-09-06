@@ -1,29 +1,29 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\StreamCompressionModel.hpp"
+// IWYU pragma private; include "Unity/Collections/StreamCompressionModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/zzzz__SharedStatic_1_impl.hpp"
 #include "Unity/Collections/zzzz__StreamCompressionModel_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__StreamCompressionModel_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::StreamCompressionModel__bucketOffsets_e__FixedBuffer::StreamCompressionModel__bucketOffsets_e__FixedBuffer(uint32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::StreamCompressionModel__bucketOffsets_e__FixedBuffer::StreamCompressionModel__bucketOffsets_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer::StreamCompressionModel__bucketSizes_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer::StreamCompressionModel__bucketSizes_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer::StreamCompressionModel__decodeTable_e__FixedBuffer(uint16_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer::StreamCompressionModel__decodeTable_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer::StreamCompressionModel__encodeTable_e__FixedBuffer(uint16_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -282,11 +282,11 @@ inline void Unity::Collections::StreamCompressionModel::CheckExceedMaxCodeLength
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::StreamCompressionModel>(), { "CheckExceedMaxCodeLength", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, length, maxCodeLength);
 }
-// Ctor Parameters [CppParam { name: "m_Initialized", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "encodeTable", ty:
-// "::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "decodeTable", ty:
-// "::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "bucketSizes", ty:
-// "::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "bucketOffsets", ty:
-// "::Unity::Collections::StreamCompressionModel__bucketOffsets_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Initialized", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "encodeTable", ty:
+// "::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "decodeTable", ty:
+// "::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bucketSizes", ty:
+// "::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bucketOffsets", ty:
+// "::Unity::Collections::StreamCompressionModel__bucketOffsets_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::StreamCompressionModel::StreamCompressionModel(uint8_t m_Initialized, ::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer encodeTable,
                                                                                ::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer decodeTable,
                                                                                ::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer bucketSizes,

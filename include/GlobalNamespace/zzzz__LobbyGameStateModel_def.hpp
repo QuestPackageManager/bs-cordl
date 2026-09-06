@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LobbyGameStateModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/LobbyGameStateModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,18 +71,22 @@ public:
   /// @brief Method .ctor, addr 0x3737804, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_gameStateDidChangeAlwaysSentEvent, addr 0x37375e0, size 0xc0, virtual false, abstract: false, final false
   inline void add_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_gameStateDidChangeEvent, addr 0x3737460, size 0xc0, virtual false, abstract: false, final false
   inline void add_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
   /// @brief Method get_gameState, addr 0x3737458, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerGameState get_gameState();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_gameStateDidChangeAlwaysSentEvent, addr 0x37376a0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_gameStateDidChangeEvent, addr 0x3737520, size 0xc0, virtual false, abstract: false, final false
   inline void remove_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
@@ -92,20 +96,22 @@ protected:
   constexpr LobbyGameStateModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LobbyGameStateModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyGameStateModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LobbyGameStateModel(LobbyGameStateModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LobbyGameStateModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyGameStateModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyGameStateModel(LobbyGameStateModel const&) = delete;
+  LobbyGameStateModel(LobbyGameStateModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15102 };
 
+  /// [CompilerGenerated]
   /// @brief Field gameStateDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerGameState>* ___gameStateDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field gameStateDidChangeAlwaysSentEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerGameState>* ___gameStateDidChangeAlwaysSentEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\Ed25519PrivateKeyParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/Ed25519PrivateKeyParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,7 @@ public:
   inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm algorithm, ::ArrayW<uint8_t> ctx, ::ArrayW<uint8_t> msg, int32_t msgOff, int32_t msgLen, ::ArrayW<uint8_t> sig,
                    int32_t sigOff);
 
+  /// [Obsolete("Use overload that doesn\'t take a public key")]
   /// @brief Method Sign, addr 0x3411910, size 0x20, virtual false, abstract: false, final false
   inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm algorithm, ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey, ::ArrayW<uint8_t> ctx,
                    ::ArrayW<uint8_t> msg, int32_t msgOff, int32_t msgLen, ::ArrayW<uint8_t> sig, int32_t sigOff);
@@ -103,13 +104,13 @@ protected:
   constexpr Ed25519PrivateKeyParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519PrivateKeyParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519PrivateKeyParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed25519PrivateKeyParameters(Ed25519PrivateKeyParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519PrivateKeyParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519PrivateKeyParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519PrivateKeyParameters(Ed25519PrivateKeyParameters const&) = delete;
+  Ed25519PrivateKeyParameters(Ed25519PrivateKeyParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1041 };

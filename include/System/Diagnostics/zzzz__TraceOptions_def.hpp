@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\TraceOptions.hpp"
+// IWYU pragma private; include "System/Diagnostics/TraceOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TraceOptions;
 // Write type traits
 MARK_VAL_T(::System::Diagnostics::TraceOptions);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::TraceOptions, "System.Diagnostics", "TraceOptions");
+// [Flags]
 // Dependencies
 namespace System::Diagnostics {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr TraceOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TraceOptions(int32_t value__) noexcept;
 
   /// @brief Field Callstack value: I32(32)

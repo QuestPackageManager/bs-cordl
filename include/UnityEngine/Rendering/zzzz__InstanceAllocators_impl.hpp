@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceAllocators.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceAllocators.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceAllocator_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceAllocators_def.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceAllocator_def.hpp"
@@ -176,9 +176,9 @@ inline void UnityEngine::Rendering::InstanceAllocators::FreeSharedInstance(::Uni
                                                                                          { "FreeSharedInstance", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance);
 }
-// Ctor Parameters [CppParam { name: "m_InstanceAlloc_MeshRenderer", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_InstanceAlloc_SpeedTree", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SharedInstanceAlloc", ty:
-// "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_InstanceAlloc_MeshRenderer", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_InstanceAlloc_SpeedTree", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SharedInstanceAlloc", ty:
+// "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceAllocators::InstanceAllocators(::UnityEngine::Rendering::InstanceAllocator m_InstanceAlloc_MeshRenderer,
                                                                            ::UnityEngine::Rendering::InstanceAllocator m_InstanceAlloc_SpeedTree,
                                                                            ::UnityEngine::Rendering::InstanceAllocator m_SharedInstanceAlloc) noexcept {

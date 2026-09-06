@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Exceptions\UnknownResourceProviderException.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Exceptions/UnknownResourceProviderException.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ResourceManagerException_impl.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__UnknownResourceProviderException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

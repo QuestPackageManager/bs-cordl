@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioClipQueue.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioClipQueue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +67,13 @@ protected:
   constexpr AudioClipQueue_AudioClipWithDelay();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue_AudioClipWithDelay", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue_AudioClipWithDelay", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipQueue_AudioClipWithDelay(AudioClipQueue_AudioClipWithDelay&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue_AudioClipWithDelay", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue_AudioClipWithDelay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipQueue_AudioClipWithDelay(AudioClipQueue_AudioClipWithDelay const&) = delete;
+  AudioClipQueue_AudioClipWithDelay(AudioClipQueue_AudioClipWithDelayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5549 };
@@ -141,17 +141,18 @@ protected:
   constexpr AudioClipQueue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipQueue(AudioClipQueue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipQueue(AudioClipQueue const&) = delete;
+  AudioClipQueue(AudioClipQueueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5550 };
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 

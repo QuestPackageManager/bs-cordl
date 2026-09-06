@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CvarFloatCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/CvarFloatCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class CvarFloatCommand;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CvarFloatCommand*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CvarFloatCommand*, "", "CvarFloatCommand");
+// [UsedImplicitly]
 // Dependencies CvarCommand`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -31,13 +32,13 @@ protected:
   constexpr CvarFloatCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CvarFloatCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CvarFloatCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CvarFloatCommand(CvarFloatCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CvarFloatCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CvarFloatCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CvarFloatCommand(CvarFloatCommand const&) = delete;
+  CvarFloatCommand(CvarFloatCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19379 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ReadOnlySpan_1.hpp"
+// IWYU pragma private; include "System/ReadOnlySpan_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,13 @@ template <typename T> struct ReadOnlySpan_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::ReadOnlySpan_1);
 DEFINE_IL2CPP_GEN_CLASS(::System::ReadOnlySpan_1, "System", "ReadOnlySpan`1");
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
+// [IsReadOnly]
+// [DefaultMember("Item")]
+// [NonVersionable]
+// [DebuggerTypeProxy(typeof(System.SpanDebugView`1<T>))]
+// [DebuggerDisplay("{ToString(),raw}")]
 // Dependencies System.ByReference`1<T>
 namespace System {
 // cpp template
@@ -33,6 +40,7 @@ public:
   // Declarations
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
+  /// @brief [IsReadOnly]
   __declspec(property(get = get_Item)) T Item[];
 
   __declspec(property(get = get_Length)) int32_t Length;
@@ -40,9 +48,11 @@ public:
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyTo(::System::Span_1<T> destination);
 
+  /// [Obsolete("Equals() on ReadOnlySpan will always throw an exception. Use == instead.")]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [Obsolete("GetHashCode() on ReadOnlySpan will always throw an exception.")]
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -70,6 +80,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T> array, int32_t start, int32_t length);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(void* pointer, int32_t length);
 
@@ -79,12 +90,16 @@ public:
   /// @brief Method get_Empty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<T> get_Empty();
 
+  /// [NonVersionable]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
+  /// [NonVersionable]
+  /// [Intrinsic]
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::by_ref<T> get_Item(int32_t index);
 
+  /// [NonVersionable]
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
@@ -98,7 +113,8 @@ public:
   // @brief default ctor
   constexpr ReadOnlySpan_1();
 
-  // Ctor Parameters [CppParam { name: "_pointer", ty: "::System::ByReference_1<T>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_pointer", ty: "::System::ByReference_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ReadOnlySpan_1(::System::ByReference_1<T> _pointer, int32_t _length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

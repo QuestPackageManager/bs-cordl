@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\SendBufferedHapticCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/SendBufferedHapticCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand__b
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand, "UnityEngine.InputSystem.XR.Haptics", "SendBufferedHapticCommand");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand__buffer_e__FixedBuffer, "UnityEngine.InputSystem.XR.Haptics",
                     "SendBufferedHapticCommand/<buffer>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
@@ -42,7 +44,7 @@ public:
   // @brief default ctor
   constexpr SendBufferedHapticCommand__buffer_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr SendBufferedHapticCommand__buffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -133,9 +135,9 @@ public:
   // @brief default ctor
   constexpr SendBufferedHapticCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "channel", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "buffer", ty:
-  // "::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand__buffer_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name: "channel", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty:
+  // "::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand__buffer_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr SendBufferedHapticCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, int32_t channel, int32_t bufferSize,
                                       ::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand__buffer_e__FixedBuffer buffer) noexcept;
 
@@ -188,6 +190,7 @@ private:
     struct {
       /// @brief Padding field 0x10
       uint8_t ___buffer_padding[0x10];
+      /// [FixedBuffer(typeof(System.Byte), 1024)]
       /// @brief Field buffer, offset: 0x10, size: 0x400, def value: None
       ::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand__buffer_e__FixedBuffer ___buffer;
     };
@@ -195,6 +198,7 @@ private:
     struct {
       /// @brief Padding field 0x10 for alignment
       uint8_t ___buffer_padding_forAlignment[0x10];
+      /// [FixedBuffer(typeof(System.Byte), 1024)]
       /// @brief Field buffer, offset: 0x10, size: 0x400, def value: None
       ::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand__buffer_e__FixedBuffer ___buffer_forAlignment;
     };

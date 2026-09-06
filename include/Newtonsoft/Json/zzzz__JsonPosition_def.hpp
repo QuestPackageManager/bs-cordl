@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonPosition.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonPosition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,9 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -34,6 +36,8 @@ struct JsonPosition;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::JsonPosition);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonPosition, "Newtonsoft.Json", "JsonPosition");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonContainerType
 namespace Newtonsoft::Json {
 // Is value type: true
@@ -51,13 +55,14 @@ public:
   inline int32_t CalculateLength();
 
   /// @brief Method FormatMessage, addr 0x5cd7170, size 0x328, virtual false, abstract: false, final false
-  static inline ::StringW FormatMessage(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
+  static inline ::StringW FormatMessage(/* [Nullable(2)] */ ::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
   /// @brief Method TypeHasIndex, addr 0x5cd7740, size 0x10, virtual false, abstract: false, final false
   static inline bool TypeHasIndex(::Newtonsoft::Json::JsonContainerType type);
 
+  /// [NullableContext(2)]
   /// @brief Method WriteTo, addr 0x5cd77e4, size 0x230, virtual false, abstract: false, final false
-  inline void WriteTo(::System::Text::StringBuilder* sb, ::by_ref<::System::IO::StringWriter*> writer, ::by_ref<::ArrayW<char16_t>> buffer);
+  inline void WriteTo(/* [Nullable(1)] */ ::System::Text::StringBuilder* sb, ::by_ref<::System::IO::StringWriter*> writer, ::by_ref<::ArrayW<char16_t>> buffer);
 
   /// @brief Method .ctor, addr 0x5cd76c0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonContainerType type);
@@ -70,8 +75,9 @@ public:
   // @brief default ctor
   constexpr JsonPosition();
 
-  // Ctor Parameters [CppParam { name: "Type", ty: "::Newtonsoft::Json::JsonContainerType", modifiers: "", def_value: None }, CppParam { name: "Position", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "PropertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "HasIndex", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Type", ty: "::Newtonsoft::Json::JsonContainerType", modifiers: "", def_value: None, comment: None }, CppParam { name: "Position", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "PropertyName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "HasIndex", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr JsonPosition(::Newtonsoft::Json::JsonContainerType Type, int32_t Position, ::StringW PropertyName, bool HasIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -86,6 +92,7 @@ public:
   /// @brief Field Position, offset: 0x4, size: 0x4, def value: None
   int32_t Position;
 
+  /// [Nullable(2)]
   /// @brief Field PropertyName, offset: 0x8, size: 0x8, def value: None
   ::StringW PropertyName;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SceneIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/SceneIdAttribute.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSceneIdFilter_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneIdAttribute_def.hpp"

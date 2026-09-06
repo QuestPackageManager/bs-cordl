@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ScrollViewState.hpp"
+// IWYU pragma private; include "UnityEngine/ScrollViewState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScrollViewState_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ScrollViewState._ctor
@@ -18,6 +18,7 @@ inline void UnityEngine::ScrollViewState::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ScrollViewState*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::ScrollViewState* UnityEngine::ScrollViewState::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ScrollViewState*>());
 }

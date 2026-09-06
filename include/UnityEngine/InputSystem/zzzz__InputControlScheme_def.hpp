@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputControlScheme.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputControlScheme.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -29,7 +30,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -41,7 +44,9 @@ namespace UnityEngine::InputSystem {
 struct DeviceRequirement_InputControlScheme_Flags;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputControlScheme_DeviceRequirement;
@@ -147,7 +152,7 @@ public:
   // @brief default ctor
   constexpr MatchResult_InputControlScheme_Result();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MatchResult_InputControlScheme_Result(int32_t value__) noexcept;
 
   /// @brief Field AllSatisfied value: I32(0)
@@ -176,6 +181,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::MatchResult_InputControlSchem
 static_assert(sizeof(::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -206,7 +212,7 @@ public:
   // @brief default ctor
   constexpr DeviceRequirement_InputControlScheme_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DeviceRequirement_InputControlScheme_Flags(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -304,8 +310,8 @@ public:
   // @brief default ctor
   constexpr InputControlScheme_DeviceRequirement();
 
-  // Ctor Parameters [CppParam { name: "m_ControlPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty:
-  // "::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ControlPath", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Flags", ty:
+  // "::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags", modifiers: "", def_value: None, comment: None }]
   constexpr InputControlScheme_DeviceRequirement(::StringW m_ControlPath, ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags m_Flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -314,9 +320,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field m_ControlPath, offset: 0x0, size: 0x8, def value: None
   ::StringW m_ControlPath;
 
+  /// [SerializeField]
   /// @brief Field m_Flags, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags m_Flags;
 
@@ -366,9 +374,9 @@ public:
   // @brief default ctor
   constexpr MatchResult_InputControlScheme_Match();
 
-  // Ctor Parameters [CppParam { name: "m_RequirementIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Requirements", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: None }, CppParam { name: "m_Controls", ty:
-  // "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_RequirementIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Requirements", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Controls", ty:
+  // "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: None, comment: None }]
   constexpr MatchResult_InputControlScheme_Match(int32_t m_RequirementIndex, ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement> m_Requirements,
                                                  ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> m_Controls) noexcept;
 
@@ -448,9 +456,9 @@ public:
   // @brief default ctor
   constexpr MatchResult_InputControlScheme_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Requirements", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: None }, CppParam { name: "m_Controls", ty:
-  // "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Requirements", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Controls", ty:
+  // "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: None, comment: None }]
   constexpr MatchResult_InputControlScheme_Enumerator(int32_t m_Index, ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement> m_Requirements,
                                                       ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> m_Controls) noexcept;
 
@@ -481,6 +489,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::MatchResult_InputControlSchem
 static_assert(sizeof(::UnityEngine::InputSystem::MatchResult_InputControlScheme_Enumerator) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [DefaultMember("Item")]
 // Dependencies UnityEngine.InputSystem.InputControlList`1<TControl>, UnityEngine.InputSystem.InputControlScheme::DeviceRequirement, UnityEngine.InputSystem.InputControlScheme::MatchResult::Result
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -556,10 +565,11 @@ public:
   // @brief default ctor
   constexpr InputControlScheme_MatchResult();
 
-  // Ctor Parameters [CppParam { name: "m_Result", ty: "::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result", modifiers: "", def_value: None }, CppParam { name: "m_Score", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Devices", ty: "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: None },
-  // CppParam { name: "m_Controls", ty: "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Requirements", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Result", ty: "::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Score",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Devices", ty: "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Controls", ty: "::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Requirements", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr InputControlScheme_MatchResult(::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result m_Result, float_t m_Score,
                                            ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*> m_Devices,
                                            ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> m_Controls,
@@ -619,8 +629,8 @@ public:
   // @brief default ctor
   constexpr SchemeJson_InputControlScheme_DeviceJson();
 
-  // Ctor Parameters [CppParam { name: "devicePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isOptional", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "isOR", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "devicePath", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "isOptional", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "isOR", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr SchemeJson_InputControlScheme_DeviceJson(::StringW devicePath, bool isOptional, bool isOR) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -675,8 +685,8 @@ public:
   // @brief default ctor
   constexpr InputControlScheme_SchemeJson();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "bindingGroup", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "devices", ty: "::ArrayW<::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindingGroup", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "devices", ty: "::ArrayW<::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson>", modifiers: "", def_value: None, comment: None }]
   constexpr InputControlScheme_SchemeJson(::StringW name, ::StringW bindingGroup, ::ArrayW<::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson> devices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -706,7 +716,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputControlScheme_SchemeJson
 static_assert(sizeof(::UnityEngine::InputSystem::InputControlScheme_SchemeJson) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Dependencies UnityEngine.InputSystem.InputControlScheme::DeviceRequirement
+// Dependencies System.Collections.Generic.IReadOnlyList`1<T>, UnityEngine.InputSystem.InputControlScheme::DeviceRequirement
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.InputControlScheme
@@ -740,11 +750,13 @@ public:
 
   /// @brief Method FindControlSchemeForDevices, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevices, typename TSchemes>
+    requires(::cordl_internals::type_constraint<TDevices, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::InputDevice*>*>)
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme>
   FindControlSchemeForDevices(TDevices devices, TSchemes schemes, ::UnityEngine::InputSystem::InputDevice* mustIncludeDevice, bool allowUnsuccesfulMatch);
 
   /// @brief Method FindControlSchemeForDevices, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevices, typename TSchemes>
+    requires(::cordl_internals::type_constraint<TDevices, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::InputDevice*>*>)
   static inline bool FindControlSchemeForDevices(TDevices devices, TSchemes schemes, ::by_ref<::UnityEngine::InputSystem::InputControlScheme> controlScheme,
                                                  ::by_ref<::UnityEngine::InputSystem::InputControlScheme_MatchResult> matchResult, ::UnityEngine::InputSystem::InputDevice* mustIncludeDevice,
                                                  bool allowUnsuccessfulMatch);
@@ -753,7 +765,9 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method PickDevicesFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevices> inline ::UnityEngine::InputSystem::InputControlScheme_MatchResult PickDevicesFrom(TDevices devices, ::UnityEngine::InputSystem::InputDevice* favorDevice);
+  template <typename TDevices>
+    requires(::cordl_internals::type_constraint<TDevices, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::InputSystem::InputDevice*>*>)
+  inline ::UnityEngine::InputSystem::InputControlScheme_MatchResult PickDevicesFrom(TDevices devices, ::UnityEngine::InputSystem::InputDevice* favorDevice);
 
   /// @brief Method SetNameAndBindingGroup, addr 0x650f9ac, size 0xc4, virtual false, abstract: false, final false
   inline void SetNameAndBindingGroup(::StringW name, ::StringW bindingGroup);
@@ -792,8 +806,8 @@ public:
   // @brief default ctor
   constexpr InputControlScheme();
 
-  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_BindingGroup", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "m_DeviceRequirements", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BindingGroup", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_DeviceRequirements", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>", modifiers: "", def_value: None, comment: None }]
   constexpr InputControlScheme(::StringW m_Name, ::StringW m_BindingGroup, ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement> m_DeviceRequirements) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -802,12 +816,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Name;
 
+  /// [SerializeField]
   /// @brief Field m_BindingGroup, offset: 0x8, size: 0x8, def value: None
   ::StringW m_BindingGroup;
 
+  /// [SerializeField]
   /// @brief Field m_DeviceRequirements, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement> m_DeviceRequirements;
 

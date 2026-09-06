@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Pool\ObjectPool_1.hpp"
+// IWYU pragma private; include "UnityEngine/Pool/ObjectPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,17 +19,23 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::Pool {
-template <typename T> class IObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class IObjectPool_1;
 }
 namespace UnityEngine::Pool {
 class IPool;
 }
 namespace UnityEngine::Pool {
-template <typename T> struct PooledObject_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct PooledObject_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Pool::ObjectPool_1);
@@ -38,6 +44,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Pool::ObjectPool_1, "UnityEngine.Pool
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.ObjectPool`1<T>
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
@@ -159,6 +166,7 @@ public:
   inline void _ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* actionOnGet, ::System::Action_1<T>* actionOnRelease, ::System::Action_1<T>* actionOnDestroy, bool collectionCheck,
                     int32_t defaultCapacity, int32_t maxSize);
 
+  /// [CompilerGenerated]
   /// @brief Method get_CountAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_CountAll();
 
@@ -174,6 +182,7 @@ public:
   /// @brief Convert to "::UnityEngine::Pool::IPool"
   constexpr ::UnityEngine::Pool::IPool* i___UnityEngine__Pool__IPool() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_CountAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_CountAll(int32_t value);
 
@@ -183,13 +192,13 @@ protected:
   constexpr ObjectPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectPool_1(ObjectPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectPool_1(ObjectPool_1 const&) = delete;
+  ObjectPool_1(ObjectPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10645 };
@@ -218,6 +227,8 @@ public:
   /// @brief Field m_FreshlyReleased, offset: 0x40, size: 0x8, def value: None
   T ___m_FreshlyReleased;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <CountAll>k__BackingField, offset: 0x48, size: 0x4, def value: None
   int32_t ____CountAll_k__BackingField;
 

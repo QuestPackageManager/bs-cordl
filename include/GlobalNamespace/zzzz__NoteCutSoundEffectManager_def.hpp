@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutSoundEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutSoundEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,13 +103,13 @@ protected:
   constexpr NoteCutSoundEffectManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutSoundEffectManager_InitData(NoteCutSoundEffectManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutSoundEffectManager_InitData(NoteCutSoundEffectManager_InitData const&) = delete;
+  NoteCutSoundEffectManager_InitData(NoteCutSoundEffectManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5574 };
@@ -219,7 +219,7 @@ public:
   inline void HandleNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
   /// @brief Method HandleNoteWasCut, addr 0x58b9588, size 0x170, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method HandleNoteWasSpawned, addr 0x58b8fd4, size 0x584, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
@@ -361,12 +361,14 @@ public:
   /// @brief Method .ctor, addr 0x58b9948, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_handleWrongSaberTypeAsGood, addr 0x58b8ad4, size 0x8, virtual false, abstract: false, final false
   inline bool get_handleWrongSaberTypeAsGood();
 
   /// @brief Convert to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
   constexpr ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent* i___GlobalNamespace__INoteCutSoundEffectDidFinishEvent() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_handleWrongSaberTypeAsGood, addr 0x58b8adc, size 0x8, virtual false, abstract: false, final false
   inline void set_handleWrongSaberTypeAsGood(bool value);
 
@@ -376,13 +378,13 @@ protected:
   constexpr NoteCutSoundEffectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutSoundEffectManager(NoteCutSoundEffectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutSoundEffectManager(NoteCutSoundEffectManager const&) = delete;
+  NoteCutSoundEffectManager(NoteCutSoundEffectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5575 };
@@ -396,36 +398,48 @@ public:
   /// @brief Field kTwoNotesAtTheSameTimeVolumeMul offset 0xffffffff size 0x4
   static constexpr float_t kTwoNotesAtTheSameTimeVolumeMul{ static_cast<float_t>(0.9f) };
 
+  /// [SerializeField]
   /// @brief Field _audioSamplesBeatAlignOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____audioSamplesBeatAlignOffset;
 
+  /// [SerializeField]
   /// @brief Field _longCutEffectsAudioClips, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____longCutEffectsAudioClips;
 
+  /// [SerializeField]
   /// @brief Field _shortCutEffectsAudioClips, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____shortCutEffectsAudioClips;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _testAudioClip, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____testAudioClip;
 
+  /// [InjectOptional]
   /// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::NoteCutSoundEffectManager_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _audioManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::AudioManager* ____audioManager;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _noteCutSoundEffectPool, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::NoteCutSoundEffect_Pool* ____noteCutSoundEffectPool;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [CompilerGenerated]
   /// @brief Field <handleWrongSaberTypeAsGood>k__BackingField, offset: 0x70, size: 0x1, def value: None
   bool ____handleWrongSaberTypeAsGood_k__BackingField;
 

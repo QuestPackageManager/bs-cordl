@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Object.hpp"
+// IWYU pragma private; include "UnityEngine/Object.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -19,40 +19,6 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::UnityEngine::Object_MarshalledUnityObject.TryThrowEditorNullExceptionObject
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::UnityEngine::Object_MarshalledUnityObject::TryThrowEditorNullExceptionObject)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6aeb340;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object_MarshalledUnityObject*>(),
-                                                             { "TryThrowEditorNullExceptionObject", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::StringW>() } })));
-    return ___internal_method;
-  }
-};
-template <typename T> inline ::System::IntPtr UnityEngine::Object_MarshalledUnityObject::Marshal(T obj) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object_MarshalledUnityObject*>(), { "Marshal", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, obj);
-}
-template <typename T> inline ::System::IntPtr UnityEngine::Object_MarshalledUnityObject::MarshalNotNull(T obj) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object_MarshalledUnityObject*>(), { "MarshalNotNull", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, obj);
-}
-inline void UnityEngine::Object_MarshalledUnityObject::TryThrowEditorNullExceptionObject(::UnityEngine::Object* unityObj, ::StringW paramterName) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object_MarshalledUnityObject*>(),
-                                                           { "TryThrowEditorNullExceptionObject", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, unityObj, paramterName);
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Object_MarshalledUnityObject::Object_MarshalledUnityObject() {}
 //  Writing Method size for method: ::UnityEngine::Object.GetInstanceID
 template <>
 
@@ -1213,7 +1179,7 @@ inline bool UnityEngine::Object::Equals(::System::Object* other) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Object*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, other);
 }
-inline bool UnityEngine::Object::op_Implicit_bool(::UnityEngine::Object* exists) {
+inline bool UnityEngine::Object::op_Implicit_bool(/* [MaybeNullWhen(false)] [NotNullWhen(true)] */ ::UnityEngine::Object* exists) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, exists);
@@ -1514,7 +1480,7 @@ template <typename T> inline T UnityEngine::Object::Instantiate(T original, ::Un
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, original, parent, worldPositionStays);
 }
-inline void UnityEngine::Object::Destroy(::UnityEngine::Object* obj, float_t t) {
+inline void UnityEngine::Object::Destroy(::UnityEngine::Object* obj, /* [DefaultValue("0.0F")] */ float_t t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "Destroy", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj, t);
@@ -1523,7 +1489,7 @@ inline void UnityEngine::Object::Destroy(::UnityEngine::Object* obj) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "Destroy", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj);
 }
-inline void UnityEngine::Object::DestroyImmediate(::UnityEngine::Object* obj, bool allowDestroyingAssets) {
+inline void UnityEngine::Object::DestroyImmediate(::UnityEngine::Object* obj, /* [DefaultValue("false")] */ bool allowDestroyingAssets) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "DestroyImmediate", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj, allowDestroyingAssets);
@@ -1558,7 +1524,7 @@ inline ::ArrayW<::UnityW<::UnityEngine::Object>> UnityEngine::Object::FindObject
           { "FindObjectsByType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::UnityEngine::FindObjectsInactive>(), ::i2c::type_of<::UnityEngine::FindObjectsSortMode>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>>>(nullptr, ___internal_method, type, findObjectsInactive, sortMode);
 }
-inline void UnityEngine::Object::DontDestroyOnLoad(::UnityEngine::Object* target) {
+inline void UnityEngine::Object::DontDestroyOnLoad(/* [NotNull] */ ::UnityEngine::Object* target) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "DontDestroyOnLoad", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, target);
@@ -1572,7 +1538,7 @@ inline void UnityEngine::Object::set_hideFlags(::UnityEngine::HideFlags value) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "set_hideFlags", {}, { ::i2c::type_of<::UnityEngine::HideFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::Object::DestroyObject(::UnityEngine::Object* obj, float_t t) {
+inline void UnityEngine::Object::DestroyObject(::UnityEngine::Object* obj, /* [DefaultValue("0.0F")] */ float_t t) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "DestroyObject", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj, t);
@@ -1718,25 +1684,25 @@ inline bool UnityEngine::Object::CurrentThreadIsMainThread() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "CurrentThreadIsMainThread", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingle(::UnityEngine::Object* data) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingle(/* [NotNull] */ ::UnityEngine::Object* data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "Internal_CloneSingle", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, data);
 }
-inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingleWithScene(::UnityEngine::Object* data, ::UnityEngine::SceneManagement::Scene scene) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingleWithScene(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::SceneManagement::Scene scene) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(),
                                               { "Internal_CloneSingleWithScene", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::UnityEngine::SceneManagement::Scene>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, data, scene);
 }
-inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingleWithParams(::UnityEngine::Object* data, ::UnityEngine::InstantiateParameters parameters) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingleWithParams(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::InstantiateParameters parameters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(),
                                               { "Internal_CloneSingleWithParams", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::UnityEngine::InstantiateParameters>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, data, parameters);
 }
-inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingleWithParams(::UnityEngine::Object* data, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
-                                                                                                 ::UnityEngine::InstantiateParameters parameters) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingleWithParams(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::Vector3 position,
+                                                                                                 ::UnityEngine::Quaternion rotation, ::UnityEngine::InstantiateParameters parameters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "Internal_InstantiateSingleWithParams",
                                                                                            {},
@@ -1744,14 +1710,15 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_Instantiate
                                                                                              ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::InstantiateParameters>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, data, position, rotation, parameters);
 }
-inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, bool worldPositionStays) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingleWithParent(/* [NotNull] */ ::UnityEngine::Object* data, /* [NotNull] */ ::UnityEngine::Transform* parent,
+                                                                                           bool worldPositionStays) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(),
                                        { "Internal_CloneSingleWithParent", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, data, parent, worldPositionStays);
 }
-inline ::System::IntPtr UnityEngine::Object::Internal_InstantiateAsyncWithParams(::UnityEngine::Object* original, int32_t count, ::UnityEngine::InstantiateParameters parameters,
+inline ::System::IntPtr UnityEngine::Object::Internal_InstantiateAsyncWithParams(/* [NotNull] */ ::UnityEngine::Object* original, int32_t count, ::UnityEngine::InstantiateParameters parameters,
                                                                                  ::System::IntPtr positions, int32_t positionsCount, ::System::IntPtr rotations, int32_t rotationsCount,
                                                                                  bool hasManagedCancellationToken) {
   static auto* ___internal_method =
@@ -1764,15 +1731,15 @@ inline ::System::IntPtr UnityEngine::Object::Internal_InstantiateAsyncWithParams
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, original, count, parameters, positions, positionsCount, rotations, rotationsCount,
                                                                hasManagedCancellationToken);
 }
-inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingle(::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingle(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(),
                           { "Internal_InstantiateSingle", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Quaternion>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, data, pos, rot);
 }
-inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 pos,
-                                                                                                 ::UnityEngine::Quaternion rot) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingleWithParent(/* [NotNull] */ ::UnityEngine::Object* data, /* [NotNull] */ ::UnityEngine::Transform* parent,
+                                                                                                 ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "Internal_InstantiateSingleWithParent",
                                                                                                         {},
@@ -1788,7 +1755,7 @@ inline ::StringW UnityEngine::Object::GetName() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "GetName", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline bool UnityEngine::Object::IsPersistent(::UnityEngine::Object* obj) {
+inline bool UnityEngine::Object::IsPersistent(/* [NotNull] */ ::UnityEngine::Object* obj) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "IsPersistent", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, obj);
@@ -1825,12 +1792,12 @@ inline void UnityEngine::Object::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Object::Destroy_Injected(::System::IntPtr obj, float_t t) {
+inline void UnityEngine::Object::Destroy_Injected(::System::IntPtr obj, /* [DefaultValue("0.0F")] */ float_t t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "Destroy_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj, t);
 }
-inline void UnityEngine::Object::DestroyImmediate_Injected(::System::IntPtr obj, bool allowDestroyingAssets) {
+inline void UnityEngine::Object::DestroyImmediate_Injected(::System::IntPtr obj, /* [DefaultValue("false")] */ bool allowDestroyingAssets) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object*>(), { "DestroyImmediate_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj, allowDestroyingAssets);
@@ -1960,3 +1927,41 @@ inline ::UnityEngine::Object* UnityEngine::Object::New_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Object::Object() {}
+//  Writing Method size for method: ::UnityEngine::Object_MarshalledUnityObject.TryThrowEditorNullExceptionObject
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::UnityEngine::Object_MarshalledUnityObject::TryThrowEditorNullExceptionObject)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6aeb340;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object_MarshalledUnityObject*>(),
+                                                             { "TryThrowEditorNullExceptionObject", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline ::System::IntPtr UnityEngine::Object_MarshalledUnityObject::Marshal(T obj) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object_MarshalledUnityObject*>(), { "Marshal", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, obj);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline ::System::IntPtr UnityEngine::Object_MarshalledUnityObject::MarshalNotNull(T obj) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object_MarshalledUnityObject*>(), { "MarshalNotNull", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, obj);
+}
+inline void UnityEngine::Object_MarshalledUnityObject::TryThrowEditorNullExceptionObject(::UnityEngine::Object* unityObj, ::StringW paramterName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Object_MarshalledUnityObject*>(),
+                                                           { "TryThrowEditorNullExceptionObject", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, unityObj, paramterName);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Object_MarshalledUnityObject::Object_MarshalledUnityObject() {}

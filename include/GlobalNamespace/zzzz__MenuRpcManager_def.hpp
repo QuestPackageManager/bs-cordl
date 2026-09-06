@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MenuRpcManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MenuRpcManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -175,7 +175,11 @@ namespace GlobalNamespace {
 class PlayersMissingEntitlementsNetSerializable;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer> class RpcHandler_3;
+template <typename TMessageType, typename TType, typename TConnectedPlayer>
+  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
+           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
+           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
+class RpcHandler_3;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
@@ -474,7 +478,7 @@ public:
   // @brief default ctor
   constexpr MenuRpcManager_RpcType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr MenuRpcManager_RpcType(uint8_t value__) noexcept;
 
   /// @brief Field CancelCountdown value: U8(30)
@@ -632,13 +636,13 @@ protected:
   constexpr MenuRpcManager_GetPlayersPermissionConfigurationRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetPlayersPermissionConfigurationRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetPlayersPermissionConfigurationRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetPlayersPermissionConfigurationRpc(MenuRpcManager_GetPlayersPermissionConfigurationRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetPlayersPermissionConfigurationRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetPlayersPermissionConfigurationRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetPlayersPermissionConfigurationRpc(MenuRpcManager_GetPlayersPermissionConfigurationRpc const&) = delete;
+  MenuRpcManager_GetPlayersPermissionConfigurationRpc(MenuRpcManager_GetPlayersPermissionConfigurationRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18910 };
@@ -667,13 +671,13 @@ protected:
   constexpr MenuRpcManager_SetPlayersPermissionConfigurationRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersPermissionConfigurationRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersPermissionConfigurationRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetPlayersPermissionConfigurationRpc(MenuRpcManager_SetPlayersPermissionConfigurationRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersPermissionConfigurationRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersPermissionConfigurationRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetPlayersPermissionConfigurationRpc(MenuRpcManager_SetPlayersPermissionConfigurationRpc const&) = delete;
+  MenuRpcManager_SetPlayersPermissionConfigurationRpc(MenuRpcManager_SetPlayersPermissionConfigurationRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18911 };
@@ -702,13 +706,13 @@ protected:
   constexpr MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc(MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc(MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc const&) = delete;
+  MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc(MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18912 };
@@ -737,13 +741,13 @@ protected:
   constexpr MenuRpcManager_GetIsEntitledToLevelRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsEntitledToLevelRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsEntitledToLevelRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetIsEntitledToLevelRpc(MenuRpcManager_GetIsEntitledToLevelRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsEntitledToLevelRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsEntitledToLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetIsEntitledToLevelRpc(MenuRpcManager_GetIsEntitledToLevelRpc const&) = delete;
+  MenuRpcManager_GetIsEntitledToLevelRpc(MenuRpcManager_GetIsEntitledToLevelRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18913 };
@@ -772,13 +776,13 @@ protected:
   constexpr MenuRpcManager_SetIsEntitledToLevelRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsEntitledToLevelRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsEntitledToLevelRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetIsEntitledToLevelRpc(MenuRpcManager_SetIsEntitledToLevelRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsEntitledToLevelRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsEntitledToLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetIsEntitledToLevelRpc(MenuRpcManager_SetIsEntitledToLevelRpc const&) = delete;
+  MenuRpcManager_SetIsEntitledToLevelRpc(MenuRpcManager_SetIsEntitledToLevelRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18914 };
@@ -807,13 +811,13 @@ protected:
   constexpr MenuRpcManager_InvalidateLevelEntitlementStatusesRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_InvalidateLevelEntitlementStatusesRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_InvalidateLevelEntitlementStatusesRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_InvalidateLevelEntitlementStatusesRpc(MenuRpcManager_InvalidateLevelEntitlementStatusesRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_InvalidateLevelEntitlementStatusesRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_InvalidateLevelEntitlementStatusesRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_InvalidateLevelEntitlementStatusesRpc(MenuRpcManager_InvalidateLevelEntitlementStatusesRpc const&) = delete;
+  MenuRpcManager_InvalidateLevelEntitlementStatusesRpc(MenuRpcManager_InvalidateLevelEntitlementStatusesRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18915 };
@@ -842,13 +846,13 @@ protected:
   constexpr MenuRpcManager_SelectLevelPackRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SelectLevelPackRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SelectLevelPackRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SelectLevelPackRpc(MenuRpcManager_SelectLevelPackRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SelectLevelPackRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SelectLevelPackRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SelectLevelPackRpc(MenuRpcManager_SelectLevelPackRpc const&) = delete;
+  MenuRpcManager_SelectLevelPackRpc(MenuRpcManager_SelectLevelPackRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18916 };
@@ -877,13 +881,13 @@ protected:
   constexpr MenuRpcManager_SetSelectedBeatmapRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedBeatmapRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedBeatmapRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetSelectedBeatmapRpc(MenuRpcManager_SetSelectedBeatmapRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedBeatmapRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetSelectedBeatmapRpc(MenuRpcManager_SetSelectedBeatmapRpc const&) = delete;
+  MenuRpcManager_SetSelectedBeatmapRpc(MenuRpcManager_SetSelectedBeatmapRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18917 };
@@ -912,13 +916,13 @@ protected:
   constexpr MenuRpcManager_ClearSelectedBeatmapRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedBeatmapRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedBeatmapRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_ClearSelectedBeatmapRpc(MenuRpcManager_ClearSelectedBeatmapRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedBeatmapRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_ClearSelectedBeatmapRpc(MenuRpcManager_ClearSelectedBeatmapRpc const&) = delete;
+  MenuRpcManager_ClearSelectedBeatmapRpc(MenuRpcManager_ClearSelectedBeatmapRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18918 };
@@ -947,13 +951,13 @@ protected:
   constexpr MenuRpcManager_GetSelectedBeatmapRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedBeatmapRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedBeatmapRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetSelectedBeatmapRpc(MenuRpcManager_GetSelectedBeatmapRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedBeatmapRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetSelectedBeatmapRpc(MenuRpcManager_GetSelectedBeatmapRpc const&) = delete;
+  MenuRpcManager_GetSelectedBeatmapRpc(MenuRpcManager_GetSelectedBeatmapRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18919 };
@@ -982,13 +986,13 @@ protected:
   constexpr MenuRpcManager_RecommendBeatmapRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendBeatmapRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendBeatmapRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_RecommendBeatmapRpc(MenuRpcManager_RecommendBeatmapRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendBeatmapRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_RecommendBeatmapRpc(MenuRpcManager_RecommendBeatmapRpc const&) = delete;
+  MenuRpcManager_RecommendBeatmapRpc(MenuRpcManager_RecommendBeatmapRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18920 };
@@ -1017,13 +1021,13 @@ protected:
   constexpr MenuRpcManager_ClearRecommendedBeatmapRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedBeatmapRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedBeatmapRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_ClearRecommendedBeatmapRpc(MenuRpcManager_ClearRecommendedBeatmapRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedBeatmapRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_ClearRecommendedBeatmapRpc(MenuRpcManager_ClearRecommendedBeatmapRpc const&) = delete;
+  MenuRpcManager_ClearRecommendedBeatmapRpc(MenuRpcManager_ClearRecommendedBeatmapRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18921 };
@@ -1052,13 +1056,13 @@ protected:
   constexpr MenuRpcManager_GetRecommendedBeatmapRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedBeatmapRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedBeatmapRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetRecommendedBeatmapRpc(MenuRpcManager_GetRecommendedBeatmapRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedBeatmapRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetRecommendedBeatmapRpc(MenuRpcManager_GetRecommendedBeatmapRpc const&) = delete;
+  MenuRpcManager_GetRecommendedBeatmapRpc(MenuRpcManager_GetRecommendedBeatmapRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18922 };
@@ -1087,13 +1091,13 @@ protected:
   constexpr MenuRpcManager_SetSelectedGameplayModifiersRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedGameplayModifiersRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetSelectedGameplayModifiersRpc(MenuRpcManager_SetSelectedGameplayModifiersRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedGameplayModifiersRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetSelectedGameplayModifiersRpc(MenuRpcManager_SetSelectedGameplayModifiersRpc const&) = delete;
+  MenuRpcManager_SetSelectedGameplayModifiersRpc(MenuRpcManager_SetSelectedGameplayModifiersRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18923 };
@@ -1122,13 +1126,13 @@ protected:
   constexpr MenuRpcManager_ClearSelectedGameplayModifiersRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedGameplayModifiersRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_ClearSelectedGameplayModifiersRpc(MenuRpcManager_ClearSelectedGameplayModifiersRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedGameplayModifiersRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_ClearSelectedGameplayModifiersRpc(MenuRpcManager_ClearSelectedGameplayModifiersRpc const&) = delete;
+  MenuRpcManager_ClearSelectedGameplayModifiersRpc(MenuRpcManager_ClearSelectedGameplayModifiersRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18924 };
@@ -1157,13 +1161,13 @@ protected:
   constexpr MenuRpcManager_GetSelectedGameplayModifiersRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedGameplayModifiersRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetSelectedGameplayModifiersRpc(MenuRpcManager_GetSelectedGameplayModifiersRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedGameplayModifiersRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetSelectedGameplayModifiersRpc(MenuRpcManager_GetSelectedGameplayModifiersRpc const&) = delete;
+  MenuRpcManager_GetSelectedGameplayModifiersRpc(MenuRpcManager_GetSelectedGameplayModifiersRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18925 };
@@ -1192,13 +1196,13 @@ protected:
   constexpr MenuRpcManager_RecommendGameplayModifiersRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendGameplayModifiersRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendGameplayModifiersRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_RecommendGameplayModifiersRpc(MenuRpcManager_RecommendGameplayModifiersRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendGameplayModifiersRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_RecommendGameplayModifiersRpc(MenuRpcManager_RecommendGameplayModifiersRpc const&) = delete;
+  MenuRpcManager_RecommendGameplayModifiersRpc(MenuRpcManager_RecommendGameplayModifiersRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18926 };
@@ -1227,13 +1231,13 @@ protected:
   constexpr MenuRpcManager_ClearRecommendedGameplayModifiersRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedGameplayModifiersRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_ClearRecommendedGameplayModifiersRpc(MenuRpcManager_ClearRecommendedGameplayModifiersRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedGameplayModifiersRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_ClearRecommendedGameplayModifiersRpc(MenuRpcManager_ClearRecommendedGameplayModifiersRpc const&) = delete;
+  MenuRpcManager_ClearRecommendedGameplayModifiersRpc(MenuRpcManager_ClearRecommendedGameplayModifiersRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18927 };
@@ -1262,13 +1266,13 @@ protected:
   constexpr MenuRpcManager_GetRecommendedGameplayModifiersRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedGameplayModifiersRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedGameplayModifiersRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetRecommendedGameplayModifiersRpc(MenuRpcManager_GetRecommendedGameplayModifiersRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedGameplayModifiersRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetRecommendedGameplayModifiersRpc(MenuRpcManager_GetRecommendedGameplayModifiersRpc const&) = delete;
+  MenuRpcManager_GetRecommendedGameplayModifiersRpc(MenuRpcManager_GetRecommendedGameplayModifiersRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18928 };
@@ -1297,13 +1301,13 @@ protected:
   constexpr MenuRpcManager_GetIsStartButtonEnabledRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsStartButtonEnabledRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsStartButtonEnabledRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetIsStartButtonEnabledRpc(MenuRpcManager_GetIsStartButtonEnabledRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsStartButtonEnabledRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsStartButtonEnabledRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetIsStartButtonEnabledRpc(MenuRpcManager_GetIsStartButtonEnabledRpc const&) = delete;
+  MenuRpcManager_GetIsStartButtonEnabledRpc(MenuRpcManager_GetIsStartButtonEnabledRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18929 };
@@ -1332,13 +1336,13 @@ protected:
   constexpr MenuRpcManager_SetIsStartButtonEnabledRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsStartButtonEnabledRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsStartButtonEnabledRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetIsStartButtonEnabledRpc(MenuRpcManager_SetIsStartButtonEnabledRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsStartButtonEnabledRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsStartButtonEnabledRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetIsStartButtonEnabledRpc(MenuRpcManager_SetIsStartButtonEnabledRpc const&) = delete;
+  MenuRpcManager_SetIsStartButtonEnabledRpc(MenuRpcManager_SetIsStartButtonEnabledRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18930 };
@@ -1367,13 +1371,13 @@ protected:
   constexpr MenuRpcManager_LevelLoadErrorRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadErrorRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadErrorRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_LevelLoadErrorRpc(MenuRpcManager_LevelLoadErrorRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadErrorRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadErrorRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_LevelLoadErrorRpc(MenuRpcManager_LevelLoadErrorRpc const&) = delete;
+  MenuRpcManager_LevelLoadErrorRpc(MenuRpcManager_LevelLoadErrorRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18931 };
@@ -1402,13 +1406,13 @@ protected:
   constexpr MenuRpcManager_LevelLoadSuccessRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadSuccessRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadSuccessRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_LevelLoadSuccessRpc(MenuRpcManager_LevelLoadSuccessRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadSuccessRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadSuccessRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_LevelLoadSuccessRpc(MenuRpcManager_LevelLoadSuccessRpc const&) = delete;
+  MenuRpcManager_LevelLoadSuccessRpc(MenuRpcManager_LevelLoadSuccessRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18932 };
@@ -1437,13 +1441,13 @@ protected:
   constexpr MenuRpcManager_StartLevelRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_StartLevelRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_StartLevelRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_StartLevelRpc(MenuRpcManager_StartLevelRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_StartLevelRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_StartLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_StartLevelRpc(MenuRpcManager_StartLevelRpc const&) = delete;
+  MenuRpcManager_StartLevelRpc(MenuRpcManager_StartLevelRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18933 };
@@ -1472,13 +1476,13 @@ protected:
   constexpr MenuRpcManager_GetStartedLevelRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetStartedLevelRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetStartedLevelRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetStartedLevelRpc(MenuRpcManager_GetStartedLevelRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetStartedLevelRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetStartedLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetStartedLevelRpc(MenuRpcManager_GetStartedLevelRpc const&) = delete;
+  MenuRpcManager_GetStartedLevelRpc(MenuRpcManager_GetStartedLevelRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18934 };
@@ -1507,13 +1511,13 @@ protected:
   constexpr MenuRpcManager_GetMultiplayerGameStateRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetMultiplayerGameStateRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetMultiplayerGameStateRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetMultiplayerGameStateRpc(MenuRpcManager_GetMultiplayerGameStateRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetMultiplayerGameStateRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetMultiplayerGameStateRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetMultiplayerGameStateRpc(MenuRpcManager_GetMultiplayerGameStateRpc const&) = delete;
+  MenuRpcManager_GetMultiplayerGameStateRpc(MenuRpcManager_GetMultiplayerGameStateRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18935 };
@@ -1542,13 +1546,13 @@ protected:
   constexpr MenuRpcManager_SetMultiplayerGameStateRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetMultiplayerGameStateRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetMultiplayerGameStateRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetMultiplayerGameStateRpc(MenuRpcManager_SetMultiplayerGameStateRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetMultiplayerGameStateRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetMultiplayerGameStateRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetMultiplayerGameStateRpc(MenuRpcManager_SetMultiplayerGameStateRpc const&) = delete;
+  MenuRpcManager_SetMultiplayerGameStateRpc(MenuRpcManager_SetMultiplayerGameStateRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18936 };
@@ -1577,13 +1581,13 @@ protected:
   constexpr MenuRpcManager_CancelCountdownRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelCountdownRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelCountdownRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_CancelCountdownRpc(MenuRpcManager_CancelCountdownRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelCountdownRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelCountdownRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_CancelCountdownRpc(MenuRpcManager_CancelCountdownRpc const&) = delete;
+  MenuRpcManager_CancelCountdownRpc(MenuRpcManager_CancelCountdownRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18937 };
@@ -1612,13 +1616,13 @@ protected:
   constexpr MenuRpcManager_SetCountdownEndTimeRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetCountdownEndTimeRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetCountdownEndTimeRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetCountdownEndTimeRpc(MenuRpcManager_SetCountdownEndTimeRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetCountdownEndTimeRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetCountdownEndTimeRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetCountdownEndTimeRpc(MenuRpcManager_SetCountdownEndTimeRpc const&) = delete;
+  MenuRpcManager_SetCountdownEndTimeRpc(MenuRpcManager_SetCountdownEndTimeRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18938 };
@@ -1647,13 +1651,13 @@ protected:
   constexpr MenuRpcManager_GetCountdownEndTimeRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetCountdownEndTimeRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetCountdownEndTimeRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetCountdownEndTimeRpc(MenuRpcManager_GetCountdownEndTimeRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetCountdownEndTimeRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetCountdownEndTimeRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetCountdownEndTimeRpc(MenuRpcManager_GetCountdownEndTimeRpc const&) = delete;
+  MenuRpcManager_GetCountdownEndTimeRpc(MenuRpcManager_GetCountdownEndTimeRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18939 };
@@ -1682,13 +1686,13 @@ protected:
   constexpr MenuRpcManager_CancelLevelStartRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelLevelStartRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelLevelStartRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_CancelLevelStartRpc(MenuRpcManager_CancelLevelStartRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelLevelStartRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelLevelStartRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_CancelLevelStartRpc(MenuRpcManager_CancelLevelStartRpc const&) = delete;
+  MenuRpcManager_CancelLevelStartRpc(MenuRpcManager_CancelLevelStartRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18940 };
@@ -1717,13 +1721,13 @@ protected:
   constexpr MenuRpcManager_GetIsReadyRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsReadyRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsReadyRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetIsReadyRpc(MenuRpcManager_GetIsReadyRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsReadyRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsReadyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetIsReadyRpc(MenuRpcManager_GetIsReadyRpc const&) = delete;
+  MenuRpcManager_GetIsReadyRpc(MenuRpcManager_GetIsReadyRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18941 };
@@ -1752,13 +1756,13 @@ protected:
   constexpr MenuRpcManager_SetIsReadyRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsReadyRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsReadyRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetIsReadyRpc(MenuRpcManager_SetIsReadyRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsReadyRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsReadyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetIsReadyRpc(MenuRpcManager_SetIsReadyRpc const&) = delete;
+  MenuRpcManager_SetIsReadyRpc(MenuRpcManager_SetIsReadyRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18942 };
@@ -1787,13 +1791,13 @@ protected:
   constexpr MenuRpcManager_SetStartGameTimeRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetStartGameTimeRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetStartGameTimeRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetStartGameTimeRpc(MenuRpcManager_SetStartGameTimeRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetStartGameTimeRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetStartGameTimeRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetStartGameTimeRpc(MenuRpcManager_SetStartGameTimeRpc const&) = delete;
+  MenuRpcManager_SetStartGameTimeRpc(MenuRpcManager_SetStartGameTimeRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18943 };
@@ -1822,13 +1826,13 @@ protected:
   constexpr MenuRpcManager_CancelStartGameTimeRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelStartGameTimeRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelStartGameTimeRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_CancelStartGameTimeRpc(MenuRpcManager_CancelStartGameTimeRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelStartGameTimeRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelStartGameTimeRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_CancelStartGameTimeRpc(MenuRpcManager_CancelStartGameTimeRpc const&) = delete;
+  MenuRpcManager_CancelStartGameTimeRpc(MenuRpcManager_CancelStartGameTimeRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18944 };
@@ -1857,13 +1861,13 @@ protected:
   constexpr MenuRpcManager_GetIsInLobbyRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsInLobbyRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsInLobbyRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetIsInLobbyRpc(MenuRpcManager_GetIsInLobbyRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsInLobbyRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsInLobbyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetIsInLobbyRpc(MenuRpcManager_GetIsInLobbyRpc const&) = delete;
+  MenuRpcManager_GetIsInLobbyRpc(MenuRpcManager_GetIsInLobbyRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18945 };
@@ -1892,13 +1896,13 @@ protected:
   constexpr MenuRpcManager_SetIsInLobbyRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsInLobbyRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsInLobbyRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetIsInLobbyRpc(MenuRpcManager_SetIsInLobbyRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsInLobbyRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsInLobbyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetIsInLobbyRpc(MenuRpcManager_SetIsInLobbyRpc const&) = delete;
+  MenuRpcManager_SetIsInLobbyRpc(MenuRpcManager_SetIsInLobbyRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18946 };
@@ -1927,13 +1931,13 @@ protected:
   constexpr MenuRpcManager_GetOwnedSongPacksRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetOwnedSongPacksRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetOwnedSongPacksRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_GetOwnedSongPacksRpc(MenuRpcManager_GetOwnedSongPacksRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetOwnedSongPacksRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetOwnedSongPacksRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetOwnedSongPacksRpc(MenuRpcManager_GetOwnedSongPacksRpc const&) = delete;
+  MenuRpcManager_GetOwnedSongPacksRpc(MenuRpcManager_GetOwnedSongPacksRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18947 };
@@ -1962,13 +1966,13 @@ protected:
   constexpr MenuRpcManager_SetOwnedSongPacksRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetOwnedSongPacksRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetOwnedSongPacksRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_SetOwnedSongPacksRpc(MenuRpcManager_SetOwnedSongPacksRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetOwnedSongPacksRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetOwnedSongPacksRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetOwnedSongPacksRpc(MenuRpcManager_SetOwnedSongPacksRpc const&) = delete;
+  MenuRpcManager_SetOwnedSongPacksRpc(MenuRpcManager_SetOwnedSongPacksRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18948 };
@@ -1997,13 +2001,13 @@ protected:
   constexpr MenuRpcManager_RequestKickPlayerRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RequestKickPlayerRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RequestKickPlayerRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager_RequestKickPlayerRpc(MenuRpcManager_RequestKickPlayerRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RequestKickPlayerRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RequestKickPlayerRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_RequestKickPlayerRpc(MenuRpcManager_RequestKickPlayerRpc const&) = delete;
+  MenuRpcManager_RequestKickPlayerRpc(MenuRpcManager_RequestKickPlayerRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18949 };
@@ -2772,123 +2776,163 @@ public:
   /// @brief Method .ctor, addr 0x32b19ec, size 0x1218, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
+  /// [CompilerGenerated]
   /// @brief Method add_cancelCountdownEvent, addr 0x32b67d0, size 0xc0, virtual true, abstract: false, final true
   inline void add_cancelCountdownEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_cancelStartGameTimeEvent, addr 0x32b7594, size 0xc0, virtual false, abstract: false, final false
   inline void add_cancelStartGameTimeEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_cancelledLevelStartEvent, addr 0x32b6db0, size 0xc0, virtual true, abstract: false, final true
   inline void add_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_clearRecommendedBeatmapEvent, addr 0x32b4848, size 0xc0, virtual true, abstract: false, final true
   inline void add_clearRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_clearRecommendedGameplayModifiersEvent, addr 0x32b5408, size 0xc0, virtual true, abstract: false, final true
   inline void add_clearRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_clearSelectedBeatmapEvent, addr 0x32b4268, size 0xc0, virtual true, abstract: false, final true
   inline void add_clearSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_clearSelectedGameplayModifiersEvent, addr 0x32b4e28, size 0xc0, virtual true, abstract: false, final true
   inline void add_clearSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getCountdownEndTimeEvent, addr 0x32b6bc0, size 0xc0, virtual false, abstract: false, final false
   inline void add_getCountdownEndTimeEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getIsEntitledToLevelEvent, addr 0x32b3870, size 0xc0, virtual true, abstract: false, final true
   inline void add_getIsEntitledToLevelEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getIsInLobbyEvent, addr 0x32b7784, size 0xc0, virtual true, abstract: false, final true
   inline void add_getIsInLobbyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getIsReadyEvent, addr 0x32b6fa0, size 0xc0, virtual true, abstract: false, final true
   inline void add_getIsReadyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getIsStartButtonEnabledEvent, addr 0x32b57e8, size 0xc0, virtual true, abstract: false, final true
   inline void add_getIsStartButtonEnabledEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getMultiplayerGameStateEvent, addr 0x32b63e0, size 0xc0, virtual true, abstract: false, final true
   inline void add_getMultiplayerGameStateEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getOwnedSongPacksEvent, addr 0x32b7b78, size 0xc0, virtual true, abstract: false, final true
   inline void add_getOwnedSongPacksEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getPlayersPermissionConfigurationEvent, addr 0x32b3280, size 0xc0, virtual true, abstract: false, final true
   inline void add_getPlayersPermissionConfigurationEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getRecommendedBeatmapEvent, addr 0x32b4a38, size 0xc0, virtual true, abstract: false, final true
   inline void add_getRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getRecommendedGameplayModifiersEvent, addr 0x32b55f8, size 0xc0, virtual true, abstract: false, final true
   inline void add_getRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getSelectedBeatmapEvent, addr 0x32b4458, size 0xc0, virtual true, abstract: false, final true
   inline void add_getSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getSelectedGameplayModifiersEvent, addr 0x32b5018, size 0xc0, virtual true, abstract: false, final true
   inline void add_getSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getStartedLevelEvent, addr 0x32b61f0, size 0xc0, virtual true, abstract: false, final true
   inline void add_getStartedLevelEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelEntitlementStatusesInvalidatedEvent, addr 0x32b3c78, size 0xc0, virtual true, abstract: false, final true
   inline void add_levelEntitlementStatusesInvalidatedEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelLoadErrorEvent, addr 0x32b5bd8, size 0xc0, virtual false, abstract: false, final false
   inline void add_levelLoadErrorEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelLoadSuccessEvent, addr 0x32b5dd8, size 0xc0, virtual false, abstract: false, final false
   inline void add_levelLoadSuccessEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_recommendBeatmapEvent, addr 0x32b4648, size 0xc0, virtual true, abstract: false, final true
   inline void add_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_recommendGameplayModifiersEvent, addr 0x32b5208, size 0xc0, virtual true, abstract: false, final true
   inline void add_recommendGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_requestedKickPlayerEvent, addr 0x32b7f98, size 0xc0, virtual true, abstract: false, final true
   inline void add_requestedKickPlayerEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectedLevelPackEvent, addr 0x32b3e68, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectedLevelPackEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setCountdownEndTimeEvent, addr 0x32b69c0, size 0xc0, virtual true, abstract: false, final true
   inline void add_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setIsEntitledToLevelEvent, addr 0x32b3a70, size 0xc0, virtual true, abstract: false, final true
   inline void add_setIsEntitledToLevelEvent(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setIsInLobbyEvent, addr 0x32b7974, size 0xc0, virtual true, abstract: false, final true
   inline void add_setIsInLobbyEvent(::System::Action_2<::StringW, bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setIsReadyEvent, addr 0x32b7190, size 0xc0, virtual true, abstract: false, final true
   inline void add_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setIsStartButtonEnabledEvent, addr 0x32b59d8, size 0xc0, virtual true, abstract: false, final true
   inline void add_setIsStartButtonEnabledEvent(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setMultiplayerGameStateEvent, addr 0x32b65d0, size 0xc0, virtual true, abstract: false, final true
   inline void add_setMultiplayerGameStateEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setOwnedSongPacksEvent, addr 0x32b7d68, size 0xc0, virtual true, abstract: false, final true
   inline void add_setOwnedSongPacksEvent(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setPlayersMissingEntitlementsToLevelEvent, addr 0x32b3670, size 0xc0, virtual true, abstract: false, final true
   inline void add_setPlayersMissingEntitlementsToLevelEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setPlayersPermissionConfigurationEvent, addr 0x32b3470, size 0xc0, virtual true, abstract: false, final true
   inline void add_setPlayersPermissionConfigurationEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setSelectedBeatmapEvent, addr 0x32b4068, size 0xc0, virtual true, abstract: false, final true
   inline void add_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setSelectedGameplayModifiersEvent, addr 0x32b4c28, size 0xc0, virtual true, abstract: false, final true
   inline void add_setSelectedGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setStartGameTimeEvent, addr 0x32b7394, size 0xc0, virtual true, abstract: false, final true
   inline void add_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_startedLevelEvent, addr 0x32b5fd8, size 0xc0, virtual true, abstract: false, final true
   inline void add_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
 
@@ -2910,123 +2954,163 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_cancelCountdownEvent, addr 0x32b6890, size 0xc0, virtual true, abstract: false, final true
   inline void remove_cancelCountdownEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_cancelStartGameTimeEvent, addr 0x32b7654, size 0xc0, virtual false, abstract: false, final false
   inline void remove_cancelStartGameTimeEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_cancelledLevelStartEvent, addr 0x32b6e70, size 0xc0, virtual true, abstract: false, final true
   inline void remove_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_clearRecommendedBeatmapEvent, addr 0x32b4908, size 0xc0, virtual true, abstract: false, final true
   inline void remove_clearRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_clearRecommendedGameplayModifiersEvent, addr 0x32b54c8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_clearRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_clearSelectedBeatmapEvent, addr 0x32b4328, size 0xc0, virtual true, abstract: false, final true
   inline void remove_clearSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_clearSelectedGameplayModifiersEvent, addr 0x32b4ee8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_clearSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getCountdownEndTimeEvent, addr 0x32b6c80, size 0xc0, virtual false, abstract: false, final false
   inline void remove_getCountdownEndTimeEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getIsEntitledToLevelEvent, addr 0x32b3930, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getIsEntitledToLevelEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getIsInLobbyEvent, addr 0x32b7844, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getIsInLobbyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getIsReadyEvent, addr 0x32b7060, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getIsReadyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getIsStartButtonEnabledEvent, addr 0x32b58a8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getIsStartButtonEnabledEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getMultiplayerGameStateEvent, addr 0x32b64a0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getMultiplayerGameStateEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getOwnedSongPacksEvent, addr 0x32b7c38, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getOwnedSongPacksEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getPlayersPermissionConfigurationEvent, addr 0x32b3340, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getPlayersPermissionConfigurationEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getRecommendedBeatmapEvent, addr 0x32b4af8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getRecommendedGameplayModifiersEvent, addr 0x32b56b8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getSelectedBeatmapEvent, addr 0x32b4518, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getSelectedGameplayModifiersEvent, addr 0x32b50d8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getStartedLevelEvent, addr 0x32b62b0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getStartedLevelEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelEntitlementStatusesInvalidatedEvent, addr 0x32b3d38, size 0xc0, virtual true, abstract: false, final true
   inline void remove_levelEntitlementStatusesInvalidatedEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelLoadErrorEvent, addr 0x32b5c98, size 0xc0, virtual false, abstract: false, final false
   inline void remove_levelLoadErrorEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelLoadSuccessEvent, addr 0x32b5e98, size 0xc0, virtual false, abstract: false, final false
   inline void remove_levelLoadSuccessEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_recommendBeatmapEvent, addr 0x32b4708, size 0xc0, virtual true, abstract: false, final true
   inline void remove_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_recommendGameplayModifiersEvent, addr 0x32b52c8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_recommendGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_requestedKickPlayerEvent, addr 0x32b8058, size 0xc0, virtual true, abstract: false, final true
   inline void remove_requestedKickPlayerEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectedLevelPackEvent, addr 0x32b3f28, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectedLevelPackEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setCountdownEndTimeEvent, addr 0x32b6a80, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setIsEntitledToLevelEvent, addr 0x32b3b30, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setIsEntitledToLevelEvent(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setIsInLobbyEvent, addr 0x32b7a34, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setIsInLobbyEvent(::System::Action_2<::StringW, bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setIsReadyEvent, addr 0x32b7250, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setIsStartButtonEnabledEvent, addr 0x32b5a98, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setIsStartButtonEnabledEvent(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setMultiplayerGameStateEvent, addr 0x32b6690, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setMultiplayerGameStateEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setOwnedSongPacksEvent, addr 0x32b7e28, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setOwnedSongPacksEvent(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setPlayersMissingEntitlementsToLevelEvent, addr 0x32b3730, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setPlayersMissingEntitlementsToLevelEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setPlayersPermissionConfigurationEvent, addr 0x32b3530, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setPlayersPermissionConfigurationEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setSelectedBeatmapEvent, addr 0x32b4128, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setSelectedGameplayModifiersEvent, addr 0x32b4ce8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setSelectedGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setStartGameTimeEvent, addr 0x32b7454, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_startedLevelEvent, addr 0x32b6098, size 0xc0, virtual true, abstract: false, final true
   inline void remove_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
 
@@ -3039,13 +3123,13 @@ protected:
   constexpr MenuRpcManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuRpcManager(MenuRpcManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager(MenuRpcManager const&) = delete;
+  MenuRpcManager(MenuRpcManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18950 };
@@ -3059,123 +3143,163 @@ public:
   /// @brief Field _rpcHandler, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::RpcHandler_3<::GlobalNamespace::NetworkMessageType, ::GlobalNamespace::MenuRpcManager_RpcType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>* ____rpcHandler;
 
+  /// [CompilerGenerated]
   /// @brief Field getPlayersPermissionConfigurationEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getPlayersPermissionConfigurationEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setPlayersPermissionConfigurationEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* ___setPlayersPermissionConfigurationEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setPlayersMissingEntitlementsToLevelEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* ___setPlayersMissingEntitlementsToLevelEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getIsEntitledToLevelEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::StringW>* ___getIsEntitledToLevelEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setIsEntitledToLevelEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* ___setIsEntitledToLevelEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field levelEntitlementStatusesInvalidatedEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___levelEntitlementStatusesInvalidatedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field selectedLevelPackEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::StringW>* ___selectedLevelPackEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setSelectedBeatmapEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* ___setSelectedBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field clearSelectedBeatmapEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___clearSelectedBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getSelectedBeatmapEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getSelectedBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field recommendBeatmapEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* ___recommendBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field clearRecommendedBeatmapEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___clearRecommendedBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getRecommendedBeatmapEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getRecommendedBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setSelectedGameplayModifiersEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* ___setSelectedGameplayModifiersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field clearSelectedGameplayModifiersEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___clearSelectedGameplayModifiersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getSelectedGameplayModifiersEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getSelectedGameplayModifiersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field recommendGameplayModifiersEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* ___recommendGameplayModifiersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field clearRecommendedGameplayModifiersEvent, offset: 0xa8, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___clearRecommendedGameplayModifiersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getRecommendedGameplayModifiersEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getRecommendedGameplayModifiersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getIsStartButtonEnabledEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getIsStartButtonEnabledEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setIsStartButtonEnabledEvent, offset: 0xc0, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* ___setIsStartButtonEnabledEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field levelLoadErrorEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::StringW>* ___levelLoadErrorEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field levelLoadSuccessEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::StringW>* ___levelLoadSuccessEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field startedLevelEvent, offset: 0xd8, size: 0x8, def value: None
   ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* ___startedLevelEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getStartedLevelEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getStartedLevelEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getMultiplayerGameStateEvent, offset: 0xe8, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getMultiplayerGameStateEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setMultiplayerGameStateEvent, offset: 0xf0, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* ___setMultiplayerGameStateEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field cancelCountdownEvent, offset: 0xf8, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___cancelCountdownEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setCountdownEndTimeEvent, offset: 0x100, size: 0x8, def value: None
   ::System::Action_2<::StringW, int64_t>* ___setCountdownEndTimeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getCountdownEndTimeEvent, offset: 0x108, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getCountdownEndTimeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field cancelledLevelStartEvent, offset: 0x110, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___cancelledLevelStartEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getIsReadyEvent, offset: 0x118, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getIsReadyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setIsReadyEvent, offset: 0x120, size: 0x8, def value: None
   ::System::Action_2<::StringW, bool>* ___setIsReadyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setStartGameTimeEvent, offset: 0x128, size: 0x8, def value: None
   ::System::Action_2<::StringW, int64_t>* ___setStartGameTimeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field cancelStartGameTimeEvent, offset: 0x130, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___cancelStartGameTimeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getIsInLobbyEvent, offset: 0x138, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getIsInLobbyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setIsInLobbyEvent, offset: 0x140, size: 0x8, def value: None
   ::System::Action_2<::StringW, bool>* ___setIsInLobbyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getOwnedSongPacksEvent, offset: 0x148, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getOwnedSongPacksEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setOwnedSongPacksEvent, offset: 0x150, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* ___setOwnedSongPacksEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field requestedKickPlayerEvent, offset: 0x158, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::StringW>* ___requestedKickPlayerEvent;
 

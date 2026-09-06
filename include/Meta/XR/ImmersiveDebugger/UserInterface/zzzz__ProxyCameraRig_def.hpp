@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\ProxyCameraRig.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/ProxyCameraRig.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,15 +71,19 @@ public:
   /// @brief Method .ctor, addr 0x5a5750c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Camera, addr 0x5a572d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_Camera();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CameraTransform, addr 0x5a572e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_CameraTransform();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Camera, addr 0x5a572dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Camera(::UnityEngine::Camera* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CameraTransform, addr 0x5a572ec, size 0x8, virtual false, abstract: false, final false
   inline void set_CameraTransform(::UnityEngine::Transform* value);
 
@@ -89,20 +93,22 @@ protected:
   constexpr ProxyCameraRig();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyCameraRig", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyCameraRig", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProxyCameraRig(ProxyCameraRig&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyCameraRig", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyCameraRig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProxyCameraRig(ProxyCameraRig const&) = delete;
+  ProxyCameraRig(ProxyCameraRigconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18383 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Camera>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____Camera_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CameraTransform>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____CameraTransform_k__BackingField;
 

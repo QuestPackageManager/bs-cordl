@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipUserEventBase.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipUserEventBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class SpaceshipUserEventBase;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipUserEventBase");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies OSCE.Analytics.BaseAnalyticsEvent, System.Nullable`1<T>
 namespace BeatSaber::Analytics::Gameplay::Events {
 // Is value type: false
@@ -46,6 +48,7 @@ public:
   /// @brief Field user_type, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_user_type, put = __cordl_internal_set_user_type)) ::StringW user_type;
 
+  /// [NullableContext(1)]
   /// @brief Method ApplyBasicFields, addr 0x3265114, size 0x128, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
@@ -102,13 +105,13 @@ protected:
   constexpr SpaceshipUserEventBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipUserEventBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipUserEventBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpaceshipUserEventBase(SpaceshipUserEventBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipUserEventBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipUserEventBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipUserEventBase(SpaceshipUserEventBase const&) = delete;
+  SpaceshipUserEventBase(SpaceshipUserEventBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22285 };

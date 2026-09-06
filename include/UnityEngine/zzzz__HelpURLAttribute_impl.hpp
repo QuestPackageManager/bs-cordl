@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/HelpURLAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__HelpURLAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::HelpURLAttribute._ctor

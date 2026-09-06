@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenCallbacks.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenCallbacks.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenCallbacks_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
   }
 };
 inline void UnityEngine::Rendering::GPUDrivenCallbacks::InvokeGPUDrivenLODGroupDataNativeCallback(::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* callback,
-                                                                                                  ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> lodGroupDataNative,
+                                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> lodGroupDataNative,
                                                                                                   ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* target) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenCallbacks*>(), { "InvokeGPUDrivenLODGroupDataNativeCallback",
@@ -63,11 +63,10 @@ inline void UnityEngine::Rendering::GPUDrivenCallbacks::InvokeGPUDrivenLODGroupD
                                                                                                                     ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, callback, lodGroupDataNative, target);
 }
-inline void UnityEngine::Rendering::GPUDrivenCallbacks::InvokeGPUDrivenRendererDataNativeCallback(::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* callback,
-                                                                                                  ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> rendererDataNative,
-                                                                                                  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
-                                                                                                  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
-                                                                                                  ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* target) {
+inline void UnityEngine::Rendering::GPUDrivenCallbacks::InvokeGPUDrivenRendererDataNativeCallback(
+    ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* callback, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> rendererDataNative,
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
+    ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* target) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenCallbacks*>(),
                                                                                          { "InvokeGPUDrivenRendererDataNativeCallback",
                                                                                            {},

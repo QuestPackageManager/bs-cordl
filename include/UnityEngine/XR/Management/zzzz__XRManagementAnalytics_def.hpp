@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRManagementAnalytics.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRManagementAnalytics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,8 +35,9 @@ public:
   // @brief default ctor
   constexpr XRManagementAnalytics_BuildEvent();
 
-  // Ctor Parameters [CppParam { name: "buildGuid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buildTarget", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "buildTargetGroup", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assigned_loaders", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "buildGuid", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "buildTarget", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "buildTargetGroup", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "assigned_loaders", ty: "::ArrayW<::StringW>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr XRManagementAnalytics_BuildEvent(::StringW buildGuid, ::StringW buildTarget, ::StringW buildTargetGroup, ::ArrayW<::StringW> assigned_loaders) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -89,13 +90,13 @@ protected:
   constexpr XRManagementAnalytics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRManagementAnalytics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRManagementAnalytics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRManagementAnalytics(XRManagementAnalytics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRManagementAnalytics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRManagementAnalytics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRManagementAnalytics(XRManagementAnalytics const&) = delete;
+  XRManagementAnalytics(XRManagementAnalyticsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23044 };

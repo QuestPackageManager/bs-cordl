@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DepthState.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DepthState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,8 @@ public:
   // @brief default ctor
   constexpr DepthState();
 
-  // Ctor Parameters [CppParam { name: "m_WriteEnabled", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_CompareFunction", ty: "int8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_WriteEnabled", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CompareFunction", ty: "int8_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr DepthState(uint8_t m_WriteEnabled, int8_t m_CompareFunction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

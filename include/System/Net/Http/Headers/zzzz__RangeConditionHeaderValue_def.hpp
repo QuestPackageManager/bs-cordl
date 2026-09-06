@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\RangeConditionHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/RangeConditionHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,9 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -89,18 +91,22 @@ public:
   /// @brief Method .ctor, addr 0x60ede18, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Date, addr 0x60ede70, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
+  /// [CompilerGenerated]
   /// @brief Method get_EntityTag, addr 0x60ede98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Date, addr 0x60ede84, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_EntityTag, addr 0x60edea0, size 0x8, virtual false, abstract: false, final false
   inline void set_EntityTag(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
@@ -110,20 +116,22 @@ protected:
   constexpr RangeConditionHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RangeConditionHeaderValue(RangeConditionHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RangeConditionHeaderValue(RangeConditionHeaderValue const&) = delete;
+  RangeConditionHeaderValue(RangeConditionHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20338 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Date>k__BackingField, offset: 0x10, size: 0x18, def value: None
   ::System::Nullable_1<::System::DateTimeOffset> ____Date_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <EntityTag>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Net::Http::Headers::EntityTagHeaderValue* ____EntityTag_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ThreadLocal_1.hpp"
+// IWYU pragma private; include "System/Threading/ThreadLocal_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   // @brief default ctor
   constexpr ThreadLocal_1_LinkedSlotVolatile();
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "::System::Threading::ThreadLocal_1_LinkedSlot<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value", ty: "::System::Threading::ThreadLocal_1_LinkedSlot<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr ThreadLocal_1_LinkedSlotVolatile(::System::Threading::ThreadLocal_1_LinkedSlot<T>* Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -142,13 +142,13 @@ protected:
   constexpr ThreadLocal_1_LinkedSlot();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_LinkedSlot", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_LinkedSlot", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadLocal_1_LinkedSlot(ThreadLocal_1_LinkedSlot&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_LinkedSlot", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_LinkedSlot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadLocal_1_LinkedSlot(ThreadLocal_1_LinkedSlot const&) = delete;
+  ThreadLocal_1_LinkedSlot(ThreadLocal_1_LinkedSlotconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2715 };
@@ -213,13 +213,13 @@ protected:
   constexpr ThreadLocal_1_IdManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_IdManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_IdManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadLocal_1_IdManager(ThreadLocal_1_IdManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_IdManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_IdManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadLocal_1_IdManager(ThreadLocal_1_IdManager const&) = delete;
+  ThreadLocal_1_IdManager(ThreadLocal_1_IdManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2716 };
@@ -275,13 +275,13 @@ protected:
   constexpr ThreadLocal_1_FinalizationHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_FinalizationHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_FinalizationHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadLocal_1_FinalizationHelper(ThreadLocal_1_FinalizationHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_FinalizationHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_FinalizationHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadLocal_1_FinalizationHelper(ThreadLocal_1_FinalizationHelper const&) = delete;
+  ThreadLocal_1_FinalizationHelper(ThreadLocal_1_FinalizationHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2717 };
@@ -296,6 +296,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading
+// [DebuggerTypeProxy(typeof(System.Threading.SystemThreading_ThreadLocalDebugView`1<T>))]
+// [DebuggerDisplay("IsValueCreated={IsValueCreated}, Value={ValueForDebugDisplay}, Count={ValuesCountForDebugDisplay}")]
 // Dependencies System.Object, System.Threading.ThreadLocal`1::LinkedSlotVolatile<T>
 namespace System::Threading {
 // cpp template
@@ -315,6 +317,7 @@ public:
 
   __declspec(property(get = get_IsValueCreated)) bool IsValueCreated;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   __declspec(property(get = get_Value, put = set_Value)) T Value;
 
   /// @brief Field m_idComplement, offset 0x18, size 0x4
@@ -444,13 +447,13 @@ protected:
   constexpr ThreadLocal_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadLocal_1(ThreadLocal_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadLocal_1(ThreadLocal_1 const&) = delete;
+  ThreadLocal_1(ThreadLocal_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2718 };

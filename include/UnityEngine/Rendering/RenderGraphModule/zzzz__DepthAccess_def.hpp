@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\DepthAccess.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/DepthAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct DepthAccess;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::DepthAccess);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::DepthAccess, "UnityEngine.Rendering.RenderGraphModule", "DepthAccess");
+// [Flags]
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -43,7 +45,7 @@ public:
   // @brief default ctor
   constexpr DepthAccess();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DepthAccess(int32_t value__) noexcept;
 
   /// @brief Field Read value: I32(1)

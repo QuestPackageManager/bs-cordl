@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -593,7 +594,9 @@ inline void UnityEngine::Playables::PlayableHandle::setStaticF_m_Null(::UnityEng
 inline ::UnityEngine::Playables::PlayableHandle UnityEngine::Playables::PlayableHandle::getStaticF_m_Null() {
   return ::cordl_internals::getStaticField<::UnityEngine::Playables::PlayableHandle, "m_Null", ::UnityEngine::Playables::PlayableHandle>();
 }
-template <typename T> inline T UnityEngine::Playables::PlayableHandle::GetObject() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T>)
+inline T UnityEngine::Playables::PlayableHandle::GetObject() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableHandle>(), { "GetObject", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -832,7 +835,8 @@ constexpr UnityEngine::Playables::PlayableHandle::operator ::System::IEquatable_
 constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>* UnityEngine::Playables::PlayableHandle::i___System__IEquatable_1___UnityEngine__Playables__PlayableHandle_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Playables::PlayableHandle::PlayableHandle(::System::IntPtr m_Handle, uint32_t m_Version) noexcept {
   this->m_Handle = m_Handle;
   this->m_Version = m_Version;

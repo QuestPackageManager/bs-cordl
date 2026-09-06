@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ConsoleModifiers.hpp"
+// IWYU pragma private; include "System/ConsoleModifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ConsoleModifiers;
 // Write type traits
 MARK_VAL_T(::System::ConsoleModifiers);
 DEFINE_IL2CPP_CLASS(::System::ConsoleModifiers, "System", "ConsoleModifiers");
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ConsoleModifiers();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ConsoleModifiers(int32_t value__) noexcept;
 
   /// @brief Field Alt value: I32(1)

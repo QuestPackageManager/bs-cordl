@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\CVRRenderModels.hpp"
+// IWYU pragma private; include "OVR/OpenVR/CVRRenderModels.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ MARK_VAL_T(::OVR::OpenVR::CVRRenderModels_GetComponentStateUnion);
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVRRenderModels*, "OVR.OpenVR", "CVRRenderModels");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVRRenderModels__GetComponentStatePacked*, "OVR.OpenVR", "CVRRenderModels/_GetComponentStatePacked");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVRRenderModels_GetComponentStateUnion, "OVR.OpenVR", "CVRRenderModels/GetComponentStateUnion");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -97,13 +98,13 @@ protected:
   constexpr CVRRenderModels__GetComponentStatePacked();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVRRenderModels__GetComponentStatePacked", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRRenderModels__GetComponentStatePacked", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRRenderModels__GetComponentStatePacked(CVRRenderModels__GetComponentStatePacked&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVRRenderModels__GetComponentStatePacked", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRRenderModels__GetComponentStatePacked", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRRenderModels__GetComponentStatePacked(CVRRenderModels__GetComponentStatePacked const&) = delete;
+  CVRRenderModels__GetComponentStatePacked(CVRRenderModels__GetComponentStatePackedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8386 };
@@ -144,8 +145,8 @@ public:
   // @brief default ctor
   constexpr CVRRenderModels_GetComponentStateUnion();
 
-  // Ctor Parameters [CppParam { name: "pGetComponentState", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentState*", modifiers: "", def_value: None }, CppParam { name: "pGetComponentStatePacked",
-  // ty: "::OVR::OpenVR::CVRRenderModels__GetComponentStatePacked*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pGetComponentState", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentState*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "pGetComponentStatePacked", ty: "::OVR::OpenVR::CVRRenderModels__GetComponentStatePacked*", modifiers: "", def_value: None, comment: None }]
   constexpr CVRRenderModels_GetComponentStateUnion(::OVR::OpenVR::IVRRenderModels__GetComponentState* pGetComponentState,
                                                    ::OVR::OpenVR::CVRRenderModels__GetComponentStatePacked* pGetComponentStatePacked) noexcept;
 
@@ -288,13 +289,13 @@ protected:
   constexpr CVRRenderModels();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVRRenderModels", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRRenderModels", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRRenderModels(CVRRenderModels&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVRRenderModels", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRRenderModels", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRRenderModels(CVRRenderModels const&) = delete;
+  CVRRenderModels(CVRRenderModelsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8388 };

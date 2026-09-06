@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Renderer.hpp"
+// IWYU pragma private; include "UnityEngine/Renderer.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -1066,7 +1066,7 @@ inline void UnityEngine::Renderer::CopySharedMaterialArray(::by_ref<::ArrayW<::U
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Renderer*>(), { "CopySharedMaterialArray", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Material*>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, m);
 }
-inline void UnityEngine::Renderer::SetMaterialArray(::ArrayW<::UnityEngine::Material*> m, int32_t length) {
+inline void UnityEngine::Renderer::SetMaterialArray(/* [NotNull] */ ::ArrayW<::UnityEngine::Material*> m, int32_t length) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Renderer*>(), { "SetMaterialArray", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Material*>>(), ::i2c::type_of<int32_t>() } })));
@@ -1082,7 +1082,7 @@ inline void UnityEngine::Renderer::Internal_SetPropertyBlock(::UnityEngine::Mate
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Renderer*>(), { "Internal_SetPropertyBlock", {}, { ::i2c::type_of<::UnityEngine::MaterialPropertyBlock*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, properties);
 }
-inline void UnityEngine::Renderer::Internal_GetPropertyBlock(::UnityEngine::MaterialPropertyBlock* dest) {
+inline void UnityEngine::Renderer::Internal_GetPropertyBlock(/* [NotNull] */ ::UnityEngine::MaterialPropertyBlock* dest) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Renderer*>(), { "Internal_GetPropertyBlock", {}, { ::i2c::type_of<::UnityEngine::MaterialPropertyBlock*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dest);

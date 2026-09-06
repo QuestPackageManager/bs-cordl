@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\JobManager.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/JobManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +18,9 @@ namespace UnityEngine::UIElements::UIR {
 class JobMerger;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class NativePagedList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NativePagedList_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct NudgeJobData;
@@ -119,12 +121,14 @@ public:
   /// @brief Method .ctor, addr 0x6cde158, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cde008, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cde010, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -134,13 +138,13 @@ protected:
   constexpr JobManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JobManager(JobManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobManager(JobManager const&) = delete;
+  JobManager(JobManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5300 };
@@ -157,6 +161,8 @@ public:
   /// @brief Field m_JobMerger, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::JobMerger* ___m_JobMerger;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

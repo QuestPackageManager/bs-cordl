@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlDouble.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlDouble.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlDouble_def.hpp"
 #include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBoolean_def.hpp"
@@ -670,7 +670,8 @@ constexpr System::Data::SqlTypes::SqlDouble::operator ::System::Xml::Serializati
 constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlDouble::i___System__Xml__Serialization__IXmlSerializable() {
   return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_value", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_value", ty: "double_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Data::SqlTypes::SqlDouble::SqlDouble(bool m_fNotNull, double_t m_value) noexcept {
   this->m_fNotNull = m_fNotNull;
   this->m_value = m_value;

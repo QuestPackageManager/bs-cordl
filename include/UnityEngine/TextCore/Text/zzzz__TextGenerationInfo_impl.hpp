@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextGenerationInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextGenerationInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextGenerationInfo_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

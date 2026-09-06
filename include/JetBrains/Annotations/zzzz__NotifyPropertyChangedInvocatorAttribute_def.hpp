@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\NotifyPropertyChangedInvocatorAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/NotifyPropertyChangedInvocatorAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class NotifyPropertyChangedInvocatorAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*, "JetBrains.Annotations", "NotifyPropertyChangedInvocatorAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -20,6 +21,7 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE NotifyPropertyChangedInvocatorAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [CanBeNull]
   __declspec(property(get = get_ParameterName, put = set_ParameterName)) ::StringW ParameterName;
 
   /// @brief Field <ParameterName>k__BackingField, offset 0x10, size 0x8
@@ -27,7 +29,7 @@ public:
 
   static inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* New_ctor();
 
-  static inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* New_ctor(::StringW parameterName);
+  static inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* New_ctor(/* [NotNull] */ ::StringW parameterName);
 
   constexpr ::StringW const& __cordl_internal_get__ParameterName_k__BackingField() const;
 
@@ -39,11 +41,13 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x6e3dea0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW parameterName);
+  inline void _ctor(/* [NotNull] */ ::StringW parameterName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ParameterName, addr 0x6e3dea8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ParameterName();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ParameterName, addr 0x6e3deb0, size 0x8, virtual false, abstract: false, final false
   inline void set_ParameterName(::StringW value);
 
@@ -53,17 +57,18 @@ protected:
   constexpr NotifyPropertyChangedInvocatorAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NotifyPropertyChangedInvocatorAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotifyPropertyChangedInvocatorAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotifyPropertyChangedInvocatorAttribute(NotifyPropertyChangedInvocatorAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NotifyPropertyChangedInvocatorAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotifyPropertyChangedInvocatorAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NotifyPropertyChangedInvocatorAttribute(NotifyPropertyChangedInvocatorAttribute const&) = delete;
+  NotifyPropertyChangedInvocatorAttribute(NotifyPropertyChangedInvocatorAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22544 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ParameterName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____ParameterName_k__BackingField;
 

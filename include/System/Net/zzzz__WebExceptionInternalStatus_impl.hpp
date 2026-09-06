@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Net\WebExceptionInternalStatus.hpp"
+// IWYU pragma private; include "System/Net/WebExceptionInternalStatus.hpp"
 #include "System/Net/zzzz__WebExceptionInternalStatus_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::WebExceptionInternalStatus::WebExceptionInternalStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }

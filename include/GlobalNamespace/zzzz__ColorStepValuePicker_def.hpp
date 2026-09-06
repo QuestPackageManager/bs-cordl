@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorStepValuePicker.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorStepValuePicker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,18 +99,22 @@ public:
   /// @brief Method .ctor, addr 0x5a2f340, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_decButtonWasPressedEvent, addr 0x5a2ed38, size 0xac, virtual false, abstract: false, final false
   inline void add_decButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_incButtonWasPressedEvent, addr 0x5a2ee90, size 0xac, virtual false, abstract: false, final false
   inline void add_incButtonWasPressedEvent(::System::Action* value);
 
   /// @brief Method get_color, addr 0x5a2efe8, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_decButtonWasPressedEvent, addr 0x5a2ede4, size 0xac, virtual false, abstract: false, final false
   inline void remove_decButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_incButtonWasPressedEvent, addr 0x5a2ef3c, size 0xac, virtual false, abstract: false, final false
   inline void remove_incButtonWasPressedEvent(::System::Action* value);
 
@@ -129,29 +133,34 @@ protected:
   constexpr ColorStepValuePicker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorStepValuePicker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorStepValuePicker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorStepValuePicker(ColorStepValuePicker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorStepValuePicker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorStepValuePicker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorStepValuePicker(ColorStepValuePicker const&) = delete;
+  ColorStepValuePicker(ColorStepValuePickerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23337 };
 
+  /// [SerializeField]
   /// @brief Field _decButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____decButton;
 
+  /// [SerializeField]
   /// @brief Field _incButton, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____incButton;
 
+  /// [SerializeField]
   /// @brief Field _valueImage, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____valueImage;
 
+  /// [CompilerGenerated]
   /// @brief Field decButtonWasPressedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action* ___decButtonWasPressedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field incButtonWasPressedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___incButtonWasPressedEvent;
 

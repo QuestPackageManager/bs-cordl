@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BurstSliderGameNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BurstSliderGameNoteController.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteController_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
@@ -499,7 +499,7 @@ inline ::GlobalNamespace::NoteData_GameplayType GlobalNamespace::BurstSliderGame
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderGameNoteController*>(), { "get_gameplayType", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteData_GameplayType>(this, ___internal_method);
 }
-inline void GlobalNamespace::BurstSliderGameNoteController::Init(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
+inline void GlobalNamespace::BurstSliderGameNoteController::Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
                                                                  ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float_t uniformScale) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderGameNoteController*>(),

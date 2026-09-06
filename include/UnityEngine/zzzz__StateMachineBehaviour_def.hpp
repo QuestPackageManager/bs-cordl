@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\StateMachineBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine/StateMachineBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class StateMachineBehaviour;
 // Write type traits
 MARK_REF_T(::UnityEngine::StateMachineBehaviour*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::StateMachineBehaviour*, "UnityEngine", "StateMachineBehaviour");
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine {
 // Is value type: false
@@ -82,13 +83,13 @@ protected:
   constexpr StateMachineBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StateMachineBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateMachineBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StateMachineBehaviour(StateMachineBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StateMachineBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateMachineBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StateMachineBehaviour(StateMachineBehaviour const&) = delete;
+  StateMachineBehaviour(StateMachineBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20199 };

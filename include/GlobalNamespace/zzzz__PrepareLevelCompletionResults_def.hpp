@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PrepareLevelCompletionResults.hpp"
+// IWYU pragma private; include "GlobalNamespace/PrepareLevelCompletionResults.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ class PrepareLevelCompletionResults;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PrepareLevelCompletionResults*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PrepareLevelCompletionResults*, "", "PrepareLevelCompletionResults");
+// [AddComponentMenu("Beat Saber/Gameplay/PrepareLevelCompletionResults")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -155,41 +156,50 @@ protected:
   constexpr PrepareLevelCompletionResults();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrepareLevelCompletionResults", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrepareLevelCompletionResults", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrepareLevelCompletionResults(PrepareLevelCompletionResults&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrepareLevelCompletionResults", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrepareLevelCompletionResults", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrepareLevelCompletionResults(PrepareLevelCompletionResults const&) = delete;
+  PrepareLevelCompletionResults(PrepareLevelCompletionResultsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6208 };
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersModelSO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModelSO;
 
+  /// [Inject]
   /// @brief Field _saberActivityCounter, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberActivityCounter> ____saberActivityCounter;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectExecutionRatingsRecorder, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> ____beatmapObjectExecutionRatingsRecorder;
 
+  /// [Inject]
   /// @brief Field _scoreController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;
 
+  /// [Inject]
   /// @brief Field _gameEnergyCounter, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameEnergyCounter> ____gameEnergyCounter;
 
+  /// [Inject]
   /// @brief Field _beatmapData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____beatmapData;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _gameplayModifiers, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
+  /// [Inject]
   /// @brief Field _comboController, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ComboController> ____comboController;
 

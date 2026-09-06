@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerCaptureHelper.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerCaptureHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class PointerCaptureHelper;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::PointerCaptureHelper*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerCaptureHelper*, "UnityEngine.UIElements", "PointerCaptureHelper");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -32,33 +33,42 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerCaptureHelper : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ActivateCompatibilityMouseEvents, addr 0x6dbba84, size 0xd4, virtual false, abstract: false, final false
   static inline void ActivateCompatibilityMouseEvents(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
+  /// [Extension]
   /// @brief Method CapturePointer, addr 0x6db6814, size 0x38, virtual false, abstract: false, final false
   static inline void CapturePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
+  /// [Extension]
   /// @brief Method GetCapturingElement, addr 0x6dbb8a8, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IEventHandler* GetCapturingElement(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
   /// @brief Method GetStateFor, addr 0x6dbb5c8, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PointerDispatchState* GetStateFor(::UnityEngine::UIElements::IEventHandler* handler);
 
+  /// [Extension]
   /// @brief Method HasPointerCapture, addr 0x6db6710, size 0x38, virtual false, abstract: false, final false
   static inline bool HasPointerCapture(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
+  /// [Extension]
   /// @brief Method PreventCompatibilityMouseEvents, addr 0x6dbbb8c, size 0xd4, virtual false, abstract: false, final false
   static inline void PreventCompatibilityMouseEvents(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
+  /// [Extension]
   /// @brief Method ProcessPointerCapture, addr 0x6db684c, size 0xd4, virtual false, abstract: false, final false
   static inline void ProcessPointerCapture(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
+  /// [Extension]
   /// @brief Method ReleasePointer, addr 0x6dbb834, size 0x38, virtual false, abstract: false, final false
   static inline void ReleasePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
+  /// [Extension]
   /// @brief Method ReleasePointer, addr 0x6dbb980, size 0xd4, virtual false, abstract: false, final false
   static inline void ReleasePointer(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
+  /// [Extension]
   /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x6dbbc90, size 0x114, virtual false, abstract: false, final false
   static inline bool ShouldSendCompatibilityMouseEvents(::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::IPointerEvent* evt);
 
@@ -68,13 +78,13 @@ protected:
   constexpr PointerCaptureHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerCaptureHelper(PointerCaptureHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerCaptureHelper(PointerCaptureHelper const&) = delete;
+  PointerCaptureHelper(PointerCaptureHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4654 };

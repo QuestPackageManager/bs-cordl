@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DrawScreenSpaceUIPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DrawScreenSpaceUIPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -118,13 +120,13 @@ protected:
   constexpr DrawScreenSpaceUIPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawScreenSpaceUIPass_PassData(DrawScreenSpaceUIPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass_PassData(DrawScreenSpaceUIPass_PassData const&) = delete;
+  DrawScreenSpaceUIPass_PassData(DrawScreenSpaceUIPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12828 };
@@ -176,13 +178,13 @@ protected:
   constexpr DrawScreenSpaceUIPass_UnsafePassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_UnsafePassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_UnsafePassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawScreenSpaceUIPass_UnsafePassData(DrawScreenSpaceUIPass_UnsafePassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_UnsafePassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_UnsafePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass_UnsafePassData(DrawScreenSpaceUIPass_UnsafePassData const&) = delete;
+  DrawScreenSpaceUIPass_UnsafePassData(DrawScreenSpaceUIPass_UnsafePassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12829 };
@@ -203,6 +205,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPas
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -288,13 +291,13 @@ protected:
   constexpr DrawScreenSpaceUIPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawScreenSpaceUIPass___c(DrawScreenSpaceUIPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass___c(DrawScreenSpaceUIPass___c const&) = delete;
+  DrawScreenSpaceUIPass___c(DrawScreenSpaceUIPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12830 };
@@ -346,6 +349,7 @@ public:
   /// @brief Method Dispose, addr 0x6881fb8, size 0x34, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x688238c, size 0x1a8, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -359,6 +363,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool renderOffscreen);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x688217c, size 0x210, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -368,7 +373,8 @@ public:
 
   /// @brief Method RenderOverlay, addr 0x6883160, size 0x950, virtual false, abstract: false, final false
   inline void RenderOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> depthBuffer);
+                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer,
+                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> depthBuffer);
 
   /// @brief Method Setup, addr 0x6881fec, size 0x190, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat);
@@ -414,13 +420,13 @@ protected:
   constexpr DrawScreenSpaceUIPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawScreenSpaceUIPass(DrawScreenSpaceUIPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass(DrawScreenSpaceUIPass const&) = delete;
+  DrawScreenSpaceUIPass(DrawScreenSpaceUIPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12831 };

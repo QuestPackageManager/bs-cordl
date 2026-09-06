@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bounds.hpp"
+// IWYU pragma private; include "UnityEngine/Bounds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,13 @@ struct Bounds;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Bounds);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bounds, "UnityEngine", "Bounds");
+// [NativeHeader("Runtime/Geometry/AABB.h")]
+// [NativeType(Header = "Runtime/Geometry/AABB.h")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [NativeHeader("Runtime/Geometry/Ray.h")]
+// [NativeHeader("Runtime/Geometry/Intersection.h")]
+// [NativeClass("AABB")]
+// [NativeHeader("Runtime/Math/MathScripting.h")]
 // Dependencies UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -57,12 +64,14 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
+  /// [FreeFunction("BoundsScripting::ClosestPoint", HasExplicitThis = true, IsThreadSafe = true)]
   /// @brief Method ClosestPoint, addr 0x6a7fa3c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPoint(::UnityEngine::Vector3 point);
 
   /// @brief Method ClosestPoint_Injected, addr 0x6a7faa4, size 0x8c0, virtual false, abstract: false, final false
   static inline void ClosestPoint_Injected(::by_ref<::UnityEngine::Bounds> _unity_self, ::by_ref<::UnityEngine::Vector3> point, ::by_ref<::UnityEngine::Vector3> ret);
 
+  /// [NativeMethod("IsInside", IsThreadSafe = true)]
   /// @brief Method Contains, addr 0x6a7f94c, size 0x58, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::Vector3 point);
 
@@ -90,6 +99,7 @@ public:
   /// @brief Method IntersectRay, addr 0x6a7f6dc, size 0x74, virtual false, abstract: false, final false
   inline bool IntersectRay(::UnityEngine::Ray ray, ::by_ref<float_t> distance);
 
+  /// [FreeFunction("IntersectRayAABB", IsThreadSafe = true)]
   /// @brief Method IntersectRayAABB, addr 0x6a7f750, size 0x54, virtual false, abstract: false, final false
   static inline bool IntersectRayAABB(::UnityEngine::Ray ray, ::UnityEngine::Bounds bounds, ::by_ref<float_t> dist);
 
@@ -157,8 +167,8 @@ public:
   // @brief default ctor
   constexpr Bounds();
 
-  // Ctor Parameters [CppParam { name: "m_Center", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Extents", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "m_Center", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Extents", ty: "::UnityEngine::Vector3", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr Bounds(::UnityEngine::Vector3 m_Center, ::UnityEngine::Vector3 m_Extents) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -170,6 +180,7 @@ public:
   /// @brief Field m_Center, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Center;
 
+  /// [NativeName("m_Extent")]
   /// @brief Field m_Extents, offset: 0xc, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Extents;
 

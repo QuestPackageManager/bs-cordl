@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerAvatarsData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerAvatarsData.hpp"
 #include "GlobalNamespace/zzzz__BitMask128_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "GlobalNamespace/zzzz__BitMask128_def.hpp"
@@ -259,8 +259,8 @@ constexpr GlobalNamespace::MultiplayerAvatarsData::operator ::System::IEquatable
 constexpr ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>* GlobalNamespace::MultiplayerAvatarsData::i___System__IEquatable_1___GlobalNamespace__MultiplayerAvatarsData_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "multiplayerAvatarsData", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "supportedAvatarTypeIdHashesBloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "multiplayerAvatarsData", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "supportedAvatarTypeIdHashesBloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerAvatarsData::MultiplayerAvatarsData(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData,
                                                                             ::GlobalNamespace::BitMask128 supportedAvatarTypeIdHashesBloomFilter) noexcept {
   this->multiplayerAvatarsData = multiplayerAvatarsData;

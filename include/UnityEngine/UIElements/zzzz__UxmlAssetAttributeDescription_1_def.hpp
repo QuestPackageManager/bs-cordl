@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlAssetAttributeDescription_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlAssetAttributeDescription_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UxmlAssetAttributeDescription_1)
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -13,15 +14,18 @@ class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlAssetAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+class UxmlAssetAttributeDescription_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlAssetAttributeDescription_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlAssetAttributeDescription_1, "UnityEngine.UIElements", "UxmlAssetAttributeDescription`1");
-// Dependencies UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
+// Dependencies UnityEngine.Object, UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlAssetAttributeDescription`1<T>
 class CORDL_TYPE UxmlAssetAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T> {
@@ -44,13 +48,13 @@ protected:
   constexpr UxmlAssetAttributeDescription_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlAssetAttributeDescription_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlAssetAttributeDescription_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlAssetAttributeDescription_1(UxmlAssetAttributeDescription_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlAssetAttributeDescription_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlAssetAttributeDescription_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlAssetAttributeDescription_1(UxmlAssetAttributeDescription_1 const&) = delete;
+  UxmlAssetAttributeDescription_1(UxmlAssetAttributeDescription_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5146 };

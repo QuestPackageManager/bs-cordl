@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfilesSettingsViewController.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfilesSettingsViewController.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllersTransformSettings_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_impl.hpp"
@@ -366,14 +366,15 @@ constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onRequestSelectProfileToCopyFrom = value;
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::add_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>* value) {
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::add_onRequestSelectProfileToCopyFrom(
+    /* [TupleElementNames(new[] { "text", "index" })] [Nullable(new[] { 2, 1, 0, 1 })] */ ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>(),
                                               { "add_onRequestSelectProfileToCopyFrom", {}, { ::i2c::type_of<::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void
-BeatSaber::GameSettings::ControllerProfilesSettingsViewController::remove_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>* value) {
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::remove_onRequestSelectProfileToCopyFrom(
+    /* [TupleElementNames(new[] { "text", "index" })] [Nullable(new[] { 2, 1, 0, 1 })] */ ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>(),
                                               { "remove_onRequestSelectProfileToCopyFrom", {}, { ::i2c::type_of<::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>*>() } })));

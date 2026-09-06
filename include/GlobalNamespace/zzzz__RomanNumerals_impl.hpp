@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RomanNumerals.hpp"
+// IWYU pragma private; include "GlobalNamespace/RomanNumerals.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RomanNumerals_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RomanNumerals.ToRomanNumeralString

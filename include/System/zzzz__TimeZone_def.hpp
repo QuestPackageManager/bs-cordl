@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TimeZone.hpp"
+// IWYU pragma private; include "System/TimeZone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class TimeZone;
 // Write type traits
 MARK_REF_T(::System::TimeZone*);
 DEFINE_IL2CPP_CLASS(::System::TimeZone*, "System", "TimeZone");
+// [Obsolete("System.TimeZone has been deprecated.  Please investigate the use of System.TimeZoneInfo instead.")]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -41,10 +42,10 @@ public:
   /// @brief Method CalculateUtcOffset, addr 0x5c5fde4, size 0x25c, virtual false, abstract: false, final false
   static inline ::System::TimeSpan CalculateUtcOffset(::System::DateTime time, ::System::Globalization::DaylightTime* daylightTimes);
 
-  /// @brief Method GetDaylightChanges, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDaylightChanges, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  /// @brief Method GetUtcOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
 
   static inline ::System::TimeZone* New_ctor();
@@ -75,13 +76,13 @@ protected:
   constexpr TimeZone();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeZone(TimeZone&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZone(TimeZone const&) = delete;
+  TimeZone(TimeZoneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2490 };

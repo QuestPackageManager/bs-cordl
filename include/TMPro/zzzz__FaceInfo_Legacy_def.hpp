@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\FaceInfo_Legacy.hpp"
+// IWYU pragma private; include "TMPro/FaceInfo_Legacy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -222,13 +222,13 @@ protected:
   constexpr FaceInfo_Legacy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FaceInfo_Legacy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FaceInfo_Legacy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FaceInfo_Legacy(FaceInfo_Legacy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FaceInfo_Legacy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FaceInfo_Legacy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FaceInfo_Legacy(FaceInfo_Legacy const&) = delete;
+  FaceInfo_Legacy(FaceInfo_Legacyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15916 };

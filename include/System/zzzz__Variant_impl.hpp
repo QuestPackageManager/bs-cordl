@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Variant.hpp"
+// IWYU pragma private; include "System/Variant.hpp"
 #include "System/zzzz__BRECORD_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Variant_def.hpp"
@@ -199,15 +199,17 @@ inline void System::Variant::Clear() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Variant>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "vt", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "wReserved1", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "wReserved2", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "wReserved3", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "llVal", ty:
-// "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lVal", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bVal", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "iVal", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fltVal", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "dblVal", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "boolVal", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bstrVal", ty:
-// "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "cVal", ty: "int8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uiVal", ty: "uint16_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "ulVal", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ullVal", ty: "uint64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "intVal", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uintVal", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pdispVal",
-// ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "bRecord", ty: "::System::BRECORD", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "vt", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "wReserved1", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "wReserved2", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "wReserved3", ty: "uint16_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "llVal", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lVal", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "bVal", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "iVal", ty: "int16_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "fltVal", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dblVal", ty: "double_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "boolVal", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bstrVal", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "cVal", ty: "int8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uiVal", ty: "uint16_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ulVal", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ullVal", ty: "uint64_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "intVal", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uintVal", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "pdispVal", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bRecord", ty:
+// "::System::BRECORD", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Variant::Variant(int16_t vt, uint16_t wReserved1, uint16_t wReserved2, uint16_t wReserved3, int64_t llVal, int32_t lVal, uint8_t bVal, int16_t iVal, float_t fltVal,
                                      double_t dblVal, int16_t boolVal, ::System::IntPtr bstrVal, int8_t cVal, uint16_t uiVal, uint32_t ulVal, uint64_t ullVal, int32_t intVal, uint32_t uintVal,
                                      ::System::IntPtr pdispVal, ::System::BRECORD bRecord) noexcept {

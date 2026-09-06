@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BaseRenderGraphPass_2.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BaseRenderGraphPass_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseRenderGraphPass_2)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphObjectPool;
@@ -21,15 +23,19 @@ class ProfilingSampler;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename TRenderGraphContext> class BaseRenderGraphPass_2;
+template <typename PassData, typename TRenderGraphContext>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderGraphPass_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::BaseRenderGraphPass_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderGraphModule::BaseRenderGraphPass_2, "UnityEngine.Rendering.RenderGraphModule", "BaseRenderGraphPass`2");
+// [DebuggerDisplay("RenderPass: {name} (Index:{index} Async:{enableAsyncCompute})")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.RenderGraphPass
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename PassData, typename TRenderGraphContext>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.BaseRenderGraphPass`2<PassData,TRenderGraphContext>
 class CORDL_TYPE BaseRenderGraphPass_2 : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass {
@@ -78,13 +84,13 @@ protected:
   constexpr BaseRenderGraphPass_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRenderGraphPass_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRenderGraphPass_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseRenderGraphPass_2(BaseRenderGraphPass_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRenderGraphPass_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRenderGraphPass_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseRenderGraphPass_2(BaseRenderGraphPass_2 const&) = delete;
+  BaseRenderGraphPass_2(BaseRenderGraphPass_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12429 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Arrays.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Arrays.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ public:
   /// @brief Method AreEqual, addr 0x363b52c, size 0xc0, virtual false, abstract: false, final false
   static inline bool AreEqual(::ArrayW<int32_t> a, ::ArrayW<int32_t> b);
 
+  /// [CLSCompliant(false)]
   /// @brief Method AreEqual, addr 0x363b64c, size 0xc0, virtual false, abstract: false, final false
   static inline bool AreEqual(::ArrayW<uint32_t> a, ::ArrayW<uint32_t> b);
 
@@ -64,6 +65,7 @@ public:
   /// @brief Method AreEqual, addr 0x363b034, size 0xc0, virtual false, abstract: false, final false
   static inline bool AreEqual(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
 
+  /// [Obsolete("Use \'AreEqual\' method instead")]
   /// @brief Method AreSame, addr 0x363b200, size 0x68, virtual false, abstract: false, final false
   static inline bool AreSame(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
 
@@ -82,12 +84,15 @@ public:
   /// @brief Method Clone, addr 0x363bd60, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<int64_t> Clone(::ArrayW<int64_t> data);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Clone, addr 0x363bce8, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Clone(::ArrayW<uint32_t> data);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Clone, addr 0x363bdd8, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t> Clone(::ArrayW<uint64_t> data);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Clone, addr 0x363bf00, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t> Clone(::ArrayW<uint64_t> data, ::ArrayW<uint64_t> existing);
 
@@ -104,7 +109,7 @@ public:
   static inline ::ArrayW<uint8_t> Concatenate(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
 
   /// @brief Method ConcatenateAll, addr 0x363cd24, size 0x170, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t> ConcatenateAll(::ArrayW<::ArrayW<uint8_t>> vs);
+  static inline ::ArrayW<uint8_t> ConcatenateAll(/* [ParamArray] */ ::ArrayW<::ArrayW<uint8_t>> vs);
 
   /// @brief Method ConstantTimeAreEqual, addr 0x363b268, size 0x104, virtual false, abstract: false, final false
   static inline bool ConstantTimeAreEqual(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
@@ -160,15 +165,19 @@ public:
   /// @brief Method GetHashCode, addr 0x363b9c4, size 0x58, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::ArrayW<int32_t> data, int32_t off, int32_t len);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetHashCode, addr 0x363ba1c, size 0x50, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::ArrayW<uint32_t> data);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetHashCode, addr 0x363ba6c, size 0x58, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::ArrayW<uint32_t> data, int32_t off, int32_t len);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetHashCode, addr 0x363bac4, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::ArrayW<uint64_t> data);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetHashCode, addr 0x363bb20, size 0x60, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::ArrayW<uint64_t> data, int32_t off, int32_t len);
 
@@ -242,13 +251,13 @@ protected:
   constexpr Arrays();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Arrays", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Arrays", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Arrays(Arrays&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Arrays", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Arrays", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Arrays(Arrays const&) = delete;
+  Arrays(Arraysconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1831 };

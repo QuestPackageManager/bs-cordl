@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRHapticsClip.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRHapticsClip.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class OVRHapticsClip;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRHapticsClip*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRHapticsClip*, "", "OVRHapticsClip");
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-haptics-apis/")]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -92,21 +93,27 @@ public:
   /// @brief Method .ctor, addr 0x5e59120, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> samples, int32_t samplesCount);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Capacity, addr 0x5e58fe4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Count, addr 0x5e58fd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Samples, addr 0x5e58ff4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Samples();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Capacity, addr 0x5e58fec, size 0x8, virtual false, abstract: false, final false
   inline void set_Capacity(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Count, addr 0x5e58fdc, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Samples, addr 0x5e58ffc, size 0x8, virtual false, abstract: false, final false
   inline void set_Samples(::ArrayW<uint8_t> value);
 
@@ -116,23 +123,26 @@ protected:
   constexpr OVRHapticsClip();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsClip", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsClip", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHapticsClip(OVRHapticsClip&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsClip", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHapticsClip(OVRHapticsClip const&) = delete;
+  OVRHapticsClip(OVRHapticsClipconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7183 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Count>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Capacity>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____Capacity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Samples>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____Samples_k__BackingField;
 

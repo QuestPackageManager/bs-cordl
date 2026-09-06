@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlBytes.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlBytes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,8 @@ class SqlBytes;
 // Write type traits
 MARK_REF_T(::System::Data::SqlTypes::SqlBytes*);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlBytes*, "System.Data.SqlTypes", "SqlBytes");
+// [XmlSchemaProvider("GetXsdType")]
+// [DefaultMember("Item")]
 // Dependencies System.Data.SqlTypes.SqlBytesCharsState, System.Object
 namespace System::Data::SqlTypes {
 // Is value type: false
@@ -192,13 +194,13 @@ protected:
   constexpr SqlBytes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SqlBytes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SqlBytes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SqlBytes(SqlBytes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SqlBytes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SqlBytes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SqlBytes(SqlBytes const&) = delete;
+  SqlBytes(SqlBytesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13890 };

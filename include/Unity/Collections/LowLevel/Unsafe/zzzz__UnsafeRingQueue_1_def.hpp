@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeRingQueue_1.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeRingQueue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,21 @@ struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeRingQueue_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeRingQueue_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1, "Unity.Collections.LowLevel.Unsafe", "UnsafeRingQueue`1");
+// [DebuggerDisplay("Length = {Length}, Capacity = {Capacity}, IsCreated = {IsCreated}, IsEmpty = {IsEmpty}")]
+// [DebuggerTypeProxy(typeof(Unity.Collections.LowLevel.Unsafe.UnsafeRingQueueDebugView`1<T>))]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeRingQueue`1<T>
 struct CORDL_TYPE UnsafeRingQueue_1 {
@@ -70,9 +76,13 @@ public:
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Free(::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<T>* data);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowQueueEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ThrowQueueEmpty();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowQueueFull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ThrowQueueFull();
 
@@ -94,15 +104,19 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T* ptr, int32_t capacity);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
+  /// [IsReadOnly]
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
@@ -116,9 +130,10 @@ public:
   // @brief default ctor
   constexpr UnsafeRingQueue_1();
 
-  // Ctor Parameters [CppParam { name: "Ptr", ty: "T*", modifiers: "", def_value: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Filled", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Write", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Read", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Ptr", ty: "T*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Filled", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Write", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Read", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr UnsafeRingQueue_1(T* Ptr, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t m_Capacity, int32_t m_Filled, int32_t m_Write, int32_t m_Read) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -127,6 +142,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Ptr, offset: 0x0, size: 0x8, def value: None
   T* Ptr;
 

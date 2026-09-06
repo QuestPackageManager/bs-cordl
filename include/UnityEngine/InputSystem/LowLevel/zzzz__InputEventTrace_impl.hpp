@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEventTrace.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventTrace.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
@@ -203,7 +203,7 @@ constexpr ::System::IDisposable* UnityEngine::InputSystem::LowLevel::InputEventT
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::InputEventTrace_Enumerator() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventTrace_FileFlags::InputEventTrace_FileFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1172,9 +1172,10 @@ inline void UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::set_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo>(), { "set_stateSizeInBytes", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_DeviceId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Layout", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "m_StateFormat", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StateSizeInBytes", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_FullLayoutJson", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_DeviceId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Layout", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_StateFormat", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_StateSizeInBytes", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FullLayoutJson", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::InputEventTrace_DeviceInfo(int32_t m_DeviceId, ::StringW m_Layout,
                                                                                                        ::UnityEngine::InputSystem::Utilities::FourCC m_StateFormat, int32_t m_StateSizeInBytes,
                                                                                                        ::StringW m_FullLayoutJson) noexcept {

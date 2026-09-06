@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\Interactable.hpp"
+// IWYU pragma private; include "HMUI/Interactable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,12 +79,14 @@ public:
   /// @brief Method .ctor, addr 0x5875574, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_interactableChangeEvent, addr 0x5879854, size 0xc0, virtual false, abstract: false, final false
   inline void add_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
   /// @brief Method get_interactable, addr 0x58799d4, size 0x20, virtual false, abstract: false, final false
   inline bool get_interactable();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_interactableChangeEvent, addr 0x5879914, size 0xc0, virtual false, abstract: false, final false
   inline void remove_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
@@ -97,20 +99,22 @@ protected:
   constexpr Interactable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Interactable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interactable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Interactable(Interactable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Interactable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interactable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Interactable(Interactable const&) = delete;
+  Interactable(Interactableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19041 };
 
+  /// [SerializeField]
   /// @brief Field _interactable, offset: 0x20, size: 0x1, def value: None
   bool ____interactable;
 
+  /// [CompilerGenerated]
   /// @brief Field interactableChangeEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* ___interactableChangeEvent;
 

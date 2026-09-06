@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\Util\UnityUtil.hpp"
+// IWYU pragma private; include "ModestTree/Util/UnityUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_impl.hpp"
 #include "ModestTree/Util/zzzz__UnityUtil_def.hpp"
@@ -442,6 +442,7 @@ inline ::System::Collections::IEnumerator* ModestTree::Util::UnityUtil__GetDirec
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Util::UnityUtil__GetDirectChildren_d__21*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::ModestTree::Util::UnityUtil__GetDirectChildren_d__21* ModestTree::Util::UnityUtil__GetDirectChildren_d__21::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::Util::UnityUtil__GetDirectChildren_d__21*>(__1__state));
 }
@@ -732,6 +733,7 @@ inline ::System::Collections::IEnumerator* ModestTree::Util::UnityUtil__GetDirec
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20* ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20*>(__1__state));
 }
@@ -1016,6 +1018,7 @@ inline ::System::Collections::IEnumerator* ModestTree::Util::UnityUtil__GetParen
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Util::UnityUtil__GetParents_d__16*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::ModestTree::Util::UnityUtil__GetParents_d__16* ModestTree::Util::UnityUtil__GetParents_d__16::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::Util::UnityUtil__GetParents_d__16*>(__1__state));
 }
@@ -1301,6 +1304,7 @@ inline ::System::Collections::IEnumerator* ModestTree::Util::UnityUtil__GetParen
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17* ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17*>(__1__state));
 }
@@ -1544,6 +1548,7 @@ inline ::System::Collections::IEnumerator* ModestTree::Util::UnityUtil__get_AllS
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Util::UnityUtil__get_AllScenes_d__1*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::ModestTree::Util::UnityUtil__get_AllScenes_d__1* ModestTree::Util::UnityUtil__get_AllScenes_d__1::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::Util::UnityUtil__get_AllScenes_d__1*>(__1__state));
 }

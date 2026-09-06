@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\Peer.hpp"
+// IWYU pragma private; include "ENet/Peer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -163,7 +163,8 @@ public:
   // @brief default ctor
   constexpr Peer();
 
-  // Ctor Parameters [CppParam { name: "nativePeer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "nativeID", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nativePeer", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "nativeID", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr Peer(::System::IntPtr nativePeer, uint32_t nativeID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AudioClip.hpp"
+// IWYU pragma private; include "UnityEngine/AudioClip.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioResource_impl.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
@@ -814,13 +814,13 @@ inline void UnityEngine::AudioClip::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioClip*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::AudioClip::GetData(::UnityEngine::AudioClip* clip, ::System::Span_1<float_t> data, int32_t samplesOffset) {
+inline bool UnityEngine::AudioClip::GetData(/* [NotNull] */ ::UnityEngine::AudioClip* clip, ::System::Span_1<float_t> data, int32_t samplesOffset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioClip*>(),
                                               { "GetData", {}, { ::i2c::type_of<::UnityEngine::AudioClip*>(), ::i2c::type_of<::System::Span_1<float_t>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, clip, data, samplesOffset);
 }
-inline bool UnityEngine::AudioClip::SetData(::UnityEngine::AudioClip* clip, ::System::ReadOnlySpan_1<float_t> data, int32_t samplesOffset) {
+inline bool UnityEngine::AudioClip::SetData(/* [NotNull] */ ::UnityEngine::AudioClip* clip, ::System::ReadOnlySpan_1<float_t> data, int32_t samplesOffset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioClip*>(),
                                               { "SetData", {}, { ::i2c::type_of<::UnityEngine::AudioClip*>(), ::i2c::type_of<::System::ReadOnlySpan_1<float_t>>(), ::i2c::type_of<int32_t>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\InvokePolicy.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/InvokePolicy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct InvokePolicy;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::InvokePolicy);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::InvokePolicy, "UnityEngine.UIElements", "InvokePolicy");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr InvokePolicy();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InvokePolicy(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(0)

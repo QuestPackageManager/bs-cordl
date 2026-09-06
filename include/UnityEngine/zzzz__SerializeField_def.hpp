@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SerializeField.hpp"
+// IWYU pragma private; include "UnityEngine/SerializeField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class SerializeField;
 // Write type traits
 MARK_REF_T(::UnityEngine::SerializeField*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SerializeField*, "UnityEngine", "SerializeField");
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr SerializeField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializeField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializeField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializeField(SerializeField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializeField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializeField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializeField(SerializeField const&) = delete;
+  SerializeField(SerializeFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10390 };

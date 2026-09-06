@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationPlayableExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableExtensions_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
@@ -37,7 +38,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     return ___internal_method;
   }
 };
-template <typename U> inline void UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedProperties(U playable, ::UnityEngine::AnimationClip* clip) {
+template <typename U>
+  requires(::cordl_internals::type_constraint<U, ::UnityEngine::Playables::IPlayable*> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+inline void UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedProperties(U playable, ::UnityEngine::AnimationClip* clip) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationPlayableExtensions*>(),
                                                            { "SetAnimatedProperties", { ::i2c::class_of<U>() }, { ::i2c::type_of<U>(), ::i2c::type_of<::UnityEngine::AnimationClip*>() } })));

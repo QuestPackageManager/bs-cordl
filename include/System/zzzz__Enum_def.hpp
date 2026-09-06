@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Enum.hpp"
+// IWYU pragma private; include "System/Enum.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,10 +100,11 @@ public:
   // @brief default ctor
   constexpr Enum_EnumResult();
 
-  // Ctor Parameters [CppParam { name: "parsedEnum", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "canThrow", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "m_failure", ty: "::GlobalNamespace::Enum_ParseFailureKind", modifiers: "", def_value: None }, CppParam { name: "m_failureMessageID", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "m_failureParameter", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value:
-  // None }, CppParam { name: "m_innerException", ty: "::System::Exception*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "parsedEnum", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "canThrow", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_failure", ty: "::GlobalNamespace::Enum_ParseFailureKind", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_failureMessageID", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_failureParameter", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_innerException", ty: "::System::Exception*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr Enum_EnumResult(::System::Object* parsedEnum, bool canThrow, ::GlobalNamespace::Enum_ParseFailureKind m_failure, ::StringW m_failureMessageID, ::StringW m_failureParameter,
                             ::System::Object* m_failureMessageFormatArgument, ::System::Exception* m_innerException) noexcept;
 
@@ -190,13 +191,13 @@ protected:
   constexpr Enum_ValuesAndNames();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Enum_ValuesAndNames", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Enum_ValuesAndNames", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Enum_ValuesAndNames(Enum_ValuesAndNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Enum_ValuesAndNames", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Enum_ValuesAndNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enum_ValuesAndNames(Enum_ValuesAndNames const&) = delete;
+  Enum_ValuesAndNames(Enum_ValuesAndNamesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2568 };
@@ -217,6 +218,7 @@ static_assert(offsetof(::System::Enum_ValuesAndNames, ___Names) == 0x18, "Offset
 static_assert(sizeof(::System::Enum_ValuesAndNames) == 0x20, "Size mismatch!");
 
 } // namespace System
+// [ComVisible(true)]
 // Dependencies System.ValueType
 namespace System {
 // Is value type: false
@@ -239,13 +241,13 @@ protected:
   constexpr Enum() {}
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Enum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Enum", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Enum(Enum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Enum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Enum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enum(Enum const&) = delete;
+  Enum(Enumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2569 };

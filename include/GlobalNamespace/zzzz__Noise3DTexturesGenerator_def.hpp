@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Noise3DTexturesGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace/Noise3DTexturesGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,8 +53,8 @@ public:
   // @brief default ctor
   constexpr Noise3DTexturesGenerator_MaterialPropertyNameCouple();
 
-  // Ctor Parameters [CppParam { name: "texturePropertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "texturePropertyName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr Noise3DTexturesGenerator_MaterialPropertyNameCouple(::StringW texturePropertyName, ::UnityW<::UnityEngine::Material> material) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -90,8 +90,8 @@ public:
   // @brief default ctor
   constexpr Noise3DTexturesGenerator_MaterialTextureParamsCouple();
 
-  // Ctor Parameters [CppParam { name: "globalPropertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "materialPropertyNameCouples", ty:
-  // "::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "globalPropertyName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "materialPropertyNameCouples", ty:
+  // "::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple>", modifiers: "", def_value: None, comment: None }]
   constexpr Noise3DTexturesGenerator_MaterialTextureParamsCouple(::StringW globalPropertyName,
                                                                  ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple> materialPropertyNameCouples) noexcept;
 
@@ -117,6 +117,7 @@ static_assert(offsetof(::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextu
 static_assert(sizeof(::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteInEditMode]
 // Dependencies Noise3DTexturesGenerator::MaterialTextureParamsCouple, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -161,17 +162,18 @@ protected:
   constexpr Noise3DTexturesGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Noise3DTexturesGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Noise3DTexturesGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Noise3DTexturesGenerator(Noise3DTexturesGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Noise3DTexturesGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Noise3DTexturesGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Noise3DTexturesGenerator(Noise3DTexturesGenerator const&) = delete;
+  Noise3DTexturesGenerator(Noise3DTexturesGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20669 };
 
+  /// [SerializeField]
   /// @brief Field _data, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple> ____data;
 

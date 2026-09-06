@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\IOUtil.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/IOUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__IOUtil_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnum_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\ArrayOfArrays_1.hpp"
+// IWYU pragma private; include "Unity/Collections/ArrayOfArrays_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,15 +18,19 @@ struct AllocatorManager_AllocatorHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct ArrayOfArrays_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct ArrayOfArrays_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::ArrayOfArrays_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::ArrayOfArrays_1, "Unity.Collections", "ArrayOfArrays`1");
+// [DefaultMember("Item")]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.ArrayOfArrays`1<T>
 struct CORDL_TYPE ArrayOfArrays_1 {
@@ -50,12 +54,18 @@ public:
   /// @brief Method BlockIndexOfElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t BlockIndexOfElement(int32_t elementIndex);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckBlockIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckBlockIndex(int32_t blockIndex);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckBlockIsNotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckBlockIsNotNull(int32_t blockIndex);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckElementIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckElementIndex(int32_t elementIndex);
 
@@ -105,10 +115,10 @@ public:
   // @brief default ctor
   constexpr ArrayOfArrays_1();
 
-  // Ctor Parameters [CppParam { name: "m_backingAllocatorHandle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }, CppParam { name:
-  // "m_lengthInElements", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_capacityInElements", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_log2BlockSizeInElements", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_blocks", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_block", ty:
-  // "::System::IntPtr*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_backingAllocatorHandle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_lengthInElements", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_capacityInElements", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_log2BlockSizeInElements", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_blocks", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_block", ty: "::System::IntPtr*", modifiers: "", def_value: None, comment: None }]
   constexpr ArrayOfArrays_1(::Unity::Collections::AllocatorManager_AllocatorHandle m_backingAllocatorHandle, int32_t m_lengthInElements, int32_t m_capacityInElements,
                             int32_t m_log2BlockSizeInElements, int32_t m_blocks, ::System::IntPtr* m_block) noexcept;
 

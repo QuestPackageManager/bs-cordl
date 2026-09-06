@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\NativePassCompiler.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/NativePassCompiler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AttachmentDescriptor_impl.hpp"
@@ -22,9 +22,10 @@
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DynamicArray_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SubPassDescriptor_def.hpp"
-// Ctor Parameters [CppParam { name: "m_ResourcesForDebugOnly", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_RenderPasses", ty: "::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "debugName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "disableCulling", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ResourcesForDebugOnly", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_RenderPasses", ty: "::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>*", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "debugName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "disableCulling", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler_RenderGraphInputInfo::NativePassCompiler_RenderGraphInputInfo(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* m_ResourcesForDebugOnly,
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>* m_RenderPasses, ::StringW debugName, bool disableCulling) noexcept {
@@ -35,7 +36,7 @@ constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler_RenderGraphInputInfo::NativePassCompiler_RenderGraphInputInfo() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler_NativeCompilerProfileId::NativePassCompiler_NativeCompilerProfileId(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -818,7 +819,7 @@ inline bool UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
 }
 inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler::ExecuteCreateRessource(
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass) {
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler*>(),
                                                            { "ExecuteCreateRessource",
@@ -837,7 +838,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nativePass);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler::ValidateNativePass(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass, int32_t width, int32_t height, int32_t depth, int32_t samples,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass, int32_t width, int32_t height, int32_t depth, int32_t samples,
     int32_t attachmentCount) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler*>(),
@@ -848,7 +849,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nativePass, width, height, depth, samples, attachmentCount);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler::ValidateAttachmentRenderTarget(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> attRenderTargetInfo, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> attRenderTargetInfo, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
     int32_t nativePassWidth, int32_t nativePassHeight, int32_t nativePassMSAASamples) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler*>(),
                                                                                          { "ValidateAttachmentRenderTarget",
@@ -883,7 +884,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rgContext, resources, pass);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler::SetRandomWriteTarget(
-    ::by_ref<::UnityEngine::Rendering::CommandBuffer*> cmd, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources, int32_t index,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CommandBuffer*> cmd, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources, int32_t index,
     ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource, bool preserveCounterValue) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -908,7 +909,7 @@ UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassC
 }
 inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler::ExecuteGraph(
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
-    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>*> passes) {
+    /* [IsReadOnly] */ ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>*> passes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler*>(),
                                               { "ExecuteGraph",
@@ -920,7 +921,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo*
 UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler::MakeAttachmentInfo(
-    Il2CppObject* ctx, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass, int32_t attachmentIndex) {
+    Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass, int32_t attachmentIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler*>(),
                                               { "MakeAttachmentInfo",
@@ -931,7 +932,7 @@ UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassC
                                                                                                                                                                        nativePass, attachmentIndex);
 }
 inline ::StringW UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler::MakePassBreakInfoMessage(
-    Il2CppObject* ctx, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass) {
+    Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -940,8 +941,8 @@ inline ::StringW UnityEngine::Rendering::RenderGraphModule::NativeRenderPassComp
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, ctx, nativePass);
 }
 inline ::StringW UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler::MakePassMergeMessage(
-    Il2CppObject* ctx, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> prevPass,
+    Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> prevPass,
     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit mergeResult) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler*>(),

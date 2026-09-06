@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice\BeatmapFloorLightTilesGrid.hpp"
+// IWYU pragma private; include "Ice/BeatmapFloorLightTilesGrid.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,29 +87,34 @@ protected:
   constexpr BeatmapFloorLightTilesGrid();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapFloorLightTilesGrid", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapFloorLightTilesGrid", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapFloorLightTilesGrid(BeatmapFloorLightTilesGrid&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapFloorLightTilesGrid", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapFloorLightTilesGrid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapFloorLightTilesGrid(BeatmapFloorLightTilesGrid const&) = delete;
+  BeatmapFloorLightTilesGrid(BeatmapFloorLightTilesGridconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23243 };
 
+  /// [SerializeField]
   /// @brief Field _numberOfRows, offset: 0x20, size: 0x4, def value: None
   int32_t ____numberOfRows;
 
+  /// [SerializeField]
   /// @brief Field _tileWidth, offset: 0x24, size: 0x4, def value: None
   float_t ____tileWidth;
 
+  /// [SerializeField]
   /// @brief Field _tileHeight, offset: 0x28, size: 0x4, def value: None
   float_t ____tileHeight;
 
+  /// [SerializeField]
   /// @brief Field _floorLightTilesGrid, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Ice::FloorLightTilesGrid> ____floorLightTilesGrid;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectSpawnController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> ____beatmapObjectSpawnController;
 

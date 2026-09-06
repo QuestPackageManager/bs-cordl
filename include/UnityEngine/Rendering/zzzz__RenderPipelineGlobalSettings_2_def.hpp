@@ -1,33 +1,46 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineGlobalSettings_2.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineGlobalSettings_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineGlobalSettings_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
 CORDL_MODULE_EXPORT(RenderPipelineGlobalSettings_2)
 namespace System {
 template <typename T> class Lazy_1;
 }
 namespace UnityEngine::Rendering {
-template <typename TGlobalRenderPipelineSettings, typename TRenderPipeline> class RenderPipelineGlobalSettings_2___c;
+template <typename TGlobalRenderPipelineSettings, typename TRenderPipeline>
+  requires(::cordl_internals::type_constraint<TGlobalRenderPipelineSettings, ::UnityEngine::Rendering::RenderPipelineGlobalSettings*> &&
+           ::cordl_internals::type_constraint<TRenderPipeline, ::UnityEngine::Rendering::RenderPipeline*>)
+class RenderPipelineGlobalSettings_2___c;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename TGlobalRenderPipelineSettings, typename TRenderPipeline> class RenderPipelineGlobalSettings_2;
+template <typename TGlobalRenderPipelineSettings, typename TRenderPipeline>
+  requires(::cordl_internals::type_constraint<TGlobalRenderPipelineSettings, ::UnityEngine::Rendering::RenderPipelineGlobalSettings*> &&
+           ::cordl_internals::type_constraint<TRenderPipeline, ::UnityEngine::Rendering::RenderPipeline*>)
+class RenderPipelineGlobalSettings_2;
 }
 namespace UnityEngine::Rendering {
-template <typename TGlobalRenderPipelineSettings, typename TRenderPipeline> class RenderPipelineGlobalSettings_2___c;
+template <typename TGlobalRenderPipelineSettings, typename TRenderPipeline>
+  requires(::cordl_internals::type_constraint<TGlobalRenderPipelineSettings, ::UnityEngine::Rendering::RenderPipelineGlobalSettings*> &&
+           ::cordl_internals::type_constraint<TRenderPipeline, ::UnityEngine::Rendering::RenderPipeline*>)
+class RenderPipelineGlobalSettings_2___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderPipelineGlobalSettings_2);
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderPipelineGlobalSettings_2___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderPipelineGlobalSettings_2, "UnityEngine.Rendering", "RenderPipelineGlobalSettings`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderPipelineGlobalSettings_2___c, "UnityEngine.Rendering", "RenderPipelineGlobalSettings`2/<>c");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.Rendering.RenderPipeline, UnityEngine.Rendering.RenderPipelineGlobalSettings
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename TGlobalRenderPipelineSettings, typename TRenderPipeline>
+  requires(::cordl_internals::type_constraint<TGlobalRenderPipelineSettings, ::UnityEngine::Rendering::RenderPipelineGlobalSettings*> &&
+           ::cordl_internals::type_constraint<TRenderPipeline, ::UnityEngine::Rendering::RenderPipeline*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderPipelineGlobalSettings`2/<>c<TGlobalRenderPipelineSettings,TRenderPipeline>
 class CORDL_TYPE RenderPipelineGlobalSettings_2___c : public ::System::Object {
@@ -54,13 +67,13 @@ protected:
   constexpr RenderPipelineGlobalSettings_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings_2___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings_2___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipelineGlobalSettings_2___c(RenderPipelineGlobalSettings_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings_2___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipelineGlobalSettings_2___c(RenderPipelineGlobalSettings_2___c const&) = delete;
+  RenderPipelineGlobalSettings_2___c(RenderPipelineGlobalSettings_2___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12187 };
@@ -69,10 +82,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.RenderPipelineGlobalSettings
+// Dependencies UnityEngine.Rendering.RenderPipeline, UnityEngine.Rendering.RenderPipelineGlobalSettings
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename TGlobalRenderPipelineSettings, typename TRenderPipeline>
+  requires(::cordl_internals::type_constraint<TGlobalRenderPipelineSettings, ::UnityEngine::Rendering::RenderPipelineGlobalSettings*> &&
+           ::cordl_internals::type_constraint<TRenderPipeline, ::UnityEngine::Rendering::RenderPipeline*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderPipelineGlobalSettings`2<TGlobalRenderPipelineSettings,TRenderPipeline>
 class CORDL_TYPE RenderPipelineGlobalSettings_2 : public ::UnityEngine::Rendering::RenderPipelineGlobalSettings {
@@ -104,13 +119,13 @@ protected:
   constexpr RenderPipelineGlobalSettings_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipelineGlobalSettings_2(RenderPipelineGlobalSettings_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipelineGlobalSettings_2(RenderPipelineGlobalSettings_2 const&) = delete;
+  RenderPipelineGlobalSettings_2(RenderPipelineGlobalSettings_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12188 };

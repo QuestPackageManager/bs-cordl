@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\__DTString.hpp"
+// IWYU pragma private; include "System/__DTString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,8 @@ struct __DTString;
 // Write type traits
 MARK_VAL_T(::System::__DTString);
 DEFINE_IL2CPP_CLASS(::System::__DTString, "System", "__DTString");
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies System.ReadOnlySpan`1<T>
 namespace System {
 // Is value type: true
@@ -128,9 +130,9 @@ public:
   // @brief default ctor
   constexpr __DTString();
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_current", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "m_info", ty: "::System::Globalization::CompareInfo*", modifiers: "", def_value: None }, CppParam
-  // { name: "m_checkDigitToken", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Index", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_current", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_info", ty:
+  // "::System::Globalization::CompareInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_checkDigitToken", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr __DTString(::System::ReadOnlySpan_1<char16_t> Value, int32_t Index, char16_t m_current, ::System::Globalization::CompareInfo* m_info, bool m_checkDigitToken) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

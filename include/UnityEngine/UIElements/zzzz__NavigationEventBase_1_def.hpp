@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\NavigationEventBase_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationEventBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +21,19 @@ struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class NavigationEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class NavigationEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::NavigationEventBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::NavigationEventBase_1, "UnityEngine.UIElements", "NavigationEventBase`1");
+// [EventCategory((UnityEngine.UIElements.EventCategory)14)]
 // Dependencies UnityEngine.EventModifiers, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.NavigationDeviceType
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.NavigationEventBase`1<T>
 class CORDL_TYPE NavigationEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
@@ -88,9 +92,11 @@ public:
   /// @brief Method get_altKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_altKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deviceType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::NavigationDeviceType get_deviceType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();
 
@@ -100,9 +106,11 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::INavigationEvent"
   constexpr ::UnityEngine::UIElements::INavigationEvent* i___UnityEngine__UIElements__INavigationEvent() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_deviceType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_deviceType(::UnityEngine::UIElements::NavigationDeviceType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_modifiers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
@@ -112,20 +120,24 @@ protected:
   constexpr NavigationEventBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationEventBase_1(NavigationEventBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationEventBase_1(NavigationEventBase_1 const&) = delete;
+  NavigationEventBase_1(NavigationEventBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4517 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <modifiers>k__BackingField, offset: 0x64, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <deviceType>k__BackingField, offset: 0x68, size: 0x4, def value: None
   ::UnityEngine::UIElements::NavigationDeviceType ____deviceType_k__BackingField;
 

@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\Event.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/Event.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/InputForUI/zzzz__CommandEvent_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__IEventProperties_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__KeyEvent_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__NavigationEvent_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerEvent_def.hpp"
@@ -124,7 +125,7 @@ public:
   // @brief default ctor
   constexpr Event_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Event_Type(int32_t value__) noexcept;
 
   /// @brief Field CommandEvent value: I32(5)
@@ -165,7 +166,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::Event_Type, value__) == 0x0, "
 static_assert(sizeof(::UnityEngine::InputForUI::Event_Type) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
-// Dependencies
+// Dependencies UnityEngine.InputForUI.IEventProperties
 namespace UnityEngine::InputForUI {
 // cpp template
 template <typename TOutputType>
@@ -174,12 +175,14 @@ template <typename TOutputType>
 class CORDL_TYPE Event_IMapFn_1 {
 public:
   // Declarations
-  /// @brief Method Map, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TEventType> inline TOutputType Map(::by_ref<TEventType> ev);
+  /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename TEventType>
+    requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::InputForUI::IEventProperties*>)
+  inline TOutputType Map(::by_ref<TEventType> ev);
 
-  // Ctor Parameters [CppParam { name: "", ty: "Event_IMapFn_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Event_IMapFn_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Event_IMapFn_1(Event_IMapFn_1 const&) = delete;
+  Event_IMapFn_1(Event_IMapFn_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21797 };
@@ -188,7 +191,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputForUI
-// Dependencies
+// Dependencies UnityEngine.InputForUI.IEventProperties
 namespace UnityEngine::InputForUI {
 // Is value type: true
 // CS Name: UnityEngine.InputForUI.Event/MapAsObject
@@ -200,7 +203,9 @@ public:
   constexpr operator ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>*();
 
   /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TEventType> inline ::UnityEngine::InputForUI::IEventProperties* Map(::by_ref<TEventType> ev);
+  template <typename TEventType>
+    requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::InputForUI::IEventProperties*>)
+  inline ::UnityEngine::InputForUI::IEventProperties* Map(::by_ref<TEventType> ev);
 
   /// @brief Convert to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>"
   constexpr ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>* i___UnityEngine__InputForUI__Event_IMapFn_1___UnityEngine__InputForUI__IEventProperties__();
@@ -225,7 +230,7 @@ public:
 static_assert(sizeof(::UnityEngine::InputForUI::Event_MapAsObject) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
-// Dependencies
+// Dependencies UnityEngine.InputForUI.IEventProperties
 namespace UnityEngine::InputForUI {
 // Is value type: true
 // CS Name: UnityEngine.InputForUI.Event/MapAsEventSource
@@ -237,7 +242,9 @@ public:
   constexpr operator ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>*();
 
   /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TEventType> inline ::UnityEngine::InputForUI::EventSource Map(::by_ref<TEventType> ev);
+  template <typename TEventType>
+    requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::InputForUI::IEventProperties*>)
+  inline ::UnityEngine::InputForUI::EventSource Map(::by_ref<TEventType> ev);
 
   /// @brief Convert to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>"
   constexpr ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>* i___UnityEngine__InputForUI__Event_IMapFn_1___UnityEngine__InputForUI__EventSource_();
@@ -262,7 +269,7 @@ public:
 static_assert(sizeof(::UnityEngine::InputForUI::Event_MapAsEventSource) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
-// Dependencies
+// Dependencies UnityEngine.InputForUI.IEventProperties
 namespace UnityEngine::InputForUI {
 // Is value type: true
 // CS Name: UnityEngine.InputForUI.Event/MapAsEventModifiers
@@ -274,7 +281,9 @@ public:
   constexpr operator ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>*();
 
   /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TEventType> inline ::UnityEngine::InputForUI::EventModifiers Map(::by_ref<TEventType> ev);
+  template <typename TEventType>
+    requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::InputForUI::IEventProperties*>)
+  inline ::UnityEngine::InputForUI::EventModifiers Map(::by_ref<TEventType> ev);
 
   /// @brief Convert to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>"
   constexpr ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>* i___UnityEngine__InputForUI__Event_IMapFn_1___UnityEngine__InputForUI__EventModifiers_();
@@ -299,8 +308,9 @@ public:
 static_assert(sizeof(::UnityEngine::InputForUI::Event_MapAsEventModifiers) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
-// Dependencies UnityEngine.InputForUI.CommandEvent, UnityEngine.InputForUI.Event::Type, UnityEngine.InputForUI.KeyEvent, UnityEngine.InputForUI.NavigationEvent, UnityEngine.InputForUI.PointerEvent,
-// UnityEngine.InputForUI.TextInputEvent
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+// Dependencies UnityEngine.InputForUI.CommandEvent, UnityEngine.InputForUI.Event::IMapFn`1<TOutputType>, UnityEngine.InputForUI.Event::Type, UnityEngine.InputForUI.KeyEvent,
+// UnityEngine.InputForUI.NavigationEvent, UnityEngine.InputForUI.PointerEvent, UnityEngine.InputForUI.TextInputEvent
 namespace UnityEngine::InputForUI {
 // Is value type: true
 // CS Name: UnityEngine.InputForUI.Event
@@ -389,10 +399,14 @@ public:
   static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::TextInputEvent textInputEvent);
 
   /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TOutputType, typename TMapType> inline TOutputType Map();
+  template <typename TOutputType, typename TMapType>
+    requires(::cordl_internals::type_constraint<TMapType, ::UnityEngine::InputForUI::Event_IMapFn_1<TOutputType>*> && ::cordl_internals::default_constructor_constraint<TMapType>)
+  inline TOutputType Map();
 
   /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TOutputType, typename TMapType> inline TOutputType Map(TMapType fn);
+  template <typename TOutputType, typename TMapType>
+    requires(::cordl_internals::type_constraint<TMapType, ::UnityEngine::InputForUI::Event_IMapFn_1<TOutputType>*>)
+  inline TOutputType Map(TMapType fn);
 
   /// @brief Method ToString, addr 0x6b58a8c, size 0x190, virtual true, abstract: false, final false
   inline ::StringW ToString();
@@ -480,11 +494,11 @@ public:
   // @brief default ctor
   constexpr Event();
 
-  // Ctor Parameters [CppParam { name: "_type", ty: "::UnityEngine::InputForUI::Event_Type", modifiers: "", def_value: None }, CppParam { name: "_managedEvent", ty: "::System::Object*", modifiers: "",
-  // def_value: None }, CppParam { name: "_keyEvent", ty: "::UnityEngine::InputForUI::KeyEvent", modifiers: "", def_value: None }, CppParam { name: "_pointerEvent", ty:
-  // "::UnityEngine::InputForUI::PointerEvent", modifiers: "", def_value: None }, CppParam { name: "_textInputEvent", ty: "::UnityEngine::InputForUI::TextInputEvent", modifiers: "", def_value: None },
-  // CppParam { name: "_commandEvent", ty: "::UnityEngine::InputForUI::CommandEvent", modifiers: "", def_value: None }, CppParam { name: "_navigationEvent", ty:
-  // "::UnityEngine::InputForUI::NavigationEvent", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_type", ty: "::UnityEngine::InputForUI::Event_Type", modifiers: "", def_value: None, comment: None }, CppParam { name: "_managedEvent", ty: "::System::Object*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_keyEvent", ty: "::UnityEngine::InputForUI::KeyEvent", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_pointerEvent", ty: "::UnityEngine::InputForUI::PointerEvent", modifiers: "", def_value: None, comment: None }, CppParam { name: "_textInputEvent", ty:
+  // "::UnityEngine::InputForUI::TextInputEvent", modifiers: "", def_value: None, comment: None }, CppParam { name: "_commandEvent", ty: "::UnityEngine::InputForUI::CommandEvent", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_navigationEvent", ty: "::UnityEngine::InputForUI::NavigationEvent", modifiers: "", def_value: None, comment: None }]
   constexpr Event(::UnityEngine::InputForUI::Event_Type _type, ::System::Object* _managedEvent, ::UnityEngine::InputForUI::KeyEvent _keyEvent, ::UnityEngine::InputForUI::PointerEvent _pointerEvent,
                   ::UnityEngine::InputForUI::TextInputEvent _textInputEvent, ::UnityEngine::InputForUI::CommandEvent _commandEvent,
                   ::UnityEngine::InputForUI::NavigationEvent _navigationEvent) noexcept;

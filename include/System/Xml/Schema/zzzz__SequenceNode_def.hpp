@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SequenceNode.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SequenceNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,9 +48,10 @@ public:
   // @brief default ctor
   constexpr SequenceNode_SequenceConstructPosContext();
 
-  // Ctor Parameters [CppParam { name: "this_", ty: "::System::Xml::Schema::SequenceNode*", modifiers: "", def_value: None }, CppParam { name: "firstpos", ty: "::System::Xml::Schema::BitSet*",
-  // modifiers: "", def_value: None }, CppParam { name: "lastpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None }, CppParam { name: "lastposLeft", ty:
-  // "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None }, CppParam { name: "firstposRight", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "this_", ty: "::System::Xml::Schema::SequenceNode*", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstpos", ty:
+  // "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "lastposLeft", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstposRight", ty: "::System::Xml::Schema::BitSet*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr SequenceNode_SequenceConstructPosContext(::System::Xml::Schema::SequenceNode* this_, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                                                      ::System::Xml::Schema::BitSet* lastposLeft, ::System::Xml::Schema::BitSet* firstposRight) noexcept;
 
@@ -122,13 +123,13 @@ protected:
   constexpr SequenceNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SequenceNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SequenceNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SequenceNode(SequenceNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SequenceNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SequenceNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SequenceNode(SequenceNode const&) = delete;
+  SequenceNode(SequenceNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9594 };

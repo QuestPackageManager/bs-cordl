@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonConverterAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonConverterAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,9 @@ class JsonConverterAttribute;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::JsonConverterAttribute*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonConverterAttribute*, "Newtonsoft.Json", "JsonConverterAttribute");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [AttributeUsage((System.AttributeTargets)3484, AllowMultiple = false)]
 // Dependencies System.Attribute, System.Object
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -27,6 +30,7 @@ namespace Newtonsoft::Json {
 class CORDL_TYPE JsonConverterAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_ConverterParameters)) ::ArrayW<::System::Object*> ConverterParameters;
 
   __declspec(property(get = get_ConverterType)) ::System::Type* ConverterType;
@@ -40,7 +44,7 @@ public:
 
   static inline ::Newtonsoft::Json::JsonConverterAttribute* New_ctor(::System::Type* converterType);
 
-  static inline ::Newtonsoft::Json::JsonConverterAttribute* New_ctor(::System::Type* converterType, ::ArrayW<::System::Object*> converterParameters);
+  static inline ::Newtonsoft::Json::JsonConverterAttribute* New_ctor(::System::Type* converterType, /* [ParamArray] */ ::ArrayW<::System::Object*> converterParameters);
 
   constexpr ::ArrayW<::System::Object*> const& __cordl_internal_get__ConverterParameters_k__BackingField() const;
 
@@ -58,8 +62,9 @@ public:
   inline void _ctor(::System::Type* converterType);
 
   /// @brief Method .ctor, addr 0x5cd6e8c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* converterType, ::ArrayW<::System::Object*> converterParameters);
+  inline void _ctor(::System::Type* converterType, /* [ParamArray] */ ::ArrayW<::System::Object*> converterParameters);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ConverterParameters, addr 0x5cd6e00, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> get_ConverterParameters();
 
@@ -72,13 +77,13 @@ protected:
   constexpr JsonConverterAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonConverterAttribute(JsonConverterAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonConverterAttribute(JsonConverterAttribute const&) = delete;
+  JsonConverterAttribute(JsonConverterAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13251 };
@@ -86,6 +91,8 @@ public:
   /// @brief Field _converterType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____converterType;
 
+  /// [Nullable(new[] { 2, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field <ConverterParameters>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::System::Object*> ____ConverterParameters_k__BackingField;
 

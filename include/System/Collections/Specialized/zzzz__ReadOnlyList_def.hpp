@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Specialized\ReadOnlyList.hpp"
+// IWYU pragma private; include "System/Collections/Specialized/ReadOnlyList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ class ReadOnlyList;
 // Write type traits
 MARK_REF_T(::System::Collections::Specialized::ReadOnlyList*);
 DEFINE_IL2CPP_CLASS(::System::Collections::Specialized::ReadOnlyList*, "System.Collections.Specialized", "ReadOnlyList");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Collections::Specialized {
 // Is value type: false
@@ -136,13 +137,13 @@ protected:
   constexpr ReadOnlyList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReadOnlyList(ReadOnlyList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyList(ReadOnlyList const&) = delete;
+  ReadOnlyList(ReadOnlyListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11379 };

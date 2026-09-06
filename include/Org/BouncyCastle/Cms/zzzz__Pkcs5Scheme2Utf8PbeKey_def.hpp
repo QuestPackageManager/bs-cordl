@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\Pkcs5Scheme2Utf8PbeKey.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/Pkcs5Scheme2Utf8PbeKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,8 +35,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey* New_ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
+  /// @brief [Obsolete("Use version taking \'char[]\' instead")]
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey* New_ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
+  /// @brief [Obsolete("Use version taking \'char[]\' instead")]
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey* New_ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
   /// @brief Method .ctor, addr 0x36d3194, size 0x4, virtual false, abstract: false, final false
@@ -45,9 +47,11 @@ public:
   /// @brief Method .ctor, addr 0x36d3154, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
+  /// [Obsolete("Use version taking \'char[]\' instead")]
   /// @brief Method .ctor, addr 0x36d3158, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
+  /// [Obsolete("Use version taking \'char[]\' instead")]
   /// @brief Method .ctor, addr 0x36d3110, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
@@ -57,13 +61,13 @@ protected:
   constexpr Pkcs5Scheme2Utf8PbeKey();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs5Scheme2Utf8PbeKey", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs5Scheme2Utf8PbeKey", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs5Scheme2Utf8PbeKey(Pkcs5Scheme2Utf8PbeKey&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs5Scheme2Utf8PbeKey", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs5Scheme2Utf8PbeKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs5Scheme2Utf8PbeKey(Pkcs5Scheme2Utf8PbeKey const&) = delete;
+  Pkcs5Scheme2Utf8PbeKey(Pkcs5Scheme2Utf8PbeKeyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 685 };

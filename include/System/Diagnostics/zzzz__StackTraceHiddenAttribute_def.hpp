@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\StackTraceHiddenAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/StackTraceHiddenAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class StackTraceHiddenAttribute;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::StackTraceHiddenAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::StackTraceHiddenAttribute*, "System.Diagnostics", "StackTraceHiddenAttribute");
+// [AttributeUsage((System.AttributeTargets)108, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Diagnostics {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr StackTraceHiddenAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StackTraceHiddenAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackTraceHiddenAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackTraceHiddenAttribute(StackTraceHiddenAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StackTraceHiddenAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackTraceHiddenAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackTraceHiddenAttribute(StackTraceHiddenAttribute const&) = delete;
+  StackTraceHiddenAttribute(StackTraceHiddenAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3655 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VRBoneTransform_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VRBoneTransform_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr VRBoneTransform_t();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::OVR::OpenVR::HmdVector4_t", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::OVR::OpenVR::HmdQuaternionf_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::OVR::OpenVR::HmdVector4_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "orientation", ty:
+  // "::OVR::OpenVR::HmdQuaternionf_t", modifiers: "", def_value: None, comment: None }]
   constexpr VRBoneTransform_t(::OVR::OpenVR::HmdVector4_t position, ::OVR::OpenVR::HmdQuaternionf_t orientation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IVolumeDebugSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IVolumeDebugSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,54 +58,54 @@ public:
 
   __declspec(property(get = get_selectedComponentType, put = set_selectedComponentType)) ::System::Type* selectedComponentType;
 
-  /// @brief Method GetVolumeWeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetVolumeWeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetVolumeWeight(::UnityEngine::Rendering::Volume* volume);
 
-  /// @brief Method GetVolumes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetVolumes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Rendering::Volume>> GetVolumes();
 
-  /// @brief Method RefreshVolumes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RefreshVolumes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool RefreshVolumes(::ArrayW<::UnityEngine::Rendering::Volume*> newVolumes);
 
-  /// @brief Method VolumeHasInfluence, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method VolumeHasInfluence, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool VolumeHasInfluence(::UnityEngine::Rendering::Volume* volume);
 
-  /// @brief Method get_cameras, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_cameras, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>* get_cameras();
 
-  /// @brief Method get_selectedCamera, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCamera, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Camera> get_selectedCamera();
 
-  /// @brief Method get_selectedCameraIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_selectedCameraIndex();
 
-  /// @brief Method get_selectedCameraLayerMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraLayerMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::LayerMask get_selectedCameraLayerMask();
 
-  /// @brief Method get_selectedCameraPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_selectedCameraPosition();
 
-  /// @brief Method get_selectedCameraVolumeStack, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraVolumeStack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::VolumeStack* get_selectedCameraVolumeStack();
 
-  /// @brief Method get_selectedComponent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_selectedComponent();
 
-  /// @brief Method get_selectedComponentType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedComponentType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_selectedComponentType();
 
-  /// @brief Method set_selectedCameraIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_selectedCameraIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_selectedCameraIndex(int32_t value);
 
-  /// @brief Method set_selectedComponent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_selectedComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_selectedComponent(int32_t value);
 
-  /// @brief Method set_selectedComponentType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_selectedComponentType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_selectedComponentType(::System::Type* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVolumeDebugSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVolumeDebugSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVolumeDebugSettings(IVolumeDebugSettings const&) = delete;
+  IVolumeDebugSettings(IVolumeDebugSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12047 };

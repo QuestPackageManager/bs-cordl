@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionTest_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionCullingSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionTest_def.hpp"
@@ -22,8 +22,9 @@ inline void UnityEngine::Rendering::OcclusionCullingSettings::_ctor(int32_t view
                                                                                          { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::OcclusionTest>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, viewInstanceID, occlusionTest);
 }
-// Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "occlusionTest", ty: "::UnityEngine::Rendering::OcclusionTest",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceMultiplier", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occlusionTest", ty:
+// "::UnityEngine::Rendering::OcclusionTest", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceMultiplier", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::OcclusionCullingSettings::OcclusionCullingSettings(int32_t viewInstanceID, ::UnityEngine::Rendering::OcclusionTest occlusionTest,
                                                                                        int32_t instanceMultiplier) noexcept {
   this->viewInstanceID = viewInstanceID;

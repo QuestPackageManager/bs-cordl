@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlPlayableBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlPlayableBehaviour.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectPlayableSerializedEvent_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectControlPlayableBehaviour_def.hpp"

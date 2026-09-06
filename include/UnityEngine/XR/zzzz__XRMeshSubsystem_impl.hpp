@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRMeshSubsystem.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRMeshSubsystem.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRMeshSubsystem_def.hpp"
@@ -50,7 +50,7 @@ constexpr UnityEngine::XR::XRMeshSubsystem_MeshTransformList::operator ::System:
 constexpr ::System::IDisposable* UnityEngine::XR::XRMeshSubsystem_MeshTransformList::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Self", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Self", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::XRMeshSubsystem_MeshTransformList::XRMeshSubsystem_MeshTransformList(::System::IntPtr m_Self) noexcept {
   this->m_Self = m_Self;
 }

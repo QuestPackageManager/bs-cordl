@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\quaternion.hpp"
+// IWYU pragma private; include "Unity/Mathematics/quaternion.hpp"
 #include "Unity/Mathematics/zzzz__float4_impl.hpp"
 #include "Unity/Mathematics/zzzz__quaternion_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -628,7 +628,7 @@ constexpr Unity::Mathematics::quaternion::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* Unity::Mathematics::quaternion::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::quaternion::quaternion(::Unity::Mathematics::float4 value) noexcept {
   this->value = value;
 }

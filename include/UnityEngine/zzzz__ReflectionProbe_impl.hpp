@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ReflectionProbe.hpp"
+// IWYU pragma private; include "UnityEngine/ReflectionProbe.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__ReflectionProbe_def.hpp"
@@ -21,7 +21,7 @@
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ReflectionProbe_ReflectionProbeEvent::ReflectionProbe_ReflectionProbeEvent(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1989,7 +1989,7 @@ inline int32_t UnityEngine::ReflectionProbe::RenderProbe() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ReflectionProbe*>(), { "RenderProbe", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t UnityEngine::ReflectionProbe::RenderProbe(::UnityEngine::RenderTexture* targetTexture) {
+inline int32_t UnityEngine::ReflectionProbe::RenderProbe(/* [DefaultValue("null")] */ ::UnityEngine::RenderTexture* targetTexture) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ReflectionProbe*>(), { "RenderProbe", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, targetTexture);

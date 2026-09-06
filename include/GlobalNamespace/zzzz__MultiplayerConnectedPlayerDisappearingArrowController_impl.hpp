@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerDisappearingArrowController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerDisappearingArrowController.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerDisappearingArrowController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"

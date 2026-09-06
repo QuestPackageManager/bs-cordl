@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorStyle.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorStyle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -305,62 +305,82 @@ protected:
   constexpr ColorStyle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorStyle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorStyle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorStyle(ColorStyle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorStyle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorStyle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorStyle(ColorStyle const&) = delete;
+  ColorStyle(ColorStyleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23153 };
 
+  /// [SerializeField]
   /// @brief Field _useScriptableObjectColor, offset: 0x10, size: 0x1, def value: None
   bool ____useScriptableObjectColor;
 
+  /// [SerializeField]
   /// @brief Field _color, offset: 0x14, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _colorSo, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____colorSo;
 
+  /// [SerializeField]
   /// @brief Field _globalLightTintIntensity, offset: 0x30, size: 0x4, def value: None
   float_t ____globalLightTintIntensity;
 
+  /// [SerializeField]
   /// @brief Field _gradient, offset: 0x34, size: 0x1, def value: None
   bool ____gradient;
 
+  /// [SerializeField]
   /// @brief Field _useScriptableObjectGradientColors, offset: 0x35, size: 0x1, def value: None
   bool ____useScriptableObjectGradientColors;
 
+  /// [SerializeField]
   /// @brief Field _color0, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Color ____color0;
 
+  /// [SerializeField]
   /// @brief Field _color1, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____color1;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _color0So, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color0So;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _color1So, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color1So;
 
+  /// [SerializeField]
   /// @brief Field _gradientDirection, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::GradientDirection ____gradientDirection;
 
+  /// [SerializeField]
   /// @brief Field _flipGradientColors, offset: 0x6c, size: 0x1, def value: None
   bool ____flipGradientColors;
 
+  /// [SerializeField]
   /// @brief Field _useMultiStepGradient, offset: 0x6d, size: 0x1, def value: None
   bool ____useMultiStepGradient;
 
+  /// [SerializeField]
   /// @brief Field _multiStepGradient, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Gradient* ____multiStepGradient;
 
+  /// [SerializeField]
   /// @brief Field _useScriptableObjectMultiStepGradient, offset: 0x78, size: 0x1, def value: None
   bool ____useScriptableObjectMultiStepGradient;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _multiStepGradientSo, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GradientSO> ____multiStepGradientSo;
 

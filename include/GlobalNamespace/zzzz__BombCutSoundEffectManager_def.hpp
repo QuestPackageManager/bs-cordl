@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BombCutSoundEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/BombCutSoundEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   inline void HandleBombCutSoundEffectDidFinish(::GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
 
   /// @brief Method HandleNoteWasCut, addr 0x58b663c, size 0x240, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::BombCutSoundEffectManager* New_ctor();
 
@@ -124,29 +124,34 @@ protected:
   constexpr BombCutSoundEffectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BombCutSoundEffectManager(BombCutSoundEffectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombCutSoundEffectManager(BombCutSoundEffectManager const&) = delete;
+  BombCutSoundEffectManager(BombCutSoundEffectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5561 };
 
+  /// [SerializeField]
   /// @brief Field _volume, offset: 0x20, size: 0x4, def value: None
   float_t ____volume;
 
+  /// [SerializeField]
   /// @brief Field _bombExplosionAudioClips, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____bombExplosionAudioClips;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field saberManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ___saberManager;
 
+  /// [Inject]
   /// @brief Field _bombCutSoundEffectPool, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BombCutSoundEffect_Pool* ____bombCutSoundEffectPool;
 

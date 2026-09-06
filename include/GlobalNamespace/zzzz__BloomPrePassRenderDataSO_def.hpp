@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassRenderDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassRenderDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,13 +112,13 @@ protected:
   constexpr BloomPrePassRenderDataSO_Data();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO_Data", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO_Data", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRenderDataSO_Data(BloomPrePassRenderDataSO_Data&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO_Data", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO_Data", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRenderDataSO_Data(BloomPrePassRenderDataSO_Data const&) = delete;
+  BloomPrePassRenderDataSO_Data(BloomPrePassRenderDataSO_Dataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19468 };
@@ -193,13 +193,13 @@ protected:
   constexpr BloomPrePassRenderDataSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRenderDataSO(BloomPrePassRenderDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRenderDataSO(BloomPrePassRenderDataSO const&) = delete;
+  BloomPrePassRenderDataSO(BloomPrePassRenderDataSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19469 };

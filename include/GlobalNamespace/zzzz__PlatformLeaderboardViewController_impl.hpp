@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformLeaderboardViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformLeaderboardViewController.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_impl.hpp"
@@ -73,11 +73,11 @@ constexpr GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::ope
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "showLoadingIndicator", ty: "bool", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "showLoadingIndicator", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::PlatformLeaderboardViewController__Refresh_d__40(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> __4__this, bool showLoadingIndicator,
     bool clear, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -266,6 +266,7 @@ inline ::System::Object* GlobalNamespace::PlatformLeaderboardViewController__Ref
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(__1__state));
 }
@@ -845,7 +846,7 @@ inline ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> GlobalNamespace::P
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "get_leaderboardsModel", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlatformLeaderboardViewController::SetData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::PlatformLeaderboardViewController::SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey);

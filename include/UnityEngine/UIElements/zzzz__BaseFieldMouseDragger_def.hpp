@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseFieldMouseDragger.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseFieldMouseDragger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class BaseFieldMouseDragger;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::BaseFieldMouseDragger*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseFieldMouseDragger*, "UnityEngine.UIElements", "BaseFieldMouseDragger");
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -30,7 +31,7 @@ public:
   /// @brief Method SetDragZone, addr 0x6da7528, size 0x1c, virtual false, abstract: false, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement);
 
-  /// @brief Method SetDragZone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetDragZone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement, ::UnityEngine::Rect hotZone);
 
   /// @brief Method .ctor, addr 0x6da7544, size 0x4, virtual false, abstract: false, final false
@@ -42,13 +43,13 @@ protected:
   constexpr BaseFieldMouseDragger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseFieldMouseDragger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseFieldMouseDragger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseFieldMouseDragger(BaseFieldMouseDragger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseFieldMouseDragger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseFieldMouseDragger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseFieldMouseDragger(BaseFieldMouseDragger const&) = delete;
+  BaseFieldMouseDragger(BaseFieldMouseDraggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4577 };

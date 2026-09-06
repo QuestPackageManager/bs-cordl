@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardsIdModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsIdModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsIdModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline ::StringW GlobalNamespace::LocalLeaderboardsIdModel::GetLocalLeaderboardID(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::StringW GlobalNamespace::LocalLeaderboardsIdModel::GetLocalLeaderboardID(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsIdModel*>(),
                                                                                          { "GetLocalLeaderboardID", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, beatmapKey);

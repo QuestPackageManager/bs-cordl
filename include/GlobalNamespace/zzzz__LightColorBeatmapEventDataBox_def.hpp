@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightColorBeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightColorBeatmapEventDataBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,6 +65,7 @@ MARK_REF_T(::GlobalNamespace::LightColorBeatmapEventDataBox*);
 MARK_REF_T(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightColorBeatmapEventDataBox*, "", "LightColorBeatmapEventDataBox");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9*, "", "LightColorBeatmapEventDataBox/<Unpack>d__9");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -168,23 +169,30 @@ public:
   /// @brief Method MoveNext, addr 0x371a1fc, size 0x774, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x371aa6c, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x371aa24, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x371ab44, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x371aa2c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x371aa64, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x371a1e0, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -335,6 +343,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x371a970, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x371a1c0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -359,13 +368,13 @@ protected:
   constexpr LightColorBeatmapEventDataBox__Unpack_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox__Unpack_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox__Unpack_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightColorBeatmapEventDataBox__Unpack_d__9(LightColorBeatmapEventDataBox__Unpack_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox__Unpack_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox__Unpack_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightColorBeatmapEventDataBox__Unpack_d__9(LightColorBeatmapEventDataBox__Unpack_d__9 const&) = delete;
+  LightColorBeatmapEventDataBox__Unpack_d__9(LightColorBeatmapEventDataBox__Unpack_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14930 };
@@ -529,6 +538,7 @@ public:
                                                                            bool brightnessDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType brightnessDistributionEaseType,
                                                                            ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList);
 
+  /// [IteratorStateMachine(typeof(LightColorBeatmapEventDataBox::<Unpack>d__9))]
   /// @brief Method Unpack, addr 0x371a0f4, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex,
                                                                                                      int32_t distributionOrderIndex, float_t maxBeat,
@@ -577,13 +587,13 @@ protected:
   constexpr LightColorBeatmapEventDataBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightColorBeatmapEventDataBox(LightColorBeatmapEventDataBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightColorBeatmapEventDataBox(LightColorBeatmapEventDataBox const&) = delete;
+  LightColorBeatmapEventDataBox(LightColorBeatmapEventDataBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14931 };

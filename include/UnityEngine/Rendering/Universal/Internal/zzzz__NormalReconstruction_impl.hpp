@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\NormalReconstruction.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/NormalReconstruction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__NormalReconstruction_def.hpp"
@@ -87,7 +87,7 @@ inline ::ArrayW<::UnityEngine::Matrix4x4> UnityEngine::Rendering::Universal::Int
   return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Matrix4x4>, "s_NormalReconstructionMatrix", ::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>();
 }
 inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                                               ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
@@ -95,7 +95,7 @@ inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::S
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cameraData);
 }
 inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
-                                                                                               ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -112,7 +112,7 @@ inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::S
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cameraData);
 }
 inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
-                                                                                               ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData) {
+                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

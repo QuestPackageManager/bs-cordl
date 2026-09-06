@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\GeneratePropertyBagsForTypesQualifiedWithAttribute.hpp"
+// IWYU pragma private; include "Unity/Properties/GeneratePropertyBagsForTypesQualifiedWithAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Properties/zzzz__TypeGenerationOptions_impl.hpp"
 #include "Unity/Properties/zzzz__GeneratePropertyBagsForTypesQualifiedWithAttribute_def.hpp"

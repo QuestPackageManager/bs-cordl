@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\SerializableDictionary_3.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/SerializableDictionary_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BGLib/UnityExtension/zzzz__SerializableDictionaryBase_3_def.hpp"
+#include "BGLib/UnityExtension/zzzz__SerializableDictionary_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializableDictionary_3)
@@ -18,15 +19,18 @@ struct StreamingContext;
 }
 // Forward declare root types
 namespace BGLib::UnityExtension {
-template <typename TKey, typename TValue, typename TValueStorage> class SerializableDictionary_3;
+template <typename TKey, typename TValue, typename TValueStorage>
+  requires(::cordl_internals::type_constraint<TValueStorage, ::BGLib::UnityExtension::SerializableDictionary_Storage_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TValueStorage>)
+class SerializableDictionary_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BGLib::UnityExtension::SerializableDictionary_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::UnityExtension::SerializableDictionary_3, "BGLib.UnityExtension", "SerializableDictionary`3");
-// Dependencies BGLib.UnityExtension.SerializableDictionaryBase`3<TKey, TValue, TValueStorage>
+// Dependencies BGLib.UnityExtension.SerializableDictionary::Storage`1<T>, BGLib.UnityExtension.SerializableDictionaryBase`3<TKey, TValue, TValueStorage>
 namespace BGLib::UnityExtension {
 // cpp template
 template <typename TKey, typename TValue, typename TValueStorage>
+  requires(::cordl_internals::type_constraint<TValueStorage, ::BGLib::UnityExtension::SerializableDictionary_Storage_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TValueStorage>)
 // Is value type: false
 // CS Name: BGLib.UnityExtension.SerializableDictionary`3<TKey,TValue,TValueStorage>
 class CORDL_TYPE SerializableDictionary_3 : public ::BGLib::UnityExtension::SerializableDictionaryBase_3<TKey, TValue, TValueStorage> {
@@ -60,13 +64,13 @@ protected:
   constexpr SerializableDictionary_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionary_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionary_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializableDictionary_3(SerializableDictionary_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionary_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionary_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableDictionary_3(SerializableDictionary_3 const&) = delete;
+  SerializableDictionary_3(SerializableDictionary_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20808 };

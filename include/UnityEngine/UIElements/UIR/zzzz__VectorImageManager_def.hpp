@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\VectorImageManager.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/VectorImageManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -170,6 +170,7 @@ public:
   /// @brief Method get_atlas, addr 0x6cf6164, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cf6348, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
@@ -182,6 +183,7 @@ public:
 
   static inline void setStaticF_s_MarkerUnregister(::Unity::Profiling::ProfilerMarker value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cf6350, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -191,13 +193,13 @@ protected:
   constexpr VectorImageManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VectorImageManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VectorImageManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VectorImageManager(VectorImageManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VectorImageManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VectorImageManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VectorImageManager(VectorImageManager const&) = delete;
+  VectorImageManager(VectorImageManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5366 };
@@ -220,6 +222,8 @@ public:
   /// @brief Field m_LoggedExhaustedSettingsAtlas, offset: 0x38, size: 0x1, def value: None
   bool ___m_LoggedExhaustedSettingsAtlas;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

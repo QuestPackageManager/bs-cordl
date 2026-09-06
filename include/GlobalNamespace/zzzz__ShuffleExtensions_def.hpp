@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ShuffleExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ShuffleExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,6 +65,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::ShuffleExtensions*, "", "ShuffleExtension
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1, "", "ShuffleExtensions/<PickRandomElementsWithTombstone>d__1`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ShuffleExtensions__TakeWithTombstone_d__2_1, "", "ShuffleExtensions/<TakeWithTombstone>d__2`1");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3*, "", "ShuffleExtensions/<ZipSkipTombstone>d__3");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
@@ -144,23 +145,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -263,6 +271,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -287,13 +296,13 @@ protected:
   constexpr ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1(ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1(ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1 const&) = delete;
+  ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1(ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20468 };
@@ -301,15 +310,18 @@ public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
   T _____2__current;
 
   /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
   int32_t _____l__initialThreadId;
 
+  /// [Nullable(0)]
   /// @brief Field source, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<T>* ___source;
 
+  /// [Nullable(0)]
   /// @brief Field <>3__source, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<T>* _____3__source;
 
@@ -319,9 +331,11 @@ public:
   /// @brief Field <>3__count, offset: 0x3c, size: 0x4, def value: None
   int32_t _____3__count;
 
+  /// [Nullable(0)]
   /// @brief Field random, offset: 0x40, size: 0x8, def value: None
   ::System::Random* ___random;
 
+  /// [Nullable(0)]
   /// @brief Field <>3__random, offset: 0x48, size: 0x8, def value: None
   ::System::Random* _____3__random;
 
@@ -331,9 +345,11 @@ public:
   /// @brief Field <>3__limit, offset: 0x54, size: 0x4, def value: None
   int32_t _____3__limit;
 
+  /// [Nullable(0)]
   /// @brief Field tombstone, offset: 0x58, size: 0x8, def value: None
   T ___tombstone;
 
+  /// [Nullable(0)]
   /// @brief Field <>3__tombstone, offset: 0x60, size: 0x8, def value: None
   T _____3__tombstone;
 
@@ -343,6 +359,7 @@ public:
   /// @brief Field <picked>5__3, offset: 0x6c, size: 0x4, def value: None
   int32_t ____picked_5__3;
 
+  /// [Nullable(0)]
   /// @brief Field <>7__wrap3, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<T>* _____7__wrap3;
 
@@ -350,6 +367,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
@@ -414,23 +432,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ShuffleExtensions__TakeWithTombstone_d__2_1<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -503,6 +528,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -527,13 +553,13 @@ protected:
   constexpr ShuffleExtensions__TakeWithTombstone_d__2_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__TakeWithTombstone_d__2_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__TakeWithTombstone_d__2_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShuffleExtensions__TakeWithTombstone_d__2_1(ShuffleExtensions__TakeWithTombstone_d__2_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__TakeWithTombstone_d__2_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__TakeWithTombstone_d__2_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShuffleExtensions__TakeWithTombstone_d__2_1(ShuffleExtensions__TakeWithTombstone_d__2_1 const&) = delete;
+  ShuffleExtensions__TakeWithTombstone_d__2_1(ShuffleExtensions__TakeWithTombstone_d__2_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20469 };
@@ -541,15 +567,18 @@ public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
   T _____2__current;
 
   /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
   int32_t _____l__initialThreadId;
 
+  /// [Nullable(0)]
   /// @brief Field source, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<T>* ___source;
 
+  /// [Nullable(0)]
   /// @brief Field <>3__source, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<T>* _____3__source;
 
@@ -559,12 +588,15 @@ public:
   /// @brief Field <>3__limit, offset: 0x3c, size: 0x4, def value: None
   int32_t _____3__limit;
 
+  /// [Nullable(0)]
   /// @brief Field tombstone, offset: 0x40, size: 0x8, def value: None
   T ___tombstone;
 
+  /// [Nullable(0)]
   /// @brief Field <>3__tombstone, offset: 0x48, size: 0x8, def value: None
   T _____3__tombstone;
 
+  /// [Nullable(0)]
   /// @brief Field <enumerator>5__2, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<T>* ____enumerator_5__2;
 
@@ -575,6 +607,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object, System.ValueTuple`2<T1, T2>
 namespace GlobalNamespace {
 // Is value type: false
@@ -638,23 +671,30 @@ public:
   /// @brief Method MoveNext, addr 0x330c890, size 0x578, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<(System.Int32,System.Int32)>.GetEnumerator, addr 0x330d010, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32,System.Int32)>.get_Current, addr 0x330cf70, size 0x8, virtual true, abstract: false, final true
   inline ::System::ValueTuple_2<int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x330d0b8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x330cf78, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x330cfb0, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x330c7e4, size 0xac, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -730,6 +770,7 @@ public:
   /// @brief Method <>m__Finally2, addr 0x330ce08, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x330c7c4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -756,13 +797,13 @@ protected:
   constexpr ShuffleExtensions__ZipSkipTombstone_d__3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__ZipSkipTombstone_d__3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__ZipSkipTombstone_d__3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShuffleExtensions__ZipSkipTombstone_d__3(ShuffleExtensions__ZipSkipTombstone_d__3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__ZipSkipTombstone_d__3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__ZipSkipTombstone_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShuffleExtensions__ZipSkipTombstone_d__3(ShuffleExtensions__ZipSkipTombstone_d__3 const&) = delete;
+  ShuffleExtensions__ZipSkipTombstone_d__3(ShuffleExtensions__ZipSkipTombstone_d__3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20470 };
@@ -770,21 +811,26 @@ public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>2__current, offset: 0x14, size: 0x8, def value: None
   ::System::ValueTuple_2<int32_t, int32_t> _____2__current;
 
   /// @brief Field <>l__initialThreadId, offset: 0x1c, size: 0x4, def value: None
   int32_t _____l__initialThreadId;
 
+  /// [Nullable(0)]
   /// @brief Field collection1, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<int32_t>* ___collection1;
 
+  /// [Nullable(0)]
   /// @brief Field <>3__collection1, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<int32_t>* _____3__collection1;
 
+  /// [Nullable(0)]
   /// @brief Field collection2, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<int32_t>* ___collection2;
 
+  /// [Nullable(0)]
   /// @brief Field <>3__collection2, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<int32_t>* _____3__collection2;
 
@@ -794,9 +840,11 @@ public:
   /// @brief Field <>3__collection2Tombstone, offset: 0x44, size: 0x4, def value: None
   int32_t _____3__collection2Tombstone;
 
+  /// [Nullable(0)]
   /// @brief Field <enum1>5__2, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<int32_t>* ____enum1_5__2;
 
+  /// [Nullable(0)]
   /// @brief Field <enum2>5__3, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<int32_t>* ____enum2_5__3;
 
@@ -828,6 +876,9 @@ static_assert(offsetof(::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d_
 static_assert(sizeof(::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -841,20 +892,28 @@ public:
 
   using _ZipSkipTombstone_d__3 = ::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3;
 
+  /// [IteratorStateMachine(typeof(ShuffleExtensions::<PickRandomElementsWithTombstone>d__1`1<T>))]
+  /// [Extension]
   /// @brief Method PickRandomElementsWithTombstone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Collections::Generic::IEnumerable_1<T>* PickRandomElementsWithTombstone(::System::Collections::Generic::IEnumerable_1<T>* source, int32_t limit, int32_t count,
                                                                                                   ::System::Random* random, T tombstone);
 
+  /// [Extension]
   /// @brief Method Shuffle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* Shuffle(::System::Collections::Generic::IEnumerable_1<T>* source, ::System::Random* random);
 
+  /// [Extension]
   /// @brief Method ShuffleInPlace, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ShuffleInPlace(::System::Collections::Generic::IList_1<T>* list, ::System::Random* random);
 
+  /// [IteratorStateMachine(typeof(ShuffleExtensions::<TakeWithTombstone>d__2`1<T>))]
+  /// [Extension]
   /// @brief Method TakeWithTombstone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* TakeWithTombstone(::System::Collections::Generic::IEnumerable_1<T>* source, int32_t limit, T tombstone);
 
+  /// [IteratorStateMachine(typeof(ShuffleExtensions::<ZipSkipTombstone>d__3))]
+  /// [Extension]
   /// @brief Method ZipSkipTombstone, addr 0x330c740, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*
   ZipSkipTombstone(::System::Collections::Generic::IEnumerable_1<int32_t>* collection1, ::System::Collections::Generic::IEnumerable_1<int32_t>* collection2, int32_t collection2Tombstone);
@@ -865,13 +924,13 @@ protected:
   constexpr ShuffleExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShuffleExtensions(ShuffleExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShuffleExtensions(ShuffleExtensions const&) = delete;
+  ShuffleExtensions(ShuffleExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20471 };

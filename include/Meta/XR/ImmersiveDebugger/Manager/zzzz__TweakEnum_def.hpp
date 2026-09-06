@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\TweakEnum.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/TweakEnum.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,12 +67,14 @@ public:
   /// @brief Method get_Member, addr 0x5a65ba4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Tween, addr 0x5a65bd4, size 0x8, virtual true, abstract: false, final false
   inline float_t get_Tween();
 
   /// @brief Method get_Value, addr 0x5a5a800, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Tween, addr 0x5a65bdc, size 0x8, virtual true, abstract: false, final false
   inline void set_Tween(float_t value);
 
@@ -85,13 +87,13 @@ protected:
   constexpr TweakEnum();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TweakEnum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweakEnum", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TweakEnum(TweakEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TweakEnum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweakEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TweakEnum(TweakEnum const&) = delete;
+  TweakEnum(TweakEnumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18444 };
@@ -99,6 +101,7 @@ public:
   /// @brief Field _enumType, offset: 0x40, size: 0x8, def value: None
   ::System::Type* ____enumType;
 
+  /// [CompilerGenerated]
   /// @brief Field <Tween>k__BackingField, offset: 0x48, size: 0x4, def value: None
   float_t ____Tween_k__BackingField;
 

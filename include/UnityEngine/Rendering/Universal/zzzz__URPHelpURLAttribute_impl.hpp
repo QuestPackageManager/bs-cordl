@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\URPHelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/URPHelpURLAttribute.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreRPHelpURLAttribute_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPHelpURLAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::URPHelpURLAttribute._ctor

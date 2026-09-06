@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ContactFilter2D.hpp"
+// IWYU pragma private; include "UnityEngine/ContactFilter2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,9 @@ struct ContactFilter2D;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactFilter2D);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ContactFilter2D, "UnityEngine", "ContactFilter2D");
+// [NativeClass("ContactFilter", "struct ContactFilter;")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [NativeHeader("Modules/Physics2D/Public/Collider2D.h")]
 // Dependencies UnityEngine.LayerMask
 namespace UnityEngine {
 // Is value type: true
@@ -41,11 +44,12 @@ public:
   // @brief default ctor
   constexpr ContactFilter2D();
 
-  // Ctor Parameters [CppParam { name: "useTriggers", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useLayerMask", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "useDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useOutsideDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useNormalAngle", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "useOutsideNormalAngle", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty: "::UnityEngine::LayerMask", modifiers:
-  // "", def_value: None }, CppParam { name: "minDepth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxDepth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "minNormalAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxNormalAngle", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "useTriggers", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "useLayerMask", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "useDepth", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "useOutsideDepth", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "useNormalAngle", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "useOutsideNormalAngle", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "layerMask", ty: "::UnityEngine::LayerMask", modifiers: "", def_value: None, comment: None }, CppParam { name: "minDepth", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "maxDepth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "minNormalAngle", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "maxNormalAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ContactFilter2D(bool useTriggers, bool useLayerMask, bool useDepth, bool useOutsideDepth, bool useNormalAngle, bool useOutsideNormalAngle, ::UnityEngine::LayerMask layerMask,
                             float_t minDepth, float_t maxDepth, float_t minNormalAngle, float_t maxNormalAngle) noexcept;
 
@@ -55,36 +59,47 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
 
+  /// [NativeName("m_UseTriggers")]
   /// @brief Field useTriggers, offset: 0x0, size: 0x1, def value: None
   bool useTriggers;
 
+  /// [NativeName("m_UseLayerMask")]
   /// @brief Field useLayerMask, offset: 0x1, size: 0x1, def value: None
   bool useLayerMask;
 
+  /// [NativeName("m_UseDepth")]
   /// @brief Field useDepth, offset: 0x2, size: 0x1, def value: None
   bool useDepth;
 
+  /// [NativeName("m_UseOutsideDepth")]
   /// @brief Field useOutsideDepth, offset: 0x3, size: 0x1, def value: None
   bool useOutsideDepth;
 
+  /// [NativeName("m_UseNormalAngle")]
   /// @brief Field useNormalAngle, offset: 0x4, size: 0x1, def value: None
   bool useNormalAngle;
 
+  /// [NativeName("m_UseOutsideNormalAngle")]
   /// @brief Field useOutsideNormalAngle, offset: 0x5, size: 0x1, def value: None
   bool useOutsideNormalAngle;
 
+  /// [NativeName("m_LayerMask")]
   /// @brief Field layerMask, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::LayerMask layerMask;
 
+  /// [NativeName("m_MinDepth")]
   /// @brief Field minDepth, offset: 0xc, size: 0x4, def value: None
   float_t minDepth;
 
+  /// [NativeName("m_MaxDepth")]
   /// @brief Field maxDepth, offset: 0x10, size: 0x4, def value: None
   float_t maxDepth;
 
+  /// [NativeName("m_MinNormalAngle")]
   /// @brief Field minNormalAngle, offset: 0x14, size: 0x4, def value: None
   float_t minNormalAngle;
 
+  /// [NativeName("m_MaxNormalAngle")]
   /// @brief Field maxNormalAngle, offset: 0x18, size: 0x4, def value: None
   float_t maxNormalAngle;
 

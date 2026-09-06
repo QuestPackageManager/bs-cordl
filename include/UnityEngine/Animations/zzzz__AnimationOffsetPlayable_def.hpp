@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationOffsetPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationOffsetPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,11 @@ struct AnimationOffsetPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationOffsetPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationOffsetPlayable, "UnityEngine.Animations", "AnimationOffsetPlayable");
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationOffsetPlayable.bindings.h")]
+// [NativeHeader("Modules/Animation/Director/AnimationOffsetPlayable.h")]
+// [RequiredByNativeCode]
+// [StaticAccessor("AnimationOffsetPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -59,6 +64,7 @@ public:
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                       int32_t inputCount);
 
+  /// [NativeThrows]
   /// @brief Method CreateHandleInternal, addr 0x6a490ec, size 0xa8, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                           ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
@@ -93,7 +99,7 @@ public:
   // @brief default ctor
   constexpr AnimationOffsetPlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationOffsetPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

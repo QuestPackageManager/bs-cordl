@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\EncryptionAlgorithm.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/EncryptionAlgorithm.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr EncryptionAlgorithm();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncryptionAlgorithm", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncryptionAlgorithm", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncryptionAlgorithm(EncryptionAlgorithm&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncryptionAlgorithm", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncryptionAlgorithm", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EncryptionAlgorithm(EncryptionAlgorithm const&) = delete;
+  EncryptionAlgorithm(EncryptionAlgorithmconst&) = delete;
 
   /// @brief Field AES_128_CBC offset 0xffffffff size 0x4
   static constexpr int32_t AES_128_CBC{ static_cast<int32_t>(0x8) };

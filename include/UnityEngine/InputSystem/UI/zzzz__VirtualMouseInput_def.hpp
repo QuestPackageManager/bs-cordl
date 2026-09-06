@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\VirtualMouseInput.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/VirtualMouseInput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
   // @brief default ctor
   constexpr VirtualMouseInput_CursorMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VirtualMouseInput_CursorMode(int32_t value__) noexcept;
 
   /// @brief Field HardwareCursorIfAvailable value: I32(1)
@@ -104,6 +104,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorM
 static_assert(sizeof(::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI
+// [AddComponentMenu("Input/Virtual Mouse")]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/UISupport.html#virtual-mouse-cursor-control")]
 // Dependencies UnityEngine.InputSystem.InputActionProperty, UnityEngine.InputSystem.UI.VirtualMouseInput::CursorMode, UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
@@ -424,50 +426,77 @@ protected:
   constexpr VirtualMouseInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VirtualMouseInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VirtualMouseInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VirtualMouseInput(VirtualMouseInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VirtualMouseInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VirtualMouseInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VirtualMouseInput(VirtualMouseInput const&) = delete;
+  VirtualMouseInput(VirtualMouseInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8876 };
 
+  /// [Header("Cursor")]
+  /// [Tooltip("Whether the component should set the cursor position of the hardware mouse cursor, if one is available. If so, the software cursor pointed (to by \'Cursor Graphic\') will be hidden.")]
+  /// [SerializeField]
   /// @brief Field m_CursorMode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode ___m_CursorMode;
 
+  /// [Tooltip("The graphic that represents the software cursor. This is hidden if a hardware cursor (see \'Cursor Mode\') is used.")]
+  /// [SerializeField]
   /// @brief Field m_CursorGraphic, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ___m_CursorGraphic;
 
+  /// [Tooltip("The transform for the software cursor. Will only be set if a software cursor is used (see \'Cursor Mode\'). Moving the cursor updates the anchored position of the transform.")]
+  /// [SerializeField]
   /// @brief Field m_CursorTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_CursorTransform;
 
+  /// [Header("Motion")]
+  /// [Tooltip("Speed in pixels per second with which to move the cursor. Scaled by the input from \'Stick Action\'.")]
+  /// [SerializeField]
   /// @brief Field m_CursorSpeed, offset: 0x38, size: 0x4, def value: None
   float_t ___m_CursorSpeed;
 
+  /// [Tooltip("Scale factor to apply to \'Scroll Wheel Action\' when setting the mouse \'scrollWheel\' control.")]
+  /// [SerializeField]
   /// @brief Field m_ScrollSpeed, offset: 0x3c, size: 0x4, def value: None
   float_t ___m_ScrollSpeed;
 
+  /// [Space(10)]
+  /// [Tooltip("Vector2 action that moves the cursor left/right (X) and up/down (Y) on screen.")]
+  /// [SerializeField]
   /// @brief Field m_StickAction, offset: 0x40, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_StickAction;
 
+  /// [Tooltip("Button action that triggers a left-click on the mouse.")]
+  /// [SerializeField]
   /// @brief Field m_LeftButtonAction, offset: 0x58, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_LeftButtonAction;
 
+  /// [Tooltip("Button action that triggers a middle-click on the mouse.")]
+  /// [SerializeField]
   /// @brief Field m_MiddleButtonAction, offset: 0x70, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_MiddleButtonAction;
 
+  /// [Tooltip("Button action that triggers a right-click on the mouse.")]
+  /// [SerializeField]
   /// @brief Field m_RightButtonAction, offset: 0x88, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_RightButtonAction;
 
+  /// [Tooltip("Button action that triggers a forward button (button #4) click on the mouse.")]
+  /// [SerializeField]
   /// @brief Field m_ForwardButtonAction, offset: 0xa0, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_ForwardButtonAction;
 
+  /// [Tooltip("Button action that triggers a back button (button #5) click on the mouse.")]
+  /// [SerializeField]
   /// @brief Field m_BackButtonAction, offset: 0xb8, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_BackButtonAction;
 
+  /// [Tooltip("Vector2 action that feeds into the mouse \'scrollWheel\' action (scaled by \'Scroll Speed\').")]
+  /// [SerializeField]
   /// @brief Field m_ScrollWheelAction, offset: 0xd0, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_ScrollWheelAction;
 

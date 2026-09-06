@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Queries\BSLeaderboardHealth.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Queries/BSLeaderboardHealth.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ public:
   /// @brief Method GetPersistedQueryID, addr 0x329f3e0, size 0x14, virtual true, abstract: false, final false
   inline uint64_t GetPersistedQueryID();
 
+  /// [NullableContext(1)]
   /// @brief Method GetVariableNames, addr 0x329f370, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
 
@@ -41,13 +42,13 @@ protected:
   constexpr BSLeaderboardHealth();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealth", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealth", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BSLeaderboardHealth(BSLeaderboardHealth&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealth", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealth", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSLeaderboardHealth(BSLeaderboardHealth const&) = delete;
+  BSLeaderboardHealth(BSLeaderboardHealthconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20540 };

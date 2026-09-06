@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXUIToggleBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXUIToggleBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXUIToggleBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"

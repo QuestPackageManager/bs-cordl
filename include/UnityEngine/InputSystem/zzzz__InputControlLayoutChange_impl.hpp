@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputControlLayoutChange.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputControlLayoutChange.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlLayoutChange_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlLayoutChange::InputControlLayoutChange(int32_t value__) noexcept {
   this->value__ = value__;
 }

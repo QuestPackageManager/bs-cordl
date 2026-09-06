@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TestFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/TestFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,29 +81,39 @@ protected:
   constexpr TestFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TestFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TestFlowCoordinator(TestFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TestFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TestFlowCoordinator(TestFlowCoordinator const&) = delete;
+  TestFlowCoordinator(TestFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6862 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _viewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____viewController;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _leftViewController, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____leftViewController;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _rightViewController, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____rightViewController;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _bottomScreenViewController, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____bottomScreenViewController;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _topScreenViewController, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____topScreenViewController;
 

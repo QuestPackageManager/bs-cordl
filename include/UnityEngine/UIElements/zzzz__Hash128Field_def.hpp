@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Hash128Field.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Hash128Field.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Hash128Field*, "UnityEngine.UIEle
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Hash128Field_Hash128Input*, "UnityEngine.UIElements", "Hash128Field/Hash128Input");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Hash128Field_UxmlFactory*, "UnityEngine.UIElements", "Hash128Field/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Hash128Field_UxmlTraits*, "UnityEngine.UIElements", "Hash128Field/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr Hash128Field_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hash128Field_UxmlFactory(Hash128Field_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hash128Field_UxmlFactory(Hash128Field_UxmlFactory const&) = delete;
+  Hash128Field_UxmlFactory(Hash128Field_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4204 };
@@ -85,6 +86,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Hash128Field_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.Hash128, UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -103,13 +105,13 @@ protected:
   constexpr Hash128Field_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hash128Field_UxmlTraits(Hash128Field_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hash128Field_UxmlTraits(Hash128Field_UxmlTraits const&) = delete;
+  Hash128Field_UxmlTraits(Hash128Field_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4205 };
@@ -152,13 +154,13 @@ protected:
   constexpr Hash128Field_Hash128Input();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_Hash128Input", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_Hash128Input", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hash128Field_Hash128Input(Hash128Field_Hash128Input&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_Hash128Input", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field_Hash128Input", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hash128Field_Hash128Input(Hash128Field_Hash128Input const&) = delete;
+  Hash128Field_Hash128Input(Hash128Field_Hash128Inputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4206 };
@@ -169,6 +171,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Hash128Field_Hash128Input) == 0x4e0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.Hash128, UnityEngine.UIElements.TextInputBaseField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -196,6 +199,7 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) ::UnityEngine::Hash128 value;
 
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.FocusOutEvent) })]
   /// @brief Method HandleEventBubbleUp, addr 0x6d46e48, size 0x1c0, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
@@ -254,13 +258,13 @@ protected:
   constexpr Hash128Field();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hash128Field(Hash128Field&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hash128Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hash128Field(Hash128Field const&) = delete;
+  Hash128Field(Hash128Fieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4207 };

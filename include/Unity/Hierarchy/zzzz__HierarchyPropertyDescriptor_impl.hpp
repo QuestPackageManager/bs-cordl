@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyPropertyDescriptor.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyPropertyDescriptor.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyPropertyStorageType_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyPropertyDescriptor_def.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyPropertyStorageType_def.hpp"
@@ -40,8 +40,8 @@ inline void Unity::Hierarchy::HierarchyPropertyDescriptor::set_Type(::Unity::Hie
                                                                                          { "set_Type", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyPropertyStorageType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_Size", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Type", ty: "::Unity::Hierarchy::HierarchyPropertyStorageType", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Size", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Type", ty: "::Unity::Hierarchy::HierarchyPropertyStorageType",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyPropertyDescriptor::HierarchyPropertyDescriptor(int32_t m_Size, ::Unity::Hierarchy::HierarchyPropertyStorageType m_Type) noexcept {
   this->m_Size = m_Size;
   this->m_Type = m_Type;

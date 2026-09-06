@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\IPlatformEntitlements.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/IPlatformEntitlements.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,15 +33,15 @@ namespace OculusStudios::Platform::Core {
 class CORDL_TYPE IPlatformEntitlements {
 public:
   // Declarations
-  /// @brief Method GetAllProductsAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAllProductsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*>* GetAllProductsAsync();
 
-  /// @brief Method RegisterNewProducts, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterNewProducts, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterNewProducts(::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>* productDefinitions);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPlatformEntitlements", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPlatformEntitlements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPlatformEntitlements(IPlatformEntitlements const&) = delete;
+  IPlatformEntitlements(IPlatformEntitlementsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22459 };

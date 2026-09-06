@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\PoseState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/PoseState.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputTrackingState_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -125,10 +125,10 @@ constexpr UnityEngine::InputSystem::XR::PoseState::operator ::UnityEngine::Input
 constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* UnityEngine::InputSystem::XR::PoseState::i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "isTracked", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "trackingState", ty: "::UnityEngine::XR::InputTrackingState", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "velocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "angularVelocity", ty: "::UnityEngine::Vector3",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "isTracked", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "trackingState", ty: "::UnityEngine::XR::InputTrackingState",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotation",
+// ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "velocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "angularVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::PoseState::PoseState(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                ::UnityEngine::Vector3 velocity, ::UnityEngine::Vector3 angularVelocity) noexcept {
   this->isTracked = isTracked;

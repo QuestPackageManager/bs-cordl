@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\GizmoTypeInfo.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/GizmoTypeInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   // @brief default ctor
   constexpr GizmoTypeInfo();
 
-  // Ctor Parameters [CppParam { name: "RenderDelegate", ty: "::System::Action_1<::System::Object*>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RenderDelegate", ty: "::System::Action_1<::System::Object*>*", modifiers: "", def_value: None, comment: None }]
   constexpr GizmoTypeInfo(::System::Action_1<::System::Object*>* RenderDelegate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

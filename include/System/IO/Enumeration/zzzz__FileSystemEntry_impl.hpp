@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Enumeration\FileSystemEntry.hpp"
+// IWYU pragma private; include "System/IO/Enumeration/FileSystemEntry.hpp"
 #include "GlobalNamespace/zzzz__Interop_impl.hpp"
 #include "System/IO/zzzz__FileAttributes_impl.hpp"
 #include "System/IO/zzzz__FileStatus_impl.hpp"
@@ -11,7 +11,7 @@
 #include "System/IO/zzzz__FileAttributes_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "char16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer::FileSystemEntry___fileNameBuffer_e__FixedBuffer(char16_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -241,13 +241,14 @@ inline ::StringW System::IO::Enumeration::FileSystemEntry::ToSpecifiedFullPath()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(), { "ToSpecifiedFullPath", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_directoryEntry", ty: "::GlobalNamespace::Sys_Interop_DirectoryEntry", modifiers: "", def_value: Some("{}") }, CppParam { name: "_status", ty:
-// "::System::IO::FileStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "_pathBuffer", ty: "::System::Span_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_fullPath", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_fileName", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_fileNameBuffer", ty: "::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_initialAttributes", ty: "::System::IO::FileAttributes", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Directory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_RootDirectory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_OriginalRootDirectory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_directoryEntry", ty: "::GlobalNamespace::Sys_Interop_DirectoryEntry", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_status", ty:
+// "::System::IO::FileStatus", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_pathBuffer", ty: "::System::Span_1<char16_t>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_fullPath", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_fileName", ty:
+// "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_fileNameBuffer", ty:
+// "::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_initialAttributes", ty:
+// "::System::IO::FileAttributes", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Directory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_RootDirectory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "_OriginalRootDirectory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IO::Enumeration::FileSystemEntry::FileSystemEntry(::GlobalNamespace::Sys_Interop_DirectoryEntry _directoryEntry, ::System::IO::FileStatus _status,
                                                                       ::System::Span_1<char16_t> _pathBuffer, ::System::ReadOnlySpan_1<char16_t> _fullPath,
                                                                       ::System::ReadOnlySpan_1<char16_t> _fileName,

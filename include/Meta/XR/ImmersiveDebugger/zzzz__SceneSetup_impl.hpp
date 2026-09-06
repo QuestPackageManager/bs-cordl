@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\SceneSetup.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/SceneSetup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__SceneSetup_def.hpp"
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::SceneSetup.OnLoad

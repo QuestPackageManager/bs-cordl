@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Drawing\RectangleF.hpp"
+// IWYU pragma private; include "System/Drawing/RectangleF.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,8 +73,8 @@ public:
   // @brief default ctor
   constexpr RectangleF();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr RectangleF(float_t x, float_t y, float_t width, float_t height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

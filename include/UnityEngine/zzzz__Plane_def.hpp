@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Plane.hpp"
+// IWYU pragma private; include "UnityEngine/Plane.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ struct Plane;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Plane);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Plane, "UnityEngine", "Plane");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -82,7 +83,8 @@ public:
   // @brief default ctor
   constexpr Plane();
 
-  // Ctor Parameters [CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr Plane(::UnityEngine::Vector3 m_Normal, float_t m_Distance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

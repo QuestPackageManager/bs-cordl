@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\VerticalScrollController.hpp"
+// IWYU pragma private; include "HMUI/VerticalScrollController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__VerticalScrollController_def.hpp"
 #include "HMUI/zzzz__VerticalScrollIndicator_def.hpp"

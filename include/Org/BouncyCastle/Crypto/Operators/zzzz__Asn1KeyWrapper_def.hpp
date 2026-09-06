@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Operators\Asn1KeyWrapper.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/Asn1KeyWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +77,13 @@ protected:
   constexpr Asn1KeyWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1KeyWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1KeyWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1KeyWrapper(Asn1KeyWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1KeyWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1KeyWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1KeyWrapper(Asn1KeyWrapper const&) = delete;
+  Asn1KeyWrapper(Asn1KeyWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 984 };

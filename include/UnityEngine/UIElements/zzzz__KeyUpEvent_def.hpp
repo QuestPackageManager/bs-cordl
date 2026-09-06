@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\KeyUpEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/KeyUpEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_REF_T(::UnityEngine::UIElements::KeyUpEvent*);
 MARK_REF_T(::UnityEngine::UIElements::KeyUpEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyUpEvent*, "UnityEngine.UIElements", "KeyUpEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyUpEvent___c*, "UnityEngine.UIElements", "KeyUpEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr KeyUpEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyUpEvent___c(KeyUpEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyUpEvent___c(KeyUpEvent___c const&) = delete;
+  KeyUpEvent___c(KeyUpEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4482 };
@@ -86,13 +87,13 @@ protected:
   constexpr KeyUpEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyUpEvent(KeyUpEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyUpEvent(KeyUpEvent const&) = delete;
+  KeyUpEvent(KeyUpEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4483 };

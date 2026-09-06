@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VROverlayIntersectionMaskPrimitive_Data_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VROverlayIntersectionMaskPrimitive_Data_t.hpp"
 #include "OVR/OpenVR/zzzz__IntersectionMaskCircle_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__IntersectionMaskRectangle_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VROverlayIntersectionMaskPrimitive_Data_t_def.hpp"
@@ -21,8 +21,8 @@ constexpr ::OVR::OpenVR::IntersectionMaskCircle_t const& OVR::OpenVR::VROverlayI
 constexpr void OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t::__cordl_internal_set_m_Circle(::OVR::OpenVR::IntersectionMaskCircle_t value) {
   this->___m_Circle = value;
 }
-// Ctor Parameters [CppParam { name: "m_Rectangle", ty: "::OVR::OpenVR::IntersectionMaskRectangle_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Circle", ty:
-// "::OVR::OpenVR::IntersectionMaskCircle_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Rectangle", ty: "::OVR::OpenVR::IntersectionMaskRectangle_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Circle", ty:
+// "::OVR::OpenVR::IntersectionMaskCircle_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t::VROverlayIntersectionMaskPrimitive_Data_t(::OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle,
                                                                                                               ::OVR::OpenVR::IntersectionMaskCircle_t m_Circle) noexcept {
   this->m_Rectangle = m_Rectangle;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_ApplicationLaunch_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_ApplicationLaunch_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr VREvent_ApplicationLaunch_t();
 
-  // Ctor Parameters [CppParam { name: "pid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "unArgsHandle", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pid", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unArgsHandle", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr VREvent_ApplicationLaunch_t(uint32_t pid, uint32_t unArgsHandle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ManifestResourceInfo.hpp"
+// IWYU pragma private; include "System/Reflection/ManifestResourceInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,12 +68,15 @@ public:
   /// @brief Method .ctor, addr 0x5b7ee84, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* containingAssembly, ::StringW containingFileName, ::System::Reflection::ResourceLocation resourceLocation);
 
+  /// [CompilerGenerated]
   /// @brief Method get_FileName, addr 0x5b7ee98, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_FileName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReferencedAssembly, addr 0x5b7ee90, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* get_ReferencedAssembly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ResourceLocation, addr 0x5b7eea0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::ResourceLocation get_ResourceLocation();
 
@@ -83,23 +86,26 @@ protected:
   constexpr ManifestResourceInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ManifestResourceInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManifestResourceInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ManifestResourceInfo(ManifestResourceInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ManifestResourceInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManifestResourceInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ManifestResourceInfo(ManifestResourceInfo const&) = delete;
+  ManifestResourceInfo(ManifestResourceInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3496 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ReferencedAssembly>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::Assembly* ____ReferencedAssembly_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FileName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____FileName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ResourceLocation>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::System::Reflection::ResourceLocation ____ResourceLocation_k__BackingField;
 

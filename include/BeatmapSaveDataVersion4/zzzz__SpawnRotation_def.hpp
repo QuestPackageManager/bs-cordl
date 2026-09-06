@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\SpawnRotation.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/SpawnRotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,8 @@ public:
   // @brief default ctor
   constexpr SpawnRotation();
 
-  // Ctor Parameters [CppParam { name: "t", ty: "::BeatmapSaveDataCommon::ExecutionTime", modifiers: "", def_value: None }, CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "t", ty: "::BeatmapSaveDataCommon::ExecutionTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "r", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr SpawnRotation(::BeatmapSaveDataCommon::ExecutionTime t, float_t r) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

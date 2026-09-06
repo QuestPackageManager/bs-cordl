@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IShaderVariantSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IShaderVariantSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__IShaderVariantSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderVariantLogLevel_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IShaderVariantSettings.get_shaderVariantLogLevel

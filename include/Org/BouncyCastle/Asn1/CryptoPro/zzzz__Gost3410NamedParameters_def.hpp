@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\CryptoPro\Gost3410NamedParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/CryptoPro/Gost3410NamedParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,13 +90,13 @@ protected:
   constexpr Gost3410NamedParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410NamedParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410NamedParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost3410NamedParameters(Gost3410NamedParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410NamedParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410NamedParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost3410NamedParameters(Gost3410NamedParameters const&) = delete;
+  Gost3410NamedParameters(Gost3410NamedParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 129 };

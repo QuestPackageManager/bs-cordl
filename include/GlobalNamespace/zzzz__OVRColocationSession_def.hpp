@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRColocationSession.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRColocationSession.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,10 +19,14 @@ namespace GlobalNamespace {
 struct OVRPlugin_Result;
 }
 namespace GlobalNamespace {
-template <typename TStatus> struct OVRResult_1;
+template <typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_1;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus> struct OVRResult_2;
+template <typename TValue, typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_2;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
@@ -64,15 +68,21 @@ public:
 
   __declspec(property(get = get_Metadata, put = set_Metadata)) ::ArrayW<uint8_t> Metadata;
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_AdvertisementUuid, addr 0x5e1cbf4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_AdvertisementUuid();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Metadata, addr 0x5e1cc08, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Metadata();
 
+  /// [CompilerGenerated]
   /// @brief Method set_AdvertisementUuid, addr 0x5e1cc00, size 0x8, virtual false, abstract: false, final false
   inline void set_AdvertisementUuid(::System::Guid value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Metadata, addr 0x5e1cc10, size 0x8, virtual false, abstract: false, final false
   inline void set_Metadata(::ArrayW<uint8_t> value);
 
@@ -80,8 +90,8 @@ public:
   // @brief default ctor
   constexpr OVRColocationSession_Data();
 
-  // Ctor Parameters [CppParam { name: "_AdvertisementUuid_k__BackingField", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "_Metadata_k__BackingField", ty:
-  // "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_AdvertisementUuid_k__BackingField", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Metadata_k__BackingField", ty:
+  // "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRColocationSession_Data(::System::Guid _AdvertisementUuid_k__BackingField, ::ArrayW<uint8_t> _Metadata_k__BackingField) noexcept;
 
   /// @brief Field MaxMetadataSize offset 0xffffffff size 0x4
@@ -93,9 +103,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
   /// @brief Field <AdvertisementUuid>k__BackingField, offset: 0x0, size: 0x10, def value: None
   ::System::Guid _AdvertisementUuid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Metadata>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> _Metadata_k__BackingField;
 
@@ -109,6 +121,7 @@ static_assert(offsetof(::GlobalNamespace::OVRColocationSession_Data, _Metadata_k
 static_assert(sizeof(::GlobalNamespace::OVRColocationSession_Data) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRResultStatus]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -145,7 +158,7 @@ public:
   // @brief default ctor
   constexpr OVRColocationSession_Result();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRColocationSession_Result(int32_t value__) noexcept;
 
   /// @brief Field AlreadyAdvertising value: I32(3001)
@@ -246,11 +259,13 @@ public:
   /// @brief Method .ctor, addr 0x5e1cbf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_ColocationSessionDiscovered, addr 0x5e1c0c4, size 0xe0, virtual false, abstract: false, final false
   static inline void add_ColocationSessionDiscovered(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* value);
 
   static inline ::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* getStaticF_ColocationSessionDiscovered();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_ColocationSessionDiscovered, addr 0x5e1c1a4, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_ColocationSessionDiscovered(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* value);
 
@@ -262,13 +277,13 @@ protected:
   constexpr OVRColocationSession();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRColocationSession", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRColocationSession", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRColocationSession(OVRColocationSession&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRColocationSession", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRColocationSession", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRColocationSession(OVRColocationSession const&) = delete;
+  OVRColocationSession(OVRColocationSessionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7130 };

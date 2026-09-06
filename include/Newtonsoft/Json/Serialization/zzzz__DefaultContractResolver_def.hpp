@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\DefaultContractResolver.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultContractResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -234,6 +234,7 @@ DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::DefaultContractResolver__
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass81_0*, "Newtonsoft.Json.Serialization", "DefaultContractResolver/<>c__DisplayClass81_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Serialization::EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2, "Newtonsoft.Json.Serialization",
                             "DefaultContractResolver/EnumerableDictionaryWrapper`2/<GetEnumerator>d__2");
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace Newtonsoft::Json::Serialization {
 // cpp template
@@ -278,19 +279,24 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Newtonsoft::Json::Serialization::EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_Object_System_Object___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -321,6 +327,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -340,13 +347,13 @@ protected:
   constexpr EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2(EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2(EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2 const&) = delete;
+  EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2(EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13472 };
@@ -354,12 +361,14 @@ public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
+  /// [Nullable(new[] { 0, 1, 1 })]
   /// @brief Field <>2__current, offset: 0x18, size: 0x10, def value: None
   ::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*> _____2__current;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::DefaultContractResolver_EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>* _____4__this;
 
+  /// [Nullable(new[] { 0, 0, 1, 1 })]
   /// @brief Field <>7__wrap1, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _____7__wrap1;
 
@@ -367,6 +376,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Serialization
+// [NullableContext(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // cpp template
@@ -388,12 +398,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// [IteratorStateMachine(typeof(Newtonsoft.Json.Serialization.DefaultContractResolver::EnumerableDictionaryWrapper`2::<GetEnumerator>d__2<TEnumeratorKey, TEnumeratorValue>))]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* GetEnumerator();
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver_EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*
-  New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e);
+  New_ctor(/* [Nullable(new[] { 1, 0, 1, 1 })] */ ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e);
 
+  /// [NullableContext(1)]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
@@ -404,7 +416,7 @@ public:
   constexpr void __cordl_internal_set__e(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e);
+  inline void _ctor(/* [Nullable(new[] { 1, 0, 1, 1 })] */ ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*,::System::Object*>>"
   constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>*
@@ -419,17 +431,18 @@ protected:
   constexpr DefaultContractResolver_EnumerableDictionaryWrapper_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver_EnumerableDictionaryWrapper_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver_EnumerableDictionaryWrapper_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver_EnumerableDictionaryWrapper_2(DefaultContractResolver_EnumerableDictionaryWrapper_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver_EnumerableDictionaryWrapper_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver_EnumerableDictionaryWrapper_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver_EnumerableDictionaryWrapper_2(DefaultContractResolver_EnumerableDictionaryWrapper_2 const&) = delete;
+  DefaultContractResolver_EnumerableDictionaryWrapper_2(DefaultContractResolver_EnumerableDictionaryWrapper_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13473 };
 
+  /// [Nullable(new[] { 1, 0, 1, 1 })]
   /// @brief Field _e, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* ____e;
 
@@ -437,6 +450,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -468,21 +482,27 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <CreateProperties>b__75_0, addr 0x5d3f6a0, size 0x6c, virtual false, abstract: false, final false
   inline int32_t _CreateProperties_b__75_0(::Newtonsoft::Json::Serialization::JsonProperty* p);
 
+  /// [NullableContext(0)]
   /// @brief Method <GetAttributeConstructor>b__47_0, addr 0x5d3f61c, size 0x84, virtual false, abstract: false, final false
   inline bool _GetAttributeConstructor_b__47_0(::System::Reflection::ConstructorInfo* c);
 
+  /// [NullableContext(0)]
   /// @brief Method <GetExtensionDataMemberForType>b__44_0, addr 0x5d3f190, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* _GetExtensionDataMemberForType_b__44_0(::System::Type* baseType);
 
+  /// [NullableContext(0)]
   /// @brief Method <GetExtensionDataMemberForType>b__44_1, addr 0x5d3f274, size 0x3a8, virtual false, abstract: false, final false
   inline bool _GetExtensionDataMemberForType_b__44_1(::System::Reflection::MemberInfo* m);
 
+  /// [NullableContext(0)]
   /// @brief Method <GetSerializableMembers>b__40_0, addr 0x5d3f064, size 0xb8, virtual false, abstract: false, final false
   inline bool _GetSerializableMembers_b__40_0(::System::Reflection::MemberInfo* m);
 
+  /// [NullableContext(0)]
   /// @brief Method <GetSerializableMembers>b__40_1, addr 0x5d3f11c, size 0x74, virtual false, abstract: false, final false
   inline bool _GetSerializableMembers_b__40_1(::System::Reflection::MemberInfo* m);
 
@@ -523,13 +543,13 @@ protected:
   constexpr DefaultContractResolver___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver___c(DefaultContractResolver___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c(DefaultContractResolver___c const&) = delete;
+  DefaultContractResolver___c(DefaultContractResolver___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13474 };
@@ -540,6 +560,7 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver___c) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -570,17 +591,18 @@ protected:
   constexpr DefaultContractResolver___c__DisplayClass42_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass42_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass42_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver___c__DisplayClass42_0(DefaultContractResolver___c__DisplayClass42_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass42_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass42_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass42_0(DefaultContractResolver___c__DisplayClass42_0 const&) = delete;
+  DefaultContractResolver___c__DisplayClass42_0(DefaultContractResolver___c__DisplayClass42_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13475 };
 
+  /// [Nullable(0)]
   /// @brief Field namingStrategy, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::NamingStrategy* ___namingStrategy;
 
@@ -592,6 +614,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::DefaultContractResolve
 static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass42_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -629,20 +652,22 @@ protected:
   constexpr DefaultContractResolver___c__DisplayClass45_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver___c__DisplayClass45_0(DefaultContractResolver___c__DisplayClass45_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass45_0(DefaultContractResolver___c__DisplayClass45_0 const&) = delete;
+  DefaultContractResolver___c__DisplayClass45_0(DefaultContractResolver___c__DisplayClass45_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13476 };
 
+  /// [Nullable(new[] { 0, 1, 2 })]
   /// @brief Field getExtensionDataDictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::System::Object*, ::System::Object*>* ___getExtensionDataDictionary;
 
+  /// [Nullable(0)]
   /// @brief Field member, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ___member;
 
@@ -656,6 +681,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::DefaultContractResolve
 static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_0) == 0x20, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -682,7 +708,7 @@ public:
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_1* New_ctor();
 
   /// @brief Method <SetExtensionDataDelegates>b__0, addr 0x5d3f728, size 0x1fc, virtual false, abstract: false, final false
-  inline void _SetExtensionDataDelegates_b__0(::System::Object* o, ::StringW key, ::System::Object* value);
+  inline void _SetExtensionDataDelegates_b__0(::System::Object* o, ::StringW key, /* [Nullable(2)] */ ::System::Object* value);
 
   constexpr ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_0* const& __cordl_internal_get_CS$__8__locals1() const;
 
@@ -717,26 +743,30 @@ protected:
   constexpr DefaultContractResolver___c__DisplayClass45_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver___c__DisplayClass45_1(DefaultContractResolver___c__DisplayClass45_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass45_1(DefaultContractResolver___c__DisplayClass45_1 const&) = delete;
+  DefaultContractResolver___c__DisplayClass45_1(DefaultContractResolver___c__DisplayClass45_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13477 };
 
+  /// [Nullable(new[] { 0, 1, 2 })]
   /// @brief Field setExtensionDataDictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::System::Object*, ::System::Object*>* ___setExtensionDataDictionary;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field createExtensionDataDictionary, offset: 0x18, size: 0x8, def value: None
   ::System::Func_1<::System::Object*>* ___createExtensionDataDictionary;
 
+  /// [Nullable(new[] { 0, 1, 2 })]
   /// @brief Field setExtensionDataDictionaryValue, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* ___setExtensionDataDictionaryValue;
 
+  /// [Nullable(0)]
   /// @brief Field CS$<>8__locals1, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_0* ___CS$__8__locals1;
 
@@ -754,6 +784,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::DefaultContractResolve
 static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_1) == 0x30, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -795,20 +826,22 @@ protected:
   constexpr DefaultContractResolver___c__DisplayClass45_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver___c__DisplayClass45_2(DefaultContractResolver___c__DisplayClass45_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass45_2(DefaultContractResolver___c__DisplayClass45_2 const&) = delete;
+  DefaultContractResolver___c__DisplayClass45_2(DefaultContractResolver___c__DisplayClass45_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13478 };
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field createEnumerableWrapper, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ___createEnumerableWrapper;
 
+  /// [Nullable(0)]
   /// @brief Field CS$<>8__locals2, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_0* ___CS$__8__locals2;
 
@@ -822,6 +855,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::DefaultContractResolve
 static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_2) == 0x20, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -852,17 +886,18 @@ protected:
   constexpr DefaultContractResolver___c__DisplayClass62_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass62_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass62_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver___c__DisplayClass62_0(DefaultContractResolver___c__DisplayClass62_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass62_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass62_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass62_0(DefaultContractResolver___c__DisplayClass62_0 const&) = delete;
+  DefaultContractResolver___c__DisplayClass62_0(DefaultContractResolver___c__DisplayClass62_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13479 };
 
+  /// [Nullable(0)]
   /// @brief Field namingStrategy, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::NamingStrategy* ___namingStrategy;
 
@@ -874,6 +909,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::DefaultContractResolve
 static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass62_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -904,17 +940,18 @@ protected:
   constexpr DefaultContractResolver___c__DisplayClass67_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass67_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass67_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver___c__DisplayClass67_0(DefaultContractResolver___c__DisplayClass67_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass67_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass67_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass67_0(DefaultContractResolver___c__DisplayClass67_0 const&) = delete;
+  DefaultContractResolver___c__DisplayClass67_0(DefaultContractResolver___c__DisplayClass67_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13480 };
 
+  /// [Nullable(0)]
   /// @brief Field namingStrategy, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::NamingStrategy* ___namingStrategy;
 
@@ -926,6 +963,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::DefaultContractResolve
 static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass67_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -957,17 +995,18 @@ protected:
   constexpr DefaultContractResolver___c__DisplayClass80_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass80_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass80_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver___c__DisplayClass80_0(DefaultContractResolver___c__DisplayClass80_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass80_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass80_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass80_0(DefaultContractResolver___c__DisplayClass80_0 const&) = delete;
+  DefaultContractResolver___c__DisplayClass80_0(DefaultContractResolver___c__DisplayClass80_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13481 };
 
+  /// [Nullable(new[] { 0, 1, 2 })]
   /// @brief Field shouldSerializeCall, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* ___shouldSerializeCall;
 
@@ -979,6 +1018,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::DefaultContractResolve
 static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass80_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -1009,17 +1049,18 @@ protected:
   constexpr DefaultContractResolver___c__DisplayClass81_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass81_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass81_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver___c__DisplayClass81_0(DefaultContractResolver___c__DisplayClass81_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass81_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass81_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass81_0(DefaultContractResolver___c__DisplayClass81_0 const&) = delete;
+  DefaultContractResolver___c__DisplayClass81_0(DefaultContractResolver___c__DisplayClass81_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13482 };
 
+  /// [Nullable(new[] { 0, 1, 1 })]
   /// @brief Field specifiedPropertyGet, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::System::Object*, ::System::Object*>* ___specifiedPropertyGet;
 
@@ -1031,6 +1072,8 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::DefaultContractResolve
 static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass81_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonConverter, System.Object, System.Reflection.BindingFlags
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -1065,6 +1108,7 @@ public:
   /// @brief Field BuiltInConverters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_BuiltInConverters, put = setStaticF_BuiltInConverters)) ::ArrayW<::Newtonsoft::Json::JsonConverter*> BuiltInConverters;
 
+  /// @brief [Obsolete("DefaultMembersSearchFlags is obsolete. To modify the members serialized inherit from DefaultContractResolver and override the GetSerializableMembers method instead.")]
   __declspec(property(get = get_DefaultMembersSearchFlags, put = set_DefaultMembersSearchFlags)) ::System::Reflection::BindingFlags DefaultMembersSearchFlags;
 
   __declspec(property(get = get_DynamicCodeGeneration)) bool DynamicCodeGeneration;
@@ -1077,6 +1121,7 @@ public:
 
   __declspec(property(get = get_IgnoreShouldSerializeMembers, put = set_IgnoreShouldSerializeMembers)) bool IgnoreShouldSerializeMembers;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_NamingStrategy, put = set_NamingStrategy)) ::Newtonsoft::Json::Serialization::NamingStrategy* NamingStrategy;
 
   __declspec(property(get = get_SerializeCompilerGeneratedMembers, put = set_SerializeCompilerGeneratedMembers)) bool SerializeCompilerGeneratedMembers;
@@ -1163,7 +1208,7 @@ public:
   inline ::Newtonsoft::Json::Serialization::JsonProperty* CreateProperty(::System::Reflection::MemberInfo* member, ::Newtonsoft::Json::MemberSerialization memberSerialization);
 
   /// @brief Method CreatePropertyFromConstructorParameter, addr 0x5d38ec0, size 0x2dc, virtual true, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::JsonProperty* CreatePropertyFromConstructorParameter(::Newtonsoft::Json::Serialization::JsonProperty* matchingMemberProperty,
+  inline ::Newtonsoft::Json::Serialization::JsonProperty* CreatePropertyFromConstructorParameter(/* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* matchingMemberProperty,
                                                                                                  ::System::Reflection::ParameterInfo* parameterInfo);
 
   /// @brief Method CreateShouldSerializeTest, addr 0x5d3e620, size 0x240, virtual false, abstract: false, final false
@@ -1179,11 +1224,12 @@ public:
   inline ::System::Reflection::ConstructorInfo* GetAttributeConstructor(::System::Type* objectType);
 
   /// @brief Method GetCallbackMethodsForType, addr 0x5d39ab8, size 0x8c4, virtual false, abstract: false, final false
-  inline void GetCallbackMethodsForType(::System::Type* type, ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerializing,
-                                        ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerialized,
-                                        ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserializing,
-                                        ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserialized,
-                                        ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*> onError);
+  inline void GetCallbackMethodsForType(::System::Type* type,
+                                        /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerializing,
+                                        /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerialized,
+                                        /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserializing,
+                                        /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserialized,
+                                        /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*> onError);
 
   /// @brief Method GetClassHierarchyForType, addr 0x5d383a0, size 0x198, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Type*>* GetClassHierarchyForType(::System::Type* type);
@@ -1226,7 +1272,7 @@ public:
 
   /// @brief Method IsValidCallback, addr 0x5d3a72c, size 0x5c0, virtual false, abstract: false, final false
   static inline bool IsValidCallback(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*> parameters, ::System::Type* attributeType,
-                                     ::System::Reflection::MethodInfo* currentCallback, ::by_ref<::System::Type*> prevAttributeType);
+                                     /* [Nullable(2)] */ ::System::Reflection::MethodInfo* currentCallback, /* [Nullable(2)] */ ::by_ref<::System::Type*> prevAttributeType);
 
   /// @brief Method MatchProperty, addr 0x5d3888c, size 0x60, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* MatchProperty(::Newtonsoft::Json::Serialization::JsonPropertyCollection* properties, ::StringW name, ::System::Type* type);
@@ -1336,30 +1382,38 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::IContractResolver* getStaticF__instance();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DefaultMembersSearchFlags, addr 0x5d35648, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::BindingFlags get_DefaultMembersSearchFlags();
 
   /// @brief Method get_DynamicCodeGeneration, addr 0x5d355f4, size 0x54, virtual false, abstract: false, final false
   inline bool get_DynamicCodeGeneration();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreIsSpecifiedMembers, addr 0x5d35688, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreIsSpecifiedMembers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreSerializableAttribute, addr 0x5d35678, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreSerializableAttribute();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreSerializableInterface, addr 0x5d35668, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreSerializableInterface();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreShouldSerializeMembers, addr 0x5d35698, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreShouldSerializeMembers();
 
   /// @brief Method get_Instance, addr 0x5d35598, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Serialization::IContractResolver* get_Instance();
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method get_NamingStrategy, addr 0x5d356a8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::NamingStrategy* get_NamingStrategy();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SerializeCompilerGeneratedMembers, addr 0x5d35658, size 0x8, virtual false, abstract: false, final false
   inline bool get_SerializeCompilerGeneratedMembers();
 
@@ -1372,24 +1426,32 @@ public:
 
   static inline void setStaticF__instance(::Newtonsoft::Json::Serialization::IContractResolver* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DefaultMembersSearchFlags, addr 0x5d35650, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultMembersSearchFlags(::System::Reflection::BindingFlags value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IgnoreIsSpecifiedMembers, addr 0x5d35690, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreIsSpecifiedMembers(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IgnoreSerializableAttribute, addr 0x5d35680, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreSerializableAttribute(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IgnoreSerializableInterface, addr 0x5d35670, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreSerializableInterface(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IgnoreShouldSerializeMembers, addr 0x5d356a0, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreShouldSerializeMembers(bool value);
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method set_NamingStrategy, addr 0x5d356b0, size 0x8, virtual false, abstract: false, final false
   inline void set_NamingStrategy(::Newtonsoft::Json::Serialization::NamingStrategy* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SerializeCompilerGeneratedMembers, addr 0x5d35660, size 0x8, virtual false, abstract: false, final false
   inline void set_SerializeCompilerGeneratedMembers(bool value);
 
@@ -1399,13 +1461,13 @@ protected:
   constexpr DefaultContractResolver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolver(DefaultContractResolver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver(DefaultContractResolver const&) = delete;
+  DefaultContractResolver(DefaultContractResolverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13483 };
@@ -1416,24 +1478,32 @@ public:
   /// @brief Field _contractCache, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Serialization::JsonContract*>* ____contractCache;
 
+  /// [CompilerGenerated]
   /// @brief Field <DefaultMembersSearchFlags>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::System::Reflection::BindingFlags ____DefaultMembersSearchFlags_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SerializeCompilerGeneratedMembers>k__BackingField, offset: 0x24, size: 0x1, def value: None
   bool ____SerializeCompilerGeneratedMembers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreSerializableInterface>k__BackingField, offset: 0x25, size: 0x1, def value: None
   bool ____IgnoreSerializableInterface_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreSerializableAttribute>k__BackingField, offset: 0x26, size: 0x1, def value: None
   bool ____IgnoreSerializableAttribute_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreIsSpecifiedMembers>k__BackingField, offset: 0x27, size: 0x1, def value: None
   bool ____IgnoreIsSpecifiedMembers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreShouldSerializeMembers>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____IgnoreShouldSerializeMembers_k__BackingField;
 
+  /// [Nullable(2)]
+  /// [CompilerGenerated]
   /// @brief Field <NamingStrategy>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::NamingStrategy* ____NamingStrategy_k__BackingField;
 

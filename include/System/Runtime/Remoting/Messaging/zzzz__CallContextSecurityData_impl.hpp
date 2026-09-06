@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\CallContextSecurityData.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CallContextSecurityData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CallContextSecurityData_def.hpp"
 #include "System/Security/Principal/zzzz__IPrincipal_def.hpp"

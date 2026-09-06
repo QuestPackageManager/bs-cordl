@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PackedPlayModeBuildLogs.hpp"
+// IWYU pragma private; include "GlobalNamespace/PackedPlayModeBuildLogs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LogType_impl.hpp"
 #include "GlobalNamespace/zzzz__PackedPlayModeBuildLogs_def.hpp"
@@ -25,7 +25,8 @@ inline void GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog::_ctor(::Un
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::LogType>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, type, message);
 }
-// Ctor Parameters [CppParam { name: "Type", ty: "::UnityEngine::LogType", modifiers: "", def_value: Some("{}") }, CppParam { name: "Message", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::UnityEngine::LogType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Message", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog::PackedPlayModeBuildLogs_RuntimeBuildLog(::UnityEngine::LogType Type, ::StringW Message) noexcept {
   this->Type = Type;
   this->Message = Message;

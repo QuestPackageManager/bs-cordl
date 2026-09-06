@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlaymodeOptionsExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlaymodeOptionsExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class PlaymodeOptionsExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PlaymodeOptionsExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlaymodeOptionsExtensions*, "", "PlaymodeOptionsExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -22,6 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlaymodeOptionsExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method IsRecorderActive, addr 0x370cbd4, size 0x10, virtual false, abstract: false, final false
   static inline bool IsRecorderActive(::GlobalNamespace::PlaymodeOptions playmodeOptions);
 
@@ -31,13 +33,13 @@ protected:
   constexpr PlaymodeOptionsExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlaymodeOptionsExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaymodeOptionsExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlaymodeOptionsExtensions(PlaymodeOptionsExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlaymodeOptionsExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaymodeOptionsExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaymodeOptionsExtensions(PlaymodeOptionsExtensions const&) = delete;
+  PlaymodeOptionsExtensions(PlaymodeOptionsExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14868 };

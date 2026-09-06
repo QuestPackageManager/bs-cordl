@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\API\UnityXRRenderTextureDesc.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/API/UnityXRRenderTextureDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,12 +29,13 @@ public:
   // @brief default ctor
   constexpr UnityXRRenderTextureDesc();
 
-  // Ctor Parameters [CppParam { name: "colorFormat", ty: "::UnityEngine::XR::OpenXR::API::UnityXRRenderTextureFormat", modifiers: "", def_value: None }, CppParam { name: "color", ty:
-  // "::UnityEngine::XR::OpenXR::API::UnityXRTextureData", modifiers: "", def_value: None }, CppParam { name: "depthFormat", ty: "::UnityEngine::XR::OpenXR::API::UnityXRDepthTextureFormat", modifiers:
-  // "", def_value: None }, CppParam { name: "depth", ty: "::UnityEngine::XR::OpenXR::API::UnityXRTextureData", modifiers: "", def_value: None }, CppParam { name: "shadingRateFormat", ty:
-  // "::UnityEngine::XR::OpenXR::API::UnityXRShadingRateFormat", modifiers: "", def_value: None }, CppParam { name: "shadingRate", ty: "::UnityEngine::XR::OpenXR::API::UnityXRTextureData", modifiers:
-  // "", def_value: None }, CppParam { name: "width", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "textureArrayLength", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "colorFormat", ty: "::UnityEngine::XR::OpenXR::API::UnityXRRenderTextureFormat", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty:
+  // "::UnityEngine::XR::OpenXR::API::UnityXRTextureData", modifiers: "", def_value: None, comment: None }, CppParam { name: "depthFormat", ty:
+  // "::UnityEngine::XR::OpenXR::API::UnityXRDepthTextureFormat", modifiers: "", def_value: None, comment: None }, CppParam { name: "depth", ty: "::UnityEngine::XR::OpenXR::API::UnityXRTextureData",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "shadingRateFormat", ty: "::UnityEngine::XR::OpenXR::API::UnityXRShadingRateFormat", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "shadingRate", ty: "::UnityEngine::XR::OpenXR::API::UnityXRTextureData", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "height", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "textureArrayLength", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityXRRenderTextureDesc(::UnityEngine::XR::OpenXR::API::UnityXRRenderTextureFormat colorFormat, ::UnityEngine::XR::OpenXR::API::UnityXRTextureData color,
                                      ::UnityEngine::XR::OpenXR::API::UnityXRDepthTextureFormat depthFormat, ::UnityEngine::XR::OpenXR::API::UnityXRTextureData depth,
                                      ::UnityEngine::XR::OpenXR::API::UnityXRShadingRateFormat shadingRateFormat, ::UnityEngine::XR::OpenXR::API::UnityXRTextureData shadingRate, uint32_t width,

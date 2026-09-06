@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CustomStyleProperty_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CustomStyleProperty_1.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -42,7 +42,7 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_
 UnityEngine::UIElements::CustomStyleProperty_1<T>::i___System__IEquatable_1___UnityEngine__UIElements__CustomStyleProperty_1_T__() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::UnityEngine::UIElements::CustomStyleProperty_1<T>::CustomStyleProperty_1(::StringW _name_k__BackingField) noexcept {
   this->_name_k__BackingField = _name_k__BackingField;
 }

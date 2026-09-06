@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\Substring.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Substring.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -496,8 +496,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substrin
 UnityEngine::InputSystem::Utilities::Substring::i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__Substring_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_String", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_String", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::Substring::Substring(::StringW m_String, int32_t m_Index, int32_t m_Length) noexcept {
   this->m_String = m_String;
   this->m_Index = m_Index;

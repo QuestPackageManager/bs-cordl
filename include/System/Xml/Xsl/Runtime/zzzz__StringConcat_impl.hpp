@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Xsl\Runtime\StringConcat.hpp"
+// IWYU pragma private; include "System/Xml/Xsl/Runtime/StringConcat.hpp"
 #include "System/Xml/Xsl/Runtime/zzzz__StringConcat_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::Xsl::Runtime::StringConcat.Clear
@@ -68,10 +68,11 @@ inline void System::Xml::Xsl::Runtime::StringConcat::ConcatNoDelimiter(::StringW
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Xsl::Runtime::StringConcat>(), { "ConcatNoDelimiter", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, s);
 }
-// Ctor Parameters [CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "s3", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "s4", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "delimiter", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "strList", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "idxStr", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "s3", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "s4", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "delimiter", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "strList", ty:
+// "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "idxStr", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::System::Xml::Xsl::Runtime::StringConcat::StringConcat(::StringW s1, ::StringW s2, ::StringW s3, ::StringW s4, ::StringW delimiter,
                                                                   ::System::Collections::Generic::List_1<::StringW>* strList, int32_t idxStr) noexcept {
   this->s1 = s1;

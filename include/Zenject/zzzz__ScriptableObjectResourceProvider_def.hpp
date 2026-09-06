@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ScriptableObjectResourceProvider.hpp"
+// IWYU pragma private; include "Zenject/ScriptableObjectResourceProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ MARK_REF_T(::Zenject::ScriptableObjectResourceProvider*);
 MARK_REF_T(::Zenject::ScriptableObjectResourceProvider___c__DisplayClass13_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::ScriptableObjectResourceProvider*, "Zenject", "ScriptableObjectResourceProvider");
 DEFINE_IL2CPP_CLASS(::Zenject::ScriptableObjectResourceProvider___c__DisplayClass13_0*, "Zenject", "ScriptableObjectResourceProvider/<>c__DisplayClass13_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -106,6 +107,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e8a27c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8a2c0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -118,13 +120,13 @@ protected:
   constexpr ScriptableObjectResourceProvider___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectResourceProvider___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectResourceProvider___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableObjectResourceProvider___c__DisplayClass13_0(ScriptableObjectResourceProvider___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectResourceProvider___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectResourceProvider___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableObjectResourceProvider___c__DisplayClass13_0(ScriptableObjectResourceProvider___c__DisplayClass13_0 const&) = delete;
+  ScriptableObjectResourceProvider___c__DisplayClass13_0(ScriptableObjectResourceProvider___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14593 };
@@ -155,6 +157,7 @@ static_assert(offsetof(::Zenject::ScriptableObjectResourceProvider___c__DisplayC
 static_assert(sizeof(::Zenject::ScriptableObjectResourceProvider___c__DisplayClass13_0) == 0x30, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -265,13 +268,13 @@ protected:
   constexpr ScriptableObjectResourceProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectResourceProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectResourceProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableObjectResourceProvider(ScriptableObjectResourceProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectResourceProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectResourceProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableObjectResourceProvider(ScriptableObjectResourceProvider const&) = delete;
+  ScriptableObjectResourceProvider(ScriptableObjectResourceProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14594 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTracker.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTracker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,8 +38,8 @@ public:
   // @brief default ctor
   constexpr OVRTracker_Frustum();
 
-  // Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fov", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTracker_Frustum(float_t nearZ, float_t farZ, ::UnityEngine::Vector2 fov) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -69,6 +69,7 @@ static_assert(offsetof(::GlobalNamespace::OVRTracker_Frustum, fov) == 0x8, "Offs
 static_assert(sizeof(::GlobalNamespace::OVRTracker_Frustum) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/reference/unity/latest/class_o_v_r_tracker")]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -124,13 +125,13 @@ protected:
   constexpr OVRTracker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTracker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTracker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTracker(OVRTracker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTracker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTracker(OVRTracker const&) = delete;
+  OVRTracker(OVRTrackerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7794 };

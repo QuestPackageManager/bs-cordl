@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\LowLevel\ProfilerMarkerDataType.hpp"
+// IWYU pragma private; include "Unity/Profiling/LowLevel/ProfilerMarkerDataType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
   // @brief default ctor
   constexpr ProfilerMarkerDataType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerMarkerDataType(uint8_t value__) noexcept;
 
   /// @brief Field Blob8 value: U8(11)

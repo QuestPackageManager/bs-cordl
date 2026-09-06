@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUIClip.hpp"
+// IWYU pragma private; include "UnityEngine/GUIClip.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GUIClip_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -50,7 +50,7 @@ constexpr UnityEngine::GUIClip_ParentClipScope::operator ::System::IDisposable*(
 constexpr ::System::IDisposable* UnityEngine::GUIClip_ParentClipScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::GUIClip_ParentClipScope::GUIClip_ParentClipScope(bool m_Disposed) noexcept {
   this->m_Disposed = m_Disposed;
 }

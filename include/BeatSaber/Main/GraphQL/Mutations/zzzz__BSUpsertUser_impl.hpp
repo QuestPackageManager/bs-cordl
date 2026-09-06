@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Mutations\BSUpsertUser.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Mutations/BSUpsertUser.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLMutationOperation_impl.hpp"
 #include "BeatSaber/Main/GraphQL/Mutations/zzzz__BSUpsertUser_def.hpp"
 #include "BeatSaber/Main/GraphQL/InputTypes/zzzz__IXOCBeatGamesUserUpsertData_def.hpp"

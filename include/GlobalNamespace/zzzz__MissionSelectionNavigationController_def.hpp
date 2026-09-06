@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionSelectionNavigationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionSelectionNavigationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ MARK_REF_T(::GlobalNamespace::MissionSelectionNavigationController*);
 MARK_REF_T(::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionSelectionNavigationController*, "", "MissionSelectionNavigationController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0*, "", "MissionSelectionNavigationController/<>c__DisplayClass11_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -87,13 +88,13 @@ protected:
   constexpr MissionSelectionNavigationController___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionSelectionNavigationController___c__DisplayClass11_0(MissionSelectionNavigationController___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionSelectionNavigationController___c__DisplayClass11_0(MissionSelectionNavigationController___c__DisplayClass11_0 const&) = delete;
+  MissionSelectionNavigationController___c__DisplayClass11_0(MissionSelectionNavigationController___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6970 };
@@ -182,12 +183,14 @@ public:
   /// @brief Method .ctor, addr 0x59606fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressPlayButtonEvent, addr 0x59600f4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
   /// @brief Method get_selectedMissionNode, addr 0x5960274, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_selectedMissionNode();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressPlayButtonEvent, addr 0x59601b4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
@@ -197,23 +200,26 @@ protected:
   constexpr MissionSelectionNavigationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionSelectionNavigationController(MissionSelectionNavigationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionNavigationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionSelectionNavigationController(MissionSelectionNavigationController const&) = delete;
+  MissionSelectionNavigationController(MissionSelectionNavigationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6971 };
 
+  /// [Inject]
   /// @brief Field _missionSelectionMapViewController, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> ____missionSelectionMapViewController;
 
+  /// [Inject]
   /// @brief Field _missionLevelDetailViewController, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionLevelDetailViewController> ____missionLevelDetailViewController;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressPlayButtonEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* ___didPressPlayButtonEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeSliceExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeSliceExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,10 +7,14 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeSliceExtensions)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -19,6 +23,7 @@ class NativeSliceExtensions;
 // Write type traits
 MARK_REF_T(::Unity::Collections::NativeSliceExtensions*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeSliceExtensions*, "Unity.Collections", "NativeSliceExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace Unity::Collections {
 // Is value type: false
@@ -26,11 +31,17 @@ namespace Unity::Collections {
 class CORDL_TYPE NativeSliceExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Collections::NativeSlice_1<T> Slice(::Unity::Collections::NativeArray_1<T> thisArray, int32_t start, int32_t length);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Collections::NativeSlice_1<T> Slice(::Unity::Collections::NativeArray_1<T> thisArray, int32_t start, int32_t length);
 
+  /// [Extension]
   /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Collections::NativeSlice_1<T> Slice(::Unity::Collections::NativeSlice_1<T> thisSlice, int32_t start, int32_t length);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Collections::NativeSlice_1<T> Slice(::Unity::Collections::NativeSlice_1<T> thisSlice, int32_t start, int32_t length);
 
 protected:
   // Ctor Parameters []
@@ -38,13 +49,13 @@ protected:
   constexpr NativeSliceExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeSliceExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeSliceExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeSliceExtensions(NativeSliceExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeSliceExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeSliceExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeSliceExtensions(NativeSliceExtensions const&) = delete;
+  NativeSliceExtensions(NativeSliceExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10001 };

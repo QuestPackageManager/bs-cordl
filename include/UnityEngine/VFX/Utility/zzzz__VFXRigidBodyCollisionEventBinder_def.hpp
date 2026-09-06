@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXRigidBodyCollisionEventBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXRigidBodyCollisionEventBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class VFXRigidBodyCollisionEventBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder*, "UnityEngine.VFX.Utility", "VFXRigidBodyCollisionEventBinder");
+// [RequireComponent(typeof(UnityEngine.Rigidbody))]
+// [RequireComponent(typeof(UnityEngine.Collider))]
 // Dependencies UnityEngine.VFX.Utility.VFXEventBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -64,13 +66,13 @@ protected:
   constexpr VFXRigidBodyCollisionEventBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXRigidBodyCollisionEventBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXRigidBodyCollisionEventBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXRigidBodyCollisionEventBinder(VFXRigidBodyCollisionEventBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXRigidBodyCollisionEventBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXRigidBodyCollisionEventBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXRigidBodyCollisionEventBinder(VFXRigidBodyCollisionEventBinder const&) = delete;
+  VFXRigidBodyCollisionEventBinder(VFXRigidBodyCollisionEventBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19977 };

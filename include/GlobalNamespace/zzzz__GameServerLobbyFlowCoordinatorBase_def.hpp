@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServerLobbyFlowCoordinatorBase.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServerLobbyFlowCoordinatorBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   // @brief default ctor
   constexpr GameServerLobbyFlowCoordinatorBase_LobbyType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameServerLobbyFlowCoordinatorBase_LobbyType(int32_t value__) noexcept;
 
   /// @brief Field ClientSetup value: I32(1)
@@ -97,7 +97,7 @@ public:
   // Declarations
   using LobbyType = ::GlobalNamespace::GameServerLobbyFlowCoordinatorBase_LobbyType;
 
-  /// @brief Method GetLobbyType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetLobbyType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::GameServerLobbyFlowCoordinatorBase_LobbyType GetLobbyType();
 
   static inline ::GlobalNamespace::GameServerLobbyFlowCoordinatorBase* New_ctor();
@@ -105,34 +105,44 @@ public:
   /// @brief Method .ctor, addr 0x5a09130, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_didFinishEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method add_didOpenInvitePanelEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_didOpenInvitePanelEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method add_didSetupEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_didSetupEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didSetupEvent(::System::Action* value);
 
-  /// @brief Method add_startGameOrReadyEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_startGameOrReadyEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method add_willFinishEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_willFinishEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_willFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_didFinishEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didOpenInvitePanelEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method remove_didSetupEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_didSetupEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didSetupEvent(::System::Action* value);
 
-  /// @brief Method remove_startGameOrReadyEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_startGameOrReadyEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method remove_willFinishEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_willFinishEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_willFinishEvent(::System::Action* value);
 
 protected:
@@ -141,13 +151,13 @@ protected:
   constexpr GameServerLobbyFlowCoordinatorBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinatorBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinatorBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerLobbyFlowCoordinatorBase(GameServerLobbyFlowCoordinatorBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinatorBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinatorBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerLobbyFlowCoordinatorBase(GameServerLobbyFlowCoordinatorBase const&) = delete;
+  GameServerLobbyFlowCoordinatorBase(GameServerLobbyFlowCoordinatorBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6353 };

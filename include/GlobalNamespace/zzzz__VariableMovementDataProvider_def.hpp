@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VariableMovementDataProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/VariableMovementDataProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE VariableMovementDataProvider_InterpolationData {
 public:
   // Declarations
+  /// [IsReadOnly]
   /// @brief Method GetValue, addr 0x58cd918, size 0x90, virtual false, abstract: false, final false
   inline float_t GetValue(float_t time);
 
@@ -72,9 +73,9 @@ public:
   // @brief default ctor
   constexpr VariableMovementDataProvider_InterpolationData();
 
-  // Ctor Parameters [CppParam { name: "_fromValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_toValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_fromTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_easeType", ty:
-  // "::GlobalNamespace::EaseType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_fromValue", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_toValue", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_fromTime", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_duration", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_easeType", ty: "::GlobalNamespace::EaseType", modifiers: "", def_value: None, comment: None }]
   constexpr VariableMovementDataProvider_InterpolationData(float_t _fromValue, float_t _toValue, float_t _fromTime, float_t _duration, ::GlobalNamespace::EaseType _easeType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -246,7 +247,7 @@ public:
   inline void ManualUpdate(float_t songTime);
 
   static inline ::GlobalNamespace::VariableMovementDataProvider* New_ctor(::GlobalNamespace::PlayerTransforms* playerTransforms,
-                                                                          ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
+                                                                          /* [InjectOptional] */ ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   /// @brief Method NoteJumpGravityForLineLayerWithoutJumpOffset, addr 0x58cd8d8, size 0x40, virtual false, abstract: false, final false
   inline float_t NoteJumpGravityForLineLayerWithoutJumpOffset(float_t highestJumpPosY, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
@@ -390,7 +391,7 @@ public:
   constexpr void __cordl_internal_set__wasUpdatedThisFrame_k__BackingField(bool value);
 
   /// @brief Method .ctor, addr 0x58cd324, size 0x160, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
+  inline void _ctor(::GlobalNamespace::PlayerTransforms* playerTransforms, /* [InjectOptional] */ ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   /// @brief Method get_halfJumpDuration, addr 0x58cd264, size 0x8, virtual true, abstract: false, final true
   inline float_t get_halfJumpDuration();
@@ -425,6 +426,7 @@ public:
   /// @brief Method get_waitingDuration, addr 0x58cd27c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_waitingDuration();
 
+  /// [CompilerGenerated]
   /// @brief Method get_wasUpdatedThisFrame, addr 0x58cd244, size 0x8, virtual true, abstract: false, final true
   inline bool get_wasUpdatedThisFrame();
 
@@ -434,6 +436,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_wasUpdatedThisFrame, addr 0x58cd24c, size 0x8, virtual false, abstract: false, final false
   inline void set_wasUpdatedThisFrame(bool value);
 
@@ -443,13 +446,13 @@ protected:
   constexpr VariableMovementDataProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VariableMovementDataProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VariableMovementDataProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VariableMovementDataProvider(VariableMovementDataProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VariableMovementDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VariableMovementDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VariableMovementDataProvider(VariableMovementDataProvider const&) = delete;
+  VariableMovementDataProvider(VariableMovementDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5644 };
@@ -466,6 +469,7 @@ public:
   /// @brief Field kMoveDuration offset 0xffffffff size 0x4
   static constexpr float_t kMoveDuration{ static_cast<float_t>(0.5f) };
 
+  /// [CompilerGenerated]
   /// @brief Field <wasUpdatedThisFrame>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____wasUpdatedThisFrame_k__BackingField;
 

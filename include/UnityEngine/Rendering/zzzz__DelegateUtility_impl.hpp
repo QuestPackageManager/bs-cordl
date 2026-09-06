@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DelegateUtility.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DelegateUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DelegateUtility_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"

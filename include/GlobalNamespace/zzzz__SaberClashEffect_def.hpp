@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberClashEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberClashEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class SaberClashEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SaberClashEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SaberClashEffect*, "", "SaberClashEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/SaberClashEffect")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem::EmissionModule
 namespace GlobalNamespace {
 // Is value type: false
@@ -152,13 +153,13 @@ protected:
   constexpr SaberClashEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberClashEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberClashEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberClashEffect(SaberClashEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberClashEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberClashEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberClashEffect(SaberClashEffect const&) = delete;
+  SaberClashEffect(SaberClashEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5944 };
@@ -166,24 +167,31 @@ public:
   /// @brief Field kFallbackBladeThicknessM offset 0xffffffff size 0x4
   static constexpr float_t kFallbackBladeThicknessM{ static_cast<float_t>(0.04f) };
 
+  /// [SerializeField]
   /// @brief Field _sparkleParticleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____sparkleParticleSystem;
 
+  /// [SerializeField]
   /// @brief Field _glowParticleSystem, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____glowParticleSystem;
 
+  /// [SerializeField]
   /// @brief Field _rumblePreset, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____rumblePreset;
 
+  /// [Inject]
   /// @brief Field _saberClashChecker, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SaberClashChecker* ____saberClashChecker;
 
+  /// [Inject]
   /// @brief Field _hapticFeedbackController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackController;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [Inject]
   /// @brief Field _mainCamera, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 

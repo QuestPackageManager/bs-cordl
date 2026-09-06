@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls\PhysicsRaycasterWithCache.hpp"
+// IWYU pragma private; include "VRUIControls/PhysicsRaycasterWithCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ MARK_REF_T(::VRUIControls::PhysicsRaycasterWithCache*);
 MARK_VAL_T(::VRUIControls::PhysicsRaycasterWithCache_CachedRaycast);
 DEFINE_IL2CPP_CLASS(::VRUIControls::PhysicsRaycasterWithCache*, "VRUIControls", "PhysicsRaycasterWithCache");
 DEFINE_IL2CPP_CLASS(::VRUIControls::PhysicsRaycasterWithCache_CachedRaycast, "VRUIControls", "PhysicsRaycasterWithCache/CachedRaycast");
+// [IsReadOnly]
 // Dependencies UnityEngine.Ray, UnityEngine.RaycastHit
 namespace VRUIControls {
 // Is value type: true
@@ -48,9 +49,9 @@ public:
   // @brief default ctor
   constexpr PhysicsRaycasterWithCache_CachedRaycast();
 
-  // Ctor Parameters [CppParam { name: "wasHit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ray", ty: "::UnityEngine::Ray", modifiers: "", def_value: None }, CppParam { name:
-  // "hitInfo", ty: "::UnityEngine::RaycastHit", modifiers: "", def_value: None }, CppParam { name: "maxDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "wasHit", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "ray", ty: "::UnityEngine::Ray", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "hitInfo", ty: "::UnityEngine::RaycastHit", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxDistance", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PhysicsRaycasterWithCache_CachedRaycast(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -132,13 +133,13 @@ protected:
   constexpr PhysicsRaycasterWithCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycasterWithCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycasterWithCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PhysicsRaycasterWithCache(PhysicsRaycasterWithCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycasterWithCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycasterWithCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PhysicsRaycasterWithCache(PhysicsRaycasterWithCache const&) = delete;
+  PhysicsRaycasterWithCache(PhysicsRaycasterWithCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22824 };

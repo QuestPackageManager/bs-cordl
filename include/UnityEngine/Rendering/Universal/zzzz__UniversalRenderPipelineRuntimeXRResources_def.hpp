@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineRuntimeXRResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineRuntimeXRResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,9 @@ class UniversalRenderPipelineRuntimeXRResources;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources*, "UnityEngine.Rendering.Universal", "UniversalRenderPipelineRuntimeXRResources");
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "R: Runtime XR", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -118,23 +121,29 @@ protected:
   constexpr UniversalRenderPipelineRuntimeXRResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeXRResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeXRResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineRuntimeXRResources(UniversalRenderPipelineRuntimeXRResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeXRResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeXRResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineRuntimeXRResources(UniversalRenderPipelineRuntimeXRResources const&) = delete;
+  UniversalRenderPipelineRuntimeXRResources(UniversalRenderPipelineRuntimeXRResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12944 };
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/XR/XROcclusionMesh.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_xrOcclusionMeshPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_xrOcclusionMeshPS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/XR/XRMirrorView.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_xrMirrorViewPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_xrMirrorViewPS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/XR/XRMotionVector.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_xrMotionVector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_xrMotionVector;
 

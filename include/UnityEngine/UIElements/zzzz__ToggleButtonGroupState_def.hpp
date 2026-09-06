@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ToggleButtonGroupState.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ToggleButtonGroupState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ struct ToggleButtonGroupState;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::ToggleButtonGroupState);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ToggleButtonGroupState, "UnityEngine.UIElements", "ToggleButtonGroupState");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -96,6 +97,7 @@ public:
   /// @brief Method set_Item, addr 0x6d78bc8, size 0xe8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, bool value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method set_length, addr 0x6d7acc0, size 0x8, virtual false, abstract: false, final false
   inline void set_length(int32_t value);
 
@@ -103,7 +105,8 @@ public:
   // @brief default ctor
   constexpr ToggleButtonGroupState();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ToggleButtonGroupState(uint64_t m_Data, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,9 +115,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field m_Data, offset: 0x0, size: 0x8, def value: None
   uint64_t m_Data;
 
+  /// [SerializeField]
   /// @brief Field m_Length, offset: 0x8, size: 0x4, def value: None
   int32_t m_Length;
 

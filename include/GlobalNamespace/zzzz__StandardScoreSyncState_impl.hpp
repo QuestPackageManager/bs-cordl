@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardScoreSyncState.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardScoreSyncState.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__IEquatableByReference_1_def.hpp"
 #include "GlobalNamespace/zzzz__IStateTable_3_def.hpp"
@@ -7,7 +7,7 @@
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::StandardScoreSyncState_Score::StandardScoreSyncState_Score(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -188,13 +188,13 @@ inline void GlobalNamespace::StandardScoreSyncState::SetState(::GlobalNamespace:
                                                            { "SetState", {}, { ::i2c::type_of<::GlobalNamespace::StandardScoreSyncState_Score>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, s, value);
 }
-inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::GetDelta(::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable) {
+inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "GetDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardScoreSyncState>(*this, ___internal_method, stateTable);
 }
-inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::ApplyDelta(::by_ref<::GlobalNamespace::StandardScoreSyncState> delta) {
+inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> delta) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "ApplyDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
@@ -216,7 +216,7 @@ inline void GlobalNamespace::StandardScoreSyncState::Deserialize(::LiteNetLib::U
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "Deserialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, reader);
 }
-inline bool GlobalNamespace::StandardScoreSyncState::Equals(::by_ref<::GlobalNamespace::StandardScoreSyncState> other) {
+inline bool GlobalNamespace::StandardScoreSyncState::Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
@@ -226,16 +226,16 @@ inline int32_t GlobalNamespace::StandardScoreSyncState::GetSize() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "GetSize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline ::GlobalNamespace::StandardScoreSyncState
-GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable) {
+inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta",
                                                                                                               {},
                                                                                                               { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardScoreSyncState>(*this, ___internal_method, stateTable);
 }
-inline ::GlobalNamespace::StandardScoreSyncState
-GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(::by_ref<::GlobalNamespace::StandardScoreSyncState> delta) {
+inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> delta) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -243,7 +243,7 @@ GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_Stan
                        { "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardScoreSyncState>(*this, ___internal_method, delta);
 }
-inline bool GlobalNamespace::StandardScoreSyncState::IEquatableByReference_StandardScoreSyncState__Equals(::by_ref<::GlobalNamespace::StandardScoreSyncState> other) {
+inline bool GlobalNamespace::StandardScoreSyncState::IEquatableByReference_StandardScoreSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
                                                            { "IEquatableByReference<StandardScoreSyncState>.Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
@@ -277,9 +277,9 @@ constexpr ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::Standard
 GlobalNamespace::StandardScoreSyncState::i___GlobalNamespace__IEquatableByReference_1___GlobalNamespace__StandardScoreSyncState_() {
   return static_cast<::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StandardScoreSyncState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_modifiedScore", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_multipliedScore", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_immediateMaxPossibleMultipliedScore", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_combo", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_multiplier", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_modifiedScore", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_multipliedScore", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_immediateMaxPossibleMultipliedScore", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_combo", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_multiplier", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::StandardScoreSyncState::StandardScoreSyncState(int32_t _modifiedScore, int32_t _multipliedScore, int32_t _immediateMaxPossibleMultipliedScore, int32_t _combo,
                                                                             int32_t _multiplier) noexcept {
   this->_modifiedScore = _modifiedScore;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Attributes\DateStringAttribute.hpp"
+// IWYU pragma private; include "BGLib/Attributes/DateStringAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/Attributes/zzzz__DateStringAttribute_def.hpp"
 //  Writing Method size for method: ::BGLib::Attributes::DateStringAttribute._ctor

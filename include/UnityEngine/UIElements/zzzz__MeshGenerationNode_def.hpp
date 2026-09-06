@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MeshGenerationNode.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MeshGenerationNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct MeshGenerationNode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::MeshGenerationNode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MeshGenerationNode, "UnityEngine.UIElements", "MeshGenerationNode");
+// [NativeContainer]
 // Dependencies UnityEngine.UIElements.UnsafeMeshGenerationNode
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -36,7 +37,7 @@ public:
   // @brief default ctor
   constexpr MeshGenerationNode();
 
-  // Ctor Parameters [CppParam { name: "m_UnsafeNode", ty: "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_UnsafeNode", ty: "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: None, comment: None }]
   constexpr MeshGenerationNode(::UnityEngine::UIElements::UnsafeMeshGenerationNode m_UnsafeNode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

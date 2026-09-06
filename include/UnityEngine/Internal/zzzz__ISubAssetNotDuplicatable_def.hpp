@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Internal\ISubAssetNotDuplicatable.hpp"
+// IWYU pragma private; include "UnityEngine/Internal/ISubAssetNotDuplicatable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,6 +11,7 @@ class ISubAssetNotDuplicatable;
 // Write type traits
 MARK_REF_T(::UnityEngine::Internal::ISubAssetNotDuplicatable*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Internal::ISubAssetNotDuplicatable*, "UnityEngine.Internal", "ISubAssetNotDuplicatable");
+// [VisibleToOtherModules]
 // Dependencies
 namespace UnityEngine::Internal {
 // Is value type: false
@@ -18,9 +19,9 @@ namespace UnityEngine::Internal {
 class CORDL_TYPE ISubAssetNotDuplicatable {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "ISubAssetNotDuplicatable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISubAssetNotDuplicatable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISubAssetNotDuplicatable(ISubAssetNotDuplicatable const&) = delete;
+  ISubAssetNotDuplicatable(ISubAssetNotDuplicatableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10660 };

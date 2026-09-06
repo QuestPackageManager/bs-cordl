@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\TrackedPoseDriver.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/TrackedPoseDriver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +93,7 @@ public:
   // @brief default ctor
   constexpr TrackedPoseDriver_TrackingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedPoseDriver_TrackingType(int32_t value__) noexcept;
 
   /// @brief Field PositionOnly value: I32(2)
@@ -122,6 +122,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver_Trackin
 static_assert(sizeof(::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
@@ -152,7 +153,7 @@ public:
   // @brief default ctor
   constexpr TrackedPoseDriver_TrackingStates();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedPoseDriver_TrackingStates(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -211,7 +212,7 @@ public:
   // @brief default ctor
   constexpr TrackedPoseDriver_UpdateType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedPoseDriver_UpdateType(int32_t value__) noexcept;
 
   /// @brief Field BeforeRender value: I32(2)
@@ -240,6 +241,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateT
 static_assert(sizeof(::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
+// [AddComponentMenu("XR/Tracked Pose Driver (Input System)")]
 // Dependencies UnityEngine.InputSystem.InputActionProperty, UnityEngine.InputSystem.XR.TrackedPoseDriver::TrackingStates, UnityEngine.InputSystem.XR.TrackedPoseDriver::TrackingType,
 // UnityEngine.InputSystem.XR.TrackedPoseDriver::UpdateType, UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::InputSystem::XR {
@@ -558,32 +560,44 @@ protected:
   constexpr TrackedPoseDriver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackedPoseDriver(TrackedPoseDriver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackedPoseDriver(TrackedPoseDriver const&) = delete;
+  TrackedPoseDriver(TrackedPoseDriverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8817 };
 
+  /// [SerializeField]
+  /// [Tooltip("Which Transform properties to update.")]
   /// @brief Field m_TrackingType, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType ___m_TrackingType;
 
+  /// [SerializeField]
+  /// [Tooltip("Updates the Transform properties after these phases of Input System event processing.")]
   /// @brief Field m_UpdateType, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateType ___m_UpdateType;
 
+  /// [SerializeField]
+  /// [Tooltip("Ignore Tracking State and always treat the input pose as valid.")]
   /// @brief Field m_IgnoreTrackingState, offset: 0x28, size: 0x1, def value: None
   bool ___m_IgnoreTrackingState;
 
+  /// [SerializeField]
+  /// [Tooltip("The input action to read the position value of a tracked device. Must be a Vector 3 control type.")]
   /// @brief Field m_PositionInput, offset: 0x30, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_PositionInput;
 
+  /// [SerializeField]
+  /// [Tooltip("The input action to read the rotation value of a tracked device. Must be a Quaternion control type.")]
   /// @brief Field m_RotationInput, offset: 0x48, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_RotationInput;
 
+  /// [SerializeField]
+  /// [Tooltip("The input action to read the tracking state value of a tracked device. Identifies if position and rotation have valid data. Must be an Integer control type.")]
   /// @brief Field m_TrackingStateInput, offset: 0x60, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_TrackingStateInput;
 
@@ -608,9 +622,15 @@ public:
   /// @brief Field m_IsFirstUpdate, offset: 0x9b, size: 0x1, def value: None
   bool ___m_IsFirstUpdate;
 
+  /// [Obsolete]
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_PositionAction, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ___m_PositionAction;
 
+  /// [Obsolete]
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_RotationAction, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ___m_RotationAction;
 

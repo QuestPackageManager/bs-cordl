@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\GraphQLClientProviderInstallerSO.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/GraphQLClientProviderInstallerSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,23 +66,27 @@ protected:
   constexpr GraphQLClientProviderInstallerSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProviderInstallerSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProviderInstallerSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLClientProviderInstallerSO(GraphQLClientProviderInstallerSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProviderInstallerSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProviderInstallerSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClientProviderInstallerSO(GraphQLClientProviderInstallerSO const&) = delete;
+  GraphQLClientProviderInstallerSO(GraphQLClientProviderInstallerSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22663 };
 
+  /// [SerializeField]
   /// @brief Field _endpointPattern, offset: 0x20, size: 0x8, def value: None
   ::StringW ____endpointPattern;
 
+  /// [Tooltip("As only OnDemand is supported, this should look like \'1234.od.\', 1234 is your OnDemand id.")]
+  /// [SerializeField]
   /// @brief Field _devServerPath, offset: 0x28, size: 0x8, def value: None
   ::StringW ____devServerPath;
 
+  /// [SerializeField]
   /// @brief Field _autoInitialize, offset: 0x30, size: 0x1, def value: None
   bool ____autoInitialize;
 

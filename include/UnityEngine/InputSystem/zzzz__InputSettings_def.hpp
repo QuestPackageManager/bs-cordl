@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputSettings.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +93,7 @@ public:
   // @brief default ctor
   constexpr InputSettings_UpdateMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputSettings_UpdateMode(int32_t value__) noexcept;
 
   /// @brief Field ProcessEventsInDynamicUpdate value: I32(1)
@@ -151,7 +151,7 @@ public:
   // @brief default ctor
   constexpr InputSettings_ScrollDeltaBehavior();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputSettings_ScrollDeltaBehavior(int32_t value__) noexcept;
 
   /// @brief Field KeepPlatformSpecificInputRange value: I32(1)
@@ -207,7 +207,7 @@ public:
   // @brief default ctor
   constexpr InputSettings_BackgroundBehavior();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputSettings_BackgroundBehavior(int32_t value__) noexcept;
 
   /// @brief Field IgnoreFocus value: I32(2)
@@ -266,7 +266,7 @@ public:
   // @brief default ctor
   constexpr InputSettings_EditorInputBehaviorInPlayMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputSettings_EditorInputBehaviorInPlayMode(int32_t value__) noexcept;
 
   /// @brief Field AllDeviceInputAlwaysGoesToGameView value: I32(2)
@@ -325,7 +325,7 @@ public:
   // @brief default ctor
   constexpr InputSettings_InputActionPropertyDrawerMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputSettings_InputActionPropertyDrawerMode(int32_t value__) noexcept;
 
   /// @brief Field Compact value: I32(0)
@@ -396,6 +396,7 @@ public:
   __declspec(property(get = get_editorInputBehaviorInPlayMode,
                       put = set_editorInputBehaviorInPlayMode)) ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode editorInputBehaviorInPlayMode;
 
+  /// @brief [Obsolete("filterNoiseOnCurrent is deprecated, filtering of noise is always enabled now.", false)]
   __declspec(property(get = get_filterNoiseOnCurrent, put = set_filterNoiseOnCurrent)) bool filterNoiseOnCurrent;
 
   __declspec(property(get = get_inputActionPropertyDrawerMode,
@@ -768,13 +769,13 @@ protected:
   constexpr InputSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputSettings(InputSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputSettings(InputSettings const&) = delete;
+  InputSettings(InputSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8791 };
@@ -782,63 +783,86 @@ public:
   /// @brief Field s_OldUnsupportedFixedAndDynamicUpdateSetting offset 0xffffffff size 0x4
   static constexpr int32_t s_OldUnsupportedFixedAndDynamicUpdateSetting{ static_cast<int32_t>(0x0) };
 
+  /// [Tooltip("Determine which type of devices are used by the application. By default, this is empty meaning that all devices recognized by Unity will be used. Restricting the set of supported
+  /// devices will make only those devices appear in the input system.")] [SerializeField]
   /// @brief Field m_SupportedDevices, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_SupportedDevices;
 
+  /// [Tooltip("Determine when Unity processes events. By default, accumulated input events are flushed out before each fixed update and before each dynamic update. This setting can be used to
+  /// restrict event processing to only where the application needs it.")] [SerializeField]
   /// @brief Field m_UpdateMode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputSettings_UpdateMode ___m_UpdateMode;
 
+  /// [SerializeField]
   /// @brief Field m_ScrollDeltaBehavior, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior ___m_ScrollDeltaBehavior;
 
+  /// [SerializeField]
   /// @brief Field m_MaxEventBytesPerUpdate, offset: 0x28, size: 0x4, def value: None
   int32_t ___m_MaxEventBytesPerUpdate;
 
+  /// [SerializeField]
   /// @brief Field m_MaxQueuedEventsPerUpdate, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_MaxQueuedEventsPerUpdate;
 
+  /// [SerializeField]
   /// @brief Field m_CompensateForScreenOrientation, offset: 0x30, size: 0x1, def value: None
   bool ___m_CompensateForScreenOrientation;
 
+  /// [SerializeField]
   /// @brief Field m_BackgroundBehavior, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior ___m_BackgroundBehavior;
 
+  /// [SerializeField]
   /// @brief Field m_EditorInputBehaviorInPlayMode, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode ___m_EditorInputBehaviorInPlayMode;
 
+  /// [SerializeField]
   /// @brief Field m_InputActionPropertyDrawerMode, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode ___m_InputActionPropertyDrawerMode;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultDeadzoneMin, offset: 0x40, size: 0x4, def value: None
   float_t ___m_DefaultDeadzoneMin;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultDeadzoneMax, offset: 0x44, size: 0x4, def value: None
   float_t ___m_DefaultDeadzoneMax;
 
+  /// [Min(0.0001)]
+  /// [SerializeField]
   /// @brief Field m_DefaultButtonPressPoint, offset: 0x48, size: 0x4, def value: None
   float_t ___m_DefaultButtonPressPoint;
 
+  /// [SerializeField]
   /// @brief Field m_ButtonReleaseThreshold, offset: 0x4c, size: 0x4, def value: None
   float_t ___m_ButtonReleaseThreshold;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultTapTime, offset: 0x50, size: 0x4, def value: None
   float_t ___m_DefaultTapTime;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultSlowTapTime, offset: 0x54, size: 0x4, def value: None
   float_t ___m_DefaultSlowTapTime;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultHoldTime, offset: 0x58, size: 0x4, def value: None
   float_t ___m_DefaultHoldTime;
 
+  /// [SerializeField]
   /// @brief Field m_TapRadius, offset: 0x5c, size: 0x4, def value: None
   float_t ___m_TapRadius;
 
+  /// [SerializeField]
   /// @brief Field m_MultiTapDelayTime, offset: 0x60, size: 0x4, def value: None
   float_t ___m_MultiTapDelayTime;
 
+  /// [SerializeField]
   /// @brief Field m_DisableRedundantEventsMerging, offset: 0x64, size: 0x1, def value: None
   bool ___m_DisableRedundantEventsMerging;
 
+  /// [SerializeField]
   /// @brief Field m_ShortcutKeysConsumeInputs, offset: 0x65, size: 0x1, def value: None
   bool ___m_ShortcutKeysConsumeInputs;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BufferDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BufferDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,9 +38,9 @@ public:
   // @brief default ctor
   constexpr BufferDesc();
 
-  // Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stride", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name",
-  // ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "target", ty: "::UnityEngine::GraphicsBuffer_Target", modifiers: "", def_value: None }, CppParam { name: "usageFlags", ty:
-  // "::UnityEngine::GraphicsBuffer_UsageFlags", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "stride", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "target", ty: "::UnityEngine::GraphicsBuffer_Target", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "usageFlags", ty: "::UnityEngine::GraphicsBuffer_UsageFlags", modifiers: "", def_value: None, comment: None }]
   constexpr BufferDesc(int32_t count, int32_t stride, ::StringW name, ::UnityEngine::GraphicsBuffer_Target target, ::UnityEngine::GraphicsBuffer_UsageFlags usageFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

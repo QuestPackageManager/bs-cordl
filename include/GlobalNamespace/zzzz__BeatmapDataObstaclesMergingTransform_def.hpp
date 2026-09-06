@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataObstaclesMergingTransform.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataObstaclesMergingTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapDataObstaclesMergingTransform*);
 MARK_REF_T(::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataObstaclesMergingTransform*, "", "BeatmapDataObstaclesMergingTransform");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0*, "", "BeatmapDataObstaclesMergingTransform/<>c__DisplayClass0_0");
+// [CompilerGenerated]
 // Dependencies ObstacleData, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -70,13 +71,13 @@ protected:
   constexpr BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0(BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0(BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0 const&) = delete;
+  BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0(BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14803 };
@@ -118,13 +119,13 @@ protected:
   constexpr BeatmapDataObstaclesMergingTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataObstaclesMergingTransform(BeatmapDataObstaclesMergingTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataObstaclesMergingTransform(BeatmapDataObstaclesMergingTransform const&) = delete;
+  BeatmapDataObstaclesMergingTransform(BeatmapDataObstaclesMergingTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14804 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConcreteIdBinderNonGeneric.hpp"
+// IWYU pragma private; include "Zenject/ConcreteIdBinderNonGeneric.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class ConcreteIdBinderNonGeneric;
 // Write type traits
 MARK_REF_T(::Zenject::ConcreteIdBinderNonGeneric*);
 DEFINE_IL2CPP_CLASS(::Zenject::ConcreteIdBinderNonGeneric*, "Zenject", "ConcreteIdBinderNonGeneric");
+// [NoReflectionBaking]
 // Dependencies Zenject.ConcreteBinderNonGeneric
 namespace Zenject {
 // Is value type: false
@@ -48,13 +49,13 @@ protected:
   constexpr ConcreteIdBinderNonGeneric();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderNonGeneric", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderNonGeneric", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcreteIdBinderNonGeneric(ConcreteIdBinderNonGeneric&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderNonGeneric", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderNonGeneric", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteIdBinderNonGeneric(ConcreteIdBinderNonGeneric const&) = delete;
+  ConcreteIdBinderNonGeneric(ConcreteIdBinderNonGenericconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14027 };

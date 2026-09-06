@@ -1,22 +1,26 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LazyLoadReference_1.hpp"
+// IWYU pragma private; include "UnityEngine/LazyLoadReference_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LazyLoadReference_1)
 // Forward declare root types
 namespace UnityEngine {
-template <typename T> struct LazyLoadReference_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+struct LazyLoadReference_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::LazyLoadReference_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::LazyLoadReference_1, "UnityEngine", "LazyLoadReference`1");
-// Dependencies
+// Dependencies UnityEngine.Object
 namespace UnityEngine {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: true
 // CS Name: UnityEngine.LazyLoadReference`1<T>
 struct CORDL_TYPE LazyLoadReference_1 {
@@ -42,7 +46,7 @@ public:
   // @brief default ctor
   constexpr LazyLoadReference_1();
 
-  // Ctor Parameters [CppParam { name: "m_InstanceID", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_InstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LazyLoadReference_1(int32_t m_InstanceID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -54,6 +58,7 @@ public:
   /// @brief Field kInstanceID_None offset 0xffffffff size 0x4
   static constexpr int32_t kInstanceID_None{ static_cast<int32_t>(0x0) };
 
+  /// [SerializeField]
   /// @brief Field m_InstanceID, offset: 0x0, size: 0x4, def value: None
   int32_t m_InstanceID;
 

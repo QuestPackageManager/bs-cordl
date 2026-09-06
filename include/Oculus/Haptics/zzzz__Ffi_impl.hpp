@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Haptics\Ffi.hpp"
+// IWYU pragma private; include "Oculus/Haptics/Ffi.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Haptics/zzzz__Ffi_def.hpp"
@@ -8,7 +8,7 @@
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Haptics::Ffi_Result::Ffi_Result(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -31,8 +31,8 @@ constexpr ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi_Result::PlayerInval
 constexpr ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi_Result::NoClipLoaded{ static_cast<int32_t>(0xfffffff2) };
 constexpr ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi_Result::InvalidPlayCallbackPointer{ static_cast<int32_t>(0xfffffff1) };
 constexpr ::Oculus::Haptics::Ffi_Result Oculus::Haptics::Ffi_Result::PlayerInvalidSeekPosition{ static_cast<int32_t>(0xfffffff0) };
-// Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "patch", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "patch", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Haptics::Ffi_SdkVersion::Ffi_SdkVersion(uint16_t major, uint16_t minor, uint16_t patch) noexcept {
   this->major = major;
   this->minor = minor;
@@ -40,7 +40,7 @@ constexpr ::Oculus::Haptics::Ffi_SdkVersion::Ffi_SdkVersion(uint16_t major, uint
 }
 // Ctor Parameters []
 constexpr ::Oculus::Haptics::Ffi_SdkVersion::Ffi_SdkVersion() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Haptics::Ffi_Controller::Ffi_Controller(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -49,7 +49,7 @@ constexpr ::Oculus::Haptics::Ffi_Controller::Ffi_Controller() {}
 constexpr ::Oculus::Haptics::Ffi_Controller Oculus::Haptics::Ffi_Controller::Left{ static_cast<int32_t>(0x0) };
 constexpr ::Oculus::Haptics::Ffi_Controller Oculus::Haptics::Ffi_Controller::Right{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Haptics::Ffi_Controller Oculus::Haptics::Ffi_Controller::Both{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Haptics::Ffi_LogLevel::Ffi_LogLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -217,7 +217,8 @@ inline ::Oculus::Haptics::Ffi_HapticsSdkPlayCallback* Oculus::Haptics::Ffi_Hapti
 }
 // Ctor Parameters []
 constexpr ::Oculus::Haptics::Ffi_HapticsSdkPlayCallback::Ffi_HapticsSdkPlayCallback() {}
-// Ctor Parameters [CppParam { name: "stream_count", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "play_call_count", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "stream_count", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "play_call_count", ty: "int64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::Oculus::Haptics::Ffi_NullBackendStatistics::Ffi_NullBackendStatistics(int64_t stream_count, int64_t play_call_count) noexcept {
   this->stream_count = stream_count;
   this->play_call_count = play_call_count;

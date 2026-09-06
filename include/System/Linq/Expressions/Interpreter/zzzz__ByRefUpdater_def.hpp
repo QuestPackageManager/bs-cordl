@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\ByRefUpdater.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ByRefUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
   /// @brief Method UndefineTemps, addr 0x5fae634, size 0x4, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr int32_t const& __cordl_internal_get_ArgumentIndex() const;
@@ -58,13 +58,13 @@ protected:
   constexpr ByRefUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ByRefUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ByRefUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ByRefUpdater(ByRefUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ByRefUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ByRefUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ByRefUpdater(ByRefUpdater const&) = delete;
+  ByRefUpdater(ByRefUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16444 };

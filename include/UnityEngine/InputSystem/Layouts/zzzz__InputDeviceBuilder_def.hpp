@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Layouts\InputDeviceBuilder.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Layouts/InputDeviceBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -228,11 +228,11 @@ public:
   // @brief default ctor
   constexpr InputDeviceBuilder();
 
-  // Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }, CppParam { name: "m_LayoutCacheRef", ty:
-  // "::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance", modifiers: "", def_value: None }, CppParam { name: "m_ChildControlOverrides", ty:
-  // "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_StateOffsetToControlMap", ty: "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: None }, CppParam { name: "m_StringBuilder", ty: "::System::Text::StringBuilder*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LayoutCacheRef", ty:
+  // "::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ChildControlOverrides", ty:
+  // "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_StateOffsetToControlMap", ty: "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StringBuilder", ty:
+  // "::System::Text::StringBuilder*", modifiers: "", def_value: None, comment: None }]
   constexpr InputDeviceBuilder(::UnityEngine::InputSystem::InputDevice* m_Device, ::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance m_LayoutCacheRef,
                                ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* m_ChildControlOverrides,
                                ::System::Collections::Generic::List_1<uint32_t>* m_StateOffsetToControlMap, ::System::Text::StringBuilder* m_StringBuilder) noexcept;

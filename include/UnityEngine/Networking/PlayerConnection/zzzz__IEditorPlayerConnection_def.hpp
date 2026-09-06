@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\PlayerConnection\IEditorPlayerConnection.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/PlayerConnection/IEditorPlayerConnection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,21 +29,21 @@ namespace UnityEngine::Networking::PlayerConnection {
 class CORDL_TYPE IEditorPlayerConnection {
 public:
   // Declarations
-  /// @brief Method Register, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Register, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Register(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
-  /// @brief Method RegisterConnection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterConnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterConnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method RegisterDisconnection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterDisconnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDisconnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method Send, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Send(::System::Guid messageId, ::ArrayW<uint8_t> data);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IEditorPlayerConnection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IEditorPlayerConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IEditorPlayerConnection(IEditorPlayerConnection const&) = delete;
+  IEditorPlayerConnection(IEditorPlayerConnectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10649 };

@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRSettings.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRSettings_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
 #include "UnityEngine/XR/zzzz__XRSettings_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::XRSettings_StereoRenderingMode::XRSettings_StereoRenderingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

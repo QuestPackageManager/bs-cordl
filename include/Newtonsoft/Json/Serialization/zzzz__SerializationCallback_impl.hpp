@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\SerializationCallback.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/SerializationCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__SerializationCallback_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
@@ -74,7 +74,7 @@ inline void Newtonsoft::Json::Serialization::SerializationCallback::Invoke(::Sys
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::SerializationCallback*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, o, context);
 }
-inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::SerializationCallback::BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context,
+inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::SerializationCallback::BeginInvoke(/* [Nullable(1)] */ ::System::Object* o, ::System::Runtime::Serialization::StreamingContext context,
                                                                                                    ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::SerializationCallback*>(), 14 })));

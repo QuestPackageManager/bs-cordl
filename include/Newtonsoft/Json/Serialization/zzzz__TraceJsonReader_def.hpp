@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\TraceJsonReader.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/TraceJsonReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,9 @@ namespace System {
 struct Decimal;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -49,6 +51,8 @@ class TraceJsonReader;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::TraceJsonReader*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::TraceJsonReader*, "Newtonsoft.Json.Serialization", "TraceJsonReader");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonReader
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -68,8 +72,10 @@ public:
 
   __declspec(property(get = get_TokenType)) ::Newtonsoft::Json::JsonToken TokenType;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_Value)) ::System::Object* Value;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
   /// @brief Field _innerReader, offset 0x78, size 0x8
@@ -107,6 +113,7 @@ public:
   /// @brief Method ReadAsBoolean, addr 0x5d5a9d0, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
+  /// [NullableContext(2)]
   /// @brief Method ReadAsBytes, addr 0x5d5a8b4, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadAsBytes();
 
@@ -125,6 +132,7 @@ public:
   /// @brief Method ReadAsInt32, addr 0x5d5a82c, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
+  /// [NullableContext(2)]
   /// @brief Method ReadAsString, addr 0x5d5a870, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
@@ -164,9 +172,11 @@ public:
   /// @brief Method get_TokenType, addr 0x5d5ab3c, size 0x20, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
+  /// [NullableContext(2)]
   /// @brief Method get_Value, addr 0x5d5ab5c, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
+  /// [NullableContext(2)]
   /// @brief Method get_ValueType, addr 0x5d5ab7c, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
@@ -182,13 +192,13 @@ protected:
   constexpr TraceJsonReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TraceJsonReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceJsonReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TraceJsonReader(TraceJsonReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TraceJsonReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceJsonReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TraceJsonReader(TraceJsonReader const&) = delete;
+  TraceJsonReader(TraceJsonReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13537 };

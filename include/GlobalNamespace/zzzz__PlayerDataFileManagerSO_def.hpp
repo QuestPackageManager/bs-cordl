@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerDataFileManagerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerDataFileManagerSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,20 +59,22 @@ protected:
   constexpr PlayerDataFileManagerSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileManagerSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileManagerSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerDataFileManagerSO(PlayerDataFileManagerSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileManagerSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileManagerSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerDataFileManagerSO(PlayerDataFileManagerSO const&) = delete;
+  PlayerDataFileManagerSO(PlayerDataFileManagerSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15161 };
 
+  /// [SerializeField]
   /// @brief Field _buildInSongPackSerializedName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____buildInSongPackSerializedName;
 
+  /// [SerializeField]
   /// @brief Field _allSongPackSerializedName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____allSongPackSerializedName;
 

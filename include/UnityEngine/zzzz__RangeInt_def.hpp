@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RangeInt.hpp"
+// IWYU pragma private; include "UnityEngine/RangeInt.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,8 @@ public:
   // @brief default ctor
   constexpr RangeInt();
 
-  // Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr RangeInt(int32_t start, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUSort.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUSort.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUSort_def.hpp"
@@ -10,7 +10,7 @@
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUSort_Stage::GPUSort_Stage(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -55,18 +55,18 @@ inline void UnityEngine::Rendering::GPUSort_SupportResources::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUSort_SupportResources>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sortBufferKeys", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "sortBufferValues", ty:
-// "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sortBufferKeys", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sortBufferValues", ty:
+// "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUSort_SupportResources::GPUSort_SupportResources(::UnityEngine::GraphicsBuffer* sortBufferKeys, ::UnityEngine::GraphicsBuffer* sortBufferValues) noexcept {
   this->sortBufferKeys = sortBufferKeys;
   this->sortBufferValues = sortBufferValues;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::GPUSort_SupportResources::GPUSort_SupportResources() {}
-// Ctor Parameters [CppParam { name: "count", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxDepth", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "inputKeys", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputValues", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUSort_SupportResources", modifiers: "", def_value: Some("{}") }, CppParam { name: "workGroupCount", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "count", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxDepth", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "inputKeys", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputValues", ty:
+// "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUSort_SupportResources", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "workGroupCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUSort_Args::GPUSort_Args(uint32_t count, uint32_t maxDepth, ::UnityEngine::GraphicsBuffer* inputKeys, ::UnityEngine::GraphicsBuffer* inputValues,
                                                                ::UnityEngine::Rendering::GPUSort_SupportResources resources, int32_t workGroupCount) noexcept {
   this->count = count;
@@ -106,8 +106,8 @@ inline ::UnityEngine::Rendering::GPUSort_RenderGraphResources UnityEngine::Rende
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUSort_RenderGraphResources>(nullptr, ___internal_method, count, renderGraph, builder);
 }
-// Ctor Parameters [CppParam { name: "sortBufferKeys", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "sortBufferValues", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sortBufferKeys", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "sortBufferValues", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUSort_RenderGraphResources::GPUSort_RenderGraphResources(::UnityEngine::Rendering::RenderGraphModule::BufferHandle sortBufferKeys,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::BufferHandle sortBufferValues) noexcept {
   this->sortBufferKeys = sortBufferKeys;
@@ -115,7 +115,7 @@ constexpr ::UnityEngine::Rendering::GPUSort_RenderGraphResources::GPUSort_Render
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::GPUSort_RenderGraphResources::GPUSort_RenderGraphResources() {}
-// Ctor Parameters [CppParam { name: "computeAsset", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "computeAsset", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUSort_SystemResources::GPUSort_SystemResources(::UnityW<::UnityEngine::ComputeShader> computeAsset) noexcept {
   this->computeAsset = computeAsset;
 }
@@ -231,8 +231,8 @@ inline void UnityEngine::Rendering::GPUSort::Dispatch(::UnityEngine::Rendering::
                                               { "Dispatch", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUSort_Args>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmd, args);
 }
-// Ctor Parameters [CppParam { name: "m_Keywords", ty: "::ArrayW<::UnityEngine::Rendering::LocalKeyword>", modifiers: "", def_value: Some("{}") }, CppParam { name: "resources", ty:
-// "::UnityEngine::Rendering::GPUSort_SystemResources", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Keywords", ty: "::ArrayW<::UnityEngine::Rendering::LocalKeyword>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "resources", ty:
+// "::UnityEngine::Rendering::GPUSort_SystemResources", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUSort::GPUSort(::ArrayW<::UnityEngine::Rendering::LocalKeyword> m_Keywords, ::UnityEngine::Rendering::GPUSort_SystemResources resources) noexcept {
   this->m_Keywords = m_Keywords;
   this->resources = resources;

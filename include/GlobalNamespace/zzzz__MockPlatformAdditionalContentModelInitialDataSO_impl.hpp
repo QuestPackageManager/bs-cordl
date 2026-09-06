@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlatformAdditionalContentModelInitialDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlatformAdditionalContentModelInitialDataSO.hpp"
 #include "GlobalNamespace/zzzz__MockPlatformEntitlement_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_def.hpp"

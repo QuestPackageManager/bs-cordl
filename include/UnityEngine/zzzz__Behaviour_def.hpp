@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Behaviour.hpp"
+// IWYU pragma private; include "UnityEngine/Behaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,8 @@ class Behaviour;
 // Write type traits
 MARK_REF_T(::UnityEngine::Behaviour*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Behaviour*, "UnityEngine", "Behaviour");
+// [NativeHeader("Runtime/Mono/MonoBehaviour.h")]
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -22,8 +24,11 @@ namespace UnityEngine {
 class CORDL_TYPE Behaviour : public ::UnityEngine::Component {
 public:
   // Declarations
+  /// [RequiredByNativeCode]
+  /// @brief [NativeProperty]
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
+  /// @brief [NativeProperty]
   __declspec(property(get = get_isActiveAndEnabled)) bool isActiveAndEnabled;
 
   static inline ::UnityEngine::Behaviour* New_ctor();
@@ -37,6 +42,7 @@ public:
   /// @brief Method get_enabled_Injected, addr 0x6adc980, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_enabled_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsAddedToManager")]
   /// @brief Method get_isActiveAndEnabled, addr 0x6adca90, size 0x80, virtual false, abstract: false, final false
   inline bool get_isActiveAndEnabled();
 
@@ -55,13 +61,13 @@ protected:
   constexpr Behaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Behaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Behaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Behaviour(Behaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Behaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Behaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Behaviour(Behaviour const&) = delete;
+  Behaviour(Behaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10327 };

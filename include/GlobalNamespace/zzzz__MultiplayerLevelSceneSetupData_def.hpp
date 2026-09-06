@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLevelSceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelSceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class MultiplayerLevelSceneSetupData;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerLevelSceneSetupData*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLevelSceneSetupData*, "", "MultiplayerLevelSceneSetupData");
+// [ZenjectAllowDuringValidation]
 // Dependencies BeatmapKey, SceneSetupData
 namespace GlobalNamespace {
 // Is value type: false
@@ -29,7 +30,7 @@ public:
   /// @brief Field hasSong, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_hasSong, put = __cordl_internal_set_hasSong)) bool hasSong;
 
-  static inline ::GlobalNamespace::MultiplayerLevelSceneSetupData* New_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
+  static inline ::GlobalNamespace::MultiplayerLevelSceneSetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
 
@@ -44,7 +45,7 @@ public:
   constexpr void __cordl_internal_set_hasSong(bool value);
 
   /// @brief Method .ctor, addr 0x590dc94, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
 
 protected:
   // Ctor Parameters []
@@ -52,13 +53,13 @@ protected:
   constexpr MultiplayerLevelSceneSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelSceneSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelSceneSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLevelSceneSetupData(MultiplayerLevelSceneSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelSceneSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelSceneSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLevelSceneSetupData(MultiplayerLevelSceneSetupData const&) = delete;
+  MultiplayerLevelSceneSetupData(MultiplayerLevelSceneSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6725 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderTargetFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderTargetFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RenderTargetFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderTargetFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderTargetFlags, "UnityEngine.Rendering", "RenderTargetFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr RenderTargetFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderTargetFlags(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)

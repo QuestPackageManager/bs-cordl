@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEventPtr.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventPtr.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -481,7 +482,10 @@ inline uint32_t UnityEngine::InputSystem::LowLevel::InputEventPtr::get_stateOffs
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputEventPtr>(), { "get_stateOffset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method);
 }
-template <typename TOtherEvent> inline bool UnityEngine::InputSystem::LowLevel::InputEventPtr::IsA() {
+template <typename TOtherEvent>
+  requires(::cordl_internals::type_constraint<TOtherEvent, ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*> && ::cordl_internals::value_type_constraint<TOtherEvent> &&
+           ::cordl_internals::default_constructor_constraint<TOtherEvent>)
+inline bool UnityEngine::InputSystem::LowLevel::InputEventPtr::IsA() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputEventPtr>(), { "IsA", { ::i2c::class_of<TOtherEvent>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TOtherEvent>() })));
@@ -560,7 +564,7 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputEven
 UnityEngine::InputSystem::LowLevel::InputEventPtr::i___System__IEquatable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_EventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_EventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr::InputEventPtr(::UnityEngine::InputSystem::LowLevel::InputEvent* m_EventPtr) noexcept {
   this->m_EventPtr = m_EventPtr;
 }

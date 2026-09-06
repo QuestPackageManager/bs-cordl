@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ContinuousFireEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/ContinuousFireEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -172,32 +172,40 @@ protected:
   constexpr ContinuousFireEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContinuousFireEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContinuousFireEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContinuousFireEffect(ContinuousFireEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContinuousFireEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContinuousFireEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContinuousFireEffect(ContinuousFireEffect const&) = delete;
+  ContinuousFireEffect(ContinuousFireEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5598 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _fadeInDuration, offset: 0x98, size: 0x4, def value: None
   float_t ____fadeInDuration;
 
+  /// [SerializeField]
   /// @brief Field _fadeOutDuration, offset: 0x9c, size: 0x4, def value: None
   float_t ____fadeOutDuration;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _sustainDuration, offset: 0xa0, size: 0x4, def value: None
   float_t ____sustainDuration;
 
+  /// [SerializeField]
   /// @brief Field _flipbookSustainCurve, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____flipbookSustainCurve;
 
+  /// [SerializeField]
   /// @brief Field _bloomSustainCurve, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____bloomSustainCurve;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ColumnLayout.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ColumnLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ColumnLayout*, "UnityEngine.UIElements", "ColumnLayout");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0*, "UnityEngine.UIElements", "ColumnLayout/<>c__DisplayClass53_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0*, "UnityEngine.UIElements", "ColumnLayout/<>c__DisplayClass54_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -87,13 +88,13 @@ protected:
   constexpr ColumnLayout___c__DisplayClass53_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass53_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass53_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColumnLayout___c__DisplayClass53_0(ColumnLayout___c__DisplayClass53_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass53_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass53_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColumnLayout___c__DisplayClass53_0(ColumnLayout___c__DisplayClass53_0 const&) = delete;
+  ColumnLayout___c__DisplayClass53_0(ColumnLayout___c__DisplayClass53_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4257 };
@@ -114,6 +115,7 @@ static_assert(offsetof(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass
 static_assert(sizeof(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -153,13 +155,13 @@ protected:
   constexpr ColumnLayout___c__DisplayClass54_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass54_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass54_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColumnLayout___c__DisplayClass54_0(ColumnLayout___c__DisplayClass54_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass54_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass54_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColumnLayout___c__DisplayClass54_0(ColumnLayout___c__DisplayClass54_0 const&) = delete;
+  ColumnLayout___c__DisplayClass54_0(ColumnLayout___c__DisplayClass54_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4258 };
@@ -371,15 +373,19 @@ public:
   /// @brief Method UpdateMinAndMaxColumnsWidth, addr 0x6d57d50, size 0x310, virtual false, abstract: false, final false
   inline void UpdateMinAndMaxColumnsWidth();
 
+  /// [CompilerGenerated]
   /// @brief Method <DoLayout>b__49_0, addr 0x6d59fc8, size 0xa8, virtual false, abstract: false, final false
   inline int32_t _DoLayout_b__49_0(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
+  /// [CompilerGenerated]
   /// @brief Method <DoLayout>b__49_1, addr 0x6d5a070, size 0xa8, virtual false, abstract: false, final false
   inline int32_t _DoLayout_b__49_1(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
+  /// [CompilerGenerated]
   /// @brief Method <RecomputeToMaxWidthProportionally>b__53_0, addr 0x6d5a118, size 0xa8, virtual false, abstract: false, final false
   inline int32_t _RecomputeToMaxWidthProportionally_b__53_0(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
+  /// [CompilerGenerated]
   /// @brief Method <RecomputeToMinWidthProportionally>b__54_0, addr 0x6d5a1c0, size 0xa8, virtual false, abstract: false, final false
   inline int32_t _RecomputeToMinWidthProportionally_b__54_0(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
@@ -518,6 +524,7 @@ public:
   /// @brief Method .ctor, addr 0x6d561a0, size 0x284, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns);
 
+  /// [CompilerGenerated]
   /// @brief Method add_layoutRequested, addr 0x6d56048, size 0xac, virtual false, abstract: false, final false
   inline void add_layoutRequested(::System::Action* value);
 
@@ -542,6 +549,7 @@ public:
   /// @brief Method get_minColumnsWidth, addr 0x6d55f6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minColumnsWidth();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_layoutRequested, addr 0x6d560f4, size 0xac, virtual false, abstract: false, final false
   inline void remove_layoutRequested(::System::Action* value);
 
@@ -551,13 +559,13 @@ protected:
   constexpr ColumnLayout();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColumnLayout(ColumnLayout&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColumnLayout(ColumnLayout const&) = delete;
+  ColumnLayout(ColumnLayoutconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4259 };
@@ -625,6 +633,8 @@ public:
   /// @brief Field m_PreviewDesiredWidths, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, float_t>* ___m_PreviewDesiredWidths;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field layoutRequested, offset: 0x88, size: 0x8, def value: None
   ::System::Action* ___layoutRequested;
 

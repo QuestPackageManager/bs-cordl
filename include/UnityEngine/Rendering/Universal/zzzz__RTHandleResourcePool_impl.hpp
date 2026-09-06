@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RTHandleResourcePool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RTHandleResourcePool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RTHandleResourcePool_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -229,7 +229,7 @@ inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::set_staleRe
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(), { "set_staleResourceCapacity", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc,
+inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc,
                                                                                        ::UnityEngine::Rendering::RTHandle* resource, int32_t currentFrameIndex) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
                                                                                          { "AddResourceToPool",
@@ -238,7 +238,7 @@ inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResource
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, texDesc, resource, currentFrameIndex);
 }
-inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc,
+inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc,
                                                                                     ::by_ref<::UnityEngine::Rendering::RTHandle*> resource, bool usepool) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
                                                                                          { "TryGetResource",
@@ -265,7 +265,7 @@ inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::LogDebugInf
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(), { "LogDebugInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc) {
+inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
                                                            { "GetHashCodeWithNameHash", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));

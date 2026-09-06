@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXManager.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXCameraXRSettings_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXManager_def.hpp"
@@ -255,7 +255,7 @@ inline void UnityEngine::VFX::VFXManager::PrepareCamera(::UnityEngine::Camera* c
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "PrepareCamera", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cam);
 }
-inline void UnityEngine::VFX::VFXManager::PrepareCamera(::UnityEngine::Camera* cam, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings) {
+inline void UnityEngine::VFX::VFXManager::PrepareCamera(/* [NotNull] */ ::UnityEngine::Camera* cam, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(),
                                                            { "PrepareCamera", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::VFX::VFXCameraXRSettings>() } })));
@@ -271,8 +271,8 @@ inline void UnityEngine::VFX::VFXManager::ProcessCameraCommand(::UnityEngine::Ca
                                                                ::i2c::type_of<::UnityEngine::VFX::VFXCameraXRSettings>(), ::i2c::type_of<::UnityEngine::Rendering::CullingResults>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cam, cmd, camXRSettings, results);
 }
-inline void UnityEngine::VFX::VFXManager::Internal_ProcessCameraCommand(::UnityEngine::Camera* cam, ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings,
-                                                                        ::System::IntPtr cullResults) {
+inline void UnityEngine::VFX::VFXManager::Internal_ProcessCameraCommand(/* [NotNull] */ ::UnityEngine::Camera* cam, ::UnityEngine::Rendering::CommandBuffer* cmd,
+                                                                        ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings, ::System::IntPtr cullResults) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "Internal_ProcessCameraCommand",
@@ -281,13 +281,13 @@ inline void UnityEngine::VFX::VFXManager::Internal_ProcessCameraCommand(::UnityE
                                                                                                ::i2c::type_of<::UnityEngine::VFX::VFXCameraXRSettings>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cam, cmd, camXRSettings, cullResults);
 }
-inline ::UnityEngine::VFX::VFXCameraBufferTypes UnityEngine::VFX::VFXManager::IsCameraBufferNeeded(::UnityEngine::Camera* cam) {
+inline ::UnityEngine::VFX::VFXCameraBufferTypes UnityEngine::VFX::VFXManager::IsCameraBufferNeeded(/* [NotNull] */ ::UnityEngine::Camera* cam) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "IsCameraBufferNeeded", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::VFX::VFXCameraBufferTypes>(nullptr, ___internal_method, cam);
 }
-inline void UnityEngine::VFX::VFXManager::SetCameraBuffer(::UnityEngine::Camera* cam, ::UnityEngine::VFX::VFXCameraBufferTypes type, ::UnityEngine::Texture* buffer, int32_t x, int32_t y,
-                                                          int32_t width, int32_t height) {
+inline void UnityEngine::VFX::VFXManager::SetCameraBuffer(/* [NotNull] */ ::UnityEngine::Camera* cam, ::UnityEngine::VFX::VFXCameraBufferTypes type, ::UnityEngine::Texture* buffer, int32_t x,
+                                                          int32_t y, int32_t width, int32_t height) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(),
                                               { "SetCameraBuffer",

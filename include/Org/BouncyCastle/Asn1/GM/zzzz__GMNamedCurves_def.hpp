@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\GM\GMNamedCurves.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/GM/GMNamedCurves.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ protected:
   constexpr GMNamedCurves_SM2P256V1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves_SM2P256V1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves_SM2P256V1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GMNamedCurves_SM2P256V1Holder(GMNamedCurves_SM2P256V1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves_SM2P256V1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves_SM2P256V1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GMNamedCurves_SM2P256V1Holder(GMNamedCurves_SM2P256V1Holder const&) = delete;
+  GMNamedCurves_SM2P256V1Holder(GMNamedCurves_SM2P256V1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 168 };
@@ -127,13 +127,13 @@ protected:
   constexpr GMNamedCurves_WapiP192V1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves_WapiP192V1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves_WapiP192V1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GMNamedCurves_WapiP192V1Holder(GMNamedCurves_WapiP192V1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves_WapiP192V1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves_WapiP192V1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GMNamedCurves_WapiP192V1Holder(GMNamedCurves_WapiP192V1Holder const&) = delete;
+  GMNamedCurves_WapiP192V1Holder(GMNamedCurves_WapiP192V1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 169 };
@@ -214,13 +214,13 @@ protected:
   constexpr GMNamedCurves();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GMNamedCurves(GMNamedCurves&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GMNamedCurves(GMNamedCurves const&) = delete;
+  GMNamedCurves(GMNamedCurvesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 170 };

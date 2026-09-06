@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\GameAnalyticsBeatmapLevelData.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/GameAnalyticsBeatmapLevelData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__GameAnalyticsBeatmapLevelData_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__GameAnalyticsBeatmapPracticeSettings_def.hpp"
@@ -139,11 +139,10 @@ constexpr void BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatma
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isEnvironmentOverride = value;
 }
-inline void BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData::_ctor(::StringW gameMode, ::StringW levelID, ::StringW difficulty, ::StringW characteristic,
-                                                                                               ::StringW missionID,
-                                                                                               ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings,
-                                                                                               ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* gameplayModifiers,
-                                                                                               ::StringW environmentName, bool isEnvironmentOverride) {
+inline void BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData::_ctor(
+    ::StringW gameMode, ::StringW levelID, ::StringW difficulty, ::StringW characteristic, /* [Nullable(2)] */ ::StringW missionID,
+    /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings,
+    /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* gameplayModifiers, /* [Nullable(2)] */ ::StringW environmentName, bool isEnvironmentOverride) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData*>(),
@@ -155,11 +154,10 @@ inline void BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLe
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gameMode, levelID, difficulty, characteristic, missionID, practiceSettings, gameplayModifiers, environmentName,
                                                    isEnvironmentOverride);
 }
-inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData*
-BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData::New_ctor(::StringW gameMode, ::StringW levelID, ::StringW difficulty, ::StringW characteristic, ::StringW missionID,
-                                                                                      ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings,
-                                                                                      ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* gameplayModifiers,
-                                                                                      ::StringW environmentName, bool isEnvironmentOverride) {
+inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData::New_ctor(
+    ::StringW gameMode, ::StringW levelID, ::StringW difficulty, ::StringW characteristic, /* [Nullable(2)] */ ::StringW missionID,
+    /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings,
+    /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* gameplayModifiers, /* [Nullable(2)] */ ::StringW environmentName, bool isEnvironmentOverride) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData*>(
                                               gameMode, levelID, difficulty, characteristic, missionID, practiceSettings, gameplayModifiers, environmentName, isEnvironmentOverride));
 }

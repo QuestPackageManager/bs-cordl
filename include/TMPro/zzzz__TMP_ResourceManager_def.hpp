@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_ResourceManager.hpp"
+// IWYU pragma private; include "TMPro/TMP_ResourceManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,9 +48,9 @@ public:
   // @brief default ctor
   constexpr TMP_ResourceManager_FontAssetRef();
 
-  // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_ResourceManager_FontAssetRef(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, int64_t familyNameAndStyleHashCode,
                                              ::UnityW<::TMPro::TMP_FontAsset> fontAsset) noexcept;
 
@@ -178,13 +178,13 @@ protected:
   constexpr TMP_ResourceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ResourceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ResourceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_ResourceManager(TMP_ResourceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ResourceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ResourceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_ResourceManager(TMP_ResourceManager const&) = delete;
+  TMP_ResourceManager(TMP_ResourceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15967 };

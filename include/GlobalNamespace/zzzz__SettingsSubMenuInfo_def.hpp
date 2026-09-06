@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SettingsSubMenuInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/SettingsSubMenuInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,20 +62,23 @@ protected:
   constexpr SettingsSubMenuInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsSubMenuInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsSubMenuInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsSubMenuInfo(SettingsSubMenuInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsSubMenuInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsSubMenuInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsSubMenuInfo(SettingsSubMenuInfo const&) = delete;
+  SettingsSubMenuInfo(SettingsSubMenuInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6447 };
 
+  /// [SerializeField]
   /// @brief Field _viewController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____viewController;
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _menuName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____menuName;
 

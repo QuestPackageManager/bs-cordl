@@ -1,17 +1,17 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\TouchscreenState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TouchscreenState.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchscreenState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchscreenState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer::TouchscreenState__primaryTouchData_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer::TouchscreenState__primaryTouchData_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer::TouchscreenState__touchData_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -112,8 +112,8 @@ constexpr UnityEngine::InputSystem::LowLevel::TouchscreenState::operator ::Unity
 constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* UnityEngine::InputSystem::LowLevel::TouchscreenState::i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "primaryTouchData", ty: "::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "touchData", ty: "::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "primaryTouchData", ty: "::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "touchData", ty: "::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::TouchscreenState::TouchscreenState(::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer primaryTouchData,
                                                                                    ::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer touchData) noexcept {
   this->primaryTouchData = primaryTouchData;

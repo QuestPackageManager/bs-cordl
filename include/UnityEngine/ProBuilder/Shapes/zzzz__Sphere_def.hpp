@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Sphere.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Sphere.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ class Sphere;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Shapes::Sphere*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Shapes::Sphere*, "UnityEngine.ProBuilder.Shapes", "Sphere");
+// [Shape("Sphere")]
 // Dependencies UnityEngine.ProBuilder.Shapes.Shape, UnityEngine.Vector3
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
@@ -102,23 +103,26 @@ protected:
   constexpr Sphere();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Sphere", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sphere", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Sphere(Sphere&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Sphere", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sphere", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Sphere(Sphere const&) = delete;
+  Sphere(Sphereconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16846 };
 
+  /// [Range(1, 5)]
+  /// [SerializeField]
   /// @brief Field m_Subdivisions, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Subdivisions;
 
   /// @brief Field m_BottomMostVertexIndex, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_BottomMostVertexIndex;
 
+  /// [SerializeField]
   /// @brief Field m_Smooth, offset: 0x18, size: 0x1, def value: None
   bool ___m_Smooth;
 

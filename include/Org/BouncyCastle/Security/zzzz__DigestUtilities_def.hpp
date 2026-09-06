@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\DigestUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/DigestUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,7 +106,7 @@ public:
   // @brief default ctor
   constexpr DigestUtilities_DigestAlgorithm();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DigestUtilities_DigestAlgorithm(int32_t value__) noexcept;
 
   /// @brief Field BLAKE2B_160 value: I32(0)
@@ -316,13 +316,13 @@ protected:
   constexpr DigestUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DigestUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DigestUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DigestUtilities(DigestUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DigestUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DigestUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DigestUtilities(DigestUtilities const&) = delete;
+  DigestUtilities(DigestUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1745 };

@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\LayoutStyle.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/LayoutStyle.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Style_impl.hpp"
 #include "UnityEngine/zzzz__TextAnchor_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__LayoutStyle_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__LayoutStyle_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Layout::LayoutStyle_Layout(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -17,7 +17,7 @@ constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Lay
 constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Layout Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Layout::FillHorizontal{ static_cast<int32_t>(
     0x2) };
 constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Layout Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Layout::FillVertical{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Direction::LayoutStyle_Direction(int32_t value__) noexcept {
   this->value__ = value__;
 }

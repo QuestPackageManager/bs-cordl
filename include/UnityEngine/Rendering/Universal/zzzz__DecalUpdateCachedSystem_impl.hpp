@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalUpdateCachedSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalUpdateCachedSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
@@ -92,14 +92,16 @@ constexpr UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTrans
 constexpr ::UnityEngine::Jobs::IJobParallelForTransform* UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::i___UnityEngine__Jobs__IJobParallelForTransform() {
   return static_cast<::UnityEngine::Jobs::IJobParallelForTransform*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "positions", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotations", ty:
-// "::Unity::Collections::NativeArray_1<::Unity::Mathematics::quaternion>", modifiers: "", def_value: Some("{}") }, CppParam { name: "scales", ty:
-// "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "dirty", ty: "::Unity::Collections::NativeArray_1<bool>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "scaleModes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalScaleMode>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "sizeOffsets", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "decalToWorlds", ty:
-// "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "normalToWorlds", ty:
-// "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "boundingSpheres", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::BoundingSphere>", modifiers: "", def_value: Some("{}") }, CppParam { name: "minDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "positions", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rotations", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::quaternion>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scales", ty:
+// "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dirty", ty:
+// "::Unity::Collections::NativeArray_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scaleModes", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalScaleMode>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sizeOffsets", ty:
+// "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "decalToWorlds", ty:
+// "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "normalToWorlds", ty:
+// "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "boundingSpheres", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::BoundingSphere>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minDistance", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::DecalUpdateCachedSystem_UpdateTransformsJob(
     ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3> positions, ::Unity::Collections::NativeArray_1<::Unity::Mathematics::quaternion> rotations,
     ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3> scales, ::Unity::Collections::NativeArray_1<bool> dirty,

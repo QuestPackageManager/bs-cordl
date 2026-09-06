@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspMvcControllerAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcControllerAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AspMvcControllerAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::AspMvcControllerAttribute._ctor
@@ -71,7 +71,7 @@ inline void JetBrains::Annotations::AspMvcControllerAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcControllerAttribute*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void JetBrains::Annotations::AspMvcControllerAttribute::_ctor(::StringW anonymousProperty) {
+inline void JetBrains::Annotations::AspMvcControllerAttribute::_ctor(/* [NotNull] */ ::StringW anonymousProperty) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcControllerAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, anonymousProperty);
@@ -89,7 +89,7 @@ inline void JetBrains::Annotations::AspMvcControllerAttribute::set_AnonymousProp
 inline ::JetBrains::Annotations::AspMvcControllerAttribute* JetBrains::Annotations::AspMvcControllerAttribute::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::AspMvcControllerAttribute*>());
 }
-inline ::JetBrains::Annotations::AspMvcControllerAttribute* JetBrains::Annotations::AspMvcControllerAttribute::New_ctor(::StringW anonymousProperty) {
+inline ::JetBrains::Annotations::AspMvcControllerAttribute* JetBrains::Annotations::AspMvcControllerAttribute::New_ctor(/* [NotNull] */ ::StringW anonymousProperty) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::AspMvcControllerAttribute*>(anonymousProperty));
 }
 // Ctor Parameters []

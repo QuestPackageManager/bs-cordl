@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetFrustumPlanes.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetFrustumPlanes.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "GlobalNamespace/zzzz__SetFrustumPlanes_def.hpp"
 #include "GlobalNamespace/zzzz__SetFrustumPlanesPass_def.hpp"

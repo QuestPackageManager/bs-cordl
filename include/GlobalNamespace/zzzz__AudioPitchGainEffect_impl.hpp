@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioPitchGainEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioPitchGainEffect.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
@@ -210,6 +210,7 @@ inline ::System::Object* GlobalNamespace::AudioPitchGainEffect__StartEffectCorou
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(__1__state));
 }

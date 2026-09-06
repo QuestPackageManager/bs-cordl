@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Layouts\InputDeviceBuilder.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Layouts/InputDeviceBuilder.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -800,11 +800,11 @@ constexpr UnityEngine::InputSystem::Layouts::InputDeviceBuilder::operator ::Syst
 constexpr ::System::IDisposable* UnityEngine::InputSystem::Layouts::InputDeviceBuilder::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LayoutCacheRef", ty:
-// "::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ChildControlOverrides", ty:
-// "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_StateOffsetToControlMap", ty: "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StringBuilder", ty:
-// "::System::Text::StringBuilder*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LayoutCacheRef", ty:
+// "::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ChildControlOverrides", ty:
+// "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_StateOffsetToControlMap", ty: "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StringBuilder", ty:
+// "::System::Text::StringBuilder*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder::InputDeviceBuilder(
     ::UnityEngine::InputSystem::InputDevice* m_Device, ::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance m_LayoutCacheRef,
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* m_ChildControlOverrides,

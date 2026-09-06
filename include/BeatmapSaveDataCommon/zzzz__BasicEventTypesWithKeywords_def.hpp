@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon\BasicEventTypesWithKeywords.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon/BasicEventTypesWithKeywords.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,20 +74,22 @@ protected:
   constexpr BasicEventTypesWithKeywords_BasicEventTypesForKeyword();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords_BasicEventTypesForKeyword", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords_BasicEventTypesForKeyword", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicEventTypesWithKeywords_BasicEventTypesForKeyword(BasicEventTypesWithKeywords_BasicEventTypesForKeyword&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords_BasicEventTypesForKeyword", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords_BasicEventTypesForKeyword", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicEventTypesWithKeywords_BasicEventTypesForKeyword(BasicEventTypesWithKeywords_BasicEventTypesForKeyword const&) = delete;
+  BasicEventTypesWithKeywords_BasicEventTypesForKeyword(BasicEventTypesWithKeywords_BasicEventTypesForKeywordconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15397 };
 
+  /// [SerializeField]
   /// @brief Field k, offset: 0x10, size: 0x8, def value: None
   ::StringW ___k;
 
+  /// [SerializeField]
   /// @brief Field e, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* ___e;
 
@@ -137,17 +139,18 @@ protected:
   constexpr BasicEventTypesWithKeywords();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicEventTypesWithKeywords(BasicEventTypesWithKeywords&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicEventTypesWithKeywords(BasicEventTypesWithKeywords const&) = delete;
+  BasicEventTypesWithKeywords(BasicEventTypesWithKeywordsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15398 };
 
+  /// [SerializeField]
   /// @brief Field d, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword*>* ___d;
 

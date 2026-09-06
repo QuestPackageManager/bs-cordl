@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataStrobeFilterTransform.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataStrobeFilterTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,13 +132,13 @@ protected:
   constexpr BeatmapDataStrobeFilterTransform_StrobeStreakData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform_StrobeStreakData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform_StrobeStreakData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataStrobeFilterTransform_StrobeStreakData(BeatmapDataStrobeFilterTransform_StrobeStreakData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform_StrobeStreakData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform_StrobeStreakData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataStrobeFilterTransform_StrobeStreakData(BeatmapDataStrobeFilterTransform_StrobeStreakData const&) = delete;
+  BeatmapDataStrobeFilterTransform_StrobeStreakData(BeatmapDataStrobeFilterTransform_StrobeStreakDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14805 };
@@ -214,13 +214,13 @@ protected:
   constexpr BeatmapDataStrobeFilterTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataStrobeFilterTransform(BeatmapDataStrobeFilterTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataStrobeFilterTransform(BeatmapDataStrobeFilterTransform const&) = delete;
+  BeatmapDataStrobeFilterTransform(BeatmapDataStrobeFilterTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14806 };

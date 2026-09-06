@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DiffieHellmanUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace/DiffieHellmanUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,7 +132,7 @@ public:
   // @brief default ctor
   constexpr DiffieHellmanUtility_KeyType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DiffieHellmanUtility_KeyType(int32_t value__) noexcept;
 
   /// @brief Field DiffieHellman value: I32(0)
@@ -158,6 +158,7 @@ static_assert(offsetof(::GlobalNamespace::DiffieHellmanUtility_KeyType, value__)
 static_assert(sizeof(::GlobalNamespace::DiffieHellmanUtility_KeyType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -197,13 +198,13 @@ protected:
   constexpr DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0(DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0(DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0 const&) = delete;
+  DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0(DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18140 };
@@ -280,13 +281,13 @@ protected:
   constexpr DiffieHellmanUtility_DiffieHellmanKeyPair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_DiffieHellmanKeyPair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_DiffieHellmanKeyPair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiffieHellmanUtility_DiffieHellmanKeyPair(DiffieHellmanUtility_DiffieHellmanKeyPair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_DiffieHellmanKeyPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_DiffieHellmanKeyPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiffieHellmanUtility_DiffieHellmanKeyPair(DiffieHellmanUtility_DiffieHellmanKeyPair const&) = delete;
+  DiffieHellmanUtility_DiffieHellmanKeyPair(DiffieHellmanUtility_DiffieHellmanKeyPairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18141 };
@@ -307,6 +308,7 @@ static_assert(offsetof(::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyP
 static_assert(sizeof(::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -346,13 +348,13 @@ protected:
   constexpr ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0(ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0(ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0 const&) = delete;
+  ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0(ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18142 };
@@ -429,13 +431,13 @@ protected:
   constexpr DiffieHellmanUtility_ElipticalCurveKeyPair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_ElipticalCurveKeyPair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_ElipticalCurveKeyPair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiffieHellmanUtility_ElipticalCurveKeyPair(DiffieHellmanUtility_ElipticalCurveKeyPair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_ElipticalCurveKeyPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_ElipticalCurveKeyPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiffieHellmanUtility_ElipticalCurveKeyPair(DiffieHellmanUtility_ElipticalCurveKeyPair const&) = delete;
+  DiffieHellmanUtility_ElipticalCurveKeyPair(DiffieHellmanUtility_ElipticalCurveKeyPairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18143 };
@@ -504,13 +506,13 @@ protected:
   constexpr DiffieHellmanUtility_OperationTimer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_OperationTimer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_OperationTimer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiffieHellmanUtility_OperationTimer(DiffieHellmanUtility_OperationTimer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_OperationTimer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility_OperationTimer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiffieHellmanUtility_OperationTimer(DiffieHellmanUtility_OperationTimer const&) = delete;
+  DiffieHellmanUtility_OperationTimer(DiffieHellmanUtility_OperationTimerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18144 };
@@ -599,13 +601,13 @@ protected:
   constexpr DiffieHellmanUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiffieHellmanUtility(DiffieHellmanUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiffieHellmanUtility(DiffieHellmanUtility const&) = delete;
+  DiffieHellmanUtility(DiffieHellmanUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18145 };

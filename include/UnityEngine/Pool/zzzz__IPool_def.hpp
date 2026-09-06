@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Pool\IPool.hpp"
+// IWYU pragma private; include "UnityEngine/Pool/IPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,9 +18,9 @@ namespace UnityEngine::Pool {
 class CORDL_TYPE IPool {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPool(IPool const&) = delete;
+  IPool(IPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10644 };

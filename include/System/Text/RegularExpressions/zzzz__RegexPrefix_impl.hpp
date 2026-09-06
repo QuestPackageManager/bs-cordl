@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexPrefix.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexPrefix.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexPrefix_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::RegexPrefix._ctor
 template <>
@@ -74,8 +74,8 @@ inline ::StringW System::Text::RegularExpressions::RegexPrefix::get_Prefix() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(), { "get_Prefix", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_CaseInsensitive_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Prefix_k__BackingField", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_CaseInsensitive_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Prefix_k__BackingField", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Text::RegularExpressions::RegexPrefix::RegexPrefix(bool _CaseInsensitive_k__BackingField, ::StringW _Prefix_k__BackingField) noexcept {
   this->_CaseInsensitive_k__BackingField = _CaseInsensitive_k__BackingField;
   this->_Prefix_k__BackingField = _Prefix_k__BackingField;

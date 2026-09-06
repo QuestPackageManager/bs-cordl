@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MonotonicTimeProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/MonotonicTimeProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,13 +84,13 @@ protected:
   constexpr MonotonicTimeProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonotonicTimeProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonotonicTimeProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonotonicTimeProvider(MonotonicTimeProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonotonicTimeProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonotonicTimeProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonotonicTimeProvider(MonotonicTimeProvider const&) = delete;
+  MonotonicTimeProvider(MonotonicTimeProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18216 };

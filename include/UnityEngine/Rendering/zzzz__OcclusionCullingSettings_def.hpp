@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,8 +31,8 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingSettings();
 
-  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occlusionTest", ty: "::UnityEngine::Rendering::OcclusionTest", modifiers:
-  // "", def_value: None }, CppParam { name: "instanceMultiplier", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionTest", ty:
+  // "::UnityEngine::Rendering::OcclusionTest", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceMultiplier", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingSettings(int32_t viewInstanceID, ::UnityEngine::Rendering::OcclusionTest occlusionTest, int32_t instanceMultiplier) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

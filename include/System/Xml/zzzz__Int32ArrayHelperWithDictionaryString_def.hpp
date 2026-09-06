@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Int32ArrayHelperWithDictionaryString.hpp"
+// IWYU pragma private; include "System/Xml/Int32ArrayHelperWithDictionaryString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,13 +57,13 @@ protected:
   constexpr Int32ArrayHelperWithDictionaryString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Int32ArrayHelperWithDictionaryString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Int32ArrayHelperWithDictionaryString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Int32ArrayHelperWithDictionaryString(Int32ArrayHelperWithDictionaryString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Int32ArrayHelperWithDictionaryString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Int32ArrayHelperWithDictionaryString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Int32ArrayHelperWithDictionaryString(Int32ArrayHelperWithDictionaryString const&) = delete;
+  Int32ArrayHelperWithDictionaryString(Int32ArrayHelperWithDictionaryStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16916 };

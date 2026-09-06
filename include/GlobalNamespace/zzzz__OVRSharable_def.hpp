@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSharable.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSharable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ struct OVRSharable;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::OVRSharable);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRSharable, "", "OVRSharable");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -82,6 +83,7 @@ public:
   /// @brief Method SetEnabledAsync, addr 0x5e12484, size 0x29c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout);
 
+  /// [Obsolete("Use SetEnabledAsync instead.")]
   /// @brief Method SetEnabledSafeAsync, addr 0x5e12720, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledSafeAsync(bool enabled, double_t timeout);
 
@@ -93,6 +95,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSharable getStaticF_Null();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handle, addr 0x5e12aa4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
@@ -123,7 +126,7 @@ public:
   // @brief default ctor
   constexpr OVRSharable();
 
-  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSharable(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -132,6 +135,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
   uint64_t _Handle_k__BackingField;
 

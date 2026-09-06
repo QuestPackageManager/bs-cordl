@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\ThrowHelper.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/ThrowHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__ThrowHelper_def.hpp"
 #include "System/zzzz__Object_def.hpp"

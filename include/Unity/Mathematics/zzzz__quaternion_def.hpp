@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\quaternion.hpp"
+// IWYU pragma private; include "Unity/Mathematics/quaternion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ struct quaternion;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::quaternion);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::quaternion, "Unity.Mathematics", "quaternion");
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies Unity.Mathematics.float4
 namespace Unity::Mathematics {
 // Is value type: true
@@ -172,7 +173,7 @@ public:
   // @brief default ctor
   constexpr quaternion();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }]
   constexpr quaternion(::Unity::Mathematics::float4 value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

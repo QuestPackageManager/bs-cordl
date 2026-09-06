@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,9 +29,9 @@ public:
   // @brief default ctor
   constexpr OccluderParameters();
 
-  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subviewCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "depthTexture", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name: "depthSize", ty: "::UnityEngine::Vector2Int", modifiers:
-  // "", def_value: None }, CppParam { name: "depthIsArray", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "subviewCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "depthTexture", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "depthSize",
+  // ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "depthIsArray", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr OccluderParameters(int32_t viewInstanceID, int32_t subviewCount, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTexture, ::UnityEngine::Vector2Int depthSize,
                                bool depthIsArray) noexcept;
 

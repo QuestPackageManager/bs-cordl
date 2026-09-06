@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoPostProcessMainEffectSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoPostProcessMainEffectSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -157,26 +157,32 @@ protected:
   constexpr NoPostProcessMainEffectSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoPostProcessMainEffectSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoPostProcessMainEffectSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoPostProcessMainEffectSO(NoPostProcessMainEffectSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoPostProcessMainEffectSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoPostProcessMainEffectSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoPostProcessMainEffectSO(NoPostProcessMainEffectSO const&) = delete;
+  NoPostProcessMainEffectSO(NoPostProcessMainEffectSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20647 };
 
+  /// [SerializeField]
   /// @brief Field _fadeShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____fadeShader;
 
+  /// [SerializeField]
   /// @brief Field _setAlphaShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____setAlphaShader;
 
+  /// [Range(0, 3)]
+  /// [SerializeField]
+  /// [Space]
   /// @brief Field _baseColorBoost, offset: 0x28, size: 0x4, def value: None
   float_t ____baseColorBoost;
 
+  /// [SerializeField]
   /// @brief Field _baseColorBoostThreshold, offset: 0x2c, size: 0x4, def value: None
   float_t ____baseColorBoostThreshold;
 

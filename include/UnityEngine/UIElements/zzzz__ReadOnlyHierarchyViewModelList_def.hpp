@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ReadOnlyHierarchyViewModelList.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ReadOnlyHierarchyViewModelList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,8 +75,8 @@ public:
   // @brief default ctor
   constexpr ReadOnlyHierarchyViewModelList_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: None }, CppParam { name: "m_Enumerator", ty:
-  // "::Unity::Hierarchy::HierarchyViewModel_Enumerator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Enumerator", ty:
+  // "::Unity::Hierarchy::HierarchyViewModel_Enumerator", modifiers: "", def_value: None, comment: None }]
   constexpr ReadOnlyHierarchyViewModelList_Enumerator(::Unity::Hierarchy::HierarchyViewModel* m_HierarchyViewModel, ::Unity::Hierarchy::HierarchyViewModel_Enumerator m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -101,6 +101,7 @@ static_assert(offsetof(::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList
 static_assert(sizeof(::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -208,13 +209,13 @@ protected:
   constexpr ReadOnlyHierarchyViewModelList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyHierarchyViewModelList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyHierarchyViewModelList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReadOnlyHierarchyViewModelList(ReadOnlyHierarchyViewModelList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyHierarchyViewModelList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyHierarchyViewModelList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyHierarchyViewModelList(ReadOnlyHierarchyViewModelList const&) = delete;
+  ReadOnlyHierarchyViewModelList(ReadOnlyHierarchyViewModelListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4074 };

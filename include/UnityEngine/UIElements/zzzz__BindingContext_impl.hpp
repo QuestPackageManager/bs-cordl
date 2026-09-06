@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingContext.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingContext.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingContext_def.hpp"
@@ -93,8 +93,8 @@ inline ::System::Object* UnityEngine::UIElements::BindingContext::get_dataSource
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingContext>(), { "get_dataSource", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method);
 }
-inline void UnityEngine::UIElements::BindingContext::_ctor(::UnityEngine::UIElements::VisualElement* targetElement, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
-                                                           ::by_ref<::Unity::Properties::PropertyPath> resolvedDataSourcePath, ::System::Object* resolvedDataSource) {
+inline void UnityEngine::UIElements::BindingContext::_ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> resolvedDataSourcePath, ::System::Object* resolvedDataSource) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingContext>(),
                                                            { ".ctor",
@@ -103,9 +103,9 @@ inline void UnityEngine::UIElements::BindingContext::_ctor(::UnityEngine::UIElem
                                                                ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, targetElement, bindingId, resolvedDataSourcePath, resolvedDataSource);
 }
-// Ctor Parameters [CppParam { name: "m_TargetElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingId", ty:
-// "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DataSourcePath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_DataSource", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_TargetElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BindingId", ty:
+// "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DataSourcePath", ty: "::Unity::Properties::PropertyPath", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_DataSource", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BindingContext::BindingContext(::UnityEngine::UIElements::VisualElement* m_TargetElement, ::UnityEngine::UIElements::BindingId m_BindingId,
                                                                     ::Unity::Properties::PropertyPath m_DataSourcePath, ::System::Object* m_DataSource) noexcept {
   this->m_TargetElement = m_TargetElement;

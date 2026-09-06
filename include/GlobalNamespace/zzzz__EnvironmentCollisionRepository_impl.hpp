@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentCollisionRepository.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentCollisionRepository.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentCollisionRepository_def.hpp"
 #include "GlobalNamespace/zzzz__ColliderEventEffect_def.hpp"

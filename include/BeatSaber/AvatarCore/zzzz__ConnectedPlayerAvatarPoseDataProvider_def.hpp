@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\ConnectedPlayerAvatarPoseDataProvider.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/ConnectedPlayerAvatarPoseDataProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,6 +106,7 @@ public:
   inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer, ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                     ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
+  /// [CompilerGenerated]
   /// @brief Method add_poseDidChangeEvent, addr 0x326edf4, size 0xc0, virtual true, abstract: false, final true
   inline void add_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
@@ -118,6 +119,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_poseDidChangeEvent, addr 0x326eeb4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
@@ -127,17 +129,18 @@ protected:
   constexpr ConnectedPlayerAvatarPoseDataProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarPoseDataProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarPoseDataProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectedPlayerAvatarPoseDataProvider(ConnectedPlayerAvatarPoseDataProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarPoseDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarPoseDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectedPlayerAvatarPoseDataProvider(ConnectedPlayerAvatarPoseDataProvider const&) = delete;
+  ConnectedPlayerAvatarPoseDataProvider(ConnectedPlayerAvatarPoseDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21654 };
 
+  /// [CompilerGenerated]
   /// @brief Field poseDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* ___poseDidChangeEvent;
 

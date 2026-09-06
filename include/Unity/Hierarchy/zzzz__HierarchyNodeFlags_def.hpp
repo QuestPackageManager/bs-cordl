@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyNodeFlags.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct HierarchyNodeFlags;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchyNodeFlags);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyNodeFlags, "Unity.Hierarchy", "HierarchyNodeFlags");
+// [Flags]
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchyNodeFlags.h")]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -45,7 +47,7 @@ public:
   // @brief default ctor
   constexpr HierarchyNodeFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyNodeFlags(uint32_t value__) noexcept;
 
   /// @brief Field Cut value: U32(4)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassRenderPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassRenderPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,9 @@ namespace GlobalNamespace {
 class BloomPrePassRendererSO;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph;
@@ -127,13 +129,13 @@ protected:
   constexpr BloomPrePassRenderPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRenderPass_PassData(BloomPrePassRenderPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRenderPass_PassData(BloomPrePassRenderPass_PassData const&) = delete;
+  BloomPrePassRenderPass_PassData(BloomPrePassRenderPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19474 };
@@ -174,6 +176,7 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderPass_PassData, ___te
 static_assert(sizeof(::GlobalNamespace::BloomPrePassRenderPass_PassData) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -213,13 +216,13 @@ protected:
   constexpr BloomPrePassRenderPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRenderPass___c(BloomPrePassRenderPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRenderPass___c(BloomPrePassRenderPass___c const&) = delete;
+  BloomPrePassRenderPass___c(BloomPrePassRenderPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19475 };
@@ -267,13 +270,13 @@ protected:
   constexpr BloomPrePassRenderPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRenderPass(BloomPrePassRenderPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRenderPass(BloomPrePassRenderPass const&) = delete;
+  BloomPrePassRenderPass(BloomPrePassRenderPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19476 };

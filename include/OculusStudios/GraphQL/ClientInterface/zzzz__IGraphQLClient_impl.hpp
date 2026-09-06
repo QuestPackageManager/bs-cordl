@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\IGraphQLClient.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/IGraphQLClient.hpp"
+#include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLModel_impl.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLClient_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__EmptyResponseObject_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLClientEvents_def.hpp"
@@ -184,6 +185,7 @@ OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query(::OculusStudios::
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>*>(this, ___internal_method, request);
 }
 template <typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 inline ::System::Threading::Tasks::Task_1<TDomainModel>* OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 3 })));
@@ -191,6 +193,8 @@ inline ::System::Threading::Tasks::Task_1<TDomainModel>* OculusStudios::GraphQL:
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TDomainModel>*>(this, ___internal_method, request);
 }
 template <typename TDomainModel, typename TViewModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+           ::cordl_internals::reference_type_constraint<TViewModel>)
 inline ::System::Threading::Tasks::Task_1<TViewModel>* OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 4 })));
@@ -204,6 +208,7 @@ OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate(::OculusStudios:
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>*>(this, ___internal_method, request);
 }
 template <typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 inline ::System::Threading::Tasks::Task_1<TDomainModel>* OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 6 })));
@@ -211,6 +216,8 @@ inline ::System::Threading::Tasks::Task_1<TDomainModel>* OculusStudios::GraphQL:
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TDomainModel>*>(this, ___internal_method, request);
 }
 template <typename TDomainModel, typename TViewModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+           ::cordl_internals::reference_type_constraint<TViewModel>)
 inline ::System::Threading::Tasks::Task_1<TViewModel>* OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(), 7 })));

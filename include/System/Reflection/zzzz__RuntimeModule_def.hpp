@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\RuntimeModule.hpp"
+// IWYU pragma private; include "System/Reflection/RuntimeModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,9 @@ class RuntimeModule;
 // Write type traits
 MARK_REF_T(::System::Reflection::RuntimeModule*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::RuntimeModule*, "System.Reflection", "RuntimeModule");
+// [ClassInterface((System.Runtime.InteropServices.ClassInterfaceType)0)]
+// [ComDefaultInterface(typeof(System.Runtime.InteropServices._Module))]
+// [ComVisible(true)]
 // Dependencies System.IntPtr, System.Reflection.Module
 namespace System::Reflection {
 // Is value type: false
@@ -160,13 +163,13 @@ protected:
   constexpr RuntimeModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeModule(RuntimeModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeModule(RuntimeModule const&) = delete;
+  RuntimeModule(RuntimeModuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3552 };

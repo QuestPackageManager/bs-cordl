@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlBaseReader.hpp"
+// IWYU pragma private; include "System/Xml/XmlBaseReader.hpp"
 #include "System/Xml/zzzz__ReadState_impl.hpp"
 #include "System/Xml/zzzz__XmlBaseReader_impl.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReader_impl.hpp"
@@ -34,7 +34,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlBaseReader_QNameType::XmlBaseReader_QNameType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -42,7 +42,7 @@ constexpr ::System::Xml::XmlBaseReader_QNameType::XmlBaseReader_QNameType(int32_
 constexpr ::System::Xml::XmlBaseReader_QNameType::XmlBaseReader_QNameType() {}
 constexpr ::System::Xml::XmlBaseReader_QNameType System::Xml::XmlBaseReader_QNameType::Normal{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::XmlBaseReader_QNameType System::Xml::XmlBaseReader_QNameType::Xmlns{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlNode_XmlBaseReader_XmlNodeFlags::XmlNode_XmlBaseReader_XmlNodeFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

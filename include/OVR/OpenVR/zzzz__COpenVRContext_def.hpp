@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\COpenVRContext.hpp"
+// IWYU pragma private; include "OVR/OpenVR/COpenVRContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,14 +24,16 @@ public:
   // @brief default ctor
   constexpr COpenVRContext();
 
-  // Ctor Parameters [CppParam { name: "m_pVRSystem", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pVRChaperone", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }, CppParam { name: "m_pVRChaperoneSetup", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pVRCompositor", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }, CppParam { name: "m_pVROverlay", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pVRResources", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "m_pVRRenderModels", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pVRExtendedDisplay", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "m_pVRSettings", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pVRApplications", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "m_pVRTrackedCamera", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pVRScreenshots", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "m_pVRDriverManager", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pVRInput", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam
-  // { name: "m_pVRIOBuffer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pVRSpatialAnchors", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_pVRSystem", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pVRChaperone", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_pVRChaperoneSetup", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pVRCompositor", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pVROverlay", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_pVRResources", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pVRRenderModels", ty: "::System::IntPtr", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_pVRExtendedDisplay", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pVRSettings", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_pVRApplications", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pVRTrackedCamera", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pVRScreenshots", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_pVRDriverManager", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pVRInput", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_pVRIOBuffer", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pVRSpatialAnchors", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr COpenVRContext(::System::IntPtr m_pVRSystem, ::System::IntPtr m_pVRChaperone, ::System::IntPtr m_pVRChaperoneSetup, ::System::IntPtr m_pVRCompositor, ::System::IntPtr m_pVROverlay,
                            ::System::IntPtr m_pVRResources, ::System::IntPtr m_pVRRenderModels, ::System::IntPtr m_pVRExtendedDisplay, ::System::IntPtr m_pVRSettings,
                            ::System::IntPtr m_pVRApplications, ::System::IntPtr m_pVRTrackedCamera, ::System::IntPtr m_pVRScreenshots, ::System::IntPtr m_pVRDriverManager, ::System::IntPtr m_pVRInput,

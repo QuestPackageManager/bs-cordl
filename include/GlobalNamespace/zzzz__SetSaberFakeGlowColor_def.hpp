@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetSaberFakeGlowColor.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetSaberFakeGlowColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ class SetSaberFakeGlowColor;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SetSaberFakeGlowColor*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SetSaberFakeGlowColor*, "", "SetSaberFakeGlowColor");
+// [AddComponentMenu("Beat Saber/Gameplay/SetSaberFakeGlowColor")]
 // Dependencies SaberType, UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -101,26 +102,32 @@ protected:
   constexpr SetSaberFakeGlowColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetSaberFakeGlowColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetSaberFakeGlowColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetSaberFakeGlowColor(SetSaberFakeGlowColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetSaberFakeGlowColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetSaberFakeGlowColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetSaberFakeGlowColor(SetSaberFakeGlowColor const&) = delete;
+  SetSaberFakeGlowColor(SetSaberFakeGlowColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6241 };
 
+  /// [SerializeField]
   /// @brief Field _tintColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____tintColor;
 
+  /// [Space]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _saberTypeObject, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saberTypeObject;
 
+  /// [SerializeField]
   /// @brief Field _parametric3SliceSprite, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____parametric3SliceSprite;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 

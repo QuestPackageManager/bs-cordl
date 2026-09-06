@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Numerics\DoubleUlong.hpp"
+// IWYU pragma private; include "System/Numerics/DoubleUlong.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
   // @brief default ctor
   constexpr DoubleUlong();
 
-  // Ctor Parameters [CppParam { name: "dbl", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "uu", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "dbl", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uu", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr DoubleUlong(double_t dbl, uint64_t uu) noexcept;
 
 private:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeWorldSpaceHierarchyFlagsUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeWorldSpaceHierarchyFlagsUpdater.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeHierarchyFlagsUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeWorldSpaceHierarchyFlagsUpdater_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonSerializer.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonSerializer.hpp"
 #include "Newtonsoft/Json/zzzz__ConstructorHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DateFormatHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DateParseHandling_impl.hpp"
@@ -1645,11 +1645,11 @@ constexpr void Newtonsoft::Json::JsonSerializer::__cordl_internal_set_Error(::Sy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Error = value;
 }
-inline void Newtonsoft::Json::JsonSerializer::add_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
+inline void Newtonsoft::Json::JsonSerializer::add_Error(/* [Nullable(new[] { 2, 1 })] */ ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::JsonSerializer::remove_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
+inline void Newtonsoft::Json::JsonSerializer::remove_Error(/* [Nullable(new[] { 2, 1 })] */ ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
@@ -1901,7 +1901,7 @@ inline ::Newtonsoft::Json::JsonSerializer* Newtonsoft::Json::JsonSerializer::Cre
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonSerializer*>(nullptr, ___internal_method);
 }
-inline ::Newtonsoft::Json::JsonSerializer* Newtonsoft::Json::JsonSerializer::Create(::Newtonsoft::Json::JsonSerializerSettings* settings) {
+inline ::Newtonsoft::Json::JsonSerializer* Newtonsoft::Json::JsonSerializer::Create(/* [Nullable(2)] */ ::Newtonsoft::Json::JsonSerializerSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), { "Create", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonSerializerSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonSerializer*>(nullptr, ___internal_method, settings);
@@ -1910,7 +1910,7 @@ inline ::Newtonsoft::Json::JsonSerializer* Newtonsoft::Json::JsonSerializer::Cre
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), { "CreateDefault", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonSerializer*>(nullptr, ___internal_method);
 }
-inline ::Newtonsoft::Json::JsonSerializer* Newtonsoft::Json::JsonSerializer::CreateDefault(::Newtonsoft::Json::JsonSerializerSettings* settings) {
+inline ::Newtonsoft::Json::JsonSerializer* Newtonsoft::Json::JsonSerializer::CreateDefault(/* [Nullable(2)] */ ::Newtonsoft::Json::JsonSerializerSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), { "CreateDefault", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonSerializerSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonSerializer*>(nullptr, ___internal_method, settings);
@@ -1947,24 +1947,24 @@ inline ::System::Object* Newtonsoft::Json::JsonSerializer::Deserialize(::System:
                                                                                          { "Deserialize", {}, { ::i2c::type_of<::System::IO::TextReader*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType);
 }
-template <typename T> inline T Newtonsoft::Json::JsonSerializer::Deserialize(::Newtonsoft::Json::JsonReader* reader) {
+template <typename T> inline T Newtonsoft::Json::JsonSerializer::Deserialize(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), { "Deserialize", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, reader);
 }
-inline ::System::Object* Newtonsoft::Json::JsonSerializer::Deserialize(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType) {
+inline ::System::Object* Newtonsoft::Json::JsonSerializer::Deserialize(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), { "Deserialize", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType);
 }
-inline ::System::Object* Newtonsoft::Json::JsonSerializer::DeserializeInternal(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType) {
+inline ::System::Object* Newtonsoft::Json::JsonSerializer::DeserializeInternal(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), 66 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType);
 }
-inline void Newtonsoft::Json::JsonSerializer::SetupReader(::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Globalization::CultureInfo*> previousCulture,
+inline void Newtonsoft::Json::JsonSerializer::SetupReader(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Globalization::CultureInfo*> previousCulture,
                                                           ::by_ref<::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling>> previousDateTimeZoneHandling,
                                                           ::by_ref<::System::Nullable_1<::Newtonsoft::Json::DateParseHandling>> previousDateParseHandling,
                                                           ::by_ref<::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling>> previousFloatParseHandling,
@@ -1981,7 +1981,7 @@ inline void Newtonsoft::Json::JsonSerializer::SetupReader(::Newtonsoft::Json::Js
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, previousCulture, previousDateTimeZoneHandling, previousDateParseHandling, previousFloatParseHandling,
                                                    previousMaxDepth, previousDateFormatString);
 }
-inline void Newtonsoft::Json::JsonSerializer::ResetReader(::Newtonsoft::Json::JsonReader* reader, ::System::Globalization::CultureInfo* previousCulture,
+inline void Newtonsoft::Json::JsonSerializer::ResetReader(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Globalization::CultureInfo* previousCulture,
                                                           ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> previousDateTimeZoneHandling,
                                                           ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> previousDateParseHandling,
                                                           ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> previousFloatParseHandling, ::System::Nullable_1<int32_t> previousMaxDepth,
@@ -1997,24 +1997,24 @@ inline void Newtonsoft::Json::JsonSerializer::ResetReader(::Newtonsoft::Json::Js
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, previousCulture, previousDateTimeZoneHandling, previousDateParseHandling, previousFloatParseHandling,
                                                    previousMaxDepth, previousDateFormatString);
 }
-inline void Newtonsoft::Json::JsonSerializer::Serialize(::System::IO::TextWriter* textWriter, ::System::Object* value) {
+inline void Newtonsoft::Json::JsonSerializer::Serialize(::System::IO::TextWriter* textWriter, /* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(),
                                                                                          { "Serialize", {}, { ::i2c::type_of<::System::IO::TextWriter*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, textWriter, value);
 }
-inline void Newtonsoft::Json::JsonSerializer::Serialize(::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value, ::System::Type* objectType) {
+inline void Newtonsoft::Json::JsonSerializer::Serialize(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value, ::System::Type* objectType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(),
                                               { "Serialize", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonWriter*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jsonWriter, value, objectType);
 }
-inline void Newtonsoft::Json::JsonSerializer::Serialize(::System::IO::TextWriter* textWriter, ::System::Object* value, ::System::Type* objectType) {
+inline void Newtonsoft::Json::JsonSerializer::Serialize(::System::IO::TextWriter* textWriter, /* [Nullable(2)] */ ::System::Object* value, ::System::Type* objectType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(),
                                               { "Serialize", {}, { ::i2c::type_of<::System::IO::TextWriter*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, textWriter, value, objectType);
 }
-inline void Newtonsoft::Json::JsonSerializer::Serialize(::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value) {
+inline void Newtonsoft::Json::JsonSerializer::Serialize(::Newtonsoft::Json::JsonWriter* jsonWriter, /* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), { "Serialize", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonWriter*>(), ::i2c::type_of<::System::Object*>() } })));
@@ -2025,7 +2025,7 @@ inline ::Newtonsoft::Json::Serialization::TraceJsonReader* Newtonsoft::Json::Jso
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), { "CreateTraceJsonReader", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::TraceJsonReader*>(this, ___internal_method, reader);
 }
-inline void Newtonsoft::Json::JsonSerializer::SerializeInternal(::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value, ::System::Type* objectType) {
+inline void Newtonsoft::Json::JsonSerializer::SerializeInternal(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value, ::System::Type* objectType) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), 67 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jsonWriter, value, objectType);
 }
@@ -2038,8 +2038,9 @@ inline ::Newtonsoft::Json::JsonConverter* Newtonsoft::Json::JsonSerializer::GetM
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(), { "GetMatchingConverter", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonConverter*>(this, ___internal_method, type);
 }
-inline ::Newtonsoft::Json::JsonConverter* Newtonsoft::Json::JsonSerializer::GetMatchingConverter(::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* converters,
-                                                                                                 ::System::Type* objectType) {
+inline ::Newtonsoft::Json::JsonConverter*
+Newtonsoft::Json::JsonSerializer::GetMatchingConverter(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* converters,
+                                                       ::System::Type* objectType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializer*>(),

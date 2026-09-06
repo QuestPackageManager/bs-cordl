@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\StandalonePlatform.hpp"
+// IWYU pragma private; include "Oculus/Platform/StandalonePlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::Oculus::Platform::StandalonePlatform*);
 MARK_REF_T(::Oculus::Platform::StandalonePlatform_UnityLogDelegate*);
 DEFINE_IL2CPP_CLASS(::Oculus::Platform::StandalonePlatform*, "Oculus.Platform", "StandalonePlatform");
 DEFINE_IL2CPP_CLASS(::Oculus::Platform::StandalonePlatform_UnityLogDelegate*, "Oculus.Platform", "StandalonePlatform/UnityLogDelegate");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Oculus::Platform {
 // Is value type: false
@@ -74,13 +75,13 @@ protected:
   constexpr StandalonePlatform_UnityLogDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatform_UnityLogDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatform_UnityLogDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandalonePlatform_UnityLogDelegate(StandalonePlatform_UnityLogDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatform_UnityLogDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatform_UnityLogDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandalonePlatform_UnityLogDelegate(StandalonePlatform_UnityLogDelegate const&) = delete;
+  StandalonePlatform_UnityLogDelegate(StandalonePlatform_UnityLogDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17986 };
@@ -121,13 +122,13 @@ protected:
   constexpr StandalonePlatform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandalonePlatform(StandalonePlatform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandalonePlatform(StandalonePlatform const&) = delete;
+  StandalonePlatform(StandalonePlatformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17987 };

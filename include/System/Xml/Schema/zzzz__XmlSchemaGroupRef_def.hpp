@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaGroupRef.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaGroupRef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,13 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaGroupRef : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Particle)) ::System::Xml::Schema::XmlSchemaGroupBase* Particle;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Redefined, put = set_Redefined)) ::System::Xml::Schema::XmlSchemaGroup* Redefined;
 
+  /// @brief [XmlAttribute("ref")]
   __declspec(property(get = get_RefName, put = set_RefName)) ::System::Xml::XmlQualifiedName* RefName;
 
   /// @brief Field particle, offset 0x80, size 0x8
@@ -90,13 +93,13 @@ protected:
   constexpr XmlSchemaGroupRef();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupRef", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupRef", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaGroupRef(XmlSchemaGroupRef&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupRef", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupRef", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaGroupRef(XmlSchemaGroupRef const&) = delete;
+  XmlSchemaGroupRef(XmlSchemaGroupRefconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9786 };

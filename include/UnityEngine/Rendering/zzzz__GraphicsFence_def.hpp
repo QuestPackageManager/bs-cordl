@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GraphicsFence.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GraphicsFence.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ struct GraphicsFence;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::GraphicsFence);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GraphicsFence, "UnityEngine.Rendering", "GraphicsFence");
+// [NativeHeader("Runtime/Graphics/GPUFence.h")]
+// [UsedByNativeCode]
 // Dependencies System.IntPtr, UnityEngine.Rendering.GraphicsFenceType
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -34,6 +36,8 @@ public:
   /// @brief Method GetPlatformNotSupportedVersion, addr 0x6b09df8, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetPlatformNotSupportedVersion();
 
+  /// [FreeFunction("GPUFenceInternals::GetVersionNumber")]
+  /// [NativeThrows]
   /// @brief Method GetVersionNumber, addr 0x6b09e00, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetVersionNumber(::System::IntPtr fencePtr);
 
@@ -53,8 +57,8 @@ public:
   // @brief default ctor
   constexpr GraphicsFence();
 
-  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_FenceType", ty: "::UnityEngine::Rendering::GraphicsFenceType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_FenceType", ty: "::UnityEngine::Rendering::GraphicsFenceType", modifiers: "", def_value: None, comment: None }]
   constexpr GraphicsFence(::System::IntPtr m_Ptr, int32_t m_Version, ::UnityEngine::Rendering::GraphicsFenceType m_FenceType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BufferedLightColorGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/BufferedLightColorGroupEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,13 +91,13 @@ protected:
   constexpr BufferedLightColorGroupEffect_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffect_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffect_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedLightColorGroupEffect_InitData(BufferedLightColorGroupEffect_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffect_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffect_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedLightColorGroupEffect_InitData(BufferedLightColorGroupEffect_InitData const&) = delete;
+  BufferedLightColorGroupEffect_InitData(BufferedLightColorGroupEffect_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5888 };
@@ -281,13 +281,13 @@ protected:
   constexpr BufferedLightColorGroupEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedLightColorGroupEffect(BufferedLightColorGroupEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedLightColorGroupEffect(BufferedLightColorGroupEffect const&) = delete;
+  BufferedLightColorGroupEffect(BufferedLightColorGroupEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5889 };

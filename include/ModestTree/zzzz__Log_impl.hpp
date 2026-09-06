@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\Log.hpp"
+// IWYU pragma private; include "ModestTree/Log.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__Log_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -95,22 +95,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::Arr
     return ___internal_method;
   }
 };
-inline void ModestTree::Log::Debug(::StringW message, ::ArrayW<::System::Object*> args) {
+inline void ModestTree::Log::Debug(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Log*>(), { "Debug", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, args);
 }
-inline void ModestTree::Log::Info(::StringW message, ::ArrayW<::System::Object*> args) {
+inline void ModestTree::Log::Info(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Log*>(), { "Info", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, args);
 }
-inline void ModestTree::Log::Warn(::StringW message, ::ArrayW<::System::Object*> args) {
+inline void ModestTree::Log::Warn(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Log*>(), { "Warn", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, args);
 }
-inline void ModestTree::Log::Trace(::StringW message, ::ArrayW<::System::Object*> args) {
+inline void ModestTree::Log::Trace(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Log*>(), { "Trace", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, args);
@@ -124,7 +124,7 @@ inline void ModestTree::Log::ErrorException(::StringW message, ::System::Excepti
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Log*>(), { "ErrorException", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Exception*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, e);
 }
-inline void ModestTree::Log::Error(::StringW message, ::ArrayW<::System::Object*> args) {
+inline void ModestTree::Log::Error(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::Log*>(), { "Error", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, args);

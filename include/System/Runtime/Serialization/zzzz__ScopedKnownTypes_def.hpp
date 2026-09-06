@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\ScopedKnownTypes.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/ScopedKnownTypes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,8 +45,8 @@ public:
   constexpr ScopedKnownTypes();
 
   // Ctor Parameters [CppParam { name: "dataContractDictionaries", ty:
-  // "::ArrayW<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>", modifiers: "", def_value: None }, CppParam { name:
-  // "count", ty: "int32_t", modifiers: "", def_value: None }]
+  // "::ArrayW<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScopedKnownTypes(::ArrayW<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*> dataContractDictionaries,
                              int32_t count) noexcept;
 

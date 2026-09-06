@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,23 +72,26 @@ protected:
   constexpr UnityLightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityLightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityLightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityLightWithId(UnityLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityLightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityLightWithId(UnityLightWithId const&) = delete;
+  UnityLightWithId(UnityLightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19562 };
 
+  /// [SerializeField]
   /// @brief Field _light, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Light> ____light;
 
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x48, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
   /// @brief Field _minAlpha, offset: 0x4c, size: 0x4, def value: None
   float_t ____minAlpha;
 

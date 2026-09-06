@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AppInitScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/AppInitScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   // @brief default ctor
   constexpr AppInitScenesTransitionSetupData_AppInitOverrideStartType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AppInitScenesTransitionSetupData_AppInitOverrideStartType(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(1)
@@ -117,9 +117,11 @@ public:
   /// @brief Method .ctor, addr 0x3308144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType appInitOverrideStartType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_appInitOverrideStartType, addr 0x33082dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType get_appInitOverrideStartType();
 
+  /// [CompilerGenerated]
   /// @brief Method set_appInitOverrideStartType, addr 0x33082e4, size 0x8, virtual false, abstract: false, final false
   inline void set_appInitOverrideStartType(::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType value);
 
@@ -129,17 +131,18 @@ protected:
   constexpr AppInitScenesTransitionSetupData_AppInitSceneSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupData_AppInitSceneSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupData_AppInitSceneSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppInitScenesTransitionSetupData_AppInitSceneSetupData(AppInitScenesTransitionSetupData_AppInitSceneSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupData_AppInitSceneSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupData_AppInitSceneSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppInitScenesTransitionSetupData_AppInitSceneSetupData(AppInitScenesTransitionSetupData_AppInitSceneSetupData const&) = delete;
+  AppInitScenesTransitionSetupData_AppInitSceneSetupData(AppInitScenesTransitionSetupData_AppInitSceneSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21541 };
 
+  /// [CompilerGenerated]
   /// @brief Field <appInitOverrideStartType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType ____appInitOverrideStartType_k__BackingField;
 
@@ -182,13 +185,13 @@ protected:
   constexpr AppInitScenesTransitionSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppInitScenesTransitionSetupData(AppInitScenesTransitionSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppInitScenesTransitionSetupData(AppInitScenesTransitionSetupData const&) = delete;
+  AppInitScenesTransitionSetupData(AppInitScenesTransitionSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21542 };

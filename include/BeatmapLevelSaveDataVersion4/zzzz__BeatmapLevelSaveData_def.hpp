@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapLevelSaveDataVersion4\BeatmapLevelSaveData.hpp"
+// IWYU pragma private; include "BeatmapLevelSaveDataVersion4/BeatmapLevelSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,8 +71,8 @@ public:
   // @brief default ctor
   constexpr BeatmapLevelSaveData_SongData();
 
-  // Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subTitle", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "author", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "subTitle", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "author", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapLevelSaveData_SongData(::StringW title, ::StringW subTitle, ::StringW author) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -113,10 +113,10 @@ public:
   // @brief default ctor
   constexpr BeatmapLevelSaveData_AudioData();
 
-  // Ctor Parameters [CppParam { name: "songFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "audioDataFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lufs", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "previewStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewDuration", ty: "float_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "songFilename", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "songDuration", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "audioDataFilename", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "lufs", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "previewStartTime", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "previewDuration", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapLevelSaveData_AudioData(::StringW songFilename, float_t songDuration, ::StringW audioDataFilename, float_t bpm, float_t lufs, float_t previewStartTime,
                                            float_t previewDuration) noexcept;
 
@@ -275,13 +275,13 @@ protected:
   constexpr BeatmapLevelSaveData_ColorScheme();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_ColorScheme", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_ColorScheme", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelSaveData_ColorScheme(BeatmapLevelSaveData_ColorScheme&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_ColorScheme", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_ColorScheme", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSaveData_ColorScheme(BeatmapLevelSaveData_ColorScheme const&) = delete;
+  BeatmapLevelSaveData_ColorScheme(BeatmapLevelSaveData_ColorSchemeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15416 };
@@ -353,7 +353,8 @@ public:
   // @brief default ctor
   constexpr BeatmapLevelSaveData_BeatmapAuthors();
 
-  // Ctor Parameters [CppParam { name: "mappers", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "lighters", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "mappers", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lighters", ty: "::ArrayW<::StringW>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr BeatmapLevelSaveData_BeatmapAuthors(::ArrayW<::StringW> mappers, ::ArrayW<::StringW> lighters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -477,13 +478,13 @@ protected:
   constexpr BeatmapLevelSaveData_DifficultyBeatmap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_DifficultyBeatmap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_DifficultyBeatmap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelSaveData_DifficultyBeatmap(BeatmapLevelSaveData_DifficultyBeatmap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_DifficultyBeatmap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_DifficultyBeatmap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSaveData_DifficultyBeatmap(BeatmapLevelSaveData_DifficultyBeatmap const&) = delete;
+  BeatmapLevelSaveData_DifficultyBeatmap(BeatmapLevelSaveData_DifficultyBeatmapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15418 };
@@ -648,13 +649,13 @@ protected:
   constexpr BeatmapLevelSaveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelSaveData(BeatmapLevelSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSaveData(BeatmapLevelSaveData const&) = delete;
+  BeatmapLevelSaveData(BeatmapLevelSaveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15419 };

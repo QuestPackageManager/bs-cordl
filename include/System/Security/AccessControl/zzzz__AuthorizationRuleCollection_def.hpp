@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\AuthorizationRuleCollection.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/AuthorizationRuleCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class AuthorizationRuleCollection;
 // Write type traits
 MARK_REF_T(::System::Security::AccessControl::AuthorizationRuleCollection*);
 DEFINE_IL2CPP_CLASS(::System::Security::AccessControl::AuthorizationRuleCollection*, "System.Security.AccessControl", "AuthorizationRuleCollection");
+// [DefaultMember("Item")]
 // Dependencies System.Collections.ReadOnlyCollectionBase
 namespace System::Security::AccessControl {
 // Is value type: false
@@ -34,13 +35,13 @@ protected:
   constexpr AuthorizationRuleCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AuthorizationRuleCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AuthorizationRuleCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AuthorizationRuleCollection(AuthorizationRuleCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AuthorizationRuleCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AuthorizationRuleCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AuthorizationRuleCollection(AuthorizationRuleCollection const&) = delete;
+  AuthorizationRuleCollection(AuthorizationRuleCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3038 };

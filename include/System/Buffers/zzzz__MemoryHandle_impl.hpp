@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Buffers\MemoryHandle.hpp"
+// IWYU pragma private; include "System/Buffers/MemoryHandle.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/Buffers/zzzz__MemoryHandle_def.hpp"
 #include "System/Buffers/zzzz__IPinnable_def.hpp"
@@ -68,8 +68,8 @@ constexpr System::Buffers::MemoryHandle::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* System::Buffers::MemoryHandle::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_pointer", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_pinnable", ty: "::System::Buffers::IPinnable*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_pointer", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_pinnable", ty: "::System::Buffers::IPinnable*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Buffers::MemoryHandle::MemoryHandle(void* _pointer, ::System::Runtime::InteropServices::GCHandle _handle, ::System::Buffers::IPinnable* _pinnable) noexcept {
   this->_pointer = _pointer;
   this->_handle = _handle;

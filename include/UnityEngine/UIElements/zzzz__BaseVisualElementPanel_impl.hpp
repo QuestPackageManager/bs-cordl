@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseVisualElementPanel.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseVisualElementPanel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutConfig_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelClearSettings_impl.hpp"

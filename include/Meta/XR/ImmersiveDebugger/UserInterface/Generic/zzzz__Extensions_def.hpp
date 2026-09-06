@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Extensions.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Extensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class Extensions;
 // Write type traits
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Extensions*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Extensions*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "Extensions");
+// [Extension]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // Is value type: false
@@ -25,6 +26,7 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method SetSizeOptimized, addr 0x5a57fdc, size 0x124, virtual false, abstract: false, final false
   static inline void SetSizeOptimized(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Vector2 offsetMin, ::UnityEngine::Vector2 offsetMax, ::UnityEngine::Vector2 fixedDimensions,
                                       bool setAnchoredPosition);
@@ -35,13 +37,13 @@ protected:
   constexpr Extensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extensions(Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions(Extensions const&) = delete;
+  Extensions(Extensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18389 };

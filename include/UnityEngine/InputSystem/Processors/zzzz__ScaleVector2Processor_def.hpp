@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Processors\ScaleVector2Processor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Processors/ScaleVector2Processor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,20 +63,22 @@ protected:
   constexpr ScaleVector2Processor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScaleVector2Processor(ScaleVector2Processor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScaleVector2Processor(ScaleVector2Processor const&) = delete;
+  ScaleVector2Processor(ScaleVector2Processorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9085 };
 
+  /// [Tooltip("Scale factor to multiply the incoming Vector2\'s X component by.")]
   /// @brief Field x, offset: 0x10, size: 0x4, def value: None
   float_t ___x;
 
+  /// [Tooltip("Scale factor to multiply the incoming Vector2\'s Y component by.")]
   /// @brief Field y, offset: 0x14, size: 0x4, def value: None
   float_t ___y;
 

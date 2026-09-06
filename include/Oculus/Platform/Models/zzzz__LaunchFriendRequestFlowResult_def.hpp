@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\LaunchFriendRequestFlowResult.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/LaunchFriendRequestFlowResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ protected:
   constexpr LaunchFriendRequestFlowResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LaunchFriendRequestFlowResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LaunchFriendRequestFlowResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LaunchFriendRequestFlowResult(LaunchFriendRequestFlowResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LaunchFriendRequestFlowResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LaunchFriendRequestFlowResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LaunchFriendRequestFlowResult(LaunchFriendRequestFlowResult const&) = delete;
+  LaunchFriendRequestFlowResult(LaunchFriendRequestFlowResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18052 };

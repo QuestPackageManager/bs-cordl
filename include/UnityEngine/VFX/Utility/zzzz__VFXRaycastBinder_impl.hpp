@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXRaycastBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXRaycastBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit_impl.hpp"
@@ -9,7 +9,7 @@
 #include "UnityEngine/VFX/Utility/zzzz__VFXRaycastBinder_def.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffect_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::Utility::VFXRaycastBinder_Space::VFXRaycastBinder_Space(int32_t value__) noexcept {
   this->value__ = value__;
 }

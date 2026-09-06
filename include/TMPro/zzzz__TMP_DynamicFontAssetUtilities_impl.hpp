@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_DynamicFontAssetUtilities.hpp"
+// IWYU pragma private; include "TMPro/TMP_DynamicFontAssetUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_DynamicFontAssetUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -23,9 +23,9 @@ inline void TMPro::TMP_DynamicFontAssetUtilities_FontReference::_ctor(::StringW 
                                                                                          { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, fontFilePath, faceNameAndStyle, index);
 }
-// Ctor Parameters [CppParam { name: "familyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "filePath", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "hashCode", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "familyName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "filePath", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "hashCode", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_DynamicFontAssetUtilities_FontReference::TMP_DynamicFontAssetUtilities_FontReference(::StringW familyName, ::StringW styleName, int32_t faceIndex, ::StringW filePath,
                                                                                                             uint64_t hashCode) noexcept {
   this->familyName = familyName;

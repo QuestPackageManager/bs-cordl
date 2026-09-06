@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonProperty.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonProperty.hpp"
 #include "Newtonsoft/Json/zzzz__DefaultValueHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__NullValueHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__ObjectCreationHandling_impl.hpp"
@@ -1507,7 +1507,7 @@ inline ::System::Predicate_1<::System::Object*>* Newtonsoft::Json::Serialization
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonProperty*>(), { "get_ShouldSerialize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Predicate_1<::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::JsonProperty::set_ShouldSerialize(::System::Predicate_1<::System::Object*>* value) {
+inline void Newtonsoft::Json::Serialization::JsonProperty::set_ShouldSerialize(/* [Nullable(new[] { 2, 1 })] */ ::System::Predicate_1<::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonProperty*>(),
                                                                                          { "set_ShouldSerialize", {}, { ::i2c::type_of<::System::Predicate_1<::System::Object*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
@@ -1516,7 +1516,7 @@ inline ::System::Predicate_1<::System::Object*>* Newtonsoft::Json::Serialization
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonProperty*>(), { "get_ShouldDeserialize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Predicate_1<::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::JsonProperty::set_ShouldDeserialize(::System::Predicate_1<::System::Object*>* value) {
+inline void Newtonsoft::Json::Serialization::JsonProperty::set_ShouldDeserialize(/* [Nullable(new[] { 2, 1 })] */ ::System::Predicate_1<::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonProperty*>(),
                                                                                          { "set_ShouldDeserialize", {}, { ::i2c::type_of<::System::Predicate_1<::System::Object*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
@@ -1525,7 +1525,7 @@ inline ::System::Predicate_1<::System::Object*>* Newtonsoft::Json::Serialization
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonProperty*>(), { "get_GetIsSpecified", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Predicate_1<::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::JsonProperty::set_GetIsSpecified(::System::Predicate_1<::System::Object*>* value) {
+inline void Newtonsoft::Json::Serialization::JsonProperty::set_GetIsSpecified(/* [Nullable(new[] { 2, 1 })] */ ::System::Predicate_1<::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonProperty*>(),
                                                                                          { "set_GetIsSpecified", {}, { ::i2c::type_of<::System::Predicate_1<::System::Object*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
@@ -1534,7 +1534,7 @@ inline ::System::Action_2<::System::Object*, ::System::Object*>* Newtonsoft::Jso
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonProperty*>(), { "get_SetIsSpecified", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Action_2<::System::Object*, ::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::JsonProperty::set_SetIsSpecified(::System::Action_2<::System::Object*, ::System::Object*>* value) {
+inline void Newtonsoft::Json::Serialization::JsonProperty::set_SetIsSpecified(/* [Nullable(new[] { 2, 1, 2 })] */ ::System::Action_2<::System::Object*, ::System::Object*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonProperty*>(),
                                                            { "set_SetIsSpecified", {}, { ::i2c::type_of<::System::Action_2<::System::Object*, ::System::Object*>*>() } })));

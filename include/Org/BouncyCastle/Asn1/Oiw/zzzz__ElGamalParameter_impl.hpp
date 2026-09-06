@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Oiw\ElGamalParameter.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Oiw/ElGamalParameter.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Oiw/zzzz__ElGamalParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"

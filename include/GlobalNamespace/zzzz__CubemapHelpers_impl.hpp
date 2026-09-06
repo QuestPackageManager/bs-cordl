@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CubemapHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace/CubemapHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CubemapFace_impl.hpp"
 #include "GlobalNamespace/zzzz__CubemapHelpers_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\NativePassData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/NativePassData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,9 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct PassData;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
@@ -53,12 +55,15 @@ public:
   /// @brief Method Clear, addr 0x67faf7c, size 0x134, virtual false, abstract: false, final false
   inline void Clear();
 
+  /// [IsReadOnly]
   /// @brief Method GetGraphPassNames, addr 0x67fb2a8, size 0x124, virtual false, abstract: false, final false
   inline void GetGraphPassNames(Il2CppObject* ctx, ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name>* dest);
 
+  /// [IsReadOnly]
   /// @brief Method GraphPasses, addr 0x67fb0c0, size 0x1e8, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> GraphPasses(Il2CppObject* ctx);
 
+  /// [IsReadOnly]
   /// @brief Method IsValid, addr 0x67fb0b0, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
@@ -84,18 +89,19 @@ public:
 
   // Ctor Parameters [CppParam { name: "loadAudit", ty:
   // "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadAudit>", modifiers: "",
-  // def_value: None }, CppParam { name: "storeAudit", ty:
+  // def_value: None, comment: None }, CppParam { name: "storeAudit", ty:
   // "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreAudit>", modifiers: "",
-  // def_value: None }, CppParam { name: "breakAudit", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit", modifiers: "", def_value: None }, CppParam { name:
-  // "fragments", ty:
+  // def_value: None, comment: None }, CppParam { name: "breakAudit", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "fragments", ty:
   // "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>",
-  // modifiers: "", def_value: None }, CppParam { name: "attachments", ty:
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "attachments", ty:
   // "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassAttachment>",
-  // modifiers: "", def_value: None }, CppParam { name: "firstGraphPass", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastGraphPass", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "numGraphPasses", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstNativeSubPass", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "numNativeSubPasses", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "volumeDepth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "samples", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "hasDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasFoveatedRasterization", ty: "bool", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "firstGraphPass", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastGraphPass", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "numGraphPasses", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "firstNativeSubPass", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "numNativeSubPasses", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "volumeDepth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "samples", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "hasDepth", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "hasFoveatedRasterization", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr NativePassData(
       ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadAudit> loadAudit,
       ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreAudit> storeAudit,

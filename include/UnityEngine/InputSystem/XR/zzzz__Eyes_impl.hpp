@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Eyes.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Eyes.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__Eyes_def.hpp"
@@ -243,10 +243,11 @@ inline void UnityEngine::InputSystem::XR::Eyes::set_rightEyeOpenAmount(float_t v
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::Eyes>(), { "set_rightEyeOpenAmount", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_LeftEyePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LeftEyeRotation", ty: "::UnityEngine::Quaternion",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RightEyePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RightEyeRotation", ty:
-// "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FixationPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_LeftEyeOpenAmount", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RightEyeOpenAmount", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_LeftEyePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LeftEyeRotation", ty:
+// "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RightEyePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_RightEyeRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FixationPoint", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LeftEyeOpenAmount", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_RightEyeOpenAmount", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::Eyes::Eyes(::UnityEngine::Vector3 m_LeftEyePosition, ::UnityEngine::Quaternion m_LeftEyeRotation, ::UnityEngine::Vector3 m_RightEyePosition,
                                                      ::UnityEngine::Quaternion m_RightEyeRotation, ::UnityEngine::Vector3 m_FixationPoint, float_t m_LeftEyeOpenAmount,
                                                      float_t m_RightEyeOpenAmount) noexcept {

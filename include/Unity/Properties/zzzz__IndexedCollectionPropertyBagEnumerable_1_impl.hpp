@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IndexedCollectionPropertyBagEnumerable_1.hpp"
+// IWYU pragma private; include "Unity/Properties/IndexedCollectionPropertyBagEnumerable_1.hpp"
 #include "Unity/Properties/zzzz__IndexedCollectionPropertyBagEnumerable_1_def.hpp"
 #include "Unity/Properties/zzzz__IIndexedCollectionPropertyBagEnumerator_1_def.hpp"
 #include "Unity/Properties/zzzz__IndexedCollectionPropertyBagEnumerator_1_def.hpp"
@@ -16,8 +16,8 @@ inline ::Unity::Properties::IndexedCollectionPropertyBagEnumerator_1<TContainer>
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::IndexedCollectionPropertyBagEnumerable_1<TContainer>>(), { "GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IndexedCollectionPropertyBagEnumerator_1<TContainer>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Impl", ty: "::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Container", ty: "TContainer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Impl", ty: "::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_Container", ty: "TContainer", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TContainer>
 constexpr ::Unity::Properties::IndexedCollectionPropertyBagEnumerable_1<TContainer>::IndexedCollectionPropertyBagEnumerable_1(
     ::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>* m_Impl, TContainer m_Container) noexcept {

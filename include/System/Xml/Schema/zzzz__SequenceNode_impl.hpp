@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SequenceNode.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SequenceNode.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__SequenceNode_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
@@ -33,9 +33,10 @@ inline void System::Xml::Schema::SequenceNode_SequenceConstructPosContext::_ctor
           { ".ctor", {}, { ::i2c::type_of<::System::Xml::Schema::SequenceNode*>(), ::i2c::type_of<::System::Xml::Schema::BitSet*>(), ::i2c::type_of<::System::Xml::Schema::BitSet*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, node, firstpos, lastpos);
 }
-// Ctor Parameters [CppParam { name: "this_", ty: "::System::Xml::Schema::SequenceNode*", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstpos", ty: "::System::Xml::Schema::BitSet*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "lastpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastposLeft", ty:
-// "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstposRight", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "this_", ty: "::System::Xml::Schema::SequenceNode*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstpos", ty:
+// "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "lastposLeft", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstposRight", ty:
+// "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::SequenceNode_SequenceConstructPosContext::SequenceNode_SequenceConstructPosContext(::System::Xml::Schema::SequenceNode* this_, ::System::Xml::Schema::BitSet* firstpos,
                                                                                                                     ::System::Xml::Schema::BitSet* lastpos, ::System::Xml::Schema::BitSet* lastposLeft,
                                                                                                                     ::System::Xml::Schema::BitSet* firstposRight) noexcept {

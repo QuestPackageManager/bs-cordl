@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\InitializationTime.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/InitializationTime.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__InitializationTime_def.hpp"
@@ -81,13 +81,15 @@ inline void BGLib::AppFlow::Initialization::InitializationTime___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_0(::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple) {
+inline ::StringW BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_0(
+    /* [TupleElementNames(new[] { "header", "duration" })] */ ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(),
                                                            { "<ToString>b__20_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, tuple);
 }
-inline ::StringW BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_1(::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple) {
+inline ::StringW BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_1(
+    /* [TupleElementNames(new[] { "header", "duration" })] */ ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(),
                                                            { "<ToString>b__20_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));

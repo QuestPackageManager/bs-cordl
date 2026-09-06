@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Mock\MockRuntime.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Mock/MockRuntime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,7 +137,7 @@ public:
   // @brief default ctor
   constexpr MockRuntime_ScriptEvent();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MockRuntime_ScriptEvent(int32_t value__) noexcept;
 
   /// @brief Field EndFrame value: I32(1)
@@ -196,13 +196,13 @@ protected:
   constexpr MockRuntime_ScriptEventDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_ScriptEventDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_ScriptEventDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_ScriptEventDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_ScriptEventDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegate const&) = delete;
+  MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23401 };
@@ -240,13 +240,13 @@ protected:
   constexpr MockRuntime_BeforeFunctionDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_BeforeFunctionDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_BeforeFunctionDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_BeforeFunctionDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_BeforeFunctionDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegate const&) = delete;
+  MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23402 };
@@ -284,13 +284,13 @@ protected:
   constexpr MockRuntime_AfterFunctionDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_AfterFunctionDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_AfterFunctionDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_AfterFunctionDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_AfterFunctionDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegate const&) = delete;
+  MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23403 };
@@ -333,9 +333,11 @@ public:
   /// @brief Method ActivateSecondaryView, addr 0x6a0df70, size 0x80, virtual false, abstract: false, final false
   static inline void ActivateSecondaryView(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType viewConfigurationType, bool activate);
 
+  /// [MonoPInvokeCallback(typeof(UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::BeforeFunctionDelegate))]
   /// @brief Method AfterFunctionCallback, addr 0x6a0ce0c, size 0x48, virtual false, abstract: false, final false
   static inline void AfterFunctionCallback(::StringW function, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult result);
 
+  /// [MonoPInvokeCallback(typeof(UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::BeforeFunctionDelegate))]
   /// @brief Method BeforeFunctionCallback, addr 0x6a0cdd8, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult BeforeFunctionCallback(::StringW function);
 
@@ -402,6 +404,7 @@ public:
   static inline ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceLevelHint
   PerformanceSettings_GetPerformanceLevelHint(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain domain);
 
+  /// [MonoPInvokeCallback(typeof(UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::ScriptEventDelegate))]
   /// @brief Method ReceiveScriptEvent, addr 0x6a0cd54, size 0x84, virtual false, abstract: false, final false
   static inline void ReceiveScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent evt, uint64_t param);
 
@@ -451,6 +454,7 @@ public:
   /// @brief Method .ctor, addr 0x6a0e298, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onScriptEvent, addr 0x6a0ce54, size 0xd0, virtual false, abstract: false, final false
   static inline void add_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* value);
 
@@ -463,6 +467,7 @@ public:
   /// @brief Method get_Instance, addr 0x6a0cff4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime> get_Instance();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onScriptEvent, addr 0x6a0cf24, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* value);
 
@@ -479,13 +484,13 @@ protected:
   constexpr MockRuntime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockRuntime(MockRuntime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockRuntime(MockRuntime const&) = delete;
+  MockRuntime(MockRuntimeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23404 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\CAPI.hpp"
+// IWYU pragma private; include "Oculus/Platform/CAPI.hpp"
 #include "Oculus/Platform/zzzz__KeyValuePairType_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -110,9 +110,9 @@ inline void Oculus::Platform::CAPI_ovrKeyValuePair::_ctor(::StringW key, double_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::CAPI_ovrKeyValuePair>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<double_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, key, value);
 }
-// Ctor Parameters [CppParam { name: "key_", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "valueType_", ty: "::Oculus::Platform::KeyValuePairType", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "stringValue_", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "intValue_", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "doubleValue_", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "key_", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "valueType_", ty: "::Oculus::Platform::KeyValuePairType",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stringValue_", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "intValue_", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "doubleValue_", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::CAPI_ovrKeyValuePair::CAPI_ovrKeyValuePair(::StringW key_, ::Oculus::Platform::KeyValuePairType valueType_, ::StringW stringValue_, int32_t intValue_,
                                                                          double_t doubleValue_) noexcept {
   this->key_ = key_;
@@ -123,8 +123,8 @@ constexpr ::Oculus::Platform::CAPI_ovrKeyValuePair::CAPI_ovrKeyValuePair(::Strin
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::CAPI_ovrKeyValuePair::CAPI_ovrKeyValuePair() {}
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::CAPI_ovrNetSyncVec3::CAPI_ovrNetSyncVec3(float_t x, float_t y, float_t z) noexcept {
   this->x = x;
   this->y = y;
@@ -132,9 +132,9 @@ constexpr ::Oculus::Platform::CAPI_ovrNetSyncVec3::CAPI_ovrNetSyncVec3(float_t x
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::CAPI_ovrNetSyncVec3::CAPI_ovrNetSyncVec3() {}
-// Ctor Parameters [CppParam { name: "sType", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "email", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "password", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "appId", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uriPrefixOverride", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sType", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "email", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "appId", ty: "uint64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "uriPrefixOverride", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::CAPI_OculusInitParams::CAPI_OculusInitParams(int32_t sType, ::StringW email, ::StringW password, uint64_t appId, ::StringW uriPrefixOverride) noexcept {
   this->sType = sType;
   this->email = email;

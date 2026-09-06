@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\SerializableDictionaryBase_3.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/SerializableDictionaryBase_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,6 +68,7 @@ template <typename TKey, typename TValue, typename TValueStorage> class Serializ
 // Write type traits
 MARK_GEN_REF_T_PTR(::BGLib::UnityExtension::SerializableDictionaryBase_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::UnityExtension::SerializableDictionaryBase_3, "BGLib.UnityExtension", "SerializableDictionaryBase`3");
+// [DefaultMember("Item")]
 // Dependencies BGLib.UnityExtension.SerializableDictionaryBase
 namespace BGLib::UnityExtension {
 // cpp template
@@ -171,7 +172,7 @@ public:
   /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue GetValue(::ArrayW<TValueStorage> storage, int32_t i);
 
   static inline ::BGLib::UnityExtension::SerializableDictionaryBase_3<TKey, TValue, TValueStorage>* New_ctor();
@@ -199,7 +200,7 @@ public:
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(::System::Object* key);
 
-  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::ArrayW<TValueStorage> storage, int32_t i, TValue value);
 
   /// @brief Method System.Collections.IDictionary.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -312,13 +313,13 @@ protected:
   constexpr SerializableDictionaryBase_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializableDictionaryBase_3(SerializableDictionaryBase_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableDictionaryBase_3(SerializableDictionaryBase_3 const&) = delete;
+  SerializableDictionaryBase_3(SerializableDictionaryBase_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20804 };
@@ -326,9 +327,13 @@ public:
   /// @brief Field m_dict, offset: 0x10, size: 0x8, def value: None
   ::BGLib::UnityExtension::SerializableDictionaryBase_Dictionary_2<TKey, TValue>* ___m_dict;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field m_keys, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<TKey> ___m_keys;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field m_values, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<TValueStorage> ___m_values;
 

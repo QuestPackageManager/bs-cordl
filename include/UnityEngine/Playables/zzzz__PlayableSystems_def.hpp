@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableSystems.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableSystems.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,13 +111,13 @@ protected:
   constexpr PlayableSystems_PlayableSystemDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_PlayableSystemDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_PlayableSystemDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayableSystems_PlayableSystemDelegate(PlayableSystems_PlayableSystemDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_PlayableSystemDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_PlayableSystemDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableSystems_PlayableSystemDelegate(PlayableSystems_PlayableSystemDelegate const&) = delete;
+  PlayableSystems_PlayableSystemDelegate(PlayableSystems_PlayableSystemDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22617 };
@@ -162,7 +162,7 @@ public:
   // @brief default ctor
   constexpr PlayableSystems_PlayableSystemStage();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlayableSystems_PlayableSystemStage(uint16_t value__) noexcept;
 
   /// @brief Field AnimationBegin value: U16(3)
@@ -277,13 +277,13 @@ protected:
   constexpr DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator(DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator(DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator const&) = delete;
+  DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator(DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22619 };
@@ -304,6 +304,7 @@ static_assert(offsetof(::UnityEngine::Playables::DataPlayableOutputList_Playable
 static_assert(sizeof(::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Playables
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace UnityEngine::Playables {
 // Is value type: false
@@ -385,13 +386,13 @@ protected:
   constexpr PlayableSystems_DataPlayableOutputList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_DataPlayableOutputList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_DataPlayableOutputList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayableSystems_DataPlayableOutputList(PlayableSystems_DataPlayableOutputList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_DataPlayableOutputList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_DataPlayableOutputList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableSystems_DataPlayableOutputList(PlayableSystems_DataPlayableOutputList const&) = delete;
+  PlayableSystems_DataPlayableOutputList(PlayableSystems_DataPlayableOutputListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22620 };
@@ -412,6 +413,8 @@ static_assert(offsetof(::UnityEngine::Playables::PlayableSystems_DataPlayableOut
 static_assert(sizeof(::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Playables
+// [NativeHeader("Modules/Director/ScriptBindings/PlayableSystems.bindings.h")]
+// [StaticAccessor("PlayableSystemsBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies System.Object
 namespace UnityEngine::Playables {
 // Is value type: false
@@ -438,6 +441,7 @@ public:
   /// @brief Method CombineTypeAndIndex, addr 0x6b351fc, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CombineTypeAndIndex(int32_t typeIndex, ::UnityEngine::Playables::PlayableSystems_PlayableSystemStage stage);
 
+  /// [RequiredByNativeCode]
   /// @brief Method Internal_CallSystemDelegate, addr 0x6b35208, size 0x1ac, virtual false, abstract: false, final false
   static inline bool Internal_CallSystemDelegate(int32_t systemIndex, ::UnityEngine::Playables::PlayableSystems_PlayableSystemStage stage, ::System::IntPtr outputsPtr, int32_t numOutputs);
 
@@ -459,13 +463,13 @@ protected:
   constexpr PlayableSystems();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayableSystems(PlayableSystems&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableSystems(PlayableSystems const&) = delete;
+  PlayableSystems(PlayableSystemsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22621 };

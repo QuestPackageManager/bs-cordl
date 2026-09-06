@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeUpdater.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeUpdater_def.hpp"
@@ -256,7 +256,9 @@ inline void UnityEngine::UIElements::VisualTreeUpdater::SetUpdater(::UnityEngine
                           { "SetUpdater", {}, { ::i2c::type_of<::UnityEngine::UIElements::IVisualTreeUpdater*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualTreeUpdatePhase>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, updater, phase);
 }
-template <typename T> inline void UnityEngine::UIElements::VisualTreeUpdater::SetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IVisualTreeUpdater*> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::VisualTreeUpdater::SetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeUpdater*>(),
                                                            { "SetUpdater", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::UIElements::VisualTreeUpdatePhase>() } })));

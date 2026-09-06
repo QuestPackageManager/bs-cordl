@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightingSettings.hpp"
+// IWYU pragma private; include "UnityEngine/LightingSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,8 @@ class LightingSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::LightingSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LightingSettings*, "UnityEngine", "LightingSettings");
+// [NativeHeader("Runtime/Graphics/LightingSettings.h")]
+// [PreventReadOnlyInstanceModification]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -22,15 +24,19 @@ namespace UnityEngine {
 class CORDL_TYPE LightingSettings : public ::UnityEngine::Object {
 public:
   // Declarations
+  /// @brief [NativeName("EnableBakedLightmaps")]
   __declspec(property(get = get_bakedGI, put = set_bakedGI)) bool bakedGI;
 
+  /// @brief [NativeName("RealtimeEnvironmentLighting")]
   __declspec(property(get = get_realtimeEnvironmentLighting, put = set_realtimeEnvironmentLighting)) bool realtimeEnvironmentLighting;
 
+  /// @brief [NativeName("EnableRealtimeLightmaps")]
   __declspec(property(get = get_realtimeGI, put = set_realtimeGI)) bool realtimeGI;
 
   /// @brief Method Internal_Create, addr 0x6a7eb5c, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Create(::UnityEngine::LightingSettings* self);
+  static inline void Internal_Create(/* [Writable] */ ::UnityEngine::LightingSettings* self);
 
+  /// [RequiredByNativeCode]
   /// @brief Method LightingSettingsDontStripMe, addr 0x6a7eae0, size 0x4, virtual false, abstract: false, final false
   inline void LightingSettingsDontStripMe();
 
@@ -81,13 +87,13 @@ protected:
   constexpr LightingSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightingSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightingSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightingSettings(LightingSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightingSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightingSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightingSettings(LightingSettings const&) = delete;
+  LightingSettings(LightingSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10113 };

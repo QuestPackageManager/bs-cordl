@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\MarkupElement.hpp"
+// IWYU pragma private; include "TMPro/MarkupElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   // @brief default ctor
   constexpr MarkupElement();
 
-  // Ctor Parameters [CppParam { name: "m_Attributes", ty: "::ArrayW<::TMPro::MarkupAttribute>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Attributes", ty: "::ArrayW<::TMPro::MarkupAttribute>", modifiers: "", def_value: None, comment: None }]
   constexpr MarkupElement(::ArrayW<::TMPro::MarkupAttribute> m_Attributes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

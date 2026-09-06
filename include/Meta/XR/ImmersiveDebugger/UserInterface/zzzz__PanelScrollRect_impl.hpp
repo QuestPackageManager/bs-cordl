@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\PanelScrollRect.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/PanelScrollRect.hpp"
 #include "UnityEngine/UI/zzzz__ScrollRect_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__PanelScrollRect_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"

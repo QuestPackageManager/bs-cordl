@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\ClassDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/ClassDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContract_impl.hpp"
 #include "System/Xml/zzzz__XmlDictionaryString_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -48,8 +48,8 @@ inline void System::Runtime::Serialization::ClassDataContractCriticalHelper_Clas
                                               { ".ctor", {}, { ::i2c::type_of<::System::Runtime::Serialization::DataMember*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, member, ns, baseTypeIndex);
 }
-// Ctor Parameters [CppParam { name: "member", ty: "::System::Runtime::Serialization::DataMember*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ns", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "baseTypeIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "member", ty: "::System::Runtime::Serialization::DataMember*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ns", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "baseTypeIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Serialization::ClassDataContractCriticalHelper_ClassDataContract_Member::ClassDataContractCriticalHelper_ClassDataContract_Member(
     ::System::Runtime::Serialization::DataMember* member, ::StringW ns, int32_t baseTypeIndex) noexcept {
   this->member = member;

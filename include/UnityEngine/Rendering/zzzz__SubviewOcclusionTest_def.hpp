@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SubviewOcclusionTest.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SubviewOcclusionTest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr SubviewOcclusionTest();
 
-  // Ctor Parameters [CppParam { name: "cullingSplitIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occluderSubviewIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cullingSplitIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occluderSubviewIndex", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr SubviewOcclusionTest(int32_t cullingSplitIndex, int32_t occluderSubviewIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

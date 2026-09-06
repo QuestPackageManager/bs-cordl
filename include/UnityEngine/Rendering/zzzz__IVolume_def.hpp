@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IVolume.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IVolume.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,18 +28,18 @@ public:
 
   __declspec(property(get = get_isGlobal, put = set_isGlobal)) bool isGlobal;
 
-  /// @brief Method get_colliders, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_colliders, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* get_colliders();
 
-  /// @brief Method get_isGlobal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isGlobal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isGlobal();
 
-  /// @brief Method set_isGlobal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_isGlobal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isGlobal(bool value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVolume", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVolume(IVolume const&) = delete;
+  IVolume(IVolumeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12319 };

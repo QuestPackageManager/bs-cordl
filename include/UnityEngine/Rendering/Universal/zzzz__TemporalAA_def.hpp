@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TemporalAA.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TemporalAA.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,9 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -179,13 +181,13 @@ protected:
   constexpr TemporalAA_ShaderConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemporalAA_ShaderConstants(TemporalAA_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA_ShaderConstants(TemporalAA_ShaderConstants const&) = delete;
+  TemporalAA_ShaderConstants(TemporalAA_ShaderConstantsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12968 };
@@ -216,13 +218,13 @@ protected:
   constexpr TemporalAA_ShaderKeywords();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderKeywords", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderKeywords", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemporalAA_ShaderKeywords(TemporalAA_ShaderKeywords&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderKeywords", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderKeywords", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA_ShaderKeywords(TemporalAA_ShaderKeywords const&) = delete;
+  TemporalAA_ShaderKeywords(TemporalAA_ShaderKeywordsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12969 };
@@ -295,10 +297,11 @@ public:
   // @brief default ctor
   constexpr TemporalAA_Settings();
 
-  // Ctor Parameters [CppParam { name: "m_Quality", ty: "::UnityEngine::Rendering::Universal::TemporalAAQuality", modifiers: "", def_value: None }, CppParam { name: "m_FrameInfluence", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_JitterScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_MipBias", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_VarianceClampScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ContrastAdaptiveSharpening", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "resetHistoryFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "jitterFrameCountOffset", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Quality", ty: "::UnityEngine::Rendering::Universal::TemporalAAQuality", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FrameInfluence",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_JitterScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MipBias", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_VarianceClampScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_ContrastAdaptiveSharpening", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "resetHistoryFrames", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "jitterFrameCountOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TemporalAA_Settings(::UnityEngine::Rendering::Universal::TemporalAAQuality m_Quality, float_t m_FrameInfluence, float_t m_JitterScale, float_t m_MipBias, float_t m_VarianceClampScale,
                                 float_t m_ContrastAdaptiveSharpening, int32_t resetHistoryFrames, int32_t jitterFrameCountOffset) noexcept;
 
@@ -308,21 +311,33 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("quality")]
   /// @brief Field m_Quality, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::TemporalAAQuality m_Quality;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("frameInfluence")]
   /// @brief Field m_FrameInfluence, offset: 0x4, size: 0x4, def value: None
   float_t m_FrameInfluence;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("jitterScale")]
   /// @brief Field m_JitterScale, offset: 0x8, size: 0x4, def value: None
   float_t m_JitterScale;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("mipBias")]
   /// @brief Field m_MipBias, offset: 0xc, size: 0x4, def value: None
   float_t m_MipBias;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("varianceClampScale")]
   /// @brief Field m_VarianceClampScale, offset: 0x10, size: 0x4, def value: None
   float_t m_VarianceClampScale;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("contrastAdaptiveSharpening")]
   /// @brief Field m_ContrastAdaptiveSharpening, offset: 0x14, size: 0x4, def value: None
   float_t m_ContrastAdaptiveSharpening;
 
@@ -381,13 +396,13 @@ protected:
   constexpr TemporalAA_JitterFunc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_JitterFunc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_JitterFunc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemporalAA_JitterFunc(TemporalAA_JitterFunc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_JitterFunc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_JitterFunc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA_JitterFunc(TemporalAA_JitterFunc const&) = delete;
+  TemporalAA_JitterFunc(TemporalAA_JitterFuncconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12971 };
@@ -524,13 +539,13 @@ protected:
   constexpr TemporalAA_TaaPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_TaaPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_TaaPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemporalAA_TaaPassData(TemporalAA_TaaPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_TaaPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_TaaPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA_TaaPassData(TemporalAA_TaaPassData const&) = delete;
+  TemporalAA_TaaPassData(TemporalAA_TaaPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12972 };
@@ -601,6 +616,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::TemporalAA_TaaPassDa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::TemporalAA_TaaPassData) == 0x88, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -656,13 +672,13 @@ protected:
   constexpr TemporalAA___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemporalAA___c(TemporalAA___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA___c(TemporalAA___c const&) = delete;
+  TemporalAA___c(TemporalAA___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12973 };
@@ -762,13 +778,13 @@ protected:
   constexpr TemporalAA();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemporalAA(TemporalAA&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemporalAA", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA(TemporalAA const&) = delete;
+  TemporalAA(TemporalAAconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12974 };

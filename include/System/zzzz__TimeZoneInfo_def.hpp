@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TimeZoneInfo.hpp"
+// IWYU pragma private; include "System/TimeZoneInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -151,8 +153,8 @@ public:
   // @brief default ctor
   constexpr TimeZoneInfo_TZifType();
 
-  // Ctor Parameters [CppParam { name: "UtcOffset", ty: "::System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "IsDst", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "AbbreviationIndex", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "UtcOffset", ty: "::System::TimeSpan", modifiers: "", def_value: None, comment: None }, CppParam { name: "IsDst", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "AbbreviationIndex", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimeZoneInfo_TZifType(::System::TimeSpan UtcOffset, bool IsDst, uint8_t AbbreviationIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -212,7 +214,7 @@ public:
   // @brief default ctor
   constexpr TimeZoneInfo_TZVersion();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimeZoneInfo_TZVersion(uint8_t value__) noexcept;
 
   /// @brief Field V1 value: U8(0)
@@ -255,10 +257,11 @@ public:
   // @brief default ctor
   constexpr TimeZoneInfo_TZifHead();
 
-  // Ctor Parameters [CppParam { name: "Magic", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Version", ty: "::System::TimeZoneInfo_TZVersion", modifiers: "", def_value: None },
-  // CppParam { name: "IsGmtCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "IsStdCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "LeapCount", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "TimeCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "TypeCount", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "CharCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Magic", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Version", ty: "::System::TimeZoneInfo_TZVersion", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "IsGmtCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "IsStdCount", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "LeapCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "TimeCount", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "TypeCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "CharCount", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TimeZoneInfo_TZifHead(uint32_t Magic, ::System::TimeZoneInfo_TZVersion Version, uint32_t IsGmtCount, uint32_t IsStdCount, uint32_t LeapCount, uint32_t TimeCount, uint32_t TypeCount,
                                   uint32_t CharCount) noexcept;
 
@@ -314,6 +317,7 @@ static_assert(offsetof(::System::TimeZoneInfo_TZifHead, CharCount) == 0x1c, "Off
 static_assert(sizeof(::System::TimeZoneInfo_TZifHead) == 0x20, "Size mismatch!");
 
 } // namespace System
+// [IsReadOnly]
 // Dependencies System.DateTime, System.DayOfWeek
 namespace System {
 // Is value type: true
@@ -406,9 +410,10 @@ public:
   // @brief default ctor
   constexpr TimeZoneInfo_TransitionTime();
 
-  // Ctor Parameters [CppParam { name: "_timeOfDay", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "_month", ty: "uint8_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_week", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_day", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_dayOfWeek", ty: "::System::DayOfWeek",
-  // modifiers: "", def_value: None }, CppParam { name: "_isFixedDateRule", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_timeOfDay", ty: "::System::DateTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "_month", ty: "uint8_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_week", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_day", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_dayOfWeek", ty: "::System::DayOfWeek", modifiers: "", def_value: None, comment: None }, CppParam { name: "_isFixedDateRule", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TimeZoneInfo_TransitionTime(::System::DateTime _timeOfDay, uint8_t _month, uint8_t _week, uint8_t _day, ::System::DayOfWeek _dayOfWeek, bool _isFixedDateRule) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -636,13 +641,13 @@ protected:
   constexpr TimeZoneInfo_AdjustmentRule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_AdjustmentRule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_AdjustmentRule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeZoneInfo_AdjustmentRule(TimeZoneInfo_AdjustmentRule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_AdjustmentRule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_AdjustmentRule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo_AdjustmentRule(TimeZoneInfo_AdjustmentRule const&) = delete;
+  TimeZoneInfo_AdjustmentRule(TimeZoneInfo_AdjustmentRuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2316 };
@@ -726,13 +731,13 @@ protected:
   constexpr TimeZoneInfo_CachedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_CachedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_CachedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeZoneInfo_CachedData(TimeZoneInfo_CachedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_CachedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_CachedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo_CachedData(TimeZoneInfo_CachedData const&) = delete;
+  TimeZoneInfo_CachedData(TimeZoneInfo_CachedDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2318 };
@@ -748,6 +753,7 @@ static_assert(offsetof(::System::TimeZoneInfo_CachedData, ____localTimeZone) == 
 static_assert(sizeof(::System::TimeZoneInfo_CachedData) == 0x18, "Size mismatch!");
 
 } // namespace System
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -823,13 +829,13 @@ protected:
   constexpr TimeZoneInfo___c__DisplayClass16_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c__DisplayClass16_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeZoneInfo___c__DisplayClass16_0(TimeZoneInfo___c__DisplayClass16_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c__DisplayClass16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo___c__DisplayClass16_0(TimeZoneInfo___c__DisplayClass16_0 const&) = delete;
+  TimeZoneInfo___c__DisplayClass16_0(TimeZoneInfo___c__DisplayClass16_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2319 };
@@ -870,6 +876,7 @@ static_assert(offsetof(::System::TimeZoneInfo___c__DisplayClass16_0, ___timeZone
 static_assert(sizeof(::System::TimeZoneInfo___c__DisplayClass16_0) == 0x40, "Size mismatch!");
 
 } // namespace System
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -955,13 +962,13 @@ protected:
   constexpr TimeZoneInfo___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeZoneInfo___c(TimeZoneInfo___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo___c(TimeZoneInfo___c const&) = delete;
+  TimeZoneInfo___c(TimeZoneInfo___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2320 };
@@ -972,6 +979,7 @@ public:
 static_assert(sizeof(::System::TimeZoneInfo___c) == 0x10, "Size mismatch!");
 
 } // namespace System
+// [TypeForwardedFrom("System.Core, Version=2.0.5.0, Culture=Neutral, PublicKeyToken=7cec85d7bea7798e")]
 // Dependencies System.DateTime, System.Object, System.TimeSpan, System.TimeZoneInfo::AdjustmentRule
 namespace System {
 // Is value type: false
@@ -1437,13 +1445,13 @@ protected:
   constexpr TimeZoneInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeZoneInfo(TimeZoneInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo(TimeZoneInfo const&) = delete;
+  TimeZoneInfo(TimeZoneInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2321 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\NotificationBitmap_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/NotificationBitmap_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,9 @@ public:
   // @brief default ctor
   constexpr NotificationBitmap_t();
 
-  // Ctor Parameters [CppParam { name: "m_pImageData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_nWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "m_nHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_nBytesPerPixel", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_pImageData", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_nWidth", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_nHeight", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_nBytesPerPixel", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr NotificationBitmap_t(::System::IntPtr m_pImageData, int32_t m_nWidth, int32_t m_nHeight, int32_t m_nBytesPerPixel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

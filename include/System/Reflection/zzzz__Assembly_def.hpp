@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Assembly.hpp"
+// IWYU pragma private; include "System/Reflection/Assembly.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,13 +98,13 @@ protected:
   constexpr Assembly_ResolveEventHolder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Assembly_ResolveEventHolder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Assembly_ResolveEventHolder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Assembly_ResolveEventHolder(Assembly_ResolveEventHolder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Assembly_ResolveEventHolder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Assembly_ResolveEventHolder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Assembly_ResolveEventHolder(Assembly_ResolveEventHolder const&) = delete;
+  Assembly_ResolveEventHolder(Assembly_ResolveEventHolderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3536 };
@@ -115,6 +115,9 @@ public:
 static_assert(sizeof(::System::Reflection::Assembly_ResolveEventHolder) == 0x10, "Size mismatch!");
 
 } // namespace System::Reflection
+// [ComDefaultInterface(typeof(System.Runtime.InteropServices._Assembly))]
+// [ComVisible(true)]
+// [ClassInterface((System.Runtime.InteropServices.ClassInterfaceType)0)]
 // Dependencies System.Object
 namespace System::Reflection {
 // Is value type: false
@@ -128,12 +131,14 @@ public:
 
   __declspec(property(get = get_FullName)) ::StringW FullName;
 
+  /// @brief [MonoTODO]
   __declspec(property(get = get_IsFullyTrusted)) bool IsFullyTrusted;
 
   __declspec(property(get = get_Location)) ::StringW Location;
 
   __declspec(property(get = get_MonoAssembly)) ::System::IntPtr MonoAssembly;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_ReflectionOnly)) bool ReflectionOnly;
 
   /// @brief Convert operator to "::System::Reflection::ICustomAttributeProvider"
@@ -254,9 +259,11 @@ public:
   /// @brief Method LoadFrom, addr 0x5b87708, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* LoadFrom(::StringW assemblyFile, bool refOnly, ::by_ref<::System::Threading::StackCrawlMark> stackMark);
 
+  /// [Obsolete("This method has been deprecated. Please use Assembly.Load() instead. http://go.microsoft.com/fwlink/?linkid=14202")]
   /// @brief Method LoadWithPartialName, addr 0x5b87774, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* LoadWithPartialName(::StringW partialName);
 
+  /// [Obsolete("This method has been deprecated. Please use Assembly.Load() instead. http://go.microsoft.com/fwlink/?linkid=14202")]
   /// @brief Method LoadWithPartialName, addr 0x5b87780, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* LoadWithPartialName(::StringW partialName, ::System::Security::Policy::Evidence* securityEvidence);
 
@@ -316,13 +323,13 @@ protected:
   constexpr Assembly();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Assembly", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Assembly", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Assembly(Assembly&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Assembly", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Assembly", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Assembly(Assembly const&) = delete;
+  Assembly(Assemblyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3537 };

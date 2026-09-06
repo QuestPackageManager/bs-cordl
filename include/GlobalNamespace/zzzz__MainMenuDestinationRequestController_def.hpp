@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainMenuDestinationRequestController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainMenuDestinationRequestController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ MARK_REF_T(::GlobalNamespace::MainMenuDestinationRequestController*);
 MARK_VAL_T(::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MainMenuDestinationRequestController*, "", "MainMenuDestinationRequestController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9, "", "MainMenuDestinationRequestController/<ProcessDestinationRequest>d__9");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -68,6 +69,7 @@ public:
   /// @brief Method MoveNext, addr 0x597f2f4, size 0x4f0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x597f7e4, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -78,10 +80,11 @@ public:
   // @brief default ctor
   constexpr MainMenuDestinationRequestController__ProcessDestinationRequest_d__9();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MainMenuDestinationRequestController*",
-  // modifiers: "", def_value: None }, CppParam { name: "menuDestination", ty: "::GlobalNamespace::MenuDestination*", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::MainMenuDestinationRequestController*", modifiers: "", def_value: None, comment: None }, CppParam { name: "menuDestination", ty: "::GlobalNamespace::MenuDestination*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr MainMenuDestinationRequestController__ProcessDestinationRequest_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                  ::GlobalNamespace::MainMenuDestinationRequestController* __4__this,
                                                                                  ::GlobalNamespace::MenuDestination* menuDestination, ::System::Threading::CancellationToken _cancellationToken_5__2,
@@ -175,6 +178,7 @@ public:
 
   static inline ::GlobalNamespace::MainMenuDestinationRequestController* New_ctor();
 
+  /// [AsyncStateMachine(typeof(MainMenuDestinationRequestController::<ProcessDestinationRequest>d__9))]
   /// @brief Method ProcessDestinationRequest, addr 0x597ee00, size 0xb0, virtual false, abstract: false, final false
   inline void ProcessDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
@@ -221,23 +225,26 @@ protected:
   constexpr MainMenuDestinationRequestController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainMenuDestinationRequestController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainMenuDestinationRequestController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainMenuDestinationRequestController(MainMenuDestinationRequestController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainMenuDestinationRequestController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainMenuDestinationRequestController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainMenuDestinationRequestController(MainMenuDestinationRequestController const&) = delete;
+  MainMenuDestinationRequestController(MainMenuDestinationRequestControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5751 };
 
+  /// [Inject]
   /// @brief Field _destinationRequestManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IDestinationRequestManager* ____destinationRequestManager;
 
+  /// [Inject]
   /// @brief Field _menuScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::MenuScenesTransitionSetupData* ____menuScenesTransitionSetupData;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 

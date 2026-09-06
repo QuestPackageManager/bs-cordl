@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeStyleUpdaterTraversal.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeStyleUpdaterTraversal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,6 +68,7 @@ MARK_REF_T(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*);
 MARK_REF_T(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*, "UnityEngine.UIElements", "VisualTreeStyleUpdaterTraversal");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*, "UnityEngine.UIElements", "VisualTreeStyleUpdaterTraversal/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -103,13 +104,13 @@ protected:
   constexpr VisualTreeStyleUpdaterTraversal___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeStyleUpdaterTraversal___c(VisualTreeStyleUpdaterTraversal___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeStyleUpdaterTraversal___c(VisualTreeStyleUpdaterTraversal___c const&) = delete;
+  VisualTreeStyleUpdaterTraversal___c(VisualTreeStyleUpdaterTraversal___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5260 };
@@ -120,6 +121,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies UnityEngine.UIElements.StyleSheets.HierarchyTraversal
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -267,15 +269,19 @@ public:
   /// @brief Method .ctor, addr 0x6ccf428, size 0x208, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentPanel, addr 0x6ccf9d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_currentPanel();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentPixelsPerPoint, addr 0x6ccf9c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentPixelsPerPoint();
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentPanel, addr 0x6ccf9d8, size 0x8, virtual false, abstract: false, final false
   inline void set_currentPanel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentPixelsPerPoint, addr 0x6ccf9c8, size 0x8, virtual false, abstract: false, final false
   inline void set_currentPixelsPerPoint(float_t value);
 
@@ -285,13 +291,13 @@ protected:
   constexpr VisualTreeStyleUpdaterTraversal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeStyleUpdaterTraversal(VisualTreeStyleUpdaterTraversal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeStyleUpdaterTraversal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeStyleUpdaterTraversal(VisualTreeStyleUpdaterTraversal const&) = delete;
+  VisualTreeStyleUpdaterTraversal(VisualTreeStyleUpdaterTraversalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5261 };
@@ -308,6 +314,8 @@ public:
   /// @brief Field m_TempMatchResults, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* ___m_TempMatchResults;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <currentPixelsPerPoint>k__BackingField, offset: 0x30, size: 0x4, def value: None
   float_t ____currentPixelsPerPoint_k__BackingField;
 
@@ -317,6 +325,8 @@ public:
   /// @brief Field m_StylePropertyReader, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleSheets::StylePropertyReader* ___m_StylePropertyReader;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <currentPanel>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseVisualElementPanel* ____currentPanel_k__BackingField;
 

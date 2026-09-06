@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\SelectionPickerRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/SelectionPickerRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,12 +120,12 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE SelectionPickerRenderer_ISelectionPickerRenderer {
 public:
   // Declarations
-  /// @brief Method RenderLookupTexture, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RenderLookupTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Texture2D> RenderLookupTexture(::UnityEngine::Camera* camera, ::UnityEngine::Shader* shader, ::StringW tag, int32_t width, int32_t height);
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_ISelectionPickerRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_ISelectionPickerRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectionPickerRenderer_ISelectionPickerRenderer(SelectionPickerRenderer_ISelectionPickerRenderer const&) = delete;
+  SelectionPickerRenderer_ISelectionPickerRenderer(SelectionPickerRenderer_ISelectionPickerRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16796 };
@@ -161,13 +161,13 @@ protected:
   constexpr SelectionPickerRenderer_SelectionPickerRendererHDRP();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_SelectionPickerRendererHDRP", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_SelectionPickerRendererHDRP", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectionPickerRenderer_SelectionPickerRendererHDRP(SelectionPickerRenderer_SelectionPickerRendererHDRP&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_SelectionPickerRendererHDRP", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_SelectionPickerRendererHDRP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectionPickerRenderer_SelectionPickerRendererHDRP(SelectionPickerRenderer_SelectionPickerRendererHDRP const&) = delete;
+  SelectionPickerRenderer_SelectionPickerRendererHDRP(SelectionPickerRenderer_SelectionPickerRendererHDRPconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16797 };
@@ -205,13 +205,13 @@ protected:
   constexpr SelectionPickerRenderer_SelectionPickerRendererStandard();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_SelectionPickerRendererStandard", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_SelectionPickerRendererStandard", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectionPickerRenderer_SelectionPickerRendererStandard(SelectionPickerRenderer_SelectionPickerRendererStandard&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_SelectionPickerRendererStandard", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer_SelectionPickerRendererStandard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectionPickerRenderer_SelectionPickerRendererStandard(SelectionPickerRenderer_SelectionPickerRendererStandard const&) = delete;
+  SelectionPickerRenderer_SelectionPickerRendererStandard(SelectionPickerRenderer_SelectionPickerRendererStandardconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16798 };
@@ -222,6 +222,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererStandard) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -257,13 +258,13 @@ protected:
   constexpr SelectionPickerRenderer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectionPickerRenderer___c(SelectionPickerRenderer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectionPickerRenderer___c(SelectionPickerRenderer___c const&) = delete;
+  SelectionPickerRenderer___c(SelectionPickerRenderer___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16799 };
@@ -274,6 +275,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::SelectionPickerRenderer___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ProBuilder.SharedVertex, UnityEngine.Vector3
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -313,13 +315,13 @@ protected:
   constexpr SelectionPickerRenderer___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectionPickerRenderer___c__DisplayClass19_0(SelectionPickerRenderer___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectionPickerRenderer___c__DisplayClass19_0(SelectionPickerRenderer___c__DisplayClass19_0 const&) = delete;
+  SelectionPickerRenderer___c__DisplayClass19_0(SelectionPickerRenderer___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16800 };
@@ -489,13 +491,13 @@ protected:
   constexpr SelectionPickerRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectionPickerRenderer(SelectionPickerRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionPickerRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectionPickerRenderer(SelectionPickerRenderer const&) = delete;
+  SelectionPickerRenderer(SelectionPickerRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16801 };

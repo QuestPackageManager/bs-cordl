@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\BundleSource.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/BundleSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct BundleSource;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ResourceManagement::Util::BundleSource);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::Util::BundleSource, "UnityEngine.ResourceManagement.Util", "BundleSource");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr BundleSource();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BundleSource(int32_t value__) noexcept;
 
   /// @brief Field Cache value: I32(2)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutHandle.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutHandle.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutHandle.get_Undefined
@@ -93,7 +93,8 @@ inline int32_t UnityEngine::UIElements::Layout::LayoutHandle::GetHashCode() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutHandle>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutHandle::LayoutHandle(int32_t Index, int32_t Version) noexcept {
   this->Index = Index;
   this->Version = Version;

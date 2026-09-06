@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRDynamicObject.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRDynamicObject.hpp"
 #include "GlobalNamespace/zzzz__OVRDynamicObject_def.hpp"
 #include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
@@ -317,7 +317,7 @@ constexpr GlobalNamespace::OVRDynamicObject::operator ::System::IEquatable_1<::G
 constexpr ::System::IEquatable_1<::GlobalNamespace::OVRDynamicObject>* GlobalNamespace::OVRDynamicObject::i___System__IEquatable_1___GlobalNamespace__OVRDynamicObject_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRDynamicObject>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRDynamicObject::OVRDynamicObject(uint64_t _Handle_k__BackingField) noexcept {
   this->_Handle_k__BackingField = _Handle_k__BackingField;
 }

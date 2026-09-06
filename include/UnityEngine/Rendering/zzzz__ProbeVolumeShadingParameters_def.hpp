@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeShadingParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeShadingParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +28,14 @@ public:
   // @brief default ctor
   constexpr ProbeVolumeShadingParameters();
 
-  // Ctor Parameters [CppParam { name: "normalBias", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "viewBias", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "scaleBiasByMinDistanceBetweenProbes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "samplingNoise", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "weight",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "leakReductionMode", ty: "::UnityEngine::Rendering::APVLeakReductionMode", modifiers: "", def_value: None }, CppParam { name:
-  // "frameIndexForNoise", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reflNormalizationLowerClamp", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "reflNormalizationUpperClamp", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "skyOcclusionIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "skyOcclusionShadingDirection", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "regionCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "regionLayerMasks",
-  // ty: "::Unity::Mathematics::uint4", modifiers: "", def_value: None }, CppParam { name: "worldOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "normalBias", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewBias", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "scaleBiasByMinDistanceBetweenProbes", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "samplingNoise", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "leakReductionMode", ty:
+  // "::UnityEngine::Rendering::APVLeakReductionMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "frameIndexForNoise", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "reflNormalizationLowerClamp", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "reflNormalizationUpperClamp", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "skyOcclusionIntensity", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "skyOcclusionShadingDirection",
+  // ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "regionCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "regionLayerMasks",
+  // ty: "::Unity::Mathematics::uint4", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolumeShadingParameters(float_t normalBias, float_t viewBias, bool scaleBiasByMinDistanceBetweenProbes, float_t samplingNoise, float_t weight,
                                          ::UnityEngine::Rendering::APVLeakReductionMode leakReductionMode, int32_t frameIndexForNoise, float_t reflNormalizationLowerClamp,
                                          float_t reflNormalizationUpperClamp, float_t skyOcclusionIntensity, bool skyOcclusionShadingDirection, int32_t regionCount,

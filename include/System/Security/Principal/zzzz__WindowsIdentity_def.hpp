@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Principal\WindowsIdentity.hpp"
+// IWYU pragma private; include "System/Security/Principal/WindowsIdentity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ class WindowsIdentity;
 // Write type traits
 MARK_REF_T(::System::Security::Principal::WindowsIdentity*);
 DEFINE_IL2CPP_CLASS(::System::Security::Principal::WindowsIdentity*, "System.Security.Principal", "WindowsIdentity");
+// [ComVisible(true)]
 // Dependencies System.IntPtr, System.Security.Claims.ClaimsIdentity, System.Security.Principal.WindowsAccountType
 namespace System::Security::Principal {
 // Is value type: false
@@ -62,6 +63,8 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
+  /// [ComVisible(false)]
+  /// @brief [MonoTODO("not implemented")]
   __declspec(property(get = get_User)) ::System::Security::Principal::SecurityIdentifier* User;
 
   /// @brief Field _account, offset 0x88, size 0x4
@@ -100,6 +103,7 @@ public:
   /// @brief Method CloneAsBase, addr 0x5b17a9c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* CloneAsBase();
 
+  /// [ComVisible(false)]
   /// @brief Method Dispose, addr 0x5b174e8, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
@@ -209,13 +213,13 @@ protected:
   constexpr WindowsIdentity();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsIdentity", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsIdentity", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WindowsIdentity(WindowsIdentity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsIdentity", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsIdentity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WindowsIdentity(WindowsIdentity const&) = delete;
+  WindowsIdentity(WindowsIdentityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3022 };

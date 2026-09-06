@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalSubDrawCall.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalSubDrawCall.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   // @brief default ctor
   constexpr DecalSubDrawCall();
 
-  // Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DecalSubDrawCall(int32_t start, int32_t end) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

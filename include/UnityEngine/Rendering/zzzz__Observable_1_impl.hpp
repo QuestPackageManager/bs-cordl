@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Observable_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Observable_1.hpp"
 #include "UnityEngine/Rendering/zzzz__Observable_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 template <typename T> inline void UnityEngine::Rendering::Observable_1<T>::add_onValueChanged(::System::Action_1<T>* value) {
@@ -24,8 +24,8 @@ template <typename T> inline void UnityEngine::Rendering::Observable_1<T>::_ctor
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Observable_1<T>>(), { ".ctor", {}, { ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, newValue);
 }
-// Ctor Parameters [CppParam { name: "onValueChanged", ty: "::System::Action_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Value", ty: "T", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "onValueChanged", ty: "::System::Action_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Value", ty: "T", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::UnityEngine::Rendering::Observable_1<T>::Observable_1(::System::Action_1<T>* onValueChanged, T m_Value) noexcept {
   this->onValueChanged = onValueChanged;
   this->m_Value = m_Value;

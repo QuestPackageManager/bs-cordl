@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\IVertexModifier.hpp"
+// IWYU pragma private; include "UnityEngine/UI/IVertexModifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class IVertexModifier;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::IVertexModifier*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::IVertexModifier*, "UnityEngine.UI", "IVertexModifier");
+// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+// [Obsolete("Use IMeshModifier instead", true)]
 // Dependencies
 namespace UnityEngine::UI {
 // Is value type: false
@@ -24,12 +26,14 @@ namespace UnityEngine::UI {
 class CORDL_TYPE IVertexModifier {
 public:
   // Declarations
-  /// @brief Method ModifyVertices, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("use IMeshModifier.ModifyMesh (VertexHelper verts)  instead", true)]
+  /// @brief Method ModifyVertices, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ModifyVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVertexModifier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVertexModifier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVertexModifier(IVertexModifier const&) = delete;
+  IVertexModifier(IVertexModifierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17514 };

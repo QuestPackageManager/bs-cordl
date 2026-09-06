@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Tsp\TimeStampResponseGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampResponseGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,13 +72,13 @@ protected:
   constexpr TimeStampResponseGenerator_FailInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator_FailInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator_FailInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeStampResponseGenerator_FailInfo(TimeStampResponseGenerator_FailInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator_FailInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator_FailInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampResponseGenerator_FailInfo(TimeStampResponseGenerator_FailInfo const&) = delete;
+  TimeStampResponseGenerator_FailInfo(TimeStampResponseGenerator_FailInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1767 };
@@ -204,13 +204,13 @@ protected:
   constexpr TimeStampResponseGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeStampResponseGenerator(TimeStampResponseGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampResponseGenerator(TimeStampResponseGenerator const&) = delete;
+  TimeStampResponseGenerator(TimeStampResponseGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1768 };

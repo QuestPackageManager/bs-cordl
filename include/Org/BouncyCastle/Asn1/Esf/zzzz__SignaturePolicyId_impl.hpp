@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\SignaturePolicyId.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/SignaturePolicyId.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__SignaturePolicyId_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherHashAlgAndValue_def.hpp"
@@ -202,7 +202,7 @@ inline void Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor(::Org::Bouncy
 }
 inline void Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier,
                                                                    ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
-                                                                   ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*> sigPolicyQualifiers) {
+                                                                   /* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*> sigPolicyQualifiers) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(),
                                               { ".ctor",
@@ -248,7 +248,7 @@ inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn
 }
 inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*
 Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
-                                                          ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*> sigPolicyQualifiers) {
+                                                          /* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*> sigPolicyQualifiers) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(sigPolicyIdentifier, sigPolicyHash, sigPolicyQualifiers));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier,

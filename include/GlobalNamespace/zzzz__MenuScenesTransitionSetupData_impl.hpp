@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MenuScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MenuScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuScenesTransitionSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MenuScenesTransitionSetupData.Init

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JValue.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JValue.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenType_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DynamicProxy_1_impl.hpp"
@@ -75,13 +75,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json:
     return ___internal_method;
   }
 };
-inline bool Newtonsoft::Json::Linq::JValue_JValueDynamicProxy::TryConvert(::Newtonsoft::Json::Linq::JValue* instance, ::System::Dynamic::ConvertBinder* binder, ::by_ref<::System::Object*> result) {
+inline bool Newtonsoft::Json::Linq::JValue_JValueDynamicProxy::TryConvert(::Newtonsoft::Json::Linq::JValue* instance, ::System::Dynamic::ConvertBinder* binder,
+                                                                          /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JValue_JValueDynamicProxy*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, result);
 }
 inline bool Newtonsoft::Json::Linq::JValue_JValueDynamicProxy::TryBinaryOperation(::Newtonsoft::Json::Linq::JValue* instance, ::System::Dynamic::BinaryOperationBinder* binder, ::System::Object* arg,
-                                                                                  ::by_ref<::System::Object*> result) {
+                                                                                  /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JValue_JValueDynamicProxy*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, arg, result);
@@ -954,7 +955,7 @@ constexpr void Newtonsoft::Json::Linq::JValue::__cordl_internal_set__value(::Sys
   this->____value = value;
 }
 inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Linq::JValue::WriteToAsync(::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
-                                                                                      ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+                                                                                      /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, writer, cancellationToken, converters);
 }
@@ -964,7 +965,7 @@ inline void Newtonsoft::Json::Linq::JValue::_ctor(::System::Object* value, ::New
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JTokenType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, type);
 }
-inline void Newtonsoft::Json::Linq::JValue::_ctor(::Newtonsoft::Json::Linq::JValue* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
+inline void Newtonsoft::Json::Linq::JValue::_ctor(::Newtonsoft::Json::Linq::JValue* other, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::Newtonsoft::Json::Linq::JValue*>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonCloneSettings*>() } })));
@@ -1072,16 +1073,16 @@ inline bool Newtonsoft::Json::Linq::JValue::Operation(::System::Linq::Expression
                                                                                                  ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, operation, objA, objB, result);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JValue::CloneToken(::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JValue::CloneToken(/* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(this, ___internal_method, settings);
 }
-inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::CreateComment(::StringW value) {
+inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::CreateComment(/* [Nullable(2)] */ ::StringW value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), { "CreateComment", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JValue*>(nullptr, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::CreateString(::StringW value) {
+inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::CreateString(/* [Nullable(2)] */ ::StringW value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), { "CreateString", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JValue*>(nullptr, ___internal_method, value);
@@ -1119,7 +1120,7 @@ inline void Newtonsoft::Json::Linq::JValue::set_Value(::System::Object* value) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), { "set_Value", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::Linq::JValue::WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+inline void Newtonsoft::Json::Linq::JValue::WriteTo(::Newtonsoft::Json::JsonWriter* writer, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), 24 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, converters);
 }
@@ -1154,7 +1155,7 @@ inline ::StringW Newtonsoft::Json::Linq::JValue::ToString(::StringW format) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), { "ToString", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, format);
 }
-inline ::StringW Newtonsoft::Json::Linq::JValue::ToString(::System::IFormatProvider* formatProvider) {
+inline ::StringW Newtonsoft::Json::Linq::JValue::ToString(/* [Nullable(2)] */ ::System::IFormatProvider* formatProvider) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), { "ToString", {}, { ::i2c::type_of<::System::IFormatProvider*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, formatProvider);
@@ -1253,7 +1254,7 @@ inline ::System::DateTime Newtonsoft::Json::Linq::JValue::System_IConvertible_To
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(), { "System.IConvertible.ToDateTime", {}, { ::i2c::type_of<::System::IFormatProvider*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::DateTime>(this, ___internal_method, provider);
 }
-inline ::System::Object* Newtonsoft::Json::Linq::JValue::System_IConvertible_ToType(::System::Type* conversionType, ::System::IFormatProvider* provider) {
+inline ::System::Object* Newtonsoft::Json::Linq::JValue::System_IConvertible_ToType(::System::Type* conversionType, /* [Nullable(2)] */ ::System::IFormatProvider* provider) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JValue*>(),
                                                            { "System.IConvertible.ToType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::IFormatProvider*>() } })));
@@ -1262,9 +1263,11 @@ inline ::System::Object* Newtonsoft::Json::Linq::JValue::System_IConvertible_ToT
 inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::New_ctor(::System::Object* value, ::Newtonsoft::Json::Linq::JTokenType type) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JValue*>(value, type));
 }
-inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::New_ctor(::Newtonsoft::Json::Linq::JValue* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
+/// @brief [NullableContext(1)]
+inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::New_ctor(::Newtonsoft::Json::Linq::JValue* other, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JValue*>(other, settings));
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::New_ctor(::Newtonsoft::Json::Linq::JValue* other) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JValue*>(other));
 }
@@ -1277,6 +1280,7 @@ inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::New_cto
 inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::New_ctor(char16_t value) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JValue*>(value));
 }
+/// @brief [CLSCompliant(false)]
 inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::New_ctor(uint64_t value) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JValue*>(value));
 }

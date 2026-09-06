@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\DateTimeOffsetAdapter.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/DateTimeOffsetAdapter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ struct DateTimeOffsetAdapter;
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::DateTimeOffsetAdapter);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::DateTimeOffsetAdapter, "System.Runtime.Serialization", "DateTimeOffsetAdapter");
+// [DataContract(Name = "DateTimeOffset", Namespace = "http://schemas.datacontract.org/2004/07/System")]
 // Dependencies System.DateTime
 namespace System::Runtime::Serialization {
 // Is value type: true
@@ -31,8 +32,10 @@ namespace System::Runtime::Serialization {
 struct CORDL_TYPE DateTimeOffsetAdapter {
 public:
   // Declarations
+  /// @brief [DataMember(Name = "OffsetMinutes", IsRequired = true)]
   __declspec(property(get = get_OffsetMinutes)) int16_t OffsetMinutes;
 
+  /// @brief [DataMember(Name = "DateTime", IsRequired = true)]
   __declspec(property(get = get_UtcDateTime)) ::System::DateTime UtcDateTime;
 
   /// @brief Method GetDateTimeOffset, addr 0x614cff4, size 0x210, virtual false, abstract: false, final false
@@ -57,7 +60,8 @@ public:
   // @brief default ctor
   constexpr DateTimeOffsetAdapter();
 
-  // Ctor Parameters [CppParam { name: "utcDateTime", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "offsetMinutes", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "utcDateTime", ty: "::System::DateTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "offsetMinutes", ty: "int16_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr DateTimeOffsetAdapter(::System::DateTime utcDateTime, int16_t offsetMinutes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JNINativeMethod.hpp"
+// IWYU pragma private; include "UnityEngine/JNINativeMethod.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct JNINativeMethod;
 // Write type traits
 MARK_VAL_T(::UnityEngine::JNINativeMethod);
 DEFINE_IL2CPP_CLASS(::UnityEngine::JNINativeMethod, "UnityEngine", "JNINativeMethod");
+// [NativeType((UnityEngine.Bindings.CodegenOptions)1, "ScriptingJNINativeMethod")]
 // Dependencies System.IntPtr
 namespace UnityEngine {
 // Is value type: true
@@ -25,8 +26,8 @@ public:
   // @brief default ctor
   constexpr JNINativeMethod();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "fnPtr", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "signature", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "fnPtr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr JNINativeMethod(::StringW name, ::StringW signature, ::System::IntPtr fnPtr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

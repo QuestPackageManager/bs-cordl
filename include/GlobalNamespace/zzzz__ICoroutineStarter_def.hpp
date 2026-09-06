@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ICoroutineStarter.hpp"
+// IWYU pragma private; include "GlobalNamespace/ICoroutineStarter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE ICoroutineStarter {
 public:
   // Declarations
-  /// @brief Method StartCoroutine, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartCoroutine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Coroutine* StartCoroutine(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method StopCoroutine, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StopCoroutine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StopCoroutine(::UnityEngine::Coroutine* routine);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICoroutineStarter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICoroutineStarter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICoroutineStarter(ICoroutineStarter const&) = delete;
+  ICoroutineStarter(ICoroutineStarterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20737 };

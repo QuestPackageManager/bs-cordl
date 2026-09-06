@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BurstSliderSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/BurstSliderSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,14 +60,14 @@ class CORDL_TYPE BurstSliderSpawner_ProcessNoteDataDelegate : public ::System::M
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x58cb4e8, size 0xb4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x58cb59c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result);
+  inline void EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x58cb4d4, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote);
+  inline void Invoke(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote);
 
   static inline ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -80,13 +80,13 @@ protected:
   constexpr BurstSliderSpawner_ProcessNoteDataDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner_ProcessNoteDataDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner_ProcessNoteDataDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstSliderSpawner_ProcessNoteDataDelegate(BurstSliderSpawner_ProcessNoteDataDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner_ProcessNoteDataDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner_ProcessNoteDataDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderSpawner_ProcessNoteDataDelegate(BurstSliderSpawner_ProcessNoteDataDelegate const&) = delete;
+  BurstSliderSpawner_ProcessNoteDataDelegate(BurstSliderSpawner_ProcessNoteDataDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5631 };
@@ -111,7 +111,7 @@ public:
                                  ::by_ref<::UnityEngine::Vector2> tangent);
 
   /// @brief Method ProcessSliderData, addr 0x58caf38, size 0x418, virtual false, abstract: false, final false
-  static inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, bool forceIsFirstNote,
+  static inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, bool forceIsFirstNote,
                                        ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider, ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* processNoteData);
 
 protected:
@@ -120,13 +120,13 @@ protected:
   constexpr BurstSliderSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstSliderSpawner(BurstSliderSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderSpawner(BurstSliderSpawner const&) = delete;
+  BurstSliderSpawner(BurstSliderSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5632 };

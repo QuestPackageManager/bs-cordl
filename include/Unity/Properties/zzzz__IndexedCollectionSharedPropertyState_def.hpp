@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IndexedCollectionSharedPropertyState.hpp"
+// IWYU pragma private; include "Unity/Properties/IndexedCollectionSharedPropertyState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr IndexedCollectionSharedPropertyState();
 
-  // Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "IsReadOnly", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "IsReadOnly", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr IndexedCollectionSharedPropertyState(int32_t Index, bool IsReadOnly) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

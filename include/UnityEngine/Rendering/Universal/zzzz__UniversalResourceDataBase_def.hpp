@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalResourceDataBase.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalResourceDataBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
   // @brief default ctor
   constexpr UniversalResourceDataBase_ActiveID();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UniversalResourceDataBase_ActiveID(int32_t value__) noexcept;
 
   /// @brief Field BackBuffer value: I32(1)
@@ -128,9 +128,11 @@ public:
   /// @brief Method .ctor, addr 0x6875a48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isAccessible, addr 0x6876d74, size 0x8, virtual false, abstract: false, final false
   inline bool get_isAccessible();
 
+  /// [CompilerGenerated]
   /// @brief Method set_isAccessible, addr 0x6876d7c, size 0x8, virtual false, abstract: false, final false
   inline void set_isAccessible(bool value);
 
@@ -140,17 +142,18 @@ protected:
   constexpr UniversalResourceDataBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalResourceDataBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalResourceDataBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalResourceDataBase(UniversalResourceDataBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalResourceDataBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalResourceDataBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalResourceDataBase(UniversalResourceDataBase const&) = delete;
+  UniversalResourceDataBase(UniversalResourceDataBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12759 };
 
+  /// [CompilerGenerated]
   /// @brief Field <isAccessible>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____isAccessible_k__BackingField;
 

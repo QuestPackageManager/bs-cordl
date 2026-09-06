@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpawnRotationChevronManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpawnRotationChevronManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationChevronManager_def.hpp"
@@ -104,8 +104,8 @@ inline void GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData::_c
                                                                                          { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, time, duration, rotation);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rotation", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData::SpawnRotationChevronManager_QueuedDirectionData(float_t time, float_t duration, int32_t rotation) noexcept {
   this->time = time;
   this->duration = duration;

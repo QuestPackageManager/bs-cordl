@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeHashMapDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeHashMapDisposeJob.hpp"
 #include "Unity/Collections/zzzz__NativeHashMapDispose_impl.hpp"
 #include "Unity/Collections/zzzz__NativeHashMapDisposeJob_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
@@ -27,7 +27,7 @@ constexpr Unity::Collections::NativeHashMapDisposeJob::operator ::Unity::Jobs::I
 constexpr ::Unity::Jobs::IJob* Unity::Collections::NativeHashMapDisposeJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeHashMapDispose", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeHashMapDispose", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeHashMapDisposeJob::NativeHashMapDisposeJob(::Unity::Collections::NativeHashMapDispose Data) noexcept {
   this->Data = Data;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerUtcTime.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerUtcTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE DerUtcTime : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
+  /// @brief [Obsolete("Use \'AdjustedTimeString\' property instead")]
   __declspec(property(get = get_AdjustedTime)) ::StringW AdjustedTime;
 
   __declspec(property(get = get_AdjustedTimeString)) ::StringW AdjustedTimeString;
@@ -112,13 +113,13 @@ protected:
   constexpr DerUtcTime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerUtcTime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerUtcTime", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerUtcTime(DerUtcTime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerUtcTime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerUtcTime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerUtcTime(DerUtcTime const&) = delete;
+  DerUtcTime(DerUtcTimeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 519 };

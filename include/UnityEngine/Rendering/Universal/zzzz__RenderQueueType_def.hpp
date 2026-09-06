@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderQueueType.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderQueueType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RenderQueueType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::RenderQueueType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::RenderQueueType, "UnityEngine.Rendering.Universal", "RenderQueueType");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.Universal", null, null)]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr RenderQueueType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderQueueType(int32_t value__) noexcept;
 
   /// @brief Field Opaque value: I32(0)

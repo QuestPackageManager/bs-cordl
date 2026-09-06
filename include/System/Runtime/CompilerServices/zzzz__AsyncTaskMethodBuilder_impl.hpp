@@ -1,6 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_impl.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
@@ -86,7 +89,9 @@ inline ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder System::Runti
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(nullptr, ___internal_method);
 }
-template <typename TStateMachine> inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder::Start(::by_ref<TStateMachine> stateMachine) {
+template <typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder::Start(::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(),
                                                                                               { "Start", { ::i2c::class_of<TStateMachine>() }, { ::i2c::type_of<::by_ref<TStateMachine>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TStateMachine>() })));
@@ -98,6 +103,8 @@ inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder::SetStateM
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 template <typename TAwaiter, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::INotifyCompletion*> &&
+           ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder::AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(),
                                                                                               { "AwaitOnCompleted",
@@ -107,6 +114,8 @@ inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder::AwaitOnCo
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, awaiter, stateMachine);
 }
 template <typename TAwaiter, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+           ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(),
                                                                                               { "AwaitUnsafeOnCompleted",
@@ -128,8 +137,8 @@ inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder::SetExcept
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(), { "SetException", {}, { ::i2c::type_of<::System::Exception*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, exception);
 }
-// Ctor Parameters [CppParam { name: "m_builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult>", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "m_builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult>", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder::AsyncTaskMethodBuilder(
     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult> m_builder) noexcept {
   this->m_builder = m_builder;

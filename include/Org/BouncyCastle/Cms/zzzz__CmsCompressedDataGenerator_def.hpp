@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsCompressedDataGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsCompressedDataGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ protected:
   constexpr CmsCompressedDataGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsCompressedDataGenerator(CmsCompressedDataGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsCompressedDataGenerator(CmsCompressedDataGenerator const&) = delete;
+  CmsCompressedDataGenerator(CmsCompressedDataGeneratorconst&) = delete;
 
   /// @brief Field ZLib offset 0xffffffff size 0x8
   static constexpr ::ConstString ZLib{ u"1.2.840.113549.1.9.16.3.8" };

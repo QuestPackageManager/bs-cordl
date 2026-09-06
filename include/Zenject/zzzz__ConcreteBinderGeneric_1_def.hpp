@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConcreteBinderGeneric_1.hpp"
+// IWYU pragma private; include "Zenject/ConcreteBinderGeneric_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ MARK_GEN_REF_T_PTR(::Zenject::ConcreteBinderGeneric_1);
 MARK_GEN_REF_T_PTR(::Zenject::ConcreteBinderGeneric_1___c__DisplayClass5_0);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::ConcreteBinderGeneric_1, "Zenject", "ConcreteBinderGeneric`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::ConcreteBinderGeneric_1___c__DisplayClass5_0, "Zenject", "ConcreteBinderGeneric`1/<>c__DisplayClass5_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -84,6 +85,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -96,13 +98,13 @@ protected:
   constexpr ConcreteBinderGeneric_1___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcreteBinderGeneric_1___c__DisplayClass5_0(ConcreteBinderGeneric_1___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteBinderGeneric_1___c__DisplayClass5_0(ConcreteBinderGeneric_1___c__DisplayClass5_0 const&) = delete;
+  ConcreteBinderGeneric_1___c__DisplayClass5_0(ConcreteBinderGeneric_1___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14023 };
@@ -114,6 +116,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies Zenject.FromBinderGeneric`1<TContract>
 namespace Zenject {
 // cpp template
@@ -128,10 +131,12 @@ public:
   static inline ::Zenject::ConcreteBinderGeneric_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
   /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TConcrete> inline ::Zenject::FromBinderGeneric_1<TConcrete>* To();
+  template <typename TConcrete>
+    requires(::cordl_internals::type_constraint<TConcrete, TContract>)
+  inline ::Zenject::FromBinderGeneric_1<TConcrete>* To();
 
   /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::FromBinderNonGeneric* To(::ArrayW<::System::Type*> concreteTypes);
+  inline ::Zenject::FromBinderNonGeneric* To(/* [ParamArray] */ ::ArrayW<::System::Type*> concreteTypes);
 
   /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes);
@@ -142,9 +147,11 @@ public:
   /// @brief Method ToSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderGeneric_1<TContract>* ToSelf();
 
+  /// [CompilerGenerated]
   /// @brief Method <ToSelf>b__1_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _ToSelf_b__1_0(::Zenject::DiContainer* container, ::System::Type* type);
 
+  /// [CompilerGenerated]
   /// @brief Method <To>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _To_b__5_0(::System::Type* concreteType);
 
@@ -157,13 +164,13 @@ protected:
   constexpr ConcreteBinderGeneric_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcreteBinderGeneric_1(ConcreteBinderGeneric_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteBinderGeneric_1(ConcreteBinderGeneric_1 const&) = delete;
+  ConcreteBinderGeneric_1(ConcreteBinderGeneric_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14024 };

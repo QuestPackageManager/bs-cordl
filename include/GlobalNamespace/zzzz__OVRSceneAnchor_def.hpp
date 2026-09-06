@@ -1,14 +1,16 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneAnchor.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneAnchor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneAnchor)
@@ -37,7 +39,11 @@ class OVRSceneAnchor;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRSceneAnchor*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRSceneAnchor*, "", "OVRSceneAnchor");
-// Dependencies OVRAnchor, OVRPlugin::Posef, OVRSpace, System.Guid, System.Nullable`1<T>, UnityEngine.MonoBehaviour, UnityEngine.Quaternion
+// [DisallowMultipleComponent]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-scene-use-scene-anchors/#ovrsceneanchor")]
+// [Obsolete("OVRSceneManager and associated classes are deprecated (v65), please use MR Utility Kit instead (https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview)")]
+// [Feature((Meta.XR.Util.Feature)7)]
+// Dependencies IOVRSceneComponent, OVRAnchor, OVRPlugin::Posef, OVRSpace, System.Guid, System.Nullable`1<T>, UnityEngine.MonoBehaviour, UnityEngine.Object, UnityEngine.Quaternion
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRSceneAnchor
@@ -95,7 +101,9 @@ public:
   static inline void GetSceneAnchors(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* anchors);
 
   /// @brief Method GetSceneAnchorsOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void GetSceneAnchorsOfType(::System::Collections::Generic::List_1<T>* anchors);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline void GetSceneAnchorsOfType(::System::Collections::Generic::List_1<T>* anchors);
 
   /// @brief Method Initialize, addr 0x5ebfc48, size 0x3d0, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::OVRAnchor anchor);
@@ -115,7 +123,9 @@ public:
   inline void OnDestroy();
 
   /// @brief Method SyncComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SyncComponent(::GlobalNamespace::OVRPlugin_SpaceComponentType spaceComponentType);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRSceneComponent*>)
+  inline void SyncComponent(::GlobalNamespace::OVRPlugin_SpaceComponentType spaceComponentType);
 
   /// @brief Method TryUpdateTransform, addr 0x5ec0018, size 0x344, virtual false, abstract: false, final false
   inline bool TryUpdateTransform(bool useCache);
@@ -173,15 +183,19 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* getStaticF_SceneAnchorsList();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Anchor, addr 0x5ebfa60, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRAnchor get_Anchor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsTracked, addr 0x5ebfa88, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTracked();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Space, addr 0x5ebfa3c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSpace get_Space();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Uuid, addr 0x5ebfa4c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_Uuid();
 
@@ -193,15 +207,19 @@ public:
 
   static inline void setStaticF_SceneAnchorsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Anchor, addr 0x5ebfa74, size 0x14, virtual false, abstract: false, final false
   inline void set_Anchor(::GlobalNamespace::OVRAnchor value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsTracked, addr 0x5ebfa90, size 0x8, virtual false, abstract: false, final false
   inline void set_IsTracked(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Space, addr 0x5ebfa44, size 0x8, virtual false, abstract: false, final false
   inline void set_Space(::GlobalNamespace::OVRSpace value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Uuid, addr 0x5ebfa58, size 0x8, virtual false, abstract: false, final false
   inline void set_Uuid(::System::Guid value);
 
@@ -211,26 +229,30 @@ protected:
   constexpr OVRSceneAnchor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneAnchor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneAnchor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSceneAnchor(OVRSceneAnchor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneAnchor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneAnchor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneAnchor(OVRSceneAnchor const&) = delete;
+  OVRSceneAnchor(OVRSceneAnchorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7654 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Space>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRSpace ____Space_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Uuid>k__BackingField, offset: 0x28, size: 0x10, def value: None
   ::System::Guid ____Uuid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Anchor>k__BackingField, offset: 0x38, size: 0x18, def value: None
   ::GlobalNamespace::OVRAnchor ____Anchor_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsTracked>k__BackingField, offset: 0x50, size: 0x1, def value: None
   bool ____IsTracked_k__BackingField;
 

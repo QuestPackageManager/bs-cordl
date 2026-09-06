@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\NoopGameplayEventsDispatcher.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/NoopGameplayEventsDispatcher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__NoopGameplayEventsDispatcher_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__IBeatmapAttemptEventSender_def.hpp"

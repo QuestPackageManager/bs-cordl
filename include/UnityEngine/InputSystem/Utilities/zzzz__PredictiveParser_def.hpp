@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\PredictiveParser.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/PredictiveParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   // @brief default ctor
   constexpr PredictiveParser();
 
-  // Ctor Parameters [CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PredictiveParser(int32_t m_Position) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

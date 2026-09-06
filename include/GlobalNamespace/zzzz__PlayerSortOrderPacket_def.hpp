@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerSortOrderPacket.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerSortOrderPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
+class PacketPool_1;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
@@ -92,13 +94,13 @@ protected:
   constexpr PlayerSortOrderPacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSortOrderPacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSortOrderPacket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSortOrderPacket(PlayerSortOrderPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSortOrderPacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSortOrderPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSortOrderPacket(PlayerSortOrderPacket const&) = delete;
+  PlayerSortOrderPacket(PlayerSortOrderPacketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18129 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PlayerLoop\Update.hpp"
+// IWYU pragma private; include "UnityEngine/PlayerLoop/Update.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::Update_DirectorUpdate, "UnityEngi
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::Update_ScriptRunBehaviourUpdate, "UnityEngine.PlayerLoop", "Update/ScriptRunBehaviourUpdate");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::Update_ScriptRunDelayedDynamicFrameRate, "UnityEngine.PlayerLoop", "Update/ScriptRunDelayedDynamicFrameRate");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::Update_ScriptRunDelayedTasks, "UnityEngine.PlayerLoop", "Update/ScriptRunDelayedTasks");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -72,6 +73,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Update_ScriptRunBehaviourUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -100,6 +102,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Update_DirectorUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -128,6 +131,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Update_ScriptRunDelayedDynamicFrameRate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -156,6 +160,8 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Update_ScriptRunDelayedTasks) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true

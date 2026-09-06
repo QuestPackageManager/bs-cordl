@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\ReadState.hpp"
+// IWYU pragma private; include "System/Xml/ReadState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   // @brief default ctor
   constexpr ReadState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ReadState(int32_t value__) noexcept;
 
   /// @brief Field Closed value: I32(4)

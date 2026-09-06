@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeLightControllerSet.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeLightControllerSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,35 +138,42 @@ protected:
   constexpr CompositeLightControllerSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightControllerSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightControllerSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeLightControllerSet(CompositeLightControllerSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightControllerSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightControllerSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeLightControllerSet(CompositeLightControllerSet const&) = delete;
+  CompositeLightControllerSet(CompositeLightControllerSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5829 };
 
+  /// [SerializeField]
   /// @brief Field _modification, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::CompositeModification* ____modification;
 
+  /// [SerializeField]
   /// @brief Field _lightControllerData, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::CompositeLightControllerData* ____lightControllerData;
 
+  /// [SerializeField]
   /// @brief Field _lightGroup, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroup> ____lightGroup;
 
+  /// [SerializeField]
   /// @brief Field _displayName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____displayName;
 
+  /// [SerializeField]
   /// @brief Field _description, offset: 0x30, size: 0x8, def value: None
   ::StringW ____description;
 
+  /// [SerializeField]
   /// @brief Field _editorName, offset: 0x38, size: 0x8, def value: None
   ::StringW ____editorName;
 
+  /// [SerializeField]
   /// @brief Field _editorCategory, offset: 0x40, size: 0x8, def value: None
   ::StringW ____editorCategory;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnCollectionHeader.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnCollectionHeader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SortDirection_impl.hpp"
@@ -29,9 +29,9 @@
 #include "UnityEngine/UIElements/zzzz__SortDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "actualWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "width", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "visible", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "actualWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "width", ty: "::UnityEngine::UIElements::Length", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "visible", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Internal::ViewState_MultiColumnCollectionHeader_ColumnState::ViewState_MultiColumnCollectionHeader_ColumnState(int32_t index, ::StringW name, float_t actualWidth,
                                                                                                                                                     ::UnityEngine::UIElements::Length width,
                                                                                                                                                     bool visible) noexcept {
@@ -301,8 +301,8 @@ inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_Sorte
                                               { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::SortColumnDescription*>(), ::i2c::type_of<::UnityEngine::UIElements::SortDirection>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, desc, dir);
 }
-// Ctor Parameters [CppParam { name: "columnDesc", ty: "::UnityEngine::UIElements::SortColumnDescription*", modifiers: "", def_value: Some("{}") }, CppParam { name: "direction", ty:
-// "::UnityEngine::UIElements::SortDirection", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "columnDesc", ty: "::UnityEngine::UIElements::SortColumnDescription*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "direction", ty:
+// "::UnityEngine::UIElements::SortDirection", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_SortedColumnState::MultiColumnCollectionHeader_SortedColumnState(
     ::UnityEngine::UIElements::SortColumnDescription* columnDesc, ::UnityEngine::UIElements::SortDirection direction) noexcept {
   this->columnDesc = columnDesc;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlNodeList.hpp"
+// IWYU pragma private; include "System/Xml/XmlNodeList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class XmlNodeList;
 // Write type traits
 MARK_REF_T(::System::Xml::XmlNodeList*);
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlNodeList*, "System.Xml", "XmlNodeList");
+// [DefaultMember("ItemOf")]
 // Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
@@ -42,10 +43,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlNode* Item(int32_t index);
 
   static inline ::System::Xml::XmlNodeList* New_ctor();
@@ -59,7 +60,7 @@ public:
   /// @brief Method .ctor, addr 0x62baa44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
   /// @brief Method get_ItemOf, addr 0x62c8804, size 0xc, virtual true, abstract: false, final false
@@ -77,13 +78,13 @@ protected:
   constexpr XmlNodeList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlNodeList(XmlNodeList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlNodeList(XmlNodeList const&) = delete;
+  XmlNodeList(XmlNodeListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9403 };

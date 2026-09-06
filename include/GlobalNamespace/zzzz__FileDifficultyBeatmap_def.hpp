@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FileDifficultyBeatmap.hpp"
+// IWYU pragma private; include "GlobalNamespace/FileDifficultyBeatmap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class FileDifficultyBeatmap;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::FileDifficultyBeatmap*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FileDifficultyBeatmap*, "", "FileDifficultyBeatmap");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -29,12 +31,14 @@ public:
   /// @brief Field _lightshowPath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lightshowPath, put = __cordl_internal_set__lightshowPath)) ::StringW _lightshowPath;
 
+  /// [NullableContext(2)]
   /// @brief Method GetBeatmapString, addr 0x372a834, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetBeatmapString();
 
   /// @brief Method GetBeatmapStringAsync, addr 0x372a6ac, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync();
 
+  /// [NullableContext(2)]
   /// @brief Method GetLightshowString, addr 0x372a8b0, size 0x80, virtual false, abstract: false, final false
   inline ::StringW GetLightshowString();
 
@@ -64,13 +68,13 @@ protected:
   constexpr FileDifficultyBeatmap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileDifficultyBeatmap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileDifficultyBeatmap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileDifficultyBeatmap(FileDifficultyBeatmap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileDifficultyBeatmap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileDifficultyBeatmap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileDifficultyBeatmap(FileDifficultyBeatmap const&) = delete;
+  FileDifficultyBeatmap(FileDifficultyBeatmapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14993 };

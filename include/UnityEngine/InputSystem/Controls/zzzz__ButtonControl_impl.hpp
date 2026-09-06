@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\ButtonControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/ButtonControl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.get_needsToCheckFramePress

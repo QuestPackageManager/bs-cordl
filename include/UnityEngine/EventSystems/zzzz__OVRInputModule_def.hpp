@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\OVRInputModule.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/OVRInputModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,6 +86,7 @@ MARK_REF_T(::UnityEngine::EventSystems::OVRInputModule_InputSource*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::OVRInputModule_InputMode, "UnityEngine.EventSystems", "OVRInputModule/InputMode");
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::OVRInputModule_InputSource*, "UnityEngine.EventSystems", "OVRInputModule/InputSource");
+// [Obsolete("Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.", false)]
 // Dependencies
 namespace UnityEngine::EventSystems {
 // Is value type: true
@@ -115,7 +116,7 @@ public:
   // @brief default ctor
   constexpr OVRInputModule_InputMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInputModule_InputMode(int32_t value__) noexcept;
 
   /// @brief Field Buttons value: I32(1)
@@ -148,30 +149,30 @@ namespace UnityEngine::EventSystems {
 class CORDL_TYPE OVRInputModule_InputSource {
 public:
   // Declarations
-  /// @brief Method GetHand, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetHand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::OVRPlugin_Hand GetHand();
 
-  /// @brief Method GetPointerRayTransform, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetPointerRayTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Transform> GetPointerRayTransform();
 
-  /// @brief Method IsActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsActive();
 
-  /// @brief Method IsPressed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsPressed();
 
-  /// @brief Method IsReleased, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsReleased, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsReleased();
 
-  /// @brief Method IsValid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsValid();
 
-  /// @brief Method UpdatePointerRay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdatePointerRay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdatePointerRay(::GlobalNamespace::OVRInputRayData rayData);
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInputModule_InputSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInputModule_InputSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInputModule_InputSource(OVRInputModule_InputSource const&) = delete;
+  OVRInputModule_InputSource(OVRInputModule_InputSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8554 };
@@ -180,6 +181,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::EventSystems
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-isdk-input-processing/")]
 // Dependencies OVRInput::Button, UnityEngine.EventSystems.PointerInputModule, UnityEngine.KeyCode, UnityEngine.Vector2
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -226,6 +228,7 @@ public:
 
   __declspec(property(get = get_inputActionsPerSecond, put = set_inputActionsPerSecond)) float_t inputActionsPerSecond;
 
+  /// @brief [Obsolete("Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.", false)]
   __declspec(property(get = get_inputMode)) ::UnityEngine::EventSystems::OVRInputModule_InputMode inputMode;
 
   /// @brief Field joyPadClickButton, offset 0x78, size 0x4
@@ -578,6 +581,7 @@ public:
   /// @brief Method get_inputMode, addr 0x5e4a4f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::OVRInputModule_InputMode get_inputMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_instance, addr 0x5e4e6e0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::EventSystems::OVRInputModule> get_instance();
 
@@ -603,6 +607,7 @@ public:
   /// @brief Method set_inputActionsPerSecond, addr 0x5e4a518, size 0x8, virtual false, abstract: false, final false
   inline void set_inputActionsPerSecond(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_instance, addr 0x5e4e73c, size 0x60, virtual false, abstract: false, final false
   static inline void set_instance(::UnityEngine::EventSystems::OVRInputModule* value);
 
@@ -618,56 +623,72 @@ protected:
   constexpr OVRInputModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInputModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInputModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInputModule(OVRInputModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInputModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInputModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInputModule(OVRInputModule const&) = delete;
+  OVRInputModule(OVRInputModuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8555 };
 
+  /// [Tooltip("Object which points with Z axis. E.g. CentreEyeAnchor from OVRCameraRig")]
   /// @brief Field rayTransform, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___rayTransform;
 
   /// @brief Field m_Cursor, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRCursor> ___m_Cursor;
 
+  /// [Tooltip("Gamepad button to act as gaze click")]
   /// @brief Field joyPadClickButton, offset: 0x78, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_Button ___joyPadClickButton;
 
+  /// [Tooltip("Keyboard button to act as gaze click")]
   /// @brief Field gazeClickKey, offset: 0x7c, size: 0x4, def value: None
   ::UnityEngine::KeyCode ___gazeClickKey;
 
+  /// [Header("Physics")]
+  /// [Tooltip("Perform an sphere cast to determine correct depth for gaze pointer")]
   /// @brief Field performSphereCastForGazepointer, offset: 0x80, size: 0x1, def value: None
   bool ___performSphereCastForGazepointer;
 
+  /// [Header("Gamepad Stick Scroll")]
+  /// [Tooltip("Enable scrolling with the right stick on a gamepad")]
   /// @brief Field useRightStickScroll, offset: 0x81, size: 0x1, def value: None
   bool ___useRightStickScroll;
 
+  /// [Tooltip("Deadzone for right stick to prevent accidental scrolling")]
   /// @brief Field rightStickDeadZone, offset: 0x84, size: 0x4, def value: None
   float_t ___rightStickDeadZone;
 
+  /// [Header("Touchpad Swipe Scroll")]
+  /// [Tooltip("Enable scrolling by swiping the touchpad")]
   /// @brief Field useSwipeScroll, offset: 0x88, size: 0x1, def value: None
   bool ___useSwipeScroll;
 
+  /// [Tooltip("Minimum trackpad movement in pixels to start swiping")]
   /// @brief Field swipeDragThreshold, offset: 0x8c, size: 0x4, def value: None
   float_t ___swipeDragThreshold;
 
+  /// [Tooltip("Distance scrolled when swipe scroll occurs")]
   /// @brief Field swipeDragScale, offset: 0x90, size: 0x4, def value: None
   float_t ___swipeDragScale;
 
+  /// [Tooltip("Invert X axis on touchpad")]
   /// @brief Field InvertSwipeXAxis, offset: 0x94, size: 0x1, def value: None
   bool ___InvertSwipeXAxis;
 
   /// @brief Field activeGraphicRaycaster, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRRaycaster> ___activeGraphicRaycaster;
 
+  /// [Header("Dragging")]
+  /// [Tooltip("Minimum pointer movement in degrees to start dragging")]
   /// @brief Field angleDragThreshold, offset: 0xa0, size: 0x4, def value: None
   float_t ___angleDragThreshold;
 
+  /// [SerializeField]
   /// @brief Field m_SpherecastRadius, offset: 0xa4, size: 0x4, def value: None
   float_t ___m_SpherecastRadius;
 
@@ -683,21 +704,28 @@ public:
   /// @brief Field _objectsHitThisFrame, offset: 0xc0, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::GameObject>>* ____objectsHitThisFrame;
 
+  /// [Header("Standalone Input Module")]
+  /// [SerializeField]
   /// @brief Field m_HorizontalAxis, offset: 0xc8, size: 0x8, def value: None
   ::StringW ___m_HorizontalAxis;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalAxis, offset: 0xd0, size: 0x8, def value: None
   ::StringW ___m_VerticalAxis;
 
+  /// [SerializeField]
   /// @brief Field m_SubmitButton, offset: 0xd8, size: 0x8, def value: None
   ::StringW ___m_SubmitButton;
 
+  /// [SerializeField]
   /// @brief Field m_CancelButton, offset: 0xe0, size: 0x8, def value: None
   ::StringW ___m_CancelButton;
 
+  /// [SerializeField]
   /// @brief Field m_InputActionsPerSecond, offset: 0xe8, size: 0x4, def value: None
   float_t ___m_InputActionsPerSecond;
 
+  /// [SerializeField]
   /// @brief Field m_AllowActivationOnMobileDevice, offset: 0xec, size: 0x1, def value: None
   bool ___m_AllowActivationOnMobileDevice;
 

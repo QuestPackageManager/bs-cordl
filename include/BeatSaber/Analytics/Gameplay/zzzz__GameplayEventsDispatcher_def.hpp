@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\GameplayEventsDispatcher.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/GameplayEventsDispatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*,
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17, "BeatSaber.Analytics.Gameplay", "GameplayEventsDispatcher/<InitializeAsync>d__17");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18, "BeatSaber.Analytics.Gameplay",
                     "GameplayEventsDispatcher/<InitializeInternalAsync>d__18");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: true
@@ -74,8 +75,9 @@ public:
   /// @brief Method MoveNext, addr 0x326341c, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3263608, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -84,9 +86,10 @@ public:
   // @brief default ctor
   constexpr GameplayEventsDispatcher__InitializeAsync_d__17();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr GameplayEventsDispatcher__InitializeAsync_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                             ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -102,6 +105,7 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* __4__this;
 
@@ -122,6 +126,7 @@ static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatche
 static_assert(sizeof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Analytics::Gameplay
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: true
@@ -135,8 +140,9 @@ public:
   /// @brief Method MoveNext, addr 0x3263674, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3263b60, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -145,10 +151,10 @@ public:
   // @brief default ctor
   constexpr GameplayEventsDispatcher__InitializeInternalAsync_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr GameplayEventsDispatcher__InitializeInternalAsync_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                     ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
@@ -165,12 +171,14 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* __4__this;
 
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
@@ -190,6 +198,8 @@ static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatche
 static_assert(sizeof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18) == 0x38, "Size mismatch!");
 
 } // namespace BeatSaber::Analytics::Gameplay
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: false
@@ -237,9 +247,11 @@ public:
   /// @brief Method Initialize, addr 0x3263294, size 0x24, virtual true, abstract: false, final true
   inline void Initialize();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher::<InitializeAsync>d__17))]
   /// @brief Method InitializeAsync, addr 0x32632b8, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher::<InitializeInternalAsync>d__18))]
   /// @brief Method InitializeInternalAsync, addr 0x3263368, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeInternalAsync();
 
@@ -285,12 +297,15 @@ public:
   /// @brief Method .ctor, addr 0x3263190, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlags, ::OSCE::Analytics::AnalyticsManager* analyticsManager, uint64_t appId);
 
+  /// [CompilerGenerated]
   /// @brief Method get_beatmapAttempt, addr 0x3263160, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* get_beatmapAttempt();
 
+  /// [CompilerGenerated]
   /// @brief Method get_blockLevel, addr 0x3263170, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* get_blockLevel();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hmdSession, addr 0x3263180, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* get_hmdSession();
 
@@ -300,12 +315,15 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_beatmapAttempt, addr 0x3263168, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapAttempt(::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_blockLevel, addr 0x3263178, size 0x8, virtual false, abstract: false, final false
   inline void set_blockLevel(::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hmdSession, addr 0x3263188, size 0x8, virtual false, abstract: false, final false
   inline void set_hmdSession(::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* value);
 
@@ -315,23 +333,26 @@ protected:
   constexpr GameplayEventsDispatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayEventsDispatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayEventsDispatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayEventsDispatcher(GameplayEventsDispatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayEventsDispatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayEventsDispatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayEventsDispatcher(GameplayEventsDispatcher const&) = delete;
+  GameplayEventsDispatcher(GameplayEventsDispatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22258 };
 
+  /// [CompilerGenerated]
   /// @brief Field <beatmapAttempt>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* ____beatmapAttempt_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <blockLevel>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* ____blockLevel_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hmdSession>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* ____hmdSession_k__BackingField;
 
@@ -341,6 +362,7 @@ public:
   /// @brief Field _analyticsManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::OSCE::Analytics::AnalyticsManager> ____analyticsManager;
 
+  /// [Nullable(2)]
   /// @brief Field _initializationTask, offset: 0x38, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____initializationTask;
 

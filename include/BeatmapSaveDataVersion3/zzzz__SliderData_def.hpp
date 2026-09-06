@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\SliderData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/SliderData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,26 +104,30 @@ protected:
   constexpr SliderData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderData(SliderData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderData(SliderData const&) = delete;
+  SliderData(SliderDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15377 };
 
+  /// [SerializeField]
   /// @brief Field mu, offset: 0x30, size: 0x4, def value: None
   float_t ___mu;
 
+  /// [SerializeField]
   /// @brief Field tmu, offset: 0x34, size: 0x4, def value: None
   float_t ___tmu;
 
+  /// [SerializeField]
   /// @brief Field tc, offset: 0x38, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteCutDirection ___tc;
 
+  /// [SerializeField]
   /// @brief Field m, offset: 0x3c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::SliderMidAnchorMode ___m;
 

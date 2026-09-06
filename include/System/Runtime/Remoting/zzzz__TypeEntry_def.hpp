@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\TypeEntry.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/TypeEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class TypeEntry;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::TypeEntry*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::TypeEntry*, "System.Runtime.Remoting", "TypeEntry");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
@@ -65,13 +66,13 @@ protected:
   constexpr TypeEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeEntry(TypeEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeEntry(TypeEntry const&) = delete;
+  TypeEntry(TypeEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3095 };

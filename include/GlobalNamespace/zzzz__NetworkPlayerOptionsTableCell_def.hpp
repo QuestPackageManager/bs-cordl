@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkPlayerOptionsTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkPlayerOptionsTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,20 +104,22 @@ protected:
   constexpr NetworkPlayerOptionsTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerOptionsTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerOptionsTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkPlayerOptionsTableCell(NetworkPlayerOptionsTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerOptionsTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerOptionsTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerOptionsTableCell(NetworkPlayerOptionsTableCell const&) = delete;
+  NetworkPlayerOptionsTableCell(NetworkPlayerOptionsTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6391 };
 
+  /// [SerializeField]
   /// @brief Field _buttons, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Button>> ____buttons;
 
+  /// [SerializeField]
   /// @brief Field _buttonTexts, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>> ____buttonTexts;
 

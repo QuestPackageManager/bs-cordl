@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IncDecColorController.hpp"
+// IWYU pragma private; include "GlobalNamespace/IncDecColorController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__IncDecColorController_def.hpp"
 #include "GlobalNamespace/zzzz__ColorStepValuePicker_def.hpp"

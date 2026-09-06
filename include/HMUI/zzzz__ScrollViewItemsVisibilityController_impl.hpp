@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ScrollViewItemsVisibilityController.hpp"
+// IWYU pragma private; include "HMUI/ScrollViewItemsVisibilityController.hpp"
 #include "HMUI/zzzz__ScrollViewItemForVisibilityController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Tuple_2_impl.hpp"

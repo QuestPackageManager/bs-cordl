@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\BurstLike.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/BurstLike.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BurstLike)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct BurstLike_SharedStatic_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct BurstLike_SharedStatic_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 class BurstLike_SharedStatic;
@@ -21,7 +23,9 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class BurstLike_SharedStatic;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct BurstLike_SharedStatic_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct BurstLike_SharedStatic_1;
 }
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::BurstLike*);
@@ -30,10 +34,13 @@ MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1)
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::BurstLike*, "Unity.Collections.LowLevel.Unsafe", "BurstLike");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic*, "Unity.Collections.LowLevel.Unsafe", "BurstLike/SharedStatic");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1, "Unity.Collections.LowLevel.Unsafe", "BurstLike/SharedStatic`1");
+// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.BurstLike/SharedStatic`1<T>
 struct CORDL_TYPE BurstLike_SharedStatic_1 {
@@ -54,7 +61,7 @@ public:
   // @brief default ctor
   constexpr BurstLike_SharedStatic_1();
 
-  // Ctor Parameters [CppParam { name: "_buffer", ty: "void*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_buffer", ty: "void*", modifiers: "", def_value: None, comment: None }]
   constexpr BurstLike_SharedStatic_1(void* _buffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -86,13 +93,13 @@ protected:
   constexpr BurstLike_SharedStatic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstLike_SharedStatic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstLike_SharedStatic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstLike_SharedStatic(BurstLike_SharedStatic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstLike_SharedStatic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstLike_SharedStatic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstLike_SharedStatic(BurstLike_SharedStatic const&) = delete;
+  BurstLike_SharedStatic(BurstLike_SharedStaticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10006 };
@@ -103,6 +110,9 @@ public:
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
+// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
+// [NativeHeader("Runtime/Export/BurstLike/BurstLike.bindings.h")]
+// [StaticAccessor("BurstLike", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -112,7 +122,9 @@ public:
   // Declarations
   using SharedStatic = ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic;
 
-  template <typename T> using SharedStatic_1 = ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using SharedStatic_1 = ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>;
 
 protected:
   // Ctor Parameters []
@@ -120,13 +132,13 @@ protected:
   constexpr BurstLike();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstLike", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstLike", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstLike(BurstLike&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstLike", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstLike", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstLike(BurstLike const&) = delete;
+  BurstLike(BurstLikeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10007 };

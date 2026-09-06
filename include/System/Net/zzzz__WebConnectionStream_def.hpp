@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\WebConnectionStream.hpp"
+// IWYU pragma private; include "System/Net/WebConnectionStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,7 +107,7 @@ public:
   /// @brief Method Close, addr 0x6345a34, size 0x14, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Close_internal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Close_internal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Close_internal(::by_ref<bool> disposed);
 
   /// @brief Method EndRead, addr 0x6345344, size 0x130, virtual true, abstract: false, final false
@@ -139,7 +139,7 @@ public:
   /// @brief Method SetLength, addr 0x6345a94, size 0x4c, virtual true, abstract: false, final false
   inline void SetLength(int64_t a);
 
-  /// @brief Method TryReadFromBufferedContent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryReadFromBufferedContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryReadFromBufferedContent(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::by_ref<int32_t> result);
 
   /// @brief Method Write, addr 0x6345730, size 0x1f0, virtual true, abstract: false, final false
@@ -202,12 +202,14 @@ public:
   /// @brief Method get_CanTimeout, addr 0x6344bc4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanTimeout();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Connection, addr 0x6344b9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebConnection* get_Connection();
 
   /// @brief Method get_Length, addr 0x6345ae8, size 0x4c, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Operation, addr 0x6344ba4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebOperation* get_Operation();
 
@@ -217,6 +219,7 @@ public:
   /// @brief Method get_ReadTimeout, addr 0x6344bcc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ReadTimeout();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Request, addr 0x6344b94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
@@ -241,13 +244,13 @@ protected:
   constexpr WebConnectionStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebConnectionStream(WebConnectionStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebConnectionStream(WebConnectionStream const&) = delete;
+  WebConnectionStream(WebConnectionStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11644 };
@@ -267,12 +270,15 @@ public:
   /// @brief Field write_timeout, offset: 0x3c, size: 0x4, def value: None
   int32_t ___write_timeout;
 
+  /// [CompilerGenerated]
   /// @brief Field <Request>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Net::HttpWebRequest* ____Request_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Connection>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Net::WebConnection* ____Connection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Operation>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::System::Net::WebOperation* ____Operation_k__BackingField;
 

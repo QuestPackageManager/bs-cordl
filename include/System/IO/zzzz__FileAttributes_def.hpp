@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\FileAttributes.hpp"
+// IWYU pragma private; include "System/IO/FileAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FileAttributes;
 // Write type traits
 MARK_VAL_T(::System::IO::FileAttributes);
 DEFINE_IL2CPP_CLASS(::System::IO::FileAttributes, "System.IO", "FileAttributes");
+// [Flags]
 // Dependencies
 namespace System::IO {
 // Is value type: true
@@ -56,7 +57,7 @@ public:
   // @brief default ctor
   constexpr FileAttributes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FileAttributes(int32_t value__) noexcept;
 
   /// @brief Field Archive value: I32(32)

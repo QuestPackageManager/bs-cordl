@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerVRControllersManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerVRControllersManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class PlayerVRControllersManager;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PlayerVRControllersManager*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerVRControllersManager*, "", "PlayerVRControllersManager");
+// [AddComponentMenu("Beat Saber/Gameplay/PlayerVRControllersManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -67,20 +68,22 @@ protected:
   constexpr PlayerVRControllersManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerVRControllersManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerVRControllersManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerVRControllersManager(PlayerVRControllersManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerVRControllersManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerVRControllersManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerVRControllersManager(PlayerVRControllersManager const&) = delete;
+  PlayerVRControllersManager(PlayerVRControllersManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6213 };
 
+  /// [SerializeField]
   /// @brief Field _leftHandVRController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____leftHandVRController;
 
+  /// [SerializeField]
   /// @brief Field _rightHandVRController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____rightHandVRController;
 

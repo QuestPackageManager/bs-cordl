@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\DecimalConstantAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/DecimalConstantAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class DecimalConstantAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::DecimalConstantAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::DecimalConstantAttribute*, "System.Runtime.CompilerServices", "DecimalConstantAttribute");
+// [AttributeUsage((System.AttributeTargets)2304, Inherited = false)]
 // Dependencies System.Attribute, System.Decimal
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -29,6 +30,7 @@ public:
   /// @brief Field _dec, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get__dec, put = __cordl_internal_set__dec)) ::System::Decimal _dec;
 
+  /// @brief [CLSCompliant(false)]
   static inline ::System::Runtime::CompilerServices::DecimalConstantAttribute* New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 
   constexpr ::System::Decimal const& __cordl_internal_get__dec() const;
@@ -37,6 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__dec(::System::Decimal value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5b70368, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 
@@ -49,13 +52,13 @@ protected:
   constexpr DecimalConstantAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecimalConstantAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecimalConstantAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecimalConstantAttribute(DecimalConstantAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecimalConstantAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecimalConstantAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecimalConstantAttribute(DecimalConstantAttribute const&) = delete;
+  DecimalConstantAttribute(DecimalConstantAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3382 };

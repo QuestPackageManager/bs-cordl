@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\KdTree\HyperRect_1.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/HyperRect_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,8 @@ public:
   // @brief default ctor
   constexpr HyperRect_1();
 
-  // Ctor Parameters [CppParam { name: "minPoint", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "maxPoint", ty: "::ArrayW<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "minPoint", ty: "::ArrayW<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxPoint", ty: "::ArrayW<T>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr HyperRect_1(::ArrayW<T> minPoint, ::ArrayW<T> maxPoint) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

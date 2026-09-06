@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ListViewDragger.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ListViewDragger.hpp"
 #include "UnityEngine/UIElements/zzzz__DragAndDropPosition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DragEventsProcessor_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
@@ -82,9 +82,10 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::ListViewDragger_Drag
 UnityEngine::UIElements::ListViewDragger_DragPosition::i___System__IEquatable_1___UnityEngine__UIElements__ListViewDragger_DragPosition_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::ListViewDragger_DragPosition>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "insertAtIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "childIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "recycledItem", ty: "::UnityEngine::UIElements::ReusableCollectionItem*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "dropPosition", ty: "::UnityEngine::UIElements::DragAndDropPosition", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "insertAtIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "childIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "recycledItem", ty:
+// "::UnityEngine::UIElements::ReusableCollectionItem*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dropPosition", ty: "::UnityEngine::UIElements::DragAndDropPosition",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::ListViewDragger_DragPosition::ListViewDragger_DragPosition(int32_t insertAtIndex, int32_t parentId, int32_t childIndex,
                                                                                                 ::UnityEngine::UIElements::ReusableCollectionItem* recycledItem,
                                                                                                 ::UnityEngine::UIElements::DragAndDropPosition dropPosition) noexcept {

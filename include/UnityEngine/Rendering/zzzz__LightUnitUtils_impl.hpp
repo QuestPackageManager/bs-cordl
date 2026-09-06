@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LightUnitUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LightUnitUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LightUnitUtils_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LightUnit_def.hpp"

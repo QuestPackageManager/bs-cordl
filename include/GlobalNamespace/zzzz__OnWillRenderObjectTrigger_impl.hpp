@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OnWillRenderObjectTrigger.hpp"
+// IWYU pragma private; include "GlobalNamespace/OnWillRenderObjectTrigger.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OnWillRenderObjectTrigger_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"

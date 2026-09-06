@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjective.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjective.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   // @brief default ctor
   constexpr MissionObjective_ReferenceValueComparisonType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MissionObjective_ReferenceValueComparisonType(int32_t value__) noexcept;
 
   /// @brief Field Equal value: I32(1)
@@ -167,23 +167,26 @@ protected:
   constexpr MissionObjective();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjective", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjective", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjective(MissionObjective&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjective", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjective", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjective(MissionObjective const&) = delete;
+  MissionObjective(MissionObjectiveconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15263 };
 
+  /// [SerializeField]
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> ____type;
 
+  /// [SerializeField]
   /// @brief Field _referenceValueComparisonType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType ____referenceValueComparisonType;
 
+  /// [SerializeField]
   /// @brief Field _referenceValue, offset: 0x1c, size: 0x4, def value: None
   int32_t ____referenceValue;
 

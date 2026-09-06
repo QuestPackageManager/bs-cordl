@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AudioReverbZone.hpp"
+// IWYU pragma private; include "UnityEngine/AudioReverbZone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ class AudioReverbZone;
 // Write type traits
 MARK_REF_T(::UnityEngine::AudioReverbZone*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AudioReverbZone*, "UnityEngine", "AudioReverbZone");
+// [NativeHeader("Modules/Audio/Public/AudioReverbZone.h")]
+// [RequireComponent(typeof(UnityEngine.Transform))]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -59,6 +61,7 @@ public:
 
   __declspec(property(get = get_roomLF, put = set_roomLF)) int32_t roomLF;
 
+  /// @brief [Obsolete("Warning! roomRolloffFactor is no longer supported.")]
   __declspec(property(get = get_roomRolloffFactor, put = set_roomRolloffFactor)) float_t roomRolloffFactor;
 
   static inline ::UnityEngine::AudioReverbZone* New_ctor();
@@ -270,13 +273,13 @@ protected:
   constexpr AudioReverbZone();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioReverbZone", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioReverbZone", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioReverbZone(AudioReverbZone&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioReverbZone", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioReverbZone", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioReverbZone(AudioReverbZone const&) = delete;
+  AudioReverbZone(AudioReverbZoneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21074 };

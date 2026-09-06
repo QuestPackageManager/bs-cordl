@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Installer_3.hpp"
+// IWYU pragma private; include "Zenject/Installer_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ public:
 
   static inline ::Zenject::Installer_3<TParam1, TParam2, TDerived>* New_ctor();
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -44,13 +45,13 @@ protected:
   constexpr Installer_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Installer_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Installer_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Installer_3(Installer_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Installer_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Installer_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Installer_3(Installer_3 const&) = delete;
+  Installer_3(Installer_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14487 };

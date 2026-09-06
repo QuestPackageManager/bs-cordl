@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspChildControlTypeAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspChildControlTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AspChildControlTypeAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -94,7 +94,7 @@ constexpr void JetBrains::Annotations::AspChildControlTypeAttribute::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ControlType_k__BackingField = value;
 }
-inline void JetBrains::Annotations::AspChildControlTypeAttribute::_ctor(::StringW tagName, ::System::Type* controlType) {
+inline void JetBrains::Annotations::AspChildControlTypeAttribute::_ctor(/* [NotNull] */ ::StringW tagName, /* [NotNull] */ ::System::Type* controlType) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspChildControlTypeAttribute*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tagName, controlType);
@@ -117,7 +117,8 @@ inline void JetBrains::Annotations::AspChildControlTypeAttribute::set_ControlTyp
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspChildControlTypeAttribute*>(), { "set_ControlType", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::JetBrains::Annotations::AspChildControlTypeAttribute* JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor(::StringW tagName, ::System::Type* controlType) {
+inline ::JetBrains::Annotations::AspChildControlTypeAttribute* JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor(/* [NotNull] */ ::StringW tagName,
+                                                                                                                              /* [NotNull] */ ::System::Type* controlType) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::AspChildControlTypeAttribute*>(tagName, controlType));
 }
 // Ctor Parameters []

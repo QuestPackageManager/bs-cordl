@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimatorOverrideController.hpp"
+// IWYU pragma private; include "UnityEngine/AnimatorOverrideController.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeAnimatorController_impl.hpp"
 #include "UnityEngine/zzzz__AnimatorOverrideController_def.hpp"
@@ -205,7 +205,7 @@ inline void UnityEngine::AnimatorOverrideController::_ctor(::UnityEngine::Runtim
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimatorOverrideController*>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::RuntimeAnimatorController*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, controller);
 }
-inline void UnityEngine::AnimatorOverrideController::Internal_Create(::UnityEngine::AnimatorOverrideController* self, ::UnityEngine::RuntimeAnimatorController* controller) {
+inline void UnityEngine::AnimatorOverrideController::Internal_Create(/* [Writable] */ ::UnityEngine::AnimatorOverrideController* self, ::UnityEngine::RuntimeAnimatorController* controller) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimatorOverrideController*>(),
@@ -239,7 +239,7 @@ inline void UnityEngine::AnimatorOverrideController::OnInvalidateOverrideControl
                                                                                          { "OnInvalidateOverrideController", {}, { ::i2c::type_of<::UnityEngine::AnimatorOverrideController*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, controller);
 }
-inline void UnityEngine::AnimatorOverrideController::Internal_Create_Injected(::UnityEngine::AnimatorOverrideController* self, ::System::IntPtr controller) {
+inline void UnityEngine::AnimatorOverrideController::Internal_Create_Injected(/* [Writable] */ ::UnityEngine::AnimatorOverrideController* self, ::System::IntPtr controller) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimatorOverrideController*>(),
                                                            { "Internal_Create_Injected", {}, { ::i2c::type_of<::UnityEngine::AnimatorOverrideController*>(), ::i2c::type_of<::System::IntPtr>() } })));

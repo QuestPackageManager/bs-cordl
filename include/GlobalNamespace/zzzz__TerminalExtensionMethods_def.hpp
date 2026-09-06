@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TerminalExtensionMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace/TerminalExtensionMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class TerminalExtensionMethods;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TerminalExtensionMethods*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TerminalExtensionMethods*, "", "TerminalExtensionMethods");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -36,15 +37,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE TerminalExtensionMethods : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AddArguments, addr 0x32eb860, size 0x16c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CommandNode* AddArguments(::GlobalNamespace::CommandNode* node, ::ArrayW<::GlobalNamespace::ArgumentBase*> cmdArguments);
 
+  /// [Extension]
   /// @brief Method ConvertToCommandNode, addr 0x32eb7d8, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CommandNode* ConvertToCommandNode(::GlobalNamespace::ConsoleCommandBase* command);
 
+  /// [Extension]
   /// @brief Method Duplicate, addr 0x32eb498, size 0x340, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CommandNode* Duplicate(::GlobalNamespace::CommandNode* node);
 
+  /// [Extension]
   /// @brief Method ToConsoleMessage, addr 0x32e28b4, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ConsoleMessage ToConsoleMessage(::StringW message, ::UnityEngine::LogType type);
 
@@ -54,13 +59,13 @@ protected:
   constexpr TerminalExtensionMethods();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerminalExtensionMethods", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerminalExtensionMethods", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerminalExtensionMethods(TerminalExtensionMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerminalExtensionMethods", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerminalExtensionMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerminalExtensionMethods(TerminalExtensionMethods const&) = delete;
+  TerminalExtensionMethods(TerminalExtensionMethodsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19427 };

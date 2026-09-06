@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleVariable.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleVariable.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueHandle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
@@ -46,8 +46,9 @@ inline int32_t UnityEngine::UIElements::StyleVariable::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleVariable>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "handles", ty: "::ArrayW<::UnityEngine::UIElements::StyleValueHandle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "handles", ty: "::ArrayW<::UnityEngine::UIElements::StyleValueHandle>", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::UIElements::StyleVariable::StyleVariable(::StringW name, ::UnityW<::UnityEngine::UIElements::StyleSheet> sheet,
                                                                   ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles) noexcept {
   this->name = name;

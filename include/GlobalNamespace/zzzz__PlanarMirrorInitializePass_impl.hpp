@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlanarMirrorInitializePass.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlanarMirrorInitializePass.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "GlobalNamespace/zzzz__PlanarMirrorInitializePass_def.hpp"

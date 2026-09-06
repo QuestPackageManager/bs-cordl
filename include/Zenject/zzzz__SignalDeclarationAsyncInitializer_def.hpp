@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalDeclarationAsyncInitializer.hpp"
+// IWYU pragma private; include "Zenject/SignalDeclarationAsyncInitializer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,8 +53,9 @@ public:
   /// @brief Method Initialize, addr 0x6e49e6c, size 0x118, virtual true, abstract: false, final true
   inline void Initialize();
 
-  static inline ::Zenject::SignalDeclarationAsyncInitializer* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
-                                                                       ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
+  static inline ::Zenject::SignalDeclarationAsyncInitializer*
+  New_ctor(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
+           /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* const& __cordl_internal_get__declarations() const;
 
@@ -71,11 +72,13 @@ public:
   /// @brief Method __zenCreate, addr 0x6e49f84, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4a094, size 0x2e0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x6e49e64, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations, ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
+  inline void _ctor(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
+                    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
 
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
@@ -86,13 +89,13 @@ protected:
   constexpr SignalDeclarationAsyncInitializer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationAsyncInitializer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationAsyncInitializer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalDeclarationAsyncInitializer(SignalDeclarationAsyncInitializer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationAsyncInitializer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationAsyncInitializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalDeclarationAsyncInitializer(SignalDeclarationAsyncInitializer const&) = delete;
+  SignalDeclarationAsyncInitializer(SignalDeclarationAsyncInitializerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14021 };

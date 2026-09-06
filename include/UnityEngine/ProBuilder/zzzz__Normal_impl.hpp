@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Normal.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Normal.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Normal_def.hpp"
@@ -209,8 +209,9 @@ constexpr UnityEngine::ProBuilder::Normal::operator ::System::IEquatable_1<::Uni
 constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>* UnityEngine::ProBuilder::Normal::i___System__IEquatable_1___UnityEngine__ProBuilder__Normal_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_normal_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "_tangent_k__BackingField", ty:
-// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bitangent_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_normal_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_tangent_k__BackingField", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_bitangent_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::ProBuilder::Normal::Normal(::UnityEngine::Vector3 _normal_k__BackingField, ::UnityEngine::Vector4 _tangent_k__BackingField,
                                                     ::UnityEngine::Vector3 _bitangent_k__BackingField) noexcept {
   this->_normal_k__BackingField = _normal_k__BackingField;

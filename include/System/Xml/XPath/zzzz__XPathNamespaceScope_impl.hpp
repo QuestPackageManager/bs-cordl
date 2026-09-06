@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XPath\XPathNamespaceScope.hpp"
+// IWYU pragma private; include "System/Xml/XPath/XPathNamespaceScope.hpp"
 #include "System/Xml/XPath/zzzz__XPathNamespaceScope_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XPath::XPathNamespaceScope::XPathNamespaceScope(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\CullingMode.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/CullingMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CullingMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::CullingMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::CullingMode, "UnityEngine.ProBuilder", "CullingMode");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr CullingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CullingMode(int32_t value__) noexcept;
 
   /// @brief Field Back value: I32(1)

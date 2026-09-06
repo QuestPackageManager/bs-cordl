@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RelativeScoreAndImmediateRankCounter.hpp"
+// IWYU pragma private; include "GlobalNamespace/RelativeScoreAndImmediateRankCounter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class RelativeScoreAndImmediateRankCounter;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::RelativeScoreAndImmediateRankCounter*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RelativeScoreAndImmediateRankCounter*, "", "RelativeScoreAndImmediateRankCounter");
+// [AddComponentMenu("Beat Saber/Gameplay/RelativeScoreAndImmediateRankCounter")]
 // Dependencies RankModel::Rank, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -115,21 +116,27 @@ public:
   /// @brief Method .ctor, addr 0x59ad4bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x59ac470, size 0xac, virtual false, abstract: false, final false
   inline void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_immediateRank, addr 0x59ad030, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RankModel_Rank get_immediateRank();
 
+  /// [CompilerGenerated]
   /// @brief Method get_relativeScore, addr 0x59ad020, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeScore();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent, addr 0x59acf74, size 0xac, virtual false, abstract: false, final false
   inline void remove_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_immediateRank, addr 0x59ad038, size 0x8, virtual false, abstract: false, final false
   inline void set_immediateRank(::GlobalNamespace::RankModel_Rank value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_relativeScore, addr 0x59ad028, size 0x8, virtual false, abstract: false, final false
   inline void set_relativeScore(float_t value);
 
@@ -139,32 +146,38 @@ protected:
   constexpr RelativeScoreAndImmediateRankCounter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RelativeScoreAndImmediateRankCounter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RelativeScoreAndImmediateRankCounter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RelativeScoreAndImmediateRankCounter(RelativeScoreAndImmediateRankCounter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RelativeScoreAndImmediateRankCounter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RelativeScoreAndImmediateRankCounter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RelativeScoreAndImmediateRankCounter(RelativeScoreAndImmediateRankCounter const&) = delete;
+  RelativeScoreAndImmediateRankCounter(RelativeScoreAndImmediateRankCounterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6015 };
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
+  /// [Inject]
   /// @brief Field _gameplayModifiers, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
+  /// [Inject]
   /// @brief Field _scoreController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;
 
+  /// [CompilerGenerated]
   /// @brief Field relativeScoreOrImmediateRankDidChangeEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action* ___relativeScoreOrImmediateRankDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <relativeScore>k__BackingField, offset: 0x40, size: 0x4, def value: None
   float_t ____relativeScore_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <immediateRank>k__BackingField, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::RankModel_Rank ____immediateRank_k__BackingField;
 

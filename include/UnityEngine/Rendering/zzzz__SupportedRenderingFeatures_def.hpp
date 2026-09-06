@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SupportedRenderingFeatures.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SupportedRenderingFeatures.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::UnityEngine::Rendering::SupportedRenderingFeatures*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/LightmapMixedBakeModes");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/ReflectionProbeModes");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SupportedRenderingFeatures*, "UnityEngine.Rendering", "SupportedRenderingFeatures");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -74,7 +75,7 @@ public:
   // @brief default ctor
   constexpr SupportedRenderingFeatures_ReflectionProbeModes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SupportedRenderingFeatures_ReflectionProbeModes(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -100,6 +101,7 @@ static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures_Refl
 static_assert(sizeof(::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -131,7 +133,7 @@ public:
   // @brief default ctor
   constexpr SupportedRenderingFeatures_LightmapMixedBakeModes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SupportedRenderingFeatures_LightmapMixedBakeModes(int32_t value__) noexcept;
 
   /// @brief Field IndirectOnly value: I32(1)
@@ -315,41 +317,51 @@ public:
 
   __declspec(property(put = set_supportsHDR)) bool supportsHDR;
 
+  /// [RequiredByNativeCode]
   /// @brief Method FallbackLightmapperByRef, addr 0x6b29758, size 0xc, virtual false, abstract: false, final false
   static inline void FallbackLightmapperByRef(::System::IntPtr lightmapperPtr);
 
+  /// [RequiredByNativeCode]
   /// @brief Method FallbackMixedLightingModeByRef, addr 0x6b29144, size 0x124, virtual false, abstract: false, final false
   static inline void FallbackMixedLightingModeByRef(::System::IntPtr fallbackModePtr);
 
+  /// [RequiredByNativeCode]
   /// @brief Method IsAmbientProbeBakingSupported, addr 0x6b29620, size 0x68, virtual false, abstract: false, final false
   static inline void IsAmbientProbeBakingSupported(::System::IntPtr isSupportedPtr);
 
+  /// [RequiredByNativeCode]
   /// @brief Method IsDefaultReflectionProbeBakingSupported, addr 0x6b29688, size 0x68, virtual false, abstract: false, final false
   static inline void IsDefaultReflectionProbeBakingSupported(::System::IntPtr isSupportedPtr);
 
   /// @brief Method IsLightmapBakeTypeSupported, addr 0x6b293d0, size 0x70, virtual false, abstract: false, final false
   static inline bool IsLightmapBakeTypeSupported(::UnityEngine::LightmapBakeType bakeType);
 
+  /// [RequiredByNativeCode]
   /// @brief Method IsLightmapBakeTypeSupportedByRef, addr 0x6b29440, size 0xec, virtual false, abstract: false, final false
   static inline void IsLightmapBakeTypeSupportedByRef(::UnityEngine::LightmapBakeType bakeType, ::System::IntPtr isSupportedPtr);
 
+  /// [RequiredByNativeCode]
   /// @brief Method IsLightmapperSupportedByRef, addr 0x6b295a8, size 0x10, virtual false, abstract: false, final false
   static inline void IsLightmapperSupportedByRef(int32_t lightmapper, ::System::IntPtr isSupportedPtr);
 
+  /// [RequiredByNativeCode]
   /// @brief Method IsLightmapsModeSupportedByRef, addr 0x6b2952c, size 0x7c, virtual false, abstract: false, final false
   static inline void IsLightmapsModeSupportedByRef(::UnityEngine::LightmapsMode mode, ::System::IntPtr isSupportedPtr);
 
   /// @brief Method IsMixedLightingModeSupported, addr 0x6b29268, size 0x70, virtual false, abstract: false, final false
   static inline bool IsMixedLightingModeSupported(::UnityEngine::MixedLightingMode mixedMode);
 
+  /// [RequiredByNativeCode]
   /// @brief Method IsMixedLightingModeSupportedByRef, addr 0x6b292d8, size 0xf8, virtual false, abstract: false, final false
   static inline void IsMixedLightingModeSupportedByRef(::UnityEngine::MixedLightingMode mixedMode, ::System::IntPtr isSupportedPtr);
 
+  /// [RequiredByNativeCode]
   /// @brief Method IsUIOverlayRenderedBySRP, addr 0x6b295b8, size 0x68, virtual false, abstract: false, final false
   static inline void IsUIOverlayRenderedBySRP(::System::IntPtr isSupportedPtr);
 
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* New_ctor();
 
+  /// [RequiredByNativeCode]
   /// @brief Method OverridesLightProbeSystem, addr 0x6b296f0, size 0x68, virtual false, abstract: false, final false
   static inline void OverridesLightProbeSystem(::System::IntPtr overridesPtr);
 
@@ -553,30 +565,39 @@ public:
   /// @brief Method get_active, addr 0x6b28fa4, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* get_active();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ambientProbeBaking, addr 0x6b2911c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ambientProbeBaking();
 
+  /// [CompilerGenerated]
   /// @brief Method get_defaultMixedLightingModes, addr 0x6b290dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes get_defaultMixedLightingModes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_defaultReflectionProbeBaking, addr 0x6b29124, size 0x8, virtual false, abstract: false, final false
   inline bool get_defaultReflectionProbeBaking();
 
+  /// [CompilerGenerated]
   /// @brief Method get_enlighten, addr 0x6b290fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_enlighten();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lightmapBakeTypes, addr 0x6b290ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightmapBakeType get_lightmapBakeTypes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lightmapsModes, addr 0x6b290f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightmapsMode get_lightmapsModes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mixedLightingModes, addr 0x6b290e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes get_mixedLightingModes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_overridesLightProbeSystem, addr 0x6b2912c, size 0x8, virtual false, abstract: false, final false
   inline bool get_overridesLightProbeSystem();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rendersUIOverlay, addr 0x6b2910c, size 0x8, virtual false, abstract: false, final false
   inline bool get_rendersUIOverlay();
 
@@ -585,15 +606,19 @@ public:
   /// @brief Method set_active, addr 0x6b23d44, size 0x60, virtual false, abstract: false, final false
   static inline void set_active(::UnityEngine::Rendering::SupportedRenderingFeatures* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_overridesLightProbeSystem, addr 0x6b29134, size 0x8, virtual false, abstract: false, final false
   inline void set_overridesLightProbeSystem(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rendersUIOverlay, addr 0x6b29114, size 0x8, virtual false, abstract: false, final false
   inline void set_rendersUIOverlay(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_skyOcclusion, addr 0x6b29104, size 0x8, virtual false, abstract: false, final false
   inline void set_skyOcclusion(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_supportsHDR, addr 0x6b2913c, size 0x8, virtual false, abstract: false, final false
   inline void set_supportsHDR(bool value);
 
@@ -603,110 +628,174 @@ protected:
   constexpr SupportedRenderingFeatures();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedRenderingFeatures", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedRenderingFeatures", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SupportedRenderingFeatures(SupportedRenderingFeatures&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedRenderingFeatures", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedRenderingFeatures", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SupportedRenderingFeatures(SupportedRenderingFeatures const&) = delete;
+  SupportedRenderingFeatures(SupportedRenderingFeaturesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10842 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <reflectionProbeModes>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes ____reflectionProbeModes_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <defaultMixedLightingModes>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes ____defaultMixedLightingModes_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <mixedLightingModes>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes ____mixedLightingModes_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <lightmapBakeTypes>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::LightmapBakeType ____lightmapBakeTypes_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <lightmapsModes>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::LightmapsMode ____lightmapsModes_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <enlightenLightmapper>k__BackingField, offset: 0x24, size: 0x1, def value: None
   bool ____enlightenLightmapper_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <enlighten>k__BackingField, offset: 0x25, size: 0x1, def value: None
   bool ____enlighten_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <skyOcclusion>k__BackingField, offset: 0x26, size: 0x1, def value: None
   bool ____skyOcclusion_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <lightProbeProxyVolumes>k__BackingField, offset: 0x27, size: 0x1, def value: None
   bool ____lightProbeProxyVolumes_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <motionVectors>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____motionVectors_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <receiveShadows>k__BackingField, offset: 0x29, size: 0x1, def value: None
   bool ____receiveShadows_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <reflectionProbes>k__BackingField, offset: 0x2a, size: 0x1, def value: None
   bool ____reflectionProbes_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <reflectionProbesBlendDistance>k__BackingField, offset: 0x2b, size: 0x1, def value: None
   bool ____reflectionProbesBlendDistance_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <rendererPriority>k__BackingField, offset: 0x2c, size: 0x1, def value: None
   bool ____rendererPriority_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <rendersUIOverlay>k__BackingField, offset: 0x2d, size: 0x1, def value: None
   bool ____rendersUIOverlay_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <overridesEnvironmentLighting>k__BackingField, offset: 0x2e, size: 0x1, def value: None
   bool ____overridesEnvironmentLighting_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <overridesFog>k__BackingField, offset: 0x2f, size: 0x1, def value: None
   bool ____overridesFog_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <overridesRealtimeReflectionProbes>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____overridesRealtimeReflectionProbes_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <overridesOtherLightingSettings>k__BackingField, offset: 0x31, size: 0x1, def value: None
   bool ____overridesOtherLightingSettings_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <editableMaterialRenderQueue>k__BackingField, offset: 0x32, size: 0x1, def value: None
   bool ____editableMaterialRenderQueue_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <overridesLODBias>k__BackingField, offset: 0x33, size: 0x1, def value: None
   bool ____overridesLODBias_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <overridesMaximumLODLevel>k__BackingField, offset: 0x34, size: 0x1, def value: None
   bool ____overridesMaximumLODLevel_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <overridesEnableLODCrossFade>k__BackingField, offset: 0x35, size: 0x1, def value: None
   bool ____overridesEnableLODCrossFade_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <rendererProbes>k__BackingField, offset: 0x36, size: 0x1, def value: None
   bool ____rendererProbes_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <particleSystemInstancing>k__BackingField, offset: 0x37, size: 0x1, def value: None
   bool ____particleSystemInstancing_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ambientProbeBaking>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____ambientProbeBaking_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <defaultReflectionProbeBaking>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____defaultReflectionProbeBaking_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <overridesShadowmask>k__BackingField, offset: 0x3a, size: 0x1, def value: None
   bool ____overridesShadowmask_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <overridesLightProbeSystem>k__BackingField, offset: 0x3b, size: 0x1, def value: None
   bool ____overridesLightProbeSystem_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <supportsHDR>k__BackingField, offset: 0x3c, size: 0x1, def value: None
   bool ____supportsHDR_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <supportsClouds>k__BackingField, offset: 0x3d, size: 0x1, def value: None
   bool ____supportsClouds_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <overridesLightProbeSystemWarningMessage>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::StringW ____overridesLightProbeSystemWarningMessage_k__BackingField;
 

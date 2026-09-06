@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SchemaNames.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SchemaNames.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -184,7 +184,7 @@ public:
   // @brief default ctor
   constexpr SchemaNames_Token();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SchemaNames_Token(int32_t value__) noexcept;
 
   /// @brief Field Empty value: I32(0)
@@ -1874,13 +1874,13 @@ protected:
   constexpr SchemaNames();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaNames", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaNames", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SchemaNames(SchemaNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaNames", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SchemaNames(SchemaNames const&) = delete;
+  SchemaNames(SchemaNamesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9715 };

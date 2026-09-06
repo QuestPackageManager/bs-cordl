@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextStyle.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextStyle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,38 +130,46 @@ protected:
   constexpr TextStyle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextStyle(TextStyle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextStyle(TextStyle const&) = delete;
+  TextStyle(TextStyleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17240 };
 
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
 
+  /// [SerializeField]
   /// @brief Field m_HashCode, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_HashCode;
 
+  /// [SerializeField]
   /// @brief Field m_OpeningDefinition, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_OpeningDefinition;
 
+  /// [SerializeField]
   /// @brief Field m_ClosingDefinition, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_ClosingDefinition;
 
+  /// [SerializeField]
   /// @brief Field m_OpeningTagArray, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<uint32_t> ___m_OpeningTagArray;
 
+  /// [SerializeField]
   /// @brief Field m_ClosingTagArray, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<uint32_t> ___m_ClosingTagArray;
 
+  /// [SerializeField]
   /// @brief Field m_OpeningTagUnicodeArray, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<uint32_t> ___m_OpeningTagUnicodeArray;
 
+  /// [SerializeField]
   /// @brief Field m_ClosingTagUnicodeArray, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<uint32_t> ___m_ClosingTagUnicodeArray;
 

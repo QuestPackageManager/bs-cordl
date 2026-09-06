@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\ExtendedPointerEventData.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/ExtendedPointerEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -151,45 +151,59 @@ public:
   /// @brief Method .ctor, addr 0x659224c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
+  /// [CompilerGenerated]
   /// @brief Method get_control, addr 0x6592254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
+  /// [CompilerGenerated]
   /// @brief Method get_device, addr 0x6592264, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointerType, addr 0x6592284, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::UI::UIPointerType get_pointerType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_touchId, addr 0x6592274, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_touchId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackedDeviceOrientation, addr 0x65922c4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_trackedDeviceOrientation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackedDevicePosition, addr 0x65922a4, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_trackedDevicePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_uiToolkitPointerId, addr 0x6592294, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_uiToolkitPointerId();
 
+  /// [CompilerGenerated]
   /// @brief Method set_control, addr 0x659225c, size 0x8, virtual false, abstract: false, final false
   inline void set_control(::UnityEngine::InputSystem::InputControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_device, addr 0x659226c, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pointerType, addr 0x659228c, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerType(::UnityEngine::InputSystem::UI::UIPointerType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_touchId, addr 0x659227c, size 0x8, virtual false, abstract: false, final false
   inline void set_touchId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackedDeviceOrientation, addr 0x65922d8, size 0x14, virtual false, abstract: false, final false
   inline void set_trackedDeviceOrientation(::UnityEngine::Quaternion value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackedDevicePosition, addr 0x65922b4, size 0x10, virtual false, abstract: false, final false
   inline void set_trackedDevicePosition(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_uiToolkitPointerId, addr 0x659229c, size 0x8, virtual false, abstract: false, final false
   inline void set_uiToolkitPointerId(int32_t value);
 
@@ -199,35 +213,42 @@ protected:
   constexpr ExtendedPointerEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedPointerEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtendedPointerEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtendedPointerEventData(ExtendedPointerEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedPointerEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtendedPointerEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtendedPointerEventData(ExtendedPointerEventData const&) = delete;
+  ExtendedPointerEventData(ExtendedPointerEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8859 };
 
+  /// [CompilerGenerated]
   /// @brief Field <control>k__BackingField, offset: 0x180, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputControl* ____control_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <device>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputDevice* ____device_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <touchId>k__BackingField, offset: 0x190, size: 0x4, def value: None
   int32_t ____touchId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pointerType>k__BackingField, offset: 0x194, size: 0x4, def value: None
   ::UnityEngine::InputSystem::UI::UIPointerType ____pointerType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <uiToolkitPointerId>k__BackingField, offset: 0x198, size: 0x4, def value: None
   int32_t ____uiToolkitPointerId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackedDevicePosition>k__BackingField, offset: 0x19c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____trackedDevicePosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackedDeviceOrientation>k__BackingField, offset: 0x1a8, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____trackedDeviceOrientation_k__BackingField;
 

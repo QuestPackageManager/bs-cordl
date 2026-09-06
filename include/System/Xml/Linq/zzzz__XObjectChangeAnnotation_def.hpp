@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XObjectChangeAnnotation.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XObjectChangeAnnotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ protected:
   constexpr XObjectChangeAnnotation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XObjectChangeAnnotation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XObjectChangeAnnotation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XObjectChangeAnnotation(XObjectChangeAnnotation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XObjectChangeAnnotation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XObjectChangeAnnotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XObjectChangeAnnotation(XObjectChangeAnnotation const&) = delete;
+  XObjectChangeAnnotation(XObjectChangeAnnotationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21992 };

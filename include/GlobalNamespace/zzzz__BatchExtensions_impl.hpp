@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BatchExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/BatchExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BatchExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__BatchExtensions_def.hpp"
@@ -152,6 +152,7 @@ template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BatchExtensions__Batch_d__0_1<T>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename T> inline ::GlobalNamespace::BatchExtensions__Batch_d__0_1<T>* GlobalNamespace::BatchExtensions__Batch_d__0_1<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BatchExtensions__Batch_d__0_1<T>*>(__1__state));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IConnectedPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/IConnectedPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,48 +47,48 @@ public:
 
   __declspec(property(get = get_userName)) ::StringW userName;
 
-  /// @brief Method HasState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HasState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasState(::StringW state);
 
-  /// @brief Method get_compatibilityVersion, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_compatibilityVersion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_compatibilityVersion();
 
-  /// @brief Method get_currentLatency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_currentLatency, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_currentLatency();
 
-  /// @brief Method get_disconnectedReason, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_disconnectedReason, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
 
-  /// @brief Method get_hasValidLatency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_hasValidLatency, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasValidLatency();
 
-  /// @brief Method get_isConnected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnectionOwner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isConnectionOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isKicked, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isKicked, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isKicked();
 
-  /// @brief Method get_isMe, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isMe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isMe();
 
-  /// @brief Method get_offsetSyncTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_offsetSyncTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_sortIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_sortIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_sortIndex();
 
-  /// @brief Method get_userId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_userId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userName();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IConnectedPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IConnectedPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IConnectedPlayer(IConnectedPlayer const&) = delete;
+  IConnectedPlayer(IConnectedPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18165 };

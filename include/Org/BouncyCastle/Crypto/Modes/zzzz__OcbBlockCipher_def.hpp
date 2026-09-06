@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\OcbBlockCipher.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/OcbBlockCipher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -335,13 +335,13 @@ protected:
   constexpr OcbBlockCipher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcbBlockCipher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcbBlockCipher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcbBlockCipher(OcbBlockCipher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcbBlockCipher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcbBlockCipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcbBlockCipher(OcbBlockCipher const&) = delete;
+  OcbBlockCipher(OcbBlockCipherconst&) = delete;
 
   /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x10) };

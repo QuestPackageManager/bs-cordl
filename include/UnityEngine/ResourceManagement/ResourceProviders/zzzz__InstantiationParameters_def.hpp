@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\InstantiationParameters.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/InstantiationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstddef>
@@ -23,7 +24,7 @@ struct InstantiationParameters;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, "UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters");
-// Dependencies UnityEngine.Quaternion, UnityEngine.Vector3
+// Dependencies UnityEngine.Object, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
@@ -41,7 +42,9 @@ public:
   __declspec(property(get = get_SetPositionRotation)) bool SetPositionRotation;
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TObject> inline TObject Instantiate(TObject source);
+  template <typename TObject>
+    requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
+  inline TObject Instantiate(TObject source);
 
   /// @brief Method .ctor, addr 0x691f8d8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
@@ -68,9 +71,9 @@ public:
   // @brief default ctor
   constexpr InstantiationParameters();
 
-  // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Parent", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "m_InstantiateInWorldPosition", ty: "bool", modifiers:
-  // "", def_value: None }, CppParam { name: "m_SetPositionRotation", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Parent", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_InstantiateInWorldPosition", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SetPositionRotation", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr InstantiationParameters(::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation, ::UnityW<::UnityEngine::Transform> m_Parent, bool m_InstantiateInWorldPosition,
                                     bool m_SetPositionRotation) noexcept;
 

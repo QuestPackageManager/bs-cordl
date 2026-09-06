@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleVariableResolver.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleVariableResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,7 +90,7 @@ public:
   // @brief default ctor
   constexpr StyleVariableResolver_Result();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StyleVariableResolver_Result(int32_t value__) noexcept;
 
   /// @brief Field Invalid value: I32(1)
@@ -130,8 +130,8 @@ public:
   // @brief default ctor
   constexpr StyleVariableResolver_ResolveContext();
 
-  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "handles", ty:
-  // "::ArrayW<::UnityEngine::UIElements::StyleValueHandle>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None, comment: None }, CppParam { name: "handles", ty:
+  // "::ArrayW<::UnityEngine::UIElements::StyleValueHandle>", modifiers: "", def_value: None, comment: None }]
   constexpr StyleVariableResolver_ResolveContext(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -291,11 +291,13 @@ public:
   /// @brief Method get_resolvedValues, addr 0x6c9defc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* get_resolvedValues();
 
+  /// [CompilerGenerated]
   /// @brief Method get_variableContext, addr 0x6c9df04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleVariableContext* get_variableContext();
 
   static inline void setStaticF_s_SyntaxParser(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_variableContext, addr 0x6c9df0c, size 0x8, virtual false, abstract: false, final false
   inline void set_variableContext(::UnityEngine::UIElements::StyleVariableContext* value);
 
@@ -305,13 +307,13 @@ protected:
   constexpr StyleVariableResolver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableResolver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableResolver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleVariableResolver(StyleVariableResolver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableResolver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleVariableResolver(StyleVariableResolver const&) = delete;
+  StyleVariableResolver(StyleVariableResolverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5083 };
@@ -337,6 +339,8 @@ public:
   /// @brief Field m_CurrentContext, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::UIElements::StyleVariableResolver_ResolveContext ___m_CurrentContext;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <variableContext>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleVariableContext* ____variableContext_k__BackingField;
 

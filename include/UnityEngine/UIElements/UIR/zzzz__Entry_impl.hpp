@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\Entry.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Entry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryFlags_impl.hpp"

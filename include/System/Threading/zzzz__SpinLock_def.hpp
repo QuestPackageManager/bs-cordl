@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\SpinLock.hpp"
+// IWYU pragma private; include "System/Threading/SpinLock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ protected:
   constexpr SpinLock_SystemThreading_SpinLockDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpinLock_SystemThreading_SpinLockDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpinLock_SystemThreading_SpinLockDebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpinLock_SystemThreading_SpinLockDebugView(SpinLock_SystemThreading_SpinLockDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpinLock_SystemThreading_SpinLockDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpinLock_SystemThreading_SpinLockDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpinLock_SystemThreading_SpinLockDebugView(SpinLock_SystemThreading_SpinLockDebugView const&) = delete;
+  SpinLock_SystemThreading_SpinLockDebugView(SpinLock_SystemThreading_SpinLockDebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2712 };
@@ -52,6 +52,9 @@ public:
 static_assert(sizeof(::System::Threading::SpinLock_SystemThreading_SpinLockDebugView) == 0x10, "Size mismatch!");
 
 } // namespace System::Threading
+// [DebuggerTypeProxy(typeof(System.Threading.SpinLock::SystemThreading_SpinLockDebugView))]
+// [ComVisible(false)]
+// [DebuggerDisplay("IsHeld = {IsHeld}")]
 // Dependencies
 namespace System::Threading {
 // Is value type: true
@@ -80,9 +83,11 @@ public:
   /// @brief Method Enter, addr 0x5caf70c, size 0xcc, virtual false, abstract: false, final false
   inline void Enter(::by_ref<bool> lockTaken);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Exit, addr 0x5caff48, size 0x88, virtual false, abstract: false, final false
   inline void Exit();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Exit, addr 0x5cb00d8, size 0x94, virtual false, abstract: false, final false
   inline void Exit(bool useMemoryBarrier);
 
@@ -97,9 +102,11 @@ public:
 
   static inline int32_t getStaticF_MAXIMUM_WAITERS();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_IsHeldByCurrentThread, addr 0x5cb016c, size 0xd4, virtual false, abstract: false, final false
   inline bool get_IsHeldByCurrentThread();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_IsThreadOwnerTrackingEnabled, addr 0x5cafd18, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsThreadOwnerTrackingEnabled();
 
@@ -109,7 +116,7 @@ public:
   // @brief default ctor
   constexpr SpinLock();
 
-  // Ctor Parameters [CppParam { name: "m_owner", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_owner", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SpinLock(int32_t m_owner) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

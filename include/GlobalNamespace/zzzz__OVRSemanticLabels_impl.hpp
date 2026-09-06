@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSemanticLabels.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSemanticLabels.hpp"
 #include "GlobalNamespace/zzzz__OVRSemanticLabels_def.hpp"
 #include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
@@ -11,7 +11,7 @@
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSemanticLabels_Classification::OVRSemanticLabels_Classification(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -511,7 +511,7 @@ constexpr GlobalNamespace::OVRSemanticLabels::operator ::System::IEquatable_1<::
 constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>* GlobalNamespace::OVRSemanticLabels::i___System__IEquatable_1___GlobalNamespace__OVRSemanticLabels_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSemanticLabels::OVRSemanticLabels(uint64_t _Handle_k__BackingField) noexcept {
   this->_Handle_k__BackingField = _Handle_k__BackingField;
 }

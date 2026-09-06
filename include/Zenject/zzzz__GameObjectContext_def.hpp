@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\GameObjectContext.hpp"
+// IWYU pragma private; include "Zenject/GameObjectContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ public:
   /// @brief Field _kernel, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__kernel, put = __cordl_internal_set__kernel)) ::UnityW<::Zenject::MonoKernel> _kernel;
 
+  /// [Inject]
   /// @brief Method Construct, addr 0x6e6f3e8, size 0x48, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* parentContainer);
 
@@ -120,6 +121,7 @@ public:
 
   constexpr void __cordl_internal_set__kernel(::UnityW<::Zenject::MonoKernel> value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6fedc, size 0x2cc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -129,30 +131,38 @@ public:
   /// @brief Method .ctor, addr 0x6e6fd78, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_PostInstall, addr 0x6e6ef58, size 0xac, virtual false, abstract: false, final false
   inline void add_PostInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PostResolve, addr 0x6e6f208, size 0xac, virtual false, abstract: false, final false
   inline void add_PostResolve(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PreInstall, addr 0x6e6ee00, size 0xac, virtual false, abstract: false, final false
   inline void add_PreInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PreResolve, addr 0x6e6f0b0, size 0xac, virtual false, abstract: false, final false
   inline void add_PreResolve(::System::Action* value);
 
   /// @brief Method get_Container, addr 0x6e6f360, size 0x8, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PostInstall, addr 0x6e6f004, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PostResolve, addr 0x6e6f2b4, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostResolve(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PreInstall, addr 0x6e6eeac, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PreResolve, addr 0x6e6f15c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreResolve(::System::Action* value);
 
@@ -162,29 +172,37 @@ protected:
   constexpr GameObjectContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameObjectContext(GameObjectContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameObjectContext(GameObjectContext const&) = delete;
+  GameObjectContext(GameObjectContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14474 };
 
+  /// [CompilerGenerated]
   /// @brief Field PreInstall, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___PreInstall;
 
+  /// [CompilerGenerated]
   /// @brief Field PostInstall, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___PostInstall;
 
+  /// [CompilerGenerated]
   /// @brief Field PreResolve, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___PreResolve;
 
+  /// [CompilerGenerated]
   /// @brief Field PostResolve, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___PostResolve;
 
+  /// [SerializeField]
+  /// [Tooltip("Note that this field is optional and can be ignored in most cases.  This is really only needed if you want to control the \'Script Execution Order\' of your subcontainer.  In this
+  /// case, define a new class that derives from MonoKernel, add it to this game object, then drag it into this field.  Then you can set a value for \'Script Execution Order\' for this new class and
+  /// this will control when all ITickable/IInitializable classes bound within this subcontainer get called.")] [FormerlySerializedAs("_facade")] [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _kernel, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::Zenject::MonoKernel> ____kernel;
 

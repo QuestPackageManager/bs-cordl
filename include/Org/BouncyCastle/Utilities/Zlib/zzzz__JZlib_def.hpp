@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\JZlib.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/JZlib.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ protected:
   constexpr JZlib();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JZlib", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JZlib", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JZlib(JZlib&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JZlib", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JZlib", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JZlib(JZlib const&) = delete;
+  JZlib(JZlibconst&) = delete;
 
   /// @brief Field Z_BEST_COMPRESSION offset 0xffffffff size 0x4
   static constexpr int32_t Z_BEST_COMPRESSION{ static_cast<int32_t>(0x9) };

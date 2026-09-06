@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\GraphQLClientProviderInstaller.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/GraphQLClientProviderInstaller.hpp"
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "BeatSaber/GraphQL/zzzz__GraphQLClientProviderInstaller_def.hpp"
 #include "BeatSaber/GraphQL/zzzz__GraphQLClientProvider_def.hpp"

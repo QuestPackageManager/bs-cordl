@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\CultureAwareComparer.hpp"
+// IWYU pragma private; include "System/CultureAwareComparer.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/zzzz__StringComparer_impl.hpp"
 #include "System/zzzz__CultureAwareComparer_def.hpp"

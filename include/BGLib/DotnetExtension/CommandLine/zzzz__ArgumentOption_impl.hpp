@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\CommandLine\ArgumentOption.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/ArgumentOption.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentType_impl.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentOption_def.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentType_def.hpp"
@@ -118,7 +118,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BGLib::DotnetE
     return ___internal_method;
   }
 };
-inline void BGLib::DotnetExtension::CommandLine::ArgumentOption::_ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, ::ArrayW<::StringW> identifiers) {
+inline void BGLib::DotnetExtension::CommandLine::ArgumentOption::_ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type,
+                                                                       /* [ParamArray] */ ::ArrayW<::StringW> identifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::CommandLine::ArgumentOption>(),
                                                            { ".ctor",
@@ -170,9 +171,9 @@ constexpr ::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::Argument
 BGLib::DotnetExtension::CommandLine::ArgumentOption::i___System__IEquatable_1___BGLib__DotnetExtension__CommandLine__ArgumentOption_() {
   return static_cast<::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "identifiers", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "hint", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "::BGLib::DotnetExtension::CommandLine::ArgumentType", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "identifiers", ty: "::ArrayW<::StringW>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "hint", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty:
+// "::BGLib::DotnetExtension::CommandLine::ArgumentType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::DotnetExtension::CommandLine::ArgumentOption::ArgumentOption(::StringW name, ::ArrayW<::StringW> identifiers, ::StringW hint,
                                                                                 ::BGLib::DotnetExtension::CommandLine::ArgumentType type) noexcept {
   this->name = name;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Audio\G_AudioMonitor.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Audio/G_AudioMonitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -147,27 +147,33 @@ public:
   /// @brief Method dBNormalized, addr 0x64416e0, size 0x14, virtual false, abstract: false, final false
   inline float_t dBNormalized(float_t db);
 
+  /// [CompilerGenerated]
   /// @brief Method get_MaxDB, addr 0x6441c6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MaxDB();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Spectrum, addr 0x6441c4c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_Spectrum();
 
   /// @brief Method get_SpectrumDataAvailable, addr 0x6440e70, size 0x64, virtual false, abstract: false, final false
   inline bool get_SpectrumDataAvailable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SpectrumHighestValues, addr 0x6441c5c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_SpectrumHighestValues();
 
   /// @brief Method lin2dB, addr 0x64416ac, size 0x34, virtual false, abstract: false, final false
   inline float_t lin2dB(float_t linear);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MaxDB, addr 0x6441c74, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxDB(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Spectrum, addr 0x6441c54, size 0x8, virtual false, abstract: false, final false
   inline void set_Spectrum(::ArrayW<float_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SpectrumHighestValues, addr 0x6441c64, size 0x8, virtual false, abstract: false, final false
   inline void set_SpectrumHighestValues(::ArrayW<float_t> value);
 
@@ -177,13 +183,13 @@ protected:
   constexpr G_AudioMonitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_AudioMonitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_AudioMonitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_AudioMonitor(G_AudioMonitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_AudioMonitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_AudioMonitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_AudioMonitor(G_AudioMonitor const&) = delete;
+  G_AudioMonitor(G_AudioMonitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21505 };
@@ -206,12 +212,15 @@ public:
   /// @brief Field m_spectrumSize, offset: 0x38, size: 0x4, def value: None
   int32_t ___m_spectrumSize;
 
+  /// [CompilerGenerated]
   /// @brief Field <Spectrum>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<float_t> ____Spectrum_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SpectrumHighestValues>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<float_t> ____SpectrumHighestValues_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MaxDB>k__BackingField, offset: 0x50, size: 0x4, def value: None
   float_t ____MaxDB_k__BackingField;
 

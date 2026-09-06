@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\BinaryNode.hpp"
+// IWYU pragma private; include "System/Data/BinaryNode.hpp"
 #include "System/Data/zzzz__ExpressionNode_impl.hpp"
 #include "System/Data/zzzz__BinaryNode_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,7 +13,7 @@
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::BinaryNode_DataTypePrecedence::BinaryNode_DataTypePrecedence(int32_t value__) noexcept {
   this->value__ = value__;
 }

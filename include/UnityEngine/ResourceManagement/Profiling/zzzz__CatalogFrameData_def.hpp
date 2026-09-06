@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\CatalogFrameData.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/CatalogFrameData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // @brief default ctor
   constexpr CatalogFrameData();
 
-  // Ctor Parameters [CppParam { name: "BuildResultHash", ty: "::UnityEngine::Hash128", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "BuildResultHash", ty: "::UnityEngine::Hash128", modifiers: "", def_value: None, comment: None }]
   constexpr CatalogFrameData(::UnityEngine::Hash128 BuildResultHash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

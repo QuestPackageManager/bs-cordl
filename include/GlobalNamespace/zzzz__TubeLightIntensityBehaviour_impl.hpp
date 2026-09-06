@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeLightIntensityBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeLightIntensityBehaviour.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLight_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"

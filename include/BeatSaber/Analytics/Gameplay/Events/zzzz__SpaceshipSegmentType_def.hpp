@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipSegmentType.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipSegmentType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class SpaceshipSegmentType;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipSegmentType");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay::Events {
 // Is value type: false
@@ -79,6 +81,7 @@ public:
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Tutorial();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Value, addr 0x32659dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
@@ -104,17 +107,18 @@ protected:
   constexpr SpaceshipSegmentType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpaceshipSegmentType(SpaceshipSegmentType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipSegmentType(SpaceshipSegmentType const&) = delete;
+  SpaceshipSegmentType(SpaceshipSegmentTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22284 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Value_k__BackingField;
 

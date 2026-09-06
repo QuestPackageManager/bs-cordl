@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaCollectionNode.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaCollectionNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,13 +85,13 @@ protected:
   constexpr XmlSchemaCollectionNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCollectionNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCollectionNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaCollectionNode(XmlSchemaCollectionNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCollectionNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCollectionNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaCollectionNode(XmlSchemaCollectionNode const&) = delete;
+  XmlSchemaCollectionNode(XmlSchemaCollectionNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9751 };

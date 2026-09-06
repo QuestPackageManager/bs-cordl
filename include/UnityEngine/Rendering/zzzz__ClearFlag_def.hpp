@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ClearFlag.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ClearFlag.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ClearFlag;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ClearFlag);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ClearFlag, "UnityEngine.Rendering", "ClearFlag");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr ClearFlag();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ClearFlag(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(7)

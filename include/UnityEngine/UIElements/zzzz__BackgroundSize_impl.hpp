@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BackgroundSize.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BackgroundSize.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundSizeType_impl.hpp"
@@ -293,8 +293,9 @@ constexpr UnityEngine::UIElements::BackgroundSize::operator ::System::IEquatable
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>* UnityEngine::UIElements::BackgroundSize::i___System__IEquatable_1___UnityEngine__UIElements__BackgroundSize_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_SizeType", ty: "::UnityEngine::UIElements::BackgroundSizeType", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_X", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_SizeType", ty: "::UnityEngine::UIElements::BackgroundSizeType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_X", ty:
+// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::UIElements::BackgroundSize::BackgroundSize(::UnityEngine::UIElements::BackgroundSizeType m_SizeType, ::UnityEngine::UIElements::Length m_X,
                                                                     ::UnityEngine::UIElements::Length m_Y) noexcept {
   this->m_SizeType = m_SizeType;

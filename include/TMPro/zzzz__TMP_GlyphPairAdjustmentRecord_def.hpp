@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_GlyphPairAdjustmentRecord.hpp"
+// IWYU pragma private; include "TMPro/TMP_GlyphPairAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,23 +97,26 @@ protected:
   constexpr TMP_GlyphPairAdjustmentRecord();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_GlyphPairAdjustmentRecord", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_GlyphPairAdjustmentRecord", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_GlyphPairAdjustmentRecord(TMP_GlyphPairAdjustmentRecord&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_GlyphPairAdjustmentRecord", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_GlyphPairAdjustmentRecord", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_GlyphPairAdjustmentRecord(TMP_GlyphPairAdjustmentRecord const&) = delete;
+  TMP_GlyphPairAdjustmentRecord(TMP_GlyphPairAdjustmentRecordconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15933 };
 
+  /// [SerializeField]
   /// @brief Field m_FirstAdjustmentRecord, offset: 0x10, size: 0x14, def value: None
   ::TMPro::TMP_GlyphAdjustmentRecord ___m_FirstAdjustmentRecord;
 
+  /// [SerializeField]
   /// @brief Field m_SecondAdjustmentRecord, offset: 0x24, size: 0x14, def value: None
   ::TMPro::TMP_GlyphAdjustmentRecord ___m_SecondAdjustmentRecord;
 
+  /// [SerializeField]
   /// @brief Field m_FeatureLookupFlags, offset: 0x38, size: 0x4, def value: None
   ::TMPro::FontFeatureLookupFlags ___m_FeatureLookupFlags;
 

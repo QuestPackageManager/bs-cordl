@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\ICollectionPropertyBag_2.hpp"
+// IWYU pragma private; include "Unity/Properties/ICollectionPropertyBag_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 CORDL_MODULE_EXPORT(ICollectionPropertyBag_2)
 namespace Unity::Properties {
 template <typename TContainer> class ICollectionPropertyBagAccept_1;
@@ -15,15 +16,18 @@ class IPropertyBag;
 }
 // Forward declare root types
 namespace Unity::Properties {
-template <typename TCollection, typename TElement> class ICollectionPropertyBag_2;
+template <typename TCollection, typename TElement>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
+class ICollectionPropertyBag_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::ICollectionPropertyBag_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::ICollectionPropertyBag_2, "Unity.Properties", "ICollectionPropertyBag`2");
-// Dependencies
+// Dependencies System.Collections.Generic.ICollection`1<T>
 namespace Unity::Properties {
 // cpp template
 template <typename TCollection, typename TElement>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.ICollectionPropertyBag`2<TCollection,TElement>
 class CORDL_TYPE ICollectionPropertyBag_2 {
@@ -47,9 +51,9 @@ public:
   /// @brief Convert to "::Unity::Properties::IPropertyBag_1<TCollection>"
   constexpr ::Unity::Properties::IPropertyBag_1<TCollection>* i___Unity__Properties__IPropertyBag_1_TCollection_() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICollectionPropertyBag_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICollectionPropertyBag_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICollectionPropertyBag_2(ICollectionPropertyBag_2 const&) = delete;
+  ICollectionPropertyBag_2(ICollectionPropertyBag_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19647 };

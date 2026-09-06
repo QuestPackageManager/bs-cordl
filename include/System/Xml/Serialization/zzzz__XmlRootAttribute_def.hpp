@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlRootAttribute.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlRootAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class XmlRootAttribute;
 // Write type traits
 MARK_REF_T(::System::Xml::Serialization::XmlRootAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Serialization::XmlRootAttribute*, "System.Xml.Serialization", "XmlRootAttribute");
+// [AttributeUsage((System.AttributeTargets)9244)]
 // Dependencies System.Attribute
 namespace System::Xml::Serialization {
 // Is value type: false
@@ -110,13 +111,13 @@ protected:
   constexpr XmlRootAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlRootAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlRootAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlRootAttribute(XmlRootAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlRootAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlRootAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlRootAttribute(XmlRootAttribute const&) = delete;
+  XmlRootAttribute(XmlRootAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9521 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ButtonSpriteSwapToggle.hpp"
+// IWYU pragma private; include "HMUI/ButtonSpriteSwapToggle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,20 +74,22 @@ protected:
   constexpr ButtonSpriteSwapToggle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwapToggle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwapToggle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonSpriteSwapToggle(ButtonSpriteSwapToggle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwapToggle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwapToggle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonSpriteSwapToggle(ButtonSpriteSwapToggle const&) = delete;
+  ButtonSpriteSwapToggle(ButtonSpriteSwapToggleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19077 };
 
+  /// [SerializeField]
   /// @brief Field _resetToggleOnEnable, offset: 0x51, size: 0x1, def value: None
   bool ____resetToggleOnEnable;
 
+  /// [SerializeField]
   /// @brief Field _ignoreHighlight, offset: 0x52, size: 0x1, def value: None
   bool ____ignoreHighlight;
 

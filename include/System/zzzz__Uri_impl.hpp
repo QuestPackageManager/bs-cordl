@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Uri.hpp"
+// IWYU pragma private; include "System/Uri.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__UriFormat_impl.hpp"
 #include "System/zzzz__UriIdnScope_impl.hpp"
@@ -17,7 +17,7 @@
 #include "System/zzzz__UriKind_def.hpp"
 #include "System/zzzz__UriParser_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Uri_Flags::Uri_Flags(uint64_t value__) noexcept {
   this->value__ = value__;
 }
@@ -78,10 +78,11 @@ constexpr ::System::Uri_Flags System::Uri_Flags::QueryIriCanonical{ static_cast<
 constexpr ::System::Uri_Flags System::Uri_Flags::FragmentIriCanonical{ static_cast<uint64_t>(0x40000000000u) };
 constexpr ::System::Uri_Flags System::Uri_Flags::IriCanonical{ static_cast<uint64_t>(0x78000000000u) };
 constexpr ::System::Uri_Flags System::Uri_Flags::CompressedSlashes{ static_cast<uint64_t>(0x100000000000u) };
-// Ctor Parameters [CppParam { name: "Scheme", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "User", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Host", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PortValue", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Path", ty: "uint16_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Query", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Fragment", ty: "uint16_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "End", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Scheme", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "User", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Host", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PortValue", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Path", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Query", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Fragment", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "End", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Uri_Offset::Uri_Offset(uint16_t Scheme, uint16_t User, uint16_t Host, uint16_t PortValue, uint16_t Path, uint16_t Query, uint16_t Fragment, uint16_t End) noexcept {
   this->Scheme = Scheme;
   this->User = User;
@@ -280,7 +281,7 @@ inline ::System::Uri_MoreInfo* System::Uri_MoreInfo::New_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Uri_MoreInfo::Uri_MoreInfo() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Uri_Check::Uri_Check(int32_t value__) noexcept {
   this->value__ = value__;
 }

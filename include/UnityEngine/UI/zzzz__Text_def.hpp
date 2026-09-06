@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Text.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Text.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,8 @@ class Text;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::Text*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::Text*, "UnityEngine.UI", "Text");
+// [RequireComponent(typeof(UnityEngine.CanvasRenderer))]
+// [AddComponentMenu("UI/Legacy/Text", 100)]
 // Dependencies UnityEngine.UI.MaskableGraphic, UnityEngine.UIVertex
 namespace UnityEngine::UI {
 // Is value type: false
@@ -333,20 +335,23 @@ protected:
   constexpr Text();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Text", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Text", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Text(Text&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Text", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Text", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Text(Text const&) = delete;
+  Text(Textconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17498 };
 
+  /// [SerializeField]
   /// @brief Field m_FontData, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::UI::FontData* ___m_FontData;
 
+  /// [TextArea(3, 10)]
+  /// [SerializeField]
   /// @brief Field m_Text, offset: 0xe0, size: 0x8, def value: None
   ::StringW ___m_Text;
 

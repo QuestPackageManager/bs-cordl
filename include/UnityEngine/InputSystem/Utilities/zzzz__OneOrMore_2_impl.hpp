@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\OneOrMore_2.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/OneOrMore_2.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__OneOrMore_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -11,27 +12,36 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__OneOrMore_2_def.hpp"
-template <typename TValue, typename TList> inline int32_t UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::get_Count() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline int32_t UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::get_Count() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>>(), { "get_Count", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename TValue, typename TList> inline TValue UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::get_Item(int32_t index) {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline TValue UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::get_Item(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<TValue>(*this, ___internal_method, index);
 }
-template <typename TValue, typename TList> inline void UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::_ctor(TValue single) {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline void UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::_ctor(TValue single) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>>(), { ".ctor", {}, { ::i2c::type_of<TValue>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, single);
 }
-template <typename TValue, typename TList> inline void UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::_ctor(TList multiple) {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline void UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::_ctor(TList multiple) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>>(), { ".ctor", {}, { ::i2c::type_of<TList>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, multiple);
 }
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 inline ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>
 UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::op_Implicit___UnityEngine__InputSystem__Utilities__OneOrMore_2_TValue_TList_(TValue single) {
   static auto* ___internal_method =
@@ -39,156 +49,211 @@ UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::op_Implicit___U
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>>(nullptr, ___internal_method, single);
 }
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 inline ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>
 UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::op_Implicit___UnityEngine__InputSystem__Utilities__OneOrMore_2_TValue_TList_(TList multiple) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>>(), { "op_Implicit", {}, { ::i2c::type_of<TList>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>>(nullptr, ___internal_method, multiple);
 }
-template <typename TValue, typename TList> inline ::System::Collections::Generic::IEnumerator_1<TValue>* UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::GetEnumerator() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline ::System::Collections::Generic::IEnumerator_1<TValue>* UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::GetEnumerator() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>>(), { "GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TValue>*>(*this, ___internal_method);
 }
-template <typename TValue, typename TList> inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::System_Collections_IEnumerable_GetEnumerator() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(*this, ___internal_method);
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<TValue>"
-template <typename TValue, typename TList> constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::operator ::System::Collections::Generic::IReadOnlyList_1<TValue>*() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::operator ::System::Collections::Generic::IReadOnlyList_1<TValue>*() {
   return static_cast<::System::Collections::Generic::IReadOnlyList_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<TValue>"
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 constexpr ::System::Collections::Generic::IReadOnlyList_1<TValue>* UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::i___System__Collections__Generic__IReadOnlyList_1_TValue_() {
   return static_cast<::System::Collections::Generic::IReadOnlyList_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
-template <typename TValue, typename TList> constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::operator ::System::Collections::Generic::IEnumerable_1<TValue>*() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::operator ::System::Collections::Generic::IEnumerable_1<TValue>*() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::i___System__Collections__Generic__IEnumerable_1_TValue_() {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename TValue, typename TList> constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::operator ::System::Collections::IEnumerable*() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::operator ::System::Collections::IEnumerable*() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-template <typename TValue, typename TList> constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::i___System__Collections__IEnumerable() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
-template <typename TValue, typename TList> constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::operator ::System::Collections::Generic::IReadOnlyCollection_1<TValue>*() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::operator ::System::Collections::Generic::IReadOnlyCollection_1<TValue>*() {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TValue>*
 UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::i___System__Collections__Generic__IReadOnlyCollection_1_TValue_() {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_IsSingle", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Single", ty: "TValue", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Multiple", ty: "TList", modifiers: "", def_value: Some("{}") }]
-template <typename TValue, typename TList> constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::OneOrMore_2(bool m_IsSingle, TValue m_Single, TList m_Multiple) noexcept {
+// Ctor Parameters [CppParam { name: "m_IsSingle", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Single", ty: "TValue", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_Multiple", ty: "TList", modifiers: "", def_value: Some("{}"), comment: None }]
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::OneOrMore_2(bool m_IsSingle, TValue m_Single, TList m_Multiple) noexcept {
   this->m_IsSingle = m_IsSingle;
   this->m_Single = m_Single;
   this->m_Multiple = m_Multiple;
 }
 // Ctor Parameters []
-template <typename TValue, typename TList> constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::OneOrMore_2() {}
-template <typename TValue, typename TList> constexpr int32_t& UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::__cordl_internal_get_m_Index() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>::OneOrMore_2() {}
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr int32_t& UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::__cordl_internal_get_m_Index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Index;
 }
-template <typename TValue, typename TList> constexpr int32_t const& UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::__cordl_internal_get_m_Index() const {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr int32_t const& UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::__cordl_internal_get_m_Index() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Index;
 }
-template <typename TValue, typename TList> constexpr void UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::__cordl_internal_set_m_Index(int32_t value) {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr void UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::__cordl_internal_set_m_Index(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Index = value;
 }
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>& UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::__cordl_internal_get_m_List() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> const& UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::__cordl_internal_get_m_List() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 constexpr void UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::__cordl_internal_set_m_List(::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_List = value;
 }
-template <typename TValue, typename TList> inline bool UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::MoveNext() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline bool UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename TValue, typename TList> inline void UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::Reset() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline void UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::Reset() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>*>(), { "Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValue, typename TList> inline TValue UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::get_Current() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline TValue UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>*>(), { "get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<TValue>(this, ___internal_method);
 }
-template <typename TValue, typename TList> inline ::System::Object* UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::System_Collections_IEnumerator_get_Current() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline ::System::Object* UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-template <typename TValue, typename TList> inline void UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::Dispose() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline void UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValue, typename TList> inline void UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::_ctor() {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+inline void UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 inline ::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>* UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>*>());
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::operator ::System::Collections::Generic::IEnumerator_1<TValue>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<TValue>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 constexpr ::System::Collections::Generic::IEnumerator_1<TValue>*
 UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::i___System__Collections__Generic__IEnumerator_1_TValue_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<TValue>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename TValue, typename TList> constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::operator ::System::Collections::IEnumerator*() noexcept {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename TValue, typename TList> constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::operator ::System::IDisposable*() noexcept {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename TValue, typename TList> constexpr ::System::IDisposable* UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::i___System__IDisposable() noexcept {
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr ::System::IDisposable* UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename TValue, typename TList> constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::OneOrMore_2_Enumerator() {}
+template <typename TValue, typename TList>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
+constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2_Enumerator<TValue, TList>::OneOrMore_2_Enumerator() {}

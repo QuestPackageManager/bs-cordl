@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenCaptureAfterDelay.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenCaptureAfterDelay.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,13 +114,13 @@ protected:
   constexpr ScreenCaptureAfterDelay_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenCaptureAfterDelay_InitData(ScreenCaptureAfterDelay_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenCaptureAfterDelay_InitData(ScreenCaptureAfterDelay_InitData const&) = delete;
+  ScreenCaptureAfterDelay_InitData(ScreenCaptureAfterDelay_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20671 };
@@ -151,6 +151,7 @@ static_assert(offsetof(::GlobalNamespace::ScreenCaptureAfterDelay_InitData, ___p
 static_assert(sizeof(::GlobalNamespace::ScreenCaptureAfterDelay_InitData) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -183,17 +184,22 @@ public:
   /// @brief Method MoveNext, addr 0x5f4bcdc, size 0x1d4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5f4beb0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5f4beb8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5f4bef0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5f4bcd8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -215,6 +221,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5f4b90c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -233,13 +240,13 @@ protected:
   constexpr ScreenCaptureAfterDelay__Start_d__6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay__Start_d__6", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay__Start_d__6", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenCaptureAfterDelay__Start_d__6(ScreenCaptureAfterDelay__Start_d__6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay__Start_d__6", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay__Start_d__6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenCaptureAfterDelay__Start_d__6(ScreenCaptureAfterDelay__Start_d__6 const&) = delete;
+  ScreenCaptureAfterDelay__Start_d__6(ScreenCaptureAfterDelay__Start_d__6const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20672 };
@@ -299,6 +306,7 @@ public:
   /// @brief Method OnDestroy, addr 0x5f4b914, size 0xe8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [IteratorStateMachine(typeof(ScreenCaptureAfterDelay::<Start>d__6))]
   /// @brief Method Start, addr 0x5f4b8b8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
@@ -341,23 +349,26 @@ protected:
   constexpr ScreenCaptureAfterDelay();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenCaptureAfterDelay(ScreenCaptureAfterDelay&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenCaptureAfterDelay(ScreenCaptureAfterDelay const&) = delete;
+  ScreenCaptureAfterDelay(ScreenCaptureAfterDelayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20673 };
 
+  /// [Inject]
   /// @brief Field _mainEffectController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectController> ____mainEffectController;
 
+  /// [Inject]
   /// @brief Field _screenCaptureCache, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ScreenCaptureCache* ____screenCaptureCache;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ScreenCaptureAfterDelay_InitData* ____initData;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissedNoteEffectSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissedNoteEffectSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class MissedNoteEffectSpawner;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MissedNoteEffectSpawner*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissedNoteEffectSpawner*, "", "MissedNoteEffectSpawner");
+// [AddComponentMenu("Beat Saber/Gameplay/MissedNoteEffectSpawner")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -102,26 +103,30 @@ protected:
   constexpr MissedNoteEffectSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissedNoteEffectSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissedNoteEffectSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissedNoteEffectSpawner(MissedNoteEffectSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissedNoteEffectSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissedNoteEffectSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissedNoteEffectSpawner(MissedNoteEffectSpawner const&) = delete;
+  MissedNoteEffectSpawner(MissedNoteEffectSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5809 };
 
+  /// [SerializeField]
   /// @brief Field _missedNoteFlyingSpriteSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> ____missedNoteFlyingSpriteSpawner;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::CoreGameHUDController_InitData* ____initData;
 

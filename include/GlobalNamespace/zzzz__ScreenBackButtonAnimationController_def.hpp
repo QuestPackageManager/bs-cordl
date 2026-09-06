@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenBackButtonAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenBackButtonAnimationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   // @brief default ctor
   constexpr ScreenBackButtonAnimationController_AnimationType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenBackButtonAnimationController_AnimationType(int32_t value__) noexcept;
 
   /// @brief Field FadeIn value: I32(0)
@@ -145,17 +145,18 @@ protected:
   constexpr ScreenBackButtonAnimationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenBackButtonAnimationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenBackButtonAnimationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenBackButtonAnimationController(ScreenBackButtonAnimationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenBackButtonAnimationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenBackButtonAnimationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenBackButtonAnimationController(ScreenBackButtonAnimationController const&) = delete;
+  ScreenBackButtonAnimationController(ScreenBackButtonAnimationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20930 };
 
+  /// [SerializeField]
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 

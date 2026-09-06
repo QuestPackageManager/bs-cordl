@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RasterState.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RasterState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,10 +60,10 @@ public:
   // @brief default ctor
   constexpr RasterState();
 
-  // Ctor Parameters [CppParam { name: "m_CullingMode", ty: "::UnityEngine::Rendering::CullMode", modifiers: "", def_value: None }, CppParam { name: "m_OffsetUnits", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_OffsetFactor", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_DepthClip", ty: "uint8_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Conservative", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Padding1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Padding2", ty:
-  // "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_CullingMode", ty: "::UnityEngine::Rendering::CullMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OffsetUnits", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OffsetFactor", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DepthClip", ty: "uint8_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Conservative", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Padding1", ty: "uint8_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Padding2", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr RasterState(::UnityEngine::Rendering::CullMode m_CullingMode, int32_t m_OffsetUnits, float_t m_OffsetFactor, uint8_t m_DepthClip, uint8_t m_Conservative, uint8_t m_Padding1,
                         uint8_t m_Padding2) noexcept;
 

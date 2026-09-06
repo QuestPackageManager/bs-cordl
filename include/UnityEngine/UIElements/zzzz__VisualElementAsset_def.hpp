@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElementAsset.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class VisualElementAsset;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::VisualElementAsset*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElementAsset*, "UnityEngine.UIElements", "VisualElementAsset");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies UnityEngine.UIElements.PickingMode, UnityEngine.UIElements.UxmlAsset
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -79,6 +80,7 @@ public:
 
   __declspec(property(get = get_serializedData)) ::UnityEngine::UIElements::UxmlSerializedData* serializedData;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_skipClone)) bool skipClone;
 
   __declspec(property(get = get_stylesheetPaths)) ::System::Collections::Generic::List_1<::StringW>* stylesheetPaths;
@@ -92,6 +94,7 @@ public:
   static inline bool IdsPathMatchesAttributeOverrideIdsPath(::System::Collections::Generic::List_1<int32_t>* idsPath, ::System::Collections::Generic::List_1<int32_t>* attributeOverrideIdsPath,
                                                             int32_t templateId);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method Instantiate, addr 0x6cbc2d4, size 0x56c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Instantiate(::UnityEngine::UIElements::CreationContext cc);
 
@@ -191,41 +194,50 @@ protected:
   constexpr VisualElementAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementAsset(VisualElementAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementAsset(VisualElementAsset const&) = delete;
+  VisualElementAsset(VisualElementAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5197 };
 
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x48, size: 0x8, def value: None
   ::StringW ___m_Name;
 
+  /// [SerializeField]
   /// @brief Field m_RuleIndex, offset: 0x50, size: 0x4, def value: None
   int32_t ___m_RuleIndex;
 
+  /// [SerializeField]
   /// @brief Field m_Text, offset: 0x58, size: 0x8, def value: None
   ::StringW ___m_Text;
 
+  /// [SerializeField]
   /// @brief Field m_PickingMode, offset: 0x60, size: 0x4, def value: None
   ::UnityEngine::UIElements::PickingMode ___m_PickingMode;
 
+  /// [SerializeField]
   /// @brief Field m_Classes, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_Classes;
 
+  /// [SerializeField]
   /// @brief Field m_StylesheetPaths, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_StylesheetPaths;
 
+  /// [SerializeField]
   /// @brief Field m_Stylesheets, offset: 0x78, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ___m_Stylesheets;
 
+  /// [SerializeReference]
   /// @brief Field m_SerializedData, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlSerializedData* ___m_SerializedData;
 
+  /// [SerializeField]
   /// @brief Field m_SkipClone, offset: 0x88, size: 0x1, def value: None
   bool ___m_SkipClone;
 

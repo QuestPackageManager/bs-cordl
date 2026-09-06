@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\ProductDefinitionSO.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/ProductDefinitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class ProductDefinitionSO;
 // Write type traits
 MARK_REF_T(::OculusStudios::Platform::Core::ProductDefinitionSO*);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::ProductDefinitionSO*, "OculusStudios.Platform.Core", "ProductDefinitionSO");
+// [CreateAssetMenu(menuName = "Platform/Product Definition")]
 // Dependencies OculusStudios.Platform.Core.OwnershipRequirement, UnityEngine.ScriptableObject
 namespace OculusStudios::Platform::Core {
 // Is value type: false
@@ -114,26 +115,30 @@ protected:
   constexpr ProductDefinitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProductDefinitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProductDefinitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProductDefinitionSO(ProductDefinitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProductDefinitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProductDefinitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProductDefinitionSO(ProductDefinitionSO const&) = delete;
+  ProductDefinitionSO(ProductDefinitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22440 };
 
+  /// [SerializeField]
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;
 
+  /// [SerializeField]
   /// @brief Field _idForVendor, offset: 0x20, size: 0x8, def value: None
   ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* ____idForVendor;
 
+  /// [SerializeField]
   /// @brief Field _children, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::OculusStudios::Platform::Core::ProductDefinitionSO>>* ____children;
 
+  /// [SerializeField]
   /// @brief Field _ownershipRequirement, offset: 0x30, size: 0x4, def value: None
   ::OculusStudios::Platform::Core::OwnershipRequirement ____ownershipRequirement;
 

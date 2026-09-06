@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\DiagnosticsEventProvider.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/DiagnosticsEventProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   // @brief default ctor
   constexpr DiagnosticsEventProvider_WriteEventErrorCode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DiagnosticsEventProvider_WriteEventErrorCode(int32_t value__) noexcept;
 
   /// @brief Field EventTooBig value: I32(2)
@@ -170,7 +170,7 @@ public:
 
   static inline ::System::Runtime::Diagnostics::DiagnosticsEventProvider* New_ctor(::System::Guid providerGuid);
 
-  /// @brief Method OnControllerCommand, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnControllerCommand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnControllerCommand();
 
   /// @brief Method SetActivityId, addr 0x618b34c, size 0xc, virtual false, abstract: false, final false
@@ -250,13 +250,13 @@ protected:
   constexpr DiagnosticsEventProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsEventProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsEventProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticsEventProvider(DiagnosticsEventProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsEventProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsEventProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticsEventProvider(DiagnosticsEventProvider const&) = delete;
+  DiagnosticsEventProvider(DiagnosticsEventProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21320 };

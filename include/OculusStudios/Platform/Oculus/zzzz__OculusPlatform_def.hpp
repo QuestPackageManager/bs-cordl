@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Oculus\OculusPlatform.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Oculus/OculusPlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,6 +102,7 @@ DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::OculusPlatform*, "OculusS
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::OculusPlatform__InitializeUserAsync_d__26, "OculusStudios.Platform.Oculus", "OculusPlatform/<InitializeUserAsync>d__26");
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::OculusPlatform__OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync_d__19, "OculusStudios.Platform.Oculus",
                     "OculusPlatform/<OculusStudios-Platform-Core-IPlatformInternal-InitializeAsync>d__19");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
@@ -115,6 +116,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f33600, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f33af0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -125,10 +127,11 @@ public:
   // @brief default ctor
   constexpr OculusPlatform__InitializeUserAsync_d__26();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Oculus::OculusPlatform*", modifiers:
-  // "", def_value: None }, CppParam { name: "initParams", ty: "::OculusStudios::Platform::Core::PlatformInitParams*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::OculusStudios::Platform::Oculus::OculusPlatform*", modifiers: "", def_value: None, comment: None }, CppParam { name: "initParams", ty: "::OculusStudios::Platform::Core::PlatformInitParams*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>", modifiers: "", def_value: None, comment: None }]
   constexpr OculusPlatform__InitializeUserAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                       ::OculusStudios::Platform::Oculus::OculusPlatform* __4__this, ::OculusStudios::Platform::Core::PlatformInitParams* initParams,
                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __u__1) noexcept;
@@ -170,6 +173,7 @@ static_assert(offsetof(::OculusStudios::Platform::Oculus::OculusPlatform__Initia
 static_assert(sizeof(::OculusStudios::Platform::Oculus::OculusPlatform__InitializeUserAsync_d__26) == 0x38, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
@@ -183,6 +187,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f33b5c, size 0x94c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f344a8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -193,12 +198,13 @@ public:
   // @brief default ctor
   constexpr OculusPlatform__OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Oculus::OculusPlatform*", modifiers:
-  // "", def_value: None }, CppParam { name: "initParams", ty: "::OculusStudios::Platform::Core::PlatformInitParams*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>", modifiers: "", def_value: None }, CppParam { name: "__u__2",
-  // ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::OculusStudios::Platform::Oculus::OculusPlatform*", modifiers: "", def_value: None, comment: None }, CppParam { name: "initParams", ty: "::OculusStudios::Platform::Core::PlatformInitParams*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*>", modifiers: "", def_value: None, comment: None }]
   constexpr OculusPlatform__OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync_d__19(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::OculusStudios::Platform::Oculus::OculusPlatform* __4__this,
       ::OculusStudios::Platform::Core::PlatformInitParams* initParams,
@@ -317,11 +323,13 @@ public:
   /// @brief Method GetDestination, addr 0x5f33238, size 0xe4, virtual true, abstract: false, final true
   inline ::System::ValueTuple_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW> GetDestination();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.OculusPlatform::<InitializeUserAsync>d__26))]
   /// @brief Method InitializeUserAsync, addr 0x5f3331c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeUserAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
   static inline ::OculusStudios::Platform::Oculus::OculusPlatform* New_ctor();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.OculusPlatform::<OculusStudios-Platform-Core-IPlatformInternal-InitializeAsync>d__19))]
   /// @brief Method OculusStudios.Platform.Core.IPlatformInternal.InitializeAsync, addr 0x5f32eb4, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
@@ -334,6 +342,7 @@ public:
   /// @brief Method Tick, addr 0x5f32f88, size 0x4, virtual true, abstract: false, final true
   inline void Tick(float_t deltaTime);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetDestination>b__25_0, addr 0x5f3354c, size 0xb4, virtual false, abstract: false, final false
   inline bool _GetDestination_b__25_0(::OculusStudios::Platform::Core::IRichPresenceDefinition* x);
 
@@ -382,6 +391,7 @@ public:
   /// @brief Method .ctor, addr 0x5f33534, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_destinationRequestedEvent, addr 0x5f32d34, size 0xc0, virtual true, abstract: false, final true
   inline void add_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
@@ -409,6 +419,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_destinationRequestedEvent, addr 0x5f32df4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
@@ -418,17 +429,18 @@ protected:
   constexpr OculusPlatform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatform(OculusPlatform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatform(OculusPlatform const&) = delete;
+  OculusPlatform(OculusPlatformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22138 };
 
+  /// [CompilerGenerated]
   /// @brief Field destinationRequestedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* ___destinationRequestedEvent;
 

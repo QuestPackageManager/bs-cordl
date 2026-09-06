@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugOccluderStats.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugOccluderStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr DebugOccluderStats();
 
-  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subviewCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "occluderMipLayoutSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "subviewCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "occluderMipLayoutSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }]
   constexpr DebugOccluderStats(int32_t viewInstanceID, int32_t subviewCount, ::UnityEngine::Vector2Int occluderMipLayoutSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

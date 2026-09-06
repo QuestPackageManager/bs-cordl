@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\CompilerServices\AssumeRangeAttribute.hpp"
+// IWYU pragma private; include "Unity/Burst/CompilerServices/AssumeRangeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AssumeRangeAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Burst::CompilerServices::AssumeRangeAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Burst::CompilerServices::AssumeRangeAttribute*, "Unity.Burst.CompilerServices", "AssumeRangeAttribute");
+// [AttributeUsage((System.AttributeTargets)10240)]
 // Dependencies System.Attribute
 namespace Unity::Burst::CompilerServices {
 // Is value type: false
@@ -36,13 +37,13 @@ protected:
   constexpr AssumeRangeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssumeRangeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssumeRangeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssumeRangeAttribute(AssumeRangeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssumeRangeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssumeRangeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssumeRangeAttribute(AssumeRangeAttribute const&) = delete;
+  AssumeRangeAttribute(AssumeRangeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17369 };

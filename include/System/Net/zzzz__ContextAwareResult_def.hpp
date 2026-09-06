@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\ContextAwareResult.hpp"
+// IWYU pragma private; include "System/Net/ContextAwareResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_REF_T(::System::Net::ContextAwareResult___c*);
 DEFINE_IL2CPP_CLASS(::System::Net::ContextAwareResult_StateFlags, "System.Net", "ContextAwareResult/StateFlags");
 DEFINE_IL2CPP_CLASS(::System::Net::ContextAwareResult*, "System.Net", "ContextAwareResult");
 DEFINE_IL2CPP_CLASS(::System::Net::ContextAwareResult___c*, "System.Net", "ContextAwareResult/<>c");
+// [Flags]
 // Dependencies
 namespace System::Net {
 // Is value type: true
@@ -79,7 +80,7 @@ public:
   // @brief default ctor
   constexpr ContextAwareResult_StateFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ContextAwareResult_StateFlags(uint8_t value__) noexcept;
 
   /// @brief Field CaptureContext value: U8(2)
@@ -117,6 +118,7 @@ static_assert(offsetof(::System::Net::ContextAwareResult_StateFlags, value__) ==
 static_assert(sizeof(::System::Net::ContextAwareResult_StateFlags) == 0x1, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net {
 // Is value type: false
@@ -152,13 +154,13 @@ protected:
   constexpr ContextAwareResult___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContextAwareResult___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextAwareResult___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextAwareResult___c(ContextAwareResult___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContextAwareResult___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextAwareResult___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextAwareResult___c(ContextAwareResult___c const&) = delete;
+  ContextAwareResult___c(ContextAwareResult___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11443 };
@@ -256,13 +258,13 @@ protected:
   constexpr ContextAwareResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContextAwareResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextAwareResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextAwareResult(ContextAwareResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContextAwareResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextAwareResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextAwareResult(ContextAwareResult const&) = delete;
+  ContextAwareResult(ContextAwareResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11444 };

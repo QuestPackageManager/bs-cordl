@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleProperty.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleProperty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class StyleProperty;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::StyleProperty*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleProperty*, "UnityEngine.UIElements", "StyleProperty");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.UIElements.StyleValueHandle
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -92,23 +93,26 @@ protected:
   constexpr StyleProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleProperty(StyleProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleProperty(StyleProperty const&) = delete;
+  StyleProperty(StylePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5062 };
 
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
 
+  /// [SerializeField]
   /// @brief Field m_Line, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_Line;
 
+  /// [SerializeField]
   /// @brief Field m_Values, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> ___m_Values;
 

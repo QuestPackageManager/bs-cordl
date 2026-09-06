@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MinIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MinIntParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class MinIntParameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::MinIntParameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::MinIntParameter*, "UnityEngine.Rendering", "MinIntParameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.IntParameter
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -48,13 +49,13 @@ protected:
   constexpr MinIntParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MinIntParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MinIntParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MinIntParameter(MinIntParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MinIntParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MinIntParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MinIntParameter(MinIntParameter const&) = delete;
+  MinIntParameter(MinIntParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12339 };

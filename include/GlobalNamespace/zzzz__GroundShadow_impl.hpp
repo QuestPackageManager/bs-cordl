@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GroundShadow.hpp"
+// IWYU pragma private; include "GlobalNamespace/GroundShadow.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GroundShadow_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GroundShadow.OnEnable

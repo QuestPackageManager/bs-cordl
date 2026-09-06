@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\TypeLimiter.hpp"
+// IWYU pragma private; include "System/Data/TypeLimiter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ DEFINE_IL2CPP_CLASS(::System::Data::Scope_TypeLimiter___c*, "System.Data", "Type
 DEFINE_IL2CPP_CLASS(::System::Data::TypeLimiter*, "System.Data", "TypeLimiter");
 DEFINE_IL2CPP_CLASS(::System::Data::TypeLimiter_Scope*, "System.Data", "TypeLimiter/Scope");
 DEFINE_IL2CPP_CLASS(::System::Data::TypeLimiter___c*, "System.Data", "TypeLimiter/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Data {
 // Is value type: false
@@ -95,13 +96,13 @@ protected:
   constexpr Scope_TypeLimiter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scope_TypeLimiter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scope_TypeLimiter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scope_TypeLimiter___c(Scope_TypeLimiter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scope_TypeLimiter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scope_TypeLimiter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scope_TypeLimiter___c(Scope_TypeLimiter___c const&) = delete;
+  Scope_TypeLimiter___c(Scope_TypeLimiter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13749 };
@@ -142,7 +143,8 @@ public:
   /// @brief Method IsTypeUnconditionallyAllowed, addr 0x601aed4, size 0x1b4, virtual false, abstract: false, final false
   static inline bool IsTypeUnconditionallyAllowed(::System::Type* type);
 
-  static inline ::System::Data::TypeLimiter_Scope* New_ctor(::System::Data::TypeLimiter_Scope* previousScope, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes);
+  static inline ::System::Data::TypeLimiter_Scope* New_ctor(/* [Nullable(2)] */ ::System::Data::TypeLimiter_Scope* previousScope,
+                                                            ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes);
 
   constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>* const& __cordl_internal_get_m_allowedTypes() const;
 
@@ -157,7 +159,7 @@ public:
   constexpr void __cordl_internal_set_m_previousScope(::System::Data::TypeLimiter_Scope* value);
 
   /// @brief Method .ctor, addr 0x601a96c, size 0x18c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::TypeLimiter_Scope* previousScope, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes);
+  inline void _ctor(/* [Nullable(2)] */ ::System::Data::TypeLimiter_Scope* previousScope, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes);
 
   static inline ::System::Collections::Generic::HashSet_1<::System::Type*>* getStaticF_s_allowedTypes();
 
@@ -172,13 +174,13 @@ protected:
   constexpr TypeLimiter_Scope();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter_Scope", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter_Scope", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeLimiter_Scope(TypeLimiter_Scope&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter_Scope", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter_Scope", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeLimiter_Scope(TypeLimiter_Scope const&) = delete;
+  TypeLimiter_Scope(TypeLimiter_Scopeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13750 };
@@ -186,6 +188,7 @@ public:
   /// @brief Field m_allowedTypes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::System::Type*>* ___m_allowedTypes;
 
+  /// [Nullable(2)]
   /// @brief Field m_previousScope, offset: 0x18, size: 0x8, def value: None
   ::System::Data::TypeLimiter_Scope* ___m_previousScope;
 
@@ -199,6 +202,7 @@ static_assert(offsetof(::System::Data::TypeLimiter_Scope, ___m_previousScope) ==
 static_assert(sizeof(::System::Data::TypeLimiter_Scope) == 0x20, "Size mismatch!");
 
 } // namespace System::Data
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Data {
 // Is value type: false
@@ -244,13 +248,13 @@ protected:
   constexpr TypeLimiter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeLimiter___c(TypeLimiter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeLimiter___c(TypeLimiter___c const&) = delete;
+  TypeLimiter___c(TypeLimiter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13751 };
@@ -278,9 +282,11 @@ public:
   /// @brief Field s_activeScope, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_activeScope, put = setStaticF_s_activeScope)) ::System::Data::TypeLimiter_Scope* s_activeScope;
 
+  /// [NullableContext(2)]
   /// @brief Method Capture, addr 0x601a3dc, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Data::TypeLimiter* Capture();
 
+  /// [NullableContext(2)]
   /// @brief Method EnsureTypeIsAllowed, addr 0x601a464, size 0xc8, virtual false, abstract: false, final false
   static inline void EnsureTypeIsAllowed(::System::Type* type, ::System::Data::TypeLimiter* capturedLimiter);
 
@@ -320,13 +326,13 @@ protected:
   constexpr TypeLimiter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeLimiter(TypeLimiter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeLimiter(TypeLimiter const&) = delete;
+  TypeLimiter(TypeLimiterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13752 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Lookup_2.hpp"
+// IWYU pragma private; include "System/Linq/Lookup_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::Grouping_Lookup_2__GetEnumerator_d__
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::Lookup_2, "System.Linq", "Lookup`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::Lookup_2_Grouping, "System.Linq", "Lookup`2/Grouping");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::Lookup_2__GetEnumerator_d__12, "System.Linq", "Lookup`2/<GetEnumerator>d__12");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Linq {
 // cpp template
@@ -108,17 +109,22 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Linq::Grouping_Lookup_2__GetEnumerator_d__7<TKey, TElement>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<TElement>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TElement System_Collections_Generic_IEnumerator_TElement__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -146,6 +152,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -164,13 +171,13 @@ protected:
   constexpr Grouping_Lookup_2__GetEnumerator_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Grouping_Lookup_2__GetEnumerator_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Grouping_Lookup_2__GetEnumerator_d__7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Grouping_Lookup_2__GetEnumerator_d__7(Grouping_Lookup_2__GetEnumerator_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Grouping_Lookup_2__GetEnumerator_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Grouping_Lookup_2__GetEnumerator_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Grouping_Lookup_2__GetEnumerator_d__7(Grouping_Lookup_2__GetEnumerator_d__7 const&) = delete;
+  Grouping_Lookup_2__GetEnumerator_d__7(Grouping_Lookup_2__GetEnumerator_d__7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16091 };
@@ -246,6 +253,7 @@ public:
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(TElement element);
 
+  /// [IteratorStateMachine(typeof(System.Linq.Lookup`2::Grouping::<GetEnumerator>d__7<TKey, TElement>))]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TElement>* GetEnumerator();
 
@@ -353,13 +361,13 @@ protected:
   constexpr Lookup_2_Grouping();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2_Grouping", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2_Grouping", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Lookup_2_Grouping(Lookup_2_Grouping&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2_Grouping", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2_Grouping", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Lookup_2_Grouping(Lookup_2_Grouping const&) = delete;
+  Lookup_2_Grouping(Lookup_2_Groupingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16092 };
@@ -386,6 +394,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Linq {
 // cpp template
@@ -424,17 +433,22 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Linq::Lookup_2__GetEnumerator_d__12<TKey, TElement>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.IGrouping<TKey,TElement>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Linq::IGrouping_2<TKey, TElement>* System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey_TElement___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -462,6 +476,7 @@ public:
 
   constexpr void __cordl_internal_set__g_5__2(::System::Linq::Lookup_2_Grouping<TKey, TElement>* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -481,13 +496,13 @@ protected:
   constexpr Lookup_2__GetEnumerator_d__12();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2__GetEnumerator_d__12", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2__GetEnumerator_d__12", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Lookup_2__GetEnumerator_d__12(Lookup_2__GetEnumerator_d__12&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2__GetEnumerator_d__12", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2__GetEnumerator_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Lookup_2__GetEnumerator_d__12(Lookup_2__GetEnumerator_d__12 const&) = delete;
+  Lookup_2__GetEnumerator_d__12(Lookup_2__GetEnumerator_d__12const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16093 };
@@ -508,6 +523,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
+// [DefaultMember("Item")]
 // Dependencies System.Linq.Lookup`2::Grouping<TKey, TElement>, System.Object
 namespace System::Linq {
 // cpp template
@@ -544,6 +560,7 @@ public:
   static inline ::System::Linq::Lookup_2<TKey, TElement>* Create(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector,
                                                                  ::System::Func_2<TSource, TElement>* elementSelector, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
+  /// [IteratorStateMachine(typeof(System.Linq.Lookup`2::<GetEnumerator>d__12<TKey, TElement>))]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>* GetEnumerator();
 
@@ -601,13 +618,13 @@ protected:
   constexpr Lookup_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Lookup_2(Lookup_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lookup_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Lookup_2(Lookup_2 const&) = delete;
+  Lookup_2(Lookup_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16094 };

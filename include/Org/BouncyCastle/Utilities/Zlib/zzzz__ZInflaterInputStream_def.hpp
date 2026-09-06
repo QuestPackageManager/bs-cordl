@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\ZInflaterInputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/ZInflaterInputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class ZInflaterInputStream;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream*, "Org.BouncyCastle.Utilities.Zlib", "ZInflaterInputStream");
+// [Obsolete("Use \'ZInputStream\' instead")]
 // Dependencies System.IO.Stream
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
@@ -152,13 +153,13 @@ protected:
   constexpr ZInflaterInputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZInflaterInputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZInflaterInputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZInflaterInputStream(ZInflaterInputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZInflaterInputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZInflaterInputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZInflaterInputStream(ZInflaterInputStream const&) = delete;
+  ZInflaterInputStream(ZInflaterInputStreamconst&) = delete;
 
   /// @brief Field BUFSIZE offset 0xffffffff size 0x4
   static constexpr int32_t BUFSIZE{ static_cast<int32_t>(0x1060) };

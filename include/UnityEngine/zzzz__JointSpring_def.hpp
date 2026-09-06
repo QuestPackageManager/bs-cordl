@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JointSpring.hpp"
+// IWYU pragma private; include "UnityEngine/JointSpring.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr JointSpring();
 
-  // Ctor Parameters [CppParam { name: "spring", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "damper", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "targetPosition", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "spring", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "damper", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "targetPosition", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr JointSpring(float_t spring, float_t damper, float_t targetPosition) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

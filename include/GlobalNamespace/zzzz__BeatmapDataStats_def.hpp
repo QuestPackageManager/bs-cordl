@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataStats.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   // @brief default ctor
   constexpr BeatmapDataStats_Objects();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapDataStats_Objects(int32_t value__) noexcept;
 
   /// @brief Field Notes value: I32(0)
@@ -133,7 +133,7 @@ public:
   // @brief default ctor
   constexpr BeatmapDataStats_Events();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapDataStats_Events(int32_t value__) noexcept;
 
   /// @brief Field BPM value: I32(0)
@@ -234,13 +234,13 @@ protected:
   constexpr BeatmapDataStats();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStats", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStats", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataStats(BeatmapDataStats&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStats", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStats", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataStats(BeatmapDataStats const&) = delete;
+  BeatmapDataStats(BeatmapDataStatsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6592 };

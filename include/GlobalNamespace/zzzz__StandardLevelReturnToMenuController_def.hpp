@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelReturnToMenuController.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelReturnToMenuController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class StandardLevelReturnToMenuController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StandardLevelReturnToMenuController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandardLevelReturnToMenuController*, "", "StandardLevelReturnToMenuController");
+// [AddComponentMenu("Beat Saber/Gameplay/StandardLevelReturnToMenuController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -68,20 +69,22 @@ protected:
   constexpr StandardLevelReturnToMenuController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelReturnToMenuController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelReturnToMenuController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelReturnToMenuController(StandardLevelReturnToMenuController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelReturnToMenuController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelReturnToMenuController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelReturnToMenuController(StandardLevelReturnToMenuController const&) = delete;
+  StandardLevelReturnToMenuController(StandardLevelReturnToMenuControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6045 };
 
+  /// [Inject]
   /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::StandardLevelScenesTransitionSetupData* ____standardLevelSceneSetupData;
 
+  /// [Inject]
   /// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 

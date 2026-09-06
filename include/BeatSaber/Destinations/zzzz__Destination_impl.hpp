@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\Destination.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/Destination.hpp"
 #include "BeatSaber/Destinations/zzzz__DestinationFlags_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__DestinationTarget_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -139,7 +139,7 @@ constexpr void BeatSaber::Destinations::Destination::__cordl_internal_set_missio
   this->___missionDestinationParameters = value;
 }
 inline void BeatSaber::Destinations::Destination::_ctor(::BeatSaber::Destinations::DestinationTarget stage, ::BeatSaber::Destinations::LevelStartDestinationParameters* levelStartDestination,
-                                                        ::ArrayW<::StringW> arguments, ::BeatSaber::Destinations::DestinationFlags destinationFlags,
+                                                        /* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::StringW> arguments, ::BeatSaber::Destinations::DestinationFlags destinationFlags,
                                                         ::BeatSaber::Destinations::MissionDestinationParameters* missionDestinationParameters,
                                                         ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation) {
   static auto* ___internal_method =
@@ -166,7 +166,8 @@ inline bool BeatSaber::Destinations::Destination::get_shouldMockOnlineServices()
 }
 inline ::BeatSaber::Destinations::Destination* BeatSaber::Destinations::Destination::New_ctor(::BeatSaber::Destinations::DestinationTarget stage,
                                                                                               ::BeatSaber::Destinations::LevelStartDestinationParameters* levelStartDestination,
-                                                                                              ::ArrayW<::StringW> arguments, ::BeatSaber::Destinations::DestinationFlags destinationFlags,
+                                                                                              /* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::StringW> arguments,
+                                                                                              ::BeatSaber::Destinations::DestinationFlags destinationFlags,
                                                                                               ::BeatSaber::Destinations::MissionDestinationParameters* missionDestinationParameters,
                                                                                               ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation) {
   return THROW_UNLESS(::i2c::no_logger{},

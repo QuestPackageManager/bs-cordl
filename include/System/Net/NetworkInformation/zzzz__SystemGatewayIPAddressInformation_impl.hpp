@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\SystemGatewayIPAddressInformation.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/SystemGatewayIPAddressInformation.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__SystemGatewayIPAddressInformation_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"

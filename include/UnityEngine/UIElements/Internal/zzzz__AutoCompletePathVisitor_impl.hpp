@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\AutoCompletePathVisitor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/AutoCompletePathVisitor.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__AutoCompletePathVisitor_def.hpp"
@@ -250,7 +251,7 @@ template <typename TContainer> constexpr UnityEngine::UIElements::Internal::Auto
 template <typename TContainer> constexpr ::System::IDisposable* UnityEngine::UIElements::Internal::AutoCompletePathVisitor_InspectedTypeScope_1<TContainer>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_VisitContext", ty: "::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_VisitContext", ty: "::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TContainer>
 constexpr ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_InspectedTypeScope_1<TContainer>::AutoCompletePathVisitor_InspectedTypeScope_1(
     ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext* m_VisitContext) noexcept {
@@ -336,7 +337,7 @@ constexpr UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitedProp
 constexpr ::System::IDisposable* UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitedPropertyScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_VisitContext", ty: "::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_VisitContext", ty: "::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitedPropertyScope::AutoCompletePathVisitor_VisitedPropertyScope(
     ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext* m_VisitContext) noexcept {
   this->m_VisitContext = m_VisitContext;
@@ -478,6 +479,7 @@ inline void UnityEngine::UIElements::Internal::AutoCompletePathVisitor::Unity_Pr
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, property, container);
 }
 template <typename TContainer, typename TList, typename TElement>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
 inline void UnityEngine::UIElements::Internal::AutoCompletePathVisitor::Unity_Properties_IListPropertyVisitor_Visit(::Unity::Properties::Property_2<TContainer, TList>* property,
                                                                                                                     ::by_ref<TContainer> container, ::by_ref<TList> list) {
   static auto* ___internal_method_base =

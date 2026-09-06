@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspMvcAreaPartialViewLocationFormatAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcAreaPartialViewLocationFormatAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AspMvcAreaPartialViewLocationFormatAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute*, "JetBrains.Annotations", "AspMvcAreaPartialViewLocationFormatAttribute");
+// [AttributeUsage((System.AttributeTargets)385, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -20,12 +21,13 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE AspMvcAreaPartialViewLocationFormatAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [NotNull]
   __declspec(property(get = get_Format, put = set_Format)) ::StringW Format;
 
   /// @brief Field <Format>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Format_k__BackingField, put = __cordl_internal_set__Format_k__BackingField)) ::StringW _Format_k__BackingField;
 
-  static inline ::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute* New_ctor(::StringW format);
+  static inline ::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute* New_ctor(/* [NotNull] */ ::StringW format);
 
   constexpr ::StringW const& __cordl_internal_get__Format_k__BackingField() const;
 
@@ -34,11 +36,13 @@ public:
   constexpr void __cordl_internal_set__Format_k__BackingField(::StringW value);
 
   /// @brief Method .ctor, addr 0x6e3e080, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW format);
+  inline void _ctor(/* [NotNull] */ ::StringW format);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Format, addr 0x6e3e088, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Format, addr 0x6e3e090, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
@@ -48,17 +52,18 @@ protected:
   constexpr AspMvcAreaPartialViewLocationFormatAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaPartialViewLocationFormatAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaPartialViewLocationFormatAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspMvcAreaPartialViewLocationFormatAttribute(AspMvcAreaPartialViewLocationFormatAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaPartialViewLocationFormatAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaPartialViewLocationFormatAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AspMvcAreaPartialViewLocationFormatAttribute(AspMvcAreaPartialViewLocationFormatAttribute const&) = delete;
+  AspMvcAreaPartialViewLocationFormatAttribute(AspMvcAreaPartialViewLocationFormatAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22562 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Format>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Format_k__BackingField;
 

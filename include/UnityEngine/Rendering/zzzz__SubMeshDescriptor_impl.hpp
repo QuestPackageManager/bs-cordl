@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SubMeshDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SubMeshDescriptor.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__MeshTopology_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SubMeshDescriptor_def.hpp"
@@ -283,11 +283,11 @@ inline ::StringW UnityEngine::Rendering::SubMeshDescriptor::ToString() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::SubMeshDescriptor>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_bounds_k__BackingField", ty: "::UnityEngine::Bounds", modifiers: "", def_value: Some("{}") }, CppParam { name: "_topology_k__BackingField", ty:
-// "::UnityEngine::MeshTopology", modifiers: "", def_value: Some("{}") }, CppParam { name: "_indexStart_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_indexCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_baseVertex_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "_firstVertex_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_vertexCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "_bounds_k__BackingField", ty: "::UnityEngine::Bounds", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_topology_k__BackingField", ty:
+// "::UnityEngine::MeshTopology", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_indexStart_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_indexCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_baseVertex_k__BackingField", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_firstVertex_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_vertexCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SubMeshDescriptor::SubMeshDescriptor(::UnityEngine::Bounds _bounds_k__BackingField, ::UnityEngine::MeshTopology _topology_k__BackingField,
                                                                          int32_t _indexStart_k__BackingField, int32_t _indexCount_k__BackingField, int32_t _baseVertex_k__BackingField,
                                                                          int32_t _firstVertex_k__BackingField, int32_t _vertexCount_k__BackingField) noexcept {

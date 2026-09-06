@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\WingedEdge.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/WingedEdge.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,6 +68,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::WingedEdge*, "UnityEngine.ProBuilder", "WingedEdge");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::WingedEdge___c*, "UnityEngine.ProBuilder", "WingedEdge/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0*, "UnityEngine.ProBuilder", "WingedEdge/<>c__DisplayClass32_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -113,13 +114,13 @@ protected:
   constexpr WingedEdge___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WingedEdge___c(WingedEdge___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WingedEdge___c(WingedEdge___c const&) = delete;
+  WingedEdge___c(WingedEdge___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16831 };
@@ -130,6 +131,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::WingedEdge___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -160,13 +162,13 @@ protected:
   constexpr WingedEdge___c__DisplayClass32_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge___c__DisplayClass32_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge___c__DisplayClass32_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WingedEdge___c__DisplayClass32_0(WingedEdge___c__DisplayClass32_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge___c__DisplayClass32_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge___c__DisplayClass32_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WingedEdge___c__DisplayClass32_0(WingedEdge___c__DisplayClass32_0 const&) = delete;
+  WingedEdge___c__DisplayClass32_0(WingedEdge___c__DisplayClass32_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16832 };
@@ -305,18 +307,23 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::WingedEdge*>* getStaticF_k_OppositeEdgeDictionary();
 
+  /// [CompilerGenerated]
   /// @brief Method get_edge, addr 0x67004e8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::EdgeLookup get_edge();
 
+  /// [CompilerGenerated]
   /// @brief Method get_face, addr 0x67004fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* get_face();
 
+  /// [CompilerGenerated]
   /// @brief Method get_next, addr 0x670050c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::WingedEdge* get_next();
 
+  /// [CompilerGenerated]
   /// @brief Method get_opposite, addr 0x670052c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::WingedEdge* get_opposite();
 
+  /// [CompilerGenerated]
   /// @brief Method get_previous, addr 0x670051c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::WingedEdge* get_previous();
 
@@ -325,18 +332,23 @@ public:
 
   static inline void setStaticF_k_OppositeEdgeDictionary(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::WingedEdge*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_edge, addr 0x67004f4, size 0x8, virtual false, abstract: false, final false
   inline void set_edge(::UnityEngine::ProBuilder::EdgeLookup value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_face, addr 0x6700504, size 0x8, virtual false, abstract: false, final false
   inline void set_face(::UnityEngine::ProBuilder::Face* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_next, addr 0x6700514, size 0x8, virtual false, abstract: false, final false
   inline void set_next(::UnityEngine::ProBuilder::WingedEdge* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_opposite, addr 0x6700534, size 0x8, virtual false, abstract: false, final false
   inline void set_opposite(::UnityEngine::ProBuilder::WingedEdge* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_previous, addr 0x6700524, size 0x8, virtual false, abstract: false, final false
   inline void set_previous(::UnityEngine::ProBuilder::WingedEdge* value);
 
@@ -346,29 +358,34 @@ protected:
   constexpr WingedEdge();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WingedEdge(WingedEdge&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WingedEdge", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WingedEdge(WingedEdge const&) = delete;
+  WingedEdge(WingedEdgeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16833 };
 
+  /// [CompilerGenerated]
   /// @brief Field <edge>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::ProBuilder::EdgeLookup ____edge_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <face>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Face* ____face_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <next>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::WingedEdge* ____next_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <previous>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::WingedEdge* ____previous_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <opposite>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::WingedEdge* ____opposite_k__BackingField;
 

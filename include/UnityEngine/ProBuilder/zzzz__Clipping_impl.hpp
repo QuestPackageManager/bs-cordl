@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Clipping.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Clipping.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Clipping_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Clipping_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::Clipping_OutCode::Clipping_OutCode(int32_t value__) noexcept {
   this->value__ = value__;
 }

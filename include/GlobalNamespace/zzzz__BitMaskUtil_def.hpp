@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BitMaskUtil.hpp"
+// IWYU pragma private; include "GlobalNamespace/BitMaskUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class BitMaskUtil;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BitMaskUtil*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BitMaskUtil*, "", "BitMaskUtil");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -26,11 +27,13 @@ public:
   /// @brief Method NumberOfSetBits, addr 0x32616a4, size 0x30, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
+  /// [Extension]
   /// @brief Method ShiftLeft, addr 0x32616d4, size 0x44, virtual false, abstract: false, final false
-  static inline uint64_t ShiftLeft(::by_ref<uint64_t> value, ::by_ref<int32_t> shift);
+  static inline uint64_t ShiftLeft(/* [IsReadOnly] */ ::by_ref<uint64_t> value, /* [IsReadOnly] */ ::by_ref<int32_t> shift);
 
+  /// [Extension]
   /// @brief Method ShiftRight, addr 0x3261718, size 0x5c, virtual false, abstract: false, final false
-  static inline uint64_t ShiftRight(::by_ref<uint64_t> value, ::by_ref<int32_t> shift);
+  static inline uint64_t ShiftRight(/* [IsReadOnly] */ ::by_ref<uint64_t> value, /* [IsReadOnly] */ ::by_ref<int32_t> shift);
 
 protected:
   // Ctor Parameters []
@@ -38,13 +41,13 @@ protected:
   constexpr BitMaskUtil();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitMaskUtil", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitMaskUtil", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitMaskUtil(BitMaskUtil&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitMaskUtil", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitMaskUtil", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitMaskUtil(BitMaskUtil const&) = delete;
+  BitMaskUtil(BitMaskUtilconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21285 };

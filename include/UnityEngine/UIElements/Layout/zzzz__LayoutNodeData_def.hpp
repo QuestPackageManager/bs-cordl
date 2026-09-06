@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutNodeData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutNodeData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus);
 MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutNodeData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus, "UnityEngine.UIElements.Layout", "LayoutNodeData/FlexStatus");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutNodeData, "UnityEngine.UIElements.Layout", "LayoutNodeData");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -59,7 +60,7 @@ public:
   // @brief default ctor
   constexpr LayoutNodeData_FlexStatus();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutNodeData_FlexStatus(int32_t value__) noexcept;
 
   /// @brief Field DependsOnParentSize value: I32(64)
@@ -127,13 +128,14 @@ public:
   // @brief default ctor
   constexpr LayoutNodeData();
 
-  // Ctor Parameters [CppParam { name: "ResolvedDimensions", ty: "::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None },
-  // CppParam { name: "TargetSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ManagedMeasureFunctionIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "ManagedBaselineFunctionIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ManagedOwnerIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "LineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Config", ty: "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: None }, CppParam { name:
-  // "Parent", ty: "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: None }, CppParam { name: "NextChild", ty: "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers:
-  // "", def_value: None }, CppParam { name: "Children", ty: "::UnityEngine::UIElements::Layout::LayoutList_1<::UnityEngine::UIElements::Layout::LayoutHandle>", modifiers: "", def_value: None },
-  // CppParam { name: "Status", ty: "::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ResolvedDimensions", ty: "::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "TargetSize", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ManagedMeasureFunctionIndex", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ManagedBaselineFunctionIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ManagedOwnerIndex", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "LineIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Config", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "Parent", ty: "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "NextChild", ty: "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "Children", ty: "::UnityEngine::UIElements::Layout::LayoutList_1<::UnityEngine::UIElements::Layout::LayoutHandle>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Status", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutNodeData_FlexStatus", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutNodeData(::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue> ResolvedDimensions, float_t TargetSize,
                            int32_t ManagedMeasureFunctionIndex, int32_t ManagedBaselineFunctionIndex, int32_t ManagedOwnerIndex, int32_t LineIndex,
                            ::UnityEngine::UIElements::Layout::LayoutHandle Config, ::UnityEngine::UIElements::Layout::LayoutHandle Parent, ::UnityEngine::UIElements::Layout::LayoutHandle NextChild,

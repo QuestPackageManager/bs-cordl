@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HableCurve.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HableCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,13 +117,13 @@ protected:
   constexpr HableCurve_Segment();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Segment", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Segment", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HableCurve_Segment(HableCurve_Segment&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Segment", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Segment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HableCurve_Segment(HableCurve_Segment const&) = delete;
+  HableCurve_Segment(HableCurve_Segmentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12297 };
@@ -175,10 +175,10 @@ public:
   // @brief default ctor
   constexpr HableCurve_DirectParams();
 
-  // Ctor Parameters [CppParam { name: "x0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "x1", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "y1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "W", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "overshootX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "overshootY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gamma", ty:
-  // "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y0", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "x1", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y1", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "W",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "overshootX", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "overshootY", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gamma", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr HableCurve_DirectParams(float_t x0, float_t y0, float_t x1, float_t y1, float_t W, float_t overshootX, float_t overshootY, float_t gamma) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -295,13 +295,13 @@ protected:
   constexpr HableCurve_Uniforms();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Uniforms", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Uniforms", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HableCurve_Uniforms(HableCurve_Uniforms&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Uniforms", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Uniforms", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HableCurve_Uniforms(HableCurve_Uniforms const&) = delete;
+  HableCurve_Uniforms(HableCurve_Uniformsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12299 };
@@ -415,27 +415,35 @@ public:
   /// @brief Method .ctor, addr 0x67c4aec, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_inverseWhitePoint, addr 0x67c4abc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inverseWhitePoint();
 
+  /// [CompilerGenerated]
   /// @brief Method get_whitePoint, addr 0x67c4aac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_whitePoint();
 
+  /// [CompilerGenerated]
   /// @brief Method get_x0, addr 0x67c4acc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x0();
 
+  /// [CompilerGenerated]
   /// @brief Method get_x1, addr 0x67c4adc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x1();
 
+  /// [CompilerGenerated]
   /// @brief Method set_inverseWhitePoint, addr 0x67c4ac4, size 0x8, virtual false, abstract: false, final false
   inline void set_inverseWhitePoint(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_whitePoint, addr 0x67c4ab4, size 0x8, virtual false, abstract: false, final false
   inline void set_whitePoint(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_x0, addr 0x67c4ad4, size 0x8, virtual false, abstract: false, final false
   inline void set_x0(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_x1, addr 0x67c4ae4, size 0x8, virtual false, abstract: false, final false
   inline void set_x1(float_t value);
 
@@ -445,26 +453,30 @@ protected:
   constexpr HableCurve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HableCurve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HableCurve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HableCurve(HableCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HableCurve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HableCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HableCurve(HableCurve const&) = delete;
+  HableCurve(HableCurveconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12300 };
 
+  /// [CompilerGenerated]
   /// @brief Field <whitePoint>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____whitePoint_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <inverseWhitePoint>k__BackingField, offset: 0x14, size: 0x4, def value: None
   float_t ____inverseWhitePoint_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <x0>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t ____x0_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <x1>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   float_t ____x1_k__BackingField;
 

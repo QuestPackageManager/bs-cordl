@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\BaseBezierCurve.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/BaseBezierCurve.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/UnityExtension/BezierCurves/zzzz__BaseBezierCurve_def.hpp"
 #include "BGLib/UnityExtension/BezierCurves/zzzz__CurveData_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\SimpleMissionObjective.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/SimpleMissionObjective.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ public:
   static inline ::BeatSaber::Destinations::SimpleMissionObjective* New_ctor(::BeatSaber::Destinations::MissionObjectiveType type,
                                                                             ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType referenceValueComparisonType, int32_t referenceValue);
 
+  /// [NullableContext(1)]
   /// @brief Method ToMissionObjective, addr 0x328105c, size 0x14c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* ToMissionObjective(::GlobalNamespace::MissionObjectiveTypeCollection* collection);
 
@@ -92,23 +93,26 @@ protected:
   constexpr SimpleMissionObjective();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleMissionObjective", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleMissionObjective", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleMissionObjective(SimpleMissionObjective&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleMissionObjective", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleMissionObjective", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleMissionObjective(SimpleMissionObjective const&) = delete;
+  SimpleMissionObjective(SimpleMissionObjectiveconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23062 };
 
+  /// [SerializeField]
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::BeatSaber::Destinations::MissionObjectiveType ____type;
 
+  /// [SerializeField]
   /// @brief Field _referenceValueComparisonType, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType ____referenceValueComparisonType;
 
+  /// [SerializeField]
   /// @brief Field _referenceValue, offset: 0x18, size: 0x4, def value: None
   int32_t ____referenceValue;
 

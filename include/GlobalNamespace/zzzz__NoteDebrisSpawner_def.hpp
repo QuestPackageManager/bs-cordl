@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteDebrisSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteDebrisSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ class NoteDebrisSpawner;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NoteDebrisSpawner*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteDebrisSpawner*, "", "NoteDebrisSpawner");
+// [AddComponentMenu("Beat Saber/Gameplay/NoteDebrisSpawner")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -189,13 +190,13 @@ protected:
   constexpr NoteDebrisSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteDebrisSpawner(NoteDebrisSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteDebrisSpawner(NoteDebrisSpawner const&) = delete;
+  NoteDebrisSpawner(NoteDebrisSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5812 };
@@ -209,30 +210,39 @@ public:
   /// @brief Field kMinLifeTime offset 0xffffffff size 0x4
   static constexpr float_t kMinLifeTime{ static_cast<float_t>(0.2f) };
 
+  /// [SerializeField]
   /// @brief Field _rotation, offset: 0x20, size: 0x4, def value: None
   float_t ____rotation;
 
+  /// [SerializeField]
   /// @brief Field _cutDirMultiplier, offset: 0x24, size: 0x4, def value: None
   float_t ____cutDirMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _fromCenterSpeed, offset: 0x28, size: 0x4, def value: None
   float_t ____fromCenterSpeed;
 
+  /// [SerializeField]
   /// @brief Field _moveSpeedMultiplier, offset: 0x2c, size: 0x4, def value: None
   float_t ____moveSpeedMultiplier;
 
+  /// [Inject(Id = (NoteData::GameplayType)0)]
   /// @brief Field _normalNotesDebrisPool, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::NoteDebris_Pool* ____normalNotesDebrisPool;
 
+  /// [Inject(Id = (NoteData::GameplayType)2)]
   /// @brief Field _burstSliderHeadNotesDebrisPool, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::NoteDebris_Pool* ____burstSliderHeadNotesDebrisPool;
 
+  /// [Inject(Id = (NoteData::GameplayType)3)]
   /// @brief Field _burstSliderElementNotesDebrisPool, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::NoteDebris_Pool* ____burstSliderElementNotesDebrisPool;
 
+  /// [Inject]
   /// @brief Field _random, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IRandom* ____random;
 
+  /// [Inject]
   /// @brief Field _determinismConfig, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
 

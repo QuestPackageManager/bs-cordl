@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\IconAndTextSegmentedControl.hpp"
+// IWYU pragma private; include "HMUI/IconAndTextSegmentedControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,21 +81,27 @@ public:
   /// @brief Method .ctor, addr 0x5f560a8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* icon, ::StringW text, bool interactable);
 
+  /// [CompilerGenerated]
   /// @brief Method get_icon, addr 0x5f56078, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
+  /// [CompilerGenerated]
   /// @brief Method get_interactable, addr 0x5f56098, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_text, addr 0x5f56088, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
+  /// [CompilerGenerated]
   /// @brief Method set_icon, addr 0x5f56080, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_interactable, addr 0x5f560a0, size 0x8, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_text, addr 0x5f56090, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
@@ -105,23 +111,26 @@ protected:
   constexpr IconAndTextSegmentedControl_DataItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControl_DataItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControl_DataItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IconAndTextSegmentedControl_DataItem(IconAndTextSegmentedControl_DataItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControl_DataItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControl_DataItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IconAndTextSegmentedControl_DataItem(IconAndTextSegmentedControl_DataItem const&) = delete;
+  IconAndTextSegmentedControl_DataItem(IconAndTextSegmentedControl_DataItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23131 };
 
+  /// [CompilerGenerated]
   /// @brief Field <icon>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____icon_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <text>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____text_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <interactable>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____interactable_k__BackingField;
 
@@ -232,26 +241,31 @@ protected:
   constexpr IconAndTextSegmentedControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IconAndTextSegmentedControl(IconAndTextSegmentedControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IconAndTextSegmentedControl(IconAndTextSegmentedControl const&) = delete;
+  IconAndTextSegmentedControl(IconAndTextSegmentedControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23132 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _firstCellPrefab, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::IconAndTextSegmentedControlCell> ____firstCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _lastCellPrefab, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::HMUI::IconAndTextSegmentedControlCell> ____lastCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _singleCellPrefab, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::HMUI::IconAndTextSegmentedControlCell> ____singleCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _middleCellPrefab, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::IconAndTextSegmentedControlCell> ____middleCellPrefab;
 

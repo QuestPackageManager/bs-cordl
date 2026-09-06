@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneRoom.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneRoom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ MARK_REF_T(::GlobalNamespace::OVRSceneRoom*);
 MARK_VAL_T(::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRSceneRoom*, "", "OVRSceneRoom");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19, "", "OVRSceneRoom/<LoadRoom>d__19");
+// [CompilerGenerated]
 // Dependencies OVRAnchor, OVRObjectPool::HashSetScope`1<T>, OVRObjectPool::ListScope`1<T>, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>, OVRTask`1<TResult>, System.Guid
 namespace GlobalNamespace {
 // Is value type: true
@@ -73,6 +74,7 @@ public:
   /// @brief Method MoveNext, addr 0x5ecebc0, size 0x11a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5ecfd64, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -83,15 +85,16 @@ public:
   // @brief default ctor
   constexpr OVRSceneRoom__LoadRoom_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "",
-  // def_value: None }, CppParam { name: "floor", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "ceiling", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam {
-  // name: "walls", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSceneRoom>", modifiers: "", def_value: None },
-  // CppParam { name: "__7__wrap1", ty: "::GlobalNamespace::OVRObjectPool_HashSetScope_1<::System::Guid>", modifiers: "", def_value: None }, CppParam { name: "_anchors_5__3", ty:
-  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty:
-  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>",
-  // modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap5", ty:
-  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<bool>>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "floor", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "ceiling", ty: "::System::Guid",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "walls", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::OVRSceneRoom>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty: "::GlobalNamespace::OVRObjectPool_HashSetScope_1<::System::Guid>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_anchors_5__3", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__7__wrap3", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap4", ty:
+  // "::GlobalNamespace::OVRObjectPool_ListScope_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap5", ty:
+  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<bool>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSceneRoom__LoadRoom_d__19(int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder, ::System::Guid floor, ::System::Guid ceiling, ::ArrayW<::System::Guid> walls,
                                          ::UnityW<::GlobalNamespace::OVRSceneRoom> __4__this, ::GlobalNamespace::OVRObjectPool_HashSetScope_1<::System::Guid> __7__wrap1,
                                          ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* _anchors_5__3,
@@ -176,6 +179,11 @@ static_assert(offsetof(::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19, __u__2) 
 static_assert(sizeof(::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19) == 0xa0, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(OVRSceneAnchor))]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-scene-use-scene-anchors/#further-scene-model-unity-components")]
+// [Obsolete("OVRSceneManager and associated classes are deprecated (v65), please use MR Utility Kit instead (https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview)")]
+// [Feature((Meta.XR.Util.Feature)7)]
 // Dependencies OVRScenePlane, System.Guid, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -225,15 +233,22 @@ public:
   /// @brief Method IOVRSceneComponent.Initialize, addr 0x5ece4c4, size 0x11c, virtual true, abstract: false, final true
   inline void IOVRSceneComponent_Initialize();
 
+  /// [AsyncStateMachine(typeof(OVRSceneRoom::<LoadRoom>d__19))]
   /// @brief Method LoadRoom, addr 0x5eca3c4, size 0xf4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> LoadRoom(::System::Guid floor, ::System::Guid ceiling, ::ArrayW<::System::Guid> walls);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method Log, addr 0x5ece69c, size 0xac, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method LogError, addr 0x5ece7f4, size 0xac, virtual false, abstract: false, final false
   inline void LogError(::StringW message);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method LogWarning, addr 0x5ece748, size 0xac, virtual false, abstract: false, final false
   inline void LogWarning(::StringW message);
 
@@ -242,9 +257,11 @@ public:
   /// @brief Method OnDestroy, addr 0x5ece5e0, size 0xbc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [CompilerGenerated]
   /// @brief Method <LoadRoom>g__GetPlane|19_1, addr 0x5eceb40, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRScenePlane> _LoadRoom_g__GetPlane_19_1(::System::Guid uuid);
 
+  /// [CompilerGenerated]
   /// @brief Method <LoadRoom>g__TryGetPlane|19_0, addr 0x5ecea48, size 0xf8, virtual false, abstract: false, final false
   static inline bool _LoadRoom_g__TryGetPlane_19_0(::System::Guid uuid, ::by_ref<::GlobalNamespace::OVRScenePlane*> plane);
 
@@ -291,12 +308,15 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* getStaticF_SceneRoomsList();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Ceiling, addr 0x5ece36c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Ceiling();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Floor, addr 0x5ece35c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Floor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Walls, addr 0x5ece37c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>> get_Walls();
 
@@ -307,12 +327,15 @@ public:
 
   static inline void setStaticF_SceneRoomsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Ceiling, addr 0x5ece374, size 0x8, virtual false, abstract: false, final false
   inline void set_Ceiling(::GlobalNamespace::OVRScenePlane* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Floor, addr 0x5ece364, size 0x8, virtual false, abstract: false, final false
   inline void set_Floor(::GlobalNamespace::OVRScenePlane* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Walls, addr 0x5ece384, size 0x8, virtual false, abstract: false, final false
   inline void set_Walls(::ArrayW<::GlobalNamespace::OVRScenePlane*> value);
 
@@ -322,23 +345,26 @@ protected:
   constexpr OVRSceneRoom();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneRoom", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneRoom", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSceneRoom(OVRSceneRoom&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneRoom", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneRoom", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneRoom(OVRSceneRoom const&) = delete;
+  OVRSceneRoom(OVRSceneRoomconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7693 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Floor>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRScenePlane> ____Floor_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Ceiling>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRScenePlane> ____Ceiling_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Walls>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>> ____Walls_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMesh.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMesh.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMesh_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMesh_def.hpp"
@@ -24,7 +24,7 @@ inline ::GlobalNamespace::OVRMesh_MeshType GlobalNamespace::OVRMesh_IOVRMeshData
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRMesh_IOVRMeshDataProvider*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRMesh_MeshType>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRMesh_MeshType::OVRMesh_MeshType(int32_t value__) noexcept {
   this->value__ = value__;
 }

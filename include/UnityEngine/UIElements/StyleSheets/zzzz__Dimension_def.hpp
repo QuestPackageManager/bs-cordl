@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Dimension.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Dimension.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   // @brief default ctor
   constexpr Dimension_Unit();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Dimension_Unit(int32_t value__) noexcept;
 
   /// @brief Field Degree value: I32(5)
@@ -121,6 +121,7 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Dimension_Unit, v
 static_assert(sizeof(::UnityEngine::UIElements::StyleSheets::Dimension_Unit) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies UnityEngine.UIElements.StyleSheets.Dimension::Unit
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
@@ -167,8 +168,8 @@ public:
   // @brief default ctor
   constexpr Dimension();
 
-  // Ctor Parameters [CppParam { name: "unit", ty: "::UnityEngine::UIElements::StyleSheets::Dimension_Unit", modifiers: "", def_value: None }, CppParam { name: "value", ty: "float_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "unit", ty: "::UnityEngine::UIElements::StyleSheets::Dimension_Unit", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr Dimension(::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit, float_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

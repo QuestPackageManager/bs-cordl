@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SyncStateId.hpp"
+// IWYU pragma private; include "GlobalNamespace/SyncStateId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ struct SyncStateId;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::SyncStateId);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SyncStateId, "", "SyncStateId");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -103,7 +104,7 @@ public:
   // @brief default ctor
   constexpr SyncStateId();
 
-  // Ctor Parameters [CppParam { name: "_id", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_id", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr SyncStateId(uint8_t _id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

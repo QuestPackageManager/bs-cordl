@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\Gcm\Tables1kGcmExponentiator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/Gcm/Tables1kGcmExponentiator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr Tables1kGcmExponentiator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tables1kGcmExponentiator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tables1kGcmExponentiator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tables1kGcmExponentiator(Tables1kGcmExponentiator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tables1kGcmExponentiator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tables1kGcmExponentiator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tables1kGcmExponentiator(Tables1kGcmExponentiator const&) = delete;
+  Tables1kGcmExponentiator(Tables1kGcmExponentiatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 954 };

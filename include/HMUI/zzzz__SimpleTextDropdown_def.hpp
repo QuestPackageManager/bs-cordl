@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SimpleTextDropdown.hpp"
+// IWYU pragma private; include "HMUI/SimpleTextDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,13 +129,13 @@ protected:
   constexpr SimpleTextDropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleTextDropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleTextDropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleTextDropdown(SimpleTextDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleTextDropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleTextDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleTextDropdown(SimpleTextDropdown const&) = delete;
+  SimpleTextDropdown(SimpleTextDropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19115 };
@@ -143,12 +143,15 @@ public:
   /// @brief Field kCellReuseIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellReuseIdentifier{ u"Cell" };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
+  /// [SerializeField]
   /// @brief Field _cellPrefab, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleTextTableCell> ____cellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _cellSize, offset: 0x68, size: 0x4, def value: None
   float_t ____cellSize;
 

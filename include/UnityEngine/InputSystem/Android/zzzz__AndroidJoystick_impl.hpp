@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidJoystick.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidJoystick.hpp"
 #include "UnityEngine/InputSystem/zzzz__Joystick_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidJoystick_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidJoystick._ctor

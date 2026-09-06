@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeBakingSet.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeBakingSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,9 @@ namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Mathematics {
 struct uint4;
@@ -136,7 +138,7 @@ public:
   // @brief default ctor
   constexpr ProbeVolumeBakingSet_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolumeBakingSet_Version(int32_t value__) noexcept;
 
   /// @brief Field Initial value: I32(0)
@@ -238,13 +240,13 @@ protected:
   constexpr ProbeVolumeBakingSet_PerScenarioDataInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet_PerScenarioDataInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet_PerScenarioDataInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeBakingSet_PerScenarioDataInfo(ProbeVolumeBakingSet_PerScenarioDataInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet_PerScenarioDataInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet_PerScenarioDataInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeBakingSet_PerScenarioDataInfo(ProbeVolumeBakingSet_PerScenarioDataInfo const&) = delete;
+  ProbeVolumeBakingSet_PerScenarioDataInfo(ProbeVolumeBakingSet_PerScenarioDataInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12134 };
@@ -294,7 +296,8 @@ public:
   // @brief default ctor
   constexpr ProbeVolumeBakingSet_CellCounts();
 
-  // Ctor Parameters [CppParam { name: "bricksCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "chunksCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bricksCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "chunksCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ProbeVolumeBakingSet_CellCounts(int32_t bricksCount, int32_t chunksCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -330,8 +333,8 @@ public:
   // @brief default ctor
   constexpr ProbeVolumeBakingSet_SerializedPerSceneCellList();
 
-  // Ctor Parameters [CppParam { name: "sceneGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cellList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sceneGUID", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "cellList", ty:
+  // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolumeBakingSet_SerializedPerSceneCellList(::StringW sceneGUID, ::System::Collections::Generic::List_1<int32_t>* cellList) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -367,7 +370,8 @@ public:
   // @brief default ctor
   constexpr ProbeVolumeBakingSet_ProbeLayerMask();
 
-  // Ctor Parameters [CppParam { name: "mask", ty: "::UnityEngine::RenderingLayerMask", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "mask", ty: "::UnityEngine::RenderingLayerMask", modifiers: "", def_value: None, comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ProbeVolumeBakingSet_ProbeLayerMask(::UnityEngine::RenderingLayerMask mask, ::StringW name) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -699,7 +703,9 @@ public:
   inline ::System::Collections::Generic::List_1<int32_t>* GetSceneCellIndexList(::StringW sceneGUID);
 
   /// @brief Method GetSubArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetSubArray(::Unity::Collections::NativeArray_1<uint8_t> input, int32_t count, ::by_ref<int32_t> offset);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeArray_1<T> GetSubArray(::Unity::Collections::NativeArray_1<uint8_t> input, int32_t count, ::by_ref<int32_t> offset);
 
   /// @brief Method HasBakedData, addr 0x6792550, size 0x15c, virtual false, abstract: false, final false
   inline bool HasBakedData(::StringW scenario);
@@ -715,6 +721,7 @@ public:
 
   /// @brief Method LoadStreambleAssetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::Unity::Collections::NativeArray_1<T> LoadStreambleAssetData(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* asset, ::System::Collections::Generic::List_1<int32_t>* cellIndices);
 
   /// @brief Method Migrate, addr 0x6792288, size 0xc0, virtual false, abstract: false, final false
@@ -739,7 +746,9 @@ public:
   inline void ReleaseCell(int32_t cellIndex);
 
   /// @brief Method ReleaseStreamableAssetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void ReleaseStreamableAssetData(::Unity::Collections::NativeArray_1<T> buffer);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void ReleaseStreamableAssetData(::Unity::Collections::NativeArray_1<T> buffer);
 
   /// @brief Method RequestScratchBuffer, addr 0x6793d10, size 0xfc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> RequestScratchBuffer(int32_t size);
@@ -1232,13 +1241,13 @@ protected:
   constexpr ProbeVolumeBakingSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeBakingSet(ProbeVolumeBakingSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeBakingSet(ProbeVolumeBakingSet const&) = delete;
+  ProbeVolumeBakingSet(ProbeVolumeBakingSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12138 };
@@ -1246,24 +1255,34 @@ public:
   /// @brief Field k_MaxSkyOcclusionBakingSamples offset 0xffffffff size 0x4
   static constexpr int32_t k_MaxSkyOcclusionBakingSamples{ static_cast<int32_t>(0x2000) };
 
+  /// [SerializeField]
   /// @brief Field singleSceneMode, offset: 0x18, size: 0x1, def value: None
   bool ___singleSceneMode;
 
+  /// [SerializeField]
   /// @brief Field dialogNoProbeVolumeInSetShown, offset: 0x19, size: 0x1, def value: None
   bool ___dialogNoProbeVolumeInSetShown;
 
+  /// [SerializeField]
   /// @brief Field settings, offset: 0x1c, size: 0x30, def value: None
   ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings ___settings;
 
+  /// [SerializeField]
   /// @brief Field m_SceneGUIDs, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_SceneGUIDs;
 
+  /// [SerializeField]
+  /// [Obsolete("This is now contained in the SceneBakeData structure")]
+  /// [FormerlySerializedAs("scenesToNotBake")]
   /// @brief Field obsoleteScenesToNotBake, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___obsoleteScenesToNotBake;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("lightingScenarios")]
   /// @brief Field m_LightingScenarios, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_LightingScenarios;
 
+  /// [SerializeField]
   /// @brief Field cellDescs, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>* ___cellDescs;
 
@@ -1273,105 +1292,138 @@ public:
   /// @brief Field m_TotalIndexList, offset: 0x78, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___m_TotalIndexList;
 
+  /// [SerializeField]
   /// @brief Field m_SerializedPerSceneCellList, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>* ___m_SerializedPerSceneCellList;
 
   /// @brief Field perSceneCellLists, offset: 0x88, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* ___perSceneCellLists;
 
+  /// [SerializeField]
   /// @brief Field cellSharedDataAsset, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* ___cellSharedDataAsset;
 
+  /// [SerializeField]
   /// @brief Field scenarios, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>* ___scenarios;
 
+  /// [SerializeField]
   /// @brief Field cellBricksDataAsset, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* ___cellBricksDataAsset;
 
+  /// [SerializeField]
   /// @brief Field cellSupportDataAsset, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* ___cellSupportDataAsset;
 
+  /// [SerializeField]
   /// @brief Field chunkSizeInBricks, offset: 0xb0, size: 0x4, def value: None
   int32_t ___chunkSizeInBricks;
 
+  /// [SerializeField]
   /// @brief Field maxCellPosition, offset: 0xb4, size: 0xc, def value: None
   ::UnityEngine::Vector3Int ___maxCellPosition;
 
+  /// [SerializeField]
   /// @brief Field minCellPosition, offset: 0xc0, size: 0xc, def value: None
   ::UnityEngine::Vector3Int ___minCellPosition;
 
+  /// [SerializeField]
   /// @brief Field globalBounds, offset: 0xcc, size: 0x18, def value: None
   ::UnityEngine::Bounds ___globalBounds;
 
+  /// [SerializeField]
   /// @brief Field bakedSimplificationLevels, offset: 0xe4, size: 0x4, def value: None
   int32_t ___bakedSimplificationLevels;
 
+  /// [SerializeField]
   /// @brief Field bakedMinDistanceBetweenProbes, offset: 0xe8, size: 0x4, def value: None
   float_t ___bakedMinDistanceBetweenProbes;
 
+  /// [SerializeField]
   /// @brief Field bakedProbeOcclusion, offset: 0xec, size: 0x1, def value: None
   bool ___bakedProbeOcclusion;
 
+  /// [SerializeField]
   /// @brief Field bakedSkyOcclusionValue, offset: 0xf0, size: 0x4, def value: None
   int32_t ___bakedSkyOcclusionValue;
 
+  /// [SerializeField]
   /// @brief Field bakedSkyShadingDirectionValue, offset: 0xf4, size: 0x4, def value: None
   int32_t ___bakedSkyShadingDirectionValue;
 
+  /// [SerializeField]
   /// @brief Field bakedProbeOffset, offset: 0xf8, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___bakedProbeOffset;
 
+  /// [SerializeField]
   /// @brief Field bakedMaskCount, offset: 0x104, size: 0x4, def value: None
   int32_t ___bakedMaskCount;
 
+  /// [SerializeField]
   /// @brief Field bakedLayerMasks, offset: 0x108, size: 0x10, def value: None
   ::Unity::Mathematics::uint4 ___bakedLayerMasks;
 
+  /// [SerializeField]
   /// @brief Field maxSHChunkCount, offset: 0x118, size: 0x4, def value: None
   int32_t ___maxSHChunkCount;
 
+  /// [SerializeField]
   /// @brief Field L0ChunkSize, offset: 0x11c, size: 0x4, def value: None
   int32_t ___L0ChunkSize;
 
+  /// [SerializeField]
   /// @brief Field L1ChunkSize, offset: 0x120, size: 0x4, def value: None
   int32_t ___L1ChunkSize;
 
+  /// [SerializeField]
   /// @brief Field L2TextureChunkSize, offset: 0x124, size: 0x4, def value: None
   int32_t ___L2TextureChunkSize;
 
+  /// [SerializeField]
   /// @brief Field ProbeOcclusionChunkSize, offset: 0x128, size: 0x4, def value: None
   int32_t ___ProbeOcclusionChunkSize;
 
+  /// [SerializeField]
   /// @brief Field sharedValidityMaskChunkSize, offset: 0x12c, size: 0x4, def value: None
   int32_t ___sharedValidityMaskChunkSize;
 
+  /// [SerializeField]
   /// @brief Field sharedSkyOcclusionL0L1ChunkSize, offset: 0x130, size: 0x4, def value: None
   int32_t ___sharedSkyOcclusionL0L1ChunkSize;
 
+  /// [SerializeField]
   /// @brief Field sharedSkyShadingDirectionIndicesChunkSize, offset: 0x134, size: 0x4, def value: None
   int32_t ___sharedSkyShadingDirectionIndicesChunkSize;
 
+  /// [SerializeField]
   /// @brief Field sharedDataChunkSize, offset: 0x138, size: 0x4, def value: None
   int32_t ___sharedDataChunkSize;
 
+  /// [SerializeField]
   /// @brief Field supportPositionChunkSize, offset: 0x13c, size: 0x4, def value: None
   int32_t ___supportPositionChunkSize;
 
+  /// [SerializeField]
   /// @brief Field supportValidityChunkSize, offset: 0x140, size: 0x4, def value: None
   int32_t ___supportValidityChunkSize;
 
+  /// [SerializeField]
   /// @brief Field supportTouchupChunkSize, offset: 0x144, size: 0x4, def value: None
   int32_t ___supportTouchupChunkSize;
 
+  /// [SerializeField]
   /// @brief Field supportLayerMaskChunkSize, offset: 0x148, size: 0x4, def value: None
   int32_t ___supportLayerMaskChunkSize;
 
+  /// [SerializeField]
   /// @brief Field supportOffsetsChunkSize, offset: 0x14c, size: 0x4, def value: None
   int32_t ___supportOffsetsChunkSize;
 
+  /// [SerializeField]
   /// @brief Field supportDataChunkSize, offset: 0x150, size: 0x4, def value: None
   int32_t ___supportDataChunkSize;
 
+  /// [SerializeField]
   /// @brief Field lightingScenario, offset: 0x158, size: 0x8, def value: None
   ::StringW ___lightingScenario;
 
@@ -1396,36 +1448,45 @@ public:
   /// @brief Field m_PrunedScenarioIndexList, offset: 0x1a0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___m_PrunedScenarioIndexList;
 
+  /// [SerializeField]
   /// @brief Field version, offset: 0x1a8, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version ___version;
 
+  /// [SerializeField]
   /// @brief Field freezePlacement, offset: 0x1ac, size: 0x1, def value: None
   bool ___freezePlacement;
 
+  /// [SerializeField]
   /// @brief Field probeOffset, offset: 0x1b0, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___probeOffset;
 
+  /// [Range(2, 5)]
   /// @brief Field simplificationLevels, offset: 0x1bc, size: 0x4, def value: None
   int32_t ___simplificationLevels;
 
+  /// [Min(0.1)]
   /// @brief Field minDistanceBetweenProbes, offset: 0x1c0, size: 0x4, def value: None
   float_t ___minDistanceBetweenProbes;
 
   /// @brief Field renderersLayerMask, offset: 0x1c4, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___renderersLayerMask;
 
+  /// [Min(0)]
   /// @brief Field minRendererVolumeSize, offset: 0x1c8, size: 0x4, def value: None
   float_t ___minRendererVolumeSize;
 
   /// @brief Field skyOcclusion, offset: 0x1cc, size: 0x1, def value: None
   bool ___skyOcclusion;
 
+  /// [Logarithmic(1, 8192)]
   /// @brief Field skyOcclusionBakingSamples, offset: 0x1d0, size: 0x4, def value: None
   int32_t ___skyOcclusionBakingSamples;
 
+  /// [Range(0, 5)]
   /// @brief Field skyOcclusionBakingBounces, offset: 0x1d4, size: 0x4, def value: None
   int32_t ___skyOcclusionBakingBounces;
 
+  /// [Range(0, 1)]
   /// @brief Field skyOcclusionAverageAlbedo, offset: 0x1d8, size: 0x4, def value: None
   float_t ___skyOcclusionAverageAlbedo;
 
@@ -1435,9 +1496,11 @@ public:
   /// @brief Field skyOcclusionShadingDirection, offset: 0x1dd, size: 0x1, def value: None
   bool ___skyOcclusionShadingDirection;
 
+  /// [SerializeField]
   /// @brief Field useRenderingLayers, offset: 0x1de, size: 0x1, def value: None
   bool ___useRenderingLayers;
 
+  /// [SerializeField]
   /// @brief Field renderingLayerMasks, offset: 0x1e0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask> ___renderingLayerMasks;
 

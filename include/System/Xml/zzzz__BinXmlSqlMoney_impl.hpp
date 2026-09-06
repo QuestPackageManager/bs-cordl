@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\BinXmlSqlMoney.hpp"
+// IWYU pragma private; include "System/Xml/BinXmlSqlMoney.hpp"
 #include "System/Xml/zzzz__BinXmlSqlMoney_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: ::System::Xml::BinXmlSqlMoney._ctor
@@ -66,7 +66,7 @@ inline ::StringW System::Xml::BinXmlSqlMoney::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::BinXmlSqlMoney>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "data", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::BinXmlSqlMoney::BinXmlSqlMoney(int64_t data) noexcept {
   this->data = data;
 }

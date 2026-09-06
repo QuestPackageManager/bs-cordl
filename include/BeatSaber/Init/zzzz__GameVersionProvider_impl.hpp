@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Init\GameVersionProvider.hpp"
+// IWYU pragma private; include "BeatSaber/Init/GameVersionProvider.hpp"
 #include "BeatSaber/Init/zzzz__GameVersion_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

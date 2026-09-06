@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OculusMetrics.hpp"
+// IWYU pragma private; include "GlobalNamespace/OculusMetrics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ protected:
   constexpr OculusMetrics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusMetrics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusMetrics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusMetrics(OculusMetrics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusMetrics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusMetrics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusMetrics(OculusMetrics const&) = delete;
+  OculusMetrics(OculusMetricsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6599 };

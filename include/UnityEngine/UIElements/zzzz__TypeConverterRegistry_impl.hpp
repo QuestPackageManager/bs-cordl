@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TypeConverterRegistry.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TypeConverterRegistry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TypeConverterRegistry_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -107,8 +107,8 @@ inline void UnityEngine::UIElements::TypeConverterRegistry_ConverterKey::_ctor(:
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, source, destination);
 }
-// Ctor Parameters [CppParam { name: "SourceType", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "DestinationType", ty: "::System::Type*", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "SourceType", ty: "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DestinationType", ty: "::System::Type*", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey::TypeConverterRegistry_ConverterKey(::System::Type* SourceType, ::System::Type* DestinationType) noexcept {
   this->SourceType = SourceType;
   this->DestinationType = DestinationType;
@@ -295,7 +295,7 @@ UnityEngine::UIElements::TypeConverterRegistry::i___System__Collections__Generic
   return static_cast<::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "m_Converters", ty: "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey,::System::Delegate*>*", modifiers:
-// "", def_value: Some("{}") }]
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TypeConverterRegistry::TypeConverterRegistry(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey, ::System::Delegate*>* m_Converters) noexcept {
   this->m_Converters = m_Converters;

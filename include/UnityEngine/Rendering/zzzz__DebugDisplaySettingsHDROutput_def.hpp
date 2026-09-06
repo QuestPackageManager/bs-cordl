@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplaySettingsHDROutput.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplaySettingsHDROutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -149,13 +149,13 @@ protected:
   constexpr DebugDisplaySettingsHDROutput_Strings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput_Strings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput_Strings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsHDROutput_Strings(DebugDisplaySettingsHDROutput_Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput_Strings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsHDROutput_Strings(DebugDisplaySettingsHDROutput_Strings const&) = delete;
+  DebugDisplaySettingsHDROutput_Strings(DebugDisplaySettingsHDROutput_Stringsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11948 };
@@ -166,6 +166,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::DebugDisplaySettingsHDROutput_Strings) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -223,13 +224,13 @@ protected:
   constexpr DebugDisplaySettingsHDROutput___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsHDROutput___c__DisplayClass1_0(DebugDisplaySettingsHDROutput___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsHDROutput___c__DisplayClass1_0(DebugDisplaySettingsHDROutput___c__DisplayClass1_0 const&) = delete;
+  DebugDisplaySettingsHDROutput___c__DisplayClass1_0(DebugDisplaySettingsHDROutput___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11949 };
@@ -270,13 +271,13 @@ protected:
   constexpr DebugDisplaySettingsHDROutput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsHDROutput(DebugDisplaySettingsHDROutput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsHDROutput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsHDROutput(DebugDisplaySettingsHDROutput const&) = delete;
+  DebugDisplaySettingsHDROutput(DebugDisplaySettingsHDROutputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11950 };

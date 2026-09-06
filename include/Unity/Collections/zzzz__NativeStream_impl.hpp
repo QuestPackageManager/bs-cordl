@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeStream.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeStream.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeStream_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeStream_def.hpp"
@@ -204,6 +204,7 @@ inline void Unity::Collections::NativeStream::_ctor(int32_t bufferCount, ::Unity
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, bufferCount, allocator);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Jobs::JobHandle Unity::Collections::NativeStream::ScheduleConstruct(::by_ref<::Unity::Collections::NativeStream> stream, ::Unity::Collections::NativeList_1<T> bufferCount,
                                                                                     ::Unity::Jobs::JobHandle dependency, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base =
@@ -249,7 +250,9 @@ inline int32_t Unity::Collections::NativeStream::Count() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(), { "Count", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::NativeStream::ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::NativeStream::ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(),
                                                            { "ToNativeArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
@@ -302,7 +305,7 @@ constexpr Unity::Collections::NativeStream::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* Unity::Collections::NativeStream::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Stream", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Stream", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeStream::NativeStream(::Unity::Collections::LowLevel::Unsafe::UnsafeStream m_Stream) noexcept {
   this->m_Stream = m_Stream;
 }
@@ -332,8 +335,8 @@ constexpr Unity::Collections::NativeStream_ConstructJobList::operator ::Unity::J
 constexpr ::Unity::Jobs::IJob* Unity::Collections::NativeStream_ConstructJobList::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::NativeStream", modifiers: "", def_value: Some("{}") }, CppParam { name: "List", ty:
-// "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::NativeStream", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "List", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeStream_ConstructJobList::NativeStream_ConstructJobList(::Unity::Collections::NativeStream Container,
                                                                                              ::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList* List) noexcept {
   this->Container = Container;
@@ -365,8 +368,8 @@ constexpr Unity::Collections::NativeStream_ConstructJob::operator ::Unity::Jobs:
 constexpr ::Unity::Jobs::IJob* Unity::Collections::NativeStream_ConstructJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::NativeStream", modifiers: "", def_value: Some("{}") }, CppParam { name: "Length", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::NativeStream", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Length", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeStream_ConstructJob::NativeStream_ConstructJob(::Unity::Collections::NativeStream Container, ::Unity::Collections::NativeArray_1<int32_t> Length) noexcept {
   this->Container = Container;
   this->Length = Length;
@@ -511,13 +514,17 @@ inline void Unity::Collections::NativeStream_Writer::EndForEachIndex() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Writer>(), { "EndForEachIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline void Unity::Collections::NativeStream_Writer::Write(T value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::NativeStream_Writer::Write(T value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Writer>(), { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-template <typename T> inline ::by_ref<T> Unity::Collections::NativeStream_Writer::Allocate() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::by_ref<T> Unity::Collections::NativeStream_Writer::Allocate() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Writer>(), { "Allocate", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -542,7 +549,7 @@ inline void Unity::Collections::NativeStream_Writer::CheckAllocateSize(int32_t s
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Writer>(), { "CheckAllocateSize", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, size);
 }
-// Ctor Parameters [CppParam { name: "m_Writer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Writer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeStream_Writer::NativeStream_Writer(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer m_Writer) noexcept {
   this->m_Writer = m_Writer;
 }
@@ -726,12 +733,16 @@ inline uint8_t* Unity::Collections::NativeStream_Reader::ReadUnsafePtr(int32_t s
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "ReadUnsafePtr", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint8_t*>(*this, ___internal_method, size);
 }
-template <typename T> inline ::by_ref<T> Unity::Collections::NativeStream_Reader::Read() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::by_ref<T> Unity::Collections::NativeStream_Reader::Read() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "Read", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method);
 }
-template <typename T> inline ::by_ref<T> Unity::Collections::NativeStream_Reader::Peek() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::by_ref<T> Unity::Collections::NativeStream_Reader::Peek() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "Peek", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method);
@@ -763,7 +774,7 @@ inline void Unity::Collections::NativeStream_Reader::CheckEndForEachIndex() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "CheckEndForEachIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Reader", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Reader", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeStream_Reader::NativeStream_Reader(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader m_Reader) noexcept {
   this->m_Reader = m_Reader;
 }

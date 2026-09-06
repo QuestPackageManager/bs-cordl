@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SerializationInfo.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SerializationInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -839,10 +839,12 @@ inline ::StringW System::Runtime::Serialization::SerializationInfo::GetString(::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SerializationInfo*>(), { "GetString", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, name);
 }
+/// @brief [CLSCompliant(false)]
 inline ::System::Runtime::Serialization::SerializationInfo* System::Runtime::Serialization::SerializationInfo::New_ctor(::System::Type* type,
                                                                                                                         ::System::Runtime::Serialization::IFormatterConverter* converter) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::SerializationInfo*>(type, converter));
 }
+/// @brief [CLSCompliant(false)]
 inline ::System::Runtime::Serialization::SerializationInfo*
 System::Runtime::Serialization::SerializationInfo::New_ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter, bool requireSameTokenInPartialTrust) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::SerializationInfo*>(type, converter, requireSameTokenInPartialTrust));

@@ -1,20 +1,25 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataSortedListForTypeAndIds_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataSortedListForTypeAndIds_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataSortedListForTypeAndIds_1)
 namespace GlobalNamespace {
-template <typename TBase> class BeatmapDataSortedListForTypeAndIds_1___c;
+template <typename TBase>
+  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
+class BeatmapDataSortedListForTypeAndIds_1___c;
 }
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
 }
 namespace GlobalNamespace {
-template <typename T> class ISortedList_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+class ISortedList_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -36,20 +41,26 @@ template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TBase> class BeatmapDataSortedListForTypeAndIds_1;
+template <typename TBase>
+  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
+class BeatmapDataSortedListForTypeAndIds_1;
 }
 namespace GlobalNamespace {
-template <typename TBase> class BeatmapDataSortedListForTypeAndIds_1___c;
+template <typename TBase>
+  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
+class BeatmapDataSortedListForTypeAndIds_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1);
 MARK_GEN_REF_T_PTR(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1, "", "BeatmapDataSortedListForTypeAndIds`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c, "", "BeatmapDataSortedListForTypeAndIds`1/<>c");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies BeatmapDataItem, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
+  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
 // Is value type: false
 // CS Name: BeatmapDataSortedListForTypeAndIds`1/<>c<TBase>
 class CORDL_TYPE BeatmapDataSortedListForTypeAndIds_1___c : public ::System::Object {
@@ -94,13 +105,13 @@ protected:
   constexpr BeatmapDataSortedListForTypeAndIds_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataSortedListForTypeAndIds_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataSortedListForTypeAndIds_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataSortedListForTypeAndIds_1___c(BeatmapDataSortedListForTypeAndIds_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataSortedListForTypeAndIds_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataSortedListForTypeAndIds_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataSortedListForTypeAndIds_1___c(BeatmapDataSortedListForTypeAndIds_1___c const&) = delete;
+  BeatmapDataSortedListForTypeAndIds_1___c(BeatmapDataSortedListForTypeAndIds_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14885 };
@@ -109,10 +120,11 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// Dependencies BeatmapDataItem, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
+  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
 // Is value type: false
 // CS Name: BeatmapDataSortedListForTypeAndIds`1<TBase>
 class CORDL_TYPE BeatmapDataSortedListForTypeAndIds_1 : public ::System::Object {
@@ -137,10 +149,14 @@ public:
   __declspec(property(get = get_sortedListHeads)) ::ArrayW<::System::Collections::Generic::LinkedListNode_1<TBase>*> sortedListHeads;
 
   /// @brief Method GetCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline int32_t GetCount(int32_t typeIdentifier);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, TBase>)
+  inline int32_t GetCount(int32_t typeIdentifier);
 
   /// @brief Method GetItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GetItems(int32_t typeIdentifier);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, TBase>)
+  inline ::System::Collections::Generic::IEnumerable_1<T>* GetItems(int32_t typeIdentifier);
 
   /// @brief Method GetList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ISortedList_1<TBase>* GetList(::System::Type* type, int32_t typeIdentifier);
@@ -186,13 +202,13 @@ protected:
   constexpr BeatmapDataSortedListForTypeAndIds_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataSortedListForTypeAndIds_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataSortedListForTypeAndIds_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataSortedListForTypeAndIds_1(BeatmapDataSortedListForTypeAndIds_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataSortedListForTypeAndIds_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataSortedListForTypeAndIds_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataSortedListForTypeAndIds_1(BeatmapDataSortedListForTypeAndIds_1 const&) = delete;
+  BeatmapDataSortedListForTypeAndIds_1(BeatmapDataSortedListForTypeAndIds_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14886 };

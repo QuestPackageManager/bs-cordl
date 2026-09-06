@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\CookieCollection.hpp"
+// IWYU pragma private; include "System/Net/CookieCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +86,7 @@ public:
   // @brief default ctor
   constexpr CookieCollection_Stamp();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CookieCollection_Stamp(int32_t value__) noexcept;
 
   /// @brief Field Check value: I32(0)
@@ -189,13 +189,13 @@ protected:
   constexpr CookieCollection_CookieCollectionEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CookieCollection_CookieCollectionEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CookieCollection_CookieCollectionEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CookieCollection_CookieCollectionEnumerator(CookieCollection_CookieCollectionEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CookieCollection_CookieCollectionEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CookieCollection_CookieCollectionEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CookieCollection_CookieCollectionEnumerator(CookieCollection_CookieCollectionEnumerator const&) = delete;
+  CookieCollection_CookieCollectionEnumerator(CookieCollection_CookieCollectionEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11551 };
@@ -226,6 +226,7 @@ static_assert(offsetof(::System::Net::CookieCollection_CookieCollectionEnumerato
 static_assert(sizeof(::System::Net::CookieCollection_CookieCollectionEnumerator) == 0x28, "Size mismatch!");
 
 } // namespace System::Net
+// [DefaultMember("Item")]
 // Dependencies System.DateTime, System.Object
 namespace System::Net {
 // Is value type: false
@@ -354,13 +355,13 @@ protected:
   constexpr CookieCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CookieCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CookieCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CookieCollection(CookieCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CookieCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CookieCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CookieCollection(CookieCollection const&) = delete;
+  CookieCollection(CookieCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11552 };
@@ -377,6 +378,7 @@ public:
   /// @brief Field m_has_other_versions, offset: 0x28, size: 0x1, def value: None
   bool ___m_has_other_versions;
 
+  /// [OptionalField]
   /// @brief Field m_IsReadOnly, offset: 0x29, size: 0x1, def value: None
   bool ___m_IsReadOnly;
 

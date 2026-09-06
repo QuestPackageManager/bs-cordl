@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Strings.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Strings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__Strings_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Strings.ToUpperCase
@@ -163,7 +163,7 @@ inline ::StringW Org::BouncyCastle::Utilities::Strings::ToUpperCase(::StringW or
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Strings*>(), { "ToUpperCase", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, original);
 }
-inline bool Org::BouncyCastle::Utilities::Strings::IsOneOf(::StringW s, ::ArrayW<::StringW> candidates) {
+inline bool Org::BouncyCastle::Utilities::Strings::IsOneOf(::StringW s, /* [ParamArray] */ ::ArrayW<::StringW> candidates) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Strings*>(), { "IsOneOf", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, candidates);

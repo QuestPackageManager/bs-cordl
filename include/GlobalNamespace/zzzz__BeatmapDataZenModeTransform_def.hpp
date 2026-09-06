@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataZenModeTransform.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataZenModeTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ public:
   /// @brief Method CreateTransformedData, addr 0x37073bc, size 0xf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
+  /// [CompilerGenerated]
   /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x37077bc, size 0xb8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
@@ -37,13 +38,13 @@ protected:
   constexpr BeatmapDataZenModeTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataZenModeTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataZenModeTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataZenModeTransform(BeatmapDataZenModeTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataZenModeTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataZenModeTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataZenModeTransform(BeatmapDataZenModeTransform const&) = delete;
+  BeatmapDataZenModeTransform(BeatmapDataZenModeTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14809 };

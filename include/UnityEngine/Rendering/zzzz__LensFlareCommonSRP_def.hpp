@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LensFlareCommonSRP.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LensFlareCommonSRP.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -154,13 +154,13 @@ protected:
   constexpr LensFlareCommonSRP_LensFlareCompInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP_LensFlareCompInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP_LensFlareCompInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LensFlareCommonSRP_LensFlareCompInfo(LensFlareCommonSRP_LensFlareCompInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP_LensFlareCompInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP_LensFlareCompInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareCommonSRP_LensFlareCompInfo(LensFlareCommonSRP_LensFlareCompInfo const&) = delete;
+  LensFlareCommonSRP_LensFlareCompInfo(LensFlareCommonSRP_LensFlareCompInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12167 };
@@ -181,6 +181,7 @@ static_assert(offsetof(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCom
 static_assert(sizeof(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -211,13 +212,13 @@ protected:
   constexpr LensFlareCommonSRP___c__DisplayClass50_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass50_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass50_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LensFlareCommonSRP___c__DisplayClass50_0(LensFlareCommonSRP___c__DisplayClass50_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass50_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass50_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareCommonSRP___c__DisplayClass50_0(LensFlareCommonSRP___c__DisplayClass50_0 const&) = delete;
+  LensFlareCommonSRP___c__DisplayClass50_0(LensFlareCommonSRP___c__DisplayClass50_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12168 };
@@ -233,6 +234,7 @@ static_assert(offsetof(::UnityEngine::Rendering::LensFlareCommonSRP___c__Display
 static_assert(sizeof(::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -263,13 +265,13 @@ protected:
   constexpr LensFlareCommonSRP___c__DisplayClass51_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass51_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass51_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LensFlareCommonSRP___c__DisplayClass51_0(LensFlareCommonSRP___c__DisplayClass51_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass51_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass51_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareCommonSRP___c__DisplayClass51_0(LensFlareCommonSRP___c__DisplayClass51_0 const&) = delete;
+  LensFlareCommonSRP___c__DisplayClass51_0(LensFlareCommonSRP___c__DisplayClass51_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12169 };
@@ -285,6 +287,7 @@ static_assert(offsetof(::UnityEngine::Rendering::LensFlareCommonSRP___c__Display
 static_assert(sizeof(::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies UnityEngine.Vector2
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -296,10 +299,11 @@ public:
   // @brief default ctor
   constexpr LensFlareCommonSRP___c__DisplayClass74_0();
 
-  // Ctor Parameters [CppParam { name: "screenPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "position", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "globalCos0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "globalSin0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vScreenRatio",
-  // ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "element", ty: "::UnityEngine::Rendering::LensFlareDataElementSRP*", modifiers: "", def_value: None }, CppParam {
-  // name: "combinedScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "usedAspectRatio", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "screenPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "globalCos0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "globalSin0", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "vScreenRatio", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "element", ty:
+  // "::UnityEngine::Rendering::LensFlareDataElementSRP*", modifiers: "", def_value: None, comment: None }, CppParam { name: "combinedScale", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "usedAspectRatio", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LensFlareCommonSRP___c__DisplayClass74_0(::UnityEngine::Vector2 screenPos, float_t position, float_t globalCos0, float_t globalSin0, ::UnityEngine::Vector2 vScreenRatio,
                                                      ::UnityEngine::Rendering::LensFlareDataElementSRP* element, float_t combinedScale, float_t usedAspectRatio) noexcept;
 
@@ -501,6 +505,7 @@ public:
                                       ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Rendering::CommandBuffer* cmd, bool taaEnabled, bool hasCloudLayer,
                                       ::UnityEngine::Texture* cloudOpacityTexture, ::UnityEngine::Texture* sunOcclusionTexture);
 
+  /// [Obsolete("Use ComputeOcclusion without _FlareOcclusionTex.._FlareData4 parameters.")]
   /// @brief Method ComputeOcclusion, addr 0x679b9b8, size 0x13c, virtual false, abstract: false, final false
   static inline void ComputeOcclusion(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, float_t actualWidth,
                                       float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative, ::UnityEngine::Vector3 cameraPositionWS,
@@ -515,6 +520,7 @@ public:
                                       ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, bool taaEnabled, bool hasCloudLayer,
                                       ::UnityEngine::Texture* cloudOpacityTexture, ::UnityEngine::Texture* sunOcclusionTexture);
 
+  /// [Obsolete("Use ComputeOcclusion without _FlareOcclusionTex.._FlareData4 parameters.")]
   /// @brief Method ComputeOcclusion, addr 0x679b860, size 0x158, virtual false, abstract: false, final false
   static inline void ComputeOcclusion(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, float_t actualWidth,
                                       float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative, ::UnityEngine::Vector3 cameraPositionWS,
@@ -526,6 +532,7 @@ public:
   /// @brief Method Dispose, addr 0x6799df0, size 0xd0, virtual false, abstract: false, final false
   static inline void Dispose();
 
+  /// [Obsolete("Use DoLensFlareDataDrivenCommon without _FlareOcclusionRemapTex.._FlareData4 parameters.")]
   /// @brief Method DoLensFlareDataDrivenCommon, addr 0x679fcdc, size 0x1b4, virtual false, abstract: false, final false
   static inline void DoLensFlareDataDrivenCommon(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Rect viewport, ::UnityEngine::Experimental::Rendering::XRPass* xr,
                                                  int32_t xrIndex, float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative,
@@ -546,6 +553,7 @@ public:
                                                  ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>* GetLensFlareLightAttenuation,
                                                  bool debugView);
 
+  /// [Obsolete("Use DoLensFlareDataDrivenCommon without _FlareOcclusionRemapTex.._FlareData4 parameters.")]
   /// @brief Method DoLensFlareDataDrivenCommon, addr 0x679e998, size 0x1b4, virtual false, abstract: false, final false
   static inline void DoLensFlareDataDrivenCommon(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Rect viewport, ::UnityEngine::Experimental::Rendering::XRPass* xr,
                                                  int32_t xrIndex, float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative,
@@ -566,6 +574,7 @@ public:
                                                  ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>* GetLensFlareLightAttenuation,
                                                  bool debugView);
 
+  /// [Obsolete("Use DoLensFlareScreenSpaceCommon without _Shader IDs parameters.")]
   /// @brief Method DoLensFlareScreenSpaceCommon, addr 0x67a0a70, size 0x26c, virtual false, abstract: false, final false
   static inline void DoLensFlareScreenSpaceCommon(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, float_t actualWidth, float_t actualHeight, ::UnityEngine::Color tintColor,
                                                   ::UnityEngine::Texture* originalBloomTexture, ::UnityEngine::Texture* bloomMipTexture, ::UnityEngine::Texture* spectralLut,
@@ -687,21 +696,26 @@ public:
   /// @brief Method WorldToViewportLocal, addr 0x679b3b4, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 WorldToViewportLocal(bool isCameraRelative, ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Vector3 cameraPosWS, ::UnityEngine::Vector3 positionWS);
 
+  /// [CompilerGenerated]
   /// @brief Method <ProcessLensFlareSRPElementsSingle>g__ComputeLocalSize|74_0, addr 0x679e7a4, size 0x1b4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2
   _ProcessLensFlareSRPElementsSingle_g__ComputeLocalSize_74_0(::UnityEngine::Vector2 rayOff, ::UnityEngine::Vector2 rayOff0, ::UnityEngine::Vector2 curSize,
                                                               ::UnityEngine::AnimationCurve* distortionCurve,
                                                               ::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass74_0> _cordl_fixed_empty_name_whitespace);
 
+  /// [CompilerGenerated]
   /// @brief Method <ProcessLensFlareSRPElementsSingle>g__RandomRange|74_1, addr 0x679e958, size 0x40, virtual false, abstract: false, final false
   static inline float_t _ProcessLensFlareSRPElementsSingle_g__RandomRange_74_1(float_t min, float_t max);
 
+  /// [CompilerGenerated]
   /// @brief Method <ShapeAttenuationAreaTubeLight>g__DiffLineIntegral|57_2, addr 0x679aa9c, size 0x2f4, virtual false, abstract: false, final false
   static inline float_t _ShapeAttenuationAreaTubeLight_g__DiffLineIntegral_57_2(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
+  /// [CompilerGenerated]
   /// @brief Method <ShapeAttenuationAreaTubeLight>g__Fpo|57_0, addr 0x67a1540, size 0x40, virtual false, abstract: false, final false
   static inline float_t _ShapeAttenuationAreaTubeLight_g__Fpo_57_0(float_t d, float_t l);
 
+  /// [CompilerGenerated]
   /// @brief Method <ShapeAttenuationAreaTubeLight>g__Fwt|57_1, addr 0x67a1580, size 0x18, virtual false, abstract: false, final false
   static inline float_t _ShapeAttenuationAreaTubeLight_g__Fwt_57_1(float_t d, float_t l);
 
@@ -872,13 +886,13 @@ protected:
   constexpr LensFlareCommonSRP();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LensFlareCommonSRP(LensFlareCommonSRP&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareCommonSRP(LensFlareCommonSRP const&) = delete;
+  LensFlareCommonSRP(LensFlareCommonSRPconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12171 };

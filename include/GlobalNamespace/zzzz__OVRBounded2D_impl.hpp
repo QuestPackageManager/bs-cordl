@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBounded2D.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBounded2D.hpp"
 #include "GlobalNamespace/zzzz__OVRBounded2D_def.hpp"
 #include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
@@ -374,7 +374,7 @@ constexpr GlobalNamespace::OVRBounded2D::operator ::System::IEquatable_1<::Globa
 constexpr ::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>* GlobalNamespace::OVRBounded2D::i___System__IEquatable_1___GlobalNamespace__OVRBounded2D_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRBounded2D::OVRBounded2D(uint64_t _Handle_k__BackingField) noexcept {
   this->_Handle_k__BackingField = _Handle_k__BackingField;
 }

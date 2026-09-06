@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeRingQueueDispose.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeRingQueueDispose.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,7 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeRingQueueDispose)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeRingQueue_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeRingQueue_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -16,6 +18,8 @@ struct NativeRingQueueDispose;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeRingQueueDispose);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeRingQueueDispose, "Unity.Collections", "NativeRingQueueDispose");
+// [NativeContainer]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -30,7 +34,7 @@ public:
   // @brief default ctor
   constexpr NativeRingQueueDispose();
 
-  // Ctor Parameters [CppParam { name: "m_QueueData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_QueueData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>*", modifiers: "", def_value: None, comment: None }]
   constexpr NativeRingQueueDispose(::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>* m_QueueData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -39,6 +43,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_QueueData, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>* m_QueueData;
 

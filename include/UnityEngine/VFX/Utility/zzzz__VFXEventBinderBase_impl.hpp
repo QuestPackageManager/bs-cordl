@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXEventBinderBase.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXEventBinderBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXEventBinderBase_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -139,7 +139,7 @@ inline void UnityEngine::VFX::Utility::VFXEventBinderBase::SetEventAttribute(::A
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::VFX::Utility::VFXEventBinderBase*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parameters);
 }
-inline void UnityEngine::VFX::Utility::VFXEventBinderBase::SendEventToVisualEffect(::ArrayW<::System::Object*> parameters) {
+inline void UnityEngine::VFX::Utility::VFXEventBinderBase::SendEventToVisualEffect(/* [ParamArray] */ ::ArrayW<::System::Object*> parameters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXEventBinderBase*>(), { "SendEventToVisualEffect", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));

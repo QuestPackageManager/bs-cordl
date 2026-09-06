@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\XRRenderScaleRenderingFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace/XRRenderScaleRenderingFeature.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "GlobalNamespace/zzzz__XRRenderScaleRenderingFeature_def.hpp"
 #include "GlobalNamespace/zzzz__XRRenderScaleRenderPass_def.hpp"

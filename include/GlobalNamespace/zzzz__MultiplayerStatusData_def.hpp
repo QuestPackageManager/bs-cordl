@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerStatusData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerStatusData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerStatusData_AvailabilityStatus();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerStatusData_AvailabilityStatus(int32_t value__) noexcept;
 
   /// @brief Field MaintenanceUpcoming value: I32(1)
@@ -135,13 +135,13 @@ protected:
   constexpr UserMessage_MultiplayerStatusData_LocalizedMessage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UserMessage_MultiplayerStatusData_LocalizedMessage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UserMessage_MultiplayerStatusData_LocalizedMessage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserMessage_MultiplayerStatusData_LocalizedMessage(UserMessage_MultiplayerStatusData_LocalizedMessage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UserMessage_MultiplayerStatusData_LocalizedMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UserMessage_MultiplayerStatusData_LocalizedMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UserMessage_MultiplayerStatusData_LocalizedMessage(UserMessage_MultiplayerStatusData_LocalizedMessage const&) = delete;
+  UserMessage_MultiplayerStatusData_LocalizedMessage(UserMessage_MultiplayerStatusData_LocalizedMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18960 };
@@ -192,13 +192,13 @@ protected:
   constexpr MultiplayerStatusData_UserMessage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData_UserMessage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData_UserMessage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerStatusData_UserMessage(MultiplayerStatusData_UserMessage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData_UserMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData_UserMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerStatusData_UserMessage(MultiplayerStatusData_UserMessage const&) = delete;
+  MultiplayerStatusData_UserMessage(MultiplayerStatusData_UserMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18961 };
@@ -214,6 +214,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerStatusData_UserMessage, ___
 static_assert(sizeof(::GlobalNamespace::MultiplayerStatusData_UserMessage) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Preserve]
 // Dependencies MultiplayerStatusData::AvailabilityStatus, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -381,13 +382,13 @@ protected:
   constexpr MultiplayerStatusData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerStatusData(MultiplayerStatusData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerStatusData(MultiplayerStatusData const&) = delete;
+  MultiplayerStatusData(MultiplayerStatusDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18962 };

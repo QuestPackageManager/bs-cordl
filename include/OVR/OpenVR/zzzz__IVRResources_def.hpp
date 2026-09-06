@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRResources.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_VAL_T(::OVR::OpenVR::IVRResources);
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRResources__GetResourceFullPath*, "OVR.OpenVR", "IVRResources/_GetResourceFullPath");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRResources__LoadSharedResource*, "OVR.OpenVR", "IVRResources/_LoadSharedResource");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRResources, "OVR.OpenVR", "IVRResources");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -73,13 +74,13 @@ protected:
   constexpr IVRResources__LoadSharedResource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRResources__LoadSharedResource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRResources__LoadSharedResource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRResources__LoadSharedResource(IVRResources__LoadSharedResource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRResources__LoadSharedResource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRResources__LoadSharedResource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRResources__LoadSharedResource(IVRResources__LoadSharedResource const&) = delete;
+  IVRResources__LoadSharedResource(IVRResources__LoadSharedResourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8333 };
@@ -90,6 +91,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRResources__LoadSharedResource) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -118,13 +120,13 @@ protected:
   constexpr IVRResources__GetResourceFullPath();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRResources__GetResourceFullPath", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRResources__GetResourceFullPath", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRResources__GetResourceFullPath(IVRResources__GetResourceFullPath&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRResources__GetResourceFullPath", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRResources__GetResourceFullPath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRResources__GetResourceFullPath(IVRResources__GetResourceFullPath const&) = delete;
+  IVRResources__GetResourceFullPath(IVRResources__GetResourceFullPathconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8334 };
@@ -150,8 +152,8 @@ public:
   // @brief default ctor
   constexpr IVRResources();
 
-  // Ctor Parameters [CppParam { name: "LoadSharedResource", ty: "::OVR::OpenVR::IVRResources__LoadSharedResource*", modifiers: "", def_value: None }, CppParam { name: "GetResourceFullPath", ty:
-  // "::OVR::OpenVR::IVRResources__GetResourceFullPath*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "LoadSharedResource", ty: "::OVR::OpenVR::IVRResources__LoadSharedResource*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "GetResourceFullPath", ty: "::OVR::OpenVR::IVRResources__GetResourceFullPath*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRResources(::OVR::OpenVR::IVRResources__LoadSharedResource* LoadSharedResource, ::OVR::OpenVR::IVRResources__GetResourceFullPath* GetResourceFullPath) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ManagedStreamHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/ManagedStreamHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,12 +27,15 @@ namespace UnityEngine {
 class CORDL_TYPE ManagedStreamHelpers : public ::System::Object {
 public:
   // Declarations
+  /// [RequiredByNativeCode]
   /// @brief Method ManagedStreamLength, addr 0x6ae4160, size 0x9c, virtual false, abstract: false, final false
   static inline void ManagedStreamLength(::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ManagedStreamRead, addr 0x6ae3fe0, size 0xc4, virtual false, abstract: false, final false
   static inline void ManagedStreamRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ManagedStreamSeek, addr 0x6ae40a4, size 0xbc, virtual false, abstract: false, final false
   static inline void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
@@ -45,13 +48,13 @@ protected:
   constexpr ManagedStreamHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ManagedStreamHelpers(ManagedStreamHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ManagedStreamHelpers(ManagedStreamHelpers const&) = delete;
+  ManagedStreamHelpers(ManagedStreamHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10352 };

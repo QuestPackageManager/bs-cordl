@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConsoleMessage.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConsoleMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct ConsoleMessage;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::ConsoleMessage);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConsoleMessage, "", "ConsoleMessage");
+// [IsReadOnly]
 // Dependencies UnityEngine.LogType
 namespace GlobalNamespace {
 // Is value type: true
@@ -34,7 +35,8 @@ public:
   // @brief default ctor
   constexpr ConsoleMessage();
 
-  // Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::UnityEngine::LogType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty: "::UnityEngine::LogType", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr ConsoleMessage(::StringW message, ::UnityEngine::LogType type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

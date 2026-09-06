@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1Set.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Set.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -400,7 +400,7 @@ inline void Org::BouncyCastle::Asn1::Asn1Set::_ctor(::Org::BouncyCastle::Asn1::A
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1Set*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Encodable*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element);
 }
-inline void Org::BouncyCastle::Asn1::Asn1Set::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
+inline void Org::BouncyCastle::Asn1::Asn1Set::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1Set*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, elements);
@@ -452,7 +452,7 @@ inline ::Org::BouncyCastle::Asn1::Asn1Set* Org::BouncyCastle::Asn1::Asn1Set::New
 inline ::Org::BouncyCastle::Asn1::Asn1Set* Org::BouncyCastle::Asn1::Asn1Set::New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Asn1Set*>(element));
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Set* Org::BouncyCastle::Asn1::Asn1Set::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
+inline ::Org::BouncyCastle::Asn1::Asn1Set* Org::BouncyCastle::Asn1::Asn1Set::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Asn1Set*>(elements));
 }
 inline ::Org::BouncyCastle::Asn1::Asn1Set* Org::BouncyCastle::Asn1::Asn1Set::New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector) {

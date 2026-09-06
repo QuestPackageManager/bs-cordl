@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StartupErrorViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/StartupErrorViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,20 +64,22 @@ protected:
   constexpr StartupErrorViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StartupErrorViewController(StartupErrorViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StartupErrorViewController(StartupErrorViewController const&) = delete;
+  StartupErrorViewController(StartupErrorViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6480 };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____text;
 
+  /// [SerializeField]
   /// @brief Field _quitButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____quitButton;
 

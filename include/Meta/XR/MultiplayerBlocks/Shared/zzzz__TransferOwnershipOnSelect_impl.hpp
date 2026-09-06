@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\TransferOwnershipOnSelect.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/TransferOwnershipOnSelect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__TransferOwnershipOnSelect_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect._ctor

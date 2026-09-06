@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BasicSpectrogramData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BasicSpectrogramData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class BasicSpectrogramData;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BasicSpectrogramData*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BasicSpectrogramData*, "", "BasicSpectrogramData");
+// [AddComponentMenu("Beat Saber/Gameplay/BasicSpectrogramData")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -127,13 +128,13 @@ protected:
   constexpr BasicSpectrogramData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicSpectrogramData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicSpectrogramData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicSpectrogramData(BasicSpectrogramData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicSpectrogramData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicSpectrogramData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicSpectrogramData(BasicSpectrogramData const&) = delete;
+  BasicSpectrogramData(BasicSpectrogramDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5982 };
@@ -141,12 +142,15 @@ public:
   /// @brief Field kNumberOfSamples offset 0xffffffff size 0x4
   static constexpr int32_t kNumberOfSamples{ static_cast<int32_t>(0x40) };
 
+  /// [Inject]
   /// @brief Field _determinismConfig, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [SerializeField]
   /// @brief Field _instantChangeThreshold, offset: 0x30, size: 0x4, def value: None
   float_t ____instantChangeThreshold;
 

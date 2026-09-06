@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\Ed448KeyGenerationParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/Ed448KeyGenerationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ protected:
   constexpr Ed448KeyGenerationParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed448KeyGenerationParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed448KeyGenerationParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed448KeyGenerationParameters(Ed448KeyGenerationParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed448KeyGenerationParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed448KeyGenerationParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed448KeyGenerationParameters(Ed448KeyGenerationParameters const&) = delete;
+  Ed448KeyGenerationParameters(Ed448KeyGenerationParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1043 };

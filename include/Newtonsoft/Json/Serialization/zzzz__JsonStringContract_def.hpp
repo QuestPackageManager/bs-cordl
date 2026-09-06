@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonStringContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonStringContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,8 +22,10 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE JsonStringContract : public ::Newtonsoft::Json::Serialization::JsonPrimitiveContract {
 public:
   // Declarations
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Serialization::JsonStringContract* New_ctor(::System::Type* underlyingType);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d58180, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
@@ -33,13 +35,13 @@ protected:
   constexpr JsonStringContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonStringContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonStringContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonStringContract(JsonStringContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonStringContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonStringContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonStringContract(JsonStringContract const&) = delete;
+  JsonStringContract(JsonStringContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13524 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentIdFilterExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentIdFilterExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class EnvironmentIdFilterExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::EnvironmentIdFilterExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentIdFilterExtensions*, "", "EnvironmentIdFilterExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -22,9 +23,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE EnvironmentIdFilterExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ShouldExcludeMultiplayer, addr 0x372f670, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldExcludeMultiplayer(::GlobalNamespace::EnvironmentIdFilter filter);
 
+  /// [Extension]
   /// @brief Method ShouldExcludeTutorial, addr 0x372f668, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldExcludeTutorial(::GlobalNamespace::EnvironmentIdFilter filter);
 
@@ -34,13 +37,13 @@ protected:
   constexpr EnvironmentIdFilterExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIdFilterExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIdFilterExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentIdFilterExtensions(EnvironmentIdFilterExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIdFilterExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIdFilterExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentIdFilterExtensions(EnvironmentIdFilterExtensions const&) = delete;
+  EnvironmentIdFilterExtensions(EnvironmentIdFilterExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15029 };

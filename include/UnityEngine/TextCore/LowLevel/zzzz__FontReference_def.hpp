@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\FontReference.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/FontReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,9 @@ struct FontReference;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontReference);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::FontReference, "UnityEngine.TextCore.LowLevel", "FontReference");
+// [DebuggerDisplay("{familyName} - {styleName}")]
+// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -25,8 +28,9 @@ public:
   // @brief default ctor
   constexpr FontReference();
 
-  // Ctor Parameters [CppParam { name: "familyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "faceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "filePath", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "familyName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "filePath", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr FontReference(::StringW familyName, ::StringW styleName, int32_t faceIndex, ::StringW filePath) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

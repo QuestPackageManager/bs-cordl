@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Telemetry.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Telemetry.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetryMarker_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__Telemetry_def.hpp"
@@ -15,7 +15,7 @@
 #include "System/zzzz__Type_def.hpp"
 // Ctor Parameters []
 constexpr ::Meta::XR::ImmersiveDebugger::Telemetry_MarkerId::Telemetry_MarkerId() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::Telemetry_State::Telemetry_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -24,7 +24,7 @@ constexpr ::Meta::XR::ImmersiveDebugger::Telemetry_State::Telemetry_State() {}
 constexpr ::Meta::XR::ImmersiveDebugger::Telemetry_State Meta::XR::ImmersiveDebugger::Telemetry_State::OnStart{ static_cast<int32_t>(0x0) };
 constexpr ::Meta::XR::ImmersiveDebugger::Telemetry_State Meta::XR::ImmersiveDebugger::Telemetry_State::OnFocusLost{ static_cast<int32_t>(0x1) };
 constexpr ::Meta::XR::ImmersiveDebugger::Telemetry_State Meta::XR::ImmersiveDebugger::Telemetry_State::OnDisable{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::Telemetry_Method::Telemetry_Method(int32_t value__) noexcept {
   this->value__ = value__;
 }

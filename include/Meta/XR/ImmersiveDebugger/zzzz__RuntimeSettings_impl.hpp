@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\RuntimeSettings.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/RuntimeSettings.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRRuntimeAssetsBase_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__RuntimeSettings_def.hpp"
@@ -11,7 +11,7 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::RuntimeSettings_DistanceOption::RuntimeSettings_DistanceOption(int32_t value__) noexcept {
   this->value__ = value__;
 }

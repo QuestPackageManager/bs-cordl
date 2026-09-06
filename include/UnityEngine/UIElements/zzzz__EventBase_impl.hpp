@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventBase.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PropagationPhase_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -14,7 +14,7 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::EventBase_EventPropagation::EventBase_EventPropagation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -25,7 +25,7 @@ constexpr ::UnityEngine::UIElements::EventBase_EventPropagation UnityEngine::UIE
 constexpr ::UnityEngine::UIElements::EventBase_EventPropagation UnityEngine::UIElements::EventBase_EventPropagation::TricklesDown{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::EventBase_EventPropagation UnityEngine::UIElements::EventBase_EventPropagation::SkipDisabledElements{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::EventBase_EventPropagation UnityEngine::UIElements::EventBase_EventPropagation::BubblesOrTricklesDown{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::EventBase_LifeCycleStatus::EventBase_LifeCycleStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1062,7 +1062,7 @@ inline void UnityEngine::UIElements::EventBase::PostDispatch(::UnityEngine::UIEl
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::EventBase*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
 }
-inline void UnityEngine::UIElements::EventBase::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+inline void UnityEngine::UIElements::EventBase::Dispatch(/* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::EventBase*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
 }

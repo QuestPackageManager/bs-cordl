@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering\LufsMeter.hpp"
+// IWYU pragma private; include "LufsMetering/LufsMeter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::LufsMetering::LufsMeter*);
 MARK_REF_T(::LufsMetering::LufsMeter___c*);
 DEFINE_IL2CPP_CLASS(::LufsMetering::LufsMeter*, "LufsMetering", "LufsMeter");
 DEFINE_IL2CPP_CLASS(::LufsMetering::LufsMeter___c*, "LufsMetering", "LufsMeter/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace LufsMetering {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr LufsMeter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LufsMeter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LufsMeter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LufsMeter___c(LufsMeter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LufsMeter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LufsMeter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LufsMeter___c(LufsMeter___c const&) = delete;
+  LufsMeter___c(LufsMeter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22644 };
@@ -142,13 +143,13 @@ protected:
   constexpr LufsMeter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LufsMeter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LufsMeter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LufsMeter(LufsMeter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LufsMeter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LufsMeter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LufsMeter(LufsMeter const&) = delete;
+  LufsMeter(LufsMeterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22645 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlFormatWriterInterpreter.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlFormatWriterInterpreter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,9 @@ namespace System {
 template <typename TResult> class Func_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -78,6 +80,7 @@ DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::XmlFormatWriterInterpreter
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::XmlFormatWriterInterpreter___c__DisplayClass24_0*, "System.Runtime.Serialization", "XmlFormatWriterInterpreter/<>c__DisplayClass24_0");
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::XmlFormatWriterInterpreter___c__DisplayClass25_0*, "System.Runtime.Serialization", "XmlFormatWriterInterpreter/<>c__DisplayClass25_0");
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::XmlFormatWriterInterpreter___c__DisplayClass33_0*, "System.Runtime.Serialization", "XmlFormatWriterInterpreter/<>c__DisplayClass33_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -108,13 +111,13 @@ protected:
   constexpr XmlFormatWriterInterpreter___c__DisplayClass24_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass24_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass24_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlFormatWriterInterpreter___c__DisplayClass24_0(XmlFormatWriterInterpreter___c__DisplayClass24_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass24_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterInterpreter___c__DisplayClass24_0(XmlFormatWriterInterpreter___c__DisplayClass24_0 const&) = delete;
+  XmlFormatWriterInterpreter___c__DisplayClass24_0(XmlFormatWriterInterpreter___c__DisplayClass24_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17160 };
@@ -130,6 +133,7 @@ static_assert(offsetof(::System::Runtime::Serialization::XmlFormatWriterInterpre
 static_assert(sizeof(::System::Runtime::Serialization::XmlFormatWriterInterpreter___c__DisplayClass24_0) == 0x18, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -160,13 +164,13 @@ protected:
   constexpr XmlFormatWriterInterpreter___c__DisplayClass25_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass25_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass25_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlFormatWriterInterpreter___c__DisplayClass25_0(XmlFormatWriterInterpreter___c__DisplayClass25_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass25_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterInterpreter___c__DisplayClass25_0(XmlFormatWriterInterpreter___c__DisplayClass25_0 const&) = delete;
+  XmlFormatWriterInterpreter___c__DisplayClass25_0(XmlFormatWriterInterpreter___c__DisplayClass25_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17161 };
@@ -182,6 +186,7 @@ static_assert(offsetof(::System::Runtime::Serialization::XmlFormatWriterInterpre
 static_assert(sizeof(::System::Runtime::Serialization::XmlFormatWriterInterpreter___c__DisplayClass25_0) == 0x18, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -212,13 +217,13 @@ protected:
   constexpr XmlFormatWriterInterpreter___c__DisplayClass33_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass33_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass33_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlFormatWriterInterpreter___c__DisplayClass33_0(XmlFormatWriterInterpreter___c__DisplayClass33_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass33_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass33_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterInterpreter___c__DisplayClass33_0(XmlFormatWriterInterpreter___c__DisplayClass33_0 const&) = delete;
+  XmlFormatWriterInterpreter___c__DisplayClass33_0(XmlFormatWriterInterpreter___c__DisplayClass33_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17162 };
@@ -360,6 +365,7 @@ public:
   /// @brief Method WriteValue, addr 0x618273c, size 0xb34, virtual false, abstract: false, final false
   inline void WriteValue(::System::Type* memberType, ::System::Object* memberValue, bool writeXsiType);
 
+  /// [CompilerGenerated]
   /// @brief Method <WriteCollection>b__24_0, addr 0x6183b70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* _WriteCollection_b__24_0();
 
@@ -453,13 +459,13 @@ protected:
   constexpr XmlFormatWriterInterpreter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlFormatWriterInterpreter(XmlFormatWriterInterpreter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterInterpreter(XmlFormatWriterInterpreter const&) = delete;
+  XmlFormatWriterInterpreter(XmlFormatWriterInterpreterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17163 };

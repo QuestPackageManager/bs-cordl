@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InterpretedFrame.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InterpretedFrame.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrameInfo_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IStrongBox_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -248,6 +248,7 @@ inline ::System::Collections::IEnumerator* System::Linq::Expressions::Interprete
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*
 System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>(__1__state));

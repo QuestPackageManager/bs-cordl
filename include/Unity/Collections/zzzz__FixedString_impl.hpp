@@ -1,6 +1,8 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedString.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedString.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__INativeList_1_impl.hpp"
+#include "Unity/Collections/zzzz__IUTF8Bytes_impl.hpp"
 #include "Unity/Collections/zzzz__FixedString_def.hpp"
 #include "Unity/Collections/zzzz__FixedString128Bytes_def.hpp"
 #include "Unity/Collections/zzzz__FixedString512Bytes_def.hpp"
@@ -2019,6 +2021,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, int32_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2056,6 +2060,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, int32_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2093,6 +2099,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, int32_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2103,6 +2111,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, int32_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2113,6 +2123,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, int32_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2123,6 +2135,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, int32_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2133,6 +2147,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, int32_t arg2, int32_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2170,6 +2188,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, float_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2207,6 +2227,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, float_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2244,6 +2266,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, float_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2254,6 +2278,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, float_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2264,6 +2290,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, float_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2274,6 +2302,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, float_t arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2284,6 +2314,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, float_t arg2, int32_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2321,6 +2355,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, ::StringW arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2358,6 +2394,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, ::StringW arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2395,6 +2433,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, ::StringW arg2,
                                                                                          int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -2406,6 +2446,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, ::StringW arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2416,6 +2458,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, ::StringW arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2426,6 +2470,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, ::StringW arg2,
                                                                                          int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -2437,6 +2483,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, ::StringW arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2447,6 +2497,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, T1 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2457,6 +2509,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, T1 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2467,6 +2521,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, T1 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2477,6 +2533,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, T2 arg2, int32_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2487,6 +2547,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, T1 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2497,6 +2559,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, T1 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2507,6 +2571,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, T1 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2517,6 +2583,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, T2 arg2, int32_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2527,6 +2597,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, T1 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2537,6 +2609,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, T1 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2547,6 +2621,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, T1 arg2,
                                                                                          int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -2558,6 +2634,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, T2 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2568,6 +2648,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, T2 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2578,6 +2662,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, T2 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2588,6 +2676,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, T2 arg2, int32_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2598,6 +2690,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, T3 arg2, int32_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2635,6 +2733,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, int32_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2672,6 +2772,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, int32_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2709,6 +2811,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, int32_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2719,6 +2823,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, int32_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2729,6 +2835,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, int32_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2739,6 +2847,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, int32_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2749,6 +2859,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, int32_t arg2, float_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2786,6 +2900,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, float_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2823,6 +2939,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, float_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2860,6 +2978,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, float_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2870,6 +2990,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, float_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2880,6 +3002,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, float_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2890,6 +3014,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, float_t arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2900,6 +3026,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, float_t arg2, float_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2937,6 +3067,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, ::StringW arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -2974,6 +3106,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, ::StringW arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3011,6 +3145,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, ::StringW arg2,
                                                                                          float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3022,6 +3158,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, ::StringW arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3032,6 +3170,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, ::StringW arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3042,6 +3182,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, ::StringW arg2,
                                                                                          float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3053,6 +3195,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, ::StringW arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3063,6 +3209,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, T1 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3073,6 +3221,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, T1 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3083,6 +3233,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, T1 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3093,6 +3245,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, T2 arg2, float_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3103,6 +3259,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, T1 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3113,6 +3271,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, T1 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3123,6 +3283,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, T1 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3133,6 +3295,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, T2 arg2, float_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3143,6 +3309,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, T1 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3153,6 +3321,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, T1 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3163,6 +3333,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, T1 arg2,
                                                                                          float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3174,6 +3346,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, T2 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3184,6 +3360,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, T2 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3194,6 +3374,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, T2 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3204,6 +3388,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, T2 arg2, float_t arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3214,6 +3402,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, T3 arg2, float_t arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3251,6 +3445,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, int32_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3288,6 +3484,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, int32_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3325,6 +3523,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, int32_t arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3336,6 +3536,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, int32_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3346,6 +3548,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, int32_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3356,6 +3560,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, int32_t arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3367,6 +3573,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, int32_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3404,6 +3614,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, float_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3441,6 +3653,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, float_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3478,6 +3692,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, float_t arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3489,6 +3705,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, float_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3499,6 +3717,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, float_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3509,6 +3729,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, float_t arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3520,6 +3742,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, float_t arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3557,6 +3783,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, ::StringW arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3595,6 +3823,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, ::StringW arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3633,6 +3863,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, ::StringW arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3644,6 +3876,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, ::StringW arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3655,6 +3889,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, ::StringW arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3666,6 +3902,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, ::StringW arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3677,6 +3915,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, ::StringW arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3687,6 +3929,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, T1 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3697,6 +3941,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, T1 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3707,6 +3953,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, T1 arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3718,6 +3966,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, T2 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3728,6 +3980,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, T1 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3738,6 +3992,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, T1 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3748,6 +4004,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, T1 arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3759,6 +4017,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, T2 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3769,6 +4031,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, T1 arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3780,6 +4044,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, T1 arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3791,6 +4057,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, T1 arg2,
                                                                                          ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3802,6 +4070,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, T2 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3812,6 +4084,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, T2 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3822,6 +4098,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, T2 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3832,6 +4112,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, T2 arg2, ::StringW arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3842,6 +4126,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, T3 arg2, ::StringW arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3852,6 +4142,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3862,6 +4154,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3872,6 +4166,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3882,6 +4178,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, int32_t arg2, T2 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3892,6 +4192,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3902,6 +4204,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, int32_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3912,6 +4216,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3922,6 +4228,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, int32_t arg2, T2 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3932,6 +4242,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3942,6 +4254,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3952,6 +4266,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2,
                                                                                          T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3963,6 +4279,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, int32_t arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3973,6 +4293,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, int32_t arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3983,6 +4307,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, int32_t arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -3993,6 +4321,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, int32_t arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4003,6 +4335,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, int32_t arg2, T3 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4013,6 +4351,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4023,6 +4363,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, float_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4033,6 +4375,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4043,6 +4387,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, float_t arg2, T2 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4053,6 +4401,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, float_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4063,6 +4413,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, float_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4073,6 +4425,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4083,6 +4437,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, float_t arg2, T2 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4093,6 +4451,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4103,6 +4463,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4113,6 +4475,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2,
                                                                                          T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -4124,6 +4488,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, float_t arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4134,6 +4502,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, float_t arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4144,6 +4516,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, float_t arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4154,6 +4530,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, float_t arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4164,6 +4544,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, float_t arg2, T3 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4174,6 +4560,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4184,6 +4572,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4194,6 +4584,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2,
                                                                                          T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -4205,6 +4597,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, ::StringW arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4215,6 +4611,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4225,6 +4623,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2, T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4235,6 +4635,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2,
                                                                                          T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -4246,6 +4648,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, ::StringW arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4256,6 +4662,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2,
                                                                                          T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -4267,6 +4675,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2,
                                                                                          T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -4278,6 +4688,8 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2,
                                                                                          T1 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -4289,6 +4701,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, ::StringW arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4299,6 +4715,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, ::StringW arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4309,6 +4729,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, ::StringW arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4319,6 +4743,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, ::StringW arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4329,6 +4757,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, ::StringW arg2, T3 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4339,6 +4773,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, T1 arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4349,6 +4787,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, T1 arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4359,6 +4801,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, T1 arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4369,6 +4815,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, T2 arg2, T3 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4379,6 +4831,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, T1 arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4389,6 +4845,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, T1 arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4399,6 +4859,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, T1 arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4409,6 +4873,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, float_t arg1, T2 arg2, T3 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4419,6 +4889,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, T1 arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4429,6 +4903,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, T1 arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4439,6 +4917,10 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, T1 arg2, T2 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4449,6 +4931,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, ::StringW arg1, T2 arg2, T3 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4459,6 +4947,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, T2 arg2, T3 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4469,6 +4963,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, T2 arg2, T3 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4479,6 +4979,12 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, T2 arg2, T3 arg3) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format",
@@ -4489,6 +4995,14 @@ inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2, arg3);
 }
 template <typename T1, typename T2, typename T3, typename T4>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3> &&
+           ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4>)
 inline ::Unity::Collections::FixedString512Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, T2 arg1, T3 arg2, T4 arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -4522,6 +5036,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, int32_t arg1, int32_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4553,6 +5069,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, float_t arg1, int32_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4584,6 +5102,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, ::StringW arg1, int32_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4594,6 +5114,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, T1 arg1, int32_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4604,6 +5126,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, T1 arg1, int32_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4614,6 +5138,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, T1 arg1, int32_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4624,6 +5150,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, T2 arg1, int32_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -4655,6 +5185,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, int32_t arg1, float_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4686,6 +5218,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, float_t arg1, float_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4717,6 +5251,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, ::StringW arg1, float_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4727,6 +5263,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, T1 arg1, float_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4737,6 +5275,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, T1 arg1, float_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4747,6 +5287,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, T1 arg1, float_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4757,6 +5299,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, T2 arg1, float_t arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -4788,6 +5334,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, int32_t arg1, ::StringW arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4819,6 +5367,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, float_t arg1, ::StringW arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4850,6 +5400,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, ::StringW arg1, ::StringW arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4860,6 +5412,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, T1 arg1, ::StringW arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4870,6 +5424,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, T1 arg1, ::StringW arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4880,6 +5436,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, T1 arg1, ::StringW arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4890,6 +5448,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, T2 arg1, ::StringW arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -4900,6 +5462,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1, T1 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4910,6 +5474,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1, T1 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4920,6 +5486,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1, T1 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4930,6 +5498,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, int32_t arg1, T2 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -4940,6 +5512,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1, T1 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4950,6 +5524,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1, T1 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4960,6 +5536,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1, T1 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4970,6 +5548,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, float_t arg1, T2 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -4980,6 +5562,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1, T1 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4990,6 +5574,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1, T1 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -5000,6 +5586,8 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1, T1 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -5010,6 +5598,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, ::StringW arg1, T2 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5020,6 +5612,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, T1 arg1, T2 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5030,6 +5626,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, T1 arg1, T2 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5040,6 +5640,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, T1 arg1, T2 arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5050,6 +5654,12 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1, arg2);
 }
 template <typename T1, typename T2, typename T3>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, T2 arg1, T3 arg2) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5077,7 +5687,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
                                                            { "Format", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1);
 }
-template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, int32_t arg1) {
+template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
+inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, int32_t arg1) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5103,7 +5716,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
                                                            { "Format", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1);
 }
-template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, float_t arg1) {
+template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
+inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, float_t arg1) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5129,7 +5745,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
                                               { "Format", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1);
 }
-template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, ::StringW arg1) {
+template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
+inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, ::StringW arg1) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5137,7 +5756,10 @@ template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::C
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T1>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1);
 }
-template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, T1 arg1) {
+template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
+inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, T1 arg1) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5145,7 +5767,10 @@ template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::C
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T1>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1);
 }
-template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, T1 arg1) {
+template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
+inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, T1 arg1) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5153,7 +5778,10 @@ template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::C
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T1>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1);
 }
-template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, T1 arg1) {
+template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
+inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, T1 arg1) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
@@ -5161,7 +5789,12 @@ template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::C
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T1>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0, arg1);
 }
-template <typename T1, typename T2> inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, T2 arg1) {
+template <typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, T2 arg1) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -5188,7 +5821,10 @@ inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(), { "Format", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, formatString, arg0);
 }
-template <typename T1> inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0) {
+template <typename T1>
+  requires(::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
+inline ::Unity::Collections::FixedString128Bytes Unity::Collections::FixedString::Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString*>(),
                                                            { "Format", { ::i2c::class_of<T1>() }, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<T1>() } })));

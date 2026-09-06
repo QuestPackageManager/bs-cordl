@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerGameplayAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerGameplayAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,7 @@ public:
   /// @brief Method TransitionIntoFailedState, addr 0x59c658c, size 0xa4, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
+  /// [CompilerGenerated]
   /// @brief Method <InitializeIfNeeded>b__6_0, addr 0x59c6734, size 0x50, virtual false, abstract: false, final false
   inline void _InitializeIfNeeded_b__6_0(float_t f);
 
@@ -118,23 +119,27 @@ protected:
   constexpr MultiplayerLocalActivePlayerGameplayAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActivePlayerGameplayAnimator(MultiplayerLocalActivePlayerGameplayAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerGameplayAnimator(MultiplayerLocalActivePlayerGameplayAnimator const&) = delete;
+  MultiplayerLocalActivePlayerGameplayAnimator(MultiplayerLocalActivePlayerGameplayAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6090 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _coreGameHUDController, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CoreGameHUDController> ____coreGameHUDController;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerPositionHUDController, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPositionHUDController> ____multiplayerPositionHUDController;
 
+  /// [Inject]
   /// @brief Field _levelEndActionsPublisher, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* ____levelEndActionsPublisher;
 

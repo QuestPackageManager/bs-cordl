@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\WebHeaderCollection.hpp"
+// IWYU pragma private; include "System/Net/WebHeaderCollection.hpp"
 #include "System/Collections/Specialized/zzzz__NameValueCollection_impl.hpp"
 #include "System/Net/zzzz__WebHeaderCollectionType_impl.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
@@ -13,7 +13,7 @@
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::WebHeaderCollection_RfcChar::WebHeaderCollection_RfcChar(uint8_t value__) noexcept {
   this->value__ = value__;
 }

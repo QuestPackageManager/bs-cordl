@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutConfig.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutConfig.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutDataAccess_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutHandle_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutConfig_def.hpp"
@@ -78,8 +78,8 @@ inline ::by_ref<float_t> UnityEngine::UIElements::Layout::LayoutConfig::get_Poin
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutConfig>(), { "get_PointScaleFactor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<float_t>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Access", ty: "::UnityEngine::UIElements::Layout::LayoutDataAccess", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Handle", ty:
-// "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Access", ty: "::UnityEngine::UIElements::Layout::LayoutDataAccess", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Handle", ty:
+// "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutConfig::LayoutConfig(::UnityEngine::UIElements::Layout::LayoutDataAccess m_Access,
                                                                         ::UnityEngine::UIElements::Layout::LayoutHandle m_Handle) noexcept {
   this->m_Access = m_Access;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugUI.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugUI.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -416,6 +416,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RuntimeDebugShadersMessageBox_Debu
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Table_DebugUI_Row*, "UnityEngine.Rendering", "DebugUI/Table/Row");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem, "UnityEngine.Rendering", "DebugUI/Foldout/ContextMenuItem");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "UnityEngine.Rendering", "DebugUI/Widget/NameAndTooltip");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -448,7 +449,7 @@ public:
   // @brief default ctor
   constexpr DebugUI_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugUI_Flags(int32_t value__) noexcept;
 
   /// @brief Field EditorForceUpdate value: I32(8)
@@ -588,9 +589,11 @@ public:
   /// @brief Method .ctor, addr 0x6769e0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_displayName, addr 0x676aacc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_displayName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_flags, addr 0x676aabc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Flags get_flags();
 
@@ -612,15 +615,19 @@ public:
   /// @brief Method get_parent, addr 0x676aaac, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_IContainer* get_parent();
 
+  /// [CompilerGenerated]
   /// @brief Method get_queryPath, addr 0x676aaec, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_queryPath();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tooltip, addr 0x676aadc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_tooltip();
 
+  /// [CompilerGenerated]
   /// @brief Method set_displayName, addr 0x676aad4, size 0x8, virtual true, abstract: false, final true
   inline void set_displayName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_flags, addr 0x676aac4, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::Rendering::DebugUI_Flags value);
 
@@ -633,9 +640,11 @@ public:
   /// @brief Method set_parent, addr 0x676aab4, size 0x8, virtual true, abstract: false, final false
   inline void set_parent(::UnityEngine::Rendering::DebugUI_IContainer* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_queryPath, addr 0x676aaf4, size 0x8, virtual false, abstract: false, final false
   inline void set_queryPath(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tooltip, addr 0x676aae4, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
@@ -645,13 +654,13 @@ protected:
   constexpr DebugUI_Widget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Widget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Widget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Widget(DebugUI_Widget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Widget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Widget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Widget(DebugUI_Widget const&) = delete;
+  DebugUI_Widget(DebugUI_Widgetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11999 };
@@ -662,15 +671,19 @@ public:
   /// @brief Field m_Parent, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugUI_IContainer* ___m_Parent;
 
+  /// [CompilerGenerated]
   /// @brief Field <flags>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Rendering::DebugUI_Flags ____flags_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <displayName>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tooltip>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____tooltip_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <queryPath>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____queryPath_k__BackingField;
 
@@ -752,6 +765,7 @@ public:
   /// @brief Method .ctor, addr 0x6769d44, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
+  /// [CompilerGenerated]
   /// @brief Method get_children, addr 0x67699dc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* get_children();
 
@@ -764,6 +778,7 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::DebugUI_IContainer"
   constexpr ::UnityEngine::Rendering::DebugUI_IContainer* i___UnityEngine__Rendering__DebugUI_IContainer() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_children, addr 0x67699e4, size 0x8, virtual false, abstract: false, final false
   inline void set_children(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* value);
 
@@ -776,13 +791,13 @@ protected:
   constexpr DebugUI_Container();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Container", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Container", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Container(DebugUI_Container&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Container", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Container", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Container(DebugUI_Container const&) = delete;
+  DebugUI_Container(DebugUI_Containerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11990 };
@@ -790,6 +805,7 @@ public:
   /// @brief Field k_IDToken offset 0xffffffff size 0x8
   static constexpr ::ConstString k_IDToken{ u"#" };
 
+  /// [CompilerGenerated]
   /// @brief Field <children>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* ____children_k__BackingField;
 
@@ -812,7 +828,8 @@ public:
   // @brief default ctor
   constexpr Foldout_DebugUI_ContextMenuItem();
 
-  // Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr Foldout_DebugUI_ContextMenuItem(::StringW displayName, ::System::Action* action) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -975,13 +992,13 @@ protected:
   constexpr DebugUI_Foldout();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Foldout", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Foldout", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Foldout(DebugUI_Foldout&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Foldout", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Foldout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Foldout(DebugUI_Foldout const&) = delete;
+  DebugUI_Foldout(DebugUI_Foldoutconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11992 };
@@ -1045,13 +1062,13 @@ protected:
   constexpr DebugUI_HBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_HBox(DebugUI_HBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_HBox(DebugUI_HBox const&) = delete;
+  DebugUI_HBox(DebugUI_HBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11993 };
@@ -1080,13 +1097,13 @@ protected:
   constexpr DebugUI_VBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_VBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_VBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_VBox(DebugUI_VBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_VBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_VBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_VBox(DebugUI_VBox const&) = delete;
+  DebugUI_VBox(DebugUI_VBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11994 };
@@ -1115,13 +1132,13 @@ protected:
   constexpr Table_DebugUI_Row();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Table_DebugUI_Row", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Table_DebugUI_Row", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Table_DebugUI_Row(Table_DebugUI_Row&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Table_DebugUI_Row", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Table_DebugUI_Row", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Table_DebugUI_Row(Table_DebugUI_Row const&) = delete;
+  Table_DebugUI_Row(Table_DebugUI_Rowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11995 };
@@ -1196,13 +1213,13 @@ protected:
   constexpr DebugUI_Table();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Table", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Table", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Table(DebugUI_Table&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Table", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Table", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Table(DebugUI_Table const&) = delete;
+  DebugUI_Table(DebugUI_Tableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11996 };
@@ -1234,7 +1251,8 @@ public:
   // @brief default ctor
   constexpr Widget_DebugUI_NameAndTooltip();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr Widget_DebugUI_NameAndTooltip(::StringW name, ::StringW tooltip) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1272,21 +1290,21 @@ public:
 
   __declspec(property(get = get_queryPath)) ::StringW queryPath;
 
-  /// @brief Method get_children, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_children, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* get_children();
 
-  /// @brief Method get_displayName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_queryPath, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_queryPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_queryPath();
 
-  /// @brief Method set_displayName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_displayName(::StringW value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_IContainer(DebugUI_IContainer const&) = delete;
+  DebugUI_IContainer(DebugUI_IContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12000 };
@@ -1302,18 +1320,18 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_IValueField {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetValue();
 
-  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::System::Object* value);
 
-  /// @brief Method ValidateValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ValidateValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ValidateValue(::System::Object* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IValueField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IValueField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_IValueField(DebugUI_IValueField const&) = delete;
+  DebugUI_IValueField(DebugUI_IValueFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12001 };
@@ -1345,9 +1363,11 @@ public:
   /// @brief Method .ctor, addr 0x676ac20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_action, addr 0x676ac10, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_action();
 
+  /// [CompilerGenerated]
   /// @brief Method set_action, addr 0x676ac18, size 0x8, virtual false, abstract: false, final false
   inline void set_action(::System::Action* value);
 
@@ -1357,17 +1377,18 @@ protected:
   constexpr DebugUI_Button();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Button", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Button", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Button(DebugUI_Button&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Button", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Button", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Button(DebugUI_Button const&) = delete;
+  DebugUI_Button(DebugUI_Buttonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12002 };
 
+  /// [CompilerGenerated]
   /// @brief Field <action>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ____action_k__BackingField;
 
@@ -1426,9 +1447,11 @@ public:
   /// @brief Method .ctor, addr 0x675dbd4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_getter, addr 0x676ac24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::System::Object*>* get_getter();
 
+  /// [CompilerGenerated]
   /// @brief Method set_getter, addr 0x676ac2c, size 0x8, virtual false, abstract: false, final false
   inline void set_getter(::System::Func_1<::System::Object*>* value);
 
@@ -1438,17 +1461,18 @@ protected:
   constexpr DebugUI_Value();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Value", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Value", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Value(DebugUI_Value&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Value", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Value", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Value(DebugUI_Value const&) = delete;
+  DebugUI_Value(DebugUI_Valueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12003 };
 
+  /// [CompilerGenerated]
   /// @brief Field <getter>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Func_1<::System::Object*>* ____getter_k__BackingField;
 
@@ -1488,6 +1512,7 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugUI_ProgressBarValue* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <FormatString>g__Remap01|2_0, addr 0x676ade0, size 0x10, virtual false, abstract: false, final false
   static inline float_t _FormatString_g__Remap01_2_0(float_t v, float_t x0, float_t y0);
 
@@ -1512,13 +1537,13 @@ protected:
   constexpr DebugUI_ProgressBarValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ProgressBarValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ProgressBarValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_ProgressBarValue(DebugUI_ProgressBarValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ProgressBarValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ProgressBarValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_ProgressBarValue(DebugUI_ProgressBarValue const&) = delete;
+  DebugUI_ProgressBarValue(DebugUI_ProgressBarValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12004 };
@@ -1585,13 +1610,13 @@ protected:
   constexpr DebugUI_ValueTuple();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ValueTuple", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ValueTuple", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_ValueTuple(DebugUI_ValueTuple&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ValueTuple", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ValueTuple", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_ValueTuple(DebugUI_ValueTuple const&) = delete;
+  DebugUI_ValueTuple(DebugUI_ValueTupleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12005 };
@@ -1678,18 +1703,22 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_getter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Func_1<T>* get_getter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_setter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action_1<T>* get_setter();
 
   /// @brief Convert to "::UnityEngine::Rendering::DebugUI_IValueField"
   constexpr ::UnityEngine::Rendering::DebugUI_IValueField* i___UnityEngine__Rendering__DebugUI_IValueField() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_getter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_getter(::System::Func_1<T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_setter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_setter(::System::Action_1<T>* value);
 
@@ -1699,20 +1728,22 @@ protected:
   constexpr DebugUI_Field_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Field_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Field_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Field_1(DebugUI_Field_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Field_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Field_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Field_1(DebugUI_Field_1 const&) = delete;
+  DebugUI_Field_1(DebugUI_Field_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12006 };
 
+  /// [CompilerGenerated]
   /// @brief Field <getter>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Func_1<T>* ____getter_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <setter>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<T>* ____setter_k__BackingField;
 
@@ -1741,13 +1772,13 @@ protected:
   constexpr DebugUI_BoolField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_BoolField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_BoolField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_BoolField(DebugUI_BoolField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_BoolField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_BoolField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_BoolField(DebugUI_BoolField const&) = delete;
+  DebugUI_BoolField(DebugUI_BoolFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12007 };
@@ -1790,9 +1821,11 @@ public:
   /// @brief Method get_historyDepth, addr 0x676aeb8, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_historyDepth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_historyGetter, addr 0x676aea8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Func_1<bool>*> get_historyGetter();
 
+  /// [CompilerGenerated]
   /// @brief Method set_historyGetter, addr 0x676aeb0, size 0x8, virtual false, abstract: false, final false
   inline void set_historyGetter(::ArrayW<::System::Func_1<bool>*> value);
 
@@ -1802,17 +1835,18 @@ protected:
   constexpr DebugUI_HistoryBoolField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HistoryBoolField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HistoryBoolField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_HistoryBoolField(DebugUI_HistoryBoolField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HistoryBoolField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HistoryBoolField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_HistoryBoolField(DebugUI_HistoryBoolField const&) = delete;
+  DebugUI_HistoryBoolField(DebugUI_HistoryBoolFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12008 };
 
+  /// [CompilerGenerated]
   /// @brief Field <historyGetter>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::System::Func_1<bool>*> ____historyGetter_k__BackingField;
 
@@ -1881,13 +1915,13 @@ protected:
   constexpr DebugUI_IntField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IntField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IntField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_IntField(DebugUI_IntField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IntField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IntField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_IntField(DebugUI_IntField const&) = delete;
+  DebugUI_IntField(DebugUI_IntFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12009 };
@@ -1975,13 +2009,13 @@ protected:
   constexpr DebugUI_UIntField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_UIntField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_UIntField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_UIntField(DebugUI_UIntField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_UIntField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_UIntField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_UIntField(DebugUI_UIntField const&) = delete;
+  DebugUI_UIntField(DebugUI_UIntFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12010 };
@@ -2078,13 +2112,13 @@ protected:
   constexpr DebugUI_FloatField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_FloatField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_FloatField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_FloatField(DebugUI_FloatField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_FloatField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_FloatField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_FloatField(DebugUI_FloatField const&) = delete;
+  DebugUI_FloatField(DebugUI_FloatFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12011 };
@@ -2120,6 +2154,7 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___decimals
 static_assert(sizeof(::UnityEngine::Rendering::DebugUI_FloatField) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
@@ -2157,13 +2192,13 @@ protected:
   constexpr EnumField_1_DebugUI___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField_1_DebugUI___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField_1_DebugUI___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumField_1_DebugUI___c(EnumField_1_DebugUI___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField_1_DebugUI___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField_1_DebugUI___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField_1_DebugUI___c(EnumField_1_DebugUI___c const&) = delete;
+  EnumField_1_DebugUI___c(EnumField_1_DebugUI___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12012 };
@@ -2230,13 +2265,13 @@ protected:
   constexpr DebugUI_EnumField_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_EnumField_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_EnumField_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_EnumField_1(DebugUI_EnumField_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_EnumField_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_EnumField_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_EnumField_1(DebugUI_EnumField_1 const&) = delete;
+  DebugUI_EnumField_1(DebugUI_EnumField_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12013 };
@@ -2251,6 +2286,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -2286,13 +2322,13 @@ protected:
   constexpr EnumField_DebugUI___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField_DebugUI___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField_DebugUI___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumField_DebugUI___c(EnumField_DebugUI___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField_DebugUI___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField_DebugUI___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField_DebugUI___c(EnumField_DebugUI___c const&) = delete;
+  EnumField_DebugUI___c(EnumField_DebugUI___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12014 };
@@ -2372,12 +2408,14 @@ public:
   /// @brief Method get_currentIndex, addr 0x676b1f8, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_currentIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_getIndex, addr 0x676b1d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<int32_t>* get_getIndex();
 
   /// @brief Method get_indexes, addr 0x676b160, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_indexes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_setIndex, addr 0x676b1e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<int32_t>* get_setIndex();
 
@@ -2387,9 +2425,11 @@ public:
   /// @brief Method set_currentIndex, addr 0x676b218, size 0x20, virtual false, abstract: false, final false
   inline void set_currentIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_getIndex, addr 0x676b1e0, size 0x8, virtual false, abstract: false, final false
   inline void set_getIndex(::System::Func_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_setIndex, addr 0x676b1f0, size 0x8, virtual false, abstract: false, final false
   inline void set_setIndex(::System::Action_1<int32_t>* value);
 
@@ -2399,13 +2439,13 @@ protected:
   constexpr DebugUI_EnumField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_EnumField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_EnumField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_EnumField(DebugUI_EnumField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_EnumField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_EnumField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_EnumField(DebugUI_EnumField const&) = delete;
+  DebugUI_EnumField(DebugUI_EnumFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12015 };
@@ -2416,9 +2456,11 @@ public:
   /// @brief Field m_Indexes, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_Indexes;
 
+  /// [CompilerGenerated]
   /// @brief Field <getIndex>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::System::Func_1<int32_t>* ____getIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <setIndex>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ____setIndex_k__BackingField;
 
@@ -2461,9 +2503,11 @@ public:
   /// @brief Method .ctor, addr 0x675db08, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_getObjects, addr 0x676b700, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>* get_getObjects();
 
+  /// [CompilerGenerated]
   /// @brief Method set_getObjects, addr 0x676b708, size 0x8, virtual false, abstract: false, final false
   inline void set_getObjects(::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>* value);
 
@@ -2473,17 +2517,18 @@ protected:
   constexpr DebugUI_ObjectPopupField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectPopupField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectPopupField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_ObjectPopupField(DebugUI_ObjectPopupField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectPopupField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectPopupField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_ObjectPopupField(DebugUI_ObjectPopupField const&) = delete;
+  DebugUI_ObjectPopupField(DebugUI_ObjectPopupFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12016 };
 
+  /// [CompilerGenerated]
   /// @brief Field <getObjects>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>* ____getObjects_k__BackingField;
 
@@ -2527,9 +2572,11 @@ public:
   /// @brief Method get_historyDepth, addr 0x676b720, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_historyDepth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_historyIndexGetter, addr 0x676b710, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Func_1<int32_t>*> get_historyIndexGetter();
 
+  /// [CompilerGenerated]
   /// @brief Method set_historyIndexGetter, addr 0x676b718, size 0x8, virtual false, abstract: false, final false
   inline void set_historyIndexGetter(::ArrayW<::System::Func_1<int32_t>*> value);
 
@@ -2539,17 +2586,18 @@ protected:
   constexpr DebugUI_HistoryEnumField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HistoryEnumField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HistoryEnumField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_HistoryEnumField(DebugUI_HistoryEnumField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HistoryEnumField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_HistoryEnumField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_HistoryEnumField(DebugUI_HistoryEnumField const&) = delete;
+  DebugUI_HistoryEnumField(DebugUI_HistoryEnumFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12017 };
 
+  /// [CompilerGenerated]
   /// @brief Field <historyIndexGetter>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::System::Func_1<int32_t>*> ____historyIndexGetter_k__BackingField;
 
@@ -2596,13 +2644,13 @@ protected:
   constexpr DebugUI_BitField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_BitField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_BitField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_BitField(DebugUI_BitField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_BitField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_BitField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_BitField(DebugUI_BitField const&) = delete;
+  DebugUI_BitField(DebugUI_BitFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12018 };
@@ -2642,13 +2690,13 @@ protected:
   constexpr DebugUI_MaskField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MaskField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MaskField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_MaskField(DebugUI_MaskField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MaskField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MaskField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_MaskField(DebugUI_MaskField const&) = delete;
+  DebugUI_MaskField(DebugUI_MaskFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12019 };
@@ -2734,13 +2782,13 @@ protected:
   constexpr DebugUI_ColorField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ColorField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ColorField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_ColorField(DebugUI_ColorField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ColorField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ColorField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_ColorField(DebugUI_ColorField const&) = delete;
+  DebugUI_ColorField(DebugUI_ColorFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12020 };
@@ -2826,13 +2874,13 @@ protected:
   constexpr DebugUI_Vector2Field();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector2Field", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector2Field", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Vector2Field(DebugUI_Vector2Field&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector2Field", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector2Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Vector2Field(DebugUI_Vector2Field const&) = delete;
+  DebugUI_Vector2Field(DebugUI_Vector2Fieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12021 };
@@ -2903,13 +2951,13 @@ protected:
   constexpr DebugUI_Vector3Field();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector3Field", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector3Field", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Vector3Field(DebugUI_Vector3Field&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector3Field", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector3Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Vector3Field(DebugUI_Vector3Field const&) = delete;
+  DebugUI_Vector3Field(DebugUI_Vector3Fieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12022 };
@@ -2980,13 +3028,13 @@ protected:
   constexpr DebugUI_Vector4Field();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector4Field", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector4Field", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Vector4Field(DebugUI_Vector4Field&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector4Field", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Vector4Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Vector4Field(DebugUI_Vector4Field const&) = delete;
+  DebugUI_Vector4Field(DebugUI_Vector4Fieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12023 };
@@ -3039,13 +3087,13 @@ protected:
   constexpr DebugUI_ObjectField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_ObjectField(DebugUI_ObjectField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_ObjectField(DebugUI_ObjectField const&) = delete;
+  DebugUI_ObjectField(DebugUI_ObjectFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12024 };
@@ -3088,13 +3136,13 @@ protected:
   constexpr DebugUI_ObjectListField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectListField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectListField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_ObjectListField(DebugUI_ObjectListField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectListField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ObjectListField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_ObjectListField(DebugUI_ObjectListField const&) = delete;
+  DebugUI_ObjectListField(DebugUI_ObjectListFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12025 };
@@ -3140,7 +3188,7 @@ public:
   // @brief default ctor
   constexpr MessageBox_DebugUI_Style();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MessageBox_DebugUI_Style(int32_t value__) noexcept;
 
   /// @brief Field Error value: I32(2)
@@ -3212,13 +3260,13 @@ protected:
   constexpr DebugUI_MessageBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MessageBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MessageBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_MessageBox(DebugUI_MessageBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MessageBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MessageBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_MessageBox(DebugUI_MessageBox const&) = delete;
+  DebugUI_MessageBox(DebugUI_MessageBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12027 };
@@ -3239,6 +3287,7 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugUI_MessageBox, ___messageC
 static_assert(sizeof(::UnityEngine::Rendering::DebugUI_MessageBox) == 0x58, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -3274,13 +3323,13 @@ protected:
   constexpr RuntimeDebugShadersMessageBox_DebugUI___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeDebugShadersMessageBox_DebugUI___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeDebugShadersMessageBox_DebugUI___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeDebugShadersMessageBox_DebugUI___c(RuntimeDebugShadersMessageBox_DebugUI___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeDebugShadersMessageBox_DebugUI___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeDebugShadersMessageBox_DebugUI___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeDebugShadersMessageBox_DebugUI___c(RuntimeDebugShadersMessageBox_DebugUI___c const&) = delete;
+  RuntimeDebugShadersMessageBox_DebugUI___c(RuntimeDebugShadersMessageBox_DebugUI___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12028 };
@@ -3311,13 +3360,13 @@ protected:
   constexpr DebugUI_RuntimeDebugShadersMessageBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_RuntimeDebugShadersMessageBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_RuntimeDebugShadersMessageBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_RuntimeDebugShadersMessageBox(DebugUI_RuntimeDebugShadersMessageBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_RuntimeDebugShadersMessageBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_RuntimeDebugShadersMessageBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_RuntimeDebugShadersMessageBox(DebugUI_RuntimeDebugShadersMessageBox const&) = delete;
+  DebugUI_RuntimeDebugShadersMessageBox(DebugUI_RuntimeDebugShadersMessageBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12029 };
@@ -3328,6 +3377,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox) == 0x58, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -3363,13 +3413,13 @@ protected:
   constexpr Panel_DebugUI___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Panel_DebugUI___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Panel_DebugUI___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Panel_DebugUI___c(Panel_DebugUI___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Panel_DebugUI___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Panel_DebugUI___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Panel_DebugUI___c(Panel_DebugUI___c const&) = delete;
+  Panel_DebugUI___c(Panel_DebugUI___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12030 };
@@ -3481,21 +3531,26 @@ public:
   /// @brief Method .ctor, addr 0x6765eb8, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onSetDirty, addr 0x67660a8, size 0xc0, virtual false, abstract: false, final false
   inline void add_onSetDirty(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_children, addr 0x676c310, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* get_children();
 
+  /// [CompilerGenerated]
   /// @brief Method get_displayName, addr 0x676c238, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_displayName();
 
   /// @brief Method get_editorForceUpdate, addr 0x676c304, size 0xc, virtual false, abstract: false, final false
   inline bool get_editorForceUpdate();
 
+  /// [CompilerGenerated]
   /// @brief Method get_flags, addr 0x676c228, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Flags get_flags();
 
+  /// [CompilerGenerated]
   /// @brief Method get_groupIndex, addr 0x676c248, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_groupIndex();
 
@@ -3517,18 +3572,23 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::DebugUI_IContainer"
   constexpr ::UnityEngine::Rendering::DebugUI_IContainer* i___UnityEngine__Rendering__DebugUI_IContainer() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onSetDirty, addr 0x6765d78, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onSetDirty(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_children, addr 0x676c318, size 0x8, virtual false, abstract: false, final false
   inline void set_children(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_displayName, addr 0x676c240, size 0x8, virtual true, abstract: false, final true
   inline void set_displayName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_flags, addr 0x676c230, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::Rendering::DebugUI_Flags value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_groupIndex, addr 0x676c250, size 0x8, virtual false, abstract: false, final false
   inline void set_groupIndex(int32_t value);
 
@@ -3538,29 +3598,34 @@ protected:
   constexpr DebugUI_Panel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Panel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Panel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI_Panel(DebugUI_Panel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Panel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Panel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Panel(DebugUI_Panel const&) = delete;
+  DebugUI_Panel(DebugUI_Panelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12031 };
 
+  /// [CompilerGenerated]
   /// @brief Field <flags>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::DebugUI_Flags ____flags_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <displayName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <groupIndex>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____groupIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <children>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* ____children_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field onSetDirty, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* ___onSetDirty;
 
@@ -3666,13 +3731,13 @@ protected:
   constexpr DebugUI();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUI(DebugUI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI(DebugUI const&) = delete;
+  DebugUI(DebugUIconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12032 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IntFxBaseData.hpp"
+// IWYU pragma private; include "GlobalNamespace/IntFxBaseData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ protected:
   constexpr IntFxBaseData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntFxBaseData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntFxBaseData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntFxBaseData(IntFxBaseData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntFxBaseData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntFxBaseData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntFxBaseData(IntFxBaseData const&) = delete;
+  IntFxBaseData(IntFxBaseDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14923 };

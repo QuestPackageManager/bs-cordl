@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMeshRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMeshRenderer.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
@@ -137,8 +137,8 @@ inline void GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_ShouldUseSyst
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>(), { "set_ShouldUseSystemGestureMaterial", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRMeshRenderer_MeshRendererData::OVRMeshRenderer_MeshRendererData(bool _IsDataValid_k__BackingField, bool _IsDataHighConfidence_k__BackingField,
                                                                                                 bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept {
   this->_IsDataValid_k__BackingField = _IsDataValid_k__BackingField;
@@ -147,7 +147,7 @@ constexpr ::GlobalNamespace::OVRMeshRenderer_MeshRendererData::OVRMeshRenderer_M
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMeshRenderer_MeshRendererData::OVRMeshRenderer_MeshRendererData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior::OVRMeshRenderer_ConfidenceBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -155,7 +155,7 @@ constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior::OVRMeshRenderer
 constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior::OVRMeshRenderer_ConfidenceBehavior() {}
 constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior::None{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior::ToggleRenderer{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior::OVRMeshRenderer_SystemGestureBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }

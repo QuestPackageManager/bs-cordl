@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Channels\IChannelDataStore.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/IChannelDataStore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,6 +11,8 @@ class IChannelDataStore;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Channels::IChannelDataStore*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Channels::IChannelDataStore*, "System.Runtime.Remoting.Channels", "IChannelDataStore");
+// [DefaultMember("Item")]
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
@@ -18,9 +20,9 @@ namespace System::Runtime::Remoting::Channels {
 class CORDL_TYPE IChannelDataStore {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IChannelDataStore", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IChannelDataStore", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IChannelDataStore(IChannelDataStore const&) = delete;
+  IChannelDataStore(IChannelDataStoreconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3138 };

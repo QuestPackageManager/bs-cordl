@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderDebugPrintInputProducer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderDebugPrintInputProducer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderDebugPrintInputProducer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderDebugPrintInput_def.hpp"

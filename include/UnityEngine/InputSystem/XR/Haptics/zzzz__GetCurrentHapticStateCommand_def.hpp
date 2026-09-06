@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\GetCurrentHapticStateCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/GetCurrentHapticStateCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,8 +84,8 @@ public:
   // @brief default ctor
   constexpr GetCurrentHapticStateCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "samplesQueued", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "samplesAvailable", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name: "samplesQueued",
+  // ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "samplesAvailable", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GetCurrentHapticStateCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint32_t samplesQueued, uint32_t samplesAvailable) noexcept;
 
 private:

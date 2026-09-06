@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\LightmapperUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LightmapperUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightmapperUtils_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__Cookie_def.hpp"

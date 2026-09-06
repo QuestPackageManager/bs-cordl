@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\FxEventType.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/FxEventType.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FxEventType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatmapSaveDataVersion3::FxEventType::FxEventType(int32_t value__) noexcept {
   this->value__ = value__;
 }

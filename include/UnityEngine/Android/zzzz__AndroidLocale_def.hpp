@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidLocale.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidLocale.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,9 +47,11 @@ public:
   /// @brief Method .ctor, addr 0x6a34bec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW _country, ::StringW _language);
 
+  /// [CompilerGenerated]
   /// @brief Method get_country, addr 0x6a34bdc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_country();
 
+  /// [CompilerGenerated]
   /// @brief Method get_language, addr 0x6a34be4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_language();
 
@@ -59,20 +61,24 @@ protected:
   constexpr AndroidLocale();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidLocale", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidLocale", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidLocale(AndroidLocale&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidLocale", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidLocale", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidLocale(AndroidLocale const&) = delete;
+  AndroidLocale(AndroidLocaleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20181 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <country>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____country_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <language>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____language_k__BackingField;
 

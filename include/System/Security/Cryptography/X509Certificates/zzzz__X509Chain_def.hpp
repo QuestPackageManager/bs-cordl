@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509Chain.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [MonoTODO("Not totally RFC3280 compliant, but neither is MS implementation...")]
   /// @brief Method Build, addr 0x63aa790, size 0x40, virtual false, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
@@ -66,6 +67,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor();
 
+  /// @brief [MonoTODO("Mono\'s X509Chain is fully managed. All handles are invalid.")]
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor(::System::IntPtr chainContext);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
@@ -84,6 +86,7 @@ public:
   /// @brief Method .ctor, addr 0x63ab908, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [MonoTODO("Mono\'s X509Chain is fully managed. All handles are invalid.")]
   /// @brief Method .ctor, addr 0x63ab974, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr chainContext);
 
@@ -111,13 +114,13 @@ protected:
   constexpr X509Chain();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509Chain", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Chain", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Chain(X509Chain&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509Chain", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Chain", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509Chain(X509Chain const&) = delete;
+  X509Chain(X509Chainconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11200 };

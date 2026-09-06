@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RichPresenceManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/RichPresenceManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RichPresenceManager_def.hpp"
 #include "GlobalNamespace/zzzz__BrowsingMenusRichPresenceData_def.hpp"

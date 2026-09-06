@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRDebugHeadController.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRDebugHeadController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class OVRDebugHeadController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRDebugHeadController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRDebugHeadController*, "", "OVRDebugHeadController");
+// [HelpURL("https://developer.oculus.com/reference/unity/latest/class_o_v_r_debug_head_controller")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -124,38 +125,46 @@ protected:
   constexpr OVRDebugHeadController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRDebugHeadController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRDebugHeadController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRDebugHeadController(OVRDebugHeadController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRDebugHeadController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRDebugHeadController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRDebugHeadController(OVRDebugHeadController const&) = delete;
+  OVRDebugHeadController(OVRDebugHeadControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7137 };
 
+  /// [SerializeField]
   /// @brief Field AllowPitchLook, offset: 0x20, size: 0x1, def value: None
   bool ___AllowPitchLook;
 
+  /// [SerializeField]
   /// @brief Field AllowYawLook, offset: 0x21, size: 0x1, def value: None
   bool ___AllowYawLook;
 
+  /// [SerializeField]
   /// @brief Field InvertPitch, offset: 0x22, size: 0x1, def value: None
   bool ___InvertPitch;
 
+  /// [SerializeField]
   /// @brief Field GamePad_PitchDegreesPerSec, offset: 0x24, size: 0x4, def value: None
   float_t ___GamePad_PitchDegreesPerSec;
 
+  /// [SerializeField]
   /// @brief Field GamePad_YawDegreesPerSec, offset: 0x28, size: 0x4, def value: None
   float_t ___GamePad_YawDegreesPerSec;
 
+  /// [SerializeField]
   /// @brief Field AllowMovement, offset: 0x2c, size: 0x1, def value: None
   bool ___AllowMovement;
 
+  /// [SerializeField]
   /// @brief Field ForwardSpeed, offset: 0x30, size: 0x4, def value: None
   float_t ___ForwardSpeed;
 
+  /// [SerializeField]
   /// @brief Field StrafeSpeed, offset: 0x34, size: 0x4, def value: None
   float_t ___StrafeSpeed;
 

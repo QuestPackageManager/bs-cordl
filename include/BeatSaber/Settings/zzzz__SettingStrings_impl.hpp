@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\SettingStrings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/SettingStrings.hpp"
+#include "System/zzzz__IConvertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Settings/zzzz__SettingStrings_def.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_def.hpp"
@@ -183,7 +184,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOn
     return ___internal_method;
   }
 };
-inline void BeatSaber::Settings::SettingStrings::Encode(::by_ref<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* stream) {
+inline void BeatSaber::Settings::SettingStrings::Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* stream) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
                                                            { "Encode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
@@ -195,14 +196,14 @@ inline bool BeatSaber::Settings::SettingStrings::Decode(::by_ref<::BeatSaber::Se
                                               { "Decode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, settings, text, log);
 }
-inline void BeatSaber::Settings::SettingStrings::WriteProperties(::by_ref<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* text) {
+inline void BeatSaber::Settings::SettingStrings::WriteProperties(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* text) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
                                               { "WriteProperties", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, settings, text);
 }
 inline bool BeatSaber::Settings::SettingStrings::ReadProperty(::by_ref<::BeatSaber::Settings::Settings> settings, ::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> value,
-                                                              ::by_ref<::StringW> log) {
+                                                              /* [Nullable(1)] */ ::by_ref<::StringW> log) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
                                                            { "ReadProperty",
@@ -211,7 +212,9 @@ inline bool BeatSaber::Settings::SettingStrings::ReadProperty(::by_ref<::BeatSab
                                                                ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, settings, name, value, log);
 }
-template <typename T> inline void BeatSaber::Settings::SettingStrings::AppendProperty(::System::Text::StringBuilder* sb, ::StringW name, T value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+inline void BeatSaber::Settings::SettingStrings::AppendProperty(::System::Text::StringBuilder* sb, ::StringW name, T value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
                                               { "AppendProperty", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Text::StringBuilder*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<T>() } })));
@@ -225,7 +228,8 @@ inline bool BeatSaber::Settings::SettingStrings::ReadProperties(::by_ref<::BeatS
                                        { "ReadProperties", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, settings, text, log);
 }
-inline bool BeatSaber::Settings::SettingStrings::ReadPropertyLine(::by_ref<::BeatSaber::Settings::Settings> settings, ::System::ReadOnlySpan_1<char16_t> property, ::by_ref<::StringW> log) {
+inline bool BeatSaber::Settings::SettingStrings::ReadPropertyLine(::by_ref<::BeatSaber::Settings::Settings> settings, ::System::ReadOnlySpan_1<char16_t> property,
+                                                                  /* [Nullable(1)] */ ::by_ref<::StringW> log) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -238,7 +242,8 @@ inline bool BeatSaber::Settings::SettingStrings::IsPureWhiteSpace(::System::Read
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(), { "IsPureWhiteSpace", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, property);
 }
-inline bool BeatSaber::Settings::SettingStrings::ReadString(::System::ReadOnlySpan_1<char16_t> _, ::System::ReadOnlySpan_1<char16_t> text, ::by_ref<::StringW> value, ::by_ref<::StringW> err) {
+inline bool BeatSaber::Settings::SettingStrings::ReadString(::System::ReadOnlySpan_1<char16_t> _, ::System::ReadOnlySpan_1<char16_t> text, /* [Nullable(1)] */ ::by_ref<::StringW> value,
+                                                            /* [Nullable(1)] */ ::by_ref<::StringW> err) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
                                                                                          { "ReadString",
                                                                                            {},
@@ -247,7 +252,9 @@ inline bool BeatSaber::Settings::SettingStrings::ReadString(::System::ReadOnlySp
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _, text, value, err);
 }
 template <typename T>
-inline bool BeatSaber::Settings::SettingStrings::ReadEnum(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::by_ref<T> value, ::by_ref<::StringW> err) {
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool BeatSaber::Settings::SettingStrings::ReadEnum(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::by_ref<T> value,
+                                                          /* [Nullable(1)] */ ::by_ref<::StringW> err) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(), { "ReadEnum",
@@ -257,7 +264,8 @@ inline bool BeatSaber::Settings::SettingStrings::ReadEnum(::System::ReadOnlySpan
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, name, text, value, err);
 }
-inline bool BeatSaber::Settings::SettingStrings::ReadFloat(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::by_ref<float_t> value, ::by_ref<::StringW> err) {
+inline bool BeatSaber::Settings::SettingStrings::ReadFloat(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::by_ref<float_t> value,
+                                                           /* [Nullable(1)] */ ::by_ref<::StringW> err) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
                                                                                          { "ReadFloat",
                                                                                            {},
@@ -265,7 +273,8 @@ inline bool BeatSaber::Settings::SettingStrings::ReadFloat(::System::ReadOnlySpa
                                                                                              ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, name, text, value, err);
 }
-inline bool BeatSaber::Settings::SettingStrings::ReadInt(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::by_ref<int32_t> value, ::by_ref<::StringW> err) {
+inline bool BeatSaber::Settings::SettingStrings::ReadInt(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::by_ref<int32_t> value,
+                                                         /* [Nullable(1)] */ ::by_ref<::StringW> err) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
                                                                                          { "ReadInt",
                                                                                            {},
@@ -273,7 +282,8 @@ inline bool BeatSaber::Settings::SettingStrings::ReadInt(::System::ReadOnlySpan_
                                                                                              ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, name, text, value, err);
 }
-inline bool BeatSaber::Settings::SettingStrings::ReadBool(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::by_ref<bool> value, ::by_ref<::StringW> err) {
+inline bool BeatSaber::Settings::SettingStrings::ReadBool(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::by_ref<bool> value,
+                                                          /* [Nullable(1)] */ ::by_ref<::StringW> err) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
                                                                                          { "ReadBool",
                                                                                            {},

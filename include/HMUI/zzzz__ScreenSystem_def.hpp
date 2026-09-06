@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ScreenSystem.hpp"
+// IWYU pragma private; include "HMUI/ScreenSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,6 +87,7 @@ public:
   /// @brief Method SetBackButton, addr 0x32f1cbc, size 0x30, virtual false, abstract: false, final false
   inline void SetBackButton(bool visible, bool animated);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__24_0, addr 0x32f63c8, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
@@ -153,6 +154,7 @@ public:
   /// @brief Method .ctor, addr 0x32f63c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_backButtonWasPressedEvent, addr 0x32f3498, size 0xac, virtual false, abstract: false, final false
   inline void add_backButtonWasPressedEvent(::System::Action* value);
 
@@ -174,6 +176,7 @@ public:
   /// @brief Method get_topScreen, addr 0x32f62dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_topScreen();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_backButtonWasPressedEvent, addr 0x32f3544, size 0xac, virtual false, abstract: false, final false
   inline void remove_backButtonWasPressedEvent(::System::Action* value);
 
@@ -183,38 +186,46 @@ protected:
   constexpr ScreenSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSystem(ScreenSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSystem(ScreenSystem const&) = delete;
+  ScreenSystem(ScreenSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20964 };
 
+  /// [SerializeField]
   /// @brief Field _mainScreen, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____mainScreen;
 
+  /// [SerializeField]
   /// @brief Field _leftScreen, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____leftScreen;
 
+  /// [SerializeField]
   /// @brief Field _rightScreen, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____rightScreen;
 
+  /// [SerializeField]
   /// @brief Field _bottomScreen, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____bottomScreen;
 
+  /// [SerializeField]
   /// @brief Field _topScreen, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____topScreen;
 
+  /// [SerializeField]
   /// @brief Field _backButton, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____backButton;
 
+  /// [SerializeField]
   /// @brief Field _titleViewController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::HMUI::TitleViewController> ____titleViewController;
 
+  /// [CompilerGenerated]
   /// @brief Field backButtonWasPressedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___backButtonWasPressedEvent;
 

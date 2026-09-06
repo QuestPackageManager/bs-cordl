@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\IMECompositionEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/IMECompositionEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,8 +67,8 @@ public:
   // @brief default ctor
   constexpr IMECompositionEvent();
 
-  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "compositionString", ty:
-  // "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None, comment: None }, CppParam { name: "compositionString", ty:
+  // "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: None, comment: None }]
   constexpr IMECompositionEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, ::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString) noexcept;
 
 private:

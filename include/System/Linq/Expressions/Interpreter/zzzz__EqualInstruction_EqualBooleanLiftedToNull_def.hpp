@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\EqualInstruction_EqualBooleanLiftedToNull.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EqualInstruction_EqualBooleanLiftedToNull.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr EqualInstruction_EqualBooleanLiftedToNull();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualBooleanLiftedToNull", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualBooleanLiftedToNull", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EqualInstruction_EqualBooleanLiftedToNull(EqualInstruction_EqualBooleanLiftedToNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualBooleanLiftedToNull", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualBooleanLiftedToNull", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EqualInstruction_EqualBooleanLiftedToNull(EqualInstruction_EqualBooleanLiftedToNull const&) = delete;
+  EqualInstruction_EqualBooleanLiftedToNull(EqualInstruction_EqualBooleanLiftedToNullconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16326 };

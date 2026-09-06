@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ExclusiveFetchRequestAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/ExclusiveFetchRequestAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "GlobalNamespace/zzzz__ExclusiveFetchRequestAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ExclusiveFetchRequestAttribute._ctor

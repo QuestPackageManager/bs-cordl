@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXPositionBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXPositionBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class VFXPositionBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXPositionBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXPositionBinder*, "UnityEngine.VFX.Utility", "VFXPositionBinder");
+// [AddComponentMenu("VFX/Property Binders/Position Binder")]
+// [VFXBinder("Transform/Position")]
 // Dependencies UnityEngine.VFX.Utility.VFXSpaceableBinder
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -75,17 +77,19 @@ protected:
   constexpr VFXPositionBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXPositionBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXPositionBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXPositionBinder(VFXPositionBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXPositionBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXPositionBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXPositionBinder(VFXPositionBinder const&) = delete;
+  VFXPositionBinder(VFXPositionBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20001 };
 
+  /// [VFXPropertyBinding(new[] { "UnityEditor.VFX.Position", "UnityEngine.Vector3" })]
+  /// [SerializeField]
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

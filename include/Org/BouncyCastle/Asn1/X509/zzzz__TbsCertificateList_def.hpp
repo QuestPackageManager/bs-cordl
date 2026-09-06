@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\TbsCertificateList.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/TbsCertificateList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,13 +112,13 @@ protected:
   constexpr RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator(RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator(RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator const&) = delete;
+  RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator(RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 391 };
@@ -172,13 +172,13 @@ protected:
   constexpr TbsCertificateList_RevokedCertificatesEnumeration();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList_RevokedCertificatesEnumeration", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList_RevokedCertificatesEnumeration", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TbsCertificateList_RevokedCertificatesEnumeration(TbsCertificateList_RevokedCertificatesEnumeration&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList_RevokedCertificatesEnumeration", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList_RevokedCertificatesEnumeration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TbsCertificateList_RevokedCertificatesEnumeration(TbsCertificateList_RevokedCertificatesEnumeration const&) = delete;
+  TbsCertificateList_RevokedCertificatesEnumeration(TbsCertificateList_RevokedCertificatesEnumerationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 392 };
@@ -336,13 +336,13 @@ protected:
   constexpr TbsCertificateList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TbsCertificateList(TbsCertificateList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TbsCertificateList(TbsCertificateList const&) = delete;
+  TbsCertificateList(TbsCertificateListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 393 };

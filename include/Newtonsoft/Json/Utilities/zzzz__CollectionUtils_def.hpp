@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\CollectionUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/CollectionUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ MARK_REF_T(::Newtonsoft::Json::Utilities::CollectionUtils*);
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::CollectionUtils*, "Newtonsoft.Json.Utilities", "CollectionUtils");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1, "Newtonsoft.Json.Utilities", "CollectionUtils/EmptyArrayContainer`1");
+// [NullableContext(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -80,13 +81,13 @@ protected:
   constexpr CollectionUtils_EmptyArrayContainer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils_EmptyArrayContainer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils_EmptyArrayContainer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionUtils_EmptyArrayContainer_1(CollectionUtils_EmptyArrayContainer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils_EmptyArrayContainer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils_EmptyArrayContainer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionUtils_EmptyArrayContainer_1(CollectionUtils_EmptyArrayContainer_1 const&) = delete;
+  CollectionUtils_EmptyArrayContainer_1(CollectionUtils_EmptyArrayContainer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13376 };
@@ -95,6 +96,9 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -104,15 +108,19 @@ public:
   // Declarations
   template <typename T> using EmptyArrayContainer_1 = ::Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1<T>;
 
+  /// [Extension]
   /// @brief Method AddDistinct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool AddDistinct(::System::Collections::Generic::IList_1<T>* list, T value);
 
+  /// [Extension]
   /// @brief Method AddDistinct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool AddDistinct(::System::Collections::Generic::IList_1<T>* list, T value, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
+  /// [Extension]
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AddRange(::System::Collections::Generic::IList_1<T>* initial, ::System::Collections::Generic::IEnumerable_1<T>* collection);
 
+  /// [Extension]
   /// @brief Method AddRangeDistinct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline bool AddRangeDistinct(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IEnumerable_1<T>* values,
@@ -121,9 +129,11 @@ public:
   /// @brief Method ArrayEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> ArrayEmpty();
 
+  /// [Extension]
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool Contains(::System::Collections::Generic::List_1<T>* list, T value, ::System::Collections::IEqualityComparer* comparer);
 
+  /// [Extension]
   /// @brief Method ContainsValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource>
   static inline bool ContainsValue(::System::Collections::Generic::IEnumerable_1<TSource>* source, TSource value, ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer);
@@ -131,15 +141,18 @@ public:
   /// @brief Method CopyFromJaggedToMultidimensionalArray, addr 0x5d1cacc, size 0x2ac, virtual false, abstract: false, final false
   static inline void CopyFromJaggedToMultidimensionalArray(::System::Collections::IList* values, ::System::Array* multidimensionalArray, ::ArrayW<int32_t> indices);
 
+  /// [Extension]
   /// @brief Method FastReverse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void FastReverse(::System::Collections::Generic::List_1<T>* list);
 
   /// @brief Method GetDimensions, addr 0x5d1c804, size 0x2c8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<int32_t>* GetDimensions(::System::Collections::IList* values, int32_t dimensionsCount);
 
+  /// [Extension]
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Func_2<T, bool>* predicate);
 
+  /// [Extension]
   /// @brief Method IndexOfReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item);
 
@@ -168,13 +181,13 @@ protected:
   constexpr CollectionUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionUtils(CollectionUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionUtils(CollectionUtils const&) = delete;
+  CollectionUtils(CollectionUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13377 };

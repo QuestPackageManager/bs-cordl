@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleSpawnInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleSpawnInfoNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector3Serializable_impl.hpp"
@@ -256,6 +256,7 @@ inline void GlobalNamespace::ObstacleSpawnInfoNetSerializable::Deserialize(::Lit
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader);
 }
+/// @brief [Preserve]
 inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* GlobalNamespace::ObstacleSpawnInfoNetSerializable::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>());
 }

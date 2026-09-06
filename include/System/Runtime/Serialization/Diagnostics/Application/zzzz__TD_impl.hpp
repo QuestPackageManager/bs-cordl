@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\Diagnostics\Application\TD.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/Diagnostics/Application/TD.hpp"
 #include "System/Runtime/Diagnostics/zzzz__EventDescriptor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Diagnostics/Application/zzzz__TD_def.hpp"

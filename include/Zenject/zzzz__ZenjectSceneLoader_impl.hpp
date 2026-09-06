@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ZenjectSceneLoader.hpp"
+// IWYU pragma private; include "Zenject/ZenjectSceneLoader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ZenjectSceneLoader_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -447,7 +447,7 @@ constexpr void Zenject::ZenjectSceneLoader::__cordl_internal_set__sceneContainer
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sceneContainer = value;
 }
-inline void Zenject::ZenjectSceneLoader::_ctor(::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel) {
+inline void Zenject::ZenjectSceneLoader::_ctor(/* [InjectOptional] */ ::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Zenject::ZenjectSceneLoader*>(), { ".ctor", {}, { ::i2c::type_of<::Zenject::SceneContext*>(), ::i2c::type_of<::Zenject::ProjectKernel*>() } })));
@@ -650,7 +650,7 @@ inline ::Zenject::InjectTypeInfo* Zenject::ZenjectSceneLoader::__zenCreateInject
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ZenjectSceneLoader*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::ZenjectSceneLoader* Zenject::ZenjectSceneLoader::New_ctor(::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel) {
+inline ::Zenject::ZenjectSceneLoader* Zenject::ZenjectSceneLoader::New_ctor(/* [InjectOptional] */ ::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::ZenjectSceneLoader*>(sceneRoot, projectKernel));
 }
 // Ctor Parameters []

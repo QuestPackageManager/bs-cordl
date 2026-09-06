@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\EGamepadTextInputLineMode.hpp"
+// IWYU pragma private; include "OVR/OpenVR/EGamepadTextInputLineMode.hpp"
 #include "OVR/OpenVR/zzzz__EGamepadTextInputLineMode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::EGamepadTextInputLineMode::EGamepadTextInputLineMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

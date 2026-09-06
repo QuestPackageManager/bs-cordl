@@ -1,12 +1,13 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CullingAllocationInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CullingAllocationInfo.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingAllocationInfo_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VisibleLight_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VisibleReflectionProbe_def.hpp"
-// Ctor Parameters [CppParam { name: "visibleLightsPtr", ty: "::UnityEngine::Rendering::VisibleLight*", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleOffscreenVertexLightsPtr", ty:
-// "::UnityEngine::Rendering::VisibleLight*", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleReflectionProbesPtr", ty: "::UnityEngine::Rendering::VisibleReflectionProbe*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "visibleLightCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleOffscreenVertexLightCount", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleReflectionProbeCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "visibleLightsPtr", ty: "::UnityEngine::Rendering::VisibleLight*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "visibleOffscreenVertexLightsPtr", ty: "::UnityEngine::Rendering::VisibleLight*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleReflectionProbesPtr", ty:
+// "::UnityEngine::Rendering::VisibleReflectionProbe*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleLightCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "visibleOffscreenVertexLightCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "visibleReflectionProbeCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CullingAllocationInfo::CullingAllocationInfo(::UnityEngine::Rendering::VisibleLight* visibleLightsPtr,
                                                                                  ::UnityEngine::Rendering::VisibleLight* visibleOffscreenVertexLightsPtr,
                                                                                  ::UnityEngine::Rendering::VisibleReflectionProbe* visibleReflectionProbesPtr, int32_t visibleLightCount,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ZBinningJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ZBinningJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ struct ZBinningJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::ZBinningJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ZBinningJob, "UnityEngine.Rendering.Universal", "ZBinningJob");
+// [BurstCompile(FloatMode = (Unity.Burst.FloatMode)3, DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Mathematics.float2
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -51,12 +52,13 @@ public:
   // @brief default ctor
   constexpr ZBinningJob();
 
-  // Ctor Parameters [CppParam { name: "bins", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "minMaxZs", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: None }, CppParam { name: "zBinScale", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "zBinOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "binCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordsPerTile", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "lightCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reflectionProbeCount", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "batchCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "viewCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "isOrthographic", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bins", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "minMaxZs", ty:
+  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: None, comment: None }, CppParam { name: "zBinScale", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "zBinOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "binCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "wordsPerTile", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "reflectionProbeCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchCount", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "viewCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "isOrthographic", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ZBinningJob(::Unity::Collections::NativeArray_1<uint32_t> bins, ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> minMaxZs, float_t zBinScale, float_t zBinOffset,
                         int32_t binCount, int32_t wordsPerTile, int32_t lightCount, int32_t reflectionProbeCount, int32_t batchCount, int32_t viewCount, bool isOrthographic) noexcept;
 
@@ -72,9 +74,11 @@ public:
   /// @brief Field headerLength offset 0xffffffff size 0x4
   static constexpr int32_t headerLength{ static_cast<int32_t>(0x2) };
 
+  /// [NativeDisableParallelForRestriction]
   /// @brief Field bins, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint32_t> bins;
 
+  /// [ReadOnly]
   /// @brief Field minMaxZs, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> minMaxZs;
 

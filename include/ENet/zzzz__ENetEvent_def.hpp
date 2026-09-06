@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\ENetEvent.hpp"
+// IWYU pragma private; include "ENet/ENetEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,9 +26,9 @@ public:
   // @brief default ctor
   constexpr ENetEvent();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::ENet::EventType", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam {
-  // name: "channelID", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "packet", ty: "::System::IntPtr",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::ENet::EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "peer", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "channelID", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "packet", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr ENetEvent(::ENet::EventType type, ::System::IntPtr peer, uint8_t channelID, uint32_t data, ::System::IntPtr packet) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

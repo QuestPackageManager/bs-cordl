@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IEditableElement.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IEditableElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class IEditableElement;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::IEditableElement*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IEditableElement*, "UnityEngine.UIElements", "IEditableElement");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -21,19 +22,21 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IEditableElement {
 public:
   // Declarations
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_editingEnded)) ::System::Action* editingEnded;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_editingStarted)) ::System::Action* editingStarted;
 
-  /// @brief Method get_editingEnded, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_editingEnded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Action* get_editingEnded();
 
-  /// @brief Method get_editingStarted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_editingStarted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Action* get_editingStarted();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IEditableElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IEditableElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IEditableElement(IEditableElement const&) = delete;
+  IEditableElement(IEditableElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4218 };

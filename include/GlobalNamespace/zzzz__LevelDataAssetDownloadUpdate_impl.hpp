@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelDataAssetDownloadUpdate.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelDataAssetDownloadUpdate.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState::LevelDataAssetDownloadUpdate_AssetDownloadingState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -37,9 +37,9 @@ inline void GlobalNamespace::LevelDataAssetDownloadUpdate::_ctor(::StringW level
                                                                                              ::i2c::type_of<::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, levelID, bytesTotal, bytesTransferred, assetDownloadingState);
 }
-// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "bytesTotal", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "bytesTransferred", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "assetDownloadingState", ty:
-// "::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bytesTotal", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "bytesTransferred", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "assetDownloadingState", ty:
+// "::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelDataAssetDownloadUpdate::LevelDataAssetDownloadUpdate(::StringW levelID, uint32_t bytesTotal, uint32_t bytesTransferred,
                                                                                         ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState assetDownloadingState) noexcept {
   this->levelID = levelID;

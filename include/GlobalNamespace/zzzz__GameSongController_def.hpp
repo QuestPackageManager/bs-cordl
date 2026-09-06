@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameSongController.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameSongController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,6 +89,7 @@ public:
   /// @brief Method StopSong, addr 0x59f6efc, size 0x18, virtual true, abstract: false, final false
   inline void StopSong();
 
+  /// [CompilerGenerated]
   /// @brief Method <FailStopSong>b__16_0, addr 0x59f7104, size 0x18, virtual false, abstract: false, final false
   inline void _FailStopSong_b__16_0();
 
@@ -143,26 +144,30 @@ protected:
   constexpr GameSongController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameSongController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameSongController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameSongController(GameSongController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameSongController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameSongController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameSongController(GameSongController const&) = delete;
+  GameSongController(GameSongControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6274 };
 
+  /// [SerializeField]
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [SerializeField]
   /// @brief Field _failAudioPitchGainEffect, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPitchGainEffect> ____failAudioPitchGainEffect;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksUpdater, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> ____beatmapCallbacksUpdater;
 

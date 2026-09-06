@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\ControlTrack.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/ControlTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class ControlTrack;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::ControlTrack*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::ControlTrack*, "UnityEngine.Timeline", "ControlTrack");
+// [TrackClipType(typeof(UnityEngine.Timeline.ControlPlayableAsset), false)]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Timeline.TrackAsset
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr ControlTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControlTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControlTrack(ControlTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControlTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControlTrack(ControlTrack const&) = delete;
+  ControlTrack(ControlTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19198 };

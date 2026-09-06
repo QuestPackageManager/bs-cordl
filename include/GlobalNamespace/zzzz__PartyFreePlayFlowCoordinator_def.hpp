@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PartyFreePlayFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/PartyFreePlayFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ MARK_REF_T(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PartyFreePlayFlowCoordinator*, "", "PartyFreePlayFlowCoordinator");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass19_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass24_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass24_0");
+// [CompilerGenerated]
 // Dependencies BeatmapKey, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -151,13 +152,13 @@ protected:
   constexpr PartyFreePlayFlowCoordinator___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PartyFreePlayFlowCoordinator___c__DisplayClass19_0(PartyFreePlayFlowCoordinator___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PartyFreePlayFlowCoordinator___c__DisplayClass19_0(PartyFreePlayFlowCoordinator___c__DisplayClass19_0 const&) = delete;
+  PartyFreePlayFlowCoordinator___c__DisplayClass19_0(PartyFreePlayFlowCoordinator___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6853 };
@@ -203,6 +204,7 @@ static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__Disp
 static_assert(sizeof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass19_0) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -242,13 +244,13 @@ protected:
   constexpr PartyFreePlayFlowCoordinator___c__DisplayClass24_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PartyFreePlayFlowCoordinator___c__DisplayClass24_0(PartyFreePlayFlowCoordinator___c__DisplayClass24_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PartyFreePlayFlowCoordinator___c__DisplayClass24_0(PartyFreePlayFlowCoordinator___c__DisplayClass24_0 const&) = delete;
+  PartyFreePlayFlowCoordinator___c__DisplayClass24_0(PartyFreePlayFlowCoordinator___c__DisplayClass24_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6854 };
@@ -414,13 +416,13 @@ protected:
   constexpr PartyFreePlayFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PartyFreePlayFlowCoordinator(PartyFreePlayFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PartyFreePlayFlowCoordinator(PartyFreePlayFlowCoordinator const&) = delete;
+  PartyFreePlayFlowCoordinator(PartyFreePlayFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6855 };
@@ -428,27 +430,35 @@ public:
   /// @brief Field kTitlePartyLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitlePartyLocalizationKey{ u"TITLE_PARTY" };
 
+  /// [SerializeField]
   /// @brief Field _defaultLightsPreset, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultLightsPreset;
 
+  /// [SerializeField]
   /// @brief Field _resultsClearedLightsPreset, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsClearedLightsPreset;
 
+  /// [SerializeField]
   /// @brief Field _resultsFailedLightsPreset, offset: 0x128, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsFailedLightsPreset;
 
+  /// [Inject]
   /// @brief Field _menuLightsManager, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsManager> ____menuLightsManager;
 
+  /// [Inject]
   /// @brief Field _resultsViewController, offset: 0x138, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ResultsViewController> ____resultsViewController;
 
+  /// [Inject]
   /// @brief Field _localLeaderboardViewController, offset: 0x140, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalLeaderboardViewController> ____localLeaderboardViewController;
 
+  /// [Inject]
   /// @brief Field _enterNameViewController, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> ____enterNameViewController;
 
+  /// [Inject]
   /// @brief Field _fileStorage, offset: 0x150, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ____fileStorage;
 

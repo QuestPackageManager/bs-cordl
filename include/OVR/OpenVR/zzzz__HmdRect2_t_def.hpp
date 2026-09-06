@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\HmdRect2_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/HmdRect2_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr HmdRect2_t();
 
-  // Ctor Parameters [CppParam { name: "vTopLeft", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "vBottomRight", ty: "::OVR::OpenVR::HmdVector2_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vTopLeft", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vBottomRight", ty:
+  // "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None, comment: None }]
   constexpr HmdRect2_t(::OVR::OpenVR::HmdVector2_t vTopLeft, ::OVR::OpenVR::HmdVector2_t vBottomRight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

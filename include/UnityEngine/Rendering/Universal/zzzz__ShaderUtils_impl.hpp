@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShaderUtils_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShaderPathID_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\ServerCertValidationCallback.hpp"
+// IWYU pragma private; include "System/Net/ServerCertValidationCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,13 +105,13 @@ protected:
   constexpr ServerCertValidationCallback_CallbackContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback_CallbackContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback_CallbackContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback_CallbackContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback_CallbackContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContext const&) = delete;
+  ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11570 };
@@ -198,13 +198,13 @@ protected:
   constexpr ServerCertValidationCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerCertValidationCallback(ServerCertValidationCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServerCertValidationCallback(ServerCertValidationCallback const&) = delete;
+  ServerCertValidationCallback(ServerCertValidationCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11571 };

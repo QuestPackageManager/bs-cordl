@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\PbeParametersGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/PbeParametersGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,24 +40,28 @@ public:
   /// @brief Field mSalt, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mSalt, put = __cordl_internal_set_mSalt)) ::ArrayW<uint8_t> mSalt;
 
-  /// @brief Method GenerateDerivedMacParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedMacParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [Obsolete("Use version with \'algorithm\' parameter")]
+  /// @brief Method GenerateDerivedParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [Obsolete("Use version with \'algorithm\' parameter")]
+  /// @brief Method GenerateDerivedParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
 
+  /// [Obsolete("Use \'Password\' property")]
   /// @brief Method GetPassword, addr 0x33e0e6c, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetPassword();
 
+  /// [Obsolete("Use \'Salt\' property")]
   /// @brief Method GetSalt, addr 0x33e0ed8, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSalt();
 
@@ -75,12 +79,14 @@ public:
   /// @brief Method Pkcs5PasswordToBytes, addr 0x33e0eec, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs5PasswordToBytes(::ArrayW<char16_t> password);
 
+  /// [Obsolete("Use version taking \'char[]\' instead")]
   /// @brief Method Pkcs5PasswordToBytes, addr 0x33e0f50, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs5PasswordToBytes(::StringW password);
 
   /// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x33e0fb4, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs5PasswordToUtf8Bytes(::ArrayW<char16_t> password);
 
+  /// [Obsolete("Use version taking \'char[]\' instead")]
   /// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x33e1030, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs5PasswordToUtf8Bytes(::StringW password);
 
@@ -120,13 +126,13 @@ protected:
   constexpr PbeParametersGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PbeParametersGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PbeParametersGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PbeParametersGenerator(PbeParametersGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PbeParametersGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PbeParametersGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PbeParametersGenerator(PbeParametersGenerator const&) = delete;
+  PbeParametersGenerator(PbeParametersGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 916 };

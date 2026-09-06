@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TestCommandAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/TestCommandAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "GlobalNamespace/zzzz__TestCommandAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TestCommandAttribute._ctor

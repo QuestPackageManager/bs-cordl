@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\AllocatorManager.hpp"
+// IWYU pragma private; include "Unity/Collections/AllocatorManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,22 +39,33 @@ namespace Unity::Burst {
 template <typename T> struct FunctionPointer_1;
 }
 namespace Unity::Collections {
-template <typename T> class AllocatorManager_AllocatorCache_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+class AllocatorManager_AllocatorCache_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T> struct AllocatorManager_Array16_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct AllocatorManager_Array16_1;
 }
 namespace Unity::Collections {
-template <typename T> struct AllocatorManager_Array256_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct AllocatorManager_Array256_1;
 }
 namespace Unity::Collections {
-template <typename T> struct AllocatorManager_Array32768_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct AllocatorManager_Array32768_1;
 }
 namespace Unity::Collections {
-template <typename T> struct AllocatorManager_Array4096_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct AllocatorManager_Array4096_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_BlockHandle;
@@ -90,7 +101,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> class IIndexable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IIndexable_1;
 }
 namespace Unity::Collections {
 class SharedStatics_AllocatorManager_IsAutoDispose;
@@ -118,7 +131,10 @@ namespace Unity::Collections {
 class AllocatorManager;
 }
 namespace Unity::Collections {
-template <typename T> class AllocatorManager_AllocatorCache_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+class AllocatorManager_AllocatorCache_1;
 }
 namespace Unity::Collections {
 class AllocatorManager_IAllocator;
@@ -157,16 +173,24 @@ namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T> struct AllocatorManager_Array16_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct AllocatorManager_Array16_1;
 }
 namespace Unity::Collections {
-template <typename T> struct AllocatorManager_Array256_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct AllocatorManager_Array256_1;
 }
 namespace Unity::Collections {
-template <typename T> struct AllocatorManager_Array32768_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct AllocatorManager_Array32768_1;
 }
 namespace Unity::Collections {
-template <typename T> struct AllocatorManager_Array4096_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct AllocatorManager_Array4096_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_Block;
@@ -235,6 +259,7 @@ DEFINE_IL2CPP_CLASS(::Unity::Collections::AllocatorManager_Range, "Unity.Collect
 DEFINE_IL2CPP_CLASS(::Unity::Collections::AllocatorManager_SlabAllocator, "Unity.Collections", "AllocatorManager/SlabAllocator");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::AllocatorManager_StackAllocator, "Unity.Collections", "AllocatorManager/StackAllocator");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::AllocatorManager_TableEntry, "Unity.Collections", "AllocatorManager/TableEntry");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Unity::Collections {
 // Is value type: false
@@ -263,13 +288,13 @@ protected:
   constexpr AllocatorManager_TryFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_TryFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_TryFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AllocatorManager_TryFunction(AllocatorManager_TryFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_TryFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_TryFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_TryFunction(AllocatorManager_TryFunction const&) = delete;
+  AllocatorManager_TryFunction(AllocatorManager_TryFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15522 };
@@ -316,8 +341,12 @@ public:
   constexpr operator ::Unity::Collections::AllocatorManager_IAllocator*();
 
   /// @brief Method AllocateBlock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::AllocatorManager_Block AllocateBlock(int32_t items);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::AllocatorManager_Block AllocateBlock(int32_t items);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckAllocatedSuccessfully, addr 0x64a8e88, size 0x80, virtual false, abstract: false, final false
   static inline void CheckAllocatedSuccessfully(int32_t error);
 
@@ -352,7 +381,9 @@ public:
   inline int32_t Try(::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
   /// @brief Method TryAllocateBlock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline int32_t TryAllocateBlock(::by_ref<::Unity::Collections::AllocatorManager_Block> block, int32_t items);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline int32_t TryAllocateBlock(::by_ref<::Unity::Collections::AllocatorManager_Block> block, int32_t items);
 
   /// @brief Method get_Function, addr 0x64a8f08, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::AllocatorManager_TryFunction* get_Function();
@@ -418,7 +449,8 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_AllocatorHandle();
 
-  // Ctor Parameters [CppParam { name: "Index", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Version", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Index", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Version", ty: "uint16_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr AllocatorManager_AllocatorHandle(uint16_t Index, uint16_t Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -454,7 +486,7 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_BlockHandle();
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorManager_BlockHandle(uint16_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -494,8 +526,8 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_Range();
 
-  // Ctor Parameters [CppParam { name: "Pointer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "Items", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Pointer", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "Items", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorManager_Range(::System::IntPtr Pointer, int32_t Items, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -544,9 +576,13 @@ public:
   /// @brief Method Allocate, addr 0x64a9314, size 0x4, virtual false, abstract: false, final false
   inline void Allocate();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckFailedToAllocate, addr 0x64a931c, size 0xac, virtual false, abstract: false, final false
   inline void CheckFailedToAllocate(int32_t error);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckFailedToFree, addr 0x64a93c8, size 0xac, virtual false, abstract: false, final false
   inline void CheckFailedToFree(int32_t error);
 
@@ -581,10 +617,10 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_Block();
 
-  // Ctor Parameters [CppParam { name: "Range", ty: "::Unity::Collections::AllocatorManager_Range", modifiers: "", def_value: None }, CppParam { name: "BytesPerItem", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "AllocatedItems", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Log2Alignment", ty: "uint8_t", modifiers: "", def_value: None }, CppParam
-  // { name: "Padding0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "Padding1", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Padding2", ty: "uint32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Range", ty: "::Unity::Collections::AllocatorManager_Range", modifiers: "", def_value: None, comment: None }, CppParam { name: "BytesPerItem", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "AllocatedItems", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Log2Alignment", ty:
+  // "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Padding0", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Padding1", ty:
+  // "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Padding2", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorManager_Block(::Unity::Collections::AllocatorManager_Range Range, int32_t BytesPerItem, int32_t AllocatedItems, uint8_t Log2Alignment, uint8_t Padding0, uint16_t Padding1,
                                    uint32_t Padding2) noexcept;
 
@@ -655,33 +691,33 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Try, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Try, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Try(::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method get_Function, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Function, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Collections::AllocatorManager_TryFunction* get_Function();
 
-  /// @brief Method get_Handle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Collections::AllocatorManager_AllocatorHandle get_Handle();
 
   /// @brief Method get_IsAutoDispose, addr 0x64a9474, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAutoDispose();
 
-  /// @brief Method get_IsCustomAllocator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsCustomAllocator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsCustomAllocator();
 
-  /// @brief Method get_ToAllocator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ToAllocator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Collections::Allocator get_ToAllocator();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Handle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Handle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Handle(::Unity::Collections::AllocatorManager_AllocatorHandle value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_IAllocator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_IAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_IAllocator(AllocatorManager_IAllocator const&) = delete;
+  AllocatorManager_IAllocator(AllocatorManager_IAllocatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15527 };
@@ -690,6 +726,7 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Unity::Collections {
 // Is value type: false
@@ -719,13 +756,13 @@ protected:
   constexpr StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate(StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate(StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate const&) = delete;
+  StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate(StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15528 };
@@ -749,6 +786,7 @@ public:
   /// @brief Method GetFunctionPointer, addr 0x64a98cc, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
+  /// [BurstDiscard]
   /// @brief Method GetFunctionPointerDiscard, addr 0x64a97c0, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
@@ -765,13 +803,13 @@ protected:
   constexpr StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall(StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall(StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall const&) = delete;
+  StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall(StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCallconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15529 };
@@ -782,6 +820,7 @@ public:
 static_assert(sizeof(::Unity::Collections::StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [BurstCompile]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle, Unity.Collections.AllocatorManager::Block
 namespace Unity::Collections {
 // Is value type: true
@@ -813,12 +852,16 @@ public:
   /// @brief Method Initialize, addr 0x64a94a8, size 0x14, virtual false, abstract: false, final false
   inline void Initialize(::Unity::Collections::AllocatorManager_Block storage);
 
+  /// [BurstCompile]
+  /// [MonoPInvokeCallback(typeof(Unity.Collections.AllocatorManager::TryFunction))]
   /// @brief Method Try, addr 0x64a947c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try(::System::IntPtr allocatorState, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
   /// @brief Method Try, addr 0x64a94bc, size 0x9c, virtual true, abstract: false, final true
   inline int32_t Try(::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
+  /// [BurstCompile]
+  /// [MonoPInvokeCallback(typeof(Unity.Collections.AllocatorManager::TryFunction))]
   /// @brief Method Try$BurstManaged, addr 0x64a9670, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try$BurstManaged(::System::IntPtr allocatorState, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
@@ -847,8 +890,8 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_StackAllocator();
 
-  // Ctor Parameters [CppParam { name: "m_handle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }, CppParam { name: "m_storage", ty:
-  // "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None }, CppParam { name: "m_top", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_handle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_storage", ty:
+  // "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_top", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorManager_StackAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle m_handle, ::Unity::Collections::AllocatorManager_Block m_storage, int64_t m_top) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -878,6 +921,7 @@ static_assert(offsetof(::Unity::Collections::AllocatorManager_StackAllocator, m_
 static_assert(sizeof(::Unity::Collections::AllocatorManager_StackAllocator) == 0x30, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Unity::Collections {
 // Is value type: false
@@ -907,13 +951,13 @@ protected:
   constexpr SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate(SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate(SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate const&) = delete;
+  SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate(SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15531 };
@@ -937,6 +981,7 @@ public:
   /// @brief Method GetFunctionPointer, addr 0x64aa02c, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
+  /// [BurstDiscard]
   /// @brief Method GetFunctionPointerDiscard, addr 0x64a9f20, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
@@ -953,13 +998,13 @@ protected:
   constexpr SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall(SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall(SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall const&) = delete;
+  SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall(SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCallconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15532 };
@@ -970,6 +1015,7 @@ public:
 static_assert(sizeof(::Unity::Collections::SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [BurstCompile]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle, Unity.Collections.AllocatorManager::Block, Unity.Collections.FixedList4096Bytes`1<T>
 namespace Unity::Collections {
 // Is value type: true
@@ -1009,12 +1055,16 @@ public:
   /// @brief Method Initialize, addr 0x64a9988, size 0x108, virtual false, abstract: false, final false
   inline void Initialize(::Unity::Collections::AllocatorManager_Block storage, int32_t slabSizeInBytes, int64_t budget);
 
+  /// [BurstCompile]
+  /// [MonoPInvokeCallback(typeof(Unity.Collections.AllocatorManager::TryFunction))]
   /// @brief Method Try, addr 0x64a98e4, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try(::System::IntPtr allocatorState, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
   /// @brief Method Try, addr 0x64a9a90, size 0x228, virtual true, abstract: false, final true
   inline int32_t Try(::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
+  /// [BurstCompile]
+  /// [MonoPInvokeCallback(typeof(Unity.Collections.AllocatorManager::TryFunction))]
   /// @brief Method Try$BurstManaged, addr 0x64a9dd0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try$BurstManaged(::System::IntPtr allocatorState, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
@@ -1058,10 +1108,10 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_SlabAllocator();
 
-  // Ctor Parameters [CppParam { name: "m_handle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }, CppParam { name: "Storage", ty:
-  // "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None }, CppParam { name: "Log2SlabSizeInBytes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Occupied", ty: "::Unity::Collections::FixedList4096Bytes_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "budgetInBytes", ty: "int64_t", modifiers: "", def_value: None },
-  // CppParam { name: "allocatedBytes", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_handle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "Storage", ty:
+  // "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None, comment: None }, CppParam { name: "Log2SlabSizeInBytes", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Occupied", ty: "::Unity::Collections::FixedList4096Bytes_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "budgetInBytes", ty: "int64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "allocatedBytes", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorManager_SlabAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle m_handle, ::Unity::Collections::AllocatorManager_Block Storage, int32_t Log2SlabSizeInBytes,
                                            ::Unity::Collections::FixedList4096Bytes_1<int32_t> Occupied, int64_t budgetInBytes, int64_t allocatedBytes) noexcept;
 
@@ -1118,7 +1168,8 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_TableEntry();
 
-  // Ctor Parameters [CppParam { name: "function", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "function", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "state", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr AllocatorManager_TableEntry(::System::IntPtr function, ::System::IntPtr state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1147,6 +1198,7 @@ static_assert(sizeof(::Unity::Collections::AllocatorManager_TableEntry) == 0x10,
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorManager/Array16`1<T>
 struct CORDL_TYPE AllocatorManager_Array16_1 {
@@ -1156,12 +1208,13 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_Array16_1();
 
-  // Ctor Parameters [CppParam { name: "f0", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f1", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f2", ty: "T", modifiers: "",
-  // def_value: None }, CppParam { name: "f3", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f4", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f5", ty: "T", modifiers:
-  // "", def_value: None }, CppParam { name: "f6", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f7", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f8", ty: "T",
-  // modifiers: "", def_value: None }, CppParam { name: "f9", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f10", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f11", ty:
-  // "T", modifiers: "", def_value: None }, CppParam { name: "f12", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f13", ty: "T", modifiers: "", def_value: None }, CppParam { name:
-  // "f14", ty: "T", modifiers: "", def_value: None }, CppParam { name: "f15", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "f0", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "f1", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "f2", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "f3", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "f4", ty: "T", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "f5", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "f6", ty: "T", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "f7", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "f8", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "f9", ty: "T",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f10", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "f11", ty: "T", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "f12", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "f13", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "f14", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "f15", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorManager_Array16_1(T f0, T f1, T f2, T f3, T f4, T f5, T f6, T f7, T f8, T f9, T f10, T f11, T f12, T f13, T f14, T f15) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1226,6 +1279,7 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorManager/Array256`1<T>
 struct CORDL_TYPE AllocatorManager_Array256_1 {
@@ -1235,17 +1289,18 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_Array256_1();
 
-  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f1", ty:
-  // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f2", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f3", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f4", ty:
-  // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f5", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f6", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f7", ty:
-  // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f8", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f9", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f10", ty:
-  // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f11", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f12", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f13", ty:
-  // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }, CppParam { name: "f14", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f15", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f1", ty:
+  // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f2", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f3", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "f4", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f5", ty:
+  // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f6", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f7", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "f8", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f9", ty:
+  // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f10", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f11", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "f12", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f13", ty:
+  // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f14", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f15", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorManager_Array256_1(::Unity::Collections::AllocatorManager_Array16_1<T> f0, ::Unity::Collections::AllocatorManager_Array16_1<T> f1,
                                         ::Unity::Collections::AllocatorManager_Array16_1<T> f2, ::Unity::Collections::AllocatorManager_Array16_1<T> f3,
                                         ::Unity::Collections::AllocatorManager_Array16_1<T> f4, ::Unity::Collections::AllocatorManager_Array16_1<T> f5,
@@ -1317,6 +1372,7 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorManager/Array4096`1<T>
 struct CORDL_TYPE AllocatorManager_Array4096_1 {
@@ -1326,17 +1382,18 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_Array4096_1();
 
-  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f1", ty:
-  // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f2", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f3", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f4", ty:
-  // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f5", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f6", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f7", ty:
-  // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f8", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f9", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f10", ty:
-  // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f11", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f12", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f13", ty:
-  // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }, CppParam { name: "f14", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f15", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f1", ty:
+  // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f2", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f3", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "f4", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f5", ty:
+  // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f6", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f7", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "f8", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f9", ty:
+  // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f10", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f11", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "f12", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f13", ty:
+  // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f14", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f15", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorManager_Array4096_1(::Unity::Collections::AllocatorManager_Array256_1<T> f0, ::Unity::Collections::AllocatorManager_Array256_1<T> f1,
                                          ::Unity::Collections::AllocatorManager_Array256_1<T> f2, ::Unity::Collections::AllocatorManager_Array256_1<T> f3,
                                          ::Unity::Collections::AllocatorManager_Array256_1<T> f4, ::Unity::Collections::AllocatorManager_Array256_1<T> f5,
@@ -1408,6 +1465,7 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorManager/Array32768`1<T>
 struct CORDL_TYPE AllocatorManager_Array32768_1 {
@@ -1434,12 +1492,12 @@ public:
   // @brief default ctor
   constexpr AllocatorManager_Array32768_1();
 
-  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None }, CppParam { name: "f1", ty:
-  // "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None }, CppParam { name: "f2", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f3", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None }, CppParam { name: "f4", ty:
-  // "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None }, CppParam { name: "f5", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "",
-  // def_value: None }, CppParam { name: "f6", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None }, CppParam { name: "f7", ty:
-  // "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f1", ty:
+  // "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f2", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f3", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "f4", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f5", ty:
+  // "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "f6", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f7", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorManager_Array32768_1(::Unity::Collections::AllocatorManager_Array4096_1<T> f0, ::Unity::Collections::AllocatorManager_Array4096_1<T> f1,
                                           ::Unity::Collections::AllocatorManager_Array4096_1<T> f2, ::Unity::Collections::AllocatorManager_Array4096_1<T> f3,
                                           ::Unity::Collections::AllocatorManager_Array4096_1<T> f4, ::Unity::Collections::AllocatorManager_Array4096_1<T> f5,
@@ -1504,13 +1562,13 @@ protected:
   constexpr SharedStatics_AllocatorManager_IsInstalled();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsInstalled", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsInstalled", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedStatics_AllocatorManager_IsInstalled(SharedStatics_AllocatorManager_IsInstalled&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsInstalled", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsInstalled", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatics_AllocatorManager_IsInstalled(SharedStatics_AllocatorManager_IsInstalled const&) = delete;
+  SharedStatics_AllocatorManager_IsInstalled(SharedStatics_AllocatorManager_IsInstalledconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15539 };
@@ -1548,13 +1606,13 @@ protected:
   constexpr SharedStatics_AllocatorManager_TableEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_TableEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_TableEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedStatics_AllocatorManager_TableEntry(SharedStatics_AllocatorManager_TableEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_TableEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_TableEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatics_AllocatorManager_TableEntry(SharedStatics_AllocatorManager_TableEntry const&) = delete;
+  SharedStatics_AllocatorManager_TableEntry(SharedStatics_AllocatorManager_TableEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15540 };
@@ -1590,13 +1648,13 @@ protected:
   constexpr SharedStatics_AllocatorManager_IsAutoDispose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsAutoDispose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsAutoDispose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedStatics_AllocatorManager_IsAutoDispose(SharedStatics_AllocatorManager_IsAutoDispose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsAutoDispose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsAutoDispose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatics_AllocatorManager_IsAutoDispose(SharedStatics_AllocatorManager_IsAutoDispose const&) = delete;
+  SharedStatics_AllocatorManager_IsAutoDispose(SharedStatics_AllocatorManager_IsAutoDisposeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15541 };
@@ -1631,13 +1689,13 @@ protected:
   constexpr AllocatorManager_SharedStatics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_SharedStatics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_SharedStatics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AllocatorManager_SharedStatics(AllocatorManager_SharedStatics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_SharedStatics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_SharedStatics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_SharedStatics(AllocatorManager_SharedStatics const&) = delete;
+  AllocatorManager_SharedStatics(AllocatorManager_SharedStaticsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15542 };
@@ -1658,9 +1716,11 @@ public:
   /// @brief Field TryFunctionDelegates, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_TryFunctionDelegates, put = setStaticF_TryFunctionDelegates)) ::ArrayW<::Unity::Collections::AllocatorManager_TryFunction*> TryFunctionDelegates;
 
+  /// [ExcludeFromBurstCompatTesting("Uses managed delegate")]
   /// @brief Method RegisterDelegate, addr 0x64a85a8, size 0xdc, virtual false, abstract: false, final false
   static inline void RegisterDelegate(int32_t index, ::Unity::Collections::AllocatorManager_TryFunction* function);
 
+  /// [ExcludeFromBurstCompatTesting("Uses managed delegate")]
   /// @brief Method UnregisterDelegate, addr 0x64aa1e0, size 0xd0, virtual false, abstract: false, final false
   static inline void UnregisterDelegate(int32_t index);
 
@@ -1674,13 +1734,13 @@ protected:
   constexpr AllocatorManager_Managed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_Managed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_Managed", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AllocatorManager_Managed(AllocatorManager_Managed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_Managed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_Managed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_Managed(AllocatorManager_Managed const&) = delete;
+  AllocatorManager_Managed(AllocatorManager_Managedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15543 };
@@ -1691,10 +1751,12 @@ public:
 static_assert(sizeof(::Unity::Collections::AllocatorManager_Managed) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
-// Dependencies System.Object, Unity.Burst.FunctionPointer`1<T>
+// Dependencies System.Object, Unity.Burst.FunctionPointer`1<T>, Unity.Collections.AllocatorManager::IAllocator
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.AllocatorManager/AllocatorCache`1<T>
 class CORDL_TYPE AllocatorManager_AllocatorCache_1 : public ::System::Object {
@@ -1720,13 +1782,13 @@ protected:
   constexpr AllocatorManager_AllocatorCache_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_AllocatorCache_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_AllocatorCache_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AllocatorManager_AllocatorCache_1(AllocatorManager_AllocatorCache_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_AllocatorCache_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_AllocatorCache_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_AllocatorCache_1(AllocatorManager_AllocatorCache_1 const&) = delete;
+  AllocatorManager_AllocatorCache_1(AllocatorManager_AllocatorCache_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15544 };
@@ -1735,24 +1797,36 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies System.Object, Unity.Collections.AllocatorManager::AllocatorHandle
+// [Extension]
+// Dependencies System.Object, Unity.Collections.AllocatorManager::AllocatorHandle, Unity.Collections.AllocatorManager::IAllocator
 namespace Unity::Collections {
 // Is value type: false
 // CS Name: Unity.Collections.AllocatorManager
 class CORDL_TYPE AllocatorManager : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using AllocatorCache_1 = ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  using AllocatorCache_1 = ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>;
 
   using AllocatorHandle = ::Unity::Collections::AllocatorManager_AllocatorHandle;
 
-  template <typename T> using Array16_1 = ::Unity::Collections::AllocatorManager_Array16_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using Array16_1 = ::Unity::Collections::AllocatorManager_Array16_1<T>;
 
-  template <typename T> using Array256_1 = ::Unity::Collections::AllocatorManager_Array256_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using Array256_1 = ::Unity::Collections::AllocatorManager_Array256_1<T>;
 
-  template <typename T> using Array32768_1 = ::Unity::Collections::AllocatorManager_Array32768_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using Array32768_1 = ::Unity::Collections::AllocatorManager_Array32768_1<T>;
 
-  template <typename T> using Array4096_1 = ::Unity::Collections::AllocatorManager_Array4096_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using Array4096_1 = ::Unity::Collections::AllocatorManager_Array4096_1<T>;
 
   using Block = ::Unity::Collections::AllocatorManager_Block;
 
@@ -1805,49 +1879,89 @@ public:
   __declspec(property(get = getStaticF_TempJob, put = setStaticF_TempJob)) ::Unity::Collections::AllocatorManager_AllocatorHandle TempJob;
 
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle handle, int32_t items);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T* Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle handle, int32_t items);
 
+  /// [Extension]
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename U> static inline U* Allocate(::by_ref<T> t, U u, int32_t items);
+  template <typename T, typename U>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+  static inline U* Allocate(::by_ref<T> t, U u, int32_t items);
 
   /// @brief Method Allocate, addr 0x64a7c60, size 0xa0, virtual false, abstract: false, final false
   static inline void* Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle handle, int32_t itemSizeInBytes, int32_t alignmentInBytes, int32_t items);
 
+  /// [Extension]
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void* Allocate(::by_ref<T> t, int32_t sizeOf, int32_t alignOf, int32_t items);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline void* Allocate(::by_ref<T> t, int32_t sizeOf, int32_t alignOf, int32_t items);
 
+  /// [Extension]
   /// @brief Method AllocateBlock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Collections::AllocatorManager_Block AllocateBlock(::by_ref<T> t, int32_t sizeOf, int32_t alignOf, int32_t items);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Collections::AllocatorManager_Block AllocateBlock(::by_ref<T> t, int32_t sizeOf, int32_t alignOf, int32_t items);
 
+  /// [Extension]
   /// @brief Method AllocateBlock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename U> static inline ::Unity::Collections::AllocatorManager_Block AllocateBlock(::by_ref<T> t, U u, int32_t items);
+  template <typename T, typename U>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+  static inline ::Unity::Collections::AllocatorManager_Block AllocateBlock(::by_ref<T> t, U u, int32_t items);
 
+  /// [Extension]
   /// @brief Method AllocateStruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename U> static inline void* AllocateStruct(::by_ref<T> t, U u, int32_t items);
+  template <typename T, typename U>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+  static inline void* AllocateStruct(::by_ref<T> t, U u, int32_t items);
 
+  /// [BurstDiscard]
   /// @brief Method CheckDelegate, addr 0x64a7e38, size 0xc, virtual false, abstract: false, final false
   static inline void CheckDelegate(::by_ref<bool> useDelegate);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckFailedToAllocate, addr 0x64a8a58, size 0x54, virtual false, abstract: false, final false
   static inline void CheckFailedToAllocate(int32_t error);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckFailedToFree, addr 0x64a8aac, size 0x54, virtual false, abstract: false, final false
   static inline void CheckFailedToFree(int32_t error);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckValid, addr 0x64a8b00, size 0x4, virtual false, abstract: false, final false
   static inline void CheckValid(::Unity::Collections::AllocatorManager_AllocatorHandle handle);
 
   /// @brief Method ConvertToAllocatorHandle, addr 0x64a7e34, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Collections::AllocatorManager_AllocatorHandle ConvertToAllocatorHandle(::Unity::Collections::Allocator a);
 
+  /// [ExcludeFromBurstCompatTesting("Register uses managed delegate")]
   /// @brief Method CreateAllocator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::by_ref<T> CreateAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle backingAllocator, bool isGlobal, int32_t globalIndex);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::by_ref<T> CreateAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle backingAllocator, bool isGlobal, int32_t globalIndex);
 
+  /// [Extension]
+  /// [ExcludeFromBurstCompatTesting("Registration uses managed delegates")]
   /// @brief Method DestroyAllocator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void DestroyAllocator(::by_ref<T> t, ::Unity::Collections::AllocatorManager_AllocatorHandle backingAllocator);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline void DestroyAllocator(::by_ref<T> t, ::Unity::Collections::AllocatorManager_AllocatorHandle backingAllocator);
 
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Free(::Unity::Collections::AllocatorManager_AllocatorHandle handle, T* pointer, int32_t items);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Free(::Unity::Collections::AllocatorManager_AllocatorHandle handle, T* pointer, int32_t items);
 
   /// @brief Method Free, addr 0x64a7da8, size 0x8c, virtual false, abstract: false, final false
   static inline void Free(::Unity::Collections::AllocatorManager_AllocatorHandle handle, void* pointer);
@@ -1855,14 +1969,26 @@ public:
   /// @brief Method Free, addr 0x64a7d00, size 0xa8, virtual false, abstract: false, final false
   static inline void Free(::Unity::Collections::AllocatorManager_AllocatorHandle handle, void* pointer, int32_t itemSizeInBytes, int32_t alignmentInBytes, int32_t items);
 
+  /// [Extension]
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename U> static inline void Free(::by_ref<T> t, U* pointer, int32_t items);
+  template <typename T, typename U>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+  static inline void Free(::by_ref<T> t, U* pointer, int32_t items);
 
+  /// [Extension]
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Free(::by_ref<T> t, void* pointer, int32_t sizeOf, int32_t alignOf, int32_t items);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Free(::by_ref<T> t, void* pointer, int32_t sizeOf, int32_t alignOf, int32_t items);
 
+  /// [Extension]
   /// @brief Method FreeBlock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void FreeBlock(::by_ref<T> t, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline void FreeBlock(::by_ref<T> t, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
   /// @brief Method Initialize, addr 0x64a835c, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
@@ -1886,8 +2012,13 @@ public:
                                                                                 ::Unity::Burst::FunctionPointer_1<::Unity::Collections::AllocatorManager_TryFunction*> functionPointer,
                                                                                 bool IsAutoDispose, bool isGlobal, int32_t globalIndex);
 
+  /// [Extension]
+  /// [ExcludeFromBurstCompatTesting("Uses managed delegate")]
   /// @brief Method Register, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Register(::by_ref<T> t, bool IsAutoDispose, bool isGlobal, int32_t globalIndex);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Register(::by_ref<T> t, bool IsAutoDispose, bool isGlobal, int32_t globalIndex);
 
   /// @brief Method Shutdown, addr 0x64a8a48, size 0x4, virtual false, abstract: false, final false
   static inline void Shutdown();
@@ -1898,11 +2029,20 @@ public:
   /// @brief Method TryLegacy, addr 0x64a812c, size 0x134, virtual false, abstract: false, final false
   static inline int32_t TryLegacy(::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
+  /// [Extension]
   /// @brief Method UnmanagedUnregister, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void UnmanagedUnregister(::by_ref<T> t);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline void UnmanagedUnregister(::by_ref<T> t);
 
+  /// [Extension]
+  /// [ExcludeFromBurstCompatTesting("Uses managed delegate")]
   /// @brief Method Unregister, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Unregister(::by_ref<T> t);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Unregister(::by_ref<T> t);
 
   /// @brief Method UseDelegate, addr 0x64a7e44, size 0x54, virtual false, abstract: false, final false
   static inline bool UseDelegate();
@@ -1910,6 +2050,7 @@ public:
   /// @brief Method allocate_block, addr 0x64a7e98, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t allocate_block(::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
+  /// [BurstDiscard]
   /// @brief Method forward_mono_allocate_block, addr 0x64a8000, size 0x110, virtual false, abstract: false, final false
   static inline void forward_mono_allocate_block(::by_ref<::Unity::Collections::AllocatorManager_Block> block, ::by_ref<int32_t> error);
 
@@ -1959,13 +2100,13 @@ protected:
   constexpr AllocatorManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AllocatorManager(AllocatorManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager(AllocatorManager const&) = delete;
+  AllocatorManager(AllocatorManagerconst&) = delete;
 
   /// @brief Field FirstUserIndex offset 0xffffffff size 0x2
   static constexpr uint16_t FirstUserIndex{ static_cast<uint16_t>(0x40u) };

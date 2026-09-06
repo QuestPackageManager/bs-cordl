@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DrawCommandOutputPerBatch.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DrawCommandOutputPerBatch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ struct DrawCommandOutputPerBatch;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::DrawCommandOutputPerBatch);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DrawCommandOutputPerBatch, "UnityEngine.Rendering", "DrawCommandOutputPerBatch");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.GraphicsBufferHandle,
 // UnityEngine.Rendering.BatchCullingOutputDrawCommands, UnityEngine.Rendering.BatchID, UnityEngine.Rendering.BinningConfig, UnityEngine.Rendering.CPUInstanceData::ReadOnly,
 // UnityEngine.Rendering.DrawBatch, UnityEngine.Rendering.GPUInstanceDataBuffer::ReadOnly, UnityEngine.Rendering.IndirectBufferAllocInfo, UnityEngine.Rendering.IndirectBufferLimits,
@@ -59,23 +60,24 @@ public:
   // @brief default ctor
   constexpr DrawCommandOutputPerBatch();
 
-  // Ctor Parameters [CppParam { name: "binningConfig", ty: "::UnityEngine::Rendering::BinningConfig", modifiers: "", def_value: None }, CppParam { name: "batchIDs", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2<uint32_t,::UnityEngine::Rendering::BatchID>", modifiers: "", def_value: None }, CppParam { name: "instanceDataBuffer", ty:
-  // "::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly", modifiers: "", def_value: None }, CppParam { name: "drawBatches", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None }, CppParam { name: "drawInstanceIndices", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly", modifiers: "",
-  // def_value: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "rendererCrossFadeValues",
-  // ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "batchBinAllocOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "batchBinCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "batchDrawCommandOffsets", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "binConfigIndices", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "binVisibleInstanceOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "binVisibleInstanceCounts",
-  // ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "cullingOutput", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers: "", def_value: None }, CppParam { name: "indirectBufferLimits", ty:
-  // "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: None }, CppParam { name: "visibleInstancesBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "",
-  // def_value: None }, CppParam { name: "indirectArgsBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: None }, CppParam { name: "indirectBufferAllocInfo", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "", def_value: None }, CppParam { name: "indirectDrawInfoGlobalArray", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo>", modifiers: "", def_value: None }, CppParam { name: "indirectInstanceInfoGlobalArray", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "binningConfig", ty: "::UnityEngine::Rendering::BinningConfig", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchIDs", ty:
+  // "::Unity::Collections::NativeParallelHashMap_2<uint32_t,::UnityEngine::Rendering::BatchID>", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceDataBuffer", ty:
+  // "::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawBatches", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawInstanceIndices", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "rendererCrossFadeValues", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchBinAllocOffsets", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchBinCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "batchDrawCommandOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "binConfigIndices", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "binVisibleInstanceOffsets", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingOutput", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "indirectBufferLimits", ty: "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "visibleInstancesBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectArgsBufferHandle", ty:
+  // "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectBufferAllocInfo", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectDrawInfoGlobalArray", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo>", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectInstanceInfoGlobalArray", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo>", modifiers: "", def_value: None, comment: None }]
   constexpr DrawCommandOutputPerBatch(::UnityEngine::Rendering::BinningConfig binningConfig, ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID> batchIDs,
                                       ::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly instanceDataBuffer, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches,
                                       ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices, ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData,
@@ -96,66 +98,96 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1e8 };
 
+  /// [ReadOnly]
   /// @brief Field binningConfig, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Rendering::BinningConfig binningConfig;
 
+  /// [ReadOnly]
   /// @brief Field batchIDs, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID> batchIDs;
 
+  /// [ReadOnly]
   /// @brief Field instanceDataBuffer, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly instanceDataBuffer;
 
+  /// [ReadOnly]
   /// @brief Field drawBatches, offset: 0x28, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches;
 
+  /// [ReadOnly]
   /// @brief Field drawInstanceIndices, offset: 0x30, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices;
 
+  /// [ReadOnly]
   /// @brief Field instanceData, offset: 0x40, size: 0xd8, def value: None
   ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData;
 
+  /// [ReadOnly]
   /// @brief Field rendererVisibilityMasks, offset: 0x118, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks;
 
+  /// [ReadOnly]
   /// @brief Field rendererCrossFadeValues, offset: 0x128, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues;
 
+  /// [ReadOnly]
+  /// [DeallocateOnJobCompletion]
   /// @brief Field batchBinAllocOffsets, offset: 0x138, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets;
 
+  /// [ReadOnly]
+  /// [DeallocateOnJobCompletion]
   /// @brief Field batchBinCounts, offset: 0x148, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts;
 
+  /// [ReadOnly]
+  /// [DeallocateOnJobCompletion]
   /// @brief Field batchDrawCommandOffsets, offset: 0x158, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchDrawCommandOffsets;
 
+  /// [ReadOnly]
+  /// [DeallocateOnJobCompletion]
   /// @brief Field binConfigIndices, offset: 0x168, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int16_t> binConfigIndices;
 
+  /// [ReadOnly]
+  /// [DeallocateOnJobCompletion]
   /// @brief Field binVisibleInstanceOffsets, offset: 0x178, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceOffsets;
 
+  /// [ReadOnly]
+  /// [DeallocateOnJobCompletion]
   /// @brief Field binVisibleInstanceCounts, offset: 0x188, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts;
 
+  /// [ReadOnly]
   /// @brief Field cullingOutput, offset: 0x198, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands> cullingOutput;
 
+  /// [ReadOnly]
   /// @brief Field indirectBufferLimits, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::Rendering::IndirectBufferLimits indirectBufferLimits;
 
+  /// [ReadOnly]
   /// @brief Field visibleInstancesBufferHandle, offset: 0x1b0, size: 0x4, def value: None
   ::UnityEngine::GraphicsBufferHandle visibleInstancesBufferHandle;
 
+  /// [ReadOnly]
   /// @brief Field indirectArgsBufferHandle, offset: 0x1b4, size: 0x4, def value: None
   ::UnityEngine::GraphicsBufferHandle indirectArgsBufferHandle;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indirectBufferAllocInfo, offset: 0x1b8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo> indirectBufferAllocInfo;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indirectDrawInfoGlobalArray, offset: 0x1c8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo> indirectDrawInfoGlobalArray;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indirectInstanceInfoGlobalArray, offset: 0x1d8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo> indirectInstanceInfoGlobalArray;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Long64.hpp"
+// IWYU pragma private; include "Unity/Collections/Long64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +24,11 @@ public:
   // @brief default ctor
   constexpr Long64();
 
-  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None }, CppParam { name: "f1", ty: "::Unity::Collections::Long8", modifiers: "", def_value:
-  // None }, CppParam { name: "f2", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None }, CppParam { name: "f3", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None },
-  // CppParam { name: "f4", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None }, CppParam { name: "f5", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None }, CppParam {
-  // name: "f6", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None }, CppParam { name: "f7", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None, comment: None }, CppParam { name: "f1", ty: "::Unity::Collections::Long8", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "f2", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None, comment: None }, CppParam { name: "f3", ty:
+  // "::Unity::Collections::Long8", modifiers: "", def_value: None, comment: None }, CppParam { name: "f4", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "f5", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None, comment: None }, CppParam { name: "f6", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "f7", ty: "::Unity::Collections::Long8", modifiers: "", def_value: None, comment: None }]
   constexpr Long64(::Unity::Collections::Long8 f0, ::Unity::Collections::Long8 f1, ::Unity::Collections::Long8 f2, ::Unity::Collections::Long8 f3, ::Unity::Collections::Long8 f4,
                    ::Unity::Collections::Long8 f5, ::Unity::Collections::Long8 f6, ::Unity::Collections::Long8 f7) noexcept;
 

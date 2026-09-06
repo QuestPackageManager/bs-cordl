@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IndexedCollectionSharedPropertyState.hpp"
+// IWYU pragma private; include "Unity/Properties/IndexedCollectionSharedPropertyState.hpp"
 #include "Unity/Properties/zzzz__IndexedCollectionSharedPropertyState_def.hpp"
-// Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsReadOnly", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsReadOnly", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::Unity::Properties::IndexedCollectionSharedPropertyState::IndexedCollectionSharedPropertyState(int32_t Index, bool IsReadOnly) noexcept {
   this->Index = Index;
   this->IsReadOnly = IsReadOnly;

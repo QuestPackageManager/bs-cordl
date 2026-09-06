@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Scripting\APIUpdating\MovedFromAttributeData.hpp"
+// IWYU pragma private; include "UnityEngine/Scripting/APIUpdating/MovedFromAttributeData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MovedFromAttributeData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: true
@@ -27,10 +28,10 @@ public:
   // @brief default ctor
   constexpr MovedFromAttributeData();
 
-  // Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameSpace", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "assembly", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "classHasChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nameSpaceHasChanged", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "assemblyHasChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "autoUdpateAPI", ty: "bool", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "nameSpace", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "assembly", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "classHasChanged", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "nameSpaceHasChanged", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "assemblyHasChanged", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "autoUdpateAPI", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr MovedFromAttributeData(::StringW className, ::StringW nameSpace, ::StringW assembly, bool classHasChanged, bool nameSpaceHasChanged, bool assemblyHasChanged, bool autoUdpateAPI) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

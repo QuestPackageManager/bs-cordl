@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SRPLensFlareType.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SRPLensFlareType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct SRPLensFlareType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::SRPLensFlareType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SRPLensFlareType, "UnityEngine.Rendering", "SRPLensFlareType");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\PostProcessing\\LensFlareDataSRP.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.SRPLensFlareType
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr SRPLensFlareType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SRPLensFlareType(int32_t value__) noexcept;
 
   /// @brief Field Circle value: I32(1)

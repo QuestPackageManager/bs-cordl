@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXVisibilityEventBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXVisibilityEventBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
   // @brief default ctor
   constexpr VFXVisibilityEventBinder_Activation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VFXVisibilityEventBinder_Activation(int32_t value__) noexcept;
 
   /// @brief Field OnBecameInvisible value: I32(1)
@@ -81,6 +81,7 @@ static_assert(offsetof(::UnityEngine::VFX::Utility::VFXVisibilityEventBinder_Act
 static_assert(sizeof(::UnityEngine::VFX::Utility::VFXVisibilityEventBinder_Activation) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::VFX::Utility
+// [RequireComponent(typeof(UnityEngine.Renderer))]
 // Dependencies UnityEngine.VFX.Utility.VFXEventBinderBase, UnityEngine.VFX.Utility.VFXVisibilityEventBinder::Activation
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -119,13 +120,13 @@ protected:
   constexpr VFXVisibilityEventBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXVisibilityEventBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXVisibilityEventBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXVisibilityEventBinder(VFXVisibilityEventBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXVisibilityEventBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXVisibilityEventBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXVisibilityEventBinder(VFXVisibilityEventBinder const&) = delete;
+  VFXVisibilityEventBinder(VFXVisibilityEventBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19981 };

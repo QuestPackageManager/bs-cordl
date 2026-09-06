@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\CallSiteOps.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/CallSiteOps.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,13 +11,17 @@ namespace System::Runtime::CompilerServices {
 class CallSiteBinder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class CallSite_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class CallSite_1;
 }
 namespace System::Runtime::CompilerServices {
 class CallSite;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class RuleCache_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class RuleCache_1;
 }
 namespace System {
 class Object;
@@ -29,6 +33,8 @@ class CallSiteOps;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::CallSiteOps*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::CallSiteOps*, "System.Runtime.CompilerServices", "CallSiteOps");
+// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+// [DebuggerStepThrough]
 // Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -36,38 +42,76 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE CallSiteOps : public ::System::Object {
 public:
   // Declarations
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method AddRule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void AddRule(::System::Runtime::CompilerServices::CallSite_1<T>* site, T rule);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline void AddRule(::System::Runtime::CompilerServices::CallSite_1<T>* site, T rule);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Bind(::System::Runtime::CompilerServices::CallSiteBinder* binder, ::System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::System::Object*> args);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T Bind(::System::Runtime::CompilerServices::CallSiteBinder* binder, ::System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::System::Object*> args);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method ClearMatch, addr 0x5fc1870, size 0x18, virtual false, abstract: false, final false
   static inline void ClearMatch(::System::Runtime::CompilerServices::CallSite* site);
 
+  /// [Obsolete("do not use this method", true)]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method CreateMatchmaker, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Runtime::CompilerServices::CallSite_1<T>* CreateMatchmaker(::System::Runtime::CompilerServices::CallSite_1<T>* site);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline ::System::Runtime::CompilerServices::CallSite_1<T>* CreateMatchmaker(::System::Runtime::CompilerServices::CallSite_1<T>* site);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method GetCachedRules, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T> GetCachedRules(::System::Runtime::CompilerServices::RuleCache_1<T>* cache);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline ::ArrayW<T> GetCachedRules(::System::Runtime::CompilerServices::RuleCache_1<T>* cache);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method GetMatch, addr 0x5fc185c, size 0x14, virtual false, abstract: false, final false
   static inline bool GetMatch(::System::Runtime::CompilerServices::CallSite* site);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method GetRuleCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Runtime::CompilerServices::RuleCache_1<T>* GetRuleCache(::System::Runtime::CompilerServices::CallSite_1<T>* site);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline ::System::Runtime::CompilerServices::RuleCache_1<T>* GetRuleCache(::System::Runtime::CompilerServices::CallSite_1<T>* site);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method GetRules, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T> GetRules(::System::Runtime::CompilerServices::CallSite_1<T>* site);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline ::ArrayW<T> GetRules(::System::Runtime::CompilerServices::CallSite_1<T>* site);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method MoveRule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void MoveRule(::System::Runtime::CompilerServices::RuleCache_1<T>* cache, T rule, int32_t i);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline void MoveRule(::System::Runtime::CompilerServices::RuleCache_1<T>* cache, T rule, int32_t i);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method SetNotMatched, addr 0x5fc1840, size 0x1c, virtual false, abstract: false, final false
   static inline bool SetNotMatched(::System::Runtime::CompilerServices::CallSite* site);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method UpdateRules, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void UpdateRules(::System::Runtime::CompilerServices::CallSite_1<T>* _cordl_this, int32_t matched);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline void UpdateRules(::System::Runtime::CompilerServices::CallSite_1<T>* _cordl_this, int32_t matched);
 
 protected:
   // Ctor Parameters []
@@ -75,13 +119,13 @@ protected:
   constexpr CallSiteOps();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallSiteOps", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSiteOps", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallSiteOps(CallSiteOps&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallSiteOps", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSiteOps", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallSiteOps(CallSiteOps const&) = delete;
+  CallSiteOps(CallSiteOpsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16630 };

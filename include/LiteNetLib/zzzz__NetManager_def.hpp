@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NetManager.hpp"
+// IWYU pragma private; include "LiteNetLib/NetManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -166,13 +166,13 @@ protected:
   constexpr NetManager_IPEndPointComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetManager_IPEndPointComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetManager_IPEndPointComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetManager_IPEndPointComparer(NetManager_IPEndPointComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetManager_IPEndPointComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetManager_IPEndPointComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetManager_IPEndPointComparer(NetManager_IPEndPointComparer const&) = delete;
+  NetManager_IPEndPointComparer(NetManager_IPEndPointComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20063 };
@@ -234,8 +234,8 @@ public:
   // @brief default ctor
   constexpr NetManager_NetPeerEnumerator();
 
-  // Ctor Parameters [CppParam { name: "_initialPeer", ty: "::LiteNetLib::NetPeer*", modifiers: "", def_value: None }, CppParam { name: "_p", ty: "::LiteNetLib::NetPeer*", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "_initialPeer", ty: "::LiteNetLib::NetPeer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_p", ty: "::LiteNetLib::NetPeer*", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr NetManager_NetPeerEnumerator(::LiteNetLib::NetPeer* _initialPeer, ::LiteNetLib::NetPeer* _p) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -891,13 +891,13 @@ protected:
   constexpr NetManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetManager(NetManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetManager(NetManager const&) = delete;
+  NetManager(NetManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20065 };

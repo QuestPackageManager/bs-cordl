@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\XPlatformAccessTokenData.hpp"
+// IWYU pragma private; include "GlobalNamespace/XPlatformAccessTokenData.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_impl.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
@@ -46,8 +46,8 @@ inline bool GlobalNamespace::XPlatformAccessTokenData::IsValid() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XPlatformAccessTokenData>(), { "IsValid", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "platformEnvironment", ty: "::GlobalNamespace::PlatformEnvironment", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "platformEnvironment", ty:
+// "::GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::XPlatformAccessTokenData::XPlatformAccessTokenData(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment) noexcept {
   this->token = token;
   this->platformEnvironment = platformEnvironment;

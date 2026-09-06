@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\AsyncReadManagerMetricsFilters.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/AsyncReadManagerMetricsFilters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,9 @@ class AsyncReadManagerMetricsFilters;
 // Write type traits
 MARK_REF_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters*);
 DEFINE_IL2CPP_CLASS(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters*, "Unity.IO.LowLevel.Unsafe", "AsyncReadManagerMetricsFilters");
+// [NativeConditional("ENABLE_PROFILER")]
+// [NativeAsStruct]
+// [RequiredByNativeCode]
 // Dependencies System.Object, Unity.IO.LowLevel.Unsafe.AssetLoadingSubsystem, Unity.IO.LowLevel.Unsafe.FileReadType, Unity.IO.LowLevel.Unsafe.Priority, Unity.IO.LowLevel.Unsafe.ProcessingState
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: false
@@ -76,29 +79,34 @@ protected:
   constexpr AsyncReadManagerMetricsFilters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncReadManagerMetricsFilters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncReadManagerMetricsFilters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncReadManagerMetricsFilters(AsyncReadManagerMetricsFilters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncReadManagerMetricsFilters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncReadManagerMetricsFilters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncReadManagerMetricsFilters(AsyncReadManagerMetricsFilters const&) = delete;
+  AsyncReadManagerMetricsFilters(AsyncReadManagerMetricsFiltersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9977 };
 
+  /// [NativeName("typeIDs")]
   /// @brief Field TypeIDs, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint64_t> ___TypeIDs;
 
+  /// [NativeName("states")]
   /// @brief Field States, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::Unity::IO::LowLevel::Unsafe::ProcessingState> ___States;
 
+  /// [NativeName("readTypes")]
   /// @brief Field ReadTypes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::Unity::IO::LowLevel::Unsafe::FileReadType> ___ReadTypes;
 
+  /// [NativeName("priorityLevels")]
   /// @brief Field PriorityLevels, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::Unity::IO::LowLevel::Unsafe::Priority> ___PriorityLevels;
 
+  /// [NativeName("subsystems")]
   /// @brief Field Subsystems, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem> ___Subsystems;
 

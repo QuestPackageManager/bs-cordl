@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\WaitForSecondsRealtime.hpp"
+// IWYU pragma private; include "UnityEngine/WaitForSecondsRealtime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,9 +53,11 @@ public:
   /// @brief Method get_keepWaiting, addr 0x6aebea4, size 0x9c, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
+  /// [CompilerGenerated]
   /// @brief Method get_waitTime, addr 0x6aebe94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_waitTime();
 
+  /// [CompilerGenerated]
   /// @brief Method set_waitTime, addr 0x6aebe9c, size 0x8, virtual false, abstract: false, final false
   inline void set_waitTime(float_t value);
 
@@ -65,17 +67,19 @@ protected:
   constexpr WaitForSecondsRealtime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WaitForSecondsRealtime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaitForSecondsRealtime", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaitForSecondsRealtime(WaitForSecondsRealtime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WaitForSecondsRealtime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaitForSecondsRealtime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WaitForSecondsRealtime(WaitForSecondsRealtime const&) = delete;
+  WaitForSecondsRealtime(WaitForSecondsRealtimeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10385 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <waitTime>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____waitTime_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataViewManager.hpp"
+// IWYU pragma private; include "System/Data/DataViewManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ namespace System::Data {
 class CORDL_TYPE DataViewManager : public ::System::ComponentModel::MarshalByValueComponent {
 public:
   // Declarations
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)2)]
   __declspec(property(get = get_DataViewSettings)) ::System::Data::DataViewSettingCollection* DataViewSettings;
 
   /// @brief Field _dataViewSettingsCollection, offset 0x20, size 0x8
@@ -63,13 +64,13 @@ protected:
   constexpr DataViewManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataViewManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataViewManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataViewManager(DataViewManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataViewManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataViewManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataViewManager(DataViewManager const&) = delete;
+  DataViewManager(DataViewManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13801 };

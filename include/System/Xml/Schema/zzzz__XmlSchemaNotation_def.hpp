@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaNotation.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaNotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,14 +23,19 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaNotation : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
+  /// @brief [XmlAttribute("name")]
   __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_NameAttribute, put = set_NameAttribute)) ::StringW NameAttribute;
 
+  /// @brief [XmlAttribute("public")]
   __declspec(property(get = get_Public, put = set_Public)) ::StringW Public;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_QualifiedName, put = set_QualifiedName)) ::System::Xml::XmlQualifiedName* QualifiedName;
 
+  /// @brief [XmlAttribute("system")]
   __declspec(property(get = get_System, put = set_System)) ::StringW System;
 
   /// @brief Field name, offset 0x50, size 0x8
@@ -110,13 +115,13 @@ protected:
   constexpr XmlSchemaNotation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaNotation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaNotation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaNotation(XmlSchemaNotation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaNotation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaNotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaNotation(XmlSchemaNotation const&) = delete;
+  XmlSchemaNotation(XmlSchemaNotationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9795 };

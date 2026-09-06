@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\ResourceFallbackManager.hpp"
+// IWYU pragma private; include "System/Resources/ResourceFallbackManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::System::Resources::ResourceFallbackManager*);
 MARK_REF_T(::System::Resources::ResourceFallbackManager__GetEnumerator_d__5*);
 DEFINE_IL2CPP_CLASS(::System::Resources::ResourceFallbackManager*, "System.Resources", "ResourceFallbackManager");
 DEFINE_IL2CPP_CLASS(::System::Resources::ResourceFallbackManager__GetEnumerator_d__5*, "System.Resources", "ResourceFallbackManager/<GetEnumerator>d__5");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Resources {
 // Is value type: false
@@ -81,17 +82,22 @@ public:
   /// @brief Method MoveNext, addr 0x5b7324c, size 0x1bc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Resources::ResourceFallbackManager__GetEnumerator_d__5* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Globalization.CultureInfo>.get_Current, addr 0x5b73408, size 0x8, virtual true, abstract: false, final true
   inline ::System::Globalization::CultureInfo* System_Collections_Generic_IEnumerator_System_Globalization_CultureInfo__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5b73410, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5b73448, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5b73248, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -125,6 +131,7 @@ public:
 
   constexpr void __cordl_internal_set__reachedNeutralResourcesCulture_5__2(bool value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5b73240, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -143,13 +150,13 @@ protected:
   constexpr ResourceFallbackManager__GetEnumerator_d__5();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceFallbackManager__GetEnumerator_d__5", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceFallbackManager__GetEnumerator_d__5", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceFallbackManager__GetEnumerator_d__5(ResourceFallbackManager__GetEnumerator_d__5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceFallbackManager__GetEnumerator_d__5", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceFallbackManager__GetEnumerator_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceFallbackManager__GetEnumerator_d__5(ResourceFallbackManager__GetEnumerator_d__5 const&) = delete;
+  ResourceFallbackManager__GetEnumerator_d__5(ResourceFallbackManager__GetEnumerator_d__5const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3445 };
@@ -209,6 +216,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// [IteratorStateMachine(typeof(System.Resources.ResourceFallbackManager::<GetEnumerator>d__5))]
   /// @brief Method GetEnumerator, addr 0x5b731ec, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Globalization::CultureInfo*>* GetEnumerator();
 
@@ -251,13 +259,13 @@ protected:
   constexpr ResourceFallbackManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceFallbackManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceFallbackManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceFallbackManager(ResourceFallbackManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceFallbackManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceFallbackManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceFallbackManager(ResourceFallbackManager const&) = delete;
+  ResourceFallbackManager(ResourceFallbackManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3446 };

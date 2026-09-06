@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexWriter.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,8 @@ struct RegexWriter;
 // Write type traits
 MARK_VAL_T(::System::Text::RegularExpressions::RegexWriter);
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::RegexWriter, "System.Text.RegularExpressions", "RegexWriter");
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
+// [IsByRefLike]
 // Dependencies System.Collections.Generic.ValueListBuilder`1<T>
 namespace System::Text::RegularExpressions {
 // Is value type: true
@@ -80,11 +82,11 @@ public:
   // @brief default ctor
   constexpr RegexWriter();
 
-  // Ctor Parameters [CppParam { name: "_emitted", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_intStack", ty:
-  // "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_stringHash", ty:
-  // "::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*", modifiers: "", def_value: None }, CppParam { name: "_stringTable", ty: "::System::Collections::Generic::List_1<::StringW>*",
-  // modifiers: "", def_value: None }, CppParam { name: "_caps", ty: "::System::Collections::Hashtable*", modifiers: "", def_value: None }, CppParam { name: "_trackCount", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_emitted", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_intStack", ty:
+  // "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_stringHash", ty:
+  // "::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_stringTable", ty:
+  // "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_caps", ty: "::System::Collections::Hashtable*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_trackCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RegexWriter(::System::Collections::Generic::ValueListBuilder_1<int32_t> _emitted, ::System::Collections::Generic::ValueListBuilder_1<int32_t> _intStack,
                         ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _stringHash, ::System::Collections::Generic::List_1<::StringW>* _stringTable,
                         ::System::Collections::Hashtable* _caps, int32_t _trackCount) noexcept;

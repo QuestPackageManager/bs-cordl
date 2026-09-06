@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\AggregateException.hpp"
+// IWYU pragma private; include "System/AggregateException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class AggregateException;
 // Write type traits
 MARK_REF_T(::System::AggregateException*);
 DEFINE_IL2CPP_CLASS(::System::AggregateException*, "System", "AggregateException");
+// [DebuggerDisplay("Count = {InnerExceptionCount}")]
 // Dependencies System.Exception
 namespace System {
 // Is value type: false
@@ -62,7 +63,7 @@ public:
 
   static inline ::System::AggregateException* New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
-  static inline ::System::AggregateException* New_ctor(::ArrayW<::System::Exception*> innerExceptions);
+  static inline ::System::AggregateException* New_ctor(/* [ParamArray] */ ::ArrayW<::System::Exception*> innerExceptions);
 
   static inline ::System::AggregateException* New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
 
@@ -71,7 +72,7 @@ public:
 
   static inline ::System::AggregateException* New_ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
-  static inline ::System::AggregateException* New_ctor(::StringW message, ::ArrayW<::System::Exception*> innerExceptions);
+  static inline ::System::AggregateException* New_ctor(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Exception*> innerExceptions);
 
   static inline ::System::AggregateException* New_ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
 
@@ -96,7 +97,7 @@ public:
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
   /// @brief Method .ctor, addr 0x5bad068, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::Exception*> innerExceptions);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Exception*> innerExceptions);
 
   /// @brief Method .ctor, addr 0x5bacf44, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
@@ -108,7 +109,7 @@ public:
   inline void _ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
 
   /// @brief Method .ctor, addr 0x5bad0c4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::ArrayW<::System::Exception*> innerExceptions);
+  inline void _ctor(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Exception*> innerExceptions);
 
   /// @brief Method .ctor, addr 0x5bacfa0, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions);
@@ -128,13 +129,13 @@ protected:
   constexpr AggregateException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AggregateException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AggregateException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AggregateException(AggregateException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AggregateException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AggregateException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AggregateException(AggregateException const&) = delete;
+  AggregateException(AggregateExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2344 };

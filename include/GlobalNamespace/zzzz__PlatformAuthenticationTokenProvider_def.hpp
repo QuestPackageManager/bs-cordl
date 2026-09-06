@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformAuthenticationTokenProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformAuthenticationTokenProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_REF_T(::GlobalNamespace::PlatformAuthenticationTokenProvider*);
 MARK_VAL_T(::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__13);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlatformAuthenticationTokenProvider*, "", "PlatformAuthenticationTokenProvider");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__13, "", "PlatformAuthenticationTokenProvider/<GetXPlatformAccessToken>d__13");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, XPlatformAccessTokenData
 namespace GlobalNamespace {
 // Is value type: true
@@ -70,6 +71,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f408d4, size 0x368, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f40c3c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -80,10 +82,10 @@ public:
   // @brief default ctor
   constexpr PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__13();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::PlatformAuthenticationTokenProvider*", modifiers: "", def_value: None }, CppParam { name: "skipCacheRead", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::PlatformAuthenticationTokenProvider*", modifiers: "", def_value: None, comment: None }, CppParam { name: "skipCacheRead", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__13(int32_t __1__state,
                                                                                ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData> __t__builder,
                                                                                ::GlobalNamespace::PlatformAuthenticationTokenProvider* __4__this, bool skipCacheRead,
@@ -165,6 +167,7 @@ public:
   /// @brief Method GetTokenPlatform, addr 0x5f407d8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken_PlatformType GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
+  /// [AsyncStateMachine(typeof(PlatformAuthenticationTokenProvider::<GetXPlatformAccessToken>d__13))]
   /// @brief Method GetXPlatformAccessToken, addr 0x5f407e0, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCacheRead);
 
@@ -224,13 +227,13 @@ protected:
   constexpr PlatformAuthenticationTokenProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformAuthenticationTokenProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformAuthenticationTokenProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformAuthenticationTokenProvider(PlatformAuthenticationTokenProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformAuthenticationTokenProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformAuthenticationTokenProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformAuthenticationTokenProvider(PlatformAuthenticationTokenProvider const&) = delete;
+  PlatformAuthenticationTokenProvider(PlatformAuthenticationTokenProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23600 };

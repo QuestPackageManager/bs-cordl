@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\Compute_DT_EventArgs.hpp"
+// IWYU pragma private; include "TMPro/Compute_DT_EventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,13 +72,13 @@ protected:
   constexpr Compute_DT_EventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Compute_DT_EventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Compute_DT_EventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Compute_DT_EventArgs(Compute_DT_EventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Compute_DT_EventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Compute_DT_EventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Compute_DT_EventArgs(Compute_DT_EventArgs const&) = delete;
+  Compute_DT_EventArgs(Compute_DT_EventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15869 };

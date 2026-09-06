@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeUpdatePhase.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeUpdatePhase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VisualTreeUpdatePhase;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VisualTreeUpdatePhase);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeUpdatePhase, "UnityEngine.UIElements", "VisualTreeUpdatePhase");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr VisualTreeUpdatePhase();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualTreeUpdatePhase(int32_t value__) noexcept;
 
   /// @brief Field Animation value: I32(2)

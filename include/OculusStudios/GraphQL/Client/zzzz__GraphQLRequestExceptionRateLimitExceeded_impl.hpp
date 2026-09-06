@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLRequestExceptionRateLimitExceeded.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLRequestExceptionRateLimitExceeded.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLRequestException_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLRequestExceptionRateLimitExceeded_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLRequestExceptionRateLimitExceeded._ctor

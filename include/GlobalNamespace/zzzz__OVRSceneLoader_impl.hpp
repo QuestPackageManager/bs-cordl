@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneLoader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneLoader_def.hpp"
@@ -34,8 +34,8 @@ inline void GlobalNamespace::OVRSceneLoader_SceneInfo::_ctor(::System::Collectio
                                                            { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::StringW>*>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sceneList, currentSceneEpochVersion);
 }
-// Ctor Parameters [CppParam { name: "scenes", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "int64_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "scenes", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "version", ty:
+// "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneLoader_SceneInfo::OVRSceneLoader_SceneInfo(::System::Collections::Generic::List_1<::StringW>* scenes, int64_t version) noexcept {
   this->scenes = scenes;
   this->version = version;
@@ -190,6 +190,7 @@ inline ::System::Object* GlobalNamespace::OVRSceneLoader__DelayCanvasPosUpdate_d
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneLoader__DelayCanvasPosUpdate_d__24*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRSceneLoader__DelayCanvasPosUpdate_d__24* GlobalNamespace::OVRSceneLoader__DelayCanvasPosUpdate_d__24::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRSceneLoader__DelayCanvasPosUpdate_d__24*>(__1__state));
 }
@@ -369,6 +370,7 @@ inline ::System::Object* GlobalNamespace::OVRSceneLoader__onCheckSceneCoroutine_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneLoader__onCheckSceneCoroutine_d__25*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRSceneLoader__onCheckSceneCoroutine_d__25* GlobalNamespace::OVRSceneLoader__onCheckSceneCoroutine_d__25::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRSceneLoader__onCheckSceneCoroutine_d__25*>(__1__state));
 }

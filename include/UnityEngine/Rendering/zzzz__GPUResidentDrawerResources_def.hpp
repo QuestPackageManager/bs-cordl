@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUResidentDrawerResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUResidentDrawerResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,7 +64,7 @@ public:
   // @brief default ctor
   constexpr GPUResidentDrawerResources_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GPUResidentDrawerResources_Version(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(1)
@@ -93,6 +93,9 @@ static_assert(offsetof(::UnityEngine::Rendering::GPUResidentDrawerResources_Vers
 static_assert(sizeof(::UnityEngine::Rendering::GPUResidentDrawerResources_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [SupportedOnRenderPipeline(new[] {  })]
+// [CategoryInfo(Name = "R: GPU Resident Drawers", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object, UnityEngine.Rendering.GPUResidentDrawerResources::Version
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -297,44 +300,64 @@ protected:
   constexpr GPUResidentDrawerResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawerResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawerResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUResidentDrawerResources(GPUResidentDrawerResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawerResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawerResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUResidentDrawerResources(GPUResidentDrawerResources const&) = delete;
+  GPUResidentDrawerResources(GPUResidentDrawerResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17629 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::GPUResidentDrawerResources_Version ___m_Version;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferCopyKernels.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_InstanceDataBufferCopyKernels, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_InstanceDataBufferCopyKernels;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferUploadKernels.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_InstanceDataBufferUploadKernels, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_InstanceDataBufferUploadKernels;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/RenderPipelineResources/GPUDriven/InstanceTransformUpdateKernels.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_TransformUpdaterKernels, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_TransformUpdaterKernels;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/RenderPipelineResources/GPUDriven/InstanceWindDataUpdateKernels.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_WindDataUpdaterKernels, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_WindDataUpdaterKernels;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/RenderPipelineResources/GPUDriven/OccluderDepthPyramidKernels.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_OccluderDepthPyramidKernels, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_OccluderDepthPyramidKernels;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/RenderPipelineResources/GPUDriven/InstanceOcclusionCullingKernels.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_InstanceOcclusionCullingKernels, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_InstanceOcclusionCullingKernels;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/RenderPipelineResources/GPUDriven/OcclusionCullingDebug.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_OcclusionCullingDebugKernels, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_OcclusionCullingDebugKernels;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/RenderPipelineResources/GPUDriven/DebugOcclusionTest.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_DebugOcclusionTestPS, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_DebugOcclusionTestPS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/RenderPipelineResources/GPUDriven/DebugOccluder.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_DebugOccluderPS, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_DebugOccluderPS;
 

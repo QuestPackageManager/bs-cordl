@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DataBindingManager.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DataBindingManager.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__HierarchyTraversal_impl.hpp"
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::DataBindingManager_BindingRequest::_ctor(::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding,
+inline void UnityEngine::UIElements::DataBindingManager_BindingRequest::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding,
                                                                               bool shouldProcess) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -74,8 +74,8 @@ inline ::UnityEngine::UIElements::DataBindingManager_BindingRequest UnityEngine:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingRequest>(), { "CancelRequest", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DataBindingManager_BindingRequest>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bindingId", ty: "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}") }, CppParam { name: "binding", ty:
-// "::UnityEngine::UIElements::Binding*", modifiers: "", def_value: Some("{}") }, CppParam { name: "shouldProcess", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "bindingId", ty: "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binding", ty:
+// "::UnityEngine::UIElements::Binding*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shouldProcess", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::DataBindingManager_BindingRequest::DataBindingManager_BindingRequest(::UnityEngine::UIElements::BindingId bindingId, ::UnityEngine::UIElements::Binding* binding,
                                                                                                           bool shouldProcess) noexcept {
   this->bindingId = bindingId;
@@ -199,7 +199,7 @@ inline void UnityEngine::UIElements::DataBindingManager_BindingDataCollection::A
                                                                                          { "AddBindingData", {}, { ::i2c::type_of<::UnityEngine::UIElements::DataBindingManager_BindingData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, bindingData);
 }
-inline bool UnityEngine::UIElements::DataBindingManager_BindingDataCollection::TryGetBindingData(::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline bool UnityEngine::UIElements::DataBindingManager_BindingDataCollection::TryGetBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                                                                                  ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> data) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -238,8 +238,8 @@ constexpr ::System::IDisposable* UnityEngine::UIElements::DataBindingManager_Bin
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "m_BindingPerId", ty:
-// "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::BindingId,::UnityEngine::UIElements::DataBindingManager_BindingData*>*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Bindings", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>*", modifiers: "", def_value: Some("{}") }]
+// "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::BindingId,::UnityEngine::UIElements::DataBindingManager_BindingData*>*", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "m_Bindings", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::DataBindingManager_BindingDataCollection(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::BindingId, ::UnityEngine::UIElements::DataBindingManager_BindingData*>* m_BindingPerId,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>* m_Bindings) noexcept {
@@ -463,8 +463,8 @@ inline bool UnityEngine::UIElements::DataBindingManager_ChangesFromUI::get_IsVal
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_ChangesFromUI>(), { "get_IsValid", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "binding", ty: "::UnityEngine::UIElements::Binding*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "bindingData", ty: "::UnityEngine::UIElements::DataBindingManager_BindingData*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "version", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binding", ty: "::UnityEngine::UIElements::Binding*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "bindingData", ty: "::UnityEngine::UIElements::DataBindingManager_BindingData*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::DataBindingManager_ChangesFromUI::DataBindingManager_ChangesFromUI(int64_t version, ::UnityEngine::UIElements::Binding* binding,
                                                                                                         ::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData) noexcept {
   this->version = version;
@@ -2702,7 +2702,8 @@ UnityEngine::UIElements::DataBindingManager::GetBindingData(::UnityEngine::UIEle
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "GetBindingData", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>*>(this, ___internal_method, element);
 }
-inline bool UnityEngine::UIElements::DataBindingManager::TryGetBindingData(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline bool UnityEngine::UIElements::DataBindingManager::TryGetBindingData(::UnityEngine::UIElements::VisualElement* element,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                                                            ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2712,7 +2713,7 @@ inline bool UnityEngine::UIElements::DataBindingManager::TryGetBindingData(::Uni
                                                                ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, element, bindingId, bindingData);
 }
-inline void UnityEngine::UIElements::DataBindingManager::RegisterBinding(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline void UnityEngine::UIElements::DataBindingManager::RegisterBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                                                          ::UnityEngine::UIElements::Binding* binding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2722,7 +2723,8 @@ inline void UnityEngine::UIElements::DataBindingManager::RegisterBinding(::Unity
                                                                ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element, bindingId, binding);
 }
-inline void UnityEngine::UIElements::DataBindingManager::UnregisterBinding(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId) {
+inline void UnityEngine::UIElements::DataBindingManager::UnregisterBinding(::UnityEngine::UIElements::VisualElement* element,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2748,7 +2750,8 @@ inline void UnityEngine::UIElements::DataBindingManager::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::DataBindingManager::CreateBindingRequest(::UnityEngine::UIElements::VisualElement* target, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline void UnityEngine::UIElements::DataBindingManager::CreateBindingRequest(::UnityEngine::UIElements::VisualElement* target,
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                                                               ::UnityEngine::UIElements::Binding* binding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2773,7 +2776,8 @@ inline bool UnityEngine::UIElements::DataBindingManager::AnyPendingBindingReques
                                                                                          { "AnyPendingBindingRequests", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, element);
 }
-inline bool UnityEngine::UIElements::DataBindingManager::TryGetBindingRequest(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline bool UnityEngine::UIElements::DataBindingManager::TryGetBindingRequest(::UnityEngine::UIElements::VisualElement* element,
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                                                               ::by_ref<::UnityEngine::UIElements::Binding*> binding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),

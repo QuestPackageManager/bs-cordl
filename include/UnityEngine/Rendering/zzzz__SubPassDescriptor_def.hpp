@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SubPassDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SubPassDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,9 @@ public:
   // @brief default ctor
   constexpr SubPassDescriptor();
 
-  // Ctor Parameters [CppParam { name: "inputs", ty: "::UnityEngine::Rendering::AttachmentIndexArray", modifiers: "", def_value: None }, CppParam { name: "colorOutputs", ty:
-  // "::UnityEngine::Rendering::AttachmentIndexArray", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::Rendering::SubPassFlags", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "inputs", ty: "::UnityEngine::Rendering::AttachmentIndexArray", modifiers: "", def_value: None, comment: None }, CppParam { name: "colorOutputs", ty:
+  // "::UnityEngine::Rendering::AttachmentIndexArray", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty: "::UnityEngine::Rendering::SubPassFlags", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr SubPassDescriptor(::UnityEngine::Rendering::AttachmentIndexArray inputs, ::UnityEngine::Rendering::AttachmentIndexArray colorOutputs,
                               ::UnityEngine::Rendering::SubPassFlags flags) noexcept;
 

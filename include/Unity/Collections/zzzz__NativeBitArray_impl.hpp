@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeBitArray.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeBitArray.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeBitArray_impl.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/zzzz__NativeBitArray_def.hpp"
@@ -240,7 +240,7 @@ inline void Unity::Collections::NativeBitArray_ReadOnly::CheckRead() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray_ReadOnly>(), { "CheckRead", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_BitArray", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_BitArray", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeBitArray_ReadOnly::NativeBitArray_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly m_BitArray) noexcept {
   this->m_BitArray = m_BitArray;
 }
@@ -646,7 +646,9 @@ inline void Unity::Collections::NativeBitArray::Clear() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::NativeBitArray::AsNativeArray() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::NativeBitArray::AsNativeArray() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "AsNativeArray", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -729,7 +731,9 @@ inline void Unity::Collections::NativeBitArray::CheckRead() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "CheckRead", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline void Unity::Collections::NativeBitArray::CheckReadBounds() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::NativeBitArray::CheckReadBounds() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "CheckReadBounds", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -755,8 +759,8 @@ constexpr Unity::Collections::NativeBitArray::operator ::System::IDisposable*() 
 constexpr ::System::IDisposable* Unity::Collections::NativeBitArray::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_BitArray", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Allocator", ty:
-// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_BitArray", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Allocator",
+// ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeBitArray::NativeBitArray(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray* m_BitArray,
                                                                ::Unity::Collections::AllocatorManager_AllocatorHandle m_Allocator) noexcept {
   this->m_BitArray = m_BitArray;

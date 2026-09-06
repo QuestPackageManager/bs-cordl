@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ILobbyGameStateControllerBase.hpp"
+// IWYU pragma private; include "GlobalNamespace/ILobbyGameStateControllerBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,15 +18,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE ILobbyGameStateControllerBase {
 public:
   // Declarations
-  /// @brief Method Activate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Activate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Deactivate();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILobbyGameStateControllerBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ILobbyGameStateControllerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILobbyGameStateControllerBase(ILobbyGameStateControllerBase const&) = delete;
+  ILobbyGameStateControllerBase(ILobbyGameStateControllerBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15092 };

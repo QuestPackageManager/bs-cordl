@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\QueryPairedUserAccountCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryPairedUserAccountCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccount
                     "QueryPairedUserAccountCommand/<idBuffer>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel",
                     "QueryPairedUserAccountCommand/<nameBuffer>e__FixedBuffer");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -78,7 +79,7 @@ public:
   // @brief default ctor
   constexpr QueryPairedUserAccountCommand_Result();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr QueryPairedUserAccountCommand_Result(int64_t value__) noexcept;
 
   /// @brief Field DevicePairedToUserAccount value: I64(2)
@@ -110,6 +111,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::QueryPairedUserAcco
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -122,7 +125,7 @@ public:
   // @brief default ctor
   constexpr QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -146,6 +149,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::QueryPairedUserAcco
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer) == 0x200, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -158,7 +163,7 @@ public:
   // @brief default ctor
   constexpr QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -271,9 +276,10 @@ public:
   // @brief default ctor
   constexpr QueryPairedUserAccountCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "uint64_t",
-  // modifiers: "", def_value: None }, CppParam { name: "nameBuffer", ty: "::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer", modifiers: "", def_value:
-  // None }, CppParam { name: "idBuffer", ty: "::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name: "handle", ty:
+  // "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nameBuffer", ty: "::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "idBuffer", ty: "::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr QueryPairedUserAccountCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint64_t handle,
                                           ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer nameBuffer,
                                           ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer idBuffer) noexcept;
@@ -313,6 +319,7 @@ private:
     struct {
       /// @brief Padding field 0x10
       uint8_t ___nameBuffer_padding[0x10];
+      /// [FixedBuffer(typeof(System.Byte), 512)]
       /// @brief Field nameBuffer, offset: 0x10, size: 0x200, def value: None
       ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer ___nameBuffer;
     };
@@ -320,6 +327,7 @@ private:
     struct {
       /// @brief Padding field 0x10 for alignment
       uint8_t ___nameBuffer_padding_forAlignment[0x10];
+      /// [FixedBuffer(typeof(System.Byte), 512)]
       /// @brief Field nameBuffer, offset: 0x10, size: 0x200, def value: None
       ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer ___nameBuffer_forAlignment;
     };
@@ -327,6 +335,7 @@ private:
     struct {
       /// @brief Padding field 0x210
       uint8_t ___idBuffer_padding[0x210];
+      /// [FixedBuffer(typeof(System.Byte), 512)]
       /// @brief Field idBuffer, offset: 0x210, size: 0x200, def value: None
       ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer ___idBuffer;
     };
@@ -334,6 +343,7 @@ private:
     struct {
       /// @brief Padding field 0x210 for alignment
       uint8_t ___idBuffer_padding_forAlignment[0x210];
+      /// [FixedBuffer(typeof(System.Byte), 512)]
       /// @brief Field idBuffer, offset: 0x210, size: 0x200, def value: None
       ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer ___idBuffer_forAlignment;
     };

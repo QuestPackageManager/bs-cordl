@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingDebugShaderVariables.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingDebugShaderVariables.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ MARK_VAL_T(::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables___Occl
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables, "UnityEngine.Rendering", "OcclusionCullingDebugShaderVariables");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer, "UnityEngine.Rendering",
                     "OcclusionCullingDebugShaderVariables/<_OccluderMipBounds>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -35,7 +37,7 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -59,7 +61,9 @@ static_assert(offsetof(::UnityEngine::Rendering::OcclusionCullingDebugShaderVari
 static_assert(sizeof(::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.OcclusionCullingDebugShaderVariables::<_OccluderMipBounds>e__FixedBuffer, UnityEngine.Vector4
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\OcclusionCullingDebugShaderVariables.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// UnityEngine.Rendering.OcclusionCullingDebugShaderVariables::<_OccluderMipBounds>e__FixedBuffer, UnityEngine.Vector4
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.OcclusionCullingDebugShaderVariables
@@ -72,10 +76,11 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingDebugShaderVariables();
 
-  // Ctor Parameters [CppParam { name: "_DepthSizeInOccluderPixels", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_OccluderMipBounds", ty:
-  // "::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "_OccluderMipLayoutSizeX", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_OcclusionCullingDebugPad0", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_OcclusionCullingDebugPad1", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_DepthSizeInOccluderPixels", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_OccluderMipBounds", ty:
+  // "::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "_OccluderMipLayoutSizeX",
+  // ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_OcclusionCullingDebugPad0", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_OcclusionCullingDebugPad1", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr OcclusionCullingDebugShaderVariables(::UnityEngine::Vector4 _DepthSizeInOccluderPixels,
                                                  ::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer _OccluderMipBounds, uint32_t _OccluderMipLayoutSizeX,
                                                  uint32_t _OccluderMipLayoutSizeY, uint32_t _OcclusionCullingDebugPad0, uint32_t _OcclusionCullingDebugPad1) noexcept;
@@ -89,6 +94,8 @@ public:
   /// @brief Field _DepthSizeInOccluderPixels, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Vector4 _DepthSizeInOccluderPixels;
 
+  /// [FixedBuffer(typeof(System.UInt32), 32)]
+  /// [HLSLArray(8, typeof(UnityEngine.Rendering.ShaderGenUInt4))]
   /// @brief Field _OccluderMipBounds, offset: 0x10, size: 0x80, def value: None
   ::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer _OccluderMipBounds;
 

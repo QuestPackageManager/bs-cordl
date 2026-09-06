@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DMappingVectorEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DMappingVectorEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatTextureProcessor3DMappingVectorEffectTarget_def.hpp"
 #include "GlobalNamespace/zzzz__FloatTextureProcessor3DMappingVectorEffectTarget_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DMapping::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DMapping(
     int32_t value__) noexcept {
   this->value__ = value__;
@@ -27,7 +27,7 @@ constexpr ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_Te
     GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DMapping::Rotation{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DMapping
     GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DMapping::Emissive{ static_cast<int32_t>(0x6) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DChannel::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DChannel(
     int32_t value__) noexcept {
   this->value__ = value__;

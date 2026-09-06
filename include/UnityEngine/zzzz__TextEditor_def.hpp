@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextEditor.hpp"
+// IWYU pragma private; include "UnityEngine/TextEditor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,7 @@ public:
   // @brief default ctor
   constexpr TextEditor_DblClickSnapping();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextEditor_DblClickSnapping(uint8_t value__) noexcept;
 
   /// @brief Field PARAGRAPHS value: U8(1)
@@ -163,6 +163,7 @@ public:
 
   __declspec(property(get = get_textWithWhitespace, put = set_textWithWhitespace)) ::StringW textWithWhitespace;
 
+  /// @brief [RequiredByNativeCode]
   static inline ::UnityEngine::TextEditor* New_ctor();
 
   /// @brief Method OnContentTextChangedHandle, addr 0x6b55a40, size 0x34, virtual false, abstract: false, final false
@@ -177,6 +178,7 @@ public:
   /// @brief Method OnTextChangedHandle, addr 0x6b55a00, size 0x40, virtual false, abstract: false, final false
   inline void OnTextChangedHandle();
 
+  /// [VisibleToOtherModules]
   /// @brief Method UpdateScrollOffset, addr 0x6b55a74, size 0x3f8, virtual false, abstract: false, final false
   inline void UpdateScrollOffset();
 
@@ -273,9 +275,11 @@ public:
 
   constexpr void __cordl_internal_set_style(::UnityEngine::GUIStyle* value);
 
+  /// [RequiredByNativeCode]
   /// @brief Method .ctor, addr 0x6b55524, size 0x4b4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_position, addr 0x6b55518, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_position();
 
@@ -300,13 +304,13 @@ protected:
   constexpr TextEditor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextEditor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextEditor(TextEditor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextEditor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextEditor(TextEditor const&) = delete;
+  TextEditor(TextEditorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19909 };
@@ -332,6 +336,7 @@ public:
   /// @brief Field style, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___style;
 
+  /// [Obsolete("\'hasHorizontalCursorPos\' has been deprecated. Changes to this member will not be observed. Use \'hasHorizontalCursor\' instead.", true)]
   /// @brief Field hasHorizontalCursorPos, offset: 0x48, size: 0x1, def value: None
   bool ___hasHorizontalCursorPos;
 
@@ -344,6 +349,8 @@ public:
   /// @brief Field m_TextWithWhitespace, offset: 0x58, size: 0x8, def value: None
   ::StringW ___m_TextWithWhitespace;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <position>k__BackingField, offset: 0x60, size: 0x10, def value: None
   ::UnityEngine::Rect ____position_k__BackingField;
 

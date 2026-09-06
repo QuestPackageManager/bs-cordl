@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StylePropertyNameCollection.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StylePropertyNameCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,7 +101,8 @@ public:
   // @brief default ctor
   constexpr StylePropertyNameCollection_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::System::Collections::Generic::List_1_Enumerator<::UnityEngine::UIElements::StylePropertyName>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::System::Collections::Generic::List_1_Enumerator<::UnityEngine::UIElements::StylePropertyName>", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr StylePropertyNameCollection_Enumerator(::System::Collections::Generic::List_1_Enumerator<::UnityEngine::UIElements::StylePropertyName> m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -159,7 +160,7 @@ public:
   // @brief default ctor
   constexpr StylePropertyNameCollection();
 
-  // Ctor Parameters [CppParam { name: "propertiesList", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "propertiesList", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*", modifiers: "", def_value: None, comment: None }]
   constexpr StylePropertyNameCollection(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* propertiesList) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

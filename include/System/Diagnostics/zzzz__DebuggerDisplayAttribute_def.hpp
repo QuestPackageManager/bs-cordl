@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\DebuggerDisplayAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/DebuggerDisplayAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class DebuggerDisplayAttribute;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::DebuggerDisplayAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::DebuggerDisplayAttribute*, "System.Diagnostics", "DebuggerDisplayAttribute");
+// [ComVisible(true)]
+// [AttributeUsage((System.AttributeTargets)4509, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace System::Diagnostics {
 // Is value type: false
@@ -68,13 +70,13 @@ protected:
   constexpr DebuggerDisplayAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebuggerDisplayAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebuggerDisplayAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebuggerDisplayAttribute(DebuggerDisplayAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebuggerDisplayAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebuggerDisplayAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebuggerDisplayAttribute(DebuggerDisplayAttribute const&) = delete;
+  DebuggerDisplayAttribute(DebuggerDisplayAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3664 };

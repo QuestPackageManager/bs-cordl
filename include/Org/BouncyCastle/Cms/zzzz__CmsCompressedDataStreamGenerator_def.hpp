@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsCompressedDataStreamGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsCompressedDataStreamGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,13 +100,13 @@ protected:
   constexpr CmsCompressedDataStreamGenerator_CmsCompressedOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator_CmsCompressedOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator_CmsCompressedOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsCompressedDataStreamGenerator_CmsCompressedOutputStream(CmsCompressedDataStreamGenerator_CmsCompressedOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator_CmsCompressedOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator_CmsCompressedOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsCompressedDataStreamGenerator_CmsCompressedOutputStream(CmsCompressedDataStreamGenerator_CmsCompressedOutputStream const&) = delete;
+  CmsCompressedDataStreamGenerator_CmsCompressedOutputStream(CmsCompressedDataStreamGenerator_CmsCompressedOutputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 631 };
@@ -175,13 +175,13 @@ protected:
   constexpr CmsCompressedDataStreamGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsCompressedDataStreamGenerator(CmsCompressedDataStreamGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsCompressedDataStreamGenerator(CmsCompressedDataStreamGenerator const&) = delete;
+  CmsCompressedDataStreamGenerator(CmsCompressedDataStreamGeneratorconst&) = delete;
 
   /// @brief Field ZLib offset 0xffffffff size 0x8
   static constexpr ::ConstString ZLib{ u"1.2.840.113549.1.9.16.3.8" };

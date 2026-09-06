@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,10 +47,10 @@ public:
   // @brief default ctor
   constexpr BeatmapEventRecorder_EventCounts();
 
-  // Ctor Parameters [CppParam { name: "bpm", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "jumpSpeed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "basic",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "boost", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "color", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "translation", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fx", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bpm", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "jumpSpeed", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "basic", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "boost", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "color", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "translation", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fx", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapEventRecorder_EventCounts(int32_t bpm, int32_t jumpSpeed, int32_t basic, int32_t boost, int32_t color, int32_t rotation, int32_t translation, int32_t fx) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -191,13 +191,13 @@ protected:
   constexpr BeatmapEventRecorder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventRecorder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventRecorder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventRecorder(BeatmapEventRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventRecorder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventRecorder(BeatmapEventRecorder const&) = delete;
+  BeatmapEventRecorder(BeatmapEventRecorderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6594 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorStyleSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorStyleSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorStyleSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorStyle_def.hpp"

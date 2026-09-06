@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceToolLauncher.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceToolLauncher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
@@ -19,8 +19,8 @@
 #include "GlobalNamespace/zzzz__SongController_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-// Ctor Parameters [CppParam { name: "visualizer", ty: "::UnityW<::GlobalNamespace::PerformanceVisualizer>", modifiers: "", def_value: Some("{}") }, CppParam { name: "recorder", ty:
-// "::UnityW<::GlobalNamespace::PerformanceRecorder>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "visualizer", ty: "::UnityW<::GlobalNamespace::PerformanceVisualizer>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "recorder", ty:
+// "::UnityW<::GlobalNamespace::PerformanceRecorder>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets::PerformanceToolLauncher_Assets(::UnityW<::GlobalNamespace::PerformanceVisualizer> visualizer,
                                                                                             ::UnityW<::GlobalNamespace::PerformanceRecorder> recorder) noexcept {
   this->visualizer = visualizer;
@@ -177,7 +177,7 @@ constexpr void GlobalNamespace::PerformanceToolLauncher::__cordl_internal_set__a
   this->____assets = value;
 }
 inline void GlobalNamespace::PerformanceToolLauncher::Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::PlayerDataModel* playerDataModel,
-                                                                 ::UnityEngine::Camera* mainCamera, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState,
+                                                                 /* [Inject(Id = "MainCamera")] */ ::UnityEngine::Camera* mainCamera, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState,
                                                                  ::GlobalNamespace::SongController* songController, ::GlobalNamespace::AudioTimeSyncController* timeSync,
                                                                  ::GlobalNamespace::IGamePause* gamePause, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData,
                                                                  ::GlobalNamespace::GameplayAdditionalInformationSetupData* additionalInformationSetupData,

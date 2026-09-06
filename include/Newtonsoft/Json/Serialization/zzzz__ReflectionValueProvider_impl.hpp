@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ReflectionValueProvider.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ReflectionValueProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ReflectionValueProvider_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
@@ -66,7 +66,7 @@ inline void Newtonsoft::Json::Serialization::ReflectionValueProvider::_ctor(::Sy
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ReflectionValueProvider*>(), { ".ctor", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, memberInfo);
 }
-inline void Newtonsoft::Json::Serialization::ReflectionValueProvider::SetValue(::System::Object* target, ::System::Object* value) {
+inline void Newtonsoft::Json::Serialization::ReflectionValueProvider::SetValue(::System::Object* target, /* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ReflectionValueProvider*>(),
                                                                                          { "SetValue", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, target, value);

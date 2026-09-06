@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBufferGrower.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBufferGrower.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceDataBufferGrower_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -141,8 +141,8 @@ constexpr UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::oper
 constexpr ::System::IDisposable* UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelId", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "kernelId", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::GPUInstanceDataBufferGrower_GPUResources(::UnityW<::UnityEngine::ComputeShader> cs, int32_t kernelId) noexcept {
   this->cs = cs;
   this->kernelId = kernelId;
@@ -194,7 +194,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   }
 };
 inline void UnityEngine::Rendering::GPUInstanceDataBufferGrower::_ctor(::UnityEngine::Rendering::GPUInstanceDataBuffer* sourceBuffer,
-                                                                       ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
+                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferGrower>(),
@@ -220,8 +220,8 @@ constexpr UnityEngine::Rendering::GPUInstanceDataBufferGrower::operator ::System
 constexpr ::System::IDisposable* UnityEngine::Rendering::GPUInstanceDataBufferGrower::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_SrcBuffer", ty: "::UnityEngine::Rendering::GPUInstanceDataBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DstBuffer", ty:
-// "::UnityEngine::Rendering::GPUInstanceDataBuffer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_SrcBuffer", ty: "::UnityEngine::Rendering::GPUInstanceDataBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DstBuffer", ty:
+// "::UnityEngine::Rendering::GPUInstanceDataBuffer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUInstanceDataBufferGrower::GPUInstanceDataBufferGrower(::UnityEngine::Rendering::GPUInstanceDataBuffer* m_SrcBuffer,
                                                                                              ::UnityEngine::Rendering::GPUInstanceDataBuffer* m_DstBuffer) noexcept {
   this->m_SrcBuffer = m_SrcBuffer;

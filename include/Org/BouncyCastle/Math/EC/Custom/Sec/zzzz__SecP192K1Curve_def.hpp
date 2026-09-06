@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Custom\Sec\SecP192K1Curve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/Sec/SecP192K1Curve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,13 +105,13 @@ protected:
   constexpr SecP192K1Curve_SecP192K1LookupTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecP192K1Curve_SecP192K1LookupTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecP192K1Curve_SecP192K1LookupTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecP192K1Curve_SecP192K1LookupTable(SecP192K1Curve_SecP192K1LookupTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecP192K1Curve_SecP192K1LookupTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecP192K1Curve_SecP192K1LookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecP192K1Curve_SecP192K1LookupTable(SecP192K1Curve_SecP192K1LookupTable const&) = delete;
+  SecP192K1Curve_SecP192K1LookupTable(SecP192K1Curve_SecP192K1LookupTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1400 };
@@ -220,13 +220,13 @@ protected:
   constexpr SecP192K1Curve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecP192K1Curve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecP192K1Curve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecP192K1Curve(SecP192K1Curve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecP192K1Curve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecP192K1Curve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecP192K1Curve(SecP192K1Curve const&) = delete;
+  SecP192K1Curve(SecP192K1Curveconst&) = delete;
 
   /// @brief Field SECP192K1_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t SECP192K1_DEFAULT_COORDS{ static_cast<int32_t>(0x2) };

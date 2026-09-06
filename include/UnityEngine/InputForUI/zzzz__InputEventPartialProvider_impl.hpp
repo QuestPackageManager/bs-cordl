@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\InputEventPartialProvider.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/InputEventPartialProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__KeyEvent_impl.hpp"
@@ -274,35 +274,35 @@ inline bool UnityEngine::InputForUI::InputEventPartialProvider::RequestCurrentSt
                                                                                          { "RequestCurrentState", {}, { ::i2c::type_of<::UnityEngine::InputForUI::Event_Type>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type);
 }
-inline ::Unity::IntegerTime::DiscreteTime UnityEngine::InputForUI::InputEventPartialProvider::GetTimestamp(::by_ref<::UnityEngine::Event*> ev) {
+inline ::Unity::IntegerTime::DiscreteTime UnityEngine::InputForUI::InputEventPartialProvider::GetTimestamp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputEventPartialProvider*>(), { "GetTimestamp", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Event*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::IntegerTime::DiscreteTime>(this, ___internal_method, ev);
 }
-inline void UnityEngine::InputForUI::InputEventPartialProvider::UpdateEventModifiers(::by_ref<::UnityEngine::Event*> ev) {
+inline void UnityEngine::InputForUI::InputEventPartialProvider::UpdateEventModifiers(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputEventPartialProvider*>(),
                                                                                          { "UpdateEventModifiers", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Event*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ev);
 }
-inline ::UnityEngine::InputForUI::KeyEvent UnityEngine::InputForUI::InputEventPartialProvider::ToKeyEvent(::by_ref<::UnityEngine::Event*> ev) {
+inline ::UnityEngine::InputForUI::KeyEvent UnityEngine::InputForUI::InputEventPartialProvider::ToKeyEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputEventPartialProvider*>(), { "ToKeyEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Event*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::KeyEvent>(this, ___internal_method, ev);
 }
-inline ::UnityEngine::InputForUI::TextInputEvent UnityEngine::InputForUI::InputEventPartialProvider::ToTextInputEvent(::by_ref<::UnityEngine::Event*> ev) {
+inline ::UnityEngine::InputForUI::TextInputEvent UnityEngine::InputForUI::InputEventPartialProvider::ToTextInputEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputEventPartialProvider*>(), { "ToTextInputEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Event*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::TextInputEvent>(this, ___internal_method, ev);
 }
-inline void UnityEngine::InputForUI::InputEventPartialProvider::SendNextOrPreviousNavigationEventOnTabKeyDownEvent(::by_ref<::UnityEngine::Event*> ev) {
+inline void UnityEngine::InputForUI::InputEventPartialProvider::SendNextOrPreviousNavigationEventOnTabKeyDownEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputEventPartialProvider*>(),
                                                            { "SendNextOrPreviousNavigationEventOnTabKeyDownEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Event*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ev);
 }
-inline ::UnityEngine::InputForUI::CommandEvent UnityEngine::InputForUI::InputEventPartialProvider::ToCommandEvent(::by_ref<::UnityEngine::Event*> ev) {
+inline ::UnityEngine::InputForUI::CommandEvent UnityEngine::InputForUI::InputEventPartialProvider::ToCommandEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputEventPartialProvider*>(), { "ToCommandEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Event*>>() } })));

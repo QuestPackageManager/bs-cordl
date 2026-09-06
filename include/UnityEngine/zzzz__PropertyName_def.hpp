@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PropertyName.hpp"
+// IWYU pragma private; include "UnityEngine/PropertyName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct PropertyName;
 // Write type traits
 MARK_VAL_T(::UnityEngine::PropertyName);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PropertyName, "UnityEngine", "PropertyName");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -64,7 +65,7 @@ public:
   // @brief default ctor
   constexpr PropertyName();
 
-  // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PropertyName(int32_t id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

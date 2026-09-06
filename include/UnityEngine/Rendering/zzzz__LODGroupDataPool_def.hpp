@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LODGroupDataPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LODGroupDataPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,13 +15,20 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2;
 }
 namespace UnityEngine::Rendering {
 struct GPUDrivenLODGroupData;
@@ -112,13 +119,13 @@ protected:
   constexpr LODGroupDataPool_LodGroupShaderIDs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool_LodGroupShaderIDs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool_LodGroupShaderIDs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LODGroupDataPool_LodGroupShaderIDs(LODGroupDataPool_LodGroupShaderIDs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool_LodGroupShaderIDs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool_LodGroupShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LODGroupDataPool_LodGroupShaderIDs(LODGroupDataPool_LodGroupShaderIDs const&) = delete;
+  LODGroupDataPool_LodGroupShaderIDs(LODGroupDataPool_LodGroupShaderIDsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17761 };
@@ -183,10 +190,10 @@ public:
   static inline ::UnityEngine::Rendering::LODGroupDataPool* New_ctor(::UnityEngine::Rendering::GPUResidentDrawerResources* resources, int32_t initialInstanceCount, bool supportDitheringCrossFade);
 
   /// @brief Method UpdateLODGroupData, addr 0x6831c80, size 0x2a8, virtual false, abstract: false, final false
-  inline void UpdateLODGroupData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData);
+  inline void UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData);
 
   /// @brief Method UpdateLODGroupTransformData, addr 0x6831b04, size 0x17c, virtual false, abstract: false, final false
-  inline void UpdateLODGroupTransformData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData);
+  inline void UpdateLODGroupTransformData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData);
 
   constexpr int32_t const& __cordl_internal_get_m_CrossfadedRendererCount() const;
 
@@ -248,13 +255,13 @@ protected:
   constexpr LODGroupDataPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LODGroupDataPool(LODGroupDataPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LODGroupDataPool(LODGroupDataPool const&) = delete;
+  LODGroupDataPool(LODGroupDataPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17762 };

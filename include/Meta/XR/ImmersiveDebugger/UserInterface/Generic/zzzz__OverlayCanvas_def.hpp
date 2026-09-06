@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\OverlayCanvas.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/OverlayCanvas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ class OverlayCanvas;
 // Write type traits
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvas*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvas*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "OverlayCanvas");
+// [RequireComponent(typeof(UnityEngine.Canvas))]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Plane
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // Is value type: false
@@ -75,6 +76,7 @@ public:
   /// @brief Field _scaleViewport, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__scaleViewport, put = __cordl_internal_set__scaleViewport)) bool _scaleViewport;
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x5a5f6b0, size 0x88, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -151,11 +153,13 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Plane> getStaticF_FrustumPlanes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Panel, addr 0x5a5f738, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvasPanel> get_Panel();
 
   static inline void setStaticF_FrustumPlanes(::ArrayW<::UnityEngine::Plane> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Panel, addr 0x5a5f740, size 0x8, virtual false, abstract: false, final false
   inline void set_Panel(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvasPanel* value);
 
@@ -165,13 +169,13 @@ protected:
   constexpr OverlayCanvas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OverlayCanvas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OverlayCanvas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OverlayCanvas(OverlayCanvas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OverlayCanvas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OverlayCanvas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OverlayCanvas(OverlayCanvas const&) = delete;
+  OverlayCanvas(OverlayCanvasconst&) = delete;
 
   /// @brief Field MaxTextureSize offset 0xffffffff size 0x4
   static constexpr int32_t MaxTextureSize{ static_cast<int32_t>(0x640) };
@@ -206,6 +210,7 @@ public:
   /// @brief Field _scaleViewport, offset: 0x50, size: 0x1, def value: None
   bool ____scaleViewport;
 
+  /// [CompilerGenerated]
   /// @brief Field <Panel>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvasPanel> ____Panel_k__BackingField;
 

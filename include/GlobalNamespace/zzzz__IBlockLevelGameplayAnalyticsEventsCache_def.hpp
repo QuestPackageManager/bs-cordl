@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IBlockLevelGameplayAnalyticsEventsCache.hpp"
+// IWYU pragma private; include "GlobalNamespace/IBlockLevelGameplayAnalyticsEventsCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,33 +38,33 @@ namespace GlobalNamespace {
 class CORDL_TYPE IBlockLevelGameplayAnalyticsEventsCache {
 public:
   // Declarations
-  /// @brief Method AddBadCut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddBadCut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddBadCut(float_t beat, ::GlobalNamespace::NoteCutInfo_FailReason failReason, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType,
                         ::System::Nullable_1<int32_t> lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBlockMiss, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddBlockMiss, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddBlockMiss(float_t beat, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                            ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBombCut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddBombCut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddBombCut(float_t beat);
 
-  /// @brief Method AddGoodCut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddGoodCut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddGoodCut(float_t beat, float_t score, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                          ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddObstacleHit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddObstacleHit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddObstacleHit(float_t beat, float_t duration);
 
-  /// @brief Method IsEmpty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsEmpty();
 
-  /// @brief Method SerializeJSON, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SerializeJSON, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW SerializeJSON();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBlockLevelGameplayAnalyticsEventsCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBlockLevelGameplayAnalyticsEventsCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBlockLevelGameplayAnalyticsEventsCache(IBlockLevelGameplayAnalyticsEventsCache const&) = delete;
+  IBlockLevelGameplayAnalyticsEventsCache(IBlockLevelGameplayAnalyticsEventsCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6257 };

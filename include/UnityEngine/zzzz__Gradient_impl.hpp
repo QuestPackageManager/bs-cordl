@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Gradient.hpp"
+// IWYU pragma private; include "UnityEngine/Gradient.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Gradient_def.hpp"
@@ -621,9 +621,11 @@ inline void UnityEngine::Gradient::SetKeys_Injected(::System::IntPtr _unity_self
                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, colorKeys, alphaKeys);
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::Gradient* UnityEngine::Gradient::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Gradient*>());
 }
+/// @brief [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
 inline ::UnityEngine::Gradient* UnityEngine::Gradient::New_ctor(::System::IntPtr ptr) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Gradient*>(ptr));
 }

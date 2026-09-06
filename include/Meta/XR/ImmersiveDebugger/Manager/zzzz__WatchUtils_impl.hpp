@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\WatchUtils.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/WatchUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__WatchUtils_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__WatchUtils_def.hpp"

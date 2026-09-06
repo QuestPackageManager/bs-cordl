@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseDownEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseDownEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ MARK_REF_T(::UnityEngine::UIElements::MouseDownEvent*);
 MARK_REF_T(::UnityEngine::UIElements::MouseDownEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseDownEvent*, "UnityEngine.UIElements", "MouseDownEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseDownEvent___c*, "UnityEngine.UIElements", "MouseDownEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -58,13 +59,13 @@ protected:
   constexpr MouseDownEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseDownEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseDownEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseDownEvent___c(MouseDownEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseDownEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseDownEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseDownEvent___c(MouseDownEvent___c const&) = delete;
+  MouseDownEvent___c(MouseDownEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4489 };
@@ -75,6 +76,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::MouseDownEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)3)]
 // Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -110,13 +112,13 @@ protected:
   constexpr MouseDownEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseDownEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseDownEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseDownEvent(MouseDownEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseDownEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseDownEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseDownEvent(MouseDownEvent const&) = delete;
+  MouseDownEvent(MouseDownEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4490 };

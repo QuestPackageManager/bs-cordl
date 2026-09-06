@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\GBufferPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/GBufferPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GBufferPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -177,13 +179,13 @@ protected:
   constexpr GBufferPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GBufferPass_PassData(GBufferPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GBufferPass_PassData(GBufferPass_PassData const&) = delete;
+  GBufferPass_PassData(GBufferPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13102 };
@@ -229,6 +231,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::GBufferPas
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData) == 0x78, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -269,13 +272,13 @@ protected:
   constexpr GBufferPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GBufferPass___c(GBufferPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GBufferPass___c(GBufferPass___c const&) = delete;
+  GBufferPass___c(GBufferPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13103 };
@@ -339,12 +342,14 @@ public:
   /// @brief Field s_ShaderTagValues, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ShaderTagValues, put = setStaticF_s_ShaderTagValues)) ::ArrayW<::UnityEngine::Rendering::ShaderTagId> s_ShaderTagValues;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Configure, addr 0x69061d4, size 0x298, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
   /// @brief Method Dispose, addr 0x69061c0, size 0x14, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x690646c, size 0x2d4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -440,13 +445,13 @@ protected:
   constexpr GBufferPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GBufferPass(GBufferPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GBufferPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GBufferPass(GBufferPass const&) = delete;
+  GBufferPass(GBufferPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13104 };

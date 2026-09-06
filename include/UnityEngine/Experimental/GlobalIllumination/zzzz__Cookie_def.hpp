@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\Cookie.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/Cookie.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,8 +29,8 @@ public:
   // @brief default ctor
   constexpr Cookie();
 
-  // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sizes", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "sizes", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }]
   constexpr Cookie(int32_t instanceID, float_t scale, ::UnityEngine::Vector2 sizes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

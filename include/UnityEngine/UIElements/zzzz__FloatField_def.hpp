@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FloatField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FloatField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FloatField*, "UnityEngine.UIEleme
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FloatField_FloatInput*, "UnityEngine.UIElements", "FloatField/FloatInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FloatField_UxmlFactory*, "UnityEngine.UIElements", "FloatField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FloatField_UxmlTraits*, "UnityEngine.UIElements", "FloatField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr FloatField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatField_UxmlFactory(FloatField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatField_UxmlFactory(FloatField_UxmlFactory const&) = delete;
+  FloatField_UxmlFactory(FloatField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4189 };
@@ -85,6 +86,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::FloatField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -103,13 +105,13 @@ protected:
   constexpr FloatField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatField_UxmlTraits(FloatField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatField_UxmlTraits(FloatField_UxmlTraits const&) = delete;
+  FloatField_UxmlTraits(FloatField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4190 };
@@ -157,13 +159,13 @@ protected:
   constexpr FloatField_FloatInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatField_FloatInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatField_FloatInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatField_FloatInput(FloatField_FloatInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatField_FloatInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatField_FloatInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatField_FloatInput(FloatField_FloatInput const&) = delete;
+  FloatField_FloatInput(FloatField_FloatInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4191 };
@@ -174,6 +176,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::FloatField_FloatInput) == 0x4e8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -241,13 +244,13 @@ protected:
   constexpr FloatField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatField(FloatField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatField(FloatField const&) = delete;
+  FloatField(FloatFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4192 };

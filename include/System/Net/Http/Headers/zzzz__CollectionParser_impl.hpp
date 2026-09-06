@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\CollectionParser.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/CollectionParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__CollectionParser_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -41,6 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Net::H
   }
 };
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 inline bool System::Net::Http::Headers::CollectionParser::TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>* parser,
                                                                    ::by_ref<::System::Collections::Generic::List_1<T>*> result) {
   static auto* ___internal_method_base =

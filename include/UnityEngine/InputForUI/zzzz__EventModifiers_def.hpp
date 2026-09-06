@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\EventModifiers.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/EventModifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ MARK_VAL_T(::UnityEngine::InputForUI::EventModifiers_Modifiers);
 MARK_VAL_T(::UnityEngine::InputForUI::EventModifiers);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputForUI::EventModifiers_Modifiers, "UnityEngine.InputForUI", "EventModifiers/Modifiers");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputForUI::EventModifiers, "UnityEngine.InputForUI", "EventModifiers");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputForUI {
 // Is value type: true
@@ -65,7 +66,7 @@ public:
   // @brief default ctor
   constexpr EventModifiers_Modifiers();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EventModifiers_Modifiers(uint32_t value__) noexcept;
 
   /// @brief Field Alt value: U32(48)
@@ -133,6 +134,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::EventModifiers_Modifiers, valu
 static_assert(sizeof(::UnityEngine::InputForUI::EventModifiers_Modifiers) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies
 namespace UnityEngine::InputForUI {
 // Is value type: true
@@ -196,7 +198,7 @@ public:
   // @brief default ctor
   constexpr EventModifiers();
 
-  // Ctor Parameters [CppParam { name: "_state", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_state", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EventModifiers(uint32_t _state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

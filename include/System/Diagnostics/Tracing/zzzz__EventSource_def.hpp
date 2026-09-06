@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\Tracing\EventSource.hpp"
+// IWYU pragma private; include "System/Diagnostics/Tracing/EventSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,12 +56,15 @@ public:
 
   __declspec(property(put = set_Size)) int32_t Size;
 
+  /// [CompilerGenerated]
   /// @brief Method set_DataPointer, addr 0x5be2fa8, size 0x8, virtual false, abstract: false, final false
   inline void set_DataPointer(::System::IntPtr value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Reserved, addr 0x5be2fb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Reserved(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Size, addr 0x5be2fb0, size 0x8, virtual false, abstract: false, final false
   inline void set_Size(int32_t value);
 
@@ -69,8 +72,8 @@ public:
   // @brief default ctor
   constexpr EventSource_EventData();
 
-  // Ctor Parameters [CppParam { name: "_DataPointer_k__BackingField", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "_Size_k__BackingField", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_Reserved_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_DataPointer_k__BackingField", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Size_k__BackingField", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_Reserved_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EventSource_EventData(::System::IntPtr _DataPointer_k__BackingField, int32_t _Size_k__BackingField, int32_t _Reserved_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -79,12 +82,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [CompilerGenerated]
   /// @brief Field <DataPointer>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr _DataPointer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Size>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _Size_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Reserved>k__BackingField, offset: 0xc, size: 0x4, def value: None
   int32_t _Reserved_k__BackingField;
 
@@ -163,8 +169,9 @@ public:
   inline void WriteEvent(int32_t eventId, int64_t arg1, ::StringW arg2);
 
   /// @brief Method WriteEvent, addr 0x5be29bc, size 0x4, virtual false, abstract: false, final false
-  inline void WriteEvent(int32_t eventId, ::ArrayW<::System::Object*> args);
+  inline void WriteEvent(int32_t eventId, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
+  /// [CLSCompliant(false)]
   /// @brief Method WriteEventCore, addr 0x5be2fa4, size 0x4, virtual false, abstract: false, final false
   inline void WriteEventCore(int32_t eventId, int32_t eventDataCount, ::System::Diagnostics::Tracing::EventSource_EventData* data);
 
@@ -186,6 +193,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x5be28e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
@@ -195,17 +203,18 @@ protected:
   constexpr EventSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventSource(EventSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventSource(EventSource const&) = delete;
+  EventSource(EventSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3674 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 

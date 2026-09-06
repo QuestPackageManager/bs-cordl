@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ParsingInfo.hpp"
+// IWYU pragma private; include "System/ParsingInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,11 +34,12 @@ public:
   // @brief default ctor
   constexpr ParsingInfo();
 
-  // Ctor Parameters [CppParam { name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "timeMark", ty: "::System::DateTimeParse_TM", modifiers: "", def_value: None }, CppParam { name: "fUseHour12", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "fUseTwoDigitYear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fAllowInnerWhite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fAllowTrailingWhite",
-  // ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fCustomNumberParser", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parseNumberDelegate", ty:
-  // "::System::DateTimeParse_MatchNumberDelegate*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: None, comment: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "timeMark", ty: "::System::DateTimeParse_TM", modifiers: "", def_value: None, comment: None }, CppParam { name: "fUseHour12", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "fUseTwoDigitYear", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "fAllowInnerWhite", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "fAllowTrailingWhite", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "fCustomNumberParser", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "parseNumberDelegate", ty: "::System::DateTimeParse_MatchNumberDelegate*", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr ParsingInfo(::System::Globalization::Calendar* calendar, int32_t dayOfWeek, ::System::DateTimeParse_TM timeMark, bool fUseHour12, bool fUseTwoDigitYear, bool fAllowInnerWhite,
                         bool fAllowTrailingWhite, bool fCustomNumberParser, ::System::DateTimeParse_MatchNumberDelegate* parseNumberDelegate) noexcept;
 

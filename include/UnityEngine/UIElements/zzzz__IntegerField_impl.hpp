@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IntegerField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IntegerField.hpp"
 #include "UnityEngine/UIElements/zzzz__TextValueFieldTraits_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextValueField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"

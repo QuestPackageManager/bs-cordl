@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\ShaderPropertyIDFromGameObjectAttribute.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/ShaderPropertyIDFromGameObjectAttribute.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyIDAttribute_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyIDFromGameObjectAttribute_def.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyAttributeFilter_def.hpp"

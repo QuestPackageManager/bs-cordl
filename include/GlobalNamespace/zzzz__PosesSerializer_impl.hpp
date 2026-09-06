@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PosesSerializer.hpp"
+// IWYU pragma private; include "GlobalNamespace/PosesSerializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
@@ -199,7 +199,7 @@ constexpr void GlobalNamespace::PosesSerializer::__cordl_internal_set__recording
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____recordingConverter = value;
 }
-inline void GlobalNamespace::PosesSerializer::_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {
+inline void GlobalNamespace::PosesSerializer::_ctor(/* [Inject(Id = "RecordingTool")] */ ::GlobalNamespace::IBeatSaberLogger* logger) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesSerializer*>(), { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::IBeatSaberLogger*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, logger);
@@ -264,7 +264,7 @@ inline bool GlobalNamespace::PosesSerializer::RecordingCanBeCreated(::StringW pa
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesSerializer*>(), { "RecordingCanBeCreated", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, path);
 }
-inline ::GlobalNamespace::PosesSerializer* GlobalNamespace::PosesSerializer::New_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {
+inline ::GlobalNamespace::PosesSerializer* GlobalNamespace::PosesSerializer::New_ctor(/* [Inject(Id = "RecordingTool")] */ ::GlobalNamespace::IBeatSaberLogger* logger) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PosesSerializer*>(logger));
 }
 /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"

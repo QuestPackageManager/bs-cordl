@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ParticleSystemContinuousEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/ParticleSystemContinuousEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class ParticleSystemContinuousEventEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ParticleSystemContinuousEventEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ParticleSystemContinuousEventEffect*, "", "ParticleSystemContinuousEventEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/ParticleSystemContinuousEventEffect")]
 // Dependencies BasicBeatmapEventType, UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem
 namespace GlobalNamespace {
 // Is value type: false
@@ -92,23 +93,26 @@ protected:
   constexpr ParticleSystemContinuousEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemContinuousEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemContinuousEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemContinuousEventEffect(ParticleSystemContinuousEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemContinuousEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemContinuousEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemContinuousEventEffect(ParticleSystemContinuousEventEffect const&) = delete;
+  ParticleSystemContinuousEventEffect(ParticleSystemContinuousEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5930 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapEvent, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEvent;
 
+  /// [SerializeField]
   /// @brief Field _particleSystems, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>> ____particleSystems;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\StringReference.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,10 @@ struct StringReference;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::Utilities::StringReference);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::StringReference, "Newtonsoft.Json.Utilities", "StringReference");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [IsReadOnly]
+// [DefaultMember("Item")]
 // Dependencies
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
@@ -52,8 +56,8 @@ public:
   // @brief default ctor
   constexpr StringReference();
 
-  // Ctor Parameters [CppParam { name: "_chars", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_chars", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_startIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StringReference(::ArrayW<char16_t> _chars, int32_t _startIndex, int32_t _length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

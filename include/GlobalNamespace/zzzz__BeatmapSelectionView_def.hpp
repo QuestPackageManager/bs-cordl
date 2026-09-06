@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapSelectionView.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapSelectionView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   static inline ::GlobalNamespace::BeatmapSelectionView* New_ctor();
 
   /// @brief Method SetBeatmap, addr 0x596b470, size 0xa4, virtual true, abstract: false, final false
-  inline void SetBeatmap(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
@@ -60,20 +60,22 @@ protected:
   constexpr BeatmapSelectionView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapSelectionView(BeatmapSelectionView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapSelectionView(BeatmapSelectionView const&) = delete;
+  BeatmapSelectionView(BeatmapSelectionViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7001 };
 
+  /// [SerializeField]
   /// @brief Field _levelBar, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
+  /// [SerializeField]
   /// @brief Field _noLevelText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____noLevelText;
 

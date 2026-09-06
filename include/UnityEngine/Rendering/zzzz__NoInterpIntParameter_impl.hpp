@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpIntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpIntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::NoInterpIntParameter._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialSongController.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialSongController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -178,13 +178,13 @@ protected:
   constexpr TutorialSongController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController_InitData(TutorialSongController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_InitData(TutorialSongController_InitData const&) = delete;
+  TutorialSongController_InitData(TutorialSongController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6286 };
@@ -235,7 +235,7 @@ public:
   // @brief default ctor
   constexpr SequenceCutInfo_TutorialSongController_NoteType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SequenceCutInfo_TutorialSongController_NoteType(int32_t value__) noexcept;
 
   /// @brief Field Arc value: I32(2)
@@ -304,7 +304,7 @@ public:
   __declspec(property(get = __cordl_internal_get_noteType, put = __cordl_internal_set_noteType)) ::GlobalNamespace::SequenceCutInfo_TutorialSongController_NoteType noteType;
 
   /// @brief Method MarkCut, addr 0x59f9fc0, size 0x50, virtual false, abstract: false, final false
-  inline void MarkCut(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void MarkCut(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method MarkMiss, addr 0x59fa214, size 0x10, virtual false, abstract: false, final false
   inline void MarkMiss();
@@ -377,13 +377,13 @@ protected:
   constexpr TutorialSongController_SequenceCutInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_SequenceCutInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_SequenceCutInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController_SequenceCutInfo(TutorialSongController_SequenceCutInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_SequenceCutInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_SequenceCutInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_SequenceCutInfo(TutorialSongController_SequenceCutInfo const&) = delete;
+  TutorialSongController_SequenceCutInfo(TutorialSongController_SequenceCutInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6288 };
@@ -488,13 +488,13 @@ protected:
   constexpr TutorialSongController_TutorialObjectSpawnData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObjectSpawnData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObjectSpawnData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController_TutorialObjectSpawnData(TutorialSongController_TutorialObjectSpawnData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObjectSpawnData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObjectSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialObjectSpawnData(TutorialSongController_TutorialObjectSpawnData const&) = delete;
+  TutorialSongController_TutorialObjectSpawnData(TutorialSongController_TutorialObjectSpawnDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6289 };
@@ -553,13 +553,13 @@ protected:
   constexpr TutorialSongController_TutorialJumpingNoteSpawnData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialJumpingNoteSpawnData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialJumpingNoteSpawnData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController_TutorialJumpingNoteSpawnData(TutorialSongController_TutorialJumpingNoteSpawnData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialJumpingNoteSpawnData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialJumpingNoteSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialJumpingNoteSpawnData(TutorialSongController_TutorialJumpingNoteSpawnData const&) = delete;
+  TutorialSongController_TutorialJumpingNoteSpawnData(TutorialSongController_TutorialJumpingNoteSpawnDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6290 };
@@ -614,13 +614,13 @@ protected:
   constexpr TutorialSongController_TutorialBasicNoteSpawnData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBasicNoteSpawnData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBasicNoteSpawnData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController_TutorialBasicNoteSpawnData(TutorialSongController_TutorialBasicNoteSpawnData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBasicNoteSpawnData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBasicNoteSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialBasicNoteSpawnData(TutorialSongController_TutorialBasicNoteSpawnData const&) = delete;
+  TutorialSongController_TutorialBasicNoteSpawnData(TutorialSongController_TutorialBasicNoteSpawnDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6291 };
@@ -742,13 +742,13 @@ protected:
   constexpr TutorialSongController_TutorialChainSpawnData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialChainSpawnData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialChainSpawnData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController_TutorialChainSpawnData(TutorialSongController_TutorialChainSpawnData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialChainSpawnData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialChainSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialChainSpawnData(TutorialSongController_TutorialChainSpawnData const&) = delete;
+  TutorialSongController_TutorialChainSpawnData(TutorialSongController_TutorialChainSpawnDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6292 };
@@ -838,13 +838,13 @@ protected:
   constexpr TutorialSongController_TutorialArcSpawnData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialArcSpawnData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialArcSpawnData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController_TutorialArcSpawnData(TutorialSongController_TutorialArcSpawnData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialArcSpawnData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialArcSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialArcSpawnData(TutorialSongController_TutorialArcSpawnData const&) = delete;
+  TutorialSongController_TutorialArcSpawnData(TutorialSongController_TutorialArcSpawnDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6293 };
@@ -884,13 +884,13 @@ protected:
   constexpr TutorialSongController_TutorialBombNoteSpawnData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBombNoteSpawnData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBombNoteSpawnData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController_TutorialBombNoteSpawnData(TutorialSongController_TutorialBombNoteSpawnData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBombNoteSpawnData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBombNoteSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialBombNoteSpawnData(TutorialSongController_TutorialBombNoteSpawnData const&) = delete;
+  TutorialSongController_TutorialBombNoteSpawnData(TutorialSongController_TutorialBombNoteSpawnDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6294 };
@@ -948,13 +948,13 @@ protected:
   constexpr TutorialSongController_TutorialObstacleSpawnData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObstacleSpawnData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObstacleSpawnData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController_TutorialObstacleSpawnData(TutorialSongController_TutorialObstacleSpawnData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObstacleSpawnData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObstacleSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialObstacleSpawnData(TutorialSongController_TutorialObstacleSpawnData const&) = delete;
+  TutorialSongController_TutorialObstacleSpawnData(TutorialSongController_TutorialObstacleSpawnDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6295 };
@@ -1131,7 +1131,7 @@ public:
   inline float_t GetTimeFromBeat(int32_t beatNumber);
 
   /// @brief Method HandleNoteWasCut, addr 0x59f9e8c, size 0x134, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method HandleNoteWasMissed, addr 0x59fa174, size 0xa0, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
@@ -1351,83 +1351,124 @@ protected:
   constexpr TutorialSongController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSongController(TutorialSongController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController(TutorialSongController const&) = delete;
+  TutorialSongController(TutorialSongControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6296 };
 
+  /// [SerializeField]
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [SerializeField]
   /// @brief Field _startWaitTimeInBeats, offset: 0x38, size: 0x4, def value: None
   int32_t ____startWaitTimeInBeats;
 
+  /// [SerializeField]
   /// @brief Field _numberOfBeatsToSnap, offset: 0x3c, size: 0x4, def value: None
   int32_t ____numberOfBeatsToSnap;
 
+  /// [SerializeField]
   /// @brief Field _obstacleDurationInBeats, offset: 0x40, size: 0x4, def value: None
   int32_t ____obstacleDurationInBeats;
 
+  /// [Space]
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _noteCuttingTutorialPartDidStartSignal, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____noteCuttingTutorialPartDidStartSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _noteCuttingInAnyDirectionDidStartSignal, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____noteCuttingInAnyDirectionDidStartSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _chainCuttingDidStartSignal, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____chainCuttingDidStartSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _chainLinkMissedSignal, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____chainLinkMissedSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _arcCuttingDidStartSignal, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____arcCuttingDidStartSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _arcHeadOrTailMissedSignal, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____arcHeadOrTailMissedSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _arcMiddleInfoSignal, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____arcMiddleInfoSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _bombCuttingTutorialPartDidStartSignal, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____bombCuttingTutorialPartDidStartSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _leftObstacleTutorialPartDidStartSignal, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____leftObstacleTutorialPartDidStartSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _rightObstacleTutorialPartDidStartSignal, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____rightObstacleTutorialPartDidStartSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _topObstacleTutorialPartDidStartSignal, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____topObstacleTutorialPartDidStartSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _noteWasCutOKSignal, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____noteWasCutOKSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _noteWasCutTooSoonSignal, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____noteWasCutTooSoonSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _noteWasCutWithWrongColorSignal, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____noteWasCutWithWrongColorSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _noteWasCutFromDifferentDirectionSignal, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____noteWasCutFromDifferentDirectionSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _noteWasCutWithSlowSpeedSignal, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____noteWasCutWithSlowSpeedSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _bombWasCutSignal, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____bombWasCutSignal;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::TutorialSongController_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0xd8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\WaitForFixedUpdate.hpp"
+// IWYU pragma private; include "UnityEngine/WaitForFixedUpdate.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__WaitForFixedUpdate_def.hpp"
 //  Writing Method size for method: ::UnityEngine::WaitForFixedUpdate._ctor

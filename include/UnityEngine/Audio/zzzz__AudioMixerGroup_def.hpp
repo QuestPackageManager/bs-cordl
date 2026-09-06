@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioMixerGroup.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioMixerGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class AudioMixerGroup;
 // Write type traits
 MARK_REF_T(::UnityEngine::Audio::AudioMixerGroup*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Audio::AudioMixerGroup*, "UnityEngine.Audio", "AudioMixerGroup");
+// [NativeHeader("Modules/Audio/Public/AudioMixerGroup.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine::Audio {
 // Is value type: false
@@ -28,6 +29,7 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioMixerGroup : public ::UnityEngine::Object {
 public:
   // Declarations
+  /// @brief [NativeProperty]
   __declspec(property(get = get_audioMixer)) ::UnityW<::UnityEngine::Audio::AudioMixer> audioMixer;
 
   /// @brief Convert operator to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
@@ -53,13 +55,13 @@ protected:
   constexpr AudioMixerGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioMixerGroup(AudioMixerGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioMixerGroup(AudioMixerGroup const&) = delete;
+  AudioMixerGroup(AudioMixerGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21083 };

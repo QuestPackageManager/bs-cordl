@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_ColorGradient.hpp"
+// IWYU pragma private; include "TMPro/TMP_ColorGradient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class TMP_ColorGradient;
 // Write type traits
 MARK_REF_T(::TMPro::TMP_ColorGradient*);
 DEFINE_IL2CPP_CLASS(::TMPro::TMP_ColorGradient*, "TMPro", "TMP_ColorGradient");
+// [ExcludeFromPreset]
 // Dependencies TMPro.ColorMode, UnityEngine.Color, UnityEngine.ScriptableObject
 namespace TMPro {
 // Is value type: false
@@ -97,13 +98,13 @@ protected:
   constexpr TMP_ColorGradient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ColorGradient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ColorGradient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_ColorGradient(TMP_ColorGradient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ColorGradient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ColorGradient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_ColorGradient(TMP_ColorGradient const&) = delete;
+  TMP_ColorGradient(TMP_ColorGradientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15890 };

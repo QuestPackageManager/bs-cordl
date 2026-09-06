@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\PointerModel.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/PointerModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,14 +110,15 @@ public:
   // @brief default ctor
   constexpr PointerModel_ButtonState();
 
-  // Ctor Parameters [CppParam { name: "m_IsPressed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_FramePressState", ty:
-  // "::UnityEngine::EventSystems::PointerEventData_FramePressState", modifiers: "", def_value: None }, CppParam { name: "m_PressTime", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_PressRaycast", ty: "::UnityEngine::EventSystems::RaycastResult", modifiers: "", def_value: None }, CppParam { name: "m_PressObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers:
-  // "", def_value: None }, CppParam { name: "m_RawPressObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "m_LastPressObject", ty:
-  // "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "m_DragObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam {
-  // name: "m_PressPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_ClickTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_ClickCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Dragging", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_ClickedOnSameGameObject", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "m_IgnoreNextClick", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_IsPressed", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FramePressState", ty:
+  // "::UnityEngine::EventSystems::PointerEventData_FramePressState", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PressTime", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_PressRaycast", ty: "::UnityEngine::EventSystems::RaycastResult", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PressObject", ty:
+  // "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RawPressObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_LastPressObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DragObject", ty:
+  // "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PressPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_ClickTime", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ClickCount", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Dragging", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ClickedOnSameGameObject", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_IgnoreNextClick", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr PointerModel_ButtonState(bool m_IsPressed, ::UnityEngine::EventSystems::PointerEventData_FramePressState m_FramePressState, float_t m_PressTime,
                                      ::UnityEngine::EventSystems::RaycastResult m_PressRaycast, ::UnityW<::UnityEngine::GameObject> m_PressObject, ::UnityW<::UnityEngine::GameObject> m_RawPressObject,
                                      ::UnityW<::UnityEngine::GameObject> m_LastPressObject, ::UnityW<::UnityEngine::GameObject> m_DragObject, ::UnityEngine::Vector2 m_PressPosition,
@@ -304,14 +305,16 @@ public:
   // @brief default ctor
   constexpr PointerModel();
 
-  // Ctor Parameters [CppParam { name: "changedThisFrame", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "leftButton", ty: "::UnityEngine::InputSystem::UI::PointerModel_ButtonState",
-  // modifiers: "", def_value: None }, CppParam { name: "rightButton", ty: "::UnityEngine::InputSystem::UI::PointerModel_ButtonState", modifiers: "", def_value: None }, CppParam { name:
-  // "middleButton", ty: "::UnityEngine::InputSystem::UI::PointerModel_ButtonState", modifiers: "", def_value: None }, CppParam { name: "eventData", ty:
-  // "::UnityEngine::InputSystem::UI::ExtendedPointerEventData*", modifiers: "", def_value: None }, CppParam { name: "m_ScreenPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
-  // CppParam { name: "m_ScrollDelta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_WorldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None
-  // }, CppParam { name: "m_WorldOrientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "m_Pressure", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_AzimuthAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AltitudeAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Twist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Radius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "changedThisFrame", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftButton", ty:
+  // "::UnityEngine::InputSystem::UI::PointerModel_ButtonState", modifiers: "", def_value: None, comment: None }, CppParam { name: "rightButton", ty:
+  // "::UnityEngine::InputSystem::UI::PointerModel_ButtonState", modifiers: "", def_value: None, comment: None }, CppParam { name: "middleButton", ty:
+  // "::UnityEngine::InputSystem::UI::PointerModel_ButtonState", modifiers: "", def_value: None, comment: None }, CppParam { name: "eventData", ty:
+  // "::UnityEngine::InputSystem::UI::ExtendedPointerEventData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ScreenPosition", ty: "::UnityEngine::Vector2", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_ScrollDelta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_WorldPosition", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_WorldOrientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Pressure", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AzimuthAngle", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_AltitudeAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Twist", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Radius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }]
   constexpr PointerModel(bool changedThisFrame, ::UnityEngine::InputSystem::UI::PointerModel_ButtonState leftButton, ::UnityEngine::InputSystem::UI::PointerModel_ButtonState rightButton,
                          ::UnityEngine::InputSystem::UI::PointerModel_ButtonState middleButton, ::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData,
                          ::UnityEngine::Vector2 m_ScreenPosition, ::UnityEngine::Vector2 m_ScrollDelta, ::UnityEngine::Vector3 m_WorldPosition, ::UnityEngine::Quaternion m_WorldOrientation,

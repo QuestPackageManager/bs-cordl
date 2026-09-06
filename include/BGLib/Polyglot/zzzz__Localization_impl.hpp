@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\Localization.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/Localization.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "BGLib/Polyglot/zzzz__Localization_def.hpp"

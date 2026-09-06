@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\RawImage.hpp"
+// IWYU pragma private; include "UnityEngine/UI/RawImage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class RawImage;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::RawImage*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::RawImage*, "UnityEngine.UI", "RawImage");
+// [RequireComponent(typeof(UnityEngine.CanvasRenderer))]
+// [AddComponentMenu("UI/Raw Image", 12)]
 // Dependencies UnityEngine.Rect, UnityEngine.UI.MaskableGraphic
 namespace UnityEngine::UI {
 // Is value type: false
@@ -88,20 +90,23 @@ protected:
   constexpr RawImage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RawImage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RawImage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RawImage(RawImage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RawImage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RawImage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RawImage(RawImage const&) = delete;
+  RawImage(RawImageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17476 };
 
+  /// [FormerlySerializedAs("m_Tex")]
+  /// [SerializeField]
   /// @brief Field m_Texture, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> ___m_Texture;
 
+  /// [SerializeField]
   /// @brief Field m_UVRect, offset: 0xe0, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_UVRect;
 

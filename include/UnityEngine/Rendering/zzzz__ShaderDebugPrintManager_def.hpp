@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderDebugPrintManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderDebugPrintManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,13 +72,13 @@ protected:
   constexpr ShaderDebugPrintManager_Profiling();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager_Profiling", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager_Profiling", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderDebugPrintManager_Profiling(ShaderDebugPrintManager_Profiling&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager_Profiling", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager_Profiling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderDebugPrintManager_Profiling(ShaderDebugPrintManager_Profiling const&) = delete;
+  ShaderDebugPrintManager_Profiling(ShaderDebugPrintManager_Profilingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12054 };
@@ -129,7 +129,7 @@ public:
   // @brief default ctor
   constexpr ShaderDebugPrintManager_DebugValueType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderDebugPrintManager_DebugValueType(int32_t value__) noexcept;
 
   /// @brief Field TypeBool value: I32(13)
@@ -340,13 +340,13 @@ protected:
   constexpr ShaderDebugPrintManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderDebugPrintManager(ShaderDebugPrintManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderDebugPrintManager(ShaderDebugPrintManager const&) = delete;
+  ShaderDebugPrintManager(ShaderDebugPrintManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12056 };

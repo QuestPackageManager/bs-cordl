@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightGroupCircularLayouter.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightGroupCircularLayouter.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupCircularLayouter_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupCircularLayouter_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LightGroupCircularLayouter_RotationDirection::LightGroupCircularLayouter_RotationDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }

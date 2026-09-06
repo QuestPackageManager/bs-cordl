@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IntersectionMaskCircle_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IntersectionMaskCircle_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr IntersectionMaskCircle_t();
 
-  // Ctor Parameters [CppParam { name: "m_flCenterX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCenterY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_flRadius", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_flCenterX", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_flCenterY", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_flRadius", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr IntersectionMaskCircle_t(float_t m_flCenterX, float_t m_flCenterY, float_t m_flRadius) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

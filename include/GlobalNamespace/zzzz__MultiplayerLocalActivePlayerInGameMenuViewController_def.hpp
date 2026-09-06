@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerInGameMenuViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerInGameMenuViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ class MultiplayerLocalActivePlayerInGameMenuViewController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController*, "", "MultiplayerLocalActivePlayerInGameMenuViewController");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerLocalActivePlayerInGameMenuViewController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -141,6 +142,7 @@ public:
   /// @brief Method Update, addr 0x59b1774, size 0x104, virtual false, abstract: false, final false
   inline void Update();
 
+  /// [CompilerGenerated]
   /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__32_0, addr 0x59b1a18, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleDisconnectPromptViewDidViewFinish_b__32_0();
 
@@ -255,21 +257,27 @@ public:
   /// @brief Method .ctor, addr 0x59b1a14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressDisconnectButtonEvent, addr 0x59b068c, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressDisconnectButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressGiveUpButtonEvent, addr 0x59b07e4, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressGiveUpButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressResumeButtonEvent, addr 0x59b0738, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressResumeButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressDisconnectButtonEvent, addr 0x59b0d44, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressDisconnectButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressGiveUpButtonEvent, addr 0x59b0e9c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressGiveUpButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressResumeButtonEvent, addr 0x59b0df0, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressResumeButtonEvent(::System::Action* value);
 
@@ -279,13 +287,13 @@ protected:
   constexpr MultiplayerLocalActivePlayerInGameMenuViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActivePlayerInGameMenuViewController(MultiplayerLocalActivePlayerInGameMenuViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerInGameMenuViewController(MultiplayerLocalActivePlayerInGameMenuViewController const&) = delete;
+  MultiplayerLocalActivePlayerInGameMenuViewController(MultiplayerLocalActivePlayerInGameMenuViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6028 };
@@ -293,51 +301,70 @@ public:
   /// @brief Field kDisabledInteractionDuration offset 0xffffffff size 0x4
   static constexpr float_t kDisabledInteractionDuration{ static_cast<float_t>(0.2f) };
 
+  /// [SerializeField]
   /// @brief Field _disconnectButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____disconnectButton;
 
+  /// [SerializeField]
   /// @brief Field _disconnectButtonLocalizedText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> ____disconnectButtonLocalizedText;
 
+  /// [SerializeField]
   /// @brief Field _giveUpButton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____giveUpButton;
 
+  /// [SerializeField]
   /// @brief Field _resumeButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____resumeButton;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _mainBar, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____mainBar;
 
+  /// [SerializeField]
   /// @brief Field _disconnectPromptView, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DisconnectPromptView> ____disconnectPromptView;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _levelBar, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _menuWrapperGameObject, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____menuWrapperGameObject;
 
+  /// [SerializeField]
   /// @brief Field _menuControllersGameObject, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____menuControllersGameObject;
 
+  /// [Inject]
   /// @brief Field _connectedPlayer, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
+  /// [Inject]
   /// @brief Field _localPlayerInGameMenuInitData, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::LocalPlayerInGameMenuInitData* ____localPlayerInGameMenuInitData;
 
+  /// [Inject]
   /// @brief Field _vrPlatformHelper, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
+  /// [Inject]
   /// @brief Field _disconnectHelper, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* ____disconnectHelper;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressDisconnectButtonEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action* ___didPressDisconnectButtonEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressGiveUpButtonEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ___didPressGiveUpButtonEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressResumeButtonEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action* ___didPressResumeButtonEvent;
 

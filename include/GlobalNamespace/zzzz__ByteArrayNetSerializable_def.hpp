@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ByteArrayNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/ByteArrayNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,6 +129,7 @@ public:
   /// @brief Method .ctor, addr 0x332cee4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, int32_t size, bool allowEmpty);
 
+  /// [Obsolete("Use GetData or CopyTo instead")]
   /// @brief Method get_data, addr 0x332cd9c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_data();
 
@@ -138,9 +139,11 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
+  /// [Obsolete("Use GetData or CopyTo Instead")]
   /// @brief Method op_Implicit, addr 0x332d7f4, size 0x14, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> op_Implicit___ArrayW_uint8_t_(::GlobalNamespace::ByteArrayNetSerializable* byteArrayNetSerializable);
 
+  /// [Obsolete("Use SetData instead")]
   /// @brief Method set_data, addr 0x332cea8, size 0x4, virtual false, abstract: false, final false
   inline void set_data(::ArrayW<uint8_t> value);
 
@@ -150,13 +153,13 @@ protected:
   constexpr ByteArrayNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ByteArrayNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ByteArrayNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ByteArrayNetSerializable(ByteArrayNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ByteArrayNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ByteArrayNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ByteArrayNetSerializable(ByteArrayNetSerializable const&) = delete;
+  ByteArrayNetSerializable(ByteArrayNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18118 };

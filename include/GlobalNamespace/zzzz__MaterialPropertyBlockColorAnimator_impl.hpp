@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockColorAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockColorAnimator.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockColorAnimator_def.hpp"

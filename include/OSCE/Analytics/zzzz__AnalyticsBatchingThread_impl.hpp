@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\AnalyticsBatchingThread.hpp"
+// IWYU pragma private; include "OSCE/Analytics/AnalyticsBatchingThread.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsBatchingThread_def.hpp"
@@ -59,9 +59,9 @@ constexpr OSCE::Analytics::AnalyticsBatchingThread__ThreadedBatchSender_d__23::o
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OSCE::Analytics::AnalyticsBatchingThread__ThreadedBatchSender_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OSCE::Analytics::AnalyticsBatchingThread*", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OSCE::Analytics::AnalyticsBatchingThread*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OSCE::Analytics::AnalyticsBatchingThread__ThreadedBatchSender_d__23::AnalyticsBatchingThread__ThreadedBatchSender_d__23(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::OSCE::Analytics::AnalyticsBatchingThread* __4__this) noexcept {
   this->__1__state = __1__state;

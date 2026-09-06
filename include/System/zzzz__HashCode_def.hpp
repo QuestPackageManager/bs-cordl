@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\HashCode.hpp"
+// IWYU pragma private; include "System/HashCode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,12 +52,14 @@ public:
   template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
   static inline int32_t Combine(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6, T7 value7, T8 value8);
 
+  /// [Obsolete("HashCode is a mutable struct and should not be compared with other HashCodes.", true)]
   /// @brief Method Equals, addr 0x5c43c00, size 0x48, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method GenerateGlobalSeed, addr 0x5c43394, size 0x24, virtual false, abstract: false, final false
   static inline uint32_t GenerateGlobalSeed();
 
+  /// [Obsolete("HashCode is a mutable struct and should not be compared with other HashCodes. Use ToHashCode to retrieve the computed hash code.", true)]
   /// @brief Method GetHashCode, addr 0x5c43b94, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -93,10 +95,10 @@ public:
   // @brief default ctor
   constexpr HashCode();
 
-  // Ctor Parameters [CppParam { name: "_v1", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_v2", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_v3", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_v4", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_queue1", ty: "uint32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "_queue2", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_queue3", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_length", ty:
-  // "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_v1", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_v2", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_v3", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_v4", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_queue1", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_queue2", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_queue3", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_length", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HashCode(uint32_t _v1, uint32_t _v2, uint32_t _v3, uint32_t _v4, uint32_t _queue1, uint32_t _queue2, uint32_t _queue3, uint32_t _length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

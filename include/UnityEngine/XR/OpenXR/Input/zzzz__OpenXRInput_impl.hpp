@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\OpenXRInput.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/OpenXRInput.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
@@ -47,8 +47,8 @@ constexpr uint64_t const& UnityEngine::XR::OpenXR::Input::OpenXRInput_Serialized
 constexpr void UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedGuid::__cordl_internal_set_ulong2(uint64_t value) {
   this->___ulong2 = value;
 }
-// Ctor Parameters [CppParam { name: "guid", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "ulong1", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "ulong2", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "guid", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ulong1", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "ulong2", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedGuid::OpenXRInput_SerializedGuid(::System::Guid guid, uint64_t ulong1, uint64_t ulong2) noexcept {
   this->guid = guid;
   this->ulong1 = ulong1;
@@ -56,14 +56,15 @@ constexpr ::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedGuid::OpenXRIn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedGuid::OpenXRInput_SerializedGuid() {}
-// Ctor Parameters [CppParam { name: "actionId", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "actionId", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedBinding::OpenXRInput_SerializedBinding(uint64_t actionId, ::StringW path) noexcept {
   this->actionId = actionId;
   this->path = path;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedBinding::OpenXRInput_SerializedBinding() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::Input::OpenXRInput_InputSourceNameFlags::OpenXRInput_InputSourceNameFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -156,8 +157,8 @@ constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*
 UnityEngine::XR::OpenXR::Input::OpenXRInput_GetInternalDeviceIdCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}") }, CppParam { name: "deviceId", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "deviceId",
+// ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::Input::OpenXRInput_GetInternalDeviceIdCommand::OpenXRInput_GetInternalDeviceIdCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand,
                                                                                                                            uint32_t deviceId) noexcept {
   this->baseCommand = baseCommand;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\IValueProvider.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/IValueProvider.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::IValueProvider.SetValue
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newt
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::Serialization::IValueProvider::SetValue(::System::Object* target, ::System::Object* value) {
+inline void Newtonsoft::Json::Serialization::IValueProvider::SetValue(::System::Object* target, /* [Nullable(2)] */ ::System::Object* value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::IValueProvider*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, target, value);

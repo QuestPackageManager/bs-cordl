@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\ENetSslConfiguration.hpp"
+// IWYU pragma private; include "ENet/ENetSslConfiguration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,11 +26,11 @@ public:
   // @brief default ctor
   constexpr ENetSslConfiguration();
 
-  // Ctor Parameters [CppParam { name: "mode", ty: "::ENet::SslMode", modifiers: "", def_value: None }, CppParam { name: "certificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam
-  // { name: "certificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKeyPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "validateCertificate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rootCertificatePath", ty: "::StringW",
-  // modifiers: "", def_value: None }, CppParam { name: "rootCertificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "mode", ty: "::ENet::SslMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "certificatePath", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "certificate", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "privateKeyPath", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "privateKey", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "validateCertificate", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "rootCertificatePath", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "rootCertificate", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr ENetSslConfiguration(::ENet::SslMode mode, ::StringW certificatePath, ::StringW certificate, ::StringW privateKeyPath, ::StringW privateKey, int32_t validateCertificate,
                                  ::StringW rootCertificatePath, ::StringW rootCertificate, ::StringW hostName) noexcept;
 

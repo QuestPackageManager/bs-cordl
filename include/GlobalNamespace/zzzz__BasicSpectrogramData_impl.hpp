@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BasicSpectrogramData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BasicSpectrogramData.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicSpectrogramData_def.hpp"
 #include "GlobalNamespace/zzzz__DeterminismConfig_def.hpp"

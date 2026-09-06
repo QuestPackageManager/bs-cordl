@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\SystemVersionPropertyBag.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/SystemVersionPropertyBag.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,13 +84,13 @@ protected:
   constexpr SystemVersionPropertyBag_MajorProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MajorProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MajorProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemVersionPropertyBag_MajorProperty(SystemVersionPropertyBag_MajorProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MajorProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MajorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag_MajorProperty(SystemVersionPropertyBag_MajorProperty const&) = delete;
+  SystemVersionPropertyBag_MajorProperty(SystemVersionPropertyBag_MajorPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19753 };
@@ -135,13 +135,13 @@ protected:
   constexpr SystemVersionPropertyBag_MinorProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MinorProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MinorProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemVersionPropertyBag_MinorProperty(SystemVersionPropertyBag_MinorProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MinorProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MinorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag_MinorProperty(SystemVersionPropertyBag_MinorProperty const&) = delete;
+  SystemVersionPropertyBag_MinorProperty(SystemVersionPropertyBag_MinorPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19754 };
@@ -186,13 +186,13 @@ protected:
   constexpr SystemVersionPropertyBag_BuildProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_BuildProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_BuildProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemVersionPropertyBag_BuildProperty(SystemVersionPropertyBag_BuildProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_BuildProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_BuildProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag_BuildProperty(SystemVersionPropertyBag_BuildProperty const&) = delete;
+  SystemVersionPropertyBag_BuildProperty(SystemVersionPropertyBag_BuildPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19755 };
@@ -237,13 +237,13 @@ protected:
   constexpr SystemVersionPropertyBag_RevisionProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_RevisionProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_RevisionProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemVersionPropertyBag_RevisionProperty(SystemVersionPropertyBag_RevisionProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_RevisionProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_RevisionProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag_RevisionProperty(SystemVersionPropertyBag_RevisionProperty const&) = delete;
+  SystemVersionPropertyBag_RevisionProperty(SystemVersionPropertyBag_RevisionPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19756 };
@@ -280,13 +280,13 @@ protected:
   constexpr SystemVersionPropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemVersionPropertyBag(SystemVersionPropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag(SystemVersionPropertyBag const&) = delete;
+  SystemVersionPropertyBag(SystemVersionPropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19757 };

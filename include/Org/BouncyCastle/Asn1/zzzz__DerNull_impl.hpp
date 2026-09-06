@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerNull.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerNull.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Null_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerNull_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -105,6 +105,7 @@ inline int32_t Org::BouncyCastle::Asn1::DerNull::Asn1GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::DerNull*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
+/// @brief [Obsolete("Use static Instance object")]
 inline ::Org::BouncyCastle::Asn1::DerNull* Org::BouncyCastle::Asn1::DerNull::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::DerNull*>());
 }

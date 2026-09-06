@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\int4.hpp"
+// IWYU pragma private; include "Unity/Mathematics/int4.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Mathematics/zzzz__int4_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -8056,8 +8056,8 @@ constexpr Unity::Mathematics::int4::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* Unity::Mathematics::int4::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "z", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::int4::int4(int32_t x, int32_t y, int32_t z, int32_t w) noexcept {
   this->x = x;
   this->y = y;

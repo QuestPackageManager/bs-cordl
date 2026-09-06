@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\DefaultPropertyAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/DefaultPropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class DefaultPropertyAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::DefaultPropertyAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::DefaultPropertyAttribute*, "System.ComponentModel", "DefaultPropertyAttribute");
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -51,6 +52,7 @@ public:
 
   static inline ::System::ComponentModel::DefaultPropertyAttribute* getStaticF_Default();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x63bfc88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -62,17 +64,18 @@ protected:
   constexpr DefaultPropertyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultPropertyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultPropertyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultPropertyAttribute(DefaultPropertyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultPropertyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultPropertyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultPropertyAttribute(DefaultPropertyAttribute const&) = delete;
+  DefaultPropertyAttribute(DefaultPropertyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11256 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 

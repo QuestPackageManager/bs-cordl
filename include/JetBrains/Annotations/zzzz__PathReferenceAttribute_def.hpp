@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\PathReferenceAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/PathReferenceAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class PathReferenceAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::PathReferenceAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::PathReferenceAttribute*, "JetBrains.Annotations", "PathReferenceAttribute");
+// [AttributeUsage((System.AttributeTargets)2048)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -20,6 +21,7 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE PathReferenceAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [CanBeNull]
   __declspec(property(get = get_BasePath, put = set_BasePath)) ::StringW BasePath;
 
   /// @brief Field <BasePath>k__BackingField, offset 0x10, size 0x8
@@ -27,7 +29,7 @@ public:
 
   static inline ::JetBrains::Annotations::PathReferenceAttribute* New_ctor();
 
-  static inline ::JetBrains::Annotations::PathReferenceAttribute* New_ctor(::StringW basePath);
+  static inline ::JetBrains::Annotations::PathReferenceAttribute* New_ctor(/* [NotNull] [PathReference] */ ::StringW basePath);
 
   constexpr ::StringW const& __cordl_internal_get__BasePath_k__BackingField() const;
 
@@ -39,11 +41,13 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x6e3e018, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW basePath);
+  inline void _ctor(/* [NotNull] [PathReference] */ ::StringW basePath);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BasePath, addr 0x6e3e020, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BasePath();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BasePath, addr 0x6e3e028, size 0x8, virtual false, abstract: false, final false
   inline void set_BasePath(::StringW value);
 
@@ -53,17 +57,18 @@ protected:
   constexpr PathReferenceAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PathReferenceAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PathReferenceAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PathReferenceAttribute(PathReferenceAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PathReferenceAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PathReferenceAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PathReferenceAttribute(PathReferenceAttribute const&) = delete;
+  PathReferenceAttribute(PathReferenceAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22558 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BasePath>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____BasePath_k__BackingField;
 

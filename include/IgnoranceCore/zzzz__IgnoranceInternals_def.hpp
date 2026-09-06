@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore\IgnoranceInternals.hpp"
+// IWYU pragma private; include "IgnoranceCore/IgnoranceInternals.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr IgnoranceInternals();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceInternals", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceInternals", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceInternals(IgnoranceInternals&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceInternals", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceInternals", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceInternals(IgnoranceInternals const&) = delete;
+  IgnoranceInternals(IgnoranceInternalsconst&) = delete;
 
   /// @brief Field BindAnyAddress offset 0xffffffff size 0x8
   static constexpr ::ConstString BindAnyAddress{ u"::0" };

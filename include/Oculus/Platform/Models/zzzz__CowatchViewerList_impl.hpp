@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\CowatchViewerList.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/CowatchViewerList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__CowatchViewerList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__CowatchViewer_def.hpp"

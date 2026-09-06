@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\X509\Store\X509AttrCertStoreSelector.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509AttrCertStoreSelector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ namespace Org::BouncyCastle::X509::Store {
 class CORDL_TYPE X509AttrCertStoreSelector : public ::System::Object {
 public:
   // Declarations
+  /// @brief [Obsolete("Use AttributeCertificateValid instead")]
   __declspec(property(get = get_AttribueCertificateValid, put = set_AttribueCertificateValid)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject* AttribueCertificateValid;
 
   __declspec(property(get = get_AttributeCert, put = set_AttributeCert)) ::Org::BouncyCastle::X509::IX509AttributeCertificate* AttributeCert;
@@ -227,13 +228,13 @@ protected:
   constexpr X509AttrCertStoreSelector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertStoreSelector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertStoreSelector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509AttrCertStoreSelector(X509AttrCertStoreSelector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertStoreSelector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertStoreSelector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509AttrCertStoreSelector(X509AttrCertStoreSelector const&) = delete;
+  X509AttrCertStoreSelector(X509AttrCertStoreSelectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1846 };

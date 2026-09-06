@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SpeedTreeWindParamsBufferIterator.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SpeedTreeWindParamsBufferIterator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ MARK_VAL_T(::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator__uintPara
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator, "UnityEngine.Rendering", "SpeedTreeWindParamsBufferIterator");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator__uintParamOffsets_e__FixedBuffer, "UnityEngine.Rendering",
                     "SpeedTreeWindParamsBufferIterator/<uintParamOffsets>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -35,7 +37,7 @@ public:
   // @brief default ctor
   constexpr SpeedTreeWindParamsBufferIterator__uintParamOffsets_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SpeedTreeWindParamsBufferIterator__uintParamOffsets_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -59,6 +61,8 @@ static_assert(offsetof(::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterat
 static_assert(sizeof(::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator__uintParamOffsets_e__FixedBuffer) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [NativeHeader("Modules/Terrain/Public/SpeedTreeWind.h")]
+// [UsedByNativeCode]
 // Dependencies System.IntPtr, UnityEngine.Rendering.SpeedTreeWindParamsBufferIterator::<uintParamOffsets>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -72,9 +76,10 @@ public:
   // @brief default ctor
   constexpr SpeedTreeWindParamsBufferIterator();
 
-  // Ctor Parameters [CppParam { name: "bufferPtr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "uintParamOffsets", ty:
-  // "::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator__uintParamOffsets_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "uintStride", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "elementOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementsCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bufferPtr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "uintParamOffsets", ty:
+  // "::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator__uintParamOffsets_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "uintStride", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "elementOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "elementsCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr SpeedTreeWindParamsBufferIterator(::System::IntPtr bufferPtr, ::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator__uintParamOffsets_e__FixedBuffer uintParamOffsets,
                                               int32_t uintStride, int32_t elementOffset, int32_t elementsCount) noexcept;
 
@@ -87,6 +92,7 @@ public:
   /// @brief Field bufferPtr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr bufferPtr;
 
+  /// [FixedBuffer(typeof(System.Int32), 16)]
   /// @brief Field uintParamOffsets, offset: 0x8, size: 0x40, def value: None
   ::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator__uintParamOffsets_e__FixedBuffer uintParamOffsets;
 

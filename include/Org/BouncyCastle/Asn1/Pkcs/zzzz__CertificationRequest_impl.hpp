@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\CertificationRequest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/CertificationRequest.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__CertificationRequest_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__CertificationRequestInfo_def.hpp"
@@ -229,6 +229,7 @@ inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* Org::BouncyCastle:
                                                                                                                             ::Org::BouncyCastle::Asn1::DerBitString* signature) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>(requestInfo, algorithm, signature));
 }
+/// @brief [Obsolete("Use \'GetInstance\' instead")]
 inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>(seq));
 }

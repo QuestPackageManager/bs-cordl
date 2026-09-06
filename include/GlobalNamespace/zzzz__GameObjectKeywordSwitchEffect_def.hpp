@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameObjectKeywordSwitchEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameObjectKeywordSwitchEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,13 +65,13 @@ protected:
   constexpr GameObjectKeywordSwitchEffect_GameObjectKeywordItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect_GameObjectKeywordItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect_GameObjectKeywordItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameObjectKeywordSwitchEffect_GameObjectKeywordItem(GameObjectKeywordSwitchEffect_GameObjectKeywordItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect_GameObjectKeywordItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect_GameObjectKeywordItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameObjectKeywordSwitchEffect_GameObjectKeywordItem(GameObjectKeywordSwitchEffect_GameObjectKeywordItem const&) = delete;
+  GameObjectKeywordSwitchEffect_GameObjectKeywordItem(GameObjectKeywordSwitchEffect_GameObjectKeywordItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
@@ -109,6 +109,7 @@ public:
                       put = __cordl_internal_set__gameObjectKeywordItems)) ::ArrayW<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*>
       _gameObjectKeywordItems;
 
+  /// [Inject]
   /// @brief Method Initialize, addr 0x5994758, size 0x148, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
@@ -135,20 +136,22 @@ protected:
   constexpr GameObjectKeywordSwitchEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameObjectKeywordSwitchEffect(GameObjectKeywordSwitchEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameObjectKeywordSwitchEffect(GameObjectKeywordSwitchEffect const&) = delete;
+  GameObjectKeywordSwitchEffect(GameObjectKeywordSwitchEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5847 };
 
+  /// [SerializeField]
   /// @brief Field _defaultGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____defaultGameObject;
 
+  /// [SerializeField]
   /// @brief Field _gameObjectKeywordItems, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*> ____gameObjectKeywordItems;
 

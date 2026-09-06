@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformLeaderboardsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -170,7 +170,7 @@ public:
   // @brief default ctor
   constexpr PlatformLeaderboardsModel_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformLeaderboardsModel_State(int32_t value__) noexcept;
 
   /// @brief Field Initialized value: I32(2)
@@ -229,7 +229,7 @@ public:
   // @brief default ctor
   constexpr PlatformLeaderboardsModel_GetScoresResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformLeaderboardsModel_GetScoresResult(int32_t value__) noexcept;
 
   /// @brief Field Failed value: I32(1)
@@ -288,7 +288,7 @@ public:
   // @brief default ctor
   constexpr PlatformLeaderboardsModel_UploadScoreResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformLeaderboardsModel_UploadScoreResult(int32_t value__) noexcept;
 
   /// @brief Field Failed value: I32(1)
@@ -347,7 +347,7 @@ public:
   // @brief default ctor
   constexpr PlatformLeaderboardsModel_ScoresScope();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformLeaderboardsModel_ScoresScope(int32_t value__) noexcept;
 
   /// @brief Field AroundPlayer value: I32(1)
@@ -405,13 +405,13 @@ protected:
   constexpr PlatformLeaderboardsModel_GetScoresCompletionHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_GetScoresCompletionHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_GetScoresCompletionHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLeaderboardsModel_GetScoresCompletionHandler(PlatformLeaderboardsModel_GetScoresCompletionHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_GetScoresCompletionHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_GetScoresCompletionHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel_GetScoresCompletionHandler(PlatformLeaderboardsModel_GetScoresCompletionHandler const&) = delete;
+  PlatformLeaderboardsModel_GetScoresCompletionHandler(PlatformLeaderboardsModel_GetScoresCompletionHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15309 };
@@ -449,13 +449,13 @@ protected:
   constexpr PlatformLeaderboardsModel_UploadScoreCompletionHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_UploadScoreCompletionHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_UploadScoreCompletionHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLeaderboardsModel_UploadScoreCompletionHandler(PlatformLeaderboardsModel_UploadScoreCompletionHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_UploadScoreCompletionHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_UploadScoreCompletionHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel_UploadScoreCompletionHandler(PlatformLeaderboardsModel_UploadScoreCompletionHandler const&) = delete;
+  PlatformLeaderboardsModel_UploadScoreCompletionHandler(PlatformLeaderboardsModel_UploadScoreCompletionHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15310 };
@@ -530,13 +530,13 @@ protected:
   constexpr PlatformLeaderboardsModel_LeaderboardScore();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_LeaderboardScore", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_LeaderboardScore", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLeaderboardsModel_LeaderboardScore(PlatformLeaderboardsModel_LeaderboardScore&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_LeaderboardScore", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_LeaderboardScore", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel_LeaderboardScore(PlatformLeaderboardsModel_LeaderboardScore const&) = delete;
+  PlatformLeaderboardsModel_LeaderboardScore(PlatformLeaderboardsModel_LeaderboardScoreconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15311 };
@@ -567,6 +567,7 @@ static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardS
 static_assert(sizeof(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -602,13 +603,13 @@ protected:
   constexpr PlatformLeaderboardsModel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLeaderboardsModel___c(PlatformLeaderboardsModel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel___c(PlatformLeaderboardsModel___c const&) = delete;
+  PlatformLeaderboardsModel___c(PlatformLeaderboardsModel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15312 };
@@ -619,6 +620,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::PlatformLeaderboardsModel___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapKey, PlatformLeaderboardsModel::ScoresScope, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -738,13 +740,13 @@ protected:
   constexpr PlatformLeaderboardsModel___c__DisplayClass26_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c__DisplayClass26_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c__DisplayClass26_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLeaderboardsModel___c__DisplayClass26_0(PlatformLeaderboardsModel___c__DisplayClass26_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c__DisplayClass26_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c__DisplayClass26_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel___c__DisplayClass26_0(PlatformLeaderboardsModel___c__DisplayClass26_0 const&) = delete;
+  PlatformLeaderboardsModel___c__DisplayClass26_0(PlatformLeaderboardsModel___c__DisplayClass26_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15313 };
@@ -865,7 +867,7 @@ public:
   __declspec(property(get = get_playerId)) uint64_t playerId;
 
   /// @brief Method GetFriendsScores, addr 0x375ce60, size 0x20, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::HMAsyncRequest* GetFriendsScores(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
+  inline ::GlobalNamespace::HMAsyncRequest* GetFriendsScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
                                                              ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   /// @brief Method GetScores, addr 0x375cabc, size 0x2d8, virtual false, abstract: false, final false
@@ -873,11 +875,11 @@ public:
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   /// @brief Method GetScores, addr 0x375ce20, size 0x20, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::HMAsyncRequest* GetScores(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
+  inline ::GlobalNamespace::HMAsyncRequest* GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   /// @brief Method GetScoresAroundPlayer, addr 0x375ce40, size 0x20, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::HMAsyncRequest* GetScoresAroundPlayer(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
+  inline ::GlobalNamespace::HMAsyncRequest* GetScoresAroundPlayer(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
                                                                   ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   /// @brief Method HandleAllScoresDidUpload, addr 0x375ce04, size 0x1c, virtual false, abstract: false, final false
@@ -899,8 +901,8 @@ public:
                                                         ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* completionHandler);
 
   /// @brief Method UploadScore, addr 0x375ce80, size 0x160, virtual false, abstract: false, final false
-  inline void UploadScore(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, int32_t maxPossibleMultipliedScore, bool fullCombo, int32_t goodCutsCount,
-                          int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, float_t energy, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  inline void UploadScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, int32_t maxPossibleMultipliedScore, bool fullCombo,
+                          int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, float_t energy, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
 
@@ -959,6 +961,7 @@ public:
   /// @brief Method .ctor, addr 0x375cfe0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_allScoresDidUploadEvent, addr 0x375c444, size 0xac, virtual false, abstract: false, final false
   inline void add_allScoresDidUploadEvent(::System::Action* value);
 
@@ -968,6 +971,7 @@ public:
   /// @brief Method get_playerId, addr 0x375c59c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_playerId();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_allScoresDidUploadEvent, addr 0x375c4f0, size 0xac, virtual false, abstract: false, final false
   inline void remove_allScoresDidUploadEvent(::System::Action* value);
 
@@ -977,32 +981,38 @@ protected:
   constexpr PlatformLeaderboardsModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLeaderboardsModel(PlatformLeaderboardsModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel(PlatformLeaderboardsModel const&) = delete;
+  PlatformLeaderboardsModel(PlatformLeaderboardsModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15314 };
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
+  /// [Inject]
   /// @brief Field _leaderboardScoreUploader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> ____leaderboardScoreUploader;
 
+  /// [Inject]
   /// @brief Field _platform, offset: 0x30, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ____platform;
 
+  /// [Inject]
   /// @brief Field _platformLeaderboardsHandler, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlatformLeaderboardsHandler* ____platformLeaderboardsHandler;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [CompilerGenerated]
   /// @brief Field allScoresDidUploadEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___allScoresDidUploadEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\Compositor_OverlaySettings.hpp"
+// IWYU pragma private; include "OVR/OpenVR/Compositor_OverlaySettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,12 +26,13 @@ public:
   // @brief default ctor
   constexpr Compositor_OverlaySettings();
 
-  // Ctor Parameters [CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "curved", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "antialias",
-  // ty: "bool", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None
-  // }, CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "uOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vOffset", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "uScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vScale", ty: "float_t", modifiers: "", def_value: None
-  // }, CppParam { name: "gridDivs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gridWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gridScale", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "curved", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "antialias", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "distance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "uOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uScale",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gridDivs", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gridWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gridScale", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "transform", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None, comment: None }]
   constexpr Compositor_OverlaySettings(uint32_t size, bool curved, bool antialias, float_t scale, float_t distance, float_t alpha, float_t uOffset, float_t vOffset, float_t uScale, float_t vScale,
                                        float_t gridDivs, float_t gridWidth, float_t gridScale, ::OVR::OpenVR::HmdMatrix44_t transform) noexcept;
 

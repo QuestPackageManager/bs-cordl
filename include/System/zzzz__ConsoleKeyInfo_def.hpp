@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ConsoleKeyInfo.hpp"
+// IWYU pragma private; include "System/ConsoleKeyInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ struct ConsoleKeyInfo;
 // Write type traits
 MARK_VAL_T(::System::ConsoleKeyInfo);
 DEFINE_IL2CPP_CLASS(::System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");
+// [IsReadOnly]
 // Dependencies System.ConsoleKey, System.ConsoleModifiers
 namespace System {
 // Is value type: true
@@ -54,8 +55,8 @@ public:
   // @brief default ctor
   constexpr ConsoleKeyInfo();
 
-  // Ctor Parameters [CppParam { name: "_keyChar", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "_key", ty: "::System::ConsoleKey", modifiers: "", def_value: None }, CppParam {
-  // name: "_mods", ty: "::System::ConsoleModifiers", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_keyChar", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_key", ty: "::System::ConsoleKey", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_mods", ty: "::System::ConsoleModifiers", modifiers: "", def_value: None, comment: None }]
   constexpr ConsoleKeyInfo(char16_t _keyChar, ::System::ConsoleKey _key, ::System::ConsoleModifiers _mods) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

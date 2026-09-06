@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\ProvideHandle.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/ProvideHandle.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -245,9 +245,9 @@ template <typename T> inline void UnityEngine::ResourceManagement::ResourceProvi
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, result, status, exception);
 }
-// Ctor Parameters [CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InternalOp", ty:
-// "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ResourceManager", ty:
-// "::UnityEngine::ResourceManagement::ResourceManager*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InternalOp", ty:
+// "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ResourceManager", ty:
+// "::UnityEngine::ResourceManagement::ResourceManager*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::ProvideHandle(int32_t m_Version,
                                                                                              ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* m_InternalOp,
                                                                                              ::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager) noexcept {

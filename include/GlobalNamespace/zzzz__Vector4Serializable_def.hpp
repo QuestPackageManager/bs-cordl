@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Vector4Serializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/Vector4Serializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,8 +97,8 @@ public:
   // @brief default ctor
   constexpr Vector4Serializable();
 
-  // Ctor Parameters [CppParam { name: "_x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_z", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "_w", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_x", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_y", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_z", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_w", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector4Serializable(int32_t _x, int32_t _y, int32_t _z, int32_t _w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

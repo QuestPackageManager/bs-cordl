@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Avatar.hpp"
+// IWYU pragma private; include "UnityEngine/Avatar.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Avatar_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

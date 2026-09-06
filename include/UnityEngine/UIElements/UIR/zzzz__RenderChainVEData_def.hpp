@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\RenderChainVEData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderChainVEData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,30 +85,34 @@ public:
   // @brief default ctor
   constexpr RenderChainVEData();
 
-  // Ctor Parameters [CppParam { name: "prev", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "next", ty:
-  // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "groupTransformAncestor", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "",
-  // def_value: None }, CppParam { name: "boneTransformAncestor", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "prevDirty", ty:
-  // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "nextDirty", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None },
-  // CppParam { name: "flags", ty: "::UnityEngine::UIElements::UIR::RenderDataFlags", modifiers: "", def_value: None }, CppParam { name: "hierarchyDepth", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "dirtiedValues", ty: "::UnityEngine::UIElements::UIR::RenderDataDirtyTypes", modifiers: "", def_value: None }, CppParam { name: "dirtyID", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "firstHeadCommand", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None }, CppParam { name: "lastHeadCommand", ty:
-  // "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None }, CppParam { name: "firstTailCommand", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers:
-  // "", def_value: None }, CppParam { name: "lastTailCommand", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None }, CppParam { name: "localFlipsWinding", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "localTransformScaleZero", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "worldFlipsWinding", ty: "bool", modifiers:
-  // "", def_value: None }, CppParam { name: "worldTransformScaleZero", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clipMethod", ty: "::UnityEngine::UIElements::UIR::ClipMethod",
-  // modifiers: "", def_value: None }, CppParam { name: "childrenStencilRef", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "childrenMaskDepth", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "headMesh", ty: "::UnityEngine::UIElements::UIR::MeshHandle*", modifiers: "", def_value: None }, CppParam { name: "tailMesh", ty:
-  // "::UnityEngine::UIElements::UIR::MeshHandle*", modifiers: "", def_value: None }, CppParam { name: "verticesSpace", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam {
-  // name: "transformID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }, CppParam { name: "clipRectID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers:
-  // "", def_value: None }, CppParam { name: "opacityID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }, CppParam { name: "textCoreSettingsID", ty:
-  // "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }, CppParam { name: "colorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None },
-  // CppParam { name: "backgroundColorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }, CppParam { name: "borderLeftColorID", ty:
-  // "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }, CppParam { name: "borderTopColorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None
-  // }, CppParam { name: "borderRightColorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }, CppParam { name: "borderBottomColorID", ty:
-  // "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }, CppParam { name: "tintColorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None },
-  // CppParam { name: "compositeOpacity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "backgroundAlpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "textures", ty: "::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::TextureEntry>*", modifiers: "", def_value: None }, CppParam { name: "pendingRepaint", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "pendingHierarchicalRepaint", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "prev", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "next", ty:
+  // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "groupTransformAncestor", ty: "::UnityEngine::UIElements::VisualElement*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "boneTransformAncestor", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "prevDirty", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "nextDirty", ty:
+  // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty: "::UnityEngine::UIElements::UIR::RenderDataFlags", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "hierarchyDepth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "dirtiedValues", ty:
+  // "::UnityEngine::UIElements::UIR::RenderDataDirtyTypes", modifiers: "", def_value: None, comment: None }, CppParam { name: "dirtyID", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "firstHeadCommand", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastHeadCommand", ty:
+  // "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstTailCommand", ty:
+  // "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastTailCommand", ty:
+  // "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "localFlipsWinding", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "localTransformScaleZero", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldFlipsWinding", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "worldTransformScaleZero", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "clipMethod", ty:
+  // "::UnityEngine::UIElements::UIR::ClipMethod", modifiers: "", def_value: None, comment: None }, CppParam { name: "childrenStencilRef", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "childrenMaskDepth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "headMesh", ty: "::UnityEngine::UIElements::UIR::MeshHandle*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "tailMesh", ty: "::UnityEngine::UIElements::UIR::MeshHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "verticesSpace", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "transformID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "clipRectID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None, comment: None }, CppParam { name: "opacityID", ty:
+  // "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None, comment: None }, CppParam { name: "textCoreSettingsID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "colorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "backgroundColorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderLeftColorID", ty:
+  // "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderTopColorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "borderRightColorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "borderBottomColorID", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None, comment: None }, CppParam { name: "tintColorID", ty:
+  // "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None, comment: None }, CppParam { name: "compositeOpacity", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "backgroundAlpha", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "textures", ty:
+  // "::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::TextureEntry>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "pendingRepaint", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "pendingHierarchicalRepaint", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr RenderChainVEData(::UnityEngine::UIElements::VisualElement* prev, ::UnityEngine::UIElements::VisualElement* next, ::UnityEngine::UIElements::VisualElement* groupTransformAncestor,
                               ::UnityEngine::UIElements::VisualElement* boneTransformAncestor, ::UnityEngine::UIElements::VisualElement* prevDirty, ::UnityEngine::UIElements::VisualElement* nextDirty,
                               ::UnityEngine::UIElements::UIR::RenderDataFlags flags, int32_t hierarchyDepth, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes dirtiedValues, uint32_t dirtyID,

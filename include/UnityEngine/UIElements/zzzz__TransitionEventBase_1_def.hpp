@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TransitionEventBase_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TransitionEventBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,15 +15,19 @@ struct StylePropertyName;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class TransitionEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class TransitionEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::TransitionEventBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::TransitionEventBase_1, "UnityEngine.UIElements", "TransitionEventBase`1");
+// [EventCategory((UnityEngine.UIElements.EventCategory)13)]
 // Dependencies UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.StylePropertyNameCollection
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.TransitionEventBase`1<T>
 class CORDL_TYPE TransitionEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
@@ -66,9 +70,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_stylePropertyNames, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StylePropertyNameCollection get_stylePropertyNames();
 
+  /// [CompilerGenerated]
   /// @brief Method set_elapsedTime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_elapsedTime(double_t value);
 
@@ -78,20 +84,24 @@ protected:
   constexpr TransitionEventBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionEventBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionEventBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransitionEventBase_1(TransitionEventBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionEventBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionEventBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransitionEventBase_1(TransitionEventBase_1 const&) = delete;
+  TransitionEventBase_1(TransitionEventBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4566 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <stylePropertyNames>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::StylePropertyNameCollection ____stylePropertyNames_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <elapsedTime>k__BackingField, offset: 0x70, size: 0x8, def value: None
   double_t ____elapsedTime_k__BackingField;
 

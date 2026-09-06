@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\LoadOptions.hpp"
+// IWYU pragma private; include "System/Xml/Linq/LoadOptions.hpp"
 #include "System/Xml/Linq/zzzz__LoadOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Linq::LoadOptions::LoadOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }

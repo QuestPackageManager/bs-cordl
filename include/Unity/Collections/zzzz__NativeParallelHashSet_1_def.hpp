@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeParallelHashSet_1.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeParallelHashSet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapDataEnumerator_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMap_2_def.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_def.hpp"
@@ -34,32 +35,48 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeParallelHashSet_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeParallelHashSet_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeParallelHashSet_1_ParallelWriter;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeParallelHashSet_1_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeParallelHashSet_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeParallelHashSet_1_ReadOnly;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct NativeParallelHashSet_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeParallelHashSet_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeParallelHashSet_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeParallelHashSet_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeParallelHashSet_1_ParallelWriter;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeParallelHashSet_1_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeParallelHashSet_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeParallelHashSet_1_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeParallelHashSet_1);
@@ -70,10 +87,13 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashSet_1, "Unity.Co
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashSet_1_Enumerator, "Unity.Collections", "NativeParallelHashSet`1/Enumerator");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashSet_1_ParallelWriter, "Unity.Collections", "NativeParallelHashSet`1/ParallelWriter");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashSet_1_ReadOnly, "Unity.Collections", "NativeParallelHashSet`1/ReadOnly");
-// Dependencies Unity.Collections.NativeParallelHashMap`2::ParallelWriter<TKey, TValue>
+// [NativeContainerIsAtomicWriteOnly]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.NativeParallelHashMap`2::ParallelWriter<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashSet`1/ParallelWriter<T>
 struct CORDL_TYPE NativeParallelHashSet_1_ParallelWriter {
@@ -87,6 +107,7 @@ public:
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Add(T item, int32_t threadIndexOverride);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
@@ -94,7 +115,7 @@ public:
   // @brief default ctor
   constexpr NativeParallelHashSet_1_ParallelWriter();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::NativeParallelHashMap_2_ParallelWriter<T,bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::NativeParallelHashMap_2_ParallelWriter<T,bool>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelHashSet_1_ParallelWriter(::Unity::Collections::NativeParallelHashMap_2_ParallelWriter<T, bool> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -110,10 +131,13 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashSet`1/Enumerator<T>
 struct CORDL_TYPE NativeParallelHashSet_1_Enumerator {
@@ -160,7 +184,7 @@ public:
   // @brief default ctor
   constexpr NativeParallelHashSet_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelHashSet_1_Enumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -176,10 +200,14 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashSet`1/ReadOnly<T>
 struct CORDL_TYPE NativeParallelHashSet_1_ReadOnly {
@@ -197,15 +225,20 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [IsReadOnly]
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Contains(T item);
 
+  /// [IsReadOnly]
   /// @brief Method Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t Count();
 
+  /// [IsReadOnly]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeParallelHashSet_1_Enumerator<T> GetEnumerator();
 
@@ -215,18 +248,22 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [IsReadOnly]
   /// @brief Method ToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> data);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
@@ -240,7 +277,7 @@ public:
   // @brief default ctor
   constexpr NativeParallelHashSet_1_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<T,bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<T,bool>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelHashSet_1_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<T, bool> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -256,10 +293,13 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies Unity.Collections.NativeParallelHashMap`2<TKey, TValue>
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeParallelHashSetDebuggerTypeProxy`1<T>))]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashSet`1<T>
 struct CORDL_TYPE NativeParallelHashSet_1 {
@@ -331,12 +371,15 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
@@ -359,7 +402,7 @@ public:
   // @brief default ctor
   constexpr NativeParallelHashSet_1();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::NativeParallelHashMap_2<T,bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::NativeParallelHashMap_2<T,bool>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelHashSet_1(::Unity::Collections::NativeParallelHashMap_2<T, bool> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\DSA.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/DSA.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class DSA;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::DSA*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::DSA*, "System.Security.Cryptography", "DSA");
+// [ComVisible(true)]
 // Dependencies System.Security.Cryptography.AsymmetricAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -28,13 +29,13 @@ public:
   /// @brief Method Create, addr 0x5afa260, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* Create();
 
-  /// @brief Method ExportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
 
   /// @brief Method FromXmlString, addr 0x5afa2c4, size 0x6ac, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
-  /// @brief Method ImportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
 
   static inline ::System::Security::Cryptography::DSA* New_ctor();
@@ -42,7 +43,7 @@ public:
   /// @brief Method ToXmlString, addr 0x5afa970, size 0x49c, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
-  /// @brief Method VerifySignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
 
   /// @brief Method .ctor, addr 0x5afa25c, size 0x4, virtual false, abstract: false, final false
@@ -54,13 +55,13 @@ protected:
   constexpr DSA();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DSA", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DSA", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DSA(DSA&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DSA", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DSA", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DSA(DSA const&) = delete;
+  DSA(DSAconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2947 };

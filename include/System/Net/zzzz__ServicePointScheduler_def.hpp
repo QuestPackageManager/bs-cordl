@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\ServicePointScheduler.hpp"
+// IWYU pragma private; include "System/Net/ServicePointScheduler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -195,6 +195,7 @@ public:
 
   static inline int32_t getStaticF_nextId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Scheduler, addr 0x63404e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePointScheduler* get_Scheduler();
 
@@ -206,20 +207,22 @@ protected:
   constexpr ServicePointScheduler_ConnectionGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_ConnectionGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_ConnectionGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServicePointScheduler_ConnectionGroup(ServicePointScheduler_ConnectionGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_ConnectionGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_ConnectionGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointScheduler_ConnectionGroup(ServicePointScheduler_ConnectionGroup const&) = delete;
+  ServicePointScheduler_ConnectionGroup(ServicePointScheduler_ConnectionGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11627 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Scheduler>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::ServicePointScheduler* ____Scheduler_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
@@ -248,6 +251,7 @@ static_assert(offsetof(::System::Net::ServicePointScheduler_ConnectionGroup, ___
 static_assert(sizeof(::System::Net::ServicePointScheduler_ConnectionGroup) == 0x38, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net {
 // Is value type: false
@@ -283,13 +287,13 @@ protected:
   constexpr AsyncManualResetEvent_ServicePointScheduler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncManualResetEvent_ServicePointScheduler___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncManualResetEvent_ServicePointScheduler___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncManualResetEvent_ServicePointScheduler___c(AsyncManualResetEvent_ServicePointScheduler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncManualResetEvent_ServicePointScheduler___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncManualResetEvent_ServicePointScheduler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncManualResetEvent_ServicePointScheduler___c(AsyncManualResetEvent_ServicePointScheduler___c const&) = delete;
+  AsyncManualResetEvent_ServicePointScheduler___c(AsyncManualResetEvent_ServicePointScheduler___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11628 };
@@ -338,13 +342,13 @@ protected:
   constexpr ServicePointScheduler_AsyncManualResetEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_AsyncManualResetEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_AsyncManualResetEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServicePointScheduler_AsyncManualResetEvent(ServicePointScheduler_AsyncManualResetEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_AsyncManualResetEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_AsyncManualResetEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointScheduler_AsyncManualResetEvent(ServicePointScheduler_AsyncManualResetEvent const&) = delete;
+  ServicePointScheduler_AsyncManualResetEvent(ServicePointScheduler_AsyncManualResetEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11629 };
@@ -360,6 +364,7 @@ static_assert(offsetof(::System::Net::ServicePointScheduler_AsyncManualResetEven
 static_assert(sizeof(::System::Net::ServicePointScheduler_AsyncManualResetEvent) == 0x18, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.ValueTuple`2<T1, T2>,
 // System.ValueTuple`3<T1, T2, T3>
 namespace System::Net {
@@ -374,6 +379,7 @@ public:
   /// @brief Method MoveNext, addr 0x6340f28, size 0xbc8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x6341af0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -384,14 +390,15 @@ public:
   // @brief default ctor
   constexpr ServicePointScheduler__RunScheduler_d__32();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::ServicePointScheduler*", modifiers: "",
-  // def_value: None }, CppParam { name: "_operationArray_5__2", ty: "::ArrayW<::System::ValueTuple_2<::System::Net::ServicePointScheduler_ConnectionGroup*,::System::Net::WebOperation*>>", modifiers:
-  // "", def_value: None }, CppParam { name: "_idleArray_5__3", ty:
-  // "::ArrayW<::System::ValueTuple_3<::System::Net::ServicePointScheduler_ConnectionGroup*,::System::Net::WebConnection*,::System::Threading::Tasks::Task*>>", modifiers: "", def_value: None },
-  // CppParam { name: "_taskList_5__4", ty: "::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None }, CppParam { name: "_schedulerTask_5__5", ty:
-  // "::System::Threading::Tasks::Task_1<bool>*", modifiers: "", def_value: None }, CppParam { name: "_finalCleanup_5__6", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::ServicePointScheduler*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_operationArray_5__2", ty:
+  // "::ArrayW<::System::ValueTuple_2<::System::Net::ServicePointScheduler_ConnectionGroup*,::System::Net::WebOperation*>>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_idleArray_5__3", ty: "::ArrayW<::System::ValueTuple_3<::System::Net::ServicePointScheduler_ConnectionGroup*,::System::Net::WebConnection*,::System::Threading::Tasks::Task*>>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_taskList_5__4", ty: "::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_schedulerTask_5__5", ty: "::System::Threading::Tasks::Task_1<bool>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_finalCleanup_5__6", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None, comment: None }]
   constexpr ServicePointScheduler__RunScheduler_d__32(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::ServicePointScheduler* __4__this,
       ::ArrayW<::System::ValueTuple_2<::System::Net::ServicePointScheduler_ConnectionGroup*, ::System::Net::WebOperation*>> _operationArray_5__2,
@@ -456,6 +463,7 @@ static_assert(offsetof(::System::Net::ServicePointScheduler__RunScheduler_d__32,
 static_assert(sizeof(::System::Net::ServicePointScheduler__RunScheduler_d__32) == 0x60, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace System::Net {
 // Is value type: true
@@ -469,6 +477,7 @@ public:
   /// @brief Method MoveNext, addr 0x6341b5c, size 0x554, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x63420b0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -479,11 +488,12 @@ public:
   // @brief default ctor
   constexpr ServicePointScheduler__WaitAsync_d__46();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "millisecondTimeout", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "workerTask", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }, CppParam { name: "_cts_5__2", ty: "::System::Threading::CancellationTokenSource*",
-  // modifiers: "", def_value: None }, CppParam { name: "_timeoutTask_5__3", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "millisecondTimeout", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "workerTask", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cts_5__2", ty:
+  // "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeoutTask_5__3", ty: "::System::Threading::Tasks::Task*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ServicePointScheduler__WaitAsync_d__46(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, int32_t millisecondTimeout,
                                                    ::System::Threading::Tasks::Task* workerTask, ::System::Threading::CancellationTokenSource* _cts_5__2,
                                                    ::System::Threading::Tasks::Task* _timeoutTask_5__3,
@@ -632,6 +642,7 @@ public:
   /// @brief Method Run, addr 0x633ea0c, size 0xd4, virtual false, abstract: false, final false
   inline void Run();
 
+  /// [AsyncStateMachine(typeof(System.Net.ServicePointScheduler::<RunScheduler>d__32))]
   /// @brief Method RunScheduler, addr 0x633ed34, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RunScheduler();
 
@@ -644,9 +655,11 @@ public:
   /// @brief Method SendRequest, addr 0x633d7b0, size 0xe4, virtual false, abstract: false, final false
   inline void SendRequest(::System::Net::WebOperation* operation, ::StringW groupName);
 
+  /// [AsyncStateMachine(typeof(System.Net.ServicePointScheduler::<WaitAsync>d__46))]
   /// @brief Method WaitAsync, addr 0x63403ec, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* WaitAsync(::System::Threading::Tasks::Task* workerTask, int32_t millisecondTimeout);
 
+  /// [CompilerGenerated]
   /// @brief Method <Run>b__31_0, addr 0x63404e0, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _Run_b__31_0();
 
@@ -739,11 +752,13 @@ public:
   /// @brief Method get_MaxIdleTime, addr 0x633e884, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxIdleTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ServicePoint, addr 0x633e874, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
   static inline void setStaticF_nextId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ServicePoint, addr 0x633e87c, size 0x8, virtual false, abstract: false, final false
   inline void set_ServicePoint(::System::Net::ServicePoint* value);
 
@@ -753,17 +768,18 @@ protected:
   constexpr ServicePointScheduler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServicePointScheduler(ServicePointScheduler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointScheduler(ServicePointScheduler const&) = delete;
+  ServicePointScheduler(ServicePointSchedulerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11632 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ServicePoint>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::ServicePoint* ____ServicePoint_k__BackingField;
 

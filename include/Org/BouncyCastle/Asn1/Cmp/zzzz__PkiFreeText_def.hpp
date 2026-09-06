@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\PkiFreeText.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PkiFreeText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class PkiFreeText;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*, "Org.BouncyCastle.Asn1.Cmp", "PkiFreeText");
+// [DefaultMember("Item")]
 // Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
@@ -39,6 +40,7 @@ public:
 
   __declspec(property(get = get_Item)) ::Org::BouncyCastle::Asn1::DerUtf8String* Item[];
 
+  /// @brief [Obsolete("Use \'Count\' property instead")]
   __declspec(property(get = get_Size)) int32_t Size;
 
   /// @brief Field strings, offset 0x10, size 0x8
@@ -50,6 +52,7 @@ public:
   /// @brief Method GetInstance, addr 0x3349d10, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* GetInstance(::System::Object* obj);
 
+  /// [Obsolete("Use \'object[index]\' syntax instead")]
   /// @brief Method GetStringAt, addr 0x334e3ec, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetStringAt(int32_t index);
 
@@ -87,13 +90,13 @@ protected:
   constexpr PkiFreeText();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkiFreeText", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkiFreeText", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkiFreeText(PkiFreeText&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkiFreeText", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkiFreeText", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PkiFreeText(PkiFreeText const&) = delete;
+  PkiFreeText(PkiFreeTextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 36 };

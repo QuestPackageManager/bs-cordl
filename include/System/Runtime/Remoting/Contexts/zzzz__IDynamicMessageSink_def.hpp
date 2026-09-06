@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Contexts\IDynamicMessageSink.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/IDynamicMessageSink.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class IDynamicMessageSink;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Contexts::IDynamicMessageSink*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Contexts::IDynamicMessageSink*, "System.Runtime.Remoting.Contexts", "IDynamicMessageSink");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
@@ -21,15 +22,15 @@ namespace System::Runtime::Remoting::Contexts {
 class CORDL_TYPE IDynamicMessageSink {
 public:
   // Declarations
-  /// @brief Method ProcessMessageFinish, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessMessageFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessMessageFinish(::System::Runtime::Remoting::Messaging::IMessage* replyMsg, bool bCliSide, bool bAsync);
 
-  /// @brief Method ProcessMessageStart, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessMessageStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessMessageStart(::System::Runtime::Remoting::Messaging::IMessage* reqMsg, bool bCliSide, bool bAsync);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDynamicMessageSink", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDynamicMessageSink", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDynamicMessageSink(IDynamicMessageSink const&) = delete;
+  IDynamicMessageSink(IDynamicMessageSinkconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3128 };

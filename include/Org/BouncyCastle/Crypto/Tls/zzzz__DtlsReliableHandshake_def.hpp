@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DtlsReliableHandshake.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DtlsReliableHandshake.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,13 +120,13 @@ protected:
   constexpr DtlsReliableHandshake_Message();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Message", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Message", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsReliableHandshake_Message(DtlsReliableHandshake_Message&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Message", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Message", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReliableHandshake_Message(DtlsReliableHandshake_Message const&) = delete;
+  DtlsReliableHandshake_Message(DtlsReliableHandshake_Messageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1230 };
@@ -173,13 +173,13 @@ protected:
   constexpr DtlsReliableHandshake_RecordLayerBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_RecordLayerBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_RecordLayerBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsReliableHandshake_RecordLayerBuffer(DtlsReliableHandshake_RecordLayerBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_RecordLayerBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_RecordLayerBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReliableHandshake_RecordLayerBuffer(DtlsReliableHandshake_RecordLayerBuffer const&) = delete;
+  DtlsReliableHandshake_RecordLayerBuffer(DtlsReliableHandshake_RecordLayerBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1231 };
@@ -226,13 +226,13 @@ protected:
   constexpr DtlsReliableHandshake_Retransmit();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Retransmit", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Retransmit", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsReliableHandshake_Retransmit(DtlsReliableHandshake_Retransmit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Retransmit", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Retransmit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReliableHandshake_Retransmit(DtlsReliableHandshake_Retransmit const&) = delete;
+  DtlsReliableHandshake_Retransmit(DtlsReliableHandshake_Retransmitconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1232 };
@@ -422,13 +422,13 @@ protected:
   constexpr DtlsReliableHandshake();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsReliableHandshake(DtlsReliableHandshake&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReliableHandshake(DtlsReliableHandshake const&) = delete;
+  DtlsReliableHandshake(DtlsReliableHandshakeconst&) = delete;
 
   /// @brief Field InitialResendMillis offset 0xffffffff size 0x4
   static constexpr int32_t InitialResendMillis{ static_cast<int32_t>(0x3e8) };

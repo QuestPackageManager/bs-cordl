@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Watermark.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Watermark.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class Watermark;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Watermark*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Watermark*, "UnityEngine.Rendering", "Watermark");
+// [NativeHeader("Runtime/Graphics/DrawSplashScreenAndWatermarks.h")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -19,6 +20,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE Watermark : public ::System::Object {
 public:
   // Declarations
+  /// [FreeFunction("IsAnyWatermarkVisible")]
   /// @brief Method IsVisible, addr 0x6b1cd80, size 0x28, virtual false, abstract: false, final false
   static inline bool IsVisible();
 
@@ -28,13 +30,13 @@ protected:
   constexpr Watermark();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Watermark", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Watermark", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Watermark(Watermark&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Watermark", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Watermark", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Watermark(Watermark const&) = delete;
+  Watermark(Watermarkconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10784 };

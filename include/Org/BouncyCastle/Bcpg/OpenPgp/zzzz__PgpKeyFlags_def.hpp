@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpKeyFlags.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpKeyFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr PgpKeyFlags();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpKeyFlags", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpKeyFlags", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpKeyFlags(PgpKeyFlags&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpKeyFlags", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpKeyFlags", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpKeyFlags(PgpKeyFlags const&) = delete;
+  PgpKeyFlags(PgpKeyFlagsconst&) = delete;
 
   /// @brief Field CanCertify offset 0xffffffff size 0x4
   static constexpr int32_t CanCertify{ static_cast<int32_t>(0x1) };

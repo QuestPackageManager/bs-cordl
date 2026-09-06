@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OculusPlatformLeaderboardsHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/OculusPlatformLeaderboardsHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,6 +89,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*, "
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0*, "", "OculusPlatformLeaderboardsHandler/<>c__DisplayClass5_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0*, "", "OculusPlatformLeaderboardsHandler/<>c__DisplayClass7_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0*, "", "OculusPlatformLeaderboardsHandler/<>c__DisplayClass8_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -124,13 +125,13 @@ protected:
   constexpr OculusPlatformLeaderboardsHandler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformLeaderboardsHandler___c(OculusPlatformLeaderboardsHandler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler___c(OculusPlatformLeaderboardsHandler___c const&) = delete;
+  OculusPlatformLeaderboardsHandler___c(OculusPlatformLeaderboardsHandler___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15298 };
@@ -141,6 +142,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OculusPlatformLeaderboardsHandler___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -180,13 +182,13 @@ protected:
   constexpr OculusPlatformLeaderboardsHandler___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformLeaderboardsHandler___c__DisplayClass5_0(OculusPlatformLeaderboardsHandler___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler___c__DisplayClass5_0(OculusPlatformLeaderboardsHandler___c__DisplayClass5_0 const&) = delete;
+  OculusPlatformLeaderboardsHandler___c__DisplayClass5_0(OculusPlatformLeaderboardsHandler___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15299 };
@@ -207,6 +209,7 @@ static_assert(offsetof(::GlobalNamespace::OculusPlatformLeaderboardsHandler___c_
 static_assert(sizeof(::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -256,13 +259,13 @@ protected:
   constexpr OculusPlatformLeaderboardsHandler___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformLeaderboardsHandler___c__DisplayClass7_0(OculusPlatformLeaderboardsHandler___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler___c__DisplayClass7_0(OculusPlatformLeaderboardsHandler___c__DisplayClass7_0 const&) = delete;
+  OculusPlatformLeaderboardsHandler___c__DisplayClass7_0(OculusPlatformLeaderboardsHandler___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15300 };
@@ -288,6 +291,7 @@ static_assert(offsetof(::GlobalNamespace::OculusPlatformLeaderboardsHandler___c_
 static_assert(sizeof(::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -328,13 +332,13 @@ protected:
   constexpr OculusPlatformLeaderboardsHandler___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformLeaderboardsHandler___c__DisplayClass8_0(OculusPlatformLeaderboardsHandler___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler___c__DisplayClass8_0(OculusPlatformLeaderboardsHandler___c__DisplayClass8_0 const&) = delete;
+  OculusPlatformLeaderboardsHandler___c__DisplayClass8_0(OculusPlatformLeaderboardsHandler___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15301 };
@@ -387,7 +391,7 @@ public:
   inline bool CheckMessageForValidRequest(::Oculus::Platform::Message* message);
 
   /// @brief Method GetScores, addr 0x375ba70, size 0x27c, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::HMAsyncRequest* GetScores(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
+  inline ::GlobalNamespace::HMAsyncRequest* GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope, uint64_t referencePlayerId,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
@@ -424,13 +428,13 @@ protected:
   constexpr OculusPlatformLeaderboardsHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformLeaderboardsHandler(OculusPlatformLeaderboardsHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler(OculusPlatformLeaderboardsHandler const&) = delete;
+  OculusPlatformLeaderboardsHandler(OculusPlatformLeaderboardsHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15302 };
@@ -438,6 +442,7 @@ public:
   /// @brief Field kAnonymousUserLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kAnonymousUserLocalizationKey{ u"ANONYMOUS_USER" };
 
+  /// [Inject]
   /// @brief Field _leaderboardIdsModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LeaderboardIdsModel* ____leaderboardIdsModel;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\noise.hpp"
+// IWYU pragma private; include "Unity/Mathematics/noise.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class noise;
 // Write type traits
 MARK_REF_T(::Unity::Mathematics::noise*);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::noise*, "Unity.Mathematics", "noise");
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies System.Object
 namespace Unity::Mathematics {
 // Is value type: false
@@ -149,13 +150,13 @@ protected:
   constexpr noise();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "noise", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "noise", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   noise(noise&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "noise", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "noise", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  noise(noise const&) = delete;
+  noise(noiseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13196 };

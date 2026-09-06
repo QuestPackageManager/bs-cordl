@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XDocumentWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XDocumentWrapper.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XContainerWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XDocumentWrapper_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDocument_def.hpp"
@@ -280,38 +280,39 @@ inline bool Newtonsoft::Json::Converters::XDocumentWrapper::get_HasChildNodes() 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(), 23 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateComment(::StringW text) {
+inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateComment(/* [Nullable(2)] */ ::StringW text) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(), { "CreateComment", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::IXmlNode*>(this, ___internal_method, text);
 }
-inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateTextNode(::StringW text) {
+inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateTextNode(/* [Nullable(2)] */ ::StringW text) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(), { "CreateTextNode", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::IXmlNode*>(this, ___internal_method, text);
 }
-inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateCDataSection(::StringW data) {
+inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateCDataSection(/* [Nullable(2)] */ ::StringW data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(), { "CreateCDataSection", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::IXmlNode*>(this, ___internal_method, data);
 }
-inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateWhitespace(::StringW text) {
+inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateWhitespace(/* [Nullable(2)] */ ::StringW text) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(), { "CreateWhitespace", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::IXmlNode*>(this, ___internal_method, text);
 }
-inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateSignificantWhitespace(::StringW text) {
+inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateSignificantWhitespace(/* [Nullable(2)] */ ::StringW text) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(), { "CreateSignificantWhitespace", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::IXmlNode*>(this, ___internal_method, text);
 }
-inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateXmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone) {
+inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateXmlDeclaration(::StringW version, /* [Nullable(2)] */ ::StringW encoding,
+                                                                                                                      /* [Nullable(2)] */ ::StringW standalone) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(),
                                                            { "CreateXmlDeclaration", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::IXmlNode*>(this, ___internal_method, version, encoding, standalone);
 }
-inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateXmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId,
+inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentWrapper::CreateXmlDocumentType(/* [Nullable(1)] */ ::StringW name, ::StringW publicId, ::StringW systemId,
                                                                                                                        ::StringW internalSubset) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},

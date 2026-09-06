@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\AssetDetails.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/AssetDetails.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,13 +110,13 @@ protected:
   constexpr AssetDetails();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetDetails", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetDetails", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetDetails(AssetDetails&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetDetails", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetDetails", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetDetails(AssetDetails const&) = delete;
+  AssetDetails(AssetDetailsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18019 };
@@ -139,6 +139,7 @@ public:
   /// @brief Field LanguageOptional, offset: 0x38, size: 0x8, def value: None
   ::Oculus::Platform::Models::LanguagePackInfo* ___LanguageOptional;
 
+  /// [Obsolete("Deprecated in favor of LanguageOptional")]
   /// @brief Field Language, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::LanguagePackInfo* ___Language;
 

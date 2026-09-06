@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FirstPersonFlyingController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FirstPersonFlyingController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -190,44 +190,61 @@ protected:
   constexpr FirstPersonFlyingController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FirstPersonFlyingController(FirstPersonFlyingController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FirstPersonFlyingController(FirstPersonFlyingController const&) = delete;
+  FirstPersonFlyingController(FirstPersonFlyingControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6803 };
 
+  /// [SerializeField]
   /// @brief Field _moveSensitivity, offset: 0x20, size: 0x4, def value: None
   float_t ____moveSensitivity;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _transform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _camera, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
+  /// [SerializeField]
   /// @brief Field _cameraFov, offset: 0x38, size: 0x4, def value: None
   float_t ____cameraFov;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _centerAdjust, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRCenterAdjust> ____centerAdjust;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _controller0, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____controller0;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _controller1, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____controller1;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _controllerModels, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____controllerModels;
 
+  /// [SerializeField]
   /// @brief Field _mouseLook, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::MouseLook* ____mouseLook;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _trackedPoseDriver, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> ____trackedPoseDriver;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Angle.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Angle.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__AngleUnit_impl.hpp"
@@ -8,7 +8,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AngleUnit_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Angle_Unit::Angle_Unit(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -289,8 +289,8 @@ constexpr UnityEngine::UIElements::Angle::operator ::System::IEquatable_1<::Unit
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* UnityEngine::UIElements::Angle::i___System__IEquatable_1___UnityEngine__UIElements__Angle_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Angle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::Angle_Unit", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::Angle_Unit", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Angle::Angle(float_t m_Value, ::UnityEngine::UIElements::Angle_Unit m_Unit) noexcept {
   this->m_Value = m_Value;
   this->m_Unit = m_Unit;

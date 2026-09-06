@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\PInfo.hpp"
+// IWYU pragma private; include "System/Reflection/PInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct PInfo;
 // Write type traits
 MARK_VAL_T(::System::Reflection::PInfo);
 DEFINE_IL2CPP_CLASS(::System::Reflection::PInfo, "System.Reflection", "PInfo");
+// [Flags]
 // Dependencies
 namespace System::Reflection {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr PInfo();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PInfo(int32_t value__) noexcept;
 
   /// @brief Field Attributes value: I32(1)

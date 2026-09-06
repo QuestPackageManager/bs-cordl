@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetPSSaberGlowColor.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetPSSaberGlowColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class SetPSSaberGlowColor;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SetPSSaberGlowColor*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SetPSSaberGlowColor*, "", "SetPSSaberGlowColor");
+// [AddComponentMenu("Beat Saber/Gameplay/SetPSSaberGlowColor")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -69,23 +70,26 @@ protected:
   constexpr SetPSSaberGlowColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetPSSaberGlowColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPSSaberGlowColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetPSSaberGlowColor(SetPSSaberGlowColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetPSSaberGlowColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPSSaberGlowColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetPSSaberGlowColor(SetPSSaberGlowColor const&) = delete;
+  SetPSSaberGlowColor(SetPSSaberGlowColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6238 };
 
+  /// [SerializeField]
   /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saber;
 
+  /// [SerializeField]
   /// @brief Field _colorManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [SerializeField]
   /// @brief Field _particleSystem, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 

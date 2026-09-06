@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlNamedNodeMap.hpp"
+// IWYU pragma private; include "System/Xml/XmlNamedNodeMap.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
@@ -229,7 +229,7 @@ inline ::System::Collections::IEnumerator* System::Xml::XmlNamedNodeMap_SmallXml
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNamedNodeMap_SmallXmlNodeList>(), { "GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "field", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "field", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::XmlNamedNodeMap_SmallXmlNodeList(::System::Object* field) noexcept {
   this->field = field;
 }

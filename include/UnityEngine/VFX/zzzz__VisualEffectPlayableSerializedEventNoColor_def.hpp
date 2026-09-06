@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectPlayableSerializedEventNoColor.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectPlayableSerializedEventNoColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,9 +36,9 @@ public:
   // @brief default ctor
   constexpr VisualEffectPlayableSerializedEventNoColor();
 
-  // Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "timeSpace", ty: "::UnityEngine::VFX::PlayableTimeSpace", modifiers: "", def_value:
-  // None }, CppParam { name: "name", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: None }, CppParam { name: "eventAttributes", ty:
-  // "::UnityEngine::VFX::EventAttributes", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "timeSpace", ty: "::UnityEngine::VFX::PlayableTimeSpace", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "name", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "eventAttributes", ty: "::UnityEngine::VFX::EventAttributes", modifiers: "", def_value: None, comment: None }]
   constexpr VisualEffectPlayableSerializedEventNoColor(double_t time, ::UnityEngine::VFX::PlayableTimeSpace timeSpace, ::UnityEngine::VFX::Utility::ExposedProperty* name,
                                                        ::UnityEngine::VFX::EventAttributes eventAttributes) noexcept;
 

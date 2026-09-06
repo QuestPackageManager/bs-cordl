@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Path.hpp"
+// IWYU pragma private; include "System/IO/Path.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__Path_def.hpp"
 #include "System/Buffers/zzzz__SpanAction_2_def.hpp"
@@ -93,7 +93,9 @@ inline void System::IO::Path___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Path___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::IO::Path___c::_JoinInternal_b__56_0(::System::Span_1<char16_t> destination, ::System::ValueTuple_5<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool> state) {
+inline void System::IO::Path___c::_JoinInternal_b__56_0(
+    ::System::Span_1<char16_t> destination,
+    /* [TupleElementNames(new[] { "First", "FirstLength", "Second", "SecondLength", "HasSeparator" })] */ ::System::ValueTuple_5<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool> state) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -101,9 +103,11 @@ inline void System::IO::Path___c::_JoinInternal_b__56_0(::System::Span_1<char16_
           { "<JoinInternal>b__56_0", {}, { ::i2c::type_of<::System::Span_1<char16_t>>(), ::i2c::type_of<::System::ValueTuple_5<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, destination, state);
 }
-inline void
-System::IO::Path___c::_JoinInternal_b__57_0(::System::Span_1<char16_t> destination,
-                                            ::System::ValueTuple_8<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool, ::System::ValueTuple_1<bool>> state) {
+inline void System::IO::Path___c::_JoinInternal_b__57_0(
+    ::System::Span_1<char16_t> destination,
+    /* [TupleElementNames(new[] { "First", "FirstLength", "Second", "SecondLength", "Third", "ThirdLength", "FirstHasSeparator", "ThirdHasSeparator", null })] */ ::System::ValueTuple_8<
+        ::System::IntPtr, int32_t, ::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool, ::System::ValueTuple_1<bool>>
+        state) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::System::IO::Path___c*>(),
@@ -639,7 +643,7 @@ inline ::StringW System::IO::Path::CanonicalizePath(::StringW path) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Path*>(), { "CanonicalizePath", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, path);
 }
-inline ::StringW System::IO::Path::Combine(::ArrayW<::StringW> paths) {
+inline ::StringW System::IO::Path::Combine(/* [ParamArray] */ ::ArrayW<::StringW> paths) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Path*>(), { "Combine", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, paths);
 }

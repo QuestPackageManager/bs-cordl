@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonSerializerProxy.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonSerializerProxy.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerProxy_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ErrorEventArgs_def.hpp"
@@ -1014,12 +1014,12 @@ constexpr void Newtonsoft::Json::Serialization::JsonSerializerProxy::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____serializer = value;
 }
-inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::add_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
+inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::add_Error(/* [Nullable(new[] { 2, 1 })] */ ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerProxy*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::remove_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
+inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::remove_Error(/* [Nullable(new[] { 2, 1 })] */ ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerProxy*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
@@ -1334,7 +1334,7 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::_ctor(::Newton
                                                                                          { ".ctor", {}, { ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializerWriter);
 }
-inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerProxy::DeserializeInternal(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType) {
+inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerProxy::DeserializeInternal(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerProxy*>(), 66 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType);
@@ -1344,7 +1344,7 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::PopulateIntern
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerProxy*>(), 65 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, target);
 }
-inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::SerializeInternal(::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value, ::System::Type* rootType) {
+inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::SerializeInternal(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value, ::System::Type* rootType) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerProxy*>(), 67 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jsonWriter, value, rootType);

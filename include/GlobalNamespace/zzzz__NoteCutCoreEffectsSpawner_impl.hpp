@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutCoreEffectsSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutCoreEffectsSpawner.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutCoreEffectsSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
@@ -292,7 +292,7 @@ inline void GlobalNamespace::NoteCutCoreEffectsSpawner::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutCoreEffectsSpawner*>(), { "OnDestroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::NoteCutCoreEffectsSpawner::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::NoteCutCoreEffectsSpawner::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutCoreEffectsSpawner*>(),
                                               { "HandleNoteWasCut", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));
@@ -310,7 +310,7 @@ inline void GlobalNamespace::NoteCutCoreEffectsSpawner::PlayHitChainNoteHapticEf
                                                            { "PlayHitChainNoteHapticEffect", {}, { ::i2c::type_of<::GlobalNamespace::NoteCutInfo>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteCutInfo, isChainHead);
 }
-inline void GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController,
+inline void GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController,
                                                                            int32_t sparkleParticlesCount, int32_t explosionParticlesCount) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutCoreEffectsSpawner*>(),
@@ -320,7 +320,7 @@ inline void GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect(::by_
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteCutInfo, noteController, sparkleParticlesCount, explosionParticlesCount);
 }
-inline void GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnBombCutEffect(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController) {
+inline void GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnBombCutEffect(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutCoreEffectsSpawner*>(),
                                               { "SpawnBombCutEffect", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>(), ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));

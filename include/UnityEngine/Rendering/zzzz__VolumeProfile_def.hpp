@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeProfile.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeProfile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__VolumeComponent_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VolumeProfile)
@@ -34,6 +35,7 @@ MARK_REF_T(::UnityEngine::Rendering::VolumeProfile*);
 MARK_REF_T(::UnityEngine::Rendering::VolumeProfile___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeProfile*, "UnityEngine.Rendering", "VolumeProfile");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeProfile___c*, "UnityEngine.Rendering", "VolumeProfile/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -69,13 +71,13 @@ protected:
   constexpr VolumeProfile___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeProfile___c(VolumeProfile___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeProfile___c(VolumeProfile___c const&) = delete;
+  VolumeProfile___c(VolumeProfile___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12375 };
@@ -86,7 +88,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::VolumeProfile___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.ScriptableObject
+// Dependencies UnityEngine.Rendering.VolumeComponent, UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeProfile
@@ -106,7 +108,9 @@ public:
   inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> Add(::System::Type* type, bool overrides);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Add(bool overrides);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline T Add(bool overrides);
 
   /// @brief Method GetComponentListHashCode, addr 0x67ceda8, size 0xc4, virtual false, abstract: false, final false
   inline int32_t GetComponentListHashCode();
@@ -115,7 +119,9 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method Has, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool Has();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline bool Has();
 
   /// @brief Method Has, addr 0x67ce954, size 0x148, virtual false, abstract: false, final false
   inline bool Has(::System::Type* type);
@@ -132,7 +138,9 @@ public:
   inline void OnEnable();
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Remove();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline void Remove();
 
   /// @brief Method Remove, addr 0x67cea9c, size 0x10c, virtual false, abstract: false, final false
   inline void Remove(::System::Type* type);
@@ -144,16 +152,24 @@ public:
   inline void Sanitize();
 
   /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGet(::by_ref<T> component);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline bool TryGet(::by_ref<T> component);
 
   /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGet(::System::Type* type, ::by_ref<T> component);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline bool TryGet(::System::Type* type, ::by_ref<T> component);
 
   /// @brief Method TryGetAllSubclassOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetAllSubclassOf(::System::Type* type, ::System::Collections::Generic::List_1<T>* result);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline bool TryGetAllSubclassOf(::System::Type* type, ::System::Collections::Generic::List_1<T>* result);
 
   /// @brief Method TryGetSubclassOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetSubclassOf(::System::Type* type, ::by_ref<T> component);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline bool TryGetSubclassOf(::System::Type* type, ::by_ref<T> component);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* const& __cordl_internal_get_components() const;
 
@@ -176,13 +192,13 @@ protected:
   constexpr VolumeProfile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeProfile(VolumeProfile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeProfile(VolumeProfile const&) = delete;
+  VolumeProfile(VolumeProfileconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12376 };

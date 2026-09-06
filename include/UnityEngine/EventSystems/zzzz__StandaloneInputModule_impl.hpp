@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\StandaloneInputModule.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/StandaloneInputModule.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__StandaloneInputModule_def.hpp"
@@ -8,7 +8,7 @@
 #include "UnityEngine/EventSystems/zzzz__StandaloneInputModule_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::EventSystems::StandaloneInputModule_InputMode::StandaloneInputModule_InputMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

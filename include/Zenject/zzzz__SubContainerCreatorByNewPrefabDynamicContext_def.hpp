@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerCreatorByNewPrefabDynamicContext.hpp"
+// IWYU pragma private; include "Zenject/SubContainerCreatorByNewPrefabDynamicContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class SubContainerCreatorByNewPrefabDynamicContext;
 // Write type traits
 MARK_REF_T(::Zenject::SubContainerCreatorByNewPrefabDynamicContext*);
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerCreatorByNewPrefabDynamicContext*, "Zenject", "SubContainerCreatorByNewPrefabDynamicContext");
+// [NoReflectionBaking]
 // Dependencies Zenject.SubContainerCreatorDynamicContext
 namespace Zenject {
 // Is value type: false
@@ -64,13 +65,13 @@ protected:
   constexpr SubContainerCreatorByNewPrefabDynamicContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabDynamicContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabDynamicContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByNewPrefabDynamicContext(SubContainerCreatorByNewPrefabDynamicContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabDynamicContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabDynamicContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewPrefabDynamicContext(SubContainerCreatorByNewPrefabDynamicContext const&) = delete;
+  SubContainerCreatorByNewPrefabDynamicContext(SubContainerCreatorByNewPrefabDynamicContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14628 };

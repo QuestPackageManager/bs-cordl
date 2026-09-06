@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\AixStructs\ifreq_flags.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/ifreq_flags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifreq_flags);
 MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::System::Net::NetworkInformation::AixStructs::ifreq_flags, "System.Net.NetworkInformation.AixStructs", "ifreq_flags");
 DEFINE_IL2CPP_CLASS(::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer, "System.Net.NetworkInformation.AixStructs", "ifreq_flags/<ifr_name>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
@@ -33,7 +35,7 @@ public:
   // @brief default ctor
   constexpr ifreq_flags__ifr_name_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ifreq_flags__ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -89,8 +91,8 @@ public:
   // @brief default ctor
   constexpr ifreq_flags();
 
-  // Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "ifru_flags", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "ifru_flags", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ifreq_flags(::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer ifr_name, uint32_t ifru_flags) noexcept;
 
 private:
@@ -100,6 +102,7 @@ private:
     struct {
       /// @brief Padding field 0x0
       uint8_t ___ifr_name_padding[0x0];
+      /// [FixedBuffer(typeof(System.Byte), 16)]
       /// @brief Field ifr_name, offset: 0x0, size: 0x10, def value: None
       ::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer ___ifr_name;
     };
@@ -107,6 +110,7 @@ private:
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___ifr_name_padding_forAlignment[0x0];
+      /// [FixedBuffer(typeof(System.Byte), 16)]
       /// @brief Field ifr_name, offset: 0x0, size: 0x10, def value: None
       ::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer ___ifr_name_forAlignment;
     };

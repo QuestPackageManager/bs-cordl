@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventTweenRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventTweenRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,8 +47,8 @@ public:
   // @brief default ctor
   constexpr BeatmapEventTweenRecorder_EventTweens();
 
-  // Ctor Parameters [CppParam { name: "color", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "translation", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fx", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "color", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "translation", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fx", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapEventTweenRecorder_EventTweens(int32_t color, int32_t rotation, int32_t translation, int32_t fx) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -161,13 +161,13 @@ protected:
   constexpr BeatmapEventTweenRecorder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTweenRecorder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTweenRecorder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventTweenRecorder(BeatmapEventTweenRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTweenRecorder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTweenRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventTweenRecorder(BeatmapEventTweenRecorder const&) = delete;
+  BeatmapEventTweenRecorder(BeatmapEventTweenRecorderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6596 };

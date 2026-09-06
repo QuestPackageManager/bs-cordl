@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\Addressables.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Addressables.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -145,7 +146,7 @@ public:
   // @brief default ctor
   constexpr Addressables_MergeMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Addressables_MergeMode(int32_t value__) noexcept;
 
   /// @brief Field Intersection value: I32(2)
@@ -177,7 +178,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Addressables_MergeMode,
 static_assert(sizeof(::UnityEngine::AddressableAssets::Addressables_MergeMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: UnityEngine.AddressableAssets.Addressables
@@ -238,14 +239,18 @@ public:
 
   /// @brief Method CreateCatalogLocationWithHashDependencies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
   static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
   CreateCatalogLocationWithHashDependencies(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteCatalogLocation);
 
   /// @brief Method CreateCatalogLocationWithHashDependencies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* CreateCatalogLocationWithHashDependencies(::StringW remoteCatalogPath);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
+  static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* CreateCatalogLocationWithHashDependencies(::StringW remoteCatalogPath);
 
   /// @brief Method CreateCatalogLocationWithHashDependencies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
   static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* CreateCatalogLocationWithHashDependencies(::StringW remoteCatalogPath, ::StringW remoteHashPath);
 
   /// @brief Method DownloadDependenciesAsync, addr 0x64523ec, size 0xdc, virtual false, abstract: false, final false
@@ -307,11 +312,13 @@ public:
   InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                    ::UnityEngine::Transform* parent, bool trackHandle);
 
+  /// [Conditional("ADDRESSABLES_LOG_ALL")]
   /// @brief Method InternalSafeSerializationLog, addr 0x644fca4, size 0x118, virtual false, abstract: false, final false
   static inline void InternalSafeSerializationLog(::StringW msg, ::UnityEngine::LogType logType);
 
+  /// [Conditional("ADDRESSABLES_LOG_ALL")]
   /// @brief Method InternalSafeSerializationLogFormat, addr 0x644fed0, size 0x128, virtual false, abstract: false, final false
-  static inline void InternalSafeSerializationLogFormat(::StringW format, ::UnityEngine::LogType logType, ::ArrayW<::System::Object*> args);
+  static inline void InternalSafeSerializationLogFormat(::StringW format, ::UnityEngine::LogType logType, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync(::System::Object* key);
@@ -417,6 +424,7 @@ public:
   LoadSceneAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters,
                  ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad, int32_t priority);
 
+  /// [Conditional("ADDRESSABLES_LOG_ALL")]
   /// @brief Method Log, addr 0x645013c, size 0xac, virtual false, abstract: false, final false
   static inline void Log(::StringW msg);
 
@@ -424,7 +432,7 @@ public:
   static inline void LogError(::StringW msg);
 
   /// @brief Method LogErrorFormat, addr 0x644b758, size 0xb4, virtual false, abstract: false, final false
-  static inline void LogErrorFormat(::StringW format, ::ArrayW<::System::Object*> args);
+  static inline void LogErrorFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method LogException, addr 0x64504cc, size 0x9c, virtual false, abstract: false, final false
   static inline void LogException(::System::Exception* ex);
@@ -432,14 +440,15 @@ public:
   /// @brief Method LogException, addr 0x6450350, size 0xd0, virtual false, abstract: false, final false
   static inline void LogException(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, ::System::Exception* ex);
 
+  /// [Conditional("ADDRESSABLES_LOG_ALL")]
   /// @brief Method LogFormat, addr 0x64501e8, size 0xb4, virtual false, abstract: false, final false
-  static inline void LogFormat(::StringW format, ::ArrayW<::System::Object*> args);
+  static inline void LogFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method LogWarning, addr 0x644ada0, size 0xac, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW msg);
 
   /// @brief Method LogWarningFormat, addr 0x645029c, size 0xb4, virtual false, abstract: false, final false
-  static inline void LogWarningFormat(::StringW format, ::ArrayW<::System::Object*> args);
+  static inline void LogWarningFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Release, addr 0x6451038, size 0x8, virtual false, abstract: false, final false
   static inline void Release(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
@@ -559,13 +568,13 @@ protected:
   constexpr Addressables();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Addressables", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Addressables", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Addressables(Addressables&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Addressables", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Addressables", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Addressables(Addressables const&) = delete;
+  Addressables(Addressablesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19782 };

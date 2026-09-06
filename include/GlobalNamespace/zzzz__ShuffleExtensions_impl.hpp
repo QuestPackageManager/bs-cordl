@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ShuffleExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ShuffleExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "GlobalNamespace/zzzz__ShuffleExtensions_def.hpp"
@@ -259,6 +259,7 @@ template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename T>
 inline ::GlobalNamespace::ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1<T>* GlobalNamespace::ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1<T>*>(__1__state));
@@ -490,6 +491,7 @@ template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShuffleExtensions__TakeWithTombstone_d__2_1<T>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename T> inline ::GlobalNamespace::ShuffleExtensions__TakeWithTombstone_d__2_1<T>* GlobalNamespace::ShuffleExtensions__TakeWithTombstone_d__2_1<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ShuffleExtensions__TakeWithTombstone_d__2_1<T>*>(__1__state));
 }
@@ -859,6 +861,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::ShuffleExtensions__Z
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3* GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3*>(__1__state));
 }

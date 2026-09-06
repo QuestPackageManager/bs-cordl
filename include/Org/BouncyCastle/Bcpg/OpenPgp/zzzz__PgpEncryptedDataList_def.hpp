@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpEncryptedDataList.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpEncryptedDataList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ class PgpEncryptedDataList;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpEncryptedDataList");
+// [DefaultMember("Item")]
 // Dependencies Org.BouncyCastle.Bcpg.OpenPgp.PgpObject
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
@@ -44,6 +45,7 @@ public:
 
   __declspec(property(get = get_Item)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* Item[];
 
+  /// @brief [Obsolete("Use \'Count\' property instead")]
   __declspec(property(get = get_Size)) int32_t Size;
 
   /// @brief Field data, offset 0x18, size 0x8
@@ -52,6 +54,7 @@ public:
   /// @brief Field list, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::IList* list;
 
+  /// [Obsolete("Use \'object[index]\' syntax instead")]
   /// @brief Method Get, addr 0x3583340, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Get(int32_t index);
 
@@ -93,13 +96,13 @@ protected:
   constexpr PgpEncryptedDataList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpEncryptedDataList(PgpEncryptedDataList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedDataList(PgpEncryptedDataList const&) = delete;
+  PgpEncryptedDataList(PgpEncryptedDataListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1643 };

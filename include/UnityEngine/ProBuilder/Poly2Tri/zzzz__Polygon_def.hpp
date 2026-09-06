@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\Polygon.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/Polygon.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,7 +106,7 @@ public:
   /// @brief Method InsertPointAfter, addr 0x66ab194, size 0x134, virtual false, abstract: false, final false
   inline void InsertPointAfter(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* point, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* newPoint);
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* New_ctor(::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> points);
+  static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* New_ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> points);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points);
 
@@ -149,7 +149,7 @@ public:
   constexpr void __cordl_internal_set__triangles(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
 
   /// @brief Method .ctor, addr 0x66aae48, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> points);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> points);
 
   /// @brief Method .ctor, addr 0x66aadb8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points);
@@ -178,13 +178,13 @@ protected:
   constexpr Polygon();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Polygon", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Polygon", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Polygon(Polygon&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Polygon", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Polygon", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Polygon(Polygon const&) = delete;
+  Polygon(Polygonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21757 };

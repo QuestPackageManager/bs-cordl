@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Ray2D.hpp"
+// IWYU pragma private; include "UnityEngine/Ray2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,8 +63,8 @@ public:
   // @brief default ctor
   constexpr Ray2D();
 
-  // Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector2", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector2",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr Ray2D(::UnityEngine::Vector2 m_Origin, ::UnityEngine::Vector2 m_Direction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HumanLimit.hpp"
+// IWYU pragma private; include "UnityEngine/HumanLimit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,9 @@ struct HumanLimit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::HumanLimit);
 DEFINE_IL2CPP_CLASS(::UnityEngine::HumanLimit, "UnityEngine", "HumanLimit");
+// [NativeType((UnityEngine.Bindings.CodegenOptions)1, "MonoHumanLimit")]
+// [NativeHeader("Modules/Animation/HumanDescription.h")]
+// [NativeHeader("Modules/Animation/ScriptBindings/AvatarBuilder.bindings.h")]
 // Dependencies UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -26,9 +29,9 @@ public:
   // @brief default ctor
   constexpr HumanLimit();
 
-  // Ctor Parameters [CppParam { name: "m_Min", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Max", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None
-  // }, CppParam { name: "m_Center", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_AxisLength", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_UseDefaultValues", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Min", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Max", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Center", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AxisLength", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UseDefaultValues", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HumanLimit(::UnityEngine::Vector3 m_Min, ::UnityEngine::Vector3 m_Max, ::UnityEngine::Vector3 m_Center, float_t m_AxisLength, int32_t m_UseDefaultValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

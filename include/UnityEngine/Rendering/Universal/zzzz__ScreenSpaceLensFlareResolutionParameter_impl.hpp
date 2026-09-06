@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceLensFlareResolutionParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceLensFlareResolutionParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceLensFlareResolution_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceLensFlareResolutionParameter_def.hpp"

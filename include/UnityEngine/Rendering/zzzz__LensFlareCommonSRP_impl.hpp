@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LensFlareCommonSRP.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LensFlareCommonSRP.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LensFlareCommonSRP_def.hpp"
@@ -190,10 +190,11 @@ inline ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0* Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::LensFlareCommonSRP___c__DisplayClass51_0() {}
-// Ctor Parameters [CppParam { name: "screenPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "position", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "globalCos0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "globalSin0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "vScreenRatio", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "element", ty: "::UnityEngine::Rendering::LensFlareDataElementSRP*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "combinedScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "usedAspectRatio", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "screenPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "globalCos0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "globalSin0", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "vScreenRatio", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "element", ty:
+// "::UnityEngine::Rendering::LensFlareDataElementSRP*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "combinedScale", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "usedAspectRatio", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass74_0::LensFlareCommonSRP___c__DisplayClass74_0(::UnityEngine::Vector2 screenPos, float_t position, float_t globalCos0,
                                                                                                                        float_t globalSin0, ::UnityEngine::Vector2 vScreenRatio,
                                                                                                                        ::UnityEngine::Rendering::LensFlareDataElementSRP* element,

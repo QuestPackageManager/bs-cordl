@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\TracePayload.hpp"
+// IWYU pragma private; include "System/Runtime/TracePayload.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,9 +47,9 @@ public:
   // @brief default ctor
   constexpr TracePayload();
 
-  // Ctor Parameters [CppParam { name: "serializedException", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "eventSource", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "appDomainFriendlyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "extendedData", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "hostReference", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "serializedException", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "eventSource", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "appDomainFriendlyName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "extendedData", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "hostReference", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr TracePayload(::StringW serializedException, ::StringW eventSource, ::StringW appDomainFriendlyName, ::StringW extendedData, ::StringW hostReference) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

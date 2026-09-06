@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SpeedTreeWindManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SpeedTreeWindManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SpeedTreeWindManager_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"

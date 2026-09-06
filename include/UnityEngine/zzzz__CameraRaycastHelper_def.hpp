@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CameraRaycastHelper.hpp"
+// IWYU pragma private; include "UnityEngine/CameraRaycastHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ class CameraRaycastHelper;
 // Write type traits
 MARK_REF_T(::UnityEngine::CameraRaycastHelper*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CameraRaycastHelper*, "UnityEngine", "CameraRaycastHelper");
+// [NativeHeader("Runtime/Camera/Camera.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -33,9 +34,11 @@ namespace UnityEngine {
 class CORDL_TYPE CameraRaycastHelper : public ::System::Object {
 public:
   // Declarations
+  /// [FreeFunction("CameraScripting::RaycastTry")]
   /// @brief Method RaycastTry, addr 0x6b611e8, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
+  /// [FreeFunction("CameraScripting::RaycastTry2D")]
   /// @brief Method RaycastTry2D, addr 0x6b613bc, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
@@ -51,13 +54,13 @@ protected:
   constexpr CameraRaycastHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CameraRaycastHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraRaycastHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CameraRaycastHelper(CameraRaycastHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CameraRaycastHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraRaycastHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CameraRaycastHelper(CameraRaycastHelper const&) = delete;
+  CameraRaycastHelper(CameraRaycastHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22728 };

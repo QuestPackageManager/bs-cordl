@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorSchemeDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorSchemeDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -160,29 +160,34 @@ protected:
   constexpr ColorSchemeDropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeDropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeDropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemeDropdown(ColorSchemeDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeDropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemeDropdown(ColorSchemeDropdown const&) = delete;
+  ColorSchemeDropdown(ColorSchemeDropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6811 };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
+  /// [SerializeField]
   /// @brief Field _colorSchemeView, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeView> ____colorSchemeView;
 
+  /// [SerializeField]
   /// @brief Field _cellPrefab, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeTableCell> ____cellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _cellReuseIdentifier, offset: 0x70, size: 0x8, def value: None
   ::StringW ____cellReuseIdentifier;
 
+  /// [SerializeField]
   /// @brief Field _cellSize, offset: 0x78, size: 0x4, def value: None
   float_t ____cellSize;
 

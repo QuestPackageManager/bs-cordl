@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ProfilerMetrics.hpp"
+// IWYU pragma private; include "GlobalNamespace/ProfilerMetrics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,8 +46,8 @@ public:
   // @brief default ctor
   constexpr ProfilerMetrics_ProfilerMetric();
 
-  // Ctor Parameters [CppParam { name: "category", ty: "::Unity::Profiling::ProfilerCategory", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "category", ty: "::Unity::Profiling::ProfilerCategory", modifiers: "", def_value: None, comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ProfilerMetrics_ProfilerMetric(::Unity::Profiling::ProfilerCategory category, ::StringW name) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -180,13 +180,13 @@ protected:
   constexpr ProfilerMetrics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilerMetrics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilerMetrics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProfilerMetrics(ProfilerMetrics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilerMetrics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilerMetrics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfilerMetrics(ProfilerMetrics const&) = delete;
+  ProfilerMetrics(ProfilerMetricsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6622 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonException.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonException_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
@@ -81,7 +81,7 @@ inline void Newtonsoft::Json::JsonException::_ctor(::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
-inline void Newtonsoft::Json::JsonException::_ctor(::StringW message, ::System::Exception* innerException) {
+inline void Newtonsoft::Json::JsonException::_ctor(::StringW message, /* [Nullable(2)] */ ::System::Exception* innerException) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Exception*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message, innerException);
@@ -105,7 +105,7 @@ inline ::Newtonsoft::Json::JsonException* Newtonsoft::Json::JsonException::New_c
 inline ::Newtonsoft::Json::JsonException* Newtonsoft::Json::JsonException::New_ctor(::StringW message) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonException*>(message));
 }
-inline ::Newtonsoft::Json::JsonException* Newtonsoft::Json::JsonException::New_ctor(::StringW message, ::System::Exception* innerException) {
+inline ::Newtonsoft::Json::JsonException* Newtonsoft::Json::JsonException::New_ctor(::StringW message, /* [Nullable(2)] */ ::System::Exception* innerException) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonException*>(message, innerException));
 }
 inline ::Newtonsoft::Json::JsonException* Newtonsoft::Json::JsonException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,

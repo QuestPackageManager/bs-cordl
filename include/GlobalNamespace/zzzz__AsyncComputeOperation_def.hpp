@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AsyncComputeOperation.hpp"
+// IWYU pragma private; include "GlobalNamespace/AsyncComputeOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   __declspec(property(get = get_hasTimedOut)) bool hasTimedOut;
 
-  /// @brief Method Execute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Execute(bool disposed);
 
   static inline ::GlobalNamespace::AsyncComputeOperation* New_ctor(int32_t timeoutMs);
@@ -66,13 +66,13 @@ protected:
   constexpr AsyncComputeOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncComputeOperation(AsyncComputeOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncComputeOperation(AsyncComputeOperation const&) = delete;
+  AsyncComputeOperation(AsyncComputeOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18113 };

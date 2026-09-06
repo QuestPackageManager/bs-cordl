@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityEditorBeatmapLevelDataAssetFileModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityEditorBeatmapLevelDataAssetFileModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(UnityEditorBeatmapLevelDataAssetFileModel)
@@ -23,7 +24,7 @@ class UnityEditorBeatmapLevelDataAssetFileModel;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*, "", "UnityEditorBeatmapLevelDataAssetFileModel");
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: UnityEditorBeatmapLevelDataAssetFileModel
@@ -31,7 +32,9 @@ class CORDL_TYPE UnityEditorBeatmapLevelDataAssetFileModel : public ::System::Ob
 public:
   // Declarations
   /// @brief Method LoadAllAssetsFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T> LoadAllAssetsFromAssetDatabase();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline ::ArrayW<T> LoadAllAssetsFromAssetDatabase();
 
   /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x3755bd4, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> LoadBeatmapLevelDataFromAssetDatabase(::StringW levelId);
@@ -43,7 +46,9 @@ public:
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> LoadBeatmapLevelPackFromAssetDatabase(::StringW packId);
 
   /// @brief Method LoadUniqueAssetFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T LoadUniqueAssetFromAssetDatabase(::StringW filename);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline T LoadUniqueAssetFromAssetDatabase(::StringW filename);
 
 protected:
   // Ctor Parameters []
@@ -51,13 +56,13 @@ protected:
   constexpr UnityEditorBeatmapLevelDataAssetFileModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEditorBeatmapLevelDataAssetFileModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEditorBeatmapLevelDataAssetFileModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityEditorBeatmapLevelDataAssetFileModel(UnityEditorBeatmapLevelDataAssetFileModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEditorBeatmapLevelDataAssetFileModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEditorBeatmapLevelDataAssetFileModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityEditorBeatmapLevelDataAssetFileModel(UnityEditorBeatmapLevelDataAssetFileModel const&) = delete;
+  UnityEditorBeatmapLevelDataAssetFileModel(UnityEditorBeatmapLevelDataAssetFileModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15252 };

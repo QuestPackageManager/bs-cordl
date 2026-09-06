@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Object.hpp"
+// IWYU pragma private; include "UnityEngine/Object.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,45 +70,10 @@ MARK_REF_T(::UnityEngine::Object*);
 MARK_REF_T(::UnityEngine::Object_MarshalledUnityObject*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Object*, "UnityEngine", "Object");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Object_MarshalledUnityObject*, "UnityEngine", "Object/MarshalledUnityObject");
-// Dependencies System.Object
-namespace UnityEngine {
-// Is value type: false
-// CS Name: UnityEngine.Object/MarshalledUnityObject
-class CORDL_TYPE Object_MarshalledUnityObject : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Method Marshal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::IntPtr Marshal(T obj);
-
-  /// @brief Method MarshalNotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::IntPtr MarshalNotNull(T obj);
-
-  /// @brief Method TryThrowEditorNullExceptionObject, addr 0x6aeb340, size 0x4, virtual false, abstract: false, final false
-  static inline void TryThrowEditorNullExceptionObject(::UnityEngine::Object* unityObj, ::StringW paramterName);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Object_MarshalledUnityObject();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "Object_MarshalledUnityObject", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Object_MarshalledUnityObject(Object_MarshalledUnityObject&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "Object_MarshalledUnityObject", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Object_MarshalledUnityObject(Object_MarshalledUnityObject const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10378 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(sizeof(::UnityEngine::Object_MarshalledUnityObject) == 0x10, "Size mismatch!");
-
-} // namespace UnityEngine
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [NativeHeader("Runtime/GameCode/CloneObject.h")]
+// [NativeHeader("Runtime/SceneManager/SceneManager.h")]
+// [NativeHeader("Runtime/Export/Scripting/UnityEngineObject.bindings.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -134,38 +99,48 @@ public:
   /// @brief Method CompareBaseObjects, addr 0x6ae81a4, size 0xb0, virtual false, abstract: false, final false
   static inline bool CompareBaseObjects(::UnityEngine::Object* lhs, ::UnityEngine::Object* rhs);
 
+  /// [NativeMethod(Name = "CurrentThreadIsMainThread", IsFreeFunction = true, IsThreadSafe = true)]
   /// @brief Method CurrentThreadIsMainThread, addr 0x6ae8394, size 0x28, virtual false, abstract: false, final false
   static inline bool CurrentThreadIsMainThread();
 
+  /// [ExcludeFromDocs]
   /// @brief Method Destroy, addr 0x6ae97f0, size 0x5c, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
+  /// [NativeMethod(Name = "Scripting::DestroyObjectFromScripting", IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method Destroy, addr 0x6ae96ec, size 0xb8, virtual false, abstract: false, final false
-  static inline void Destroy(::UnityEngine::Object* obj, float_t t);
+  static inline void Destroy(::UnityEngine::Object* obj, /* [DefaultValue("0.0F")] */ float_t t);
 
+  /// [ExcludeFromDocs]
   /// @brief Method DestroyImmediate, addr 0x6ae9948, size 0x5c, virtual false, abstract: false, final false
   static inline void DestroyImmediate(::UnityEngine::Object* obj);
 
+  /// [NativeMethod(Name = "Scripting::DestroyObjectFromScriptingImmediate", IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method DestroyImmediate, addr 0x6ae984c, size 0xb8, virtual false, abstract: false, final false
-  static inline void DestroyImmediate(::UnityEngine::Object* obj, bool allowDestroyingAssets);
+  static inline void DestroyImmediate(::UnityEngine::Object* obj, /* [DefaultValue("false")] */ bool allowDestroyingAssets);
 
   /// @brief Method DestroyImmediate_Injected, addr 0x6ae9904, size 0x44, virtual false, abstract: false, final false
-  static inline void DestroyImmediate_Injected(::System::IntPtr obj, bool allowDestroyingAssets);
+  static inline void DestroyImmediate_Injected(::System::IntPtr obj, /* [DefaultValue("false")] */ bool allowDestroyingAssets);
 
+  /// [ExcludeFromDocs]
+  /// [Obsolete("use Object.Destroy instead.")]
   /// @brief Method DestroyObject, addr 0x6ae9e94, size 0x5c, virtual false, abstract: false, final false
   static inline void DestroyObject(::UnityEngine::Object* obj);
 
+  /// [Obsolete("use Object.Destroy instead.")]
   /// @brief Method DestroyObject, addr 0x6ae9e2c, size 0x68, virtual false, abstract: false, final false
-  static inline void DestroyObject(::UnityEngine::Object* obj, float_t t);
+  static inline void DestroyObject(::UnityEngine::Object* obj, /* [DefaultValue("0.0F")] */ float_t t);
 
   /// @brief Method Destroy_Injected, addr 0x6ae97a4, size 0x4c, virtual false, abstract: false, final false
-  static inline void Destroy_Injected(::System::IntPtr obj, float_t t);
+  static inline void Destroy_Injected(::System::IntPtr obj, /* [DefaultValue("0.0F")] */ float_t t);
 
+  /// [NativeMethod(Name = "UnityEngineObjectBindings::DoesObjectWithInstanceIDExist", IsFreeFunction = true, IsThreadSafe = true)]
   /// @brief Method DoesObjectWithInstanceIDExist, addr 0x6aeae58, size 0x3c, virtual false, abstract: false, final false
   static inline bool DoesObjectWithInstanceIDExist(int32_t instanceID);
 
+  /// [FreeFunction("GetSceneManager().DontDestroyOnLoad", ThrowsException = true)]
   /// @brief Method DontDestroyOnLoad, addr 0x6ae9b44, size 0xcc, virtual false, abstract: false, final false
-  static inline void DontDestroyOnLoad(::UnityEngine::Object* target);
+  static inline void DontDestroyOnLoad(/* [NotNull] */ ::UnityEngine::Object* target);
 
   /// @brief Method DontDestroyOnLoad_Injected, addr 0x6ae9c10, size 0x3c, virtual false, abstract: false, final false
   static inline void DontDestroyOnLoad_Injected(::System::IntPtr target);
@@ -200,24 +175,34 @@ public:
   /// @brief Method FindFirstObjectByType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FindFirstObjectByType(::UnityEngine::FindObjectsInactive findObjectsInactive);
 
+  /// [FreeFunction("UnityEngineObjectBindings::FindObjectFromInstanceID")]
+  /// [VisibleToOtherModules]
   /// @brief Method FindObjectFromInstanceID, addr 0x6aeae94, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> FindObjectFromInstanceID(int32_t instanceID);
 
   /// @brief Method FindObjectFromInstanceID_Injected, addr 0x6aeafdc, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr FindObjectFromInstanceID_Injected(int32_t instanceID);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)0)]
+  /// [Obsolete("Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType", false)]
   /// @brief Method FindObjectOfType, addr 0x6ae9f88, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> FindObjectOfType(::System::Type* type);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)0)]
+  /// [Obsolete("Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType", false)]
   /// @brief Method FindObjectOfType, addr 0x6aea174, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> FindObjectOfType(::System::Type* type, bool includeInactive);
 
+  /// [Obsolete("Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType", false)]
   /// @brief Method FindObjectOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FindObjectOfType();
 
+  /// [Obsolete("Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType", false)]
   /// @brief Method FindObjectOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FindObjectOfType(bool includeInactive);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)2)]
+  /// [FreeFunction("UnityEngineObjectBindings::FindObjectsByType")]
   /// @brief Method FindObjectsByType, addr 0x6ae9af0, size 0x54, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive, ::UnityEngine::FindObjectsSortMode sortMode);
 
@@ -230,27 +215,43 @@ public:
   /// @brief Method FindObjectsByType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> FindObjectsByType(::UnityEngine::FindObjectsSortMode sortMode);
 
+  /// [Obsolete("Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the
+  /// results by InstanceID, but if you do not need this using FindObjectSortMode.None is considerably faster.", false)]
   /// @brief Method FindObjectsOfType, addr 0x6ae99a4, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfType(::System::Type* type);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)2)]
+  /// [Obsolete("Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the
+  /// results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.", false)] [FreeFunction("UnityEngineObjectBindings::FindObjectsOfType")]
   /// @brief Method FindObjectsOfType, addr 0x6ae9a20, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfType(::System::Type* type, bool includeInactive);
 
+  /// [Obsolete("Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the
+  /// results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.", false)]
   /// @brief Method FindObjectsOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> FindObjectsOfType();
 
+  /// [Obsolete("Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the
+  /// results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.", false)]
   /// @brief Method FindObjectsOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> FindObjectsOfType(bool includeInactive);
 
+  /// [Obsolete("Please use Resources.FindObjectsOfTypeAll instead")]
   /// @brief Method FindObjectsOfTypeAll, addr 0x6ae9f84, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* type);
 
+  /// [Obsolete("use Resources.FindObjectsOfTypeAll instead.")]
+  /// [FreeFunction("UnityEngineObjectBindings::FindObjectsOfTypeIncludingAssets")]
   /// @brief Method FindObjectsOfTypeIncludingAssets, addr 0x6ae9f48, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeIncludingAssets(::System::Type* type);
 
+  /// [Obsolete("Object.FindSceneObjectsOfType has been deprecated, Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindSceneObjectsOfType sorts
+  /// the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.", false)]
   /// @brief Method FindSceneObjectsOfType, addr 0x6ae9ef0, size 0x58, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindSceneObjectsOfType(::System::Type* type);
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("UnityEngineObjectBindings::ForceLoadFromInstanceID")]
   /// @brief Method ForceLoadFromInstanceID, addr 0x6aeb06c, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> ForceLoadFromInstanceID(int32_t instanceID);
 
@@ -266,33 +267,42 @@ public:
   /// @brief Method GetInstanceID, addr 0x6ae801c, size 0x74, virtual false, abstract: false, final false
   inline int32_t GetInstanceID();
 
+  /// [FreeFunction("UnityEngineObjectBindings::GetName", HasExplicitThis = true)]
   /// @brief Method GetName, addr 0x6ae83c8, size 0x15c, virtual false, abstract: false, final false
   inline ::StringW GetName();
 
   /// @brief Method GetName_Injected, addr 0x6aeacc8, size 0x44, virtual false, abstract: false, final false
   static inline void GetName_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [NativeMethod(Name = "Object::GetOffsetOfInstanceIdMember", IsFreeFunction = true, IsThreadSafe = true)]
   /// @brief Method GetOffsetOfInstanceIDInCPlusPlusObject, addr 0x6aea514, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetOffsetOfInstanceIDInCPlusPlusObject();
 
+  /// [FreeFunction("UnityEngineObjectBindings::GetPtrFromInstanceID")]
   /// @brief Method GetPtrFromInstanceID, addr 0x6aeb018, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetPtrFromInstanceID(int32_t instanceID, ::System::Type* objectType, ::by_ref<bool> isMonoBehaviour);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)3)]
   /// @brief Method Instantiate, addr 0x6ae8e48, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)3)]
   /// @brief Method Instantiate, addr 0x6ae9348, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)3)]
   /// @brief Method Instantiate, addr 0x6ae93b4, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)3)]
   /// @brief Method Instantiate, addr 0x6ae86b8, size 0x1bc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)3)]
   /// @brief Method Instantiate, addr 0x6ae8a7c, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)3)]
   /// @brief Method Instantiate, addr 0x6ae90bc, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::SceneManagement::Scene scene);
 
@@ -390,23 +400,27 @@ public:
   static inline ::UnityEngine::AsyncInstantiateOperation_1<T>* InstantiateAsync(T original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                                 ::UnityEngine::InstantiateParameters parameters, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [NativeMethod(Name = "CloneObject", IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method Internal_CloneSingle, addr 0x6ae8f20, size 0x19c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingle(::UnityEngine::Object* data);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingle(/* [NotNull] */ ::UnityEngine::Object* data);
 
+  /// [FreeFunction("CloneObjectWithParams")]
   /// @brief Method Internal_CloneSingleWithParams, addr 0x6aea5bc, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithParams(::UnityEngine::Object* data, ::UnityEngine::InstantiateParameters parameters);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithParams(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::InstantiateParameters parameters);
 
   /// @brief Method Internal_CloneSingleWithParams_Injected, addr 0x6aea768, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_CloneSingleWithParams_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::InstantiateParameters> parameters);
 
+  /// [FreeFunction("CloneObject")]
   /// @brief Method Internal_CloneSingleWithParent, addr 0x6ae94e4, size 0x208, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, bool worldPositionStays);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithParent(/* [NotNull] */ ::UnityEngine::Object* data, /* [NotNull] */ ::UnityEngine::Transform* parent, bool worldPositionStays);
 
   /// @brief Method Internal_CloneSingleWithParent_Injected, addr 0x6aea9cc, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_CloneSingleWithParent_Injected(::System::IntPtr data, ::System::IntPtr parent, bool worldPositionStays);
 
+  /// [FreeFunction("CloneObjectToScene")]
   /// @brief Method Internal_CloneSingleWithScene, addr 0x6ae91a4, size 0x1a4, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithScene(::UnityEngine::Object* data, ::UnityEngine::SceneManagement::Scene scene);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithScene(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::SceneManagement::Scene scene);
 
   /// @brief Method Internal_CloneSingleWithScene_Injected, addr 0x6aea578, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_CloneSingleWithScene_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::SceneManagement::Scene> scene);
@@ -414,29 +428,34 @@ public:
   /// @brief Method Internal_CloneSingle_Injected, addr 0x6aea53c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_CloneSingle_Injected(::System::IntPtr data);
 
+  /// [FreeFunction("InstantiateAsyncObjects")]
   /// @brief Method Internal_InstantiateAsyncWithParams, addr 0x6aeaa20, size 0x128, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_InstantiateAsyncWithParams(::UnityEngine::Object* original, int32_t count, ::UnityEngine::InstantiateParameters parameters, ::System::IntPtr positions,
-                                                                     int32_t positionsCount, ::System::IntPtr rotations, int32_t rotationsCount, bool hasManagedCancellationToken);
+  static inline ::System::IntPtr Internal_InstantiateAsyncWithParams(/* [NotNull] */ ::UnityEngine::Object* original, int32_t count, ::UnityEngine::InstantiateParameters parameters,
+                                                                     ::System::IntPtr positions, int32_t positionsCount, ::System::IntPtr rotations, int32_t rotationsCount,
+                                                                     bool hasManagedCancellationToken);
 
   /// @brief Method Internal_InstantiateAsyncWithParams_Injected, addr 0x6aeab48, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_InstantiateAsyncWithParams_Injected(::System::IntPtr original, int32_t count, ::by_ref<::UnityEngine::InstantiateParameters> parameters,
                                                                               ::System::IntPtr positions, int32_t positionsCount, ::System::IntPtr rotations, int32_t rotationsCount,
                                                                               bool hasManagedCancellationToken);
 
+  /// [FreeFunction("InstantiateObject")]
   /// @brief Method Internal_InstantiateSingle, addr 0x6ae88c0, size 0x1bc, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingle(::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingle(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
+  /// [FreeFunction("InstantiateObjectWithParams")]
   /// @brief Method Internal_InstantiateSingleWithParams, addr 0x6aea7ac, size 0x1c4, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingleWithParams(::UnityEngine::Object* data, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingleWithParams(/* [NotNull] */ ::UnityEngine::Object* data, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                                      ::UnityEngine::InstantiateParameters parameters);
 
   /// @brief Method Internal_InstantiateSingleWithParams_Injected, addr 0x6aea970, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_InstantiateSingleWithParams_Injected(::System::IntPtr data, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation,
                                                                                ::by_ref<::UnityEngine::InstantiateParameters> parameters);
 
+  /// [FreeFunction("InstantiateObject")]
   /// @brief Method Internal_InstantiateSingleWithParent, addr 0x6ae8c28, size 0x220, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 pos,
-                                                                                     ::UnityEngine::Quaternion rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingleWithParent(/* [NotNull] */ ::UnityEngine::Object* data, /* [NotNull] */ ::UnityEngine::Transform* parent,
+                                                                                     ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
   /// @brief Method Internal_InstantiateSingleWithParent_Injected, addr 0x6aeac28, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_InstantiateSingleWithParent_Injected(::System::IntPtr data, ::System::IntPtr parent, ::by_ref<::UnityEngine::Vector3> pos,
@@ -448,12 +467,14 @@ public:
   /// @brief Method IsNativeObjectAlive, addr 0x6ae82bc, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNativeObjectAlive(::UnityEngine::Object* o);
 
+  /// [FreeFunction("UnityEngineObjectBindings::IsPersistent")]
   /// @brief Method IsPersistent, addr 0x6aead0c, size 0xcc, virtual false, abstract: false, final false
-  static inline bool IsPersistent(::UnityEngine::Object* obj);
+  static inline bool IsPersistent(/* [NotNull] */ ::UnityEngine::Object* obj);
 
   /// @brief Method IsPersistent_Injected, addr 0x6aeadd8, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsPersistent_Injected(::System::IntPtr obj);
 
+  /// [FreeFunction("UnityEngineObjectBindings::MarkObjectDirty", HasExplicitThis = true)]
   /// @brief Method MarkDirty, addr 0x6aeb1f0, size 0xa8, virtual false, abstract: false, final false
   inline void MarkDirty();
 
@@ -462,6 +483,7 @@ public:
 
   static inline ::UnityEngine::Object* New_ctor();
 
+  /// [FreeFunction("UnityEngineObjectBindings::SetName", HasExplicitThis = true)]
   /// @brief Method SetName, addr 0x6ae8528, size 0x190, virtual false, abstract: false, final false
   inline void SetName(::StringW name);
 
@@ -471,6 +493,7 @@ public:
   /// @brief Method ToString, addr 0x6aea384, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [FreeFunction("UnityEngineObjectBindings::ToString")]
   /// @brief Method ToString, addr 0x6aea3dc, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW ToString(::UnityEngine::Object* obj);
 
@@ -501,7 +524,7 @@ public:
   static inline bool op_Equality(::UnityEngine::Object* x, ::UnityEngine::Object* y);
 
   /// @brief Method op_Implicit, addr 0x6ae8254, size 0x68, virtual false, abstract: false, final false
-  static inline bool op_Implicit_bool(::UnityEngine::Object* exists);
+  static inline bool op_Implicit_bool(/* [MaybeNullWhen(false)] [NotNullWhen(true)] */ ::UnityEngine::Object* exists);
 
   /// @brief Method op_Inequality, addr 0x6ae0c14, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Object* x, ::UnityEngine::Object* y);
@@ -523,13 +546,13 @@ protected:
   constexpr Object();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Object(Object&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Object(Object const&) = delete;
+  Object(Objectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10379 };
@@ -552,5 +575,49 @@ public:
 static_assert(offsetof(::UnityEngine::Object, ___m_CachedPtr) == 0x10, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Object) == 0x18, "Size mismatch!");
+
+} // namespace UnityEngine
+// [VisibleToOtherModules]
+// Dependencies System.Object, UnityEngine.Object
+namespace UnityEngine {
+// Is value type: false
+// CS Name: UnityEngine.Object/MarshalledUnityObject
+class CORDL_TYPE Object_MarshalledUnityObject : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Method Marshal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline ::System::IntPtr Marshal(T obj);
+
+  /// @brief Method MarshalNotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline ::System::IntPtr MarshalNotNull(T obj);
+
+  /// @brief Method TryThrowEditorNullExceptionObject, addr 0x6aeb340, size 0x4, virtual false, abstract: false, final false
+  static inline void TryThrowEditorNullExceptionObject(::UnityEngine::Object* unityObj, ::StringW paramterName);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Object_MarshalledUnityObject();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "Object_MarshalledUnityObject", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Object_MarshalledUnityObject(Object_MarshalledUnityObject&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "Object_MarshalledUnityObject", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Object_MarshalledUnityObject(Object_MarshalledUnityObjectconst&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10378 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Object_MarshalledUnityObject) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine

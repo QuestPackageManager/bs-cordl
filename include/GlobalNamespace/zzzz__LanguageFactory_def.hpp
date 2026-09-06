@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LanguageFactory.hpp"
+// IWYU pragma private; include "GlobalNamespace/LanguageFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,13 +91,13 @@ protected:
   constexpr LanguageFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LanguageFactory(LanguageFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LanguageFactory(LanguageFactory const&) = delete;
+  LanguageFactory(LanguageFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21022 };

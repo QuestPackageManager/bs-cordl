@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\RangePositionInfo.hpp"
+// IWYU pragma private; include "System/Xml/Schema/RangePositionInfo.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__RangePositionInfo_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
-// Ctor Parameters [CppParam { name: "curpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}") }, CppParam { name: "rangeCounters", ty: "::ArrayW<::System::Decimal>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "curpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rangeCounters", ty:
+// "::ArrayW<::System::Decimal>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::RangePositionInfo::RangePositionInfo(::System::Xml::Schema::BitSet* curpos, ::ArrayW<::System::Decimal> rangeCounters) noexcept {
   this->curpos = curpos;
   this->rangeCounters = rangeCounters;

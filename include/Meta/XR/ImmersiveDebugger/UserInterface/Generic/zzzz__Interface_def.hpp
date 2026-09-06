@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Interface.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Interface.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,21 +121,27 @@ public:
   /// @brief Method get_Camera, addr 0x5a5d41c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_Camera();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Cursor, addr 0x5a5ee54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor> get_Cursor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_FollowOverride, addr 0x5a5ee64, size 0x8, virtual true, abstract: false, final false
   inline bool get_FollowOverride();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RotateOverride, addr 0x5a5ee74, size 0x8, virtual true, abstract: false, final false
   inline bool get_RotateOverride();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Cursor, addr 0x5a5ee5c, size 0x8, virtual false, abstract: false, final false
   inline void set_Cursor(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_FollowOverride, addr 0x5a5ee6c, size 0x8, virtual true, abstract: false, final false
   inline void set_FollowOverride(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RotateOverride, addr 0x5a5ee7c, size 0x8, virtual true, abstract: false, final false
   inline void set_RotateOverride(bool value);
 
@@ -145,13 +151,13 @@ protected:
   constexpr Interface();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Interface", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interface", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Interface(Interface&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Interface", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interface", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Interface(Interface const&) = delete;
+  Interface(Interfaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18412 };
@@ -162,12 +168,15 @@ public:
   /// @brief Field _proxyCameraRig, offset: 0x78, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig* ____proxyCameraRig;
 
+  /// [CompilerGenerated]
   /// @brief Field <Cursor>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor> ____Cursor_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FollowOverride>k__BackingField, offset: 0x88, size: 0x1, def value: None
   bool ____FollowOverride_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RotateOverride>k__BackingField, offset: 0x89, size: 0x1, def value: None
   bool ____RotateOverride_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XmlNodeWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XmlNodeWrapper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
@@ -286,6 +286,7 @@ inline ::StringW Newtonsoft::Json::Converters::XmlNodeWrapper::get_NamespaceUri(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XmlNodeWrapper*>(), { "get_NamespaceUri", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Converters::XmlNodeWrapper* Newtonsoft::Json::Converters::XmlNodeWrapper::New_ctor(::System::Xml::XmlNode* node) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::XmlNodeWrapper*>(node));
 }

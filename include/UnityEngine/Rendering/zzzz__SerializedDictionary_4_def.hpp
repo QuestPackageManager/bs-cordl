@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SerializedDictionary_4.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SerializedDictionary_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method DeserializeKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DeserializeKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline K DeserializeKey(SK serializedKey);
 
-  /// @brief Method DeserializeValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DeserializeValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline V DeserializeValue(SV serializedValue);
 
   static inline ::UnityEngine::Rendering::SerializedDictionary_4<K, V, SK, SV>* New_ctor();
@@ -50,10 +50,10 @@ public:
   /// @brief Method OnBeforeSerialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method SerializeKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SerializeKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline SK SerializeKey(K key);
 
-  /// @brief Method SerializeValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SerializeValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline SV SerializeValue(V value);
 
   constexpr ::System::Collections::Generic::List_1<SK>* const& __cordl_internal_get_m_Keys() const;
@@ -80,20 +80,22 @@ protected:
   constexpr SerializedDictionary_4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializedDictionary_4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializedDictionary_4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializedDictionary_4(SerializedDictionary_4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializedDictionary_4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializedDictionary_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializedDictionary_4(SerializedDictionary_4 const&) = delete;
+  SerializedDictionary_4(SerializedDictionary_4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11943 };
 
+  /// [SerializeField]
   /// @brief Field m_Keys, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<SK>* ___m_Keys;
 
+  /// [SerializeField]
   /// @brief Field m_Values, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<SV>* ___m_Values;
 

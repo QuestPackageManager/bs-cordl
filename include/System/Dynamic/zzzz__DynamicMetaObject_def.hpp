@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\DynamicMetaObject.hpp"
+// IWYU pragma private; include "System/Dynamic/DynamicMetaObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -176,6 +176,7 @@ public:
 
   static inline ::System::Object* getStaticF_s_noValueSentinel();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Expression, addr 0x5fc2f70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
@@ -185,6 +186,7 @@ public:
   /// @brief Method get_LimitType, addr 0x5fc1dfc, size 0x34, virtual false, abstract: false, final false
   inline ::System::Type* get_LimitType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Restrictions, addr 0x5fc2f78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Dynamic::BindingRestrictions* get_Restrictions();
 
@@ -204,13 +206,13 @@ protected:
   constexpr DynamicMetaObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicMetaObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicMetaObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicMetaObject(DynamicMetaObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicMetaObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicMetaObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicMetaObject(DynamicMetaObject const&) = delete;
+  DynamicMetaObject(DynamicMetaObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16651 };
@@ -218,9 +220,11 @@ public:
   /// @brief Field _value, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____value;
 
+  /// [CompilerGenerated]
   /// @brief Field <Expression>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Expression_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Restrictions>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Dynamic::BindingRestrictions* ____Restrictions_k__BackingField;
 

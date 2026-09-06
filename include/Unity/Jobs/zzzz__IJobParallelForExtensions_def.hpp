@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\IJobParallelForExtensions.hpp"
+// IWYU pragma private; include "Unity/Jobs/IJobParallelForExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstLike_def.hpp"
+#include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IJobParallelForExtensions)
@@ -20,23 +21,31 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
 namespace Unity::Jobs {
-template <typename T> struct IJobParallelForExtensions_ParallelForJobStruct_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobParallelForExtensions_ParallelForJobStruct_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 namespace Unity::Jobs {
-template <typename T> class ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction;
 }
 // Forward declare root types
 namespace Unity::Jobs {
 class IJobParallelForExtensions;
 }
 namespace Unity::Jobs {
-template <typename T> class ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T> struct IJobParallelForExtensions_ParallelForJobStruct_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobParallelForExtensions_ParallelForJobStruct_1;
 }
 // Write type traits
 MARK_REF_T(::Unity::Jobs::IJobParallelForExtensions*);
@@ -45,10 +54,11 @@ MARK_GEN_VAL_T(::Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1);
 DEFINE_IL2CPP_CLASS(::Unity::Jobs::IJobParallelForExtensions*, "Unity.Jobs", "IJobParallelForExtensions");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Jobs::ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction, "Unity.Jobs", "IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1, "Unity.Jobs", "IJobParallelForExtensions/ParallelForJobStruct`1");
-// Dependencies System.MulticastDelegate
+// Dependencies System.MulticastDelegate, Unity.Jobs.IJobParallelFor
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<T>
 class CORDL_TYPE ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction : public ::System::MulticastDelegate {
@@ -68,13 +78,13 @@ protected:
   constexpr ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction(ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction(ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction const&) = delete;
+  ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction(ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9924 };
@@ -83,10 +93,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.IntPtr, Unity.Collections.LowLevel.Unsafe.BurstLike::SharedStatic`1<T>
+// Dependencies System.IntPtr, Unity.Collections.LowLevel.Unsafe.BurstLike::SharedStatic`1<T>, Unity.Jobs.IJobParallelFor
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<T>
 #pragma pack(push, 0)
@@ -101,6 +112,7 @@ public:
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Execute(::by_ref<T> jobData, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData, ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
 
+  /// [BurstDiscard]
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Initialize();
 
@@ -123,26 +135,39 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, Unity.Jobs.IJobParallelFor
 namespace Unity::Jobs {
 // Is value type: false
 // CS Name: Unity.Jobs.IJobParallelForExtensions
 class CORDL_TYPE IJobParallelForExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using ParallelForJobStruct_1 = ::Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using ParallelForJobStruct_1 = ::Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1<T>;
 
   /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void EarlyJobInit();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void EarlyJobInit();
 
   /// @brief Method GetReflectionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::IntPtr GetReflectionData();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::System::IntPtr GetReflectionData();
 
+  /// [Extension]
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Run(T jobData, int32_t arrayLength);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Run(T jobData, int32_t arrayLength);
 
+  /// [Extension]
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, int32_t arrayLength, int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle Schedule(T jobData, int32_t arrayLength, int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependsOn);
 
 protected:
   // Ctor Parameters []
@@ -150,13 +175,13 @@ protected:
   constexpr IJobParallelForExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IJobParallelForExtensions(IJobParallelForExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobParallelForExtensions(IJobParallelForExtensions const&) = delete;
+  IJobParallelForExtensions(IJobParallelForExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9926 };

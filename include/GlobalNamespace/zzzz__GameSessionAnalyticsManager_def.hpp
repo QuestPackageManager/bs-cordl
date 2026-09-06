@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameSessionAnalyticsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameSessionAnalyticsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,17 +64,18 @@ protected:
   constexpr GameSessionAnalyticsManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameSessionAnalyticsManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameSessionAnalyticsManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameSessionAnalyticsManager(GameSessionAnalyticsManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameSessionAnalyticsManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameSessionAnalyticsManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameSessionAnalyticsManager(GameSessionAnalyticsManager const&) = delete;
+  GameSessionAnalyticsManager(GameSessionAnalyticsManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5542 };
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 

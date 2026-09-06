@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FrameTiming.hpp"
+// IWYU pragma private; include "GlobalNamespace/FrameTiming.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorder_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FrameTiming_def.hpp"

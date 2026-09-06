@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\BitmapAllocator32.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BitmapAllocator32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,8 +41,8 @@ public:
   // @brief default ctor
   constexpr BitmapAllocator32_Page();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "freeSlots", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "uint16_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "freeSlots", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BitmapAllocator32_Page(uint16_t x, uint16_t y, int32_t freeSlots) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -113,10 +113,10 @@ public:
   // @brief default ctor
   constexpr BitmapAllocator32();
 
-  // Ctor Parameters [CppParam { name: "m_PageHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Pages", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::BitmapAllocator32_Page>*", modifiers: "", def_value: None }, CppParam { name: "m_AllocMap", ty:
-  // "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: None }, CppParam { name: "m_EntryWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_EntryHeight", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_PageHeight", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Pages", ty:
+  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::BitmapAllocator32_Page>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocMap", ty:
+  // "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_EntryWidth", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_EntryHeight", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BitmapAllocator32(int32_t m_PageHeight, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::BitmapAllocator32_Page>* m_Pages,
                               ::System::Collections::Generic::List_1<uint32_t>* m_AllocMap, int32_t m_EntryWidth, int32_t m_EntryHeight) noexcept;
 

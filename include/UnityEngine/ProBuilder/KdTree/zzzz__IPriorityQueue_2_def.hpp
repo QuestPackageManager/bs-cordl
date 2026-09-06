@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\KdTree\IPriorityQueue_2.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/IPriorityQueue_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,18 +23,18 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Dequeue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TItem Dequeue();
 
-  /// @brief Method Enqueue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Enqueue(TItem item, TPriority priority);
 
-  /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPriorityQueue_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPriorityQueue_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPriorityQueue_2(IPriorityQueue_2 const&) = delete;
+  IPriorityQueue_2(IPriorityQueue_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22679 };

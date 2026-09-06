@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBufferUploader.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBufferUploader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;
@@ -169,13 +171,13 @@ protected:
   constexpr GPUInstanceDataBufferUploader_UploadKernelIDs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBufferUploader_UploadKernelIDs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBufferUploader_UploadKernelIDs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUInstanceDataBufferUploader_UploadKernelIDs(GPUInstanceDataBufferUploader_UploadKernelIDs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBufferUploader_UploadKernelIDs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBufferUploader_UploadKernelIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUInstanceDataBufferUploader_UploadKernelIDs(GPUInstanceDataBufferUploader_UploadKernelIDs const&) = delete;
+  GPUInstanceDataBufferUploader_UploadKernelIDs(GPUInstanceDataBufferUploader_UploadKernelIDsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17682 };
@@ -212,12 +214,13 @@ public:
   // @brief default ctor
   constexpr GPUInstanceDataBufferUploader_GPUResources();
 
-  // Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None }, CppParam { name: "instanceIndices", ty: "::UnityEngine::ComputeBuffer*",
-  // modifiers: "", def_value: None }, CppParam { name: "inputComponentOffsets", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None }, CppParam { name: "validComponentIndices", ty:
-  // "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None }, CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None }, CppParam { name:
-  // "kernelId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_InstanceDataByteSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_InstanceCount", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ComponentCounts", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ValidComponentIndicesCount", ty: "int32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceIndices", ty:
+  // "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputComponentOffsets", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "validComponentIndices", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cs", ty:
+  // "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "kernelId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_InstanceDataByteSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_InstanceCount", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_ComponentCounts", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ValidComponentIndicesCount", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr GPUInstanceDataBufferUploader_GPUResources(::UnityEngine::ComputeBuffer* instanceData, ::UnityEngine::ComputeBuffer* instanceIndices, ::UnityEngine::ComputeBuffer* inputComponentOffsets,
                                                        ::UnityEngine::ComputeBuffer* validComponentIndices, ::UnityW<::UnityEngine::ComputeShader> cs, int32_t kernelId, int32_t m_InstanceDataByteSize,
                                                        int32_t m_InstanceCount, int32_t m_ComponentCounts, int32_t m_ValidComponentIndicesCount) noexcept;
@@ -284,6 +287,7 @@ static_assert(offsetof(::UnityEngine::Rendering::GPUInstanceDataBufferUploader_G
 static_assert(sizeof(::UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -304,11 +308,12 @@ public:
   // @brief default ctor
   constexpr GPUInstanceDataBufferUploader_WriteInstanceDataParameterJob();
 
-  // Ctor Parameters [CppParam { name: "gatherData", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "uintPerParameter", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uintPerInstance", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "componentDataIndex",
-  // ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "gatherIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "instanceData", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "tmpDataBuffer", ty:
-  // "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "gatherData", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "parameterIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "uintPerParameter", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uintPerInstance", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "componentDataIndex", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "gatherIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceData", ty:
+  // "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tmpDataBuffer", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr GPUInstanceDataBufferUploader_WriteInstanceDataParameterJob(bool gatherData, int32_t parameterIndex, int32_t uintPerParameter, int32_t uintPerInstance,
                                                                         ::Unity::Collections::NativeArray_1<int32_t> componentDataIndex, ::Unity::Collections::NativeArray_1<int32_t> gatherIndices,
                                                                         ::Unity::Collections::NativeArray_1<uint32_t> instanceData,
@@ -323,27 +328,39 @@ public:
   /// @brief Field k_BatchSize offset 0xffffffff size 0x4
   static constexpr int32_t k_BatchSize{ static_cast<int32_t>(0x200) };
 
+  /// [ReadOnly]
   /// @brief Field gatherData, offset: 0x0, size: 0x1, def value: None
   bool gatherData;
 
+  /// [ReadOnly]
   /// @brief Field parameterIndex, offset: 0x4, size: 0x4, def value: None
   int32_t parameterIndex;
 
+  /// [ReadOnly]
   /// @brief Field uintPerParameter, offset: 0x8, size: 0x4, def value: None
   int32_t uintPerParameter;
 
+  /// [ReadOnly]
   /// @brief Field uintPerInstance, offset: 0xc, size: 0x4, def value: None
   int32_t uintPerInstance;
 
+  /// [ReadOnly]
   /// @brief Field componentDataIndex, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> componentDataIndex;
 
+  /// [ReadOnly]
   /// @brief Field gatherIndices, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> gatherIndices;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [ReadOnly]
   /// @brief Field instanceData, offset: 0x30, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint32_t> instanceData;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field tmpDataBuffer, offset: 0x40, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint32_t> tmpDataBuffer;
 
@@ -401,7 +418,9 @@ public:
   inline ::System::IntPtr GetUploadBufferPtr();
 
   /// @brief Method PrepareParamWrite, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline int32_t PrepareParamWrite(int32_t parameterIndex);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline int32_t PrepareParamWrite(int32_t parameterIndex);
 
   /// @brief Method SubmitToGpu, addr 0x6821b68, size 0x4c0, virtual false, abstract: false, final false
   inline void SubmitToGpu(::UnityEngine::Rendering::GPUInstanceDataBuffer* instanceDataBuffer, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices,
@@ -412,14 +431,17 @@ public:
                           ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources> gpuResources, bool submitOnlyWrittenParams);
 
   /// @brief Method WriteInstanceDataJob, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Jobs::JobHandle WriteInstanceDataJob(int32_t parameterIndex, ::Unity::Collections::NativeArray_1<T> instanceData);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Jobs::JobHandle WriteInstanceDataJob(int32_t parameterIndex, ::Unity::Collections::NativeArray_1<T> instanceData);
 
   /// @brief Method WriteInstanceDataJob, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::Unity::Jobs::JobHandle WriteInstanceDataJob(int32_t parameterIndex, ::Unity::Collections::NativeArray_1<T> instanceData, ::Unity::Collections::NativeArray_1<int32_t> gatherIndices);
 
   /// @brief Method .ctor, addr 0x68218a8, size 0x260, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>> descriptions, int32_t capacity,
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>> descriptions, int32_t capacity,
                     ::UnityEngine::Rendering::InstanceType instanceType);
 
   /// @brief Convert to "::System::IDisposable"
@@ -429,12 +451,13 @@ public:
   // @brief default ctor
   constexpr GPUInstanceDataBufferUploader();
 
-  // Ctor Parameters [CppParam { name: "m_UintPerInstance", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_InstanceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ComponentIsInstanced", ty: "::Unity::Collections::NativeArray_1<bool>", modifiers: "", def_value:
-  // None }, CppParam { name: "m_ComponentDataIndex", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_DescriptionsUintSize", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_TmpDataBuffer", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "m_WritenComponentIndices", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_DummyArray", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_UintPerInstance", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_InstanceCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ComponentIsInstanced", ty:
+  // "::Unity::Collections::NativeArray_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ComponentDataIndex", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DescriptionsUintSize", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_TmpDataBuffer", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_WritenComponentIndices", ty:
+  // "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DummyArray", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr GPUInstanceDataBufferUploader(int32_t m_UintPerInstance, int32_t m_Capacity, int32_t m_InstanceCount, ::Unity::Collections::NativeArray_1<bool> m_ComponentIsInstanced,
                                           ::Unity::Collections::NativeArray_1<int32_t> m_ComponentDataIndex, ::Unity::Collections::NativeArray_1<int32_t> m_DescriptionsUintSize,
                                           ::Unity::Collections::NativeArray_1<uint32_t> m_TmpDataBuffer, ::Unity::Collections::NativeList_1<int32_t> m_WritenComponentIndices,

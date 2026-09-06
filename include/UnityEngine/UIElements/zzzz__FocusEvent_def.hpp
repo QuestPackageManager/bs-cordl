@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FocusEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FocusEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_REF_T(::UnityEngine::UIElements::FocusEvent*);
 MARK_REF_T(::UnityEngine::UIElements::FocusEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FocusEvent*, "UnityEngine.UIElements", "FocusEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FocusEvent___c*, "UnityEngine.UIElements", "FocusEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr FocusEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FocusEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusEvent___c(FocusEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FocusEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FocusEvent___c(FocusEvent___c const&) = delete;
+  FocusEvent___c(FocusEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4473 };
@@ -86,13 +87,13 @@ protected:
   constexpr FocusEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FocusEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusEvent(FocusEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FocusEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FocusEvent(FocusEvent const&) = delete;
+  FocusEvent(FocusEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4474 };

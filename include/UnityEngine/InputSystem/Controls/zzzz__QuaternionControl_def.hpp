@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\QuaternionControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/QuaternionControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,12 +41,16 @@ public:
   /// @brief Field <z>k__BackingField, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get__z_k__BackingField, put = __cordl_internal_set__z_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _z_k__BackingField;
 
+  /// @brief [InputControl(displayName = "W")]
   __declspec(property(get = get_w, put = set_w)) ::UnityEngine::InputSystem::Controls::AxisControl* w;
 
+  /// @brief [InputControl(displayName = "X")]
   __declspec(property(get = get_x, put = set_x)) ::UnityEngine::InputSystem::Controls::AxisControl* x;
 
+  /// @brief [InputControl(displayName = "Y")]
   __declspec(property(get = get_y, put = set_y)) ::UnityEngine::InputSystem::Controls::AxisControl* y;
 
+  /// @brief [InputControl(displayName = "Z")]
   __declspec(property(get = get_z, put = set_z)) ::UnityEngine::InputSystem::Controls::AxisControl* z;
 
   /// @brief Method CalculateOptimizedControlDataType, addr 0x64fc610, size 0x234, virtual true, abstract: false, final false
@@ -90,27 +94,35 @@ public:
   /// @brief Method .ctor, addr 0x64fc1f8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_w, addr 0x64fc1e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_w();
 
+  /// [CompilerGenerated]
   /// @brief Method get_x, addr 0x64fc1b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
 
+  /// [CompilerGenerated]
   /// @brief Method get_y, addr 0x64fc1c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
 
+  /// [CompilerGenerated]
   /// @brief Method get_z, addr 0x64fc1d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_z();
 
+  /// [CompilerGenerated]
   /// @brief Method set_w, addr 0x64fc1f0, size 0x8, virtual false, abstract: false, final false
   inline void set_w(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_x, addr 0x64fc1c0, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_y, addr 0x64fc1d0, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_z, addr 0x64fc1e0, size 0x8, virtual false, abstract: false, final false
   inline void set_z(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
@@ -120,26 +132,30 @@ protected:
   constexpr QuaternionControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuaternionControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuaternionControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuaternionControl(QuaternionControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuaternionControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuaternionControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuaternionControl(QuaternionControl const&) = delete;
+  QuaternionControl(QuaternionControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9133 };
 
+  /// [CompilerGenerated]
   /// @brief Field <x>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____x_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <y>k__BackingField, offset: 0x128, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____y_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <z>k__BackingField, offset: 0x130, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____z_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <w>k__BackingField, offset: 0x138, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____w_k__BackingField;
 

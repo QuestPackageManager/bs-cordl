@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseCaptureOutEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseCaptureOutEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseCaptureEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseCaptureOutEvent_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\Design\Serialization\RootDesignerSerializerAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/Design/Serialization/RootDesignerSerializerAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ class RootDesignerSerializerAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*, "System.ComponentModel.Design.Serialization", "RootDesignerSerializerAttribute");
-// Dependencies System.Attribute
+// [Obsolete("This attribute has been deprecated. Use DesignerSerializerAttribute instead.  For example, to specify a root designer for CodeDom, use
+// DesignerSerializerAttribute(...,typeof(TypeCodeDomSerializer)).  https://go.microsoft.com/fwlink/?linkid=14202")] [AttributeUsage((System.AttributeTargets)1028, AllowMultiple = true, Inherited =
+// true)] Dependencies System.Attribute
 namespace System::ComponentModel::Design::Serialization {
 // Is value type: false
 // CS Name: System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute
@@ -69,6 +71,7 @@ public:
   /// @brief Method .ctor, addr 0x63ecc6c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable);
 
+  /// [CompilerGenerated]
   /// @brief Method get_SerializerBaseTypeName, addr 0x63ecc78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SerializerBaseTypeName();
 
@@ -81,13 +84,13 @@ protected:
   constexpr RootDesignerSerializerAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RootDesignerSerializerAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RootDesignerSerializerAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RootDesignerSerializerAttribute(RootDesignerSerializerAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RootDesignerSerializerAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RootDesignerSerializerAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RootDesignerSerializerAttribute(RootDesignerSerializerAttribute const&) = delete;
+  RootDesignerSerializerAttribute(RootDesignerSerializerAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11361 };
@@ -95,12 +98,15 @@ public:
   /// @brief Field _typeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____typeId;
 
+  /// [CompilerGenerated]
   /// @brief Field <Reloadable>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____Reloadable_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SerializerTypeName>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____SerializerTypeName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SerializerBaseTypeName>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____SerializerBaseTypeName_k__BackingField;
 

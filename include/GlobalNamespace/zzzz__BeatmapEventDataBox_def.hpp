@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventDataBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   // @brief default ctor
   constexpr BeatmapEventDataBox_DistributionParamType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapEventDataBox_DistributionParamType(int32_t value__) noexcept;
 
   /// @brief Field Step value: I32(2)
@@ -161,7 +161,7 @@ public:
                                                                  float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                                                                  ::GlobalNamespace::EaseType eventDistributionEaseType);
 
-  /// @brief Method Unpack, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Unpack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex,
                                                                                                      int32_t distributionOrderIndex, float_t maxBeat,
                                                                                                      ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
@@ -220,13 +220,14 @@ public:
                     ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType);
 
-  /// @brief Method get_beatStep, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_beatStep();
 
+  /// [CompilerGenerated]
   /// @brief Method get_indexFilter, addr 0x37167c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IndexFilter* get_indexFilter();
 
-  /// @brief Method get_subtypeIdentifier, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -235,17 +236,18 @@ protected:
   constexpr BeatmapEventDataBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventDataBox(BeatmapEventDataBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataBox(BeatmapEventDataBox const&) = delete;
+  BeatmapEventDataBox(BeatmapEventDataBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14912 };
 
+  /// [CompilerGenerated]
   /// @brief Field <indexFilter>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IndexFilter* ____indexFilter_k__BackingField;
 

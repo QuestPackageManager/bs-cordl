@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\LongArray.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/LongArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -299,13 +299,13 @@ protected:
   constexpr LongArray();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LongArray", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongArray", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LongArray(LongArray&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LongArray", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongArray(LongArray const&) = delete;
+  LongArray(LongArrayconst&) = delete;
 
   /// @brief Field ZEROES offset 0xffffffff size 0x8
   static constexpr ::ConstString ZEROES{ u"0000000000000000000000000000000000000000000000000000000000000000" };

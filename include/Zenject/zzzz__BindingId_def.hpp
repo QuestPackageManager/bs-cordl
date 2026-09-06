@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\BindingId.hpp"
+// IWYU pragma private; include "Zenject/BindingId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ struct BindingId;
 // Write type traits
 MARK_VAL_T(::Zenject::BindingId);
 DEFINE_IL2CPP_CLASS(::Zenject::BindingId, "Zenject", "BindingId");
+// [DebuggerStepThrough]
 // Dependencies
 namespace Zenject {
 // Is value type: true
@@ -77,7 +78,8 @@ public:
   // @brief default ctor
   constexpr BindingId();
 
-  // Ctor Parameters [CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_identifier", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_identifier", ty: "::System::Object*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr BindingId(::System::Type* _type, ::System::Object* _identifier) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\DynamicMetaObjectBinder.hpp"
+// IWYU pragma private; include "System/Dynamic/DynamicMetaObjectBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
 
   __declspec(property(get = get_ReturnType)) ::System::Type* ReturnType;
 
-  /// @brief Method Bind, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
 
   /// @brief Method Bind, addr 0x5fc39e4, size 0x5cc, virtual true, abstract: false, final true
@@ -77,13 +77,13 @@ protected:
   constexpr DynamicMetaObjectBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicMetaObjectBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicMetaObjectBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicMetaObjectBinder(DynamicMetaObjectBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicMetaObjectBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicMetaObjectBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicMetaObjectBinder(DynamicMetaObjectBinder const&) = delete;
+  DynamicMetaObjectBinder(DynamicMetaObjectBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16652 };

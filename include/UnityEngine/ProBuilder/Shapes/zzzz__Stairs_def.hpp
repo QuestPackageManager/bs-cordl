@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Stairs.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Stairs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class Stairs;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Shapes::Stairs*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Shapes::Stairs*, "UnityEngine.ProBuilder.Shapes", "Stairs");
+// [Shape("Stairs")]
 // Dependencies UnityEngine.ProBuilder.Shapes.Shape, UnityEngine.ProBuilder.Shapes.StepGenerationType
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
@@ -134,35 +135,46 @@ protected:
   constexpr Stairs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Stairs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stairs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Stairs(Stairs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Stairs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stairs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stairs(Stairs const&) = delete;
+  Stairs(Stairsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16849 };
 
+  /// [SerializeField]
   /// @brief Field m_StepGenerationType, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::Shapes::StepGenerationType ___m_StepGenerationType;
 
+  /// [Min(0.01)]
+  /// [SerializeField]
   /// @brief Field m_StepsHeight, offset: 0x14, size: 0x4, def value: None
   float_t ___m_StepsHeight;
 
+  /// [Range(1, 256)]
+  /// [SerializeField]
   /// @brief Field m_StepsCount, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_StepsCount;
 
+  /// [SerializeField]
   /// @brief Field m_HomogeneousSteps, offset: 0x1c, size: 0x1, def value: None
   bool ___m_HomogeneousSteps;
 
+  /// [Range(-360, 360)]
+  /// [SerializeField]
   /// @brief Field m_Circumference, offset: 0x20, size: 0x4, def value: None
   float_t ___m_Circumference;
 
+  /// [SerializeField]
   /// @brief Field m_Sides, offset: 0x24, size: 0x1, def value: None
   bool ___m_Sides;
 
+  /// [SerializeField]
+  /// [Min(0)]
   /// @brief Field m_InnerRadius, offset: 0x28, size: 0x4, def value: None
   float_t ___m_InnerRadius;
 

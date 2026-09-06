@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineCreateUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineCreateUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_1
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TimelineCreateUtilities*, "UnityEngine.Timeline", "TimelineCreateUtilities");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_0*, "UnityEngine.Timeline", "TimelineCreateUtilities/<>c__DisplayClass0_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_1*, "UnityEngine.Timeline", "TimelineCreateUtilities/<>c__DisplayClass0_1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr TimelineCreateUtilities___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineCreateUtilities___c__DisplayClass0_0(TimelineCreateUtilities___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineCreateUtilities___c__DisplayClass0_0(TimelineCreateUtilities___c__DisplayClass0_0 const&) = delete;
+  TimelineCreateUtilities___c__DisplayClass0_0(TimelineCreateUtilities___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19261 };
@@ -99,6 +100,7 @@ static_assert(offsetof(::UnityEngine::Timeline::TimelineCreateUtilities___c__Dis
 static_assert(sizeof(::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -129,13 +131,13 @@ protected:
   constexpr TimelineCreateUtilities___c__DisplayClass0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineCreateUtilities___c__DisplayClass0_1(TimelineCreateUtilities___c__DisplayClass0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineCreateUtilities___c__DisplayClass0_1(TimelineCreateUtilities___c__DisplayClass0_1 const&) = delete;
+  TimelineCreateUtilities___c__DisplayClass0_1(TimelineCreateUtilities___c__DisplayClass0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19262 };
@@ -183,13 +185,13 @@ protected:
   constexpr TimelineCreateUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineCreateUtilities(TimelineCreateUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineCreateUtilities(TimelineCreateUtilities const&) = delete;
+  TimelineCreateUtilities(TimelineCreateUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19263 };

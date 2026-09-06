@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrSpaceLocationFlags.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrSpaceLocationFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct XrSpaceLocationFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags, "UnityEngine.XR.OpenXR.NativeTypes", "XrSpaceLocationFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr XrSpaceLocationFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XrSpaceLocationFlags(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)

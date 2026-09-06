@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\AssemblyMetadataAttribute.hpp"
+// IWYU pragma private; include "System/Reflection/AssemblyMetadataAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AssemblyMetadataAttribute;
 // Write type traits
 MARK_REF_T(::System::Reflection::AssemblyMetadataAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::AssemblyMetadataAttribute*, "System.Reflection", "AssemblyMetadataAttribute");
+// [AttributeUsage((System.AttributeTargets)1, AllowMultiple = true, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Reflection {
 // Is value type: false
@@ -49,20 +50,22 @@ protected:
   constexpr AssemblyMetadataAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyMetadataAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyMetadataAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyMetadataAttribute(AssemblyMetadataAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyMetadataAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyMetadataAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyMetadataAttribute(AssemblyMetadataAttribute const&) = delete;
+  AssemblyMetadataAttribute(AssemblyMetadataAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3473 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Key>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Key_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Value_k__BackingField;
 

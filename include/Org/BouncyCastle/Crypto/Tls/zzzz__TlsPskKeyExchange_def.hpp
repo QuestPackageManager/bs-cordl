@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsPskKeyExchange.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsPskKeyExchange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,6 +136,7 @@ public:
   /// @brief Method GenerateServerKeyExchange, addr 0x348914c, size 0x34c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GenerateServerKeyExchange();
 
+  /// @brief [Obsolete("Use constructor that takes a TlsDHVerifier")]
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                               ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity,
                                                                               ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager,
@@ -273,6 +274,7 @@ public:
 
   constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
+  /// [Obsolete("Use constructor that takes a TlsDHVerifier")]
   /// @brief Method .ctor, addr 0x3488e44, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity,
                     ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters, ::ArrayW<int32_t> namedCurves,
@@ -292,13 +294,13 @@ protected:
   constexpr TlsPskKeyExchange();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsPskKeyExchange", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsPskKeyExchange", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsPskKeyExchange(TlsPskKeyExchange&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsPskKeyExchange", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsPskKeyExchange", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsPskKeyExchange(TlsPskKeyExchange const&) = delete;
+  TlsPskKeyExchange(TlsPskKeyExchangeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1317 };

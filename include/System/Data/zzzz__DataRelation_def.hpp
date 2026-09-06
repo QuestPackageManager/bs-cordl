@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRelation.hpp"
+// IWYU pragma private; include "System/Data/DataRelation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,8 @@ class DataRelation;
 // Write type traits
 MARK_REF_T(::System::Data::DataRelation*);
 DEFINE_IL2CPP_CLASS(::System::Data::DataRelation*, "System.Data", "DataRelation");
+// [DefaultProperty("RelationName")]
+// [TypeConverter(typeof(System.Data.RelationshipConverter))]
 // Dependencies System.Data.DataKey, System.Object
 namespace System::Data {
 // Is value type: false
@@ -73,10 +75,14 @@ public:
 
   __declspec(property(get = get_ChildTable)) ::System::Data::DataTable* ChildTable;
 
+  /// [Browsable(false)]
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
   __declspec(property(get = get_DataSet)) ::System::Data::DataSet* DataSet;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_ExtendedProperties)) ::System::Data::PropertyCollection* ExtendedProperties;
 
+  /// @brief [DefaultValue(false)]
   __declspec(property(get = get_Nested, put = set_Nested)) bool Nested;
 
   __declspec(property(get = get_ObjectID)) int32_t ObjectID;
@@ -96,6 +102,7 @@ public:
   /// @brief Field PropertyChanging, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_PropertyChanging, put = __cordl_internal_set_PropertyChanging)) ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
 
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_RelationName)) ::StringW RelationName;
 
   /// @brief Field _checkMultipleNested, offset 0x7a, size 0x1
@@ -194,9 +201,11 @@ public:
   static inline ::System::Data::DataRelation* New_ctor(::StringW relationName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns,
                                                        bool createConstraints);
 
+  /// @brief [Browsable(false)]
   static inline ::System::Data::DataRelation* New_ctor(::StringW relationName, ::StringW parentTableName, ::StringW childTableName, ::ArrayW<::StringW> parentColumnNames,
                                                        ::ArrayW<::StringW> childColumnNames, bool nested);
 
+  /// @brief [Browsable(false)]
   static inline ::System::Data::DataRelation* New_ctor(::StringW relationName, ::StringW parentTableName, ::StringW parentTableNamespace, ::StringW childTableName, ::StringW childTableNamespace,
                                                        ::ArrayW<::StringW> parentColumnNames, ::ArrayW<::StringW> childColumnNames, bool nested);
 
@@ -338,9 +347,11 @@ public:
   /// @brief Method .ctor, addr 0x6024af8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW relationName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns, bool createConstraints);
 
+  /// [Browsable(false)]
   /// @brief Method .ctor, addr 0x6024ba8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::StringW relationName, ::StringW parentTableName, ::StringW childTableName, ::ArrayW<::StringW> parentColumnNames, ::ArrayW<::StringW> childColumnNames, bool nested);
 
+  /// [Browsable(false)]
   /// @brief Method .ctor, addr 0x6024c68, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::StringW relationName, ::StringW parentTableName, ::StringW parentTableNamespace, ::StringW childTableName, ::StringW childTableNamespace, ::ArrayW<::StringW> parentColumnNames,
                     ::ArrayW<::StringW> childColumnNames, bool nested);
@@ -415,13 +426,13 @@ protected:
   constexpr DataRelation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataRelation(DataRelation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRelation(DataRelation const&) = delete;
+  DataRelation(DataRelationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13772 };
@@ -477,6 +488,7 @@ public:
   /// @brief Field _objectID, offset: 0x7c, size: 0x4, def value: None
   int32_t ____objectID;
 
+  /// [CompilerGenerated]
   /// @brief Field PropertyChanging, offset: 0x80, size: 0x8, def value: None
   ::System::ComponentModel::PropertyChangedEventHandler* ___PropertyChanging;
 

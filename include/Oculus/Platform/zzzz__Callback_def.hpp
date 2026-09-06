@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Callback.hpp"
+// IWYU pragma private; include "Oculus/Platform/Callback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ protected:
   constexpr Callback_RequestCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Callback_RequestCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Callback_RequestCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Callback_RequestCallback(Callback_RequestCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Callback_RequestCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Callback_RequestCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Callback_RequestCallback(Callback_RequestCallback const&) = delete;
+  Callback_RequestCallback(Callback_RequestCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17825 };
@@ -136,13 +136,13 @@ protected:
   constexpr Callback_RequestCallback_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Callback_RequestCallback_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Callback_RequestCallback_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Callback_RequestCallback_1(Callback_RequestCallback_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Callback_RequestCallback_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Callback_RequestCallback_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Callback_RequestCallback_1(Callback_RequestCallback_1 const&) = delete;
+  Callback_RequestCallback_1(Callback_RequestCallback_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17826 };
@@ -226,13 +226,13 @@ protected:
   constexpr Callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Callback(Callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Callback(Callback const&) = delete;
+  Callback(Callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17827 };

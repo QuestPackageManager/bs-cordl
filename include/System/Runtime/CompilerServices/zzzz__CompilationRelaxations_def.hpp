@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\CompilationRelaxations.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/CompilationRelaxations.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct CompilationRelaxations;
 // Write type traits
 MARK_VAL_T(::System::Runtime::CompilerServices::CompilationRelaxations);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::CompilationRelaxations, "System.Runtime.CompilerServices", "CompilationRelaxations");
+// [ComVisible(true)]
+// [Flags]
 // Dependencies
 namespace System::Runtime::CompilerServices {
 // Is value type: true
@@ -41,7 +43,7 @@ public:
   // @brief default ctor
   constexpr CompilationRelaxations();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CompilationRelaxations(int32_t value__) noexcept;
 
   /// @brief Field NoStringInterning value: I32(8)

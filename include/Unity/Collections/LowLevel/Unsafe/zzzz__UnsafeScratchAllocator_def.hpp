@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeScratchAllocator.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeScratchAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct UnsafeScratchAllocator;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator, "Unity.Collections.LowLevel.Unsafe", "UnsafeScratchAllocator");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -20,12 +21,17 @@ namespace Unity::Collections::LowLevel::Unsafe {
 struct CORDL_TYPE UnsafeScratchAllocator {
 public:
   // Declarations
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void* Allocate(int32_t count);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void* Allocate(int32_t count);
 
   /// @brief Method Allocate, addr 0x64cf0d0, size 0x3c, virtual false, abstract: false, final false
   inline void* Allocate(int32_t sizeInBytes, int32_t alignmentInBytes);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckAllocationDoesNotExceedCapacity, addr 0x64cf004, size 0xcc, virtual false, abstract: false, final false
   inline void CheckAllocationDoesNotExceedCapacity(uint64_t requestedSize);
 
@@ -36,8 +42,8 @@ public:
   // @brief default ctor
   constexpr UnsafeScratchAllocator();
 
-  // Ctor Parameters [CppParam { name: "m_Pointer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_LengthInBytes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_CapacityInBytes", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Pointer", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LengthInBytes", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_CapacityInBytes", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeScratchAllocator(void* m_Pointer, int32_t m_LengthInBytes, int32_t m_CapacityInBytes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

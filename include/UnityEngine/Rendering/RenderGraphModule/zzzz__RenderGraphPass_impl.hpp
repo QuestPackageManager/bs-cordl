@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphPass.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphPassType_impl.hpp"
@@ -21,8 +21,8 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
 #include "UnityEngine/Rendering/zzzz__HashFNV1A32_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProfilingSampler_def.hpp"
-// Ctor Parameters [CppParam { name: "h", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "preserveCounterValue", ty:
-// "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "h", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "preserveCounterValue", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass_RandomWriteResourceInfo::RenderGraphPass_RandomWriteResourceInfo(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h,
                                                                                                                                         bool preserveCounterValue) noexcept {
   this->h = h;
@@ -1499,49 +1499,49 @@ inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::HasRende
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(), { "HasRenderAttachments", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::IsTransient(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
+inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::IsTransient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "IsTransient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, res);
 }
-inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::IsWritten(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
+inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::IsWritten(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "IsWritten", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, res);
 }
-inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::IsRead(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
+inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::IsRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "IsRead", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, res);
 }
-inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::IsAttachment(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> res) {
+inline bool UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::IsAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> res) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "IsAttachment", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, res);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::AddResourceWrite(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::AddResourceWrite(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "AddResourceWrite", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, res);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::AddResourceRead(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::AddResourceRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "AddResourceRead", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, res);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::AddTransientResource(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::AddTransientResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "AddTransientResource", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, res);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::UseRendererList(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> rendererList) {
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::UseRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> rendererList) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "UseRendererList", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>>() } })));
@@ -1577,14 +1577,16 @@ inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::Generate
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(), { "GenerateDebugData", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetColorBuffer(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource, int32_t index) {
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetColorBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource,
+                                                                                       int32_t index) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                               { "SetColorBuffer", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, resource, index);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetColorBufferRaw(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource, int32_t index,
-                                                                                          ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice) {
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetColorBufferRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource,
+                                                                                          int32_t index, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel,
+                                                                                          int32_t depthSlice) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "SetColorBufferRaw",
@@ -1593,8 +1595,8 @@ inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetColor
                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, resource, index, accessFlags, mipLevel, depthSlice);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetFragmentInputRaw(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource, int32_t index,
-                                                                                            ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel,
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetFragmentInputRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource,
+                                                                                            int32_t index, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel,
                                                                                             int32_t depthSlice) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
@@ -1604,8 +1606,9 @@ inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetFragm
                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, resource, index, accessFlags, mipLevel, depthSlice);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetRandomWriteResourceRaw(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> resource, int32_t index,
-                                                                                                  bool preserveCounterValue, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags) {
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetRandomWriteResourceRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> resource,
+                                                                                                  int32_t index, bool preserveCounterValue,
+                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
                                                            { "SetRandomWriteResourceRaw",
@@ -1614,7 +1617,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetRando
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, resource, index, preserveCounterValue, accessFlags);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetDepthBuffer(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource,
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetDepthBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource,
                                                                                        ::UnityEngine::Rendering::RenderGraphModule::DepthAccess flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1624,7 +1627,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetDepth
                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::DepthAccess>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, resource, flags);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetDepthBufferRaw(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource,
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetDepthBufferRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource,
                                                                                           ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),
@@ -1635,7 +1638,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::SetDepth
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, resource, accessFlags, mipLevel, depthSlice);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::ComputeTextureHash(::by_ref<::UnityEngine::Rendering::HashFNV1A32> generator,
-                                                                                           ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle,
+                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle,
                                                                                            ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -1655,9 +1658,10 @@ inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::ComputeH
           { "ComputeHash", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::HashFNV1A32>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, generator, resources);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::ComputeHashForTextureAccess(::by_ref<::UnityEngine::Rendering::HashFNV1A32> generator,
-                                                                                                    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle,
-                                                                                                    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess> textureAccess) {
+inline void
+UnityEngine::Rendering::RenderGraphModule::RenderGraphPass::ComputeHashForTextureAccess(::by_ref<::UnityEngine::Rendering::HashFNV1A32> generator,
+                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle,
+                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess> textureAccess) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>(),

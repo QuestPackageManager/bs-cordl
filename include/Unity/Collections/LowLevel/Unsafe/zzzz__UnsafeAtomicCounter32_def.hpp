@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeAtomicCounter32.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeAtomicCounter32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct UnsafeAtomicCounter32;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32, "Unity.Collections.LowLevel.Unsafe", "UnsafeAtomicCounter32");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr UnsafeAtomicCounter32();
 
-  // Ctor Parameters [CppParam { name: "Counter", ty: "int32_t*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Counter", ty: "int32_t*", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeAtomicCounter32(int32_t* Counter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

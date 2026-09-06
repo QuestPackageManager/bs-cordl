@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\ProBuilderShape.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/ProBuilderShape.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,8 @@ class ProBuilderShape;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Shapes::ProBuilderShape*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Shapes::ProBuilderShape*, "UnityEngine.ProBuilder.Shapes", "ProBuilderShape");
+// [AddComponentMenu("")]
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.Bounds, UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
@@ -188,13 +190,13 @@ protected:
   constexpr ProBuilderShape();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderShape", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderShape", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProBuilderShape(ProBuilderShape&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderShape", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderShape", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProBuilderShape(ProBuilderShape const&) = delete;
+  ProBuilderShape(ProBuilderShapeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16843 };
@@ -202,24 +204,29 @@ public:
   /// @brief Field k_IconPath offset 0xffffffff size 0x8
   static constexpr ::ConstString k_IconPath{ u"Packages/com.unity.probuilder/Content/Icons/EditableMesh/EditableMesh.png" };
 
+  /// [SerializeReference]
   /// @brief Field m_Shape, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Shapes::Shape* ___m_Shape;
 
+  /// [SerializeField]
   /// @brief Field m_ShapeRotation, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Quaternion ___m_ShapeRotation;
 
   /// @brief Field m_Mesh, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___m_Mesh;
 
+  /// [SerializeField]
   /// @brief Field m_UnmodifiedMeshVersion, offset: 0x40, size: 0x2, def value: None
   uint16_t ___m_UnmodifiedMeshVersion;
 
+  /// [SerializeField]
   /// @brief Field m_Size, offset: 0x44, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_Size;
 
   /// @brief Field m_EditionBounds, offset: 0x50, size: 0x18, def value: None
   ::UnityEngine::Bounds ___m_EditionBounds;
 
+  /// [SerializeField]
   /// @brief Field m_LocalCenter, offset: 0x68, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_LocalCenter;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DelayConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/DelayConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,9 @@ namespace GlobalNamespace {
 class ICoroutineStarter;
 }
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class OptionalArgument_1;
 }
 namespace GlobalNamespace {
 class TerminalController;
@@ -65,6 +67,7 @@ MARK_REF_T(::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DelayConsoleCommand*, "", "DelayConsoleCommand");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9*, "", "DelayConsoleCommand/<CoroutineControlsCommandLifecycle>d__9");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8_0*, "", "DelayConsoleCommand/<>c__DisplayClass8_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -104,13 +107,13 @@ protected:
   constexpr DelayConsoleCommand___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelayConsoleCommand___c__DisplayClass8_0(DelayConsoleCommand___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelayConsoleCommand___c__DisplayClass8_0(DelayConsoleCommand___c__DisplayClass8_0 const&) = delete;
+  DelayConsoleCommand___c__DisplayClass8_0(DelayConsoleCommand___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19381 };
@@ -131,6 +134,7 @@ static_assert(offsetof(::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8
 static_assert(sizeof(::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -169,17 +173,22 @@ public:
   /// @brief Method MoveNext, addr 0x32ce708, size 0x338, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32cea40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32cea48, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32cea80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32ce704, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -213,6 +222,7 @@ public:
 
   constexpr void __cordl_internal_set__wholeSeconds_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32ce494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -231,13 +241,13 @@ protected:
   constexpr DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9(DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9(DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9 const&) = delete;
+  DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9(DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19382 };
@@ -273,6 +283,7 @@ static_assert(offsetof(::GlobalNamespace::DelayConsoleCommand__CoroutineControls
 static_assert(sizeof(::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -300,6 +311,7 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
+  /// [IteratorStateMachine(typeof(DelayConsoleCommand::<CoroutineControlsCommandLifecycle>d__9))]
   /// @brief Method CoroutineControlsCommandLifecycle, addr 0x32ce440, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CoroutineControlsCommandLifecycle();
 
@@ -347,20 +359,22 @@ protected:
   constexpr DelayConsoleCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelayConsoleCommand(DelayConsoleCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelayConsoleCommand(DelayConsoleCommand const&) = delete;
+  DelayConsoleCommand(DelayConsoleCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19383 };
 
+  /// [Inject]
   /// @brief Field _coroutineStarter, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 
+  /// [Inject]
   /// @brief Field _terminalController, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::TerminalController* ____terminalController;
 

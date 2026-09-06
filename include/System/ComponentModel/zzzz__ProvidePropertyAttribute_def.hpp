@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ProvidePropertyAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/ProvidePropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class ProvidePropertyAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::ProvidePropertyAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::ProvidePropertyAttribute*, "System.ComponentModel", "ProvidePropertyAttribute");
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -42,9 +43,11 @@ public:
 
   constexpr void __cordl_internal_set__ReceiverTypeName_k__BackingField(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_PropertyName, addr 0x63c6944, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReceiverTypeName, addr 0x63c694c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceiverTypeName();
 
@@ -54,20 +57,22 @@ protected:
   constexpr ProvidePropertyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProvidePropertyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProvidePropertyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProvidePropertyAttribute(ProvidePropertyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProvidePropertyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProvidePropertyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProvidePropertyAttribute(ProvidePropertyAttribute const&) = delete;
+  ProvidePropertyAttribute(ProvidePropertyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11289 };
 
+  /// [CompilerGenerated]
   /// @brief Field <PropertyName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____PropertyName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ReceiverTypeName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____ReceiverTypeName_k__BackingField;
 

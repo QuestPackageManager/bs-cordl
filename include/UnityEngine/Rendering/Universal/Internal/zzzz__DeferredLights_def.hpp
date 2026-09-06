@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\DeferredLights.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DeferredLights.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,13 +19,17 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeferredLights)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph;
@@ -436,13 +440,13 @@ protected:
   constexpr DeferredLights_ShaderConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_ShaderConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_ShaderConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeferredLights_ShaderConstants(DeferredLights_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_ShaderConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredLights_ShaderConstants(DeferredLights_ShaderConstants const&) = delete;
+  DeferredLights_ShaderConstants(DeferredLights_ShaderConstantsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13054 };
@@ -488,7 +492,7 @@ public:
   // @brief default ctor
   constexpr DeferredLights_StencilDeferredPasses();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DeferredLights_StencilDeferredPasses(int32_t value__) noexcept;
 
   /// @brief Field ClearStencilPartial value: I32(5)
@@ -543,8 +547,8 @@ public:
   // @brief default ctor
   constexpr DeferredLights_InitParams();
 
-  // Ctor Parameters [CppParam { name: "stencilDeferredMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "lightCookieManager", ty:
-  // "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "stencilDeferredMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightCookieManager", ty:
+  // "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: None, comment: None }]
   constexpr DeferredLights_InitParams(::UnityW<::UnityEngine::Material> stencilDeferredMaterial, ::UnityEngine::Rendering::Universal::LightCookieManager* lightCookieManager) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -623,13 +627,13 @@ protected:
   constexpr DeferredLights_SetupLightPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_SetupLightPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_SetupLightPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeferredLights_SetupLightPassData(DeferredLights_SetupLightPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_SetupLightPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_SetupLightPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredLights_SetupLightPassData(DeferredLights_SetupLightPassData const&) = delete;
+  DeferredLights_SetupLightPassData(DeferredLights_SetupLightPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13057 };
@@ -660,6 +664,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DeferredLi
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -701,13 +706,13 @@ protected:
   constexpr DeferredLights___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeferredLights___c(DeferredLights___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredLights___c(DeferredLights___c const&) = delete;
+  DeferredLights___c(DeferredLights___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13058 };
@@ -1331,21 +1336,27 @@ public:
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_s_SetupDeferredLights();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AccurateGbufferNormals, addr 0x68e96e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_AccurateGbufferNormals();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DeferredInputAttachments, addr 0x68e9750, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RTHandle*> get_DeferredInputAttachments();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DeferredInputIsTransient, addr 0x68e9760, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<bool> get_DeferredInputIsTransient();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DepthAttachment, addr 0x68e9770, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_DepthAttachment();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DepthAttachmentHandle, addr 0x68e97a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_DepthAttachmentHandle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DepthCopyTexture, addr 0x68e9780, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_DepthCopyTexture();
 
@@ -1373,48 +1384,62 @@ public:
   /// @brief Method get_GBufferSpecularMetallicIndex, addr 0x68e9378, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GBufferSpecularMetallicIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_GbufferAttachments, addr 0x68e9730, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RTHandle*> get_GbufferAttachments();
 
   /// @brief Method get_GbufferDepthIndex, addr 0x68e9390, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_GbufferDepthIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_GbufferFormats, addr 0x68e9790, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> get_GbufferFormats();
 
+  /// [CompilerGenerated]
   /// @brief Method get_GbufferTextureHandles, addr 0x68e9740, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> get_GbufferTextureHandles();
 
+  /// [CompilerGenerated]
   /// @brief Method get_HasDepthPrepass, addr 0x68e96a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasDepthPrepass();
 
+  /// [CompilerGenerated]
   /// @brief Method get_HasNormalPrepass, addr 0x68e96b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasNormalPrepass();
 
+  /// [CompilerGenerated]
   /// @brief Method get_HasRenderingLayerPrepass, addr 0x68e96c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasRenderingLayerPrepass();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsOverlay, addr 0x68e96d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsOverlay();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MixedLightingSetup, addr 0x68e96f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::MixedLightingSetup get_MixedLightingSetup();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RenderHeight, addr 0x68e9720, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RenderHeight();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RenderWidth, addr 0x68e9710, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RenderWidth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RenderingLayerMaskSize, addr 0x68e9670, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize get_RenderingLayerMaskSize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UseDecalLayers, addr 0x68e9680, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseDecalLayers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UseFramebufferFetch, addr 0x68e9690, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseFramebufferFetch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UseJobSystem, addr 0x68e9700, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseJobSystem();
 
@@ -1457,63 +1482,83 @@ public:
 
   static inline void setStaticF_s_SetupDeferredLights(::UnityEngine::Rendering::ProfilingSampler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_AccurateGbufferNormals, addr 0x68e96e8, size 0x8, virtual false, abstract: false, final false
   inline void set_AccurateGbufferNormals(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DeferredInputAttachments, addr 0x68e9758, size 0x8, virtual false, abstract: false, final false
   inline void set_DeferredInputAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DeferredInputIsTransient, addr 0x68e9768, size 0x8, virtual false, abstract: false, final false
   inline void set_DeferredInputIsTransient(::ArrayW<bool> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DepthAttachment, addr 0x68e9778, size 0x8, virtual false, abstract: false, final false
   inline void set_DepthAttachment(::UnityEngine::Rendering::RTHandle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DepthAttachmentHandle, addr 0x68e97a8, size 0x8, virtual false, abstract: false, final false
   inline void set_DepthAttachmentHandle(::UnityEngine::Rendering::RTHandle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DepthCopyTexture, addr 0x68e9788, size 0x8, virtual false, abstract: false, final false
   inline void set_DepthCopyTexture(::UnityEngine::Rendering::RTHandle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_GbufferAttachments, addr 0x68e9738, size 0x8, virtual false, abstract: false, final false
   inline void set_GbufferAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_GbufferFormats, addr 0x68e9798, size 0x8, virtual false, abstract: false, final false
   inline void set_GbufferFormats(::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_GbufferTextureHandles, addr 0x68e9748, size 0x8, virtual false, abstract: false, final false
   inline void set_GbufferTextureHandles(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_HasDepthPrepass, addr 0x68e96a8, size 0x8, virtual false, abstract: false, final false
   inline void set_HasDepthPrepass(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_HasNormalPrepass, addr 0x68e96b8, size 0x8, virtual false, abstract: false, final false
   inline void set_HasNormalPrepass(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_HasRenderingLayerPrepass, addr 0x68e96c8, size 0x8, virtual false, abstract: false, final false
   inline void set_HasRenderingLayerPrepass(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsOverlay, addr 0x68e96d8, size 0x8, virtual false, abstract: false, final false
   inline void set_IsOverlay(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MixedLightingSetup, addr 0x68e96f8, size 0x8, virtual false, abstract: false, final false
   inline void set_MixedLightingSetup(::UnityEngine::Rendering::Universal::MixedLightingSetup value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RenderHeight, addr 0x68e9728, size 0x8, virtual false, abstract: false, final false
   inline void set_RenderHeight(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RenderWidth, addr 0x68e9718, size 0x8, virtual false, abstract: false, final false
   inline void set_RenderWidth(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RenderingLayerMaskSize, addr 0x68e9678, size 0x8, virtual false, abstract: false, final false
   inline void set_RenderingLayerMaskSize(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_UseDecalLayers, addr 0x68e9688, size 0x8, virtual false, abstract: false, final false
   inline void set_UseDecalLayers(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_UseFramebufferFetch, addr 0x68e9698, size 0x8, virtual false, abstract: false, final false
   inline void set_UseFramebufferFetch(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_UseJobSystem, addr 0x68e9708, size 0x8, virtual false, abstract: false, final false
   inline void set_UseJobSystem(bool value);
 
@@ -1523,77 +1568,97 @@ protected:
   constexpr DeferredLights();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeferredLights(DeferredLights&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeferredLights", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredLights(DeferredLights const&) = delete;
+  DeferredLights(DeferredLightsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13059 };
 
+  /// [CompilerGenerated]
   /// @brief Field <RenderingLayerMaskSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize ____RenderingLayerMaskSize_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <UseDecalLayers>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool ____UseDecalLayers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <UseFramebufferFetch>k__BackingField, offset: 0x15, size: 0x1, def value: None
   bool ____UseFramebufferFetch_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <HasDepthPrepass>k__BackingField, offset: 0x16, size: 0x1, def value: None
   bool ____HasDepthPrepass_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <HasNormalPrepass>k__BackingField, offset: 0x17, size: 0x1, def value: None
   bool ____HasNormalPrepass_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <HasRenderingLayerPrepass>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____HasRenderingLayerPrepass_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsOverlay>k__BackingField, offset: 0x19, size: 0x1, def value: None
   bool ____IsOverlay_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AccurateGbufferNormals>k__BackingField, offset: 0x1a, size: 0x1, def value: None
   bool ____AccurateGbufferNormals_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MixedLightingSetup>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::MixedLightingSetup ____MixedLightingSetup_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <UseJobSystem>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____UseJobSystem_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RenderWidth>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t ____RenderWidth_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RenderHeight>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____RenderHeight_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <GbufferAttachments>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RTHandle*> ____GbufferAttachments_k__BackingField;
 
   /// @brief Field GbufferRTHandles, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RTHandle*> ___GbufferRTHandles;
 
+  /// [CompilerGenerated]
   /// @brief Field <GbufferTextureHandles>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> ____GbufferTextureHandles_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DeferredInputAttachments>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RTHandle*> ____DeferredInputAttachments_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DeferredInputIsTransient>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<bool> ____DeferredInputIsTransient_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DepthAttachment>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____DepthAttachment_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DepthCopyTexture>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____DepthCopyTexture_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <GbufferFormats>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> ____GbufferFormats_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DepthAttachmentHandle>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____DepthAttachmentHandle_k__BackingField;
 

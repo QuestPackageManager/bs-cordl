@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\IntegratedSubsystemDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/IntegratedSubsystemDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class IntegratedSubsystemDescriptor;
 // Write type traits
 MARK_REF_T(::UnityEngine::IntegratedSubsystemDescriptor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::IntegratedSubsystemDescriptor*, "UnityEngine", "IntegratedSubsystemDescriptor");
+// [UsedByNativeCode("SubsystemDescriptorBase")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -35,7 +36,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
   constexpr operator ::UnityEngine::ISubsystemDescriptor*() noexcept;
 
-  /// @brief Method CreateImpl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ISubsystem* CreateImpl();
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor* New_ctor();
@@ -64,17 +65,18 @@ protected:
   constexpr IntegratedSubsystemDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystemDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystemDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegratedSubsystemDescriptor(IntegratedSubsystemDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystemDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystemDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegratedSubsystemDescriptor(IntegratedSubsystemDescriptor const&) = delete;
+  IntegratedSubsystemDescriptor(IntegratedSubsystemDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22930 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 

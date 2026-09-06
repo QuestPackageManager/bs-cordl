@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Security\AuthenticatedStream.hpp"
+// IWYU pragma private; include "System/Net/Security/AuthenticatedStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
   /// @brief Method get_InnerStream, addr 0x63709a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InnerStream();
 
-  /// @brief Method get_IsAuthenticated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsAuthenticated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsAuthenticated();
 
 protected:
@@ -64,13 +64,13 @@ protected:
   constexpr AuthenticatedStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AuthenticatedStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AuthenticatedStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AuthenticatedStream(AuthenticatedStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AuthenticatedStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AuthenticatedStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AuthenticatedStream(AuthenticatedStream const&) = delete;
+  AuthenticatedStream(AuthenticatedStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11800 };

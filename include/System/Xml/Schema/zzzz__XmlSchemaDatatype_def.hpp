@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaDatatype.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaDatatype.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,16 +98,16 @@ public:
 
   __declspec(property(get = get_Variety)) ::System::Xml::Schema::XmlSchemaDatatypeVariety Variety;
 
-  /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
   /// @brief Method ConcatenatedToString, addr 0x622fda8, size 0x6ac, virtual false, abstract: false, final false
   static inline ::StringW ConcatenatedToString(::System::Object* value);
 
-  /// @brief Method DeriveByList, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DeriveByList, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* DeriveByList(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method DeriveByRestriction, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DeriveByRestriction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* DeriveByRestriction(::System::Xml::Schema::XmlSchemaObjectCollection* facets, ::System::Xml::XmlNameTable* nameTable,
                                                                        ::System::Xml::Schema::XmlSchemaType* schemaType);
 
@@ -123,34 +123,34 @@ public:
   /// @brief Method FromXmlTokenizedTypeXsd, addr 0x6230454, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaDatatype* FromXmlTokenizedTypeXsd(::System::Xml::XmlTokenizedType token);
 
-  /// @brief Method IsComparable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsComparable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsComparable(::System::Xml::Schema::XmlSchemaDatatype* dtype);
 
   /// @brief Method IsDerivedFrom, addr 0x622f664, size 0x8, virtual true, abstract: false, final false
   inline bool IsDerivedFrom(::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method IsEqual, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsEqual, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsEqual(::System::Object* o1, ::System::Object* o2);
 
   static inline ::System::Xml::Schema::XmlSchemaDatatype* New_ctor();
 
-  /// @brief Method ParseValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method ParseValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, bool createAtomicValue);
 
-  /// @brief Method TryParseValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::by_ref<::System::Object*> typedValue);
 
-  /// @brief Method TryParseValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Exception* TryParseValue(::System::Object* value, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* namespaceResolver,
                                             ::by_ref<::System::Object*> typedValue);
 
   /// @brief Method TypeCodeToString, addr 0x622f79c, size 0x60c, virtual false, abstract: false, final false
   inline ::StringW TypeCodeToString(::System::Xml::Schema::XmlTypeCode typeCode);
 
-  /// @brief Method VerifySchemaValid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method VerifySchemaValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void VerifySchemaValid(::System::Xml::Schema::XmlSchemaObjectTable* notations, ::System::Xml::Schema::XmlSchemaObject* caller);
 
   /// @brief Method XdrCanonizeUri, addr 0x621f49c, size 0x1b0, virtual false, abstract: false, final false
@@ -159,22 +159,22 @@ public:
   /// @brief Method .ctor, addr 0x623051c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_HasLexicalFacets, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_HasLexicalFacets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasLexicalFacets();
 
-  /// @brief Method get_HasValueFacets, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_Restriction, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Restriction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::RestrictionFacets* get_Restriction();
 
-  /// @brief Method get_TokenizedType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
   /// @brief Method get_TypeCode, addr 0x622f65c, size 0x8, virtual true, abstract: false, final false
@@ -183,10 +183,10 @@ public:
   /// @brief Method get_TypeCodeString, addr 0x622f66c, size 0x130, virtual false, abstract: false, final false
   inline ::StringW get_TypeCodeString();
 
-  /// @brief Method get_ValueConverter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueConverter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlValueConverter* get_ValueConverter();
 
-  /// @brief Method get_ValueType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ValueType();
 
   /// @brief Method get_Variety, addr 0x622f654, size 0x8, virtual true, abstract: false, final false
@@ -198,13 +198,13 @@ protected:
   constexpr XmlSchemaDatatype();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaDatatype", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaDatatype", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaDatatype(XmlSchemaDatatype&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaDatatype", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaDatatype", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaDatatype(XmlSchemaDatatype const&) = delete;
+  XmlSchemaDatatype(XmlSchemaDatatypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9762 };

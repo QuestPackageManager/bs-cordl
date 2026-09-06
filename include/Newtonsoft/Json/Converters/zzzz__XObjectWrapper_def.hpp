@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XObjectWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XObjectWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ class XObjectWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XObjectWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XObjectWrapper*, "Newtonsoft.Json.Converters", "XObjectWrapper");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -35,8 +37,10 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE XObjectWrapper : public ::System::Object {
 public:
   // Declarations
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_Attributes)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* Attributes;
 
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_ChildNodes)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ChildNodes;
 
   __declspec(property(get = get_LocalName)) ::StringW LocalName;
@@ -57,6 +61,7 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
+  /// [NullableContext(1)]
   /// @brief Method AppendChild, addr 0x5da1bdc, size 0x38, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
@@ -71,9 +76,11 @@ public:
   /// @brief Method .ctor, addr 0x5da02e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XObject* xmlObject);
 
+  /// [NullableContext(1)]
   /// @brief Method get_Attributes, addr 0x5da1b38, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
 
+  /// [NullableContext(1)]
   /// @brief Method get_ChildNodes, addr 0x5da1adc, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
 
@@ -107,13 +114,13 @@ protected:
   constexpr XObjectWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XObjectWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XObjectWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XObjectWrapper(XObjectWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XObjectWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XObjectWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XObjectWrapper(XObjectWrapper const&) = delete;
+  XObjectWrapper(XObjectWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13686 };

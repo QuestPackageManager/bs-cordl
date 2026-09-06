@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBounded2D.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBounded2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,9 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine {
 struct Rect;
@@ -45,6 +47,7 @@ struct OVRBounded2D;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::OVRBounded2D);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRBounded2D, "", "OVRBounded2D");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -116,6 +119,7 @@ public:
   /// @brief Method get_BoundingBox, addr 0x5e130a4, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_BoundingBox();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handle, addr 0x5e1309c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
@@ -146,7 +150,7 @@ public:
   // @brief default ctor
   constexpr OVRBounded2D();
 
-  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRBounded2D(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -155,6 +159,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
   uint64_t _Handle_k__BackingField;
 

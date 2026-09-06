@@ -1,9 +1,13 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConnectedPlayerManager_3.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConnectedPlayerManager_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectedPlayer_3_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -21,7 +25,12 @@ namespace BGNet::Core {
 class ITimeProvider;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> struct ConnectedPlayerManager_3__InitializePlayerEncryption_d__119;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+struct ConnectedPlayerManager_3__InitializePlayerEncryption_d__119;
 }
 namespace GlobalNamespace {
 struct ConnectedPlayerManager_InternalMessageType;
@@ -39,7 +48,12 @@ namespace GlobalNamespace {
 class EncryptionUtility_IEncryptionState;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class IConnectedPlayerFactory_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class IConnectedPlayerFactory_3;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -66,7 +80,9 @@ namespace GlobalNamespace {
 class LongRollingAverage;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData> class NetworkPacketSerializer_2;
+template <typename TType, typename TData>
+  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
+class NetworkPacketSerializer_2;
 }
 namespace GlobalNamespace {
 class PingPacket;
@@ -78,7 +94,10 @@ namespace GlobalNamespace {
 class PlayerDisconnectedPacket;
 }
 namespace GlobalNamespace {
-template <typename TGameSpecificIdentityData> class PlayerIdentityPacket_1;
+template <typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> &&
+           ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class PlayerIdentityPacket_1;
 }
 namespace GlobalNamespace {
 class PlayerSortOrderPacket;
@@ -124,20 +143,36 @@ class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class ConnectedPlayerManager_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class ConnectedPlayerManager_3;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> struct ConnectedPlayerManager_3__InitializePlayerEncryption_d__119;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+struct ConnectedPlayerManager_3__InitializePlayerEncryption_d__119;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ConnectedPlayerManager_3);
 MARK_GEN_VAL_T(::GlobalNamespace::ConnectedPlayerManager_3__InitializePlayerEncryption_d__119);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ConnectedPlayerManager_3, "", "ConnectedPlayerManager`3");
 DEFINE_IL2CPP_GEN_CLASS(::GlobalNamespace::ConnectedPlayerManager_3__InitializePlayerEncryption_d__119, "", "ConnectedPlayerManager`3/<InitializePlayerEncryption>d__119");
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// [CompilerGenerated]
+// Dependencies ConnectedPlayer`3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>, IConnectedPlayer, LiteNetLib.Utils.INetSerializable,
+// System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // cpp template
 template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 // Is value type: true
 // CS Name: ConnectedPlayerManager`3/<InitializePlayerEncryption>d__119<TConnectedPlayer,TConnectedPlayerImpl,TGameSpecificIdentityData>
 struct CORDL_TYPE ConnectedPlayerManager_3__InitializePlayerEncryption_d__119 {
@@ -149,6 +184,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -159,12 +195,12 @@ public:
   // @brief default ctor
   constexpr ConnectedPlayerManager_3__InitializePlayerEncryption_d__119();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer,TConnectedPlayerImpl,TGameSpecificIdentityData>*", modifiers: "", def_value: None }, CppParam { name: "player", ty:
-  // "TConnectedPlayerImpl", modifiers: "", def_value: None }, CppParam { name: "_isClient_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer,TConnectedPlayerImpl,TGameSpecificIdentityData>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "player", ty:
+  // "TConnectedPlayerImpl", modifiers: "", def_value: None, comment: None }, CppParam { name: "_isClient_5__2", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>", modifiers: "", def_value: None, comment: None }]
   constexpr ConnectedPlayerManager_3__InitializePlayerEncryption_d__119(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                         ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>* __4__this,
                                                                         TConnectedPlayerImpl player, bool _isClient_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>> __u__1,
@@ -201,10 +237,14 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies ConnectedPlayerManager
+// Dependencies ConnectedPlayerManager, ConnectedPlayer`3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>, IConnectedPlayer, IConnectionManager, LiteNetLib.Utils.INetSerializable
 namespace GlobalNamespace {
 // cpp template
 template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 // Is value type: false
 // CS Name: ConnectedPlayerManager`3<TConnectedPlayer,TConnectedPlayerImpl,TGameSpecificIdentityData>
 class CORDL_TYPE ConnectedPlayerManager_3 : public ::GlobalNamespace::ConnectedPlayerManager {
@@ -362,7 +402,9 @@ public:
   inline TConnectedPlayerImpl GetConnectedPlayer(int32_t index);
 
   /// @brief Method GetConnectionManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetConnectionManager();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+  inline T GetConnectionManager();
 
   /// @brief Method GetNextConnectionId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline uint8_t GetNextConnectionId();
@@ -397,7 +439,7 @@ public:
   /// @brief Method HandleGameSpecificPlayerAdded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleGameSpecificPlayerAdded(TConnectedPlayerImpl player);
 
-  /// @brief Method HandleGameSpecificPlayerIdentityUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HandleGameSpecificPlayerIdentityUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleGameSpecificPlayerIdentityUpdate(TGameSpecificIdentityData identityData, TConnectedPlayer iPlayer);
 
   /// @brief Method HandleInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -436,12 +478,15 @@ public:
   /// @brief Method HandleSyncTimePacket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandleSyncTimePacket(::GlobalNamespace::SyncTimePacket* packet, TConnectedPlayer player);
 
+  /// [AsyncStateMachine(typeof(ConnectedPlayerManager`3::<InitializePlayerEncryption>d__119<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>))]
   /// @brief Method InitializePlayerEncryption, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InitializePlayerEncryption(TConnectedPlayerImpl player);
 
   /// @brief Method KickPlayer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void KickPlayer(::StringW userId, ::GlobalNamespace::DisconnectedReason disconnectedReason);
 
+  /// [Conditional("BG_VERBOSE_LOGGING")]
+  /// [Conditional("BG_MULTIPLAYER_SERVER")]
   /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
@@ -471,7 +516,9 @@ public:
   inline void ResetLocalState();
 
   /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Send(T message);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void Send(T message);
 
   /// @brief Method SendImmediately, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SendImmediately(::LiteNetLib::Utils::INetSerializable* message, bool onlyFirstDegree);
@@ -486,25 +533,37 @@ public:
   inline void SendImmediatelyFromPlayerToPlayer(::LiteNetLib::Utils::INetSerializable* message, TConnectedPlayerImpl fromPlayer, TConnectedPlayerImpl toPlayer);
 
   /// @brief Method SendImmediatelyFromPlayerToPlayerUnreliable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendImmediatelyFromPlayerToPlayerUnreliable(T message, TConnectedPlayerImpl fromPlayer, TConnectedPlayerImpl toPlayer);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SendImmediatelyFromPlayerToPlayerUnreliable(T message, TConnectedPlayerImpl fromPlayer, TConnectedPlayerImpl toPlayer);
 
   /// @brief Method SendImmediatelyToPlayer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SendImmediatelyToPlayer(::LiteNetLib::Utils::INetSerializable* message, TConnectedPlayerImpl toPlayer);
 
   /// @brief Method SendToPlayer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* player);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SendToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* player);
 
   /// @brief Method SendUnreliable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendUnreliable(T message);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SendUnreliable(T message);
 
   /// @brief Method SendUnreliableEncryptedToPlayer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendUnreliableEncryptedToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* player);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SendUnreliableEncryptedToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* player);
 
   /// @brief Method SendUnreliableFromPlayerToPlayer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendUnreliableFromPlayerToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* fromPlayer, ::GlobalNamespace::IConnectedPlayer* toPlayer);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SendUnreliableFromPlayerToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* fromPlayer, ::GlobalNamespace::IConnectedPlayer* toPlayer);
 
   /// @brief Method SendUnreliableOnlyToFirstDegreeConnections, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendUnreliableOnlyToFirstDegreeConnections(T message);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SendUnreliableOnlyToFirstDegreeConnections(T message);
 
   /// @brief Method SetLocalPlayerSortIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetLocalPlayerSortIndex(int32_t sortIndex);
@@ -721,36 +780,47 @@ public:
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IConnectionManager* connectionManager,
                     ::GlobalNamespace::IConnectedPlayerFactory_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>* connectedPlayerFactory);
 
+  /// [CompilerGenerated]
   /// @brief Method add_connectedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_connectedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_connectionFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_disconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_initializedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_initializedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_packetReceivedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_packetReceivedEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerConnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_playerConnectedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerDisconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_playerDisconnectedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerLatencyInitializedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_playerLatencyInitializedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerOrderChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_playerOrderChangedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerStateChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_playerStateChangedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_syncTimeInitializedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_syncTimeInitializedEvent(::System::Action* value);
 
@@ -793,36 +863,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_connectedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_connectedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_connectionFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_disconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_initializedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_initializedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_packetReceivedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_packetReceivedEvent(::System::Action_2<::StringW, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerConnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_playerConnectedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerDisconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_playerDisconnectedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerLatencyInitializedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_playerLatencyInitializedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerOrderChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_playerOrderChangedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerStateChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_playerStateChangedEvent(::System::Action_1<TConnectedPlayer>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_syncTimeInitializedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_syncTimeInitializedEvent(::System::Action* value);
 
@@ -832,47 +913,58 @@ protected:
   constexpr ConnectedPlayerManager_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerManager_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerManager_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectedPlayerManager_3(ConnectedPlayerManager_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerManager_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerManager_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectedPlayerManager_3(ConnectedPlayerManager_3 const&) = delete;
+  ConnectedPlayerManager_3(ConnectedPlayerManager_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18124 };
 
+  /// [CompilerGenerated]
   /// @brief Field connectedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___connectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field initializedEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___initializedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field disconnectedEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DisconnectedReason>* ___disconnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field connectionFailedEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* ___connectionFailedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerConnectedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<TConnectedPlayer>* ___playerConnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerDisconnectedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<TConnectedPlayer>* ___playerDisconnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerStateChangedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<TConnectedPlayer>* ___playerStateChangedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerOrderChangedEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<TConnectedPlayer>* ___playerOrderChangedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerLatencyInitializedEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<TConnectedPlayer>* ___playerLatencyInitializedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field syncTimeInitializedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___syncTimeInitializedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field packetReceivedEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::StringW>* ___packetReceivedEvent;
 

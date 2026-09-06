@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEvent.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputEvent_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_def.hpp"
@@ -367,7 +367,7 @@ inline bool UnityEngine::InputSystem::LowLevel::InputEvent::Equals(::UnityEngine
                           { "Equals", {}, { ::i2c::type_of<::UnityEngine::InputSystem::LowLevel::InputEvent*>(), ::i2c::type_of<::UnityEngine::InputSystem::LowLevel::InputEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, first, second);
 }
-// Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngineInternal::Input::NativeInputEvent", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngineInternal::Input::NativeInputEvent", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent::InputEvent(::UnityEngineInternal::Input::NativeInputEvent m_Event) noexcept {
   this->m_Event = m_Event;
 }

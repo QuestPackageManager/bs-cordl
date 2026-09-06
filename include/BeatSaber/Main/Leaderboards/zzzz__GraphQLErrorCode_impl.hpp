@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\Leaderboards\GraphQLErrorCode.hpp"
+// IWYU pragma private; include "BeatSaber/Main/Leaderboards/GraphQLErrorCode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__GraphQLErrorCode_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Main::Leaderboards::GraphQLErrorCode.IsBeatGamesErrorCode

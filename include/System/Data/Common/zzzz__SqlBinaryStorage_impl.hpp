@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\SqlBinaryStorage.hpp"
+// IWYU pragma private; include "System/Data/Common/SqlBinaryStorage.hpp"
 #include "System/Data/Common/zzzz__DataStorage_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBinary_impl.hpp"
 #include "System/Data/Common/zzzz__SqlBinaryStorage_def.hpp"

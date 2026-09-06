@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\EventAttributes.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/EventAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   // @brief default ctor
   constexpr EventAttributes();
 
-  // Ctor Parameters [CppParam { name: "content", ty: "::ArrayW<::UnityEngine::VFX::EventAttribute*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "content", ty: "::ArrayW<::UnityEngine::VFX::EventAttribute*>", modifiers: "", def_value: None, comment: None }]
   constexpr EventAttributes(::ArrayW<::UnityEngine::VFX::EventAttribute*> content) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -37,6 +37,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [SerializeReference]
   /// @brief Field content, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::VFX::EventAttribute*> content;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteMissInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteMissInfoNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__ColorType_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
@@ -314,6 +314,7 @@ inline ::GlobalNamespace::NoteMissInfoNetSerializable* GlobalNamespace::NoteMiss
                        { "Init", {}, { ::i2c::type_of<::GlobalNamespace::ColorType>(), ::i2c::type_of<::GlobalNamespace::NoteLineLayer>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteMissInfoNetSerializable*>(this, ___internal_method, colorType, lineLayer, noteLineIndex, noteTime);
 }
+/// @brief [Preserve]
 inline ::GlobalNamespace::NoteMissInfoNetSerializable* GlobalNamespace::NoteMissInfoNetSerializable::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NoteMissInfoNetSerializable*>());
 }

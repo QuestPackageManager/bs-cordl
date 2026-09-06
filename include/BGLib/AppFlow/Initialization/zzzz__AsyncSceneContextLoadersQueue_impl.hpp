@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncSceneContextLoadersQueue.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncSceneContextLoadersQueue.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncSceneContextLoadersQueue_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__ConcurrentAsyncLoaders_def.hpp"

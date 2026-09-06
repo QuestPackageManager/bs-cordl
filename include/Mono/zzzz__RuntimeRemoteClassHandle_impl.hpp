@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeRemoteClassHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimeRemoteClassHandle.hpp"
 #include "Mono/zzzz__RuntimeRemoteClassHandle_def.hpp"
 #include "Mono/zzzz__RuntimeClassHandle_def.hpp"
 #include "Mono/zzzz__RuntimeStructs_def.hpp"
@@ -19,7 +19,7 @@ inline ::Mono::RuntimeClassHandle Mono::RuntimeRemoteClassHandle::get_ProxyClass
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeRemoteClassHandle>(), { "get_ProxyClass", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Mono::RuntimeClassHandle>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_RemoteClass*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_RemoteClass*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::RuntimeRemoteClassHandle::RuntimeRemoteClassHandle(::Mono::RuntimeStructs_RemoteClass* value) noexcept {
   this->value = value;
 }

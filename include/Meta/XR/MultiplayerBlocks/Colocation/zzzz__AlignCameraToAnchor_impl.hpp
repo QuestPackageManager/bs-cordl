@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\AlignCameraToAnchor.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/AlignCameraToAnchor.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__AlignCameraToAnchor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"

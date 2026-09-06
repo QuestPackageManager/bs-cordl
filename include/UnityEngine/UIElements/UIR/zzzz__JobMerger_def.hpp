@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\JobMerger.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/JobMerger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,12 +77,14 @@ public:
   /// @brief Method .ctor, addr 0x6cde394, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cde540, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cde548, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -92,13 +94,13 @@ protected:
   constexpr JobMerger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobMerger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobMerger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JobMerger(JobMerger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobMerger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobMerger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobMerger(JobMerger const&) = delete;
+  JobMerger(JobMergerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5304 };
@@ -109,6 +111,8 @@ public:
   /// @brief Field m_JobCount, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_JobCount;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x24, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DisallowGPUDrivenRendering.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DisallowGPUDrivenRendering.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class DisallowGPUDrivenRendering;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::DisallowGPUDrivenRendering*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DisallowGPUDrivenRendering*, "UnityEngine.Rendering", "DisallowGPUDrivenRendering");
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -74,13 +75,13 @@ protected:
   constexpr DisallowGPUDrivenRendering();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisallowGPUDrivenRendering", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisallowGPUDrivenRendering", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisallowGPUDrivenRendering(DisallowGPUDrivenRendering&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisallowGPUDrivenRendering", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisallowGPUDrivenRendering", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisallowGPUDrivenRendering(DisallowGPUDrivenRendering const&) = delete;
+  DisallowGPUDrivenRendering(DisallowGPUDrivenRenderingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17596 };
@@ -88,6 +89,7 @@ public:
   /// @brief Field m_AppliedRecursively, offset: 0x20, size: 0x1, def value: None
   bool ___m_AppliedRecursively;
 
+  /// [FormerlySerializedAs("applyToChildrenRecursively")]
   /// @brief Field m_applyToChildrenRecursively, offset: 0x21, size: 0x1, def value: None
   bool ___m_applyToChildrenRecursively;
 

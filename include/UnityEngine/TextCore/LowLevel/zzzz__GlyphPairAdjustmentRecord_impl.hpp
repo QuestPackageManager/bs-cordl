@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphPairAdjustmentRecord.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphPairAdjustmentRecord.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__FontFeatureLookupFlags_impl.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphAdjustmentRecord_impl.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphPairAdjustmentRecord_def.hpp"
@@ -177,9 +177,9 @@ constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdj
 UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphPairAdjustmentRecord_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_FirstAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_SecondAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FeatureLookupFlags", ty:
-// "::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_FirstAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_SecondAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FeatureLookupFlags", ty:
+// "::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GlyphPairAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord,
                                                                                                   ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_SecondAdjustmentRecord,
                                                                                                   ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags) noexcept {

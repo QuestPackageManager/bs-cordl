@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\IProviderExtensions.hpp"
+// IWYU pragma private; include "Zenject/IProviderExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class IProviderExtensions;
 // Write type traits
 MARK_REF_T(::Zenject::IProviderExtensions*);
 DEFINE_IL2CPP_CLASS(::Zenject::IProviderExtensions*, "Zenject", "IProviderExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -40,29 +41,37 @@ public:
   /// @brief Field EmptyArgList, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_EmptyArgList, put = setStaticF_EmptyArgList)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* EmptyArgList;
 
+  /// [Extension]
   /// @brief Method GetAllInstances, addr 0x6e87330, size 0xfc, virtual false, abstract: false, final false
   static inline void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
                                      ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
+  /// [Extension]
   /// @brief Method GetAllInstances, addr 0x6e872b4, size 0x7c, virtual false, abstract: false, final false
   static inline void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
+  /// [Extension]
   /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6e871b0, size 0x104, virtual false, abstract: false, final false
   static inline void GetAllInstancesWithInjectSplit(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::by_ref<::System::Action*> injectAction,
                                                     ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
+  /// [Extension]
   /// @brief Method GetInstance, addr 0x6e876b0, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
 
+  /// [Extension]
   /// @brief Method GetInstance, addr 0x6e87724, size 0x258, virtual false, abstract: false, final false
   static inline ::System::Object* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e87110, size 0xa0, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
+  /// [Extension]
   /// @brief Method TryGetInstance, addr 0x6e8742c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
 
+  /// [Extension]
   /// @brief Method TryGetInstance, addr 0x6e874a0, size 0x210, virtual false, abstract: false, final false
   static inline ::System::Object* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
 
@@ -76,13 +85,13 @@ protected:
   constexpr IProviderExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IProviderExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IProviderExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IProviderExtensions(IProviderExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IProviderExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IProviderExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IProviderExtensions(IProviderExtensions const&) = delete;
+  IProviderExtensions(IProviderExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14559 };

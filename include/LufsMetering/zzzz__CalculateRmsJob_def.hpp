@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering\CalculateRmsJob.hpp"
+// IWYU pragma private; include "LufsMetering/CalculateRmsJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CalculateRmsJob)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;
@@ -21,6 +23,7 @@ struct CalculateRmsJob;
 // Write type traits
 MARK_VAL_T(::LufsMetering::CalculateRmsJob);
 DEFINE_IL2CPP_CLASS(::LufsMetering::CalculateRmsJob, "LufsMetering", "CalculateRmsJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace LufsMetering {
 // Is value type: true
@@ -44,9 +47,9 @@ public:
   // @brief default ctor
   constexpr CalculateRmsJob();
 
-  // Ctor Parameters [CppParam { name: "inputData", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "outputData", ty:
-  // "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "step", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeGate", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "rate", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "inputData", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "outputData", ty:
+  // "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "step", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "timeGate", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rate", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CalculateRmsJob(::Unity::Collections::NativeArray_1<float_t> inputData, ::Unity::Collections::NativeArray_1<float_t> outputData, float_t step, float_t timeGate, int32_t rate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -55,18 +58,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
+  /// [ReadOnly]
   /// @brief Field inputData, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<float_t> inputData;
 
+  /// [WriteOnly]
   /// @brief Field outputData, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<float_t> outputData;
 
+  /// [ReadOnly]
   /// @brief Field step, offset: 0x20, size: 0x4, def value: None
   float_t step;
 
+  /// [ReadOnly]
   /// @brief Field timeGate, offset: 0x24, size: 0x4, def value: None
   float_t timeGate;
 
+  /// [ReadOnly]
   /// @brief Field rate, offset: 0x28, size: 0x4, def value: None
   int32_t rate;
 

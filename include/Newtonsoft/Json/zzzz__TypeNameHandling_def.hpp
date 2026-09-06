@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\TypeNameHandling.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/TypeNameHandling.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TypeNameHandling;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::TypeNameHandling);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::TypeNameHandling, "Newtonsoft.Json", "TypeNameHandling");
+// [Flags]
 // Dependencies
 namespace Newtonsoft::Json {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr TypeNameHandling();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TypeNameHandling(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(3)

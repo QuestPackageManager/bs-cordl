@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AtlasAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AtlasAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace UnityEngine::Rendering {
 class AtlasAllocator___c;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -91,13 +93,13 @@ protected:
   constexpr AtlasAllocator_AtlasNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator_AtlasNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator_AtlasNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AtlasAllocator_AtlasNode(AtlasAllocator_AtlasNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator_AtlasNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator_AtlasNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AtlasAllocator_AtlasNode(AtlasAllocator_AtlasNode const&) = delete;
+  AtlasAllocator_AtlasNode(AtlasAllocator_AtlasNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12248 };
@@ -123,6 +125,7 @@ static_assert(offsetof(::UnityEngine::Rendering::AtlasAllocator_AtlasNode, ___m_
 static_assert(sizeof(::UnityEngine::Rendering::AtlasAllocator_AtlasNode) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -168,13 +171,13 @@ protected:
   constexpr AtlasAllocator___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AtlasAllocator___c(AtlasAllocator___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AtlasAllocator___c(AtlasAllocator___c const&) = delete;
+  AtlasAllocator___c(AtlasAllocator___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12249 };
@@ -259,13 +262,13 @@ protected:
   constexpr AtlasAllocator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AtlasAllocator(AtlasAllocator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AtlasAllocator(AtlasAllocator const&) = delete;
+  AtlasAllocator(AtlasAllocatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12250 };

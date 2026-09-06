@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorArrayLightWithIdsGroupEntry.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorArrayLightWithIdsGroupEntry.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorArrayLightWithIdsGroupEntry_def.hpp"

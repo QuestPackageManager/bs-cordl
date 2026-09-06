@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsPeer.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsPeer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,42 +32,42 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsPeer {
 public:
   // Declarations
-  /// @brief Method Cancel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cancel();
 
-  /// @brief Method GetCipher, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* GetCipher();
 
-  /// @brief Method GetCompression, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCompression, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCompression* GetCompression();
 
-  /// @brief Method GetHandshakeTimeoutMillis, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetHandshakeTimeoutMillis, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHandshakeTimeoutMillis();
 
-  /// @brief Method NotifyAlertRaised, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NotifyAlertRaised, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyAlertRaised(uint8_t alertLevel, uint8_t alertDescription, ::StringW message, ::System::Exception* cause);
 
-  /// @brief Method NotifyAlertReceived, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NotifyAlertReceived, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyAlertReceived(uint8_t alertLevel, uint8_t alertDescription);
 
-  /// @brief Method NotifyCloseHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NotifyCloseHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyCloseHandle(::Org::BouncyCastle::Crypto::Tls::TlsCloseable* closehandle);
 
-  /// @brief Method NotifyHandshakeComplete, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NotifyHandshakeComplete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyHandshakeComplete();
 
-  /// @brief Method NotifySecureRenegotiation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NotifySecureRenegotiation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifySecureRenegotiation(bool secureRenegotiation);
 
-  /// @brief Method RequiresExtendedMasterSecret, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RequiresExtendedMasterSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool RequiresExtendedMasterSecret();
 
-  /// @brief Method ShouldUseGmtUnixTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ShouldUseGmtUnixTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ShouldUseGmtUnixTime();
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsPeer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsPeer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsPeer(TlsPeer const&) = delete;
+  TlsPeer(TlsPeerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1162 };

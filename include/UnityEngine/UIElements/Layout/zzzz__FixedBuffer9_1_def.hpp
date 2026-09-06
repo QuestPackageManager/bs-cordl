@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\FixedBuffer9_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/FixedBuffer9_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,15 +8,19 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(FixedBuffer9_1)
 // Forward declare root types
 namespace UnityEngine::UIElements::Layout {
-template <typename T> struct FixedBuffer9_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedBuffer9_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::Layout::FixedBuffer9_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::Layout::FixedBuffer9_1, "UnityEngine.UIElements.Layout", "FixedBuffer9`1");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Layout.FixedBuffer9`1<T>
 struct CORDL_TYPE FixedBuffer9_1 {
@@ -31,10 +35,10 @@ public:
   // @brief default ctor
   constexpr FixedBuffer9_1();
 
-  // Ctor Parameters [CppParam { name: "__0", ty: "T", modifiers: "", def_value: None }, CppParam { name: "__1", ty: "T", modifiers: "", def_value: None }, CppParam { name: "__2", ty: "T", modifiers:
-  // "", def_value: None }, CppParam { name: "__3", ty: "T", modifiers: "", def_value: None }, CppParam { name: "__4", ty: "T", modifiers: "", def_value: None }, CppParam { name: "__5", ty: "T",
-  // modifiers: "", def_value: None }, CppParam { name: "__6", ty: "T", modifiers: "", def_value: None }, CppParam { name: "__7", ty: "T", modifiers: "", def_value: None }, CppParam { name: "__8", ty:
-  // "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__0", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "__1", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__2", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "__3", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4", ty: "T",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__5", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "__6", ty: "T", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__7", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr FixedBuffer9_1(T __0, T __1, T __2, T __3, T __4, T __5, T __6, T __7, T __8) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

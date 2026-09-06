@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelGameplaySetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelGameplaySetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,10 +47,10 @@ public:
 
   static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor();
 
-  static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   /// @brief Method SetBeatmapKey, addr 0x3736e04, size 0xc, virtual false, abstract: false, final false
-  inline void SetBeatmapKey(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetBeatmapKey(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// @brief Method SetGameplayModifiers, addr 0x3736e10, size 0x84, virtual false, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
@@ -71,7 +71,7 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x3736d00, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   /// @brief Method get_beatmapKey, addr 0x3736c88, size 0xc, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
@@ -88,13 +88,13 @@ protected:
   constexpr LevelGameplaySetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelGameplaySetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelGameplaySetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelGameplaySetupData(LevelGameplaySetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelGameplaySetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelGameplaySetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelGameplaySetupData(LevelGameplaySetupData const&) = delete;
+  LevelGameplaySetupData(LevelGameplaySetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15100 };

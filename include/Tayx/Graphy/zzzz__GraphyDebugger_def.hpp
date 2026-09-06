@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\GraphyDebugger.hpp"
+// IWYU pragma private; include "Tayx/Graphy/GraphyDebugger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -153,7 +153,7 @@ public:
   // @brief default ctor
   constexpr GraphyDebugger_DebugVariable();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyDebugger_DebugVariable(int32_t value__) noexcept;
 
   /// @brief Field Audio_DB value: I32(7)
@@ -229,7 +229,7 @@ public:
   // @brief default ctor
   constexpr GraphyDebugger_DebugComparer();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyDebugger_DebugComparer(int32_t value__) noexcept;
 
   /// @brief Field Equals value: I32(2)
@@ -293,7 +293,7 @@ public:
   // @brief default ctor
   constexpr GraphyDebugger_ConditionEvaluation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyDebugger_ConditionEvaluation(int32_t value__) noexcept;
 
   /// @brief Field All_conditions_must_be_met value: I32(0)
@@ -349,7 +349,7 @@ public:
   // @brief default ctor
   constexpr GraphyDebugger_MessageType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyDebugger_MessageType(int32_t value__) noexcept;
 
   /// @brief Field Error value: I32(2)
@@ -389,8 +389,8 @@ public:
   // @brief default ctor
   constexpr GraphyDebugger_DebugCondition();
 
-  // Ctor Parameters [CppParam { name: "Variable", ty: "::Tayx::Graphy::GraphyDebugger_DebugVariable", modifiers: "", def_value: None }, CppParam { name: "Comparer", ty:
-  // "::Tayx::Graphy::GraphyDebugger_DebugComparer", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Variable", ty: "::Tayx::Graphy::GraphyDebugger_DebugVariable", modifiers: "", def_value: None, comment: None }, CppParam { name: "Comparer", ty:
+  // "::Tayx::Graphy::GraphyDebugger_DebugComparer", modifiers: "", def_value: None, comment: None }, CppParam { name: "Value", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyDebugger_DebugCondition(::Tayx::Graphy::GraphyDebugger_DebugVariable Variable, ::Tayx::Graphy::GraphyDebugger_DebugComparer Comparer, float_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -399,12 +399,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
+  /// [Tooltip("Variable to compare against")]
   /// @brief Field Variable, offset: 0x0, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyDebugger_DebugVariable Variable;
 
+  /// [Tooltip("Comparer operator to use")]
   /// @brief Field Comparer, offset: 0x4, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyDebugger_DebugComparer Comparer;
 
+  /// [Tooltip("Value to compare against the chosen variable")]
   /// @brief Field Value, offset: 0x8, size: 0x4, def value: None
   float_t Value;
 
@@ -603,41 +606,48 @@ protected:
   constexpr GraphyDebugger_DebugPacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger_DebugPacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger_DebugPacket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphyDebugger_DebugPacket(GraphyDebugger_DebugPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger_DebugPacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger_DebugPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger_DebugPacket(GraphyDebugger_DebugPacket const&) = delete;
+  GraphyDebugger_DebugPacket(GraphyDebugger_DebugPacketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21473 };
 
+  /// [Tooltip("If false, it won\'t be checked")]
   /// @brief Field Active, offset: 0x10, size: 0x1, def value: None
   bool ___Active;
 
+  /// [Tooltip("Optional Id. It\'s used to get or remove DebugPackets in runtime")]
   /// @brief Field Id, offset: 0x14, size: 0x4, def value: None
   int32_t ___Id;
 
+  /// [Tooltip("If true, once the actions are executed, this DebugPacket will delete itself")]
   /// @brief Field ExecuteOnce, offset: 0x18, size: 0x1, def value: None
   bool ___ExecuteOnce;
 
+  /// [Tooltip("Time to wait before checking if conditions are met (use this to avoid low fps drops triggering the conditions when loading the game)")]
   /// @brief Field InitSleepTime, offset: 0x1c, size: 0x4, def value: None
   float_t ___InitSleepTime;
 
+  /// [Tooltip("Time to wait before checking if conditions are met again (once they have already been met and if ExecuteOnce is false)")]
   /// @brief Field ExecuteSleepTime, offset: 0x20, size: 0x4, def value: None
   float_t ___ExecuteSleepTime;
 
   /// @brief Field ConditionEvaluation, offset: 0x24, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyDebugger_ConditionEvaluation ___ConditionEvaluation;
 
+  /// [Tooltip("List of conditions that will be checked each frame")]
   /// @brief Field DebugConditions, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Tayx::Graphy::GraphyDebugger_DebugCondition>* ___DebugConditions;
 
   /// @brief Field MessageType, offset: 0x30, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyDebugger_MessageType ___MessageType;
 
+  /// [Multiline]
   /// @brief Field Message, offset: 0x38, size: 0x8, def value: None
   ::StringW ___Message;
 
@@ -647,6 +657,7 @@ public:
   /// @brief Field ScreenshotFileName, offset: 0x48, size: 0x8, def value: None
   ::StringW ___ScreenshotFileName;
 
+  /// [Tooltip("If true, it pauses the editor")]
   /// @brief Field DebugBreak, offset: 0x50, size: 0x1, def value: None
   bool ___DebugBreak;
 
@@ -705,6 +716,7 @@ static_assert(offsetof(::Tayx::Graphy::GraphyDebugger_DebugPacket, ___timePassed
 static_assert(sizeof(::Tayx::Graphy::GraphyDebugger_DebugPacket) == 0x70, "Size mismatch!");
 
 } // namespace Tayx::Graphy
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Tayx::Graphy {
 // Is value type: false
@@ -740,13 +752,13 @@ protected:
   constexpr GraphyDebugger___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphyDebugger___c(GraphyDebugger___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger___c(GraphyDebugger___c const&) = delete;
+  GraphyDebugger___c(GraphyDebugger___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21474 };
@@ -757,6 +769,7 @@ public:
 static_assert(sizeof(::Tayx::Graphy::GraphyDebugger___c) == 0x10, "Size mismatch!");
 
 } // namespace Tayx::Graphy
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Tayx::Graphy {
 // Is value type: false
@@ -787,13 +800,13 @@ protected:
   constexpr GraphyDebugger___c__DisplayClass18_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass18_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphyDebugger___c__DisplayClass18_0(GraphyDebugger___c__DisplayClass18_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass18_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger___c__DisplayClass18_0(GraphyDebugger___c__DisplayClass18_0 const&) = delete;
+  GraphyDebugger___c__DisplayClass18_0(GraphyDebugger___c__DisplayClass18_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21475 };
@@ -809,6 +822,7 @@ static_assert(offsetof(::Tayx::Graphy::GraphyDebugger___c__DisplayClass18_0, ___
 static_assert(sizeof(::Tayx::Graphy::GraphyDebugger___c__DisplayClass18_0) == 0x18, "Size mismatch!");
 
 } // namespace Tayx::Graphy
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Tayx::Graphy {
 // Is value type: false
@@ -839,13 +853,13 @@ protected:
   constexpr GraphyDebugger___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphyDebugger___c__DisplayClass19_0(GraphyDebugger___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger___c__DisplayClass19_0(GraphyDebugger___c__DisplayClass19_0 const&) = delete;
+  GraphyDebugger___c__DisplayClass19_0(GraphyDebugger___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21476 };
@@ -861,6 +875,7 @@ static_assert(offsetof(::Tayx::Graphy::GraphyDebugger___c__DisplayClass19_0, ___
 static_assert(sizeof(::Tayx::Graphy::GraphyDebugger___c__DisplayClass19_0) == 0x18, "Size mismatch!");
 
 } // namespace Tayx::Graphy
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Tayx::Graphy {
 // Is value type: false
@@ -891,13 +906,13 @@ protected:
   constexpr GraphyDebugger___c__DisplayClass21_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass21_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass21_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphyDebugger___c__DisplayClass21_0(GraphyDebugger___c__DisplayClass21_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass21_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger___c__DisplayClass21_0(GraphyDebugger___c__DisplayClass21_0 const&) = delete;
+  GraphyDebugger___c__DisplayClass21_0(GraphyDebugger___c__DisplayClass21_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21477 };
@@ -1044,17 +1059,18 @@ protected:
   constexpr GraphyDebugger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphyDebugger(GraphyDebugger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger(GraphyDebugger const&) = delete;
+  GraphyDebugger(GraphyDebuggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21478 };
 
+  /// [SerializeField]
   /// @brief Field m_debugPackets, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Tayx::Graphy::GraphyDebugger_DebugPacket*>* ___m_debugPackets;
 

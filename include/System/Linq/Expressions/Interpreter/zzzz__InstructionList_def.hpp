@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InstructionList.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InstructionList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,6 +97,8 @@ MARK_VAL_T(::System::Linq::Expressions::Interpreter::DebugView_InstructionList_I
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::InstructionList*, "System.Linq.Expressions.Interpreter", "InstructionList");
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::InstructionList_DebugView*, "System.Linq.Expressions.Interpreter", "InstructionList/DebugView");
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::DebugView_InstructionList_InstructionView, "System.Linq.Expressions.Interpreter", "InstructionList/DebugView/InstructionView");
+// [IsReadOnly]
+// [DebuggerDisplay("{GetValue(),nq}", Name = "{GetName(),nq}", Type = "{GetDisplayType(), nq}")]
 // Dependencies
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: true
@@ -114,9 +116,9 @@ public:
   // @brief default ctor
   constexpr DebugView_InstructionList_InstructionView();
 
-  // Ctor Parameters [CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_stackDepth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_continuationsDepth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_instruction", ty:
-  // "::System::Linq::Expressions::Interpreter::Instruction*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_stackDepth", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_continuationsDepth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_instruction", ty: "::System::Linq::Expressions::Interpreter::Instruction*", modifiers: "", def_value: None, comment: None }]
   constexpr DebugView_InstructionList_InstructionView(int32_t _index, int32_t _stackDepth, int32_t _continuationsDepth, ::StringW _name,
                                                       ::System::Linq::Expressions::Interpreter::Instruction* _instruction) noexcept;
 
@@ -178,13 +180,13 @@ protected:
   constexpr InstructionList_DebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstructionList_DebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstructionList_DebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstructionList_DebugView(InstructionList_DebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstructionList_DebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstructionList_DebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstructionList_DebugView(InstructionList_DebugView const&) = delete;
+  InstructionList_DebugView(InstructionList_DebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16391 };
@@ -195,6 +197,7 @@ public:
 static_assert(sizeof(::System::Linq::Expressions::Interpreter::InstructionList_DebugView) == 0x10, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Interpreter.InstructionList::DebugView))]
 // Dependencies System.Linq.Expressions.Interpreter.Instruction, System.Linq.Expressions.Interpreter.RuntimeLabel, System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
@@ -757,13 +760,13 @@ protected:
   constexpr InstructionList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstructionList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstructionList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstructionList(InstructionList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstructionList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstructionList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstructionList(InstructionList const&) = delete;
+  InstructionList(InstructionListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16392 };

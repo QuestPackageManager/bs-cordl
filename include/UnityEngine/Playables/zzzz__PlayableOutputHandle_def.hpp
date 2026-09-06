@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableOutputHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableOutputHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,10 @@ struct PlayableOutputHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Playables::PlayableOutputHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::PlayableOutputHandle, "UnityEngine.Playables", "PlayableOutputHandle");
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [NativeHeader("Runtime/Export/Director/PlayableOutputHandle.bindings.h")]
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Director/Core/HPlayableOutput.h")]
 // Dependencies System.IntPtr
 namespace UnityEngine::Playables {
 // Is value type: true
@@ -52,6 +56,7 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>*();
 
+  /// [FreeFunction("PlayableOutputHandleBindings::AddNotificationReceiver", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method AddNotificationReceiver, addr 0x6b068b4, size 0x44, virtual false, abstract: false, final false
   inline void AddNotificationReceiver(::UnityEngine::Playables::INotificationReceiver* receiver);
 
@@ -67,30 +72,37 @@ public:
   /// @brief Method GetHashCode, addr 0x6b060e4, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [FreeFunction("PlayableOutputHandleBindings::GetPlayableOutputType", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetPlayableOutputType, addr 0x6b06268, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Type* GetPlayableOutputType();
 
+  /// [FreeFunction("PlayableOutputHandleBindings::GetSourceOutputPort", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetSourceOutputPort, addr 0x6b0672c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetSourceOutputPort();
 
+  /// [FreeFunction("PlayableOutputHandleBindings::GetSourcePlayable", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetSourcePlayable, addr 0x6b06568, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableHandle GetSourcePlayable();
 
   /// @brief Method GetSourcePlayable_Injected, addr 0x6b065f8, size 0x44, virtual false, abstract: false, final false
   static inline void GetSourcePlayable_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> ret);
 
+  /// [FreeFunction("PlayableOutputHandleBindings::GetUserData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetUserData, addr 0x6b063a0, size 0x148, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetUserData();
 
   /// @brief Method GetUserData_Injected, addr 0x6b064e8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetUserData_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self);
 
+  /// [VisibleToOtherModules]
   /// @brief Method IsPlayableOutputOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOutputOfType();
 
+  /// [VisibleToOtherModules]
   /// @brief Method IsValid, addr 0x6b0622c, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
+  /// [FreeFunction("PlayableOutputHandleBindings::PushNotification", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method PushNotification, addr 0x6b067b4, size 0xa4, virtual false, abstract: false, final false
   inline void PushNotification(::UnityEngine::Playables::PlayableHandle origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
@@ -98,21 +110,25 @@ public:
   static inline void PushNotification_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> origin,
                                                ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
+  /// [FreeFunction("PlayableOutputHandleBindings::SetReferenceObject", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetReferenceObject, addr 0x6b062a4, size 0xb8, virtual false, abstract: false, final false
   inline void SetReferenceObject(::UnityEngine::Object* target);
 
   /// @brief Method SetReferenceObject_Injected, addr 0x6b0635c, size 0x44, virtual false, abstract: false, final false
   static inline void SetReferenceObject_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::System::IntPtr target);
 
+  /// [FreeFunction("PlayableOutputHandleBindings::SetSourcePlayable", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetSourcePlayable, addr 0x6b0663c, size 0x9c, virtual false, abstract: false, final false
   inline void SetSourcePlayable(::UnityEngine::Playables::PlayableHandle target, int32_t port);
 
   /// @brief Method SetSourcePlayable_Injected, addr 0x6b066d8, size 0x54, virtual false, abstract: false, final false
   static inline void SetSourcePlayable_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> target, int32_t port);
 
+  /// [FreeFunction("PlayableOutputHandleBindings::SetUserData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetUserData, addr 0x6b06524, size 0x44, virtual false, abstract: false, final false
-  inline void SetUserData(::UnityEngine::Object* target);
+  inline void SetUserData(/* [Writable] */ ::UnityEngine::Object* target);
 
+  /// [FreeFunction("PlayableOutputHandleBindings::SetWeight", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetWeight, addr 0x6b06768, size 0x4c, virtual false, abstract: false, final false
   inline void SetWeight(float_t weight);
 
@@ -133,7 +149,8 @@ public:
   // @brief default ctor
   constexpr PlayableOutputHandle();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr PlayableOutputHandle(::System::IntPtr m_Handle, uint32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

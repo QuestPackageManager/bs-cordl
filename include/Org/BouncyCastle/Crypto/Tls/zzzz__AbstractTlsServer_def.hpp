@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\AbstractTlsServer.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsServer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -146,7 +146,7 @@ public:
   /// @brief Method GetCipher, addr 0x343760c, size 0x10c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* GetCipher();
 
-  /// @brief Method GetCipherSuites, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<int32_t> GetCipherSuites();
 
   /// @brief Method GetCompression, addr 0x3437584, size 0x88, virtual true, abstract: false, final false
@@ -155,10 +155,10 @@ public:
   /// @brief Method GetCompressionMethods, addr 0x3436a64, size 0x48, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetCompressionMethods();
 
-  /// @brief Method GetCredentials, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCredentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetCredentials();
 
-  /// @brief Method GetKeyExchange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
   /// @brief Method GetNewSessionTicket, addr 0x3437718, size 0x80, virtual true, abstract: false, final false
@@ -348,13 +348,13 @@ protected:
   constexpr AbstractTlsServer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsServer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsServer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractTlsServer(AbstractTlsServer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsServer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsServer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractTlsServer(AbstractTlsServer const&) = delete;
+  AbstractTlsServer(AbstractTlsServerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1173 };

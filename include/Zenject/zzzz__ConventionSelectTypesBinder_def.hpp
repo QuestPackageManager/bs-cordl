@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConventionSelectTypesBinder.hpp"
+// IWYU pragma private; include "Zenject/ConventionSelectTypesBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::Zenject::ConventionSelectTypesBinder*);
 MARK_REF_T(::Zenject::ConventionSelectTypesBinder___c*);
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionSelectTypesBinder*, "Zenject", "ConventionSelectTypesBinder");
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionSelectTypesBinder___c*, "Zenject", "ConventionSelectTypesBinder/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -78,6 +79,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e4ee80, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4eec4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -110,13 +112,13 @@ protected:
   constexpr ConventionSelectTypesBinder___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionSelectTypesBinder___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionSelectTypesBinder___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConventionSelectTypesBinder___c(ConventionSelectTypesBinder___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionSelectTypesBinder___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionSelectTypesBinder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionSelectTypesBinder___c(ConventionSelectTypesBinder___c const&) = delete;
+  ConventionSelectTypesBinder___c(ConventionSelectTypesBinder___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14052 };
@@ -127,6 +129,7 @@ public:
 static_assert(sizeof(::Zenject::ConventionSelectTypesBinder___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -174,13 +177,13 @@ protected:
   constexpr ConventionSelectTypesBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionSelectTypesBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionSelectTypesBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConventionSelectTypesBinder(ConventionSelectTypesBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionSelectTypesBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionSelectTypesBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionSelectTypesBinder(ConventionSelectTypesBinder const&) = delete;
+  ConventionSelectTypesBinder(ConventionSelectTypesBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14053 };

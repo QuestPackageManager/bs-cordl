@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NodePoseSyncStateDeltaNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/NodePoseSyncStateDeltaNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncStateDeltaNetSerializable)
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*>)
+class IPacketPool_1;
 }
 namespace GlobalNamespace {
 class IPoolablePacket;
@@ -102,6 +104,7 @@ public:
   /// @brief Method .ctor, addr 0x32bdfc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_baseId, addr 0x32bddb4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
@@ -111,6 +114,7 @@ public:
   /// @brief Method get_pool, addr 0x32bdd70, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_pool();
 
+  /// [CompilerGenerated]
   /// @brief Method get_timeOffsetMs, addr 0x32bddc4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_timeOffsetMs();
 
@@ -123,12 +127,14 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_baseId, addr 0x32bddbc, size 0x8, virtual true, abstract: false, final true
   inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
   /// @brief Method set_delta, addr 0x32bdde4, size 0xc, virtual true, abstract: false, final true
   inline void set_delta(::GlobalNamespace::NodePoseSyncState value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_timeOffsetMs, addr 0x32bddcc, size 0x8, virtual true, abstract: false, final true
   inline void set_timeOffsetMs(int32_t value);
 
@@ -138,13 +144,13 @@ protected:
   constexpr NodePoseSyncStateDeltaNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NodePoseSyncStateDeltaNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NodePoseSyncStateDeltaNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NodePoseSyncStateDeltaNetSerializable(NodePoseSyncStateDeltaNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NodePoseSyncStateDeltaNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NodePoseSyncStateDeltaNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NodePoseSyncStateDeltaNetSerializable(NodePoseSyncStateDeltaNetSerializable const&) = delete;
+  NodePoseSyncStateDeltaNetSerializable(NodePoseSyncStateDeltaNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18978 };
@@ -152,9 +158,11 @@ public:
   /// @brief Field _delta, offset: 0x10, size: 0x48, def value: None
   ::GlobalNamespace::NodePoseSyncState ____delta;
 
+  /// [CompilerGenerated]
   /// @brief Field <baseId>k__BackingField, offset: 0x58, size: 0x1, def value: None
   ::GlobalNamespace::SyncStateId ____baseId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <timeOffsetMs>k__BackingField, offset: 0x5c, size: 0x4, def value: None
   int32_t ____timeOffsetMs_k__BackingField;
 

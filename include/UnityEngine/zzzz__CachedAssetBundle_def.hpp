@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CachedAssetBundle.hpp"
+// IWYU pragma private; include "UnityEngine/CachedAssetBundle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct CachedAssetBundle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::CachedAssetBundle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Hash128
 namespace UnityEngine {
 // Is value type: true
@@ -41,7 +42,8 @@ public:
   // @brief default ctor
   constexpr CachedAssetBundle();
 
-  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Hash", ty: "::UnityEngine::Hash128", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Hash", ty: "::UnityEngine::Hash128", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr CachedAssetBundle(::StringW m_Name, ::UnityEngine::Hash128 m_Hash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongPackMasksModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongPackMasksModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ MARK_VAL_T(::GlobalNamespace::SongPackMasksModel_MaskInfo);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongPackMasksModel*, "", "SongPackMasksModel");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongPackMasksModel_LocalizedText, "", "SongPackMasksModel/LocalizedText");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongPackMasksModel_MaskInfo, "", "SongPackMasksModel/MaskInfo");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -69,7 +70,8 @@ public:
   // @brief default ctor
   constexpr SongPackMasksModel_LocalizedText();
 
-  // Ctor Parameters [CppParam { name: "textKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isPlural", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "textKey", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "isPlural", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SongPackMasksModel_LocalizedText(::StringW textKey, bool isPlural) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -94,6 +96,7 @@ static_assert(offsetof(::GlobalNamespace::SongPackMasksModel_LocalizedText, isPl
 static_assert(sizeof(::GlobalNamespace::SongPackMasksModel_LocalizedText) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies SongPackMask, SongPackMasksModel::LocalizedText
 namespace GlobalNamespace {
 // Is value type: true
@@ -108,8 +111,8 @@ public:
   // @brief default ctor
   constexpr SongPackMasksModel_MaskInfo();
 
-  // Ctor Parameters [CppParam { name: "localizedText", ty: "::GlobalNamespace::SongPackMasksModel_LocalizedText", modifiers: "", def_value: None }, CppParam { name: "mask", ty:
-  // "::GlobalNamespace::SongPackMask", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "localizedText", ty: "::GlobalNamespace::SongPackMasksModel_LocalizedText", modifiers: "", def_value: None, comment: None }, CppParam { name: "mask", ty:
+  // "::GlobalNamespace::SongPackMask", modifiers: "", def_value: None, comment: None }]
   constexpr SongPackMasksModel_MaskInfo(::GlobalNamespace::SongPackMasksModel_LocalizedText localizedText, ::GlobalNamespace::SongPackMask mask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -227,13 +230,13 @@ protected:
   constexpr SongPackMasksModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPackMasksModel(SongPackMasksModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPackMasksModel(SongPackMasksModel const&) = delete;
+  SongPackMasksModel(SongPackMasksModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15118 };

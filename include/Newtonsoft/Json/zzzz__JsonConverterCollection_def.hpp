@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonConverterCollection.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonConverterCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class JsonConverterCollection;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::JsonConverterCollection*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonConverterCollection*, "Newtonsoft.Json", "JsonConverterCollection");
+// [Nullable(new[] { 0, 1 })]
 // Dependencies System.Collections.ObjectModel.Collection`1<T>
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -33,13 +34,13 @@ protected:
   constexpr JsonConverterCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonConverterCollection(JsonConverterCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonConverterCollection(JsonConverterCollection const&) = delete;
+  JsonConverterCollection(JsonConverterCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13252 };

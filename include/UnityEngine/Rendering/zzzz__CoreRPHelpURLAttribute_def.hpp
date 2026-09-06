@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CoreRPHelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CoreRPHelpURLAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class CoreRPHelpURLAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::CoreRPHelpURLAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CoreRPHelpURLAttribute*, "UnityEngine.Rendering", "CoreRPHelpURLAttribute");
+// [Conditional("UNITY_EDITOR")]
+// [AttributeUsage((System.AttributeTargets)20, AllowMultiple = false)]
 // Dependencies UnityEngine.HelpURLAttribute
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -36,13 +38,13 @@ protected:
   constexpr CoreRPHelpURLAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoreRPHelpURLAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreRPHelpURLAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreRPHelpURLAttribute(CoreRPHelpURLAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreRPHelpURLAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreRPHelpURLAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreRPHelpURLAttribute(CoreRPHelpURLAttribute const&) = delete;
+  CoreRPHelpURLAttribute(CoreRPHelpURLAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12068 };

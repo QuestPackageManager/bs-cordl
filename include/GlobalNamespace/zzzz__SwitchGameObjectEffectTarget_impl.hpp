@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SwitchGameObjectEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/SwitchGameObjectEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__SwitchGameObjectEffectTarget_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"

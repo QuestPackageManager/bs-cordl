@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\AsyncProtocolResult.hpp"
+// IWYU pragma private; include "Mono/Net/Security/AsyncProtocolResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,9 +56,11 @@ public:
   /// @brief Method .ctor, addr 0x5fd6988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Error, addr 0x5fd6980, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UserResult, addr 0x5fd6978, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
@@ -68,20 +70,22 @@ protected:
   constexpr AsyncProtocolResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncProtocolResult(AsyncProtocolResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncProtocolResult(AsyncProtocolResult const&) = delete;
+  AsyncProtocolResult(AsyncProtocolResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11009 };
 
+  /// [CompilerGenerated]
   /// @brief Field <UserResult>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____UserResult_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Error>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* ____Error_k__BackingField;
 

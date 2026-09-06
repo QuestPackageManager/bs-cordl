@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerAudioClip.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerAudioClip.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
@@ -213,7 +213,8 @@ constexpr void UnityEngine::Networking::DownloadHandlerAudioClip::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NativeData = value;
 }
-inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAudioClip::Create(::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::StringW url, ::UnityEngine::AudioType audioType) {
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAudioClip::Create(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::StringW url,
+                                                                                  ::UnityEngine::AudioType audioType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAudioClip*>(),

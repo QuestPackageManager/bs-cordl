@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\IDebugManager.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/IDebugManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,28 +43,28 @@ public:
   // Declarations
   __declspec(property(get = get_TelemetryAnnotation)) ::StringW TelemetryAnnotation;
 
-  /// @brief Method GetCountPerType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCountPerType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetCountPerType(::System::Type* type);
 
-  /// @brief Method ProcessType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessType(::System::Type* type);
 
-  /// @brief Method ProcessTypeFromHierarchy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessTypeFromHierarchy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessTypeFromHierarchy(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item, ::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method ProcessTypeFromInspector, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessTypeFromInspector, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessTypeFromInspector(::System::Type* type, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle, ::System::Reflection::MemberInfo* memberInfo,
                                        ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute);
 
-  /// @brief Method Setup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* panel, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* cache);
 
-  /// @brief Method get_TelemetryAnnotation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_TelemetryAnnotation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_TelemetryAnnotation();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDebugManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDebugManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDebugManager(IDebugManager const&) = delete;
+  IDebugManager(IDebugManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18453 };

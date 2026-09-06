@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\IIndexable_1.hpp"
+// IWYU pragma private; include "Unity/Collections/IIndexable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,7 +7,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IIndexable_1)
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> class IIndexable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IIndexable_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::IIndexable_1);
@@ -16,6 +18,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::IIndexable_1, "Unity.Collectio
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.IIndexable`1<T>
 class CORDL_TYPE IIndexable_1 {
@@ -23,18 +26,18 @@ public:
   // Declarations
   __declspec(property(get = get_Length, put = set_Length)) int32_t Length;
 
-  /// @brief Method ElementAt, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ElementAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::by_ref<T> ElementAt(int32_t index);
 
-  /// @brief Method get_Length, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Length();
 
-  /// @brief Method set_Length, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Length(int32_t value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IIndexable_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IIndexable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IIndexable_1(IIndexable_1 const&) = delete;
+  IIndexable_1(IIndexable_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15648 };

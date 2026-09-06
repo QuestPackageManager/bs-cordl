@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\FixedBitArray3.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/FixedBitArray3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10*
 MARK_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10*, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3/<Enumerate>d__10");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: true
@@ -66,6 +67,7 @@ public:
   /// @brief Method Contains, addr 0x66b2b6c, size 0x74, virtual false, abstract: false, final false
   inline bool Contains(bool value);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3::<Enumerate>d__10))]
   /// @brief Method Enumerate, addr 0x66b2c7c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<bool>* Enumerate();
 
@@ -94,8 +96,8 @@ public:
   // @brief default ctor
   constexpr FixedBitArray3();
 
-  // Ctor Parameters [CppParam { name: "_0", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_2", ty: "bool",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_0", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_1", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_2", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr FixedBitArray3(bool _0, bool _1, bool _2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -125,6 +127,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, _2) 
 static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3) == 0x3, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
@@ -172,23 +175,30 @@ public:
   /// @brief Method MoveNext, addr 0x66b2dcc, size 0x74, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Boolean>.GetEnumerator, addr 0x66b2ea4, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<bool>* System_Collections_Generic_IEnumerable_System_Boolean__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Boolean>.get_Current, addr 0x66b2e40, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IEnumerator_System_Boolean__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x66b2f44, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x66b2e48, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x66b2e80, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x66b2dc8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -228,6 +238,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x66b2cf8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -252,13 +263,13 @@ protected:
   constexpr FixedBitArray3__Enumerate_d__10();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedBitArray3__Enumerate_d__10", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedBitArray3__Enumerate_d__10", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedBitArray3__Enumerate_d__10(FixedBitArray3__Enumerate_d__10&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedBitArray3__Enumerate_d__10", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedBitArray3__Enumerate_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedBitArray3__Enumerate_d__10(FixedBitArray3__Enumerate_d__10 const&) = delete;
+  FixedBitArray3__Enumerate_d__10(FixedBitArray3__Enumerate_d__10const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21787 };

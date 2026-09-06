@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\UIItemsList_1.hpp"
+// IWYU pragma private; include "HMUI/UIItemsList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIItemsList_1)
 namespace HMUI {
-template <typename T> class UIItemsList_1_DataCallback;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
+class UIItemsList_1_DataCallback;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -36,20 +38,25 @@ class DiContainer;
 }
 // Forward declare root types
 namespace HMUI {
-template <typename T> class UIItemsList_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
+class UIItemsList_1;
 }
 namespace HMUI {
-template <typename T> class UIItemsList_1_DataCallback;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
+class UIItemsList_1_DataCallback;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::HMUI::UIItemsList_1);
 MARK_GEN_REF_T_PTR(::HMUI::UIItemsList_1_DataCallback);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::HMUI::UIItemsList_1, "HMUI", "UIItemsList`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::HMUI::UIItemsList_1_DataCallback, "HMUI", "UIItemsList`1/DataCallback");
-// Dependencies System.MulticastDelegate
+// Dependencies System.MulticastDelegate, UnityEngine.MonoBehaviour
 namespace HMUI {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
 // Is value type: false
 // CS Name: HMUI.UIItemsList`1/DataCallback<T>
 class CORDL_TYPE UIItemsList_1_DataCallback : public ::System::MulticastDelegate {
@@ -75,13 +82,13 @@ protected:
   constexpr UIItemsList_1_DataCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1_DataCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1_DataCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIItemsList_1_DataCallback(UIItemsList_1_DataCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1_DataCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1_DataCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIItemsList_1_DataCallback(UIItemsList_1_DataCallback const&) = delete;
+  UIItemsList_1_DataCallback(UIItemsList_1_DataCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19139 };
@@ -94,6 +101,7 @@ public:
 namespace HMUI {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
 // Is value type: false
 // CS Name: HMUI.UIItemsList`1<T>
 class CORDL_TYPE UIItemsList_1 : public ::UnityEngine::MonoBehaviour {
@@ -165,29 +173,34 @@ protected:
   constexpr UIItemsList_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIItemsList_1(UIItemsList_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIItemsList_1(UIItemsList_1 const&) = delete;
+  UIItemsList_1(UIItemsList_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19140 };
 
+  /// [SerializeField]
   /// @brief Field _prefab, offset: 0x20, size: 0x8, def value: None
   T ____prefab;
 
+  /// [SerializeField]
   /// @brief Field _itemsContainer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____itemsContainer;
 
+  /// [SerializeField]
   /// @brief Field _insertInTheBeginning, offset: 0x30, size: 0x1, def value: None
   bool ____insertInTheBeginning;
 
+  /// [SerializeField]
   /// @brief Field _items, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ____items;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x40, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

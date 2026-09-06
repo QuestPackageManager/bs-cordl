@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonReader.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,7 +90,7 @@ public:
   // @brief default ctor
   constexpr BsonReader_BsonReaderState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BsonReader_BsonReaderState(int32_t value__) noexcept;
 
   /// @brief Field CodeWScopeCode value: I32(5)
@@ -182,13 +182,13 @@ protected:
   constexpr BsonReader_ContainerContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonReader_ContainerContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonReader_ContainerContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonReader_ContainerContext(BsonReader_ContainerContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonReader_ContainerContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonReader_ContainerContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonReader_ContainerContext(BsonReader_ContainerContext const&) = delete;
+  BsonReader_ContainerContext(BsonReader_ContainerContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13694 };
@@ -214,6 +214,7 @@ static_assert(offsetof(::Newtonsoft::Json::Bson::BsonReader_ContainerContext, __
 static_assert(sizeof(::Newtonsoft::Json::Bson::BsonReader_ContainerContext) == 0x20, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Bson
+// [Obsolete("BSON reading and writing has been moved to its own package. See https://www.nuget.org/packages/Newtonsoft.Json.Bson for more details.")]
 // Dependencies Newtonsoft.Json.Bson.BsonReader::BsonReaderState, Newtonsoft.Json.Bson.BsonType, Newtonsoft.Json.JsonReader, System.DateTimeKind
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
@@ -227,6 +228,7 @@ public:
 
   __declspec(property(get = get_DateTimeKindHandling, put = set_DateTimeKindHandling)) ::System::DateTimeKind DateTimeKindHandling;
 
+  /// @brief [Obsolete("JsonNet35BinaryCompatibility will be removed in a future version of Json.NET.")]
   __declspec(property(get = get_JsonNet35BinaryCompatibility, put = set_JsonNet35BinaryCompatibility)) bool JsonNet35BinaryCompatibility;
 
   __declspec(property(get = get_ReadRootValueAsArray, put = set_ReadRootValueAsArray)) bool ReadRootValueAsArray;
@@ -462,13 +464,13 @@ protected:
   constexpr BsonReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonReader(BsonReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonReader(BsonReader const&) = delete;
+  BsonReader(BsonReaderconst&) = delete;
 
   /// @brief Field MaxCharBytesSize offset 0xffffffff size 0x4
   static constexpr int32_t MaxCharBytesSize{ static_cast<int32_t>(0x80) };

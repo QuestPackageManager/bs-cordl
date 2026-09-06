@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\API\UnityXRDisplay.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/API/UnityXRDisplay.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/API/zzzz__UnityXRDisplay_def.hpp"
 #include "UnityEngine/XR/OpenXR/API/zzzz__UnityXRRenderTextureDesc_def.hpp"

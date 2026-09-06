@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BootConfigData.hpp"
+// IWYU pragma private; include "UnityEngine/BootConfigData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class BootConfigData;
 // Write type traits
 MARK_REF_T(::UnityEngine::BootConfigData*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::BootConfigData*, "UnityEngine", "BootConfigData");
+// [NativeHeader("Runtime/Export/Bootstrap/BootConfig.bindings.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -28,6 +29,7 @@ public:
 
   static inline ::UnityEngine::BootConfigData* New_ctor(::System::IntPtr nativeHandle);
 
+  /// [RequiredByNativeCode]
   /// @brief Method WrapBootConfigData, addr 0x6a69640, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::BootConfigData* WrapBootConfigData(::System::IntPtr nativeHandle);
 
@@ -46,13 +48,13 @@ protected:
   constexpr BootConfigData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BootConfigData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BootConfigData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BootConfigData(BootConfigData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BootConfigData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BootConfigData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BootConfigData(BootConfigData const&) = delete;
+  BootConfigData(BootConfigDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10076 };

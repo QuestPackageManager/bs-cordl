@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LeaderboardIdsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/LeaderboardIdsModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -54,7 +54,7 @@ inline void GlobalNamespace::LeaderboardIdsModel::_ctor(::System::Collections::G
                                                            { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, idsMaps);
 }
-inline bool GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::by_ref<::StringW> platformLeaderboardId) {
+inline bool GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::by_ref<::StringW> platformLeaderboardId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardIdsModel*>(),
                                               { "TryGetPlatformLeaderboardId", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));

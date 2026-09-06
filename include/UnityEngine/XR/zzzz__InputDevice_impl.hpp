@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\InputDevice.hpp"
+// IWYU pragma private; include "UnityEngine/XR/InputDevice.hpp"
 #include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -210,7 +210,8 @@ constexpr UnityEngine::XR::InputDevice::operator ::System::IEquatable_1<::UnityE
 constexpr ::System::IEquatable_1<::UnityEngine::XR::InputDevice>* UnityEngine::XR::InputDevice::i___System__IEquatable_1___UnityEngine__XR__InputDevice_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::XR::InputDevice>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Initialized", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Initialized", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::InputDevice::InputDevice(uint64_t m_DeviceId, bool m_Initialized) noexcept {
   this->m_DeviceId = m_DeviceId;
   this->m_Initialized = m_Initialized;

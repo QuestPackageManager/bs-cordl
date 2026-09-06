@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MonoMemoryPool_2.hpp"
+// IWYU pragma private; include "Zenject/MonoMemoryPool_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "Zenject/zzzz__MemoryPool_2_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(MonoMemoryPool_2)
@@ -17,15 +18,18 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TValue> class MonoMemoryPool_2;
+template <typename TParam1, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*>)
+class MonoMemoryPool_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::MonoMemoryPool_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::MonoMemoryPool_2, "Zenject", "MonoMemoryPool`2");
-// Dependencies Zenject.MemoryPool`2<TParam1, TValue>
+// Dependencies UnityEngine.Component, Zenject.MemoryPool`2<TParam1, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*>)
 // Is value type: false
 // CS Name: Zenject.MonoMemoryPool`2<TParam1,TValue>
 class CORDL_TYPE MonoMemoryPool_2 : public ::Zenject::MemoryPool_2<TParam1, TValue> {
@@ -34,6 +38,7 @@ public:
   /// @brief Field _originalParent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__originalParent, put = __cordl_internal_set__originalParent)) ::UnityW<::UnityEngine::Transform> _originalParent;
 
+  /// @brief [Inject]
   static inline ::Zenject::MonoMemoryPool_2<TParam1, TValue>* New_ctor();
 
   /// @brief Method OnCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -57,9 +62,11 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// [Inject]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -69,13 +76,13 @@ protected:
   constexpr MonoMemoryPool_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoMemoryPool_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoMemoryPool_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoMemoryPool_2(MonoMemoryPool_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoMemoryPool_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoMemoryPool_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoMemoryPool_2(MonoMemoryPool_2 const&) = delete;
+  MonoMemoryPool_2(MonoMemoryPool_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14405 };

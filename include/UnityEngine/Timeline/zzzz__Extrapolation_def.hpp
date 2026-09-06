@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\Extrapolation.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/Extrapolation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_REF_T(::UnityEngine::Timeline::Extrapolation*);
 MARK_REF_T(::UnityEngine::Timeline::Extrapolation___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::Extrapolation*, "UnityEngine.Timeline", "Extrapolation");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::Extrapolation___c*, "UnityEngine.Timeline", "Extrapolation/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr Extrapolation___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extrapolation___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extrapolation___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extrapolation___c(Extrapolation___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extrapolation___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extrapolation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extrapolation___c(Extrapolation___c const&) = delete;
+  Extrapolation___c(Extrapolation___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19254 };
@@ -84,6 +85,7 @@ public:
 static_assert(sizeof(::UnityEngine::Timeline::Extrapolation___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -96,6 +98,7 @@ public:
   /// @brief Field kMinExtrapolationTime, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kMinExtrapolationTime, put = setStaticF_kMinExtrapolationTime)) double_t kMinExtrapolationTime;
 
+  /// [Extension]
   /// @brief Method CalculateExtrapolationTimes, addr 0x69cd1a0, size 0x3ac, virtual false, abstract: false, final false
   static inline void CalculateExtrapolationTimes(::UnityEngine::Timeline::TrackAsset* asset);
 
@@ -112,13 +115,13 @@ protected:
   constexpr Extrapolation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extrapolation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extrapolation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extrapolation(Extrapolation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extrapolation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extrapolation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extrapolation(Extrapolation const&) = delete;
+  Extrapolation(Extrapolationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19255 };

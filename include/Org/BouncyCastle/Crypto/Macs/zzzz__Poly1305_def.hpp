@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Macs\Poly1305.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/Poly1305.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -283,13 +283,13 @@ protected:
   constexpr Poly1305();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Poly1305", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Poly1305", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Poly1305(Poly1305&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Poly1305", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Poly1305", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Poly1305(Poly1305 const&) = delete;
+  Poly1305(Poly1305const&) = delete;
 
   /// @brief Field BlockSize offset 0xffffffff size 0x4
   static constexpr int32_t BlockSize{ static_cast<int32_t>(0x10) };

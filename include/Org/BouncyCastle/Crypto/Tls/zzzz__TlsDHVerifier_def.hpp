@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsDHVerifier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsDHVerifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsDHVerifier {
 public:
   // Declarations
-  /// @brief Method Accept, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDHVerifier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsDHVerifier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsDHVerifier(TlsDHVerifier const&) = delete;
+  TlsDHVerifier(TlsDHVerifierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1211 };

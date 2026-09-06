@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectPreRenderPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectPreRenderPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectPreRenderPass_def.hpp"

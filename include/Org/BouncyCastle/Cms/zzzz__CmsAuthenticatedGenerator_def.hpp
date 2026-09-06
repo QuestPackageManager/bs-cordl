@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsAuthenticatedGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAuthenticatedGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +38,13 @@ protected:
   constexpr CmsAuthenticatedGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsAuthenticatedGenerator(CmsAuthenticatedGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsAuthenticatedGenerator(CmsAuthenticatedGenerator const&) = delete;
+  CmsAuthenticatedGenerator(CmsAuthenticatedGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 618 };

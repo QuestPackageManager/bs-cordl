@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\TransformUpdateFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/TransformUpdateFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TransformUpdateFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::TransformUpdateFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::TransformUpdateFlags, "UnityEngine.Rendering", "TransformUpdateFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr TransformUpdateFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TransformUpdateFlags(uint8_t value__) noexcept;
 
   /// @brief Field HasLightProbeCombined value: U8(1)

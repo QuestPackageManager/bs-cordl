@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore\IgnoranceCommandPacket.hpp"
+// IWYU pragma private; include "IgnoranceCore/IgnoranceCommandPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr IgnoranceCommandPacket();
 
-  // Ctor Parameters [CppParam { name: "Type", ty: "::IgnoranceCore::IgnoranceCommandType", modifiers: "", def_value: None }, CppParam { name: "PeerId", ty: "uint32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "Type", ty: "::IgnoranceCore::IgnoranceCommandType", modifiers: "", def_value: None, comment: None }, CppParam { name: "PeerId", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr IgnoranceCommandPacket(::IgnoranceCore::IgnoranceCommandType Type, uint32_t PeerId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

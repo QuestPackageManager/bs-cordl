@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicCollection.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapCharacteristicCollection*);
 MARK_REF_T(::GlobalNamespace::BeatmapCharacteristicCollection___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapCharacteristicCollection*, "", "BeatmapCharacteristicCollection");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapCharacteristicCollection___c*, "", "BeatmapCharacteristicCollection/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -80,13 +81,13 @@ protected:
   constexpr BeatmapCharacteristicCollection___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicCollection___c(BeatmapCharacteristicCollection___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicCollection___c(BeatmapCharacteristicCollection___c const&) = delete;
+  BeatmapCharacteristicCollection___c(BeatmapCharacteristicCollection___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14876 };
@@ -97,6 +98,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::BeatmapCharacteristicCollection___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ZenjectAllowDuringValidation]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -157,13 +159,13 @@ protected:
   constexpr BeatmapCharacteristicCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicCollection(BeatmapCharacteristicCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicCollection(BeatmapCharacteristicCollection const&) = delete;
+  BeatmapCharacteristicCollection(BeatmapCharacteristicCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14877 };

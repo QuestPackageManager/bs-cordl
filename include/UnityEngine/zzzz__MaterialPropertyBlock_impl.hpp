@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MaterialPropertyBlock.hpp"
+// IWYU pragma private; include "UnityEngine/MaterialPropertyBlock.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
@@ -1082,13 +1082,13 @@ inline void UnityEngine::MaterialPropertyBlock::SetMatrixImpl(int32_t name, ::Un
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::MaterialPropertyBlock*>(), { "SetMatrixImpl", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, value);
 }
-inline void UnityEngine::MaterialPropertyBlock::SetTextureImpl(int32_t name, ::UnityEngine::Texture* value) {
+inline void UnityEngine::MaterialPropertyBlock::SetTextureImpl(int32_t name, /* [NotNull] */ ::UnityEngine::Texture* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::MaterialPropertyBlock*>(), { "SetTextureImpl", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Texture*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, value);
 }
-inline void UnityEngine::MaterialPropertyBlock::SetRenderTextureImpl(int32_t name, ::UnityEngine::RenderTexture* value, ::UnityEngine::Rendering::RenderTextureSubElement element) {
+inline void UnityEngine::MaterialPropertyBlock::SetRenderTextureImpl(int32_t name, /* [NotNull] */ ::UnityEngine::RenderTexture* value, ::UnityEngine::Rendering::RenderTextureSubElement element) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

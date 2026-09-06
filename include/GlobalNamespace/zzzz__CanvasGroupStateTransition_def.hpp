@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CanvasGroupStateTransition.hpp"
+// IWYU pragma private; include "GlobalNamespace/CanvasGroupStateTransition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ class CanvasGroupStateTransition;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CanvasGroupStateTransition*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CanvasGroupStateTransition*, "", "CanvasGroupStateTransition");
+// [AddComponentMenu("Transitions/Canvas Group Transition")]
+// [RequireComponent(typeof(UnityEngine.CanvasGroup))]
 // Dependencies BaseStateTransition`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -87,9 +89,11 @@ public:
   /// @brief Method TransitionToSelectedState, addr 0x6442d4c, size 0x18, virtual true, abstract: false, final false
   inline void TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
+  /// [CompilerGenerated]
   /// @brief Method <StartTween>b__17_0, addr 0x6442f48, size 0x18, virtual false, abstract: false, final false
   inline void _StartTween_b__17_0(float_t alpha);
 
+  /// [CompilerGenerated]
   /// @brief Method <StartTween>b__17_1, addr 0x6442f60, size 0x90, virtual false, abstract: false, final false
   inline void _StartTween_b__17_1();
 
@@ -117,17 +121,19 @@ protected:
   constexpr CanvasGroupStateTransition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupStateTransition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupStateTransition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CanvasGroupStateTransition(CanvasGroupStateTransition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupStateTransition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupStateTransition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CanvasGroupStateTransition(CanvasGroupStateTransition const&) = delete;
+  CanvasGroupStateTransition(CanvasGroupStateTransitionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22358 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _transition, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> ____transition;
 

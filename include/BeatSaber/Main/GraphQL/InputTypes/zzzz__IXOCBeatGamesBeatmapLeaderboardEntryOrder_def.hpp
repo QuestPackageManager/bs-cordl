@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\InputTypes\IXOCBeatGamesBeatmapLeaderboardEntryOrder.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/InputTypes/IXOCBeatGamesBeatmapLeaderboardEntryOrder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace OculusStudios::GraphQL::ClientInterface {
 class IGraphQLInputObject;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace BeatSaber::Main::GraphQL::InputTypes {
@@ -37,15 +39,15 @@ public:
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject* i___OculusStudios__GraphQL__ClientInterface__IGraphQLInputObject() noexcept;
 
-  /// @brief Method set_By, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_By, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_By(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapLeaderboardEntryOrderBySubject value);
 
-  /// @brief Method set_Desc, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Desc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Desc(::System::Nullable_1<bool> value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IXOCBeatGamesBeatmapLeaderboardEntryOrder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IXOCBeatGamesBeatmapLeaderboardEntryOrder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IXOCBeatGamesBeatmapLeaderboardEntryOrder(IXOCBeatGamesBeatmapLeaderboardEntryOrder const&) = delete;
+  IXOCBeatGamesBeatmapLeaderboardEntryOrder(IXOCBeatGamesBeatmapLeaderboardEntryOrderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20578 };

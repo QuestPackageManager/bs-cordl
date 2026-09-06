@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureConfiguration_RemoteWithDependency.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureConfiguration_RemoteWithDependency.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_Remote_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__Feature_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_RemoteWithDependency_def.hpp"

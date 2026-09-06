@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_TextUtilities.hpp"
+// IWYU pragma private; include "TMPro/TMP_TextUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,8 +61,8 @@ public:
   // @brief default ctor
   constexpr TMP_TextUtilities_LineSegment();
 
-  // Ctor Parameters [CppParam { name: "Point1", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "Point2", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "Point1", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "Point2", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TMP_TextUtilities_LineSegment(::UnityEngine::Vector3 Point1, ::UnityEngine::Vector3 Point2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -185,13 +185,13 @@ protected:
   constexpr TMP_TextUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_TextUtilities(TMP_TextUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_TextUtilities(TMP_TextUtilities const&) = delete;
+  TMP_TextUtilities(TMP_TextUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16024 };

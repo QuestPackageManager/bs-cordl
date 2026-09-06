@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\RuntimeMethodInfo.hpp"
+// IWYU pragma private; include "System/Reflection/RuntimeMethodInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -218,6 +218,8 @@ public:
   /// @brief Method InternalInvoke, addr 0x5b8d840, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* InternalInvoke(::System::Object* obj, ::ArrayW<::System::Object*> parameters, ::by_ref<::System::Exception*> exc);
 
+  /// [DebuggerHidden]
+  /// [DebuggerStepThrough]
   /// @brief Method Invoke, addr 0x5b8d844, size 0x2d4, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
@@ -226,7 +228,7 @@ public:
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
   /// @brief Method MakeGenericMethod, addr 0x5b8e9a8, size 0x2f8, virtual true, abstract: false, final false
-  inline ::System::Reflection::MethodInfo* MakeGenericMethod(::ArrayW<::System::Type*> methodInstantiation);
+  inline ::System::Reflection::MethodInfo* MakeGenericMethod(/* [ParamArray] */ ::ArrayW<::System::Type*> methodInstantiation);
 
   /// @brief Method MakeGenericMethod_impl, addr 0x5b8eca0, size 0x4, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* MakeGenericMethod_impl(::ArrayW<::System::Type*> types);
@@ -329,13 +331,13 @@ protected:
   constexpr RuntimeMethodInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeMethodInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeMethodInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeMethodInfo(RuntimeMethodInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeMethodInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeMethodInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeMethodInfo(RuntimeMethodInfo const&) = delete;
+  RuntimeMethodInfo(RuntimeMethodInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3550 };

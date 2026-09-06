@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IntervalTree\IntervalTree_2.hpp"
+// IWYU pragma private; include "IntervalTree/IntervalTree_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,6 +83,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::IntervalTree::IntervalTree_2___c__DisplayClass19_0
 DEFINE_IL2CPP_GEN_CLASS_PTR(::IntervalTree::IntervalTree_2___c__DisplayClass20_0, "IntervalTree", "IntervalTree`2/<>c__DisplayClass20_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::IntervalTree::IntervalTree_2___c__DisplayClass23_0, "IntervalTree", "IntervalTree`2/<>c__DisplayClass23_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::IntervalTree::IntervalTree_2___c__DisplayClass24_0, "IntervalTree", "IntervalTree`2/<>c__DisplayClass24_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace IntervalTree {
 // cpp template
@@ -103,6 +104,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <get_Values>b__10_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue _get_Values_b__10_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i);
 
@@ -120,13 +122,13 @@ protected:
   constexpr IntervalTree_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntervalTree_2___c(IntervalTree_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c(IntervalTree_2___c const&) = delete;
+  IntervalTree_2___c(IntervalTree_2___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20500 };
@@ -135,6 +137,7 @@ public:
 };
 // Non member Declarations
 } // namespace IntervalTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace IntervalTree {
 // cpp template
@@ -149,6 +152,7 @@ public:
 
   static inline ::IntervalTree::IntervalTree_2___c__DisplayClass19_0<TKey, TValue>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <Remove>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _Remove_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> l);
 
@@ -167,17 +171,18 @@ protected:
   constexpr IntervalTree_2___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntervalTree_2___c__DisplayClass19_0(IntervalTree_2___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c__DisplayClass19_0(IntervalTree_2___c__DisplayClass19_0 const&) = delete;
+  IntervalTree_2___c__DisplayClass19_0(IntervalTree_2___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20501 };
 
+  /// [Nullable(0)]
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   TValue ___value;
 
@@ -185,6 +190,7 @@ public:
 };
 // Non member Declarations
 } // namespace IntervalTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace IntervalTree {
 // cpp template
@@ -199,6 +205,7 @@ public:
 
   static inline ::IntervalTree::IntervalTree_2___c__DisplayClass20_0<TKey, TValue>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <Remove>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _Remove_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> l);
 
@@ -217,17 +224,18 @@ protected:
   constexpr IntervalTree_2___c__DisplayClass20_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass20_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass20_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntervalTree_2___c__DisplayClass20_0(IntervalTree_2___c__DisplayClass20_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass20_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass20_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c__DisplayClass20_0(IntervalTree_2___c__DisplayClass20_0 const&) = delete;
+  IntervalTree_2___c__DisplayClass20_0(IntervalTree_2___c__DisplayClass20_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20502 };
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field items, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TValue>* ___items;
 
@@ -235,6 +243,7 @@ public:
 };
 // Non member Declarations
 } // namespace IntervalTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace IntervalTree {
 // cpp template
@@ -253,7 +262,7 @@ public:
   static inline ::IntervalTree::IntervalTree_2___c__DisplayClass23_0<TKey, TValue>* New_ctor();
 
   /// @brief Method <GetClosestPrevValueTo>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _GetClosestPrevValueTo_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> pair);
+  inline bool _GetClosestPrevValueTo_b__0(/* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> pair);
 
   constexpr ::IntervalTree::IntervalTree_2<TKey, TValue>* const& __cordl_internal_get___4__this() const;
 
@@ -276,20 +285,22 @@ protected:
   constexpr IntervalTree_2___c__DisplayClass23_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass23_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntervalTree_2___c__DisplayClass23_0(IntervalTree_2___c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass23_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c__DisplayClass23_0(IntervalTree_2___c__DisplayClass23_0 const&) = delete;
+  IntervalTree_2___c__DisplayClass23_0(IntervalTree_2___c__DisplayClass23_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20503 };
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::IntervalTree::IntervalTree_2<TKey, TValue>* _____4__this;
 
+  /// [Nullable(0)]
   /// @brief Field key, offset: 0x18, size: 0x8, def value: None
   TKey ___key;
 
@@ -297,6 +308,7 @@ public:
 };
 // Non member Declarations
 } // namespace IntervalTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace IntervalTree {
 // cpp template
@@ -315,7 +327,7 @@ public:
   static inline ::IntervalTree::IntervalTree_2___c__DisplayClass24_0<TKey, TValue>* New_ctor();
 
   /// @brief Method <GetClosestNextValueTo>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _GetClosestNextValueTo_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> pair);
+  inline bool _GetClosestNextValueTo_b__0(/* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> pair);
 
   constexpr ::IntervalTree::IntervalTree_2<TKey, TValue>* const& __cordl_internal_get___4__this() const;
 
@@ -338,20 +350,22 @@ protected:
   constexpr IntervalTree_2___c__DisplayClass24_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass24_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass24_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntervalTree_2___c__DisplayClass24_0(IntervalTree_2___c__DisplayClass24_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass24_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c__DisplayClass24_0(IntervalTree_2___c__DisplayClass24_0 const&) = delete;
+  IntervalTree_2___c__DisplayClass24_0(IntervalTree_2___c__DisplayClass24_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20504 };
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::IntervalTree::IntervalTree_2<TKey, TValue>* _____4__this;
 
+  /// [Nullable(0)]
   /// @brief Field key, offset: 0x18, size: 0x8, def value: None
   TKey ___key;
 
@@ -359,6 +373,8 @@ public:
 };
 // Non member Declarations
 } // namespace IntervalTree
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace IntervalTree {
 // cpp template
@@ -380,8 +396,10 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_Max)) TKey Max;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_Min)) TKey Min;
 
   __declspec(property(get = get_Values)) ::System::Collections::Generic::IEnumerable_1<TValue>* Values;
@@ -424,7 +442,7 @@ public:
 
   static inline ::IntervalTree::IntervalTree_2<TKey, TValue>* New_ctor();
 
-  static inline ::IntervalTree::IntervalTree_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer);
+  static inline ::IntervalTree::IntervalTree_2<TKey, TValue>* New_ctor(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* Query(TKey from, TKey to);
@@ -475,14 +493,16 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer);
+  inline void _ctor(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
+  /// [NullableContext(2)]
   /// @brief Method get_Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_Max();
 
+  /// [NullableContext(2)]
   /// @brief Method get_Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_Min();
 
@@ -505,13 +525,13 @@ protected:
   constexpr IntervalTree_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntervalTree_2(IntervalTree_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2(IntervalTree_2 const&) = delete;
+  IntervalTree_2(IntervalTree_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20505 };
@@ -519,6 +539,7 @@ public:
   /// @brief Field root, offset: 0x10, size: 0x8, def value: None
   ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* ___root;
 
+  /// [Nullable(new[] { 1, 0, 1, 1 })]
   /// @brief Field items, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* ___items;
 

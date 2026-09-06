@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpFloatParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpFloatParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class NoInterpFloatParameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::NoInterpFloatParameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::NoInterpFloatParameter*, "UnityEngine.Rendering", "NoInterpFloatParameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.VolumeParameter`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -31,13 +32,13 @@ protected:
   constexpr NoInterpFloatParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpFloatParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoInterpFloatParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoInterpFloatParameter(NoInterpFloatParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpFloatParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoInterpFloatParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoInterpFloatParameter(NoInterpFloatParameter const&) = delete;
+  NoInterpFloatParameter(NoInterpFloatParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12346 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRGeneralSettings.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRGeneralSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,9 +51,11 @@ public:
   /// @brief Field s_RuntimeSettingsInstance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_RuntimeSettingsInstance, put = setStaticF_s_RuntimeSettingsInstance)) ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> s_RuntimeSettingsInstance;
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)2)]
   /// @brief Method AttemptInitializeXRSDKOnLoad, addr 0x69e9d98, size 0xf4, virtual false, abstract: false, final false
   static inline void AttemptInitializeXRSDKOnLoad();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)3)]
   /// @brief Method AttemptStartXRSDKOnBeforeSplashScreen, addr 0x69ea134, size 0xf4, virtual false, abstract: false, final false
   static inline void AttemptStartXRSDKOnBeforeSplashScreen();
 
@@ -145,20 +147,23 @@ protected:
   constexpr XRGeneralSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRGeneralSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRGeneralSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRGeneralSettings(XRGeneralSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRGeneralSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRGeneralSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRGeneralSettings(XRGeneralSettings const&) = delete;
+  XRGeneralSettings(XRGeneralSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23040 };
 
+  /// [SerializeField]
   /// @brief Field m_LoaderManagerInstance, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> ___m_LoaderManagerInstance;
 
+  /// [SerializeField]
+  /// [Tooltip("Toggling this on/off will enable/disable the automatic startup of XR at run time.")]
   /// @brief Field m_InitManagerOnStart, offset: 0x20, size: 0x1, def value: None
   bool ___m_InitManagerOnStart;
 

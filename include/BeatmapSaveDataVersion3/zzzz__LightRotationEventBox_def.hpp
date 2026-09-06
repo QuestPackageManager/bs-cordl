@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\LightRotationEventBox.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/LightRotationEventBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -162,35 +162,42 @@ protected:
   constexpr LightRotationEventBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationEventBox(LightRotationEventBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationEventBox(LightRotationEventBox const&) = delete;
+  LightRotationEventBox(LightRotationEventBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15364 };
 
+  /// [SerializeField]
   /// @brief Field s, offset: 0x20, size: 0x4, def value: None
   float_t ___s;
 
+  /// [SerializeField]
   /// @brief Field t, offset: 0x24, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::DistributionParamType ___t;
 
+  /// [SerializeField]
   /// @brief Field a, offset: 0x28, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::Axis ___a;
 
+  /// [SerializeField]
   /// @brief Field r, offset: 0x2c, size: 0x4, def value: None
   int32_t ___r;
 
+  /// [SerializeField]
   /// @brief Field b, offset: 0x30, size: 0x4, def value: None
   int32_t ___b;
 
+  /// [SerializeField]
   /// @brief Field i, offset: 0x34, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::EaseType ___i;
 
+  /// [SerializeField]
   /// @brief Field l, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* ___l;
 

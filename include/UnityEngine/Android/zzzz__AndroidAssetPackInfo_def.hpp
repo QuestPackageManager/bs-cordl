@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidAssetPackInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPackInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,32 +100,44 @@ protected:
   constexpr AndroidAssetPackInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidAssetPackInfo(AndroidAssetPackInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPackInfo(AndroidAssetPackInfo const&) = delete;
+  AndroidAssetPackInfo(AndroidAssetPackInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20167 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <status>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidAssetPackStatus ____status_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <size>k__BackingField, offset: 0x20, size: 0x8, def value: None
   uint64_t ____size_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <bytesDownloaded>k__BackingField, offset: 0x28, size: 0x8, def value: None
   uint64_t ____bytesDownloaded_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <transferProgress>k__BackingField, offset: 0x30, size: 0x4, def value: None
   float_t ____transferProgress_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <error>k__BackingField, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidAssetPackError ____error_k__BackingField;
 

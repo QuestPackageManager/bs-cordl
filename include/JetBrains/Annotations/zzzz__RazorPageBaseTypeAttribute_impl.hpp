@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\RazorPageBaseTypeAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/RazorPageBaseTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__RazorPageBaseTypeAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::RazorPageBaseTypeAttribute._ctor
@@ -106,12 +106,12 @@ constexpr void JetBrains::Annotations::RazorPageBaseTypeAttribute::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____PageName_k__BackingField = value;
 }
-inline void JetBrains::Annotations::RazorPageBaseTypeAttribute::_ctor(::StringW baseType) {
+inline void JetBrains::Annotations::RazorPageBaseTypeAttribute::_ctor(/* [NotNull] */ ::StringW baseType) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::RazorPageBaseTypeAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, baseType);
 }
-inline void JetBrains::Annotations::RazorPageBaseTypeAttribute::_ctor(::StringW baseType, ::StringW pageName) {
+inline void JetBrains::Annotations::RazorPageBaseTypeAttribute::_ctor(/* [NotNull] */ ::StringW baseType, ::StringW pageName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::RazorPageBaseTypeAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
@@ -135,10 +135,10 @@ inline void JetBrains::Annotations::RazorPageBaseTypeAttribute::set_PageName(::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::RazorPageBaseTypeAttribute*>(), { "set_PageName", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* JetBrains::Annotations::RazorPageBaseTypeAttribute::New_ctor(::StringW baseType) {
+inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* JetBrains::Annotations::RazorPageBaseTypeAttribute::New_ctor(/* [NotNull] */ ::StringW baseType) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::RazorPageBaseTypeAttribute*>(baseType));
 }
-inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* JetBrains::Annotations::RazorPageBaseTypeAttribute::New_ctor(::StringW baseType, ::StringW pageName) {
+inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* JetBrains::Annotations::RazorPageBaseTypeAttribute::New_ctor(/* [NotNull] */ ::StringW baseType, ::StringW pageName) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::RazorPageBaseTypeAttribute*>(baseType, pageName));
 }
 // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Buffers\Binary\BinaryPrimitives.hpp"
+// IWYU pragma private; include "System/Buffers/Binary/BinaryPrimitives.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,9 +23,11 @@ public:
   /// @brief Method ReverseEndianness, addr 0x5bf4050, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReverseEndianness(int32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ReverseEndianness, addr 0x5bf4058, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ReverseEndianness, addr 0x5bf4064, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ReverseEndianness(uint32_t value);
 
@@ -35,13 +37,13 @@ protected:
   constexpr BinaryPrimitives();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryPrimitives(BinaryPrimitives&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryPrimitives(BinaryPrimitives const&) = delete;
+  BinaryPrimitives(BinaryPrimitivesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3835 };

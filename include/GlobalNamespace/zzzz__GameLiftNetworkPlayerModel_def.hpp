@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameLiftNetworkPlayerModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameLiftNetworkPlayerModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,9 @@ namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
 struct PublicServerInfo;
@@ -135,17 +137,18 @@ protected:
   constexpr GameLiftNetworkPlayerModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftNetworkPlayerModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftNetworkPlayerModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameLiftNetworkPlayerModel(GameLiftNetworkPlayerModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftNetworkPlayerModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftNetworkPlayerModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftNetworkPlayerModel(GameLiftNetworkPlayerModel const&) = delete;
+  GameLiftNetworkPlayerModel(GameLiftNetworkPlayerModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21577 };
 
+  /// [Inject]
   /// @brief Field _gameLiftPlayerSessionProvider, offset: 0x108, size: 0x8, def value: None
   ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* ____gameLiftPlayerSessionProvider;
 

@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DMappingFloatEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DMappingFloatEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatTextureProcessor3DMappingFloatEffectTarget_def.hpp"
 #include "GlobalNamespace/zzzz__FloatTextureProcessor3DMappingFloatEffectTarget_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget_TextureProcessor3DMapping::FloatTextureProcessor3DMappingFloatEffectTarget_TextureProcessor3DMapping(
     int32_t value__) noexcept {
   this->value__ = value__;

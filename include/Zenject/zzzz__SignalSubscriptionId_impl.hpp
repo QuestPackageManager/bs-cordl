@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalSubscriptionId.hpp"
+// IWYU pragma private; include "Zenject/SignalSubscriptionId.hpp"
 #include "Zenject/zzzz__BindingId_impl.hpp"
 #include "Zenject/zzzz__SignalSubscriptionId_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -155,8 +155,8 @@ constexpr Zenject::SignalSubscriptionId::operator ::System::IEquatable_1<::Zenje
 constexpr ::System::IEquatable_1<::Zenject::SignalSubscriptionId>* Zenject::SignalSubscriptionId::i___System__IEquatable_1___Zenject__SignalSubscriptionId_() {
   return static_cast<::System::IEquatable_1<::Zenject::SignalSubscriptionId>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_signalId", ty: "::Zenject::BindingId", modifiers: "", def_value: Some("{}") }, CppParam { name: "_callback", ty: "::System::Object*", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_signalId", ty: "::Zenject::BindingId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_callback", ty: "::System::Object*", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::Zenject::SignalSubscriptionId::SignalSubscriptionId(::Zenject::BindingId _signalId, ::System::Object* _callback) noexcept {
   this->_signalId = _signalId;
   this->_callback = _callback;

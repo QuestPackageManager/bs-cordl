@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\EventLogger.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/EventLogger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,17 +56,18 @@ public:
   inline bool IsInPartialTrust();
 
   /// @brief Method LogEvent, addr 0x618d488, size 0x154, virtual false, abstract: false, final false
-  inline void LogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, ::ArrayW<::StringW> values);
+  inline void LogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, /* [ParamArray] */ ::ArrayW<::StringW> values);
 
   static inline ::System::Runtime::Diagnostics::EventLogger* New_ctor();
 
+  /// @brief [Obsolete("For System.Runtime.dll use only. Call FxTrace.EventLog instead")]
   static inline ::System::Runtime::Diagnostics::EventLogger* New_ctor(::StringW eventLogSourceName, ::System::Runtime::Diagnostics::DiagnosticTraceBase* diagnosticTrace);
 
   /// @brief Method NormalizeEventLogParameter, addr 0x6191588, size 0x194, virtual false, abstract: false, final false
   static inline ::StringW NormalizeEventLogParameter(::StringW eventLogParameter);
 
   /// @brief Method SafeLogEvent, addr 0x6191b58, size 0x8, virtual false, abstract: false, final false
-  inline void SafeLogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, ::ArrayW<::StringW> values);
+  inline void SafeLogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, /* [ParamArray] */ ::ArrayW<::StringW> values);
 
   /// @brief Method SafeSetLogSourceName, addr 0x6191b80, size 0x8, virtual false, abstract: false, final false
   inline void SafeSetLogSourceName(::StringW eventLogSourceName);
@@ -84,7 +85,7 @@ public:
   inline ::StringW UnsafeGetProcessName();
 
   /// @brief Method UnsafeLogEvent, addr 0x618c74c, size 0x554, virtual false, abstract: false, final false
-  inline void UnsafeLogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, ::ArrayW<::StringW> values);
+  inline void UnsafeLogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, /* [ParamArray] */ ::ArrayW<::StringW> values);
 
   /// @brief Method UnsafeWriteEventLog, addr 0x6191980, size 0x1d8, virtual false, abstract: false, final false
   inline void UnsafeWriteEventLog(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, ::ArrayW<::StringW> logValues, ::ArrayW<uint8_t> sidBA,
@@ -111,6 +112,7 @@ public:
   /// @brief Method .ctor, addr 0x6191398, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [Obsolete("For System.Runtime.dll use only. Call FxTrace.EventLog instead")]
   /// @brief Method .ctor, addr 0x618d364, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventLogSourceName, ::System::Runtime::Diagnostics::DiagnosticTraceBase* diagnosticTrace);
 
@@ -128,13 +130,13 @@ protected:
   constexpr EventLogger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventLogger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventLogger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventLogger(EventLogger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventLogger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventLogger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventLogger(EventLogger const&) = delete;
+  EventLogger(EventLoggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21328 };

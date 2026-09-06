@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlDictionaryReader.hpp"
+// IWYU pragma private; include "System/Xml/XmlDictionaryReader.hpp"
 #include "System/Xml/zzzz__XmlReader_impl.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

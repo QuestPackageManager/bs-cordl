@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\NameFormatter.hpp"
+// IWYU pragma private; include "UnityEngine/NameFormatter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class NameFormatter;
 // Write type traits
 MARK_REF_T(::UnityEngine::NameFormatter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::NameFormatter*, "UnityEngine", "NameFormatter");
+// [VisibleToOtherModules]
+// [NativeHeader("Runtime/NameFormatter/NameFormatter.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -23,6 +25,7 @@ namespace UnityEngine {
 class CORDL_TYPE NameFormatter : public ::System::Object {
 public:
   // Declarations
+  /// [FreeFunction]
   /// @brief Method FormatVariableName, addr 0x6af4038, size 0x1ac, virtual false, abstract: false, final false
   static inline ::StringW FormatVariableName(::StringW name);
 
@@ -35,13 +38,13 @@ protected:
   constexpr NameFormatter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NameFormatter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameFormatter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameFormatter(NameFormatter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NameFormatter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameFormatter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NameFormatter(NameFormatter const&) = delete;
+  NameFormatter(NameFormatterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10416 };

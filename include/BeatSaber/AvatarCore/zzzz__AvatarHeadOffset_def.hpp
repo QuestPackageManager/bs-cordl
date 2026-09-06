@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarHeadOffset.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarHeadOffset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,20 +65,22 @@ protected:
   constexpr AvatarHeadOffset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarHeadOffset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarHeadOffset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarHeadOffset(AvatarHeadOffset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarHeadOffset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarHeadOffset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarHeadOffset(AvatarHeadOffset const&) = delete;
+  AvatarHeadOffset(AvatarHeadOffsetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21639 };
 
+  /// [SerializeField]
   /// @brief Field _positionOffset, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____positionOffset;
 
+  /// [Inject]
   /// @brief Field _avatarPoseController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController> ____avatarPoseController;
 

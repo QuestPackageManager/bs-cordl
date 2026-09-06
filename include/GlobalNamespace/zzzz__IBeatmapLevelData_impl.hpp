@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IBeatmapLevelData.hpp"
+// IWYU pragma private; include "GlobalNamespace/IBeatmapLevelData.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
@@ -138,11 +138,11 @@ inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::IBeatmapL
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IBeatmapLevelData*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::IBeatmapLevelData::GetBeatmapStringAsync(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::IBeatmapLevelData::GetBeatmapStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IBeatmapLevelData*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*>(this, ___internal_method, beatmapKey);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::IBeatmapLevelData::GetLightshowStringAsync(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::IBeatmapLevelData::GetLightshowStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IBeatmapLevelData*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*>(this, ___internal_method, beatmapKey);
 }
@@ -150,15 +150,15 @@ inline ::StringW GlobalNamespace::IBeatmapLevelData::GetAudioDataString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IBeatmapLevelData*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::IBeatmapLevelData::GetBeatmapString(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::StringW GlobalNamespace::IBeatmapLevelData::GetBeatmapString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IBeatmapLevelData*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, beatmapKey);
 }
-inline ::StringW GlobalNamespace::IBeatmapLevelData::GetLightshowString(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::StringW GlobalNamespace::IBeatmapLevelData::GetLightshowString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IBeatmapLevelData*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, beatmapKey);
 }
-inline bool GlobalNamespace::IBeatmapLevelData::ContainsBeatmapData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline bool GlobalNamespace::IBeatmapLevelData::ContainsBeatmapData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IBeatmapLevelData*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, beatmapKey);
 }

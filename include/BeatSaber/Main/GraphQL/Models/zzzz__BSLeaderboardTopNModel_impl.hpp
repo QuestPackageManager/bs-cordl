@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\BSLeaderboardTopNModel.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/BSLeaderboardTopNModel.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Main/GraphQL/Models/zzzz__BSLeaderboardTopNModel_def.hpp"
@@ -363,6 +363,7 @@ BeatSaber::Main::GraphQL::Models::NodesModel_LeaderboardEntriesPageModel_Beatmap
           { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::BeatSaber::Main::GraphQL::Models::
     NodesModel_LeaderboardEntriesPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardTopNModel__GetNestedFragments_d__5*
     BeatSaber::Main::GraphQL::Models::
@@ -718,7 +719,7 @@ constexpr void BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentMod
   this->____Nodes_k__BackingField = value;
 }
 inline void BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel::set_Nodes(
-    ::System::Collections::Generic::List_1<
+    /* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<
         ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardTopNModel_NodesModel*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},

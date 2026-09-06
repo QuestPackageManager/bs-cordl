@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\UserProof.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/UserProof.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

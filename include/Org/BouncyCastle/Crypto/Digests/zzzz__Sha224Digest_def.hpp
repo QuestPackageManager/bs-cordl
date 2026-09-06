@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\Sha224Digest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Sha224Digest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -188,13 +188,13 @@ protected:
   constexpr Sha224Digest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Sha224Digest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sha224Digest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Sha224Digest(Sha224Digest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Sha224Digest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sha224Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Sha224Digest(Sha224Digest const&) = delete;
+  Sha224Digest(Sha224Digestconst&) = delete;
 
   /// @brief Field DigestLength offset 0xffffffff size 0x4
   static constexpr int32_t DigestLength{ static_cast<int32_t>(0x1c) };

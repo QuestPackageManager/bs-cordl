@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MeshBuilderNative.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MeshBuilderNative.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,8 @@ public:
   // @brief default ctor
   constexpr MeshBuilderNative_NativeColorPage();
 
-  // Ctor Parameters [CppParam { name: "isValid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageAndID", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "isValid", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pageAndID", ty: "::UnityEngine::Color32", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr MeshBuilderNative_NativeColorPage(int32_t isValid, ::UnityEngine::Color32 pageAndID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -115,16 +116,17 @@ public:
   // @brief default ctor
   constexpr MeshBuilderNative_NativeBorderParams();
 
-  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "leftColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None },
-  // CppParam { name: "topColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "rightColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam {
-  // name: "bottomColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "leftWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "topWidth", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "rightWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bottomWidth", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers:
-  // "", def_value: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2",
-  // modifiers: "", def_value: None }, CppParam { name: "leftColorPage", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "", def_value: None }, CppParam { name:
-  // "topColorPage", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "", def_value: None }, CppParam { name: "rightColorPage", ty:
-  // "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "", def_value: None }, CppParam { name: "bottomColorPage", ty:
-  // "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftColor", ty: "::UnityEngine::Color", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "topColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "rightColor", ty:
+  // "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "leftWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "topWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "rightWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomLeftRadius", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftColorPage", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "topColorPage", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "rightColorPage", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomColorPage", ty:
+  // "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "", def_value: None, comment: None }]
   constexpr MeshBuilderNative_NativeBorderParams(::UnityEngine::Rect rect, ::UnityEngine::Color leftColor, ::UnityEngine::Color topColor, ::UnityEngine::Color rightColor,
                                                  ::UnityEngine::Color bottomColor, float_t leftWidth, float_t topWidth, float_t rightWidth, float_t bottomWidth, ::UnityEngine::Vector2 topLeftRadius,
                                                  ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius, ::UnityEngine::Vector2 bottomLeftRadius,
@@ -240,22 +242,25 @@ public:
   // @brief default ctor
   constexpr MeshBuilderNative_NativeRectParams();
 
-  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "subRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None },
-  // CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name:
-  // "scaleMode", ty: "::UnityEngine::ScaleMode", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatInstanceList", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam
-  // { name: "backgroundRepeatInstanceListStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatInstanceListEndIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers:
-  // "", def_value: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2",
-  // modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::System::IntPtr",
-  // modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "::System::IntPtr", modifiers: "",
-  // def_value: None }, CppParam { name: "spriteTexture", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "spriteVertices", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }, CppParam { name: "spriteUVs", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "spriteTriangles", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "spriteGeomRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "contentSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
-  // CppParam { name: "textureSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "texturePixelsPerPoint", ty: "float_t", modifiers: "", def_value: None }, CppParam
-  // { name: "leftSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "topSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rightSlice", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "bottomSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sliceScale", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "rectInset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "colorPage", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage",
-  // modifiers: "", def_value: None }, CppParam { name: "meshFlags", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "subRect", ty: "::UnityEngine::Rect", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "scaleMode", ty: "::UnityEngine::ScaleMode", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "backgroundRepeatInstanceList", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "backgroundRepeatInstanceListStartIndex", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "backgroundRepeatInstanceListEndIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "topLeftRadius", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "texture", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "sprite", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "vectorImage", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "spriteTexture", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "spriteVertices", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "spriteUVs", ty: "::System::IntPtr", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "spriteTriangles", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "spriteGeomRect", ty: "::UnityEngine::Rect",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "contentSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "textureSize", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "texturePixelsPerPoint", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "leftSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "topSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "rightSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "sliceScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rectInset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "colorPage", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "", def_value: None, comment: None }, CppParam { name: "meshFlags", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr MeshBuilderNative_NativeRectParams(::UnityEngine::Rect rect, ::UnityEngine::Rect subRect, ::UnityEngine::Rect uv, ::UnityEngine::Color color, ::UnityEngine::ScaleMode scaleMode,
                                                ::System::IntPtr backgroundRepeatInstanceList, int32_t backgroundRepeatInstanceListStartIndex, int32_t backgroundRepeatInstanceListEndIndex,
                                                ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius,
@@ -437,6 +442,7 @@ static_assert(offsetof(::UnityEngine::UIElements::MeshBuilderNative_NativeRectPa
 static_assert(sizeof(::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams) == 0x118, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [NativeHeader("Modules/UIElements/Core/Native/Renderer/UIRMeshBuilder.bindings.h")]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -450,6 +456,7 @@ public:
 
   using NativeRectParams = ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams;
 
+  /// [ThreadSafe]
   /// @brief Method MakeBorder, addr 0x6db6b58, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeBorder(::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams borderParams, float_t posZ);
 
@@ -457,6 +464,7 @@ public:
   static inline void MakeBorder_Injected(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams> borderParams, float_t posZ,
                                          ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
+  /// [ThreadSafe]
   /// @brief Method MakeSolidRect, addr 0x6db6c24, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeSolidRect(::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams rectParams, float_t posZ);
 
@@ -464,6 +472,7 @@ public:
   static inline void MakeSolidRect_Injected(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, float_t posZ,
                                             ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
+  /// [ThreadSafe]
   /// @brief Method MakeTexturedRect, addr 0x6db6cf0, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeTexturedRect(::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams rectParams, float_t posZ);
 
@@ -471,6 +480,7 @@ public:
   static inline void MakeTexturedRect_Injected(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, float_t posZ,
                                                ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
+  /// [ThreadSafe]
   /// @brief Method MakeVectorGraphics9SliceBackground, addr 0x6db7004, size 0x198, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeVectorGraphics9SliceBackground(::ArrayW<::UnityEngine::UIElements::Vertex> svgVertices, ::ArrayW<uint16_t> svgIndices,
                                                                                                      float_t svgWidth, float_t svgHeight, ::UnityEngine::Rect targetRect,
@@ -483,6 +493,7 @@ public:
                                                                  ::by_ref<::UnityEngine::Color> tint, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage,
                                                                  ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
+  /// [ThreadSafe]
   /// @brief Method MakeVectorGraphicsStretchBackground, addr 0x6db6dbc, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeVectorGraphicsStretchBackground(::ArrayW<::UnityEngine::UIElements::Vertex> svgVertices, ::ArrayW<uint16_t> svgIndices,
                                                                                                       float_t svgWidth, float_t svgHeight, ::UnityEngine::Rect targetRect, ::UnityEngine::Rect sourceUV,
@@ -502,13 +513,13 @@ protected:
   constexpr MeshBuilderNative();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshBuilderNative", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshBuilderNative", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshBuilderNative(MeshBuilderNative&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshBuilderNative", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshBuilderNative", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshBuilderNative(MeshBuilderNative const&) = delete;
+  MeshBuilderNative(MeshBuilderNativeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4629 };

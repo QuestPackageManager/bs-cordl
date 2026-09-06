@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\TypeTable.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/TypeTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_REF_T(::UnityEngine::InputSystem::Utilities::TypeTable___c*);
 MARK_VAL_T(::UnityEngine::InputSystem::Utilities::TypeTable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::TypeTable___c*, "UnityEngine.InputSystem.Utilities", "TypeTable/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::TypeTable, "UnityEngine.InputSystem.Utilities", "TypeTable");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
@@ -72,13 +73,13 @@ protected:
   constexpr TypeTable___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeTable___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeTable___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeTable___c(TypeTable___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeTable___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeTable___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeTable___c(TypeTable___c const&) = delete;
+  TypeTable___c(TypeTable___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9206 };
@@ -125,7 +126,7 @@ public:
   constexpr TypeTable();
 
   // Ctor Parameters [CppParam { name: "table", ty: "::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::System::Type*>*", modifiers: "", def_value:
-  // None }]
+  // None, comment: None }]
   constexpr TypeTable(::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>* table) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

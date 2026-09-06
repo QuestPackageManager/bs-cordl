@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUILayout.hpp"
+// IWYU pragma private; include "UnityEngine/GUILayout.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GUILayout_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
@@ -184,7 +184,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GUILayoutO
     return ___internal_method;
   }
 };
-inline void UnityEngine::GUILayout::Label(::StringW text, ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
+inline void UnityEngine::GUILayout::Label(::StringW text, /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayout*>(), { "Label", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::UnityEngine::GUILayoutOption*>>() } })));
@@ -202,12 +202,12 @@ inline void UnityEngine::GUILayout::Space(float_t pixels) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayout*>(), { "Space", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pixels);
 }
-inline void UnityEngine::GUILayout::BeginHorizontal(::ArrayW<::UnityEngine::GUILayoutOption*> options) {
+inline void UnityEngine::GUILayout::BeginHorizontal(/* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayout*>(), { "BeginHorizontal", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::GUILayoutOption*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, options);
 }
-inline void UnityEngine::GUILayout::BeginHorizontal(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
+inline void UnityEngine::GUILayout::BeginHorizontal(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -215,12 +215,12 @@ inline void UnityEngine::GUILayout::BeginHorizontal(::UnityEngine::GUIContent* c
           { "BeginHorizontal", {}, { ::i2c::type_of<::UnityEngine::GUIContent*>(), ::i2c::type_of<::UnityEngine::GUIStyle*>(), ::i2c::type_of<::ArrayW<::UnityEngine::GUILayoutOption*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, content, style, options);
 }
-inline void UnityEngine::GUILayout::BeginVertical(::ArrayW<::UnityEngine::GUILayoutOption*> options) {
+inline void UnityEngine::GUILayout::BeginVertical(/* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayout*>(), { "BeginVertical", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::GUILayoutOption*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, options);
 }
-inline void UnityEngine::GUILayout::BeginVertical(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
+inline void UnityEngine::GUILayout::BeginVertical(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

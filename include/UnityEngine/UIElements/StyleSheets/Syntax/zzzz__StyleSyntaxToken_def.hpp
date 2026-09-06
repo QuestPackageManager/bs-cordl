@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Syntax\StyleSyntaxToken.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/StyleSyntaxToken.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,8 +38,8 @@ public:
   // @brief default ctor
   constexpr StyleSyntaxToken();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW",
-  // modifiers: "", def_value: None }, CppParam { name: "number", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType", modifiers: "", def_value: None, comment: None }, CppParam { name: "text", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "number", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StyleSyntaxToken(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text, int32_t number) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

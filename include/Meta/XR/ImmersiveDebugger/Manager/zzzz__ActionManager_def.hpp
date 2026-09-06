@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\ActionManager.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/ActionManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::ActionManager*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::ActionManager___c*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::ActionManager*, "Meta.XR.ImmersiveDebugger.Manager", "ActionManager");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::ActionManager___c*, "Meta.XR.ImmersiveDebugger.Manager", "ActionManager/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -100,13 +101,13 @@ protected:
   constexpr ActionManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActionManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActionManager___c(ActionManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActionManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActionManager___c(ActionManager___c const&) = delete;
+  ActionManager___c(ActionManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18425 };
@@ -198,13 +199,13 @@ protected:
   constexpr ActionManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActionManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActionManager(ActionManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActionManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActionManager(ActionManager const&) = delete;
+  ActionManager(ActionManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18426 };

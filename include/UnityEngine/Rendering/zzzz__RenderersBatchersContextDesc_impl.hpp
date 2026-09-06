@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderersBatchersContextDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderersBatchersContextDesc.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceNumInfo_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderersBatchersContextDesc_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderersBatchersContextDesc.NewDefault
@@ -18,9 +18,10 @@ inline ::UnityEngine::Rendering::RenderersBatchersContextDesc UnityEngine::Rende
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContextDesc>(), { "NewDefault", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderersBatchersContextDesc>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "instanceNumInfo", ty: "::UnityEngine::Rendering::InstanceNumInfo", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportDitheringCrossFade", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableBoundingSpheresInstanceData", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "smallMeshScreenPercentage", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableCullerDebugStats", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instanceNumInfo", ty: "::UnityEngine::Rendering::InstanceNumInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "supportDitheringCrossFade", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enableBoundingSpheresInstanceData", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "smallMeshScreenPercentage", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enableCullerDebugStats", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderersBatchersContextDesc::RenderersBatchersContextDesc(::UnityEngine::Rendering::InstanceNumInfo instanceNumInfo, bool supportDitheringCrossFade,
                                                                                                bool enableBoundingSpheresInstanceData, float_t smallMeshScreenPercentage,
                                                                                                bool enableCullerDebugStats) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassBreakAudit.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassBreakAudit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct PassBreakAudit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "PassBreakAudit");
+// [DebuggerDisplay("{reason} : {breakPass}")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.PassBreakReason
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
@@ -40,8 +41,8 @@ public:
   // @brief default ctor
   constexpr PassBreakAudit();
 
-  // Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason", modifiers: "", def_value: None }, CppParam { name:
-  // "breakPass", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "breakPass", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PassBreakAudit(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason reason, int32_t breakPass) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

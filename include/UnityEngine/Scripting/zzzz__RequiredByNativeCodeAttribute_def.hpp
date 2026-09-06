@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Scripting\RequiredByNativeCodeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Scripting/RequiredByNativeCodeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class RequiredByNativeCodeAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Scripting::RequiredByNativeCodeAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Scripting::RequiredByNativeCodeAttribute*, "UnityEngine.Scripting", "RequiredByNativeCodeAttribute");
+// [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)1532, Inherited = false)]
 // Dependencies System.Attribute
 namespace UnityEngine::Scripting {
 // Is value type: false
@@ -68,12 +70,15 @@ public:
   /// @brief Method .ctor, addr 0x6bb659c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool optional);
 
+  /// [CompilerGenerated]
   /// @brief Method set_GenerateProxy, addr 0x6bb65b4, size 0x8, virtual false, abstract: false, final false
   inline void set_GenerateProxy(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x6bb65a4, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Optional, addr 0x6bb65ac, size 0x8, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
@@ -83,23 +88,29 @@ protected:
   constexpr RequiredByNativeCodeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RequiredByNativeCodeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RequiredByNativeCodeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RequiredByNativeCodeAttribute(RequiredByNativeCodeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RequiredByNativeCodeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RequiredByNativeCodeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RequiredByNativeCodeAttribute(RequiredByNativeCodeAttribute const&) = delete;
+  RequiredByNativeCodeAttribute(RequiredByNativeCodeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23127 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Optional>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____Optional_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <GenerateProxy>k__BackingField, offset: 0x19, size: 0x1, def value: None
   bool ____GenerateProxy_k__BackingField;
 

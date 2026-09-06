@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PackPromoInfoSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PackPromoInfoSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PackPromoInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__PackPromoInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__PromoBannerInfoSO_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelPromoInfo_PackPromoInfoSO_PromoMode::LevelPromoInfo_PackPromoInfoSO_PromoMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderSpawnInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderSpawnInfoNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -145,6 +145,7 @@ public:
                                                                  ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount, ::UnityEngine::Vector3 headNoteOffset,
                                                                  float_t headGravityBase, ::UnityEngine::Vector3 tailNoteOffset, float_t tailGravityBase, float_t rotation);
 
+  /// @brief [Preserve]
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* New_ctor();
 
   /// @brief Method Obtain, addr 0x3784220, size 0x6c, virtual false, abstract: false, final false
@@ -315,6 +316,7 @@ public:
 
   constexpr void __cordl_internal_set_tailTime(float_t value);
 
+  /// [Preserve]
   /// @brief Method .ctor, addr 0x3784398, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -324,13 +326,13 @@ protected:
   constexpr SliderSpawnInfoNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderSpawnInfoNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderSpawnInfoNetSerializable(SliderSpawnInfoNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderSpawnInfoNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderSpawnInfoNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderSpawnInfoNetSerializable(SliderSpawnInfoNetSerializable const&) = delete;
+  SliderSpawnInfoNetSerializable(SliderSpawnInfoNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21218 };

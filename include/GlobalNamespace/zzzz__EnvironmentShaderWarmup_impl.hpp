@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentShaderWarmup.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentShaderWarmup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Material_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -161,6 +161,7 @@ inline ::System::Object* GlobalNamespace::EnvironmentShaderWarmup__Start_d__7::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentShaderWarmup__Start_d__7*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::EnvironmentShaderWarmup__Start_d__7* GlobalNamespace::EnvironmentShaderWarmup__Start_d__7::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::EnvironmentShaderWarmup__Start_d__7*>(__1__state));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ILogger.hpp"
+// IWYU pragma private; include "UnityEngine/ILogger.hpp"
 #include "UnityEngine/zzzz__ILogger_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__ILogHandler_def.hpp"
@@ -113,7 +113,7 @@ inline void UnityEngine::ILogger::LogError(::StringW tag, ::System::Object* mess
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ILogger*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tag, message);
 }
-inline void UnityEngine::ILogger::LogFormat(::UnityEngine::LogType logType, ::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::ILogger::LogFormat(::UnityEngine::LogType logType, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ILogger*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, logType, format, args);
 }

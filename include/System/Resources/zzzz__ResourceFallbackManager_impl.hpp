@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\ResourceFallbackManager.hpp"
+// IWYU pragma private; include "System/Resources/ResourceFallbackManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__ResourceFallbackManager_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -184,6 +184,7 @@ inline ::System::Object* System::Resources::ResourceFallbackManager__GetEnumerat
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceFallbackManager__GetEnumerator_d__5*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::System::Resources::ResourceFallbackManager__GetEnumerator_d__5* System::Resources::ResourceFallbackManager__GetEnumerator_d__5::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Resources::ResourceFallbackManager__GetEnumerator_d__5*>(__1__state));
 }

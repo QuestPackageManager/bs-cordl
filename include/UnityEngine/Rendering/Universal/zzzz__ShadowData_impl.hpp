@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowData.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShadowData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
@@ -457,7 +457,7 @@ inline ::by_ref<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlas
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowData>(), { "get_shadowAtlasLayout", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ShadowData::ShadowData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept {
   this->frameData = frameData;
 }

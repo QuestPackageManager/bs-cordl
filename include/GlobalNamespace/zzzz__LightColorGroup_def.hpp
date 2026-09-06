@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightColorGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightColorGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class LightColorGroup;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightColorGroup*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightColorGroup*, "", "LightColorGroup");
+// [ExecuteAlways]
 // Dependencies LightGroupSubsystem
 namespace GlobalNamespace {
 // Is value type: false
@@ -39,13 +40,13 @@ protected:
   constexpr LightColorGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightColorGroup(LightColorGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightColorGroup(LightColorGroup const&) = delete;
+  LightColorGroup(LightColorGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5891 };

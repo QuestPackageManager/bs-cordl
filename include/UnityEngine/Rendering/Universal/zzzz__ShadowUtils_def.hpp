@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -148,7 +148,7 @@ public:
   static inline int32_t GetMaxTileResolutionInAtlas(int32_t atlasWidth, int32_t atlasHeight, int32_t tileCount);
 
   /// @brief Method GetPunctualLightShadowSlicesCount, addr 0x68bbbdc, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t GetPunctualLightShadowSlicesCount(::by_ref<::UnityEngine::LightType> lightType);
+  static inline int32_t GetPunctualLightShadowSlicesCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LightType> lightType);
 
   /// @brief Method GetScaleAndBiasForLinearDistanceFade, addr 0x68bcfc0, size 0x54, virtual false, abstract: false, final false
   static inline void GetScaleAndBiasForLinearDistanceFade(float_t fadeDistance, float_t border, ::by_ref<float_t> scale, ::by_ref<float_t> bias);
@@ -169,6 +169,7 @@ public:
   /// @brief Method GetShadowTransform, addr 0x68bc2d4, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetShadowTransform(::UnityEngine::Matrix4x4 proj, ::UnityEngine::Matrix4x4 view);
 
+  /// [Obsolete("Use AllocShadowRT or ShadowRTReAllocateIfNeeded", true)]
   /// @brief Method GetTemporaryShadowTexture, addr 0x68bd680, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporaryShadowTexture(int32_t width, int32_t height, int32_t bits);
 
@@ -249,13 +250,13 @@ protected:
   constexpr ShadowUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShadowUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShadowUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShadowUtils(ShadowUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShadowUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShadowUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShadowUtils(ShadowUtils const&) = delete;
+  ShadowUtils(ShadowUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12963 };

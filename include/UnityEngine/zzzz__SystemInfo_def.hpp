@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SystemInfo.hpp"
+// IWYU pragma private; include "UnityEngine/SystemInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,13 @@ class SystemInfo;
 // Write type traits
 MARK_REF_T(::UnityEngine::SystemInfo*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SystemInfo*, "UnityEngine", "SystemInfo");
+// [NativeHeader("Runtime/Camera/RenderLoops/MotionVectorRenderLoop.h")]
+// [NativeHeader("Runtime/Input/GetInput.h")]
+// [NativeHeader("Runtime/Misc/SystemInfo.h")]
+// [NativeHeader("Runtime/Shaders/GraphicsCapsScriptBindings.h")]
+// [NativeHeader("Runtime/Misc/SystemInfoMemory.h")]
+// [NativeHeader("Runtime/Graphics/Mesh/MeshScriptBindings.h")]
+// [NativeHeader("Runtime/Graphics/GraphicsFormatUtility.bindings.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -70,202 +77,255 @@ namespace UnityEngine {
 class CORDL_TYPE SystemInfo : public ::System::Object {
 public:
   // Declarations
+  /// [FreeFunction("systeminfo::GetBatteryLevel")]
   /// @brief Method GetBatteryLevel, addr 0x6af0350, size 0x28, virtual false, abstract: false, final false
   static inline float_t GetBatteryLevel();
 
+  /// [FreeFunction("systeminfo::GetBatteryStatus")]
   /// @brief Method GetBatteryStatus, addr 0x6af03a0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::BatteryStatus GetBatteryStatus();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetCompatibleFormat")]
   /// @brief Method GetCompatibleFormat, addr 0x6af1a6c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetCompatibleFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                                            ::UnityEngine::Experimental::Rendering::GraphicsFormatUsage usage);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetCopyTextureSupport")]
   /// @brief Method GetCopyTextureSupport, addr 0x6af0f08, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::CopyTextureSupport GetCopyTextureSupport();
 
+  /// [FreeFunction("systeminfo::GetDeviceModel")]
   /// @brief Method GetDeviceModel, addr 0x6af082c, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceModel();
 
   /// @brief Method GetDeviceModel_Injected, addr 0x6af1938, size 0x3c, virtual false, abstract: false, final false
   static inline void GetDeviceModel_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("systeminfo::GetDeviceName")]
   /// @brief Method GetDeviceName, addr 0x6af0764, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceName();
 
   /// @brief Method GetDeviceName_Injected, addr 0x6af18fc, size 0x3c, virtual false, abstract: false, final false
   static inline void GetDeviceName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("systeminfo::GetDeviceType")]
   /// @brief Method GetDeviceType, addr 0x6af0918, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::DeviceType GetDeviceType();
 
+  /// [FreeFunction("systeminfo::GetDeviceUniqueIdentifier")]
   /// @brief Method GetDeviceUniqueIdentifier, addr 0x6af069c, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceUniqueIdentifier();
 
   /// @brief Method GetDeviceUniqueIdentifier_Injected, addr 0x6af18c0, size 0x3c, virtual false, abstract: false, final false
   static inline void GetDeviceUniqueIdentifier_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetFoveatedRenderingCaps")]
   /// @brief Method GetFoveatedRenderingCaps, addr 0x6af0e18, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::FoveatedRenderingCaps GetFoveatedRenderingCaps();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsDeviceID")]
   /// @brief Method GetGraphicsDeviceID, addr 0x6af0b48, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetGraphicsDeviceID();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsDeviceName")]
   /// @brief Method GetGraphicsDeviceName, addr 0x6af0994, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GetGraphicsDeviceName();
 
   /// @brief Method GetGraphicsDeviceName_Injected, addr 0x6af1974, size 0x3c, virtual false, abstract: false, final false
   static inline void GetGraphicsDeviceName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsDeviceType")]
   /// @brief Method GetGraphicsDeviceType, addr 0x6af0bc0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GraphicsDeviceType GetGraphicsDeviceType();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsDeviceVendor")]
   /// @brief Method GetGraphicsDeviceVendor, addr 0x6af0a5c, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GetGraphicsDeviceVendor();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsDeviceVendorID")]
   /// @brief Method GetGraphicsDeviceVendorID, addr 0x6af0b98, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetGraphicsDeviceVendorID();
 
   /// @brief Method GetGraphicsDeviceVendor_Injected, addr 0x6af19b0, size 0x3c, virtual false, abstract: false, final false
   static inline void GetGraphicsDeviceVendor_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsDeviceVersion")]
   /// @brief Method GetGraphicsDeviceVersion, addr 0x6af0c3c, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GetGraphicsDeviceVersion();
 
   /// @brief Method GetGraphicsDeviceVersion_Injected, addr 0x6af19ec, size 0x3c, virtual false, abstract: false, final false
   static inline void GetGraphicsDeviceVersion_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsFormat")]
   /// @brief Method GetGraphicsFormat, addr 0x6af1ab0, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::Experimental::Rendering::DefaultFormat format);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsMemorySize")]
   /// @brief Method GetGraphicsMemorySize, addr 0x6af0968, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetGraphicsMemorySize();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsMultiThreaded")]
   /// @brief Method GetGraphicsMultiThreaded, addr 0x6af0d78, size 0x28, virtual false, abstract: false, final false
   static inline bool GetGraphicsMultiThreaded();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsShaderLevel")]
   /// @brief Method GetGraphicsShaderLevel, addr 0x6af0d28, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetGraphicsShaderLevel();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetGraphicsUVStartsAtTop")]
   /// @brief Method GetGraphicsUVStartsAtTop, addr 0x6af0c10, size 0x28, virtual false, abstract: false, final false
   static inline bool GetGraphicsUVStartsAtTop();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetHDRDisplaySupportFlags")]
   /// @brief Method GetHDRDisplaySupportFlags, addr 0x6af16b8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::HDRDisplaySupportFlags GetHDRDisplaySupportFlags();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetMaxRenderTextureSize")]
   /// @brief Method GetMaxRenderTextureSize, addr 0x6af15a0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetMaxRenderTextureSize();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetMaxTextureSize")]
   /// @brief Method GetMaxTextureSize, addr 0x6af1550, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetMaxTextureSize();
 
+  /// [FreeFunction("systeminfo::GetOperatingSystem")]
   /// @brief Method GetOperatingSystem, addr 0x6af03cc, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GetOperatingSystem();
 
+  /// [FreeFunction("systeminfo::GetOperatingSystemFamily")]
   /// @brief Method GetOperatingSystemFamily, addr 0x6af04b8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::OperatingSystemFamily GetOperatingSystemFamily();
 
   /// @brief Method GetOperatingSystem_Injected, addr 0x6af1848, size 0x3c, virtual false, abstract: false, final false
   static inline void GetOperatingSystem_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("systeminfo::GetPhysicalMemoryMB")]
   /// @brief Method GetPhysicalMemoryMB, addr 0x6af0670, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetPhysicalMemoryMB();
 
+  /// [FreeFunction("systeminfo::GetProcessorCount")]
   /// @brief Method GetProcessorCount, addr 0x6af0620, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetProcessorCount();
 
+  /// [FreeFunction("systeminfo::GetProcessorFrequencyMHz")]
   /// @brief Method GetProcessorFrequencyMHz, addr 0x6af05d0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetProcessorFrequencyMHz();
 
+  /// [FreeFunction("systeminfo::GetProcessorType")]
   /// @brief Method GetProcessorType, addr 0x6af04e4, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GetProcessorType();
 
   /// @brief Method GetProcessorType_Injected, addr 0x6af1884, size 0x3c, virtual false, abstract: false, final false
   static inline void GetProcessorType_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetRenderTextureSupportedMSAASampleCount")]
   /// @brief Method GetRenderTextureSupportedMSAASampleCount, addr 0x6af1aec, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetRenderTextureSupportedMSAASampleCount(::UnityEngine::RenderTextureDescriptor desc);
 
   /// @brief Method GetRenderTextureSupportedMSAASampleCount_Injected, addr 0x6af1b28, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetRenderTextureSupportedMSAASampleCount_Injected(::by_ref<::UnityEngine::RenderTextureDescriptor> desc);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::GetRenderingThreadingMode")]
   /// @brief Method GetRenderingThreadingMode, addr 0x6af0dc8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderingThreadingMode GetRenderingThreadingMode();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::HasHiddenSurfaceRemovalOnGPU")]
   /// @brief Method HasHiddenSurfaceRemovalOnGPU, addr 0x6af0e68, size 0x28, virtual false, abstract: false, final false
   static inline bool HasHiddenSurfaceRemovalOnGPU();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::HasRenderTexture")]
   /// @brief Method HasRenderTextureNative, addr 0x6af12d4, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasRenderTextureNative(::UnityEngine::RenderTextureFormat format);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::IsFormatSupported")]
   /// @brief Method IsFormatSupported, addr 0x6af1a28, size 0x44, virtual false, abstract: false, final false
   static inline bool IsFormatSupported(::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::GraphicsFormatUsage usage);
 
   /// @brief Method IsValidEnumValue, addr 0x6af11b0, size 0x54, virtual false, abstract: false, final false
   static inline bool IsValidEnumValue(::System::Enum* value);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::MaxGraphicsBufferSize")]
   /// @brief Method MaxGraphicsBufferSize, addr 0x6af1618, size 0x28, virtual false, abstract: false, final false
   static inline int64_t MaxGraphicsBufferSize();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportedRenderTargetCount")]
   /// @brief Method SupportedRenderTargetCount, addr 0x6af1048, size 0x28, virtual false, abstract: false, final false
   static inline int32_t SupportedRenderTargetCount();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsComputeShaders")]
   /// @brief Method SupportsComputeShaders, addr 0x6af0f58, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsComputeShaders();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsGPUFence")]
   /// @brief Method SupportsGPUFence, addr 0x6af15f0, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsGPUFence();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsIndirectArgumentsBuffer")]
   /// @brief Method SupportsIndirectArgumentsBuffer, addr 0x6af1820, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsIndirectArgumentsBuffer();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsInstancing")]
   /// @brief Method SupportsInstancing, addr 0x6af0ff8, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsInstancing();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsMultisampleAutoResolve")]
   /// @brief Method SupportsMultisampleAutoResolve, addr 0x6af1138, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsMultisampleAutoResolve();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsMultisampleResolveDepth")]
   /// @brief Method SupportsMultisampleResolveDepth, addr 0x6af17a8, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsMultisampleResolveDepth();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsMultisampleResolveStencil")]
   /// @brief Method SupportsMultisampleResolveStencil, addr 0x6af17f8, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsMultisampleResolveStencil();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsMultisampledBackBuffer")]
   /// @brief Method SupportsMultisampledBackBuffer, addr 0x6af10e8, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsMultisampledBackBuffer();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsMultisampledTextures")]
   /// @brief Method SupportsMultisampledTextures, addr 0x6af1098, size 0x28, virtual false, abstract: false, final false
   static inline int32_t SupportsMultisampledTextures();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsMultiview")]
   /// @brief Method SupportsMultiview, addr 0x6af1708, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsMultiview();
 
   /// @brief Method SupportsRandomWriteOnRenderTextureFormat, addr 0x6af1310, size 0xd0, virtual false, abstract: false, final false
   static inline bool SupportsRandomWriteOnRenderTextureFormat(::UnityEngine::RenderTextureFormat format);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsRandomWriteOnRenderTextureFormat")]
   /// @brief Method SupportsRandomWriteOnRenderTextureFormatNative, addr 0x6af13e0, size 0x3c, virtual false, abstract: false, final false
   static inline bool SupportsRandomWriteOnRenderTextureFormatNative(::UnityEngine::RenderTextureFormat format);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsRenderTargetArrayIndexFromVertexShader")]
   /// @brief Method SupportsRenderTargetArrayIndexFromVertexShader, addr 0x6af0fa8, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsRenderTargetArrayIndexFromVertexShader();
 
   /// @brief Method SupportsRenderTextureFormat, addr 0x6af1204, size 0xd0, virtual false, abstract: false, final false
   static inline bool SupportsRenderTextureFormat(::UnityEngine::RenderTextureFormat format);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsShadows")]
   /// @brief Method SupportsShadows, addr 0x6af0eb8, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsShadows();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsStoreAndResolveAction")]
   /// @brief Method SupportsStoreAndResolveAction, addr 0x6af1758, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsStoreAndResolveAction();
 
   /// @brief Method SupportsTextureFormat, addr 0x6af141c, size 0xd0, virtual false, abstract: false, final false
   static inline bool SupportsTextureFormat(::UnityEngine::TextureFormat format);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::SupportsTextureFormat")]
   /// @brief Method SupportsTextureFormatNative, addr 0x6af14ec, size 0x3c, virtual false, abstract: false, final false
   static inline bool SupportsTextureFormatNative(::UnityEngine::TextureFormat format);
 
+  /// [FreeFunction("ScriptingGraphicsCaps::UsesLoadStoreActions")]
   /// @brief Method UsesLoadStoreActions, addr 0x6af1668, size 0x28, virtual false, abstract: false, final false
   static inline bool UsesLoadStoreActions();
 
+  /// [FreeFunction("ScriptingGraphicsCaps::UsesReversedZBuffer")]
   /// @brief Method UsesReversedZBuffer, addr 0x6af1188, size 0x28, virtual false, abstract: false, final false
   static inline bool UsesReversedZBuffer();
 
@@ -332,6 +392,7 @@ public:
   /// @brief Method get_maxGraphicsBufferSize, addr 0x6aec66c, size 0x28, virtual false, abstract: false, final false
   static inline int64_t get_maxGraphicsBufferSize();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method get_maxRenderTextureSize, addr 0x6af1578, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_maxRenderTextureSize();
 
@@ -413,13 +474,13 @@ protected:
   constexpr SystemInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemInfo(SystemInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SystemInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SystemInfo(SystemInfo const&) = delete;
+  SystemInfo(SystemInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10406 };

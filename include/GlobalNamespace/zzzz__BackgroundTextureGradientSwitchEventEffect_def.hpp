@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BackgroundTextureGradientSwitchEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/BackgroundTextureGradientSwitchEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class BackgroundTextureGradientSwitchEventEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*, "", "BackgroundTextureGradientSwitchEventEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/BackgroundTextureGradientSwitchEventEffect")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -91,23 +92,26 @@ protected:
   constexpr BackgroundTextureGradientSwitchEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BackgroundTextureGradientSwitchEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundTextureGradientSwitchEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BackgroundTextureGradientSwitchEventEffect(BackgroundTextureGradientSwitchEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BackgroundTextureGradientSwitchEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundTextureGradientSwitchEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BackgroundTextureGradientSwitchEventEffect(BackgroundTextureGradientSwitchEventEffect const&) = delete;
+  BackgroundTextureGradientSwitchEventEffect(BackgroundTextureGradientSwitchEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5815 };
 
+  /// [SerializeField]
   /// @brief Field _defaultTextureGradient, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> ____defaultTextureGradient;
 
+  /// [SerializeField]
   /// @brief Field _boostTextureGradient, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> ____boostTextureGradient;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

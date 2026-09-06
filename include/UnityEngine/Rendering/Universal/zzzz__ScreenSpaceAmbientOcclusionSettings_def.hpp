@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceAmbientOcclusionSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceAmbientOcclusionSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,7 +85,7 @@ public:
   // @brief default ctor
   constexpr ScreenSpaceAmbientOcclusionSettings_DepthSource();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenSpaceAmbientOcclusionSettings_DepthSource(int32_t value__) noexcept;
 
   /// @brief Field Depth value: I32(0)
@@ -141,7 +141,7 @@ public:
   // @brief default ctor
   constexpr ScreenSpaceAmbientOcclusionSettings_NormalQuality();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenSpaceAmbientOcclusionSettings_NormalQuality(int32_t value__) noexcept;
 
   /// @brief Field High value: I32(2)
@@ -200,7 +200,7 @@ public:
   // @brief default ctor
   constexpr ScreenSpaceAmbientOcclusionSettings_AOSampleOption();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenSpaceAmbientOcclusionSettings_AOSampleOption(int32_t value__) noexcept;
 
   /// @brief Field High value: I32(0)
@@ -258,7 +258,7 @@ public:
   // @brief default ctor
   constexpr ScreenSpaceAmbientOcclusionSettings_AOMethodOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenSpaceAmbientOcclusionSettings_AOMethodOptions(int32_t value__) noexcept;
 
   /// @brief Field BlueNoise value: I32(0)
@@ -314,7 +314,7 @@ public:
   // @brief default ctor
   constexpr ScreenSpaceAmbientOcclusionSettings_BlurQualityOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenSpaceAmbientOcclusionSettings_BlurQualityOptions(int32_t value__) noexcept;
 
   /// @brief Field High value: I32(0)
@@ -483,50 +483,62 @@ protected:
   constexpr ScreenSpaceAmbientOcclusionSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceAmbientOcclusionSettings(ScreenSpaceAmbientOcclusionSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceAmbientOcclusionSettings(ScreenSpaceAmbientOcclusionSettings const&) = delete;
+  ScreenSpaceAmbientOcclusionSettings(ScreenSpaceAmbientOcclusionSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12925 };
 
+  /// [SerializeField]
   /// @brief Field AOMethod, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOMethodOptions ___AOMethod;
 
+  /// [SerializeField]
   /// @brief Field Downsample, offset: 0x14, size: 0x1, def value: None
   bool ___Downsample;
 
+  /// [SerializeField]
   /// @brief Field AfterOpaque, offset: 0x15, size: 0x1, def value: None
   bool ___AfterOpaque;
 
+  /// [SerializeField]
   /// @brief Field Source, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_DepthSource ___Source;
 
+  /// [SerializeField]
   /// @brief Field NormalSamples, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_NormalQuality ___NormalSamples;
 
+  /// [SerializeField]
   /// @brief Field Intensity, offset: 0x20, size: 0x4, def value: None
   float_t ___Intensity;
 
+  /// [SerializeField]
   /// @brief Field DirectLightingStrength, offset: 0x24, size: 0x4, def value: None
   float_t ___DirectLightingStrength;
 
+  /// [SerializeField]
   /// @brief Field Radius, offset: 0x28, size: 0x4, def value: None
   float_t ___Radius;
 
+  /// [SerializeField]
   /// @brief Field Samples, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOSampleOption ___Samples;
 
+  /// [SerializeField]
   /// @brief Field BlurQuality, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_BlurQualityOptions ___BlurQuality;
 
+  /// [SerializeField]
   /// @brief Field Falloff, offset: 0x34, size: 0x4, def value: None
   float_t ___Falloff;
 
+  /// [SerializeField]
   /// @brief Field SampleCount, offset: 0x38, size: 0x4, def value: None
   int32_t ___SampleCount;
 

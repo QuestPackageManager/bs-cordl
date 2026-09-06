@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetAnimationPlayAutomatically.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetAnimationPlayAutomatically.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ public:
   /// @brief Field _determinismConfig, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__determinismConfig, put = __cordl_internal_set__determinismConfig)) ::GlobalNamespace::DeterminismConfig* _determinismConfig;
 
+  /// [Inject]
   /// @brief Method Init, addr 0x59888a0, size 0x18c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DeterminismConfig* determinismConfig);
 
@@ -66,17 +67,18 @@ protected:
   constexpr SetAnimationPlayAutomatically();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetAnimationPlayAutomatically", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetAnimationPlayAutomatically", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetAnimationPlayAutomatically(SetAnimationPlayAutomatically&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetAnimationPlayAutomatically", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetAnimationPlayAutomatically", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetAnimationPlayAutomatically(SetAnimationPlayAutomatically const&) = delete;
+  SetAnimationPlayAutomatically(SetAnimationPlayAutomaticallyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5796 };
 
+  /// [SerializeField]
   /// @brief Field _animationToPlay, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animation> ____animationToPlay;
 

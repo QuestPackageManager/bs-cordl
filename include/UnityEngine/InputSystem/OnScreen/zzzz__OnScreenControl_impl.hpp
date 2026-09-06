@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\OnScreen\OnScreenControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/OnScreen/OnScreenControl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
@@ -69,9 +69,10 @@ inline void UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceIn
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo>(), { "Destroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "eventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "buffer", ty:
-// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "firstControl", ty: "::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "eventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "buffer", ty:
+// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "firstControl", ty: "::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl>", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo::OnScreenControl_OnScreenDeviceInfo(
     ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::Unity::Collections::NativeArray_1<uint8_t> buffer, ::UnityEngine::InputSystem::InputDevice* device,
     ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> firstControl) noexcept {
@@ -321,7 +322,9 @@ inline void UnityEngine::InputSystem::OnScreen::OnScreenControl::SetupInputContr
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::OnScreen::OnScreenControl*>(), { "SetupInputControl", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::OnScreen::OnScreenControl::SendValueToControl(TValue value) {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline void UnityEngine::InputSystem::OnScreen::OnScreenControl::SendValueToControl(TValue value) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::OnScreen::OnScreenControl*>(),
                                                                                               { "SendValueToControl", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<TValue>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));

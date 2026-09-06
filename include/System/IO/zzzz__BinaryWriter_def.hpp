@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\BinaryWriter.hpp"
+// IWYU pragma private; include "System/IO/BinaryWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class BinaryWriter;
 // Write type traits
 MARK_REF_T(::System::IO::BinaryWriter*);
 DEFINE_IL2CPP_CLASS(::System::IO::BinaryWriter*, "System.IO", "BinaryWriter");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::IO {
 // Is value type: false
@@ -127,15 +128,19 @@ public:
   /// @brief Method Write, addr 0x5c18334, size 0x110, virtual true, abstract: false, final false
   inline void Write(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Write, addr 0x5c17e90, size 0x20, virtual true, abstract: false, final false
   inline void Write(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Write, addr 0x5c1818c, size 0x68, virtual true, abstract: false, final false
   inline void Write(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Write, addr 0x5c18294, size 0xa0, virtual true, abstract: false, final false
   inline void Write(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Write, addr 0x5c18444, size 0x110, virtual true, abstract: false, final false
   inline void Write(uint64_t value);
 
@@ -215,13 +220,13 @@ protected:
   constexpr BinaryWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryWriter(BinaryWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryWriter(BinaryWriter const&) = delete;
+  BinaryWriter(BinaryWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3906 };
@@ -238,6 +243,7 @@ public:
   /// @brief Field _encoder, offset: 0x28, size: 0x8, def value: None
   ::System::Text::Encoder* ____encoder;
 
+  /// [OptionalField]
   /// @brief Field _leaveOpen, offset: 0x30, size: 0x1, def value: None
   bool ____leaveOpen;
 

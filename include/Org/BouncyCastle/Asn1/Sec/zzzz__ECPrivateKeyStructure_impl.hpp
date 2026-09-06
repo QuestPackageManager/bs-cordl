@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Sec\ECPrivateKeyStructure.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Sec/ECPrivateKeyStructure.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Sec/zzzz__ECPrivateKeyStructure_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -296,19 +296,23 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Sec::ECPr
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*>(this, ___internal_method);
 }
+/// @brief [Obsolete("Use \'GetInstance\' instead")]
 inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(seq));
 }
+/// @brief [Obsolete("Use constructor which takes \'orderBitLength\' instead, to guarantee correct encoding")]
 inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Math::BigInteger* key) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(key));
 }
 inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(orderBitLength, key));
 }
+/// @brief [Obsolete("Use constructor which takes \'orderBitLength\' instead, to guarantee correct encoding")]
 inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Math::BigInteger* key,
                                                                                                                             ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*>(key, parameters));
 }
+/// @brief [Obsolete("Use constructor which takes \'orderBitLength\' instead, to guarantee correct encoding")]
 inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor(::Org::BouncyCastle::Math::BigInteger* key,
                                                                                                                             ::Org::BouncyCastle::Asn1::DerBitString* publicKey,
                                                                                                                             ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {

@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SubsystemManager.hpp"
+// IWYU pragma private; include "UnityEngine/SubsystemManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 CORDL_MODULE_EXPORT(SubsystemManager)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -30,7 +32,8 @@ class SubsystemManager;
 // Write type traits
 MARK_REF_T(::UnityEngine::SubsystemManager*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SubsystemManager*, "UnityEngine", "SubsystemManager");
-// Dependencies System.Object
+// [NativeHeader("Modules/Subsystems/SubsystemManager.h")]
+// Dependencies System.Object, UnityEngine.ISubsystem, UnityEngine.ISubsystemDescriptor
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.SubsystemManager
@@ -62,26 +65,36 @@ public:
 
   /// @brief Method AddSubsystemSubset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TBaseTypeInList, typename TQueryType>
+    requires(::cordl_internals::type_constraint<TBaseTypeInList, ::UnityEngine::ISubsystem*> && ::cordl_internals::type_constraint<TQueryType, ::UnityEngine::ISubsystem*>)
   static inline void AddSubsystemSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ClearSubsystems, addr 0x6bb8940, size 0x220, virtual false, abstract: false, final false
   static inline void ClearSubsystems();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
   /// @brief Method GetIntegratedSubsystemByPtr, addr 0x6bb8cd4, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::IntegratedSubsystem* GetIntegratedSubsystemByPtr(::System::IntPtr ptr);
 
   /// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystemDescriptor*>)
+  static inline void GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors);
 
   /// @brief Method GetSubsystems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void GetSubsystems(::System::Collections::Generic::List_1<T>* subsystems);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*>)
+  static inline void GetSubsystems(::System::Collections::Generic::List_1<T>* subsystems);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InitializeIntegratedSubsystem, addr 0x6bb8848, size 0xf8, virtual false, abstract: false, final false
   static inline void InitializeIntegratedSubsystem(::System::IntPtr ptr, ::UnityEngine::IntegratedSubsystem* subsystem);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ReloadSubsystemsCompleted, addr 0x6bb8764, size 0xe4, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsCompleted();
 
+  /// [RequiredByNativeCode]
   /// @brief Method ReloadSubsystemsStarted, addr 0x6bb8680, size 0xe4, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsStarted();
 
@@ -131,13 +144,13 @@ protected:
   constexpr SubsystemManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubsystemManager(SubsystemManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubsystemManager(SubsystemManager const&) = delete;
+  SubsystemManager(SubsystemManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22936 };

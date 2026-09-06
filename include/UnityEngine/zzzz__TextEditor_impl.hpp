@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextEditor.hpp"
+// IWYU pragma private; include "UnityEngine/TextEditor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -12,7 +12,7 @@
 #include "UnityEngine/zzzz__TextEditor_def.hpp"
 #include "UnityEngine/zzzz__TextSelectingUtilities_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextEditor_DblClickSnapping::TextEditor_DblClickSnapping(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -410,6 +410,7 @@ inline void UnityEngine::TextEditor::OnSelectIndexChange() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::TextEditor*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::TextEditor* UnityEngine::TextEditor::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::TextEditor*>());
 }

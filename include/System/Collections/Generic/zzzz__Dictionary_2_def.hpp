@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\Dictionary_2.hpp"
+// IWYU pragma private; include "System/Collections/Generic/Dictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -143,8 +143,8 @@ public:
   // @brief default ctor
   constexpr Dictionary_2_Entry();
 
-  // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "key",
-  // ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "key", ty: "TKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: None, comment: None }]
   constexpr Dictionary_2_Entry(int32_t hashCode, int32_t next, TKey key, TValue value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -244,9 +244,10 @@ public:
   // @brief default ctor
   constexpr Dictionary_2_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty:
-  // "::System::Collections::Generic::KeyValuePair_2<TKey,TValue>", modifiers: "", def_value: None }, CppParam { name: "_getEnumeratorRetType", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_version",
+  // ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_current", ty:
+  // "::System::Collections::Generic::KeyValuePair_2<TKey,TValue>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_getEnumeratorRetType", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr Dictionary_2_Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _version, int32_t _index,
                                     ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current, int32_t _getEnumeratorRetType) noexcept;
 
@@ -328,8 +329,9 @@ public:
   // @brief default ctor
   constexpr KeyCollection_Dictionary_2_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentKey", ty: "TKey", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_currentKey", ty:
+  // "TKey", modifiers: "", def_value: None, comment: None }]
   constexpr KeyCollection_Dictionary_2_Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TKey _currentKey) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -354,6 +356,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.DictionaryKeyCollectionDebugView`2<TKey, TValue>))]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -462,13 +466,13 @@ protected:
   constexpr Dictionary_2_KeyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_KeyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_KeyCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dictionary_2_KeyCollection(Dictionary_2_KeyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_KeyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_KeyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dictionary_2_KeyCollection(Dictionary_2_KeyCollection const&) = delete;
+  Dictionary_2_KeyCollection(Dictionary_2_KeyCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3760 };
@@ -533,8 +537,9 @@ public:
   // @brief default ctor
   constexpr ValueCollection_Dictionary_2_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentValue", ty: "TValue", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_currentValue", ty:
+  // "TValue", modifiers: "", def_value: None, comment: None }]
   constexpr ValueCollection_Dictionary_2_Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TValue _currentValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -559,6 +564,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.DictionaryValueCollectionDebugView`2<TKey, TValue>))]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -667,13 +674,13 @@ protected:
   constexpr Dictionary_2_ValueCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_ValueCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_ValueCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dictionary_2_ValueCollection(Dictionary_2_ValueCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_ValueCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_ValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dictionary_2_ValueCollection(Dictionary_2_ValueCollection const&) = delete;
+  Dictionary_2_ValueCollection(Dictionary_2_ValueCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3762 };
@@ -685,6 +692,9 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.IDictionaryDebugView`2<K, V>))]
+// [DefaultMember("Item")]
+// [DebuggerDisplay("Count = {Count}")]
 // Dependencies System.Collections.Generic.Dictionary`2::Entry<TKey, TValue>, System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -1098,13 +1108,13 @@ protected:
   constexpr Dictionary_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dictionary_2(Dictionary_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dictionary_2(Dictionary_2 const&) = delete;
+  Dictionary_2(Dictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3763 };

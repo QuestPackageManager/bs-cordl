@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SettingsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/SettingsManager.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"

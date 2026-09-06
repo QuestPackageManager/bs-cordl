@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\CollectionAccessType.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/CollectionAccessType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CollectionAccessType;
 // Write type traits
 MARK_VAL_T(::JetBrains::Annotations::CollectionAccessType);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::CollectionAccessType, "JetBrains.Annotations", "CollectionAccessType");
+// [Flags]
 // Dependencies
 namespace JetBrains::Annotations {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr CollectionAccessType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CollectionAccessType(int32_t value__) noexcept;
 
   /// @brief Field ModifyExistingContent value: I32(2)
@@ -60,7 +61,7 @@ public:
   static ::JetBrains::Annotations::CollectionAccessType const UpdatedContent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10040 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

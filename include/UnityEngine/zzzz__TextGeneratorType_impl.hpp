@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextGeneratorType.hpp"
+// IWYU pragma private; include "UnityEngine/TextGeneratorType.hpp"
 #include "UnityEngine/zzzz__TextGeneratorType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextGeneratorType::TextGeneratorType(int32_t value__) noexcept {
   this->value__ = value__;
 }

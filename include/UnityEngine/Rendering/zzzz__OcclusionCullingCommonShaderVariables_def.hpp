@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingCommonShaderVariables.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingCommonShaderVariables.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OcclusionCullingCommonShaderVariab
                     "OcclusionCullingCommonShaderVariables/<_ViewOriginWorldSpace>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer, "UnityEngine.Rendering",
                     "OcclusionCullingCommonShaderVariables/<_ViewProjMatrix>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -78,7 +80,7 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -102,6 +104,8 @@ static_assert(offsetof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVar
 static_assert(sizeof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -114,7 +118,7 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -138,6 +142,8 @@ static_assert(offsetof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVar
 static_assert(sizeof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -150,7 +156,7 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -174,6 +180,8 @@ static_assert(offsetof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVar
 static_assert(sizeof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -186,7 +194,7 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -210,6 +218,8 @@ static_assert(offsetof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVar
 static_assert(sizeof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -222,7 +232,7 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -246,8 +256,10 @@ static_assert(offsetof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVar
 static_assert(sizeof(::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer) == 0x180, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.OcclusionCullingCommonShaderVariables::<_FacingDirWorldSpace>e__FixedBuffer,
-// UnityEngine.Rendering.OcclusionCullingCommonShaderVariables::<_OccluderMipBounds>e__FixedBuffer, UnityEngine.Rendering.OcclusionCullingCommonShaderVariables::<_RadialDirWorldSpace>e__FixedBuffer,
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\OcclusionCullingCommonShaderVariables.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// UnityEngine.Rendering.OcclusionCullingCommonShaderVariables::<_FacingDirWorldSpace>e__FixedBuffer, UnityEngine.Rendering.OcclusionCullingCommonShaderVariables::<_OccluderMipBounds>e__FixedBuffer,
+// UnityEngine.Rendering.OcclusionCullingCommonShaderVariables::<_RadialDirWorldSpace>e__FixedBuffer,
 // UnityEngine.Rendering.OcclusionCullingCommonShaderVariables::<_ViewOriginWorldSpace>e__FixedBuffer, UnityEngine.Rendering.OcclusionCullingCommonShaderVariables::<_ViewProjMatrix>e__FixedBuffer,
 // UnityEngine.Vector4
 namespace UnityEngine::Rendering {
@@ -267,23 +279,26 @@ public:
   using __ViewProjMatrix_e__FixedBuffer = ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer;
 
   /// @brief Method .ctor, addr 0x68331e8, size 0x328, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx, ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
-                    bool occlusionOverlayCountVisible, bool overrideOcclusionTestToAlwaysPass);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
+                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings, bool occlusionOverlayCountVisible,
+                    bool overrideOcclusionTestToAlwaysPass);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr OcclusionCullingCommonShaderVariables();
 
-  // Ctor Parameters [CppParam { name: "_OccluderMipBounds", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer", modifiers: "", def_value: None },
-  // CppParam { name: "_ViewProjMatrix", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "_ViewOriginWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "_FacingDirWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "_RadialDirWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "_DepthSizeInOccluderPixels", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_OccluderDepthPyramidSize", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-  // None }, CppParam { name: "_OccluderMipLayoutSizeX", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_OcclusionTestDebugFlags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_OcclusionCullingCommonPad0", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_OcclusionTestCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_OccluderSubviewIndices", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_CullingSplitIndices", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_CullingSplitMask", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_OccluderMipBounds", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_ViewProjMatrix", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_ViewOriginWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_FacingDirWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_RadialDirWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_DepthSizeInOccluderPixels", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_OccluderDepthPyramidSize", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_OccluderMipLayoutSizeX", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_OcclusionTestDebugFlags", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_OcclusionCullingCommonPad0", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_OcclusionTestCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_OccluderSubviewIndices", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_CullingSplitIndices", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_CullingSplitMask", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr OcclusionCullingCommonShaderVariables(::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer _OccluderMipBounds,
                                                   ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer _ViewProjMatrix,
                                                   ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer _ViewOriginWorldSpace,
@@ -299,18 +314,28 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x360 };
 
+  /// [FixedBuffer(typeof(System.UInt32), 32)]
+  /// [HLSLArray(8, typeof(UnityEngine.Rendering.ShaderGenUInt4))]
   /// @brief Field _OccluderMipBounds, offset: 0x0, size: 0x80, def value: None
   ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer _OccluderMipBounds;
 
+  /// [FixedBuffer(typeof(System.Single), 96)]
+  /// [HLSLArray(6, typeof(UnityEngine.Matrix4x4))]
   /// @brief Field _ViewProjMatrix, offset: 0x80, size: 0x180, def value: None
   ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer _ViewProjMatrix;
 
+  /// [FixedBuffer(typeof(System.Single), 24)]
+  /// [HLSLArray(6, typeof(UnityEngine.Vector4))]
   /// @brief Field _ViewOriginWorldSpace, offset: 0x200, size: 0x60, def value: None
   ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer _ViewOriginWorldSpace;
 
+  /// [FixedBuffer(typeof(System.Single), 24)]
+  /// [HLSLArray(6, typeof(UnityEngine.Vector4))]
   /// @brief Field _FacingDirWorldSpace, offset: 0x260, size: 0x60, def value: None
   ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer _FacingDirWorldSpace;
 
+  /// [FixedBuffer(typeof(System.Single), 24)]
+  /// [HLSLArray(6, typeof(UnityEngine.Vector4))]
   /// @brief Field _RadialDirWorldSpace, offset: 0x2c0, size: 0x60, def value: None
   ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer _RadialDirWorldSpace;
 

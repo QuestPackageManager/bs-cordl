@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorStyle.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorStyle.hpp"
 #include "GlobalNamespace/zzzz__GradientDirection_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

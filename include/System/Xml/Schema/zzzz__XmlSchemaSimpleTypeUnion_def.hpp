@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSimpleTypeUnion.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSimpleTypeUnion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,13 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaSimpleTypeUnion : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_BaseMemberTypes)) ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> BaseMemberTypes;
 
+  /// @brief [XmlElement("simpleType", typeof(System.Xml.Schema.XmlSchemaSimpleType))]
   __declspec(property(get = get_BaseTypes)) ::System::Xml::Schema::XmlSchemaObjectCollection* BaseTypes;
 
+  /// @brief [XmlAttribute("memberTypes")]
   __declspec(property(get = get_MemberTypes, put = set_MemberTypes)) ::ArrayW<::System::Xml::XmlQualifiedName*> MemberTypes;
 
   /// @brief Field baseMemberTypes, offset 0x60, size 0x8
@@ -96,13 +99,13 @@ protected:
   constexpr XmlSchemaSimpleTypeUnion();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeUnion", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeUnion", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaSimpleTypeUnion(XmlSchemaSimpleTypeUnion&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeUnion", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeUnion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaSimpleTypeUnion(XmlSchemaSimpleTypeUnion const&) = delete;
+  XmlSchemaSimpleTypeUnion(XmlSchemaSimpleTypeUnionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9818 };

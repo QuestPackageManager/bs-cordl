@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Composites\Vector2Composite.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/Vector2Composite.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__Vector2Composite_def.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__Vector2Composite_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Composites::Vector2Composite_Mode::Vector2Composite_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }

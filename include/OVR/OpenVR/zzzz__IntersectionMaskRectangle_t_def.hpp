@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IntersectionMaskRectangle_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IntersectionMaskRectangle_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,9 @@ public:
   // @brief default ctor
   constexpr IntersectionMaskRectangle_t();
 
-  // Ctor Parameters [CppParam { name: "m_flTopLeftX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flTopLeftY", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_flWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flHeight", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_flTopLeftX", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_flTopLeftY", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_flWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_flHeight", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr IntersectionMaskRectangle_t(float_t m_flTopLeftX, float_t m_flTopLeftY, float_t m_flWidth, float_t m_flHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

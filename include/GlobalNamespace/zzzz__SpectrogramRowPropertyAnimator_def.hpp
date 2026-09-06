@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpectrogramRowPropertyAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpectrogramRowPropertyAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,29 +140,35 @@ protected:
   constexpr SpectrogramRowPropertyAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpectrogramRowPropertyAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpectrogramRowPropertyAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpectrogramRowPropertyAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpectrogramRowPropertyAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimator const&) = delete;
+  SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5985 };
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [SerializeField]
   /// @brief Field _dataIndex, offset: 0x28, size: 0x4, def value: None
   int32_t ____dataIndex;
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromProperty("_materialPropertyBlockController", "_renderers", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)3)]
   /// @brief Field _propertyName, offset: 0x30, size: 0x8, def value: None
   ::StringW ____propertyName;
 
+  /// [SerializeField]
   /// @brief Field _multiplier, offset: 0x38, size: 0x4, def value: None
   float_t ____multiplier;
 
+  /// [SerializeField]
   /// @brief Field _animationCurve, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____animationCurve;
 
@@ -175,6 +181,7 @@ public:
   /// @brief Field _spectrogramValue, offset: 0x50, size: 0x4, def value: None
   float_t ____spectrogramValue;
 
+  /// [Inject]
   /// @brief Field _spectrogramData, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BasicSpectrogramData> ____spectrogramData;
 

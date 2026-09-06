@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRControllersRecorderExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRControllersRecorderExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__VRControllersRecorderExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__PlaymodeOptions_def.hpp"

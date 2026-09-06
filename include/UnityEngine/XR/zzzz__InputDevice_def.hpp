@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\InputDevice.hpp"
+// IWYU pragma private; include "UnityEngine/XR/InputDevice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ struct InputDevice;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::InputDevice);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");
+// [NativeConditional("ENABLE_VR")]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -87,7 +89,8 @@ public:
   // @brief default ctor
   constexpr InputDevice();
 
-  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_Initialized", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Initialized", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr InputDevice(uint64_t m_DeviceId, bool m_Initialized) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

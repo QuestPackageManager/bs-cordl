@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\Task.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/Task.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/Threading/zzzz__ManualResetEventSlim_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -2955,7 +2955,7 @@ inline ::System::Threading::Tasks::Task* System::Threading::Tasks::Task::WhenAll
                                                            { "WhenAll", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Threading::Tasks::Task*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(nullptr, ___internal_method, tasks);
 }
-inline ::System::Threading::Tasks::Task* System::Threading::Tasks::Task::WhenAll(::ArrayW<::System::Threading::Tasks::Task*> tasks) {
+inline ::System::Threading::Tasks::Task* System::Threading::Tasks::Task::WhenAll(/* [ParamArray] */ ::ArrayW<::System::Threading::Tasks::Task*> tasks) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::Task*>(), { "WhenAll", {}, { ::i2c::type_of<::ArrayW<::System::Threading::Tasks::Task*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(nullptr, ___internal_method, tasks);
@@ -2975,7 +2975,8 @@ System::Threading::Tasks::Task::WhenAll(::System::Collections::Generic::IEnumera
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TResult>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<TResult>>*>(nullptr, ___internal_method, tasks);
 }
-template <typename TResult> inline ::System::Threading::Tasks::Task_1<::ArrayW<TResult>>* System::Threading::Tasks::Task::WhenAll(::ArrayW<::System::Threading::Tasks::Task_1<TResult>*> tasks) {
+template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<::ArrayW<TResult>>* System::Threading::Tasks::Task::WhenAll(/* [ParamArray] */ ::ArrayW<::System::Threading::Tasks::Task_1<TResult>*> tasks) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::Task*>(),
                                                            { "WhenAll", { ::i2c::class_of<TResult>() }, { ::i2c::type_of<::ArrayW<::System::Threading::Tasks::Task_1<TResult>*>>() } })));
@@ -2990,7 +2991,7 @@ inline ::System::Threading::Tasks::Task_1<::ArrayW<TResult>>* System::Threading:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TResult>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<TResult>>*>(nullptr, ___internal_method, tasks);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* System::Threading::Tasks::Task::WhenAny(::ArrayW<::System::Threading::Tasks::Task*> tasks) {
+inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* System::Threading::Tasks::Task::WhenAny(/* [ParamArray] */ ::ArrayW<::System::Threading::Tasks::Task*> tasks) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::Task*>(), { "WhenAny", {}, { ::i2c::type_of<::ArrayW<::System::Threading::Tasks::Task*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*>(nullptr, ___internal_method, tasks);
@@ -3003,7 +3004,8 @@ System::Threading::Tasks::Task::WhenAny(::System::Collections::Generic::IEnumera
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*>(nullptr, ___internal_method, tasks);
 }
 template <typename TResult>
-inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task_1<TResult>*>* System::Threading::Tasks::Task::WhenAny(::ArrayW<::System::Threading::Tasks::Task_1<TResult>*> tasks) {
+inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task_1<TResult>*>*
+System::Threading::Tasks::Task::WhenAny(/* [ParamArray] */ ::ArrayW<::System::Threading::Tasks::Task_1<TResult>*> tasks) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::Task*>(),
                                                            { "WhenAny", { ::i2c::class_of<TResult>() }, { ::i2c::type_of<::ArrayW<::System::Threading::Tasks::Task_1<TResult>*>>() } })));

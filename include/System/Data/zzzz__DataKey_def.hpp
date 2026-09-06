@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataKey.hpp"
+// IWYU pragma private; include "System/Data/DataKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ struct DataKey;
 // Write type traits
 MARK_VAL_T(::System::Data::DataKey);
 DEFINE_IL2CPP_CLASS(::System::Data::DataKey, "System.Data", "DataKey");
+// [IsReadOnly]
 // Dependencies System.Data.DataColumn
 namespace System::Data {
 // Is value type: true
@@ -105,7 +106,7 @@ public:
   // @brief default ctor
   constexpr DataKey();
 
-  // Ctor Parameters [CppParam { name: "_columns", ty: "::ArrayW<::System::Data::DataColumn*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_columns", ty: "::ArrayW<::System::Data::DataColumn*>", modifiers: "", def_value: None, comment: None }]
   constexpr DataKey(::ArrayW<::System::Data::DataColumn*> _columns) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

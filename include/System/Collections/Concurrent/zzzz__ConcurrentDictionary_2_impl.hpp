@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Concurrent\ConcurrentDictionary_2.hpp"
+// IWYU pragma private; include "System/Collections/Concurrent/ConcurrentDictionary_2.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
@@ -373,6 +373,7 @@ inline ::System::Object* System::Collections::Concurrent::ConcurrentDictionary_2
       (::i2c::find_method(::i2c::class_of<::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TKey, typename TValue>
 inline ::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>*
 System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>::New_ctor(int32_t __1__state) {

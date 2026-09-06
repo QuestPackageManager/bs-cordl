@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RendererListHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RendererListHandle.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandleType_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandleType_def.hpp"
@@ -123,8 +123,8 @@ inline bool UnityEngine::Rendering::RenderGraphModule::RendererListHandle::IsVal
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>(), { "IsValid", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IsValid", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_IsValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_handle_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::RendererListHandle(::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType type, bool m_IsValid,
                                                                                               int32_t _handle_k__BackingField) noexcept {
   this->type = type;

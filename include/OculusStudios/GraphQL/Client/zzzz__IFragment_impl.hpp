@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\IFragment.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/IFragment.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__IFragment_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_def.hpp"

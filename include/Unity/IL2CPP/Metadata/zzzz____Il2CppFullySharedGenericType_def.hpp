@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IL2CPP\Metadata\__Il2CppFullySharedGenericType.hpp"
+// IWYU pragma private; include "Unity/IL2CPP/Metadata/__Il2CppFullySharedGenericType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ protected:
   constexpr __Il2CppFullySharedGenericType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Il2CppFullySharedGenericType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__Il2CppFullySharedGenericType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Il2CppFullySharedGenericType(__Il2CppFullySharedGenericType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Il2CppFullySharedGenericType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__Il2CppFullySharedGenericType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Il2CppFullySharedGenericType(__Il2CppFullySharedGenericType const&) = delete;
+  __Il2CppFullySharedGenericType(__Il2CppFullySharedGenericTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23793 };

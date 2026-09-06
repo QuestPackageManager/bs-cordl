@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\Feature.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/Feature.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__Feature_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::FeatureFlags::Feature::Feature(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TileRangeExpansionJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TileRangeExpansionJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct TileRangeExpansionJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::TileRangeExpansionJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::TileRangeExpansionJob, "UnityEngine.Rendering.Universal", "TileRangeExpansionJob");
+// [BurstCompile(FloatMode = (Unity.Burst.FloatMode)3, DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Mathematics.int2, UnityEngine.Rendering.Universal.InclusiveRange
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -39,10 +40,10 @@ public:
   // @brief default ctor
   constexpr TileRangeExpansionJob();
 
-  // Ctor Parameters [CppParam { name: "tileRanges", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange>", modifiers: "", def_value: None }, CppParam { name:
-  // "tileMasks", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "rangesPerItem", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "itemsPerTile", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordsPerTile", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tileResolution", ty:
-  // "::Unity::Mathematics::int2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "tileRanges", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "tileMasks", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "rangesPerItem", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "itemsPerTile", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "wordsPerTile", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "tileResolution", ty: "::Unity::Mathematics::int2", modifiers: "", def_value: None, comment: None }]
   constexpr TileRangeExpansionJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange> tileRanges, ::Unity::Collections::NativeArray_1<uint32_t> tileMasks,
                                   int32_t rangesPerItem, int32_t itemsPerTile, int32_t wordsPerTile, ::Unity::Mathematics::int2 tileResolution) noexcept;
 
@@ -52,9 +53,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [ReadOnly]
   /// @brief Field tileRanges, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange> tileRanges;
 
+  /// [NativeDisableParallelForRestriction]
   /// @brief Field tileMasks, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint32_t> tileMasks;
 

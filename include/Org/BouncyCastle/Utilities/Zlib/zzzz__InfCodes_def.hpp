@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\InfCodes.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/InfCodes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -184,13 +184,13 @@ protected:
   constexpr InfCodes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InfCodes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InfCodes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InfCodes(InfCodes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InfCodes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InfCodes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InfCodes(InfCodes const&) = delete;
+  InfCodes(InfCodesconst&) = delete;
 
   /// @brief Field BADCODE offset 0xffffffff size 0x4
   static constexpr int32_t BADCODE{ static_cast<int32_t>(0x9) };

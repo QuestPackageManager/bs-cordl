@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionGameplaySceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionGameplaySceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
@@ -100,7 +100,7 @@ constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_
   this->___backButtonText = value;
 }
 inline void GlobalNamespace::MissionGameplaySceneSetupData::_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart,
-                                                                  ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionGameplaySceneSetupData*>(),
@@ -111,7 +111,7 @@ inline void GlobalNamespace::MissionGameplaySceneSetupData::_ctor(::ArrayW<::Glo
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, missionObjectives, autoRestart, beatmapKey, beatmapLevel, gameplayModifiers, backButtonText);
 }
 inline ::GlobalNamespace::MissionGameplaySceneSetupData* GlobalNamespace::MissionGameplaySceneSetupData::New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart,
-                                                                                                                  ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                                                                   ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText) {
   return THROW_UNLESS(::i2c::no_logger{},

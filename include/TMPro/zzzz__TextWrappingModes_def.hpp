@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextWrappingModes.hpp"
+// IWYU pragma private; include "TMPro/TextWrappingModes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   // @brief default ctor
   constexpr TextWrappingModes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextWrappingModes(int32_t value__) noexcept;
 
   /// @brief Field NoWrap value: I32(0)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightIdColorPair.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightIdColorPair.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__LightIdColorPair_def.hpp"

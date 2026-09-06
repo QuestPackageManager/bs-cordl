@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\CompareInfo.hpp"
+// IWYU pragma private; include "System/Globalization/CompareInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -223,12 +223,15 @@ public:
   /// @brief Method OnDeserialized, addr 0x5b94ea4, size 0xac, virtual false, abstract: false, final false
   inline void OnDeserialized();
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x5b94f50, size 0x4, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnDeserializing]
   /// @brief Method OnDeserializing, addr 0x5b94e98, size 0x8, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnSerializing]
   /// @brief Method OnSerializing, addr 0x5b94f54, size 0x90, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
@@ -332,13 +335,13 @@ protected:
   constexpr CompareInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompareInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompareInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompareInfo(CompareInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompareInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompareInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompareInfo(CompareInfo const&) = delete;
+  CompareInfo(CompareInfoconst&) = delete;
 
   /// @brief Field ValidCompareMaskOffFlags value: I32(-536870944)
   static ::System::Globalization::CompareOptions const ValidCompareMaskOffFlags;
@@ -355,12 +358,14 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3584 };
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_name;
 
   /// @brief Field _sortName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____sortName;
 
+  /// [OptionalField(VersionAdded = 3)]
   /// @brief Field m_SortVersion, offset: 0x20, size: 0x8, def value: None
   ::System::Globalization::SortVersion* ___m_SortVersion;
 

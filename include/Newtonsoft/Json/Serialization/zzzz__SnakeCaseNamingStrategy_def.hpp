@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\SnakeCaseNamingStrategy.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/SnakeCaseNamingStrategy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
+  /// [NullableContext(1)]
   /// @brief Method ResolvePropertyName, addr 0x5d5a640, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
@@ -44,13 +45,13 @@ protected:
   constexpr SnakeCaseNamingStrategy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SnakeCaseNamingStrategy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SnakeCaseNamingStrategy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SnakeCaseNamingStrategy(SnakeCaseNamingStrategy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SnakeCaseNamingStrategy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SnakeCaseNamingStrategy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SnakeCaseNamingStrategy(SnakeCaseNamingStrategy const&) = delete;
+  SnakeCaseNamingStrategy(SnakeCaseNamingStrategyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13536 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\StringEnumConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/StringEnumConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__StringEnumConverter_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__NamingStrategy_def.hpp"
@@ -295,13 +295,14 @@ inline void Newtonsoft::Json::Converters::StringEnumConverter::_ctor(::System::T
                                                            { ".ctor", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Object*>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, namingStrategyType, namingStrategyParameters, allowIntegerValues);
 }
-inline void Newtonsoft::Json::Converters::StringEnumConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer) {
+inline void Newtonsoft::Json::Converters::StringEnumConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value,
+                                                                         ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
 }
-inline ::System::Object* Newtonsoft::Json::Converters::StringEnumConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue,
-                                                                                     ::Newtonsoft::Json::JsonSerializer* serializer) {
+inline ::System::Object* Newtonsoft::Json::Converters::StringEnumConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
+                                                                                     /* [Nullable(2)] */ ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, existingValue, serializer);
@@ -314,6 +315,7 @@ inline bool Newtonsoft::Json::Converters::StringEnumConverter::CanConvert(::Syst
 inline ::Newtonsoft::Json::Converters::StringEnumConverter* Newtonsoft::Json::Converters::StringEnumConverter::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::StringEnumConverter*>());
 }
+/// @brief [Obsolete("StringEnumConverter(bool) is obsolete. Create a converter with StringEnumConverter(NamingStrategy, bool) instead.")]
 inline ::Newtonsoft::Json::Converters::StringEnumConverter* Newtonsoft::Json::Converters::StringEnumConverter::New_ctor(bool camelCaseText) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::StringEnumConverter*>(camelCaseText));
 }

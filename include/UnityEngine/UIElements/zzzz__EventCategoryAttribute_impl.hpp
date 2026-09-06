@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventCategoryAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventCategoryAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCategory_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCategoryAttribute_def.hpp"

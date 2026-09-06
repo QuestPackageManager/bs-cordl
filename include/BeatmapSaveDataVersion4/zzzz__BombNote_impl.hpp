@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\BombNote.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/BombNote.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BombNote_def.hpp"
-// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::BeatmapSaveDataVersion4::BombNote::BombNote(int32_t x, int32_t y) noexcept {
   this->x = x;
   this->y = y;

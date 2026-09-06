@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaParticle.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaParticle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSchemaParticle_Occurs);
 MARK_REF_T(::System::Xml::Schema::XmlSchemaParticle*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Schema::XmlSchemaParticle_Occurs, "System.Xml.Schema", "XmlSchemaParticle/Occurs");
 DEFINE_IL2CPP_CLASS(::System::Xml::Schema::XmlSchemaParticle*, "System.Xml.Schema", "XmlSchemaParticle");
+// [Flags]
 // Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
@@ -63,7 +64,7 @@ public:
   // @brief default ctor
   constexpr XmlSchemaParticle_Occurs();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlSchemaParticle_Occurs(int32_t value__) noexcept;
 
   /// @brief Field Max value: I32(2)
@@ -108,12 +109,16 @@ public:
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_MaxOccurs, put = set_MaxOccurs)) ::System::Decimal MaxOccurs;
 
+  /// @brief [XmlAttribute("maxOccurs")]
   __declspec(property(get = get_MaxOccursString, put = set_MaxOccursString)) ::StringW MaxOccursString;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_MinOccurs, put = set_MinOccurs)) ::System::Decimal MinOccurs;
 
+  /// @brief [XmlAttribute("minOccurs")]
   __declspec(property(get = get_MinOccursString, put = set_MinOccursString)) ::StringW MinOccursString;
 
   __declspec(property(get = get_NameString)) ::StringW NameString;
@@ -193,13 +198,13 @@ protected:
   constexpr XmlSchemaParticle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaParticle(XmlSchemaParticle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaParticle(XmlSchemaParticle const&) = delete;
+  XmlSchemaParticle(XmlSchemaParticleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9807 };

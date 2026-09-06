@@ -1,12 +1,14 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseSlider_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseSlider_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IComparable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -14,16 +16,24 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseSlider_1)
 namespace UnityEngine::UIElements {
-template <typename TValueType> struct BaseSlider_1_SliderKey;
+template <typename TValueType>
+  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
+struct BaseSlider_1_SliderKey;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TValueUxmlAttributeType> class BaseSlider_1_UxmlTraits_1;
+template <typename TValueType, typename TValueUxmlAttributeType>
+  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*> &&
+           ::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
+           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
+class BaseSlider_1_UxmlTraits_1;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ClampedDragger_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+class ClampedDragger_1;
 }
 namespace UnityEngine::UIElements {
 struct DeltaSpeed;
@@ -66,13 +76,21 @@ struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TValueType> struct BaseSlider_1_SliderKey;
+template <typename TValueType>
+  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
+struct BaseSlider_1_SliderKey;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType> class BaseSlider_1;
+template <typename TValueType>
+  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
+class BaseSlider_1;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TValueUxmlAttributeType> class BaseSlider_1_UxmlTraits_1;
+template <typename TValueType, typename TValueUxmlAttributeType>
+  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*> &&
+           ::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
+           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
+class BaseSlider_1_UxmlTraits_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::BaseSlider_1_SliderKey);
@@ -81,10 +99,14 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::BaseSlider_1_SliderKey, "UnityEngine.UIElements", "BaseSlider`1/SliderKey");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseSlider_1, "UnityEngine.UIElements", "BaseSlider`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1, "UnityEngine.UIElements", "BaseSlider`1/UxmlTraits`1");
-// Dependencies UnityEngine.UIElements.BaseFieldTraits`2<TValueType, TValueUxmlAttributeType>
+// [Obsolete("UxmlTraits<TValueUxmlAttributeType> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies System.IComparable`1<T>, UnityEngine.UIElements.BaseFieldTraits`2<TValueType, TValueUxmlAttributeType>, UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
+  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*> &&
+           ::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
+           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseSlider`1/UxmlTraits`1<TValueType,TValueUxmlAttributeType>
 class CORDL_TYPE BaseSlider_1_UxmlTraits_1 : public ::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType> {
@@ -101,13 +123,13 @@ protected:
   constexpr BaseSlider_1_UxmlTraits_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1_UxmlTraits_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1_UxmlTraits_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseSlider_1_UxmlTraits_1(BaseSlider_1_UxmlTraits_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1_UxmlTraits_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1_UxmlTraits_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseSlider_1_UxmlTraits_1(BaseSlider_1_UxmlTraits_1 const&) = delete;
+  BaseSlider_1_UxmlTraits_1(BaseSlider_1_UxmlTraits_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4115 };
@@ -116,10 +138,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies
+// Dependencies System.IComparable`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
+  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.BaseSlider`1/SliderKey<TValueType>
 struct CORDL_TYPE BaseSlider_1_SliderKey {
@@ -152,7 +175,7 @@ public:
   // @brief default ctor
   constexpr BaseSlider_1_SliderKey();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BaseSlider_1_SliderKey(int32_t value__) noexcept;
 
   /// @brief Field Higher value: I32(4)
@@ -189,10 +212,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.Rect, UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.SliderDirection
+// Dependencies System.IComparable`1<T>, UnityEngine.Rect, UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.SliderDirection
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
+  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseSlider`1<TValueType>
 class CORDL_TYPE BaseSlider_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
@@ -200,7 +224,9 @@ public:
   // Declarations
   using SliderKey = ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>;
 
-  template <typename TValueUxmlAttributeType> using UxmlTraits_1 = ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>;
+  template <typename TValueUxmlAttributeType>
+    requires(::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
+  using UxmlTraits_1 = ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>;
 
   /// @brief Field <clampedDragger>k__BackingField, offset 0x578, size 0x8
   __declspec(property(get = __cordl_internal_get__clampedDragger_k__BackingField,
@@ -237,6 +263,7 @@ public:
 
   __declspec(property(get = get_clampedDragger, put = set_clampedDragger)) ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* clampedDragger;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_direction, put = set_direction)) ::UnityEngine::UIElements::SliderDirection direction;
 
   /// @brief Field directionProperty, offset 0xffffffff, size 0x98
@@ -257,6 +284,7 @@ public:
   /// @brief Field draggerUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_draggerUssClassName, put = setStaticF_draggerUssClassName)) ::StringW draggerUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_fill, put = set_fill)) bool fill;
 
   __declspec(property(get = get_fillElement, put = set_fillElement)) ::UnityEngine::UIElements::VisualElement* fillElement;
@@ -267,6 +295,7 @@ public:
   /// @brief Field fillUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_fillUssClassName, put = setStaticF_fillUssClassName)) ::StringW fillUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_highValue, put = set_highValue)) TValueType highValue;
 
   /// @brief Field highValueProperty, offset 0xffffffff, size 0x98
@@ -280,6 +309,7 @@ public:
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_inverted, put = set_inverted)) bool inverted;
 
   /// @brief Field invertedProperty, offset 0xffffffff, size 0x98
@@ -288,6 +318,7 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_lowValue, put = set_lowValue)) TValueType lowValue;
 
   /// @brief Field lowValueProperty, offset 0xffffffff, size 0x98
@@ -323,16 +354,19 @@ public:
   /// @brief Field movableUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_movableUssClassName, put = setStaticF_movableUssClassName)) ::StringW movableUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_pageSize, put = set_pageSize)) float_t pageSize;
 
   /// @brief Field pageSizeProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_pageSizeProperty, put = setStaticF_pageSizeProperty)) ::UnityEngine::UIElements::BindingId pageSizeProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_range)) TValueType range;
 
   /// @brief Field rangeProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_rangeProperty, put = setStaticF_rangeProperty)) ::UnityEngine::UIElements::BindingId rangeProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_showInputField, put = set_showInputField)) bool showInputField;
 
   /// @brief Field showInputFieldProperty, offset 0xffffffff, size 0x98
@@ -375,9 +409,11 @@ public:
   /// @brief Method ComputeValueAndDirectionFromDrag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ComputeValueAndDirectionFromDrag(float_t sliderLength, float_t dragElementLength, float_t dragElementPos);
 
-  /// @brief Method ComputeValueFromKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ComputeValueFromKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> sliderKey, bool isShift);
 
+  /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
+  /// [Obsolete("ExecuteDefaultAction override has been removed because default event handling was migrated to HandleEventBubbleUp. Please use HandleEventBubbleUp.", false)]
   /// @brief Method ExecuteDefaultAction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
@@ -387,6 +423,7 @@ public:
   /// @brief Method GetClosestPowerOfTen, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline float_t GetClosestPowerOfTen(float_t positiveNumber);
 
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.GeometryChangedEvent) })]
   /// @brief Method HandleEventBubbleUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
@@ -420,7 +457,7 @@ public:
   /// @brief Method OnViewDataReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method ParseStringToValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ParseStringToValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValueType ParseStringToValue(::StringW previousValue, ::StringW newValue);
 
   /// @brief Method RegisterEditingCallbacks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -447,13 +484,13 @@ public:
   /// @brief Method SliderLerpDirectionalUnclamped, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValueType SliderLerpDirectionalUnclamped(TValueType a, TValueType b, float_t positionInterpolant);
 
-  /// @brief Method SliderLerpUnclamped, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SliderLerpUnclamped, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValueType SliderLerpUnclamped(TValueType a, TValueType b, float_t interpolant);
 
-  /// @brief Method SliderNormalizeValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SliderNormalizeValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t SliderNormalizeValue(TValueType currentValue, TValueType lowerValue, TValueType higherValue);
 
-  /// @brief Method SliderRange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SliderRange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValueType SliderRange();
 
   /// @brief Method UnityEngine.UIElements.IValueField<TValueType>.StartDragging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -628,33 +665,40 @@ public:
 
   static inline ::StringW getStaticF_verticalVariantUssClassName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clamped, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_clamped();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clampedDragger, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* get_clampedDragger();
 
   /// @brief Method get_direction, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SliderDirection get_direction();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dragBorderElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragBorderElement();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dragContainer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragContainer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dragElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragElement();
 
   /// @brief Method get_fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_fill();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fillElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_fillElement();
 
   /// @brief Method get_highValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValueType get_highValue();
 
+  /// [CompilerGenerated]
   /// @brief Method get_inputTextField, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextField* get_inputTextField();
 
@@ -673,6 +717,7 @@ public:
   /// @brief Method get_showInputField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_showInputField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_trackElement();
 
@@ -722,33 +767,40 @@ public:
 
   static inline void setStaticF_verticalVariantUssClassName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clamped, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_clamped(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clampedDragger, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_clampedDragger(::UnityEngine::UIElements::ClampedDragger_1<TValueType>* value);
 
   /// @brief Method set_direction, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::SliderDirection value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dragBorderElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dragBorderElement(::UnityEngine::UIElements::VisualElement* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dragContainer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dragContainer(::UnityEngine::UIElements::VisualElement* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dragElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dragElement(::UnityEngine::UIElements::VisualElement* value);
 
   /// @brief Method set_fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_fill(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_fillElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_fillElement(::UnityEngine::UIElements::VisualElement* value);
 
   /// @brief Method set_highValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_highValue(TValueType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_inputTextField, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_inputTextField(::UnityEngine::UIElements::TextField* value);
 
@@ -764,6 +816,7 @@ public:
   /// @brief Method set_showInputField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_showInputField(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_trackElement(::UnityEngine::UIElements::VisualElement* value);
 
@@ -776,32 +829,44 @@ protected:
   constexpr BaseSlider_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseSlider_1(BaseSlider_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseSlider_1(BaseSlider_1 const&) = delete;
+  BaseSlider_1(BaseSlider_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4117 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dragContainer>k__BackingField, offset: 0x528, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragContainer_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dragElement>k__BackingField, offset: 0x530, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragElement_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <trackElement>k__BackingField, offset: 0x538, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____trackElement_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dragBorderElement>k__BackingField, offset: 0x540, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragBorderElement_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <inputTextField>k__BackingField, offset: 0x548, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextField* ____inputTextField_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <fillElement>k__BackingField, offset: 0x550, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____fillElement_k__BackingField;
 
@@ -811,9 +876,13 @@ public:
   /// @brief Field m_Fill, offset: 0x559, size: 0x1, def value: None
   bool ___m_Fill;
 
+  /// [DontCreateProperty]
+  /// [SerializeField]
   /// @brief Field m_LowValue, offset: 0x560, size: 0x8, def value: None
   TValueType ___m_LowValue;
 
+  /// [DontCreateProperty]
+  /// [SerializeField]
   /// @brief Field m_HighValue, offset: 0x568, size: 0x8, def value: None
   TValueType ___m_HighValue;
 
@@ -823,9 +892,13 @@ public:
   /// @brief Field m_ShowInputField, offset: 0x574, size: 0x1, def value: None
   bool ___m_ShowInputField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <clamped>k__BackingField, offset: 0x575, size: 0x1, def value: None
   bool ____clamped_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <clampedDragger>k__BackingField, offset: 0x578, size: 0x8, def value: None
   ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* ____clampedDragger_k__BackingField;
 

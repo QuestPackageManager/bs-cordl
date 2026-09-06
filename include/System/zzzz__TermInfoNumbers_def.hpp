@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TermInfoNumbers.hpp"
+// IWYU pragma private; include "System/TermInfoNumbers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   // @brief default ctor
   constexpr TermInfoNumbers();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TermInfoNumbers(int32_t value__) noexcept;
 
   /// @brief Field BitImageEntwining value: I32(31)

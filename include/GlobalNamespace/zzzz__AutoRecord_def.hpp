@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AutoRecord.hpp"
+// IWYU pragma private; include "GlobalNamespace/AutoRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,8 +67,8 @@ public:
   // @brief default ctor
   constexpr AutoRecord_Beatmap();
 
-  // Ctor Parameters [CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteLineCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "items", ty: "::ArrayW<::GlobalNamespace::BeatmapDataItem*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "noteLineCount", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "items", ty: "::ArrayW<::GlobalNamespace::BeatmapDataItem*>", modifiers: "", def_value: None, comment: None }]
   constexpr AutoRecord_Beatmap(float_t beatsPerMinute, int32_t noteLineCount, ::ArrayW<::GlobalNamespace::BeatmapDataItem*> items) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -122,11 +122,12 @@ public:
                                          ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*> handFrames);
 
   /// @brief Method CreatePlayerPoseFrames, addr 0x58f99fc, size 0x8fc, virtual false, abstract: false, final false
-  static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(::by_ref<::GlobalNamespace::AutoRecord_Beatmap> beatmap);
+  static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::AutoRecord_Beatmap> beatmap);
 
   /// @brief Method LocateCutPosition, addr 0x58fa2f8, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LocateCutPosition(int32_t lineCount, int32_t line, ::GlobalNamespace::NoteLineLayer layer);
 
+  /// [CompilerGenerated]
   /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x58fadbc, size 0x78, virtual false, abstract: false, final false
   static inline int32_t _CreatePlayerPoseFrames_g__FixFrames_1_0(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames);
 
@@ -144,13 +145,13 @@ protected:
   constexpr AutoRecord();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AutoRecord", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoRecord", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutoRecord(AutoRecord&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AutoRecord", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoRecord", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutoRecord(AutoRecord const&) = delete;
+  AutoRecord(AutoRecordconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6630 };

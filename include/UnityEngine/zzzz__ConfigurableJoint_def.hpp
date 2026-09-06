@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ConfigurableJoint.hpp"
+// IWYU pragma private; include "UnityEngine/ConfigurableJoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,9 @@ class ConfigurableJoint;
 // Write type traits
 MARK_REF_T(::UnityEngine::ConfigurableJoint*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ConfigurableJoint*, "UnityEngine", "ConfigurableJoint");
+// [NativeClass("Unity::ConfigurableJoint")]
+// [NativeHeader("Modules/Physics/ConfigurableJoint.h")]
+// [RequireComponent(typeof(UnityEngine.Rigidbody))]
 // Dependencies UnityEngine.Joint
 namespace UnityEngine {
 // Is value type: false
@@ -492,13 +495,13 @@ protected:
   constexpr ConfigurableJoint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConfigurableJoint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConfigurableJoint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConfigurableJoint(ConfigurableJoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConfigurableJoint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConfigurableJoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConfigurableJoint(ConfigurableJoint const&) = delete;
+  ConfigurableJoint(ConfigurableJointconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18641 };

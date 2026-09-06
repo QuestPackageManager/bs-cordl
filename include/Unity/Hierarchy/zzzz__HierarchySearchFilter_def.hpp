@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchySearchFilter.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchySearchFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ struct HierarchySearchFilter;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchySearchFilter);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchySearchFilter, "Unity.Hierarchy", "HierarchySearchFilter");
+// [RequiredByNativeCode]
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchySearch.h")]
 // Dependencies Unity.Hierarchy.HierarchySearchFilterOperator
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -61,15 +63,23 @@ public:
   /// @brief Method get_IsValid, addr 0x6b3a9e0, size 0x70, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6b3aa50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_NumValue, addr 0x6b3aa60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_NumValue();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Op, addr 0x6b3aa68, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchySearchFilterOperator get_Op();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_Value, addr 0x6b3aa58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
@@ -81,9 +91,9 @@ public:
   // @brief default ctor
   constexpr HierarchySearchFilter();
 
-  // Ctor Parameters [CppParam { name: "_Name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_Value_k__BackingField", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "_NumValue_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_Op_k__BackingField", ty:
-  // "::Unity::Hierarchy::HierarchySearchFilterOperator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Value_k__BackingField", ty: "::StringW", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_NumValue_k__BackingField", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Op_k__BackingField", ty:
+  // "::Unity::Hierarchy::HierarchySearchFilterOperator", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchySearchFilter(::StringW _Name_k__BackingField, ::StringW _Value_k__BackingField, float_t _NumValue_k__BackingField,
                                   ::Unity::Hierarchy::HierarchySearchFilterOperator _Op_k__BackingField) noexcept;
 
@@ -93,15 +103,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _Value_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <NumValue>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t _NumValue_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Op>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::Unity::Hierarchy::HierarchySearchFilterOperator _Op_k__BackingField;
 

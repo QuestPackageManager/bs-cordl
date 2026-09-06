@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\BSUpsertLeaderboardEntryModel.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/BSUpsertLeaderboardEntryModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ MARK_REF_T(::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_Xoc
 DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel*, "BeatSaber.Main.GraphQL.Models", "BSUpsertLeaderboardEntryModel");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel*, "BeatSaber.Main.GraphQL.Models",
                     "BSUpsertLeaderboardEntryModel/XocBeatGamesBeatmapLeaderboardEntryUpsertModel");
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -29,6 +31,8 @@ namespace BeatSaber::Main::GraphQL::Models {
 class CORDL_TYPE BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
   // Declarations
+  /// [Preserve]
+  /// @brief [JsonProperty("client_mutation_id", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_ClientMutationId, put = set_ClientMutationId)) ::StringW ClientMutationId;
 
   /// @brief Field <ClientMutationId>k__BackingField, offset 0x10, size 0x8
@@ -45,9 +49,11 @@ public:
   /// @brief Method .ctor, addr 0x32a0ecc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ClientMutationId, addr 0x32a0ec4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ClientMutationId();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ClientMutationId, addr 0x32a0ebc, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientMutationId(::StringW value);
 
@@ -57,17 +63,18 @@ protected:
   constexpr BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel(BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel(BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel const&) = delete;
+  BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel(BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20567 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ClientMutationId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____ClientMutationId_k__BackingField;
 
@@ -80,6 +87,9 @@ static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEn
 static_assert(sizeof(::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel) == 0x18, "Size mismatch!");
 
 } // namespace BeatSaber::Main::GraphQL::Models
+// [NullableContext(2)]
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -89,6 +99,8 @@ public:
   // Declarations
   using XocBeatGamesBeatmapLeaderboardEntryUpsertModel = ::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("xoc_beat_games_beatmap_leaderboard_entry_upsert", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_XocBeatGamesBeatmapLeaderboardEntryUpsert,
                       put = set_XocBeatGamesBeatmapLeaderboardEntryUpsert)) ::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel*
       XocBeatGamesBeatmapLeaderboardEntryUpsert;
@@ -111,9 +123,11 @@ public:
   /// @brief Method .ctor, addr 0x32a0eb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_XocBeatGamesBeatmapLeaderboardEntryUpsert, addr 0x32a0eb0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel* get_XocBeatGamesBeatmapLeaderboardEntryUpsert();
 
+  /// [CompilerGenerated]
   /// @brief Method set_XocBeatGamesBeatmapLeaderboardEntryUpsert, addr 0x32a0ea8, size 0x8, virtual false, abstract: false, final false
   inline void set_XocBeatGamesBeatmapLeaderboardEntryUpsert(::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel* value);
 
@@ -123,17 +137,18 @@ protected:
   constexpr BSUpsertLeaderboardEntryModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntryModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntryModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BSUpsertLeaderboardEntryModel(BSUpsertLeaderboardEntryModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntryModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntryModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSUpsertLeaderboardEntryModel(BSUpsertLeaderboardEntryModel const&) = delete;
+  BSUpsertLeaderboardEntryModel(BSUpsertLeaderboardEntryModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20568 };
 
+  /// [CompilerGenerated]
   /// @brief Field <XocBeatGamesBeatmapLeaderboardEntryUpsert>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel* ____XocBeatGamesBeatmapLeaderboardEntryUpsert_k__BackingField;
 

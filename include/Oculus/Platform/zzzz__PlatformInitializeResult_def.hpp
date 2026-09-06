@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\PlatformInitializeResult.hpp"
+// IWYU pragma private; include "Oculus/Platform/PlatformInitializeResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
   // @brief default ctor
   constexpr PlatformInitializeResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformInitializeResult(int32_t value__) noexcept;
 
   /// @brief Field FileInvalid value: I32(-3)

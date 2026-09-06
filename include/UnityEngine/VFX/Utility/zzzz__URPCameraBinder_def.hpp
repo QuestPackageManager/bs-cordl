@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\URPCameraBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/URPCameraBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class URPCameraBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::URPCameraBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::URPCameraBinder*, "UnityEngine.VFX.Utility", "URPCameraBinder");
+// [VFXBinder("URP/URP Camera")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -227,13 +228,13 @@ protected:
   constexpr URPCameraBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "URPCameraBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "URPCameraBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   URPCameraBinder(URPCameraBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "URPCameraBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "URPCameraBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  URPCameraBinder(URPCameraBinder const&) = delete;
+  URPCameraBinder(URPCameraBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12570 };
@@ -244,6 +245,8 @@ public:
   /// @brief Field m_Camera, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ___m_Camera;
 
+  /// [VFXPropertyBinding(new[] { "UnityEditor.VFX.CameraType" })]
+  /// [SerializeField]
   /// @brief Field CameraProperty, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___CameraProperty;
 

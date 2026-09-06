@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ess\EssCertIDv2.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ess/EssCertIDv2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,13 +121,13 @@ protected:
   constexpr EssCertIDv2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EssCertIDv2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EssCertIDv2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EssCertIDv2(EssCertIDv2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EssCertIDv2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EssCertIDv2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EssCertIDv2(EssCertIDv2 const&) = delete;
+  EssCertIDv2(EssCertIDv2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 163 };

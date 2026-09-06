@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\Tracing\NonEventAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/Tracing/NonEventAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class NonEventAttribute;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::Tracing::NonEventAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::Tracing::NonEventAttribute*, "System.Diagnostics.Tracing", "NonEventAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute
 namespace System::Diagnostics::Tracing {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr NonEventAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NonEventAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NonEventAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NonEventAttribute(NonEventAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NonEventAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NonEventAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NonEventAttribute(NonEventAttribute const&) = delete;
+  NonEventAttribute(NonEventAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3676 };

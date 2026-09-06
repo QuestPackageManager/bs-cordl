@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\DictionaryEntry.hpp"
+// IWYU pragma private; include "System/Collections/DictionaryEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,8 @@ public:
   // @brief default ctor
   constexpr DictionaryEntry();
 
-  // Ctor Parameters [CppParam { name: "_key", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_key", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr DictionaryEntry(::System::Object* _key, ::System::Object* _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

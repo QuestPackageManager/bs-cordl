@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorTMPTextStateTransition.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorTMPTextStateTransition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class ColorTMPTextStateTransition;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ColorTMPTextStateTransition*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ColorTMPTextStateTransition*, "", "ColorTMPTextStateTransition");
+// [AddComponentMenu("Transitions/Color Text Transition")]
 // Dependencies ColorStateTransition`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -78,9 +79,11 @@ public:
   /// @brief Method TransitionToSelectedState, addr 0x64439ec, size 0x38, virtual true, abstract: false, final false
   inline void TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
+  /// [CompilerGenerated]
   /// @brief Method <StartTween>b__14_0, addr 0x6443c88, size 0x20, virtual false, abstract: false, final false
   inline void _StartTween_b__14_0(::UnityEngine::Color color);
 
+  /// [CompilerGenerated]
   /// @brief Method <StartTween>b__14_1, addr 0x6443ca8, size 0x90, virtual false, abstract: false, final false
   inline void _StartTween_b__14_1();
 
@@ -99,13 +102,13 @@ protected:
   constexpr ColorTMPTextStateTransition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorTMPTextStateTransition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorTMPTextStateTransition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorTMPTextStateTransition(ColorTMPTextStateTransition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorTMPTextStateTransition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorTMPTextStateTransition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorTMPTextStateTransition(ColorTMPTextStateTransition const&) = delete;
+  ColorTMPTextStateTransition(ColorTMPTextStateTransitionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22361 };

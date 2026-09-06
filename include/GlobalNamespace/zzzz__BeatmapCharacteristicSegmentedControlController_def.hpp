@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicSegmentedControlController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicSegmentedControlController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*);
 MARK_REF_T(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, "", "BeatmapCharacteristicSegmentedControlController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*, "", "BeatmapCharacteristicSegmentedControlController/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -85,13 +86,13 @@ protected:
   constexpr BeatmapCharacteristicSegmentedControlController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSegmentedControlController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSegmentedControlController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicSegmentedControlController___c(BeatmapCharacteristicSegmentedControlController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSegmentedControlController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSegmentedControlController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicSegmentedControlController___c(BeatmapCharacteristicSegmentedControlController___c const&) = delete;
+  BeatmapCharacteristicSegmentedControlController___c(BeatmapCharacteristicSegmentedControlController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6415 };
@@ -187,6 +188,7 @@ public:
   /// @brief Method .ctor, addr 0x5a171bc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x5a166fc, size 0xc0, virtual false, abstract: false, final false
   inline void
   add_didSelectBeatmapCharacteristicEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::GlobalNamespace::BeatmapCharacteristic>* value);
@@ -194,6 +196,7 @@ public:
   /// @brief Method get_selectedBeatmapCharacteristic, addr 0x5a1687c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristic get_selectedBeatmapCharacteristic();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x5a167bc, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_didSelectBeatmapCharacteristicEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::GlobalNamespace::BeatmapCharacteristic>* value);
@@ -204,23 +207,26 @@ protected:
   constexpr BeatmapCharacteristicSegmentedControlController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSegmentedControlController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSegmentedControlController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicSegmentedControlController(BeatmapCharacteristicSegmentedControlController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSegmentedControlController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSegmentedControlController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicSegmentedControlController(BeatmapCharacteristicSegmentedControlController const&) = delete;
+  BeatmapCharacteristicSegmentedControlController(BeatmapCharacteristicSegmentedControlControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6416 };
 
+  /// [SerializeField]
   /// @brief Field _segmentedControl, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControl> ____segmentedControl;
 
+  /// [Inject]
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectBeatmapCharacteristicEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::GlobalNamespace::BeatmapCharacteristic>* ___didSelectBeatmapCharacteristicEvent;
 

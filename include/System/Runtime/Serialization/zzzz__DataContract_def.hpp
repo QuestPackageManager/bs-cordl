@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\DataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/DataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -145,6 +145,7 @@ public:
   /// @brief Field ns, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::System::Xml::XmlDictionaryString* ns;
 
+  /// [SecurityTreatAsSafe]
   /// @brief Method CheckAndAdd, addr 0x6147260, size 0x308, virtual false, abstract: false, final false
   static inline void CheckAndAdd(::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* typesChecked,
                                  ::by_ref<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*> nameToDataContractTable);
@@ -457,13 +458,13 @@ protected:
   constexpr DataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataContract(DataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataContract(DataContract const&) = delete;
+  DataContract(DataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17015 };
@@ -854,13 +855,13 @@ protected:
   constexpr DataContract_DataContractCriticalHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataContract_DataContractCriticalHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataContract_DataContractCriticalHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataContract_DataContractCriticalHelper(DataContract_DataContractCriticalHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataContract_DataContractCriticalHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataContract_DataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataContract_DataContractCriticalHelper(DataContract_DataContractCriticalHelper const&) = delete;
+  DataContract_DataContractCriticalHelper(DataContract_DataContractCriticalHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17014 };

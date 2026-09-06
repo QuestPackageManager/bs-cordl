@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\RenderDataDirtyTypeClasses.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderDataDirtyTypeClasses.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   // @brief default ctor
   constexpr RenderDataDirtyTypeClasses();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderDataDirtyTypeClasses(int32_t value__) noexcept;
 
   /// @brief Field Clipping value: I32(0)

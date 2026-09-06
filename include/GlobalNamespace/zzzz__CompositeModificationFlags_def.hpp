@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeModificationFlags.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeModificationFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CompositeModificationFlags;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::CompositeModificationFlags);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CompositeModificationFlags, "", "CompositeModificationFlags");
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr CompositeModificationFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CompositeModificationFlags(int32_t value__) noexcept;
 
   /// @brief Field RotationX value: I32(2)

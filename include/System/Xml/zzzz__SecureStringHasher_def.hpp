@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\SecureStringHasher.hpp"
+// IWYU pragma private; include "System/Xml/SecureStringHasher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,13 @@ protected:
   constexpr SecureStringHasher_HashCodeOfStringDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher_HashCodeOfStringDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher_HashCodeOfStringDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecureStringHasher_HashCodeOfStringDelegate(SecureStringHasher_HashCodeOfStringDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher_HashCodeOfStringDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher_HashCodeOfStringDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureStringHasher_HashCodeOfStringDelegate(SecureStringHasher_HashCodeOfStringDelegate const&) = delete;
+  SecureStringHasher_HashCodeOfStringDelegate(SecureStringHasher_HashCodeOfStringDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9295 };
@@ -124,13 +124,13 @@ protected:
   constexpr SecureStringHasher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecureStringHasher(SecureStringHasher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureStringHasher(SecureStringHasher const&) = delete;
+  SecureStringHasher(SecureStringHasherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9296 };

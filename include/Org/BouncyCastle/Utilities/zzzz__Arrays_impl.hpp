@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Arrays.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Arrays.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__Arrays_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
@@ -1153,7 +1153,7 @@ inline ::ArrayW<uint8_t> Org::BouncyCastle::Utilities::Arrays::Concatenate(::Arr
                                                                                          { "Concatenate", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, a, b);
 }
-inline ::ArrayW<uint8_t> Org::BouncyCastle::Utilities::Arrays::ConcatenateAll(::ArrayW<::ArrayW<uint8_t>> vs) {
+inline ::ArrayW<uint8_t> Org::BouncyCastle::Utilities::Arrays::ConcatenateAll(/* [ParamArray] */ ::ArrayW<::ArrayW<uint8_t>> vs) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Arrays*>(), { "ConcatenateAll", {}, { ::i2c::type_of<::ArrayW<::ArrayW<uint8_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, vs);

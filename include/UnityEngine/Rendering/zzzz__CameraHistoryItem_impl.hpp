@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CameraHistoryItem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CameraHistoryItem.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextItem_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraHistoryItem_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BufferedRTHandleSystem_def.hpp"

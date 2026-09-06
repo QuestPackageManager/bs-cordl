@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\GotoExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/GotoExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ class GotoExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::GotoExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::GotoExpression*, "System.Linq.Expressions", "GotoExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::GotoExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression, System.Linq.Expressions.GotoExpressionKind
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -96,18 +97,22 @@ public:
   /// @brief Method .ctor, addr 0x5f85878, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::GotoExpressionKind kind, ::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* value, ::System::Type* type);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Kind, addr 0x5f85918, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::GotoExpressionKind get_Kind();
 
   /// @brief Method get_NodeType, addr 0x5f85900, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Target, addr 0x5f85910, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_Target();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f858f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Value, addr 0x5f85908, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Value();
 
@@ -117,26 +122,30 @@ protected:
   constexpr GotoExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GotoExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GotoExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GotoExpression(GotoExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GotoExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GotoExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GotoExpression(GotoExpression const&) = delete;
+  GotoExpression(GotoExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16169 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Value_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Target>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::LabelTarget* ____Target_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Kind>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::System::Linq::Expressions::GotoExpressionKind ____Kind_k__BackingField;
 

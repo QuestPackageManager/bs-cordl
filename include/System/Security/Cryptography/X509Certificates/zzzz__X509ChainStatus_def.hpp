@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509ChainStatus.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509ChainStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,8 +47,8 @@ public:
   // @brief default ctor
   constexpr X509ChainStatus();
 
-  // Ctor Parameters [CppParam { name: "status", ty: "::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags", modifiers: "", def_value: None }, CppParam { name: "info", ty:
-  // "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "status", ty: "::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "info", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr X509ChainStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags status, ::StringW info) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyFlattenedNodeChildren.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyFlattenedNodeChildren.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNode_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyFlattenedNodeChildren_def.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyFlattenedNodeChildren_def.hpp"
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy:
     return ___internal_method;
   }
 };
-inline void Unity::Hierarchy::HierarchyFlattenedNodeChildren::_ctor(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline void Unity::Hierarchy::HierarchyFlattenedNodeChildren::_ctor(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNodeChildren>(),
                                               { ".ctor", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyFlattened*>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
@@ -60,9 +60,9 @@ inline void Unity::Hierarchy::HierarchyFlattenedNodeChildren::ThrowIfVersionChan
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNodeChildren>(), { "ThrowIfVersionChanged", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Node", ty:
-// "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Node", ty:
+// "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyFlattenedNodeChildren::HierarchyFlattenedNodeChildren(::Unity::Hierarchy::HierarchyFlattened* m_HierarchyFlattened, ::Unity::Hierarchy::HierarchyNode m_Node,
                                                                                              int32_t m_Version, int32_t m_Count) noexcept {
   this->m_HierarchyFlattened = m_HierarchyFlattened;
@@ -128,10 +128,10 @@ inline bool Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator::MoveNex
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Enumerable", ty: "::Unity::Hierarchy::HierarchyFlattenedNodeChildren", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_HierarchyFlattened", ty:
-// "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Node", ty: "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ChildrenIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ChildrenCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Enumerable", ty: "::Unity::Hierarchy::HierarchyFlattenedNodeChildren", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Node", ty: "::Unity::Hierarchy::HierarchyNode",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ChildrenIndex",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ChildrenCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator::HierarchyFlattenedNodeChildren_Enumerator(::Unity::Hierarchy::HierarchyFlattenedNodeChildren m_Enumerable,
                                                                                                                    ::Unity::Hierarchy::HierarchyFlattened* m_HierarchyFlattened,
                                                                                                                    ::Unity::Hierarchy::HierarchyNode m_Node, int32_t m_CurrentIndex,

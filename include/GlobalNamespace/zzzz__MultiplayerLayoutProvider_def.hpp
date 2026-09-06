@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLayoutProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLayoutProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,21 +68,27 @@ public:
   /// @brief Method .ctor, addr 0x59dad50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_playersLayoutWasCalculatedEvent, addr 0x59d0534, size 0xc0, virtual false, abstract: false, final false
   inline void add_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_activePlayerSpotsCount, addr 0x59dace4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_activePlayerSpotsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_layout, addr 0x59dacd4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout get_layout();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playersLayoutWasCalculatedEvent, addr 0x59d06c0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_activePlayerSpotsCount, addr 0x59dacec, size 0x8, virtual false, abstract: false, final false
   inline void set_activePlayerSpotsCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_layout, addr 0x59dacdc, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::GlobalNamespace::MultiplayerPlayerLayout value);
 
@@ -92,23 +98,26 @@ protected:
   constexpr MultiplayerLayoutProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLayoutProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLayoutProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLayoutProvider(MultiplayerLayoutProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLayoutProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLayoutProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLayoutProvider(MultiplayerLayoutProvider const&) = delete;
+  MultiplayerLayoutProvider(MultiplayerLayoutProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6150 };
 
+  /// [CompilerGenerated]
   /// @brief Field <layout>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlayerLayout ____layout_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <activePlayerSpotsCount>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____activePlayerSpotsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field playersLayoutWasCalculatedEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* ___playersLayoutWasCalculatedEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Cursor.hpp"
+// IWYU pragma private; include "UnityEngine/Cursor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Cursor_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

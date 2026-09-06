@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\GlyphAnchorPoint.hpp"
+// IWYU pragma private; include "TMPro/GlyphAnchorPoint.hpp"
 #include "TMPro/zzzz__GlyphAnchorPoint_def.hpp"
 //  Writing Method size for method: ::TMPro::GlyphAnchorPoint.get_xCoordinate
 template <>
@@ -65,7 +65,8 @@ inline void TMPro::GlyphAnchorPoint::set_yCoordinate(float_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::GlyphAnchorPoint>(), { "set_yCoordinate", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_XCoordinate", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YCoordinate", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_XCoordinate", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YCoordinate", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::TMPro::GlyphAnchorPoint::GlyphAnchorPoint(float_t m_XCoordinate, float_t m_YCoordinate) noexcept {
   this->m_XCoordinate = m_XCoordinate;
   this->m_YCoordinate = m_YCoordinate;

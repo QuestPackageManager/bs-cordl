@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassRenderDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassRenderDataSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\BaseInputOverride.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/BaseInputOverride.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ public:
   /// @brief Method .ctor, addr 0x6592150, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_compositionString, addr 0x6592148, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_compositionString();
 
@@ -45,17 +46,18 @@ protected:
   constexpr BaseInputOverride();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseInputOverride", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseInputOverride", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseInputOverride(BaseInputOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseInputOverride", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseInputOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseInputOverride(BaseInputOverride const&) = delete;
+  BaseInputOverride(BaseInputOverrideconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8857 };
 
+  /// [CompilerGenerated]
   /// @brief Field <compositionString>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____compositionString_k__BackingField;
 

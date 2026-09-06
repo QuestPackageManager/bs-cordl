@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XHashtable_1.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XHashtable_1.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XHashtable_1_def.hpp"
@@ -22,8 +22,8 @@ inline ::System::Xml::Linq::XHashtable_1_ExtractKeyDelegate<TValue>* System::Xml
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::System::Xml::Linq::XHashtable_1_ExtractKeyDelegate<TValue>::XHashtable_1_ExtractKeyDelegate() {}
-// Ctor Parameters [CppParam { name: "Value", ty: "TValue", modifiers: "", def_value: Some("{}") }, CppParam { name: "HashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Next", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Value", ty: "TValue", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "HashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Next", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TValue> constexpr ::System::Xml::Linq::XHashtableState_XHashtable_1_Entry<TValue>::XHashtableState_XHashtable_1_Entry(TValue Value, int32_t HashCode, int32_t Next) noexcept {
   this->Value = Value;
   this->HashCode = HashCode;

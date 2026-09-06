@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ReflectionBlockedAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ReflectionBlockedAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ReflectionBlockedAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::ReflectionBlockedAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::ReflectionBlockedAttribute*, "System.Runtime.CompilerServices", "ReflectionBlockedAttribute");
+// [AttributeUsage((System.AttributeTargets)5148, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr ReflectionBlockedAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionBlockedAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionBlockedAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionBlockedAttribute(ReflectionBlockedAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionBlockedAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionBlockedAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionBlockedAttribute(ReflectionBlockedAttribute const&) = delete;
+  ReflectionBlockedAttribute(ReflectionBlockedAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3414 };

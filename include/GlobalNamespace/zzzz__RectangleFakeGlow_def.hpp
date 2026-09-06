@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RectangleFakeGlow.hpp"
+// IWYU pragma private; include "GlobalNamespace/RectangleFakeGlow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class RectangleFakeGlow;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::RectangleFakeGlow*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RectangleFakeGlow*, "", "RectangleFakeGlow");
+// [ExecuteInEditMode]
+// [AddComponentMenu("Beat Saber/Gameplay/RectangleFakeGlow")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
@@ -112,26 +114,31 @@ protected:
   constexpr RectangleFakeGlow();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectangleFakeGlow", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectangleFakeGlow", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectangleFakeGlow(RectangleFakeGlow&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectangleFakeGlow", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectangleFakeGlow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectangleFakeGlow(RectangleFakeGlow const&) = delete;
+  RectangleFakeGlow(RectangleFakeGlowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5973 };
 
+  /// [SerializeField]
   /// @brief Field _size, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____size;
 
+  /// [SerializeField]
   /// @brief Field _edgeSize, offset: 0x28, size: 0x4, def value: None
   float_t ____edgeSize;
 
+  /// [SerializeField]
   /// @brief Field _color, offset: 0x2c, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 

@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceAmbientOcclusionSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceAmbientOcclusionSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceAmbientOcclusionSettings_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceAmbientOcclusionSettings_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_DepthSource::ScreenSpaceAmbientOcclusionSettings_DepthSource(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -15,7 +15,7 @@ constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettin
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_DepthSource UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_DepthSource::DepthNormals{
   static_cast<int32_t>(0x1)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_NormalQuality::ScreenSpaceAmbientOcclusionSettings_NormalQuality(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -30,7 +30,7 @@ constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettin
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_NormalQuality UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_NormalQuality::High{
   static_cast<int32_t>(0x2)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOSampleOption::ScreenSpaceAmbientOcclusionSettings_AOSampleOption(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -45,7 +45,7 @@ constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettin
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOSampleOption UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOSampleOption::Low{
   static_cast<int32_t>(0x2)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOMethodOptions::ScreenSpaceAmbientOcclusionSettings_AOMethodOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -56,7 +56,7 @@ constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettin
 };
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOMethodOptions
     UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_AOMethodOptions::InterleavedGradient{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings_BlurQualityOptions::ScreenSpaceAmbientOcclusionSettings_BlurQualityOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }

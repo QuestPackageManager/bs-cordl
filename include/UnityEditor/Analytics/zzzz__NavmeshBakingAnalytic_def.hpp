@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\NavmeshBakingAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/NavmeshBakingAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class NavmeshBakingAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::NavmeshBakingAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::NavmeshBakingAnalytic*, "UnityEditor.Analytics", "NavmeshBakingAnalytic");
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -32,6 +34,7 @@ public:
   /// @brief Field offmesh_links_count, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_offmesh_links_count, put = __cordl_internal_set_offmesh_links_count)) int32_t offmesh_links_count;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateNavmeshBakingAnalytic, addr 0x6e2518c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::NavmeshBakingAnalytic* CreateNavmeshBakingAnalytic();
 
@@ -70,13 +73,13 @@ protected:
   constexpr NavmeshBakingAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavmeshBakingAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavmeshBakingAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavmeshBakingAnalytic(NavmeshBakingAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavmeshBakingAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavmeshBakingAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavmeshBakingAnalytic(NavmeshBakingAnalytic const&) = delete;
+  NavmeshBakingAnalytic(NavmeshBakingAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23005 };

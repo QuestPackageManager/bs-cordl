@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Columns.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Columns.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Columns_impl.hpp"
@@ -32,7 +32,7 @@
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlObjectListAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Columns_StretchMode::Columns_StretchMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -40,191 +40,6 @@ constexpr ::UnityEngine::UIElements::Columns_StretchMode::Columns_StretchMode(in
 constexpr ::UnityEngine::UIElements::Columns_StretchMode::Columns_StretchMode() {}
 constexpr ::UnityEngine::UIElements::Columns_StretchMode UnityEngine::UIElements::Columns_StretchMode::Grow{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::Columns_StretchMode UnityEngine::UIElements::Columns_StretchMode::GrowAndFill{ static_cast<int32_t>(0x1) };
-template <typename T> inline void UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-template <typename T> inline ::UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>* UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>*>());
-}
-// Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>::Columns_UxmlObjectFactory_1() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::Columns_UxmlObjectFactory._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Columns_UxmlObjectFactory::*)()>(&::UnityEngine::UIElements::Columns_UxmlObjectFactory::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d5ca70;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectFactory*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-inline void UnityEngine::UIElements::Columns_UxmlObjectFactory::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectFactory*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::Columns_UxmlObjectFactory* UnityEngine::UIElements::Columns_UxmlObjectFactory::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::Columns_UxmlObjectFactory*>());
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::UIElements::Columns_UxmlObjectFactory::Columns_UxmlObjectFactory() {}
-template <typename T> constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_PrimaryColumnName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PrimaryColumnName;
-}
-template <typename T>
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_PrimaryColumnName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PrimaryColumnName;
-}
-template <typename T>
-constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_PrimaryColumnName(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PrimaryColumnName = value;
-}
-template <typename T>
-constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::Columns_StretchMode>*&
-UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_StretchMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_StretchMode;
-}
-template <typename T>
-constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::Columns_StretchMode>* const&
-UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_StretchMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_StretchMode;
-}
-template <typename T>
-constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_StretchMode(
-    ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::Columns_StretchMode>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_StretchMode = value;
-}
-template <typename T> constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Reorderable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Reorderable;
-}
-template <typename T> constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Reorderable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Reorderable;
-}
-template <typename T> constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_Reorderable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Reorderable = value;
-}
-template <typename T> constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Resizable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Resizable;
-}
-template <typename T> constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Resizable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Resizable;
-}
-template <typename T> constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_Resizable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Resizable = value;
-}
-template <typename T> constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_ResizePreview() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ResizePreview;
-}
-template <typename T> constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_ResizePreview() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ResizePreview;
-}
-template <typename T> constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_ResizePreview(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ResizePreview = value;
-}
-template <typename T>
-constexpr ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::Column*>*&
-UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Columns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Columns;
-}
-template <typename T>
-constexpr ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::Column*>* const&
-UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Columns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Columns;
-}
-template <typename T>
-constexpr void
-UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_Columns(::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::Column*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Columns = value;
-}
-template <typename T>
-inline void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::Init(::by_ref<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>*>(), 4 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj, bag, cc);
-}
-template <typename T> inline void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-template <typename T> inline ::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>* UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>*>());
-}
-// Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::Columns_UxmlObjectTraits_1() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::Columns___c._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Columns___c::*)()>(&::UnityEngine::UIElements::Columns___c::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d5cb38;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns___c*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Columns___c._UpdateVisibleColumns_b__87_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Columns___c::*)(::UnityEngine::UIElements::Column*)>(
-    &::UnityEngine::UIElements::Columns___c::_UpdateVisibleColumns_b__87_0)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d5cb3c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns___c*>(),
-                                                                                           { "<UpdateVisibleColumns>b__87_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::Column*>() } })));
-    return ___internal_method;
-  }
-};
-inline void UnityEngine::UIElements::Columns___c::setStaticF___9(::UnityEngine::UIElements::Columns___c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::Columns___c*, "<>9", ::UnityEngine::UIElements::Columns___c*>(std::forward<::UnityEngine::UIElements::Columns___c*>(value));
-}
-inline ::UnityEngine::UIElements::Columns___c* UnityEngine::UIElements::Columns___c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::Columns___c*, "<>9", ::UnityEngine::UIElements::Columns___c*>();
-}
-inline void UnityEngine::UIElements::Columns___c::setStaticF___9__87_0(::System::Predicate_1<::UnityEngine::UIElements::Column*>* value) {
-  ::cordl_internals::setStaticField<::System::Predicate_1<::UnityEngine::UIElements::Column*>*, "<>9__87_0", ::UnityEngine::UIElements::Columns___c*>(
-      std::forward<::System::Predicate_1<::UnityEngine::UIElements::Column*>*>(value));
-}
-inline ::System::Predicate_1<::UnityEngine::UIElements::Column*>* UnityEngine::UIElements::Columns___c::getStaticF___9__87_0() {
-  return ::cordl_internals::getStaticField<::System::Predicate_1<::UnityEngine::UIElements::Column*>*, "<>9__87_0", ::UnityEngine::UIElements::Columns___c*>();
-}
-inline void UnityEngine::UIElements::Columns___c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns___c*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline bool UnityEngine::UIElements::Columns___c::_UpdateVisibleColumns_b__87_0(::UnityEngine::UIElements::Column* c) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns___c*>(), { "<UpdateVisibleColumns>b__87_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::Column*>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, c);
-}
-inline ::UnityEngine::UIElements::Columns___c* UnityEngine::UIElements::Columns___c::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::Columns___c*>());
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::UIElements::Columns___c::Columns___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::Columns.add_propertyChanged
 template <>
 
@@ -1385,7 +1200,7 @@ inline void UnityEngine::UIElements::Columns::NotifyChange(::UnityEngine::UIElem
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns*>(), { "NotifyChange", {}, { ::i2c::type_of<::UnityEngine::UIElements::ColumnsDataType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type);
 }
-inline void UnityEngine::UIElements::Columns::NotifyPropertyChanged(::by_ref<::UnityEngine::UIElements::BindingId> property) {
+inline void UnityEngine::UIElements::Columns::NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns*>(), { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
@@ -1434,3 +1249,229 @@ constexpr ::UnityEngine::UIElements::INotifyBindablePropertyChanged* UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Columns::Columns() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>* UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>*>());
+}
+// Ctor Parameters []
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::UIElements::Columns_UxmlObjectFactory_1<T>::Columns_UxmlObjectFactory_1() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::Columns_UxmlObjectFactory._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Columns_UxmlObjectFactory::*)()>(&::UnityEngine::UIElements::Columns_UxmlObjectFactory::_ctor)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6d5ca70;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectFactory*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::Columns_UxmlObjectFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectFactory*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::Columns_UxmlObjectFactory* UnityEngine::UIElements::Columns_UxmlObjectFactory::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::Columns_UxmlObjectFactory*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::Columns_UxmlObjectFactory::Columns_UxmlObjectFactory() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_PrimaryColumnName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PrimaryColumnName;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_PrimaryColumnName() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PrimaryColumnName;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_PrimaryColumnName(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_PrimaryColumnName = value;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::Columns_StretchMode>*&
+UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_StretchMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StretchMode;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::Columns_StretchMode>* const&
+UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_StretchMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StretchMode;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_StretchMode(
+    ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::Columns_StretchMode>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_StretchMode = value;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Reorderable() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Reorderable;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Reorderable() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Reorderable;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_Reorderable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Reorderable = value;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Resizable() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Resizable;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Resizable() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Resizable;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_Resizable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Resizable = value;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_ResizePreview() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ResizePreview;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_ResizePreview() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ResizePreview;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_ResizePreview(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ResizePreview = value;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::Column*>*&
+UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Columns() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Columns;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::Column*>* const&
+UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_get_m_Columns() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Columns;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr void
+UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::__cordl_internal_set_m_Columns(::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::Column*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Columns = value;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+inline void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::Init(::by_ref<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj, bag, cc);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+inline void UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+inline ::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>* UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>*>());
+}
+// Ctor Parameters []
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Columns*>)
+constexpr ::UnityEngine::UIElements::Columns_UxmlObjectTraits_1<T>::Columns_UxmlObjectTraits_1() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::Columns___c._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Columns___c::*)()>(&::UnityEngine::UIElements::Columns___c::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d5cb38;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns___c*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Columns___c._UpdateVisibleColumns_b__87_0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Columns___c::*)(::UnityEngine::UIElements::Column*)>(
+    &::UnityEngine::UIElements::Columns___c::_UpdateVisibleColumns_b__87_0)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6d5cb3c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns___c*>(),
+                                                                                           { "<UpdateVisibleColumns>b__87_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::Column*>() } })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::Columns___c::setStaticF___9(::UnityEngine::UIElements::Columns___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::Columns___c*, "<>9", ::UnityEngine::UIElements::Columns___c*>(std::forward<::UnityEngine::UIElements::Columns___c*>(value));
+}
+inline ::UnityEngine::UIElements::Columns___c* UnityEngine::UIElements::Columns___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::Columns___c*, "<>9", ::UnityEngine::UIElements::Columns___c*>();
+}
+inline void UnityEngine::UIElements::Columns___c::setStaticF___9__87_0(::System::Predicate_1<::UnityEngine::UIElements::Column*>* value) {
+  ::cordl_internals::setStaticField<::System::Predicate_1<::UnityEngine::UIElements::Column*>*, "<>9__87_0", ::UnityEngine::UIElements::Columns___c*>(
+      std::forward<::System::Predicate_1<::UnityEngine::UIElements::Column*>*>(value));
+}
+inline ::System::Predicate_1<::UnityEngine::UIElements::Column*>* UnityEngine::UIElements::Columns___c::getStaticF___9__87_0() {
+  return ::cordl_internals::getStaticField<::System::Predicate_1<::UnityEngine::UIElements::Column*>*, "<>9__87_0", ::UnityEngine::UIElements::Columns___c*>();
+}
+inline void UnityEngine::UIElements::Columns___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns___c*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::Columns___c::_UpdateVisibleColumns_b__87_0(::UnityEngine::UIElements::Column* c) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns___c*>(), { "<UpdateVisibleColumns>b__87_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::Column*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, c);
+}
+inline ::UnityEngine::UIElements::Columns___c* UnityEngine::UIElements::Columns___c::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::Columns___c*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::Columns___c::Columns___c() {}

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeGenericParamInfoHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimeGenericParamInfoHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   // @brief default ctor
   constexpr RuntimeGenericParamInfoHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GenericParamInfo*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GenericParamInfo*", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeGenericParamInfoHandle(::Mono::RuntimeStructs_GenericParamInfo* value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

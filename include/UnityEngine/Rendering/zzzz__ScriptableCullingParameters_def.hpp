@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ScriptableCullingParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ScriptableCullingParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ScriptableCullingParameters, "Unit
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer, "UnityEngine.Rendering", "ScriptableCullingParameters/<m_CullingPlanes>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer, "UnityEngine.Rendering",
                     "ScriptableCullingParameters/<m_LayerFarCullDistances>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -67,7 +69,7 @@ public:
   // @brief default ctor
   constexpr ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -91,6 +93,8 @@ static_assert(offsetof(::UnityEngine::Rendering::ScriptableCullingParameters__m_
 static_assert(sizeof(::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer) == 0xa0, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -103,7 +107,7 @@ public:
   // @brief default ctor
   constexpr ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -127,6 +131,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ScriptableCullingParameters__m_
 static_assert(sizeof(::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Matrix4x4, UnityEngine.Rendering.CameraProperties, UnityEngine.Rendering.CullingOptions, UnityEngine.Rendering.LODParameters,
 // UnityEngine.Rendering.ReflectionProbeSortingCriteria, UnityEngine.Rendering.ScriptableCullingParameters::<m_CullingPlanes>e__FixedBuffer,
 // UnityEngine.Rendering.ScriptableCullingParameters::<m_LayerFarCullDistances>e__FixedBuffer, UnityEngine.Vector3
@@ -248,20 +253,21 @@ public:
   // @brief default ctor
   constexpr ScriptableCullingParameters();
 
-  // Ctor Parameters [CppParam { name: "m_LODParameters", ty: "::UnityEngine::Rendering::LODParameters", modifiers: "", def_value: None }, CppParam { name: "m_CullingPlanes", ty:
-  // "::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "m_CullingPlaneCount", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_CullingMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_SceneMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_ViewID", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_LayerFarCullDistances", ty:
-  // "::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "m_LayerCull", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_CullingMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "m_Origin", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "m_ShadowDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ShadowNearPlaneOffset", ty: "float_t", modifiers: "", def_value: None
-  // }, CppParam { name: "m_CullingOptions", ty: "::UnityEngine::Rendering::CullingOptions", modifiers: "", def_value: None }, CppParam { name: "m_ReflectionProbeSortingCriteria", ty:
-  // "::UnityEngine::Rendering::ReflectionProbeSortingCriteria", modifiers: "", def_value: None }, CppParam { name: "m_CameraProperties", ty: "::UnityEngine::Rendering::CameraProperties", modifiers:
-  // "", def_value: None }, CppParam { name: "m_AccurateOcclusionThreshold", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_MaximumPortalCullingJobs", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_StereoViewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "m_StereoProjectionMatrix", ty:
-  // "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "m_StereoSeparationDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_maximumVisibleLights", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ConservativeEnclosingSphere", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "m_NumIterationsEnclosingSphere", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_LODParameters", ty: "::UnityEngine::Rendering::LODParameters", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CullingPlanes", ty:
+  // "::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CullingPlaneCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CullingMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SceneMask", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ViewID", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LayerFarCullDistances", ty:
+  // "::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LayerCull", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CullingMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Origin",
+  // ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ShadowDistance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_ShadowNearPlaneOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CullingOptions", ty: "::UnityEngine::Rendering::CullingOptions", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_ReflectionProbeSortingCriteria", ty: "::UnityEngine::Rendering::ReflectionProbeSortingCriteria", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_CameraProperties", ty: "::UnityEngine::Rendering::CameraProperties", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AccurateOcclusionThreshold",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MaximumPortalCullingJobs", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_StereoViewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StereoProjectionMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_StereoSeparationDistance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_maximumVisibleLights", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ConservativeEnclosingSphere", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_NumIterationsEnclosingSphere", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptableCullingParameters(::UnityEngine::Rendering::LODParameters m_LODParameters, ::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer m_CullingPlanes,
                                         int32_t m_CullingPlaneCount, uint32_t m_CullingMask, uint64_t m_SceneMask, uint64_t m_ViewID,
                                         ::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer m_LayerFarCullDistances, int32_t m_LayerCull,
@@ -292,6 +298,7 @@ public:
   /// @brief Field m_LODParameters, offset: 0x0, size: 0x1c, def value: None
   ::UnityEngine::Rendering::LODParameters m_LODParameters;
 
+  /// [FixedBuffer(typeof(System.Byte), 160)]
   /// @brief Field m_CullingPlanes, offset: 0x1c, size: 0xa0, def value: None
   ::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer m_CullingPlanes;
 
@@ -307,6 +314,7 @@ public:
   /// @brief Field m_ViewID, offset: 0xd0, size: 0x8, def value: None
   uint64_t m_ViewID;
 
+  /// [FixedBuffer(typeof(System.Single), 32)]
   /// @brief Field m_LayerFarCullDistances, offset: 0xd8, size: 0x80, def value: None
   ::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer m_LayerFarCullDistances;
 

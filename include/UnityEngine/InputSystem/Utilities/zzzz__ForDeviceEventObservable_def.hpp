@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\ForDeviceEventObservable.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ForDeviceEventObservable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,13 +102,13 @@ protected:
   constexpr ForDeviceEventObservable_ForDevice();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable_ForDevice", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable_ForDevice", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ForDeviceEventObservable_ForDevice(ForDeviceEventObservable_ForDevice&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable_ForDevice", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable_ForDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForDeviceEventObservable_ForDevice(ForDeviceEventObservable_ForDevice const&) = delete;
+  ForDeviceEventObservable_ForDevice(ForDeviceEventObservable_ForDeviceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9179 };
@@ -191,13 +191,13 @@ protected:
   constexpr ForDeviceEventObservable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ForDeviceEventObservable(ForDeviceEventObservable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForDeviceEventObservable(ForDeviceEventObservable const&) = delete;
+  ForDeviceEventObservable(ForDeviceEventObservableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9180 };

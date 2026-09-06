@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\ConstrainedPointSet.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/ConstrainedPointSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,12 +55,14 @@ public:
   /// @brief Method .ctor, addr 0x66b16d4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points, ::ArrayW<int32_t> index);
 
+  /// [CompilerGenerated]
   /// @brief Method get_EdgeIndex, addr 0x66b16c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_EdgeIndex();
 
   /// @brief Method get_TriangulationMode, addr 0x66b177c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
 
+  /// [CompilerGenerated]
   /// @brief Method set_EdgeIndex, addr 0x66b16cc, size 0x8, virtual false, abstract: false, final false
   inline void set_EdgeIndex(::ArrayW<int32_t> value);
 
@@ -70,17 +72,18 @@ protected:
   constexpr ConstrainedPointSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConstrainedPointSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstrainedPointSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConstrainedPointSet(ConstrainedPointSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConstrainedPointSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstrainedPointSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConstrainedPointSet(ConstrainedPointSet const&) = delete;
+  ConstrainedPointSet(ConstrainedPointSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21774 };
 
+  /// [CompilerGenerated]
   /// @brief Field <EdgeIndex>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int32_t> ____EdgeIndex_k__BackingField;
 

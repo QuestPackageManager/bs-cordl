@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FireworksController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FireworksController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::GlobalNamespace::FireworksController*);
 MARK_REF_T(::GlobalNamespace::FireworksController__SpawningCoroutine_d__10*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FireworksController*, "", "FireworksController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FireworksController__SpawningCoroutine_d__10*, "", "FireworksController/<SpawningCoroutine>d__10");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -79,17 +80,22 @@ public:
   /// @brief Method MoveNext, addr 0x5981f68, size 0x3f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FireworksController__SpawningCoroutine_d__10* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5982358, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5982360, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5982398, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5981f64, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -111,6 +117,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FireworksController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5981e7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -129,13 +136,13 @@ protected:
   constexpr FireworksController__SpawningCoroutine_d__10();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FireworksController__SpawningCoroutine_d__10", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworksController__SpawningCoroutine_d__10", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FireworksController__SpawningCoroutine_d__10(FireworksController__SpawningCoroutine_d__10&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FireworksController__SpawningCoroutine_d__10", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworksController__SpawningCoroutine_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworksController__SpawningCoroutine_d__10(FireworksController__SpawningCoroutine_d__10 const&) = delete;
+  FireworksController__SpawningCoroutine_d__10(FireworksController__SpawningCoroutine_d__10const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5767 };
@@ -161,6 +168,7 @@ static_assert(offsetof(::GlobalNamespace::FireworksController__SpawningCoroutine
 static_assert(sizeof(::GlobalNamespace::FireworksController__SpawningCoroutine_d__10) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/FireworksController")]
 // Dependencies DirectionalLight, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -209,6 +217,7 @@ public:
   /// @brief Method OnEnable, addr 0x5981c80, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
+  /// [IteratorStateMachine(typeof(FireworksController::<SpawningCoroutine>d__10))]
   /// @brief Method SpawningCoroutine, addr 0x5981ca0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawningCoroutine();
 
@@ -269,35 +278,43 @@ protected:
   constexpr FireworksController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FireworksController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworksController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FireworksController(FireworksController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FireworksController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworksController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworksController(FireworksController const&) = delete;
+  FireworksController(FireworksControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5768 };
 
+  /// [SerializeField]
   /// @brief Field _spawnSize, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____spawnSize;
 
+  /// [SerializeField]
   /// @brief Field _minSpawnInterval, offset: 0x2c, size: 0x4, def value: None
   float_t ____minSpawnInterval;
 
+  /// [SerializeField]
   /// @brief Field _maxSpawnInterval, offset: 0x30, size: 0x4, def value: None
   float_t ____maxSpawnInterval;
 
+  /// [Header("Directional Lights")]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _directionalLights, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>> ____directionalLights;
 
+  /// [SerializeField]
   /// @brief Field _lightsIntensity, offset: 0x40, size: 0x4, def value: None
   float_t ____lightsIntensity;
 
   /// @brief Field _currentLightId, offset: 0x44, size: 0x4, def value: None
   int32_t ____currentLightId;
 
+  /// [Inject]
   /// @brief Field _fireworkItemPool, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::FireworkItemController_Pool* ____fireworkItemPool;
 

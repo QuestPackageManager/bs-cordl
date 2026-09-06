@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\DefaultDllImportSearchPathsAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/DefaultDllImportSearchPathsAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class DefaultDllImportSearchPathsAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*, "System.Runtime.InteropServices", "DefaultDllImportSearchPathsAttribute");
+// [AttributeUsage((System.AttributeTargets)65, AllowMultiple = false)]
+// [ComVisible(false)]
 // Dependencies System.Attribute, System.Runtime.InteropServices.DllImportSearchPath
 namespace System::Runtime::InteropServices {
 // Is value type: false
@@ -43,13 +45,13 @@ protected:
   constexpr DefaultDllImportSearchPathsAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultDllImportSearchPathsAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultDllImportSearchPathsAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultDllImportSearchPathsAttribute(DefaultDllImportSearchPathsAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultDllImportSearchPathsAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultDllImportSearchPathsAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultDllImportSearchPathsAttribute(DefaultDllImportSearchPathsAttribute const&) = delete;
+  DefaultDllImportSearchPathsAttribute(DefaultDllImportSearchPathsAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3342 };

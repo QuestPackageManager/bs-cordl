@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Resolution.hpp"
+// IWYU pragma private; include "UnityEngine/Resolution.hpp"
 #include "UnityEngine/zzzz__RefreshRate_impl.hpp"
 #include "UnityEngine/zzzz__Resolution_def.hpp"
 #include "UnityEngine/zzzz__RefreshRate_def.hpp"
@@ -67,8 +67,8 @@ inline ::StringW UnityEngine::Resolution::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Resolution>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_RefreshRate", ty: "::UnityEngine::RefreshRate", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_RefreshRate", ty: "::UnityEngine::RefreshRate", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Resolution::Resolution(int32_t m_Width, int32_t m_Height, ::UnityEngine::RefreshRate m_RefreshRate) noexcept {
   this->m_Width = m_Width;
   this->m_Height = m_Height;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TilingJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TilingJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_VAL_T(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0)
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::TilingJob, "UnityEngine.Rendering.Universal", "TilingJob");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0, "UnityEngine.Rendering.Universal", "TilingJob/<>c__DisplayClass19_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0, "UnityEngine.Rendering.Universal", "TilingJob/<>c__DisplayClass20_0");
+// [CompilerGenerated]
 // Dependencies Unity.Mathematics.float3, UnityEngine.Rendering.VisibleLight
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -68,9 +69,10 @@ public:
   // @brief default ctor
   constexpr TilingJob___c__DisplayClass19_0();
 
-  // Ctor Parameters [CppParam { name: "light", ty: "::UnityEngine::Rendering::VisibleLight", modifiers: "", def_value: None }, CppParam { name: "lightPositionVS", ty: "::Unity::Mathematics::float3",
-  // modifiers: "", def_value: None }, CppParam { name: "lightDirectionVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }, CppParam { name: "cosHalfAngle", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "coneHeight", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "light", ty: "::UnityEngine::Rendering::VisibleLight", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightPositionVS", ty:
+  // "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightDirectionVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "cosHalfAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "coneHeight", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr TilingJob___c__DisplayClass19_0(::UnityEngine::Rendering::VisibleLight light, ::Unity::Mathematics::float3 lightPositionVS, ::Unity::Mathematics::float3 lightDirectionVS,
                                             float_t cosHalfAngle, float_t coneHeight) noexcept;
 
@@ -111,6 +113,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__Displ
 static_assert(sizeof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0) == 0x94, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies Unity.Mathematics.float3, UnityEngine.Rendering.VisibleLight
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -122,9 +125,9 @@ public:
   // @brief default ctor
   constexpr TilingJob___c__DisplayClass20_0();
 
-  // Ctor Parameters [CppParam { name: "light", ty: "::UnityEngine::Rendering::VisibleLight", modifiers: "", def_value: None }, CppParam { name: "lightPosVS", ty: "::Unity::Mathematics::float3",
-  // modifiers: "", def_value: None }, CppParam { name: "lightDirVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }, CppParam { name: "cosHalfAngle", ty: "float_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "light", ty: "::UnityEngine::Rendering::VisibleLight", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightPosVS", ty:
+  // "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightDirVS", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "cosHalfAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr TilingJob___c__DisplayClass20_0(::UnityEngine::Rendering::VisibleLight light, ::Unity::Mathematics::float3 lightPosVS, ::Unity::Mathematics::float3 lightDirVS,
                                             float_t cosHalfAngle) noexcept;
 
@@ -160,6 +163,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::TilingJob___c__Displ
 static_assert(sizeof(::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0) == 0x90, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [BurstCompile(FloatMode = (Unity.Burst.FloatMode)0, DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Mathematics.float2, Unity.Mathematics.float3, Unity.Mathematics.float4, Unity.Mathematics.float4x4, Unity.Mathematics.int2,
 // Unity.Mathematics.int4, UnityEngine.Rendering.Universal.Fixed2`1<T>, UnityEngine.Rendering.Universal.InclusiveRange, UnityEngine.Rendering.VisibleLight, UnityEngine.Rendering.VisibleReflectionProbe
 namespace UnityEngine::Rendering::Universal {
@@ -248,14 +252,17 @@ public:
   /// @brief Method ViewToTileSpaceOrthographic, addr 0x68c7518, size 0x74, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 ViewToTileSpaceOrthographic(::Unity::Mathematics::float3 positionVS);
 
+  /// [CompilerGenerated]
   /// @brief Method <TileLightOrthographic>g__SpherePointIsValid|20_0, addr 0x68c734c, size 0xf0, virtual false, abstract: false, final false
   static inline bool _TileLightOrthographic_g__SpherePointIsValid_20_0(::Unity::Mathematics::float3 p,
                                                                        ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0> _cordl_fixed_empty_name_whitespace);
 
+  /// [CompilerGenerated]
   /// @brief Method <TileLight>g__ConicPointIsValid|19_1, addr 0x68c607c, size 0x120, virtual false, abstract: false, final false
   static inline bool _TileLight_g__ConicPointIsValid_19_1(::Unity::Mathematics::float3 p,
                                                           ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0> _cordl_fixed_empty_name_whitespace);
 
+  /// [CompilerGenerated]
   /// @brief Method <TileLight>g__SpherePointIsValid|19_0, addr 0x68c5700, size 0xf0, virtual false, abstract: false, final false
   static inline bool _TileLight_g__SpherePointIsValid_19_0(::Unity::Mathematics::float3 p,
                                                            ::by_ref<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0> _cordl_fixed_empty_name_whitespace);
@@ -278,18 +285,19 @@ public:
   // @brief default ctor
   constexpr TilingJob();
 
-  // Ctor Parameters [CppParam { name: "lights", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>", modifiers: "", def_value: None }, CppParam { name:
-  // "reflectionProbes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>", modifiers: "", def_value: None }, CppParam { name: "tileRanges", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange>", modifiers: "", def_value: None }, CppParam { name: "itemsPerTile", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "rangesPerItem", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "worldToViews", ty:
-  // "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "tileScale", ty: "::Unity::Mathematics::float2", modifiers: "",
-  // def_value: None }, CppParam { name: "tileScaleInv", ty: "::Unity::Mathematics::float2", modifiers: "", def_value: None }, CppParam { name: "viewPlaneBottoms", ty:
-  // "::UnityEngine::Rendering::Universal::Fixed2_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "viewPlaneTops", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<float_t>",
-  // modifiers: "", def_value: None }, CppParam { name: "viewToViewportScaleBiases", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4>", modifiers: "", def_value: None
-  // }, CppParam { name: "tileCount", ty: "::Unity::Mathematics::int2", modifiers: "", def_value: None }, CppParam { name: "near", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "isOrthographic", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_TileYRange", ty: "::UnityEngine::Rendering::Universal::InclusiveRange", modifiers: "", def_value: None },
-  // CppParam { name: "m_Offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ViewIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CenterOffset",
-  // ty: "::Unity::Mathematics::float2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "lights", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "reflectionProbes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tileRanges",
+  // ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange>", modifiers: "", def_value: None, comment: None }, CppParam { name: "itemsPerTile", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "rangesPerItem", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldToViews", ty:
+  // "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tileScale", ty: "::Unity::Mathematics::float2",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "tileScaleInv", ty: "::Unity::Mathematics::float2", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "viewPlaneBottoms", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewPlaneTops", ty:
+  // "::UnityEngine::Rendering::Universal::Fixed2_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewToViewportScaleBiases", ty:
+  // "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tileCount", ty: "::Unity::Mathematics::int2",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "near", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "isOrthographic", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_TileYRange", ty: "::UnityEngine::Rendering::Universal::InclusiveRange", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ViewIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_CenterOffset", ty: "::Unity::Mathematics::float2", modifiers: "", def_value: None, comment: None }]
   constexpr TilingJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights,
                       ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes,
                       ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange> tileRanges, int32_t itemsPerTile, int32_t rangesPerItem,
@@ -304,12 +312,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x120 };
 
+  /// [ReadOnly]
   /// @brief Field lights, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights;
 
+  /// [ReadOnly]
   /// @brief Field reflectionProbes, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes;
 
+  /// [NativeDisableParallelForRestriction]
   /// @brief Field tileRanges, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::InclusiveRange> tileRanges;
 

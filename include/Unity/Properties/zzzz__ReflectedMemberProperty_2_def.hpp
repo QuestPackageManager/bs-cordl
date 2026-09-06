@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\ReflectedMemberProperty_2.hpp"
+// IWYU pragma private; include "Unity/Properties/ReflectedMemberProperty_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,13 +78,13 @@ protected:
   constexpr ReflectedMemberProperty_2_GetStructValueAction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_GetStructValueAction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_GetStructValueAction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectedMemberProperty_2_GetStructValueAction(ReflectedMemberProperty_2_GetStructValueAction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_GetStructValueAction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_GetStructValueAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedMemberProperty_2_GetStructValueAction(ReflectedMemberProperty_2_GetStructValueAction const&) = delete;
+  ReflectedMemberProperty_2_GetStructValueAction(ReflectedMemberProperty_2_GetStructValueActionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19633 };
@@ -116,13 +116,13 @@ protected:
   constexpr ReflectedMemberProperty_2_SetStructValueAction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_SetStructValueAction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_SetStructValueAction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectedMemberProperty_2_SetStructValueAction(ReflectedMemberProperty_2_SetStructValueAction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_SetStructValueAction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_SetStructValueAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedMemberProperty_2_SetStructValueAction(ReflectedMemberProperty_2_SetStructValueAction const&) = delete;
+  ReflectedMemberProperty_2_SetStructValueAction(ReflectedMemberProperty_2_SetStructValueActionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19634 };
@@ -154,13 +154,13 @@ protected:
   constexpr ReflectedMemberProperty_2_GetClassValueAction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_GetClassValueAction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_GetClassValueAction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectedMemberProperty_2_GetClassValueAction(ReflectedMemberProperty_2_GetClassValueAction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_GetClassValueAction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_GetClassValueAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedMemberProperty_2_GetClassValueAction(ReflectedMemberProperty_2_GetClassValueAction const&) = delete;
+  ReflectedMemberProperty_2_GetClassValueAction(ReflectedMemberProperty_2_GetClassValueActionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19635 };
@@ -192,13 +192,13 @@ protected:
   constexpr ReflectedMemberProperty_2_SetClassValueAction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_SetClassValueAction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_SetClassValueAction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectedMemberProperty_2_SetClassValueAction(ReflectedMemberProperty_2_SetClassValueAction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_SetClassValueAction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2_SetClassValueAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedMemberProperty_2_SetClassValueAction(ReflectedMemberProperty_2_SetClassValueAction const&) = delete;
+  ReflectedMemberProperty_2_SetClassValueAction(ReflectedMemberProperty_2_SetClassValueActionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19636 };
@@ -315,9 +315,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Properties::IMemberInfo* info, ::StringW name);
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -327,13 +329,13 @@ protected:
   constexpr ReflectedMemberProperty_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectedMemberProperty_2(ReflectedMemberProperty_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedMemberProperty_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedMemberProperty_2(ReflectedMemberProperty_2 const&) = delete;
+  ReflectedMemberProperty_2(ReflectedMemberProperty_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19637 };
@@ -356,9 +358,13 @@ public:
   /// @brief Field m_SetClassValueAction, offset: 0x40, size: 0x8, def value: None
   ::Unity::Properties::ReflectedMemberProperty_2_SetClassValueAction<TContainer, TValue>* ___m_SetClassValueAction;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x50, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonSerializerInternalBase.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonSerializerInternalBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalBase_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ErrorContext_def.hpp"
@@ -268,7 +268,7 @@ inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Sys
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>*>(this, ___internal_method);
 }
 inline ::Newtonsoft::Json::NullValueHandling
-Newtonsoft::Json::Serialization::JsonSerializerInternalBase::ResolvedNullValueHandling(::Newtonsoft::Json::Serialization::JsonObjectContract* containerContract,
+Newtonsoft::Json::Serialization::JsonSerializerInternalBase::ResolvedNullValueHandling(/* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonObjectContract* containerContract,
                                                                                        ::Newtonsoft::Json::Serialization::JsonProperty* property) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -277,8 +277,9 @@ Newtonsoft::Json::Serialization::JsonSerializerInternalBase::ResolvedNullValueHa
           { "ResolvedNullValueHandling", {}, { ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonObjectContract*>(), ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonProperty*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::NullValueHandling>(this, ___internal_method, containerContract, property);
 }
-inline ::Newtonsoft::Json::Serialization::ErrorContext* Newtonsoft::Json::Serialization::JsonSerializerInternalBase::GetErrorContext(::System::Object* currentObject, ::System::Object* member,
-                                                                                                                                     ::StringW path, ::System::Exception* error) {
+inline ::Newtonsoft::Json::Serialization::ErrorContext* Newtonsoft::Json::Serialization::JsonSerializerInternalBase::GetErrorContext(/* [Nullable(2)] */ ::System::Object* currentObject,
+                                                                                                                                     /* [Nullable(2)] */ ::System::Object* member, ::StringW path,
+                                                                                                                                     ::System::Exception* error) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -292,8 +293,8 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerInternalBase::ClearEr
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalBase::IsErrorHandled(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::JsonContract* contract,
-                                                                                        ::System::Object* keyValue, ::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path,
-                                                                                        ::System::Exception* ex) {
+                                                                                        ::System::Object* keyValue, ::Newtonsoft::Json::IJsonLineInfo* lineInfo, /* [Nullable(1)] */ ::StringW path,
+                                                                                        /* [Nullable(1)] */ ::System::Exception* ex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalBase*>(),
                                               { "IsErrorHandled",

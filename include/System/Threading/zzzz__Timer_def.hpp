@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Timer.hpp"
+// IWYU pragma private; include "System/Threading/Timer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -201,13 +201,13 @@ protected:
   constexpr Timer_Scheduler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Timer_Scheduler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Timer_Scheduler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Timer_Scheduler(Timer_Scheduler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Timer_Scheduler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Timer_Scheduler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Timer_Scheduler(Timer_Scheduler const&) = delete;
+  Timer_Scheduler(Timer_Schedulerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2763 };
@@ -238,6 +238,7 @@ static_assert(offsetof(::System::Threading::Timer_Scheduler, ___changed) == 0x28
 static_assert(sizeof(::System::Threading::Timer_Scheduler) == 0x30, "Size mismatch!");
 
 } // namespace System::Threading
+// [ComVisible(true)]
 // Dependencies System.MarshalByRefObject
 namespace System::Threading {
 // Is value type: false
@@ -376,13 +377,13 @@ protected:
   constexpr Timer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Timer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Timer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Timer(Timer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Timer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Timer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Timer(Timer const&) = delete;
+  Timer(Timerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2764 };

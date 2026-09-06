@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PropertyChangedEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PropertyChangedEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
@@ -131,7 +131,7 @@ inline void UnityEngine::UIElements::PropertyChangedEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::PropertyChangedEvent* UnityEngine::UIElements::PropertyChangedEvent::GetPooled(::by_ref<::UnityEngine::UIElements::BindingId> property) {
+inline ::UnityEngine::UIElements::PropertyChangedEvent* UnityEngine::UIElements::PropertyChangedEvent::GetPooled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent*>(),
                                                                                          { "GetPooled", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::PropertyChangedEvent*>(nullptr, ___internal_method, property);

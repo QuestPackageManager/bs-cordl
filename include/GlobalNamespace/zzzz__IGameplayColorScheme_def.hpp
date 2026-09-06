@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IGameplayColorScheme.hpp"
+// IWYU pragma private; include "GlobalNamespace/IGameplayColorScheme.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,21 +29,21 @@ public:
 
   __declspec(property(get = get_saberBColor)) ::UnityEngine::Color saberBColor;
 
-  /// @brief Method get_obstaclesColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_obstaclesColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
-  /// @brief Method get_overrideNotes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_overrideNotes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_overrideNotes();
 
-  /// @brief Method get_saberAColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_saberAColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_saberAColor();
 
-  /// @brief Method get_saberBColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_saberBColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_saberBColor();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IGameplayColorScheme", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IGameplayColorScheme", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGameplayColorScheme(IGameplayColorScheme const&) = delete;
+  IGameplayColorScheme(IGameplayColorSchemeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23158 };

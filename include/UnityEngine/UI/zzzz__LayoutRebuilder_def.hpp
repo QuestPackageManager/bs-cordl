@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\LayoutRebuilder.hpp"
+// IWYU pragma private; include "UnityEngine/UI/LayoutRebuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
@@ -52,6 +54,7 @@ MARK_REF_T(::UnityEngine::UI::LayoutRebuilder*);
 MARK_REF_T(::UnityEngine::UI::LayoutRebuilder___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::LayoutRebuilder*, "UnityEngine.UI", "LayoutRebuilder");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::LayoutRebuilder___c*, "UnityEngine.UI", "LayoutRebuilder/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -133,13 +136,13 @@ protected:
   constexpr LayoutRebuilder___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutRebuilder___c(LayoutRebuilder___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutRebuilder___c(LayoutRebuilder___c const&) = delete;
+  LayoutRebuilder___c(LayoutRebuilder___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17462 };
@@ -257,13 +260,13 @@ protected:
   constexpr LayoutRebuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutRebuilder(LayoutRebuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutRebuilder(LayoutRebuilder const&) = delete;
+  LayoutRebuilder(LayoutRebuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17463 };

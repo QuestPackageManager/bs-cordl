@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "StyledUITemplates\ColorOverrideOption.hpp"
+// IWYU pragma private; include "StyledUITemplates/ColorOverrideOption.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "StyledUITemplates/zzzz__ColorOverrideOption_def.hpp"

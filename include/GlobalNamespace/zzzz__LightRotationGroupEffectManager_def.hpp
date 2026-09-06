@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightRotationGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightRotationGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class LightRotationGroupEffectManager;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightRotationGroupEffectManager*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightRotationGroupEffectManager*, "", "LightRotationGroupEffectManager");
+// [AddComponentMenu("Beat Saber/Gameplay/LightRotationGroupEffectManager")]
 // Dependencies LightRotationGroup, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -75,20 +76,22 @@ protected:
   constexpr LightRotationGroupEffectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationGroupEffectManager(LightRotationGroupEffectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationGroupEffectManager(LightRotationGroupEffectManager const&) = delete;
+  LightRotationGroupEffectManager(LightRotationGroupEffectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5913 };
 
+  /// [Inject]
   /// @brief Field _lightRotationGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>> ____lightRotationGroups;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x28, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

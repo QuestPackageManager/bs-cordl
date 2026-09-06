@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonTypeReflector.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonTypeReflector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -76,6 +77,7 @@ MARK_REF_T(::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClas
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonTypeReflector*, "Newtonsoft.Json.Serialization", "JsonTypeReflector");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonTypeReflector___c*, "Newtonsoft.Json.Serialization", "JsonTypeReflector/<>c");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0*, "Newtonsoft.Json.Serialization", "JsonTypeReflector/<>c__DisplayClass22_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -91,6 +93,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::JsonTypeReflector___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <GetCreator>b__22_1, addr 0x5d5924c, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Type* _GetCreator_b__22_1(::System::Object* param);
 
@@ -111,13 +114,13 @@ protected:
   constexpr JsonTypeReflector___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonTypeReflector___c(JsonTypeReflector___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonTypeReflector___c(JsonTypeReflector___c const&) = delete;
+  JsonTypeReflector___c(JsonTypeReflector___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13525 };
@@ -128,6 +131,7 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonTypeReflector___c) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -144,7 +148,7 @@ public:
   static inline ::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0* New_ctor();
 
   /// @brief Method <GetCreator>b__0, addr 0x5d592a8, size 0x470, virtual false, abstract: false, final false
-  inline ::System::Object* _GetCreator_b__0(::ArrayW<::System::Object*> parameters);
+  inline ::System::Object* _GetCreator_b__0(/* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> parameters);
 
   constexpr ::System::Func_1<::System::Object*>* const& __cordl_internal_get_defaultConstructor() const;
 
@@ -167,20 +171,22 @@ protected:
   constexpr JsonTypeReflector___c__DisplayClass22_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c__DisplayClass22_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonTypeReflector___c__DisplayClass22_0(JsonTypeReflector___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c__DisplayClass22_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonTypeReflector___c__DisplayClass22_0(JsonTypeReflector___c__DisplayClass22_0 const&) = delete;
+  JsonTypeReflector___c__DisplayClass22_0(JsonTypeReflector___c__DisplayClass22_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13526 };
 
+  /// [Nullable(0)]
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field defaultConstructor, offset: 0x18, size: 0x8, def value: None
   ::System::Func_1<::System::Object*>* ___defaultConstructor;
 
@@ -194,7 +200,9 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonTypeReflector___c_
 static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0) == 0x20, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
-// Dependencies System.Nullable`1<T>, System.Object
+// [NullableContext(1)]
+// [Nullable(0)]
+// Dependencies System.Attribute, System.Nullable`1<T>, System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Serialization.JsonTypeReflector
@@ -228,10 +236,10 @@ public:
   static inline bool CanTypeDescriptorConvertString(::System::Type* type, ::by_ref<::System::ComponentModel::TypeConverter*> typeConverter);
 
   /// @brief Method CreateJsonConverterInstance, addr 0x5d587b4, size 0x100, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::JsonConverter* CreateJsonConverterInstance(::System::Type* converterType, ::ArrayW<::System::Object*> args);
+  static inline ::Newtonsoft::Json::JsonConverter* CreateJsonConverterInstance(::System::Type* converterType, /* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method CreateNamingStrategyInstance, addr 0x5d588b4, size 0x100, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Serialization::NamingStrategy* CreateNamingStrategyInstance(::System::Type* namingStrategyType, ::ArrayW<::System::Object*> args);
+  static inline ::Newtonsoft::Json::Serialization::NamingStrategy* CreateNamingStrategyInstance(::System::Type* namingStrategyType, /* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method GetAssociateMetadataTypeFromAttribute, addr 0x5d58ce8, size 0x234, virtual false, abstract: false, final false
   static inline ::System::Type* GetAssociateMetadataTypeFromAttribute(::System::Type* type);
@@ -240,16 +248,24 @@ public:
   static inline ::System::Type* GetAssociatedMetadataType(::System::Type* type);
 
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetAttribute(::System::Reflection::MemberInfo* memberInfo);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T GetAttribute(::System::Reflection::MemberInfo* memberInfo);
 
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetAttribute(::System::Object* provider);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T GetAttribute(::System::Object* provider);
 
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetAttribute(::System::Type* type);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T GetAttribute(::System::Type* type);
 
   /// @brief Method GetCachedAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetCachedAttribute(::System::Object* attributeProvider);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T GetCachedAttribute(::System::Object* attributeProvider);
 
   /// @brief Method GetContainerNamingStrategy, addr 0x5d589b4, size 0xa0, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Serialization::NamingStrategy* GetContainerNamingStrategy(::Newtonsoft::Json::JsonContainerAttribute* containerAttribute);
@@ -310,13 +326,13 @@ protected:
   constexpr JsonTypeReflector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonTypeReflector(JsonTypeReflector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonTypeReflector(JsonTypeReflector const&) = delete;
+  JsonTypeReflector(JsonTypeReflectorconst&) = delete;
 
   /// @brief Field ArrayValuesPropertyName offset 0xffffffff size 0x8
   static constexpr ::ConstString ArrayValuesPropertyName{ u"$values" };

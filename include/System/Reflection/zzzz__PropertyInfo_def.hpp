@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\PropertyInfo.hpp"
+// IWYU pragma private; include "System/Reflection/PropertyInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,50 +63,58 @@ public:
   /// @brief Method GetGetMethod, addr 0x5b81030, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetGetMethod();
 
-  /// @brief Method GetGetMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetGetMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodInfo* GetGetMethod(bool nonPublic);
 
   /// @brief Method GetHashCode, addr 0x5b810e0, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIndexParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetIndexParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*> GetIndexParameters();
 
   /// @brief Method GetSetMethod, addr 0x5b81058, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetSetMethod();
 
-  /// @brief Method GetSetMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetSetMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
 
+  /// [DebuggerStepThrough]
+  /// [DebuggerHidden]
   /// @brief Method GetValue, addr 0x5b8106c, size 0x14, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj);
 
+  /// [DebuggerStepThrough]
+  /// [DebuggerHidden]
   /// @brief Method GetValue, addr 0x5b81080, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj, ::ArrayW<::System::Object*> index);
 
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetValue(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> index,
                                     ::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Reflection::PropertyInfo* New_ctor();
 
+  /// [DebuggerStepThrough]
+  /// [DebuggerHidden]
   /// @brief Method SetValue, addr 0x5b810a0, size 0x14, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value);
 
+  /// [DebuggerStepThrough]
+  /// [DebuggerHidden]
   /// @brief Method SetValue, addr 0x5b810b4, size 0x20, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::ArrayW<::System::Object*> index);
 
-  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> index,
                        ::System::Globalization::CultureInfo* culture);
 
   /// @brief Method .ctor, addr 0x5b81010, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanRead, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CanWrite();
 
   /// @brief Method get_GetMethod, addr 0x5b8101c, size 0x14, virtual true, abstract: false, final false
@@ -115,7 +123,7 @@ public:
   /// @brief Method get_MemberType, addr 0x5b81014, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method get_PropertyType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_PropertyType();
 
   /// @brief Method get_SetMethod, addr 0x5b81044, size 0x14, virtual true, abstract: false, final false
@@ -133,13 +141,13 @@ protected:
   constexpr PropertyInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyInfo(PropertyInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyInfo(PropertyInfo const&) = delete;
+  PropertyInfo(PropertyInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3512 };

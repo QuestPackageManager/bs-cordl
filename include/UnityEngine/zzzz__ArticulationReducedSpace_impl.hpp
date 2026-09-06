@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ArticulationReducedSpace.hpp"
+// IWYU pragma private; include "UnityEngine/ArticulationReducedSpace.hpp"
 #include "UnityEngine/zzzz__ArticulationReducedSpace_def.hpp"
 #include "UnityEngine/zzzz__ArticulationReducedSpace_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer::ArticulationReducedSpace__x_e__FixedBuffer(float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -97,8 +97,8 @@ inline void UnityEngine::ArticulationReducedSpace::_ctor(float_t a, float_t b, f
                                                                                          { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, a, b, c);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "dofCount", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dofCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ArticulationReducedSpace::ArticulationReducedSpace(::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer x, int32_t dofCount) noexcept {
   this->x = x;
   this->dofCount = dofCount;

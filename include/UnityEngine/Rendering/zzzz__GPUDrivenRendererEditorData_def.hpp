@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenRendererEditorData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenRendererEditorData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct GPUDrivenRendererEditorData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::GPUDrivenRendererEditorData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUDrivenRendererEditorData, "UnityEngine.Rendering", "GPUDrivenRendererEditorData");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -24,7 +25,7 @@ public:
   // @brief default ctor
   constexpr GPUDrivenRendererEditorData();
 
-  // Ctor Parameters [CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr GPUDrivenRendererEditorData(uint64_t sceneCullingMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

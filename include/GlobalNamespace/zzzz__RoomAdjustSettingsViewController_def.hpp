@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RoomAdjustSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/RoomAdjustSettingsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,30 +76,39 @@ public:
   /// @brief Method Rotate, addr 0x5a21fb4, size 0x60, virtual false, abstract: false, final false
   inline void Rotate(float_t rotation);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_0, addr 0x5a2213c, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_1, addr 0x5a22150, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_2, addr 0x5a22164, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_3, addr 0x5a22178, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_3();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_4, addr 0x5a2218c, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_4();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_5, addr 0x5a221a0, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_5();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_6, addr 0x5a221b4, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_6();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_7, addr 0x5a221bc, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_7();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_8, addr 0x5a221c4, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_8();
 
@@ -154,13 +163,13 @@ protected:
   constexpr RoomAdjustSettingsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RoomAdjustSettingsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomAdjustSettingsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RoomAdjustSettingsViewController(RoomAdjustSettingsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RoomAdjustSettingsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomAdjustSettingsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomAdjustSettingsViewController(RoomAdjustSettingsViewController const&) = delete;
+  RoomAdjustSettingsViewController(RoomAdjustSettingsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6471 };
@@ -174,24 +183,31 @@ public:
   /// @brief Field kVerticalMoveStep offset 0xffffffff size 0x4
   static constexpr float_t kVerticalMoveStep{ static_cast<float_t>(0.05f) };
 
+  /// [SerializeField]
   /// @brief Field _xStepValuePicker, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____xStepValuePicker;
 
+  /// [SerializeField]
   /// @brief Field _yStepValuePicker, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____yStepValuePicker;
 
+  /// [SerializeField]
   /// @brief Field _zStepValuePicker, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____zStepValuePicker;
 
+  /// [SerializeField]
   /// @brief Field _rotStepValuePicker, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____rotStepValuePicker;
 
+  /// [SerializeField]
   /// @brief Field _resetButton, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____resetButton;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [Inject]
   /// @brief Field _settingsApplicator, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 

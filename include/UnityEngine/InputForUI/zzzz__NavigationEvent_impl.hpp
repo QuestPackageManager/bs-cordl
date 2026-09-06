@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\NavigationEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/NavigationEvent.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventSource_impl.hpp"
@@ -10,7 +10,7 @@
 #include "UnityEngine/InputForUI/zzzz__IEventProperties_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__NavigationEvent_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::NavigationEvent_Type::NavigationEvent_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -19,7 +19,7 @@ constexpr ::UnityEngine::InputForUI::NavigationEvent_Type::NavigationEvent_Type(
 constexpr ::UnityEngine::InputForUI::NavigationEvent_Type UnityEngine::InputForUI::NavigationEvent_Type::Move{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputForUI::NavigationEvent_Type UnityEngine::InputForUI::NavigationEvent_Type::Submit{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputForUI::NavigationEvent_Type UnityEngine::InputForUI::NavigationEvent_Type::Cancel{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::NavigationEvent_Direction::NavigationEvent_Direction(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -187,11 +187,12 @@ constexpr UnityEngine::InputForUI::NavigationEvent::operator ::UnityEngine::Inpu
 constexpr ::UnityEngine::InputForUI::IEventProperties* UnityEngine::InputForUI::NavigationEvent::i___UnityEngine__InputForUI__IEventProperties() {
   return static_cast<::UnityEngine::InputForUI::IEventProperties*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::NavigationEvent_Type", modifiers: "", def_value: Some("{}") }, CppParam { name: "direction", ty:
-// "::UnityEngine::InputForUI::NavigationEvent_Direction", modifiers: "", def_value: Some("{}") }, CppParam { name: "shouldBeUsed", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "_eventSource_k__BackingField", ty:
-// "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: Some("{}") }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::NavigationEvent_Type", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "direction", ty:
+// "::UnityEngine::InputForUI::NavigationEvent_Direction", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shouldBeUsed", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputForUI::NavigationEvent::NavigationEvent(::UnityEngine::InputForUI::NavigationEvent_Type type, ::UnityEngine::InputForUI::NavigationEvent_Direction direction,
                                                                       bool shouldBeUsed, ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField,
                                                                       ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField, uint32_t _playerId_k__BackingField,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServerLobbyFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServerLobbyFlowCoordinator.hpp"
 #include "GlobalNamespace/zzzz__GameServerLobbyFlowCoordinatorBase_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerLobbyFlowCoordinator_def.hpp"

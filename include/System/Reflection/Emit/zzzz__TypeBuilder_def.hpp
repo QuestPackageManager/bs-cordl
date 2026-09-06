@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Emit\TypeBuilder.hpp"
+// IWYU pragma private; include "System/Reflection/Emit/TypeBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,6 +99,7 @@ public:
                                                                    ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                                    ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
+  /// [ComVisible(true)]
   /// @brief Method GetConstructors, addr 0x5b93aa4, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ConstructorInfo*> GetConstructors(::System::Reflection::BindingFlags bindingAttr);
 
@@ -208,13 +209,13 @@ protected:
   constexpr TypeBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeBuilder(TypeBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeBuilder(TypeBuilder const&) = delete;
+  TypeBuilder(TypeBuilderconst&) = delete;
 
   /// @brief Field UnspecifiedTypeSize offset 0xffffffff size 0x4
   static constexpr int32_t UnspecifiedTypeSize{ static_cast<int32_t>(0x0) };

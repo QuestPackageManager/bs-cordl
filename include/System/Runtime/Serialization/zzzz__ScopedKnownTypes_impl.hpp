@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\ScopedKnownTypes.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/ScopedKnownTypes.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ScopedKnownTypes_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -67,8 +67,8 @@ inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serializ
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*>(*this, ___internal_method, qname);
 }
 // Ctor Parameters [CppParam { name: "dataContractDictionaries", ty:
-// "::ArrayW<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// "::ArrayW<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Serialization::ScopedKnownTypes::ScopedKnownTypes(
     ::ArrayW<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*> dataContractDictionaries, int32_t count) noexcept {
   this->dataContractDictionaries = dataContractDictionaries;

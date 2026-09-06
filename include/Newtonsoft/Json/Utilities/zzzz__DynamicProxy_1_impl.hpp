@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\DynamicProxy_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DynamicProxy_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DynamicProxy_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -23,19 +23,20 @@ template <typename T> inline ::System::Collections::Generic::IEnumerable_1<::Str
 }
 template <typename T>
 inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryBinaryOperation(T instance, ::System::Dynamic::BinaryOperationBinder* binder, ::System::Object* arg,
-                                                                               ::by_ref<::System::Object*> result) {
+                                                                               /* [Nullable(2)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxy_1<T>*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, arg, result);
 }
-template <typename T> inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryConvert(T instance, ::System::Dynamic::ConvertBinder* binder, ::by_ref<::System::Object*> result) {
+template <typename T>
+inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryConvert(T instance, ::System::Dynamic::ConvertBinder* binder, /* [Nullable(2)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxy_1<T>*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, result);
 }
 template <typename T>
 inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryCreateInstance(T instance, ::System::Dynamic::CreateInstanceBinder* binder, ::ArrayW<::System::Object*> args,
-                                                                              ::by_ref<::System::Object*> result) {
+                                                                              /* [Nullable(2)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxy_1<T>*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, args, result);
@@ -52,25 +53,27 @@ template <typename T> inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>
 }
 template <typename T>
 inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryGetIndex(T instance, ::System::Dynamic::GetIndexBinder* binder, ::ArrayW<::System::Object*> indexes,
-                                                                        ::by_ref<::System::Object*> result) {
+                                                                        /* [Nullable(2)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxy_1<T>*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, indexes, result);
 }
-template <typename T> inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryGetMember(T instance, ::System::Dynamic::GetMemberBinder* binder, ::by_ref<::System::Object*> result) {
+template <typename T>
+inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryGetMember(T instance, ::System::Dynamic::GetMemberBinder* binder, /* [Nullable(2)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxy_1<T>*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, result);
 }
 template <typename T>
-inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryInvoke(T instance, ::System::Dynamic::InvokeBinder* binder, ::ArrayW<::System::Object*> args, ::by_ref<::System::Object*> result) {
+inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryInvoke(T instance, ::System::Dynamic::InvokeBinder* binder, ::ArrayW<::System::Object*> args,
+                                                                      /* [Nullable(2)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxy_1<T>*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, args, result);
 }
 template <typename T>
 inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryInvokeMember(T instance, ::System::Dynamic::InvokeMemberBinder* binder, ::ArrayW<::System::Object*> args,
-                                                                            ::by_ref<::System::Object*> result) {
+                                                                            /* [Nullable(2)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxy_1<T>*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, args, result);
@@ -86,7 +89,8 @@ template <typename T> inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxy_1<T>*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, value);
 }
-template <typename T> inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryUnaryOperation(T instance, ::System::Dynamic::UnaryOperationBinder* binder, ::by_ref<::System::Object*> result) {
+template <typename T>
+inline bool Newtonsoft::Json::Utilities::DynamicProxy_1<T>::TryUnaryOperation(T instance, ::System::Dynamic::UnaryOperationBinder* binder, /* [Nullable(2)] */ ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxy_1<T>*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, instance, binder, result);

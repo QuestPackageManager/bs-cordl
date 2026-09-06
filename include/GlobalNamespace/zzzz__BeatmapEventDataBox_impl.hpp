@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventDataBox.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
@@ -10,7 +10,7 @@
 #include "GlobalNamespace/zzzz__IBeatmapLightEventConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType::BeatmapEventDataBox_DistributionParamType(int32_t value__) noexcept {
   this->value__ = value__;
 }

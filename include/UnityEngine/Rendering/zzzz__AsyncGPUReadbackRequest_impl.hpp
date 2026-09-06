@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AsyncGPUReadbackRequest.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AsyncGPUReadbackRequest.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AsyncGPUReadbackRequest_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -164,7 +164,9 @@ inline void UnityEngine::Rendering::AsyncGPUReadbackRequest::WaitForCompletion()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "WaitForCompletion", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::AsyncGPUReadbackRequest::GetData(int32_t layer) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::AsyncGPUReadbackRequest::GetData(int32_t layer) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "GetData", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -223,7 +225,8 @@ inline void UnityEngine::Rendering::AsyncGPUReadbackRequest::InvokeCallback(::Sy
                             { ::i2c::type_of<::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*>(), ::i2c::type_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, callback, obj);
 }
-// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::AsyncGPUReadbackRequest::AsyncGPUReadbackRequest(::System::IntPtr m_Ptr, int32_t m_Version) noexcept {
   this->m_Ptr = m_Ptr;
   this->m_Version = m_Version;

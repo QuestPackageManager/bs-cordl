@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MemoryPoolIdInitialSizeMaxSizeBinder_1.hpp"
+// IWYU pragma private; include "Zenject/MemoryPoolIdInitialSizeMaxSizeBinder_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ template <typename TContract> class MemoryPoolIdInitialSizeMaxSizeBinder_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1, "Zenject", "MemoryPoolIdInitialSizeMaxSizeBinder`1");
+// [NoReflectionBaking]
 // Dependencies Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract>
 namespace Zenject {
 // cpp template
@@ -54,13 +55,13 @@ protected:
   constexpr MemoryPoolIdInitialSizeMaxSizeBinder_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolIdInitialSizeMaxSizeBinder_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolIdInitialSizeMaxSizeBinder_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPoolIdInitialSizeMaxSizeBinder_1(MemoryPoolIdInitialSizeMaxSizeBinder_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolIdInitialSizeMaxSizeBinder_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolIdInitialSizeMaxSizeBinder_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemoryPoolIdInitialSizeMaxSizeBinder_1(MemoryPoolIdInitialSizeMaxSizeBinder_1 const&) = delete;
+  MemoryPoolIdInitialSizeMaxSizeBinder_1(MemoryPoolIdInitialSizeMaxSizeBinder_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14222 };

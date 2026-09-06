@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AYellowpaper\SerializedCollections\DictionaryLookupTable_2.hpp"
+// IWYU pragma private; include "AYellowpaper/SerializedCollections/DictionaryLookupTable_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_GEN_REF_T_PTR(::AYellowpaper::SerializedCollections::DictionaryLookupTable_
 MARK_GEN_REF_T_PTR(::AYellowpaper::SerializedCollections::DictionaryLookupTable_2___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::AYellowpaper::SerializedCollections::DictionaryLookupTable_2, "AYellowpaper.SerializedCollections", "DictionaryLookupTable`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::AYellowpaper::SerializedCollections::DictionaryLookupTable_2___c, "AYellowpaper.SerializedCollections", "DictionaryLookupTable`2/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace AYellowpaper::SerializedCollections {
 // cpp template
@@ -115,13 +116,13 @@ protected:
   constexpr DictionaryLookupTable_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DictionaryLookupTable_2___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DictionaryLookupTable_2___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DictionaryLookupTable_2___c(DictionaryLookupTable_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DictionaryLookupTable_2___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DictionaryLookupTable_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DictionaryLookupTable_2___c(DictionaryLookupTable_2___c const&) = delete;
+  DictionaryLookupTable_2___c(DictionaryLookupTable_2___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23371 };
@@ -213,13 +214,13 @@ protected:
   constexpr DictionaryLookupTable_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DictionaryLookupTable_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DictionaryLookupTable_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DictionaryLookupTable_2(DictionaryLookupTable_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DictionaryLookupTable_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DictionaryLookupTable_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DictionaryLookupTable_2(DictionaryLookupTable_2 const&) = delete;
+  DictionaryLookupTable_2(DictionaryLookupTable_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23372 };

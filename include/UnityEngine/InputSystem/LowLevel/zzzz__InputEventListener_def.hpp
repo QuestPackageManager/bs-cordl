@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEventListener.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventListener.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,6 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_onEventDelegate(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__2_0, addr 0x65b09e8, size 0x100, virtual false, abstract: false, final false
   inline void __ctor_b__2_0(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
@@ -90,13 +91,13 @@ protected:
   constexpr InputEventListener_ObserverState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventListener_ObserverState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventListener_ObserverState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputEventListener_ObserverState(InputEventListener_ObserverState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventListener_ObserverState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventListener_ObserverState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEventListener_ObserverState(InputEventListener_ObserverState const&) = delete;
+  InputEventListener_ObserverState(InputEventListener_ObserverStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9027 };
@@ -153,13 +154,13 @@ protected:
   constexpr InputEventListener_DisposableObserver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventListener_DisposableObserver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventListener_DisposableObserver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputEventListener_DisposableObserver(InputEventListener_DisposableObserver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventListener_DisposableObserver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventListener_DisposableObserver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEventListener_DisposableObserver(InputEventListener_DisposableObserver const&) = delete;
+  InputEventListener_DisposableObserver(InputEventListener_DisposableObserverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9028 };

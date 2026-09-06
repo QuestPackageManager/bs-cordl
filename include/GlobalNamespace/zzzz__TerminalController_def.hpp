@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TerminalController.hpp"
+// IWYU pragma private; include "GlobalNamespace/TerminalController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,6 +98,7 @@ MARK_VAL_T(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TerminalController*, "", "TerminalController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, "", "TerminalController/<TryExecuteCommand>d__23");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15, "", "TerminalController/<TryExecuteCommands>d__15");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -111,6 +112,7 @@ public:
   /// @brief Method MoveNext, addr 0x32ea734, size 0x678, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32eadac, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -121,12 +123,12 @@ public:
   // @brief default ctor
   constexpr TerminalController__TryExecuteCommand_d__23();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "commandText", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "__4__this", ty: "::GlobalNamespace::TerminalController*", modifiers: "", def_value: None }, CppParam { name: "messages", ty:
-  // "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None }, CppParam { name: "_command_5__2", ty: "::GlobalNamespace::ConsoleCommandBase*",
-  // modifiers: "", def_value: None }, CppParam { name: "_commandTask_5__3", ty: "::System::Threading::Tasks::Task_1<bool>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "commandText", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::TerminalController*", modifiers: "", def_value: None, comment: None }, CppParam { name: "messages", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_command_5__2", ty:
+  // "::GlobalNamespace::ConsoleCommandBase*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_commandTask_5__3", ty: "::System::Threading::Tasks::Task_1<bool>*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr TerminalController__TryExecuteCommand_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::StringW commandText,
                                                         ::GlobalNamespace::TerminalController* __4__this, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages,
                                                         ::GlobalNamespace::ConsoleCommandBase* _command_5__2, ::System::Threading::Tasks::Task_1<bool>* _commandTask_5__3,
@@ -184,6 +186,7 @@ static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_
 static_assert(sizeof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -197,6 +200,7 @@ public:
   /// @brief Method MoveNext, addr 0x32eae18, size 0x614, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32eb42c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -207,10 +211,10 @@ public:
   // @brief default ctor
   constexpr TerminalController__TryExecuteCommands_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::TerminalController*", modifiers: "",
-  // def_value: None }, CppParam { name: "_messages_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::TerminalController*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_messages_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr TerminalController__TryExecuteCommands_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::TerminalController* __4__this,
                                                          ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* _messages_5__2,
                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -336,6 +340,7 @@ public:
   /// @brief Method HandleLaunchParameters, addr 0x32e9650, size 0x74, virtual false, abstract: false, final false
   inline void HandleLaunchParameters(::StringW commandsInput);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x32e8af8, size 0x90, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -368,9 +373,11 @@ public:
   /// @brief Method Tick, addr 0x32e97fc, size 0xc0, virtual true, abstract: false, final true
   inline void Tick();
 
+  /// [AsyncStateMachine(typeof(TerminalController::<TryExecuteCommand>d__23))]
   /// @brief Method TryExecuteCommand, addr 0x32e9f00, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* TryExecuteCommand(::StringW commandText, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
+  /// [AsyncStateMachine(typeof(TerminalController::<TryExecuteCommands>d__15))]
   /// @brief Method TryExecuteCommands, addr 0x32e98bc, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* TryExecuteCommands();
 
@@ -445,13 +452,13 @@ protected:
   constexpr TerminalController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerminalController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerminalController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerminalController(TerminalController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerminalController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerminalController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerminalController(TerminalController const&) = delete;
+  TerminalController(TerminalControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19426 };
@@ -465,9 +472,11 @@ public:
   /// @brief Field unityLogToConsole, offset: 0x18, size: 0x1, def value: None
   bool ___unityLogToConsole;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
+  /// [Inject]
   /// @brief Field _coroutineStarter, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 

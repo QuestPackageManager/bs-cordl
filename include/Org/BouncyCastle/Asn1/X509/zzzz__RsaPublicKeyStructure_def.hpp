@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\RsaPublicKeyStructure.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/RsaPublicKeyStructure.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,13 +87,13 @@ protected:
   constexpr RsaPublicKeyStructure();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RsaPublicKeyStructure", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaPublicKeyStructure", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RsaPublicKeyStructure(RsaPublicKeyStructure&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RsaPublicKeyStructure", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaPublicKeyStructure", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RsaPublicKeyStructure(RsaPublicKeyStructure const&) = delete;
+  RsaPublicKeyStructure(RsaPublicKeyStructureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 381 };

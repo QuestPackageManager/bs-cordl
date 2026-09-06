@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlInt64.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlInt64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ struct SqlInt64;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlInt64);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlInt64, "System.Data.SqlTypes", "SqlInt64");
+// [XmlSchemaProvider("GetXsdType")]
 // Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -239,7 +240,8 @@ public:
   // @brief default ctor
   constexpr SqlInt64();
 
-  // Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_value", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_value", ty: "int64_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SqlInt64(bool m_fNotNull, int64_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ModalView.hpp"
+// IWYU pragma private; include "HMUI/ModalView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::HMUI::ModalView___c__DisplayClass23_0*);
 DEFINE_IL2CPP_CLASS(::HMUI::ModalView*, "HMUI", "ModalView");
 DEFINE_IL2CPP_CLASS(::HMUI::ModalView___c__DisplayClass19_0*, "HMUI", "ModalView/<>c__DisplayClass19_0");
 DEFINE_IL2CPP_CLASS(::HMUI::ModalView___c__DisplayClass23_0*, "HMUI", "ModalView/<>c__DisplayClass23_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -93,13 +94,13 @@ protected:
   constexpr ModalView___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ModalView___c__DisplayClass19_0(ModalView___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModalView___c__DisplayClass19_0(ModalView___c__DisplayClass19_0 const&) = delete;
+  ModalView___c__DisplayClass19_0(ModalView___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20991 };
@@ -120,6 +121,7 @@ static_assert(offsetof(::HMUI::ModalView___c__DisplayClass19_0, ___finishedCallb
 static_assert(sizeof(::HMUI::ModalView___c__DisplayClass19_0) == 0x20, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -159,13 +161,13 @@ protected:
   constexpr ModalView___c__DisplayClass23_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass23_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ModalView___c__DisplayClass23_0(ModalView___c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass23_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModalView___c__DisplayClass23_0(ModalView___c__DisplayClass23_0 const&) = delete;
+  ModalView___c__DisplayClass23_0(ModalView___c__DisplayClass23_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20992 };
@@ -340,12 +342,14 @@ public:
   /// @brief Method .ctor, addr 0x32ff68c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_blockerClickedEvent, addr 0x32fe484, size 0xac, virtual true, abstract: false, final false
   inline void add_blockerClickedEvent(::System::Action* value);
 
   /// @brief Method get_isShown, addr 0x32fe5dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_blockerClickedEvent, addr 0x32fe530, size 0xac, virtual true, abstract: false, final false
   inline void remove_blockerClickedEvent(::System::Action* value);
 
@@ -355,29 +359,34 @@ protected:
   constexpr ModalView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ModalView(ModalView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModalView(ModalView const&) = delete;
+  ModalView(ModalViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20993 };
 
+  /// [SerializeField]
   /// @brief Field _presentPanelAnimations, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimations;
 
+  /// [SerializeField]
   /// @brief Field _dismissPanelAnimation, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____dismissPanelAnimation;
 
+  /// [SerializeField]
   /// @brief Field _animateParentCanvas, offset: 0x30, size: 0x1, def value: None
   bool ____animateParentCanvas;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x38, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
+  /// [CompilerGenerated]
   /// @brief Field blockerClickedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___blockerClickedEvent;
 

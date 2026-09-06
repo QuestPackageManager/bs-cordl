@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\IWrappedDictionary.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/IWrappedDictionary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE IWrappedDictionary {
 public:
   // Declarations
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_UnderlyingDictionary)) ::System::Object* UnderlyingDictionary;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
@@ -41,7 +42,8 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_UnderlyingDictionary, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [NullableContext(1)]
+  /// @brief Method get_UnderlyingDictionary, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_UnderlyingDictionary();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -53,9 +55,9 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IWrappedDictionary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IWrappedDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IWrappedDictionary(IWrappedDictionary const&) = delete;
+  IWrappedDictionary(IWrappedDictionaryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13389 };

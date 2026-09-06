@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataTransformHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataTransformHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapDataTransformHelper*);
 MARK_REF_T(::GlobalNamespace::BeatmapDataTransformHelper___c__DisplayClass0_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataTransformHelper*, "", "BeatmapDataTransformHelper");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataTransformHelper___c__DisplayClass0_0*, "", "BeatmapDataTransformHelper/<>c__DisplayClass0_0");
+// [CompilerGenerated]
 // Dependencies BeatmapKey, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -138,13 +139,13 @@ protected:
   constexpr BeatmapDataTransformHelper___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataTransformHelper___c__DisplayClass0_0(BeatmapDataTransformHelper___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataTransformHelper___c__DisplayClass0_0(BeatmapDataTransformHelper___c__DisplayClass0_0 const&) = delete;
+  BeatmapDataTransformHelper___c__DisplayClass0_0(BeatmapDataTransformHelper___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14807 };
@@ -231,13 +232,13 @@ protected:
   constexpr BeatmapDataTransformHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataTransformHelper(BeatmapDataTransformHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataTransformHelper(BeatmapDataTransformHelper const&) = delete;
+  BeatmapDataTransformHelper(BeatmapDataTransformHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14808 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\UInt32Converter.hpp"
+// IWYU pragma private; include "System/ComponentModel/UInt32Converter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr UInt32Converter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UInt32Converter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UInt32Converter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UInt32Converter(UInt32Converter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UInt32Converter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UInt32Converter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UInt32Converter(UInt32Converter const&) = delete;
+  UInt32Converter(UInt32Converterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11306 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Slider.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Slider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,7 +109,7 @@ public:
   // @brief default ctor
   constexpr Slider_Direction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Slider_Direction(int32_t value__) noexcept;
 
   /// @brief Field BottomToTop value: I32(2)
@@ -159,13 +159,13 @@ protected:
   constexpr Slider_SliderEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Slider_SliderEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_SliderEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Slider_SliderEvent(Slider_SliderEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Slider_SliderEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_SliderEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Slider_SliderEvent(Slider_SliderEvent const&) = delete;
+  Slider_SliderEvent(Slider_SliderEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17492 };
@@ -205,7 +205,7 @@ public:
   // @brief default ctor
   constexpr Slider_Axis();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Slider_Axis(int32_t value__) noexcept;
 
   /// @brief Field Horizontal value: I32(0)
@@ -231,6 +231,9 @@ static_assert(offsetof(::UnityEngine::UI::Slider_Axis, value__) == 0x0, "Offset 
 static_assert(sizeof(::UnityEngine::UI::Slider_Axis) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("UI/Slider", 34)]
+// [ExecuteAlways]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.UI.Selectable, UnityEngine.UI.Slider::Direction, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
@@ -585,38 +588,48 @@ protected:
   constexpr Slider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Slider(Slider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Slider(Slider const&) = delete;
+  Slider(Sliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17494 };
 
+  /// [SerializeField]
   /// @brief Field m_FillRect, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_FillRect;
 
+  /// [SerializeField]
   /// @brief Field m_HandleRect, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_HandleRect;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_Direction, offset: 0x110, size: 0x4, def value: None
   ::UnityEngine::UI::Slider_Direction ___m_Direction;
 
+  /// [SerializeField]
   /// @brief Field m_MinValue, offset: 0x114, size: 0x4, def value: None
   float_t ___m_MinValue;
 
+  /// [SerializeField]
   /// @brief Field m_MaxValue, offset: 0x118, size: 0x4, def value: None
   float_t ___m_MaxValue;
 
+  /// [SerializeField]
   /// @brief Field m_WholeNumbers, offset: 0x11c, size: 0x1, def value: None
   bool ___m_WholeNumbers;
 
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x120, size: 0x4, def value: None
   float_t ___m_Value;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_OnValueChanged, offset: 0x128, size: 0x8, def value: None
   ::UnityEngine::UI::Slider_SliderEvent* ___m_OnValueChanged;
 

@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TagAttribute.hpp"
+// IWYU pragma private; include "TMPro/TagAttribute.hpp"
 #include "TMPro/zzzz__TagAttribute_def.hpp"
-// Ctor Parameters [CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TagAttribute::TagAttribute(int32_t startIndex, int32_t length, int32_t hashCode) noexcept {
   this->startIndex = startIndex;
   this->length = length;

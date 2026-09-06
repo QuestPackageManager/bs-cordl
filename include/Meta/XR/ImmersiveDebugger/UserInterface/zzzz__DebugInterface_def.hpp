@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\DebugInterface.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/DebugInterface.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,6 +97,7 @@ public:
   /// @brief Method UpdateVisibility, addr 0x5a4f158, size 0xb4, virtual false, abstract: false, final false
   inline void UpdateVisibility();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__20_0, addr 0x5a4f45c, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__20_0();
 
@@ -187,13 +188,13 @@ protected:
   constexpr DebugInterface();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInterface", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInterface", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugInterface(DebugInterface&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInterface", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInterface", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInterface(DebugInterface const&) = delete;
+  DebugInterface(DebugInterfaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18365 };

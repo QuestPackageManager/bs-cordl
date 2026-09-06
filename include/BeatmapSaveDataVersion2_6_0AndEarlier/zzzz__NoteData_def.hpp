@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\NoteData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/NoteData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,29 +116,34 @@ protected:
   constexpr NoteData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteData(NoteData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteData(NoteData const&) = delete;
+  NoteData(NoteDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15387 };
 
+  /// [SerializeField]
   /// @brief Field _time, offset: 0x10, size: 0x4, def value: None
   float_t ____time;
 
+  /// [SerializeField]
   /// @brief Field _lineIndex, offset: 0x14, size: 0x4, def value: None
   int32_t ____lineIndex;
 
+  /// [SerializeField]
   /// @brief Field _lineLayer, offset: 0x18, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteLineLayer ____lineLayer;
 
+  /// [SerializeField]
   /// @brief Field _type, offset: 0x1c, size: 0x4, def value: None
   ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType ____type;
 
+  /// [SerializeField]
   /// @brief Field _cutDirection, offset: 0x20, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteCutDirection ____cutDirection;
 

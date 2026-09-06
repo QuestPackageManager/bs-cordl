@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Request.hpp"
+// IWYU pragma private; include "Oculus/Platform/Request.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,9 +60,11 @@ public:
   /// @brief Method .ctor, addr 0x5de0c44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestID);
 
+  /// [CompilerGenerated]
   /// @brief Method get_RequestID, addr 0x5debcc0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_RequestID();
 
+  /// [CompilerGenerated]
   /// @brief Method set_RequestID, addr 0x5debcc8, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestID(uint64_t value);
 
@@ -72,13 +74,13 @@ protected:
   constexpr Request();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Request(Request&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Request(Request const&) = delete;
+  Request(Requestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17979 };
@@ -86,6 +88,7 @@ public:
   /// @brief Field callback_, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Message_Callback* ___callback_;
 
+  /// [CompilerGenerated]
   /// @brief Field <RequestID>k__BackingField, offset: 0x18, size: 0x8, def value: None
   uint64_t ____RequestID_k__BackingField;
 

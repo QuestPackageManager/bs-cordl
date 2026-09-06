@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRRuntimeSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRRuntimeSettings.hpp"
 #include "GlobalNamespace/zzzz__OVRHandSkeletonVersion_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"

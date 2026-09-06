@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ISerializableJsonDictionary.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ISerializableJsonDictionary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,21 +22,25 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ISerializableJsonDictionary {
 public:
   // Declarations
-  /// @brief Method ContainsKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ContainsKey(::StringW key);
 
-  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T> inline T Get(::StringW key);
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline T Get(::StringW key);
 
-  /// @brief Method Overwrite, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Overwrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Overwrite(::System::Object* obj, ::StringW key);
 
-  /// @brief Method Set, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T> inline void Set(::StringW key, T value);
+  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline void Set(::StringW key, T value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISerializableJsonDictionary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISerializableJsonDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISerializableJsonDictionary(ISerializableJsonDictionary const&) = delete;
+  ISerializableJsonDictionary(ISerializableJsonDictionaryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4611 };

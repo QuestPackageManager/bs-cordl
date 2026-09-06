@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NamedPresetsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/NamedPresetsSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_def.hpp"

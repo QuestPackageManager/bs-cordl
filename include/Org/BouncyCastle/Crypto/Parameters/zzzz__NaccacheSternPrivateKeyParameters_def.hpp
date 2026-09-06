@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\NaccacheSternPrivateKeyParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/NaccacheSternPrivateKeyParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ public:
   // Declarations
   __declspec(property(get = get_PhiN)) ::Org::BouncyCastle::Math::BigInteger* PhiN;
 
+  /// @brief [Obsolete("Use \'SmallPrimesList\' instead")]
   __declspec(property(get = get_SmallPrimes)) ::System::Collections::ArrayList* SmallPrimes;
 
   __declspec(property(get = get_SmallPrimesList)) ::System::Collections::IList* SmallPrimesList;
@@ -41,6 +42,7 @@ public:
   /// @brief Field smallPrimes, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_smallPrimes, put = __cordl_internal_set_smallPrimes)) ::System::Collections::IList* smallPrimes;
 
+  /// @brief [Obsolete]
   static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n,
                                                                                                      int32_t lowerSigmaBound, ::System::Collections::ArrayList* smallPrimes,
                                                                                                      ::Org::BouncyCastle::Math::BigInteger* phiN);
@@ -61,6 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_smallPrimes(::System::Collections::IList* value);
 
+  /// [Obsolete]
   /// @brief Method .ctor, addr 0x3414ebc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound, ::System::Collections::ArrayList* smallPrimes,
                     ::Org::BouncyCastle::Math::BigInteger* phiN);
@@ -84,13 +87,13 @@ protected:
   constexpr NaccacheSternPrivateKeyParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternPrivateKeyParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternPrivateKeyParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NaccacheSternPrivateKeyParameters(NaccacheSternPrivateKeyParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternPrivateKeyParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternPrivateKeyParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NaccacheSternPrivateKeyParameters(NaccacheSternPrivateKeyParameters const&) = delete;
+  NaccacheSternPrivateKeyParameters(NaccacheSternPrivateKeyParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1070 };

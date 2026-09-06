@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\MarshalByRefObject.hpp"
+// IWYU pragma private; include "System/MarshalByRefObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class MarshalByRefObject;
 // Write type traits
 MARK_REF_T(::System::MarshalByRefObject*);
 DEFINE_IL2CPP_CLASS(::System::MarshalByRefObject*, "System", "MarshalByRefObject");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -65,13 +66,13 @@ protected:
   constexpr MarshalByRefObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MarshalByRefObject(MarshalByRefObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MarshalByRefObject(MarshalByRefObject const&) = delete;
+  MarshalByRefObject(MarshalByRefObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2615 };

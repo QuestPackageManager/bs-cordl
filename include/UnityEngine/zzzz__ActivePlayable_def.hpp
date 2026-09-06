@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ActivePlayable.hpp"
+// IWYU pragma private; include "UnityEngine/ActivePlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr ActivePlayable();
 
-  // Ctor Parameters [CppParam { name: "_settings_k__BackingField", ty: "::UnityEngine::PlayableSettings", modifiers: "", def_value: None }, CppParam { name: "_clipPlayableHandle_k__BackingField", ty:
-  // "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_settings_k__BackingField", ty: "::UnityEngine::PlayableSettings", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_clipPlayableHandle_k__BackingField", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr ActivePlayable(::UnityEngine::PlayableSettings _settings_k__BackingField, ::UnityEngine::Playables::PlayableHandle _clipPlayableHandle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -35,9 +35,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <settings>k__BackingField, offset: 0x0, size: 0x20, def value: None
   ::UnityEngine::PlayableSettings _settings_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <clipPlayableHandle>k__BackingField, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableHandle _clipPlayableHandle_k__BackingField;
 

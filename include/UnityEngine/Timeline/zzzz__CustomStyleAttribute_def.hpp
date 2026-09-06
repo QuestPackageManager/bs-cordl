@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\CustomStyleAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/CustomStyleAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class CustomStyleAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::CustomStyleAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::CustomStyleAttribute*, "UnityEngine.Timeline", "CustomStyleAttribute");
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -40,13 +41,13 @@ protected:
   constexpr CustomStyleAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomStyleAttribute(CustomStyleAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomStyleAttribute(CustomStyleAttribute const&) = delete;
+  CustomStyleAttribute(CustomStyleAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19249 };

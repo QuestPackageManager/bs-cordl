@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\DaylightTimeStruct.hpp"
+// IWYU pragma private; include "System/Globalization/DaylightTimeStruct.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct DaylightTimeStruct;
 // Write type traits
 MARK_VAL_T(::System::Globalization::DaylightTimeStruct);
 DEFINE_IL2CPP_CLASS(::System::Globalization::DaylightTimeStruct, "System.Globalization", "DaylightTimeStruct");
+// [IsReadOnly]
 // Dependencies System.DateTime, System.TimeSpan
 namespace System::Globalization {
 // Is value type: true
@@ -34,8 +35,8 @@ public:
   // @brief default ctor
   constexpr DaylightTimeStruct();
 
-  // Ctor Parameters [CppParam { name: "Start", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "End", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam
-  // { name: "Delta", ty: "::System::TimeSpan", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Start", ty: "::System::DateTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "End", ty: "::System::DateTime", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "Delta", ty: "::System::TimeSpan", modifiers: "", def_value: None, comment: None }]
   constexpr DaylightTimeStruct(::System::DateTime Start, ::System::DateTime End, ::System::TimeSpan Delta) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

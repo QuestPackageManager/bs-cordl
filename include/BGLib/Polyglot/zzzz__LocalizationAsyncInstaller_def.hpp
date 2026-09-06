@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\LocalizationAsyncInstaller.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/LocalizationAsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_REF_T(::BGLib::Polyglot::LocalizationAsyncInstaller*);
 MARK_REF_T(::BGLib::Polyglot::LocalizationAsyncInstaller___c*);
 DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::LocalizationAsyncInstaller*, "BGLib.Polyglot", "LocalizationAsyncInstaller");
 DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::LocalizationAsyncInstaller___c*, "BGLib.Polyglot", "LocalizationAsyncInstaller/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
@@ -61,6 +62,7 @@ public:
 
   static inline ::BGLib::Polyglot::LocalizationAsyncInstaller___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <LocalizationContentToAsset>b__6_0, addr 0x331d090, size 0x50, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LocalizationAsset* _LocalizationContentToAsset_b__6_0(::UnityEngine::TextAsset* localizationTextAsset);
 
@@ -81,13 +83,13 @@ protected:
   constexpr LocalizationAsyncInstaller___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizationAsyncInstaller___c(LocalizationAsyncInstaller___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizationAsyncInstaller___c(LocalizationAsyncInstaller___c const&) = delete;
+  LocalizationAsyncInstaller___c(LocalizationAsyncInstaller___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22207 };
@@ -98,6 +100,8 @@ public:
 static_assert(sizeof(::BGLib::Polyglot::LocalizationAsyncInstaller___c) == 0x10, "Size mismatch!");
 
 } // namespace BGLib::Polyglot
+// [NullableContext(1)]
+// [Nullable(new[] { 0, 1 })]
 // Dependencies BGLib.AppFlow.Initialization.AddressablesAsyncInstaller`1<T>
 namespace BGLib::Polyglot {
 // Is value type: false
@@ -154,13 +158,13 @@ protected:
   constexpr LocalizationAsyncInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizationAsyncInstaller(LocalizationAsyncInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizationAsyncInstaller(LocalizationAsyncInstaller const&) = delete;
+  LocalizationAsyncInstaller(LocalizationAsyncInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22208 };
@@ -168,9 +172,11 @@ public:
   /// @brief Field kLocalizationContentLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kLocalizationContentLabel{ u"LocalizationContent" };
 
+  /// [SerializeField]
   /// @brief Field _mainPolyglotAsset, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::BGLib::Polyglot::Localization> ____mainPolyglotAsset;
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _inputFiles, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* ____inputFiles;
 

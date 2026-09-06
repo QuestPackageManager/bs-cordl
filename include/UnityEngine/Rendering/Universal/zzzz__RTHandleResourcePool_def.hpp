@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RTHandleResourcePool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RTHandleResourcePool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   __declspec(property(get = get_staleResourceCapacity, put = set_staleResourceCapacity)) int32_t staleResourceCapacity;
 
   /// @brief Method AddResourceToPool, addr 0x68b88d0, size 0x214, virtual false, abstract: false, final false
-  inline bool AddResourceToPool(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc, ::UnityEngine::Rendering::RTHandle* resource, int32_t currentFrameIndex);
+  inline bool AddResourceToPool(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc, ::UnityEngine::Rendering::RTHandle* resource, int32_t currentFrameIndex);
 
   /// @brief Method Cleanup, addr 0x68b8414, size 0x4bc, virtual false, abstract: false, final false
   inline void Cleanup();
@@ -83,7 +83,7 @@ public:
                                                                                            ::StringW name);
 
   /// @brief Method GetHashCodeWithNameHash, addr 0x68b8ae4, size 0x58, virtual false, abstract: false, final false
-  inline int32_t GetHashCodeWithNameHash(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc);
+  inline int32_t GetHashCodeWithNameHash(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc);
 
   /// @brief Method LogDebugInfo, addr 0x68b93a4, size 0x89c, virtual false, abstract: false, final false
   inline void LogDebugInfo();
@@ -97,7 +97,7 @@ public:
   static inline bool ShouldReleaseResource(int32_t lastUsedFrameIndex, int32_t currentFrameIndex);
 
   /// @brief Method TryGetResource, addr 0x68b8b3c, size 0x1e8, virtual false, abstract: false, final false
-  inline bool TryGetResource(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc, ::by_ref<::UnityEngine::Rendering::RTHandle*> resource, bool usepool);
+  inline bool TryGetResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc, ::by_ref<::UnityEngine::Rendering::RTHandle*> resource, bool usepool);
 
   constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_RemoveList() const;
 
@@ -141,17 +141,18 @@ protected:
   constexpr RTHandleResourcePool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandleResourcePool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RTHandleResourcePool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RTHandleResourcePool(RTHandleResourcePool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandleResourcePool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RTHandleResourcePool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RTHandleResourcePool(RTHandleResourcePool const&) = delete;
+  RTHandleResourcePool(RTHandleResourcePoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12946 };
 
+  /// [TupleElementNames(new[] { "resource", "frameIndex" })]
   /// @brief Field m_ResourcePool, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<::UnityEngine::Rendering::RTHandle*, int32_t>>*>*
       ___m_ResourcePool;

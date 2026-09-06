@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\RoomMeshController.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/RoomMeshController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,7 @@ DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::RoomMeshController*, "Meta.XR.Bu
 DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6*, "Meta.XR.BuildingBlocks", "RoomMeshController/<LoadRoomMesh>d__6");
 DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4*, "Meta.XR.BuildingBlocks", "RoomMeshController/<Start>d__4");
 DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5*, "Meta.XR.BuildingBlocks", "RoomMeshController/<UpdateVolume>d__5");
+// [CompilerGenerated]
 // Dependencies OVRAnchor, OVRAnchor::FetchResult, OVRObjectPool::ListScope`1<T>, OVRResult`2<TValue, TStatus>, OVRTask`1<TResult>, System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace Meta::XR::BuildingBlocks {
 // Is value type: false
@@ -123,17 +124,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a3494c, size 0x524, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a34f0c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a34f14, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a34f4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a34858, size 0xf4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -200,6 +206,7 @@ public:
   /// @brief Method <>m__Finally2, addr 0x5a34e70, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a3466c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -218,13 +225,13 @@ protected:
   constexpr RoomMeshController__LoadRoomMesh_d__6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__LoadRoomMesh_d__6", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__LoadRoomMesh_d__6", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RoomMeshController__LoadRoomMesh_d__6(RoomMeshController__LoadRoomMesh_d__6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__LoadRoomMesh_d__6", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__LoadRoomMesh_d__6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshController__LoadRoomMesh_d__6(RoomMeshController__LoadRoomMesh_d__6 const&) = delete;
+  RoomMeshController__LoadRoomMesh_d__6(RoomMeshController__LoadRoomMesh_d__6const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21358 };
@@ -280,6 +287,7 @@ static_assert(offsetof(::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomM
 static_assert(sizeof(::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6) == 0x98, "Size mismatch!");
 
 } // namespace Meta::XR::BuildingBlocks
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::BuildingBlocks {
 // Is value type: false
@@ -318,17 +326,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a34f58, size 0x2ec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a35244, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a3524c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a35284, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a34f54, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -362,6 +375,7 @@ public:
 
   constexpr void __cordl_internal_set__timeout_5__2(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a345b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -380,13 +394,13 @@ protected:
   constexpr RoomMeshController__Start_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__Start_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__Start_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RoomMeshController__Start_d__4(RoomMeshController__Start_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__Start_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__Start_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshController__Start_d__4(RoomMeshController__Start_d__4 const&) = delete;
+  RoomMeshController__Start_d__4(RoomMeshController__Start_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21359 };
@@ -422,6 +436,7 @@ static_assert(offsetof(::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__
 static_assert(sizeof(::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4) == 0x30, "Size mismatch!");
 
 } // namespace Meta::XR::BuildingBlocks
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::BuildingBlocks {
 // Is value type: false
@@ -454,17 +469,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a35290, size 0x460, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a356f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a356f8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a35730, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a3528c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -486,6 +506,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::Meta::XR::BuildingBlocks::RoomMeshController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a34610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -504,13 +525,13 @@ protected:
   constexpr RoomMeshController__UpdateVolume_d__5();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__UpdateVolume_d__5", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__UpdateVolume_d__5", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RoomMeshController__UpdateVolume_d__5(RoomMeshController__UpdateVolume_d__5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__UpdateVolume_d__5", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__UpdateVolume_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshController__UpdateVolume_d__5(RoomMeshController__UpdateVolume_d__5 const&) = delete;
+  RoomMeshController__UpdateVolume_d__5(RoomMeshController__UpdateVolume_d__5const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21360 };
@@ -564,14 +585,17 @@ public:
   /// @brief Method InstantiateRoomMesh, addr 0x5a34674, size 0x1e0, virtual false, abstract: false, final false
   inline void InstantiateRoomMesh(::GlobalNamespace::OVRAnchor anchor, ::UnityEngine::GameObject* prefab);
 
+  /// [IteratorStateMachine(typeof(Meta.XR.BuildingBlocks.RoomMeshController::<LoadRoomMesh>d__6))]
   /// @brief Method LoadRoomMesh, addr 0x5a34618, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LoadRoomMesh();
 
   static inline ::Meta::XR::BuildingBlocks::RoomMeshController* New_ctor();
 
+  /// [IteratorStateMachine(typeof(Meta.XR.BuildingBlocks.RoomMeshController::<Start>d__4))]
   /// @brief Method Start, addr 0x5a34560, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
+  /// [IteratorStateMachine(typeof(Meta.XR.BuildingBlocks.RoomMeshController::<UpdateVolume>d__5))]
   /// @brief Method UpdateVolume, addr 0x5a345bc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateVolume();
 
@@ -602,17 +626,18 @@ protected:
   constexpr RoomMeshController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RoomMeshController(RoomMeshController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshController(RoomMeshController const&) = delete;
+  RoomMeshController(RoomMeshControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21361 };
 
+  /// [SerializeField]
   /// @brief Field _meshPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____meshPrefab;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\ListDictionaryInternal.hpp"
+// IWYU pragma private; include "System/Collections/ListDictionaryInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -162,13 +162,13 @@ protected:
   constexpr ListDictionaryInternal_NodeEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_NodeEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_NodeEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListDictionaryInternal_NodeEnumerator(ListDictionaryInternal_NodeEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_NodeEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_NodeEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListDictionaryInternal_NodeEnumerator(ListDictionaryInternal_NodeEnumerator const&) = delete;
+  ListDictionaryInternal_NodeEnumerator(ListDictionaryInternal_NodeEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3697 };
@@ -279,13 +279,13 @@ protected:
   constexpr NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator(NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator(NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator const&) = delete;
+  NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumerator(NodeKeyValueCollection_ListDictionaryInternal_NodeKeyValueEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3698 };
@@ -392,13 +392,13 @@ protected:
   constexpr ListDictionaryInternal_NodeKeyValueCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_NodeKeyValueCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_NodeKeyValueCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListDictionaryInternal_NodeKeyValueCollection(ListDictionaryInternal_NodeKeyValueCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_NodeKeyValueCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_NodeKeyValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListDictionaryInternal_NodeKeyValueCollection(ListDictionaryInternal_NodeKeyValueCollection const&) = delete;
+  ListDictionaryInternal_NodeKeyValueCollection(ListDictionaryInternal_NodeKeyValueCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3699 };
@@ -464,13 +464,13 @@ protected:
   constexpr ListDictionaryInternal_DictionaryNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_DictionaryNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_DictionaryNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListDictionaryInternal_DictionaryNode(ListDictionaryInternal_DictionaryNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_DictionaryNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal_DictionaryNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListDictionaryInternal_DictionaryNode(ListDictionaryInternal_DictionaryNode const&) = delete;
+  ListDictionaryInternal_DictionaryNode(ListDictionaryInternal_DictionaryNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3700 };
@@ -496,6 +496,7 @@ static_assert(offsetof(::System::Collections::ListDictionaryInternal_DictionaryN
 static_assert(sizeof(::System::Collections::ListDictionaryInternal_DictionaryNode) == 0x28, "Size mismatch!");
 
 } // namespace System::Collections
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
@@ -638,13 +639,13 @@ protected:
   constexpr ListDictionaryInternal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListDictionaryInternal(ListDictionaryInternal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListDictionaryInternal(ListDictionaryInternal const&) = delete;
+  ListDictionaryInternal(ListDictionaryInternalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3701 };

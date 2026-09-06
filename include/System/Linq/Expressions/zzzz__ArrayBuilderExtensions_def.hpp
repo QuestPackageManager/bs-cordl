@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\ArrayBuilderExtensions.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/ArrayBuilderExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class ArrayBuilderExtensions;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::ArrayBuilderExtensions*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::ArrayBuilderExtensions*, "System.Linq.Expressions", "ArrayBuilderExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -25,6 +26,7 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE ArrayBuilderExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ToReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* ToReadOnly(::System::Collections::Generic::ArrayBuilder_1<T> builder);
 
@@ -34,13 +36,13 @@ protected:
   constexpr ArrayBuilderExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayBuilderExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayBuilderExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayBuilderExtensions(ArrayBuilderExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayBuilderExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayBuilderExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayBuilderExtensions(ArrayBuilderExtensions const&) = delete;
+  ArrayBuilderExtensions(ArrayBuilderExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16153 };

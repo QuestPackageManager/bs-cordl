@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\IsoDateTimeConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/IsoDateTimeConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,8 @@ class IsoDateTimeConverter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::IsoDateTimeConverter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::IsoDateTimeConverter*, "Newtonsoft.Json.Converters", "IsoDateTimeConverter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.DateTimeConverterBase, System.Globalization.DateTimeStyles
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -44,6 +46,7 @@ public:
   // Declarations
   __declspec(property(get = get_Culture, put = set_Culture)) ::System::Globalization::CultureInfo* Culture;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_DateTimeFormat, put = set_DateTimeFormat)) ::StringW DateTimeFormat;
 
   __declspec(property(get = get_DateTimeStyles, put = set_DateTimeStyles)) ::System::Globalization::DateTimeStyles DateTimeStyles;
@@ -60,10 +63,11 @@ public:
   static inline ::Newtonsoft::Json::Converters::IsoDateTimeConverter* New_ctor();
 
   /// @brief Method ReadJson, addr 0x5d9b764, size 0x4b4, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
+                                    ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method WriteJson, addr 0x5d9b50c, size 0x258, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get__culture() const;
 
@@ -89,6 +93,7 @@ public:
   /// @brief Method get_Culture, addr 0x5d9b498, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Culture();
 
+  /// [NullableContext(2)]
   /// @brief Method get_DateTimeFormat, addr 0x5d9b454, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_DateTimeFormat();
 
@@ -98,6 +103,7 @@ public:
   /// @brief Method set_Culture, addr 0x5d9b504, size 0x8, virtual false, abstract: false, final false
   inline void set_Culture(::System::Globalization::CultureInfo* value);
 
+  /// [NullableContext(2)]
   /// @brief Method set_DateTimeFormat, addr 0x5d9b474, size 0x24, virtual false, abstract: false, final false
   inline void set_DateTimeFormat(::StringW value);
 
@@ -110,13 +116,13 @@ protected:
   constexpr IsoDateTimeConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IsoDateTimeConverter(IsoDateTimeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IsoDateTimeConverter(IsoDateTimeConverter const&) = delete;
+  IsoDateTimeConverter(IsoDateTimeConverterconst&) = delete;
 
   /// @brief Field DefaultDateTimeFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString DefaultDateTimeFormat{ u"yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss.FFFFFFFK" };
@@ -127,9 +133,11 @@ public:
   /// @brief Field _dateTimeStyles, offset: 0x10, size: 0x4, def value: None
   ::System::Globalization::DateTimeStyles ____dateTimeStyles;
 
+  /// [Nullable(2)]
   /// @brief Field _dateTimeFormat, offset: 0x18, size: 0x8, def value: None
   ::StringW ____dateTimeFormat;
 
+  /// [Nullable(2)]
   /// @brief Field _culture, offset: 0x20, size: 0x8, def value: None
   ::System::Globalization::CultureInfo* ____culture;
 

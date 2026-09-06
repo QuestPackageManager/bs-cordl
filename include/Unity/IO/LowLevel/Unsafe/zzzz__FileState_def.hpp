@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\FileState.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/FileState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FileState;
 // Write type traits
 MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::FileState);
 DEFINE_IL2CPP_CLASS(::Unity::IO::LowLevel::Unsafe::FileState, "Unity.IO.LowLevel.Unsafe", "FileState");
+// [RequiredByNativeCode]
 // Dependencies
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr FileState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FileState(int32_t value__) noexcept;
 
   /// @brief Field Absent value: I32(0)

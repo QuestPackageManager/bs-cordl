@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SphericalHarmonicsL1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SphericalHarmonicsL1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,8 +60,8 @@ public:
   // @brief default ctor
   constexpr SphericalHarmonicsL1();
 
-  // Ctor Parameters [CppParam { name: "shAr", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "shAg", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None },
-  // CppParam { name: "shAb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "shAr", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "shAg", ty: "::UnityEngine::Vector4", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "shAb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr SphericalHarmonicsL1(::UnityEngine::Vector4 shAr, ::UnityEngine::Vector4 shAg, ::UnityEngine::Vector4 shAb) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

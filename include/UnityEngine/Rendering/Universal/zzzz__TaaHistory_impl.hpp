@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TaaHistory.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TaaHistory.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraHistoryItem_impl.hpp"
 #include "UnityEngine/zzzz__Hash128_impl.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_impl.hpp"

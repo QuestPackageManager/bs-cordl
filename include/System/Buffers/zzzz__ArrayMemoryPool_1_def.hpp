@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Buffers\ArrayMemoryPool_1.hpp"
+// IWYU pragma private; include "System/Buffers/ArrayMemoryPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,13 +81,13 @@ protected:
   constexpr ArrayMemoryPool_1_ArrayMemoryPoolBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayMemoryPool_1_ArrayMemoryPoolBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayMemoryPool_1_ArrayMemoryPoolBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayMemoryPool_1_ArrayMemoryPoolBuffer(ArrayMemoryPool_1_ArrayMemoryPoolBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayMemoryPool_1_ArrayMemoryPoolBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayMemoryPool_1_ArrayMemoryPoolBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayMemoryPool_1_ArrayMemoryPoolBuffer(ArrayMemoryPool_1_ArrayMemoryPoolBuffer const&) = delete;
+  ArrayMemoryPool_1_ArrayMemoryPoolBuffer(ArrayMemoryPool_1_ArrayMemoryPoolBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3832 };
@@ -127,13 +127,13 @@ protected:
   constexpr ArrayMemoryPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayMemoryPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayMemoryPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayMemoryPool_1(ArrayMemoryPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayMemoryPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayMemoryPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayMemoryPool_1(ArrayMemoryPool_1 const&) = delete;
+  ArrayMemoryPool_1(ArrayMemoryPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3833 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\LowLevel\Unsafe\ProfilerMarkerData.hpp"
+// IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerMarkerData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,9 +70,9 @@ public:
   // @brief default ctor
   constexpr ProfilerMarkerData();
 
-  // Ctor Parameters [CppParam { name: "Type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "reserved0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "reserved1", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Ptr", ty: "void*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "Type", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "reserved0", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "reserved1", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Size", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Ptr", ty: "void*", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerMarkerData(uint8_t Type, uint8_t reserved0, uint16_t reserved1, uint32_t Size, void* Ptr) noexcept;
 
 private:

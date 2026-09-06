@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidAssetPackState.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPackState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,23 +66,29 @@ protected:
   constexpr AndroidAssetPackState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidAssetPackState(AndroidAssetPackState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPackState(AndroidAssetPackState const&) = delete;
+  AndroidAssetPackState(AndroidAssetPackStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20168 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <status>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidAssetPackStatus ____status_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <error>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidAssetPackError ____error_k__BackingField;
 

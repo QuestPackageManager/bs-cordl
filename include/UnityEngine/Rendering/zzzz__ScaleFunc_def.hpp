@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ScaleFunc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ScaleFunc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ protected:
   constexpr ScaleFunc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleFunc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScaleFunc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScaleFunc(ScaleFunc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleFunc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScaleFunc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScaleFunc(ScaleFunc const&) = delete;
+  ScaleFunc(ScaleFuncconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12243 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerObstacleController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerObstacleController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,17 +63,18 @@ protected:
   constexpr MultiplayerConnectedPlayerObstacleController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerObstacleController_Pool(MultiplayerConnectedPlayerObstacleController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerObstacleController_Pool(MultiplayerConnectedPlayerObstacleController_Pool const&) = delete;
+  MultiplayerConnectedPlayerObstacleController_Pool(MultiplayerConnectedPlayerObstacleController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6074 };
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
@@ -100,7 +101,7 @@ public:
       _multiplayerConnectedPlayerObstacleClippingController;
 
   /// @brief Method Init, addr 0x59bdc98, size 0x1f8, virtual true, abstract: false, final false
-  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
+  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* New_ctor();
 
@@ -119,17 +120,18 @@ protected:
   constexpr MultiplayerConnectedPlayerObstacleController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerObstacleController(MultiplayerConnectedPlayerObstacleController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerObstacleController(MultiplayerConnectedPlayerObstacleController const&) = delete;
+  MultiplayerConnectedPlayerObstacleController(MultiplayerConnectedPlayerObstacleControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6075 };
 
+  /// [SerializeField]
   /// @brief Field _multiplayerConnectedPlayerObstacleClippingController, offset: 0x138, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> ____multiplayerConnectedPlayerObstacleClippingController;
 

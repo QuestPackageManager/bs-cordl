@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomFogParamsBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomFogParamsBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,23 +88,26 @@ protected:
   constexpr BloomFogParamsBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomFogParamsBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomFogParamsBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomFogParamsBehaviour(BloomFogParamsBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomFogParamsBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomFogParamsBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomFogParamsBehaviour(BloomFogParamsBehaviour const&) = delete;
+  BloomFogParamsBehaviour(BloomFogParamsBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6688 };
 
+  /// [SerializeField]
   /// @brief Field _bloomFogParams, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____bloomFogParams;
 
+  /// [SerializeField]
   /// @brief Field _blend, offset: 0x18, size: 0x4, def value: None
   float_t ____blend;
 
+  /// [SerializeField]
   /// @brief Field _bloomFog, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 

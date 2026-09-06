@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ExceptionHandlingClause.hpp"
+// IWYU pragma private; include "System/Reflection/ExceptionHandlingClause.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class ExceptionHandlingClause;
 // Write type traits
 MARK_REF_T(::System::Reflection::ExceptionHandlingClause*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");
+// [ComVisible(true)]
 // Dependencies System.Object, System.Reflection.ExceptionHandlingClauseOptions
 namespace System::Reflection {
 // Is value type: false
@@ -102,13 +103,13 @@ protected:
   constexpr ExceptionHandlingClause();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHandlingClause", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHandlingClause", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExceptionHandlingClause(ExceptionHandlingClause&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHandlingClause", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHandlingClause", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExceptionHandlingClause(ExceptionHandlingClause const&) = delete;
+  ExceptionHandlingClause(ExceptionHandlingClauseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3541 };

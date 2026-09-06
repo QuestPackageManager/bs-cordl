@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformLeaderboardViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformLeaderboardViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,6 +106,7 @@ MARK_VAL_T(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlatformLeaderboardViewController*, "", "PlatformLeaderboardViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*, "", "PlatformLeaderboardViewController/<RefreshDelayed>d__42");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40, "", "PlatformLeaderboardViewController/<Refresh>d__40");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -119,6 +120,7 @@ public:
   /// @brief Method MoveNext, addr 0x594bf30, size 0x2d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x594c204, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -129,10 +131,11 @@ public:
   // @brief default ctor
   constexpr PlatformLeaderboardViewController__Refresh_d__40();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>", modifiers: "", def_value: None }, CppParam { name: "showLoadingIndicator", ty: "bool", modifiers: "", def_value: None }, CppParam
-  // { name: "clear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "showLoadingIndicator", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr PlatformLeaderboardViewController__Refresh_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                              ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> __4__this, bool showLoadingIndicator, bool clear,
                                                              ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -179,6 +182,7 @@ static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__Ref
 static_assert(sizeof(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -217,17 +221,22 @@ public:
   /// @brief Method MoveNext, addr 0x594c218, size 0x2f4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x594c50c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x594c514, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x594c54c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x594c214, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -261,6 +270,7 @@ public:
 
   constexpr void __cordl_internal_set_showLoadingIndicator(bool value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x594c20c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -279,13 +289,13 @@ protected:
   constexpr PlatformLeaderboardViewController__RefreshDelayed_d__42();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController__RefreshDelayed_d__42", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController__RefreshDelayed_d__42", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLeaderboardViewController__RefreshDelayed_d__42(PlatformLeaderboardViewController__RefreshDelayed_d__42&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController__RefreshDelayed_d__42", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController__RefreshDelayed_d__42", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardViewController__RefreshDelayed_d__42(PlatformLeaderboardViewController__RefreshDelayed_d__42 const&) = delete;
+  PlatformLeaderboardViewController__RefreshDelayed_d__42(PlatformLeaderboardViewController__RefreshDelayed_d__42const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6920 };
@@ -424,6 +434,7 @@ public:
   /// @brief Method OnDestroy, addr 0x594b4ec, size 0x238, virtual true, abstract: false, final false
   inline void OnDestroy();
 
+  /// [AsyncStateMachine(typeof(PlatformLeaderboardViewController::<Refresh>d__40))]
   /// @brief Method Refresh, addr 0x594aa40, size 0xc0, virtual false, abstract: false, final false
   inline void Refresh(bool showLoadingIndicator, bool clear);
 
@@ -433,6 +444,7 @@ public:
   /// @brief Method RefreshBeatLeaderboards, addr 0x594ab00, size 0x120, virtual false, abstract: false, final false
   inline void RefreshBeatLeaderboards();
 
+  /// [IteratorStateMachine(typeof(PlatformLeaderboardViewController::<RefreshDelayed>d__42))]
   /// @brief Method RefreshDelayed, addr 0x594bc30, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
 
@@ -446,14 +458,17 @@ public:
   inline int32_t ScoreScopeToScoreScopeIndex(::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scoresScope);
 
   /// @brief Method SetData, addr 0x594a924, size 0x11c, virtual true, abstract: false, final false
-  inline void SetData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
+  /// [CompilerGenerated]
   /// @brief Method <RefreshBeatLeaderboards>b__43_0, addr 0x594be40, size 0x50, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _RefreshBeatLeaderboards_b__43_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <RefreshBeatLeaderboards>b__43_1, addr 0x594be90, size 0x50, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _RefreshBeatLeaderboards_b__43_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <RefreshBeatLeaderboards>b__43_2, addr 0x594bee0, size 0x50, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _RefreshBeatLeaderboards_b__43_2();
 
@@ -587,13 +602,13 @@ protected:
   constexpr PlatformLeaderboardViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformLeaderboardViewController(PlatformLeaderboardViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardViewController(PlatformLeaderboardViewController const&) = delete;
+  PlatformLeaderboardViewController(PlatformLeaderboardViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6921 };
@@ -616,33 +631,44 @@ public:
   /// @brief Field kMaxLeaderboardResults offset 0xffffffff size 0x4
   static constexpr int32_t kMaxLeaderboardResults{ static_cast<int32_t>(0xa) };
 
+  /// [SerializeField]
   /// @brief Field _leaderboardTableView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardTableView> ____leaderboardTableView;
 
+  /// [SerializeField]
   /// @brief Field _scopeSegmentedControl, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControl> ____scopeSegmentedControl;
 
+  /// [SerializeField]
   /// @brief Field _loadingControl, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____loadingControl;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _globalLeaderboardIcon, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____globalLeaderboardIcon;
 
+  /// [SerializeField]
   /// @brief Field _aroundPlayerLeaderboardIcon, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____aroundPlayerLeaderboardIcon;
 
+  /// [SerializeField]
   /// @brief Field _friendsLeaderboardIcon, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____friendsLeaderboardIcon;
 
+  /// [SerializeField]
   /// @brief Field _levelStatsView, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelStatsView> ____levelStatsView;
 
+  /// [Inject]
   /// @brief Field _leaderboardsModel, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> ____leaderboardsModel;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [InjectOptional]
   /// @brief Field _beatLeaderboards, offset: 0xc0, size: 0x8, def value: None
   ::BeatSaber::Main::Leaderboards::BeatLeaderboards* ____beatLeaderboards;
 

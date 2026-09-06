@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\ColocationDebuggingOptions.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/ColocationDebuggingOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,20 +48,24 @@ protected:
   constexpr ColocationDebuggingOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColocationDebuggingOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColocationDebuggingOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColocationDebuggingOptions(ColocationDebuggingOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColocationDebuggingOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColocationDebuggingOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColocationDebuggingOptions(ColocationDebuggingOptions const&) = delete;
+  ColocationDebuggingOptions(ColocationDebuggingOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20840 };
 
+  /// [SerializeField]
+  /// [Tooltip("Show the alignment anchor with debug visual, colocated players should be seeing the anchor at the same physical location.")]
   /// @brief Field visualizeAlignmentAnchor, offset: 0x10, size: 0x1, def value: None
   bool ___visualizeAlignmentAnchor;
 
+  /// [SerializeField]
+  /// [Tooltip("Enable verbose logging to debug colocation process")]
   /// @brief Field enableVerboseLogging, offset: 0x11, size: 0x1, def value: None
   bool ___enableVerboseLogging;
 

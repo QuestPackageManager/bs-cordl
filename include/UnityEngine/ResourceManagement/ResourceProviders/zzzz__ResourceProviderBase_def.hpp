@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\ResourceProviderBase.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/ResourceProviderBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,13 +99,13 @@ protected:
   constexpr ResourceProviderBase_BaseInitAsyncOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase_BaseInitAsyncOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase_BaseInitAsyncOp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceProviderBase_BaseInitAsyncOp(ResourceProviderBase_BaseInitAsyncOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase_BaseInitAsyncOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase_BaseInitAsyncOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceProviderBase_BaseInitAsyncOp(ResourceProviderBase_BaseInitAsyncOp const&) = delete;
+  ResourceProviderBase_BaseInitAsyncOp(ResourceProviderBase_BaseInitAsyncOpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18788 };
@@ -121,6 +121,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Res
 static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase_BaseInitAsyncOp) == 0xa0, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
@@ -169,13 +170,13 @@ protected:
   constexpr ResourceProviderBase___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceProviderBase___c__DisplayClass10_0(ResourceProviderBase___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceProviderBase___c__DisplayClass10_0(ResourceProviderBase___c__DisplayClass10_0 const&) = delete;
+  ResourceProviderBase___c__DisplayClass10_0(ResourceProviderBase___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18789 };
@@ -244,7 +245,7 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* New_ctor();
 
-  /// @brief Method Provide, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
   /// @brief Method Release, addr 0x69203f0, size 0x4, virtual true, abstract: false, final false
@@ -286,13 +287,13 @@ protected:
   constexpr ResourceProviderBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceProviderBase(ResourceProviderBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceProviderBase(ResourceProviderBase const&) = delete;
+  ResourceProviderBase(ResourceProviderBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18790 };

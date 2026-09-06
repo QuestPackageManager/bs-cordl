@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\CharacterSubstitution.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/CharacterSubstitution.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__CharacterSubstitution_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::CharacterSubstitution._ctor
 template <>
@@ -20,7 +20,8 @@ inline void UnityEngine::TextCore::Text::CharacterSubstitution::_ctor(int32_t in
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::CharacterSubstitution>(), { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, unicode);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::TextCore::Text::CharacterSubstitution::CharacterSubstitution(int32_t index, uint32_t unicode) noexcept {
   this->index = index;
   this->unicode = unicode;

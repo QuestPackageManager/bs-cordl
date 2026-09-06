@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalShaderPassNames.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalShaderPassNames.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ protected:
   constexpr DecalShaderPassNames();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalShaderPassNames", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalShaderPassNames", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalShaderPassNames(DecalShaderPassNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalShaderPassNames", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalShaderPassNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalShaderPassNames(DecalShaderPassNames const&) = delete;
+  DecalShaderPassNames(DecalShaderPassNamesconst&) = delete;
 
   /// @brief Field DBufferMesh offset 0xffffffff size 0x8
   static constexpr ::ConstString DBufferMesh{ u"DBufferMesh" };

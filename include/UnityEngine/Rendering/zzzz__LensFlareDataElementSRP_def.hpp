@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LensFlareDataElementSRP.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LensFlareDataElementSRP.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -563,13 +563,13 @@ protected:
   constexpr LensFlareDataElementSRP();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataElementSRP", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataElementSRP", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LensFlareDataElementSRP(LensFlareDataElementSRP&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataElementSRP", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataElementSRP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareDataElementSRP(LensFlareDataElementSRP const&) = delete;
+  LensFlareDataElementSRP(LensFlareDataElementSRPconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12178 };
@@ -592,9 +592,11 @@ public:
   /// @brief Field translationScale, offset: 0x2c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___translationScale;
 
+  /// [Range(0, 1)]
   /// @brief Field ringThickness, offset: 0x34, size: 0x4, def value: None
   float_t ___ringThickness;
 
+  /// [Range(-1, 1)]
   /// @brief Field hoopFactor, offset: 0x38, size: 0x4, def value: None
   float_t ___hoopFactor;
 
@@ -613,6 +615,9 @@ public:
   /// @brief Field shapeCutOffRadius, offset: 0x4c, size: 0x4, def value: None
   float_t ___shapeCutOffRadius;
 
+  /// [Min(0)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("localIntensity")]
   /// @brief Field m_LocalIntensity, offset: 0x50, size: 0x4, def value: None
   float_t ___m_LocalIntensity;
 
@@ -628,6 +633,9 @@ public:
   /// @brief Field allowMultipleElement, offset: 0x6c, size: 0x1, def value: None
   bool ___allowMultipleElement;
 
+  /// [Min(1)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("count")]
   /// @brief Field m_Count, offset: 0x70, size: 0x4, def value: None
   int32_t ___m_Count;
 
@@ -658,6 +666,7 @@ public:
   /// @brief Field modulateByLightColor, offset: 0xa4, size: 0x1, def value: None
   bool ___modulateByLightColor;
 
+  /// [SerializeField]
   /// @brief Field isFoldOpened, offset: 0xa5, size: 0x1, def value: None
   bool ___isFoldOpened;
 
@@ -679,6 +688,9 @@ public:
   /// @brief Field colorGradient, offset: 0xc8, size: 0x8, def value: None
   ::UnityEngine::Gradient* ___colorGradient;
 
+  /// [Range(0, 1)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("intensityVariation")]
   /// @brief Field m_IntensityVariation, offset: 0xd0, size: 0x4, def value: None
   float_t ___m_IntensityVariation;
 
@@ -703,15 +715,27 @@ public:
   /// @brief Field distortionRelativeToCenter, offset: 0xf8, size: 0x1, def value: None
   bool ___distortionRelativeToCenter;
 
+  /// [Range(0, 1)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("fallOff")]
   /// @brief Field m_FallOff, offset: 0xfc, size: 0x4, def value: None
   float_t ___m_FallOff;
 
+  /// [Range(0, 1)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("edgeOffset")]
   /// @brief Field m_EdgeOffset, offset: 0x100, size: 0x4, def value: None
   float_t ___m_EdgeOffset;
 
+  /// [Min(3)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("sideCount")]
   /// @brief Field m_SideCount, offset: 0x104, size: 0x4, def value: None
   int32_t ___m_SideCount;
 
+  /// [Range(0, 1)]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("sdfRoundness")]
   /// @brief Field m_SdfRoundness, offset: 0x108, size: 0x4, def value: None
   float_t ___m_SdfRoundness;
 

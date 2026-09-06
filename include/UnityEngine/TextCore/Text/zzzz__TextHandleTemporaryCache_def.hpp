@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextHandleTemporaryCache.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextHandleTemporaryCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class TextHandleTemporaryCache;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Text::TextHandleTemporaryCache*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextHandleTemporaryCache*, "UnityEngine.TextCore.Text", "TextHandleTemporaryCache");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -56,6 +57,7 @@ public:
   /// @brief Method RefreshCaching, addr 0x6c113c8, size 0x140, virtual false, abstract: false, final false
   inline void RefreshCaching(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method RemoveTextInfoFromCache, addr 0x6c1176c, size 0x1b0, virtual true, abstract: false, final false
   inline void RemoveTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
@@ -89,13 +91,13 @@ protected:
   constexpr TextHandleTemporaryCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextHandleTemporaryCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextHandleTemporaryCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextHandleTemporaryCache(TextHandleTemporaryCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextHandleTemporaryCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextHandleTemporaryCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextHandleTemporaryCache(TextHandleTemporaryCache const&) = delete;
+  TextHandleTemporaryCache(TextHandleTemporaryCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17275 };

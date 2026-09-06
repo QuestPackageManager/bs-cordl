@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaWriter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaWriter*);
 MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaWriter___c*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaWriter*, "Newtonsoft.Json.Schema", "JsonSchemaWriter");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaWriter___c*, "Newtonsoft.Json.Schema", "JsonSchemaWriter/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr JsonSchemaWriter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaWriter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaWriter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaWriter___c(JsonSchemaWriter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaWriter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaWriter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaWriter___c(JsonSchemaWriter___c const&) = delete;
+  JsonSchemaWriter___c(JsonSchemaWriter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13558 };
@@ -94,6 +95,7 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::Schema::JsonSchemaWriter___c) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Schema
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -151,13 +153,13 @@ protected:
   constexpr JsonSchemaWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaWriter(JsonSchemaWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaWriter(JsonSchemaWriter const&) = delete;
+  JsonSchemaWriter(JsonSchemaWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13559 };

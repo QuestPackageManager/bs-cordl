@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Zenject\WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject/WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "Zenject/zzzz__DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder_impl.hpp"
+#include "Zenject/zzzz__Kernel_impl.hpp"
 #include "Zenject/zzzz__WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
@@ -45,7 +46,9 @@ inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* Zen
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*>(), { "WithKernel", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, ___internal_method);
 }
-template <typename TKernel> inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel() {
+template <typename TKernel>
+  requires(::cordl_internals::type_constraint<TKernel, ::Zenject::Kernel*>)
+inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*>(), { "WithKernel", { ::i2c::class_of<TKernel>() }, {} })));

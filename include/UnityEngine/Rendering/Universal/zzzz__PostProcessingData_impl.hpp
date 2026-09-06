@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessingData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessingData.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PostProcessingData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ColorGradingMode_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalPostProcessingData_def.hpp"
@@ -133,7 +133,7 @@ inline ::by_ref<bool> UnityEngine::Rendering::Universal::PostProcessingData::get
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessingData>(), { "get_supportDataDrivenLensFlare", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<bool>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::PostProcessingData::PostProcessingData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept {
   this->frameData = frameData;
 }

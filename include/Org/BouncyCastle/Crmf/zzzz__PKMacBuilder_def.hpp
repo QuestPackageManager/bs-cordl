@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crmf\PKMacBuilder.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crmf/PKMacBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -166,13 +166,13 @@ protected:
   constexpr PKMacBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKMacBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKMacBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKMacBuilder(PKMacBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKMacBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKMacBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKMacBuilder(PKMacBuilder const&) = delete;
+  PKMacBuilder(PKMacBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 711 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PropertyMember.hpp"
+// IWYU pragma private; include "Unity/Properties/PropertyMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ struct PropertyMember;
 // Write type traits
 MARK_VAL_T(::Unity::Properties::PropertyMember);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::PropertyMember, "Unity.Properties", "PropertyMember");
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Properties {
 // Is value type: true
@@ -62,6 +63,7 @@ public:
   /// @brief Method get_IsReadOnly, addr 0x6ba1cf0, size 0x30, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6ba1ce8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
@@ -75,8 +77,8 @@ public:
   // @brief default ctor
   constexpr PropertyMember();
 
-  // Ctor Parameters [CppParam { name: "m_PropertyInfo", ty: "::System::Reflection::PropertyInfo*", modifiers: "", def_value: None }, CppParam { name: "_Name_k__BackingField", ty: "::StringW",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_PropertyInfo", ty: "::System::Reflection::PropertyInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Name_k__BackingField", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr PropertyMember(::System::Reflection::PropertyInfo* m_PropertyInfo, ::StringW _Name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -88,6 +90,8 @@ public:
   /// @brief Field m_PropertyInfo, offset: 0x0, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* m_PropertyInfo;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _Name_k__BackingField;
 

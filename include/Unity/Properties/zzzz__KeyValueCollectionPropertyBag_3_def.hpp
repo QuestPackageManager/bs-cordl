@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\KeyValueCollectionPropertyBag_3.hpp"
+// IWYU pragma private; include "Unity/Properties/KeyValueCollectionPropertyBag_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_def.hpp"
@@ -36,7 +37,9 @@ namespace System {
 class Object;
 }
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue> class Enumerable_KeyValueCollectionPropertyBag_3_Enumerator;
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+class Enumerable_KeyValueCollectionPropertyBag_3_Enumerator;
 }
 namespace Unity::Properties {
 template <typename TContainer> class ICollectionPropertyBagAccept_1;
@@ -45,7 +48,9 @@ namespace Unity::Properties {
 class ICollectionPropertyBagVisitor;
 }
 namespace Unity::Properties {
-template <typename TCollection, typename TElement> class ICollectionPropertyBag_2;
+template <typename TCollection, typename TElement>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
+class ICollectionPropertyBag_2;
 }
 namespace Unity::Properties {
 class IDictionaryElementProperty;
@@ -57,7 +62,9 @@ namespace Unity::Properties {
 class IDictionaryPropertyBagVisitor;
 }
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue> class IDictionaryPropertyBag_3;
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+class IDictionaryPropertyBag_3;
 }
 namespace Unity::Properties {
 template <typename TContainer, typename TKey> class IKeyedProperties_2;
@@ -72,26 +79,38 @@ namespace Unity::Properties {
 template <typename TContainer> class IProperty_1;
 }
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue> struct KeyValueCollectionPropertyBag_3_Enumerable;
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+struct KeyValueCollectionPropertyBag_3_Enumerable;
 }
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue> class KeyValueCollectionPropertyBag_3_KeyValuePairProperty;
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+class KeyValueCollectionPropertyBag_3_KeyValuePairProperty;
 }
 namespace Unity::Properties {
 template <typename TContainer> struct PropertyCollection_1;
 }
 // Forward declare root types
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue> class Enumerable_KeyValueCollectionPropertyBag_3_Enumerator;
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+class Enumerable_KeyValueCollectionPropertyBag_3_Enumerator;
 }
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue> class KeyValueCollectionPropertyBag_3;
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+class KeyValueCollectionPropertyBag_3;
 }
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue> class KeyValueCollectionPropertyBag_3_KeyValuePairProperty;
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+class KeyValueCollectionPropertyBag_3_KeyValuePairProperty;
 }
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue> struct KeyValueCollectionPropertyBag_3_Enumerable;
+template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+struct KeyValueCollectionPropertyBag_3_Enumerable;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::Enumerable_KeyValueCollectionPropertyBag_3_Enumerator);
@@ -102,10 +121,11 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::Enumerable_KeyValueCollectionPr
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::KeyValueCollectionPropertyBag_3, "Unity.Properties", "KeyValueCollectionPropertyBag`3");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty, "Unity.Properties", "KeyValueCollectionPropertyBag`3/KeyValuePairProperty");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Properties::KeyValueCollectionPropertyBag_3_Enumerable, "Unity.Properties", "KeyValueCollectionPropertyBag`3/Enumerable");
-// Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, Unity.Properties.Property`2<TContainer, TValue>
+// Dependencies System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, Unity.Properties.Property`2<TContainer, TValue>
 namespace Unity::Properties {
 // cpp template
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 // Is value type: false
 // CS Name: Unity.Properties.KeyValueCollectionPropertyBag`3/KeyValuePairProperty<TDictionary,TKey,TValue>
 class CORDL_TYPE KeyValueCollectionPropertyBag_3_KeyValuePairProperty : public ::Unity::Properties::Property_2<TDictionary, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>> {
@@ -145,6 +165,7 @@ public:
   /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TKey get_Key();
 
@@ -157,6 +178,7 @@ public:
   /// @brief Convert to "::Unity::Properties::IDictionaryElementProperty"
   constexpr ::Unity::Properties::IDictionaryElementProperty* i___Unity__Properties__IDictionaryElementProperty() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Key, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Key(TKey value);
 
@@ -166,17 +188,19 @@ protected:
   constexpr KeyValueCollectionPropertyBag_3_KeyValuePairProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3_KeyValuePairProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3_KeyValuePairProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyValueCollectionPropertyBag_3_KeyValuePairProperty(KeyValueCollectionPropertyBag_3_KeyValuePairProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3_KeyValuePairProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3_KeyValuePairProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyValueCollectionPropertyBag_3_KeyValuePairProperty(KeyValueCollectionPropertyBag_3_KeyValuePairProperty const&) = delete;
+  KeyValueCollectionPropertyBag_3_KeyValuePairProperty(KeyValueCollectionPropertyBag_3_KeyValuePairPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19657 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Key>k__BackingField, offset: 0x18, size: 0x8, def value: None
   TKey ____Key_k__BackingField;
 
@@ -184,10 +208,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Dependencies System.Object
+// Dependencies System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Object
 namespace Unity::Properties {
 // cpp template
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 // Is value type: false
 // CS Name: Unity.Properties.KeyValueCollectionPropertyBag`3/Enumerable/Enumerator<TDictionary,TKey,TValue>
 class CORDL_TYPE Enumerable_KeyValueCollectionPropertyBag_3_Enumerator : public ::System::Object {
@@ -289,13 +314,13 @@ protected:
   constexpr Enumerable_KeyValueCollectionPropertyBag_3_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Enumerable_KeyValueCollectionPropertyBag_3_Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Enumerable_KeyValueCollectionPropertyBag_3_Enumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Enumerable_KeyValueCollectionPropertyBag_3_Enumerator(Enumerable_KeyValueCollectionPropertyBag_3_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Enumerable_KeyValueCollectionPropertyBag_3_Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Enumerable_KeyValueCollectionPropertyBag_3_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable_KeyValueCollectionPropertyBag_3_Enumerator(Enumerable_KeyValueCollectionPropertyBag_3_Enumerator const&) = delete;
+  Enumerable_KeyValueCollectionPropertyBag_3_Enumerator(Enumerable_KeyValueCollectionPropertyBag_3_Enumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19658 };
@@ -319,10 +344,12 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Dependencies
+// [IsReadOnly]
+// Dependencies System.Collections.Generic.IDictionary`2<TKey, TValue>
 namespace Unity::Properties {
 // cpp template
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 // Is value type: true
 // CS Name: Unity.Properties.KeyValueCollectionPropertyBag`3/Enumerable<TDictionary,TKey,TValue>
 struct CORDL_TYPE KeyValueCollectionPropertyBag_3_Enumerable {
@@ -356,8 +383,8 @@ public:
   // @brief default ctor
   constexpr KeyValueCollectionPropertyBag_3_Enumerable();
 
-  // Ctor Parameters [CppParam { name: "m_Dictionary", ty: "TDictionary", modifiers: "", def_value: None }, CppParam { name: "m_Property", ty:
-  // "::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary,TKey,TValue>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Dictionary", ty: "TDictionary", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Property", ty:
+  // "::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary,TKey,TValue>*", modifiers: "", def_value: None, comment: None }]
   constexpr KeyValueCollectionPropertyBag_3_Enumerable(TDictionary m_Dictionary,
                                                        ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* m_Property) noexcept;
 
@@ -377,10 +404,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Dependencies Unity.Properties.PropertyBag`1<TContainer>
+// Dependencies System.Collections.Generic.IDictionary`2<TKey, TValue>, Unity.Properties.PropertyBag`1<TContainer>
 namespace Unity::Properties {
 // cpp template
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 // Is value type: false
 // CS Name: Unity.Properties.KeyValueCollectionPropertyBag`3<TDictionary,TKey,TValue>
 class CORDL_TYPE KeyValueCollectionPropertyBag_3 : public ::Unity::Properties::PropertyBag_1<TDictionary> {
@@ -470,13 +498,13 @@ protected:
   constexpr KeyValueCollectionPropertyBag_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyValueCollectionPropertyBag_3(KeyValueCollectionPropertyBag_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyValueCollectionPropertyBag_3(KeyValueCollectionPropertyBag_3 const&) = delete;
+  KeyValueCollectionPropertyBag_3(KeyValueCollectionPropertyBag_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19660 };

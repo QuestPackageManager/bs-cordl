@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\MemberMemberBinding.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/MemberMemberBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__Bindings_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Bindings, addr 0x5f86e64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* get_Bindings();
 
@@ -47,17 +48,18 @@ protected:
   constexpr MemberMemberBinding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemberMemberBinding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberMemberBinding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemberMemberBinding(MemberMemberBinding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemberMemberBinding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberMemberBinding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemberMemberBinding(MemberMemberBinding const&) = delete;
+  MemberMemberBinding(MemberMemberBindingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16202 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Bindings>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* ____Bindings_k__BackingField;
 

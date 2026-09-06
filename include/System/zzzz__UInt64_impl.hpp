@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UInt64.hpp"
+// IWYU pragma private; include "System/UInt64.hpp"
 #include "System/zzzz__UInt64_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
@@ -639,7 +639,7 @@ constexpr System::UInt64::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::UInt64::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::UInt64::UInt64(uint64_t m_value) noexcept {
   this->m_value = m_value;
 }

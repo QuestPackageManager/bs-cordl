@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataTableClearEventHandler.hpp"
+// IWYU pragma private; include "System/Data/DataTableClearEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,13 +42,13 @@ protected:
   constexpr DataTableClearEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataTableClearEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataTableClearEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataTableClearEventHandler(DataTableClearEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataTableClearEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataTableClearEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataTableClearEventHandler(DataTableClearEventHandler const&) = delete;
+  DataTableClearEventHandler(DataTableClearEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13792 };

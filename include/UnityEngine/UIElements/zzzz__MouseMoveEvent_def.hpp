@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseMoveEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseMoveEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ MARK_REF_T(::UnityEngine::UIElements::MouseMoveEvent*);
 MARK_REF_T(::UnityEngine::UIElements::MouseMoveEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseMoveEvent*, "UnityEngine.UIElements", "MouseMoveEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseMoveEvent___c*, "UnityEngine.UIElements", "MouseMoveEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -52,13 +53,13 @@ protected:
   constexpr MouseMoveEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseMoveEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseMoveEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseMoveEvent___c(MouseMoveEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseMoveEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseMoveEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseMoveEvent___c(MouseMoveEvent___c const&) = delete;
+  MouseMoveEvent___c(MouseMoveEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4493 };
@@ -69,6 +70,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::MouseMoveEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)2)]
 // Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -98,13 +100,13 @@ protected:
   constexpr MouseMoveEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseMoveEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseMoveEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseMoveEvent(MouseMoveEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseMoveEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseMoveEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseMoveEvent(MouseMoveEvent const&) = delete;
+  MouseMoveEvent(MouseMoveEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4494 };

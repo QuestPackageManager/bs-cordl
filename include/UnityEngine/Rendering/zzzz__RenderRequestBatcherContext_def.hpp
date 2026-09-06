@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderRequestBatcherContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderRequestBatcherContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   // @brief default ctor
   constexpr RenderRequestBatcherContext();
 
-  // Ctor Parameters [CppParam { name: "commandBuffer", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "commandBuffer", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: None, comment: None }]
   constexpr RenderRequestBatcherContext(::UnityEngine::Rendering::CommandBuffer* commandBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

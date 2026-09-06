@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\JsonParser.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/JsonParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,7 +105,7 @@ public:
   // @brief default ctor
   constexpr JsonParser_JsonValueType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr JsonParser_JsonValueType(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(7)
@@ -187,8 +187,8 @@ public:
   // @brief default ctor
   constexpr JsonParser_JsonString();
 
-  // Ctor Parameters [CppParam { name: "text", ty: "::UnityEngine::InputSystem::Utilities::Substring", modifiers: "", def_value: None }, CppParam { name: "hasEscapes", ty: "bool", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "text", ty: "::UnityEngine::InputSystem::Utilities::Substring", modifiers: "", def_value: None, comment: None }, CppParam { name: "hasEscapes", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr JsonParser_JsonString(::UnityEngine::InputSystem::Utilities::Substring text, bool hasEscapes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -213,6 +213,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::JsonParser_JsonStr
 static_assert(sizeof(::UnityEngine::InputSystem::Utilities::JsonParser_JsonString) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
@@ -260,13 +261,13 @@ protected:
   constexpr JsonValue_JsonParser___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonValue_JsonParser___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValue_JsonParser___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonValue_JsonParser___c(JsonValue_JsonParser___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonValue_JsonParser___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValue_JsonParser___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonValue_JsonParser___c(JsonValue_JsonParser___c const&) = delete;
+  JsonValue_JsonParser___c(JsonValue_JsonParser___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9168 };
@@ -353,12 +354,12 @@ public:
   // @brief default ctor
   constexpr JsonParser_JsonValue();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::Utilities::JsonParser_JsonValueType", modifiers: "", def_value: None }, CppParam { name: "boolValue", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "realValue", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "integerValue", ty: "int64_t", modifiers: "", def_value: None },
-  // CppParam { name: "stringValue", ty: "::UnityEngine::InputSystem::Utilities::JsonParser_JsonString", modifiers: "", def_value: None }, CppParam { name: "arrayValue", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*", modifiers: "", def_value: None }, CppParam { name: "objectValue", ty:
-  // "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*", modifiers: "", def_value: None }, CppParam { name: "anyValue", ty:
-  // "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::Utilities::JsonParser_JsonValueType", modifiers: "", def_value: None, comment: None }, CppParam { name: "boolValue", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "realValue", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "integerValue", ty:
+  // "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "stringValue", ty: "::UnityEngine::InputSystem::Utilities::JsonParser_JsonString", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "arrayValue", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "objectValue", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "anyValue", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr JsonParser_JsonValue(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValueType type, bool boolValue, double_t realValue, int64_t integerValue,
                                  ::UnityEngine::InputSystem::Utilities::JsonParser_JsonString stringValue,
                                  ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>* arrayValue,
@@ -490,9 +491,9 @@ public:
   // @brief default ctor
   constexpr JsonParser();
 
-  // Ctor Parameters [CppParam { name: "m_Text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Position", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_MatchAnyElementInArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_DryRun", ty: "bool",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Text", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MatchAnyElementInArray", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_DryRun", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr JsonParser(::StringW m_Text, int32_t m_Length, int32_t m_Position, bool m_MatchAnyElementInArray, bool m_DryRun) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

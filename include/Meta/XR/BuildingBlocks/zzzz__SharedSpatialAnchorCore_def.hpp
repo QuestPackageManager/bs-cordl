@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\SharedSpatialAnchorCore.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/SharedSpatialAnchorCore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,10 +21,14 @@ namespace GlobalNamespace {
 struct OVRAnchor_ShareResult;
 }
 namespace GlobalNamespace {
-template <typename TStatus> struct OVRResult_1;
+template <typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_1;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus> struct OVRResult_2;
+template <typename TValue, typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_2;
 }
 namespace GlobalNamespace {
 struct OVRSpaceUser;
@@ -117,6 +121,7 @@ DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAnd
 DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchors_d__17, "Meta.XR.BuildingBlocks", "SharedSpatialAnchorCore/<LoadAndInstantiateAnchors>d__17");
 DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadSharedSpatialAnchorsRoutine_d__19, "Meta.XR.BuildingBlocks",
                     "SharedSpatialAnchorCore/<LoadSharedSpatialAnchorsRoutine>d__19");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace Meta::XR::BuildingBlocks {
 // Is value type: true
@@ -130,6 +135,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a377f0, size 0x31c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a37c90, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -140,10 +146,10 @@ public:
   // @brief default ctor
   constexpr SharedSpatialAnchorCore__InitSpatialAnchor_d__16();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>",
-  // modifiers: "", def_value: None }, CppParam { name: "anchor", ty: "::UnityW<::GlobalNamespace::OVRSpatialAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>", modifiers: "", def_value: None, comment: None }, CppParam { name: "anchor", ty: "::UnityW<::GlobalNamespace::OVRSpatialAnchor>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr SharedSpatialAnchorCore__InitSpatialAnchor_d__16(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                              ::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore> __4__this, ::UnityW<::GlobalNamespace::OVRSpatialAnchor> anchor,
                                                              ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -185,6 +191,7 @@ static_assert(offsetof(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__Init
 static_assert(sizeof(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InitSpatialAnchor_d__16) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::BuildingBlocks
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace Meta::XR::BuildingBlocks {
 // Is value type: true
@@ -198,6 +205,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a37cfc, size 0x300, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a37ffc, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -208,11 +216,11 @@ public:
   // @brief default ctor
   constexpr SharedSpatialAnchorCore__InstantiateSpatialAnchor_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "prefab", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value:
-  // None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None
-  // }, CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefab", ty: "::UnityW<::UnityEngine::GameObject>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty:
+  // "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr SharedSpatialAnchorCore__InstantiateSpatialAnchor_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                     ::UnityW<::UnityEngine::GameObject> prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                     ::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore> __4__this,
@@ -265,6 +273,7 @@ static_assert(offsetof(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__Inst
 static_assert(sizeof(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__InstantiateSpatialAnchor_d__15) == 0x60, "Size mismatch!");
 
 } // namespace Meta::XR::BuildingBlocks
+// [CompilerGenerated]
 // Dependencies OVRObjectPool::ListScope`1<T>, OVRResult`2<TValue, TStatus>, OVRSpatialAnchor::OperationResult, OVRSpatialAnchor::UnboundAnchor, OVRTask`1::Awaiter<TResult>,
 // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 namespace Meta::XR::BuildingBlocks {
@@ -279,6 +288,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a38004, size 0x498, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a3849c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -289,13 +299,14 @@ public:
   // @brief default ctor
   constexpr SharedSpatialAnchorCore__LoadAndInstantiateAnchors_d__17();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "uuids", ty: "::System::Collections::Generic::List_1<::System::Guid>*",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>", modifiers: "", def_value: None }, CppParam { name: "prefab",
-  // ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "_unboundAnchorsPoolHandle_5__2", ty:
-  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "uuids", ty:
+  // "::System::Collections::Generic::List_1<::System::Guid>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefab", ty: "::UnityW<::UnityEngine::GameObject>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_unboundAnchorsPoolHandle_5__2", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>",
-  // modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }]
   constexpr SharedSpatialAnchorCore__LoadAndInstantiateAnchors_d__17(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::System::Collections::Generic::List_1<::System::Guid>* uuids,
       ::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore> __4__this, ::UnityW<::UnityEngine::GameObject> prefab,
@@ -353,6 +364,7 @@ static_assert(offsetof(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__Load
 static_assert(sizeof(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchors_d__17) == 0x58, "Size mismatch!");
 
 } // namespace Meta::XR::BuildingBlocks
+// [CompilerGenerated]
 // Dependencies OVRObjectPool::ListScope`1<T>, OVRResult`2<TValue, TStatus>, OVRSpatialAnchor::OperationResult, OVRSpatialAnchor::UnboundAnchor, OVRTask`1::Awaiter<TResult>, System.Guid,
 // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 namespace Meta::XR::BuildingBlocks {
@@ -367,6 +379,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a384a4, size 0x3dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a38880, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -377,13 +390,13 @@ public:
   // @brief default ctor
   constexpr SharedSpatialAnchorCore__LoadAndInstantiateAnchorsFromGroup_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam {
-  // name: "__4__this", ty: "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>", modifiers: "", def_value: None }, CppParam { name: "prefab", ty: "::UnityW<::UnityEngine::GameObject>",
-  // modifiers: "", def_value: None }, CppParam { name: "_unboundAnchorsPoolHandle_5__2", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefab", ty:
+  // "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_unboundAnchorsPoolHandle_5__2", ty:
+  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>",
-  // modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }]
   constexpr SharedSpatialAnchorCore__LoadAndInstantiateAnchorsFromGroup_d__18(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::System::Guid groupUuid, ::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore> __4__this,
       ::UnityW<::UnityEngine::GameObject> prefab, ::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor> _unboundAnchorsPoolHandle_5__2,
@@ -440,6 +453,7 @@ static_assert(offsetof(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__Load
 static_assert(sizeof(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore__LoadAndInstantiateAnchorsFromGroup_d__18) == 0x60, "Size mismatch!");
 
 } // namespace Meta::XR::BuildingBlocks
+// [CompilerGenerated]
 // Dependencies OVRObjectPool::ListScope`1<T>, OVRResult`2<TValue, TStatus>, OVRSpatialAnchor::OperationResult, OVRSpatialAnchor::UnboundAnchor, OVRTask`1::Awaiter<TResult>,
 // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 namespace Meta::XR::BuildingBlocks {
@@ -454,6 +468,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a38888, size 0xa24, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a392ac, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -464,16 +479,16 @@ public:
   // @brief default ctor
   constexpr SharedSpatialAnchorCore__LoadSharedSpatialAnchorsRoutine_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "result", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "result", ty:
   // "::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*,::GlobalNamespace::OVRSpatialAnchor_OperationResult>", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>", modifiers: "", def_value: None }, CppParam { name: "prefab", ty:
-  // "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "_unboundAnchors_5__2", ty:
-  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers: "", def_value: None }, CppParam { name: "_loadedAnchors_5__3", ty:
-  // "::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty:
-  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>", modifiers: "", def_value: None }, CppParam { name: "_i_5__5", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_unboundAnchor_5__6", ty: "::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: None }]
+  // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "prefab", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_unboundAnchors_5__2", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_loadedAnchors_5__3", ty:
+  // "::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap3", ty:
+  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_i_5__5", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_unboundAnchor_5__6", ty: "::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr SharedSpatialAnchorCore__LoadSharedSpatialAnchorsRoutine_d__19(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
       ::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult> result,
@@ -601,18 +616,23 @@ public:
   __declspec(property(get = __cordl_internal_get__onSpatialAnchorsShareToGroupCompleted, put = __cordl_internal_set__onSpatialAnchorsShareToGroupCompleted)) ::UnityEngine::Events::UnityEvent_2<
       ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRAnchor_ShareResult>* _onSpatialAnchorsShareToGroupCompleted;
 
+  /// [AsyncStateMachine(typeof(Meta.XR.BuildingBlocks.SharedSpatialAnchorCore::<InitSpatialAnchor>d__16))]
   /// @brief Method InitSpatialAnchor, addr 0x5a36bc8, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitSpatialAnchor(::GlobalNamespace::OVRSpatialAnchor* anchor);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.BuildingBlocks.SharedSpatialAnchorCore::<InstantiateSpatialAnchor>d__15))]
   /// @brief Method InstantiateSpatialAnchor, addr 0x5a36ac8, size 0x100, virtual false, abstract: false, final false
   inline void InstantiateSpatialAnchor(::UnityEngine::GameObject* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.BuildingBlocks.SharedSpatialAnchorCore::<LoadAndInstantiateAnchors>d__17))]
   /// @brief Method LoadAndInstantiateAnchors, addr 0x5a36c8c, size 0xbc, virtual true, abstract: false, final false
   inline void LoadAndInstantiateAnchors(::UnityEngine::GameObject* prefab, ::System::Collections::Generic::List_1<::System::Guid>* uuids);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.BuildingBlocks.SharedSpatialAnchorCore::<LoadAndInstantiateAnchorsFromGroup>d__18))]
   /// @brief Method LoadAndInstantiateAnchorsFromGroup, addr 0x5a36d48, size 0xc4, virtual false, abstract: false, final false
   inline void LoadAndInstantiateAnchorsFromGroup(::UnityEngine::GameObject* prefab, ::System::Guid groupUuid);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.BuildingBlocks.SharedSpatialAnchorCore::<LoadSharedSpatialAnchorsRoutine>d__19))]
   /// @brief Method LoadSharedSpatialAnchorsRoutine, addr 0x5a36e0c, size 0xc4, virtual false, abstract: false, final false
   inline void LoadSharedSpatialAnchorsRoutine(
       ::UnityEngine::GameObject* prefab,
@@ -720,25 +740,28 @@ protected:
   constexpr SharedSpatialAnchorCore();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedSpatialAnchorCore", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedSpatialAnchorCore", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedSpatialAnchorCore(SharedSpatialAnchorCore&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedSpatialAnchorCore", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedSpatialAnchorCore", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedSpatialAnchorCore(SharedSpatialAnchorCore const&) = delete;
+  SharedSpatialAnchorCore(SharedSpatialAnchorCoreconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21372 };
 
+  /// [SerializeField]
   /// @brief Field _onSpatialAnchorsShareCompleted, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent_2<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>*
       ____onSpatialAnchorsShareCompleted;
 
+  /// [SerializeField]
   /// @brief Field _onSpatialAnchorsShareToGroupCompleted, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent_2<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRAnchor_ShareResult>*
       ____onSpatialAnchorsShareToGroupCompleted;
 
+  /// [SerializeField]
   /// @brief Field _onSharedSpatialAnchorsLoadCompleted, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent_2<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>*
       ____onSharedSpatialAnchorsLoadCompleted;

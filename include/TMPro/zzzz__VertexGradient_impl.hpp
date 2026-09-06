@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\VertexGradient.hpp"
+// IWYU pragma private; include "TMPro/VertexGradient.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "TMPro/zzzz__VertexGradient_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -44,9 +44,9 @@ inline void TMPro::VertexGradient::_ctor(::UnityEngine::Color color0, ::UnityEng
           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, color0, color1, color2, color3);
 }
-// Ctor Parameters [CppParam { name: "topLeft", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "topRight", ty: "::UnityEngine::Color", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "bottomLeft", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomRight", ty: "::UnityEngine::Color", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "topLeft", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "topRight", ty: "::UnityEngine::Color", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "bottomLeft", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bottomRight", ty:
+// "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::VertexGradient::VertexGradient(::UnityEngine::Color topLeft, ::UnityEngine::Color topRight, ::UnityEngine::Color bottomLeft, ::UnityEngine::Color bottomRight) noexcept {
   this->topLeft = topLeft;
   this->topRight = topRight;

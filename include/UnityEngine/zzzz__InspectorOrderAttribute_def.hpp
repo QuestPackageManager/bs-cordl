@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InspectorOrderAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/InspectorOrderAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class InspectorOrderAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::InspectorOrderAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InspectorOrderAttribute*, "UnityEngine", "InspectorOrderAttribute");
+// [AttributeUsage((System.AttributeTargets)16)]
 // Dependencies UnityEngine.InspectorSort, UnityEngine.InspectorSortDirection, UnityEngine.PropertyAttribute
 namespace UnityEngine {
 // Is value type: false
@@ -51,9 +52,11 @@ public:
 
   constexpr void __cordl_internal_set__m_sortDirection_k__BackingField(::UnityEngine::InspectorSortDirection value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_m_inspectorSort, addr 0x6ae3c80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSort get_m_inspectorSort();
 
+  /// [CompilerGenerated]
   /// @brief Method get_m_sortDirection, addr 0x6ae3c88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSortDirection get_m_sortDirection();
 
@@ -63,20 +66,24 @@ protected:
   constexpr InspectorOrderAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectorOrderAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorOrderAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InspectorOrderAttribute(InspectorOrderAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectorOrderAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorOrderAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectorOrderAttribute(InspectorOrderAttribute const&) = delete;
+  InspectorOrderAttribute(InspectorOrderAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10347 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <m_inspectorSort>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::InspectorSort ____m_inspectorSort_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <m_sortDirection>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::InspectorSortDirection ____m_sortDirection_k__BackingField;
 

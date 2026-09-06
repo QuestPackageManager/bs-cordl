@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SmoothStepPositionGroupEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/SmoothStepPositionGroupEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -213,47 +213,61 @@ protected:
   constexpr SmoothStepPositionGroupEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SmoothStepPositionGroupEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmoothStepPositionGroupEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmoothStepPositionGroupEventEffect(SmoothStepPositionGroupEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SmoothStepPositionGroupEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmoothStepPositionGroupEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmoothStepPositionGroupEventEffect(SmoothStepPositionGroupEventEffect const&) = delete;
+  SmoothStepPositionGroupEventEffect(SmoothStepPositionGroupEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5946 };
 
+  /// [SerializeField]
   /// @brief Field _event, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
 
+  /// [SerializeField]
   /// @brief Field _elements, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____elements;
 
+  /// [SerializeField]
   /// @brief Field _clampValue, offset: 0x30, size: 0x1, def value: None
   bool ____clampValue;
 
+  /// [SerializeField]
+  /// [DrawIf("_clampValue", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _eventValueMin, offset: 0x34, size: 0x4, def value: None
   int32_t ____eventValueMin;
 
+  /// [SerializeField]
+  /// [DrawIf("_clampValue", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _eventValueMax, offset: 0x38, size: 0x4, def value: None
   int32_t ____eventValueMax;
 
+  /// [Space(10)]
+  /// [SerializeField]
   /// @brief Field _baseOffset, offset: 0x3c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____baseOffset;
 
+  /// [SerializeField]
   /// @brief Field _movementVector, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____movementVector;
 
+  /// [SerializeField]
   /// @brief Field _stepSize, offset: 0x54, size: 0x4, def value: None
   float_t ____stepSize;
 
+  /// [SerializeField]
   /// @brief Field _easeType, offset: 0x58, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;
 

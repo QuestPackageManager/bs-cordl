@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\DebugScreenCapture.hpp"
+// IWYU pragma private; include "Unity/Profiling/DebugScreenCapture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugScreenCapture)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine {
 struct TextureFormat;
@@ -36,15 +38,19 @@ public:
 
   __declspec(property(put = set_Width)) int32_t Width;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Height, addr 0x6a5df38, size 0x8, virtual false, abstract: false, final false
   inline void set_Height(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ImageFormat, addr 0x6a5df28, size 0x8, virtual false, abstract: false, final false
   inline void set_ImageFormat(::UnityEngine::TextureFormat value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RawImageDataReference, addr 0x6a5df20, size 0x8, virtual false, abstract: false, final false
   inline void set_RawImageDataReference(::Unity::Collections::NativeArray_1<uint8_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Width, addr 0x6a5df30, size 0x8, virtual false, abstract: false, final false
   inline void set_Width(int32_t value);
 
@@ -52,9 +58,9 @@ public:
   // @brief default ctor
   constexpr DebugScreenCapture();
 
-  // Ctor Parameters [CppParam { name: "_RawImageDataReference_k__BackingField", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "_ImageFormat_k__BackingField", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_Height_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_RawImageDataReference_k__BackingField", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_ImageFormat_k__BackingField", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_Height_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugScreenCapture(::Unity::Collections::NativeArray_1<uint8_t> _RawImageDataReference_k__BackingField, ::UnityEngine::TextureFormat _ImageFormat_k__BackingField,
                                int32_t _Width_k__BackingField, int32_t _Height_k__BackingField) noexcept;
 
@@ -64,15 +70,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <RawImageDataReference>k__BackingField, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> _RawImageDataReference_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ImageFormat>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::TextureFormat _ImageFormat_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Width>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t _Width_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Height>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t _Height_k__BackingField;
 

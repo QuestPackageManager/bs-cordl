@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\PermissionCallbacks.hpp"
+// IWYU pragma private; include "UnityEngine/Android/PermissionCallbacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr PermissionCallbacks_Result();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PermissionCallbacks_Result(int32_t value__) noexcept;
 
   /// @brief Field Denied value: I32(2)
@@ -146,30 +146,38 @@ public:
   /// @brief Method .ctor, addr 0x6a3463c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_PermissionDenied, addr 0x6a341bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_PermissionDenied(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PermissionDeniedAndDontAskAgain, addr 0x6a3433c, size 0xc0, virtual false, abstract: false, final false
   inline void add_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PermissionGranted, addr 0x6a3403c, size 0xc0, virtual false, abstract: false, final false
   inline void add_PermissionGranted(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PermissionRequestDismissed, addr 0x6a344bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_PermissionRequestDismissed(::System::Action_1<::StringW>* value);
 
   /// @brief Method onPermissionResult, addr 0x6a34740, size 0xf8, virtual false, abstract: false, final false
   inline void onPermissionResult(::System::IntPtr javaArgs);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PermissionDenied, addr 0x6a3427c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_PermissionDenied(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PermissionDeniedAndDontAskAgain, addr 0x6a343fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PermissionGranted, addr 0x6a340fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_PermissionGranted(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PermissionRequestDismissed, addr 0x6a3457c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_PermissionRequestDismissed(::System::Action_1<::StringW>* value);
 
@@ -179,26 +187,34 @@ protected:
   constexpr PermissionCallbacks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PermissionCallbacks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PermissionCallbacks", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PermissionCallbacks(PermissionCallbacks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PermissionCallbacks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PermissionCallbacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PermissionCallbacks(PermissionCallbacks const&) = delete;
+  PermissionCallbacks(PermissionCallbacksconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20177 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field PermissionGranted, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___PermissionGranted;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field PermissionDenied, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___PermissionDenied;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field PermissionDeniedAndDontAskAgain, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___PermissionDeniedAndDontAskAgain;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field PermissionRequestDismissed, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___PermissionRequestDismissed;
 

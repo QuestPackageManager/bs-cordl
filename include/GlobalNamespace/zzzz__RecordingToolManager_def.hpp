@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RecordingToolManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/RecordingToolManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,6 +91,8 @@ public:
   /// @brief Method SetupNextSettings, addr 0x58fe1a8, size 0x360, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingSettings* SetupNextSettings();
 
+  /// [NullableContext(1)]
+  /// [CompilerGenerated]
   /// @brief Method <Run>b__14_0, addr 0x58fe508, size 0x4, virtual false, abstract: false, final false
   inline void _Run_b__14_0(::GlobalNamespace::StandardLevelScenesTransitionSetupData* StandardLevelScenesTransitionSetupData, ::GlobalNamespace::LevelCompletionResults* LevelCompletionResults);
 
@@ -167,13 +169,13 @@ protected:
   constexpr RecordingToolManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingToolManager(RecordingToolManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolManager(RecordingToolManager const&) = delete;
+  RecordingToolManager(RecordingToolManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6638 };

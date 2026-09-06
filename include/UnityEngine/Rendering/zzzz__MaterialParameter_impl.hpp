@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MaterialParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MaterialParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MaterialParameter_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"

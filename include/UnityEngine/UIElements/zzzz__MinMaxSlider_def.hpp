@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MinMaxSlider.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MinMaxSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace UnityEngine::UIElements {
 class BlurEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ClampedDragger_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+class ClampedDragger_1;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -79,6 +81,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MinMaxSlider_DragState, "UnityEng
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MinMaxSlider*, "UnityEngine.UIElements", "MinMaxSlider");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MinMaxSlider_UxmlFactory*, "UnityEngine.UIElements", "MinMaxSlider/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MinMaxSlider_UxmlTraits*, "UnityEngine.UIElements", "MinMaxSlider/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -97,13 +100,13 @@ protected:
   constexpr MinMaxSlider_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MinMaxSlider_UxmlFactory(MinMaxSlider_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MinMaxSlider_UxmlFactory(MinMaxSlider_UxmlFactory const&) = delete;
+  MinMaxSlider_UxmlFactory(MinMaxSlider_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4246 };
@@ -114,6 +117,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::MinMaxSlider_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -171,13 +175,13 @@ protected:
   constexpr MinMaxSlider_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MinMaxSlider_UxmlTraits(MinMaxSlider_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MinMaxSlider_UxmlTraits(MinMaxSlider_UxmlTraits const&) = delete;
+  MinMaxSlider_UxmlTraits(MinMaxSlider_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4247 };
@@ -239,7 +243,7 @@ public:
   // @brief default ctor
   constexpr MinMaxSlider_DragState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MinMaxSlider_DragState(int32_t value__) noexcept;
 
   /// @brief Field MaxThumb value: I32(1)
@@ -311,6 +315,7 @@ public:
   /// @brief Field draggerUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_draggerUssClassName, put = setStaticF_draggerUssClassName)) ::StringW draggerUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_highLimit, put = set_highLimit)) float_t highLimit;
 
   /// @brief Field highLimitProperty, offset 0xffffffff, size 0x98
@@ -322,6 +327,7 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_lowLimit, put = set_lowLimit)) float_t lowLimit;
 
   /// @brief Field lowLimitProperty, offset 0xffffffff, size 0x98
@@ -345,6 +351,7 @@ public:
   /// @brief Field maxThumbUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_maxThumbUssClassName, put = setStaticF_maxThumbUssClassName)) ::StringW maxThumbUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_maxValue, put = set_maxValue)) float_t maxValue;
 
   /// @brief Field maxValueProperty, offset 0xffffffff, size 0x98
@@ -353,6 +360,7 @@ public:
   /// @brief Field minThumbUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_minThumbUssClassName, put = setStaticF_minThumbUssClassName)) ::StringW minThumbUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_minValue, put = set_minValue)) float_t minValue;
 
   /// @brief Field minValueProperty, offset 0xffffffff, size 0x98
@@ -361,6 +369,7 @@ public:
   /// @brief Field movableUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_movableUssClassName, put = setStaticF_movableUssClassName)) ::StringW movableUssClassName;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_range)) float_t range;
 
   /// @brief Field rangeProperty, offset 0xffffffff, size 0x98
@@ -389,6 +398,7 @@ public:
   /// @brief Method GetNavigationState, addr 0x6d52578, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MinMaxSlider_DragState GetNavigationState();
 
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.GeometryChangedEvent) })]
   /// @brief Method HandleEventBubbleUp, addr 0x6d52448, size 0x130, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
@@ -527,15 +537,19 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clampedDragger, addr 0x6d5085c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ClampedDragger_1<float_t>* get_clampedDragger();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dragElement, addr 0x6d5082c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragElement();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dragMaxThumb, addr 0x6d5084c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragMaxThumb();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dragMinThumb, addr 0x6d5083c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragMinThumb();
 
@@ -583,15 +597,19 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clampedDragger, addr 0x6d50864, size 0x8, virtual false, abstract: false, final false
   inline void set_clampedDragger(::UnityEngine::UIElements::ClampedDragger_1<float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dragElement, addr 0x6d50834, size 0x8, virtual false, abstract: false, final false
   inline void set_dragElement(::UnityEngine::UIElements::VisualElement* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dragMaxThumb, addr 0x6d50854, size 0x8, virtual false, abstract: false, final false
   inline void set_dragMaxThumb(::UnityEngine::UIElements::VisualElement* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dragMinThumb, addr 0x6d50844, size 0x8, virtual false, abstract: false, final false
   inline void set_dragMinThumb(::UnityEngine::UIElements::VisualElement* value);
 
@@ -616,26 +634,34 @@ protected:
   constexpr MinMaxSlider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MinMaxSlider(MinMaxSlider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MinMaxSlider(MinMaxSlider const&) = delete;
+  MinMaxSlider(MinMaxSliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4249 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <dragElement>k__BackingField, offset: 0x528, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragElement_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dragMinThumb>k__BackingField, offset: 0x530, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragMinThumb_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dragMaxThumb>k__BackingField, offset: 0x538, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragMaxThumb_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <clampedDragger>k__BackingField, offset: 0x540, size: 0x8, def value: None
   ::UnityEngine::UIElements::ClampedDragger_1<float_t>* ____clampedDragger_k__BackingField;
 

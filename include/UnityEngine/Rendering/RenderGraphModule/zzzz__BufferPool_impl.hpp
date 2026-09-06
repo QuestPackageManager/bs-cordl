@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BufferPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BufferPool.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphResourcePool_1_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferPool_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
@@ -90,12 +90,12 @@ inline void UnityEngine::Rendering::RenderGraphModule::BufferPool::ReleaseIntern
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, res);
 }
-inline ::StringW UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceName(::by_ref<::UnityEngine::GraphicsBuffer*> res) {
+inline ::StringW UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer*> res) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, res);
 }
-inline int64_t UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceSize(::by_ref<::UnityEngine::GraphicsBuffer*> res) {
+inline int64_t UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer*> res) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method, res);

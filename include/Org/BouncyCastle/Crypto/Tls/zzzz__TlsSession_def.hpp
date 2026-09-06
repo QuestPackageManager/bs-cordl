@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsSession.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsSession.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,21 +27,21 @@ public:
 
   __declspec(property(get = get_SessionID)) ::ArrayW<uint8_t> SessionID;
 
-  /// @brief Method ExportSessionParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExportSessionParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* ExportSessionParameters();
 
-  /// @brief Method Invalidate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Invalidate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Invalidate();
 
-  /// @brief Method get_IsResumable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsResumable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsResumable();
 
-  /// @brief Method get_SessionID, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SessionID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> get_SessionID();
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsSession", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsSession", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsSession(TlsSession const&) = delete;
+  TlsSession(TlsSessionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1324 };

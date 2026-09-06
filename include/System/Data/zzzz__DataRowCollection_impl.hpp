@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRowCollection.hpp"
+// IWYU pragma private; include "System/Data/DataRowCollection.hpp"
 #include "System/Data/zzzz__InternalDataCollectionBase_impl.hpp"
 #include "System/Data/zzzz__RBTree_1_impl.hpp"
 #include "System/Data/zzzz__DataRowCollection_def.hpp"
@@ -316,7 +316,7 @@ inline int32_t System::Data::DataRowCollection::IndexOf(::System::Data::DataRow*
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowCollection*>(), { "IndexOf", {}, { ::i2c::type_of<::System::Data::DataRow*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, row);
 }
-inline ::System::Data::DataRow* System::Data::DataRowCollection::AddWithColumnEvents(::ArrayW<::System::Object*> values) {
+inline ::System::Data::DataRow* System::Data::DataRowCollection::AddWithColumnEvents(/* [ParamArray] */ ::ArrayW<::System::Object*> values) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowCollection*>(), { "AddWithColumnEvents", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Data::DataRow*>(this, ___internal_method, values);

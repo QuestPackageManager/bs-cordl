@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongProgressUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongProgressUIController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class SongProgressUIController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SongProgressUIController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongProgressUIController*, "", "SongProgressUIController");
+// [AddComponentMenu("Beat Saber/Gameplay/SongProgressUIController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -232,47 +233,59 @@ protected:
   constexpr SongProgressUIController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongProgressUIController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongProgressUIController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongProgressUIController(SongProgressUIController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongProgressUIController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongProgressUIController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongProgressUIController(SongProgressUIController const&) = delete;
+  SongProgressUIController(SongProgressUIControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6021 };
 
+  /// [SerializeField]
   /// @brief Field _slider, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Slider> ____slider;
 
+  /// [SerializeField]
   /// @brief Field _progressImage, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____progressImage;
 
+  /// [SerializeField]
   /// @brief Field _durationMinutesText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____durationMinutesText;
 
+  /// [SerializeField]
   /// @brief Field _durationSecondsText, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____durationSecondsText;
 
+  /// [SerializeField]
   /// @brief Field _progressMinutesText, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____progressMinutesText;
 
+  /// [SerializeField]
   /// @brief Field _progressSecondsText, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____progressSecondsText;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _durationRectTransform, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____durationRectTransform;
 
+  /// [SerializeField]
   /// @brief Field _durationTextOffsetShort, offset: 0x58, size: 0x4, def value: None
   float_t ____durationTextOffsetShort;
 
+  /// [SerializeField]
   /// @brief Field _durationTextOffsetLong, offset: 0x5c, size: 0x4, def value: None
   float_t ____durationTextOffsetLong;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
+  /// [Inject]
   /// @brief Field _songController, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongController> ____songController;
 

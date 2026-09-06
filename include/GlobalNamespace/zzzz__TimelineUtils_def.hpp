@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TimelineUtils.hpp"
+// IWYU pragma private; include "GlobalNamespace/TimelineUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class TimelineUtils;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TimelineUtils*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TimelineUtils*, "", "TimelineUtils");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -26,6 +27,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE TimelineUtils : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method FindTrackAssetByName, addr 0x590a5dc, size 0x3cc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::TrackAsset> FindTrackAssetByName(::UnityEngine::Timeline::TimelineAsset* timeline, ::StringW name);
 
@@ -35,13 +37,13 @@ protected:
   constexpr TimelineUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineUtils(TimelineUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineUtils(TimelineUtils const&) = delete;
+  TimelineUtils(TimelineUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6705 };

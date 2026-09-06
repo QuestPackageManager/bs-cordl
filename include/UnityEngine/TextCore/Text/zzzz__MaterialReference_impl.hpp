@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\MaterialReference.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/MaterialReference.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MaterialReference_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
@@ -94,11 +94,12 @@ inline int32_t UnityEngine::TextCore::Text::MaterialReference::AddMaterialRefere
                                                                                              ::i2c::type_of<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, material, spriteAsset, materialReferences, materialReferenceIndexLookup);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "spriteAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty:
-// "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "isFallbackMaterial", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "fallbackMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "padding", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "referenceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontAsset", ty:
+// "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "spriteAsset", ty:
+// "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "isFallbackMaterial", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fallbackMaterial", ty:
+// "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "padding", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "referenceCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::MaterialReference::MaterialReference(int32_t index, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset,
                                                                               ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset, ::UnityW<::UnityEngine::Material> material,
                                                                               bool isFallbackMaterial, ::UnityW<::UnityEngine::Material> fallbackMaterial, float_t padding,

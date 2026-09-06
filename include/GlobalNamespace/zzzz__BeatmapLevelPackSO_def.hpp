@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelPackSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelPackSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -166,38 +166,48 @@ protected:
   constexpr BeatmapLevelPackSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelPackSO(BeatmapLevelPackSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelPackSO(BeatmapLevelPackSO const&) = delete;
+  BeatmapLevelPackSO(BeatmapLevelPackSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14981 };
 
+  /// [SerializeField]
   /// @brief Field _packID, offset: 0x18, size: 0x8, def value: None
   ::StringW ____packID;
 
+  /// [SerializeField]
   /// @brief Field _packName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____packName;
 
+  /// [SerializeField]
   /// @brief Field _shortPackName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____shortPackName;
 
+  /// [SerializeField]
   /// @brief Field _coverImage, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____coverImage;
 
+  /// [SerializeField]
   /// @brief Field _smallCoverImage, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____smallCoverImage;
 
+  /// [SerializeField]
   /// @brief Field _packBuyOption, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::PackBuyOption ____packBuyOption;
 
+  /// [Tooltip("This concerns game rating systems (ESRB, PEGI, etc), not music rating")]
+  /// [SerializeField]
   /// @brief Field _contentRating, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::PlayerSensitivityFlag ____contentRating;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _beatmapLevelCollection, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> ____beatmapLevelCollection;
 

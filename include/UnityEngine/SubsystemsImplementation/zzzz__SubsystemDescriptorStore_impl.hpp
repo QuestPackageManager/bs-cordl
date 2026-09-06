@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SubsystemsImplementation\SubsystemDescriptorStore.hpp"
+// IWYU pragma private; include "UnityEngine/SubsystemsImplementation/SubsystemDescriptorStore.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_impl.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorStore_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -124,7 +125,9 @@ inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::Rep
                                                                                          { "ReportSingleSubsystemAnalytics", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, id);
 }
-template <typename T> inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystemDescriptor*>)
+inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*>(),
                                                            { "GetSubsystemDescriptors", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>() } })));
@@ -132,6 +135,7 @@ template <typename T> inline void UnityEngine::SubsystemsImplementation::Subsyst
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, descriptors);
 }
 template <typename TBaseTypeInList, typename TQueryType>
+  requires(::cordl_internals::type_constraint<TBaseTypeInList, ::UnityEngine::ISubsystemDescriptor*> && ::cordl_internals::type_constraint<TQueryType, ::UnityEngine::ISubsystemDescriptor*>)
 inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::AddDescriptorSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom,
                                                                                                  ::System::Collections::Generic::List_1<TQueryType>* copyTo) {
   static auto* ___internal_method_base =
@@ -144,6 +148,7 @@ inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::Add
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, copyFrom, copyTo);
 }
 template <typename TDescriptor, typename TBaseTypeInList>
+  requires(::cordl_internals::type_constraint<TDescriptor, TBaseTypeInList> && ::cordl_internals::type_constraint<TBaseTypeInList, ::UnityEngine::ISubsystemDescriptor*>)
 inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::RegisterDescriptor(TDescriptor descriptor, ::System::Collections::Generic::List_1<TBaseTypeInList>* storeInList) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*>(),

@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\InfoBoxAttribute.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/InfoBoxAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__InfoBoxAttribute_def.hpp"
 #include "BGLib/UnityExtension/zzzz__InfoBoxAttribute_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::UnityExtension::InfoBoxAttribute_Type::InfoBoxAttribute_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\LowLevel\BurstCompilerService.hpp"
+// IWYU pragma private; include "Unity/Burst/LowLevel/BurstCompilerService.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/LowLevel/zzzz__BurstCompilerService_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
@@ -7,7 +7,7 @@
 #include "Unity/Burst/LowLevel/zzzz__BurstCompilerService_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType::BurstCompilerService_BurstLogType(int32_t value__) noexcept {
   this->value__ = value__;
 }

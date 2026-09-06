@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainSettingsAsyncLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainSettingsAsyncLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,13 +113,13 @@ protected:
   constexpr MainSettingsAsyncLoader_MainSettingsInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader_MainSettingsInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader_MainSettingsInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainSettingsAsyncLoader_MainSettingsInstaller(MainSettingsAsyncLoader_MainSettingsInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader_MainSettingsInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader_MainSettingsInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSettingsAsyncLoader_MainSettingsInstaller(MainSettingsAsyncLoader_MainSettingsInstaller const&) = delete;
+  MainSettingsAsyncLoader_MainSettingsInstaller(MainSettingsAsyncLoader_MainSettingsInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21025 };
@@ -140,6 +140,7 @@ static_assert(offsetof(::GlobalNamespace::MainSettingsAsyncLoader_MainSettingsIn
 static_assert(sizeof(::GlobalNamespace::MainSettingsAsyncLoader_MainSettingsInstaller) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatSaber.Settings.Settings, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -153,6 +154,7 @@ public:
   /// @brief Method MoveNext, addr 0x37766d8, size 0x324, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x37769fc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -163,11 +165,11 @@ public:
   // @brief default ctor
   constexpr MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::SettingsManager*>", modifiers: "", def_value: None }, CppParam { name: "container", ty:
-  // "::Zenject::DiContainer*", modifiers: "", def_value: None }, CppParam { name: "_result_5__2", ty: "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: None }, CppParam { name:
-  // "__7__wrap2", ty: "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::SettingsManager*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "container", ty:
+  // "::Zenject::DiContainer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_result_5__2", ty: "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__7__wrap2", ty: "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings>", modifiers: "", def_value: None, comment: None }]
   constexpr MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::SettingsManager*> __t__builder, ::Zenject::DiContainer* container,
       ::GlobalNamespace::SettingsManager* _result_5__2, ::GlobalNamespace::SettingsManager* __7__wrap2,
@@ -215,6 +217,7 @@ static_assert(offsetof(::GlobalNamespace::MainSettingsAsyncLoader___LoadInternal
 static_assert(sizeof(::GlobalNamespace::MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -228,6 +231,7 @@ public:
   /// @brief Method MoveNext, addr 0x3776a7c, size 0x234, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3776cb0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -238,11 +242,11 @@ public:
   // @brief default ctor
   constexpr MainSettingsAsyncLoader__LoadInternalAsync_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None },
-  // CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainSettingsAsyncLoader>", modifiers: "", def_value: None }, CppParam { name: "registry", ty:
-  // "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::SettingsManager*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainSettingsAsyncLoader>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "registry", ty: "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::SettingsManager*>", modifiers: "", def_value: None, comment: None }]
   constexpr MainSettingsAsyncLoader__LoadInternalAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Zenject::DiContainer* container,
                                                             ::UnityW<::GlobalNamespace::MainSettingsAsyncLoader> __4__this, ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry,
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::SettingsManager*> __u__1) noexcept;
@@ -316,6 +320,7 @@ public:
 
   __declspec(property(get = get_synchronizationStep)) ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep synchronizationStep;
 
+  /// [AsyncStateMachine(typeof(MainSettingsAsyncLoader::<LoadInternalAsync>d__8))]
   /// @brief Method LoadInternalAsync, addr 0x3776014, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadInternalAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container,
                                                              ::System::Threading::CancellationToken cancellationToken);
@@ -325,6 +330,8 @@ public:
   /// @brief Method RegisterInstallers, addr 0x37760d8, size 0x388, virtual false, abstract: false, final false
   inline void RegisterInstallers(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
+  /// [AsyncStateMachine(typeof(MainSettingsAsyncLoader::<<LoadInternalAsync>g__CreateSettingsManagerAsync|8_0>d))]
+  /// [CompilerGenerated]
   /// @brief Method <LoadInternalAsync>g__CreateSettingsManagerAsync|8_0, addr 0x37764b8, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::SettingsManager*>* _LoadInternalAsync_g__CreateSettingsManagerAsync_8_0(::Zenject::DiContainer* container);
 
@@ -349,12 +356,14 @@ public:
   /// @brief Method .ctor, addr 0x37764b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_networkConfig, addr 0x3775ffc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::INetworkConfig* get_networkConfig();
 
   /// @brief Method get_synchronizationStep, addr 0x377600c, size 0x8, virtual true, abstract: false, final false
   inline ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep get_synchronizationStep();
 
+  /// [CompilerGenerated]
   /// @brief Method set_networkConfig, addr 0x3776004, size 0x8, virtual false, abstract: false, final false
   inline void set_networkConfig(::GlobalNamespace::INetworkConfig* value);
 
@@ -364,23 +373,25 @@ protected:
   constexpr MainSettingsAsyncLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainSettingsAsyncLoader(MainSettingsAsyncLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSettingsAsyncLoader(MainSettingsAsyncLoader const&) = delete;
+  MainSettingsAsyncLoader(MainSettingsAsyncLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21028 };
 
+  /// [SerializeField]
   /// @brief Field _networkConfig, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NetworkConfigSO> ____networkConfig;
 
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [CompilerGenerated]
   /// @brief Field <networkConfig>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig_k__BackingField;
 

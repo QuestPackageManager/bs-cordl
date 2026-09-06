@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IntegerTime\RationalTimeExtensions.hpp"
+// IWYU pragma private; include "Unity/IntegerTime/RationalTimeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/IntegerTime/zzzz__RationalTimeExtensions_def.hpp"
 #include "Unity/IntegerTime/zzzz__RationalTime_def.hpp"

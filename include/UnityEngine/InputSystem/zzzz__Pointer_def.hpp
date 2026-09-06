@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Pointer.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Pointer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ class Pointer;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Pointer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Pointer*, "UnityEngine.InputSystem", "Pointer");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.LowLevel.PointerState), isGenericTypeOfDevice = true)]
 // Dependencies UnityEngine.InputSystem.InputDevice
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -153,24 +154,31 @@ public:
 
   static inline ::UnityEngine::InputSystem::Pointer* getStaticF__current_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x652518c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Pointer* get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_delta, addr 0x652513c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DeltaControl* get_delta();
 
+  /// [CompilerGenerated]
   /// @brief Method get_displayIndex, addr 0x652517c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_displayIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_position, addr 0x652512c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_position();
 
+  /// [CompilerGenerated]
   /// @brief Method get_press, addr 0x652516c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_press();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pressure, addr 0x652515c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_pressure();
 
+  /// [CompilerGenerated]
   /// @brief Method get_radius, addr 0x652514c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_radius();
 
@@ -179,24 +187,31 @@ public:
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Pointer* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x65251d8, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Pointer* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_delta, addr 0x6525144, size 0x8, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::InputSystem::Controls::DeltaControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_displayIndex, addr 0x6525184, size 0x8, virtual false, abstract: false, final false
   inline void set_displayIndex(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_position, addr 0x6525134, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_press, addr 0x6525174, size 0x8, virtual false, abstract: false, final false
   inline void set_press(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pressure, addr 0x6525164, size 0x8, virtual false, abstract: false, final false
   inline void set_pressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_radius, addr 0x6525154, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
@@ -206,32 +221,38 @@ protected:
   constexpr Pointer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pointer(Pointer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pointer(Pointer const&) = delete;
+  Pointer(Pointerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8731 };
 
+  /// [CompilerGenerated]
   /// @brief Field <position>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector2Control* ____position_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <delta>k__BackingField, offset: 0x190, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::DeltaControl* ____delta_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <radius>k__BackingField, offset: 0x198, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector2Control* ____radius_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pressure>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____pressure_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <press>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____press_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <displayIndex>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____displayIndex_k__BackingField;
 

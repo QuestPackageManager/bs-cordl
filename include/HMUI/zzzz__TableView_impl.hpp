@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\TableView.hpp"
+// IWYU pragma private; include "HMUI/TableView.hpp"
 #include "HMUI/zzzz__TableViewSelectionType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -20,7 +20,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::TableView_TableType::TableView_TableType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -28,7 +28,7 @@ constexpr ::HMUI::TableView_TableType::TableView_TableType(int32_t value__) noex
 constexpr ::HMUI::TableView_TableType::TableView_TableType() {}
 constexpr ::HMUI::TableView_TableType HMUI::TableView_TableType::Vertical{ static_cast<int32_t>(0x0) };
 constexpr ::HMUI::TableView_TableType HMUI::TableView_TableType::Horizontal{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::TableView_ScrollPositionType::TableView_ScrollPositionType(int32_t value__) noexcept {
   this->value__ = value__;
 }

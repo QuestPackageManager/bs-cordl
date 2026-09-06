@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\ResourceLocator.hpp"
+// IWYU pragma private; include "System/Resources/ResourceLocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,8 @@ public:
   // @brief default ctor
   constexpr ResourceLocator();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_dataPos", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_dataPos", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ResourceLocator(::System::Object* _value, int32_t _dataPos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

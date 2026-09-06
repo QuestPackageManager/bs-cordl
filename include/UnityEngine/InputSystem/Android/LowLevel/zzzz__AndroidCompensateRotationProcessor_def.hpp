@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\LowLevel\AndroidCompensateRotationProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidCompensateRotationProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class AndroidCompensateRotationProcessor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor*, "UnityEngine.InputSystem.Android.LowLevel", "AndroidCompensateRotationProcessor");
+// [DesignTimeVisible(false)]
 // Dependencies UnityEngine.InputSystem.Processors.CompensateRotationProcessor
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
@@ -39,13 +40,13 @@ protected:
   constexpr AndroidCompensateRotationProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor const&) = delete;
+  AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8954 };

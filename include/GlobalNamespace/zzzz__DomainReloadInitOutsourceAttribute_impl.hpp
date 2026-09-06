@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DomainReloadInitOutsourceAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/DomainReloadInitOutsourceAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "GlobalNamespace/zzzz__DomainReloadInitOutsourceAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"

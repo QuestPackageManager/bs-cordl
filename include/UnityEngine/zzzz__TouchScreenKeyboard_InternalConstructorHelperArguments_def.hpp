@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TouchScreenKeyboard_InternalConstructorHelperArguments.hpp"
+// IWYU pragma private; include "UnityEngine/TouchScreenKeyboard_InternalConstructorHelperArguments.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,10 @@ public:
   // @brief default ctor
   constexpr TouchScreenKeyboard_InternalConstructorHelperArguments();
 
-  // Ctor Parameters [CppParam { name: "keyboardType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "autocorrection", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "multiline", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "secure", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "alert", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "characterLimit", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "keyboardType", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "autocorrection", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "multiline", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "secure", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "alert", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "characterLimit", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TouchScreenKeyboard_InternalConstructorHelperArguments(uint32_t keyboardType, uint32_t autocorrection, uint32_t multiline, uint32_t secure, uint32_t alert,
                                                                    int32_t characterLimit) noexcept;
 

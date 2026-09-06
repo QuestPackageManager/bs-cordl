@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\bool4x3.hpp"
+// IWYU pragma private; include "Unity/Mathematics/bool4x3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ struct bool4x3;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::bool4x3);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::bool4x3, "Unity.Mathematics", "bool4x3");
+// [DefaultMember("Item")]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies Unity.Mathematics.bool4
 namespace Unity::Mathematics {
 // Is value type: true
@@ -118,8 +120,8 @@ public:
   // @brief default ctor
   constexpr bool4x3();
 
-  // Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::bool4", modifiers: "", def_value: None }, CppParam { name: "c1", ty: "::Unity::Mathematics::bool4", modifiers: "", def_value:
-  // None }, CppParam { name: "c2", ty: "::Unity::Mathematics::bool4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::bool4", modifiers: "", def_value: None, comment: None }, CppParam { name: "c1", ty: "::Unity::Mathematics::bool4", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "c2", ty: "::Unity::Mathematics::bool4", modifiers: "", def_value: None, comment: None }]
   constexpr bool4x3(::Unity::Mathematics::bool4 c0, ::Unity::Mathematics::bool4 c1, ::Unity::Mathematics::bool4 c2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

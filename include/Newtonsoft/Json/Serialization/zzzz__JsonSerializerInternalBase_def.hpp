@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonSerializerInternalBase.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonSerializerInternalBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ MARK_REF_T(::Newtonsoft::Json::Serialization::JsonSerializerInternalBase_Referen
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonSerializerInternalBase*, "Newtonsoft.Json.Serialization", "JsonSerializerInternalBase");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonSerializerInternalBase_ReferenceEqualsEqualityComparer*, "Newtonsoft.Json.Serialization",
                     "JsonSerializerInternalBase/ReferenceEqualsEqualityComparer");
+// [NullableContext(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -74,9 +75,11 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase_ReferenceEqualsEqualityComparer* New_ctor();
 
+  /// [NullableContext(2)]
   /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x5d450e0, size 0xc, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* x, ::System::Object* y);
 
+  /// [NullableContext(1)]
   /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode, addr 0x5d450ec, size 0x14, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode(::System::Object* obj);
 
@@ -92,13 +95,13 @@ protected:
   constexpr JsonSerializerInternalBase_ReferenceEqualsEqualityComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase_ReferenceEqualsEqualityComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase_ReferenceEqualsEqualityComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSerializerInternalBase_ReferenceEqualsEqualityComparer(JsonSerializerInternalBase_ReferenceEqualsEqualityComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase_ReferenceEqualsEqualityComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase_ReferenceEqualsEqualityComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerInternalBase_ReferenceEqualsEqualityComparer(JsonSerializerInternalBase_ReferenceEqualsEqualityComparer const&) = delete;
+  JsonSerializerInternalBase_ReferenceEqualsEqualityComparer(JsonSerializerInternalBase_ReferenceEqualsEqualityComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13515 };
@@ -109,6 +112,8 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonSerializerInternalBase_ReferenceEqualsEqualityComparer) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -139,16 +144,18 @@ public:
   inline void ClearErrorContext();
 
   /// @brief Method GetErrorContext, addr 0x5d44bc0, size 0xd4, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::ErrorContext* GetErrorContext(::System::Object* currentObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
+  inline ::Newtonsoft::Json::Serialization::ErrorContext* GetErrorContext(/* [Nullable(2)] */ ::System::Object* currentObject, /* [Nullable(2)] */ ::System::Object* member, ::StringW path,
+                                                                          ::System::Exception* error);
 
+  /// [NullableContext(2)]
   /// @brief Method IsErrorHandled, addr 0x5d44cf0, size 0x3f0, virtual false, abstract: false, final false
   inline bool IsErrorHandled(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* keyValue, ::Newtonsoft::Json::IJsonLineInfo* lineInfo,
-                             ::StringW path, ::System::Exception* ex);
+                             /* [Nullable(1)] */ ::StringW path, /* [Nullable(1)] */ ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase* New_ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method ResolvedNullValueHandling, addr 0x5d44b1c, size 0xa4, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::NullValueHandling ResolvedNullValueHandling(::Newtonsoft::Json::Serialization::JsonObjectContract* containerContract,
+  inline ::Newtonsoft::Json::NullValueHandling ResolvedNullValueHandling(/* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonObjectContract* containerContract,
                                                                          ::Newtonsoft::Json::Serialization::JsonProperty* property);
 
   constexpr ::Newtonsoft::Json::Serialization::JsonSerializerProxy* const& __cordl_internal_get_InternalSerializer() const;
@@ -193,29 +200,33 @@ protected:
   constexpr JsonSerializerInternalBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSerializerInternalBase(JsonSerializerInternalBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerInternalBase(JsonSerializerInternalBase const&) = delete;
+  JsonSerializerInternalBase(JsonSerializerInternalBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13516 };
 
+  /// [Nullable(2)]
   /// @brief Field _currentErrorContext, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ErrorContext* ____currentErrorContext;
 
+  /// [Nullable(new[] { 2, 1, 1 })]
   /// @brief Field _mappings, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* ____mappings;
 
   /// @brief Field Serializer, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonSerializer* ___Serializer;
 
+  /// [Nullable(2)]
   /// @brief Field TraceWriter, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ITraceWriter* ___TraceWriter;
 
+  /// [Nullable(2)]
   /// @brief Field InternalSerializer, offset: 0x30, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonSerializerProxy* ___InternalSerializer;
 

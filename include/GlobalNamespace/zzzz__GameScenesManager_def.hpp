@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameScenesManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameScenesManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -277,7 +277,7 @@ public:
   // @brief default ctor
   constexpr GameScenesManager_SceneTransitionType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameScenesManager_SceneTransitionType(int32_t value__) noexcept;
 
   /// @brief Field Activate value: I32(6)
@@ -359,9 +359,11 @@ public:
   /// @brief Method .ctor, addr 0x3301b7c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* sceneNames);
 
+  /// [CompilerGenerated]
   /// @brief Method get_container, addr 0x3305448, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_container();
 
+  /// [CompilerGenerated]
   /// @brief Method set_container, addr 0x3305450, size 0x8, virtual false, abstract: false, final false
   inline void set_container(::Zenject::DiContainer* value);
 
@@ -371,13 +373,13 @@ protected:
   constexpr GameScenesManager_ScenesStackData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager_ScenesStackData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager_ScenesStackData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager_ScenesStackData(GameScenesManager_ScenesStackData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager_ScenesStackData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager_ScenesStackData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager_ScenesStackData(GameScenesManager_ScenesStackData const&) = delete;
+  GameScenesManager_ScenesStackData(GameScenesManager_ScenesStackDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21520 };
@@ -385,6 +387,7 @@ public:
   /// @brief Field sceneNames, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___sceneNames;
 
+  /// [CompilerGenerated]
   /// @brief Field <container>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container_k__BackingField;
 
@@ -429,7 +432,7 @@ public:
   // @brief default ctor
   constexpr GameScenesManager_ScenePresentType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameScenesManager_ScenePresentType(int32_t value__) noexcept;
 
   /// @brief Field Activate value: I32(3)
@@ -491,7 +494,7 @@ public:
   // @brief default ctor
   constexpr GameScenesManager_SceneDismissType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameScenesManager_SceneDismissType(int32_t value__) noexcept;
 
   /// @brief Field Deactivate value: I32(2)
@@ -520,6 +523,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager_SceneDismissType, va
 static_assert(sizeof(::GlobalNamespace::GameScenesManager_SceneDismissType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -550,13 +554,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass43_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass43_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass43_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass43_0(GameScenesManager___c__DisplayClass43_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass43_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass43_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass43_0(GameScenesManager___c__DisplayClass43_0 const&) = delete;
+  GameScenesManager___c__DisplayClass43_0(GameScenesManager___c__DisplayClass43_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21523 };
@@ -572,6 +576,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass43_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass43_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -633,13 +638,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass44_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass44_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass44_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass44_0(GameScenesManager___c__DisplayClass44_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass44_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass44_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass44_0(GameScenesManager___c__DisplayClass44_0 const&) = delete;
+  GameScenesManager___c__DisplayClass44_0(GameScenesManager___c__DisplayClass44_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21524 };
@@ -670,6 +675,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass44_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass44_0) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -709,13 +715,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass45_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass45_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass45_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass45_0(GameScenesManager___c__DisplayClass45_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass45_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass45_0(GameScenesManager___c__DisplayClass45_0 const&) = delete;
+  GameScenesManager___c__DisplayClass45_0(GameScenesManager___c__DisplayClass45_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21525 };
@@ -736,6 +742,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass45_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass45_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -766,13 +773,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass46_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass46_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass46_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass46_0(GameScenesManager___c__DisplayClass46_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass46_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass46_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass46_0(GameScenesManager___c__DisplayClass46_0 const&) = delete;
+  GameScenesManager___c__DisplayClass46_0(GameScenesManager___c__DisplayClass46_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21526 };
@@ -788,6 +795,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass46_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass46_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -889,13 +897,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass47_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass47_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass47_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass47_0(GameScenesManager___c__DisplayClass47_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass47_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass47_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass47_0(GameScenesManager___c__DisplayClass47_0 const&) = delete;
+  GameScenesManager___c__DisplayClass47_0(GameScenesManager___c__DisplayClass47_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21527 };
@@ -946,6 +954,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass47_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass47_0) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1047,13 +1056,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass48_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass48_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass48_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass48_0(GameScenesManager___c__DisplayClass48_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass48_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass48_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass48_0(GameScenesManager___c__DisplayClass48_0 const&) = delete;
+  GameScenesManager___c__DisplayClass48_0(GameScenesManager___c__DisplayClass48_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21528 };
@@ -1104,6 +1113,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass48_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass48_0) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1165,13 +1175,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass49_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass49_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass49_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass49_0(GameScenesManager___c__DisplayClass49_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass49_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass49_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass49_0(GameScenesManager___c__DisplayClass49_0 const&) = delete;
+  GameScenesManager___c__DisplayClass49_0(GameScenesManager___c__DisplayClass49_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21529 };
@@ -1202,6 +1212,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass49_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass49_0) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1253,13 +1264,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass50_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass50_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass50_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass50_0(GameScenesManager___c__DisplayClass50_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass50_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass50_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass50_0(GameScenesManager___c__DisplayClass50_0 const&) = delete;
+  GameScenesManager___c__DisplayClass50_0(GameScenesManager___c__DisplayClass50_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21530 };
@@ -1285,6 +1296,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass50_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass50_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1334,13 +1346,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass51_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass51_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass51_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass51_0(GameScenesManager___c__DisplayClass51_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass51_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass51_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass51_0(GameScenesManager___c__DisplayClass51_0 const&) = delete;
+  GameScenesManager___c__DisplayClass51_0(GameScenesManager___c__DisplayClass51_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21531 };
@@ -1366,6 +1378,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass51_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass51_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1415,13 +1428,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass52_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass52_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass52_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass52_0(GameScenesManager___c__DisplayClass52_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass52_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass52_0(GameScenesManager___c__DisplayClass52_0 const&) = delete;
+  GameScenesManager___c__DisplayClass52_0(GameScenesManager___c__DisplayClass52_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21532 };
@@ -1447,6 +1460,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass52_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass52_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1477,13 +1491,13 @@ protected:
   constexpr GameScenesManager___c__DisplayClass60_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass60_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass60_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager___c__DisplayClass60_0(GameScenesManager___c__DisplayClass60_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass60_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass60_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass60_0(GameScenesManager___c__DisplayClass60_0 const&) = delete;
+  GameScenesManager___c__DisplayClass60_0(GameScenesManager___c__DisplayClass60_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21533 };
@@ -1499,6 +1513,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager___c__DisplayClass60_
 static_assert(sizeof(::GlobalNamespace::GameScenesManager___c__DisplayClass60_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1534,17 +1549,22 @@ public:
   /// @brief Method MoveNext, addr 0x3305f48, size 0x134, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::GameScenesManager__LoadOneScene_d__55* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x330607c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3306084, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x33060bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3305f44, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -1572,6 +1592,7 @@ public:
 
   constexpr void __cordl_internal_set_sceneName(::StringW value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3303c30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -1590,13 +1611,13 @@ protected:
   constexpr GameScenesManager__LoadOneScene_d__55();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__LoadOneScene_d__55", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__LoadOneScene_d__55", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager__LoadOneScene_d__55(GameScenesManager__LoadOneScene_d__55&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__LoadOneScene_d__55", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__LoadOneScene_d__55", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager__LoadOneScene_d__55(GameScenesManager__LoadOneScene_d__55 const&) = delete;
+  GameScenesManager__LoadOneScene_d__55(GameScenesManager__LoadOneScene_d__55const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21534 };
@@ -1627,6 +1648,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager__LoadOneScene_d__55,
 static_assert(sizeof(::GlobalNamespace::GameScenesManager__LoadOneScene_d__55) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies GameScenesManager::SceneDismissType, GameScenesManager::ScenePresentType, System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>,
 // UnityEngine.ResourceManagement.ResourceProviders.SceneInstance
 namespace GlobalNamespace {
@@ -1712,17 +1734,22 @@ public:
   /// @brief Method MoveNext, addr 0x3306104, size 0x195c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3307bc8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3307bd0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3307c08, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x33060c4, size 0x40, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -1849,6 +1876,7 @@ public:
   /// @brief Method <>m__Finally2, addr 0x3307b14, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3303c40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -1867,13 +1895,13 @@ protected:
   constexpr GameScenesManager__ScenesTransitionCoroutine_d__57();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__ScenesTransitionCoroutine_d__57", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__ScenesTransitionCoroutine_d__57", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager__ScenesTransitionCoroutine_d__57(GameScenesManager__ScenesTransitionCoroutine_d__57&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__ScenesTransitionCoroutine_d__57", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__ScenesTransitionCoroutine_d__57", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager__ScenesTransitionCoroutine_d__57(GameScenesManager__ScenesTransitionCoroutine_d__57 const&) = delete;
+  GameScenesManager__ScenesTransitionCoroutine_d__57(GameScenesManager__ScenesTransitionCoroutine_d__57const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21535 };
@@ -1979,6 +2007,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager__ScenesTransitionCor
 static_assert(sizeof(::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57) == 0xa8, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -2014,17 +2043,22 @@ public:
   /// @brief Method MoveNext, addr 0x3307c14, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3307d40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3307d48, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3307d80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3307c10, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -2052,6 +2086,7 @@ public:
 
   constexpr void __cordl_internal_set_sceneName(::StringW value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3303c38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -2070,13 +2105,13 @@ protected:
   constexpr GameScenesManager__UnloadOneScene_d__56();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__UnloadOneScene_d__56", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__UnloadOneScene_d__56", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager__UnloadOneScene_d__56(GameScenesManager__UnloadOneScene_d__56&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__UnloadOneScene_d__56", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__UnloadOneScene_d__56", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager__UnloadOneScene_d__56(GameScenesManager__UnloadOneScene_d__56 const&) = delete;
+  GameScenesManager__UnloadOneScene_d__56(GameScenesManager__UnloadOneScene_d__56const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21536 };
@@ -2107,6 +2142,7 @@ static_assert(offsetof(::GlobalNamespace::GameScenesManager__UnloadOneScene_d__5
 static_assert(sizeof(::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -2142,17 +2178,22 @@ public:
   /// @brief Method MoveNext, addr 0x3307d8c, size 0x278, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3308004, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x330800c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3308044, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3307d88, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -2180,6 +2221,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3303fac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -2198,13 +2240,13 @@ protected:
   constexpr GameScenesManager__WaitUntilTaskCompleted_d__60();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__WaitUntilTaskCompleted_d__60", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__WaitUntilTaskCompleted_d__60", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager__WaitUntilTaskCompleted_d__60(GameScenesManager__WaitUntilTaskCompleted_d__60&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__WaitUntilTaskCompleted_d__60", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__WaitUntilTaskCompleted_d__60", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager__WaitUntilTaskCompleted_d__60(GameScenesManager__WaitUntilTaskCompleted_d__60 const&) = delete;
+  GameScenesManager__WaitUntilTaskCompleted_d__60(GameScenesManager__WaitUntilTaskCompleted_d__60const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21537 };
@@ -2370,12 +2412,14 @@ public:
   /// @brief Method IsSceneInStack, addr 0x33019a4, size 0x1d8, virtual false, abstract: false, final false
   inline bool IsSceneInStack(::StringW searchSceneName);
 
+  /// [IteratorStateMachine(typeof(GameScenesManager::<LoadOneScene>d__55))]
   /// @brief Method LoadOneScene, addr 0x3301bdc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LoadOneScene(::StringW sceneName);
 
   /// @brief Method LoadSingleScene, addr 0x3301728, size 0x27c, virtual false, abstract: false, final false
   inline void LoadSingleScene(::StringW sceneName);
 
+  /// [Conditional("GamesScenesManagerLogging")]
   /// @brief Method Log, addr 0x33052b0, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
@@ -2422,6 +2466,7 @@ public:
                                                                                          ::ArrayW<::System::Collections::IEnumerator*> beforeNewScenesActivateRoutines, float_t minDuration,
                                                                                          ::System::Action* afterMinDurationCallback);
 
+  /// [IteratorStateMachine(typeof(GameScenesManager::<ScenesTransitionCoroutine>d__57))]
   /// @brief Method ScenesTransitionCoroutine, addr 0x33023bc, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator*
   ScenesTransitionCoroutine(::GlobalNamespace::ScenesTransitionSetupData* newScenesTransitionSetupData, ::System::Collections::Generic::IReadOnlyList_1<::StringW>* scenesToPresent,
@@ -2435,12 +2480,14 @@ public:
   /// @brief Method ShouldUnloadUnusedAssets, addr 0x3303c48, size 0x1b0, virtual false, abstract: false, final false
   static inline bool ShouldUnloadUnusedAssets(::System::Collections::Generic::IReadOnlyList_1<::StringW>* scenesToDismiss);
 
+  /// [IteratorStateMachine(typeof(GameScenesManager::<UnloadOneScene>d__56))]
   /// @brief Method UnloadOneScene, addr 0x3301ec0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UnloadOneScene(::StringW sceneName);
 
   /// @brief Method UnloadSingleScene, addr 0x3301c3c, size 0x144, virtual false, abstract: false, final false
   inline void UnloadSingleScene(::StringW sceneName);
 
+  /// [IteratorStateMachine(typeof(GameScenesManager::<WaitUntilTaskCompleted>d__60))]
   /// @brief Method WaitUntilTaskCompleted, addr 0x3303f58, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* WaitUntilTaskCompleted(::System::Threading::Tasks::Task* task);
 
@@ -2516,21 +2563,27 @@ public:
   /// @brief Method .ctor, addr 0x330530c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <get_waitUntilSceneTransitionFinish>b__27_0, addr 0x3305438, size 0x10, virtual false, abstract: false, final false
   inline bool _get_waitUntilSceneTransitionFinish_b__27_0();
 
+  /// [CompilerGenerated]
   /// @brief Method add_beforeDismissingScenesEvent, addr 0x33004c4, size 0xc0, virtual false, abstract: false, final false
   inline void add_beforeDismissingScenesEvent(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_installEarlyBindingsEvent, addr 0x330120c, size 0xc0, virtual false, abstract: false, final false
   inline void add_installEarlyBindingsEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_scenesWillBeDismissedAfterLoadEvent, addr 0x3300f0c, size 0xc0, virtual false, abstract: false, final false
   inline void add_scenesWillBeDismissedAfterLoadEvent(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_transitionDidFinishEvent, addr 0x330108c, size 0xc0, virtual false, abstract: false, final false
   inline void add_transitionDidFinishEvent(::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_transitionDidStartEvent, addr 0x3300d8c, size 0xc0, virtual false, abstract: false, final false
   inline void add_transitionDidStartEvent(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>* value);
 
@@ -2551,19 +2604,24 @@ public:
   /// @brief Method get_waitUntilSceneTransitionFinish, addr 0x33013f0, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::WaitUntil* get_waitUntilSceneTransitionFinish();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_beforeDismissingScenesEvent, addr 0x32ffa20, size 0xc0, virtual false, abstract: false, final false
   inline void remove_beforeDismissingScenesEvent(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_installEarlyBindingsEvent, addr 0x33012cc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_installEarlyBindingsEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_scenesWillBeDismissedAfterLoadEvent, addr 0x3300fcc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_scenesWillBeDismissedAfterLoadEvent(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_transitionDidFinishEvent, addr 0x330114c, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_transitionDidFinishEvent(::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_transitionDidStartEvent, addr 0x3300e4c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_transitionDidStartEvent(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>* value);
 
@@ -2573,13 +2631,13 @@ protected:
   constexpr GameScenesManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameScenesManager(GameScenesManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager(GameScenesManager const&) = delete;
+  GameScenesManager(GameScenesManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21538 };
@@ -2599,21 +2657,27 @@ public:
   /// @brief Field kStandardTransitionLength offset 0xffffffff size 0x4
   static constexpr float_t kStandardTransitionLength{ static_cast<float_t>(0.7f) };
 
+  /// [Inject]
   /// @brief Field _zenjectSceneLoader, offset: 0x20, size: 0x8, def value: None
   ::Zenject::ZenjectSceneLoader* ____zenjectSceneLoader;
 
+  /// [CompilerGenerated]
   /// @brief Field transitionDidStartEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>* ___transitionDidStartEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field scenesWillBeDismissedAfterLoadEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* ___scenesWillBeDismissedAfterLoadEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field beforeDismissingScenesEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* ___beforeDismissingScenesEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field transitionDidFinishEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>* ___transitionDidFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field installEarlyBindingsEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>* ___installEarlyBindingsEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TransferFunction.hpp"
+// IWYU pragma private; include "UnityEngine/TransferFunction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct TransferFunction;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TransferFunction);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TransferFunction, "UnityEngine", "TransferFunction");
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Graphics/ColorGamut.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -46,7 +48,7 @@ public:
   // @brief default ctor
   constexpr TransferFunction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TransferFunction(int32_t value__) noexcept;
 
   /// @brief Field BT1886 value: I32(1)

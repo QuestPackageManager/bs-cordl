@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\RuntimeResourceSet.hpp"
+// IWYU pragma private; include "System/Resources/RuntimeResourceSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,13 +136,13 @@ protected:
   constexpr RuntimeResourceSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeResourceSet(RuntimeResourceSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeResourceSet(RuntimeResourceSet const&) = delete;
+  RuntimeResourceSet(RuntimeResourceSetconst&) = delete;
 
   /// @brief Field Version offset 0xffffffff size 0x4
   static constexpr int32_t Version{ static_cast<int32_t>(0x2) };

@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\AnalyticsManager.hpp"
+// IWYU pragma private; include "OSCE/Analytics/AnalyticsManager.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsSystemModeEnum_impl.hpp"
+#include "OSCE/Analytics/zzzz__BaseAnalyticsEvent_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsBatchingThread_def.hpp"
@@ -952,7 +953,9 @@ inline void OSCE::Analytics::AnalyticsManager::OnApplicationQuit() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "OnApplicationQuit", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void OSCE::Analytics::AnalyticsManager::SendMultipleEventsWithSameTimestamp(::System::Collections::Generic::List_1<T>* newEvents, bool isThreaded) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OSCE::Analytics::BaseAnalyticsEvent*>)
+inline void OSCE::Analytics::AnalyticsManager::SendMultipleEventsWithSameTimestamp(::System::Collections::Generic::List_1<T>* newEvents, bool isThreaded) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(),
@@ -960,7 +963,9 @@ template <typename T> inline void OSCE::Analytics::AnalyticsManager::SendMultipl
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newEvents, isThreaded);
 }
-template <typename T> inline void OSCE::Analytics::AnalyticsManager::SendAnalyticsEvent(T newEvent, bool isThreaded, int32_t timestampToApply) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OSCE::Analytics::BaseAnalyticsEvent*>)
+inline void OSCE::Analytics::AnalyticsManager::SendAnalyticsEvent(T newEvent, bool isThreaded, int32_t timestampToApply) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(),
                                                            { "SendAnalyticsEvent", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));

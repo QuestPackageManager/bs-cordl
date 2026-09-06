@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InstantiateCallbackConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject/InstantiateCallbackConditionCopyNonLazyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*);
 MARK_GEN_REF_T_PTR(::Zenject::InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1);
 DEFINE_IL2CPP_CLASS(::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, "Zenject", "InstantiateCallbackConditionCopyNonLazyBinder");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1, "Zenject", "InstantiateCallbackConditionCopyNonLazyBinder/<>c__DisplayClass2_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -66,6 +67,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -78,13 +80,13 @@ protected:
   constexpr InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1(InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1(InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1 const&) = delete;
+  InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1(InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14277 };
@@ -96,6 +98,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies Zenject.ConditionCopyNonLazyBinder
 namespace Zenject {
 // Is value type: false
@@ -122,13 +125,13 @@ protected:
   constexpr InstantiateCallbackConditionCopyNonLazyBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstantiateCallbackConditionCopyNonLazyBinder(InstantiateCallbackConditionCopyNonLazyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstantiateCallbackConditionCopyNonLazyBinder(InstantiateCallbackConditionCopyNonLazyBinder const&) = delete;
+  InstantiateCallbackConditionCopyNonLazyBinder(InstantiateCallbackConditionCopyNonLazyBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14278 };

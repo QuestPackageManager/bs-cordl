@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\LockHolder.hpp"
+// IWYU pragma private; include "System/Threading/LockHolder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ struct LockHolder;
 // Write type traits
 MARK_VAL_T(::System::Threading::LockHolder);
 DEFINE_IL2CPP_CLASS(::System::Threading::LockHolder, "System.Threading", "LockHolder");
+// [ReflectionBlocked]
 // Dependencies
 namespace System::Threading {
 // Is value type: true
@@ -41,7 +42,7 @@ public:
   // @brief default ctor
   constexpr LockHolder();
 
-  // Ctor Parameters [CppParam { name: "_lock", ty: "::System::Threading::Lock*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_lock", ty: "::System::Threading::Lock*", modifiers: "", def_value: None, comment: None }]
   constexpr LockHolder(::System::Threading::Lock* _lock) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXSphereBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXSphereBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,8 @@ class VFXSphereBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXSphereBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXSphereBinder*, "UnityEngine.VFX.Utility", "VFXSphereBinder");
+// [AddComponentMenu("VFX/Property Binders/Sphere Collider Binder")]
+// [VFXBinder("Collider/Sphere")]
 // Dependencies UnityEngine.VFX.Utility.VFXSpaceableBinder
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -118,17 +120,20 @@ protected:
   constexpr VFXSphereBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXSphereBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXSphereBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXSphereBinder(VFXSphereBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXSphereBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXSphereBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXSphereBinder(VFXSphereBinder const&) = delete;
+  VFXSphereBinder(VFXSphereBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20007 };
 
+  /// [VFXPropertyBinding(new[] { "UnityEditor.VFX.Sphere", "UnityEditor.VFX.TSphere" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_Parameter")]
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

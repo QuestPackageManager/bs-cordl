@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionHelpViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionHelpViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr MissionHelpViewController_MissionHelpGameObjectPair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController_MissionHelpGameObjectPair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController_MissionHelpGameObjectPair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionHelpViewController_MissionHelpGameObjectPair(MissionHelpViewController_MissionHelpGameObjectPair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController_MissionHelpGameObjectPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController_MissionHelpGameObjectPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionHelpViewController_MissionHelpGameObjectPair(MissionHelpViewController_MissionHelpGameObjectPair const&) = delete;
+  MissionHelpViewController_MissionHelpGameObjectPair(MissionHelpViewController_MissionHelpGameObjectPairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6958 };
@@ -161,9 +161,11 @@ public:
   /// @brief Method .ctor, addr 0x595df20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x595dbc8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x595dc88, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
@@ -173,23 +175,26 @@ protected:
   constexpr MissionHelpViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionHelpViewController(MissionHelpViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionHelpViewController(MissionHelpViewController const&) = delete;
+  MissionHelpViewController(MissionHelpViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6959 };
 
+  /// [SerializeField]
   /// @brief Field _okButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
+  /// [SerializeField]
   /// @brief Field _missionHelpGameObjectPairs, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*> ____missionHelpGameObjectPairs;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* ___didFinishEvent;
 

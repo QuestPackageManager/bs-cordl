@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\BinXmlSqlDecimal.hpp"
+// IWYU pragma private; include "System/Xml/BinXmlSqlDecimal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -150,10 +150,10 @@ public:
   // @brief default ctor
   constexpr BinXmlSqlDecimal();
 
-  // Ctor Parameters [CppParam { name: "m_bLen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_bPrec", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_bScale", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_bSign", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_data1", ty: "uint32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_data2", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_data3", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_data4", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_bLen", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_bPrec", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_bScale", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_bSign", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_data1", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_data2", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "m_data3", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_data4", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BinXmlSqlDecimal(uint8_t m_bLen, uint8_t m_bPrec, uint8_t m_bScale, uint8_t m_bSign, uint32_t m_data1, uint32_t m_data2, uint32_t m_data3, uint32_t m_data4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

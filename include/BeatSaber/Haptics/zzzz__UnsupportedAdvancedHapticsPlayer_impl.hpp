@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\UnsupportedAdvancedHapticsPlayer.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/UnsupportedAdvancedHapticsPlayer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Haptics/zzzz__UnsupportedAdvancedHapticsPlayer_def.hpp"
 #include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"

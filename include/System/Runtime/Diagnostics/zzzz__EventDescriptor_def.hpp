@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\EventDescriptor.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/EventDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,9 +128,10 @@ public:
   // @brief default ctor
   constexpr EventDescriptor();
 
-  // Ctor Parameters [CppParam { name: "m_id", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "m_version", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_channel", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_level", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_opcode", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_task", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "m_keywords", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_id", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_version", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_channel", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_level", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_opcode", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_task", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_keywords", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr EventDescriptor(uint16_t m_id, uint8_t m_version, uint8_t m_channel, uint8_t m_level, uint8_t m_opcode, uint16_t m_task, int64_t m_keywords) noexcept;
 
 private:

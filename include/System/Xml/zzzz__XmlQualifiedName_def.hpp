@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlQualifiedName.hpp"
+// IWYU pragma private; include "System/Xml/XmlQualifiedName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +56,13 @@ protected:
   constexpr XmlQualifiedName_HashCodeOfStringDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName_HashCodeOfStringDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName_HashCodeOfStringDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlQualifiedName_HashCodeOfStringDelegate(XmlQualifiedName_HashCodeOfStringDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName_HashCodeOfStringDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName_HashCodeOfStringDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlQualifiedName_HashCodeOfStringDelegate(XmlQualifiedName_HashCodeOfStringDelegate const&) = delete;
+  XmlQualifiedName_HashCodeOfStringDelegate(XmlQualifiedName_HashCodeOfStringDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9460 };
@@ -204,13 +204,13 @@ protected:
   constexpr XmlQualifiedName();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlQualifiedName(XmlQualifiedName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlQualifiedName(XmlQualifiedName const&) = delete;
+  XmlQualifiedName(XmlQualifiedNameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9461 };

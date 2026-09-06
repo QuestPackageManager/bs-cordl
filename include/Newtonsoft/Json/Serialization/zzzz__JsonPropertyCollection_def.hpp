@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonPropertyCollection.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonPropertyCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class JsonPropertyCollection;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::JsonPropertyCollection*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonPropertyCollection*, "Newtonsoft.Json.Serialization", "JsonPropertyCollection");
+// [NullableContext(1)]
+// [Nullable(new[] { 0, 1, 1 })]
 // Dependencies System.Collections.ObjectModel.KeyedCollection`2<TKey, TItem>
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -53,7 +55,7 @@ public:
   static inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* New_ctor(::System::Type* type);
 
   /// @brief Method TryGetProperty, addr 0x5d449b4, size 0xe8, virtual false, abstract: false, final false
-  inline bool TryGetProperty(::StringW key, ::by_ref<::Newtonsoft::Json::Serialization::JsonProperty*> item);
+  inline bool TryGetProperty(::StringW key, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::Newtonsoft::Json::Serialization::JsonProperty*> item);
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>* const& __cordl_internal_get__list() const;
 
@@ -76,13 +78,13 @@ protected:
   constexpr JsonPropertyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonPropertyCollection(JsonPropertyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonPropertyCollection(JsonPropertyCollection const&) = delete;
+  JsonPropertyCollection(JsonPropertyCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13514 };

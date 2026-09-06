@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Int64Enum.hpp"
+// IWYU pragma private; include "System/Int64Enum.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
   // @brief default ctor
   constexpr Int64Enum();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr Int64Enum(int64_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

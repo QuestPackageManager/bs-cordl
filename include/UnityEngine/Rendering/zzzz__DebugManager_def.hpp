@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,9 @@ namespace System {
 template <typename T> class Lazy_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputActionMap;
@@ -141,7 +143,7 @@ public:
   // @brief default ctor
   constexpr DebugManager_UIMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugManager_UIMode(int32_t value__) noexcept;
 
   /// @brief Field EditorMode value: I32(0)
@@ -211,13 +213,13 @@ protected:
   constexpr DebugManager_UIState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager_UIState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager_UIState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugManager_UIState(DebugManager_UIState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager_UIState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager_UIState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager_UIState(DebugManager_UIState const&) = delete;
+  DebugManager_UIState(DebugManager_UIStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11980 };
@@ -225,6 +227,7 @@ public:
   /// @brief Field mode, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::DebugManager_UIMode ___mode;
 
+  /// [SerializeField]
   /// @brief Field m_Open, offset: 0x14, size: 0x1, def value: None
   bool ___m_Open;
 
@@ -238,6 +241,7 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugManager_UIState, ___m_Open
 static_assert(sizeof(::UnityEngine::Rendering::DebugManager_UIState) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -296,13 +300,13 @@ protected:
   constexpr DebugManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugManager___c(DebugManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager___c(DebugManager___c const&) = delete;
+  DebugManager___c(DebugManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11981 };
@@ -313,6 +317,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::DebugManager___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -343,13 +348,13 @@ protected:
   constexpr DebugManager___c__DisplayClass67_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c__DisplayClass67_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c__DisplayClass67_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugManager___c__DisplayClass67_0(DebugManager___c__DisplayClass67_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c__DisplayClass67_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c__DisplayClass67_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager___c__DisplayClass67_0(DebugManager___c__DisplayClass67_0 const&) = delete;
+  DebugManager___c__DisplayClass67_0(DebugManager___c__DisplayClass67_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11982 };
@@ -502,10 +507,10 @@ public:
   inline void OnPanelDirty(::UnityEngine::Rendering::DebugUI_Panel* panel);
 
   /// @brief Method PanelDiplayName, addr 0x6765c64, size 0xac, virtual false, abstract: false, final false
-  inline ::StringW PanelDiplayName(int32_t panelIndex);
+  inline ::StringW PanelDiplayName(/* [DisallowNull] */ int32_t panelIndex);
 
   /// @brief Method PanelIndex, addr 0x6765b90, size 0xd4, virtual false, abstract: false, final false
-  inline int32_t PanelIndex(::StringW displayName);
+  inline int32_t PanelIndex(/* [DisallowNull] */ ::StringW displayName);
 
   /// @brief Method ReDrawOnScreenDebug, addr 0x6760564, size 0x28, virtual false, abstract: false, final false
   inline void ReDrawOnScreenDebug();
@@ -543,6 +548,7 @@ public:
   /// @brief Method SetScrollTarget, addr 0x676537c, size 0x9c, virtual false, abstract: false, final false
   inline void SetScrollTarget(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* widget);
 
+  /// [Obsolete("Use DebugManager.instance.displayEditorUI property instead. #from(23.1)")]
   /// @brief Method ToggleEditorUI, addr 0x67676c0, size 0x18, virtual false, abstract: false, final false
   inline void ToggleEditorUI(bool open);
 
@@ -666,15 +672,19 @@ public:
   /// @brief Method .ctor, addr 0x6764f78, size 0x250, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onDisplayRuntimeUIChanged, addr 0x6764a08, size 0xc0, virtual false, abstract: false, final false
   inline void add_onDisplayRuntimeUIChanged(::System::Action_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onSetDirty, addr 0x6764b88, size 0xac, virtual false, abstract: false, final false
   inline void add_onSetDirty(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_resetData, addr 0x6764ce0, size 0xac, virtual false, abstract: false, final false
   inline void add_resetData(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_windowStateChanged, addr 0x6766fb8, size 0x108, virtual false, abstract: false, final false
   static inline void add_windowStateChanged(::System::Action_2<::UnityEngine::Rendering::DebugManager_UIMode, bool>* value);
 
@@ -703,15 +713,19 @@ public:
   /// @brief Method get_panels, addr 0x67649e4, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::DebugUI_Panel*>* get_panels();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onDisplayRuntimeUIChanged, addr 0x6764ac8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onDisplayRuntimeUIChanged(::System::Action_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onSetDirty, addr 0x6764c34, size 0xac, virtual false, abstract: false, final false
   inline void remove_onSetDirty(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_resetData, addr 0x6764d8c, size 0xac, virtual false, abstract: false, final false
   inline void remove_resetData(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_windowStateChanged, addr 0x67670c0, size 0x108, virtual false, abstract: false, final false
   static inline void remove_windowStateChanged(::System::Action_2<::UnityEngine::Rendering::DebugManager_UIMode, bool>* value);
 
@@ -737,13 +751,13 @@ protected:
   constexpr DebugManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugManager(DebugManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager(DebugManager const&) = delete;
+  DebugManager(DebugManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11983 };
@@ -796,12 +810,15 @@ public:
   /// @brief Field m_Panels, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Panel*>* ___m_Panels;
 
+  /// [CompilerGenerated]
   /// @brief Field onDisplayRuntimeUIChanged, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<bool>* ___onDisplayRuntimeUIChanged;
 
+  /// [CompilerGenerated]
   /// @brief Field onSetDirty, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___onSetDirty;
 
+  /// [CompilerGenerated]
   /// @brief Field resetData, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___resetData;
 

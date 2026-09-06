@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VersionChangeType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VersionChangeType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VersionChangeType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VersionChangeType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VersionChangeType, "UnityEngine.UIElements", "VersionChangeType");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -61,7 +62,7 @@ public:
   // @brief default ctor
   constexpr VersionChangeType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VersionChangeType(int32_t value__) noexcept;
 
   /// @brief Field BindingRegistration value: I32(262144)

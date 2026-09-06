@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ScriptableObjectInstaller_5.hpp"
+// IWYU pragma private; include "Zenject/ScriptableObjectInstaller_5.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -55,13 +56,13 @@ protected:
   constexpr ScriptableObjectInstaller_5();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_5", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_5", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableObjectInstaller_5(ScriptableObjectInstaller_5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_5", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableObjectInstaller_5(ScriptableObjectInstaller_5 const&) = delete;
+  ScriptableObjectInstaller_5(ScriptableObjectInstaller_5const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14506 };

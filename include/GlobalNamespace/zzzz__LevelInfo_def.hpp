@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,21 +64,27 @@ public:
   /// @brief Method .ctor, addr 0x32b8ddc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_beatmaps, addr 0x32b8dbc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapInfo*> get_beatmaps();
 
+  /// [CompilerGenerated]
   /// @brief Method get_levelID, addr 0x32b8dac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
+  /// [CompilerGenerated]
   /// @brief Method get_songDurationMs, addr 0x32b8dcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_songDurationMs();
 
+  /// [CompilerGenerated]
   /// @brief Method set_beatmaps, addr 0x32b8dc4, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmaps(::ArrayW<::GlobalNamespace::BeatmapInfo*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_levelID, addr 0x32b8db4, size 0x8, virtual false, abstract: false, final false
   inline void set_levelID(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_songDurationMs, addr 0x32b8dd4, size 0x8, virtual false, abstract: false, final false
   inline void set_songDurationMs(int32_t value);
 
@@ -88,23 +94,26 @@ protected:
   constexpr LevelInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelInfo(LevelInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelInfo(LevelInfo const&) = delete;
+  LevelInfo(LevelInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18964 };
 
+  /// [CompilerGenerated]
   /// @brief Field <levelID>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelID_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <beatmaps>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapInfo*> ____beatmaps_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <songDurationMs>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____songDurationMs_k__BackingField;
 

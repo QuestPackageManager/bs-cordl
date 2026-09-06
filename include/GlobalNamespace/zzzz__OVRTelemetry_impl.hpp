@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTelemetry.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTelemetry.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetry_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -66,7 +66,7 @@ constexpr GlobalNamespace::OVRTelemetry_MarkerPoint::operator ::System::IDisposa
 constexpr ::System::IDisposable* GlobalNamespace::OVRTelemetry_MarkerPoint::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_NameHandle_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_NameHandle_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTelemetry_MarkerPoint::OVRTelemetry_MarkerPoint(int32_t _NameHandle_k__BackingField) noexcept {
   this->_NameHandle_k__BackingField = _NameHandle_k__BackingField;
 }

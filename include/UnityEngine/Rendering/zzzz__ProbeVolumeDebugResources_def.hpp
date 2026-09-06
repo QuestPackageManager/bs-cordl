@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeDebugResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeDebugResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,9 @@ class ProbeVolumeDebugResources;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ProbeVolumeDebugResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeDebugResources*, "UnityEngine.Rendering", "ProbeVolumeDebugResources");
+// [SupportedOnRenderPipeline(new[] {  })]
+// [CategoryInfo(Name = "R: Adaptive Probe Volumes", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -128,35 +131,44 @@ protected:
   constexpr ProbeVolumeDebugResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeDebugResources(ProbeVolumeDebugResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeDebugResources(ProbeVolumeDebugResources const&) = delete;
+  ProbeVolumeDebugResources(ProbeVolumeDebugResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12142 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [Header("Debug")]
+  /// [ResourcePath("Runtime/Debug/ProbeVolumeDebug.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field probeVolumeDebugShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeDebugShader;
 
+  /// [ResourcePath("Runtime/Debug/ProbeVolumeFragmentationDebug.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field probeVolumeFragmentationDebugShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeFragmentationDebugShader;
 
+  /// [ResourcePath("Runtime/Debug/ProbeVolumeSamplingDebug.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field probeVolumeSamplingDebugShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeSamplingDebugShader;
 
+  /// [ResourcePath("Runtime/Debug/ProbeVolumeOffsetDebug.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field probeVolumeOffsetDebugShader, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeOffsetDebugShader;
 
+  /// [ResourcePath("Runtime/Debug/ProbeSamplingDebugMesh.fbx", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field probeSamplingDebugMesh, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___probeSamplingDebugMesh;
 
+  /// [ResourcePath("Runtime/Debug/ProbeVolumeNumbersDisplayTex.png", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field numbersDisplayTex, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___numbersDisplayTex;
 

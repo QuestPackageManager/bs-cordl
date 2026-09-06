@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBoundary.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBoundary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr OVRBoundary_Node();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRBoundary_Node(int32_t value__) noexcept;
 
   /// @brief Field HandLeft value: I32(3)
@@ -138,7 +138,7 @@ public:
   // @brief default ctor
   constexpr OVRBoundary_BoundaryType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRBoundary_BoundaryType(int32_t value__) noexcept;
 
   /// @brief Field OuterBoundary value: I32(1)
@@ -164,6 +164,7 @@ static_assert(offsetof(::GlobalNamespace::OVRBoundary_BoundaryType, value__) == 
 static_assert(sizeof(::GlobalNamespace::OVRBoundary_BoundaryType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Obsolete("Deprecated. This struct will not be supported in OpenXR", false)]
 // Dependencies UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
@@ -175,8 +176,9 @@ public:
   // @brief default ctor
   constexpr OVRBoundary_BoundaryTestResult();
 
-  // Ctor Parameters [CppParam { name: "IsTriggering", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ClosestDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "ClosestPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "ClosestPointNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "IsTriggering", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "ClosestDistance", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "ClosestPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "ClosestPointNormal", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr OVRBoundary_BoundaryTestResult(bool IsTriggering, float_t ClosestDistance, ::UnityEngine::Vector3 ClosestPoint, ::UnityEngine::Vector3 ClosestPointNormal) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -211,6 +213,7 @@ static_assert(offsetof(::GlobalNamespace::OVRBoundary_BoundaryTestResult, Closes
 static_assert(sizeof(::GlobalNamespace::OVRBoundary_BoundaryTestResult) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-ovrboundary/")]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -245,17 +248,21 @@ public:
   /// @brief Method GetGeometry, addr 0x5e18824, size 0x3e0, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3> GetGeometry(::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
+  /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
   /// @brief Method GetVisible, addr 0x5e18d14, size 0xa0, virtual false, abstract: false, final false
   inline bool GetVisible();
 
   static inline ::GlobalNamespace::OVRBoundary* New_ctor();
 
+  /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
   /// @brief Method SetVisible, addr 0x5e18db4, size 0xa4, virtual false, abstract: false, final false
   inline void SetVisible(bool value);
 
+  /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
   /// @brief Method TestNode, addr 0x5e18674, size 0xc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRBoundary_BoundaryTestResult TestNode(::GlobalNamespace::OVRBoundary_Node node, ::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
+  /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
   /// @brief Method TestPoint, addr 0x5e18738, size 0xe4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRBoundary_BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
@@ -286,13 +293,13 @@ protected:
   constexpr OVRBoundary();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBoundary", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBoundary", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRBoundary(OVRBoundary&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBoundary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBoundary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRBoundary(OVRBoundary const&) = delete;
+  OVRBoundary(OVRBoundaryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7125 };

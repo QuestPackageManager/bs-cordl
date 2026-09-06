@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightTransformGroup_3.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightTransformGroup_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightTransformGroup_3)
@@ -24,15 +25,20 @@ class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TX, typename TY, typename TZ> class LightTransformGroup_3;
+template <typename TX, typename TY, typename TZ>
+  requires(::cordl_internals::type_constraint<TX, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<TY, ::UnityEngine::MonoBehaviour*> &&
+           ::cordl_internals::type_constraint<TZ, ::UnityEngine::MonoBehaviour*>)
+class LightTransformGroup_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::LightTransformGroup_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::LightTransformGroup_3, "", "LightTransformGroup`3");
-// Dependencies LightGroupSubsystem
+// Dependencies LightGroupSubsystem, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // cpp template
 template <typename TX, typename TY, typename TZ>
+  requires(::cordl_internals::type_constraint<TX, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<TY, ::UnityEngine::MonoBehaviour*> &&
+           ::cordl_internals::type_constraint<TZ, ::UnityEngine::MonoBehaviour*>)
 // Is value type: false
 // CS Name: LightTransformGroup`3<TX,TY,TZ>
 class CORDL_TYPE LightTransformGroup_3 : public ::GlobalNamespace::LightGroupSubsystem {
@@ -147,7 +153,7 @@ public:
   /// @brief Method get_numberOfElements, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_transformGroupType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_transformGroupType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::LightTransformGroupType get_transformGroupType();
 
   /// @brief Method get_xTransforms, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -180,32 +186,39 @@ protected:
   constexpr LightTransformGroup_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightTransformGroup_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTransformGroup_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTransformGroup_3(LightTransformGroup_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightTransformGroup_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTransformGroup_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightTransformGroup_3(LightTransformGroup_3 const&) = delete;
+  LightTransformGroup_3(LightTransformGroup_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5916 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _mirrorX, offset: 0x28, size: 0x1, def value: None
   bool ____mirrorX;
 
+  /// [SerializeField]
   /// @brief Field _mirrorY, offset: 0x29, size: 0x1, def value: None
   bool ____mirrorY;
 
+  /// [SerializeField]
   /// @brief Field _mirrorZ, offset: 0x2a, size: 0x1, def value: None
   bool ____mirrorZ;
 
+  /// [SerializeField]
   /// @brief Field _xTransforms, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____xTransforms;
 
+  /// [SerializeField]
   /// @brief Field _yTransforms, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____yTransforms;
 
+  /// [SerializeField]
   /// @brief Field _zTransforms, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____zTransforms;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SupportedOnRenderPipelineAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SupportedOnRenderPipelineAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
   // @brief default ctor
   constexpr SupportedOnRenderPipelineAttribute_SupportedMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SupportedOnRenderPipelineAttribute_SupportedMode(int32_t value__) noexcept;
 
   /// @brief Field Supported value: I32(1)
@@ -102,6 +102,7 @@ static_assert(offsetof(::UnityEngine::Rendering::SupportedOnRenderPipelineAttrib
 static_assert(sizeof(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -140,13 +141,13 @@ protected:
   constexpr SupportedOnRenderPipelineAttribute___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___c const&) = delete;
+  SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10782 };
@@ -157,6 +158,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = false)]
 // Dependencies System.Attribute, System.Type
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -186,7 +188,7 @@ public:
   /// @brief Method IsTypeSupportedOnRenderPipeline, addr 0x6b1ca94, size 0x78, virtual false, abstract: false, final false
   static inline bool IsTypeSupportedOnRenderPipeline(::System::Type* type, ::System::Type* renderPipelineAssetType);
 
-  static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* New_ctor(::ArrayW<::System::Type*> renderPipeline);
+  static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* New_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderPipeline);
 
   static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* New_ctor(::System::Type* renderPipeline);
 
@@ -197,13 +199,14 @@ public:
   constexpr void __cordl_internal_set__renderPipelineTypes_k__BackingField(::ArrayW<::System::Type*> value);
 
   /// @brief Method .ctor, addr 0x6b1c5d4, size 0x30c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::Type*> renderPipeline);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderPipeline);
 
   /// @brief Method .ctor, addr 0x6b1c530, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* renderPipeline);
 
   static inline ::System::Lazy_1<::ArrayW<::System::Type*>>* getStaticF_k_DefaultRenderPipelineAsset();
 
+  /// [CompilerGenerated]
   /// @brief Method get_renderPipelineTypes, addr 0x6b1c528, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_renderPipelineTypes();
 
@@ -215,17 +218,19 @@ protected:
   constexpr SupportedOnRenderPipelineAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttribute const&) = delete;
+  SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10783 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <renderPipelineTypes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*> ____renderPipelineTypes_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RotationTimeProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace/RotationTimeProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_VAL_T(::GlobalNamespace::RotationTimeProcessor_RotationChangeData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RotationTimeProcessor*, "", "RotationTimeProcessor");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RotationTimeProcessor___c*, "", "RotationTimeProcessor/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RotationTimeProcessor_RotationChangeData, "", "RotationTimeProcessor/RotationChangeData");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -61,8 +62,8 @@ public:
   // @brief default ctor
   constexpr RotationTimeProcessor_RotationChangeData();
 
-  // Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "isEarly", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "isEarly", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr RotationTimeProcessor_RotationChangeData(float_t beat, int32_t rotation, bool isEarly) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -92,6 +93,7 @@ static_assert(offsetof(::GlobalNamespace::RotationTimeProcessor_RotationChangeDa
 static_assert(sizeof(::GlobalNamespace::RotationTimeProcessor_RotationChangeData) == 0xc, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -127,13 +129,13 @@ protected:
   constexpr RotationTimeProcessor___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RotationTimeProcessor___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RotationTimeProcessor___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RotationTimeProcessor___c(RotationTimeProcessor___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RotationTimeProcessor___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RotationTimeProcessor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RotationTimeProcessor___c(RotationTimeProcessor___c const&) = delete;
+  RotationTimeProcessor___c(RotationTimeProcessor___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14909 };
@@ -209,13 +211,13 @@ protected:
   constexpr RotationTimeProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RotationTimeProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RotationTimeProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RotationTimeProcessor(RotationTimeProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RotationTimeProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RotationTimeProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RotationTimeProcessor(RotationTimeProcessor const&) = delete;
+  RotationTimeProcessor(RotationTimeProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14910 };

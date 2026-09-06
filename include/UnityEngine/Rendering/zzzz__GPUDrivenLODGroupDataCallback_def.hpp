@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenLODGroupDataCallback.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenLODGroupDataCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ class CORDL_TYPE GPUDrivenLODGroupDataCallback : public ::System::MulticastDeleg
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6b2b7e0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
 
   static inline ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -42,13 +42,13 @@ protected:
   constexpr GPUDrivenLODGroupDataCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenLODGroupDataCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenLODGroupDataCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUDrivenLODGroupDataCallback(GPUDrivenLODGroupDataCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenLODGroupDataCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenLODGroupDataCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUDrivenLODGroupDataCallback(GPUDrivenLODGroupDataCallback const&) = delete;
+  GPUDrivenLODGroupDataCallback(GPUDrivenLODGroupDataCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10874 };

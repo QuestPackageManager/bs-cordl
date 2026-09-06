@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightGroupRotationSpreadLayouter.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightGroupRotationSpreadLayouter.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupRotationSpreadLayouter_def.hpp"

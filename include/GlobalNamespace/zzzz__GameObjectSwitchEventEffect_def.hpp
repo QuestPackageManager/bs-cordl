@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameObjectSwitchEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameObjectSwitchEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class GameObjectSwitchEventEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::GameObjectSwitchEventEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameObjectSwitchEventEffect*, "", "GameObjectSwitchEventEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/GameObjectSwitchEventEffect")]
 // Dependencies UnityEngine.GameObject, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -92,23 +93,28 @@ protected:
   constexpr GameObjectSwitchEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectSwitchEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectSwitchEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameObjectSwitchEventEffect(GameObjectSwitchEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectSwitchEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectSwitchEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameObjectSwitchEventEffect(GameObjectSwitchEventEffect const&) = delete;
+  GameObjectSwitchEventEffect(GameObjectSwitchEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5848 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _deactivateOnBoostObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____deactivateOnBoostObjects;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _activateOnBoostObjects, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____activateOnBoostObjects;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

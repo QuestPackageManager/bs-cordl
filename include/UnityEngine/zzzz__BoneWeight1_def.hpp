@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BoneWeight1.hpp"
+// IWYU pragma private; include "UnityEngine/BoneWeight1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct BoneWeight1;
 // Write type traits
 MARK_VAL_T(::UnityEngine::BoneWeight1);
 DEFINE_IL2CPP_CLASS(::UnityEngine::BoneWeight1, "UnityEngine", "BoneWeight1");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -56,7 +57,8 @@ public:
   // @brief default ctor
   constexpr BoneWeight1();
 
-  // Ctor Parameters [CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BoneIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BoneWeight1(float_t m_Weight, int32_t m_BoneIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -65,9 +67,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [SerializeField]
   /// @brief Field m_Weight, offset: 0x0, size: 0x4, def value: None
   float_t m_Weight;
 
+  /// [SerializeField]
   /// @brief Field m_BoneIndex, offset: 0x4, size: 0x4, def value: None
   int32_t m_BoneIndex;
 

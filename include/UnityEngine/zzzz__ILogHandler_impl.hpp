@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ILogHandler.hpp"
+// IWYU pragma private; include "UnityEngine/ILogHandler.hpp"
 #include "UnityEngine/zzzz__ILogHandler_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ILog
     return ___internal_method;
   }
 };
-inline void UnityEngine::ILogHandler::LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::ILogHandler::LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ILogHandler*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, logType, context, format, args);
 }

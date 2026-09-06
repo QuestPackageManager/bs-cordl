@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Message_1.hpp"
+// IWYU pragma private; include "Oculus/Platform/Message_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr Message_1_Callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Message_1_Callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message_1_Callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Message_1_Callback(Message_1_Callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Message_1_Callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message_1_Callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Message_1_Callback(Message_1_Callback const&) = delete;
+  Message_1_Callback(Message_1_Callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17854 };
@@ -93,7 +93,7 @@ public:
   /// @brief Field data, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) T data;
 
-  /// @brief Method GetDataFromMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::Message_1<T>* New_ctor(::System::IntPtr c_message);
@@ -116,13 +116,13 @@ protected:
   constexpr Message_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Message_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Message_1(Message_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Message_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Message_1(Message_1 const&) = delete;
+  Message_1(Message_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17855 };

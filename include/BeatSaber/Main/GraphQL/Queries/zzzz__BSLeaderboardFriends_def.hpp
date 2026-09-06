@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Queries\BSLeaderboardFriends.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Queries/BSLeaderboardFriends.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace BeatSaber::Main::GraphQL::Queries {
@@ -29,6 +31,8 @@ class BSLeaderboardFriends;
 // Write type traits
 MARK_REF_T(::BeatSaber::Main::GraphQL::Queries::BSLeaderboardFriends*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Queries::BSLeaderboardFriends*, "BeatSaber.Main.GraphQL.Queries", "BSLeaderboardFriends");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLQueryOperation
 namespace BeatSaber::Main::GraphQL::Queries {
 // Is value type: false
@@ -117,13 +121,13 @@ protected:
   constexpr BSLeaderboardFriends();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardFriends", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardFriends", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BSLeaderboardFriends(BSLeaderboardFriends&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardFriends", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardFriends", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSLeaderboardFriends(BSLeaderboardFriends const&) = delete;
+  BSLeaderboardFriends(BSLeaderboardFriendsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20539 };

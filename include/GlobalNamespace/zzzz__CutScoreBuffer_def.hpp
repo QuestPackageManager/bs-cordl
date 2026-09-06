@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CutScoreBuffer.hpp"
+// IWYU pragma private; include "GlobalNamespace/CutScoreBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,7 +122,7 @@ public:
   inline void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
 
   /// @brief Method Init, addr 0x59f35f0, size 0x26c, virtual false, abstract: false, final false
-  inline bool Init(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline bool Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::CutScoreBuffer* New_ctor();
 
@@ -252,13 +252,13 @@ protected:
   constexpr CutScoreBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CutScoreBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CutScoreBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CutScoreBuffer(CutScoreBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CutScoreBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CutScoreBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CutScoreBuffer(CutScoreBuffer const&) = delete;
+  CutScoreBuffer(CutScoreBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6256 };

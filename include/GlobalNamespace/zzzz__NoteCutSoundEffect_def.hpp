@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutSoundEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutSoundEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,13 +75,13 @@ protected:
   constexpr NoteCutSoundEffect_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutSoundEffect_Pool(NoteCutSoundEffect_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutSoundEffect_Pool(NoteCutSoundEffect_Pool const&) = delete;
+  NoteCutSoundEffect_Pool(NoteCutSoundEffect_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5572 };
@@ -204,7 +204,7 @@ public:
   inline void NoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
   /// @brief Method NoteWasCut, addr 0x58b8758, size 0x230, virtual false, abstract: false, final false
-  inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method OnLateUpdate, addr 0x58b8330, size 0x264, virtual false, abstract: false, final false
   inline void OnLateUpdate();
@@ -392,13 +392,13 @@ protected:
   constexpr NoteCutSoundEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutSoundEffect(NoteCutSoundEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutSoundEffect(NoteCutSoundEffect const&) = delete;
+  NoteCutSoundEffect(NoteCutSoundEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5573 };
@@ -409,18 +409,23 @@ public:
   /// @brief Field kEndOverlap offset 0xffffffff size 0x4
   static constexpr float_t kEndOverlap{ static_cast<float_t>(100.01f) };
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [SerializeField]
   /// @brief Field _speedToVolumeCurve, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____speedToVolumeCurve;
 
+  /// [SerializeField]
   /// @brief Field _badCutSoundEffectAudioClips, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____badCutSoundEffectAudioClips;
 
+  /// [SerializeField]
   /// @brief Field _badCutVolume, offset: 0x38, size: 0x4, def value: None
   float_t ____badCutVolume;
 
+  /// [SerializeField]
   /// @brief Field _goodCutVolume, offset: 0x3c, size: 0x4, def value: None
   float_t ____goodCutVolume;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRNotifications.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRNotifications.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ MARK_VAL_T(::OVR::OpenVR::IVRNotifications);
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRNotifications__CreateNotification*, "OVR.OpenVR", "IVRNotifications/_CreateNotification");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRNotifications__RemoveNotification*, "OVR.OpenVR", "IVRNotifications/_RemoveNotification");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRNotifications, "OVR.OpenVR", "IVRNotifications");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -84,13 +85,13 @@ protected:
   constexpr IVRNotifications__CreateNotification();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRNotifications__CreateNotification", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRNotifications__CreateNotification", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRNotifications__CreateNotification(IVRNotifications__CreateNotification&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRNotifications__CreateNotification", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRNotifications__CreateNotification", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRNotifications__CreateNotification(IVRNotifications__CreateNotification const&) = delete;
+  IVRNotifications__CreateNotification(IVRNotifications__CreateNotificationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8309 };
@@ -101,6 +102,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRNotifications__CreateNotification) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -128,13 +130,13 @@ protected:
   constexpr IVRNotifications__RemoveNotification();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRNotifications__RemoveNotification", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRNotifications__RemoveNotification", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRNotifications__RemoveNotification(IVRNotifications__RemoveNotification&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRNotifications__RemoveNotification", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRNotifications__RemoveNotification", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRNotifications__RemoveNotification(IVRNotifications__RemoveNotification const&) = delete;
+  IVRNotifications__RemoveNotification(IVRNotifications__RemoveNotificationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8310 };
@@ -160,8 +162,8 @@ public:
   // @brief default ctor
   constexpr IVRNotifications();
 
-  // Ctor Parameters [CppParam { name: "CreateNotification", ty: "::OVR::OpenVR::IVRNotifications__CreateNotification*", modifiers: "", def_value: None }, CppParam { name: "RemoveNotification", ty:
-  // "::OVR::OpenVR::IVRNotifications__RemoveNotification*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "CreateNotification", ty: "::OVR::OpenVR::IVRNotifications__CreateNotification*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "RemoveNotification", ty: "::OVR::OpenVR::IVRNotifications__RemoveNotification*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRNotifications(::OVR::OpenVR::IVRNotifications__CreateNotification* CreateNotification, ::OVR::OpenVR::IVRNotifications__RemoveNotification* RemoveNotification) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FtpControlStream.hpp"
+// IWYU pragma private; include "System/Net/FtpControlStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -123,7 +123,7 @@ public:
   // @brief default ctor
   constexpr FtpControlStream_GetPathOption();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FtpControlStream_GetPathOption(int32_t value__) noexcept;
 
   /// @brief Field AssumeFilename value: I32(1)
@@ -152,6 +152,7 @@ static_assert(offsetof(::System::Net::FtpControlStream_GetPathOption, value__) =
 static_assert(sizeof(::System::Net::FtpControlStream_GetPathOption) == 0x4, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net {
 // Is value type: false
@@ -191,13 +192,13 @@ protected:
   constexpr FtpControlStream___c__DisplayClass31_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream___c__DisplayClass31_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream___c__DisplayClass31_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FtpControlStream___c__DisplayClass31_0(FtpControlStream___c__DisplayClass31_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream___c__DisplayClass31_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream___c__DisplayClass31_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpControlStream___c__DisplayClass31_0(FtpControlStream___c__DisplayClass31_0 const&) = delete;
+  FtpControlStream___c__DisplayClass31_0(FtpControlStream___c__DisplayClass31_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11465 };
@@ -538,13 +539,13 @@ protected:
   constexpr FtpControlStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FtpControlStream(FtpControlStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpControlStream(FtpControlStream const&) = delete;
+  FtpControlStream(FtpControlStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11466 };

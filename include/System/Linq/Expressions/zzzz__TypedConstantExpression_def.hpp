@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\TypedConstantExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/TypedConstantExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ public:
   /// @brief Method .ctor, addr 0x5f7ac8c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::System::Type* type);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f7acb0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
@@ -50,17 +51,18 @@ protected:
   constexpr TypedConstantExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypedConstantExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedConstantExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypedConstantExpression(TypedConstantExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypedConstantExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedConstantExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypedConstantExpression(TypedConstantExpression const&) = delete;
+  TypedConstantExpression(TypedConstantExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16160 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 

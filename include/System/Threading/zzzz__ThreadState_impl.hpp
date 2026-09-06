@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ThreadState.hpp"
+// IWYU pragma private; include "System/Threading/ThreadState.hpp"
 #include "System/Threading/zzzz__ThreadState_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Threading::ThreadState::ThreadState(int32_t value__) noexcept {
   this->value__ = value__;
 }

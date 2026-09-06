@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ValueTaskAwaiter.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ValueTaskAwaiter.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
@@ -170,7 +170,7 @@ constexpr System::Runtime::CompilerServices::ValueTaskAwaiter::operator ::System
 constexpr ::System::Runtime::CompilerServices::INotifyCompletion* System::Runtime::CompilerServices::ValueTaskAwaiter::i___System__Runtime__CompilerServices__INotifyCompletion() {
   return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::CompilerServices::ValueTaskAwaiter::ValueTaskAwaiter(::System::Threading::Tasks::ValueTask _value) noexcept {
   this->_value = _value;
 }

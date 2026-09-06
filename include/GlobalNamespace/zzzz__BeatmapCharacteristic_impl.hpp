@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristic.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristic.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapCharacteristic::BeatmapCharacteristic(int32_t value__) noexcept {
   this->value__ = value__;
 }

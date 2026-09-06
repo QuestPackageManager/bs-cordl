@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ReaderWriterLock.hpp"
+// IWYU pragma private; include "System/Threading/ReaderWriterLock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class ReaderWriterLock;
 // Write type traits
 MARK_REF_T(::System::Threading::ReaderWriterLock*);
 DEFINE_IL2CPP_CLASS(::System::Threading::ReaderWriterLock*, "System.Threading", "ReaderWriterLock");
+// [ComVisible(true)]
 // Dependencies System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 namespace System::Threading {
 // Is value type: false
@@ -66,12 +67,14 @@ public:
 
   static inline ::System::Threading::ReaderWriterLock* New_ctor();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method ReleaseReaderLock, addr 0x5cb913c, size 0x1bc, virtual false, abstract: false, final false
   inline void ReleaseReaderLock();
 
   /// @brief Method ReleaseReaderLock, addr 0x5cb9420, size 0x114, virtual false, abstract: false, final false
   inline void ReleaseReaderLock(int32_t currentCount, int32_t releaseCount);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method ReleaseWriterLock, addr 0x5cb92f8, size 0x128, virtual false, abstract: false, final false
   inline void ReleaseWriterLock();
 
@@ -117,6 +120,7 @@ public:
   /// @brief Method .ctor, addr 0x5cb8a64, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_IsWriterLockHeld, addr 0x5cb8b2c, size 0xdc, virtual false, abstract: false, final false
   inline bool get_IsWriterLockHeld();
 
@@ -126,13 +130,13 @@ protected:
   constexpr ReaderWriterLock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReaderWriterLock(ReaderWriterLock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReaderWriterLock(ReaderWriterLock const&) = delete;
+  ReaderWriterLock(ReaderWriterLockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2759 };

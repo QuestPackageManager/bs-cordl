@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\BaseMeshEffect.hpp"
+// IWYU pragma private; include "UnityEngine/UI/BaseMeshEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class BaseMeshEffect;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::BaseMeshEffect*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::BaseMeshEffect*, "UnityEngine.UI", "BaseMeshEffect");
+// [ExecuteAlways]
 // Dependencies UnityEngine.EventSystems.UIBehaviour
 namespace UnityEngine::UI {
 // Is value type: false
@@ -42,7 +43,7 @@ public:
   /// @brief Method ModifyMesh, addr 0x6e13a94, size 0x174, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method ModifyMesh, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::BaseMeshEffect* New_ctor();
@@ -77,13 +78,13 @@ protected:
   constexpr BaseMeshEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseMeshEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseMeshEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseMeshEffect(BaseMeshEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseMeshEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseMeshEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseMeshEffect(BaseMeshEffect const&) = delete;
+  BaseMeshEffect(BaseMeshEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17513 };

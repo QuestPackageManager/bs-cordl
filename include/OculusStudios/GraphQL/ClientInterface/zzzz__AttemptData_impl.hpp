@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\AttemptData.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/AttemptData.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__AttemptData_def.hpp"

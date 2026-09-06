@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRLocatable.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRLocatable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,13 +63,17 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobFor;
@@ -140,6 +144,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRLocatable_SetLocalSpaceTransformsJob, 
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRLocatable_SetWorldSpaceTransformsJob, "", "OVRLocatable/SetWorldSpaceTransformsJob");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRLocatable_TrackingSpacePose, "", "OVRLocatable/TrackingSpacePose");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRLocatable_TransformPosesJob, "", "OVRLocatable/TransformPosesJob");
+// [IsReadOnly]
 // Dependencies OVRPlugin::SpaceLocationFlags, System.Nullable`1<T>, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
@@ -155,12 +160,16 @@ public:
 
   __declspec(property(get = get_Rotation)) ::System::Nullable_1<::UnityEngine::Quaternion> Rotation;
 
+  /// [Obsolete("Using this method after \'await locatable.SetEnabledAsync(true);\' is error-prone. OVRTask finishes the execution before OVRCameraRig.Update(), so camera will still use a pose from
+  /// the previous frame. This results in descrepancy when localizing anchors against the stale camera pose.\nUse an overload with the \'trackingSpaceToWorldSpaceTransform\' parameter instead.")]
   /// @brief Method ComputeWorldPosition, addr 0x5e10388, size 0x288, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> ComputeWorldPosition(::UnityEngine::Camera* camera);
 
   /// @brief Method ComputeWorldPosition, addr 0x5e10ee0, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> ComputeWorldPosition(::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform);
 
+  /// [Obsolete("Using this method after \'await locatable.SetEnabledAsync(true);\' is error-prone. OVRTask finishes the execution before OVRCameraRig.Update(), so camera will still use a pose from
+  /// the previous frame. This results in descrepancy when localizing anchors against the stale camera pose.\nUse an overload with the \'trackingSpaceToWorldSpaceTransform\' parameter instead.")]
   /// @brief Method ComputeWorldRotation, addr 0x5e10c14, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> ComputeWorldRotation(::UnityEngine::Camera* camera);
 
@@ -176,9 +185,11 @@ public:
   /// @brief Method get_IsRotationTracked, addr 0x5e1032c, size 0x5c, virtual false, abstract: false, final false
   inline bool get_IsRotationTracked();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Position, addr 0x5e102b0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Rotation, addr 0x5e102bc, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
 
@@ -186,9 +197,9 @@ public:
   // @brief default ctor
   constexpr OVRLocatable_TrackingSpacePose();
 
-  // Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "_Rotation_k__BackingField",
-  // ty: "::System::Nullable_1<::UnityEngine::Quaternion>", modifiers: "", def_value: None }, CppParam { name: "Flags", ty: "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_Rotation_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Quaternion>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Flags", ty:
+  // "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value: None, comment: None }]
   constexpr OVRLocatable_TrackingSpacePose(::System::Nullable_1<::UnityEngine::Vector3> _Position_k__BackingField, ::System::Nullable_1<::UnityEngine::Quaternion> _Rotation_k__BackingField,
                                            ::GlobalNamespace::OVRPlugin_SpaceLocationFlags Flags) noexcept;
 
@@ -204,9 +215,11 @@ public:
     u"previous frame. This results in descrepancy when localizing anchors against the stale camera pose.\nUse an overload with the \'trackingSpaceToWorldSpaceTransform\' parameter instead."
   };
 
+  /// [CompilerGenerated]
   /// @brief Field <Position>k__BackingField, offset: 0x0, size: 0x10, def value: None
   ::System::Nullable_1<::UnityEngine::Vector3> _Position_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Rotation>k__BackingField, offset: 0x10, size: 0x14, def value: None
   ::System::Nullable_1<::UnityEngine::Quaternion> _Rotation_k__BackingField;
 
@@ -225,6 +238,7 @@ static_assert(offsetof(::GlobalNamespace::OVRLocatable_TrackingSpacePose, Flags)
 static_assert(sizeof(::GlobalNamespace::OVRLocatable_TrackingSpacePose) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -293,6 +307,7 @@ public:
   /// @brief Method SetEnabledAsync, addr 0x5e0e814, size 0x29c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout);
 
+  /// [Obsolete("Use SetEnabledAsync instead.")]
   /// @brief Method SetEnabledSafeAsync, addr 0x5e0eab0, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledSafeAsync(bool enabled, double_t timeout);
 
@@ -311,6 +326,7 @@ public:
                               ::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform,
                               ::System::Collections::Generic::List_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>* trackingSpacePoses);
 
+  /// [CompilerGenerated]
   /// @brief Method <UpdateSceneAnchorTransforms>g__GetLocatableOrDefault|34_0, addr 0x5e10218, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRLocatable _UpdateSceneAnchorTransforms_g__GetLocatableOrDefault_34_0(::GlobalNamespace::OVRAnchor anchor);
 
@@ -319,6 +335,7 @@ public:
 
   static inline ::GlobalNamespace::OVRLocatable getStaticF_Null();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handle, addr 0x5e0ee30, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
@@ -349,7 +366,7 @@ public:
   // @brief default ctor
   constexpr OVRLocatable();
 
-  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRLocatable(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -358,6 +375,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
   uint64_t _Handle_k__BackingField;
 
@@ -389,8 +407,8 @@ public:
   // @brief default ctor
   constexpr OVRLocatable_GetSceneAnchorPosesJob();
 
-  // Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: None }, CppParam { name: "Poses", ty:
-  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRLocatable_GetSceneAnchorPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables,
                                                 ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept;
 
@@ -400,9 +418,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [ReadOnly]
   /// @brief Field Locatables, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables;
 
+  /// [WriteOnly]
   /// @brief Field Poses, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses;
 
@@ -436,8 +456,8 @@ public:
   // @brief default ctor
   constexpr OVRLocatable_GetSpatialAnchorPosesJob();
 
-  // Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: None }, CppParam { name: "Poses", ty:
-  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRLocatable_GetSpatialAnchorPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables,
                                                   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept;
 
@@ -447,9 +467,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [ReadOnly]
   /// @brief Field Locatables, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables;
 
+  /// [WriteOnly]
   /// @brief Field Poses, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses;
 
@@ -483,8 +505,9 @@ public:
   // @brief default ctor
   constexpr OVRLocatable_TransformPosesJob();
 
-  // Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }, CppParam { name:
-  // "Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr OVRLocatable_TransformPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses, ::UnityEngine::Matrix4x4 Transform,
                                            ::UnityEngine::Quaternion Rotation) noexcept;
 
@@ -535,7 +558,7 @@ public:
   // @brief default ctor
   constexpr OVRLocatable_SetWorldSpaceTransformsJob();
 
-  // Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRLocatable_SetWorldSpaceTransformsJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -544,6 +567,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [ReadOnly]
   /// @brief Field Poses, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses;
 
@@ -575,7 +599,7 @@ public:
   // @brief default ctor
   constexpr OVRLocatable_SetLocalSpaceTransformsJob();
 
-  // Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRLocatable_SetLocalSpaceTransformsJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -584,6 +608,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [ReadOnly]
   /// @brief Field Poses, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses;
 
@@ -615,8 +640,8 @@ public:
   // @brief default ctor
   constexpr OVRLocatable_CopyPosesJob();
 
-  // Ctor Parameters [CppParam { name: "PosesIn", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }, CppParam { name:
-  // "PosesOut", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "PosesIn", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "PosesOut", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRLocatable_CopyPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesIn,
                                       ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesOut) noexcept;
 
@@ -626,9 +651,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [ReadOnly]
   /// @brief Field PosesIn, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesIn;
 
+  /// [WriteOnly]
   /// @brief Field PosesOut, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesOut;
 

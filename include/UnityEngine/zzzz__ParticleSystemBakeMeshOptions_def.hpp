@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ParticleSystemBakeMeshOptions.hpp"
+// IWYU pragma private; include "UnityEngine/ParticleSystemBakeMeshOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ParticleSystemBakeMeshOptions;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ParticleSystemBakeMeshOptions);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ParticleSystemBakeMeshOptions, "UnityEngine", "ParticleSystemBakeMeshOptions");
+// [Flags]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ParticleSystemBakeMeshOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ParticleSystemBakeMeshOptions(int32_t value__) noexcept;
 
   /// @brief Field BakePosition value: I32(2)

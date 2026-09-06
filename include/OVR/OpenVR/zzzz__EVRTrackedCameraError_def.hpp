@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\EVRTrackedCameraError.hpp"
+// IWYU pragma private; include "OVR/OpenVR/EVRTrackedCameraError.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   // @brief default ctor
   constexpr EVRTrackedCameraError();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EVRTrackedCameraError(int32_t value__) noexcept;
 
   /// @brief Field FailedToGetGLTextureId value: I32(111)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UIntFloat.hpp"
+// IWYU pragma private; include "Unity/Collections/UIntFloat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,8 +61,9 @@ public:
   // @brief default ctor
   constexpr UIntFloat();
 
-  // Ctor Parameters [CppParam { name: "floatValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "intValue", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "doubleValue", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "longValue", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "floatValue", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "intValue", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "doubleValue", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "longValue", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr UIntFloat(float_t floatValue, uint32_t intValue, double_t doubleValue, uint64_t longValue) noexcept;
 
 private:

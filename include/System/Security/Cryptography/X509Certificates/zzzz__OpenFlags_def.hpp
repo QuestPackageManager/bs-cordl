@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\OpenFlags.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/OpenFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct OpenFlags;
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::OpenFlags);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::X509Certificates::OpenFlags, "System.Security.Cryptography.X509Certificates", "OpenFlags");
+// [Flags]
 // Dependencies
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr OpenFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenFlags(int32_t value__) noexcept;
 
   /// @brief Field IncludeArchived value: I32(8)

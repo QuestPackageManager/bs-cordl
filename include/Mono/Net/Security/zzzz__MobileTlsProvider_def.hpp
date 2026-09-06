@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\MobileTlsProvider.hpp"
+// IWYU pragma private; include "Mono/Net/Security/MobileTlsProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ namespace Mono::Net::Security {
 class CORDL_TYPE MobileTlsProvider : public ::Mono::Security::Interface::MonoTlsProvider {
 public:
   // Declarations
-  /// @brief Method CreateSslStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateSslStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* CreateSslStream(::System::Net::Security::SslStream* sslStream, ::System::IO::Stream* innerStream, bool leaveInnerStreamOpen,
                                                                            ::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline ::Mono::Net::Security::MobileTlsProvider* New_ctor();
 
-  /// @brief Method ValidateCertificate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ValidateCertificate(::Mono::Net::Security::ChainValidationHelper* validator, ::StringW targetHost, bool serverMode,
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
                                   ::by_ref<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ::by_ref<::System::Net::Security::SslPolicyErrors> errors,
@@ -66,13 +66,13 @@ protected:
   constexpr MobileTlsProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MobileTlsProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MobileTlsProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MobileTlsProvider(MobileTlsProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MobileTlsProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MobileTlsProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MobileTlsProvider(MobileTlsProvider const&) = delete;
+  MobileTlsProvider(MobileTlsProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11029 };

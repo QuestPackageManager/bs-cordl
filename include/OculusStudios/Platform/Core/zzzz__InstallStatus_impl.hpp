@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\InstallStatus.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/InstallStatus.hpp"
 #include "OculusStudios/Platform/Core/zzzz__InstallStatus_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::Platform::Core::InstallStatus::InstallStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }

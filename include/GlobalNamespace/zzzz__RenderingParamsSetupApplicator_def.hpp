@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RenderingParamsSetupApplicator.hpp"
+// IWYU pragma private; include "GlobalNamespace/RenderingParamsSetupApplicator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,20 +76,22 @@ protected:
   constexpr RenderingParamsSetupApplicator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderingParamsSetupApplicator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderingParamsSetupApplicator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderingParamsSetupApplicator(RenderingParamsSetupApplicator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderingParamsSetupApplicator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderingParamsSetupApplicator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderingParamsSetupApplicator(RenderingParamsSetupApplicator const&) = delete;
+  RenderingParamsSetupApplicator(RenderingParamsSetupApplicatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6665 };
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [Inject]
   /// @brief Field _settingsApplicator, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextMeshProButton.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextMeshProButton.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextMeshProButton_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"

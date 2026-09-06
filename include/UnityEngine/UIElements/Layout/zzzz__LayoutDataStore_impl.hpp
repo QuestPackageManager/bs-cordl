@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutDataStore.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutDataStore.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutDataStore_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -7,7 +7,7 @@
 #include "UnityEngine/UIElements/Layout/zzzz__ComponentType_def.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutDataStore_def.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutHandle_def.hpp"
-// Ctor Parameters [CppParam { name: "Buffer", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Buffer", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk::LayoutDataStore_Chunk(uint8_t* Buffer) noexcept {
   this->Buffer = Buffer;
 }
@@ -98,9 +98,10 @@ constexpr UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::o
 constexpr ::System::IDisposable* UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}") }, CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ComponentCountPerChunk", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ChunkCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Chunks", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ComponentCountPerChunk", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ChunkCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Chunks", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk*", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::LayoutDataStore_ComponentDataStore(::Unity::Collections::Allocator Allocator, int32_t Size,
                                                                                                                     int32_t ComponentCountPerChunk, int32_t ChunkCount,
                                                                                                                     ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk* m_Chunks) noexcept {
@@ -112,9 +113,10 @@ constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::LayoutDataStore_ComponentDataStore() {}
-// Ctor Parameters [CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NextFreeIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "ComponentCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Versions", ty: "int32_t*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Components", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NextFreeIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "ComponentCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Versions", ty: "int32_t*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Components", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_Data::LayoutDataStore_Data(int32_t Capacity, int32_t NextFreeIndex, int32_t ComponentCount, int32_t* Versions,
                                                                                         ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* Components) noexcept {
   this->Capacity = Capacity;
@@ -313,7 +315,7 @@ inline void UnityEngine::UIElements::Layout::LayoutDataStore::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::Layout::LayoutDataStore::Exists(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle) {
+inline bool UnityEngine::UIElements::Layout::LayoutDataStore::Exists(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
                                                                                          { "Exists", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, handle);
@@ -328,7 +330,7 @@ inline ::UnityEngine::UIElements::Layout::LayoutHandle UnityEngine::UIElements::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "Allocate", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutHandle>(*this, ___internal_method, data, count);
 }
-inline void UnityEngine::UIElements::Layout::LayoutDataStore::Free(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle) {
+inline void UnityEngine::UIElements::Layout::LayoutDataStore::Free(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
                                                                                          { "Free", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, handle);
@@ -364,15 +366,21 @@ inline void* UnityEngine::UIElements::Layout::LayoutDataStore::ResizeArray(void*
                                                                                              ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
   return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, fromPtr, fromCount, toCount, size, align, allocator);
 }
-template <typename T0> inline ::UnityEngine::UIElements::Layout::LayoutHandle UnityEngine::UIElements::Layout::LayoutDataStore::Allocate(::by_ref<T0> component0) {
+template <typename T0>
+  requires(::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0>)
+inline ::UnityEngine::UIElements::Layout::LayoutHandle UnityEngine::UIElements::Layout::LayoutDataStore::Allocate(/* [IsReadOnly] */ ::by_ref<T0> component0) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "Allocate", { ::i2c::class_of<T0>() }, { ::i2c::type_of<::by_ref<T0>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T0>() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutHandle>(*this, ___internal_method, component0);
 }
 template <typename T0, typename T1, typename T2, typename T3>
-inline ::UnityEngine::UIElements::Layout::LayoutHandle UnityEngine::UIElements::Layout::LayoutDataStore::Allocate(::by_ref<T0> component0, ::by_ref<T1> component1, ::by_ref<T2> component2,
-                                                                                                                  ::by_ref<T3> component3) {
+  requires(::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> && ::cordl_internals::value_type_constraint<T1> &&
+           ::cordl_internals::default_constructor_constraint<T1> && ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
+inline ::UnityEngine::UIElements::Layout::LayoutHandle
+UnityEngine::UIElements::Layout::LayoutDataStore::Allocate(/* [IsReadOnly] */ ::by_ref<T0> component0, /* [IsReadOnly] */ ::by_ref<T1> component1, /* [IsReadOnly] */ ::by_ref<T2> component2,
+                                                           /* [IsReadOnly] */ ::by_ref<T3> component3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
                                                            { "Allocate",
@@ -390,8 +398,8 @@ constexpr UnityEngine::UIElements::Layout::LayoutDataStore::operator ::System::I
 constexpr ::System::IDisposable* UnityEngine::UIElements::Layout::LayoutDataStore::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Data", ty:
-// "::UnityEngine::UIElements::Layout::LayoutDataStore_Data*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Data", ty:
+// "::UnityEngine::UIElements::Layout::LayoutDataStore_Data*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore::LayoutDataStore(::Unity::Collections::Allocator m_Allocator, ::UnityEngine::UIElements::Layout::LayoutDataStore_Data* m_Data) noexcept {
   this->m_Allocator = m_Allocator;
   this->m_Data = m_Data;

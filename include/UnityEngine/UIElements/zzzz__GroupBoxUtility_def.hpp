@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\GroupBoxUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/GroupBoxUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 CORDL_MODULE_EXPORT(GroupBoxUtility)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -33,7 +35,8 @@ class GroupBoxUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::GroupBoxUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GroupBoxUtility*, "UnityEngine.UIElements", "GroupBoxUtility");
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, UnityEngine.UIElements.IGroupBoxOption, UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.GroupBoxUtility
@@ -59,17 +62,26 @@ public:
   /// @brief Method OnGroupBoxDetachedFromPanel, addr 0x6db1160, size 0xc0, virtual false, abstract: false, final false
   static inline void OnGroupBoxDetachedFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
+  /// [Extension]
   /// @brief Method OnOptionSelected, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void OnOptionSelected(T selectedOption);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IGroupBoxOption*>)
+  static inline void OnOptionSelected(T selectedOption);
 
   /// @brief Method OnPanelDestroyed, addr 0x6db1220, size 0xe4, virtual false, abstract: false, final false
   static inline void OnPanelDestroyed(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
+  /// [Extension]
   /// @brief Method RegisterGroupBoxOption, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void RegisterGroupBoxOption(T option);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IGroupBoxOption*>)
+  static inline void RegisterGroupBoxOption(T option);
 
+  /// [Extension]
   /// @brief Method UnregisterGroupBoxOption, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void UnregisterGroupBoxOption(T option);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IGroupBoxOption*>)
+  static inline void UnregisterGroupBoxOption(T option);
 
   static inline ::System::Type* getStaticF_k_GenericGroupBoxType();
 
@@ -89,13 +101,13 @@ protected:
   constexpr GroupBoxUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBoxUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupBoxUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupBoxUtility(GroupBoxUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBoxUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupBoxUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupBoxUtility(GroupBoxUtility const&) = delete;
+  GroupBoxUtility(GroupBoxUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4600 };

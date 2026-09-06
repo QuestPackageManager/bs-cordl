@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Panel.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Panel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,6 +102,7 @@ class Panel;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::Panel*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Panel*, "UnityEngine.UIElements", "Panel");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies Unity.Profiling.ProfilerMarker, UnityEngine.EventInterests, UnityEngine.UIElements.BaseVisualElementPanel, UnityEngine.UIElements.ContextType
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -250,6 +251,7 @@ public:
 
   __declspec(property(get = get_scheduler)) ::UnityEngine::UIElements::IScheduler* scheduler;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_styleAnimationSystem, put = set_styleAnimationSystem)) ::UnityEngine::UIElements::IStylePropertyAnimationSystem* styleAnimationSystem;
 
   __declspec(property(get = get_timerEventScheduler)) ::UnityEngine::UIElements::TimerEventScheduler* timerEventScheduler;
@@ -279,6 +281,7 @@ public:
   /// @brief Method GetUpdater, addr 0x6dba75c, size 0x20, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* GetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method LoadResource, addr 0x6db8d00, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> LoadResource(::StringW pathName, ::System::Type* type, float_t dpiScaling);
 
@@ -329,6 +332,7 @@ public:
   /// @brief Method ValidateLayout, addr 0x6dba1e0, size 0x64, virtual true, abstract: false, final false
   inline void ValidateLayout();
 
+  /// [CompilerGenerated]
   /// @brief Method <Pick>g__PixelOf|105_0, addr 0x6dba114, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int _Pick_g__PixelOf_105_0(::UnityEngine::Vector2 p);
 
@@ -520,48 +524,59 @@ public:
   /// @brief Method get_HyperlinkColor, addr 0x6dba77c, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_HyperlinkColor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IMGUIContainersCount, addr 0x6db91b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_IMGUIContainersCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IMGUIEventInterests, addr 0x6db8c84, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::EventInterests get_IMGUIEventInterests();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TimeSinceStartup, addr 0x6db915c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TimeMsFunction* get_TimeSinceStartup();
 
   /// @brief Method get_atlas, addr 0x6db91e0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::AtlasBase* get_atlas();
 
+  /// [CompilerGenerated]
   /// @brief Method get_contextType, addr 0x6db8c5c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextType get_contextType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dispatcher, addr 0x6db8b08, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::EventDispatcher* get_dispatcher();
 
+  /// [CompilerGenerated]
   /// @brief Method get_focusController, addr 0x6db8c74, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
+  /// [CompilerGenerated]
   /// @brief Method get_getViewDataDictionary, addr 0x6db8c6c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::GetViewDataDictionary* get_getViewDataDictionary();
 
   /// @brief Method get_hierarchyVersion, addr 0x6db91d8, size 0x8, virtual true, abstract: false, final false
   inline uint32_t get_hierarchyVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_loadResourceFunc, addr 0x6db8ca4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::LoadResourceFunction* get_loadResourceFunc();
 
   /// @brief Method get_name, addr 0x6db8eac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ownerObject, addr 0x6db8c4c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::ScriptableObject> get_ownerObject();
 
   /// @brief Method get_panelChangeReceiver, addr 0x6db9154, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IDebugPanelChangeReceiver* get_panelChangeReceiver();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rootIMGUIContainer, addr 0x6db91c8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IMGUIContainer* get_rootIMGUIContainer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_saveViewData, addr 0x6db8c64, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::SavePersistentViewData* get_saveViewData();
 
@@ -588,24 +603,29 @@ public:
 
   static inline void setStaticF_s_MarkerPickAll(::Unity::Profiling::ProfilerMarker value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IMGUIContainersCount, addr 0x6db91c0, size 0x8, virtual true, abstract: false, final false
   inline void set_IMGUIContainersCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IMGUIEventInterests, addr 0x6db8c94, size 0x10, virtual true, abstract: false, final false
   inline void set_IMGUIEventInterests(::UnityEngine::EventInterests value);
 
   /// @brief Method set_atlas, addr 0x6db91e8, size 0x7c, virtual true, abstract: false, final false
   inline void set_atlas(::UnityEngine::UIElements::AtlasBase* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dispatcher, addr 0x6db8b10, size 0x8, virtual true, abstract: false, final true
   inline void set_dispatcher(::UnityEngine::UIElements::EventDispatcher* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_focusController, addr 0x6db8c7c, size 0x8, virtual true, abstract: false, final true
   inline void set_focusController(::UnityEngine::UIElements::FocusController* value);
 
   /// @brief Method set_name, addr 0x6dae078, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ownerObject, addr 0x6db8c54, size 0x8, virtual true, abstract: false, final false
   inline void set_ownerObject(::UnityEngine::ScriptableObject* value);
 
@@ -621,13 +641,13 @@ protected:
   constexpr Panel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Panel(Panel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Panel(Panel const&) = delete;
+  Panel(Panelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4648 };
@@ -680,27 +700,41 @@ public:
   /// @brief Field m_MarkerPanelChangeReceiver, offset: 0x148, size: 0x8, def value: None
   ::Unity::Profiling::ProfilerMarker ___m_MarkerPanelChangeReceiver;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <dispatcher>k__BackingField, offset: 0x150, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventDispatcher* ____dispatcher_k__BackingField;
 
   /// @brief Field m_Scheduler, offset: 0x158, size: 0x8, def value: None
   ::UnityEngine::UIElements::TimerEventScheduler* ___m_Scheduler;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ownerObject>k__BackingField, offset: 0x160, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ScriptableObject> ____ownerObject_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <contextType>k__BackingField, offset: 0x168, size: 0x4, def value: None
   ::UnityEngine::UIElements::ContextType ____contextType_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <saveViewData>k__BackingField, offset: 0x170, size: 0x8, def value: None
   ::UnityEngine::UIElements::SavePersistentViewData* ____saveViewData_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <getViewDataDictionary>k__BackingField, offset: 0x178, size: 0x8, def value: None
   ::UnityEngine::UIElements::GetViewDataDictionary* ____getViewDataDictionary_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <focusController>k__BackingField, offset: 0x180, size: 0x8, def value: None
   ::UnityEngine::UIElements::FocusController* ____focusController_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IMGUIEventInterests>k__BackingField, offset: 0x188, size: 0x3, def value: None
   ::UnityEngine::EventInterests ____IMGUIEventInterests_k__BackingField;
 
@@ -710,9 +744,13 @@ public:
   /// @brief Field m_PanelChangeReceiver, offset: 0x190, size: 0x8, def value: None
   ::UnityEngine::UIElements::IDebugPanelChangeReceiver* ___m_PanelChangeReceiver;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IMGUIContainersCount>k__BackingField, offset: 0x198, size: 0x4, def value: None
   int32_t ____IMGUIContainersCount_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <rootIMGUIContainer>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::UIElements::IMGUIContainer* ____rootIMGUIContainer_k__BackingField;
 

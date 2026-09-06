@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\EtwDiagnosticTrace.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/EtwDiagnosticTrace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,13 +100,13 @@ protected:
   constexpr EtwDiagnosticTrace_StringBuilderPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace_StringBuilderPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace_StringBuilderPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EtwDiagnosticTrace_StringBuilderPool(EtwDiagnosticTrace_StringBuilderPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace_StringBuilderPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace_StringBuilderPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EtwDiagnosticTrace_StringBuilderPool(EtwDiagnosticTrace_StringBuilderPool const&) = delete;
+  EtwDiagnosticTrace_StringBuilderPool(EtwDiagnosticTrace_StringBuilderPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21324 };
@@ -300,13 +300,13 @@ protected:
   constexpr EtwDiagnosticTrace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EtwDiagnosticTrace(EtwDiagnosticTrace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EtwDiagnosticTrace(EtwDiagnosticTrace const&) = delete;
+  EtwDiagnosticTrace(EtwDiagnosticTraceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21325 };

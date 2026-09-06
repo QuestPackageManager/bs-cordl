@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\DerSequenceReader.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/DerSequenceReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +86,7 @@ public:
   // @brief default ctor
   constexpr DerSequenceReader_DerTag();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr DerSequenceReader_DerTag(uint8_t value__) noexcept;
 
   /// @brief Field BMPString value: U8(30)
@@ -151,6 +151,7 @@ static_assert(offsetof(::System::Security::Cryptography::DerSequenceReader_DerTa
 static_assert(sizeof(::System::Security::Cryptography::DerSequenceReader_DerTag) == 0x1, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -206,13 +207,13 @@ protected:
   constexpr DerSequenceReader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceReader___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceReader___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerSequenceReader___c(DerSequenceReader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceReader___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceReader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerSequenceReader___c(DerSequenceReader___c const&) = delete;
+  DerSequenceReader___c(DerSequenceReader___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11168 };
@@ -395,6 +396,7 @@ public:
 
   static inline void setStaticF_s_validityDateTimeFormatInfo(::System::Globalization::DateTimeFormatInfo* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ContentLength, addr 0x63a0954, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentLength(int32_t value);
 
@@ -404,13 +406,13 @@ protected:
   constexpr DerSequenceReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerSequenceReader(DerSequenceReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerSequenceReader(DerSequenceReader const&) = delete;
+  DerSequenceReader(DerSequenceReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11169 };
@@ -424,6 +426,7 @@ public:
   /// @brief Field _position, offset: 0x1c, size: 0x4, def value: None
   int32_t ____position;
 
+  /// [CompilerGenerated]
   /// @brief Field <ContentLength>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____ContentLength_k__BackingField;
 

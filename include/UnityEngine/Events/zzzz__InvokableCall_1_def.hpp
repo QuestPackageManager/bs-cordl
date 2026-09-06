@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Events\InvokableCall_1.hpp"
+// IWYU pragma private; include "UnityEngine/Events/InvokableCall_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,9 +59,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
+  /// [CompilerGenerated]
   /// @brief Method add_Delegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_Delegate(::UnityEngine::Events::UnityAction_1<T1>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_Delegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_Delegate(::UnityEngine::Events::UnityAction_1<T1>* value);
 
@@ -71,17 +73,19 @@ protected:
   constexpr InvokableCall_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvokableCall_1(InvokableCall_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokableCall_1(InvokableCall_1 const&) = delete;
+  InvokableCall_1(InvokableCall_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10444 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction_1<T1>* ___Delegate;
 

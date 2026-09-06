@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\PureAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/PureAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class PureAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::PureAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::PureAttribute*, "JetBrains.Annotations", "PureAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr PureAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PureAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PureAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PureAttribute(PureAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PureAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PureAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PureAttribute(PureAttribute const&) = delete;
+  PureAttribute(PureAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22555 };

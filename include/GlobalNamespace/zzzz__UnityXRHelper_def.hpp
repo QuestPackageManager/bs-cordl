@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityXRHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityXRHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ class UnityXRHelper;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::UnityXRHelper*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::UnityXRHelper*, "", "UnityXRHelper");
+// [DefaultExecutionOrder(-100)]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Pose, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -392,6 +393,7 @@ public:
   /// @brief Method get_hasInputFocus, addr 0x591d498, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasInputFocus();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasVrFocus, addr 0x591d4a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasVrFocus();
 
@@ -437,6 +439,7 @@ public:
 
   static inline void setStaticF_kValveIndexOriginOffsetToLegacy(::UnityEngine::Pose value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasVrFocus, addr 0x591d4a8, size 0x8, virtual false, abstract: false, final false
   inline void set_hasVrFocus(bool value);
 
@@ -446,38 +449,46 @@ protected:
   constexpr UnityXRHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityXRHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityXRHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityXRHelper(UnityXRHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityXRHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityXRHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityXRHelper(UnityXRHelper const&) = delete;
+  UnityXRHelper(UnityXRHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6806 };
 
+  /// [SerializeField]
   /// @brief Field _leftControllerConfiguration, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::ControllerConfiguration* ____leftControllerConfiguration;
 
+  /// [SerializeField]
   /// @brief Field _rightControllerConfiguration, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ControllerConfiguration* ____rightControllerConfiguration;
 
+  /// [SerializeField]
   /// @brief Field _userPresenceActionReference, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____userPresenceActionReference;
 
+  /// [SerializeField]
   /// @brief Field _headPositionActionReference, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____headPositionActionReference;
 
+  /// [SerializeField]
   /// @brief Field _headOrientationActionReference, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____headOrientationActionReference;
 
+  /// [SerializeField]
   /// @brief Field _pauseGameActionReference, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____pauseGameActionReference;
 
+  /// [Inject]
   /// @brief Field _xrSystemState, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasVrFocus>k__BackingField, offset: 0x58, size: 0x1, def value: None
   bool ____hasVrFocus_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteDebrisRigidbodyPhysics.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteDebrisRigidbodyPhysics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class NoteDebrisRigidbodyPhysics;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NoteDebrisRigidbodyPhysics*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteDebrisRigidbodyPhysics*, "", "NoteDebrisRigidbodyPhysics");
+// [RequireComponent(typeof(UnityEngine.Rigidbody))]
 // Dependencies NoteDebrisPhysics
 namespace GlobalNamespace {
 // Is value type: false
@@ -75,20 +76,22 @@ protected:
   constexpr NoteDebrisRigidbodyPhysics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisRigidbodyPhysics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisRigidbodyPhysics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteDebrisRigidbodyPhysics(NoteDebrisRigidbodyPhysics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisRigidbodyPhysics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisRigidbodyPhysics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteDebrisRigidbodyPhysics(NoteDebrisRigidbodyPhysics const&) = delete;
+  NoteDebrisRigidbodyPhysics(NoteDebrisRigidbodyPhysicsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5687 };
 
+  /// [SerializeField]
   /// @brief Field _rigidbody, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rigidbody> ____rigidbody;
 
+  /// [SerializeField]
   /// @brief Field _simplePhysics, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> ____simplePhysics;
 

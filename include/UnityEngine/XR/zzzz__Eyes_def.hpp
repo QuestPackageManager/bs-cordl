@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Eyes.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Eyes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,12 @@ struct Eyes;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::Eyes);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");
+// [NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
+// [RequiredByNativeCode]
+// [StaticAccessor("XRInputDevices::Get()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [NativeHeader("XRScriptingClasses.h")]
+// [NativeHeader("Modules/XR/XRPrefix.h")]
+// [NativeConditional("ENABLE_VR")]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -55,7 +61,8 @@ public:
   // @brief default ctor
   constexpr Eyes();
 
-  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr Eyes(uint64_t m_DeviceId, uint32_t m_FeatureIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

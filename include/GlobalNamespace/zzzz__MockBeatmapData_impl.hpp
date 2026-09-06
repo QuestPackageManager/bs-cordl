@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockBeatmapData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockBeatmapData.hpp"
 #include "GlobalNamespace/zzzz__MockNoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__MockObstacleData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

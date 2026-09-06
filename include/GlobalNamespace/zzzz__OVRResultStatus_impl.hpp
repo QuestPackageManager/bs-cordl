@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRResultStatus.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRResultStatus.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRResultStatus_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRResultStatus._ctor

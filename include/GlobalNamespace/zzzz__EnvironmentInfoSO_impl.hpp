@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentInfoSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentInfoSO.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentType_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
@@ -14,7 +14,7 @@
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EnvironmentInfoSO_Tags::EnvironmentInfoSO_Tags(int32_t value__) noexcept {
   this->value__ = value__;
 }

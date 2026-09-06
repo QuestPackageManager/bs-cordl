@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlSerializationReaderInterpreter.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializationReaderInterpreter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,13 +112,13 @@ protected:
   constexpr XmlSerializationReaderInterpreter_FixupCallbackInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter_FixupCallbackInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter_FixupCallbackInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSerializationReaderInterpreter_FixupCallbackInfo(XmlSerializationReaderInterpreter_FixupCallbackInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter_FixupCallbackInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter_FixupCallbackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationReaderInterpreter_FixupCallbackInfo(XmlSerializationReaderInterpreter_FixupCallbackInfo const&) = delete;
+  XmlSerializationReaderInterpreter_FixupCallbackInfo(XmlSerializationReaderInterpreter_FixupCallbackInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9532 };
@@ -184,13 +184,13 @@ protected:
   constexpr XmlSerializationReaderInterpreter_ReaderCallbackInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter_ReaderCallbackInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter_ReaderCallbackInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSerializationReaderInterpreter_ReaderCallbackInfo(XmlSerializationReaderInterpreter_ReaderCallbackInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter_ReaderCallbackInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter_ReaderCallbackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationReaderInterpreter_ReaderCallbackInfo(XmlSerializationReaderInterpreter_ReaderCallbackInfo const&) = delete;
+  XmlSerializationReaderInterpreter_ReaderCallbackInfo(XmlSerializationReaderInterpreter_ReaderCallbackInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9533 };
@@ -376,13 +376,13 @@ protected:
   constexpr XmlSerializationReaderInterpreter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSerializationReaderInterpreter(XmlSerializationReaderInterpreter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReaderInterpreter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationReaderInterpreter(XmlSerializationReaderInterpreter const&) = delete;
+  XmlSerializationReaderInterpreter(XmlSerializationReaderInterpreterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9534 };

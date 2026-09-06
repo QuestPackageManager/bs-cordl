@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\ExceptionHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ExceptionHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class ExceptionHelpers;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Utilities::ExceptionHelpers*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::ExceptionHelpers*, "UnityEngine.InputSystem.Utilities", "ExceptionHelpers");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
@@ -22,6 +23,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method IsExceptionIndicatingBugInCode, addr 0x65014cc, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsExceptionIndicatingBugInCode(::System::Exception* exception);
 
@@ -31,13 +33,13 @@ protected:
   constexpr ExceptionHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExceptionHelpers(ExceptionHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExceptionHelpers(ExceptionHelpers const&) = delete;
+  ExceptionHelpers(ExceptionHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9160 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IndexedCollectionPropertyBagEnumerator_1.hpp"
+// IWYU pragma private; include "Unity/Properties/IndexedCollectionPropertyBagEnumerator_1.hpp"
 #include "Unity/Properties/zzzz__IndexedCollectionSharedPropertyState_impl.hpp"
 #include "Unity/Properties/zzzz__IndexedCollectionPropertyBagEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -67,9 +67,9 @@ template <typename TContainer> constexpr Unity::Properties::IndexedCollectionPro
 template <typename TContainer> constexpr ::System::IDisposable* Unity::Properties::IndexedCollectionPropertyBagEnumerator_1<TContainer>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Impl", ty: "::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Previous",
-// ty: "::Unity::Properties::IndexedCollectionSharedPropertyState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Container", ty: "TContainer", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Impl", ty: "::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_Previous", ty: "::Unity::Properties::IndexedCollectionSharedPropertyState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Container", ty: "TContainer",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TContainer>
 constexpr ::Unity::Properties::IndexedCollectionPropertyBagEnumerator_1<TContainer>::IndexedCollectionPropertyBagEnumerator_1(
     ::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>* m_Impl, ::Unity::Properties::IndexedCollectionSharedPropertyState m_Previous, TContainer m_Container,

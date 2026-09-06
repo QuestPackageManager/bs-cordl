@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspRequiredAttributeAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspRequiredAttributeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AspRequiredAttributeAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::AspRequiredAttributeAttribute._ctor
@@ -54,7 +54,7 @@ constexpr void JetBrains::Annotations::AspRequiredAttributeAttribute::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Attribute_k__BackingField = value;
 }
-inline void JetBrains::Annotations::AspRequiredAttributeAttribute::_ctor(::StringW attribute) {
+inline void JetBrains::Annotations::AspRequiredAttributeAttribute::_ctor(/* [NotNull] */ ::StringW attribute) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspRequiredAttributeAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attribute);
@@ -68,7 +68,7 @@ inline void JetBrains::Annotations::AspRequiredAttributeAttribute::set_Attribute
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspRequiredAttributeAttribute*>(), { "set_Attribute", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::JetBrains::Annotations::AspRequiredAttributeAttribute* JetBrains::Annotations::AspRequiredAttributeAttribute::New_ctor(::StringW attribute) {
+inline ::JetBrains::Annotations::AspRequiredAttributeAttribute* JetBrains::Annotations::AspRequiredAttributeAttribute::New_ctor(/* [NotNull] */ ::StringW attribute) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::AspRequiredAttributeAttribute*>(attribute));
 }
 // Ctor Parameters []

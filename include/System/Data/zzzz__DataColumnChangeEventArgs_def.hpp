@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataColumnChangeEventArgs.hpp"
+// IWYU pragma private; include "System/Data/DataColumnChangeEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,9 +70,11 @@ public:
   /// @brief Method .ctor, addr 0x6020668, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row, ::System::Data::DataColumn* column, ::System::Object* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ProposedValue, addr 0x60206e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ProposedValue();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ProposedValue, addr 0x60206e8, size 0x8, virtual false, abstract: false, final false
   inline void set_ProposedValue(::System::Object* value);
 
@@ -82,13 +84,13 @@ protected:
   constexpr DataColumnChangeEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataColumnChangeEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataColumnChangeEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataColumnChangeEventArgs(DataColumnChangeEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataColumnChangeEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataColumnChangeEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataColumnChangeEventArgs(DataColumnChangeEventArgs const&) = delete;
+  DataColumnChangeEventArgs(DataColumnChangeEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13765 };
@@ -96,9 +98,11 @@ public:
   /// @brief Field _column, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataColumn* ____column;
 
+  /// [CompilerGenerated]
   /// @brief Field <Row>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Data::DataRow* ____Row_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ProposedValue>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____ProposedValue_k__BackingField;
 

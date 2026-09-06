@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalizedAudioClipSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalizedAudioClipSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr LocalizedAudioClipSO_LocalizedAudioClipInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO_LocalizedAudioClipInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO_LocalizedAudioClipInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedAudioClipSO_LocalizedAudioClipInfo(LocalizedAudioClipSO_LocalizedAudioClipInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO_LocalizedAudioClipInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO_LocalizedAudioClipInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedAudioClipSO_LocalizedAudioClipInfo(LocalizedAudioClipSO_LocalizedAudioClipInfo const&) = delete;
+  LocalizedAudioClipSO_LocalizedAudioClipInfo(LocalizedAudioClipSO_LocalizedAudioClipInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6545 };
@@ -97,6 +97,7 @@ static_assert(offsetof(::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioCli
 static_assert(sizeof(::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BGLib.Polyglot.LocalizationLanguage, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -127,13 +128,13 @@ protected:
   constexpr LocalizedAudioClipSO___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedAudioClipSO___c__DisplayClass4_0(LocalizedAudioClipSO___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedAudioClipSO___c__DisplayClass4_0(LocalizedAudioClipSO___c__DisplayClass4_0 const&) = delete;
+  LocalizedAudioClipSO___c__DisplayClass4_0(LocalizedAudioClipSO___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6546 };
@@ -196,17 +197,18 @@ protected:
   constexpr LocalizedAudioClipSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedAudioClipSO(LocalizedAudioClipSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedAudioClipSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedAudioClipSO(LocalizedAudioClipSO const&) = delete;
+  LocalizedAudioClipSO(LocalizedAudioClipSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6547 };
 
+  /// [SerializeField]
   /// @brief Field _localizedAudioClipInfo, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo*> ____localizedAudioClipInfo;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchID.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,9 @@ struct BatchID;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchID);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BatchID, "UnityEngine.Rendering", "BatchID");
+// [NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [NativeClass("BatchID")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -52,7 +55,7 @@ public:
   // @brief default ctor
   constexpr BatchID();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BatchID(uint32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

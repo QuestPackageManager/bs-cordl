@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\GraphQLClientProvider.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/GraphQLClientProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,13 +128,13 @@ protected:
   constexpr GraphQLClientProvider_Settings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProvider_Settings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProvider_Settings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLClientProvider_Settings(GraphQLClientProvider_Settings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProvider_Settings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProvider_Settings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClientProvider_Settings(GraphQLClientProvider_Settings const&) = delete;
+  GraphQLClientProvider_Settings(GraphQLClientProvider_Settingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22659 };
@@ -155,6 +155,7 @@ static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider_Settings, ___
 static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider_Settings) == 0x20, "Size mismatch!");
 
 } // namespace BeatSaber::GraphQL
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace BeatSaber::GraphQL {
 // Is value type: true
@@ -168,6 +169,7 @@ public:
   /// @brief Method MoveNext, addr 0x32960f8, size 0x92c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3296a24, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -178,10 +180,11 @@ public:
   // @brief default ctor
   constexpr GraphQLClientProvider__InitializationTask_d__24();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::GraphQL::GraphQLClientProvider*", modifiers: "",
-  // def_value: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_appVersion_5__2", ty: "::System::Version*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::GraphQL::GraphQLClientProvider*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_appVersion_5__2", ty: "::System::Version*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr GraphQLClientProvider__InitializationTask_d__24(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                             ::BeatSaber::GraphQL::GraphQLClientProvider* __4__this, ::System::Threading::CancellationToken ctx, ::System::Version* _appVersion_5__2,
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
@@ -228,6 +231,7 @@ static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__Initializati
 static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24) == 0x40, "Size mismatch!");
 
 } // namespace BeatSaber::GraphQL
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace BeatSaber::GraphQL {
 // Is value type: true
@@ -241,6 +245,7 @@ public:
   /// @brief Method MoveNext, addr 0x3296a90, size 0x200, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3296c90, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -251,10 +256,10 @@ public:
   // @brief default ctor
   constexpr GraphQLClientProvider__InitializeAsync_d__23();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::GraphQL::GraphQLClientProvider*", modifiers: "",
-  // def_value: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::GraphQL::GraphQLClientProvider*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr GraphQLClientProvider__InitializeAsync_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                          ::BeatSaber::GraphQL::GraphQLClientProvider* __4__this, ::System::Threading::CancellationToken ctx,
                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -362,12 +367,14 @@ public:
   /// @brief Method Dispose, addr 0x3295f78, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.GraphQLClientProvider::<InitializationTask>d__24))]
   /// @brief Method InitializationTask, addr 0x3295d80, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializationTask(::System::Threading::CancellationToken ctx);
 
   /// @brief Method Initialize, addr 0x3295e40, size 0x138, virtual true, abstract: false, final true
   inline void Initialize();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.GraphQLClientProvider::<InitializeAsync>d__23))]
   /// @brief Method InitializeAsync, addr 0x3295cbc, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeAsync(::System::Threading::CancellationToken ctx);
 
@@ -376,6 +383,7 @@ public:
   /// @brief Method Tick, addr 0x3295fd4, size 0xe4, virtual true, abstract: false, final true
   inline void Tick();
 
+  /// [CompilerGenerated]
   /// @brief Method <Initialize>b__25_0, addr 0x32960b8, size 0x34, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _Initialize_b__25_0();
 
@@ -442,18 +450,22 @@ public:
   /// @brief Method .ctor, addr 0x3295c10, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_globalRequestFailureEvent, addr 0x3295a78, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_globalRequestSucceededEvent, addr 0x32958f8, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_initializationDidFinishEvent, addr 0x32957a0, size 0xac, virtual true, abstract: false, final true
   inline void add_initializationDidFinishEvent(::System::Action* value);
 
   /// @brief Method get_graphQLClient, addr 0x3295bf8, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* get_graphQLClient();
 
+  /// [CompilerGenerated]
   /// @brief Method get_initializationState, addr 0x3295c00, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::GraphQL::BSClientProviderInitializationState get_initializationState();
 
@@ -469,15 +481,19 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_globalRequestFailureEvent, addr 0x3295b38, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_globalRequestSucceededEvent, addr 0x32959b8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_initializationDidFinishEvent, addr 0x329584c, size 0xac, virtual true, abstract: false, final true
   inline void remove_initializationDidFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_initializationState, addr 0x3295c08, size 0x8, virtual false, abstract: false, final false
   inline void set_initializationState(::BeatSaber::GraphQL::BSClientProviderInitializationState value);
 
@@ -487,29 +503,34 @@ protected:
   constexpr GraphQLClientProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLClientProvider(GraphQLClientProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClientProvider(GraphQLClientProvider const&) = delete;
+  GraphQLClientProvider(GraphQLClientProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22662 };
 
+  /// [Inject]
   /// @brief Field _settings, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::GraphQL::GraphQLClientProvider_Settings* ____settings;
 
+  /// [Inject]
   /// @brief Field _platform, offset: 0x18, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ____platform;
 
+  /// [CompilerGenerated]
   /// @brief Field initializationDidFinishEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___initializationDidFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field globalRequestSucceededEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___globalRequestSucceededEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field globalRequestFailureEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___globalRequestFailureEvent;
 
@@ -519,6 +540,7 @@ public:
   /// @brief Field _initializationCancellationToken, offset: 0x40, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____initializationCancellationToken;
 
+  /// [CompilerGenerated]
   /// @brief Field <initializationState>k__BackingField, offset: 0x48, size: 0x4, def value: None
   ::BeatSaber::GraphQL::BSClientProviderInitializationState ____initializationState_k__BackingField;
 

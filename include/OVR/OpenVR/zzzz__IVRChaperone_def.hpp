@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRChaperone.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRChaperone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,6 +100,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRChaperone__GetPlayAreaSize*, "OVR.OpenVR",
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRChaperone__ReloadInfo*, "OVR.OpenVR", "IVRChaperone/_ReloadInfo");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRChaperone__SetSceneColor*, "OVR.OpenVR", "IVRChaperone/_SetSceneColor");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRChaperone, "OVR.OpenVR", "IVRChaperone");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -127,13 +128,13 @@ protected:
   constexpr IVRChaperone__GetCalibrationState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetCalibrationState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetCalibrationState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperone__GetCalibrationState(IVRChaperone__GetCalibrationState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetCalibrationState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetCalibrationState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__GetCalibrationState(IVRChaperone__GetCalibrationState const&) = delete;
+  IVRChaperone__GetCalibrationState(IVRChaperone__GetCalibrationStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8132 };
@@ -144,6 +145,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperone__GetCalibrationState) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -171,13 +173,13 @@ protected:
   constexpr IVRChaperone__GetPlayAreaSize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaSize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaSize", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperone__GetPlayAreaSize(IVRChaperone__GetPlayAreaSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaSize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__GetPlayAreaSize(IVRChaperone__GetPlayAreaSize const&) = delete;
+  IVRChaperone__GetPlayAreaSize(IVRChaperone__GetPlayAreaSizeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8133 };
@@ -188,6 +190,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperone__GetPlayAreaSize) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -215,13 +218,13 @@ protected:
   constexpr IVRChaperone__GetPlayAreaRect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaRect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaRect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperone__GetPlayAreaRect(IVRChaperone__GetPlayAreaRect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaRect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaRect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__GetPlayAreaRect(IVRChaperone__GetPlayAreaRect const&) = delete;
+  IVRChaperone__GetPlayAreaRect(IVRChaperone__GetPlayAreaRectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8134 };
@@ -232,6 +235,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperone__GetPlayAreaRect) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -259,13 +263,13 @@ protected:
   constexpr IVRChaperone__ReloadInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ReloadInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ReloadInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperone__ReloadInfo(IVRChaperone__ReloadInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ReloadInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ReloadInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__ReloadInfo(IVRChaperone__ReloadInfo const&) = delete;
+  IVRChaperone__ReloadInfo(IVRChaperone__ReloadInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8135 };
@@ -276,6 +280,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperone__ReloadInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -303,13 +308,13 @@ protected:
   constexpr IVRChaperone__SetSceneColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__SetSceneColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__SetSceneColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperone__SetSceneColor(IVRChaperone__SetSceneColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__SetSceneColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__SetSceneColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__SetSceneColor(IVRChaperone__SetSceneColor const&) = delete;
+  IVRChaperone__SetSceneColor(IVRChaperone__SetSceneColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8136 };
@@ -320,6 +325,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperone__SetSceneColor) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -348,13 +354,13 @@ protected:
   constexpr IVRChaperone__GetBoundsColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetBoundsColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetBoundsColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperone__GetBoundsColor(IVRChaperone__GetBoundsColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetBoundsColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetBoundsColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__GetBoundsColor(IVRChaperone__GetBoundsColor const&) = delete;
+  IVRChaperone__GetBoundsColor(IVRChaperone__GetBoundsColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8137 };
@@ -365,6 +371,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperone__GetBoundsColor) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -392,13 +399,13 @@ protected:
   constexpr IVRChaperone__AreBoundsVisible();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__AreBoundsVisible", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__AreBoundsVisible", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperone__AreBoundsVisible(IVRChaperone__AreBoundsVisible&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__AreBoundsVisible", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__AreBoundsVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__AreBoundsVisible(IVRChaperone__AreBoundsVisible const&) = delete;
+  IVRChaperone__AreBoundsVisible(IVRChaperone__AreBoundsVisibleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8138 };
@@ -409,6 +416,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperone__AreBoundsVisible) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -436,13 +444,13 @@ protected:
   constexpr IVRChaperone__ForceBoundsVisible();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ForceBoundsVisible", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ForceBoundsVisible", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperone__ForceBoundsVisible(IVRChaperone__ForceBoundsVisible&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ForceBoundsVisible", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ForceBoundsVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__ForceBoundsVisible(IVRChaperone__ForceBoundsVisible const&) = delete;
+  IVRChaperone__ForceBoundsVisible(IVRChaperone__ForceBoundsVisibleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8139 };
@@ -480,12 +488,13 @@ public:
   // @brief default ctor
   constexpr IVRChaperone();
 
-  // Ctor Parameters [CppParam { name: "GetCalibrationState", ty: "::OVR::OpenVR::IVRChaperone__GetCalibrationState*", modifiers: "", def_value: None }, CppParam { name: "GetPlayAreaSize", ty:
-  // "::OVR::OpenVR::IVRChaperone__GetPlayAreaSize*", modifiers: "", def_value: None }, CppParam { name: "GetPlayAreaRect", ty: "::OVR::OpenVR::IVRChaperone__GetPlayAreaRect*", modifiers: "",
-  // def_value: None }, CppParam { name: "ReloadInfo", ty: "::OVR::OpenVR::IVRChaperone__ReloadInfo*", modifiers: "", def_value: None }, CppParam { name: "SetSceneColor", ty:
-  // "::OVR::OpenVR::IVRChaperone__SetSceneColor*", modifiers: "", def_value: None }, CppParam { name: "GetBoundsColor", ty: "::OVR::OpenVR::IVRChaperone__GetBoundsColor*", modifiers: "", def_value:
-  // None }, CppParam { name: "AreBoundsVisible", ty: "::OVR::OpenVR::IVRChaperone__AreBoundsVisible*", modifiers: "", def_value: None }, CppParam { name: "ForceBoundsVisible", ty:
-  // "::OVR::OpenVR::IVRChaperone__ForceBoundsVisible*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "GetCalibrationState", ty: "::OVR::OpenVR::IVRChaperone__GetCalibrationState*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "GetPlayAreaSize", ty: "::OVR::OpenVR::IVRChaperone__GetPlayAreaSize*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetPlayAreaRect", ty:
+  // "::OVR::OpenVR::IVRChaperone__GetPlayAreaRect*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ReloadInfo", ty: "::OVR::OpenVR::IVRChaperone__ReloadInfo*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "SetSceneColor", ty: "::OVR::OpenVR::IVRChaperone__SetSceneColor*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "GetBoundsColor", ty: "::OVR::OpenVR::IVRChaperone__GetBoundsColor*", modifiers: "", def_value: None, comment: None }, CppParam { name: "AreBoundsVisible", ty:
+  // "::OVR::OpenVR::IVRChaperone__AreBoundsVisible*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ForceBoundsVisible", ty: "::OVR::OpenVR::IVRChaperone__ForceBoundsVisible*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr IVRChaperone(::OVR::OpenVR::IVRChaperone__GetCalibrationState* GetCalibrationState, ::OVR::OpenVR::IVRChaperone__GetPlayAreaSize* GetPlayAreaSize,
                          ::OVR::OpenVR::IVRChaperone__GetPlayAreaRect* GetPlayAreaRect, ::OVR::OpenVR::IVRChaperone__ReloadInfo* ReloadInfo, ::OVR::OpenVR::IVRChaperone__SetSceneColor* SetSceneColor,
                          ::OVR::OpenVR::IVRChaperone__GetBoundsColor* GetBoundsColor, ::OVR::OpenVR::IVRChaperone__AreBoundsVisible* AreBoundsVisible,

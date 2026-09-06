@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineGraphicsSettingsExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineGraphicsSettingsExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineGraphicsSettingsExtensions_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
 template <typename T>
 inline void UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions::SetValueAndNotify(::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* settings, ::by_ref<T> currentPropertyValue,
-                                                                                                T newValue, ::StringW propertyName) {
+                                                                                                T newValue, /* [CallerMemberName] */ ::StringW propertyName) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions*>(),

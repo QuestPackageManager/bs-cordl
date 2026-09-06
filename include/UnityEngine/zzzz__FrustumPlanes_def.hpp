@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\FrustumPlanes.hpp"
+// IWYU pragma private; include "UnityEngine/FrustumPlanes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,9 @@ public:
   // @brief default ctor
   constexpr FrustumPlanes();
 
-  // Ctor Parameters [CppParam { name: "left", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "right", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bottom",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "top", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "zNear", ty: "float_t", modifiers: "", def_value: None
-  // }, CppParam { name: "zFar", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "left", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "right", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "bottom", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "top", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "zNear", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "zFar", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr FrustumPlanes(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NullableScriptableObjectInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/NullableScriptableObjectInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,17 +45,19 @@ protected:
   constexpr NullableScriptableObjectInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullableScriptableObjectInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableScriptableObjectInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullableScriptableObjectInstaller(NullableScriptableObjectInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullableScriptableObjectInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableScriptableObjectInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NullableScriptableObjectInstaller(NullableScriptableObjectInstaller const&) = delete;
+  NullableScriptableObjectInstaller(NullableScriptableObjectInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23696 };
 
+  /// [NullAllowed((NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _installer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Zenject::ScriptableObjectInstaller> ____installer;
 

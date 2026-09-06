@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRSystem.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -468,6 +468,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSystem__ShouldApplicationPause*, "OVR.Open
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSystem__ShouldApplicationReduceRenderingWork*, "OVR.OpenVR", "IVRSystem/_ShouldApplicationReduceRenderingWork");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSystem__TriggerHapticPulse*, "OVR.OpenVR", "IVRSystem/_TriggerHapticPulse");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSystem, "OVR.OpenVR", "IVRSystem");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -495,13 +496,13 @@ protected:
   constexpr IVRSystem__GetRecommendedRenderTargetSize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRecommendedRenderTargetSize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRecommendedRenderTargetSize", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetRecommendedRenderTargetSize(IVRSystem__GetRecommendedRenderTargetSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRecommendedRenderTargetSize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRecommendedRenderTargetSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetRecommendedRenderTargetSize(IVRSystem__GetRecommendedRenderTargetSize const&) = delete;
+  IVRSystem__GetRecommendedRenderTargetSize(IVRSystem__GetRecommendedRenderTargetSizeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8035 };
@@ -512,6 +513,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetRecommendedRenderTargetSize) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -539,13 +541,13 @@ protected:
   constexpr IVRSystem__GetProjectionMatrix();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionMatrix", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionMatrix", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetProjectionMatrix(IVRSystem__GetProjectionMatrix&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionMatrix", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionMatrix", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetProjectionMatrix(IVRSystem__GetProjectionMatrix const&) = delete;
+  IVRSystem__GetProjectionMatrix(IVRSystem__GetProjectionMatrixconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8036 };
@@ -556,6 +558,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetProjectionMatrix) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -584,13 +587,13 @@ protected:
   constexpr IVRSystem__GetProjectionRaw();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionRaw", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionRaw", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetProjectionRaw(IVRSystem__GetProjectionRaw&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionRaw", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionRaw", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetProjectionRaw(IVRSystem__GetProjectionRaw const&) = delete;
+  IVRSystem__GetProjectionRaw(IVRSystem__GetProjectionRawconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8037 };
@@ -601,6 +604,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetProjectionRaw) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -629,13 +633,13 @@ protected:
   constexpr IVRSystem__ComputeDistortion();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ComputeDistortion", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ComputeDistortion", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__ComputeDistortion(IVRSystem__ComputeDistortion&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ComputeDistortion", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ComputeDistortion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ComputeDistortion(IVRSystem__ComputeDistortion const&) = delete;
+  IVRSystem__ComputeDistortion(IVRSystem__ComputeDistortionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8038 };
@@ -646,6 +650,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__ComputeDistortion) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -673,13 +678,13 @@ protected:
   constexpr IVRSystem__GetEyeToHeadTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEyeToHeadTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEyeToHeadTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetEyeToHeadTransform(IVRSystem__GetEyeToHeadTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEyeToHeadTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEyeToHeadTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetEyeToHeadTransform(IVRSystem__GetEyeToHeadTransform const&) = delete;
+  IVRSystem__GetEyeToHeadTransform(IVRSystem__GetEyeToHeadTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8039 };
@@ -690,6 +695,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetEyeToHeadTransform) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -717,13 +723,13 @@ protected:
   constexpr IVRSystem__GetTimeSinceLastVsync();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTimeSinceLastVsync", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTimeSinceLastVsync", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetTimeSinceLastVsync(IVRSystem__GetTimeSinceLastVsync&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTimeSinceLastVsync", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTimeSinceLastVsync", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetTimeSinceLastVsync(IVRSystem__GetTimeSinceLastVsync const&) = delete;
+  IVRSystem__GetTimeSinceLastVsync(IVRSystem__GetTimeSinceLastVsyncconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8040 };
@@ -734,6 +740,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetTimeSinceLastVsync) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -761,13 +768,13 @@ protected:
   constexpr IVRSystem__GetD3D9AdapterIndex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetD3D9AdapterIndex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetD3D9AdapterIndex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetD3D9AdapterIndex(IVRSystem__GetD3D9AdapterIndex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetD3D9AdapterIndex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetD3D9AdapterIndex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetD3D9AdapterIndex(IVRSystem__GetD3D9AdapterIndex const&) = delete;
+  IVRSystem__GetD3D9AdapterIndex(IVRSystem__GetD3D9AdapterIndexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8041 };
@@ -778,6 +785,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetD3D9AdapterIndex) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -805,13 +813,13 @@ protected:
   constexpr IVRSystem__GetDXGIOutputInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDXGIOutputInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDXGIOutputInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetDXGIOutputInfo(IVRSystem__GetDXGIOutputInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDXGIOutputInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDXGIOutputInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetDXGIOutputInfo(IVRSystem__GetDXGIOutputInfo const&) = delete;
+  IVRSystem__GetDXGIOutputInfo(IVRSystem__GetDXGIOutputInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8042 };
@@ -822,6 +830,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetDXGIOutputInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -850,13 +859,13 @@ protected:
   constexpr IVRSystem__GetOutputDevice();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetOutputDevice", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetOutputDevice", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetOutputDevice(IVRSystem__GetOutputDevice&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetOutputDevice", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetOutputDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetOutputDevice(IVRSystem__GetOutputDevice const&) = delete;
+  IVRSystem__GetOutputDevice(IVRSystem__GetOutputDeviceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8043 };
@@ -867,6 +876,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetOutputDevice) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -894,13 +904,13 @@ protected:
   constexpr IVRSystem__IsDisplayOnDesktop();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsDisplayOnDesktop", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsDisplayOnDesktop", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__IsDisplayOnDesktop(IVRSystem__IsDisplayOnDesktop&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsDisplayOnDesktop", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsDisplayOnDesktop", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__IsDisplayOnDesktop(IVRSystem__IsDisplayOnDesktop const&) = delete;
+  IVRSystem__IsDisplayOnDesktop(IVRSystem__IsDisplayOnDesktopconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8044 };
@@ -911,6 +921,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__IsDisplayOnDesktop) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -938,13 +949,13 @@ protected:
   constexpr IVRSystem__SetDisplayVisibility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__SetDisplayVisibility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__SetDisplayVisibility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__SetDisplayVisibility(IVRSystem__SetDisplayVisibility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__SetDisplayVisibility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__SetDisplayVisibility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__SetDisplayVisibility(IVRSystem__SetDisplayVisibility const&) = delete;
+  IVRSystem__SetDisplayVisibility(IVRSystem__SetDisplayVisibilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8045 };
@@ -955,6 +966,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__SetDisplayVisibility) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -985,13 +997,13 @@ protected:
   constexpr IVRSystem__GetDeviceToAbsoluteTrackingPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDeviceToAbsoluteTrackingPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDeviceToAbsoluteTrackingPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetDeviceToAbsoluteTrackingPose(IVRSystem__GetDeviceToAbsoluteTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDeviceToAbsoluteTrackingPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDeviceToAbsoluteTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetDeviceToAbsoluteTrackingPose(IVRSystem__GetDeviceToAbsoluteTrackingPose const&) = delete;
+  IVRSystem__GetDeviceToAbsoluteTrackingPose(IVRSystem__GetDeviceToAbsoluteTrackingPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8046 };
@@ -1002,6 +1014,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1029,13 +1042,13 @@ protected:
   constexpr IVRSystem__ResetSeatedZeroPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ResetSeatedZeroPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ResetSeatedZeroPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__ResetSeatedZeroPose(IVRSystem__ResetSeatedZeroPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ResetSeatedZeroPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ResetSeatedZeroPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ResetSeatedZeroPose(IVRSystem__ResetSeatedZeroPose const&) = delete;
+  IVRSystem__ResetSeatedZeroPose(IVRSystem__ResetSeatedZeroPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8047 };
@@ -1046,6 +1059,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__ResetSeatedZeroPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1073,13 +1087,13 @@ protected:
   constexpr IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose const&) = delete;
+  IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8048 };
@@ -1090,6 +1104,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1117,13 +1132,13 @@ protected:
   constexpr IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose const&) = delete;
+  IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8049 };
@@ -1134,6 +1149,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1163,13 +1179,13 @@ protected:
   constexpr IVRSystem__GetSortedTrackedDeviceIndicesOfClass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSortedTrackedDeviceIndicesOfClass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSortedTrackedDeviceIndicesOfClass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetSortedTrackedDeviceIndicesOfClass(IVRSystem__GetSortedTrackedDeviceIndicesOfClass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSortedTrackedDeviceIndicesOfClass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSortedTrackedDeviceIndicesOfClass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetSortedTrackedDeviceIndicesOfClass(IVRSystem__GetSortedTrackedDeviceIndicesOfClass const&) = delete;
+  IVRSystem__GetSortedTrackedDeviceIndicesOfClass(IVRSystem__GetSortedTrackedDeviceIndicesOfClassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8050 };
@@ -1180,6 +1196,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1207,13 +1224,13 @@ protected:
   constexpr IVRSystem__GetTrackedDeviceActivityLevel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceActivityLevel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceActivityLevel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetTrackedDeviceActivityLevel(IVRSystem__GetTrackedDeviceActivityLevel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceActivityLevel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceActivityLevel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetTrackedDeviceActivityLevel(IVRSystem__GetTrackedDeviceActivityLevel const&) = delete;
+  IVRSystem__GetTrackedDeviceActivityLevel(IVRSystem__GetTrackedDeviceActivityLevelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8051 };
@@ -1224,6 +1241,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetTrackedDeviceActivityLevel) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1253,13 +1271,13 @@ protected:
   constexpr IVRSystem__ApplyTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ApplyTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ApplyTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__ApplyTransform(IVRSystem__ApplyTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ApplyTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ApplyTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ApplyTransform(IVRSystem__ApplyTransform const&) = delete;
+  IVRSystem__ApplyTransform(IVRSystem__ApplyTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8052 };
@@ -1270,6 +1288,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__ApplyTransform) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1297,13 +1316,13 @@ protected:
   constexpr IVRSystem__GetTrackedDeviceIndexForControllerRole();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceIndexForControllerRole", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceIndexForControllerRole", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetTrackedDeviceIndexForControllerRole(IVRSystem__GetTrackedDeviceIndexForControllerRole&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceIndexForControllerRole", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceIndexForControllerRole", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetTrackedDeviceIndexForControllerRole(IVRSystem__GetTrackedDeviceIndexForControllerRole const&) = delete;
+  IVRSystem__GetTrackedDeviceIndexForControllerRole(IVRSystem__GetTrackedDeviceIndexForControllerRoleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8053 };
@@ -1314,6 +1333,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetTrackedDeviceIndexForControllerRole) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1341,13 +1361,13 @@ protected:
   constexpr IVRSystem__GetControllerRoleForTrackedDeviceIndex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerRoleForTrackedDeviceIndex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerRoleForTrackedDeviceIndex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetControllerRoleForTrackedDeviceIndex(IVRSystem__GetControllerRoleForTrackedDeviceIndex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerRoleForTrackedDeviceIndex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerRoleForTrackedDeviceIndex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetControllerRoleForTrackedDeviceIndex(IVRSystem__GetControllerRoleForTrackedDeviceIndex const&) = delete;
+  IVRSystem__GetControllerRoleForTrackedDeviceIndex(IVRSystem__GetControllerRoleForTrackedDeviceIndexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8054 };
@@ -1358,6 +1378,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetControllerRoleForTrackedDeviceIndex) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1385,13 +1406,13 @@ protected:
   constexpr IVRSystem__GetTrackedDeviceClass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceClass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceClass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetTrackedDeviceClass(IVRSystem__GetTrackedDeviceClass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceClass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceClass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetTrackedDeviceClass(IVRSystem__GetTrackedDeviceClass const&) = delete;
+  IVRSystem__GetTrackedDeviceClass(IVRSystem__GetTrackedDeviceClassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8055 };
@@ -1402,6 +1423,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetTrackedDeviceClass) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1429,13 +1451,13 @@ protected:
   constexpr IVRSystem__IsTrackedDeviceConnected();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsTrackedDeviceConnected", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsTrackedDeviceConnected", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__IsTrackedDeviceConnected(IVRSystem__IsTrackedDeviceConnected&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsTrackedDeviceConnected", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsTrackedDeviceConnected", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__IsTrackedDeviceConnected(IVRSystem__IsTrackedDeviceConnected const&) = delete;
+  IVRSystem__IsTrackedDeviceConnected(IVRSystem__IsTrackedDeviceConnectedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8056 };
@@ -1446,6 +1468,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__IsTrackedDeviceConnected) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1474,13 +1497,13 @@ protected:
   constexpr IVRSystem__GetBoolTrackedDeviceProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetBoolTrackedDeviceProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetBoolTrackedDeviceProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetBoolTrackedDeviceProperty(IVRSystem__GetBoolTrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetBoolTrackedDeviceProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetBoolTrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetBoolTrackedDeviceProperty(IVRSystem__GetBoolTrackedDeviceProperty const&) = delete;
+  IVRSystem__GetBoolTrackedDeviceProperty(IVRSystem__GetBoolTrackedDevicePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8057 };
@@ -1491,6 +1514,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetBoolTrackedDeviceProperty) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1519,13 +1543,13 @@ protected:
   constexpr IVRSystem__GetFloatTrackedDeviceProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetFloatTrackedDeviceProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetFloatTrackedDeviceProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetFloatTrackedDeviceProperty(IVRSystem__GetFloatTrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetFloatTrackedDeviceProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetFloatTrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetFloatTrackedDeviceProperty(IVRSystem__GetFloatTrackedDeviceProperty const&) = delete;
+  IVRSystem__GetFloatTrackedDeviceProperty(IVRSystem__GetFloatTrackedDevicePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8058 };
@@ -1536,6 +1560,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetFloatTrackedDeviceProperty) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1564,13 +1589,13 @@ protected:
   constexpr IVRSystem__GetInt32TrackedDeviceProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetInt32TrackedDeviceProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetInt32TrackedDeviceProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetInt32TrackedDeviceProperty(IVRSystem__GetInt32TrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetInt32TrackedDeviceProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetInt32TrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetInt32TrackedDeviceProperty(IVRSystem__GetInt32TrackedDeviceProperty const&) = delete;
+  IVRSystem__GetInt32TrackedDeviceProperty(IVRSystem__GetInt32TrackedDevicePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8059 };
@@ -1581,6 +1606,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetInt32TrackedDeviceProperty) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1609,13 +1635,13 @@ protected:
   constexpr IVRSystem__GetUint64TrackedDeviceProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetUint64TrackedDeviceProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetUint64TrackedDeviceProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetUint64TrackedDeviceProperty(IVRSystem__GetUint64TrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetUint64TrackedDeviceProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetUint64TrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetUint64TrackedDeviceProperty(IVRSystem__GetUint64TrackedDeviceProperty const&) = delete;
+  IVRSystem__GetUint64TrackedDeviceProperty(IVRSystem__GetUint64TrackedDevicePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8060 };
@@ -1626,6 +1652,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetUint64TrackedDeviceProperty) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1654,13 +1681,13 @@ protected:
   constexpr IVRSystem__GetMatrix34TrackedDeviceProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetMatrix34TrackedDeviceProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetMatrix34TrackedDeviceProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetMatrix34TrackedDeviceProperty(IVRSystem__GetMatrix34TrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetMatrix34TrackedDeviceProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetMatrix34TrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetMatrix34TrackedDeviceProperty(IVRSystem__GetMatrix34TrackedDeviceProperty const&) = delete;
+  IVRSystem__GetMatrix34TrackedDeviceProperty(IVRSystem__GetMatrix34TrackedDevicePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8061 };
@@ -1671,6 +1698,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetMatrix34TrackedDeviceProperty) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1700,13 +1728,13 @@ protected:
   constexpr IVRSystem__GetArrayTrackedDeviceProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetArrayTrackedDeviceProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetArrayTrackedDeviceProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetArrayTrackedDeviceProperty(IVRSystem__GetArrayTrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetArrayTrackedDeviceProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetArrayTrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetArrayTrackedDeviceProperty(IVRSystem__GetArrayTrackedDeviceProperty const&) = delete;
+  IVRSystem__GetArrayTrackedDeviceProperty(IVRSystem__GetArrayTrackedDevicePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8062 };
@@ -1717,6 +1745,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetArrayTrackedDeviceProperty) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1746,13 +1775,13 @@ protected:
   constexpr IVRSystem__GetStringTrackedDeviceProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetStringTrackedDeviceProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetStringTrackedDeviceProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetStringTrackedDeviceProperty(IVRSystem__GetStringTrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetStringTrackedDeviceProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetStringTrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetStringTrackedDeviceProperty(IVRSystem__GetStringTrackedDeviceProperty const&) = delete;
+  IVRSystem__GetStringTrackedDeviceProperty(IVRSystem__GetStringTrackedDevicePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8063 };
@@ -1763,6 +1792,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetStringTrackedDeviceProperty) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1790,13 +1820,13 @@ protected:
   constexpr IVRSystem__GetPropErrorNameFromEnum();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetPropErrorNameFromEnum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetPropErrorNameFromEnum", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetPropErrorNameFromEnum(IVRSystem__GetPropErrorNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetPropErrorNameFromEnum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetPropErrorNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetPropErrorNameFromEnum(IVRSystem__GetPropErrorNameFromEnum const&) = delete;
+  IVRSystem__GetPropErrorNameFromEnum(IVRSystem__GetPropErrorNameFromEnumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8064 };
@@ -1807,6 +1837,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetPropErrorNameFromEnum) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1834,13 +1865,13 @@ protected:
   constexpr IVRSystem__PollNextEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__PollNextEvent(IVRSystem__PollNextEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__PollNextEvent(IVRSystem__PollNextEvent const&) = delete;
+  IVRSystem__PollNextEvent(IVRSystem__PollNextEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8065 };
@@ -1851,6 +1882,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__PollNextEvent) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1879,13 +1911,13 @@ protected:
   constexpr IVRSystem__PollNextEventWithPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEventWithPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEventWithPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__PollNextEventWithPose(IVRSystem__PollNextEventWithPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEventWithPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEventWithPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__PollNextEventWithPose(IVRSystem__PollNextEventWithPose const&) = delete;
+  IVRSystem__PollNextEventWithPose(IVRSystem__PollNextEventWithPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8066 };
@@ -1896,6 +1928,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__PollNextEventWithPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1923,13 +1956,13 @@ protected:
   constexpr IVRSystem__GetEventTypeNameFromEnum();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEventTypeNameFromEnum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEventTypeNameFromEnum", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetEventTypeNameFromEnum(IVRSystem__GetEventTypeNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEventTypeNameFromEnum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEventTypeNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetEventTypeNameFromEnum(IVRSystem__GetEventTypeNameFromEnum const&) = delete;
+  IVRSystem__GetEventTypeNameFromEnum(IVRSystem__GetEventTypeNameFromEnumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8067 };
@@ -1940,6 +1973,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetEventTypeNameFromEnum) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1967,13 +2001,13 @@ protected:
   constexpr IVRSystem__GetHiddenAreaMesh();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetHiddenAreaMesh", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetHiddenAreaMesh", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetHiddenAreaMesh(IVRSystem__GetHiddenAreaMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetHiddenAreaMesh", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetHiddenAreaMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetHiddenAreaMesh(IVRSystem__GetHiddenAreaMesh const&) = delete;
+  IVRSystem__GetHiddenAreaMesh(IVRSystem__GetHiddenAreaMeshconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8068 };
@@ -1984,6 +2018,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetHiddenAreaMesh) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2012,13 +2047,13 @@ protected:
   constexpr IVRSystem__GetControllerState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetControllerState(IVRSystem__GetControllerState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetControllerState(IVRSystem__GetControllerState const&) = delete;
+  IVRSystem__GetControllerState(IVRSystem__GetControllerStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8069 };
@@ -2029,6 +2064,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetControllerState) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2059,13 +2095,13 @@ protected:
   constexpr IVRSystem__GetControllerStateWithPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerStateWithPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerStateWithPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetControllerStateWithPose(IVRSystem__GetControllerStateWithPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerStateWithPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerStateWithPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetControllerStateWithPose(IVRSystem__GetControllerStateWithPose const&) = delete;
+  IVRSystem__GetControllerStateWithPose(IVRSystem__GetControllerStateWithPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8070 };
@@ -2076,6 +2112,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetControllerStateWithPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2103,13 +2140,13 @@ protected:
   constexpr IVRSystem__TriggerHapticPulse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__TriggerHapticPulse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__TriggerHapticPulse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__TriggerHapticPulse(IVRSystem__TriggerHapticPulse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__TriggerHapticPulse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__TriggerHapticPulse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__TriggerHapticPulse(IVRSystem__TriggerHapticPulse const&) = delete;
+  IVRSystem__TriggerHapticPulse(IVRSystem__TriggerHapticPulseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8071 };
@@ -2120,6 +2157,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__TriggerHapticPulse) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2147,13 +2185,13 @@ protected:
   constexpr IVRSystem__GetButtonIdNameFromEnum();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetButtonIdNameFromEnum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetButtonIdNameFromEnum", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetButtonIdNameFromEnum(IVRSystem__GetButtonIdNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetButtonIdNameFromEnum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetButtonIdNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetButtonIdNameFromEnum(IVRSystem__GetButtonIdNameFromEnum const&) = delete;
+  IVRSystem__GetButtonIdNameFromEnum(IVRSystem__GetButtonIdNameFromEnumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8072 };
@@ -2164,6 +2202,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetButtonIdNameFromEnum) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2191,13 +2230,13 @@ protected:
   constexpr IVRSystem__GetControllerAxisTypeNameFromEnum();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerAxisTypeNameFromEnum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerAxisTypeNameFromEnum", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__GetControllerAxisTypeNameFromEnum(IVRSystem__GetControllerAxisTypeNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerAxisTypeNameFromEnum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerAxisTypeNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetControllerAxisTypeNameFromEnum(IVRSystem__GetControllerAxisTypeNameFromEnum const&) = delete;
+  IVRSystem__GetControllerAxisTypeNameFromEnum(IVRSystem__GetControllerAxisTypeNameFromEnumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8073 };
@@ -2208,6 +2247,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__GetControllerAxisTypeNameFromEnum) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2235,13 +2275,13 @@ protected:
   constexpr IVRSystem__IsInputAvailable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsInputAvailable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsInputAvailable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__IsInputAvailable(IVRSystem__IsInputAvailable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsInputAvailable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsInputAvailable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__IsInputAvailable(IVRSystem__IsInputAvailable const&) = delete;
+  IVRSystem__IsInputAvailable(IVRSystem__IsInputAvailableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8074 };
@@ -2252,6 +2292,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__IsInputAvailable) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2279,13 +2320,13 @@ protected:
   constexpr IVRSystem__IsSteamVRDrawingControllers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsSteamVRDrawingControllers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsSteamVRDrawingControllers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__IsSteamVRDrawingControllers(IVRSystem__IsSteamVRDrawingControllers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsSteamVRDrawingControllers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsSteamVRDrawingControllers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__IsSteamVRDrawingControllers(IVRSystem__IsSteamVRDrawingControllers const&) = delete;
+  IVRSystem__IsSteamVRDrawingControllers(IVRSystem__IsSteamVRDrawingControllersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8075 };
@@ -2296,6 +2337,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__IsSteamVRDrawingControllers) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2323,13 +2365,13 @@ protected:
   constexpr IVRSystem__ShouldApplicationPause();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationPause", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationPause", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__ShouldApplicationPause(IVRSystem__ShouldApplicationPause&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationPause", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationPause", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ShouldApplicationPause(IVRSystem__ShouldApplicationPause const&) = delete;
+  IVRSystem__ShouldApplicationPause(IVRSystem__ShouldApplicationPauseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8076 };
@@ -2340,6 +2382,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__ShouldApplicationPause) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2367,13 +2410,13 @@ protected:
   constexpr IVRSystem__ShouldApplicationReduceRenderingWork();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationReduceRenderingWork", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationReduceRenderingWork", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__ShouldApplicationReduceRenderingWork(IVRSystem__ShouldApplicationReduceRenderingWork&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationReduceRenderingWork", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationReduceRenderingWork", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ShouldApplicationReduceRenderingWork(IVRSystem__ShouldApplicationReduceRenderingWork const&) = delete;
+  IVRSystem__ShouldApplicationReduceRenderingWork(IVRSystem__ShouldApplicationReduceRenderingWorkconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8077 };
@@ -2384,6 +2427,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__ShouldApplicationReduceRenderingWork) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2412,13 +2456,13 @@ protected:
   constexpr IVRSystem__DriverDebugRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__DriverDebugRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__DriverDebugRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__DriverDebugRequest(IVRSystem__DriverDebugRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__DriverDebugRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__DriverDebugRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__DriverDebugRequest(IVRSystem__DriverDebugRequest const&) = delete;
+  IVRSystem__DriverDebugRequest(IVRSystem__DriverDebugRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8078 };
@@ -2429,6 +2473,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__DriverDebugRequest) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2456,13 +2501,13 @@ protected:
   constexpr IVRSystem__PerformFirmwareUpdate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PerformFirmwareUpdate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PerformFirmwareUpdate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__PerformFirmwareUpdate(IVRSystem__PerformFirmwareUpdate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PerformFirmwareUpdate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PerformFirmwareUpdate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__PerformFirmwareUpdate(IVRSystem__PerformFirmwareUpdate const&) = delete;
+  IVRSystem__PerformFirmwareUpdate(IVRSystem__PerformFirmwareUpdateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8079 };
@@ -2473,6 +2518,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__PerformFirmwareUpdate) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2500,13 +2546,13 @@ protected:
   constexpr IVRSystem__AcknowledgeQuit_Exiting();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_Exiting", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_Exiting", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__AcknowledgeQuit_Exiting(IVRSystem__AcknowledgeQuit_Exiting&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_Exiting", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_Exiting", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__AcknowledgeQuit_Exiting(IVRSystem__AcknowledgeQuit_Exiting const&) = delete;
+  IVRSystem__AcknowledgeQuit_Exiting(IVRSystem__AcknowledgeQuit_Exitingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8080 };
@@ -2517,6 +2563,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSystem__AcknowledgeQuit_Exiting) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2544,13 +2591,13 @@ protected:
   constexpr IVRSystem__AcknowledgeQuit_UserPrompt();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_UserPrompt", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_UserPrompt", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSystem__AcknowledgeQuit_UserPrompt(IVRSystem__AcknowledgeQuit_UserPrompt&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_UserPrompt", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_UserPrompt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__AcknowledgeQuit_UserPrompt(IVRSystem__AcknowledgeQuit_UserPrompt const&) = delete;
+  IVRSystem__AcknowledgeQuit_UserPrompt(IVRSystem__AcknowledgeQuit_UserPromptconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8081 };
@@ -2666,44 +2713,47 @@ public:
   // @brief default ctor
   constexpr IVRSystem();
 
-  // Ctor Parameters [CppParam { name: "GetRecommendedRenderTargetSize", ty: "::OVR::OpenVR::IVRSystem__GetRecommendedRenderTargetSize*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetProjectionMatrix", ty: "::OVR::OpenVR::IVRSystem__GetProjectionMatrix*", modifiers: "", def_value: None }, CppParam { name: "GetProjectionRaw", ty:
-  // "::OVR::OpenVR::IVRSystem__GetProjectionRaw*", modifiers: "", def_value: None }, CppParam { name: "ComputeDistortion", ty: "::OVR::OpenVR::IVRSystem__ComputeDistortion*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetEyeToHeadTransform", ty: "::OVR::OpenVR::IVRSystem__GetEyeToHeadTransform*", modifiers: "", def_value: None }, CppParam { name: "GetTimeSinceLastVsync",
-  // ty: "::OVR::OpenVR::IVRSystem__GetTimeSinceLastVsync*", modifiers: "", def_value: None }, CppParam { name: "GetD3D9AdapterIndex", ty: "::OVR::OpenVR::IVRSystem__GetD3D9AdapterIndex*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetDXGIOutputInfo", ty: "::OVR::OpenVR::IVRSystem__GetDXGIOutputInfo*", modifiers: "", def_value: None }, CppParam { name: "GetOutputDevice", ty:
-  // "::OVR::OpenVR::IVRSystem__GetOutputDevice*", modifiers: "", def_value: None }, CppParam { name: "IsDisplayOnDesktop", ty: "::OVR::OpenVR::IVRSystem__IsDisplayOnDesktop*", modifiers: "",
-  // def_value: None }, CppParam { name: "SetDisplayVisibility", ty: "::OVR::OpenVR::IVRSystem__SetDisplayVisibility*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetDeviceToAbsoluteTrackingPose", ty: "::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "ResetSeatedZeroPose", ty:
-  // "::OVR::OpenVR::IVRSystem__ResetSeatedZeroPose*", modifiers: "", def_value: None }, CppParam { name: "GetSeatedZeroPoseToStandingAbsoluteTrackingPose", ty:
-  // "::OVR::OpenVR::IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "GetRawZeroPoseToStandingAbsoluteTrackingPose", ty:
-  // "::OVR::OpenVR::IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "GetSortedTrackedDeviceIndicesOfClass", ty:
-  // "::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass*", modifiers: "", def_value: None }, CppParam { name: "GetTrackedDeviceActivityLevel", ty:
-  // "::OVR::OpenVR::IVRSystem__GetTrackedDeviceActivityLevel*", modifiers: "", def_value: None }, CppParam { name: "ApplyTransform", ty: "::OVR::OpenVR::IVRSystem__ApplyTransform*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetTrackedDeviceIndexForControllerRole", ty: "::OVR::OpenVR::IVRSystem__GetTrackedDeviceIndexForControllerRole*", modifiers: "", def_value: None }, CppParam {
-  // name: "GetControllerRoleForTrackedDeviceIndex", ty: "::OVR::OpenVR::IVRSystem__GetControllerRoleForTrackedDeviceIndex*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetTrackedDeviceClass", ty: "::OVR::OpenVR::IVRSystem__GetTrackedDeviceClass*", modifiers: "", def_value: None }, CppParam { name: "IsTrackedDeviceConnected", ty:
-  // "::OVR::OpenVR::IVRSystem__IsTrackedDeviceConnected*", modifiers: "", def_value: None }, CppParam { name: "GetBoolTrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::IVRSystem__GetBoolTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetFloatTrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::IVRSystem__GetFloatTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetInt32TrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::IVRSystem__GetInt32TrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetUint64TrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::IVRSystem__GetUint64TrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetMatrix34TrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::IVRSystem__GetMatrix34TrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetArrayTrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::IVRSystem__GetArrayTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetStringTrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::IVRSystem__GetStringTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetPropErrorNameFromEnum", ty:
-  // "::OVR::OpenVR::IVRSystem__GetPropErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "PollNextEvent", ty: "::OVR::OpenVR::IVRSystem__PollNextEvent*", modifiers: "",
-  // def_value: None }, CppParam { name: "PollNextEventWithPose", ty: "::OVR::OpenVR::IVRSystem__PollNextEventWithPose*", modifiers: "", def_value: None }, CppParam { name: "GetEventTypeNameFromEnum",
-  // ty: "::OVR::OpenVR::IVRSystem__GetEventTypeNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "GetHiddenAreaMesh", ty: "::OVR::OpenVR::IVRSystem__GetHiddenAreaMesh*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetControllerState", ty: "::OVR::OpenVR::IVRSystem__GetControllerState*", modifiers: "", def_value: None }, CppParam { name: "GetControllerStateWithPose",
-  // ty: "::OVR::OpenVR::IVRSystem__GetControllerStateWithPose*", modifiers: "", def_value: None }, CppParam { name: "TriggerHapticPulse", ty: "::OVR::OpenVR::IVRSystem__TriggerHapticPulse*",
-  // modifiers: "", def_value: None }, CppParam { name: "GetButtonIdNameFromEnum", ty: "::OVR::OpenVR::IVRSystem__GetButtonIdNameFromEnum*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetControllerAxisTypeNameFromEnum", ty: "::OVR::OpenVR::IVRSystem__GetControllerAxisTypeNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "IsInputAvailable", ty:
-  // "::OVR::OpenVR::IVRSystem__IsInputAvailable*", modifiers: "", def_value: None }, CppParam { name: "IsSteamVRDrawingControllers", ty: "::OVR::OpenVR::IVRSystem__IsSteamVRDrawingControllers*",
-  // modifiers: "", def_value: None }, CppParam { name: "ShouldApplicationPause", ty: "::OVR::OpenVR::IVRSystem__ShouldApplicationPause*", modifiers: "", def_value: None }, CppParam { name:
-  // "ShouldApplicationReduceRenderingWork", ty: "::OVR::OpenVR::IVRSystem__ShouldApplicationReduceRenderingWork*", modifiers: "", def_value: None }, CppParam { name: "DriverDebugRequest", ty:
-  // "::OVR::OpenVR::IVRSystem__DriverDebugRequest*", modifiers: "", def_value: None }, CppParam { name: "PerformFirmwareUpdate", ty: "::OVR::OpenVR::IVRSystem__PerformFirmwareUpdate*", modifiers: "",
-  // def_value: None }, CppParam { name: "AcknowledgeQuit_Exiting", ty: "::OVR::OpenVR::IVRSystem__AcknowledgeQuit_Exiting*", modifiers: "", def_value: None }, CppParam { name:
-  // "AcknowledgeQuit_UserPrompt", ty: "::OVR::OpenVR::IVRSystem__AcknowledgeQuit_UserPrompt*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "GetRecommendedRenderTargetSize", ty: "::OVR::OpenVR::IVRSystem__GetRecommendedRenderTargetSize*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "GetProjectionMatrix", ty: "::OVR::OpenVR::IVRSystem__GetProjectionMatrix*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetProjectionRaw", ty:
+  // "::OVR::OpenVR::IVRSystem__GetProjectionRaw*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ComputeDistortion", ty: "::OVR::OpenVR::IVRSystem__ComputeDistortion*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "GetEyeToHeadTransform", ty: "::OVR::OpenVR::IVRSystem__GetEyeToHeadTransform*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "GetTimeSinceLastVsync", ty: "::OVR::OpenVR::IVRSystem__GetTimeSinceLastVsync*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetD3D9AdapterIndex", ty:
+  // "::OVR::OpenVR::IVRSystem__GetD3D9AdapterIndex*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetDXGIOutputInfo", ty: "::OVR::OpenVR::IVRSystem__GetDXGIOutputInfo*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "GetOutputDevice", ty: "::OVR::OpenVR::IVRSystem__GetOutputDevice*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "IsDisplayOnDesktop", ty: "::OVR::OpenVR::IVRSystem__IsDisplayOnDesktop*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetDisplayVisibility", ty:
+  // "::OVR::OpenVR::IVRSystem__SetDisplayVisibility*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetDeviceToAbsoluteTrackingPose", ty:
+  // "::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ResetSeatedZeroPose", ty:
+  // "::OVR::OpenVR::IVRSystem__ResetSeatedZeroPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetSeatedZeroPoseToStandingAbsoluteTrackingPose", ty:
+  // "::OVR::OpenVR::IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetRawZeroPoseToStandingAbsoluteTrackingPose", ty:
+  // "::OVR::OpenVR::IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetSortedTrackedDeviceIndicesOfClass", ty:
+  // "::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetTrackedDeviceActivityLevel", ty:
+  // "::OVR::OpenVR::IVRSystem__GetTrackedDeviceActivityLevel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ApplyTransform", ty: "::OVR::OpenVR::IVRSystem__ApplyTransform*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "GetTrackedDeviceIndexForControllerRole", ty: "::OVR::OpenVR::IVRSystem__GetTrackedDeviceIndexForControllerRole*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "GetControllerRoleForTrackedDeviceIndex", ty: "::OVR::OpenVR::IVRSystem__GetControllerRoleForTrackedDeviceIndex*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "GetTrackedDeviceClass", ty: "::OVR::OpenVR::IVRSystem__GetTrackedDeviceClass*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "IsTrackedDeviceConnected", ty: "::OVR::OpenVR::IVRSystem__IsTrackedDeviceConnected*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetBoolTrackedDeviceProperty", ty:
+  // "::OVR::OpenVR::IVRSystem__GetBoolTrackedDeviceProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetFloatTrackedDeviceProperty", ty:
+  // "::OVR::OpenVR::IVRSystem__GetFloatTrackedDeviceProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetInt32TrackedDeviceProperty", ty:
+  // "::OVR::OpenVR::IVRSystem__GetInt32TrackedDeviceProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetUint64TrackedDeviceProperty", ty:
+  // "::OVR::OpenVR::IVRSystem__GetUint64TrackedDeviceProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetMatrix34TrackedDeviceProperty", ty:
+  // "::OVR::OpenVR::IVRSystem__GetMatrix34TrackedDeviceProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetArrayTrackedDeviceProperty", ty:
+  // "::OVR::OpenVR::IVRSystem__GetArrayTrackedDeviceProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetStringTrackedDeviceProperty", ty:
+  // "::OVR::OpenVR::IVRSystem__GetStringTrackedDeviceProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetPropErrorNameFromEnum", ty:
+  // "::OVR::OpenVR::IVRSystem__GetPropErrorNameFromEnum*", modifiers: "", def_value: None, comment: None }, CppParam { name: "PollNextEvent", ty: "::OVR::OpenVR::IVRSystem__PollNextEvent*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "PollNextEventWithPose", ty: "::OVR::OpenVR::IVRSystem__PollNextEventWithPose*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "GetEventTypeNameFromEnum", ty: "::OVR::OpenVR::IVRSystem__GetEventTypeNameFromEnum*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetHiddenAreaMesh", ty:
+  // "::OVR::OpenVR::IVRSystem__GetHiddenAreaMesh*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetControllerState", ty: "::OVR::OpenVR::IVRSystem__GetControllerState*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "GetControllerStateWithPose", ty: "::OVR::OpenVR::IVRSystem__GetControllerStateWithPose*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "TriggerHapticPulse", ty: "::OVR::OpenVR::IVRSystem__TriggerHapticPulse*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "GetButtonIdNameFromEnum", ty: "::OVR::OpenVR::IVRSystem__GetButtonIdNameFromEnum*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetControllerAxisTypeNameFromEnum", ty:
+  // "::OVR::OpenVR::IVRSystem__GetControllerAxisTypeNameFromEnum*", modifiers: "", def_value: None, comment: None }, CppParam { name: "IsInputAvailable", ty:
+  // "::OVR::OpenVR::IVRSystem__IsInputAvailable*", modifiers: "", def_value: None, comment: None }, CppParam { name: "IsSteamVRDrawingControllers", ty:
+  // "::OVR::OpenVR::IVRSystem__IsSteamVRDrawingControllers*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ShouldApplicationPause", ty:
+  // "::OVR::OpenVR::IVRSystem__ShouldApplicationPause*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ShouldApplicationReduceRenderingWork", ty:
+  // "::OVR::OpenVR::IVRSystem__ShouldApplicationReduceRenderingWork*", modifiers: "", def_value: None, comment: None }, CppParam { name: "DriverDebugRequest", ty:
+  // "::OVR::OpenVR::IVRSystem__DriverDebugRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "PerformFirmwareUpdate", ty: "::OVR::OpenVR::IVRSystem__PerformFirmwareUpdate*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "AcknowledgeQuit_Exiting", ty: "::OVR::OpenVR::IVRSystem__AcknowledgeQuit_Exiting*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "AcknowledgeQuit_UserPrompt", ty: "::OVR::OpenVR::IVRSystem__AcknowledgeQuit_UserPrompt*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRSystem(::OVR::OpenVR::IVRSystem__GetRecommendedRenderTargetSize* GetRecommendedRenderTargetSize, ::OVR::OpenVR::IVRSystem__GetProjectionMatrix* GetProjectionMatrix,
                       ::OVR::OpenVR::IVRSystem__GetProjectionRaw* GetProjectionRaw, ::OVR::OpenVR::IVRSystem__ComputeDistortion* ComputeDistortion,
                       ::OVR::OpenVR::IVRSystem__GetEyeToHeadTransform* GetEyeToHeadTransform, ::OVR::OpenVR::IVRSystem__GetTimeSinceLastVsync* GetTimeSinceLastVsync,

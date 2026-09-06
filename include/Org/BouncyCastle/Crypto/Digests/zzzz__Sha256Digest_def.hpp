@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\Sha256Digest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Sha256Digest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -185,13 +185,13 @@ protected:
   constexpr Sha256Digest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Sha256Digest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sha256Digest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Sha256Digest(Sha256Digest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Sha256Digest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sha256Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Sha256Digest(Sha256Digest const&) = delete;
+  Sha256Digest(Sha256Digestconst&) = delete;
 
   /// @brief Field DigestLength offset 0xffffffff size 0x4
   static constexpr int32_t DigestLength{ static_cast<int32_t>(0x20) };

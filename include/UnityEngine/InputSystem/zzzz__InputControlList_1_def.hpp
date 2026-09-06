@@ -1,10 +1,13 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputControlList_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputControlList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -44,24 +47,31 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1_Enumerator;
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+struct InputControlList_1_Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1_Enumerator;
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+struct InputControlList_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::InputControlList_1);
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::InputControlList_1_Enumerator);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::InputControlList_1, "UnityEngine.InputSystem", "InputControlList`1");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::InputControlList_1_Enumerator, "UnityEngine.InputSystem", "InputControlList`1/Enumerator");
-// Dependencies
+// Dependencies UnityEngine.InputSystem.InputControl
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.InputControlList`1/Enumerator<TControl>
 struct CORDL_TYPE InputControlList_1_Enumerator {
@@ -111,8 +121,8 @@ public:
   // @brief default ctor
   constexpr InputControlList_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Indices", ty: "uint64_t*", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Current", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Indices", ty: "uint64_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_Current", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputControlList_1_Enumerator(uint64_t* m_Indices, int32_t m_Count, int32_t m_Current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -134,10 +144,14 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem
-// Dependencies Unity.Collections.Allocator, Unity.Collections.NativeArray`1<T>
+// [DefaultMember("Item")]
+// [DebuggerDisplay("Count = {Count}")]
+// Dependencies System.Collections.Generic.IComparer`1<T>, System.Collections.Generic.IReadOnlyList`1<T>, Unity.Collections.Allocator, Unity.Collections.NativeArray`1<T>,
+// UnityEngine.InputSystem.InputControl
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.InputControlList`1<TControl>
 struct CORDL_TYPE InputControlList_1 {
@@ -181,7 +195,9 @@ public:
   inline void AddRange(::System::Collections::Generic::IEnumerable_1<TControl>* list, int32_t count, int32_t destinationIndex);
 
   /// @brief Method AddSlice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TList> inline void AddSlice(TList list, int32_t count, int32_t destinationIndex, int32_t sourceIndex);
+  template <typename TList>
+    requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IReadOnlyList_1<TControl>*>)
+  inline void AddSlice(TList list, int32_t count, int32_t destinationIndex, int32_t sourceIndex);
 
   /// @brief Method AppendTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AppendTo(::by_ref<::ArrayW<TControl>> array, ::by_ref<int32_t> count);
@@ -226,7 +242,9 @@ public:
   inline void Resize(int32_t size);
 
   /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TCompare> inline void Sort(int32_t startIndex, int32_t count, TCompare comparer);
+  template <typename TCompare>
+    requires(::cordl_internals::type_constraint<TCompare, ::System::Collections::Generic::IComparer_1<TControl>*>)
+  inline void Sort(int32_t startIndex, int32_t count, TCompare comparer);
 
   /// @brief Method SwapElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SwapElements(int32_t index1, int32_t index2);
@@ -247,7 +265,7 @@ public:
   inline void _ctor(::Unity::Collections::Allocator allocator, int32_t initialCapacity);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<TControl> values);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<TControl> values);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<TControl>* values, ::Unity::Collections::Allocator allocator);
@@ -295,8 +313,8 @@ public:
   // @brief default ctor
   constexpr InputControlList_1();
 
-  // Ctor Parameters [CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Indices", ty: "::Unity::Collections::NativeArray_1<uint64_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Indices", ty: "::Unity::Collections::NativeArray_1<uint64_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }]
   constexpr InputControlList_1(int32_t m_Count, ::Unity::Collections::NativeArray_1<uint64_t> m_Indices, ::Unity::Collections::Allocator m_Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

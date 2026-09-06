@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\MarkupAttribute.hpp"
+// IWYU pragma private; include "TMPro/MarkupAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,8 +56,9 @@ public:
   // @brief default ctor
   constexpr MarkupAttribute();
 
-  // Ctor Parameters [CppParam { name: "m_NameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ValueHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "m_ValueStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ValueLength", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_NameHashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ValueHashCode", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_ValueStartIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ValueLength", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr MarkupAttribute(int32_t m_NameHashCode, int32_t m_ValueHashCode, int32_t m_ValueStartIndex, int32_t m_ValueLength) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

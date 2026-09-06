@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedMember.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,15 +96,19 @@ public:
   /// @brief Method .ctor, addr 0x5a41b60, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member);
 
+  /// [CompilerGenerated]
   /// @brief Method get_MemberInfo, addr 0x5a41c2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SupportedGizmos, addr 0x5a41c1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* get_SupportedGizmos();
 
+  /// [CompilerGenerated]
   /// @brief Method set_MemberInfo, addr 0x5a41c34, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberInfo(::System::Reflection::MemberInfo* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SupportedGizmos, addr 0x5a41c24, size 0x8, virtual false, abstract: false, final false
   inline void set_SupportedGizmos(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* value);
 
@@ -114,13 +118,13 @@ protected:
   constexpr InspectedMember();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedMember", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectedMember", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InspectedMember(InspectedMember&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedMember", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectedMember", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectedMember(InspectedMember const&) = delete;
+  InspectedMember(InspectedMemberconst&) = delete;
 
   /// @brief Field Flags value: I32(62)
   static ::System::Reflection::BindingFlags const Flags;
@@ -128,18 +132,23 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18332 };
 
+  /// [SerializeField]
   /// @brief Field attribute, offset: 0x28, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::DebugMember* ___attribute;
 
+  /// [SerializeField]
   /// @brief Field memberName, offset: 0x30, size: 0x8, def value: None
   ::StringW ___memberName;
 
+  /// [SerializeField]
   /// @brief Field _editorSelectedGizmoIndex, offset: 0x38, size: 0x4, def value: None
   int32_t ____editorSelectedGizmoIndex;
 
+  /// [CompilerGenerated]
   /// @brief Field <SupportedGizmos>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* ____SupportedGizmos_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MemberInfo>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ____MemberInfo_k__BackingField;
 

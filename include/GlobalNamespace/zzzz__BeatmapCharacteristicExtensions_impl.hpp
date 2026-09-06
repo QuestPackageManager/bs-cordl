@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicExtensions.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicExtensions_def.hpp"

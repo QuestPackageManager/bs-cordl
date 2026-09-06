@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ContactPairHeader.hpp"
+// IWYU pragma private; include "UnityEngine/ContactPairHeader.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__CollisionPairHeaderFlags_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -218,10 +218,10 @@ inline int32_t UnityEngine::ContactPairHeader::get_PairCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPairHeader>(), { "get_PairCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_BodyID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OtherBodyID", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NbPairs", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Flags", ty: "::UnityEngine::CollisionPairHeaderFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RelativeVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_BodyID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OtherBodyID", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NbPairs", ty: "uint32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::CollisionPairHeaderFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_RelativeVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ContactPairHeader::ContactPairHeader(int32_t m_BodyID, int32_t m_OtherBodyID, ::System::IntPtr m_StartPtr, uint32_t m_NbPairs, ::UnityEngine::CollisionPairHeaderFlags m_Flags,
                                                               ::UnityEngine::Vector3 m_RelativeVelocity) noexcept {
   this->m_BodyID = m_BodyID;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleSpawnInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleSpawnInfoNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,6 +78,7 @@ public:
   inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Init(float_t time, float_t startBeat, float_t endBeat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration,
                                                                    int32_t width, int32_t height, ::UnityEngine::Vector3 moveOffset, float_t obstacleWidth, float_t obstacleHeight, float_t rotation);
 
+  /// @brief [Preserve]
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* New_ctor();
 
   /// @brief Method Obtain, addr 0x37801f4, size 0x6c, virtual false, abstract: false, final false
@@ -158,6 +159,7 @@ public:
 
   constexpr void __cordl_internal_set_width(int32_t value);
 
+  /// [Preserve]
   /// @brief Method .ctor, addr 0x37802e0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -167,13 +169,13 @@ protected:
   constexpr ObstacleSpawnInfoNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSpawnInfoNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleSpawnInfoNetSerializable(ObstacleSpawnInfoNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSpawnInfoNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleSpawnInfoNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleSpawnInfoNetSerializable(ObstacleSpawnInfoNetSerializable const&) = delete;
+  ObstacleSpawnInfoNetSerializable(ObstacleSpawnInfoNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21201 };

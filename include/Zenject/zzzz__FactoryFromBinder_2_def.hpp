@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FactoryFromBinder_2.hpp"
+// IWYU pragma private; include "Zenject/FactoryFromBinder_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__FactoryFromBinderBase_def.hpp"
+#include "Zenject/zzzz__IFactory_2_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder_2)
 namespace System {
@@ -32,7 +33,9 @@ namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-template <typename TParam1, typename TContract, typename TSubFactory> class FactoryFromBinder_2___c__2_1;
+template <typename TParam1, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_2<TParam1, TContract>*>)
+class FactoryFromBinder_2___c__2_1;
 }
 namespace Zenject {
 template <typename TParam1, typename TContract> class FactoryFromBinder_2___c__DisplayClass1_0;
@@ -54,7 +57,9 @@ namespace Zenject {
 template <typename TParam1, typename TContract> class FactoryFromBinder_2;
 }
 namespace Zenject {
-template <typename TParam1, typename TContract, typename TSubFactory> class FactoryFromBinder_2___c__2_1;
+template <typename TParam1, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_2<TParam1, TContract>*>)
+class FactoryFromBinder_2___c__2_1;
 }
 namespace Zenject {
 template <typename TParam1, typename TContract> class FactoryFromBinder_2___c__DisplayClass1_0;
@@ -66,10 +71,12 @@ MARK_GEN_REF_T_PTR(::Zenject::FactoryFromBinder_2___c__DisplayClass1_0);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_2, "Zenject", "FactoryFromBinder`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_2___c__2_1, "Zenject", "FactoryFromBinder`2/<>c__2`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_2___c__DisplayClass1_0, "Zenject", "FactoryFromBinder`2/<>c__DisplayClass1_0");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, Zenject.IFactory`2<TParam1, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_2<TParam1, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder`2/<>c__2`1<TParam1,TContract,TSubFactory>
 class CORDL_TYPE FactoryFromBinder_2___c__2_1 : public ::System::Object {
@@ -89,6 +96,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -109,13 +117,13 @@ protected:
   constexpr FactoryFromBinder_2___c__2_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2___c__2_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2___c__2_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder_2___c__2_1(FactoryFromBinder_2___c__2_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2___c__2_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2___c__2_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder_2___c__2_1(FactoryFromBinder_2___c__2_1 const&) = delete;
+  FactoryFromBinder_2___c__2_1(FactoryFromBinder_2___c__2_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14076 };
@@ -124,6 +132,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -150,6 +159,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -162,13 +172,13 @@ protected:
   constexpr FactoryFromBinder_2___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder_2___c__DisplayClass1_0(FactoryFromBinder_2___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder_2___c__DisplayClass1_0(FactoryFromBinder_2___c__DisplayClass1_0 const&) = delete;
+  FactoryFromBinder_2___c__DisplayClass1_0(FactoryFromBinder_2___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14077 };
@@ -180,7 +190,8 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies Zenject.FactoryFromBinderBase
+// [NoReflectionBaking]
+// Dependencies Zenject.FactoryFromBinderBase, Zenject.IFactory`2<TParam1, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TContract>
@@ -194,7 +205,9 @@ public:
   using __c__DisplayClass1_0 = ::Zenject::FactoryFromBinder_2___c__DisplayClass1_0<TParam1, TContract>;
 
   /// @brief Method FromFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSubFactory> inline ::Zenject::ConditionCopyNonLazyBinder* FromFactory();
+  template <typename TSubFactory>
+    requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_2<TParam1, TContract>*>)
+  inline ::Zenject::ConditionCopyNonLazyBinder* FromFactory();
 
   /// @brief Method FromMethod, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromMethod(::System::Func_3<::Zenject::DiContainer*, TParam1, TContract>* method);
@@ -216,13 +229,13 @@ protected:
   constexpr FactoryFromBinder_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder_2(FactoryFromBinder_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder_2(FactoryFromBinder_2 const&) = delete;
+  FactoryFromBinder_2(FactoryFromBinder_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14078 };

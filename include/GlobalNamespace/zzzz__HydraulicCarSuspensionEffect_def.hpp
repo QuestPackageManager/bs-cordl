@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HydraulicCarSuspensionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/HydraulicCarSuspensionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,6 +105,8 @@ public:
   /// @brief Method OnEnable, addr 0x3288f94, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
+  /// [Inject]
+  /// [UsedImplicitly]
   /// @brief Method OnInject, addr 0x3288da4, size 0x4, virtual false, abstract: false, final false
   inline void OnInject();
 
@@ -201,41 +203,53 @@ protected:
   constexpr HydraulicCarSuspensionEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarSuspensionEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarSuspensionEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HydraulicCarSuspensionEffect(HydraulicCarSuspensionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarSuspensionEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarSuspensionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HydraulicCarSuspensionEffect(HydraulicCarSuspensionEffect const&) = delete;
+  HydraulicCarSuspensionEffect(HydraulicCarSuspensionEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23524 };
 
+  /// [SerializeField]
   /// @brief Field _contractEvent, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____contractEvent;
 
+  /// [SerializeField]
   /// @brief Field _contractEventValues, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<int32_t> ____contractEventValues;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _expandEvent, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____expandEvent;
 
+  /// [SerializeField]
   /// @brief Field _expandEventValues, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<int32_t> ____expandEventValues;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _springJoint, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpringJoint> ____springJoint;
 
+  /// [SerializeField]
   /// @brief Field _contractDistance, offset: 0x48, size: 0x4, def value: None
   float_t ____contractDistance;
 
+  /// [SerializeField]
   /// @brief Field _expandDistance, offset: 0x4c, size: 0x4, def value: None
   float_t ____expandDistance;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _rigidbody, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rigidbody> ____rigidbody;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleLength.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleLength.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,8 +107,8 @@ public:
   // @brief default ctor
   constexpr StyleLength();
 
-  // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty:
-  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Keyword", ty:
+  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None, comment: None }]
   constexpr StyleLength(::UnityEngine::UIElements::Length m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

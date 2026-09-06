@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DeltaSpeed.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DeltaSpeed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DeltaSpeed;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::DeltaSpeed);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DeltaSpeed, "UnityEngine.UIElements", "DeltaSpeed");
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr DeltaSpeed();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DeltaSpeed(int32_t value__) noexcept;
 
   /// @brief Field Fast value: I32(0)

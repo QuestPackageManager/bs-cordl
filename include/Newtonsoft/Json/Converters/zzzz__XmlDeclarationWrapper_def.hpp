@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XmlDeclarationWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XmlDeclarationWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class XmlDeclarationWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XmlDeclarationWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XmlDeclarationWrapper*, "Newtonsoft.Json.Converters", "XmlDeclarationWrapper");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.XmlNodeWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -44,6 +46,7 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Converters::XmlDeclarationWrapper* New_ctor(::System::Xml::XmlDeclaration* declaration);
 
   constexpr ::System::Xml::XmlDeclaration* const& __cordl_internal_get__declaration() const;
@@ -52,6 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__declaration(::System::Xml::XmlDeclaration* value);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d9efe4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDeclaration* declaration);
 
@@ -82,17 +86,18 @@ protected:
   constexpr XmlDeclarationWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDeclarationWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDeclarationWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDeclarationWrapper(XmlDeclarationWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDeclarationWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDeclarationWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDeclarationWrapper(XmlDeclarationWrapper const&) = delete;
+  XmlDeclarationWrapper(XmlDeclarationWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13671 };
 
+  /// [Nullable(1)]
   /// @brief Field _declaration, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlDeclaration* ____declaration;
 

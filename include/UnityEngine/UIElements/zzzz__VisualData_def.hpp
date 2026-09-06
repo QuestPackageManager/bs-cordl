@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,16 +72,17 @@ public:
   // @brief default ctor
   constexpr VisualData();
 
-  // Ctor Parameters [CppParam { name: "backgroundColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "backgroundImage", ty: "::UnityEngine::UIElements::Background",
-  // modifiers: "", def_value: None }, CppParam { name: "backgroundPositionX", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None }, CppParam { name:
-  // "backgroundPositionY", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeat", ty:
-  // "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "", def_value: None }, CppParam { name: "backgroundSize", ty: "::UnityEngine::UIElements::BackgroundSize", modifiers: "", def_value: None
-  // }, CppParam { name: "borderBottomColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "borderBottomLeftRadius", ty: "::UnityEngine::UIElements::Length",
-  // modifiers: "", def_value: None }, CppParam { name: "borderBottomRightRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "borderLeftColor", ty:
-  // "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "borderRightColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "borderTopColor", ty:
-  // "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "borderTopLeftRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name:
-  // "borderTopRightRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "opacity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "overflow", ty: "::UnityEngine::UIElements::OverflowInternal", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "backgroundColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "backgroundImage", ty:
+  // "::UnityEngine::UIElements::Background", modifiers: "", def_value: None, comment: None }, CppParam { name: "backgroundPositionX", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "backgroundPositionY", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "backgroundRepeat", ty: "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "", def_value: None, comment: None }, CppParam { name: "backgroundSize", ty:
+  // "::UnityEngine::UIElements::BackgroundSize", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderBottomColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "borderBottomLeftRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderBottomRightRadius",
+  // ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderLeftColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "borderRightColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderTopColor", ty: "::UnityEngine::Color", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "borderTopLeftRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "borderTopRightRadius", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "opacity", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "overflow", ty: "::UnityEngine::UIElements::OverflowInternal", modifiers: "", def_value: None, comment: None }]
   constexpr VisualData(::UnityEngine::Color backgroundColor, ::UnityEngine::UIElements::Background backgroundImage, ::UnityEngine::UIElements::BackgroundPosition backgroundPositionX,
                        ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY, ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat,
                        ::UnityEngine::UIElements::BackgroundSize backgroundSize, ::UnityEngine::Color borderBottomColor, ::UnityEngine::UIElements::Length borderBottomLeftRadius,

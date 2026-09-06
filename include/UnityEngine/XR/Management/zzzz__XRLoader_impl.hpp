@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRLoader.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRLoader.hpp"
+#include "UnityEngine/zzzz__ISubsystem_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -98,7 +99,9 @@ inline bool UnityEngine::XR::Management::XRLoader::Deinitialize() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::XR::Management::XRLoader*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::XR::Management::XRLoader::GetLoadedSubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline T UnityEngine::XR::Management::XRLoader::GetLoadedSubsystem() {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::XR::Management::XRLoader*>(), 8 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentSceneSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentSceneSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,20 +65,22 @@ protected:
   constexpr EnvironmentSceneSetup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSceneSetup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSceneSetup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentSceneSetup(EnvironmentSceneSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSceneSetup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSceneSetup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentSceneSetup(EnvironmentSceneSetup const&) = delete;
+  EnvironmentSceneSetup(EnvironmentSceneSetupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6715 };
 
+  /// [Inject]
   /// @brief Field _environmentsList, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsList;
 
+  /// [Inject]
   /// @brief Field _sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentSceneSetupData* ____sceneSetupData;
 

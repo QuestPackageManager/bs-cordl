@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ProfanityFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/ProfanityFilter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ProfanityFilter_def.hpp"
 #include "GlobalNamespace/zzzz__ProfanityFilter_def.hpp"
@@ -302,6 +302,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::ProfanityFilter__Get
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4* GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4*>(__1__state));
 }

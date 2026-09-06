@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassRandomWriteData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassRandomWriteData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ struct PassRandomWriteData;
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler",
                     "PassRandomWriteData");
+// [DebuggerDisplay("PassRandomWriteData: Res({resource.index}):{index}:{preserveCounterValue}")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
@@ -29,8 +30,8 @@ public:
   // @brief default ctor
   constexpr PassRandomWriteData();
 
-  // Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "preserveCounterValue", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "preserveCounterValue", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr PassRandomWriteData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource, int32_t index, bool preserveCounterValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

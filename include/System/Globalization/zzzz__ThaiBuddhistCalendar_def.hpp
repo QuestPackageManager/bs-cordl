@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\ThaiBuddhistCalendar.hpp"
+// IWYU pragma private; include "System/Globalization/ThaiBuddhistCalendar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class ThaiBuddhistCalendar;
 // Write type traits
 MARK_REF_T(::System::Globalization::ThaiBuddhistCalendar*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::ThaiBuddhistCalendar*, "System.Globalization", "ThaiBuddhistCalendar");
+// [ComVisible(true)]
 // Dependencies System.Globalization.Calendar, System.Globalization.EraInfo
 namespace System::Globalization {
 // Is value type: false
@@ -33,8 +34,10 @@ public:
   // Declarations
   __declspec(property(get = get_Eras)) ::ArrayW<int32_t> Eras;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MinSupportedDateTime)) ::System::DateTime MinSupportedDateTime;
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
@@ -119,13 +122,13 @@ protected:
   constexpr ThaiBuddhistCalendar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThaiBuddhistCalendar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThaiBuddhistCalendar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThaiBuddhistCalendar(ThaiBuddhistCalendar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThaiBuddhistCalendar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThaiBuddhistCalendar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThaiBuddhistCalendar(ThaiBuddhistCalendar const&) = delete;
+  ThaiBuddhistCalendar(ThaiBuddhistCalendarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3634 };

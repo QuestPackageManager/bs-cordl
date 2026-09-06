@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DroneHover.hpp"
+// IWYU pragma private; include "GlobalNamespace/DroneHover.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,13 +71,13 @@ protected:
   constexpr DroneHover_SineLayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DroneHover_SineLayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DroneHover_SineLayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DroneHover_SineLayer(DroneHover_SineLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DroneHover_SineLayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DroneHover_SineLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DroneHover_SineLayer(DroneHover_SineLayer const&) = delete;
+  DroneHover_SineLayer(DroneHover_SineLayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5539 };
@@ -225,35 +225,43 @@ protected:
   constexpr DroneHover();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DroneHover", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DroneHover", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DroneHover(DroneHover&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DroneHover", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DroneHover", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DroneHover(DroneHover const&) = delete;
+  DroneHover(DroneHoverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5540 };
 
+  /// [SerializeField]
   /// @brief Field _hoverAreaPerAxis, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____hoverAreaPerAxis;
 
+  /// [SerializeField]
   /// @brief Field _speed, offset: 0x2c, size: 0x4, def value: None
   float_t ____speed;
 
+  /// [SerializeField]
   /// @brief Field _compoundSins, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* ____compoundSins;
 
+  /// [Header("Tilt Settings")]
+  /// [SerializeField]
   /// @brief Field _tiltTransforms, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____tiltTransforms;
 
+  /// [SerializeField]
   /// @brief Field _maxTiltAmount, offset: 0x40, size: 0x4, def value: None
   float_t ____maxTiltAmount;
 
+  /// [SerializeField]
   /// @brief Field _tiltSpeed, offset: 0x44, size: 0x4, def value: None
   float_t ____tiltSpeed;
 
+  /// [SerializeField]
   /// @brief Field _tiltAheadOfTime, offset: 0x48, size: 0x4, def value: None
   float_t ____tiltAheadOfTime;
 

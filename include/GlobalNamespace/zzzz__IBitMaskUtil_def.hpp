@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IBitMaskUtil.hpp"
+// IWYU pragma private; include "GlobalNamespace/IBitMaskUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -15,7 +16,8 @@ class IBitMaskUtil;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::IBitMaskUtil*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::IBitMaskUtil*, "", "IBitMaskUtil");
-// Dependencies System.Object
+// [Extension]
+// Dependencies IBitMask`1<T>, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IBitMaskUtil
@@ -23,7 +25,9 @@ class CORDL_TYPE IBitMaskUtil : public ::System::Object {
 public:
   // Declarations
   /// @brief Method FromBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T FromBytes(::ArrayW<uint8_t> bytes, int32_t offset);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T FromBytes(::ArrayW<uint8_t> bytes, int32_t offset);
 
   /// @brief Method GetBase64Char, addr 0x377d7f4, size 0x44, virtual false, abstract: false, final false
   static inline char16_t GetBase64Char(uint64_t digit);
@@ -34,20 +38,33 @@ public:
   /// @brief Method GetHexDigit, addr 0x377d760, size 0x38, virtual false, abstract: false, final false
   static inline uint32_t GetHexDigit(char16_t c);
 
+  /// [Extension]
   /// @brief Method NumberOfSetBits, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t NumberOfSetBits(T bitMask);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*>)
+  static inline int32_t NumberOfSetBits(T bitMask);
 
+  /// [Extension]
   /// @brief Method ToBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<uint8_t> ToBytes(T bitMask);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*>)
+  static inline ::ArrayW<uint8_t> ToBytes(T bitMask);
 
+  /// [Extension]
   /// @brief Method ToShortString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::StringW ToShortString(T bitMask);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*>)
+  static inline ::StringW ToShortString(T bitMask);
 
   /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool TryParse(::StringW stringSerializedMask, ::by_ref<T> bitMask);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline bool TryParse(::StringW stringSerializedMask, ::by_ref<T> bitMask);
 
   /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool TryParse(::StringW stringSerializedMask, int32_t offset, int32_t length, ::by_ref<T> bitMask);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline bool TryParse(::StringW stringSerializedMask, int32_t offset, int32_t length, ::by_ref<T> bitMask);
 
 protected:
   // Ctor Parameters []
@@ -55,13 +72,13 @@ protected:
   constexpr IBitMaskUtil();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IBitMaskUtil", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBitMaskUtil", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IBitMaskUtil(IBitMaskUtil&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBitMaskUtil", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBitMaskUtil", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBitMaskUtil(IBitMaskUtil const&) = delete;
+  IBitMaskUtil(IBitMaskUtilconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21180 };

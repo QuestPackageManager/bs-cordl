@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\MarkToMarkAdjustmentRecord.hpp"
+// IWYU pragma private; include "TMPro/MarkToMarkAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,9 +64,9 @@ public:
   // @brief default ctor
   constexpr MarkToMarkAdjustmentRecord();
 
-  // Ctor Parameters [CppParam { name: "m_BaseMarkGlyphID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_BaseMarkGlyphAnchorPoint", ty: "::TMPro::GlyphAnchorPoint", modifiers:
-  // "", def_value: None }, CppParam { name: "m_CombiningMarkGlyphID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_CombiningMarkPositionAdjustment", ty:
-  // "::TMPro::MarkPositionAdjustment", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BaseMarkGlyphID", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BaseMarkGlyphAnchorPoint", ty:
+  // "::TMPro::GlyphAnchorPoint", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CombiningMarkGlyphID", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "m_CombiningMarkPositionAdjustment", ty: "::TMPro::MarkPositionAdjustment", modifiers: "", def_value: None, comment: None }]
   constexpr MarkToMarkAdjustmentRecord(uint32_t m_BaseMarkGlyphID, ::TMPro::GlyphAnchorPoint m_BaseMarkGlyphAnchorPoint, uint32_t m_CombiningMarkGlyphID,
                                        ::TMPro::MarkPositionAdjustment m_CombiningMarkPositionAdjustment) noexcept;
 
@@ -76,15 +76,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [SerializeField]
   /// @brief Field m_BaseMarkGlyphID, offset: 0x0, size: 0x4, def value: None
   uint32_t m_BaseMarkGlyphID;
 
+  /// [SerializeField]
   /// @brief Field m_BaseMarkGlyphAnchorPoint, offset: 0x4, size: 0x8, def value: None
   ::TMPro::GlyphAnchorPoint m_BaseMarkGlyphAnchorPoint;
 
+  /// [SerializeField]
   /// @brief Field m_CombiningMarkGlyphID, offset: 0xc, size: 0x4, def value: None
   uint32_t m_CombiningMarkGlyphID;
 
+  /// [SerializeField]
   /// @brief Field m_CombiningMarkPositionAdjustment, offset: 0x10, size: 0x8, def value: None
   ::TMPro::MarkPositionAdjustment m_CombiningMarkPositionAdjustment;
 

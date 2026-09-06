@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\CcmParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/CcmParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class CcmParameters;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Crypto::Parameters::CcmParameters*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Crypto::Parameters::CcmParameters*, "Org.BouncyCastle.Crypto.Parameters", "CcmParameters");
+// [Obsolete("Use AeadParameters")]
 // Dependencies Org.BouncyCastle.Crypto.Parameters.AeadParameters
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
@@ -36,13 +37,13 @@ protected:
   constexpr CcmParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CcmParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CcmParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CcmParameters(CcmParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CcmParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CcmParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CcmParameters(CcmParameters const&) = delete;
+  CcmParameters(CcmParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1014 };

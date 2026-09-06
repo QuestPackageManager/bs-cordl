@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Set_1.hpp"
+// IWYU pragma private; include "System/Linq/Set_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Set_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Linq/zzzz__Set_1_def.hpp"
-// Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "TElement", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty: "TElement", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TElement> constexpr ::System::Linq::Set_1_Slot<TElement>::Set_1_Slot(int32_t hashCode, TElement value, int32_t next) noexcept {
   this->hashCode = hashCode;
   this->value = value;

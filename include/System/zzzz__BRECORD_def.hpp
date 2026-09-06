@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\BRECORD.hpp"
+// IWYU pragma private; include "System/BRECORD.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr BRECORD();
 
-  // Ctor Parameters [CppParam { name: "pvRecord", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "pRecInfo", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pvRecord", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "pRecInfo", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr BRECORD(::System::IntPtr pvRecord, ::System::IntPtr pRecInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

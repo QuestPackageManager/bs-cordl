@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Collider2D.hpp"
+// IWYU pragma private; include "UnityEngine/Collider2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,9 @@ class Collider2D;
 // Write type traits
 MARK_REF_T(::UnityEngine::Collider2D*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Collider2D*, "UnityEngine", "Collider2D");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeHeader("Modules/Physics2D/Public/Collider2D.h")]
+// [RequiredByNativeCode(Optional = true)]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -25,13 +28,13 @@ protected:
   constexpr Collider2D();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Collider2D", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Collider2D", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Collider2D(Collider2D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Collider2D", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Collider2D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Collider2D(Collider2D const&) = delete;
+  Collider2D(Collider2Dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22815 };

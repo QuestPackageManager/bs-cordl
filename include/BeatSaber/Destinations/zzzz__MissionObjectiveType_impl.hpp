@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\MissionObjectiveType.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/MissionObjectiveType.hpp"
 #include "BeatSaber/Destinations/zzzz__MissionObjectiveType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Destinations::MissionObjectiveType::MissionObjectiveType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ToggleButtonGroupState.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ToggleButtonGroupState.hpp"
 #include "UnityEngine/UIElements/zzzz__ToggleButtonGroupState_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -318,7 +318,8 @@ constexpr ::System::IComparable_1<::UnityEngine::UIElements::ToggleButtonGroupSt
 UnityEngine::UIElements::ToggleButtonGroupState::i___System__IComparable_1___UnityEngine__UIElements__ToggleButtonGroupState_() {
   return static_cast<::System::IComparable_1<::UnityEngine::UIElements::ToggleButtonGroupState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Data", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Data", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::UIElements::ToggleButtonGroupState::ToggleButtonGroupState(uint64_t m_Data, int32_t m_Length) noexcept {
   this->m_Data = m_Data;
   this->m_Length = m_Length;

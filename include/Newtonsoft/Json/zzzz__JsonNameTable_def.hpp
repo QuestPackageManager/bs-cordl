@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonNameTable.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonNameTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,8 @@ namespace Newtonsoft::Json {
 class CORDL_TYPE JsonNameTable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [NullableContext(1)]
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW Get(::ArrayW<char16_t> key, int32_t start, int32_t length);
 
   static inline ::Newtonsoft::Json::JsonNameTable* New_ctor();
@@ -36,13 +37,13 @@ protected:
   constexpr JsonNameTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonNameTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonNameTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonNameTable(JsonNameTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonNameTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonNameTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonNameTable(JsonNameTable const&) = delete;
+  JsonNameTable(JsonNameTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13257 };

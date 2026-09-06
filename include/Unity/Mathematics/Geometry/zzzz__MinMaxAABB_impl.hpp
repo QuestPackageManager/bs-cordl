@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\Geometry\MinMaxAABB.hpp"
+// IWYU pragma private; include "Unity/Mathematics/Geometry/MinMaxAABB.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "Unity/Mathematics/Geometry/zzzz__MinMaxAABB_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -304,8 +304,8 @@ constexpr Unity::Mathematics::Geometry::MinMaxAABB::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::Unity::Mathematics::Geometry::MinMaxAABB>* Unity::Mathematics::Geometry::MinMaxAABB::i___System__IEquatable_1___Unity__Mathematics__Geometry__MinMaxAABB_() {
   return static_cast<::System::IEquatable_1<::Unity::Mathematics::Geometry::MinMaxAABB>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Min", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}") }, CppParam { name: "Max", ty: "::Unity::Mathematics::float3", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Min", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Max", ty: "::Unity::Mathematics::float3",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::Geometry::MinMaxAABB::MinMaxAABB(::Unity::Mathematics::float3 Min, ::Unity::Mathematics::float3 Max) noexcept {
   this->Min = Min;
   this->Max = Max;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlObjectSerializerWriteContext.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlObjectSerializerWriteContext.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectReferenceStack_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlObjectSerializerContext_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlObjectSerializerWriteContext_def.hpp"
@@ -1378,7 +1378,9 @@ template <typename T> inline T System::Runtime::Serialization::XmlObjectSerializ
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method);
 }
-template <typename T> inline T System::Runtime::Serialization::XmlObjectSerializerWriteContext::GetNullableValue(::System::Nullable_1<T> value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T System::Runtime::Serialization::XmlObjectSerializerWriteContext::GetNullableValue(::System::Nullable_1<T> value) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContext*>(),
                                                                                               { "GetNullableValue", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Nullable_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1390,7 +1392,9 @@ inline void System::Runtime::Serialization::XmlObjectSerializerWriteContext::Thr
                                                            { "ThrowRequiredMemberMustBeEmitted", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, memberName, type);
 }
-template <typename T> inline bool System::Runtime::Serialization::XmlObjectSerializerWriteContext::GetHasValue(::System::Nullable_1<T> value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool System::Runtime::Serialization::XmlObjectSerializerWriteContext::GetHasValue(::System::Nullable_1<T> value) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContext*>(),
                                                                                               { "GetHasValue", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Nullable_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

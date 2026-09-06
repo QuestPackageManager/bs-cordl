@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarEditorFlowCoordinator.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarEditorFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   // @brief default ctor
   constexpr AvatarEditorFlowCoordinator_FinishAction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AvatarEditorFlowCoordinator_FinishAction(int32_t value__) noexcept;
 
   /// @brief Field Apply value: I32(1)
@@ -126,7 +126,7 @@ public:
   // @brief default ctor
   constexpr AvatarEditorFlowCoordinator_EditMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AvatarEditorFlowCoordinator_EditMode(int32_t value__) noexcept;
 
   /// @brief Field Create value: I32(0)
@@ -189,7 +189,7 @@ public:
 
   static inline ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* New_ctor();
 
-  /// @brief Method OneTimeInitialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OneTimeInitialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OneTimeInitialize();
 
   /// @brief Method SetAvatarSystem, addr 0x326b208, size 0x8, virtual false, abstract: false, final false
@@ -236,23 +236,29 @@ public:
   /// @brief Method .ctor, addr 0x326b258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x326ad50, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                                     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSetupEvent, addr 0x326aed0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSetupEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_randomizeAllButtonWasPressedEvent, addr 0x326b050, size 0xac, virtual false, abstract: false, final false
   inline void add_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x326ae10, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                                        ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSetupEvent, addr 0x326af90, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSetupEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_randomizeAllButtonWasPressedEvent, addr 0x326b0fc, size 0xac, virtual false, abstract: false, final false
   inline void remove_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
@@ -262,24 +268,27 @@ protected:
   constexpr AvatarEditorFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarEditorFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarEditorFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarEditorFlowCoordinator(AvatarEditorFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarEditorFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarEditorFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarEditorFlowCoordinator(AvatarEditorFlowCoordinator const&) = delete;
+  AvatarEditorFlowCoordinator(AvatarEditorFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21638 };
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                      ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* ___didFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didSetupEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode>* ___didSetupEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field randomizeAllButtonWasPressedEvent, offset: 0xc0, size: 0x8, def value: None
   ::System::Action* ___randomizeAllButtonWasPressedEvent;
 

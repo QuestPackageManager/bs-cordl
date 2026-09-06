@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CountingBloomFilter.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CountingBloomFilter.hpp"
 #include "UnityEngine/UIElements/zzzz__CountingBloomFilter_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CountingBloomFilter_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer::CountingBloomFilter__m_Counters_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -134,7 +134,7 @@ inline bool UnityEngine::UIElements::CountingBloomFilter::ContainsHash(uint32_t 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CountingBloomFilter>(), { "ContainsHash", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, hash);
 }
-// Ctor Parameters [CppParam { name: "m_Counters", ty: "::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Counters", ty: "::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::CountingBloomFilter::CountingBloomFilter(::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer m_Counters) noexcept {
   this->m_Counters = m_Counters;
 }

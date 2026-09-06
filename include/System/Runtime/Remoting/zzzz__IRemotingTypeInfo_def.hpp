@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\IRemotingTypeInfo.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/IRemotingTypeInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class IRemotingTypeInfo;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::IRemotingTypeInfo*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::IRemotingTypeInfo*, "System.Runtime.Remoting", "IRemotingTypeInfo");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting {
 // Is value type: false
@@ -27,15 +28,15 @@ public:
   // Declarations
   __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
-  /// @brief Method CanCastTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CanCastTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
-  /// @brief Method get_TypeName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_TypeName();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRemotingTypeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IRemotingTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IRemotingTypeInfo(IRemotingTypeInfo const&) = delete;
+  IRemotingTypeInfo(IRemotingTypeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3075 };

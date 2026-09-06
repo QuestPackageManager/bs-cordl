@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RasterCommandBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RasterCommandBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -159,13 +159,13 @@ public:
   inline void ConfigureFoveatedRendering(::System::IntPtr platformData);
 
   /// @brief Method DisableKeyword, addr 0x6751664, size 0x38, virtual false, abstract: false, final false
-  inline void DisableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void DisableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method DisableKeyword, addr 0x6751610, size 0x1c, virtual false, abstract: false, final false
-  inline void DisableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  inline void DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
 
   /// @brief Method DisableKeyword, addr 0x675162c, size 0x38, virtual false, abstract: false, final false
-  inline void DisableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void DisableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method DisableScissorRect, addr 0x675130c, size 0x18, virtual true, abstract: false, final true
   inline void DisableScissorRect();
@@ -312,13 +312,13 @@ public:
   inline void DrawRendererList(::UnityEngine::Rendering::RendererList rendererList);
 
   /// @brief Method EnableKeyword, addr 0x67515c0, size 0x38, virtual false, abstract: false, final false
-  inline void EnableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void EnableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method EnableKeyword, addr 0x675156c, size 0x1c, virtual false, abstract: false, final false
-  inline void EnableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  inline void EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
 
   /// @brief Method EnableKeyword, addr 0x6751588, size 0x38, virtual false, abstract: false, final false
-  inline void EnableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void EnableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method EnableScissorRect, addr 0x67512f4, size 0x18, virtual true, abstract: false, final true
   inline void EnableScissorRect(::UnityEngine::Rect scissor);
@@ -481,13 +481,13 @@ public:
   inline void SetInvertCulling(bool invertCulling);
 
   /// @brief Method SetKeyword, addr 0x67516fc, size 0x3c, virtual false, abstract: false, final false
-  inline void SetKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  inline void SetKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
 
   /// @brief Method SetKeyword, addr 0x675169c, size 0x24, virtual false, abstract: false, final false
-  inline void SetKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value);
+  inline void SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value);
 
   /// @brief Method SetKeyword, addr 0x67516c0, size 0x3c, virtual false, abstract: false, final false
-  inline void SetKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  inline void SetKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
 
   /// @brief Method SetLateLatchProjectionMatrices, addr 0x67517e8, size 0x18, virtual true, abstract: false, final true
   inline void SetLateLatchProjectionMatrices(::ArrayW<::UnityEngine::Matrix4x4> projectionMat);
@@ -511,31 +511,31 @@ public:
   inline void SetupCameraProperties(::UnityEngine::Camera* camera);
 
   /// @brief Method UnityEngine.Rendering.IBaseCommandBuffer.DisableKeyword, addr 0x6752b78, size 0x38, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method UnityEngine.Rendering.IBaseCommandBuffer.DisableKeyword, addr 0x6752b24, size 0x1c, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  inline void UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
 
   /// @brief Method UnityEngine.Rendering.IBaseCommandBuffer.DisableKeyword, addr 0x6752b40, size 0x38, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method UnityEngine.Rendering.IBaseCommandBuffer.EnableKeyword, addr 0x6752aec, size 0x38, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method UnityEngine.Rendering.IBaseCommandBuffer.EnableKeyword, addr 0x6752a98, size 0x1c, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  inline void UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
 
   /// @brief Method UnityEngine.Rendering.IBaseCommandBuffer.EnableKeyword, addr 0x6752ab4, size 0x38, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method UnityEngine.Rendering.IBaseCommandBuffer.SetKeyword, addr 0x6752c10, size 0x3c, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  inline void UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
 
   /// @brief Method UnityEngine.Rendering.IBaseCommandBuffer.SetKeyword, addr 0x6752bb0, size 0x24, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value);
+  inline void UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value);
 
   /// @brief Method UnityEngine.Rendering.IBaseCommandBuffer.SetKeyword, addr 0x6752bd4, size 0x3c, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  inline void UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
 
   /// @brief Method UnmarkLateLatchMatrix, addr 0x6751818, size 0x18, virtual true, abstract: false, final true
   inline void UnmarkLateLatchMatrix(::UnityEngine::Rendering::CameraLateLatchMatrixType matrixPropertyType);
@@ -555,13 +555,13 @@ protected:
   constexpr RasterCommandBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RasterCommandBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RasterCommandBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RasterCommandBuffer(RasterCommandBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RasterCommandBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RasterCommandBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RasterCommandBuffer(RasterCommandBuffer const&) = delete;
+  RasterCommandBuffer(RasterCommandBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11877 };

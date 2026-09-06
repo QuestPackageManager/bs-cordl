@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphGraphicsAutomatedTests.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphGraphicsAutomatedTests.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ MARK_REF_T(::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests*);
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests*, "UnityEngine.Rendering", "RenderGraphGraphicsAutomatedTests");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c*, "UnityEngine.Rendering", "RenderGraphGraphicsAutomatedTests/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -59,13 +60,13 @@ protected:
   constexpr RenderGraphGraphicsAutomatedTests___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphGraphicsAutomatedTests___c(RenderGraphGraphicsAutomatedTests___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphGraphicsAutomatedTests___c(RenderGraphGraphicsAutomatedTests___c const&) = delete;
+  RenderGraphGraphicsAutomatedTests___c(RenderGraphGraphicsAutomatedTests___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12571 };
@@ -93,6 +94,7 @@ public:
   /// @brief Method get_activatedFromCommandLine, addr 0x683cbf8, size 0x10c, virtual false, abstract: false, final false
   static inline bool get_activatedFromCommandLine();
 
+  /// [CompilerGenerated]
   /// @brief Method get_enabled, addr 0x683cd04, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
@@ -104,13 +106,13 @@ protected:
   constexpr RenderGraphGraphicsAutomatedTests();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphGraphicsAutomatedTests(RenderGraphGraphicsAutomatedTests&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphGraphicsAutomatedTests(RenderGraphGraphicsAutomatedTests const&) = delete;
+  RenderGraphGraphicsAutomatedTests(RenderGraphGraphicsAutomatedTestsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12572 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UnhandledExceptionHandler.hpp"
+// IWYU pragma private; include "UnityEngine/UnhandledExceptionHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ MARK_REF_T(::UnityEngine::UnhandledExceptionHandler*);
 MARK_REF_T(::UnityEngine::UnhandledExceptionHandler___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UnhandledExceptionHandler*, "UnityEngine", "UnhandledExceptionHandler");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UnhandledExceptionHandler___c*, "UnityEngine", "UnhandledExceptionHandler/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -64,13 +65,13 @@ protected:
   constexpr UnhandledExceptionHandler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnhandledExceptionHandler___c(UnhandledExceptionHandler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnhandledExceptionHandler___c(UnhandledExceptionHandler___c const&) = delete;
+  UnhandledExceptionHandler___c(UnhandledExceptionHandler___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10372 };
@@ -81,6 +82,7 @@ public:
 static_assert(sizeof(::UnityEngine::UnhandledExceptionHandler___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("PlatformDependent/iPhonePlayer/IOSScriptBindings.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -90,6 +92,7 @@ public:
   // Declarations
   using __c = ::UnityEngine::UnhandledExceptionHandler___c;
 
+  /// [RequiredByNativeCode]
   /// @brief Method RegisterUECatcher, addr 0x6ae7e0c, size 0xfc, virtual false, abstract: false, final false
   static inline void RegisterUECatcher();
 
@@ -99,13 +102,13 @@ protected:
   constexpr UnhandledExceptionHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnhandledExceptionHandler(UnhandledExceptionHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnhandledExceptionHandler(UnhandledExceptionHandler const&) = delete;
+  UnhandledExceptionHandler(UnhandledExceptionHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10373 };

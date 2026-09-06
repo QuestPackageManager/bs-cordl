@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\SDF\MeshToSDFBaker.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/SDF/MeshToSDFBaker.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Material_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"

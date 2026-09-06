@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\MethodResponse.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/MethodResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,8 @@ class MethodResponse;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Messaging::MethodResponse*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Messaging::MethodResponse*, "System.Runtime.Remoting.Messaging", "MethodResponse");
+// [CLSCompliant(false)]
+// [ComVisible(true)]
 // Dependencies System.Object, System.Type
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
@@ -357,13 +359,13 @@ protected:
   constexpr MethodResponse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MethodResponse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodResponse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodResponse(MethodResponse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MethodResponse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodResponse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MethodResponse(MethodResponse const&) = delete;
+  MethodResponse(MethodResponseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3194 };

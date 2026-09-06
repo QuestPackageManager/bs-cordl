@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBufferBuilder.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBufferBuilder.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceComponentDesc_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceDataBufferBuilder_def.hpp"
@@ -75,6 +75,7 @@ inline ::UnityEngine::Rendering::MetadataValue UnityEngine::Rendering::GPUInstan
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::MetadataValue>(*this, ___internal_method, nameID, gpuAddress, isOverridden);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::GPUInstanceDataBufferBuilder::AddComponent(int32_t propertyID, bool isOverriden, bool isPerInstance, ::UnityEngine::Rendering::InstanceType instanceType,
                                                                                ::UnityEngine::Rendering::InstanceComponentGroup componentGroup) {
   static auto* ___internal_method_base =
@@ -96,7 +97,8 @@ inline void UnityEngine::Rendering::GPUInstanceDataBufferBuilder::AddComponent(i
                                                                ::i2c::type_of<::UnityEngine::Rendering::InstanceType>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceComponentGroup>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, propertyID, isOverriden, byteSize, isPerInstance, instanceType, componentGroup);
 }
-inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Build(::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
+inline ::UnityEngine::Rendering::GPUInstanceDataBuffer*
+UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Build(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferBuilder>(),
                                                                                          { "Build", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(*this, ___internal_method, instanceNumInfo);
@@ -113,7 +115,8 @@ constexpr UnityEngine::Rendering::GPUInstanceDataBufferBuilder::operator ::Syste
 constexpr ::System::IDisposable* UnityEngine::Rendering::GPUInstanceDataBufferBuilder::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Components", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Components", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::GPUInstanceDataBufferBuilder(
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> m_Components) noexcept {
   this->m_Components = m_Components;

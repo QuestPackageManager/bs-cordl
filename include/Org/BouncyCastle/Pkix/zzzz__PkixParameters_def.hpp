@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -385,13 +385,13 @@ protected:
   constexpr PkixParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkixParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkixParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkixParameters(PkixParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkixParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkixParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PkixParameters(PkixParameters const&) = delete;
+  PkixParameters(PkixParametersconst&) = delete;
 
   /// @brief Field ChainValidityModel offset 0xffffffff size 0x4
   static constexpr int32_t ChainValidityModel{ static_cast<int32_t>(0x1) };

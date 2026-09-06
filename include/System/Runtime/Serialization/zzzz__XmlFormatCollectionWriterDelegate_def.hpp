@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlFormatCollectionWriterDelegate.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlFormatCollectionWriterDelegate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ protected:
   constexpr XmlFormatCollectionWriterDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionWriterDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionWriterDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlFormatCollectionWriterDelegate(XmlFormatCollectionWriterDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionWriterDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionWriterDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatCollectionWriterDelegate(XmlFormatCollectionWriterDelegate const&) = delete;
+  XmlFormatCollectionWriterDelegate(XmlFormatCollectionWriterDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17131 };

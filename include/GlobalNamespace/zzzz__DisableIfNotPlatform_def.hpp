@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DisableIfNotPlatform.hpp"
+// IWYU pragma private; include "GlobalNamespace/DisableIfNotPlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,17 +44,18 @@ protected:
   constexpr DisableIfNotPlatform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisableIfNotPlatform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisableIfNotPlatform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisableIfNotPlatform(DisableIfNotPlatform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisableIfNotPlatform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisableIfNotPlatform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisableIfNotPlatform(DisableIfNotPlatform const&) = delete;
+  DisableIfNotPlatform(DisableIfNotPlatformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22755 };
 
+  /// [SerializeField]
   /// @brief Field _whitelistPlatforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::RuntimePlatform> ____whitelistPlatforms;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVROverlayCanvasSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVROverlayCanvasSettings.hpp"
 #include "GlobalNamespace/zzzz__OVRRuntimeAssetsBase_impl.hpp"
 #include "GlobalNamespace/zzzz__OVROverlayCanvasSettings_def.hpp"
 #include "GlobalNamespace/zzzz__OVROverlayCanvas_def.hpp"

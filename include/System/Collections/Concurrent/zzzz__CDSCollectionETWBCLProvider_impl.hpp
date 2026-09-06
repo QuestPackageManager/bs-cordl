@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Concurrent\CDSCollectionETWBCLProvider.hpp"
+// IWYU pragma private; include "System/Collections/Concurrent/CDSCollectionETWBCLProvider.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__CDSCollectionETWBCLProvider_def.hpp"
 //  Writing Method size for method: ::System::Collections::Concurrent::CDSCollectionETWBCLProvider._ctor

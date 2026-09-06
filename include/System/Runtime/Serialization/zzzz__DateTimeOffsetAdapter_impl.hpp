@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\DateTimeOffsetAdapter.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/DateTimeOffsetAdapter.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__DateTimeOffsetAdapter_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
@@ -117,8 +117,8 @@ inline ::StringW System::Runtime::Serialization::DateTimeOffsetAdapter::ToString
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DateTimeOffsetAdapter>(), { "ToString", {}, { ::i2c::type_of<::System::IFormatProvider*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, provider);
 }
-// Ctor Parameters [CppParam { name: "utcDateTime", ty: "::System::DateTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "offsetMinutes", ty: "int16_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "utcDateTime", ty: "::System::DateTime", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "offsetMinutes", ty: "int16_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Serialization::DateTimeOffsetAdapter::DateTimeOffsetAdapter(::System::DateTime utcDateTime, int16_t offsetMinutes) noexcept {
   this->utcDateTime = utcDateTime;
   this->offsetMinutes = offsetMinutes;

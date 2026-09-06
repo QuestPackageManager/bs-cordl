@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\CopyColorPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/CopyColorPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CopyColorPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -165,13 +167,13 @@ protected:
   constexpr CopyColorPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyColorPass_PassData(CopyColorPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyColorPass_PassData(CopyColorPass_PassData const&) = delete;
+  CopyColorPass_PassData(CopyColorPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13074 };
@@ -217,6 +219,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyColorP
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -257,13 +260,13 @@ protected:
   constexpr CopyColorPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyColorPass___c(CopyColorPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyColorPass___c(CopyColorPass___c const&) = delete;
+  CopyColorPass___c(CopyColorPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13075 };
@@ -315,6 +318,7 @@ public:
   static inline void ConfigureDescriptor(::UnityEngine::Rendering::Universal::Downsampling downsamplingMethod, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
                                          ::by_ref<::UnityEngine::FilterMode> filterMode);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68faff8, size 0x200, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -325,27 +329,29 @@ public:
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyColorPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* samplingMaterial,
                                                                                        ::UnityEngine::Material* copyColorMaterial, ::StringW customPassName);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x68faf9c, size 0x5c, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// @brief Method Render, addr 0x68fb590, size 0x1ac, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                                                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                                                           ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                                                            ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
   /// @brief Method RenderInternal, addr 0x68fb73c, size 0x64c, virtual false, abstract: false, final false
-  inline void RenderInternal(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                             ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, bool useProceduralBlit);
+  inline void RenderInternal(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, bool useProceduralBlit);
 
   /// @brief Method RenderToExistingTexture, addr 0x68fbd88, size 0xb4, virtual false, abstract: false, final false
   inline void RenderToExistingTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                      ::UnityEngine::Rendering::Universal::Downsampling downsampling);
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
   /// @brief Method Setup, addr 0x68faf90, size 0xc, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
+  /// [Obsolete("Use RTHandles for source and destination.", true)]
   /// @brief Method Setup, addr 0x68faf44, size 0x4c, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::Universal::RenderTargetHandle destination,
                     ::UnityEngine::Rendering::Universal::Downsampling downsampling);
@@ -395,15 +401,19 @@ public:
   /// @brief Method .ctor, addr 0x68fad94, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* samplingMaterial, ::UnityEngine::Material* copyColorMaterial, ::StringW customPassName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_destination, addr 0x68fad84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_destination();
 
+  /// [CompilerGenerated]
   /// @brief Method get_source, addr 0x68fad74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_source();
 
+  /// [CompilerGenerated]
   /// @brief Method set_destination, addr 0x68fad8c, size 0x8, virtual false, abstract: false, final false
   inline void set_destination(::UnityEngine::Rendering::RTHandle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_source, addr 0x68fad7c, size 0x8, virtual false, abstract: false, final false
   inline void set_source(::UnityEngine::Rendering::RTHandle* value);
 
@@ -413,13 +423,13 @@ protected:
   constexpr CopyColorPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyColorPass(CopyColorPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyColorPass(CopyColorPass const&) = delete;
+  CopyColorPass(CopyColorPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13076 };
@@ -436,9 +446,11 @@ public:
   /// @brief Field m_CopyColorMaterial, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_CopyColorMaterial;
 
+  /// [CompilerGenerated]
   /// @brief Field <source>k__BackingField, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____source_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <destination>k__BackingField, offset: 0xe0, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____destination_k__BackingField;
 

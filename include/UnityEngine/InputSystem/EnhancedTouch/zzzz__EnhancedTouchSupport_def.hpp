@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\EnhancedTouch\EnhancedTouchSupport.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/EnhancedTouch/EnhancedTouchSupport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,8 @@ public:
   /// @brief Field s_UpdateMode, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_UpdateMode, put = setStaticF_s_UpdateMode)) ::UnityEngine::InputSystem::InputSettings_UpdateMode s_UpdateMode;
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckEnabled, addr 0x65a6540, size 0x9c, virtual false, abstract: false, final false
   static inline void CheckEnabled();
 
@@ -74,13 +76,13 @@ protected:
   constexpr EnhancedTouchSupport();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnhancedTouchSupport", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnhancedTouchSupport", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnhancedTouchSupport(EnhancedTouchSupport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnhancedTouchSupport", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnhancedTouchSupport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnhancedTouchSupport(EnhancedTouchSupport const&) = delete;
+  EnhancedTouchSupport(EnhancedTouchSupportconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8906 };

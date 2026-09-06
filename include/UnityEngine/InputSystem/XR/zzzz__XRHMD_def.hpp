@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRHMD.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRHMD.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class XRHMD;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::XR::XRHMD*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::XR::XRHMD*, "UnityEngine.InputSystem.XR", "XRHMD");
+// [InputControlLayout(isGenericTypeOfDevice = true, displayName = "XR HMD", canRunInBackground = true)]
 // Dependencies UnityEngine.InputSystem.TrackedDevice
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
@@ -49,16 +50,22 @@ public:
   __declspec(property(get = __cordl_internal_get__rightEyeRotation_k__BackingField,
                       put = __cordl_internal_set__rightEyeRotation_k__BackingField)) ::UnityEngine::InputSystem::Controls::QuaternionControl* _rightEyeRotation_k__BackingField;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_centerEyePosition, put = set_centerEyePosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* centerEyePosition;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_centerEyeRotation, put = set_centerEyeRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* centerEyeRotation;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_leftEyePosition, put = set_leftEyePosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* leftEyePosition;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_leftEyeRotation, put = set_leftEyeRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* leftEyeRotation;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_rightEyePosition, put = set_rightEyePosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* rightEyePosition;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_rightEyeRotation, put = set_rightEyeRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* rightEyeRotation;
 
   /// @brief Method FinishSetup, addr 0x65875bc, size 0x170, virtual true, abstract: false, final false
@@ -105,39 +112,51 @@ public:
   /// @brief Method .ctor, addr 0x658772c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_centerEyePosition, addr 0x658759c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_centerEyeRotation, addr 0x65875ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_centerEyeRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_leftEyePosition, addr 0x658755c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_leftEyeRotation, addr 0x658756c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_leftEyeRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rightEyePosition, addr 0x658757c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rightEyeRotation, addr 0x658758c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rightEyeRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method set_centerEyePosition, addr 0x65875a4, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_centerEyeRotation, addr 0x65875b4, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_leftEyePosition, addr 0x6587564, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_leftEyeRotation, addr 0x6587574, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rightEyePosition, addr 0x6587584, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rightEyeRotation, addr 0x6587594, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
@@ -147,32 +166,38 @@ protected:
   constexpr XRHMD();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRHMD", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRHMD", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRHMD(XRHMD&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRHMD", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRHMD", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRHMD(XRHMD const&) = delete;
+  XRHMD(XRHMDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8811 };
 
+  /// [CompilerGenerated]
   /// @brief Field <leftEyePosition>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____leftEyePosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <leftEyeRotation>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____leftEyeRotation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rightEyePosition>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____rightEyePosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rightEyeRotation>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____rightEyeRotation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <centerEyePosition>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____centerEyePosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <centerEyeRotation>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____centerEyeRotation_k__BackingField;
 

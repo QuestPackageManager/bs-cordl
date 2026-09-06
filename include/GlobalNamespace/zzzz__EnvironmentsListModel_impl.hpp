@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentsListModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentsListModel.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

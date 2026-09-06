@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\AdditionalLightsShadowAtlasLayout.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/AdditionalLightsShadowAtlasLayout.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__AdditionalLightsShadowAtlasLayout_def.hpp"
@@ -11,7 +11,7 @@
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalLightData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalShadowData_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ShadowResolutionRequest_AdditionalLightsShadowAtlasLayout_SettingsOptions::ShadowResolutionRequest_AdditionalLightsShadowAtlasLayout_SettingsOptions(
     uint16_t value__) noexcept {
   this->value__ = value__;
@@ -107,10 +107,11 @@ inline void UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout
                                                            { "set_pointLightShadow", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "visibleLightIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "perLightShadowSliceIndex", ty: "uint16_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "requestedResolution", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "offsetX", ty: "uint16_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "offsetY", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "allocatedResolution", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ShadowProperties", ty: "::UnityEngine::Rendering::Universal::ShadowResolutionRequest_AdditionalLightsShadowAtlasLayout_SettingsOptions", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "visibleLightIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "perLightShadowSliceIndex", ty: "uint16_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "requestedResolution", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "offsetX", ty:
+// "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "offsetY", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "allocatedResolution", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ShadowProperties", ty:
+// "::UnityEngine::Rendering::Universal::ShadowResolutionRequest_AdditionalLightsShadowAtlasLayout_SettingsOptions", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest(
     uint16_t visibleLightIndex, uint16_t perLightShadowSliceIndex, uint16_t requestedResolution, uint16_t offsetX, uint16_t offsetY, uint16_t allocatedResolution,
     ::UnityEngine::Rendering::Universal::ShadowResolutionRequest_AdditionalLightsShadowAtlasLayout_SettingsOptions m_ShadowProperties) noexcept {
@@ -499,8 +500,8 @@ inline void UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout::EstimateScaleFactorNeededToFitAllShadowsInAtlas(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>> shadowResolutionRequests, int32_t endIndex,
-    int32_t atlasSize) {
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>> shadowResolutionRequests,
+    int32_t endIndex, int32_t atlasSize) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout>(),
@@ -519,11 +520,11 @@ UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout::CreateComp
                                                               ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest, int32_t>*>(nullptr, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "m_SortedShadowResolutionRequests", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_VisibleLightIndexToSortedShadowResolutionRequestsFirstSliceIndex", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_TotalShadowSlicesCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TotalShadowResolutionRequestCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_TooManyShadowMaps", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ShadowSlicesScaleFactor", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_AtlasSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_VisibleLightIndexToSortedShadowResolutionRequestsFirstSliceIndex", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_TotalShadowSlicesCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TotalShadowResolutionRequestCount", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TooManyShadowMaps", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ShadowSlicesScaleFactor",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AtlasSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout::AdditionalLightsShadowAtlasLayout(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest> m_SortedShadowResolutionRequests,
     ::Unity::Collections::NativeArray_1<int32_t> m_VisibleLightIndexToSortedShadowResolutionRequestsFirstSliceIndex, int32_t m_TotalShadowSlicesCount, int32_t m_TotalShadowResolutionRequestCount,

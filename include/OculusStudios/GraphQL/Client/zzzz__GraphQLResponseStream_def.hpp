@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLResponseStream.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLResponseStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::OculusStudios::GraphQL::Client::GraphQLResponseStream*);
 MARK_REF_T(::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*);
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLResponseStream*, "OculusStudios.GraphQL.Client", "GraphQLResponseStream");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*, "OculusStudios.GraphQL.Client", "GraphQLResponseStream/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
@@ -74,13 +75,13 @@ protected:
   constexpr GraphQLResponseStream___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLResponseStream___c(GraphQLResponseStream___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLResponseStream___c(GraphQLResponseStream___c const&) = delete;
+  GraphQLResponseStream___c(GraphQLResponseStream___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20443 };
@@ -179,24 +180,30 @@ public:
   /// @brief Method .ctor, addr 0x5f2500c, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnCancelled, addr 0x5f26dac, size 0xac, virtual false, abstract: false, final false
   inline void add_OnCancelled(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnConnectionClosed, addr 0x5f2bf08, size 0xac, virtual false, abstract: false, final false
   inline void add_OnConnectionClosed(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_InitialResponse, addr 0x5f2c0ac, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::GraphQL::Client::GraphQLResponse* get_InitialResponse();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnCancelled, addr 0x5f2be5c, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnCancelled(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnConnectionClosed, addr 0x5f2bfb4, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnConnectionClosed(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_InitialResponse, addr 0x5f2c0b4, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialResponse(::OculusStudios::GraphQL::Client::GraphQLResponse* value);
 
@@ -206,13 +213,13 @@ protected:
   constexpr GraphQLResponseStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLResponseStream(GraphQLResponseStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLResponseStream(GraphQLResponseStream const&) = delete;
+  GraphQLResponseStream(GraphQLResponseStreamconst&) = delete;
 
   /// @brief Field INITIAL offset 0xffffffff size 0x8
   static constexpr ::ConstString INITIAL{ u"Initial" };
@@ -223,9 +230,11 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20444 };
 
+  /// [CompilerGenerated]
   /// @brief Field OnCancelled, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___OnCancelled;
 
+  /// [CompilerGenerated]
   /// @brief Field OnConnectionClosed, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___OnConnectionClosed;
 
@@ -235,6 +244,7 @@ public:
   /// @brief Field _responseCallback, offset: 0x28, size: 0x8, def value: None
   ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* ____responseCallback;
 
+  /// [CompilerGenerated]
   /// @brief Field <InitialResponse>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLResponse* ____InitialResponse_k__BackingField;
 

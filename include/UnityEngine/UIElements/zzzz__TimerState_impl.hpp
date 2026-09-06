@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TimerState.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TimerState.hpp"
 #include "UnityEngine/UIElements/zzzz__TimerState_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -146,8 +146,8 @@ constexpr UnityEngine::UIElements::TimerState::operator ::System::IEquatable_1<:
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>* UnityEngine::UIElements::TimerState::i___System__IEquatable_1___UnityEngine__UIElements__TimerState_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TimerState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_start_k__BackingField", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_now_k__BackingField", ty: "int64_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_start_k__BackingField", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_now_k__BackingField", ty: "int64_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TimerState::TimerState(int64_t _start_k__BackingField, int64_t _now_k__BackingField) noexcept {
   this->_start_k__BackingField = _start_k__BackingField;
   this->_now_k__BackingField = _now_k__BackingField;

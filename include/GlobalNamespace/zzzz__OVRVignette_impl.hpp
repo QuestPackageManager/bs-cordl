@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRVignette.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRVignette.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
@@ -12,7 +12,7 @@
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel::OVRVignette_MeshComplexityLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -23,7 +23,7 @@ constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OV
 constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::Normal{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::Detailed{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::VeryDetailed{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRVignette_FalloffType::OVRVignette_FalloffType(int32_t value__) noexcept {
   this->value__ = value__;
 }

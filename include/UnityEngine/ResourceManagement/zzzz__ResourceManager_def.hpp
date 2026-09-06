@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceManager.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IAsyncOperation_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -198,7 +199,7 @@ public:
   // @brief default ctor
   constexpr ResourceManager_DiagnosticEventType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ResourceManager_DiagnosticEventType(int32_t value__) noexcept;
 
   /// @brief Field AsyncOperationComplete value: I32(3)
@@ -247,8 +248,8 @@ public:
   // @brief default ctor
   constexpr ResourceManager_DeferredCallbackRegisterRequest();
 
-  // Ctor Parameters [CppParam { name: "operation", ty: "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*", modifiers: "", def_value: None }, CppParam { name: "incrementRefCount",
-  // ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "operation", ty: "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "incrementRefCount", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ResourceManager_DeferredCallbackRegisterRequest(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* operation, bool incrementRefCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -337,13 +338,13 @@ protected:
   constexpr ResourceManager_CompletedOperation_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CompletedOperation_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CompletedOperation_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManager_CompletedOperation_1(ResourceManager_CompletedOperation_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CompletedOperation_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CompletedOperation_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager_CompletedOperation_1(ResourceManager_CompletedOperation_1 const&) = delete;
+  ResourceManager_CompletedOperation_1(ResourceManager_CompletedOperation_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18709 };
@@ -462,13 +463,13 @@ protected:
   constexpr ResourceManager_InstanceOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_InstanceOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_InstanceOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManager_InstanceOperation(ResourceManager_InstanceOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_InstanceOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_InstanceOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager_InstanceOperation(ResourceManager_InstanceOperation const&) = delete;
+  ResourceManager_InstanceOperation(ResourceManager_InstanceOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18710 };
@@ -504,6 +505,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_Instan
 static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation) == 0xf8, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement {
 // cpp template
@@ -558,13 +560,13 @@ protected:
   constexpr ResourceManager___c__DisplayClass90_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager___c__DisplayClass90_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager___c__DisplayClass90_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManager___c__DisplayClass90_0_1(ResourceManager___c__DisplayClass90_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager___c__DisplayClass90_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager___c__DisplayClass90_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager___c__DisplayClass90_0_1(ResourceManager___c__DisplayClass90_0_1 const&) = delete;
+  ResourceManager___c__DisplayClass90_0_1(ResourceManager___c__DisplayClass90_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18711 };
@@ -582,7 +584,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ResourceManagement
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.ResourceManager
@@ -809,6 +811,7 @@ public:
 
   /// @brief Method CreateOperation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>)
   inline T CreateOperation(::System::Type* actualType, int32_t typeHash, ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* cacheKey,
                            ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* onDestroyAction);
 
@@ -1065,6 +1068,7 @@ public:
 
   constexpr void __cordl_internal_set_m_providerMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__53_0, addr 0x691025c, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__53_0(::UnityEngine::ResourceManagement::IUpdateReceiver* x);
 
@@ -1080,6 +1084,7 @@ public:
   /// @brief Method get_Allocator, addr 0x690b7b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* get_Allocator();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CertificateHandlerInstance, addr 0x690b7c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::CertificateHandler* get_CertificateHandlerInstance();
 
@@ -1089,12 +1094,14 @@ public:
   /// @brief Method get_DeferredCompleteCallbacksCount, addr 0x690b54c, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_DeferredCompleteCallbacksCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ExceptionHandler, addr 0x690b2f4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* get_ExceptionHandler();
 
   /// @brief Method get_InstanceOperationCount, addr 0x690b4fc, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_InstanceOperationCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_InternalIdTransformFunc, addr 0x690b3b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* get_InternalIdTransformFunc();
 
@@ -1104,6 +1111,7 @@ public:
   /// @brief Method get_ResourceProviders, addr 0x690b7c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* get_ResourceProviders();
 
+  /// [CompilerGenerated]
   /// @brief Method get_WebRequestOverride, addr 0x690b494, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* get_WebRequestOverride();
 
@@ -1119,15 +1127,19 @@ public:
   /// @brief Method set_Allocator, addr 0x690b7b8, size 0x8, virtual false, abstract: false, final false
   inline void set_Allocator(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CertificateHandlerInstance, addr 0x690b7d0, size 0x8, virtual false, abstract: false, final false
   inline void set_CertificateHandlerInstance(::UnityEngine::Networking::CertificateHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ExceptionHandler, addr 0x690b350, size 0x60, virtual false, abstract: false, final false
   static inline void set_ExceptionHandler(::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_InternalIdTransformFunc, addr 0x690b3b8, size 0x8, virtual false, abstract: false, final false
   inline void set_InternalIdTransformFunc(::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_WebRequestOverride, addr 0x690b49c, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequestOverride(::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* value);
 
@@ -1137,20 +1149,22 @@ protected:
   constexpr ResourceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManager(ResourceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager(ResourceManager const&) = delete;
+  ResourceManager(ResourceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18712 };
 
+  /// [CompilerGenerated]
   /// @brief Field <InternalIdTransformFunc>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* ____InternalIdTransformFunc_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <WebRequestOverride>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* ____WebRequestOverride_k__BackingField;
 
@@ -1206,6 +1220,7 @@ public:
   /// @brief Field m_ReleaseInstanceOp, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* ___m_ReleaseInstanceOp;
 
+  /// [CompilerGenerated]
   /// @brief Field <CertificateHandlerInstance>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::Networking::CertificateHandler* ____CertificateHandlerInstance_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncSceneContext.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncSceneContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,7 +134,7 @@ public:
   // @brief default ctor
   constexpr AsyncSceneContext_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncSceneContext_State(int32_t value__) noexcept;
 
   /// @brief Field Initialized value: I32(2)
@@ -163,6 +163,7 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::AsyncSceneContext_State
 static_assert(sizeof(::BGLib::AppFlow::Initialization::AsyncSceneContext_State) == 0x4, "Size mismatch!");
 
 } // namespace BGLib::AppFlow::Initialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
@@ -181,8 +182,9 @@ public:
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext___c* New_ctor();
 
   /// @brief Method <LoadInstallersAsync>b__15_2, addr 0x3308e6c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task*
-  _LoadInstallersAsync_b__15_2(::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*> loadingRequest);
+  inline ::System::Threading::Tasks::Task* _LoadInstallersAsync_b__15_2(
+      /* [TupleElementNames(new[] { "asyncLoader", "loadingTask" })] */ ::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*>
+          loadingRequest);
 
   /// @brief Method .ctor, addr 0x3308e68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -203,13 +205,13 @@ protected:
   constexpr AsyncSceneContext___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncSceneContext___c(AsyncSceneContext___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncSceneContext___c(AsyncSceneContext___c const&) = delete;
+  AsyncSceneContext___c(AsyncSceneContext___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21554 };
@@ -220,6 +222,7 @@ public:
 static_assert(sizeof(::BGLib::AppFlow::Initialization::AsyncSceneContext___c) == 0x10, "Size mismatch!");
 
 } // namespace BGLib::AppFlow::Initialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
@@ -276,13 +279,13 @@ protected:
   constexpr AsyncSceneContext___c__DisplayClass15_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncSceneContext___c__DisplayClass15_0(AsyncSceneContext___c__DisplayClass15_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncSceneContext___c__DisplayClass15_0(AsyncSceneContext___c__DisplayClass15_0 const&) = delete;
+  AsyncSceneContext___c__DisplayClass15_0(AsyncSceneContext___c__DisplayClass15_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21555 };
@@ -293,6 +296,7 @@ public:
   /// @brief Field container, offset: 0x18, size: 0x8, def value: None
   ::Zenject::DiContainer* ___container;
 
+  /// [TupleElementNames(new[] { "asyncLoader", "loadingTask" })]
   /// @brief Field <>9__0, offset: 0x20, size: 0x8, def value: None
   ::System::Func_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*>>*
       _____9__0;
@@ -309,6 +313,7 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::AsyncSceneContext___c__
 static_assert(sizeof(::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0) == 0x28, "Size mismatch!");
 
 } // namespace BGLib::AppFlow::Initialization
+// [CompilerGenerated]
 // Dependencies BGLib.AppFlow.Initialization.AsyncLoader::SynchronizationStep, System.Object
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
@@ -322,7 +327,9 @@ public:
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_1* New_ctor();
 
   /// @brief Method <LoadInstallersAsync>b__1, addr 0x3308ee4, size 0x38, virtual false, abstract: false, final false
-  inline bool _LoadInstallersAsync_b__1(::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*> loadingRequest);
+  inline bool _LoadInstallersAsync_b__1(
+      /* [TupleElementNames(new[] { "asyncLoader", "loadingTask" })] */ ::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*>
+          loadingRequest);
 
   constexpr ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep const& __cordl_internal_get_syncStep() const;
 
@@ -339,13 +346,13 @@ protected:
   constexpr AsyncSceneContext___c__DisplayClass15_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncSceneContext___c__DisplayClass15_1(AsyncSceneContext___c__DisplayClass15_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncSceneContext___c__DisplayClass15_1(AsyncSceneContext___c__DisplayClass15_1 const&) = delete;
+  AsyncSceneContext___c__DisplayClass15_1(AsyncSceneContext___c__DisplayClass15_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21556 };
@@ -361,6 +368,7 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::AsyncSceneContext___c__
 static_assert(sizeof(::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_1) == 0x18, "Size mismatch!");
 
 } // namespace BGLib::AppFlow::Initialization
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
@@ -374,6 +382,7 @@ public:
   /// @brief Method MoveNext, addr 0x3308f1c, size 0xa80, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x330999c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -384,15 +393,16 @@ public:
   // @brief default ctor
   constexpr AsyncSceneContext__LoadInstallersAsync_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0*", modifiers: "", def_value: None }, CppParam { name: "_loadersStopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*",
-  // modifiers: "", def_value: None }, CppParam { name: "_queue_5__3", ty: "::System::Collections::Generic::IReadOnlyList_1<::BGLib::AppFlow::Initialization::ConcurrentAsyncLoaders*>*", modifiers: "",
-  // def_value: None }, CppParam { name: "_loadingRequests_5__4", ty:
-  // "::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>,::System::Threading::Tasks::Task*>>*", modifiers: "", def_value: None },
-  // CppParam { name: "_count_5__5", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_loadersEndStepIndex_5__6", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_i_5__7", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__4__this", ty: "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
+  // "::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_loadersStopwatch_5__2", ty:
+  // "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_queue_5__3", ty:
+  // "::System::Collections::Generic::IReadOnlyList_1<::BGLib::AppFlow::Initialization::ConcurrentAsyncLoaders*>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_loadingRequests_5__4", ty: "::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>,::System::Threading::Tasks::Task*>>*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_count_5__5", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_loadersEndStepIndex_5__6", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_i_5__7", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncSceneContext__LoadInstallersAsync_d__15(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> __t__builder,
       ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> __4__this, ::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0* __8__1,
@@ -424,6 +434,7 @@ public:
   /// @brief Field <queue>5__3, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::BGLib::AppFlow::Initialization::ConcurrentAsyncLoaders*>* _queue_5__3;
 
+  /// [TupleElementNames(new[] { "asyncLoader", "loadingTask" })]
   /// @brief Field <loadingRequests>5__4, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*>>* _loadingRequests_5__4;
 
@@ -467,6 +478,7 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::AsyncSceneContext__Load
 static_assert(sizeof(::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__15) == 0x60, "Size mismatch!");
 
 } // namespace BGLib::AppFlow::Initialization
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
@@ -480,6 +492,7 @@ public:
   /// @brief Method MoveNext, addr 0x3309a1c, size 0x3d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3309df4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -490,10 +503,10 @@ public:
   // @brief default ctor
   constexpr AsyncSceneContext__RunAsync_d__14();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncSceneContext__RunAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                               ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> __4__this,
                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> __u__1) noexcept;
@@ -530,6 +543,7 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::AsyncSceneContext__RunA
 static_assert(sizeof(::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__14) == 0x30, "Size mismatch!");
 
 } // namespace BGLib::AppFlow::Initialization
+// [RequireComponent(typeof(BGLib.AppFlow.Initialization.AsyncSceneContextLoadersQueue))]
 // Dependencies BGLib.AppFlow.Initialization.AsyncSceneContext::State, Zenject.SceneContext
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
@@ -576,6 +590,7 @@ public:
   /// @brief Method InstallInstallers, addr 0x3308c40, size 0x1c4, virtual true, abstract: false, final false
   inline void InstallInstallers();
 
+  /// [AsyncStateMachine(typeof(BGLib.AppFlow.Initialization.AsyncSceneContext::<LoadInstallersAsync>d__15))]
   /// @brief Method LoadInstallersAsync, addr 0x3308b60, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>* LoadInstallersAsync();
 
@@ -584,6 +599,7 @@ public:
   /// @brief Method Run, addr 0x3308ae0, size 0x80, virtual true, abstract: false, final false
   inline void Run();
 
+  /// [AsyncStateMachine(typeof(BGLib.AppFlow.Initialization.AsyncSceneContext::<RunAsync>d__14))]
   /// @brief Method RunAsync, addr 0x3300b60, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RunAsync();
 
@@ -617,21 +633,27 @@ public:
 
   constexpr void __cordl_internal_set__telemetryLoadersDurationMS_k__BackingField(int32_t value);
 
+  /// [CompilerGenerated]
+  /// [DebuggerHidden]
   /// @brief Method <>n__0, addr 0x3308e0c, size 0x8, virtual false, abstract: false, final false
   inline void __n__0();
 
   /// @brief Method .ctor, addr 0x3308e04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_telemetryInstallersDurationMS, addr 0x3308ad0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_telemetryInstallersDurationMS();
 
+  /// [CompilerGenerated]
   /// @brief Method get_telemetryLoadersDurationMS, addr 0x3308ac0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_telemetryLoadersDurationMS();
 
+  /// [CompilerGenerated]
   /// @brief Method set_telemetryInstallersDurationMS, addr 0x3308ad8, size 0x8, virtual false, abstract: false, final false
   inline void set_telemetryInstallersDurationMS(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_telemetryLoadersDurationMS, addr 0x3308ac8, size 0x8, virtual false, abstract: false, final false
   inline void set_telemetryLoadersDurationMS(int32_t value);
 
@@ -641,13 +663,13 @@ protected:
   constexpr AsyncSceneContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncSceneContext(AsyncSceneContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncSceneContext(AsyncSceneContext const&) = delete;
+  AsyncSceneContext(AsyncSceneContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21559 };
@@ -661,9 +683,11 @@ public:
   /// @brief Field _containerForLoading, offset: 0xc8, size: 0x8, def value: None
   ::Zenject::DiContainer* ____containerForLoading;
 
+  /// [CompilerGenerated]
   /// @brief Field <telemetryLoadersDurationMS>k__BackingField, offset: 0xd0, size: 0x4, def value: None
   int32_t ____telemetryLoadersDurationMS_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <telemetryInstallersDurationMS>k__BackingField, offset: 0xd4, size: 0x4, def value: None
   int32_t ____telemetryInstallersDurationMS_k__BackingField;
 

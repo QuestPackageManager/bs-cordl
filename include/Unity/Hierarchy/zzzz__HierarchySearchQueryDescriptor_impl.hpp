@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchySearchQueryDescriptor.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchySearchQueryDescriptor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchySearchFilter_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchySearchQueryDescriptor_def.hpp"

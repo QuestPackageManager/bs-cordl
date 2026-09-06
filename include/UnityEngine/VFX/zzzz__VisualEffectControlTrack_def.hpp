@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlTrack.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
   // @brief default ctor
   constexpr VisualEffectControlTrack_ReinitMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualEffectControlTrack_ReinitMode(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -115,6 +115,7 @@ static_assert(offsetof(::UnityEngine::VFX::VisualEffectControlTrack_ReinitMode, 
 static_assert(sizeof(::UnityEngine::VFX::VisualEffectControlTrack_ReinitMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::VFX
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -150,13 +151,13 @@ protected:
   constexpr VisualEffectControlTrack___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffectControlTrack___c(VisualEffectControlTrack___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrack___c(VisualEffectControlTrack___c const&) = delete;
+  VisualEffectControlTrack___c(VisualEffectControlTrack___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19960 };
@@ -167,6 +168,9 @@ public:
 static_assert(sizeof(::UnityEngine::VFX::VisualEffectControlTrack___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::VFX
+// [TrackColor(0.5990566, 0.9038978, 1)]
+// [TrackClipType(typeof(UnityEngine.VFX.VisualEffectControlClip))]
+// [TrackBindingType(typeof(UnityEngine.VFX.VisualEffect))]
 // Dependencies UnityEngine.Timeline.TrackAsset, UnityEngine.VFX.VisualEffectControlTrack::ReinitMode
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -219,13 +223,13 @@ protected:
   constexpr VisualEffectControlTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffectControlTrack(VisualEffectControlTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrack(VisualEffectControlTrack const&) = delete;
+  VisualEffectControlTrack(VisualEffectControlTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19961 };
@@ -233,9 +237,13 @@ public:
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x4
   static constexpr int32_t kCurrentVersion{ static_cast<int32_t>(0x1) };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_VFXVersion, offset: 0xa0, size: 0x4, def value: None
   int32_t ___m_VFXVersion;
 
+  /// [SerializeField]
+  /// [NotKeyable]
   /// @brief Field reinit, offset: 0xa4, size: 0x4, def value: None
   ::UnityEngine::VFX::VisualEffectControlTrack_ReinitMode ___reinit;
 

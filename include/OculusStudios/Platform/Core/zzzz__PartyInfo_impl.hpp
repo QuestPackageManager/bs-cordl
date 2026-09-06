@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\PartyInfo.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/PartyInfo.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PartyInfo_def.hpp"
 //  Writing Method size for method: ::OculusStudios::Platform::Core::PartyInfo.get_currentUsers
 template <>
@@ -86,9 +86,9 @@ inline void OculusStudios::Platform::Core::PartyInfo::_ctor(uint32_t currentUser
                                                            { ".ctor", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, currentUsers, maxUsers, groupId, joinKey);
 }
-// Ctor Parameters [CppParam { name: "_currentUsers_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_maxUsers_k__BackingField", ty: "uint32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_groupId_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_joinKey_k__BackingField", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_currentUsers_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_maxUsers_k__BackingField", ty:
+// "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_groupId_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_joinKey_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::Platform::Core::PartyInfo::PartyInfo(uint32_t _currentUsers_k__BackingField, uint32_t _maxUsers_k__BackingField, ::StringW _groupId_k__BackingField,
                                                                 ::StringW _joinKey_k__BackingField) noexcept {
   this->_currentUsers_k__BackingField = _currentUsers_k__BackingField;

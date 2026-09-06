@@ -1,13 +1,16 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\JobParallelIndexListExtensions.hpp"
+// IWYU pragma private; include "Unity/Jobs/JobParallelIndexListExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Jobs/zzzz__IJobFilter_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JobParallelIndexListExtensions)
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -19,20 +22,28 @@ class JobParallelIndexListExtensions;
 // Write type traits
 MARK_REF_T(::Unity::Jobs::JobParallelIndexListExtensions*);
 DEFINE_IL2CPP_CLASS(::Unity::Jobs::JobParallelIndexListExtensions*, "Unity.Jobs", "JobParallelIndexListExtensions");
-// Dependencies System.Object
+// [Extension]
+// [Obsolete("\'JobParallelIndexListExtensions\' has been deprecated; Use \'IJobFilterExtensions\' instead.", false)]
+// Dependencies System.Object, Unity.Jobs.IJobFilter
 namespace Unity::Jobs {
 // Is value type: false
 // CS Name: Unity.Jobs.JobParallelIndexListExtensions
 class CORDL_TYPE JobParallelIndexListExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
+  /// [Obsolete("The signature for \'ScheduleAppend\' has changed. \'innerloopBatchCount\' is no longer part of this API.", false)]
   /// @brief Method ScheduleAppend, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Jobs::JobHandle ScheduleAppend(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t arrayLength, int32_t innerloopBatchCount,
                                                         ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
+  /// [Obsolete("The signature for \'ScheduleFilter\' has changed. \'innerloopBatchCount\' is no longer part of this API.")]
   /// @brief Method ScheduleFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Jobs::JobHandle ScheduleFilter(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependsOn);
 
 protected:
@@ -41,13 +52,13 @@ protected:
   constexpr JobParallelIndexListExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobParallelIndexListExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobParallelIndexListExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JobParallelIndexListExtensions(JobParallelIndexListExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobParallelIndexListExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobParallelIndexListExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobParallelIndexListExtensions(JobParallelIndexListExtensions const&) = delete;
+  JobParallelIndexListExtensions(JobParallelIndexListExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15504 };

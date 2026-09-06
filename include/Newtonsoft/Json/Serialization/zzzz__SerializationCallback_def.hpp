@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\SerializationCallback.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/SerializationCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,11 +35,13 @@ class CORDL_TYPE SerializationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x5d41b8c, size 0x98, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(/* [Nullable(1)] */ ::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x5d41c24, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// [NullableContext(1)]
   /// @brief Method Invoke, addr 0x5d41b78, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context);
 
@@ -54,13 +56,13 @@ protected:
   constexpr SerializationCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializationCallback(SerializationCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializationCallback(SerializationCallback const&) = delete;
+  SerializationCallback(SerializationCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13499 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventCallbackFunctorBase.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventCallbackFunctorBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"

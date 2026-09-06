@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\CollectionWrapper_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/CollectionWrapper_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,8 @@ template <typename T> class CollectionWrapper_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Utilities::CollectionWrapper_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::CollectionWrapper_1, "Newtonsoft.Json.Utilities", "CollectionWrapper`1");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -63,6 +65,7 @@ public:
 
   __declspec(property(get = System_Collections_IList_get_IsFixedSize)) bool System_Collections_IList_IsFixedSize;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = System_Collections_IList_get_Item, put = System_Collections_IList_set_Item)) ::System::Object* System_Collections_IList_Item[];
 
   __declspec(property(get = get_UnderlyingCollection)) ::System::Object* UnderlyingCollection;
@@ -109,6 +112,7 @@ public:
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
+  /// [NullableContext(2)]
   /// @brief Method IsCompatibleObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool IsCompatibleObject(::System::Object* value);
 
@@ -131,18 +135,23 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [NullableContext(2)]
   /// @brief Method System.Collections.IList.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_Add(::System::Object* value);
 
+  /// [NullableContext(2)]
   /// @brief Method System.Collections.IList.Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IList_Contains(::System::Object* value);
 
+  /// [NullableContext(2)]
   /// @brief Method System.Collections.IList.IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_IndexOf(::System::Object* value);
 
+  /// [NullableContext(2)]
   /// @brief Method System.Collections.IList.Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IList_Insert(int32_t index, ::System::Object* value);
 
+  /// [NullableContext(2)]
   /// @brief Method System.Collections.IList.Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IList_Remove(::System::Object* value);
 
@@ -152,12 +161,15 @@ public:
   /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsFixedSize();
 
+  /// [NullableContext(2)]
   /// @brief Method System.Collections.IList.get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IList_get_Item(int32_t index);
 
+  /// [NullableContext(2)]
   /// @brief Method System.Collections.IList.set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IList_set_Item(int32_t index, ::System::Object* value);
 
+  /// [NullableContext(2)]
   /// @brief Method VerifyValueType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void VerifyValueType(::System::Object* value);
 
@@ -218,23 +230,26 @@ protected:
   constexpr CollectionWrapper_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionWrapper_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionWrapper_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionWrapper_1(CollectionWrapper_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionWrapper_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionWrapper_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionWrapper_1(CollectionWrapper_1 const&) = delete;
+  CollectionWrapper_1(CollectionWrapper_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13379 };
 
+  /// [Nullable(2)]
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ____list;
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _genericCollection, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::ICollection_1<T>* ____genericCollection;
 
+  /// [Nullable(2)]
   /// @brief Field _syncRoot, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 

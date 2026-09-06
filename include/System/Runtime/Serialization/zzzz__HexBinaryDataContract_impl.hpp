@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\HexBinaryDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/HexBinaryDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__StringDataContract_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__HexBinaryDataContract_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::HexBinaryDataContract._ctor

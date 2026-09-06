@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_Keyboard_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Keyboard_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,11 @@ public:
   // @brief default ctor
   constexpr VREvent_Keyboard_t();
 
-  // Ctor Parameters [CppParam { name: "cNewInput0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "cNewInput1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "cNewInput2", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "cNewInput3", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "cNewInput4", ty: "uint8_t",
-  // modifiers: "", def_value: None }, CppParam { name: "cNewInput5", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "cNewInput6", ty: "uint8_t", modifiers: "", def_value: None },
-  // CppParam { name: "cNewInput7", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "uUserValue", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cNewInput0", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cNewInput1", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "cNewInput2", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cNewInput3", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "cNewInput4", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cNewInput5", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "cNewInput6", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cNewInput7", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "uUserValue", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr VREvent_Keyboard_t(uint8_t cNewInput0, uint8_t cNewInput1, uint8_t cNewInput2, uint8_t cNewInput3, uint8_t cNewInput4, uint8_t cNewInput5, uint8_t cNewInput6, uint8_t cNewInput7,
                                uint64_t uUserValue) noexcept;
 

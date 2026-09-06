@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeBakingSet.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeBakingSet.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__ReadCommandArray_impl.hpp"
@@ -26,7 +26,7 @@
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeStreamableAsset_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SerializedDictionary_2_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version::ProbeVolumeBakingSet_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -212,15 +212,16 @@ inline void UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::Add(::Unity
                                                                                          { "Add", {}, { ::i2c::type_of<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, o);
 }
-// Ctor Parameters [CppParam { name: "bricksCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "chunksCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "bricksCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "chunksCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::ProbeVolumeBakingSet_CellCounts(int32_t bricksCount, int32_t chunksCount) noexcept {
   this->bricksCount = bricksCount;
   this->chunksCount = chunksCount;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::ProbeVolumeBakingSet_CellCounts() {}
-// Ctor Parameters [CppParam { name: "sceneGUID", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "cellList", ty: "::System::Collections::Generic::List_1<int32_t>*",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sceneGUID", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cellList", ty:
+// "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList::ProbeVolumeBakingSet_SerializedPerSceneCellList(
     ::StringW sceneGUID, ::System::Collections::Generic::List_1<int32_t>* cellList) noexcept {
   this->sceneGUID = sceneGUID;
@@ -228,8 +229,8 @@ constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellL
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList::ProbeVolumeBakingSet_SerializedPerSceneCellList() {}
-// Ctor Parameters [CppParam { name: "mask", ty: "::UnityEngine::RenderingLayerMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "mask", ty: "::UnityEngine::RenderingLayerMask", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask::ProbeVolumeBakingSet_ProbeLayerMask(::UnityEngine::RenderingLayerMask mask, ::StringW name) noexcept {
   this->mask = mask;
   this->name = name;
@@ -1878,6 +1879,7 @@ inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::AlignUp16(int32_t c
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, count);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::ProbeVolumeBakingSet::GetSubArray(::Unity::Collections::NativeArray_1<uint8_t> input, int32_t count, ::by_ref<int32_t> offset) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1893,6 +1895,7 @@ inline ::Unity::Collections::NativeArray_1<uint8_t> UnityEngine::Rendering::Prob
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<uint8_t>>(this, ___internal_method, size);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::ProbeVolumeBakingSet::LoadStreambleAssetData(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* asset,
                                                                                                                    ::System::Collections::Generic::List_1<int32_t>* cellIndices) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1903,7 +1906,9 @@ inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::ProbeVolum
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(this, ___internal_method, asset, cellIndices);
 }
-template <typename T> inline void UnityEngine::Rendering::ProbeVolumeBakingSet::ReleaseStreamableAssetData(::Unity::Collections::NativeArray_1<T> buffer) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::ReleaseStreamableAssetData(::Unity::Collections::NativeArray_1<T> buffer) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingSet*>(),
                                                            { "ReleaseStreamableAssetData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));

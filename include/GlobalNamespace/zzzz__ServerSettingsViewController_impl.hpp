@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ServerSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ServerSettingsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerSettingsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"

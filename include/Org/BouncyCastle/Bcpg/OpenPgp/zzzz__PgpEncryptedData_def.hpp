@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpEncryptedData.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpEncryptedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,13 +95,13 @@ protected:
   constexpr PgpEncryptedData_TruncatedStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedData_TruncatedStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedData_TruncatedStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpEncryptedData_TruncatedStream(PgpEncryptedData_TruncatedStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedData_TruncatedStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedData_TruncatedStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedData_TruncatedStream(PgpEncryptedData_TruncatedStream const&) = delete;
+  PgpEncryptedData_TruncatedStream(PgpEncryptedData_TruncatedStreamconst&) = delete;
 
   /// @brief Field LookAheadBufLimit offset 0xffffffff size 0x4
   static constexpr int32_t LookAheadBufLimit{ static_cast<int32_t>(0x1ea) };
@@ -197,13 +197,13 @@ protected:
   constexpr PgpEncryptedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpEncryptedData(PgpEncryptedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedData(PgpEncryptedData const&) = delete;
+  PgpEncryptedData(PgpEncryptedDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1638 };

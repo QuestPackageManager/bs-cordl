@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputUpdateType.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputUpdateType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct InputUpdateType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputUpdateType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::InputUpdateType, "UnityEngine.InputSystem.LowLevel", "InputUpdateType");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr InputUpdateType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputUpdateType(int32_t value__) noexcept;
 
   /// @brief Field BeforeRender value: I32(4)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\WheelFrictionCurve.hpp"
+// IWYU pragma private; include "UnityEngine/WheelFrictionCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,9 +64,9 @@ public:
   // @brief default ctor
   constexpr WheelFrictionCurve();
 
-  // Ctor Parameters [CppParam { name: "m_ExtremumSlip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ExtremumValue", ty: "float_t", modifiers: "", def_value: None }, CppParam
-  // { name: "m_AsymptoteSlip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AsymptoteValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Stiffness",
-  // ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ExtremumSlip", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ExtremumValue", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_AsymptoteSlip", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AsymptoteValue", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Stiffness", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr WheelFrictionCurve(float_t m_ExtremumSlip, float_t m_ExtremumValue, float_t m_AsymptoteSlip, float_t m_AsymptoteValue, float_t m_Stiffness) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

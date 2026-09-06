@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\RawImage.hpp"
+// IWYU pragma private; include "UnityEngine/UI/RawImage.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/UI/zzzz__RawImage_def.hpp"

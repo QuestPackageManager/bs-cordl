@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\BitHelper.hpp"
+// IWYU pragma private; include "System/Collections/Generic/BitHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__BitHelper_def.hpp"
 //  Writing Method size for method: ::System::Collections::Generic::BitHelper._ctor

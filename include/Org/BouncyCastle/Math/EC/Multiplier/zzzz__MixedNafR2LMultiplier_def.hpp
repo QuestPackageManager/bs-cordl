@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\MixedNafR2LMultiplier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/MixedNafR2LMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class MixedNafR2LMultiplier;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "MixedNafR2LMultiplier");
+// [Obsolete("Will be removed")]
 // Dependencies Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
@@ -69,13 +70,13 @@ protected:
   constexpr MixedNafR2LMultiplier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MixedNafR2LMultiplier(MixedNafR2LMultiplier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MixedNafR2LMultiplier(MixedNafR2LMultiplier const&) = delete;
+  MixedNafR2LMultiplier(MixedNafR2LMultiplierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1534 };

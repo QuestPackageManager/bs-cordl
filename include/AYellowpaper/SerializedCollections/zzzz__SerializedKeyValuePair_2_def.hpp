@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AYellowpaper\SerializedCollections\SerializedKeyValuePair_2.hpp"
+// IWYU pragma private; include "AYellowpaper/SerializedCollections/SerializedKeyValuePair_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   // @brief default ctor
   constexpr SerializedKeyValuePair_2();
 
-  // Ctor Parameters [CppParam { name: "Key", ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "TValue", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Key", ty: "TKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "Value", ty: "TValue", modifiers: "", def_value: None, comment: None }]
   constexpr SerializedKeyValuePair_2(TKey Key, TValue Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AvatarMask.hpp"
+// IWYU pragma private; include "UnityEngine/AvatarMask.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AvatarMask_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -155,7 +155,7 @@ inline void UnityEngine::AvatarMask::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AvatarMask*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::AvatarMask::Internal_Create(::UnityEngine::AvatarMask* self) {
+inline void UnityEngine::AvatarMask::Internal_Create(/* [Writable] */ ::UnityEngine::AvatarMask* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AvatarMask*>(), { "Internal_Create", {}, { ::i2c::type_of<::UnityEngine::AvatarMask*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\LigatureSubstitutionRecord.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/LigatureSubstitutionRecord.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__LigatureSubstitutionRecord_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -175,8 +175,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::LigatureSubs
 UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__LigatureSubstitutionRecord_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_ComponentGlyphIDs", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LigatureGlyphID", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ComponentGlyphIDs", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LigatureGlyphID", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::LigatureSubstitutionRecord(::ArrayW<uint32_t> m_ComponentGlyphIDs, uint32_t m_LigatureGlyphID) noexcept {
   this->m_ComponentGlyphIDs = m_ComponentGlyphIDs;
   this->m_LigatureGlyphID = m_LigatureGlyphID;

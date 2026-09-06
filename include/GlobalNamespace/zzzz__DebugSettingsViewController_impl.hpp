@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DebugSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/DebugSettingsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__DebugSettingsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"

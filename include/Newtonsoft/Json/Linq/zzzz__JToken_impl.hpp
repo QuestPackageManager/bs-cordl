@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JToken.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JToken.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenType_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
@@ -304,6 +304,7 @@ inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__After
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__AfterSelf_d__49*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Newtonsoft::Json::Linq::JToken__AfterSelf_d__49* Newtonsoft::Json::Linq::JToken__AfterSelf_d__49::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JToken__AfterSelf_d__49*>(__1__state));
 }
@@ -351,164 +352,239 @@ constexpr ::System::IDisposable* Newtonsoft::Json::Linq::JToken__AfterSelf_d__49
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JToken__AfterSelf_d__49::JToken__AfterSelf_d__49() {}
-template <typename T> constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___1__state() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T> constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___1__state() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___1__state(int32_t value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-template <typename T> constexpr T& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___2__current() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr T& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T> constexpr T const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___2__current() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr T const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___2__current(T value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___2__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-template <typename T> constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___l__initialThreadId() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T> constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___l__initialThreadId() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___l__initialThreadId(int32_t value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-template <typename T> constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___4__this() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr ::Newtonsoft::Json::Linq::JToken* const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___4__this() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::Newtonsoft::Json::Linq::JToken* const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JToken* value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JToken* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T> constexpr ::ArrayW<::System::Object*>& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__annotations_5__2() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::ArrayW<::System::Object*>& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__annotations_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotations_5__2;
 }
-template <typename T> constexpr ::ArrayW<::System::Object*> const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__annotations_5__2() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::ArrayW<::System::Object*> const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__annotations_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotations_5__2;
 }
-template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set__annotations_5__2(::ArrayW<::System::Object*> value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set__annotations_5__2(::ArrayW<::System::Object*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____annotations_5__2 = value;
 }
-template <typename T> constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__i_5__3() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__i_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
-template <typename T> constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__i_5__3() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__i_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
-template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set__i_5__3(int32_t value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set__i_5__3(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__3 = value;
 }
-template <typename T> inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::_ctor(int32_t __1__state) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-template <typename T> inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_IDisposable_Dispose() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline bool Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::MoveNext() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline bool Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T> inline T Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_Generic_IEnumerator_T__get_Current() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_Generic_IEnumerator_T__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.Generic.IEnumerator<T>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerator_Reset() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline ::System::Object* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerator_get_Current() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline ::System::Object* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-template <typename T> inline ::System::Collections::Generic::IEnumerator_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline ::System::Collections::Generic::IEnumerator_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.Generic.IEnumerable<T>.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<T>*>(this, ___internal_method);
 }
-template <typename T> inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerable_GetEnumerator() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-template <typename T> inline ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::New_ctor(int32_t __1__state) {
+/// @brief [DebuggerHidden]
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 constexpr ::System::Collections::Generic::IEnumerable_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__IEnumerable() noexcept {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::System::Collections::IEnumerable* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
-template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 constexpr ::System::Collections::Generic::IEnumerator_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__Generic__IEnumerator_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::IEnumerator*() noexcept {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-template <typename T> constexpr ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__IEnumerator() noexcept {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::IDisposable*() noexcept {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__IDisposable() noexcept {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::System::IDisposable* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::JToken__Annotations_d__185_1() {}
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+constexpr ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::JToken__Annotations_d__185_1() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JToken__Annotations_d__186._ctor
 template <>
 
@@ -757,6 +833,7 @@ inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Annot
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__186*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Newtonsoft::Json::Linq::JToken__Annotations_d__186* Newtonsoft::Json::Linq::JToken__Annotations_d__186::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JToken__Annotations_d__186*>(__1__state));
 }
@@ -1013,6 +1090,7 @@ inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Befor
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__BeforeSelf_d__50*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Newtonsoft::Json::Linq::JToken__BeforeSelf_d__50* Newtonsoft::Json::Linq::JToken__BeforeSelf_d__50::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JToken__BeforeSelf_d__50*>(__1__state));
 }
@@ -1293,6 +1371,7 @@ inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__GetAn
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__GetAncestors_d__48*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Newtonsoft::Json::Linq::JToken__GetAncestors_d__48* Newtonsoft::Json::Linq::JToken__GetAncestors_d__48::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JToken__GetAncestors_d__48*>(__1__state));
 }
@@ -1370,7 +1449,7 @@ inline void Newtonsoft::Json::Linq::JToken__ReadFromAsync_d__3::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__ReadFromAsync_d__3>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::JToken__ReadFromAsync_d__3::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void Newtonsoft::Json::Linq::JToken__ReadFromAsync_d__3::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__ReadFromAsync_d__3>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
@@ -1383,15 +1462,16 @@ constexpr Newtonsoft::Json::Linq::JToken__ReadFromAsync_d__3::operator ::System:
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::Linq::JToken__ReadFromAsync_d__3::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JToken*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "reader", ty:
-// "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "settings", ty: "::Newtonsoft::Json::Linq::JsonLoadSettings*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Newtonsoft::Json::Linq::JObject*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Newtonsoft::Json::Linq::JArray*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__4", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Newtonsoft::Json::Linq::JConstructor*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__5",
-// ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Newtonsoft::Json::Linq::JProperty*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JToken*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reader", ty:
+// "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "settings", ty: "::Newtonsoft::Json::Linq::JsonLoadSettings*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1",
+// ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Newtonsoft::Json::Linq::JObject*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__u__3", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Newtonsoft::Json::Linq::JArray*>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "__u__4", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Newtonsoft::Json::Linq::JConstructor*>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__5", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Newtonsoft::Json::Linq::JProperty*>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Linq::JToken__ReadFromAsync_d__3::JToken__ReadFromAsync_d__3(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JToken*> __t__builder, ::Newtonsoft::Json::JsonReader* reader,
     ::Newtonsoft::Json::Linq::JsonLoadSettings* settings, ::System::Threading::CancellationToken cancellationToken,
@@ -3596,11 +3676,12 @@ inline ::ArrayW<::Newtonsoft::Json::Linq::JTokenType> Newtonsoft::Json::Linq::JT
   return ::cordl_internals::getStaticField<::ArrayW<::Newtonsoft::Json::Linq::JTokenType>, "BytesTypes", ::Newtonsoft::Json::Linq::JToken*>();
 }
 inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Linq::JToken::WriteToAsync(::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
-                                                                                      ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+                                                                                      /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, writer, cancellationToken, converters);
 }
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Linq::JToken::WriteToAsync(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Linq::JToken::WriteToAsync(::Newtonsoft::Json::JsonWriter* writer,
+                                                                                      /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(),
                                               { "WriteToAsync", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonWriter*>(), ::i2c::type_of<::ArrayW<::Newtonsoft::Json::JsonConverter*>>() } })));
@@ -3613,8 +3694,9 @@ inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JToken*>* Ne
                                                            { "ReadFromAsync", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JToken*>*>(nullptr, ___internal_method, reader, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JToken*>*
-Newtonsoft::Json::Linq::JToken::ReadFromAsync(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings, ::System::Threading::CancellationToken cancellationToken) {
+inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JToken*>* Newtonsoft::Json::Linq::JToken::ReadFromAsync(::Newtonsoft::Json::JsonReader* reader,
+                                                                                                                            /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings,
+                                                                                                                            ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "ReadFromAsync",
@@ -3630,8 +3712,9 @@ inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JToken*>* Ne
                                                            { "LoadAsync", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JToken*>*>(nullptr, ___internal_method, reader, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JToken*>*
-Newtonsoft::Json::Linq::JToken::LoadAsync(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings, ::System::Threading::CancellationToken cancellationToken) {
+inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JToken*>* Newtonsoft::Json::Linq::JToken::LoadAsync(::Newtonsoft::Json::JsonReader* reader,
+                                                                                                                        /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings,
+                                                                                                                        ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "LoadAsync",
@@ -3657,7 +3740,7 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::get_Roo
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "get_Root", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::CloneToken(::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::CloneToken(/* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(this, ___internal_method, settings);
 }
@@ -3739,11 +3822,11 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::get_Ite
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(this, ___internal_method, key);
 }
-inline void Newtonsoft::Json::Linq::JToken::set_Item(::System::Object* key, ::Newtonsoft::Json::Linq::JToken* value) {
+inline void Newtonsoft::Json::Linq::JToken::set_Item(::System::Object* key, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JToken* value) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key, value);
 }
-template <typename T> inline T Newtonsoft::Json::Linq::JToken::Value(::System::Object* key) {
+template <typename T> inline T Newtonsoft::Json::Linq::JToken::Value(/* [Nullable(1)] */ ::System::Object* key) {
   auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), 19 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, key);
@@ -3779,7 +3862,7 @@ inline void Newtonsoft::Json::Linq::JToken::Replace(::Newtonsoft::Json::Linq::JT
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "Replace", {}, { ::i2c::type_of<::Newtonsoft::Json::Linq::JToken*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::Linq::JToken::WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+inline void Newtonsoft::Json::Linq::JToken::WriteTo(::Newtonsoft::Json::JsonWriter* writer, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), 24 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, converters);
 }
@@ -3787,7 +3870,7 @@ inline ::StringW Newtonsoft::Json::Linq::JToken::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW Newtonsoft::Json::Linq::JToken::ToString(::Newtonsoft::Json::Formatting formatting, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+inline ::StringW Newtonsoft::Json::Linq::JToken::ToString(::Newtonsoft::Json::Formatting formatting, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(),
                                                            { "ToString", {}, { ::i2c::type_of<::Newtonsoft::Json::Formatting>(), ::i2c::type_of<::ArrayW<::Newtonsoft::Json::JsonConverter*>>() } })));
@@ -4126,7 +4209,7 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::op_Impl
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "op_Implicit", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(nullptr, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::op_Implicit___Newtonsoft__Json__Linq__JToken_(::StringW value) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::op_Implicit___Newtonsoft__Json__Linq__JToken_(/* [Nullable(2)] */ ::StringW value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "op_Implicit", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(nullptr, ___internal_method, value);
@@ -4144,7 +4227,7 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::op_Impl
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "op_Implicit", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(nullptr, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::op_Implicit___Newtonsoft__Json__Linq__JToken_(::System::Uri* value) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::op_Implicit___Newtonsoft__Json__Linq__JToken_(/* [Nullable(2)] */ ::System::Uri* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Uri*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(nullptr, ___internal_method, value);
@@ -4222,14 +4305,14 @@ inline ::System::Object* Newtonsoft::Json::Linq::JToken::ToObject(::System::Type
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "ToObject", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, objectType);
 }
-template <typename T> inline T Newtonsoft::Json::Linq::JToken::ToObject(::Newtonsoft::Json::JsonSerializer* jsonSerializer) {
+template <typename T> inline T Newtonsoft::Json::Linq::JToken::ToObject(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonSerializer* jsonSerializer) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "ToObject", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Newtonsoft::Json::JsonSerializer*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, jsonSerializer);
 }
-inline ::System::Object* Newtonsoft::Json::Linq::JToken::ToObject(::System::Type* objectType, ::Newtonsoft::Json::JsonSerializer* jsonSerializer) {
+inline ::System::Object* Newtonsoft::Json::Linq::JToken::ToObject(::System::Type* objectType, /* [Nullable(1)] */ ::Newtonsoft::Json::JsonSerializer* jsonSerializer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "ToObject", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::Newtonsoft::Json::JsonSerializer*>() } })));
@@ -4240,7 +4323,7 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::ReadFro
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "ReadFrom", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(nullptr, ___internal_method, reader);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::ReadFrom(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::ReadFrom(::Newtonsoft::Json::JsonReader* reader, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(),
                                                            { "ReadFrom", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>() } })));
@@ -4250,13 +4333,13 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::Parse(:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(nullptr, ___internal_method, json);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::Parse(::StringW json, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::Parse(::StringW json, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "Parse", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(nullptr, ___internal_method, json, settings);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::Load(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::Load(::Newtonsoft::Json::JsonReader* reader, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(),
                                                            { "Load", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>() } })));
@@ -4303,7 +4386,7 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::SelectT
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "SelectToken", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(this, ___internal_method, path, errorWhenNoMatch);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::SelectToken(::StringW path, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JToken::SelectToken(/* [Nullable(1)] */ ::StringW path, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(),
                                                            { "SelectToken", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonSelectSettings*>() } })));
@@ -4319,8 +4402,8 @@ inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::J
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "SelectTokens", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(this, ___internal_method, path, errorWhenNoMatch);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Newtonsoft::Json::Linq::JToken::SelectTokens(::StringW path,
-                                                                                                                                      ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
+Newtonsoft::Json::Linq::JToken::SelectTokens(::StringW path, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(),
                                                            { "SelectTokens", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonSelectSettings*>() } })));
@@ -4354,7 +4437,9 @@ inline void Newtonsoft::Json::Linq::JToken::AddAnnotation(::System::Object* anno
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "AddAnnotation", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, annotation);
 }
-template <typename T> inline T Newtonsoft::Json::Linq::JToken::Annotation() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T Newtonsoft::Json::Linq::JToken::Annotation() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "Annotation", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
@@ -4364,7 +4449,9 @@ inline ::System::Object* Newtonsoft::Json::Linq::JToken::Annotation(::System::Ty
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "Annotation", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, type);
 }
-template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* Newtonsoft::Json::Linq::JToken::Annotations() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline ::System::Collections::Generic::IEnumerable_1<T>* Newtonsoft::Json::Linq::JToken::Annotations() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "Annotations", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*>(this, ___internal_method);
@@ -4374,7 +4461,9 @@ inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* Newtons
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "Annotations", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>(this, ___internal_method, type);
 }
-template <typename T> inline void Newtonsoft::Json::Linq::JToken::RemoveAnnotations() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void Newtonsoft::Json::Linq::JToken::RemoveAnnotations() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken*>(), { "RemoveAnnotations", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

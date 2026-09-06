@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRRuntime.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRRuntime.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRRuntime_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"

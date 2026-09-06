@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ExtensionDataSetter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ExtensionDataSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,15 @@ class CORDL_TYPE ExtensionDataSetter : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x5d41e48, size 0x2c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::StringW key, ::System::Object* value, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(/* [Nullable(1)] */ ::System::Object* o, /* [Nullable(1)] */ ::StringW key, /* [Nullable(2)] */ ::System::Object* value, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x5d41e74, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// [NullableContext(1)]
   /// @brief Method Invoke, addr 0x5d41e34, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::Object* o, ::StringW key, ::System::Object* value);
+  inline void Invoke(::System::Object* o, ::StringW key, /* [Nullable(2)] */ ::System::Object* value);
 
   static inline ::Newtonsoft::Json::Serialization::ExtensionDataSetter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -52,13 +54,13 @@ protected:
   constexpr ExtensionDataSetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataSetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataSetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtensionDataSetter(ExtensionDataSetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataSetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataSetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtensionDataSetter(ExtensionDataSetter const&) = delete;
+  ExtensionDataSetter(ExtensionDataSetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13501 };

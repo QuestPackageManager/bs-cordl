@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RandomNoteRotation.hpp"
+// IWYU pragma private; include "GlobalNamespace/RandomNoteRotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class RandomNoteRotation;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::RandomNoteRotation*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RandomNoteRotation*, "", "RandomNoteRotation");
+// [AddComponentMenu("Beat Saber/Gameplay/RandomNoteRotation")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -72,20 +73,22 @@ protected:
   constexpr RandomNoteRotation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RandomNoteRotation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomNoteRotation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RandomNoteRotation(RandomNoteRotation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RandomNoteRotation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomNoteRotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RandomNoteRotation(RandomNoteRotation const&) = delete;
+  RandomNoteRotation(RandomNoteRotationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5695 };
 
+  /// [SerializeField]
   /// @brief Field _noteController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteControllerBase> ____noteController;
 
+  /// [SerializeField]
   /// @brief Field _transform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 

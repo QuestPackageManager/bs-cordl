@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Compatibility.hpp"
+// IWYU pragma private; include "TMPro/TMP_Compatibility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_Compatibility_def.hpp"
 #include "TMPro/zzzz__TMP_Compatibility_def.hpp"
 #include "TMPro/zzzz__TextAlignmentOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_Compatibility_AnchorPositions::TMP_Compatibility_AnchorPositions(int32_t value__) noexcept {
   this->value__ = value__;
 }

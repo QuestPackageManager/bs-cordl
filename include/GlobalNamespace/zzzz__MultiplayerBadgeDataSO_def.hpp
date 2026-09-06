@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,9 +54,9 @@ public:
 
   __declspec(property(get = get_titleLocalizationKey)) ::StringW titleLocalizationKey;
 
-  /// @brief Method CalculateBadgeData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CalculateBadgeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataSO* New_ctor();
@@ -97,23 +97,28 @@ protected:
   constexpr MultiplayerBadgeDataSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgeDataSO(MultiplayerBadgeDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBadgeDataSO(MultiplayerBadgeDataSO const&) = delete;
+  MultiplayerBadgeDataSO(MultiplayerBadgeDataSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15080 };
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _titleLocalizationKey, offset: 0x18, size: 0x8, def value: None
   ::StringW ____titleLocalizationKey;
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _subtitleLocalizationKey, offset: 0x20, size: 0x8, def value: None
   ::StringW ____subtitleLocalizationKey;
 
+  /// [SerializeField]
   /// @brief Field _icon, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____icon;
 

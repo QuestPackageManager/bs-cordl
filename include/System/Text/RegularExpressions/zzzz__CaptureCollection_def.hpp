@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\CaptureCollection.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/CaptureCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -142,13 +142,13 @@ protected:
   constexpr CaptureCollection_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection_Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection_Enumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CaptureCollection_Enumerator(CaptureCollection_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection_Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CaptureCollection_Enumerator(CaptureCollection_Enumerator const&) = delete;
+  CaptureCollection_Enumerator(CaptureCollection_Enumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11094 };
@@ -169,6 +169,9 @@ static_assert(offsetof(::System::Text::RegularExpressions::CaptureCollection_Enu
 static_assert(sizeof(::System::Text::RegularExpressions::CaptureCollection_Enumerator) == 0x20, "Size mismatch!");
 
 } // namespace System::Text::RegularExpressions
+// [DebuggerTypeProxy(typeof(System.Text.RegularExpressions.CollectionDebuggerProxy`1<T>))]
+// [DebuggerDisplay("Count = {Count}")]
+// [DefaultMember("Item")]
 // Dependencies System.Object, System.Text.RegularExpressions.Capture
 namespace System::Text::RegularExpressions {
 // Is value type: false
@@ -376,13 +379,13 @@ protected:
   constexpr CaptureCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CaptureCollection(CaptureCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CaptureCollection(CaptureCollection const&) = delete;
+  CaptureCollection(CaptureCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11095 };

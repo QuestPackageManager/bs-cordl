@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LocalKeywordSpace.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LocalKeywordSpace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ struct LocalKeywordSpace;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::LocalKeywordSpace);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LocalKeywordSpace, "UnityEngine.Rendering", "LocalKeywordSpace");
+// [IsReadOnly]
+// [NativeHeader("Runtime/Shaders/Keywords/KeywordSpaceScriptBindings.h")]
 // Dependencies System.IntPtr
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -45,6 +47,7 @@ public:
   /// @brief Method GetHashCode, addr 0x6b2dba4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [FreeFunction("keywords::GetKeywords", HasExplicitThis = true)]
   /// @brief Method GetKeywords, addr 0x6b2dbac, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> GetKeywords();
 
@@ -61,7 +64,7 @@ public:
   // @brief default ctor
   constexpr LocalKeywordSpace();
 
-  // Ctor Parameters [CppParam { name: "m_KeywordSpace", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_KeywordSpace", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr LocalKeywordSpace(::System::IntPtr m_KeywordSpace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

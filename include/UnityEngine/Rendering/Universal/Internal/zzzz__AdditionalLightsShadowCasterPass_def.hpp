@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\AdditionalLightsShadowCasterPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/AdditionalLightsShadowCasterPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -195,13 +197,13 @@ protected:
   constexpr AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer(AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer(AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer const&) = delete;
+  AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer(AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13060 };
@@ -340,13 +342,13 @@ protected:
   constexpr AdditionalLightsShadowCasterPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AdditionalLightsShadowCasterPass_PassData(AdditionalLightsShadowCasterPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdditionalLightsShadowCasterPass_PassData(AdditionalLightsShadowCasterPass_PassData const&) = delete;
+  AdditionalLightsShadowCasterPass_PassData(AdditionalLightsShadowCasterPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13061 };
@@ -417,6 +419,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::Additional
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData) == 0x98, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -456,13 +459,13 @@ protected:
   constexpr AdditionalLightsShadowCasterPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AdditionalLightsShadowCasterPass___c(AdditionalLightsShadowCasterPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdditionalLightsShadowCasterPass___c(AdditionalLightsShadowCasterPass___c const&) = delete;
+  AdditionalLightsShadowCasterPass___c(AdditionalLightsShadowCasterPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13062 };
@@ -612,12 +615,14 @@ public:
   /// @brief Method ComputeShadowRequestHash, addr 0x68f0554, size 0x2f8, virtual false, abstract: false, final false
   inline uint64_t ComputeShadowRequestHash(::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Configure, addr 0x68f2758, size 0x140, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
   /// @brief Method Dispose, addr 0x68f01a4, size 0x34, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68f2898, size 0x314, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -863,13 +868,13 @@ protected:
   constexpr AdditionalLightsShadowCasterPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AdditionalLightsShadowCasterPass(AdditionalLightsShadowCasterPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdditionalLightsShadowCasterPass(AdditionalLightsShadowCasterPass const&) = delete;
+  AdditionalLightsShadowCasterPass(AdditionalLightsShadowCasterPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13063 };

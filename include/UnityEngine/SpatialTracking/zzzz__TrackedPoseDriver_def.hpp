@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpatialTracking\TrackedPoseDriver.hpp"
+// IWYU pragma private; include "UnityEngine/SpatialTracking/TrackedPoseDriver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
   // @brief default ctor
   constexpr TrackedPoseDriver_DeviceType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedPoseDriver_DeviceType(int32_t value__) noexcept;
 
   /// @brief Field GenericXRController value: I32(1)
@@ -159,7 +159,7 @@ public:
   // @brief default ctor
   constexpr TrackedPoseDriver_TrackedPose();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedPoseDriver_TrackedPose(int32_t value__) noexcept;
 
   /// @brief Field Center value: I32(2)
@@ -242,7 +242,7 @@ public:
   // @brief default ctor
   constexpr TrackedPoseDriver_TrackingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedPoseDriver_TrackingType(int32_t value__) noexcept;
 
   /// @brief Field PositionOnly value: I32(2)
@@ -301,7 +301,7 @@ public:
   // @brief default ctor
   constexpr TrackedPoseDriver_UpdateType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedPoseDriver_UpdateType(int32_t value__) noexcept;
 
   /// @brief Field BeforeRender value: I32(2)
@@ -330,6 +330,9 @@ static_assert(offsetof(::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateT
 static_assert(sizeof(::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::SpatialTracking
+// [DefaultExecutionOrder(-30000)]
+// [AddComponentMenu("XR/Tracked Pose Driver")]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Pose, UnityEngine.SpatialTracking.TrackedPoseDriver::DeviceType, UnityEngine.SpatialTracking.TrackedPoseDriver::TrackedPose,
 // UnityEngine.SpatialTracking.TrackedPoseDriver::TrackingType, UnityEngine.SpatialTracking.TrackedPoseDriver::UpdateType
 namespace UnityEngine::SpatialTracking {
@@ -400,6 +403,7 @@ public:
 
   static inline ::UnityEngine::SpatialTracking::TrackedPoseDriver* New_ctor();
 
+  /// [BeforeRenderOrder(-30000)]
   /// @brief Method OnBeforeRender, addr 0x6bb7abc, size 0x20, virtual true, abstract: false, final false
   inline void OnBeforeRender();
 
@@ -523,32 +527,38 @@ protected:
   constexpr TrackedPoseDriver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackedPoseDriver(TrackedPoseDriver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackedPoseDriver(TrackedPoseDriver const&) = delete;
+  TrackedPoseDriver(TrackedPoseDriverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23363 };
 
+  /// [SerializeField]
   /// @brief Field m_Device, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType ___m_Device;
 
+  /// [SerializeField]
   /// @brief Field m_PoseSource, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose ___m_PoseSource;
 
+  /// [SerializeField]
   /// @brief Field m_PoseProviderComponent, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider> ___m_PoseProviderComponent;
 
+  /// [SerializeField]
   /// @brief Field m_TrackingType, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType ___m_TrackingType;
 
+  /// [SerializeField]
   /// @brief Field m_UpdateType, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateType ___m_UpdateType;
 
+  /// [SerializeField]
   /// @brief Field m_UseRelativeTransform, offset: 0x38, size: 0x1, def value: None
   bool ___m_UseRelativeTransform;
 

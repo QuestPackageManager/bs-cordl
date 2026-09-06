@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\FourCC.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/FourCC.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -266,7 +266,7 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>*
 UnityEngine::InputSystem::Utilities::FourCC::i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__FourCC_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Code", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Code", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::FourCC::FourCC(int32_t m_Code) noexcept {
   this->m_Code = m_Code;
 }

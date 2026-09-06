@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\LargeArrayBuilder_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/LargeArrayBuilder_1.hpp"
 #include "System/Collections/Generic/zzzz__ArrayBuilder_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__LargeArrayBuilder_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -47,9 +47,10 @@ template <typename T> inline void System::Collections::Generic::LargeArrayBuilde
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::LargeArrayBuilder_1<T>>(), { "AllocateBuffer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_maxCapacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_first", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_buffers", ty: "::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_current", ty: "::ArrayW<T>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_maxCapacity", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_first", ty: "::ArrayW<T>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_buffers", ty: "::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_current", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
 constexpr ::System::Collections::Generic::LargeArrayBuilder_1<T>::LargeArrayBuilder_1(int32_t _maxCapacity, ::ArrayW<T> _first, ::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> _buffers,
                                                                                       ::ArrayW<T> _current, int32_t _index, int32_t _count) noexcept {

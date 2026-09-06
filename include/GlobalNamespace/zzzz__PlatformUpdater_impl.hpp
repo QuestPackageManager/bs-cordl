@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformUpdater.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformUpdater_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\DynamicUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DynamicUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_REF_T(::Newtonsoft::Json::Utilities::DynamicUtils*);
 MARK_REF_T(::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::DynamicUtils*, "Newtonsoft.Json.Utilities", "DynamicUtils");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*, "Newtonsoft.Json.Utilities", "DynamicUtils/BinderWrapper");
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -67,7 +68,7 @@ public:
   static inline void CreateMemberCalls();
 
   /// @brief Method CreateSharpArgumentInfoArray, addr 0x5d25388, size 0x2e0, virtual false, abstract: false, final false
-  static inline ::System::Object* CreateSharpArgumentInfoArray(::ArrayW<int32_t> values);
+  static inline ::System::Object* CreateSharpArgumentInfoArray(/* [ParamArray] */ ::ArrayW<int32_t> values);
 
   /// @brief Method GetMember, addr 0x5d25b5c, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW name, ::System::Type* context);
@@ -104,13 +105,13 @@ protected:
   constexpr DynamicUtils_BinderWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils_BinderWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils_BinderWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicUtils_BinderWrapper(DynamicUtils_BinderWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils_BinderWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils_BinderWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicUtils_BinderWrapper(DynamicUtils_BinderWrapper const&) = delete;
+  DynamicUtils_BinderWrapper(DynamicUtils_BinderWrapperconst&) = delete;
 
   /// @brief Field BinderTypeName offset 0xffffffff size 0x8
   static constexpr ::ConstString BinderTypeName{ u"Microsoft.CSharp.RuntimeBinder.Binder, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" };
@@ -140,6 +141,9 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -149,6 +153,7 @@ public:
   // Declarations
   using BinderWrapper = ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper;
 
+  /// [Extension]
   /// @brief Method GetDynamicMemberNames, addr 0x5d250c8, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider);
 
@@ -158,13 +163,13 @@ protected:
   constexpr DynamicUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicUtils(DynamicUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicUtils(DynamicUtils const&) = delete;
+  DynamicUtils(DynamicUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13411 };

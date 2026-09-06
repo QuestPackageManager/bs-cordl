@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PackPromoInfoSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PackPromoInfoSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   // @brief default ctor
   constexpr LevelPromoInfo_PackPromoInfoSO_PromoMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LevelPromoInfo_PackPromoInfoSO_PromoMode(int32_t value__) noexcept;
 
   /// @brief Field Excluded value: I32(1)
@@ -161,23 +161,27 @@ protected:
   constexpr PackPromoInfoSO_LevelPromoInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO_LevelPromoInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO_LevelPromoInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackPromoInfoSO_LevelPromoInfo(PackPromoInfoSO_LevelPromoInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO_LevelPromoInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO_LevelPromoInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackPromoInfoSO_LevelPromoInfo(PackPromoInfoSO_LevelPromoInfo const&) = delete;
+  PackPromoInfoSO_LevelPromoInfo(PackPromoInfoSO_LevelPromoInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15024 };
 
+  /// [SerializeField]
+  /// [BeatmapLevelOrPackId((BeatmapLevelOrPackIdFilter)2)]
   /// @brief Field _levelID, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelID;
 
+  /// [SerializeField]
   /// @brief Field _promoBannerInfo, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PromoBannerInfoSO> ____promoBannerInfo;
 
+  /// [SerializeField]
   /// @brief Field _promoMode, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::LevelPromoInfo_PackPromoInfoSO_PromoMode ____promoMode;
 
@@ -252,20 +256,23 @@ protected:
   constexpr PackPromoInfoSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackPromoInfoSO(PackPromoInfoSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackPromoInfoSO(PackPromoInfoSO const&) = delete;
+  PackPromoInfoSO(PackPromoInfoSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15025 };
 
+  /// [SerializeField]
+  /// [NullAllowedIf("hasLevelPromos", true, (NullAllowedContext)0)]
   /// @brief Field _promoBannerInfo, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PromoBannerInfoSO> ____promoBannerInfo;
 
+  /// [SerializeField]
   /// @brief Field _levelsPromoInfo, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*> ____levelsPromoInfo;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class UIRenderer;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIRenderer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIRenderer*, "UnityEngine.UIElements", "UIRenderer");
+// [NativeType(Header = "Modules/UIElements/Core/Native/Renderer/UIRenderer.h")]
 // Dependencies System.Collections.Generic.List`1<T>, UnityEngine.Renderer
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -40,6 +41,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIRenderer* New_ctor();
 
+  /// [RequiredByNativeCode]
   /// @brief Method OnRenderNodeExecute, addr 0x6db736c, size 0xd4, virtual false, abstract: false, final false
   static inline void OnRenderNodeExecute(::UnityEngine::UIElements::UIRenderer* renderer, int32_t safeFrameIndex, int32_t cmdListIndex);
 
@@ -70,13 +72,13 @@ protected:
   constexpr UIRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRenderer(UIRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRenderer(UIRenderer const&) = delete;
+  UIRenderer(UIRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4630 };

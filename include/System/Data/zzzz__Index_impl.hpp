@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Index.hpp"
+// IWYU pragma private; include "System/Data/Index.hpp"
 #include "System/ComponentModel/zzzz__ListChangedType_impl.hpp"
 #include "System/Data/zzzz__DataViewRowState_impl.hpp"
 #include "System/Data/zzzz__IndexField_impl.hpp"
@@ -1530,7 +1530,9 @@ inline void System::Data::Index::GetUniqueKeyValues(::System::Collections::Gener
                                               { "GetUniqueKeyValues", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::ArrayW<::System::Object*>>*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, list, curNodeId);
 }
-template <typename T> inline int32_t System::Data::Index::IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline int32_t System::Data::Index::IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Index*>(),
                                                            { "IndexOfReference", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>(), ::i2c::type_of<T>() } })));

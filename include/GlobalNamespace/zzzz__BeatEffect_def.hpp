@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,13 +68,13 @@ protected:
   constexpr BeatEffect_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatEffect_Pool(BeatEffect_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatEffect_Pool(BeatEffect_Pool const&) = delete;
+  BeatEffect_Pool(BeatEffect_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5755 };
@@ -85,6 +85,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::BeatEffect_Pool) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/BeatEffect")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -216,35 +217,43 @@ protected:
   constexpr BeatEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatEffect(BeatEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatEffect(BeatEffect const&) = delete;
+  BeatEffect(BeatEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5756 };
 
+  /// [SerializeField]
   /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
+  /// [SerializeField]
   /// @brief Field _spriteTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____spriteTransform;
 
+  /// [SerializeField]
   /// @brief Field _tubeBloomPrePassLight, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _lightIntensityCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____lightIntensityCurve;
 
+  /// [SerializeField]
   /// @brief Field _spriteXScaleCurve, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____spriteXScaleCurve;
 
+  /// [SerializeField]
   /// @brief Field _spriteYScaleCurve, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____spriteYScaleCurve;
 
+  /// [SerializeField]
   /// @brief Field _transparencyCurve, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____transparencyCurve;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextEditingUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/TextEditingUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class TextEditingUtilities;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextEditingUtilities*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextEditingUtilities*, "UnityEngine", "TextEditingUtilities");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -120,6 +121,7 @@ public:
   /// @brief Method GeneratePreviewString, addr 0x6b522c0, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW GeneratePreviewString(bool richText);
 
+  /// [VisibleToOtherModules]
   /// @brief Method HandleKeyEvent, addr 0x6b524b0, size 0x130, virtual false, abstract: false, final false
   inline bool HandleKeyEvent(::UnityEngine::Event* e);
 
@@ -134,6 +136,7 @@ public:
 
   static inline ::UnityEngine::TextEditingUtilities* New_ctor(::UnityEngine::TextSelectingUtilities* selectingUtilities, ::UnityEngine::TextCore::Text::TextHandle* textHandle, ::StringW text);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method OnBlur, addr 0x6b55110, size 0x24, virtual false, abstract: false, final false
   inline void OnBlur();
 
@@ -161,6 +164,7 @@ public:
   /// @brief Method ShouldUpdateImeWindowPosition, addr 0x6b52208, size 0x8, virtual false, abstract: false, final false
   inline bool ShouldUpdateImeWindowPosition();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x6b5517c, size 0xa0, virtual false, abstract: false, final false
   inline bool TouchScreenKeyboardShouldBeUsed();
 
@@ -273,13 +277,13 @@ protected:
   constexpr TextEditingUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditingUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextEditingUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextEditingUtilities(TextEditingUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditingUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextEditingUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextEditingUtilities(TextEditingUtilities const&) = delete;
+  TextEditingUtilities(TextEditingUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19907 };
@@ -293,6 +297,7 @@ public:
   /// @brief Field m_CursorIndexSavedState, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_CursorIndexSavedState;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field isCompositionActive, offset: 0x24, size: 0x1, def value: None
   bool ___isCompositionActive;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\LightData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/LightData.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__LightData_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalLightData_def.hpp"
@@ -223,7 +223,7 @@ inline ::by_ref<bool> UnityEngine::Rendering::Universal::LightData::get_supports
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightData>(), { "get_supportsAdditionalLights", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<bool>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::LightData::LightData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept {
   this->frameData = frameData;
 }

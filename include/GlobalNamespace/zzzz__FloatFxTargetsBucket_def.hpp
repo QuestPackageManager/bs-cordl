@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxTargetsBucket.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxTargetsBucket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,17 +49,18 @@ protected:
   constexpr FloatFxTargetsBucket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxTargetsBucket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxTargetsBucket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxTargetsBucket(FloatFxTargetsBucket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxTargetsBucket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxTargetsBucket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxTargetsBucket(FloatFxTargetsBucket const&) = delete;
+  FloatFxTargetsBucket(FloatFxTargetsBucketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5826 };
 
+  /// [SerializeField]
   /// @brief Field _targets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>> ____targets;
 

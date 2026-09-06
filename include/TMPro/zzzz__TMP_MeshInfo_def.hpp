@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_MeshInfo.hpp"
+// IWYU pragma private; include "TMPro/TMP_MeshInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,12 +118,13 @@ public:
   // @brief default ctor
   constexpr TMP_MeshInfo();
 
-  // Ctor Parameters [CppParam { name: "mesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "normals", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "",
-  // def_value: None }, CppParam { name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None }, CppParam { name: "uvs0", ty: "::ArrayW<::UnityEngine::Vector4>",
-  // modifiers: "", def_value: None }, CppParam { name: "uvs2", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "colors32", ty:
-  // "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "material", ty:
-  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "mesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "normals", ty:
+  // "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "uvs0", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "uvs2", ty: "::ArrayW<::UnityEngine::Vector2>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "colors32", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TMP_MeshInfo(::UnityW<::UnityEngine::Mesh> mesh, int32_t vertexCount, ::ArrayW<::UnityEngine::Vector3> vertices, ::ArrayW<::UnityEngine::Vector3> normals,
                          ::ArrayW<::UnityEngine::Vector4> tangents, ::ArrayW<::UnityEngine::Vector4> uvs0, ::ArrayW<::UnityEngine::Vector2> uvs2, ::ArrayW<::UnityEngine::Color32> colors32,
                          ::ArrayW<int32_t> triangles, ::UnityW<::UnityEngine::Material> material) noexcept;

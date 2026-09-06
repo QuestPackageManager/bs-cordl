@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\CheckCatalogsOperation.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/CheckCatalogsOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::UnityEngine::AddressableAssets::CheckCatalogsOperation*);
 MARK_REF_T(::UnityEngine::AddressableAssets::CheckCatalogsOperation___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::CheckCatalogsOperation*, "UnityEngine.AddressableAssets", "CheckCatalogsOperation");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::CheckCatalogsOperation___c*, "UnityEngine.AddressableAssets", "CheckCatalogsOperation/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -82,13 +83,13 @@ protected:
   constexpr CheckCatalogsOperation___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CheckCatalogsOperation___c(CheckCatalogsOperation___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CheckCatalogsOperation___c(CheckCatalogsOperation___c const&) = delete;
+  CheckCatalogsOperation___c(CheckCatalogsOperation___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19826 };
@@ -186,13 +187,13 @@ protected:
   constexpr CheckCatalogsOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CheckCatalogsOperation(CheckCatalogsOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CheckCatalogsOperation(CheckCatalogsOperation const&) = delete;
+  CheckCatalogsOperation(CheckCatalogsOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19827 };

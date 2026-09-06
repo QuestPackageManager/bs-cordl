@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Internal\ZenPools.hpp"
+// IWYU pragma private; include "Zenject/Internal/ZenPools.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,9 @@ namespace Zenject {
 class InjectableInfo;
 }
 namespace Zenject {
-template <typename TValue> class StaticMemoryPool_1;
+template <typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class StaticMemoryPool_1;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -99,6 +101,7 @@ public:
   /// @brief Method DespawnStatement, addr 0x6ea1e74, size 0x98, virtual false, abstract: false, final false
   static inline void DespawnStatement(::Zenject::BindStatement* statement);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6ea1ac0, size 0x334, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -152,13 +155,13 @@ protected:
   constexpr ZenPools();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenPools", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenPools", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenPools(ZenPools&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenPools", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenPools", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenPools(ZenPools const&) = delete;
+  ZenPools(ZenPoolsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14738 };

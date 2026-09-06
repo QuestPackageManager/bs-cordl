@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BakedReflectionProbe.hpp"
+// IWYU pragma private; include "GlobalNamespace/BakedReflectionProbe.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class BakedReflectionProbe;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BakedReflectionProbe*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BakedReflectionProbe*, "", "BakedReflectionProbe");
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -159,29 +160,36 @@ protected:
   constexpr BakedReflectionProbe();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BakedReflectionProbe", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BakedReflectionProbe", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BakedReflectionProbe(BakedReflectionProbe&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BakedReflectionProbe", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BakedReflectionProbe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BakedReflectionProbe(BakedReflectionProbe const&) = delete;
+  BakedReflectionProbe(BakedReflectionProbeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6528 };
 
+  /// [SerializeField]
   /// @brief Field _resolutionBeforeDownsample, offset: 0x20, size: 0x4, def value: None
   int32_t ____resolutionBeforeDownsample;
 
+  /// [SerializeField]
   /// @brief Field _downsampleByHalfCount, offset: 0x24, size: 0x4, def value: None
   int32_t ____downsampleByHalfCount;
 
+  /// [SerializeField]
   /// @brief Field _size, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____size;
 
+  /// [SerializeField]
   /// @brief Field _offset, offset: 0x34, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____offset;
 
+  /// [Space]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)1)]
   /// @brief Field _reflectionProbeData, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ReflectionProbeDataSO> ____reflectionProbeData;
 

@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EssentialHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace/EssentialHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "GlobalNamespace/zzzz__EssentialHelpers_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -38,7 +39,9 @@ inline void GlobalNamespace::EssentialHelpers::SafeDestroy(::UnityEngine::Object
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EssentialHelpers*>(), { "SafeDestroy", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj);
 }
-template <typename T> inline T GlobalNamespace::EssentialHelpers::GetOrAddComponent(::UnityEngine::GameObject* go) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T GlobalNamespace::EssentialHelpers::GetOrAddComponent(::UnityEngine::GameObject* go) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EssentialHelpers*>(), { "GetOrAddComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));

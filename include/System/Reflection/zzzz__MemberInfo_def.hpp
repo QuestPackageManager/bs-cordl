@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\MemberInfo.hpp"
+// IWYU pragma private; include "System/Reflection/MemberInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,16 +55,16 @@ public:
   /// @brief Method Equals, addr 0x5b7dd98, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetCustomAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*> GetCustomAttributes(bool inherit);
 
   /// @brief Method GetHashCode, addr 0x5b7ddb8, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefined, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
   static inline ::System::Reflection::MemberInfo* New_ctor();
@@ -72,10 +72,10 @@ public:
   /// @brief Method .ctor, addr 0x5b7dc48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DeclaringType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_MemberType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
   /// @brief Method get_MetadataToken, addr 0x5b7f094, size 0x38, virtual true, abstract: false, final false
@@ -84,10 +84,10 @@ public:
   /// @brief Method get_Module, addr 0x5b7f004, size 0x90, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
-  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReflectedType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ReflectedType();
 
   /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
@@ -105,13 +105,13 @@ protected:
   constexpr MemberInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemberInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemberInfo(MemberInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemberInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemberInfo(MemberInfo const&) = delete;
+  MemberInfo(MemberInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3498 };

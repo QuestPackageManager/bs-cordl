@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Video\VideoClipPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Video/VideoClipPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,12 @@ struct VideoClipPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Video::VideoClipPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Video::VideoClipPlayable, "UnityEngine.Experimental.Video", "VideoClipPlayable");
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [StaticAccessor("VideoClipPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Modules/Video/Public/Director/VideoClipPlayable.h")]
+// [NativeHeader("Modules/Video/Public/VideoClip.h")]
+// [NativeHeader("Modules/Video/Public/ScriptBindings/VideoClipPlayable.bindings.h")]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Experimental::Video {
 // Is value type: true
@@ -51,7 +57,7 @@ public:
   // @brief default ctor
   constexpr VideoClipPlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr VideoClipPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

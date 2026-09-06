@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\BaseInputModule.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/BaseInputModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ class BaseInputModule;
 // Write type traits
 MARK_REF_T(::UnityEngine::EventSystems::BaseInputModule*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::BaseInputModule*, "UnityEngine.EventSystems", "BaseInputModule");
+// [RequireComponent(typeof(UnityEngine.EventSystems.EventSystem))]
 // Dependencies UnityEngine.EventSystems.UIBehaviour
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -128,7 +129,7 @@ public:
   /// @brief Method OnEnable, addr 0x6e1d8b4, size 0x5c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Process, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Process();
 
   /// @brief Method ShouldActivateModule, addr 0x6e1e8d8, size 0x40, virtual true, abstract: false, final false
@@ -206,13 +207,13 @@ protected:
   constexpr BaseInputModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseInputModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseInputModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseInputModule(BaseInputModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseInputModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseInputModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseInputModule(BaseInputModule const&) = delete;
+  BaseInputModule(BaseInputModuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17568 };
@@ -220,6 +221,7 @@ public:
   /// @brief Field m_RaycastResultCache, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* ___m_RaycastResultCache;
 
+  /// [SerializeField]
   /// @brief Field m_SendPointerHoverToParent, offset: 0x28, size: 0x1, def value: None
   bool ___m_SendPointerHoverToParent;
 

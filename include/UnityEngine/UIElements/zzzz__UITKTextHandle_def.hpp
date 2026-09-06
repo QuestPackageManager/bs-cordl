@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UITKTextHandle.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UITKTextHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,13 +121,13 @@ public:
   inline void AddTextInfoToPermanentCache();
 
   /// @brief Method ComputeNativeTextSize, addr 0x6ca0f2c, size 0x1ec, virtual false, abstract: false, final false
-  inline void ComputeNativeTextSize(::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height);
+  inline void ComputeNativeTextSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height);
 
   /// @brief Method ComputeSettingsAndUpdate, addr 0x6ca2d7c, size 0x38, virtual false, abstract: false, final false
   inline void ComputeSettingsAndUpdate();
 
   /// @brief Method ComputeTextSize, addr 0x6ca2b98, size 0xf0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 ComputeTextSize(::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height);
+  inline ::UnityEngine::Vector2 ComputeTextSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height);
 
   /// @brief Method ConvertUssToNativeTextGenerationSettings, addr 0x6ca1118, size 0xb60, virtual false, abstract: false, final false
   inline bool ConvertUssToNativeTextGenerationSettings();
@@ -234,9 +234,11 @@ public:
 
   static inline Il2CppObject* getStaticF_s_TextLib();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ATGMeasuredSizes, addr 0x6ca2b78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_ATGMeasuredSizes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ATGRoundedSizes, addr 0x6ca2b88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_ATGRoundedSizes();
 
@@ -246,9 +248,11 @@ public:
   /// @brief Method get_Links, addr 0x6ca0eac, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* get_Links();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MeasuredSizes, addr 0x6ca2b58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_MeasuredSizes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RoundedSizes, addr 0x6ca2b68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_RoundedSizes();
 
@@ -262,15 +266,19 @@ public:
 
   static inline void setStaticF_s_TextLib(Il2CppObject* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ATGMeasuredSizes, addr 0x6ca2b80, size 0x8, virtual false, abstract: false, final false
   inline void set_ATGMeasuredSizes(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ATGRoundedSizes, addr 0x6ca2b90, size 0x8, virtual false, abstract: false, final false
   inline void set_ATGRoundedSizes(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MeasuredSizes, addr 0x6ca2b60, size 0x8, virtual false, abstract: false, final false
   inline void set_MeasuredSizes(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RoundedSizes, addr 0x6ca2b70, size 0x8, virtual false, abstract: false, final false
   inline void set_RoundedSizes(::UnityEngine::Vector2 value);
 
@@ -280,13 +288,13 @@ protected:
   constexpr UITKTextHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UITKTextHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UITKTextHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UITKTextHandle(UITKTextHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UITKTextHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UITKTextHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UITKTextHandle(UITKTextHandle const&) = delete;
+  UITKTextHandle(UITKTextHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5089 };
@@ -297,15 +305,23 @@ public:
   /// @brief Field m_Links, offset: 0xb8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* ___m_Links;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <MeasuredSizes>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____MeasuredSizes_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <RoundedSizes>k__BackingField, offset: 0xc8, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____RoundedSizes_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <ATGMeasuredSizes>k__BackingField, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____ATGMeasuredSizes_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ATGRoundedSizes>k__BackingField, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____ATGRoundedSizes_k__BackingField;
 

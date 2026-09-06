@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerBuffer.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandlerBuffer_def.hpp"
@@ -81,7 +81,7 @@ constexpr void UnityEngine::Networking::DownloadHandlerBuffer::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NativeData = value;
 }
-inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerBuffer::Create(::UnityEngine::Networking::DownloadHandlerBuffer* obj) {
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerBuffer::Create(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerBuffer* obj) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerBuffer*>(),
                                                                                          { "Create", {}, { ::i2c::type_of<::UnityEngine::Networking::DownloadHandlerBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, obj);

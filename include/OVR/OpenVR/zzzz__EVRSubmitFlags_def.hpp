@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\EVRSubmitFlags.hpp"
+// IWYU pragma private; include "OVR/OpenVR/EVRSubmitFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   // @brief default ctor
   constexpr EVRSubmitFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EVRSubmitFlags(int32_t value__) noexcept;
 
   /// @brief Field Submit_Default value: I32(0)

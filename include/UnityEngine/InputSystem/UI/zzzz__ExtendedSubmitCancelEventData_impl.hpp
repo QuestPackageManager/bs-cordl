@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\ExtendedSubmitCancelEventData.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/ExtendedSubmitCancelEventData.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__ExtendedSubmitCancelEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"

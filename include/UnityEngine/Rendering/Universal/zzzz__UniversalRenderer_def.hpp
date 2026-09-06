@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,9 @@ namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -281,13 +283,13 @@ protected:
   constexpr UniversalRenderer_Profiling();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_Profiling", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_Profiling", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderer_Profiling(UniversalRenderer_Profiling&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_Profiling", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_Profiling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderer_Profiling(UniversalRenderer_Profiling const&) = delete;
+  UniversalRenderer_Profiling(UniversalRenderer_Profilingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13002 };
@@ -312,11 +314,12 @@ public:
   // @brief default ctor
   constexpr UniversalRenderer_RenderPassInputSummary();
 
-  // Ctor Parameters [CppParam { name: "requiresDepthTexture", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "requiresDepthPrepass", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "requiresNormalsTexture", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "requiresColorTexture", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "requiresColorTextureCreated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "requiresMotionVectors", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "requiresDepthNormalAtEvent", ty: "::UnityEngine::Rendering::Universal::RenderPassEvent", modifiers: "", def_value: None }, CppParam { name: "requiresDepthTextureEarliestEvent", ty:
-  // "::UnityEngine::Rendering::Universal::RenderPassEvent", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "requiresDepthTexture", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "requiresDepthPrepass", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "requiresNormalsTexture", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "requiresColorTexture", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "requiresColorTextureCreated", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "requiresMotionVectors", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "requiresDepthNormalAtEvent", ty: "::UnityEngine::Rendering::Universal::RenderPassEvent",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "requiresDepthTextureEarliestEvent", ty: "::UnityEngine::Rendering::Universal::RenderPassEvent", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr UniversalRenderer_RenderPassInputSummary(bool requiresDepthTexture, bool requiresDepthPrepass, bool requiresNormalsTexture, bool requiresColorTexture, bool requiresColorTextureCreated,
                                                      bool requiresMotionVectors, ::UnityEngine::Rendering::Universal::RenderPassEvent requiresDepthNormalAtEvent,
                                                      ::UnityEngine::Rendering::Universal::RenderPassEvent requiresDepthTextureEarliestEvent) noexcept;
@@ -409,13 +412,13 @@ protected:
   constexpr UniversalRenderer_CopyToDebugTexturePassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_CopyToDebugTexturePassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_CopyToDebugTexturePassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderer_CopyToDebugTexturePassData(UniversalRenderer_CopyToDebugTexturePassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_CopyToDebugTexturePassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_CopyToDebugTexturePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderer_CopyToDebugTexturePassData(UniversalRenderer_CopyToDebugTexturePassData const&) = delete;
+  UniversalRenderer_CopyToDebugTexturePassData(UniversalRenderer_CopyToDebugTexturePassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13004 };
@@ -470,7 +473,7 @@ public:
   // @brief default ctor
   constexpr UniversalRenderer_DepthCopySchedule();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UniversalRenderer_DepthCopySchedule(int32_t value__) noexcept;
 
   /// @brief Field AfterGBuffer value: I32(2)
@@ -540,7 +543,7 @@ public:
   // @brief default ctor
   constexpr UniversalRenderer_ColorCopySchedule();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UniversalRenderer_ColorCopySchedule(int32_t value__) noexcept;
 
   /// @brief Field AfterSkybox value: I32(0)
@@ -577,8 +580,8 @@ public:
   // @brief default ctor
   constexpr UniversalRenderer_TextureCopySchedules();
 
-  // Ctor Parameters [CppParam { name: "depth", ty: "::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule", modifiers: "", def_value: None }, CppParam { name: "color", ty:
-  // "::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "depth", ty: "::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "color", ty: "::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule", modifiers: "", def_value: None, comment: None }]
   constexpr UniversalRenderer_TextureCopySchedules(::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule depth,
                                                    ::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule color) noexcept;
 
@@ -604,6 +607,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderer_Te
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderer_TextureCopySchedules) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -675,13 +679,13 @@ protected:
   constexpr UniversalRenderer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderer___c(UniversalRenderer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderer___c(UniversalRenderer___c const&) = delete;
+  UniversalRenderer___c(UniversalRenderer___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13008 };
@@ -1116,9 +1120,11 @@ public:
   /// @brief Method FinishRendering, addr 0x68d037c, size 0x2c, virtual true, abstract: false, final false
   inline void FinishRendering(::UnityEngine::Rendering::CommandBuffer* cmd);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method GetCameraColorBackBuffer, addr 0x68d0630, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCameraColorBackBuffer(::UnityEngine::Rendering::CommandBuffer* cmd);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method GetCameraColorFrontBuffer, addr 0x68d0618, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCameraColorFrontBuffer(::UnityEngine::Rendering::CommandBuffer* cmd);
 
@@ -1217,6 +1223,7 @@ public:
   /// @brief Method SetRenderingLayersGlobalTextures, addr 0x68d790c, size 0x218, virtual false, abstract: false, final false
   inline void SetRenderingLayersGlobalTextures(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Setup, addr 0x68cc0c8, size 0x2b1c, virtual true, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -1229,6 +1236,7 @@ public:
   /// @brief Method SetupFinalPassDebug, addr 0x68cb708, size 0x384, virtual false, abstract: false, final false
   inline void SetupFinalPassDebug(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method SetupLights, addr 0x68cfe04, size 0x194, virtual true, abstract: false, final false
   inline void SetupLights(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -1736,6 +1744,7 @@ public:
   /// @brief Method get_nextRenderGraphCameraColorHandle, addr 0x68d19fc, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_nextRenderGraphCameraColorHandle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_opaqueLayerMask, addr 0x68c9ffc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_opaqueLayerMask();
 
@@ -1754,6 +1763,7 @@ public:
   /// @brief Method get_supportsNativeRenderPassRendergraphCompiler, addr 0x68d0670, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsNativeRenderPassRendergraphCompiler();
 
+  /// [CompilerGenerated]
   /// @brief Method get_transparentLayerMask, addr 0x68ca00c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_transparentLayerMask();
 
@@ -1776,9 +1786,11 @@ public:
   /// @brief Method set_depthPrimingMode, addr 0x68c9fcc, size 0x8, virtual false, abstract: false, final false
   inline void set_depthPrimingMode(::UnityEngine::Rendering::Universal::DepthPrimingMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_opaqueLayerMask, addr 0x68ca004, size 0x8, virtual false, abstract: false, final false
   inline void set_opaqueLayerMask(::UnityEngine::LayerMask value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_transparentLayerMask, addr 0x68ca014, size 0x8, virtual false, abstract: false, final false
   inline void set_transparentLayerMask(::UnityEngine::LayerMask value);
 
@@ -1788,13 +1800,13 @@ protected:
   constexpr UniversalRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderer(UniversalRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderer(UniversalRenderer const&) = delete;
+  UniversalRenderer(UniversalRendererconst&) = delete;
 
   /// @brief Field _CameraTargetAttachmentAName offset 0xffffffff size 0x8
   static constexpr ::ConstString _CameraTargetAttachmentAName{ u"_CameraTargetAttachmentA" };
@@ -2000,9 +2012,11 @@ public:
   /// @brief Field m_PostProcessPasses, offset: 0x300, size: 0x40, def value: None
   ::UnityEngine::Rendering::Universal::PostProcessPasses ___m_PostProcessPasses;
 
+  /// [CompilerGenerated]
   /// @brief Field <opaqueLayerMask>k__BackingField, offset: 0x340, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____opaqueLayerMask_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <transparentLayerMask>k__BackingField, offset: 0x344, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____transparentLayerMask_k__BackingField;
 

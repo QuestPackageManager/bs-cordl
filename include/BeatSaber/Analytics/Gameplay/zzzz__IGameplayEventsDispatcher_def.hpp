@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\IGameplayEventsDispatcher.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/IGameplayEventsDispatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class IGameplayEventsDispatcher;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*, "BeatSaber.Analytics.Gameplay", "IGameplayEventsDispatcher");
+// [NullableContext(1)]
 // Dependencies
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: false
@@ -36,21 +37,21 @@ public:
 
   __declspec(property(get = get_hmdSession)) ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* hmdSession;
 
-  /// @brief Method InitializeAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
-  /// @brief Method get_beatmapAttempt, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_beatmapAttempt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* get_beatmapAttempt();
 
-  /// @brief Method get_blockLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_blockLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* get_blockLevel();
 
-  /// @brief Method get_hmdSession, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_hmdSession, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* get_hmdSession();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IGameplayEventsDispatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IGameplayEventsDispatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGameplayEventsDispatcher(IGameplayEventsDispatcher const&) = delete;
+  IGameplayEventsDispatcher(IGameplayEventsDispatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22260 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\DisplayStringFormatAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/DisplayStringFormatAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class DisplayStringFormatAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute*, "UnityEngine.InputSystem.Utilities", "DisplayStringFormatAttribute");
+// [AttributeUsage((System.AttributeTargets)4, Inherited = true)]
 // Dependencies System.Attribute
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
@@ -36,9 +37,11 @@ public:
   /// @brief Method .ctor, addr 0x65014c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatString);
 
+  /// [CompilerGenerated]
   /// @brief Method get_formatString, addr 0x65014b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_formatString();
 
+  /// [CompilerGenerated]
   /// @brief Method set_formatString, addr 0x65014bc, size 0x8, virtual false, abstract: false, final false
   inline void set_formatString(::StringW value);
 
@@ -48,17 +51,18 @@ protected:
   constexpr DisplayStringFormatAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisplayStringFormatAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisplayStringFormatAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisplayStringFormatAttribute(DisplayStringFormatAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisplayStringFormatAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisplayStringFormatAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisplayStringFormatAttribute(DisplayStringFormatAttribute const&) = delete;
+  DisplayStringFormatAttribute(DisplayStringFormatAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9159 };
 
+  /// [CompilerGenerated]
   /// @brief Field <formatString>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____formatString_k__BackingField;
 

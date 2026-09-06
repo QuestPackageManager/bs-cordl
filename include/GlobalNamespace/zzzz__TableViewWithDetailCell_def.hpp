@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TableViewWithDetailCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/TableViewWithDetailCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,21 +41,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE TableViewWithDetailCell_IDataSource {
 public:
   // Declarations
-  /// @brief Method CellForContent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CellForContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::HMUI::TableCell> CellForContent(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t idx, bool detailOpened);
 
-  /// @brief Method CellForDetail, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CellForDetail, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::HMUI::TableCell> CellForDetail(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t contentIdx);
 
-  /// @brief Method CellSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CellSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NumberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t NumberOfCells();
 
-  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithDetailCell_IDataSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithDetailCell_IDataSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TableViewWithDetailCell_IDataSource(TableViewWithDetailCell_IDataSource const&) = delete;
+  TableViewWithDetailCell_IDataSource(TableViewWithDetailCell_IDataSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19012 };
@@ -139,9 +139,11 @@ public:
   /// @brief Method .ctor, addr 0x58743f8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didDeselectContentCellEvent, addr 0x5873d58, size 0xc0, virtual false, abstract: false, final false
   inline void add_didDeselectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectContentCellEvent, addr 0x5873bd8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value);
 
@@ -151,9 +153,11 @@ public:
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didDeselectContentCellEvent, addr 0x5873e18, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didDeselectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectContentCellEvent, addr 0x5873c98, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value);
 
@@ -166,20 +170,22 @@ protected:
   constexpr TableViewWithDetailCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithDetailCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithDetailCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TableViewWithDetailCell(TableViewWithDetailCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithDetailCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithDetailCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TableViewWithDetailCell(TableViewWithDetailCell const&) = delete;
+  TableViewWithDetailCell(TableViewWithDetailCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19013 };
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectContentCellEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* ___didSelectContentCellEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didDeselectContentCellEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* ___didDeselectContentCellEvent;
 

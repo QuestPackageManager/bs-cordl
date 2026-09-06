@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ChannelMixer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ChannelMixer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class ChannelMixer;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::ChannelMixer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ChannelMixer*, "UnityEngine.Rendering.Universal", "ChannelMixer");
+// [VolumeComponentMenu("Post-processing/Channel Mixer")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -58,6 +60,7 @@ public:
   /// @brief Method IsActive, addr 0x687d9b0, size 0x154, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687db04, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -129,41 +132,50 @@ protected:
   constexpr ChannelMixer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChannelMixer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChannelMixer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChannelMixer(ChannelMixer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChannelMixer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChannelMixer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChannelMixer(ChannelMixer const&) = delete;
+  ChannelMixer(ChannelMixerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12788 };
 
+  /// [Tooltip("Modify influence of the red channel in the overall mix.")]
   /// @brief Field redOutRedIn, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___redOutRedIn;
 
+  /// [Tooltip("Modify influence of the green channel in the overall mix.")]
   /// @brief Field redOutGreenIn, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___redOutGreenIn;
 
+  /// [Tooltip("Modify influence of the blue channel in the overall mix.")]
   /// @brief Field redOutBlueIn, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___redOutBlueIn;
 
+  /// [Tooltip("Modify influence of the red channel in the overall mix.")]
   /// @brief Field greenOutRedIn, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___greenOutRedIn;
 
+  /// [Tooltip("Modify influence of the green channel in the overall mix.")]
   /// @brief Field greenOutGreenIn, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___greenOutGreenIn;
 
+  /// [Tooltip("Modify influence of the blue channel in the overall mix.")]
   /// @brief Field greenOutBlueIn, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___greenOutBlueIn;
 
+  /// [Tooltip("Modify influence of the red channel in the overall mix.")]
   /// @brief Field blueOutRedIn, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___blueOutRedIn;
 
+  /// [Tooltip("Modify influence of the green channel in the overall mix.")]
   /// @brief Field blueOutGreenIn, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___blueOutGreenIn;
 
+  /// [Tooltip("Modify influence of the blue channel in the overall mix.")]
   /// @brief Field blueOutBlueIn, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___blueOutBlueIn;
 

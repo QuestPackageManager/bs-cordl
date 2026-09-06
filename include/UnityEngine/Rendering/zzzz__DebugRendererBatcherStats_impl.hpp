@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugRendererBatcherStats.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugRendererBatcherStats.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugOccluderStats_impl.hpp"

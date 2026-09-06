@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\WindowsMR\Input\HololensHand.hpp"
+// IWYU pragma private; include "UnityEngine/XR/WindowsMR/Input/HololensHand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class HololensHand;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::WindowsMR::Input::HololensHand*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::WindowsMR::Input::HololensHand*, "UnityEngine.XR.WindowsMR.Input", "HololensHand");
+// [InputControlLayout(displayName = "HoloLens Hand", commonUsages = new[] { "LeftHand", "RightHand" }, hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.XR.XRController
 namespace UnityEngine::XR::WindowsMR::Input {
 // Is value type: false
@@ -44,12 +45,16 @@ public:
   __declspec(property(get = __cordl_internal_get__sourceLossRisk_k__BackingField,
                       put = __cordl_internal_set__sourceLossRisk_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _sourceLossRisk_k__BackingField;
 
+  /// @brief [InputControl(aliases = new[] { "triggerbutton" })]
   __declspec(property(get = get_airTap, put = set_airTap)) ::UnityEngine::InputSystem::Controls::ButtonControl* airTap;
 
+  /// @brief [InputControl(noisy = true, aliases = new[] { "gripVelocity" })]
   __declspec(property(get = get_deviceVelocity, put = set_deviceVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* deviceVelocity;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_sourceLossMitigationDirection, put = set_sourceLossMitigationDirection)) ::UnityEngine::InputSystem::Controls::Vector3Control* sourceLossMitigationDirection;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_sourceLossRisk, put = set_sourceLossRisk)) ::UnityEngine::InputSystem::Controls::AxisControl* sourceLossRisk;
 
   /// @brief Method FinishSetup, addr 0x64d289c, size 0x130, virtual true, abstract: false, final false
@@ -84,27 +89,35 @@ public:
   /// @brief Method .ctor, addr 0x64d29cc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_airTap, addr 0x64d286c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_airTap();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deviceVelocity, addr 0x64d285c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_sourceLossMitigationDirection, addr 0x64d288c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_sourceLossMitigationDirection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_sourceLossRisk, addr 0x64d287c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_sourceLossRisk();
 
+  /// [CompilerGenerated]
   /// @brief Method set_airTap, addr 0x64d2874, size 0x8, virtual false, abstract: false, final false
   inline void set_airTap(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deviceVelocity, addr 0x64d2864, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_sourceLossMitigationDirection, addr 0x64d2894, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceLossMitigationDirection(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_sourceLossRisk, addr 0x64d2884, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceLossRisk(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
@@ -114,26 +127,30 @@ protected:
   constexpr HololensHand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HololensHand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HololensHand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HololensHand(HololensHand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HololensHand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HololensHand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HololensHand(HololensHand const&) = delete;
+  HololensHand(HololensHandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8606 };
 
+  /// [CompilerGenerated]
   /// @brief Field <deviceVelocity>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceVelocity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <airTap>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____airTap_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <sourceLossRisk>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____sourceLossRisk_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <sourceLossMitigationDirection>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____sourceLossMitigationDirection_k__BackingField;
 

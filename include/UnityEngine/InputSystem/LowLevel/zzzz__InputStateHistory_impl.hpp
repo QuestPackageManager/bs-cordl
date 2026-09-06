@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputStateHistory.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputStateHistory.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
@@ -159,8 +159,8 @@ constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::oper
 constexpr ::System::IDisposable* UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Index", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::InputStateHistory_Enumerator(::UnityEngine::InputSystem::LowLevel::InputStateHistory* m_History,
                                                                                                            int32_t m_Index) noexcept {
   this->m_History = m_History;
@@ -168,14 +168,14 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::In
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::InputStateHistory_Enumerator() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer(
     uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer(
     uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
@@ -272,10 +272,10 @@ inline uint8_t* UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHead
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>(), { "get_statePtrWithoutControlIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<uint8_t*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "controlIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StateWithoutControlIndex", ty:
-// "::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_StateWithControlIndex", ty: "::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "version", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "controlIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StateWithoutControlIndex", ty:
+// "::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_StateWithControlIndex", ty: "::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::InputStateHistory_RecordHeader(
     double_t time, uint32_t version, int32_t controlIndex, ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer m_StateWithoutControlIndex,
     ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer m_StateWithControlIndex) noexcept {
@@ -650,7 +650,9 @@ inline void UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::_ctor(
                                                                                              ::i2c::type_of<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, owner, index, header);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ReadValue() {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline TValue UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ReadValue() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>(), { "ReadValue", { ::i2c::class_of<TValue>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
@@ -719,8 +721,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStat
 UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::i___System__IEquatable_1___UnityEngine__InputSystem__LowLevel__InputStateHistory_Record_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IndexPlusOne", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_IndexPlusOne", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::InputStateHistory_Record(::UnityEngine::InputSystem::LowLevel::InputStateHistory* m_Owner, int32_t m_IndexPlusOne,
                                                                                                    uint32_t m_Version) noexcept {
   this->m_Owner = m_Owner;
@@ -1636,7 +1638,9 @@ inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* Uni
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>(), { "AllocateRecord", {}, { ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*>(this, ___internal_method, index);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::LowLevel::InputStateHistory::ReadValue(::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* data) {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline TValue UnityEngine::InputSystem::LowLevel::InputStateHistory::ReadValue(::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* data) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>(),
                                               { "ReadValue", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*>() } })));

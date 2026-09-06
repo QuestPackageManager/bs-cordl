@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\CryptoPro\ECGost3410ParamSetParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/CryptoPro/ECGost3410ParamSetParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -135,13 +135,13 @@ protected:
   constexpr ECGost3410ParamSetParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECGost3410ParamSetParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECGost3410ParamSetParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECGost3410ParamSetParameters(ECGost3410ParamSetParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECGost3410ParamSetParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECGost3410ParamSetParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECGost3410ParamSetParameters(ECGost3410ParamSetParameters const&) = delete;
+  ECGost3410ParamSetParameters(ECGost3410ParamSetParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 127 };

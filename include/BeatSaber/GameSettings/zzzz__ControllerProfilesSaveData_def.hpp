@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfilesSaveData.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfilesSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,8 @@ public:
   /// @brief Field version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  static inline ::BeatSaber::GameSettings::ControllerProfilesSaveData* New_ctor(::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles);
+  static inline ::BeatSaber::GameSettings::ControllerProfilesSaveData*
+  New_ctor(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles);
 
   constexpr ::ArrayW<::BeatSaber::GameSettings::ControllerProfileSaveData*> const& __cordl_internal_get_profiles() const;
 
@@ -49,7 +50,7 @@ public:
   constexpr void __cordl_internal_set_version(int32_t value);
 
   /// @brief Method .ctor, addr 0x3292818, size 0xe0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles);
+  inline void _ctor(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles);
 
 protected:
   // Ctor Parameters []
@@ -57,13 +58,13 @@ protected:
   constexpr ControllerProfilesSaveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesSaveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesSaveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerProfilesSaveData(ControllerProfilesSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesSaveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfilesSaveData(ControllerProfilesSaveData const&) = delete;
+  ControllerProfilesSaveData(ControllerProfilesSaveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22055 };
@@ -71,6 +72,7 @@ public:
   /// @brief Field version, offset: 0x10, size: 0x4, def value: None
   int32_t ___version;
 
+  /// [Nullable(1)]
   /// @brief Field profiles, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatSaber::GameSettings::ControllerProfileSaveData*> ___profiles;
 

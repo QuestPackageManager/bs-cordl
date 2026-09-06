@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IntroTutorialController.hpp"
+// IWYU pragma private; include "GlobalNamespace/IntroTutorialController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ MARK_REF_T(::GlobalNamespace::IntroTutorialController*);
 MARK_REF_T(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::IntroTutorialController*, "", "IntroTutorialController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22*, "", "IntroTutorialController/<ShowFinishAnimationCoroutine>d__22");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -94,17 +95,22 @@ public:
   /// @brief Method MoveNext, addr 0x59f7b30, size 0x14c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59f7c7c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59f7c84, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59f7cbc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59f7b2c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -132,6 +138,7 @@ public:
 
   constexpr void __cordl_internal_set__elapsedTime_5__2(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59f7ab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -150,13 +157,13 @@ protected:
   constexpr IntroTutorialController__ShowFinishAnimationCoroutine_d__22();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController__ShowFinishAnimationCoroutine_d__22", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController__ShowFinishAnimationCoroutine_d__22", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntroTutorialController__ShowFinishAnimationCoroutine_d__22(IntroTutorialController__ShowFinishAnimationCoroutine_d__22&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController__ShowFinishAnimationCoroutine_d__22", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController__ShowFinishAnimationCoroutine_d__22", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntroTutorialController__ShowFinishAnimationCoroutine_d__22(IntroTutorialController__ShowFinishAnimationCoroutine_d__22 const&) = delete;
+  IntroTutorialController__ShowFinishAnimationCoroutine_d__22(IntroTutorialController__ShowFinishAnimationCoroutine_d__22const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6278 };
@@ -187,6 +194,7 @@ static_assert(offsetof(::GlobalNamespace::IntroTutorialController__ShowFinishAni
 static_assert(sizeof(::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/IntroTutorialController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -255,6 +263,7 @@ public:
   /// @brief Method ShowFinishAnimation, addr 0x59f7940, size 0x78, virtual false, abstract: false, final false
   inline void ShowFinishAnimation();
 
+  /// [IteratorStateMachine(typeof(IntroTutorialController::<ShowFinishAnimationCoroutine>d__22))]
   /// @brief Method ShowFinishAnimationCoroutine, addr 0x59f7a60, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
 
@@ -345,9 +354,11 @@ public:
   /// @brief Method .ctor, addr 0x59f7b28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_introTutorialDidFinishEvent, addr 0x59f73dc, size 0xac, virtual false, abstract: false, final false
   inline void add_introTutorialDidFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_introTutorialDidFinishEvent, addr 0x59f7488, size 0xac, virtual false, abstract: false, final false
   inline void remove_introTutorialDidFinishEvent(::System::Action* value);
 
@@ -357,44 +368,55 @@ protected:
   constexpr IntroTutorialController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntroTutorialController(IntroTutorialController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntroTutorialController(IntroTutorialController const&) = delete;
+  IntroTutorialController(IntroTutorialControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6279 };
 
+  /// [SerializeField]
   /// @brief Field _redRing, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::IntroTutorialRing> ____redRing;
 
+  /// [SerializeField]
   /// @brief Field _blueRing, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::IntroTutorialRing> ____blueRing;
 
+  /// [SerializeField]
   /// @brief Field _redRingWrapper, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____redRingWrapper;
 
+  /// [SerializeField]
   /// @brief Field _blueRingWrapper, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____blueRingWrapper;
 
+  /// [SerializeField]
   /// @brief Field _textCanvasGroup, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____textCanvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _shockWavePS, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____shockWavePS;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _finishForParams, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____finishForParams;
 
+  /// [Inject]
   /// @brief Field _bloomFogAnimator, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogParamsAnimator> ____bloomFogAnimator;
 
+  /// [Inject]
   /// @brief Field _gamePause, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
+  /// [CompilerGenerated]
   /// @brief Field introTutorialDidFinishEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___introTutorialDidFinishEvent;
 

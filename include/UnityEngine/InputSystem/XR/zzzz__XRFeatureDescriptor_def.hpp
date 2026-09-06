@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRFeatureDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRFeatureDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,9 +32,9 @@ public:
   // @brief default ctor
   constexpr XRFeatureDescriptor();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "usageHints", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint>*", modifiers: "", def_value: None }, CppParam { name: "featureType", ty:
-  // "::UnityEngine::InputSystem::XR::FeatureType", modifiers: "", def_value: None }, CppParam { name: "customSize", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "usageHints", ty:
+  // "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "featureType", ty:
+  // "::UnityEngine::InputSystem::XR::FeatureType", modifiers: "", def_value: None, comment: None }, CppParam { name: "customSize", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XRFeatureDescriptor(::StringW name, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint>* usageHints, ::UnityEngine::InputSystem::XR::FeatureType featureType,
                                 uint32_t customSize) noexcept;
 

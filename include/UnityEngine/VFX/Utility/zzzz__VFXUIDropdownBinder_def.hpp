@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXUIDropdownBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXUIDropdownBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class VFXUIDropdownBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXUIDropdownBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXUIDropdownBinder*, "UnityEngine.VFX.Utility", "VFXUIDropdownBinder");
+// [AddComponentMenu("VFX/Property Binders/UI Dropdown Binder")]
+// [VFXBinder("UI/Dropdown")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -75,17 +77,20 @@ protected:
   constexpr VFXUIDropdownBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXUIDropdownBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXUIDropdownBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXUIDropdownBinder(VFXUIDropdownBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXUIDropdownBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXUIDropdownBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXUIDropdownBinder(VFXUIDropdownBinder const&) = delete;
+  VFXUIDropdownBinder(VFXUIDropdownBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20010 };
 
+  /// [VFXPropertyBinding(new[] { "System.Int32" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_Parameter")]
   /// @brief Field m_Property, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

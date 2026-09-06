@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\TypeLimiter.hpp"
+// IWYU pragma private; include "System/Data/TypeLimiter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__TypeLimiter_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -147,7 +147,7 @@ inline void System::Data::TypeLimiter_Scope::setStaticF_s_allowedTypes(::System:
 inline ::System::Collections::Generic::HashSet_1<::System::Type*>* System::Data::TypeLimiter_Scope::getStaticF_s_allowedTypes() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<::System::Type*>*, "s_allowedTypes", ::System::Data::TypeLimiter_Scope*>();
 }
-inline void System::Data::TypeLimiter_Scope::_ctor(::System::Data::TypeLimiter_Scope* previousScope, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes) {
+inline void System::Data::TypeLimiter_Scope::_ctor(/* [Nullable(2)] */ ::System::Data::TypeLimiter_Scope* previousScope, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Data::TypeLimiter_Scope*>(),
@@ -168,7 +168,7 @@ inline bool System::Data::TypeLimiter_Scope::IsTypeUnconditionallyAllowed(::Syst
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::TypeLimiter_Scope*>(), { "IsTypeUnconditionallyAllowed", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline ::System::Data::TypeLimiter_Scope* System::Data::TypeLimiter_Scope::New_ctor(::System::Data::TypeLimiter_Scope* previousScope,
+inline ::System::Data::TypeLimiter_Scope* System::Data::TypeLimiter_Scope::New_ctor(/* [Nullable(2)] */ ::System::Data::TypeLimiter_Scope* previousScope,
                                                                                     ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::TypeLimiter_Scope*>(previousScope, allowedTypes));
 }

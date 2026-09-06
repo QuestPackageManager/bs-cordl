@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FileBrowserItem.hpp"
+// IWYU pragma private; include "GlobalNamespace/FileBrowserItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,21 +58,27 @@ public:
   /// @brief Method .ctor, addr 0x3707e24, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW fullPath, bool isDirectory);
 
+  /// [CompilerGenerated]
   /// @brief Method get_displayName, addr 0x370a654, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fullPath, addr 0x370a664, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullPath();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isDirectory, addr 0x370a674, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDirectory();
 
+  /// [CompilerGenerated]
   /// @brief Method set_displayName, addr 0x370a65c, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_fullPath, addr 0x370a66c, size 0x8, virtual false, abstract: false, final false
   inline void set_fullPath(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isDirectory, addr 0x370a67c, size 0x8, virtual false, abstract: false, final false
   inline void set_isDirectory(bool value);
 
@@ -82,23 +88,26 @@ protected:
   constexpr FileBrowserItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileBrowserItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileBrowserItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileBrowserItem(FileBrowserItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileBrowserItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileBrowserItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileBrowserItem(FileBrowserItem const&) = delete;
+  FileBrowserItem(FileBrowserItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14862 };
 
+  /// [CompilerGenerated]
   /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <fullPath>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____fullPath_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isDirectory>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____isDirectory_k__BackingField;
 

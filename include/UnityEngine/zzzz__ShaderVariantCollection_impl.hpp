@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ShaderVariantCollection.hpp"
+// IWYU pragma private; include "UnityEngine/ShaderVariantCollection.hpp"
 #include "UnityEngine/Rendering/zzzz__PassType_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ShaderVariantCollection_def.hpp"
@@ -23,15 +23,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Shad
     return ___internal_method;
   }
 };
-inline void UnityEngine::ShaderVariantCollection_ShaderVariant::_ctor(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, ::ArrayW<::StringW> keywords) {
+inline void UnityEngine::ShaderVariantCollection_ShaderVariant::_ctor(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, /* [ParamArray] */ ::ArrayW<::StringW> keywords) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection_ShaderVariant>(),
                                        { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<::UnityEngine::Rendering::PassType>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, shader, passType, keywords);
 }
-// Ctor Parameters [CppParam { name: "shader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: Some("{}") }, CppParam { name: "passType", ty: "::UnityEngine::Rendering::PassType",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "keywords", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "shader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "passType", ty:
+// "::UnityEngine::Rendering::PassType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "keywords", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::ShaderVariantCollection_ShaderVariant::ShaderVariantCollection_ShaderVariant(::UnityW<::UnityEngine::Shader> shader, ::UnityEngine::Rendering::PassType passType,
                                                                                                       ::ArrayW<::StringW> keywords) noexcept {
   this->shader = shader;
@@ -226,7 +227,7 @@ inline bool UnityEngine::ShaderVariantCollection::get_isWarmedUp() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(), { "get_isWarmedUp", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::ShaderVariantCollection::AddVariant(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, ::ArrayW<::StringW> keywords) {
+inline bool UnityEngine::ShaderVariantCollection::AddVariant(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, /* [Unmarshalled] */ ::ArrayW<::StringW> keywords) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(),
@@ -238,7 +239,7 @@ inline bool UnityEngine::ShaderVariantCollection::WarmUpProgressively(int32_t va
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(), { "WarmUpProgressively", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, variantCount);
 }
-inline void UnityEngine::ShaderVariantCollection::Internal_Create(::UnityEngine::ShaderVariantCollection* svc) {
+inline void UnityEngine::ShaderVariantCollection::Internal_Create(/* [Writable] */ ::UnityEngine::ShaderVariantCollection* svc) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ShaderVariantCollection*>(), { "Internal_Create", {}, { ::i2c::type_of<::UnityEngine::ShaderVariantCollection*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, svc);

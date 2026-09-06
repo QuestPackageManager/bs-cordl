@@ -1,14 +1,14 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Layouts\InputDeviceDescription.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Layouts/InputDeviceDescription.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__JsonParser_def.hpp"
-// Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "product", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "serial", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "capabilities", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "serial", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "manufacturer", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "capabilities", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceDescription_DeviceDescriptionJson::InputDeviceDescription_DeviceDescriptionJson(::StringW interface, ::StringW type, ::StringW product,
                                                                                                                                           ::StringW serial, ::StringW version, ::StringW manufacturer,
                                                                                                                                           ::StringW capabilities) noexcept {
@@ -500,10 +500,10 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDevic
 UnityEngine::InputSystem::Layouts::InputDeviceDescription::i___System__IEquatable_1___UnityEngine__InputSystem__Layouts__InputDeviceDescription_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_InterfaceName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DeviceClass", ty: "::StringW", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_Manufacturer", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Product", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Serial", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Capabilities",
-// ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_InterfaceName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DeviceClass", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_Manufacturer", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Product", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Serial", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Capabilities", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceDescription::InputDeviceDescription(::StringW m_InterfaceName, ::StringW m_DeviceClass, ::StringW m_Manufacturer, ::StringW m_Product,
                                                                                               ::StringW m_Serial, ::StringW m_Version, ::StringW m_Capabilities) noexcept {
   this->m_InterfaceName = m_InterfaceName;

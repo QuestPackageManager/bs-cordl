@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphGlobalSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphGlobalSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
   // @brief default ctor
   constexpr RenderGraphGlobalSettings_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraphGlobalSettings_Version(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(1)
@@ -84,6 +84,9 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphGlobalSettings_Versi
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphGlobalSettings_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [SupportedOnRenderPipeline(new[] {  })]
+// [CategoryInfo(Name = "Render Graph", Order = 50)]
+// [ElementInfo(Order = 0)]
 // Dependencies System.Object, UnityEngine.Rendering.RenderGraphGlobalSettings::Version
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -163,23 +166,31 @@ protected:
   constexpr RenderGraphGlobalSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGlobalSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGlobalSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphGlobalSettings(RenderGraphGlobalSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGlobalSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGlobalSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphGlobalSettings(RenderGraphGlobalSettings const&) = delete;
+  RenderGraphGlobalSettings(RenderGraphGlobalSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12184 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::RenderGraphGlobalSettings_Version ___m_version;
 
+  /// [RecreatePipelineOnChange]
+  /// [SerializeField]
+  /// [Tooltip("Enable caching of render graph compilation from one frame to another.")]
   /// @brief Field m_EnableCompilationCaching, offset: 0x14, size: 0x1, def value: None
   bool ___m_EnableCompilationCaching;
 
+  /// [RecreatePipelineOnChange]
+  /// [SerializeField]
+  /// [Tooltip("Enable validity checks of render graph in Editor and Development mode. Always disabled in Release build.")]
   /// @brief Field m_EnableValidityChecks, offset: 0x15, size: 0x1, def value: None
   bool ___m_EnableValidityChecks;
 

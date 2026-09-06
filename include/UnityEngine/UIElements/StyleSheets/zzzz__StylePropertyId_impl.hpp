@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StylePropertyId.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StylePropertyId.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId::StylePropertyId(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenDisplacementEffectGrabPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenDisplacementEffectGrabPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -90,13 +92,13 @@ protected:
   constexpr ScreenDisplacementEffectGrabPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenDisplacementEffectGrabPass_PassData(ScreenDisplacementEffectGrabPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenDisplacementEffectGrabPass_PassData(ScreenDisplacementEffectGrabPass_PassData const&) = delete;
+  ScreenDisplacementEffectGrabPass_PassData(ScreenDisplacementEffectGrabPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20677 };
@@ -117,6 +119,7 @@ static_assert(offsetof(::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassD
 static_assert(sizeof(::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -157,13 +160,13 @@ protected:
   constexpr ScreenDisplacementEffectGrabPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenDisplacementEffectGrabPass___c(ScreenDisplacementEffectGrabPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenDisplacementEffectGrabPass___c(ScreenDisplacementEffectGrabPass___c const&) = delete;
+  ScreenDisplacementEffectGrabPass___c(ScreenDisplacementEffectGrabPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20678 };
@@ -227,13 +230,13 @@ protected:
   constexpr ScreenDisplacementEffectGrabPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenDisplacementEffectGrabPass(ScreenDisplacementEffectGrabPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectGrabPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenDisplacementEffectGrabPass(ScreenDisplacementEffectGrabPass const&) = delete;
+  ScreenDisplacementEffectGrabPass(ScreenDisplacementEffectGrabPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20679 };

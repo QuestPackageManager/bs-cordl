@@ -1,6 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRLoaderHelper.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRLoaderHelper.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoader_impl.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_impl.hpp"
+#include "UnityEngine/zzzz__ISubsystem_impl.hpp"
+#include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_impl.hpp"
+#include "UnityEngine/zzzz__IntegratedSubsystem_impl.hpp"
+#include "UnityEngine/zzzz__SubsystemDescriptor_impl.hpp"
+#include "UnityEngine/zzzz__Subsystem_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -45,31 +51,40 @@ UnityEngine::XR::Management::XRLoaderHelper::__cordl_internal_set_m_SubsystemIns
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SubsystemInstanceMap = value;
 }
-template <typename T> inline T UnityEngine::XR::Management::XRLoaderHelper::GetLoadedSubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline T UnityEngine::XR::Management::XRLoaderHelper::GetLoadedSubsystem() {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::XR::Management::XRLoaderHelper*>(), 8 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::XR::Management::XRLoaderHelper::StartSubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::XR::Management::XRLoaderHelper::StartSubsystem() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::Management::XRLoaderHelper*>(), { "StartSubsystem", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::XR::Management::XRLoaderHelper::StopSubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::XR::Management::XRLoaderHelper::StopSubsystem() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::Management::XRLoaderHelper*>(), { "StopSubsystem", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::XR::Management::XRLoaderHelper::DestroySubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::XR::Management::XRLoaderHelper::DestroySubsystem() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::Management::XRLoaderHelper*>(), { "DestroySubsystem", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TDescriptor, typename TSubsystem>
+  requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::ISubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::ISubsystem*>)
 inline void UnityEngine::XR::Management::XRLoaderHelper::CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::Management::XRLoaderHelper*>(),
@@ -80,6 +95,7 @@ inline void UnityEngine::XR::Management::XRLoaderHelper::CreateSubsystem(::Syste
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, descriptors, id);
 }
 template <typename TDescriptor, typename TSubsystem>
+  requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::IntegratedSubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::IntegratedSubsystem*>)
 inline void UnityEngine::XR::Management::XRLoaderHelper::CreateIntegratedSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::Management::XRLoaderHelper*>(),
@@ -90,6 +106,7 @@ inline void UnityEngine::XR::Management::XRLoaderHelper::CreateIntegratedSubsyst
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, descriptors, id);
 }
 template <typename TDescriptor, typename TSubsystem>
+  requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::SubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::Subsystem*>)
 inline void UnityEngine::XR::Management::XRLoaderHelper::CreateStandaloneSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::Management::XRLoaderHelper*>(),

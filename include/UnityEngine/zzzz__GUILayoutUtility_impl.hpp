@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUILayoutUtility.hpp"
+// IWYU pragma private; include "UnityEngine/GUILayoutUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__GUILayoutUtility_def.hpp"
@@ -626,7 +626,8 @@ inline void UnityEngine::GUILayoutUtility::EndLayoutArea() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutUtility*>(), { "EndLayoutArea", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::Rect UnityEngine::GUILayoutUtility::GetRect(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
+inline ::UnityEngine::Rect UnityEngine::GUILayoutUtility::GetRect(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style,
+                                                                  /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -642,7 +643,7 @@ inline ::UnityEngine::Rect UnityEngine::GUILayoutUtility::DoGetRect(::UnityEngin
           { "DoGetRect", {}, { ::i2c::type_of<::UnityEngine::GUIContent*>(), ::i2c::type_of<::UnityEngine::GUIStyle*>(), ::i2c::type_of<::ArrayW<::UnityEngine::GUILayoutOption*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(nullptr, ___internal_method, content, style, options);
 }
-inline ::UnityEngine::Rect UnityEngine::GUILayoutUtility::GetRect(float_t width, float_t height, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
+inline ::UnityEngine::Rect UnityEngine::GUILayoutUtility::GetRect(float_t width, float_t height, ::UnityEngine::GUIStyle* style, /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

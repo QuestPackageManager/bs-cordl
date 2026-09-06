@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapData.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
@@ -86,23 +87,32 @@ GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::i___System__IComparable_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::BeatmapData_BeatmapDataBinaryHeapItem() {}
-template <typename T> constexpr ::ArrayW<int32_t>& GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::__cordl_internal_get_subtypeGroupIdentifiers() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+constexpr ::ArrayW<int32_t>& GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::__cordl_internal_get_subtypeGroupIdentifiers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtypeGroupIdentifiers;
 }
-template <typename T> constexpr ::ArrayW<int32_t> const& GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::__cordl_internal_get_subtypeGroupIdentifiers() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+constexpr ::ArrayW<int32_t> const& GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::__cordl_internal_get_subtypeGroupIdentifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtypeGroupIdentifiers;
 }
-template <typename T> constexpr void GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::__cordl_internal_set_subtypeGroupIdentifiers(::ArrayW<int32_t> value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+constexpr void GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::__cordl_internal_set_subtypeGroupIdentifiers(::ArrayW<int32_t> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___subtypeGroupIdentifiers = value;
 }
-template <typename T> inline void GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+inline void GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline bool GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::_GetBeatmapDataItemsMerged_b__0(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* head) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -110,11 +120,15 @@ inline bool GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::_GetBeatmap
                                        { "<GetBeatmapDataItemsMerged>b__0", {}, { ::i2c::type_of<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, head);
 }
-template <typename T> inline ::GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>* GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+inline ::GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>* GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::BeatmapData___c__DisplayClass50_0_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+constexpr ::GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>::BeatmapData___c__DisplayClass50_0_1() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapData.get_updateAllBeatmapDataOnInsert
 template <>
 
@@ -898,25 +912,33 @@ inline void GlobalNamespace::BeatmapData::_ctor(int32_t numberOfLines) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapData*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, numberOfLines);
 }
-template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::BeatmapData::GetBeatmapDataItems(int32_t subtypeGroupIdentifier) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+inline ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::BeatmapData::GetBeatmapDataItems(int32_t subtypeGroupIdentifier) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapData*>(), { "GetBeatmapDataItems", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*>(this, ___internal_method, subtypeGroupIdentifier);
 }
-template <typename T> inline int32_t GlobalNamespace::BeatmapData::GetBeatmapDataItemsCount(int32_t subtypeGroupIdentifier) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+inline int32_t GlobalNamespace::BeatmapData::GetBeatmapDataItemsCount(int32_t subtypeGroupIdentifier) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapData*>(), { "GetBeatmapDataItemsCount", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, subtypeGroupIdentifier);
 }
-template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::BeatmapData::GetBeatmapDataItemsMerged(::ArrayW<int32_t> subtypeGroupIdentifiers) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+inline ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::BeatmapData::GetBeatmapDataItemsMerged(/* [ParamArray] */ ::ArrayW<int32_t> subtypeGroupIdentifiers) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapData*>(), { "GetBeatmapDataItemsMerged", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<int32_t>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*>(this, ___internal_method, subtypeGroupIdentifiers);
 }
-template <typename T> inline int32_t GlobalNamespace::BeatmapData::GetBeatmapDataItemsMergedCount(::ArrayW<int32_t> subtypeGroupIdentifiers) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+inline int32_t GlobalNamespace::BeatmapData::GetBeatmapDataItemsMergedCount(/* [ParamArray] */ ::ArrayW<int32_t> subtypeGroupIdentifiers) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapData*>(), { "GetBeatmapDataItemsMergedCount", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<int32_t>>() } })));

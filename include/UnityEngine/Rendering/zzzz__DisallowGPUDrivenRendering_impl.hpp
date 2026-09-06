@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DisallowGPUDrivenRendering.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DisallowGPUDrivenRendering.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DisallowGPUDrivenRendering_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"

@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\CommonAcl.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/CommonAcl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAcl_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
@@ -84,13 +85,13 @@ protected:
   constexpr CommonAcl_RemoveAcesCallback_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommonAcl_RemoveAcesCallback_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommonAcl_RemoveAcesCallback_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommonAcl_RemoveAcesCallback_1(CommonAcl_RemoveAcesCallback_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommonAcl_RemoveAcesCallback_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommonAcl_RemoveAcesCallback_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommonAcl_RemoveAcesCallback_1(CommonAcl_RemoveAcesCallback_1 const&) = delete;
+  CommonAcl_RemoveAcesCallback_1(CommonAcl_RemoveAcesCallback_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3040 };
@@ -99,7 +100,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Security::AccessControl
-// Dependencies System.Security.AccessControl.GenericAcl
+// [DefaultMember("Item")]
+// Dependencies System.Security.AccessControl.GenericAce, System.Security.AccessControl.GenericAcl
 namespace System::Security::AccessControl {
 // Is value type: false
 // CS Name: System.Security.AccessControl.CommonAcl
@@ -149,7 +151,7 @@ public:
                                                                                 ::System::Security::AccessControl::PropagationFlags propagationFlags,
                                                                                 ::System::Security::AccessControl::AuditFlags auditFlags);
 
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyCanonicalSortToExplicitAces();
 
   /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x5b1e6e0, size 0x1c4, virtual false, abstract: false, final false
@@ -165,7 +167,7 @@ public:
   inline ::System::Security::AccessControl::AceFlags GetAceFlags(::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                  ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AuditFlags auditFlags);
 
-  /// @brief Method GetAceInsertPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAceInsertPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
   /// @brief Method GetCanonicalExplicitAceCount, addr 0x5b1e0b4, size 0x80, virtual false, abstract: false, final false
@@ -194,7 +196,9 @@ public:
   static inline ::System::Security::AccessControl::CommonAcl* New_ctor(bool isContainer, bool isDS, uint8_t revision, int32_t capacity);
 
   /// @brief Method RemoveAces, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void RemoveAces(::System::Security::AccessControl::CommonAcl_RemoveAcesCallback_1<T>* callback);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Security::AccessControl::GenericAce*>)
+  inline void RemoveAces(::System::Security::AccessControl::CommonAcl_RemoveAcesCallback_1<T>* callback);
 
   /// @brief Method RequireCanonicity, addr 0x5b1d740, size 0x58, virtual false, abstract: false, final false
   inline void RequireCanonicity();
@@ -265,13 +269,13 @@ protected:
   constexpr CommonAcl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommonAcl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommonAcl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommonAcl(CommonAcl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommonAcl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommonAcl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommonAcl(CommonAcl const&) = delete;
+  CommonAcl(CommonAclconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3041 };

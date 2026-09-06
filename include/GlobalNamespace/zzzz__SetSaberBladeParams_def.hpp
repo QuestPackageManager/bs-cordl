@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetSaberBladeParams.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetSaberBladeParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr SetSaberBladeParams_PropertyTintColorPair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams_PropertyTintColorPair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams_PropertyTintColorPair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetSaberBladeParams_PropertyTintColorPair(SetSaberBladeParams_PropertyTintColorPair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams_PropertyTintColorPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams_PropertyTintColorPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetSaberBladeParams_PropertyTintColorPair(SetSaberBladeParams_PropertyTintColorPair const&) = delete;
+  SetSaberBladeParams_PropertyTintColorPair(SetSaberBladeParams_PropertyTintColorPairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6239 };
@@ -96,6 +96,7 @@ static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams_PropertyTintColorP
 static_assert(sizeof(::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/SetSaberBladeParams")]
 // Dependencies SetSaberBladeParams::PropertyTintColorPair, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -156,26 +157,31 @@ protected:
   constexpr SetSaberBladeParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetSaberBladeParams(SetSaberBladeParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetSaberBladeParams(SetSaberBladeParams const&) = delete;
+  SetSaberBladeParams(SetSaberBladeParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6240 };
 
+  /// [SerializeField]
   /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saber;
 
+  /// [SerializeField]
   /// @brief Field _meshRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _propertyTintColorPairs, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SetSaberBladeParams_PropertyTintColorPair*> ____propertyTintColorPairs;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 

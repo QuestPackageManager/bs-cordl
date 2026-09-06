@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeConstantRuntimeResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeConstantRuntimeResources.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeConstantRuntimeResources_def.hpp"

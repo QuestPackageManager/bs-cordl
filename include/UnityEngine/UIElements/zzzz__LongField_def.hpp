@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\LongField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/LongField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LongField*, "UnityEngine.UIElemen
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LongField_LongInput*, "UnityEngine.UIElements", "LongField/LongInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LongField_UxmlFactory*, "UnityEngine.UIElements", "LongField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LongField_UxmlTraits*, "UnityEngine.UIElements", "LongField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr LongField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LongField_UxmlFactory(LongField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongField_UxmlFactory(LongField_UxmlFactory const&) = delete;
+  LongField_UxmlFactory(LongField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4242 };
@@ -84,6 +85,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::LongField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -102,13 +104,13 @@ protected:
   constexpr LongField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LongField_UxmlTraits(LongField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongField_UxmlTraits(LongField_UxmlTraits const&) = delete;
+  LongField_UxmlTraits(LongField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4243 };
@@ -159,13 +161,13 @@ protected:
   constexpr LongField_LongInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LongField_LongInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_LongInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LongField_LongInput(LongField_LongInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LongField_LongInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongField_LongInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongField_LongInput(LongField_LongInput const&) = delete;
+  LongField_LongInput(LongField_LongInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4244 };
@@ -176,6 +178,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::LongField_LongInput) == 0x4e8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -243,13 +246,13 @@ protected:
   constexpr LongField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LongField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LongField(LongField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LongField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongField(LongField const&) = delete;
+  LongField(LongFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4245 };

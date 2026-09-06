@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElementAsset.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementAsset.hpp"
 #include "UnityEngine/UIElements/zzzz__PickingMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlAsset_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementAsset_def.hpp"

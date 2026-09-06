@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\KeyValuePair_2.hpp"
+// IWYU pragma private; include "System/Collections/Generic/KeyValuePair_2.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 template <typename TKey, typename TValue> inline void System::Collections::Generic::KeyValuePair_2<TKey, TValue>::_ctor(TKey key, TValue value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,8 @@ template <typename TKey, typename TValue> inline void System::Collections::Gener
                                                                                          { "Deconstruct", {}, { ::i2c::type_of<::by_ref<TKey>>(), ::i2c::type_of<::by_ref<TValue>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, key, value);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "TKey", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "key", ty: "TKey", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>::KeyValuePair_2(TKey key, TValue value) noexcept {
   this->key = key;
   this->value = value;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\PreferenceDictionary.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/PreferenceDictionary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -308,13 +308,13 @@ protected:
   constexpr PreferenceDictionary();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreferenceDictionary", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreferenceDictionary", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreferenceDictionary(PreferenceDictionary&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreferenceDictionary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreferenceDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreferenceDictionary(PreferenceDictionary const&) = delete;
+  PreferenceDictionary(PreferenceDictionaryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16762 };
@@ -337,39 +337,51 @@ public:
   /// @brief Field m_Material, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* ___m_Material;
 
+  /// [SerializeField]
   /// @brief Field m_Bool_keys, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Bool_keys;
 
+  /// [SerializeField]
   /// @brief Field m_Int_keys, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Int_keys;
 
+  /// [SerializeField]
   /// @brief Field m_Float_keys, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Float_keys;
 
+  /// [SerializeField]
   /// @brief Field m_String_keys, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_String_keys;
 
+  /// [SerializeField]
   /// @brief Field m_Color_keys, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Color_keys;
 
+  /// [SerializeField]
   /// @brief Field m_Material_keys, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Material_keys;
 
+  /// [SerializeField]
   /// @brief Field m_Bool_values, offset: 0x78, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<bool>* ___m_Bool_values;
 
+  /// [SerializeField]
   /// @brief Field m_Int_values, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___m_Int_values;
 
+  /// [SerializeField]
   /// @brief Field m_Float_values, offset: 0x88, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<float_t>* ___m_Float_values;
 
+  /// [SerializeField]
   /// @brief Field m_String_values, offset: 0x90, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_String_values;
 
+  /// [SerializeField]
   /// @brief Field m_Color_values, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Color>* ___m_Color_values;
 
+  /// [SerializeField]
   /// @brief Field m_Material_values, offset: 0xa0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* ___m_Material_values;
 

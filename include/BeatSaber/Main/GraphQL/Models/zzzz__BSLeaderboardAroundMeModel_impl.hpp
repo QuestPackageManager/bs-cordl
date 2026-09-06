@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\BSLeaderboardAroundMeModel.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/BSLeaderboardAroundMeModel.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Main/GraphQL/Models/zzzz__BSLeaderboardAroundMeModel_def.hpp"
@@ -380,6 +380,7 @@ inline ::System::Collections::IEnumerator* BeatSaber::Main::GraphQL::Models::
           { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::BeatSaber::Main::GraphQL::Models::
     NodesModel_LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel__GetNestedFragments_d__5*
     BeatSaber::Main::GraphQL::Models::
@@ -751,7 +752,7 @@ constexpr void BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentMod
 }
 inline void
 BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_LeaderboardEntriesAroundPlayerPageModel::set_Nodes(
-    ::System::Collections::Generic::List_1<
+    /* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<
         ::BeatSaber::Main::GraphQL::Models::
             LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_NodesModel*>* value) {
   static auto* ___internal_method = THROW_UNLESS(

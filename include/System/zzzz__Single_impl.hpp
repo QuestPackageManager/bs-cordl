@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Single.hpp"
+// IWYU pragma private; include "System/Single.hpp"
 #include "System/zzzz__Single_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
@@ -771,7 +771,7 @@ constexpr System::Single::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::Single::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Single::Single(float_t m_value) noexcept {
   this->m_value = m_value;
 }

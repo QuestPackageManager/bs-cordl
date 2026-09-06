@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\MinimalMainThreadExecutor.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/MinimalMainThreadExecutor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__MinimalMainThreadExecutor_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

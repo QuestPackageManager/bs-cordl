@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\HorizontalOrVerticalLayoutGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UI/HorizontalOrVerticalLayoutGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class HorizontalOrVerticalLayoutGroup;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");
+// [ExecuteAlways]
 // Dependencies UnityEngine.UI.LayoutGroup
 namespace UnityEngine::UI {
 // Is value type: false
@@ -180,38 +181,46 @@ protected:
   constexpr HorizontalOrVerticalLayoutGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HorizontalOrVerticalLayoutGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HorizontalOrVerticalLayoutGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HorizontalOrVerticalLayoutGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HorizontalOrVerticalLayoutGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroup const&) = delete;
+  HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17453 };
 
+  /// [SerializeField]
   /// @brief Field m_Spacing, offset: 0x60, size: 0x4, def value: None
   float_t ___m_Spacing;
 
+  /// [SerializeField]
   /// @brief Field m_ChildForceExpandWidth, offset: 0x64, size: 0x1, def value: None
   bool ___m_ChildForceExpandWidth;
 
+  /// [SerializeField]
   /// @brief Field m_ChildForceExpandHeight, offset: 0x65, size: 0x1, def value: None
   bool ___m_ChildForceExpandHeight;
 
+  /// [SerializeField]
   /// @brief Field m_ChildControlWidth, offset: 0x66, size: 0x1, def value: None
   bool ___m_ChildControlWidth;
 
+  /// [SerializeField]
   /// @brief Field m_ChildControlHeight, offset: 0x67, size: 0x1, def value: None
   bool ___m_ChildControlHeight;
 
+  /// [SerializeField]
   /// @brief Field m_ChildScaleWidth, offset: 0x68, size: 0x1, def value: None
   bool ___m_ChildScaleWidth;
 
+  /// [SerializeField]
   /// @brief Field m_ChildScaleHeight, offset: 0x69, size: 0x1, def value: None
   bool ___m_ChildScaleHeight;
 
+  /// [SerializeField]
   /// @brief Field m_ReverseArrangement, offset: 0x6a, size: 0x1, def value: None
   bool ___m_ReverseArrangement;
 

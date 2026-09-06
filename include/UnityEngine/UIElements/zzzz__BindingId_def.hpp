@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingId.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ struct BindingId;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::BindingId);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BindingId, "UnityEngine.UIElements", "BindingId");
+// [IsReadOnly]
 // Dependencies Unity.Properties.PropertyPath
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -53,7 +54,7 @@ public:
   inline void _ctor(::StringW path);
 
   /// @brief Method .ctor, addr 0x6cca058, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::Unity::Properties::PropertyPath> path);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_Invalid();
 
@@ -61,22 +62,22 @@ public:
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BindingId>* i___System__IEquatable_1___UnityEngine__UIElements__BindingId_();
 
   /// @brief Method op_Equality, addr 0x6cca2a8, size 0x50, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::UnityEngine::UIElements::BindingId> lhs, ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
 
   /// @brief Method op_Implicit, addr 0x6cca09c, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW op_Implicit___StringW(::by_ref<::UnityEngine::UIElements::BindingId> vep);
+  static inline ::StringW op_Implicit___StringW(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> vep);
 
   /// @brief Method op_Implicit, addr 0x6cca0a4, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(::StringW name);
 
   /// @brief Method op_Implicit, addr 0x6cca12c, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(::by_ref<::Unity::Properties::PropertyPath> path);
+  static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
 
   /// @brief Method op_Implicit, addr 0x6cca08c, size 0x10, virtual false, abstract: false, final false
-  static inline ::Unity::Properties::PropertyPath op_Implicit___Unity__Properties__PropertyPath(::by_ref<::UnityEngine::UIElements::BindingId> vep);
+  static inline ::Unity::Properties::PropertyPath op_Implicit___Unity__Properties__PropertyPath(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> vep);
 
   /// @brief Method op_Inequality, addr 0x6cca2f8, size 0x9c, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::by_ref<::UnityEngine::UIElements::BindingId> lhs, ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
 
   static inline void setStaticF_Invalid(::UnityEngine::UIElements::BindingId value);
 
@@ -84,8 +85,8 @@ public:
   // @brief default ctor
   constexpr BindingId();
 
-  // Ctor Parameters [CppParam { name: "m_PropertyPath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: None }, CppParam { name: "m_Path", ty: "::StringW", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_PropertyPath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Path", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr BindingId(::Unity::Properties::PropertyPath m_PropertyPath, ::StringW m_Path) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

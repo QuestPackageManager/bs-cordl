@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\GroupOperation.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/GroupOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ MARK_REF_T(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings, "UnityEngine.ResourceManagement.AsyncOperations",
                     "GroupOperation/GroupOperationSettings");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "GroupOperation");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
@@ -82,7 +83,7 @@ public:
   // @brief default ctor
   constexpr GroupOperation_GroupOperationSettings();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GroupOperation_GroupOperationSettings(int32_t value__) noexcept;
 
   /// @brief Field AllowFailedDependencies value: I32(2)
@@ -196,9 +197,11 @@ public:
   /// @brief Method ReleaseDependencies, addr 0x6927718, size 0x268, virtual true, abstract: false, final false
   inline void ReleaseDependencies();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x692763c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key, addr 0x6927644, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
@@ -256,13 +259,13 @@ protected:
   constexpr GroupOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupOperation(GroupOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupOperation(GroupOperation const&) = delete;
+  GroupOperation(GroupOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18824 };
@@ -285,6 +288,7 @@ public:
   /// @brief Field debugName, offset: 0xa8, size: 0x8, def value: None
   ::StringW ___debugName;
 
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Key>k__BackingField, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* ____UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
 

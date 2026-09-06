@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XName.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,6 +127,7 @@ public:
   /// @brief Method op_Equality, addr 0x61a3280, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::Linq::XName* left, ::System::Xml::Linq::XName* right);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x61aad98, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XName* op_Implicit___System__Xml__Linq__XName_(::StringW expandedName);
 
@@ -136,13 +137,13 @@ protected:
   constexpr XName();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XName", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XName", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XName(XName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XName(XName const&) = delete;
+  XName(XNameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21988 };

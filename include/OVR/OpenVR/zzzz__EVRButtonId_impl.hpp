@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\EVRButtonId.hpp"
+// IWYU pragma private; include "OVR/OpenVR/EVRButtonId.hpp"
 #include "OVR/OpenVR/zzzz__EVRButtonId_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::EVRButtonId::EVRButtonId(int32_t value__) noexcept {
   this->value__ = value__;
 }

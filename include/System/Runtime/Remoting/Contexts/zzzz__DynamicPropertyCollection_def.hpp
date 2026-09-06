@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Contexts\DynamicPropertyCollection.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/DynamicPropertyCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr DynamicPropertyCollection_DynamicPropertyReg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection_DynamicPropertyReg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection_DynamicPropertyReg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicPropertyCollection_DynamicPropertyReg(DynamicPropertyCollection_DynamicPropertyReg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection_DynamicPropertyReg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection_DynamicPropertyReg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicPropertyCollection_DynamicPropertyReg(DynamicPropertyCollection_DynamicPropertyReg const&) = delete;
+  DynamicPropertyCollection_DynamicPropertyReg(DynamicPropertyCollection_DynamicPropertyRegconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3115 };
@@ -143,13 +143,13 @@ protected:
   constexpr DynamicPropertyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicPropertyCollection(DynamicPropertyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicPropertyCollection(DynamicPropertyCollection const&) = delete;
+  DynamicPropertyCollection(DynamicPropertyCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3116 };

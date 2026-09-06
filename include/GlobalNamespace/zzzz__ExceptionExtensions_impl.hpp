@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ExceptionExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ExceptionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ExceptionExtensions_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

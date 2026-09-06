@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\ValueTask.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/ValueTask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ MARK_VAL_T(::System::Threading::Tasks::ValueTask);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask___c*, "System.Threading.Tasks", "ValueTask/ValueTaskSourceAsTask/<>c");
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::ValueTask_ValueTaskSourceAsTask*, "System.Threading.Tasks", "ValueTask/ValueTaskSourceAsTask");
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::ValueTask, "System.Threading.Tasks", "ValueTask");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -81,13 +82,13 @@ protected:
   constexpr ValueTaskSourceAsTask_ValueTask___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskSourceAsTask_ValueTask___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskSourceAsTask_ValueTask___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueTaskSourceAsTask_ValueTask___c(ValueTaskSourceAsTask_ValueTask___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskSourceAsTask_ValueTask___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskSourceAsTask_ValueTask___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueTaskSourceAsTask_ValueTask___c(ValueTaskSourceAsTask_ValueTask___c const&) = delete;
+  ValueTaskSourceAsTask_ValueTask___c(ValueTaskSourceAsTask_ValueTask___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2776 };
@@ -143,13 +144,13 @@ protected:
   constexpr ValueTask_ValueTaskSourceAsTask();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueTask_ValueTaskSourceAsTask", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTask_ValueTaskSourceAsTask", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueTask_ValueTaskSourceAsTask(ValueTask_ValueTaskSourceAsTask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueTask_ValueTaskSourceAsTask", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTask_ValueTaskSourceAsTask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueTask_ValueTaskSourceAsTask(ValueTask_ValueTaskSourceAsTask const&) = delete;
+  ValueTask_ValueTaskSourceAsTask(ValueTask_ValueTaskSourceAsTaskconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2777 };
@@ -170,6 +171,8 @@ static_assert(offsetof(::System::Threading::Tasks::ValueTask_ValueTaskSourceAsTa
 static_assert(sizeof(::System::Threading::Tasks::ValueTask_ValueTaskSourceAsTask) == 0x68, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
+// [IsReadOnly]
+// [AsyncMethodBuilder(typeof(System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder))]
 // Dependencies
 namespace System::Threading::Tasks {
 // Is value type: true
@@ -208,6 +211,7 @@ public:
   /// @brief Method GetTaskForValueTaskSource, addr 0x5cbbae8, size 0x2fc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GetTaskForValueTaskSource(::System::Threading::Tasks::Sources::IValueTaskSource* t);
 
+  /// [StackTraceHidden]
   /// @brief Method ThrowIfCompletedUnsuccessfully, addr 0x5cbc0e0, size 0x124, virtual false, abstract: false, final false
   inline void ThrowIfCompletedUnsuccessfully();
 
@@ -237,8 +241,8 @@ public:
   // @brief default ctor
   constexpr ValueTask();
 
-  // Ctor Parameters [CppParam { name: "_obj", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_token", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_continueOnCapturedContext", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_obj", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_token", ty: "int16_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_continueOnCapturedContext", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ValueTask(::System::Object* _obj, int16_t _token, bool _continueOnCapturedContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

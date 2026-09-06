@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalCallbackWithLookupWrapper.hpp"
+// IWYU pragma private; include "Zenject/SignalCallbackWithLookupWrapper.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalCallbackWithLookupWrapper_def.hpp"

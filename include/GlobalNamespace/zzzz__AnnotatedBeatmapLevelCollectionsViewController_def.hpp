@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AnnotatedBeatmapLevelCollectionsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/AnnotatedBeatmapLevelCollectionsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -157,12 +157,15 @@ public:
   /// @brief Method .ctor, addr 0x594d348, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didCloseBeatmapLevelCollectionsEvent, addr 0x594c6ac, size 0xac, virtual false, abstract: false, final false
   inline void add_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didOpenBeatmapLevelCollectionsEvent, addr 0x594c554, size 0xac, virtual false, abstract: false, final false
   inline void add_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x594c804, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
@@ -172,12 +175,15 @@ public:
   /// @brief Method get_selectedItemIndex, addr 0x594cac0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedItemIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didCloseBeatmapLevelCollectionsEvent, addr 0x594c758, size 0xac, virtual false, abstract: false, final false
   inline void remove_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didOpenBeatmapLevelCollectionsEvent, addr 0x594c600, size 0xac, virtual false, abstract: false, final false
   inline void remove_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectAnnotatedBeatmapLevelCollectionEvent, addr 0x594c8c4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
@@ -187,32 +193,38 @@ protected:
   constexpr AnnotatedBeatmapLevelCollectionsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnnotatedBeatmapLevelCollectionsViewController(AnnotatedBeatmapLevelCollectionsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnnotatedBeatmapLevelCollectionsViewController(AnnotatedBeatmapLevelCollectionsViewController const&) = delete;
+  AnnotatedBeatmapLevelCollectionsViewController(AnnotatedBeatmapLevelCollectionsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6922 };
 
+  /// [SerializeField]
   /// @brief Field _annotatedBeatmapLevelCollectionsGridView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView> ____annotatedBeatmapLevelCollectionsGridView;
 
+  /// [SerializeField]
   /// @brief Field _loadingControl, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____loadingControl;
 
+  /// [Inject]
   /// @brief Field _additionalContentModel, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didOpenBeatmapLevelCollectionsEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ___didOpenBeatmapLevelCollectionsEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didCloseBeatmapLevelCollectionsEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action* ___didCloseBeatmapLevelCollectionsEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectAnnotatedBeatmapLevelCollectionEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* ___didSelectAnnotatedBeatmapLevelCollectionEvent;
 

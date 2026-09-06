@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ProBuilderMesh.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -149,6 +149,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::ProBuilderMesh___c*, "UnityEngine
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::ProBuilderMesh___c__DisplayClass175_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass175_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::ProBuilderMesh___c__DisplayClass177_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass177_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::ProBuilderMesh_NonVersionedEditScope, "UnityEngine.ProBuilder", "ProBuilderMesh/NonVersionedEditScope");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: true
@@ -178,7 +179,7 @@ public:
   // @brief default ctor
   constexpr ProBuilderMesh_CacheValidState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProBuilderMesh_CacheValidState(uint8_t value__) noexcept;
 
   /// @brief Field SharedTexture value: U8(2)
@@ -227,8 +228,8 @@ public:
   // @brief default ctor
   constexpr ProBuilderMesh_NonVersionedEditScope();
 
-  // Ctor Parameters [CppParam { name: "m_Mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: None }, CppParam { name: "m_VersionIndex", ty: "uint16_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_VersionIndex", ty:
+  // "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProBuilderMesh_NonVersionedEditScope(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh, uint16_t m_VersionIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -253,6 +254,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::ProBuilderMesh_NonVersionedEdi
 static_assert(sizeof(::UnityEngine::ProBuilder::ProBuilderMesh_NonVersionedEditScope) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -328,13 +330,13 @@ protected:
   constexpr ProBuilderMesh___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProBuilderMesh___c(ProBuilderMesh___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProBuilderMesh___c(ProBuilderMesh___c const&) = delete;
+  ProBuilderMesh___c(ProBuilderMesh___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16783 };
@@ -345,6 +347,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::ProBuilderMesh___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -375,13 +378,13 @@ protected:
   constexpr ProBuilderMesh___c__DisplayClass175_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c__DisplayClass175_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c__DisplayClass175_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProBuilderMesh___c__DisplayClass175_0(ProBuilderMesh___c__DisplayClass175_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c__DisplayClass175_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c__DisplayClass175_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProBuilderMesh___c__DisplayClass175_0(ProBuilderMesh___c__DisplayClass175_0 const&) = delete;
+  ProBuilderMesh___c__DisplayClass175_0(ProBuilderMesh___c__DisplayClass175_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16784 };
@@ -397,6 +400,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::ProBuilderMesh___c__DisplayCla
 static_assert(sizeof(::UnityEngine::ProBuilder::ProBuilderMesh___c__DisplayClass175_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -427,13 +431,13 @@ protected:
   constexpr ProBuilderMesh___c__DisplayClass177_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c__DisplayClass177_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c__DisplayClass177_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProBuilderMesh___c__DisplayClass177_0(ProBuilderMesh___c__DisplayClass177_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c__DisplayClass177_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh___c__DisplayClass177_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProBuilderMesh___c__DisplayClass177_0(ProBuilderMesh___c__DisplayClass177_0 const&) = delete;
+  ProBuilderMesh___c__DisplayClass177_0(ProBuilderMesh___c__DisplayClass177_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16785 };
@@ -449,6 +453,12 @@ static_assert(offsetof(::UnityEngine::ProBuilder::ProBuilderMesh___c__DisplayCla
 static_assert(sizeof(::UnityEngine::ProBuilder::ProBuilderMesh___c__DisplayClass177_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [AddComponentMenu("//ProBuilder MeshFilter")]
+// [RequireComponent(typeof(UnityEngine.MeshRenderer))]
+// [DisallowMultipleComponent]
+// [ExecuteInEditMode]
+// [ExcludeFromPreset]
+// [ExcludeFromObjectFactory]
 // Dependencies UnityEngine.Color, UnityEngine.HideFlags, UnityEngine.MonoBehaviour, UnityEngine.ProBuilder.Edge, UnityEngine.ProBuilder.Face, UnityEngine.ProBuilder.ProBuilderMesh::CacheValidState,
 // UnityEngine.ProBuilder.SharedVertex, UnityEngine.Vector2, UnityEngine.Vector3, UnityEngine.Vector4
 namespace UnityEngine::ProBuilder {
@@ -498,6 +508,7 @@ public:
 
   __declspec(property(get = get_filter)) ::UnityW<::UnityEngine::MeshFilter> filter;
 
+  /// @brief [Obsolete("InstanceID is not used to track mesh references as of 2023/04/12")]
   __declspec(property(get = get_id)) int32_t id;
 
   __declspec(property(get = get_indexCount)) int32_t indexCount;
@@ -902,12 +913,15 @@ public:
   /// @brief Method UnusedElementGroup, addr 0x66d857c, size 0xf8, virtual false, abstract: false, final false
   inline int32_t UnusedElementGroup(int32_t i);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetSelectedFaces>b__246_0, addr 0x66dbb60, size 0x5c, virtual false, abstract: false, final false
   inline int32_t _SetSelectedFaces_b__246_0(::UnityEngine::ProBuilder::Face* x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetSelectedFaces>b__247_0, addr 0x66dbbbc, size 0x48, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _SetSelectedFaces_b__247_0(int32_t x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetSelectedFaces>b__247_1, addr 0x66dbc04, size 0x38, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* _SetSelectedFaces_b__247_1(int32_t x);
 
@@ -1106,21 +1120,27 @@ public:
   /// @brief Method .ctor, addr 0x66db940, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <set_selectedFacesInternal>b__232_0, addr 0x66dbb04, size 0x5c, virtual false, abstract: false, final false
   inline int32_t _set_selectedFacesInternal_b__232_0(::UnityEngine::ProBuilder::Face* x);
 
+  /// [CompilerGenerated]
   /// @brief Method add_componentHasBeenReset, addr 0x66d5de0, size 0x108, virtual false, abstract: false, final false
   static inline void add_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_componentWillBeDestroyed, addr 0x66d5bd0, size 0x108, virtual false, abstract: false, final false
   static inline void add_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_elementSelectionChanged, addr 0x66d5ff0, size 0x108, virtual false, abstract: false, final false
   static inline void add_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_meshWasInitialized, addr 0x66d59c0, size 0x108, virtual false, abstract: false, final false
   static inline void add_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_meshWillBeDestroyed, addr 0x66d57b8, size 0x104, virtual false, abstract: false, final false
   static inline void add_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
@@ -1277,6 +1297,7 @@ public:
   /// @brief Method get_unwrapParameters, addr 0x66d3014, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::UnwrapParameters* get_unwrapParameters();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userCollisions, addr 0x66d3004, size 0x8, virtual false, abstract: false, final false
   inline bool get_userCollisions();
 
@@ -1286,18 +1307,23 @@ public:
   /// @brief Method get_vertexCount, addr 0x66cf2c8, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_vertexCount();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_componentHasBeenReset, addr 0x66d5ee8, size 0x108, virtual false, abstract: false, final false
   static inline void remove_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_componentWillBeDestroyed, addr 0x66d5cd8, size 0x108, virtual false, abstract: false, final false
   static inline void remove_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_elementSelectionChanged, addr 0x66d60f8, size 0x108, virtual false, abstract: false, final false
   static inline void remove_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_meshWasInitialized, addr 0x66d5ac8, size 0x108, virtual false, abstract: false, final false
   static inline void remove_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_meshWillBeDestroyed, addr 0x66d58bc, size 0x104, virtual false, abstract: false, final false
   static inline void remove_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
@@ -1385,6 +1411,7 @@ public:
   /// @brief Method set_unwrapParameters, addr 0x66d301c, size 0x8, virtual false, abstract: false, final false
   inline void set_unwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_userCollisions, addr 0x66d300c, size 0x8, virtual false, abstract: false, final false
   inline void set_userCollisions(bool value);
 
@@ -1394,13 +1421,13 @@ protected:
   constexpr ProBuilderMesh();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProBuilderMesh(ProBuilderMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProBuilderMesh(ProBuilderMesh const&) = delete;
+  ProBuilderMesh(ProBuilderMeshconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16786 };
@@ -1429,12 +1456,18 @@ public:
   /// @brief Field maxVertexCount offset 0xffffffff size 0x4
   static constexpr uint32_t maxVertexCount{ static_cast<uint32_t>(0xffffu) };
 
+  /// [SerializeField]
   /// @brief Field m_MeshFormatVersion, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_MeshFormatVersion;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_quads")]
   /// @brief Field m_Faces, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::ProBuilder::Face*> ___m_Faces;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_sharedIndices")]
+  /// [FormerlySerializedAs("m_SharedVertexes")]
   /// @brief Field m_SharedVertices, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> ___m_SharedVertices;
 
@@ -1444,45 +1477,66 @@ public:
   /// @brief Field m_SharedVertexLookup, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* ___m_SharedVertexLookup;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_sharedIndicesUV")]
   /// @brief Field m_SharedTextures, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> ___m_SharedTextures;
 
   /// @brief Field m_SharedTextureLookup, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* ___m_SharedTextureLookup;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_vertices")]
   /// @brief Field m_Positions, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> ___m_Positions;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_uv")]
   /// @brief Field m_Textures0, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector2> ___m_Textures0;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_uv3")]
   /// @brief Field m_Textures2, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ___m_Textures2;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_uv4")]
   /// @brief Field m_Textures3, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ___m_Textures3;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_tangents")]
   /// @brief Field m_Tangents, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> ___m_Tangents;
 
   /// @brief Field m_Normals, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> ___m_Normals;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_colors")]
   /// @brief Field m_Colors, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color> ___m_Colors;
 
+  /// [CompilerGenerated]
   /// @brief Field <userCollisions>k__BackingField, offset: 0x90, size: 0x1, def value: None
   bool ____userCollisions_k__BackingField;
 
+  /// [FormerlySerializedAs("unwrapParameters")]
+  /// [SerializeField]
   /// @brief Field m_UnwrapParameters, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::UnwrapParameters* ___m_UnwrapParameters;
 
+  /// [FormerlySerializedAs("dontDestroyMeshOnDelete")]
+  /// [SerializeField]
   /// @brief Field m_PreserveMeshAssetOnDestroy, offset: 0xa0, size: 0x1, def value: None
   bool ___m_PreserveMeshAssetOnDestroy;
 
+  /// [SerializeField]
   /// @brief Field assetGuid, offset: 0xa8, size: 0x8, def value: None
   ::StringW ___assetGuid;
 
+  /// [SerializeField]
   /// @brief Field m_Mesh, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___m_Mesh;
 
@@ -1492,21 +1546,26 @@ public:
   /// @brief Field m_MeshFilter, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ___m_MeshFilter;
 
+  /// [SerializeField]
   /// @brief Field m_VersionIndex, offset: 0xc8, size: 0x2, def value: None
   uint16_t ___m_VersionIndex;
 
   /// @brief Field m_InstanceVersionIndex, offset: 0xca, size: 0x2, def value: None
   uint16_t ___m_InstanceVersionIndex;
 
+  /// [SerializeField]
   /// @brief Field m_IsSelectable, offset: 0xcc, size: 0x1, def value: None
   bool ___m_IsSelectable;
 
+  /// [SerializeField]
   /// @brief Field m_SelectedFaces, offset: 0xd0, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_SelectedFaces;
 
+  /// [SerializeField]
   /// @brief Field m_SelectedEdges, offset: 0xd8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::ProBuilder::Edge> ___m_SelectedEdges;
 
+  /// [SerializeField]
   /// @brief Field m_SelectedVertices, offset: 0xe0, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_SelectedVertices;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Custom\GM\SM2P256V1Field.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/GM/SM2P256V1Field.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,13 +115,13 @@ protected:
   constexpr SM2P256V1Field();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Field", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Field", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SM2P256V1Field(SM2P256V1Field&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Field", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SM2P256V1Field(SM2P256V1Field const&) = delete;
+  SM2P256V1Field(SM2P256V1Fieldconst&) = delete;
 
   /// @brief Field P7 offset 0xffffffff size 0x4
   static constexpr uint32_t P7{ static_cast<uint32_t>(0xfffffffeu) };

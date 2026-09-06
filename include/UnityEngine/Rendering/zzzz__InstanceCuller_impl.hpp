@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceCuller.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceCuller.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
@@ -127,10 +127,11 @@ constexpr UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::operator 
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "lodBias", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "context", ty: "::UnityEngine::Rendering::BatchCullingContext*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "receiverPlanes", ty: "::UnityEngine::Rendering::ReceiverPlanes*", modifiers: "", def_value: Some("{}") }, CppParam { name: "receiverSphereCuller", ty:
-// "::UnityEngine::Rendering::ReceiverSphereCuller*", modifiers: "", def_value: Some("{}") }, CppParam { name: "frustumPlaneCuller", ty: "::UnityEngine::Rendering::FrustumPlaneCuller*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "screenRelativeMetric", ty: "float_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "lodBias", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "context", ty: "::UnityEngine::Rendering::BatchCullingContext*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "receiverPlanes", ty: "::UnityEngine::Rendering::ReceiverPlanes*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "receiverSphereCuller", ty: "::UnityEngine::Rendering::ReceiverSphereCuller*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "frustumPlaneCuller", ty:
+// "::UnityEngine::Rendering::FrustumPlaneCuller*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "screenRelativeMetric", ty: "float_t*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::InstanceCuller_SetupCullingJobInput(float_t lodBias, ::UnityEngine::Rendering::BatchCullingContext* context,
                                                                                                              ::UnityEngine::Rendering::ReceiverPlanes* receiverPlanes,
                                                                                                              ::UnityEngine::Rendering::ReceiverSphereCuller* receiverSphereCuller,
@@ -599,10 +600,11 @@ inline void UnityEngine::Rendering::InstanceCuller::Init(::UnityEngine::Renderin
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, resources, debugStats);
 }
 inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateFrustumCullingJob(
-    ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
-    ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly> sharedInstanceData, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData,
-    ::by_ref<::UnityEngine::Rendering::BinningConfig> binningConfig, float_t smallMeshScreenPercentage, ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon,
-    ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues) {
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly> sharedInstanceData,
+    ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BinningConfig> binningConfig,
+    float_t smallMeshScreenPercentage, ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon, ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks,
+    ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -616,7 +618,7 @@ inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateFr
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, cc, instanceData, sharedInstanceData, lodGroupCullingData, binningConfig, smallMeshScreenPercentage,
                                                                        occlusionCullingCommon, rendererVisibilityMasks, rendererCrossFadeValues);
 }
-inline int32_t UnityEngine::Rendering::InstanceCuller::ComputeWorstCaseDrawCommandCount(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
+inline int32_t UnityEngine::Rendering::InstanceCuller::ComputeWorstCaseDrawCommandCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
                                                                                         ::UnityEngine::Rendering::BinningConfig binningConfig,
                                                                                         ::UnityEngine::Rendering::CPUDrawInstanceData* drawInstanceData, int32_t crossFadedRendererCount) {
   static auto* ___internal_method =
@@ -627,12 +629,16 @@ inline int32_t UnityEngine::Rendering::InstanceCuller::ComputeWorstCaseDrawComma
                                                                ::i2c::type_of<::UnityEngine::Rendering::CPUDrawInstanceData*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, cc, binningConfig, drawInstanceData, crossFadedRendererCount);
 }
-inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateCullJobTree(
-    ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::UnityEngine::Rendering::BatchCullingOutput cullingOutput, ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
-    ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly> sharedInstanceData, ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly> instanceDataBuffer,
-    ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData, ::UnityEngine::Rendering::CPUDrawInstanceData* drawInstanceData,
-    ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID> batchIDs, int32_t crossFadedRendererCount, float_t smallMeshScreenPercentage,
-    ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon) {
+inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateCullJobTree(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
+                                                                                          ::UnityEngine::Rendering::BatchCullingOutput cullingOutput,
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly> sharedInstanceData,
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly> instanceDataBuffer,
+                                                                                          ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData,
+                                                                                          ::UnityEngine::Rendering::CPUDrawInstanceData* drawInstanceData,
+                                                                                          ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID> batchIDs,
+                                                                                          int32_t crossFadedRendererCount, float_t smallMeshScreenPercentage,
+                                                                                          ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -647,7 +653,7 @@ inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateCu
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, cc, cullingOutput, instanceData, sharedInstanceData, instanceDataBuffer, lodGroupCullingData,
                                                                        drawInstanceData, batchIDs, crossFadedRendererCount, smallMeshScreenPercentage, occlusionCullingCommon);
 }
-inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateCompactedVisibilityMaskJob(::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
+inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateCompactedVisibilityMaskJob(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
                                                                                                          ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks,
                                                                                                          ::Unity::Jobs::JobHandle cullingJobHandle) {
   static auto* ___internal_method =
@@ -679,7 +685,7 @@ inline ::UnityEngine::Rendering::ParallelBitArray UnityEngine::Rendering::Instan
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ParallelBitArray>(*this, ___internal_method, syncCullingJobs);
 }
 inline void UnityEngine::Rendering::InstanceCuller::InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                          ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
                                                                           ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests,
                                                                           ::UnityEngine::Rendering::RenderersBatchersContext* batchersContext) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -697,10 +703,10 @@ inline void UnityEngine::Rendering::InstanceCuller::EnsureValidOcclusionTestResu
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, viewInstanceID);
 }
 inline void UnityEngine::Rendering::InstanceCuller::AddOcclusionCullingDispatch(::UnityEngine::Rendering::ComputeCommandBuffer* cmd,
-                                                                                ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
-                                                                                ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
-                                                                                ::by_ref<::UnityEngine::Rendering::IndirectBufferContextHandles> bufferHandles,
-                                                                                ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferContextHandles> bufferHandles,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles,
                                                                                 ::UnityEngine::Rendering::RenderersBatchersContext* batchersContext) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
@@ -750,17 +756,18 @@ constexpr UnityEngine::Rendering::InstanceCuller::operator ::System::IDisposable
 constexpr ::System::IDisposable* UnityEngine::Rendering::InstanceCuller::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_CompactedVisibilityMasks", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_CompactedVisibilityMasksJobsHandle", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IndirectStorage", ty:
-// "::UnityEngine::Rendering::IndirectBufferContextStorage", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OcclusionTestShader", ty:
-// "::UnityEngine::Rendering::OcclusionTestComputeShader", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ResetDrawArgsKernel", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_CopyInstancesKernel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CullInstancesKernel", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_DebugStats", ty: "::UnityEngine::Rendering::DebugRendererBatcherStats*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SplitDebugArray", ty:
-// "::UnityEngine::Rendering::InstanceCullerSplitDebugArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OcclusionEventDebugArray", ty:
-// "::UnityEngine::Rendering::InstanceOcclusionEventDebugArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ProfilingSampleInstanceOcclusionTest", ty:
-// "::UnityEngine::Rendering::ProfilingSampler*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ShaderVariables", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ConstantBuffer", ty:
-// "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CommandBuffer", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_CompactedVisibilityMasks", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_CompactedVisibilityMasksJobsHandle", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IndirectStorage", ty:
+// "::UnityEngine::Rendering::IndirectBufferContextStorage", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OcclusionTestShader", ty:
+// "::UnityEngine::Rendering::OcclusionTestComputeShader", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ResetDrawArgsKernel", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_CopyInstancesKernel", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CullInstancesKernel", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DebugStats", ty: "::UnityEngine::Rendering::DebugRendererBatcherStats*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_SplitDebugArray", ty: "::UnityEngine::Rendering::InstanceCullerSplitDebugArray", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_OcclusionEventDebugArray", ty: "::UnityEngine::Rendering::InstanceOcclusionEventDebugArray", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_ProfilingSampleInstanceOcclusionTest", ty: "::UnityEngine::Rendering::ProfilingSampler*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ShaderVariables", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ConstantBuffer",
+// ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CommandBuffer", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceCuller::InstanceCuller(::UnityEngine::Rendering::ParallelBitArray m_CompactedVisibilityMasks, ::Unity::Jobs::JobHandle m_CompactedVisibilityMasksJobsHandle,
                                                                    ::UnityEngine::Rendering::IndirectBufferContextStorage m_IndirectStorage,
                                                                    ::UnityEngine::Rendering::OcclusionTestComputeShader m_OcclusionTestShader, int32_t m_ResetDrawArgsKernel,

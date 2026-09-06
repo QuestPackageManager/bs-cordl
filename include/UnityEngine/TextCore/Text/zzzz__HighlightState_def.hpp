@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\HighlightState.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/HighlightState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,8 +50,8 @@ public:
   // @brief default ctor
   constexpr HighlightState();
 
-  // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "::UnityEngine::TextCore::Text::Offset", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "padding", ty: "::UnityEngine::TextCore::Text::Offset",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HighlightState(::UnityEngine::Color32 color, ::UnityEngine::TextCore::Text::Offset padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

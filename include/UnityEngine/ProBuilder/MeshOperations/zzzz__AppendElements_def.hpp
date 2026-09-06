@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\AppendElements.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/AppendElements.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::AppendElements___c__Displa
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::AppendElements*, "UnityEngine.ProBuilder.MeshOperations", "AppendElements");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::AppendElements___c*, "UnityEngine.ProBuilder.MeshOperations", "AppendElements/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::AppendElements___c__DisplayClass17_0*, "UnityEngine.ProBuilder.MeshOperations", "AppendElements/<>c__DisplayClass17_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -141,13 +142,13 @@ protected:
   constexpr AppendElements___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppendElements___c(AppendElements___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppendElements___c(AppendElements___c const&) = delete;
+  AppendElements___c(AppendElements___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16851 };
@@ -158,6 +159,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::AppendElements___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -188,13 +190,13 @@ protected:
   constexpr AppendElements___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppendElements___c__DisplayClass17_0(AppendElements___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppendElements___c__DisplayClass17_0(AppendElements___c__DisplayClass17_0 const&) = delete;
+  AppendElements___c__DisplayClass17_0(AppendElements___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16852 };
@@ -210,6 +212,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::AppendElements
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::AppendElements___c__DisplayClass17_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -221,63 +224,79 @@ public:
 
   using __c__DisplayClass17_0 = ::UnityEngine::ProBuilder::MeshOperations::AppendElements___c__DisplayClass17_0;
 
+  /// [Extension]
   /// @brief Method AppendFace, addr 0x670d29c, size 0x8b0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* AppendFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::Vector3> positions, ::ArrayW<::UnityEngine::Color> colors,
                                                             ::ArrayW<::UnityEngine::Vector2> uv0s, ::ArrayW<::UnityEngine::Vector4> uv2s, ::ArrayW<::UnityEngine::Vector4> uv3s,
                                                             ::UnityEngine::ProBuilder::Face* face, ::ArrayW<int32_t> common);
 
+  /// [Extension]
   /// @brief Method AppendFaces, addr 0x670db4c, size 0x65c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> AppendFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::ArrayW<::UnityEngine::Vector3>> positions,
                                                                        ::ArrayW<::ArrayW<::UnityEngine::Color>> colors, ::ArrayW<::ArrayW<::UnityEngine::Vector2>> uvs,
                                                                        ::ArrayW<::UnityEngine::ProBuilder::Face*> faces, ::ArrayW<::ArrayW<int32_t>> shared);
 
+  /// [Extension]
   /// @brief Method AppendVerticesToEdge, addr 0x6712f00, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* AppendVerticesToEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge,
                                                                                                               int32_t count);
 
+  /// [Extension]
   /// @brief Method AppendVerticesToEdge, addr 0x6712f84, size 0x1c70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*
   AppendVerticesToEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges, int32_t count);
 
+  /// [Extension]
   /// @brief Method AppendVerticesToFace, addr 0x6712228, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* AppendVerticesToFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::ArrayW<::UnityEngine::Vector3> points);
 
+  /// [Extension]
   /// @brief Method AppendVerticesToFace, addr 0x6712230, size 0xc54, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* AppendVerticesToFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::ArrayW<::UnityEngine::Vector3> points,
                                                                       bool insertOnEdge);
 
+  /// [Extension]
   /// @brief Method Bridge, addr 0x6710b98, size 0x13c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* Bridge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b,
                                                         bool allowNonManifoldGeometry);
 
+  /// [Extension]
   /// @brief Method ClearAndRefreshMesh, addr 0x670f514, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearAndRefreshMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
+  /// [Extension]
   /// @brief Method CreatePolygon, addr 0x670e1a8, size 0x518, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* CreatePolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* indexes, bool unordered);
 
+  /// [Extension]
   /// @brief Method CreatePolygonWithHole, addr 0x670e788, size 0x8e8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* CreatePolygonWithHole(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                                                        ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<int32_t>*>* holes);
 
+  /// [Extension]
   /// @brief Method CreateShapeFromPolygon, addr 0x670f50c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t extrude, bool flipNormals);
 
+  /// [Extension]
+  /// [Obsolete("Face.CreateShapeFromPolygon is deprecated as it no longer relies on camera look at.")]
   /// @brief Method CreateShapeFromPolygon, addr 0x67100f4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t extrude, bool flipNormals,
                                                                                 ::UnityEngine::Vector3 cameraLookAt,
                                                                                 ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* holePoints);
 
+  /// [Extension]
   /// @brief Method CreateShapeFromPolygon, addr 0x670f550, size 0xba4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t extrude, bool flipNormals,
                                                                                 ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* holePoints);
 
+  /// [Extension]
   /// @brief Method CreateShapeFromPolygon, addr 0x670f4dc, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::PolyShape* poly);
 
+  /// [Extension]
   /// @brief Method DuplicateAndFlip, addr 0x67100fc, size 0x6f4, virtual false, abstract: false, final false
   static inline void DuplicateAndFlip(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*> faces);
 
@@ -289,12 +308,15 @@ public:
   FaceWithVerticesAndHole(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* borderVertices,
                           ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* holes);
 
+  /// [Extension]
   /// @brief Method InsertVertexInFace, addr 0x67151e0, size 0xe74, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> InsertVertexInFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 point);
 
+  /// [Extension]
   /// @brief Method InsertVertexInMesh, addr 0x6717414, size 0x410, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InsertVertexInMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal);
 
+  /// [Extension]
   /// @brief Method InsertVertexOnEdge, addr 0x6716054, size 0x13c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InsertVertexOnEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge originalEdge, ::UnityEngine::Vector3 point);
 
@@ -308,13 +330,13 @@ protected:
   constexpr AppendElements();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppendElements", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppendElements", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppendElements(AppendElements&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppendElements", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppendElements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppendElements(AppendElements const&) = delete;
+  AppendElements(AppendElementsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16853 };

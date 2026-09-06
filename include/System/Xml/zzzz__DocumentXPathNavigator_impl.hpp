@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\DocumentXPathNavigator.hpp"
+// IWYU pragma private; include "System/Xml/DocumentXPathNavigator.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigator_impl.hpp"
 #include "System/Xml/zzzz__DocumentXPathNavigator_def.hpp"
 #include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"

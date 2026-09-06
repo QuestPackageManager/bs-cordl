@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\SceneSelection.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/SceneSelection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class SceneSelection;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::SceneSelection*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::SceneSelection*, "UnityEngine.ProBuilder", "SceneSelection");
+// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
 // Dependencies System.Object, UnityEngine.ProBuilder.Edge
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -219,13 +220,13 @@ protected:
   constexpr SceneSelection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneSelection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneSelection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneSelection(SceneSelection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneSelection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneSelection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneSelection(SceneSelection const&) = delete;
+  SceneSelection(SceneSelectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16802 };
@@ -245,12 +246,15 @@ public:
   /// @brief Field m_Faces, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* ___m_Faces;
 
+  /// [Obsolete("Use SetSingleVertex")]
   /// @brief Field vertex, offset: 0x38, size: 0x4, def value: None
   int32_t ___vertex;
 
+  /// [Obsolete("Use SetSingleEdge")]
   /// @brief Field edge, offset: 0x3c, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Edge ___edge;
 
+  /// [Obsolete("Use SetSingleFace")]
   /// @brief Field face, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Face* ___face;
 

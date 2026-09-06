@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoAlphaColorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoAlphaColorSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,17 +48,19 @@ protected:
   constexpr NoAlphaColorSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoAlphaColorSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoAlphaColorSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoAlphaColorSO(NoAlphaColorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoAlphaColorSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoAlphaColorSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoAlphaColorSO(NoAlphaColorSO const&) = delete;
+  NoAlphaColorSO(NoAlphaColorSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23164 };
 
+  /// [SerializeField]
+  /// [ColorUsage(false)]
   /// @brief Field _color, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 

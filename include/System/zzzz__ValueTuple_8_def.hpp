@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ValueTuple_8.hpp"
+// IWYU pragma private; include "System/ValueTuple_8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,9 @@ class Object;
 }
 // Forward declare root types
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest> struct ValueTuple_8;
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+  requires(::cordl_internals::value_type_constraint<TRest> && ::cordl_internals::default_constructor_constraint<TRest>)
+struct ValueTuple_8;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::ValueTuple_8);
@@ -48,6 +50,7 @@ DEFINE_IL2CPP_GEN_CLASS(::System::ValueTuple_8, "System", "ValueTuple`8");
 namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+  requires(::cordl_internals::value_type_constraint<TRest> && ::cordl_internals::default_constructor_constraint<TRest>)
 // Is value type: true
 // CS Name: System.ValueTuple`8<T1,T2,T3,T4,T5,T6,T7,TRest>
 struct CORDL_TYPE ValueTuple_8 {
@@ -143,9 +146,10 @@ public:
   // @brief default ctor
   constexpr ValueTuple_8();
 
-  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "T3",
-  // modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None }, CppParam { name: "Item5", ty: "T5", modifiers: "", def_value: None }, CppParam { name:
-  // "Item6", ty: "T6", modifiers: "", def_value: None }, CppParam { name: "Item7", ty: "T7", modifiers: "", def_value: None }, CppParam { name: "Rest", ty: "TRest", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "Item3", ty: "T3", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item5", ty:
+  // "T5", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item6", ty: "T6", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item7", ty: "T7", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Rest", ty: "TRest", modifiers: "", def_value: None, comment: None }]
   constexpr ValueTuple_8(T1 Item1, T2 Item2, T3 Item3, T4 Item4, T5 Item5, T6 Item6, T7 Item7, TRest Rest) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

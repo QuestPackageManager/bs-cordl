@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\DebugColor.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/DebugColor.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__DebugColor_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::DebugColor::DebugColor(int32_t value__) noexcept {
   this->value__ = value__;
 }

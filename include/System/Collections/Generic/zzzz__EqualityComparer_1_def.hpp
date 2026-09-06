@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\EqualityComparer_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/EqualityComparer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ template <typename T> class EqualityComparer_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::Generic::EqualityComparer_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::EqualityComparer_1, "System.Collections.Generic", "EqualityComparer`1");
+// [TypeDependency("System.Collections.Generic.ObjectEqualityComparer`1")]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -44,10 +45,10 @@ public:
   /// @brief Method CreateComparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::EqualityComparer_1<T>* CreateComparer();
 
-  /// @brief Method Equals, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(T x, T y);
 
-  /// @brief Method GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(T obj);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -86,13 +87,13 @@ protected:
   constexpr EqualityComparer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EqualityComparer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualityComparer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EqualityComparer_1(EqualityComparer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EqualityComparer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualityComparer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EqualityComparer_1(EqualityComparer_1 const&) = delete;
+  EqualityComparer_1(EqualityComparer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3809 };

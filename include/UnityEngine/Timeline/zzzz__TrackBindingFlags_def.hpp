@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TrackBindingFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TrackBindingFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TrackBindingFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Timeline::TrackBindingFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TrackBindingFlags, "UnityEngine.Timeline", "TrackBindingFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr TrackBindingFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackBindingFlags(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(1)

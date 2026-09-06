@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\TextSegmentedControl.hpp"
+// IWYU pragma private; include "HMUI/TextSegmentedControl.hpp"
 #include "HMUI/zzzz__SegmentedControl_impl.hpp"
 #include "TMPro/zzzz__TextOverflowModes_impl.hpp"
 #include "HMUI/zzzz__TextSegmentedControl_def.hpp"

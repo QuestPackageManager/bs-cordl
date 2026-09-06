@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeCollection.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__VolumeComponent_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VolumeCollection)
 namespace System::Collections::Generic {
@@ -25,7 +26,7 @@ class VolumeCollection;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::VolumeCollection*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeCollection*, "UnityEngine.Rendering", "VolumeCollection");
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeCollection
@@ -51,7 +52,9 @@ public:
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Volume>>* GrabVolumes(::UnityEngine::LayerMask mask);
 
   /// @brief Method IsComponentActiveInMask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool IsComponentActiveInMask(::UnityEngine::LayerMask layerMask);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline bool IsComponentActiveInMask(::UnityEngine::LayerMask layerMask);
 
   static inline ::UnityEngine::Rendering::VolumeCollection* New_ctor();
 
@@ -99,13 +102,13 @@ protected:
   constexpr VolumeCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeCollection(VolumeCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeCollection(VolumeCollection const&) = delete;
+  VolumeCollection(VolumeCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12322 };

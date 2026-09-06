@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerCreatorByInstanceGetter.hpp"
+// IWYU pragma private; include "Zenject/SubContainerCreatorByInstanceGetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class SubContainerCreatorByInstanceGetter;
 // Write type traits
 MARK_REF_T(::Zenject::SubContainerCreatorByInstanceGetter*);
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerCreatorByInstanceGetter*, "Zenject", "SubContainerCreatorByInstanceGetter");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr SubContainerCreatorByInstanceGetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByInstanceGetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByInstanceGetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByInstanceGetter(SubContainerCreatorByInstanceGetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByInstanceGetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByInstanceGetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByInstanceGetter(SubContainerCreatorByInstanceGetter const&) = delete;
+  SubContainerCreatorByInstanceGetter(SubContainerCreatorByInstanceGetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14599 };

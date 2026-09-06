@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ActionResult.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ActionResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   // @brief default ctor
   constexpr ActionResult_Status();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ActionResult_Status(int32_t value__) noexcept;
 
   /// @brief Field Canceled value: I32(2)
@@ -137,18 +137,22 @@ public:
   /// @brief Method get_UserCanceled, addr 0x66b31d0, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_notification, addr 0x66b301c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_notification();
 
+  /// [CompilerGenerated]
   /// @brief Method get_status, addr 0x66b300c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::ActionResult_Status get_status();
 
   /// @brief Method op_Implicit, addr 0x66b3038, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::ProBuilder::ActionResult* res);
 
+  /// [CompilerGenerated]
   /// @brief Method set_notification, addr 0x66b3024, size 0x8, virtual false, abstract: false, final false
   inline void set_notification(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_status, addr 0x66b3014, size 0x8, virtual false, abstract: false, final false
   inline void set_status(::UnityEngine::ProBuilder::ActionResult_Status value);
 
@@ -158,20 +162,22 @@ protected:
   constexpr ActionResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActionResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActionResult(ActionResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActionResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActionResult(ActionResult const&) = delete;
+  ActionResult(ActionResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16704 };
 
+  /// [CompilerGenerated]
   /// @brief Field <status>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::ActionResult_Status ____status_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <notification>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____notification_k__BackingField;
 

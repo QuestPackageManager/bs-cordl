@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\TextureCurveParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/TextureCurveParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureCurveParameter_def.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureCurve_def.hpp"

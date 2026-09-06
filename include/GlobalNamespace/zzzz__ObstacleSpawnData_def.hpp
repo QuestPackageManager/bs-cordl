@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleSpawnData.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleSpawnData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct ObstacleSpawnData;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::ObstacleSpawnData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ObstacleSpawnData, "", "ObstacleSpawnData");
+// [IsReadOnly]
 // Dependencies UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
@@ -31,8 +32,8 @@ public:
   // @brief default ctor
   constexpr ObstacleSpawnData();
 
-  // Ctor Parameters [CppParam { name: "moveOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "obstacleWidth", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "obstacleHeight", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "moveOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "obstacleWidth", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "obstacleHeight", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ObstacleSpawnData(::UnityEngine::Vector3 moveOffset, float_t obstacleWidth, float_t obstacleHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

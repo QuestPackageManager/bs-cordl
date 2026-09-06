@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeStreamRange.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeStreamRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct UnsafeStreamRange;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamRange);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamRange, "Unity.Collections.LowLevel.Unsafe", "UnsafeStreamRange");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -27,9 +28,9 @@ public:
   // @brief default ctor
   constexpr UnsafeStreamRange();
 
-  // Ctor Parameters [CppParam { name: "Block", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None }, CppParam { name: "OffsetInFirstBlock", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "ElementCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "LastOffset", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "NumberOfBlocks", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Block", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "OffsetInFirstBlock", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ElementCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "LastOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "NumberOfBlocks", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeStreamRange(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* Block, int32_t OffsetInFirstBlock, int32_t ElementCount, int32_t LastOffset, int32_t NumberOfBlocks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

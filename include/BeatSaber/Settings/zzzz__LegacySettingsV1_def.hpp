@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\LegacySettingsV1.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/LegacySettingsV1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class LegacySettingsV1;
 // Write type traits
 MARK_REF_T(::BeatSaber::Settings::LegacySettingsV1*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Settings::LegacySettingsV1*, "BeatSaber.Settings", "LegacySettingsV1");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Settings {
 // Is value type: false
@@ -480,13 +482,13 @@ protected:
   constexpr LegacySettingsV1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV1(LegacySettingsV1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV1(LegacySettingsV1 const&) = delete;
+  LegacySettingsV1(LegacySettingsV1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22068 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SelectableCell.hpp"
+// IWYU pragma private; include "HMUI/SelectableCell.hpp"
 #include "HMUI/zzzz__Interactable_impl.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
@@ -15,7 +15,7 @@
 #include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::SelectableCell_TransitionType::SelectableCell_TransitionType(int32_t value__) noexcept {
   this->value__ = value__;
 }

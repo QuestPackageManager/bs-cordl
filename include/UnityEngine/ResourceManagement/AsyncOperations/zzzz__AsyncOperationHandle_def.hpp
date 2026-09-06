@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\AsyncOperationHandle.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_REF_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHan
 MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle___c*, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
@@ -92,13 +93,13 @@ protected:
   constexpr AsyncOperationHandle___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationHandle___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationHandle___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncOperationHandle___c(AsyncOperationHandle___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationHandle___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationHandle___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperationHandle___c(AsyncOperationHandle___c const&) = delete;
+  AsyncOperationHandle___c(AsyncOperationHandle___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18819 };
@@ -254,8 +255,8 @@ public:
   // @brief default ctor
   constexpr AsyncOperationHandle();
 
-  // Ctor Parameters [CppParam { name: "m_InternalOp", ty: "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_LocationName", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_InternalOp", ty: "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LocationName", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncOperationHandle(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* m_InternalOp, int32_t m_Version, ::StringW m_LocationName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

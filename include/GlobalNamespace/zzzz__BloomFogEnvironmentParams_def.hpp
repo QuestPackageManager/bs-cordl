@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomFogEnvironmentParams.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomFogEnvironmentParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,13 +94,13 @@ protected:
   constexpr BloomFogEnvironmentParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomFogEnvironmentParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomFogEnvironmentParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomFogEnvironmentParams(BloomFogEnvironmentParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomFogEnvironmentParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomFogEnvironmentParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomFogEnvironmentParams(BloomFogEnvironmentParams const&) = delete;
+  BloomFogEnvironmentParams(BloomFogEnvironmentParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19441 };
@@ -117,12 +117,15 @@ public:
   /// @brief Field heightFogHeight, offset: 0x24, size: 0x4, def value: None
   float_t ___heightFogHeight;
 
+  /// [Tooltip("Limits the maximum multiplication of the bloom at low intensities")]
   /// @brief Field autoExposureLimit, offset: 0x28, size: 0x4, def value: None
   float_t ___autoExposureLimit;
 
+  /// [Tooltip("Makes AE behave inverted at low light situations, making bloom stronger the more lights are on")]
   /// @brief Field legacyAutoExposure, offset: 0x2c, size: 0x1, def value: None
   bool ___legacyAutoExposure;
 
+  /// [Min(0)]
   /// @brief Field noteSpawnIntensity, offset: 0x30, size: 0x4, def value: None
   float_t ___noteSpawnIntensity;
 

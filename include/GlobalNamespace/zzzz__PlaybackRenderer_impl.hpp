@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlaybackRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlaybackRenderer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
@@ -16,7 +16,7 @@
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type::PlaybackScreenshot_PlaybackRenderer_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AsyncGPUReadbackRequest.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AsyncGPUReadbackRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -23,6 +25,10 @@ struct AsyncGPUReadbackRequest;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::AsyncGPUReadbackRequest);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::AsyncGPUReadbackRequest, "UnityEngine.Rendering", "AsyncGPUReadbackRequest");
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Shaders/ComputeShader.h")]
+// [NativeHeader("Runtime/Graphics/Texture.h")]
+// [NativeHeader("Runtime/Graphics/AsyncGPUReadbackManaged.h")]
 // Dependencies System.IntPtr
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -39,7 +45,9 @@ public:
   __declspec(property(get = get_layerDataSize)) int32_t layerDataSize;
 
   /// @brief Method GetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetData(int32_t layer);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeArray_1<T> GetData(int32_t layer);
 
   /// @brief Method GetDataRaw, addr 0x6b08b1c, size 0x44, virtual false, abstract: false, final false
   inline ::System::IntPtr GetDataRaw(int32_t layer);
@@ -53,6 +61,7 @@ public:
   /// @brief Method HasError, addr 0x6b089ac, size 0x3c, virtual false, abstract: false, final false
   inline bool HasError();
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeCallback, addr 0x6b08b60, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeCallback(::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback, ::UnityEngine::Rendering::AsyncGPUReadbackRequest obj);
 
@@ -81,7 +90,8 @@ public:
   // @brief default ctor
   constexpr AsyncGPUReadbackRequest();
 
-  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr AsyncGPUReadbackRequest(::System::IntPtr m_Ptr, int32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

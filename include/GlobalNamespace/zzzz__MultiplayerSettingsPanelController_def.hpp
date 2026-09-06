@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerSettingsPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerSettingsPanelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,6 +94,7 @@ public:
   /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x5947328, size 0x24, virtual false, abstract: false, final false
   inline void UpdateLocalPlayerIsActiveState(bool isActive);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__14_0, addr 0x5947350, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__14_0(bool on);
 
@@ -148,12 +149,14 @@ public:
   /// @brief Method .ctor, addr 0x594734c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerActiveStateChangedEvent, addr 0x5946f50, size 0xc0, virtual false, abstract: false, final false
   inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerActiveStateChangedEvent, addr 0x5947010, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
@@ -163,26 +166,30 @@ protected:
   constexpr MultiplayerSettingsPanelController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSettingsPanelController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSettingsPanelController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerSettingsPanelController(MultiplayerSettingsPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSettingsPanelController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSettingsPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSettingsPanelController(MultiplayerSettingsPanelController const&) = delete;
+  MultiplayerSettingsPanelController(MultiplayerSettingsPanelControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6911 };
 
+  /// [SerializeField]
   /// @brief Field _serverCodeView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ServerCodeView> ____serverCodeView;
 
+  /// [SerializeField]
   /// @brief Field _spectateToggle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____spectateToggle;
 
+  /// [SerializeField]
   /// @brief Field _connectionSettingsWrapper, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____connectionSettingsWrapper;
 
+  /// [SerializeField]
   /// @brief Field _spectateSettingsWrapper, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____spectateSettingsWrapper;
 
@@ -195,6 +202,7 @@ public:
   /// @brief Field _refreshed, offset: 0x50, size: 0x1, def value: None
   bool ____refreshed;
 
+  /// [CompilerGenerated]
   /// @brief Field playerActiveStateChangedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<bool>* ___playerActiveStateChangedEvent;
 

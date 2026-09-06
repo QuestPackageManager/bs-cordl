@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerAgreements.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerAgreements.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,9 +133,11 @@ public:
   /// @brief Method .ctor, addr 0x37462d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion, int32_t playerSensitivityFlagVersion, int32_t endOfLifeNoticeVersion);
 
+  /// [CompilerGenerated]
   /// @brief Method add_agreedToEulaEvent, addr 0x3746174, size 0xac, virtual false, abstract: false, final false
   inline void add_agreedToEulaEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_agreedToEulaEvent, addr 0x3746220, size 0xac, virtual false, abstract: false, final false
   inline void remove_agreedToEulaEvent(::System::Action* value);
 
@@ -145,13 +147,13 @@ protected:
   constexpr PlayerAgreements();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerAgreements", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerAgreements", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerAgreements(PlayerAgreements&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerAgreements", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerAgreements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerAgreements(PlayerAgreements const&) = delete;
+  PlayerAgreements(PlayerAgreementsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15157 };
@@ -177,6 +179,7 @@ public:
   /// @brief Field kFirstPrivacyPolicyVersion offset 0xffffffff size 0x4
   static constexpr int32_t kFirstPrivacyPolicyVersion{ static_cast<int32_t>(0x1) };
 
+  /// [CompilerGenerated]
   /// @brief Field agreedToEulaEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___agreedToEulaEvent;
 

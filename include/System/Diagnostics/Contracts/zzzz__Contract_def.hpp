@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\Contracts\Contract.hpp"
+// IWYU pragma private; include "System/Diagnostics/Contracts/Contract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ namespace System::Diagnostics::Contracts {
 class CORDL_TYPE Contract : public ::System::Object {
 public:
   // Declarations
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method ForAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ForAll(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Predicate_1<T>* predicate);
 
@@ -34,13 +35,13 @@ protected:
   constexpr Contract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Contract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Contract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Contract(Contract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Contract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Contract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Contract(Contract const&) = delete;
+  Contract(Contractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3669 };

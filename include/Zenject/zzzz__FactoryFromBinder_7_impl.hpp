@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FactoryFromBinder_7.hpp"
+// IWYU pragma private; include "Zenject/FactoryFromBinder_7.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__FactoryFromBinderBase_impl.hpp"
+#include "Zenject/zzzz__IFactory_7_impl.hpp"
 #include "Zenject/zzzz__FactoryFromBinder_7_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_8_def.hpp"
@@ -17,6 +18,7 @@
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline void Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::setStaticF___9(
     ::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>* value) {
   ::cordl_internals::setStaticField<::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*, "<>9",
@@ -24,12 +26,14 @@ inline void Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TPa
       std::forward<::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline ::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*
 Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*, "<>9",
                                            ::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*>();
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline void Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::setStaticF___9__2_0(
     ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>*>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>*>*, "<>9__2_0",
@@ -37,12 +41,14 @@ inline void Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TPa
       std::forward<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>*>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>*>*
 Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::getStaticF___9__2_0() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>*>*,
                                            "<>9__2_0", ::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*>();
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline void Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -50,6 +56,7 @@ inline void Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TPa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline void Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::_FromFactory_b__2_0(
     ::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>* x) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -60,6 +67,7 @@ inline void Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TPa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline ::System::Object* Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*>(),
@@ -67,6 +75,7 @@ inline ::System::Object* Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2,
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*>(),
@@ -74,12 +83,14 @@ inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder_7___c__2_1<TParam1,
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline ::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*
 Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 constexpr ::Zenject::FactoryFromBinder_7___c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TSubFactory>::FactoryFromBinder_7___c__2_1() {}
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
 constexpr ::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*&
@@ -154,6 +165,7 @@ inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::FactoryFromBinder_7<TPara
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
 template <typename TSubFactory>
+  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::FromFactory() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(),

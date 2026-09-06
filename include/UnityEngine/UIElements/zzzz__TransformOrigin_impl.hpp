@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TransformOrigin.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TransformOrigin.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
@@ -291,8 +291,8 @@ constexpr UnityEngine::UIElements::TransformOrigin::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>* UnityEngine::UIElements::TransformOrigin::i___System__IEquatable_1___UnityEngine__UIElements__TransformOrigin_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Y", ty:
+// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TransformOrigin::TransformOrigin(::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y, float_t m_Z) noexcept {
   this->m_X = m_X;
   this->m_Y = m_Y;

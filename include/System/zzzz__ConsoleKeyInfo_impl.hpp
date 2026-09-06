@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ConsoleKeyInfo.hpp"
+// IWYU pragma private; include "System/ConsoleKeyInfo.hpp"
 #include "System/zzzz__ConsoleKey_impl.hpp"
 #include "System/zzzz__ConsoleModifiers_impl.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
@@ -109,8 +109,8 @@ inline int32_t System::ConsoleKeyInfo::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::ConsoleKeyInfo>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_keyChar", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_key", ty: "::System::ConsoleKey", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_mods", ty: "::System::ConsoleModifiers", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_keyChar", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_key", ty: "::System::ConsoleKey", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_mods", ty: "::System::ConsoleModifiers", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::ConsoleKeyInfo::ConsoleKeyInfo(char16_t _keyChar, ::System::ConsoleKey _key, ::System::ConsoleModifiers _mods) noexcept {
   this->_keyChar = _keyChar;
   this->_key = _key;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Sec\ECPrivateKeyStructure.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Sec/ECPrivateKeyStructure.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,13 @@ public:
   /// @brief Method GetPublicKey, addr 0x3542dac, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* GetPublicKey();
 
+  /// @brief [Obsolete("Use constructor which takes \'orderBitLength\' instead, to guarantee correct encoding")]
   static inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Math::BigInteger* key);
 
+  /// @brief [Obsolete("Use constructor which takes \'orderBitLength\' instead, to guarantee correct encoding")]
   static inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
+  /// @brief [Obsolete("Use constructor which takes \'orderBitLength\' instead, to guarantee correct encoding")]
   static inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::DerBitString* publicKey,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
@@ -71,6 +74,7 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* New_ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::DerBitString* publicKey,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
+  /// @brief [Obsolete("Use \'GetInstance\' instead")]
   static inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// @brief Method ToAsn1Object, addr 0x354316c, size 0x8, virtual true, abstract: false, final false
@@ -82,12 +86,15 @@ public:
 
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
+  /// [Obsolete("Use constructor which takes \'orderBitLength\' instead, to guarantee correct encoding")]
   /// @brief Method .ctor, addr 0x35424e4, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* key);
 
+  /// [Obsolete("Use constructor which takes \'orderBitLength\' instead, to guarantee correct encoding")]
   /// @brief Method .ctor, addr 0x35426b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
+  /// [Obsolete("Use constructor which takes \'orderBitLength\' instead, to guarantee correct encoding")]
   /// @brief Method .ctor, addr 0x35426bc, size 0x2d0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::DerBitString* publicKey, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
@@ -100,6 +107,7 @@ public:
   /// @brief Method .ctor, addr 0x354298c, size 0x344, virtual false, abstract: false, final false
   inline void _ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::DerBitString* publicKey, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
+  /// [Obsolete("Use \'GetInstance\' instead")]
   /// @brief Method .ctor, addr 0x354248c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -109,13 +117,13 @@ protected:
   constexpr ECPrivateKeyStructure();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyStructure", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyStructure", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECPrivateKeyStructure(ECPrivateKeyStructure&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyStructure", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyStructure", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECPrivateKeyStructure(ECPrivateKeyStructure const&) = delete;
+  ECPrivateKeyStructure(ECPrivateKeyStructureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 255 };

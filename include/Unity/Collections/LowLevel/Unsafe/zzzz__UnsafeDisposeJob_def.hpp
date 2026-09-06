@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct UnsafeDisposeJob;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeDisposeJob);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeDisposeJob, "Unity.Collections.LowLevel.Unsafe", "UnsafeDisposeJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -36,8 +37,8 @@ public:
   // @brief default ctor
   constexpr UnsafeDisposeJob();
 
-  // Ctor Parameters [CppParam { name: "Ptr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "Ptr", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeDisposeJob(void* Ptr, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -46,6 +47,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Ptr, offset: 0x0, size: 0x8, def value: None
   void* Ptr;
 

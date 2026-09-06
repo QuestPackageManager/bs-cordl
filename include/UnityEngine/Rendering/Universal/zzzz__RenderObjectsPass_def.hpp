@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderObjectsPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderObjectsPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -187,13 +189,13 @@ protected:
   constexpr RenderObjectsPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderObjectsPass_PassData(RenderObjectsPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjectsPass_PassData(RenderObjectsPass_PassData const&) = delete;
+  RenderObjectsPass_PassData(RenderObjectsPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12875 };
@@ -239,6 +241,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass_Pa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -279,13 +282,13 @@ protected:
   constexpr RenderObjectsPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderObjectsPass___c(RenderObjectsPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjectsPass___c(RenderObjectsPass___c const&) = delete;
+  RenderObjectsPass___c(RenderObjectsPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12876 };
@@ -296,6 +299,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::RenderObjectsPass___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.Universal", null, null)]
 // Dependencies UnityEngine.Rendering.FilteringSettings, UnityEngine.Rendering.RenderStateBlock, UnityEngine.Rendering.Universal.RenderQueueType, UnityEngine.Rendering.Universal.ScriptableRenderPass
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -351,6 +355,7 @@ public:
   /// @brief Field renderQueueType, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_renderQueueType, put = __cordl_internal_set_renderQueueType)) ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68a2b08, size 0x1f0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -385,6 +390,7 @@ public:
   /// @brief Method SetDepthState, addr 0x68a2438, size 0x3c, virtual false, abstract: false, final false
   inline void SetDepthState(bool writeEnabled, ::UnityEngine::Rendering::CompareFunction function);
 
+  /// [Obsolete("Use SetDepthState instead", true)]
   /// @brief Method SetDetphState, addr 0x68a23fc, size 0x3c, virtual false, abstract: false, final false
   inline void SetDetphState(bool writeEnabled, ::UnityEngine::Rendering::CompareFunction function);
 
@@ -460,27 +466,35 @@ public:
   inline void _ctor(::StringW profilerTag, ::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::ArrayW<::StringW> shaderTags,
                     ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType, int32_t layerMask, ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings);
 
+  /// [CompilerGenerated]
   /// @brief Method get_overrideMaterial, addr 0x68a23bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_overrideMaterial();
 
+  /// [CompilerGenerated]
   /// @brief Method get_overrideMaterialPassIndex, addr 0x68a23cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_overrideMaterialPassIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_overrideShader, addr 0x68a23dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_overrideShader();
 
+  /// [CompilerGenerated]
   /// @brief Method get_overrideShaderPassIndex, addr 0x68a23ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_overrideShaderPassIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method set_overrideMaterial, addr 0x68a23c4, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideMaterial(::UnityEngine::Material* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_overrideMaterialPassIndex, addr 0x68a23d4, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideMaterialPassIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_overrideShader, addr 0x68a23e4, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideShader(::UnityEngine::Shader* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_overrideShaderPassIndex, addr 0x68a23f4, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideShaderPassIndex(int32_t value);
 
@@ -490,13 +504,13 @@ protected:
   constexpr RenderObjectsPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderObjectsPass(RenderObjectsPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjectsPass(RenderObjectsPass const&) = delete;
+  RenderObjectsPass(RenderObjectsPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12877 };
@@ -510,15 +524,19 @@ public:
   /// @brief Field m_CameraSettings, offset: 0xe0, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* ___m_CameraSettings;
 
+  /// [CompilerGenerated]
   /// @brief Field <overrideMaterial>k__BackingField, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____overrideMaterial_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <overrideMaterialPassIndex>k__BackingField, offset: 0xf0, size: 0x4, def value: None
   int32_t ____overrideMaterialPassIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <overrideShader>k__BackingField, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____overrideShader_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <overrideShaderPassIndex>k__BackingField, offset: 0x100, size: 0x4, def value: None
   int32_t ____overrideShaderPassIndex_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIRUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIRUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class UIRUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIRUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIRUtility*, "UnityEngine.UIElements", "UIRUtility");
+// [Extension]
 // Dependencies System.Nullable`1<T>, System.Object, Unity.Profiling.ProfilerMarker
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -96,13 +97,13 @@ protected:
   constexpr UIRUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRUtility(UIRUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRUtility(UIRUtility const&) = delete;
+  UIRUtility(UIRUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4685 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StylePropertyName.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StylePropertyName.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_impl.hpp"
@@ -244,8 +244,8 @@ constexpr UnityEngine::UIElements::StylePropertyName::operator ::System::IEquata
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>* UnityEngine::UIElements::StylePropertyName::i___System__IEquatable_1___UnityEngine__UIElements__StylePropertyName_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StylePropertyName::StylePropertyName(::UnityEngine::UIElements::StyleSheets::StylePropertyId _id_k__BackingField, ::StringW _name_k__BackingField) noexcept {
   this->_id_k__BackingField = _id_k__BackingField;
   this->_name_k__BackingField = _name_k__BackingField;

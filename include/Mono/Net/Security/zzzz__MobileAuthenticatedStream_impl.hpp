@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\MobileAuthenticatedStream.hpp"
+// IWYU pragma private; include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
 #include "System/Net/Security/zzzz__AuthenticatedStream_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
@@ -33,7 +33,7 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream_Operation::MobileAuthenticatedStream_Operation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -46,7 +46,7 @@ constexpr ::Mono::Net::Security::MobileAuthenticatedStream_Operation Mono::Net::
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream_Operation Mono::Net::Security::MobileAuthenticatedStream_Operation::Read{ static_cast<int32_t>(0x4) };
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream_Operation Mono::Net::Security::MobileAuthenticatedStream_Operation::Write{ static_cast<int32_t>(0x5) };
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream_Operation Mono::Net::Security::MobileAuthenticatedStream_Operation::Close{ static_cast<int32_t>(0x6) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream_OperationType::MobileAuthenticatedStream_OperationType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -103,12 +103,12 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 Mono::Net::Security::MobileAuthenticatedStream__ProcessAuthentication_d__48::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "options", ty: "::Mono::Net::Security::MonoSslAuthenticationOptions*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Mono::Net::Security::MobileAuthenticatedStream*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "runSynchronously", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Mono::Net::Security::AsyncProtocolResult*>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "options", ty:
+// "::Mono::Net::Security::MonoSslAuthenticationOptions*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::Mono::Net::Security::MobileAuthenticatedStream*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "runSynchronously", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken",
+// ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Mono::Net::Security::AsyncProtocolResult*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream__ProcessAuthentication_d__48::MobileAuthenticatedStream__ProcessAuthentication_d__48(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Mono::Net::Security::MonoSslAuthenticationOptions* options,
     ::Mono::Net::Security::MobileAuthenticatedStream* __4__this, bool runSynchronously, ::System::Threading::CancellationToken cancellationToken,
@@ -169,12 +169,13 @@ constexpr Mono::Net::Security::MobileAuthenticatedStream__StartOperation_d__57::
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Mono::Net::Security::MobileAuthenticatedStream__StartOperation_d__57::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Mono::Net::Security::MobileAuthenticatedStream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "::Mono::Net::Security::MobileAuthenticatedStream_OperationType",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "asyncRequest", ty: "::Mono::Net::Security::AsyncProtocolRequest*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Mono::Net::Security::AsyncProtocolResult*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::Mono::Net::Security::MobileAuthenticatedStream*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty:
+// "::Mono::Net::Security::MobileAuthenticatedStream_OperationType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "asyncRequest", ty:
+// "::Mono::Net::Security::AsyncProtocolRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Mono::Net::Security::AsyncProtocolResult*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream__StartOperation_d__57::MobileAuthenticatedStream__StartOperation_d__57(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, ::Mono::Net::Security::MobileAuthenticatedStream* __4__this,
     ::Mono::Net::Security::MobileAuthenticatedStream_OperationType type, ::Mono::Net::Security::AsyncProtocolRequest* asyncRequest, ::System::Threading::CancellationToken cancellationToken,
@@ -302,11 +303,12 @@ constexpr Mono::Net::Security::MobileAuthenticatedStream__InnerRead_d__66::opera
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Mono::Net::Security::MobileAuthenticatedStream__InnerRead_d__66::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Mono::Net::Security::MobileAuthenticatedStream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "requestedSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::Mono::Net::Security::MobileAuthenticatedStream*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestedSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sync", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream__InnerRead_d__66::MobileAuthenticatedStream__InnerRead_d__66(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, ::Mono::Net::Security::MobileAuthenticatedStream* __4__this,
     ::System::Threading::CancellationToken cancellationToken, int32_t requestedSize, bool sync,
@@ -367,10 +369,11 @@ constexpr Mono::Net::Security::MobileAuthenticatedStream__InnerWrite_d__67::oper
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Mono::Net::Security::MobileAuthenticatedStream__InnerWrite_d__67::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Mono::Net::Security::MobileAuthenticatedStream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "sync", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::Mono::Net::Security::MobileAuthenticatedStream*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream__InnerWrite_d__67::MobileAuthenticatedStream__InnerWrite_d__67(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::CancellationToken cancellationToken,
     ::Mono::Net::Security::MobileAuthenticatedStream* __4__this, bool sync, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {

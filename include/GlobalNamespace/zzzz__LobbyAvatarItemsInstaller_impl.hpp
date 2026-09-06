@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LobbyAvatarItemsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/LobbyAvatarItemsInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__LobbyAvatarItemsInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LobbyAvatarItemsInstaller.InstallBindings

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpSignature.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpSignature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,6 +96,7 @@ public:
   /// @brief Method Encode, addr 0x3597898, size 0x68, virtual false, abstract: false, final false
   inline void Encode(::System::IO::Stream* outStream);
 
+  /// [Obsolete("Use \'CreationTime\' property instead")]
   /// @brief Method GetCreationTime, addr 0x359ee64, size 0x4, virtual false, abstract: false, final false
   inline ::System::DateTime GetCreationTime();
 
@@ -138,11 +139,11 @@ public:
   /// @brief Method Update, addr 0x359dd58, size 0xdc, virtual false, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method Update, addr 0x359e034, size 0x18, virtual false, abstract: false, final false
-  inline void Update(::ArrayW<uint8_t> bytes);
-
   /// @brief Method Update, addr 0x359e04c, size 0x124, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t> bytes, int32_t off, int32_t length);
+
+  /// @brief Method Update, addr 0x359e034, size 0x18, virtual false, abstract: false, final false
+  inline void Update(/* [ParamArray] */ ::ArrayW<uint8_t> bytes);
 
   /// @brief Method UpdateWithIdData, addr 0x359e5d0, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateWithIdData(int32_t header, ::ArrayW<uint8_t> idBytes);
@@ -240,13 +241,13 @@ protected:
   constexpr PgpSignature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpSignature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpSignature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpSignature(PgpSignature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpSignature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpSignature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpSignature(PgpSignature const&) = delete;
+  PgpSignature(PgpSignatureconst&) = delete;
 
   /// @brief Field BinaryDocument offset 0xffffffff size 0x4
   static constexpr int32_t BinaryDocument{ static_cast<int32_t>(0x0) };

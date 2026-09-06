@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineClipExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineClipExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class TimelineClipExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::TimelineClipExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TimelineClipExtensions*, "UnityEngine.Timeline", "TimelineClipExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -32,6 +33,7 @@ public:
   /// @brief Field k_UndoSetParentTrackText, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_UndoSetParentTrackText, put = setStaticF_k_UndoSetParentTrackText)) ::StringW k_UndoSetParentTrackText;
 
+  /// [Extension]
   /// @brief Method MoveToTrack, addr 0x69ce354, size 0x31c, virtual false, abstract: false, final false
   static inline void MoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
@@ -39,6 +41,7 @@ public:
   static inline void MoveToTrack_Impl(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack, ::UnityEngine::Object* asset,
                                       ::UnityEngine::Timeline::TrackAsset* parentTrack);
 
+  /// [Extension]
   /// @brief Method TryMoveToTrack, addr 0x69ce794, size 0x1a4, virtual false, abstract: false, final false
   static inline bool TryMoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
@@ -52,13 +55,13 @@ protected:
   constexpr TimelineClipExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineClipExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineClipExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineClipExtensions(TimelineClipExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineClipExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineClipExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineClipExtensions(TimelineClipExtensions const&) = delete;
+  TimelineClipExtensions(TimelineClipExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19260 };

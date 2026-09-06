@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\SavedStructState_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/SavedStructState_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,14 +25,20 @@ namespace UnityEngine::InputSystem::Utilities {
 class ISavedState;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T> class SavedStructState_1_TypedRestore;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class SavedStructState_1_TypedRestore;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T> class SavedStructState_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class SavedStructState_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T> class SavedStructState_1_TypedRestore;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class SavedStructState_1_TypedRestore;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::Utilities::SavedStructState_1);
@@ -43,6 +49,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::Utilities::SavedStructSt
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Utilities.SavedStructState`1/TypedRestore<T>
 class CORDL_TYPE SavedStructState_1_TypedRestore : public ::System::MulticastDelegate {
@@ -68,13 +75,13 @@ protected:
   constexpr SavedStructState_1_TypedRestore();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1_TypedRestore", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1_TypedRestore", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SavedStructState_1_TypedRestore(SavedStructState_1_TypedRestore&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1_TypedRestore", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1_TypedRestore", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SavedStructState_1_TypedRestore(SavedStructState_1_TypedRestore const&) = delete;
+  SavedStructState_1_TypedRestore(SavedStructState_1_TypedRestoreconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9198 };
@@ -87,6 +94,7 @@ public:
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Utilities.SavedStructState`1<T>
 class CORDL_TYPE SavedStructState_1 : public ::System::Object {
@@ -146,13 +154,13 @@ protected:
   constexpr SavedStructState_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SavedStructState_1(SavedStructState_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SavedStructState_1(SavedStructState_1 const&) = delete;
+  SavedStructState_1(SavedStructState_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9199 };

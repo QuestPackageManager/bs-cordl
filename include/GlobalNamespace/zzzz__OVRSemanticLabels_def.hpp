@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSemanticLabels.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSemanticLabels.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
   // @brief default ctor
   constexpr OVRSemanticLabels_Classification();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSemanticLabels_Classification(int32_t value__) noexcept;
 
   /// @brief Field Bed value: I32(9)
@@ -162,6 +162,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSemanticLabels_Classification, valu
 static_assert(sizeof(::GlobalNamespace::OVRSemanticLabels_Classification) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -181,6 +182,7 @@ public:
 
   __declspec(property(get = get_IsNull)) bool IsNull;
 
+  /// @brief [Obsolete("String-based labels are deprecated (v65). Please use the equivalent enum-based methods.")]
   __declspec(property(get = get_Labels)) ::StringW Labels;
 
   /// @brief Field Null, offset 0xffffffff, size 0x8
@@ -236,10 +238,12 @@ public:
   /// @brief Method ToString, addr 0x5e140e0, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [CompilerGenerated]
   /// @brief Method <FromApiString>g__AddLabel|30_0, addr 0x5e1500c, size 0x1fc, virtual false, abstract: false, final false
   static inline void _FromApiString_g__AddLabel_30_0(::System::ReadOnlySpan_1<char16_t> label,
                                                      ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSemanticLabels_Classification>* labels);
 
+  /// [CompilerGenerated]
   /// @brief Method <FromApiString>g__IndexOf|30_1, addr 0x5e15208, size 0xac, virtual false, abstract: false, final false
   static inline int32_t _FromApiString_g__IndexOf_30_1(::System::ReadOnlySpan_1<char16_t> s, char16_t c, int32_t start);
 
@@ -250,6 +254,7 @@ public:
 
   static inline ::ArrayW<char16_t> getStaticF__semanticLabelsBuffer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handle, addr 0x5e141a0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
@@ -285,7 +290,7 @@ public:
   // @brief default ctor
   constexpr OVRSemanticLabels();
 
-  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSemanticLabels(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief Field DeprecationMessage offset 0xffffffff size 0x8
@@ -297,6 +302,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
   uint64_t _Handle_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextGenerationError.hpp"
+// IWYU pragma private; include "UnityEngine/TextGenerationError.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TextGenerationError;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextGenerationError);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextGenerationError, "UnityEngine", "TextGenerationError");
+// [Flags]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr TextGenerationError();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextGenerationError(int32_t value__) noexcept;
 
   /// @brief Field CustomSizeOnNonDynamicFont value: I32(1)

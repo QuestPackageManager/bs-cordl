@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AddressablesInternalBridge\Runtime\CatalogLocationData.hpp"
+// IWYU pragma private; include "AddressablesInternalBridge/Runtime/CatalogLocationData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,12 +63,15 @@ public:
   /// @brief Method .ctor, addr 0x644a3f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW locatorId, ::StringW localHash, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation);
 
+  /// [CompilerGenerated]
   /// @brief Method get_CatalogLocation, addr 0x644aa38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_CatalogLocation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LocalHash, addr 0x644aa30, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalHash();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LocatorId, addr 0x644aa28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocatorId();
 
@@ -78,23 +81,26 @@ protected:
   constexpr CatalogLocationData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CatalogLocationData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CatalogLocationData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CatalogLocationData(CatalogLocationData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CatalogLocationData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CatalogLocationData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CatalogLocationData(CatalogLocationData const&) = delete;
+  CatalogLocationData(CatalogLocationDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19774 };
 
+  /// [CompilerGenerated]
   /// @brief Field <LocatorId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____LocatorId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <LocalHash>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____LocalHash_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CatalogLocation>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ____CatalogLocation_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\DecimalArrayHelperWithString.hpp"
+// IWYU pragma private; include "System/Xml/DecimalArrayHelperWithString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Xml/zzzz__DecimalArrayHelperWithString_def.hpp"

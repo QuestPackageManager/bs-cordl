@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\ICipherBuilderWithKey.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/ICipherBuilderWithKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,15 +29,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilder"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilder*() noexcept;
 
-  /// @brief Method get_Key, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Key();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"
   constexpr ::Org::BouncyCastle::Crypto::ICipherBuilder* i___Org__BouncyCastle__Crypto__ICipherBuilder() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICipherBuilderWithKey", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICipherBuilderWithKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICipherBuilderWithKey(ICipherBuilderWithKey const&) = delete;
+  ICipherBuilderWithKey(ICipherBuilderWithKeyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 979 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelBuyView.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelBuyView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,6 +84,7 @@ public:
   /// @brief Method SetContent, addr 0x5a263c0, size 0x34, virtual false, abstract: false, final false
   inline void SetContent(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__12_0, addr 0x5a2643c, size 0x30, virtual false, abstract: false, final false
   inline void _Awake_b__12_0(bool _);
 
@@ -138,12 +139,14 @@ public:
   /// @brief Method .ctor, addr 0x5a26438, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x5a26114, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
   /// @brief Method get_buyButton, addr 0x5a26294, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyButton();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x5a261d4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
@@ -153,32 +156,38 @@ protected:
   constexpr StandardLevelBuyView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelBuyView(StandardLevelBuyView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelBuyView(StandardLevelBuyView const&) = delete;
+  StandardLevelBuyView(StandardLevelBuyViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6498 };
 
+  /// [SerializeField]
   /// @brief Field _levelBar, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
+  /// [SerializeField]
   /// @brief Field _steamMessageGameObject, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____steamMessageGameObject;
 
+  /// [SerializeField]
   /// @brief Field _buyButton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____buyButton;
 
+  /// [SerializeField]
   /// @brief Field _favoriteToggle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____favoriteToggle;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didFavoriteToggleChangeEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* ___didFavoriteToggleChangeEvent;
 

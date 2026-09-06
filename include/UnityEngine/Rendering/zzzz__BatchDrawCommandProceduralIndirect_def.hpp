@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchDrawCommandProceduralIndirect.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchDrawCommandProceduralIndirect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,14 +29,15 @@ public:
   // @brief default ctor
   constexpr BatchDrawCommandProceduralIndirect();
 
-  // Ctor Parameters [CppParam { name: "flags", ty: "::UnityEngine::Rendering::BatchDrawCommandFlags", modifiers: "", def_value: None }, CppParam { name: "batchID", ty:
-  // "::UnityEngine::Rendering::BatchID", modifiers: "", def_value: None }, CppParam { name: "materialID", ty: "::UnityEngine::Rendering::BatchMaterialID", modifiers: "", def_value: None }, CppParam {
-  // name: "splitVisibilityMask", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "lightmapIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sortingPosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "topology", ty:
-  // "::UnityEngine::MeshTopology", modifiers: "", def_value: None }, CppParam { name: "indexBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: None }, CppParam {
-  // name: "visibleInstancesBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: None }, CppParam { name: "visibleInstancesBufferWindowOffset", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "visibleInstancesBufferWindowSizeBytes", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "indirectArgsBufferHandle", ty:
-  // "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: None }, CppParam { name: "indirectArgsBufferOffset", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "flags", ty: "::UnityEngine::Rendering::BatchDrawCommandFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchID", ty:
+  // "::UnityEngine::Rendering::BatchID", modifiers: "", def_value: None, comment: None }, CppParam { name: "materialID", ty: "::UnityEngine::Rendering::BatchMaterialID", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "splitVisibilityMask", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightmapIndex", ty: "uint16_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "sortingPosition", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleOffset", ty: "uint32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "topology", ty: "::UnityEngine::MeshTopology", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexBufferHandle", ty:
+  // "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleInstancesBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "visibleInstancesBufferWindowOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "visibleInstancesBufferWindowSizeBytes", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectArgsBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectArgsBufferOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BatchDrawCommandProceduralIndirect(::UnityEngine::Rendering::BatchDrawCommandFlags flags, ::UnityEngine::Rendering::BatchID batchID, ::UnityEngine::Rendering::BatchMaterialID materialID,
                                                uint16_t splitVisibilityMask, uint16_t lightmapIndex, int32_t sortingPosition, uint32_t visibleOffset, ::UnityEngine::MeshTopology topology,
                                                ::UnityEngine::GraphicsBufferHandle indexBufferHandle, ::UnityEngine::GraphicsBufferHandle visibleInstancesBufferHandle,

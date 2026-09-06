@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderQueueRange.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderQueueRange.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderQueueRange_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -178,7 +178,8 @@ constexpr UnityEngine::Rendering::RenderQueueRange::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>* UnityEngine::Rendering::RenderQueueRange::i___System__IEquatable_1___UnityEngine__Rendering__RenderQueueRange_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_LowerBound", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UpperBound", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_LowerBound", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UpperBound", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderQueueRange::RenderQueueRange(int32_t m_LowerBound, int32_t m_UpperBound) noexcept {
   this->m_LowerBound = m_LowerBound;
   this->m_UpperBound = m_UpperBound;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseUpEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseUpEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::UnityEngine::UIElements::MouseUpEvent*);
 MARK_REF_T(::UnityEngine::UIElements::MouseUpEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseUpEvent*, "UnityEngine.UIElements", "MouseUpEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseUpEvent___c*, "UnityEngine.UIElements", "MouseUpEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -61,13 +62,13 @@ protected:
   constexpr MouseUpEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseUpEvent___c(MouseUpEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseUpEvent___c(MouseUpEvent___c const&) = delete;
+  MouseUpEvent___c(MouseUpEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4491 };
@@ -116,13 +117,13 @@ protected:
   constexpr MouseUpEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseUpEvent(MouseUpEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseUpEvent(MouseUpEvent const&) = delete;
+  MouseUpEvent(MouseUpEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4492 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\CVRSystem.hpp"
+// IWYU pragma private; include "OVR/OpenVR/CVRSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -157,6 +157,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVRSystem__PollNextEventPacked*, "OVR.OpenVR"
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVRSystem_GetControllerStateUnion, "OVR.OpenVR", "CVRSystem/GetControllerStateUnion");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVRSystem_GetControllerStateWithPoseUnion, "OVR.OpenVR", "CVRSystem/GetControllerStateWithPoseUnion");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVRSystem_PollNextEventUnion, "OVR.OpenVR", "CVRSystem/PollNextEventUnion");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -184,13 +185,13 @@ protected:
   constexpr CVRSystem__PollNextEventPacked();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__PollNextEventPacked", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__PollNextEventPacked", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRSystem__PollNextEventPacked(CVRSystem__PollNextEventPacked&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__PollNextEventPacked", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__PollNextEventPacked", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRSystem__PollNextEventPacked(CVRSystem__PollNextEventPacked const&) = delete;
+  CVRSystem__PollNextEventPacked(CVRSystem__PollNextEventPackedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8370 };
@@ -230,8 +231,8 @@ public:
   // @brief default ctor
   constexpr CVRSystem_PollNextEventUnion();
 
-  // Ctor Parameters [CppParam { name: "pPollNextEvent", ty: "::OVR::OpenVR::IVRSystem__PollNextEvent*", modifiers: "", def_value: None }, CppParam { name: "pPollNextEventPacked", ty:
-  // "::OVR::OpenVR::CVRSystem__PollNextEventPacked*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pPollNextEvent", ty: "::OVR::OpenVR::IVRSystem__PollNextEvent*", modifiers: "", def_value: None, comment: None }, CppParam { name: "pPollNextEventPacked", ty:
+  // "::OVR::OpenVR::CVRSystem__PollNextEventPacked*", modifiers: "", def_value: None, comment: None }]
   constexpr CVRSystem_PollNextEventUnion(::OVR::OpenVR::IVRSystem__PollNextEvent* pPollNextEvent, ::OVR::OpenVR::CVRSystem__PollNextEventPacked* pPollNextEventPacked) noexcept;
 
 private:
@@ -280,6 +281,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::CVRSystem_PollNextEventUnion) == 0x8, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -308,13 +310,13 @@ protected:
   constexpr CVRSystem__GetControllerStatePacked();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStatePacked", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStatePacked", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRSystem__GetControllerStatePacked(CVRSystem__GetControllerStatePacked&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStatePacked", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStatePacked", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRSystem__GetControllerStatePacked(CVRSystem__GetControllerStatePacked const&) = delete;
+  CVRSystem__GetControllerStatePacked(CVRSystem__GetControllerStatePackedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8372 };
@@ -355,8 +357,8 @@ public:
   // @brief default ctor
   constexpr CVRSystem_GetControllerStateUnion();
 
-  // Ctor Parameters [CppParam { name: "pGetControllerState", ty: "::OVR::OpenVR::IVRSystem__GetControllerState*", modifiers: "", def_value: None }, CppParam { name: "pGetControllerStatePacked", ty:
-  // "::OVR::OpenVR::CVRSystem__GetControllerStatePacked*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pGetControllerState", ty: "::OVR::OpenVR::IVRSystem__GetControllerState*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "pGetControllerStatePacked", ty: "::OVR::OpenVR::CVRSystem__GetControllerStatePacked*", modifiers: "", def_value: None, comment: None }]
   constexpr CVRSystem_GetControllerStateUnion(::OVR::OpenVR::IVRSystem__GetControllerState* pGetControllerState,
                                               ::OVR::OpenVR::CVRSystem__GetControllerStatePacked* pGetControllerStatePacked) noexcept;
 
@@ -406,6 +408,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::CVRSystem_GetControllerStateUnion) == 0x8, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -436,13 +439,13 @@ protected:
   constexpr CVRSystem__GetControllerStateWithPosePacked();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStateWithPosePacked", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStateWithPosePacked", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRSystem__GetControllerStateWithPosePacked(CVRSystem__GetControllerStateWithPosePacked&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStateWithPosePacked", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStateWithPosePacked", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRSystem__GetControllerStateWithPosePacked(CVRSystem__GetControllerStateWithPosePacked const&) = delete;
+  CVRSystem__GetControllerStateWithPosePacked(CVRSystem__GetControllerStateWithPosePackedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8374 };
@@ -484,8 +487,8 @@ public:
   // @brief default ctor
   constexpr CVRSystem_GetControllerStateWithPoseUnion();
 
-  // Ctor Parameters [CppParam { name: "pGetControllerStateWithPose", ty: "::OVR::OpenVR::IVRSystem__GetControllerStateWithPose*", modifiers: "", def_value: None }, CppParam { name:
-  // "pGetControllerStateWithPosePacked", ty: "::OVR::OpenVR::CVRSystem__GetControllerStateWithPosePacked*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pGetControllerStateWithPose", ty: "::OVR::OpenVR::IVRSystem__GetControllerStateWithPose*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "pGetControllerStateWithPosePacked", ty: "::OVR::OpenVR::CVRSystem__GetControllerStateWithPosePacked*", modifiers: "", def_value: None, comment: None }]
   constexpr CVRSystem_GetControllerStateWithPoseUnion(::OVR::OpenVR::IVRSystem__GetControllerStateWithPose* pGetControllerStateWithPose,
                                                       ::OVR::OpenVR::CVRSystem__GetControllerStateWithPosePacked* pGetControllerStateWithPosePacked) noexcept;
 
@@ -721,13 +724,13 @@ protected:
   constexpr CVRSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRSystem(CVRSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVRSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRSystem(CVRSystem const&) = delete;
+  CVRSystem(CVRSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8376 };

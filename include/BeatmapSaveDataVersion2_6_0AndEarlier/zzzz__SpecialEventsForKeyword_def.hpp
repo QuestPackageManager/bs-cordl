@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\SpecialEventsForKeyword.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/SpecialEventsForKeyword.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,20 +67,22 @@ protected:
   constexpr SpecialEventsForKeyword();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpecialEventsForKeyword", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpecialEventsForKeyword", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpecialEventsForKeyword(SpecialEventsForKeyword&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpecialEventsForKeyword", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpecialEventsForKeyword", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpecialEventsForKeyword(SpecialEventsForKeyword const&) = delete;
+  SpecialEventsForKeyword(SpecialEventsForKeywordconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15393 };
 
+  /// [SerializeField]
   /// @brief Field _keyword, offset: 0x10, size: 0x8, def value: None
   ::StringW ____keyword;
 
+  /// [SerializeField]
   /// @brief Field _specialEvents, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* ____specialEvents;
 

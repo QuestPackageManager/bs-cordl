@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MultiColumnController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MultiColumnController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -275,9 +275,11 @@ public:
   inline void _ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
+  /// [CompilerGenerated]
   /// @brief Method add_columnSortingChanged, addr 0x6d5cb50, size 0xac, virtual false, abstract: false, final false
   inline void add_columnSortingChanged(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_headerContextMenuPopulateEvent, addr 0x6d5cca8, size 0xc0, virtual false, abstract: false, final false
   inline void add_headerContextMenuPopulateEvent(::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>* value);
 
@@ -308,9 +310,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_columnSortingChanged, addr 0x6d5cbfc, size 0xac, virtual false, abstract: false, final false
   inline void remove_columnSortingChanged(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_headerContextMenuPopulateEvent, addr 0x6d5cd68, size 0xc0, virtual false, abstract: false, final false
   inline void remove_headerContextMenuPopulateEvent(::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>* value);
 
@@ -341,20 +345,24 @@ protected:
   constexpr MultiColumnController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnController(MultiColumnController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnController(MultiColumnController const&) = delete;
+  MultiColumnController(MultiColumnControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4268 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field columnSortingChanged, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___columnSortingChanged;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field headerContextMenuPopulateEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>* ___headerContextMenuPopulateEvent;
 

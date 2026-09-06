@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberActivityCounter.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberActivityCounter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class SaberActivityCounter;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SaberActivityCounter*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SaberActivityCounter*, "", "SaberActivityCounter");
+// [AddComponentMenu("Beat Saber/Gameplay/SaberActivityCounter")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -244,6 +245,7 @@ public:
   /// @brief Method .ctor, addr 0x59f0104, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_totalDistanceDidChangeEvent, addr 0x59ef6ac, size 0xc0, virtual false, abstract: false, final false
   inline void add_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
 
@@ -265,6 +267,7 @@ public:
   /// @brief Method get_saberMovementAveragingValueRecorder, addr 0x59ec9a8, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_totalDistanceDidChangeEvent, addr 0x59ef76c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
 
@@ -274,38 +277,46 @@ protected:
   constexpr SaberActivityCounter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberActivityCounter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberActivityCounter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberActivityCounter(SaberActivityCounter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberActivityCounter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberActivityCounter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberActivityCounter(SaberActivityCounter const&) = delete;
+  SaberActivityCounter(SaberActivityCounterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6228 };
 
+  /// [SerializeField]
   /// @brief Field _averageWindowDuration, offset: 0x20, size: 0x4, def value: None
   float_t ____averageWindowDuration;
 
+  /// [SerializeField]
   /// @brief Field _valuesPerSecond, offset: 0x24, size: 0x4, def value: None
   float_t ____valuesPerSecond;
 
+  /// [SerializeField]
   /// @brief Field _increaseSpeed, offset: 0x28, size: 0x4, def value: None
   float_t ____increaseSpeed;
 
+  /// [SerializeField]
   /// @brief Field _decreaseSpeed, offset: 0x2c, size: 0x4, def value: None
   float_t ____decreaseSpeed;
 
+  /// [SerializeField]
   /// @brief Field _movementSensitivityThreshold, offset: 0x30, size: 0x4, def value: None
   float_t ____movementSensitivityThreshold;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _gamePause, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
+  /// [CompilerGenerated]
   /// @brief Field totalDistanceDidChangeEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___totalDistanceDidChangeEvent;
 

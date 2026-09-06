@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\WhiteBalance.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/WhiteBalance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class WhiteBalance;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::WhiteBalance*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::WhiteBalance*, "UnityEngine.Rendering.Universal", "WhiteBalance");
+// [VolumeComponentMenu("Post-processing/White Balance")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -37,6 +39,7 @@ public:
   /// @brief Method IsActive, addr 0x6880028, size 0x5c, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x6880084, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -66,20 +69,22 @@ protected:
   constexpr WhiteBalance();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WhiteBalance", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WhiteBalance", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WhiteBalance(WhiteBalance&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WhiteBalance", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WhiteBalance", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WhiteBalance(WhiteBalance const&) = delete;
+  WhiteBalance(WhiteBalanceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12820 };
 
+  /// [Tooltip("Sets the white balance to a custom color temperature.")]
   /// @brief Field temperature, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___temperature;
 
+  /// [Tooltip("Sets the white balance to compensate for a green or magenta tint.")]
   /// @brief Field tint, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___tint;
 

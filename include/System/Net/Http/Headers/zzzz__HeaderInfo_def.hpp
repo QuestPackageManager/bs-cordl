@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\HeaderInfo.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/HeaderInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,10 +9,14 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeaderInfo)
 namespace GlobalNamespace {
-template <typename T, typename U> class HeaderInfo_CollectionHeaderTypeInfo_2;
+template <typename T, typename U>
+  requires(::cordl_internals::reference_type_constraint<U>)
+class HeaderInfo_CollectionHeaderTypeInfo_2;
 }
 namespace GlobalNamespace {
-template <typename T, typename U> class HeaderInfo_HeaderTypeInfo_2;
+template <typename T, typename U>
+  requires(::cordl_internals::reference_type_constraint<U>)
+class HeaderInfo_HeaderTypeInfo_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -49,9 +53,13 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
   // Declarations
-  template <typename T, typename U> using CollectionHeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_CollectionHeaderTypeInfo_2<T, U>;
+  template <typename T, typename U>
+    requires(::cordl_internals::reference_type_constraint<U>)
+  using CollectionHeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_CollectionHeaderTypeInfo_2<T, U>;
 
-  template <typename T, typename U> using HeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>;
+  template <typename T, typename U>
+    requires(::cordl_internals::reference_type_constraint<U>)
+  using HeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>;
 
   /// @brief Field AllowsMany, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_AllowsMany, put = __cordl_internal_set_AllowsMany)) bool AllowsMany;
@@ -70,17 +78,18 @@ public:
   __declspec(property(get = __cordl_internal_get__CustomToString_k__BackingField,
                       put = __cordl_internal_set__CustomToString_k__BackingField)) ::System::Func_2<::System::Object*, ::StringW>* _CustomToString_k__BackingField;
 
-  /// @brief Method AddToCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddToCollection(::System::Object* collection, ::System::Object* value);
 
   /// @brief Method CreateCollection, addr 0x60e6fbc, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);
 
-  /// @brief Method CreateCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
 
   /// @brief Method CreateMulti, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
   static inline ::System::Net::Http::Headers::HeaderInfo* CreateMulti(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* elementParser,
                                                                       ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount, ::StringW separator);
 
@@ -91,10 +100,10 @@ public:
 
   static inline ::System::Net::Http::Headers::HeaderInfo* New_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method ToStringCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToStringCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::List_1<::StringW>* ToStringCollection(::System::Object* collection);
 
-  /// @brief Method TryParse, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryParse(::StringW value, ::by_ref<::System::Object*> result);
 
   constexpr bool const& __cordl_internal_get_AllowsMany() const;
@@ -124,12 +133,14 @@ public:
   /// @brief Method .ctor, addr 0x60e6fb0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
+  /// [CompilerGenerated]
   /// @brief Method get_CustomToString, addr 0x60e6fcc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::StringW>* get_CustomToString();
 
   /// @brief Method get_Separator, addr 0x60e6fdc, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Separator();
 
+  /// [CompilerGenerated]
   /// @brief Method set_CustomToString, addr 0x60e6fd4, size 0x8, virtual false, abstract: false, final false
   inline void set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value);
 
@@ -139,13 +150,13 @@ protected:
   constexpr HeaderInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeaderInfo(HeaderInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HeaderInfo(HeaderInfo const&) = delete;
+  HeaderInfo(HeaderInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20306 };
@@ -159,6 +170,7 @@ public:
   /// @brief Field Name, offset: 0x18, size: 0x8, def value: None
   ::StringW ___Name;
 
+  /// [CompilerGenerated]
   /// @brief Field <CustomToString>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Func_2<::System::Object*, ::StringW>* ____CustomToString_k__BackingField;
 

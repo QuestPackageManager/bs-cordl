@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\DynamicUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DynamicUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DynamicUtils_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DynamicUtils_def.hpp"
@@ -113,7 +113,7 @@ inline void Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::Init() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(), { "Init", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateSharpArgumentInfoArray(::ArrayW<int32_t> values) {
+inline ::System::Object* Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateSharpArgumentInfoArray(/* [ParamArray] */ ::ArrayW<int32_t> values) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
                                                                                          { "CreateSharpArgumentInfoArray", {}, { ::i2c::type_of<::ArrayW<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, values);

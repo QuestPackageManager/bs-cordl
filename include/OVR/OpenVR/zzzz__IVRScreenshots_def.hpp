@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRScreenshots.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRScreenshots.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,6 +97,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRScreenshots__SubmitScreenshot*, "OVR.OpenV
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot*, "OVR.OpenVR", "IVRScreenshots/_TakeStereoScreenshot");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress*, "OVR.OpenVR", "IVRScreenshots/_UpdateScreenshotProgress");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRScreenshots, "OVR.OpenVR", "IVRScreenshots");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -125,13 +126,13 @@ protected:
   constexpr IVRScreenshots__RequestScreenshot();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__RequestScreenshot", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__RequestScreenshot", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRScreenshots__RequestScreenshot(IVRScreenshots__RequestScreenshot&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__RequestScreenshot", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__RequestScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__RequestScreenshot(IVRScreenshots__RequestScreenshot const&) = delete;
+  IVRScreenshots__RequestScreenshot(IVRScreenshots__RequestScreenshotconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8325 };
@@ -142,6 +143,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRScreenshots__RequestScreenshot) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -169,13 +171,13 @@ protected:
   constexpr IVRScreenshots__HookScreenshot();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__HookScreenshot", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__HookScreenshot", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRScreenshots__HookScreenshot(IVRScreenshots__HookScreenshot&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__HookScreenshot", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__HookScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__HookScreenshot(IVRScreenshots__HookScreenshot const&) = delete;
+  IVRScreenshots__HookScreenshot(IVRScreenshots__HookScreenshotconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8326 };
@@ -186,6 +188,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRScreenshots__HookScreenshot) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -213,13 +216,13 @@ protected:
   constexpr IVRScreenshots__GetScreenshotPropertyType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRScreenshots__GetScreenshotPropertyType(IVRScreenshots__GetScreenshotPropertyType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__GetScreenshotPropertyType(IVRScreenshots__GetScreenshotPropertyType const&) = delete;
+  IVRScreenshots__GetScreenshotPropertyType(IVRScreenshots__GetScreenshotPropertyTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8327 };
@@ -230,6 +233,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -259,13 +263,13 @@ protected:
   constexpr IVRScreenshots__GetScreenshotPropertyFilename();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyFilename", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyFilename", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRScreenshots__GetScreenshotPropertyFilename(IVRScreenshots__GetScreenshotPropertyFilename&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyFilename", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyFilename", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__GetScreenshotPropertyFilename(IVRScreenshots__GetScreenshotPropertyFilename const&) = delete;
+  IVRScreenshots__GetScreenshotPropertyFilename(IVRScreenshots__GetScreenshotPropertyFilenameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8328 };
@@ -276,6 +280,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -303,13 +308,13 @@ protected:
   constexpr IVRScreenshots__UpdateScreenshotProgress();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__UpdateScreenshotProgress", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__UpdateScreenshotProgress", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRScreenshots__UpdateScreenshotProgress(IVRScreenshots__UpdateScreenshotProgress&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__UpdateScreenshotProgress", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__UpdateScreenshotProgress", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__UpdateScreenshotProgress(IVRScreenshots__UpdateScreenshotProgress const&) = delete;
+  IVRScreenshots__UpdateScreenshotProgress(IVRScreenshots__UpdateScreenshotProgressconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8329 };
@@ -320,6 +325,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -348,13 +354,13 @@ protected:
   constexpr IVRScreenshots__TakeStereoScreenshot();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__TakeStereoScreenshot", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__TakeStereoScreenshot", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRScreenshots__TakeStereoScreenshot(IVRScreenshots__TakeStereoScreenshot&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__TakeStereoScreenshot", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__TakeStereoScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__TakeStereoScreenshot(IVRScreenshots__TakeStereoScreenshot const&) = delete;
+  IVRScreenshots__TakeStereoScreenshot(IVRScreenshots__TakeStereoScreenshotconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8330 };
@@ -365,6 +371,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -393,13 +400,13 @@ protected:
   constexpr IVRScreenshots__SubmitScreenshot();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__SubmitScreenshot", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__SubmitScreenshot", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRScreenshots__SubmitScreenshot(IVRScreenshots__SubmitScreenshot&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__SubmitScreenshot", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__SubmitScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__SubmitScreenshot(IVRScreenshots__SubmitScreenshot const&) = delete;
+  IVRScreenshots__SubmitScreenshot(IVRScreenshots__SubmitScreenshotconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8331 };
@@ -435,12 +442,13 @@ public:
   // @brief default ctor
   constexpr IVRScreenshots();
 
-  // Ctor Parameters [CppParam { name: "RequestScreenshot", ty: "::OVR::OpenVR::IVRScreenshots__RequestScreenshot*", modifiers: "", def_value: None }, CppParam { name: "HookScreenshot", ty:
-  // "::OVR::OpenVR::IVRScreenshots__HookScreenshot*", modifiers: "", def_value: None }, CppParam { name: "GetScreenshotPropertyType", ty: "::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType*",
-  // modifiers: "", def_value: None }, CppParam { name: "GetScreenshotPropertyFilename", ty: "::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename*", modifiers: "", def_value: None }, CppParam
-  // { name: "UpdateScreenshotProgress", ty: "::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress*", modifiers: "", def_value: None }, CppParam { name: "TakeStereoScreenshot", ty:
-  // "::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot*", modifiers: "", def_value: None }, CppParam { name: "SubmitScreenshot", ty: "::OVR::OpenVR::IVRScreenshots__SubmitScreenshot*", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestScreenshot", ty: "::OVR::OpenVR::IVRScreenshots__RequestScreenshot*", modifiers: "", def_value: None, comment: None }, CppParam { name: "HookScreenshot",
+  // ty: "::OVR::OpenVR::IVRScreenshots__HookScreenshot*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetScreenshotPropertyType", ty:
+  // "::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetScreenshotPropertyFilename", ty:
+  // "::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename*", modifiers: "", def_value: None, comment: None }, CppParam { name: "UpdateScreenshotProgress", ty:
+  // "::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress*", modifiers: "", def_value: None, comment: None }, CppParam { name: "TakeStereoScreenshot", ty:
+  // "::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SubmitScreenshot", ty:
+  // "::OVR::OpenVR::IVRScreenshots__SubmitScreenshot*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRScreenshots(::OVR::OpenVR::IVRScreenshots__RequestScreenshot* RequestScreenshot, ::OVR::OpenVR::IVRScreenshots__HookScreenshot* HookScreenshot,
                            ::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType* GetScreenshotPropertyType,
                            ::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename* GetScreenshotPropertyFilename,

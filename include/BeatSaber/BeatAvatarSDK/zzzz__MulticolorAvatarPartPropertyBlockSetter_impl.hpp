@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\MulticolorAvatarPartPropertyBlockSetter.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/MulticolorAvatarPartPropertyBlockSetter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -372,7 +372,7 @@ inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::O
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*>(), { "OnValidate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetColors(::ArrayW<::UnityEngine::Color> colors) {
+inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetColors(/* [ParamArray] */ ::ArrayW<::UnityEngine::Color> colors) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*>(),
                                                                                          { "SetColors", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, colors);

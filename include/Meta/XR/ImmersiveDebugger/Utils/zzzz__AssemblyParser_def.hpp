@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Utils\AssemblyParser.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Utils/AssemblyParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ MARK_VAL_T(::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesM
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*, "Meta.XR.ImmersiveDebugger.Utils", "AssemblyParser");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c*, "Meta.XR.ImmersiveDebugger.Utils", "AssemblyParser/<>c");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18, "Meta.XR.ImmersiveDebugger.Utils", "AssemblyParser/<LoadAssembliesMainThread>d__18");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Utils {
 // Is value type: false
@@ -108,13 +109,13 @@ protected:
   constexpr AssemblyParser___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyParser___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyParser___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyParser___c(AssemblyParser___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyParser___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyParser___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyParser___c(AssemblyParser___c const&) = delete;
+  AssemblyParser___c(AssemblyParser___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18344 };
@@ -125,6 +126,7 @@ public:
 static_assert(sizeof(::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c) == 0x10, "Size mismatch!");
 
 } // namespace Meta::XR::ImmersiveDebugger::Utils
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace Meta::XR::ImmersiveDebugger::Utils {
 // Is value type: true
@@ -138,6 +140,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a45d4c, size 0x398, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a460e4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -148,9 +151,9 @@ public:
   // @brief default ctor
   constexpr AssemblyParser__LoadAssembliesMainThread_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "ignorePrebakedAsset", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "ignorePrebakedAsset", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr AssemblyParser__LoadAssembliesMainThread_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, bool ignorePrebakedAsset,
                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -221,15 +224,18 @@ public:
   /// @brief Method GetImmersiveDebuggerEnabled, addr 0x5a44c14, size 0x60, virtual false, abstract: false, final false
   static inline bool GetImmersiveDebuggerEnabled();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x5a448f0, size 0xb8, virtual false, abstract: false, final false
   static inline void Init();
 
   /// @brief Method LoadAssembliesAsync, addr 0x5a44edc, size 0xa04, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* LoadAssembliesAsync();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.ImmersiveDebugger.Utils.AssemblyParser::<LoadAssembliesMainThread>d__18))]
   /// @brief Method LoadAssembliesMainThread, addr 0x5a44e24, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* LoadAssembliesMainThread(bool ignorePrebakedAsset);
 
+  /// [RuntimeInitializeOnLoadMethod]
   /// @brief Method OnLoad, addr 0x5a44d00, size 0x54, virtual false, abstract: false, final false
   static inline void OnLoad();
 
@@ -245,6 +251,7 @@ public:
   /// @brief Method Unregister, addr 0x5a459cc, size 0x58, virtual false, abstract: false, final false
   static inline void Unregister(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>* del);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnAssemblyParsed, addr 0x5a449a8, size 0x108, virtual false, abstract: false, final false
   static inline void add_OnAssemblyParsed(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>* value);
 
@@ -266,6 +273,7 @@ public:
   /// @brief Method get_Ready, addr 0x5a44bb8, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_Ready();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnAssemblyParsed, addr 0x5a44ab0, size 0x108, virtual false, abstract: false, final false
   static inline void remove_OnAssemblyParsed(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>* value);
 
@@ -287,13 +295,13 @@ protected:
   constexpr AssemblyParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyParser(AssemblyParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyParser(AssemblyParser const&) = delete;
+  AssemblyParser(AssemblyParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18346 };

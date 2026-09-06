@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\TaiwanCalendar.hpp"
+// IWYU pragma private; include "System/Globalization/TaiwanCalendar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class TaiwanCalendar;
 // Write type traits
 MARK_REF_T(::System::Globalization::TaiwanCalendar*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::TaiwanCalendar*, "System.Globalization", "TaiwanCalendar");
+// [ComVisible(true)]
 // Dependencies System.DateTime, System.Globalization.Calendar, System.Globalization.EraInfo
 namespace System::Globalization {
 // Is value type: false
@@ -37,8 +38,10 @@ public:
   // Declarations
   __declspec(property(get = get_Eras)) ::ArrayW<int32_t> Eras;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MinSupportedDateTime)) ::System::DateTime MinSupportedDateTime;
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
@@ -140,13 +143,13 @@ protected:
   constexpr TaiwanCalendar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaiwanCalendar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaiwanCalendar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaiwanCalendar(TaiwanCalendar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaiwanCalendar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaiwanCalendar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaiwanCalendar(TaiwanCalendar const&) = delete;
+  TaiwanCalendar(TaiwanCalendarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3632 };

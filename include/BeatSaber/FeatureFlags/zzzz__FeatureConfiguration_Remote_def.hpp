@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureConfiguration_Remote.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureConfiguration_Remote.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ protected:
   constexpr FeatureConfiguration_Remote();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Remote", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Remote", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FeatureConfiguration_Remote(FeatureConfiguration_Remote&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Remote", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Remote", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureConfiguration_Remote(FeatureConfiguration_Remote const&) = delete;
+  FeatureConfiguration_Remote(FeatureConfiguration_Remoteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22905 };

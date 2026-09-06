@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Vector4.hpp"
+// IWYU pragma private; include "UnityEngine/Vector4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,11 @@ struct Vector4;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Vector4);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Vector4, "UnityEngine", "Vector4");
+// [Il2CppEagerStaticClassConstruction]
+// [NativeClass("Vector4f")]
+// [NativeHeader("Runtime/Math/Vector4.h")]
+// [DefaultMember("Item")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -194,8 +199,8 @@ public:
   // @brief default ctor
   constexpr Vector4();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector4(float_t x, float_t y, float_t z, float_t w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

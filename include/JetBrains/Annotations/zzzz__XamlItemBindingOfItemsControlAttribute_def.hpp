@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\XamlItemBindingOfItemsControlAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/XamlItemBindingOfItemsControlAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class XamlItemBindingOfItemsControlAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::XamlItemBindingOfItemsControlAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::XamlItemBindingOfItemsControlAttribute*, "JetBrains.Annotations", "XamlItemBindingOfItemsControlAttribute");
+// [AttributeUsage((System.AttributeTargets)128)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr XamlItemBindingOfItemsControlAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XamlItemBindingOfItemsControlAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XamlItemBindingOfItemsControlAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XamlItemBindingOfItemsControlAttribute(XamlItemBindingOfItemsControlAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XamlItemBindingOfItemsControlAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XamlItemBindingOfItemsControlAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XamlItemBindingOfItemsControlAttribute(XamlItemBindingOfItemsControlAttribute const&) = delete;
+  XamlItemBindingOfItemsControlAttribute(XamlItemBindingOfItemsControlAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22595 };

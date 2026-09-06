@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadedTextureParams.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadedTextureParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,8 +39,8 @@ public:
   // @brief default ctor
   constexpr DownloadedTextureParams();
 
-  // Ctor Parameters [CppParam { name: "flags", ty: "::UnityEngine::Networking::DownloadedTextureFlags", modifiers: "", def_value: None }, CppParam { name: "mipmapCount", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "flags", ty: "::UnityEngine::Networking::DownloadedTextureFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "mipmapCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr DownloadedTextureParams(::UnityEngine::Networking::DownloadedTextureFlags flags, int32_t mipmapCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

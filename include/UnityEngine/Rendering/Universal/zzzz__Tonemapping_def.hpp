@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Tonemapping.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Tonemapping.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,8 @@ class Tonemapping;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::Tonemapping*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::Tonemapping*, "UnityEngine.Rendering.Universal", "Tonemapping");
+// [VolumeComponentMenu("Post-processing/Tonemapping")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -71,6 +73,7 @@ public:
   /// @brief Method IsActive, addr 0x687fb34, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687fb64, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -142,41 +145,52 @@ protected:
   constexpr Tonemapping();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tonemapping", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tonemapping", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tonemapping(Tonemapping&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tonemapping", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tonemapping", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tonemapping(Tonemapping const&) = delete;
+  Tonemapping(Tonemappingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12815 };
 
+  /// [Tooltip("Select a tonemapping algorithm to use for the color grading process.")]
   /// @brief Field mode, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::TonemappingModeParameter* ___mode;
 
+  /// [AdditionalProperty]
+  /// [Tooltip("Specifies the range reduction mode used when HDR output is enabled and Neutral tonemapping is enabled.")]
   /// @brief Field neutralHDRRangeReductionMode, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::NeutralRangeReductionModeParameter* ___neutralHDRRangeReductionMode;
 
+  /// [Tooltip("Use the ACES preset for HDR displays.")]
   /// @brief Field acesPreset, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::HDRACESPresetParameter* ___acesPreset;
 
+  /// [Tooltip("Specify how much hue to preserve. Values closer to 0 are likely to preserve hue. As values get closer to 1, Unity doesn\'t correct hue shifts.")]
   /// @brief Field hueShiftAmount, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___hueShiftAmount;
 
+  /// [Tooltip("Enable to use values detected from the output device as paper white. When enabled, output images might differ between SDR and HDR. For best accuracy, set this value manually.")]
   /// @brief Field detectPaperWhite, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::BoolParameter* ___detectPaperWhite;
 
+  /// [Tooltip("The reference brightness of a paper white surface. This property determines the maximum brightness of UI. The brightness of the scene is scaled relative to this value. The value is in
+  /// nits.")]
   /// @brief Field paperWhite, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___paperWhite;
 
+  /// [Tooltip("Enable to use the minimum and maximum brightness values detected from the output device. For best accuracy, considering calibrating these values manually.")]
   /// @brief Field detectBrightnessLimits, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::BoolParameter* ___detectBrightnessLimits;
 
+  /// [Tooltip("The minimum brightness of the screen (in nits). This value is assumed to be 0.005f with ACES Tonemap.")]
   /// @brief Field minNits, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___minNits;
 
+  /// [Tooltip("The maximum brightness of the screen (in nits). This value is defined by the preset when using ACES Tonemap.")]
   /// @brief Field maxNits, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___maxNits;
 

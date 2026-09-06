@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SRPLensFlareColorType.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SRPLensFlareColorType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct SRPLensFlareColorType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::SRPLensFlareColorType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SRPLensFlareColorType, "UnityEngine.Rendering", "SRPLensFlareColorType");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\PostProcessing\\LensFlareDataSRP.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.SRPLensFlareColorType
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr SRPLensFlareColorType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SRPLensFlareColorType(int32_t value__) noexcept;
 
   /// @brief Field AngularGradient value: I32(2)

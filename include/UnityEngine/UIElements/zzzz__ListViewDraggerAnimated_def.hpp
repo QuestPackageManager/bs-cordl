@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ListViewDraggerAnimated.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ListViewDraggerAnimated.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -144,12 +144,14 @@ public:
   /// @brief Method get_draggedItem, addr 0x6d90130, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ReusableCollectionItem* get_draggedItem();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isDragging, addr 0x6d90120, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDragging();
 
   /// @brief Method get_supportsDragEvents, addr 0x6d90138, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsDragEvents();
 
+  /// [CompilerGenerated]
   /// @brief Method set_isDragging, addr 0x6d90128, size 0x8, virtual false, abstract: false, final false
   inline void set_isDragging(bool value);
 
@@ -159,13 +161,13 @@ protected:
   constexpr ListViewDraggerAnimated();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListViewDraggerAnimated(ListViewDraggerAnimated&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListViewDraggerAnimated(ListViewDraggerAnimated const&) = delete;
+  ListViewDraggerAnimated(ListViewDraggerAnimatedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4409 };
@@ -191,6 +193,8 @@ public:
   /// @brief Field m_OffsetItem, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::UIElements::ReusableCollectionItem* ___m_OffsetItem;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <isDragging>k__BackingField, offset: 0xb0, size: 0x1, def value: None
   bool ____isDragging_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\CodeDom\Compiler\GeneratedCodeAttribute.hpp"
+// IWYU pragma private; include "System/CodeDom/Compiler/GeneratedCodeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class GeneratedCodeAttribute;
 // Write type traits
 MARK_REF_T(::System::CodeDom::Compiler::GeneratedCodeAttribute*);
 DEFINE_IL2CPP_CLASS(::System::CodeDom::Compiler::GeneratedCodeAttribute*, "System.CodeDom.Compiler", "GeneratedCodeAttribute");
+// [AttributeUsage((System.AttributeTargets)32767, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System::CodeDom::Compiler {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr GeneratedCodeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GeneratedCodeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeneratedCodeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GeneratedCodeAttribute(GeneratedCodeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GeneratedCodeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeneratedCodeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GeneratedCodeAttribute(GeneratedCodeAttribute const&) = delete;
+  GeneratedCodeAttribute(GeneratedCodeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11127 };

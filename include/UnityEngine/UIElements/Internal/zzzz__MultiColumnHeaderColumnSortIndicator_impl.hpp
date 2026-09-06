@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnHeaderColumnSortIndicator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumnSortIndicator.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__MultiColumnHeaderColumnSortIndicator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Label_def.hpp"

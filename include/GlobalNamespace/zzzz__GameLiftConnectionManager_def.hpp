@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameLiftConnectionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameLiftConnectionManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
@@ -66,7 +67,9 @@ namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
 }
 namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
 class IConnectionManager;
@@ -193,7 +196,7 @@ public:
   // @brief default ctor
   constexpr GameLiftConnectionManager_ConnectionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameLiftConnectionManager_ConnectionState(int32_t value__) noexcept;
 
   /// @brief Field Connected value: I32(2)
@@ -289,13 +292,13 @@ protected:
   constexpr GameLiftConnectionManager_GameLiftConnectionManagerParamsBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_GameLiftConnectionManagerParamsBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_GameLiftConnectionManagerParamsBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameLiftConnectionManager_GameLiftConnectionManagerParamsBase(GameLiftConnectionManager_GameLiftConnectionManagerParamsBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_GameLiftConnectionManagerParamsBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_GameLiftConnectionManagerParamsBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftConnectionManager_GameLiftConnectionManagerParamsBase(GameLiftConnectionManager_GameLiftConnectionManagerParamsBase const&) = delete;
+  GameLiftConnectionManager_GameLiftConnectionManagerParamsBase(GameLiftConnectionManager_GameLiftConnectionManagerParamsBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18856 };
@@ -362,13 +365,13 @@ protected:
   constexpr GameLiftConnectionManager_ConnectToServerParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_ConnectToServerParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_ConnectToServerParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameLiftConnectionManager_ConnectToServerParams(GameLiftConnectionManager_ConnectToServerParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_ConnectToServerParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_ConnectToServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftConnectionManager_ConnectToServerParams(GameLiftConnectionManager_ConnectToServerParams const&) = delete;
+  GameLiftConnectionManager_ConnectToServerParams(GameLiftConnectionManager_ConnectToServerParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18857 };
@@ -407,13 +410,13 @@ protected:
   constexpr GameLiftConnectionManager_StartClientParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_StartClientParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_StartClientParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameLiftConnectionManager_StartClientParams(GameLiftConnectionManager_StartClientParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_StartClientParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_StartClientParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftConnectionManager_StartClientParams(GameLiftConnectionManager_StartClientParams const&) = delete;
+  GameLiftConnectionManager_StartClientParams(GameLiftConnectionManager_StartClientParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18858 };
@@ -424,6 +427,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::GameLiftConnectionManager_StartClientParams) == 0x60, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -437,6 +441,7 @@ public:
   /// @brief Method MoveNext, addr 0x32abc44, size 0x5d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32ac214, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -447,12 +452,12 @@ public:
   // @brief default ctor
   constexpr GameLiftConnectionManager__GameLiftConnectToServer_d__83();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameLiftConnectionManager*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "secret", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameLiftConnectionManager*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "secret", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None, comment: None }]
   constexpr GameLiftConnectionManager__GameLiftConnectToServer_d__83(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                      ::GlobalNamespace::GameLiftConnectionManager* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                                      ::StringW secret, ::StringW code,
@@ -511,6 +516,7 @@ static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftCon
 static_assert(sizeof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -524,6 +530,7 @@ public:
   /// @brief Method MoveNext, addr 0x32ac280, size 0x3d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32ac650, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -534,12 +541,13 @@ public:
   // @brief default ctor
   constexpr GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::GameLiftConnectionManager*", modifiers: "", def_value: None }, CppParam { name: "authenticationTokenProvider", ty: "::GlobalNamespace::IAuthenticationTokenProvider*",
-  // modifiers: "", def_value: None }, CppParam { name: "secret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::GameLiftConnectionManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "authenticationTokenProvider", ty:
+  // "::GlobalNamespace::IAuthenticationTokenProvider*", modifiers: "", def_value: None, comment: None }, CppParam { name: "secret", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82(int32_t __1__state,
                                                                           ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __t__builder,
                                                                           ::GlobalNamespace::GameLiftConnectionManager* __4__this,
@@ -599,7 +607,7 @@ static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLift
 static_assert(sizeof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelSelectionMask, GameLiftConnectionManager::ConnectionState, GameplayServerConfiguration, System.Object
+// Dependencies BeatmapLevelSelectionMask, GameLiftConnectionManager::ConnectionState, GameplayServerConfiguration, IConnectionManager, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GameLiftConnectionManager
@@ -741,12 +749,14 @@ public:
   /// @brief Method DisposeAsync, addr 0x32ab014, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
+  /// [AsyncStateMachine(typeof(GameLiftConnectionManager::<GameLiftConnectToServer>d__83))]
   /// @brief Method GameLiftConnectToServer, addr 0x32ab684, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GameLiftConnectToServer(::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method GetConnection, addr 0x32ab434, size 0xb8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);
 
+  /// [AsyncStateMachine(typeof(GameLiftConnectionManager::<GetGameLiftPlayerSessionInfo>d__82))]
   /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x32ab57c, size 0x108, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>* GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
                                                                                                                        ::System::Threading::CancellationToken cancellationToken, ::StringW secret,
@@ -777,7 +787,9 @@ public:
   inline void HandleReceivedData(::GlobalNamespace::IConnection* connection, ::LiteNetLib::Utils::NetDataReader* reader, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+  inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
 
   static inline ::GlobalNamespace::GameLiftConnectionManager* New_ctor();
 
@@ -913,24 +925,31 @@ public:
   /// @brief Method .ctor, addr 0x32aaaf4, size 0x520, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IConnectionManager* connectionManager);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectedEvent, addr 0x32a99c0, size 0xac, virtual true, abstract: false, final true
   inline void add_onConnectedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectionConnectedEvent, addr 0x32a9e18, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectionDisconnectedEvent, addr 0x32a9f98, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectionFailedEvent, addr 0x32a9c98, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onDisconnectedEvent, addr 0x32a9b18, size 0xc0, virtual true, abstract: false, final true
   inline void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onInitializedEvent, addr 0x32a9868, size 0xac, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onReceivedDataEvent, addr 0x32aa118, size 0xc0, virtual true, abstract: false, final true
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
@@ -988,24 +1007,31 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectedEvent, addr 0x32a9a6c, size 0xac, virtual true, abstract: false, final true
   inline void remove_onConnectedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectionConnectedEvent, addr 0x32a9ed8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x32aa058, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectionFailedEvent, addr 0x32a9d58, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onDisconnectedEvent, addr 0x32a9bd8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onInitializedEvent, addr 0x32a9914, size 0xac, virtual true, abstract: false, final true
   inline void remove_onInitializedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onReceivedDataEvent, addr 0x32aa1d8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
@@ -1015,13 +1041,13 @@ protected:
   constexpr GameLiftConnectionManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameLiftConnectionManager(GameLiftConnectionManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftConnectionManager(GameLiftConnectionManager const&) = delete;
+  GameLiftConnectionManager(GameLiftConnectionManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18861 };
@@ -1062,24 +1088,31 @@ public:
   /// @brief Field _connectionRequestHandler, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::GameLiftClientConnectionRequestHandler* ____connectionRequestHandler;
 
+  /// [CompilerGenerated]
   /// @brief Field onInitializedEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action* ___onInitializedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectedEvent, offset: 0xa8, size: 0x8, def value: None
   ::System::Action* ___onConnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onDisconnectedEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DisconnectedReason>* ___onDisconnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectionFailedEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* ___onConnectionFailedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectionConnectedEvent, offset: 0xc0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IConnection*>* ___onConnectionConnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectionDisconnectedEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* ___onConnectionDisconnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onReceivedDataEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* ___onReceivedDataEvent;
 

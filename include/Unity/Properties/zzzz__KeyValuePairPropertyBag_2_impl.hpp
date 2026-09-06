@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\KeyValuePairPropertyBag_2.hpp"
+// IWYU pragma private; include "Unity/Properties/KeyValuePairPropertyBag_2.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_impl.hpp"
@@ -142,6 +142,7 @@ inline ::System::Collections::IEnumerator* Unity::Properties::KeyValuePairProper
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TKey, typename TValue>
 inline ::Unity::Properties::KeyValuePairPropertyBag_2__GetPropertiesEnumerable_d__4<TKey, TValue>*
 Unity::Properties::KeyValuePairPropertyBag_2__GetPropertiesEnumerable_d__4<TKey, TValue>::New_ctor(int32_t __1__state) {

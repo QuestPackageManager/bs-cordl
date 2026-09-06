@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\InputManagerProvider.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/InputManagerProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerState_impl.hpp"
 #include "UnityEngine/zzzz__PenData_impl.hpp"
@@ -132,7 +132,8 @@ constexpr UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::op
 constexpr ::System::Collections::IEnumerator* UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_mask", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bit", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_mask", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_bit", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::InputManagerProvider_ButtonEventsIterator(uint32_t _mask, int32_t _bit) noexcept {
   this->_mask = _mask;
   this->_bit = _bit;
@@ -158,10 +159,11 @@ inline ::UnityEngine::InputForUI::InputManagerProvider_Configuration UnityEngine
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Configuration>(), { "GetDefaultConfiguration", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::InputManagerProvider_Configuration>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "HorizontalAxis", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "VerticalAxis", ty: "::StringW", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "SubmitButton", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "CancelButton", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "NavigateNextButton", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "NavigatePreviousButton", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "InputActionsPerSecond", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RepeatDelay", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "HorizontalAxis", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "VerticalAxis", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "SubmitButton", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CancelButton", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NavigateNextButton", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "NavigatePreviousButton", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "InputActionsPerSecond", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "RepeatDelay", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::InputManagerProvider_Configuration::InputManagerProvider_Configuration(::StringW HorizontalAxis, ::StringW VerticalAxis, ::StringW SubmitButton,
                                                                                                             ::StringW CancelButton, ::StringW NavigateNextButton, ::StringW NavigatePreviousButton,
                                                                                                             float_t InputActionsPerSecond, float_t RepeatDelay) noexcept {
@@ -1420,7 +1422,7 @@ inline ::UnityEngine::InputForUI::PointerEvent_Button UnityEngine::InputForUI::I
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(), { "PenStatusToButton", {}, { ::i2c::type_of<::UnityEngine::PenStatus>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::PointerEvent_Button>(nullptr, ___internal_method, status);
 }
-inline bool UnityEngine::InputForUI::InputManagerProvider::CheckPenEvent(::Unity::IntegerTime::DiscreteTime currentTime, ::by_ref<::UnityEngine::PenData> currentPenData) {
+inline bool UnityEngine::InputForUI::InputManagerProvider::CheckPenEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::PenData> currentPenData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
                                                            { "CheckPenEvent", {}, { ::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::PenData>>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DataBinding.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DataBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ class DataBinding;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::DataBinding*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DataBinding*, "UnityEngine.UIElements", "DataBinding");
+// [UxmlObject]
 // Dependencies Unity.Properties.PropertyPath, UnityEngine.UIElements.Binding, UnityEngine.UIElements.BindingMode
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -65,10 +66,13 @@ public:
   /// @brief Field <dataSource>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__dataSource_k__BackingField, put = __cordl_internal_set__dataSource_k__BackingField)) ::System::Object* _dataSource_k__BackingField;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_bindingMode, put = set_bindingMode)) ::UnityEngine::UIElements::BindingMode bindingMode;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_dataSource, put = set_dataSource)) ::System::Object* dataSource;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_dataSourcePath, put = set_dataSourcePath)) ::Unity::Properties::PropertyPath dataSourcePath;
 
   __declspec(property(get = get_dataSourceType, put = set_dataSourceType)) ::System::Type* dataSourceType;
@@ -85,8 +89,10 @@ public:
   /// @brief Field s_UpdateUIMethodInfo, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_UpdateUIMethodInfo, put = setStaticF_s_UpdateUIMethodInfo)) ::System::Reflection::MethodInfo* s_UpdateUIMethodInfo;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_sourceToUiConverters)) ::UnityEngine::UIElements::ConverterGroup* sourceToUiConverters;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_uiToSourceConverters)) ::UnityEngine::UIElements::ConverterGroup* uiToSourceConverters;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IDataSourceProvider"
@@ -103,14 +109,14 @@ public:
 
   /// @brief Method GetSetValueErrorString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
-  static inline ::StringW GetSetValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* source, ::by_ref<::Unity::Properties::PropertyPath> sourcePath,
-                                                 ::System::Object* target, ::by_ref<::UnityEngine::UIElements::BindingId> targetPath, TValue extractedValueFromSource);
+  static inline ::StringW GetSetValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* source, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> sourcePath,
+                                                 ::System::Object* target, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> targetPath, TValue extractedValueFromSource);
 
   /// @brief Method UpdateSource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateSource(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value);
+  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value);
 
   /// @brief Method UpdateUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateUI(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value);
+  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value);
 
   constexpr ::Unity::Properties::PropertyPath const& __cordl_internal_get__dataSourcePath_k__BackingField() const;
 
@@ -153,12 +159,15 @@ public:
   /// @brief Method get_bindingMode, addr 0x6c3f1b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingMode get_bindingMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dataSource, addr 0x6c3f178, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_dataSource();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dataSourcePath, addr 0x6c3f198, size 0x10, virtual true, abstract: false, final true
   inline ::Unity::Properties::PropertyPath get_dataSourcePath();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dataSourceType, addr 0x6c3f188, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_dataSourceType();
 
@@ -179,12 +188,15 @@ public:
   /// @brief Method set_bindingMode, addr 0x6c3f1bc, size 0x1c, virtual false, abstract: false, final false
   inline void set_bindingMode(::UnityEngine::UIElements::BindingMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dataSource, addr 0x6c3f180, size 0x8, virtual false, abstract: false, final false
   inline void set_dataSource(::System::Object* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dataSourcePath, addr 0x6c3f1a8, size 0xc, virtual false, abstract: false, final false
   inline void set_dataSourcePath(::Unity::Properties::PropertyPath value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dataSourceType, addr 0x6c3f190, size 0x8, virtual false, abstract: false, final false
   inline void set_dataSourceType(::System::Type* value);
 
@@ -194,13 +206,13 @@ protected:
   constexpr DataBinding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataBinding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBinding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataBinding(DataBinding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataBinding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBinding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBinding(DataBinding const&) = delete;
+  DataBinding(DataBindingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4037 };
@@ -214,12 +226,18 @@ public:
   /// @brief Field m_UiToSourceConverters, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::UIElements::ConverterGroup* ___m_UiToSourceConverters;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dataSource>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::Object* ____dataSource_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dataSourceType>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Type* ____dataSourceType_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dataSourcePath>k__BackingField, offset: 0x48, size: 0x90, def value: None
   ::Unity::Properties::PropertyPath ____dataSourcePath_k__BackingField;
 

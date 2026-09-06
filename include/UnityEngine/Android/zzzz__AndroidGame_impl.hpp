@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidGame.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidGame.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidGame_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::AndroidGame.StopLoading

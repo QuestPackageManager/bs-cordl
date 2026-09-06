@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\ParameterUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/ParameterUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__ParameterUtilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -269,12 +269,12 @@ inline void Org::BouncyCastle::Security::ParameterUtilities::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::ParameterUtilities*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Security::ParameterUtilities::AddAlgorithm(::StringW canonicalName, ::ArrayW<::System::Object*> aliases) {
+inline void Org::BouncyCastle::Security::ParameterUtilities::AddAlgorithm(::StringW canonicalName, /* [ParamArray] */ ::ArrayW<::System::Object*> aliases) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::ParameterUtilities*>(),
                                                                                          { "AddAlgorithm", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, canonicalName, aliases);
 }
-inline void Org::BouncyCastle::Security::ParameterUtilities::AddBasicIVSizeEntries(int32_t size, ::ArrayW<::StringW> algorithms) {
+inline void Org::BouncyCastle::Security::ParameterUtilities::AddBasicIVSizeEntries(int32_t size, /* [ParamArray] */ ::ArrayW<::StringW> algorithms) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::ParameterUtilities*>(),
                                                                                          { "AddBasicIVSizeEntries", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, size, algorithms);

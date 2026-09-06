@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolExpandMethods.hpp"
+// IWYU pragma private; include "Zenject/PoolExpandMethods.hpp"
 #include "Zenject/zzzz__PoolExpandMethods_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Zenject::PoolExpandMethods::PoolExpandMethods(int32_t value__) noexcept {
   this->value__ = value__;
 }

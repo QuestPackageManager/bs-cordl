@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\DpadControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/DpadControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ MARK_REF_T(::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Controls::DpadControl_ButtonBits, "UnityEngine.InputSystem.Controls", "DpadControl/ButtonBits");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Controls::DpadControl*, "UnityEngine.InputSystem.Controls", "DpadControl");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl*, "UnityEngine.InputSystem.Controls", "DpadControl/DpadAxisControl");
+// [InputControlLayout(hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.Controls.AxisControl
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
@@ -67,9 +68,11 @@ public:
   /// @brief Method .ctor, addr 0x64fbd2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_component, addr 0x64fbb98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_component();
 
+  /// [CompilerGenerated]
   /// @brief Method set_component, addr 0x64fbba0, size 0x8, virtual false, abstract: false, final false
   inline void set_component(int32_t value);
 
@@ -79,17 +82,18 @@ protected:
   constexpr DpadControl_DpadAxisControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DpadControl_DpadAxisControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DpadControl_DpadAxisControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DpadControl_DpadAxisControl(DpadControl_DpadAxisControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DpadControl_DpadAxisControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DpadControl_DpadAxisControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DpadControl_DpadAxisControl(DpadControl_DpadAxisControl const&) = delete;
+  DpadControl_DpadAxisControl(DpadControl_DpadAxisControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9128 };
 
+  /// [CompilerGenerated]
   /// @brief Field <component>k__BackingField, offset: 0x12c, size: 0x4, def value: None
   int32_t ____component_k__BackingField;
 
@@ -132,7 +136,7 @@ public:
   // @brief default ctor
   constexpr DpadControl_ButtonBits();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DpadControl_ButtonBits(int32_t value__) noexcept;
 
   /// @brief Field Down value: I32(1)
@@ -188,12 +192,18 @@ public:
   /// @brief Field <up>k__BackingField, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__up_k__BackingField, put = __cordl_internal_set__up_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _up_k__BackingField;
 
+  /// @brief [InputControl(bit = 1, displayName = "Down")]
   __declspec(property(get = get_down, put = set_down)) ::UnityEngine::InputSystem::Controls::ButtonControl* down;
 
+  /// @brief [InputControl(bit = 2, displayName = "Left")]
   __declspec(property(get = get_left, put = set_left)) ::UnityEngine::InputSystem::Controls::ButtonControl* left;
 
+  /// @brief [InputControl(bit = 3, displayName = "Right")]
   __declspec(property(get = get_right, put = set_right)) ::UnityEngine::InputSystem::Controls::ButtonControl* right;
 
+  /// [InputControl(name = "x", layout = "DpadAxis", useStateFrom = "right", synthetic = true)]
+  /// [InputControl(name = "y", layout = "DpadAxis", useStateFrom = "up", synthetic = true)]
+  /// @brief [InputControl(bit = 0, displayName = "Up")]
   __declspec(property(get = get_up, put = set_up)) ::UnityEngine::InputSystem::Controls::ButtonControl* up;
 
   /// @brief Method FinishSetup, addr 0x64fb61c, size 0xfc, virtual true, abstract: false, final false
@@ -240,27 +250,35 @@ public:
   /// @brief Method .ctor, addr 0x64fb5a8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_down, addr 0x64fb578, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_down();
 
+  /// [CompilerGenerated]
   /// @brief Method get_left, addr 0x64fb588, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_left();
 
+  /// [CompilerGenerated]
   /// @brief Method get_right, addr 0x64fb598, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_right();
 
+  /// [CompilerGenerated]
   /// @brief Method get_up, addr 0x64fb568, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_up();
 
+  /// [CompilerGenerated]
   /// @brief Method set_down, addr 0x64fb580, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_left, addr 0x64fb590, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_right, addr 0x64fb5a0, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_up, addr 0x64fb570, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
@@ -270,26 +288,30 @@ protected:
   constexpr DpadControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DpadControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DpadControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DpadControl(DpadControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DpadControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DpadControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DpadControl(DpadControl const&) = delete;
+  DpadControl(DpadControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9130 };
 
+  /// [CompilerGenerated]
   /// @brief Field <up>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____up_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <down>k__BackingField, offset: 0x128, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____down_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <left>k__BackingField, offset: 0x130, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____left_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <right>k__BackingField, offset: 0x138, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____right_k__BackingField;
 

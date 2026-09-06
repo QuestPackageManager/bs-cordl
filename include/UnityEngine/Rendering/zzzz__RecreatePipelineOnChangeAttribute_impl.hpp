@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RecreatePipelineOnChangeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RecreatePipelineOnChangeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RecreatePipelineOnChangeAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RecreatePipelineOnChangeAttribute._ctor

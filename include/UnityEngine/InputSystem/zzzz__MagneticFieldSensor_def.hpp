@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\MagneticFieldSensor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/MagneticFieldSensor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class MagneticFieldSensor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::MagneticFieldSensor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::MagneticFieldSensor*, "UnityEngine.InputSystem", "MagneticFieldSensor");
+// [InputControlLayout(displayName = "Magnetic Field")]
 // Dependencies UnityEngine.InputSystem.Sensor
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -29,6 +30,7 @@ public:
   __declspec(property(get = __cordl_internal_get__magneticField_k__BackingField,
                       put = __cordl_internal_set__magneticField_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _magneticField_k__BackingField;
 
+  /// @brief [InputControl(displayName = "Magnetic Field", noisy = true)]
   __declspec(property(get = get_magneticField, put = set_magneticField)) ::UnityEngine::InputSystem::Controls::Vector3Control* magneticField;
 
   /// @brief Method FinishSetup, addr 0x656661c, size 0x70, virtual true, abstract: false, final false
@@ -53,17 +55,21 @@ public:
 
   static inline ::UnityEngine::InputSystem::MagneticFieldSensor* getStaticF__current_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x65664a0, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::MagneticFieldSensor* get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_magneticField, addr 0x6566490, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_magneticField();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::MagneticFieldSensor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x65664ec, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::MagneticFieldSensor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_magneticField, addr 0x6566498, size 0x8, virtual false, abstract: false, final false
   inline void set_magneticField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
@@ -73,17 +79,18 @@ protected:
   constexpr MagneticFieldSensor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MagneticFieldSensor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MagneticFieldSensor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MagneticFieldSensor(MagneticFieldSensor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MagneticFieldSensor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MagneticFieldSensor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MagneticFieldSensor(MagneticFieldSensor const&) = delete;
+  MagneticFieldSensor(MagneticFieldSensorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8764 };
 
+  /// [CompilerGenerated]
   /// @brief Field <magneticField>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____magneticField_k__BackingField;
 

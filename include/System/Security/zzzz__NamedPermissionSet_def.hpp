@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\NamedPermissionSet.hpp"
+// IWYU pragma private; include "System/Security/NamedPermissionSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class NamedPermissionSet;
 // Write type traits
 MARK_REF_T(::System::Security::NamedPermissionSet*);
 DEFINE_IL2CPP_CLASS(::System::Security::NamedPermissionSet*, "System.Security", "NamedPermissionSet");
+// [ComVisible(true)]
 // Dependencies System.Security.PermissionSet
 namespace System::Security {
 // Is value type: false
@@ -38,9 +39,11 @@ public:
   /// @brief Field name, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
+  /// [ComVisible(false)]
   /// @brief Method Equals, addr 0x5aef900, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [ComVisible(false)]
   /// @brief Method GetHashCode, addr 0x5aefb28, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -86,13 +89,13 @@ protected:
   constexpr NamedPermissionSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamedPermissionSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedPermissionSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamedPermissionSet(NamedPermissionSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamedPermissionSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedPermissionSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedPermissionSet(NamedPermissionSet const&) = delete;
+  NamedPermissionSet(NamedPermissionSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2903 };

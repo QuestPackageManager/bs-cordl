@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XElement.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,6 +74,7 @@ MARK_REF_T(::System::Xml::Linq::XElement*);
 MARK_REF_T(::System::Xml::Linq::XElement__GetAttributes_d__116*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Linq::XElement*, "System.Xml.Linq", "XElement");
 DEFINE_IL2CPP_CLASS(::System::Xml::Linq::XElement__GetAttributes_d__116*, "System.Xml.Linq", "XElement/<GetAttributes>d__116");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Xml::Linq {
 // Is value type: false
@@ -126,23 +127,30 @@ public:
   /// @brief Method MoveNext, addr 0x61a9d50, size 0xa8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Xml::Linq::XElement__GetAttributes_d__116* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>.GetEnumerator, addr 0x61a9e40, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>* System_Collections_Generic_IEnumerable_System_Xml_Linq_XAttribute__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Xml.Linq.XAttribute>.get_Current, addr 0x61a9df8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Linq::XAttribute* System_Collections_Generic_IEnumerator_System_Xml_Linq_XAttribute__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x61a9ee0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x61a9e00, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x61a9e38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x61a9d4c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -188,6 +196,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::System::Xml::Linq::XName* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x61a9484, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -212,13 +221,13 @@ protected:
   constexpr XElement__GetAttributes_d__116();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XElement__GetAttributes_d__116", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XElement__GetAttributes_d__116", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XElement__GetAttributes_d__116(XElement__GetAttributes_d__116&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XElement__GetAttributes_d__116", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XElement__GetAttributes_d__116", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XElement__GetAttributes_d__116(XElement__GetAttributes_d__116 const&) = delete;
+  XElement__GetAttributes_d__116(XElement__GetAttributes_d__116const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21975 };
@@ -264,6 +273,8 @@ static_assert(offsetof(::System::Xml::Linq::XElement__GetAttributes_d__116, ____
 static_assert(sizeof(::System::Xml::Linq::XElement__GetAttributes_d__116) == 0x48, "Size mismatch!");
 
 } // namespace System::Xml::Linq
+// [XmlSchemaProvider(null, IsAny = true)]
+// [XmlTypeConvertor("ConvertForAssignment")]
 // Dependencies System.Xml.Linq.XContainer
 namespace System::Xml::Linq {
 // Is value type: false
@@ -313,6 +324,7 @@ public:
   /// @brief Method CloneNode, addr 0x61a9428, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
+  /// [IteratorStateMachine(typeof(System.Xml.Linq.XElement::<GetAttributes>d__116))]
   /// @brief Method GetAttributes, addr 0x61a8b54, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* GetAttributes(::System::Xml::Linq::XName* name);
 
@@ -400,13 +412,13 @@ protected:
   constexpr XElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XElement(XElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XElement(XElement const&) = delete;
+  XElement(XElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21976 };

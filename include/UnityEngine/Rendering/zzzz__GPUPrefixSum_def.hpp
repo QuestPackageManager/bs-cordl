@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUPrefixSum.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUPrefixSum.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,7 +103,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUPrefixSum_LevelOffsets, "UnityE
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources, "UnityEngine.Rendering", "GPUPrefixSum/RenderGraphResources");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUPrefixSum_SupportResources, "UnityEngine.Rendering", "GPUPrefixSum/SupportResources");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUPrefixSum_SystemResources, "UnityEngine.Rendering", "GPUPrefixSum/SystemResources");
-// Dependencies System.Object
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\Utilities\\GPUPrefixSum\\GPUPrefixSum.Data.cs")] Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.GPUPrefixSum/ShaderDefs
@@ -125,13 +126,13 @@ protected:
   constexpr GPUPrefixSum_ShaderDefs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUPrefixSum_ShaderDefs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUPrefixSum_ShaderDefs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUPrefixSum_ShaderDefs(GPUPrefixSum_ShaderDefs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUPrefixSum_ShaderDefs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUPrefixSum_ShaderDefs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUPrefixSum_ShaderDefs(GPUPrefixSum_ShaderDefs const&) = delete;
+  GPUPrefixSum_ShaderDefs(GPUPrefixSum_ShaderDefsconst&) = delete;
 
   /// @brief Field ArgsBufferLower offset 0xffffffff size 0x4
   static constexpr int32_t ArgsBufferLower{ static_cast<int32_t>(0x8) };
@@ -154,7 +155,8 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\Utilities\\GPUPrefixSum\\GPUPrefixSum.Data.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.GPUPrefixSum/LevelOffsets
@@ -165,8 +167,8 @@ public:
   // @brief default ctor
   constexpr GPUPrefixSum_LevelOffsets();
 
-  // Ctor Parameters [CppParam { name: "count", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "parentOffset", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "count", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "parentOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GPUPrefixSum_LevelOffsets(uint32_t count, uint32_t offset, uint32_t parentOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -220,12 +222,13 @@ public:
   // @brief default ctor
   constexpr GPUPrefixSum_RenderGraphResources();
 
-  // Ctor Parameters [CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxBufferCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "maxLevelCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prefixBuffer0", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers:
-  // "", def_value: None }, CppParam { name: "prefixBuffer1", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }, CppParam { name:
-  // "totalLevelCountBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }, CppParam { name: "levelOffsetBuffer", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }, CppParam { name: "indirectDispatchArgsBuffer", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxBufferCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "maxLevelCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefixBuffer0", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefixBuffer1", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "totalLevelCountBuffer", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "levelOffsetBuffer", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectDispatchArgsBuffer", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }]
   constexpr GPUPrefixSum_RenderGraphResources(int32_t alignedElementCount, int32_t maxBufferCount, int32_t maxLevelCount, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle prefixBuffer0,
                                               ::UnityEngine::Rendering::RenderGraphModule::BufferHandle prefixBuffer1, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle totalLevelCountBuffer,
                                               ::UnityEngine::Rendering::RenderGraphModule::BufferHandle levelOffsetBuffer,
@@ -307,6 +310,7 @@ public:
   /// @brief Method Resize, addr 0x67c3aa4, size 0x23c, virtual false, abstract: false, final false
   inline void Resize(int32_t newMaxElementCount);
 
+  /// [CompilerGenerated]
   /// @brief Method <Dispose>g__TryFreeBuffer|15_0, addr 0x67c3e98, size 0x10, virtual false, abstract: false, final false
   static inline void _Dispose_g__TryFreeBuffer_15_0(::UnityEngine::GraphicsBuffer* resource);
 
@@ -317,11 +321,12 @@ public:
   // @brief default ctor
   constexpr GPUPrefixSum_SupportResources();
 
-  // Ctor Parameters [CppParam { name: "ownsResources", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "maxBufferCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxLevelCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prefixBuffer0", ty:
-  // "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }, CppParam { name: "prefixBuffer1", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }, CppParam { name:
-  // "totalLevelCountBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }, CppParam { name: "levelOffsetBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "",
-  // def_value: None }, CppParam { name: "indirectDispatchArgsBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ownsResources", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "maxBufferCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxLevelCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "prefixBuffer0", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefixBuffer1", ty:
+  // "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "totalLevelCountBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "levelOffsetBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectDispatchArgsBuffer", ty:
+  // "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }]
   constexpr GPUPrefixSum_SupportResources(bool ownsResources, int32_t alignedElementCount, int32_t maxBufferCount, int32_t maxLevelCount, ::UnityEngine::GraphicsBuffer* prefixBuffer0,
                                           ::UnityEngine::GraphicsBuffer* prefixBuffer1, ::UnityEngine::GraphicsBuffer* totalLevelCountBuffer, ::UnityEngine::GraphicsBuffer* levelOffsetBuffer,
                                           ::UnityEngine::GraphicsBuffer* indirectDispatchArgsBuffer) noexcept;
@@ -394,9 +399,9 @@ public:
   // @brief default ctor
   constexpr GPUPrefixSum_DirectArgs();
 
-  // Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "inputCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "input", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }, CppParam { name: "supportResources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SupportResources", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputCount", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "input", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportResources", ty:
+  // "::UnityEngine::Rendering::GPUPrefixSum_SupportResources", modifiers: "", def_value: None, comment: None }]
   constexpr GPUPrefixSum_DirectArgs(bool exclusive, int32_t inputCount, ::UnityEngine::GraphicsBuffer* input, ::UnityEngine::Rendering::GPUPrefixSum_SupportResources supportResources) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -442,9 +447,10 @@ public:
   // @brief default ctor
   constexpr GPUPrefixSum_IndirectDirectArgs();
 
-  // Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "inputCountBufferByteOffset", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "inputCountBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None }, CppParam { name: "input", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "",
-  // def_value: None }, CppParam { name: "supportResources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SupportResources", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputCountBufferByteOffset", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "inputCountBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "input", ty:
+  // "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportResources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SupportResources", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr GPUPrefixSum_IndirectDirectArgs(bool exclusive, int32_t inputCountBufferByteOffset, ::UnityEngine::ComputeBuffer* inputCountBuffer, ::UnityEngine::GraphicsBuffer* input,
                                             ::UnityEngine::Rendering::GPUPrefixSum_SupportResources supportResources) noexcept;
 
@@ -499,11 +505,12 @@ public:
   // @brief default ctor
   constexpr GPUPrefixSum_SystemResources();
 
-  // Ctor Parameters [CppParam { name: "computeAsset", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None }, CppParam { name: "kernelCalculateLevelDispatchArgsFromConst", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "kernelCalculateLevelDispatchArgsFromBuffer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "kernelPrefixSumOnGroup", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "kernelPrefixSumOnGroupExclusive", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "kernelPrefixSumNextInput", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "kernelPrefixSumResolveParent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "kernelPrefixSumResolveParentExclusive", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "computeAsset", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "kernelCalculateLevelDispatchArgsFromConst", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "kernelCalculateLevelDispatchArgsFromBuffer", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "kernelPrefixSumOnGroup", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "kernelPrefixSumOnGroupExclusive", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "kernelPrefixSumNextInput", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "kernelPrefixSumResolveParent", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "kernelPrefixSumResolveParentExclusive", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GPUPrefixSum_SystemResources(::UnityW<::UnityEngine::ComputeShader> computeAsset, int32_t kernelCalculateLevelDispatchArgsFromConst, int32_t kernelCalculateLevelDispatchArgsFromBuffer,
                                          int32_t kernelPrefixSumOnGroup, int32_t kernelPrefixSumOnGroupExclusive, int32_t kernelPrefixSumNextInput, int32_t kernelPrefixSumResolveParent,
                                          int32_t kernelPrefixSumResolveParentExclusive) noexcept;
@@ -636,13 +643,13 @@ protected:
   constexpr GPUPrefixSum_ShaderIDs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUPrefixSum_ShaderIDs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUPrefixSum_ShaderIDs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUPrefixSum_ShaderIDs(GPUPrefixSum_ShaderIDs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUPrefixSum_ShaderIDs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUPrefixSum_ShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUPrefixSum_ShaderIDs(GPUPrefixSum_ShaderIDs const&) = delete;
+  GPUPrefixSum_ShaderIDs(GPUPrefixSum_ShaderIDsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12289 };
@@ -677,14 +684,14 @@ public:
   using SystemResources = ::UnityEngine::Rendering::GPUPrefixSum_SystemResources;
 
   /// @brief Method DispatchDirect, addr 0x67c3270, size 0x1f0, virtual false, abstract: false, final false
-  inline void DispatchDirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs> arguments);
+  inline void DispatchDirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs> arguments);
 
   /// @brief Method DispatchIndirect, addr 0x67c3460, size 0x1e4, virtual false, abstract: false, final false
-  inline void DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs> arguments);
+  inline void DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs> arguments);
 
   /// @brief Method ExecuteCommonIndirect, addr 0x67c2ef4, size 0x37c, virtual false, abstract: false, final false
   inline void ExecuteCommonIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::GraphicsBuffer* inputBuffer,
-                                    ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources> supportResources, bool isExclusive);
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources> supportResources, bool isExclusive);
 
   /// @brief Method PackPrefixSumArgs, addr 0x67c2ee0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 PackPrefixSumArgs(int32_t a, int32_t b, int32_t c, int32_t d);
@@ -696,7 +703,7 @@ public:
   // @brief default ctor
   constexpr GPUPrefixSum();
 
-  // Ctor Parameters [CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SystemResources", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SystemResources", modifiers: "", def_value: None, comment: None }]
   constexpr GPUPrefixSum(::UnityEngine::Rendering::GPUPrefixSum_SystemResources resources) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

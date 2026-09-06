@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\CurveAnimation.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/CurveAnimation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr CurveAnimation_CurveEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurveAnimation_CurveEvent(CurveAnimation_CurveEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurveAnimation_CurveEvent(CurveAnimation_CurveEvent const&) = delete;
+  CurveAnimation_CurveEvent(CurveAnimation_CurveEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20825 };
@@ -117,13 +117,13 @@ protected:
   constexpr CurveAnimation_CurveEvent_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurveAnimation_CurveEvent_1(CurveAnimation_CurveEvent_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurveAnimation_CurveEvent_1(CurveAnimation_CurveEvent_1 const&) = delete;
+  CurveAnimation_CurveEvent_1(CurveAnimation_CurveEvent_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20826 };
@@ -132,6 +132,7 @@ public:
 };
 // Non member Declarations
 } // namespace BGLib::UnityExtension::BezierCurves
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::UnityExtension::BezierCurves {
 // Is value type: false
@@ -170,17 +171,22 @@ public:
   /// @brief Method MoveNext, addr 0x332b95c, size 0x180, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x332badc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x332bae4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x332bb1c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x332b958, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -214,6 +220,7 @@ public:
 
   constexpr void __cordl_internal_set_withDelay(bool value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x332b910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -232,13 +239,13 @@ protected:
   constexpr CurveAnimation__Animate_d__20();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation__Animate_d__20", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation__Animate_d__20", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurveAnimation__Animate_d__20(CurveAnimation__Animate_d__20&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation__Animate_d__20", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation__Animate_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurveAnimation__Animate_d__20(CurveAnimation__Animate_d__20 const&) = delete;
+  CurveAnimation__Animate_d__20(CurveAnimation__Animate_d__20const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20827 };
@@ -274,6 +281,7 @@ static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__An
 static_assert(sizeof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20) == 0x30, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension::BezierCurves
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace BGLib::UnityExtension::BezierCurves {
 // Is value type: false
@@ -326,6 +334,7 @@ public:
   /// @brief Field onStart, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_onStart, put = __cordl_internal_set_onStart)) ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* onStart;
 
+  /// [IteratorStateMachine(typeof(BGLib.UnityExtension.BezierCurves.CurveAnimation::<Animate>d__20))]
   /// @brief Method Animate, addr 0x332b8a8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Animate(bool withDelay);
 
@@ -418,9 +427,11 @@ public:
   /// @brief Method .ctor, addr 0x332b918, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isPlaying, addr 0x332b794, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
+  /// [CompilerGenerated]
   /// @brief Method set_isPlaying, addr 0x332b79c, size 0x8, virtual false, abstract: false, final false
   inline void set_isPlaying(bool value);
 
@@ -430,32 +441,38 @@ protected:
   constexpr CurveAnimation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurveAnimation(CurveAnimation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurveAnimation(CurveAnimation const&) = delete;
+  CurveAnimation(CurveAnimationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20828 };
 
+  /// [SerializeField]
   /// @brief Field _bezierCurve, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BGLib::UnityExtension::BezierCurves::BaseBezierCurve> ____bezierCurve;
 
+  /// [SerializeField]
   /// @brief Field _duration, offset: 0x28, size: 0x4, def value: None
   float_t ____duration;
 
+  /// [SerializeField]
   /// @brief Field _delay, offset: 0x2c, size: 0x4, def value: None
   float_t ____delay;
 
+  /// [SerializeField]
   /// @brief Field _speedCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____speedCurve;
 
+  /// [SerializeField]
   /// @brief Field _playOnAwake, offset: 0x38, size: 0x1, def value: None
   bool ____playOnAwake;
 
+  /// [SerializeField]
   /// @brief Field _progress, offset: 0x3c, size: 0x4, def value: None
   float_t ____progress;
 
@@ -474,6 +491,7 @@ public:
   /// @brief Field onFinish, offset: 0x60, size: 0x8, def value: None
   ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* ___onFinish;
 
+  /// [CompilerGenerated]
   /// @brief Field <isPlaying>k__BackingField, offset: 0x68, size: 0x1, def value: None
   bool ____isPlaying_k__BackingField;
 

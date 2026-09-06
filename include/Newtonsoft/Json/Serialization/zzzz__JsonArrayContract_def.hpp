@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonArrayContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonArrayContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,8 @@ class JsonArrayContract;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::JsonArrayContract*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonArrayContract*, "Newtonsoft.Json.Serialization", "JsonArrayContract");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Serialization.JsonContainerContract
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -52,8 +54,10 @@ public:
 
   __declspec(property(get = get_IsMultidimensionalArray)) bool IsMultidimensionalArray;
 
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_OverrideCreator, put = set_OverrideCreator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* OverrideCreator;
 
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_ParameterizedCreator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ParameterizedCreator;
 
   __declspec(property(get = get_ShouldCreateWrapper)) bool ShouldCreateWrapper;
@@ -104,14 +108,18 @@ public:
   __declspec(property(get = __cordl_internal_get__parameterizedCreator,
                       put = __cordl_internal_set__parameterizedCreator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator;
 
+  /// [NullableContext(1)]
   /// @brief Method CreateTemporaryCollection, addr 0x5d41750, size 0x234, virtual false, abstract: false, final false
   inline ::System::Collections::IList* CreateTemporaryCollection();
 
+  /// [NullableContext(1)]
   /// @brief Method CreateWrapper, addr 0x5d41374, size 0x3dc, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::IWrappedCollection* CreateWrapper(::System::Object* list);
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Serialization::JsonArrayContract* New_ctor(::System::Type* underlyingType);
 
+  /// [NullableContext(1)]
   /// @brief Method StoreFSharpListCreatorIfNecessary, addr 0x5d4124c, size 0x128, virtual false, abstract: false, final false
   inline void StoreFSharpListCreatorIfNecessary(::System::Type* underlyingType);
 
@@ -193,24 +201,30 @@ public:
 
   constexpr void __cordl_internal_set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d3c180, size 0xd84, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_CanDeserialize, addr 0x5d40f1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CanDeserialize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CollectionItemType, addr 0x5d40efc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_CollectionItemType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_HasParameterizedCreator, addr 0x5d40ffc, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreator();
 
   /// @brief Method get_HasParameterizedCreatorInternal, addr 0x5d4100c, size 0x84, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreatorInternal();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsArray, addr 0x5d40f0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsArray();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsMultidimensionalArray, addr 0x5d40f04, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsMultidimensionalArray();
 
@@ -220,17 +234,20 @@ public:
   /// @brief Method get_ParameterizedCreator, addr 0x5d40f2c, size 0xc8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ParameterizedCreator();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ShouldCreateWrapper, addr 0x5d40f14, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldCreateWrapper();
 
+  /// [CompilerGenerated]
   /// @brief Method set_CanDeserialize, addr 0x5d40f24, size 0x8, virtual false, abstract: false, final false
   inline void set_CanDeserialize(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_HasParameterizedCreator, addr 0x5d41004, size 0x8, virtual false, abstract: false, final false
   inline void set_HasParameterizedCreator(bool value);
 
   /// @brief Method set_OverrideCreator, addr 0x5d3cf04, size 0x10, virtual false, abstract: false, final false
-  inline void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+  inline void set_OverrideCreator(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:
   // Ctor Parameters []
@@ -238,20 +255,22 @@ protected:
   constexpr JsonArrayContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonArrayContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonArrayContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonArrayContract(JsonArrayContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonArrayContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonArrayContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonArrayContract(JsonArrayContract const&) = delete;
+  JsonArrayContract(JsonArrayContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13496 };
 
+  /// [CompilerGenerated]
   /// @brief Field <CollectionItemType>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::System::Type* ____CollectionItemType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsMultidimensionalArray>k__BackingField, offset: 0xc8, size: 0x1, def value: None
   bool ____IsMultidimensionalArray_k__BackingField;
 
@@ -261,30 +280,38 @@ public:
   /// @brief Field _genericWrapperType, offset: 0xd8, size: 0x8, def value: None
   ::System::Type* ____genericWrapperType;
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _genericWrapperCreator, offset: 0xe0, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ____genericWrapperCreator;
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _genericTemporaryCollectionCreator, offset: 0xe8, size: 0x8, def value: None
   ::System::Func_1<::System::Object*>* ____genericTemporaryCollectionCreator;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsArray>k__BackingField, offset: 0xf0, size: 0x1, def value: None
   bool ____IsArray_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ShouldCreateWrapper>k__BackingField, offset: 0xf1, size: 0x1, def value: None
   bool ____ShouldCreateWrapper_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CanDeserialize>k__BackingField, offset: 0xf2, size: 0x1, def value: None
   bool ____CanDeserialize_k__BackingField;
 
   /// @brief Field _parameterizedConstructor, offset: 0xf8, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ____parameterizedConstructor;
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _parameterizedCreator, offset: 0x100, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ____parameterizedCreator;
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _overrideCreator, offset: 0x108, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ____overrideCreator;
 
+  /// [CompilerGenerated]
   /// @brief Field <HasParameterizedCreator>k__BackingField, offset: 0x110, size: 0x1, def value: None
   bool ____HasParameterizedCreator_k__BackingField;
 

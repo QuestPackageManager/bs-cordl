@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DirectionalLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/DirectionalLightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,23 +67,27 @@ protected:
   constexpr DirectionalLightWithIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLightWithIds(DirectionalLightWithIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLightWithIds(DirectionalLightWithIds const&) = delete;
+  DirectionalLightWithIds(DirectionalLightWithIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19520 };
 
+  /// [SerializeField]
   /// @brief Field _directionalLight, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLight> ____directionalLight;
 
+  /// [SerializeField]
   /// @brief Field _setIntensityOnly, offset: 0x58, size: 0x1, def value: None
   bool ____setIntensityOnly;
 
+  /// [SerializeField]
+  /// [DrawIf("_setIntensityOnly", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _defaultColor, offset: 0x5c, size: 0x10, def value: None
   ::UnityEngine::Color ____defaultColor;
 

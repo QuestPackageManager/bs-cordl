@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PanelRootElement.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PanelRootElement.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelRootElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PanelRootElement._ctor

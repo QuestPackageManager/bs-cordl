@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\MeshGenerationDeferrer.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshGenerationDeferrer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,8 +53,8 @@ public:
   // @brief default ctor
   constexpr MeshGenerationDeferrer_CallbackInfo();
 
-  // Ctor Parameters [CppParam { name: "callback", ty: "::UnityEngine::UIElements::UIR::MeshGenerationCallback*", modifiers: "", def_value: None }, CppParam { name: "userData", ty:
-  // "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "callback", ty: "::UnityEngine::UIElements::UIR::MeshGenerationCallback*", modifiers: "", def_value: None, comment: None }, CppParam { name: "userData", ty:
+  // "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr MeshGenerationDeferrer_CallbackInfo(::UnityEngine::UIElements::UIR::MeshGenerationCallback* callback, ::System::Object* userData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -205,12 +205,14 @@ public:
   /// @brief Method .ctor, addr 0x6cdee54, size 0x188, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cdeda4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cdedac, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -220,13 +222,13 @@ protected:
   constexpr MeshGenerationDeferrer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationDeferrer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationDeferrer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshGenerationDeferrer(MeshGenerationDeferrer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationDeferrer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationDeferrer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshGenerationDeferrer(MeshGenerationDeferrer const&) = delete;
+  MeshGenerationDeferrer(MeshGenerationDeferrerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5311 };
@@ -255,6 +257,8 @@ public:
   /// @brief Field m_DependencyMerger, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::JobMerger* ___m_DependencyMerger;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x50, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXBinderAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXBinderAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class VFXBinderAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXBinderAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXBinderAttribute*, "UnityEngine.VFX.Utility", "VFXBinderAttribute");
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies UnityEngine.PropertyAttribute
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -40,13 +41,13 @@ protected:
   constexpr VFXBinderAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXBinderAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXBinderAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXBinderAttribute(VFXBinderAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXBinderAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXBinderAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXBinderAttribute(VFXBinderAttribute const&) = delete;
+  VFXBinderAttribute(VFXBinderAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20014 };

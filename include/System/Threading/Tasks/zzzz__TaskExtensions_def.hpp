@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\TaskExtensions.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/TaskExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class TaskExtensions;
 // Write type traits
 MARK_REF_T(::System::Threading::Tasks::TaskExtensions*);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::TaskExtensions*, "System.Threading.Tasks", "TaskExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -22,6 +23,7 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE TaskExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Unwrap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::System::Threading::Tasks::Task_1<TResult>* Unwrap(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task_1<TResult>*>* task);
 
@@ -31,13 +33,13 @@ protected:
   constexpr TaskExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskExtensions(TaskExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskExtensions(TaskExtensions const&) = delete;
+  TaskExtensions(TaskExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16695 };

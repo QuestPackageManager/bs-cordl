@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\ObjRef.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/ObjRef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ class ObjRef;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::ObjRef*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::ObjRef*, "System.Runtime.Remoting", "ObjRef");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
@@ -166,6 +167,7 @@ public:
 
   static inline int32_t getStaticF_WellKnowObjectRef();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_ChannelInfo, addr 0x5b22204, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::IChannelInfo* get_ChannelInfo();
 
@@ -209,13 +211,13 @@ protected:
   constexpr ObjRef();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjRef", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjRef", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjRef(ObjRef&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjRef", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjRef", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjRef(ObjRef const&) = delete;
+  ObjRef(ObjRefconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3079 };

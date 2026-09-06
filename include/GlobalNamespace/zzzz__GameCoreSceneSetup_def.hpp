@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameCoreSceneSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameCoreSceneSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,23 +73,26 @@ protected:
   constexpr GameCoreSceneSetup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameCoreSceneSetup(GameCoreSceneSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameCoreSceneSetup(GameCoreSceneSetup const&) = delete;
+  GameCoreSceneSetup(GameCoreSceneSetupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6716 };
 
+  /// [SerializeField]
   /// @brief Field _screenCaptureAfterDelayPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> ____screenCaptureAfterDelayPrefab;
 
+  /// [SerializeField]
   /// @brief Field _bloomFog, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

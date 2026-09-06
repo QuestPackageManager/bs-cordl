@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\EnvironmentDepth\IDepthProvider.hpp"
+// IWYU pragma private; include "Meta/XR/EnvironmentDepth/IDepthProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,21 +29,21 @@ public:
 
   __declspec(property(put = set_RemoveHands)) bool RemoveHands;
 
-  /// @brief Method SetDepthEnabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetDepthEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetDepthEnabled(bool isEnabled, bool removeHands);
 
-  /// @brief Method TryGetUpdatedDepthTexture, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryGetUpdatedDepthTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetUpdatedDepthTexture(::by_ref<::UnityEngine::RenderTexture*> depthTexture, ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc> frameDescriptors);
 
-  /// @brief Method get_IsSupported, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsSupported();
 
-  /// @brief Method set_RemoveHands, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_RemoveHands, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_RemoveHands(bool value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDepthProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDepthProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDepthProvider(IDepthProvider const&) = delete;
+  IDepthProvider(IDepthProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23028 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PackLevelListHeaderTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/PackLevelListHeaderTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,29 +115,34 @@ protected:
   constexpr PackLevelListHeaderTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackLevelListHeaderTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackLevelListHeaderTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackLevelListHeaderTableCell(PackLevelListHeaderTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackLevelListHeaderTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackLevelListHeaderTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackLevelListHeaderTableCell(PackLevelListHeaderTableCell const&) = delete;
+  PackLevelListHeaderTableCell(PackLevelListHeaderTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6820 };
 
+  /// [SerializeField]
   /// @brief Field _selectedHighlightElementsColor, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedHighlightElementsColor;
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
+  /// [SerializeField]
   /// @brief Field _bgImage, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
+  /// [SerializeField]
   /// @brief Field _highlightImage, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____highlightImage;
 
+  /// [SerializeField]
   /// @brief Field _arrowImage, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____arrowImage;
 

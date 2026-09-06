@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXPlaneBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXPlaneBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class VFXPlaneBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXPlaneBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXPlaneBinder*, "UnityEngine.VFX.Utility", "VFXPlaneBinder");
+// [AddComponentMenu("VFX/Property Binders/Plane Binder")]
+// [VFXBinder("Utility/Plane")]
 // Dependencies UnityEngine.VFX.Utility.VFXSpaceableBinder
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -102,17 +104,20 @@ protected:
   constexpr VFXPlaneBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXPlaneBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXPlaneBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXPlaneBinder(VFXPlaneBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXPlaneBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXPlaneBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXPlaneBinder(VFXPlaneBinder const&) = delete;
+  VFXPlaneBinder(VFXPlaneBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20000 };
 
+  /// [VFXPropertyBinding(new[] { "UnityEditor.VFX.Plane" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_Parameter")]
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

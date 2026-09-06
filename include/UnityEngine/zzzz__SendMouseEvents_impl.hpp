@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SendMouseEvents.hpp"
+// IWYU pragma private; include "UnityEngine/SendMouseEvents.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Camera_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -66,8 +66,8 @@ inline bool UnityEngine::SendMouseEvents_HitInfo::Compare(::UnityEngine::SendMou
                                                            { "Compare", {}, { ::i2c::type_of<::UnityEngine::SendMouseEvents_HitInfo>(), ::i2c::type_of<::UnityEngine::SendMouseEvents_HitInfo>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: Some("{}") }, CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "camera", ty:
+// "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SendMouseEvents_HitInfo::SendMouseEvents_HitInfo(::UnityW<::UnityEngine::GameObject> target, ::UnityW<::UnityEngine::Camera> camera) noexcept {
   this->target = target;
   this->camera = camera;

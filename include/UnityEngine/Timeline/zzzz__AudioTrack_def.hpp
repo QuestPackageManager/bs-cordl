@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\AudioTrack.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/AudioTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,9 @@ namespace UnityEngine::Timeline {
 class AudioTrack__get_outputs_d__4;
 }
 namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
+class IntervalTree_1;
 }
 namespace UnityEngine::Timeline {
 class RuntimeElement;
@@ -71,6 +73,7 @@ MARK_REF_T(::UnityEngine::Timeline::AudioTrack*);
 MARK_REF_T(::UnityEngine::Timeline::AudioTrack__get_outputs_d__4*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::AudioTrack*, "UnityEngine.Timeline", "AudioTrack");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::AudioTrack__get_outputs_d__4*, "UnityEngine.Timeline", "AudioTrack/<get_outputs>d__4");
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Playables.PlayableBinding
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -113,23 +116,30 @@ public:
   /// @brief Method MoveNext, addr 0x69c05b4, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Timeline::AudioTrack__get_outputs_d__4* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x69c06e0, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x69c0634, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69c0778, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69c0644, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69c067c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69c05b0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -157,6 +167,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69c04b0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -183,13 +194,13 @@ protected:
   constexpr AudioTrack__get_outputs_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioTrack__get_outputs_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioTrack__get_outputs_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioTrack__get_outputs_d__4(AudioTrack__get_outputs_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioTrack__get_outputs_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioTrack__get_outputs_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioTrack__get_outputs_d__4(AudioTrack__get_outputs_d__4 const&) = delete;
+  AudioTrack__get_outputs_d__4(AudioTrack__get_outputs_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19192 };
@@ -220,6 +231,9 @@ static_assert(offsetof(::UnityEngine::Timeline::AudioTrack__get_outputs_d__4, __
 static_assert(sizeof(::UnityEngine::Timeline::AudioTrack__get_outputs_d__4) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [TrackClipType(typeof(UnityEngine.Timeline.AudioPlayableAsset), false)]
+// [TrackBindingType(typeof(UnityEngine.AudioSource))]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Timeline.TrackAsset
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -256,6 +270,7 @@ public:
   /// @brief Method .ctor, addr 0x69c0528, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.Timeline.AudioTrack::<get_outputs>d__4))]
   /// @brief Method get_outputs, addr 0x69c0440, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
@@ -265,17 +280,18 @@ protected:
   constexpr AudioTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioTrack(AudioTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioTrack(AudioTrack const&) = delete;
+  AudioTrack(AudioTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19193 };
 
+  /// [SerializeField]
   /// @brief Field m_TrackProperties, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::Timeline::AudioMixerProperties* ___m_TrackProperties;
 

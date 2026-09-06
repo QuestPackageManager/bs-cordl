@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\BufferedRumble.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/BufferedRumble.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticCapabilities_impl.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__BufferedRumble_def.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticCapabilities_def.hpp"
@@ -119,8 +119,8 @@ inline void UnityEngine::InputSystem::XR::Haptics::BufferedRumble::EnqueueRumble
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::Haptics::BufferedRumble>(), { "EnqueueRumble", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, samples);
 }
-// Ctor Parameters [CppParam { name: "_capabilities_k__BackingField", ty: "::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_capabilities_k__BackingField", ty: "::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::BufferedRumble(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities _capabilities_k__BackingField,
                                                                                   ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField) noexcept {
   this->_capabilities_k__BackingField = _capabilities_k__BackingField;

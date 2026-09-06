@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DrawRendererFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DrawRendererFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DrawRendererFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::DrawRendererFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DrawRendererFlags, "UnityEngine.Rendering", "DrawRendererFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr DrawRendererFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DrawRendererFlags(int32_t value__) noexcept;
 
   /// @brief Field EnableDynamicBatching value: I32(1)

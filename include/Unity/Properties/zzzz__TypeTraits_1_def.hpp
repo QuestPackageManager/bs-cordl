@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\TypeTraits_1.hpp"
+// IWYU pragma private; include "Unity/Properties/TypeTraits_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,42 +106,55 @@ public:
 
   static inline bool getStaticF__IsValueType_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CanBeNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_CanBeNull();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsAbstract, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsAbstract();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsAbstractOrInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsAbstractOrInterface();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsArray();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsContainer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsContainer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsEnum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsEnum();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsInterface();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsNullable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsNullable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsObject();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsPrimitive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsPrimitive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsString();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsUnityObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsUnityObject();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsValueType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsValueType();
 
@@ -185,13 +198,13 @@ protected:
   constexpr TypeTraits_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeTraits_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeTraits_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeTraits_1(TypeTraits_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeTraits_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeTraits_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeTraits_1(TypeTraits_1 const&) = delete;
+  TypeTraits_1(TypeTraits_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19698 };

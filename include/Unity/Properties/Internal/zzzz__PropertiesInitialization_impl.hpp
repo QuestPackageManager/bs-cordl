@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\PropertiesInitialization.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/PropertiesInitialization.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/Internal/zzzz__PropertiesInitialization_def.hpp"
 //  Writing Method size for method: ::Unity::Properties::Internal::PropertiesInitialization.InitializeProperties

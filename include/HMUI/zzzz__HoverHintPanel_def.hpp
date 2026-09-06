@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\HoverHintPanel.hpp"
+// IWYU pragma private; include "HMUI/HoverHintPanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,9 +107,11 @@ public:
   /// @brief Method .ctor, addr 0x587ab6c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isShown, addr 0x587aa38, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
+  /// [CompilerGenerated]
   /// @brief Method set_isShown, addr 0x587aa40, size 0x8, virtual false, abstract: false, final false
   inline void set_isShown(bool value);
 
@@ -119,32 +121,38 @@ protected:
   constexpr HoverHintPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHintPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HoverHintPanel(HoverHintPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHintPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintPanel(HoverHintPanel const&) = delete;
+  HoverHintPanel(HoverHintPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19046 };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
+  /// [SerializeField]
   /// @brief Field _padding, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____padding;
 
+  /// [SerializeField]
   /// @brief Field _containerPadding, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____containerPadding;
 
+  /// [SerializeField]
   /// @brief Field _separator, offset: 0x38, size: 0x4, def value: None
   float_t ____separator;
 
+  /// [SerializeField]
   /// @brief Field _zOffset, offset: 0x3c, size: 0x4, def value: None
   float_t ____zOffset;
 
+  /// [CompilerGenerated]
   /// @brief Field <isShown>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____isShown_k__BackingField;
 

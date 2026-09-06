@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\CoroutineTween\ColorTween.hpp"
+// IWYU pragma private; include "UnityEngine/UI/CoroutineTween/ColorTween.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__ColorTween_def.hpp"
@@ -7,7 +7,7 @@
 #include "UnityEngine/UI/CoroutineTween/zzzz__ColorTween_def.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode::ColorTween_ColorTweenMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -307,10 +307,10 @@ constexpr UnityEngine::UI::CoroutineTween::ColorTween::operator ::UnityEngine::U
 constexpr ::UnityEngine::UI::CoroutineTween::ITweenValue* UnityEngine::UI::CoroutineTween::ColorTween::i___UnityEngine__UI__CoroutineTween__ITweenValue() {
   return static_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Target", ty: "::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenCallback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartColor", ty:
-// "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TargetColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TweenMode",
-// ty: "::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Target", ty: "::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenCallback*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_StartColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TargetColor", ty: "::UnityEngine::Color", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_TweenMode", ty: "::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_Duration", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::CoroutineTween::ColorTween::ColorTween(::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenCallback* m_Target, ::UnityEngine::Color m_StartColor,
                                                                     ::UnityEngine::Color m_TargetColor, ::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode m_TweenMode, float_t m_Duration,
                                                                     bool m_IgnoreTimeScale) noexcept {

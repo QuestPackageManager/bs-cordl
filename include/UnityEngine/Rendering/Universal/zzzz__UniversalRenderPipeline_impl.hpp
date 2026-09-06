@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipeline.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipeline_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_impl.hpp"
@@ -330,8 +330,8 @@ constexpr UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraRende
 constexpr ::System::IDisposable* UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraRenderingScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Context", ty: "::UnityEngine::Rendering::ScriptableRenderContext", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Camera", ty:
-// "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Context", ty: "::UnityEngine::Rendering::ScriptableRenderContext", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Camera", ty:
+// "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraRenderingScope::UniversalRenderPipeline_CameraRenderingScope(::UnityEngine::Rendering::ScriptableRenderContext m_Context,
                                                                                                                                           ::UnityW<::UnityEngine::Camera> m_Camera) noexcept {
   this->m_Context = m_Context;
@@ -409,8 +409,8 @@ constexpr UnityEngine::Rendering::Universal::UniversalRenderPipeline_ContextRend
 constexpr ::System::IDisposable* UnityEngine::Rendering::Universal::UniversalRenderPipeline_ContextRenderingScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Context", ty: "::UnityEngine::Rendering::ScriptableRenderContext", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Cameras", ty:
-// "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Context", ty: "::UnityEngine::Rendering::ScriptableRenderContext", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Cameras", ty:
+// "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderPipeline_ContextRenderingScope::UniversalRenderPipeline_ContextRenderingScope(
     ::UnityEngine::Rendering::ScriptableRenderContext m_Context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* m_Cameras) noexcept {
   this->m_Context = m_Context;
@@ -2162,7 +2162,7 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderCa
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, baseCamera);
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateCameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* baseCameraData,
-                                                                                         ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr) {
+                                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

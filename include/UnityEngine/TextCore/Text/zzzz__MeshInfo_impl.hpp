@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\MeshInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/MeshInfo.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphRenderMode_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextCoreVertex_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__VertexDataLayout_impl.hpp"
@@ -144,14 +144,16 @@ inline void UnityEngine::TextCore::Text::MeshInfo::SwapVertexData(int32_t src, i
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MeshInfo>(), { "SwapVertexData", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, src, dst);
 }
-// Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertexData", ty: "::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertices", ty:
-// "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "normals", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertexBufferSize", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "uvs0", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "uvs2", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "colors32", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "vertexDataLayout", ty: "::UnityEngine::TextCore::Text::VertexDataLayout", modifiers: "", def_value: Some("{}") }, CppParam { name: "applySDF", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "glyphRenderMode", ty: "::UnityEngine::TextCore::LowLevel::GlyphRenderMode", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexData", ty:
+// "::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "normals",
+// ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "vertexBufferSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uvs0", ty:
+// "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uvs2", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "colors32", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "triangles", ty: "::ArrayW<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexDataLayout", ty: "::UnityEngine::TextCore::Text::VertexDataLayout", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "applySDF", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "glyphRenderMode", ty: "::UnityEngine::TextCore::LowLevel::GlyphRenderMode",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::MeshInfo::MeshInfo(int32_t vertexCount, ::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex> vertexData, ::UnityW<::UnityEngine::Material> material,
                                                             ::ArrayW<::UnityEngine::Vector3> vertices, ::ArrayW<::UnityEngine::Vector3> normals, ::ArrayW<::UnityEngine::Vector4> tangents,
                                                             int32_t vertexBufferSize, ::ArrayW<::UnityEngine::Vector4> uvs0, ::ArrayW<::UnityEngine::Vector2> uvs2,

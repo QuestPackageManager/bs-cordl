@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ITraceWriter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ITraceWriter.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -36,7 +36,7 @@ inline ::System::Diagnostics::TraceLevel Newtonsoft::Json::Serialization::ITrace
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::ITraceWriter*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::TraceLevel>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::ITraceWriter::Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex) {
+inline void Newtonsoft::Json::Serialization::ITraceWriter::Trace(::System::Diagnostics::TraceLevel level, ::StringW message, /* [Nullable(2)] */ ::System::Exception* ex) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::ITraceWriter*>(), 1 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, level, message, ex);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTrackedKeyboard.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTrackedKeyboard.hpp"
 #include "GlobalNamespace/zzzz__OVRKeyboard_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTextureQualityFiltering_impl.hpp"
@@ -30,7 +30,7 @@
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState::OVRTrackedKeyboard_TrackedKeyboardState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -44,7 +44,7 @@ constexpr ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState GlobalNames
 constexpr ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState::Valid{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState::Error{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState::ErrorExtensionFailed{ static_cast<int32_t>(0x7) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation::OVRTrackedKeyboard_KeyboardPresentation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -74,8 +74,9 @@ inline void GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChanged
                                               { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, keyboardModel, state, timeout);
 }
-// Ctor Parameters [CppParam { name: "ActiveKeyboardName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "State", ty:
-// "::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState", modifiers: "", def_value: Some("{}") }, CppParam { name: "TrackingTimeout", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ActiveKeyboardName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "State", ty:
+// "::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TrackingTimeout", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent(
     ::StringW ActiveKeyboardName, ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState State, bool TrackingTimeout) noexcept {
   this->ActiveKeyboardName = ActiveKeyboardName;
@@ -103,7 +104,7 @@ inline void GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent::_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, isEnabled);
 }
-// Ctor Parameters [CppParam { name: "IsEnabled", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsEnabled", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent(bool IsEnabled) noexcept {
   this->IsEnabled = IsEnabled;
 }
@@ -344,6 +345,7 @@ inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPres
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>(__1__state));
 }
@@ -522,6 +524,7 @@ inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__Start_d__85::Syste
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRTrackedKeyboard__Start_d__85* GlobalNamespace::OVRTrackedKeyboard__Start_d__85::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>(__1__state));
 }
@@ -704,6 +707,7 @@ inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrack
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>(__1__state));
 }
@@ -883,6 +887,7 @@ inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>(__1__state));
 }
@@ -1077,6 +1082,7 @@ inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStat
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>(__1__state));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SoftJointLimitSpring.hpp"
+// IWYU pragma private; include "UnityEngine/SoftJointLimitSpring.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,8 @@ public:
   // @brief default ctor
   constexpr SoftJointLimitSpring();
 
-  // Ctor Parameters [CppParam { name: "m_Spring", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Damper", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Spring", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Damper", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SoftJointLimitSpring(float_t m_Spring, float_t m_Damper) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

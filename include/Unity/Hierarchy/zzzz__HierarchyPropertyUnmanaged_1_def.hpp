@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyPropertyUnmanaged_1.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyPropertyUnmanaged_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,15 +28,19 @@ template <typename T> class IHierarchyProperty_1;
 }
 // Forward declare root types
 namespace Unity::Hierarchy {
-template <typename T> struct HierarchyPropertyUnmanaged_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct HierarchyPropertyUnmanaged_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Hierarchy::HierarchyPropertyUnmanaged_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Hierarchy::HierarchyPropertyUnmanaged_1, "Unity.Hierarchy", "HierarchyPropertyUnmanaged`1");
+// [IsReadOnly]
 // Dependencies Unity.Hierarchy.HierarchyPropertyId
 namespace Unity::Hierarchy {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Hierarchy.HierarchyPropertyUnmanaged`1<T>
 struct CORDL_TYPE HierarchyPropertyUnmanaged_1 {
@@ -48,32 +52,36 @@ public:
   /// @brief Convert operator to "::Unity::Hierarchy::IHierarchyProperty_1<T>"
   constexpr operator ::Unity::Hierarchy::IHierarchyProperty_1<T>*();
 
+  /// [ExcludeFromDocs]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [ExcludeFromDocs]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T> other);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T GetValue(::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline T GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
   /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetValue(::by_ref<::Unity::Hierarchy::HierarchyNode> node, T value);
+  inline void SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, T value);
 
+  /// [ExcludeFromDocs]
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method Unity.Hierarchy.IHierarchyProperty<T>.GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline T Unity_Hierarchy_IHierarchyProperty_T__GetValue(::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline T Unity_Hierarchy_IHierarchyProperty_T__GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
   /// @brief Method Unity.Hierarchy.IHierarchyProperty<T>.SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Unity_Hierarchy_IHierarchyProperty_T__SetValue(::by_ref<::Unity::Hierarchy::HierarchyNode> node, T value);
+  inline void Unity_Hierarchy_IHierarchyProperty_T__SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, T value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Unity::Hierarchy::Hierarchy* hierarchy, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property);
+  inline void _ctor(::Unity::Hierarchy::Hierarchy* hierarchy, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property);
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>"
   constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>* i___System__IEquatable_1___Unity__Hierarchy__HierarchyPropertyUnmanaged_1_T__();
@@ -85,8 +93,8 @@ public:
   // @brief default ctor
   constexpr HierarchyPropertyUnmanaged_1();
 
-  // Ctor Parameters [CppParam { name: "m_Hierarchy", ty: "::Unity::Hierarchy::Hierarchy*", modifiers: "", def_value: None }, CppParam { name: "m_Property", ty:
-  // "::Unity::Hierarchy::HierarchyPropertyId", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Hierarchy", ty: "::Unity::Hierarchy::Hierarchy*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Property", ty:
+  // "::Unity::Hierarchy::HierarchyPropertyId", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyPropertyUnmanaged_1(::Unity::Hierarchy::Hierarchy* m_Hierarchy, ::Unity::Hierarchy::HierarchyPropertyId m_Property) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlUTF8TextReader.hpp"
+// IWYU pragma private; include "System/Xml/XmlUTF8TextReader.hpp"
 #include "System/Xml/zzzz__XmlBaseReader_impl.hpp"
 #include "System/Xml/zzzz__XmlUTF8TextReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

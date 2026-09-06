@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelChecksums.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelChecksums.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelChecksums___c__DisplayClass7_
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelChecksums___c__DisplayClass8_0*, "", "BeatmapLevelChecksums/<>c__DisplayClass8_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelChecksums, "", "BeatmapLevelChecksums");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums, "", "BeatmapLevelChecksums/DifficultyBeatmapChecksums");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -69,8 +70,9 @@ public:
   // @brief default ctor
   constexpr BeatmapLevelChecksums_DifficultyBeatmapChecksums();
 
-  // Ctor Parameters [CppParam { name: "beatmapDifficulty", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::StringW", modifiers: "", def_value: None
-  // }, CppParam { name: "beatmapAssetChecksum", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lightshowAssetChecksum", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "beatmapDifficulty", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapCharacteristic", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "beatmapAssetChecksum", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightshowAssetChecksum", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapLevelChecksums_DifficultyBeatmapChecksums(::StringW beatmapDifficulty, ::StringW beatmapCharacteristic, ::StringW beatmapAssetChecksum, ::StringW lightshowAssetChecksum) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -105,6 +107,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatma
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -143,13 +146,13 @@ protected:
   constexpr BeatmapLevelChecksums___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelChecksums___c(BeatmapLevelChecksums___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelChecksums___c(BeatmapLevelChecksums___c const&) = delete;
+  BeatmapLevelChecksums___c(BeatmapLevelChecksums___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14961 };
@@ -160,6 +163,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelChecksums___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -199,13 +203,13 @@ protected:
   constexpr BeatmapLevelChecksums___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelChecksums___c__DisplayClass7_0(BeatmapLevelChecksums___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelChecksums___c__DisplayClass7_0(BeatmapLevelChecksums___c__DisplayClass7_0 const&) = delete;
+  BeatmapLevelChecksums___c__DisplayClass7_0(BeatmapLevelChecksums___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14962 };
@@ -226,6 +230,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelChecksums___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelChecksums___c__DisplayClass7_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -265,13 +270,13 @@ protected:
   constexpr BeatmapLevelChecksums___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelChecksums___c__DisplayClass8_0(BeatmapLevelChecksums___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelChecksums___c__DisplayClass8_0(BeatmapLevelChecksums___c__DisplayClass8_0 const&) = delete;
+  BeatmapLevelChecksums___c__DisplayClass8_0(BeatmapLevelChecksums___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14963 };
@@ -320,10 +325,10 @@ public:
   // @brief default ctor
   constexpr BeatmapLevelChecksums();
 
-  // Ctor Parameters [CppParam { name: "beatmapLevelChecksum", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImageChecksum", ty: "::StringW", modifiers: "", def_value: None
-  // }, CppParam { name: "songAudioClipChecksum", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "audioDataAssetChecksum", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "difficultyBeatmapsChecksums", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums>*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "beatmapLevelChecksum", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "coverImageChecksum", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "songAudioClipChecksum", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "audioDataAssetChecksum", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "difficultyBeatmapsChecksums", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums>*", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapLevelChecksums(::StringW beatmapLevelChecksum, ::StringW coverImageChecksum, ::StringW songAudioClipChecksum, ::StringW audioDataAssetChecksum,
                                   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums>* difficultyBeatmapsChecksums) noexcept;
 

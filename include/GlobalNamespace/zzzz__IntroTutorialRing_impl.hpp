@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IntroTutorialRing.hpp"
+// IWYU pragma private; include "GlobalNamespace/IntroTutorialRing.hpp"
 #include "GlobalNamespace/zzzz__SaberType_impl.hpp"
 #include "UnityEngine/UI/zzzz__Image_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

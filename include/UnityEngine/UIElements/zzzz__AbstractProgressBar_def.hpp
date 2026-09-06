@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\AbstractProgressBar.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/AbstractProgressBar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::UnityEngine::UIElements::AbstractProgressBar*);
 MARK_REF_T(::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::AbstractProgressBar*, "UnityEngine.UIElements", "AbstractProgressBar");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits*, "UnityEngine.UIElements", "AbstractProgressBar/UxmlTraits");
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BindableElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -104,13 +105,13 @@ protected:
   constexpr AbstractProgressBar_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractProgressBar_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractProgressBar_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractProgressBar_UxmlTraits(AbstractProgressBar_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractProgressBar_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractProgressBar_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractProgressBar_UxmlTraits(AbstractProgressBar_UxmlTraits const&) = delete;
+  AbstractProgressBar_UxmlTraits(AbstractProgressBar_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4289 };
@@ -156,11 +157,13 @@ public:
   /// @brief Field containerUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_containerUssClassName, put = setStaticF_containerUssClassName)) ::StringW containerUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_highValue, put = set_highValue)) float_t highValue;
 
   /// @brief Field highValueProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_highValueProperty, put = setStaticF_highValueProperty)) ::UnityEngine::UIElements::BindingId highValueProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_lowValue, put = set_lowValue)) float_t lowValue;
 
   /// @brief Field lowValueProperty, offset 0xffffffff, size 0x98
@@ -187,6 +190,7 @@ public:
   /// @brief Field progressUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_progressUssClassName, put = setStaticF_progressUssClassName)) ::StringW progressUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_title, put = set_title)) ::StringW title;
 
   /// @brief Field titleContainerUssClassName, offset 0xffffffff, size 0x8
@@ -201,6 +205,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_value, put = set_value)) float_t value;
 
   /// @brief Field valueProperty, offset 0xffffffff, size 0x98
@@ -335,13 +340,13 @@ protected:
   constexpr AbstractProgressBar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractProgressBar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractProgressBar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractProgressBar(AbstractProgressBar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractProgressBar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractProgressBar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractProgressBar(AbstractProgressBar const&) = delete;
+  AbstractProgressBar(AbstractProgressBarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4290 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\IUnsafeRenderGraphBuilder.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/IUnsafeRenderGraphBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class IBaseRenderGraphBuilder;
@@ -23,6 +25,7 @@ class IUnsafeRenderGraphBuilder;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder*, "UnityEngine.Rendering.RenderGraphModule", "IUnsafeRenderGraphBuilder");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: false
@@ -36,8 +39,9 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*() noexcept;
 
-  /// @brief Method SetRenderFunc, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetRenderFunc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename PassData>
+    requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
   inline void SetRenderFunc(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<PassData, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* renderFunc);
 
   /// @brief Convert to "::System::IDisposable"
@@ -46,9 +50,9 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder"
   constexpr ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* i___UnityEngine__Rendering__RenderGraphModule__IBaseRenderGraphBuilder() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IUnsafeRenderGraphBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IUnsafeRenderGraphBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IUnsafeRenderGraphBuilder(IUnsafeRenderGraphBuilder const&) = delete;
+  IUnsafeRenderGraphBuilder(IUnsafeRenderGraphBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12384 };

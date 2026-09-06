@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MemoryPoolBase_1.hpp"
+// IWYU pragma private; include "Zenject/MemoryPoolBase_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolBase_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -74,7 +74,8 @@ template <typename TContract> constexpr void Zenject::MemoryPoolBase_1<TContract
   this->____activeCount = value;
 }
 template <typename TContract>
-inline void Zenject::MemoryPoolBase_1<TContract>::Construct(::Zenject::IFactory_1<TContract>* factory, ::Zenject::DiContainer* container, ::Zenject::MemoryPoolSettings* settings) {
+inline void Zenject::MemoryPoolBase_1<TContract>::Construct(::Zenject::IFactory_1<TContract>* factory, ::Zenject::DiContainer* container,
+                                                            /* [InjectOptional] */ ::Zenject::MemoryPoolSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolBase_1<TContract>*>(),

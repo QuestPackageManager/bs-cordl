@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\InitialDestinationController.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/InitialDestinationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_VAL_T(::BeatSaber::Destinations::InitialDestinationController__InitializeIn
 DEFINE_IL2CPP_CLASS(::BeatSaber::Destinations::InitialDestinationController_State, "BeatSaber.Destinations", "InitialDestinationController/State");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Destinations::InitialDestinationController*, "BeatSaber.Destinations", "InitialDestinationController");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Destinations::InitialDestinationController__InitializeInternalAsync_d__18, "BeatSaber.Destinations", "InitialDestinationController/<InitializeInternalAsync>d__18");
+// [NullableContext(0)]
 // Dependencies
 namespace BeatSaber::Destinations {
 // Is value type: true
@@ -75,7 +76,7 @@ public:
   // @brief default ctor
   constexpr InitialDestinationController_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InitialDestinationController_State(int32_t value__) noexcept;
 
   /// @brief Field FinishedInitialization value: I32(2)
@@ -104,6 +105,7 @@ static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController_S
 static_assert(sizeof(::BeatSaber::Destinations::InitialDestinationController_State) == 0x4, "Size mismatch!");
 
 } // namespace BeatSaber::Destinations
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::Destinations {
 // Is value type: true
@@ -117,8 +119,9 @@ public:
   /// @brief Method MoveNext, addr 0x328177c, size 0x2d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3281a54, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -127,9 +130,10 @@ public:
   // @brief default ctor
   constexpr InitialDestinationController__InitializeInternalAsync_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Destinations::InitialDestinationController*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::Destinations::InitialDestinationController*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr InitialDestinationController__InitializeInternalAsync_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                         ::BeatSaber::Destinations::InitialDestinationController* __4__this,
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -146,6 +150,7 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::Destinations::InitialDestinationController* __4__this;
 
@@ -166,6 +171,8 @@ static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController__
 static_assert(sizeof(::BeatSaber::Destinations::InitialDestinationController__InitializeInternalAsync_d__18) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Destinations
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Destinations.DestinationFlags, BeatSaber.Destinations.InitialDestinationController::State, System.Object
 namespace BeatSaber::Destinations {
 // Is value type: false
@@ -201,6 +208,7 @@ public:
   /// @brief Field kDefaultInitialDestination, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kDefaultInitialDestination, put = setStaticF_kDefaultInitialDestination)) ::BeatSaber::Destinations::Destination* kDefaultInitialDestination;
 
+  /// [AsyncStateMachine(typeof(BeatSaber.Destinations.InitialDestinationController::<InitializeInternalAsync>d__18))]
   /// @brief Method InitializeInternalAsync, addr 0x3281578, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeInternalAsync();
 
@@ -247,6 +255,7 @@ public:
 
   static inline ::BeatSaber::Destinations::Destination* getStaticF_kDefaultInitialDestination();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentState, addr 0x3281500, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Destinations::InitialDestinationController_State get_currentState();
 
@@ -258,6 +267,7 @@ public:
 
   static inline void setStaticF_kDefaultInitialDestination(::BeatSaber::Destinations::Destination* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentState, addr 0x3281508, size 0x8, virtual false, abstract: false, final false
   inline void set_currentState(::BeatSaber::Destinations::InitialDestinationController_State value);
 
@@ -267,13 +277,13 @@ protected:
   constexpr InitialDestinationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitialDestinationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitialDestinationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitialDestinationController(InitialDestinationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitialDestinationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitialDestinationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitialDestinationController(InitialDestinationController const&) = delete;
+  InitialDestinationController(InitialDestinationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23073 };
@@ -281,15 +291,19 @@ public:
   /// @brief Field kDefaultInitialDestinationFlags value: I32(2)
   static ::BeatSaber::Destinations::DestinationFlags const kDefaultInitialDestinationFlags;
 
+  /// [Nullable(2)]
   /// @brief Field _initialDestinationOverride, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Destinations::Destination* ____initialDestinationOverride;
 
+  /// [Nullable(2)]
   /// @brief Field _initialDestinationResolver, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Destinations::IInitialDestinationResolver* ____initialDestinationResolver;
 
+  /// [Nullable(2)]
   /// @brief Field _initializationTask, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____initializationTask;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentState>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::BeatSaber::Destinations::InitialDestinationController_State ____currentState_k__BackingField;
 

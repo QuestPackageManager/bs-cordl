@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\LayoutData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/LayoutData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,24 +72,27 @@ public:
   // @brief default ctor
   constexpr LayoutData();
 
-  // Ctor Parameters [CppParam { name: "alignContent", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value: None }, CppParam { name: "alignItems", ty: "::UnityEngine::UIElements::Align",
-  // modifiers: "", def_value: None }, CppParam { name: "alignSelf", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value: None }, CppParam { name: "borderBottomWidth", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "borderLeftWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "borderRightWidth", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "borderTopWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bottom", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-  // def_value: None }, CppParam { name: "display", ty: "::UnityEngine::UIElements::DisplayStyle", modifiers: "", def_value: None }, CppParam { name: "flexBasis", ty:
-  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "flexDirection", ty: "::UnityEngine::UIElements::FlexDirection", modifiers: "", def_value: None }, CppParam
-  // { name: "flexGrow", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "flexShrink", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "flexWrap", ty:
-  // "::UnityEngine::UIElements::Wrap", modifiers: "", def_value: None }, CppParam { name: "height", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name:
-  // "justifyContent", ty: "::UnityEngine::UIElements::Justify", modifiers: "", def_value: None }, CppParam { name: "left", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None },
-  // CppParam { name: "marginBottom", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "marginLeft", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-  // def_value: None }, CppParam { name: "marginRight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "marginTop", ty:
-  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "maxHeight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name:
-  // "maxWidth", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "minHeight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None },
-  // CppParam { name: "minWidth", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "paddingBottom", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-  // def_value: None }, CppParam { name: "paddingLeft", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "paddingRight", ty:
-  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "paddingTop", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name:
-  // "position", ty: "::UnityEngine::UIElements::Position", modifiers: "", def_value: None }, CppParam { name: "right", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None },
-  // CppParam { name: "top", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "width", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
+  // Ctor Parameters [CppParam { name: "alignContent", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value: None, comment: None }, CppParam { name: "alignItems", ty:
+  // "::UnityEngine::UIElements::Align", modifiers: "", def_value: None, comment: None }, CppParam { name: "alignSelf", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "borderBottomWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderLeftWidth", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "borderRightWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "borderTopWidth", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "bottom", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "display", ty:
+  // "::UnityEngine::UIElements::DisplayStyle", modifiers: "", def_value: None, comment: None }, CppParam { name: "flexBasis", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "flexDirection", ty: "::UnityEngine::UIElements::FlexDirection", modifiers: "", def_value: None, comment: None }, CppParam { name: "flexGrow", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "flexShrink", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "flexWrap", ty:
+  // "::UnityEngine::UIElements::Wrap", modifiers: "", def_value: None, comment: None }, CppParam { name: "height", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "justifyContent", ty: "::UnityEngine::UIElements::Justify", modifiers: "", def_value: None, comment: None }, CppParam { name: "left", ty:
+  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "marginBottom", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "marginLeft", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "marginRight", ty:
+  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "marginTop", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "maxHeight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxWidth", ty:
+  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "minHeight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "minWidth", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "paddingBottom", ty:
+  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "paddingLeft", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "paddingRight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "paddingTop", ty:
+  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty: "::UnityEngine::UIElements::Position", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "right", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "top", ty:
+  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment:
   // None }]
   constexpr LayoutData(::UnityEngine::UIElements::Align alignContent, ::UnityEngine::UIElements::Align alignItems, ::UnityEngine::UIElements::Align alignSelf, float_t borderBottomWidth,
                        float_t borderLeftWidth, float_t borderRightWidth, float_t borderTopWidth, ::UnityEngine::UIElements::Length bottom, ::UnityEngine::UIElements::DisplayStyle display,

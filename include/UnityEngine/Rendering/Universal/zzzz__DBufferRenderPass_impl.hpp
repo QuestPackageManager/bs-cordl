@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DBufferRenderPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DBufferRenderPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
@@ -705,12 +705,13 @@ inline void UnityEngine::Rendering::Universal::DBufferRenderPass::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DBufferRenderPass*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::DBufferRenderPass::Setup(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+inline void UnityEngine::Rendering::Universal::DBufferRenderPass::Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DBufferRenderPass*>(),
                                                                                          { "Setup", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData);
 }
-inline void UnityEngine::Rendering::Universal::DBufferRenderPass::Setup(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::RTHandle* depthTextureHandle) {
+inline void UnityEngine::Rendering::Universal::DBufferRenderPass::Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
+                                                                        ::UnityEngine::Rendering::RTHandle* depthTextureHandle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DBufferRenderPass*>(),

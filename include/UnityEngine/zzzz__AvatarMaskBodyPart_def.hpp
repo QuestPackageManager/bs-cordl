@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AvatarMaskBodyPart.hpp"
+// IWYU pragma private; include "UnityEngine/AvatarMaskBodyPart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct AvatarMaskBodyPart;
 // Write type traits
 MARK_VAL_T(::UnityEngine::AvatarMaskBodyPart);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AvatarMaskBodyPart, "UnityEngine", "AvatarMaskBodyPart");
+// [MovedFrom(true, "UnityEditor.Animations", "UnityEditor", null)]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -54,7 +55,7 @@ public:
   // @brief default ctor
   constexpr AvatarMaskBodyPart();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AvatarMaskBodyPart(int32_t value__) noexcept;
 
   /// @brief Field Body value: I32(1)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerScoreDiffText.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerScoreDiffText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerScoreDiffText_HorizontalPosition();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerScoreDiffText_HorizontalPosition(int32_t value__) noexcept;
 
   /// @brief Field Left value: I32(0)
@@ -137,7 +137,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerScoreDiffText_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerScoreDiffText_State(int32_t value__) noexcept;
 
   /// @brief Field AnimatingDisplay value: I32(2)
@@ -239,12 +239,15 @@ public:
   /// @brief Method Start, addr 0x59bcf50, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateHide>b__18_0, addr 0x59bd798, size 0x30, virtual false, abstract: false, final false
   inline void _AnimateHide_b__18_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x59bd78c, size 0xc, virtual false, abstract: false, final false
   inline void _AnimateScoreDiff_b__17_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <Start>b__14_0, addr 0x59bd730, size 0x5c, virtual false, abstract: false, final false
   inline void _Start_b__14_0(float_t val);
 
@@ -329,41 +332,51 @@ protected:
   constexpr MultiplayerScoreDiffText();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreDiffText", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreDiffText", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreDiffText(MultiplayerScoreDiffText&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreDiffText", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreDiffText", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreDiffText(MultiplayerScoreDiffText const&) = delete;
+  MultiplayerScoreDiffText(MultiplayerScoreDiffTextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6066 };
 
+  /// [SerializeField]
   /// @brief Field _activeTextColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____activeTextColor;
 
+  /// [SerializeField]
   /// @brief Field _normalBackgroundColor, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ____normalBackgroundColor;
 
+  /// [SerializeField]
   /// @brief Field _leadingBackgroundColor, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Color ____leadingBackgroundColor;
 
+  /// [SerializeField]
   /// @brief Field _useAutomaticLeadPlayerSelection, offset: 0x50, size: 0x1, def value: None
   bool ____useAutomaticLeadPlayerSelection;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _onPlatformText, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____onPlatformText;
 
+  /// [SerializeField]
   /// @brief Field _backgroundSpriteRenderer, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____backgroundSpriteRenderer;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
+  /// [Inject]
   /// @brief Field _connectedPlayer, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
+  /// [Inject]
   /// @brief Field _leadPlayerProvider, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider> ____leadPlayerProvider;
 

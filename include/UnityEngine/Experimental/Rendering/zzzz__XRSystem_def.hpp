@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,6 +79,7 @@ MARK_REF_T(::UnityEngine::Experimental::Rendering::XRSystem*);
 MARK_VAL_T(::UnityEngine::Experimental::Rendering::XRSystem___c__DisplayClass44_0);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Rendering::XRSystem*, "UnityEngine.Experimental.Rendering", "XRSystem");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Rendering::XRSystem___c__DisplayClass44_0, "UnityEngine.Experimental.Rendering", "XRSystem/<>c__DisplayClass44_0");
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
@@ -90,7 +91,7 @@ public:
   // @brief default ctor
   constexpr XRSystem___c__DisplayClass44_0();
 
-  // Ctor Parameters [CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: None, comment: None }]
   constexpr XRSystem___c__DisplayClass44_0(::UnityW<::UnityEngine::Camera> camera) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -231,12 +232,14 @@ public:
   /// @brief Method SetRenderScale, addr 0x674ba98, size 0x1a0, virtual false, abstract: false, final false
   static inline void SetRenderScale(float_t renderScale);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)3)]
   /// @brief Method XRSystemInit, addr 0x674c088, size 0xd0, virtual false, abstract: false, final false
   static inline void XRSystemInit();
 
   /// @brief Method XrRenderTextureDescToUnityRenderTextureDesc, addr 0x674c824, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureDescriptor XrRenderTextureDescToUnityRenderTextureDesc(::UnityEngine::RenderTextureDescriptor xrDesc);
 
+  /// [CompilerGenerated]
   /// @brief Method <CreateDefaultLayout>g__AddViewToPass|44_0, addr 0x674c568, size 0xf4, virtual false, abstract: false, final false
   static inline void _CreateDefaultLayout_g__AddViewToPass_44_0(::UnityEngine::Experimental::Rendering::XRPass* xrPass, ::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass renderPass,
                                                                 int32_t renderParamIndex,
@@ -271,15 +274,18 @@ public:
   /// @brief Method get_displayActive, addr 0x6746378, size 0x9c, virtual false, abstract: false, final false
   static inline bool get_displayActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dumpDebugInfo, addr 0x674ae54, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_dumpDebugInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method get_foveatedRenderingCaps, addr 0x674ad98, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::FoveatedRenderingCaps get_foveatedRenderingCaps();
 
   /// @brief Method get_isHDRDisplayOutputActive, addr 0x674ac30, size 0xa8, virtual false, abstract: false, final false
   static inline bool get_isHDRDisplayOutputActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_singlePassAllowed, addr 0x674acd8, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_singlePassAllowed();
 
@@ -309,12 +315,15 @@ public:
 
   static inline void setStaticF_s_PassAllocator(::System::Func_2<::UnityEngine::Experimental::Rendering::XRPassCreateInfo, ::UnityEngine::Experimental::Rendering::XRPass*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dumpDebugInfo, addr 0x674aeb0, size 0x64, virtual false, abstract: false, final false
   static inline void set_dumpDebugInfo(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_foveatedRenderingCaps, addr 0x674adf4, size 0x60, virtual false, abstract: false, final false
   static inline void set_foveatedRenderingCaps(::UnityEngine::Rendering::FoveatedRenderingCaps value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_singlePassAllowed, addr 0x674ad34, size 0x64, virtual false, abstract: false, final false
   static inline void set_singlePassAllowed(bool value);
 
@@ -324,13 +333,13 @@ protected:
   constexpr XRSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRSystem(XRSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRSystem(XRSystem const&) = delete;
+  XRSystem(XRSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11861 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\INetworkPacketProcessedHandler_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/INetworkPacketProcessedHandler_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ template <typename TData>
 class CORDL_TYPE INetworkPacketProcessedHandler_1 {
 public:
   // Declarations
-  /// @brief Method HandlePacketProcessed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HandlePacketProcessed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandlePacketProcessed(::StringW typeName, TData data);
 
-  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketProcessedHandler_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketProcessedHandler_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INetworkPacketProcessedHandler_1(INetworkPacketProcessedHandler_1 const&) = delete;
+  INetworkPacketProcessedHandler_1(INetworkPacketProcessedHandler_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18224 };

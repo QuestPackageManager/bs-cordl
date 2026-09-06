@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MaterialQualityUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MaterialQualityUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class MaterialQualityUtilities;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::MaterialQualityUtilities*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::MaterialQualityUtilities*, "UnityEngine.Rendering", "MaterialQualityUtilities");
+// [Extension]
+// [MovedFrom("Utilities")]
 // Dependencies System.Object, UnityEngine.Rendering.ShaderKeyword
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -41,18 +43,23 @@ public:
   /// @brief Method FromIndex, addr 0x67c72a8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality FromIndex(int32_t index);
 
+  /// [Extension]
   /// @brief Method GetClosestQuality, addr 0x67c70e0, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality GetClosestQuality(::UnityEngine::Rendering::MaterialQuality availableLevels, ::UnityEngine::Rendering::MaterialQuality requestedLevel);
 
+  /// [Extension]
   /// @brief Method GetHighestQuality, addr 0x67c7050, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality GetHighestQuality(::UnityEngine::Rendering::MaterialQuality levels);
 
+  /// [Extension]
   /// @brief Method SetGlobalShaderKeywords, addr 0x67c72b4, size 0xfc, virtual false, abstract: false, final false
   static inline void SetGlobalShaderKeywords(::UnityEngine::Rendering::MaterialQuality level);
 
+  /// [Extension]
   /// @brief Method SetGlobalShaderKeywords, addr 0x67c73b0, size 0x118, virtual false, abstract: false, final false
   static inline void SetGlobalShaderKeywords(::UnityEngine::Rendering::MaterialQuality level, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
+  /// [Extension]
   /// @brief Method ToFirstIndex, addr 0x67c7218, size 0x90, virtual false, abstract: false, final false
   static inline int32_t ToFirstIndex(::UnityEngine::Rendering::MaterialQuality level);
 
@@ -74,13 +81,13 @@ protected:
   constexpr MaterialQualityUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialQualityUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialQualityUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialQualityUtilities(MaterialQualityUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialQualityUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialQualityUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialQualityUtilities(MaterialQualityUtilities const&) = delete;
+  MaterialQualityUtilities(MaterialQualityUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12310 };

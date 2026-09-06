@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RTHandleSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RTHandleSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandleProperties_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandle_impl.hpp"
@@ -24,7 +24,7 @@
 #include "UnityEngine/zzzz__VRTextureUsage_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RTHandleSystem_ResizeMode::RTHandleSystem_ResizeMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -947,7 +947,7 @@ inline void UnityEngine::Rendering::RTHandleSystem::SetReferenceSize(int32_t wid
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandleSystem*>(), { "SetReferenceSize", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, reset);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::RTHandleSystem::CalculateRatioAgainstMaxSize(::by_ref<::UnityEngine::Vector2Int> viewportSize) {
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::RTHandleSystem::CalculateRatioAgainstMaxSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int> viewportSize) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandleSystem*>(),
                                                                                          { "CalculateRatioAgainstMaxSize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2Int>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, viewportSize);

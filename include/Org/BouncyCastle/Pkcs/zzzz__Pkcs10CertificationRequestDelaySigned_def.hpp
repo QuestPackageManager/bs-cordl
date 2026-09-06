@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkcs\Pkcs10CertificationRequestDelaySigned.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs10CertificationRequestDelaySigned.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr Pkcs10CertificationRequestDelaySigned();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs10CertificationRequestDelaySigned", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs10CertificationRequestDelaySigned", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs10CertificationRequestDelaySigned(Pkcs10CertificationRequestDelaySigned&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs10CertificationRequestDelaySigned", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs10CertificationRequestDelaySigned", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs10CertificationRequestDelaySigned(Pkcs10CertificationRequestDelaySigned const&) = delete;
+  Pkcs10CertificationRequestDelaySigned(Pkcs10CertificationRequestDelaySignedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1697 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IDebugDisplaySettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IDebugDisplaySettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ public:
   /// @brief Method Add, addr 0x676d824, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsData* Add(::UnityEngine::Rendering::IDebugDisplaySettingsData* newData);
 
-  /// @brief Method ForEach, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ForEach, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ForEach(::System::Action_1<::UnityEngine::Rendering::IDebugDisplaySettingsData*>* onExecute);
 
-  /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDebugDisplaySettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDebugDisplaySettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDebugDisplaySettings(IDebugDisplaySettings const&) = delete;
+  IDebugDisplaySettings(IDebugDisplaySettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12042 };

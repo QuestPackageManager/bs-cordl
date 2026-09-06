@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\FixedArray3_1.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/FixedArray3_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,24 +26,32 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-template <typename T> class FixedArray3_1__Enumerate_d__10;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class FixedArray3_1__Enumerate_d__10;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
-template <typename T> class FixedArray3_1__Enumerate_d__10;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class FixedArray3_1__Enumerate_d__10;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-template <typename T> struct FixedArray3_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct FixedArray3_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1__Enumerate_d__10);
 MARK_GEN_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1__Enumerate_d__10, "UnityEngine.ProBuilder.Poly2Tri", "FixedArray3`1/<Enumerate>d__10");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1, "UnityEngine.ProBuilder.Poly2Tri", "FixedArray3`1");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<T>
 struct CORDL_TYPE FixedArray3_1 {
@@ -68,6 +76,7 @@ public:
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Contains(T value);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1::<Enumerate>d__10<T>))]
   /// @brief Method Enumerate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<T>* Enumerate();
 
@@ -96,8 +105,8 @@ public:
   // @brief default ctor
   constexpr FixedArray3_1();
 
-  // Ctor Parameters [CppParam { name: "_0", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_1", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_2", ty: "T", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_0", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "_1", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_2", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr FixedArray3_1(T _0, T _1, T _2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -119,10 +128,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::Poly2Tri
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<T>
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1/<Enumerate>d__10<T>
 class CORDL_TYPE FixedArray3_1__Enumerate_d__10 : public ::System::Object {
@@ -168,23 +179,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1__Enumerate_d__10<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -224,6 +242,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -248,13 +267,13 @@ protected:
   constexpr FixedArray3_1__Enumerate_d__10();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedArray3_1__Enumerate_d__10", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedArray3_1__Enumerate_d__10", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedArray3_1__Enumerate_d__10(FixedArray3_1__Enumerate_d__10&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedArray3_1__Enumerate_d__10", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedArray3_1__Enumerate_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedArray3_1__Enumerate_d__10(FixedArray3_1__Enumerate_d__10 const&) = delete;
+  FixedArray3_1__Enumerate_d__10(FixedArray3_1__Enumerate_d__10const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21785 };

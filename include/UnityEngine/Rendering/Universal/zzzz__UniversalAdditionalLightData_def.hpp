@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalAdditionalLightData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalAdditionalLightData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,8 @@ class UniversalAdditionalLightData;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*, "UnityEngine.Rendering.Universal", "UniversalAdditionalLightData");
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(UnityEngine.Light))]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Rendering.Universal.LightLayerEnum, UnityEngine.Rendering.Universal.SoftShadowQuality, UnityEngine.Vector2
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -69,10 +71,13 @@ public:
 
   __declspec(property(get = get_light)) ::UnityW<::UnityEngine::Light> light;
 
+  /// @brief [Tooltip("Controls the offset of the cookie mask currently assigned to the light.")]
   __declspec(property(get = get_lightCookieOffset, put = set_lightCookieOffset)) ::UnityEngine::Vector2 lightCookieOffset;
 
+  /// @brief [Tooltip("Controls the size of the cookie mask currently assigned to the light.")]
   __declspec(property(get = get_lightCookieSize, put = set_lightCookieSize)) ::UnityEngine::Vector2 lightCookieSize;
 
+  /// @brief [Obsolete("This is obsolete, please use renderingLayerMask instead.", true)]
   __declspec(property(get = get_lightLayerMask, put = set_lightLayerMask)) ::UnityEngine::Rendering::Universal::LightLayerEnum lightLayerMask;
 
   /// @brief Field m_AdditionalLightsShadowResolutionTier, offset 0x30, size 0x4
@@ -114,10 +119,12 @@ public:
 
   __declspec(property(get = get_renderingLayers, put = set_renderingLayers)) uint32_t renderingLayers;
 
+  /// @brief [Obsolete("This is obsolete, please use shadowRenderingLayerMask instead.", true)]
   __declspec(property(get = get_shadowLayerMask, put = set_shadowLayerMask)) ::UnityEngine::Rendering::Universal::LightLayerEnum shadowLayerMask;
 
   __declspec(property(get = get_shadowRenderingLayers, put = set_shadowRenderingLayers)) uint32_t shadowRenderingLayers;
 
+  /// @brief [Tooltip("Controls the filtering quality of soft shadows. Higher quality has lower performance.")]
   __declspec(property(get = get_softShadowQuality, put = set_softShadowQuality)) ::UnityEngine::Rendering::Universal::SoftShadowQuality softShadowQuality;
 
   __declspec(property(get = get_usePipelineSettings, put = set_usePipelineSettings)) bool usePipelineSettings;
@@ -319,50 +326,64 @@ protected:
   constexpr UniversalAdditionalLightData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalLightData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalLightData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalAdditionalLightData(UniversalAdditionalLightData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalLightData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalLightData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalAdditionalLightData(UniversalAdditionalLightData const&) = delete;
+  UniversalAdditionalLightData(UniversalAdditionalLightDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12996 };
 
+  /// [SerializeField]
   /// @brief Field m_Version, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [Tooltip("Controls if light Shadow Bias parameters use pipeline settings.")]
+  /// [SerializeField]
   /// @brief Field m_UsePipelineSettings, offset: 0x24, size: 0x1, def value: None
   bool ___m_UsePipelineSettings;
 
   /// @brief Field m_Light, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Light> ___m_Light;
 
+  /// [Tooltip("Controls if light shadow resolution uses pipeline settings.")]
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightsShadowResolutionTier, offset: 0x30, size: 0x4, def value: None
   int32_t ___m_AdditionalLightsShadowResolutionTier;
 
+  /// [Obsolete("This is obsolete, please use m_RenderingLayerMask instead.", false)]
+  /// [SerializeField]
   /// @brief Field m_LightLayerMask, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::LightLayerEnum ___m_LightLayerMask;
 
+  /// [SerializeField]
   /// @brief Field m_RenderingLayers, offset: 0x38, size: 0x4, def value: None
   uint32_t ___m_RenderingLayers;
 
+  /// [SerializeField]
   /// @brief Field m_CustomShadowLayers, offset: 0x3c, size: 0x1, def value: None
   bool ___m_CustomShadowLayers;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowLayerMask, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::LightLayerEnum ___m_ShadowLayerMask;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowRenderingLayers, offset: 0x44, size: 0x4, def value: None
   uint32_t ___m_ShadowRenderingLayers;
 
+  /// [SerializeField]
   /// @brief Field m_LightCookieSize, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_LightCookieSize;
 
+  /// [SerializeField]
   /// @brief Field m_LightCookieOffset, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_LightCookieOffset;
 
+  /// [SerializeField]
   /// @brief Field m_SoftShadowQuality, offset: 0x58, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::SoftShadowQuality ___m_SoftShadowQuality;
 

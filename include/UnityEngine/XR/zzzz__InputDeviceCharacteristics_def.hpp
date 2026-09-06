@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\InputDeviceCharacteristics.hpp"
+// IWYU pragma private; include "UnityEngine/XR/InputDeviceCharacteristics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct InputDeviceCharacteristics;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::InputDeviceCharacteristics);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::InputDeviceCharacteristics, "UnityEngine.XR", "InputDeviceCharacteristics");
+// [Flags]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -52,7 +53,7 @@ public:
   // @brief default ctor
   constexpr InputDeviceCharacteristics();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputDeviceCharacteristics(uint32_t value__) noexcept;
 
   /// @brief Field Camera value: U32(2)

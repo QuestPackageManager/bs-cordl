@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\SkeinParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/SkeinParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,13 +93,13 @@ protected:
   constexpr SkeinParameters_Builder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters_Builder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters_Builder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkeinParameters_Builder(SkeinParameters_Builder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters_Builder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters_Builder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinParameters_Builder(SkeinParameters_Builder const&) = delete;
+  SkeinParameters_Builder(SkeinParameters_Builderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1082 };
@@ -173,13 +173,13 @@ protected:
   constexpr SkeinParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkeinParameters(SkeinParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinParameters(SkeinParameters const&) = delete;
+  SkeinParameters(SkeinParametersconst&) = delete;
 
   /// @brief Field PARAM_TYPE_CONFIG offset 0xffffffff size 0x4
   static constexpr int32_t PARAM_TYPE_CONFIG{ static_cast<int32_t>(0x4) };

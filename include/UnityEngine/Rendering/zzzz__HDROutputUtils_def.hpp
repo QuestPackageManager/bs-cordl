@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HDROutputUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HDROutputUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::HDROutputUtils*, "UnityEngine.Rend
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::HDROutputUtils_ShaderKeywords*, "UnityEngine.Rendering", "HDROutputUtils/ShaderKeywords");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::HDROutputUtils_ShaderPropertyId*, "UnityEngine.Rendering", "HDROutputUtils/ShaderPropertyId");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation, "UnityEngine.Rendering", "HDROutputUtils/HDRDisplayInformation");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -94,7 +95,7 @@ public:
   // @brief default ctor
   constexpr HDROutputUtils_Operation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HDROutputUtils_Operation(int32_t value__) noexcept;
 
   /// @brief Field ColorConversion value: I32(1)
@@ -137,8 +138,9 @@ public:
   // @brief default ctor
   constexpr HDROutputUtils_HDRDisplayInformation();
 
-  // Ctor Parameters [CppParam { name: "maxFullFrameToneMapLuminance", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxToneMapLuminance", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "minToneMapLuminance", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "paperWhiteNits", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "maxFullFrameToneMapLuminance", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxToneMapLuminance", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "minToneMapLuminance", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "paperWhiteNits", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HDROutputUtils_HDRDisplayInformation(int32_t maxFullFrameToneMapLuminance, int32_t maxToneMapLuminance, int32_t minToneMapLuminance, float_t paperWhiteNits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -215,13 +217,13 @@ protected:
   constexpr HDROutputUtils_ShaderKeywords();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderKeywords", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderKeywords", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HDROutputUtils_ShaderKeywords(HDROutputUtils_ShaderKeywords&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderKeywords", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderKeywords", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDROutputUtils_ShaderKeywords(HDROutputUtils_ShaderKeywords const&) = delete;
+  HDROutputUtils_ShaderKeywords(HDROutputUtils_ShaderKeywordsconst&) = delete;
 
   /// @brief Field HDR_COLORSPACE_CONVERSION offset 0xffffffff size 0x8
   static constexpr ::ConstString HDR_COLORSPACE_CONVERSION{ u"HDR_COLORSPACE_CONVERSION" };
@@ -271,13 +273,13 @@ protected:
   constexpr HDROutputUtils_ShaderPropertyId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderPropertyId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderPropertyId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HDROutputUtils_ShaderPropertyId(HDROutputUtils_ShaderPropertyId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderPropertyId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderPropertyId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDROutputUtils_ShaderPropertyId(HDROutputUtils_ShaderPropertyId const&) = delete;
+  HDROutputUtils_ShaderPropertyId(HDROutputUtils_ShaderPropertyIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12306 };
@@ -330,13 +332,13 @@ protected:
   constexpr HDROutputUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HDROutputUtils(HDROutputUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDROutputUtils(HDROutputUtils const&) = delete;
+  HDROutputUtils(HDROutputUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12307 };

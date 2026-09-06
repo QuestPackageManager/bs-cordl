@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Globalization\Unicode\SimpleCollator.hpp"
+// IWYU pragma private; include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,10 +89,10 @@ public:
   // @brief default ctor
   constexpr SimpleCollator_Context();
 
-  // Ctor Parameters [CppParam { name: "Option", ty: "::System::Globalization::CompareOptions", modifiers: "", def_value: None }, CppParam { name: "NeverMatchFlags", ty: "uint8_t*", modifiers: "",
-  // def_value: None }, CppParam { name: "AlwaysMatchFlags", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "Buffer1", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam {
-  // name: "Buffer2", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "PrevCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PrevSortKey", ty: "uint8_t*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Option", ty: "::System::Globalization::CompareOptions", modifiers: "", def_value: None, comment: None }, CppParam { name: "NeverMatchFlags", ty: "uint8_t*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "AlwaysMatchFlags", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Buffer1", ty: "uint8_t*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Buffer2", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "PrevCode", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "PrevSortKey", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }]
   constexpr SimpleCollator_Context(::System::Globalization::CompareOptions Option, uint8_t* NeverMatchFlags, uint8_t* AlwaysMatchFlags, uint8_t* Buffer1, uint8_t* Buffer2, int32_t PrevCode,
                                    uint8_t* PrevSortKey) noexcept;
 
@@ -157,7 +157,8 @@ public:
   // @brief default ctor
   constexpr SimpleCollator_PreviousInfo();
 
-  // Ctor Parameters [CppParam { name: "Code", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SortKey", ty: "uint8_t*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Code", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SortKey", ty: "uint8_t*", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr SimpleCollator_PreviousInfo(int32_t Code, uint8_t* SortKey) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -193,9 +194,9 @@ public:
   // @brief default ctor
   constexpr SimpleCollator_Escape();
 
-  // Ctor Parameters [CppParam { name: "Source", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Start",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Optional", ty: "int32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "Source", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Start", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "Optional", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SimpleCollator_Escape(::StringW Source, int32_t Index, int32_t Start, int32_t End, int32_t Optional) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -267,7 +268,7 @@ public:
   // @brief default ctor
   constexpr SimpleCollator_ExtenderType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SimpleCollator_ExtenderType(int32_t value__) noexcept;
 
   /// @brief Field Buggy value: I32(4)
@@ -588,13 +589,13 @@ protected:
   constexpr SimpleCollator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleCollator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleCollator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleCollator(SimpleCollator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleCollator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleCollator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleCollator(SimpleCollator const&) = delete;
+  SimpleCollator(SimpleCollatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2271 };

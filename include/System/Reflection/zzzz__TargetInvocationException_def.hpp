@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\TargetInvocationException.hpp"
+// IWYU pragma private; include "System/Reflection/TargetInvocationException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ protected:
   constexpr TargetInvocationException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TargetInvocationException(TargetInvocationException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TargetInvocationException(TargetInvocationException const&) = delete;
+  TargetInvocationException(TargetInvocationExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3523 };

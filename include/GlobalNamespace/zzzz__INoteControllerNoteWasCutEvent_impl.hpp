@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\INoteControllerNoteWasCutEvent.hpp"
+// IWYU pragma private; include "GlobalNamespace/INoteControllerNoteWasCutEvent.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerNoteWasCutEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
@@ -17,7 +17,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::INoteControllerNoteWasCutEvent::HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::INoteControllerNoteWasCutEvent::HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController,
+                                                                                            /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INoteControllerNoteWasCutEvent*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteController, noteCutInfo);

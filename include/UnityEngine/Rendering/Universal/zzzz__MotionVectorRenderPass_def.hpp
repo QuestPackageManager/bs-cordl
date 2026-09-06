@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\MotionVectorRenderPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/MotionVectorRenderPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +18,9 @@ namespace UnityEngine::Experimental::Rendering {
 class XRPass;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -201,13 +203,13 @@ protected:
   constexpr MotionVectorRenderPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MotionVectorRenderPass_PassData(MotionVectorRenderPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MotionVectorRenderPass_PassData(MotionVectorRenderPass_PassData const&) = delete;
+  MotionVectorRenderPass_PassData(MotionVectorRenderPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12844 };
@@ -294,13 +296,13 @@ protected:
   constexpr MotionVectorRenderPass_MotionMatrixPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_MotionMatrixPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_MotionMatrixPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MotionVectorRenderPass_MotionMatrixPassData(MotionVectorRenderPass_MotionMatrixPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_MotionMatrixPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_MotionMatrixPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MotionVectorRenderPass_MotionMatrixPassData(MotionVectorRenderPass_MotionMatrixPassData const&) = delete;
+  MotionVectorRenderPass_MotionMatrixPassData(MotionVectorRenderPass_MotionMatrixPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12845 };
@@ -321,6 +323,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorRenderPa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_MotionMatrixPassData) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -377,13 +380,13 @@ protected:
   constexpr MotionVectorRenderPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MotionVectorRenderPass___c(MotionVectorRenderPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MotionVectorRenderPass___c(MotionVectorRenderPass___c const&) = delete;
+  MotionVectorRenderPass___c(MotionVectorRenderPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12846 };
@@ -432,6 +435,7 @@ public:
   /// @brief Field s_ShaderTags, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ShaderTags, put = setStaticF_s_ShaderTags)) ::ArrayW<::StringW> s_ShaderTags;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Configure, addr 0x6887298, size 0xe4, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
@@ -442,6 +446,7 @@ public:
   static inline void DrawObjectMotionVectors(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr,
                                              ::by_ref<::UnityEngine::Rendering::RendererList> rendererList);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68876f8, size 0x1d8, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -529,13 +534,13 @@ protected:
   constexpr MotionVectorRenderPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MotionVectorRenderPass(MotionVectorRenderPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MotionVectorRenderPass(MotionVectorRenderPass const&) = delete;
+  MotionVectorRenderPass(MotionVectorRenderPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12847 };

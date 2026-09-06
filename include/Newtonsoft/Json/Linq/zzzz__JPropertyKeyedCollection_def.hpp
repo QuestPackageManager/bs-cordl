@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JPropertyKeyedCollection.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JPropertyKeyedCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,9 @@ class JPropertyKeyedCollection;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Linq::JPropertyKeyedCollection*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JPropertyKeyedCollection*, "Newtonsoft.Json.Linq", "JPropertyKeyedCollection");
+// [NullableContext(1)]
+// [Nullable(new[] { 0, 1 })]
+// [DefaultMember("Item")]
 // Dependencies System.Collections.ObjectModel.Collection`1<T>
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
@@ -91,7 +94,7 @@ public:
   inline void SetItem(int32_t index, ::Newtonsoft::Json::Linq::JToken* item);
 
   /// @brief Method TryGetValue, addr 0x5d73efc, size 0x7c, virtual false, abstract: false, final false
-  inline bool TryGetValue(::StringW key, ::by_ref<::Newtonsoft::Json::Linq::JToken*> value);
+  inline bool TryGetValue(::StringW key, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::Newtonsoft::Json::Linq::JToken*> value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* const& __cordl_internal_get__dictionary() const;
 
@@ -121,17 +124,18 @@ protected:
   constexpr JPropertyKeyedCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JPropertyKeyedCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPropertyKeyedCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JPropertyKeyedCollection(JPropertyKeyedCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JPropertyKeyedCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPropertyKeyedCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JPropertyKeyedCollection(JPropertyKeyedCollection const&) = delete;
+  JPropertyKeyedCollection(JPropertyKeyedCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13599 };
 
+  /// [Nullable(new[] { 2, 1, 1 })]
   /// @brief Field _dictionary, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* ____dictionary;
 

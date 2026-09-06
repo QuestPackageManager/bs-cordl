@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SmoothCameraController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SmoothCameraController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SmoothCameraController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"

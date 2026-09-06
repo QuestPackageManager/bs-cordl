@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\ActionHook.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/ActionHook.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::ActionHook*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::ActionHook___c__DisplayClass4_0*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::ActionHook*, "Meta.XR.ImmersiveDebugger.Manager", "ActionHook");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::ActionHook___c__DisplayClass4_0*, "Meta.XR.ImmersiveDebugger.Manager", "ActionHook/<>c__DisplayClass4_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -72,13 +73,13 @@ protected:
   constexpr ActionHook___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActionHook___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionHook___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActionHook___c__DisplayClass4_0(ActionHook___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActionHook___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionHook___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActionHook___c__DisplayClass4_0(ActionHook___c__DisplayClass4_0 const&) = delete;
+  ActionHook___c__DisplayClass4_0(ActionHook___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18435 };
@@ -125,9 +126,11 @@ public:
   /// @brief Method .ctor, addr 0x5a617dc, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Delegate, addr 0x5a645dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_Delegate();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Delegate, addr 0x5a645e4, size 0x8, virtual false, abstract: false, final false
   inline void set_Delegate(::System::Action* value);
 
@@ -137,17 +140,18 @@ protected:
   constexpr ActionHook();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActionHook", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionHook", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActionHook(ActionHook&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActionHook", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionHook", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActionHook(ActionHook const&) = delete;
+  ActionHook(ActionHookconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18436 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Delegate>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ____Delegate_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\AddToExistingGameObjectComponentProvider.hpp"
+// IWYU pragma private; include "Zenject/AddToExistingGameObjectComponentProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class AddToExistingGameObjectComponentProvider;
 // Write type traits
 MARK_REF_T(::Zenject::AddToExistingGameObjectComponentProvider*);
 DEFINE_IL2CPP_CLASS(::Zenject::AddToExistingGameObjectComponentProvider*, "Zenject", "AddToExistingGameObjectComponentProvider");
+// [NoReflectionBaking]
 // Dependencies Zenject.AddToGameObjectComponentProviderBase
 namespace Zenject {
 // Is value type: false
@@ -76,13 +77,13 @@ protected:
   constexpr AddToExistingGameObjectComponentProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddToExistingGameObjectComponentProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToExistingGameObjectComponentProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddToExistingGameObjectComponentProvider(AddToExistingGameObjectComponentProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddToExistingGameObjectComponentProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToExistingGameObjectComponentProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddToExistingGameObjectComponentProvider(AddToExistingGameObjectComponentProvider const&) = delete;
+  AddToExistingGameObjectComponentProvider(AddToExistingGameObjectComponentProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14536 };

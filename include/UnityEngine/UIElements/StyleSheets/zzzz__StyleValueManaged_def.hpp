@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleValueManaged.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleValueManaged.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,8 +28,8 @@ public:
   // @brief default ctor
   constexpr StyleValueManaged();
 
-  // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "keyword", ty:
-  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None, comment: None }, CppParam { name: "keyword", ty:
+  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr StyleValueManaged(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleKeyword keyword, ::System::Object* value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

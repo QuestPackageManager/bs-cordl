@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlickeringNeonSign.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlickeringNeonSign.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::GlobalNamespace::FlickeringNeonSign*);
 MARK_REF_T(::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FlickeringNeonSign*, "", "FlickeringNeonSign");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16*, "", "FlickeringNeonSign/<FlickeringCoroutine>d__16");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -86,17 +87,22 @@ public:
   /// @brief Method MoveNext, addr 0x59a5188, size 0x138, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59a52c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59a52c8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59a5300, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59a5184, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -118,6 +124,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FlickeringNeonSign> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59a5048, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -136,13 +143,13 @@ protected:
   constexpr FlickeringNeonSign__FlickeringCoroutine_d__16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign__FlickeringCoroutine_d__16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign__FlickeringCoroutine_d__16", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlickeringNeonSign__FlickeringCoroutine_d__16(FlickeringNeonSign__FlickeringCoroutine_d__16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign__FlickeringCoroutine_d__16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign__FlickeringCoroutine_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlickeringNeonSign__FlickeringCoroutine_d__16(FlickeringNeonSign__FlickeringCoroutine_d__16 const&) = delete;
+  FlickeringNeonSign__FlickeringCoroutine_d__16(FlickeringNeonSign__FlickeringCoroutine_d__16const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5967 };
@@ -168,6 +175,7 @@ static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutin
 static_assert(sizeof(::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/FlickeringNeonSign")]
 // Dependencies UnityEngine.AudioClip, UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem
 namespace GlobalNamespace {
 // Is value type: false
@@ -220,6 +228,7 @@ public:
   /// @brief Method Awake, addr 0x59a4f14, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
+  /// [IteratorStateMachine(typeof(FlickeringNeonSign::<FlickeringCoroutine>d__16))]
   /// @brief Method FlickeringCoroutine, addr 0x59a4ff4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FlickeringCoroutine();
 
@@ -321,50 +330,62 @@ protected:
   constexpr FlickeringNeonSign();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlickeringNeonSign(FlickeringNeonSign&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlickeringNeonSign(FlickeringNeonSign const&) = delete;
+  FlickeringNeonSign(FlickeringNeonSignconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5968 };
 
+  /// [SerializeField]
   /// @brief Field _flickeringSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____flickeringSprite;
 
+  /// [SerializeField]
   /// @brief Field _light, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____light;
 
+  /// [SerializeField]
   /// @brief Field _particleSystems, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>> ____particleSystems;
 
+  /// [SerializeField]
   /// @brief Field _minOnDelay, offset: 0x38, size: 0x4, def value: None
   float_t ____minOnDelay;
 
+  /// [SerializeField]
   /// @brief Field _maxOnDelay, offset: 0x3c, size: 0x4, def value: None
   float_t ____maxOnDelay;
 
+  /// [SerializeField]
   /// @brief Field _minOffDelay, offset: 0x40, size: 0x4, def value: None
   float_t ____minOffDelay;
 
+  /// [SerializeField]
   /// @brief Field _maxOffDelay, offset: 0x44, size: 0x4, def value: None
   float_t ____maxOffDelay;
 
+  /// [SerializeField]
   /// @brief Field _spriteOnColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____spriteOnColor;
 
+  /// [SerializeField]
   /// @brief Field _lightOnColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____lightOnColor;
 
+  /// [SerializeField]
   /// @brief Field _onMaterial, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____onMaterial;
 
+  /// [SerializeField]
   /// @brief Field _offMaterial, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____offMaterial;
 
+  /// [SerializeField]
   /// @brief Field _sparksAudioClips, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____sparksAudioClips;
 

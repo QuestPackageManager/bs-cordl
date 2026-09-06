@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AsyncInitialization\AddressablesLoader.hpp"
+// IWYU pragma private; include "BGLib/AsyncInitialization/AddressablesLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AddressablesLoader)
 namespace BGLib::AsyncInitialization {
-template <typename TInstantiate, typename TReturn> struct AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2;
+template <typename TInstantiate, typename TReturn>
+  requires(::cordl_internals::type_constraint<TInstantiate, TReturn>)
+struct AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -32,7 +34,9 @@ namespace BGLib::AsyncInitialization {
 class AddressablesLoader;
 }
 namespace BGLib::AsyncInitialization {
-template <typename TInstantiate, typename TReturn> struct AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2;
+template <typename TInstantiate, typename TReturn>
+  requires(::cordl_internals::type_constraint<TInstantiate, TReturn>)
+struct AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2;
 }
 // Write type traits
 MARK_REF_T(::BGLib::AsyncInitialization::AddressablesLoader*);
@@ -40,10 +44,12 @@ MARK_GEN_VAL_T(::BGLib::AsyncInitialization::AddressablesLoader__InstantiateFrom
 DEFINE_IL2CPP_CLASS(::BGLib::AsyncInitialization::AddressablesLoader*, "BGLib.AsyncInitialization", "AddressablesLoader");
 DEFINE_IL2CPP_GEN_CLASS(::BGLib::AsyncInitialization::AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2, "BGLib.AsyncInitialization",
                         "AddressablesLoader/<InstantiateFromAddressableToContainer>d__0`2");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::AsyncInitialization {
 // cpp template
 template <typename TInstantiate, typename TReturn>
+  requires(::cordl_internals::type_constraint<TInstantiate, TReturn>)
 // Is value type: true
 // CS Name: BGLib.AsyncInitialization.AddressablesLoader/<InstantiateFromAddressableToContainer>d__0`2<TInstantiate,TReturn>
 struct CORDL_TYPE AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2 {
@@ -55,6 +61,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -65,10 +72,11 @@ public:
   // @brief default ctor
   constexpr AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TReturn>", modifiers: "", def_value: None }, CppParam { name: "prefab", ty:
-  // "::UnityEngine::AddressableAssets::AssetReferenceGameObject*", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::GameObject>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TReturn>", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefab", ty:
+  // "::UnityEngine::AddressableAssets::AssetReferenceGameObject*", modifiers: "", def_value: None, comment: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::GameObject>>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TReturn> __t__builder,
                                                                              ::UnityEngine::AddressableAssets::AssetReferenceGameObject* prefab, ::Zenject::DiContainer* container,
                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::GameObject>> __u__1) noexcept;
@@ -106,10 +114,13 @@ class CORDL_TYPE AddressablesLoader : public ::System::Object {
 public:
   // Declarations
   template <typename TInstantiate, typename TReturn>
+    requires(::cordl_internals::type_constraint<TInstantiate, TReturn>)
   using _InstantiateFromAddressableToContainer_d__0_2 = ::BGLib::AsyncInitialization::AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2<TInstantiate, TReturn>;
 
+  /// [AsyncStateMachine(typeof(BGLib.AsyncInitialization.AddressablesLoader::<InstantiateFromAddressableToContainer>d__0`2<TInstantiate, TReturn>))]
   /// @brief Method InstantiateFromAddressableToContainer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstantiate, typename TReturn>
+    requires(::cordl_internals::type_constraint<TInstantiate, TReturn>)
   static inline ::System::Threading::Tasks::Task_1<TReturn>* InstantiateFromAddressableToContainer(::UnityEngine::AddressableAssets::AssetReferenceGameObject* prefab,
                                                                                                    ::Zenject::DiContainer* container);
 
@@ -119,13 +130,13 @@ protected:
   constexpr AddressablesLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesLoader(AddressablesLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesLoader(AddressablesLoader const&) = delete;
+  AddressablesLoader(AddressablesLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21630 };

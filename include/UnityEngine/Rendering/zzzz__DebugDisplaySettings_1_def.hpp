@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplaySettings_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplaySettings_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsData_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IDebugDisplaySettings_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugDisplaySettings_1)
 namespace System::Collections::Generic {
@@ -19,10 +21,14 @@ namespace System {
 template <typename T> class Lazy_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
+class DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DebugDisplaySettings_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
+class DebugDisplaySettings_1___c;
 }
 namespace UnityEngine::Rendering {
 class IDebugDisplaySettingsData;
@@ -35,13 +41,19 @@ struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T> class DebugDisplaySettings_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
+class DebugDisplaySettings_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
+class DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DebugDisplaySettings_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
+class DebugDisplaySettings_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1);
@@ -50,10 +62,11 @@ MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1, "UnityEngine.Rendering", "DebugDisplaySettings`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer, "UnityEngine.Rendering", "DebugDisplaySettings`1/IDebugDisplaySettingsDataComparer");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1___c, "UnityEngine.Rendering", "DebugDisplaySettings`1/<>c");
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.Rendering.IDebugDisplaySettings
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugDisplaySettings`1/IDebugDisplaySettingsDataComparer<T>
 class CORDL_TYPE DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer : public ::System::Object {
@@ -83,13 +96,13 @@ protected:
   constexpr DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer(DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer(DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer const&) = delete;
+  DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer(DebugDisplaySettings_1_IDebugDisplaySettingsDataComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11945 };
@@ -98,10 +111,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.Rendering.IDebugDisplaySettings
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugDisplaySettings`1/<>c<T>
 class CORDL_TYPE DebugDisplaySettings_1___c : public ::System::Object {
@@ -128,13 +143,13 @@ protected:
   constexpr DebugDisplaySettings_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettings_1___c(DebugDisplaySettings_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettings_1___c(DebugDisplaySettings_1___c const&) = delete;
+  DebugDisplaySettings_1___c(DebugDisplaySettings_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11946 };
@@ -143,10 +158,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.Rendering.IDebugDisplaySettings, UnityEngine.Rendering.IDebugDisplaySettingsData
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugDisplaySettings`1<T>
 class CORDL_TYPE DebugDisplaySettings_1 : public ::System::Object {
@@ -173,7 +189,9 @@ public:
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettings*() noexcept;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TData> inline TData Add(TData newData);
+  template <typename TData>
+    requires(::cordl_internals::type_constraint<TData, ::UnityEngine::Rendering::IDebugDisplaySettingsData*>)
+  inline TData Add(TData newData);
 
   /// @brief Method ForEach, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ForEach(::System::Action_1<::UnityEngine::Rendering::IDebugDisplaySettingsData*>* onExecute);
@@ -223,13 +241,13 @@ protected:
   constexpr DebugDisplaySettings_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettings_1(DebugDisplaySettings_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettings_1(DebugDisplaySettings_1 const&) = delete;
+  DebugDisplaySettings_1(DebugDisplaySettings_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11947 };

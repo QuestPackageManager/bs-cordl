@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LODGroupDataPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LODGroupDataPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -281,13 +281,13 @@ inline void UnityEngine::Rendering::LODGroupDataPool::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupTransformData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData) {
+inline void UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupTransformData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(),
                                                            { "UpdateLODGroupTransformData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inputData);
 }
-inline void UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData) {
+inline void UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(),
                                                            { "UpdateLODGroupData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>>() } })));

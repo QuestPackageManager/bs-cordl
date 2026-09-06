@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeStreamDispose.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeStreamDispose.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct NativeStreamDispose;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeStreamDispose);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeStreamDispose, "Unity.Collections", "NativeStreamDispose");
+// [NativeContainer]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeStream
 namespace Unity::Collections {
 // Is value type: true
@@ -27,7 +29,7 @@ public:
   // @brief default ctor
   constexpr NativeStreamDispose();
 
-  // Ctor Parameters [CppParam { name: "m_StreamData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_StreamData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None, comment: None }]
   constexpr NativeStreamDispose(::Unity::Collections::LowLevel::Unsafe::UnsafeStream m_StreamData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

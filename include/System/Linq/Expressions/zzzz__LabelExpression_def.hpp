@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\LabelExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/LabelExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class LabelExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::LabelExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::LabelExpression*, "System.Linq.Expressions", "LabelExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::LabelExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -72,12 +73,14 @@ public:
   /// @brief Method .ctor, addr 0x5f86814, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::LabelTarget* label, ::System::Linq::Expressions::Expression* defaultValue);
 
+  /// [CompilerGenerated]
   /// @brief Method get_DefaultValue, addr 0x5f868a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_DefaultValue();
 
   /// @brief Method get_NodeType, addr 0x5f86894, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Target, addr 0x5f8689c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_Target();
 
@@ -90,20 +93,22 @@ protected:
   constexpr LabelExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LabelExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LabelExpression(LabelExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LabelExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LabelExpression(LabelExpression const&) = delete;
+  LabelExpression(LabelExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16181 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Target>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::LabelTarget* ____Target_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DefaultValue>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____DefaultValue_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\TimeSpanParse.hpp"
+// IWYU pragma private; include "System/Globalization/TimeSpanParse.hpp"
 #include "System/Globalization/zzzz__TimeSpanFormat_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ReadOnlySpan_1_impl.hpp"
@@ -14,7 +14,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanParse_ParseFailureKind::TimeSpanParse_ParseFailureKind(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -25,7 +25,7 @@ constexpr ::System::Globalization::TimeSpanParse_ParseFailureKind System::Global
 constexpr ::System::Globalization::TimeSpanParse_ParseFailureKind System::Globalization::TimeSpanParse_ParseFailureKind::Format{ static_cast<uint8_t>(0x2u) };
 constexpr ::System::Globalization::TimeSpanParse_ParseFailureKind System::Globalization::TimeSpanParse_ParseFailureKind::FormatWithParameter{ static_cast<uint8_t>(0x3u) };
 constexpr ::System::Globalization::TimeSpanParse_ParseFailureKind System::Globalization::TimeSpanParse_ParseFailureKind::Overflow{ static_cast<uint8_t>(0x4u) };
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles::TimeSpanParse_TimeSpanStandardStyles(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -36,7 +36,7 @@ constexpr ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles System::
 constexpr ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles System::Globalization::TimeSpanParse_TimeSpanStandardStyles::Localized{ static_cast<uint8_t>(0x2u) };
 constexpr ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles System::Globalization::TimeSpanParse_TimeSpanStandardStyles::RequireFull{ static_cast<uint8_t>(0x4u) };
 constexpr ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles System::Globalization::TimeSpanParse_TimeSpanStandardStyles::Any{ static_cast<uint8_t>(0x3u) };
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanParse_TTT::TimeSpanParse_TTT(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -147,9 +147,9 @@ inline bool System::Globalization::TimeSpanParse_TimeSpanToken::IsInvalidFractio
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanToken>(), { "IsInvalidFraction", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_ttt", ty: "::System::Globalization::TimeSpanParse_TTT", modifiers: "", def_value: Some("{}") }, CppParam { name: "_num", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_zeroes", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_sep", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_ttt", ty: "::System::Globalization::TimeSpanParse_TTT", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_num", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_zeroes", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_sep", ty:
+// "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanParse_TimeSpanToken::TimeSpanParse_TimeSpanToken(::System::Globalization::TimeSpanParse_TTT _ttt, int32_t _num, int32_t _zeroes,
                                                                                             ::System::ReadOnlySpan_1<char16_t> _sep) noexcept {
   this->_ttt = _ttt;
@@ -264,8 +264,8 @@ inline char16_t System::Globalization::TimeSpanParse_TimeSpanTokenizer::get_Next
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanTokenizer>(), { "get_NextChar", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<char16_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanParse_TimeSpanTokenizer::TimeSpanParse_TimeSpanTokenizer(::System::ReadOnlySpan_1<char16_t> _value, int32_t _pos) noexcept {
   this->_value = _value;
   this->_pos = _pos;
@@ -618,19 +618,21 @@ inline bool System::Globalization::TimeSpanParse_TimeSpanRawInfo::AddNum(::Syste
           { "AddNum", {}, { ::i2c::type_of<::System::Globalization::TimeSpanParse_TimeSpanToken>(), ::i2c::type_of<::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, num, result);
 }
-// Ctor Parameters [CppParam { name: "_lastSeenTTT", ty: "::System::Globalization::TimeSpanParse_TTT", modifiers: "", def_value: Some("{}") }, CppParam { name: "_tokenCount", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_sepCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_numCount", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_posLoc", ty: "::System::Globalization::TimeSpanFormat_FormatLiterals", modifiers: "", def_value: Some("{}") }, CppParam { name: "_negLoc", ty:
-// "::System::Globalization::TimeSpanFormat_FormatLiterals", modifiers: "", def_value: Some("{}") }, CppParam { name: "_posLocInit", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_negLocInit", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_fullPosPattern", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_fullNegPattern", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_numbers0", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_numbers1", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_numbers2", ty:
-// "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_numbers3", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_numbers4", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_literals0", ty:
-// "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_literals1", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_literals2", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_literals3", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_literals4", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_literals5", ty:
-// "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_lastSeenTTT", ty: "::System::Globalization::TimeSpanParse_TTT", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_tokenCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_sepCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_numCount",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_posLoc", ty: "::System::Globalization::TimeSpanFormat_FormatLiterals", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_negLoc", ty: "::System::Globalization::TimeSpanFormat_FormatLiterals", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_posLocInit", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_negLocInit", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_fullPosPattern",
+// ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_fullNegPattern", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_numbers0", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_numbers1", ty:
+// "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_numbers2", ty:
+// "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_numbers3", ty:
+// "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_numbers4", ty:
+// "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_literals0", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_literals1", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_literals2", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_literals3", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_literals4", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_literals5", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanParse_TimeSpanRawInfo::TimeSpanParse_TimeSpanRawInfo(
     ::System::Globalization::TimeSpanParse_TTT _lastSeenTTT, int32_t _tokenCount, int32_t _sepCount, int32_t _numCount, ::System::Globalization::TimeSpanFormat_FormatLiterals _posLoc,
     ::System::Globalization::TimeSpanFormat_FormatLiterals _negLoc, bool _posLocInit, bool _negLocInit, ::StringW _fullPosPattern, ::StringW _fullNegPattern,
@@ -706,8 +708,8 @@ inline bool System::Globalization::TimeSpanParse_TimeSpanResult::SetFailure(::Sy
                                                                                              ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, kind, resourceKey, messageArgument, argumentName);
 }
-// Ctor Parameters [CppParam { name: "parsedTimeSpan", ty: "::System::TimeSpan", modifiers: "", def_value: Some("{}") }, CppParam { name: "_throwOnFailure", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "parsedTimeSpan", ty: "::System::TimeSpan", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_throwOnFailure", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanParse_TimeSpanResult::TimeSpanParse_TimeSpanResult(::System::TimeSpan parsedTimeSpan, bool _throwOnFailure) noexcept {
   this->parsedTimeSpan = parsedTimeSpan;
   this->_throwOnFailure = _throwOnFailure;
@@ -830,8 +832,9 @@ inline void System::Globalization::TimeSpanParse_StringParser::SkipBlanks() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_StringParser>(), { "SkipBlanks", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_str", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ch", ty: "char16_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_len", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_str", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ch", ty: "char16_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_len", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanParse_StringParser::TimeSpanParse_StringParser(::System::ReadOnlySpan_1<char16_t> _str, char16_t _ch, int32_t _pos, int32_t _len) noexcept {
   this->_str = _str;
   this->_ch = _ch;

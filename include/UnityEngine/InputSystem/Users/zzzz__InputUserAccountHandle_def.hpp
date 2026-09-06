@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Users\InputUserAccountHandle.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Users/InputUserAccountHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,8 @@ public:
   // @brief default ctor
   constexpr InputUserAccountHandle();
 
-  // Ctor Parameters [CppParam { name: "m_ApiName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Handle", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ApiName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Handle", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr InputUserAccountHandle(::StringW m_ApiName, uint64_t m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

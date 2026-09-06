@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StaticOverridableSpriteColor.hpp"
+// IWYU pragma private; include "GlobalNamespace/StaticOverridableSpriteColor.hpp"
 #include "GlobalNamespace/zzzz__ColorType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticOverridableSpriteColor_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\PlayerConnection\PlayerEditorConnectionEvents.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/PlayerConnection/PlayerEditorConnectionEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,13 +81,13 @@ protected:
   constexpr PlayerEditorConnectionEvents_MessageEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEvent const&) = delete;
+  PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10654 };
@@ -116,13 +116,13 @@ protected:
   constexpr PlayerEditorConnectionEvents_ConnectionChangeEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_ConnectionChangeEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_ConnectionChangeEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_ConnectionChangeEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_ConnectionChangeEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEvent const&) = delete;
+  PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10655 };
@@ -187,17 +187,18 @@ protected:
   constexpr PlayerEditorConnectionEvents_MessageTypeSubscribers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageTypeSubscribers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageTypeSubscribers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageTypeSubscribers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageTypeSubscribers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribers const&) = delete;
+  PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10656 };
 
+  /// [SerializeField]
   /// @brief Field m_messageTypeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_messageTypeId;
 
@@ -307,26 +308,29 @@ protected:
   constexpr PlayerEditorConnectionEvents();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerEditorConnectionEvents(PlayerEditorConnectionEvents&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerEditorConnectionEvents(PlayerEditorConnectionEvents const&) = delete;
+  PlayerEditorConnectionEvents(PlayerEditorConnectionEventsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10657 };
 
+  /// [SerializeField]
   /// @brief Field m_MessageTypeSubscribers, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* ___m_MessageTypeSubscribers;
 
   /// @brief Field m_SubscriberLookup, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* ___m_SubscriberLookup;
 
+  /// [SerializeField]
   /// @brief Field connectionEvent, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* ___connectionEvent;
 
+  /// [SerializeField]
   /// @brief Field disconnectionEvent, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* ___disconnectionEvent;
 

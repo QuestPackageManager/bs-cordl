@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\SubsystemsAnalyticBase.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/SubsystemsAnalyticBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class SubsystemsAnalyticBase;
 // Write type traits
 MARK_REF_T(::UnityEngine::Analytics::SubsystemsAnalyticBase*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::SubsystemsAnalyticBase*, "UnityEngine.Analytics", "SubsystemsAnalyticBase");
+// [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEngine::Analytics {
 // Is value type: false
@@ -40,13 +42,13 @@ protected:
   constexpr SubsystemsAnalyticBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubsystemsAnalyticBase(SubsystemsAnalyticBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubsystemsAnalyticBase(SubsystemsAnalyticBase const&) = delete;
+  SubsystemsAnalyticBase(SubsystemsAnalyticBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22990 };

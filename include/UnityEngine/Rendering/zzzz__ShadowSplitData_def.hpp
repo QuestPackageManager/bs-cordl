@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShadowSplitData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShadowSplitData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,8 @@ MARK_VAL_T(::UnityEngine::Rendering::ShadowSplitData);
 MARK_VAL_T(::UnityEngine::Rendering::ShadowSplitData__m_CullingPlanes_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ShadowSplitData, "UnityEngine.Rendering", "ShadowSplitData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ShadowSplitData__m_CullingPlanes_e__FixedBuffer, "UnityEngine.Rendering", "ShadowSplitData/<m_CullingPlanes>e__FixedBuffer");
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -48,7 +50,7 @@ public:
   // @brief default ctor
   constexpr ShadowSplitData__m_CullingPlanes_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ShadowSplitData__m_CullingPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -72,6 +74,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ShadowSplitData__m_CullingPlane
 static_assert(sizeof(::UnityEngine::Rendering::ShadowSplitData__m_CullingPlanes_e__FixedBuffer) == 0xa0, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Matrix4x4, UnityEngine.Rendering.ShadowSplitData::<m_CullingPlanes>e__FixedBuffer, UnityEngine.Vector4
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -125,10 +128,11 @@ public:
   // @brief default ctor
   constexpr ShadowSplitData();
 
-  // Ctor Parameters [CppParam { name: "m_CullingPlaneCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CullingPlanes", ty:
-  // "::UnityEngine::Rendering::ShadowSplitData__m_CullingPlanes_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "m_CullingSphere", ty: "::UnityEngine::Vector4", modifiers: "",
-  // def_value: None }, CppParam { name: "m_ShadowCascadeBlendCullingFactor", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_CullingNearPlane", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_CullingMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_CullingPlaneCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CullingPlanes", ty:
+  // "::UnityEngine::Rendering::ShadowSplitData__m_CullingPlanes_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CullingSphere", ty: "::UnityEngine::Vector4",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ShadowCascadeBlendCullingFactor", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_CullingNearPlane", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CullingMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ShadowSplitData(int32_t m_CullingPlaneCount, ::UnityEngine::Rendering::ShadowSplitData__m_CullingPlanes_e__FixedBuffer m_CullingPlanes, ::UnityEngine::Vector4 m_CullingSphere,
                             float_t m_ShadowCascadeBlendCullingFactor, float_t m_CullingNearPlane, ::UnityEngine::Matrix4x4 m_CullingMatrix) noexcept;
 
@@ -144,6 +148,7 @@ public:
   /// @brief Field m_CullingPlaneCount, offset: 0x0, size: 0x4, def value: None
   int32_t m_CullingPlaneCount;
 
+  /// [FixedBuffer(typeof(System.Byte), 160)]
   /// @brief Field m_CullingPlanes, offset: 0x4, size: 0xa0, def value: None
   ::UnityEngine::Rendering::ShadowSplitData__m_CullingPlanes_e__FixedBuffer m_CullingPlanes;
 

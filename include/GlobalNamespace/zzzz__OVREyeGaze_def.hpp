@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVREyeGaze.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVREyeGaze.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
   // @brief default ctor
   constexpr OVREyeGaze_EyeId();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVREyeGaze_EyeId(int32_t value__) noexcept;
 
   /// @brief Field Left value: I32(0)
@@ -129,7 +129,7 @@ public:
   // @brief default ctor
   constexpr OVREyeGaze_EyeTrackingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVREyeGaze_EyeTrackingMode(int32_t value__) noexcept;
 
   /// @brief Field HeadSpace value: I32(0)
@@ -158,6 +158,8 @@ static_assert(offsetof(::GlobalNamespace::OVREyeGaze_EyeTrackingMode, value__) =
 static_assert(sizeof(::GlobalNamespace::OVREyeGaze_EyeTrackingMode) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/move-eye-tracking/")]
+// [Feature((Meta.XR.Util.Feature)2)]
 // Dependencies OVREyeGaze::EyeId, OVREyeGaze::EyeTrackingMode, OVRPermissionsRequester::Permission, OVRPlugin::EyeGazesState, UnityEngine.MonoBehaviour, UnityEngine.Quaternion
 namespace GlobalNamespace {
 // Is value type: false
@@ -312,6 +314,7 @@ public:
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Confidence, addr 0x5df8268, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Confidence();
 
@@ -320,6 +323,7 @@ public:
 
   static inline void setStaticF__trackingInstanceCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Confidence, addr 0x5df8270, size 0x8, virtual false, abstract: false, final false
   inline void set_Confidence(float_t value);
 
@@ -329,13 +333,13 @@ protected:
   constexpr OVREyeGaze();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVREyeGaze", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVREyeGaze", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVREyeGaze(OVREyeGaze&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVREyeGaze", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVREyeGaze", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVREyeGaze(OVREyeGaze const&) = delete;
+  OVREyeGaze(OVREyeGazeconst&) = delete;
 
   /// @brief Field EyeTrackingPermission value: I32(2)
   static ::GlobalNamespace::OVRPermissionsRequester_Permission const EyeTrackingPermission;
@@ -346,9 +350,11 @@ public:
   /// @brief Field Eye, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVREyeGaze_EyeId ___Eye;
 
+  /// [CompilerGenerated]
   /// @brief Field <Confidence>k__BackingField, offset: 0x24, size: 0x4, def value: None
   float_t ____Confidence_k__BackingField;
 
+  /// [Range(0, 1)]
   /// @brief Field ConfidenceThreshold, offset: 0x28, size: 0x4, def value: None
   float_t ___ConfidenceThreshold;
 
@@ -361,9 +367,14 @@ public:
   /// @brief Field _currentEyeGazesState, offset: 0x30, size: 0x10, def value: None
   ::GlobalNamespace::OVRPlugin_EyeGazesState ____currentEyeGazesState;
 
+  /// [Tooltip("Reference frame for eye. Reference frame should be set in the forward direction of the eye. It is there to calculate the initial offset of the eye GameObject. If it\'s null, then world
+  /// reference frame will be used.")]
   /// @brief Field ReferenceFrame, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___ReferenceFrame;
 
+  /// [Tooltip("HeadSpace: Tracking mode will convert the eye pose from tracking space to local space which is relative to the VR camera rig. For example, we can use this setting to correctly show the
+  /// eye movement of a character which is facing in another direction than the source.\nWorldSpace: Tracking mode will convert the eye pose from tracking space to world space.\nTrackingSpace: Track
+  /// eye is relative to OVRCameraRig. This is raw pose information from VR tracking space.")]
   /// @brief Field TrackingMode, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::OVREyeGaze_EyeTrackingMode ___TrackingMode;
 

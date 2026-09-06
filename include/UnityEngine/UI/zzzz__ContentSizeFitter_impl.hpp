@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\ContentSizeFitter.hpp"
+// IWYU pragma private; include "UnityEngine/UI/ContentSizeFitter.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_impl.hpp"
 #include "UnityEngine/UI/zzzz__ContentSizeFitter_def.hpp"
@@ -7,7 +7,7 @@
 #include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutSelfController_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode::ContentSizeFitter_FitMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

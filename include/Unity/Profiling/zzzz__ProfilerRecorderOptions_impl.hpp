@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerRecorderOptions.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerRecorderOptions.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorderOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::ProfilerRecorderOptions::ProfilerRecorderOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeAsset.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__LazyLoadReference_1_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -167,6 +168,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry, "
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeAsset_UsingEntry, "UnityEngine.UIElements", "VisualTreeAsset/UsingEntry");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry, "UnityEngine.UIElements", "VisualTreeAsset/UxmlObjectEntry");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass81_0, "UnityEngine.UIElements", "VisualTreeAsset/<>c__DisplayClass81_0");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -188,8 +190,8 @@ public:
   // @brief default ctor
   constexpr VisualTreeAsset_UsingEntry();
 
-  // Ctor Parameters [CppParam { name: "alias", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "asset",
-  // ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "alias", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "asset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None, comment: None }]
   constexpr VisualTreeAsset_UsingEntry(::StringW alias, ::StringW path, ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> asset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -198,12 +200,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [SerializeField]
   /// @brief Field alias, offset: 0x0, size: 0x8, def value: None
   ::StringW alias;
 
+  /// [SerializeField]
   /// @brief Field path, offset: 0x8, size: 0x8, def value: None
   ::StringW path;
 
+  /// [SerializeField]
   /// @brief Field asset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> asset;
 
@@ -247,13 +252,13 @@ protected:
   constexpr VisualTreeAsset_UsingEntryComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset_UsingEntryComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset_UsingEntryComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeAsset_UsingEntryComparer(VisualTreeAsset_UsingEntryComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset_UsingEntryComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset_UsingEntryComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset_UsingEntryComparer(VisualTreeAsset_UsingEntryComparer const&) = delete;
+  VisualTreeAsset_UsingEntryComparer(VisualTreeAsset_UsingEntryComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5200 };
@@ -275,7 +280,8 @@ public:
   // @brief default ctor
   constexpr VisualTreeAsset_SlotDefinition();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "insertionPointId", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "insertionPointId", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr VisualTreeAsset_SlotDefinition(::StringW name, int32_t insertionPointId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -284,9 +290,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
   ::StringW name;
 
+  /// [SerializeField]
   /// @brief Field insertionPointId, offset: 0x8, size: 0x4, def value: None
   int32_t insertionPointId;
 
@@ -300,6 +308,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeAsset_SlotDefinition
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeAsset_SlotDefinition) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -311,7 +320,8 @@ public:
   // @brief default ctor
   constexpr VisualTreeAsset_SlotUsageEntry();
 
-  // Ctor Parameters [CppParam { name: "slotName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assetId", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "slotName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "assetId", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr VisualTreeAsset_SlotUsageEntry(::StringW slotName, int32_t assetId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -320,9 +330,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field slotName, offset: 0x0, size: 0x8, def value: None
   ::StringW slotName;
 
+  /// [SerializeField]
   /// @brief Field assetId, offset: 0x8, size: 0x4, def value: None
   int32_t assetId;
 
@@ -336,6 +348,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -356,8 +369,8 @@ public:
   // @brief default ctor
   constexpr VisualTreeAsset_UxmlObjectEntry();
 
-  // Ctor Parameters [CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uxmlObjectAssets", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uxmlObjectAssets", ty:
+  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>*", modifiers: "", def_value: None, comment: None }]
   constexpr VisualTreeAsset_UxmlObjectEntry(int32_t parentId, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>* uxmlObjectAssets) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -366,9 +379,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field parentId, offset: 0x0, size: 0x4, def value: None
   int32_t parentId;
 
+  /// [SerializeField]
   /// @brief Field uxmlObjectAssets, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>* uxmlObjectAssets;
 
@@ -411,9 +426,9 @@ public:
   // @brief default ctor
   constexpr VisualTreeAsset_AssetEntry();
 
-  // Ctor Parameters [CppParam { name: "m_Path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_TypeFullName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "m_AssetReference", ty: "::UnityEngine::LazyLoadReference_1<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: None }, CppParam { name: "m_InstanceID", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_CachedType", ty: "::System::Type*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_TypeFullName", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_AssetReference", ty: "::UnityEngine::LazyLoadReference_1<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_InstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CachedType", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }]
   constexpr VisualTreeAsset_AssetEntry(::StringW m_Path, ::StringW m_TypeFullName, ::UnityEngine::LazyLoadReference_1<::UnityW<::UnityEngine::Object>> m_AssetReference, int32_t m_InstanceID,
                                        ::System::Type* m_CachedType) noexcept;
 
@@ -423,15 +438,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [SerializeField]
   /// @brief Field m_Path, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Path;
 
+  /// [SerializeField]
   /// @brief Field m_TypeFullName, offset: 0x8, size: 0x8, def value: None
   ::StringW m_TypeFullName;
 
+  /// [SerializeField]
   /// @brief Field m_AssetReference, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::LazyLoadReference_1<::UnityW<::UnityEngine::Object>> m_AssetReference;
 
+  /// [SerializeField]
   /// @brief Field m_InstanceID, offset: 0x14, size: 0x4, def value: None
   int32_t m_InstanceID;
 
@@ -454,6 +473,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeAsset_AssetEntry, m_
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeAsset_AssetEntry) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -484,13 +504,13 @@ protected:
   constexpr VisualTreeAsset___c__DisplayClass76_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset___c__DisplayClass76_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset___c__DisplayClass76_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeAsset___c__DisplayClass76_0(VisualTreeAsset___c__DisplayClass76_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset___c__DisplayClass76_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset___c__DisplayClass76_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset___c__DisplayClass76_0(VisualTreeAsset___c__DisplayClass76_0 const&) = delete;
+  VisualTreeAsset___c__DisplayClass76_0(VisualTreeAsset___c__DisplayClass76_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5205 };
@@ -506,6 +526,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeAsset___c__DisplayCl
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass76_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -517,7 +538,7 @@ public:
   // @brief default ctor
   constexpr VisualTreeAsset___c__DisplayClass81_0();
 
-  // Ctor Parameters [CppParam { name: "asset", ty: "::UnityEngine::UIElements::VisualElementAsset*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "asset", ty: "::UnityEngine::UIElements::VisualElementAsset*", modifiers: "", def_value: None, comment: None }]
   constexpr VisualTreeAsset___c__DisplayClass81_0(::UnityEngine::UIElements::VisualElementAsset* asset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -537,6 +558,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeAsset___c__DisplayCl
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass81_0) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -604,23 +626,30 @@ public:
   /// @brief Method MoveNext, addr 0x6cc7f40, size 0x620, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__31* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StyleSheet>.GetEnumerator, addr 0x6cc8680, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StyleSheet__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.StyleSheet>.get_Current, addr 0x6cc8638, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::UIElements::StyleSheet> System_Collections_Generic_IEnumerator_UnityEngine_UIElements_StyleSheet__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6cc8718, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6cc8640, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6cc8678, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6cc7dac, size 0x194, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -705,6 +734,7 @@ public:
   /// @brief Method <>m__Finally3, addr 0x6cc85a8, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally3();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6cc3e30, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -731,13 +761,13 @@ protected:
   constexpr VisualTreeAsset__get_stylesheets_d__31();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_stylesheets_d__31", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_stylesheets_d__31", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeAsset__get_stylesheets_d__31(VisualTreeAsset__get_stylesheets_d__31&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_stylesheets_d__31", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_stylesheets_d__31", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset__get_stylesheets_d__31(VisualTreeAsset__get_stylesheets_d__31 const&) = delete;
+  VisualTreeAsset__get_stylesheets_d__31(VisualTreeAsset__get_stylesheets_d__31const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5207 };
@@ -808,6 +838,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeAsset__get_styleshee
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__31) == 0xa0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object, UnityEngine.UIElements.VisualTreeAsset::UsingEntry
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -864,24 +895,31 @@ public:
   /// @brief Method MoveNext, addr 0x6cc8788, size 0x4e4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__27* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualTreeAsset>.GetEnumerator, addr 0x6cc8cfc, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*
   System_Collections_Generic_IEnumerable_UnityEngine_UIElements_VisualTreeAsset__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.VisualTreeAsset>.get_Current, addr 0x6cc8cb4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> System_Collections_Generic_IEnumerator_UnityEngine_UIElements_VisualTreeAsset__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6cc8d94, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6cc8cbc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6cc8cf4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6cc871c, size 0x6c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -936,6 +974,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6cc8c6c, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6cc3da0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -962,13 +1001,13 @@ protected:
   constexpr VisualTreeAsset__get_templateDependencies_d__27();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_templateDependencies_d__27", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_templateDependencies_d__27", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeAsset__get_templateDependencies_d__27(VisualTreeAsset__get_templateDependencies_d__27&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_templateDependencies_d__27", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_templateDependencies_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset__get_templateDependencies_d__27(VisualTreeAsset__get_templateDependencies_d__27 const&) = delete;
+  VisualTreeAsset__get_templateDependencies_d__27(VisualTreeAsset__get_templateDependencies_d__27const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5208 };
@@ -1019,7 +1058,8 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeAsset__get_templateD
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__27) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.ScriptableObject
+// [HelpURL("UIE-VisualTree-landing")]
+// Dependencies UnityEngine.Object, UnityEngine.ScriptableObject
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.VisualTreeAsset
@@ -1060,6 +1100,7 @@ public:
 
   __declspec(property(get = get_importedWithWarnings, put = set_importedWithWarnings)) bool importedWithWarnings;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_importerWithUpdatedUrls, put = set_importerWithUpdatedUrls)) bool importerWithUpdatedUrls;
 
   /// @brief Field inlineSheet, offset 0x28, size 0x8
@@ -1131,10 +1172,12 @@ public:
 
   __declspec(property(get = get_visualElementAssets)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* visualElementAssets;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method AddUxmlObject, addr 0x6cc46b0, size 0x40c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlObjectAsset* AddUxmlObject(::UnityEngine::UIElements::UxmlAsset* parent, ::StringW fieldUxmlName, ::StringW fullTypeName,
                                                                    ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method AssetEntryExists, addr 0x6cc5430, size 0x174, virtual false, abstract: false, final false
   inline bool AssetEntryExists(::StringW path, ::System::Type* type);
 
@@ -1165,6 +1208,7 @@ public:
   /// @brief Method CloneTree, addr 0x6cc5f5c, size 0x1ec, virtual false, abstract: false, final false
   inline void CloneTree(::UnityEngine::UIElements::VisualElement* target, ::by_ref<int32_t> firstElementIndex, ::by_ref<int32_t> elementAddedCount);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method CollectUxmlObjectAssets, addr 0x6cc4e74, size 0x298, virtual false, abstract: false, final false
   inline void CollectUxmlObjectAssets(::UnityEngine::UIElements::UxmlAsset* parent, ::StringW fieldName,
                                       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>* foundEntries);
@@ -1172,24 +1216,31 @@ public:
   /// @brief Method CompareForOrder, addr 0x6cc753c, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t CompareForOrder(::UnityEngine::UIElements::VisualElementAsset* a, ::UnityEngine::UIElements::VisualElementAsset* b);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method Create, addr 0x6cc6e98, size 0x5dc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::VisualElementAsset* asset, ::UnityEngine::UIElements::CreationContext ctx);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetAsset, addr 0x6cc00a0, size 0x178, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetAsset(::StringW path, ::System::Type* type);
 
   /// @brief Method GetAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetAsset(::StringW path);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  inline T GetAsset(::StringW path);
 
   /// @brief Method GetAssetType, addr 0x6cbff74, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Type* GetAssetType(::StringW path);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetNextChildSerialNumber, addr 0x6cc3bb4, size 0x174, virtual false, abstract: false, final false
   inline int32_t GetNextChildSerialNumber();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetNextUxmlAssetId, addr 0x6cc4abc, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetNextUxmlAssetId(int32_t parentId);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetUxmlObjectEntry, addr 0x6cc4598, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry GetUxmlObjectEntry(int32_t id);
 
@@ -1197,7 +1248,9 @@ public:
   inline ::UnityEngine::UIElements::IBaseUxmlObjectFactory* GetUxmlObjectFactory(::UnityEngine::UIElements::UxmlObjectAsset* uxmlObjectAsset);
 
   /// @brief Method GetUxmlObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Collections::Generic::List_1<T>* GetUxmlObjects(::UnityEngine::UIElements::IUxmlAttributes* asset, ::UnityEngine::UIElements::CreationContext cc);
+  template <typename T>
+    requires(::cordl_internals::default_constructor_constraint<T>)
+  inline ::System::Collections::Generic::List_1<T>* GetUxmlObjects(::UnityEngine::UIElements::IUxmlAttributes* asset, ::UnityEngine::UIElements::CreationContext cc);
 
   /// @brief Method Instantiate, addr 0x6cc5ce4, size 0x21c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TemplateContainer* Instantiate();
@@ -1207,36 +1260,44 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualTreeAsset* New_ctor();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method RegisterAssetEntry, addr 0x6cc5634, size 0xf0, virtual false, abstract: false, final false
   inline void RegisterAssetEntry(::StringW path, ::System::Type* type, ::UnityEngine::Object* asset);
 
   /// @brief Method RegisterUxmlObject, addr 0x6cc433c, size 0x25c, virtual false, abstract: false, final false
   inline void RegisterUxmlObject(::UnityEngine::UIElements::UxmlObjectAsset* uxmlObjectAsset);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method RemoveElementAndDependencies, addr 0x6cc3e70, size 0x84, virtual false, abstract: false, final false
   inline void RemoveElementAndDependencies(::UnityEngine::UIElements::VisualElementAsset* asset);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method RemoveUxmlObject, addr 0x6cc4c44, size 0x230, virtual false, abstract: false, final false
   inline void RemoveUxmlObject(int32_t id, bool onlyIfIsField);
 
   /// @brief Method RemoveUxmlObjectEntryDependencies, addr 0x6cc3ef4, size 0x448, virtual false, abstract: false, final false
   inline void RemoveUxmlObjectEntryDependencies(int32_t parentId);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ResolveTemplate, addr 0x6cbc840, size 0x174, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ResolveTemplate(::StringW templateName);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method SetUxmlObjectAssets, addr 0x6cc510c, size 0x324, virtual false, abstract: false, final false
   inline void SetUxmlObjectAssets(::UnityEngine::UIElements::UxmlAsset* parent, ::StringW fieldName, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>* entries);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method TransferAssetEntries, addr 0x6cc57d8, size 0xb8, virtual false, abstract: false, final false
   inline void TransferAssetEntries(::UnityEngine::UIElements::VisualTreeAsset* otherVta);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method TryGetSlotInsertionPoint, addr 0x6cc7474, size 0xc4, virtual false, abstract: false, final false
   inline bool TryGetSlotInsertionPoint(int32_t insertionPointId, ::by_ref<::StringW> slotName);
 
   /// @brief Method TryGetUsingEntry, addr 0x6cc7568, size 0x154, virtual false, abstract: false, final false
   inline bool TryGetUsingEntry(::StringW templateName, ::by_ref<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry> entry);
 
+  /// [CompilerGenerated]
   /// @brief Method <Create>g__CreateError|81_0, addr 0x6cc76c8, size 0x1a8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* _Create_g__CreateError_81_0(::by_ref<::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass81_0> _cordl_fixed_empty_name_whitespace);
 
@@ -1329,6 +1390,7 @@ public:
 
   static inline ::System::Collections::Generic::List_1<int32_t>* getStaticF_s_VeaIdsPath();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_contentContainerId, addr 0x6cc5cd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contentContainerId();
 
@@ -1347,24 +1409,31 @@ public:
   /// @brief Method get_slots, addr 0x6cc5ccc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotDefinition>* get_slots();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UIElements.VisualTreeAsset::<get_stylesheets>d__31))]
   /// @brief Method get_stylesheets, addr 0x6cc3dc0, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_templateAssets, addr 0x6cc3e58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* get_templateAssets();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UIElements.VisualTreeAsset::<get_templateDependencies>d__27))]
   /// @brief Method get_templateDependencies, addr 0x6cc3d30, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* get_templateDependencies();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_usings, addr 0x6cc3d28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry>* get_usings();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_uxmlObjectEntries, addr 0x6cc3e60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry>* get_uxmlObjectEntries();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_uxmlObjectIds, addr 0x6cc3e68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* get_uxmlObjectIds();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_visualElementAssets, addr 0x6cc3e50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* get_visualElementAssets();
 
@@ -1397,53 +1466,67 @@ protected:
   constexpr VisualTreeAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeAsset(VisualTreeAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset(VisualTreeAsset const&) = delete;
+  VisualTreeAsset(VisualTreeAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5209 };
 
+  /// [SerializeField]
   /// @brief Field m_ImportedWithErrors, offset: 0x18, size: 0x1, def value: None
   bool ___m_ImportedWithErrors;
 
+  /// [SerializeField]
   /// @brief Field m_HasUpdatedUrls, offset: 0x19, size: 0x1, def value: None
   bool ___m_HasUpdatedUrls;
 
+  /// [SerializeField]
   /// @brief Field m_ImportedWithWarnings, offset: 0x1a, size: 0x1, def value: None
   bool ___m_ImportedWithWarnings;
 
+  /// [SerializeField]
   /// @brief Field m_Usings, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry>* ___m_Usings;
 
+  /// [SerializeField]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field inlineSheet, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::StyleSheet> ___inlineSheet;
 
+  /// [SerializeField]
   /// @brief Field m_VisualElementAssets, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* ___m_VisualElementAssets;
 
+  /// [SerializeField]
   /// @brief Field m_TemplateAssets, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* ___m_TemplateAssets;
 
+  /// [SerializeField]
   /// @brief Field m_UxmlObjectEntries, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry>* ___m_UxmlObjectEntries;
 
+  /// [SerializeField]
   /// @brief Field m_UxmlObjectIds, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___m_UxmlObjectIds;
 
+  /// [SerializeField]
   /// @brief Field m_AssetEntries, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_AssetEntry>* ___m_AssetEntries;
 
+  /// [SerializeField]
   /// @brief Field m_Slots, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotDefinition>* ___m_Slots;
 
+  /// [SerializeField]
   /// @brief Field m_ContentContainerId, offset: 0x60, size: 0x4, def value: None
   int32_t ___m_ContentContainerId;
 
+  /// [SerializeField]
   /// @brief Field m_ContentHash, offset: 0x64, size: 0x4, def value: None
   int32_t ___m_ContentHash;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ocsp\ResponseData.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/ResponseData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -164,13 +164,13 @@ protected:
   constexpr ResponseData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResponseData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResponseData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResponseData(ResponseData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResponseData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResponseData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResponseData(ResponseData const&) = delete;
+  ResponseData(ResponseDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 218 };

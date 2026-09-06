@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\IMethodCallMessage.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class IMethodCallMessage;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Messaging::IMethodCallMessage*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Messaging::IMethodCallMessage*, "System.Runtime.Remoting.Messaging", "IMethodCallMessage");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
@@ -36,9 +37,9 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMethodCallMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMethodCallMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMethodCallMessage(IMethodCallMessage const&) = delete;
+  IMethodCallMessage(IMethodCallMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3187 };

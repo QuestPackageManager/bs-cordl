@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CutoutEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/CutoutEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class CutoutEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CutoutEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CutoutEffect*, "", "CutoutEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/CutoutEffect")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -117,23 +118,27 @@ protected:
   constexpr CutoutEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CutoutEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CutoutEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CutoutEffect(CutoutEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CutoutEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CutoutEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CutoutEffect(CutoutEffect const&) = delete;
+  CutoutEffect(CutoutEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5760 };
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _useRandomCutoutOffset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____useRandomCutoutOffset;
 
+  /// [SerializeField]
   /// @brief Field _cutoutOffset, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____cutoutOffset;
 

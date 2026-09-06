@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\ForwardLights.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/ForwardLights.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
@@ -117,8 +117,8 @@ inline ::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams U
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "lightCookieManager", ty: "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "forwardPlus", ty:
-// "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "lightCookieManager", ty: "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "forwardPlus", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams::ForwardLights_InitParams(::UnityEngine::Rendering::Universal::LightCookieManager* lightCookieManager,
                                                                                                             bool forwardPlus) noexcept {
   this->lightCookieManager = lightCookieManager;

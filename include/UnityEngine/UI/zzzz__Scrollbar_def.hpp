@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Scrollbar.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Scrollbar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,7 +136,7 @@ public:
   // @brief default ctor
   constexpr Scrollbar_Direction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Scrollbar_Direction(int32_t value__) noexcept;
 
   /// @brief Field BottomToTop value: I32(2)
@@ -186,13 +186,13 @@ protected:
   constexpr Scrollbar_ScrollEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar_ScrollEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar_ScrollEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scrollbar_ScrollEvent(Scrollbar_ScrollEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar_ScrollEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar_ScrollEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scrollbar_ScrollEvent(Scrollbar_ScrollEvent const&) = delete;
+  Scrollbar_ScrollEvent(Scrollbar_ScrollEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17479 };
@@ -232,7 +232,7 @@ public:
   // @brief default ctor
   constexpr Scrollbar_Axis();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Scrollbar_Axis(int32_t value__) noexcept;
 
   /// @brief Field Horizontal value: I32(0)
@@ -258,6 +258,7 @@ static_assert(offsetof(::UnityEngine::UI::Scrollbar_Axis, value__) == 0x0, "Offs
 static_assert(sizeof(::UnityEngine::UI::Scrollbar_Axis) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
@@ -296,17 +297,22 @@ public:
   /// @brief Method MoveNext, addr 0x6e05e8c, size 0x110, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UI::Scrollbar__ClickRepeat_d__59* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6e05f9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e05fa4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e05fdc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e05e88, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -340,6 +346,7 @@ public:
 
   constexpr void __cordl_internal_set_screenPosition(::UnityEngine::Vector2 value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e055bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -358,13 +365,13 @@ protected:
   constexpr Scrollbar__ClickRepeat_d__59();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar__ClickRepeat_d__59", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar__ClickRepeat_d__59", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scrollbar__ClickRepeat_d__59(Scrollbar__ClickRepeat_d__59&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar__ClickRepeat_d__59", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar__ClickRepeat_d__59", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scrollbar__ClickRepeat_d__59(Scrollbar__ClickRepeat_d__59 const&) = delete;
+  Scrollbar__ClickRepeat_d__59(Scrollbar__ClickRepeat_d__59const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17481 };
@@ -400,6 +407,9 @@ static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59, ___camer
 static_assert(sizeof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("UI/Scrollbar", 36)]
+// [ExecuteAlways]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.UI.Scrollbar::Direction, UnityEngine.UI.Selectable, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
@@ -487,6 +497,7 @@ public:
   /// @brief Method ClickRepeat, addr 0x6e0557c, size 0x40, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ClickRepeat(::UnityEngine::EventSystems::PointerEventData* eventData);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UI.Scrollbar::<ClickRepeat>d__59))]
   /// @brief Method ClickRepeat, addr 0x6e05504, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ClickRepeat(::UnityEngine::Vector2 screenPosition, ::UnityEngine::Camera* camera);
 
@@ -714,32 +725,42 @@ protected:
   constexpr Scrollbar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scrollbar(Scrollbar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scrollbar(Scrollbar const&) = delete;
+  Scrollbar(Scrollbarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17482 };
 
+  /// [SerializeField]
   /// @brief Field m_HandleRect, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_HandleRect;
 
+  /// [SerializeField]
   /// @brief Field m_Direction, offset: 0x108, size: 0x4, def value: None
   ::UnityEngine::UI::Scrollbar_Direction ___m_Direction;
 
+  /// [Range(0, 1)]
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x10c, size: 0x4, def value: None
   float_t ___m_Value;
 
+  /// [Range(0, 1)]
+  /// [SerializeField]
   /// @brief Field m_Size, offset: 0x110, size: 0x4, def value: None
   float_t ___m_Size;
 
+  /// [Range(0, 11)]
+  /// [SerializeField]
   /// @brief Field m_NumberOfSteps, offset: 0x114, size: 0x4, def value: None
   int32_t ___m_NumberOfSteps;
 
+  /// [Space(6)]
+  /// [SerializeField]
   /// @brief Field m_OnValueChanged, offset: 0x118, size: 0x8, def value: None
   ::UnityEngine::UI::Scrollbar_ScrollEvent* ___m_OnValueChanged;
 

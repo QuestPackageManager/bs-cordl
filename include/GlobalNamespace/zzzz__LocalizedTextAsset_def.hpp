@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalizedTextAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalizedTextAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ protected:
   constexpr LocalizedTextAsset_TextInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset_TextInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset_TextInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedTextAsset_TextInfo(LocalizedTextAsset_TextInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset_TextInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset_TextInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextAsset_TextInfo(LocalizedTextAsset_TextInfo const&) = delete;
+  LocalizedTextAsset_TextInfo(LocalizedTextAsset_TextInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6548 };
@@ -109,6 +109,7 @@ static_assert(offsetof(::GlobalNamespace::LocalizedTextAsset_TextInfo, ___locali
 static_assert(sizeof(::GlobalNamespace::LocalizedTextAsset_TextInfo) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -144,13 +145,13 @@ protected:
   constexpr LocalizedTextAsset___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedTextAsset___c(LocalizedTextAsset___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextAsset___c(LocalizedTextAsset___c const&) = delete;
+  LocalizedTextAsset___c(LocalizedTextAsset___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6549 };
@@ -161,6 +162,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::LocalizedTextAsset___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BGLib.Polyglot.LocalizationLanguage, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -191,13 +193,13 @@ protected:
   constexpr LocalizedTextAsset___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedTextAsset___c__DisplayClass6_0(LocalizedTextAsset___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextAsset___c__DisplayClass6_0(LocalizedTextAsset___c__DisplayClass6_0 const&) = delete;
+  LocalizedTextAsset___c__DisplayClass6_0(LocalizedTextAsset___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6550 };
@@ -265,20 +267,22 @@ protected:
   constexpr LocalizedTextAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedTextAsset(LocalizedTextAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextAsset(LocalizedTextAsset const&) = delete;
+  LocalizedTextAsset(LocalizedTextAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6551 };
 
+  /// [SerializeField]
   /// @brief Field _textInfos, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*> ____textInfos;
 
+  /// [SerializeField]
   /// @brief Field _substituteLocalizationKey, offset: 0x20, size: 0x8, def value: None
   ::StringW ____substituteLocalizationKey;
 

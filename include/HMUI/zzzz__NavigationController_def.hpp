@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\NavigationController.hpp"
+// IWYU pragma private; include "HMUI/NavigationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +93,7 @@ public:
   // @brief default ctor
   constexpr NavigationController_Orientation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NavigationController_Orientation(int32_t value__) noexcept;
 
   /// @brief Field Horizontal value: I32(0)
@@ -149,7 +149,7 @@ public:
   // @brief default ctor
   constexpr NavigationController_Alignment();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NavigationController_Alignment(int32_t value__) noexcept;
 
   /// @brief Field Beginning value: I32(0)
@@ -178,6 +178,7 @@ static_assert(offsetof(::HMUI::NavigationController_Alignment, value__) == 0x0, 
 static_assert(sizeof(::HMUI::NavigationController_Alignment) == 0x4, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -236,13 +237,13 @@ protected:
   constexpr NavigationController___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationController___c__DisplayClass10_0(NavigationController___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationController___c__DisplayClass10_0(NavigationController___c__DisplayClass10_0 const&) = delete;
+  NavigationController___c__DisplayClass10_0(NavigationController___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20956 };
@@ -273,6 +274,7 @@ static_assert(offsetof(::HMUI::NavigationController___c__DisplayClass10_0, ___mo
 static_assert(sizeof(::HMUI::NavigationController___c__DisplayClass10_0) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -330,13 +332,13 @@ protected:
   constexpr NavigationController___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationController___c__DisplayClass8_0(NavigationController___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationController___c__DisplayClass8_0(NavigationController___c__DisplayClass8_0 const&) = delete;
+  NavigationController___c__DisplayClass8_0(NavigationController___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20957 };
@@ -460,29 +462,34 @@ protected:
   constexpr NavigationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationController(NavigationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationController(NavigationController const&) = delete;
+  NavigationController(NavigationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20958 };
 
+  /// [SerializeField]
   /// @brief Field _orientation, offset: 0x88, size: 0x4, def value: None
   ::HMUI::NavigationController_Orientation ____orientation;
 
+  /// [SerializeField]
   /// @brief Field _reversedStacking, offset: 0x8c, size: 0x1, def value: None
   bool ____reversedStacking;
 
+  /// [SerializeField]
   /// @brief Field _alignment, offset: 0x90, size: 0x4, def value: None
   ::HMUI::NavigationController_Alignment ____alignment;
 
+  /// [SerializeField]
   /// @brief Field _edgeSize, offset: 0x94, size: 0x4, def value: None
   float_t ____edgeSize;
 
+  /// [SerializeField]
   /// @brief Field _viewControllersSeparator, offset: 0x98, size: 0x4, def value: None
   float_t ____viewControllersSeparator;
 

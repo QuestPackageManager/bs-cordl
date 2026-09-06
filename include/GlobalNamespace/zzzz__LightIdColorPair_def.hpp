@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightIdColorPair.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightIdColorPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,13 +97,13 @@ protected:
   constexpr LightIdColorPair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightIdColorPair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightIdColorPair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightIdColorPair(LightIdColorPair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightIdColorPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightIdColorPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightIdColorPair(LightIdColorPair const&) = delete;
+  LightIdColorPair(LightIdColorPairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23705 };
@@ -111,15 +111,19 @@ public:
   /// @brief Field lightId, offset: 0x10, size: 0x4, def value: None
   int32_t ___lightId;
 
+  /// [SerializeField]
   /// @brief Field _useScriptableObjectColor, offset: 0x14, size: 0x1, def value: None
   bool ____useScriptableObjectColor;
 
+  /// [DrawIf("_useScriptableObjectColor", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field color, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
 
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field baseColor, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ___baseColor;
 
+  /// [Range(0, 1)]
   /// @brief Field intensity, offset: 0x30, size: 0x4, def value: None
   float_t ___intensity;
 

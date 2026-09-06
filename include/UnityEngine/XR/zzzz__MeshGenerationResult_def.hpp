@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\MeshGenerationResult.hpp"
+// IWYU pragma private; include "UnityEngine/XR/MeshGenerationResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,8 @@ struct MeshGenerationResult;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::MeshGenerationResult);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
+// [NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.Quaternion, UnityEngine.Vector3, UnityEngine.XR.MeshGenerationStatus, UnityEngine.XR.MeshId, UnityEngine.XR.MeshVertexAttributes
 namespace UnityEngine::XR {
 // Is value type: true
@@ -80,27 +82,43 @@ public:
   /// @brief Method GetHashCode, addr 0x6e39c20, size 0x1c4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_Attributes, addr 0x6e399f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshVertexAttributes get_Attributes();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Mesh, addr 0x6e399dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_MeshCollider, addr 0x6e399e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshCollider> get_MeshCollider();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_MeshId, addr 0x6e399d0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshId get_MeshId();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Position, addr 0x6e399fc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Rotation, addr 0x6e39a08, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_Rotation();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_Scale, addr 0x6e39a14, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Scale();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Status, addr 0x6e399ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::MeshGenerationStatus get_Status();
 
@@ -111,12 +129,13 @@ public:
   // @brief default ctor
   constexpr MeshGenerationResult();
 
-  // Ctor Parameters [CppParam { name: "_MeshId_k__BackingField", ty: "::UnityEngine::XR::MeshId", modifiers: "", def_value: None }, CppParam { name: "_Mesh_k__BackingField", ty:
-  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "_MeshCollider_k__BackingField", ty: "::UnityW<::UnityEngine::MeshCollider>", modifiers: "", def_value: None },
-  // CppParam { name: "_Status_k__BackingField", ty: "::UnityEngine::XR::MeshGenerationStatus", modifiers: "", def_value: None }, CppParam { name: "_Attributes_k__BackingField", ty:
-  // "::UnityEngine::XR::MeshVertexAttributes", modifiers: "", def_value: None }, CppParam { name: "_Timestamp_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_Position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_Rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "",
-  // def_value: None }, CppParam { name: "_Scale_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_MeshId_k__BackingField", ty: "::UnityEngine::XR::MeshId", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Mesh_k__BackingField", ty:
+  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_MeshCollider_k__BackingField", ty: "::UnityW<::UnityEngine::MeshCollider>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_Status_k__BackingField", ty: "::UnityEngine::XR::MeshGenerationStatus", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_Attributes_k__BackingField", ty: "::UnityEngine::XR::MeshVertexAttributes", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Timestamp_k__BackingField", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_Position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_Rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Scale_k__BackingField", ty: "::UnityEngine::Vector3", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr MeshGenerationResult(::UnityEngine::XR::MeshId _MeshId_k__BackingField, ::UnityW<::UnityEngine::Mesh> _Mesh_k__BackingField,
                                  ::UnityW<::UnityEngine::MeshCollider> _MeshCollider_k__BackingField, ::UnityEngine::XR::MeshGenerationStatus _Status_k__BackingField,
                                  ::UnityEngine::XR::MeshVertexAttributes _Attributes_k__BackingField, uint64_t _Timestamp_k__BackingField, ::UnityEngine::Vector3 _Position_k__BackingField,
@@ -128,30 +147,48 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <MeshId>k__BackingField, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::XR::MeshId _MeshId_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Mesh>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> _Mesh_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <MeshCollider>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshCollider> _MeshCollider_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Status>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::XR::MeshGenerationStatus _Status_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Attributes>k__BackingField, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::XR::MeshVertexAttributes _Attributes_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Timestamp>k__BackingField, offset: 0x28, size: 0x8, def value: None
   uint64_t _Timestamp_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Position>k__BackingField, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 _Position_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Rotation>k__BackingField, offset: 0x3c, size: 0x10, def value: None
   ::UnityEngine::Quaternion _Rotation_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Scale>k__BackingField, offset: 0x4c, size: 0xc, def value: None
   ::UnityEngine::Vector3 _Scale_k__BackingField;
 

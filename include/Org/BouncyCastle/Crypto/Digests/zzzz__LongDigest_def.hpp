@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\LongDigest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/LongDigest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,13 +93,13 @@ public:
   /// @brief Method Ch, addr 0x36f0cfc, size 0x10, virtual false, abstract: false, final false
   static inline uint64_t Ch(uint64_t x, uint64_t y, uint64_t z);
 
-  /// @brief Method Copy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
   /// @brief Method CopyIn, addr 0x36f0394, size 0x9c, virtual false, abstract: false, final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::LongDigest* t);
 
-  /// @brief Method DoFinal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
   /// @brief Method Finish, addr 0x36f065c, size 0x68, virtual false, abstract: false, final false
@@ -108,7 +108,7 @@ public:
   /// @brief Method GetByteLength, addr 0x36f0d30, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetDigestSize();
 
   /// @brief Method Maj, addr 0x36f0d1c, size 0x14, virtual false, abstract: false, final false
@@ -130,7 +130,7 @@ public:
   /// @brief Method Reset, addr 0x36f0c60, size 0x6c, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* t);
 
   /// @brief Method Sigma0, addr 0x36f0cdc, size 0x10, virtual false, abstract: false, final false
@@ -246,7 +246,7 @@ public:
 
   static inline ::ArrayW<uint64_t> getStaticF_K();
 
-  /// @brief Method get_AlgorithmName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
@@ -263,13 +263,13 @@ protected:
   constexpr LongDigest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LongDigest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongDigest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LongDigest(LongDigest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LongDigest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LongDigest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongDigest(LongDigest const&) = delete;
+  LongDigest(LongDigestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 756 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IntegerTime\DiscreteTime.hpp"
+// IWYU pragma private; include "Unity/IntegerTime/DiscreteTime.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -371,7 +371,7 @@ constexpr Unity::IntegerTime::DiscreteTime::operator ::System::IComparable_1<::U
 constexpr ::System::IComparable_1<::Unity::IntegerTime::DiscreteTime>* Unity::IntegerTime::DiscreteTime::i___System__IComparable_1___Unity__IntegerTime__DiscreteTime_() {
   return static_cast<::System::IComparable_1<::Unity::IntegerTime::DiscreteTime>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Value", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Value", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::IntegerTime::DiscreteTime::DiscreteTime(int64_t Value) noexcept {
   this->Value = Value;
 }

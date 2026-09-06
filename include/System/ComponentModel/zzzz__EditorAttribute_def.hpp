@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\EditorAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/EditorAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class EditorAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::EditorAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::EditorAttribute*, "System.ComponentModel", "EditorAttribute");
+// [AttributeUsage((System.AttributeTargets)32767, AllowMultiple = true, Inherited = true)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -68,9 +69,11 @@ public:
   /// @brief Method .ctor, addr 0x63c0638, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW baseTypeName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_EditorBaseTypeName, addr 0x63c06c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorBaseTypeName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_EditorTypeName, addr 0x63c06c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorTypeName();
 
@@ -83,13 +86,13 @@ protected:
   constexpr EditorAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EditorAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditorAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditorAttribute(EditorAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EditorAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditorAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EditorAttribute(EditorAttribute const&) = delete;
+  EditorAttribute(EditorAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11261 };
@@ -97,9 +100,11 @@ public:
   /// @brief Field _typeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____typeId;
 
+  /// [CompilerGenerated]
   /// @brief Field <EditorBaseTypeName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____EditorBaseTypeName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <EditorTypeName>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____EditorTypeName_k__BackingField;
 

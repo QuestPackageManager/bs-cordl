@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnsafeQueueDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/UnsafeQueueDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct UnsafeQueueDisposeJob;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::UnsafeQueueDisposeJob);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::UnsafeQueueDisposeJob, "Unity.Collections", "UnsafeQueueDisposeJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.UnsafeQueueDispose
 namespace Unity::Collections {
 // Is value type: true
@@ -36,7 +37,7 @@ public:
   // @brief default ctor
   constexpr UnsafeQueueDisposeJob();
 
-  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::UnsafeQueueDispose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::UnsafeQueueDispose", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeQueueDisposeJob(::Unity::Collections::UnsafeQueueDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

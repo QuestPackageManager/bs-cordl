@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\DummyGraphQLClient.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/DummyGraphQLClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -12,16 +13,26 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DummyGraphQLClient)
 namespace BeatSaber::GraphQL {
-template <typename TDomainModel, typename TViewModel> struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__10_2;
+template <typename TDomainModel, typename TViewModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+           ::cordl_internals::reference_type_constraint<TViewModel>)
+struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__10_2;
 }
 namespace BeatSaber::GraphQL {
-template <typename TDomainModel> struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__9_1;
+template <typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
+struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__9_1;
 }
 namespace BeatSaber::GraphQL {
-template <typename TDomainModel> struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__11_1;
+template <typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
+struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__11_1;
 }
 namespace BeatSaber::GraphQL {
-template <typename TDomainModel, typename TViewModel> struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2;
+template <typename TDomainModel, typename TViewModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+           ::cordl_internals::reference_type_constraint<TViewModel>)
+struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2;
 }
 namespace OculusStudios::GraphQL::ClientInterface {
 class IGraphQLClientEvents;
@@ -55,16 +66,26 @@ namespace BeatSaber::GraphQL {
 class DummyGraphQLClient;
 }
 namespace BeatSaber::GraphQL {
-template <typename TDomainModel, typename TViewModel> struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__10_2;
+template <typename TDomainModel, typename TViewModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+           ::cordl_internals::reference_type_constraint<TViewModel>)
+struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__10_2;
 }
 namespace BeatSaber::GraphQL {
-template <typename TDomainModel> struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__9_1;
+template <typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
+struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__9_1;
 }
 namespace BeatSaber::GraphQL {
-template <typename TDomainModel> struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__11_1;
+template <typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
+struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__11_1;
 }
 namespace BeatSaber::GraphQL {
-template <typename TDomainModel, typename TViewModel> struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2;
+template <typename TDomainModel, typename TViewModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+           ::cordl_internals::reference_type_constraint<TViewModel>)
+struct DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2;
 }
 // Write type traits
 MARK_REF_T(::BeatSaber::GraphQL::DummyGraphQLClient*);
@@ -81,10 +102,13 @@ DEFINE_IL2CPP_GEN_CLASS(::BeatSaber::GraphQL::DummyGraphQLClient__OculusStudios_
                         "DummyGraphQLClient/<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Query>d__11`1");
 DEFINE_IL2CPP_GEN_CLASS(::BeatSaber::GraphQL::DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2, "BeatSaber.GraphQL",
                         "DummyGraphQLClient/<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Query>d__12`2");
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
+// [CompilerGenerated]
+// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::GraphQL {
 // cpp template
 template <typename TDomainModel, typename TViewModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+           ::cordl_internals::reference_type_constraint<TViewModel>)
 // Is value type: true
 // CS Name: BeatSaber.GraphQL.DummyGraphQLClient/<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Mutate>d__10`2<TDomainModel,TViewModel>
 struct CORDL_TYPE DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__10_2 {
@@ -96,6 +120,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -106,9 +131,9 @@ public:
   // @brief default ctor
   constexpr DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__10_2();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TViewModel>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TViewModel>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__10_2(int32_t __1__state,
                                                                                                     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TViewModel> __t__builder,
                                                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -132,10 +157,12 @@ public:
 };
 // Non member Declarations
 } // namespace BeatSaber::GraphQL
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
+// [CompilerGenerated]
+// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::GraphQL {
 // cpp template
 template <typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 // Is value type: true
 // CS Name: BeatSaber.GraphQL.DummyGraphQLClient/<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Mutate>d__9`1<TDomainModel>
 struct CORDL_TYPE DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__9_1 {
@@ -147,6 +174,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -157,9 +185,9 @@ public:
   // @brief default ctor
   constexpr DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__9_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TDomainModel>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TDomainModel>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__9_1(int32_t __1__state,
                                                                                                    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TDomainModel> __t__builder,
                                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -183,10 +211,12 @@ public:
 };
 // Non member Declarations
 } // namespace BeatSaber::GraphQL
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
+// [CompilerGenerated]
+// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::GraphQL {
 // cpp template
 template <typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 // Is value type: true
 // CS Name: BeatSaber.GraphQL.DummyGraphQLClient/<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Query>d__11`1<TDomainModel>
 struct CORDL_TYPE DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__11_1 {
@@ -198,6 +228,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -208,9 +239,9 @@ public:
   // @brief default ctor
   constexpr DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__11_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TDomainModel>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TDomainModel>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__11_1(int32_t __1__state,
                                                                                                    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TDomainModel> __t__builder,
                                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -234,10 +265,13 @@ public:
 };
 // Non member Declarations
 } // namespace BeatSaber::GraphQL
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
+// [CompilerGenerated]
+// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::GraphQL {
 // cpp template
 template <typename TDomainModel, typename TViewModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+           ::cordl_internals::reference_type_constraint<TViewModel>)
 // Is value type: true
 // CS Name: BeatSaber.GraphQL.DummyGraphQLClient/<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Query>d__12`2<TDomainModel,TViewModel>
 struct CORDL_TYPE DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2 {
@@ -249,6 +283,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -259,9 +294,9 @@ public:
   // @brief default ctor
   constexpr DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TViewModel>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TViewModel>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2(int32_t __1__state,
                                                                                                    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TViewModel> __t__builder,
                                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -285,7 +320,7 @@ public:
 };
 // Non member Declarations
 } // namespace BeatSaber::GraphQL
-// Dependencies System.Object
+// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
 namespace BeatSaber::GraphQL {
 // Is value type: false
 // CS Name: BeatSaber.GraphQL.DummyGraphQLClient
@@ -293,18 +328,24 @@ class CORDL_TYPE DummyGraphQLClient : public ::System::Object {
 public:
   // Declarations
   template <typename TDomainModel, typename TViewModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+             ::cordl_internals::reference_type_constraint<TViewModel>)
   using _OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__10_2 =
       ::BeatSaber::GraphQL::DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__10_2<TDomainModel, TViewModel>;
 
   template <typename TDomainModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
   using _OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__9_1 =
       ::BeatSaber::GraphQL::DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate_d__9_1<TDomainModel>;
 
   template <typename TDomainModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
   using _OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__11_1 =
       ::BeatSaber::GraphQL::DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__11_1<TDomainModel>;
 
   template <typename TDomainModel, typename TViewModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+             ::cordl_internals::reference_type_constraint<TViewModel>)
   using _OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2 =
       ::BeatSaber::GraphQL::DummyGraphQLClient__OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query_d__12_2<TDomainModel, TViewModel>;
 
@@ -317,20 +358,30 @@ public:
 
   static inline ::BeatSaber::GraphQL::DummyGraphQLClient* New_ctor();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.DummyGraphQLClient::<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Mutate>d__9`1<TDomainModel>))]
   /// @brief Method OculusStudios.GraphQL.ClientInterface.IGraphQLClient.Mutate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TDomainModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
   inline ::System::Threading::Tasks::Task_1<TDomainModel>* OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.DummyGraphQLClient::<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Mutate>d__10`2<TDomainModel, TViewModel>))]
   /// @brief Method OculusStudios.GraphQL.ClientInterface.IGraphQLClient.Mutate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TDomainModel, typename TViewModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+             ::cordl_internals::reference_type_constraint<TViewModel>)
   inline ::System::Threading::Tasks::Task_1<TViewModel>* OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.DummyGraphQLClient::<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Query>d__11`1<TDomainModel>))]
   /// @brief Method OculusStudios.GraphQL.ClientInterface.IGraphQLClient.Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TDomainModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
   inline ::System::Threading::Tasks::Task_1<TDomainModel>* OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.DummyGraphQLClient::<OculusStudios-GraphQL-ClientInterface-IGraphQLClient-Query>d__12`2<TDomainModel, TViewModel>))]
   /// @brief Method OculusStudios.GraphQL.ClientInterface.IGraphQLClient.Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TDomainModel, typename TViewModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+             ::cordl_internals::reference_type_constraint<TViewModel>)
   inline ::System::Threading::Tasks::Task_1<TViewModel>* OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request);
 
   /// @brief Method OnApplicationResumed, addr 0x32950ac, size 0x4, virtual true, abstract: false, final true
@@ -369,13 +420,13 @@ protected:
   constexpr DummyGraphQLClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DummyGraphQLClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DummyGraphQLClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DummyGraphQLClient(DummyGraphQLClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DummyGraphQLClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DummyGraphQLClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DummyGraphQLClient(DummyGraphQLClient const&) = delete;
+  DummyGraphQLClient(DummyGraphQLClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22657 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\MeshGenerationStatus.hpp"
+// IWYU pragma private; include "UnityEngine/XR/MeshGenerationStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct MeshGenerationStatus;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::MeshGenerationStatus);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::MeshGenerationStatus, "UnityEngine.XR", "MeshGenerationStatus");
+// [NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -45,7 +47,7 @@ public:
   // @brief default ctor
   constexpr MeshGenerationStatus();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MeshGenerationStatus(int32_t value__) noexcept;
 
   /// @brief Field Canceled value: I32(3)

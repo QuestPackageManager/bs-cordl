@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeScratchBufferPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeScratchBufferPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ MARK_REF_T(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool*, "UnityEngine.Rendering", "ProbeVolumeScratchBufferPool");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*, "UnityEngine.Rendering", "ProbeVolumeScratchBufferPool/ScratchBufferPool");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c*, "UnityEngine.Rendering", "ProbeVolumeScratchBufferPool/<>c");
+// [DebuggerDisplay("ChunkCount = {chunkCount} ElementCount = {pool.Count}")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -108,13 +109,13 @@ protected:
   constexpr ProbeVolumeScratchBufferPool_ScratchBufferPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool_ScratchBufferPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool_ScratchBufferPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeScratchBufferPool_ScratchBufferPool(ProbeVolumeScratchBufferPool_ScratchBufferPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool_ScratchBufferPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool_ScratchBufferPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeScratchBufferPool_ScratchBufferPool(ProbeVolumeScratchBufferPool_ScratchBufferPool const&) = delete;
+  ProbeVolumeScratchBufferPool_ScratchBufferPool(ProbeVolumeScratchBufferPool_ScratchBufferPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12150 };
@@ -135,6 +136,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_Sc
 static_assert(sizeof(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -180,13 +182,13 @@ protected:
   constexpr ProbeVolumeScratchBufferPool___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeScratchBufferPool___c(ProbeVolumeScratchBufferPool___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeScratchBufferPool___c(ProbeVolumeScratchBufferPool___c const&) = delete;
+  ProbeVolumeScratchBufferPool___c(ProbeVolumeScratchBufferPool___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12151 };
@@ -363,17 +365,21 @@ public:
   /// @brief Method get_allocatedMemory, addr 0x6797e80, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_allocatedMemory();
 
+  /// [CompilerGenerated]
   /// @brief Method get_chunkSize, addr 0x6797e60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunkSize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxChunkCount, addr 0x6797e70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxChunkCount();
 
   static inline void setStaticF_s_ChunkCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_chunkSize, addr 0x6797e68, size 0x8, virtual false, abstract: false, final false
   inline void set_chunkSize(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_maxChunkCount, addr 0x6797e78, size 0x8, virtual false, abstract: false, final false
   inline void set_maxChunkCount(int32_t value);
 
@@ -383,20 +389,22 @@ protected:
   constexpr ProbeVolumeScratchBufferPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeScratchBufferPool(ProbeVolumeScratchBufferPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeScratchBufferPool(ProbeVolumeScratchBufferPool const&) = delete;
+  ProbeVolumeScratchBufferPool(ProbeVolumeScratchBufferPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12152 };
 
+  /// [CompilerGenerated]
   /// @brief Field <chunkSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____chunkSize_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <maxChunkCount>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____maxChunkCount_k__BackingField;
 

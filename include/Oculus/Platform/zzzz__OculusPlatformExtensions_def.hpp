@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\OculusPlatformExtensions.hpp"
+// IWYU pragma private; include "Oculus/Platform/OculusPlatformExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,6 +80,7 @@ DEFINE_IL2CPP_CLASS(::Oculus::Platform::OculusPlatformExtensions*, "Oculus.Platf
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Oculus::Platform::OculusPlatformExtensions___c__DisplayClass0_0_1, "Oculus.Platform", "OculusPlatformExtensions/<>c__DisplayClass0_0`1");
 DEFINE_IL2CPP_GEN_CLASS(::Oculus::Platform::OculusPlatformExtensions__WaitAsync_d__0_1, "Oculus.Platform", "OculusPlatformExtensions/<WaitAsync>d__0`1");
 DEFINE_IL2CPP_GEN_CLASS(::Oculus::Platform::OculusPlatformExtensions__WaitWithTimeoutAsync_d__1_1, "Oculus.Platform", "OculusPlatformExtensions/<WaitWithTimeoutAsync>d__1`1");
+// [CompilerGenerated]
 // Dependencies System.Object, System.Threading.CancellationToken
 namespace Oculus::Platform {
 // cpp template
@@ -124,13 +125,13 @@ protected:
   constexpr OculusPlatformExtensions___c__DisplayClass0_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions___c__DisplayClass0_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions___c__DisplayClass0_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformExtensions___c__DisplayClass0_0_1(OculusPlatformExtensions___c__DisplayClass0_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions___c__DisplayClass0_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions___c__DisplayClass0_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformExtensions___c__DisplayClass0_0_1(OculusPlatformExtensions___c__DisplayClass0_0_1 const&) = delete;
+  OculusPlatformExtensions___c__DisplayClass0_0_1(OculusPlatformExtensions___c__DisplayClass0_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18004 };
@@ -145,6 +146,7 @@ public:
 };
 // Non member Declarations
 } // namespace Oculus::Platform
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Runtime.CompilerServices.ValueTaskAwaiter,
 // System.Threading.CancellationToken, System.Threading.CancellationTokenRegistration
 namespace Oculus::Platform {
@@ -161,6 +163,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -171,13 +174,14 @@ public:
   // @brief default ctor
   constexpr OculusPlatformExtensions__WaitAsync_d__0_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<T>*>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "oculusRequest", ty: "::Oculus::Platform::Request_1<T>*", modifiers: "", def_value: None }, CppParam {
-  // name: "__7__wrap1", ty: "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty: "::System::Object*", modifiers: "", def_value:
-  // None }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty: "::Oculus::Platform::Message_1<T>*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<T>*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ValueTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<T>*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "oculusRequest", ty: "::Oculus::Platform::Request_1<T>*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__7__wrap1", ty: "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty:
+  // "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap4",
+  // ty: "::Oculus::Platform::Message_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<T>*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ValueTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr OculusPlatformExtensions__WaitAsync_d__0_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<T>*> __t__builder,
                                                        ::System::Threading::CancellationToken cancellationToken, ::Oculus::Platform::Request_1<T>* oculusRequest,
                                                        ::System::Threading::CancellationTokenRegistration __7__wrap1, ::System::Object* __7__wrap2, int32_t __7__wrap3,
@@ -224,6 +228,7 @@ public:
 };
 // Non member Declarations
 } // namespace Oculus::Platform
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken, System.TimeSpan
 namespace Oculus::Platform {
 // cpp template
@@ -239,6 +244,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -249,12 +255,13 @@ public:
   // @brief default ctor
   constexpr OculusPlatformExtensions__WaitWithTimeoutAsync_d__1_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<T>*>", modifiers: "", def_value: None }, CppParam { name: "timeout", ty: "::System::TimeSpan",
-  // modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "oculusRequest", ty:
-  // "::Oculus::Platform::Request_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_timeoutTokenSource_5__2", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value:
-  // None }, CppParam { name: "_combinedTokenSource_5__3", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<T>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<T>*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "timeout", ty:
+  // "::System::TimeSpan", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "oculusRequest", ty: "::Oculus::Platform::Request_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeoutTokenSource_5__2", ty:
+  // "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_combinedTokenSource_5__3", ty:
+  // "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<T>*>", modifiers: "", def_value: None, comment: None }]
   constexpr OculusPlatformExtensions__WaitWithTimeoutAsync_d__1_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<T>*> __t__builder,
                                                                   ::System::TimeSpan timeout, ::System::Threading::CancellationToken cancellationToken, ::Oculus::Platform::Request_1<T>* oculusRequest,
                                                                   ::System::Threading::CancellationTokenSource* _timeoutTokenSource_5__2,
@@ -295,6 +302,7 @@ public:
 };
 // Non member Declarations
 } // namespace Oculus::Platform
+// [Extension]
 // Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
@@ -308,17 +316,23 @@ public:
 
   template <typename T> using __c__DisplayClass0_0_1 = ::Oculus::Platform::OculusPlatformExtensions___c__DisplayClass0_0_1<T>;
 
+  /// [Extension]
   /// @brief Method GetAwaiter, addr 0x5ded50c, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> GetAwaiter(::Oculus::Platform::Request* oculusRequest);
 
+  /// [Extension]
   /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<T>*> GetAwaiter(::Oculus::Platform::Request_1<T>* oculusRequest);
 
+  /// [AsyncStateMachine(typeof(Oculus.Platform.OculusPlatformExtensions::<WaitAsync>d__0`1<T>))]
+  /// [Extension]
   /// @brief Method WaitAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<T>*>* WaitAsync(::Oculus::Platform::Request_1<T>* oculusRequest,
                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Oculus.Platform.OculusPlatformExtensions::<WaitWithTimeoutAsync>d__1`1<T>))]
+  /// [Extension]
   /// @brief Method WaitWithTimeoutAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<T>*>* WaitWithTimeoutAsync(::Oculus::Platform::Request_1<T>* oculusRequest, ::System::TimeSpan timeout,
@@ -330,13 +344,13 @@ protected:
   constexpr OculusPlatformExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformExtensions(OculusPlatformExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformExtensions(OculusPlatformExtensions const&) = delete;
+  OculusPlatformExtensions(OculusPlatformExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18007 };

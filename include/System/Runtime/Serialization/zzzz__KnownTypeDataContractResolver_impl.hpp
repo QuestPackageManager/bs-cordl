@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\KnownTypeDataContractResolver.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/KnownTypeDataContractResolver.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContractResolver_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__KnownTypeDataContractResolver_def.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContractResolver_def.hpp"

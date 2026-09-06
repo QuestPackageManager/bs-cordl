@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimatorControllerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimatorControllerPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,13 @@ struct AnimatorControllerPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimatorControllerPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimatorControllerPlayable, "UnityEngine.Animations", "AnimatorControllerPlayable");
+// [RequiredByNativeCode]
+// [StaticAccessor("AnimatorControllerPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Modules/Animation/ScriptBindings/Animator.bindings.h")]
+// [NativeHeader("Modules/Animation/RuntimeAnimatorController.h")]
+// [NativeHeader("Modules/Animation/Director/AnimatorControllerPlayable.h")]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimatorControllerPlayable.bindings.h")]
+// [NativeHeader("Modules/Animation/AnimatorInfo.h")]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -64,7 +71,7 @@ public:
   // @brief default ctor
   constexpr AnimatorControllerPlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AnimatorControllerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

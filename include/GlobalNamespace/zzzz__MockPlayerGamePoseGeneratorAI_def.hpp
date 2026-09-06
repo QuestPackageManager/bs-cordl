@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlayerGamePoseGeneratorAI.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlayerGamePoseGeneratorAI.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -406,9 +406,11 @@ public:
   /// @brief Method get_songTime, addr 0x5a83328, size 0xcc, virtual false, abstract: false, final false
   inline float_t get_songTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_suppressLevelFinishedRpc, addr 0x5a833f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_suppressLevelFinishedRpc();
 
+  /// [CompilerGenerated]
   /// @brief Method set_suppressLevelFinishedRpc, addr 0x5a833fc, size 0x8, virtual false, abstract: false, final false
   inline void set_suppressLevelFinishedRpc(bool value);
 
@@ -418,13 +420,13 @@ protected:
   constexpr MockPlayerGamePoseGeneratorAI();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerGamePoseGeneratorAI", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerGamePoseGeneratorAI", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlayerGamePoseGeneratorAI(MockPlayerGamePoseGeneratorAI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerGamePoseGeneratorAI", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerGamePoseGeneratorAI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayerGamePoseGeneratorAI(MockPlayerGamePoseGeneratorAI const&) = delete;
+  MockPlayerGamePoseGeneratorAI(MockPlayerGamePoseGeneratorAIconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22231 };
@@ -522,6 +524,7 @@ public:
   /// @brief Field _isInited, offset: 0x116, size: 0x1, def value: None
   bool ____isInited;
 
+  /// [CompilerGenerated]
   /// @brief Field <suppressLevelFinishedRpc>k__BackingField, offset: 0x117, size: 0x1, def value: None
   bool ____suppressLevelFinishedRpc_k__BackingField;
 

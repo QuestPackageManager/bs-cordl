@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\AppDownloadProgressResult.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/AppDownloadProgressResult.hpp"
 #include "Oculus/Platform/zzzz__AppStatus_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__AppDownloadProgressResult_def.hpp"

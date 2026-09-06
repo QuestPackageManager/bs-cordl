@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OpenBeatmapLevelDestination.hpp"
+// IWYU pragma private; include "GlobalNamespace/OpenBeatmapLevelDestination.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__OpenBeatmapLevelDestination_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OpenBeatmapLevelDestination._ctor

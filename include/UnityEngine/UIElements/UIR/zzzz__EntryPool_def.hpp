@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryPool.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,9 @@ namespace UnityEngine::UIElements::UIR {
 class Entry;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class ImplicitPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ImplicitPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -35,6 +37,7 @@ MARK_REF_T(::UnityEngine::UIElements::UIR::EntryPool*);
 MARK_REF_T(::UnityEngine::UIElements::UIR::EntryPool___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::EntryPool*, "UnityEngine.UIElements.UIR", "EntryPool");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::EntryPool___c*, "UnityEngine.UIElements.UIR", "EntryPool/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
@@ -66,13 +69,13 @@ protected:
   constexpr EntryPool___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EntryPool___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntryPool___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EntryPool___c(EntryPool___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EntryPool___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntryPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EntryPool___c(EntryPool___c const&) = delete;
+  EntryPool___c(EntryPool___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5287 };
@@ -144,13 +147,13 @@ protected:
   constexpr EntryPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EntryPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntryPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EntryPool(EntryPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EntryPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntryPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EntryPool(EntryPool const&) = delete;
+  EntryPool(EntryPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5288 };

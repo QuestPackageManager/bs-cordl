@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\NaccacheSternKeyGenerationParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/NaccacheSternKeyGenerationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ public:
 
   __declspec(property(get = get_CountSmallPrimes)) int32_t CountSmallPrimes;
 
+  /// @brief [Obsolete("Remove: always false")]
   __declspec(property(get = get_IsDebug)) bool IsDebug;
 
   /// @brief Field certainty, offset 0x1c, size 0x4
@@ -38,6 +39,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty,
                                                                                                         int32_t countSmallPrimes);
 
+  /// @brief [Obsolete("Use version without \'debug\' parameter")]
   static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty,
                                                                                                         int32_t countSmallPrimes, bool debug);
 
@@ -56,6 +58,7 @@ public:
   /// @brief Method .ctor, addr 0x3414dd0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes);
 
+  /// [Obsolete("Use version without \'debug\' parameter")]
   /// @brief Method .ctor, addr 0x3414e78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug);
 
@@ -74,13 +77,13 @@ protected:
   constexpr NaccacheSternKeyGenerationParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyGenerationParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyGenerationParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NaccacheSternKeyGenerationParameters(NaccacheSternKeyGenerationParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyGenerationParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyGenerationParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NaccacheSternKeyGenerationParameters(NaccacheSternKeyGenerationParameters const&) = delete;
+  NaccacheSternKeyGenerationParameters(NaccacheSternKeyGenerationParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1068 };

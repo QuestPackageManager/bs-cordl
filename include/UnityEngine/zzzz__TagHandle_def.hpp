@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TagHandle.hpp"
+// IWYU pragma private; include "UnityEngine/TagHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ struct TagHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TagHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TagHandle, "UnityEngine", "TagHandle");
+// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [NativeHeader("Runtime/BaseClasses/TagManager.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -37,7 +39,7 @@ public:
   // @brief default ctor
   constexpr TagHandle();
 
-  // Ctor Parameters [CppParam { name: "_tagIndex", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_tagIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TagHandle(uint32_t _tagIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

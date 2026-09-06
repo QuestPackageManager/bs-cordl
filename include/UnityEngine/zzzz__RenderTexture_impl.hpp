@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RenderTexture.hpp"
+// IWYU pragma private; include "UnityEngine/RenderTexture.hpp"
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -1915,7 +1915,7 @@ inline void UnityEngine::RenderTexture::SetSRGBReadWrite(bool srgb) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderTexture*>(), { "SetSRGBReadWrite", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, srgb);
 }
-inline void UnityEngine::RenderTexture::Internal_Create(::UnityEngine::RenderTexture* rt) {
+inline void UnityEngine::RenderTexture::Internal_Create(/* [Writable] */ ::UnityEngine::RenderTexture* rt) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderTexture*>(), { "Internal_Create", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rt);
@@ -2002,7 +2002,8 @@ inline void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, ::U
                                                                ::i2c::type_of<::UnityEngine::Experimental::Rendering::GraphicsFormat>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, colorFormat, depthStencilFormat);
 }
-inline void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, ::UnityEngine::RenderTextureReadWrite readWrite) {
+inline void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, int32_t depth, /* [DefaultValue("RenderTextureFormat.Default")] */ ::UnityEngine::RenderTextureFormat format,
+                                              /* [DefaultValue("RenderTextureReadWrite.Default")] */ ::UnityEngine::RenderTextureReadWrite readWrite) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderTexture*>(), { ".ctor",
@@ -2138,10 +2139,13 @@ inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTem
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>>(nullptr, ___internal_method, width, height, depthStencilFormat, colorFormat, antiAliasing, memorylessMode, vrUsage,
                                                                                      useDynamicScale, shadowSamplingMode);
 }
-inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                                                       ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing,
-                                                                                       ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage,
-                                                                                       bool useDynamicScale) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, /* [DefaultValue("0")] */ int32_t depthBuffer,
+                                                                                       /* [DefaultValue("RenderTextureFormat.Default")] */ ::UnityEngine::RenderTextureFormat format,
+                                                                                       /* [DefaultValue("RenderTextureReadWrite.Default")] */ ::UnityEngine::RenderTextureReadWrite readWrite,
+                                                                                       /* [DefaultValue("1")] */ int32_t antiAliasing,
+                                                                                       /* [DefaultValue("RenderTextureMemoryless.None")] */ ::UnityEngine::RenderTextureMemoryless memorylessMode,
+                                                                                       /* [DefaultValue("VRTextureUsage.None")] */ ::UnityEngine::VRTextureUsage vrUsage,
+                                                                                       /* [DefaultValue("false")] */ bool useDynamicScale) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderTexture*>(),
                                                            { "GetTemporary",
@@ -2429,6 +2433,7 @@ inline void UnityEngine::RenderTexture::set_depth_Injected(::System::IntPtr _uni
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderTexture*>(), { "set_depth_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>());
 }
@@ -2438,34 +2443,43 @@ inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(::Unit
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(::UnityEngine::RenderTexture* textureToCopy) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(textureToCopy));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(width, height, depth, format));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(width, height, depth, format));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                           int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(width, height, depth, format, mipCount));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat,
                                                                           ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat, int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(width, height, colorFormat, depthStencilFormat, mipCount));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat,
                                                                           ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(width, height, colorFormat, depthStencilFormat));
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format,
-                                                                          ::UnityEngine::RenderTextureReadWrite readWrite) {
+inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth,
+                                                                          /* [DefaultValue("RenderTextureFormat.Default")] */ ::UnityEngine::RenderTextureFormat format,
+                                                                          /* [DefaultValue("RenderTextureReadWrite.Default")] */ ::UnityEngine::RenderTextureReadWrite readWrite) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(width, height, depth, format, readWrite));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(width, height, depth, format));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(width, height, depth));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RenderTexture*>(width, height, depth, format, mipCount));
 }

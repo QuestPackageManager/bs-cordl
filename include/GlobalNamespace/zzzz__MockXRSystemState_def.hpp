@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockXRSystemState.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockXRSystemState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
   constexpr operator ::GlobalNamespace::IXRSystemState*() noexcept;
 
   /// @brief Method AddListener, addr 0x59fa688, size 0x4, virtual true, abstract: false, final true
-  inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
+  inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
 
   static inline ::GlobalNamespace::MockXRSystemState* New_ctor();
 
@@ -70,13 +70,13 @@ protected:
   constexpr MockXRSystemState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockXRSystemState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockXRSystemState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockXRSystemState(MockXRSystemState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockXRSystemState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockXRSystemState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockXRSystemState(MockXRSystemState const&) = delete;
+  MockXRSystemState(MockXRSystemStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6297 };

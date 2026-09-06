@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\KeyedHashAlgorithm.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/KeyedHashAlgorithm.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__KeyedHashAlgorithm_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::KeyedHashAlgorithm._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FoveatedRenderingCaps_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MSAASamples_impl.hpp"
@@ -22,7 +22,7 @@
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-// Ctor Parameters [CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Experimental::Rendering::XRSystem___c__DisplayClass44_0::XRSystem___c__DisplayClass44_0(::UnityW<::UnityEngine::Camera> camera) noexcept {
   this->camera = camera;
 }

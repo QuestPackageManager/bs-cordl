@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\StencilMaterial.hpp"
+// IWYU pragma private; include "UnityEngine/UI/StencilMaterial.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -151,13 +151,13 @@ protected:
   constexpr StencilMaterial_MatEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial_MatEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial_MatEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StencilMaterial_MatEntry(StencilMaterial_MatEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial_MatEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial_MatEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StencilMaterial_MatEntry(StencilMaterial_MatEntry const&) = delete;
+  StencilMaterial_MatEntry(StencilMaterial_MatEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17496 };
@@ -230,6 +230,8 @@ public:
   /// @brief Field m_List, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_List, put = setStaticF_m_List)) ::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>* m_List;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("Use Material.Add instead.", true)]
   /// @brief Method Add, addr 0x6e0d0c8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID);
 
@@ -261,13 +263,13 @@ protected:
   constexpr StencilMaterial();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StencilMaterial(StencilMaterial&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StencilMaterial(StencilMaterial const&) = delete;
+  StencilMaterial(StencilMaterialconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17497 };

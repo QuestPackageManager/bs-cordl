@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\CommandStream.hpp"
+// IWYU pragma private; include "System/Net/CommandStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,7 +112,7 @@ public:
   // @brief default ctor
   constexpr CommandStream_PipelineInstruction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CommandStream_PipelineInstruction(int32_t value__) noexcept;
 
   /// @brief Field Abort value: I32(0)
@@ -147,6 +147,7 @@ static_assert(offsetof(::System::Net::CommandStream_PipelineInstruction, value__
 static_assert(sizeof(::System::Net::CommandStream_PipelineInstruction) == 0x4, "Size mismatch!");
 
 } // namespace System::Net
+// [Flags]
 // Dependencies
 namespace System::Net {
 // Is value type: true
@@ -178,7 +179,7 @@ public:
   // @brief default ctor
   constexpr CommandStream_PipelineEntryFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CommandStream_PipelineEntryFlags(int32_t value__) noexcept;
 
   /// @brief Field CreateDataConnection value: I32(4)
@@ -254,13 +255,13 @@ protected:
   constexpr CommandStream_PipelineEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandStream_PipelineEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandStream_PipelineEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandStream_PipelineEntry(CommandStream_PipelineEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandStream_PipelineEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandStream_PipelineEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandStream_PipelineEntry(CommandStream_PipelineEntry const&) = delete;
+  CommandStream_PipelineEntry(CommandStream_PipelineEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11459 };
@@ -510,13 +511,13 @@ protected:
   constexpr CommandStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandStream(CommandStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandStream(CommandStream const&) = delete;
+  CommandStream(CommandStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11460 };

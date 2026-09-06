@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRAnalytics.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRAnalytics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,11 +49,11 @@ public:
   // @brief default ctor
   constexpr OpenXRAnalytics_InitializeEvent();
 
-  // Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "runtime", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "runtime_version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "plugin_version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "api_version", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "available_extensions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "enabled_extensions", ty:
-  // "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "enabled_features", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "failed_features", ty:
-  // "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "runtime", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "runtime_version", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "plugin_version", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "api_version", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "available_extensions", ty: "::ArrayW<::StringW>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "enabled_extensions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "enabled_features", ty:
+  // "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "failed_features", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRAnalytics_InitializeEvent(bool success, ::StringW runtime, ::StringW runtime_version, ::StringW plugin_version, ::StringW api_version, ::ArrayW<::StringW> available_extensions,
                                             ::ArrayW<::StringW> enabled_extensions, ::ArrayW<::StringW> enabled_features, ::ArrayW<::StringW> failed_features) noexcept;
 
@@ -114,6 +114,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::OpenXRAnalytics_InitializeEven
 static_assert(sizeof(::UnityEngine::XR::OpenXR::OpenXRAnalytics_InitializeEvent) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR {
 // Is value type: false
@@ -199,13 +200,13 @@ protected:
   constexpr OpenXRAnalytics___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRAnalytics___c(OpenXRAnalytics___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRAnalytics___c(OpenXRAnalytics___c const&) = delete;
+  OpenXRAnalytics___c(OpenXRAnalytics___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18499 };
@@ -242,13 +243,13 @@ protected:
   constexpr OpenXRAnalytics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRAnalytics(OpenXRAnalytics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRAnalytics(OpenXRAnalytics const&) = delete;
+  OpenXRAnalytics(OpenXRAnalyticsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18500 };

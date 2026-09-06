@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Custom\Sec\SecT163R1Curve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/Sec/SecT163R1Curve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,13 +102,13 @@ protected:
   constexpr SecT163R1Curve_SecT163R1LookupTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecT163R1Curve_SecT163R1LookupTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT163R1Curve_SecT163R1LookupTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecT163R1Curve_SecT163R1LookupTable(SecT163R1Curve_SecT163R1LookupTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecT163R1Curve_SecT163R1LookupTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT163R1Curve_SecT163R1LookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecT163R1Curve_SecT163R1LookupTable(SecT163R1Curve_SecT163R1LookupTable const&) = delete;
+  SecT163R1Curve_SecT163R1LookupTable(SecT163R1Curve_SecT163R1LookupTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1464 };
@@ -229,13 +229,13 @@ protected:
   constexpr SecT163R1Curve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecT163R1Curve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT163R1Curve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecT163R1Curve(SecT163R1Curve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecT163R1Curve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT163R1Curve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecT163R1Curve(SecT163R1Curve const&) = delete;
+  SecT163R1Curve(SecT163R1Curveconst&) = delete;
 
   /// @brief Field SECT163R1_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t SECT163R1_DEFAULT_COORDS{ static_cast<int32_t>(0x6) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Sensor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Sensor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class Sensor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Sensor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Sensor*, "UnityEngine.InputSystem", "Sensor");
+// [InputControlLayout(isGenericTypeOfDevice = true)]
 // Dependencies UnityEngine.InputSystem.InputDevice
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -39,13 +40,13 @@ protected:
   constexpr Sensor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Sensor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sensor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Sensor(Sensor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Sensor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sensor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Sensor(Sensor const&) = delete;
+  Sensor(Sensorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8758 };

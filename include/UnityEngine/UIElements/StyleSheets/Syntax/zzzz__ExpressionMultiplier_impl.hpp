@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Syntax\ExpressionMultiplier.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/ExpressionMultiplier.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionMultiplierType_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionMultiplier_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionMultiplierType_def.hpp"
@@ -85,8 +85,8 @@ inline void UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::
                                                            { "SetType", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType", modifiers: "", def_value: Some("{}") }, CppParam { name: "min", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "min", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::ExpressionMultiplier(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType m_Type, int32_t min,
                                                                                                      int32_t max) noexcept {
   this->m_Type = m_Type;

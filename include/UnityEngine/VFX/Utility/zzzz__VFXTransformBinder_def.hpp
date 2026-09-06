@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXTransformBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXTransformBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class VFXTransformBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXTransformBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXTransformBinder*, "UnityEngine.VFX.Utility", "VFXTransformBinder");
+// [AddComponentMenu("VFX/Property Binders/Transform Binder")]
+// [VFXBinder("Transform/Transform")]
 // Dependencies UnityEngine.VFX.Utility.VFXSpaceableBinder
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -111,17 +113,19 @@ protected:
   constexpr VFXTransformBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTransformBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTransformBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXTransformBinder(VFXTransformBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTransformBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTransformBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTransformBinder(VFXTransformBinder const&) = delete;
+  VFXTransformBinder(VFXTransformBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20009 };
 
+  /// [VFXPropertyBinding(new[] { "UnityEditor.VFX.Transform" })]
+  /// [SerializeField]
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

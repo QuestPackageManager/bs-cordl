@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SegmentedControl.hpp"
+// IWYU pragma private; include "HMUI/SegmentedControl.hpp"
+#include "HMUI/zzzz__SegmentedControlCell_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "HMUI/zzzz__SegmentedControlCell_def.hpp"
@@ -475,7 +476,9 @@ inline void HMUI::SegmentedControl::SelectCellWithNumber(int32_t selectCellNumbe
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SegmentedControl*>(), { "SelectCellWithNumber", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, selectCellNumber);
 }
-template <typename T> inline T HMUI::SegmentedControl::GetReusableCell(::UnityEngine::Object* prefab) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::HMUI::SegmentedControlCell*>)
+inline T HMUI::SegmentedControl::GetReusableCell(::UnityEngine::Object* prefab) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SegmentedControl*>(), { "GetReusableCell", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TreeViewController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TreeViewController.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseTreeViewController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeViewController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeView_def.hpp"

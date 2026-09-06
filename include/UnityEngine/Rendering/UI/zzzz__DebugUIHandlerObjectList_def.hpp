@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerObjectList.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerObjectList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,13 +58,13 @@ protected:
   constexpr DebugUIHandlerObjectList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObjectList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObjectList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerObjectList(DebugUIHandlerObjectList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObjectList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObjectList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerObjectList(DebugUIHandlerObjectList const&) = delete;
+  DebugUIHandlerObjectList(DebugUIHandlerObjectListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12529 };

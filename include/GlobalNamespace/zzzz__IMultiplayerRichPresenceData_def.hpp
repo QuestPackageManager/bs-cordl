@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IMultiplayerRichPresenceData.hpp"
+// IWYU pragma private; include "GlobalNamespace/IMultiplayerRichPresenceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,33 +33,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
-  /// @brief Method get_atMaxPartySize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_atMaxPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_atMaxPartySize();
 
-  /// @brief Method get_canInvite, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_canInvite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_canInvite();
 
-  /// @brief Method get_isJoinable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isJoinable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isJoinable();
 
-  /// @brief Method get_multiplayerSecret, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_multiplayerSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_multiplayerSecret();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
   constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
 
-  /// @brief Method set_atMaxPartySize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_atMaxPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_atMaxPartySize(bool value);
 
-  /// @brief Method set_canInvite, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_canInvite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_canInvite(bool value);
 
-  /// @brief Method set_multiplayerSecret, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_multiplayerSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_multiplayerSecret(::StringW value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerRichPresenceData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerRichPresenceData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMultiplayerRichPresenceData(IMultiplayerRichPresenceData const&) = delete;
+  IMultiplayerRichPresenceData(IMultiplayerRichPresenceDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6643 };

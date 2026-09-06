@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\CanvasScaler.hpp"
+// IWYU pragma private; include "UnityEngine/UI/CanvasScaler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
   // @brief default ctor
   constexpr CanvasScaler_ScaleMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CanvasScaler_ScaleMode(int32_t value__) noexcept;
 
   /// @brief Field ConstantPhysicalSize value: I32(2)
@@ -135,7 +135,7 @@ public:
   // @brief default ctor
   constexpr CanvasScaler_ScreenMatchMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CanvasScaler_ScreenMatchMode(int32_t value__) noexcept;
 
   /// @brief Field Expand value: I32(1)
@@ -196,7 +196,7 @@ public:
   // @brief default ctor
   constexpr CanvasScaler_Unit();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CanvasScaler_Unit(int32_t value__) noexcept;
 
   /// @brief Field Centimeters value: I32(0)
@@ -231,6 +231,10 @@ static_assert(offsetof(::UnityEngine::UI::CanvasScaler_Unit, value__) == 0x0, "O
 static_assert(sizeof(::UnityEngine::UI::CanvasScaler_Unit) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [RequireComponent(typeof(UnityEngine.Canvas))]
+// [ExecuteAlways]
+// [AddComponentMenu("Layout/Canvas Scaler", 101)]
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.EventSystems.UIBehaviour, UnityEngine.UI.CanvasScaler::ScaleMode, UnityEngine.UI.CanvasScaler::ScreenMatchMode, UnityEngine.UI.CanvasScaler::Unit, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
@@ -491,13 +495,13 @@ protected:
   constexpr CanvasScaler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasScaler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasScaler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CanvasScaler(CanvasScaler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasScaler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasScaler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CanvasScaler(CanvasScaler const&) = delete;
+  CanvasScaler(CanvasScalerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17445 };
@@ -505,33 +509,54 @@ public:
   /// @brief Field kLogBase offset 0xffffffff size 0x4
   static constexpr float_t kLogBase{ static_cast<float_t>(2.0f) };
 
+  /// [Tooltip("Determines how UI elements in the Canvas are scaled.")]
+  /// [SerializeField]
   /// @brief Field m_UiScaleMode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::UI::CanvasScaler_ScaleMode ___m_UiScaleMode;
 
+  /// [Tooltip("If a sprite has this \'Pixels Per Unit\' setting, then one pixel in the sprite will cover one unit in the UI.")]
+  /// [SerializeField]
   /// @brief Field m_ReferencePixelsPerUnit, offset: 0x24, size: 0x4, def value: None
   float_t ___m_ReferencePixelsPerUnit;
 
+  /// [Tooltip("Scales all UI elements in the Canvas by this factor.")]
+  /// [SerializeField]
   /// @brief Field m_ScaleFactor, offset: 0x28, size: 0x4, def value: None
   float_t ___m_ScaleFactor;
 
+  /// [Tooltip("The resolution the UI layout is designed for. If the screen resolution is larger, the UI will be scaled up, and if it\'s smaller, the UI will be scaled down. This is done in accordance
+  /// with the Screen Match Mode.")] [SerializeField]
   /// @brief Field m_ReferenceResolution, offset: 0x2c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_ReferenceResolution;
 
+  /// [Tooltip("A mode used to scale the canvas area if the aspect ratio of the current resolution doesn\'t fit the reference resolution.")]
+  /// [SerializeField]
   /// @brief Field m_ScreenMatchMode, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::UI::CanvasScaler_ScreenMatchMode ___m_ScreenMatchMode;
 
+  /// [Tooltip("Determines if the scaling is using the width or height as reference, or a mix in between.")]
+  /// [Range(0, 1)]
+  /// [SerializeField]
   /// @brief Field m_MatchWidthOrHeight, offset: 0x38, size: 0x4, def value: None
   float_t ___m_MatchWidthOrHeight;
 
+  /// [Tooltip("The physical unit to specify positions and sizes in.")]
+  /// [SerializeField]
   /// @brief Field m_PhysicalUnit, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::UI::CanvasScaler_Unit ___m_PhysicalUnit;
 
+  /// [Tooltip("The DPI to assume if the screen DPI is not known.")]
+  /// [SerializeField]
   /// @brief Field m_FallbackScreenDPI, offset: 0x40, size: 0x4, def value: None
   float_t ___m_FallbackScreenDPI;
 
+  /// [Tooltip("The pixels per inch to use for sprites that have a \'Pixels Per Unit\' setting that matches the \'Reference Pixels Per Unit\' setting.")]
+  /// [SerializeField]
   /// @brief Field m_DefaultSpriteDPI, offset: 0x44, size: 0x4, def value: None
   float_t ___m_DefaultSpriteDPI;
 
+  /// [Tooltip("The amount of pixels per unit to use for dynamically created bitmaps in the UI, such as Text.")]
+  /// [SerializeField]
   /// @brief Field m_DynamicPixelsPerUnit, offset: 0x48, size: 0x4, def value: None
   float_t ___m_DynamicPixelsPerUnit;
 
@@ -544,6 +569,7 @@ public:
   /// @brief Field m_PrevReferencePixelsPerUnit, offset: 0x5c, size: 0x4, def value: None
   float_t ___m_PrevReferencePixelsPerUnit;
 
+  /// [SerializeField]
   /// @brief Field m_PresetInfoIsWorld, offset: 0x60, size: 0x1, def value: None
   bool ___m_PresetInfoIsWorld;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServerListDetailTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServerListDetailTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ public:
   /// @brief Method Start, addr 0x5a0185c, size 0xd0, virtual true, abstract: false, final false
   inline void Start();
 
+  /// [CompilerGenerated]
   /// @brief Method <Start>b__5_0, addr 0x5a0198c, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__5_0();
 
@@ -66,9 +67,11 @@ public:
   /// @brief Method .ctor, addr 0x5a0192c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x5a01704, size 0xac, virtual false, abstract: false, final false
   inline void add_joinServerButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x5a017b0, size 0xac, virtual false, abstract: false, final false
   inline void remove_joinServerButtonWasPressedEvent(::System::Action* value);
 
@@ -78,20 +81,22 @@ protected:
   constexpr GameServerListDetailTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerListDetailTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerListDetailTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerListDetailTableCell(GameServerListDetailTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerListDetailTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerListDetailTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerListDetailTableCell(GameServerListDetailTableCell const&) = delete;
+  GameServerListDetailTableCell(GameServerListDetailTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6322 };
 
+  /// [SerializeField]
   /// @brief Field _joinServerButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____joinServerButton;
 
+  /// [CompilerGenerated]
   /// @brief Field joinServerButtonWasPressedEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ___joinServerButtonWasPressedEvent;
 

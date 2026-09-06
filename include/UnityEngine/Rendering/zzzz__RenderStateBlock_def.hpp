@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderStateBlock.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderStateBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,10 +110,10 @@ public:
   // @brief default ctor
   constexpr RenderStateBlock();
 
-  // Ctor Parameters [CppParam { name: "m_BlendState", ty: "::UnityEngine::Rendering::BlendState", modifiers: "", def_value: None }, CppParam { name: "m_RasterState", ty:
-  // "::UnityEngine::Rendering::RasterState", modifiers: "", def_value: None }, CppParam { name: "m_DepthState", ty: "::UnityEngine::Rendering::DepthState", modifiers: "", def_value: None }, CppParam
-  // { name: "m_StencilState", ty: "::UnityEngine::Rendering::StencilState", modifiers: "", def_value: None }, CppParam { name: "m_StencilReference", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_Mask", ty: "::UnityEngine::Rendering::RenderStateMask", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BlendState", ty: "::UnityEngine::Rendering::BlendState", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RasterState", ty:
+  // "::UnityEngine::Rendering::RasterState", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DepthState", ty: "::UnityEngine::Rendering::DepthState", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_StencilState", ty: "::UnityEngine::Rendering::StencilState", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StencilReference", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Mask", ty: "::UnityEngine::Rendering::RenderStateMask", modifiers: "", def_value: None, comment: None }]
   constexpr RenderStateBlock(::UnityEngine::Rendering::BlendState m_BlendState, ::UnityEngine::Rendering::RasterState m_RasterState, ::UnityEngine::Rendering::DepthState m_DepthState,
                              ::UnityEngine::Rendering::StencilState m_StencilState, int32_t m_StencilReference, ::UnityEngine::Rendering::RenderStateMask m_Mask) noexcept;
 

@@ -1,23 +1,27 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OptionalArgument_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OptionalArgument_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RequiredArgument_1_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(OptionalArgument_1)
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class OptionalArgument_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::OptionalArgument_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::OptionalArgument_1, "", "OptionalArgument`1");
-// Dependencies RequiredArgument`1<T>
+// Dependencies RequiredArgument`1<T>, System.IConvertible
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
 // Is value type: false
 // CS Name: OptionalArgument`1<T>
 class CORDL_TYPE OptionalArgument_1 : public ::GlobalNamespace::RequiredArgument_1<T> {
@@ -51,13 +55,13 @@ protected:
   constexpr OptionalArgument_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OptionalArgument_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OptionalArgument_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OptionalArgument_1(OptionalArgument_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OptionalArgument_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OptionalArgument_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OptionalArgument_1(OptionalArgument_1 const&) = delete;
+  OptionalArgument_1(OptionalArgument_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19373 };

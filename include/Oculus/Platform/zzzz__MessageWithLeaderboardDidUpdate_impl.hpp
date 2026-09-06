@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\MessageWithLeaderboardDidUpdate.hpp"
+// IWYU pragma private; include "Oculus/Platform/MessageWithLeaderboardDidUpdate.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLeaderboardDidUpdate_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

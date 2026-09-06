@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\IDtdInfo.hpp"
+// IWYU pragma private; include "System/Xml/IDtdInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,27 +36,27 @@ public:
 
   __declspec(property(get = get_Name)) ::System::Xml::XmlQualifiedName* Name;
 
-  /// @brief Method LookupAttributeList, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LookupAttributeList, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdAttributeListInfo* LookupAttributeList(::StringW prefix, ::StringW localName);
 
-  /// @brief Method LookupEntity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LookupEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdEntityInfo* LookupEntity(::StringW name);
 
-  /// @brief Method get_HasDefaultAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_HasDefaultAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasDefaultAttributes();
 
-  /// @brief Method get_HasNonCDataAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_HasNonCDataAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasNonCDataAttributes();
 
-  /// @brief Method get_InternalDtdSubset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_InternalDtdSubset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InternalDtdSubset();
 
-  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDtdInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDtdInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDtdInfo(IDtdInfo const&) = delete;
+  IDtdInfo(IDtdInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9273 };

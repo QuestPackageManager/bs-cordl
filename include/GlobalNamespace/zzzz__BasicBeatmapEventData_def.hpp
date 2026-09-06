@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BasicBeatmapEventData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BasicBeatmapEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,11 +109,13 @@ public:
   /// @brief Method get_previousSameTypeEventData, addr 0x32596a8, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventData* get_previousSameTypeEventData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_sameTypeIndex, addr 0x32597a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameTypeIndex();
 
   static inline void setStaticF__defaultsForType(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_sameTypeIndex, addr 0x32597a8, size 0x8, virtual false, abstract: false, final false
   inline void set_sameTypeIndex(int32_t value);
 
@@ -123,17 +125,18 @@ protected:
   constexpr BasicBeatmapEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicBeatmapEventData(BasicBeatmapEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicBeatmapEventData(BasicBeatmapEventData const&) = delete;
+  BasicBeatmapEventData(BasicBeatmapEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21234 };
 
+  /// [CompilerGenerated]
   /// @brief Field <sameTypeIndex>k__BackingField, offset: 0x38, size: 0x4, def value: None
   int32_t ____sameTypeIndex_k__BackingField;
 

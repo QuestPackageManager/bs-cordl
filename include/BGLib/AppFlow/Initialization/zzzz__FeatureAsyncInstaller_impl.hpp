@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\FeatureAsyncInstaller.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/FeatureAsyncInstaller.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__FeatureAsyncInstaller_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__IInstallerRegistry_def.hpp"

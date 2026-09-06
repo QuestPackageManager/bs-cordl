@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
 
   static inline ::GlobalNamespace::SongController* New_ctor();
 
-  /// @brief Method PauseSong, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PauseSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ResumeSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResumeSong();
 
   /// @brief Method SendSongDidFinishEvent, addr 0x59f6e80, size 0x1c, virtual false, abstract: false, final false
@@ -42,7 +42,7 @@ public:
   /// @brief Method SendSongDidStartEvent, addr 0x59f6ee0, size 0x1c, virtual false, abstract: false, final false
   inline void SendSongDidStartEvent();
 
-  /// @brief Method StopSong, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StopSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StopSong();
 
   constexpr ::System::Action* const& __cordl_internal_get_songDidFinishEvent() const;
@@ -60,15 +60,19 @@ public:
   /// @brief Method .ctor, addr 0x59f7100, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_songDidFinishEvent, addr 0x59f7284, size 0xac, virtual false, abstract: false, final false
   inline void add_songDidFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_songDidStartEvent, addr 0x59f712c, size 0xac, virtual false, abstract: false, final false
   inline void add_songDidStartEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_songDidFinishEvent, addr 0x59f7330, size 0xac, virtual false, abstract: false, final false
   inline void remove_songDidFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_songDidStartEvent, addr 0x59f71d8, size 0xac, virtual false, abstract: false, final false
   inline void remove_songDidStartEvent(::System::Action* value);
 
@@ -78,20 +82,22 @@ protected:
   constexpr SongController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongController(SongController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongController(SongController const&) = delete;
+  SongController(SongControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6277 };
 
+  /// [CompilerGenerated]
   /// @brief Field songDidStartEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___songDidStartEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field songDidFinishEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___songDidFinishEvent;
 

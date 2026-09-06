@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\KdfDoublePipelineIterationBytesGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/KdfDoublePipelineIterationBytesGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -174,13 +174,13 @@ protected:
   constexpr KdfDoublePipelineIterationBytesGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KdfDoublePipelineIterationBytesGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdfDoublePipelineIterationBytesGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KdfDoublePipelineIterationBytesGenerator(KdfDoublePipelineIterationBytesGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KdfDoublePipelineIterationBytesGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdfDoublePipelineIterationBytesGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KdfDoublePipelineIterationBytesGenerator(KdfDoublePipelineIterationBytesGenerator const&) = delete;
+  KdfDoublePipelineIterationBytesGenerator(KdfDoublePipelineIterationBytesGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 911 };

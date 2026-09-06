@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\MockFeatureFlagService.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/MockFeatureFlagService.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +18,9 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace Zenject {
 class IInitializable;
@@ -82,13 +84,13 @@ protected:
   constexpr MockFeatureFlagService();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockFeatureFlagService", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockFeatureFlagService", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockFeatureFlagService(MockFeatureFlagService&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockFeatureFlagService", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockFeatureFlagService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockFeatureFlagService(MockFeatureFlagService const&) = delete;
+  MockFeatureFlagService(MockFeatureFlagServiceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22918 };

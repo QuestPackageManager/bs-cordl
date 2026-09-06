@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandaloneSettingsApplicatorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandaloneSettingsApplicatorSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ class CORDL_TYPE StandaloneSettingsApplicatorSO : public ::GlobalNamespace::Sett
 public:
   // Declarations
   /// @brief Method ApplyWindowSettings, addr 0x5901dc8, size 0x15c, virtual true, abstract: false, final false
-  inline void ApplyWindowSettings(::by_ref<::BeatSaber::Settings::WindowSettings> settings);
+  inline void ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings> settings);
 
   static inline ::GlobalNamespace::StandaloneSettingsApplicatorSO* New_ctor();
 
@@ -36,13 +36,13 @@ protected:
   constexpr StandaloneSettingsApplicatorSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneSettingsApplicatorSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneSettingsApplicatorSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandaloneSettingsApplicatorSO(StandaloneSettingsApplicatorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneSettingsApplicatorSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneSettingsApplicatorSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneSettingsApplicatorSO(StandaloneSettingsApplicatorSO const&) = delete;
+  StandaloneSettingsApplicatorSO(StandaloneSettingsApplicatorSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6668 };

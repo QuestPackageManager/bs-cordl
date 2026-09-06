@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\OrderedEnumerable_2.hpp"
+// IWYU pragma private; include "System/Linq/OrderedEnumerable_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ protected:
   constexpr OrderedEnumerable_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrderedEnumerable_2(OrderedEnumerable_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedEnumerable_2(OrderedEnumerable_2 const&) = delete;
+  OrderedEnumerable_2(OrderedEnumerable_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16100 };

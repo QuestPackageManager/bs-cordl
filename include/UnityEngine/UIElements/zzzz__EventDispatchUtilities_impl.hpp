@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventDispatchUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventDispatchUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatchUtilities_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
@@ -391,8 +391,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::EventDispatchUtilities::PropagateEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                            ::UnityEngine::UIElements::VisualElement* target, bool isCapturingTarget) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::PropagateEvent(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                            /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* target, bool isCapturingTarget) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "PropagateEvent",
@@ -401,8 +401,9 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::PropagateEvent(::Un
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, target, isCapturingTarget);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAtTargetAndDefaultPhase(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                                ::UnityEngine::UIElements::VisualElement* target) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAtTargetAndDefaultPhase(::UnityEngine::UIElements::EventBase* evt,
+                                                                                                /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                                /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* target) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEventAtTargetAndDefaultPhase",
@@ -411,8 +412,9 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAtTarget
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, target);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAcrossPropagationPath(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                              ::UnityEngine::UIElements::VisualElement* target, bool isCapturingTarget) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAcrossPropagationPath(::UnityEngine::UIElements::EventBase* evt,
+                                                                                              /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                              /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* target, bool isCapturingTarget) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEventAcrossPropagationPath",
@@ -422,9 +424,10 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAcrossPr
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, target, isCapturingTarget);
 }
 inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAcrossPropagationPathWithCompatibilityEvent(::UnityEngine::UIElements::EventBase* evt,
-                                                                                                                    ::UnityEngine::UIElements::EventBase* compatibilityEvt,
-                                                                                                                    ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                                                    ::UnityEngine::UIElements::VisualElement* target, bool isCapturingTarget) {
+                                                                                                                    /* [NotNull] */ ::UnityEngine::UIElements::EventBase* compatibilityEvt,
+                                                                                                                    /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                                                    /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* target,
+                                                                                                                    bool isCapturingTarget) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
@@ -434,8 +437,9 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEventAcrossPr
                               ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, compatibilityEvt, panel, target, isCapturingTarget);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_DefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                               ::UnityEngine::UIElements::VisualElement* element, bool disabled) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_DefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt,
+                                                                                               /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                               /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* element, bool disabled) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEvent_DefaultActionAtTarget",
@@ -444,8 +448,9 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_Default
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, element, disabled);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_DefaultAction(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                       ::UnityEngine::UIElements::VisualElement* element, bool disabled) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_DefaultAction(::UnityEngine::UIElements::EventBase* evt,
+                                                                                       /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                       /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* element, bool disabled) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEvent_DefaultAction",
@@ -454,8 +459,9 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_Default
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, element, disabled);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_TrickleDownCallbacks(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                              ::UnityEngine::UIElements::VisualElement* element) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_TrickleDownCallbacks(::UnityEngine::UIElements::EventBase* evt,
+                                                                                              /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                              /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* element) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEvent_TrickleDownCallbacks",
@@ -464,8 +470,9 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_Trickle
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, element);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpCallbacks(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                           ::UnityEngine::UIElements::VisualElement* element) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpCallbacks(::UnityEngine::UIElements::EventBase* evt,
+                                                                                           /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                           /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* element) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEvent_BubbleUpCallbacks",
@@ -474,8 +481,9 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleU
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, element);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_TrickleDownHandleEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                                ::UnityEngine::UIElements::VisualElement* element, bool disabled) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_TrickleDownHandleEvent(::UnityEngine::UIElements::EventBase* evt,
+                                                                                                /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                                /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* element, bool disabled) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEvent_TrickleDownHandleEvent",
@@ -484,8 +492,9 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_Trickle
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, element, disabled);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpHandleEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                             ::UnityEngine::UIElements::VisualElement* element, bool disabled) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpHandleEvent(::UnityEngine::UIElements::EventBase* evt,
+                                                                                             /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                             /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* element, bool disabled) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEvent_BubbleUpHandleEvent",
@@ -494,8 +503,10 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleU
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, element, disabled);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpAllDefaultActions(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                                   ::UnityEngine::UIElements::VisualElement* element, bool disabled, bool isCapturingTarget) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpAllDefaultActions(::UnityEngine::UIElements::EventBase* evt,
+                                                                                                   /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                                   /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* element, bool disabled,
+                                                                                                   bool isCapturingTarget) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "HandleEvent_BubbleUpAllDefaultActions",
@@ -504,13 +515,14 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleU
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, element, disabled, isCapturingTarget);
 }
-inline bool UnityEngine::UIElements::EventDispatchUtilities::Disabled(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::VisualElement* target) {
+inline bool UnityEngine::UIElements::EventDispatchUtilities::Disabled(/* [NotNull] */ ::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* target) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                               { "Disabled", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, evt, target);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToFocusedElementOrPanelRoot(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToFocusedElementOrPanelRoot(::UnityEngine::UIElements::EventBase* evt,
+                                                                                                 /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -519,7 +531,7 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToFocusedEl
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel);
 }
 inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToElementUnderPointerOrPanelRoot(::UnityEngine::UIElements::EventBase* evt,
-                                                                                                      ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
+                                                                                                      /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
                                                                                                       ::UnityEngine::Vector2 position) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
@@ -530,7 +542,7 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToElementUn
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, pointerId, position);
 }
 inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToCachedElementUnderPointerOrPanelRoot(::UnityEngine::UIElements::EventBase* evt,
-                                                                                                            ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
+                                                                                                            /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
                                                                                                             ::UnityEngine::Vector2 position) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
@@ -540,14 +552,15 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToCachedEle
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, pointerId, position);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToAssignedTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToAssignedTarget(::UnityEngine::UIElements::EventBase* evt,
+                                                                                      /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                           { "DispatchToAssignedTarget", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::DefaultDispatch(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::DefaultDispatch(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
@@ -555,8 +568,8 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::DefaultDispatch(::U
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel);
 }
 inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturingElementOrElementUnderPointer(::UnityEngine::UIElements::EventBase* evt,
-                                                                                                             ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
-                                                                                                             ::UnityEngine::Vector2 position) {
+                                                                                                             /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                                                                                             int32_t pointerId, ::UnityEngine::Vector2 position) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "DispatchToCapturingElementOrElementUnderPointer",
@@ -565,8 +578,9 @@ inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturing
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel, pointerId, position);
 }
-inline bool UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturingElement(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                                                                        int32_t pointerId, ::UnityEngine::Vector2 position) {
+inline bool UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturingElement(::UnityEngine::UIElements::EventBase* evt,
+                                                                                        /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
+                                                                                        ::UnityEngine::Vector2 position) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                                                            { "DispatchToCapturingElement",
@@ -575,21 +589,23 @@ inline bool UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturing
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, evt, panel, pointerId, position);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToPanelRoot(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::DispatchToPanelRoot(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                           { "DispatchToPanelRoot", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, panel);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::PropagateToRemainingIMGUIContainers(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::VisualElement* root) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::PropagateToRemainingIMGUIContainers(::UnityEngine::UIElements::EventBase* evt,
+                                                                                                 /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* root) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatchUtilities*>(),
                           { "PropagateToRemainingIMGUIContainers", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, evt, root);
 }
-inline void UnityEngine::UIElements::EventDispatchUtilities::PropagateToRemainingIMGUIContainerRecursive(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::VisualElement* root) {
+inline void UnityEngine::UIElements::EventDispatchUtilities::PropagateToRemainingIMGUIContainerRecursive(::UnityEngine::UIElements::EventBase* evt,
+                                                                                                         /* [NotNull] */ ::UnityEngine::UIElements::VisualElement* root) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

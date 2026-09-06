@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SerializationInfo.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SerializationInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class SerializationInfo;
 // Write type traits
 MARK_REF_T(::System::Runtime::Serialization::SerializationInfo*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::SerializationInfo*, "System.Runtime.Serialization", "SerializationInfo");
+// [ComVisible(true)]
 // Dependencies System.Object, System.Type
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -114,6 +115,7 @@ public:
   /// @brief Method AddValue, addr 0x5b559b8, size 0x74, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method AddValue, addr 0x5b55a2c, size 0x74, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, uint64_t value);
 
@@ -141,6 +143,7 @@ public:
   /// @brief Method GetElement, addr 0x5b55c9c, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Object* GetElement(::StringW name, ::by_ref<::System::Type*> foundType);
 
+  /// [ComVisible(true)]
   /// @brief Method GetElementNoThrow, addr 0x5b55d98, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* GetElementNoThrow(::StringW name, ::by_ref<::System::Type*> foundType);
 
@@ -162,14 +165,17 @@ public:
   /// @brief Method GetValue, addr 0x5b542ec, size 0x204, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::StringW name, ::System::Type* type);
 
+  /// [ComVisible(true)]
   /// @brief Method GetValueNoThrow, addr 0x5b541cc, size 0x120, virtual false, abstract: false, final false
   inline ::System::Object* GetValueNoThrow(::StringW name, ::System::Type* type);
 
   /// @brief Method IsAssemblyNameAssignmentSafe, addr 0x5b5540c, size 0x13c, virtual false, abstract: false, final false
   static inline bool IsAssemblyNameAssignmentSafe(::StringW originalAssemblyName, ::StringW newAssemblyName);
 
+  /// @brief [CLSCompliant(false)]
   static inline ::System::Runtime::Serialization::SerializationInfo* New_ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter);
 
+  /// @brief [CLSCompliant(false)]
   static inline ::System::Runtime::Serialization::SerializationInfo* New_ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter,
                                                                               bool requireSameTokenInPartialTrust);
 
@@ -251,9 +257,11 @@ public:
 
   constexpr void __cordl_internal_set_requireSameTokenInPartialTrust(bool value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5b5516c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5b55174, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter, bool requireSameTokenInPartialTrust);
 
@@ -281,13 +289,13 @@ protected:
   constexpr SerializationInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializationInfo(SerializationInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializationInfo(SerializationInfo const&) = delete;
+  SerializationInfo(SerializationInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3250 };

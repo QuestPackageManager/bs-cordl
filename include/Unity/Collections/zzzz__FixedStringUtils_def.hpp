@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedStringUtils.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedStringUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,8 @@ public:
   // @brief default ctor
   constexpr FixedStringUtils_UintFloatUnion();
 
-  // Ctor Parameters [CppParam { name: "uintValue", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "floatValue", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "uintValue", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "floatValue", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr FixedStringUtils_UintFloatUnion(uint32_t uintValue, float_t floatValue) noexcept;
 
 private:
@@ -104,6 +105,7 @@ public:
 static_assert(sizeof(::Unity::Collections::FixedStringUtils_UintFloatUnion) == 0x4, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.Object
 namespace Unity::Collections {
 // Is value type: false
@@ -125,13 +127,13 @@ protected:
   constexpr FixedStringUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedStringUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedStringUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedStringUtils(FixedStringUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedStringUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedStringUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedStringUtils(FixedStringUtils const&) = delete;
+  FixedStringUtils(FixedStringUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15621 };

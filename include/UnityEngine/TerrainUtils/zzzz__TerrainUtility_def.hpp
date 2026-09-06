@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TerrainUtils\TerrainUtility.hpp"
+// IWYU pragma private; include "UnityEngine/TerrainUtils/TerrainUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ MARK_REF_T(::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TerrainUtils::TerrainUtility*, "UnityEngine.TerrainUtils", "TerrainUtility");
 DEFINE_IL2CPP_CLASS(::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*, "UnityEngine.TerrainUtils", "TerrainUtility/<>c__DisplayClass2_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*, "UnityEngine.TerrainUtils", "TerrainUtility/<>c__DisplayClass2_1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
@@ -65,13 +66,13 @@ protected:
   constexpr TerrainUtility___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainUtility___c__DisplayClass2_0(TerrainUtility___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerrainUtility___c__DisplayClass2_0(TerrainUtility___c__DisplayClass2_0 const&) = delete;
+  TerrainUtility___c__DisplayClass2_0(TerrainUtility___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22744 };
@@ -87,6 +88,7 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayC
 static_assert(sizeof(::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::TerrainUtils
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
@@ -126,13 +128,13 @@ protected:
   constexpr TerrainUtility___c__DisplayClass2_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility___c__DisplayClass2_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility___c__DisplayClass2_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainUtility___c__DisplayClass2_1(TerrainUtility___c__DisplayClass2_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility___c__DisplayClass2_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility___c__DisplayClass2_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerrainUtility___c__DisplayClass2_1(TerrainUtility___c__DisplayClass2_1 const&) = delete;
+  TerrainUtility___c__DisplayClass2_1(TerrainUtility___c__DisplayClass2_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22745 };
@@ -153,6 +155,7 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayC
 static_assert(sizeof(::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::TerrainUtils
+// [MovedFrom("UnityEngine.Experimental.TerrainAPI")]
 // Dependencies System.Object
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
@@ -164,6 +167,7 @@ public:
 
   using __c__DisplayClass2_1 = ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1;
 
+  /// [RequiredByNativeCode]
   /// @brief Method AutoConnect, addr 0x6bbbb4c, size 0x35c, virtual false, abstract: false, final false
   static inline void AutoConnect();
 
@@ -182,13 +186,13 @@ protected:
   constexpr TerrainUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainUtility(TerrainUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerrainUtility(TerrainUtility const&) = delete;
+  TerrainUtility(TerrainUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22746 };

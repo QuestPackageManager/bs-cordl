@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\CRC32C.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/CRC32C.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr CRC32C();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CRC32C(CRC32C&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CRC32C(CRC32C const&) = delete;
+  CRC32C(CRC32Cconst&) = delete;
 
   /// @brief Field ChecksumSize offset 0xffffffff size 0x4
   static constexpr int32_t ChecksumSize{ static_cast<int32_t>(0x4) };

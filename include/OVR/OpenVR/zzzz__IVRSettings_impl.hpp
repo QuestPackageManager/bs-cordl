@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRSettings.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRSettings.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRSettings_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRSettingsError_def.hpp"
@@ -979,14 +979,15 @@ inline ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* OVR::OpenVR::IVRSettings_
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRSettings__RemoveKeyInSection::IVRSettings__RemoveKeyInSection() {}
-// Ctor Parameters [CppParam { name: "GetSettingsErrorNameFromEnum", ty: "::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Sync",
-// ty: "::OVR::OpenVR::IVRSettings__Sync*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetBool", ty: "::OVR::OpenVR::IVRSettings__SetBool*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "SetInt32", ty: "::OVR::OpenVR::IVRSettings__SetInt32*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetFloat", ty: "::OVR::OpenVR::IVRSettings__SetFloat*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "SetString", ty: "::OVR::OpenVR::IVRSettings__SetString*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetBool", ty:
-// "::OVR::OpenVR::IVRSettings__GetBool*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetInt32", ty: "::OVR::OpenVR::IVRSettings__GetInt32*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "GetFloat", ty: "::OVR::OpenVR::IVRSettings__GetFloat*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetString", ty: "::OVR::OpenVR::IVRSettings__GetString*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "RemoveSection", ty: "::OVR::OpenVR::IVRSettings__RemoveSection*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "RemoveKeyInSection", ty: "::OVR::OpenVR::IVRSettings__RemoveKeyInSection*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "GetSettingsErrorNameFromEnum", ty: "::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "Sync", ty: "::OVR::OpenVR::IVRSettings__Sync*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetBool", ty: "::OVR::OpenVR::IVRSettings__SetBool*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "SetInt32", ty: "::OVR::OpenVR::IVRSettings__SetInt32*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetFloat",
+// ty: "::OVR::OpenVR::IVRSettings__SetFloat*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetString", ty: "::OVR::OpenVR::IVRSettings__SetString*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "GetBool", ty: "::OVR::OpenVR::IVRSettings__GetBool*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetInt32",
+// ty: "::OVR::OpenVR::IVRSettings__GetInt32*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetFloat", ty: "::OVR::OpenVR::IVRSettings__GetFloat*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "GetString", ty: "::OVR::OpenVR::IVRSettings__GetString*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "RemoveSection", ty: "::OVR::OpenVR::IVRSettings__RemoveSection*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RemoveKeyInSection", ty:
+// "::OVR::OpenVR::IVRSettings__RemoveKeyInSection*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IVRSettings::IVRSettings(::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum, ::OVR::OpenVR::IVRSettings__Sync* Sync,
                                                   ::OVR::OpenVR::IVRSettings__SetBool* SetBool, ::OVR::OpenVR::IVRSettings__SetInt32* SetInt32, ::OVR::OpenVR::IVRSettings__SetFloat* SetFloat,
                                                   ::OVR::OpenVR::IVRSettings__SetString* SetString, ::OVR::OpenVR::IVRSettings__GetBool* GetBool, ::OVR::OpenVR::IVRSettings__GetInt32* GetInt32,

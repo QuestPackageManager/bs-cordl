@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\StateMachineAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/StateMachineAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class StateMachineAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::StateMachineAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::StateMachineAttribute*, "System.Runtime.CompilerServices", "StateMachineAttribute");
+// [AttributeUsage((System.AttributeTargets)64, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -38,6 +39,7 @@ public:
   /// @brief Method .ctor, addr 0x5b6f8bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* stateMachineType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_StateMachineType, addr 0x5b707f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_StateMachineType();
 
@@ -47,17 +49,18 @@ protected:
   constexpr StateMachineAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StateMachineAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateMachineAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StateMachineAttribute(StateMachineAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StateMachineAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateMachineAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StateMachineAttribute(StateMachineAttribute const&) = delete;
+  StateMachineAttribute(StateMachineAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3399 };
 
+  /// [CompilerGenerated]
   /// @brief Field <StateMachineType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____StateMachineType_k__BackingField;
 

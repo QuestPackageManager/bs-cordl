@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeStreamableAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeStreamableAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__FileHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeStreamableAsset_def.hpp"
@@ -7,7 +7,8 @@
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeStreamableAsset_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SerializedDictionary_2_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
-// Ctor Parameters [CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "elementCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "elementCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc::ProbeVolumeStreamableAsset_StreamableCellDesc(int32_t offset, int32_t elementCount) noexcept {
   this->offset = offset;
   this->elementCount = elementCount;

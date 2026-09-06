@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\URPCameraBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/URPCameraBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__URPCameraBinder_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalAdditionalCameraData_def.hpp"

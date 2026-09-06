@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\NetworkBootstrapperParams.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/NetworkBootstrapperParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,12 +39,12 @@ public:
   // @brief default ctor
   constexpr NetworkBootstrapperParams();
 
-  // Ctor Parameters [CppParam { name: "myPlayerId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "myOculusId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "ovrCameraRig", ty: "::UnityW<::GlobalNamespace::OVRCameraRig>", modifiers: "", def_value: None }, CppParam { name: "sharedAnchorManager", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name: "colocationLauncher", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None }, CppParam { name: "colocationController", ty:
-  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::ColocationController>", modifiers: "", def_value: None }, CppParam { name: "setupColocationReadyEvents", ty: "::System::Action*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "myPlayerId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "myOculusId", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "ovrCameraRig", ty: "::UnityW<::GlobalNamespace::OVRCameraRig>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sharedAnchorManager", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "colocationLauncher", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "colocationController", ty:
+  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::ColocationController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "setupColocationReadyEvents", ty: "::System::Action*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr NetworkBootstrapperParams(uint64_t myPlayerId, uint64_t myOculusId, ::UnityW<::GlobalNamespace::OVRCameraRig> ovrCameraRig,
                                       ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* sharedAnchorManager,
                                       ::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher* colocationLauncher,

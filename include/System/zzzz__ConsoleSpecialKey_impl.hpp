@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\ConsoleSpecialKey.hpp"
+// IWYU pragma private; include "System/ConsoleSpecialKey.hpp"
 #include "System/zzzz__ConsoleSpecialKey_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::ConsoleSpecialKey::ConsoleSpecialKey(int32_t value__) noexcept {
   this->value__ = value__;
 }

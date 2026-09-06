@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Input.hpp"
+// IWYU pragma private; include "UnityEngine/Input.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class Input;
 // Write type traits
 MARK_REF_T(::UnityEngine::Input*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Input*, "UnityEngine", "Input");
+// [NativeHeader("Runtime/Input/InputBindings.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -49,6 +50,7 @@ public:
   /// @brief Method CheckDisabled, addr 0x6b62434, size 0x28, virtual false, abstract: false, final false
   static inline bool CheckDisabled();
 
+  /// [NativeThrows]
   /// @brief Method ClearLastPenContactEvent, addr 0x6b61d0c, size 0x28, virtual false, abstract: false, final false
   static inline void ClearLastPenContactEvent();
 
@@ -70,39 +72,49 @@ public:
   /// @brief Method GetKeyDown, addr 0x6b61dac, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetKeyDown(::UnityEngine::KeyCode key);
 
+  /// [NativeThrows]
   /// @brief Method GetKeyDownInt, addr 0x6b61ac8, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetKeyDownInt(::UnityEngine::KeyCode key);
 
+  /// [NativeThrows]
   /// @brief Method GetKeyInt, addr 0x6b61a50, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetKeyInt(::UnityEngine::KeyCode key);
 
   /// @brief Method GetKeyUp, addr 0x6b61d70, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetKeyUp(::UnityEngine::KeyCode key);
 
+  /// [NativeThrows]
   /// @brief Method GetKeyUpInt, addr 0x6b61a8c, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetKeyUpInt(::UnityEngine::KeyCode key);
 
+  /// [NativeThrows]
   /// @brief Method GetLastPenContactEvent, addr 0x6b61c6c, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::PenData GetLastPenContactEvent();
 
   /// @brief Method GetLastPenContactEvent_Injected, addr 0x6b61cd0, size 0x3c, virtual false, abstract: false, final false
   static inline void GetLastPenContactEvent_Injected(::by_ref<::UnityEngine::PenData> ret);
 
+  /// [NativeThrows]
   /// @brief Method GetMouseButton, addr 0x6b61b04, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetMouseButton(int32_t button);
 
+  /// [NativeThrows]
   /// @brief Method GetMouseButtonDown, addr 0x6b61b40, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetMouseButtonDown(int32_t button);
 
+  /// [NativeThrows]
   /// @brief Method GetMouseButtonUp, addr 0x6b61b7c, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetMouseButtonUp(int32_t button);
 
+  /// [FreeFunction("GetMousePresent")]
   /// @brief Method GetMousePresentInternal, addr 0x6b622c4, size 0x28, virtual false, abstract: false, final false
   static inline bool GetMousePresentInternal();
 
+  /// [NativeThrows]
   /// @brief Method GetTouch, addr 0x6b61bb8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Touch GetTouch(int32_t index);
 
+  /// [FreeFunction("IsTouchSupported")]
   /// @brief Method GetTouchSupportedInternal, addr 0x6b622ec, size 0x28, virtual false, abstract: false, final false
   static inline bool GetTouchSupportedInternal();
 
@@ -150,9 +162,11 @@ public:
   /// @brief Method get_mouseScrollDelta_Injected, addr 0x6b61fdc, size 0x3c, virtual false, abstract: false, final false
   static inline void get_mouseScrollDelta_Injected(::by_ref<::UnityEngine::Vector2> ret);
 
+  /// [CompilerGenerated]
   /// @brief Method get_simulateTouchEnabled, addr 0x6b62278, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_simulateTouchEnabled();
 
+  /// [FreeFunction("GetTouchCount")]
   /// @brief Method get_touchCount, addr 0x6b6240c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_touchCount();
 
@@ -176,13 +190,13 @@ protected:
   constexpr Input();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Input", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Input", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Input(Input&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Input", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Input", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Input(Input const&) = delete;
+  Input(Inputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22729 };

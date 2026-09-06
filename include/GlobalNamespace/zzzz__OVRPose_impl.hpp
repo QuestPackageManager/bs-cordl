@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPose.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPose.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPose_def.hpp"
@@ -193,8 +193,8 @@ inline ::GlobalNamespace::OVRPose GlobalNamespace::OVRPose::Rotate180AlongX() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPose>(), { "Rotate180AlongX", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPose>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPose::OVRPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation) noexcept {
   this->position = position;
   this->orientation = orientation;

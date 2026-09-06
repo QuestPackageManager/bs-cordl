@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventInterests.hpp"
+// IWYU pragma private; include "UnityEngine/EventInterests.hpp"
 #include "UnityEngine/zzzz__EventInterests_def.hpp"
 #include "UnityEngine/zzzz__EventType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventInterests.get_wantsMouseMove
@@ -121,8 +121,9 @@ inline bool UnityEngine::EventInterests::WantsLayoutPass(::UnityEngine::EventTyp
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventInterests>(), { "WantsLayoutPass", {}, { ::i2c::type_of<::UnityEngine::EventType>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, type);
 }
-// Ctor Parameters [CppParam { name: "_wantsMouseMove_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_wantsMouseEnterLeaveWindow_k__BackingField", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_wantsLessLayoutEvents_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_wantsMouseMove_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_wantsMouseEnterLeaveWindow_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_wantsLessLayoutEvents_k__BackingField", ty: "bool", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::EventInterests::EventInterests(bool _wantsMouseMove_k__BackingField, bool _wantsMouseEnterLeaveWindow_k__BackingField, bool _wantsLessLayoutEvents_k__BackingField) noexcept {
   this->_wantsMouseMove_k__BackingField = _wantsMouseMove_k__BackingField;
   this->_wantsMouseEnterLeaveWindow_k__BackingField = _wantsMouseEnterLeaveWindow_k__BackingField;

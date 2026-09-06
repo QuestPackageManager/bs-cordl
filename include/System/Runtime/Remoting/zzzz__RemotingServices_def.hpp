@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\RemotingServices.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/RemotingServices.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,13 +134,13 @@ protected:
   constexpr RemotingServices_CACD();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RemotingServices_CACD", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemotingServices_CACD", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemotingServices_CACD(RemotingServices_CACD&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RemotingServices_CACD", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemotingServices_CACD", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemotingServices_CACD(RemotingServices_CACD const&) = delete;
+  RemotingServices_CACD(RemotingServices_CACDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3086 };
@@ -161,6 +161,7 @@ static_assert(offsetof(::System::Runtime::Remoting::RemotingServices_CACD, ___c)
 static_assert(sizeof(::System::Runtime::Remoting::RemotingServices_CACD) == 0x20, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
@@ -196,9 +197,11 @@ public:
   /// @brief Field uri_hash, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_uri_hash, put = setStaticF_uri_hash)) ::System::Collections::Hashtable* uri_hash;
 
+  /// [ComVisible(true)]
   /// @brief Method Connect, addr 0x5b29d28, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Object* Connect(::System::Type* classToProxy, ::StringW url);
 
+  /// [ComVisible(true)]
   /// @brief Method Connect, addr 0x5b29e40, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Object* Connect(::System::Type* classToProxy, ::StringW url, ::System::Object* data);
 
@@ -259,6 +262,7 @@ public:
   /// @brief Method GetProxyForRemoteObject, addr 0x5b2a7cc, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Object* GetProxyForRemoteObject(::System::Runtime::Remoting::ObjRef* objref, ::System::Type* classToProxy);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method GetRealProxy, addr 0x5b2a9a0, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Proxies::RealProxy* GetRealProxy(::System::Object* proxy);
 
@@ -359,13 +363,13 @@ protected:
   constexpr RemotingServices();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RemotingServices", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemotingServices", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemotingServices(RemotingServices&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RemotingServices", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemotingServices", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemotingServices(RemotingServices const&) = delete;
+  RemotingServices(RemotingServicesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3087 };

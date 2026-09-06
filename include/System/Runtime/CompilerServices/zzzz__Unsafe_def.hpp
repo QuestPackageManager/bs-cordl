@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\Unsafe.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/Unsafe.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,15 @@ public:
   template <typename TFrom, typename TTo> static inline ::by_ref<TTo> As(::by_ref<TFrom> source);
 
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T As(::System::Object* o);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T As(::System::Object* o);
 
   /// @brief Method AsPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void* AsPointer(::by_ref<T> value);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::by_ref<T> AsRef(::by_ref<T> source);
+  template <typename T> static inline ::by_ref<T> AsRef(/* [IsReadOnly] */ ::by_ref<T> source);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::by_ref<T> AsRef(void* source);
@@ -83,13 +85,13 @@ protected:
   constexpr Unsafe();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Unsafe", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Unsafe", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Unsafe(Unsafe&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Unsafe", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Unsafe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Unsafe(Unsafe const&) = delete;
+  Unsafe(Unsafeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3440 };

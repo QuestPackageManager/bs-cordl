@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\CharacterElement.hpp"
+// IWYU pragma private; include "TMPro/CharacterElement.hpp"
 #include "TMPro/zzzz__CharacterElement_def.hpp"
 #include "TMPro/zzzz__TMP_TextElement_def.hpp"
 //  Writing Method size for method: ::TMPro::CharacterElement.get_Unicode
@@ -52,8 +52,8 @@ inline void TMPro::CharacterElement::_ctor(::TMPro::TMP_TextElement* textElement
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::CharacterElement>(), { ".ctor", {}, { ::i2c::type_of<::TMPro::TMP_TextElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, textElement);
 }
-// Ctor Parameters [CppParam { name: "m_Unicode", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TextElement", ty: "::TMPro::TMP_TextElement*", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Unicode", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TextElement", ty: "::TMPro::TMP_TextElement*", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::CharacterElement::CharacterElement(uint32_t m_Unicode, ::TMPro::TMP_TextElement* m_TextElement) noexcept {
   this->m_Unicode = m_Unicode;
   this->m_TextElement = m_TextElement;

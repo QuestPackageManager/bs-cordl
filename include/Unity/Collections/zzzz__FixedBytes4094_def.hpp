@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedBytes4094.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedBytes4094.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct FixedBytes4094;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::FixedBytes4094);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::FixedBytes4094, "Unity.Collections", "FixedBytes4094");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.FixedBytes16
 namespace Unity::Collections {
 // Is value type: true
@@ -2447,158 +2448,183 @@ public:
   // @brief default ctor
   constexpr FixedBytes4094();
 
-  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0016", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0032", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset0048", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0064", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset0080", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0096", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset0112", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0128", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0144", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset0160", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0176", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset0192", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0208", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset0224", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0240", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0256", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset0272", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0288", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset0304", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0320", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset0336", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0352", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0368", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset0384", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0400", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset0416", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0432", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset0448", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0464", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0480", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset0496", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0512", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset0528", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0544", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset0560", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0576", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0592", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset0608", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0624", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset0640", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0656", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset0672", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0688", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0704", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset0720", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0736", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset0752", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0768", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset0784", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0800", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0816", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset0832", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0848", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset0864", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0880", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset0896", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0912", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0928", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset0944", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0960", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset0976", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset0992", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset1008", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1024", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1040", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset1056", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1072", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset1088", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1104", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset1120", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1136", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1152", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset1168", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1184", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset1200", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1216", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset1232", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1248", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1264", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset1280", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1296", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset1312", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1328", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset1344", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1360", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1376", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset1392", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1408", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset1424", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1440", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset1456", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1472", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1488", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset1504", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1520", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset1536", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1552", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset1568", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1584", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1600", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset1616", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1632", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset1648", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1664", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset1680", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1696", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1712", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset1728", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1744", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset1760", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1776", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset1792", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1808", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1824", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset1840", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1856", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset1872", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1888", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset1904", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1920", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1936", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset1952", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset1968", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset1984", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2000", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset2016", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2032", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2048", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset2064", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2080", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset2096", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2112", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset2128", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2144", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2160", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset2176", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2192", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset2208", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2224", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset2240", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2256", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2272", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset2288", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2304", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset2320", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2336", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset2352", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2368", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2384", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset2400", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2416", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset2432", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2448", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset2464", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2480", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2496", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset2512", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2528", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset2544", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2560", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset2576", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2592", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2608", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset2624", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2640", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset2656", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2672", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset2688", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2704", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2720", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset2736", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2752", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset2768", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2784", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset2800", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2816", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2832", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset2848", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2864", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset2880", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2896", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset2912", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2928", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2944", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset2960", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset2976", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset2992", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3008", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset3024", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3040", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3056", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset3072", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3088", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset3104", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3120", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset3136", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3152", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3168", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset3184", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3200", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset3216", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3232", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset3248", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3264", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3280", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset3296", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3312", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset3328", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3344", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset3360", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3376", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3392", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset3408", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3424", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset3440", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3456", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset3472", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3488", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3504", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset3520", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3536", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset3552", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3568", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset3584", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3600", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3616", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset3632", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3648", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset3664", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3680", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset3696", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3712", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3728", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset3744", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3760", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset3776", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3792", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset3808", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3824", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3840", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset3856", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3872", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset3888", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3904", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset3920", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3936", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3952", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "offset3968", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset3984", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None
-  // }, CppParam { name: "offset4000", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset4016", ty: "::Unity::Collections::FixedBytes16", modifiers:
-  // "", def_value: None }, CppParam { name: "offset4032", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset4048", ty:
-  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "offset4064", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name:
-  // "byte4080", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte4081", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte4082", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "byte4083", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte4084", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "byte4085", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte4086", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte4087", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "byte4088", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte4089", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "byte4090", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte4091", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte4092", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "byte4093", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0016", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0032", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0048", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0064", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0080", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0096", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0112", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0128", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0144", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0160", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0176", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0192", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0208", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0224", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0240", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0256", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0272", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0288", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0304", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0320", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0336", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0352", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0368", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0384", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0400", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0416", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0432", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0448", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0464", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0480", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0496", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0512", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0528", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0544", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0560", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0576", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0592", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0608", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0624", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0640", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0656", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0672", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0688", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0704", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0720", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0736", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0752", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0768", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0784", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0800", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0816", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0832", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0848", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0864", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0880", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0896", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0912", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0928", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0944", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset0960", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0976", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0992", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1008", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1024", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1040", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1056", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1072", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1088", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1104", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1120", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1136", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1152", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1168", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1184", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1200", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1216", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1232", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1248", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1264", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1280", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1296", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1312", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1328", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1344", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1360", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1376", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1392", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1408", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1424", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1440", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1456", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1472", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1488", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1504", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1520", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1536", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1552", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1568", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1584", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1600", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1616", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1632", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1648", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1664", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1680", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1696", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1712", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1728", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1744", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1760", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1776", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1792", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1808", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1824", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1840", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1856", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1872", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1888", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1904", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1920", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1936", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1952", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset1968", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1984", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2000", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2016", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2032", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2048", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2064", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2080", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2096", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2112", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2128", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2144", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2160", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2176", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2192", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2208", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2224", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2240", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2256", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2272", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2288", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2304", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2320", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2336", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2352", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2368", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2384", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2400", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2416", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2432", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2448", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2464", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2480", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2496", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2512", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2528", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2544", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2560", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2576", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2592", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2608", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2624", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2640", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2656", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2672", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2688", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2704", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2720", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2736", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2752", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2768", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2784", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2800", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2816", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2832", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2848", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2864", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2880", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2896", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2912", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2928", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2944", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2960", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset2976", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2992", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3008", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3024", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3040", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3056", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3072", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3088", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3104", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3120", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3136", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3152", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3168", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3184", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3200", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3216", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3232", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3248", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3264", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3280", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3296", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3312", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3328", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3344", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3360", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3376", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3392", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3408", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3424", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3440", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3456", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3472", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3488", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3504", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3520", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3536", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3552", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3568", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3584", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3600", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3616", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3632", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3648", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3664", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3680", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3696", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3712", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3728", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3744", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3760", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3776", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3792", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3808", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3824", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3840", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3856", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3872", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3888", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3904", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3920", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3936", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3952", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3968", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset3984", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset4000", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset4016", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset4032", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset4048", ty:
+  // "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset4064", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "byte4080", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte4081", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "byte4082", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte4083", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "byte4084", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte4085", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "byte4086", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte4087", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "byte4088", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte4089", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "byte4090", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte4091", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "byte4092", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte4093", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr FixedBytes4094(
       ::Unity::Collections::FixedBytes16 offset0000, ::Unity::Collections::FixedBytes16 offset0016, ::Unity::Collections::FixedBytes16 offset0032, ::Unity::Collections::FixedBytes16 offset0048,
       ::Unity::Collections::FixedBytes16 offset0064, ::Unity::Collections::FixedBytes16 offset0080, ::Unity::Collections::FixedBytes16 offset0096, ::Unity::Collections::FixedBytes16 offset0112,

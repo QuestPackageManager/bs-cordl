@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaGenerator.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,9 @@ namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Type;
@@ -100,9 +102,11 @@ public:
   /// @brief Method .ctor, addr 0x5d64650, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Schema, addr 0x5d64e68, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* get_Schema();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5d64e60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
@@ -112,20 +116,22 @@ protected:
   constexpr JsonSchemaGenerator_TypeSchema();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator_TypeSchema", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator_TypeSchema", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaGenerator_TypeSchema(JsonSchemaGenerator_TypeSchema&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator_TypeSchema", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator_TypeSchema", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaGenerator_TypeSchema(JsonSchemaGenerator_TypeSchema const&) = delete;
+  JsonSchemaGenerator_TypeSchema(JsonSchemaGenerator_TypeSchemaconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13547 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Schema>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::JsonSchema* ____Schema_k__BackingField;
 
@@ -139,6 +145,7 @@ static_assert(offsetof(::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchem
 static_assert(sizeof(::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema) == 0x20, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Schema
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -169,13 +176,13 @@ protected:
   constexpr JsonSchemaGenerator___c__DisplayClass23_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator___c__DisplayClass23_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaGenerator___c__DisplayClass23_0(JsonSchemaGenerator___c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator___c__DisplayClass23_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaGenerator___c__DisplayClass23_0(JsonSchemaGenerator___c__DisplayClass23_0 const&) = delete;
+  JsonSchemaGenerator___c__DisplayClass23_0(JsonSchemaGenerator___c__DisplayClass23_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13548 };
@@ -191,6 +198,7 @@ static_assert(offsetof(::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__Disp
 static_assert(sizeof(::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Schema
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies Newtonsoft.Json.Schema.UndefinedSchemaIdHandling, System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -314,12 +322,14 @@ public:
   /// @brief Method get_CurrentSchema, addr 0x5d632ac, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* get_CurrentSchema();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UndefinedSchemaIdHandling, addr 0x5d631f4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling get_UndefinedSchemaIdHandling();
 
   /// @brief Method set_ContractResolver, addr 0x5d632a4, size 0x8, virtual false, abstract: false, final false
   inline void set_ContractResolver(::Newtonsoft::Json::Serialization::IContractResolver* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_UndefinedSchemaIdHandling, addr 0x5d631fc, size 0x8, virtual false, abstract: false, final false
   inline void set_UndefinedSchemaIdHandling(::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling value);
 
@@ -329,17 +339,18 @@ protected:
   constexpr JsonSchemaGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaGenerator(JsonSchemaGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaGenerator(JsonSchemaGenerator const&) = delete;
+  JsonSchemaGenerator(JsonSchemaGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13549 };
 
+  /// [CompilerGenerated]
   /// @brief Field <UndefinedSchemaIdHandling>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling ____UndefinedSchemaIdHandling_k__BackingField;
 

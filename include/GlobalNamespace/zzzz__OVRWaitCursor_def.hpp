@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRWaitCursor.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRWaitCursor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class OVRWaitCursor;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRWaitCursor*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRWaitCursor*, "", "OVRWaitCursor");
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-core-overview/#scripts")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -43,13 +44,13 @@ protected:
   constexpr OVRWaitCursor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRWaitCursor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRWaitCursor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRWaitCursor(OVRWaitCursor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRWaitCursor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRWaitCursor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRWaitCursor(OVRWaitCursor const&) = delete;
+  OVRWaitCursor(OVRWaitCursorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8003 };

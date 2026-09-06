@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Init\GameVersionProvider.hpp"
+// IWYU pragma private; include "BeatSaber/Init/GameVersionProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class GameVersionProvider;
 // Write type traits
 MARK_REF_T(::BeatSaber::Init::GameVersionProvider*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Init::GameVersionProvider*, "BeatSaber.Init", "GameVersionProvider");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Init.GameVersion::Content, System.Nullable`1<T>, System.Object
 namespace BeatSaber::Init {
 // Is value type: false
@@ -57,6 +59,7 @@ public:
 
   static inline ::BeatSaber::Init::GameVersionProvider* New_ctor();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x329c3f4, size 0x4c, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -85,20 +88,22 @@ protected:
   constexpr GameVersionProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameVersionProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameVersionProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameVersionProvider(GameVersionProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameVersionProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameVersionProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameVersionProvider(GameVersionProvider const&) = delete;
+  GameVersionProvider(GameVersionProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22714 };
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _versionTask, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* ____versionTask;
 
+  /// [Inject]
   /// @brief Field _platform, offset: 0x18, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ____platform;
 

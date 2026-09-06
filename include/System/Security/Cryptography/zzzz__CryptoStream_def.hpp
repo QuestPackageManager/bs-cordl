@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\CryptoStream.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/CryptoStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,6 +107,7 @@ DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::CryptoStream__ReadAsyncCor
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::CryptoStream__ReadAsyncInternal_d__37, "System.Security.Cryptography", "CryptoStream/<ReadAsyncInternal>d__37");
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::CryptoStream__WriteAsyncCore_d__49, "System.Security.Cryptography", "CryptoStream/<WriteAsyncCore>d__49");
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::CryptoStream__WriteAsyncInternal_d__46, "System.Security.Cryptography", "CryptoStream/<WriteAsyncInternal>d__46");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken,
 // System.Threading.Tasks.ForceAsyncAwaiter
 namespace System::Security::Cryptography {
@@ -121,6 +122,7 @@ public:
   /// @brief Method MoveNext, addr 0x5af59bc, size 0x45c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5af5e18, size 0x190, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -131,12 +133,13 @@ public:
   // @brief default ctor
   constexpr CryptoStream__ReadAsyncInternal_d__37();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Security::Cryptography::CryptoStream*",
-  // modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "_semaphore_5__2", ty: "::System::Threading::SemaphoreSlim*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Threading::Tasks::ForceAsyncAwaiter",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Security::Cryptography::CryptoStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_semaphore_5__2", ty:
+  // "::System::Threading::SemaphoreSlim*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Threading::Tasks::ForceAsyncAwaiter", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr CryptoStream__ReadAsyncInternal_d__37(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder,
                                                   ::System::Security::Cryptography::CryptoStream* __4__this, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t count,
                                                   ::System::Threading::CancellationToken cancellationToken, ::System::Threading::SemaphoreSlim* _semaphore_5__2,
@@ -204,6 +207,7 @@ static_assert(offsetof(::System::Security::Cryptography::CryptoStream__ReadAsync
 static_assert(sizeof(::System::Security::Cryptography::CryptoStream__ReadAsyncInternal_d__37) == 0x58, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ValueTaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace System::Security::Cryptography {
 // Is value type: true
@@ -217,6 +221,7 @@ public:
   /// @brief Method MoveNext, addr 0x5af5fa8, size 0xf7c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5af6f80, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -227,14 +232,15 @@ public:
   // @brief default ctor
   constexpr CryptoStream__ReadAsyncCore_d__42();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Security::Cryptography::CryptoStream*", modifiers: "", def_value: None }, CppParam {
-  // name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "useAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_bytesToDeliver_5__2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_currentOutputIndex_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_numWholeBlocksInBytes_5__4", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_tempInputBuffer_5__5", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_tempOutputBuffer_5__6", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam
-  // { name: "__u__1", ty: "::System::Runtime::CompilerServices::ValueTaskAwaiter_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Security::Cryptography::CryptoStream*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "useAsync", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_bytesToDeliver_5__2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_currentOutputIndex_5__3", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_numWholeBlocksInBytes_5__4", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_tempInputBuffer_5__5", ty: "::ArrayW<uint8_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_tempOutputBuffer_5__6", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1",
+  // ty: "::System::Runtime::CompilerServices::ValueTaskAwaiter_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr CryptoStream__ReadAsyncCore_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, int32_t count, int32_t offset,
                                               ::System::Security::Cryptography::CryptoStream* __4__this, ::ArrayW<uint8_t> buffer, bool useAsync,
                                               ::System::Threading::CancellationToken cancellationToken, int32_t _bytesToDeliver_5__2, int32_t _currentOutputIndex_5__3,
@@ -323,6 +329,7 @@ static_assert(offsetof(::System::Security::Cryptography::CryptoStream__ReadAsync
 static_assert(sizeof(::System::Security::Cryptography::CryptoStream__ReadAsyncCore_d__42) == 0x78, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken, System.Threading.Tasks.ForceAsyncAwaiter
 namespace System::Security::Cryptography {
 // Is value type: true
@@ -336,6 +343,7 @@ public:
   /// @brief Method MoveNext, addr 0x5af7000, size 0x3d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5af73d4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -346,12 +354,13 @@ public:
   // @brief default ctor
   constexpr CryptoStream__WriteAsyncInternal_d__46();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Security::Cryptography::CryptoStream*", modifiers:
-  // "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam {
-  // name: "_semaphore_5__2", ty: "::System::Threading::SemaphoreSlim*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Threading::Tasks::ForceAsyncAwaiter", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Security::Cryptography::CryptoStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_semaphore_5__2", ty:
+  // "::System::Threading::SemaphoreSlim*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Threading::Tasks::ForceAsyncAwaiter", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr CryptoStream__WriteAsyncInternal_d__46(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                    ::System::Security::Cryptography::CryptoStream* __4__this, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t count,
                                                    ::System::Threading::CancellationToken cancellationToken, ::System::Threading::SemaphoreSlim* _semaphore_5__2,
@@ -419,6 +428,7 @@ static_assert(offsetof(::System::Security::Cryptography::CryptoStream__WriteAsyn
 static_assert(sizeof(::System::Security::Cryptography::CryptoStream__WriteAsyncInternal_d__46) == 0x58, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ValueTaskAwaiter, System.Threading.CancellationToken
 namespace System::Security::Cryptography {
 // Is value type: true
@@ -432,6 +442,7 @@ public:
   /// @brief Method MoveNext, addr 0x5af7440, size 0xcbc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5af80fc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -442,14 +453,15 @@ public:
   // @brief default ctor
   constexpr CryptoStream__WriteAsyncCore_d__49();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Security::Cryptography::CryptoStream*", modifiers: "", def_value: None }, CppParam { name:
-  // "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "useAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_bytesToWrite_5__2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_currentInputIndex_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_numOutputBytes_5__4", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1",
-  // ty: "::System::Runtime::CompilerServices::ValueTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_numWholeBlocksInBytes_5__5", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_tempOutputBuffer_5__6", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Security::Cryptography::CryptoStream*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "useAsync", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_bytesToWrite_5__2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_currentInputIndex_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_numOutputBytes_5__4", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ValueTaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_numWholeBlocksInBytes_5__5", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_tempOutputBuffer_5__6", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr CryptoStream__WriteAsyncCore_d__49(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, int32_t count, int32_t offset,
                                                ::System::Security::Cryptography::CryptoStream* __4__this, ::ArrayW<uint8_t> buffer, bool useAsync,
                                                ::System::Threading::CancellationToken cancellationToken, int32_t _bytesToWrite_5__2, int32_t _currentInputIndex_5__3, int32_t _numOutputBytes_5__4,
@@ -537,6 +549,7 @@ static_assert(offsetof(::System::Security::Cryptography::CryptoStream__WriteAsyn
 static_assert(sizeof(::System::Security::Cryptography::CryptoStream__WriteAsyncCore_d__49) == 0x78, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -572,13 +585,13 @@ protected:
   constexpr CryptoStream___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoStream___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoStream___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CryptoStream___c(CryptoStream___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoStream___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoStream___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CryptoStream___c(CryptoStream___c const&) = delete;
+  CryptoStream___c(CryptoStream___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2928 };
@@ -713,9 +726,11 @@ public:
   /// @brief Method ReadAsync, addr 0x5af4d50, size 0x48, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(System.Security.Cryptography.CryptoStream::<ReadAsyncCore>d__42))]
   /// @brief Method ReadAsyncCore, addr 0x5af5268, size 0x128, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsyncCore(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken, bool useAsync);
 
+  /// [AsyncStateMachine(typeof(System.Security.Cryptography.CryptoStream::<ReadAsyncInternal>d__37))]
   /// @brief Method ReadAsyncInternal, addr 0x5af4ed0, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsyncInternal(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
@@ -734,9 +749,11 @@ public:
   /// @brief Method WriteAsync, addr 0x5af5390, size 0x48, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(System.Security.Cryptography.CryptoStream::<WriteAsyncCore>d__49))]
   /// @brief Method WriteAsyncCore, addr 0x5af5704, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsyncCore(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken, bool useAsync);
 
+  /// [AsyncStateMachine(typeof(System.Security.Cryptography.CryptoStream::<WriteAsyncInternal>d__46))]
   /// @brief Method WriteAsyncInternal, addr 0x5af5510, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
@@ -866,13 +883,13 @@ protected:
   constexpr CryptoStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CryptoStream(CryptoStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CryptoStream(CryptoStream const&) = delete;
+  CryptoStream(CryptoStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2929 };

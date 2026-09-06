@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\AbstractF2mCurve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/AbstractF2mCurve.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_impl.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_def.hpp"

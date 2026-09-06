@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\IntVec3.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/IntVec3.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__IntVec3_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -259,7 +259,7 @@ constexpr UnityEngine::ProBuilder::IntVec3::operator ::System::IEquatable_1<::Un
 constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec3>* UnityEngine::ProBuilder::IntVec3::i___System__IEquatable_1___UnityEngine__ProBuilder__IntVec3_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec3>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::IntVec3::IntVec3(::UnityEngine::Vector3 value) noexcept {
   this->value = value;
 }

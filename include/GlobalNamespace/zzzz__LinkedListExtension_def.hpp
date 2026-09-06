@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LinkedListExtension.hpp"
+// IWYU pragma private; include "GlobalNamespace/LinkedListExtension.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class LinkedListExtension;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LinkedListExtension*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LinkedListExtension*, "", "LinkedListExtension");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -23,6 +24,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE LinkedListExtension : public ::System::Object {
 public:
   // Declarations
+  /// [NullableContext(1)]
+  /// [Extension]
   /// @brief Method Index, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t Index(::System::Collections::Generic::LinkedListNode_1<T>* searchNode);
 
@@ -32,13 +35,13 @@ protected:
   constexpr LinkedListExtension();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedListExtension", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinkedListExtension", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinkedListExtension(LinkedListExtension&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedListExtension", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinkedListExtension", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinkedListExtension(LinkedListExtension const&) = delete;
+  LinkedListExtension(LinkedListExtensionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20462 };

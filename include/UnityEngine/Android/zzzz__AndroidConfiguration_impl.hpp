@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidConfiguration.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidConfiguration.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidHardwareKeyboardHidden_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidKeyboardHidden_impl.hpp"

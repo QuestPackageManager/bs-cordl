@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\LinqExtensions.hpp"
+// IWYU pragma private; include "ModestTree/LinqExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__LinqExtensions_def.hpp"
 #include "ModestTree/zzzz__LinqExtensions_def.hpp"
@@ -188,6 +188,7 @@ template <typename T> inline ::System::Collections::IEnumerator* ModestTree::Lin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::LinqExtensions__Yield_d__0_1<T>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename T> inline ::ModestTree::LinqExtensions__Yield_d__0_1<T>* ModestTree::LinqExtensions__Yield_d__0_1<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::LinqExtensions__Yield_d__0_1<T>*>(__1__state));
 }

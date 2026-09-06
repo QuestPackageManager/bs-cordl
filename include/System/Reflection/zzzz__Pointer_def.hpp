@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Pointer.hpp"
+// IWYU pragma private; include "System/Reflection/Pointer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class Pointer;
 // Write type traits
 MARK_REF_T(::System::Reflection::Pointer*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::Pointer*, "System.Reflection", "Pointer");
+// [CLSCompliant(false)]
 // Dependencies System.Object
 namespace System::Reflection {
 // Is value type: false
@@ -78,13 +79,13 @@ protected:
   constexpr Pointer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pointer(Pointer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pointer(Pointer const&) = delete;
+  Pointer(Pointerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3509 };

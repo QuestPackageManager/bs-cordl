@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeCircularLayout.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeCircularLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,32 +97,38 @@ protected:
   constexpr CompositeCircularLayout();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeCircularLayout", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeCircularLayout", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeCircularLayout(CompositeCircularLayout&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeCircularLayout", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeCircularLayout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeCircularLayout(CompositeCircularLayout const&) = delete;
+  CompositeCircularLayout(CompositeCircularLayoutconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5816 };
 
+  /// [SerializeField]
   /// @brief Field _radius, offset: 0x24, size: 0x4, def value: None
   float_t ____radius;
 
+  /// [SerializeField]
   /// @brief Field _angle, offset: 0x28, size: 0x4, def value: None
   float_t ____angle;
 
+  /// [SerializeField]
   /// @brief Field _startingAngle, offset: 0x2c, size: 0x4, def value: None
   float_t ____startingAngle;
 
+  /// [SerializeField]
   /// @brief Field _rotationDirection, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::LightGroupCircularLayouter_RotationDirection ____rotationDirection;
 
+  /// [SerializeField]
   /// @brief Field _staticRotation, offset: 0x34, size: 0x1, def value: None
   bool ____staticRotation;
 
+  /// [SerializeField]
   /// @brief Field _additionalAngle, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____additionalAngle;
 

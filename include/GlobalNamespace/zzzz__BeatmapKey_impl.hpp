@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapKey.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapKey.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -193,8 +193,8 @@ constexpr GlobalNamespace::BeatmapKey::operator ::System::IEquatable_1<::GlobalN
 constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapKey>* GlobalNamespace::BeatmapKey::i___System__IEquatable_1___GlobalNamespace__BeatmapKey_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapKey>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: Some("{}") }, CppParam { name: "difficulty", ty:
-// "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: Some("{}") }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "difficulty", ty:
+// "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapKey::BeatmapKey(::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, ::StringW levelId) noexcept {
   this->characteristic = characteristic;
   this->difficulty = difficulty;

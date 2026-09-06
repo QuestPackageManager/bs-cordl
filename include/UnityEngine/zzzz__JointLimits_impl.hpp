@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JointLimits.hpp"
+// IWYU pragma private; include "UnityEngine/JointLimits.hpp"
 #include "UnityEngine/zzzz__JointLimits_def.hpp"
 //  Writing Method size for method: ::UnityEngine::JointLimits.get_min
 template <>
@@ -164,10 +164,10 @@ inline void UnityEngine::JointLimits::set_contactDistance(float_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointLimits>(), { "set_contactDistance", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_Min", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Max", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Bounciness", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BounceMinVelocity", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ContactDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minBounce", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxBounce", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Min", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Max", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_Bounciness", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BounceMinVelocity", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_ContactDistance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minBounce", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxBounce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::JointLimits::JointLimits(float_t m_Min, float_t m_Max, float_t m_Bounciness, float_t m_BounceMinVelocity, float_t m_ContactDistance, float_t minBounce,
                                                   float_t maxBounce) noexcept {
   this->m_Min = m_Min;

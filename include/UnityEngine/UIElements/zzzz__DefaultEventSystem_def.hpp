@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DefaultEventSystem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DefaultEventSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -201,6 +203,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEvent
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput*, "UnityEngine.UIElements", "DefaultEventSystem/LegacyInputProcessor/NoInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*, "UnityEngine.UIElements", "DefaultEventSystem/LegacyInputProcessor/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext, "UnityEngine.UIElements", "DefaultEventSystem/FocusBasedEventSequenceContext");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -269,47 +272,60 @@ public:
   static inline ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c* New_ctor();
 
   /// @brief Method <ProcessKeyEvent>b__11_0, addr 0x6d8605c, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessKeyEvent_b__11_0(::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessKeyEvent_b__11_0(/* [TupleElementNames(new[] { "modifiers", "keyCode" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t);
 
   /// @brief Method <ProcessKeyEvent>b__11_1, addr 0x6d860b0, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessKeyEvent_b__11_1(::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessKeyEvent_b__11_1(/* [TupleElementNames(new[] { "modifiers", "keyCode" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t);
 
   /// @brief Method <ProcessNavigationEvent>b__10_0, addr 0x6d85fbc, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessNavigationEvent_b__10_0(::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessNavigationEvent_b__10_0(/* [TupleElementNames(new[] { "deviceType", "mod" })] */ ::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t);
 
   /// @brief Method <ProcessNavigationEvent>b__10_1, addr 0x6d8600c, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessNavigationEvent_b__10_1(::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessNavigationEvent_b__10_1(/* [TupleElementNames(new[] { "deviceType", "mod" })] */ ::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t);
 
   /// @brief Method <ProcessNavigationEvent>b__10_2, addr 0x6d85ed4, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase*
-  _ProcessNavigationEvent_b__10_2(::System::ValueTuple_3<::UnityEngine::Vector2, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t);
+  inline ::UnityEngine::UIElements::EventBase* _ProcessNavigationEvent_b__10_2(
+      /* [TupleElementNames(new[] { "move", "deviceType", "mod" })] */ ::System::ValueTuple_3<::UnityEngine::Vector2, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>
+          t);
 
   /// @brief Method <ProcessNavigationEvent>b__10_3, addr 0x6d85f4c, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase*
-  _ProcessNavigationEvent_b__10_3(::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t);
+  inline ::UnityEngine::UIElements::EventBase* _ProcessNavigationEvent_b__10_3(
+      /* [TupleElementNames(new[] { "direction", "deviceType", "mod" })] */ ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction,
+                                                                                                   ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>
+          t);
 
   /// @brief Method <ProcessPointerEvent>b__9_0, addr 0x6d85bb4, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessPointerEvent_b__9_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                           ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessPointerEvent_b__9_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+                              /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
 
   /// @brief Method <ProcessPointerEvent>b__9_1, addr 0x6d85c54, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessPointerEvent_b__9_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                           ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessPointerEvent_b__9_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+                              /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
 
   /// @brief Method <ProcessPointerEvent>b__9_2, addr 0x6d85cf4, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessPointerEvent_b__9_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                           ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessPointerEvent_b__9_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+                              /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
 
   /// @brief Method <ProcessPointerEvent>b__9_3, addr 0x6d85d94, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessPointerEvent_b__9_3(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                           ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessPointerEvent_b__9_3(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+                              /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
 
   /// @brief Method <ProcessPointerEvent>b__9_4, addr 0x6d85e34, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessPointerEvent_b__9_4(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
-                                                                           ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessPointerEvent_b__9_4(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
+                              /* [TupleElementNames(new[] { "modifiers", "scrollDelta" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t);
 
   /// @brief Method <ProcessTextInputEvent>b__12_0, addr 0x6d86104, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessTextInputEvent_b__12_0(::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessTextInputEvent_b__12_0(/* [TupleElementNames(new[] { "modifiers", "character" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t> t);
 
   /// @brief Method .ctor, addr 0x6d85bb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -394,13 +410,13 @@ protected:
   constexpr InputForUIProcessor_DefaultEventSystem___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputForUIProcessor_DefaultEventSystem___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputForUIProcessor_DefaultEventSystem___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputForUIProcessor_DefaultEventSystem___c(InputForUIProcessor_DefaultEventSystem___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputForUIProcessor_DefaultEventSystem___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputForUIProcessor_DefaultEventSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputForUIProcessor_DefaultEventSystem___c(InputForUIProcessor_DefaultEventSystem___c const&) = delete;
+  InputForUIProcessor_DefaultEventSystem___c(InputForUIProcessor_DefaultEventSystem___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4376 };
@@ -438,7 +454,7 @@ public:
   static inline ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* New_ctor(::UnityEngine::UIElements::DefaultEventSystem* eventSystem);
 
   /// @brief Method OnEvent, addr 0x6d8481c, size 0xb8, virtual false, abstract: false, final false
-  inline bool OnEvent(::by_ref<::UnityEngine::InputForUI::Event> ev);
+  inline bool OnEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
 
   /// @brief Method ProcessCommandEvent, addr 0x6d85548, size 0x8c, virtual false, abstract: false, final false
   inline void ProcessCommandEvent(::UnityEngine::InputForUI::CommandEvent commandEvent);
@@ -494,13 +510,13 @@ protected:
   constexpr DefaultEventSystem_InputForUIProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_InputForUIProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_InputForUIProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEventSystem_InputForUIProcessor(DefaultEventSystem_InputForUIProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_InputForUIProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_InputForUIProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEventSystem_InputForUIProcessor(DefaultEventSystem_InputForUIProcessor const&) = delete;
+  DefaultEventSystem_InputForUIProcessor(DefaultEventSystem_InputForUIProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4377 };
@@ -552,51 +568,51 @@ public:
 
   __declspec(property(get = get_unscaledTime)) float_t unscaledTime;
 
-  /// @brief Method ClearLastPenContactEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ClearLastPenContactEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ClearLastPenContactEvent();
 
-  /// @brief Method GetAxisRaw, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAxisRaw, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetAxisRaw(::StringW axis);
 
-  /// @brief Method GetButtonDown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetButtonDown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetButtonDown(::StringW button);
 
-  /// @brief Method GetLastPenContactEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetLastPenContactEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::PenData GetLastPenContactEvent();
 
-  /// @brief Method GetMouseButtonDown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButtonDown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButtonUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetTouch, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetTouch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
-  /// @brief Method get_anyKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_anyKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_anyKey();
 
-  /// @brief Method get_doubleClickTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_doubleClickTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_doubleClickTime();
 
-  /// @brief Method get_mouseButtonCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_mouseButtonCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_mouseButtonCount();
 
-  /// @brief Method get_mousePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_mousePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_mousePosition();
 
-  /// @brief Method get_mousePresent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_mousePresent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_mousePresent();
 
-  /// @brief Method get_touchCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_touchCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_touchCount();
 
-  /// @brief Method get_unscaledTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_unscaledTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_unscaledTime();
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_IInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_IInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacyInputProcessor_DefaultEventSystem_IInput(LegacyInputProcessor_DefaultEventSystem_IInput const&) = delete;
+  LegacyInputProcessor_DefaultEventSystem_IInput(LegacyInputProcessor_DefaultEventSystem_IInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4378 };
@@ -685,13 +701,13 @@ protected:
   constexpr LegacyInputProcessor_DefaultEventSystem_Input();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_Input", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_Input", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacyInputProcessor_DefaultEventSystem_Input(LegacyInputProcessor_DefaultEventSystem_Input&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_Input", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_Input", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacyInputProcessor_DefaultEventSystem_Input(LegacyInputProcessor_DefaultEventSystem_Input const&) = delete;
+  LegacyInputProcessor_DefaultEventSystem_Input(LegacyInputProcessor_DefaultEventSystem_Inputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4379 };
@@ -782,13 +798,13 @@ protected:
   constexpr LegacyInputProcessor_DefaultEventSystem_NoInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_NoInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_NoInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacyInputProcessor_DefaultEventSystem_NoInput(LegacyInputProcessor_DefaultEventSystem_NoInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_NoInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_NoInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacyInputProcessor_DefaultEventSystem_NoInput(LegacyInputProcessor_DefaultEventSystem_NoInput const&) = delete;
+  LegacyInputProcessor_DefaultEventSystem_NoInput(LegacyInputProcessor_DefaultEventSystem_NoInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4380 };
@@ -799,6 +815,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -864,15 +881,18 @@ public:
   static inline ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c* New_ctor();
 
   /// @brief Method <ProcessMouseEvents>b__27_0, addr 0x6d88c90, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__27_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                           ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessMouseEvents_b__27_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+                              /* [TupleElementNames(new[] { "modifiers", "targetDisplay" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t);
 
   /// @brief Method <ProcessMouseEvents>b__27_1, addr 0x6d88d4c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__27_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+                                                                           /* [TupleElementNames(new[] { "button", "clickCount", "modifiers", "targetDisplay" })] */
                                                                            ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t);
 
   /// @brief Method <ProcessMouseEvents>b__27_2, addr 0x6d88de0, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__27_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+                                                                           /* [TupleElementNames(new[] { "button", "clickCount", "modifiers", "targetDisplay" })] */
                                                                            ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t);
 
   /// @brief Method <ProcessPenEvents>b__30_0, addr 0x6d891a8, size 0xa4, virtual false, abstract: false, final false
@@ -880,18 +900,22 @@ public:
 
   /// @brief Method <ProcessTabEvent>b__37_0, addr 0x6d8924c, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessTabEvent_b__37_0(
-      ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers, ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*> t);
+      /* [TupleElementNames(new[] { "direction", "modifiers", "input" })] */ ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
+                                                                                                    ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>
+          t);
 
   /// @brief Method <ProcessTouchEvents>b__29_0, addr 0x6d890ec, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessTouchEvents_b__29_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                           ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessTouchEvents_b__29_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+                              /* [TupleElementNames(new[] { "touch", "targetDisplay" })] */ ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>> t);
 
   /// @brief Method <SendIMGUIEvents>b__26_0, addr 0x6d88ae8, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__26_0(::UnityEngine::Event* e);
 
   /// @brief Method <SendIMGUIEvents>b__26_1, addr 0x6d88b44, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__26_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
-                                                                        ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t);
+  inline ::UnityEngine::UIElements::EventBase*
+  _SendIMGUIEvents_b__26_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
+                           /* [TupleElementNames(new[] { "modifiers", "scrollDelta" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t);
 
   /// @brief Method <SendIMGUIEvents>b__26_2, addr 0x6d88be4, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__26_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::Event* evt);
@@ -986,13 +1010,13 @@ protected:
   constexpr LegacyInputProcessor_DefaultEventSystem___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacyInputProcessor_DefaultEventSystem___c(LegacyInputProcessor_DefaultEventSystem___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacyInputProcessor_DefaultEventSystem___c(LegacyInputProcessor_DefaultEventSystem___c const&) = delete;
+  LegacyInputProcessor_DefaultEventSystem___c(LegacyInputProcessor_DefaultEventSystem___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4381 };
@@ -1204,13 +1228,13 @@ protected:
   constexpr DefaultEventSystem_LegacyInputProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_LegacyInputProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_LegacyInputProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEventSystem_LegacyInputProcessor(DefaultEventSystem_LegacyInputProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_LegacyInputProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_LegacyInputProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEventSystem_LegacyInputProcessor(DefaultEventSystem_LegacyInputProcessor const&) = delete;
+  DefaultEventSystem_LegacyInputProcessor(DefaultEventSystem_LegacyInputProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4382 };
@@ -1325,7 +1349,7 @@ public:
   // @brief default ctor
   constexpr DefaultEventSystem_UpdateMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DefaultEventSystem_UpdateMode(int32_t value__) noexcept;
 
   /// @brief Field Always value: I32(0)
@@ -1374,7 +1398,7 @@ public:
   // @brief default ctor
   constexpr DefaultEventSystem_FocusBasedEventSequenceContext();
 
-  // Ctor Parameters [CppParam { name: "es", ty: "::UnityEngine::UIElements::DefaultEventSystem*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "es", ty: "::UnityEngine::UIElements::DefaultEventSystem*", modifiers: "", def_value: None, comment: None }]
   constexpr DefaultEventSystem_FocusBasedEventSequenceContext(::UnityEngine::UIElements::DefaultEventSystem* es) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1394,6 +1418,7 @@ static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_FocusBasedE
 static_assert(sizeof(::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -1422,13 +1447,13 @@ protected:
   constexpr DefaultEventSystem___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEventSystem___c(DefaultEventSystem___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEventSystem___c(DefaultEventSystem___c const&) = delete;
+  DefaultEventSystem___c(DefaultEventSystem___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4385 };
@@ -1656,13 +1681,13 @@ protected:
   constexpr DefaultEventSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEventSystem(DefaultEventSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEventSystem(DefaultEventSystem const&) = delete;
+  DefaultEventSystem(DefaultEventSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4386 };

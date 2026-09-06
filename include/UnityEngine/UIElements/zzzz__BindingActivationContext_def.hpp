@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingActivationContext.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingActivationContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct BindingActivationContext;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::BindingActivationContext);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BindingActivationContext, "UnityEngine.UIElements", "BindingActivationContext");
+// [IsReadOnly]
 // Dependencies UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -27,14 +28,14 @@ struct CORDL_TYPE BindingActivationContext {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x6c30ad4, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> property);
+  inline void _ctor(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BindingActivationContext();
 
-  // Ctor Parameters [CppParam { name: "m_TargetElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "m_BindingId", ty:
-  // "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_TargetElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BindingId", ty:
+  // "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: None, comment: None }]
   constexpr BindingActivationContext(::UnityEngine::UIElements::VisualElement* m_TargetElement, ::UnityEngine::UIElements::BindingId m_BindingId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

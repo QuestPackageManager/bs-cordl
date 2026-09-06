@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\FBUserAgent.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/FBUserAgent.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__FBUserAgent_def.hpp"
@@ -203,6 +203,7 @@ inline ::System::Collections::IEnumerator* OculusStudios::GraphQL::Client::FBUse
                    (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7* OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7*>(__1__state));
 }

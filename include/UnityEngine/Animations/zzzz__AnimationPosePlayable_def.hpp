@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationPosePlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationPosePlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,11 @@ struct AnimationPosePlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationPosePlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationPosePlayable, "UnityEngine.Animations", "AnimationPosePlayable");
+// [NativeHeader("Modules/Animation/Director/AnimationPosePlayable.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [StaticAccessor("AnimationPosePlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [RequiredByNativeCode]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationPosePlayable.bindings.h")]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -61,7 +66,7 @@ public:
   // @brief default ctor
   constexpr AnimationPosePlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationPosePlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

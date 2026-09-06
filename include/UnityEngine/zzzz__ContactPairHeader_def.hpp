@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ContactPairHeader.hpp"
+// IWYU pragma private; include "UnityEngine/ContactPairHeader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ struct ContactPairHeader;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactPairHeader);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ContactPairHeader, "UnityEngine", "ContactPairHeader");
+// [UsedByNativeCode]
+// [IsReadOnly]
 // Dependencies System.IntPtr, UnityEngine.CollisionPairHeaderFlags, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -29,14 +31,19 @@ namespace UnityEngine {
 struct CORDL_TYPE ContactPairHeader {
 public:
   // Declarations
+  /// @brief [Obsolete("Please use ContactPairHeader.body instead. (UnityUpgradable) -> body", false)]
   __declspec(property(get = get_Body)) ::UnityW<::UnityEngine::Component> Body;
 
+  /// @brief [Obsolete("Please use ContactPairHeader.bodyInstanceID instead. (UnityUpgradable) -> bodyInstanceID", false)]
   __declspec(property(get = get_BodyInstanceID)) int32_t BodyInstanceID;
 
+  /// @brief [Obsolete("Please use ContactPairHeader.otherBody instead. (UnityUpgradable) -> otherBody", false)]
   __declspec(property(get = get_OtherBody)) ::UnityW<::UnityEngine::Component> OtherBody;
 
+  /// @brief [Obsolete("Please use ContactPairHeader.otherBodyInstanceID instead. (UnityUpgradable) -> otherBodyInstanceID", false)]
   __declspec(property(get = get_OtherBodyInstanceID)) int32_t OtherBodyInstanceID;
 
+  /// @brief [Obsolete("Please use ContactPairHeader.pairCount instead. (UnityUpgradable) -> pairCount", false)]
   __declspec(property(get = get_PairCount)) int32_t PairCount;
 
   __declspec(property(get = get_body)) ::UnityW<::UnityEngine::Component> body;
@@ -94,9 +101,10 @@ public:
   // @brief default ctor
   constexpr ContactPairHeader();
 
-  // Ctor Parameters [CppParam { name: "m_BodyID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherBodyID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_NbPairs", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty:
-  // "::UnityEngine::CollisionPairHeaderFlags", modifiers: "", def_value: None }, CppParam { name: "m_RelativeVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BodyID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OtherBodyID", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NbPairs", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::CollisionPairHeaderFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RelativeVelocity", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr ContactPairHeader(int32_t m_BodyID, int32_t m_OtherBodyID, ::System::IntPtr m_StartPtr, uint32_t m_NbPairs, ::UnityEngine::CollisionPairHeaderFlags m_Flags,
                               ::UnityEngine::Vector3 m_RelativeVelocity) noexcept;
 

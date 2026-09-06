@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElementListPool.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementListPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElementListPool___c;
@@ -30,6 +32,7 @@ MARK_REF_T(::UnityEngine::UIElements::VisualElementListPool*);
 MARK_REF_T(::UnityEngine::UIElements::VisualElementListPool___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElementListPool*, "UnityEngine.UIElements", "VisualElementListPool");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElementListPool___c*, "UnityEngine.UIElements", "VisualElementListPool/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -58,13 +61,13 @@ protected:
   constexpr VisualElementListPool___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementListPool___c(VisualElementListPool___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementListPool___c(VisualElementListPool___c const&) = delete;
+  VisualElementListPool___c(VisualElementListPool___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5223 };
@@ -106,13 +109,13 @@ protected:
   constexpr VisualElementListPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementListPool(VisualElementListPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementListPool(VisualElementListPool const&) = delete;
+  VisualElementListPool(VisualElementListPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5224 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\ReasonFlags.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/ReasonFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ protected:
   constexpr ReasonFlags();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReasonFlags(ReasonFlags&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReasonFlags(ReasonFlags const&) = delete;
+  ReasonFlags(ReasonFlagsconst&) = delete;
 
   /// @brief Field AACompromise offset 0xffffffff size 0x4
   static constexpr int32_t AACompromise{ static_cast<int32_t>(0x8000) };

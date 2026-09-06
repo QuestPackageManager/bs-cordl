@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextMeshProUGUI.hpp"
+// IWYU pragma private; include "TMPro/TextMeshProUGUI.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,6 +105,7 @@ MARK_REF_T(::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19*);
 DEFINE_IL2CPP_CLASS(::TMPro::TextMeshProUGUI*, "TMPro", "TextMeshProUGUI");
 DEFINE_IL2CPP_CLASS(::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18*, "TMPro", "TextMeshProUGUI/<DelayedGraphicRebuild>d__18");
 DEFINE_IL2CPP_CLASS(::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19*, "TMPro", "TextMeshProUGUI/<DelayedMaterialRebuild>d__19");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -137,17 +138,22 @@ public:
   /// @brief Method MoveNext, addr 0x694804c, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6948104, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x694810c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6948144, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6948048, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -169,6 +175,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TextMeshProUGUI> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6948040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -187,13 +194,13 @@ protected:
   constexpr TextMeshProUGUI__DelayedGraphicRebuild_d__18();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedGraphicRebuild_d__18", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedGraphicRebuild_d__18", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextMeshProUGUI__DelayedGraphicRebuild_d__18(TextMeshProUGUI__DelayedGraphicRebuild_d__18&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedGraphicRebuild_d__18", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedGraphicRebuild_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextMeshProUGUI__DelayedGraphicRebuild_d__18(TextMeshProUGUI__DelayedGraphicRebuild_d__18 const&) = delete;
+  TextMeshProUGUI__DelayedGraphicRebuild_d__18(TextMeshProUGUI__DelayedGraphicRebuild_d__18const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15864 };
@@ -219,6 +226,7 @@ static_assert(offsetof(::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18, __
 static_assert(sizeof(::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18) == 0x28, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -251,17 +259,22 @@ public:
   /// @brief Method MoveNext, addr 0x6948158, size 0xc0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6948218, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6948220, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6948258, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6948154, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -283,6 +296,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TextMeshProUGUI> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x694814c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -301,13 +315,13 @@ protected:
   constexpr TextMeshProUGUI__DelayedMaterialRebuild_d__19();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedMaterialRebuild_d__19", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedMaterialRebuild_d__19", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextMeshProUGUI__DelayedMaterialRebuild_d__19(TextMeshProUGUI__DelayedMaterialRebuild_d__19&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedMaterialRebuild_d__19", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedMaterialRebuild_d__19", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextMeshProUGUI__DelayedMaterialRebuild_d__19(TextMeshProUGUI__DelayedMaterialRebuild_d__19 const&) = delete;
+  TextMeshProUGUI__DelayedMaterialRebuild_d__19(TextMeshProUGUI__DelayedMaterialRebuild_d__19const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15865 };
@@ -333,6 +347,12 @@ static_assert(offsetof(::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19, _
 static_assert(sizeof(::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19) == 0x28, "Size mismatch!");
 
 } // namespace TMPro
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
+// [RequireComponent(typeof(UnityEngine.CanvasRenderer))]
+// [AddComponentMenu("UI/TextMeshPro - Text (UI)", 11)]
+// [ExecuteAlways]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/index.html")]
 // Dependencies TMPro.TMP_SubMeshUI, TMPro.TMP_Text, Unity.Profiling.ProfilerMarker, UnityEngine.Matrix4x4, UnityEngine.Rect, UnityEngine.Vector3, UnityEngine.Vector4
 namespace TMPro {
 // Is value type: false
@@ -505,9 +525,11 @@ public:
   /// @brief Method Cull, addr 0x6941454, size 0x254, virtual true, abstract: false, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
+  /// [IteratorStateMachine(typeof(TMPro.TextMeshProUGUI::<DelayedGraphicRebuild>d__18))]
   /// @brief Method DelayedGraphicRebuild, addr 0x69409fc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedGraphicRebuild();
 
+  /// [IteratorStateMachine(typeof(TMPro.TextMeshProUGUI::<DelayedMaterialRebuild>d__19))]
   /// @brief Method DelayedMaterialRebuild, addr 0x6940a50, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedMaterialRebuild();
 
@@ -813,6 +835,7 @@ public:
   /// @brief Method .ctor, addr 0x694799c, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnPreRenderText, addr 0x6941dd8, size 0xc0, virtual true, abstract: false, final false
   inline void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
@@ -876,6 +899,7 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
   constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnPreRenderText, addr 0x6941e98, size 0xc0, virtual true, abstract: false, final false
   inline void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
@@ -933,13 +957,13 @@ protected:
   constexpr TextMeshProUGUI();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextMeshProUGUI(TextMeshProUGUI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextMeshProUGUI(TextMeshProUGUI const&) = delete;
+  TextMeshProUGUI(TextMeshProUGUIconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15866 };
@@ -962,9 +986,11 @@ public:
   /// @brief Field m_ValidRect, offset: 0x70c, size: 0x1, def value: None
   bool ___m_ValidRect;
 
+  /// [CompilerGenerated]
   /// @brief Field OnPreRenderText, offset: 0x710, size: 0x8, def value: None
   ::System::Action_1<::TMPro::TMP_TextInfo*>* ___OnPreRenderText;
 
+  /// [SerializeField]
   /// @brief Field m_hasFontAssetChanged, offset: 0x718, size: 0x1, def value: None
   bool ___m_hasFontAssetChanged;
 
@@ -992,12 +1018,14 @@ public:
   /// @brief Field m_max_characters, offset: 0x750, size: 0x4, def value: None
   int32_t ___m_max_characters;
 
+  /// [SerializeField]
   /// @brief Field m_baseMaterial, offset: 0x758, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_baseMaterial;
 
   /// @brief Field m_isScrollRegionSet, offset: 0x760, size: 0x1, def value: None
   bool ___m_isScrollRegionSet;
 
+  /// [SerializeField]
   /// @brief Field m_maskOffset, offset: 0x764, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_maskOffset;
 

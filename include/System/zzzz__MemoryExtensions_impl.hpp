@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "System\MemoryExtensions.hpp"
+// IWYU pragma private; include "System/MemoryExtensions.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__MemoryExtensions_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -224,49 +225,63 @@ inline ::System::ReadOnlySpan_1<char16_t> System::MemoryExtensions::TrimEnd(::Sy
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(), { "TrimEnd", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<char16_t>>(nullptr, ___internal_method, span);
 }
-template <typename T> inline int32_t System::MemoryExtensions::IndexOf(::System::Span_1<T> span, T value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline int32_t System::MemoryExtensions::IndexOf(::System::Span_1<T> span, T value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(), { "IndexOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Span_1<T>>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, span, value);
 }
-template <typename T> inline int32_t System::MemoryExtensions::IndexOf(::System::Span_1<T> span, ::System::ReadOnlySpan_1<T> value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline int32_t System::MemoryExtensions::IndexOf(::System::Span_1<T> span, ::System::ReadOnlySpan_1<T> value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(),
                                                            { "IndexOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Span_1<T>>(), ::i2c::type_of<::System::ReadOnlySpan_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, span, value);
 }
-template <typename T> inline int32_t System::MemoryExtensions::IndexOf(::System::ReadOnlySpan_1<T> span, T value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline int32_t System::MemoryExtensions::IndexOf(::System::ReadOnlySpan_1<T> span, T value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(), { "IndexOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::ReadOnlySpan_1<T>>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, span, value);
 }
-template <typename T> inline int32_t System::MemoryExtensions::IndexOfAny(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> values) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline int32_t System::MemoryExtensions::IndexOfAny(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> values) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(),
                                               { "IndexOfAny", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::ReadOnlySpan_1<T>>(), ::i2c::type_of<::System::ReadOnlySpan_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, span, values);
 }
-template <typename T> inline bool System::MemoryExtensions::SequenceEqual(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> other) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline bool System::MemoryExtensions::SequenceEqual(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(),
                                               { "SequenceEqual", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::ReadOnlySpan_1<T>>(), ::i2c::type_of<::System::ReadOnlySpan_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, span, other);
 }
-template <typename T> inline bool System::MemoryExtensions::StartsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline bool System::MemoryExtensions::StartsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(),
                                               { "StartsWith", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::ReadOnlySpan_1<T>>(), ::i2c::type_of<::System::ReadOnlySpan_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, span, value);
 }
-template <typename T> inline bool System::MemoryExtensions::EndsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline bool System::MemoryExtensions::EndsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MemoryExtensions*>(),
                                               { "EndsWith", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::ReadOnlySpan_1<T>>(), ::i2c::type_of<::System::ReadOnlySpan_1<T>>() } })));

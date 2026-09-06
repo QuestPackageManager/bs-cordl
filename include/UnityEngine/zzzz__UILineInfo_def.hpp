@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UILineInfo.hpp"
+// IWYU pragma private; include "UnityEngine/UILineInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct UILineInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UILineInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UILineInfo, "UnityEngine", "UILineInfo");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -25,8 +26,9 @@ public:
   // @brief default ctor
   constexpr UILineInfo();
 
-  // Ctor Parameters [CppParam { name: "startCharIdx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "topY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "leading", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "startCharIdx", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "topY", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "leading", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr UILineInfo(int32_t startCharIdx, int32_t height, float_t topY, float_t leading) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeHashMap_2.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeHashMap_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__HashMapHelper_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -26,7 +27,9 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey> struct HashMapHelper_1;
+template <typename TKey>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
+struct HashMapHelper_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
@@ -35,32 +38,55 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct KVPair_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct KVPair_2;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeHashMap_2_Enumerator;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeHashMap_2_Enumerator;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeHashMap_2_ReadOnly;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeHashMap_2_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeKeyValueArrays_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeKeyValueArrays_2;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeHashMap_2;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeHashMap_2_Enumerator;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeHashMap_2_Enumerator;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeHashMap_2_ReadOnly;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeHashMap_2_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeHashMap_2);
@@ -69,10 +95,14 @@ MARK_GEN_VAL_T(::Unity::Collections::NativeHashMap_2_ReadOnly);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeHashMap_2, "Unity.Collections", "NativeHashMap`2");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeHashMap_2_Enumerator, "Unity.Collections", "NativeHashMap`2/Enumerator");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeHashMap_2_ReadOnly, "Unity.Collections", "NativeHashMap`2/ReadOnly");
-// Dependencies Unity.Collections.LowLevel.Unsafe.HashMapHelper`1::Enumerator<TKey>
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1::Enumerator<TKey>
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeHashMap`2/Enumerator<TKey,TValue>
 struct CORDL_TYPE NativeHashMap_2_Enumerator {
@@ -119,7 +149,7 @@ public:
   // @brief default ctor
   constexpr NativeHashMap_2_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<TKey>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<TKey>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeHashMap_2_Enumerator(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<TKey> m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -128,6 +158,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Enumerator, offset: 0x0, size: 0x18, def value: None
   ::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<TKey> m_Enumerator;
 
@@ -135,10 +166,16 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies
+// [DefaultMember("Item")]
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeHashMap`2/ReadOnly<TKey,TValue>
 struct CORDL_TYPE NativeHashMap_2_ReadOnly {
@@ -160,21 +197,28 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [IsReadOnly]
   /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ContainsKey(TKey key);
 
+  /// [IsReadOnly]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeHashMap_2_Enumerator<TKey, TValue> GetEnumerator();
 
+  /// [IsReadOnly]
   /// @brief Method GetKeyArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<TKey> GetKeyArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method GetKeyValueArrays, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeKeyValueArrays_2<TKey, TValue> GetKeyValueArrays(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method GetValueArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<TValue> GetValueArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
@@ -184,27 +228,36 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowKeyNotPresent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowKeyNotPresent(TKey key);
 
+  /// [IsReadOnly]
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValue(TKey key, ::by_ref<TValue> item);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::NativeHashMap_2<TKey, TValue>> data);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
+  /// [IsReadOnly]
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue get_Item(TKey key);
 
@@ -218,7 +271,7 @@ public:
   // @brief default ctor
   constexpr NativeHashMap_2_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>*", modifiers: "", def_value: None, comment: None }]
   constexpr NativeHashMap_2_ReadOnly(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>* m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -227,6 +280,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Data, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>* m_Data;
 
@@ -234,10 +288,16 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies
+// [DefaultMember("Item")]
+// [NativeContainer]
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeHashMapDebuggerTypeProxy`2<TKey, TValue>))]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeHashMap`2<TKey,TValue>
 struct CORDL_TYPE NativeHashMap_2 {
@@ -275,9 +335,12 @@ public:
   /// @brief Method AsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeHashMap_2_ReadOnly<TKey, TValue> AsReadOnly();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckWrite, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckWrite();
 
@@ -314,9 +377,13 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowKeyAlreadyAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowKeyAlreadyAdded(TKey key);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowKeyNotPresent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowKeyNotPresent(TKey key);
 
@@ -332,15 +399,19 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
@@ -369,7 +440,7 @@ public:
   // @brief default ctor
   constexpr NativeHashMap_2();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>*", modifiers: "", def_value: None, comment: None }]
   constexpr NativeHashMap_2(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>* m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -378,6 +449,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Data, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>* m_Data;
 

@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPermissionsRequester.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPermissionsRequester.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPermissionsRequester_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPermissionsRequester_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/Android/zzzz__PermissionCallbacks_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPermissionsRequester_Permission::OVRPermissionsRequester_Permission(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\TextOverflow.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/TextOverflow.hpp"
 #include "UnityEngine/TextCore/zzzz__TextOverflow_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::TextOverflow::TextOverflow(int32_t value__) noexcept {
   this->value__ = value__;
 }

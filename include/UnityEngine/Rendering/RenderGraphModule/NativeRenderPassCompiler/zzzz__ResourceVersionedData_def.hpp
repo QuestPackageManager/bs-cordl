@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\ResourceVersionedData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourceVersionedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,8 +37,8 @@ public:
   // @brief default ctor
   constexpr ResourceVersionedData();
 
-  // Ctor Parameters [CppParam { name: "written", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "writePassId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "numReaders", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "written", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "writePassId", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "numReaders", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ResourceVersionedData(bool written, int32_t writePassId, int32_t numReaders) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

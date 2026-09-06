@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentIntensityReductionOptions.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentIntensityReductionOptions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentIntensityReductionOptions_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentIntensityReductionOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType::EnvironmentIntensityReductionOptions_CompressExpandReductionType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -15,7 +15,7 @@ constexpr ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpand
 constexpr ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType::RemoveWithStrobeFilter{
   static_cast<int32_t>(0x1)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType::EnvironmentIntensityReductionOptions_RotateRingsReductionType(int32_t value__) noexcept {
   this->value__ = value__;
 }

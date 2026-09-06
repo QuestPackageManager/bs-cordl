@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LODGroup.hpp"
+// IWYU pragma private; include "UnityEngine/LODGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,10 @@ class LODGroup;
 // Write type traits
 MARK_REF_T(::UnityEngine::LODGroup*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LODGroup*, "UnityEngine", "LODGroup");
+// [NativeHeader("Runtime/Graphics/LOD/LODGroup.h")]
+// [NativeHeader("Runtime/Graphics/LOD/LODGroupManager.h")]
+// [NativeHeader("Runtime/Graphics/LOD/LODUtility.h")]
+// [StaticAccessor("GetLODGroupManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -48,13 +52,13 @@ protected:
   constexpr LODGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LODGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LODGroup(LODGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LODGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LODGroup(LODGroup const&) = delete;
+  LODGroup(LODGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10213 };

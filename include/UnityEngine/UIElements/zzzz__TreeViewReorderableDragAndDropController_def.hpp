@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TreeViewReorderableDragAndDropController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TreeViewReorderableDragAndDropController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,13 +118,13 @@ protected:
   constexpr TreeViewReorderableDragAndDropController_DropData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController_DropData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController_DropData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TreeViewReorderableDragAndDropController_DropData(TreeViewReorderableDragAndDropController_DropData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController_DropData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController_DropData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeViewReorderableDragAndDropController_DropData(TreeViewReorderableDragAndDropController_DropData const&) = delete;
+  TreeViewReorderableDragAndDropController_DropData(TreeViewReorderableDragAndDropController_DropDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4411 };
@@ -244,13 +244,13 @@ protected:
   constexpr TreeViewReorderableDragAndDropController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TreeViewReorderableDragAndDropController(TreeViewReorderableDragAndDropController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeViewReorderableDragAndDropController(TreeViewReorderableDragAndDropController const&) = delete;
+  TreeViewReorderableDragAndDropController(TreeViewReorderableDragAndDropControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4412 };

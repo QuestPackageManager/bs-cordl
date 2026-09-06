@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugManager.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugActionDesc_impl.hpp"
@@ -23,7 +23,7 @@
 #include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugData_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DebugManager_UIMode::DebugManager_UIMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1391,12 +1391,12 @@ inline void UnityEngine::Rendering::DebugManager::OnPanelDirty(::UnityEngine::Re
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugManager*>(), { "OnPanelDirty", {}, { ::i2c::type_of<::UnityEngine::Rendering::DebugUI_Panel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
 }
-inline int32_t UnityEngine::Rendering::DebugManager::PanelIndex(::StringW displayName) {
+inline int32_t UnityEngine::Rendering::DebugManager::PanelIndex(/* [DisallowNull] */ ::StringW displayName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugManager*>(), { "PanelIndex", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, displayName);
 }
-inline ::StringW UnityEngine::Rendering::DebugManager::PanelDiplayName(int32_t panelIndex) {
+inline ::StringW UnityEngine::Rendering::DebugManager::PanelDiplayName(/* [DisallowNull] */ int32_t panelIndex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugManager*>(), { "PanelDiplayName", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, panelIndex);

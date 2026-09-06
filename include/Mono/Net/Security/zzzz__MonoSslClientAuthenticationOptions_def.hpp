@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\MonoSslClientAuthenticationOptions.hpp"
+// IWYU pragma private; include "Mono/Net/Security/MonoSslClientAuthenticationOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,6 +80,7 @@ public:
   /// @brief Method get_EnabledSslProtocols, addr 0x5fdcd60, size 0x18, virtual true, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Options, addr 0x5fdcd20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::SslClientAuthenticationOptions* get_Options();
 
@@ -119,17 +120,18 @@ protected:
   constexpr MonoSslClientAuthenticationOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoSslClientAuthenticationOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoSslClientAuthenticationOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoSslClientAuthenticationOptions(MonoSslClientAuthenticationOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoSslClientAuthenticationOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoSslClientAuthenticationOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoSslClientAuthenticationOptions(MonoSslClientAuthenticationOptions const&) = delete;
+  MonoSslClientAuthenticationOptions(MonoSslClientAuthenticationOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11031 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Options>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Net::Security::SslClientAuthenticationOptions* ____Options_k__BackingField;
 

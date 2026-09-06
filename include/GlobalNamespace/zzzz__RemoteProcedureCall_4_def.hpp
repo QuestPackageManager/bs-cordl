@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RemoteProcedureCall_4.hpp"
+// IWYU pragma private; include "GlobalNamespace/RemoteProcedureCall_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,13 +113,13 @@ protected:
   constexpr RemoteProcedureCall_4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteProcedureCall_4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteProcedureCall_4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemoteProcedureCall_4(RemoteProcedureCall_4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteProcedureCall_4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteProcedureCall_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemoteProcedureCall_4(RemoteProcedureCall_4 const&) = delete;
+  RemoteProcedureCall_4(RemoteProcedureCall_4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18266 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Math.hpp"
+// IWYU pragma private; include "TMPro/TMP_Math.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ protected:
   constexpr TMP_Math();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Math", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Math", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Math(TMP_Math&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Math", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Math", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Math(TMP_Math const&) = delete;
+  TMP_Math(TMP_Mathconst&) = delete;
 
   /// @brief Field FLOAT_MAX offset 0xffffffff size 0x4
   static constexpr float_t FLOAT_MAX{ static_cast<float_t>(32767.0f) };

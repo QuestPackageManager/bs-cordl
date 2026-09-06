@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\XR\GoogleVr\DaydreamHMD.hpp"
+// IWYU pragma private; include "Unity/XR/GoogleVr/DaydreamHMD.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class DaydreamHMD;
 // Write type traits
 MARK_REF_T(::Unity::XR::GoogleVr::DaydreamHMD*);
 DEFINE_IL2CPP_CLASS(::Unity::XR::GoogleVr::DaydreamHMD*, "Unity.XR.GoogleVr", "DaydreamHMD");
+// [InputControlLayout(displayName = "Daydream Headset", hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.XR.XRHMD
 namespace Unity::XR::GoogleVr {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr DaydreamHMD();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DaydreamHMD", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DaydreamHMD", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DaydreamHMD(DaydreamHMD&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DaydreamHMD", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DaydreamHMD", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DaydreamHMD(DaydreamHMD const&) = delete;
+  DaydreamHMD(DaydreamHMDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8603 };

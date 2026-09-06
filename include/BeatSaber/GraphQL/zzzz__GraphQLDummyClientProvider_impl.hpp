@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\GraphQLDummyClientProvider.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/GraphQLDummyClientProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/GraphQL/zzzz__GraphQLDummyClientProvider_def.hpp"
 #include "BeatSaber/GraphQL/zzzz__BSClientProviderInitializationState_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeReferenceDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeReferenceDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct NativeReferenceDisposeJob;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeReferenceDisposeJob);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeReferenceDisposeJob, "Unity.Collections", "NativeReferenceDisposeJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeReferenceDispose
 namespace Unity::Collections {
 // Is value type: true
@@ -36,7 +37,7 @@ public:
   // @brief default ctor
   constexpr NativeReferenceDisposeJob();
 
-  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeReferenceDispose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeReferenceDispose", modifiers: "", def_value: None, comment: None }]
   constexpr NativeReferenceDisposeJob(::Unity::Collections::NativeReferenceDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,12 +1,15 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TrackAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TrackAsset.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableAsset_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__DiscreteTime_impl.hpp"
+#include "UnityEngine/Timeline/zzzz__IMarker_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__MarkerList_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_impl.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -41,7 +44,7 @@
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::TrackAsset_Versions::TrackAsset_Versions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -85,9 +88,9 @@ inline void UnityEngine::Timeline::TrackAsset_TransientBuildData::Clear() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset_TransientBuildData>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "trackList", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "clipList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "markerList", ty:
-// "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "trackList", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "clipList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "markerList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::TrackAsset_TransientBuildData::TrackAsset_TransientBuildData(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* trackList,
                                                                                                 ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* clipList,
                                                                                                 ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* markerList) noexcept {
@@ -351,6 +354,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::Timeline::TrackAsset__ge
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset__get_outputs_d__65*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::Timeline::TrackAsset__get_outputs_d__65* UnityEngine::Timeline::TrackAsset__get_outputs_d__65::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Timeline::TrackAsset__get_outputs_d__65*>(__1__state));
 }
@@ -2199,7 +2203,9 @@ inline ::UnityEngine::Timeline::TimelineClip* UnityEngine::Timeline::TrackAsset:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "CreateDefaultClip", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Timeline::TimelineClip*>(this, ___internal_method);
 }
-template <typename T> inline ::UnityEngine::Timeline::TimelineClip* UnityEngine::Timeline::TrackAsset::CreateClip() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableAsset*>)
+inline ::UnityEngine::Timeline::TimelineClip* UnityEngine::Timeline::TrackAsset::CreateClip() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "CreateClip", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -2215,7 +2221,9 @@ inline ::UnityEngine::Timeline::IMarker* UnityEngine::Timeline::TrackAsset::Crea
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "CreateMarker", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<double_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Timeline::IMarker*>(this, ___internal_method, type, time);
 }
-template <typename T> inline T UnityEngine::Timeline::TrackAsset::CreateMarker(double_t time) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IMarker*>)
+inline T UnityEngine::Timeline::TrackAsset::CreateMarker(double_t time) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "CreateMarker", { ::i2c::class_of<T>() }, { ::i2c::type_of<double_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

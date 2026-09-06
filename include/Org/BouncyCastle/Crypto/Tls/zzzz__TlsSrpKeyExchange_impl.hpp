@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsSrpKeyExchange.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsSrpKeyExchange.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsKeyExchange_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpKeyExchange_def.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/Srp/zzzz__Srp6Client_def.hpp"
@@ -514,6 +514,7 @@ inline ::Org::BouncyCastle::Crypto::ISigner* Org::BouncyCastle::Crypto::Tls::Tls
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange*>(), 35 })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::ISigner*>(this, ___internal_method, tlsSigner, algorithm, securityParameters);
 }
+/// @brief [Obsolete("Use constructor taking an explicit \'groupVerifier\' argument")]
 inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange* Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange::New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                                                                         ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange*>(keyExchange, supportedSignatureAlgorithms, identity, password));

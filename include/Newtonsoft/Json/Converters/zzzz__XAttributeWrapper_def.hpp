@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XAttributeWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XAttributeWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class XAttributeWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XAttributeWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XAttributeWrapper*, "Newtonsoft.Json.Converters", "XAttributeWrapper");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.XObjectWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -26,6 +28,7 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE XAttributeWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
   // Declarations
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_Attribute)) ::System::Xml::Linq::XAttribute* Attribute;
 
   __declspec(property(get = get_LocalName)) ::StringW LocalName;
@@ -36,11 +39,14 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Converters::XAttributeWrapper* New_ctor(::System::Xml::Linq::XAttribute* attribute);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5da10a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XAttribute* attribute);
 
+  /// [NullableContext(1)]
   /// @brief Method get_Attribute, addr 0x5da1c1c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XAttribute* get_Attribute();
 
@@ -65,13 +71,13 @@ protected:
   constexpr XAttributeWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XAttributeWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XAttributeWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XAttributeWrapper(XAttributeWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XAttributeWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XAttributeWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XAttributeWrapper(XAttributeWrapper const&) = delete;
+  XAttributeWrapper(XAttributeWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13687 };

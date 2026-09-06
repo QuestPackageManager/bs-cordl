@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\PlatformSettings.hpp"
+// IWYU pragma private; include "Oculus/Platform/PlatformSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,26 +104,30 @@ protected:
   constexpr PlatformSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformSettings(PlatformSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformSettings(PlatformSettings const&) = delete;
+  PlatformSettings(PlatformSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17975 };
 
+  /// [SerializeField]
   /// @brief Field ovrAppID, offset: 0x18, size: 0x8, def value: None
   ::StringW ___ovrAppID;
 
+  /// [SerializeField]
   /// @brief Field ovrMobileAppID, offset: 0x20, size: 0x8, def value: None
   ::StringW ___ovrMobileAppID;
 
+  /// [SerializeField]
   /// @brief Field ovrUseMobileAppIDInEditor, offset: 0x28, size: 0x1, def value: None
   bool ___ovrUseMobileAppIDInEditor;
 
+  /// [SerializeField]
   /// @brief Field ovrUseStandalonePlatform, offset: 0x29, size: 0x1, def value: None
   bool ___ovrUseStandalonePlatform;
 

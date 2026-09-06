@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalDrawSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalDrawSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawSystem_def.hpp"
@@ -400,12 +400,12 @@ inline void UnityEngine::Rendering::Universal::DecalDrawSystem::DrawInstanced(::
                                                   ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, decalEntityChunk, decalCachedChunk, decalDrawCallChunk, passIndex);
 }
-inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawSystem*>(),
                                                                                          { "Execute", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData);
 }
-inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
+inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
                                                                         ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                                                                         ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk,
                                                                         ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t count) {
@@ -418,7 +418,7 @@ inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Execute(::by_ref
                                                   ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData, decalEntityChunk, decalCachedChunk, decalDrawCallChunk, count);
 }
-inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Draw(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
+inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Draw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
                                                                      ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                                                                      ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk,
                                                                      ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk) {
@@ -431,7 +431,7 @@ inline void UnityEngine::Rendering::Universal::DecalDrawSystem::Draw(::by_ref<::
                                            ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalCachedChunk*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData, decalEntityChunk, decalCachedChunk, decalDrawCallChunk);
 }
-inline void UnityEngine::Rendering::Universal::DecalDrawSystem::DrawInstanced(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
+inline void UnityEngine::Rendering::Universal::DecalDrawSystem::DrawInstanced(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData,
                                                                               ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                                                                               ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk,
                                                                               ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk) {

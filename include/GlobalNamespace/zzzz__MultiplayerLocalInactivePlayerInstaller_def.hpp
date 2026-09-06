@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalInactivePlayerInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalInactivePlayerInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,26 +82,30 @@ protected:
   constexpr MultiplayerLocalInactivePlayerInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstaller const&) = delete;
+  MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6100 };
 
+  /// [Inject]
   /// @brief Field _audioManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::AudioManager* ____audioManager;
 
+  /// [Inject]
   /// @brief Field _sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _optionalAvatarDataSender, offset: 0x40, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;
 

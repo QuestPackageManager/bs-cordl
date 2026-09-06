@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AudioLowPassFilter.hpp"
+// IWYU pragma private; include "UnityEngine/AudioLowPassFilter.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__AudioLowPassFilter_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -203,7 +203,7 @@ inline ::UnityEngine::AnimationCurve* UnityEngine::AudioLowPassFilter::GetCustom
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioLowPassFilter*>(), { "GetCustomLowpassLevelCurveCopy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AnimationCurve*>(this, ___internal_method);
 }
-inline void UnityEngine::AudioLowPassFilter::SetCustomLowpassLevelCurveHelper(::UnityEngine::AudioLowPassFilter* source, ::UnityEngine::AnimationCurve* curve) {
+inline void UnityEngine::AudioLowPassFilter::SetCustomLowpassLevelCurveHelper(/* [NotNull] */ ::UnityEngine::AudioLowPassFilter* source, ::UnityEngine::AnimationCurve* curve) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioLowPassFilter*>(),
                                               { "SetCustomLowpassLevelCurveHelper", {}, { ::i2c::type_of<::UnityEngine::AudioLowPassFilter*>(), ::i2c::type_of<::UnityEngine::AnimationCurve*>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Claims\ClaimsIdentity.hpp"
+// IWYU pragma private; include "System/Security/Claims/ClaimsIdentity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ MARK_REF_T(::System::Security::Claims::ClaimsIdentity*);
 MARK_REF_T(::System::Security::Claims::ClaimsIdentity__get_Claims_d__51*);
 DEFINE_IL2CPP_CLASS(::System::Security::Claims::ClaimsIdentity*, "System.Security.Claims", "ClaimsIdentity");
 DEFINE_IL2CPP_CLASS(::System::Security::Claims::ClaimsIdentity__get_Claims_d__51*, "System.Security.Claims", "ClaimsIdentity/<get_Claims>d__51");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Security::Claims {
 // Is value type: false
@@ -107,23 +108,30 @@ public:
   /// @brief Method MoveNext, addr 0x5b1aaa8, size 0x3f4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Security::Claims::ClaimsIdentity__get_Claims_d__51* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>.GetEnumerator, addr 0x5b1af98, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>* System_Collections_Generic_IEnumerable_System_Security_Claims_Claim__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Claims.Claim>.get_Current, addr 0x5b1af50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Security::Claims::Claim* System_Collections_Generic_IEnumerator_System_Security_Claims_Claim__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5b1b030, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5b1af58, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5b1af90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5b1aa8c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -166,6 +174,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x5b1ae9c, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5b199fc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -190,13 +199,13 @@ protected:
   constexpr ClaimsIdentity__get_Claims_d__51();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity__get_Claims_d__51", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity__get_Claims_d__51", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClaimsIdentity__get_Claims_d__51(ClaimsIdentity__get_Claims_d__51&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity__get_Claims_d__51", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity__get_Claims_d__51", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClaimsIdentity__get_Claims_d__51(ClaimsIdentity__get_Claims_d__51 const&) = delete;
+  ClaimsIdentity__get_Claims_d__51(ClaimsIdentity__get_Claims_d__51const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3025 };
@@ -237,6 +246,7 @@ static_assert(offsetof(::System::Security::Claims::ClaimsIdentity__get_Claims_d_
 static_assert(sizeof(::System::Security::Claims::ClaimsIdentity__get_Claims_d__51) == 0x40, "Size mismatch!");
 
 } // namespace System::Security::Claims
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Security::Claims {
 // Is value type: false
@@ -337,12 +347,15 @@ public:
 
   static inline ::System::Security::Claims::ClaimsIdentity* New_ctor(::System::Security::Claims::ClaimsIdentity* other);
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserializedMethod, addr 0x5b1a018, size 0xd0, virtual false, abstract: false, final false
   inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
 
+  /// [OnDeserializing]
   /// @brief Method OnDeserializingMethod, addr 0x5b1a404, size 0xe4, virtual false, abstract: false, final false
   inline void OnDeserializingMethod(::System::Runtime::Serialization::StreamingContext context);
 
+  /// [OnSerializing]
   /// @brief Method OnSerializingMethod, addr 0x5b19d80, size 0x68, virtual false, abstract: false, final false
   inline void OnSerializingMethod(::System::Runtime::Serialization::StreamingContext context);
 
@@ -459,6 +472,7 @@ public:
   /// @brief Method get_AuthenticationType, addr 0x5b1996c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_AuthenticationType();
 
+  /// [IteratorStateMachine(typeof(System.Security.Claims.ClaimsIdentity::<get_Claims>d__51))]
   /// @brief Method get_Claims, addr 0x5b133a0, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* get_Claims();
 
@@ -480,13 +494,13 @@ protected:
   constexpr ClaimsIdentity();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClaimsIdentity(ClaimsIdentity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClaimsIdentity(ClaimsIdentity const&) = delete;
+  ClaimsIdentity(ClaimsIdentityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3026 };
@@ -506,27 +520,35 @@ public:
   /// @brief Field m_roleType, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_roleType;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_version, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_version;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_actor, offset: 0x40, size: 0x8, def value: None
   ::System::Security::Claims::ClaimsIdentity* ___m_actor;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_authenticationType, offset: 0x48, size: 0x8, def value: None
   ::StringW ___m_authenticationType;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_bootstrapContext, offset: 0x50, size: 0x8, def value: None
   ::System::Object* ___m_bootstrapContext;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_label, offset: 0x58, size: 0x8, def value: None
   ::StringW ___m_label;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_serializedNameType, offset: 0x60, size: 0x8, def value: None
   ::StringW ___m_serializedNameType;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_serializedRoleType, offset: 0x68, size: 0x8, def value: None
   ::StringW ___m_serializedRoleType;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_serializedClaims, offset: 0x70, size: 0x8, def value: None
   ::StringW ___m_serializedClaims;
 

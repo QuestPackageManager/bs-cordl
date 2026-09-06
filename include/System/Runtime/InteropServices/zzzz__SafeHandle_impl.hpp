@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\SafeHandle.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/SafeHandle.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
@@ -325,6 +325,7 @@ inline void System::Runtime::InteropServices::SafeHandle::DangerousReleaseIntern
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::SafeHandle*>(), { "DangerousReleaseInternal", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dispose);
 }
+/// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
 inline ::System::Runtime::InteropServices::SafeHandle* System::Runtime::InteropServices::SafeHandle::New_ctor(::System::IntPtr invalidHandleValue, bool ownsHandle) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::InteropServices::SafeHandle*>(invalidHandleValue, ownsHandle));
 }

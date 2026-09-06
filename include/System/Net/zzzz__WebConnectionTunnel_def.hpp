@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\WebConnectionTunnel.hpp"
+// IWYU pragma private; include "System/Net/WebConnectionTunnel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,7 +109,7 @@ public:
   // @brief default ctor
   constexpr WebConnectionTunnel_NtlmAuthState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr WebConnectionTunnel_NtlmAuthState(int32_t value__) noexcept;
 
   /// @brief Field Challenge value: I32(1)
@@ -138,6 +138,7 @@ static_assert(offsetof(::System::Net::WebConnectionTunnel_NtlmAuthState, value__
 static_assert(sizeof(::System::Net::WebConnectionTunnel_NtlmAuthState) == 0x4, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken, System.ValueTuple`3<T1, T2, T3>
 namespace System::Net {
@@ -152,6 +153,7 @@ public:
   /// @brief Method MoveNext, addr 0x6345ec0, size 0xd90, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x6346c50, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -162,13 +164,13 @@ public:
   // @brief default ctor
   constexpr WebConnectionTunnel__Initialize_d__42();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnectionTunnel*", modifiers: "", def_value:
-  // None }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
-  // "", def_value: None }, CppParam { name: "_have_auth_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::ValueTuple_3<::System::Net::WebHeaderCollection*,::ArrayW<uint8_t>,int32_t>>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnectionTunnel*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_have_auth_5__2", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
+  // ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::ValueTuple_3<::System::Net::WebHeaderCollection*,::ArrayW<uint8_t>,int32_t>>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr WebConnectionTunnel__Initialize_d__42(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebConnectionTunnel* __4__this, ::System::IO::Stream* stream,
       ::System::Threading::CancellationToken cancellationToken, bool _have_auth_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
@@ -226,6 +228,7 @@ static_assert(offsetof(::System::Net::WebConnectionTunnel__Initialize_d__42, __u
 static_assert(sizeof(::System::Net::WebConnectionTunnel__Initialize_d__42) == 0x60, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken, System.ValueTuple`3<T1, T2, T3>
 namespace System::Net {
@@ -240,6 +243,7 @@ public:
   /// @brief Method MoveNext, addr 0x6346cbc, size 0x870, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x634752c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -250,13 +254,14 @@ public:
   // @brief default ctor
   constexpr WebConnectionTunnel__ReadHeaders_d__43();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*,::ArrayW<uint8_t>,int32_t>>", modifiers: "", def_value: None }, CppParam
-  // { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: None
-  // }, CppParam { name: "__4__this", ty: "::System::Net::WebConnectionTunnel*", modifiers: "", def_value: None }, CppParam { name: "_retBuffer_5__2", ty: "::ArrayW<uint8_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "_status_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_buffer_5__4", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None },
-  // CppParam { name: "_ms_5__5", ty: "::System::IO::MemoryStream*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*,::ArrayW<uint8_t>,int32_t>>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "stream", ty:
+  // "::System::IO::Stream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnectionTunnel*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_retBuffer_5__2", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_status_5__3", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_buffer_5__4", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ms_5__5", ty: "::System::IO::MemoryStream*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr WebConnectionTunnel__ReadHeaders_d__43(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*, ::ArrayW<uint8_t>, int32_t>> __t__builder,
       ::System::Threading::CancellationToken cancellationToken, ::System::IO::Stream* stream, ::System::Net::WebConnectionTunnel* __4__this, ::ArrayW<uint8_t> _retBuffer_5__2, int32_t _status_5__3,
@@ -396,11 +401,13 @@ public:
   /// @brief Method FlushContents, addr 0x6345e24, size 0x9c, virtual false, abstract: false, final false
   inline void FlushContents(::System::IO::Stream* stream, int32_t contentLength);
 
+  /// [AsyncStateMachine(typeof(System.Net.WebConnectionTunnel::<Initialize>d__42))]
   /// @brief Method Initialize, addr 0x6345c5c, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Initialize(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::WebConnectionTunnel* New_ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
+  /// [AsyncStateMachine(typeof(System.Net.WebConnectionTunnel::<ReadHeaders>d__43))]
   /// @brief Method ReadHeaders, addr 0x6345d28, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*, ::ArrayW<uint8_t>, int32_t>>*
   ReadHeaders(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
@@ -480,54 +487,71 @@ public:
   /// @brief Method .ctor, addr 0x6345bdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Challenge, addr 0x6345c1c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_Challenge();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CloseConnection, addr 0x6345bf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_CloseConnection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ConnectUri, addr 0x6345bd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_ConnectUri();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Data, addr 0x6345c4c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Data();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Headers, addr 0x6345c2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ProxyVersion, addr 0x6345c3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_ProxyVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Request, addr 0x6345bcc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
+  /// [CompilerGenerated]
   /// @brief Method get_StatusCode, addr 0x6345c04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StatusCode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Success, addr 0x6345be4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Success();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Challenge, addr 0x6345c24, size 0x8, virtual false, abstract: false, final false
   inline void set_Challenge(::ArrayW<::StringW> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CloseConnection, addr 0x6345bfc, size 0x8, virtual false, abstract: false, final false
   inline void set_CloseConnection(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Data, addr 0x6345c54, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::ArrayW<uint8_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Headers, addr 0x6345c34, size 0x8, virtual false, abstract: false, final false
   inline void set_Headers(::System::Net::WebHeaderCollection* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ProxyVersion, addr 0x6345c44, size 0x8, virtual false, abstract: false, final false
   inline void set_ProxyVersion(::System::Version* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_StatusCode, addr 0x6345c0c, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusCode(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_StatusDescription, addr 0x6345c14, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusDescription(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Success, addr 0x6345bec, size 0x8, virtual false, abstract: false, final false
   inline void set_Success(bool value);
 
@@ -537,20 +561,22 @@ protected:
   constexpr WebConnectionTunnel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionTunnel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionTunnel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebConnectionTunnel(WebConnectionTunnel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionTunnel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionTunnel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebConnectionTunnel(WebConnectionTunnel const&) = delete;
+  WebConnectionTunnel(WebConnectionTunnelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11648 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Request>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::HttpWebRequest* ____Request_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ConnectUri>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Uri* ____ConnectUri_k__BackingField;
 
@@ -560,27 +586,35 @@ public:
   /// @brief Field ntlmAuthState, offset: 0x28, size: 0x4, def value: None
   ::System::Net::WebConnectionTunnel_NtlmAuthState ___ntlmAuthState;
 
+  /// [CompilerGenerated]
   /// @brief Field <Success>k__BackingField, offset: 0x2c, size: 0x1, def value: None
   bool ____Success_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CloseConnection>k__BackingField, offset: 0x2d, size: 0x1, def value: None
   bool ____CloseConnection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <StatusCode>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____StatusCode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <StatusDescription>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____StatusDescription_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Challenge>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::StringW> ____Challenge_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Headers>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Net::WebHeaderCollection* ____Headers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ProxyVersion>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::System::Version* ____ProxyVersion_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Data>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____Data_k__BackingField;
 

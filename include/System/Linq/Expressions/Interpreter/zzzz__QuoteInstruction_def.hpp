@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\QuoteInstruction.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/QuoteInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,13 +126,13 @@ protected:
   constexpr QuoteInstruction_ExpressionQuoter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction_ExpressionQuoter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction_ExpressionQuoter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuoteInstruction_ExpressionQuoter(QuoteInstruction_ExpressionQuoter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction_ExpressionQuoter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction_ExpressionQuoter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuoteInstruction_ExpressionQuoter(QuoteInstruction_ExpressionQuoter const&) = delete;
+  QuoteInstruction_ExpressionQuoter(QuoteInstruction_ExpressionQuoterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16616 };
@@ -217,13 +217,13 @@ protected:
   constexpr QuoteInstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuoteInstruction(QuoteInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuoteInstruction(QuoteInstruction const&) = delete;
+  QuoteInstruction(QuoteInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16617 };

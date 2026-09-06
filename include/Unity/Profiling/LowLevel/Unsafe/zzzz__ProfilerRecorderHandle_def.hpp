@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\LowLevel\Unsafe\ProfilerRecorderHandle.hpp"
+// IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerRecorderHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ struct ProfilerRecorderHandle;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle, "Unity.Profiling.LowLevel.Unsafe", "ProfilerRecorderHandle");
+// [IsReadOnly]
+// [UsedByNativeCode]
 // Dependencies
 namespace Unity::Profiling::LowLevel::Unsafe {
 // Is value type: true
@@ -38,8 +40,9 @@ public:
   /// @brief Field handle, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle)) uint64_t handle;
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetAvailable, addr 0x6a5e0dc, size 0x1b4, virtual false, abstract: false, final false
-  static inline void GetAvailable(::System::Collections::Generic::List_1<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>* outRecorderHandleList);
+  static inline void GetAvailable(/* [NotNull] */ ::System::Collections::Generic::List_1<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>* outRecorderHandleList);
 
   /// @brief Method GetAvailable_Injected, addr 0x6a5e290, size 0x3c, virtual false, abstract: false, final false
   static inline void GetAvailable_Injected(::by_ref<::UnityEngine::Bindings::BlittableListWrapper> outRecorderHandleList);
@@ -47,6 +50,7 @@ public:
   /// @brief Method GetByName, addr 0x6a5e38c, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle GetByName(::Unity::Profiling::ProfilerCategory category, char16_t* name, int32_t nameLen);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetByName_Unsafe, addr 0x6a5e394, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle GetByName_Unsafe(::Unity::Profiling::ProfilerCategory category, char16_t* name, int32_t nameLen);
 
@@ -54,6 +58,7 @@ public:
   static inline void GetByName_Unsafe_Injected(::by_ref<::Unity::Profiling::ProfilerCategory> category, char16_t* name, int32_t nameLen,
                                                ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> ret);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetByName__Unmanaged, addr 0x6a5e2cc, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle GetByName__Unmanaged(::Unity::Profiling::ProfilerCategory category, uint8_t* name, int32_t nameLen);
 
@@ -64,6 +69,7 @@ public:
   /// @brief Method GetDescription, addr 0x6a5df7c, size 0xdc, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription GetDescription(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle handle);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetDescriptionInternal, addr 0x6a5e058, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription GetDescriptionInternal(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle handle);
 
@@ -87,7 +93,7 @@ public:
   // @brief default ctor
   constexpr ProfilerRecorderHandle();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerRecorderHandle(uint64_t handle) noexcept;
 
 private:

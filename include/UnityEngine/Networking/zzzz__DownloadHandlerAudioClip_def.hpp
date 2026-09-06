@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerAudioClip.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerAudioClip.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -58,13 +60,13 @@ protected:
   constexpr DownloadHandlerAudioClip_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DownloadHandlerAudioClip_BindingsMarshaller(DownloadHandlerAudioClip_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerAudioClip_BindingsMarshaller(DownloadHandlerAudioClip_BindingsMarshaller const&) = delete;
+  DownloadHandlerAudioClip_BindingsMarshaller(DownloadHandlerAudioClip_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23309 };
@@ -75,6 +77,7 @@ public:
 static_assert(sizeof(::UnityEngine::Networking::DownloadHandlerAudioClip_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
+// [NativeHeader("Modules/UnityWebRequestAudio/Public/DownloadHandlerAudioClip.h")]
 // Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Networking.DownloadHandler
 namespace UnityEngine::Networking {
 // Is value type: false
@@ -84,6 +87,7 @@ public:
   // Declarations
   using BindingsMarshaller = ::UnityEngine::Networking::DownloadHandlerAudioClip_BindingsMarshaller;
 
+  /// @brief [NativeThrows]
   __declspec(property(get = get_audioClip)) ::UnityW<::UnityEngine::AudioClip> audioClip;
 
   /// @brief Field m_NativeData, offset 0x18, size 0x10
@@ -92,7 +96,7 @@ public:
   __declspec(property(put = set_streamAudio)) bool streamAudio;
 
   /// @brief Method Create, addr 0x6e26acc, size 0x144, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::StringW url, ::UnityEngine::AudioType audioType);
+  static inline ::System::IntPtr Create(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::StringW url, ::UnityEngine::AudioType audioType);
 
   /// @brief Method Create_Injected, addr 0x6e26c10, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create_Injected(::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> url,
@@ -142,13 +146,13 @@ protected:
   constexpr DownloadHandlerAudioClip();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DownloadHandlerAudioClip(DownloadHandlerAudioClip&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerAudioClip(DownloadHandlerAudioClip const&) = delete;
+  DownloadHandlerAudioClip(DownloadHandlerAudioClipconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23310 };

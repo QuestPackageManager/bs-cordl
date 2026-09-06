@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VertexAttributeDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VertexAttributeDescriptor.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttributeFormat_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttributeDescriptor_def.hpp"
@@ -258,9 +258,9 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescri
 UnityEngine::Rendering::VertexAttributeDescriptor::i___System__IEquatable_1___UnityEngine__Rendering__VertexAttributeDescriptor_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_attribute_k__BackingField", ty: "::UnityEngine::Rendering::VertexAttribute", modifiers: "", def_value: Some("{}") }, CppParam { name: "_format_k__BackingField",
-// ty: "::UnityEngine::Rendering::VertexAttributeFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "_dimension_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_stream_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_attribute_k__BackingField", ty: "::UnityEngine::Rendering::VertexAttribute", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_format_k__BackingField", ty: "::UnityEngine::Rendering::VertexAttributeFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_dimension_k__BackingField", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_stream_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::VertexAttributeDescriptor::VertexAttributeDescriptor(::UnityEngine::Rendering::VertexAttribute _attribute_k__BackingField,
                                                                                          ::UnityEngine::Rendering::VertexAttributeFormat _format_k__BackingField, int32_t _dimension_k__BackingField,
                                                                                          int32_t _stream_k__BackingField) noexcept {

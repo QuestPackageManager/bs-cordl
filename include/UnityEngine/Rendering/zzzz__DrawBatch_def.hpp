@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DrawBatch.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DrawBatch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,9 +26,9 @@ public:
   // @brief default ctor
   constexpr DrawBatch();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "::UnityEngine::Rendering::DrawKey", modifiers: "", def_value: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "instanceOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "procInfo", ty: "::UnityEngine::Rendering::MeshProceduralInfo", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "key", ty: "::UnityEngine::Rendering::DrawKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "instanceOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "procInfo", ty:
+  // "::UnityEngine::Rendering::MeshProceduralInfo", modifiers: "", def_value: None, comment: None }]
   constexpr DrawBatch(::UnityEngine::Rendering::DrawKey key, int32_t instanceCount, int32_t instanceOffset, ::UnityEngine::Rendering::MeshProceduralInfo procInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

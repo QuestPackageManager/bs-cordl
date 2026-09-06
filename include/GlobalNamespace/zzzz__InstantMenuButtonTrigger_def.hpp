@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\InstantMenuButtonTrigger.hpp"
+// IWYU pragma private; include "GlobalNamespace/InstantMenuButtonTrigger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ public:
   /// @brief Method .ctor, addr 0x327ed14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_menuButtonTriggeredEvent, addr 0x327eaec, size 0xac, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
@@ -72,6 +73,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_menuButtonTriggeredEvent, addr 0x327eb98, size 0xac, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
@@ -81,20 +83,22 @@ protected:
   constexpr InstantMenuButtonTrigger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstantMenuButtonTrigger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstantMenuButtonTrigger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstantMenuButtonTrigger(InstantMenuButtonTrigger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstantMenuButtonTrigger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstantMenuButtonTrigger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstantMenuButtonTrigger(InstantMenuButtonTrigger const&) = delete;
+  InstantMenuButtonTrigger(InstantMenuButtonTriggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23550 };
 
+  /// [Inject]
   /// @brief Field _vrPlatformHelper, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
+  /// [CompilerGenerated]
   /// @brief Field menuButtonTriggeredEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___menuButtonTriggeredEvent;
 

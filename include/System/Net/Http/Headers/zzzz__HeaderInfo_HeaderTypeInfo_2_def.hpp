@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\HeaderInfo_HeaderTypeInfo_2.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/HeaderInfo_HeaderTypeInfo_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,9 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T, typename U> class HeaderInfo_HeaderTypeInfo_2;
+template <typename T, typename U>
+  requires(::cordl_internals::reference_type_constraint<U>)
+class HeaderInfo_HeaderTypeInfo_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2);
@@ -35,6 +37,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2, "Sys
 namespace GlobalNamespace {
 // cpp template
 template <typename T, typename U>
+  requires(::cordl_internals::reference_type_constraint<U>)
 // Is value type: false
 // CS Name: System.Net.Http.Headers.HeaderInfo/HeaderTypeInfo`2<T,U>
 class CORDL_TYPE HeaderInfo_HeaderTypeInfo_2 : public ::System::Net::Http::Headers::HeaderInfo {
@@ -73,13 +76,13 @@ protected:
   constexpr HeaderInfo_HeaderTypeInfo_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo_HeaderTypeInfo_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo_HeaderTypeInfo_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeaderInfo_HeaderTypeInfo_2(HeaderInfo_HeaderTypeInfo_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo_HeaderTypeInfo_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo_HeaderTypeInfo_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HeaderInfo_HeaderTypeInfo_2(HeaderInfo_HeaderTypeInfo_2 const&) = delete;
+  HeaderInfo_HeaderTypeInfo_2(HeaderInfo_HeaderTypeInfo_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20304 };

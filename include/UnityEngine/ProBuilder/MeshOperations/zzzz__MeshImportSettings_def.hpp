@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\MeshImportSettings.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MeshImportSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,23 +86,26 @@ protected:
   constexpr MeshImportSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshImportSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshImportSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshImportSettings(MeshImportSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshImportSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshImportSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshImportSettings(MeshImportSettings const&) = delete;
+  MeshImportSettings(MeshImportSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16881 };
 
+  /// [SerializeField]
   /// @brief Field m_Quads, offset: 0x10, size: 0x1, def value: None
   bool ___m_Quads;
 
+  /// [SerializeField]
   /// @brief Field m_Smoothing, offset: 0x11, size: 0x1, def value: None
   bool ___m_Smoothing;
 
+  /// [SerializeField]
   /// @brief Field m_SmoothingThreshold, offset: 0x14, size: 0x4, def value: None
   float_t ___m_SmoothingThreshold;
 

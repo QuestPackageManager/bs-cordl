@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Configuration\WebRequestModuleElementCollection.hpp"
+// IWYU pragma private; include "System/Net/Configuration/WebRequestModuleElementCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class WebRequestModuleElementCollection;
 // Write type traits
 MARK_REF_T(::System::Net::Configuration::WebRequestModuleElementCollection*);
 DEFINE_IL2CPP_CLASS(::System::Net::Configuration::WebRequestModuleElementCollection*, "System.Net.Configuration", "WebRequestModuleElementCollection");
+// [DefaultMember("Item")]
+// [ConfigurationCollection(typeof(System.Net.Configuration.WebRequestModuleElement))]
 // Dependencies System.Configuration.ConfigurationElementCollection
 namespace System::Net::Configuration {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr WebRequestModuleElementCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElementCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElementCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebRequestModuleElementCollection(WebRequestModuleElementCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElementCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElementCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebRequestModuleElementCollection(WebRequestModuleElementCollection const&) = delete;
+  WebRequestModuleElementCollection(WebRequestModuleElementCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11837 };

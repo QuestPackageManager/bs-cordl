@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Enumeration\FileSystemEntry.hpp"
+// IWYU pragma private; include "System/IO/Enumeration/FileSystemEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,8 @@ MARK_VAL_T(::System::IO::Enumeration::FileSystemEntry);
 MARK_VAL_T(::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::System::IO::Enumeration::FileSystemEntry, "System.IO.Enumeration", "FileSystemEntry");
 DEFINE_IL2CPP_CLASS(::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer, "System.IO.Enumeration", "FileSystemEntry/<_fileNameBuffer>e__FixedBuffer");
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace System::IO::Enumeration {
 // Is value type: true
@@ -50,7 +52,7 @@ public:
   // @brief default ctor
   constexpr FileSystemEntry___fileNameBuffer_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "char16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "char16_t", modifiers: "", def_value: None, comment: None }]
   constexpr FileSystemEntry___fileNameBuffer_e__FixedBuffer(char16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -74,6 +76,8 @@ static_assert(offsetof(::System::IO::Enumeration::FileSystemEntry___fileNameBuff
 static_assert(sizeof(::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer) == 0x200, "Size mismatch!");
 
 } // namespace System::IO::Enumeration
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies Interop::Sys::DirectoryEntry, System.IO.Enumeration.FileSystemEntry::<_fileNameBuffer>e__FixedBuffer, System.IO.FileAttributes, System.IO.FileStatus, System.ReadOnlySpan`1<T>,
 // System.Span`1<T>
 namespace System::IO::Enumeration {
@@ -109,6 +113,8 @@ public:
   /// @brief Method get_Attributes, addr 0x5c2327c, size 0x48, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_Attributes();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_Directory, addr 0x5c23228, size 0x10, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_Directory();
 
@@ -121,18 +127,25 @@ public:
   /// @brief Method get_IsDirectory, addr 0x5c232c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDirectory();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_OriginalRootDirectory, addr 0x5c23260, size 0x10, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_OriginalRootDirectory();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_RootDirectory, addr 0x5c23244, size 0x10, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_RootDirectory();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Directory, addr 0x5c23238, size 0xc, virtual false, abstract: false, final false
   inline void set_Directory(::System::ReadOnlySpan_1<char16_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_OriginalRootDirectory, addr 0x5c23270, size 0xc, virtual false, abstract: false, final false
   inline void set_OriginalRootDirectory(::System::ReadOnlySpan_1<char16_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RootDirectory, addr 0x5c23254, size 0xc, virtual false, abstract: false, final false
   inline void set_RootDirectory(::System::ReadOnlySpan_1<char16_t> value);
 
@@ -140,13 +153,13 @@ public:
   // @brief default ctor
   constexpr FileSystemEntry();
 
-  // Ctor Parameters [CppParam { name: "_directoryEntry", ty: "::GlobalNamespace::Sys_Interop_DirectoryEntry", modifiers: "", def_value: None }, CppParam { name: "_status", ty:
-  // "::System::IO::FileStatus", modifiers: "", def_value: None }, CppParam { name: "_pathBuffer", ty: "::System::Span_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_fullPath", ty:
-  // "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_fileName", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "_fileNameBuffer", ty: "::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "_initialAttributes", ty:
-  // "::System::IO::FileAttributes", modifiers: "", def_value: None }, CppParam { name: "_Directory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None },
-  // CppParam { name: "_RootDirectory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_OriginalRootDirectory_k__BackingField", ty:
-  // "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_directoryEntry", ty: "::GlobalNamespace::Sys_Interop_DirectoryEntry", modifiers: "", def_value: None, comment: None }, CppParam { name: "_status", ty:
+  // "::System::IO::FileStatus", modifiers: "", def_value: None, comment: None }, CppParam { name: "_pathBuffer", ty: "::System::Span_1<char16_t>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_fullPath", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_fileName", ty: "::System::ReadOnlySpan_1<char16_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_fileNameBuffer", ty: "::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_initialAttributes", ty: "::System::IO::FileAttributes", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Directory_k__BackingField",
+  // ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_RootDirectory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_OriginalRootDirectory_k__BackingField", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }]
   constexpr FileSystemEntry(::GlobalNamespace::Sys_Interop_DirectoryEntry _directoryEntry, ::System::IO::FileStatus _status, ::System::Span_1<char16_t> _pathBuffer,
                             ::System::ReadOnlySpan_1<char16_t> _fullPath, ::System::ReadOnlySpan_1<char16_t> _fileName,
                             ::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer _fileNameBuffer, ::System::IO::FileAttributes _initialAttributes,
@@ -174,18 +187,22 @@ public:
   /// @brief Field _fileName, offset: 0xa8, size: 0x10, def value: None
   ::System::ReadOnlySpan_1<char16_t> _fileName;
 
+  /// [FixedBuffer(typeof(System.Char), 256)]
   /// @brief Field _fileNameBuffer, offset: 0xb8, size: 0x200, def value: None
   ::System::IO::Enumeration::FileSystemEntry___fileNameBuffer_e__FixedBuffer _fileNameBuffer;
 
   /// @brief Field _initialAttributes, offset: 0x2b8, size: 0x4, def value: None
   ::System::IO::FileAttributes _initialAttributes;
 
+  /// [CompilerGenerated]
   /// @brief Field <Directory>k__BackingField, offset: 0x2c0, size: 0x10, def value: None
   ::System::ReadOnlySpan_1<char16_t> _Directory_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RootDirectory>k__BackingField, offset: 0x2d0, size: 0x10, def value: None
   ::System::ReadOnlySpan_1<char16_t> _RootDirectory_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <OriginalRootDirectory>k__BackingField, offset: 0x2e0, size: 0x10, def value: None
   ::System::ReadOnlySpan_1<char16_t> _OriginalRootDirectory_k__BackingField;
 

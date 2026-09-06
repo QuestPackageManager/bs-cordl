@@ -1,36 +1,50 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeHashMapDebuggerTypeProxy_2.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeHashMapDebuggerTypeProxy_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NativeHashMapDebuggerTypeProxy_2)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey> struct HashMapHelper_1;
+template <typename TKey>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
+struct HashMapHelper_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeHashMap_2_ReadOnly;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeHashMap_2_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeHashMap_2;
 }
 namespace Unity::Collections {
 template <typename Key, typename Value> struct Pair_2;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename TKey, typename TValue> class NativeHashMapDebuggerTypeProxy_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class NativeHashMapDebuggerTypeProxy_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::NativeHashMapDebuggerTypeProxy_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::NativeHashMapDebuggerTypeProxy_2, "Unity.Collections", "NativeHashMapDebuggerTypeProxy`2");
-// Dependencies System.Object
+// Dependencies System.IEquatable`1<T>, System.Object
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Unity.Collections.NativeHashMapDebuggerTypeProxy`2<TKey,TValue>
 class CORDL_TYPE NativeHashMapDebuggerTypeProxy_2 : public ::System::Object {
@@ -66,13 +80,13 @@ protected:
   constexpr NativeHashMapDebuggerTypeProxy_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeHashMapDebuggerTypeProxy_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeHashMapDebuggerTypeProxy_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeHashMapDebuggerTypeProxy_2(NativeHashMapDebuggerTypeProxy_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeHashMapDebuggerTypeProxy_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeHashMapDebuggerTypeProxy_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeHashMapDebuggerTypeProxy_2(NativeHashMapDebuggerTypeProxy_2 const&) = delete;
+  NativeHashMapDebuggerTypeProxy_2(NativeHashMapDebuggerTypeProxy_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15643 };

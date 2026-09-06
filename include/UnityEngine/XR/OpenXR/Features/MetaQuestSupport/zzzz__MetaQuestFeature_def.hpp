@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\MetaQuestSupport\MetaQuestFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/MetaQuestSupport/MetaQuestFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,8 +33,9 @@ public:
   // @brief default ctor
   constexpr MetaQuestFeature_TargetDevice();
 
-  // Ctor Parameters [CppParam { name: "visibleName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "manifestName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "enabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "active", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "visibleName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "manifestName", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "active", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr MetaQuestFeature_TargetDevice(::StringW visibleName, ::StringW manifestName, bool enabled, bool active) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -89,13 +90,13 @@ protected:
   constexpr MetaQuestFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MetaQuestFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaQuestFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MetaQuestFeature(MetaQuestFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MetaQuestFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaQuestFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaQuestFeature(MetaQuestFeature const&) = delete;
+  MetaQuestFeature(MetaQuestFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23720 };

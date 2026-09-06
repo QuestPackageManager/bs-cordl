@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\PowerOfTwoTextureAtlas.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/PowerOfTwoTextureAtlas.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__Texture2DAtlas_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PowerOfTwoTextureAtlas_def.hpp"
@@ -14,7 +14,7 @@
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::PowerOfTwoTextureAtlas_BlitType::PowerOfTwoTextureAtlas_BlitType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -73,8 +73,9 @@ inline void UnityEngine::Rendering::PowerOfTwoTextureAtlas___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::PowerOfTwoTextureAtlas___c::_RelayoutEntries_b__23_0(::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c1,
-                                                                                            ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c2) {
+inline int32_t
+UnityEngine::Rendering::PowerOfTwoTextureAtlas___c::_RelayoutEntries_b__23_0(/* [TupleElementNames(new[] { "instanceId", "size" })] */ ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c1,
+                                                                             /* [TupleElementNames(new[] { "instanceId", "size" })] */ ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c2) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas___c*>(),
@@ -458,14 +459,15 @@ inline int32_t UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetTexturePadding
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(), { "GetTexturePadding", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::UnityEngine::Vector4 UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset(::UnityEngine::Texture* texture, ::by_ref<::UnityEngine::Vector4> scaleOffset) {
+inline ::UnityEngine::Vector4 UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset(::UnityEngine::Texture* texture, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(),
                                                            { "GetPayloadScaleOffset", {}, { ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(this, ___internal_method, texture, scaleOffset);
 }
-inline ::UnityEngine::Vector4 UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset(::by_ref<::UnityEngine::Vector2> textureSize, ::by_ref<::UnityEngine::Vector2> paddingSize,
-                                                                                                    ::by_ref<::UnityEngine::Vector4> scaleOffset) {
+inline ::UnityEngine::Vector4 UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> textureSize,
+                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> paddingSize,
+                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>(),

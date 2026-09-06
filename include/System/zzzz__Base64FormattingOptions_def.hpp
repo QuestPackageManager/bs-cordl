@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Base64FormattingOptions.hpp"
+// IWYU pragma private; include "System/Base64FormattingOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct Base64FormattingOptions;
 // Write type traits
 MARK_VAL_T(::System::Base64FormattingOptions);
 DEFINE_IL2CPP_CLASS(::System::Base64FormattingOptions, "System", "Base64FormattingOptions");
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr Base64FormattingOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Base64FormattingOptions(int32_t value__) noexcept;
 
   /// @brief Field InsertLineBreaks value: I32(1)

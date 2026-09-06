@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTelemetryConstants.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTelemetryConstants.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetry_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetryConstants_def.hpp"
@@ -8,7 +8,7 @@
 constexpr ::GlobalNamespace::OVRManager_OVRTelemetryConstants_MarkerId::OVRManager_OVRTelemetryConstants_MarkerId() {}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRManager_OVRTelemetryConstants_AnnotationTypes::OVRManager_OVRTelemetryConstants_AnnotationTypes() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_OVRTelemetryConstants_ConsentOrigins::OVRManager_OVRTelemetryConstants_ConsentOrigins(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -37,7 +37,7 @@ constexpr ::GlobalNamespace::OVRTelemetryConstants_OVRManager::OVRTelemetryConst
 constexpr ::GlobalNamespace::Editor_OVRTelemetryConstants_MarkerId::Editor_OVRTelemetryConstants_MarkerId() {}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationType::Editor_OVRTelemetryConstants_AnnotationType() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant::Editor_OVRTelemetryConstants_AnnotationVariant(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -89,7 +89,7 @@ constexpr ::GlobalNamespace::OVRTelemetryConstants_Utils::OVRTelemetryConstants_
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_MarkerId::ProjectSettings_OVRTelemetryConstants_MarkerId() {}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_AnnotationType::ProjectSettings_OVRTelemetryConstants_AnnotationType() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingMode::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -103,7 +103,7 @@ constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRende
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingMode GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingMode::EyeTrackedFoveatedRendering{
   static_cast<int32_t>(0x2)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingAPI::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingAPI(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -114,7 +114,7 @@ constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRende
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingAPI GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingAPI::Legacy{ static_cast<int32_t>(
     0x1) };
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingAPI GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingAPI::SRP{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_DepthSubmissionMode::ProjectSettings_OVRTelemetryConstants_DepthSubmissionMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -126,7 +126,7 @@ constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_DepthSubmissi
     0x2) };
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_DepthSubmissionMode GlobalNamespace::ProjectSettings_OVRTelemetryConstants_DepthSubmissionMode::Depth24Bit{ static_cast<int32_t>(
     0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderThreadingMode::ProjectSettings_OVRTelemetryConstants_RenderThreadingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -141,7 +141,7 @@ constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderThreadi
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderThreadingMode GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderThreadingMode::NativeGraphicsJobs{
   static_cast<int32_t>(0x3)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderingPath::ProjectSettings_OVRTelemetryConstants_RenderingPath(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -151,7 +151,7 @@ constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderingPath
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderingPath GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderingPath::Forward{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderingPath GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderingPath::ForwardPlus{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderingPath GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderingPath::Deferred{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_XrPlugin::ProjectSettings_OVRTelemetryConstants_XrPlugin(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\LegacySettingsV2.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/LegacySettingsV2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,6 +141,8 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::Settings::LegacySettingsV2_GraphicSettings*, "B
 DEFINE_IL2CPP_CLASS(::BeatSaber::Settings::LegacySettingsV2_MainSettings*, "BeatSaber.Settings", "LegacySettingsV2/MainSettings");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset*, "BeatSaber.Settings", "LegacySettingsV2/PerformancePreset");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings*, "BeatSaber.Settings", "LegacySettingsV2/SmoothCameraSettings");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object, Unity.Mathematics.float3
 namespace BeatSaber::Settings {
 // Is value type: false
@@ -260,13 +262,13 @@ protected:
   constexpr LegacySettingsV2_MainSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_MainSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_MainSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV2_MainSettings(LegacySettingsV2_MainSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_MainSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_MainSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_MainSettings(LegacySettingsV2_MainSettings const&) = delete;
+  LegacySettingsV2_MainSettings(LegacySettingsV2_MainSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22069 };
@@ -386,13 +388,13 @@ protected:
   constexpr LegacySettingsV2_AudioSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_AudioSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_AudioSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV2_AudioSettings(LegacySettingsV2_AudioSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_AudioSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_AudioSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_AudioSettings(LegacySettingsV2_AudioSettings const&) = delete;
+  LegacySettingsV2_AudioSettings(LegacySettingsV2_AudioSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22070 };
@@ -504,13 +506,13 @@ protected:
   constexpr LegacySettingsV2_SmoothCameraSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_SmoothCameraSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_SmoothCameraSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV2_SmoothCameraSettings(LegacySettingsV2_SmoothCameraSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_SmoothCameraSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_SmoothCameraSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_SmoothCameraSettings(LegacySettingsV2_SmoothCameraSettings const&) = delete;
+  LegacySettingsV2_SmoothCameraSettings(LegacySettingsV2_SmoothCameraSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22071 };
@@ -592,13 +594,13 @@ protected:
   constexpr LegacySettingsV2_ControllerSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_ControllerSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_ControllerSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV2_ControllerSettings(LegacySettingsV2_ControllerSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_ControllerSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_ControllerSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_ControllerSettings(LegacySettingsV2_ControllerSettings const&) = delete;
+  LegacySettingsV2_ControllerSettings(LegacySettingsV2_ControllerSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22072 };
@@ -664,13 +666,13 @@ protected:
   constexpr LegacySettingsV2_CustomServerSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_CustomServerSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_CustomServerSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV2_CustomServerSettings(LegacySettingsV2_CustomServerSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_CustomServerSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_CustomServerSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_CustomServerSettings(LegacySettingsV2_CustomServerSettings const&) = delete;
+  LegacySettingsV2_CustomServerSettings(LegacySettingsV2_CustomServerSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22073 };
@@ -681,6 +683,7 @@ public:
   /// @brief Field forceGameLiftServerEnvironment, offset: 0x11, size: 0x1, def value: None
   bool ___forceGameLiftServerEnvironment;
 
+  /// [Nullable(1)]
   /// @brief Field customServerHostName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___customServerHostName;
 
@@ -741,13 +744,13 @@ protected:
   constexpr LegacySettingsV2_DebugSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_DebugSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_DebugSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV2_DebugSettings(LegacySettingsV2_DebugSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_DebugSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_DebugSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_DebugSettings(LegacySettingsV2_DebugSettings const&) = delete;
+  LegacySettingsV2_DebugSettings(LegacySettingsV2_DebugSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22074 };
@@ -802,7 +805,7 @@ public:
   // @brief default ctor
   constexpr LegacySettingsV2_WindowMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LegacySettingsV2_WindowMode(int32_t value__) noexcept;
 
   /// @brief Field Fullscreen value: I32(1)
@@ -828,6 +831,8 @@ static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_WindowMode, value
 static_assert(sizeof(::BeatSaber::Settings::LegacySettingsV2_WindowMode) == 0x4, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Settings.LegacySettingsV2::WindowMode, System.Object, Unity.Mathematics.int2
 namespace BeatSaber::Settings {
 // Is value type: false
@@ -882,13 +887,13 @@ protected:
   constexpr LegacySettingsV2_GraphicSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_GraphicSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_GraphicSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV2_GraphicSettings(LegacySettingsV2_GraphicSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_GraphicSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_GraphicSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_GraphicSettings(LegacySettingsV2_GraphicSettings const&) = delete;
+  LegacySettingsV2_GraphicSettings(LegacySettingsV2_GraphicSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22075 };
@@ -948,7 +953,7 @@ public:
   // @brief default ctor
   constexpr LegacySettingsV2_BloomPrepassTextureEffectPreset();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LegacySettingsV2_BloomPrepassTextureEffectPreset(int32_t value__) noexcept;
 
   /// @brief Field HD value: I32(0)
@@ -1006,7 +1011,7 @@ public:
   // @brief default ctor
   constexpr LegacySettingsV2_FoveatedRenderingLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LegacySettingsV2_FoveatedRenderingLevel(int32_t value__) noexcept;
 
   /// @brief Field High value: I32(3)
@@ -1071,7 +1076,7 @@ public:
   // @brief default ctor
   constexpr LegacySettingsV2_MainEffectPreset();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LegacySettingsV2_MainEffectPreset(int32_t value__) noexcept;
 
   /// @brief Field Off value: I32(0)
@@ -1131,7 +1136,7 @@ public:
   // @brief default ctor
   constexpr LegacySettingsV2_MirrorQualityPreset();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LegacySettingsV2_MirrorQualityPreset(int32_t value__) noexcept;
 
   /// @brief Field Fake value: I32(1)
@@ -1194,7 +1199,7 @@ public:
   // @brief default ctor
   constexpr LegacySettingsV2_ObstaclesQuality();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LegacySettingsV2_ObstaclesQuality(int32_t value__) noexcept;
 
   /// @brief Field DefaultObstacleQualityBaseOnDisplacement value: I32(0)
@@ -1258,7 +1263,7 @@ public:
   // @brief default ctor
   constexpr LegacySettingsV2_ProcessorPerformanceLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LegacySettingsV2_ProcessorPerformanceLevel(int32_t value__) noexcept;
 
   /// @brief Field Boost value: I32(3)
@@ -1475,17 +1480,18 @@ protected:
   constexpr LegacySettingsV2_PerformancePreset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_PerformancePreset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_PerformancePreset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV2_PerformancePreset(LegacySettingsV2_PerformancePreset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_PerformancePreset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_PerformancePreset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_PerformancePreset(LegacySettingsV2_PerformancePreset const&) = delete;
+  LegacySettingsV2_PerformancePreset(LegacySettingsV2_PerformancePresetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22083 };
 
+  /// [Nullable(1)]
   /// @brief Field presetNameLocalizationTag, offset: 0x10, size: 0x8, def value: None
   ::StringW ___presetNameLocalizationTag;
 
@@ -1651,20 +1657,22 @@ protected:
   constexpr LegacySettingsV2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacySettingsV2(LegacySettingsV2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2(LegacySettingsV2 const&) = delete;
+  LegacySettingsV2(LegacySettingsV2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22084 };
 
+  /// [Nullable(1)]
   /// @brief Field mainSettings, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Settings::LegacySettingsV2_MainSettings* ___mainSettings;
 
+  /// [Nullable(1)]
   /// @brief Field graphicSettings, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Settings::LegacySettingsV2_GraphicSettings* ___graphicSettings;
 

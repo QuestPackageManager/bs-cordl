@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\InvalidKeyException.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/InvalidKeyException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__Addressables_impl.hpp"
@@ -17,7 +17,7 @@
 #include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__InvalidKeyException_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::AddressableAssets::InvalidKeyException_Format::InvalidKeyException_Format(int32_t value__) noexcept {
   this->value__ = value__;
 }

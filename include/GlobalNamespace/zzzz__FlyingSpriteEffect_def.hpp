@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlyingSpriteEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlyingSpriteEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr FlyingSpriteEffect_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingSpriteEffect_Pool(FlyingSpriteEffect_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingSpriteEffect_Pool(FlyingSpriteEffect_Pool const&) = delete;
+  FlyingSpriteEffect_Pool(FlyingSpriteEffect_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5775 };
@@ -133,20 +133,22 @@ protected:
   constexpr FlyingSpriteEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingSpriteEffect(FlyingSpriteEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingSpriteEffect(FlyingSpriteEffect const&) = delete;
+  FlyingSpriteEffect(FlyingSpriteEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5776 };
 
+  /// [SerializeField]
   /// @brief Field _spriteRenderer, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
+  /// [SerializeField]
   /// @brief Field _fadeAnimationCurve, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeAnimationCurve;
 

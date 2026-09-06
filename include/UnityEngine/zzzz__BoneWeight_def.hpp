@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BoneWeight.hpp"
+// IWYU pragma private; include "UnityEngine/BoneWeight.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct BoneWeight;
 // Write type traits
 MARK_VAL_T(::UnityEngine::BoneWeight);
 DEFINE_IL2CPP_CLASS(::UnityEngine::BoneWeight, "UnityEngine", "BoneWeight");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -110,10 +111,11 @@ public:
   // @brief default ctor
   constexpr BoneWeight();
 
-  // Ctor Parameters [CppParam { name: "m_Weight0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Weight1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Weight2", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Weight3", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex0", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BoneIndex2", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "m_BoneIndex3", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Weight0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Weight1", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_Weight2", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Weight3", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_BoneIndex0", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BoneIndex1", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_BoneIndex2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BoneIndex3", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BoneWeight(float_t m_Weight0, float_t m_Weight1, float_t m_Weight2, float_t m_Weight3, int32_t m_BoneIndex0, int32_t m_BoneIndex1, int32_t m_BoneIndex2, int32_t m_BoneIndex3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -122,27 +124,35 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [SerializeField]
   /// @brief Field m_Weight0, offset: 0x0, size: 0x4, def value: None
   float_t m_Weight0;
 
+  /// [SerializeField]
   /// @brief Field m_Weight1, offset: 0x4, size: 0x4, def value: None
   float_t m_Weight1;
 
+  /// [SerializeField]
   /// @brief Field m_Weight2, offset: 0x8, size: 0x4, def value: None
   float_t m_Weight2;
 
+  /// [SerializeField]
   /// @brief Field m_Weight3, offset: 0xc, size: 0x4, def value: None
   float_t m_Weight3;
 
+  /// [SerializeField]
   /// @brief Field m_BoneIndex0, offset: 0x10, size: 0x4, def value: None
   int32_t m_BoneIndex0;
 
+  /// [SerializeField]
   /// @brief Field m_BoneIndex1, offset: 0x14, size: 0x4, def value: None
   int32_t m_BoneIndex1;
 
+  /// [SerializeField]
   /// @brief Field m_BoneIndex2, offset: 0x18, size: 0x4, def value: None
   int32_t m_BoneIndex2;
 
+  /// [SerializeField]
   /// @brief Field m_BoneIndex3, offset: 0x1c, size: 0x4, def value: None
   int32_t m_BoneIndex3;
 

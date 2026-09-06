@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ContextStaticAttribute.hpp"
+// IWYU pragma private; include "System/ContextStaticAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class ContextStaticAttribute;
 // Write type traits
 MARK_REF_T(::System::ContextStaticAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ContextStaticAttribute*, "System", "ContextStaticAttribute");
+// [ComVisible(true)]
+// [AttributeUsage((System.AttributeTargets)256, Inherited = false)]
 // Dependencies System.Attribute
 namespace System {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr ContextStaticAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContextStaticAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextStaticAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextStaticAttribute(ContextStaticAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContextStaticAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextStaticAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextStaticAttribute(ContextStaticAttribute const&) = delete;
+  ContextStaticAttribute(ContextStaticAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2560 };

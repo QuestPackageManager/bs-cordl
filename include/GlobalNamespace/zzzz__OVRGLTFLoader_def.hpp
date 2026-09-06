@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGLTFLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -146,6 +146,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37*, "", "OVRG
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48*, "", "OVRGLTFLoader/<ProcessAnimations>d__48");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38*, "", "OVRGLTFLoader/<ProcessNode>d__38");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRGLTFLoader___c__DisplayClass26_0*, "", "OVRGLTFLoader/<>c__DisplayClass26_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -176,13 +177,13 @@ protected:
   constexpr OVRGLTFLoader___c__DisplayClass26_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader___c__DisplayClass26_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader___c__DisplayClass26_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGLTFLoader___c__DisplayClass26_0(OVRGLTFLoader___c__DisplayClass26_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader___c__DisplayClass26_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader___c__DisplayClass26_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader___c__DisplayClass26_0(OVRGLTFLoader___c__DisplayClass26_0 const&) = delete;
+  OVRGLTFLoader___c__DisplayClass26_0(OVRGLTFLoader___c__DisplayClass26_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7170 };
@@ -198,6 +199,7 @@ static_assert(offsetof(::GlobalNamespace::OVRGLTFLoader___c__DisplayClass26_0, _
 static_assert(sizeof(::GlobalNamespace::OVRGLTFLoader___c__DisplayClass26_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -242,17 +244,22 @@ public:
   /// @brief Method MoveNext, addr 0x5e54498, size 0x8ec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e54d84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e54d8c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e54dc4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5e54494, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -298,6 +305,7 @@ public:
 
   constexpr void __cordl_internal_set_supportAnimation(bool value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5e51904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -316,13 +324,13 @@ protected:
   constexpr OVRGLTFLoader__LoadGLBCoroutine_d__26();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLBCoroutine_d__26", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLBCoroutine_d__26", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGLTFLoader__LoadGLBCoroutine_d__26(OVRGLTFLoader__LoadGLBCoroutine_d__26&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLBCoroutine_d__26", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLBCoroutine_d__26", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader__LoadGLBCoroutine_d__26(OVRGLTFLoader__LoadGLBCoroutine_d__26 const&) = delete;
+  OVRGLTFLoader__LoadGLBCoroutine_d__26(OVRGLTFLoader__LoadGLBCoroutine_d__26const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7171 };
@@ -368,6 +376,7 @@ static_assert(offsetof(::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26,
 static_assert(sizeof(::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRSimpleJSON.JSONNode::Enumerator, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -418,17 +427,22 @@ public:
   /// @brief Method MoveNext, addr 0x5e54dd0, size 0x6dc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e554ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e554b4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e554ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5e54dcc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -486,6 +500,7 @@ public:
 
   constexpr void __cordl_internal_set_supportAnimation(bool value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5e52088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -504,13 +519,13 @@ protected:
   constexpr OVRGLTFLoader__LoadGLTF_d__37();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLTF_d__37", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLTF_d__37", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGLTFLoader__LoadGLTF_d__37(OVRGLTFLoader__LoadGLTF_d__37&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLTF_d__37", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLTF_d__37", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader__LoadGLTF_d__37(OVRGLTFLoader__LoadGLTF_d__37 const&) = delete;
+  OVRGLTFLoader__LoadGLTF_d__37(OVRGLTFLoader__LoadGLTF_d__37const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7172 };
@@ -566,6 +581,7 @@ static_assert(offsetof(::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37, ____pro
 static_assert(sizeof(::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37) == 0x90, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRSimpleJSON.JSONNode::Enumerator, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -607,17 +623,22 @@ public:
   /// @brief Method MoveNext, addr 0x5e554f8, size 0x6c8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e55bc0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e55bc8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e55c00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5e554f4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -657,6 +678,7 @@ public:
 
   constexpr void __cordl_internal_set__processingStart_5__3(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5e54178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -675,13 +697,13 @@ protected:
   constexpr OVRGLTFLoader__ProcessAnimations_d__48();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessAnimations_d__48", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessAnimations_d__48", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGLTFLoader__ProcessAnimations_d__48(OVRGLTFLoader__ProcessAnimations_d__48&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessAnimations_d__48", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessAnimations_d__48", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader__ProcessAnimations_d__48(OVRGLTFLoader__ProcessAnimations_d__48 const&) = delete;
+  OVRGLTFLoader__ProcessAnimations_d__48(OVRGLTFLoader__ProcessAnimations_d__48const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7173 };
@@ -722,6 +744,7 @@ static_assert(offsetof(::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48
 static_assert(sizeof(::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48) == 0x78, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRSimpleJSON.JSONNode::ValueEnumerator, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -787,17 +810,22 @@ public:
   /// @brief Method MoveNext, addr 0x5e55c0c, size 0xd64, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e56970, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e56978, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e569b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5e55c08, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -885,6 +913,7 @@ public:
 
   constexpr void __cordl_internal_set_parent(::UnityW<::UnityEngine::Transform> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5e52114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -903,13 +932,13 @@ protected:
   constexpr OVRGLTFLoader__ProcessNode_d__38();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessNode_d__38", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessNode_d__38", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGLTFLoader__ProcessNode_d__38(OVRGLTFLoader__ProcessNode_d__38&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessNode_d__38", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessNode_d__38", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader__ProcessNode_d__38(OVRGLTFLoader__ProcessNode_d__38 const&) = delete;
+  OVRGLTFLoader__ProcessNode_d__38(OVRGLTFLoader__ProcessNode_d__38const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7174 };
@@ -1086,7 +1115,7 @@ public:
   inline ::UnityW<::UnityEngine::Material> CreateUnityMaterial(::GlobalNamespace::OVRMaterialData matData, bool loadMips);
 
   /// @brief Method DetectTextureQuality, addr 0x5e51cbc, size 0xc0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRTextureQualityFiltering DetectTextureQuality(::by_ref<::UnityEngine::Texture2D*> srcTexture);
+  static inline ::GlobalNamespace::OVRTextureQualityFiltering DetectTextureQuality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Texture2D*> srcTexture);
 
   /// @brief Method FlipTriangleIndices, addr 0x5e535d0, size 0x70, virtual false, abstract: false, final false
   static inline void FlipTriangleIndices(::by_ref<::ArrayW<int32_t>> indices);
@@ -1100,9 +1129,11 @@ public:
   /// @brief Method LoadGLB, addr 0x5e517b0, size 0xe0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRGLTFScene LoadGLB(bool supportAnimation, bool loadMips);
 
+  /// [IteratorStateMachine(typeof(OVRGLTFLoader::<LoadGLBCoroutine>d__26))]
   /// @brief Method LoadGLBCoroutine, addr 0x5e51890, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LoadGLBCoroutine(bool supportAnimation, bool loadMips);
 
+  /// [IteratorStateMachine(typeof(OVRGLTFLoader::<LoadGLTF>d__37))]
   /// @brief Method LoadGLTF, addr 0x5e52014, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LoadGLTF(bool supportAnimation, bool loadMips);
 
@@ -1112,6 +1143,7 @@ public:
 
   static inline ::GlobalNamespace::OVRGLTFLoader* New_ctor(::StringW fileName);
 
+  /// [IteratorStateMachine(typeof(OVRGLTFLoader::<ProcessAnimations>d__48))]
   /// @brief Method ProcessAnimations, addr 0x5e54124, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProcessAnimations();
 
@@ -1121,6 +1153,7 @@ public:
   /// @brief Method ProcessMesh, addr 0x5e5211c, size 0x8e8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMeshData ProcessMesh(::OVRSimpleJSON::JSONNode* meshNode, bool loadMips);
 
+  /// [IteratorStateMachine(typeof(OVRGLTFLoader::<ProcessNode>d__38))]
   /// @brief Method ProcessNode, addr 0x5e52090, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProcessNode(::OVRSimpleJSON::JSONArray* nodes, int32_t nodeId, bool loadMips, ::UnityEngine::Transform* parent);
 
@@ -1157,6 +1190,7 @@ public:
   /// @brief Method ValidateGLB, addr 0x5e519f8, size 0x1b4, virtual false, abstract: false, final false
   static inline bool ValidateGLB(::System::IO::Stream* glbStream);
 
+  /// [CompilerGenerated]
   /// @brief Method <LoadGLBCoroutine>b__26_0, addr 0x5e54474, size 0x4, virtual false, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* _LoadGLBCoroutine_b__26_0();
 
@@ -1293,13 +1327,13 @@ protected:
   constexpr OVRGLTFLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGLTFLoader(OVRGLTFLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader(OVRGLTFLoader const&) = delete;
+  OVRGLTFLoader(OVRGLTFLoaderconst&) = delete;
 
   /// @brief Field LoadingMaxTimePerFrame offset 0xffffffff size 0x4
   static constexpr float_t LoadingMaxTimePerFrame{ static_cast<float_t>(0.014285714f) };

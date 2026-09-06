@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ MARK_REF_T(::GlobalNamespace::LocalLeaderboardViewController*);
 MARK_VAL_T(::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LocalLeaderboardViewController*, "", "LocalLeaderboardViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27, "", "LocalLeaderboardViewController/<ClearLeaderboardsAsync>d__27");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -76,6 +77,7 @@ public:
   /// @brief Method MoveNext, addr 0x594a5c8, size 0x2e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x594a8b0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -86,9 +88,10 @@ public:
   // @brief default ctor
   constexpr LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LocalLeaderboardViewController>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::LocalLeaderboardViewController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                          ::UnityW<::GlobalNamespace::LocalLeaderboardViewController> __4__this,
                                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -178,6 +181,7 @@ public:
 
   __declspec(property(get = get_leaderboardsModel)) ::GlobalNamespace::LocalLeaderboardsModel* leaderboardsModel;
 
+  /// [AsyncStateMachine(typeof(LocalLeaderboardViewController::<ClearLeaderboardsAsync>d__27))]
   /// @brief Method ClearLeaderboardsAsync, addr 0x594a378, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ClearLeaderboardsAsync();
 
@@ -211,11 +215,12 @@ public:
   inline void SetContent(::StringW leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType leaderboardType);
 
   /// @brief Method SetData, addr 0x5949ae0, size 0x80, virtual true, abstract: false, final false
-  inline void SetData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// @brief Method Setup, addr 0x5949ad8, size 0x8, virtual false, abstract: false, final false
   inline void Setup(bool enableClear);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__22_0, addr 0x594a558, size 0x70, virtual false, abstract: false, final false
   inline void _DidActivate_b__22_0();
 
@@ -313,13 +318,13 @@ protected:
   constexpr LocalLeaderboardViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardViewController(LocalLeaderboardViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardViewController(LocalLeaderboardViewController const&) = delete;
+  LocalLeaderboardViewController(LocalLeaderboardViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6918 };
@@ -333,33 +338,45 @@ public:
   /// @brief Field kButtonHighscoresTodayLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kButtonHighscoresTodayLocalizationKey{ u"BUTTON_HIGHSCORES_TODAY" };
 
+  /// [SerializeField]
   /// @brief Field _maxNumberOfCells, offset: 0x78, size: 0x4, def value: None
   int32_t ____maxNumberOfCells;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _leaderboardTableView, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalLeaderboardTableView> ____leaderboardTableView;
 
+  /// [SerializeField]
   /// @brief Field _clearLeaderboardsWrapper, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____clearLeaderboardsWrapper;
 
+  /// [SerializeField]
   /// @brief Field _clearLeaderboardsButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::HMUI::NoTransitionsButton> ____clearLeaderboardsButton;
 
+  /// [SerializeField]
   /// @brief Field _scopeSegmentedControl, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControl> ____scopeSegmentedControl;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _allTimeLeaderboardIcon, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____allTimeLeaderboardIcon;
 
+  /// [SerializeField]
   /// @brief Field _todayLeaderboardIcon, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____todayLeaderboardIcon;
 
+  /// [SerializeField]
   /// @brief Field _clearLeaderboardIcon, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____clearLeaderboardIcon;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _localLeaderboardsModel, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::LocalLeaderboardsModel* ____localLeaderboardsModel;
 

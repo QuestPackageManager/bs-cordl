@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\EnhancedTouch\TouchHistory.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/EnhancedTouch/TouchHistory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,9 @@ namespace UnityEngine::InputSystem::EnhancedTouch {
 struct Touch;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> class InputStateHistory_1;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct TouchState;
@@ -58,6 +60,7 @@ MARK_REF_T(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator*);
 MARK_VAL_T(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator*, "UnityEngine.InputSystem.EnhancedTouch", "TouchHistory/Enumerator");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory, "UnityEngine.InputSystem.EnhancedTouch", "TouchHistory");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
@@ -121,9 +124,10 @@ public:
   // @brief default ctor
   constexpr TouchHistory();
 
-  // Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*", modifiers: "", def_value: None
-  // }, CppParam { name: "m_Finger", ty: "::UnityEngine::InputSystem::EnhancedTouch::Finger*", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_Finger", ty: "::UnityEngine::InputSystem::EnhancedTouch::Finger*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Count", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr TouchHistory(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* m_History,
                          ::UnityEngine::InputSystem::EnhancedTouch::Finger* m_Finger, int32_t m_Count, int32_t m_StartIndex, uint32_t m_Version) noexcept;
 
@@ -238,13 +242,13 @@ protected:
   constexpr TouchHistory_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TouchHistory_Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchHistory_Enumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TouchHistory_Enumerator(TouchHistory_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TouchHistory_Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchHistory_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TouchHistory_Enumerator(TouchHistory_Enumerator const&) = delete;
+  TouchHistory_Enumerator(TouchHistory_Enumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8913 };

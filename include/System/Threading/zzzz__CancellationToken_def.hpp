@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\CancellationToken.hpp"
+// IWYU pragma private; include "System/Threading/CancellationToken.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_REF_T(::System::Threading::CancellationToken___c*);
 MARK_VAL_T(::System::Threading::CancellationToken);
 DEFINE_IL2CPP_CLASS(::System::Threading::CancellationToken___c*, "System.Threading", "CancellationToken/<>c");
 DEFINE_IL2CPP_CLASS(::System::Threading::CancellationToken, "System.Threading", "CancellationToken");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
@@ -65,13 +66,13 @@ protected:
   constexpr CancellationToken___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CancellationToken___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CancellationToken___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CancellationToken___c(CancellationToken___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CancellationToken___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CancellationToken___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CancellationToken___c(CancellationToken___c const&) = delete;
+  CancellationToken___c(CancellationToken___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2688 };
@@ -82,6 +83,8 @@ public:
 static_assert(sizeof(::System::Threading::CancellationToken___c) == 0x10, "Size mismatch!");
 
 } // namespace System::Threading
+// [IsReadOnly]
+// [DebuggerDisplay("IsCancellationRequested = {IsCancellationRequested}")]
 // Dependencies
 namespace System::Threading {
 // Is value type: true
@@ -155,7 +158,7 @@ public:
   // @brief default ctor
   constexpr CancellationToken();
 
-  // Ctor Parameters [CppParam { name: "_source", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_source", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None, comment: None }]
   constexpr CancellationToken(::System::Threading::CancellationTokenSource* _source) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

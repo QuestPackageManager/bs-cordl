@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Emit\LocalBuilder.hpp"
+// IWYU pragma private; include "System/Reflection/Emit/LocalBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +66,13 @@ protected:
   constexpr LocalBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalBuilder(LocalBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalBuilder(LocalBuilder const&) = delete;
+  LocalBuilder(LocalBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3569 };

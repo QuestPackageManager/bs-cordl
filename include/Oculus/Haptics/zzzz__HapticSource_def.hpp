@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Haptics\HapticSource.hpp"
+// IWYU pragma private; include "Oculus/Haptics/HapticSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ public:
   /// @brief Field _priority, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__priority, put = __cordl_internal_set__priority)) uint32_t _priority;
 
+  /// @brief [DefaultValue(1)]
   __declspec(property(get = get_amplitude, put = set_amplitude)) float_t amplitude;
 
   __declspec(property(put = set_clip)) ::UnityW<::Oculus::Haptics::HapticClip> clip;
@@ -63,10 +64,13 @@ public:
 
   __declspec(property(put = set_controller)) ::Oculus::Haptics::Controller controller;
 
+  /// @brief [DefaultValue(0)]
   __declspec(property(get = get_frequencyShift, put = set_frequencyShift)) float_t frequencyShift;
 
+  /// @brief [DefaultValue(false)]
   __declspec(property(get = get_loop, put = set_loop)) bool loop;
 
+  /// @brief [DefaultValue(128)]
   __declspec(property(get = get_priority, put = set_priority)) uint32_t priority;
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
@@ -194,13 +198,13 @@ protected:
   constexpr HapticSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HapticSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HapticSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HapticSource(HapticSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HapticSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HapticSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HapticSource(HapticSource const&) = delete;
+  HapticSource(HapticSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22793 };
@@ -208,21 +212,30 @@ public:
   /// @brief Field _player, offset: 0x20, size: 0x8, def value: None
   ::Oculus::Haptics::HapticClipPlayer* ____player;
 
+  /// [SerializeField]
   /// @brief Field _clip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::Oculus::Haptics::HapticClip> ____clip;
 
+  /// [SerializeField]
   /// @brief Field _controller, offset: 0x30, size: 0x4, def value: None
   ::Oculus::Haptics::Controller ____controller;
 
+  /// [SerializeField]
   /// @brief Field _loop, offset: 0x34, size: 0x1, def value: None
   bool ____loop;
 
+  /// [SerializeField]
+  /// [Range(0, 340282350000000000000000000000000000000)]
   /// @brief Field _amplitude, offset: 0x38, size: 0x4, def value: None
   float_t ____amplitude;
 
+  /// [SerializeField]
+  /// [Range(-1, 1)]
   /// @brief Field _frequencyShift, offset: 0x3c, size: 0x4, def value: None
   float_t ____frequencyShift;
 
+  /// [SerializeField]
+  /// [Range(0, 255)]
   /// @brief Field _priority, offset: 0x40, size: 0x4, def value: None
   uint32_t ____priority;
 

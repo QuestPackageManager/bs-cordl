@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionLevelGameplayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionLevelGameplayManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,13 +109,13 @@ protected:
   constexpr MissionLevelGameplayManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelGameplayManager_InitData(MissionLevelGameplayManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelGameplayManager_InitData(MissionLevelGameplayManager_InitData const&) = delete;
+  MissionLevelGameplayManager_InitData(MissionLevelGameplayManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6776 };
@@ -164,7 +164,7 @@ public:
   // @brief default ctor
   constexpr MissionLevelGameplayManager_GameState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MissionLevelGameplayManager_GameState(int32_t value__) noexcept;
 
   /// @brief Field Failed value: I32(5)
@@ -202,6 +202,7 @@ static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager_GameState,
 static_assert(sizeof(::GlobalNamespace::MissionLevelGameplayManager_GameState) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -234,17 +235,22 @@ public:
   /// @brief Method MoveNext, addr 0x59179bc, size 0x558, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MissionLevelGameplayManager__Start_d__23* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5917f14, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5917f1c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5917f54, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59179b8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -266,6 +272,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionLevelGameplayManager> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x591738c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -284,13 +291,13 @@ protected:
   constexpr MissionLevelGameplayManager__Start_d__23();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager__Start_d__23", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager__Start_d__23", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelGameplayManager__Start_d__23(MissionLevelGameplayManager__Start_d__23&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager__Start_d__23", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager__Start_d__23", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelGameplayManager__Start_d__23(MissionLevelGameplayManager__Start_d__23 const&) = delete;
+  MissionLevelGameplayManager__Start_d__23(MissionLevelGameplayManager__Start_d__23const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6778 };
@@ -316,6 +323,7 @@ static_assert(offsetof(::GlobalNamespace::MissionLevelGameplayManager__Start_d__
 static_assert(sizeof(::GlobalNamespace::MissionLevelGameplayManager__Start_d__23) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MissionLevelGameplayManager")]
 // Dependencies LevelCompletionResults::LevelEndStateType, MissionLevelGameplayManager::GameState, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -404,6 +412,7 @@ public:
   /// @brief Method OnDestroy, addr 0x5917394, size 0x474, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [IteratorStateMachine(typeof(MissionLevelGameplayManager::<Start>d__23))]
   /// @brief Method Start, addr 0x5917338, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
@@ -485,12 +494,15 @@ public:
   /// @brief Method .ctor, addr 0x59179ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelDidStartEvent, addr 0x5916f20, size 0xac, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelFailedEvent, addr 0x59171d0, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelFinishedEvent, addr 0x5917078, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
@@ -503,12 +515,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILevelStartController"
   constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelDidStartEvent, addr 0x5916fcc, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelFailedEvent, addr 0x591727c, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelFinishedEvent, addr 0x5917124, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
@@ -518,41 +533,50 @@ protected:
   constexpr MissionLevelGameplayManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelGameplayManager(MissionLevelGameplayManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelGameplayManager(MissionLevelGameplayManager const&) = delete;
+  MissionLevelGameplayManager(MissionLevelGameplayManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6779 };
 
+  /// [SerializeField]
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
+  /// [Inject]
   /// @brief Field _gameSongController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
 
+  /// [Inject]
   /// @brief Field _gameEnergyCounter, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameEnergyCounter> ____gameEnergyCounter;
 
+  /// [Inject]
   /// @brief Field _pauseController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PauseController> ____pauseController;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::MissionLevelGameplayManager_InitData* ____initData;
 
+  /// [CompilerGenerated]
   /// @brief Field levelDidStartEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___levelDidStartEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field levelFinishedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___levelFinishedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field levelFailedEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___levelFailedEvent;
 

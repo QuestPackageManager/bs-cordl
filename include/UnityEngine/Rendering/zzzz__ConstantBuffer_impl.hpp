@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ConstantBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ConstantBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ConstantBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -53,7 +53,9 @@ inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Constant
   return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::Rendering::ConstantBufferBase*>*, "m_RegisteredConstantBuffers",
                                            ::UnityEngine::Rendering::ConstantBuffer*>();
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::PushGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<CBType> data, int32_t shaderId) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::PushGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -62,7 +64,9 @@ template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::P
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, data, shaderId);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::PushGlobal(::by_ref<CBType> data, int32_t shaderId) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::PushGlobal(/* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(),
                                                            { "PushGlobal", { ::i2c::class_of<CBType>() }, { ::i2c::type_of<::by_ref<CBType>>(), ::i2c::type_of<int32_t>() } })));
@@ -70,7 +74,8 @@ template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::P
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, shaderId);
 }
 template <typename CBType>
-inline void UnityEngine::Rendering::ConstantBuffer::Push(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<CBType> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId) {
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::Push(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(), { "Push",
@@ -80,7 +85,9 @@ inline void UnityEngine::Rendering::ConstantBuffer::Push(::UnityEngine::Renderin
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, data, cs, shaderId);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::Push(::by_ref<CBType> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::Push(/* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::ComputeShader* cs, int32_t shaderId) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(),
@@ -89,7 +96,8 @@ template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::P
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, cs, shaderId);
 }
 template <typename CBType>
-inline void UnityEngine::Rendering::ConstantBuffer::Push(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<CBType> data, ::UnityEngine::Material* mat, int32_t shaderId) {
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::Push(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::Material* mat, int32_t shaderId) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(), { "Push",
@@ -99,7 +107,9 @@ inline void UnityEngine::Rendering::ConstantBuffer::Push(::UnityEngine::Renderin
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, data, mat, shaderId);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::Push(::by_ref<CBType> data, ::UnityEngine::Material* mat, int32_t shaderId) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::Push(/* [IsReadOnly] */ ::by_ref<CBType> data, ::UnityEngine::Material* mat, int32_t shaderId) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(),
@@ -107,33 +117,43 @@ template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::P
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, mat, shaderId);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::UpdateData(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<CBType> data) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::UpdateData(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(),
                                               { "UpdateData", { ::i2c::class_of<CBType>() }, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<CBType>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, data);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::UpdateData(::by_ref<CBType> data) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::UpdateData(/* [IsReadOnly] */ ::by_ref<CBType> data) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(), { "UpdateData", { ::i2c::class_of<CBType>() }, { ::i2c::type_of<::by_ref<CBType>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::SetGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t shaderId) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::SetGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t shaderId) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(),
                                                            { "SetGlobal", { ::i2c::class_of<CBType>() }, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, shaderId);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::SetGlobal(int32_t shaderId) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::SetGlobal(int32_t shaderId) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(), { "SetGlobal", { ::i2c::class_of<CBType>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, shaderId);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::Set(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* cs, int32_t shaderId) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::Set(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* cs, int32_t shaderId) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -142,14 +162,18 @@ template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::S
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cs, shaderId);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::Set(::UnityEngine::ComputeShader* cs, int32_t shaderId) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::Set(::UnityEngine::ComputeShader* cs, int32_t shaderId) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(),
                                                            { "Set", { ::i2c::class_of<CBType>() }, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<CBType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cs, shaderId);
 }
-template <typename CBType> inline void UnityEngine::Rendering::ConstantBuffer::Set(::UnityEngine::Material* mat, int32_t shaderId) {
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+inline void UnityEngine::Rendering::ConstantBuffer::Set(::UnityEngine::Material* mat, int32_t shaderId) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(),
                                                            { "Set", { ::i2c::class_of<CBType>() }, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<int32_t>() } })));

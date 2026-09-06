@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ocsp\BasicOcspResponse.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/BasicOcspResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ public:
   /// @brief Field tbsResponseData, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tbsResponseData, put = __cordl_internal_set_tbsResponseData)) ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* tbsResponseData;
 
+  /// [Obsolete("Use Certs property instead")]
   /// @brief Method GetCerts, addr 0x3459f1c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* GetCerts();
 
@@ -71,15 +72,18 @@ public:
   /// @brief Method GetInstance, addr 0x34599f8, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* GetInstance(::System::Object* obj);
 
+  /// [Obsolete("Use Signature property instead")]
   /// @brief Method GetSignature, addr 0x3459ef0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* GetSignature();
 
+  /// [Obsolete("Use SignatureAlgorithm property instead")]
   /// @brief Method GetSignatureAlgorithm, addr 0x3459ee0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSignatureAlgorithm();
 
   /// @brief Method GetSignatureOctets, addr 0x3459f00, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSignatureOctets();
 
+  /// [Obsolete("Use TbsResponseData property instead")]
   /// @brief Method GetTbsResponseData, addr 0x3459ed0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* GetTbsResponseData();
 
@@ -141,13 +145,13 @@ protected:
   constexpr BasicOcspResponse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicOcspResponse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicOcspResponse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicOcspResponse(BasicOcspResponse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicOcspResponse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicOcspResponse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicOcspResponse(BasicOcspResponse const&) = delete;
+  BasicOcspResponse(BasicOcspResponseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 206 };

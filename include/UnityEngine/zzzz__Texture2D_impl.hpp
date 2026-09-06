@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Texture2D.hpp"
+// IWYU pragma private; include "UnityEngine/Texture2D.hpp"
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -20,7 +20,7 @@
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Texture2D_EXRFlags::Texture2D_EXRFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2621,14 +2621,15 @@ inline void UnityEngine::Texture2D::Compress(bool highQuality) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "Compress", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, highQuality);
 }
-inline bool UnityEngine::Texture2D::Internal_CreateEmptyImpl(::UnityEngine::Texture2D* mono) {
+inline bool UnityEngine::Texture2D::Internal_CreateEmptyImpl(/* [Writable] */ ::UnityEngine::Texture2D* mono) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "Internal_CreateEmptyImpl", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, mono);
 }
-inline bool UnityEngine::Texture2D::Internal_CreateImpl(::UnityEngine::Texture2D* mono, int32_t w, int32_t h, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                                        ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex,
-                                                        bool ignoreMipmapLimit, ::StringW mipmapLimitGroupName) {
+inline bool UnityEngine::Texture2D::Internal_CreateImpl(/* [Writable] */ ::UnityEngine::Texture2D* mono, int32_t w, int32_t h, int32_t mipCount,
+                                                        ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
+                                                        ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex, bool ignoreMipmapLimit,
+                                                        ::StringW mipmapLimitGroupName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
                                                            { "Internal_CreateImpl",
@@ -2639,9 +2640,10 @@ inline bool UnityEngine::Texture2D::Internal_CreateImpl(::UnityEngine::Texture2D
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, mono, w, h, mipCount, format, colorSpace, flags, nativeTex, ignoreMipmapLimit, mipmapLimitGroupName);
 }
-inline void UnityEngine::Texture2D::Internal_Create(::UnityEngine::Texture2D* mono, int32_t w, int32_t h, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                                    ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex,
-                                                    bool ignoreMipmapLimit, ::StringW mipmapLimitGroupName) {
+inline void UnityEngine::Texture2D::Internal_Create(/* [Writable] */ ::UnityEngine::Texture2D* mono, int32_t w, int32_t h, int32_t mipCount,
+                                                    ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
+                                                    ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex, bool ignoreMipmapLimit,
+                                                    ::StringW mipmapLimitGroupName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
                                                            { "Internal_Create",
@@ -2853,7 +2855,7 @@ inline ::ArrayW<uint8_t> UnityEngine::Texture2D::GetRawTextureData() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetRawTextureData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method);
 }
-inline ::ArrayW<::UnityEngine::Color> UnityEngine::Texture2D::GetPixels(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, int32_t miplevel) {
+inline ::ArrayW<::UnityEngine::Color> UnityEngine::Texture2D::GetPixels(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, /* [DefaultValue("0")] */ int32_t miplevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
@@ -2866,7 +2868,7 @@ inline ::ArrayW<::UnityEngine::Color> UnityEngine::Texture2D::GetPixels(int32_t 
                                                            { "GetPixels", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color>>(this, ___internal_method, x, y, blockWidth, blockHeight);
 }
-inline ::ArrayW<::UnityEngine::Color32> UnityEngine::Texture2D::GetPixels32(int32_t miplevel) {
+inline ::ArrayW<::UnityEngine::Color32> UnityEngine::Texture2D::GetPixels32(/* [DefaultValue("0")] */ int32_t miplevel) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetPixels32", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color32>>(this, ___internal_method, miplevel);
 }
@@ -3032,7 +3034,8 @@ inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::Unity
                                                   ::i2c::type_of<bool>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::MipmapLimitDescriptor>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, textureFormat, mipCount, linear, nativeTex, createUninitialized, mipmapLimitDescriptor);
 }
-inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear) {
+inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                          /* [DefaultValue("-1")] */ int32_t mipCount, /* [DefaultValue("false")] */ bool linear) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -3040,7 +3043,8 @@ inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::Unity
                        { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, textureFormat, mipCount, linear);
 }
-inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized) {
+inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                          /* [DefaultValue("-1")] */ int32_t mipCount, /* [DefaultValue("false")] */ bool linear, /* [DefaultValue("false")] */ bool createUninitialized) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { ".ctor",
                                                                                               {},
@@ -3048,7 +3052,8 @@ inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::Unity
                                                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, textureFormat, mipCount, linear, createUninitialized);
 }
-inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized,
+inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                          /* [DefaultValue("-1")] */ int32_t mipCount, /* [DefaultValue("false")] */ bool linear, /* [DefaultValue("false")] */ bool createUninitialized,
                                           ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
@@ -3058,8 +3063,9 @@ inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::Unity
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::MipmapLimitDescriptor>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, textureFormat, mipCount, linear, createUninitialized, mipmapLimitDescriptor);
 }
-inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized, bool ignoreMipmapLimit,
-                                          ::StringW mipmapLimitGroupName) {
+inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                          /* [DefaultValue("-1")] */ int32_t mipCount, /* [DefaultValue("false")] */ bool linear, /* [DefaultValue("false")] */ bool createUninitialized,
+                                          /* [DefaultValue("true")] */ bool ignoreMipmapLimit, /* [DefaultValue("null")] */ ::StringW mipmapLimitGroupName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
                                                            { ".ctor",
@@ -3068,14 +3074,16 @@ inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::Unity
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, textureFormat, mipCount, linear, createUninitialized, ignoreMipmapLimit, mipmapLimitGroupName);
 }
-inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) {
+inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                          /* [DefaultValue("true")] */ bool mipChain, /* [DefaultValue("false")] */ bool linear) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
                           { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, textureFormat, mipChain, linear);
 }
-inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear, bool createUninitialized) {
+inline void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                          /* [DefaultValue("true")] */ bool mipChain, /* [DefaultValue("false")] */ bool linear, /* [DefaultValue("false")] */ bool createUninitialized) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { ".ctor",
                                                                                               {},
@@ -3109,13 +3117,13 @@ inline void UnityEngine::Texture2D::SetPixel(int32_t x, int32_t y, ::UnityEngine
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "SetPixel", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, color);
 }
-inline void UnityEngine::Texture2D::SetPixel(int32_t x, int32_t y, ::UnityEngine::Color color, int32_t mipLevel) {
+inline void UnityEngine::Texture2D::SetPixel(int32_t x, int32_t y, ::UnityEngine::Color color, /* [DefaultValue("0")] */ int32_t mipLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
                                               { "SetPixel", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, color, mipLevel);
 }
-inline void UnityEngine::Texture2D::SetPixels(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, ::ArrayW<::UnityEngine::Color> colors, int32_t miplevel) {
+inline void UnityEngine::Texture2D::SetPixels(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, ::ArrayW<::UnityEngine::Color> colors, /* [DefaultValue("0")] */ int32_t miplevel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "SetPixels",
@@ -3132,7 +3140,7 @@ inline void UnityEngine::Texture2D::SetPixels(int32_t x, int32_t y, int32_t bloc
           { "SetPixels", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, blockWidth, blockHeight, colors);
 }
-inline void UnityEngine::Texture2D::SetPixels(::ArrayW<::UnityEngine::Color> colors, int32_t miplevel) {
+inline void UnityEngine::Texture2D::SetPixels(::ArrayW<::UnityEngine::Color> colors, /* [DefaultValue("0")] */ int32_t miplevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "SetPixels", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Color>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, colors, miplevel);
@@ -3147,7 +3155,7 @@ inline ::UnityEngine::Color UnityEngine::Texture2D::GetPixel(int32_t x, int32_t 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetPixel", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, x, y);
 }
-inline ::UnityEngine::Color UnityEngine::Texture2D::GetPixel(int32_t x, int32_t y, int32_t mipLevel) {
+inline ::UnityEngine::Color UnityEngine::Texture2D::GetPixel(int32_t x, int32_t y, /* [DefaultValue("0")] */ int32_t mipLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetPixel", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, x, y, mipLevel);
@@ -3157,7 +3165,7 @@ inline ::UnityEngine::Color UnityEngine::Texture2D::GetPixelBilinear(float_t u, 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetPixelBilinear", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, u, v);
 }
-inline ::UnityEngine::Color UnityEngine::Texture2D::GetPixelBilinear(float_t u, float_t v, int32_t mipLevel) {
+inline ::UnityEngine::Color UnityEngine::Texture2D::GetPixelBilinear(float_t u, float_t v, /* [DefaultValue("0")] */ int32_t mipLevel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetPixelBilinear", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
@@ -3173,21 +3181,25 @@ inline void UnityEngine::Texture2D::LoadRawTextureData(::ArrayW<uint8_t> data) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "LoadRawTextureData", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data);
 }
-template <typename T> inline void UnityEngine::Texture2D::LoadRawTextureData(::Unity::Collections::NativeArray_1<T> data) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Texture2D::LoadRawTextureData(::Unity::Collections::NativeArray_1<T> data) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "LoadRawTextureData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data);
 }
-template <typename T> inline void UnityEngine::Texture2D::SetPixelData(::ArrayW<T> data, int32_t mipLevel, int32_t sourceDataStartIndex) {
+template <typename T> inline void UnityEngine::Texture2D::SetPixelData(::ArrayW<T> data, int32_t mipLevel, /* [DefaultValue("0")] */ int32_t sourceDataStartIndex) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
                                                            { "SetPixelData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, mipLevel, sourceDataStartIndex);
 }
-template <typename T> inline void UnityEngine::Texture2D::SetPixelData(::Unity::Collections::NativeArray_1<T> data, int32_t mipLevel, int32_t sourceDataStartIndex) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Texture2D::SetPixelData(::Unity::Collections::NativeArray_1<T> data, int32_t mipLevel, /* [DefaultValue("0")] */ int32_t sourceDataStartIndex) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
@@ -3195,18 +3207,22 @@ template <typename T> inline void UnityEngine::Texture2D::SetPixelData(::Unity::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, mipLevel, sourceDataStartIndex);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Texture2D::GetPixelData(int32_t mipLevel) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Texture2D::GetPixelData(int32_t mipLevel) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetPixelData", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(this, ___internal_method, mipLevel);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Texture2D::GetRawTextureData() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Texture2D::GetRawTextureData() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetRawTextureData", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(this, ___internal_method);
 }
-inline void UnityEngine::Texture2D::Apply(bool updateMipmaps, bool makeNoLongerReadable) {
+inline void UnityEngine::Texture2D::Apply(/* [DefaultValue("true")] */ bool updateMipmaps, /* [DefaultValue("false")] */ bool makeNoLongerReadable) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "Apply", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, updateMipmaps, makeNoLongerReadable);
@@ -3258,7 +3274,7 @@ inline bool UnityEngine::Texture2D::Resize(int32_t width, int32_t height, ::Unit
                        { "Resize", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, width, height, format, hasMipMap);
 }
-inline void UnityEngine::Texture2D::ReadPixels(::UnityEngine::Rect source, int32_t destX, int32_t destY, bool recalculateMipMaps) {
+inline void UnityEngine::Texture2D::ReadPixels(::UnityEngine::Rect source, int32_t destX, int32_t destY, /* [DefaultValue("true")] */ bool recalculateMipMaps) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
                                               { "ReadPixels", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
@@ -3279,7 +3295,7 @@ inline bool UnityEngine::Texture2D::GenerateAtlas(::ArrayW<::UnityEngine::Vector
                                                                                          ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Rect>*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, sizes, padding, atlasSize, results);
 }
-inline void UnityEngine::Texture2D::SetPixels32(::ArrayW<::UnityEngine::Color32> colors, int32_t miplevel) {
+inline void UnityEngine::Texture2D::SetPixels32(::ArrayW<::UnityEngine::Color32> colors, /* [DefaultValue("0")] */ int32_t miplevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "SetPixels32", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Color32>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, colors, miplevel);
@@ -3289,7 +3305,7 @@ inline void UnityEngine::Texture2D::SetPixels32(::ArrayW<::UnityEngine::Color32>
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "SetPixels32", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Color32>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, colors);
 }
-inline void UnityEngine::Texture2D::SetPixels32(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, ::ArrayW<::UnityEngine::Color32> colors, int32_t miplevel) {
+inline void UnityEngine::Texture2D::SetPixels32(int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, ::ArrayW<::UnityEngine::Color32> colors, /* [DefaultValue("0")] */ int32_t miplevel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "SetPixels32",
@@ -3306,7 +3322,7 @@ inline void UnityEngine::Texture2D::SetPixels32(int32_t x, int32_t y, int32_t bl
           { "SetPixels32", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::Color32>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, blockWidth, blockHeight, colors);
 }
-inline ::ArrayW<::UnityEngine::Color> UnityEngine::Texture2D::GetPixels(int32_t miplevel) {
+inline ::ArrayW<::UnityEngine::Color> UnityEngine::Texture2D::GetPixels(/* [DefaultValue("0")] */ int32_t miplevel) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetPixels", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color>>(this, ___internal_method, miplevel);
 }
@@ -3400,9 +3416,10 @@ inline void UnityEngine::Texture2D::Compress_Injected(::System::IntPtr _unity_se
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "Compress_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, highQuality);
 }
-inline bool UnityEngine::Texture2D::Internal_CreateImpl_Injected(::UnityEngine::Texture2D* mono, int32_t w, int32_t h, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                                                 ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
-                                                                 ::System::IntPtr nativeTex, bool ignoreMipmapLimit, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> mipmapLimitGroupName) {
+inline bool UnityEngine::Texture2D::Internal_CreateImpl_Injected(/* [Writable] */ ::UnityEngine::Texture2D* mono, int32_t w, int32_t h, int32_t mipCount,
+                                                                 ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
+                                                                 ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex, bool ignoreMipmapLimit,
+                                                                 ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> mipmapLimitGroupName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(),
                                                            { "Internal_CreateImpl_Injected",
@@ -3661,7 +3678,8 @@ inline ::ArrayW<uint8_t> UnityEngine::Texture2D::GetRawTextureData_Injected(::Sy
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetRawTextureData_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, _unity_self);
 }
-inline ::ArrayW<::UnityEngine::Color> UnityEngine::Texture2D::GetPixels_Injected(::System::IntPtr _unity_self, int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight, int32_t miplevel) {
+inline ::ArrayW<::UnityEngine::Color> UnityEngine::Texture2D::GetPixels_Injected(::System::IntPtr _unity_self, int32_t x, int32_t y, int32_t blockWidth, int32_t blockHeight,
+                                                                                 /* [DefaultValue("0")] */ int32_t miplevel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetPixels_Injected",
                                                                                                            {},
@@ -3669,7 +3687,7 @@ inline ::ArrayW<::UnityEngine::Color> UnityEngine::Texture2D::GetPixels_Injected
                                                                                                              ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color>>(nullptr, ___internal_method, _unity_self, x, y, blockWidth, blockHeight, miplevel);
 }
-inline ::ArrayW<::UnityEngine::Color32> UnityEngine::Texture2D::GetPixels32_Injected(::System::IntPtr _unity_self, int32_t miplevel) {
+inline ::ArrayW<::UnityEngine::Color32> UnityEngine::Texture2D::GetPixels32_Injected(::System::IntPtr _unity_self, /* [DefaultValue("0")] */ int32_t miplevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2D*>(), { "GetPixels32_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color32>>(nullptr, ___internal_method, _unity_self, miplevel);
@@ -3713,34 +3731,44 @@ inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width,
                                                                   ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, format, flags, mipCount, nativeTex, mipmapLimitDescriptor));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
                                                                   ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, format, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::DefaultFormat format, int32_t mipCount,
                                                                   ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, format, mipCount, flags));
 }
+/// [Obsolete("Please provide mipmap limit information using a MipmapLimitDescriptor argument", false)]
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::DefaultFormat format, int32_t mipCount,
                                                                   ::StringW mipmapLimitGroupName, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, format, mipCount, mipmapLimitGroupName, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::DefaultFormat format, int32_t mipCount,
                                                                   ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, format, mipCount, flags, mipmapLimitDescriptor));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                   ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, format, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount,
                                                                   ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, format, mipCount, flags));
 }
+/// [Obsolete("Please provide mipmap limit information using a MipmapLimitDescriptor argument", false)]
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount,
                                                                   ::StringW mipmapLimitGroupName, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, format, mipCount, mipmapLimitGroupName, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount,
                                                                   ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, format, mipCount, flags, mipmapLimitDescriptor));
@@ -3749,24 +3777,34 @@ inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width,
                                                                   bool createUninitialized, ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, textureFormat, mipCount, linear, nativeTex, createUninitialized, mipmapLimitDescriptor));
 }
-inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear) {
+inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                                                  /* [DefaultValue("-1")] */ int32_t mipCount, /* [DefaultValue("false")] */ bool linear) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, textureFormat, mipCount, linear));
 }
-inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized) {
+inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                                                  /* [DefaultValue("-1")] */ int32_t mipCount, /* [DefaultValue("false")] */ bool linear,
+                                                                  /* [DefaultValue("false")] */ bool createUninitialized) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, textureFormat, mipCount, linear, createUninitialized));
 }
-inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized,
-                                                                  ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor) {
+inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                                                  /* [DefaultValue("-1")] */ int32_t mipCount, /* [DefaultValue("false")] */ bool linear,
+                                                                  /* [DefaultValue("false")] */ bool createUninitialized, ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, textureFormat, mipCount, linear, createUninitialized, mipmapLimitDescriptor));
 }
-inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized,
-                                                                  bool ignoreMipmapLimit, ::StringW mipmapLimitGroupName) {
+/// @brief [Obsolete("Please provide mipmap limit information using a MipmapLimitDescriptor argument", false)]
+inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                                                  /* [DefaultValue("-1")] */ int32_t mipCount, /* [DefaultValue("false")] */ bool linear,
+                                                                  /* [DefaultValue("false")] */ bool createUninitialized, /* [DefaultValue("true")] */ bool ignoreMipmapLimit,
+                                                                  /* [DefaultValue("null")] */ ::StringW mipmapLimitGroupName) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, textureFormat, mipCount, linear, createUninitialized, ignoreMipmapLimit, mipmapLimitGroupName));
 }
-inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) {
+inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                                                  /* [DefaultValue("true")] */ bool mipChain, /* [DefaultValue("false")] */ bool linear) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, textureFormat, mipChain, linear));
 }
-inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear, bool createUninitialized) {
+inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, /* [DefaultValue("TextureFormat.RGBA32")] */ ::UnityEngine::TextureFormat textureFormat,
+                                                                  /* [DefaultValue("true")] */ bool mipChain, /* [DefaultValue("false")] */ bool linear,
+                                                                  /* [DefaultValue("false")] */ bool createUninitialized) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2D*>(width, height, textureFormat, mipChain, linear, createUninitialized));
 }
 inline ::UnityEngine::Texture2D* UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, ::UnityEngine::TextureFormat textureFormat, bool mipChain) {

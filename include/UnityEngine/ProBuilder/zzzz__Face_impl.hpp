@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Face.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Face.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__AutoUnwrapSettings_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_impl.hpp"
@@ -883,6 +883,7 @@ inline ::UnityEngine::ProBuilder::Face* UnityEngine::ProBuilder::Face::New_ctor(
 inline ::UnityEngine::ProBuilder::Face* UnityEngine::ProBuilder::Face::New_ctor(::System::Collections::Generic::IEnumerable_1<int32_t>* indices) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::Face*>(indices));
 }
+/// @brief [Obsolete("Face.material is deprecated. Please use \"submeshIndex\" instead.")]
 inline ::UnityEngine::ProBuilder::Face* UnityEngine::ProBuilder::Face::New_ctor(::ArrayW<int32_t> triangles, ::UnityEngine::Material* m, ::UnityEngine::ProBuilder::AutoUnwrapSettings u,
                                                                                 int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::Face*>(triangles, m, u, smoothing, texture, element, manualUVs));

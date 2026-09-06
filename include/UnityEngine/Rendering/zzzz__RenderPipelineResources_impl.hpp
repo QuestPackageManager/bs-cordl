@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineResources.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineResources_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderPipelineResources.get_packagePath

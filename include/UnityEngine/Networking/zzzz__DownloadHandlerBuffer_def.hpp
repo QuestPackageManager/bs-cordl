@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -20,6 +22,7 @@ class DownloadHandlerBuffer;
 // Write type traits
 MARK_REF_T(::UnityEngine::Networking::DownloadHandlerBuffer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Networking::DownloadHandlerBuffer*, "UnityEngine.Networking", "DownloadHandlerBuffer");
+// [NativeHeader("Modules/UnityWebRequest/Public/DownloadHandler/DownloadHandlerBuffer.h")]
 // Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Networking.DownloadHandler
 namespace UnityEngine::Networking {
 // Is value type: false
@@ -31,7 +34,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_NativeData, put = __cordl_internal_set_m_NativeData)) ::Unity::Collections::NativeArray_1<uint8_t> m_NativeData;
 
   /// @brief Method Create, addr 0x6e28fdc, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerBuffer* obj);
+  static inline ::System::IntPtr Create(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerBuffer* obj);
 
   /// @brief Method Dispose, addr 0x6e290a8, size 0x60, virtual true, abstract: false, final false
   inline void Dispose();
@@ -59,13 +62,13 @@ protected:
   constexpr DownloadHandlerBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DownloadHandlerBuffer(DownloadHandlerBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerBuffer(DownloadHandlerBuffer const&) = delete;
+  DownloadHandlerBuffer(DownloadHandlerBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22297 };

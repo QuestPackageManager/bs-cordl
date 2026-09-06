@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\CopyMeshJobData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/CopyMeshJobData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // @brief default ctor
   constexpr CopyMeshJobData();
 
-  // Ctor Parameters [CppParam { name: "vertSrc", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "vertDst", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "vertCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indexSrc", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "indexDst",
-  // ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indexOffset", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vertSrc", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertDst", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "vertCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexSrc", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "indexDst", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "indexOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CopyMeshJobData(::System::IntPtr vertSrc, ::System::IntPtr vertDst, int32_t vertCount, ::System::IntPtr indexSrc, ::System::IntPtr indexDst, int32_t indexCount,
                             int32_t indexOffset) noexcept;
 

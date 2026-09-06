@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SynchronizedActionQueue.hpp"
+// IWYU pragma private; include "GlobalNamespace/SynchronizedActionQueue.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SynchronizedActionQueue_def.hpp"
 #include "GlobalNamespace/zzzz__SynchronizedActionQueue_def.hpp"
@@ -24,7 +24,8 @@ inline void GlobalNamespace::SynchronizedActionQueue_SynchronizedAction::_ctor(f
                                                                                          { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, time, action);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction::SynchronizedActionQueue_SynchronizedAction(float_t time, ::System::Action* action) noexcept {
   this->time = time;
   this->action = action;

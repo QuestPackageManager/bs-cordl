@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextShaderUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextShaderUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextShaderUtilities_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"

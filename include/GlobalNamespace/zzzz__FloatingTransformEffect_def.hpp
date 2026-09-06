@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatingTransformEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatingTransformEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -283,50 +283,67 @@ protected:
   constexpr FloatingTransformEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatingTransformEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatingTransformEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatingTransformEffect(FloatingTransformEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatingTransformEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatingTransformEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatingTransformEffect(FloatingTransformEffect const&) = delete;
+  FloatingTransformEffect(FloatingTransformEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5770 };
 
+  /// [Inject]
   /// @brief Field _random, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IRandom* ____random;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 
+  /// [SerializeField]
   /// @brief Field _positionMultiplier, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____positionMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _rotationMultiplier, offset: 0x3c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rotationMultiplier;
 
+  /// [Header("Rotation")]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _rotationTransform, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____rotationTransform;
 
+  /// [SerializeField]
   /// @brief Field _maxRotationDegrees, offset: 0x50, size: 0x4, def value: None
   float_t ____maxRotationDegrees;
 
+  /// [Header("X")]
+  /// [SerializeField]
   /// @brief Field _xAmplitude, offset: 0x54, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xAmplitude;
 
+  /// [SerializeField]
   /// @brief Field _xFrequency, offset: 0x5c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xFrequency;
 
+  /// [Header("Y")]
+  /// [SerializeField]
   /// @brief Field _yAmplitude, offset: 0x64, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____yAmplitude;
 
+  /// [SerializeField]
   /// @brief Field _yFrequency, offset: 0x6c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____yFrequency;
 
+  /// [Header("Z")]
+  /// [SerializeField]
   /// @brief Field _zAmplitude, offset: 0x74, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____zAmplitude;
 
+  /// [SerializeField]
   /// @brief Field _zFrequency, offset: 0x7c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____zFrequency;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TerrainUtils\TerrainMap.hpp"
+// IWYU pragma private; include "UnityEngine/TerrainUtils/TerrainMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_REF_T(::UnityEngine::TerrainUtils::TerrainMap*);
 MARK_REF_T(::UnityEngine::TerrainUtils::TerrainMap___c__DisplayClass3_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TerrainUtils::TerrainMap*, "UnityEngine.TerrainUtils", "TerrainMap");
 DEFINE_IL2CPP_CLASS(::UnityEngine::TerrainUtils::TerrainMap___c__DisplayClass3_0*, "UnityEngine.TerrainUtils", "TerrainMap/<>c__DisplayClass3_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
@@ -71,13 +72,13 @@ protected:
   constexpr TerrainMap___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainMap___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainMap___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainMap___c__DisplayClass3_0(TerrainMap___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainMap___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainMap___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerrainMap___c__DisplayClass3_0(TerrainMap___c__DisplayClass3_0 const&) = delete;
+  TerrainMap___c__DisplayClass3_0(TerrainMap___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22742 };
@@ -170,13 +171,13 @@ protected:
   constexpr TerrainMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainMap(TerrainMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerrainMap(TerrainMap const&) = delete;
+  TerrainMap(TerrainMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22743 };

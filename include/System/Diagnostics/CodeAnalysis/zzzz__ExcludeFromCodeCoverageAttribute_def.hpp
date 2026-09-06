@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\CodeAnalysis\ExcludeFromCodeCoverageAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/CodeAnalysis/ExcludeFromCodeCoverageAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ExcludeFromCodeCoverageAttribute;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute*, "System.Diagnostics.CodeAnalysis", "ExcludeFromCodeCoverageAttribute");
+// [AttributeUsage((System.AttributeTargets)749, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr ExcludeFromCodeCoverageAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromCodeCoverageAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromCodeCoverageAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExcludeFromCodeCoverageAttribute(ExcludeFromCodeCoverageAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromCodeCoverageAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromCodeCoverageAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExcludeFromCodeCoverageAttribute(ExcludeFromCodeCoverageAttribute const&) = delete;
+  ExcludeFromCodeCoverageAttribute(ExcludeFromCodeCoverageAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11160 };

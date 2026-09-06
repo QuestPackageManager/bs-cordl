@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextProcessingStack_1.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextProcessingStack_1.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_def.hpp"
 template <typename T> inline void UnityEngine::TextCore::Text::TextProcessingStack_1<T>::_ctor(::ArrayW<T> stack) {
   static auto* ___internal_method =
@@ -65,9 +65,10 @@ template <typename T> inline T UnityEngine::TextCore::Text::TextProcessingStack_
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>>(), { "CurrentItem", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<T>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_DefaultItem", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RolloverSize", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_DefaultItem", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Count", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
 constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<T>::TextProcessingStack_1(::ArrayW<T> itemStack, int32_t index, T m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize,
                                                                                          int32_t m_Count) noexcept {

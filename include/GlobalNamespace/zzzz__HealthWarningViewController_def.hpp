@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HealthWarningViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/HealthWarningViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_REF_T(::GlobalNamespace::HealthWarningViewController*);
 MARK_REF_T(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11*, "", "HealthWarningViewController/<DismissHealthAndSafety>d__11");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -83,17 +84,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a1a5cc, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a1a678, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a1a680, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a1a6b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a1a5c8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -115,6 +121,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HealthWarningViewController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a1a5bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -133,13 +140,13 @@ protected:
   constexpr HealthWarningViewController__DismissHealthAndSafety_d__11();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__11", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__11", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__11", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11 const&) = delete;
+  HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6441 };
@@ -204,6 +211,7 @@ public:
   /// @brief Method DidDeactivate, addr 0x5a1a4e0, size 0xd4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
+  /// [IteratorStateMachine(typeof(HealthWarningViewController::<DismissHealthAndSafety>d__11))]
   /// @brief Method DismissHealthAndSafety, addr 0x5a1a48c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DismissHealthAndSafety();
 
@@ -269,32 +277,43 @@ protected:
   constexpr HealthWarningViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HealthWarningViewController(HealthWarningViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HealthWarningViewController(HealthWarningViewController const&) = delete;
+  HealthWarningViewController(HealthWarningViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6442 };
 
+  /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
+  /// [WillNotBeUsed]
+  /// [Header("Safe Area Checker")]
+  /// [SerializeField]
   /// @brief Field _safeAreaRectChecker, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SafeAreaRectChecker> ____safeAreaRectChecker;
 
+  /// [Header("Auto Hide Settings")]
+  /// [SerializeField]
   /// @brief Field _duration, offset: 0x90, size: 0x4, def value: None
   float_t ____duration;
 
+  /// [Header("Texts")]
+  /// [SerializeField]
   /// @brief Field _healthAndSafetyTextMesh, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____healthAndSafetyTextMesh;
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _healthAndSafetyLocalizationKey, offset: 0xa0, size: 0x8, def value: None
   ::StringW ____healthAndSafetyLocalizationKey;
 
+  /// [Inject]
   /// @brief Field _coroutineStarter, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 

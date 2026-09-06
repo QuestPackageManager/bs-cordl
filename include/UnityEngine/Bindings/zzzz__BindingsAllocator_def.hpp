@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\BindingsAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/BindingsAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   // @brief default ctor
   constexpr BindingsAllocator_NativeOwnedMemory();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "void*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "void*", modifiers: "", def_value: None, comment: None }]
   constexpr BindingsAllocator_NativeOwnedMemory(void* data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -52,6 +52,9 @@ static_assert(offsetof(::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMem
 static_assert(sizeof(::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::Bindings
+// [NativeHeader("Runtime/Scripting/Marshalling/BindingsAllocator.h")]
+// [StaticAccessor("Marshalling::BindingsAllocator", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [VisibleToOtherModules]
 // Dependencies System.Object
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -61,9 +64,11 @@ public:
   // Declarations
   using NativeOwnedMemory = ::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory;
 
+  /// [ThreadSafe]
   /// @brief Method Free, addr 0x6afee28, size 0x3c, virtual false, abstract: false, final false
   static inline void Free(void* ptr);
 
+  /// [ThreadSafe]
   /// @brief Method FreeNativeOwnedMemory, addr 0x6afee64, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeNativeOwnedMemory(void* ptr);
 
@@ -76,13 +81,13 @@ protected:
   constexpr BindingsAllocator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingsAllocator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingsAllocator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingsAllocator(BindingsAllocator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingsAllocator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingsAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingsAllocator(BindingsAllocator const&) = delete;
+  BindingsAllocator(BindingsAllocatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10470 };

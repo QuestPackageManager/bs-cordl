@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ParameterAttributes.hpp"
+// IWYU pragma private; include "System/Reflection/ParameterAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ParameterAttributes;
 // Write type traits
 MARK_VAL_T(::System::Reflection::ParameterAttributes);
 DEFINE_IL2CPP_CLASS(::System::Reflection::ParameterAttributes, "System.Reflection", "ParameterAttributes");
+// [Flags]
 // Dependencies
 namespace System::Reflection {
 // Is value type: true
@@ -51,7 +52,7 @@ public:
   // @brief default ctor
   constexpr ParameterAttributes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ParameterAttributes(int32_t value__) noexcept;
 
   /// @brief Field HasDefault value: I32(4096)

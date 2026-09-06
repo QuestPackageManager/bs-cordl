@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\FormattableString.hpp"
+// IWYU pragma private; include "System/FormattableString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*() noexcept;
 
-  /// @brief Method GetArgument, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetArgument(int32_t index);
 
-  /// @brief Method GetArguments, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*> GetArguments();
 
   static inline ::System::FormattableString* New_ctor();
@@ -52,16 +52,16 @@ public:
   /// @brief Method ToString, addr 0x5c3081c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
   /// @brief Method .ctor, addr 0x5c30888, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ArgumentCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Format, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Format, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Format();
 
   /// @brief Convert to "::System::IFormattable"
@@ -73,13 +73,13 @@ protected:
   constexpr FormattableString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormattableString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormattableString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FormattableString(FormattableString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormattableString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormattableString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormattableString(FormattableString const&) = delete;
+  FormattableString(FormattableStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2385 };

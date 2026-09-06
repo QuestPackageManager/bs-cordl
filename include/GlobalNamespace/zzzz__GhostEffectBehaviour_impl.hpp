@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GhostEffectBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/GhostEffectBehaviour.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "TMPro/zzzz__TextMeshPro_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
@@ -12,7 +12,7 @@
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior::GhostEffectBehaviour_EndBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -21,7 +21,7 @@ constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior::GhostEffectBehavi
 constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior GlobalNamespace::GhostEffectBehaviour_EndBehavior::DisableAll{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior GlobalNamespace::GhostEffectBehaviour_EndBehavior::DisableCopies{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior GlobalNamespace::GhostEffectBehaviour_EndBehavior::Nothing{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType::GhostEffectBehaviour_GhostEffectType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainSettingsMenuViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainSettingsMenuViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,6 +99,7 @@ public:
   /// @brief Method .ctor, addr 0x5a1ae60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectSettingsSubMenuEvent, addr 0x5a1aa30, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
@@ -108,6 +109,7 @@ public:
   /// @brief Method get_selectedSubMenuInfo, addr 0x5a1abc8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectSettingsSubMenuEvent, addr 0x5a1aaf0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
@@ -117,23 +119,26 @@ protected:
   constexpr MainSettingsMenuViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainSettingsMenuViewController(MainSettingsMenuViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSettingsMenuViewController(MainSettingsMenuViewController const&) = delete;
+  MainSettingsMenuViewController(MainSettingsMenuViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6448 };
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectSettingsSubMenuEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* ___didSelectSettingsSubMenuEvent;
 
+  /// [SerializeField]
   /// @brief Field _settingsSubMenuInfos, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*> ____settingsSubMenuInfos;
 
+  /// [SerializeField]
   /// @brief Field _settingsMenuSegmentedControl, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____settingsMenuSegmentedControl;
 

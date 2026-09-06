@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TypedReference.hpp"
+// IWYU pragma private; include "System/TypedReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,10 @@ struct TypedReference;
 // Write type traits
 MARK_VAL_T(::System::TypedReference);
 DEFINE_IL2CPP_CLASS(::System::TypedReference, "System", "TypedReference");
+// [CLSCompliant(false)]
+// [ComVisible(true)]
+// [NonVersionable]
+// [IsByRefLike]
 // Dependencies System.IntPtr, System.RuntimeTypeHandle
 namespace System {
 // Is value type: true
@@ -46,9 +50,11 @@ public:
   /// @brief Method InternalMakeTypedReference, addr 0x5c8a660, size 0x4, virtual false, abstract: false, final false
   static inline void InternalMakeTypedReference(void* result, ::System::Object* target, ::ArrayW<::System::IntPtr> flds, ::System::RuntimeType* lastFieldType);
 
+  /// [CLSCompliant(false)]
   /// @brief Method MakeTypedReference, addr 0x5c8a23c, size 0x418, virtual false, abstract: false, final false
   static inline ::System::TypedReference MakeTypedReference(::System::Object* target, ::ArrayW<::System::Reflection::FieldInfo*> flds);
 
+  /// [CLSCompliant(false)]
   /// @brief Method SetTypedReference, addr 0x5c8a72c, size 0x4c, virtual false, abstract: false, final false
   static inline void SetTypedReference(::System::TypedReference target, ::System::Object* value);
 
@@ -59,8 +65,8 @@ public:
   // @brief default ctor
   constexpr TypedReference();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "Type", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "Value", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Type", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr TypedReference(::System::RuntimeTypeHandle type, ::System::IntPtr Value, ::System::IntPtr Type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

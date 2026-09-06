@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CullMode.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CullMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CullMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CullMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CullMode, "UnityEngine.Rendering", "CullMode");
+// [NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr CullMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CullMode(int32_t value__) noexcept;
 
   /// @brief Field Back value: I32(2)

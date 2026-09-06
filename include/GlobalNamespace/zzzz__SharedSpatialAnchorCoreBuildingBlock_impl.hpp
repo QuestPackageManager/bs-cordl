@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SharedSpatialAnchorCoreBuildingBlock.hpp"
+// IWYU pragma private; include "GlobalNamespace/SharedSpatialAnchorCoreBuildingBlock.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__BuildingBlock_impl.hpp"
 #include "GlobalNamespace/zzzz__SharedSpatialAnchorCoreBuildingBlock_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SharedSpatialAnchorCoreBuildingBlock._ctor

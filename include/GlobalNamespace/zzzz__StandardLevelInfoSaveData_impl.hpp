@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelInfoSaveData.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelInfoSaveData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelColorSchemeSaveData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"

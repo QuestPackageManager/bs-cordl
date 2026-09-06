@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\FieldInfo.hpp"
+// IWYU pragma private; include "System/Reflection/FieldInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,6 +88,7 @@ public:
   /// @brief Method GetFieldFromHandle, addr 0x5b7e2a0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Reflection::FieldInfo* GetFieldFromHandle(::System::RuntimeFieldHandle handle);
 
+  /// [ComVisible(false)]
   /// @brief Method GetFieldFromHandle, addr 0x5b7e2fc, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Reflection::FieldInfo* GetFieldFromHandle(::System::RuntimeFieldHandle handle, ::System::RuntimeTypeHandle declaringType);
 
@@ -106,31 +107,34 @@ public:
   /// @brief Method GetRawConstantValue, addr 0x5b7e250, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Object* GetRawConstantValue();
 
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetValue(::System::Object* obj);
 
   static inline ::System::Reflection::FieldInfo* New_ctor();
 
+  /// [DebuggerStepThrough]
+  /// [DebuggerHidden]
   /// @brief Method SetValue, addr 0x5b7e1a0, size 0x64, virtual true, abstract: false, final true
   inline void SetValue(::System::Object* obj, ::System::Object* value);
 
-  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::System::Globalization::CultureInfo* culture);
 
+  /// [CLSCompliant(false)]
   /// @brief Method SetValueDirect, addr 0x5b7e204, size 0x4c, virtual true, abstract: false, final false
   inline void SetValueDirect(::System::TypedReference obj, ::System::Object* value);
 
   /// @brief Method .ctor, addr 0x5b7e014, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Attributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::FieldAttributes get_Attributes();
 
-  /// @brief Method get_FieldHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_FieldHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::RuntimeFieldHandle get_FieldHandle();
 
-  /// @brief Method get_FieldType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_FieldType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_FieldType();
 
   /// @brief Method get_IsFamily, addr 0x5b7e0a0, size 0x28, virtual true, abstract: false, final true
@@ -175,13 +179,13 @@ protected:
   constexpr FieldInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FieldInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FieldInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FieldInfo(FieldInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FieldInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FieldInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FieldInfo(FieldInfo const&) = delete;
+  FieldInfo(FieldInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3489 };

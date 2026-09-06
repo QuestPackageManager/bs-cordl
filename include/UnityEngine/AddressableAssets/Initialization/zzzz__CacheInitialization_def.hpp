@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\Initialization\CacheInitialization.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Initialization/CacheInitialization.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,13 +101,13 @@ protected:
   constexpr CacheInitialization_CacheInitOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization_CacheInitOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization_CacheInitOp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CacheInitialization_CacheInitOp(CacheInitialization_CacheInitOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization_CacheInitOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization_CacheInitOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CacheInitialization_CacheInitOp(CacheInitialization_CacheInitOp const&) = delete;
+  CacheInitialization_CacheInitOp(CacheInitialization_CacheInitOpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19851 };
@@ -128,6 +128,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::CacheIn
 static_assert(sizeof(::UnityEngine::AddressableAssets::Initialization::CacheInitialization_CacheInitOp) == 0xa8, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::Initialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
@@ -176,13 +177,13 @@ protected:
   constexpr CacheInitialization___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CacheInitialization___c__DisplayClass1_0(CacheInitialization___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CacheInitialization___c__DisplayClass1_0(CacheInitialization___c__DisplayClass1_0 const&) = delete;
+  CacheInitialization___c__DisplayClass1_0(CacheInitialization___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19852 };
@@ -245,13 +246,13 @@ protected:
   constexpr CacheInitialization();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CacheInitialization(CacheInitialization&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheInitialization", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CacheInitialization(CacheInitialization const&) = delete;
+  CacheInitialization(CacheInitializationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19853 };

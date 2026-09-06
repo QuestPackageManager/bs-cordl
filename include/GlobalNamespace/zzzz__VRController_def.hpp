@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRController.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,6 +133,7 @@ public:
   /// @brief Method HandleSystemStateChange, addr 0x585d010, size 0x10, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
+  /// [Inject]
   /// @brief Method Init, addr 0x585c01c, size 0xc, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper, ::GlobalNamespace::IXRSystemState* xrSystemState);
 
@@ -167,8 +168,8 @@ public:
   inline void UpdateAnchorOffsetPose(::UnityEngine::Pose poseOffset);
 
   /// @brief Method UpdatePoseOffset, addr 0x585cda8, size 0x164, virtual false, abstract: false, final false
-  static inline void UpdatePoseOffset(::by_ref<::UnityEngine::XR::XRNode> node, ::by_ref<::UnityEngine::Vector3> customPositionOffset, ::by_ref<::UnityEngine::Vector3> customRotationOffset,
-                                      ::by_ref<::UnityEngine::Pose> poseOffset);
+  static inline void UpdatePoseOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::XRNode> node, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> customPositionOffset,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> customRotationOffset, ::by_ref<::UnityEngine::Pose> poseOffset);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__lastTrackedPosition() const;
 
@@ -251,6 +252,7 @@ public:
   /// @brief Method .ctor, addr 0x585d020, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_anchorUpdateEvent, addr 0x585bd3c, size 0xc0, virtual false, abstract: false, final false
   inline void add_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value);
 
@@ -294,6 +296,7 @@ public:
   /// @brief Method get_viewAnchorTransform, addr 0x585bd34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_viewAnchorTransform();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_anchorUpdateEvent, addr 0x585bdfc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value);
 
@@ -316,26 +319,31 @@ protected:
   constexpr VRController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRController(VRController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRController(VRController const&) = delete;
+  VRController(VRControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21453 };
 
+  /// [SerializeField]
   /// @brief Field _node, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::XR::XRNode ____node;
 
+  /// [SerializeField]
   /// @brief Field _nodeIndex, offset: 0x24, size: 0x4, def value: None
   int32_t ____nodeIndex;
 
+  /// [SerializeField]
   /// @brief Field _viewAnchorTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____viewAnchorTransform;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _transformOffset, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRControllerTransformOffset> ____transformOffset;
 
@@ -345,6 +353,7 @@ public:
   /// @brief Field _xrSystemState, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
+  /// [CompilerGenerated]
   /// @brief Field anchorUpdateEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* ___anchorUpdateEvent;
 

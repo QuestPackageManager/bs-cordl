@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpSignatureGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpSignatureGenerator.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
@@ -506,7 +506,7 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::doUpdateByt
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator*>(), { "doUpdateByte", {}, { ::i2c::type_of<uint8_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, b);
 }
-inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::Update(::ArrayW<uint8_t> b) {
+inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::Update(/* [ParamArray] */ ::ArrayW<uint8_t> b) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator*>(), { "Update", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, b);

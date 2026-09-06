@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\ScriptPlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/ScriptPlayableOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ struct ScriptPlayableOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Playables::ScriptPlayableOutput);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.Playables.PlayableOutputHandle
 namespace UnityEngine::Playables {
 // Is value type: true
@@ -58,7 +59,7 @@ public:
   // @brief default ctor
   constexpr ScriptPlayableOutput();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

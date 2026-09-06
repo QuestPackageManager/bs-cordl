@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexWriter.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexWriter.hpp"
 #include "System/Collections/Generic/zzzz__ValueListBuilder_1_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -215,11 +215,11 @@ inline void System::Text::RegularExpressions::RegexWriter::EmitFragment(int32_t 
                                               { "EmitFragment", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Text::RegularExpressions::RegexNode*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, nodetype, node, curIndex);
 }
-// Ctor Parameters [CppParam { name: "_emitted", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_intStack", ty:
-// "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_stringHash", ty:
-// "::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_stringTable", ty:
-// "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_caps", ty: "::System::Collections::Hashtable*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_trackCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_emitted", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_intStack",
+// ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_stringHash", ty:
+// "::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_stringTable", ty:
+// "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_caps", ty: "::System::Collections::Hashtable*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_trackCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Text::RegularExpressions::RegexWriter::RegexWriter(::System::Collections::Generic::ValueListBuilder_1<int32_t> _emitted,
                                                                        ::System::Collections::Generic::ValueListBuilder_1<int32_t> _intStack,
                                                                        ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _stringHash,

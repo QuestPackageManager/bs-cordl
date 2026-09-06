@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\Substring.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Substring.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ struct Substring;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Utilities::Substring);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::Substring, "UnityEngine.InputSystem.Utilities", "Substring");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
@@ -132,8 +133,8 @@ public:
   // @brief default ctor
   constexpr Substring();
 
-  // Ctor Parameters [CppParam { name: "m_String", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_String", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Substring(::StringW m_String, int32_t m_Index, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

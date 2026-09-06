@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UriParser.hpp"
+// IWYU pragma private; include "System/UriParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__UriSyntaxFlags_impl.hpp"
 #include "System/zzzz__UriParser_def.hpp"
@@ -11,7 +11,7 @@
 #include "System/zzzz__UriParser_def.hpp"
 #include "System/zzzz__UriSyntaxFlags_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::UriParser_UriQuirksVersion::UriParser_UriQuirksVersion(int32_t value__) noexcept {
   this->value__ = value__;
 }

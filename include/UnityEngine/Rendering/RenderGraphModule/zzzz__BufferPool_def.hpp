@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BufferPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BufferPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ class CORDL_TYPE BufferPool : public ::UnityEngine::Rendering::RenderGraphModule
 public:
   // Declarations
   /// @brief Method GetResourceName, addr 0x67e4ae8, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW GetResourceName(::by_ref<::UnityEngine::GraphicsBuffer*> res);
+  inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer*> res);
 
   /// @brief Method GetResourceSize, addr 0x67e4b2c, size 0x44, virtual true, abstract: false, final false
-  inline int64_t GetResourceSize(::by_ref<::UnityEngine::GraphicsBuffer*> res);
+  inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer*> res);
 
   /// @brief Method GetResourceTypeName, addr 0x67e4b70, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceTypeName();
@@ -50,13 +50,13 @@ protected:
   constexpr BufferPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferPool(BufferPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferPool(BufferPool const&) = delete;
+  BufferPool(BufferPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12442 };

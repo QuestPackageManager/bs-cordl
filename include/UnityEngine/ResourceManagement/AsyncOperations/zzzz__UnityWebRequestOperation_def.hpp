@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\UnityWebRequestOperation.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/UnityWebRequestOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* webRequest);
 
+  /// [CompilerGenerated]
   /// @brief Method <Execute>b__2_0, addr 0x6928aa0, size 0xac, virtual false, abstract: false, final false
   inline void _Execute_b__2_0(::UnityEngine::AsyncOperation* request);
 
@@ -51,13 +52,13 @@ protected:
   constexpr UnityWebRequestOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestOperation(UnityWebRequestOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequestOperation(UnityWebRequestOperation const&) = delete;
+  UnityWebRequestOperation(UnityWebRequestOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18827 };

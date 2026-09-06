@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Video\Video3DLayout.hpp"
+// IWYU pragma private; include "UnityEngine/Video/Video3DLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct Video3DLayout;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Video::Video3DLayout);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Video::Video3DLayout, "UnityEngine.Video", "Video3DLayout");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::Video {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr Video3DLayout();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Video3DLayout(int32_t value__) noexcept;
 
   /// @brief Field No3D value: I32(0)

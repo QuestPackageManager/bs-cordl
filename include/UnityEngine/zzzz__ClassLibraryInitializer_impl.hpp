@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ClassLibraryInitializer.hpp"
+// IWYU pragma private; include "UnityEngine/ClassLibraryInitializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ClassLibraryInitializer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ClassLibraryInitializer.Init

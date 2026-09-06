@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioContainerElement.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioContainerElement.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioContainerElement_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -215,7 +215,7 @@ inline void UnityEngine::Audio::AudioContainerElement::set_enabled(bool value) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioContainerElement*>(), { "set_enabled", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::Audio::AudioContainerElement::Internal_Create(::UnityEngine::Audio::AudioContainerElement* self) {
+inline void UnityEngine::Audio::AudioContainerElement::Internal_Create(/* [Writable] */ ::UnityEngine::Audio::AudioContainerElement* self) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioContainerElement*>(),
                                                                                          { "Internal_Create", {}, { ::i2c::type_of<::UnityEngine::Audio::AudioContainerElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialController_def.hpp"

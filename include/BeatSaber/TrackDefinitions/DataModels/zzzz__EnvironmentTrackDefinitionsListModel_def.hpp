@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\TrackDefinitions\DataModels\EnvironmentTrackDefinitionsListModel.hpp"
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/DataModels/EnvironmentTrackDefinitionsListModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ MARK_REF_T(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinition
 MARK_REF_T(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel*, "BeatSaber.TrackDefinitions.DataModels", "EnvironmentTrackDefinitionsListModel");
 DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c*, "BeatSaber.TrackDefinitions.DataModels", "EnvironmentTrackDefinitionsListModel/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: false
@@ -58,9 +59,11 @@ public:
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__1_0, addr 0x32ee1b0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> __ctor_b__1_0(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__1_1, addr 0x32ee1c4, size 0x5c, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* __ctor_b__1_1(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
@@ -87,13 +90,13 @@ protected:
   constexpr EnvironmentTrackDefinitionsListModel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionsListModel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionsListModel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTrackDefinitionsListModel___c(EnvironmentTrackDefinitionsListModel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionsListModel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionsListModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionsListModel___c(EnvironmentTrackDefinitionsListModel___c const&) = delete;
+  EnvironmentTrackDefinitionsListModel___c(EnvironmentTrackDefinitionsListModel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22962 };
@@ -104,6 +107,9 @@ public:
 static_assert(sizeof(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c) == 0x10, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions::DataModels
+// [NullableContext(1)]
+// [Nullable(0)]
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: false
@@ -113,6 +119,7 @@ public:
   // Declarations
   using __c = ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_Item)) ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* Item[];
 
   /// @brief Field _environmentTracksTypeMap, offset 0x10, size 0x8
@@ -143,13 +150,13 @@ protected:
   constexpr EnvironmentTrackDefinitionsListModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionsListModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionsListModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTrackDefinitionsListModel(EnvironmentTrackDefinitionsListModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionsListModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionsListModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionsListModel(EnvironmentTrackDefinitionsListModel const&) = delete;
+  EnvironmentTrackDefinitionsListModel(EnvironmentTrackDefinitionsListModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22963 };

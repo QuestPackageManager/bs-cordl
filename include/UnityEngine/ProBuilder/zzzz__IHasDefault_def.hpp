@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\IHasDefault.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/IHasDefault.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +18,12 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE IHasDefault {
 public:
   // Declarations
-  /// @brief Method SetDefaultValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetDefaultValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetDefaultValues();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IHasDefault", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IHasDefault", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IHasDefault(IHasDefault const&) = delete;
+  IHasDefault(IHasDefaultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16740 };

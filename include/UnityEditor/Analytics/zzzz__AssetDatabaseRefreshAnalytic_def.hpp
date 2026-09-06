@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\AssetDatabaseRefreshAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/AssetDatabaseRefreshAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class AssetDatabaseRefreshAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::AssetDatabaseRefreshAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::AssetDatabaseRefreshAnalytic*, "UnityEditor.Analytics", "AssetDatabaseRefreshAnalytic");
+// [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -86,6 +88,7 @@ public:
   /// @brief Field isV2, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_isV2, put = __cordl_internal_set_isV2)) bool isV2;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateAssetDatabaseRefreshAnalytic, addr 0x6e24cc4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::AssetDatabaseRefreshAnalytic* CreateAssetDatabaseRefreshAnalytic();
 
@@ -226,77 +229,98 @@ protected:
   constexpr AssetDatabaseRefreshAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetDatabaseRefreshAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetDatabaseRefreshAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetDatabaseRefreshAnalytic(AssetDatabaseRefreshAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetDatabaseRefreshAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetDatabaseRefreshAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetDatabaseRefreshAnalytic(AssetDatabaseRefreshAnalytic const&) = delete;
+  AssetDatabaseRefreshAnalytic(AssetDatabaseRefreshAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22999 };
 
+  /// [SerializeField]
   /// @brief Field isV2, offset: 0x2c, size: 0x1, def value: None
   bool ___isV2;
 
+  /// [SerializeField]
   /// @brief Field Imports_Imported, offset: 0x30, size: 0x8, def value: None
   int64_t ___Imports_Imported;
 
+  /// [SerializeField]
   /// @brief Field Imports_ImportedInProcess, offset: 0x38, size: 0x8, def value: None
   int64_t ___Imports_ImportedInProcess;
 
+  /// [SerializeField]
   /// @brief Field Imports_ImportedOutOfProcess, offset: 0x40, size: 0x8, def value: None
   int64_t ___Imports_ImportedOutOfProcess;
 
+  /// [SerializeField]
   /// @brief Field Imports_Refresh, offset: 0x48, size: 0x8, def value: None
   int64_t ___Imports_Refresh;
 
+  /// [SerializeField]
   /// @brief Field Imports_DomainReload, offset: 0x50, size: 0x8, def value: None
   int64_t ___Imports_DomainReload;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_MetadataRequested, offset: 0x58, size: 0x8, def value: None
   int64_t ___CacheServer_MetadataRequested;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_MetadataDownloaded, offset: 0x60, size: 0x8, def value: None
   int64_t ___CacheServer_MetadataDownloaded;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_MetadataFailedToDownload, offset: 0x68, size: 0x8, def value: None
   int64_t ___CacheServer_MetadataFailedToDownload;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_MetadataUploaded, offset: 0x70, size: 0x8, def value: None
   int64_t ___CacheServer_MetadataUploaded;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_ArtifactsFailedToUpload, offset: 0x78, size: 0x8, def value: None
   int64_t ___CacheServer_ArtifactsFailedToUpload;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_MetadataVersionsDownloaded, offset: 0x80, size: 0x8, def value: None
   int64_t ___CacheServer_MetadataVersionsDownloaded;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_MetadataMatched, offset: 0x88, size: 0x8, def value: None
   int64_t ___CacheServer_MetadataMatched;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_ArtifactsDownloaded, offset: 0x90, size: 0x8, def value: None
   int64_t ___CacheServer_ArtifactsDownloaded;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_ArtifactFilesDownloaded, offset: 0x98, size: 0x8, def value: None
   int64_t ___CacheServer_ArtifactFilesDownloaded;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_ArtifactFilesFailedToDownload, offset: 0xa0, size: 0x8, def value: None
   int64_t ___CacheServer_ArtifactFilesFailedToDownload;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_ArtifactsUploaded, offset: 0xa8, size: 0x8, def value: None
   int64_t ___CacheServer_ArtifactsUploaded;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_ArtifactFilesUploaded, offset: 0xb0, size: 0x8, def value: None
   int64_t ___CacheServer_ArtifactFilesUploaded;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_ArtifactFilesFailedToUpload, offset: 0xb8, size: 0x8, def value: None
   int64_t ___CacheServer_ArtifactFilesFailedToUpload;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_Connects, offset: 0xc0, size: 0x8, def value: None
   int64_t ___CacheServer_Connects;
 
+  /// [SerializeField]
   /// @brief Field CacheServer_Disconnects, offset: 0xc8, size: 0x8, def value: None
   int64_t ___CacheServer_Disconnects;
 

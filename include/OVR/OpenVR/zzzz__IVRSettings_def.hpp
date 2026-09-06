@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRSettings.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,6 +130,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSettings__SetInt32*, "OVR.OpenVR", "IVRSet
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSettings__SetString*, "OVR.OpenVR", "IVRSettings/_SetString");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSettings__Sync*, "OVR.OpenVR", "IVRSettings/_Sync");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSettings, "OVR.OpenVR", "IVRSettings");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -157,13 +158,13 @@ protected:
   constexpr IVRSettings__GetSettingsErrorNameFromEnum();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetSettingsErrorNameFromEnum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetSettingsErrorNameFromEnum", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__GetSettingsErrorNameFromEnum(IVRSettings__GetSettingsErrorNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetSettingsErrorNameFromEnum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetSettingsErrorNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetSettingsErrorNameFromEnum(IVRSettings__GetSettingsErrorNameFromEnum const&) = delete;
+  IVRSettings__GetSettingsErrorNameFromEnum(IVRSettings__GetSettingsErrorNameFromEnumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8312 };
@@ -174,6 +175,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -201,13 +203,13 @@ protected:
   constexpr IVRSettings__Sync();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__Sync", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__Sync", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__Sync(IVRSettings__Sync&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__Sync", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__Sync", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__Sync(IVRSettings__Sync const&) = delete;
+  IVRSettings__Sync(IVRSettings__Syncconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8313 };
@@ -218,6 +220,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__Sync) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -246,13 +249,13 @@ protected:
   constexpr IVRSettings__SetBool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetBool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetBool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__SetBool(IVRSettings__SetBool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetBool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetBool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__SetBool(IVRSettings__SetBool const&) = delete;
+  IVRSettings__SetBool(IVRSettings__SetBoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8314 };
@@ -263,6 +266,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__SetBool) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -291,13 +295,13 @@ protected:
   constexpr IVRSettings__SetInt32();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetInt32", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetInt32", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__SetInt32(IVRSettings__SetInt32&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetInt32", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetInt32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__SetInt32(IVRSettings__SetInt32 const&) = delete;
+  IVRSettings__SetInt32(IVRSettings__SetInt32const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8315 };
@@ -308,6 +312,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__SetInt32) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -336,13 +341,13 @@ protected:
   constexpr IVRSettings__SetFloat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetFloat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetFloat", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__SetFloat(IVRSettings__SetFloat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetFloat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetFloat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__SetFloat(IVRSettings__SetFloat const&) = delete;
+  IVRSettings__SetFloat(IVRSettings__SetFloatconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8316 };
@@ -353,6 +358,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__SetFloat) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -381,13 +387,13 @@ protected:
   constexpr IVRSettings__SetString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__SetString(IVRSettings__SetString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__SetString(IVRSettings__SetString const&) = delete;
+  IVRSettings__SetString(IVRSettings__SetStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8317 };
@@ -398,6 +404,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__SetString) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -426,13 +433,13 @@ protected:
   constexpr IVRSettings__GetBool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetBool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetBool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__GetBool(IVRSettings__GetBool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetBool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetBool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetBool(IVRSettings__GetBool const&) = delete;
+  IVRSettings__GetBool(IVRSettings__GetBoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8318 };
@@ -443,6 +450,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__GetBool) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -471,13 +479,13 @@ protected:
   constexpr IVRSettings__GetInt32();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetInt32", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetInt32", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__GetInt32(IVRSettings__GetInt32&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetInt32", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetInt32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetInt32(IVRSettings__GetInt32 const&) = delete;
+  IVRSettings__GetInt32(IVRSettings__GetInt32const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8319 };
@@ -488,6 +496,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__GetInt32) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -516,13 +525,13 @@ protected:
   constexpr IVRSettings__GetFloat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetFloat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetFloat", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__GetFloat(IVRSettings__GetFloat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetFloat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetFloat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetFloat(IVRSettings__GetFloat const&) = delete;
+  IVRSettings__GetFloat(IVRSettings__GetFloatconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8320 };
@@ -533,6 +542,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__GetFloat) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -561,13 +571,13 @@ protected:
   constexpr IVRSettings__GetString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__GetString(IVRSettings__GetString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetString(IVRSettings__GetString const&) = delete;
+  IVRSettings__GetString(IVRSettings__GetStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8321 };
@@ -578,6 +588,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__GetString) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -605,13 +616,13 @@ protected:
   constexpr IVRSettings__RemoveSection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveSection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveSection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__RemoveSection(IVRSettings__RemoveSection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveSection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveSection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__RemoveSection(IVRSettings__RemoveSection const&) = delete;
+  IVRSettings__RemoveSection(IVRSettings__RemoveSectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8322 };
@@ -622,6 +633,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSettings__RemoveSection) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -650,13 +662,13 @@ protected:
   constexpr IVRSettings__RemoveKeyInSection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveKeyInSection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveKeyInSection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSettings__RemoveKeyInSection(IVRSettings__RemoveKeyInSection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveKeyInSection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveKeyInSection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__RemoveKeyInSection(IVRSettings__RemoveKeyInSection const&) = delete;
+  IVRSettings__RemoveKeyInSection(IVRSettings__RemoveKeyInSectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8323 };
@@ -702,14 +714,15 @@ public:
   // @brief default ctor
   constexpr IVRSettings();
 
-  // Ctor Parameters [CppParam { name: "GetSettingsErrorNameFromEnum", ty: "::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "Sync", ty:
-  // "::OVR::OpenVR::IVRSettings__Sync*", modifiers: "", def_value: None }, CppParam { name: "SetBool", ty: "::OVR::OpenVR::IVRSettings__SetBool*", modifiers: "", def_value: None }, CppParam { name:
-  // "SetInt32", ty: "::OVR::OpenVR::IVRSettings__SetInt32*", modifiers: "", def_value: None }, CppParam { name: "SetFloat", ty: "::OVR::OpenVR::IVRSettings__SetFloat*", modifiers: "", def_value: None
-  // }, CppParam { name: "SetString", ty: "::OVR::OpenVR::IVRSettings__SetString*", modifiers: "", def_value: None }, CppParam { name: "GetBool", ty: "::OVR::OpenVR::IVRSettings__GetBool*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetInt32", ty: "::OVR::OpenVR::IVRSettings__GetInt32*", modifiers: "", def_value: None }, CppParam { name: "GetFloat", ty:
-  // "::OVR::OpenVR::IVRSettings__GetFloat*", modifiers: "", def_value: None }, CppParam { name: "GetString", ty: "::OVR::OpenVR::IVRSettings__GetString*", modifiers: "", def_value: None }, CppParam {
-  // name: "RemoveSection", ty: "::OVR::OpenVR::IVRSettings__RemoveSection*", modifiers: "", def_value: None }, CppParam { name: "RemoveKeyInSection", ty:
-  // "::OVR::OpenVR::IVRSettings__RemoveKeyInSection*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "GetSettingsErrorNameFromEnum", ty: "::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "Sync", ty: "::OVR::OpenVR::IVRSettings__Sync*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetBool", ty: "::OVR::OpenVR::IVRSettings__SetBool*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "SetInt32", ty: "::OVR::OpenVR::IVRSettings__SetInt32*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetFloat", ty:
+  // "::OVR::OpenVR::IVRSettings__SetFloat*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetString", ty: "::OVR::OpenVR::IVRSettings__SetString*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "GetBool", ty: "::OVR::OpenVR::IVRSettings__GetBool*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetInt32", ty:
+  // "::OVR::OpenVR::IVRSettings__GetInt32*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetFloat", ty: "::OVR::OpenVR::IVRSettings__GetFloat*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "GetString", ty: "::OVR::OpenVR::IVRSettings__GetString*", modifiers: "", def_value: None, comment: None }, CppParam { name: "RemoveSection", ty:
+  // "::OVR::OpenVR::IVRSettings__RemoveSection*", modifiers: "", def_value: None, comment: None }, CppParam { name: "RemoveKeyInSection", ty: "::OVR::OpenVR::IVRSettings__RemoveKeyInSection*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr IVRSettings(::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum, ::OVR::OpenVR::IVRSettings__Sync* Sync, ::OVR::OpenVR::IVRSettings__SetBool* SetBool,
                         ::OVR::OpenVR::IVRSettings__SetInt32* SetInt32, ::OVR::OpenVR::IVRSettings__SetFloat* SetFloat, ::OVR::OpenVR::IVRSettings__SetString* SetString,
                         ::OVR::OpenVR::IVRSettings__GetBool* GetBool, ::OVR::OpenVR::IVRSettings__GetInt32* GetInt32, ::OVR::OpenVR::IVRSettings__GetFloat* GetFloat,

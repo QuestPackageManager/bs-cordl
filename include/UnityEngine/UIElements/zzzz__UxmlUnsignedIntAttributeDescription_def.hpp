@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlUnsignedIntAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlUnsignedIntAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_REF_T(::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription*);
 MARK_REF_T(::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription*, "UnityEngine.UIElements", "UxmlUnsignedIntAttributeDescription");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c*, "UnityEngine.UIElements", "UxmlUnsignedIntAttributeDescription/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr UxmlUnsignedIntAttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlUnsignedIntAttributeDescription___c(UxmlUnsignedIntAttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlUnsignedIntAttributeDescription___c(UxmlUnsignedIntAttributeDescription___c const&) = delete;
+  UxmlUnsignedIntAttributeDescription___c(UxmlUnsignedIntAttributeDescription___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5158 };
@@ -110,13 +111,13 @@ protected:
   constexpr UxmlUnsignedIntAttributeDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlUnsignedIntAttributeDescription(UxmlUnsignedIntAttributeDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlUnsignedIntAttributeDescription(UxmlUnsignedIntAttributeDescription const&) = delete;
+  UxmlUnsignedIntAttributeDescription(UxmlUnsignedIntAttributeDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5159 };

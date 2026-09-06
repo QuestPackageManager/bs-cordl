@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXOutputEventAbstractHandler.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXOutputEventAbstractHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class VFXOutputEventAbstractHandler;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler*, "UnityEngine.VFX.Utility", "VFXOutputEventAbstractHandler");
+// [ExecuteAlways]
+// [RequireComponent(typeof(UnityEngine.VFX.VisualEffect))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -56,7 +58,7 @@ public:
   /// @brief Method OnOutputEventRecieved, addr 0x69e20f4, size 0xd4, virtual false, abstract: false, final false
   inline void OnOutputEventRecieved(::UnityEngine::VFX::VFXOutputEventArgs args);
 
-  /// @brief Method OnVFXOutputEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnVFXOutputEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnVFXOutputEvent(::UnityEngine::VFX::VFXEventAttribute* eventAttribute);
 
   constexpr ::UnityW<::UnityEngine::VFX::VisualEffect> const& __cordl_internal_get__m_VisualEffect_k__BackingField() const;
@@ -80,12 +82,14 @@ public:
   /// @brief Method .ctor, addr 0x69e21c8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canExecuteInEditor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_canExecuteInEditor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_canExecuteInEditor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_m_VisualEffect, addr 0x69e1e10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::VFX::VisualEffect> get_m_VisualEffect();
 
+  /// [CompilerGenerated]
   /// @brief Method set_m_VisualEffect, addr 0x69e1e08, size 0x8, virtual false, abstract: false, final false
   inline void set_m_VisualEffect(::UnityEngine::VFX::VisualEffect* value);
 
@@ -95,13 +99,13 @@ protected:
   constexpr VFXOutputEventAbstractHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXOutputEventAbstractHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXOutputEventAbstractHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXOutputEventAbstractHandler(VFXOutputEventAbstractHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXOutputEventAbstractHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXOutputEventAbstractHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXOutputEventAbstractHandler(VFXOutputEventAbstractHandler const&) = delete;
+  VFXOutputEventAbstractHandler(VFXOutputEventAbstractHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19983 };
@@ -112,6 +116,7 @@ public:
   /// @brief Field outputEvent, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___outputEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <m_VisualEffect>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::VFX::VisualEffect> ____m_VisualEffect_k__BackingField;
 

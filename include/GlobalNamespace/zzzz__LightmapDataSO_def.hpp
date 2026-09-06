@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightmapDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightmapDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,20 +67,22 @@ protected:
   constexpr LightmapDataSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapDataSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapDataSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightmapDataSO(LightmapDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapDataSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapDataSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapDataSO(LightmapDataSO const&) = delete;
+  LightmapDataSO(LightmapDataSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6537 };
 
+  /// [SerializeField]
   /// @brief Field _lightmap1, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____lightmap1;
 
+  /// [SerializeField]
   /// @brief Field _lightmap2, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____lightmap2;
 

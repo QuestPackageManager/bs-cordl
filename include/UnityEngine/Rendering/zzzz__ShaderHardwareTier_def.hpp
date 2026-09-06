@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderHardwareTier.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderHardwareTier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ShaderHardwareTier;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ShaderHardwareTier);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ShaderHardwareTier, "UnityEngine.Rendering", "ShaderHardwareTier");
+// [Obsolete("ShaderHardwareTier was renamed to GraphicsTier (UnityUpgradable) -> GraphicsTier", false)]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ShaderHardwareTier();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderHardwareTier(int32_t value__) noexcept;
 
   /// @brief Field Tier1 value: I32(0)

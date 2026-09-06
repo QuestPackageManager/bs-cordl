@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\AffineTransform.hpp"
+// IWYU pragma private; include "Unity/Mathematics/AffineTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ struct AffineTransform;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::AffineTransform);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::AffineTransform, "Unity.Mathematics", "AffineTransform");
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies Unity.Mathematics.float3, Unity.Mathematics.float3x3
 namespace Unity::Mathematics {
 // Is value type: true
@@ -125,8 +126,8 @@ public:
   // @brief default ctor
   constexpr AffineTransform();
 
-  // Ctor Parameters [CppParam { name: "rs", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::Unity::Mathematics::float3", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "rs", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: None, comment: None }, CppParam { name: "t", ty: "::Unity::Mathematics::float3", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr AffineTransform(::Unity::Mathematics::float3x3 rs, ::Unity::Mathematics::float3 t) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

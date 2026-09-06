@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SelectableStateController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SelectableStateController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   // @brief default ctor
   constexpr SelectableStateController_ViewState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SelectableStateController_ViewState(int32_t value__) noexcept;
 
   /// @brief Field Disabled value: I32(3)
@@ -149,18 +149,22 @@ public:
   /// @brief Method .ctor, addr 0x6445a08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_stateDidChangeEvent, addr 0x644271c, size 0xc0, virtual false, abstract: false, final false
   inline void add_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentViewState, addr 0x64459d4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SelectableStateController_ViewState get_currentViewState();
 
   /// @brief Method get_tweeningManager, addr 0x64459cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Tweening::TimeTweeningManager> get_tweeningManager();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_stateDidChangeEvent, addr 0x6442868, size 0xc0, virtual false, abstract: false, final false
   inline void remove_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentViewState, addr 0x64459dc, size 0x8, virtual false, abstract: false, final false
   inline void set_currentViewState(::GlobalNamespace::SelectableStateController_ViewState value);
 
@@ -170,23 +174,26 @@ protected:
   constexpr SelectableStateController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectableStateController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectableStateController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectableStateController(SelectableStateController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectableStateController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectableStateController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectableStateController(SelectableStateController const&) = delete;
+  SelectableStateController(SelectableStateControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22368 };
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
+  /// [CompilerGenerated]
   /// @brief Field stateDidChangeEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>* ___stateDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentViewState>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::SelectableStateController_ViewState ____currentViewState_k__BackingField;
 

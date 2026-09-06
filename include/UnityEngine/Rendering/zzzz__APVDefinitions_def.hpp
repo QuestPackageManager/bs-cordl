@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\APVDefinitions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/APVDefinitions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ class APVDefinitions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::APVDefinitions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::APVDefinitions*, "UnityEngine.Rendering", "APVDefinitions");
-// Dependencies System.Object, UnityEngine.Color, UnityEngine.Color32
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\Lighting\\ProbeVolume\\ShaderVariablesProbeVolumes.cs")] Dependencies System.Object, UnityEngine.Color,
+// UnityEngine.Color32
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.APVDefinitions
@@ -63,13 +65,13 @@ protected:
   constexpr APVDefinitions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "APVDefinitions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "APVDefinitions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   APVDefinitions(APVDefinitions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "APVDefinitions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "APVDefinitions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  APVDefinitions(APVDefinitions const&) = delete;
+  APVDefinitions(APVDefinitionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12157 };

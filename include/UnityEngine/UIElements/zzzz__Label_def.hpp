@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Label.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Label.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ MARK_REF_T(::UnityEngine::UIElements::Label_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Label*, "UnityEngine.UIElements", "Label");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Label_UxmlFactory*, "UnityEngine.UIElements", "Label/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Label_UxmlTraits*, "UnityEngine.UIElements", "Label/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -48,13 +49,13 @@ protected:
   constexpr Label_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Label_UxmlFactory(Label_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Label_UxmlFactory(Label_UxmlFactory const&) = delete;
+  Label_UxmlFactory(Label_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4236 };
@@ -65,6 +66,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Label_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -83,13 +85,13 @@ protected:
   constexpr Label_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Label_UxmlTraits(Label_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Label_UxmlTraits(Label_UxmlTraits const&) = delete;
+  Label_UxmlTraits(Label_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4237 };
@@ -134,13 +136,13 @@ protected:
   constexpr Label();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Label(Label&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Label(Label const&) = delete;
+  Label(Labelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4238 };

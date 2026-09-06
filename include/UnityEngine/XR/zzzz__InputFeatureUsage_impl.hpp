@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\InputFeatureUsage.hpp"
+// IWYU pragma private; include "UnityEngine/XR/InputFeatureUsage.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureType_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureUsage_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -97,8 +97,8 @@ constexpr UnityEngine::XR::InputFeatureUsage::operator ::System::IEquatable_1<::
 constexpr ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>* UnityEngine::XR::InputFeatureUsage::i___System__IEquatable_1___UnityEngine__XR__InputFeatureUsage_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InternalType", ty: "::UnityEngine::XR::InputFeatureType", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InternalType", ty: "::UnityEngine::XR::InputFeatureType",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::InputFeatureUsage::InputFeatureUsage(::StringW m_Name, ::UnityEngine::XR::InputFeatureType m_InternalType) noexcept {
   this->m_Name = m_Name;
   this->m_InternalType = m_InternalType;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Contexts\CrossContextChannel.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/CrossContextChannel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,13 +91,13 @@ protected:
   constexpr CrossContextChannel_ContextRestoreSink();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel_ContextRestoreSink", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel_ContextRestoreSink", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CrossContextChannel_ContextRestoreSink(CrossContextChannel_ContextRestoreSink&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel_ContextRestoreSink", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel_ContextRestoreSink", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CrossContextChannel_ContextRestoreSink(CrossContextChannel_ContextRestoreSink const&) = delete;
+  CrossContextChannel_ContextRestoreSink(CrossContextChannel_ContextRestoreSinkconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3118 };
@@ -156,13 +156,13 @@ protected:
   constexpr CrossContextChannel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CrossContextChannel(CrossContextChannel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CrossContextChannel(CrossContextChannel const&) = delete;
+  CrossContextChannel(CrossContextChannelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3119 };

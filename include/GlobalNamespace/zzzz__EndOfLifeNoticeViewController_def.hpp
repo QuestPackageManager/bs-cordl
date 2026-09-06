@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EndOfLifeNoticeViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EndOfLifeNoticeViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::GlobalNamespace::EndOfLifeNoticeViewController*);
 MARK_REF_T(::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EndOfLifeNoticeViewController*, "", "EndOfLifeNoticeViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7*, "", "EndOfLifeNoticeViewController/<EnableOkButton>d__7");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -80,17 +81,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a18828, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a188e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a188e8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a18920, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a18824, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -112,6 +118,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a18818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -130,13 +137,13 @@ protected:
   constexpr EndOfLifeNoticeViewController__EnableOkButton_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController__EnableOkButton_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController__EnableOkButton_d__7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EndOfLifeNoticeViewController__EnableOkButton_d__7(EndOfLifeNoticeViewController__EnableOkButton_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController__EnableOkButton_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController__EnableOkButton_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EndOfLifeNoticeViewController__EnableOkButton_d__7(EndOfLifeNoticeViewController__EnableOkButton_d__7 const&) = delete;
+  EndOfLifeNoticeViewController__EnableOkButton_d__7(EndOfLifeNoticeViewController__EnableOkButton_d__7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6427 };
@@ -192,6 +199,7 @@ public:
   /// @brief Method DidActivate, addr 0x5a18614, size 0x1b0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
+  /// [IteratorStateMachine(typeof(EndOfLifeNoticeViewController::<EnableOkButton>d__7))]
   /// @brief Method EnableOkButton, addr 0x5a187c4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* EnableOkButton();
 
@@ -242,29 +250,37 @@ protected:
   constexpr EndOfLifeNoticeViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EndOfLifeNoticeViewController(EndOfLifeNoticeViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EndOfLifeNoticeViewController(EndOfLifeNoticeViewController const&) = delete;
+  EndOfLifeNoticeViewController(EndOfLifeNoticeViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6428 };
 
+  /// [SerializeField]
   /// @brief Field _okButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
+  /// [Header("Auto Hide Settings")]
+  /// [SerializeField]
   /// @brief Field _duration, offset: 0x88, size: 0x4, def value: None
   float_t ____duration;
 
+  /// [Header("Texts")]
+  /// [SerializeField]
   /// @brief Field _endOfLifeNoticeTextMesh, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____endOfLifeNoticeTextMesh;
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _endOfLifeNoticeLocalizationKey, offset: 0x98, size: 0x8, def value: None
   ::StringW ____endOfLifeNoticeLocalizationKey;
 
+  /// [Inject]
   /// @brief Field _coroutineStarter, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 

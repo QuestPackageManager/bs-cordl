@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpatialTracking\PoseDataFlags.hpp"
+// IWYU pragma private; include "UnityEngine/SpatialTracking/PoseDataFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct PoseDataFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SpatialTracking::PoseDataFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SpatialTracking::PoseDataFlags, "UnityEngine.SpatialTracking", "PoseDataFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::SpatialTracking {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr PoseDataFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PoseDataFlags(int32_t value__) noexcept;
 
   /// @brief Field NoData value: I32(0)

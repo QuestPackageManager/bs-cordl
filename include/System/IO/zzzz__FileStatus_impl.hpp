@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\FileStatus.hpp"
+// IWYU pragma private; include "System/IO/FileStatus.hpp"
 #include "GlobalNamespace/zzzz__Interop_impl.hpp"
 #include "System/IO/zzzz__FileStatus_def.hpp"
 #include "System/IO/zzzz__FileAttributes_def.hpp"
@@ -206,9 +206,9 @@ inline void System::IO::FileStatus::EnsureStatInitialized(::System::ReadOnlySpan
       (::i2c::find_method(::i2c::class_of<::System::IO::FileStatus>(), { "EnsureStatInitialized", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, path, continueOnError);
 }
-// Ctor Parameters [CppParam { name: "_fileStatus", ty: "::GlobalNamespace::Sys_Interop_FileStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "_fileStatusInitialized", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_InitiallyDirectory_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_isDirectory", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_exists", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_fileStatus", ty: "::GlobalNamespace::Sys_Interop_FileStatus", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_fileStatusInitialized",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_InitiallyDirectory_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_isDirectory", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_exists", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IO::FileStatus::FileStatus(::GlobalNamespace::Sys_Interop_FileStatus _fileStatus, int32_t _fileStatusInitialized, bool _InitiallyDirectory_k__BackingField, bool _isDirectory,
                                                bool _exists) noexcept {
   this->_fileStatus = _fileStatus;

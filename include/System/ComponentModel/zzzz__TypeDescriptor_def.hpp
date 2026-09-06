@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\TypeDescriptor.hpp"
+// IWYU pragma private; include "System/ComponentModel/TypeDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -211,13 +211,13 @@ protected:
   constexpr TypeDescriptor_AttributeFilterCacheItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_AttributeFilterCacheItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_AttributeFilterCacheItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDescriptor_AttributeFilterCacheItem(TypeDescriptor_AttributeFilterCacheItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_AttributeFilterCacheItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_AttributeFilterCacheItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_AttributeFilterCacheItem(TypeDescriptor_AttributeFilterCacheItem const&) = delete;
+  TypeDescriptor_AttributeFilterCacheItem(TypeDescriptor_AttributeFilterCacheItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11330 };
@@ -278,13 +278,13 @@ protected:
   constexpr TypeDescriptor_FilterCacheItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_FilterCacheItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_FilterCacheItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDescriptor_FilterCacheItem(TypeDescriptor_FilterCacheItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_FilterCacheItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_FilterCacheItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_FilterCacheItem(TypeDescriptor_FilterCacheItem const&) = delete;
+  TypeDescriptor_FilterCacheItem(TypeDescriptor_FilterCacheItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11331 };
@@ -312,9 +312,9 @@ namespace System::ComponentModel {
 class CORDL_TYPE TypeDescriptor_IUnimplemented {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_IUnimplemented", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_IUnimplemented", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_IUnimplemented(TypeDescriptor_IUnimplemented const&) = delete;
+  TypeDescriptor_IUnimplemented(TypeDescriptor_IUnimplementedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11332 };
@@ -357,13 +357,13 @@ protected:
   constexpr TypeDescriptor_MemberDescriptorComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MemberDescriptorComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MemberDescriptorComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDescriptor_MemberDescriptorComparer(TypeDescriptor_MemberDescriptorComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MemberDescriptorComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MemberDescriptorComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_MemberDescriptorComparer(TypeDescriptor_MemberDescriptorComparer const&) = delete;
+  TypeDescriptor_MemberDescriptorComparer(TypeDescriptor_MemberDescriptorComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11333 };
@@ -453,13 +453,13 @@ protected:
   constexpr TypeDescriptor_MergedTypeDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MergedTypeDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MergedTypeDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDescriptor_MergedTypeDescriptor(TypeDescriptor_MergedTypeDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MergedTypeDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MergedTypeDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_MergedTypeDescriptor(TypeDescriptor_MergedTypeDescriptor const&) = delete;
+  TypeDescriptor_MergedTypeDescriptor(TypeDescriptor_MergedTypeDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11334 };
@@ -536,8 +536,8 @@ public:
   // @brief default ctor
   constexpr TypeDescriptionNode_TypeDescriptor_DefaultExtendedTypeDescriptor();
 
-  // Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*", modifiers: "", def_value: None }, CppParam { name: "_instance", ty:
-  // "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_instance", ty:
+  // "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr TypeDescriptionNode_TypeDescriptor_DefaultExtendedTypeDescriptor(::System::ComponentModel::TypeDescriptor_TypeDescriptionNode* _node, ::System::Object* _instance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -618,8 +618,8 @@ public:
   // @brief default ctor
   constexpr TypeDescriptionNode_TypeDescriptor_DefaultTypeDescriptor();
 
-  // Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*", modifiers: "", def_value: None }, CppParam { name: "_objectType", ty:
-  // "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_instance", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_objectType",
+  // ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_instance", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr TypeDescriptionNode_TypeDescriptor_DefaultTypeDescriptor(::System::ComponentModel::TypeDescriptor_TypeDescriptionNode* _node, ::System::Type* _objectType,
                                                                      ::System::Object* _instance) noexcept;
 
@@ -708,13 +708,13 @@ protected:
   constexpr TypeDescriptor_TypeDescriptionNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptionNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptionNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDescriptor_TypeDescriptionNode(TypeDescriptor_TypeDescriptionNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptionNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptionNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_TypeDescriptionNode(TypeDescriptor_TypeDescriptionNode const&) = delete;
+  TypeDescriptor_TypeDescriptionNode(TypeDescriptor_TypeDescriptionNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11337 };
@@ -735,6 +735,7 @@ static_assert(offsetof(::System::ComponentModel::TypeDescriptor_TypeDescriptionN
 static_assert(sizeof(::System::ComponentModel::TypeDescriptor_TypeDescriptionNode) == 0x30, "Size mismatch!");
 
 } // namespace System::ComponentModel
+// [TypeDescriptionProvider("System.Windows.Forms.ComponentModel.Com2Interop.ComNativeDescriptor, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
 // Dependencies System.Object
 namespace System::ComponentModel {
 // Is value type: false
@@ -748,13 +749,13 @@ protected:
   constexpr TypeDescriptor_TypeDescriptorComObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorComObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorComObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDescriptor_TypeDescriptorComObject(TypeDescriptor_TypeDescriptorComObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorComObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorComObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_TypeDescriptorComObject(TypeDescriptor_TypeDescriptorComObject const&) = delete;
+  TypeDescriptor_TypeDescriptorComObject(TypeDescriptor_TypeDescriptorComObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11338 };
@@ -778,13 +779,13 @@ protected:
   constexpr TypeDescriptor_TypeDescriptorInterface();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorInterface", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorInterface", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDescriptor_TypeDescriptorInterface(TypeDescriptor_TypeDescriptorInterface&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorInterface", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorInterface", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_TypeDescriptorInterface(TypeDescriptor_TypeDescriptorInterface const&) = delete;
+  TypeDescriptor_TypeDescriptorInterface(TypeDescriptor_TypeDescriptorInterfaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11339 };
@@ -857,6 +858,7 @@ public:
   /// @brief Field _providerTypeTable, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__providerTypeTable, put = setStaticF__providerTypeTable)) ::System::Collections::Hashtable* _providerTypeTable;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
   /// @brief Method AddProvider, addr 0x63de0c8, size 0x248, virtual false, abstract: false, final false
   static inline void AddProvider(::System::ComponentModel::TypeDescriptionProvider* provider, ::System::Type* type);
 
@@ -869,12 +871,14 @@ public:
   /// @brief Method FilterMembers, addr 0x63df5e8, size 0x36c, virtual false, abstract: false, final false
   static inline ::System::Collections::ArrayList* FilterMembers(::System::Collections::IList* members, ::ArrayW<::System::Attribute*> attributes);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
   /// @brief Method GetAssociation, addr 0x63cf9c4, size 0x6a0, virtual false, abstract: false, final false
   static inline ::System::Object* GetAssociation(::System::Type* type, ::System::Object* primary);
 
   /// @brief Method GetAttributes, addr 0x63dc3dc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Object* component);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
   /// @brief Method GetAttributes, addr 0x63dfab0, size 0x430, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Object* component, bool noCustomTypeDesc);
 
@@ -896,6 +900,7 @@ public:
   /// @brief Method GetEvents, addr 0x63dc5c8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::System::Object* component);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
   /// @brief Method GetEvents, addr 0x63e331c, size 0x4ec, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::System::Object* component, ::ArrayW<::System::Attribute*> attributes, bool noCustomTypeDesc);
 
@@ -920,6 +925,7 @@ public:
   /// @brief Method GetProperties, addr 0x63e4960, size 0x74, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Object* component, ::ArrayW<::System::Attribute*> attributes, bool noCustomTypeDesc);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
   /// @brief Method GetProperties, addr 0x63e4278, size 0x70, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Object* component, bool noCustomTypeDesc);
 
@@ -933,6 +939,7 @@ public:
   /// @brief Method GetProviderRecursive, addr 0x63e49d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::TypeDescriptionProvider* GetProviderRecursive(::System::Type* type);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
   /// @brief Method GetReflectionType, addr 0x63ce128, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Type* GetReflectionType(::System::Type* type);
 
@@ -1042,13 +1049,13 @@ protected:
   constexpr TypeDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDescriptor(TypeDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor(TypeDescriptor const&) = delete;
+  TypeDescriptor(TypeDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11340 };

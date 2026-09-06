@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ObjectConstructor_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ObjectConstructor_1.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -11,13 +11,14 @@ template <typename T> inline void Newtonsoft::Json::Serialization::ObjectConstru
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-template <typename T> inline ::System::Object* Newtonsoft::Json::Serialization::ObjectConstructor_1<T>::Invoke(::ArrayW<::System::Object*> args) {
+template <typename T> inline ::System::Object* Newtonsoft::Json::Serialization::ObjectConstructor_1<T>::Invoke(/* [ParamArray] [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, args);
 }
 template <typename T>
-inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::ObjectConstructor_1<T>::BeginInvoke(::ArrayW<::System::Object*> args, ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::ObjectConstructor_1<T>::BeginInvoke(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args,
+                                                                                                    ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, args, callback, object);

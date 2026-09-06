@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ReceiverSphereCuller.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ReceiverSphereCuller.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Mathematics/zzzz__float3x3_impl.hpp"
 #include "Unity/Mathematics/zzzz__float4_impl.hpp"
@@ -13,8 +13,8 @@
 #include "UnityEngine/Rendering/zzzz__BatchCullingContext_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ReceiverSphereCuller_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
-// Ctor Parameters [CppParam { name: "receiverSphereLightSpace", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}") }, CppParam { name: "cascadeBlendCullingFactor", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "receiverSphereLightSpace", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cascadeBlendCullingFactor", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo::ReceiverSphereCuller_SplitInfo(::Unity::Mathematics::float4 receiverSphereLightSpace, float_t cascadeBlendCullingFactor) noexcept {
   this->receiverSphereLightSpace = receiverSphereLightSpace;
   this->cascadeBlendCullingFactor = cascadeBlendCullingFactor;
@@ -128,7 +128,7 @@ inline bool UnityEngine::Rendering::ReceiverSphereCuller::UseReceiverPlanes() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(), { "UseReceiverPlanes", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::ReceiverSphereCuller UnityEngine::Rendering::ReceiverSphereCuller::Create(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
+inline ::UnityEngine::Rendering::ReceiverSphereCuller UnityEngine::Rendering::ReceiverSphereCuller::Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
                                                                                                            ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(),
@@ -147,7 +147,8 @@ inline float_t UnityEngine::Rendering::ReceiverSphereCuller::DistanceUntilCylind
 }
 inline uint32_t UnityEngine::Rendering::ReceiverSphereCuller::ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> lightFacingFrustumPlanes,
                                                                                          ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo> splitInfos,
-                                                                                         ::Unity::Mathematics::float3x3 worldToLightSpaceRotation, ::by_ref<::UnityEngine::Rendering::AABB> bounds) {
+                                                                                         ::Unity::Mathematics::float3x3 worldToLightSpaceRotation,
+                                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> bounds) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(),
                                                            { "ComputeSplitVisibilityMask",
@@ -157,8 +158,8 @@ inline uint32_t UnityEngine::Rendering::ReceiverSphereCuller::ComputeSplitVisibi
                                                                ::i2c::type_of<::Unity::Mathematics::float3x3>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, lightFacingFrustumPlanes, splitInfos, worldToLightSpaceRotation, bounds);
 }
-// Ctor Parameters [CppParam { name: "splitInfos", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "worldToLightSpaceRotation", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "splitInfos", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "worldToLightSpaceRotation", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ReceiverSphereCuller::ReceiverSphereCuller(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo> splitInfos,
                                                                                ::Unity::Mathematics::float3x3 worldToLightSpaceRotation) noexcept {
   this->splitInfos = splitInfos;

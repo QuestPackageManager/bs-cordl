@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SignalOnUIButtonClick.hpp"
+// IWYU pragma private; include "GlobalNamespace/SignalOnUIButtonClick.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,20 +60,23 @@ protected:
   constexpr SignalOnUIButtonClick();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalOnUIButtonClick", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalOnUIButtonClick", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalOnUIButtonClick(SignalOnUIButtonClick&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalOnUIButtonClick", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalOnUIButtonClick", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalOnUIButtonClick(SignalOnUIButtonClick const&) = delete;
+  SignalOnUIButtonClick(SignalOnUIButtonClickconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21437 };
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _buttonClickedSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____buttonClickedSignal;
 
+  /// [SerializeField]
   /// @brief Field _button, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 

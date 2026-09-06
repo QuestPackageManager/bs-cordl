@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\LensDistortion.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/LensDistortion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class LensDistortion;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::LensDistortion*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::LensDistortion*, "UnityEngine.Rendering.Universal", "LensDistortion");
+// [VolumeComponentMenu("Post-processing/Lens Distortion")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -49,6 +51,7 @@ public:
   /// @brief Method IsActive, addr 0x687ed14, size 0x84, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687ed98, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -96,29 +99,34 @@ protected:
   constexpr LensDistortion();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LensDistortion", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensDistortion", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LensDistortion(LensDistortion&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LensDistortion", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensDistortion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensDistortion(LensDistortion const&) = delete;
+  LensDistortion(LensDistortionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12799 };
 
+  /// [Tooltip("Total distortion amount.")]
   /// @brief Field intensity, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___intensity;
 
+  /// [Tooltip("Intensity multiplier on X axis. Set it to 0 to disable distortion on this axis.")]
   /// @brief Field xMultiplier, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___xMultiplier;
 
+  /// [Tooltip("Intensity multiplier on Y axis. Set it to 0 to disable distortion on this axis.")]
   /// @brief Field yMultiplier, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___yMultiplier;
 
+  /// [Tooltip("Distortion center point. 0.5,0.5 is center of the screen.")]
   /// @brief Field center, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::Vector2Parameter* ___center;
 
+  /// [Tooltip("Controls global screen scaling for the distortion effect. Use this to hide the screen borders when using high \"Intensity.\"")]
   /// @brief Field scale, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___scale;
 

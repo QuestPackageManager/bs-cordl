@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleSelectorHelper.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSelectorHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,8 +68,8 @@ public:
   // @brief default ctor
   constexpr StyleSelectorHelper_SelectorWorkItem();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheet_OrderedSelectorType", modifiers: "", def_value: None }, CppParam { name: "input", ty: "::StringW", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheet_OrderedSelectorType", modifiers: "", def_value: None, comment: None }, CppParam { name: "input", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr StyleSelectorHelper_SelectorWorkItem(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType type, ::StringW input) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -130,13 +130,13 @@ protected:
   constexpr StyleSelectorHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSelectorHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSelectorHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSelectorHelper(StyleSelectorHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSelectorHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSelectorHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSelectorHelper(StyleSelectorHelper const&) = delete;
+  StyleSelectorHelper(StyleSelectorHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5462 };

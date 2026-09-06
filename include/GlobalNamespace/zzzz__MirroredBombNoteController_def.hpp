@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirroredBombNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirroredBombNoteController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,13 +42,13 @@ protected:
   constexpr MirroredBombNoteController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirroredBombNoteController_Pool(MirroredBombNoteController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredBombNoteController_Pool(MirroredBombNoteController_Pool const&) = delete;
+  MirroredBombNoteController_Pool(MirroredBombNoteController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5663 };
@@ -79,13 +79,13 @@ protected:
   constexpr MirroredBombNoteController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirroredBombNoteController(MirroredBombNoteController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredBombNoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredBombNoteController(MirroredBombNoteController const&) = delete;
+  MirroredBombNoteController(MirroredBombNoteControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5664 };

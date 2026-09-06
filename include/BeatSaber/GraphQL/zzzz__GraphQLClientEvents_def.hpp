@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\GraphQLClientEvents.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/GraphQLClientEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,18 +85,22 @@ public:
   inline void _ctor(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* onRequestSucceeded,
                     ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* onRequestFailed);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onRequestFailed, addr 0x32952e0, size 0xc0, virtual false, abstract: false, final false
   inline void add_onRequestFailed(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onRequestSucceeded, addr 0x3295160, size 0xc0, virtual false, abstract: false, final false
   inline void add_onRequestSucceeded(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* i___OculusStudios__GraphQL__ClientInterface__IGraphQLClientEvents() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onRequestFailed, addr 0x32953a0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onRequestFailed(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onRequestSucceeded, addr 0x3295220, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onRequestSucceeded(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
@@ -106,13 +110,13 @@ protected:
   constexpr GraphQLClientEvents();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientEvents", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientEvents", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLClientEvents(GraphQLClientEvents&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientEvents", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClientEvents(GraphQLClientEvents const&) = delete;
+  GraphQLClientEvents(GraphQLClientEventsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22658 };
@@ -120,9 +124,11 @@ public:
   /// @brief Field kPrefix offset 0xffffffff size 0x8
   static constexpr ::ConstString kPrefix{ u"[GraphQLClient] " };
 
+  /// [CompilerGenerated]
   /// @brief Field onRequestSucceeded, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___onRequestSucceeded;
 
+  /// [CompilerGenerated]
   /// @brief Field onRequestFailed, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___onRequestFailed;
 

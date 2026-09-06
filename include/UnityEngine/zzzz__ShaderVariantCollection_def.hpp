@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ShaderVariantCollection.hpp"
+// IWYU pragma private; include "UnityEngine/ShaderVariantCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,14 +42,14 @@ struct CORDL_TYPE ShaderVariantCollection_ShaderVariant {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x6af0310, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, ::ArrayW<::StringW> keywords);
+  inline void _ctor(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, /* [ParamArray] */ ::ArrayW<::StringW> keywords);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ShaderVariantCollection_ShaderVariant();
 
-  // Ctor Parameters [CppParam { name: "shader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "passType", ty: "::UnityEngine::Rendering::PassType",
-  // modifiers: "", def_value: None }, CppParam { name: "keywords", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "shader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "passType", ty:
+  // "::UnityEngine::Rendering::PassType", modifiers: "", def_value: None, comment: None }, CppParam { name: "keywords", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderVariantCollection_ShaderVariant(::UnityW<::UnityEngine::Shader> shader, ::UnityEngine::Rendering::PassType passType, ::ArrayW<::StringW> keywords) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -98,16 +98,18 @@ public:
   inline bool Add(::UnityEngine::ShaderVariantCollection_ShaderVariant variant);
 
   /// @brief Method AddVariant, addr 0x6af0040, size 0xd8, virtual false, abstract: false, final false
-  inline bool AddVariant(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, ::ArrayW<::StringW> keywords);
+  inline bool AddVariant(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, /* [Unmarshalled] */ ::ArrayW<::StringW> keywords);
 
   /// @brief Method AddVariant_Injected, addr 0x6af0118, size 0x5c, virtual false, abstract: false, final false
   static inline bool AddVariant_Injected(::System::IntPtr _unity_self, ::System::IntPtr shader, ::UnityEngine::Rendering::PassType passType, ::ArrayW<::StringW> keywords);
 
+  /// [NativeName("CreateFromScript")]
   /// @brief Method Internal_Create, addr 0x6af0248, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Create(::UnityEngine::ShaderVariantCollection* svc);
+  static inline void Internal_Create(/* [Writable] */ ::UnityEngine::ShaderVariantCollection* svc);
 
   static inline ::UnityEngine::ShaderVariantCollection* New_ctor();
 
+  /// [NativeName("WarmupShadersProgressively")]
   /// @brief Method WarmUpProgressively, addr 0x6af0174, size 0x90, virtual false, abstract: false, final false
   inline bool WarmUpProgressively(int32_t variantCount);
 
@@ -117,6 +119,7 @@ public:
   /// @brief Method .ctor, addr 0x6af0284, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NativeName("IsWarmedUp")]
   /// @brief Method get_isWarmedUp, addr 0x6aeff84, size 0x80, virtual false, abstract: false, final false
   inline bool get_isWarmedUp();
 
@@ -141,13 +144,13 @@ protected:
   constexpr ShaderVariantCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderVariantCollection(ShaderVariantCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderVariantCollection(ShaderVariantCollection const&) = delete;
+  ShaderVariantCollection(ShaderVariantCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10400 };

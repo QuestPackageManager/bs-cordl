@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Tsp\TimeStampRequestGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampRequestGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,9 +61,11 @@ public:
   /// @brief Method AddExtension, addr 0x3620478, size 0x4c, virtual true, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
 
+  /// [Obsolete("Use method taking DerObjectIdentifier")]
   /// @brief Method AddExtension, addr 0x36202a0, size 0x1d8, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t> value);
 
+  /// [Obsolete("Use method taking DerObjectIdentifier")]
   /// @brief Method AddExtension, addr 0x362025c, size 0x44, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
@@ -120,13 +122,13 @@ protected:
   constexpr TimeStampRequestGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampRequestGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampRequestGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeStampRequestGenerator(TimeStampRequestGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampRequestGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampRequestGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampRequestGenerator(TimeStampRequestGenerator const&) = delete;
+  TimeStampRequestGenerator(TimeStampRequestGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1765 };

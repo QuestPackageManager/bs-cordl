@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HeadsetHapticSettingsSampleController.hpp"
+// IWYU pragma private; include "GlobalNamespace/HeadsetHapticSettingsSampleController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadsetHapticSettingsSampleController_def.hpp"
 #include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"

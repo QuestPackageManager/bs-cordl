@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ReflectionMember.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ReflectionMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class ReflectionMember;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Utilities::ReflectionMember*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ReflectionMember*, "Newtonsoft.Json.Utilities", "ReflectionMember");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -31,10 +33,12 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE ReflectionMember : public ::System::Object {
 public:
   // Declarations
+  /// @brief [Nullable(new[] { 2, 1, 2 })]
   __declspec(property(get = get_Getter, put = set_Getter)) ::System::Func_2<::System::Object*, ::System::Object*>* Getter;
 
   __declspec(property(get = get_MemberType, put = set_MemberType)) ::System::Type* MemberType;
 
+  /// @brief [Nullable(new[] { 2, 1, 2 })]
   __declspec(property(get = get_Setter, put = set_Setter)) ::System::Action_2<::System::Object*, ::System::Object*>* Setter;
 
   /// @brief Field <Getter>k__BackingField, offset 0x18, size 0x8
@@ -71,23 +75,29 @@ public:
   /// @brief Method .ctor, addr 0x5d2e158, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Getter, addr 0x5d2e138, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_Getter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MemberType, addr 0x5d2e128, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Setter, addr 0x5d2e148, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::System::Object*, ::System::Object*>* get_Setter();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Getter, addr 0x5d2e140, size 0x8, virtual false, abstract: false, final false
-  inline void set_Getter(::System::Func_2<::System::Object*, ::System::Object*>* value);
+  inline void set_Getter(/* [Nullable(new[] { 2, 1, 2 })] */ ::System::Func_2<::System::Object*, ::System::Object*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MemberType, addr 0x5d2e130, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberType(::System::Type* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Setter, addr 0x5d2e150, size 0x8, virtual false, abstract: false, final false
-  inline void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* value);
+  inline void set_Setter(/* [Nullable(new[] { 2, 1, 2 })] */ ::System::Action_2<::System::Object*, ::System::Object*>* value);
 
 protected:
   // Ctor Parameters []
@@ -95,23 +105,28 @@ protected:
   constexpr ReflectionMember();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMember", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMember", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionMember(ReflectionMember&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMember", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMember", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMember(ReflectionMember const&) = delete;
+  ReflectionMember(ReflectionMemberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13448 };
 
+  /// [CompilerGenerated]
   /// @brief Field <MemberType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____MemberType_k__BackingField;
 
+  /// [Nullable(new[] { 2, 1, 2 })]
+  /// [CompilerGenerated]
   /// @brief Field <Getter>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<::System::Object*, ::System::Object*>* ____Getter_k__BackingField;
 
+  /// [Nullable(new[] { 2, 1, 2 })]
+  /// [CompilerGenerated]
   /// @brief Field <Setter>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<::System::Object*, ::System::Object*>* ____Setter_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\SByte.hpp"
+// IWYU pragma private; include "System/SByte.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,8 @@ struct SByte;
 // Write type traits
 MARK_VAL_T(::System::SByte);
 DEFINE_IL2CPP_CLASS(::System::SByte, "System", "SByte");
+// [CLSCompliant(false)]
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -97,6 +99,7 @@ public:
   /// @brief Method Equals, addr 0x5c5a470, size 0x34, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NonVersionable]
   /// @brief Method Equals, addr 0x5c5a4a4, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(int8_t obj);
 
@@ -106,9 +109,11 @@ public:
   /// @brief Method GetTypeCode, addr 0x5c5ad4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
+  /// [CLSCompliant(false)]
   /// @brief Method Parse, addr 0x5c5a88c, size 0x78, virtual false, abstract: false, final false
   static inline int8_t Parse(::StringW s, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Parse, addr 0x5c5aac8, size 0x88, virtual false, abstract: false, final false
   static inline int8_t Parse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider);
 
@@ -172,9 +177,11 @@ public:
   /// @brief Method TryFormat, addr 0x5c5a760, size 0x12c, virtual true, abstract: false, final true
   inline bool TryFormat(::System::Span_1<char16_t> destination, ::by_ref<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method TryParse, addr 0x5c5ab50, size 0x84, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW s, ::by_ref<int8_t> result);
 
+  /// [CLSCompliant(false)]
   /// @brief Method TryParse, addr 0x5c5aca0, size 0xac, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider, ::by_ref<int8_t> result);
 
@@ -203,7 +210,7 @@ public:
   // @brief default ctor
   constexpr SByte();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "int8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "int8_t", modifiers: "", def_value: None, comment: None }]
   constexpr SByte(int8_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

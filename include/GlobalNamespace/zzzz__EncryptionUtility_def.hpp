@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EncryptionUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace/EncryptionUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,21 +69,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method EncryptData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EncryptData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EncryptData(::ArrayW<uint8_t> data, ::by_ref<int32_t> offset, ::by_ref<int32_t> length, int32_t extraPrefixBytes);
 
-  /// @brief Method TryDecryptData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryDecryptData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryDecryptData(::ArrayW<uint8_t> data, ::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
-  /// @brief Method get_isValid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isValid();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility_IEncryptionState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility_IEncryptionState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EncryptionUtility_IEncryptionState(EncryptionUtility_IEncryptionState const&) = delete;
+  EncryptionUtility_IEncryptionState(EncryptionUtility_IEncryptionStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18149 };
@@ -261,13 +261,13 @@ protected:
   constexpr EncryptionUtility_EncryptionState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility_EncryptionState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility_EncryptionState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncryptionUtility_EncryptionState(EncryptionUtility_EncryptionState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility_EncryptionState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility_EncryptionState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EncryptionUtility_EncryptionState(EncryptionUtility_EncryptionState const&) = delete;
+  EncryptionUtility_EncryptionState(EncryptionUtility_EncryptionStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18150 };
@@ -336,6 +336,7 @@ static_assert(offsetof(::GlobalNamespace::EncryptionUtility_EncryptionState, ___
 static_assert(sizeof(::GlobalNamespace::EncryptionUtility_EncryptionState) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -393,13 +394,13 @@ protected:
   constexpr EncryptionUtility___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncryptionUtility___c__DisplayClass19_0(EncryptionUtility___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EncryptionUtility___c__DisplayClass19_0(EncryptionUtility___c__DisplayClass19_0 const&) = delete;
+  EncryptionUtility___c__DisplayClass19_0(EncryptionUtility___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18151 };
@@ -478,6 +479,7 @@ public:
   /// @brief Method IsValidLength, addr 0x33305c4, size 0x18, virtual false, abstract: false, final false
   static inline bool IsValidLength(int32_t length);
 
+  /// [Conditional("BG_VERBOSE_LOGGING")]
   /// @brief Method Log, addr 0x3332294, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
@@ -510,13 +512,13 @@ protected:
   constexpr EncryptionUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncryptionUtility(EncryptionUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EncryptionUtility(EncryptionUtility const&) = delete;
+  EncryptionUtility(EncryptionUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18152 };

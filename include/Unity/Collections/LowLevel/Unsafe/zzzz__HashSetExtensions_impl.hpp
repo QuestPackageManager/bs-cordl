@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\HashSetExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/HashSetExtensions.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__HashSetExtensions_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeHashSet_1_def.hpp"
@@ -15,6 +16,7 @@
 #include "Unity/Collections/zzzz__NativeList_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashSet_1_def.hpp"
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base =
@@ -27,6 +29,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base =
@@ -39,6 +42,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base =
@@ -51,6 +55,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -63,6 +68,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -75,6 +81,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -87,6 +94,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -99,6 +107,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -111,6 +120,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -123,6 +133,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -134,6 +145,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -145,6 +157,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -156,6 +169,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base =
@@ -168,6 +182,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base =
@@ -180,6 +195,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base =
@@ -192,6 +208,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -204,6 +221,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -216,6 +234,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -228,6 +247,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -239,6 +259,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -250,6 +271,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -261,6 +283,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -273,6 +296,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -285,6 +309,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -297,6 +322,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -308,6 +334,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -319,6 +346,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -330,6 +358,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -342,6 +371,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -354,6 +384,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::NativeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -366,6 +397,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList128Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -378,6 +410,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList128Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -390,6 +423,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList128Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -402,6 +436,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList32Bytes_1<T> other) {
   static auto* ___internal_method_base =
@@ -414,6 +449,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList32Bytes_1<T> other) {
   static auto* ___internal_method_base =
@@ -426,6 +462,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList32Bytes_1<T> other) {
   static auto* ___internal_method_base =
@@ -438,6 +475,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList4096Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -450,6 +488,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList4096Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -462,6 +501,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList4096Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -474,6 +514,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList512Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -486,6 +527,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList512Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -498,6 +540,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList512Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -510,6 +553,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList64Bytes_1<T> other) {
   static auto* ___internal_method_base =
@@ -522,6 +566,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList64Bytes_1<T> other) {
   static auto* ___internal_method_base =
@@ -534,6 +579,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList64Bytes_1<T> other) {
   static auto* ___internal_method_base =
@@ -546,6 +592,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeArray_1<T> other) {
   static auto* ___internal_method_base =
@@ -558,6 +605,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeArray_1<T> other) {
   static auto* ___internal_method_base =
@@ -570,6 +618,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeArray_1<T> other) {
   static auto* ___internal_method_base =
@@ -582,6 +631,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeHashSet_1<T> other) {
   static auto* ___internal_method_base =
@@ -594,6 +644,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeHashSet_1<T> other) {
   static auto* ___internal_method_base =
@@ -606,6 +657,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeHashSet_1<T> other) {
   static auto* ___internal_method_base =
@@ -618,6 +670,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -630,6 +683,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -642,6 +696,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -654,6 +709,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -665,6 +721,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -676,6 +733,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -687,6 +745,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -698,6 +757,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -709,6 +769,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -720,6 +781,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -732,6 +794,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -744,6 +807,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -756,6 +820,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -767,6 +832,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -778,6 +844,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -789,6 +856,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -800,6 +868,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -811,6 +880,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -822,6 +892,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -833,6 +904,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -844,6 +916,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -855,6 +928,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeList_1<T> other) {
   static auto* ___internal_method_base =
@@ -867,6 +941,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeList_1<T> other) {
   static auto* ___internal_method_base =
@@ -879,6 +954,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeList_1<T> other) {
   static auto* ___internal_method_base =
@@ -891,6 +967,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -903,6 +980,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -915,6 +993,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -927,6 +1006,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList128Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -939,6 +1019,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList128Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -951,6 +1032,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList128Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -963,6 +1045,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList32Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -975,6 +1058,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList32Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -987,6 +1071,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList32Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -999,6 +1084,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList4096Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1011,6 +1097,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList4096Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1023,6 +1110,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList4096Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1035,6 +1123,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList512Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1047,6 +1136,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList512Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1059,6 +1149,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList512Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1071,6 +1162,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::FixedList64Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1083,6 +1175,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::FixedList64Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1095,6 +1188,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::FixedList64Bytes_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1107,6 +1201,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeArray_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1119,6 +1214,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeArray_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1131,6 +1227,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeArray_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1143,6 +1240,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1155,6 +1253,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1167,6 +1266,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1179,6 +1279,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1190,6 +1291,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1201,6 +1303,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1212,6 +1315,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1223,6 +1327,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1234,6 +1339,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1245,6 +1351,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1256,6 +1363,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1267,6 +1375,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1278,6 +1387,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1290,6 +1400,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1302,6 +1413,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1314,6 +1426,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1325,6 +1438,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1336,6 +1450,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1347,6 +1462,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1358,6 +1474,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1369,6 +1486,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1380,6 +1498,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1391,6 +1510,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1402,6 +1522,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1_ReadOnly<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1413,6 +1534,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::NativeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1425,6 +1547,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::NativeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1437,6 +1560,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::NativeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1449,6 +1573,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                 ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1460,6 +1585,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::ExceptWith(
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),
@@ -1471,6 +1597,7 @@ inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::IntersectWi
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::HashSetExtensions::UnionWith(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>> container,
                                                                                ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> other) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashSetExtensions*>(),

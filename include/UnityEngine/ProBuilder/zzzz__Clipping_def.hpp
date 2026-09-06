@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Clipping.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Clipping.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Clipping_OutCode);
 MARK_REF_T(::UnityEngine::ProBuilder::Clipping*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Clipping_OutCode, "UnityEngine.ProBuilder", "Clipping/OutCode");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Clipping*, "UnityEngine.ProBuilder", "Clipping");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: true
@@ -58,7 +59,7 @@ public:
   // @brief default ctor
   constexpr Clipping_OutCode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Clipping_OutCode(int32_t value__) noexcept;
 
   /// @brief Field Bottom value: I32(4)
@@ -114,13 +115,13 @@ protected:
   constexpr Clipping();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Clipping", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Clipping", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Clipping(Clipping&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Clipping", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Clipping", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Clipping(Clipping const&) = delete;
+  Clipping(Clippingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16721 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PublicServerInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/PublicServerInfo.hpp"
 #include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
@@ -57,7 +57,8 @@ inline ::GlobalNamespace::PublicServerInfo GlobalNamespace::PublicServerInfo::De
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PublicServerInfo>(), { "Deserialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PublicServerInfo>(nullptr, ___internal_method, reader);
 }
-// Ctor Parameters [CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "currentPlayerCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currentPlayerCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PublicServerInfo::PublicServerInfo(::StringW code, int32_t currentPlayerCount) noexcept {
   this->code = code;
   this->currentPlayerCount = currentPlayerCount;

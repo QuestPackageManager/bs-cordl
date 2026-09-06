@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphAdjustmentRecord.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphAdjustmentRecord.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_impl.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphAdjustmentRecord_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -128,8 +128,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustm
 UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphAdjustmentRecord_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_GlyphValueRecord", ty:
-// "::UnityEngine::TextCore::LowLevel::GlyphValueRecord", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_GlyphValueRecord", ty:
+// "::UnityEngine::TextCore::LowLevel::GlyphValueRecord", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord) noexcept {
   this->m_GlyphIndex = m_GlyphIndex;
   this->m_GlyphValueRecord = m_GlyphValueRecord;

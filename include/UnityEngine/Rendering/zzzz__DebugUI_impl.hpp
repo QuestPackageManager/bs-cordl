@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugUI.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugUI.hpp"
 #include "System/zzzz__Func_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugUI_impl.hpp"
@@ -29,7 +29,7 @@
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DebugUI_Flags::DebugUI_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -732,7 +732,8 @@ constexpr ::UnityEngine::Rendering::DebugUI_IContainer* UnityEngine::Rendering::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DebugUI_Container::DebugUI_Container() {}
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem::Foldout_DebugUI_ContextMenuItem(::StringW displayName, ::System::Action* action) noexcept {
   this->displayName = displayName;
   this->action = action;
@@ -1284,7 +1285,8 @@ inline ::UnityEngine::Rendering::DebugUI_Table* UnityEngine::Rendering::DebugUI_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DebugUI_Table::DebugUI_Table() {}
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip::Widget_DebugUI_NameAndTooltip(::StringW name, ::StringW tooltip) noexcept {
   this->name = name;
   this->tooltip = tooltip;
@@ -3300,7 +3302,7 @@ inline ::UnityEngine::Rendering::DebugUI_ObjectListField* UnityEngine::Rendering
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DebugUI_ObjectListField::DebugUI_ObjectListField() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::MessageBox_DebugUI_Style::MessageBox_DebugUI_Style(int32_t value__) noexcept {
   this->value__ = value__;
 }

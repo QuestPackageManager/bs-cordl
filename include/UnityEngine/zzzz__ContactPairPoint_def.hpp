@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ContactPairPoint.hpp"
+// IWYU pragma private; include "UnityEngine/ContactPairPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ struct ContactPairPoint;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactPairPoint);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ContactPairPoint, "UnityEngine", "ContactPairPoint");
+// [UsedByNativeCode]
+// [IsReadOnly]
 // Dependencies UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -25,12 +27,16 @@ namespace UnityEngine {
 struct CORDL_TYPE ContactPairPoint {
 public:
   // Declarations
+  /// @brief [Obsolete("Please use ContactPairPoint.impulse instead. (UnityUpgradable) -> impulse", false)]
   __declspec(property(get = get_Impulse)) ::UnityEngine::Vector3 Impulse;
 
+  /// @brief [Obsolete("Please use ContactPairPoint.normal instead. (UnityUpgradable) -> normal", false)]
   __declspec(property(get = get_Normal)) ::UnityEngine::Vector3 Normal;
 
+  /// @brief [Obsolete("Please use ContactPairPoint.position instead. (UnityUpgradable) -> position", false)]
   __declspec(property(get = get_Position)) ::UnityEngine::Vector3 Position;
 
+  /// @brief [Obsolete("Please use ContactPairPoint.separation instead. (UnityUpgradable) -> separation", false)]
   __declspec(property(get = get_Separation)) float_t Separation;
 
   __declspec(property(get = get_impulse)) ::UnityEngine::Vector3 impulse;
@@ -69,9 +75,10 @@ public:
   // @brief default ctor
   constexpr ContactPairPoint();
 
-  // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_InternalFaceIndex0", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Impulse", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_InternalFaceIndex1", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_InternalFaceIndex0", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Impulse", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_InternalFaceIndex1", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ContactPairPoint(::UnityEngine::Vector3 m_Position, float_t m_Separation, ::UnityEngine::Vector3 m_Normal, uint32_t m_InternalFaceIndex0, ::UnityEngine::Vector3 m_Impulse,
                              uint32_t m_InternalFaceIndex1) noexcept;
 

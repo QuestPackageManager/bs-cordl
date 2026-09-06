@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\NullableAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/NullableAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__NullableAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::NullableAttribute._ctor

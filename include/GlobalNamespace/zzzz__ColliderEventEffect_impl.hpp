@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColliderEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColliderEventEffect.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__ColliderEventEffect_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentCollisionRepository_def.hpp"

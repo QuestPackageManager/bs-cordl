@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\TextureCurve.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/TextureCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class TextureCurve;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::TextureCurve*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::TextureCurve*, "UnityEngine.Rendering", "TextureCurve");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -90,11 +91,11 @@ public:
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetTextureFormat();
 
   /// @brief Method MoveKey, addr 0x67c8834, size 0x48, virtual false, abstract: false, final false
-  inline int32_t MoveKey(int32_t index, ::by_ref<::UnityEngine::Keyframe> key);
+  inline int32_t MoveKey(int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Keyframe> key);
 
-  static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, ::by_ref<::UnityEngine::Vector2> bounds);
+  static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds);
 
-  static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, ::by_ref<::UnityEngine::Vector2> bounds);
+  static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds);
 
   /// @brief Method Release, addr 0x67c82e4, size 0xa8, virtual false, abstract: false, final false
   inline void Release();
@@ -163,20 +164,22 @@ public:
   constexpr void __cordl_internal_set_m_ZeroValue(float_t value);
 
   /// @brief Method .ctor, addr 0x67c8190, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, ::by_ref<::UnityEngine::Vector2> bounds);
+  inline void _ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds);
 
   /// @brief Method .ctor, addr 0x67c81e0, size 0x100, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, ::by_ref<::UnityEngine::Vector2> bounds);
+  inline void _ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds);
 
   /// @brief Method get_Item, addr 0x67c8154, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Keyframe get_Item(int32_t index);
 
+  /// [CompilerGenerated]
   /// @brief Method get_length, addr 0x67c8144, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_length, addr 0x67c814c, size 0x8, virtual false, abstract: false, final false
   inline void set_length(int32_t value);
 
@@ -186,13 +189,13 @@ protected:
   constexpr TextureCurve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureCurve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureCurve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureCurve(TextureCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureCurve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureCurve(TextureCurve const&) = delete;
+  TextureCurve(TextureCurveconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12314 };
@@ -203,18 +206,24 @@ public:
   /// @brief Field k_Step offset 0xffffffff size 0x4
   static constexpr float_t k_Step{ static_cast<float_t>(0.0078125f) };
 
+  /// [CompilerGenerated]
+  /// [SerializeField]
   /// @brief Field <length>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____length_k__BackingField;
 
+  /// [SerializeField]
   /// @brief Field m_Loop, offset: 0x14, size: 0x1, def value: None
   bool ___m_Loop;
 
+  /// [SerializeField]
   /// @brief Field m_ZeroValue, offset: 0x18, size: 0x4, def value: None
   float_t ___m_ZeroValue;
 
+  /// [SerializeField]
   /// @brief Field m_Range, offset: 0x1c, size: 0x4, def value: None
   float_t ___m_Range;
 
+  /// [SerializeField]
   /// @brief Field m_Curve, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___m_Curve;
 

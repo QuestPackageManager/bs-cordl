@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SoftJointLimit.hpp"
+// IWYU pragma private; include "UnityEngine/SoftJointLimit.hpp"
 #include "UnityEngine/zzzz__SoftJointLimit_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SoftJointLimit.get_limit
 template <>
@@ -99,8 +99,8 @@ inline void UnityEngine::SoftJointLimit::set_contactDistance(float_t value) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SoftJointLimit>(), { "set_contactDistance", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_Limit", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Bounciness", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "m_ContactDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Limit", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Bounciness", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_ContactDistance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SoftJointLimit::SoftJointLimit(float_t m_Limit, float_t m_Bounciness, float_t m_ContactDistance) noexcept {
   this->m_Limit = m_Limit;
   this->m_Bounciness = m_Bounciness;

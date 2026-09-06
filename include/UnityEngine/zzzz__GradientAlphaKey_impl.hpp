@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GradientAlphaKey.hpp"
+// IWYU pragma private; include "UnityEngine/GradientAlphaKey.hpp"
 #include "UnityEngine/zzzz__GradientAlphaKey_def.hpp"
 //  Writing Method size for method: ::UnityEngine::GradientAlphaKey._ctor
 template <>
@@ -19,7 +19,8 @@ inline void UnityEngine::GradientAlphaKey::_ctor(float_t alpha, float_t time) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GradientAlphaKey>(), { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, alpha, time);
 }
-// Ctor Parameters [CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::GradientAlphaKey::GradientAlphaKey(float_t alpha, float_t time) noexcept {
   this->alpha = alpha;
   this->time = time;

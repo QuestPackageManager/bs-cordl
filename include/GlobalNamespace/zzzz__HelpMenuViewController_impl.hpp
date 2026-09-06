@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HelpMenuViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/HelpMenuViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpMenuViewController_def.hpp"
 #include "GlobalNamespace/zzzz__EulaDisplayViewController_def.hpp"

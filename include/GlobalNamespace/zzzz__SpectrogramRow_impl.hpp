@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpectrogramRow.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpectrogramRow.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SpectrogramRow_def.hpp"

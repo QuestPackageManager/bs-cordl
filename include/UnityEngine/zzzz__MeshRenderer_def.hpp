@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MeshRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/MeshRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class MeshRenderer;
 // Write type traits
 MARK_REF_T(::UnityEngine::MeshRenderer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::MeshRenderer*, "UnityEngine", "MeshRenderer");
+// [NativeHeader("Runtime/Graphics/Mesh/MeshRenderer.h")]
 // Dependencies UnityEngine.Renderer
 namespace UnityEngine {
 // Is value type: false
@@ -32,6 +33,7 @@ public:
 
   __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
+  /// [RequiredByNativeCode]
   /// @brief Method DontStripMeshRenderer, addr 0x6aa6480, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshRenderer();
 
@@ -52,6 +54,7 @@ public:
   /// @brief Method get_enlightenVertexStream_Injected, addr 0x6aa6864, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_enlightenVertexStream_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("GetSubMeshStartIndex")]
   /// @brief Method get_subMeshStartIndex, addr 0x6aa69a4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_subMeshStartIndex();
 
@@ -76,13 +79,13 @@ protected:
   constexpr MeshRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshRenderer(MeshRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshRenderer(MeshRenderer const&) = delete;
+  MeshRenderer(MeshRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10211 };

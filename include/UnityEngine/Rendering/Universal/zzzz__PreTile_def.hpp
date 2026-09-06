@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PreTile.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PreTile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,9 @@ public:
   // @brief default ctor
   constexpr PreTile();
 
-  // Ctor Parameters [CppParam { name: "planeLeft", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "planeRight", ty: "::Unity::Mathematics::float4", modifiers:
-  // "", def_value: None }, CppParam { name: "planeBottom", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "planeTop", ty: "::Unity::Mathematics::float4",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "planeLeft", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "planeRight", ty:
+  // "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "planeBottom", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "planeTop", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }]
   constexpr PreTile(::Unity::Mathematics::float4 planeLeft, ::Unity::Mathematics::float4 planeRight, ::Unity::Mathematics::float4 planeBottom, ::Unity::Mathematics::float4 planeTop) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

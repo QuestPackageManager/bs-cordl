@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlayerGamePoseGeneratorAI.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlayerGamePoseGeneratorAI.hpp"
 #include "GlobalNamespace/zzzz__MockNoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__MockObstacleData_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGenerator_impl.hpp"

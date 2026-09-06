@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutState.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,9 +28,10 @@ public:
   // @brief default ctor
   constexpr LayoutState();
 
-  // Ctor Parameters [CppParam { name: "measureFunctionCallback", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "baselineFunctionCallback", ty: "::System::IntPtr",
-  // modifiers: "", def_value: None }, CppParam { name: "unusedExceptionPointer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "currentGenerationCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "error", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "measureFunctionCallback", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "baselineFunctionCallback", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "unusedExceptionPointer", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "depth", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "currentGenerationCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "error", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutState(::System::IntPtr measureFunctionCallback, ::System::IntPtr baselineFunctionCallback, ::System::IntPtr unusedExceptionPointer, uint32_t depth, uint32_t currentGenerationCount,
                         bool error) noexcept;
 

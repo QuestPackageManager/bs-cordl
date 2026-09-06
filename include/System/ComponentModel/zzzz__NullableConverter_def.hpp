@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\NullableConverter.hpp"
+// IWYU pragma private; include "System/ComponentModel/NullableConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,12 +124,15 @@ public:
   /// @brief Method .ctor, addr 0x63c36cc, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
+  /// [CompilerGenerated]
   /// @brief Method get_NullableType, addr 0x63c3fd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_NullableType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UnderlyingType, addr 0x63c3fe0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_UnderlyingType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UnderlyingTypeConverter, addr 0x63c3fe8, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* get_UnderlyingTypeConverter();
 
@@ -139,23 +142,26 @@ protected:
   constexpr NullableConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullableConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullableConverter(NullableConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullableConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NullableConverter(NullableConverter const&) = delete;
+  NullableConverter(NullableConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11285 };
 
+  /// [CompilerGenerated]
   /// @brief Field <NullableType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____NullableType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <UnderlyingType>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____UnderlyingType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <UnderlyingTypeConverter>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::ComponentModel::TypeConverter* ____UnderlyingTypeConverter_k__BackingField;
 

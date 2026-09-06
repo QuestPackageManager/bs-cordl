@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugDisplaySettingsCommon.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugDisplaySettingsCommon.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DebugDisplaySettingsCom
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon_SettingsPanel*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsCommon/SettingsPanel");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0*, "UnityEngine.Rendering.Universal",
                     "DebugDisplaySettingsCommon/SettingsPanel/<>c__DisplayClass3_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -76,13 +77,13 @@ protected:
   constexpr SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0(SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0(SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0 const&) = delete;
+  SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0(SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12602 };
@@ -98,6 +99,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::SettingsPanel_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [DisplayInfo(name = "Frequently Used", order = -1)]
 // Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -123,13 +125,13 @@ protected:
   constexpr DebugDisplaySettingsCommon_SettingsPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon_SettingsPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon_SettingsPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsCommon_SettingsPanel(DebugDisplaySettingsCommon_SettingsPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon_SettingsPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsCommon_SettingsPanel(DebugDisplaySettingsCommon_SettingsPanel const&) = delete;
+  DebugDisplaySettingsCommon_SettingsPanel(DebugDisplaySettingsCommon_SettingsPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12603 };
@@ -183,13 +185,13 @@ protected:
   constexpr DebugDisplaySettingsCommon();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsCommon(DebugDisplaySettingsCommon&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsCommon(DebugDisplaySettingsCommon const&) = delete;
+  DebugDisplaySettingsCommon(DebugDisplaySettingsCommonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12604 };

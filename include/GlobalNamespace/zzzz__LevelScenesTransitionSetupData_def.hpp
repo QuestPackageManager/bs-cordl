@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::GlobalNamespace::LevelScenesTransitionSetupData*);
 MARK_VAL_T(::GlobalNamespace::LevelScenesTransitionSetupData__BeforeScenesWillBeActivatedAsync_d__11);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelScenesTransitionSetupData*, "", "LevelScenesTransitionSetupData");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelScenesTransitionSetupData__BeforeScenesWillBeActivatedAsync_d__11, "", "LevelScenesTransitionSetupData/<BeforeScenesWillBeActivatedAsync>d__11");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -58,6 +59,7 @@ public:
   /// @brief Method MoveNext, addr 0x590edb4, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x590f1a8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -68,10 +70,10 @@ public:
   // @brief default ctor
   constexpr LevelScenesTransitionSetupData__BeforeScenesWillBeActivatedAsync_d__11();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LevelScenesTransitionSetupData*", modifiers:
-  // "", def_value: None }, CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::LevelScenesTransitionSetupData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr LevelScenesTransitionSetupData__BeforeScenesWillBeActivatedAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                    ::GlobalNamespace::LevelScenesTransitionSetupData* __4__this, ::System::Diagnostics::Stopwatch* _stopwatch_5__2,
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -141,6 +143,7 @@ public:
 
   __declspec(property(get = get_transformedBeatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
+  /// [AsyncStateMachine(typeof(LevelScenesTransitionSetupData::<BeforeScenesWillBeActivatedAsync>d__11))]
   /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x590ecf0, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
@@ -164,24 +167,30 @@ public:
 
   constexpr void __cordl_internal_set__telemetryModel(::Analytics::Model::TelemetryModel* value);
 
+  /// [CompilerGenerated]
+  /// [DebuggerHidden]
   /// @brief Method <>n__0, addr 0x590edac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
   /// @brief Method .ctor, addr 0x590eda4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_gameplayAdditionalInformationSetupData, addr 0x590ece0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayAdditionalInformationSetupData* get_gameplayAdditionalInformationSetupData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_gameplayCoreSceneSetupData, addr 0x590ecd0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
 
   /// @brief Method get_transformedBeatmapData, addr 0x590ecb8, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
+  /// [CompilerGenerated]
   /// @brief Method set_gameplayAdditionalInformationSetupData, addr 0x590ece8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayAdditionalInformationSetupData(::GlobalNamespace::GameplayAdditionalInformationSetupData* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_gameplayCoreSceneSetupData, addr 0x590ecd8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
@@ -191,23 +200,26 @@ protected:
   constexpr LevelScenesTransitionSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelScenesTransitionSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelScenesTransitionSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelScenesTransitionSetupData(LevelScenesTransitionSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelScenesTransitionSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelScenesTransitionSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelScenesTransitionSetupData(LevelScenesTransitionSetupData const&) = delete;
+  LevelScenesTransitionSetupData(LevelScenesTransitionSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6740 };
 
+  /// [Inject]
   /// @brief Field _telemetryModel, offset: 0x20, size: 0x8, def value: None
   ::Analytics::Model::TelemetryModel* ____telemetryModel;
 
+  /// [CompilerGenerated]
   /// @brief Field <gameplayCoreSceneSetupData>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____gameplayCoreSceneSetupData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <gameplayAdditionalInformationSetupData>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayAdditionalInformationSetupData* ____gameplayAdditionalInformationSetupData_k__BackingField;
 

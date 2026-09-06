@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\ResourceSet.hpp"
+// IWYU pragma private; include "System/Resources/ResourceSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class ResourceSet;
 // Write type traits
 MARK_REF_T(::System::Resources::ResourceSet*);
 DEFINE_IL2CPP_CLASS(::System::Resources::ResourceSet*, "System.Resources", "ResourceSet");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Resources {
 // Is value type: false
@@ -68,6 +69,7 @@ public:
   /// @brief Method GetCaseInsensitiveObjectInternal, addr 0x5b7d554, size 0x2d8, virtual false, abstract: false, final false
   inline ::System::Object* GetCaseInsensitiveObjectInternal(::StringW name);
 
+  /// [ComVisible(false)]
   /// @brief Method GetEnumerator, addr 0x5b7d114, size 0x4, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
@@ -132,13 +134,13 @@ protected:
   constexpr ResourceSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceSet(ResourceSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceSet(ResourceSet const&) = delete;
+  ResourceSet(ResourceSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3461 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Binding.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Binding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class Binding;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::Binding*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Binding*, "UnityEngine.UIElements", "Binding");
+// [UxmlObject]
 // Dependencies System.Object, UnityEngine.UIElements.BindingUpdateTrigger
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -47,6 +48,7 @@ public:
   /// @brief Field m_UpdateTrigger, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_UpdateTrigger, put = __cordl_internal_set_m_UpdateTrigger)) ::UnityEngine::UIElements::BindingUpdateTrigger m_UpdateTrigger;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_updateTrigger, put = set_updateTrigger)) ::UnityEngine::UIElements::BindingUpdateTrigger updateTrigger;
 
   /// @brief Method ClearDirty, addr 0x6c30ac0, size 0x8, virtual false, abstract: false, final false
@@ -58,13 +60,13 @@ public:
   static inline ::UnityEngine::UIElements::Binding* New_ctor();
 
   /// @brief Method OnActivated, addr 0x6c30ac8, size 0x4, virtual true, abstract: false, final false
-  inline void OnActivated(::by_ref<::UnityEngine::UIElements::BindingActivationContext> context);
+  inline void OnActivated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingActivationContext> context);
 
   /// @brief Method OnDataSourceChanged, addr 0x6c30ad0, size 0x4, virtual true, abstract: false, final false
-  inline void OnDataSourceChanged(::by_ref<::UnityEngine::UIElements::DataSourceContextChanged> context);
+  inline void OnDataSourceChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContextChanged> context);
 
   /// @brief Method OnDeactivated, addr 0x6c30acc, size 0x4, virtual true, abstract: false, final false
-  inline void OnDeactivated(::by_ref<::UnityEngine::UIElements::BindingActivationContext> context);
+  inline void OnDeactivated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingActivationContext> context);
 
   /// @brief Method ResetPanelLogLevel, addr 0x6c309f8, size 0x90, virtual false, abstract: false, final false
   static inline void ResetPanelLogLevel(::UnityEngine::UIElements::IPanel* panel);
@@ -111,13 +113,13 @@ protected:
   constexpr Binding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Binding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Binding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Binding(Binding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Binding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Binding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Binding(Binding const&) = delete;
+  Binding(Bindingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4020 };
@@ -132,6 +134,8 @@ public:
   /// @brief Field m_UpdateTrigger, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::UIElements::BindingUpdateTrigger ___m_UpdateTrigger;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <property>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____property_k__BackingField;
 

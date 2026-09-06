@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRInput.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRInput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -209,6 +209,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRInput__ShowBindingsForActionSet*, "OVR.Ope
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction*, "OVR.OpenVR", "IVRInput/_TriggerHapticVibrationAction");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRInput__UpdateActionState*, "OVR.OpenVR", "IVRInput/_UpdateActionState");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRInput, "OVR.OpenVR", "IVRInput");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -236,13 +237,13 @@ protected:
   constexpr IVRInput__SetActionManifestPath();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__SetActionManifestPath", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__SetActionManifestPath", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__SetActionManifestPath(IVRInput__SetActionManifestPath&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__SetActionManifestPath", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__SetActionManifestPath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__SetActionManifestPath(IVRInput__SetActionManifestPath const&) = delete;
+  IVRInput__SetActionManifestPath(IVRInput__SetActionManifestPathconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8340 };
@@ -253,6 +254,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__SetActionManifestPath) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -280,13 +282,13 @@ protected:
   constexpr IVRInput__GetActionSetHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionSetHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionSetHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetActionSetHandle(IVRInput__GetActionSetHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionSetHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionSetHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetActionSetHandle(IVRInput__GetActionSetHandle const&) = delete;
+  IVRInput__GetActionSetHandle(IVRInput__GetActionSetHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8341 };
@@ -297,6 +299,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetActionSetHandle) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -324,13 +327,13 @@ protected:
   constexpr IVRInput__GetActionHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetActionHandle(IVRInput__GetActionHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetActionHandle(IVRInput__GetActionHandle const&) = delete;
+  IVRInput__GetActionHandle(IVRInput__GetActionHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8342 };
@@ -341,6 +344,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetActionHandle) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -368,13 +372,13 @@ protected:
   constexpr IVRInput__GetInputSourceHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetInputSourceHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetInputSourceHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetInputSourceHandle(IVRInput__GetInputSourceHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetInputSourceHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetInputSourceHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetInputSourceHandle(IVRInput__GetInputSourceHandle const&) = delete;
+  IVRInput__GetInputSourceHandle(IVRInput__GetInputSourceHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8343 };
@@ -385,6 +389,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetInputSourceHandle) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -413,13 +418,13 @@ protected:
   constexpr IVRInput__UpdateActionState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__UpdateActionState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__UpdateActionState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__UpdateActionState(IVRInput__UpdateActionState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__UpdateActionState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__UpdateActionState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__UpdateActionState(IVRInput__UpdateActionState const&) = delete;
+  IVRInput__UpdateActionState(IVRInput__UpdateActionStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8344 };
@@ -430,6 +435,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__UpdateActionState) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -458,13 +464,13 @@ protected:
   constexpr IVRInput__GetDigitalActionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetDigitalActionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetDigitalActionData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetDigitalActionData(IVRInput__GetDigitalActionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetDigitalActionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetDigitalActionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetDigitalActionData(IVRInput__GetDigitalActionData const&) = delete;
+  IVRInput__GetDigitalActionData(IVRInput__GetDigitalActionDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8345 };
@@ -475,6 +481,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetDigitalActionData) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -503,13 +510,13 @@ protected:
   constexpr IVRInput__GetAnalogActionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetAnalogActionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetAnalogActionData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetAnalogActionData(IVRInput__GetAnalogActionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetAnalogActionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetAnalogActionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetAnalogActionData(IVRInput__GetAnalogActionData const&) = delete;
+  IVRInput__GetAnalogActionData(IVRInput__GetAnalogActionDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8346 };
@@ -520,6 +527,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetAnalogActionData) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -550,13 +558,13 @@ protected:
   constexpr IVRInput__GetPoseActionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetPoseActionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetPoseActionData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetPoseActionData(IVRInput__GetPoseActionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetPoseActionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetPoseActionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetPoseActionData(IVRInput__GetPoseActionData const&) = delete;
+  IVRInput__GetPoseActionData(IVRInput__GetPoseActionDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8347 };
@@ -567,6 +575,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetPoseActionData) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -595,13 +604,13 @@ protected:
   constexpr IVRInput__GetSkeletalActionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalActionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalActionData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetSkeletalActionData(IVRInput__GetSkeletalActionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalActionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalActionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetSkeletalActionData(IVRInput__GetSkeletalActionData const&) = delete;
+  IVRInput__GetSkeletalActionData(IVRInput__GetSkeletalActionDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8348 };
@@ -612,6 +621,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetSkeletalActionData) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -642,13 +652,13 @@ protected:
   constexpr IVRInput__GetSkeletalBoneData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetSkeletalBoneData(IVRInput__GetSkeletalBoneData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetSkeletalBoneData(IVRInput__GetSkeletalBoneData const&) = delete;
+  IVRInput__GetSkeletalBoneData(IVRInput__GetSkeletalBoneDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8349 };
@@ -659,6 +669,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetSkeletalBoneData) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -689,13 +700,13 @@ protected:
   constexpr IVRInput__GetSkeletalBoneDataCompressed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneDataCompressed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneDataCompressed", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetSkeletalBoneDataCompressed(IVRInput__GetSkeletalBoneDataCompressed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneDataCompressed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneDataCompressed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetSkeletalBoneDataCompressed(IVRInput__GetSkeletalBoneDataCompressed const&) = delete;
+  IVRInput__GetSkeletalBoneDataCompressed(IVRInput__GetSkeletalBoneDataCompressedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8350 };
@@ -706,6 +717,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -736,13 +748,13 @@ protected:
   constexpr IVRInput__DecompressSkeletalBoneData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__DecompressSkeletalBoneData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__DecompressSkeletalBoneData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__DecompressSkeletalBoneData(IVRInput__DecompressSkeletalBoneData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__DecompressSkeletalBoneData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__DecompressSkeletalBoneData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__DecompressSkeletalBoneData(IVRInput__DecompressSkeletalBoneData const&) = delete;
+  IVRInput__DecompressSkeletalBoneData(IVRInput__DecompressSkeletalBoneDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8351 };
@@ -753,6 +765,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -781,13 +794,13 @@ protected:
   constexpr IVRInput__TriggerHapticVibrationAction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__TriggerHapticVibrationAction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__TriggerHapticVibrationAction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__TriggerHapticVibrationAction(IVRInput__TriggerHapticVibrationAction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__TriggerHapticVibrationAction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__TriggerHapticVibrationAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__TriggerHapticVibrationAction(IVRInput__TriggerHapticVibrationAction const&) = delete;
+  IVRInput__TriggerHapticVibrationAction(IVRInput__TriggerHapticVibrationActionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8352 };
@@ -798,6 +811,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -826,13 +840,13 @@ protected:
   constexpr IVRInput__GetActionOrigins();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionOrigins", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionOrigins", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetActionOrigins(IVRInput__GetActionOrigins&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionOrigins", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionOrigins", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetActionOrigins(IVRInput__GetActionOrigins const&) = delete;
+  IVRInput__GetActionOrigins(IVRInput__GetActionOriginsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8353 };
@@ -843,6 +857,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetActionOrigins) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -870,13 +885,13 @@ protected:
   constexpr IVRInput__GetOriginLocalizedName();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginLocalizedName", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginLocalizedName", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetOriginLocalizedName(IVRInput__GetOriginLocalizedName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginLocalizedName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginLocalizedName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetOriginLocalizedName(IVRInput__GetOriginLocalizedName const&) = delete;
+  IVRInput__GetOriginLocalizedName(IVRInput__GetOriginLocalizedNameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8354 };
@@ -887,6 +902,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetOriginLocalizedName) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -915,13 +931,13 @@ protected:
   constexpr IVRInput__GetOriginTrackedDeviceInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginTrackedDeviceInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginTrackedDeviceInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__GetOriginTrackedDeviceInfo(IVRInput__GetOriginTrackedDeviceInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginTrackedDeviceInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginTrackedDeviceInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetOriginTrackedDeviceInfo(IVRInput__GetOriginTrackedDeviceInfo const&) = delete;
+  IVRInput__GetOriginTrackedDeviceInfo(IVRInput__GetOriginTrackedDeviceInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8355 };
@@ -932,6 +948,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -959,13 +976,13 @@ protected:
   constexpr IVRInput__ShowActionOrigins();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowActionOrigins", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowActionOrigins", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__ShowActionOrigins(IVRInput__ShowActionOrigins&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowActionOrigins", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowActionOrigins", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__ShowActionOrigins(IVRInput__ShowActionOrigins const&) = delete;
+  IVRInput__ShowActionOrigins(IVRInput__ShowActionOriginsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8356 };
@@ -976,6 +993,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRInput__ShowActionOrigins) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1004,13 +1022,13 @@ protected:
   constexpr IVRInput__ShowBindingsForActionSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowBindingsForActionSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowBindingsForActionSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRInput__ShowBindingsForActionSet(IVRInput__ShowBindingsForActionSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowBindingsForActionSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowBindingsForActionSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__ShowBindingsForActionSet(IVRInput__ShowBindingsForActionSet const&) = delete;
+  IVRInput__ShowBindingsForActionSet(IVRInput__ShowBindingsForActionSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8357 };
@@ -1068,20 +1086,21 @@ public:
   // @brief default ctor
   constexpr IVRInput();
 
-  // Ctor Parameters [CppParam { name: "SetActionManifestPath", ty: "::OVR::OpenVR::IVRInput__SetActionManifestPath*", modifiers: "", def_value: None }, CppParam { name: "GetActionSetHandle", ty:
-  // "::OVR::OpenVR::IVRInput__GetActionSetHandle*", modifiers: "", def_value: None }, CppParam { name: "GetActionHandle", ty: "::OVR::OpenVR::IVRInput__GetActionHandle*", modifiers: "", def_value:
-  // None }, CppParam { name: "GetInputSourceHandle", ty: "::OVR::OpenVR::IVRInput__GetInputSourceHandle*", modifiers: "", def_value: None }, CppParam { name: "UpdateActionState", ty:
-  // "::OVR::OpenVR::IVRInput__UpdateActionState*", modifiers: "", def_value: None }, CppParam { name: "GetDigitalActionData", ty: "::OVR::OpenVR::IVRInput__GetDigitalActionData*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetAnalogActionData", ty: "::OVR::OpenVR::IVRInput__GetAnalogActionData*", modifiers: "", def_value: None }, CppParam { name: "GetPoseActionData", ty:
-  // "::OVR::OpenVR::IVRInput__GetPoseActionData*", modifiers: "", def_value: None }, CppParam { name: "GetSkeletalActionData", ty: "::OVR::OpenVR::IVRInput__GetSkeletalActionData*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetSkeletalBoneData", ty: "::OVR::OpenVR::IVRInput__GetSkeletalBoneData*", modifiers: "", def_value: None }, CppParam { name: "GetSkeletalBoneDataCompressed",
-  // ty: "::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed*", modifiers: "", def_value: None }, CppParam { name: "DecompressSkeletalBoneData", ty:
-  // "::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData*", modifiers: "", def_value: None }, CppParam { name: "TriggerHapticVibrationAction", ty:
-  // "::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction*", modifiers: "", def_value: None }, CppParam { name: "GetActionOrigins", ty: "::OVR::OpenVR::IVRInput__GetActionOrigins*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetOriginLocalizedName", ty: "::OVR::OpenVR::IVRInput__GetOriginLocalizedName*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetOriginTrackedDeviceInfo", ty: "::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo*", modifiers: "", def_value: None }, CppParam { name: "ShowActionOrigins", ty:
-  // "::OVR::OpenVR::IVRInput__ShowActionOrigins*", modifiers: "", def_value: None }, CppParam { name: "ShowBindingsForActionSet", ty: "::OVR::OpenVR::IVRInput__ShowBindingsForActionSet*", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "SetActionManifestPath", ty: "::OVR::OpenVR::IVRInput__SetActionManifestPath*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "GetActionSetHandle", ty: "::OVR::OpenVR::IVRInput__GetActionSetHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetActionHandle", ty:
+  // "::OVR::OpenVR::IVRInput__GetActionHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetInputSourceHandle", ty: "::OVR::OpenVR::IVRInput__GetInputSourceHandle*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "UpdateActionState", ty: "::OVR::OpenVR::IVRInput__UpdateActionState*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "GetDigitalActionData", ty: "::OVR::OpenVR::IVRInput__GetDigitalActionData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetAnalogActionData", ty:
+  // "::OVR::OpenVR::IVRInput__GetAnalogActionData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetPoseActionData", ty: "::OVR::OpenVR::IVRInput__GetPoseActionData*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "GetSkeletalActionData", ty: "::OVR::OpenVR::IVRInput__GetSkeletalActionData*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "GetSkeletalBoneData", ty: "::OVR::OpenVR::IVRInput__GetSkeletalBoneData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetSkeletalBoneDataCompressed", ty:
+  // "::OVR::OpenVR::IVRInput__GetSkeletalBoneDataCompressed*", modifiers: "", def_value: None, comment: None }, CppParam { name: "DecompressSkeletalBoneData", ty:
+  // "::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "TriggerHapticVibrationAction", ty:
+  // "::OVR::OpenVR::IVRInput__TriggerHapticVibrationAction*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetActionOrigins", ty: "::OVR::OpenVR::IVRInput__GetActionOrigins*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "GetOriginLocalizedName", ty: "::OVR::OpenVR::IVRInput__GetOriginLocalizedName*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "GetOriginTrackedDeviceInfo", ty: "::OVR::OpenVR::IVRInput__GetOriginTrackedDeviceInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "ShowActionOrigins", ty: "::OVR::OpenVR::IVRInput__ShowActionOrigins*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ShowBindingsForActionSet", ty:
+  // "::OVR::OpenVR::IVRInput__ShowBindingsForActionSet*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRInput(::OVR::OpenVR::IVRInput__SetActionManifestPath* SetActionManifestPath, ::OVR::OpenVR::IVRInput__GetActionSetHandle* GetActionSetHandle,
                      ::OVR::OpenVR::IVRInput__GetActionHandle* GetActionHandle, ::OVR::OpenVR::IVRInput__GetInputSourceHandle* GetInputSourceHandle,
                      ::OVR::OpenVR::IVRInput__UpdateActionState* UpdateActionState, ::OVR::OpenVR::IVRInput__GetDigitalActionData* GetDigitalActionData,

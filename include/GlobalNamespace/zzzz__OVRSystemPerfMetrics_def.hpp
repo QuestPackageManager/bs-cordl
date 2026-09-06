@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSystemPerfMetrics.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -341,13 +341,13 @@ protected:
   constexpr OVRSystemPerfMetrics_PerfMetrics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_PerfMetrics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_PerfMetrics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSystemPerfMetrics_PerfMetrics(OVRSystemPerfMetrics_PerfMetrics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_PerfMetrics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_PerfMetrics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSystemPerfMetrics_PerfMetrics(OVRSystemPerfMetrics_PerfMetrics const&) = delete;
+  OVRSystemPerfMetrics_PerfMetrics(OVRSystemPerfMetrics_PerfMetricsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7997 };
@@ -568,13 +568,13 @@ protected:
   constexpr OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer(OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer(OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer const&) = delete;
+  OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer(OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7998 };
@@ -617,13 +617,13 @@ protected:
   constexpr OVRSystemPerfMetrics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSystemPerfMetrics(OVRSystemPerfMetrics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSystemPerfMetrics(OVRSystemPerfMetrics const&) = delete;
+  OVRSystemPerfMetrics(OVRSystemPerfMetricsconst&) = delete;
 
   /// @brief Field MaxBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t MaxBufferLength{ static_cast<int32_t>(0x10000) };

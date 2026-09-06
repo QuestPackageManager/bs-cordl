@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ParallelSortExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ParallelSortExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParallelSortExtensions)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobFor;
@@ -56,6 +58,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBa
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketCountJob, "UnityEngine.Rendering", "ParallelSortExtensions/RadixSortBucketCountJob");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketSortJob, "UnityEngine.Rendering", "ParallelSortExtensions/RadixSortBucketSortJob");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob, "UnityEngine.Rendering", "ParallelSortExtensions/RadixSortPrefixSumJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -76,9 +79,9 @@ public:
   // @brief default ctor
   constexpr ParallelSortExtensions_RadixSortBucketCountJob();
 
-  // Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "batchSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "buckets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "batchSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "buckets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr ParallelSortExtensions_RadixSortBucketCountJob(int32_t radix, int32_t jobsCount, int32_t batchSize, ::Unity::Collections::NativeArray_1<int32_t> array,
                                                            ::Unity::Collections::NativeArray_1<int32_t> buckets) noexcept;
 
@@ -88,18 +91,26 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
+  /// [ReadOnly]
   /// @brief Field radix, offset: 0x0, size: 0x4, def value: None
   int32_t radix;
 
+  /// [ReadOnly]
   /// @brief Field jobsCount, offset: 0x4, size: 0x4, def value: None
   int32_t jobsCount;
 
+  /// [ReadOnly]
   /// @brief Field batchSize, offset: 0x8, size: 0x4, def value: None
   int32_t batchSize;
 
+  /// [ReadOnly]
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field array, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> array;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field buckets, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> buckets;
 
@@ -119,6 +130,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ParallelSortExtensions_RadixSor
 static_assert(sizeof(::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketCountJob) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -145,10 +157,11 @@ public:
   // @brief default ctor
   constexpr ParallelSortExtensions_RadixSortBatchPrefixSumJob();
 
-  // Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "counter", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "indicesSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "buckets", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "counter", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "indicesSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "buckets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "indices", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr ParallelSortExtensions_RadixSortBatchPrefixSumJob(int32_t radix, int32_t jobsCount, ::Unity::Collections::NativeArray_1<int32_t> array,
                                                               ::Unity::Collections::NativeArray_1<int32_t> counter, ::Unity::Collections::NativeArray_1<int32_t> indicesSum,
                                                               ::Unity::Collections::NativeArray_1<int32_t> buckets, ::Unity::Collections::NativeArray_1<int32_t> indices) noexcept;
@@ -159,24 +172,37 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
+  /// [ReadOnly]
   /// @brief Field radix, offset: 0x0, size: 0x4, def value: None
   int32_t radix;
 
+  /// [ReadOnly]
   /// @brief Field jobsCount, offset: 0x4, size: 0x4, def value: None
   int32_t jobsCount;
 
+  /// [ReadOnly]
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field array, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> array;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field counter, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> counter;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indicesSum, offset: 0x28, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> indicesSum;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field buckets, offset: 0x38, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> buckets;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indices, offset: 0x48, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> indices;
 
@@ -200,6 +226,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ParallelSortExtensions_RadixSor
 static_assert(sizeof(::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob) == 0x58, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -220,8 +247,8 @@ public:
   // @brief default ctor
   constexpr ParallelSortExtensions_RadixSortPrefixSumJob();
 
-  // Ctor Parameters [CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indicesSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indicesSum", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr ParallelSortExtensions_RadixSortPrefixSumJob(int32_t jobsCount, ::Unity::Collections::NativeArray_1<int32_t> indicesSum, ::Unity::Collections::NativeArray_1<int32_t> indices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -230,12 +257,17 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [ReadOnly]
   /// @brief Field jobsCount, offset: 0x0, size: 0x4, def value: None
   int32_t jobsCount;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indicesSum, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> indicesSum;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indices, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> indices;
 
@@ -251,6 +283,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ParallelSortExtensions_RadixSor
 static_assert(sizeof(::UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -271,9 +304,10 @@ public:
   // @brief default ctor
   constexpr ParallelSortExtensions_RadixSortBucketSortJob();
 
-  // Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "batchSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "arraySorted", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchSize", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "indices", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "arraySorted", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ParallelSortExtensions_RadixSortBucketSortJob(int32_t radix, int32_t batchSize, ::Unity::Collections::NativeArray_1<int32_t> array, ::Unity::Collections::NativeArray_1<int32_t> indices,
                                                           ::Unity::Collections::NativeArray_1<int32_t> arraySorted) noexcept;
 
@@ -283,18 +317,27 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [ReadOnly]
   /// @brief Field radix, offset: 0x0, size: 0x4, def value: None
   int32_t radix;
 
+  /// [ReadOnly]
   /// @brief Field batchSize, offset: 0x4, size: 0x4, def value: None
   int32_t batchSize;
 
+  /// [ReadOnly]
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field array, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> array;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indices, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> indices;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field arraySorted, offset: 0x28, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> arraySorted;
 
@@ -314,6 +357,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ParallelSortExtensions_RadixSor
 static_assert(sizeof(::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketSortJob) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -329,9 +373,11 @@ public:
 
   using RadixSortPrefixSumJob = ::UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob;
 
+  /// [Extension]
   /// @brief Method ParallelSort, addr 0x6838da8, size 0x4e0, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ParallelSort(::Unity::Collections::NativeArray_1<int32_t> array);
 
+  /// [CompilerGenerated]
   /// @brief Method <ParallelSort>g__Swap|2_0, addr 0x6839288, size 0x1c, virtual false, abstract: false, final false
   static inline void _ParallelSort_g__Swap_2_0(::by_ref<::Unity::Collections::NativeArray_1<int32_t>> a, ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> b);
 
@@ -341,13 +387,13 @@ protected:
   constexpr ParallelSortExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParallelSortExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParallelSortExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParallelSortExtensions(ParallelSortExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParallelSortExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParallelSortExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParallelSortExtensions(ParallelSortExtensions const&) = delete;
+  ParallelSortExtensions(ParallelSortExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17804 };

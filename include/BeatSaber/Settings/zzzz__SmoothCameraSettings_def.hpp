@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\SmoothCameraSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/SmoothCameraSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // @brief default ctor
   constexpr SmoothCameraSettings();
 
-  // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "smoothPosition", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "smoothRotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "thirdPersonEnabled", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "thirdPersonPosition", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }, CppParam { name: "thirdPersonRotation", ty:
-  // "::Unity::Mathematics::float3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "smoothPosition", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "smoothRotation", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "thirdPersonEnabled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "thirdPersonPosition", ty: "::Unity::Mathematics::float3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "thirdPersonRotation", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }]
   constexpr SmoothCameraSettings(bool enabled, float_t fov, float_t smoothPosition, float_t smoothRotation, bool thirdPersonEnabled, ::Unity::Mathematics::float3 thirdPersonPosition,
                                  ::Unity::Mathematics::float3 thirdPersonRotation) noexcept;
 

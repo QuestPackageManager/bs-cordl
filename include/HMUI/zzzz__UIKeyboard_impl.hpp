@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\UIKeyboard.hpp"
+// IWYU pragma private; include "HMUI/UIKeyboard.hpp"
 #include "HMUI/zzzz__CapsLockState_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

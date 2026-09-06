@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\NoticeReference.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/NoticeReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,13 +103,13 @@ protected:
   constexpr NoticeReference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoticeReference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoticeReference", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoticeReference(NoticeReference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoticeReference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoticeReference", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoticeReference(NoticeReference const&) = delete;
+  NoticeReference(NoticeReferenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 371 };

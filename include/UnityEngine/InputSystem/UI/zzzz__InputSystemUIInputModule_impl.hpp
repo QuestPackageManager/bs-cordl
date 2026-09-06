@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\InputSystemUIInputModule.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/InputSystemUIInputModule.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__NavigationModel_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__PointerModel_impl.hpp"
@@ -29,14 +29,15 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "enabledByInputModule", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enabledByInputModule", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::UI::InputSystemUIInputModule_InputActionReferenceState::InputSystemUIInputModule_InputActionReferenceState(int32_t refCount, bool enabledByInputModule) noexcept {
   this->refCount = refCount;
   this->enabledByInputModule = enabledByInputModule;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::InputSystemUIInputModule_InputActionReferenceState::InputSystemUIInputModule_InputActionReferenceState() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::UI::InputSystemUIInputModule_CursorLockBehavior::InputSystemUIInputModule_CursorLockBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }

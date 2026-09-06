@@ -1,8 +1,11 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\ReflectedPropertyBagProvider.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/ReflectedPropertyBagProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
@@ -90,6 +93,7 @@ MARK_REF_T(::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::Internal::ReflectedPropertyBagProvider*, "Unity.Properties.Internal", "ReflectedPropertyBagProvider");
 DEFINE_IL2CPP_CLASS(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*, "Unity.Properties.Internal", "ReflectedPropertyBagProvider/<GetPropertyMembers>d__22");
 DEFINE_IL2CPP_CLASS(::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*, "Unity.Properties.Internal", "ReflectedPropertyBagProvider/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Unity::Properties::Internal {
 // Is value type: false
@@ -135,13 +139,13 @@ protected:
   constexpr ReflectedPropertyBagProvider___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectedPropertyBagProvider___c(ReflectedPropertyBagProvider___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedPropertyBagProvider___c(ReflectedPropertyBagProvider___c const&) = delete;
+  ReflectedPropertyBagProvider___c(ReflectedPropertyBagProvider___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19763 };
@@ -152,6 +156,7 @@ public:
 static_assert(sizeof(::Unity::Properties::Internal::ReflectedPropertyBagProvider___c) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Properties::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Unity::Properties::Internal {
 // Is value type: false
@@ -224,23 +229,30 @@ public:
   /// @brief Method MoveNext, addr 0x6bb53f0, size 0x728, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>.GetEnumerator, addr 0x6bb5c14, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>* System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>.get_Current, addr 0x6bb5bcc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::MemberInfo* System_Collections_Generic_IEnumerator_System_Reflection_MemberInfo__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6bb5cac, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6bb5bd4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6bb5c0c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6bb53d4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -331,6 +343,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6bb5b18, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6bb5064, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -355,13 +368,13 @@ protected:
   constexpr ReflectedPropertyBagProvider__GetPropertyMembers_d__22();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider__GetPropertyMembers_d__22", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider__GetPropertyMembers_d__22", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectedPropertyBagProvider__GetPropertyMembers_d__22(ReflectedPropertyBagProvider__GetPropertyMembers_d__22&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider__GetPropertyMembers_d__22", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider__GetPropertyMembers_d__22", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedPropertyBagProvider__GetPropertyMembers_d__22(ReflectedPropertyBagProvider__GetPropertyMembers_d__22 const&) = delete;
+  ReflectedPropertyBagProvider__GetPropertyMembers_d__22(ReflectedPropertyBagProvider__GetPropertyMembers_d__22const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19764 };
@@ -442,7 +455,7 @@ static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvid
 static_assert(sizeof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22) == 0x60, "Size mismatch!");
 
 } // namespace Unity::Properties::Internal
-// Dependencies System.Object
+// Dependencies System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.IList`1<T>, System.Collections.Generic.ISet`1<T>, System.Object
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.ReflectedPropertyBagProvider
@@ -490,27 +503,39 @@ public:
   /// @brief Field m_CreateSetPropertyBagMethod, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CreateSetPropertyBagMethod, put = __cordl_internal_set_m_CreateSetPropertyBagMethod)) ::System::Reflection::MethodInfo* m_CreateSetPropertyBagMethod;
 
+  /// [Preserve]
   /// @brief Method CreateArrayPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TElement> inline ::Unity::Properties::IPropertyBag_1<::ArrayW<TElement>>* CreateArrayPropertyBag();
 
+  /// [Preserve]
   /// @brief Method CreateDictionaryPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> inline ::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>* CreateDictionaryPropertyBag();
 
+  /// [Preserve]
   /// @brief Method CreateHashSetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TElement> inline ::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::HashSet_1<TElement>*>* CreateHashSetPropertyBag();
 
+  /// [Preserve]
   /// @brief Method CreateIndexedCollectionPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TList, typename TElement> inline ::Unity::Properties::IPropertyBag_1<TList>* CreateIndexedCollectionPropertyBag();
+  template <typename TList, typename TElement>
+    requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
+  inline ::Unity::Properties::IPropertyBag_1<TList>* CreateIndexedCollectionPropertyBag();
 
+  /// [Preserve]
   /// @brief Method CreateKeyValueCollectionPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDictionary, typename TKey, typename TValue> inline ::Unity::Properties::IPropertyBag_1<TDictionary>* CreateKeyValueCollectionPropertyBag();
+  template <typename TDictionary, typename TKey, typename TValue>
+    requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
+  inline ::Unity::Properties::IPropertyBag_1<TDictionary>* CreateKeyValueCollectionPropertyBag();
 
+  /// [Preserve]
   /// @brief Method CreateKeyValuePairPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> inline ::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* CreateKeyValuePairPropertyBag();
 
+  /// [Preserve]
   /// @brief Method CreateListPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TElement> inline ::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::List_1<TElement>*>* CreateListPropertyBag();
 
+  /// [Preserve]
   /// @brief Method CreateProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer, typename TValue> inline void CreateProperty(::Unity::Properties::IMemberInfo* member, ::Unity::Properties::Internal::ReflectedPropertyBag_1<TContainer>* propertyBag);
 
@@ -520,9 +545,13 @@ public:
   /// @brief Method CreatePropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer> inline ::Unity::Properties::IPropertyBag_1<TContainer>* CreatePropertyBag();
 
+  /// [Preserve]
   /// @brief Method CreateSetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSet, typename TValue> inline ::Unity::Properties::IPropertyBag_1<TSet>* CreateSetPropertyBag();
+  template <typename TSet, typename TValue>
+    requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TValue>*>)
+  inline ::Unity::Properties::IPropertyBag_1<TSet>* CreateSetPropertyBag();
 
+  /// [IteratorStateMachine(typeof(Unity.Properties.Internal.ReflectedPropertyBagProvider::<GetPropertyMembers>d__22))]
   /// @brief Method GetPropertyMembers, addr 0x6bb4ff4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* GetPropertyMembers(::System::Type* type);
 
@@ -603,13 +632,13 @@ protected:
   constexpr ReflectedPropertyBagProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectedPropertyBagProvider(ReflectedPropertyBagProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedPropertyBagProvider(ReflectedPropertyBagProvider const&) = delete;
+  ReflectedPropertyBagProvider(ReflectedPropertyBagProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19765 };

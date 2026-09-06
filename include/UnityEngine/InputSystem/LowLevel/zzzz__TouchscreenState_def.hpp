@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\TouchscreenState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TouchscreenState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::TouchscreenState, "UnityEngine.InputSystem.LowLevel", "TouchscreenState");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "TouchscreenState/<primaryTouchData>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "TouchscreenState/<touchData>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -50,7 +52,7 @@ public:
   // @brief default ctor
   constexpr TouchscreenState__primaryTouchData_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TouchscreenState__primaryTouchData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -74,6 +76,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::TouchscreenState__p
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -86,7 +90,7 @@ public:
   // @brief default ctor
   constexpr TouchscreenState__touchData_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TouchscreenState__touchData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -169,8 +173,8 @@ public:
   // @brief default ctor
   constexpr TouchscreenState();
 
-  // Ctor Parameters [CppParam { name: "primaryTouchData", ty: "::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer", modifiers: "", def_value: None }, CppParam {
-  // name: "touchData", ty: "::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "primaryTouchData", ty: "::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "touchData", ty: "::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr TouchscreenState(::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer primaryTouchData,
                              ::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer touchData) noexcept;
 
@@ -181,6 +185,15 @@ private:
     struct {
       /// @brief Padding field 0x0
       uint8_t ___primaryTouchData_padding[0x0];
+      /// [FixedBuffer(typeof(System.Byte), 56)]
+      /// [InputControl(name = "primaryTouch", displayName = "Primary Touch", layout = "Touch", synthetic = true)]
+      /// [InputControl(name = "primaryTouch/tap", usage = "PrimaryAction")]
+      /// [InputControl(name = "position", useStateFrom = "primaryTouch/position")]
+      /// [InputControl(name = "delta", useStateFrom = "primaryTouch/delta", layout = "Delta")]
+      /// [InputControl(name = "pressure", useStateFrom = "primaryTouch/pressure")]
+      /// [InputControl(name = "radius", useStateFrom = "primaryTouch/radius")]
+      /// [InputControl(name = "press", useStateFrom = "primaryTouch/phase", layout = "TouchPress", synthetic = true, usages = new[] {  })]
+      /// [InputControl(name = "displayIndex", useStateFrom = "primaryTouch/displayIndex", format = "BYTE")]
       /// @brief Field primaryTouchData, offset: 0x0, size: 0x38, def value: None
       ::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer ___primaryTouchData;
     };
@@ -188,6 +201,15 @@ private:
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___primaryTouchData_padding_forAlignment[0x0];
+      /// [FixedBuffer(typeof(System.Byte), 56)]
+      /// [InputControl(name = "primaryTouch", displayName = "Primary Touch", layout = "Touch", synthetic = true)]
+      /// [InputControl(name = "primaryTouch/tap", usage = "PrimaryAction")]
+      /// [InputControl(name = "position", useStateFrom = "primaryTouch/position")]
+      /// [InputControl(name = "delta", useStateFrom = "primaryTouch/delta", layout = "Delta")]
+      /// [InputControl(name = "pressure", useStateFrom = "primaryTouch/pressure")]
+      /// [InputControl(name = "radius", useStateFrom = "primaryTouch/radius")]
+      /// [InputControl(name = "press", useStateFrom = "primaryTouch/phase", layout = "TouchPress", synthetic = true, usages = new[] {  })]
+      /// [InputControl(name = "displayIndex", useStateFrom = "primaryTouch/displayIndex", format = "BYTE")]
       /// @brief Field primaryTouchData, offset: 0x0, size: 0x38, def value: None
       ::UnityEngine::InputSystem::LowLevel::TouchscreenState__primaryTouchData_e__FixedBuffer ___primaryTouchData_forAlignment;
     };
@@ -195,6 +217,8 @@ private:
     struct {
       /// @brief Padding field 0x38
       uint8_t ___touchData_padding[0x38];
+      /// [FixedBuffer(typeof(System.Byte), 560)]
+      /// [InputControl(layout = "Touch", name = "touch", displayName = "Touch", arraySize = 10)]
       /// @brief Field touchData, offset: 0x38, size: 0x230, def value: None
       ::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer ___touchData;
     };
@@ -202,6 +226,8 @@ private:
     struct {
       /// @brief Padding field 0x38 for alignment
       uint8_t ___touchData_padding_forAlignment[0x38];
+      /// [FixedBuffer(typeof(System.Byte), 560)]
+      /// [InputControl(layout = "Touch", name = "touch", displayName = "Touch", arraySize = 10)]
       /// @brief Field touchData, offset: 0x38, size: 0x230, def value: None
       ::UnityEngine::InputSystem::LowLevel::TouchscreenState__touchData_e__FixedBuffer ___touchData_forAlignment;
     };

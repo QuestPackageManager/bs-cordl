@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FindMaterialDrawInstancesJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FindMaterialDrawInstancesJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DrawInstance_impl.hpp"
@@ -33,9 +33,9 @@ constexpr UnityEngine::Rendering::FindMaterialDrawInstancesJob::operator ::Unity
 constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::FindMaterialDrawInstancesJob::i___Unity__Jobs__IJobParallelForBatch() {
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "materialsSorted", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawInstances", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: Some("{}") }, CppParam { name: "outDrawInstanceIndicesWriter", ty:
-// "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "materialsSorted", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawInstances",
+// ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "outDrawInstanceIndicesWriter", ty:
+// "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::FindMaterialDrawInstancesJob::FindMaterialDrawInstancesJob(::Unity::Collections::NativeArray_1<uint32_t> materialsSorted,
                                                                                                ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances,
                                                                                                ::Unity::Collections::NativeList_1_ParallelWriter<int32_t> outDrawInstanceIndicesWriter) noexcept {

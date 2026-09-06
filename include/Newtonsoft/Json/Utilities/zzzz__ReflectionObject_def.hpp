@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ReflectionObject.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ReflectionObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ReflectionObject*, "Newtonsof
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_0*, "Newtonsoft.Json.Utilities", "ReflectionObject/<>c__DisplayClass11_0");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_1*, "Newtonsoft.Json.Utilities", "ReflectionObject/<>c__DisplayClass11_1");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2*, "Newtonsoft.Json.Utilities", "ReflectionObject/<>c__DisplayClass11_2");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -75,7 +76,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_0* New_ctor();
 
   /// @brief Method <Create>b__0, addr 0x5d2f308, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Object* _Create_b__0(::ArrayW<::System::Object*> args);
+  inline ::System::Object* _Create_b__0(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args);
 
   constexpr ::System::Func_1<::System::Object*>* const& __cordl_internal_get_ctor() const;
 
@@ -92,17 +93,18 @@ protected:
   constexpr ReflectionObject___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionObject___c__DisplayClass11_0(ReflectionObject___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionObject___c__DisplayClass11_0(ReflectionObject___c__DisplayClass11_0 const&) = delete;
+  ReflectionObject___c__DisplayClass11_0(ReflectionObject___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13449 };
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field ctor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<::System::Object*>* ___ctor;
 
@@ -114,6 +116,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::ReflectionObject___c__Disp
 static_assert(sizeof(::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -144,17 +147,18 @@ protected:
   constexpr ReflectionObject___c__DisplayClass11_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionObject___c__DisplayClass11_1(ReflectionObject___c__DisplayClass11_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionObject___c__DisplayClass11_1(ReflectionObject___c__DisplayClass11_1 const&) = delete;
+  ReflectionObject___c__DisplayClass11_1(ReflectionObject___c__DisplayClass11_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13450 };
 
+  /// [Nullable(new[] { 0, 1, 2 })]
   /// @brief Field call, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* ___call;
 
@@ -166,6 +170,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::ReflectionObject___c__Disp
 static_assert(sizeof(::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_1) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -179,7 +184,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2* New_ctor();
 
   /// @brief Method <Create>b__2, addr 0x5d2f3ec, size 0xbc, virtual false, abstract: false, final false
-  inline void _Create_b__2(::System::Object* target, ::System::Object* arg);
+  inline void _Create_b__2(::System::Object* target, /* [Nullable(2)] */ ::System::Object* arg);
 
   constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const& __cordl_internal_get_call() const;
 
@@ -196,17 +201,18 @@ protected:
   constexpr ReflectionObject___c__DisplayClass11_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionObject___c__DisplayClass11_2(ReflectionObject___c__DisplayClass11_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionObject___c__DisplayClass11_2(ReflectionObject___c__DisplayClass11_2 const&) = delete;
+  ReflectionObject___c__DisplayClass11_2(ReflectionObject___c__DisplayClass11_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13451 };
 
+  /// [Nullable(new[] { 0, 1, 2 })]
   /// @brief Field call, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* ___call;
 
@@ -218,6 +224,8 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::ReflectionObject___c__Disp
 static_assert(sizeof(::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -231,6 +239,7 @@ public:
 
   using __c__DisplayClass11_2 = ::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2;
 
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_Creator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* Creator;
 
   __declspec(property(get = get_Members)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* Members;
@@ -245,10 +254,11 @@ public:
       put = __cordl_internal_set__Members_k__BackingField)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* _Members_k__BackingField;
 
   /// @brief Method Create, addr 0x5d2e49c, size 0x820, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, ::System::Reflection::MethodBase* creator, ::ArrayW<::StringW> memberNames);
+  static inline ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, /* [Nullable(2)] */ ::System::Reflection::MethodBase* creator,
+                                                                        /* [ParamArray] */ ::ArrayW<::StringW> memberNames);
 
   /// @brief Method Create, addr 0x5d2e490, size 0xc, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, ::ArrayW<::StringW> memberNames);
+  static inline ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, /* [ParamArray] */ ::ArrayW<::StringW> memberNames);
 
   /// @brief Method GetType, addr 0x5d2e3d0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Type* GetType(::StringW member);
@@ -256,10 +266,10 @@ public:
   /// @brief Method GetValue, addr 0x5d2e210, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* target, ::StringW member);
 
-  static inline ::Newtonsoft::Json::Utilities::ReflectionObject* New_ctor(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator);
+  static inline ::Newtonsoft::Json::Utilities::ReflectionObject* New_ctor(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator);
 
   /// @brief Method SetValue, addr 0x5d2e2e8, size 0xe8, virtual false, abstract: false, final false
-  inline void SetValue(::System::Object* target, ::StringW member, ::System::Object* value);
+  inline void SetValue(::System::Object* target, ::StringW member, /* [Nullable(2)] */ ::System::Object* value);
 
   constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* const& __cordl_internal_get__Creator_k__BackingField() const;
 
@@ -274,11 +284,13 @@ public:
   constexpr void __cordl_internal_set__Members_k__BackingField(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* value);
 
   /// @brief Method .ctor, addr 0x5d2e16c, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator);
+  inline void _ctor(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Creator, addr 0x5d2e15c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_Creator();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Members, addr 0x5d2e164, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* get_Members();
 
@@ -288,20 +300,23 @@ protected:
   constexpr ReflectionObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionObject(ReflectionObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionObject(ReflectionObject const&) = delete;
+  ReflectionObject(ReflectionObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13452 };
 
+  /// [Nullable(new[] { 2, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field <Creator>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ____Creator_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Members>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* ____Members_k__BackingField;
 

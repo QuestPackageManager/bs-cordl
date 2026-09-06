@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EasingFunction.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EasingFunction.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EasingMode_impl.hpp"
@@ -179,7 +179,7 @@ constexpr UnityEngine::UIElements::EasingFunction::operator ::System::IEquatable
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>* UnityEngine::UIElements::EasingFunction::i___System__IEquatable_1___UnityEngine__UIElements__EasingFunction_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UIElements::EasingMode", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UIElements::EasingMode", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::EasingFunction::EasingFunction(::UnityEngine::UIElements::EasingMode m_Mode) noexcept {
   this->m_Mode = m_Mode;
 }

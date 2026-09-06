@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialBeatmapObjectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialBeatmapObjectManager.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialBeatmapObjectManager_def.hpp"
@@ -258,8 +258,8 @@ inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Obstac
 }
 inline void GlobalNamespace::TutorialBeatmapObjectManager::_ctor(::GlobalNamespace::TutorialBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IRandom* random,
                                                                  ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
-                                                                 ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool, ::GlobalNamespace::BombNoteController_Pool* bombNotePool,
-                                                                 ::GlobalNamespace::ObstacleController_Pool* obstaclePool) {
+                                                                 /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool,
+                                                                 ::GlobalNamespace::BombNoteController_Pool* bombNotePool, ::GlobalNamespace::ObstacleController_Pool* obstaclePool) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialBeatmapObjectManager*>(),
                                                            { ".ctor",
@@ -269,18 +269,20 @@ inline void GlobalNamespace::TutorialBeatmapObjectManager::_ctor(::GlobalNamespa
                                                                ::i2c::type_of<::GlobalNamespace::BombNoteController_Pool*>(), ::i2c::type_of<::GlobalNamespace::ObstacleController_Pool*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initData, random, variableMovementDataProvider, tutorialNotePool, bombNotePool, obstaclePool);
 }
-inline void GlobalNamespace::TutorialBeatmapObjectManager::ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
+inline void GlobalNamespace::TutorialBeatmapObjectManager::ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData,
+                                                                               /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::TutorialBeatmapObjectManager*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obstacleData, obstacleSpawnData);
 }
-inline void GlobalNamespace::TutorialBeatmapObjectManager::ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
+inline void GlobalNamespace::TutorialBeatmapObjectManager::ProcessNoteData(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
                                                                            bool forceIsFirstNoteBehaviour) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::TutorialBeatmapObjectManager*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNoteBehaviour);
 }
-inline void GlobalNamespace::TutorialBeatmapObjectManager::ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
+inline void GlobalNamespace::TutorialBeatmapObjectManager::ProcessSliderData(::GlobalNamespace::SliderData* sliderData,
+                                                                             /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::TutorialBeatmapObjectManager*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderData, sliderSpawnData);
@@ -302,7 +304,8 @@ inline void GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal(::Glo
 }
 inline ::GlobalNamespace::TutorialBeatmapObjectManager*
 GlobalNamespace::TutorialBeatmapObjectManager::New_ctor(::GlobalNamespace::TutorialBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IRandom* random,
-                                                        ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider, ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool,
+                                                        ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
+                                                        /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool,
                                                         ::GlobalNamespace::BombNoteController_Pool* bombNotePool, ::GlobalNamespace::ObstacleController_Pool* obstaclePool) {
   return THROW_UNLESS(::i2c::no_logger{},
                       ::i2c::new_ctor<::GlobalNamespace::TutorialBeatmapObjectManager*>(initData, random, variableMovementDataProvider, tutorialNotePool, bombNotePool, obstaclePool));

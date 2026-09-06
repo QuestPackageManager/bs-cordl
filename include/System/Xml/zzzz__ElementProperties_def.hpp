@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\ElementProperties.hpp"
+// IWYU pragma private; include "System/Xml/ElementProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   // @brief default ctor
   constexpr ElementProperties();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ElementProperties(uint32_t value__) noexcept;
 
   /// @brief Field BLOCK_WS value: U32(64)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexRunner.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexRunner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,16 +112,16 @@ public:
   /// @brief Method EnsureStorage, addr 0x638b310, size 0x48, virtual false, abstract: false, final false
   inline void EnsureStorage();
 
-  /// @brief Method FindFirstChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FindFirstChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool FindFirstChar();
 
-  /// @brief Method Go, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Go, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Go();
 
   /// @brief Method InitMatch, addr 0x6395130, size 0x1ec, virtual false, abstract: false, final false
   inline void InitMatch();
 
-  /// @brief Method InitTrackCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InitTrackCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InitTrackCount();
 
   /// @brief Method IsBoundary, addr 0x638d4e8, size 0x11c, virtual false, abstract: false, final false
@@ -277,13 +277,13 @@ protected:
   constexpr RegexRunner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexRunner(RegexRunner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexRunner(RegexRunner const&) = delete;
+  RegexRunner(RegexRunnerconst&) = delete;
 
   /// @brief Field TimeoutCheckFrequency offset 0xffffffff size 0x4
   static constexpr int32_t TimeoutCheckFrequency{ static_cast<int32_t>(0x3e8) };

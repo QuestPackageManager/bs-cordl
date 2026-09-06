@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderMovement.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderMovement.hpp"
 #include "GlobalNamespace/zzzz__SliderSpawnData_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -403,7 +403,7 @@ inline float_t GlobalNamespace::SliderMovement::get_timeSinceHeadNoteJump() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMovement*>(), { "get_timeSinceHeadNoteJump", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::SliderMovement::Init(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
+inline void GlobalNamespace::SliderMovement::Init(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMovement*>(),
                                                            { "Init", {}, { ::i2c::type_of<::GlobalNamespace::SliderData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData>>() } })));

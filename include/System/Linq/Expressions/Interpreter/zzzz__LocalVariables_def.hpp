@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LocalVariables.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LocalVariables.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue> class HybridReferenceDictionary_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey>)
+class HybridReferenceDictionary_2;
 }
 namespace System::Linq::Expressions::Interpreter {
 class InstructionList;
@@ -107,13 +109,13 @@ protected:
   constexpr LocalVariables_VariableScope();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalVariables_VariableScope", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalVariables_VariableScope", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalVariables_VariableScope(LocalVariables_VariableScope&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalVariables_VariableScope", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalVariables_VariableScope", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalVariables_VariableScope(LocalVariables_VariableScope const&) = delete;
+  LocalVariables_VariableScope(LocalVariables_VariableScopeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16478 };
@@ -242,13 +244,13 @@ protected:
   constexpr LocalVariables();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalVariables", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalVariables", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalVariables(LocalVariables&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalVariables", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalVariables", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalVariables(LocalVariables const&) = delete;
+  LocalVariables(LocalVariablesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16479 };

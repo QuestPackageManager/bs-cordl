@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Int64Enum.hpp"
+// IWYU pragma private; include "System/Int64Enum.hpp"
 #include "System/zzzz__Int64Enum_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Int64Enum::Int64Enum(int64_t value__) noexcept {
   this->value__ = value__;
 }

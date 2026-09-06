@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BatteryStatus.hpp"
+// IWYU pragma private; include "UnityEngine/BatteryStatus.hpp"
 #include "UnityEngine/zzzz__BatteryStatus_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::BatteryStatus::BatteryStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }

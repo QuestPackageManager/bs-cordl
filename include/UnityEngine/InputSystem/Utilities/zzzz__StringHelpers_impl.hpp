@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\StringHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/StringHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__StringHelpers_def.hpp"
@@ -274,6 +274,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::Utilities::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9* UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9*>(__1__state));
 }
@@ -565,6 +566,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::Utilities::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8* UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8*>(__1__state));
 }
@@ -944,7 +946,7 @@ inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UnityEngine::In
                                                                                          { "Split", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Func_2<char16_t, bool>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::StringW>*>(nullptr, ___internal_method, str, predicate);
 }
-template <typename TValue> inline ::StringW UnityEngine::InputSystem::Utilities::StringHelpers::Join(::StringW separator, ::ArrayW<TValue> values) {
+template <typename TValue> inline ::StringW UnityEngine::InputSystem::Utilities::StringHelpers::Join(::StringW separator, /* [ParamArray] */ ::ArrayW<TValue> values) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::StringHelpers*>(),
                                                            { "Join", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<TValue>>() } })));

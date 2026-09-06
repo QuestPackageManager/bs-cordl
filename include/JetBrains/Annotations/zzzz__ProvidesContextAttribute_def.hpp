@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\ProvidesContextAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/ProvidesContextAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ProvidesContextAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::ProvidesContextAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::ProvidesContextAttribute*, "JetBrains.Annotations", "ProvidesContextAttribute");
+// [AttributeUsage((System.AttributeTargets)19916)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr ProvidesContextAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProvidesContextAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProvidesContextAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProvidesContextAttribute(ProvidesContextAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProvidesContextAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProvidesContextAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProvidesContextAttribute(ProvidesContextAttribute const&) = delete;
+  ProvidesContextAttribute(ProvidesContextAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22557 };

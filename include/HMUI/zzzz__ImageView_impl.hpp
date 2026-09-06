@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ImageView.hpp"
+// IWYU pragma private; include "HMUI/ImageView.hpp"
 #include "HMUI/zzzz__ImageViewBase_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -17,7 +17,7 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::ImageView_GradientDirection::ImageView_GradientDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }

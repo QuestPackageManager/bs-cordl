@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\ContentStatus.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/ContentStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ContentStatus;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ResourceManagement::Profiling::ContentStatus);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::Profiling::ContentStatus, "UnityEngine.ResourceManagement.Profiling", "ContentStatus");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ResourceManagement::Profiling {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr ContentStatus();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ContentStatus(int32_t value__) noexcept;
 
   /// @brief Field Active value: I32(256)

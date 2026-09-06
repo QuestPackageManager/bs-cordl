@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelChecksums.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelChecksums.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelChecksums_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelChecksums_def.hpp"
@@ -47,9 +47,9 @@ inline void GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums::_
                                                                                          { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "beatmapDifficulty", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapCharacteristic", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "beatmapAssetChecksum", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightshowAssetChecksum", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "beatmapDifficulty", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapCharacteristic", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapAssetChecksum", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "lightshowAssetChecksum", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums::BeatmapLevelChecksums_DifficultyBeatmapChecksums(::StringW beatmapDifficulty, ::StringW beatmapCharacteristic,
                                                                                                                                 ::StringW beatmapAssetChecksum,
                                                                                                                                 ::StringW lightshowAssetChecksum) noexcept {
@@ -320,10 +320,10 @@ inline void GlobalNamespace::BeatmapLevelChecksums::SetDifficultyBeatmapChecksum
                           { "SetDifficultyBeatmapChecksums", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, beatmapDifficulty, beatmapCharacteristic, beatmapAssetChecksum, lightshowAssetChecksum);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelChecksum", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "coverImageChecksum", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "songAudioClipChecksum", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "audioDataAssetChecksum", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "difficultyBeatmapsChecksums", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums>*",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "beatmapLevelChecksum", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "coverImageChecksum", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "songAudioClipChecksum", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "audioDataAssetChecksum", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "difficultyBeatmapsChecksums", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapLevelChecksums::BeatmapLevelChecksums(
     ::StringW beatmapLevelChecksum, ::StringW coverImageChecksum, ::StringW songAudioClipChecksum, ::StringW audioDataAssetChecksum,
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelChecksums_DifficultyBeatmapChecksums>* difficultyBeatmapsChecksums) noexcept {

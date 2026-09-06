@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MonoBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine/MonoBehaviour.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
@@ -755,7 +755,7 @@ inline ::UnityEngine::Coroutine* UnityEngine::MonoBehaviour::StartCoroutine(::St
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MonoBehaviour*>(), { "StartCoroutine", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Coroutine*>(this, ___internal_method, methodName);
 }
-inline ::UnityEngine::Coroutine* UnityEngine::MonoBehaviour::StartCoroutine(::StringW methodName, ::System::Object* value) {
+inline ::UnityEngine::Coroutine* UnityEngine::MonoBehaviour::StartCoroutine(::StringW methodName, /* [DefaultValue("null")] */ ::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MonoBehaviour*>(), { "StartCoroutine", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Coroutine*>(this, ___internal_method, methodName, value);
@@ -808,36 +808,36 @@ inline void UnityEngine::MonoBehaviour::print(::System::Object* message) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MonoBehaviour*>(), { "print", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void UnityEngine::MonoBehaviour::Internal_CancelInvokeAll(::UnityEngine::MonoBehaviour* self) {
+inline void UnityEngine::MonoBehaviour::Internal_CancelInvokeAll(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MonoBehaviour*>(), { "Internal_CancelInvokeAll", {}, { ::i2c::type_of<::UnityEngine::MonoBehaviour*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self);
 }
-inline bool UnityEngine::MonoBehaviour::Internal_IsInvokingAll(::UnityEngine::MonoBehaviour* self) {
+inline bool UnityEngine::MonoBehaviour::Internal_IsInvokingAll(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MonoBehaviour*>(), { "Internal_IsInvokingAll", {}, { ::i2c::type_of<::UnityEngine::MonoBehaviour*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, self);
 }
-inline void UnityEngine::MonoBehaviour::InvokeDelayed(::UnityEngine::MonoBehaviour* self, ::StringW methodName, float_t time, float_t repeatRate) {
+inline void UnityEngine::MonoBehaviour::InvokeDelayed(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self, ::StringW methodName, float_t time, float_t repeatRate) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::MonoBehaviour*>(),
                           { "InvokeDelayed", {}, { ::i2c::type_of<::UnityEngine::MonoBehaviour*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, methodName, time, repeatRate);
 }
-inline void UnityEngine::MonoBehaviour::CancelInvoke(::UnityEngine::MonoBehaviour* self, ::StringW methodName) {
+inline void UnityEngine::MonoBehaviour::CancelInvoke(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self, ::StringW methodName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::MonoBehaviour*>(), { "CancelInvoke", {}, { ::i2c::type_of<::UnityEngine::MonoBehaviour*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, methodName);
 }
-inline bool UnityEngine::MonoBehaviour::IsInvoking(::UnityEngine::MonoBehaviour* self, ::StringW methodName) {
+inline bool UnityEngine::MonoBehaviour::IsInvoking(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self, ::StringW methodName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::MonoBehaviour*>(), { "IsInvoking", {}, { ::i2c::type_of<::UnityEngine::MonoBehaviour*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, self, methodName);
 }
-inline bool UnityEngine::MonoBehaviour::IsObjectMonoBehaviour(::UnityEngine::Object* obj) {
+inline bool UnityEngine::MonoBehaviour::IsObjectMonoBehaviour(/* [NotNull] */ ::UnityEngine::Object* obj) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MonoBehaviour*>(), { "IsObjectMonoBehaviour", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, obj);

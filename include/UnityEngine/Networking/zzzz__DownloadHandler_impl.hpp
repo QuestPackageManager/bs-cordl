@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandler.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandler.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
@@ -565,6 +565,7 @@ inline uint8_t* UnityEngine::Networking::DownloadHandler::InternalGetByteArray_I
                                                            { "InternalGetByteArray_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint8_t*>(nullptr, ___internal_method, dh, length);
 }
+/// @brief [VisibleToOtherModules]
 inline ::UnityEngine::Networking::DownloadHandler* UnityEngine::Networking::DownloadHandler::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Networking::DownloadHandler*>());
 }

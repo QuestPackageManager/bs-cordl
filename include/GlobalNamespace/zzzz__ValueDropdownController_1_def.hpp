@@ -1,15 +1,18 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ValueDropdownController_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/ValueDropdownController_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueDropdownController_1)
 namespace GlobalNamespace {
-template <typename T> class ValueDropdownController_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
+class ValueDropdownController_1___c;
 }
 namespace HMUI {
 class DropdownWithTableView;
@@ -31,20 +34,26 @@ template <typename T1, typename T2> class Tuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T> class ValueDropdownController_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
+class ValueDropdownController_1;
 }
 namespace GlobalNamespace {
-template <typename T> class ValueDropdownController_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
+class ValueDropdownController_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ValueDropdownController_1);
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ValueDropdownController_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ValueDropdownController_1, "", "ValueDropdownController`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ValueDropdownController_1___c, "", "ValueDropdownController`1/<>c");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.IComparable, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
 // Is value type: false
 // CS Name: ValueDropdownController`1/<>c<T>
 class CORDL_TYPE ValueDropdownController_1___c : public ::System::Object {
@@ -78,13 +87,13 @@ protected:
   constexpr ValueDropdownController_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueDropdownController_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueDropdownController_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueDropdownController_1___c(ValueDropdownController_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueDropdownController_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueDropdownController_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueDropdownController_1___c(ValueDropdownController_1___c const&) = delete;
+  ValueDropdownController_1___c(ValueDropdownController_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6405 };
@@ -93,10 +102,11 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies UnityEngine.MonoBehaviour
+// Dependencies System.IComparable, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
 // Is value type: false
 // CS Name: ValueDropdownController`1<T>
 class CORDL_TYPE ValueDropdownController_1 : public ::UnityEngine::MonoBehaviour {
@@ -121,7 +131,7 @@ public:
   /// @brief Method GetIdxForValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetIdxForValue(T value);
 
-  /// @brief Method GetNamedValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* GetNamedValues();
 
   /// @brief Method GetSelectedItemValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -162,6 +172,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_2<int32_t, T>* value);
 
@@ -171,6 +182,7 @@ public:
   /// @brief Method get_namedValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* get_namedValues();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_2<int32_t, T>* value);
 
@@ -180,20 +192,22 @@ protected:
   constexpr ValueDropdownController_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueDropdownController_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueDropdownController_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueDropdownController_1(ValueDropdownController_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueDropdownController_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueDropdownController_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueDropdownController_1(ValueDropdownController_1 const&) = delete;
+  ValueDropdownController_1(ValueDropdownController_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6406 };
 
+  /// [SerializeField]
   /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<int32_t, T>* ___didSelectCellWithIdxEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRelationCollection_DataTableRelationCollection.hpp"
+// IWYU pragma private; include "System/Data/DataRelationCollection_DataTableRelationCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class DataRelationCollection_DataTableRelationCollection;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::DataRelationCollection_DataTableRelationCollection*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DataRelationCollection_DataTableRelationCollection*, "System.Data", "DataRelationCollection/DataTableRelationCollection");
+// [DefaultMember("Item")]
 // Dependencies System.Data.DataRelationCollection
 namespace GlobalNamespace {
 // Is value type: false
@@ -102,6 +103,7 @@ public:
   /// @brief Method .ctor, addr 0x6029214, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, bool fParentCollection);
 
+  /// [CompilerGenerated]
   /// @brief Method add_RelationPropertyChanged, addr 0x6029524, size 0xac, virtual false, abstract: false, final false
   inline void add_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
@@ -114,6 +116,7 @@ public:
   /// @brief Method get_List, addr 0x60292bc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_RelationPropertyChanged, addr 0x60295d0, size 0xac, virtual false, abstract: false, final false
   inline void remove_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
@@ -123,13 +126,13 @@ protected:
   constexpr DataRelationCollection_DataTableRelationCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataTableRelationCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataTableRelationCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataRelationCollection_DataTableRelationCollection(DataRelationCollection_DataTableRelationCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataTableRelationCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataTableRelationCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRelationCollection_DataTableRelationCollection(DataRelationCollection_DataTableRelationCollection const&) = delete;
+  DataRelationCollection_DataTableRelationCollection(DataRelationCollection_DataTableRelationCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13773 };
@@ -143,6 +146,7 @@ public:
   /// @brief Field _fParentCollection, offset: 0x48, size: 0x1, def value: None
   bool ____fParentCollection;
 
+  /// [CompilerGenerated]
   /// @brief Field RelationPropertyChanged, offset: 0x50, size: 0x8, def value: None
   ::System::ComponentModel::CollectionChangeEventHandler* ___RelationPropertyChanged;
 

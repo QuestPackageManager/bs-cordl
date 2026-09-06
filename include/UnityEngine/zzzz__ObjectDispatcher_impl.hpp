@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ObjectDispatcher.hpp"
+// IWYU pragma private; include "UnityEngine/ObjectDispatcher.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TransformDispatchData_impl.hpp"
 #include "UnityEngine/zzzz__TypeDispatchData_impl.hpp"
 #include "UnityEngine/zzzz__ObjectDispatcher_def.hpp"
@@ -19,7 +20,7 @@
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__TransformDispatchData_def.hpp"
 #include "UnityEngine/zzzz__TypeDispatchData_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ObjectDispatcher_TransformTrackingType::ObjectDispatcher_TransformTrackingType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -28,7 +29,7 @@ constexpr ::UnityEngine::ObjectDispatcher_TransformTrackingType::ObjectDispatche
 constexpr ::UnityEngine::ObjectDispatcher_TransformTrackingType UnityEngine::ObjectDispatcher_TransformTrackingType::GlobalTRS{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ObjectDispatcher_TransformTrackingType UnityEngine::ObjectDispatcher_TransformTrackingType::LocalTRS{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ObjectDispatcher_TransformTrackingType UnityEngine::ObjectDispatcher_TransformTrackingType::Hierarchy{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ObjectDispatcher_TypeTrackingFlags::ObjectDispatcher_TypeTrackingFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -680,13 +681,13 @@ inline ::UnityEngine::TransformDispatchData UnityEngine::ObjectDispatcher::GetTr
                             { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::UnityEngine::ObjectDispatcher_TransformTrackingType>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TransformDispatchData>(this, ___internal_method, type, trackingType, allocator);
 }
-inline void UnityEngine::ObjectDispatcher::EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask, ::ArrayW<::System::Type*> types) {
+inline void UnityEngine::ObjectDispatcher::EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask, /* [ParamArray] */ ::ArrayW<::System::Type*> types) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(),
                                               { "EnableTypeTracking", {}, { ::i2c::type_of<::UnityEngine::ObjectDispatcher_TypeTrackingFlags>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeTrackingMask, types);
 }
-inline void UnityEngine::ObjectDispatcher::EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType, ::ArrayW<::System::Type*> types) {
+inline void UnityEngine::ObjectDispatcher::EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType, /* [ParamArray] */ ::ArrayW<::System::Type*> types) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(),
@@ -694,6 +695,7 @@ inline void UnityEngine::ObjectDispatcher::EnableTransformTracking(::UnityEngine
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, trackingType, types);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 inline ::UnityEngine::TypeDispatchData UnityEngine::ObjectDispatcher::GetTypeChangesAndClear(::Unity::Collections::Allocator allocator, bool sortByInstanceID, bool noScriptingArray) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -703,6 +705,7 @@ inline ::UnityEngine::TypeDispatchData UnityEngine::ObjectDispatcher::GetTypeCha
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TypeDispatchData>(this, ___internal_method, allocator, sortByInstanceID, noScriptingArray);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 inline ::UnityEngine::TransformDispatchData UnityEngine::ObjectDispatcher::GetTransformChangesAndClear(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType,
                                                                                                        ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method_base =
@@ -713,14 +716,18 @@ inline ::UnityEngine::TransformDispatchData UnityEngine::ObjectDispatcher::GetTr
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TransformDispatchData>(this, ___internal_method, trackingType, allocator);
 }
-template <typename T> inline void UnityEngine::ObjectDispatcher::EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline void UnityEngine::ObjectDispatcher::EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(),
                                                            { "EnableTypeTracking", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::ObjectDispatcher_TypeTrackingFlags>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeTrackingMask);
 }
-template <typename T> inline void UnityEngine::ObjectDispatcher::EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline void UnityEngine::ObjectDispatcher::EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(),
                                                            { "EnableTransformTracking", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::ObjectDispatcher_TransformTrackingType>() } })));

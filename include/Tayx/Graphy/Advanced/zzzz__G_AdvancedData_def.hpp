@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Advanced\G_AdvancedData.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Advanced/G_AdvancedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -254,44 +254,55 @@ protected:
   constexpr G_AdvancedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_AdvancedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_AdvancedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_AdvancedData(G_AdvancedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_AdvancedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_AdvancedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_AdvancedData(G_AdvancedData const&) = delete;
+  G_AdvancedData(G_AdvancedDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21507 };
 
+  /// [SerializeField]
   /// @brief Field m_backgroundImages, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* ___m_backgroundImages;
 
+  /// [SerializeField]
   /// @brief Field m_graphicsDeviceVersionText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_graphicsDeviceVersionText;
 
+  /// [SerializeField]
   /// @brief Field m_processorTypeText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_processorTypeText;
 
+  /// [SerializeField]
   /// @brief Field m_operatingSystemText, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_operatingSystemText;
 
+  /// [SerializeField]
   /// @brief Field m_systemMemoryText, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_systemMemoryText;
 
+  /// [SerializeField]
   /// @brief Field m_graphicsDeviceNameText, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_graphicsDeviceNameText;
 
+  /// [SerializeField]
   /// @brief Field m_graphicsMemorySizeText, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_graphicsMemorySizeText;
 
+  /// [SerializeField]
   /// @brief Field m_screenResolutionText, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_screenResolutionText;
 
+  /// [SerializeField]
   /// @brief Field m_gameWindowResolutionText, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_gameWindowResolutionText;
 
+  /// [Range(1, 60)]
+  /// [SerializeField]
   /// @brief Field m_updateRate, offset: 0x68, size: 0x4, def value: None
   float_t ___m_updateRate;
 

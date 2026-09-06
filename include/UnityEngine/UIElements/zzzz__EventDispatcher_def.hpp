@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventDispatcher.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventDispatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,9 @@ namespace UnityEngine::UIElements {
 class EventDispatcher___c;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class PointerDispatchState;
@@ -73,8 +75,8 @@ public:
   // @brief default ctor
   constexpr EventDispatcher_EventRecord();
 
-  // Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngine::UIElements::EventBase*", modifiers: "", def_value: None }, CppParam { name: "m_Panel", ty:
-  // "::UnityEngine::UIElements::BaseVisualElementPanel*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngine::UIElements::EventBase*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Panel", ty:
+  // "::UnityEngine::UIElements::BaseVisualElementPanel*", modifiers: "", def_value: None, comment: None }]
   constexpr EventDispatcher_EventRecord(::UnityEngine::UIElements::EventBase* m_Event, ::UnityEngine::UIElements::BaseVisualElementPanel* m_Panel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -110,8 +112,8 @@ public:
   // @brief default ctor
   constexpr EventDispatcher_DispatchContext();
 
-  // Ctor Parameters [CppParam { name: "m_GateCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Queue", ty:
-  // "::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_GateCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Queue", ty:
+  // "::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*", modifiers: "", def_value: None, comment: None }]
   constexpr EventDispatcher_DispatchContext(uint32_t m_GateCount, ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* m_Queue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -136,6 +138,7 @@ static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher_DispatchContex
 static_assert(sizeof(::UnityEngine::UIElements::EventDispatcher_DispatchContext) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -164,13 +167,13 @@ protected:
   constexpr EventDispatcher___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventDispatcher___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventDispatcher___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventDispatcher___c(EventDispatcher___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventDispatcher___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventDispatcher___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventDispatcher___c(EventDispatcher___c const&) = delete;
+  EventDispatcher___c(EventDispatcher___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4426 };
@@ -244,18 +247,19 @@ public:
   static inline ::UnityEngine::UIElements::EventDispatcher* CreateDefault();
 
   /// @brief Method Dispatch, addr 0x6d94e4c, size 0x180, virtual false, abstract: false, final false
-  inline void Dispatch(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel, ::UnityEngine::UIElements::DispatchMode dispatchMode);
+  inline void Dispatch(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
   /// @brief Method HandleRecursiveState, addr 0x6d952f4, size 0x490, virtual false, abstract: false, final false
   inline bool HandleRecursiveState(::UnityEngine::UIElements::EventBase* evt);
 
+  /// @brief [Obsolete("Please use EventDispatcher.CreateDefault().")]
   static inline ::UnityEngine::UIElements::EventDispatcher* New_ctor();
 
   /// @brief Method OpenGate, addr 0x6d94a08, size 0x194, virtual false, abstract: false, final false
   inline void OpenGate();
 
   /// @brief Method ProcessEvent, addr 0x6d95074, size 0x280, virtual false, abstract: false, final false
-  inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+  inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   /// @brief Method ProcessEventQueue, addr 0x6d95784, size 0x39c, virtual false, abstract: false, final false
   inline void ProcessEventQueue();
@@ -320,6 +324,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Queue(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* value);
 
+  /// [Obsolete("Please use EventDispatcher.CreateDefault().")]
   /// @brief Method .ctor, addr 0x6d94ce8, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -328,11 +333,13 @@ public:
   /// @brief Method get_dispatchImmediately, addr 0x6d94e24, size 0x20, virtual false, abstract: false, final false
   inline bool get_dispatchImmediately();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointerState, addr 0x6d94c8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerDispatchState* get_pointerState();
 
   static inline void setStaticF_k_EventQueuePool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_processingEvents, addr 0x6d94e44, size 0x8, virtual false, abstract: false, final false
   inline void set_processingEvents(bool value);
 
@@ -342,13 +349,13 @@ protected:
   constexpr EventDispatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventDispatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventDispatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventDispatcher(EventDispatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventDispatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventDispatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventDispatcher(EventDispatcher const&) = delete;
+  EventDispatcher(EventDispatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4427 };
@@ -368,6 +375,8 @@ public:
   /// @brief Field m_Queue, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* ___m_Queue;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <pointerState>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::PointerDispatchState* ____pointerState_k__BackingField;
 
@@ -389,6 +398,8 @@ public:
   /// @brief Field m_Immediate, offset: 0x48, size: 0x1, def value: None
   bool ___m_Immediate;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <processingEvents>k__BackingField, offset: 0x49, size: 0x1, def value: None
   bool ____processingEvents_k__BackingField;
 

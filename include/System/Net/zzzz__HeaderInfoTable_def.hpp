@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HeaderInfoTable.hpp"
+// IWYU pragma private; include "System/Net/HeaderInfoTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class HeaderInfoTable;
 // Write type traits
 MARK_REF_T(::System::Net::HeaderInfoTable*);
 DEFINE_IL2CPP_CLASS(::System::Net::HeaderInfoTable*, "System.Net", "HeaderInfoTable");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Net {
 // Is value type: false
@@ -80,13 +81,13 @@ protected:
   constexpr HeaderInfoTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfoTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfoTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeaderInfoTable(HeaderInfoTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfoTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfoTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HeaderInfoTable(HeaderInfoTable const&) = delete;
+  HeaderInfoTable(HeaderInfoTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11527 };

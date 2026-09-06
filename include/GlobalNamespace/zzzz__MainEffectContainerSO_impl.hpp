@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectContainerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectContainerSO.hpp"
 #include "GlobalNamespace/zzzz__HardwareCategory_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
@@ -7,8 +7,8 @@
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
-// Ctor Parameters [CppParam { name: "hardwareCategory", ty: "::GlobalNamespace::HardwareCategory", modifiers: "", def_value: Some("{}") }, CppParam { name: "mainEffect", ty:
-// "::UnityW<::GlobalNamespace::MainEffectSO>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hardwareCategory", ty: "::GlobalNamespace::HardwareCategory", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mainEffect", ty:
+// "::UnityW<::GlobalNamespace::MainEffectSO>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MainEffectContainerSO_HardwareOverride::MainEffectContainerSO_HardwareOverride(::GlobalNamespace::HardwareCategory hardwareCategory,
                                                                                                             ::UnityW<::GlobalNamespace::MainEffectSO> mainEffect) noexcept {
   this->hardwareCategory = hardwareCategory;

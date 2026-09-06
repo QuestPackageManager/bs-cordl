@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\CharacterElement.hpp"
+// IWYU pragma private; include "TMPro/CharacterElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,8 +38,8 @@ public:
   // @brief default ctor
   constexpr CharacterElement();
 
-  // Ctor Parameters [CppParam { name: "m_Unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_TextElement", ty: "::TMPro::TMP_TextElement*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "m_Unicode", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_TextElement", ty: "::TMPro::TMP_TextElement*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr CharacterElement(uint32_t m_Unicode, ::TMPro::TMP_TextElement* m_TextElement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

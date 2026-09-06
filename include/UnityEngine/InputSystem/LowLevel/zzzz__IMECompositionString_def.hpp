@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\IMECompositionString.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/IMECompositionString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e_
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::IMECompositionString, "UnityEngine.InputSystem.LowLevel", "IMECompositionString");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator, "UnityEngine.InputSystem.LowLevel", "IMECompositionString/Enumerator");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "IMECompositionString/<buffer>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -60,7 +62,7 @@ public:
   // @brief default ctor
   constexpr IMECompositionString__buffer_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "char16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "char16_t", modifiers: "", def_value: None, comment: None }]
   constexpr IMECompositionString__buffer_e__FixedBuffer(char16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -84,6 +86,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::IMECompositionStrin
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [DefaultMember("Item")]
 // Dependencies UnityEngine.InputSystem.LowLevel.IMECompositionString::<buffer>e__FixedBuffer
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -152,8 +155,8 @@ public:
   // @brief default ctor
   constexpr IMECompositionString();
 
-  // Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "buffer", ty:
-  // "::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty:
+  // "::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr IMECompositionString(int32_t size, ::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer buffer) noexcept;
 
 private:
@@ -177,6 +180,7 @@ private:
     struct {
       /// @brief Padding field 0x4
       uint8_t ___buffer_padding[0x4];
+      /// [FixedBuffer(typeof(System.Char), 64)]
       /// @brief Field buffer, offset: 0x4, size: 0x80, def value: None
       ::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer ___buffer;
     };
@@ -184,6 +188,7 @@ private:
     struct {
       /// @brief Padding field 0x4 for alignment
       uint8_t ___buffer_padding_forAlignment[0x4];
+      /// [FixedBuffer(typeof(System.Char), 64)]
       /// @brief Field buffer, offset: 0x4, size: 0x80, def value: None
       ::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer ___buffer_forAlignment;
     };
@@ -254,8 +259,8 @@ public:
   // @brief default ctor
   constexpr IMECompositionString_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_CompositionString", ty: "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: None }, CppParam { name: "m_CurrentCharacter",
-  // ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_CompositionString", ty: "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_CurrentCharacter", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IMECompositionString_Enumerator(::UnityEngine::InputSystem::LowLevel::IMECompositionString m_CompositionString, char16_t m_CurrentCharacter, int32_t m_CurrentIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

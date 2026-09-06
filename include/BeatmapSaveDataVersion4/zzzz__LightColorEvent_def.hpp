@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\LightColorEvent.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/LightColorEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,9 +27,10 @@ public:
   // @brief default ctor
   constexpr LightColorEvent();
 
-  // Ctor Parameters [CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam {
-  // name: "c", ty: "::BeatmapSaveDataCommon::EnvironmentColorType", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "f", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "sb", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "sf", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "c", ty: "::BeatmapSaveDataCommon::EnvironmentColorType", modifiers: "", def_value: None, comment: None }, CppParam { name: "b", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "f", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sb", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "sf", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LightColorEvent(int32_t p, ::BeatmapSaveDataCommon::EaseType e, ::BeatmapSaveDataCommon::EnvironmentColorType c, float_t b, int32_t f, float_t sb, int32_t sf) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

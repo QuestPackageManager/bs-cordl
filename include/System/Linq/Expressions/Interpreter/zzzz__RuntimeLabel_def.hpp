@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\RuntimeLabel.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/RuntimeLabel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct RuntimeLabel;
 // Write type traits
 MARK_VAL_T(::System::Linq::Expressions::Interpreter::RuntimeLabel);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::RuntimeLabel, "System.Linq.Expressions.Interpreter", "RuntimeLabel");
+// [IsReadOnly]
 // Dependencies
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: true
@@ -31,8 +32,8 @@ public:
   // @brief default ctor
   constexpr RuntimeLabel();
 
-  // Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "StackDepth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "ContinuationStackDepth", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "StackDepth", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "ContinuationStackDepth", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeLabel(int32_t Index, int32_t StackDepth, int32_t ContinuationStackDepth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

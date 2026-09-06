@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\Rijndael.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/Rijndael.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class Rijndael;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::Rijndael*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::Rijndael*, "System.Security.Cryptography", "Rijndael");
+// [ComVisible(true)]
 // Dependencies System.Security.Cryptography.KeySizes, System.Security.Cryptography.SymmetricAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -46,13 +47,13 @@ protected:
   constexpr Rijndael();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Rijndael", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rijndael", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Rijndael(Rijndael&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Rijndael", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rijndael", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Rijndael(Rijndael const&) = delete;
+  Rijndael(Rijndaelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2965 };

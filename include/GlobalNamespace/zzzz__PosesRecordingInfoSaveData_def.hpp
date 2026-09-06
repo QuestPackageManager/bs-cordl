@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PosesRecordingInfoSaveData.hpp"
+// IWYU pragma private; include "GlobalNamespace/PosesRecordingInfoSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,29 +112,34 @@ protected:
   constexpr PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData(PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData(PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData const&) = delete;
+  PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData(PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6586 };
 
+  /// [SerializeField]
   /// @brief Field _fieldOfVision, offset: 0x10, size: 0x4, def value: None
   float_t ____fieldOfVision;
 
+  /// [SerializeField]
   /// @brief Field _nearClip, offset: 0x14, size: 0x4, def value: None
   float_t ____nearClip;
 
+  /// [SerializeField]
   /// @brief Field _farClip, offset: 0x18, size: 0x4, def value: None
   float_t ____farClip;
 
+  /// [SerializeField]
   /// @brief Field _hmdOffset, offset: 0x1c, size: 0x4, def value: None
   float_t ____hmdOffset;
 
+  /// [SerializeField]
   /// @brief Field _nearOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____nearOffset;
 
@@ -232,13 +237,13 @@ protected:
   constexpr PosesRecordingInfoSaveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PosesRecordingInfoSaveData(PosesRecordingInfoSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingInfoSaveData(PosesRecordingInfoSaveData const&) = delete;
+  PosesRecordingInfoSaveData(PosesRecordingInfoSaveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6587 };
@@ -246,15 +251,19 @@ public:
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"1.0.0" };
 
+  /// [SerializeField]
   /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
   ::StringW ____version;
 
+  /// [SerializeField]
   /// @brief Field _objectIds, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW> ____objectIds;
 
+  /// [SerializeField]
   /// @brief Field _externalCameraCalibration, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* ____externalCameraCalibration;
 
+  /// [SerializeField]
   /// @brief Field _dataFileName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____dataFileName;
 

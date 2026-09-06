@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\Page.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Page.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_impl.hpp"
@@ -9,154 +9,224 @@
 #include "UnityEngine/UIElements/UIR/zzzz__Page_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Utility_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
-template <typename T> constexpr bool& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get__disposed_k__BackingField() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr bool& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get__disposed_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
-template <typename T> constexpr bool const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get__disposed_k__BackingField() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr bool const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get__disposed_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set__disposed_k__BackingField(bool value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set__disposed_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
 }
-template <typename T> constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>*& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_gpuData() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>*& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_gpuData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuData;
 }
-template <typename T> constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>* const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_gpuData() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>* const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_gpuData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuData;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_gpuData(::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_gpuData(::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gpuData = value;
 }
-template <typename T> constexpr ::Unity::Collections::NativeArray_1<T>& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_cpuData() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::Unity::Collections::NativeArray_1<T>& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_cpuData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuData;
 }
-template <typename T> constexpr ::Unity::Collections::NativeArray_1<T> const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_cpuData() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::Unity::Collections::NativeArray_1<T> const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_cpuData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuData;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_cpuData(::Unity::Collections::NativeArray_1<T> value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_cpuData(::Unity::Collections::NativeArray_1<T> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cpuData = value;
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange>& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_updateRanges() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___updateRanges;
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_updateRanges() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___updateRanges;
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_updateRanges(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___updateRanges = value;
 }
-template <typename T> constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator*& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_allocator() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator*& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_allocator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
-template <typename T> constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator* const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_allocator() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator* const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_allocator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_allocator(::UnityEngine::UIElements::UIR::GPUBufferAllocator* value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_allocator(::UnityEngine::UIElements::UIR::GPUBufferAllocator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allocator = value;
 }
-template <typename T> constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangePoolSize() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangePoolSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangePoolSize;
 }
-template <typename T> constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangePoolSize() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangePoolSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangePoolSize;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangePoolSize(uint32_t value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangePoolSize(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateRangePoolSize = value;
 }
-template <typename T> constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_ElemStride() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_ElemStride() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ElemStride;
 }
-template <typename T> constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_ElemStride() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_ElemStride() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ElemStride;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_ElemStride(uint32_t value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_ElemStride(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ElemStride = value;
 }
-template <typename T> constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangeMin() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangeMin() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangeMin;
 }
-template <typename T> constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangeMin() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangeMin() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangeMin;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangeMin(uint32_t value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangeMin(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateRangeMin = value;
 }
-template <typename T> constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangeMax() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangeMax() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangeMax;
 }
-template <typename T> constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangeMax() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangeMax() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangeMax;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangeMax(uint32_t value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangeMax(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateRangeMax = value;
 }
-template <typename T> constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesEnqueued() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesEnqueued() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangesEnqueued;
 }
-template <typename T> constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesEnqueued() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesEnqueued() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangesEnqueued;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangesEnqueued(uint32_t value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangesEnqueued(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateRangesEnqueued = value;
 }
-template <typename T> constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesBatchStart() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesBatchStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangesBatchStart;
 }
-template <typename T> constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesBatchStart() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr uint32_t const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesBatchStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangesBatchStart;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangesBatchStart(uint32_t value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangesBatchStart(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateRangesBatchStart = value;
 }
-template <typename T> constexpr bool& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesSaturated() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr bool& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesSaturated() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangesSaturated;
 }
-template <typename T> constexpr bool const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesSaturated() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr bool const& UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_get_m_UpdateRangesSaturated() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRangesSaturated;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangesSaturated(bool value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::__cordl_internal_set_m_UpdateRangesSaturated(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateRangesSaturated = value;
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::_ctor(::UnityEngine::UIElements::UIR::Utility_GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount,
                                                                    uint32_t updateRangePoolSize, bool mockBuffer) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(),
@@ -166,66 +236,93 @@ inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::_ctor(::UnityEngine
                                                                                              ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bufferType, totalCount, maxQueuedFrameCount, updateRangePoolSize, mockBuffer);
 }
-template <typename T> inline bool UnityEngine::UIElements::UIR::Page_DataSet_1<T>::get_disposed() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool UnityEngine::UIElements::UIR::Page_DataSet_1<T>::get_disposed() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "get_disposed", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::set_disposed(bool value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::set_disposed(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "set_disposed", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::Dispose() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::Dispose(bool disposing) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::Dispose(bool disposing) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "Dispose", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::RegisterUpdate(uint32_t start, uint32_t size) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::RegisterUpdate(uint32_t start, uint32_t size) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "RegisterUpdate", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, start, size);
 }
-template <typename T> inline bool UnityEngine::UIElements::UIR::Page_DataSet_1<T>::HasMappedBufferRange() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool UnityEngine::UIElements::UIR::Page_DataSet_1<T>::HasMappedBufferRange() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "HasMappedBufferRange", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::SendUpdates() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::SendUpdates() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "SendUpdates", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::SendFullRange() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::SendFullRange() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "SendFullRange", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::SendPartialRanges() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::SendPartialRanges() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "SendPartialRanges", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::ResetUpdateState() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::ResetUpdateState() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "ResetUpdateState", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>* UnityEngine::UIElements::UIR::Page_DataSet_1<T>::New_ctor(::UnityEngine::UIElements::UIR::Utility_GPUBufferType bufferType,
                                                                                                                     uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize,
                                                                                                                     bool mockBuffer) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(bufferType, totalCount, maxQueuedFrameCount, updateRangePoolSize, mockBuffer));
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr UnityEngine::UIElements::UIR::Page_DataSet_1<T>::operator ::System::IDisposable*() noexcept {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr UnityEngine::UIElements::UIR::Page_DataSet_1<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::Page_DataSet_1<T>::i___System__IDisposable() noexcept {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::Page_DataSet_1<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>::Page_DataSet_1() {}
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>::Page_DataSet_1() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Page._ctor
 template <>
 

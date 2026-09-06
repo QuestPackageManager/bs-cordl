@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Events\UnityEventBase.hpp"
+// IWYU pragma private; include "UnityEngine/Events/UnityEventBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ class UnityEventBase;
 // Write type traits
 MARK_REF_T(::UnityEngine::Events::UnityEventBase*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Events::UnityEventBase*, "UnityEngine.Events", "UnityEventBase");
+// [UsedByNativeCode]
 // Dependencies System.Object
 namespace UnityEngine::Events {
 // Is value type: false
@@ -76,13 +77,13 @@ public:
   /// @brief Method FindMethod, addr 0x6afe4b0, size 0x280, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* FindMethod(::StringW name, ::System::Type* listenerType, ::UnityEngine::Events::PersistentListenerMode mode, ::System::Type* argumentType);
 
-  /// @brief Method FindMethod_Impl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FindMethod_Impl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::System::Type* targetObjType);
 
   /// @brief Method GetCallsCount, addr 0x6afe8b8, size 0x14, virtual false, abstract: false, final false
   inline int32_t GetCallsCount();
 
-  /// @brief Method GetDelegate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDelegate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
   /// @brief Method GetValidMethodInfo, addr 0x6afe730, size 0x188, virtual false, abstract: false, final false
@@ -141,13 +142,13 @@ protected:
   constexpr UnityEventBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEventBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEventBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityEventBase(UnityEventBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEventBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEventBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityEventBase(UnityEventBase const&) = delete;
+  UnityEventBase(UnityEventBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10453 };
@@ -155,6 +156,8 @@ public:
   /// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::InvokableCallList* ___m_Calls;
 
+  /// [FormerlySerializedAs("m_PersistentListeners")]
+  /// [SerializeField]
   /// @brief Field m_PersistentCalls, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Events::PersistentCallGroup* ___m_PersistentCalls;
 

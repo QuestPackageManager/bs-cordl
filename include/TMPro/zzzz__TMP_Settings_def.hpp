@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Settings.hpp"
+// IWYU pragma private; include "TMPro/TMP_Settings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr TMP_Settings_LineBreakingTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings_LineBreakingTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings_LineBreakingTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Settings_LineBreakingTable(TMP_Settings_LineBreakingTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings_LineBreakingTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings_LineBreakingTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Settings_LineBreakingTable(TMP_Settings_LineBreakingTable const&) = delete;
+  TMP_Settings_LineBreakingTable(TMP_Settings_LineBreakingTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15974 };
@@ -119,6 +119,8 @@ static_assert(offsetof(::TMPro::TMP_Settings_LineBreakingTable, ___followingChar
 static_assert(sizeof(::TMPro::TMP_Settings_LineBreakingTable) == 0x20, "Size mismatch!");
 
 } // namespace TMPro
+// [ExcludeFromPreset]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/Settings.html")]
 // Dependencies TMPro.TextWrappingModes, UnityEngine.ScriptableObject, UnityEngine.Vector2
 namespace TMPro {
 // Is value type: false
@@ -650,122 +652,159 @@ protected:
   constexpr TMP_Settings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Settings(TMP_Settings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Settings(TMP_Settings const&) = delete;
+  TMP_Settings(TMP_Settingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15975 };
 
+  /// [SerializeField]
   /// @brief Field assetVersion, offset: 0x18, size: 0x8, def value: None
   ::StringW ___assetVersion;
 
+  /// [FormerlySerializedAs("m_enableWordWrapping")]
+  /// [SerializeField]
   /// @brief Field m_TextWrappingMode, offset: 0x20, size: 0x4, def value: None
   ::TMPro::TextWrappingModes ___m_TextWrappingMode;
 
+  /// [SerializeField]
   /// @brief Field m_enableKerning, offset: 0x24, size: 0x1, def value: None
   bool ___m_enableKerning;
 
+  /// [SerializeField]
   /// @brief Field m_ActiveFontFeatures, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* ___m_ActiveFontFeatures;
 
+  /// [SerializeField]
   /// @brief Field m_enableExtraPadding, offset: 0x30, size: 0x1, def value: None
   bool ___m_enableExtraPadding;
 
+  /// [SerializeField]
   /// @brief Field m_enableTintAllSprites, offset: 0x31, size: 0x1, def value: None
   bool ___m_enableTintAllSprites;
 
+  /// [SerializeField]
   /// @brief Field m_enableParseEscapeCharacters, offset: 0x32, size: 0x1, def value: None
   bool ___m_enableParseEscapeCharacters;
 
+  /// [SerializeField]
   /// @brief Field m_EnableRaycastTarget, offset: 0x33, size: 0x1, def value: None
   bool ___m_EnableRaycastTarget;
 
+  /// [SerializeField]
   /// @brief Field m_GetFontFeaturesAtRuntime, offset: 0x34, size: 0x1, def value: None
   bool ___m_GetFontFeaturesAtRuntime;
 
+  /// [SerializeField]
   /// @brief Field m_missingGlyphCharacter, offset: 0x38, size: 0x4, def value: None
   int32_t ___m_missingGlyphCharacter;
 
+  /// [SerializeField]
   /// @brief Field m_ClearDynamicDataOnBuild, offset: 0x3c, size: 0x1, def value: None
   bool ___m_ClearDynamicDataOnBuild;
 
+  /// [SerializeField]
   /// @brief Field m_warningsDisabled, offset: 0x3d, size: 0x1, def value: None
   bool ___m_warningsDisabled;
 
+  /// [SerializeField]
   /// @brief Field m_defaultFontAsset, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_FontAsset> ___m_defaultFontAsset;
 
+  /// [SerializeField]
   /// @brief Field m_defaultFontAssetPath, offset: 0x48, size: 0x8, def value: None
   ::StringW ___m_defaultFontAssetPath;
 
+  /// [SerializeField]
   /// @brief Field m_defaultFontSize, offset: 0x50, size: 0x4, def value: None
   float_t ___m_defaultFontSize;
 
+  /// [SerializeField]
   /// @brief Field m_defaultAutoSizeMinRatio, offset: 0x54, size: 0x4, def value: None
   float_t ___m_defaultAutoSizeMinRatio;
 
+  /// [SerializeField]
   /// @brief Field m_defaultAutoSizeMaxRatio, offset: 0x58, size: 0x4, def value: None
   float_t ___m_defaultAutoSizeMaxRatio;
 
+  /// [SerializeField]
   /// @brief Field m_defaultTextMeshProTextContainerSize, offset: 0x5c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_defaultTextMeshProTextContainerSize;
 
+  /// [SerializeField]
   /// @brief Field m_defaultTextMeshProUITextContainerSize, offset: 0x64, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_defaultTextMeshProUITextContainerSize;
 
+  /// [SerializeField]
   /// @brief Field m_autoSizeTextContainer, offset: 0x6c, size: 0x1, def value: None
   bool ___m_autoSizeTextContainer;
 
+  /// [SerializeField]
   /// @brief Field m_IsTextObjectScaleStatic, offset: 0x6d, size: 0x1, def value: None
   bool ___m_IsTextObjectScaleStatic;
 
+  /// [SerializeField]
   /// @brief Field m_fallbackFontAssets, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* ___m_fallbackFontAssets;
 
+  /// [SerializeField]
   /// @brief Field m_matchMaterialPreset, offset: 0x78, size: 0x1, def value: None
   bool ___m_matchMaterialPreset;
 
+  /// [SerializeField]
   /// @brief Field m_HideSubTextObjects, offset: 0x79, size: 0x1, def value: None
   bool ___m_HideSubTextObjects;
 
+  /// [SerializeField]
   /// @brief Field m_defaultSpriteAsset, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_SpriteAsset> ___m_defaultSpriteAsset;
 
+  /// [SerializeField]
   /// @brief Field m_defaultSpriteAssetPath, offset: 0x88, size: 0x8, def value: None
   ::StringW ___m_defaultSpriteAssetPath;
 
+  /// [SerializeField]
   /// @brief Field m_enableEmojiSupport, offset: 0x90, size: 0x1, def value: None
   bool ___m_enableEmojiSupport;
 
+  /// [SerializeField]
   /// @brief Field m_MissingCharacterSpriteUnicode, offset: 0x94, size: 0x4, def value: None
   uint32_t ___m_MissingCharacterSpriteUnicode;
 
+  /// [SerializeField]
   /// @brief Field m_EmojiFallbackTextAssets, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Asset>>* ___m_EmojiFallbackTextAssets;
 
+  /// [SerializeField]
   /// @brief Field m_defaultColorGradientPresetsPath, offset: 0xa0, size: 0x8, def value: None
   ::StringW ___m_defaultColorGradientPresetsPath;
 
+  /// [SerializeField]
   /// @brief Field m_defaultStyleSheet, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_StyleSheet> ___m_defaultStyleSheet;
 
+  /// [SerializeField]
   /// @brief Field m_StyleSheetsResourcePath, offset: 0xb0, size: 0x8, def value: None
   ::StringW ___m_StyleSheetsResourcePath;
 
+  /// [SerializeField]
   /// @brief Field m_leadingCharacters, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___m_leadingCharacters;
 
+  /// [SerializeField]
   /// @brief Field m_followingCharacters, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___m_followingCharacters;
 
+  /// [SerializeField]
   /// @brief Field m_linebreakingRules, offset: 0xc8, size: 0x8, def value: None
   ::TMPro::TMP_Settings_LineBreakingTable* ___m_linebreakingRules;
 
+  /// [SerializeField]
   /// @brief Field m_UseModernHangulLineBreakingRules, offset: 0xd0, size: 0x1, def value: None
   bool ___m_UseModernHangulLineBreakingRules;
 

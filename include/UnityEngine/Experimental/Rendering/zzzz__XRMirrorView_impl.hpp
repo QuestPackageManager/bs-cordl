@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRMirrorView.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRMirrorView.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__XRMirrorView_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"

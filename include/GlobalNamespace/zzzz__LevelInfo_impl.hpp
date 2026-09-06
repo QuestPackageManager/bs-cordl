@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelInfo.hpp"
 #include "GlobalNamespace/zzzz__BeatmapInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelInfo_def.hpp"

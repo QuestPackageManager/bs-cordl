@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\QualitySettings.hpp"
+// IWYU pragma private; include "UnityEngine/QualitySettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,9 @@ class QualitySettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::QualitySettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::QualitySettings*, "UnityEngine", "QualitySettings");
+// [StaticAccessor("GetQualitySettings()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [NativeHeader("Runtime/Misc/PlayerSettings.h")]
+// [NativeHeader("Runtime/Graphics/QualitySettings.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -42,6 +45,7 @@ public:
   /// @brief Field activeQualityLevelChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_activeQualityLevelChanged, put = setStaticF_activeQualityLevelChanged)) ::System::Action_2<int32_t, int32_t>* activeQualityLevelChanged;
 
+  /// [RequiredByNativeCode]
   /// @brief Method OnActiveQualityLevelChanged, addr 0x6a8c310, size 0x84, virtual false, abstract: false, final false
   static inline void OnActiveQualityLevelChanged(int32_t previousQualityLevel, int32_t currentQualityLevel);
 
@@ -53,6 +57,8 @@ public:
   /// @brief Method get_INTERNAL_renderPipeline_Injected, addr 0x6a8c624, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_INTERNAL_renderPipeline_Injected();
 
+  /// [StaticAccessor("GetPlayerSettings()", (UnityEngine.Bindings.StaticAccessorType)0)]
+  /// [NativeName("GetColorSpace")]
   /// @brief Method get_activeColorSpace, addr 0x6a8c7c4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_activeColorSpace();
 
@@ -62,6 +68,8 @@ public:
   /// @brief Method get_billboardsFaceCameraPosition, addr 0x6a8c4e8, size 0x28, virtual false, abstract: false, final false
   static inline bool get_billboardsFaceCameraPosition();
 
+  /// [StaticAccessor("GetPlayerSettings()", (UnityEngine.Bindings.StaticAccessorType)0)]
+  /// [NativeName("GetColorSpace")]
   /// @brief Method get_desiredColorSpace, addr 0x6a89b28, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_desiredColorSpace();
 
@@ -106,13 +114,13 @@ protected:
   constexpr QualitySettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QualitySettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QualitySettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QualitySettings(QualitySettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QualitySettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QualitySettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QualitySettings(QualitySettings const&) = delete;
+  QualitySettings(QualitySettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10152 };

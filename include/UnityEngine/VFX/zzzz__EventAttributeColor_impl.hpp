@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\EventAttributeColor.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/EventAttributeColor.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeVector3_impl.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeColor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::VFX::EventAttributeColor._ctor

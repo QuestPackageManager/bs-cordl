@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1StreamParser.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1StreamParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,13 +99,13 @@ protected:
   constexpr Asn1StreamParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1StreamParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1StreamParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1StreamParser(Asn1StreamParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1StreamParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1StreamParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1StreamParser(Asn1StreamParser const&) = delete;
+  Asn1StreamParser(Asn1StreamParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 467 };

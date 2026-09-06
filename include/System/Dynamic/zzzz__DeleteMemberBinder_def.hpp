@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\DeleteMemberBinder.hpp"
+// IWYU pragma private; include "System/Dynamic/DeleteMemberBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
   /// @brief Method FallbackDeleteMember, addr 0x5fc2dbc, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackDeleteMember(::System::Dynamic::DynamicMetaObject* target);
 
-  /// @brief Method FallbackDeleteMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FallbackDeleteMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackDeleteMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   constexpr bool const& __cordl_internal_get__IgnoreCase_k__BackingField() const;
@@ -55,9 +55,11 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreCase, addr 0x5fc2db4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x5fc2dac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -67,20 +69,22 @@ protected:
   constexpr DeleteMemberBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteMemberBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteMemberBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeleteMemberBinder(DeleteMemberBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteMemberBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteMemberBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteMemberBinder(DeleteMemberBinder const&) = delete;
+  DeleteMemberBinder(DeleteMemberBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16650 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreCase>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IgnoreCase_k__BackingField;
 

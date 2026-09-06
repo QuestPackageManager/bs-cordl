@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\math.hpp"
+// IWYU pragma private; include "Unity/Mathematics/math.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -274,7 +274,7 @@ public:
   // @brief default ctor
   constexpr math_RotationOrder();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr math_RotationOrder(uint8_t value__) noexcept;
 
   /// @brief Field Default value: U8(4)
@@ -350,7 +350,7 @@ public:
   // @brief default ctor
   constexpr math_ShuffleComponent();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr math_ShuffleComponent(uint8_t value__) noexcept;
 
   /// @brief Field LeftW value: U8(3)
@@ -423,7 +423,8 @@ public:
   // @brief default ctor
   constexpr math_LongDoubleUnion();
 
-  // Ctor Parameters [CppParam { name: "longValue", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "doubleValue", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "longValue", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "doubleValue", ty: "double_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr math_LongDoubleUnion(int64_t longValue, double_t doubleValue) noexcept;
 
 private:
@@ -472,6 +473,7 @@ public:
 static_assert(sizeof(::Unity::Mathematics::math_LongDoubleUnion) == 0x8, "Size mismatch!");
 
 } // namespace Unity::Mathematics
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies System.Object
 namespace Unity::Mathematics {
 // Is value type: false
@@ -6466,16 +6468,16 @@ protected:
   constexpr math();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "math", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "math", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   math(math&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "math", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "math", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  math(math const&) = delete;
+  math(mathconst&) = delete;
 
   /// @brief Field DBL_MIN_NORMAL offset 0xffffffff size 0x8
-  static constexpr double_t DBL_MIN_NORMAL{ static_cast<double_t>(0.0) };
+  static constexpr double_t DBL_MIN_NORMAL{ static_cast<double_t>(2.2250738585072014e-308) };
 
   /// @brief Field E offset 0xffffffff size 0x4
   static constexpr float_t E{ static_cast<float_t>(2.7182817f) };
@@ -6484,10 +6486,10 @@ public:
   static constexpr float_t EPSILON{ static_cast<float_t>(1.1920929e-7f) };
 
   /// @brief Field EPSILON_DBL offset 0xffffffff size 0x8
-  static constexpr double_t EPSILON_DBL{ static_cast<double_t>(0.0) };
+  static constexpr double_t EPSILON_DBL{ static_cast<double_t>(2.220446049250313e-16) };
 
   /// @brief Field E_DBL offset 0xffffffff size 0x8
-  static constexpr double_t E_DBL{ static_cast<double_t>(2.7) };
+  static constexpr double_t E_DBL{ static_cast<double_t>(2.718281828459045) };
 
   /// @brief Field FLT_MIN_NORMAL offset 0xffffffff size 0x4
   static constexpr float_t FLT_MIN_NORMAL{ static_cast<float_t>(1.1754944e-38f) };
@@ -6499,25 +6501,25 @@ public:
   static constexpr float_t LN10{ static_cast<float_t>(2.3025851f) };
 
   /// @brief Field LN10_DBL offset 0xffffffff size 0x8
-  static constexpr double_t LN10_DBL{ static_cast<double_t>(2.3) };
+  static constexpr double_t LN10_DBL{ static_cast<double_t>(2.302585092994046) };
 
   /// @brief Field LN2 offset 0xffffffff size 0x4
   static constexpr float_t LN2{ static_cast<float_t>(0.6931472f) };
 
   /// @brief Field LN2_DBL offset 0xffffffff size 0x8
-  static constexpr double_t LN2_DBL{ static_cast<double_t>(0.7) };
+  static constexpr double_t LN2_DBL{ static_cast<double_t>(0.6931471805599453) };
 
   /// @brief Field LOG10E offset 0xffffffff size 0x4
   static constexpr float_t LOG10E{ static_cast<float_t>(0.4342945f) };
 
   /// @brief Field LOG10E_DBL offset 0xffffffff size 0x8
-  static constexpr double_t LOG10E_DBL{ static_cast<double_t>(0.4) };
+  static constexpr double_t LOG10E_DBL{ static_cast<double_t>(0.4342944819032518) };
 
   /// @brief Field LOG2E offset 0xffffffff size 0x4
   static constexpr float_t LOG2E{ static_cast<float_t>(1.442695f) };
 
   /// @brief Field LOG2E_DBL offset 0xffffffff size 0x8
-  static constexpr double_t LOG2E_DBL{ static_cast<double_t>(1.4) };
+  static constexpr double_t LOG2E_DBL{ static_cast<double_t>(1.4426950408889634) };
 
   /// @brief Field NAN_DBL offset 0xffffffff size 0x8
   static constexpr double_t NAN_DBL{ NAN };
@@ -6529,40 +6531,40 @@ public:
   static constexpr float_t PI2{ static_cast<float_t>(6.2831855f) };
 
   /// @brief Field PI2_DBL offset 0xffffffff size 0x8
-  static constexpr double_t PI2_DBL{ static_cast<double_t>(6.3) };
+  static constexpr double_t PI2_DBL{ static_cast<double_t>(6.283185307179586) };
 
   /// @brief Field PIHALF offset 0xffffffff size 0x4
   static constexpr float_t PIHALF{ static_cast<float_t>(1.5707964f) };
 
   /// @brief Field PIHALF_DBL offset 0xffffffff size 0x8
-  static constexpr double_t PIHALF_DBL{ static_cast<double_t>(1.6) };
+  static constexpr double_t PIHALF_DBL{ static_cast<double_t>(1.5707963267948966) };
 
   /// @brief Field PI_DBL offset 0xffffffff size 0x8
-  static constexpr double_t PI_DBL{ static_cast<double_t>(3.1) };
+  static constexpr double_t PI_DBL{ static_cast<double_t>(3.141592653589793) };
 
   /// @brief Field SQRT2 offset 0xffffffff size 0x4
   static constexpr float_t SQRT2{ static_cast<float_t>(1.4142135f) };
 
   /// @brief Field SQRT2_DBL offset 0xffffffff size 0x8
-  static constexpr double_t SQRT2_DBL{ static_cast<double_t>(1.4) };
+  static constexpr double_t SQRT2_DBL{ static_cast<double_t>(1.4142135623730951) };
 
   /// @brief Field TAU offset 0xffffffff size 0x4
   static constexpr float_t TAU{ static_cast<float_t>(6.2831855f) };
 
   /// @brief Field TAU_DBL offset 0xffffffff size 0x8
-  static constexpr double_t TAU_DBL{ static_cast<double_t>(6.3) };
+  static constexpr double_t TAU_DBL{ static_cast<double_t>(6.283185307179586) };
 
   /// @brief Field TODEGREES offset 0xffffffff size 0x4
   static constexpr float_t TODEGREES{ static_cast<float_t>(57.29578f) };
 
   /// @brief Field TODEGREES_DBL offset 0xffffffff size 0x8
-  static constexpr double_t TODEGREES_DBL{ static_cast<double_t>(57.3) };
+  static constexpr double_t TODEGREES_DBL{ static_cast<double_t>(57.29577951308232) };
 
   /// @brief Field TORADIANS offset 0xffffffff size 0x4
   static constexpr float_t TORADIANS{ static_cast<float_t>(0.017453292f) };
 
   /// @brief Field TORADIANS_DBL offset 0xffffffff size 0x8
-  static constexpr double_t TORADIANS_DBL{ static_cast<double_t>(0.0) };
+  static constexpr double_t TORADIANS_DBL{ static_cast<double_t>(0.017453292519943295) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13127 };

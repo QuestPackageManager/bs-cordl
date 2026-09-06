@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\Packet.hpp"
+// IWYU pragma private; include "ENet/Packet.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "ENet/zzzz__Packet_def.hpp"
 #include "ENet/zzzz__PacketFlags_def.hpp"
@@ -376,7 +376,7 @@ constexpr ENet::Packet::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* ENet::Packet::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "nativePacket", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "nativePacket", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::ENet::Packet::Packet(::System::IntPtr nativePacket) noexcept {
   this->nativePacket = nativePacket;
 }

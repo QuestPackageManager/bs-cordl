@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CanvasRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/CanvasRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,8 @@ class CanvasRenderer;
 // Write type traits
 MARK_REF_T(::UnityEngine::CanvasRenderer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CanvasRenderer*, "UnityEngine", "CanvasRenderer");
+// [NativeHeader("Modules/UI/CanvasRenderer.h")]
+// [NativeClass("UI::CanvasRenderer")]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -68,6 +70,7 @@ public:
 
   __declspec(property(get = get_clippingSoftness, put = set_clippingSoftness)) ::UnityEngine::Vector2 clippingSoftness;
 
+  /// @brief [NativeProperty("ShouldCull", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_cull, put = set_cull)) bool cull;
 
   __declspec(property(get = get_cullTransparentMesh, put = set_cullTransparentMesh)) bool cullTransparentMesh;
@@ -76,14 +79,17 @@ public:
 
   __declspec(property(get = get_hasPopInstruction, put = set_hasPopInstruction)) bool hasPopInstruction;
 
+  /// @brief [NativeProperty("RectClipping", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_hasRectClipping)) bool hasRectClipping;
 
+  /// @brief [Obsolete("isMask is no longer supported.See EnableClipping for vertex clipping configuration", false)]
   __declspec(property(get = get_isMask, put = set_isMask)) bool isMask;
 
   __declspec(property(get = get_materialCount, put = set_materialCount)) int32_t materialCount;
 
   __declspec(property(get = get_popMaterialCount, put = set_popMaterialCount)) int32_t popMaterialCount;
 
+  /// @brief [NativeProperty("Depth", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_relativeDepth)) int32_t relativeDepth;
 
   /// @brief Method AddUIVertexStream, addr 0x6de8950, size 0x10c, virtual false, abstract: false, final false
@@ -118,6 +124,7 @@ public:
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv3S, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents, ::System::Collections::Generic::List_1<int32_t>* indices);
 
+  /// [StaticAccessor("UI", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method CreateUIVertexStreamInternal, addr 0x6de88b4, size 0x9c, virtual false, abstract: false, final false
   static inline void CreateUIVertexStreamInternal(::System::Object* verts, ::System::Object* positions, ::System::Object* colors, ::System::Object* uv0S, ::System::Object* uv1S,
                                                   ::System::Object* uv2S, ::System::Object* uv3S, ::System::Object* normals, ::System::Object* tangents, ::System::Object* indices);
@@ -214,12 +221,15 @@ public:
   /// @brief Method SetTexture_Injected, addr 0x6de7e38, size 0x44, virtual false, abstract: false, final false
   static inline void SetTexture_Injected(::System::IntPtr _unity_self, ::System::IntPtr texture);
 
+  /// [Obsolete("UI System now uses meshes.Generate a mesh and use \'SetMesh\' instead", false)]
   /// @brief Method SetVertices, addr 0x6de8b7c, size 0x9cc, virtual false, abstract: false, final false
   inline void SetVertices(::ArrayW<::UnityEngine::UIVertex> vertices, int32_t size);
 
+  /// [Obsolete("UI System now uses meshes.Generate a mesh and use \'SetMesh\' instead", false)]
   /// @brief Method SetVertices, addr 0x6de8af8, size 0x84, virtual false, abstract: false, final false
   inline void SetVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vertices);
 
+  /// [StaticAccessor("UI", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method SplitIndicesStreamsInternal, addr 0x6de86c4, size 0x44, virtual false, abstract: false, final false
   static inline void SplitIndicesStreamsInternal(::System::Object* verts, ::System::Object* indices);
 
@@ -236,6 +246,7 @@ public:
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv3S, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents, ::System::Collections::Generic::List_1<int32_t>* indices);
 
+  /// [StaticAccessor("UI", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method SplitUIVertexStreamsInternal, addr 0x6de8628, size 0x9c, virtual false, abstract: false, final false
   static inline void SplitUIVertexStreamsInternal(::System::Object* verts, ::System::Object* positions, ::System::Object* colors, ::System::Object* uv0S, ::System::Object* uv1S,
                                                   ::System::Object* uv2S, ::System::Object* uv3S, ::System::Object* normals, ::System::Object* tangents);
@@ -291,6 +302,7 @@ public:
   /// @brief Method get_hasRectClipping_Injected, addr 0x6de7068, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasRectClipping_Injected(::System::IntPtr _unity_self);
 
+  /// [CompilerGenerated]
   /// @brief Method get_isMask, addr 0x6de72f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMask();
 
@@ -336,6 +348,7 @@ public:
   /// @brief Method set_hasPopInstruction_Injected, addr 0x6de697c, size 0x44, virtual false, abstract: false, final false
   static inline void set_hasPopInstruction_Injected(::System::IntPtr _unity_self, bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isMask, addr 0x6de72f8, size 0x8, virtual false, abstract: false, final false
   inline void set_isMask(bool value);
 
@@ -357,17 +370,19 @@ protected:
   constexpr CanvasRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CanvasRenderer(CanvasRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CanvasRenderer(CanvasRenderer const&) = delete;
+  CanvasRenderer(CanvasRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22113 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <isMask>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____isMask_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionDataExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionDataExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class MissionDataExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MissionDataExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionDataExtensions*, "", "MissionDataExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -23,6 +24,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MissionDataExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Name, addr 0x3756564, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::MissionObjective_ReferenceValueComparisonType comparisonType);
 
@@ -32,13 +34,13 @@ protected:
   constexpr MissionDataExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionDataExtensions(MissionDataExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionDataExtensions(MissionDataExtensions const&) = delete;
+  MissionDataExtensions(MissionDataExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15264 };

@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/Playables/zzzz__IPlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(PlayableOutput)
@@ -22,7 +23,8 @@ struct PlayableOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Playables::PlayableOutput);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::PlayableOutput, "UnityEngine.Playables", "PlayableOutput");
-// Dependencies UnityEngine.Playables.PlayableOutputHandle
+// [RequiredByNativeCode]
+// Dependencies UnityEngine.Playables.IPlayableOutput, UnityEngine.Playables.PlayableOutputHandle
 namespace UnityEngine::Playables {
 // Is value type: true
 // CS Name: UnityEngine.Playables.PlayableOutput
@@ -45,8 +47,11 @@ public:
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   /// @brief Method IsPlayableOutputOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool IsPlayableOutputOfType();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableOutput*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline bool IsPlayableOutputOfType();
 
+  /// [VisibleToOtherModules]
   /// @brief Method .ctor, addr 0x6b05ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
@@ -67,7 +72,7 @@ public:
   // @brief default ctor
   constexpr PlayableOutput();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None, comment: None }]
   constexpr PlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

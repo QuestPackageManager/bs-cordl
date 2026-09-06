@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SkinnedMeshRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/SkinnedMeshRenderer.hpp"
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -683,7 +683,7 @@ inline void UnityEngine::SkinnedMeshRenderer::BakeMesh(::UnityEngine::Mesh* mesh
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SkinnedMeshRenderer*>(), { "BakeMesh", {}, { ::i2c::type_of<::UnityEngine::Mesh*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mesh);
 }
-inline void UnityEngine::SkinnedMeshRenderer::BakeMesh(::UnityEngine::Mesh* mesh, bool useScale) {
+inline void UnityEngine::SkinnedMeshRenderer::BakeMesh(/* [NotNull] */ ::UnityEngine::Mesh* mesh, bool useScale) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SkinnedMeshRenderer*>(), { "BakeMesh", {}, { ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mesh, useScale);

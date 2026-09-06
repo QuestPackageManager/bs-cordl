@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\Tracing\EventSource.hpp"
+// IWYU pragma private; include "System/Diagnostics/Tracing/EventSource.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
@@ -66,8 +66,8 @@ inline void System::Diagnostics::Tracing::EventSource_EventData::set_Reserved(in
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Tracing::EventSource_EventData>(), { "set_Reserved", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_DataPointer_k__BackingField", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Size_k__BackingField", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_Reserved_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_DataPointer_k__BackingField", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Size_k__BackingField", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Reserved_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Diagnostics::Tracing::EventSource_EventData::EventSource_EventData(::System::IntPtr _DataPointer_k__BackingField, int32_t _Size_k__BackingField,
                                                                                        int32_t _Reserved_k__BackingField) noexcept {
   this->_DataPointer_k__BackingField = _DataPointer_k__BackingField;
@@ -423,7 +423,7 @@ inline void System::Diagnostics::Tracing::EventSource::WriteEvent(int32_t eventI
                                                                                          { "WriteEvent", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventId, arg1, arg2);
 }
-inline void System::Diagnostics::Tracing::EventSource::WriteEvent(int32_t eventId, ::ArrayW<::System::Object*> args) {
+inline void System::Diagnostics::Tracing::EventSource::WriteEvent(int32_t eventId, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Tracing::EventSource*>(),
                                                                                          { "WriteEvent", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventId, args);

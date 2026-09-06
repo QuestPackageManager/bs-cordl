@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarSystemIdentifier.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarSystemIdentifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct AvatarSystemIdentifier;
 // Write type traits
 MARK_VAL_T(::BeatSaber::AvatarCore::AvatarSystemIdentifier);
 DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarSystemIdentifier, "BeatSaber.AvatarCore", "AvatarSystemIdentifier");
+// [IsReadOnly]
 // Dependencies
 namespace BeatSaber::AvatarCore {
 // Is value type: true
@@ -58,7 +59,8 @@ public:
   // @brief default ctor
   constexpr AvatarSystemIdentifier();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hash", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "hash", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr AvatarSystemIdentifier(::StringW value, uint32_t hash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

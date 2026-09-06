@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\ThreadedSeedGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/ThreadedSeedGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr ThreadedSeedGenerator_SeedGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator_SeedGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator_SeedGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadedSeedGenerator_SeedGenerator(ThreadedSeedGenerator_SeedGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator_SeedGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator_SeedGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadedSeedGenerator_SeedGenerator(ThreadedSeedGenerator_SeedGenerator const&) = delete;
+  ThreadedSeedGenerator_SeedGenerator(ThreadedSeedGenerator_SeedGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1117 };
@@ -120,13 +120,13 @@ protected:
   constexpr ThreadedSeedGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadedSeedGenerator(ThreadedSeedGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadedSeedGenerator(ThreadedSeedGenerator const&) = delete;
+  ThreadedSeedGenerator(ThreadedSeedGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1118 };

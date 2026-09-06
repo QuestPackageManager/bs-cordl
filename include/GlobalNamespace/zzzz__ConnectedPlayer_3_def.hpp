@@ -1,17 +1,24 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConnectedPlayer_3.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConnectedPlayer_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerStateHash_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectedPlayer_3)
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class ConnectedPlayerManager_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class ConnectedPlayerManager_3;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
@@ -32,7 +39,10 @@ namespace GlobalNamespace {
 class PlayerConnectedPacket;
 }
 namespace GlobalNamespace {
-template <typename TGameSpecificIdentityData> class PlayerIdentityPacket_1;
+template <typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> &&
+           ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class PlayerIdentityPacket_1;
 }
 namespace GlobalNamespace {
 class PlayerSortOrderPacket;
@@ -45,15 +55,22 @@ class PlayerStatePacket;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class ConnectedPlayer_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> &&
+           ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> &&
+           ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class ConnectedPlayer_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ConnectedPlayer_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ConnectedPlayer_3, "", "ConnectedPlayer`3");
-// Dependencies DisconnectedReason, PlayerStateHash, System.Object
+// Dependencies DisconnectedReason, IConnectedPlayer, LiteNetLib.Utils.INetSerializable, PlayerStateHash, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> &&
+           ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> &&
+           ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 // Is value type: false
 // CS Name: ConnectedPlayer`3<TConnectedPlayer,TConnectedPlayerImpl,TGameSpecificIdentityData>
 class CORDL_TYPE ConnectedPlayer_3 : public ::System::Object {
@@ -161,7 +178,7 @@ public:
   /// @brief Method Disconnect, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method GetGameSpecificPlayerIdentityData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetGameSpecificPlayerIdentityData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TGameSpecificIdentityData GetGameSpecificPlayerIdentityData();
 
   /// @brief Method GetPlayerConnectedPacket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -393,13 +410,13 @@ protected:
   constexpr ConnectedPlayer_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayer_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayer_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectedPlayer_3(ConnectedPlayer_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayer_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayer_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectedPlayer_3(ConnectedPlayer_3 const&) = delete;
+  ConnectedPlayer_3(ConnectedPlayer_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18119 };

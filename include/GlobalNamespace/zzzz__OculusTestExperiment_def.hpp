@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OculusTestExperiment.hpp"
+// IWYU pragma private; include "GlobalNamespace/OculusTestExperiment.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr OculusTestExperiment_ExperimentData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment_ExperimentData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment_ExperimentData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusTestExperiment_ExperimentData(OculusTestExperiment_ExperimentData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment_ExperimentData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment_ExperimentData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusTestExperiment_ExperimentData(OculusTestExperiment_ExperimentData const&) = delete;
+  OculusTestExperiment_ExperimentData(OculusTestExperiment_ExperimentDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14859 };
@@ -102,6 +102,7 @@ static_assert(offsetof(::GlobalNamespace::OculusTestExperiment_ExperimentData, _
 static_assert(sizeof(::GlobalNamespace::OculusTestExperiment_ExperimentData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -115,6 +116,7 @@ public:
   /// @brief Method MoveNext, addr 0x370a1dc, size 0x470, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x370a64c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -125,9 +127,9 @@ public:
   // @brief default ctor
   constexpr OculusTestExperiment__Init_d__3();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusTestExperiment*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusTestExperiment*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr OculusTestExperiment__Init_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::OculusTestExperiment* __4__this,
                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
@@ -177,6 +179,8 @@ public:
   /// @brief Field _experimentModel, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__experimentModel, put = __cordl_internal_set__experimentModel)) ::GlobalNamespace::IExperimentModel* _experimentModel;
 
+  /// [AsyncStateMachine(typeof(OculusTestExperiment::<Init>d__3))]
+  /// [Inject]
   /// @brief Method Init, addr 0x370a124, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
@@ -197,13 +201,13 @@ protected:
   constexpr OculusTestExperiment();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusTestExperiment(OculusTestExperiment&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusTestExperiment(OculusTestExperiment const&) = delete;
+  OculusTestExperiment(OculusTestExperimentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14861 };
@@ -211,6 +215,7 @@ public:
   /// @brief Field kIsInTest1Key offset 0xffffffff size 0x8
   static constexpr ::ConstString kIsInTest1Key{ u"beatsaber_experiments:test_parameter" };
 
+  /// [Inject]
   /// @brief Field _experimentModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IExperimentModel* ____experimentModel;
 

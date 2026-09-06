@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RichPresenceManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/RichPresenceManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -281,44 +281,54 @@ protected:
   constexpr RichPresenceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RichPresenceManager(RichPresenceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichPresenceManager(RichPresenceManager const&) = delete;
+  RichPresenceManager(RichPresenceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6653 };
 
+  /// [Inject]
   /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::StandardLevelScenesTransitionSetupData* ____standardLevelScenesTransitionSetupData;
 
+  /// [Inject]
   /// @brief Field _tutorialScenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::TutorialScenesTransitionSetupData* ____tutorialScenesTransitionSetupData;
 
+  /// [Inject]
   /// @brief Field _missionLevelScenesTransitionSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::MissionLevelScenesTransitionSetupData* ____missionLevelScenesTransitionSetupData;
 
+  /// [Inject]
   /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* ____multiplayerLevelScenesTransitionSetupData;
 
+  /// [Inject]
   /// @brief Field _menuScenesTransitionSetupData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::MenuScenesTransitionSetupData* ____menuScenesTransitionSetupData;
 
+  /// [Inject]
   /// @brief Field _richPresencePlatformHandler, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IRichPresencePlatformHandler* ____richPresencePlatformHandler;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
+  /// [Inject]
   /// @brief Field _lobbyGameStateModel, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::LobbyGameStateModel* ____lobbyGameStateModel;
 
+  /// [Inject]
   /// @brief Field _unifiedNetworkPlayerModel, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IUnifiedNetworkPlayerModel* ____unifiedNetworkPlayerModel;
 
+  /// [Inject]
   /// @brief Field _lobbyPlayerPermissionsModel, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::LobbyPlayerPermissionsModel* ____lobbyPlayerPermissionsModel;
 

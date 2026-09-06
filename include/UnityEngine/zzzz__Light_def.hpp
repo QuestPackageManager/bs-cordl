@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Light.hpp"
+// IWYU pragma private; include "UnityEngine/Light.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,10 @@ class Light;
 // Write type traits
 MARK_REF_T(::UnityEngine::Light*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Light*, "UnityEngine", "Light");
+// [NativeHeader("Runtime/Export/Graphics/Light.bindings.h")]
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeHeader("Runtime/Camera/Light.h")]
+// [RequireComponent(typeof(UnityEngine.Transform))]
 // Dependencies UnityEngine.Behaviour, UnityEngine.LightShape
 namespace UnityEngine {
 // Is value type: false
@@ -94,6 +98,7 @@ public:
 
   __declspec(property(get = get_spotAngle)) float_t spotAngle;
 
+  /// @brief [NativeProperty("LightType")]
   __declspec(property(get = get_type)) ::UnityEngine::LightType type;
 
   __declspec(property(get = get_useColorTemperature)) bool useColorTemperature;
@@ -223,6 +228,7 @@ public:
   /// @brief Method get_shadowStrength_Injected, addr 0x6aa4530, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_shadowStrength_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("GetShadowType")]
   /// @brief Method get_shadows, addr 0x6aa43f4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::LightShadows get_shadows();
 
@@ -271,17 +277,19 @@ protected:
   constexpr Light();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Light", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Light", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Light(Light&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Light", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Light", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Light(Light const&) = delete;
+  Light(Lightconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10168 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <shape>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::LightShape ____shape_k__BackingField;
 

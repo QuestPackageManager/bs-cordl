@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRResources.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRResources.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRResources_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRResources_def.hpp"
@@ -174,8 +174,8 @@ inline ::OVR::OpenVR::IVRResources__GetResourceFullPath* OVR::OpenVR::IVRResourc
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRResources__GetResourceFullPath::IVRResources__GetResourceFullPath() {}
-// Ctor Parameters [CppParam { name: "LoadSharedResource", ty: "::OVR::OpenVR::IVRResources__LoadSharedResource*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetResourceFullPath", ty:
-// "::OVR::OpenVR::IVRResources__GetResourceFullPath*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "LoadSharedResource", ty: "::OVR::OpenVR::IVRResources__LoadSharedResource*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetResourceFullPath", ty: "::OVR::OpenVR::IVRResources__GetResourceFullPath*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IVRResources::IVRResources(::OVR::OpenVR::IVRResources__LoadSharedResource* LoadSharedResource,
                                                     ::OVR::OpenVR::IVRResources__GetResourceFullPath* GetResourceFullPath) noexcept {
   this->LoadSharedResource = LoadSharedResource;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UnsafeMeshGenerationNode.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UnsafeMeshGenerationNode.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UnsafeMeshGenerationNode_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
@@ -153,7 +153,7 @@ inline ::UnityEngine::UIElements::UIR::Entry* UnityEngine::UIElements::UnsafeMes
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UnsafeMeshGenerationNode>(), { "GetParentEntry", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::Entry*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UnsafeMeshGenerationNode::UnsafeMeshGenerationNode(::System::Runtime::InteropServices::GCHandle m_Handle) noexcept {
   this->m_Handle = m_Handle;
 }

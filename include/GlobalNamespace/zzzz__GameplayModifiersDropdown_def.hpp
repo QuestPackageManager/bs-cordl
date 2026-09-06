@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifiersDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifiersDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::GlobalNamespace::GameplayModifiersDropdown*);
 MARK_REF_T(::GlobalNamespace::GameplayModifiersDropdown___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayModifiersDropdown*, "", "GameplayModifiersDropdown");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayModifiersDropdown___c*, "", "GameplayModifiersDropdown/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -82,13 +83,13 @@ protected:
   constexpr GameplayModifiersDropdown___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersDropdown___c(GameplayModifiersDropdown___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersDropdown___c(GameplayModifiersDropdown___c const&) = delete;
+  GameplayModifiersDropdown___c(GameplayModifiersDropdown___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6891 };
@@ -173,15 +174,18 @@ public:
   /// @brief Method .ctor, addr 0x59402b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <get_gameplayModifiersData>b__9_0, addr 0x59402b8, size 0x160, virtual false, abstract: false, final false
   inline ::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* _get_gameplayModifiersData_b__9_0(::GlobalNamespace::GameplayModifierMask value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x593f9f4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Method get_gameplayModifiersData, addr 0x593fb74, size 0x1e8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* get_gameplayModifiersData();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x593fab4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
@@ -191,13 +195,13 @@ protected:
   constexpr GameplayModifiersDropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersDropdown(GameplayModifiersDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersDropdown(GameplayModifiersDropdown const&) = delete;
+  GameplayModifiersDropdown(GameplayModifiersDropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6892 };
@@ -208,12 +212,15 @@ public:
   /// @brief Field kModifierNoneLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kModifierNoneLocalizationKey{ u"MODIFIER_NONE" };
 
+  /// [SerializeField]
   /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___didSelectCellWithIdxEvent;
 

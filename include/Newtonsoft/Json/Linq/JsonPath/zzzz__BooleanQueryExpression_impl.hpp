@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\BooleanQueryExpression.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/BooleanQueryExpression.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__BooleanQueryExpression_def.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_def.hpp"
@@ -143,7 +143,8 @@ constexpr void Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Right = value;
 }
-inline void Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator, ::System::Object* left, ::System::Object* right) {
+inline void Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator, ::System::Object* left,
+                                                                            /* [Nullable(2)] */ ::System::Object* right) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression*>(),
@@ -151,7 +152,7 @@ inline void Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::_ctor(::Ne
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_operator, left, right);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
-Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::GetResult(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, ::System::Object* o) {
+Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::GetResult(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, /* [Nullable(2)] */ ::System::Object* o) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression*>(),
@@ -159,13 +160,13 @@ Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::GetResult(::Newtonsoft
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(this, ___internal_method, root, t, o);
 }
 inline bool Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t,
-                                                                              ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+                                                                              /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, root, t, settings);
 }
 inline bool Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::MatchTokens(::Newtonsoft::Json::Linq::JToken* leftResult, ::Newtonsoft::Json::Linq::JToken* rightResult,
-                                                                                  ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+                                                                                  /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression*>(),
                                                                                          { "MatchTokens",
                                                                                            {},
@@ -174,7 +175,7 @@ inline bool Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::MatchToken
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, leftResult, rightResult, settings);
 }
 inline bool Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::RegexEquals(::Newtonsoft::Json::Linq::JValue* input, ::Newtonsoft::Json::Linq::JValue* pattern,
-                                                                                  ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+                                                                                  /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression*>(),
                                                                                          { "RegexEquals",
                                                                                            {},
@@ -195,7 +196,8 @@ inline bool Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::EqualsWith
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, value, queryValue);
 }
 inline ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression* Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::New_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator,
-                                                                                                                                      ::System::Object* left, ::System::Object* right) {
+                                                                                                                                      ::System::Object* left,
+                                                                                                                                      /* [Nullable(2)] */ ::System::Object* right) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression*>(_cordl_operator, left, right));
 }
 // Ctor Parameters []

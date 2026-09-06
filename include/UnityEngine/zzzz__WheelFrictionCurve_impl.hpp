@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\WheelFrictionCurve.hpp"
+// IWYU pragma private; include "UnityEngine/WheelFrictionCurve.hpp"
 #include "UnityEngine/zzzz__WheelFrictionCurve_def.hpp"
 //  Writing Method size for method: ::UnityEngine::WheelFrictionCurve.get_extremumSlip
 template <>
@@ -171,9 +171,9 @@ inline void UnityEngine::WheelFrictionCurve::set_stiffness(float_t value) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::WheelFrictionCurve>(), { "set_stiffness", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_ExtremumSlip", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ExtremumValue", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_AsymptoteSlip", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AsymptoteValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Stiffness", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ExtremumSlip", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ExtremumValue", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_AsymptoteSlip", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AsymptoteValue", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Stiffness", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::WheelFrictionCurve::WheelFrictionCurve(float_t m_ExtremumSlip, float_t m_ExtremumValue, float_t m_AsymptoteSlip, float_t m_AsymptoteValue, float_t m_Stiffness) noexcept {
   this->m_ExtremumSlip = m_ExtremumSlip;
   this->m_ExtremumValue = m_ExtremumValue;

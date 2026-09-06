@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\TransferOwnershipOnSelect.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/TransferOwnershipOnSelect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ protected:
   constexpr TransferOwnershipOnSelect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransferOwnershipOnSelect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransferOwnershipOnSelect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransferOwnershipOnSelect(TransferOwnershipOnSelect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransferOwnershipOnSelect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransferOwnershipOnSelect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransferOwnershipOnSelect(TransferOwnershipOnSelect const&) = delete;
+  TransferOwnershipOnSelect(TransferOwnershipOnSelectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20880 };

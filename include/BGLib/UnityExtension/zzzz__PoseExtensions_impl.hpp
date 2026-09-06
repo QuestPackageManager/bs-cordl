@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\PoseExtensions.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/PoseExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__PoseExtensions_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"

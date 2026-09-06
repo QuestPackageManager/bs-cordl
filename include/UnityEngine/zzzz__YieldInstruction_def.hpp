@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\YieldInstruction.hpp"
+// IWYU pragma private; include "UnityEngine/YieldInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class YieldInstruction;
 // Write type traits
 MARK_REF_T(::UnityEngine::YieldInstruction*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::YieldInstruction*, "UnityEngine", "YieldInstruction");
+// [UsedByNativeCode]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr YieldInstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "YieldInstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "YieldInstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   YieldInstruction(YieldInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "YieldInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "YieldInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  YieldInstruction(YieldInstruction const&) = delete;
+  YieldInstruction(YieldInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10389 };

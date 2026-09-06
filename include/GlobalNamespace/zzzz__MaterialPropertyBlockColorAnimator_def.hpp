@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockColorAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockColorAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class MaterialPropertyBlockColorAnimator;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MaterialPropertyBlockColorAnimator*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MaterialPropertyBlockColorAnimator*, "", "MaterialPropertyBlockColorAnimator");
+// [ExecuteAlways]
 // Dependencies MaterialPropertyBlockAnimator, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
@@ -54,17 +55,19 @@ protected:
   constexpr MaterialPropertyBlockColorAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockColorAnimator(MaterialPropertyBlockColorAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockColorAnimator(MaterialPropertyBlockColorAnimator const&) = delete;
+  MaterialPropertyBlockColorAnimator(MaterialPropertyBlockColorAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19567 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _color, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 

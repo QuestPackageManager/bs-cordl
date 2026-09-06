@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\BuddyAllocation.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/BuddyAllocation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,8 @@ public:
   // @brief default ctor
   constexpr BuddyAllocation();
 
-  // Ctor Parameters [CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr BuddyAllocation(int32_t level, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

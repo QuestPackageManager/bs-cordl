@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\IsisMtt\X509\DeclarationOfMajority.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/IsisMtt/X509/DeclarationOfMajority.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   // @brief default ctor
   constexpr DeclarationOfMajority_Choice();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DeclarationOfMajority_Choice(int32_t value__) noexcept;
 
   /// @brief Field DateOfBirth value: I32(2)
@@ -176,13 +176,13 @@ protected:
   constexpr DeclarationOfMajority();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeclarationOfMajority", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeclarationOfMajority", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeclarationOfMajority(DeclarationOfMajority&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeclarationOfMajority", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeclarationOfMajority", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeclarationOfMajority(DeclarationOfMajority const&) = delete;
+  DeclarationOfMajority(DeclarationOfMajorityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 186 };

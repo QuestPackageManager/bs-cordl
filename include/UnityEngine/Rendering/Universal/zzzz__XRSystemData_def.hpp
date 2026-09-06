@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\XRSystemData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRSystemData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::XRSystemData*);
 MARK_REF_T(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XRSystemData*, "UnityEngine.Rendering.Universal", "XRSystemData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources*, "UnityEngine.Rendering.Universal", "XRSystemData/ShaderResources");
+// [ReloadGroup]
+// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)", false)]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -60,20 +62,22 @@ protected:
   constexpr XRSystemData_ShaderResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRSystemData_ShaderResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSystemData_ShaderResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRSystemData_ShaderResources(XRSystemData_ShaderResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRSystemData_ShaderResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSystemData_ShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRSystemData_ShaderResources(XRSystemData_ShaderResources const&) = delete;
+  XRSystemData_ShaderResources(XRSystemData_ShaderResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12741 };
 
+  /// [Reload("Shaders/XR/XROcclusionMesh.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field xrOcclusionMeshPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___xrOcclusionMeshPS;
 
+  /// [Reload("Shaders/XR/XRMirrorView.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field xrMirrorViewPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___xrMirrorViewPS;
 
@@ -87,6 +91,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::XRSystemData_ShaderR
 static_assert(sizeof(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)", false)]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -116,17 +121,18 @@ protected:
   constexpr XRSystemData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRSystemData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSystemData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRSystemData(XRSystemData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRSystemData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSystemData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRSystemData(XRSystemData const&) = delete;
+  XRSystemData(XRSystemDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12742 };
 
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)", false)]
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources* ___shaders;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventInterests.hpp"
+// IWYU pragma private; include "UnityEngine/EventInterests.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ struct EventInterests;
 // Write type traits
 MARK_VAL_T(::UnityEngine::EventInterests);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventInterests, "UnityEngine", "EventInterests");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -34,18 +35,26 @@ public:
   /// @brief Method WantsLayoutPass, addr 0x6b40e90, size 0x104, virtual false, abstract: false, final false
   inline bool WantsLayoutPass(::UnityEngine::EventType type);
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_wantsLessLayoutEvents, addr 0x6b40e58, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsLessLayoutEvents();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x6b40e48, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsMouseEnterLeaveWindow();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_wantsMouseMove, addr 0x6b40e38, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsMouseMove();
 
+  /// [CompilerGenerated]
   /// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x6b40e50, size 0x8, virtual false, abstract: false, final false
   inline void set_wantsMouseEnterLeaveWindow(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_wantsMouseMove, addr 0x6b40e40, size 0x8, virtual false, abstract: false, final false
   inline void set_wantsMouseMove(bool value);
 
@@ -53,8 +62,8 @@ public:
   // @brief default ctor
   constexpr EventInterests();
 
-  // Ctor Parameters [CppParam { name: "_wantsMouseMove_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_wantsMouseEnterLeaveWindow_k__BackingField", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "_wantsLessLayoutEvents_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_wantsMouseMove_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_wantsMouseEnterLeaveWindow_k__BackingField",
+  // ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_wantsLessLayoutEvents_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr EventInterests(bool _wantsMouseMove_k__BackingField, bool _wantsMouseEnterLeaveWindow_k__BackingField, bool _wantsLessLayoutEvents_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -63,12 +72,18 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <wantsMouseMove>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _wantsMouseMove_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <wantsMouseEnterLeaveWindow>k__BackingField, offset: 0x1, size: 0x1, def value: None
   bool _wantsMouseEnterLeaveWindow_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <wantsLessLayoutEvents>k__BackingField, offset: 0x2, size: 0x1, def value: None
   bool _wantsLessLayoutEvents_k__BackingField;
 

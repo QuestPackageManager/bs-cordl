@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet\Core\GameLift\GetMultiplayerInstanceRequest.hpp"
+// IWYU pragma private; include "BGNet/Core/GameLift/GetMultiplayerInstanceRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ struct GetMultiplayerInstanceRequest;
 // Write type traits
 MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest);
 DEFINE_IL2CPP_CLASS(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest, "BGNet.Core.GameLift", "GetMultiplayerInstanceRequest");
+// [Preserve]
 // Dependencies AuthenticationToken::PlatformType, BeatmapLevelSelectionMask, GameplayServerConfiguration, ServiceEnvironment
 namespace BGNet::Core::GameLift {
 // Is value type: true
@@ -40,6 +41,7 @@ namespace BGNet::Core::GameLift {
 struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations
+  /// [JsonConstructor]
   /// @brief Method .ctor, addr 0x32c3380, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                     ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW privateGameSecret,
@@ -50,13 +52,14 @@ public:
   // @brief default ctor
   constexpr GetMultiplayerInstanceRequest();
 
-  // Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "serviceEnvironment", ty: "::GlobalNamespace::ServiceEnvironment", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }, CppParam { name:
-  // "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None
-  // }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: None }, CppParam { name: "gameliftRegionLatencies", ty:
-  // "::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*", modifiers: "", def_value: None }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "placementId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "customLocation", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "serviceEnvironment", ty: "::GlobalNamespace::ServiceEnvironment",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapLevelSelectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None, comment: None }, CppParam { name: "userId", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "privateGameCode", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "gameliftRegionLatencies", ty: "::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "ticketId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "customLocation", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr GetMultiplayerInstanceRequest(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                                           ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW userId, ::StringW privateGameSecret, ::StringW privateGameCode,
                                           ::GlobalNamespace::AuthenticationToken_PlatformType platform, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies,
@@ -68,39 +71,51 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
 
+  /// [JsonProperty("version")]
   /// @brief Field version, offset: 0x0, size: 0x8, def value: None
   ::StringW version;
 
+  /// [JsonProperty("service_environment")]
   /// @brief Field serviceEnvironment, offset: 0x8, size: 0x4, def value: None
   ::GlobalNamespace::ServiceEnvironment serviceEnvironment;
 
+  /// [JsonProperty("beatmap_level_selection_mask")]
   /// @brief Field beatmapLevelSelectionMask, offset: 0x10, size: 0x28, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
 
+  /// [JsonProperty("gameplay_server_configuration")]
   /// @brief Field gameplayServerConfiguration, offset: 0x38, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
 
+  /// [JsonProperty("user_id")]
   /// @brief Field userId, offset: 0x50, size: 0x8, def value: None
   ::StringW userId;
 
+  /// [JsonProperty("private_game_secret")]
   /// @brief Field privateGameSecret, offset: 0x58, size: 0x8, def value: None
   ::StringW privateGameSecret;
 
+  /// [JsonProperty("private_game_code")]
   /// @brief Field privateGameCode, offset: 0x60, size: 0x8, def value: None
   ::StringW privateGameCode;
 
+  /// [JsonProperty("platform")]
   /// @brief Field platform, offset: 0x68, size: 0x1, def value: None
   ::GlobalNamespace::AuthenticationToken_PlatformType platform;
 
+  /// [JsonProperty("gamelift_region_latencies")]
   /// @brief Field gameliftRegionLatencies, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies;
 
+  /// [JsonProperty("ticket_id")]
   /// @brief Field ticketId, offset: 0x78, size: 0x8, def value: None
   ::StringW ticketId;
 
+  /// [JsonProperty("placement_id")]
   /// @brief Field placementId, offset: 0x80, size: 0x8, def value: None
   ::StringW placementId;
 
+  /// [JsonProperty("custom_location")]
   /// @brief Field customLocation, offset: 0x88, size: 0x8, def value: None
   ::StringW customLocation;
 

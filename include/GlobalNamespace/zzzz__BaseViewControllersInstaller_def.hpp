@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BaseViewControllersInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/BaseViewControllersInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,20 +61,22 @@ protected:
   constexpr BaseViewControllersInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseViewControllersInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseViewControllersInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseViewControllersInstaller(BaseViewControllersInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseViewControllersInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseViewControllersInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseViewControllersInstaller(BaseViewControllersInstaller const&) = delete;
+  BaseViewControllersInstaller(BaseViewControllersInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6299 };
 
+  /// [SerializeField]
   /// @brief Field _simpleDialogPromptViewControllerPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> ____simpleDialogPromptViewControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _safeAreaFocusedSimpleDialogPromptViewControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController> ____safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StringExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/StringExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,9 @@ class StringExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StringExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StringExtensions*, "", "StringExtensions");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -25,12 +28,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AnyContains, addr 0x330d448, size 0x88, virtual false, abstract: false, final false
   static inline bool AnyContains(::ArrayW<::StringW> stringArray, ::StringW value, ::System::StringComparison stringComparison);
 
+  /// [Extension]
   /// @brief Method Contains, addr 0x330d420, size 0x28, virtual false, abstract: false, final false
-  static inline bool Contains(::StringW source, ::StringW substring, ::System::StringComparison comp);
+  static inline bool Contains(/* [Nullable(2)] */ ::StringW source, ::StringW substring, ::System::StringComparison comp);
 
+  /// [Extension]
   /// @brief Method Truncate, addr 0x330d364, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis);
 
@@ -40,13 +46,13 @@ protected:
   constexpr StringExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringExtensions(StringExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringExtensions(StringExtensions const&) = delete;
+  StringExtensions(StringExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20473 };

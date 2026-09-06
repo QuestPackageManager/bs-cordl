@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AvatarMask.hpp"
+// IWYU pragma private; include "UnityEngine/AvatarMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,10 @@ class AvatarMask;
 // Write type traits
 MARK_REF_T(::UnityEngine::AvatarMask*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AvatarMask*, "UnityEngine", "AvatarMask");
+// [MovedFrom(true, "UnityEditor.Animations", "UnityEditor", null)]
+// [NativeHeader("Modules/Animation/AvatarMask.h")]
+// [NativeHeader("Modules/Animation/ScriptBindings/Animation.bindings.h")]
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -33,6 +37,7 @@ public:
   // Declarations
   __declspec(property(get = get_transformCount)) int32_t transformCount;
 
+  /// [NativeMethod("GetBodyPart")]
   /// @brief Method GetHumanoidBodyPartActive, addr 0x6a46c50, size 0x90, virtual false, abstract: false, final false
   inline bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index);
 
@@ -54,8 +59,9 @@ public:
   /// @brief Method GetTransformWeight_Injected, addr 0x6a47004, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetTransformWeight_Injected(::System::IntPtr _unity_self, int32_t index);
 
+  /// [FreeFunction("AnimationBindings::CreateAvatarMask")]
   /// @brief Method Internal_Create, addr 0x6a46c14, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Create(::UnityEngine::AvatarMask* self);
+  static inline void Internal_Create(/* [Writable] */ ::UnityEngine::AvatarMask* self);
 
   static inline ::UnityEngine::AvatarMask* New_ctor();
 
@@ -74,13 +80,13 @@ protected:
   constexpr AvatarMask();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarMask(AvatarMask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarMask(AvatarMask const&) = delete;
+  AvatarMask(AvatarMaskconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20237 };

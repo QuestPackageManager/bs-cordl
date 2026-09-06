@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SmallIntegerArray.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SmallIntegerArray.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__FixedList32Bytes_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SmallIntegerArray_def.hpp"
@@ -118,9 +118,10 @@ constexpr UnityEngine::Rendering::SmallIntegerArray::operator ::System::IDisposa
 constexpr ::System::IDisposable* UnityEngine::Rendering::SmallIntegerArray::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_FixedArray", ty: "::Unity::Collections::FixedList32Bytes_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_List", ty:
-// "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IsEmbedded", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_Valid_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_FixedArray", ty: "::Unity::Collections::FixedList32Bytes_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_List", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IsEmbedded", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_Valid_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SmallIntegerArray::SmallIntegerArray(::Unity::Collections::FixedList32Bytes_1<int32_t> m_FixedArray,
                                                                          ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<int32_t> m_List, bool m_IsEmbedded, bool _Valid_k__BackingField,
                                                                          int32_t Length) noexcept {

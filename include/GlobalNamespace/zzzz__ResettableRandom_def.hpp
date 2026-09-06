@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ResettableRandom.hpp"
+// IWYU pragma private; include "GlobalNamespace/ResettableRandom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ public:
   /// @brief Method HandleDeterminismSet, addr 0x3326708, size 0x8c, virtual false, abstract: false, final false
   inline void HandleDeterminismSet(bool isDeterministic);
 
+  /// @brief [NullableContext(1)]
   static inline ::GlobalNamespace::ResettableRandom* New_ctor(::GlobalNamespace::DeterminismConfig* determinismConfig, int32_t fixedSeed);
 
   /// @brief Method Sample, addr 0x3326794, size 0x1c, virtual true, abstract: false, final true
@@ -77,6 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x3326654, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::DeterminismConfig* determinismConfig, int32_t fixedSeed);
 
@@ -92,23 +94,25 @@ protected:
   constexpr ResettableRandom();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResettableRandom", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResettableRandom", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResettableRandom(ResettableRandom&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResettableRandom", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResettableRandom", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResettableRandom(ResettableRandom const&) = delete;
+  ResettableRandom(ResettableRandomconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20751 };
 
+  /// [Nullable(1)]
   /// @brief Field _determinismConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
 
   /// @brief Field _fixedSeed, offset: 0x18, size: 0x4, def value: None
   int32_t ____fixedSeed;
 
+  /// [Nullable(1)]
   /// @brief Field _random, offset: 0x20, size: 0x8, def value: None
   ::System::Random* ____random;
 

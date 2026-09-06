@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VFXController.hpp"
+// IWYU pragma private; include "GlobalNamespace/VFXController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ MARK_REF_T(::GlobalNamespace::VFXController*);
 MARK_REF_T(::GlobalNamespace::VFXController__MainCoroutine_d__9*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::VFXController*, "", "VFXController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::VFXController__MainCoroutine_d__9*, "", "VFXController/<MainCoroutine>d__9");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -81,17 +82,22 @@ public:
   /// @brief Method MoveNext, addr 0x58589b8, size 0x180, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::VFXController__MainCoroutine_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5858b38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5858b40, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5858b78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x58589b4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -125,6 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x58589a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -143,13 +150,13 @@ protected:
   constexpr VFXController__MainCoroutine_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXController__MainCoroutine_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXController__MainCoroutine_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXController__MainCoroutine_d__9(VFXController__MainCoroutine_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXController__MainCoroutine_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXController__MainCoroutine_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXController__MainCoroutine_d__9(VFXController__MainCoroutine_d__9 const&) = delete;
+  VFXController__MainCoroutine_d__9(VFXController__MainCoroutine_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21426 };
@@ -210,6 +217,7 @@ public:
   /// @brief Method Awake, addr 0x58587f8, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
+  /// [IteratorStateMachine(typeof(VFXController::<MainCoroutine>d__9))]
   /// @brief Method MainCoroutine, addr 0x5858930, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float_t duration);
 
@@ -251,23 +259,28 @@ protected:
   constexpr VFXController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXController(VFXController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXController(VFXController const&) = delete;
+  VFXController(VFXControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21427 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _particleSystems, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>> ____particleSystems;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _animation, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animation> ____animation;
 
+  /// [SerializeField]
   /// @brief Field _deactivateAfterAnimationDuration, offset: 0x30, size: 0x1, def value: None
   bool ____deactivateAfterAnimationDuration;
 

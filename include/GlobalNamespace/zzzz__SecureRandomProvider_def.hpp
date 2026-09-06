@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SecureRandomProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/SecureRandomProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ protected:
   constexpr SecureRandomProvider_SecureRandomState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider_SecureRandomState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider_SecureRandomState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider_SecureRandomState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider_SecureRandomState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomState const&) = delete;
+  SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18281 };
@@ -162,13 +162,13 @@ protected:
   constexpr SecureRandomProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecureRandomProvider(SecureRandomProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureRandomProvider(SecureRandomProvider const&) = delete;
+  SecureRandomProvider(SecureRandomProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18282 };

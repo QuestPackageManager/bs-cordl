@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\SerializedCommand.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/SerializedCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,11 +30,12 @@ public:
   // @brief default ctor
   constexpr SerializedCommand();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::UIR::SerializedCommandType", modifiers: "", def_value: None }, CppParam { name: "vertexBuffer", ty: "::System::IntPtr",
-  // modifiers: "", def_value: None }, CppParam { name: "indexBuffer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "firstRange", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "rangeCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureName", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "gpuDataOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "gpuData0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "gpuData1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::UIR::SerializedCommandType", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexBuffer", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexBuffer", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "firstRange", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rangeCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "textureName", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "gpuDataOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gpuData0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "gpuData1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr SerializedCommand(::UnityEngine::UIElements::UIR::SerializedCommandType type, ::System::IntPtr vertexBuffer, ::System::IntPtr indexBuffer, int32_t firstRange, int32_t rangeCount,
                               int32_t textureName, ::UnityW<::UnityEngine::Texture> texture, int32_t gpuDataOffset, ::UnityEngine::Vector4 gpuData0, ::UnityEngine::Vector4 gpuData1) noexcept;
 

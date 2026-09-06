@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Focusable.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Focusable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,11 +31,13 @@ public:
   __declspec(property(get = __cordl_internal_get__isEligibleToReceiveFocusFromDisabledChild_k__BackingField,
                       put = __cordl_internal_set__isEligibleToReceiveFocusFromDisabledChild_k__BackingField)) bool _isEligibleToReceiveFocusFromDisabledChild_k__BackingField;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_canGrabFocus)) bool canGrabFocus;
 
   /// @brief Field canGrabFocusProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_canGrabFocusProperty, put = setStaticF_canGrabFocusProperty)) ::UnityEngine::UIElements::BindingId canGrabFocusProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_delegatesFocus, put = set_delegatesFocus)) bool delegatesFocus;
 
   /// @brief Field delegatesFocusProperty, offset 0xffffffff, size 0x98
@@ -45,6 +47,7 @@ public:
 
   __declspec(property(get = get_focusController)) ::UnityEngine::UIElements::FocusController* focusController;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_focusable, put = set_focusable)) bool focusable;
 
   /// @brief Field focusableProperty, offset 0xffffffff, size 0x98
@@ -64,6 +67,7 @@ public:
   /// @brief Field m_TabIndex, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_m_TabIndex, put = __cordl_internal_set_m_TabIndex)) int32_t m_TabIndex;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_tabIndex, put = set_tabIndex)) int32_t tabIndex;
 
   /// @brief Field tabIndexProperty, offset 0xffffffff, size 0x98
@@ -72,6 +76,7 @@ public:
   /// @brief Method Blur, addr 0x6da7aa8, size 0x38, virtual true, abstract: false, final false
   inline void Blur();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method BlurImmediately, addr 0x6da7b38, size 0x38, virtual false, abstract: false, final false
   inline void BlurImmediately();
 
@@ -136,12 +141,13 @@ public:
   /// @brief Method get_excludeFromFocusRing, addr 0x6da7770, size 0x8, virtual false, abstract: false, final false
   inline bool get_excludeFromFocusRing();
 
-  /// @brief Method get_focusController, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_focusController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
   /// @brief Method get_focusable, addr 0x6da763c, size 0x8, virtual true, abstract: false, final false
   inline bool get_focusable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isEligibleToReceiveFocusFromDisabledChild, addr 0x6da785c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEligibleToReceiveFocusFromDisabledChild();
 
@@ -165,6 +171,7 @@ public:
   /// @brief Method set_focusable, addr 0x6da7644, size 0x8c, virtual true, abstract: false, final false
   inline void set_focusable(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isEligibleToReceiveFocusFromDisabledChild, addr 0x6da7864, size 0x8, virtual false, abstract: false, final false
   inline void set_isEligibleToReceiveFocusFromDisabledChild(bool value);
 
@@ -177,13 +184,13 @@ protected:
   constexpr Focusable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Focusable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Focusable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Focusable(Focusable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Focusable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Focusable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Focusable(Focusable const&) = delete;
+  Focusable(Focusableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4579 };
@@ -200,6 +207,8 @@ public:
   /// @brief Field m_ExcludeFromFocusRing, offset: 0x29, size: 0x1, def value: None
   bool ___m_ExcludeFromFocusRing;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isEligibleToReceiveFocusFromDisabledChild>k__BackingField, offset: 0x2a, size: 0x1, def value: None
   bool ____isEligibleToReceiveFocusFromDisabledChild_k__BackingField;
 

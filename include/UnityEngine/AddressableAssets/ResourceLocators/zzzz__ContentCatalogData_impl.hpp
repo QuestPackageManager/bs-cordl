@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\ResourceLocators\ContentCatalogData.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/ResourceLocators/ContentCatalogData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__SerializedType_impl.hpp"
@@ -14,7 +14,8 @@
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationMap_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_def.hpp"
-// Ctor Parameters [CppParam { name: "dataOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "entries", ty: "::ArrayW<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "dataOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "entries", ty: "::ArrayW<int32_t>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData_Bucket::ContentCatalogData_Bucket(int32_t dataOffset, ::ArrayW<int32_t> entries) noexcept {
   this->dataOffset = dataOffset;
   this->entries = entries;

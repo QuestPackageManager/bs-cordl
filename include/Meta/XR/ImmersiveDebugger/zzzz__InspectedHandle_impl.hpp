@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedHandle.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedHandle.hpp"
 #include "Meta/XR/ImmersiveDebugger/Utils/zzzz__InstanceHandle_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__InspectedItemBase_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__InspectedHandle_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\SceneManager.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/SceneManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__SceneManager_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -639,7 +639,7 @@ inline ::UnityEngine::AsyncOperation* UnityEngine::SceneManagement::SceneManager
                                          { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::SceneManagement::LoadSceneParameters>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AsyncOperation*>(nullptr, ___internal_method, sceneName, sceneBuildIndex, parameters, mustCompleteNextFrame);
 }
-inline void UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene(::UnityEngine::GameObject* go, ::UnityEngine::SceneManagement::Scene scene) {
+inline void UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene(/* [NotNull] */ ::UnityEngine::GameObject* go, ::UnityEngine::SceneManagement::Scene scene) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
                                               { "MoveGameObjectToScene", {}, { ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<::UnityEngine::SceneManagement::Scene>() } })));
@@ -698,7 +698,7 @@ UnityEngine::SceneManagement::SceneManager::remove_activeSceneChanged(::UnityEng
           { "remove_activeSceneChanged", {}, { ::i2c::type_of<::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline void UnityEngine::SceneManagement::SceneManager::LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode mode) {
+inline void UnityEngine::SceneManagement::SceneManager::LoadScene(::StringW sceneName, /* [DefaultValue("LoadSceneMode.Single")] */ ::UnityEngine::SceneManagement::LoadSceneMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
                                                            { "LoadScene", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::SceneManagement::LoadSceneMode>() } })));
@@ -715,7 +715,7 @@ inline ::UnityEngine::SceneManagement::Scene UnityEngine::SceneManagement::Scene
                                                            { "LoadScene", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::SceneManagement::LoadSceneParameters>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::SceneManagement::Scene>(nullptr, ___internal_method, sceneName, parameters);
 }
-inline void UnityEngine::SceneManagement::SceneManager::LoadScene(int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneMode mode) {
+inline void UnityEngine::SceneManagement::SceneManager::LoadScene(int32_t sceneBuildIndex, /* [DefaultValue("LoadSceneMode.Single")] */ ::UnityEngine::SceneManagement::LoadSceneMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
                                                            { "LoadScene", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::SceneManagement::LoadSceneMode>() } })));
@@ -727,7 +727,8 @@ inline ::UnityEngine::SceneManagement::Scene UnityEngine::SceneManagement::Scene
                                                            { "LoadScene", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::SceneManagement::LoadSceneParameters>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::SceneManagement::Scene>(nullptr, ___internal_method, sceneBuildIndex, parameters);
 }
-inline ::UnityEngine::AsyncOperation* UnityEngine::SceneManagement::SceneManager::LoadSceneAsync(int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneMode mode) {
+inline ::UnityEngine::AsyncOperation* UnityEngine::SceneManagement::SceneManager::LoadSceneAsync(int32_t sceneBuildIndex,
+                                                                                                 /* [DefaultValue("LoadSceneMode.Single")] */ ::UnityEngine::SceneManagement::LoadSceneMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
                                                            { "LoadSceneAsync", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::SceneManagement::LoadSceneMode>() } })));
@@ -739,7 +740,8 @@ inline ::UnityEngine::AsyncOperation* UnityEngine::SceneManagement::SceneManager
                                                            { "LoadSceneAsync", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::SceneManagement::LoadSceneParameters>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AsyncOperation*>(nullptr, ___internal_method, sceneBuildIndex, parameters);
 }
-inline ::UnityEngine::AsyncOperation* UnityEngine::SceneManagement::SceneManager::LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode mode) {
+inline ::UnityEngine::AsyncOperation* UnityEngine::SceneManagement::SceneManager::LoadSceneAsync(::StringW sceneName,
+                                                                                                 /* [DefaultValue("LoadSceneMode.Single")] */ ::UnityEngine::SceneManagement::LoadSceneMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
                                                            { "LoadSceneAsync", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::SceneManagement::LoadSceneMode>() } })));

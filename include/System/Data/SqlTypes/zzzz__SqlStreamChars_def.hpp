@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlStreamChars.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlStreamChars.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,16 +28,16 @@ public:
 
   __declspec(property(get = get_Position)) int64_t Position;
 
-  /// @brief Method Read, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Read(::ArrayW<char16_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Seek, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method get_Length, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_Position();
 
 protected:
@@ -46,13 +46,13 @@ protected:
   constexpr SqlStreamChars();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SqlStreamChars", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SqlStreamChars", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SqlStreamChars(SqlStreamChars&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SqlStreamChars", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SqlStreamChars", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SqlStreamChars(SqlStreamChars const&) = delete;
+  SqlStreamChars(SqlStreamCharsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13907 };

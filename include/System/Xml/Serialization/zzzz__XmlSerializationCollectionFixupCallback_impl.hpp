@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlSerializationCollectionFixupCallback.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializationCollectionFixupCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializationCollectionFixupCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

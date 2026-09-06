@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\NoReflectionBakingAttribute.hpp"
+// IWYU pragma private; include "Zenject/NoReflectionBakingAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class NoReflectionBakingAttribute;
 // Write type traits
 MARK_REF_T(::Zenject::NoReflectionBakingAttribute*);
 DEFINE_IL2CPP_CLASS(::Zenject::NoReflectionBakingAttribute*, "Zenject", "NoReflectionBakingAttribute");
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace Zenject {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr NoReflectionBakingAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoReflectionBakingAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoReflectionBakingAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoReflectionBakingAttribute(NoReflectionBakingAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoReflectionBakingAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoReflectionBakingAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoReflectionBakingAttribute(NoReflectionBakingAttribute const&) = delete;
+  NoReflectionBakingAttribute(NoReflectionBakingAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22611 };

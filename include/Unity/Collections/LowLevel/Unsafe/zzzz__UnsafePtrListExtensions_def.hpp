@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafePtrListExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafePtrListExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,10 +9,14 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeList_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafePtrList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafePtrList_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -21,6 +25,8 @@ class UnsafePtrListExtensions;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::UnsafePtrListExtensions*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafePtrListExtensions*, "Unity.Collections.LowLevel.Unsafe", "UnsafePtrListExtensions");
+// [Extension]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -28,12 +34,19 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE UnsafePtrListExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ListData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::System::IntPtr>> ListData(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T>> from);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ListDataRO, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::System::IntPtr> ListDataRO(::Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T> from);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::System::IntPtr> ListDataRO(::Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T> from);
 
 protected:
   // Ctor Parameters []
@@ -41,13 +54,13 @@ protected:
   constexpr UnsafePtrListExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafePtrListExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafePtrListExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafePtrListExtensions(UnsafePtrListExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafePtrListExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafePtrListExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafePtrListExtensions(UnsafePtrListExtensions const&) = delete;
+  UnsafePtrListExtensions(UnsafePtrListExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15786 };

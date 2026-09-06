@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorNoteVisuals.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorNoteVisuals.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_impl.hpp"

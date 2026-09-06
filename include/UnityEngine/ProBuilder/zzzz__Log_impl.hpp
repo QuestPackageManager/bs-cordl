@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Log.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Log.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogLevel_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogOutput_impl.hpp"
@@ -283,12 +283,12 @@ inline void UnityEngine::ProBuilder::Log::Debug(::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Log*>(), { "Debug", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void UnityEngine::ProBuilder::Log::Debug(::StringW format, ::ArrayW<::System::Object*> values) {
+inline void UnityEngine::ProBuilder::Log::Debug(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Log*>(), { "Debug", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, values);
 }
-inline void UnityEngine::ProBuilder::Log::Info(::StringW format, ::ArrayW<::System::Object*> values) {
+inline void UnityEngine::ProBuilder::Log::Info(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Log*>(), { "Info", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, values);
@@ -297,7 +297,7 @@ inline void UnityEngine::ProBuilder::Log::Info(::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Log*>(), { "Info", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void UnityEngine::ProBuilder::Log::Warning(::StringW format, ::ArrayW<::System::Object*> values) {
+inline void UnityEngine::ProBuilder::Log::Warning(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Log*>(), { "Warning", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, values);
@@ -306,7 +306,7 @@ inline void UnityEngine::ProBuilder::Log::Warning(::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Log*>(), { "Warning", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void UnityEngine::ProBuilder::Log::Error(::StringW format, ::ArrayW<::System::Object*> values) {
+inline void UnityEngine::ProBuilder::Log::Error(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Log*>(), { "Error", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, values);

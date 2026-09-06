@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\AnalyticsEventBase.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/AnalyticsEventBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__SendEventOptions_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_def.hpp"

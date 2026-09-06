@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\OculusAdvancedHapticFeedbackPlayer.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/OculusAdvancedHapticFeedbackPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,13 +100,13 @@ protected:
   constexpr OculusAdvancedHapticFeedbackPlayer_HapticPlayerState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer_HapticPlayerState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer_HapticPlayerState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusAdvancedHapticFeedbackPlayer_HapticPlayerState(OculusAdvancedHapticFeedbackPlayer_HapticPlayerState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer_HapticPlayerState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer_HapticPlayerState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusAdvancedHapticFeedbackPlayer_HapticPlayerState(OculusAdvancedHapticFeedbackPlayer_HapticPlayerState const&) = delete;
+  OculusAdvancedHapticFeedbackPlayer_HapticPlayerState(OculusAdvancedHapticFeedbackPlayer_HapticPlayerStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23190 };
@@ -253,17 +253,18 @@ protected:
   constexpr OculusAdvancedHapticFeedbackPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusAdvancedHapticFeedbackPlayer(OculusAdvancedHapticFeedbackPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusAdvancedHapticFeedbackPlayer(OculusAdvancedHapticFeedbackPlayer const&) = delete;
+  OculusAdvancedHapticFeedbackPlayer(OculusAdvancedHapticFeedbackPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23191 };
 
+  /// [Inject]
   /// @brief Field _vrPlatformHelper, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 

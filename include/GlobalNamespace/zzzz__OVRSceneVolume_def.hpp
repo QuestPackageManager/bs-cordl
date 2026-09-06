@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneVolume.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneVolume.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,11 @@ class OVRSceneVolume;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRSceneVolume*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRSceneVolume*, "", "OVRSceneVolume");
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(OVRSceneAnchor))]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-scene-use-scene-anchors/#further-scene-model-unity-components")]
+// [Obsolete("OVRSceneManager and associated classes are deprecated (v65), please use MR Utility Kit instead (https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview)")]
+// [Feature((Meta.XR.Util.Feature)7)]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -130,15 +135,18 @@ public:
   /// @brief Method .ctor, addr 0x5ed00fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Depth, addr 0x5ecfdc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Depth();
 
   /// @brief Method get_Dimensions, addr 0x5ecfdd0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Dimensions();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Height, addr 0x5ecfdb0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Height();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Offset, addr 0x5ecfddc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Offset();
 
@@ -148,18 +156,22 @@ public:
   /// @brief Method get_ScaleChildren, addr 0x5ecfdf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ScaleChildren();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Width, addr 0x5ecfda0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Width();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
   constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Depth, addr 0x5ecfdc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Depth(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Height, addr 0x5ecfdb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Height(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Offset, addr 0x5ecfde8, size 0xc, virtual false, abstract: false, final false
   inline void set_Offset(::UnityEngine::Vector3 value);
 
@@ -169,6 +181,7 @@ public:
   /// @brief Method set_ScaleChildren, addr 0x5ecfdfc, size 0x28, virtual false, abstract: false, final false
   inline void set_ScaleChildren(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Width, addr 0x5ecfda8, size 0x8, virtual false, abstract: false, final false
   inline void set_Width(float_t value);
 
@@ -178,32 +191,40 @@ protected:
   constexpr OVRSceneVolume();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolume", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolume", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSceneVolume(OVRSceneVolume&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolume", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneVolume(OVRSceneVolume const&) = delete;
+  OVRSceneVolume(OVRSceneVolumeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7694 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Width>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____Width_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Height>k__BackingField, offset: 0x24, size: 0x4, def value: None
   float_t ____Height_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Depth>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____Depth_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Offset>k__BackingField, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____Offset_k__BackingField;
 
+  /// [Tooltip("When enabled, scales the child transforms according to the dimensions of this volume. If both Volume and Plane components exist on the game object, the volume takes precedence.")]
+  /// [SerializeField]
   /// @brief Field _scaleChildren, offset: 0x38, size: 0x1, def value: None
   bool ____scaleChildren;
 
+  /// [Tooltip("When enabled, offsets the child transforms according to the offset of this volume. If both Volume and Plane components exist on the game object, the volume takes precedence.")]
+  /// [SerializeField]
   /// @brief Field _offsetChildren, offset: 0x39, size: 0x1, def value: None
   bool ____offsetChildren;
 

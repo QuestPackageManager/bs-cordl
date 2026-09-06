@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextureBlitter.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureBlitter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -17,9 +17,9 @@
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
-// Ctor Parameters [CppParam { name: "src", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "srcRect", ty: "::UnityEngine::RectInt", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "dstPos", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "border", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "tint", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "src", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "srcRect", ty: "::UnityEngine::RectInt",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dstPos", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "border",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tint", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo::TextureBlitter_BlitInfo(::UnityW<::UnityEngine::Texture> src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos,
                                                                                            int32_t border, ::UnityEngine::Color tint) noexcept {
   this->src = src;

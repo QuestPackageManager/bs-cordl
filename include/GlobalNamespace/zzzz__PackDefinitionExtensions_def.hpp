@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PackDefinitionExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/PackDefinitionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,6 +94,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderb
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1*, "", "PackDefinitionExtensions/<GetRiftLeaderboardIds>d__1");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2*, "", "PackDefinitionExtensions/<GetSteamLeaderboardIds>d__2");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*, "", "PackDefinitionExtensions/<GetSteamLevelProductPacks>d__4");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -145,23 +146,30 @@ public:
   /// @brief Method MoveNext, addr 0x372d6b4, size 0x2f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<OculusLevelProductPacksSO>.GetEnumerator, addr 0x372daa0, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<OculusLevelProductPacksSO>.get_Current, addr 0x372da58, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x372db38, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x372da60, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x372da98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x372d698, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -204,6 +212,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x372d9a4, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x372d558, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -230,13 +239,13 @@ protected:
   constexpr PackDefinitionExtensions__GetOculusLevelProductPacks_d__3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetOculusLevelProductPacks_d__3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetOculusLevelProductPacks_d__3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionExtensions__GetOculusLevelProductPacks_d__3(PackDefinitionExtensions__GetOculusLevelProductPacks_d__3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetOculusLevelProductPacks_d__3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetOculusLevelProductPacks_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetOculusLevelProductPacks_d__3(PackDefinitionExtensions__GetOculusLevelProductPacks_d__3 const&) = delete;
+  PackDefinitionExtensions__GetOculusLevelProductPacks_d__3(PackDefinitionExtensions__GetOculusLevelProductPacks_d__3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15011 };
@@ -277,6 +286,7 @@ static_assert(offsetof(::GlobalNamespace::PackDefinitionExtensions__GetOculusLev
 static_assert(sizeof(::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -328,23 +338,30 @@ public:
   /// @brief Method MoveNext, addr 0x372db58, size 0x2e4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<PerceivedLoudnessSO>.GetEnumerator, addr 0x372df38, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<PerceivedLoudnessSO>.get_Current, addr 0x372def0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x372dfd0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x372def8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x372df30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x372db3c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -387,6 +404,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x372de3c, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x372d678, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -413,13 +431,13 @@ protected:
   constexpr PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5(PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5(PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5 const&) = delete;
+  PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5(PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15012 };
@@ -460,6 +478,7 @@ static_assert(offsetof(::GlobalNamespace::PackDefinitionExtensions__GetPerceived
 static_assert(sizeof(::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -511,23 +530,30 @@ public:
   /// @brief Method MoveNext, addr 0x372dff0, size 0x2f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x372e3dc, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x372e394, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x372e474, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x372e39c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x372e3d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x372dfd4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -570,6 +596,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x372e2e0, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x372d3a8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -596,13 +623,13 @@ protected:
   constexpr PackDefinitionExtensions__GetQuestLeaderboardIds_d__0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetQuestLeaderboardIds_d__0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetQuestLeaderboardIds_d__0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionExtensions__GetQuestLeaderboardIds_d__0(PackDefinitionExtensions__GetQuestLeaderboardIds_d__0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetQuestLeaderboardIds_d__0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetQuestLeaderboardIds_d__0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetQuestLeaderboardIds_d__0(PackDefinitionExtensions__GetQuestLeaderboardIds_d__0 const&) = delete;
+  PackDefinitionExtensions__GetQuestLeaderboardIds_d__0(PackDefinitionExtensions__GetQuestLeaderboardIds_d__0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15013 };
@@ -643,6 +670,7 @@ static_assert(offsetof(::GlobalNamespace::PackDefinitionExtensions__GetQuestLead
 static_assert(sizeof(::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -694,23 +722,30 @@ public:
   /// @brief Method MoveNext, addr 0x372e494, size 0x2f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x372e880, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x372e838, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x372e918, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x372e840, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x372e878, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x372e478, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -753,6 +788,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x372e784, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x372d438, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -779,13 +815,13 @@ protected:
   constexpr PackDefinitionExtensions__GetRiftLeaderboardIds_d__1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetRiftLeaderboardIds_d__1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetRiftLeaderboardIds_d__1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionExtensions__GetRiftLeaderboardIds_d__1(PackDefinitionExtensions__GetRiftLeaderboardIds_d__1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetRiftLeaderboardIds_d__1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetRiftLeaderboardIds_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetRiftLeaderboardIds_d__1(PackDefinitionExtensions__GetRiftLeaderboardIds_d__1 const&) = delete;
+  PackDefinitionExtensions__GetRiftLeaderboardIds_d__1(PackDefinitionExtensions__GetRiftLeaderboardIds_d__1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15014 };
@@ -826,6 +862,7 @@ static_assert(offsetof(::GlobalNamespace::PackDefinitionExtensions__GetRiftLeade
 static_assert(sizeof(::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -877,23 +914,30 @@ public:
   /// @brief Method MoveNext, addr 0x372e938, size 0x2f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x372ed24, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x372ecdc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x372edbc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x372ece4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x372ed1c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x372e91c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -936,6 +980,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x372ec28, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x372d4c8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -962,13 +1007,13 @@ protected:
   constexpr PackDefinitionExtensions__GetSteamLeaderboardIds_d__2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLeaderboardIds_d__2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLeaderboardIds_d__2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionExtensions__GetSteamLeaderboardIds_d__2(PackDefinitionExtensions__GetSteamLeaderboardIds_d__2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLeaderboardIds_d__2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLeaderboardIds_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetSteamLeaderboardIds_d__2(PackDefinitionExtensions__GetSteamLeaderboardIds_d__2 const&) = delete;
+  PackDefinitionExtensions__GetSteamLeaderboardIds_d__2(PackDefinitionExtensions__GetSteamLeaderboardIds_d__2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15015 };
@@ -1009,6 +1054,7 @@ static_assert(offsetof(::GlobalNamespace::PackDefinitionExtensions__GetSteamLead
 static_assert(sizeof(::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1060,23 +1106,30 @@ public:
   /// @brief Method MoveNext, addr 0x372eddc, size 0x2f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<SteamLevelProductPacksSO>.GetEnumerator, addr 0x372f1c8, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<SteamLevelProductPacksSO>.get_Current, addr 0x372f180, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x372f260, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x372f188, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x372f1c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x372edc0, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -1119,6 +1172,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x372f0cc, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x372d5e8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -1145,13 +1199,13 @@ protected:
   constexpr PackDefinitionExtensions__GetSteamLevelProductPacks_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLevelProductPacks_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLevelProductPacks_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionExtensions__GetSteamLevelProductPacks_d__4(PackDefinitionExtensions__GetSteamLevelProductPacks_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLevelProductPacks_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLevelProductPacks_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetSteamLevelProductPacks_d__4(PackDefinitionExtensions__GetSteamLevelProductPacks_d__4 const&) = delete;
+  PackDefinitionExtensions__GetSteamLevelProductPacks_d__4(PackDefinitionExtensions__GetSteamLevelProductPacks_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15016 };
@@ -1192,6 +1246,7 @@ static_assert(offsetof(::GlobalNamespace::PackDefinitionExtensions__GetSteamLeve
 static_assert(sizeof(::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1211,26 +1266,38 @@ public:
 
   using _GetSteamLevelProductPacks_d__4 = ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4;
 
+  /// [IteratorStateMachine(typeof(PackDefinitionExtensions::<GetOculusLevelProductPacks>d__3))]
+  /// [Extension]
   /// @brief Method GetOculusLevelProductPacks, addr 0x372d4e8, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
   GetOculusLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
+  /// [IteratorStateMachine(typeof(PackDefinitionExtensions::<GetPerceivedLoudnessSOs>d__5))]
+  /// [Extension]
   /// @brief Method GetPerceivedLoudnessSOs, addr 0x372d608, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
   GetPerceivedLoudnessSOs(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
+  /// [IteratorStateMachine(typeof(PackDefinitionExtensions::<GetQuestLeaderboardIds>d__0))]
+  /// [Extension]
   /// @brief Method GetQuestLeaderboardIds, addr 0x372d338, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
   GetQuestLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
+  /// [IteratorStateMachine(typeof(PackDefinitionExtensions::<GetRiftLeaderboardIds>d__1))]
+  /// [Extension]
   /// @brief Method GetRiftLeaderboardIds, addr 0x372d3c8, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
   GetRiftLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
+  /// [IteratorStateMachine(typeof(PackDefinitionExtensions::<GetSteamLeaderboardIds>d__2))]
+  /// [Extension]
   /// @brief Method GetSteamLeaderboardIds, addr 0x372d458, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
   GetSteamLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
+  /// [IteratorStateMachine(typeof(PackDefinitionExtensions::<GetSteamLevelProductPacks>d__4))]
+  /// [Extension]
   /// @brief Method GetSteamLevelProductPacks, addr 0x372d578, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
   GetSteamLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
@@ -1241,13 +1308,13 @@ protected:
   constexpr PackDefinitionExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionExtensions(PackDefinitionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions(PackDefinitionExtensions const&) = delete;
+  PackDefinitionExtensions(PackDefinitionExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15017 };

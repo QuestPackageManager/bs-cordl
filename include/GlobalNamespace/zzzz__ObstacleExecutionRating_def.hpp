@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleExecutionRating.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleExecutionRating.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   // @brief default ctor
   constexpr ObstacleExecutionRating_Rating();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ObstacleExecutionRating_Rating(int32_t value__) noexcept;
 
   /// @brief Field NotGood value: I32(1)
@@ -104,6 +104,7 @@ public:
   /// @brief Method .ctor, addr 0x373f1ec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::ObstacleExecutionRating_Rating rating);
 
+  /// [CompilerGenerated]
   /// @brief Method get_rating, addr 0x373f1e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleExecutionRating_Rating get_rating();
 
@@ -113,17 +114,18 @@ protected:
   constexpr ObstacleExecutionRating();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleExecutionRating", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleExecutionRating", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleExecutionRating(ObstacleExecutionRating&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleExecutionRating", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleExecutionRating", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleExecutionRating(ObstacleExecutionRating const&) = delete;
+  ObstacleExecutionRating(ObstacleExecutionRatingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15125 };
 
+  /// [CompilerGenerated]
   /// @brief Field <rating>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::ObstacleExecutionRating_Rating ____rating_k__BackingField;
 

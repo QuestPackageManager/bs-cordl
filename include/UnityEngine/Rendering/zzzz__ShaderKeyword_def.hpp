@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderKeyword.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderKeyword.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,9 @@ struct ShaderKeyword;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ShaderKeyword);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ShaderKeyword, "UnityEngine.Rendering", "ShaderKeyword");
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Shaders/Keywords/KeywordSpaceScriptBindings.h")]
+// [NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -26,15 +29,18 @@ public:
   // Declarations
   __declspec(property(get = get_name)) ::StringW name;
 
+  /// [FreeFunction("ShaderScripting::CreateGlobalKeyword")]
   /// @brief Method CreateGlobalKeyword, addr 0x6b2de98, size 0x124, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword(::StringW keyword);
 
   /// @brief Method CreateGlobalKeyword_Injected, addr 0x6b2dfbc, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
+  /// [FreeFunction("ShaderScripting::GetGlobalKeywordCount")]
   /// @brief Method GetGlobalKeywordCount, addr 0x6b2dd08, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordCount();
 
+  /// [FreeFunction("ShaderScripting::GetGlobalKeywordIndex")]
   /// @brief Method GetGlobalKeywordIndex, addr 0x6b2dd30, size 0x12c, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordIndex(::StringW keyword);
 
@@ -54,9 +60,9 @@ public:
   // @brief default ctor
   constexpr ShaderKeyword();
 
-  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_IsLocal", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_IsCompute", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_IsValid", ty: "bool", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_IsLocal", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IsCompute", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_IsValid", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderKeyword(::StringW m_Name, uint32_t m_Index, bool m_IsLocal, bool m_IsCompute, bool m_IsValid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

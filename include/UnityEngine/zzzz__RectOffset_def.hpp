@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RectOffset.hpp"
+// IWYU pragma private; include "UnityEngine/RectOffset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ protected:
   constexpr RectOffset_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectOffset_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectOffset_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectOffset_BindingsMarshaller(RectOffset_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectOffset_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectOffset_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectOffset_BindingsMarshaller(RectOffset_BindingsMarshaller const&) = delete;
+  RectOffset_BindingsMarshaller(RectOffset_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10122 };
@@ -71,6 +71,8 @@ public:
 static_assert(sizeof(::UnityEngine::RectOffset_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/IMGUI/GUIStyle.h")]
+// [UsedByNativeCode]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -80,10 +82,12 @@ public:
   // Declarations
   using BindingsMarshaller = ::UnityEngine::RectOffset_BindingsMarshaller;
 
+  /// @brief [NativeProperty("bottom", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_bottom, put = set_bottom)) int32_t bottom;
 
   __declspec(property(get = get_horizontal)) int32_t horizontal;
 
+  /// @brief [NativeProperty("left", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_left, put = set_left)) int32_t left;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
@@ -92,8 +96,10 @@ public:
   /// @brief Field m_SourceStyle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SourceStyle, put = __cordl_internal_set_m_SourceStyle)) ::System::Object* m_SourceStyle;
 
+  /// @brief [NativeProperty("right", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_right, put = set_right)) int32_t right;
 
+  /// @brief [NativeProperty("top", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(get = get_top, put = set_top)) int32_t top;
 
   __declspec(property(get = get_vertical)) int32_t vertical;
@@ -107,9 +113,11 @@ public:
   /// @brief Method Finalize, addr 0x6a828d8, size 0x88, virtual true, abstract: false, final false
   inline void Finalize();
 
+  /// [ThreadAndSerializationSafe]
   /// @brief Method InternalCreate, addr 0x6a828a8, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr InternalCreate();
 
+  /// [ThreadAndSerializationSafe]
   /// @brief Method InternalDestroy, addr 0x6a82f08, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroy(::System::IntPtr ptr);
 
@@ -117,6 +125,7 @@ public:
 
   static inline ::UnityEngine::RectOffset* New_ctor(int32_t left, int32_t right, int32_t top, int32_t bottom);
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
   static inline ::UnityEngine::RectOffset* New_ctor(::System::Object* sourceStyle, ::System::IntPtr source);
 
   /// @brief Method Remove, addr 0x6a8325c, size 0x78, virtual false, abstract: false, final false
@@ -149,6 +158,7 @@ public:
   /// @brief Method .ctor, addr 0x6a829ac, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t left, int32_t right, int32_t top, int32_t bottom);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
   /// @brief Method .ctor, addr 0x6a828d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* sourceStyle, ::System::IntPtr source);
 
@@ -221,17 +231,18 @@ protected:
   constexpr RectOffset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectOffset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectOffset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectOffset(RectOffset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectOffset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectOffset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectOffset(RectOffset const&) = delete;
+  RectOffset(RectOffsetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10123 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 

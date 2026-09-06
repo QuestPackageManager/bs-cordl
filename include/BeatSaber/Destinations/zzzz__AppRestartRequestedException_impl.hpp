@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\AppRestartRequestedException.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/AppRestartRequestedException.hpp"
 #include "BeatSaber/Destinations/zzzz__InitialDestinationException_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__AppRestartRequestedException_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Destinations::AppRestartRequestedException._ctor

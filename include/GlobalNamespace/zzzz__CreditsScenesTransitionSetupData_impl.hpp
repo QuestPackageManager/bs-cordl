@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CreditsScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/CreditsScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__CreditsScenesTransitionSetupData_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

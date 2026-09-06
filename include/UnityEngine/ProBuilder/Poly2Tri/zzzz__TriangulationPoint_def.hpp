@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\TriangulationPoint.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,6 +84,7 @@ public:
   /// @brief Method .ctor, addr 0x66abdd4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(double_t x, double_t y, int32_t index);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Edges, addr 0x66b2000, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();
 
@@ -96,6 +97,7 @@ public:
   /// @brief Method get_Yf, addr 0x66b2140, size 0xc, virtual false, abstract: false, final false
   inline float_t get_Yf();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Edges, addr 0x66b2008, size 0x8, virtual false, abstract: false, final false
   inline void set_Edges(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
 
@@ -111,13 +113,13 @@ protected:
   constexpr TriangulationPoint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TriangulationPoint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TriangulationPoint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TriangulationPoint(TriangulationPoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TriangulationPoint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TriangulationPoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TriangulationPoint(TriangulationPoint const&) = delete;
+  TriangulationPoint(TriangulationPointconst&) = delete;
 
   /// @brief Field INSERTED_INDEX offset 0xffffffff size 0x4
   static constexpr int32_t INSERTED_INDEX{ static_cast<int32_t>(0xffffffff) };
@@ -128,6 +130,7 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21781 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Edges>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* ____Edges_k__BackingField;
 

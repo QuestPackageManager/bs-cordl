@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\BitConverter.hpp"
+// IWYU pragma private; include "System/BitConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__BitConverter_def.hpp"
 #include "System/Buffers/zzzz__SpanAction_2_def.hpp"
@@ -51,7 +51,8 @@ inline void System::BitConverter___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::BitConverter___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void System::BitConverter___c::_ToString_b__38_0(::System::Span_1<char16_t> dst, ::System::ValueTuple_3<::ArrayW<uint8_t>, int32_t, int32_t> state) {
+inline void System::BitConverter___c::_ToString_b__38_0(::System::Span_1<char16_t> dst,
+                                                        /* [TupleElementNames(new[] { "value", "startIndex", "length" })] */ ::System::ValueTuple_3<::ArrayW<uint8_t>, int32_t, int32_t> state) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::BitConverter___c*>(),

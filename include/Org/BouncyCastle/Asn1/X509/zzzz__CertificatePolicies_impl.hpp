@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\CertificatePolicies.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/CertificatePolicies.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__PolicyInformation_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__CertificatePolicies_def.hpp"

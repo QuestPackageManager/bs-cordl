@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderData.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   // @brief default ctor
   constexpr SliderData_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SliderData_Type(int32_t value__) noexcept;
 
   /// @brief Field Burst value: I32(1)
@@ -437,147 +437,193 @@ public:
                     ::GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset, ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount,
                     float_t squishAmount);
 
+  /// [CompilerGenerated]
   /// @brief Method get_colorType, addr 0x325d88c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
   /// @brief Method get_cuttableSliceCount, addr 0x325d9ec, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_cuttableSliceCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasHeadNote, addr 0x325d8ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasHeadNote();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasHeadSlider, addr 0x325d8bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasHeadSlider();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasTailNote, addr 0x325d92c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasTailNote();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasTailSlider, addr 0x325d93c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasTailSlider();
 
+  /// [CompilerGenerated]
   /// @brief Method get_headBeforeJumpLineLayer, addr 0x325d8fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_headBeforeJumpLineLayer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_headControlPointLengthMultiplier, addr 0x325d8cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headControlPointLengthMultiplier();
 
+  /// [CompilerGenerated]
   /// @brief Method get_headCutDirection, addr 0x325d90c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_headCutDirection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_headCutDirectionAngleOffset, addr 0x325d91c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headCutDirectionAngleOffset();
 
+  /// [CompilerGenerated]
   /// @brief Method get_headLineIndex, addr 0x325d8dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_headLineIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_headLineLayer, addr 0x325d8ec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_headLineLayer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_midAnchorMode, addr 0x325d9cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderMidAnchorMode get_midAnchorMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_sliceCount, addr 0x325d9dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sliceCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_sliderType, addr 0x325d89c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderData_Type get_sliderType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_squishAmount, addr 0x325da04, size 0x8, virtual false, abstract: false, final false
   inline float_t get_squishAmount();
 
   /// @brief Method get_subtypeGroupIdentifier, addr 0x325d884, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeGroupIdentifier();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tailBeforeJumpLineLayer, addr 0x325d99c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_tailBeforeJumpLineLayer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tailControlPointLengthMultiplier, addr 0x325d97c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailControlPointLengthMultiplier();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tailCutDirection, addr 0x325d9ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_tailCutDirection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tailCutDirectionAngleOffset, addr 0x325d9bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailCutDirectionAngleOffset();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tailLineIndex, addr 0x325d96c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tailLineIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tailLineLayer, addr 0x325d98c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_tailLineLayer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tailRotation, addr 0x325d95c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tailRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tailTime, addr 0x325d94c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailTime();
 
+  /// [CompilerGenerated]
   /// @brief Method set_colorType, addr 0x325d894, size 0x8, virtual false, abstract: false, final false
   inline void set_colorType(::GlobalNamespace::ColorType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasHeadNote, addr 0x325d8b4, size 0x8, virtual false, abstract: false, final false
   inline void set_hasHeadNote(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasHeadSlider, addr 0x325d8c4, size 0x8, virtual false, abstract: false, final false
   inline void set_hasHeadSlider(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasTailNote, addr 0x325d934, size 0x8, virtual false, abstract: false, final false
   inline void set_hasTailNote(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasTailSlider, addr 0x325d944, size 0x8, virtual false, abstract: false, final false
   inline void set_hasTailSlider(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_headBeforeJumpLineLayer, addr 0x325d904, size 0x8, virtual false, abstract: false, final false
   inline void set_headBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_headControlPointLengthMultiplier, addr 0x325d8d4, size 0x8, virtual false, abstract: false, final false
   inline void set_headControlPointLengthMultiplier(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_headCutDirection, addr 0x325d914, size 0x8, virtual false, abstract: false, final false
   inline void set_headCutDirection(::GlobalNamespace::NoteCutDirection value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_headCutDirectionAngleOffset, addr 0x325d924, size 0x8, virtual false, abstract: false, final false
   inline void set_headCutDirectionAngleOffset(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_headLineIndex, addr 0x325d8e4, size 0x8, virtual false, abstract: false, final false
   inline void set_headLineIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_headLineLayer, addr 0x325d8f4, size 0x8, virtual false, abstract: false, final false
   inline void set_headLineLayer(::GlobalNamespace::NoteLineLayer value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_midAnchorMode, addr 0x325d9d4, size 0x8, virtual false, abstract: false, final false
   inline void set_midAnchorMode(::GlobalNamespace::SliderMidAnchorMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_sliceCount, addr 0x325d9e4, size 0x8, virtual false, abstract: false, final false
   inline void set_sliceCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_sliderType, addr 0x325d8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_sliderType(::GlobalNamespace::SliderData_Type value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_squishAmount, addr 0x325da0c, size 0x8, virtual false, abstract: false, final false
   inline void set_squishAmount(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tailBeforeJumpLineLayer, addr 0x325d9a4, size 0x8, virtual false, abstract: false, final false
   inline void set_tailBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tailControlPointLengthMultiplier, addr 0x325d984, size 0x8, virtual false, abstract: false, final false
   inline void set_tailControlPointLengthMultiplier(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tailCutDirection, addr 0x325d9b4, size 0x8, virtual false, abstract: false, final false
   inline void set_tailCutDirection(::GlobalNamespace::NoteCutDirection value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tailCutDirectionAngleOffset, addr 0x325d9c4, size 0x8, virtual false, abstract: false, final false
   inline void set_tailCutDirectionAngleOffset(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tailLineIndex, addr 0x325d974, size 0x8, virtual false, abstract: false, final false
   inline void set_tailLineIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tailLineLayer, addr 0x325d994, size 0x8, virtual false, abstract: false, final false
   inline void set_tailLineLayer(::GlobalNamespace::NoteLineLayer value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tailRotation, addr 0x325d964, size 0x8, virtual false, abstract: false, final false
   inline void set_tailRotation(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tailTime, addr 0x325d954, size 0x8, virtual false, abstract: false, final false
   inline void set_tailTime(float_t value);
 
@@ -587,83 +633,106 @@ protected:
   constexpr SliderData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderData(SliderData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderData(SliderData const&) = delete;
+  SliderData(SliderDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21276 };
 
+  /// [CompilerGenerated]
   /// @brief Field <colorType>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ____colorType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <sliderType>k__BackingField, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::SliderData_Type ____sliderType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasHeadNote>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____hasHeadNote_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasHeadSlider>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____hasHeadSlider_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <headControlPointLengthMultiplier>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   float_t ____headControlPointLengthMultiplier_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <headLineIndex>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____headLineIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <headLineLayer>k__BackingField, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ____headLineLayer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <headBeforeJumpLineLayer>k__BackingField, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ____headBeforeJumpLineLayer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <headCutDirection>k__BackingField, offset: 0x4c, size: 0x4, def value: None
   ::GlobalNamespace::NoteCutDirection ____headCutDirection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <headCutDirectionAngleOffset>k__BackingField, offset: 0x50, size: 0x4, def value: None
   float_t ____headCutDirectionAngleOffset_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasTailNote>k__BackingField, offset: 0x54, size: 0x1, def value: None
   bool ____hasTailNote_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasTailSlider>k__BackingField, offset: 0x55, size: 0x1, def value: None
   bool ____hasTailSlider_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tailTime>k__BackingField, offset: 0x58, size: 0x4, def value: None
   float_t ____tailTime_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tailRotation>k__BackingField, offset: 0x5c, size: 0x4, def value: None
   int32_t ____tailRotation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tailLineIndex>k__BackingField, offset: 0x60, size: 0x4, def value: None
   int32_t ____tailLineIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tailControlPointLengthMultiplier>k__BackingField, offset: 0x64, size: 0x4, def value: None
   float_t ____tailControlPointLengthMultiplier_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tailLineLayer>k__BackingField, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ____tailLineLayer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tailBeforeJumpLineLayer>k__BackingField, offset: 0x6c, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ____tailBeforeJumpLineLayer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tailCutDirection>k__BackingField, offset: 0x70, size: 0x4, def value: None
   ::GlobalNamespace::NoteCutDirection ____tailCutDirection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tailCutDirectionAngleOffset>k__BackingField, offset: 0x74, size: 0x4, def value: None
   float_t ____tailCutDirectionAngleOffset_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <midAnchorMode>k__BackingField, offset: 0x78, size: 0x4, def value: None
   ::GlobalNamespace::SliderMidAnchorMode ____midAnchorMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <sliceCount>k__BackingField, offset: 0x7c, size: 0x4, def value: None
   int32_t ____sliceCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <squishAmount>k__BackingField, offset: 0x80, size: 0x4, def value: None
   float_t ____squishAmount_k__BackingField;
 

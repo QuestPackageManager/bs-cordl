@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceCullerViewStats.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceCullerViewStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr InstanceCullerViewStats();
 
-  // Ctor Parameters [CppParam { name: "viewType", ty: "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: None }, CppParam { name: "viewInstanceID", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "splitIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleInstances", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "drawCommands", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewType", ty: "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewInstanceID", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "splitIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleInstances", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCommands", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceCullerViewStats(::UnityEngine::Rendering::BatchCullingViewType viewType, int32_t viewInstanceID, int32_t splitIndex, int32_t visibleInstances, int32_t drawCommands) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

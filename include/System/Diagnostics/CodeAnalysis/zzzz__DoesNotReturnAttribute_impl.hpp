@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\CodeAnalysis\DoesNotReturnAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/CodeAnalysis/DoesNotReturnAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/CodeAnalysis/zzzz__DoesNotReturnAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::CodeAnalysis::DoesNotReturnAttribute._ctor

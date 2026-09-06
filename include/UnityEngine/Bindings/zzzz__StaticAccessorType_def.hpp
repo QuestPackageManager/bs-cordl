@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\StaticAccessorType.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/StaticAccessorType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct StaticAccessorType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Bindings::StaticAccessorType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::StaticAccessorType, "UnityEngine.Bindings", "StaticAccessorType");
+// [VisibleToOtherModules]
 // Dependencies
 namespace UnityEngine::Bindings {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr StaticAccessorType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StaticAccessorType(int32_t value__) noexcept;
 
   /// @brief Field Arrow value: I32(1)

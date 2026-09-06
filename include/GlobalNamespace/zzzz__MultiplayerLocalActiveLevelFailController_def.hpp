@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActiveLevelFailController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActiveLevelFailController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ MARK_REF_T(::GlobalNamespace::MultiplayerLocalActiveLevelFailController*);
 MARK_REF_T(::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLocalActiveLevelFailController*, "", "MultiplayerLocalActiveLevelFailController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8*, "", "MultiplayerLocalActiveLevelFailController/<PlayerFailedCoroutine>d__8");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -87,17 +88,22 @@ public:
   /// @brief Method MoveNext, addr 0x59c5a4c, size 0xfc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59c5b48, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59c5b50, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59c5b88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59c5a48, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -119,6 +125,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59c59fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -137,13 +144,13 @@ protected:
   constexpr MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8(MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8(MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8 const&) = delete;
+  MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8(MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6086 };
@@ -207,6 +214,7 @@ public:
   /// @brief Method OnDestroy, addr 0x59c58a8, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [IteratorStateMachine(typeof(MultiplayerLocalActiveLevelFailController::<PlayerFailedCoroutine>d__8))]
   /// @brief Method PlayerFailedCoroutine, addr 0x59c59a8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayerFailedCoroutine();
 
@@ -258,32 +266,38 @@ protected:
   constexpr MultiplayerLocalActiveLevelFailController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActiveLevelFailController(MultiplayerLocalActiveLevelFailController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActiveLevelFailController(MultiplayerLocalActiveLevelFailController const&) = delete;
+  MultiplayerLocalActiveLevelFailController(MultiplayerLocalActiveLevelFailControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6087 };
 
+  /// [SerializeField]
   /// @brief Field _levelFailedTextEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelFailedTextEffect> ____levelFailedTextEffect;
 
+  /// [Inject]
   /// @brief Field _levelEndActionsPublisher, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* ____levelEndActionsPublisher;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectSpawnController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> ____beatmapObjectSpawnController;
 
+  /// [Inject]
   /// @brief Field _gameSongController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerPlayersManager, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 

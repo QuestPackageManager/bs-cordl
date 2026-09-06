@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlCompareOptions.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlCompareOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct SqlCompareOptions;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlCompareOptions);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlCompareOptions, "System.Data.SqlTypes", "SqlCompareOptions");
+// [Flags]
 // Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr SqlCompareOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SqlCompareOptions(int32_t value__) noexcept;
 
   /// @brief Field BinarySort value: I32(32768)

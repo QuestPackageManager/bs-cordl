@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\AudioSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/AudioSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,9 @@ public:
   // @brief default ctor
   constexpr AudioSettings();
 
-  // Ctor Parameters [CppParam { name: "volume", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ambientVolumeScale", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "latency", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "overrideLatency", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "volume", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ambientVolumeScale", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "latency", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "overrideLatency", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr AudioSettings(float_t volume, float_t ambientVolumeScale, float_t latency, bool overrideLatency) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

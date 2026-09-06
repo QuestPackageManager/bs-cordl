@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\Memory\MemoryProfiler.hpp"
+// IWYU pragma private; include "Unity/Profiling/Memory/MemoryProfiler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/Memory/zzzz__MemoryProfiler_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

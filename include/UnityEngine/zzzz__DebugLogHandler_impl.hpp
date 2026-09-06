@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\DebugLogHandler.hpp"
+// IWYU pragma private; include "UnityEngine/DebugLogHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__DebugLogHandler_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -147,7 +147,7 @@ inline void UnityEngine::DebugLogHandler::Internal_LogException(::System::Except
       (::i2c::find_method(::i2c::class_of<::UnityEngine::DebugLogHandler*>(), { "Internal_LogException", {}, { ::i2c::type_of<::System::Exception*>(), ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ex, obj);
 }
-inline void UnityEngine::DebugLogHandler::LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::DebugLogHandler::LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -156,7 +156,7 @@ inline void UnityEngine::DebugLogHandler::LogFormat(::UnityEngine::LogType logTy
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, logType, context, format, args);
 }
 inline void UnityEngine::DebugLogHandler::LogFormat(::UnityEngine::LogType logType, ::UnityEngine::LogOption logOptions, ::UnityEngine::Object* context, ::StringW format,
-                                                    ::ArrayW<::System::Object*> args) {
+                                                    /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::DebugLogHandler*>(),
                                                            { "LogFormat",

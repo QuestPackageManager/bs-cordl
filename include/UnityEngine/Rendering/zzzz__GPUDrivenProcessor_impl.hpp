@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenProcessor.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenProcessor_def.hpp"
@@ -102,7 +102,7 @@ inline void UnityEngine::Rendering::GPUDrivenProcessor___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_0(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> nativeData,
+inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> nativeData,
                                                                             ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                             ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                                                                             ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback) {
@@ -115,7 +115,7 @@ inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_0(::by
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nativeData, meshes, materials, callback);
 }
-inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_1(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> nativeData,
+inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_1(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> nativeData,
                                                                             ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},

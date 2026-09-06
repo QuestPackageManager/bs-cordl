@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HDROutputSettings.hpp"
+// IWYU pragma private; include "UnityEngine/HDROutputSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__HDROutputSettings_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
@@ -486,9 +486,11 @@ inline void UnityEngine::HDROutputSettings::RequestHDRModeChangeInternal(int32_t
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "RequestHDRModeChangeInternal", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, displayIndex, enabled);
 }
+/// @brief [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
 inline ::UnityEngine::HDROutputSettings* UnityEngine::HDROutputSettings::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::HDROutputSettings*>());
 }
+/// @brief [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
 inline ::UnityEngine::HDROutputSettings* UnityEngine::HDROutputSettings::New_ctor(int32_t displayIndex) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::HDROutputSettings*>(displayIndex));
 }

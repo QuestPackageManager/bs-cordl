@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\PowerOfTwoTextureAtlas.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/PowerOfTwoTextureAtlas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
   // @brief default ctor
   constexpr PowerOfTwoTextureAtlas_BlitType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PowerOfTwoTextureAtlas_BlitType(int32_t value__) noexcept;
 
   /// @brief Field OctahedralPadding value: I32(2)
@@ -126,6 +126,7 @@ static_assert(offsetof(::UnityEngine::Rendering::PowerOfTwoTextureAtlas_BlitType
 static_assert(sizeof(::UnityEngine::Rendering::PowerOfTwoTextureAtlas_BlitType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -142,7 +143,8 @@ public:
   static inline ::UnityEngine::Rendering::PowerOfTwoTextureAtlas___c* New_ctor();
 
   /// @brief Method <RelayoutEntries>b__23_0, addr 0x67aae14, size 0x80, virtual false, abstract: false, final false
-  inline int32_t _RelayoutEntries_b__23_0(::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c1, ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c2);
+  inline int32_t _RelayoutEntries_b__23_0(/* [TupleElementNames(new[] { "instanceId", "size" })] */ ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c1,
+                                          /* [TupleElementNames(new[] { "instanceId", "size" })] */ ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c2);
 
   /// @brief Method .ctor, addr 0x67aae10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -161,13 +163,13 @@ protected:
   constexpr PowerOfTwoTextureAtlas___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PowerOfTwoTextureAtlas___c(PowerOfTwoTextureAtlas___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PowerOfTwoTextureAtlas___c(PowerOfTwoTextureAtlas___c const&) = delete;
+  PowerOfTwoTextureAtlas___c(PowerOfTwoTextureAtlas___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12238 };
@@ -229,10 +231,11 @@ public:
   static inline int32_t GetMaxCacheSizeForWeightInByte(int32_t weight, bool hasMipmap, ::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
   /// @brief Method GetPayloadScaleOffset, addr 0x67a9984, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector4 GetPayloadScaleOffset(::UnityEngine::Texture* texture, ::by_ref<::UnityEngine::Vector4> scaleOffset);
+  inline ::UnityEngine::Vector4 GetPayloadScaleOffset(::UnityEngine::Texture* texture, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset);
 
   /// @brief Method GetPayloadScaleOffset, addr 0x67a9ae0, size 0x38, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 GetPayloadScaleOffset(::by_ref<::UnityEngine::Vector2> textureSize, ::by_ref<::UnityEngine::Vector2> paddingSize, ::by_ref<::UnityEngine::Vector4> scaleOffset);
+  static inline ::UnityEngine::Vector4 GetPayloadScaleOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> textureSize, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> paddingSize,
+                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset);
 
   /// @brief Method GetPowerOfTwoTextureSize, addr 0x67a9a54, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPowerOfTwoTextureSize(::UnityEngine::Texture* texture);
@@ -288,13 +291,13 @@ protected:
   constexpr PowerOfTwoTextureAtlas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PowerOfTwoTextureAtlas(PowerOfTwoTextureAtlas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PowerOfTwoTextureAtlas(PowerOfTwoTextureAtlas const&) = delete;
+  PowerOfTwoTextureAtlas(PowerOfTwoTextureAtlasconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12239 };

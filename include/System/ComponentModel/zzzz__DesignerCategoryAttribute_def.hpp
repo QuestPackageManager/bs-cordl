@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\DesignerCategoryAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/DesignerCategoryAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class DesignerCategoryAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::DesignerCategoryAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::DesignerCategoryAttribute*, "System.ComponentModel", "DesignerCategoryAttribute");
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = false, Inherited = true)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -76,6 +77,7 @@ public:
 
   static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Generic();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Category, addr 0x63b4520, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Category();
 
@@ -96,17 +98,18 @@ protected:
   constexpr DesignerCategoryAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerCategoryAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerCategoryAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignerCategoryAttribute(DesignerCategoryAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerCategoryAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerCategoryAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesignerCategoryAttribute(DesignerCategoryAttribute const&) = delete;
+  DesignerCategoryAttribute(DesignerCategoryAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11223 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Category>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Category_k__BackingField;
 

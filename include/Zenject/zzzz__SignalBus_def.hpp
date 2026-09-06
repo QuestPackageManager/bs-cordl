@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalBus.hpp"
+// IWYU pragma private; include "Zenject/SignalBus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -99,6 +101,7 @@ DEFINE_IL2CPP_CLASS(::Zenject::SignalBus*, "Zenject", "SignalBus");
 DEFINE_IL2CPP_CLASS(::Zenject::SignalBus___c*, "Zenject", "SignalBus/<>c");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::SignalBus___c__DisplayClass25_0_1, "Zenject", "SignalBus/<>c__DisplayClass25_0`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::SignalBus___c__DisplayClass27_0_1, "Zenject", "SignalBus/<>c__DisplayClass27_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -132,6 +135,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e49870, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e498b4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -160,13 +164,13 @@ protected:
   constexpr SignalBus___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalBus___c(SignalBus___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalBus___c(SignalBus___c const&) = delete;
+  SignalBus___c(SignalBus___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14016 };
@@ -177,6 +181,7 @@ public:
 static_assert(sizeof(::Zenject::SignalBus___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -203,6 +208,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -215,13 +221,13 @@ protected:
   constexpr SignalBus___c__DisplayClass25_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass25_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass25_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalBus___c__DisplayClass25_0_1(SignalBus___c__DisplayClass25_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass25_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass25_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalBus___c__DisplayClass25_0_1(SignalBus___c__DisplayClass25_0_1 const&) = delete;
+  SignalBus___c__DisplayClass25_0_1(SignalBus___c__DisplayClass25_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14017 };
@@ -233,6 +239,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -259,6 +266,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -271,13 +279,13 @@ protected:
   constexpr SignalBus___c__DisplayClass27_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass27_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass27_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalBus___c__DisplayClass27_0_1(SignalBus___c__DisplayClass27_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass27_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass27_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalBus___c__DisplayClass27_0_1(SignalBus___c__DisplayClass27_0_1 const&) = delete;
+  SignalBus___c__DisplayClass27_0_1(SignalBus___c__DisplayClass27_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14018 };
@@ -368,8 +376,9 @@ public:
   /// @brief Method LateDispose, addr 0x6e48470, size 0x408, virtual true, abstract: false, final true
   inline void LateDispose();
 
-  static inline ::Zenject::SignalBus* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus,
-                                               ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::SignalSubscription_Pool* subscriptionPool,
+  static inline ::Zenject::SignalBus* New_ctor(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations,
+                                               /* [Inject(Source = (Zenject.InjectSources)2, Optional = true)] */ ::Zenject::SignalBus* parentBus,
+                                               /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::SignalSubscription_Pool* subscriptionPool,
                                                ::Zenject::SignalDeclaration_Factory* signalDeclarationFactory, ::Zenject::DiContainer* container);
 
   /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -519,11 +528,13 @@ public:
   /// @brief Method __zenCreate, addr 0x6e49040, size 0x29c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e492dc, size 0x4f0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x6e4815c, size 0x2b4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus, ::Zenject::ZenjectSettings* zenjectSettings,
+  inline void _ctor(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations,
+                    /* [Inject(Source = (Zenject.InjectSources)2, Optional = true)] */ ::Zenject::SignalBus* parentBus, /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings,
                     ::Zenject::SignalSubscription_Pool* subscriptionPool, ::Zenject::SignalDeclaration_Factory* signalDeclarationFactory, ::Zenject::DiContainer* container);
 
   /// @brief Method get_NumSubscribers, addr 0x6e48418, size 0x58, virtual false, abstract: false, final false
@@ -541,13 +552,13 @@ protected:
   constexpr SignalBus();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalBus", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalBus", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalBus(SignalBus&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalBus", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalBus", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalBus(SignalBus const&) = delete;
+  SignalBus(SignalBusconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14019 };

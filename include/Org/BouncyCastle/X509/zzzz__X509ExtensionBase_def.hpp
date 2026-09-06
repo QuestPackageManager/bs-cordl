@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\X509\X509ExtensionBase.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/X509/X509ExtensionBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,14 @@ public:
   /// @brief Method GetExtensionValue, addr 0x3571e24, size 0x38, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
+  /// [Obsolete("Use version taking a DerObjectIdentifier instead")]
   /// @brief Method GetExtensionValue, addr 0x3571dac, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::StringW oid);
 
   /// @brief Method GetNonCriticalExtensionOids, addr 0x3571d8c, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids();
 
-  /// @brief Method GetX509Extensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::X509::X509ExtensionBase* New_ctor();
@@ -70,13 +71,13 @@ protected:
   constexpr X509ExtensionBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509ExtensionBase(X509ExtensionBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509ExtensionBase(X509ExtensionBase const&) = delete;
+  X509ExtensionBase(X509ExtensionBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1606 };

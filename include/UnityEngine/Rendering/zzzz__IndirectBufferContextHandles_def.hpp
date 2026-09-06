@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferContextHandles.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferContextHandles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,9 +30,10 @@ public:
   // @brief default ctor
   constexpr IndirectBufferContextHandles();
 
-  // Ctor Parameters [CppParam { name: "instanceBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }, CppParam { name: "instanceInfoBuffer", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }, CppParam { name: "argsBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle",
-  // modifiers: "", def_value: None }, CppParam { name: "drawInfoBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instanceBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "instanceInfoBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "argsBuffer", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawInfoBuffer", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }]
   constexpr IndirectBufferContextHandles(::UnityEngine::Rendering::RenderGraphModule::BufferHandle instanceBuffer, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle instanceInfoBuffer,
                                          ::UnityEngine::Rendering::RenderGraphModule::BufferHandle argsBuffer, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle drawInfoBuffer) noexcept;
 

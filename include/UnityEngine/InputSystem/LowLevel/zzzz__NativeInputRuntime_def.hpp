@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\NativeInputRuntime.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/NativeInputRuntime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,6 +78,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime*, "
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime___c__DisplayClass10_0*, "UnityEngine.InputSystem.LowLevel", "NativeInputRuntime/<>c__DisplayClass10_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime___c__DisplayClass13_0*, "UnityEngine.InputSystem.LowLevel", "NativeInputRuntime/<>c__DisplayClass13_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime___c__DisplayClass7_0*, "UnityEngine.InputSystem.LowLevel", "NativeInputRuntime/<>c__DisplayClass7_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
@@ -108,13 +109,13 @@ protected:
   constexpr NativeInputRuntime___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeInputRuntime___c__DisplayClass10_0(NativeInputRuntime___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeInputRuntime___c__DisplayClass10_0(NativeInputRuntime___c__DisplayClass10_0 const&) = delete;
+  NativeInputRuntime___c__DisplayClass10_0(NativeInputRuntime___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9051 };
@@ -130,6 +131,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime_
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime___c__DisplayClass10_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
@@ -160,13 +162,13 @@ protected:
   constexpr NativeInputRuntime___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeInputRuntime___c__DisplayClass13_0(NativeInputRuntime___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeInputRuntime___c__DisplayClass13_0(NativeInputRuntime___c__DisplayClass13_0 const&) = delete;
+  NativeInputRuntime___c__DisplayClass13_0(NativeInputRuntime___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9052 };
@@ -182,6 +184,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime_
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime___c__DisplayClass13_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
@@ -212,13 +215,13 @@ protected:
   constexpr NativeInputRuntime___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeInputRuntime___c__DisplayClass7_0(NativeInputRuntime___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeInputRuntime___c__DisplayClass7_0(NativeInputRuntime___c__DisplayClass7_0 const&) = delete;
+  NativeInputRuntime___c__DisplayClass7_0(NativeInputRuntime___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9053 };
@@ -483,13 +486,13 @@ protected:
   constexpr NativeInputRuntime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeInputRuntime(NativeInputRuntime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeInputRuntime(NativeInputRuntime const&) = delete;
+  NativeInputRuntime(NativeInputRuntimeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9054 };

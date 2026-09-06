@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GlobalKeyword.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GlobalKeyword.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,10 @@ struct GlobalKeyword;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::GlobalKeyword);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GlobalKeyword, "UnityEngine.Rendering", "GlobalKeyword");
+// [IsReadOnly]
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
+// [NativeHeader("Runtime/Shaders/Keywords/KeywordSpaceScriptBindings.h")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -27,15 +31,18 @@ public:
   /// @brief Method Create, addr 0x6b2d050, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GlobalKeyword Create(::StringW name);
 
+  /// [FreeFunction("ShaderScripting::CreateGlobalKeyword")]
   /// @brief Method CreateGlobalKeyword, addr 0x6b2cef0, size 0x124, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword(::StringW keyword);
 
   /// @brief Method CreateGlobalKeyword_Injected, addr 0x6b2d014, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
+  /// [FreeFunction("ShaderScripting::GetGlobalKeywordCount")]
   /// @brief Method GetGlobalKeywordCount, addr 0x6b2cd60, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordCount();
 
+  /// [FreeFunction("ShaderScripting::GetGlobalKeywordIndex")]
   /// @brief Method GetGlobalKeywordIndex, addr 0x6b2cd88, size 0x12c, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordIndex(::StringW keyword);
 
@@ -52,7 +59,8 @@ public:
   // @brief default ctor
   constexpr GlobalKeyword();
 
-  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr GlobalKeyword(::StringW m_Name, uint32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

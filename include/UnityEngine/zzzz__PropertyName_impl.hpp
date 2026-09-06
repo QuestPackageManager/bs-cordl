@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PropertyName.hpp"
+// IWYU pragma private; include "UnityEngine/PropertyName.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -165,7 +165,7 @@ constexpr UnityEngine::PropertyName::operator ::System::IEquatable_1<::UnityEngi
 constexpr ::System::IEquatable_1<::UnityEngine::PropertyName>* UnityEngine::PropertyName::i___System__IEquatable_1___UnityEngine__PropertyName_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::PropertyName>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PropertyName::PropertyName(int32_t id) noexcept {
   this->id = id;
 }

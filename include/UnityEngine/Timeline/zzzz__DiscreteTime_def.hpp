@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\DiscreteTime.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/DiscreteTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -168,7 +168,7 @@ public:
   // @brief default ctor
   constexpr DiscreteTime();
 
-  // Ctor Parameters [CppParam { name: "m_DiscreteTime", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_DiscreteTime", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr DiscreteTime(int64_t m_DiscreteTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -178,7 +178,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field k_Tick offset 0xffffffff size 0x8
-  static constexpr double_t k_Tick{ static_cast<double_t>(0.0) };
+  static constexpr double_t k_Tick{ static_cast<double_t>(1e-12) };
 
   /// @brief Field m_DiscreteTime, offset: 0x0, size: 0x8, def value: None
   int64_t m_DiscreteTime;

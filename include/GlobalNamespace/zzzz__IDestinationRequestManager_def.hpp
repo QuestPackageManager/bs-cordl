@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IDestinationRequestManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/IDestinationRequestManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,24 +26,26 @@ public:
   // Declarations
   __declspec(property(get = get_currentMenuDestinationRequest, put = set_currentMenuDestinationRequest)) ::GlobalNamespace::MenuDestination* currentMenuDestinationRequest;
 
-  /// @brief Method Clear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method get_currentMenuDestinationRequest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_currentMenuDestinationRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
 
-  /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method set_currentMenuDestinationRequest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_currentMenuDestinationRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDestinationRequestManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDestinationRequestManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDestinationRequestManager(IDestinationRequestManager const&) = delete;
+  IDestinationRequestManager(IDestinationRequestManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14821 };

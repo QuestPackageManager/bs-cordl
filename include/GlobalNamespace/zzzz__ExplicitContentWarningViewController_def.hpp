@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ExplicitContentWarningViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ExplicitContentWarningViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,20 +64,22 @@ protected:
   constexpr ExplicitContentWarningViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExplicitContentWarningViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExplicitContentWarningViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExplicitContentWarningViewController(ExplicitContentWarningViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExplicitContentWarningViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExplicitContentWarningViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExplicitContentWarningViewController(ExplicitContentWarningViewController const&) = delete;
+  ExplicitContentWarningViewController(ExplicitContentWarningViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6438 };
 
+  /// [SerializeField]
   /// @brief Field _toggleExplicit, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____toggleExplicit;
 
+  /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 

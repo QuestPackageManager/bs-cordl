@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteDebris.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteDebris.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,13 +79,13 @@ protected:
   constexpr NoteDebris_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebris_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebris_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteDebris_Pool(NoteDebris_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebris_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebris_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteDebris_Pool(NoteDebris_Pool const&) = delete;
+  NoteDebris_Pool(NoteDebris_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5684 };
@@ -96,6 +96,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::NoteDebris_Pool) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/NoteDebris")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -260,35 +261,44 @@ protected:
   constexpr NoteDebris();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebris", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebris", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteDebris(NoteDebris&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebris", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebris", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteDebris(NoteDebris const&) = delete;
+  NoteDebris(NoteDebrisconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5685 };
 
+  /// [SerializeField]
   /// @brief Field _meshTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____meshTransform;
 
+  /// [SerializeField]
   /// @brief Field _physics, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebrisPhysics> ____physics;
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _cutoutCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____cutoutCurve;
 
+  /// [SerializeField]
   /// @brief Field _maxCutPointCenterDistance, offset: 0x40, size: 0x4, def value: None
   float_t ____maxCutPointCenterDistance;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _centroidComputationMesh, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____centroidComputationMesh;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 

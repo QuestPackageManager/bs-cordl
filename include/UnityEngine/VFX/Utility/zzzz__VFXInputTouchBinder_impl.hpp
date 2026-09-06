@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXInputTouchBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXInputTouchBinder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"

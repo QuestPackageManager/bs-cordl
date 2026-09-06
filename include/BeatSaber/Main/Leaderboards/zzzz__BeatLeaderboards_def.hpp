@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\Leaderboards\BeatLeaderboards.hpp"
+// IWYU pragma private; include "BeatSaber/Main/Leaderboards/BeatLeaderboards.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -238,13 +238,13 @@ protected:
   constexpr BeatLeaderboards_FetchLeaderboardTypeFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards_FetchLeaderboardTypeFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards_FetchLeaderboardTypeFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLeaderboards_FetchLeaderboardTypeFunction(BeatLeaderboards_FetchLeaderboardTypeFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards_FetchLeaderboardTypeFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards_FetchLeaderboardTypeFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards_FetchLeaderboardTypeFunction(BeatLeaderboards_FetchLeaderboardTypeFunction const&) = delete;
+  BeatLeaderboards_FetchLeaderboardTypeFunction(BeatLeaderboards_FetchLeaderboardTypeFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20591 };
@@ -268,6 +268,7 @@ public:
   /// @brief Method MoveNext, addr 0x32a2560, size 0x4c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32a2ae8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -278,11 +279,11 @@ public:
   // @brief default ctor
   constexpr __c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardAroundMeModel*>", modifiers: "", def_value: None }]
+  // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__8__1", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardAroundMeModel*>", modifiers: "", def_value: None, comment: None }]
   constexpr __c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d(
       int32_t __1__state,
       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __t__builder,
@@ -331,6 +332,7 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_Be
 static_assert(sizeof(::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d) == 0x38, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
+// [CompilerGenerated]
 // Dependencies BeatmapKey, GameplayModifierMask, System.Object
 namespace BeatSaber::Main::Leaderboards {
 // Is value type: false
@@ -352,6 +354,7 @@ public:
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0* New_ctor();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.Main.Leaderboards.BeatLeaderboards::<>c__DisplayClass12_0::<<GetLeaderboardAroundMeAsync>g__GetLeaderboardAroundMeInternal|0>d))]
   /// @brief Method <GetLeaderboardAroundMeAsync>g__GetLeaderboardAroundMeInternal|0, addr 0x32a2480, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   _GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0();
@@ -383,13 +386,13 @@ protected:
   constexpr BeatLeaderboards___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLeaderboards___c__DisplayClass12_0(BeatLeaderboards___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass12_0(BeatLeaderboards___c__DisplayClass12_0 const&) = delete;
+  BeatLeaderboards___c__DisplayClass12_0(BeatLeaderboards___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20593 };
@@ -415,6 +418,7 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__Di
 static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::Main::Leaderboards {
 // Is value type: false
@@ -428,6 +432,7 @@ public:
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1* New_ctor();
 
+  /// [NullableContext(2)]
   /// @brief Method <GetLeaderboardAroundMeAsync>b__1, addr 0x32a2b68, size 0x114, virtual false, abstract: false, final false
   inline void _GetLeaderboardAroundMeAsync_b__1(
       ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_NodesModel*
@@ -448,13 +453,13 @@ protected:
   constexpr BeatLeaderboards___c__DisplayClass12_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLeaderboards___c__DisplayClass12_1(BeatLeaderboards___c__DisplayClass12_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass12_1(BeatLeaderboards___c__DisplayClass12_1 const&) = delete;
+  BeatLeaderboards___c__DisplayClass12_1(BeatLeaderboards___c__DisplayClass12_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20594 };
@@ -483,6 +488,7 @@ public:
   /// @brief Method MoveNext, addr 0x32a2d5c, size 0x4c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32a32e4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -493,11 +499,11 @@ public:
   // @brief default ctor
   constexpr __c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel*>", modifiers: "", def_value: None }]
+  // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__8__1", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel*>", modifiers: "", def_value: None, comment: None }]
   constexpr __c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d(
       int32_t __1__state,
       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __t__builder,
@@ -544,6 +550,7 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_Be
 static_assert(sizeof(::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d) == 0x38, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
+// [CompilerGenerated]
 // Dependencies BeatmapKey, GameplayModifierMask, System.Object
 namespace BeatSaber::Main::Leaderboards {
 // Is value type: false
@@ -565,6 +572,7 @@ public:
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0* New_ctor();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.Main.Leaderboards.BeatLeaderboards::<>c__DisplayClass13_0::<<GetLeaderboardFriendsAsync>g__GetLeaderboardFriendsInternal|0>d))]
   /// @brief Method <GetLeaderboardFriendsAsync>g__GetLeaderboardFriendsInternal|0, addr 0x32a2c7c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   _GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0();
@@ -596,13 +604,13 @@ protected:
   constexpr BeatLeaderboards___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLeaderboards___c__DisplayClass13_0(BeatLeaderboards___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass13_0(BeatLeaderboards___c__DisplayClass13_0 const&) = delete;
+  BeatLeaderboards___c__DisplayClass13_0(BeatLeaderboards___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20596 };
@@ -628,6 +636,7 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__Di
 static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::Main::Leaderboards {
 // Is value type: false
@@ -641,6 +650,7 @@ public:
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1* New_ctor();
 
+  /// [NullableContext(2)]
   /// @brief Method <GetLeaderboardFriendsAsync>b__1, addr 0x32a3364, size 0x114, virtual false, abstract: false, final false
   inline void _GetLeaderboardFriendsAsync_b__1(
       ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel*
@@ -661,13 +671,13 @@ protected:
   constexpr BeatLeaderboards___c__DisplayClass13_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLeaderboards___c__DisplayClass13_1(BeatLeaderboards___c__DisplayClass13_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass13_1(BeatLeaderboards___c__DisplayClass13_1 const&) = delete;
+  BeatLeaderboards___c__DisplayClass13_1(BeatLeaderboards___c__DisplayClass13_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20597 };
@@ -696,6 +706,7 @@ public:
   /// @brief Method MoveNext, addr 0x32a3558, size 0x4b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32a3ac0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -706,11 +717,11 @@ public:
   // @brief default ctor
   constexpr __c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel*>", modifiers: "", def_value: None }]
+  // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__8__1", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel*>", modifiers: "", def_value: None, comment: None }]
   constexpr __c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d(
       int32_t __1__state,
       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __t__builder,
@@ -754,6 +765,7 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_Be
 static_assert(sizeof(::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d) == 0x38, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
+// [CompilerGenerated]
 // Dependencies BeatmapKey, GameplayModifierMask, System.Object
 namespace BeatSaber::Main::Leaderboards {
 // Is value type: false
@@ -775,6 +787,7 @@ public:
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0* New_ctor();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.Main.Leaderboards.BeatLeaderboards::<>c__DisplayClass14_0::<<GetLeaderboardTopNAsync>g__GetLeaderboardTopNInternal|0>d))]
   /// @brief Method <GetLeaderboardTopNAsync>g__GetLeaderboardTopNInternal|0, addr 0x32a3478, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   _GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0();
@@ -806,13 +819,13 @@ protected:
   constexpr BeatLeaderboards___c__DisplayClass14_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLeaderboards___c__DisplayClass14_0(BeatLeaderboards___c__DisplayClass14_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass14_0(BeatLeaderboards___c__DisplayClass14_0 const&) = delete;
+  BeatLeaderboards___c__DisplayClass14_0(BeatLeaderboards___c__DisplayClass14_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20599 };
@@ -838,6 +851,7 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__Di
 static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::Main::Leaderboards {
 // Is value type: false
@@ -851,6 +865,7 @@ public:
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1* New_ctor();
 
+  /// [NullableContext(2)]
   /// @brief Method <GetLeaderboardTopNAsync>b__1, addr 0x32a3b40, size 0x114, virtual false, abstract: false, final false
   inline void _GetLeaderboardTopNAsync_b__1(
       ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardTopNModel_NodesModel* node);
@@ -870,13 +885,13 @@ protected:
   constexpr BeatLeaderboards___c__DisplayClass14_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLeaderboards___c__DisplayClass14_1(BeatLeaderboards___c__DisplayClass14_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass14_1(BeatLeaderboards___c__DisplayClass14_1 const&) = delete;
+  BeatLeaderboards___c__DisplayClass14_1(BeatLeaderboards___c__DisplayClass14_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20600 };
@@ -892,6 +907,7 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__Di
 static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1) == 0x18, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::Main::Leaderboards {
 // Is value type: true
@@ -905,6 +921,7 @@ public:
   /// @brief Method MoveNext, addr 0x32a3c54, size 0x5c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32a4228, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -915,13 +932,13 @@ public:
   // @brief default ctor
   constexpr BeatLeaderboards__GetLeaderboardAsync_d__16();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards*", modifiers: "", def_value: None }, CppParam { name: "fetchLeaderboard", ty:
-  // "::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "", def_value: None
-  // }]
+  // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "fetchLeaderboard", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BeatLeaderboards__GetLeaderboardAsync_d__16(
       int32_t __1__state,
       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __t__builder,
@@ -971,6 +988,7 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLea
 static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16) == 0x40, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::Main::Leaderboards {
 // Is value type: true
@@ -984,6 +1002,7 @@ public:
   /// @brief Method MoveNext, addr 0x32a42a8, size 0xcb4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32a5094, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -994,11 +1013,12 @@ public:
   // @brief default ctor
   constexpr BeatLeaderboards__InitializeAsync_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards*", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel*>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::Main::Leaderboards::BeatLeaderboards*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel*>", modifiers: "", def_value: None, comment: None }]
   constexpr BeatLeaderboards__InitializeAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                     ::BeatSaber::Main::Leaderboards::BeatLeaderboards* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel*> __u__2,
@@ -1046,6 +1066,7 @@ static_assert(offsetof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__Initia
 static_assert(sizeof(::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10) == 0x40, "Size mismatch!");
 
 } // namespace BeatSaber::Main::Leaderboards
+// [CompilerGenerated]
 // Dependencies BeatmapKey, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::Main::Leaderboards {
 // Is value type: true
@@ -1059,6 +1080,7 @@ public:
   /// @brief Method MoveNext, addr 0x32a5100, size 0x698, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32a585c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1069,12 +1091,13 @@ public:
   // @brief default ctor
   constexpr BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards*", modifiers:
-  // "", def_value: None }, CppParam { name: "results", ty: "::GlobalNamespace::LevelCompletionResults*", modifiers: "", def_value: None }, CppParam { name: "beatmapKey", ty:
-  // "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "modifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::Main::Leaderboards::BeatLeaderboards*", modifiers: "", def_value: None, comment: None }, CppParam { name: "results", ty: "::GlobalNamespace::LevelCompletionResults*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "modifiers", ty:
+  // "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel*>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                 ::BeatSaber::Main::Leaderboards::BeatLeaderboards* __4__this, ::GlobalNamespace::LevelCompletionResults* results,
                                                                 ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers,
@@ -1190,6 +1213,7 @@ public:
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   GetLeaderboardAroundMeAsync(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.Main.Leaderboards.BeatLeaderboards::<GetLeaderboardAsync>d__16))]
   /// @brief Method GetLeaderboardAsync, addr 0x32a213c, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   GetLeaderboardAsync(::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction* fetchLeaderboard);
@@ -1202,11 +1226,13 @@ public:
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
   GetLeaderboardTopNAsync(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.Main.Leaderboards.BeatLeaderboards::<InitializeAsync>d__10))]
   /// @brief Method InitializeAsync, addr 0x32a1e38, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
   static inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards* New_ctor();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.Main.Leaderboards.BeatLeaderboards::<SubmitLeaderboardEntryAsync>d__11))]
   /// @brief Method SubmitLeaderboardEntryAsync, addr 0x32a1ee8, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SubmitLeaderboardEntryAsync(::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey,
                                                                        ::GlobalNamespace::GameplayModifiers* modifiers);
@@ -1271,20 +1297,22 @@ protected:
   constexpr BeatLeaderboards();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLeaderboards(BeatLeaderboards&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards(BeatLeaderboards const&) = delete;
+  BeatLeaderboards(BeatLeaderboardsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20604 };
 
+  /// [Inject]
   /// @brief Field _localizationModel, offset: 0x10, size: 0x8, def value: None
   ::BGLib::Polyglot::LocalizationModel* ____localizationModel;
 
+  /// [Inject]
   /// @brief Field _graphQlClientProvider, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::GraphQL::IGraphQLClientProvider* ____graphQlClientProvider;
 

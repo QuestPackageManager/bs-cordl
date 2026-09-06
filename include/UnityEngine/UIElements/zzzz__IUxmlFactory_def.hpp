@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IUxmlFactory.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IUxmlFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class IUxmlFactory;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::IUxmlFactory*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IUxmlFactory*, "UnityEngine.UIElements", "IUxmlFactory");
+// [Obsolete("IUxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -33,15 +34,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IBaseUxmlFactory"
   constexpr operator ::UnityEngine::UIElements::IBaseUxmlFactory*() noexcept;
 
-  /// @brief Method Create, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   /// @brief Convert to "::UnityEngine::UIElements::IBaseUxmlFactory"
   constexpr ::UnityEngine::UIElements::IBaseUxmlFactory* i___UnityEngine__UIElements__IBaseUxmlFactory() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IUxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IUxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IUxmlFactory(IUxmlFactory const&) = delete;
+  IUxmlFactory(IUxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5180 };

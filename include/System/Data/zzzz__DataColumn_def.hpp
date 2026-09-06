@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataColumn.hpp"
+// IWYU pragma private; include "System/Data/DataColumn.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,6 +93,10 @@ class DataColumn;
 // Write type traits
 MARK_REF_T(::System::Data::DataColumn*);
 DEFINE_IL2CPP_CLASS(::System::Data::DataColumn*, "System.Data", "DataColumn");
+// [ToolboxItem(false)]
+// [DesignTimeVisible(false)]
+// [DefaultProperty("ColumnName")]
+// [DefaultMember("Item")]
 // Dependencies System.ComponentModel.MarshalByValueComponent, System.Data.Common.StorageType, System.Data.DataSetDateTime, System.Data.MappingType
 namespace System::Data {
 // Is value type: false
@@ -100,40 +104,57 @@ namespace System::Data {
 class CORDL_TYPE DataColumn : public ::System::ComponentModel::MarshalByValueComponent {
 public:
   // Declarations
+  /// @brief [DefaultValue(true)]
   __declspec(property(get = get_AllowDBNull, put = set_AllowDBNull)) bool AllowDBNull;
 
   __declspec(property(get = get_AutoInc)) ::System::Data::AutoIncrementValue* AutoInc;
 
+  /// [DefaultValue(false)]
+  /// @brief [RefreshProperties((System.ComponentModel.RefreshProperties)1)]
   __declspec(property(get = get_AutoIncrement, put = set_AutoIncrement)) bool AutoIncrement;
 
   __declspec(property(get = get_AutoIncrementCurrent, put = set_AutoIncrementCurrent)) ::System::Object* AutoIncrementCurrent;
 
+  /// @brief [DefaultValue(0)]
   __declspec(property(get = get_AutoIncrementSeed, put = set_AutoIncrementSeed)) int64_t AutoIncrementSeed;
 
+  /// @brief [DefaultValue(1)]
   __declspec(property(get = get_AutoIncrementStep, put = set_AutoIncrementStep)) int64_t AutoIncrementStep;
 
   __declspec(property(get = get_Caption, put = set_Caption)) ::StringW Caption;
 
+  /// @brief [DefaultValue((System.Data.MappingType)1)]
   __declspec(property(get = get_ColumnMapping, put = set_ColumnMapping)) ::System::Data::MappingType ColumnMapping;
 
+  /// [DefaultValue("")]
+  /// @brief [RefreshProperties((System.ComponentModel.RefreshProperties)1)]
   __declspec(property(get = get_ColumnName, put = set_ColumnName)) ::StringW ColumnName;
 
   __declspec(property(get = get_Computed)) bool Computed;
 
   __declspec(property(get = get_DataExpression)) ::System::Data::DataExpression* DataExpression;
 
+  /// [DefaultValue(typeof(System.String))]
+  /// [RefreshProperties((System.ComponentModel.RefreshProperties)1)]
+  /// @brief [TypeConverter(typeof(System.Data.ColumnTypeConverter))]
   __declspec(property(get = get_DataType, put = set_DataType)) ::System::Type* DataType;
 
+  /// [RefreshProperties((System.ComponentModel.RefreshProperties)1)]
+  /// @brief [DefaultValue((System.Data.DataSetDateTime)3)]
   __declspec(property(get = get_DateTimeMode, put = set_DateTimeMode)) ::System::Data::DataSetDateTime DateTimeMode;
 
+  /// @brief [TypeConverter(typeof(System.Data.DefaultValueTypeConverter))]
   __declspec(property(get = get_DefaultValue, put = set_DefaultValue)) ::System::Object* DefaultValue;
 
   __declspec(property(get = get_DefaultValueIsNull)) bool DefaultValueIsNull;
 
   __declspec(property(get = get_EncodedColumnName)) ::StringW EncodedColumnName;
 
+  /// [RefreshProperties((System.ComponentModel.RefreshProperties)1)]
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_Expression, put = set_Expression)) ::StringW Expression;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_ExtendedProperties)) ::System::Data::PropertyCollection* ExtendedProperties;
 
   __declspec(property(get = get_FormatProvider)) ::System::IFormatProvider* FormatProvider;
@@ -158,27 +179,37 @@ public:
 
   __declspec(property(get = get_Locale)) ::System::Globalization::CultureInfo* Locale;
 
+  /// @brief [DefaultValue(-1)]
   __declspec(property(get = get_MaxLength, put = set_MaxLength)) int32_t MaxLength;
 
   __declspec(property(get = get_Namespace, put = set_Namespace)) ::StringW Namespace;
 
   __declspec(property(get = get_ObjectID)) int32_t ObjectID;
 
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_Ordinal)) int32_t Ordinal;
 
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_Prefix, put = set_Prefix)) ::StringW Prefix;
 
   /// @brief Field PropertyChanging, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get_PropertyChanging, put = __cordl_internal_set_PropertyChanging)) ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
 
+  /// @brief [DefaultValue(false)]
   __declspec(property(get = get_ReadOnly, put = set_ReadOnly)) bool ReadOnly;
 
   __declspec(property(get = get_SimpleType, put = set_SimpleType)) ::System::Data::SimpleType* SimpleType;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   __declspec(property(get = get_SortIndex)) ::System::Data::Index* SortIndex;
 
+  /// [Browsable(false)]
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
   __declspec(property(get = get_Table)) ::System::Data::DataTable* Table;
 
+  /// [DefaultValue(false)]
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
   __declspec(property(get = get_Unique, put = set_Unique)) bool Unique;
 
   __declspec(property(get = get_XmlDataType, put = set_XmlDataType)) ::StringW XmlDataType;
@@ -762,6 +793,7 @@ public:
   /// @brief Method get_Unique, addr 0x6002804, size 0x8, virtual false, abstract: false, final false
   inline bool get_Unique();
 
+  /// [CompilerGenerated]
   /// @brief Method get_XmlDataType, addr 0x6002cb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlDataType();
 
@@ -824,6 +856,7 @@ public:
   /// @brief Method set_Unique, addr 0x600280c, size 0x410, virtual false, abstract: false, final false
   inline void set_Unique(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_XmlDataType, addr 0x6002cb8, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlDataType(::StringW value);
 
@@ -833,13 +866,13 @@ protected:
   constexpr DataColumn();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataColumn", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataColumn", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataColumn(DataColumn&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataColumn", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataColumn", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataColumn(DataColumn const&) = delete;
+  DataColumn(DataColumnconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13727 };
@@ -940,9 +973,11 @@ public:
   /// @brief Field _objectID, offset: 0xd8, size: 0x4, def value: None
   int32_t ____objectID;
 
+  /// [CompilerGenerated]
   /// @brief Field <XmlDataType>k__BackingField, offset: 0xe0, size: 0x8, def value: None
   ::StringW ____XmlDataType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field PropertyChanging, offset: 0xe8, size: 0x8, def value: None
   ::System::ComponentModel::PropertyChangedEventHandler* ___PropertyChanging;
 

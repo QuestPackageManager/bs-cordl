@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnterTextViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnterTextViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,9 +83,11 @@ public:
   /// @brief Method .ctor, addr 0x5a19398, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5a19060, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5a19120, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
@@ -95,26 +97,30 @@ protected:
   constexpr EnterTextViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnterTextViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterTextViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnterTextViewController(EnterTextViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnterTextViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterTextViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterTextViewController(EnterTextViewController const&) = delete;
+  EnterTextViewController(EnterTextViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6433 };
 
+  /// [SerializeField]
   /// @brief Field _textEntryController, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRTextEntryController> ____textEntryController;
 
+  /// [SerializeField]
   /// @brief Field _titleText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
+  /// [SerializeField]
   /// @brief Field _okButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* ___didFinishEvent;
 

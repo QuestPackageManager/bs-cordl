@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\IdCacheKey.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/IdCacheKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,13 +91,13 @@ protected:
   constexpr IdCacheKey();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdCacheKey", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdCacheKey", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IdCacheKey(IdCacheKey&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdCacheKey", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdCacheKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IdCacheKey(IdCacheKey const&) = delete;
+  IdCacheKey(IdCacheKeyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18742 };

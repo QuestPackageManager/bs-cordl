@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GhostDuplicationEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/GhostDuplicationEffect.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_impl.hpp"
@@ -14,12 +14,13 @@
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "startAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "startPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "startSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "endPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "endSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "duration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "easeType", ty:
-// "::GlobalNamespace::EaseType", modifiers: "", def_value: Some("{}") }, CppParam { name: "distanceCurve", ty: "::UnityEngine::AnimationCurve*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "peakDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastPhase", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "startAlpha", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "startPosition", ty: "::UnityEngine::Vector3", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "startSize", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "endAlpha", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "endPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "endSize", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "delay", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "easeType", ty: "::GlobalNamespace::EaseType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "distanceCurve", ty: "::UnityEngine::AnimationCurve*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "peakDistance", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "lastPhase", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams::GhostDuplicationEffect_GhostEffectParams(float_t startAlpha, ::UnityEngine::Vector3 startPosition, float_t startSize,
                                                                                                                 float_t endAlpha, ::UnityEngine::Vector3 endPosition, float_t endSize, float_t duration,
                                                                                                                 float_t delay, ::GlobalNamespace::EaseType easeType,
@@ -338,6 +339,7 @@ inline ::System::Object* GlobalNamespace::GhostDuplicationEffect__HideRedundantW
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8* GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8*>(__1__state));
 }

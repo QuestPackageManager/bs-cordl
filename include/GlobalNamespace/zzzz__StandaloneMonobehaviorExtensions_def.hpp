@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandaloneMonobehaviorExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandaloneMonobehaviorExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class StandaloneMonobehaviorExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StandaloneMonobehaviorExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandaloneMonobehaviorExtensions*, "", "StandaloneMonobehaviorExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -31,9 +32,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE StandaloneMonobehaviorExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Dispatch, addr 0x3336270, size 0xb0, virtual false, abstract: false, final false
   static inline void Dispatch(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Action* action);
 
+  /// [Extension]
   /// @brief Method DispatchAsync, addr 0x3336320, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* DispatchAsync(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
@@ -43,13 +46,13 @@ protected:
   constexpr StandaloneMonobehaviorExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehaviorExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehaviorExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandaloneMonobehaviorExtensions(StandaloneMonobehaviorExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehaviorExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehaviorExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneMonobehaviorExtensions(StandaloneMonobehaviorExtensions const&) = delete;
+  StandaloneMonobehaviorExtensions(StandaloneMonobehaviorExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18199 };

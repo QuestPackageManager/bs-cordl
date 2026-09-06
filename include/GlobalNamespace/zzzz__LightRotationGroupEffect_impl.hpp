@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightRotationGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightRotationGroupEffect.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroupEffect_def.hpp"
@@ -209,6 +209,7 @@ inline float_t GlobalNamespace::LightRotationGroupEffect::ComputeTargetAngle(flo
           { "ComputeTargetAngle", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::LightRotationDirection>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, startAngle, targetAngle, loopCount, rotationOrientation);
 }
+/// @brief [Inject]
 inline ::GlobalNamespace::LightRotationGroupEffect* GlobalNamespace::LightRotationGroupEffect::New_ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData,
                                                                                                         ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                                                         ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CenterStageScreenController.hpp"
+// IWYU pragma private; include "GlobalNamespace/CenterStageScreenController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -186,9 +186,11 @@ public:
   /// @brief Method .ctor, addr 0x5a1b3f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_countdownShown, addr 0x5a1ae64, size 0x8, virtual false, abstract: false, final false
   inline bool get_countdownShown();
 
+  /// [CompilerGenerated]
   /// @brief Method set_countdownShown, addr 0x5a1ae6c, size 0x8, virtual false, abstract: false, final false
   inline void set_countdownShown(bool value);
 
@@ -198,44 +200,56 @@ protected:
   constexpr CenterStageScreenController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CenterStageScreenController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CenterStageScreenController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CenterStageScreenController(CenterStageScreenController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CenterStageScreenController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CenterStageScreenController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CenterStageScreenController(CenterStageScreenController const&) = delete;
+  CenterStageScreenController(CenterStageScreenControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6449 };
 
+  /// [SerializeField]
   /// @brief Field _defaultMenuLightsPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultMenuLightsPreset;
 
+  /// [SerializeField]
   /// @brief Field _lobbyLightsPreset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____lobbyLightsPreset;
 
+  /// [SerializeField]
   /// @brief Field _countdownMenuLightsPreset, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____countdownMenuLightsPreset;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _beatmapSelectionView, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapSelectionView> ____beatmapSelectionView;
 
+  /// [SerializeField]
   /// @brief Field _modifiersSelectionView, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ModifiersSelectionView> ____modifiersSelectionView;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _countdownController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CountdownController> ____countdownController;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerLobbyCenterScreenLayoutAnimator, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator> ____multiplayerLobbyCenterScreenLayoutAnimator;
 
+  /// [Inject]
   /// @brief Field _lobbyGameStateController, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyGameStateController* ____lobbyGameStateController;
 
+  /// [Inject]
   /// @brief Field _menuLightsManager, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsManager> ____menuLightsManager;
 
+  /// [CompilerGenerated]
   /// @brief Field <countdownShown>k__BackingField, offset: 0x68, size: 0x1, def value: None
   bool ____countdownShown_k__BackingField;
 

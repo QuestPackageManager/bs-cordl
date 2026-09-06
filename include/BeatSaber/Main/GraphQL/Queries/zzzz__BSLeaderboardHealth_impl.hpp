@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Queries\BSLeaderboardHealth.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Queries/BSLeaderboardHealth.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLQueryOperation_impl.hpp"
 #include "BeatSaber/Main/GraphQL/Queries/zzzz__BSLeaderboardHealth_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\HoverHintController.hpp"
+// IWYU pragma private; include "HMUI/HoverHintController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HoverHintController_def.hpp"
@@ -171,6 +171,7 @@ inline ::System::Object* HMUI::HoverHintController__HideHintAfterDelay_d__12::Sy
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__12*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::HoverHintController__HideHintAfterDelay_d__12* HMUI::HoverHintController__HideHintAfterDelay_d__12::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::HoverHintController__HideHintAfterDelay_d__12*>(__1__state));
 }
@@ -373,6 +374,7 @@ inline ::System::Object* HMUI::HoverHintController__ShowHintAfterDelay_d__11::Sy
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__11*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::HoverHintController__ShowHintAfterDelay_d__11* HMUI::HoverHintController__ShowHintAfterDelay_d__11::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::HoverHintController__ShowHintAfterDelay_d__11*>(__1__state));
 }

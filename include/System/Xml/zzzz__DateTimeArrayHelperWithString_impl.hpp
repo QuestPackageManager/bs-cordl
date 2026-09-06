@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\DateTimeArrayHelperWithString.hpp"
+// IWYU pragma private; include "System/Xml/DateTimeArrayHelperWithString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Xml/zzzz__DateTimeArrayHelperWithString_def.hpp"

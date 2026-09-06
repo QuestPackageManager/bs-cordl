@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\DictionaryTraceRecord.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/DictionaryTraceRecord.hpp"
 #include "System/Runtime/Diagnostics/zzzz__TraceRecord_impl.hpp"
 #include "System/Runtime/Diagnostics/zzzz__DictionaryTraceRecord_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"

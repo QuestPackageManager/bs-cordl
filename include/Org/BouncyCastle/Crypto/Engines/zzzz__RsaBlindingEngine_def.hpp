@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\RsaBlindingEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/RsaBlindingEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,13 +118,13 @@ protected:
   constexpr RsaBlindingEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RsaBlindingEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaBlindingEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RsaBlindingEngine(RsaBlindingEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RsaBlindingEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaBlindingEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RsaBlindingEngine(RsaBlindingEngine const&) = delete;
+  RsaBlindingEngine(RsaBlindingEngineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 863 };

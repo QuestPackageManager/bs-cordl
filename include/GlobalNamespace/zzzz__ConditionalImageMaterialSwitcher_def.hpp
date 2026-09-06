@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConditionalImageMaterialSwitcher.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConditionalImageMaterialSwitcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,26 +78,33 @@ protected:
   constexpr ConditionalImageMaterialSwitcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalImageMaterialSwitcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalImageMaterialSwitcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalImageMaterialSwitcher(ConditionalImageMaterialSwitcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalImageMaterialSwitcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalImageMaterialSwitcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalImageMaterialSwitcher(ConditionalImageMaterialSwitcher const&) = delete;
+  ConditionalImageMaterialSwitcher(ConditionalImageMaterialSwitcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6656 };
 
+  /// [Header("False")]
+  /// [SerializeField]
   /// @brief Field _material0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material0;
 
+  /// [Header("True")]
+  /// [SerializeField]
   /// @brief Field _material1, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material1;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _value, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____value;
 
+  /// [SerializeField]
   /// @brief Field _image, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____image;
 

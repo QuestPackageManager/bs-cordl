@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Math.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Math.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Math_def.hpp"
@@ -1241,13 +1242,17 @@ inline ::UnityEngine::Vector3 UnityEngine::ProBuilder::Math::DivideBy(::UnityEng
                                                                                          { "DivideBy", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, v, o);
 }
-template <typename T> inline T UnityEngine::ProBuilder::Math::Max(::ArrayW<T> array) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+inline T UnityEngine::ProBuilder::Math::Max(::ArrayW<T> array) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Math*>(), { "Max", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, array);
 }
-template <typename T> inline T UnityEngine::ProBuilder::Math::Min(::ArrayW<T> array) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+inline T UnityEngine::ProBuilder::Math::Min(::ArrayW<T> array) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Math*>(), { "Min", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

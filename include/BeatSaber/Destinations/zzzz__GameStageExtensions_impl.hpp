@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\GameStageExtensions.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/GameStageExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__GameStageExtensions_def.hpp"
 #include "BeatSaber/Destinations/zzzz__DestinationTarget_def.hpp"

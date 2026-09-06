@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IJumpOffsetYProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/IJumpOffsetYProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ public:
   // Declarations
   __declspec(property(get = get_jumpOffsetY)) float_t jumpOffsetY;
 
-  /// @brief Method get_jumpOffsetY, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_jumpOffsetY, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_jumpOffsetY();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJumpOffsetYProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJumpOffsetYProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJumpOffsetYProvider(IJumpOffsetYProvider const&) = delete;
+  IJumpOffsetYProvider(IJumpOffsetYProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5711 };

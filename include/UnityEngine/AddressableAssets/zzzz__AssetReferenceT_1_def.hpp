@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\AssetReferenceT_1.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/AssetReferenceT_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(AssetReferenceT_1)
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -14,15 +15,18 @@ class Object;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
-template <typename TObject> class AssetReferenceT_1;
+template <typename TObject>
+  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
+class AssetReferenceT_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::AddressableAssets::AssetReferenceT_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::AddressableAssets::AssetReferenceT_1, "UnityEngine.AddressableAssets", "AssetReferenceT`1");
-// Dependencies UnityEngine.AddressableAssets.AssetReference
+// Dependencies UnityEngine.AddressableAssets.AssetReference, UnityEngine.Object
 namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
+  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceT`1<TObject>
 class CORDL_TYPE AssetReferenceT_1 : public ::UnityEngine::AddressableAssets::AssetReference {
@@ -48,13 +52,13 @@ protected:
   constexpr AssetReferenceT_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceT_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceT_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetReferenceT_1(AssetReferenceT_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceT_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceT_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetReferenceT_1(AssetReferenceT_1 const&) = delete;
+  AssetReferenceT_1(AssetReferenceT_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19817 };

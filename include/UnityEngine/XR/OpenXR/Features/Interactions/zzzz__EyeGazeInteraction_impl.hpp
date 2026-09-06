@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\EyeGazeInteraction.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/EyeGazeInteraction.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__OpenXRDevice_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__EyeGazeInteraction_def.hpp"

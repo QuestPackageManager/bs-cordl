@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightShape.hpp"
+// IWYU pragma private; include "UnityEngine/LightShape.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct LightShape;
 // Write type traits
 MARK_VAL_T(::UnityEngine::LightShape);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LightShape, "UnityEngine", "LightShape");
+// [Obsolete("This property has been deprecated. Use LightType.Spot, LightType.Pyramid, or LightType.Box instead.")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr LightShape();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LightShape(int32_t value__) noexcept;
 
   /// @brief Field Box value: I32(2)

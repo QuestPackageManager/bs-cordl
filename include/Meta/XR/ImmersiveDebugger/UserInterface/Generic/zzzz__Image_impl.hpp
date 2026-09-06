@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Image.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Image.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Icon_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Image_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__WatchTexture_def.hpp"

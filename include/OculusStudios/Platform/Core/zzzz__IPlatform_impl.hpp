@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\IPlatform.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/IPlatform.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatformEntitlements_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatformUser_def.hpp"
@@ -197,12 +197,14 @@ inline ::OculusStudios::Platform::Core::IPlatformEntitlements* OculusStudios::Pl
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::Platform::Core::IPlatform*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::OculusStudios::Platform::Core::IPlatformEntitlements*>(this, ___internal_method);
 }
-inline void OculusStudios::Platform::Core::IPlatform::add_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value) {
+inline void OculusStudios::Platform::Core::IPlatform::add_destinationRequestedEvent(
+    /* [Nullable(new[] { 1, 1, 2 })] */ ::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::Platform::Core::IPlatform*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void OculusStudios::Platform::Core::IPlatform::remove_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value) {
+inline void OculusStudios::Platform::Core::IPlatform::remove_destinationRequestedEvent(
+    /* [Nullable(new[] { 1, 1, 2 })] */ ::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::Platform::Core::IPlatform*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);

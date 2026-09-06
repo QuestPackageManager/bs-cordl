@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RectIntField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RectIntField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,13 +16,17 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> struct BaseCompositeField_3_FieldDescription;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+struct BaseCompositeField_3_FieldDescription;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> class FieldDescription_BaseCompositeField_3_WriteDelegate;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+class FieldDescription_BaseCompositeField_3_WriteDelegate;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -70,6 +74,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RectIntField*, "UnityEngine.UIEle
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RectIntField_UxmlFactory*, "UnityEngine.UIElements", "RectIntField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RectIntField_UxmlTraits*, "UnityEngine.UIElements", "RectIntField/UxmlTraits");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RectIntField___c*, "UnityEngine.UIElements", "RectIntField/<>c");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -88,13 +93,13 @@ protected:
   constexpr RectIntField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectIntField_UxmlFactory(RectIntField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectIntField_UxmlFactory(RectIntField_UxmlFactory const&) = delete;
+  RectIntField_UxmlFactory(RectIntField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4153 };
@@ -105,6 +110,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::RectIntField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.RectInt, UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -162,13 +168,13 @@ protected:
   constexpr RectIntField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectIntField_UxmlTraits(RectIntField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectIntField_UxmlTraits(RectIntField_UxmlTraits const&) = delete;
+  RectIntField_UxmlTraits(RectIntField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4154 };
@@ -199,6 +205,7 @@ static_assert(offsetof(::UnityEngine::UIElements::RectIntField_UxmlTraits, ___m_
 static_assert(sizeof(::UnityEngine::UIElements::RectIntField_UxmlTraits) == 0xb8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -316,13 +323,13 @@ protected:
   constexpr RectIntField___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntField___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntField___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectIntField___c(RectIntField___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntField___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntField___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectIntField___c(RectIntField___c const&) = delete;
+  RectIntField___c(RectIntField___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4155 };
@@ -333,6 +340,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::RectIntField___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.RectInt, UnityEngine.UIElements.BaseCompositeField`3<TValueType, TField, TFieldValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -386,13 +394,13 @@ protected:
   constexpr RectIntField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectIntField(RectIntField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectIntField(RectIntField const&) = delete;
+  RectIntField(RectIntFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4156 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\Ssl3Mac.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/Ssl3Mac.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,13 +115,13 @@ protected:
   constexpr Ssl3Mac();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ssl3Mac", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ssl3Mac", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ssl3Mac(Ssl3Mac&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ssl3Mac", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ssl3Mac", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ssl3Mac(Ssl3Mac const&) = delete;
+  Ssl3Mac(Ssl3Macconst&) = delete;
 
   /// @brief Field IPAD_BYTE offset 0xffffffff size 0x1
   static constexpr uint8_t IPAD_BYTE{ static_cast<uint8_t>(0x36u) };

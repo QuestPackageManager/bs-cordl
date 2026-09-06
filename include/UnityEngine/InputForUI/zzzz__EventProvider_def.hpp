@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\EventProvider.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/EventProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace System {
 template <typename T> class Comparison_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::InputForUI {
 class EventConsumer;
@@ -76,9 +78,9 @@ public:
   // @brief default ctor
   constexpr EventProvider_Registration();
 
-  // Ctor Parameters [CppParam { name: "handler", ty: "::UnityEngine::InputForUI::EventConsumer*", modifiers: "", def_value: None }, CppParam { name: "priority", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "playerId", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_types", ty:
-  // "::System::Collections::Generic::HashSet_1<::UnityEngine::InputForUI::Event_Type>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handler", ty: "::UnityEngine::InputForUI::EventConsumer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "priority", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "playerId", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_types", ty:
+  // "::System::Collections::Generic::HashSet_1<::UnityEngine::InputForUI::Event_Type>*", modifiers: "", def_value: None, comment: None }]
   constexpr EventProvider_Registration(::UnityEngine::InputForUI::EventConsumer* handler, int32_t priority, ::System::Nullable_1<int32_t> playerId,
                                        ::System::Collections::Generic::HashSet_1<::UnityEngine::InputForUI::Event_Type>* _types) noexcept;
 
@@ -114,6 +116,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::EventProvider_Registration, _t
 static_assert(sizeof(::UnityEngine::InputForUI::EventProvider_Registration) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputForUI {
 // Is value type: false
@@ -149,13 +152,13 @@ protected:
   constexpr EventProvider___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventProvider___c(EventProvider___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventProvider___c(EventProvider___c const&) = delete;
+  EventProvider___c(EventProvider___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21821 };
@@ -166,6 +169,7 @@ public:
 static_assert(sizeof(::UnityEngine::InputForUI::EventProvider___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputForUI {
 // Is value type: false
@@ -196,13 +200,13 @@ protected:
   constexpr EventProvider___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventProvider___c__DisplayClass6_0(EventProvider___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventProvider___c__DisplayClass6_0(EventProvider___c__DisplayClass6_0 const&) = delete;
+  EventProvider___c__DisplayClass6_0(EventProvider___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21822 };
@@ -218,6 +222,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::EventProvider___c__DisplayClas
 static_assert(sizeof(::UnityEngine::InputForUI::EventProvider___c__DisplayClass6_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object, UnityEngine.InputForUI.EventSanitizer
 namespace UnityEngine::InputForUI {
 // Is value type: false
@@ -256,11 +261,12 @@ public:
   static inline void Bootstrap();
 
   /// @brief Method Dispatch, addr 0x6b5b74c, size 0x234, virtual false, abstract: false, final false
-  static inline void Dispatch(::by_ref<::UnityEngine::InputForUI::Event> ev);
+  static inline void Dispatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
 
   /// @brief Method Initialize, addr 0x6b5b3c0, size 0x1d8, virtual false, abstract: false, final false
   static inline void Initialize();
 
+  /// [RequiredByNativeCode]
   /// @brief Method NotifyUpdate, addr 0x6b5bc78, size 0x1b0, virtual false, abstract: false, final false
   static inline void NotifyUpdate();
 
@@ -277,7 +283,8 @@ public:
   static inline void Shutdown();
 
   /// @brief Method Subscribe, addr 0x6b5aeec, size 0x278, virtual false, abstract: false, final false
-  static inline void Subscribe(::UnityEngine::InputForUI::EventConsumer* handler, int32_t priority, ::System::Nullable_1<int32_t> playerId, ::ArrayW<::UnityEngine::InputForUI::Event_Type> type);
+  static inline void Subscribe(::UnityEngine::InputForUI::EventConsumer* handler, int32_t priority, ::System::Nullable_1<int32_t> playerId,
+                               /* [ParamArray] */ ::ArrayW<::UnityEngine::InputForUI::Event_Type> type);
 
   /// @brief Method Unsubscribe, addr 0x6b5b1dc, size 0x13c, virtual false, abstract: false, final false
   static inline void Unsubscribe(::UnityEngine::InputForUI::EventConsumer* handler);
@@ -316,13 +323,13 @@ protected:
   constexpr EventProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventProvider(EventProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventProvider(EventProvider const&) = delete;
+  EventProvider(EventProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21823 };

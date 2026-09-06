@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\MeshWriteDataPool.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshWriteDataPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::UnityEngine::UIElements::UIR::MeshWriteDataPool*);
 MARK_REF_T(::UnityEngine::UIElements::UIR::MeshWriteDataPool___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::MeshWriteDataPool*, "UnityEngine.UIElements.UIR", "MeshWriteDataPool");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::MeshWriteDataPool___c*, "UnityEngine.UIElements.UIR", "MeshWriteDataPool/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
@@ -55,13 +56,13 @@ protected:
   constexpr MeshWriteDataPool___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshWriteDataPool___c(MeshWriteDataPool___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshWriteDataPool___c(MeshWriteDataPool___c const&) = delete;
+  MeshWriteDataPool___c(MeshWriteDataPool___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5326 };
@@ -99,13 +100,13 @@ protected:
   constexpr MeshWriteDataPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshWriteDataPool(MeshWriteDataPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshWriteDataPool(MeshWriteDataPool const&) = delete;
+  MeshWriteDataPool(MeshWriteDataPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5327 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\INetworkPacketSubSerializer_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/INetworkPacketSubSerializer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,21 +39,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
   constexpr operator ::GlobalNamespace::INetworkPacketProcessor_1<TData>*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader, int32_t length, TData data);
 
-  /// @brief Method HandlesType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HandlesType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HandlesType(::System::Type* type);
 
-  /// @brief Method Serialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
 
   /// @brief Convert to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
   constexpr ::GlobalNamespace::INetworkPacketProcessor_1<TData>* i___GlobalNamespace__INetworkPacketProcessor_1_TData_() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSubSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSubSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INetworkPacketSubSerializer_1(INetworkPacketSubSerializer_1 const&) = delete;
+  INetworkPacketSubSerializer_1(INetworkPacketSubSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18227 };

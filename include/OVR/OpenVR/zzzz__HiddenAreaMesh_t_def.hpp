@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\HiddenAreaMesh_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/HiddenAreaMesh_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,8 @@ public:
   // @brief default ctor
   constexpr HiddenAreaMesh_t();
 
-  // Ctor Parameters [CppParam { name: "pVertexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pVertexData", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr HiddenAreaMesh_t(::System::IntPtr pVertexData, uint32_t unTriangleCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

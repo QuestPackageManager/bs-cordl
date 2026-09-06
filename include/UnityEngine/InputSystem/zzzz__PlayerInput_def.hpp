@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\PlayerInput.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/PlayerInput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -178,20 +178,22 @@ protected:
   constexpr PlayerInput_ActionEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ActionEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ActionEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerInput_ActionEvent(PlayerInput_ActionEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ActionEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ActionEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput_ActionEvent(PlayerInput_ActionEvent const&) = delete;
+  PlayerInput_ActionEvent(PlayerInput_ActionEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8798 };
 
+  /// [SerializeField]
   /// @brief Field m_ActionId, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_ActionId;
 
+  /// [SerializeField]
   /// @brief Field m_ActionName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_ActionName;
 
@@ -223,13 +225,13 @@ protected:
   constexpr PlayerInput_DeviceLostEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceLostEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceLostEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerInput_DeviceLostEvent(PlayerInput_DeviceLostEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceLostEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceLostEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput_DeviceLostEvent(PlayerInput_DeviceLostEvent const&) = delete;
+  PlayerInput_DeviceLostEvent(PlayerInput_DeviceLostEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8799 };
@@ -258,13 +260,13 @@ protected:
   constexpr PlayerInput_DeviceRegainedEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceRegainedEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceRegainedEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerInput_DeviceRegainedEvent(PlayerInput_DeviceRegainedEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceRegainedEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceRegainedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput_DeviceRegainedEvent(PlayerInput_DeviceRegainedEvent const&) = delete;
+  PlayerInput_DeviceRegainedEvent(PlayerInput_DeviceRegainedEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8800 };
@@ -293,13 +295,13 @@ protected:
   constexpr PlayerInput_ControlsChangedEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ControlsChangedEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ControlsChangedEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerInput_ControlsChangedEvent(PlayerInput_ControlsChangedEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ControlsChangedEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ControlsChangedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput_ControlsChangedEvent(PlayerInput_ControlsChangedEvent const&) = delete;
+  PlayerInput_ControlsChangedEvent(PlayerInput_ControlsChangedEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8801 };
@@ -310,6 +312,9 @@ public:
 static_assert(sizeof(::UnityEngine::InputSystem::PlayerInput_ControlsChangedEvent) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [AddComponentMenu("Input/Player Input")]
+// [DisallowMultipleComponent]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/PlayerInput.html")]
 // Dependencies UnityEngine.InputSystem.InputDevice, UnityEngine.InputSystem.PlayerInput::ActionEvent, UnityEngine.InputSystem.PlayerNotifications, UnityEngine.InputSystem.Users.InputUser,
 // UnityEngine.InputSystem.Utilities.CallbackArray`1<TDelegate>, UnityEngine.MonoBehaviour
 namespace UnityEngine::InputSystem {
@@ -330,6 +335,7 @@ public:
 
   __declspec(property(get = get_actions, put = set_actions)) ::UnityW<::UnityEngine::InputSystem::InputActionAsset> actions;
 
+  /// @brief [Obsolete("Use inputIsActive instead.")]
   __declspec(property(get = get_active)) bool active;
 
   __declspec(property(get = get_camera, put = set_camera)) ::UnityW<::UnityEngine::Camera> camera;
@@ -537,7 +543,9 @@ public:
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> FindFirstPairedToDevice(::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Method GetDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevice> inline TDevice GetDevice();
+  template <typename TDevice>
+    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+  inline TDevice GetDevice();
 
   /// @brief Method GetPlayerByIndex, addr 0x6580518, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> GetPlayerByIndex(int32_t playerIndex);
@@ -566,7 +574,7 @@ public:
 
   /// @brief Method Instantiate, addr 0x6580bec, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> Instantiate(::UnityEngine::GameObject* prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex,
-                                                                              ::ArrayW<::UnityEngine::InputSystem::InputDevice*> pairWithDevices);
+                                                                              /* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> pairWithDevices);
 
   static inline ::UnityEngine::InputSystem::PlayerInput* New_ctor();
 
@@ -591,6 +599,7 @@ public:
   /// @brief Method OnUserChange, addr 0x6583a68, size 0x1c0, virtual false, abstract: false, final false
   static inline void OnUserChange(::UnityEngine::InputSystem::Users::InputUser user, ::UnityEngine::InputSystem::Users::InputUserChange change, ::UnityEngine::InputSystem::InputDevice* device);
 
+  /// [Obsolete("Use DeactivateInput instead.")]
   /// @brief Method PassivateInput, addr 0x657fbe8, size 0x24, virtual false, abstract: false, final false
   inline void PassivateInput();
 
@@ -607,16 +616,16 @@ public:
   inline void StopListeningForUnpairedDeviceActivity();
 
   /// @brief Method SwitchControlSchemeInternal, addr 0x657fdd0, size 0x51c, virtual false, abstract: false, final false
-  inline void SwitchControlSchemeInternal(::by_ref<::UnityEngine::InputSystem::InputControlScheme> controlScheme, ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices);
+  inline void SwitchControlSchemeInternal(::by_ref<::UnityEngine::InputSystem::InputControlScheme> controlScheme, /* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices);
 
   /// @brief Method SwitchCurrentActionMap, addr 0x657f434, size 0x1c0, virtual false, abstract: false, final false
   inline void SwitchCurrentActionMap(::StringW mapNameOrId);
 
   /// @brief Method SwitchCurrentControlScheme, addr 0x657fc0c, size 0x1c4, virtual false, abstract: false, final false
-  inline bool SwitchCurrentControlScheme(::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices);
+  inline bool SwitchCurrentControlScheme(/* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices);
 
   /// @brief Method SwitchCurrentControlScheme, addr 0x65802ec, size 0x114, virtual false, abstract: false, final false
-  inline void SwitchCurrentControlScheme(::StringW controlScheme, ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices);
+  inline void SwitchCurrentControlScheme(::StringW controlScheme, /* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices);
 
   /// @brief Method TryToActivateControlScheme, addr 0x658160c, size 0x258, virtual false, abstract: false, final false
   inline bool TryToActivateControlScheme(::UnityEngine::InputSystem::InputControlScheme controlScheme);
@@ -989,13 +998,13 @@ protected:
   constexpr PlayerInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerInput(PlayerInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput(PlayerInput const&) = delete;
+  PlayerInput(PlayerInputconst&) = delete;
 
   /// @brief Field ControlsChangedMessage offset 0xffffffff size 0x8
   static constexpr ::ConstString ControlsChangedMessage{ u"OnControlsChanged" };
@@ -1012,39 +1021,56 @@ public:
   /// @brief Field m_AllMapsHashCode, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_AllMapsHashCode;
 
+  /// [Tooltip("Input actions associated with the player.")]
+  /// [SerializeField]
   /// @brief Field m_Actions, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ___m_Actions;
 
+  /// [Tooltip("Determine how notifications should be sent when an input-related event associated with the player happens.")]
+  /// [SerializeField]
   /// @brief Field m_NotificationBehavior, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::InputSystem::PlayerNotifications ___m_NotificationBehavior;
 
+  /// [Tooltip("UI InputModule that should have it\'s input actions synchronized to this PlayerInput\'s actions.")]
+  /// [SerializeField]
   /// @brief Field m_UIInputModule, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::UI::InputSystemUIInputModule> ___m_UIInputModule;
 
+  /// [Tooltip("Event that is triggered when the PlayerInput loses a paired device (e.g. its battery runs out).")]
+  /// [SerializeField]
   /// @brief Field m_DeviceLostEvent, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::InputSystem::PlayerInput_DeviceLostEvent* ___m_DeviceLostEvent;
 
+  /// [SerializeField]
   /// @brief Field m_DeviceRegainedEvent, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::InputSystem::PlayerInput_DeviceRegainedEvent* ___m_DeviceRegainedEvent;
 
+  /// [SerializeField]
   /// @brief Field m_ControlsChangedEvent, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::InputSystem::PlayerInput_ControlsChangedEvent* ___m_ControlsChangedEvent;
 
+  /// [SerializeField]
   /// @brief Field m_ActionEvents, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::PlayerInput_ActionEvent*> ___m_ActionEvents;
 
+  /// [SerializeField]
   /// @brief Field m_NeverAutoSwitchControlSchemes, offset: 0x60, size: 0x1, def value: None
   bool ___m_NeverAutoSwitchControlSchemes;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultControlScheme, offset: 0x68, size: 0x8, def value: None
   ::StringW ___m_DefaultControlScheme;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultActionMap, offset: 0x70, size: 0x8, def value: None
   ::StringW ___m_DefaultActionMap;
 
+  /// [SerializeField]
   /// @brief Field m_SplitScreenIndex, offset: 0x78, size: 0x4, def value: None
   int32_t ___m_SplitScreenIndex;
 
+  /// [Tooltip("Reference to the player\'s view camera. Note that this is only required when using split-screen and/or per-player UIs. Otherwise it is safe to leave this property uninitialized.")]
+  /// [SerializeField]
   /// @brief Field m_Camera, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ___m_Camera;
 

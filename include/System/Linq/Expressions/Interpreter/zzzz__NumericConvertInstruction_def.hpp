@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NumericConvertInstruction.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NumericConvertInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   /// @brief Field _to, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__to, put = __cordl_internal_set__to)) ::System::TypeCode _to;
 
-  /// @brief Method Convert, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Convert(::System::Object* obj);
 
   static inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
@@ -108,13 +108,13 @@ protected:
   constexpr NumericConvertInstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NumericConvertInstruction(NumericConvertInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NumericConvertInstruction(NumericConvertInstruction const&) = delete;
+  NumericConvertInstruction(NumericConvertInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16556 };

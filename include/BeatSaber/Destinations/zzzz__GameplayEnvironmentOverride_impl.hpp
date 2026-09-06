@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\GameplayEnvironmentOverride.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/GameplayEnvironmentOverride.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__GameplayEnvironmentOverride_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Destinations::GameplayEnvironmentOverride.get_overrideEnvironment

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\ForeignKeyConstraint.hpp"
+// IWYU pragma private; include "System/Data/ForeignKeyConstraint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ class ForeignKeyConstraint;
 // Write type traits
 MARK_REF_T(::System::Data::ForeignKeyConstraint*);
 DEFINE_IL2CPP_CLASS(::System::Data::ForeignKeyConstraint*, "System.Data", "ForeignKeyConstraint");
+// [DefaultProperty("ConstraintName")]
 // Dependencies System.Data.AcceptRejectRule, System.Data.Constraint, System.Data.DataKey, System.Data.Rule
 namespace System::Data {
 // Is value type: false
@@ -61,28 +62,35 @@ namespace System::Data {
 class CORDL_TYPE ForeignKeyConstraint : public ::System::Data::Constraint {
 public:
   // Declarations
+  /// @brief [DefaultValue((System.Data.AcceptRejectRule)0)]
   __declspec(property(get = get_AcceptRejectRule, put = set_AcceptRejectRule)) ::System::Data::AcceptRejectRule AcceptRejectRule;
 
   __declspec(property(get = get_ChildColumnNames)) ::ArrayW<::StringW> ChildColumnNames;
 
   __declspec(property(get = get_ChildKey)) ::System::Data::DataKey ChildKey;
 
+  /// @brief [ReadOnly(true)]
   __declspec(property(get = get_Columns)) ::ArrayW<::System::Data::DataColumn*> Columns;
 
+  /// @brief [DefaultValue((System.Data.Rule)1)]
   __declspec(property(get = get_DeleteRule, put = set_DeleteRule)) ::System::Data::Rule DeleteRule;
 
   __declspec(property(get = get_ParentColumnNames)) ::ArrayW<::StringW> ParentColumnNames;
 
   __declspec(property(get = get_ParentKey)) ::System::Data::DataKey ParentKey;
 
+  /// @brief [ReadOnly(true)]
   __declspec(property(get = get_RelatedColumns)) ::ArrayW<::System::Data::DataColumn*> RelatedColumns;
 
   __declspec(property(get = get_RelatedColumnsReference)) ::ArrayW<::System::Data::DataColumn*> RelatedColumnsReference;
 
+  /// @brief [ReadOnly(true)]
   __declspec(property(get = get_RelatedTable)) ::System::Data::DataTable* RelatedTable;
 
+  /// @brief [ReadOnly(true)]
   __declspec(property(get = get_Table)) ::System::Data::DataTable* Table;
 
+  /// @brief [DefaultValue((System.Data.Rule)1)]
   __declspec(property(get = get_UpdateRule, put = set_UpdateRule)) ::System::Data::Rule UpdateRule;
 
   /// @brief Field _acceptRejectRule, offset 0x40, size 0x4
@@ -180,6 +188,7 @@ public:
 
   static inline ::System::Data::ForeignKeyConstraint* New_ctor(::StringW constraintName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns);
 
+  /// @brief [Browsable(false)]
   static inline ::System::Data::ForeignKeyConstraint* New_ctor(::StringW constraintName, ::StringW parentTableName, ::ArrayW<::StringW> parentColumnNames, ::ArrayW<::StringW> childColumnNames,
                                                                ::System::Data::AcceptRejectRule acceptRejectRule, ::System::Data::Rule deleteRule, ::System::Data::Rule updateRule);
 
@@ -245,6 +254,7 @@ public:
   /// @brief Method .ctor, addr 0x60450bc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW constraintName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns);
 
+  /// [Browsable(false)]
   /// @brief Method .ctor, addr 0x6045218, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW constraintName, ::StringW parentTableName, ::ArrayW<::StringW> parentColumnNames, ::ArrayW<::StringW> childColumnNames, ::System::Data::AcceptRejectRule acceptRejectRule,
                     ::System::Data::Rule deleteRule, ::System::Data::Rule updateRule);
@@ -303,13 +313,13 @@ protected:
   constexpr ForeignKeyConstraint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ForeignKeyConstraint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForeignKeyConstraint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ForeignKeyConstraint(ForeignKeyConstraint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ForeignKeyConstraint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForeignKeyConstraint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForeignKeyConstraint(ForeignKeyConstraint const&) = delete;
+  ForeignKeyConstraint(ForeignKeyConstraintconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13831 };

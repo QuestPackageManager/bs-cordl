@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardScoreSyncState.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardScoreSyncState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,10 +7,15 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardScoreSyncState)
 namespace GlobalNamespace {
-template <typename T> class IEquatableByReference_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IEquatableByReference_1;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class IStateTable_3;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
+           ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class IStateTable_3;
 }
 namespace GlobalNamespace {
 struct StandardScoreSyncState_Score;
@@ -69,7 +74,7 @@ public:
   // @brief default ctor
   constexpr StandardScoreSyncState_Score();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StandardScoreSyncState_Score(int32_t value__) noexcept;
 
   /// @brief Field Combo value: I32(3)
@@ -126,16 +131,16 @@ public:
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
   /// @brief Method ApplyDelta, addr 0x32be7cc, size 0x24, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::StandardScoreSyncState ApplyDelta(::by_ref<::GlobalNamespace::StandardScoreSyncState> delta);
+  inline ::GlobalNamespace::StandardScoreSyncState ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> delta);
 
   /// @brief Method Deserialize, addr 0x32be904, size 0xa8, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method Equals, addr 0x32be9ac, size 0x5c, virtual false, abstract: false, final false
-  inline bool Equals(::by_ref<::GlobalNamespace::StandardScoreSyncState> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> other);
 
   /// @brief Method GetDelta, addr 0x32be7a8, size 0x24, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::StandardScoreSyncState GetDelta(::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable);
+  inline ::GlobalNamespace::StandardScoreSyncState GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable);
 
   /// @brief Method GetSize, addr 0x32bea08, size 0xfc, virtual true, abstract: false, final true
   inline int32_t GetSize();
@@ -144,14 +149,15 @@ public:
   inline int32_t GetState(::GlobalNamespace::StandardScoreSyncState_Score s);
 
   /// @brief Method IEquatableByReference<StandardScoreSyncState>.Equals, addr 0x32beb4c, size 0x4, virtual true, abstract: false, final true
-  inline bool IEquatableByReference_StandardScoreSyncState__Equals(::by_ref<::GlobalNamespace::StandardScoreSyncState> other);
+  inline bool IEquatableByReference_StandardScoreSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> other);
 
   /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta, addr 0x32beb28, size 0x24, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::StandardScoreSyncState IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(::by_ref<::GlobalNamespace::StandardScoreSyncState> delta);
+  inline ::GlobalNamespace::StandardScoreSyncState
+  IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> delta);
 
   /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta, addr 0x32beb04, size 0x24, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState
-  IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable);
+  IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable);
 
   /// @brief Method Serialize, addr 0x32be848, size 0xbc, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
@@ -173,9 +179,9 @@ public:
   // @brief default ctor
   constexpr StandardScoreSyncState();
 
-  // Ctor Parameters [CppParam { name: "_modifiedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_multipliedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "_immediateMaxPossibleMultipliedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_combo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_multiplier", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_modifiedScore", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_multipliedScore", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_immediateMaxPossibleMultipliedScore", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_combo", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_multiplier", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StandardScoreSyncState(int32_t _modifiedScore, int32_t _multipliedScore, int32_t _immediateMaxPossibleMultipliedScore, int32_t _combo, int32_t _multiplier) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

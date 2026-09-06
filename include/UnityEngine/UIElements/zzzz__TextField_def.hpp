@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TextField*, "UnityEngine.UIElemen
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TextField_TextInput*, "UnityEngine.UIElements", "TextField/TextInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TextField_UxmlFactory*, "UnityEngine.UIElements", "TextField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TextField_UxmlTraits*, "UnityEngine.UIElements", "TextField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -76,13 +77,13 @@ protected:
   constexpr TextField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextField_UxmlFactory(TextField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextField_UxmlFactory(TextField_UxmlFactory const&) = delete;
+  TextField_UxmlFactory(TextField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4224 };
@@ -93,6 +94,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::TextField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextInputBaseField`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -130,13 +132,13 @@ protected:
   constexpr TextField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextField_UxmlTraits(TextField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextField_UxmlTraits(TextField_UxmlTraits const&) = delete;
+  TextField_UxmlTraits(TextField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4225 };
@@ -186,13 +188,13 @@ protected:
   constexpr TextField_TextInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextField_TextInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextField_TextInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextField_TextInput(TextField_TextInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextField_TextInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextField_TextInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextField_TextInput(TextField_TextInput const&) = delete;
+  TextField_TextInput(TextField_TextInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4226 };
@@ -222,6 +224,7 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_multiline, put = set_multiline)) bool multiline;
 
   /// @brief Field multilineProperty, offset 0xffffffff, size 0x98
@@ -234,6 +237,7 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) ::StringW value;
 
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.FocusOutEvent) })]
   /// @brief Method HandleEventBubbleUp, addr 0x6d4bfc8, size 0x180, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
@@ -304,13 +308,13 @@ protected:
   constexpr TextField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextField(TextField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextField(TextField const&) = delete;
+  TextField(TextFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4227 };

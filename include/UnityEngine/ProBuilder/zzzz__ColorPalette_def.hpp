@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ColorPalette.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ColorPalette.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class ColorPalette;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::ColorPalette*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::ColorPalette*, "UnityEngine.ProBuilder", "ColorPalette");
+// [DefaultMember("Item")]
 // Dependencies UnityEngine.Color, UnityEngine.ScriptableObject
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -85,6 +86,7 @@ public:
   /// @brief Method get_colors, addr 0x66b8b78, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* get_colors();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x66b8b60, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_current();
 
@@ -94,6 +96,7 @@ public:
   /// @brief Method set_Item, addr 0x66b9498, size 0x94, virtual false, abstract: false, final false
   inline void set_Item(int32_t i, ::UnityEngine::Color value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x66b8b6c, size 0xc, virtual false, abstract: false, final false
   inline void set_current(::UnityEngine::Color value);
 
@@ -103,20 +106,23 @@ protected:
   constexpr ColorPalette();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorPalette(ColorPalette&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorPalette(ColorPalette const&) = delete;
+  ColorPalette(ColorPaletteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16723 };
 
+  /// [CompilerGenerated]
   /// @brief Field <current>k__BackingField, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ____current_k__BackingField;
 
+  /// [FormerlySerializedAs("colors")]
+  /// [SerializeField]
   /// @brief Field m_Colors, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Color>* ___m_Colors;
 

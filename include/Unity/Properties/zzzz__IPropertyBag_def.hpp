@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IPropertyBag.hpp"
+// IWYU pragma private; include "Unity/Properties/IPropertyBag.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ namespace Unity::Properties {
 class CORDL_TYPE IPropertyBag {
 public:
   // Declarations
-  /// @brief Method Accept, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Accept(::Unity::Properties::IPropertyBagVisitor* visitor, ::by_ref<::System::Object*> container);
 
-  /// @brief Method Accept, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Accept(::Unity::Properties::ITypeVisitor* visitor);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPropertyBag(IPropertyBag const&) = delete;
+  IPropertyBag(IPropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19645 };

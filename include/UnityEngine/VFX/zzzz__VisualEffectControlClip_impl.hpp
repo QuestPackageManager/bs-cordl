@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlClip.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlClip.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectPlayableSerializedEventNoColor_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -13,7 +13,7 @@
 #include "UnityEngine/VFX/zzzz__VisualEffectControlClip_def.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectPlayableSerializedEvent_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::VisualEffectControlClip_ReinitMode::VisualEffectControlClip_ReinitMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -23,8 +23,9 @@ constexpr ::UnityEngine::VFX::VisualEffectControlClip_ReinitMode UnityEngine::VF
 constexpr ::UnityEngine::VFX::VisualEffectControlClip_ReinitMode UnityEngine::VFX::VisualEffectControlClip_ReinitMode::OnExitClip{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::VFX::VisualEffectControlClip_ReinitMode UnityEngine::VFX::VisualEffectControlClip_ReinitMode::OnEnterClip{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::VFX::VisualEffectControlClip_ReinitMode UnityEngine::VFX::VisualEffectControlClip_ReinitMode::OnEnterOrExitClip{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "enable", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "stepCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "deltaTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "eventName", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "enable", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stepCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "deltaTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "eventName", ty:
+// "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::VisualEffectControlClip_PrewarmClipSettings::VisualEffectControlClip_PrewarmClipSettings(bool enable, uint32_t stepCount, float_t deltaTime,
                                                                                                                        ::UnityEngine::VFX::Utility::ExposedProperty* eventName) noexcept {
   this->enable = enable;
@@ -40,9 +41,9 @@ inline void UnityEngine::VFX::VisualEffectControlClip_ClipEvent::setStaticF_defa
 inline ::UnityEngine::Color UnityEngine::VFX::VisualEffectControlClip_ClipEvent::getStaticF_defaultEditorColor() {
   return ::cordl_internals::getStaticField<::UnityEngine::Color, "defaultEditorColor", ::UnityEngine::VFX::VisualEffectControlClip_ClipEvent>();
 }
-// Ctor Parameters [CppParam { name: "editorColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "enter", ty:
-// "::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor", modifiers: "", def_value: Some("{}") }, CppParam { name: "exit", ty:
-// "::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "editorColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enter", ty:
+// "::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "exit", ty:
+// "::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::VisualEffectControlClip_ClipEvent::VisualEffectControlClip_ClipEvent(::UnityEngine::Color editorColor,
                                                                                                    ::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor enter,
                                                                                                    ::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor exit) noexcept {

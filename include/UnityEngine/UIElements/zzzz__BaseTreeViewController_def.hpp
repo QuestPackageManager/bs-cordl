@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseTreeViewController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseTreeViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,6 +107,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseTreeViewController*, "UnityEn
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseTreeViewController__GetAllItemIds_d__23*, "UnityEngine.UIElements", "BaseTreeViewController/<GetAllItemIds>d__23");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIdsByIndex_d__41*, "UnityEngine.UIElements", "BaseTreeViewController/<GetChildrenIdsByIndex>d__41");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIds_d__25*, "UnityEngine.UIElements", "BaseTreeViewController/<GetChildrenIds>d__25");
+// [CompilerGenerated]
 // Dependencies System.Object, Unity.Hierarchy.HierarchyFlattened::Enumerator, Unity.Hierarchy.HierarchyFlattenedNode, Unity.Hierarchy.HierarchyFlattenedNodeChildren,
 // Unity.Hierarchy.HierarchyFlattenedNodeChildren::Enumerator, Unity.Hierarchy.HierarchyNode
 namespace UnityEngine::UIElements {
@@ -177,23 +178,30 @@ public:
   /// @brief Method MoveNext, addr 0x6c51f98, size 0x670, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UIElements::BaseTreeViewController__GetAllItemIds_d__23* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x6c52720, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6c526bc, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6c527c0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6c526c4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6c526fc, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6c51f6c, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -278,6 +286,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6c52608, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6c4e844, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -302,13 +311,13 @@ protected:
   constexpr BaseTreeViewController__GetAllItemIds_d__23();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetAllItemIds_d__23", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetAllItemIds_d__23", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseTreeViewController__GetAllItemIds_d__23(BaseTreeViewController__GetAllItemIds_d__23&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetAllItemIds_d__23", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetAllItemIds_d__23", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseTreeViewController__GetAllItemIds_d__23(BaseTreeViewController__GetAllItemIds_d__23 const&) = delete;
+  BaseTreeViewController__GetAllItemIds_d__23(BaseTreeViewController__GetAllItemIds_d__23const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4075 };
@@ -384,6 +393,7 @@ static_assert(offsetof(::UnityEngine::UIElements::BaseTreeViewController__GetAll
 static_assert(sizeof(::UnityEngine::UIElements::BaseTreeViewController__GetAllItemIds_d__23) == 0xe0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object, Unity.Hierarchy.HierarchyNode, Unity.Hierarchy.HierarchyNodeChildren, Unity.Hierarchy.HierarchyNodeChildren::Enumerator
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -443,23 +453,30 @@ public:
   /// @brief Method MoveNext, addr 0x6c527c8, size 0x27c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIds_d__25* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x6c52aa8, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6c52a44, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6c52b48, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6c52a4c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6c52a84, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6c527c4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -523,6 +540,7 @@ public:
 
   constexpr void __cordl_internal_set_id(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6c4eb48, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -547,13 +565,13 @@ protected:
   constexpr BaseTreeViewController__GetChildrenIds_d__25();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetChildrenIds_d__25", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetChildrenIds_d__25", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseTreeViewController__GetChildrenIds_d__25(BaseTreeViewController__GetChildrenIds_d__25&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetChildrenIds_d__25", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetChildrenIds_d__25", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseTreeViewController__GetChildrenIds_d__25(BaseTreeViewController__GetChildrenIds_d__25 const&) = delete;
+  BaseTreeViewController__GetChildrenIds_d__25(BaseTreeViewController__GetChildrenIds_d__25const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4076 };
@@ -614,6 +632,7 @@ static_assert(offsetof(::UnityEngine::UIElements::BaseTreeViewController__GetChi
 static_assert(sizeof(::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIds_d__25) == 0x78, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object, Unity.Hierarchy.HierarchyNode, Unity.Hierarchy.HierarchyNodeChildren, Unity.Hierarchy.HierarchyNodeChildren::Enumerator
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -670,23 +689,30 @@ public:
   /// @brief Method MoveNext, addr 0x6c52b50, size 0x210, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIdsByIndex_d__41* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x6c52dc4, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6c52d60, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6c52e64, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6c52d68, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6c52da0, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6c52b4c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -744,6 +770,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6c50b34, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -768,13 +795,13 @@ protected:
   constexpr BaseTreeViewController__GetChildrenIdsByIndex_d__41();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetChildrenIdsByIndex_d__41", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetChildrenIdsByIndex_d__41", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseTreeViewController__GetChildrenIdsByIndex_d__41(BaseTreeViewController__GetChildrenIdsByIndex_d__41&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetChildrenIdsByIndex_d__41", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController__GetChildrenIdsByIndex_d__41", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseTreeViewController__GetChildrenIdsByIndex_d__41(BaseTreeViewController__GetChildrenIdsByIndex_d__41 const&) = delete;
+  BaseTreeViewController__GetChildrenIdsByIndex_d__41(BaseTreeViewController__GetChildrenIdsByIndex_d__41const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4077 };
@@ -888,10 +915,10 @@ public:
   inline void CollapseItemByIndex(int32_t index, bool collapseAllChildren, bool refresh);
 
   /// @brief Method CollapseItemByNode, addr 0x6c51344, size 0x46c, virtual false, abstract: false, final false
-  inline void CollapseItemByNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool collapseAllChildren, bool refresh);
+  inline void CollapseItemByNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool collapseAllChildren, bool refresh);
 
   /// @brief Method CreateNode, addr 0x6c51b38, size 0xb0, virtual false, abstract: false, final false
-  inline ::Unity::Hierarchy::HierarchyNode CreateNode(::by_ref<::Unity::Hierarchy::HierarchyNode> parent);
+  inline ::Unity::Hierarchy::HierarchyNode CreateNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent);
 
   /// @brief Method DisposeHierarchy, addr 0x6c4e70c, size 0x64, virtual false, abstract: false, final false
   inline void DisposeHierarchy();
@@ -906,23 +933,27 @@ public:
   inline void ExpandItemByIndex(int32_t index, bool expandAllChildren, bool refresh);
 
   /// @brief Method ExpandItemByNode, addr 0x6c50d20, size 0x554, virtual false, abstract: false, final false
-  inline void ExpandItemByNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool expandAllChildren, bool refresh);
+  inline void ExpandItemByNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool expandAllChildren, bool refresh);
 
   /// @brief Method Finalize, addr 0x6c4e6c8, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UIElements.BaseTreeViewController::<GetAllItemIds>d__23))]
   /// @brief Method GetAllItemIds, addr 0x6c4e7cc, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetAllItemIds(::System::Collections::Generic::IEnumerable_1<int32_t>* rootIds);
 
   /// @brief Method GetChildIndexForId, addr 0x6c4ee50, size 0x200, virtual false, abstract: false, final false
   inline int32_t GetChildIndexForId(int32_t id);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UIElements.BaseTreeViewController::<GetChildrenIds>d__25))]
   /// @brief Method GetChildrenIds, addr 0x6c4eacc, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetChildrenIds(int32_t id);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UIElements.BaseTreeViewController::<GetChildrenIdsByIndex>d__41))]
   /// @brief Method GetChildrenIdsByIndex, addr 0x6c50238, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetChildrenIdsByIndex(int32_t index);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetExpandedItemIds, addr 0x6c51880, size 0x2a8, virtual false, abstract: false, final false
   inline void GetExpandedItemIds(::System::Collections::Generic::List_1<int32_t>* list);
 
@@ -1007,10 +1038,11 @@ public:
   inline void UpdateHierarchy();
 
   /// @brief Method UpdateIdToNodeDictionary, addr 0x6c51be8, size 0x14c, virtual false, abstract: false, final false
-  inline void UpdateIdToNodeDictionary(int32_t id, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool isAdd);
+  inline void UpdateIdToNodeDictionary(int32_t id, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool isAdd);
 
   /// @brief Method UpdateSortOrder, addr 0x6c4f050, size 0x230, virtual false, abstract: false, final false
-  inline void UpdateSortOrder(::by_ref<::Unity::Hierarchy::HierarchyNode> newParent, ::by_ref<::Unity::Hierarchy::HierarchyNode> insertedNode, int32_t insertedIndex);
+  inline void UpdateSortOrder(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> newParent, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> insertedNode,
+                              int32_t insertedIndex);
 
   constexpr ::System::Action_1<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>* const& __cordl_internal_get_itemExpandedChanged() const;
 
@@ -1057,6 +1089,7 @@ public:
   /// @brief Method .ctor, addr 0x6c4e4b8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_itemExpandedChanged, addr 0x6c4e338, size 0xc0, virtual false, abstract: false, final false
   inline void add_itemExpandedChanged(::System::Action_1<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>* value);
 
@@ -1071,6 +1104,7 @@ public:
   /// @brief Method get_itemsSource, addr 0x6c4e778, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_itemsSource();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_itemExpandedChanged, addr 0x6c4e3f8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_itemExpandedChanged(::System::Action_1<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>* value);
 
@@ -1088,13 +1122,13 @@ protected:
   constexpr BaseTreeViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseTreeViewController(BaseTreeViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseTreeViewController(BaseTreeViewController const&) = delete;
+  BaseTreeViewController(BaseTreeViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4078 };
@@ -1117,6 +1151,8 @@ public:
   /// @brief Field m_HierarchyHasPendingChanged, offset: 0x58, size: 0x1, def value: None
   bool ___m_HierarchyHasPendingChanged;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field itemExpandedChanged, offset: 0x60, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>* ___itemExpandedChanged;
 

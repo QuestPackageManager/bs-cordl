@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScoreController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScoreController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,13 +113,13 @@ protected:
   constexpr ScoreController_ApproximateFloatComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreController_ApproximateFloatComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreController_ApproximateFloatComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreController_ApproximateFloatComparer(ScoreController_ApproximateFloatComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreController_ApproximateFloatComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreController_ApproximateFloatComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreController_ApproximateFloatComparer(ScoreController_ApproximateFloatComparer const&) = delete;
+  ScoreController_ApproximateFloatComparer(ScoreController_ApproximateFloatComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6262 };
@@ -130,6 +130,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::ScoreController_ApproximateFloatComparer) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/ScoreController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -259,7 +260,7 @@ public:
   inline void DespawnScoringElement(::GlobalNamespace::ScoringElement* scoringElement);
 
   /// @brief Method HandleNoteWasCut, addr 0x59f599c, size 0x4c4, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method HandleNoteWasMissed, addr 0x59f5f18, size 0x254, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
@@ -458,15 +459,19 @@ public:
   /// @brief Method .ctor, addr 0x59f6238, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_multiplierDidChangeEvent, addr 0x59f4428, size 0xc0, virtual true, abstract: false, final true
   inline void add_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_scoreDidChangeEvent, addr 0x59f42a8, size 0xc0, virtual true, abstract: false, final true
   inline void add_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_scoringForNoteFinishedEvent, addr 0x59f4728, size 0xc0, virtual true, abstract: false, final true
   inline void add_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_scoringForNoteStartedEvent, addr 0x59f45a8, size 0xc0, virtual true, abstract: false, final true
   inline void add_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
@@ -490,15 +495,19 @@ public:
   /// @brief Convert to "::GlobalNamespace::IScoreController"
   constexpr ::GlobalNamespace::IScoreController* i___GlobalNamespace__IScoreController() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_multiplierDidChangeEvent, addr 0x59f44e8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_scoreDidChangeEvent, addr 0x59f4368, size 0xc0, virtual true, abstract: false, final true
   inline void remove_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x59f47e8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_scoringForNoteStartedEvent, addr 0x59f4668, size 0xc0, virtual true, abstract: false, final true
   inline void remove_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
@@ -510,59 +519,74 @@ protected:
   constexpr ScoreController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreController(ScoreController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreController(ScoreController const&) = delete;
+  ScoreController(ScoreControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6263 };
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
+  /// [Inject]
   /// @brief Field _gameplayModifiers, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
+  /// [Inject]
   /// @brief Field _gameEnergyCounter, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IGameEnergyCounter* ____gameEnergyCounter;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _recPlayState, offset: 0x48, size: 0x8, def value: None
   ::BeatSaber::Automation::RecPlayBehaviourState* ____recPlayState;
 
+  /// [Inject]
   /// @brief Field _goodCutScoringElementPool, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::GoodCutScoringElement_Pool* ____goodCutScoringElementPool;
 
+  /// [Inject]
   /// @brief Field _badCutScoringElementPool, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BadCutScoringElement_Pool* ____badCutScoringElementPool;
 
+  /// [Inject]
   /// @brief Field _missScoringElementPool, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::MissScoringElement_Pool* ____missScoringElementPool;
 
+  /// [Inject]
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
+  /// [Inject]
   /// @brief Field _blockLevelGameplayAnalyticsEventsCache, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache* ____blockLevelGameplayAnalyticsEventsCache;
 
+  /// [CompilerGenerated]
   /// @brief Field scoreDidChangeEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action_2<int32_t, int32_t>* ___scoreDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field multiplierDidChangeEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_2<int32_t, float_t>* ___multiplierDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field scoringForNoteStartedEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::ScoringElement*>* ___scoringForNoteStartedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field scoringForNoteFinishedEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::ScoringElement*>* ___scoringForNoteFinishedEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DoubleField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DoubleField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DoubleField*, "UnityEngine.UIElem
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DoubleField_DoubleInput*, "UnityEngine.UIElements", "DoubleField/DoubleInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DoubleField_UxmlFactory*, "UnityEngine.UIElements", "DoubleField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DoubleField_UxmlTraits*, "UnityEngine.UIElements", "DoubleField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr DoubleField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DoubleField_UxmlFactory(DoubleField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleField_UxmlFactory(DoubleField_UxmlFactory const&) = delete;
+  DoubleField_UxmlFactory(DoubleField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4177 };
@@ -85,6 +86,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::DoubleField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -103,13 +105,13 @@ protected:
   constexpr DoubleField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DoubleField_UxmlTraits(DoubleField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleField_UxmlTraits(DoubleField_UxmlTraits const&) = delete;
+  DoubleField_UxmlTraits(DoubleField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4178 };
@@ -157,13 +159,13 @@ protected:
   constexpr DoubleField_DoubleInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_DoubleInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_DoubleInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DoubleField_DoubleInput(DoubleField_DoubleInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_DoubleInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_DoubleInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleField_DoubleInput(DoubleField_DoubleInput const&) = delete;
+  DoubleField_DoubleInput(DoubleField_DoubleInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4179 };
@@ -174,6 +176,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::DoubleField_DoubleInput) == 0x4e8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -241,13 +244,13 @@ protected:
   constexpr DoubleField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DoubleField(DoubleField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleField(DoubleField const&) = delete;
+  DoubleField(DoubleFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4180 };

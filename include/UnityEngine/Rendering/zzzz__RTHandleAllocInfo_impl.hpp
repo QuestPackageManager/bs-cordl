@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RTHandleAllocInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RTHandleAllocInfo.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MSAASamples_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureDimension_impl.hpp"
@@ -665,18 +665,19 @@ inline void UnityEngine::Rendering::RTHandleAllocInfo::_ctor(::StringW name) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandleAllocInfo>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "_slices_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_format_k__BackingField", ty:
-// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "_filterMode_k__BackingField", ty: "::UnityEngine::FilterMode", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_wrapModeU_k__BackingField", ty: "::UnityEngine::TextureWrapMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "_wrapModeV_k__BackingField",
-// ty: "::UnityEngine::TextureWrapMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "_wrapModeW_k__BackingField", ty: "::UnityEngine::TextureWrapMode", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_dimension_k__BackingField", ty: "::UnityEngine::Rendering::TextureDimension", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_enableRandomWrite_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_useMipMap_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "_autoGenerateMips_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_anisoLevel_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_mipMapBias_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_msaaSamples_k__BackingField", ty:
-// "::UnityEngine::Rendering::MSAASamples", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bindTextureMS_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_useDynamicScale_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_memoryless_k__BackingField", ty: "::UnityEngine::RenderTextureMemoryless",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_vrUsage_k__BackingField", ty: "::UnityEngine::VRTextureUsage", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_slices_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_format_k__BackingField", ty:
+// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_filterMode_k__BackingField", ty: "::UnityEngine::FilterMode",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_wrapModeU_k__BackingField", ty: "::UnityEngine::TextureWrapMode", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_wrapModeV_k__BackingField", ty: "::UnityEngine::TextureWrapMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_wrapModeW_k__BackingField", ty:
+// "::UnityEngine::TextureWrapMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_dimension_k__BackingField", ty: "::UnityEngine::Rendering::TextureDimension", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_enableRandomWrite_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_useMipMap_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_autoGenerateMips_k__BackingField", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_anisoLevel_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_mipMapBias_k__BackingField",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_msaaSamples_k__BackingField", ty: "::UnityEngine::Rendering::MSAASamples", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_bindTextureMS_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_useDynamicScale_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_memoryless_k__BackingField", ty: "::UnityEngine::RenderTextureMemoryless",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_vrUsage_k__BackingField", ty: "::UnityEngine::VRTextureUsage", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RTHandleAllocInfo::RTHandleAllocInfo(int32_t _slices_k__BackingField, ::UnityEngine::Experimental::Rendering::GraphicsFormat _format_k__BackingField,
                                                                          ::UnityEngine::FilterMode _filterMode_k__BackingField, ::UnityEngine::TextureWrapMode _wrapModeU_k__BackingField,
                                                                          ::UnityEngine::TextureWrapMode _wrapModeV_k__BackingField, ::UnityEngine::TextureWrapMode _wrapModeW_k__BackingField,

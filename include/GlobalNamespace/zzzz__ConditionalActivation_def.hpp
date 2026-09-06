@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConditionalActivation.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConditionalActivation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class ConditionalActivation;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ConditionalActivation*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConditionalActivation*, "", "ConditionalActivation");
+// [Obsolete]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -54,20 +55,22 @@ protected:
   constexpr ConditionalActivation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalActivation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalActivation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalActivation(ConditionalActivation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalActivation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalActivation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalActivation(ConditionalActivation const&) = delete;
+  ConditionalActivation(ConditionalActivationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6655 };
 
+  /// [SerializeField]
   /// @brief Field _value, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____value;
 
+  /// [SerializeField]
   /// @brief Field _activateOnFalse, offset: 0x28, size: 0x1, def value: None
   bool ____activateOnFalse;
 

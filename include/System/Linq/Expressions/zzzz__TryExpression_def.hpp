@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\TryExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/TryExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class TryExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::TryExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::TryExpression*, "System.Linq.Expressions", "TryExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::TryExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -115,21 +116,26 @@ public:
   inline void _ctor(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally, ::System::Linq::Expressions::Expression* fault,
                     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* handlers);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Body, addr 0x5f89678, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Fault, addr 0x5f89690, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Fault();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Finally, addr 0x5f89688, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Finally();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handlers, addr 0x5f89680, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* get_Handlers();
 
   /// @brief Method get_NodeType, addr 0x5f89670, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f89668, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
@@ -139,29 +145,34 @@ protected:
   constexpr TryExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TryExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TryExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TryExpression(TryExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TryExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TryExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TryExpression(TryExpression const&) = delete;
+  TryExpression(TryExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16232 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Body>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Body_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Handlers>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* ____Handlers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Finally>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Finally_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Fault>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Fault_k__BackingField;
 

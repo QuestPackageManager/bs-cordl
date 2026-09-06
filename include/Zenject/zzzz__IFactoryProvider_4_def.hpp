@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\IFactoryProvider_4.hpp"
+// IWYU pragma private; include "Zenject/IFactoryProvider_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TContra
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::IFactoryProvider_4);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::IFactoryProvider_4, "Zenject", "IFactoryProvider`4");
+// [NoReflectionBaking]
 // Dependencies Zenject.IFactoryProviderBase`1<TContract>
 namespace Zenject {
 // cpp template
@@ -57,13 +58,13 @@ protected:
   constexpr IFactoryProvider_4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IFactoryProvider_4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IFactoryProvider_4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IFactoryProvider_4(IFactoryProvider_4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IFactoryProvider_4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IFactoryProvider_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IFactoryProvider_4(IFactoryProvider_4 const&) = delete;
+  IFactoryProvider_4(IFactoryProvider_4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14552 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Button.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Button.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,6 +69,7 @@ MARK_REF_T(::UnityEngine::UIElements::Button_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Button*, "UnityEngine.UIElements", "Button");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Button_UxmlFactory*, "UnityEngine.UIElements", "Button/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Button_UxmlTraits*, "UnityEngine.UIElements", "Button/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -87,13 +88,13 @@ protected:
   constexpr Button_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Button_UxmlFactory(Button_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button_UxmlFactory(Button_UxmlFactory const&) = delete;
+  Button_UxmlFactory(Button_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4143 };
@@ -104,6 +105,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Button_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -134,13 +136,13 @@ protected:
   constexpr Button_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Button_UxmlTraits(Button_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button_UxmlTraits(Button_UxmlTraits const&) = delete;
+  Button_UxmlTraits(Button_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4144 };
@@ -172,6 +174,7 @@ public:
 
   __declspec(property(get = get_clickable, put = set_clickable)) ::UnityEngine::UIElements::Clickable* clickable;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_iconImage, put = set_iconImage)) ::UnityEngine::UIElements::Background iconImage;
 
   /// @brief Field iconImageProperty, offset 0xffffffff, size 0x98
@@ -312,13 +315,13 @@ protected:
   constexpr Button();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Button(Button&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button(Button const&) = delete;
+  Button(Buttonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4145 };

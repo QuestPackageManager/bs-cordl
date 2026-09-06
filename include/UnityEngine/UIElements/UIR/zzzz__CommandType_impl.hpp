@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\CommandType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/CommandType.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__CommandType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::CommandType::CommandType(int32_t value__) noexcept {
   this->value__ = value__;
 }

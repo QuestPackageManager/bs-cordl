@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\ParameterUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/ParameterUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,10 @@ public:
   __declspec(property(get = getStaticF_basicIVSizes, put = setStaticF_basicIVSizes)) ::System::Collections::IDictionary* basicIVSizes;
 
   /// @brief Method AddAlgorithm, addr 0x36042f0, size 0x1cc, virtual false, abstract: false, final false
-  static inline void AddAlgorithm(::StringW canonicalName, ::ArrayW<::System::Object*> aliases);
+  static inline void AddAlgorithm(::StringW canonicalName, /* [ParamArray] */ ::ArrayW<::System::Object*> aliases);
 
   /// @brief Method AddBasicIVSizeEntries, addr 0x36044bc, size 0x15c, virtual false, abstract: false, final false
-  static inline void AddBasicIVSizeEntries(int32_t size, ::ArrayW<::StringW> algorithms);
+  static inline void AddBasicIVSizeEntries(int32_t size, /* [ParamArray] */ ::ArrayW<::StringW> algorithms);
 
   /// @brief Method CreateIV, addr 0x3605600, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CreateIV(::Org::BouncyCastle::Security::SecureRandom* random, int32_t ivLength);
@@ -122,13 +122,13 @@ protected:
   constexpr ParameterUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParameterUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParameterUtilities(ParameterUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParameterUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParameterUtilities(ParameterUtilities const&) = delete;
+  ParameterUtilities(ParameterUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1753 };

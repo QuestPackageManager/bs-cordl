@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Datatype_yearMonthDuration.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Datatype_yearMonthDuration.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_duration_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_yearMonthDuration_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"

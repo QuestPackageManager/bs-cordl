@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CubicBezierHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/CubicBezierHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CubicBezierHelper_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -108,8 +108,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::Un
     return ___internal_method;
   }
 };
-inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::EvaluateCurve(::by_ref<::UnityEngine::Vector3> a1, ::by_ref<::UnityEngine::Vector3> c1, ::by_ref<::UnityEngine::Vector3> c2,
-                                                                                ::by_ref<::UnityEngine::Vector3> a2, float_t t) {
+inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::EvaluateCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c1,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a2,
+                                                                                float_t t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubicBezierHelper*>(),
                                                            { "EvaluateCurve",
@@ -118,8 +119,10 @@ inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::EvaluateCurve(
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, a1, c1, c2, a2, t);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::EvaluateCurveDerivative(::by_ref<::UnityEngine::Vector3> a1, ::by_ref<::UnityEngine::Vector3> c1, ::by_ref<::UnityEngine::Vector3> c2,
-                                                                                          ::by_ref<::UnityEngine::Vector3> a2, float_t t) {
+inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::EvaluateCurveDerivative(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a1,
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c1,
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c2,
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a2, float_t t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubicBezierHelper*>(),
                                                            { "EvaluateCurveDerivative",
@@ -128,8 +131,10 @@ inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::EvaluateCurveD
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, a1, c1, c2, a2, t);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::EvaluateCurveSecondDerivative(::by_ref<::UnityEngine::Vector3> a1, ::by_ref<::UnityEngine::Vector3> c1,
-                                                                                                ::by_ref<::UnityEngine::Vector3> c2, ::by_ref<::UnityEngine::Vector3> a2, float_t t) {
+inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::EvaluateCurveSecondDerivative(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a1,
+                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c1,
+                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c2,
+                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a2, float_t t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubicBezierHelper*>(),
                                                            { "EvaluateCurveSecondDerivative",
@@ -138,8 +143,8 @@ inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::EvaluateCurveS
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, a1, c1, c2, a2, t);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::Normal(::by_ref<::UnityEngine::Vector3> a1, ::by_ref<::UnityEngine::Vector3> c1, ::by_ref<::UnityEngine::Vector3> c2,
-                                                                         ::by_ref<::UnityEngine::Vector3> a2, float_t t) {
+inline ::UnityEngine::Vector3 GlobalNamespace::CubicBezierHelper::Normal(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c1,
+                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> a2, float_t t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubicBezierHelper*>(),
                                                            { "Normal",
@@ -154,8 +159,8 @@ inline void GlobalNamespace::CubicBezierHelper::SplitCurve(::System::Collections
                                                            { "SplitCurve", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, points, t);
 }
-inline float_t GlobalNamespace::CubicBezierHelper::EstimateCurveLength(::by_ref<::UnityEngine::Vector3> p0, ::by_ref<::UnityEngine::Vector3> p1, ::by_ref<::UnityEngine::Vector3> p2,
-                                                                       ::by_ref<::UnityEngine::Vector3> p3) {
+inline float_t GlobalNamespace::CubicBezierHelper::EstimateCurveLength(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p1,
+                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p3) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubicBezierHelper*>(), { "EstimateCurveLength",

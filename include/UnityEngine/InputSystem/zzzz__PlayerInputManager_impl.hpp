@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\PlayerInputManager.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/PlayerInputManager.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionProperty_impl.hpp"
@@ -1005,8 +1005,9 @@ inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> UnityEngine::InputSyste
                           { "JoinPlayer", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::InputSystem::InputDevice*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::InputSystem::PlayerInput>>(this, ___internal_method, playerIndex, splitScreenIndex, controlScheme, pairWithDevice);
 }
-inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> UnityEngine::InputSystem::PlayerInputManager::JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme,
-                                                                                                                  ::ArrayW<::UnityEngine::InputSystem::InputDevice*> pairWithDevices) {
+inline ::UnityW<::UnityEngine::InputSystem::PlayerInput>
+UnityEngine::InputSystem::PlayerInputManager::JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme,
+                                                         /* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> pairWithDevices) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

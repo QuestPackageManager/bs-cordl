@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatArrayMaterialPropertyEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatArrayMaterialPropertyEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"

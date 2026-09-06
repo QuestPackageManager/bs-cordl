@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal\Runtime\Augments\TaskTraceCallbacks.hpp"
+// IWYU pragma private; include "Internal/Runtime/Augments/TaskTraceCallbacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,19 +22,19 @@ public:
   // Declarations
   __declspec(property(get = get_Enabled)) bool Enabled;
 
-  /// @brief Method TaskScheduled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TaskScheduled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TaskScheduled(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID, int32_t CreatingTaskID, int32_t TaskCreationOptions);
 
-  /// @brief Method TaskWaitBegin_Asynchronous, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TaskWaitBegin_Asynchronous, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TaskWaitBegin_Asynchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method TaskWaitBegin_Synchronous, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TaskWaitBegin_Synchronous, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TaskWaitBegin_Synchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method TaskWaitEnd, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TaskWaitEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TaskWaitEnd(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method get_Enabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Enabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_Enabled();
 
 protected:
@@ -43,13 +43,13 @@ protected:
   constexpr TaskTraceCallbacks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskTraceCallbacks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskTraceCallbacks", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskTraceCallbacks(TaskTraceCallbacks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskTraceCallbacks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskTraceCallbacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskTraceCallbacks(TaskTraceCallbacks const&) = delete;
+  TaskTraceCallbacks(TaskTraceCallbacksconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2305 };

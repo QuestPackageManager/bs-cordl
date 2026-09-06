@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace System {
 template <typename T> struct Span_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -91,13 +93,13 @@ protected:
   constexpr GPUDrivenProcessor_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUDrivenProcessor_BindingsMarshaller(GPUDrivenProcessor_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUDrivenProcessor_BindingsMarshaller(GPUDrivenProcessor_BindingsMarshaller const&) = delete;
+  GPUDrivenProcessor_BindingsMarshaller(GPUDrivenProcessor_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10879 };
@@ -108,6 +110,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::GPUDrivenProcessor_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -121,11 +124,12 @@ public:
   static inline ::UnityEngine::Rendering::GPUDrivenProcessor___c* New_ctor();
 
   /// @brief Method <.cctor>b__34_0, addr 0x6b2c92c, size 0x260, virtual false, abstract: false, final false
-  inline void __cctor_b__34_0(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> nativeData, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
-                              ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback);
+  inline void __cctor_b__34_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> nativeData,
+                              ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
+                              ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback);
 
   /// @brief Method <.cctor>b__34_1, addr 0x6b2cb8c, size 0x12c, virtual false, abstract: false, final false
-  inline void __cctor_b__34_1(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> nativeData, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
+  inline void __cctor_b__34_1(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> nativeData, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
 
   /// @brief Method .ctor, addr 0x6b2c928, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -140,13 +144,13 @@ protected:
   constexpr GPUDrivenProcessor___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUDrivenProcessor___c(GPUDrivenProcessor___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUDrivenProcessor___c(GPUDrivenProcessor___c const&) = delete;
+  GPUDrivenProcessor___c(GPUDrivenProcessor___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10880 };
@@ -157,6 +161,8 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::GPUDrivenProcessor___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [NativeHeader("Runtime/Camera/GPUDrivenProcessor.h")]
+// [RequiredByNativeCode]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -196,6 +202,7 @@ public:
                                           ::Unity::Collections::NativeArray_1<int32_t> supportedMaterialIDs,
                                           ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> supportedPackedMaterialDatas);
 
+  /// [FreeFunction("GPUDrivenProcessor::ClassifyMaterials", IsThreadSafe = true)]
   /// @brief Method ClassifyMaterialsImpl, addr 0x6b2c46c, size 0x184, virtual false, abstract: false, final false
   static inline int32_t ClassifyMaterialsImpl(::System::ReadOnlySpan_1<int32_t> materialIDs, ::System::Span_1<int32_t> unsupportedMaterialIDs, ::System::Span_1<int32_t> supportedMaterialIDs,
                                               ::System::Span_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> supportedPackedMaterialDatas);
@@ -287,9 +294,11 @@ public:
 
   static inline ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* getStaticF_s_NativeRendererCallback();
 
+  /// [CompilerGenerated]
   /// @brief Method get_scratchMaterials, addr 0x6b2ba00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* get_scratchMaterials();
 
+  /// [CompilerGenerated]
   /// @brief Method get_scratchMeshes, addr 0x6b2b9f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* get_scratchMeshes();
 
@@ -303,9 +312,11 @@ public:
   /// @brief Method set_enablePartialRendering_Injected, addr 0x6b2c358, size 0x44, virtual false, abstract: false, final false
   static inline void set_enablePartialRendering_Injected(::System::IntPtr _unity_self, bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_scratchMaterials, addr 0x6b2ba08, size 0x8, virtual false, abstract: false, final false
   inline void set_scratchMaterials(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_scratchMeshes, addr 0x6b2b9f8, size 0x8, virtual false, abstract: false, final false
   inline void set_scratchMeshes(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* value);
 
@@ -315,13 +326,13 @@ protected:
   constexpr GPUDrivenProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUDrivenProcessor(GPUDrivenProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUDrivenProcessor(GPUDrivenProcessor const&) = delete;
+  GPUDrivenProcessor(GPUDrivenProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10881 };
@@ -329,9 +340,13 @@ public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <scratchMeshes>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* ____scratchMeshes_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <scratchMaterials>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* ____scratchMaterials_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\Private\CallbackHelpers.hpp"
+// IWYU pragma private; include "Mono/Net/Security/Private/CallbackHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0*
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::Private::CallbackHelpers*, "Mono.Net.Security.Private", "CallbackHelpers");
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass0_0");
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass6_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Mono::Net::Security::Private {
 // Is value type: false
@@ -85,13 +86,13 @@ protected:
   constexpr CallbackHelpers___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallbackHelpers___c__DisplayClass0_0(CallbackHelpers___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallbackHelpers___c__DisplayClass0_0(CallbackHelpers___c__DisplayClass0_0 const&) = delete;
+  CallbackHelpers___c__DisplayClass0_0(CallbackHelpers___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11038 };
@@ -107,6 +108,7 @@ static_assert(offsetof(::Mono::Net::Security::Private::CallbackHelpers___c__Disp
 static_assert(sizeof(::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace Mono::Net::Security::Private
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Mono::Net::Security::Private {
 // Is value type: false
@@ -138,13 +140,13 @@ protected:
   constexpr CallbackHelpers___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallbackHelpers___c__DisplayClass6_0(CallbackHelpers___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallbackHelpers___c__DisplayClass6_0(CallbackHelpers___c__DisplayClass6_0 const&) = delete;
+  CallbackHelpers___c__DisplayClass6_0(CallbackHelpers___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11039 };
@@ -183,13 +185,13 @@ protected:
   constexpr CallbackHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallbackHelpers(CallbackHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallbackHelpers(CallbackHelpers const&) = delete;
+  CallbackHelpers(CallbackHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11040 };

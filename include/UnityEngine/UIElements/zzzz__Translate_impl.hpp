@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Translate.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Translate.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
@@ -283,8 +283,9 @@ constexpr UnityEngine::UIElements::Translate::operator ::System::IEquatable_1<::
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Translate>* UnityEngine::UIElements::Translate::i___System__IEquatable_1___UnityEngine__UIElements__Translate_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Translate>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_isNone", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Y", ty:
+// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_isNone", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Translate::Translate(::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y, float_t m_Z, bool m_isNone) noexcept {
   this->m_X = m_X;
   this->m_Y = m_Y;

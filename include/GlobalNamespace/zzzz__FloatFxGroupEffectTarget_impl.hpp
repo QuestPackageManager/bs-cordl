@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxGroupEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxGroupEffectTarget.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatFxGroupEffectTarget.SetValue

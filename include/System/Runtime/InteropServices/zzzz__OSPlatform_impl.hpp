@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\OSPlatform.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/OSPlatform.hpp"
 #include "System/Runtime/InteropServices/zzzz__OSPlatform_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -233,7 +233,7 @@ constexpr ::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>
 System::Runtime::InteropServices::OSPlatform::i___System__IEquatable_1___System__Runtime__InteropServices__OSPlatform_() {
   return static_cast<::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_osPlatform", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_osPlatform", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::InteropServices::OSPlatform::OSPlatform(::StringW _osPlatform) noexcept {
   this->_osPlatform = _osPlatform;
 }

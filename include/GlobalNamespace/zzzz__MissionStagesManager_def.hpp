@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionStagesManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionStagesManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ MARK_REF_T(::GlobalNamespace::MissionStagesManager*);
 MARK_REF_T(::GlobalNamespace::MissionStagesManager___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionStagesManager*, "", "MissionStagesManager");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionStagesManager___c*, "", "MissionStagesManager/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -69,13 +70,13 @@ protected:
   constexpr MissionStagesManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionStagesManager___c(MissionStagesManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionStagesManager___c(MissionStagesManager___c const&) = delete;
+  MissionStagesManager___c(MissionStagesManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6881 };
@@ -153,17 +154,18 @@ protected:
   constexpr MissionStagesManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionStagesManager(MissionStagesManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionStagesManager(MissionStagesManager const&) = delete;
+  MissionStagesManager(MissionStagesManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6882 };
 
+  /// [SerializeField]
   /// @brief Field _missionStageLockView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionStageLockView> ____missionStageLockView;
 

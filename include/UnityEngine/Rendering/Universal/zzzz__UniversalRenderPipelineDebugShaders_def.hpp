@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineDebugShaders.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineDebugShaders.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,9 @@ class UniversalRenderPipelineDebugShaders;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugShaders*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugShaders*, "UnityEngine.Rendering.Universal", "UniversalRenderPipelineDebugShaders");
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "R: Debug Shaders", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -117,23 +120,29 @@ protected:
   constexpr UniversalRenderPipelineDebugShaders();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineDebugShaders", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineDebugShaders", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineDebugShaders(UniversalRenderPipelineDebugShaders&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineDebugShaders", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineDebugShaders", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineDebugShaders(UniversalRenderPipelineDebugShaders const&) = delete;
+  UniversalRenderPipelineDebugShaders(UniversalRenderPipelineDebugShadersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12941 };
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Debug/DebugReplacement.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_DebugReplacementPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_DebugReplacementPS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Debug/HDRDebugView.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_HdrDebugViewPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_HdrDebugViewPS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_ProbeVolumeSamplingDebugComputeShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_ProbeVolumeSamplingDebugComputeShader;
 

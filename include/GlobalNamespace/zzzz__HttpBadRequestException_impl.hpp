@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HttpBadRequestException.hpp"
+// IWYU pragma private; include "GlobalNamespace/HttpBadRequestException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "GlobalNamespace/zzzz__HttpBadRequestException_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HttpBadRequestException._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\BeatAvatarSystemSettings.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/BeatAvatarSystemSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,32 +122,39 @@ protected:
   constexpr BeatAvatarSystemSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSystemSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSystemSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatAvatarSystemSettings(BeatAvatarSystemSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSystemSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSystemSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarSystemSettings(BeatAvatarSystemSettings const&) = delete;
+  BeatAvatarSystemSettings(BeatAvatarSystemSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21688 };
 
+  /// [SerializeField]
   /// @brief Field _avatarGameplayPrefab, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ____avatarGameplayPrefab;
 
+  /// [SerializeField]
   /// @brief Field _avatarResultsPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ____avatarResultsPrefab;
 
+  /// [SerializeField]
   /// @brief Field _avatarHologramPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ____avatarHologramPrefab;
 
+  /// [SerializeField]
   /// @brief Field _avatarEditorPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ____avatarEditorPrefab;
 
+  /// [SerializeField]
   /// @brief Field _avatarSelectionViewPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ____avatarSelectionViewPrefab;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _avatarForUnityEditorPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceGameObject* ____avatarForUnityEditorPrefab;
 

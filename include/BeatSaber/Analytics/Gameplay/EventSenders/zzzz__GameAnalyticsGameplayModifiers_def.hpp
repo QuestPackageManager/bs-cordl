@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\GameAnalyticsGameplayModifiers.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/GameAnalyticsGameplayModifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -183,13 +183,13 @@ protected:
   constexpr GameAnalyticsGameplayModifiers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsGameplayModifiers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsGameplayModifiers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameAnalyticsGameplayModifiers(GameAnalyticsGameplayModifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsGameplayModifiers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsGameplayModifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameAnalyticsGameplayModifiers(GameAnalyticsGameplayModifiers const&) = delete;
+  GameAnalyticsGameplayModifiers(GameAnalyticsGameplayModifiersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22265 };

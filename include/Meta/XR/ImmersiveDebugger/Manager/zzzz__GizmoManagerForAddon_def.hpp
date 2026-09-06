@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\GizmoManagerForAddon.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/GizmoManagerForAddon.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon*, "Meta.XR.ImmersiveDebugger.Manager", "GizmoManagerForAddon");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0*, "Meta.XR.ImmersiveDebugger.Manager", "GizmoManagerForAddon/<>c__DisplayClass1_0");
+// [CompilerGenerated]
 // Dependencies Meta.XR.ImmersiveDebugger.Utils.InstanceHandle, System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -92,13 +93,13 @@ protected:
   constexpr GizmoManagerForAddon___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GizmoManagerForAddon___c__DisplayClass1_0(GizmoManagerForAddon___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManagerForAddon___c__DisplayClass1_0(GizmoManagerForAddon___c__DisplayClass1_0 const&) = delete;
+  GizmoManagerForAddon___c__DisplayClass1_0(GizmoManagerForAddon___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18460 };
@@ -166,13 +167,13 @@ protected:
   constexpr GizmoManagerForAddon();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GizmoManagerForAddon(GizmoManagerForAddon&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManagerForAddon(GizmoManagerForAddon const&) = delete;
+  GizmoManagerForAddon(GizmoManagerForAddonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18461 };

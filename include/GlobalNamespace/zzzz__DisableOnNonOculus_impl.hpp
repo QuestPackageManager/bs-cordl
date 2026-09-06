@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DisableOnNonOculus.hpp"
+// IWYU pragma private; include "GlobalNamespace/DisableOnNonOculus.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisableOnNonOculus_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DisableOnNonOculus._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Plane.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Plane.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class Plane;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Shapes::Plane*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Shapes::Plane*, "UnityEngine.ProBuilder.Shapes", "Plane");
+// [Shape("Plane")]
 // Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
@@ -70,20 +71,24 @@ protected:
   constexpr Plane();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Plane", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Plane", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Plane(Plane&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Plane", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Plane", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Plane(Plane const&) = delete;
+  Plane(Planeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16841 };
 
+  /// [Min(0)]
+  /// [SerializeField]
   /// @brief Field m_HeightSegments, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_HeightSegments;
 
+  /// [Min(0)]
+  /// [SerializeField]
   /// @brief Field m_WidthSegments, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_WidthSegments;
 

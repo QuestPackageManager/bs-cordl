@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\PropertyCollection.hpp"
+// IWYU pragma private; include "System/Data/PropertyCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +56,13 @@ protected:
   constexpr PropertyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyCollection(PropertyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyCollection(PropertyCollection const&) = delete;
+  PropertyCollection(PropertyCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13838 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutCachedMeasurement.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutCachedMeasurement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,11 +32,11 @@ public:
   // @brief default ctor
   constexpr LayoutCachedMeasurement();
 
-  // Ctor Parameters [CppParam { name: "AvailableWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "AvailableHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam
-  // { name: "ParentWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ParentHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "WidthMeasureMode", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutMeasureMode", modifiers: "", def_value: None }, CppParam { name: "HeightMeasureMode", ty: "::UnityEngine::UIElements::Layout::LayoutMeasureMode",
-  // modifiers: "", def_value: None }, CppParam { name: "ComputedWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ComputedHeight", ty: "float_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "AvailableWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "AvailableHeight", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "ParentWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ParentHeight", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "WidthMeasureMode", ty: "::UnityEngine::UIElements::Layout::LayoutMeasureMode", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "HeightMeasureMode", ty: "::UnityEngine::UIElements::Layout::LayoutMeasureMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "ComputedWidth", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ComputedHeight", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutCachedMeasurement(float_t AvailableWidth, float_t AvailableHeight, float_t ParentWidth, float_t ParentHeight, ::UnityEngine::UIElements::Layout::LayoutMeasureMode WidthMeasureMode,
                                     ::UnityEngine::UIElements::Layout::LayoutMeasureMode HeightMeasureMode, float_t ComputedWidth, float_t ComputedHeight) noexcept;
 

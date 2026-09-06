@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\AnimationOutputWeightProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/AnimationOutputWeightProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,8 +48,8 @@ public:
   // @brief default ctor
   constexpr AnimationOutputWeightProcessor_WeightInfo();
 
-  // Ctor Parameters [CppParam { name: "mixer", ty: "::UnityEngine::Playables::Playable", modifiers: "", def_value: None }, CppParam { name: "parentMixer", ty: "::UnityEngine::Playables::Playable",
-  // modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "mixer", ty: "::UnityEngine::Playables::Playable", modifiers: "", def_value: None, comment: None }, CppParam { name: "parentMixer", ty:
+  // "::UnityEngine::Playables::Playable", modifiers: "", def_value: None, comment: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationOutputWeightProcessor_WeightInfo(::UnityEngine::Playables::Playable mixer, ::UnityEngine::Playables::Playable parentMixer, int32_t port) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -142,13 +142,13 @@ protected:
   constexpr AnimationOutputWeightProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationOutputWeightProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationOutputWeightProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationOutputWeightProcessor(AnimationOutputWeightProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationOutputWeightProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationOutputWeightProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationOutputWeightProcessor(AnimationOutputWeightProcessor const&) = delete;
+  AnimationOutputWeightProcessor(AnimationOutputWeightProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19153 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\RichPresenceRuntimeInstance.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/RichPresenceRuntimeInstance.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PartyInfo_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__RichPresenceTimestamp_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
@@ -112,10 +112,10 @@ inline void OculusStudios::Platform::Core::RichPresenceRuntimeInstance::_ctor(::
                                                                                              ::i2c::type_of<::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, definition, state, partyInfo, timestamp);
 }
-// Ctor Parameters [CppParam { name: "_definition_k__BackingField", ty: "::OculusStudios::Platform::Core::IRichPresenceDefinition*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_state_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_partyInfo_k__BackingField", ty:
-// "::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_timestamp_k__BackingField", ty:
-// "::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_definition_k__BackingField", ty: "::OculusStudios::Platform::Core::IRichPresenceDefinition*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_state_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_partyInfo_k__BackingField", ty:
+// "::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_timestamp_k__BackingField", ty:
+// "::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::RichPresenceRuntimeInstance(
     ::OculusStudios::Platform::Core::IRichPresenceDefinition* _definition_k__BackingField, ::StringW _state_k__BackingField,
     ::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo> _partyInfo_k__BackingField,

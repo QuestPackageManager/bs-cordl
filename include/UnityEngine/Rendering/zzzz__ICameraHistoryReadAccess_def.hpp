@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ICameraHistoryReadAccess.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ICameraHistoryReadAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ContextItem_def.hpp"
 CORDL_MODULE_EXPORT(ICameraHistoryReadAccess)
 namespace System {
 class AsyncCallback;
@@ -62,13 +63,13 @@ protected:
   constexpr ICameraHistoryReadAccess_HistoryRequestDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ICameraHistoryReadAccess_HistoryRequestDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICameraHistoryReadAccess_HistoryRequestDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ICameraHistoryReadAccess_HistoryRequestDelegate(ICameraHistoryReadAccess_HistoryRequestDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICameraHistoryReadAccess_HistoryRequestDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICameraHistoryReadAccess_HistoryRequestDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICameraHistoryReadAccess_HistoryRequestDelegate(ICameraHistoryReadAccess_HistoryRequestDelegate const&) = delete;
+  ICameraHistoryReadAccess_HistoryRequestDelegate(ICameraHistoryReadAccess_HistoryRequestDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11865 };
@@ -79,7 +80,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies
+// Dependencies UnityEngine.Rendering.ContextItem
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ICameraHistoryReadAccess
@@ -88,18 +89,22 @@ public:
   // Declarations
   using HistoryRequestDelegate = ::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate;
 
-  /// @brief Method GetHistoryForRead, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename Type> inline Type GetHistoryForRead();
+  /// @brief Method GetHistoryForRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename Type>
+    requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
+  inline Type GetHistoryForRead();
 
-  /// @brief Method add_OnGatherHistoryRequests, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_OnGatherHistoryRequests, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_OnGatherHistoryRequests(::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* value);
 
-  /// @brief Method remove_OnGatherHistoryRequests, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_OnGatherHistoryRequests, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_OnGatherHistoryRequests(::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICameraHistoryReadAccess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICameraHistoryReadAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICameraHistoryReadAccess(ICameraHistoryReadAccess const&) = delete;
+  ICameraHistoryReadAccess(ICameraHistoryReadAccessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11866 };

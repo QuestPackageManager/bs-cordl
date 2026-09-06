@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\HybridReferenceDictionary_2.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/HybridReferenceDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,9 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue> class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey>)
+class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
 }
 namespace System {
 class IDisposable;
@@ -31,10 +33,14 @@ class Object;
 }
 // Forward declare root types
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue> class HybridReferenceDictionary_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey>)
+class HybridReferenceDictionary_2;
 }
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue> class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey>)
+class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2);
@@ -42,10 +48,12 @@ MARK_GEN_REF_T_PTR(::System::Linq::Expressions::Interpreter::HybridReferenceDict
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2, "System.Linq.Expressions.Interpreter", "HybridReferenceDictionary`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2__GetEnumeratorWorker_d__7, "System.Linq.Expressions.Interpreter",
                             "HybridReferenceDictionary`2/<GetEnumeratorWorker>d__7");
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey>)
 // Is value type: false
 // CS Name: System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2/<GetEnumeratorWorker>d__7<TKey,TValue>
 class CORDL_TYPE HybridReferenceDictionary_2__GetEnumeratorWorker_d__7 : public ::System::Object {
@@ -80,18 +88,23 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2__GetEnumeratorWorker_d__7<TKey, TValue>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
   /// true
   inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -119,6 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -138,13 +152,13 @@ protected:
   constexpr HybridReferenceDictionary_2__GetEnumeratorWorker_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2__GetEnumeratorWorker_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2__GetEnumeratorWorker_d__7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HybridReferenceDictionary_2__GetEnumeratorWorker_d__7(HybridReferenceDictionary_2__GetEnumeratorWorker_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2__GetEnumeratorWorker_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2__GetEnumeratorWorker_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HybridReferenceDictionary_2__GetEnumeratorWorker_d__7(HybridReferenceDictionary_2__GetEnumeratorWorker_d__7 const&) = delete;
+  HybridReferenceDictionary_2__GetEnumeratorWorker_d__7(HybridReferenceDictionary_2__GetEnumeratorWorker_d__7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16622 };
@@ -165,10 +179,12 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq::Expressions::Interpreter
+// [DefaultMember("Item")]
 // Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey>)
 // Is value type: false
 // CS Name: System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<TKey,TValue>
 class CORDL_TYPE HybridReferenceDictionary_2 : public ::System::Object {
@@ -190,6 +206,7 @@ public:
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* GetEnumerator();
 
+  /// [IteratorStateMachine(typeof(System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2::<GetEnumeratorWorker>d__7<TKey, TValue>))]
   /// @brief Method GetEnumeratorWorker, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* GetEnumeratorWorker();
 
@@ -228,13 +245,13 @@ protected:
   constexpr HybridReferenceDictionary_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HybridReferenceDictionary_2(HybridReferenceDictionary_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HybridReferenceDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HybridReferenceDictionary_2(HybridReferenceDictionary_2 const&) = delete;
+  HybridReferenceDictionary_2(HybridReferenceDictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16623 };

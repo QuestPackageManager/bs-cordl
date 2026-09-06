@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\OneWayAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/OneWayAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class OneWayAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Messaging::OneWayAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Messaging::OneWayAttribute*, "System.Runtime.Remoting.Messaging", "OneWayAttribute");
+// [ComVisible(true)]
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
@@ -25,13 +27,13 @@ protected:
   constexpr OneWayAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OneWayAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OneWayAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OneWayAttribute(OneWayAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OneWayAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OneWayAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OneWayAttribute(OneWayAttribute const&) = delete;
+  OneWayAttribute(OneWayAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3198 };

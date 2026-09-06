@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\MockedEntitlements.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/MockedEntitlements.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ MARK_VAL_T(::OculusStudios::Platform::Core::MockedEntitlements__GetAllProductsAs
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::MockedEntitlements*, "OculusStudios.Platform.Core", "MockedEntitlements");
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::MockedEntitlements___c__DisplayClass5_0*, "OculusStudios.Platform.Core", "MockedEntitlements/<>c__DisplayClass5_0");
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::MockedEntitlements__GetAllProductsAsync_d__5, "OculusStudios.Platform.Core", "MockedEntitlements/<GetAllProductsAsync>d__5");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::Platform::Core {
 // Is value type: false
@@ -92,13 +93,13 @@ protected:
   constexpr MockedEntitlements___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockedEntitlements___c__DisplayClass5_0(MockedEntitlements___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockedEntitlements___c__DisplayClass5_0(MockedEntitlements___c__DisplayClass5_0 const&) = delete;
+  MockedEntitlements___c__DisplayClass5_0(MockedEntitlements___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22467 };
@@ -114,6 +115,7 @@ static_assert(offsetof(::OculusStudios::Platform::Core::MockedEntitlements___c__
 static_assert(sizeof(::OculusStudios::Platform::Core::MockedEntitlements___c__DisplayClass5_0) == 0x18, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Core
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>
 namespace OculusStudios::Platform::Core {
 // Is value type: true
@@ -127,6 +129,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f2f0c0, size 0x1044, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f30104, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -137,9 +140,9 @@ public:
   // @brief default ctor
   constexpr MockedEntitlements__GetAllProductsAsync_d__5();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*>", modifiers: "", def_value: None },
-  // CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Core::MockedEntitlements*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Core::MockedEntitlements*", modifiers: "", def_value: None, comment: None }]
   constexpr MockedEntitlements__GetAllProductsAsync_d__5(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*> __t__builder,
       ::OculusStudios::Platform::Core::MockedEntitlements* __4__this) noexcept;
@@ -196,6 +199,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformEntitlements"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformEntitlements*() noexcept;
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Core.MockedEntitlements::<GetAllProductsAsync>d__5))]
   /// @brief Method GetAllProductsAsync, addr 0x5f2eea4, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*>* GetAllProductsAsync();
 
@@ -234,13 +238,13 @@ protected:
   constexpr MockedEntitlements();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockedEntitlements(MockedEntitlements&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockedEntitlements(MockedEntitlements const&) = delete;
+  MockedEntitlements(MockedEntitlementsconst&) = delete;
 
   /// @brief Field VENDOR value: U8(2)
   static ::OculusStudios::Platform::Core::Vendor const VENDOR;

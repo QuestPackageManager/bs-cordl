@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\KeyboardTextEditorEventHandler.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/KeyboardTextEditorEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
 CORDL_MODULE_EXPORT(KeyboardTextEditorEventHandler)
 namespace UnityEngine::UIElements {
@@ -21,7 +22,9 @@ namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class NavigationEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class NavigationEventBase_1;
 }
 namespace UnityEngine::UIElements {
 class TextElement;
@@ -42,7 +45,7 @@ class KeyboardTextEditorEventHandler;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::KeyboardTextEditorEventHandler*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyboardTextEditorEventHandler*, "UnityEngine.UIElements", "KeyboardTextEditorEventHandler");
-// Dependencies UnityEngine.UIElements.TextEditorEventHandler
+// Dependencies UnityEngine.UIElements.NavigationEventBase`1<T>, UnityEngine.UIElements.TextEditorEventHandler
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.KeyboardTextEditorEventHandler
@@ -73,7 +76,9 @@ public:
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
   /// @brief Method OnNavigationEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TEvent> inline void OnNavigationEvent(::UnityEngine::UIElements::NavigationEventBase_1<TEvent>* evt);
+  template <typename TEvent>
+    requires(::cordl_internals::type_constraint<TEvent, ::UnityEngine::UIElements::NavigationEventBase_1<TEvent>*> && ::cordl_internals::default_constructor_constraint<TEvent>)
+  inline void OnNavigationEvent(::UnityEngine::UIElements::NavigationEventBase_1<TEvent>* evt);
 
   /// @brief Method OnValidateCommandEvent, addr 0x6d4ac5c, size 0x20c, virtual false, abstract: false, final false
   inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent* evt);
@@ -102,13 +107,13 @@ protected:
   constexpr KeyboardTextEditorEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardTextEditorEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardTextEditorEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyboardTextEditorEventHandler(KeyboardTextEditorEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardTextEditorEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardTextEditorEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyboardTextEditorEventHandler(KeyboardTextEditorEventHandler const&) = delete;
+  KeyboardTextEditorEventHandler(KeyboardTextEditorEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4222 };

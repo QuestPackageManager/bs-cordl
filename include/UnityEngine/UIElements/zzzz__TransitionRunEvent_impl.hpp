@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TransitionRunEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TransitionRunEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionRunEvent_def.hpp"

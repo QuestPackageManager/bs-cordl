@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\Gcm\GcmUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/Gcm/GcmUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,13 +138,13 @@ protected:
   constexpr GcmUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GcmUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GcmUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GcmUtilities(GcmUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GcmUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GcmUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GcmUtilities(GcmUtilities const&) = delete;
+  GcmUtilities(GcmUtilitiesconst&) = delete;
 
   /// @brief Field E1 offset 0xffffffff size 0x4
   static constexpr uint32_t E1{ static_cast<uint32_t>(0xe1000000u) };

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "TMPro\Compute_DistanceTransform_EventTypes.hpp"
+// IWYU pragma private; include "TMPro/Compute_DistanceTransform_EventTypes.hpp"
 #include "TMPro/zzzz__Compute_DistanceTransform_EventTypes_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::Compute_DistanceTransform_EventTypes::Compute_DistanceTransform_EventTypes(int32_t value__) noexcept {
   this->value__ = value__;
 }

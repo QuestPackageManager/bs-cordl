@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CurrentPipelineHelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CurrentPipelineHelpURLAttribute.hpp"
 #include "UnityEngine/zzzz__HelpURLAttribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CurrentPipelineHelpURLAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute.get_pageName

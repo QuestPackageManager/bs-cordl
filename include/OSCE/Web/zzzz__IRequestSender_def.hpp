@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Web\IRequestSender.hpp"
+// IWYU pragma private; include "OSCE/Web/IRequestSender.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,17 +34,17 @@ namespace OSCE::Web {
 class CORDL_TYPE IRequestSender {
 public:
   // Declarations
-  /// @brief Method SendBatchRequest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SendBatchRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendBatchRequest(::StringW oculusGraphURL, ::StringW endpoint, ::OSCE::Analytics::LoggerAnalyticsBatch* batch,
                                ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed, ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail);
 
-  /// @brief Method SendIdRequest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SendIdRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendIdRequest(::StringW oculusGraphURL, ::StringW endpoint, ::OSCE::Analytics::GetIdParams idRequest, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                             ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRequestSender", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IRequestSender", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IRequestSender(IRequestSender const&) = delete;
+  IRequestSender(IRequestSenderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21888 };

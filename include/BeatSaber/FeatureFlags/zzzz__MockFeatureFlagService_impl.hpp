@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\MockFeatureFlagService.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/MockFeatureFlagService.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__MockFeatureFlagService_def.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__Feature_def.hpp"

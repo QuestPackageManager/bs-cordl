@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\Leaderboards\QueryLeaderboardHealth.hpp"
+// IWYU pragma private; include "BeatSaber/Main/Leaderboards/QueryLeaderboardHealth.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__QueryRequest_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__QueryLeaderboardHealth_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Main::Leaderboards::QueryLeaderboardHealth._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\MethodCallExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/MethodCallExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class MethodCallExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::MethodCallExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::MethodCallExpression*, "System.Linq.Expressions", "MethodCallExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::MethodCallExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -41,6 +42,7 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE MethodCallExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
+  /// @brief [ExcludeFromCodeCoverage]
   __declspec(property(get = get_ArgumentCount)) int32_t ArgumentCount;
 
   __declspec(property(get = get_Method)) ::System::Reflection::MethodInfo* Method;
@@ -60,6 +62,7 @@ public:
   /// @brief Method Accept, addr 0x5f86f08, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method GetArgument, addr 0x5f86f58, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
@@ -68,6 +71,7 @@ public:
 
   static inline ::System::Linq::Expressions::MethodCallExpression* New_ctor(::System::Reflection::MethodInfo* method);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method Rewrite, addr 0x5f86f30, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::MethodCallExpression* Rewrite(::System::Linq::Expressions::Expression* instance,
                                                                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
@@ -84,6 +88,7 @@ public:
   /// @brief Method get_ArgumentCount, addr 0x5f86f80, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Method, addr 0x5f86f00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Method();
 
@@ -105,17 +110,18 @@ protected:
   constexpr MethodCallExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MethodCallExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodCallExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodCallExpression(MethodCallExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MethodCallExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodCallExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MethodCallExpression(MethodCallExpression const&) = delete;
+  MethodCallExpression(MethodCallExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16203 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Method>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____Method_k__BackingField;
 

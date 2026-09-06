@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleValuePropertyBag_2.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleValuePropertyBag_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(StyleValuePropertyBag_2)
@@ -12,20 +13,30 @@ namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue> class StyleValuePropertyBag_2_KeywordProperty;
+template <typename TContainer, typename TValue>
+  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
+class StyleValuePropertyBag_2_KeywordProperty;
 }
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue> class StyleValuePropertyBag_2_ValueProperty;
+template <typename TContainer, typename TValue>
+  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
+class StyleValuePropertyBag_2_ValueProperty;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue> class StyleValuePropertyBag_2;
+template <typename TContainer, typename TValue>
+  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
+class StyleValuePropertyBag_2;
 }
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue> class StyleValuePropertyBag_2_KeywordProperty;
+template <typename TContainer, typename TValue>
+  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
+class StyleValuePropertyBag_2_KeywordProperty;
 }
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue> class StyleValuePropertyBag_2_ValueProperty;
+template <typename TContainer, typename TValue>
+  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
+class StyleValuePropertyBag_2_ValueProperty;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2);
@@ -34,10 +45,11 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2_ValuePrope
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2, "UnityEngine.UIElements", "StyleValuePropertyBag`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2_KeywordProperty, "UnityEngine.UIElements", "StyleValuePropertyBag`2/KeywordProperty");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2_ValueProperty, "UnityEngine.UIElements", "StyleValuePropertyBag`2/ValueProperty");
-// Dependencies Unity.Properties.Property`2<TContainer, TValue>
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.IStyleValue`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TContainer, typename TValue>
+  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.StyleValuePropertyBag`2/ValueProperty<TContainer,TValue>
 class CORDL_TYPE StyleValuePropertyBag_2_ValueProperty : public ::Unity::Properties::Property_2<TContainer, TValue> {
@@ -76,9 +88,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -88,20 +102,24 @@ protected:
   constexpr StyleValuePropertyBag_2_ValueProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2_ValueProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2_ValueProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleValuePropertyBag_2_ValueProperty(StyleValuePropertyBag_2_ValueProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2_ValueProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2_ValueProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleValuePropertyBag_2_ValueProperty(StyleValuePropertyBag_2_ValueProperty const&) = delete;
+  StyleValuePropertyBag_2_ValueProperty(StyleValuePropertyBag_2_ValuePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4985 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -109,10 +127,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.StyleKeyword
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.IStyleValue`1<T>, UnityEngine.UIElements.StyleKeyword
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TContainer, typename TValue>
+  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.StyleValuePropertyBag`2/KeywordProperty<TContainer,TValue>
 class CORDL_TYPE StyleValuePropertyBag_2_KeywordProperty : public ::Unity::Properties::Property_2<TContainer, ::UnityEngine::UIElements::StyleKeyword> {
@@ -151,9 +170,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -163,20 +184,24 @@ protected:
   constexpr StyleValuePropertyBag_2_KeywordProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2_KeywordProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2_KeywordProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleValuePropertyBag_2_KeywordProperty(StyleValuePropertyBag_2_KeywordProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2_KeywordProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2_KeywordProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleValuePropertyBag_2_KeywordProperty(StyleValuePropertyBag_2_KeywordProperty const&) = delete;
+  StyleValuePropertyBag_2_KeywordProperty(StyleValuePropertyBag_2_KeywordPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4986 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -184,10 +209,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>
+// Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.UIElements.IStyleValue`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TContainer, typename TValue>
+  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.StyleValuePropertyBag`2<TContainer,TValue>
 class CORDL_TYPE StyleValuePropertyBag_2 : public ::Unity::Properties::ContainerPropertyBag_1<TContainer> {
@@ -208,13 +234,13 @@ protected:
   constexpr StyleValuePropertyBag_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleValuePropertyBag_2(StyleValuePropertyBag_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleValuePropertyBag_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleValuePropertyBag_2(StyleValuePropertyBag_2 const&) = delete;
+  StyleValuePropertyBag_2(StyleValuePropertyBag_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4987 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongController_def.hpp"
 #include "System/zzzz__Action_def.hpp"

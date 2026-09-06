@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleVariableContext.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleVariableContext.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariable_def.hpp"
-// Ctor Parameters [CppParam { name: "hash", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hash", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleVariableContext___c__DisplayClass7_0::StyleVariableContext___c__DisplayClass7_0(int32_t hash) noexcept {
   this->hash = hash;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSelectorPart.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSelectorPart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct StyleSelectorPart;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSelectorPart);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSelectorPart, "UnityEngine.UIElements", "StyleSelectorPart");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies UnityEngine.UIElements.StyleSelectorType
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -49,6 +50,7 @@ public:
   /// @brief Method get_value, addr 0x6c9b1b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_value();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method set_type, addr 0x6c9bd18, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSelectorType value);
 
@@ -56,8 +58,8 @@ public:
   // @brief default ctor
   constexpr StyleSelectorPart();
 
-  // Ctor Parameters [CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSelectorType", modifiers: "",
-  // def_value: None }, CppParam { name: "tempData", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSelectorType",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "tempData", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr StyleSelectorPart(::StringW m_Value, ::UnityEngine::UIElements::StyleSelectorType m_Type, ::System::Object* tempData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -66,9 +68,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Value;
 
+  /// [SerializeField]
   /// @brief Field m_Type, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleSelectorType m_Type;
 

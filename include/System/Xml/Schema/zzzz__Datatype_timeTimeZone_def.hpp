@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Datatype_timeTimeZone.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Datatype_timeTimeZone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ protected:
   constexpr Datatype_timeTimeZone();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_timeTimeZone", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Datatype_timeTimeZone", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_timeTimeZone(Datatype_timeTimeZone&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_timeTimeZone", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Datatype_timeTimeZone", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_timeTimeZone(Datatype_timeTimeZone const&) = delete;
+  Datatype_timeTimeZone(Datatype_timeTimeZoneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9632 };

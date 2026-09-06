@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HeaderVariantInfo.hpp"
+// IWYU pragma private; include "System/Net/HeaderVariantInfo.hpp"
 #include "System/Net/zzzz__CookieVariant_impl.hpp"
 #include "System/Net/zzzz__HeaderVariantInfo_def.hpp"
 #include "System/Net/zzzz__CookieVariant_def.hpp"
@@ -54,8 +54,8 @@ inline ::System::Net::CookieVariant System::Net::HeaderVariantInfo::get_Variant(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HeaderVariantInfo>(), { "get_Variant", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Net::CookieVariant>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::HeaderVariantInfo::HeaderVariantInfo(::StringW m_name, ::System::Net::CookieVariant m_variant) noexcept {
   this->m_name = m_name;
   this->m_variant = m_variant;

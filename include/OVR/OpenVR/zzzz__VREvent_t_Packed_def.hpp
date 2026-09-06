@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_t_Packed.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_t_Packed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,8 +36,9 @@ public:
   // @brief default ctor
   constexpr VREvent_t_Packed();
 
-  // Ctor Parameters [CppParam { name: "eventType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "eventAgeSeconds", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::OVR::OpenVR::VREvent_Data_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "eventType", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "eventAgeSeconds", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "data", ty: "::OVR::OpenVR::VREvent_Data_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr VREvent_t_Packed(uint32_t eventType, uint32_t trackedDeviceIndex, float_t eventAgeSeconds, ::OVR::OpenVR::VREvent_Data_t data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

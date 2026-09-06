@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Experimental\PointerOutLinkTagEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/PointerOutLinkTagEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ MARK_REF_T(::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent*);
 MARK_REF_T(::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent*, "UnityEngine.UIElements.Experimental", "PointerOutLinkTagEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c*, "UnityEngine.UIElements.Experimental", "PointerOutLinkTagEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
@@ -53,13 +54,13 @@ protected:
   constexpr PointerOutLinkTagEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerOutLinkTagEvent___c(PointerOutLinkTagEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerOutLinkTagEvent___c(PointerOutLinkTagEvent___c const&) = delete;
+  PointerOutLinkTagEvent___c(PointerOutLinkTagEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5493 };
@@ -70,6 +71,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Experimental
+// [EventCategory((UnityEngine.UIElements.EventCategory)4)]
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
@@ -99,13 +101,13 @@ protected:
   constexpr PointerOutLinkTagEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerOutLinkTagEvent(PointerOutLinkTagEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerOutLinkTagEvent(PointerOutLinkTagEvent const&) = delete;
+  PointerOutLinkTagEvent(PointerOutLinkTagEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5494 };

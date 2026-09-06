@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AndroidJNIHelper.hpp"
+// IWYU pragma private; include "UnityEngine/AndroidJNIHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJNIHelper_def.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -531,7 +531,7 @@ inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetConstructorID(::System
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNIHelper*>(), { "GetConstructorID", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, javaClass);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetConstructorID(::System::IntPtr javaClass, ::StringW signature) {
+inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetConstructorID(::System::IntPtr javaClass, /* [DefaultValue("")] */ ::StringW signature) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNIHelper*>(), { "GetConstructorID", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, javaClass, signature);
@@ -541,13 +541,14 @@ inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetMethodID(::System::Int
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNIHelper*>(), { "GetMethodID", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, javaClass, methodName);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetMethodID(::System::IntPtr javaClass, ::StringW methodName, ::StringW signature) {
+inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetMethodID(::System::IntPtr javaClass, ::StringW methodName, /* [DefaultValue("")] */ ::StringW signature) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNIHelper*>(),
                                                            { "GetMethodID", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, javaClass, methodName, signature);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetMethodID(::System::IntPtr javaClass, ::StringW methodName, ::StringW signature, bool isStatic) {
+inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetMethodID(::System::IntPtr javaClass, ::StringW methodName, /* [DefaultValue("")] */ ::StringW signature,
+                                                                   /* [DefaultValue("false")] */ bool isStatic) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNIHelper*>(),
                                               { "GetMethodID", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
@@ -558,13 +559,14 @@ inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetFieldID(::System::IntP
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNIHelper*>(), { "GetFieldID", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, javaClass, fieldName);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, ::StringW signature) {
+inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, /* [DefaultValue("")] */ ::StringW signature) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNIHelper*>(),
                                                            { "GetFieldID", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, javaClass, fieldName, signature);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, ::StringW signature, bool isStatic) {
+inline ::System::IntPtr UnityEngine::AndroidJNIHelper::GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, /* [DefaultValue("")] */ ::StringW signature,
+                                                                  /* [DefaultValue("false")] */ bool isStatic) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNIHelper*>(),
                                               { "GetFieldID", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));

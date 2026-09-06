@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpatialTracking\TrackedPoseDriverDataDescription.hpp"
+// IWYU pragma private; include "UnityEngine/SpatialTracking/TrackedPoseDriverDataDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,8 +39,8 @@ public:
   // @brief default ctor
   constexpr TrackedPoseDriverDataDescription_PoseData();
 
-  // Ctor Parameters [CppParam { name: "PoseNames", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "Poses", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "PoseNames", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Poses", ty:
+  // "::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose>*", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedPoseDriverDataDescription_PoseData(::System::Collections::Generic::List_1<::StringW>* PoseNames,
                                                       ::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose>* Poses) noexcept;
 
@@ -94,13 +94,13 @@ protected:
   constexpr TrackedPoseDriverDataDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriverDataDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriverDataDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackedPoseDriverDataDescription(TrackedPoseDriverDataDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriverDataDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriverDataDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackedPoseDriverDataDescription(TrackedPoseDriverDataDescription const&) = delete;
+  TrackedPoseDriverDataDescription(TrackedPoseDriverDataDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23356 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\WorldSpaceDataStore.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/WorldSpaceDataStore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__WorldSpaceDataStore_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

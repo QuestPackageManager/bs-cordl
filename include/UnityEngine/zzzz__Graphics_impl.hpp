@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Graphics.hpp"
+// IWYU pragma private; include "UnityEngine/Graphics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Graphics_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -1079,10 +1079,10 @@ inline void UnityEngine::Graphics::Internal_SetRTSimple(::UnityEngine::RenderBuf
                                                                                         ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::CubemapFace>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, color, depth, mip, face, depthSlice);
 }
-inline void UnityEngine::Graphics::Internal_SetMRTFullSetup(::ArrayW<::UnityEngine::RenderBuffer> color, ::UnityEngine::RenderBuffer depth, int32_t mip, ::UnityEngine::CubemapFace face,
-                                                            int32_t depthSlice, ::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction> colorLA,
-                                                            ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> colorSA, ::UnityEngine::Rendering::RenderBufferLoadAction depthLA,
-                                                            ::UnityEngine::Rendering::RenderBufferStoreAction depthSA) {
+inline void UnityEngine::Graphics::Internal_SetMRTFullSetup(/* [NotNull] */ ::ArrayW<::UnityEngine::RenderBuffer> color, ::UnityEngine::RenderBuffer depth, int32_t mip,
+                                                            ::UnityEngine::CubemapFace face, int32_t depthSlice, /* [NotNull] */ ::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction> colorLA,
+                                                            /* [NotNull] */ ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> colorSA,
+                                                            ::UnityEngine::Rendering::RenderBufferLoadAction depthLA, ::UnityEngine::Rendering::RenderBufferStoreAction depthSA) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
                                               { "Internal_SetMRTFullSetup",
@@ -1116,7 +1116,7 @@ inline void UnityEngine::Graphics::CopyTexture_Region(::UnityEngine::Texture* sr
                                                                            ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, src, srcElement, srcMip, srcX, srcY, srcWidth, srcHeight, dst, dstElement, dstMip, dstX, dstY);
 }
-inline void UnityEngine::Graphics::Internal_DrawMeshNow2(::UnityEngine::Mesh* mesh, int32_t subsetIndex, ::UnityEngine::Matrix4x4 matrix) {
+inline void UnityEngine::Graphics::Internal_DrawMeshNow2(/* [NotNull] */ ::UnityEngine::Mesh* mesh, int32_t subsetIndex, ::UnityEngine::Matrix4x4 matrix) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
                                               { "Internal_DrawMeshNow2", {}, { ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
@@ -1138,10 +1138,10 @@ inline void UnityEngine::Graphics::Internal_DrawMesh(::UnityEngine::Mesh* mesh, 
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mesh, submeshIndex, matrix, material, layer, camera, properties, castShadows, receiveShadows, probeAnchor,
                                                    lightProbeUsage, lightProbeProxyVolume);
 }
-inline void UnityEngine::Graphics::Internal_DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Matrix4x4> matrices,
-                                                              int32_t count, ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows,
-                                                              bool receiveShadows, int32_t layer, ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage,
-                                                              ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
+inline void UnityEngine::Graphics::Internal_DrawMeshInstanced(/* [NotNull] */ ::UnityEngine::Mesh* mesh, int32_t submeshIndex, /* [NotNull] */ ::UnityEngine::Material* material,
+                                                              ::ArrayW<::UnityEngine::Matrix4x4> matrices, int32_t count, ::UnityEngine::MaterialPropertyBlock* properties,
+                                                              ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer, ::UnityEngine::Camera* camera,
+                                                              ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
@@ -1154,10 +1154,11 @@ inline void UnityEngine::Graphics::Internal_DrawMeshInstanced(::UnityEngine::Mes
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mesh, submeshIndex, material, matrices, count, properties, castShadows, receiveShadows, layer, camera, lightProbeUsage,
                                                    lightProbeProxyVolume);
 }
-inline void UnityEngine::Graphics::Internal_DrawMeshInstancedIndirect(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::UnityEngine::Bounds bounds,
-                                                                      ::UnityEngine::ComputeBuffer* bufferWithArgs, int32_t argsOffset, ::UnityEngine::MaterialPropertyBlock* properties,
-                                                                      ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer, ::UnityEngine::Camera* camera,
-                                                                      ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
+inline void UnityEngine::Graphics::Internal_DrawMeshInstancedIndirect(/* [NotNull] */ ::UnityEngine::Mesh* mesh, int32_t submeshIndex, /* [NotNull] */ ::UnityEngine::Material* material,
+                                                                      ::UnityEngine::Bounds bounds, ::UnityEngine::ComputeBuffer* bufferWithArgs, int32_t argsOffset,
+                                                                      ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows,
+                                                                      int32_t layer, ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage,
+                                                                      ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
@@ -1176,7 +1177,7 @@ inline void UnityEngine::Graphics::Internal_DrawProceduralNow(::UnityEngine::Mes
                                               { "Internal_DrawProceduralNow", {}, { ::i2c::type_of<::UnityEngine::MeshTopology>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, topology, vertexCount, instanceCount);
 }
-inline void UnityEngine::Graphics::Internal_BlitMaterial5(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat, int32_t pass, bool setRT) {
+inline void UnityEngine::Graphics::Internal_BlitMaterial5(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, /* [NotNull] */ ::UnityEngine::Material* mat, int32_t pass, bool setRT) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(), { "Internal_BlitMaterial5",
                                                                                              {},
@@ -1198,7 +1199,7 @@ inline void UnityEngine::Graphics::Blit4(::UnityEngine::Texture* source, ::Unity
                                                                                                             ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, dest, scale, offset);
 }
-inline void UnityEngine::Graphics::ExecuteCommandBuffer(::UnityEngine::Rendering::CommandBuffer* buffer) {
+inline void UnityEngine::Graphics::ExecuteCommandBuffer(/* [NotNull] */ ::UnityEngine::Rendering::CommandBuffer* buffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(), { "ExecuteCommandBuffer", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, buffer);
@@ -1238,7 +1239,8 @@ inline void UnityEngine::Graphics::SetRenderTargetImpl(::UnityEngine::RenderText
           { "SetRenderTargetImpl", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::CubemapFace>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rt, mipLevel, face, depthSlice);
 }
-inline void UnityEngine::Graphics::SetRenderTarget(::UnityEngine::RenderTexture* rt, int32_t mipLevel, ::UnityEngine::CubemapFace face, int32_t depthSlice) {
+inline void UnityEngine::Graphics::SetRenderTarget(::UnityEngine::RenderTexture* rt, /* [DefaultValue("0")] */ int32_t mipLevel,
+                                                   /* [DefaultValue("CubemapFace.Unknown")] */ ::UnityEngine::CubemapFace face, /* [DefaultValue("0")] */ int32_t depthSlice) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -1279,7 +1281,7 @@ inline void UnityEngine::Graphics::DrawMeshNow(::UnityEngine::Mesh* mesh, ::Unit
 inline void UnityEngine::Graphics::DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t layer, ::UnityEngine::Camera* camera,
                                             int32_t submeshIndex, ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows,
                                             ::UnityEngine::Transform* probeAnchor, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage,
-                                            ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
+                                            /* [DefaultValue("null")] */ ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
@@ -1292,10 +1294,13 @@ inline void UnityEngine::Graphics::DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEn
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mesh, matrix, material, layer, camera, submeshIndex, properties, castShadows, receiveShadows, probeAnchor,
                                                    lightProbeUsage, lightProbeProxyVolume);
 }
-inline void UnityEngine::Graphics::DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Matrix4x4> matrices, int32_t count,
-                                                     ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer,
-                                                     ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage,
-                                                     ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
+inline void UnityEngine::Graphics::DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Matrix4x4> matrices,
+                                                     /* [DefaultValue("matrices.Length")] */ int32_t count, /* [DefaultValue("null")] */ ::UnityEngine::MaterialPropertyBlock* properties,
+                                                     /* [DefaultValue("ShadowCastingMode.On")] */ ::UnityEngine::Rendering::ShadowCastingMode castShadows,
+                                                     /* [DefaultValue("true")] */ bool receiveShadows, /* [DefaultValue("0")] */ int32_t layer,
+                                                     /* [DefaultValue("null")] */ ::UnityEngine::Camera* camera,
+                                                     /* [DefaultValue("LightProbeUsage.BlendProbes")] */ ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage,
+                                                     /* [DefaultValue("null")] */ ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
@@ -1309,9 +1314,13 @@ inline void UnityEngine::Graphics::DrawMeshInstanced(::UnityEngine::Mesh* mesh, 
                                                    lightProbeProxyVolume);
 }
 inline void UnityEngine::Graphics::DrawMeshInstancedIndirect(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::UnityEngine::Bounds bounds,
-                                                             ::UnityEngine::ComputeBuffer* bufferWithArgs, int32_t argsOffset, ::UnityEngine::MaterialPropertyBlock* properties,
-                                                             ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer, ::UnityEngine::Camera* camera,
-                                                             ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
+                                                             ::UnityEngine::ComputeBuffer* bufferWithArgs, /* [DefaultValue("0")] */ int32_t argsOffset,
+                                                             /* [DefaultValue("null")] */ ::UnityEngine::MaterialPropertyBlock* properties,
+                                                             /* [DefaultValue("ShadowCastingMode.On")] */ ::UnityEngine::Rendering::ShadowCastingMode castShadows,
+                                                             /* [DefaultValue("true")] */ bool receiveShadows, /* [DefaultValue("0")] */ int32_t layer,
+                                                             /* [DefaultValue("null")] */ ::UnityEngine::Camera* camera,
+                                                             /* [DefaultValue("LightProbeUsage.BlendProbes")] */ ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage,
+                                                             /* [DefaultValue("null")] */ ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
@@ -1344,7 +1353,7 @@ inline void UnityEngine::Graphics::Blit(::UnityEngine::Texture* source, ::UnityE
                                                                                                             ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, dest, scale, offset);
 }
-inline void UnityEngine::Graphics::Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat, int32_t pass) {
+inline void UnityEngine::Graphics::Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat, /* [DefaultValue("-1")] */ int32_t pass) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

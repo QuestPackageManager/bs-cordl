@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\RuntimeMethodHandle.hpp"
+// IWYU pragma private; include "System/RuntimeMethodHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ struct RuntimeMethodHandle;
 // Write type traits
 MARK_VAL_T(::System::RuntimeMethodHandle);
 DEFINE_IL2CPP_CLASS(::System::RuntimeMethodHandle, "System", "RuntimeMethodHandle");
+// [ComVisible(true)]
 // Dependencies System.IntPtr
 namespace System {
 // Is value type: true
@@ -51,6 +52,7 @@ public:
   /// @brief Method ConstructInstantiation, addr 0x5c980a8, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW ConstructInstantiation(::System::Reflection::RuntimeMethodInfo* method, ::System::TypeNameFormatFlags format);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Equals, addr 0x5c97fb8, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
@@ -79,7 +81,7 @@ public:
   // @brief default ctor
   constexpr RuntimeMethodHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeMethodHandle(::System::IntPtr value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

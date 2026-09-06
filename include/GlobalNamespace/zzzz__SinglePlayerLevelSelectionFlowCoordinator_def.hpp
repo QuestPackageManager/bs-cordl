@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SinglePlayerLevelSelectionFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/SinglePlayerLevelSelectionFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,6 +83,7 @@ MARK_REF_T(::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*);
 MARK_REF_T(::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*, "", "SinglePlayerLevelSelectionFlowCoordinator");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0*, "", "SinglePlayerLevelSelectionFlowCoordinator/<>c__DisplayClass41_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -143,13 +144,13 @@ protected:
   constexpr SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0(SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0(SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0 const&) = delete;
+  SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0(SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6856 };
@@ -279,7 +280,7 @@ public:
                                                                ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
 
   /// @brief Method SelectionDidChange, addr 0x5938f00, size 0x98, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// @brief Method SetupGameplaySetupViewController, addr 0x59379d4, size 0x28, virtual false, abstract: false, final false
   inline void SetupGameplaySetupViewController(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings);
@@ -347,13 +348,14 @@ public:
   /// @brief Method .ctor, addr 0x59383bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x593864c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value);
 
   /// @brief Method get_enableCustomLevels, addr 0x59385a4, size 0x18, virtual true, abstract: false, final false
   inline bool get_enableCustomLevels();
 
-  /// @brief Method get_gameMode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_gameMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_gameMode();
 
   /// @brief Method get_gameplayModifiers, addr 0x59385bc, size 0x24, virtual false, abstract: false, final false
@@ -377,6 +379,7 @@ public:
   /// @brief Method get_playerSettings, addr 0x5938570, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x593870c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value);
 
@@ -386,13 +389,13 @@ protected:
   constexpr SinglePlayerLevelSelectionFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SinglePlayerLevelSelectionFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SinglePlayerLevelSelectionFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SinglePlayerLevelSelectionFlowCoordinator(SinglePlayerLevelSelectionFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SinglePlayerLevelSelectionFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SinglePlayerLevelSelectionFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SinglePlayerLevelSelectionFlowCoordinator(SinglePlayerLevelSelectionFlowCoordinator const&) = delete;
+  SinglePlayerLevelSelectionFlowCoordinator(SinglePlayerLevelSelectionFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6857 };
@@ -409,27 +412,35 @@ public:
   /// @brief Field kTitlePracticeModeLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitlePracticeModeLocalizationKey{ u"TITLE_PRACTICE_MODE" };
 
+  /// [Inject]
   /// @brief Field _practiceViewController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PracticeViewController> ____practiceViewController;
 
+  /// [Inject]
   /// @brief Field _gameplaySetupViewController, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplaySetupViewController> ____gameplaySetupViewController;
 
+  /// [Inject]
   /// @brief Field _menuTransitionsHelper, offset: 0xe8, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
+  /// [Inject]
   /// @brief Field _appStaticSettings, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppStaticSettingsSO> ____appStaticSettings;
 
+  /// [Inject]
   /// @brief Field _customLevelsSettings, offset: 0xf8, size: 0x8, def value: None
   ::GlobalNamespace::CustomLevelsSettings* ____customLevelsSettings;
 
+  /// [Inject]
   /// @brief Field _safeAreaFocusedSimpleDialogPromptViewController, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController> ____safeAreaFocusedSimpleDialogPromptViewController;
 
+  /// [Inject]
   /// @brief Field _environmentsListModel, offset: 0x108, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x110, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* ___didFinishEvent;
 

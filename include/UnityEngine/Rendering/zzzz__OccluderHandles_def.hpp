@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderHandles.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderHandles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,8 +37,8 @@ public:
   // @brief default ctor
   constexpr OccluderHandles();
 
-  // Ctor Parameters [CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name:
-  // "occlusionDebugOverlay", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "occlusionDebugOverlay", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None, comment: None }]
   constexpr OccluderHandles(::UnityEngine::Rendering::RenderGraphModule::TextureHandle occluderDepthPyramid, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle occlusionDebugOverlay) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

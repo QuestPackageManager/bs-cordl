@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\EnumDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/EnumDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -195,13 +195,13 @@ protected:
   constexpr EnumDataContract_EnumDataContractCriticalHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract_EnumDataContractCriticalHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract_EnumDataContractCriticalHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumDataContract_EnumDataContractCriticalHelper(EnumDataContract_EnumDataContractCriticalHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract_EnumDataContractCriticalHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract_EnumDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataContract_EnumDataContractCriticalHelper(EnumDataContract_EnumDataContractCriticalHelper const&) = delete;
+  EnumDataContract_EnumDataContractCriticalHelper(EnumDataContract_EnumDataContractCriticalHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17030 };
@@ -327,13 +327,13 @@ protected:
   constexpr EnumDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumDataContract(EnumDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataContract(EnumDataContract const&) = delete;
+  EnumDataContract(EnumDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17031 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IMouseEventInternal.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IMouseEventInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,21 +25,21 @@ public:
 
   __declspec(property(get = get_triggeredByOS, put = set_triggeredByOS)) bool triggeredByOS;
 
-  /// @brief Method get_sourcePointerEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IPointerEvent* get_sourcePointerEvent();
 
-  /// @brief Method get_triggeredByOS, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_triggeredByOS();
 
-  /// @brief Method set_sourcePointerEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent* value);
 
-  /// @brief Method set_triggeredByOS, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_triggeredByOS(bool value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMouseEventInternal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMouseEventInternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMouseEventInternal(IMouseEventInternal const&) = delete;
+  IMouseEventInternal(IMouseEventInternalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4487 };

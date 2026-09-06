@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderPathID.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderPathID.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShaderPathID_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ShaderPathID::ShaderPathID(int32_t value__) noexcept {
   this->value__ = value__;
 }

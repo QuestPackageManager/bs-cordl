@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\TypeConverter.hpp"
+// IWYU pragma private; include "System/ComponentModel/TypeConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,13 +134,13 @@ protected:
   constexpr TypeConverter_SimplePropertyDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_SimplePropertyDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_SimplePropertyDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeConverter_SimplePropertyDescriptor(TypeConverter_SimplePropertyDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_SimplePropertyDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_SimplePropertyDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverter_SimplePropertyDescriptor(TypeConverter_SimplePropertyDescriptor const&) = delete;
+  TypeConverter_SimplePropertyDescriptor(TypeConverter_SimplePropertyDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11327 };
@@ -161,6 +161,7 @@ static_assert(offsetof(::System::ComponentModel::TypeConverter_SimplePropertyDes
 static_assert(sizeof(::System::ComponentModel::TypeConverter_SimplePropertyDescriptor) == 0x98, "Size mismatch!");
 
 } // namespace System::ComponentModel
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::ComponentModel {
 // Is value type: false
@@ -246,13 +247,13 @@ protected:
   constexpr TypeConverter_StandardValuesCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_StandardValuesCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_StandardValuesCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeConverter_StandardValuesCollection(TypeConverter_StandardValuesCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_StandardValuesCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_StandardValuesCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverter_StandardValuesCollection(TypeConverter_StandardValuesCollection const&) = delete;
+  TypeConverter_StandardValuesCollection(TypeConverter_StandardValuesCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11328 };
@@ -273,6 +274,7 @@ static_assert(offsetof(::System::ComponentModel::TypeConverter_StandardValuesCol
 static_assert(sizeof(::System::ComponentModel::TypeConverter_StandardValuesCollection) == 0x20, "Size mismatch!");
 
 } // namespace System::ComponentModel
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::ComponentModel {
 // Is value type: false
@@ -421,13 +423,13 @@ protected:
   constexpr TypeConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeConverter(TypeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverter(TypeConverter const&) = delete;
+  TypeConverter(TypeConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11329 };

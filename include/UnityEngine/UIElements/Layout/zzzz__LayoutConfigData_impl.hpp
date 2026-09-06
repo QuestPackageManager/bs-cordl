@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutConfigData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutConfigData.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutConfigData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutConfigData.get_Default
 template <>
@@ -17,7 +17,8 @@ inline ::UnityEngine::UIElements::Layout::LayoutConfigData UnityEngine::UIElemen
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutConfigData>(), { "get_Default", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutConfigData>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "PointScaleFactor", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ShouldLog", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "PointScaleFactor", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShouldLog", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutConfigData::LayoutConfigData(float_t PointScaleFactor, bool ShouldLog) noexcept {
   this->PointScaleFactor = PointScaleFactor;
   this->ShouldLog = ShouldLog;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
@@ -84,11 +84,12 @@ inline ::UnityEngine::Rendering::ProfilingSampler* UnityEngine::Rendering::Unive
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_Profiling::UniversalRenderer_Profiling() {}
-// Ctor Parameters [CppParam { name: "requiresDepthTexture", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "requiresDepthPrepass", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "requiresNormalsTexture", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "requiresColorTexture", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "requiresColorTextureCreated", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "requiresMotionVectors", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "requiresDepthNormalAtEvent", ty: "::UnityEngine::Rendering::Universal::RenderPassEvent", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "requiresDepthTextureEarliestEvent", ty: "::UnityEngine::Rendering::Universal::RenderPassEvent", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "requiresDepthTexture", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requiresDepthPrepass", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "requiresNormalsTexture", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requiresColorTexture", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requiresColorTextureCreated", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "requiresMotionVectors", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requiresDepthNormalAtEvent", ty:
+// "::UnityEngine::Rendering::Universal::RenderPassEvent", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requiresDepthTextureEarliestEvent", ty:
+// "::UnityEngine::Rendering::Universal::RenderPassEvent", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary::UniversalRenderer_RenderPassInputSummary(
     bool requiresDepthTexture, bool requiresDepthPrepass, bool requiresNormalsTexture, bool requiresColorTexture, bool requiresColorTextureCreated, bool requiresMotionVectors,
     ::UnityEngine::Rendering::Universal::RenderPassEvent requiresDepthNormalAtEvent, ::UnityEngine::Rendering::Universal::RenderPassEvent requiresDepthTextureEarliestEvent) noexcept {
@@ -151,7 +152,7 @@ inline ::UnityEngine::Rendering::Universal::UniversalRenderer_CopyToDebugTexture
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_CopyToDebugTexturePassData::UniversalRenderer_CopyToDebugTexturePassData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule::UniversalRenderer_DepthCopySchedule(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -165,7 +166,7 @@ constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedu
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule::AfterTransparents{ static_cast<int32_t>(
     0x5) };
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule::None{ static_cast<int32_t>(0x6) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule::UniversalRenderer_ColorCopySchedule(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -173,8 +174,8 @@ constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedu
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule::UniversalRenderer_ColorCopySchedule() {}
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule::AfterSkybox{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule::None{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "depth", ty: "::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty:
-// "::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "depth", ty: "::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "color", ty: "::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::UniversalRenderer_TextureCopySchedules::UniversalRenderer_TextureCopySchedules(
     ::UnityEngine::Rendering::Universal::UniversalRenderer_DepthCopySchedule depth, ::UnityEngine::Rendering::Universal::UniversalRenderer_ColorCopySchedule color) noexcept {
   this->depth = depth;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderTargetBlendState.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderTargetBlendState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,10 +62,11 @@ public:
   // @brief default ctor
   constexpr RenderTargetBlendState();
 
-  // Ctor Parameters [CppParam { name: "m_WriteMask", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_SourceColorBlendMode", ty: "uint8_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_DestinationColorBlendMode", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_SourceAlphaBlendMode", ty: "uint8_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_DestinationAlphaBlendMode", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_ColorBlendOperation", ty: "uint8_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_AlphaBlendOperation", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Padding", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_WriteMask", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SourceColorBlendMode", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_DestinationColorBlendMode", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SourceAlphaBlendMode", ty:
+  // "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DestinationAlphaBlendMode", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_ColorBlendOperation", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AlphaBlendOperation", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Padding", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderTargetBlendState(uint8_t m_WriteMask, uint8_t m_SourceColorBlendMode, uint8_t m_DestinationColorBlendMode, uint8_t m_SourceAlphaBlendMode, uint8_t m_DestinationAlphaBlendMode,
                                    uint8_t m_ColorBlendOperation, uint8_t m_AlphaBlendOperation, uint8_t m_Padding) noexcept;
 

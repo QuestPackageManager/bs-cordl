@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\CaretInfo.hpp"
+// IWYU pragma private; include "TMPro/CaretInfo.hpp"
 #include "TMPro/zzzz__CaretPosition_impl.hpp"
 #include "TMPro/zzzz__CaretInfo_def.hpp"
 #include "TMPro/zzzz__CaretPosition_def.hpp"
@@ -21,7 +21,8 @@ inline void TMPro::CaretInfo::_ctor(int32_t index, ::TMPro::CaretPosition positi
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::CaretInfo>(), { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::TMPro::CaretPosition>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, position);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "position", ty: "::TMPro::CaretPosition", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty: "::TMPro::CaretPosition", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::TMPro::CaretInfo::CaretInfo(int32_t index, ::TMPro::CaretPosition position) noexcept {
   this->index = index;
   this->position = position;

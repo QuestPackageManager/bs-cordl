@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DtlsReplayWindow.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DtlsReplayWindow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,13 +58,13 @@ protected:
   constexpr DtlsReplayWindow();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReplayWindow", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReplayWindow", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsReplayWindow(DtlsReplayWindow&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReplayWindow", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReplayWindow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReplayWindow(DtlsReplayWindow const&) = delete;
+  DtlsReplayWindow(DtlsReplayWindowconst&) = delete;
 
   /// @brief Field VALID_SEQ_MASK offset 0xffffffff size 0x8
   static constexpr int64_t VALID_SEQ_MASK{ static_cast<int64_t>(0xffffffffffff) };

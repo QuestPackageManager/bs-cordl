@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\InheritanceFlags.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/InheritanceFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct InheritanceFlags;
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::InheritanceFlags);
 DEFINE_IL2CPP_CLASS(::System::Security::AccessControl::InheritanceFlags, "System.Security.AccessControl", "InheritanceFlags");
+// [Flags]
 // Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr InheritanceFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InheritanceFlags(int32_t value__) noexcept;
 
   /// @brief Field ContainerInherit value: I32(1)

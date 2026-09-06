@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainAudioEffects.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainAudioEffects.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,13 +74,13 @@ protected:
   constexpr MainAudioEffects();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainAudioEffects", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainAudioEffects", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainAudioEffects(MainAudioEffects&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainAudioEffects", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainAudioEffects", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainAudioEffects(MainAudioEffects const&) = delete;
+  MainAudioEffects(MainAudioEffectsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5569 };
@@ -91,9 +91,11 @@ public:
   /// @brief Field kLowPassCutoffFrequency offset 0xffffffff size 0x4
   static constexpr int32_t kLowPassCutoffFrequency{ static_cast<int32_t>(0x96) };
 
+  /// [SerializeField]
   /// @brief Field _audioLowPassFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioLowPassFilter> ____audioLowPassFilter;
 
+  /// [SerializeField]
   /// @brief Field _smooth, offset: 0x28, size: 0x4, def value: None
   float_t ____smooth;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ImmediateRankUIPanel.hpp"
+// IWYU pragma private; include "GlobalNamespace/ImmediateRankUIPanel.hpp"
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ImmediateRankUIPanel_def.hpp"

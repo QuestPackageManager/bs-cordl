@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\ThreefishEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/ThreefishEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,10 +66,10 @@ public:
   /// @brief Field t, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t)) ::ArrayW<uint64_t> t;
 
-  /// @brief Method DecryptBlock, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DecryptBlock(::ArrayW<uint64_t> block, ::ArrayW<uint64_t> outWords);
 
-  /// @brief Method EncryptBlock, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EncryptBlock(::ArrayW<uint64_t> block, ::ArrayW<uint64_t> outWords);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher* New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t);
@@ -95,13 +95,13 @@ protected:
   constexpr ThreefishEngine_ThreefishCipher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_ThreefishCipher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_ThreefishCipher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreefishEngine_ThreefishCipher(ThreefishEngine_ThreefishCipher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_ThreefishCipher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_ThreefishCipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine_ThreefishCipher(ThreefishEngine_ThreefishCipher const&) = delete;
+  ThreefishEngine_ThreefishCipher(ThreefishEngine_ThreefishCipherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 875 };
@@ -146,13 +146,13 @@ protected:
   constexpr ThreefishEngine_Threefish256Cipher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish256Cipher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish256Cipher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreefishEngine_Threefish256Cipher(ThreefishEngine_Threefish256Cipher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish256Cipher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish256Cipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine_Threefish256Cipher(ThreefishEngine_Threefish256Cipher const&) = delete;
+  ThreefishEngine_Threefish256Cipher(ThreefishEngine_Threefish256Cipherconst&) = delete;
 
   /// @brief Field ROTATION_0_0 offset 0xffffffff size 0x4
   static constexpr int32_t ROTATION_0_0{ static_cast<int32_t>(0xe) };
@@ -235,13 +235,13 @@ protected:
   constexpr ThreefishEngine_Threefish512Cipher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish512Cipher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish512Cipher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreefishEngine_Threefish512Cipher(ThreefishEngine_Threefish512Cipher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish512Cipher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish512Cipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine_Threefish512Cipher(ThreefishEngine_Threefish512Cipher const&) = delete;
+  ThreefishEngine_Threefish512Cipher(ThreefishEngine_Threefish512Cipherconst&) = delete;
 
   /// @brief Field ROTATION_0_0 offset 0xffffffff size 0x4
   static constexpr int32_t ROTATION_0_0{ static_cast<int32_t>(0x2e) };
@@ -372,13 +372,13 @@ protected:
   constexpr ThreefishEngine_Threefish1024Cipher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish1024Cipher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish1024Cipher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreefishEngine_Threefish1024Cipher(ThreefishEngine_Threefish1024Cipher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish1024Cipher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish1024Cipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine_Threefish1024Cipher(ThreefishEngine_Threefish1024Cipher const&) = delete;
+  ThreefishEngine_Threefish1024Cipher(ThreefishEngine_Threefish1024Cipherconst&) = delete;
 
   /// @brief Field ROTATION_0_0 offset 0xffffffff size 0x4
   static constexpr int32_t ROTATION_0_0{ static_cast<int32_t>(0x18) };
@@ -750,13 +750,13 @@ protected:
   constexpr ThreefishEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreefishEngine(ThreefishEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine(ThreefishEngine const&) = delete;
+  ThreefishEngine(ThreefishEngineconst&) = delete;
 
   /// @brief Field BLOCKSIZE_1024 offset 0xffffffff size 0x4
   static constexpr int32_t BLOCKSIZE_1024{ static_cast<int32_t>(0x400) };

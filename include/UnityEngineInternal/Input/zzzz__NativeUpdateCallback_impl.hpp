@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngineInternal\Input\NativeUpdateCallback.hpp"
+// IWYU pragma private; include "UnityEngineInternal/Input/NativeUpdateCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeUpdateCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

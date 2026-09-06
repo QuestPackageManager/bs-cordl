@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RuleMatcher.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RuleMatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,8 +33,8 @@ public:
   // @brief default ctor
   constexpr RuleMatcher();
 
-  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty:
-  // "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None, comment: None }, CppParam { name: "complexSelector", ty:
+  // "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: None, comment: None }]
   constexpr RuleMatcher(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

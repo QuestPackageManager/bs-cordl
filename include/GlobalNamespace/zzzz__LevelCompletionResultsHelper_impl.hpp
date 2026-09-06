@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelCompletionResultsHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelCompletionResultsHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResultsHelper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -78,7 +78,7 @@ GlobalNamespace::LevelCompletionResultsHelper::Create(::GlobalNamespace::IReadon
       nullptr, ___internal_method, beatmapData, beatmapObjectExecutionRatings, gameplayModifiers, gameplayModifiersModel, multipliedScore, modifiedScore, maxCombo, saberActivityValues,
       leftSaberMovementDistance, rightSaberMovementDistance, handActivityValues, leftHandMovementDistance, rightHandMovementDistance, levelEndStateType, levelEndAction, energy, songTime, invalidated);
 }
-inline void GlobalNamespace::LevelCompletionResultsHelper::ProcessScore(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData,
+inline void GlobalNamespace::LevelCompletionResultsHelper::ProcessScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData,
                                                                         ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                                                                         ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                         ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel) {

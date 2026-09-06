@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\BurstRuntime.hpp"
+// IWYU pragma private; include "Unity/Burst/BurstRuntime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,13 +125,13 @@ protected:
   constexpr BurstRuntime_PreserveAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime_PreserveAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime_PreserveAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstRuntime_PreserveAttribute(BurstRuntime_PreserveAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime_PreserveAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime_PreserveAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstRuntime_PreserveAttribute(BurstRuntime_PreserveAttribute const&) = delete;
+  BurstRuntime_PreserveAttribute(BurstRuntime_PreserveAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17314 };
@@ -185,12 +185,15 @@ public:
   /// @brief Method LoadAdditionalLibraryInternal, addr 0x6473778, size 0x150, virtual false, abstract: false, final false
   static inline bool LoadAdditionalLibraryInternal(::StringW pathToLibBurstGenerated);
 
+  /// [BurstRuntime::Preserve]
   /// @brief Method Log, addr 0x6473a20, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(uint8_t* message, int32_t logType, uint8_t* fileName, int32_t lineNumber);
 
+  /// [BurstRuntime::Preserve]
   /// @brief Method PreventRequiredAttributeStrip, addr 0x647392c, size 0xf4, virtual false, abstract: false, final false
   static inline void PreventRequiredAttributeStrip();
 
+  /// [BurstRuntime::Preserve]
   /// @brief Method RuntimeLog, addr 0x64738c8, size 0x60, virtual false, abstract: false, final false
   static inline void RuntimeLog(uint8_t* message, int32_t logType, uint8_t* fileName, int32_t lineNumber);
 
@@ -200,13 +203,13 @@ protected:
   constexpr BurstRuntime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstRuntime(BurstRuntime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstRuntime(BurstRuntime const&) = delete;
+  BurstRuntime(BurstRuntimeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17315 };

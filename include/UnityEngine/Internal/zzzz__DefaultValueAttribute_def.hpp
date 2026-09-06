@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Internal\DefaultValueAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Internal/DefaultValueAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class DefaultValueAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Internal::DefaultValueAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Internal::DefaultValueAttribute*, "UnityEngine.Internal", "DefaultValueAttribute");
+// [AttributeUsage((System.AttributeTargets)18432)]
 // Dependencies System.Attribute
 namespace UnityEngine::Internal {
 // Is value type: false
@@ -55,13 +56,13 @@ protected:
   constexpr DefaultValueAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultValueAttribute(DefaultValueAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultValueAttribute(DefaultValueAttribute const&) = delete;
+  DefaultValueAttribute(DefaultValueAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10658 };

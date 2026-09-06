@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PanelEventHandler.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PanelEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -163,7 +163,7 @@ public:
   // @brief default ctor
   constexpr PanelEventHandler_PointerEventType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PanelEventHandler_PointerEventType(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(0)
@@ -321,6 +321,7 @@ public:
   /// @brief Method SetPosition, addr 0x6e17214, size 0x18, virtual false, abstract: false, final false
   inline void SetPosition(::UnityEngine::Vector3 positionOverride, ::UnityEngine::Vector3 deltaOverride);
 
+  /// [CompilerGenerated]
   /// @brief Method <Read>g__InRange|90_0, addr 0x6e17530, size 0x14, virtual false, abstract: false, final false
   static inline bool _Read_g__InRange_90_0(int32_t i, int32_t start, int32_t count);
 
@@ -453,15 +454,19 @@ public:
   /// @brief Method get_altKey, addr 0x6e17460, size 0xc, virtual true, abstract: false, final true
   inline bool get_altKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_altitudeAngle, addr 0x6e173bc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_altitudeAngle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_azimuthAngle, addr 0x6e173cc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_azimuthAngle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_button, addr 0x6e17314, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_button();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clickCount, addr 0x6e1738c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_clickCount();
 
@@ -471,117 +476,153 @@ public:
   /// @brief Method get_ctrlKey, addr 0x6e17448, size 0xc, virtual true, abstract: false, final true
   inline bool get_ctrlKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deltaPosition, addr 0x6e17364, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_deltaPosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deltaTime, addr 0x6e1737c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_deltaTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isPrimary, addr 0x6e17304, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPrimary();
 
+  /// [CompilerGenerated]
   /// @brief Method get_localPosition, addr 0x6e1734c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_localPosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_modifiers, addr 0x6e1742c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_penStatus, addr 0x6e173fc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::PenStatus get_penStatus();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointerId, addr 0x6e172e4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_pointerId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointerType, addr 0x6e172f4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_pointerType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_position, addr 0x6e17334, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_position();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pressedButtons, addr 0x6e17324, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_pressedButtons();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pressure, addr 0x6e1739c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_pressure();
 
+  /// [CompilerGenerated]
   /// @brief Method get_radius, addr 0x6e1740c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_radius();
 
+  /// [CompilerGenerated]
   /// @brief Method get_radiusVariance, addr 0x6e1741c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_radiusVariance();
 
   /// @brief Method get_shiftKey, addr 0x6e1743c, size 0xc, virtual true, abstract: false, final true
   inline bool get_shiftKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tangentialPressure, addr 0x6e173ac, size 0x8, virtual true, abstract: false, final true
   inline float_t get_tangentialPressure();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tilt, addr 0x6e173ec, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_tilt();
 
+  /// [CompilerGenerated]
   /// @brief Method get_twist, addr 0x6e173dc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_twist();
 
   /// @brief Convert to "::UnityEngine::UIElements::IPointerEvent"
   constexpr ::UnityEngine::UIElements::IPointerEvent* i___UnityEngine__UIElements__IPointerEvent() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_altitudeAngle, addr 0x6e173c4, size 0x8, virtual false, abstract: false, final false
   inline void set_altitudeAngle(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_azimuthAngle, addr 0x6e173d4, size 0x8, virtual false, abstract: false, final false
   inline void set_azimuthAngle(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_button, addr 0x6e1731c, size 0x8, virtual false, abstract: false, final false
   inline void set_button(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clickCount, addr 0x6e17394, size 0x8, virtual false, abstract: false, final false
   inline void set_clickCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deltaPosition, addr 0x6e17370, size 0xc, virtual false, abstract: false, final false
   inline void set_deltaPosition(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deltaTime, addr 0x6e17384, size 0x8, virtual false, abstract: false, final false
   inline void set_deltaTime(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isPrimary, addr 0x6e1730c, size 0x8, virtual false, abstract: false, final false
   inline void set_isPrimary(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_localPosition, addr 0x6e17358, size 0xc, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_modifiers, addr 0x6e17434, size 0x8, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_penStatus, addr 0x6e17404, size 0x8, virtual false, abstract: false, final false
   inline void set_penStatus(::UnityEngine::PenStatus value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pointerId, addr 0x6e172ec, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pointerType, addr 0x6e172fc, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerType(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_position, addr 0x6e17340, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pressedButtons, addr 0x6e1732c, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedButtons(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pressure, addr 0x6e173a4, size 0x8, virtual false, abstract: false, final false
   inline void set_pressure(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_radius, addr 0x6e17414, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_radiusVariance, addr 0x6e17424, size 0x8, virtual false, abstract: false, final false
   inline void set_radiusVariance(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tangentialPressure, addr 0x6e173b4, size 0x8, virtual false, abstract: false, final false
   inline void set_tangentialPressure(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tilt, addr 0x6e173f4, size 0x8, virtual false, abstract: false, final false
   inline void set_tilt(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_twist, addr 0x6e173e4, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(float_t value);
 
@@ -591,74 +632,94 @@ protected:
   constexpr PanelEventHandler_PointerEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PanelEventHandler_PointerEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelEventHandler_PointerEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PanelEventHandler_PointerEvent(PanelEventHandler_PointerEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PanelEventHandler_PointerEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelEventHandler_PointerEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelEventHandler_PointerEvent(PanelEventHandler_PointerEvent const&) = delete;
+  PanelEventHandler_PointerEvent(PanelEventHandler_PointerEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17529 };
 
+  /// [CompilerGenerated]
   /// @brief Field <pointerId>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____pointerId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pointerType>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____pointerType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isPrimary>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____isPrimary_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <button>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t ____button_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pressedButtons>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____pressedButtons_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <position>k__BackingField, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____position_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <localPosition>k__BackingField, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localPosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <deltaPosition>k__BackingField, offset: 0x44, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____deltaPosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <deltaTime>k__BackingField, offset: 0x50, size: 0x4, def value: None
   float_t ____deltaTime_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <clickCount>k__BackingField, offset: 0x54, size: 0x4, def value: None
   int32_t ____clickCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pressure>k__BackingField, offset: 0x58, size: 0x4, def value: None
   float_t ____pressure_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tangentialPressure>k__BackingField, offset: 0x5c, size: 0x4, def value: None
   float_t ____tangentialPressure_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <altitudeAngle>k__BackingField, offset: 0x60, size: 0x4, def value: None
   float_t ____altitudeAngle_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <azimuthAngle>k__BackingField, offset: 0x64, size: 0x4, def value: None
   float_t ____azimuthAngle_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <twist>k__BackingField, offset: 0x68, size: 0x4, def value: None
   float_t ____twist_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tilt>k__BackingField, offset: 0x6c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____tilt_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <penStatus>k__BackingField, offset: 0x74, size: 0x4, def value: None
   ::UnityEngine::PenStatus ____penStatus_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <radius>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radius_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <radiusVariance>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radiusVariance_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <modifiers>k__BackingField, offset: 0x88, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
@@ -708,6 +769,7 @@ static_assert(offsetof(::UnityEngine::UIElements::PanelEventHandler_PointerEvent
 static_assert(sizeof(::UnityEngine::UIElements::PanelEventHandler_PointerEvent) == 0x90, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [AddComponentMenu("UI Toolkit/Panel Event Handler (UI Toolkit)")]
 // Dependencies UnityEngine.EventModifiers, UnityEngine.EventSystems.UIBehaviour
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -985,13 +1047,13 @@ protected:
   constexpr PanelEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PanelEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PanelEventHandler(PanelEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PanelEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelEventHandler(PanelEventHandler const&) = delete;
+  PanelEventHandler(PanelEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17530 };

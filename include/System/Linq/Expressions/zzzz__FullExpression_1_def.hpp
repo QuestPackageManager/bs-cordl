@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\FullExpression_1.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/FullExpression_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,9 +60,11 @@ public:
   inline void _ctor(::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall,
                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
+  /// [CompilerGenerated]
   /// @brief Method get_NameCore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_NameCore();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TailCallCore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_TailCallCore();
 
@@ -72,20 +74,22 @@ protected:
   constexpr FullExpression_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FullExpression_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullExpression_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FullExpression_1(FullExpression_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FullExpression_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullExpression_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullExpression_1(FullExpression_1 const&) = delete;
+  FullExpression_1(FullExpression_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16191 };
 
+  /// [CompilerGenerated]
   /// @brief Field <NameCore>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____NameCore_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TailCallCore>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____TailCallCore_k__BackingField;
 

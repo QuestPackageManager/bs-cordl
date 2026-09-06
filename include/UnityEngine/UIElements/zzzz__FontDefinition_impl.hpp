@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FontDefinition.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FontDefinition.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
@@ -271,8 +271,8 @@ constexpr UnityEngine::UIElements::FontDefinition::operator ::System::IEquatable
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>* UnityEngine::UIElements::FontDefinition::i___System__IEquatable_1___UnityEngine__UIElements__FontDefinition_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FontAsset", ty:
-// "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FontAsset", ty:
+// "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::FontDefinition::FontDefinition(::UnityW<::UnityEngine::Font> m_Font, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> m_FontAsset) noexcept {
   this->m_Font = m_Font;
   this->m_FontAsset = m_FontAsset;

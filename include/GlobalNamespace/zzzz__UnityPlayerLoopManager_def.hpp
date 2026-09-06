@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityPlayerLoopManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityPlayerLoopManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ public:
   // @brief default ctor
   constexpr UnityPlayerLoopManager_InsertPosition();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityPlayerLoopManager_InsertPosition(int32_t value__) noexcept;
 
   /// @brief Field After value: I32(1)
@@ -122,8 +122,8 @@ public:
   // @brief default ctor
   constexpr UnityPlayerLoopManager_SystemToInsert();
 
-  // Ctor Parameters [CppParam { name: "Position", ty: "::GlobalNamespace::UnityPlayerLoopManager_InsertPosition", modifiers: "", def_value: None }, CppParam { name: "RelativeToSystem", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "System", ty: "::UnityEngine::LowLevel::PlayerLoopSystem", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Position", ty: "::GlobalNamespace::UnityPlayerLoopManager_InsertPosition", modifiers: "", def_value: None, comment: None }, CppParam { name: "RelativeToSystem",
+  // ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "System", ty: "::UnityEngine::LowLevel::PlayerLoopSystem", modifiers: "", def_value: None, comment: None }]
   constexpr UnityPlayerLoopManager_SystemToInsert(::GlobalNamespace::UnityPlayerLoopManager_InsertPosition Position, ::StringW RelativeToSystem,
                                                   ::UnityEngine::LowLevel::PlayerLoopSystem System) noexcept;
 
@@ -154,6 +154,7 @@ static_assert(offsetof(::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert,
 static_assert(sizeof(::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -205,13 +206,13 @@ protected:
   constexpr UnityPlayerLoopManager___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityPlayerLoopManager___c__DisplayClass3_0(UnityPlayerLoopManager___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityPlayerLoopManager___c__DisplayClass3_0(UnityPlayerLoopManager___c__DisplayClass3_0 const&) = delete;
+  UnityPlayerLoopManager___c__DisplayClass3_0(UnityPlayerLoopManager___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22774 };
@@ -254,7 +255,7 @@ public:
   static inline void InitializePlayerLoop();
 
   /// @brief Method InsertSystems, addr 0x5853318, size 0xa5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LowLevel::PlayerLoopSystem InsertSystems(::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem> loopSystem,
+  static inline ::UnityEngine::LowLevel::PlayerLoopSystem InsertSystems(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem> loopSystem,
                                                                         ::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>* systemsToInsert);
 
   /// @brief Method RemoveDisabledSubsystems, addr 0x5853d74, size 0x250, virtual false, abstract: false, final false
@@ -266,13 +267,13 @@ protected:
   constexpr UnityPlayerLoopManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityPlayerLoopManager(UnityPlayerLoopManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityPlayerLoopManager(UnityPlayerLoopManager const&) = delete;
+  UnityPlayerLoopManager(UnityPlayerLoopManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22775 };

@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ResolvedStyleAccessPropertyBag.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ResolvedStyleAccessPropertyBag.hpp"
+#include "System/zzzz__IConvertible_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Align_impl.hpp"
@@ -84,17 +85,22 @@ inline ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedStylePr
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedStyleProperty_1<TValue>::ResolvedStyleAccessPropertyBag_ResolvedStyleProperty_1() {}
-template <typename TValue> inline void UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>::_ctor() {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline void UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>* UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>*>());
 }
 // Ctor Parameters []
-template <typename TValue> constexpr ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1() {}
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+constexpr ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_AlignContentProperty.get_Name
 template <>
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore\IgnoranceServer.hpp"
+// IWYU pragma private; include "IgnoranceCore/IgnoranceServer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,12 +58,14 @@ public:
   // @brief default ctor
   constexpr IgnoranceServer_ThreadParamInfo();
 
-  // Ctor Parameters [CppParam { name: "IsFruityDevice", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "BindAllInterfaces", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "Channels", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Peers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PollTime", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "Port", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "UseSsl", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "CertificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Certificate", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "PrivateKeyPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "PrivateKey", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "IsFruityDevice", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "BindAllInterfaces", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Peers", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Port", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "UseSsl", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "CertificatePath", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Certificate", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "PrivateKeyPath", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "PrivateKey", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr IgnoranceServer_ThreadParamInfo(bool IsFruityDevice, bool BindAllInterfaces, int32_t Channels, int32_t Peers, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity,
                                             ::StringW Address, bool UseSsl, ::StringW CertificatePath, ::StringW Certificate, ::StringW PrivateKeyPath, ::StringW PrivateKey) noexcept;
 
@@ -414,13 +416,13 @@ protected:
   constexpr IgnoranceServer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceServer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceServer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoranceServer(IgnoranceServer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceServer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceServer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceServer(IgnoranceServer const&) = delete;
+  IgnoranceServer(IgnoranceServerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21738 };

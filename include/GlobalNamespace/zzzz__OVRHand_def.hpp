@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRHand.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRHand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,7 +133,7 @@ public:
   // @brief default ctor
   constexpr OVRHand_Hand();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRHand_Hand(int32_t value__) noexcept;
 
   /// @brief Field HandLeft value: I32(0)
@@ -195,7 +195,7 @@ public:
   // @brief default ctor
   constexpr OVRHand_HandFinger();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRHand_HandFinger(int32_t value__) noexcept;
 
   /// @brief Field Index value: I32(1)
@@ -262,7 +262,7 @@ public:
   // @brief default ctor
   constexpr OVRHand_TrackingConfidence();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRHand_TrackingConfidence(int32_t value__) noexcept;
 
   /// @brief Field High value: I32(1065353216)
@@ -322,7 +322,7 @@ public:
   // @brief default ctor
   constexpr OVRHand_MicrogestureType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRHand_MicrogestureType(int32_t value__) noexcept;
 
   /// @brief Field Invalid value: I32(-1)
@@ -363,6 +363,8 @@ static_assert(offsetof(::GlobalNamespace::OVRHand_MicrogestureType, value__) == 
 static_assert(sizeof(::GlobalNamespace::OVRHand_MicrogestureType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-handtracking/")]
+// [Feature((Meta.XR.Util.Feature)4)]
 // Dependencies OVRHand::Hand, OVRHand::TrackingConfidence, OVRInput::InputDeviceShowState, OVRPlugin::HandState, OVRPlugin::HandTrackingState, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -667,27 +669,35 @@ public:
   /// @brief Method get_GlobalHandSkeletonVersion, addr 0x5efe0c0, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRHandSkeletonVersion get_GlobalHandSkeletonVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_HandConfidence, addr 0x5efe344, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRHand_TrackingConfidence get_HandConfidence();
 
+  /// [CompilerGenerated]
   /// @brief Method get_HandScale, addr 0x5efe334, size 0x8, virtual false, abstract: false, final false
   inline float_t get_HandScale();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataHighConfidence, addr 0x5efe0f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataValid, addr 0x5efe0e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDominantHand, addr 0x5efe354, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDominantHand();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsPointerPoseValid, addr 0x5efe120, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPointerPoseValid();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsSystemGestureInProgress, addr 0x5efe110, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSystemGestureInProgress();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsTracked, addr 0x5efe100, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTracked();
 
@@ -709,27 +719,35 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::OVRInputModule_InputSource"
   constexpr ::UnityEngine::EventSystems::OVRInputModule_InputSource* i___UnityEngine__EventSystems__OVRInputModule_InputSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_HandConfidence, addr 0x5efe34c, size 0x8, virtual false, abstract: false, final false
   inline void set_HandConfidence(::GlobalNamespace::OVRHand_TrackingConfidence value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_HandScale, addr 0x5efe33c, size 0x8, virtual false, abstract: false, final false
   inline void set_HandScale(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataHighConfidence, addr 0x5efe0f8, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataValid, addr 0x5efe0e8, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDominantHand, addr 0x5efe35c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDominantHand(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsPointerPoseValid, addr 0x5efe128, size 0x8, virtual false, abstract: false, final false
   inline void set_IsPointerPoseValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsSystemGestureInProgress, addr 0x5efe118, size 0x8, virtual false, abstract: false, final false
   inline void set_IsSystemGestureInProgress(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsTracked, addr 0x5efe108, size 0x8, virtual false, abstract: false, final false
   inline void set_IsTracked(bool value);
 
@@ -739,20 +757,22 @@ protected:
   constexpr OVRHand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHand(OVRHand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHand(OVRHand const&) = delete;
+  OVRHand(OVRHandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7921 };
 
+  /// [SerializeField]
   /// @brief Field HandType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRHand_Hand ___HandType;
 
+  /// [SerializeField]
   /// @brief Field _pointerPoseRoot, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____pointerPoseRoot;
 
@@ -780,27 +800,35 @@ public:
   /// @brief Field _handTrackingStateValid, offset: 0xd0, size: 0x1, def value: None
   bool ____handTrackingStateValid;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataValid>k__BackingField, offset: 0xd1, size: 0x1, def value: None
   bool ____IsDataValid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataHighConfidence>k__BackingField, offset: 0xd2, size: 0x1, def value: None
   bool ____IsDataHighConfidence_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsTracked>k__BackingField, offset: 0xd3, size: 0x1, def value: None
   bool ____IsTracked_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsSystemGestureInProgress>k__BackingField, offset: 0xd4, size: 0x1, def value: None
   bool ____IsSystemGestureInProgress_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsPointerPoseValid>k__BackingField, offset: 0xd5, size: 0x1, def value: None
   bool ____IsPointerPoseValid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <HandScale>k__BackingField, offset: 0xd8, size: 0x4, def value: None
   float_t ____HandScale_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <HandConfidence>k__BackingField, offset: 0xdc, size: 0x4, def value: None
   ::GlobalNamespace::OVRHand_TrackingConfidence ____HandConfidence_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDominantHand>k__BackingField, offset: 0xe0, size: 0x1, def value: None
   bool ____IsDominantHand_k__BackingField;
 

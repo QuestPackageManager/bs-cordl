@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ struct RenderGraphParameters;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphParameters);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraphParameters, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphParameters");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies UnityEngine.Rendering.ScriptableRenderContext
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -29,10 +30,10 @@ public:
   // @brief default ctor
   constexpr RenderGraphParameters();
 
-  // Ctor Parameters [CppParam { name: "executionName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "currentFrameIndex", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "rendererListCulling", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "scriptableRenderContext", ty: "::UnityEngine::Rendering::ScriptableRenderContext",
-  // modifiers: "", def_value: None }, CppParam { name: "commandBuffer", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: None }, CppParam { name: "invalidContextForTesting",
-  // ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "executionName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "currentFrameIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "rendererListCulling", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "scriptableRenderContext", ty:
+  // "::UnityEngine::Rendering::ScriptableRenderContext", modifiers: "", def_value: None, comment: None }, CppParam { name: "commandBuffer", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "invalidContextForTesting", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraphParameters(::StringW executionName, int32_t currentFrameIndex, bool rendererListCulling, ::UnityEngine::Rendering::ScriptableRenderContext scriptableRenderContext,
                                   ::UnityEngine::Rendering::CommandBuffer* commandBuffer, bool invalidContextForTesting) noexcept;
 

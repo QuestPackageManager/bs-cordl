@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderIntensityEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderIntensityEffect.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -463,6 +463,7 @@ inline ::System::Object* GlobalNamespace::SliderIntensityEffect__ProcessEffectCo
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27* GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27*>(__1__state));
 }

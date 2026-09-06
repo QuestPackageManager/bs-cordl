@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchRendererGroupGlobals.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchRendererGroupGlobals.hpp"
 #include "UnityEngine/Rendering/zzzz__SHCoefficients_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchRendererGroupGlobals_def.hpp"
@@ -139,9 +139,9 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlo
 UnityEngine::Rendering::BatchRendererGroupGlobals::i___System__IEquatable_1___UnityEngine__Rendering__BatchRendererGroupGlobals_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlobals>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "ProbesOcclusion", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "SpecCube0_HDR", ty: "::UnityEngine::Vector4", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "SpecCube1_HDR", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "SHCoefficients", ty:
-// "::UnityEngine::Rendering::SHCoefficients", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ProbesOcclusion", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SpecCube0_HDR", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SpecCube1_HDR", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "SHCoefficients", ty: "::UnityEngine::Rendering::SHCoefficients", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BatchRendererGroupGlobals::BatchRendererGroupGlobals(::UnityEngine::Vector4 ProbesOcclusion, ::UnityEngine::Vector4 SpecCube0_HDR,
                                                                                          ::UnityEngine::Vector4 SpecCube1_HDR, ::UnityEngine::Rendering::SHCoefficients SHCoefficients) noexcept {
   this->ProbesOcclusion = ProbesOcclusion;

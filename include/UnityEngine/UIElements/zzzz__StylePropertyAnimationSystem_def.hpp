@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StylePropertyAnimationSystem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StylePropertyAnimationSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,9 @@ namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
@@ -324,6 +326,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StylePropertyAnimationSystem_Elem
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_EmptyData, "UnityEngine.UIElements", "StylePropertyAnimationSystem/Values`1/EmptyData");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_StyleData, "UnityEngine.UIElements", "StylePropertyAnimationSystem/Values`1/StyleData");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TimingData, "UnityEngine.UIElements", "StylePropertyAnimationSystem/Values`1/TimingData");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -356,7 +359,7 @@ public:
   // @brief default ctor
   constexpr StylePropertyAnimationSystem_TransitionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StylePropertyAnimationSystem_TransitionState(int32_t value__) noexcept;
 
   /// @brief Field Canceled value: I32(8)
@@ -440,10 +443,11 @@ public:
   // @brief default ctor
   constexpr StylePropertyAnimationSystem_AnimationDataSet_2();
 
-  // Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<::UnityEngine::UIElements::VisualElement*>", modifiers: "", def_value: None }, CppParam { name: "properties", ty:
-  // "::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId>", modifiers: "", def_value: None }, CppParam { name: "timing", ty: "::ArrayW<TTimingData>", modifiers: "", def_value: None },
-  // CppParam { name: "style", ty: "::ArrayW<TStyleData>", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indices", ty:
-  // "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair,int32_t>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<::UnityEngine::UIElements::VisualElement*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "properties", ty:
+  // "::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId>", modifiers: "", def_value: None, comment: None }, CppParam { name: "timing", ty: "::ArrayW<TTimingData>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "style", ty: "::ArrayW<TStyleData>", modifiers: "", def_value: None, comment: None }, CppParam { name: "count", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "indices", ty:
+  // "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair,int32_t>*", modifiers: "", def_value: None, comment: None }]
   constexpr StylePropertyAnimationSystem_AnimationDataSet_2(
       ::ArrayW<::UnityEngine::UIElements::VisualElement*> elements, ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId> properties, ::ArrayW<TTimingData> timing,
       ::ArrayW<TStyleData> style, int32_t count, ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair, int32_t>* indices) noexcept;
@@ -507,13 +511,13 @@ protected:
   constexpr ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer(ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer(ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer const&) = delete;
+  ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer(ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5026 };
@@ -548,8 +552,8 @@ public:
   // @brief default ctor
   constexpr StylePropertyAnimationSystem_ElementPropertyPair();
 
-  // Ctor Parameters [CppParam { name: "element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "property", ty:
-  // "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "property", ty:
+  // "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None, comment: None }]
   constexpr StylePropertyAnimationSystem_ElementPropertyPair(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSheets::StylePropertyId property) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -581,33 +585,33 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE StylePropertyAnimationSystem_Values : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CancelAllAnimations, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CancelAllAnimations, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CancelAllAnimations();
 
-  /// @brief Method CancelAllAnimations, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CancelAllAnimations, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CancelAllAnimations(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method CancelAnimation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CancelAnimation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CancelAnimation(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetAllAnimations, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAllAnimations, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllAnimations(::UnityEngine::UIElements::VisualElement* ve, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* outPropertyIds);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_Values* New_ctor();
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update(int64_t currentTimeMs);
 
-  /// @brief Method UpdateAnimation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateAnimation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAnimation(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method UpdateComputedStyle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateComputedStyle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateComputedStyle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateValues();
 
   /// @brief Method .ctor, addr 0x6c97ac4, size 0x4, virtual false, abstract: false, final false
@@ -619,13 +623,13 @@ protected:
   constexpr StylePropertyAnimationSystem_Values();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_Values(StylePropertyAnimationSystem_Values&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_Values(StylePropertyAnimationSystem_Values const&) = delete;
+  StylePropertyAnimationSystem_Values(StylePropertyAnimationSystem_Valuesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5028 };
@@ -636,6 +640,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::StylePropertyAnimationSystem_Values) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
@@ -666,13 +671,13 @@ protected:
   constexpr TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c(TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c(TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c const&) = delete;
+  TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c(TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5029 };
@@ -774,13 +779,13 @@ protected:
   constexpr Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState(Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState(Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState const&) = delete;
+  Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState(Values_1_StylePropertyAnimationSystem_TransitionEventsFrameStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5030 };
@@ -816,10 +821,10 @@ public:
   // @brief default ctor
   constexpr Values_1_StylePropertyAnimationSystem_TimingData();
 
-  // Ctor Parameters [CppParam { name: "startTimeMs", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "durationMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "easingCurve", ty: "::System::Func_2<float_t,float_t>*", modifiers: "", def_value: None }, CppParam { name: "easedProgress", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "reversingShorteningFactor", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "isStarted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "delayMs", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "startTimeMs", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "durationMs", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "easingCurve", ty: "::System::Func_2<float_t,float_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "easedProgress", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "reversingShorteningFactor", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "isStarted", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "delayMs", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Values_1_StylePropertyAnimationSystem_TimingData(int64_t startTimeMs, int32_t durationMs, ::System::Func_2<float_t, float_t>* easingCurve, float_t easedProgress,
                                                              float_t reversingShorteningFactor, bool isStarted, int32_t delayMs) noexcept;
 
@@ -867,8 +872,9 @@ public:
   // @brief default ctor
   constexpr Values_1_StylePropertyAnimationSystem_StyleData();
 
-  // Ctor Parameters [CppParam { name: "startValue", ty: "T", modifiers: "", def_value: None }, CppParam { name: "endValue", ty: "T", modifiers: "", def_value: None }, CppParam { name:
-  // "reversingAdjustedStartValue", ty: "T", modifiers: "", def_value: None }, CppParam { name: "currentValue", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "startValue", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "endValue", ty: "T", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "reversingAdjustedStartValue", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "currentValue", ty: "T", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr Values_1_StylePropertyAnimationSystem_StyleData(T startValue, T endValue, T reversingAdjustedStartValue, T currentValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1082,7 +1088,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Func_3<T, T, bool>* get_SameFunc();
 
   /// @brief Method get_isEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1094,13 +1100,13 @@ protected:
   constexpr StylePropertyAnimationSystem_Values_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_Values_1(StylePropertyAnimationSystem_Values_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_Values_1(StylePropertyAnimationSystem_Values_1 const&) = delete;
+  StylePropertyAnimationSystem_Values_1(StylePropertyAnimationSystem_Values_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5034 };
@@ -1164,6 +1170,7 @@ public:
   /// @brief Method .ctor, addr 0x6c97d1c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c97ac8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<float_t, float_t, bool>* get_SameFunc();
 
@@ -1173,17 +1180,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesFloat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFloat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFloat", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesFloat(StylePropertyAnimationSystem_ValuesFloat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFloat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFloat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesFloat(StylePropertyAnimationSystem_ValuesFloat const&) = delete;
+  StylePropertyAnimationSystem_ValuesFloat(StylePropertyAnimationSystem_ValuesFloatconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5035 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<float_t, float_t, bool>* ____SameFunc_k__BackingField;
 
@@ -1233,6 +1242,7 @@ public:
   /// @brief Method .ctor, addr 0x6c98080, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c97db8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<int32_t, int32_t, bool>* get_SameFunc();
 
@@ -1242,17 +1252,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesInt();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesInt", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesInt", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesInt(StylePropertyAnimationSystem_ValuesInt&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesInt", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesInt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesInt(StylePropertyAnimationSystem_ValuesInt const&) = delete;
+  StylePropertyAnimationSystem_ValuesInt(StylePropertyAnimationSystem_ValuesIntconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5036 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<int32_t, int32_t, bool>* ____SameFunc_k__BackingField;
 
@@ -1307,6 +1319,7 @@ public:
   /// @brief Method .ctor, addr 0x6c9840c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c9811c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* get_SameFunc();
 
@@ -1316,17 +1329,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesLength();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesLength", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesLength", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesLength(StylePropertyAnimationSystem_ValuesLength&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesLength", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesLength", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesLength(StylePropertyAnimationSystem_ValuesLength const&) = delete;
+  StylePropertyAnimationSystem_ValuesLength(StylePropertyAnimationSystem_ValuesLengthconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5037 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* ____SameFunc_k__BackingField;
 
@@ -1377,6 +1392,7 @@ public:
   /// @brief Method .ctor, addr 0x6c987ec, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c984a8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* get_SameFunc();
 
@@ -1386,17 +1402,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesColor(StylePropertyAnimationSystem_ValuesColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesColor(StylePropertyAnimationSystem_ValuesColor const&) = delete;
+  StylePropertyAnimationSystem_ValuesColor(StylePropertyAnimationSystem_ValuesColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5038 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* ____SameFunc_k__BackingField;
 
@@ -1442,6 +1460,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Func_3<T, T, bool>* get_SameFunc();
 
@@ -1451,17 +1470,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesDiscrete_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesDiscrete_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesDiscrete_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesDiscrete_1(StylePropertyAnimationSystem_ValuesDiscrete_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesDiscrete_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesDiscrete_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesDiscrete_1(StylePropertyAnimationSystem_ValuesDiscrete_1 const&) = delete;
+  StylePropertyAnimationSystem_ValuesDiscrete_1(StylePropertyAnimationSystem_ValuesDiscrete_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5039 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<T, T, bool>* ____SameFunc_k__BackingField;
 
@@ -1493,13 +1514,13 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesBackground();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackground", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackground", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesBackground(StylePropertyAnimationSystem_ValuesBackground&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackground", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackground", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesBackground(StylePropertyAnimationSystem_ValuesBackground const&) = delete;
+  StylePropertyAnimationSystem_ValuesBackground(StylePropertyAnimationSystem_ValuesBackgroundconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5040 };
@@ -1534,13 +1555,13 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesFontDefinition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFontDefinition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFontDefinition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesFontDefinition(StylePropertyAnimationSystem_ValuesFontDefinition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFontDefinition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFontDefinition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesFontDefinition(StylePropertyAnimationSystem_ValuesFontDefinition const&) = delete;
+  StylePropertyAnimationSystem_ValuesFontDefinition(StylePropertyAnimationSystem_ValuesFontDefinitionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5041 };
@@ -1575,13 +1596,13 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesFont();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFont", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFont", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesFont(StylePropertyAnimationSystem_ValuesFont&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFont", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFont", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesFont(StylePropertyAnimationSystem_ValuesFont const&) = delete;
+  StylePropertyAnimationSystem_ValuesFont(StylePropertyAnimationSystem_ValuesFontconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5042 };
@@ -1632,6 +1653,7 @@ public:
   /// @brief Method .ctor, addr 0x6c98fd4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c98d10, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* get_SameFunc();
 
@@ -1641,17 +1663,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesTextShadow();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTextShadow", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTextShadow", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesTextShadow(StylePropertyAnimationSystem_ValuesTextShadow&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTextShadow", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTextShadow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesTextShadow(StylePropertyAnimationSystem_ValuesTextShadow const&) = delete;
+  StylePropertyAnimationSystem_ValuesTextShadow(StylePropertyAnimationSystem_ValuesTextShadowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5043 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* ____SameFunc_k__BackingField;
 
@@ -1702,6 +1726,7 @@ public:
   /// @brief Method .ctor, addr 0x6c9930c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c99070, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* get_SameFunc();
 
@@ -1711,17 +1736,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesScale();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesScale", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesScale", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesScale(StylePropertyAnimationSystem_ValuesScale&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesScale", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesScale", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesScale(StylePropertyAnimationSystem_ValuesScale const&) = delete;
+  StylePropertyAnimationSystem_ValuesScale(StylePropertyAnimationSystem_ValuesScaleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5044 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* ____SameFunc_k__BackingField;
 
@@ -1772,6 +1799,7 @@ public:
   /// @brief Method .ctor, addr 0x6c99784, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c993a8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* get_SameFunc();
 
@@ -1781,17 +1809,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesRotate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesRotate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesRotate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesRotate(StylePropertyAnimationSystem_ValuesRotate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesRotate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesRotate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesRotate(StylePropertyAnimationSystem_ValuesRotate const&) = delete;
+  StylePropertyAnimationSystem_ValuesRotate(StylePropertyAnimationSystem_ValuesRotateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5045 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* ____SameFunc_k__BackingField;
 
@@ -1847,6 +1877,7 @@ public:
   /// @brief Method .ctor, addr 0x6c99ba0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c99820, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* get_SameFunc();
 
@@ -1856,17 +1887,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesTranslate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTranslate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTranslate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesTranslate(StylePropertyAnimationSystem_ValuesTranslate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTranslate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTranslate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesTranslate(StylePropertyAnimationSystem_ValuesTranslate const&) = delete;
+  StylePropertyAnimationSystem_ValuesTranslate(StylePropertyAnimationSystem_ValuesTranslateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5046 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* ____SameFunc_k__BackingField;
 
@@ -1922,6 +1955,7 @@ public:
   /// @brief Method .ctor, addr 0x6c99f9c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c99c3c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* get_SameFunc();
 
@@ -1931,17 +1965,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesTransformOrigin();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTransformOrigin", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTransformOrigin", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesTransformOrigin(StylePropertyAnimationSystem_ValuesTransformOrigin&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTransformOrigin", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTransformOrigin", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesTransformOrigin(StylePropertyAnimationSystem_ValuesTransformOrigin const&) = delete;
+  StylePropertyAnimationSystem_ValuesTransformOrigin(StylePropertyAnimationSystem_ValuesTransformOriginconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5047 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* ____SameFunc_k__BackingField;
 
@@ -1978,13 +2014,13 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesBackgroundPosition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundPosition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundPosition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesBackgroundPosition(StylePropertyAnimationSystem_ValuesBackgroundPosition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundPosition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundPosition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesBackgroundPosition(StylePropertyAnimationSystem_ValuesBackgroundPosition const&) = delete;
+  StylePropertyAnimationSystem_ValuesBackgroundPosition(StylePropertyAnimationSystem_ValuesBackgroundPositionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5048 };
@@ -2019,13 +2055,13 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesBackgroundRepeat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundRepeat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundRepeat", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesBackgroundRepeat(StylePropertyAnimationSystem_ValuesBackgroundRepeat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundRepeat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundRepeat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesBackgroundRepeat(StylePropertyAnimationSystem_ValuesBackgroundRepeat const&) = delete;
+  StylePropertyAnimationSystem_ValuesBackgroundRepeat(StylePropertyAnimationSystem_ValuesBackgroundRepeatconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5049 };
@@ -2080,6 +2116,7 @@ public:
   /// @brief Method .ctor, addr 0x6c9a640, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SameFunc, addr 0x6c9a33c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, bool>* get_SameFunc();
 
@@ -2089,17 +2126,19 @@ protected:
   constexpr StylePropertyAnimationSystem_ValuesBackgroundSize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundSize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundSize", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem_ValuesBackgroundSize(StylePropertyAnimationSystem_ValuesBackgroundSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundSize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesBackgroundSize(StylePropertyAnimationSystem_ValuesBackgroundSize const&) = delete;
+  StylePropertyAnimationSystem_ValuesBackgroundSize(StylePropertyAnimationSystem_ValuesBackgroundSizeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5050 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, bool>* ____SameFunc_k__BackingField;
 
@@ -2111,6 +2150,7 @@ static_assert(offsetof(::UnityEngine::UIElements::StylePropertyAnimationSystem_V
 static_assert(sizeof(::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize) == 0x90, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -2241,61 +2281,63 @@ public:
   inline void GetAllAnimations(::UnityEngine::UIElements::VisualElement* owner, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* propertyIds);
 
   /// @brief Method GetOrCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetOrCreate(::by_ref<T> values);
+  template <typename T>
+    requires(::cordl_internals::default_constructor_constraint<T>)
+  inline T GetOrCreate(::by_ref<T> values);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem* New_ctor();
 
   /// @brief Method StartTransition, addr 0x6c96798, size 0x118, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::Color startValue,
-                              ::UnityEngine::Color endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::Color endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c96a94, size 0xe4, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::Font* startValue,
-                              ::UnityEngine::Font* endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::Font* endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c968b0, size 0xf4, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Background startValue,
-                              ::UnityEngine::UIElements::Background endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::Background endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c97078, size 0xf0, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::BackgroundPosition startValue,
-                              ::UnityEngine::UIElements::BackgroundPosition endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::BackgroundPosition endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c97168, size 0xe4, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::BackgroundRepeat startValue,
-                              ::UnityEngine::UIElements::BackgroundRepeat endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::BackgroundRepeat endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c9724c, size 0x104, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::BackgroundSize startValue,
-                              ::UnityEngine::UIElements::BackgroundSize endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::BackgroundSize endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c969a4, size 0xf0, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::FontDefinition startValue,
-                              ::UnityEngine::UIElements::FontDefinition endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::FontDefinition endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c966b4, size 0xe4, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Length startValue,
-                              ::UnityEngine::UIElements::Length endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::Length endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c96d6c, size 0x104, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Rotate startValue,
-                              ::UnityEngine::UIElements::Rotate endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::Rotate endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c96c7c, size 0xf0, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Scale startValue,
-                              ::UnityEngine::UIElements::Scale endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::Scale endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c96b78, size 0x104, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::TextShadow startValue,
-                              ::UnityEngine::UIElements::TextShadow endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::TextShadow endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c96f74, size 0x104, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::TransformOrigin startValue,
-                              ::UnityEngine::UIElements::TransformOrigin endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::TransformOrigin endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c96e70, size 0x104, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Translate startValue,
-                              ::UnityEngine::UIElements::Translate endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              ::UnityEngine::UIElements::Translate endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -2304,11 +2346,11 @@ public:
 
   /// @brief Method StartTransition, addr 0x6c96500, size 0xd0, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, float_t startValue, float_t endValue, int32_t durationMs,
-                              int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x6c965d0, size 0xe4, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, int32_t startValue, int32_t endValue, int32_t durationMs,
-                              int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+                              int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method Update, addr 0x6c9791c, size 0xe4, virtual true, abstract: false, final true
   inline void Update();
@@ -2442,13 +2484,13 @@ protected:
   constexpr StylePropertyAnimationSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyAnimationSystem(StylePropertyAnimationSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem(StylePropertyAnimationSystem const&) = delete;
+  StylePropertyAnimationSystem(StylePropertyAnimationSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5051 };

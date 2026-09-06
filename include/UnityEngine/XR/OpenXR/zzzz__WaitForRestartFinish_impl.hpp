@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\WaitForRestartFinish.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/WaitForRestartFinish.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__WaitForRestartFinish_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::WaitForRestartFinish._ctor

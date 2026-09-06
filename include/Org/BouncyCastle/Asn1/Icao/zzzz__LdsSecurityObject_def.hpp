@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Icao\LdsSecurityObject.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Icao/LdsSecurityObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -135,13 +135,13 @@ protected:
   constexpr LdsSecurityObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LdsSecurityObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LdsSecurityObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LdsSecurityObject(LdsSecurityObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LdsSecurityObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LdsSecurityObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LdsSecurityObject(LdsSecurityObject const&) = delete;
+  LdsSecurityObject(LdsSecurityObjectconst&) = delete;
 
   /// @brief Field UBDataGroups offset 0xffffffff size 0x4
   static constexpr int32_t UBDataGroups{ static_cast<int32_t>(0x10) };

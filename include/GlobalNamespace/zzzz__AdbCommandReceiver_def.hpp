@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AdbCommandReceiver.hpp"
+// IWYU pragma private; include "GlobalNamespace/AdbCommandReceiver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +67,13 @@ protected:
   constexpr AdbCommandReceiver_CallbackProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AdbCommandReceiver_CallbackProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdbCommandReceiver_CallbackProxy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AdbCommandReceiver_CallbackProxy(AdbCommandReceiver_CallbackProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AdbCommandReceiver_CallbackProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdbCommandReceiver_CallbackProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdbCommandReceiver_CallbackProxy(AdbCommandReceiver_CallbackProxy const&) = delete;
+  AdbCommandReceiver_CallbackProxy(AdbCommandReceiver_CallbackProxyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19362 };
@@ -175,13 +175,13 @@ protected:
   constexpr AdbCommandReceiver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AdbCommandReceiver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdbCommandReceiver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AdbCommandReceiver(AdbCommandReceiver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AdbCommandReceiver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AdbCommandReceiver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdbCommandReceiver(AdbCommandReceiver const&) = delete;
+  AdbCommandReceiver(AdbCommandReceiverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19363 };
@@ -195,6 +195,7 @@ public:
   /// @brief Field kReceiverClass offset 0xffffffff size 0x8
   static constexpr ::ConstString kReceiverClass{ u"com.beatgames.beatsaber.terminal.TerminalBroadcastReceiver" };
 
+  /// [Inject]
   /// @brief Field _terminalController, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::TerminalController* ____terminalController;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlUTF8NodeWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlUTF8NodeWriter.hpp"
 #include "System/Xml/zzzz__XmlStreamNodeWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlUTF8NodeWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

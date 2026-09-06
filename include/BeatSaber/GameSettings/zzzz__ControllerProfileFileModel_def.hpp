@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfileFileModel.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfileFileModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class ControllerProfileFileModel;
 // Write type traits
 MARK_REF_T(::BeatSaber::GameSettings::ControllerProfileFileModel*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::GameSettings::ControllerProfileFileModel*, "BeatSaber.GameSettings", "ControllerProfileFileModel");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::GameSettings {
 // Is value type: false
@@ -63,13 +65,13 @@ protected:
   constexpr ControllerProfileFileModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileFileModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileFileModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerProfileFileModel(ControllerProfileFileModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileFileModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileFileModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfileFileModel(ControllerProfileFileModel const&) = delete;
+  ControllerProfileFileModel(ControllerProfileFileModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22046 };
@@ -77,6 +79,8 @@ public:
   /// @brief Field kFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kFileName{ u"ControllerProfiles.dat" };
 
+  /// [Nullable(2)]
+  /// [Inject]
   /// @brief Field _fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ____fileStorage;
 

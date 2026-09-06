@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRNodeState.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRNodeState.hpp"
 #include "UnityEngine/XR/zzzz__AvailableTrackingData_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -233,12 +233,13 @@ inline bool UnityEngine::XR::XRNodeState::TryGet(::UnityEngine::Quaternion inVal
           { "TryGet", {}, { ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::XR::AvailableTrackingData>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, inValue, availabilityFlag, outValue);
 }
-// Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::XR::XRNode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AvailableFields", ty:
-// "::UnityEngine::XR::AvailableTrackingData", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Velocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_AngularVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Acceleration", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_AngularAcceleration", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Tracked", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_UniqueID", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::XR::XRNode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AvailableFields", ty:
+// "::UnityEngine::XR::AvailableTrackingData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Velocity", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AngularVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Acceleration", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AngularAcceleration", ty: "::UnityEngine::Vector3", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_Tracked", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UniqueID", ty: "uint64_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::XRNodeState::XRNodeState(::UnityEngine::XR::XRNode m_Type, ::UnityEngine::XR::AvailableTrackingData m_AvailableFields, ::UnityEngine::Vector3 m_Position,
                                                       ::UnityEngine::Quaternion m_Rotation, ::UnityEngine::Vector3 m_Velocity, ::UnityEngine::Vector3 m_AngularVelocity,
                                                       ::UnityEngine::Vector3 m_Acceleration, ::UnityEngine::Vector3 m_AngularAcceleration, int32_t m_Tracked, uint64_t m_UniqueID) noexcept {

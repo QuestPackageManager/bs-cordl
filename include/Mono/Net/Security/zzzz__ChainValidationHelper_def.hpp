@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\ChainValidationHelper.hpp"
+// IWYU pragma private; include "Mono/Net/Security/ChainValidationHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,9 @@ namespace System {
 class Object;
 }
 namespace System {
-template <typename T> class WeakReference_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class WeakReference_1;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -67,6 +69,7 @@ MARK_REF_T(::Mono::Net::Security::ChainValidationHelper*);
 MARK_REF_T(::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0*);
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::ChainValidationHelper*, "Mono.Net.Security", "ChainValidationHelper");
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0*, "Mono.Net.Security", "ChainValidationHelper/<>c__DisplayClass11_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Mono::Net::Security {
 // Is value type: false
@@ -98,13 +101,13 @@ protected:
   constexpr ChainValidationHelper___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChainValidationHelper___c__DisplayClass11_0(ChainValidationHelper___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChainValidationHelper___c__DisplayClass11_0(ChainValidationHelper___c__DisplayClass11_0 const&) = delete;
+  ChainValidationHelper___c__DisplayClass11_0(ChainValidationHelper___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11018 };
@@ -257,13 +260,13 @@ protected:
   constexpr ChainValidationHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChainValidationHelper(ChainValidationHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChainValidationHelper(ChainValidationHelper const&) = delete;
+  ChainValidationHelper(ChainValidationHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11019 };

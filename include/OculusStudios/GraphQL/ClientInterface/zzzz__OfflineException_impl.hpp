@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\OfflineException.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/OfflineException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__OfflineException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

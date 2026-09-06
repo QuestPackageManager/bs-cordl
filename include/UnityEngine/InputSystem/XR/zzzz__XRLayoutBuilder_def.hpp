@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRLayoutBuilder.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRLayoutBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::UnityEngine::InputSystem::XR::XRLayoutBuilder*);
 MARK_REF_T(::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::XR::XRLayoutBuilder*, "UnityEngine.InputSystem.XR", "XRLayoutBuilder");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0*, "UnityEngine.InputSystem.XR", "XRLayoutBuilder/<>c__DisplayClass5_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
@@ -72,13 +73,13 @@ protected:
   constexpr XRLayoutBuilder___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRLayoutBuilder___c__DisplayClass5_0(XRLayoutBuilder___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRLayoutBuilder___c__DisplayClass5_0(XRLayoutBuilder___c__DisplayClass5_0 const&) = delete;
+  XRLayoutBuilder___c__DisplayClass5_0(XRLayoutBuilder___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8818 };
@@ -180,13 +181,13 @@ protected:
   constexpr XRLayoutBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRLayoutBuilder(XRLayoutBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRLayoutBuilder(XRLayoutBuilder const&) = delete;
+  XRLayoutBuilder(XRLayoutBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8819 };

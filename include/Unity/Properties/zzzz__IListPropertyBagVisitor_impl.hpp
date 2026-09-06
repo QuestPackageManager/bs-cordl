@@ -1,8 +1,10 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IListPropertyBagVisitor.hpp"
+// IWYU pragma private; include "Unity/Properties/IListPropertyBagVisitor.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
 #include "Unity/Properties/zzzz__IListPropertyBagVisitor_def.hpp"
 #include "Unity/Properties/zzzz__IListPropertyBag_2_def.hpp"
 template <typename TList, typename TElement>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
 inline void Unity::Properties::IListPropertyBagVisitor::Visit(::Unity::Properties::IListPropertyBag_2<TList, TElement>* properties, ::by_ref<TList> container) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Properties::IListPropertyBagVisitor*>(), 0 })));

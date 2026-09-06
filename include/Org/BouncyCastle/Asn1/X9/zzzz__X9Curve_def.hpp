@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X9Curve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9Curve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ public:
   static inline ::Org::BouncyCastle::Asn1::X9::X9Curve* New_ctor(::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, ::Org::BouncyCastle::Math::BigInteger* order,
                                                                  ::Org::BouncyCastle::Math::BigInteger* cofactor, ::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
+  /// @brief [Obsolete("Use constructor including order/cofactor")]
   static inline ::Org::BouncyCastle::Asn1::X9::X9Curve* New_ctor(::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, ::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// @brief Method ToAsn1Object, addr 0x367e314, size 0x200, virtual true, abstract: false, final false
@@ -93,6 +94,7 @@ public:
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor,
                     ::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
+  /// [Obsolete("Use constructor including order/cofactor")]
   /// @brief Method .ctor, addr 0x367d890, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, ::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -105,13 +107,13 @@ protected:
   constexpr X9Curve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X9Curve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X9Curve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X9Curve(X9Curve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X9Curve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X9Curve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X9Curve(X9Curve const&) = delete;
+  X9Curve(X9Curveconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 442 };

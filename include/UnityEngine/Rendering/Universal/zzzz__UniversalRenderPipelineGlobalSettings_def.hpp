@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineGlobalSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineGlobalSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,9 @@ class UniversalRenderPipelineGlobalSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings*, "UnityEngine.Rendering.Universal", "UniversalRenderPipelineGlobalSettings");
+// [DisplayInfo(name = "URP Global Settings Asset", order = 40002)]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [DisplayName("URP")]
 // Dependencies UnityEngine.Rendering.RenderPipelineGlobalSettings`2<TGlobalRenderPipelineSettings, TRenderPipeline>, UnityEngine.Rendering.ShaderVariantLogLevel
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -76,6 +79,7 @@ public:
   /// @brief Field lightLayerName7, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_lightLayerName7, put = __cordl_internal_set_lightLayerName7)) ::StringW lightLayerName7;
 
+  /// @brief [Obsolete("This is obsolete, please use renderingLayerMaskNames instead.", false)]
   __declspec(property(get = get_lightLayerNames)) ::ArrayW<::StringW> lightLayerNames;
 
   /// @brief Field m_AssetVersion, offset 0x48, size 0x4
@@ -123,10 +127,13 @@ public:
   /// @brief Field m_ValidRenderingLayers, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ValidRenderingLayers, put = __cordl_internal_set_m_ValidRenderingLayers)) uint32_t m_ValidRenderingLayers;
 
+  /// @brief [Obsolete("This is obsolete, please use prefixedRenderingLayerMaskNames instead.", true)]
   __declspec(property(get = get_prefixedLightLayerNames)) ::ArrayW<::StringW> prefixedLightLayerNames;
 
   __declspec(property(get = get_settingsList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* settingsList;
 
+  /// @brief [Obsolete("No longer used as Shader Prefiltering automatically strips out unused LOD Crossfade variants. Please use the LOD Crossfade setting in the URP Asset to disable the feature if
+  /// not used. #from(2023.1)", false)]
   __declspec(property(get = get_stripUnusedLODCrossFadeVariants, put = set_stripUnusedLODCrossFadeVariants)) bool stripUnusedLODCrossFadeVariants;
 
   /// @brief Field supportRuntimeDebugDisplay, offset 0x39, size 0x1
@@ -317,13 +324,13 @@ protected:
   constexpr UniversalRenderPipelineGlobalSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineGlobalSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineGlobalSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineGlobalSettings(UniversalRenderPipelineGlobalSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineGlobalSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineGlobalSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineGlobalSettings(UniversalRenderPipelineGlobalSettings const&) = delete;
+  UniversalRenderPipelineGlobalSettings(UniversalRenderPipelineGlobalSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12748 };
@@ -334,75 +341,111 @@ public:
   /// @brief Field k_LastVersion offset 0xffffffff size 0x4
   static constexpr int32_t k_LastVersion{ static_cast<int32_t>(0x8) };
 
+  /// [SerializeField]
+  /// [Obsolete("Keep for migration. #from(23.2)")]
   /// @brief Field m_ShaderStrippingSetting, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::ShaderStrippingSetting* ___m_ShaderStrippingSetting;
 
+  /// [SerializeField]
+  /// [Obsolete("Keep for migration. #from(23.2)")]
   /// @brief Field m_URPShaderStrippingSetting, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::URPShaderStrippingSetting* ___m_URPShaderStrippingSetting;
 
+  /// [SerializeField]
+  /// [Obsolete("Keep for migration. #from(23.2)")]
   /// @brief Field m_ShaderVariantLogLevel, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::Rendering::ShaderVariantLogLevel ___m_ShaderVariantLogLevel;
 
+  /// [SerializeField]
+  /// [Obsolete("Keep for migration. #from(23.2)")]
   /// @brief Field m_ExportShaderVariants, offset: 0x34, size: 0x1, def value: None
   bool ___m_ExportShaderVariants;
 
+  /// [SerializeField]
+  /// [Obsolete("Keep for migration. #from(23.2)")]
   /// @brief Field m_StripDebugVariants, offset: 0x35, size: 0x1, def value: None
   bool ___m_StripDebugVariants;
 
+  /// [SerializeField]
+  /// [Obsolete("Keep for migration. #from(23.2)")]
   /// @brief Field m_StripUnusedPostProcessingVariants, offset: 0x36, size: 0x1, def value: None
   bool ___m_StripUnusedPostProcessingVariants;
 
+  /// [SerializeField]
+  /// [Obsolete("Keep for migration. #from(23.2)")]
   /// @brief Field m_StripUnusedVariants, offset: 0x37, size: 0x1, def value: None
   bool ___m_StripUnusedVariants;
 
+  /// [SerializeField]
+  /// [Obsolete("Keep for migration. #from(23.2)")]
   /// @brief Field m_StripScreenCoordOverrideVariants, offset: 0x38, size: 0x1, def value: None
   bool ___m_StripScreenCoordOverrideVariants;
 
+  /// [Obsolete("Please use stripRuntimeDebugShaders instead. #from(23.1)", false)]
   /// @brief Field supportRuntimeDebugDisplay, offset: 0x39, size: 0x1, def value: None
   bool ___supportRuntimeDebugDisplay;
 
+  /// [SerializeField]
+  /// [Obsolete("Keep for migration. #from(23.2)")]
   /// @brief Field m_EnableRenderGraph, offset: 0x3a, size: 0x1, def value: None
   bool ___m_EnableRenderGraph;
 
+  /// [SerializeField]
   /// @brief Field m_Settings, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer* ___m_Settings;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("k_AssetVersion")]
   /// @brief Field m_AssetVersion, offset: 0x48, size: 0x4, def value: None
   int32_t ___m_AssetVersion;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_DefaultVolumeProfile")]
+  /// [Obsolete("Kept For Migration. #from(2023.3)")]
   /// @brief Field m_ObsoleteDefaultVolumeProfile, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::VolumeProfile> ___m_ObsoleteDefaultVolumeProfile;
 
+  /// [SerializeField]
   /// @brief Field m_RenderingLayerNames, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_RenderingLayerNames;
 
+  /// [SerializeField]
   /// @brief Field m_ValidRenderingLayers, offset: 0x60, size: 0x4, def value: None
   uint32_t ___m_ValidRenderingLayers;
 
+  /// [Obsolete("This is obsolete, please use renderingLayerMaskNames instead.", false)]
   /// @brief Field lightLayerName0, offset: 0x68, size: 0x8, def value: None
   ::StringW ___lightLayerName0;
 
+  /// [Obsolete("This is obsolete, please use renderingLayerMaskNames instead.", false)]
   /// @brief Field lightLayerName1, offset: 0x70, size: 0x8, def value: None
   ::StringW ___lightLayerName1;
 
+  /// [Obsolete("This is obsolete, please use renderingLayerMaskNames instead.", false)]
   /// @brief Field lightLayerName2, offset: 0x78, size: 0x8, def value: None
   ::StringW ___lightLayerName2;
 
+  /// [Obsolete("This is obsolete, please use renderingLayerMaskNames instead.", false)]
   /// @brief Field lightLayerName3, offset: 0x80, size: 0x8, def value: None
   ::StringW ___lightLayerName3;
 
+  /// [Obsolete("This is obsolete, please use renderingLayerMaskNames instead.", false)]
   /// @brief Field lightLayerName4, offset: 0x88, size: 0x8, def value: None
   ::StringW ___lightLayerName4;
 
+  /// [Obsolete("This is obsolete, please use renderingLayerMaskNames instead.", false)]
   /// @brief Field lightLayerName5, offset: 0x90, size: 0x8, def value: None
   ::StringW ___lightLayerName5;
 
+  /// [Obsolete("This is obsolete, please use renderingLayerMaskNames instead.", false)]
   /// @brief Field lightLayerName6, offset: 0x98, size: 0x8, def value: None
   ::StringW ___lightLayerName6;
 
+  /// [Obsolete("This is obsolete, please use renderingLayerNames instead.", false)]
   /// @brief Field lightLayerName7, offset: 0xa0, size: 0x8, def value: None
   ::StringW ___lightLayerName7;
 
+  /// [SerializeField]
   /// @brief Field apvScenesData, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeSceneData* ___apvScenesData;
 

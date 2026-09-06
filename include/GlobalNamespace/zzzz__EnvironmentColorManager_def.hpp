@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentColorManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentColorManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,6 +125,7 @@ public:
   /// @brief Method .ctor, addr 0x58dc760, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didChangeColorEvent, addr 0x58dc4f4, size 0xac, virtual true, abstract: false, final true
   inline void add_didChangeColorEvent(::System::Action* value);
 
@@ -143,6 +144,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::IEnvironmentColorProvider"
   constexpr ::GlobalNamespace::IEnvironmentColorProvider* i___GlobalNamespace__IEnvironmentColorProvider() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didChangeColorEvent, addr 0x58dc5a0, size 0xac, virtual true, abstract: false, final true
   inline void remove_didChangeColorEvent(::System::Action* value);
 
@@ -152,35 +154,43 @@ protected:
   constexpr EnvironmentColorManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentColorManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentColorManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentColorManager(EnvironmentColorManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentColorManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentColorManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentColorManager(EnvironmentColorManager const&) = delete;
+  EnvironmentColorManager(EnvironmentColorManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6510 };
 
+  /// [SerializeField]
   /// @brief Field _defaultColorScheme, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeSO> ____defaultColorScheme;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _environmentColor0, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleColorSO> ____environmentColor0;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor1, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleColorSO> ____environmentColor1;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor0Boost, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleColorSO> ____environmentColor0Boost;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor1Boost, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleColorSO> ____environmentColor1Boost;
 
+  /// [InjectOptional]
   /// @brief Field _colorScheme, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorScheme* ____colorScheme;
 
+  /// [CompilerGenerated]
   /// @brief Field didChangeColorEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___didChangeColorEvent;
 

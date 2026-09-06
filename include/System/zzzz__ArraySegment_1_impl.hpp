@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ArraySegment_1.hpp"
+// IWYU pragma private; include "System/ArraySegment_1.hpp"
 #include "System/zzzz__ArraySegment_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -63,8 +63,9 @@ template <typename T> constexpr System::ArraySegment_1_Enumerator<T>::operator :
 template <typename T> constexpr ::System::Collections::IEnumerator* System::ArraySegment_1_Enumerator<T>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_start", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_end", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_current", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_start", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_current", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 template <typename T> constexpr ::System::ArraySegment_1_Enumerator<T>::ArraySegment_1_Enumerator(::ArrayW<T> _array, int32_t _start, int32_t _end, int32_t _current) noexcept {
   this->_array = _array;
   this->_start = _start;
@@ -245,8 +246,8 @@ template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Co
 template <typename T> constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_offset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_offset", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::System::ArraySegment_1<T>::ArraySegment_1(::ArrayW<T> _array, int32_t _offset, int32_t _count) noexcept {
   this->_array = _array;
   this->_offset = _offset;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AudioConfiguration.hpp"
+// IWYU pragma private; include "UnityEngine/AudioConfiguration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr AudioConfiguration();
 
-  // Ctor Parameters [CppParam { name: "speakerMode", ty: "::UnityEngine::AudioSpeakerMode", modifiers: "", def_value: None }, CppParam { name: "dspBufferSize", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "sampleRate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numRealVoices", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "numVirtualVoices", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "speakerMode", ty: "::UnityEngine::AudioSpeakerMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "dspBufferSize", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "sampleRate", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "numRealVoices", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "numVirtualVoices", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AudioConfiguration(::UnityEngine::AudioSpeakerMode speakerMode, int32_t dspBufferSize, int32_t sampleRate, int32_t numRealVoices, int32_t numVirtualVoices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

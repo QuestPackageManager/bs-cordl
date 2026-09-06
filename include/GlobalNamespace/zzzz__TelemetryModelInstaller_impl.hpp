@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TelemetryModelInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/TelemetryModelInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TelemetryModelInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TelemetryModelInstaller.InstallBindings

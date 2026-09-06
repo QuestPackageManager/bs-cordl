@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRResult_2.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRResult_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IConvertible_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -18,15 +19,18 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus> struct OVRResult_2;
+template <typename TValue, typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::GlobalNamespace::OVRResult_2);
 DEFINE_IL2CPP_GEN_CLASS(::GlobalNamespace::OVRResult_2, "", "OVRResult`2");
-// Dependencies
+// Dependencies System.IConvertible
 namespace GlobalNamespace {
 // cpp template
 template <typename TValue, typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
 // Is value type: true
 // CS Name: OVRResult`2<TValue,TStatus>
 struct CORDL_TYPE OVRResult_2 {
@@ -95,8 +99,8 @@ public:
   // @brief default ctor
   constexpr OVRResult_2();
 
-  // Ctor Parameters [CppParam { name: "_initialized", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "TValue", modifiers: "", def_value: None }, CppParam { name:
-  // "_statusCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_status", ty: "TStatus", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_initialized", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_value", ty: "TValue", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_statusCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_status", ty: "TStatus", modifiers: "", def_value: None, comment: None }]
   constexpr OVRResult_2(bool _initialized, TValue _value, int32_t _statusCode, TStatus _status) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

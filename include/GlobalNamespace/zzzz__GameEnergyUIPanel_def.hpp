@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameEnergyUIPanel.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameEnergyUIPanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class GameEnergyUIPanel;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::GameEnergyUIPanel*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameEnergyUIPanel*, "", "GameEnergyUIPanel");
+// [AddComponentMenu("Beat Saber/Gameplay/GameEnergyUIPanel")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -150,32 +151,40 @@ protected:
   constexpr GameEnergyUIPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameEnergyUIPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameEnergyUIPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameEnergyUIPanel(GameEnergyUIPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameEnergyUIPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameEnergyUIPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameEnergyUIPanel(GameEnergyUIPanel const&) = delete;
+  GameEnergyUIPanel(GameEnergyUIPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6008 };
 
+  /// [SerializeField]
   /// @brief Field _energyBar, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____energyBar;
 
+  /// [SerializeField]
   /// @brief Field _playableDirector, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____playableDirector;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _batteryLifeSegmentPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____batteryLifeSegmentPrefab;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _batterySegmentSeparatorWidth, offset: 0x38, size: 0x4, def value: None
   float_t ____batterySegmentSeparatorWidth;
 
+  /// [SerializeField]
   /// @brief Field _batterySegmentHorizontalPadding, offset: 0x3c, size: 0x4, def value: None
   float_t ____batterySegmentHorizontalPadding;
 
+  /// [Inject]
   /// @brief Field _gameEnergyCounter, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IGameEnergyCounter* ____gameEnergyCounter;
 

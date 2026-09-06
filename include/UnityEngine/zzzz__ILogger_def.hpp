@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ILogger.hpp"
+// IWYU pragma private; include "UnityEngine/ILogger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,33 +39,33 @@ public:
   /// @brief Convert operator to "::UnityEngine::ILogHandler"
   constexpr operator ::UnityEngine::ILogHandler*() noexcept;
 
-  /// @brief Method IsLogTypeAllowed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsLogTypeAllowed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsLogTypeAllowed(::UnityEngine::LogType logType);
 
-  /// @brief Method Log, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Log(::UnityEngine::LogType logType, ::System::Object* message);
 
-  /// @brief Method Log, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Log(::UnityEngine::LogType logType, ::System::Object* message, ::UnityEngine::Object* context);
 
-  /// @brief Method LogError, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::StringW tag, ::System::Object* message);
 
-  /// @brief Method LogFormat, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void LogFormat(::UnityEngine::LogType logType, ::StringW format, ::ArrayW<::System::Object*> args);
+  /// @brief Method LogFormat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void LogFormat(::UnityEngine::LogType logType, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method get_logEnabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_logEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_logEnabled();
 
-  /// @brief Method get_logHandler, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_logHandler, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ILogHandler* get_logHandler();
 
   /// @brief Convert to "::UnityEngine::ILogHandler"
   constexpr ::UnityEngine::ILogHandler* i___UnityEngine__ILogHandler() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILogger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ILogger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILogger(ILogger const&) = delete;
+  ILogger(ILoggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10243 };

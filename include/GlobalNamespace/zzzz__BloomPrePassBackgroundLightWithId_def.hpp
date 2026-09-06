@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,17 +54,18 @@ protected:
   constexpr BloomPrePassBackgroundLightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithId const&) = delete;
+  BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19514 };
 
+  /// [SerializeField]
   /// @brief Field _bloomPrePassBackgroundColor, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> ____bloomPrePassBackgroundColor;
 

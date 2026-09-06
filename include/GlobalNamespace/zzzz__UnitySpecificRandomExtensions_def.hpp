@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnitySpecificRandomExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnitySpecificRandomExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class UnitySpecificRandomExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::UnitySpecificRandomExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::UnitySpecificRandomExtensions*, "", "UnitySpecificRandomExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -25,9 +26,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnitySpecificRandomExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method InsideUnitSphere, addr 0x3327a78, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 InsideUnitSphere(::GlobalNamespace::IRandom* random);
 
+  /// [Extension]
   /// @brief Method OnUnitSphere, addr 0x3327b0c, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 OnUnitSphere(::GlobalNamespace::IRandom* random);
 
@@ -37,13 +40,13 @@ protected:
   constexpr UnitySpecificRandomExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnitySpecificRandomExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnitySpecificRandomExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnitySpecificRandomExtensions(UnitySpecificRandomExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnitySpecificRandomExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnitySpecificRandomExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnitySpecificRandomExtensions(UnitySpecificRandomExtensions const&) = delete;
+  UnitySpecificRandomExtensions(UnitySpecificRandomExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20769 };

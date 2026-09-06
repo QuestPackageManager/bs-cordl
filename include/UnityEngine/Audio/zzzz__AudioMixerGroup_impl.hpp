@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioMixerGroup.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioMixerGroup.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioMixerGroup_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

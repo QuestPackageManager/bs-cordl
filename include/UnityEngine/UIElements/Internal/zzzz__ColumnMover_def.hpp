@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\ColumnMover.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/ColumnMover.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -271,30 +271,36 @@ public:
   /// @brief Method .ctor, addr 0x6d2145c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_activeChanged, addr 0x6d2115c, size 0xc0, virtual false, abstract: false, final false
   inline void add_activeChanged(::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_movingChanged, addr 0x6d212dc, size 0xc0, virtual false, abstract: false, final false
   inline void add_movingChanged(::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* value);
 
   /// @brief Method get_active, addr 0x6d210dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_active();
 
+  /// [CompilerGenerated]
   /// @brief Method get_columnLayout, addr 0x6d210cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ColumnLayout* get_columnLayout();
 
   /// @brief Method get_moving, addr 0x6d2111c, size 0x8, virtual false, abstract: false, final false
   inline bool get_moving();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_activeChanged, addr 0x6d2121c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_activeChanged(::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_movingChanged, addr 0x6d2139c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_movingChanged(::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* value);
 
   /// @brief Method set_active, addr 0x6d210e4, size 0x38, virtual false, abstract: false, final false
   inline void set_active(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_columnLayout, addr 0x6d210d4, size 0x8, virtual false, abstract: false, final false
   inline void set_columnLayout(::UnityEngine::UIElements::ColumnLayout* value);
 
@@ -307,13 +313,13 @@ protected:
   constexpr ColumnMover();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColumnMover", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnMover", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColumnMover(ColumnMover&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColumnMover", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnMover", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColumnMover(ColumnMover const&) = delete;
+  ColumnMover(ColumnMoverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5512 };
@@ -357,12 +363,18 @@ public:
   /// @brief Field m_MoveBeforeDestination, offset: 0x60, size: 0x1, def value: None
   bool ___m_MoveBeforeDestination;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <columnLayout>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::ColumnLayout* ____columnLayout_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field activeChanged, offset: 0x70, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* ___activeChanged;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field movingChanged, offset: 0x78, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::Internal::ColumnMover*>* ___movingChanged;
 

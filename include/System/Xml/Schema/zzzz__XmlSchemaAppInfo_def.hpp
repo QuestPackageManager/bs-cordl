@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaAppInfo.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAppInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,11 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaAppInfo : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
+  /// [XmlText]
+  /// @brief [XmlAnyElement]
   __declspec(property(get = get_Markup, put = set_Markup)) ::ArrayW<::System::Xml::XmlNode*> Markup;
 
+  /// @brief [XmlAttribute("source", DataType = "anyURI")]
   __declspec(property(put = set_Source)) ::StringW Source;
 
   /// @brief Field markup, offset 0x40, size 0x8
@@ -67,13 +70,13 @@ protected:
   constexpr XmlSchemaAppInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAppInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAppInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaAppInfo(XmlSchemaAppInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAppInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAppInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaAppInfo(XmlSchemaAppInfo const&) = delete;
+  XmlSchemaAppInfo(XmlSchemaAppInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9745 };

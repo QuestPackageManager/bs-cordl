@@ -1,23 +1,27 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RequiredArgument_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/RequiredArgument_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(RequiredArgument_1)
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T> class RequiredArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class RequiredArgument_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::RequiredArgument_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::RequiredArgument_1, "", "RequiredArgument`1");
-// Dependencies ArgumentBase
+// Dependencies ArgumentBase, System.IConvertible
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
 // Is value type: false
 // CS Name: RequiredArgument`1<T>
 class CORDL_TYPE RequiredArgument_1 : public ::GlobalNamespace::ArgumentBase {
@@ -82,13 +86,13 @@ protected:
   constexpr RequiredArgument_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RequiredArgument_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RequiredArgument_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RequiredArgument_1(RequiredArgument_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RequiredArgument_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RequiredArgument_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RequiredArgument_1(RequiredArgument_1 const&) = delete;
+  RequiredArgument_1(RequiredArgument_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19372 };

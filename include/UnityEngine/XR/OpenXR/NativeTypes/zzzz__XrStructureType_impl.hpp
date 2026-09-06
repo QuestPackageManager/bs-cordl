@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrStructureType.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrStructureType.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrStructureType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType::XrStructureType(uint32_t value__) noexcept {
   this->value__ = value__;
 }

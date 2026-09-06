@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CreateServerFormData.hpp"
+// IWYU pragma private; include "GlobalNamespace/CreateServerFormData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,12 +31,13 @@ public:
   // @brief default ctor
   constexpr CreateServerFormData();
 
-  // Ctor Parameters [CppParam { name: "usePassword", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "maxPlayers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allowInviteOthers", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "netDiscoverable", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "modifiers", ty:
-  // "::GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: None }, CppParam { name: "songPacks", ty: "::GlobalNamespace::SongPackMask", modifiers: "", def_value: None }, CppParam {
-  // name: "gameplayServerMode", ty: "::GlobalNamespace::GameplayServerMode", modifiers: "", def_value: None }, CppParam { name: "songSelectionMode", ty: "::GlobalNamespace::SongSelectionMode",
-  // modifiers: "", def_value: None }, CppParam { name: "gameplayServerControlSettings", ty: "::GlobalNamespace::GameplayServerControlSettings", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "usePassword", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "maxPlayers", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "allowInviteOthers", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "netDiscoverable", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "modifiers", ty: "::GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "songPacks", ty: "::GlobalNamespace::SongPackMask", modifiers: "", def_value: None, comment: None }, CppParam { name: "gameplayServerMode", ty: "::GlobalNamespace::GameplayServerMode", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "songSelectionMode", ty: "::GlobalNamespace::SongSelectionMode", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "gameplayServerControlSettings", ty: "::GlobalNamespace::GameplayServerControlSettings", modifiers: "", def_value: None, comment: None }]
   constexpr CreateServerFormData(bool usePassword, ::StringW password, int32_t maxPlayers, bool allowInviteOthers, bool netDiscoverable, ::GlobalNamespace::BeatmapDifficultyMask difficulties,
                                  ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks, ::GlobalNamespace::GameplayServerMode gameplayServerMode,
                                  ::GlobalNamespace::SongSelectionMode songSelectionMode, ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings) noexcept;

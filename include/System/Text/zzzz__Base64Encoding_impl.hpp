@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\Base64Encoding.hpp"
+// IWYU pragma private; include "System/Text/Base64Encoding.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__Base64Encoding_def.hpp"
 //  Writing Method size for method: ::System::Text::Base64Encoding.GetMaxByteCount

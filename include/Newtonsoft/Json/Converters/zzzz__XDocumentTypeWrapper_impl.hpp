@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XDocumentTypeWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XDocumentTypeWrapper.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XDocumentTypeWrapper_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_def.hpp"
@@ -120,6 +120,7 @@ inline ::StringW Newtonsoft::Json::Converters::XDocumentTypeWrapper::get_LocalNa
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentTypeWrapper*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Converters::XDocumentTypeWrapper* Newtonsoft::Json::Converters::XDocumentTypeWrapper::New_ctor(::System::Xml::Linq::XDocumentType* documentType) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::XDocumentTypeWrapper*>(documentType));
 }

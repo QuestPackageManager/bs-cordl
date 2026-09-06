@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardGameplayInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardGameplayInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardGameplayInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformationSetupData_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VisualMetronome.hpp"
+// IWYU pragma private; include "GlobalNamespace/VisualMetronome.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -208,50 +208,62 @@ protected:
   constexpr VisualMetronome();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualMetronome", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualMetronome", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualMetronome(VisualMetronome&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualMetronome", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualMetronome", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualMetronome(VisualMetronome const&) = delete;
+  VisualMetronome(VisualMetronomeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6318 };
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [SerializeField]
   /// @brief Field _leftPadding, offset: 0x28, size: 0x4, def value: None
   float_t ____leftPadding;
 
+  /// [SerializeField]
   /// @brief Field _rightPadding, offset: 0x2c, size: 0x4, def value: None
   float_t ____rightPadding;
 
+  /// [SerializeField]
   /// @brief Field _ticker, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____ticker;
 
+  /// [SerializeField]
   /// @brief Field _movingTicker, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____movingTicker;
 
+  /// [SerializeField]
   /// @brief Field _tickerImage, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ____tickerImage;
 
+  /// [SerializeField]
   /// @brief Field _movingTickerImage, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ____movingTickerImage;
 
+  /// [SerializeField]
   /// @brief Field _metronomeInterval, offset: 0x50, size: 0x4, def value: None
   float_t ____metronomeInterval;
 
+  /// [SerializeField]
   /// @brief Field _normalTickerSize, offset: 0x54, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____normalTickerSize;
 
+  /// [SerializeField]
   /// @brief Field _tickTickerSize0, offset: 0x5c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____tickTickerSize0;
 
+  /// [SerializeField]
   /// @brief Field _tickTickerSize1, offset: 0x64, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____tickTickerSize1;
 
+  /// [SerializeField]
   /// @brief Field _smooth, offset: 0x6c, size: 0x4, def value: None
   float_t ____smooth;
 

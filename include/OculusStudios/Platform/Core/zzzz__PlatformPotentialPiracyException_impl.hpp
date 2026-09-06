@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformPotentialPiracyException.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformPotentialPiracyException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PlatformPotentialPiracyException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

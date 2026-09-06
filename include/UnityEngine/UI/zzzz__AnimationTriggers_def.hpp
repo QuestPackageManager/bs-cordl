@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\AnimationTriggers.hpp"
+// IWYU pragma private; include "UnityEngine/UI/AnimationTriggers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr AnimationTriggers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationTriggers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationTriggers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationTriggers(AnimationTriggers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationTriggers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationTriggers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationTriggers(AnimationTriggers const&) = delete;
+  AnimationTriggers(AnimationTriggersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17386 };
@@ -142,18 +142,28 @@ public:
   /// @brief Field kDefaultSelectedAnimName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultSelectedAnimName{ u"Selected" };
 
+  /// [FormerlySerializedAs("normalTrigger")]
+  /// [SerializeField]
   /// @brief Field m_NormalTrigger, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_NormalTrigger;
 
+  /// [FormerlySerializedAs("highlightedTrigger")]
+  /// [SerializeField]
   /// @brief Field m_HighlightedTrigger, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_HighlightedTrigger;
 
+  /// [FormerlySerializedAs("pressedTrigger")]
+  /// [SerializeField]
   /// @brief Field m_PressedTrigger, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_PressedTrigger;
 
+  /// [FormerlySerializedAs("m_HighlightedTrigger")]
+  /// [SerializeField]
   /// @brief Field m_SelectedTrigger, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_SelectedTrigger;
 
+  /// [FormerlySerializedAs("disabledTrigger")]
+  /// [SerializeField]
   /// @brief Field m_DisabledTrigger, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_DisabledTrigger;
 

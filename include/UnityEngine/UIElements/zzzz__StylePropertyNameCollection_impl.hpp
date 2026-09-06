@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StylePropertyNameCollection.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StylePropertyNameCollection.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyNameCollection_def.hpp"
@@ -150,7 +150,8 @@ constexpr UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::opera
 constexpr ::System::IDisposable* UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::System::Collections::Generic::List_1_Enumerator<::UnityEngine::UIElements::StylePropertyName>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::System::Collections::Generic::List_1_Enumerator<::UnityEngine::UIElements::StylePropertyName>", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::StylePropertyNameCollection_Enumerator(
     ::System::Collections::Generic::List_1_Enumerator<::UnityEngine::UIElements::StylePropertyName> m_Enumerator) noexcept {
   this->m_Enumerator = m_Enumerator;
@@ -254,7 +255,8 @@ constexpr UnityEngine::UIElements::StylePropertyNameCollection::operator ::Syste
 constexpr ::System::Collections::IEnumerable* UnityEngine::UIElements::StylePropertyNameCollection::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "propertiesList", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "propertiesList", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::UIElements::StylePropertyNameCollection::StylePropertyNameCollection(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* propertiesList) noexcept {
   this->propertiesList = propertiesList;

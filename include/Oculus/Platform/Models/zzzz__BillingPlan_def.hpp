@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\BillingPlan.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/BillingPlan.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +66,13 @@ protected:
   constexpr BillingPlan();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BillingPlan", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BillingPlan", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BillingPlan(BillingPlan&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BillingPlan", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BillingPlan", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BillingPlan(BillingPlan const&) = delete;
+  BillingPlan(BillingPlanconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18026 };
@@ -83,6 +83,7 @@ public:
   /// @brief Field TrialOffersOptional, offset: 0x18, size: 0x8, def value: None
   ::Oculus::Platform::Models::TrialOfferList* ___TrialOffersOptional;
 
+  /// [Obsolete("Deprecated in favor of TrialOffersOptional")]
   /// @brief Field TrialOffers, offset: 0x20, size: 0x8, def value: None
   ::Oculus::Platform::Models::TrialOfferList* ___TrialOffers;
 

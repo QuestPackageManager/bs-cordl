@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\DigestRandomGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/DigestRandomGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr DigestRandomGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DigestRandomGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DigestRandomGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DigestRandomGenerator(DigestRandomGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DigestRandomGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DigestRandomGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DigestRandomGenerator(DigestRandomGenerator const&) = delete;
+  DigestRandomGenerator(DigestRandomGeneratorconst&) = delete;
 
   /// @brief Field CYCLE_COUNT offset 0xffffffff size 0x8
   static constexpr int64_t CYCLE_COUNT{ static_cast<int64_t>(0xa) };

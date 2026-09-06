@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlyingGameHUDRotation.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlyingGameHUDRotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class FlyingGameHUDRotation;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::FlyingGameHUDRotation*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FlyingGameHUDRotation*, "", "FlyingGameHUDRotation");
+// [AddComponentMenu("Beat Saber/Gameplay/FlyingGameHUDRotation")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -104,26 +105,30 @@ protected:
   constexpr FlyingGameHUDRotation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingGameHUDRotation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingGameHUDRotation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingGameHUDRotation(FlyingGameHUDRotation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingGameHUDRotation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingGameHUDRotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingGameHUDRotation(FlyingGameHUDRotation const&) = delete;
+  FlyingGameHUDRotation(FlyingGameHUDRotationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5970 };
 
+  /// [SerializeField]
   /// @brief Field _smooth, offset: 0x20, size: 0x4, def value: None
   float_t ____smooth;
 
+  /// [InjectOptional]
   /// @brief Field _beatLineManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatLineManager> ____beatLineManager;
 
+  /// [InjectOptional]
   /// @brief Field _environmentSpawnRotation, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> ____environmentSpawnRotation;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 

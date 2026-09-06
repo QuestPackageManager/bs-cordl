@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\MiscExtensions.hpp"
+// IWYU pragma private; include "ModestTree/MiscExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__MiscExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::C
     return ___internal_method;
   }
 };
-inline ::StringW ModestTree::MiscExtensions::Fmt(::StringW s, ::ArrayW<::System::Object*> args) {
+inline ::StringW ModestTree::MiscExtensions::Fmt(::StringW s, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::MiscExtensions*>(), { "Fmt", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, s, args);

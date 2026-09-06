@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TouchScreenKeyboard.hpp"
+// IWYU pragma private; include "UnityEngine/TouchScreenKeyboard.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
@@ -9,7 +9,7 @@
 #include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_InternalConstructorHelperArguments_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TouchScreenKeyboard_Status::TouchScreenKeyboard_Status(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -19,7 +19,7 @@ constexpr ::UnityEngine::TouchScreenKeyboard_Status UnityEngine::TouchScreenKeyb
 constexpr ::UnityEngine::TouchScreenKeyboard_Status UnityEngine::TouchScreenKeyboard_Status::Done{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TouchScreenKeyboard_Status UnityEngine::TouchScreenKeyboard_Status::Canceled{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TouchScreenKeyboard_Status UnityEngine::TouchScreenKeyboard_Status::LostFocus{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TouchScreenKeyboard_InputFieldAppearance::TouchScreenKeyboard_InputFieldAppearance(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -586,8 +586,11 @@ inline bool UnityEngine::TouchScreenKeyboard::IsInPlaceEditingAllowed() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TouchScreenKeyboard*>(), { "IsInPlaceEditingAllowed", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::TouchScreenKeyboard* UnityEngine::TouchScreenKeyboard::Open(::StringW text, ::UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure,
-                                                                                  bool alert, ::StringW textPlaceholder, int32_t characterLimit) {
+inline ::UnityEngine::TouchScreenKeyboard* UnityEngine::TouchScreenKeyboard::Open(::StringW text,
+                                                                                  /* [DefaultValue("TouchScreenKeyboardType.Default")] */ ::UnityEngine::TouchScreenKeyboardType keyboardType,
+                                                                                  /* [DefaultValue("true")] */ bool autocorrection, /* [DefaultValue("false")] */ bool multiline,
+                                                                                  /* [DefaultValue("false")] */ bool secure, /* [DefaultValue("false")] */ bool alert,
+                                                                                  /* [DefaultValue("\"\"")] */ ::StringW textPlaceholder, /* [DefaultValue("0")] */ int32_t characterLimit) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TouchScreenKeyboard*>(),
                                                            { "Open",

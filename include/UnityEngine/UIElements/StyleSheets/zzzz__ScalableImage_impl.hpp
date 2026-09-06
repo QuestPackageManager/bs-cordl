@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\ScalableImage.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ScalableImage.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__ScalableImage_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ScalableImage.ToString
@@ -20,8 +20,8 @@ inline ::StringW UnityEngine::UIElements::StyleSheets::ScalableImage::ToString()
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ScalableImage>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "highResolutionImage", ty:
-// "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "highResolutionImage", ty:
+// "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::ScalableImage::ScalableImage(::UnityW<::UnityEngine::Texture2D> normalImage, ::UnityW<::UnityEngine::Texture2D> highResolutionImage) noexcept {
   this->normalImage = normalImage;
   this->highResolutionImage = highResolutionImage;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPlugin.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPlugin.hpp"
 #include "GlobalNamespace/zzzz__OVRHandSkeletonVersion_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"
@@ -189,7 +189,7 @@ inline ::GlobalNamespace::OVRPlugin_GUID* GlobalNamespace::OVRPlugin_GUID::New_c
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_GUID::OVRPlugin_GUID() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Bool::OVRPlugin_Bool(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -197,7 +197,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Bool::OVRPlugin_Bool(int32_t value__) noe
 constexpr ::GlobalNamespace::OVRPlugin_Bool::OVRPlugin_Bool() {}
 constexpr ::GlobalNamespace::OVRPlugin_Bool GlobalNamespace::OVRPlugin_Bool::False{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_Bool GlobalNamespace::OVRPlugin_Bool::True{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_OptionalBool::OVRPlugin_OptionalBool(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -206,7 +206,7 @@ constexpr ::GlobalNamespace::OVRPlugin_OptionalBool::OVRPlugin_OptionalBool() {}
 constexpr ::GlobalNamespace::OVRPlugin_OptionalBool GlobalNamespace::OVRPlugin_OptionalBool::False{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_OptionalBool GlobalNamespace::OVRPlugin_OptionalBool::True{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_OptionalBool GlobalNamespace::OVRPlugin_OptionalBool::Unknown{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Result::OVRPlugin_Result(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -253,7 +253,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_Result:
 constexpr ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_Result::Warning_BoundaryVisibilitySuppressionNotAllowed{ static_cast<int32_t>(0x2346) };
 constexpr ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_Result::Failure_FuturePending{ static_cast<int32_t>(0xffffd8f0) };
 constexpr ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_Result::Failure_FutureInvalid{ static_cast<int32_t>(0xffffd8ef) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_LogLevel::OVRPlugin_LogLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -345,7 +345,7 @@ inline ::GlobalNamespace::OVRPlugin_LogCallback2DelegateType* GlobalNamespace::O
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_LogCallback2DelegateType::OVRPlugin_LogCallback2DelegateType() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_CameraStatus::OVRPlugin_CameraStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -358,7 +358,7 @@ constexpr ::GlobalNamespace::OVRPlugin_CameraStatus GlobalNamespace::OVRPlugin_C
 constexpr ::GlobalNamespace::OVRPlugin_CameraStatus GlobalNamespace::OVRPlugin_CameraStatus::CameraStatus_Calibrated{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_CameraStatus GlobalNamespace::OVRPlugin_CameraStatus::CameraStatus_ThirdPerson{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::OVRPlugin_CameraStatus GlobalNamespace::OVRPlugin_CameraStatus::CameraStatus_EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_CameraAnchorType::OVRPlugin_CameraAnchorType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -368,7 +368,7 @@ constexpr ::GlobalNamespace::OVRPlugin_CameraAnchorType GlobalNamespace::OVRPlug
 constexpr ::GlobalNamespace::OVRPlugin_CameraAnchorType GlobalNamespace::OVRPlugin_CameraAnchorType::CameraAnchorType_Custom{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_CameraAnchorType GlobalNamespace::OVRPlugin_CameraAnchorType::CameraAnchorType_Count{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_CameraAnchorType GlobalNamespace::OVRPlugin_CameraAnchorType::CameraAnchorType_EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_XrApi::OVRPlugin_XrApi(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -379,7 +379,7 @@ constexpr ::GlobalNamespace::OVRPlugin_XrApi GlobalNamespace::OVRPlugin_XrApi::C
 constexpr ::GlobalNamespace::OVRPlugin_XrApi GlobalNamespace::OVRPlugin_XrApi::VRAPI{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_XrApi GlobalNamespace::OVRPlugin_XrApi::OpenXR{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_XrApi GlobalNamespace::OVRPlugin_XrApi::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Eye::OVRPlugin_Eye(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -389,7 +389,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Eye GlobalNamespace::OVRPlugin_Eye::None{
 constexpr ::GlobalNamespace::OVRPlugin_Eye GlobalNamespace::OVRPlugin_Eye::Left{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_Eye GlobalNamespace::OVRPlugin_Eye::Right{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_Eye GlobalNamespace::OVRPlugin_Eye::Count{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Tracker::OVRPlugin_Tracker(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -401,7 +401,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Tracker GlobalNamespace::OVRPlugin_Tracke
 constexpr ::GlobalNamespace::OVRPlugin_Tracker GlobalNamespace::OVRPlugin_Tracker::Two{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_Tracker GlobalNamespace::OVRPlugin_Tracker::Three{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_Tracker GlobalNamespace::OVRPlugin_Tracker::Count{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Node::OVRPlugin_Node(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -423,7 +423,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Node GlobalNamespace::OVRPlugin_Node::Tra
 constexpr ::GlobalNamespace::OVRPlugin_Node GlobalNamespace::OVRPlugin_Node::ControllerLeft{ static_cast<int32_t>(0xc) };
 constexpr ::GlobalNamespace::OVRPlugin_Node GlobalNamespace::OVRPlugin_Node::ControllerRight{ static_cast<int32_t>(0xd) };
 constexpr ::GlobalNamespace::OVRPlugin_Node GlobalNamespace::OVRPlugin_Node::Count{ static_cast<int32_t>(0xe) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ActionTypes::OVRPlugin_ActionTypes(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -434,7 +434,7 @@ constexpr ::GlobalNamespace::OVRPlugin_ActionTypes GlobalNamespace::OVRPlugin_Ac
 constexpr ::GlobalNamespace::OVRPlugin_ActionTypes GlobalNamespace::OVRPlugin_ActionTypes::Vector2{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_ActionTypes GlobalNamespace::OVRPlugin_ActionTypes::Pose{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_ActionTypes GlobalNamespace::OVRPlugin_ActionTypes::Vibration{ static_cast<int32_t>(0x64) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Controller::OVRPlugin_Controller(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -451,7 +451,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Controller GlobalNamespace::OVRPlugin_Con
 constexpr ::GlobalNamespace::OVRPlugin_Controller GlobalNamespace::OVRPlugin_Controller::Hands{ static_cast<int32_t>(0x60) };
 constexpr ::GlobalNamespace::OVRPlugin_Controller GlobalNamespace::OVRPlugin_Controller::Active{ static_cast<int32_t>(0x80000000) };
 constexpr ::GlobalNamespace::OVRPlugin_Controller GlobalNamespace::OVRPlugin_Controller::All{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_InteractionProfile::OVRPlugin_InteractionProfile(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -461,7 +461,7 @@ constexpr ::GlobalNamespace::OVRPlugin_InteractionProfile GlobalNamespace::OVRPl
 constexpr ::GlobalNamespace::OVRPlugin_InteractionProfile GlobalNamespace::OVRPlugin_InteractionProfile::Touch{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_InteractionProfile GlobalNamespace::OVRPlugin_InteractionProfile::TouchPro{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_InteractionProfile GlobalNamespace::OVRPlugin_InteractionProfile::TouchPlus{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Handedness::OVRPlugin_Handedness(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -470,7 +470,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Handedness::OVRPlugin_Handedness() {}
 constexpr ::GlobalNamespace::OVRPlugin_Handedness GlobalNamespace::OVRPlugin_Handedness::Unsupported{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_Handedness GlobalNamespace::OVRPlugin_Handedness::LeftHanded{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_Handedness GlobalNamespace::OVRPlugin_Handedness::RightHanded{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_TrackingOrigin::OVRPlugin_TrackingOrigin(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -481,7 +481,7 @@ constexpr ::GlobalNamespace::OVRPlugin_TrackingOrigin GlobalNamespace::OVRPlugin
 constexpr ::GlobalNamespace::OVRPlugin_TrackingOrigin GlobalNamespace::OVRPlugin_TrackingOrigin::Stage{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_TrackingOrigin GlobalNamespace::OVRPlugin_TrackingOrigin::View{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_TrackingOrigin GlobalNamespace::OVRPlugin_TrackingOrigin::Count{ static_cast<int32_t>(0x5) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceFlags::OVRPlugin_SpaceFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -489,7 +489,7 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceFlags::OVRPlugin_SpaceFlags(int32_t 
 constexpr ::GlobalNamespace::OVRPlugin_SpaceFlags::OVRPlugin_SpaceFlags() {}
 constexpr ::GlobalNamespace::OVRPlugin_SpaceFlags GlobalNamespace::OVRPlugin_SpaceFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceFlags GlobalNamespace::OVRPlugin_SpaceFlags::AllowRecentering{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_RecenterFlags::OVRPlugin_RecenterFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -498,7 +498,7 @@ constexpr ::GlobalNamespace::OVRPlugin_RecenterFlags::OVRPlugin_RecenterFlags() 
 constexpr ::GlobalNamespace::OVRPlugin_RecenterFlags GlobalNamespace::OVRPlugin_RecenterFlags::Default{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_RecenterFlags GlobalNamespace::OVRPlugin_RecenterFlags::IgnoreAll{ static_cast<int32_t>(0x80000000) };
 constexpr ::GlobalNamespace::OVRPlugin_RecenterFlags GlobalNamespace::OVRPlugin_RecenterFlags::Count{ static_cast<int32_t>(0x80000001) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BatteryStatus::OVRPlugin_BatteryStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -509,7 +509,7 @@ constexpr ::GlobalNamespace::OVRPlugin_BatteryStatus GlobalNamespace::OVRPlugin_
 constexpr ::GlobalNamespace::OVRPlugin_BatteryStatus GlobalNamespace::OVRPlugin_BatteryStatus::Full{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_BatteryStatus GlobalNamespace::OVRPlugin_BatteryStatus::NotCharging{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_BatteryStatus GlobalNamespace::OVRPlugin_BatteryStatus::Unknown{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_EyeTextureFormat::OVRPlugin_EyeTextureFormat(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -524,7 +524,7 @@ constexpr ::GlobalNamespace::OVRPlugin_EyeTextureFormat GlobalNamespace::OVRPlug
 constexpr ::GlobalNamespace::OVRPlugin_EyeTextureFormat GlobalNamespace::OVRPlugin_EyeTextureFormat::B8G8R8A8{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::OVRPlugin_EyeTextureFormat GlobalNamespace::OVRPlugin_EyeTextureFormat::R5G6B5{ static_cast<int32_t>(0xb) };
 constexpr ::GlobalNamespace::OVRPlugin_EyeTextureFormat GlobalNamespace::OVRPlugin_EyeTextureFormat::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PlatformUI::OVRPlugin_PlatformUI(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -533,7 +533,7 @@ constexpr ::GlobalNamespace::OVRPlugin_PlatformUI::OVRPlugin_PlatformUI() {}
 constexpr ::GlobalNamespace::OVRPlugin_PlatformUI GlobalNamespace::OVRPlugin_PlatformUI::None{ static_cast<int32_t>(0xffffffff) };
 constexpr ::GlobalNamespace::OVRPlugin_PlatformUI GlobalNamespace::OVRPlugin_PlatformUI::ConfirmQuit{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_PlatformUI GlobalNamespace::OVRPlugin_PlatformUI::GlobalMenuTutorial{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SystemRegion::OVRPlugin_SystemRegion(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -542,7 +542,7 @@ constexpr ::GlobalNamespace::OVRPlugin_SystemRegion::OVRPlugin_SystemRegion() {}
 constexpr ::GlobalNamespace::OVRPlugin_SystemRegion GlobalNamespace::OVRPlugin_SystemRegion::Unspecified{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_SystemRegion GlobalNamespace::OVRPlugin_SystemRegion::Japan{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_SystemRegion GlobalNamespace::OVRPlugin_SystemRegion::China{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SystemHeadset::OVRPlugin_SystemHeadset(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -580,7 +580,7 @@ constexpr ::GlobalNamespace::OVRPlugin_SystemHeadset GlobalNamespace::OVRPlugin_
 constexpr ::GlobalNamespace::OVRPlugin_SystemHeadset GlobalNamespace::OVRPlugin_SystemHeadset::PC_Placeholder_4111{ static_cast<int32_t>(0x100f) };
 constexpr ::GlobalNamespace::OVRPlugin_SystemHeadset GlobalNamespace::OVRPlugin_SystemHeadset::PC_Placeholder_4112{ static_cast<int32_t>(0x1010) };
 constexpr ::GlobalNamespace::OVRPlugin_SystemHeadset GlobalNamespace::OVRPlugin_SystemHeadset::PC_Placeholder_4113{ static_cast<int32_t>(0x1011) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_OverlayShape::OVRPlugin_OverlayShape(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -596,7 +596,7 @@ constexpr ::GlobalNamespace::OVRPlugin_OverlayShape GlobalNamespace::OVRPlugin_O
 constexpr ::GlobalNamespace::OVRPlugin_OverlayShape GlobalNamespace::OVRPlugin_OverlayShape::Fisheye{ static_cast<int32_t>(0x9) };
 constexpr ::GlobalNamespace::OVRPlugin_OverlayShape GlobalNamespace::OVRPlugin_OverlayShape::KeyboardHandsPassthrough{ static_cast<int32_t>(0xa) };
 constexpr ::GlobalNamespace::OVRPlugin_OverlayShape GlobalNamespace::OVRPlugin_OverlayShape::KeyboardMaskedHandsPassthrough{ static_cast<int32_t>(0xb) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_LayerSuperSamplingType::OVRPlugin_LayerSuperSamplingType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -605,7 +605,7 @@ constexpr ::GlobalNamespace::OVRPlugin_LayerSuperSamplingType::OVRPlugin_LayerSu
 constexpr ::GlobalNamespace::OVRPlugin_LayerSuperSamplingType GlobalNamespace::OVRPlugin_LayerSuperSamplingType::None{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_LayerSuperSamplingType GlobalNamespace::OVRPlugin_LayerSuperSamplingType::Normal{ static_cast<int32_t>(0x1000) };
 constexpr ::GlobalNamespace::OVRPlugin_LayerSuperSamplingType GlobalNamespace::OVRPlugin_LayerSuperSamplingType::Quality{ static_cast<int32_t>(0x100) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_LayerSharpenType::OVRPlugin_LayerSharpenType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -615,7 +615,7 @@ constexpr ::GlobalNamespace::OVRPlugin_LayerSharpenType GlobalNamespace::OVRPlug
 constexpr ::GlobalNamespace::OVRPlugin_LayerSharpenType GlobalNamespace::OVRPlugin_LayerSharpenType::Normal{ static_cast<int32_t>(0x2000) };
 constexpr ::GlobalNamespace::OVRPlugin_LayerSharpenType GlobalNamespace::OVRPlugin_LayerSharpenType::Quality{ static_cast<int32_t>(0x10000) };
 constexpr ::GlobalNamespace::OVRPlugin_LayerSharpenType GlobalNamespace::OVRPlugin_LayerSharpenType::Automatic{ static_cast<int32_t>(0x40000) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Step::OVRPlugin_Step(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -623,7 +623,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Step::OVRPlugin_Step(int32_t value__) noe
 constexpr ::GlobalNamespace::OVRPlugin_Step::OVRPlugin_Step() {}
 constexpr ::GlobalNamespace::OVRPlugin_Step GlobalNamespace::OVRPlugin_Step::Render{ static_cast<int32_t>(0xffffffff) };
 constexpr ::GlobalNamespace::OVRPlugin_Step GlobalNamespace::OVRPlugin_Step::Physics{ static_cast<int32_t>(0x0) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_CameraDevice::OVRPlugin_CameraDevice(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -633,7 +633,7 @@ constexpr ::GlobalNamespace::OVRPlugin_CameraDevice GlobalNamespace::OVRPlugin_C
 constexpr ::GlobalNamespace::OVRPlugin_CameraDevice GlobalNamespace::OVRPlugin_CameraDevice::WebCamera0{ static_cast<int32_t>(0x64) };
 constexpr ::GlobalNamespace::OVRPlugin_CameraDevice GlobalNamespace::OVRPlugin_CameraDevice::WebCamera1{ static_cast<int32_t>(0x65) };
 constexpr ::GlobalNamespace::OVRPlugin_CameraDevice GlobalNamespace::OVRPlugin_CameraDevice::ZEDCamera{ static_cast<int32_t>(0x12c) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthSensingMode::OVRPlugin_CameraDeviceDepthSensingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -641,7 +641,7 @@ constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthSensingMode::OVRPlugin_C
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthSensingMode::OVRPlugin_CameraDeviceDepthSensingMode() {}
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthSensingMode GlobalNamespace::OVRPlugin_CameraDeviceDepthSensingMode::Standard{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthSensingMode GlobalNamespace::OVRPlugin_CameraDeviceDepthSensingMode::Fill{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthQuality::OVRPlugin_CameraDeviceDepthQuality(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -650,7 +650,7 @@ constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthQuality::OVRPlugin_Camer
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthQuality GlobalNamespace::OVRPlugin_CameraDeviceDepthQuality::Low{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthQuality GlobalNamespace::OVRPlugin_CameraDeviceDepthQuality::Medium{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceDepthQuality GlobalNamespace::OVRPlugin_CameraDeviceDepthQuality::High{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel::OVRPlugin_FoveatedRenderingLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -662,7 +662,7 @@ constexpr ::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel GlobalNamespace::O
 constexpr ::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel GlobalNamespace::OVRPlugin_FoveatedRenderingLevel::High{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel GlobalNamespace::OVRPlugin_FoveatedRenderingLevel::HighTop{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel GlobalNamespace::OVRPlugin_FoveatedRenderingLevel::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel::OVRPlugin_FixedFoveatedRenderingLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -674,7 +674,7 @@ constexpr ::GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel GlobalNamespa
 constexpr ::GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel::High{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel::HighTop{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel GlobalNamespace::OVRPlugin_FixedFoveatedRenderingLevel::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_TiledMultiResLevel::OVRPlugin_TiledMultiResLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -686,7 +686,7 @@ constexpr ::GlobalNamespace::OVRPlugin_TiledMultiResLevel GlobalNamespace::OVRPl
 constexpr ::GlobalNamespace::OVRPlugin_TiledMultiResLevel GlobalNamespace::OVRPlugin_TiledMultiResLevel::LMSHigh{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_TiledMultiResLevel GlobalNamespace::OVRPlugin_TiledMultiResLevel::LMSHighTop{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_TiledMultiResLevel GlobalNamespace::OVRPlugin_TiledMultiResLevel::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PerfMetrics::OVRPlugin_PerfMetrics(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -715,7 +715,7 @@ constexpr ::GlobalNamespace::OVRPlugin_PerfMetrics GlobalNamespace::OVRPlugin_Pe
 constexpr ::GlobalNamespace::OVRPlugin_PerfMetrics GlobalNamespace::OVRPlugin_PerfMetrics::Device_CpuCore7UtilPercentage_Float{ static_cast<int32_t>(0x27) };
 constexpr ::GlobalNamespace::OVRPlugin_PerfMetrics GlobalNamespace::OVRPlugin_PerfMetrics::Count{ static_cast<int32_t>(0x28) };
 constexpr ::GlobalNamespace::OVRPlugin_PerfMetrics GlobalNamespace::OVRPlugin_PerfMetrics::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel::OVRPlugin_ProcessorPerformanceLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -726,7 +726,7 @@ constexpr ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel GlobalNamespace
 constexpr ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel::SustainedHigh{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel::Boost{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FeatureType::OVRPlugin_FeatureType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -741,12 +741,13 @@ constexpr ::GlobalNamespace::OVRPlugin_FeatureType GlobalNamespace::OVRPlugin_Fe
 constexpr ::GlobalNamespace::OVRPlugin_FeatureType GlobalNamespace::OVRPlugin_FeatureType::GazeBasedFoveatedRendering{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::OVRPlugin_FeatureType GlobalNamespace::OVRPlugin_FeatureType::Count{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::OVRPlugin_FeatureType GlobalNamespace::OVRPlugin_FeatureType::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "fx", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fy", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cx",
-// ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cy", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "disto0", ty: "double_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "disto1", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "disto2", ty: "double_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "disto3", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "disto4", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "v_fov", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h_fov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "d_fov", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "fx", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fy", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "cx", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cy", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "disto0", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "disto1", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "disto2", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "disto3", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "disto4", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "v_fov", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "h_fov", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "d_fov", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "h", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceIntrinsicsParameters::OVRPlugin_CameraDeviceIntrinsicsParameters(float_t fx, float_t fy, float_t cx, float_t cy, double_t disto0, double_t disto1,
                                                                                                                     double_t disto2, double_t disto3, double_t disto4, float_t v_fov, float_t h_fov,
                                                                                                                     float_t d_fov, int32_t w, int32_t h) noexcept {
@@ -767,7 +768,7 @@ constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceIntrinsicsParameters::OVRPlug
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_CameraDeviceIntrinsicsParameters::OVRPlugin_CameraDeviceIntrinsicsParameters() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_OverlayFlag::OVRPlugin_OverlayFlag(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -791,7 +792,8 @@ constexpr ::GlobalNamespace::OVRPlugin_OverlayFlag GlobalNamespace::OVRPlugin_Ov
 constexpr ::GlobalNamespace::OVRPlugin_OverlayFlag GlobalNamespace::OVRPlugin_OverlayFlag::Hidden{ static_cast<int32_t>(0x200) };
 constexpr ::GlobalNamespace::OVRPlugin_OverlayFlag GlobalNamespace::OVRPlugin_OverlayFlag::AutoFiltering{ static_cast<int32_t>(0x400) };
 constexpr ::GlobalNamespace::OVRPlugin_OverlayFlag GlobalNamespace::OVRPlugin_OverlayFlag::PremultipliedAlpha{ static_cast<int32_t>(0x100000) };
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::GlobalNamespace::OVRPlugin_Vector2f::OVRPlugin_Vector2f(float_t x, float_t y) noexcept {
   this->x = x;
   this->y = y;
@@ -821,8 +823,8 @@ inline ::StringW GlobalNamespace::OVRPlugin_Vector3f::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRPlugin_Vector3f>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Vector3f::OVRPlugin_Vector3f(float_t x, float_t y, float_t z) noexcept {
   this->x = x;
   this->y = y;
@@ -853,8 +855,8 @@ inline ::StringW GlobalNamespace::OVRPlugin_Vector4f::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRPlugin_Vector4f>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Vector4f::OVRPlugin_Vector4f(float_t x, float_t y, float_t z, float_t w) noexcept {
   this->x = x;
   this->y = y;
@@ -886,8 +888,8 @@ inline ::StringW GlobalNamespace::OVRPlugin_Vector4s::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRPlugin_Vector4s>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty:
-// "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "w", ty: "int16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "z", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "w", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Vector4s::OVRPlugin_Vector4s(int16_t x, int16_t y, int16_t z, int16_t w) noexcept {
   this->x = x;
   this->y = y;
@@ -939,8 +941,8 @@ inline ::StringW GlobalNamespace::OVRPlugin_Quatf::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRPlugin_Quatf>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Quatf::OVRPlugin_Quatf(float_t x, float_t y, float_t z, float_t w) noexcept {
   this->x = x;
   this->y = y;
@@ -972,8 +974,8 @@ inline ::StringW GlobalNamespace::OVRPlugin_Posef::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRPlugin_Posef>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Orientation", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "Position", ty:
-// "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Orientation", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Position", ty:
+// "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Posef::OVRPlugin_Posef(::GlobalNamespace::OVRPlugin_Quatf Orientation, ::GlobalNamespace::OVRPlugin_Vector3f Position) noexcept {
   this->Orientation = Orientation;
   this->Position = Position;
@@ -1005,9 +1007,9 @@ inline ::StringW GlobalNamespace::OVRPlugin_TextureRectMatrixf::ToString() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRPlugin_TextureRectMatrixf>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "leftRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "rightRect", ty: "::UnityEngine::Rect", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "leftScaleBias", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "rightScaleBias", ty: "::UnityEngine::Vector4", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "leftRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightRect", ty: "::UnityEngine::Rect", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "leftScaleBias", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightScaleBias",
+// ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_TextureRectMatrixf::OVRPlugin_TextureRectMatrixf(::UnityEngine::Rect leftRect, ::UnityEngine::Rect rightRect, ::UnityEngine::Vector4 leftScaleBias,
                                                                                         ::UnityEngine::Vector4 rightScaleBias) noexcept {
   this->leftRect = leftRect;
@@ -1023,10 +1025,11 @@ inline void GlobalNamespace::OVRPlugin_PoseStatef::setStaticF_identity(::GlobalN
 inline ::GlobalNamespace::OVRPlugin_PoseStatef GlobalNamespace::OVRPlugin_PoseStatef::getStaticF_identity() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::OVRPlugin_PoseStatef, "identity", ::GlobalNamespace::OVRPlugin_PoseStatef>();
 }
-// Ctor Parameters [CppParam { name: "Pose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "Velocity", ty: "::GlobalNamespace::OVRPlugin_Vector3f",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Acceleration", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}") }, CppParam { name: "AngularVelocity", ty:
-// "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}") }, CppParam { name: "AngularAcceleration", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Pose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Velocity", ty:
+// "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Acceleration", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "AngularVelocity", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "AngularAcceleration", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PoseStatef::OVRPlugin_PoseStatef(::GlobalNamespace::OVRPlugin_Posef Pose, ::GlobalNamespace::OVRPlugin_Vector3f Velocity,
                                                                         ::GlobalNamespace::OVRPlugin_Vector3f Acceleration, ::GlobalNamespace::OVRPlugin_Vector3f AngularVelocity,
                                                                         ::GlobalNamespace::OVRPlugin_Vector3f AngularAcceleration, double_t Time) noexcept {
@@ -1039,7 +1042,7 @@ constexpr ::GlobalNamespace::OVRPlugin_PoseStatef::OVRPlugin_PoseStatef(::Global
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_PoseStatef::OVRPlugin_PoseStatef() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HapticsLocation::OVRPlugin_HapticsLocation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1069,19 +1072,22 @@ inline void GlobalNamespace::OVRPlugin_ControllerState6::_ctor(::GlobalNamespace
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_ControllerState6>(), { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::OVRPlugin_ControllerState5>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cs);
 }
-// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LHandTrigger", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LThumbstick", ty:
-// "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "LTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "RTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "LBatteryPercentRemaining", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RBatteryPercentRemaining", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LRecenterCount", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RRecenterCount", ty: "uint8_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "LThumbRestForce", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RThumbRestForce", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "LStylusForce", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RStylusForce", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "LIndexTriggerCurl", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTriggerCurl", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "LIndexTriggerSlide", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTriggerSlide", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "LIndexTriggerForce", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTriggerForce", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTrigger", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RHandTrigger", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LTouchpad", ty:
+// "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "LBatteryPercentRemaining", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RBatteryPercentRemaining", ty:
+// "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LRecenterCount", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "RRecenterCount", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LThumbRestForce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "RThumbRestForce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LStylusForce", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "RStylusForce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LIndexTriggerCurl", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTriggerCurl", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LIndexTriggerSlide", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTriggerSlide", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "LIndexTriggerForce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTriggerForce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::GlobalNamespace::OVRPlugin_ControllerState6::OVRPlugin_ControllerState6(uint32_t ConnectedControllers, uint32_t Buttons, uint32_t Touches, uint32_t NearTouches, float_t LIndexTrigger,
                                                                                     float_t RIndexTrigger, float_t LHandTrigger, float_t RHandTrigger,
                                                                                     ::GlobalNamespace::OVRPlugin_Vector2f LThumbstick, ::GlobalNamespace::OVRPlugin_Vector2f RThumbstick,
@@ -1139,18 +1145,20 @@ inline void GlobalNamespace::OVRPlugin_ControllerState5::_ctor(::GlobalNamespace
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_ControllerState5>(), { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::OVRPlugin_ControllerState4>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cs);
 }
-// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LHandTrigger", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LThumbstick", ty:
-// "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "LTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "RTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "LBatteryPercentRemaining", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RBatteryPercentRemaining", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LRecenterCount", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RRecenterCount", ty: "uint8_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "LThumbRestForce", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RThumbRestForce", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "LStylusForce", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RStylusForce", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "LIndexTriggerCurl", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTriggerCurl", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "LIndexTriggerSlide", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTriggerSlide", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTrigger", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RHandTrigger", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LTouchpad", ty:
+// "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "LBatteryPercentRemaining", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RBatteryPercentRemaining", ty:
+// "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LRecenterCount", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "RRecenterCount", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LThumbRestForce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "RThumbRestForce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LStylusForce", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "RStylusForce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LIndexTriggerCurl", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTriggerCurl", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LIndexTriggerSlide", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTriggerSlide", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ControllerState5::OVRPlugin_ControllerState5(
     uint32_t ConnectedControllers, uint32_t Buttons, uint32_t Touches, uint32_t NearTouches, float_t LIndexTrigger, float_t RIndexTrigger, float_t LHandTrigger, float_t RHandTrigger,
     ::GlobalNamespace::OVRPlugin_Vector2f LThumbstick, ::GlobalNamespace::OVRPlugin_Vector2f RThumbstick, ::GlobalNamespace::OVRPlugin_Vector2f LTouchpad,
@@ -1203,27 +1211,31 @@ inline void GlobalNamespace::OVRPlugin_ControllerState4::_ctor(::GlobalNamespace
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_ControllerState4>(), { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::OVRPlugin_ControllerState2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cs);
 }
-// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LHandTrigger", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LThumbstick", ty:
-// "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "LTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "RTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "LBatteryPercentRemaining", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RBatteryPercentRemaining", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LRecenterCount", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RRecenterCount", ty: "uint8_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_27", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_26", ty: "uint8_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "Reserved_25", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_24", ty: "uint8_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "Reserved_23", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_22", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Reserved_21", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_20", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_19", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_18", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_17", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "Reserved_16", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_15", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Reserved_14", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_13", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "Reserved_12", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_11", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_10",
-// ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_09", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_08", ty: "uint8_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_07", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_06", ty: "uint8_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "Reserved_05", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_04", ty: "uint8_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "Reserved_03", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_02", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Reserved_01", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Reserved_00", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTrigger", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RHandTrigger", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LTouchpad", ty:
+// "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "LBatteryPercentRemaining", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RBatteryPercentRemaining", ty:
+// "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LRecenterCount", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "RRecenterCount", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_27", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "Reserved_26", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_25", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "Reserved_24", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_23", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Reserved_22", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_21", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Reserved_20", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_19", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_18", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_17", ty: "uint8_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_16", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_15", ty:
+// "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_14", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "Reserved_13", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_12", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "Reserved_11", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_10", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "Reserved_09", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_08", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "Reserved_07", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_06", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Reserved_05", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_04", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Reserved_03", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_02", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_01", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved_00", ty: "uint8_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ControllerState4::OVRPlugin_ControllerState4(
     uint32_t ConnectedControllers, uint32_t Buttons, uint32_t Touches, uint32_t NearTouches, float_t LIndexTrigger, float_t RIndexTrigger, float_t LHandTrigger, float_t RHandTrigger,
     ::GlobalNamespace::OVRPlugin_Vector2f LThumbstick, ::GlobalNamespace::OVRPlugin_Vector2f RThumbstick, ::GlobalNamespace::OVRPlugin_Vector2f LTouchpad,
@@ -1299,13 +1311,14 @@ inline void GlobalNamespace::OVRPlugin_ControllerState2::_ctor(::GlobalNamespace
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_ControllerState2>(), { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::OVRPlugin_ControllerState>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cs);
 }
-// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LHandTrigger", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LThumbstick", ty:
-// "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "LTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "RTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTrigger", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RHandTrigger", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LTouchpad", ty:
+// "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RTouchpad", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ControllerState2::OVRPlugin_ControllerState2(uint32_t ConnectedControllers, uint32_t Buttons, uint32_t Touches, uint32_t NearTouches, float_t LIndexTrigger,
                                                                                     float_t RIndexTrigger, float_t LHandTrigger, float_t RHandTrigger,
                                                                                     ::GlobalNamespace::OVRPlugin_Vector2f LThumbstick, ::GlobalNamespace::OVRPlugin_Vector2f RThumbstick,
@@ -1325,11 +1338,12 @@ constexpr ::GlobalNamespace::OVRPlugin_ControllerState2::OVRPlugin_ControllerSta
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_ControllerState2::OVRPlugin_ControllerState2() {}
-// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LHandTrigger", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LThumbstick", ty:
-// "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ConnectedControllers", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buttons", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Touches", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NearTouches", ty: "uint32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "LIndexTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RIndexTrigger", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LHandTrigger", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RHandTrigger", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "RThumbstick", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ControllerState::OVRPlugin_ControllerState(uint32_t ConnectedControllers, uint32_t Buttons, uint32_t Touches, uint32_t NearTouches, float_t LIndexTrigger,
                                                                                   float_t RIndexTrigger, float_t LHandTrigger, float_t RHandTrigger, ::GlobalNamespace::OVRPlugin_Vector2f LThumbstick,
                                                                                   ::GlobalNamespace::OVRPlugin_Vector2f RThumbstick) noexcept {
@@ -1346,24 +1360,26 @@ constexpr ::GlobalNamespace::OVRPlugin_ControllerState::OVRPlugin_ControllerStat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_ControllerState::OVRPlugin_ControllerState() {}
-// Ctor Parameters [CppParam { name: "Samples", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Samples", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HapticsBuffer::OVRPlugin_HapticsBuffer(::System::IntPtr Samples, int32_t SamplesCount) noexcept {
   this->Samples = Samples;
   this->SamplesCount = SamplesCount;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HapticsBuffer::OVRPlugin_HapticsBuffer() {}
-// Ctor Parameters [CppParam { name: "SamplesAvailable", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SamplesQueued", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "SamplesAvailable", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SamplesQueued", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HapticsState::OVRPlugin_HapticsState(int32_t SamplesAvailable, int32_t SamplesQueued) noexcept {
   this->SamplesAvailable = SamplesAvailable;
   this->SamplesQueued = SamplesQueued;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HapticsState::OVRPlugin_HapticsState() {}
-// Ctor Parameters [CppParam { name: "SampleRateHz", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SampleSizeInBytes", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "MinimumSafeSamplesQueued", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "MinimumBufferSamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "OptimalBufferSamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "MaximumBufferSamplesCount", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "SampleRateHz", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SampleSizeInBytes", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "MinimumSafeSamplesQueued", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "MinimumBufferSamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "OptimalBufferSamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "MaximumBufferSamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HapticsDesc::OVRPlugin_HapticsDesc(int32_t SampleRateHz, int32_t SampleSizeInBytes, int32_t MinimumSafeSamplesQueued, int32_t MinimumBufferSamplesCount,
                                                                           int32_t OptimalBufferSamplesCount, int32_t MaximumBufferSamplesCount) noexcept {
   this->SampleRateHz = SampleRateHz;
@@ -1375,8 +1391,8 @@ constexpr ::GlobalNamespace::OVRPlugin_HapticsDesc::OVRPlugin_HapticsDesc(int32_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HapticsDesc::OVRPlugin_HapticsDesc() {}
-// Ctor Parameters [CppParam { name: "Duration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "AmplitudeCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Amplitudes", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Duration", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AmplitudeCount", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Amplitudes", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HapticsAmplitudeEnvelopeVibration::OVRPlugin_HapticsAmplitudeEnvelopeVibration(float_t Duration, uint32_t AmplitudeCount, ::System::IntPtr Amplitudes) noexcept {
   this->Duration = Duration;
   this->AmplitudeCount = AmplitudeCount;
@@ -1384,9 +1400,10 @@ constexpr ::GlobalNamespace::OVRPlugin_HapticsAmplitudeEnvelopeVibration::OVRPlu
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HapticsAmplitudeEnvelopeVibration::OVRPlugin_HapticsAmplitudeEnvelopeVibration() {}
-// Ctor Parameters [CppParam { name: "BufferSize", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "SampleRateHz", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Append", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "SamplesConsumed", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "BufferSize", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buffer", ty: "::System::IntPtr", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "SampleRateHz", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Append", ty:
+// "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SamplesConsumed", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HapticsPcmVibration::OVRPlugin_HapticsPcmVibration(uint32_t BufferSize, ::System::IntPtr Buffer, float_t SampleRateHz, ::GlobalNamespace::OVRPlugin_Bool Append,
                                                                                           ::System::IntPtr SamplesConsumed) noexcept {
   this->BufferSize = BufferSize;
@@ -1397,21 +1414,22 @@ constexpr ::GlobalNamespace::OVRPlugin_HapticsPcmVibration::OVRPlugin_HapticsPcm
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HapticsPcmVibration::OVRPlugin_HapticsPcmVibration() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HapticsConstants::OVRPlugin_HapticsConstants(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HapticsConstants::OVRPlugin_HapticsConstants() {}
 constexpr ::GlobalNamespace::OVRPlugin_HapticsConstants GlobalNamespace::OVRPlugin_HapticsConstants::MaxSamples{ static_cast<int32_t>(0xfa0) };
-// Ctor Parameters [CppParam { name: "HmdVsyncIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "AppFrameIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "AppDroppedFrameCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "AppMotionToPhotonLatency", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "AppQueueAheadTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "AppCpuElapsedTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "AppGpuElapsedTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "CompositorFrameIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "CompositorDroppedFrameCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "CompositorLatency", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "CompositorCpuElapsedTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "CompositorGpuElapsedTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "CompositorCpuStartToGpuEndElapsedTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "CompositorGpuEndToVsyncElapsedTime", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "HmdVsyncIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AppFrameIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "AppDroppedFrameCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AppMotionToPhotonLatency", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AppQueueAheadTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "AppCpuElapsedTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AppGpuElapsedTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "CompositorFrameIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CompositorDroppedFrameCount", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "CompositorLatency", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CompositorCpuElapsedTime", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CompositorGpuElapsedTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "CompositorCpuStartToGpuEndElapsedTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CompositorGpuEndToVsyncElapsedTime", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_AppPerfFrameStats::OVRPlugin_AppPerfFrameStats(int32_t HmdVsyncIndex, int32_t AppFrameIndex, int32_t AppDroppedFrameCount, float_t AppMotionToPhotonLatency,
                                                                                       float_t AppQueueAheadTime, float_t AppCpuElapsedTime, float_t AppGpuElapsedTime, int32_t CompositorFrameIndex,
                                                                                       int32_t CompositorDroppedFrameCount, float_t CompositorLatency, float_t CompositorCpuElapsedTime,
@@ -1434,9 +1452,9 @@ constexpr ::GlobalNamespace::OVRPlugin_AppPerfFrameStats::OVRPlugin_AppPerfFrame
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_AppPerfFrameStats::OVRPlugin_AppPerfFrameStats() {}
-// Ctor Parameters [CppParam { name: "FrameStats", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_AppPerfFrameStats>", modifiers: "", def_value: Some("{}") }, CppParam { name: "FrameStatsCount", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "AnyFrameStatsDropped", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "AdaptiveGpuPerformanceScale", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FrameStats", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_AppPerfFrameStats>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "FrameStatsCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AnyFrameStatsDropped", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "AdaptiveGpuPerformanceScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_AppPerfStats::OVRPlugin_AppPerfStats(::ArrayW<::GlobalNamespace::OVRPlugin_AppPerfFrameStats> FrameStats, int32_t FrameStatsCount,
                                                                             ::GlobalNamespace::OVRPlugin_Bool AnyFrameStatsDropped, float_t AdaptiveGpuPerformanceScale) noexcept {
   this->FrameStats = FrameStats;
@@ -1512,7 +1530,8 @@ constexpr GlobalNamespace::OVRPlugin_Sizei::operator ::System::IEquatable_1<::Gl
 constexpr ::System::IEquatable_1<::GlobalNamespace::OVRPlugin_Sizei>* GlobalNamespace::OVRPlugin_Sizei::i___System__IEquatable_1___GlobalNamespace__OVRPlugin_Sizei_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRPlugin_Sizei>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "h", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::GlobalNamespace::OVRPlugin_Sizei::OVRPlugin_Sizei(int32_t w, int32_t h) noexcept {
   this->w = w;
   this->h = h;
@@ -1525,7 +1544,8 @@ inline void GlobalNamespace::OVRPlugin_Sizef::setStaticF_zero(::GlobalNamespace:
 inline ::GlobalNamespace::OVRPlugin_Sizef GlobalNamespace::OVRPlugin_Sizef::getStaticF_zero() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::OVRPlugin_Sizef, "zero", ::GlobalNamespace::OVRPlugin_Sizef>();
 }
-// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::GlobalNamespace::OVRPlugin_Sizef::OVRPlugin_Sizef(float_t w, float_t h) noexcept {
   this->w = w;
   this->h = h;
@@ -1538,8 +1558,8 @@ inline void GlobalNamespace::OVRPlugin_Size3f::setStaticF_zero(::GlobalNamespace
 inline ::GlobalNamespace::OVRPlugin_Size3f GlobalNamespace::OVRPlugin_Size3f::getStaticF_zero() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::OVRPlugin_Size3f, "zero", ::GlobalNamespace::OVRPlugin_Size3f>();
 }
-// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "d", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "d", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Size3f::OVRPlugin_Size3f(float_t w, float_t h, float_t d) noexcept {
   this->w = w;
   this->h = h;
@@ -1547,15 +1567,16 @@ constexpr ::GlobalNamespace::OVRPlugin_Size3f::OVRPlugin_Size3f(float_t w, float
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Size3f::OVRPlugin_Size3f() {}
-// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::GlobalNamespace::OVRPlugin_Vector2i::OVRPlugin_Vector2i(int32_t x, int32_t y) noexcept {
   this->x = x;
   this->y = y;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Vector2i::OVRPlugin_Vector2i() {}
-// Ctor Parameters [CppParam { name: "Pos", ty: "::GlobalNamespace::OVRPlugin_Vector2i", modifiers: "", def_value: Some("{}") }, CppParam { name: "Size", ty: "::GlobalNamespace::OVRPlugin_Sizei",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Pos", ty: "::GlobalNamespace::OVRPlugin_Vector2i", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty:
+// "::GlobalNamespace::OVRPlugin_Sizei", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Recti::OVRPlugin_Recti(::GlobalNamespace::OVRPlugin_Vector2i Pos, ::GlobalNamespace::OVRPlugin_Sizei Size) noexcept {
   this->Pos = Pos;
   this->Size = Size;
@@ -1599,16 +1620,16 @@ inline void GlobalNamespace::OVRPlugin_RectiPair::set_Item(int32_t i, ::GlobalNa
                                                                                          { "set_Item", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_Recti>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, i, value);
 }
-// Ctor Parameters [CppParam { name: "Rect0", ty: "::GlobalNamespace::OVRPlugin_Recti", modifiers: "", def_value: Some("{}") }, CppParam { name: "Rect1", ty: "::GlobalNamespace::OVRPlugin_Recti",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Rect0", ty: "::GlobalNamespace::OVRPlugin_Recti", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Rect1", ty:
+// "::GlobalNamespace::OVRPlugin_Recti", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_RectiPair::OVRPlugin_RectiPair(::GlobalNamespace::OVRPlugin_Recti Rect0, ::GlobalNamespace::OVRPlugin_Recti Rect1) noexcept {
   this->Rect0 = Rect0;
   this->Rect1 = Rect1;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_RectiPair::OVRPlugin_RectiPair() {}
-// Ctor Parameters [CppParam { name: "Pos", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}") }, CppParam { name: "Size", ty: "::GlobalNamespace::OVRPlugin_Sizef",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Pos", ty: "::GlobalNamespace::OVRPlugin_Vector2f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty:
+// "::GlobalNamespace::OVRPlugin_Sizef", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Rectf::OVRPlugin_Rectf(::GlobalNamespace::OVRPlugin_Vector2f Pos, ::GlobalNamespace::OVRPlugin_Sizef Size) noexcept {
   this->Pos = Pos;
   this->Size = Size;
@@ -1652,24 +1673,25 @@ inline void GlobalNamespace::OVRPlugin_RectfPair::set_Item(int32_t i, ::GlobalNa
                                                                                          { "set_Item", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_Rectf>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, i, value);
 }
-// Ctor Parameters [CppParam { name: "Rect0", ty: "::GlobalNamespace::OVRPlugin_Rectf", modifiers: "", def_value: Some("{}") }, CppParam { name: "Rect1", ty: "::GlobalNamespace::OVRPlugin_Rectf",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Rect0", ty: "::GlobalNamespace::OVRPlugin_Rectf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Rect1", ty:
+// "::GlobalNamespace::OVRPlugin_Rectf", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_RectfPair::OVRPlugin_RectfPair(::GlobalNamespace::OVRPlugin_Rectf Rect0, ::GlobalNamespace::OVRPlugin_Rectf Rect1) noexcept {
   this->Rect0 = Rect0;
   this->Rect1 = Rect1;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_RectfPair::OVRPlugin_RectfPair() {}
-// Ctor Parameters [CppParam { name: "Pos", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}") }, CppParam { name: "Size", ty: "::GlobalNamespace::OVRPlugin_Size3f",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Pos", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty:
+// "::GlobalNamespace::OVRPlugin_Size3f", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Boundsf::OVRPlugin_Boundsf(::GlobalNamespace::OVRPlugin_Vector3f Pos, ::GlobalNamespace::OVRPlugin_Size3f Size) noexcept {
   this->Pos = Pos;
   this->Size = Size;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Boundsf::OVRPlugin_Boundsf() {}
-// Ctor Parameters [CppParam { name: "zNear", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "zFar", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "fovX", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fovY", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "zNear", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "zFar", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "fovX", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fovY", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Frustumf::OVRPlugin_Frustumf(float_t zNear, float_t zFar, float_t fovX, float_t fovY) noexcept {
   this->zNear = zNear;
   this->zFar = zFar;
@@ -1678,8 +1700,9 @@ constexpr ::GlobalNamespace::OVRPlugin_Frustumf::OVRPlugin_Frustumf(float_t zNea
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Frustumf::OVRPlugin_Frustumf() {}
-// Ctor Parameters [CppParam { name: "UpTan", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "DownTan", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "LeftTan", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RightTan", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "UpTan", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DownTan", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "LeftTan", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RightTan", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Fovf::OVRPlugin_Fovf(float_t UpTan, float_t DownTan, float_t LeftTan, float_t RightTan) noexcept {
   this->UpTan = UpTan;
   this->DownTan = DownTan;
@@ -1688,8 +1711,8 @@ constexpr ::GlobalNamespace::OVRPlugin_Fovf::OVRPlugin_Fovf(float_t UpTan, float
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Fovf::OVRPlugin_Fovf() {}
-// Ctor Parameters [CppParam { name: "zNear", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "zFar", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Fov", ty: "::GlobalNamespace::OVRPlugin_Fovf", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "zNear", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "zFar", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Fov", ty: "::GlobalNamespace::OVRPlugin_Fovf", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Frustumf2::OVRPlugin_Frustumf2(float_t zNear, float_t zFar, ::GlobalNamespace::OVRPlugin_Fovf Fov) noexcept {
   this->zNear = zNear;
   this->zFar = zFar;
@@ -1697,7 +1720,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Frustumf2::OVRPlugin_Frustumf2(float_t zN
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Frustumf2::OVRPlugin_Frustumf2() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryType::OVRPlugin_BoundaryType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1705,9 +1728,9 @@ constexpr ::GlobalNamespace::OVRPlugin_BoundaryType::OVRPlugin_BoundaryType(int3
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryType::OVRPlugin_BoundaryType() {}
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryType GlobalNamespace::OVRPlugin_BoundaryType::OuterBoundary{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryType GlobalNamespace::OVRPlugin_BoundaryType::PlayArea{ static_cast<int32_t>(0x100) };
-// Ctor Parameters [CppParam { name: "IsTriggering", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "ClosestDistance", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "ClosestPoint", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}") }, CppParam { name: "ClosestPointNormal", ty:
-// "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsTriggering", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ClosestDistance", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ClosestPoint", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "ClosestPointNormal", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryTestResult::OVRPlugin_BoundaryTestResult(::GlobalNamespace::OVRPlugin_Bool IsTriggering, float_t ClosestDistance,
                                                                                         ::GlobalNamespace::OVRPlugin_Vector3f ClosestPoint,
                                                                                         ::GlobalNamespace::OVRPlugin_Vector3f ClosestPointNormal) noexcept {
@@ -1718,8 +1741,9 @@ constexpr ::GlobalNamespace::OVRPlugin_BoundaryTestResult::OVRPlugin_BoundaryTes
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryTestResult::OVRPlugin_BoundaryTestResult() {}
-// Ctor Parameters [CppParam { name: "BoundaryType", ty: "::GlobalNamespace::OVRPlugin_BoundaryType", modifiers: "", def_value: Some("{}") }, CppParam { name: "Points", ty:
-// "::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "PointsCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "BoundaryType", ty: "::GlobalNamespace::OVRPlugin_BoundaryType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Points", ty:
+// "::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PointsCount", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryGeometry::OVRPlugin_BoundaryGeometry(::GlobalNamespace::OVRPlugin_BoundaryType BoundaryType, ::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f> Points,
                                                                                     int32_t PointsCount) noexcept {
   this->BoundaryType = BoundaryType;
@@ -1745,8 +1769,8 @@ inline ::StringW GlobalNamespace::OVRPlugin_Colorf::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRPlugin_Colorf>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "b", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "b", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Colorf::OVRPlugin_Colorf(float_t r, float_t g, float_t b, float_t a) noexcept {
   this->r = r;
   this->g = g;
@@ -1790,18 +1814,18 @@ inline void GlobalNamespace::OVRPlugin_FovfPair::set_Item(int32_t i, ::GlobalNam
                                                                                          { "set_Item", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_Fovf>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, i, value);
 }
-// Ctor Parameters [CppParam { name: "Fov0", ty: "::GlobalNamespace::OVRPlugin_Fovf", modifiers: "", def_value: Some("{}") }, CppParam { name: "Fov1", ty: "::GlobalNamespace::OVRPlugin_Fovf",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Fov0", ty: "::GlobalNamespace::OVRPlugin_Fovf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Fov1", ty:
+// "::GlobalNamespace::OVRPlugin_Fovf", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FovfPair::OVRPlugin_FovfPair(::GlobalNamespace::OVRPlugin_Fovf Fov0, ::GlobalNamespace::OVRPlugin_Fovf Fov1) noexcept {
   this->Fov0 = Fov0;
   this->Fov1 = Fov1;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_FovfPair::OVRPlugin_FovfPair() {}
-// Ctor Parameters [CppParam { name: "IsValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "LastChangedTimeSeconds", ty: "double_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "FOVPort", ty: "::GlobalNamespace::OVRPlugin_Fovf", modifiers: "", def_value: Some("{}") }, CppParam { name: "VirtualNearPlaneDistanceMeters", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "VirtualFarPlaneDistanceMeters", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "ImageSensorPixelResolution", ty: "::GlobalNamespace::OVRPlugin_Sizei", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LastChangedTimeSeconds", ty:
+// "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FOVPort", ty: "::GlobalNamespace::OVRPlugin_Fovf", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "VirtualNearPlaneDistanceMeters", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "VirtualFarPlaneDistanceMeters", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "ImageSensorPixelResolution", ty: "::GlobalNamespace::OVRPlugin_Sizei", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_CameraIntrinsics::OVRPlugin_CameraIntrinsics(::GlobalNamespace::OVRPlugin_Bool IsValid, double_t LastChangedTimeSeconds,
                                                                                     ::GlobalNamespace::OVRPlugin_Fovf FOVPort, float_t VirtualNearPlaneDistanceMeters,
                                                                                     float_t VirtualFarPlaneDistanceMeters, ::GlobalNamespace::OVRPlugin_Sizei ImageSensorPixelResolution) noexcept {
@@ -1814,9 +1838,10 @@ constexpr ::GlobalNamespace::OVRPlugin_CameraIntrinsics::OVRPlugin_CameraIntrins
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_CameraIntrinsics::OVRPlugin_CameraIntrinsics() {}
-// Ctor Parameters [CppParam { name: "IsValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "LastChangedTimeSeconds", ty: "double_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "CameraStatusData", ty: "::GlobalNamespace::OVRPlugin_CameraStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "AttachedToNode", ty:
-// "::GlobalNamespace::OVRPlugin_Node", modifiers: "", def_value: Some("{}") }, CppParam { name: "RelativePose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LastChangedTimeSeconds", ty:
+// "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CameraStatusData", ty: "::GlobalNamespace::OVRPlugin_CameraStatus", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "AttachedToNode", ty: "::GlobalNamespace::OVRPlugin_Node", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RelativePose", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_CameraExtrinsics::OVRPlugin_CameraExtrinsics(::GlobalNamespace::OVRPlugin_Bool IsValid, double_t LastChangedTimeSeconds,
                                                                                     ::GlobalNamespace::OVRPlugin_CameraStatus CameraStatusData, ::GlobalNamespace::OVRPlugin_Node AttachedToNode,
                                                                                     ::GlobalNamespace::OVRPlugin_Posef RelativePose) noexcept {
@@ -1828,7 +1853,7 @@ constexpr ::GlobalNamespace::OVRPlugin_CameraExtrinsics::OVRPlugin_CameraExtrins
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_CameraExtrinsics::OVRPlugin_CameraExtrinsics() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_LayerLayout::OVRPlugin_LayerLayout(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1839,7 +1864,7 @@ constexpr ::GlobalNamespace::OVRPlugin_LayerLayout GlobalNamespace::OVRPlugin_La
 constexpr ::GlobalNamespace::OVRPlugin_LayerLayout GlobalNamespace::OVRPlugin_LayerLayout::DoubleWide{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_LayerLayout GlobalNamespace::OVRPlugin_LayerLayout::Array{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_LayerLayout GlobalNamespace::OVRPlugin_LayerLayout::EnumSize{ static_cast<int32_t>(0xf) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_LayerFlags::OVRPlugin_LayerFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1871,15 +1896,16 @@ inline ::StringW GlobalNamespace::OVRPlugin_LayerDesc::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRPlugin_LayerDesc>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Shape", ty: "::GlobalNamespace::OVRPlugin_OverlayShape", modifiers: "", def_value: Some("{}") }, CppParam { name: "Layout", ty:
-// "::GlobalNamespace::OVRPlugin_LayerLayout", modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureSize", ty: "::GlobalNamespace::OVRPlugin_Sizei", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "MipLevels", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SampleCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Format", ty: "::GlobalNamespace::OVRPlugin_EyeTextureFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "LayerFlags", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "Fov", ty: "::GlobalNamespace::OVRPlugin_FovfPair", modifiers: "", def_value: Some("{}") }, CppParam { name: "VisibleRect", ty: "::GlobalNamespace::OVRPlugin_RectfPair", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "MaxViewportSize", ty: "::GlobalNamespace::OVRPlugin_Sizei", modifiers: "", def_value: Some("{}") }, CppParam { name: "DepthFormat", ty:
-// "::GlobalNamespace::OVRPlugin_EyeTextureFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "MotionVectorFormat", ty: "::GlobalNamespace::OVRPlugin_EyeTextureFormat", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "MotionVectorDepthFormat", ty: "::GlobalNamespace::OVRPlugin_EyeTextureFormat", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "MotionVectorTextureSize", ty: "::GlobalNamespace::OVRPlugin_Sizei", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Shape", ty: "::GlobalNamespace::OVRPlugin_OverlayShape", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Layout", ty:
+// "::GlobalNamespace::OVRPlugin_LayerLayout", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TextureSize", ty: "::GlobalNamespace::OVRPlugin_Sizei", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "MipLevels", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SampleCount", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "Format", ty: "::GlobalNamespace::OVRPlugin_EyeTextureFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "LayerFlags", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Fov", ty: "::GlobalNamespace::OVRPlugin_FovfPair", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "VisibleRect", ty: "::GlobalNamespace::OVRPlugin_RectfPair", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MaxViewportSize", ty:
+// "::GlobalNamespace::OVRPlugin_Sizei", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DepthFormat", ty: "::GlobalNamespace::OVRPlugin_EyeTextureFormat", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "MotionVectorFormat", ty: "::GlobalNamespace::OVRPlugin_EyeTextureFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "MotionVectorDepthFormat", ty: "::GlobalNamespace::OVRPlugin_EyeTextureFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MotionVectorTextureSize", ty:
+// "::GlobalNamespace::OVRPlugin_Sizei", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_LayerDesc::OVRPlugin_LayerDesc(::GlobalNamespace::OVRPlugin_OverlayShape Shape, ::GlobalNamespace::OVRPlugin_LayerLayout Layout,
                                                                       ::GlobalNamespace::OVRPlugin_Sizei TextureSize, int32_t MipLevels, int32_t SampleCount,
                                                                       ::GlobalNamespace::OVRPlugin_EyeTextureFormat Format, int32_t LayerFlags, ::GlobalNamespace::OVRPlugin_FovfPair Fov,
@@ -1904,7 +1930,7 @@ constexpr ::GlobalNamespace::OVRPlugin_LayerDesc::OVRPlugin_LayerDesc(::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_LayerDesc::OVRPlugin_LayerDesc() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BlendFactor::OVRPlugin_BlendFactor(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1916,9 +1942,10 @@ constexpr ::GlobalNamespace::OVRPlugin_BlendFactor GlobalNamespace::OVRPlugin_Bl
 constexpr ::GlobalNamespace::OVRPlugin_BlendFactor GlobalNamespace::OVRPlugin_BlendFactor::OneMinusSrcAlpha{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_BlendFactor GlobalNamespace::OVRPlugin_BlendFactor::DstAlpha{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_BlendFactor GlobalNamespace::OVRPlugin_BlendFactor::OneMinusDstAlpha{ static_cast<int32_t>(0x5) };
-// Ctor Parameters [CppParam { name: "LayerId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureStage", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "ViewportRect", ty: "::GlobalNamespace::OVRPlugin_RectiPair", modifiers: "", def_value: Some("{}") }, CppParam { name: "Pose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "LayerSubmitFlags", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "LayerId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TextureStage", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "ViewportRect", ty: "::GlobalNamespace::OVRPlugin_RectiPair", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Pose", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LayerSubmitFlags", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::GlobalNamespace::OVRPlugin_LayerSubmit::OVRPlugin_LayerSubmit(int32_t LayerId, int32_t TextureStage, ::GlobalNamespace::OVRPlugin_RectiPair ViewportRect,
                                                                           ::GlobalNamespace::OVRPlugin_Posef Pose, int32_t LayerSubmitFlags) noexcept {
   this->LayerId = LayerId;
@@ -1929,7 +1956,7 @@ constexpr ::GlobalNamespace::OVRPlugin_LayerSubmit::OVRPlugin_LayerSubmit(int32_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_LayerSubmit::OVRPlugin_LayerSubmit() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_TrackingConfidence::OVRPlugin_TrackingConfidence(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1937,7 +1964,7 @@ constexpr ::GlobalNamespace::OVRPlugin_TrackingConfidence::OVRPlugin_TrackingCon
 constexpr ::GlobalNamespace::OVRPlugin_TrackingConfidence::OVRPlugin_TrackingConfidence() {}
 constexpr ::GlobalNamespace::OVRPlugin_TrackingConfidence GlobalNamespace::OVRPlugin_TrackingConfidence::Low{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_TrackingConfidence GlobalNamespace::OVRPlugin_TrackingConfidence::High{ static_cast<int32_t>(0x3f800000) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Hand::OVRPlugin_Hand(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1946,7 +1973,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Hand::OVRPlugin_Hand() {}
 constexpr ::GlobalNamespace::OVRPlugin_Hand GlobalNamespace::OVRPlugin_Hand::None{ static_cast<int32_t>(0xffffffff) };
 constexpr ::GlobalNamespace::OVRPlugin_Hand GlobalNamespace::OVRPlugin_Hand::HandLeft{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_Hand GlobalNamespace::OVRPlugin_Hand::HandRight{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HandStatus::OVRPlugin_HandStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1957,7 +1984,7 @@ constexpr ::GlobalNamespace::OVRPlugin_HandStatus GlobalNamespace::OVRPlugin_Han
 constexpr ::GlobalNamespace::OVRPlugin_HandStatus GlobalNamespace::OVRPlugin_HandStatus::SystemGestureInProgress{ static_cast<int32_t>(0x40) };
 constexpr ::GlobalNamespace::OVRPlugin_HandStatus GlobalNamespace::OVRPlugin_HandStatus::DominantHand{ static_cast<int32_t>(0x80) };
 constexpr ::GlobalNamespace::OVRPlugin_HandStatus GlobalNamespace::OVRPlugin_HandStatus::MenuPressed{ static_cast<int32_t>(0x100) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BoneId::OVRPlugin_BoneId(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2180,7 +2207,7 @@ constexpr ::GlobalNamespace::OVRPlugin_BoneId GlobalNamespace::OVRPlugin_BoneId:
 constexpr ::GlobalNamespace::OVRPlugin_BoneId GlobalNamespace::OVRPlugin_BoneId::FullBody_End{ static_cast<int32_t>(0x54) };
 constexpr ::GlobalNamespace::OVRPlugin_BoneId GlobalNamespace::OVRPlugin_BoneId::FullBody_Invalid{ static_cast<int32_t>(0x55) };
 constexpr ::GlobalNamespace::OVRPlugin_BoneId GlobalNamespace::OVRPlugin_BoneId::Max{ static_cast<int32_t>(0x54) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HandFinger::OVRPlugin_HandFinger(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2192,7 +2219,7 @@ constexpr ::GlobalNamespace::OVRPlugin_HandFinger GlobalNamespace::OVRPlugin_Han
 constexpr ::GlobalNamespace::OVRPlugin_HandFinger GlobalNamespace::OVRPlugin_HandFinger::Ring{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_HandFinger GlobalNamespace::OVRPlugin_HandFinger::Pinky{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_HandFinger GlobalNamespace::OVRPlugin_HandFinger::Max{ static_cast<int32_t>(0x5) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_MicrogestureType::OVRPlugin_MicrogestureType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2205,7 +2232,7 @@ constexpr ::GlobalNamespace::OVRPlugin_MicrogestureType GlobalNamespace::OVRPlug
 constexpr ::GlobalNamespace::OVRPlugin_MicrogestureType GlobalNamespace::OVRPlugin_MicrogestureType::SwipeBackward{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_MicrogestureType GlobalNamespace::OVRPlugin_MicrogestureType::ThumbTap{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::OVRPlugin_MicrogestureType GlobalNamespace::OVRPlugin_MicrogestureType::Invalid{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HandFingerPinch::OVRPlugin_HandFingerPinch(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2216,14 +2243,15 @@ constexpr ::GlobalNamespace::OVRPlugin_HandFingerPinch GlobalNamespace::OVRPlugi
 constexpr ::GlobalNamespace::OVRPlugin_HandFingerPinch GlobalNamespace::OVRPlugin_HandFingerPinch::Middle{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_HandFingerPinch GlobalNamespace::OVRPlugin_HandFingerPinch::Ring{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::OVRPlugin_HandFingerPinch GlobalNamespace::OVRPlugin_HandFingerPinch::Pinky{ static_cast<int32_t>(0x10) };
-// Ctor Parameters [CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_HandStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "RootPose", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_Quatf>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BonePositions", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Pinches", ty:
-// "::GlobalNamespace::OVRPlugin_HandFingerPinch", modifiers: "", def_value: Some("{}") }, CppParam { name: "PinchStrength", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "PointerPose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "HandScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "HandConfidence", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name: "FingerConfidences", ty:
-// "::ArrayW<::GlobalNamespace::OVRPlugin_TrackingConfidence>", modifiers: "", def_value: Some("{}") }, CppParam { name: "RequestedTimeStamp", ty: "double_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "SampleTimeStamp", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_HandStatus", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RootPose", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_Quatf>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BonePositions", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "Pinches", ty: "::GlobalNamespace::OVRPlugin_HandFingerPinch", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength", ty: "::ArrayW<float_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "PointerPose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "HandScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "HandConfidence", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "FingerConfidences", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_TrackingConfidence>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "RequestedTimeStamp", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SampleTimeStamp", ty: "double_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HandState::OVRPlugin_HandState(::GlobalNamespace::OVRPlugin_HandStatus Status, ::GlobalNamespace::OVRPlugin_Posef RootPose,
                                                                       ::ArrayW<::GlobalNamespace::OVRPlugin_Quatf> BoneRotations, ::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f> BonePositions,
                                                                       ::GlobalNamespace::OVRPlugin_HandFingerPinch Pinches, ::ArrayW<float_t> PinchStrength,
@@ -2245,44 +2273,48 @@ constexpr ::GlobalNamespace::OVRPlugin_HandState::OVRPlugin_HandState(::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HandState::OVRPlugin_HandState() {}
-// Ctor Parameters [CppParam { name: "Microgesture", ty: "::GlobalNamespace::OVRPlugin_MicrogestureType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Microgesture", ty: "::GlobalNamespace::OVRPlugin_MicrogestureType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HandTrackingState::OVRPlugin_HandTrackingState(::GlobalNamespace::OVRPlugin_MicrogestureType Microgesture) noexcept {
   this->Microgesture = Microgesture;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HandTrackingState::OVRPlugin_HandTrackingState() {}
-// Ctor Parameters [CppParam { name: "Microgesture", ty: "::GlobalNamespace::OVRPlugin_MicrogestureType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Microgesture", ty: "::GlobalNamespace::OVRPlugin_MicrogestureType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HandTrackingStateInternal::OVRPlugin_HandTrackingStateInternal(::GlobalNamespace::OVRPlugin_MicrogestureType Microgesture) noexcept {
   this->Microgesture = Microgesture;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HandTrackingStateInternal::OVRPlugin_HandTrackingStateInternal() {}
-// Ctor Parameters [CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_HandStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "RootPose", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_0", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BoneRotations_1", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_2", ty: "::GlobalNamespace::OVRPlugin_Quatf",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_3", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_4", ty:
-// "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_5", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BoneRotations_6", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_7", ty: "::GlobalNamespace::OVRPlugin_Quatf",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_8", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_9", ty:
-// "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_10", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BoneRotations_11", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_12", ty: "::GlobalNamespace::OVRPlugin_Quatf",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_13", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_14",
-// ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_15", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "BoneRotations_16", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_17", ty:
-// "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_18", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BoneRotations_19", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_20", ty: "::GlobalNamespace::OVRPlugin_Quatf",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_21", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_22",
-// ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneRotations_23", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "Pinches", ty: "::GlobalNamespace::OVRPlugin_HandFingerPinch", modifiers: "", def_value: Some("{}") }, CppParam { name: "PinchStrength_0", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "PinchStrength_1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PinchStrength_2", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "PinchStrength_3", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PinchStrength_4", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "PointerPose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "HandScale", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "HandConfidence", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name: "FingerConfidences_0", ty:
-// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name: "FingerConfidences_1", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "FingerConfidences_2", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "FingerConfidences_3", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name: "FingerConfidences_4", ty:
-// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name: "RequestedTimeStamp", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "SampleTimeStamp", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_HandStatus", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RootPose", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_0", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BoneRotations_1", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_2",
+// ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_3", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_4", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneRotations_5", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_6", ty: "::GlobalNamespace::OVRPlugin_Quatf",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_7", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "BoneRotations_8", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_9", ty:
+// "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_10", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BoneRotations_11", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneRotations_12", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_13", ty: "::GlobalNamespace::OVRPlugin_Quatf",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_14", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "BoneRotations_15", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_16", ty:
+// "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_17", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BoneRotations_18", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneRotations_19", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_20", ty: "::GlobalNamespace::OVRPlugin_Quatf",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_21", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "BoneRotations_22", ty: "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneRotations_23", ty:
+// "::GlobalNamespace::OVRPlugin_Quatf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Pinches", ty: "::GlobalNamespace::OVRPlugin_HandFingerPinch", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength_0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength_1", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength_2", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength_3",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength_4", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "PointerPose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "HandScale", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "HandConfidence", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "FingerConfidences_0", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FingerConfidences_1", ty:
+// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FingerConfidences_2", ty:
+// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FingerConfidences_3", ty:
+// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FingerConfidences_4", ty:
+// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RequestedTimeStamp", ty: "double_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "SampleTimeStamp", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HandStateInternal::OVRPlugin_HandStateInternal(
     ::GlobalNamespace::OVRPlugin_HandStatus Status, ::GlobalNamespace::OVRPlugin_Posef RootPose, ::GlobalNamespace::OVRPlugin_Quatf BoneRotations_0, ::GlobalNamespace::OVRPlugin_Quatf BoneRotations_1,
     ::GlobalNamespace::OVRPlugin_Quatf BoneRotations_2, ::GlobalNamespace::OVRPlugin_Quatf BoneRotations_3, ::GlobalNamespace::OVRPlugin_Quatf BoneRotations_4,
@@ -2342,33 +2374,36 @@ constexpr ::GlobalNamespace::OVRPlugin_HandStateInternal::OVRPlugin_HandStateInt
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HandStateInternal::OVRPlugin_HandStateInternal() {}
-// Ctor Parameters [CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_HandStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "RootPose", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_0", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BonePoses_1", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_2", ty: "::GlobalNamespace::OVRPlugin_Posef",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_3", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_4", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_5", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BonePoses_6", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_7", ty: "::GlobalNamespace::OVRPlugin_Posef",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_8", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_9", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_10", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BonePoses_11", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_12", ty: "::GlobalNamespace::OVRPlugin_Posef",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_13", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_14", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_15", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BonePoses_16", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_17", ty: "::GlobalNamespace::OVRPlugin_Posef",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_18", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_19", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_20", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BonePoses_21", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_22", ty: "::GlobalNamespace::OVRPlugin_Posef",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_23", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_24", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "BonePoses_25", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Pinches", ty: "::GlobalNamespace::OVRPlugin_HandFingerPinch", modifiers: "", def_value: Some("{}") }, CppParam { name: "PinchStrength_0", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "PinchStrength_1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PinchStrength_2", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "PinchStrength_3", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PinchStrength_4", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "PointerPose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "HandScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "HandConfidence", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name: "FingerConfidences_0", ty:
-// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name: "FingerConfidences_1", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "FingerConfidences_2", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "FingerConfidences_3", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name: "FingerConfidences_4", ty:
-// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}") }, CppParam { name: "RequestedTimeStamp", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "SampleTimeStamp", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_HandStatus", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RootPose", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_0", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BonePoses_1", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_2", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_3", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BonePoses_4", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_5", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_6", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BonePoses_7", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_8", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_9", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BonePoses_10", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_11", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_12", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BonePoses_13", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_14", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_15", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BonePoses_16", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_17", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_18", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BonePoses_19", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_20", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_21", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BonePoses_22", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_23", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BonePoses_24", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BonePoses_25", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Pinches", ty:
+// "::GlobalNamespace::OVRPlugin_HandFingerPinch", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength_0", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "PinchStrength_1", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength_2", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength_3", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PinchStrength_4", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PointerPose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "HandScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "HandConfidence", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "FingerConfidences_0", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "FingerConfidences_1", ty: "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FingerConfidences_2", ty:
+// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FingerConfidences_3", ty:
+// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FingerConfidences_4", ty:
+// "::GlobalNamespace::OVRPlugin_TrackingConfidence", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RequestedTimeStamp", ty: "double_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "SampleTimeStamp", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_HandState3Internal::OVRPlugin_HandState3Internal(
     ::GlobalNamespace::OVRPlugin_HandStatus Status, ::GlobalNamespace::OVRPlugin_Posef RootPose, ::GlobalNamespace::OVRPlugin_Posef BonePoses_0, ::GlobalNamespace::OVRPlugin_Posef BonePoses_1,
     ::GlobalNamespace::OVRPlugin_Posef BonePoses_2, ::GlobalNamespace::OVRPlugin_Posef BonePoses_3, ::GlobalNamespace::OVRPlugin_Posef BonePoses_4, ::GlobalNamespace::OVRPlugin_Posef BonePoses_5,
@@ -2429,9 +2464,9 @@ constexpr ::GlobalNamespace::OVRPlugin_HandState3Internal::OVRPlugin_HandState3I
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_HandState3Internal::OVRPlugin_HandState3Internal() {}
-// Ctor Parameters [CppParam { name: "BoneIndex", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "StartPoint", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "EndPoint", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}") }, CppParam { name: "Radius", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "BoneIndex", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "StartPoint", ty: "::GlobalNamespace::OVRPlugin_Vector3f",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "EndPoint", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "Radius", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BoneCapsule::OVRPlugin_BoneCapsule(int16_t BoneIndex, ::GlobalNamespace::OVRPlugin_Vector3f StartPoint, ::GlobalNamespace::OVRPlugin_Vector3f EndPoint,
                                                                           float_t Radius) noexcept {
   this->BoneIndex = BoneIndex;
@@ -2441,8 +2476,8 @@ constexpr ::GlobalNamespace::OVRPlugin_BoneCapsule::OVRPlugin_BoneCapsule(int16_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_BoneCapsule::OVRPlugin_BoneCapsule() {}
-// Ctor Parameters [CppParam { name: "Id", ty: "::GlobalNamespace::OVRPlugin_BoneId", modifiers: "", def_value: Some("{}") }, CppParam { name: "ParentBoneIndex", ty: "int16_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "Pose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Id", ty: "::GlobalNamespace::OVRPlugin_BoneId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ParentBoneIndex", ty: "int16_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Pose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Bone::OVRPlugin_Bone(::GlobalNamespace::OVRPlugin_BoneId Id, int16_t ParentBoneIndex, ::GlobalNamespace::OVRPlugin_Posef Pose) noexcept {
   this->Id = Id;
   this->ParentBoneIndex = ParentBoneIndex;
@@ -2450,7 +2485,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Bone::OVRPlugin_Bone(::GlobalNamespace::O
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Bone::OVRPlugin_Bone() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SkeletonConstants::OVRPlugin_SkeletonConstants(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2461,7 +2496,7 @@ constexpr ::GlobalNamespace::OVRPlugin_SkeletonConstants GlobalNamespace::OVRPlu
 constexpr ::GlobalNamespace::OVRPlugin_SkeletonConstants GlobalNamespace::OVRPlugin_SkeletonConstants::MaxBodyBones{ static_cast<int32_t>(0x46) };
 constexpr ::GlobalNamespace::OVRPlugin_SkeletonConstants GlobalNamespace::OVRPlugin_SkeletonConstants::MaxBones{ static_cast<int32_t>(0x54) };
 constexpr ::GlobalNamespace::OVRPlugin_SkeletonConstants GlobalNamespace::OVRPlugin_SkeletonConstants::MaxBoneCapsules{ static_cast<int32_t>(0x13) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SkeletonType::OVRPlugin_SkeletonType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2474,9 +2509,10 @@ constexpr ::GlobalNamespace::OVRPlugin_SkeletonType GlobalNamespace::OVRPlugin_S
 constexpr ::GlobalNamespace::OVRPlugin_SkeletonType GlobalNamespace::OVRPlugin_SkeletonType::FullBody{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRPlugin_SkeletonType GlobalNamespace::OVRPlugin_SkeletonType::XRHandLeft{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_SkeletonType GlobalNamespace::OVRPlugin_SkeletonType::XRHandRight{ static_cast<int32_t>(0x5) };
-// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SkeletonType", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumBones", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "NumBoneCapsules", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_Bone>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_BoneCapsule>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SkeletonType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumBones", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumBoneCapsules", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones", ty:
+// "::ArrayW<::GlobalNamespace::OVRPlugin_Bone>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_BoneCapsule>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Skeleton::OVRPlugin_Skeleton(::GlobalNamespace::OVRPlugin_SkeletonType Type, uint32_t NumBones, uint32_t NumBoneCapsules,
                                                                     ::ArrayW<::GlobalNamespace::OVRPlugin_Bone> Bones, ::ArrayW<::GlobalNamespace::OVRPlugin_BoneCapsule> BoneCapsules) noexcept {
   this->Type = Type;
@@ -2487,9 +2523,10 @@ constexpr ::GlobalNamespace::OVRPlugin_Skeleton::OVRPlugin_Skeleton(::GlobalName
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Skeleton::OVRPlugin_Skeleton() {}
-// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SkeletonType", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumBones", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "NumBoneCapsules", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_Bone>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_BoneCapsule>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SkeletonType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumBones", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumBoneCapsules", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones", ty:
+// "::ArrayW<::GlobalNamespace::OVRPlugin_Bone>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_BoneCapsule>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Skeleton2::OVRPlugin_Skeleton2(::GlobalNamespace::OVRPlugin_SkeletonType Type, uint32_t NumBones, uint32_t NumBoneCapsules,
                                                                       ::ArrayW<::GlobalNamespace::OVRPlugin_Bone> Bones, ::ArrayW<::GlobalNamespace::OVRPlugin_BoneCapsule> BoneCapsules) noexcept {
   this->Type = Type;
@@ -2500,61 +2537,69 @@ constexpr ::GlobalNamespace::OVRPlugin_Skeleton2::OVRPlugin_Skeleton2(::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Skeleton2::OVRPlugin_Skeleton2() {}
-// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SkeletonType", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumBones", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "NumBoneCapsules", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_0", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "Bones_1", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_2", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_3", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_4", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_5", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_6", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_7", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_8", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_9", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_10", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_11", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_12", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_13", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_14", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_15", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_16", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_17", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_18", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_19", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_20", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_21", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_22", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_23", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_24", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_25", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_26", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_27", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_28", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_29", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_30", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_31", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_32", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_33", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_34", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_35", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_36", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_37", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_38", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_39", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_40", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_41", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_42", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_43", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_44", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_45", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_46", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_47", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_48", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_49", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_50", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_51", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_52", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_53", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_54", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_55", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_56", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_57", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_58", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_59", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_60", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_61", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_62", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_63", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_64", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_65", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_66", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_67", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_68", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_69", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_0", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_1", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_2", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_3", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_4", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_5", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_6", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_7", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_8", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_9", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_10", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_11", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_12", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_13", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_14", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_15", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_16", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_17", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_18", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SkeletonType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumBones", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumBoneCapsules", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_0", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_1", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_2", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_3", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_4", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_5", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_6", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_7", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_8", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_9", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_10", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_11", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_12", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_13", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_14", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_15", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_16", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_17", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_18", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_19", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_20", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_21", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_22", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_23", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_24", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_25", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_26", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_27", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_28", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_29", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_30", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_31", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_32", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_33", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_34", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_35", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_36", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_37", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_38", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_39", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_40", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_41", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_42", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_43", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_44", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_45", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_46", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_47", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_48", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_49", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_50", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_51", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_52", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_53", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_54", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_55", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_56", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_57", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_58", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_59", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_60", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_61", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_62", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_63", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_64", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_65", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_66", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_67", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_68", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_69", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_0", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_1", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneCapsules_2", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_3", ty:
+// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_4", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_5", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneCapsules_6", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_7", ty:
+// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_8", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_9", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneCapsules_10", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_11", ty:
+// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_12", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_13", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneCapsules_14", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_15", ty:
+// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_16", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_17", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneCapsules_18", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Skeleton2Internal::OVRPlugin_Skeleton2Internal(
     ::GlobalNamespace::OVRPlugin_SkeletonType Type, uint32_t NumBones, uint32_t NumBoneCapsules, ::GlobalNamespace::OVRPlugin_Bone Bones_0, ::GlobalNamespace::OVRPlugin_Bone Bones_1,
     ::GlobalNamespace::OVRPlugin_Bone Bones_2, ::GlobalNamespace::OVRPlugin_Bone Bones_3, ::GlobalNamespace::OVRPlugin_Bone Bones_4, ::GlobalNamespace::OVRPlugin_Bone Bones_5,
@@ -2676,69 +2721,78 @@ constexpr ::GlobalNamespace::OVRPlugin_Skeleton2Internal::OVRPlugin_Skeleton2Int
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Skeleton2Internal::OVRPlugin_Skeleton2Internal() {}
-// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SkeletonType", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumBones", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "NumBoneCapsules", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_0", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "Bones_1", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_2", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_3", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_4", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_5", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_6", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_7", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_8", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_9", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_10", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_11", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_12", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_13", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_14", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_15", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_16", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_17", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_18", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_19", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_20", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_21", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_22", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_23", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_24", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_25", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_26", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_27", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_28", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_29", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_30", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_31", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_32", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_33", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_34", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_35", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_36", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_37", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_38", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_39", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_40", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_41", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_42", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_43", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_44", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_45", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_46", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_47", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_48", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_49", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_50", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_51", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_52", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_53", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_54", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_55", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_56", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_57", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_58", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_59", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_60", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_61", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_62", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_63", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_64", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_65", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_66", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_67", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_68", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_69", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_70", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_71", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_72", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_73", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_74", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_75", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_76", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_77", ty: "::GlobalNamespace::OVRPlugin_Bone",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_78", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_79", ty:
-// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_80", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Bones_81", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bones_82", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Bones_83", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_0", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_1", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_2", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_3", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_4", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_5", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_6", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_7", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_8", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_9", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_10", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_11", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_12", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_13", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_14", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_15", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_16", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "BoneCapsules_17", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneCapsules_18", ty:
-// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SkeletonType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumBones", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumBoneCapsules", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_0", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_1", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_2", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_3", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_4", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_5", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_6", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_7", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_8", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_9", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_10", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_11", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_12", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_13", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_14", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_15", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_16", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_17", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_18", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_19", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_20", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_21", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_22", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_23", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_24", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_25", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_26", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_27", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_28", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_29", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_30", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_31", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_32", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_33", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_34", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_35", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_36", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_37", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_38", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_39", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_40", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_41", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_42", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_43", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_44", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_45", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_46", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_47", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_48", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_49", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_50", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_51", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_52", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_53", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_54", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_55", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_56", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_57", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_58", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_59", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_60", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_61", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_62", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_63", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_64", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_65", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_66", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_67", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_68", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_69", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_70", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_71", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_72", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_73", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_74", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_75", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_76", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_77", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_78", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_79", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_80", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_81", ty:
+// "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Bones_82", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Bones_83", ty: "::GlobalNamespace::OVRPlugin_Bone", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_0", ty:
+// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_1", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_2", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneCapsules_3", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_4", ty:
+// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_5", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_6", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneCapsules_7", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_8", ty:
+// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_9", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_10", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneCapsules_11", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_12", ty:
+// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_13", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_14", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneCapsules_15", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_16", ty:
+// "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_17", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "BoneCapsules_18", ty: "::GlobalNamespace::OVRPlugin_BoneCapsule", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_Skeleton3Internal::OVRPlugin_Skeleton3Internal(
     ::GlobalNamespace::OVRPlugin_SkeletonType Type, uint32_t NumBones, uint32_t NumBoneCapsules, ::GlobalNamespace::OVRPlugin_Bone Bones_0, ::GlobalNamespace::OVRPlugin_Bone Bones_1,
     ::GlobalNamespace::OVRPlugin_Bone Bones_2, ::GlobalNamespace::OVRPlugin_Bone Bones_3, ::GlobalNamespace::OVRPlugin_Bone Bones_4, ::GlobalNamespace::OVRPlugin_Bone Bones_5,
@@ -2877,7 +2931,7 @@ constexpr ::GlobalNamespace::OVRPlugin_Skeleton3Internal::OVRPlugin_Skeleton3Int
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Skeleton3Internal::OVRPlugin_Skeleton3Internal() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_MeshConstants::OVRPlugin_MeshConstants(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2885,7 +2939,7 @@ constexpr ::GlobalNamespace::OVRPlugin_MeshConstants::OVRPlugin_MeshConstants(in
 constexpr ::GlobalNamespace::OVRPlugin_MeshConstants::OVRPlugin_MeshConstants() {}
 constexpr ::GlobalNamespace::OVRPlugin_MeshConstants GlobalNamespace::OVRPlugin_MeshConstants::MaxVertices{ static_cast<int32_t>(0xbb8) };
 constexpr ::GlobalNamespace::OVRPlugin_MeshConstants GlobalNamespace::OVRPlugin_MeshConstants::MaxIndices{ static_cast<int32_t>(0x4650) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_MeshType::OVRPlugin_MeshType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3025,7 +3079,7 @@ inline ::GlobalNamespace::OVRPlugin_Mesh* GlobalNamespace::OVRPlugin_Mesh::New_c
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Mesh::OVRPlugin_Mesh() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceLocationFlags::OVRPlugin_SpaceLocationFlags(uint64_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3035,15 +3089,15 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceLocationFlags GlobalNamespace::OVRPl
 constexpr ::GlobalNamespace::OVRPlugin_SpaceLocationFlags GlobalNamespace::OVRPlugin_SpaceLocationFlags::PositionValid{ static_cast<uint64_t>(0x2u) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceLocationFlags GlobalNamespace::OVRPlugin_SpaceLocationFlags::OrientationTracked{ static_cast<uint64_t>(0x4u) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceLocationFlags GlobalNamespace::OVRPlugin_SpaceLocationFlags::PositionTracked{ static_cast<uint64_t>(0x8u) };
-// Ctor Parameters [CppParam { name: "locationFlags", ty: "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "pose", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "locationFlags", ty: "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pose", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceLocationf::OVRPlugin_SpaceLocationf(::GlobalNamespace::OVRPlugin_SpaceLocationFlags locationFlags, ::GlobalNamespace::OVRPlugin_Posef pose) noexcept {
   this->locationFlags = locationFlags;
   this->pose = pose;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceLocationf::OVRPlugin_SpaceLocationf() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet::OVRPlugin_BodyJointSet(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3052,7 +3106,7 @@ constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet::OVRPlugin_BodyJointSet() {}
 constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet GlobalNamespace::OVRPlugin_BodyJointSet::None{ static_cast<int32_t>(0xffffffff) };
 constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet GlobalNamespace::OVRPlugin_BodyJointSet::UpperBody{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet GlobalNamespace::OVRPlugin_BodyJointSet::FullBody{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2::OVRPlugin_BodyTrackingFidelity2(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3060,7 +3114,7 @@ constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2::OVRPlugin_BodyTrac
 constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2::OVRPlugin_BodyTrackingFidelity2() {}
 constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 GlobalNamespace::OVRPlugin_BodyTrackingFidelity2::Low{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 GlobalNamespace::OVRPlugin_BodyTrackingFidelity2::High{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState::OVRPlugin_BodyTrackingCalibrationState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3069,7 +3123,7 @@ constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState::OVRPlugin_B
 constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState::Valid{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState::Calibrating{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState::Invalid{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "BodyHeight", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "BodyHeight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationInfo::OVRPlugin_BodyTrackingCalibrationInfo(float_t BodyHeight) noexcept {
   this->BodyHeight = BodyHeight;
 }
@@ -3146,19 +3200,19 @@ inline bool GlobalNamespace::OVRPlugin_BodyJointLocation::get_PositionTracked() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_BodyJointLocation>(), { "get_PositionTracked", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "LocationFlags", ty: "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "Pose", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "LocationFlags", ty: "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Pose", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BodyJointLocation::OVRPlugin_BodyJointLocation(::GlobalNamespace::OVRPlugin_SpaceLocationFlags LocationFlags, ::GlobalNamespace::OVRPlugin_Posef Pose) noexcept {
   this->LocationFlags = LocationFlags;
   this->Pose = Pose;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_BodyJointLocation::OVRPlugin_BodyJointLocation() {}
-// Ctor Parameters [CppParam { name: "JointLocations", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_BodyJointLocation>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Confidence", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SkeletonChangedCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "JointSet", ty: "::GlobalNamespace::OVRPlugin_BodyJointSet", modifiers: "", def_value: Some("{}") }, CppParam { name: "CalibrationStatus",
-// ty: "::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState", modifiers: "", def_value: Some("{}") }, CppParam { name: "Fidelity", ty: "::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "JointLocations", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_BodyJointLocation>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "Confidence", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SkeletonChangedCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointSet", ty: "::GlobalNamespace::OVRPlugin_BodyJointSet", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "CalibrationStatus", ty: "::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "Fidelity", ty: "::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BodyState::OVRPlugin_BodyState(::ArrayW<::GlobalNamespace::OVRPlugin_BodyJointLocation> JointLocations, float_t Confidence, uint32_t SkeletonChangedCount,
                                                                       double_t Time, ::GlobalNamespace::OVRPlugin_BodyJointSet JointSet,
                                                                       ::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState CalibrationStatus,
@@ -3173,55 +3227,62 @@ constexpr ::GlobalNamespace::OVRPlugin_BodyState::OVRPlugin_BodyState(::ArrayW<:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_BodyState::OVRPlugin_BodyState() {}
-// Ctor Parameters [CppParam { name: "IsActive", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "Confidence", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "SkeletonChangedCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "JointLocation_0", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_1", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_2", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_3", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_4", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_5", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_6", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_7", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_8", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_9", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_10", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_11", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_12", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_13", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_14", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_15", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_16", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_17", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_18", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_19", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_20", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_21", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_22", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_23", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_24", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_25", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_26", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_27", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_28", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_29", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_30", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_31", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_32", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_33", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_34", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_35", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_36", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_37", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_38", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_39", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_40", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_41", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_42", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_43", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_44", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_45", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_46", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_47", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_48", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_49", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_50", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_51", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_52", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_53", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_54", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_55", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_56", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_57", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_58", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_59", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_60", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_61", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_62", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_63", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_64", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_65", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_66", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_67", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_68", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_69", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsActive", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Confidence", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SkeletonChangedCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Time", ty:
+// "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_0", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "JointLocation_1", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_2",
+// ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_3", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_4", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_5", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_6", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_7", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_8", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_9", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_10", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_11", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_12", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_13", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_14", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_15", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_16", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_17", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_18", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_19", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_20", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_21", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_22", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_23", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_24", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_25", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_26", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_27", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_28", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_29", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_30", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_31", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_32", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_33", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_34", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_35", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_36", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_37", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_38", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_39", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_40", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_41", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_42", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_43", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_44", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_45", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_46", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_47", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_48", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_49", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_50", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_51", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_52", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_53", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_54", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_55", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_56", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_57", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_58", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_59", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_60", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_61", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_62", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_63", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_64", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_65", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_66", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_67", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_68", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_69", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::GlobalNamespace::OVRPlugin_BodyStateInternal::OVRPlugin_BodyStateInternal(
     ::GlobalNamespace::OVRPlugin_Bool IsActive, float_t Confidence, uint32_t SkeletonChangedCount, double_t Time, ::GlobalNamespace::OVRPlugin_BodyJointLocation JointLocation_0,
     ::GlobalNamespace::OVRPlugin_BodyJointLocation JointLocation_1, ::GlobalNamespace::OVRPlugin_BodyJointLocation JointLocation_2, ::GlobalNamespace::OVRPlugin_BodyJointLocation JointLocation_3,
@@ -3325,66 +3386,74 @@ constexpr ::GlobalNamespace::OVRPlugin_BodyStateInternal::OVRPlugin_BodyStateInt
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_BodyStateInternal::OVRPlugin_BodyStateInternal() {}
-// Ctor Parameters [CppParam { name: "IsActive", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "Confidence", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "SkeletonChangedCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "JointLocation_0", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_1", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_2", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_3", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_4", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_5", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_6", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_7", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_8", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_9", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_10", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_11", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_12", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_13", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_14", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_15", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_16", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_17", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_18", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_19", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_20", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_21", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_22", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_23", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_24", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_25", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_26", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_27", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_28", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_29", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_30", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_31", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_32", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_33", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_34", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_35", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_36", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_37", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_38", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_39", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_40", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_41", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_42", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_43", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_44", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_45", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_46", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_47", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_48", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_49", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_50", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_51", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_52", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_53", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_54", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_55", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_56", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_57", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_58", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_59", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_60", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_61", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_62", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_63", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_64", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_65", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_66", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_67", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_68", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_69", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_70", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_71", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_72", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_73", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_74", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_75", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_76", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_77", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_78", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_79", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_80", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "JointLocation_81", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_82", ty:
-// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "JointLocation_83", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "CalibrationStatus", ty: "::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState", modifiers: "", def_value: Some("{}") }, CppParam { name: "Fidelity",
-// ty: "::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsActive", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Confidence", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SkeletonChangedCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Time", ty:
+// "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_0", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "JointLocation_1", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_2",
+// ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_3", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_4", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_5", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_6", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_7", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_8", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_9", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_10", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_11", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_12", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_13", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_14", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_15", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_16", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_17", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_18", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_19", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_20", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_21", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_22", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_23", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_24", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_25", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_26", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_27", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_28", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_29", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_30", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_31", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_32", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_33", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_34", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_35", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_36", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_37", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_38", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_39", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_40", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_41", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_42", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_43", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_44", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_45", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_46", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_47", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_48", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_49", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_50", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_51", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_52", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_53", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_54", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_55", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_56", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_57", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_58", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_59", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_60", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_61", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_62", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_63", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_64", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_65", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_66", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_67", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_68", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_69", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_70", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_71", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_72", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_73", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_74", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_75", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_76", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_77", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_78", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_79", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_80", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_81", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "JointLocation_82", ty: "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JointLocation_83", ty:
+// "::GlobalNamespace::OVRPlugin_BodyJointLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CalibrationStatus", ty:
+// "::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Fidelity", ty:
+// "::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BodyState4Internal::OVRPlugin_BodyState4Internal(
     ::GlobalNamespace::OVRPlugin_Bool IsActive, float_t Confidence, uint32_t SkeletonChangedCount, double_t Time, ::GlobalNamespace::OVRPlugin_BodyJointLocation JointLocation_0,
     ::GlobalNamespace::OVRPlugin_BodyJointLocation JointLocation_1, ::GlobalNamespace::OVRPlugin_BodyJointLocation JointLocation_2, ::GlobalNamespace::OVRPlugin_BodyJointLocation JointLocation_3,
@@ -3509,11 +3578,11 @@ constexpr ::GlobalNamespace::OVRPlugin_BodyState4Internal::OVRPlugin_BodyState4I
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_BodyState4Internal::OVRPlugin_BodyState4Internal() {}
-// Ctor Parameters [CppParam { name: "IsActive", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "OrientationValid", ty:
-// "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "PositionValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "OrientationTracked", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "PositionTracked", ty: "::GlobalNamespace::OVRPlugin_Bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "PoseState", ty: "::GlobalNamespace::OVRPlugin_PoseStatef", modifiers: "", def_value: Some("{}") }, CppParam { name: "ContrastParameters",
-// ty: "::GlobalNamespace::OVRPlugin_Vector4f", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsActive", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "OrientationValid", ty:
+// "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PositionValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "OrientationTracked", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "PositionTracked", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PoseState", ty: "::GlobalNamespace::OVRPlugin_PoseStatef",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ContrastParameters", ty: "::GlobalNamespace::OVRPlugin_Vector4f", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_KeyboardState::OVRPlugin_KeyboardState(::GlobalNamespace::OVRPlugin_Bool IsActive, ::GlobalNamespace::OVRPlugin_Bool OrientationValid,
                                                                               ::GlobalNamespace::OVRPlugin_Bool PositionValid, ::GlobalNamespace::OVRPlugin_Bool OrientationTracked,
                                                                               ::GlobalNamespace::OVRPlugin_Bool PositionTracked, ::GlobalNamespace::OVRPlugin_PoseStatef PoseState,
@@ -3528,14 +3597,14 @@ constexpr ::GlobalNamespace::OVRPlugin_KeyboardState::OVRPlugin_KeyboardState(::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_KeyboardState::OVRPlugin_KeyboardState() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_KeyboardDescriptionConstants::OVRPlugin_KeyboardDescriptionConstants(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_KeyboardDescriptionConstants::OVRPlugin_KeyboardDescriptionConstants() {}
 constexpr ::GlobalNamespace::OVRPlugin_KeyboardDescriptionConstants GlobalNamespace::OVRPlugin_KeyboardDescriptionConstants::NameMaxLength{ static_cast<int32_t>(0x80) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles::OVRPlugin_TrackedKeyboardPresentationStyles(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3544,7 +3613,7 @@ constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles::OVRPlu
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles::Opaque{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles::MR{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags::OVRPlugin_TrackedKeyboardFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3554,7 +3623,7 @@ constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags GlobalNamespace::OVR
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags GlobalNamespace::OVRPlugin_TrackedKeyboardFlags::Local{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags GlobalNamespace::OVRPlugin_TrackedKeyboardFlags::Remote{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags GlobalNamespace::OVRPlugin_TrackedKeyboardFlags::Connected{ static_cast<int32_t>(0x8) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags::OVRPlugin_TrackedKeyboardQueryFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3562,10 +3631,10 @@ constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags::OVRPlugin_Trac
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags::OVRPlugin_TrackedKeyboardQueryFlags() {}
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags::Local{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags::Remote{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "Name", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "TrackedKeyboardId", ty: "uint64_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "Dimensions", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}") }, CppParam { name: "KeyboardFlags", ty:
-// "::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "SupportedPresentationStyles", ty:
-// "::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Name", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TrackedKeyboardId", ty: "uint64_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Dimensions", ty: "::GlobalNamespace::OVRPlugin_Vector3f", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "KeyboardFlags", ty: "::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SupportedPresentationStyles", ty:
+// "::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_KeyboardDescription::OVRPlugin_KeyboardDescription(::ArrayW<uint8_t> Name, uint64_t TrackedKeyboardId, ::GlobalNamespace::OVRPlugin_Vector3f Dimensions,
                                                                                           ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags KeyboardFlags,
                                                                                           ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles SupportedPresentationStyles) noexcept {
@@ -3577,16 +3646,16 @@ constexpr ::GlobalNamespace::OVRPlugin_KeyboardDescription::OVRPlugin_KeyboardDe
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_KeyboardDescription::OVRPlugin_KeyboardDescription() {}
-// Ctor Parameters [CppParam { name: "IsValid", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsEyeFollowingBlendshapesValid", ty: "bool", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "IsValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsEyeFollowingBlendshapesValid", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpressionStatus::OVRPlugin_FaceExpressionStatus(bool IsValid, bool IsEyeFollowingBlendshapesValid) noexcept {
   this->IsValid = IsValid;
   this->IsEyeFollowingBlendshapesValid = IsEyeFollowingBlendshapesValid;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpressionStatus::OVRPlugin_FaceExpressionStatus() {}
-// Ctor Parameters [CppParam { name: "IsValid", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes", ty: "::ArrayW<float_t>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceVisemesState::OVRPlugin_FaceVisemesState(bool IsValid, ::ArrayW<float_t> Visemes, double_t Time) noexcept {
   this->IsValid = IsValid;
   this->Visemes = Visemes;
@@ -3594,7 +3663,7 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceVisemesState::OVRPlugin_FaceVisemesSt
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_FaceVisemesState::OVRPlugin_FaceVisemesState() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceTrackingDataSource::OVRPlugin_FaceTrackingDataSource(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3603,9 +3672,10 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceTrackingDataSource::OVRPlugin_FaceTra
 constexpr ::GlobalNamespace::OVRPlugin_FaceTrackingDataSource GlobalNamespace::OVRPlugin_FaceTrackingDataSource::Visual{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceTrackingDataSource GlobalNamespace::OVRPlugin_FaceTrackingDataSource::Audio{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceTrackingDataSource GlobalNamespace::OVRPlugin_FaceTrackingDataSource::Count{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "ExpressionWeights", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeightConfidences", ty: "::ArrayW<float_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_FaceExpressionStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "DataSource",
-// ty: "::GlobalNamespace::OVRPlugin_FaceTrackingDataSource", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ExpressionWeights", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeightConfidences", ty:
+// "::ArrayW<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_FaceExpressionStatus", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "DataSource", ty: "::GlobalNamespace::OVRPlugin_FaceTrackingDataSource", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Time", ty:
+// "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceState::OVRPlugin_FaceState(::ArrayW<float_t> ExpressionWeights, ::ArrayW<float_t> ExpressionWeightConfidences,
                                                                       ::GlobalNamespace::OVRPlugin_FaceExpressionStatus Status, ::GlobalNamespace::OVRPlugin_FaceTrackingDataSource DataSource,
                                                                       double_t Time) noexcept {
@@ -3636,8 +3706,8 @@ inline ::GlobalNamespace::OVRPlugin_FaceExpressionStatus GlobalNamespace::OVRPlu
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal>(), { "ToFaceExpressionStatus", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_FaceExpressionStatus>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "IsValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsEyeFollowingBlendshapesValid", ty:
-// "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsEyeFollowingBlendshapesValid", ty:
+// "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal::OVRPlugin_FaceExpressionStatusInternal(::GlobalNamespace::OVRPlugin_Bool IsValid,
                                                                                                             ::GlobalNamespace::OVRPlugin_Bool IsEyeFollowingBlendshapesValid) noexcept {
   this->IsValid = IsValid;
@@ -3645,40 +3715,45 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal::OVRPlugin_F
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal::OVRPlugin_FaceExpressionStatusInternal() {}
-// Ctor Parameters [CppParam { name: "ExpressionWeights_0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_1", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_3", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_4", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_5", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_6", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_7", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_8", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_9", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_10", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_11", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_12", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_13", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_14", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_15", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_16", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_17", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_18", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_19", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_20", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_21", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_22", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_23", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_24", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_25", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_26", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_27", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_28", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_29", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_30", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_31", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_32", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_33", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_34", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_35", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_36", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_37", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_38", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_39", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_40", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_41", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_42", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_43", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_44", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_45", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_46", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_47", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_48", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_49", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_50", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_51", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_52", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_53", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_54", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_55", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_56", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_57", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_58", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_59", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_60", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_61", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_62", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeightConfidences_0", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "ExpressionWeightConfidences_1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Status", ty:
-// "::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ExpressionWeights_0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_1", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_2", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_3", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_4", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_5", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_6", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_7", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_8", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_9", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_10", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_11", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_12", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_13", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_14", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_15", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_16", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_17", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_18", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_19", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_20", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_21", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_22", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_23", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_24", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_25", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_26", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_27", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_28", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_29", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_30", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_31", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_32", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_33", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_34", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_35", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_36", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_37", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_38", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_39", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_40", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_41", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_42", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_43", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_44", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_45", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_46", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_47", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_48", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_49", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_50", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_51", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_52", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_53", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_54", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_55", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_56", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_57", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_58", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_59", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_60", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_61", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_62", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeightConfidences_0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeightConfidences_1", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceStateInternal::OVRPlugin_FaceStateInternal(
     float_t ExpressionWeights_0, float_t ExpressionWeights_1, float_t ExpressionWeights_2, float_t ExpressionWeights_3, float_t ExpressionWeights_4, float_t ExpressionWeights_5,
     float_t ExpressionWeights_6, float_t ExpressionWeights_7, float_t ExpressionWeights_8, float_t ExpressionWeights_9, float_t ExpressionWeights_10, float_t ExpressionWeights_11,
@@ -3762,44 +3837,50 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceStateInternal::OVRPlugin_FaceStateInt
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_FaceStateInternal::OVRPlugin_FaceStateInternal() {}
-// Ctor Parameters [CppParam { name: "ExpressionWeights_0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_1", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_3", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_4", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_5", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_6", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_7", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_8", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_9", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_10", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_11", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_12", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_13", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_14", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_15", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_16", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_17", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_18", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_19", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_20", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_21", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_22", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_23", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_24", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_25", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_26", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_27", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_28", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_29", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_30", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_31", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_32", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_33", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_34", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_35", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_36", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_37", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_38", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_39", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_40", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_41", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_42", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_43", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_44", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_45", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_46", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_47", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_48", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_49", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_50", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_51", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_52", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_53", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_54", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_55", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_56", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_57", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_58", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_59", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_60", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_61", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_62", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_63", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_64", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_65", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_66", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_67", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeights_68", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeights_69", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ExpressionWeightConfidences_0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ExpressionWeightConfidences_1", ty: "float_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal", modifiers: "", def_value: Some("{}") }, CppParam { name: "DataSource", ty:
-// "::GlobalNamespace::OVRPlugin_FaceTrackingDataSource", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ExpressionWeights_0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_1", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_2", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_3", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_4", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_5", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_6", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_7", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_8", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_9", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_10", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_11", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_12", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_13", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_14", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_15", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_16", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_17", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_18", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_19", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_20", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_21", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_22", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_23", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_24", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_25", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_26", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_27", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_28", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_29", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_30", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_31", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_32", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_33", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_34", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_35", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_36", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_37", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_38", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_39", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_40", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_41", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_42", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_43", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_44", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_45", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_46", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_47", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_48", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_49", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_50", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_51", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_52", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_53", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_54", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_55", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_56", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_57", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_58", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_59", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_60", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_61", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_62", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeights_63", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_64", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_65", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_66", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_67", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ExpressionWeights_68", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeights_69", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ExpressionWeightConfidences_0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ExpressionWeightConfidences_1", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Status", ty: "::GlobalNamespace::OVRPlugin_FaceExpressionStatusInternal", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "DataSource", ty: "::GlobalNamespace::OVRPlugin_FaceTrackingDataSource", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Time", ty: "double_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceState2Internal::OVRPlugin_FaceState2Internal(
     float_t ExpressionWeights_0, float_t ExpressionWeights_1, float_t ExpressionWeights_2, float_t ExpressionWeights_3, float_t ExpressionWeights_4, float_t ExpressionWeights_5,
     float_t ExpressionWeights_6, float_t ExpressionWeights_7, float_t ExpressionWeights_8, float_t ExpressionWeights_9, float_t ExpressionWeights_10, float_t ExpressionWeights_11,
@@ -3892,14 +3973,16 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceState2Internal::OVRPlugin_FaceState2I
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_FaceState2Internal::OVRPlugin_FaceState2Internal() {}
-// Ctor Parameters [CppParam { name: "IsValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_0", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Visemes_1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Visemes_3", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_4", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_5", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_6", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_7", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "Visemes_8", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_9", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Visemes_10", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_11", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Visemes_12", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_13", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Visemes_14", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_0", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_1", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_2", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_3", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_4", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_5", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_6",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_7", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "Visemes_8", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_9", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "Visemes_10", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_11", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "Visemes_12", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Visemes_13", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "Visemes_14", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceVisemesStateInternal::OVRPlugin_FaceVisemesStateInternal(::GlobalNamespace::OVRPlugin_Bool IsValid, float_t Visemes_0, float_t Visemes_1, float_t Visemes_2,
                                                                                                     float_t Visemes_3, float_t Visemes_4, float_t Visemes_5, float_t Visemes_6, float_t Visemes_7,
                                                                                                     float_t Visemes_8, float_t Visemes_9, float_t Visemes_10, float_t Visemes_11, float_t Visemes_12,
@@ -3924,7 +4007,7 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceVisemesStateInternal::OVRPlugin_FaceV
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_FaceVisemesStateInternal::OVRPlugin_FaceVisemesStateInternal() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceRegionConfidence::OVRPlugin_FaceRegionConfidence(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3933,7 +4016,7 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceRegionConfidence::OVRPlugin_FaceRegio
 constexpr ::GlobalNamespace::OVRPlugin_FaceRegionConfidence GlobalNamespace::OVRPlugin_FaceRegionConfidence::Lower{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceRegionConfidence GlobalNamespace::OVRPlugin_FaceRegionConfidence::Upper{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceRegionConfidence GlobalNamespace::OVRPlugin_FaceRegionConfidence::Max{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpression::OVRPlugin_FaceExpression(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4004,7 +4087,7 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceExpression GlobalNamespace::OVRPlugin
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpression GlobalNamespace::OVRPlugin_FaceExpression::Upper_Lip_Raiser_L{ static_cast<int32_t>(0x3d) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpression GlobalNamespace::OVRPlugin_FaceExpression::Upper_Lip_Raiser_R{ static_cast<int32_t>(0x3e) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpression GlobalNamespace::OVRPlugin_FaceExpression::Max{ static_cast<int32_t>(0x3f) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpression2::OVRPlugin_FaceExpression2(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4082,7 +4165,7 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceExpression2 GlobalNamespace::OVRPlugi
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpression2 GlobalNamespace::OVRPlugin_FaceExpression2::Tongue_Out{ static_cast<int32_t>(0x44) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpression2 GlobalNamespace::OVRPlugin_FaceExpression2::Tongue_Retreat{ static_cast<int32_t>(0x45) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceExpression2 GlobalNamespace::OVRPlugin_FaceExpression2::Max{ static_cast<int32_t>(0x46) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceViseme::OVRPlugin_FaceViseme(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4105,7 +4188,7 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceViseme GlobalNamespace::OVRPlugin_Fac
 constexpr ::GlobalNamespace::OVRPlugin_FaceViseme GlobalNamespace::OVRPlugin_FaceViseme::OH{ static_cast<int32_t>(0xd) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceViseme GlobalNamespace::OVRPlugin_FaceViseme::OU{ static_cast<int32_t>(0xe) };
 constexpr ::GlobalNamespace::OVRPlugin_FaceViseme GlobalNamespace::OVRPlugin_FaceViseme::Count{ static_cast<int32_t>(0xf) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FaceConstants::OVRPlugin_FaceConstants(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4131,8 +4214,8 @@ inline bool GlobalNamespace::OVRPlugin_EyeGazeState::get_IsValid() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_EyeGazeState>(), { "get_IsValid", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Pose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "Confidence", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_isValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Pose", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Confidence", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_isValid", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_EyeGazeState::OVRPlugin_EyeGazeState(::GlobalNamespace::OVRPlugin_Posef Pose, float_t Confidence, ::GlobalNamespace::OVRPlugin_Bool _isValid) noexcept {
   this->Pose = Pose;
   this->Confidence = Confidence;
@@ -4140,16 +4223,16 @@ constexpr ::GlobalNamespace::OVRPlugin_EyeGazeState::OVRPlugin_EyeGazeState(::Gl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_EyeGazeState::OVRPlugin_EyeGazeState() {}
-// Ctor Parameters [CppParam { name: "EyeGazes", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_EyeGazeState>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "EyeGazes", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_EyeGazeState>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Time", ty:
+// "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_EyeGazesState::OVRPlugin_EyeGazesState(::ArrayW<::GlobalNamespace::OVRPlugin_EyeGazeState> EyeGazes, double_t Time) noexcept {
   this->EyeGazes = EyeGazes;
   this->Time = Time;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_EyeGazesState::OVRPlugin_EyeGazesState() {}
-// Ctor Parameters [CppParam { name: "EyeGazes_0", ty: "::GlobalNamespace::OVRPlugin_EyeGazeState", modifiers: "", def_value: Some("{}") }, CppParam { name: "EyeGazes_1", ty:
-// "::GlobalNamespace::OVRPlugin_EyeGazeState", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "EyeGazes_0", ty: "::GlobalNamespace::OVRPlugin_EyeGazeState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "EyeGazes_1", ty:
+// "::GlobalNamespace::OVRPlugin_EyeGazeState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_EyeGazesStateInternal::OVRPlugin_EyeGazesStateInternal(::GlobalNamespace::OVRPlugin_EyeGazeState EyeGazes_0,
                                                                                               ::GlobalNamespace::OVRPlugin_EyeGazeState EyeGazes_1, double_t Time) noexcept {
   this->EyeGazes_0 = EyeGazes_0;
@@ -4158,7 +4241,7 @@ constexpr ::GlobalNamespace::OVRPlugin_EyeGazesStateInternal::OVRPlugin_EyeGazes
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_EyeGazesStateInternal::OVRPlugin_EyeGazesStateInternal() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ColorSpace::OVRPlugin_ColorSpace(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4173,7 +4256,7 @@ constexpr ::GlobalNamespace::OVRPlugin_ColorSpace GlobalNamespace::OVRPlugin_Col
 constexpr ::GlobalNamespace::OVRPlugin_ColorSpace GlobalNamespace::OVRPlugin_ColorSpace::Quest{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::OVRPlugin_ColorSpace GlobalNamespace::OVRPlugin_ColorSpace::P3{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::OVRPlugin_ColorSpace GlobalNamespace::OVRPlugin_ColorSpace::Adobe_RGB{ static_cast<int32_t>(0x8) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_EventType::OVRPlugin_EventType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4211,16 +4294,17 @@ constexpr ::GlobalNamespace::OVRPlugin_EventType GlobalNamespace::OVRPlugin_Even
 constexpr ::GlobalNamespace::OVRPlugin_EventType GlobalNamespace::OVRPlugin_EventType::BoundaryVisibilityChanged{ static_cast<int32_t>(0x1fe) };
 constexpr ::GlobalNamespace::OVRPlugin_EventType GlobalNamespace::OVRPlugin_EventType::CreateDynamicObjectTrackerResult{ static_cast<int32_t>(0x28a) };
 constexpr ::GlobalNamespace::OVRPlugin_EventType GlobalNamespace::OVRPlugin_EventType::SetDynamicObjectTrackedClassesResult{ static_cast<int32_t>(0x28b) };
-// Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: Some("{}") }, CppParam { name: "EventData", ty: "::ArrayW<uint8_t>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "EventData", ty:
+// "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_EventDataBuffer::OVRPlugin_EventDataBuffer(::GlobalNamespace::OVRPlugin_EventType EventType, ::ArrayW<uint8_t> EventData) noexcept {
   this->EventType = EventType;
   this->EventData = EventData;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_EventDataBuffer::OVRPlugin_EventDataBuffer() {}
-// Ctor Parameters [CppParam { name: "ModelName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "ModelKey", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "VendorId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ModelVersion", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ModelName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ModelKey", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "VendorId", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ModelVersion", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_RenderModelProperties::OVRPlugin_RenderModelProperties(::StringW ModelName, uint64_t ModelKey, uint32_t VendorId, uint32_t ModelVersion) noexcept {
   this->ModelName = ModelName;
   this->ModelKey = ModelKey;
@@ -4229,8 +4313,9 @@ constexpr ::GlobalNamespace::OVRPlugin_RenderModelProperties::OVRPlugin_RenderMo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_RenderModelProperties::OVRPlugin_RenderModelProperties() {}
-// Ctor Parameters [CppParam { name: "ModelName", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "ModelKey", ty: "uint64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "VendorId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ModelVersion", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ModelName", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ModelKey", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "VendorId", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ModelVersion", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_RenderModelPropertiesInternal::OVRPlugin_RenderModelPropertiesInternal(::ArrayW<uint8_t> ModelName, uint64_t ModelKey, uint32_t VendorId,
                                                                                                               uint32_t ModelVersion) noexcept {
   this->ModelName = ModelName;
@@ -4240,7 +4325,7 @@ constexpr ::GlobalNamespace::OVRPlugin_RenderModelPropertiesInternal::OVRPlugin_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_RenderModelPropertiesInternal::OVRPlugin_RenderModelPropertiesInternal() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_RenderModelFlags::OVRPlugin_RenderModelFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4248,7 +4333,7 @@ constexpr ::GlobalNamespace::OVRPlugin_RenderModelFlags::OVRPlugin_RenderModelFl
 constexpr ::GlobalNamespace::OVRPlugin_RenderModelFlags::OVRPlugin_RenderModelFlags() {}
 constexpr ::GlobalNamespace::OVRPlugin_RenderModelFlags GlobalNamespace::OVRPlugin_RenderModelFlags::SupportsGltf20Subset1{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_RenderModelFlags GlobalNamespace::OVRPlugin_RenderModelFlags::SupportsGltf20Subset2{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType::OVRPlugin_VirtualKeyboardLocationType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4257,9 +4342,9 @@ constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType::OVRPlugin_Vi
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType::Custom{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType::Far{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType::Direct{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "locationType", ty: "::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType", modifiers: "", def_value: Some("{}") }, CppParam { name: "pose", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "trackingOriginType", ty: "::GlobalNamespace::OVRPlugin_TrackingOrigin", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "locationType", ty: "::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pose", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "trackingOriginType", ty: "::GlobalNamespace::OVRPlugin_TrackingOrigin", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardSpaceCreateInfo::OVRPlugin_VirtualKeyboardSpaceCreateInfo(::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType locationType,
                                                                                                                 ::GlobalNamespace::OVRPlugin_Posef pose,
                                                                                                                 ::GlobalNamespace::OVRPlugin_TrackingOrigin trackingOriginType) noexcept {
@@ -4269,9 +4354,9 @@ constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardSpaceCreateInfo::OVRPlugin
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardSpaceCreateInfo::OVRPlugin_VirtualKeyboardSpaceCreateInfo() {}
-// Ctor Parameters [CppParam { name: "locationType", ty: "::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType", modifiers: "", def_value: Some("{}") }, CppParam { name: "pose", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "trackingOriginType",
-// ty: "::GlobalNamespace::OVRPlugin_TrackingOrigin", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "locationType", ty: "::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pose", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "trackingOriginType", ty: "::GlobalNamespace::OVRPlugin_TrackingOrigin", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationInfo::OVRPlugin_VirtualKeyboardLocationInfo(::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationType locationType,
                                                                                                           ::GlobalNamespace::OVRPlugin_Posef pose, float_t scale,
                                                                                                           ::GlobalNamespace::OVRPlugin_TrackingOrigin trackingOriginType) noexcept {
@@ -4284,7 +4369,7 @@ constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationInfo::OVRPlugin_Vi
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardLocationInfo::OVRPlugin_VirtualKeyboardLocationInfo() {}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardCreateInfo::OVRPlugin_VirtualKeyboardCreateInfo() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource::OVRPlugin_VirtualKeyboardInputSource(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4300,16 +4385,17 @@ constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource GlobalNamespac
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource::HandDirectIndexTipLeft{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource::HandDirectIndexTipRight{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputStateFlags::OVRPlugin_VirtualKeyboardInputStateFlags(uint64_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputStateFlags::OVRPlugin_VirtualKeyboardInputStateFlags() {}
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputStateFlags GlobalNamespace::OVRPlugin_VirtualKeyboardInputStateFlags::IsPressed{ static_cast<uint64_t>(0x1u) };
-// Ctor Parameters [CppParam { name: "inputSource", ty: "::GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputPose", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputState", ty: "::GlobalNamespace::OVRPlugin_VirtualKeyboardInputStateFlags", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "inputTrackingOriginType", ty: "::GlobalNamespace::OVRPlugin_TrackingOrigin", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "inputSource", ty: "::GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputPose",
+// ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputState", ty: "::GlobalNamespace::OVRPlugin_VirtualKeyboardInputStateFlags",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputTrackingOriginType", ty: "::GlobalNamespace::OVRPlugin_TrackingOrigin", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputInfo::OVRPlugin_VirtualKeyboardInputInfo(::GlobalNamespace::OVRPlugin_VirtualKeyboardInputSource inputSource,
                                                                                                     ::GlobalNamespace::OVRPlugin_Posef inputPose,
                                                                                                     ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputStateFlags inputState,
@@ -4321,22 +4407,23 @@ constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputInfo::OVRPlugin_Virtu
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardInputInfo::OVRPlugin_VirtualKeyboardInputInfo() {}
-// Ctor Parameters [CppParam { name: "AnimationIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Fraction", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "AnimationIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Fraction", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationState::OVRPlugin_VirtualKeyboardModelAnimationState(int32_t AnimationIndex, float_t Fraction) noexcept {
   this->AnimationIndex = AnimationIndex;
   this->Fraction = Fraction;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationState::OVRPlugin_VirtualKeyboardModelAnimationState() {}
-// Ctor Parameters [CppParam { name: "States", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationState>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "States", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationState>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationStates::OVRPlugin_VirtualKeyboardModelAnimationStates(
     ::ArrayW<::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationState> States) noexcept {
   this->States = States;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationStates::OVRPlugin_VirtualKeyboardModelAnimationStates() {}
-// Ctor Parameters [CppParam { name: "StateCapacityInput", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "StateCountOutput", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "StatesBuffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "StateCapacityInput", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "StateCountOutput", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "StatesBuffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationStatesInternal::OVRPlugin_VirtualKeyboardModelAnimationStatesInternal(uint32_t StateCapacityInput, uint32_t StateCountOutput,
                                                                                                                                           ::System::IntPtr StatesBuffer) noexcept {
   this->StateCapacityInput = StateCapacityInput;
@@ -4345,14 +4432,14 @@ constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationStatesIntern
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationStatesInternal::OVRPlugin_VirtualKeyboardModelAnimationStatesInternal() {}
-// Ctor Parameters [CppParam { name: "TextureIds", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "TextureIds", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureIds::OVRPlugin_VirtualKeyboardTextureIds(::ArrayW<uint64_t> TextureIds) noexcept {
   this->TextureIds = TextureIds;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureIds::OVRPlugin_VirtualKeyboardTextureIds() {}
-// Ctor Parameters [CppParam { name: "TextureIdCapacityInput", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureIdCountOutput", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "TextureIdsBuffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "TextureIdCapacityInput", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TextureIdCountOutput", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TextureIdsBuffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureIdsInternal::OVRPlugin_VirtualKeyboardTextureIdsInternal(uint32_t TextureIdCapacityInput, uint32_t TextureIdCountOutput,
                                                                                                                       ::System::IntPtr TextureIdsBuffer) noexcept {
   this->TextureIdCapacityInput = TextureIdCapacityInput;
@@ -4361,9 +4448,9 @@ constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureIdsInternal::OVRPlu
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureIdsInternal::OVRPlugin_VirtualKeyboardTextureIdsInternal() {}
-// Ctor Parameters [CppParam { name: "TextureWidth", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureHeight", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "BufferCapacityInput", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "BufferCountOutput", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Buffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "TextureWidth", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TextureHeight", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BufferCapacityInput", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BufferCountOutput", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardTextureData::OVRPlugin_VirtualKeyboardTextureData(uint32_t TextureWidth, uint32_t TextureHeight, uint32_t BufferCapacityInput,
                                                                                                         uint32_t BufferCountOutput, ::System::IntPtr Buffer) noexcept {
   this->TextureWidth = TextureWidth;
@@ -4410,13 +4497,13 @@ inline void GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility::set_Visib
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility>(), { "set_Visible", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_visible", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_visible", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility::OVRPlugin_VirtualKeyboardModelVisibility(::GlobalNamespace::OVRPlugin_Bool _visible) noexcept {
   this->_visible = _visible;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelVisibility::OVRPlugin_VirtualKeyboardModelVisibility() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType::OVRPlugin_InsightPassthroughColorMapType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4428,7 +4515,7 @@ constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType GlobalName
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType::BrightnessContrastSaturation{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType::ColorLut{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType::InterpolatedColorLut{ static_cast<int32_t>(0x7) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags::OVRPlugin_InsightPassthroughStyleFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4437,10 +4524,11 @@ constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags::OVRPlugin_I
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags::HasTextureOpacityFactor{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags::HasEdgeColor{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags::HasTextureColorMap{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "Flags", ty: "::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureOpacityFactor", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "EdgeColor", ty: "::GlobalNamespace::OVRPlugin_Colorf", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "TextureColorMapType", ty: "::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType", modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureColorMapDataSize", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureColorMapData", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Flags", ty: "::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "TextureOpacityFactor", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "EdgeColor", ty: "::GlobalNamespace::OVRPlugin_Colorf", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "TextureColorMapType", ty: "::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "TextureColorMapDataSize", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TextureColorMapData", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughStyle::OVRPlugin_InsightPassthroughStyle(::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags Flags, float_t TextureOpacityFactor,
                                                                                                   ::GlobalNamespace::OVRPlugin_Colorf EdgeColor,
                                                                                                   ::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType TextureColorMapType,
@@ -4473,12 +4561,12 @@ inline void GlobalNamespace::OVRPlugin_InsightPassthroughStyle2::CopyTo(::by_ref
                                                                                          { "CopyTo", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, target);
 }
-// Ctor Parameters [CppParam { name: "Flags", ty: "::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureOpacityFactor", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "EdgeColor", ty: "::GlobalNamespace::OVRPlugin_Colorf", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "TextureColorMapType", ty: "::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType", modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureColorMapDataSize", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "TextureColorMapData", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "LutSource", ty: "uint64_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "LutTarget", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LutWeight", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "Flags", ty: "::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "TextureOpacityFactor", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "EdgeColor", ty: "::GlobalNamespace::OVRPlugin_Colorf", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "TextureColorMapType", ty: "::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "TextureColorMapDataSize", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TextureColorMapData", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "LutSource", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LutTarget", ty: "uint64_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "LutWeight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2::OVRPlugin_InsightPassthroughStyle2(::GlobalNamespace::OVRPlugin_InsightPassthroughStyleFlags Flags, float_t TextureOpacityFactor,
                                                                                                     ::GlobalNamespace::OVRPlugin_Colorf EdgeColor,
                                                                                                     ::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType TextureColorMapType,
@@ -4496,7 +4584,7 @@ constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2::OVRPlugin_Insig
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2::OVRPlugin_InsightPassthroughStyle2() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughColorLutChannels::OVRPlugin_PassthroughColorLutChannels(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4504,22 +4592,23 @@ constexpr ::GlobalNamespace::OVRPlugin_PassthroughColorLutChannels::OVRPlugin_Pa
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughColorLutChannels::OVRPlugin_PassthroughColorLutChannels() {}
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughColorLutChannels GlobalNamespace::OVRPlugin_PassthroughColorLutChannels::Rgb{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughColorLutChannels GlobalNamespace::OVRPlugin_PassthroughColorLutChannels::Rgba{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "BufferSize", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "BufferSize", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buffer", ty: "::System::IntPtr", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughColorLutData::OVRPlugin_PassthroughColorLutData(uint32_t BufferSize, ::System::IntPtr Buffer) noexcept {
   this->BufferSize = BufferSize;
   this->Buffer = Buffer;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughColorLutData::OVRPlugin_PassthroughColorLutData() {}
-// Ctor Parameters [CppParam { name: "LeftHandIntensity", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RightHandIntensity", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "LeftHandIntensity", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RightHandIntensity", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughKeyboardHandsIntensity::OVRPlugin_InsightPassthroughKeyboardHandsIntensity(float_t LeftHandIntensity, float_t RightHandIntensity) noexcept {
   this->LeftHandIntensity = LeftHandIntensity;
   this->RightHandIntensity = RightHandIntensity;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_InsightPassthroughKeyboardHandsIntensity::OVRPlugin_InsightPassthroughKeyboardHandsIntensity() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags::OVRPlugin_PassthroughCapabilityFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4528,7 +4617,7 @@ constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags::OVRPlugin_Pas
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags::Passthrough{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags::Color{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags::Depth{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFields::OVRPlugin_PassthroughCapabilityFields(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4536,8 +4625,9 @@ constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFields::OVRPlugin_Pa
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFields::OVRPlugin_PassthroughCapabilityFields() {}
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFields GlobalNamespace::OVRPlugin_PassthroughCapabilityFields::Flags{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFields GlobalNamespace::OVRPlugin_PassthroughCapabilityFields::MaxColorLutResolution{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "Fields", ty: "::GlobalNamespace::OVRPlugin_PassthroughCapabilityFields", modifiers: "", def_value: Some("{}") }, CppParam { name: "Flags", ty:
-// "::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "MaxColorLutResolution", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Fields", ty: "::GlobalNamespace::OVRPlugin_PassthroughCapabilityFields", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Flags", ty:
+// "::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MaxColorLutResolution", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilities::OVRPlugin_PassthroughCapabilities(::GlobalNamespace::OVRPlugin_PassthroughCapabilityFields Fields,
                                                                                                   ::GlobalNamespace::OVRPlugin_PassthroughCapabilityFlags Flags,
                                                                                                   uint32_t MaxColorLutResolution) noexcept {
@@ -4547,7 +4637,7 @@ constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilities::OVRPlugin_Passth
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughCapabilities::OVRPlugin_PassthroughCapabilities() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceComponentType::OVRPlugin_SpaceComponentType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4563,7 +4653,7 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceComponentType GlobalNamespace::OVRPl
 constexpr ::GlobalNamespace::OVRPlugin_SpaceComponentType GlobalNamespace::OVRPlugin_SpaceComponentType::SpaceContainer{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceComponentType GlobalNamespace::OVRPlugin_SpaceComponentType::TriangleMesh{ static_cast<int32_t>(0x3b9ee4c8) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceComponentType GlobalNamespace::OVRPlugin_SpaceComponentType::DynamicObject{ static_cast<int32_t>(0x3b9f2f07) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceStorageLocation::OVRPlugin_SpaceStorageLocation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4572,7 +4662,7 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceStorageLocation::OVRPlugin_SpaceStor
 constexpr ::GlobalNamespace::OVRPlugin_SpaceStorageLocation GlobalNamespace::OVRPlugin_SpaceStorageLocation::Invalid{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceStorageLocation GlobalNamespace::OVRPlugin_SpaceStorageLocation::Local{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceStorageLocation GlobalNamespace::OVRPlugin_SpaceStorageLocation::Cloud{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceStoragePersistenceMode::OVRPlugin_SpaceStoragePersistenceMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4580,21 +4670,21 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceStoragePersistenceMode::OVRPlugin_Sp
 constexpr ::GlobalNamespace::OVRPlugin_SpaceStoragePersistenceMode::OVRPlugin_SpaceStoragePersistenceMode() {}
 constexpr ::GlobalNamespace::OVRPlugin_SpaceStoragePersistenceMode GlobalNamespace::OVRPlugin_SpaceStoragePersistenceMode::Invalid{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceStoragePersistenceMode GlobalNamespace::OVRPlugin_SpaceStoragePersistenceMode::Indefinite{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryActionType::OVRPlugin_SpaceQueryActionType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryActionType::OVRPlugin_SpaceQueryActionType() {}
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryActionType GlobalNamespace::OVRPlugin_SpaceQueryActionType::Load{ static_cast<int32_t>(0x0) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryType::OVRPlugin_SpaceQueryType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryType::OVRPlugin_SpaceQueryType() {}
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryType GlobalNamespace::OVRPlugin_SpaceQueryType::Action{ static_cast<int32_t>(0x0) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryFilterType::OVRPlugin_SpaceQueryFilterType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4604,8 +4694,8 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryFilterType GlobalNamespace::OVR
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryFilterType GlobalNamespace::OVRPlugin_SpaceQueryFilterType::Ids{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryFilterType GlobalNamespace::OVRPlugin_SpaceQueryFilterType::Components{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryFilterType GlobalNamespace::OVRPlugin_SpaceQueryFilterType::Group{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "BaseTracking", ty: "::GlobalNamespace::OVRPlugin_TrackingOrigin", modifiers: "", def_value: Some("{}") }, CppParam { name: "PoseInSpace", ty:
-// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "BaseTracking", ty: "::GlobalNamespace::OVRPlugin_TrackingOrigin", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PoseInSpace", ty:
+// "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpatialAnchorCreateInfo::OVRPlugin_SpatialAnchorCreateInfo(::GlobalNamespace::OVRPlugin_TrackingOrigin BaseTracking,
                                                                                                   ::GlobalNamespace::OVRPlugin_Posef PoseInSpace, double_t Time) noexcept {
   this->BaseTracking = BaseTracking;
@@ -4614,15 +4704,16 @@ constexpr ::GlobalNamespace::OVRPlugin_SpatialAnchorCreateInfo::OVRPlugin_Spatia
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpatialAnchorCreateInfo::OVRPlugin_SpatialAnchorCreateInfo() {}
-// Ctor Parameters [CppParam { name: "Ids", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumIds", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Ids", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumIds", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceFilterInfoIds::OVRPlugin_SpaceFilterInfoIds(::ArrayW<::System::Guid> Ids, int32_t NumIds) noexcept {
   this->Ids = Ids;
   this->NumIds = NumIds;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceFilterInfoIds::OVRPlugin_SpaceFilterInfoIds() {}
-// Ctor Parameters [CppParam { name: "Components", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumComponents", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Components", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "NumComponents", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceFilterInfoComponents::OVRPlugin_SpaceFilterInfoComponents(::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType> Components,
                                                                                                       int32_t NumComponents) noexcept {
   this->Components = Components;
@@ -4630,12 +4721,12 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceFilterInfoComponents::OVRPlugin_Spac
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceFilterInfoComponents::OVRPlugin_SpaceFilterInfoComponents() {}
-// Ctor Parameters [CppParam { name: "QueryType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryType", modifiers: "", def_value: Some("{}") }, CppParam { name: "MaxQuerySpaces", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Timeout", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Location", ty:
-// "::GlobalNamespace::OVRPlugin_SpaceStorageLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "ActionType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryActionType", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "FilterType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryFilterType", modifiers: "", def_value: Some("{}") }, CppParam { name: "IdInfo", ty:
-// "::GlobalNamespace::OVRPlugin_SpaceFilterInfoIds", modifiers: "", def_value: Some("{}") }, CppParam { name: "ComponentsInfo", ty: "::GlobalNamespace::OVRPlugin_SpaceFilterInfoComponents",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "QueryType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MaxQuerySpaces", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Timeout", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Location", ty:
+// "::GlobalNamespace::OVRPlugin_SpaceStorageLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ActionType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryActionType",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FilterType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryFilterType", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "IdInfo", ty: "::GlobalNamespace::OVRPlugin_SpaceFilterInfoIds", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ComponentsInfo", ty:
+// "::GlobalNamespace::OVRPlugin_SpaceFilterInfoComponents", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryInfo::OVRPlugin_SpaceQueryInfo(::GlobalNamespace::OVRPlugin_SpaceQueryType QueryType, int32_t MaxQuerySpaces, double_t Timeout,
                                                                                 ::GlobalNamespace::OVRPlugin_SpaceStorageLocation Location,
                                                                                 ::GlobalNamespace::OVRPlugin_SpaceQueryActionType ActionType,
@@ -4652,12 +4743,13 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryInfo::OVRPlugin_SpaceQueryInfo(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryInfo::OVRPlugin_SpaceQueryInfo() {}
-// Ctor Parameters [CppParam { name: "QueryType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryType", modifiers: "", def_value: Some("{}") }, CppParam { name: "MaxQuerySpaces", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Timeout", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Location", ty:
-// "::GlobalNamespace::OVRPlugin_SpaceStorageLocation", modifiers: "", def_value: Some("{}") }, CppParam { name: "ActionType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryActionType", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "FilterType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryFilterType", modifiers: "", def_value: Some("{}") }, CppParam { name: "IdInfo", ty:
-// "::GlobalNamespace::OVRPlugin_SpaceFilterInfoIds", modifiers: "", def_value: Some("{}") }, CppParam { name: "ComponentsInfo", ty: "::GlobalNamespace::OVRPlugin_SpaceFilterInfoComponents",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "GroupUuidInfo", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "QueryType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MaxQuerySpaces", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Timeout", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Location", ty:
+// "::GlobalNamespace::OVRPlugin_SpaceStorageLocation", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ActionType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryActionType",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FilterType", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryFilterType", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "IdInfo", ty: "::GlobalNamespace::OVRPlugin_SpaceFilterInfoIds", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ComponentsInfo", ty:
+// "::GlobalNamespace::OVRPlugin_SpaceFilterInfoComponents", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GroupUuidInfo", ty: "::System::Guid", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2::OVRPlugin_SpaceQueryInfo2(::GlobalNamespace::OVRPlugin_SpaceQueryType QueryType, int32_t MaxQuerySpaces, double_t Timeout,
                                                                                   ::GlobalNamespace::OVRPlugin_SpaceStorageLocation Location,
                                                                                   ::GlobalNamespace::OVRPlugin_SpaceQueryActionType ActionType,
@@ -4675,22 +4767,23 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2::OVRPlugin_SpaceQueryInfo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2::OVRPlugin_SpaceQueryInfo2() {}
-// Ctor Parameters [CppParam { name: "space", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "space", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uuid", ty: "::System::Guid", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryResult::OVRPlugin_SpaceQueryResult(uint64_t space, ::System::Guid uuid) noexcept {
   this->space = space;
   this->uuid = uuid;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryResult::OVRPlugin_SpaceQueryResult() {}
-// Ctor Parameters [CppParam { name: "PeerMetadataCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "GroupMetadata", ty: "uint8_t*", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "PeerMetadataCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GroupMetadata", ty: "uint8_t*", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo::OVRPlugin_ColocationSessionStartAdvertisementInfo(uint32_t PeerMetadataCount, uint8_t* GroupMetadata) noexcept {
   this->PeerMetadataCount = PeerMetadataCount;
   this->GroupMetadata = GroupMetadata;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo::OVRPlugin_ColocationSessionStartAdvertisementInfo() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ShareSpacesRecipientType::OVRPlugin_ShareSpacesRecipientType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4699,9 +4792,9 @@ constexpr ::GlobalNamespace::OVRPlugin_ShareSpacesRecipientType::OVRPlugin_Share
 constexpr ::GlobalNamespace::OVRPlugin_ShareSpacesRecipientType GlobalNamespace::OVRPlugin_ShareSpacesRecipientType::Group{ static_cast<int32_t>(0x1) };
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_ShareSpacesRecipientInfoBase::OVRPlugin_ShareSpacesRecipientInfoBase() {}
-// Ctor Parameters [CppParam { name: "RecipientType", ty: "::GlobalNamespace::OVRPlugin_ShareSpacesRecipientType", modifiers: "", def_value: Some("{}") }, CppParam { name: "RecipientInfo", ty:
-// "::GlobalNamespace::OVRPlugin_ShareSpacesRecipientInfoBase*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SpaceCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "Spaces", ty: "uint64_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "RecipientType", ty: "::GlobalNamespace::OVRPlugin_ShareSpacesRecipientType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "RecipientInfo", ty: "::GlobalNamespace::OVRPlugin_ShareSpacesRecipientInfoBase*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SpaceCount", ty: "uint32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "Spaces", ty: "uint64_t*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ShareSpacesInfo::OVRPlugin_ShareSpacesInfo(::GlobalNamespace::OVRPlugin_ShareSpacesRecipientType RecipientType,
                                                                                   ::GlobalNamespace::OVRPlugin_ShareSpacesRecipientInfoBase* RecipientInfo, uint32_t SpaceCount,
                                                                                   uint64_t* Spaces) noexcept {
@@ -4712,14 +4805,15 @@ constexpr ::GlobalNamespace::OVRPlugin_ShareSpacesInfo::OVRPlugin_ShareSpacesInf
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_ShareSpacesInfo::OVRPlugin_ShareSpacesInfo() {}
-// Ctor Parameters [CppParam { name: "GroupCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "GroupUuids", ty: "::System::Guid*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "GroupCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GroupUuids", ty: "::System::Guid*", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_ShareSpacesGroupRecipientInfo::OVRPlugin_ShareSpacesGroupRecipientInfo(uint32_t GroupCount, ::System::Guid* GroupUuids) noexcept {
   this->GroupCount = GroupCount;
   this->GroupUuids = GroupUuids;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_ShareSpacesGroupRecipientInfo::OVRPlugin_ShareSpacesGroupRecipientInfo() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType::OVRPlugin_SpaceDiscoveryFilterType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4728,7 +4822,7 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType::OVRPlugin_Space
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType::None{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType::Ids{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType::Component{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Media_OVRPlugin_MrcActivationMode::Media_OVRPlugin_MrcActivationMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4737,7 +4831,7 @@ constexpr ::GlobalNamespace::Media_OVRPlugin_MrcActivationMode::Media_OVRPlugin_
 constexpr ::GlobalNamespace::Media_OVRPlugin_MrcActivationMode GlobalNamespace::Media_OVRPlugin_MrcActivationMode::Automatic{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::Media_OVRPlugin_MrcActivationMode GlobalNamespace::Media_OVRPlugin_MrcActivationMode::Disabled{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::Media_OVRPlugin_MrcActivationMode GlobalNamespace::Media_OVRPlugin_MrcActivationMode::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Media_OVRPlugin_PlatformCameraMode::Media_OVRPlugin_PlatformCameraMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -4753,7 +4847,7 @@ constexpr ::GlobalNamespace::Media_OVRPlugin_PlatformCameraMode GlobalNamespace:
 constexpr ::GlobalNamespace::Media_OVRPlugin_PlatformCameraMode GlobalNamespace::Media_OVRPlugin_PlatformCameraMode::SpectatorMode{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::Media_OVRPlugin_PlatformCameraMode GlobalNamespace::Media_OVRPlugin_PlatformCameraMode::MobileMRC{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::Media_OVRPlugin_PlatformCameraMode GlobalNamespace::Media_OVRPlugin_PlatformCameraMode::EnumSize{ static_cast<int32_t>(0x7fffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Media_OVRPlugin_InputVideoBufferType::Media_OVRPlugin_InputVideoBufferType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -5598,8 +5692,8 @@ inline ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationStateHandler* G
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_VirtualKeyboardModelAnimationStateHandler::OVRPlugin_VirtualKeyboardModelAnimationStateHandler() {}
-// Ctor Parameters [CppParam { name: "uuidCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uuidCountOutput", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "uuids", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "uuidCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uuidCountOutput", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "uuids", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceContainerInternal::OVRPlugin_SpaceContainerInternal(int32_t uuidCapacityInput, int32_t uuidCountOutput, ::System::IntPtr uuids) noexcept {
   this->uuidCapacityInput = uuidCapacityInput;
   this->uuidCountOutput = uuidCountOutput;
@@ -5607,8 +5701,8 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceContainerInternal::OVRPlugin_SpaceCo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceContainerInternal::OVRPlugin_SpaceContainerInternal() {}
-// Ctor Parameters [CppParam { name: "byteCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "byteCountOutput", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "labels", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "byteCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "byteCountOutput", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "labels", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceSemanticLabelInternal::OVRPlugin_SpaceSemanticLabelInternal(int32_t byteCapacityInput, int32_t byteCountOutput, ::System::IntPtr labels) noexcept {
   this->byteCapacityInput = byteCapacityInput;
   this->byteCountOutput = byteCountOutput;
@@ -5616,8 +5710,8 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceSemanticLabelInternal::OVRPlugin_Spa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceSemanticLabelInternal::OVRPlugin_SpaceSemanticLabelInternal() {}
-// Ctor Parameters [CppParam { name: "floorUuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "ceilingUuid", ty: "::System::Guid", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "wallUuids", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "floorUuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ceilingUuid", ty: "::System::Guid", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "wallUuids", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_RoomLayout::OVRPlugin_RoomLayout(::System::Guid floorUuid, ::System::Guid ceilingUuid, ::ArrayW<::System::Guid> wallUuids) noexcept {
   this->floorUuid = floorUuid;
   this->ceilingUuid = ceilingUuid;
@@ -5625,9 +5719,9 @@ constexpr ::GlobalNamespace::OVRPlugin_RoomLayout::OVRPlugin_RoomLayout(::System
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_RoomLayout::OVRPlugin_RoomLayout() {}
-// Ctor Parameters [CppParam { name: "floorUuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "ceilingUuid", ty: "::System::Guid", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "wallUuidCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "wallUuidCountOutput", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "wallUuids", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "floorUuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ceilingUuid", ty: "::System::Guid", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "wallUuidCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "wallUuidCountOutput", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "wallUuids", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_RoomLayoutInternal::OVRPlugin_RoomLayoutInternal(::System::Guid floorUuid, ::System::Guid ceilingUuid, int32_t wallUuidCapacityInput,
                                                                                         int32_t wallUuidCountOutput, ::System::IntPtr wallUuids) noexcept {
   this->floorUuid = floorUuid;
@@ -5638,8 +5732,8 @@ constexpr ::GlobalNamespace::OVRPlugin_RoomLayoutInternal::OVRPlugin_RoomLayoutI
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_RoomLayoutInternal::OVRPlugin_RoomLayoutInternal() {}
-// Ctor Parameters [CppParam { name: "vertexCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertexCountOutput", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "vertices", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "vertexCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexCountOutput", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "vertices", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PolygonalBoundary2DInternal::OVRPlugin_PolygonalBoundary2DInternal(int32_t vertexCapacityInput, int32_t vertexCountOutput, ::System::IntPtr vertices) noexcept {
   this->vertexCapacityInput = vertexCapacityInput;
   this->vertexCountOutput = vertexCountOutput;
@@ -5647,51 +5741,67 @@ constexpr ::GlobalNamespace::OVRPlugin_PolygonalBoundary2DInternal::OVRPlugin_Po
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_PolygonalBoundary2DInternal::OVRPlugin_PolygonalBoundary2DInternal() {}
-// Ctor Parameters [CppParam { name: "requestByteCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "requestByteCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SceneCaptureRequestInternal::OVRPlugin_SceneCaptureRequestInternal(int32_t requestByteCount, ::StringW request) noexcept {
   this->requestByteCount = requestByteCount;
   this->request = request;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SceneCaptureRequestInternal::OVRPlugin_SceneCaptureRequestInternal() {}
-template <typename T> inline void GlobalNamespace::OVRPlugin_PinnedArray_1<T>::_ctor(::ArrayW<T> array) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void GlobalNamespace::OVRPlugin_PinnedArray_1<T>::_ctor(::ArrayW<T> array) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_PinnedArray_1<T>>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, array);
 }
-template <typename T> inline void GlobalNamespace::OVRPlugin_PinnedArray_1<T>::Dispose() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void GlobalNamespace::OVRPlugin_PinnedArray_1<T>::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_PinnedArray_1<T>>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline ::System::IntPtr GlobalNamespace::OVRPlugin_PinnedArray_1<T>::op_Implicit___System__IntPtr(::GlobalNamespace::OVRPlugin_PinnedArray_1<T> pinnedArray) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::System::IntPtr GlobalNamespace::OVRPlugin_PinnedArray_1<T>::op_Implicit___System__IntPtr(::GlobalNamespace::OVRPlugin_PinnedArray_1<T> pinnedArray) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_PinnedArray_1<T>>(), { "op_Implicit", {}, { ::i2c::type_of<::GlobalNamespace::OVRPlugin_PinnedArray_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, pinnedArray);
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr GlobalNamespace::OVRPlugin_PinnedArray_1<T>::operator ::System::IDisposable*() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr GlobalNamespace::OVRPlugin_PinnedArray_1<T>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* GlobalNamespace::OVRPlugin_PinnedArray_1<T>::i___System__IDisposable() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::IDisposable* GlobalNamespace::OVRPlugin_PinnedArray_1<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
-template <typename T> constexpr ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>::OVRPlugin_PinnedArray_1(::System::Runtime::InteropServices::GCHandle _handle) noexcept {
+// Ctor Parameters [CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}"), comment: None }]
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>::OVRPlugin_PinnedArray_1(::System::Runtime::InteropServices::GCHandle _handle) noexcept {
   this->_handle = _handle;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>::OVRPlugin_PinnedArray_1() {}
-// Ctor Parameters [CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }]
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>::OVRPlugin_PinnedArray_1() {}
+// Ctor Parameters [CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryResult::OVRPlugin_SpaceDiscoveryResult(uint64_t Space, ::System::Guid Uuid) noexcept {
   this->Space = Space;
   this->Uuid = Uuid;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryResult::OVRPlugin_SpaceDiscoveryResult() {}
-// Ctor Parameters [CppParam { name: "ResultCapacityInput", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ResultCountOutput", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Results", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryResult*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ResultCapacityInput", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ResultCountOutput", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Results", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryResult*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryResults::OVRPlugin_SpaceDiscoveryResults(uint32_t ResultCapacityInput, uint32_t ResultCountOutput,
                                                                                               ::GlobalNamespace::OVRPlugin_SpaceDiscoveryResult* Results) noexcept {
   this->ResultCapacityInput = ResultCapacityInput;
@@ -5700,14 +5810,14 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryResults::OVRPlugin_SpaceDis
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryResults::OVRPlugin_SpaceDiscoveryResults() {}
-// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoHeader::OVRPlugin_SpaceDiscoveryFilterInfoHeader(::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType Type) noexcept {
   this->Type = Type;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoHeader::OVRPlugin_SpaceDiscoveryFilterInfoHeader() {}
-// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumIds", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "Ids", ty: "::System::Guid*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumIds", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Ids", ty: "::System::Guid*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoIds::OVRPlugin_SpaceDiscoveryFilterInfoIds(::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType Type, int32_t NumIds,
                                                                                                           ::System::Guid* Ids) noexcept {
   this->Type = Type;
@@ -5716,8 +5826,8 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoIds::OVRPlugin_Sp
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoIds::OVRPlugin_SpaceDiscoveryFilterInfoIds() {}
-// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType", modifiers: "", def_value: Some("{}") }, CppParam { name: "Component", ty:
-// "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Component", ty:
+// "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoComponents::OVRPlugin_SpaceDiscoveryFilterInfoComponents(::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType Type,
                                                                                                                         ::GlobalNamespace::OVRPlugin_SpaceComponentType Component) noexcept {
   this->Type = Type;
@@ -5725,17 +5835,18 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoComponents::OVRPl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoComponents::OVRPlugin_SpaceDiscoveryFilterInfoComponents() {}
-// Ctor Parameters [CppParam { name: "NumFilters", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Filters", ty:
-// "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoHeader*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "NumFilters", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Filters", ty:
+// "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoHeader*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo::OVRPlugin_SpaceDiscoveryInfo(uint32_t NumFilters, ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoHeader* Filters) noexcept {
   this->NumFilters = NumFilters;
   this->Filters = Filters;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo::OVRPlugin_SpaceDiscoveryInfo() {}
-// Ctor Parameters [CppParam { name: "vertexCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertexCountOutput", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "vertices", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "indexCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "indexCountOutput", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "indices", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "vertexCapacityInput", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexCountOutput", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "vertices", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indexCapacityInput", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indexCountOutput", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "indices", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_TriangleMeshInternal::OVRPlugin_TriangleMeshInternal(int32_t vertexCapacityInput, int32_t vertexCountOutput, ::System::IntPtr vertices,
                                                                                             int32_t indexCapacityInput, int32_t indexCountOutput, ::System::IntPtr indices) noexcept {
   this->vertexCapacityInput = vertexCapacityInput;
@@ -5747,22 +5858,22 @@ constexpr ::GlobalNamespace::OVRPlugin_TriangleMeshInternal::OVRPlugin_TriangleM
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_TriangleMeshInternal::OVRPlugin_TriangleMeshInternal() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughPreferenceFields::OVRPlugin_PassthroughPreferenceFields(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughPreferenceFields::OVRPlugin_PassthroughPreferenceFields() {}
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughPreferenceFields GlobalNamespace::OVRPlugin_PassthroughPreferenceFields::Flags{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughPreferenceFlags::OVRPlugin_PassthroughPreferenceFlags(int64_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughPreferenceFlags::OVRPlugin_PassthroughPreferenceFlags() {}
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughPreferenceFlags GlobalNamespace::OVRPlugin_PassthroughPreferenceFlags::DefaultToActive{ static_cast<int64_t>(0x1) };
-// Ctor Parameters [CppParam { name: "Fields", ty: "::GlobalNamespace::OVRPlugin_PassthroughPreferenceFields", modifiers: "", def_value: Some("{}") }, CppParam { name: "Flags", ty:
-// "::GlobalNamespace::OVRPlugin_PassthroughPreferenceFlags", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Fields", ty: "::GlobalNamespace::OVRPlugin_PassthroughPreferenceFields", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Flags", ty:
+// "::GlobalNamespace::OVRPlugin_PassthroughPreferenceFlags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_PassthroughPreferences::OVRPlugin_PassthroughPreferences(::GlobalNamespace::OVRPlugin_PassthroughPreferenceFields Fields,
                                                                                                 ::GlobalNamespace::OVRPlugin_PassthroughPreferenceFlags Flags) noexcept {
   this->Fields = Fields;
@@ -5922,7 +6033,7 @@ inline ::GlobalNamespace::OVRPlugin_Ktx* GlobalNamespace::OVRPlugin_Ktx::New_cto
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_Ktx::OVRPlugin_Ktx() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryVisibility::OVRPlugin_BoundaryVisibility(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -5930,7 +6041,7 @@ constexpr ::GlobalNamespace::OVRPlugin_BoundaryVisibility::OVRPlugin_BoundaryVis
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryVisibility::OVRPlugin_BoundaryVisibility() {}
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryVisibility GlobalNamespace::OVRPlugin_BoundaryVisibility::NotSuppressed{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_BoundaryVisibility GlobalNamespace::OVRPlugin_BoundaryVisibility::Suppressed{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_DynamicObjectClass::OVRPlugin_DynamicObjectClass(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -5938,8 +6049,8 @@ constexpr ::GlobalNamespace::OVRPlugin_DynamicObjectClass::OVRPlugin_DynamicObje
 constexpr ::GlobalNamespace::OVRPlugin_DynamicObjectClass::OVRPlugin_DynamicObjectClass() {}
 constexpr ::GlobalNamespace::OVRPlugin_DynamicObjectClass GlobalNamespace::OVRPlugin_DynamicObjectClass::None{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlugin_DynamicObjectClass GlobalNamespace::OVRPlugin_DynamicObjectClass::Keyboard{ static_cast<int32_t>(0x3ba3bef8) };
-// Ctor Parameters [CppParam { name: "Classes", ty: "::GlobalNamespace::OVRPlugin_DynamicObjectClass*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ClassCount", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Classes", ty: "::GlobalNamespace::OVRPlugin_DynamicObjectClass*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ClassCount", ty:
+// "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo::OVRPlugin_DynamicObjectTrackedClassesSetInfo(::GlobalNamespace::OVRPlugin_DynamicObjectClass* Classes,
                                                                                                                         uint32_t ClassCount) noexcept {
   this->Classes = Classes;
@@ -5947,7 +6058,7 @@ constexpr ::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo::OVRPl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo::OVRPlugin_DynamicObjectTrackedClassesSetInfo() {}
-// Ctor Parameters [CppParam { name: "ClassType", ty: "::GlobalNamespace::OVRPlugin_DynamicObjectClass", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ClassType", ty: "::GlobalNamespace::OVRPlugin_DynamicObjectClass", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_DynamicObjectData::OVRPlugin_DynamicObjectData(::GlobalNamespace::OVRPlugin_DynamicObjectClass ClassType) noexcept {
   this->ClassType = ClassType;
 }
@@ -6195,7 +6306,7 @@ inline ::GlobalNamespace::OVRPlugin_UnityOpenXR* GlobalNamespace::OVRPlugin_Unit
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_UnityOpenXR::OVRPlugin_UnityOpenXR() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_FutureState::OVRPlugin_FutureState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -6203,7 +6314,7 @@ constexpr ::GlobalNamespace::OVRPlugin_FutureState::OVRPlugin_FutureState(int32_
 constexpr ::GlobalNamespace::OVRPlugin_FutureState::OVRPlugin_FutureState() {}
 constexpr ::GlobalNamespace::OVRPlugin_FutureState GlobalNamespace::OVRPlugin_FutureState::Pending{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRPlugin_FutureState GlobalNamespace::OVRPlugin_FutureState::Ready{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Qpl_OVRPlugin_ResultType::Qpl_OVRPlugin_ResultType(int16_t value__) noexcept {
   this->value__ = value__;
 }
@@ -6212,7 +6323,7 @@ constexpr ::GlobalNamespace::Qpl_OVRPlugin_ResultType::Qpl_OVRPlugin_ResultType(
 constexpr ::GlobalNamespace::Qpl_OVRPlugin_ResultType GlobalNamespace::Qpl_OVRPlugin_ResultType::Success{ static_cast<int16_t>(0x2) };
 constexpr ::GlobalNamespace::Qpl_OVRPlugin_ResultType GlobalNamespace::Qpl_OVRPlugin_ResultType::Fail{ static_cast<int16_t>(0x3) };
 constexpr ::GlobalNamespace::Qpl_OVRPlugin_ResultType GlobalNamespace::Qpl_OVRPlugin_ResultType::Cancel{ static_cast<int16_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Qpl_OVRPlugin_VariantType::Qpl_OVRPlugin_VariantType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -6456,11 +6567,12 @@ inline ::GlobalNamespace::Qpl_OVRPlugin_Variant GlobalNamespace::Qpl_OVRPlugin_V
                                                                                          { "From", {}, { ::i2c::type_of<::GlobalNamespace::OVRPlugin_Bool*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::Qpl_OVRPlugin_Variant>(nullptr, ___internal_method, values, count);
 }
-// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::Qpl_OVRPlugin_VariantType", modifiers: "", def_value: Some("{}") }, CppParam { name: "Count", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "StringValue", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LongValue", ty: "int64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "DoubleValue", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoolValue", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "StringValues", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LongValues", ty: "int64_t*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "DoubleValues", ty: "double_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoolValues", ty: "::GlobalNamespace::OVRPlugin_Bool*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::Qpl_OVRPlugin_VariantType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Count", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "StringValue", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LongValue", ty:
+// "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DoubleValue", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoolValue", ty: "::GlobalNamespace::OVRPlugin_Bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "StringValues", ty: "uint8_t*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "LongValues", ty: "int64_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DoubleValues", ty: "double_t*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "BoolValues", ty: "::GlobalNamespace::OVRPlugin_Bool*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Qpl_OVRPlugin_Variant::Qpl_OVRPlugin_Variant(::GlobalNamespace::Qpl_OVRPlugin_VariantType Type, int32_t Count, uint8_t* StringValue, int64_t LongValue,
                                                                           double_t DoubleValue, ::GlobalNamespace::OVRPlugin_Bool BoolValue, uint8_t* StringValues, int64_t* LongValues,
                                                                           double_t* DoubleValues, ::GlobalNamespace::OVRPlugin_Bool* BoolValues) noexcept {
@@ -6477,8 +6589,8 @@ constexpr ::GlobalNamespace::Qpl_OVRPlugin_Variant::Qpl_OVRPlugin_Variant(::Glob
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Qpl_OVRPlugin_Variant::Qpl_OVRPlugin_Variant() {}
-// Ctor Parameters [CppParam { name: "Key", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "Value", ty: "::GlobalNamespace::Qpl_OVRPlugin_Variant", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Key", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Value", ty: "::GlobalNamespace::Qpl_OVRPlugin_Variant",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Builder_Annotation_Qpl_OVRPlugin_Entry::Builder_Annotation_Qpl_OVRPlugin_Entry(::System::IntPtr Key, ::GlobalNamespace::Qpl_OVRPlugin_Variant Value) noexcept {
   this->Key = Key;
   this->Value = Value;
@@ -6773,8 +6885,8 @@ constexpr GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder::operator ::System::
 constexpr ::System::IDisposable* GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_entries", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::Builder_Annotation_Qpl_OVRPlugin_Entry>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_ownedStrings", ty: "::System::Collections::Generic::List_1<::System::IntPtr>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_entries", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::Builder_Annotation_Qpl_OVRPlugin_Entry>*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_ownedStrings", ty: "::System::Collections::Generic::List_1<::System::IntPtr>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder::Annotation_Qpl_OVRPlugin_Builder(
     ::System::Collections::Generic::List_1<::GlobalNamespace::Builder_Annotation_Qpl_OVRPlugin_Entry>* _entries, ::System::Collections::Generic::List_1<::System::IntPtr>* _ownedStrings) noexcept {
   this->_entries = _entries;
@@ -6818,8 +6930,8 @@ inline void GlobalNamespace::Qpl_OVRPlugin_Annotation::_ctor(uint8_t* key, ::Glo
                                                                                          { ".ctor", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_Variant>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, key, value);
 }
-// Ctor Parameters [CppParam { name: "Key", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Value", ty: "::GlobalNamespace::Qpl_OVRPlugin_Variant", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "Key", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Value", ty: "::GlobalNamespace::Qpl_OVRPlugin_Variant", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Qpl_OVRPlugin_Annotation::Qpl_OVRPlugin_Annotation(uint8_t* Key, ::GlobalNamespace::Qpl_OVRPlugin_Variant Value) noexcept {
   this->Key = Key;
   this->Value = Value;
@@ -13687,7 +13799,7 @@ inline void GlobalNamespace::OVRPlugin_OVRP_1_74_0::setStaticF_version(::System:
 inline ::System::Version* GlobalNamespace::OVRPlugin_OVRP_1_74_0::getStaticF_version() {
   return ::cordl_internals::getStaticField<::System::Version*, "version", ::GlobalNamespace::OVRPlugin_OVRP_1_74_0*>();
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_GetSpaceUuid(::by_ref<uint64_t> space, ::by_ref<::System::Guid> uuid) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_GetSpaceUuid(/* [IsReadOnly] */ ::by_ref<uint64_t> space, ::by_ref<::System::Guid> uuid) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_74_0*>(),
                                                            { "ovrp_GetSpaceUuid", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<::System::Guid>>() } })));
@@ -14514,24 +14626,25 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_
                             { ::i2c::type_of<uint64_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceStorageLocation>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, spaces, numSpaces, location, requestId);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_GetSpaceUserId(::by_ref<uint64_t> spaceUserHandle, ::by_ref<uint64_t> spaceUserId) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_GetSpaceUserId(/* [IsReadOnly] */ ::by_ref<uint64_t> spaceUserHandle, ::by_ref<uint64_t> spaceUserId) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
                                                            { "ovrp_GetSpaceUserId", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, spaceUserHandle, spaceUserId);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_CreateSpaceUser(::by_ref<uint64_t> spaceUserId, ::by_ref<uint64_t> spaceUserHandle) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_CreateSpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t> spaceUserId, ::by_ref<uint64_t> spaceUserHandle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
                                                            { "ovrp_CreateSpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, spaceUserId, spaceUserHandle);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DestroySpaceUser(::by_ref<uint64_t> userHandle) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DestroySpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t> userHandle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(), { "ovrp_DestroySpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, userHandle);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_LocateSpace2(::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf> location, ::by_ref<uint64_t> space,
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_LocateSpace2(::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf> location,
+                                                                                                     /* [IsReadOnly] */ ::by_ref<uint64_t> space,
                                                                                                      ::GlobalNamespace::OVRPlugin_TrackingOrigin trackingOrigin) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
                                                                                          { "ovrp_LocateSpace2",
@@ -14540,7 +14653,7 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_
                                                                                              ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_TrackingOrigin>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, location, space, trackingOrigin);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DeclareUser(::by_ref<uint64_t> userId, ::by_ref<uint64_t> userHandle) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DeclareUser(/* [IsReadOnly] */ ::by_ref<uint64_t> userId, ::by_ref<uint64_t> userHandle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
                                                                                          { "ovrp_DeclareUser", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, userId, userHandle);
@@ -14933,8 +15046,8 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_84_
                                               { "ovrp_UpdatePassthroughColorLut", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_PassthroughColorLutData>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, colorLut, data);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_SetInsightPassthroughStyle2(int32_t layerId,
-                                                                                                                    ::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2> style) {
+inline ::GlobalNamespace::OVRPlugin_Result
+GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_SetInsightPassthroughStyle2(int32_t layerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2> style) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_84_0*>(),
@@ -15803,9 +15916,9 @@ inline void GlobalNamespace::OVRPlugin_OVRP_1_96_0::setStaticF_version(::System:
 inline ::System::Version* GlobalNamespace::OVRPlugin_OVRP_1_96_0::getStaticF_version() {
   return ::cordl_internals::getStaticField<::System::Version*, "version", ::GlobalNamespace::OVRPlugin_OVRP_1_96_0*>();
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_96_0::ovrp_QplMarkerAnnotationVariant(int32_t markerId, ::StringW annotationKey,
-                                                                                                                   ::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant> annotationValue,
-                                                                                                                   int32_t instanceKey) {
+inline ::GlobalNamespace::OVRPlugin_Result
+GlobalNamespace::OVRPlugin_OVRP_1_96_0::ovrp_QplMarkerAnnotationVariant(int32_t markerId, ::StringW annotationKey,
+                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant> annotationValue, int32_t instanceKey) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_96_0*>(),
@@ -15894,7 +16007,8 @@ inline void GlobalNamespace::OVRPlugin_OVRP_1_97_0::setStaticF_version(::System:
 inline ::System::Version* GlobalNamespace::OVRPlugin_OVRP_1_97_0::getStaticF_version() {
   return ::cordl_internals::getStaticField<::System::Version*, "version", ::GlobalNamespace::OVRPlugin_OVRP_1_97_0*>();
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_97_0::ovrp_DiscoverSpaces(::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo> info, ::by_ref<uint64_t> requestId) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_97_0::ovrp_DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo> info,
+                                                                                                       ::by_ref<uint64_t> requestId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_97_0*>(),
                                               { "ovrp_DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
@@ -16303,7 +16417,8 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, future);
 }
 inline ::GlobalNamespace::OVRPlugin_Result
-GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_StartColocationAdvertisement(::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo> info, ::by_ref<uint64_t> requestId) {
+GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_StartColocationAdvertisement(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo> info,
+                                                                           ::by_ref<uint64_t> requestId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -16326,7 +16441,8 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(), { "ovrp_StopColocationDiscovery", {}, { ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, requestId);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_ShareSpaces2(::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo> info, ::by_ref<uint64_t> requestId) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_ShareSpaces2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo> info,
+                                                                                                      ::by_ref<uint64_t> requestId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(),
                                               { "ovrp_ShareSpaces2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
@@ -16528,7 +16644,7 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_104
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, tracker);
 }
 inline ::GlobalNamespace::OVRPlugin_Result
-GlobalNamespace::OVRPlugin_OVRP_1_104_0::ovrp_SetDynamicObjectTrackedClasses(uint64_t tracker, ::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo> setInfo) {
+GlobalNamespace::OVRPlugin_OVRP_1_104_0::ovrp_SetDynamicObjectTrackedClasses(uint64_t tracker, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo> setInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_104_0*>(),
@@ -26540,13 +26656,13 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::StopColoc
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(), { "StopColocationSessionDiscovery", {}, { ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, requestId);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::ShareSpaces(::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo> info, ::by_ref<uint64_t> requestId) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::ShareSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo> info, ::by_ref<uint64_t> requestId) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(),
                                                            { "ShareSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, info, requestId);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::DiscoverSpaces(::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo> info, ::by_ref<uint64_t> requestId) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo> info, ::by_ref<uint64_t> requestId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(),
                                               { "DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));

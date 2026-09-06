@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\EventAttributeFloat.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/EventAttributeFloat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_REF_T(::UnityEngine::VFX::EventAttributeFloat*);
 MARK_REF_T(::UnityEngine::VFX::EventAttributeFloat___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::EventAttributeFloat*, "UnityEngine.VFX", "EventAttributeFloat");
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::EventAttributeFloat___c*, "UnityEngine.VFX", "EventAttributeFloat/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr EventAttributeFloat___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeFloat___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeFloat___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventAttributeFloat___c(EventAttributeFloat___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeFloat___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeFloat___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventAttributeFloat___c(EventAttributeFloat___c const&) = delete;
+  EventAttributeFloat___c(EventAttributeFloat___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19937 };
@@ -114,13 +115,13 @@ protected:
   constexpr EventAttributeFloat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeFloat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeFloat", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventAttributeFloat(EventAttributeFloat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeFloat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeFloat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventAttributeFloat(EventAttributeFloat const&) = delete;
+  EventAttributeFloat(EventAttributeFloatconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19938 };

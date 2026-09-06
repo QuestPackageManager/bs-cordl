@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureFlagsEnabledQuery.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureFlagsEnabledQuery.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__QueryRequest_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureFlagsEnabledQuery_def.hpp"
 #include "Main/GraphQL/Queries/zzzz__FeatureFlagsEnabled_def.hpp"

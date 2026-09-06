@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\SpriteAssetUtilities\TexturePacker_JsonArray.hpp"
+// IWYU pragma private; include "TMPro/SpriteAssetUtilities/TexturePacker_JsonArray.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/SpriteAssetUtilities/zzzz__TexturePacker_JsonArray_def.hpp"
@@ -24,8 +24,8 @@ inline ::StringW TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFram
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "w", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::TexturePacker_JsonArray_SpriteFrame(float_t x, float_t y, float_t w, float_t h) noexcept {
   this->x = x;
   this->y = y;
@@ -53,18 +53,20 @@ inline ::StringW TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::TexturePacker_JsonArray_SpriteSize(float_t w, float_t h) noexcept {
   this->w = w;
   this->h = h;
 }
 // Ctor Parameters []
 constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::TexturePacker_JsonArray_SpriteSize() {}
-// Ctor Parameters [CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "frame", ty:
-// "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotated", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "trimmed", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "spriteSourceSize", ty: "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "sourceSize", ty: "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "pivot", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "frame", ty:
+// "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotated", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "trimmed", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "spriteSourceSize", ty:
+// "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sourceSize", ty:
+// "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pivot", ty: "::UnityEngine::Vector2", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Frame::TexturePacker_JsonArray_Frame(::StringW filename, ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame frame,
                                                                                                       bool rotated, bool trimmed,
                                                                                                       ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame spriteSourceSize,
@@ -80,10 +82,10 @@ constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Frame::TextureP
 }
 // Ctor Parameters []
 constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Frame::TexturePacker_JsonArray_Frame() {}
-// Ctor Parameters [CppParam { name: "app", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "image", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "size", ty:
-// "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "smartupdate", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "app", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "image", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "size", ty: "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scale",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "smartupdate", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Meta::TexturePacker_JsonArray_Meta(::StringW app, ::StringW version, ::StringW image, ::StringW format,
                                                                                                     ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize size, float_t scale,
                                                                                                     ::StringW smartupdate) noexcept {

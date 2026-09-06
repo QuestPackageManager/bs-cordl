@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerOutroAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerOutroAnimationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ class MultiplayerOutroAnimationController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerOutroAnimationController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerOutroAnimationController*, "", "MultiplayerOutroAnimationController");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerOutroAnimationController")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.PropertyName
 namespace GlobalNamespace {
 // Is value type: false
@@ -136,6 +137,7 @@ public:
   /// @brief Method BindRingsAndAudio, addr 0x59e15fc, size 0x6f0, virtual false, abstract: false, final false
   inline void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*> rings, bool isMock, bool isDuel, ::UnityEngine::GameObject* resultsMocks);
 
+  /// [UsedImplicitly]
   /// @brief Method Completed, addr 0x59e22e0, size 0x20, virtual false, abstract: false, final false
   inline void Completed();
 
@@ -285,74 +287,103 @@ protected:
   constexpr MultiplayerOutroAnimationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOutroAnimationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOutroAnimationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerOutroAnimationController(MultiplayerOutroAnimationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOutroAnimationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOutroAnimationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerOutroAnimationController(MultiplayerOutroAnimationController const&) = delete;
+  MultiplayerOutroAnimationController(MultiplayerOutroAnimationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6170 };
 
+  /// [Header("Master Timeline")]
+  /// [SerializeField]
   /// @brief Field _outroPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____outroPlayableDirector;
 
+  /// [Header("Common Timeline")]
+  /// [SerializeField]
   /// @brief Field _localPlayerTrackName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____localPlayerTrackName;
 
+  /// [SerializeField]
   /// @brief Field _playerTimelineTrackNames, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::StringW> ____playerTimelineTrackNames;
 
+  /// [SerializeField]
   /// @brief Field _ringTimelineTrackNames, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::StringW> ____ringTimelineTrackNames;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field _localPlayerTimelinePropertyName, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::PropertyName ____localPlayerTimelinePropertyName;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field _playerTimelinePropertyNames, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::PropertyName> ____playerTimelinePropertyNames;
 
+  /// [Header("Common Start")]
+  /// [SerializeField]
   /// @brief Field _resultsTimelineTrackNames, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::StringW> ____resultsTimelineTrackNames;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field _resultsTimelinePropertyNames, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::PropertyName> ____resultsTimelinePropertyNames;
 
+  /// [Header("Badges")]
+  /// [SerializeField]
   /// @brief Field _badgeStartTransform, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____badgeStartTransform;
 
+  /// [SerializeField]
   /// @brief Field _badgeMidTransform, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____badgeMidTransform;
 
+  /// [SerializeField]
   /// @brief Field _badgeTimelineTrackNames, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::StringW> ____badgeTimelineTrackNames;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field _badgeTimelinePropertyNames, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::PropertyName> ____badgeTimelinePropertyNames;
 
+  /// [Header("Others")]
+  /// [SerializeField]
   /// @brief Field _songPreviewTrackName, offset: 0x80, size: 0x8, def value: None
   ::StringW ____songPreviewTrackName;
 
+  /// [SerializeField]
   /// @brief Field _resultsMocksActivationTrack, offset: 0x88, size: 0x8, def value: None
   ::StringW ____resultsMocksActivationTrack;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerScoreRingManager, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> ____multiplayerScoreRingManager;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerResultsPyramidView, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView> ____multiplayerResultsPyramidView;
 
+  /// [Inject]
   /// @brief Field _multiplayerPlayersManager, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _sceneSetupData, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
+  /// [Inject]
   /// @brief Field _layoutProvider, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 

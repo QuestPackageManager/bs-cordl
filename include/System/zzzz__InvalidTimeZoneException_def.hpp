@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\InvalidTimeZoneException.hpp"
+// IWYU pragma private; include "System/InvalidTimeZoneException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class InvalidTimeZoneException;
 // Write type traits
 MARK_REF_T(::System::InvalidTimeZoneException*);
 DEFINE_IL2CPP_CLASS(::System::InvalidTimeZoneException*, "System", "InvalidTimeZoneException");
+// [TypeForwardedFrom("System.Core, Version=2.0.5.0, Culture=Neutral, PublicKeyToken=7cec85d7bea7798e")]
 // Dependencies System.Exception
 namespace System {
 // Is value type: false
@@ -47,13 +48,13 @@ protected:
   constexpr InvalidTimeZoneException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidTimeZoneException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvalidTimeZoneException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvalidTimeZoneException(InvalidTimeZoneException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidTimeZoneException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvalidTimeZoneException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvalidTimeZoneException(InvalidTimeZoneException const&) = delete;
+  InvalidTimeZoneException(InvalidTimeZoneExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2433 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\TypeFilter.hpp"
+// IWYU pragma private; include "System/Reflection/TypeFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,13 +42,13 @@ protected:
   constexpr TypeFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeFilter(TypeFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeFilter(TypeFilter const&) = delete;
+  TypeFilter(TypeFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3527 };

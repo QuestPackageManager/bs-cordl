@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\ExpressionNode.hpp"
+// IWYU pragma private; include "System/Data/ExpressionNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
 
   __declspec(property(get = get_table)) ::System::Data::DataTable* table;
 
-  /// @brief Method Bind, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
   /// @brief Method BindTable, addr 0x6041020, size 0x8, virtual false, abstract: false, final false
@@ -63,22 +63,22 @@ public:
   /// @brief Method DependsOn, addr 0x6041028, size 0x8, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Eval(::ArrayW<int32_t> recordNos);
 
-  /// @brief Method Eval, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsConstant();
 
   /// @brief Method IsFloat, addr 0x6041030, size 0x10, virtual false, abstract: false, final false
@@ -105,7 +105,7 @@ public:
   /// @brief Method IsSignedSql, addr 0x603e6e4, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsSignedSql(::System::Data::Common::StorageType type);
 
-  /// @brief Method IsTableConstant, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsTableConstant();
 
   /// @brief Method IsUnsigned, addr 0x603e650, size 0x10, virtual false, abstract: false, final false
@@ -116,7 +116,7 @@ public:
 
   static inline ::System::Data::ExpressionNode* New_ctor(::System::Data::DataTable* table);
 
-  /// @brief Method Optimize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
@@ -143,13 +143,13 @@ protected:
   constexpr ExpressionNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpressionNode(ExpressionNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionNode(ExpressionNode const&) = delete;
+  ExpressionNode(ExpressionNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13814 };

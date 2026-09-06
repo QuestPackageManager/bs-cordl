@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CombineInstance.hpp"
+// IWYU pragma private; include "UnityEngine/CombineInstance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,9 +47,10 @@ public:
   // @brief default ctor
   constexpr CombineInstance();
 
-  // Ctor Parameters [CppParam { name: "m_MeshInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_SubMeshIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "m_Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "m_LightmapScaleOffset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None },
-  // CppParam { name: "m_RealtimeLightmapScaleOffset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_MeshInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SubMeshIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LightmapScaleOffset", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RealtimeLightmapScaleOffset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr CombineInstance(int32_t m_MeshInstanceID, int32_t m_SubMeshIndex, ::UnityEngine::Matrix4x4 m_Transform, ::UnityEngine::Vector4 m_LightmapScaleOffset,
                             ::UnityEngine::Vector4 m_RealtimeLightmapScaleOffset) noexcept;
 

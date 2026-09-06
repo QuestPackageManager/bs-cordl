@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeUtility.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -21,7 +22,9 @@ namespace System {
 class Type;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeUtility_AlignOfHelper_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeUtility_AlignOfHelper_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 template <typename T> struct UnsafeUtility_TypeFlagsCache_1;
@@ -37,7 +40,9 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class UnsafeUtility;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeUtility_AlignOfHelper_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeUtility_AlignOfHelper_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 template <typename T> struct UnsafeUtility_TypeFlagsCache_1;
@@ -62,6 +67,7 @@ public:
   /// @brief Field flags, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_flags, put = setStaticF_flags)) int32_t flags;
 
+  /// [BurstDiscard]
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Init(::by_ref<int32_t> flags);
 
@@ -88,6 +94,7 @@ public:
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<T>
 struct CORDL_TYPE UnsafeUtility_AlignOfHelper_1 {
@@ -97,7 +104,7 @@ public:
   // @brief default ctor
   constexpr UnsafeUtility_AlignOfHelper_1();
 
-  // Ctor Parameters [CppParam { name: "dummy", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "dummy", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "data", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeUtility_AlignOfHelper_1(uint8_t dummy, T data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -116,50 +123,74 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections::LowLevel::Unsafe
-// Dependencies System.Object
+// [NativeHeader("Runtime/Export/Unsafe/UnsafeUtility.bindings.h")]
+// [StaticAccessor("UnsafeUtility", (UnityEngine.Bindings.StaticAccessorType)2)]
+// Dependencies System.IConvertible, System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeUtility
 class CORDL_TYPE UnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using AlignOfHelper_1 = ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using AlignOfHelper_1 = ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>;
 
   template <typename T> using TypeFlagsCache_1 = ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>;
 
   /// @brief Method AddressOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void* AddressOf(::by_ref<T> output);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void* AddressOf(::by_ref<T> output);
 
   /// @brief Method AlignOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t AlignOf();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t AlignOf();
 
   /// @brief Method ArrayElementAsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::by_ref<T> ArrayElementAsRef(void* ptr, int32_t index);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::by_ref<T> ArrayElementAsRef(void* ptr, int32_t index);
 
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U, typename T> static inline ::by_ref<T> As(::by_ref<U> from);
 
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T As(::System::Object* from);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T As(::System::Object* from);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::by_ref<T> AsRef(void* ptr);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::by_ref<T> AsRef(void* ptr);
 
   /// @brief Method CopyPtrToStructure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void CopyPtrToStructure(void* ptr, ::by_ref<T> output);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void CopyPtrToStructure(void* ptr, ::by_ref<T> output);
 
   /// @brief Method CopyStructureToPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void CopyStructureToPtr(::by_ref<T> input, void* ptr);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void CopyStructureToPtr(::by_ref<T> input, void* ptr);
 
   /// @brief Method EnumEquals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool EnumEquals(T lhs, T rhs);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline bool EnumEquals(T lhs, T rhs);
 
   /// @brief Method EnumToInt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t EnumToInt(T enumValue);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t EnumToInt(T enumValue);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method Free, addr 0x6a5ffc0, size 0x44, virtual false, abstract: false, final false
   static inline void Free(void* memory, ::Unity::Collections::Allocator allocator);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method FreeTracked, addr 0x6a5fc70, size 0x44, virtual false, abstract: false, final false
   static inline void FreeTracked(void* memory, ::Unity::Collections::Allocator allocator);
 
@@ -167,19 +198,26 @@ public:
   static inline ::StringW GetReasonForArrayNonBlittable(::System::Array* arr);
 
   /// @brief Method GetReasonForGenericListNonBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::StringW GetReasonForGenericListNonBlittable();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::StringW GetReasonForGenericListNonBlittable();
 
   /// @brief Method GetReasonForTypeNonBlittableImpl, addr 0x6a60334, size 0x230, virtual false, abstract: false, final false
   static inline ::StringW GetReasonForTypeNonBlittableImpl(::System::Type* t, ::StringW name);
 
+  /// [ThreadSafe]
   /// @brief Method GetScriptingTypeFlags, addr 0x6a60290, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetScriptingTypeFlags(::System::Type* type);
 
   /// @brief Method InternalCopyPtrToStructure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void InternalCopyPtrToStructure(void* ptr, ::by_ref<T> output);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void InternalCopyPtrToStructure(void* ptr, ::by_ref<T> output);
 
   /// @brief Method InternalCopyStructureToPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void InternalCopyStructureToPtr(::by_ref<T> input, void* ptr);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void InternalCopyStructureToPtr(::by_ref<T> input, void* ptr);
 
   /// @brief Method InternalEnumToInt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void InternalEnumToInt(::by_ref<T> enumValue, ::by_ref<int32_t> intValue);
@@ -188,8 +226,11 @@ public:
   static inline bool IsArrayBlittable(::System::Array* arr);
 
   /// @brief Method IsBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool IsBlittable();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline bool IsBlittable();
 
+  /// [ThreadSafe]
   /// @brief Method IsBlittable, addr 0x6a60254, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsBlittable(::System::Type* type);
 
@@ -197,41 +238,57 @@ public:
   static inline bool IsBlittableValueType(::System::Type* t);
 
   /// @brief Method IsGenericListBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool IsGenericListBlittable();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline bool IsGenericListBlittable();
 
   /// @brief Method IsUnmanaged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsUnmanaged();
 
+  /// [BurstAuthorizedExternalMethod]
+  /// [ThreadSafe(ThrowsException = false)]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.AIModule" })]
   /// @brief Method LeakErase, addr 0x6a5fecc, size 0x44, virtual false, abstract: false, final false
   static inline int32_t LeakErase(::System::IntPtr handle, ::Unity::Collections::LeakCategory category);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.AIModule" })]
+  /// [BurstAuthorizedExternalMethod]
+  /// [ThreadSafe(ThrowsException = false)]
   /// @brief Method LeakRecord, addr 0x6a5fe78, size 0x54, virtual false, abstract: false, final false
   static inline int32_t LeakRecord(::System::IntPtr handle, ::Unity::Collections::LeakCategory category, int32_t callstacksToSkip);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method Malloc, addr 0x6a5ff6c, size 0x54, virtual false, abstract: false, final false
   static inline void* Malloc(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method MallocTracked, addr 0x6a5ff10, size 0x5c, virtual false, abstract: false, final false
   static inline void* MallocTracked(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator, int32_t callstacksToSkip);
 
   /// @brief Method MemClear, addr 0x6a6017c, size 0x48, virtual false, abstract: false, final false
   static inline void MemClear(void* destination, int64_t size);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method MemCmp, addr 0x6a601c4, size 0x54, virtual false, abstract: false, final false
   static inline int32_t MemCmp(void* ptr1, void* ptr2, int64_t size);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method MemCpy, addr 0x6a5ec38, size 0x54, virtual false, abstract: false, final false
   static inline void MemCpy(void* destination, void* source, int64_t size);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method MemCpyReplicate, addr 0x6a60004, size 0x5c, virtual false, abstract: false, final false
   static inline void MemCpyReplicate(void* destination, void* source, int32_t size, int32_t count);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method MemCpyStride, addr 0x6a60060, size 0x74, virtual false, abstract: false, final false
   static inline void MemCpyStride(void* destination, int32_t destinationStride, void* source, int32_t sourceStride, int32_t elementSize, int32_t count);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method MemMove, addr 0x6a600d4, size 0x54, virtual false, abstract: false, final false
   static inline void MemMove(void* destination, void* source, int64_t size);
 
+  /// [ThreadSafe(ThrowsException = true)]
   /// @brief Method MemSet, addr 0x6a60128, size 0x54, virtual false, abstract: false, final false
   static inline void MemSet(void* destination, uint8_t value, int64_t size);
 
@@ -242,8 +299,11 @@ public:
   template <typename T> static inline T ReadArrayElementWithStride(void* source, int32_t index, int32_t stride);
 
   /// @brief Method SizeOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t SizeOf();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t SizeOf();
 
+  /// [ThreadSafe]
   /// @brief Method SizeOf, addr 0x6a60218, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t SizeOf(::System::Type* type);
 
@@ -259,13 +319,13 @@ protected:
   constexpr UnsafeUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeUtility(UnsafeUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeUtility(UnsafeUtility const&) = delete;
+  UnsafeUtility(UnsafeUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10026 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Range.hpp"
+// IWYU pragma private; include "System/Range.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ struct Range;
 // Write type traits
 MARK_VAL_T(::System::Range);
 DEFINE_IL2CPP_CLASS(::System::Range, "System", "Range");
+// [IsReadOnly]
 // Dependencies System.Index
 namespace System {
 // Is value type: true
@@ -53,9 +54,11 @@ public:
   /// @brief Method .ctor, addr 0x5c59d20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Index start, ::System::Index end);
 
+  /// [CompilerGenerated]
   /// @brief Method get_End, addr 0x5c59d18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Index get_End();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Start, addr 0x5c59d10, size 0x8, virtual false, abstract: false, final false
   inline ::System::Index get_Start();
 
@@ -66,8 +69,8 @@ public:
   // @brief default ctor
   constexpr Range();
 
-  // Ctor Parameters [CppParam { name: "_Start_k__BackingField", ty: "::System::Index", modifiers: "", def_value: None }, CppParam { name: "_End_k__BackingField", ty: "::System::Index", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Start_k__BackingField", ty: "::System::Index", modifiers: "", def_value: None, comment: None }, CppParam { name: "_End_k__BackingField", ty: "::System::Index",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr Range(::System::Index _Start_k__BackingField, ::System::Index _End_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -76,9 +79,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Start>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::System::Index _Start_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <End>k__BackingField, offset: 0x4, size: 0x4, def value: None
   ::System::Index _End_k__BackingField;
 

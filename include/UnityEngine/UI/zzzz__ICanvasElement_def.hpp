@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\ICanvasElement.hpp"
+// IWYU pragma private; include "UnityEngine/UI/ICanvasElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,24 +26,24 @@ public:
   // Declarations
   __declspec(property(get = get_transform)) ::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method GraphicUpdateComplete, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method IsDestroyed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsDestroyed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsDestroyed();
 
-  /// @brief Method LayoutComplete, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LayoutComplete();
 
-  /// @brief Method Rebuild, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method get_transform, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_transform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICanvasElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICanvasElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICanvasElement(ICanvasElement const&) = delete;
+  ICanvasElement(ICanvasElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17391 };

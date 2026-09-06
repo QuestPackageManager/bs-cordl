@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentSizeData.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentSizeData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSizeData_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSizeData_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EnvironmentSizeData_FloorType::EnvironmentSizeData_FloorType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -11,7 +11,7 @@ constexpr ::GlobalNamespace::EnvironmentSizeData_FloorType::EnvironmentSizeData_
 constexpr ::GlobalNamespace::EnvironmentSizeData_FloorType::EnvironmentSizeData_FloorType() {}
 constexpr ::GlobalNamespace::EnvironmentSizeData_FloorType GlobalNamespace::EnvironmentSizeData_FloorType::NoFloor{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::EnvironmentSizeData_FloorType GlobalNamespace::EnvironmentSizeData_FloorType::CloseTo0{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EnvironmentSizeData_CeilingType::EnvironmentSizeData_CeilingType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -19,7 +19,7 @@ constexpr ::GlobalNamespace::EnvironmentSizeData_CeilingType::EnvironmentSizeDat
 constexpr ::GlobalNamespace::EnvironmentSizeData_CeilingType::EnvironmentSizeData_CeilingType() {}
 constexpr ::GlobalNamespace::EnvironmentSizeData_CeilingType GlobalNamespace::EnvironmentSizeData_CeilingType::NoCeiling{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::EnvironmentSizeData_CeilingType GlobalNamespace::EnvironmentSizeData_CeilingType::LowCeiling{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EnvironmentSizeData_TrackLaneType::EnvironmentSizeData_TrackLaneType(int32_t value__) noexcept {
   this->value__ = value__;
 }

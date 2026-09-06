@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DateTimeOffset.hpp"
+// IWYU pragma private; include "System/DateTimeOffset.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
@@ -1120,8 +1120,8 @@ constexpr System::DateTimeOffset::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::DateTimeOffset::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_dateTime", ty: "::System::DateTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "_offsetMinutes", ty: "int16_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_dateTime", ty: "::System::DateTime", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_offsetMinutes", ty: "int16_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::DateTimeOffset::DateTimeOffset(::System::DateTime _dateTime, int16_t _offsetMinutes) noexcept {
   this->_dateTime = _dateTime;
   this->_offsetMinutes = _offsetMinutes;

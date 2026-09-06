@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseCaptureController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseCaptureController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class MouseCaptureController;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::MouseCaptureController*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseCaptureController*, "UnityEngine.UIElements", "MouseCaptureController");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -22,9 +23,11 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method CaptureMouse, addr 0x6db6748, size 0xcc, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
+  /// [Extension]
   /// @brief Method HasMouseCapture, addr 0x6db4f64, size 0xb4, virtual false, abstract: false, final false
   static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
 
@@ -34,13 +37,13 @@ protected:
   constexpr MouseCaptureController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseCaptureController(MouseCaptureController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseCaptureController(MouseCaptureController const&) = delete;
+  MouseCaptureController(MouseCaptureControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4622 };

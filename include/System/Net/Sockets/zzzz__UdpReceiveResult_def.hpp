@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\UdpReceiveResult.hpp"
+// IWYU pragma private; include "System/Net/Sockets/UdpReceiveResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,8 +57,8 @@ public:
   // @brief default ctor
   constexpr UdpReceiveResult();
 
-  // Ctor Parameters [CppParam { name: "m_buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "m_remoteEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_remoteEndPoint", ty: "::System::Net::IPEndPoint*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr UdpReceiveResult(::ArrayW<uint8_t> m_buffer, ::System::Net::IPEndPoint* m_remoteEndPoint) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

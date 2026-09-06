@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalChunk.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalChunk.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -68,15 +70,17 @@ public:
   template <typename T> inline void RemoveAtSwapBack(::by_ref<::ArrayW<T>> array, int32_t index, int32_t count);
 
   /// @brief Method RemoveAtSwapBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void RemoveAtSwapBack(::by_ref<::Unity::Collections::NativeArray_1<T>> array, int32_t index, int32_t count);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RemoveAtSwapBack(::by_ref<::Unity::Collections::NativeArray_1<T>> array, int32_t index, int32_t count);
 
-  /// @brief Method RemoveAtSwapBack, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RemoveAtSwapBack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveAtSwapBack(int32_t index);
 
   /// @brief Method ResizeNativeArray, addr 0x6859f98, size 0xe0, virtual false, abstract: false, final false
   inline void ResizeNativeArray(::by_ref<::UnityEngine::Jobs::TransformAccessArray> array, ::ArrayW<::UnityEngine::Rendering::Universal::DecalProjector*> decalProjectors, int32_t capacity);
 
-  /// @brief Method SetCapacity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetCapacity(int32_t capacity);
 
   constexpr int32_t const& __cordl_internal_get__capacity_k__BackingField() const;
@@ -100,24 +104,30 @@ public:
   /// @brief Method .ctor, addr 0x685a078, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_capacity, addr 0x6859f60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_capacity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_count, addr 0x6859f50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_count();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentJobHandle, addr 0x6859f70, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle get_currentJobHandle();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_capacity, addr 0x6859f68, size 0x8, virtual false, abstract: false, final false
   inline void set_capacity(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_count, addr 0x6859f58, size 0x8, virtual false, abstract: false, final false
   inline void set_count(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentJobHandle, addr 0x6859f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_currentJobHandle(::Unity::Jobs::JobHandle value);
 
@@ -127,23 +137,26 @@ protected:
   constexpr DecalChunk();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalChunk", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalChunk", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalChunk(DecalChunk&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalChunk", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalChunk", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalChunk(DecalChunk const&) = delete;
+  DecalChunk(DecalChunkconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12689 };
 
+  /// [CompilerGenerated]
   /// @brief Field <count>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____count_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <capacity>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____capacity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentJobHandle>k__BackingField, offset: 0x18, size: 0x10, def value: None
   ::Unity::Jobs::JobHandle ____currentJobHandle_k__BackingField;
 

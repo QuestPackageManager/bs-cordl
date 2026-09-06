@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UnsignedIntegerField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UnsignedIntegerField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UnsignedIntegerField*, "UnityEngi
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*, "UnityEngine.UIElements", "UnsignedIntegerField/UnsignedIntegerInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory*, "UnityEngine.UIElements", "UnsignedIntegerField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits*, "UnityEngine.UIElements", "UnsignedIntegerField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr UnsignedIntegerField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsignedIntegerField_UxmlFactory(UnsignedIntegerField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField_UxmlFactory(UnsignedIntegerField_UxmlFactory const&) = delete;
+  UnsignedIntegerField_UxmlFactory(UnsignedIntegerField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4356 };
@@ -85,6 +86,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -103,13 +105,13 @@ protected:
   constexpr UnsignedIntegerField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsignedIntegerField_UxmlTraits(UnsignedIntegerField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField_UxmlTraits(UnsignedIntegerField_UxmlTraits const&) = delete;
+  UnsignedIntegerField_UxmlTraits(UnsignedIntegerField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4357 };
@@ -157,13 +159,13 @@ protected:
   constexpr UnsignedIntegerField_UnsignedIntegerInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UnsignedIntegerInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UnsignedIntegerInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsignedIntegerField_UnsignedIntegerInput(UnsignedIntegerField_UnsignedIntegerInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UnsignedIntegerInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UnsignedIntegerInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField_UnsignedIntegerInput(UnsignedIntegerField_UnsignedIntegerInput const&) = delete;
+  UnsignedIntegerField_UnsignedIntegerInput(UnsignedIntegerField_UnsignedIntegerInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4358 };
@@ -241,13 +243,13 @@ protected:
   constexpr UnsignedIntegerField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsignedIntegerField(UnsignedIntegerField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField(UnsignedIntegerField const&) = delete;
+  UnsignedIntegerField(UnsignedIntegerFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4359 };

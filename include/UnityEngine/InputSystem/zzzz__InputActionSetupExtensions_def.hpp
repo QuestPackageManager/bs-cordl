@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionSetupExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionSetupExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -174,8 +175,9 @@ public:
   // @brief default ctor
   constexpr InputActionSetupExtensions_BindingSyntax();
 
-  // Ctor Parameters [CppParam { name: "m_ActionMap", ty: "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: None }, CppParam { name: "m_Action", ty:
-  // "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: None }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ActionMap", ty: "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Action", ty:
+  // "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr InputActionSetupExtensions_BindingSyntax(::UnityEngine::InputSystem::InputActionMap* m_ActionMap, ::UnityEngine::InputSystem::InputAction* m_Action, int32_t m_BindingIndexInMap) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -227,8 +229,9 @@ public:
   // @brief default ctor
   constexpr InputActionSetupExtensions_CompositeSyntax();
 
-  // Ctor Parameters [CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: None }, CppParam { name: "m_ActionMap", ty:
-  // "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: None }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ActionMap", ty:
+  // "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr InputActionSetupExtensions_CompositeSyntax(::UnityEngine::InputSystem::InputAction* m_Action, ::UnityEngine::InputSystem::InputActionMap* m_ActionMap,
                                                        int32_t m_BindingIndexInMap) noexcept;
 
@@ -259,7 +262,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputActionSetupExtensions_Co
 static_assert(sizeof(::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Dependencies UnityEngine.InputSystem.InputControlScheme
+// Dependencies UnityEngine.InputSystem.InputControlScheme, UnityEngine.InputSystem.InputDevice
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.InputActionSetupExtensions/ControlSchemeSyntax
@@ -270,19 +273,25 @@ public:
   inline void AddDeviceEntry(::StringW controlPath, ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags flags);
 
   /// @brief Method DeviceTypeToControlPath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevice> inline ::StringW DeviceTypeToControlPath();
+  template <typename TDevice>
+    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+  inline ::StringW DeviceTypeToControlPath();
 
   /// @brief Method Done, addr 0x64ebc28, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme Done();
 
   /// @brief Method OrWithOptionalDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevice> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithOptionalDevice();
+  template <typename TDevice>
+    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+  inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithOptionalDevice();
 
   /// @brief Method OrWithOptionalDevice, addr 0x64ec060, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithOptionalDevice(::StringW controlPath);
 
   /// @brief Method OrWithRequiredDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevice> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithRequiredDevice();
+  template <typename TDevice>
+    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+  inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithRequiredDevice();
 
   /// @brief Method OrWithRequiredDevice, addr 0x64ebfa4, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithRequiredDevice(::StringW controlPath);
@@ -291,13 +300,17 @@ public:
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithBindingGroup(::StringW bindingGroup);
 
   /// @brief Method WithOptionalDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevice> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithOptionalDevice();
+  template <typename TDevice>
+    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+  inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithOptionalDevice();
 
   /// @brief Method WithOptionalDevice, addr 0x64ebdd8, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithOptionalDevice(::StringW controlPath);
 
   /// @brief Method WithRequiredDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevice> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithRequiredDevice();
+  template <typename TDevice>
+    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+  inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithRequiredDevice();
 
   /// @brief Method WithRequiredDevice, addr 0x64ebda4, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithRequiredDevice(::StringW controlPath);
@@ -312,8 +325,9 @@ public:
   // @brief default ctor
   constexpr InputActionSetupExtensions_ControlSchemeSyntax();
 
-  // Ctor Parameters [CppParam { name: "m_Asset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: None }, CppParam { name: "m_ControlSchemeIndex", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ControlScheme", ty: "::UnityEngine::InputSystem::InputControlScheme", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Asset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_ControlSchemeIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ControlScheme", ty: "::UnityEngine::InputSystem::InputControlScheme", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr InputActionSetupExtensions_ControlSchemeSyntax(::UnityW<::UnityEngine::InputSystem::InputActionAsset> m_Asset, int32_t m_ControlSchemeIndex,
                                                            ::UnityEngine::InputSystem::InputControlScheme m_ControlScheme) noexcept;
 
@@ -344,6 +358,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputActionSetupExtensions_Co
 static_assert(sizeof(::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.InputSystem.InputBinding
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -374,13 +389,13 @@ protected:
   constexpr InputActionSetupExtensions___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionSetupExtensions___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionSetupExtensions___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputActionSetupExtensions___c__DisplayClass5_0(InputActionSetupExtensions___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionSetupExtensions___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionSetupExtensions___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionSetupExtensions___c__DisplayClass5_0(InputActionSetupExtensions___c__DisplayClass5_0 const&) = delete;
+  InputActionSetupExtensions___c__DisplayClass5_0(InputActionSetupExtensions___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8651 };
@@ -396,6 +411,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputActionSetupExtensions___
 static_assert(sizeof(::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0) == 0x68, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -411,38 +427,48 @@ public:
 
   using __c__DisplayClass5_0 = ::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0;
 
+  /// [Extension]
   /// @brief Method AddAction, addr 0x64e9a4c, size 0x354, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputAction* AddAction(::UnityEngine::InputSystem::InputActionMap* map, ::StringW name, ::UnityEngine::InputSystem::InputActionType type, ::StringW binding,
                                                                    ::StringW interactions, ::StringW processors, ::StringW groups, ::StringW expectedControlLayout);
 
+  /// [Extension]
   /// @brief Method AddActionMap, addr 0x64e93a4, size 0x1d4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionMap* AddActionMap(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name);
 
+  /// [Extension]
   /// @brief Method AddActionMap, addr 0x64e9578, size 0x250, virtual false, abstract: false, final false
   static inline void AddActionMap(::UnityEngine::InputSystem::InputActionAsset* asset, ::UnityEngine::InputSystem::InputActionMap* map);
 
+  /// [Extension]
   /// @brief Method AddBinding, addr 0x64ea28c, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding binding);
 
+  /// [Extension]
   /// @brief Method AddBinding, addr 0x64ea350, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputControl* control);
 
+  /// [Extension]
   /// @brief Method AddBinding, addr 0x64e9da0, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW path, ::StringW interactions,
                                                                                                 ::StringW processors, ::StringW groups);
 
+  /// [Extension]
   /// @brief Method AddBinding, addr 0x64ea644, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
                                                                                                 ::UnityEngine::InputSystem::InputBinding binding);
 
+  /// [Extension]
   /// @brief Method AddBinding, addr 0x64ea854, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path, ::System::Guid action,
                                                                                                 ::StringW interactions, ::StringW groups);
 
+  /// [Extension]
   /// @brief Method AddBinding, addr 0x64ea72c, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path,
                                                                                                 ::UnityEngine::InputSystem::InputAction* action, ::StringW interactions, ::StringW groups);
 
+  /// [Extension]
   /// @brief Method AddBinding, addr 0x64ea590, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path, ::StringW interactions,
                                                                                                 ::StringW groups, ::StringW action, ::StringW processors);
@@ -450,76 +476,100 @@ public:
   /// @brief Method AddBindingInternal, addr 0x64ea408, size 0x17c, virtual false, abstract: false, final false
   static inline int32_t AddBindingInternal(::UnityEngine::InputSystem::InputActionMap* map, ::UnityEngine::InputSystem::InputBinding binding, int32_t bindingIndex);
 
+  /// [Extension]
   /// @brief Method AddCompositeBinding, addr 0x64ea950, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax AddCompositeBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW composite, ::StringW interactions,
                                                                                                            ::StringW processors);
 
+  /// [Extension]
   /// @brief Method AddControlScheme, addr 0x64eb7a0, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax AddControlScheme(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name);
 
+  /// [Extension]
   /// @brief Method AddControlScheme, addr 0x64eb510, size 0x290, virtual false, abstract: false, final false
   static inline void AddControlScheme(::UnityEngine::InputSystem::InputActionAsset* asset, ::UnityEngine::InputSystem::InputControlScheme controlScheme);
 
+  /// [Extension]
   /// @brief Method ChangeBinding, addr 0x64eaaf8, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBinding(::UnityEngine::InputSystem::InputAction* action, int32_t index);
 
+  /// [Extension]
   /// @brief Method ChangeBinding, addr 0x64eabdc, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBinding(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding match);
 
+  /// [Extension]
   /// @brief Method ChangeBinding, addr 0x64eab8c, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW name);
 
+  /// [Extension]
   /// @brief Method ChangeBinding, addr 0x64ead10, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, int32_t index);
 
+  /// [Extension]
   /// @brief Method ChangeBindingWithGroup, addr 0x64eaf74, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBindingWithGroup(::UnityEngine::InputSystem::InputAction* action, ::StringW group);
 
+  /// [Extension]
   /// @brief Method ChangeBindingWithId, addr 0x64eae04, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBindingWithId(::UnityEngine::InputSystem::InputAction* action, ::StringW id);
 
+  /// [Extension]
   /// @brief Method ChangeBindingWithId, addr 0x64eae98, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBindingWithId(::UnityEngine::InputSystem::InputAction* action, ::System::Guid id);
 
+  /// [Extension]
   /// @brief Method ChangeBindingWithPath, addr 0x64eb008, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBindingWithPath(::UnityEngine::InputSystem::InputAction* action, ::StringW path);
 
+  /// [Extension]
   /// @brief Method ChangeCompositeBinding, addr 0x64eb0a4, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeCompositeBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW compositeName);
 
+  /// [Extension]
   /// @brief Method OrWithOptionalDevice, addr 0x64ebfd8, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme OrWithOptionalDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath);
 
+  /// [Extension]
   /// @brief Method OrWithRequiredDevice, addr 0x64ebf1c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme OrWithRequiredDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath);
 
+  /// [Extension]
   /// @brief Method RemoveAction, addr 0x64e9dec, size 0x38c, virtual false, abstract: false, final false
   static inline void RemoveAction(::UnityEngine::InputSystem::InputAction* action);
 
+  /// [Extension]
   /// @brief Method RemoveAction, addr 0x64ea17c, size 0x110, virtual false, abstract: false, final false
   static inline void RemoveAction(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW nameOrId);
 
+  /// [Extension]
   /// @brief Method RemoveActionMap, addr 0x64e97c8, size 0x16c, virtual false, abstract: false, final false
   static inline void RemoveActionMap(::UnityEngine::InputSystem::InputActionAsset* asset, ::UnityEngine::InputSystem::InputActionMap* map);
 
+  /// [Extension]
   /// @brief Method RemoveActionMap, addr 0x64e9934, size 0x118, virtual false, abstract: false, final false
   static inline void RemoveActionMap(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW nameOrId);
 
+  /// [Extension]
   /// @brief Method RemoveControlScheme, addr 0x64eb910, size 0x13c, virtual false, abstract: false, final false
   static inline void RemoveControlScheme(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name);
 
+  /// [Extension]
   /// @brief Method Rename, addr 0x64eb2a8, size 0x268, virtual false, abstract: false, final false
   static inline void Rename(::UnityEngine::InputSystem::InputAction* action, ::StringW newName);
 
+  /// [Extension]
   /// @brief Method WithBindingGroup, addr 0x64eba4c, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme WithBindingGroup(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW bindingGroup);
 
+  /// [Extension]
   /// @brief Method WithDevice, addr 0x64ebcec, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme WithDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath, bool required);
 
+  /// [Extension]
   /// @brief Method WithOptionalDevice, addr 0x64ebe94, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme WithOptionalDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath);
 
+  /// [Extension]
   /// @brief Method WithRequiredDevice, addr 0x64ebe0c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme WithRequiredDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath);
 
@@ -529,13 +579,13 @@ protected:
   constexpr InputActionSetupExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionSetupExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionSetupExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputActionSetupExtensions(InputActionSetupExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionSetupExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionSetupExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionSetupExtensions(InputActionSetupExtensions const&) = delete;
+  InputActionSetupExtensions(InputActionSetupExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8652 };

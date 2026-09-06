@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RomanNumerals.hpp"
+// IWYU pragma private; include "GlobalNamespace/RomanNumerals.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class RomanNumerals;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::RomanNumerals*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RomanNumerals*, "", "RomanNumerals");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -21,6 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE RomanNumerals : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ToRomanNumeralString, addr 0x5900ea4, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW ToRomanNumeralString(int32_t input);
 
@@ -30,13 +32,13 @@ protected:
   constexpr RomanNumerals();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RomanNumerals", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RomanNumerals", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RomanNumerals(RomanNumerals&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RomanNumerals", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RomanNumerals", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RomanNumerals(RomanNumerals const&) = delete;
+  RomanNumerals(RomanNumeralsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6654 };

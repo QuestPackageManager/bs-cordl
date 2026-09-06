@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetApplicationVersionText.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetApplicationVersionText.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetApplicationVersionText_def.hpp"

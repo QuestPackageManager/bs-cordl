@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\Archive\ArchiveHandle.hpp"
+// IWYU pragma private; include "Unity/IO/Archive/ArchiveHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct ArchiveHandle;
 // Write type traits
 MARK_VAL_T(::Unity::IO::Archive::ArchiveHandle);
 DEFINE_IL2CPP_CLASS(::Unity::IO::Archive::ArchiveHandle, "Unity.IO.Archive", "ArchiveHandle");
+// [NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
+// [RequiredByNativeCode]
 // Dependencies
 namespace Unity::IO::Archive {
 // Is value type: true
@@ -24,7 +26,7 @@ public:
   // @brief default ctor
   constexpr ArchiveHandle();
 
-  // Ctor Parameters [CppParam { name: "Handle", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Handle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr ArchiveHandle(uint64_t Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

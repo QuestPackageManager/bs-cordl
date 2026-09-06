@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\ArmoredInputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ArmoredInputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -222,13 +222,13 @@ protected:
   constexpr ArmoredInputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArmoredInputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArmoredInputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArmoredInputStream(ArmoredInputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArmoredInputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArmoredInputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArmoredInputStream(ArmoredInputStream const&) = delete;
+  ArmoredInputStream(ArmoredInputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 550 };

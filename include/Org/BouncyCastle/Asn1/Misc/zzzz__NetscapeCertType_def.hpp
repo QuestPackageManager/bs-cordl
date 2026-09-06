@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Misc\NetscapeCertType.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Misc/NetscapeCertType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ protected:
   constexpr NetscapeCertType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetscapeCertType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetscapeCertType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetscapeCertType(NetscapeCertType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetscapeCertType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetscapeCertType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetscapeCertType(NetscapeCertType const&) = delete;
+  NetscapeCertType(NetscapeCertTypeconst&) = delete;
 
   /// @brief Field ObjectSigning offset 0xffffffff size 0x4
   static constexpr int32_t ObjectSigning{ static_cast<int32_t>(0x10) };

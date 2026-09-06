@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\TextureCurve.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/TextureCurve.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureCurve_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -328,7 +328,7 @@ inline ::UnityEngine::Keyframe UnityEngine::Rendering::TextureCurve::get_Item(in
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Keyframe>(this, ___internal_method, index);
 }
-inline void UnityEngine::Rendering::TextureCurve::_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, ::by_ref<::UnityEngine::Vector2> bounds) {
+inline void UnityEngine::Rendering::TextureCurve::_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -336,7 +336,7 @@ inline void UnityEngine::Rendering::TextureCurve::_ctor(::UnityEngine::Animation
                        { ".ctor", {}, { ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, baseCurve, zeroValue, loop, bounds);
 }
-inline void UnityEngine::Rendering::TextureCurve::_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, ::by_ref<::UnityEngine::Vector2> bounds) {
+inline void UnityEngine::Rendering::TextureCurve::_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -374,7 +374,7 @@ inline int32_t UnityEngine::Rendering::TextureCurve::AddKey(float_t time, float_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "AddKey", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, time, value);
 }
-inline int32_t UnityEngine::Rendering::TextureCurve::MoveKey(int32_t index, ::by_ref<::UnityEngine::Keyframe> key) {
+inline int32_t UnityEngine::Rendering::TextureCurve::MoveKey(int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Keyframe> key) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(),
                                                                                          { "MoveKey", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Keyframe>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, index, key);
@@ -390,11 +390,11 @@ inline void UnityEngine::Rendering::TextureCurve::SmoothTangents(int32_t index, 
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, weight);
 }
 inline ::UnityEngine::Rendering::TextureCurve* UnityEngine::Rendering::TextureCurve::New_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop,
-                                                                                              ::by_ref<::UnityEngine::Vector2> bounds) {
+                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::TextureCurve*>(baseCurve, zeroValue, loop, bounds));
 }
 inline ::UnityEngine::Rendering::TextureCurve* UnityEngine::Rendering::TextureCurve::New_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop,
-                                                                                              ::by_ref<::UnityEngine::Vector2> bounds) {
+                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::TextureCurve*>(keys, zeroValue, loop, bounds));
 }
 /// @brief Convert operator to "::System::IDisposable"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ProjectContext.hpp"
+// IWYU pragma private; include "Zenject/ProjectContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,6 +107,7 @@ public:
 
   static inline ::Zenject::ProjectContext* New_ctor();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e70708, size 0x4c, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -167,21 +168,26 @@ public:
 
   constexpr void __cordl_internal_set__settings(::Zenject::ZenjectSettings* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e721b4, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x6e721a8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_PostInstall, addr 0x6e70300, size 0xac, virtual false, abstract: false, final false
   inline void add_PostInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PostResolve, addr 0x6e705b0, size 0xac, virtual false, abstract: false, final false
   inline void add_PostResolve(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PreInstall, addr 0x6e701a8, size 0xac, virtual false, abstract: false, final false
   inline void add_PreInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PreResolve, addr 0x6e70458, size 0xac, virtual false, abstract: false, final false
   inline void add_PreResolve(::System::Action* value);
 
@@ -201,18 +207,23 @@ public:
   /// @brief Method get_ParentNewObjectsUnderContext, addr 0x6e71244, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParentNewObjectsUnderContext();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ValidateOnNextRun, addr 0x6e70b54, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_ValidateOnNextRun();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PostInstall, addr 0x6e703ac, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PostResolve, addr 0x6e7065c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostResolve(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PreInstall, addr 0x6e70254, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PreResolve, addr 0x6e70504, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreResolve(::System::Action* value);
 
@@ -223,6 +234,7 @@ public:
   /// @brief Method set_ParentNewObjectsUnderContext, addr 0x6e7124c, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentNewObjectsUnderContext(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ValidateOnNextRun, addr 0x6e70ba0, size 0x54, virtual false, abstract: false, final false
   static inline void set_ValidateOnNextRun(bool value);
 
@@ -232,13 +244,13 @@ protected:
   constexpr ProjectContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProjectContext(ProjectContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProjectContext(ProjectContext const&) = delete;
+  ProjectContext(ProjectContextconst&) = delete;
 
   /// @brief Field ProjectContextResourcePath offset 0xffffffff size 0x8
   static constexpr ::ConstString ProjectContextResourcePath{ u"ProjectContext" };
@@ -249,27 +261,36 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14475 };
 
+  /// [CompilerGenerated]
   /// @brief Field PreInstall, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___PreInstall;
 
+  /// [CompilerGenerated]
   /// @brief Field PostInstall, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___PostInstall;
 
+  /// [CompilerGenerated]
   /// @brief Field PreResolve, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___PreResolve;
 
+  /// [CompilerGenerated]
   /// @brief Field PostResolve, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___PostResolve;
 
+  /// [SerializeField]
+  /// [Tooltip("When true, objects that are created at runtime will be parented to the ProjectContext")]
   /// @brief Field _parentNewObjectsUnderContext, offset: 0x68, size: 0x1, def value: None
   bool ____parentNewObjectsUnderContext;
 
+  /// [SerializeField]
   /// @brief Field _editorReflectionBakingCoverageMode, offset: 0x6c, size: 0x4, def value: None
   ::Zenject::ReflectionBakingCoverageModes ____editorReflectionBakingCoverageMode;
 
+  /// [SerializeField]
   /// @brief Field _buildsReflectionBakingCoverageMode, offset: 0x70, size: 0x4, def value: None
   ::Zenject::ReflectionBakingCoverageModes ____buildsReflectionBakingCoverageMode;
 
+  /// [SerializeField]
   /// @brief Field _settings, offset: 0x78, size: 0x8, def value: None
   ::Zenject::ZenjectSettings* ____settings;
 

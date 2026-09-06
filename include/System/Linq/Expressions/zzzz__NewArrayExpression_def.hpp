@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\NewArrayExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/NewArrayExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class NewArrayExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::NewArrayExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::NewArrayExpression*, "System.Linq.Expressions", "NewArrayExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::NewArrayExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -77,9 +78,11 @@ public:
   /// @brief Method .ctor, addr 0x5f88c7c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Expressions, addr 0x5f88d94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_Expressions();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f88d8c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
@@ -89,20 +92,22 @@ protected:
   constexpr NewArrayExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NewArrayExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NewArrayExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NewArrayExpression(NewArrayExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NewArrayExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NewArrayExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NewArrayExpression(NewArrayExpression const&) = delete;
+  NewArrayExpression(NewArrayExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16217 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Expressions>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ____Expressions_k__BackingField;
 

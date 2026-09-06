@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class PlayableBehaviour;
 // Write type traits
 MARK_REF_T(::UnityEngine::Playables::PlayableBehaviour*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::PlayableBehaviour*, "UnityEngine.Playables", "PlayableBehaviour");
+// [RequiredByNativeCode]
 // Dependencies System.Object
 namespace UnityEngine::Playables {
 // Is value type: false
@@ -84,13 +85,13 @@ protected:
   constexpr PlayableBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayableBehaviour(PlayableBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableBehaviour(PlayableBehaviour const&) = delete;
+  PlayableBehaviour(PlayableBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10674 };

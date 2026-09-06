@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\ExceptionMarshaller.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/ExceptionMarshaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class ExceptionMarshaller;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::ExceptionMarshaller*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::ExceptionMarshaller*, "UnityEngine.Bindings", "ExceptionMarshaller");
+// [VisibleToOtherModules]
 // Dependencies System.Object
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -25,6 +26,7 @@ public:
   /// @brief Field s_pendingException, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_pendingException, put = setStaticF_s_pendingException)) ::System::Exception* s_pendingException;
 
+  /// [RequiredByNativeCode]
   /// @brief Method SetPendingException, addr 0x6afeecc, size 0x84, virtual false, abstract: false, final false
   static inline void SetPendingException(::System::Exception* ex);
 
@@ -38,13 +40,13 @@ protected:
   constexpr ExceptionMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExceptionMarshaller(ExceptionMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExceptionMarshaller(ExceptionMarshaller const&) = delete;
+  ExceptionMarshaller(ExceptionMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10474 };

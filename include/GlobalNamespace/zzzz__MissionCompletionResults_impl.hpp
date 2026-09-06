@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionCompletionResults.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionCompletionResults.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"

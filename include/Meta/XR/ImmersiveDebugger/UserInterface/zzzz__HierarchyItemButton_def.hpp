@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\HierarchyItemButton.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/HierarchyItemButton.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,13 +129,13 @@ protected:
   constexpr HierarchyItemButton();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyItemButton", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyItemButton", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyItemButton(HierarchyItemButton&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyItemButton", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyItemButton", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyItemButton(HierarchyItemButton const&) = delete;
+  HierarchyItemButton(HierarchyItemButtonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18367 };

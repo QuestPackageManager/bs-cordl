@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ExecuteCommandsFromFileConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/ExecuteCommandsFromFileConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__ExecuteCommandsFromFileConsoleCommand_def.hpp"
 #include "GlobalNamespace/zzzz__ConsoleMessage_def.hpp"

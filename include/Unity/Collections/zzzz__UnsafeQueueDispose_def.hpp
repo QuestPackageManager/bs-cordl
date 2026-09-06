@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnsafeQueueDispose.hpp"
+// IWYU pragma private; include "Unity/Collections/UnsafeQueueDispose.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct UnsafeQueueDispose;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::UnsafeQueueDispose);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::UnsafeQueueDispose, "Unity.Collections", "UnsafeQueueDispose");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections {
 // Is value type: true
@@ -33,9 +34,9 @@ public:
   // @brief default ctor
   constexpr UnsafeQueueDispose();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None }, CppParam { name: "m_QueuePool", ty:
-  // "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_QueuePool", ty:
+  // "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeQueueDispose(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool,
                                ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
@@ -45,9 +46,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueData* m_Buffer;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_QueuePool, offset: 0x8, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool;
 

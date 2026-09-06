@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Cloth.hpp"
+// IWYU pragma private; include "UnityEngine/Cloth.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,9 @@ class Cloth;
 // Write type traits
 MARK_REF_T(::UnityEngine::Cloth*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Cloth*, "UnityEngine", "Cloth");
+// [NativeClass("Unity::Cloth")]
+// [NativeHeader("Modules/Cloth/Cloth.h")]
+// [RequireComponent(typeof(UnityEngine.Transform), typeof(UnityEngine.SkinnedMeshRenderer))]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -64,20 +67,24 @@ protected:
   constexpr Cloth();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Cloth", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cloth", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cloth(Cloth&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Cloth", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cloth", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cloth(Cloth const&) = delete;
+  Cloth(Clothconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23412 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <useContinuousCollision>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t ____useContinuousCollision_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <selfCollision>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   bool ____selfCollision_k__BackingField;
 

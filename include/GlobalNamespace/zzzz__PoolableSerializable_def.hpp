@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PoolableSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/PoolableSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method GetPool, addr 0x37813dc, size 0x1ec, virtual false, abstract: false, final false
@@ -62,6 +62,7 @@ public:
 
   static inline ::GlobalNamespace::PoolableSerializable* New_ctor();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x3781284, size 0x80, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -77,7 +78,7 @@ public:
   /// @brief Method Retain, addr 0x3780e34, size 0x10, virtual true, abstract: false, final false
   inline void Retain();
 
-  /// @brief Method Serialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr int32_t const& __cordl_internal_get__referenceCount() const;
@@ -107,13 +108,13 @@ protected:
   constexpr PoolableSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolableSerializable(PoolableSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableSerializable(PoolableSerializable const&) = delete;
+  PoolableSerializable(PoolableSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21205 };

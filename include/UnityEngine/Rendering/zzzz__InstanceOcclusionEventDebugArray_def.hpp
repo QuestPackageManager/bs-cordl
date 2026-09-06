@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceOcclusionEventDebugArray.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceOcclusionEventDebugArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,9 +64,10 @@ public:
   // @brief default ctor
   constexpr InstanceOcclusionEventDebugArray_Info();
 
-  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "eventType", ty: "::UnityEngine::Rendering::InstanceOcclusionEventType",
-  // modifiers: "", def_value: None }, CppParam { name: "occluderVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subviewMask", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "occlusionTest", ty: "::UnityEngine::Rendering::OcclusionTest", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "eventType", ty:
+  // "::UnityEngine::Rendering::InstanceOcclusionEventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "occluderVersion", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "subviewMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionTest", ty: "::UnityEngine::Rendering::OcclusionTest",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr InstanceOcclusionEventDebugArray_Info(int32_t viewInstanceID, ::UnityEngine::Rendering::InstanceOcclusionEventType eventType, int32_t occluderVersion, int32_t subviewMask,
                                                   ::UnityEngine::Rendering::OcclusionTest occlusionTest) noexcept;
 
@@ -119,7 +120,7 @@ public:
   constexpr InstanceOcclusionEventDebugArray_Request();
 
   // Ctor Parameters [CppParam { name: "info", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Info>", modifiers: "", def_value:
-  // None }, CppParam { name: "readback", ty: "::UnityEngine::Rendering::AsyncGPUReadbackRequest", modifiers: "", def_value: None }]
+  // None, comment: None }, CppParam { name: "readback", ty: "::UnityEngine::Rendering::AsyncGPUReadbackRequest", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceOcclusionEventDebugArray_Request(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Info> info,
                                                      ::UnityEngine::Rendering::AsyncGPUReadbackRequest readback) noexcept;
 
@@ -185,11 +186,12 @@ public:
   // @brief default ctor
   constexpr InstanceOcclusionEventDebugArray();
 
-  // Ctor Parameters [CppParam { name: "m_CounterBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }, CppParam { name: "m_PendingInfo", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Info>", modifiers: "", def_value: None }, CppParam { name: "m_Requests", ty:
-  // "::Unity::Collections::NativeQueue_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Request>", modifiers: "", def_value: None }, CppParam { name: "m_LatestInfo", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Info>", modifiers: "", def_value: None }, CppParam { name: "m_LatestCounters", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_HasLatest", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_CounterBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PendingInfo", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Info>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Requests", ty: "::Unity::Collections::NativeQueue_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Request>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_LatestInfo", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Info>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_LatestCounters", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_HasLatest", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr InstanceOcclusionEventDebugArray(::UnityEngine::GraphicsBuffer* m_CounterBuffer,
                                              ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Info> m_PendingInfo,
                                              ::Unity::Collections::NativeQueue_1<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Request> m_Requests,

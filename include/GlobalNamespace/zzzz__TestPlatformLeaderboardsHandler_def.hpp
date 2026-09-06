@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TestPlatformLeaderboardsHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/TestPlatformLeaderboardsHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ class CORDL_TYPE TestPlatformLeaderboardsHandler : public ::GlobalNamespace::Pla
 public:
   // Declarations
   /// @brief Method GetScores, addr 0x375c398, size 0x54, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::HMAsyncRequest* GetScores(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
+  inline ::GlobalNamespace::HMAsyncRequest* GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope, uint64_t referencePlayerId,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
@@ -58,13 +58,13 @@ protected:
   constexpr TestPlatformLeaderboardsHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TestPlatformLeaderboardsHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestPlatformLeaderboardsHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TestPlatformLeaderboardsHandler(TestPlatformLeaderboardsHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TestPlatformLeaderboardsHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestPlatformLeaderboardsHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TestPlatformLeaderboardsHandler(TestPlatformLeaderboardsHandler const&) = delete;
+  TestPlatformLeaderboardsHandler(TestPlatformLeaderboardsHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15304 };

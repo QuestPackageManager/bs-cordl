@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarController.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ MARK_REF_T(::BeatSaber::AvatarCore::AvatarController*);
 MARK_VAL_T(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11);
 DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarController*, "BeatSaber.AvatarCore", "AvatarController");
 DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11, "BeatSaber.AvatarCore", "AvatarController/<LoadAndDisplayAvatar>d__11");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::AvatarCore {
 // Is value type: true
@@ -62,6 +63,7 @@ public:
   /// @brief Method MoveNext, addr 0x326a60c, size 0x570, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x326ad48, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -72,9 +74,10 @@ public:
   // @brief default ctor
   constexpr AvatarController__LoadAndDisplayAvatar_d__11();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::BeatSaber::AvatarCore::AvatarController>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::BeatSaber::AvatarCore::AvatarController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>", modifiers: "", def_value: None, comment: None }]
   constexpr AvatarController__LoadAndDisplayAvatar_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                          ::UnityW<::BeatSaber::AvatarCore::AvatarController> __4__this,
                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>> __u__1) noexcept;
@@ -146,6 +149,7 @@ public:
 
   __declspec(property(get = get_avatar)) ::UnityW<::BeatSaber::AvatarCore::Avatar> avatar;
 
+  /// [AsyncStateMachine(typeof(BeatSaber.AvatarCore.AvatarController::<LoadAndDisplayAvatar>d__11))]
   /// @brief Method LoadAndDisplayAvatar, addr 0x326a564, size 0xa4, virtual false, abstract: false, final false
   inline void LoadAndDisplayAvatar();
 
@@ -214,35 +218,42 @@ protected:
   constexpr AvatarController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarController(AvatarController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarController(AvatarController const&) = delete;
+  AvatarController(AvatarControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21634 };
 
+  /// [SerializeField]
   /// @brief Field _parentingTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____parentingTransform;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x28, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
+  /// [Inject]
   /// @brief Field _avatarSystemCollection, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::AvatarSystemCollection* ____avatarSystemCollection;
 
+  /// [Inject]
   /// @brief Field _avatarDisplayContext, offset: 0x38, size: 0x4, def value: None
   ::BeatSaber::AvatarCore::AvatarDisplayContext ____avatarDisplayContext;
 
+  /// [Inject]
   /// @brief Field _visualDataProvider, offset: 0x40, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* ____visualDataProvider;
 
+  /// [Inject]
   /// @brief Field _poseDataProvider, offset: 0x48, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IAvatarPoseDataProvider* ____poseDataProvider;
 
+  /// [Inject]
   /// @brief Field _optionalDataProvider, offset: 0x50, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* ____optionalDataProvider;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextEventManager.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextEventManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextEventManager_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FastAction_1_def.hpp"

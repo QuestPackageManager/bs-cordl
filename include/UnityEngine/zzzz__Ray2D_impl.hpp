@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Ray2D.hpp"
+// IWYU pragma private; include "UnityEngine/Ray2D.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Ray2D_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -113,8 +113,8 @@ constexpr UnityEngine::Ray2D::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::Ray2D::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector2", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector2",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Ray2D::Ray2D(::UnityEngine::Vector2 m_Origin, ::UnityEngine::Vector2 m_Direction) noexcept {
   this->m_Origin = m_Origin;
   this->m_Direction = m_Direction;

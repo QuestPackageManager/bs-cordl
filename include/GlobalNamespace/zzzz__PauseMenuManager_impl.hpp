@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PauseMenuManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/PauseMenuManager.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -96,8 +96,8 @@ constexpr void GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showLevelBar = value;
 }
-inline void GlobalNamespace::PauseMenuManager_InitData::_ctor(::StringW backButtonText, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                              bool showRestartButton, bool showLevelBar) {
+inline void GlobalNamespace::PauseMenuManager_InitData::_ctor(::StringW backButtonText, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                              ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton, bool showLevelBar) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager_InitData*>(),
                                                                                          { ".ctor",
                                                                                            {},
@@ -105,7 +105,8 @@ inline void GlobalNamespace::PauseMenuManager_InitData::_ctor(::StringW backButt
                                                                                              ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, backButtonText, beatmapKey, beatmapLevel, showRestartButton, showLevelBar);
 }
-inline ::GlobalNamespace::PauseMenuManager_InitData* GlobalNamespace::PauseMenuManager_InitData::New_ctor(::StringW backButtonText, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+inline ::GlobalNamespace::PauseMenuManager_InitData* GlobalNamespace::PauseMenuManager_InitData::New_ctor(::StringW backButtonText,
+                                                                                                          /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                                                           ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton, bool showLevelBar) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PauseMenuManager_InitData*>(backButtonText, beatmapKey, beatmapLevel, showRestartButton, showLevelBar));
 }

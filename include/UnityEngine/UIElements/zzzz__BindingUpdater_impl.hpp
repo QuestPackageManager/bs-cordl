@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingUpdater.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__ConcreteTypeVisitor_impl.hpp"
 #include "Unity/Properties/zzzz__PathVisitor_impl.hpp"
@@ -741,14 +741,14 @@ inline bool UnityEngine::UIElements::BindingUpdater::ShouldProcessBindingAtStage
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, customBinding, stage, versionChanged, dirty);
 }
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateUI(::by_ref<::UnityEngine::UIElements::BindingContext> context,
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
                                                                                                   ::UnityEngine::UIElements::Binding* bindingObject) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingUpdater*>(),
                                               { "UpdateUI", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingContext>>(), ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingResult>(this, ___internal_method, context, bindingObject);
 }
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateSource(::by_ref<::UnityEngine::UIElements::BindingContext> context,
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
                                                                                                       ::UnityEngine::UIElements::Binding* bindingObject) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -756,7 +756,7 @@ inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::Binding
                                        { "UpdateSource", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingContext>>(), ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingResult>(this, ___internal_method, context, bindingObject);
 }
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateUI(::by_ref<::UnityEngine::UIElements::BindingContext> context,
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
                                                                                                   ::UnityEngine::UIElements::DataBinding* dataBinding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -764,7 +764,7 @@ inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::Binding
                                        { "UpdateUI", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingContext>>(), ::i2c::type_of<::UnityEngine::UIElements::DataBinding*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingResult>(this, ___internal_method, context, dataBinding);
 }
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateUI(::by_ref<::UnityEngine::UIElements::BindingContext> context,
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
                                                                                                   ::UnityEngine::UIElements::CustomBinding* customBinding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -772,7 +772,7 @@ inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::Binding
                                        { "UpdateUI", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingContext>>(), ::i2c::type_of<::UnityEngine::UIElements::CustomBinding*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingResult>(this, ___internal_method, context, customBinding);
 }
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateDataSource(::by_ref<::UnityEngine::UIElements::BindingContext> context,
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateDataSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
                                                                                                           ::UnityEngine::UIElements::DataBinding* dataBinding) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -780,7 +780,7 @@ inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::Binding
                           { "UpdateDataSource", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingContext>>(), ::i2c::type_of<::UnityEngine::UIElements::DataBinding*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingResult>(this, ___internal_method, context, dataBinding);
 }
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateDataSource(::by_ref<::UnityEngine::UIElements::BindingContext> context,
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::UpdateDataSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
                                                                                                           ::UnityEngine::UIElements::CustomBinding* customBinding) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -788,7 +788,7 @@ inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::Binding
                           { "UpdateDataSource", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingContext>>(), ::i2c::type_of<::UnityEngine::UIElements::CustomBinding*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingResult>(this, ___internal_method, context, customBinding);
 }
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::TryUpdateUIWithNonContainer(::by_ref<::UnityEngine::UIElements::BindingContext> context,
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::BindingUpdater::TryUpdateUIWithNonContainer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
                                                                                                                      ::UnityEngine::UIElements::DataBinding* binding, ::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingUpdater*>(),
                                                                                          { "TryUpdateUIWithNonContainer",
@@ -799,7 +799,7 @@ inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::Binding
 }
 inline ::System::ValueTuple_3<bool, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>
 UnityEngine::UIElements::BindingUpdater::VisitRoot(::UnityEngine::UIElements::DataBinding* dataBinding, ::by_ref<::System::Object*> container,
-                                                   ::by_ref<::UnityEngine::UIElements::BindingContext> context) {
+                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingUpdater*>(),
                                                                                          { "VisitRoot",
                                                                                            {},
@@ -811,7 +811,8 @@ UnityEngine::UIElements::BindingUpdater::VisitRoot(::UnityEngine::UIElements::Da
 template <typename TContainer>
 inline ::System::ValueTuple_4<bool, ::Unity::Properties::VisitReturnCode, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>
 UnityEngine::UIElements::BindingUpdater::VisitAtPath(::UnityEngine::UIElements::DataBinding* dataBinding, ::UnityEngine::UIElements::BindingUpdateStage direction, ::by_ref<TContainer> container,
-                                                     ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::UnityEngine::UIElements::BindingContext> context) {
+                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
+                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingUpdater*>(),
@@ -823,7 +824,8 @@ UnityEngine::UIElements::BindingUpdater::VisitAtPath(::UnityEngine::UIElements::
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_4<bool, ::Unity::Properties::VisitReturnCode, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>>(
       nullptr, ___internal_method, dataBinding, direction, container, path, context);
 }
-inline ::StringW UnityEngine::UIElements::BindingUpdater::GetVisitationErrorString(::Unity::Properties::VisitReturnCode returnCode, ::by_ref<::UnityEngine::UIElements::BindingContext> context) {
+inline ::StringW UnityEngine::UIElements::BindingUpdater::GetVisitationErrorString(::Unity::Properties::VisitReturnCode returnCode,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingUpdater*>(),
@@ -831,7 +833,7 @@ inline ::StringW UnityEngine::UIElements::BindingUpdater::GetVisitationErrorStri
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, returnCode, context);
 }
 inline ::StringW UnityEngine::UIElements::BindingUpdater::GetExtractValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* target,
-                                                                                     ::by_ref<::Unity::Properties::PropertyPath> path) {
+                                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingUpdater*>(),

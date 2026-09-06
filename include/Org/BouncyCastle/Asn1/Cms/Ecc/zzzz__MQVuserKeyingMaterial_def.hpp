@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\Ecc\MQVuserKeyingMaterial.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/Ecc/MQVuserKeyingMaterial.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,13 +91,13 @@ protected:
   constexpr MQVuserKeyingMaterial();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MQVuserKeyingMaterial", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MQVuserKeyingMaterial", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MQVuserKeyingMaterial(MQVuserKeyingMaterial&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MQVuserKeyingMaterial", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MQVuserKeyingMaterial", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MQVuserKeyingMaterial(MQVuserKeyingMaterial const&) = delete;
+  MQVuserKeyingMaterial(MQVuserKeyingMaterialconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 54 };

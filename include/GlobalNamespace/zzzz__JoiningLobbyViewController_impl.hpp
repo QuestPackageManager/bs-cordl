@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\JoiningLobbyViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/JoiningLobbyViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__JoiningLobbyViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LoadingControl_def.hpp"

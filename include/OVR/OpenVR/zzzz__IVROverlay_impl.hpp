@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVROverlay.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVROverlay.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVROverlay_def.hpp"
 #include "OVR/OpenVR/zzzz__EColorSpace_def.hpp"
@@ -6826,71 +6826,81 @@ inline ::OVR::OpenVR::IVROverlay__CloseMessageOverlay* OVR::OpenVR::IVROverlay__
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVROverlay__CloseMessageOverlay::IVROverlay__CloseMessageOverlay() {}
-// Ctor Parameters [CppParam { name: "FindOverlay", ty: "::OVR::OpenVR::IVROverlay__FindOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "CreateOverlay", ty:
-// "::OVR::OpenVR::IVROverlay__CreateOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "DestroyOverlay", ty: "::OVR::OpenVR::IVROverlay__DestroyOverlay*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "SetHighQualityOverlay", ty: "::OVR::OpenVR::IVROverlay__SetHighQualityOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetHighQualityOverlay",
-// ty: "::OVR::OpenVR::IVROverlay__GetHighQualityOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayKey", ty: "::OVR::OpenVR::IVROverlay__GetOverlayKey*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "GetOverlayName", ty: "::OVR::OpenVR::IVROverlay__GetOverlayName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayName", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayImageData", ty: "::OVR::OpenVR::IVROverlay__GetOverlayImageData*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "GetOverlayErrorNameFromEnum", ty: "::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "SetOverlayRenderingPid", ty: "::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayRenderingPid", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayFlag", ty: "::OVR::OpenVR::IVROverlay__SetOverlayFlag*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "GetOverlayFlag", ty: "::OVR::OpenVR::IVROverlay__GetOverlayFlag*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayColor", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayColor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayColor", ty: "::OVR::OpenVR::IVROverlay__GetOverlayColor*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "SetOverlayAlpha", ty: "::OVR::OpenVR::IVROverlay__SetOverlayAlpha*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayAlpha", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlayAlpha*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayTexelAspect", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "GetOverlayTexelAspect", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "SetOverlaySortOrder", ty: "::OVR::OpenVR::IVROverlay__SetOverlaySortOrder*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlaySortOrder", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlaySortOrder*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayWidthInMeters", ty: "::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayWidthInMeters", ty: "::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "SetOverlayAutoCurveDistanceRangeInMeters", ty: "::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetOverlayAutoCurveDistanceRangeInMeters", ty: "::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "SetOverlayTextureColorSpace", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayTextureColorSpace", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayTextureBounds", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayTextureBounds", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayRenderModel", ty: "::OVR::OpenVR::IVROverlay__GetOverlayRenderModel*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "SetOverlayRenderModel", ty: "::OVR::OpenVR::IVROverlay__SetOverlayRenderModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayTransformType", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlayTransformType*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayTransformAbsolute", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayTransformAbsolute", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayTransformTrackedDeviceRelative", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayTransformTrackedDeviceRelative", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayTransformTrackedDeviceComponent", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayTransformTrackedDeviceComponent", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayTransformOverlayRelative", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayTransformOverlayRelative", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ShowOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowOverlay*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "HideOverlay", ty: "::OVR::OpenVR::IVROverlay__HideOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsOverlayVisible", ty:
-// "::OVR::OpenVR::IVROverlay__IsOverlayVisible*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetTransformForOverlayCoordinates", ty:
-// "::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates*", modifiers: "", def_value: Some("{}") }, CppParam { name: "PollNextOverlayEvent", ty:
-// "::OVR::OpenVR::IVROverlay__PollNextOverlayEvent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayInputMethod", ty: "::OVR::OpenVR::IVROverlay__GetOverlayInputMethod*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayInputMethod", ty: "::OVR::OpenVR::IVROverlay__SetOverlayInputMethod*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetOverlayMouseScale", ty: "::OVR::OpenVR::IVROverlay__GetOverlayMouseScale*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayMouseScale", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayMouseScale*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ComputeOverlayIntersection", ty:
-// "::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsHoverTargetOverlay", ty: "::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "GetGamepadFocusOverlay", ty: "::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "SetGamepadFocusOverlay", ty: "::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayNeighbor", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayNeighbor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "MoveGamepadFocusToNeighbor", ty:
-// "::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayDualAnalogTransform", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayDualAnalogTransform", ty:
-// "::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTexture*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "ClearOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__ClearOverlayTexture*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "SetOverlayRaw", ty: "::OVR::OpenVR::IVROverlay__SetOverlayRaw*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayFromFile", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayFromFile*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTexture*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "ReleaseNativeOverlayHandle", ty: "::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetOverlayTextureSize", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTextureSize*", modifiers: "", def_value: Some("{}") }, CppParam { name: "CreateDashboardOverlay", ty:
-// "::OVR::OpenVR::IVROverlay__CreateDashboardOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsDashboardVisible", ty: "::OVR::OpenVR::IVROverlay__IsDashboardVisible*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "IsActiveDashboardOverlay", ty: "::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "SetDashboardOverlaySceneProcess", ty: "::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetDashboardOverlaySceneProcess", ty:
-// "::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ShowDashboard", ty: "::OVR::OpenVR::IVROverlay__ShowDashboard*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "GetPrimaryDashboardDevice", ty: "::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "ShowKeyboard", ty: "::OVR::OpenVR::IVROverlay__ShowKeyboard*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ShowKeyboardForOverlay", ty:
-// "::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetKeyboardText", ty: "::OVR::OpenVR::IVROverlay__GetKeyboardText*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "HideKeyboard", ty: "::OVR::OpenVR::IVROverlay__HideKeyboard*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetKeyboardTransformAbsolute",
-// ty: "::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetKeyboardPositionForOverlay", ty:
-// "::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetOverlayIntersectionMask", ty:
-// "::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetOverlayFlags", ty: "::OVR::OpenVR::IVROverlay__GetOverlayFlags*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "ShowMessageOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowMessageOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "CloseMessageOverlay", ty: "::OVR::OpenVR::IVROverlay__CloseMessageOverlay*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FindOverlay", ty: "::OVR::OpenVR::IVROverlay__FindOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CreateOverlay", ty:
+// "::OVR::OpenVR::IVROverlay__CreateOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DestroyOverlay", ty: "::OVR::OpenVR::IVROverlay__DestroyOverlay*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "SetHighQualityOverlay", ty: "::OVR::OpenVR::IVROverlay__SetHighQualityOverlay*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "GetHighQualityOverlay", ty: "::OVR::OpenVR::IVROverlay__GetHighQualityOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayKey", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayKey*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayName", ty: "::OVR::OpenVR::IVROverlay__GetOverlayName*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayName", ty: "::OVR::OpenVR::IVROverlay__SetOverlayName*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "GetOverlayImageData", ty: "::OVR::OpenVR::IVROverlay__GetOverlayImageData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayErrorNameFromEnum", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayRenderingPid", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayRenderingPid", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayFlag", ty: "::OVR::OpenVR::IVROverlay__SetOverlayFlag*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayFlag", ty: "::OVR::OpenVR::IVROverlay__GetOverlayFlag*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "SetOverlayColor", ty: "::OVR::OpenVR::IVROverlay__SetOverlayColor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayColor", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayColor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayAlpha", ty: "::OVR::OpenVR::IVROverlay__SetOverlayAlpha*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayAlpha", ty: "::OVR::OpenVR::IVROverlay__GetOverlayAlpha*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "SetOverlayTexelAspect", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayTexelAspect",
+// ty: "::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlaySortOrder", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlaySortOrder*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlaySortOrder", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlaySortOrder*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayWidthInMeters", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayWidthInMeters", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayAutoCurveDistanceRangeInMeters", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayAutoCurveDistanceRangeInMeters", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayTextureColorSpace", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayTextureColorSpace", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayTextureBounds", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayTextureBounds", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayRenderModel", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayRenderModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayRenderModel", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayRenderModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayTransformType", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayTransformType*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayTransformAbsolute", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayTransformAbsolute", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayTransformTrackedDeviceRelative", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayTransformTrackedDeviceRelative", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayTransformTrackedDeviceComponent", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayTransformTrackedDeviceComponent", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayTransformOverlayRelative", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayTransformOverlayRelative", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShowOverlay", ty:
+// "::OVR::OpenVR::IVROverlay__ShowOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "HideOverlay", ty: "::OVR::OpenVR::IVROverlay__HideOverlay*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "IsOverlayVisible", ty: "::OVR::OpenVR::IVROverlay__IsOverlayVisible*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "GetTransformForOverlayCoordinates", ty: "::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "PollNextOverlayEvent", ty: "::OVR::OpenVR::IVROverlay__PollNextOverlayEvent*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayInputMethod", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayInputMethod*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayInputMethod", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayInputMethod*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayMouseScale", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayMouseScale*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayMouseScale", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayMouseScale*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ComputeOverlayIntersection", ty:
+// "::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsHoverTargetOverlay", ty:
+// "::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetGamepadFocusOverlay", ty:
+// "::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetGamepadFocusOverlay", ty:
+// "::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayNeighbor", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayNeighbor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MoveGamepadFocusToNeighbor", ty:
+// "::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayDualAnalogTransform", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayDualAnalogTransform", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayTexture", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayTexture*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ClearOverlayTexture", ty:
+// "::OVR::OpenVR::IVROverlay__ClearOverlayTexture*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayRaw", ty: "::OVR::OpenVR::IVROverlay__SetOverlayRaw*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayFromFile", ty: "::OVR::OpenVR::IVROverlay__SetOverlayFromFile*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "GetOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTexture*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ReleaseNativeOverlayHandle", ty: "::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayTextureSize", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayTextureSize*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CreateDashboardOverlay", ty:
+// "::OVR::OpenVR::IVROverlay__CreateDashboardOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsDashboardVisible", ty:
+// "::OVR::OpenVR::IVROverlay__IsDashboardVisible*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsActiveDashboardOverlay", ty:
+// "::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetDashboardOverlaySceneProcess", ty:
+// "::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetDashboardOverlaySceneProcess", ty:
+// "::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShowDashboard", ty:
+// "::OVR::OpenVR::IVROverlay__ShowDashboard*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetPrimaryDashboardDevice", ty:
+// "::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShowKeyboard", ty: "::OVR::OpenVR::IVROverlay__ShowKeyboard*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShowKeyboardForOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "GetKeyboardText", ty: "::OVR::OpenVR::IVROverlay__GetKeyboardText*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "HideKeyboard", ty:
+// "::OVR::OpenVR::IVROverlay__HideKeyboard*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetKeyboardTransformAbsolute", ty:
+// "::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetKeyboardPositionForOverlay", ty:
+// "::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetOverlayIntersectionMask", ty:
+// "::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOverlayFlags", ty:
+// "::OVR::OpenVR::IVROverlay__GetOverlayFlags*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShowMessageOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowMessageOverlay*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CloseMessageOverlay", ty: "::OVR::OpenVR::IVROverlay__CloseMessageOverlay*", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::OVR::OpenVR::IVROverlay::IVROverlay(
     ::OVR::OpenVR::IVROverlay__FindOverlay* FindOverlay, ::OVR::OpenVR::IVROverlay__CreateOverlay* CreateOverlay, ::OVR::OpenVR::IVROverlay__DestroyOverlay* DestroyOverlay,
     ::OVR::OpenVR::IVROverlay__SetHighQualityOverlay* SetHighQualityOverlay, ::OVR::OpenVR::IVROverlay__GetHighQualityOverlay* GetHighQualityOverlay,

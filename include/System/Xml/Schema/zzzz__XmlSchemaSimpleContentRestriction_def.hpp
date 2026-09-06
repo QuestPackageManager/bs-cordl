@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSimpleContentRestriction.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSimpleContentRestriction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,14 +31,31 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaSimpleContentRestriction : public ::System::Xml::Schema::XmlSchemaContent {
 public:
   // Declarations
+  /// @brief [XmlElement("anyAttribute")]
   __declspec(property(get = get_AnyAttribute, put = set_AnyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute* AnyAttribute;
 
+  /// [XmlElement("attributeGroup", typeof(System.Xml.Schema.XmlSchemaAttributeGroupRef))]
+  /// @brief [XmlElement("attribute", typeof(System.Xml.Schema.XmlSchemaAttribute))]
   __declspec(property(get = get_Attributes)) ::System::Xml::Schema::XmlSchemaObjectCollection* Attributes;
 
+  /// @brief [XmlElement("simpleType", typeof(System.Xml.Schema.XmlSchemaSimpleType))]
   __declspec(property(get = get_BaseType, put = set_BaseType)) ::System::Xml::Schema::XmlSchemaSimpleType* BaseType;
 
+  /// @brief [XmlAttribute("base")]
   __declspec(property(get = get_BaseTypeName, put = set_BaseTypeName)) ::System::Xml::XmlQualifiedName* BaseTypeName;
 
+  /// [XmlElement("minLength", typeof(System.Xml.Schema.XmlSchemaMinLengthFacet))]
+  /// [XmlElement("whiteSpace", typeof(System.Xml.Schema.XmlSchemaWhiteSpaceFacet))]
+  /// [XmlElement("fractionDigits", typeof(System.Xml.Schema.XmlSchemaFractionDigitsFacet))]
+  /// [XmlElement("totalDigits", typeof(System.Xml.Schema.XmlSchemaTotalDigitsFacet))]
+  /// [XmlElement("minExclusive", typeof(System.Xml.Schema.XmlSchemaMinExclusiveFacet))]
+  /// [XmlElement("minInclusive", typeof(System.Xml.Schema.XmlSchemaMinInclusiveFacet))]
+  /// [XmlElement("maxExclusive", typeof(System.Xml.Schema.XmlSchemaMaxExclusiveFacet))]
+  /// [XmlElement("maxInclusive", typeof(System.Xml.Schema.XmlSchemaMaxInclusiveFacet))]
+  /// [XmlElement("enumeration", typeof(System.Xml.Schema.XmlSchemaEnumerationFacet))]
+  /// [XmlElement("length", typeof(System.Xml.Schema.XmlSchemaLengthFacet))]
+  /// [XmlElement("pattern", typeof(System.Xml.Schema.XmlSchemaPatternFacet))]
+  /// @brief [XmlElement("maxLength", typeof(System.Xml.Schema.XmlSchemaMaxLengthFacet))]
   __declspec(property(get = get_Facets)) ::System::Xml::Schema::XmlSchemaObjectCollection* Facets;
 
   /// @brief Field anyAttribute, offset 0x70, size 0x8
@@ -124,13 +141,13 @@ protected:
   constexpr XmlSchemaSimpleContentRestriction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleContentRestriction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleContentRestriction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaSimpleContentRestriction(XmlSchemaSimpleContentRestriction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleContentRestriction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleContentRestriction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaSimpleContentRestriction(XmlSchemaSimpleContentRestriction const&) = delete;
+  XmlSchemaSimpleContentRestriction(XmlSchemaSimpleContentRestrictionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9813 };

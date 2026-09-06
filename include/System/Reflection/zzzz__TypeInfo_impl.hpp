@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\TypeInfo.hpp"
+// IWYU pragma private; include "System/Reflection/TypeInfo.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Reflection/zzzz__TypeInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

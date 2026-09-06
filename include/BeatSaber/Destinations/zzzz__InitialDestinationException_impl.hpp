@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\InitialDestinationException.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/InitialDestinationException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__InitialDestinationException_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Destinations::InitialDestinationException._ctor

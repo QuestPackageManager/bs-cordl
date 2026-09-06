@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssetBundle.hpp"
+// IWYU pragma private; include "UnityEngine/AssetBundle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,17 @@ class AssetBundle;
 // Write type traits
 MARK_REF_T(::UnityEngine::AssetBundle*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AssetBundle*, "UnityEngine", "AssetBundle");
+// [ExcludeFromPreset]
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleLoadFromManagedStreamAsyncOperation.h")]
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleLoadAssetOperation.h")]
+// [NativeHeader("Runtime/Scripting/ScriptingExportUtility.h")]
+// [NativeHeader("Runtime/Scripting/ScriptingUtility.h")]
+// [NativeHeader("AssetBundleScriptingClasses.h")]
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleSaveAndLoadHelper.h")]
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleUtility.h")]
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleLoadAssetUtility.h")]
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleLoadFromFileAsyncOperation.h")]
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleLoadFromMemoryAsyncOperation.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -46,6 +57,7 @@ namespace UnityEngine {
 class CORDL_TYPE AssetBundle : public ::UnityEngine::Object {
 public:
   // Declarations
+  /// [NativeMethod("GetAllAssetNames")]
   /// @brief Method GetAllAssetNames, addr 0x6a4bc2c, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetAllAssetNames();
 
@@ -55,9 +67,11 @@ public:
   /// @brief Method GetAllLoadedAssetBundles, addr 0x6a4a8c8, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AssetBundle>>* GetAllLoadedAssetBundles();
 
+  /// [FreeFunction("GetAllAssetBundles")]
   /// @brief Method GetAllLoadedAssetBundles_Native, addr 0x6a4a8a0, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::AssetBundle>> GetAllLoadedAssetBundles_Native();
 
+  /// [NativeMethod("GetAllScenePaths")]
   /// @brief Method GetAllScenePaths, addr 0x6a4bce8, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetAllScenePaths();
 
@@ -76,11 +90,14 @@ public:
   /// @brief Method LoadAsset, addr 0x6a4ae20, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> LoadAsset(::StringW name);
 
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)1)]
   /// @brief Method LoadAsset, addr 0x6a4aea0, size 0xec, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> LoadAsset(::StringW name, ::System::Type* type);
 
   /// @brief Method LoadAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T LoadAsset(::StringW name);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  inline T LoadAsset(::StringW name);
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::UnityEngine::AssetBundleRequest* LoadAssetAsync(::StringW name);
@@ -88,6 +105,8 @@ public:
   /// @brief Method LoadAssetAsync, addr 0x6a4b280, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAssetAsync(::StringW name, ::System::Type* type);
 
+  /// [NativeMethod("LoadAssetAsync_Internal")]
+  /// [NativeThrows]
   /// @brief Method LoadAssetAsync_Internal, addr 0x6a4b36c, size 0x208, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAssetAsync_Internal(::StringW name, ::System::Type* type);
 
@@ -97,12 +116,17 @@ public:
   /// @brief Method LoadAssetWithSubAssetsAsync, addr 0x6a4b574, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync(::StringW name, ::System::Type* type);
 
+  /// [NativeThrows]
+  /// [NativeMethod("LoadAssetWithSubAssetsAsync_Internal")]
   /// @brief Method LoadAssetWithSubAssetsAsync_Internal, addr 0x6a4b660, size 0x208, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync_Internal(::StringW name, ::System::Type* type);
 
   /// @brief Method LoadAssetWithSubAssetsAsync_Internal_Injected, addr 0x6a4bda4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr LoadAssetWithSubAssetsAsync_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::System::Type* type);
 
+  /// [NativeMethod("LoadAsset_Internal")]
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)1)]
+  /// [NativeThrows]
   /// @brief Method LoadAsset_Internal, addr 0x6a4af8c, size 0x2a0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> LoadAsset_Internal(::StringW name, ::System::Type* type);
 
@@ -118,12 +142,14 @@ public:
   /// @brief Method LoadFromFileAsync, addr 0x6a4ab34, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync(::StringW path, uint32_t crc);
 
+  /// [FreeFunction("LoadFromFileAsync")]
   /// @brief Method LoadFromFileAsync_Internal, addr 0x6a4a8f0, size 0x1e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync_Internal(::StringW path, uint32_t crc, uint64_t offset);
 
   /// @brief Method LoadFromFileAsync_Internal_Injected, addr 0x6a4aad4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr LoadFromFileAsync_Internal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path, uint32_t crc, uint64_t offset);
 
+  /// [FreeFunction("LoadFromFile")]
   /// @brief Method LoadFromFile_Internal, addr 0x6a4ab3c, size 0x284, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AssetBundle> LoadFromFile_Internal(::StringW path, uint32_t crc, uint64_t offset);
 
@@ -132,9 +158,13 @@ public:
 
   static inline ::UnityEngine::AssetBundle* New_ctor();
 
+  /// [NativeMethod("Unload")]
+  /// [NativeThrows]
   /// @brief Method Unload, addr 0x6a4b9e8, size 0x90, virtual false, abstract: false, final false
   inline void Unload(bool unloadAllLoadedObjects);
 
+  /// [NativeMethod("UnloadAsync")]
+  /// [NativeThrows]
   /// @brief Method UnloadAsync, addr 0x6a4babc, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleUnloadOperation* UnloadAsync(bool unloadAllLoadedObjects);
 
@@ -153,13 +183,13 @@ protected:
   constexpr AssetBundle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundle(AssetBundle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundle(AssetBundle const&) = delete;
+  AssetBundle(AssetBundleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23092 };

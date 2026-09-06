@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchID.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchID.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchID_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -69,7 +69,7 @@ constexpr UnityEngine::Rendering::BatchID::operator ::System::IEquatable_1<::Uni
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BatchID>* UnityEngine::Rendering::BatchID::i___System__IEquatable_1___UnityEngine__Rendering__BatchID_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::BatchID>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "value", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BatchID::BatchID(uint32_t value) noexcept {
   this->value = value;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\RichTextTagAttribute.hpp"
+// IWYU pragma private; include "TMPro/RichTextTagAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,9 +26,10 @@ public:
   // @brief default ctor
   constexpr RichTextTagAttribute();
 
-  // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "valueHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "valueType", ty: "::TMPro::TagValueType", modifiers: "", def_value: None }, CppParam { name: "valueStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "valueLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unitType", ty: "::TMPro::TagUnitType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "valueHashCode", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "valueType", ty: "::TMPro::TagValueType", modifiers: "", def_value: None, comment: None }, CppParam { name: "valueStartIndex", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "valueLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unitType", ty: "::TMPro::TagUnitType",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr RichTextTagAttribute(int32_t nameHashCode, int32_t valueHashCode, ::TMPro::TagValueType valueType, int32_t valueStartIndex, int32_t valueLength, ::TMPro::TagUnitType unitType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

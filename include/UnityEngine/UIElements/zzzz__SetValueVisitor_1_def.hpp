@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\SetValueVisitor_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/SetValueVisitor_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ namespace Unity::Properties {
 template <typename TContainer, typename TValue> class Property_2;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class ConverterGroup;
@@ -30,6 +32,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::SetValueVisitor_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::SetValueVisitor_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::SetValueVisitor_1, "UnityEngine.UIElements", "SetValueVisitor`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::SetValueVisitor_1___c, "UnityEngine.UIElements", "SetValueVisitor`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
@@ -63,13 +66,13 @@ protected:
   constexpr SetValueVisitor_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetValueVisitor_1___c(SetValueVisitor_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetValueVisitor_1___c(SetValueVisitor_1___c const&) = delete;
+  SetValueVisitor_1___c(SetValueVisitor_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4364 };
@@ -125,11 +128,13 @@ public:
 
   static inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::SetValueVisitor_1<TSrcValue>*>* getStaticF_Pool();
 
+  /// [CompilerGenerated]
   /// @brief Method get_group, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ConverterGroup* get_group();
 
   static inline void setStaticF_Pool(::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::SetValueVisitor_1<TSrcValue>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_group, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_group(::UnityEngine::UIElements::ConverterGroup* value);
 
@@ -139,13 +144,13 @@ protected:
   constexpr SetValueVisitor_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetValueVisitor_1(SetValueVisitor_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetValueVisitor_1(SetValueVisitor_1 const&) = delete;
+  SetValueVisitor_1(SetValueVisitor_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4365 };
@@ -153,6 +158,8 @@ public:
   /// @brief Field Value, offset: 0xb8, size: 0x8, def value: None
   TSrcValue ___Value;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <group>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::UIElements::ConverterGroup* ____group_k__BackingField;
 

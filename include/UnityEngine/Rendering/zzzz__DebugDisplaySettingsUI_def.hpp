@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplaySettingsUI.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplaySettingsUI.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ MARK_REF_T(::UnityEngine::Rendering::DebugDisplaySettingsUI*);
 MARK_REF_T(::UnityEngine::Rendering::DebugDisplaySettingsUI___c__DisplayClass3_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugDisplaySettingsUI*, "UnityEngine.Rendering", "DebugDisplaySettingsUI");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugDisplaySettingsUI___c__DisplayClass3_0*, "UnityEngine.Rendering", "DebugDisplaySettingsUI/<>c__DisplayClass3_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -84,13 +85,13 @@ protected:
   constexpr DebugDisplaySettingsUI___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsUI___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsUI___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsUI___c__DisplayClass3_0(DebugDisplaySettingsUI___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsUI___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsUI___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsUI___c__DisplayClass3_0(DebugDisplaySettingsUI___c__DisplayClass3_0 const&) = delete;
+  DebugDisplaySettingsUI___c__DisplayClass3_0(DebugDisplaySettingsUI___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11955 };
@@ -169,13 +170,13 @@ protected:
   constexpr DebugDisplaySettingsUI();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsUI", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsUI", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsUI(DebugDisplaySettingsUI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsUI", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsUI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsUI(DebugDisplaySettingsUI const&) = delete;
+  DebugDisplaySettingsUI(DebugDisplaySettingsUIconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11956 };

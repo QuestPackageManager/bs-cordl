@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\LocaleHelper.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/LocaleHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class LocaleHelper;
 // Write type traits
 MARK_REF_T(::OculusStudios::Platform::Core::LocaleHelper*);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::LocaleHelper*, "OculusStudios.Platform.Core", "LocaleHelper");
+// [Extension]
 // Dependencies System.Object
 namespace OculusStudios::Platform::Core {
 // Is value type: false
@@ -26,6 +27,7 @@ public:
   /// @brief Method GetSystemLocale, addr 0x5f2e9dc, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW GetSystemLocale();
 
+  /// [Extension]
   /// @brief Method ToLocale, addr 0x5f2ea4c, size 0x398, virtual false, abstract: false, final false
   static inline ::StringW ToLocale(::UnityEngine::SystemLanguage lang);
 
@@ -35,13 +37,13 @@ protected:
   constexpr LocaleHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocaleHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocaleHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocaleHelper(LocaleHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocaleHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocaleHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocaleHelper(LocaleHelper const&) = delete;
+  LocaleHelper(LocaleHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22456 };

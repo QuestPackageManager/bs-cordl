@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PingUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace/PingUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_VAL_T(::GlobalNamespace::PingUtility__PingAsync_d__0);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PingUtility*, "", "PingUtility");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PingUtility___c*, "", "PingUtility/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PingUtility__PingAsync_d__0, "", "PingUtility/<PingAsync>d__0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -86,13 +87,13 @@ protected:
   constexpr PingUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PingUtility___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PingUtility___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PingUtility___c(PingUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PingUtility___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PingUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PingUtility___c(PingUtility___c const&) = delete;
+  PingUtility___c(PingUtility___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18252 };
@@ -103,6 +104,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::PingUtility___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, UnityEngine.Ping
 namespace GlobalNamespace {
 // Is value type: true
@@ -116,6 +118,7 @@ public:
   /// @brief Method MoveNext, addr 0x333ee84, size 0x600, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x333f484, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -126,12 +129,12 @@ public:
   // @brief default ctor
   constexpr PingUtility__PingAsync_d__0();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int64_t>", modifiers: "", def_value: None }, CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "_pings_5__2", ty: "::ArrayW<::UnityEngine::Ping*>", modifiers: "", def_value: None }, CppParam { name: "_ping_5__3", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_found_5__4", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*>>", modifiers:
-  // "", def_value: None }, CppParam { name: "_t_5__5", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int64_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_pings_5__2", ty: "::ArrayW<::UnityEngine::Ping*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ping_5__3", ty: "int64_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_found_5__4", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_t_5__5", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr PingUtility__PingAsync_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int64_t> __t__builder, ::StringW url,
                                         ::ArrayW<::UnityEngine::Ping*> _pings_5__2, int64_t _ping_5__3, bool _found_5__4,
                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*>> __u__1, int32_t _t_5__5,
@@ -205,6 +208,7 @@ public:
 
   using __c = ::GlobalNamespace::PingUtility___c;
 
+  /// [AsyncStateMachine(typeof(PingUtility::<PingAsync>d__0))]
   /// @brief Method PingAsync, addr 0x333ecc4, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<int64_t>* PingAsync(::StringW url);
 
@@ -214,13 +218,13 @@ protected:
   constexpr PingUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PingUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PingUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PingUtility(PingUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PingUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PingUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PingUtility(PingUtility const&) = delete;
+  PingUtility(PingUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18254 };

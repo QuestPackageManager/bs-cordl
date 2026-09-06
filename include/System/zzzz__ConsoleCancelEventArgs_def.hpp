@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ConsoleCancelEventArgs.hpp"
+// IWYU pragma private; include "System/ConsoleCancelEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ public:
   /// @brief Method .ctor, addr 0x5c68548, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::ConsoleSpecialKey type);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Cancel, addr 0x5c685ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_Cancel();
 
@@ -62,13 +63,13 @@ protected:
   constexpr ConsoleCancelEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCancelEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCancelEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConsoleCancelEventArgs(ConsoleCancelEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCancelEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCancelEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleCancelEventArgs(ConsoleCancelEventArgs const&) = delete;
+  ConsoleCancelEventArgs(ConsoleCancelEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2524 };
@@ -76,6 +77,7 @@ public:
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::System::ConsoleSpecialKey ____type;
 
+  /// [CompilerGenerated]
   /// @brief Field <Cancel>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool ____Cancel_k__BackingField;
 

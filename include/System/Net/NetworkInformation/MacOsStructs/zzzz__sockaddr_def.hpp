@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\MacOsStructs\sockaddr.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/MacOsStructs/sockaddr.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr sockaddr();
 
-  // Ctor Parameters [CppParam { name: "sa_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sa_family", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sa_len", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sa_family", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr sockaddr(uint8_t sa_len, uint8_t sa_family) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

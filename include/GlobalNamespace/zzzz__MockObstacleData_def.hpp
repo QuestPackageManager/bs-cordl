@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockObstacleData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockObstacleData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,33 +85,43 @@ public:
   /// @brief Method .ctor, addr 0x5a82b48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_duration, addr 0x5a82b28, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lineIndex, addr 0x5a82b08, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lineLayer, addr 0x5a82b18, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_time, addr 0x5a82af8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
+  /// [CompilerGenerated]
   /// @brief Method get_width, addr 0x5a82b38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
+  /// [CompilerGenerated]
   /// @brief Method set_duration, addr 0x5a82b30, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lineIndex, addr 0x5a82b10, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lineLayer, addr 0x5a82b20, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_time, addr 0x5a82b00, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_width, addr 0x5a82b40, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
@@ -121,29 +131,34 @@ protected:
   constexpr MockObstacleData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockObstacleData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockObstacleData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockObstacleData(MockObstacleData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockObstacleData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockObstacleData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockObstacleData(MockObstacleData const&) = delete;
+  MockObstacleData(MockObstacleDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22227 };
 
+  /// [CompilerGenerated]
   /// @brief Field <time>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____time_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <lineIndex>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____lineIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <lineLayer>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ____lineLayer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <duration>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   float_t ____duration_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <width>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____width_k__BackingField;
 

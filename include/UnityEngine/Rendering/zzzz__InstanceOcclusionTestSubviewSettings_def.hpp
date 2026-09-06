@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceOcclusionTestSubviewSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceOcclusionTestSubviewSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,9 +33,9 @@ public:
   // @brief default ctor
   constexpr InstanceOcclusionTestSubviewSettings();
 
-  // Ctor Parameters [CppParam { name: "testCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occluderSubviewIndices", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "occluderSubviewMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cullingSplitIndices", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "cullingSplitMask", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "testCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occluderSubviewIndices", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "occluderSubviewMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingSplitIndices", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cullingSplitMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceOcclusionTestSubviewSettings(int32_t testCount, int32_t occluderSubviewIndices, int32_t occluderSubviewMask, int32_t cullingSplitIndices, int32_t cullingSplitMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

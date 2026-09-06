@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextSettings.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextSettings.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -33,8 +33,8 @@ inline void UnityEngine::TextCore::Text::TextSettings_FontReferenceMap::_ctor(::
                                                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Font*>(), ::i2c::type_of<::UnityEngine::TextCore::Text::FontAsset*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, font, fontAsset);
 }
-// Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontAsset", ty:
-// "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontAsset", ty:
+// "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap::TextSettings_FontReferenceMap(::UnityW<::UnityEngine::Font> font,
                                                                                                       ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept {
   this->font = font;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\ColorBlock.hpp"
+// IWYU pragma private; include "UnityEngine/UI/ColorBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,10 +119,11 @@ public:
   // @brief default ctor
   constexpr ColorBlock();
 
-  // Ctor Parameters [CppParam { name: "m_NormalColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_HighlightedColor", ty: "::UnityEngine::Color", modifiers: "",
-  // def_value: None }, CppParam { name: "m_PressedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_SelectedColor", ty: "::UnityEngine::Color", modifiers: "",
-  // def_value: None }, CppParam { name: "m_DisabledColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_ColorMultiplier", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "m_FadeDuration", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_NormalColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_HighlightedColor", ty: "::UnityEngine::Color",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PressedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_SelectedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DisabledColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_ColorMultiplier", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FadeDuration", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr ColorBlock(::UnityEngine::Color m_NormalColor, ::UnityEngine::Color m_HighlightedColor, ::UnityEngine::Color m_PressedColor, ::UnityEngine::Color m_SelectedColor,
                        ::UnityEngine::Color m_DisabledColor, float_t m_ColorMultiplier, float_t m_FadeDuration) noexcept;
 
@@ -132,24 +133,38 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
+  /// [FormerlySerializedAs("normalColor")]
+  /// [SerializeField]
   /// @brief Field m_NormalColor, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color m_NormalColor;
 
+  /// [FormerlySerializedAs("highlightedColor")]
+  /// [SerializeField]
   /// @brief Field m_HighlightedColor, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color m_HighlightedColor;
 
+  /// [FormerlySerializedAs("pressedColor")]
+  /// [SerializeField]
   /// @brief Field m_PressedColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color m_PressedColor;
 
+  /// [FormerlySerializedAs("m_HighlightedColor")]
+  /// [SerializeField]
   /// @brief Field m_SelectedColor, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color m_SelectedColor;
 
+  /// [FormerlySerializedAs("disabledColor")]
+  /// [SerializeField]
   /// @brief Field m_DisabledColor, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Color m_DisabledColor;
 
+  /// [Range(1, 5)]
+  /// [SerializeField]
   /// @brief Field m_ColorMultiplier, offset: 0x50, size: 0x4, def value: None
   float_t m_ColorMultiplier;
 
+  /// [FormerlySerializedAs("fadeDuration")]
+  /// [SerializeField]
   /// @brief Field m_FadeDuration, offset: 0x54, size: 0x4, def value: None
   float_t m_FadeDuration;
 

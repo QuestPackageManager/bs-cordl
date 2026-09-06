@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSelector.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSelector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ MARK_REF_T(::UnityEngine::UIElements::StyleSelector*);
 MARK_REF_T(::UnityEngine::UIElements::StyleSelector___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSelector*, "UnityEngine.UIElements", "StyleSelector");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSelector___c*, "UnityEngine.UIElements", "StyleSelector/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -69,13 +70,13 @@ protected:
   constexpr StyleSelector___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSelector___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSelector___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSelector___c(StyleSelector___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSelector___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSelector___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSelector___c(StyleSelector___c const&) = delete;
+  StyleSelector___c(StyleSelector___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5064 };
@@ -86,6 +87,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::StyleSelector___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.UIElements.StyleSelectorPart, UnityEngine.UIElements.StyleSelectorRelationship
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -150,9 +152,11 @@ public:
   /// @brief Method get_previousRelationship, addr 0x6c9ba34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorRelationship get_previousRelationship();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method set_parts, addr 0x6c9ba2c, size 0x8, virtual false, abstract: false, final false
   inline void set_parts(::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method set_previousRelationship, addr 0x6c9ba3c, size 0x8, virtual false, abstract: false, final false
   inline void set_previousRelationship(::UnityEngine::UIElements::StyleSelectorRelationship value);
 
@@ -162,20 +166,22 @@ protected:
   constexpr StyleSelector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSelector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSelector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSelector(StyleSelector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSelector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSelector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSelector(StyleSelector const&) = delete;
+  StyleSelector(StyleSelectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5065 };
 
+  /// [SerializeField]
   /// @brief Field m_Parts, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> ___m_Parts;
 
+  /// [SerializeField]
   /// @brief Field m_PreviousRelationship, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleSelectorRelationship ___m_PreviousRelationship;
 

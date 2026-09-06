@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EulaDisplayViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EulaDisplayViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,20 +57,23 @@ protected:
   constexpr EulaDisplayViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EulaDisplayViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaDisplayViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EulaDisplayViewController(EulaDisplayViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EulaDisplayViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaDisplayViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EulaDisplayViewController(EulaDisplayViewController const&) = delete;
+  EulaDisplayViewController(EulaDisplayViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6434 };
 
+  /// [Header("Texts")]
+  /// [SerializeField]
   /// @brief Field _textPageScrollView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
 
+  /// [SerializeField]
   /// @brief Field _localizedTextAsset, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalizedTextAsset> ____localizedTextAsset;
 

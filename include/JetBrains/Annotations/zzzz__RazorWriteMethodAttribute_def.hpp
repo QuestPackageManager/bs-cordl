@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\RazorWriteMethodAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/RazorWriteMethodAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class RazorWriteMethodAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::RazorWriteMethodAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::RazorWriteMethodAttribute*, "JetBrains.Annotations", "RazorWriteMethodAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr RazorWriteMethodAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RazorWriteMethodAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RazorWriteMethodAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RazorWriteMethodAttribute(RazorWriteMethodAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RazorWriteMethodAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RazorWriteMethodAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RazorWriteMethodAttribute(RazorWriteMethodAttribute const&) = delete;
+  RazorWriteMethodAttribute(RazorWriteMethodAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22609 };

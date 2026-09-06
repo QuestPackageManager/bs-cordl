@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Authentication\ExtendedProtection\ExtendedProtectionPolicy.hpp"
+// IWYU pragma private; include "System/Security/Authentication/ExtendedProtection/ExtendedProtectionPolicy.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Authentication/ExtendedProtection/zzzz__ExtendedProtectionPolicy_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
@@ -100,6 +100,7 @@ System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::
                                                 { ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
 }
+/// @brief [MonoTODO("Not implemented.")]
 inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*
 System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::New_ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*>(policyEnforcement));

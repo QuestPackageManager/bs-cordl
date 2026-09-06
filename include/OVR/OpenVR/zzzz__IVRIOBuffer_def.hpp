@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRIOBuffer.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRIOBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,6 +73,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRIOBuffer__PropertyContainer*, "OVR.OpenVR"
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRIOBuffer__Read*, "OVR.OpenVR", "IVRIOBuffer/_Read");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRIOBuffer__Write*, "OVR.OpenVR", "IVRIOBuffer/_Write");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRIOBuffer, "OVR.OpenVR", "IVRIOBuffer");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -101,13 +102,13 @@ protected:
   constexpr IVRIOBuffer__Open();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Open", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Open", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRIOBuffer__Open(IVRIOBuffer__Open&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Open", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Open", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__Open(IVRIOBuffer__Open const&) = delete;
+  IVRIOBuffer__Open(IVRIOBuffer__Openconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8359 };
@@ -118,6 +119,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRIOBuffer__Open) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -145,13 +147,13 @@ protected:
   constexpr IVRIOBuffer__Close();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Close", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Close", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRIOBuffer__Close(IVRIOBuffer__Close&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Close", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Close", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__Close(IVRIOBuffer__Close const&) = delete;
+  IVRIOBuffer__Close(IVRIOBuffer__Closeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8360 };
@@ -162,6 +164,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRIOBuffer__Close) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -189,13 +192,13 @@ protected:
   constexpr IVRIOBuffer__Read();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Read", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Read", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRIOBuffer__Read(IVRIOBuffer__Read&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Read", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Read", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__Read(IVRIOBuffer__Read const&) = delete;
+  IVRIOBuffer__Read(IVRIOBuffer__Readconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8361 };
@@ -206,6 +209,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRIOBuffer__Read) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -233,13 +237,13 @@ protected:
   constexpr IVRIOBuffer__Write();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Write", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Write", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRIOBuffer__Write(IVRIOBuffer__Write&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Write", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Write", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__Write(IVRIOBuffer__Write const&) = delete;
+  IVRIOBuffer__Write(IVRIOBuffer__Writeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8362 };
@@ -250,6 +254,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRIOBuffer__Write) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -277,13 +282,13 @@ protected:
   constexpr IVRIOBuffer__PropertyContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__PropertyContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__PropertyContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRIOBuffer__PropertyContainer(IVRIOBuffer__PropertyContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__PropertyContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__PropertyContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__PropertyContainer(IVRIOBuffer__PropertyContainer const&) = delete;
+  IVRIOBuffer__PropertyContainer(IVRIOBuffer__PropertyContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8363 };
@@ -315,9 +320,10 @@ public:
   // @brief default ctor
   constexpr IVRIOBuffer();
 
-  // Ctor Parameters [CppParam { name: "Open", ty: "::OVR::OpenVR::IVRIOBuffer__Open*", modifiers: "", def_value: None }, CppParam { name: "Close", ty: "::OVR::OpenVR::IVRIOBuffer__Close*", modifiers:
-  // "", def_value: None }, CppParam { name: "Read", ty: "::OVR::OpenVR::IVRIOBuffer__Read*", modifiers: "", def_value: None }, CppParam { name: "Write", ty: "::OVR::OpenVR::IVRIOBuffer__Write*",
-  // modifiers: "", def_value: None }, CppParam { name: "PropertyContainer", ty: "::OVR::OpenVR::IVRIOBuffer__PropertyContainer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Open", ty: "::OVR::OpenVR::IVRIOBuffer__Open*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Close", ty:
+  // "::OVR::OpenVR::IVRIOBuffer__Close*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Read", ty: "::OVR::OpenVR::IVRIOBuffer__Read*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Write", ty: "::OVR::OpenVR::IVRIOBuffer__Write*", modifiers: "", def_value: None, comment: None }, CppParam { name: "PropertyContainer", ty:
+  // "::OVR::OpenVR::IVRIOBuffer__PropertyContainer*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRIOBuffer(::OVR::OpenVR::IVRIOBuffer__Open* Open, ::OVR::OpenVR::IVRIOBuffer__Close* Close, ::OVR::OpenVR::IVRIOBuffer__Read* Read, ::OVR::OpenVR::IVRIOBuffer__Write* Write,
                         ::OVR::OpenVR::IVRIOBuffer__PropertyContainer* PropertyContainer) noexcept;
 

@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Zenject\DisposeBlock.hpp"
+// IWYU pragma private; include "Zenject/DisposeBlock.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DisposeBlock_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -19,8 +20,8 @@
 #include "Zenject/zzzz__IMemoryPool_8_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
-// Ctor Parameters [CppParam { name: "Pool", ty: "::Zenject::IMemoryPool*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Object", ty: "::System::Object*", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "Pool", ty: "::Zenject::IMemoryPool*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Object", ty: "::System::Object*", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Zenject::DisposeBlock_SpawnedObjectPoolPair::DisposeBlock_SpawnedObjectPoolPair(::Zenject::IMemoryPool* Pool, ::System::Object* Object) noexcept {
   this->Pool = Pool;
   this->Object = Object;
@@ -187,7 +188,9 @@ inline void Zenject::DisposeBlock::LazyInitializeDisposableList() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DisposeBlock*>(), { "LazyInitializeDisposableList", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void Zenject::DisposeBlock::AddRange(::System::Collections::Generic::IList_1<T>* disposables) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IDisposable*>)
+inline void Zenject::DisposeBlock::AddRange(::System::Collections::Generic::IList_1<T>* disposables) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::DisposeBlock*>(), { "AddRange", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::IList_1<T>*>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CollectionViewController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CollectionViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,10 +66,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BindItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
   /// @brief Method Dispose, addr 0x6c53340, size 0xc, virtual true, abstract: false, final false
@@ -102,7 +102,7 @@ public:
   /// @brief Method InvokeUnbindItem, addr 0x6c535a8, size 0x34, virtual true, abstract: false, final false
   inline void InvokeUnbindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index);
 
-  /// @brief Method MakeItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::CollectionViewController* New_ctor();
@@ -128,7 +128,7 @@ public:
   /// @brief Method SetView, addr 0x6c53288, size 0xb4, virtual false, abstract: false, final false
   inline void SetView(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
-  /// @brief Method UnbindItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
   constexpr ::System::Action_2<int32_t, int32_t>* const& __cordl_internal_get_itemIndexChanged() const;
@@ -158,9 +158,11 @@ public:
   /// @brief Method .ctor, addr 0x6c4dc2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_itemIndexChanged, addr 0x6c52fc0, size 0xc0, virtual false, abstract: false, final false
   inline void add_itemIndexChanged(::System::Action_2<int32_t, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_itemsSourceChanged, addr 0x6c52e68, size 0xac, virtual false, abstract: false, final false
   inline void add_itemsSourceChanged(::System::Action* value);
 
@@ -173,9 +175,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_itemIndexChanged, addr 0x6c53080, size 0xc0, virtual false, abstract: false, final false
   inline void remove_itemIndexChanged(::System::Action_2<int32_t, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_itemsSourceChanged, addr 0x6c52f14, size 0xac, virtual false, abstract: false, final false
   inline void remove_itemsSourceChanged(::System::Action* value);
 
@@ -188,13 +192,13 @@ protected:
   constexpr CollectionViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionViewController(CollectionViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionViewController(CollectionViewController const&) = delete;
+  CollectionViewController(CollectionViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4079 };
@@ -205,9 +209,13 @@ public:
   /// @brief Field m_ItemsSource, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IList* ___m_ItemsSource;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field itemsSourceChanged, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___itemsSourceChanged;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field itemIndexChanged, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<int32_t, int32_t>* ___itemIndexChanged;
 

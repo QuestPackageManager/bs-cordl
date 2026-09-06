@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\CspProviderFlags.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/CspProviderFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct CspProviderFlags;
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::CspProviderFlags);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::CspProviderFlags, "System.Security.Cryptography", "CspProviderFlags");
+// [ComVisible(true)]
+// [Flags]
 // Dependencies
 namespace System::Security::Cryptography {
 // Is value type: true
@@ -49,7 +51,7 @@ public:
   // @brief default ctor
   constexpr CspProviderFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CspProviderFlags(int32_t value__) noexcept;
 
   /// @brief Field CreateEphemeralKey value: I32(128)

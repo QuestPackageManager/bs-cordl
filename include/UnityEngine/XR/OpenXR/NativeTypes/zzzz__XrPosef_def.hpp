@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrPosef.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrPosef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,8 +34,8 @@ public:
   // @brief default ctor
   constexpr XrPosef();
 
-  // Ctor Parameters [CppParam { name: "Orientation", ty: "::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf", modifiers: "", def_value: None }, CppParam { name: "Position", ty:
-  // "::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Orientation", ty: "::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf", modifiers: "", def_value: None, comment: None }, CppParam { name: "Position", ty:
+  // "::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f", modifiers: "", def_value: None, comment: None }]
   constexpr XrPosef(::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf Orientation, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f Position) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

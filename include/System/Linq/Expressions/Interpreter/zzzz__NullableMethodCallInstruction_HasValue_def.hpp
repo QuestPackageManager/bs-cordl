@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NullableMethodCallInstruction_HasValue.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NullableMethodCallInstruction_HasValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr NullableMethodCallInstruction_HasValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValue const&) = delete;
+  NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16601 };

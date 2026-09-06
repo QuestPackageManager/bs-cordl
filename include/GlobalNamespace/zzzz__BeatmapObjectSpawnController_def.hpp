@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectSpawnController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectSpawnController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,13 +126,13 @@ protected:
   constexpr BeatmapObjectSpawnController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectSpawnController_InitData(BeatmapObjectSpawnController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectSpawnController_InitData(BeatmapObjectSpawnController_InitData const&) = delete;
+  BeatmapObjectSpawnController_InitData(BeatmapObjectSpawnController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5628 };
@@ -168,6 +168,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController_InitData,
 static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController_InitData) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/BeatmapObjectSpawnController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -333,6 +334,7 @@ public:
   /// @brief Method .ctor, addr 0x58cadb4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didInitEvent, addr 0x58c9d78, size 0xac, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action* value);
 
@@ -351,6 +353,7 @@ public:
   /// @brief Method get_verticalLayerDistance, addr 0x58c9d48, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_verticalLayerDistance();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didInitEvent, addr 0x58c9e24, size 0xac, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action* value);
 
@@ -360,38 +363,46 @@ protected:
   constexpr BeatmapObjectSpawnController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectSpawnController(BeatmapObjectSpawnController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectSpawnController(BeatmapObjectSpawnController const&) = delete;
+  BeatmapObjectSpawnController(BeatmapObjectSpawnControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5629 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapObjectSpawnMovementData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectSpawnMovementData* ____beatmapObjectSpawnMovementData;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectSpawner, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapObjectSpawner* ____beatmapObjectSpawner;
 
+  /// [Inject]
   /// @brief Field _jumpOffsetYProvider, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IJumpOffsetYProvider* ____jumpOffsetYProvider;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
+  /// [Inject]
   /// @brief Field _beatmapData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____beatmapData;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectSpawnController_InitData* ____initData;
 
+  /// [CompilerGenerated]
   /// @brief Field didInitEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___didInitEvent;
 

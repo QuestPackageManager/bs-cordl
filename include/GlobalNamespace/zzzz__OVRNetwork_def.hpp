@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRNetwork.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRNetwork.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,8 +89,8 @@ public:
   // @brief default ctor
   constexpr OVRNetwork_FrameHeader();
 
-  // Ctor Parameters [CppParam { name: "protocolIdentifier", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "payloadType", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "payloadLength", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "protocolIdentifier", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "payloadType", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "payloadLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRNetwork_FrameHeader(uint32_t protocolIdentifier, int32_t payloadType, int32_t payloadLength) noexcept;
 
   /// @brief Field StructSize offset 0xffffffff size 0x4
@@ -187,13 +187,13 @@ protected:
   constexpr OVRNetwork_OVRNetworkTcpServer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpServer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpServer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRNetwork_OVRNetworkTcpServer(OVRNetwork_OVRNetworkTcpServer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpServer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpServer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRNetwork_OVRNetworkTcpServer(OVRNetwork_OVRNetworkTcpServer const&) = delete;
+  OVRNetwork_OVRNetworkTcpServer(OVRNetwork_OVRNetworkTcpServerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7949 };
@@ -249,7 +249,7 @@ public:
   // @brief default ctor
   constexpr OVRNetworkTcpClient_OVRNetwork_ConnectionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRNetworkTcpClient_OVRNetwork_ConnectionState(int32_t value__) noexcept;
 
   /// @brief Field Connected value: I32(1)
@@ -387,13 +387,13 @@ protected:
   constexpr OVRNetwork_OVRNetworkTcpClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRNetwork_OVRNetworkTcpClient(OVRNetwork_OVRNetworkTcpClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRNetwork_OVRNetworkTcpClient(OVRNetwork_OVRNetworkTcpClient const&) = delete;
+  OVRNetwork_OVRNetworkTcpClient(OVRNetwork_OVRNetworkTcpClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7951 };
@@ -463,13 +463,13 @@ protected:
   constexpr OVRNetwork();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRNetwork(OVRNetwork&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRNetwork(OVRNetwork const&) = delete;
+  OVRNetwork(OVRNetworkconst&) = delete;
 
   /// @brief Field FrameHeaderMagicIdentifier offset 0xffffffff size 0x4
   static constexpr uint32_t FrameHeaderMagicIdentifier{ static_cast<uint32_t>(0x5283a76bu) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\DebugManagerAddon_1.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/DebugManagerAddon_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,9 @@ template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Meta::XR::ImmersiveDebugger::Manager {
-template <typename Type> class DebugManagerAddon_1;
+template <typename Type>
+  requires(::cordl_internals::default_constructor_constraint<Type>)
+class DebugManagerAddon_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::Manager::DebugManagerAddon_1);
@@ -34,6 +36,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::Manager::DebugManager
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // cpp template
 template <typename Type>
+  requires(::cordl_internals::default_constructor_constraint<Type>)
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.Manager.DebugManagerAddon`1<Type>
 class CORDL_TYPE DebugManagerAddon_1 : public ::System::Object {
@@ -57,6 +60,7 @@ public:
   /// @brief Method Destroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Destroy();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -96,7 +100,7 @@ public:
   /// @brief Method get_Instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline Type get_Instance();
 
-  /// @brief Method get_Method, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Method, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Meta::XR::ImmersiveDebugger::Telemetry_Method get_Method();
 
   /// @brief Method get__subManagersToInitialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -112,13 +116,13 @@ protected:
   constexpr DebugManagerAddon_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManagerAddon_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManagerAddon_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugManagerAddon_1(DebugManagerAddon_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManagerAddon_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManagerAddon_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManagerAddon_1(DebugManagerAddon_1 const&) = delete;
+  DebugManagerAddon_1(DebugManagerAddon_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18431 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RotateBySpawnRotation.hpp"
+// IWYU pragma private; include "GlobalNamespace/RotateBySpawnRotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class RotateBySpawnRotation;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::RotateBySpawnRotation*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RotateBySpawnRotation*, "", "RotateBySpawnRotation");
+// [AddComponentMenu("Beat Saber/Gameplay/RotateBySpawnRotation")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -132,26 +133,30 @@ protected:
   constexpr RotateBySpawnRotation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RotateBySpawnRotation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RotateBySpawnRotation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RotateBySpawnRotation(RotateBySpawnRotation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RotateBySpawnRotation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RotateBySpawnRotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RotateBySpawnRotation(RotateBySpawnRotation const&) = delete;
+  RotateBySpawnRotation(RotateBySpawnRotationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5975 };
 
+  /// [SerializeField]
   /// @brief Field _aheadTime, offset: 0x20, size: 0x4, def value: None
   float_t ____aheadTime;
 
+  /// [SerializeField]
   /// @brief Field _smooth, offset: 0x24, size: 0x4, def value: None
   float_t ____smooth;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 

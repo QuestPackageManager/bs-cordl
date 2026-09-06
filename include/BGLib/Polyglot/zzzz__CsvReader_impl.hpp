@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\CsvReader.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/CsvReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__CsvReader_def.hpp"
 #include "BGLib/Polyglot/zzzz__CsvReader_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::Polyglot::CsvReader_ParsingMode::CsvReader_ParsingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

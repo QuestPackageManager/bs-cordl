@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\BlockExpressionList.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/BlockExpressionList.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__BlockExpressionList_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
@@ -176,6 +176,7 @@ inline ::System::Object* System::Linq::Expressions::BlockExpressionList__GetEnum
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18* System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18*>(__1__state));
 }

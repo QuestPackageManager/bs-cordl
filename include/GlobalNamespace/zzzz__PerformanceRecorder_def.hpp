@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -346,69 +346,91 @@ public:
   /// @brief Method .ctor, addr 0x58f7370, size 0x120, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CallbackController, addr 0x58f5a2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCallbacksController* get_CallbackController();
 
+  /// [CompilerGenerated]
   /// @brief Method get_GamePause, addr 0x58f59fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IGamePause* get_GamePause();
 
+  /// [CompilerGenerated]
   /// @brief Method get_GameplayModifiers, addr 0x58f59dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifierMask get_GameplayModifiers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ObjectManager, addr 0x58f5a1c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectManager* get_ObjectManager();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PlayerSpecificSettings, addr 0x58f59cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_PlayerSpecificSettings();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RecPlayState, addr 0x58f59ec, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Automation::RecPlayBehaviourState* get_RecPlayState();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReportDescriptor, addr 0x58f599c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReportDescriptor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SceneSetupData, addr 0x58f5a0c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_SceneSetupData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SettingsManager, addr 0x58f59bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SettingsManager* get_SettingsManager();
 
+  /// [CompilerGenerated]
   /// @brief Method get_StartEnabled, addr 0x58f59ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_StartEnabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TimeSync, addr 0x58f5a3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::AudioTimeSyncController> get_TimeSync();
 
+  /// [CompilerGenerated]
   /// @brief Method set_CallbackController, addr 0x58f5a34, size 0x8, virtual false, abstract: false, final false
   inline void set_CallbackController(::GlobalNamespace::BeatmapCallbacksController* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_GamePause, addr 0x58f5a04, size 0x8, virtual false, abstract: false, final false
   inline void set_GamePause(::GlobalNamespace::IGamePause* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_GameplayModifiers, addr 0x58f59e4, size 0x8, virtual false, abstract: false, final false
   inline void set_GameplayModifiers(::GlobalNamespace::GameplayModifierMask value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ObjectManager, addr 0x58f5a24, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_PlayerSpecificSettings, addr 0x58f59d4, size 0x8, virtual false, abstract: false, final false
   inline void set_PlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RecPlayState, addr 0x58f59f4, size 0x8, virtual false, abstract: false, final false
   inline void set_RecPlayState(::BeatSaber::Automation::RecPlayBehaviourState* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReportDescriptor, addr 0x58f59a4, size 0x8, virtual false, abstract: false, final false
   inline void set_ReportDescriptor(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SceneSetupData, addr 0x58f5a14, size 0x8, virtual false, abstract: false, final false
   inline void set_SceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SettingsManager, addr 0x58f59c4, size 0x8, virtual false, abstract: false, final false
   inline void set_SettingsManager(::GlobalNamespace::SettingsManager* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_StartEnabled, addr 0x58f59b4, size 0x8, virtual false, abstract: false, final false
   inline void set_StartEnabled(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TimeSync, addr 0x58f5a44, size 0x8, virtual false, abstract: false, final false
   inline void set_TimeSync(::GlobalNamespace::AudioTimeSyncController* value);
 
@@ -418,13 +440,13 @@ protected:
   constexpr PerformanceRecorder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceRecorder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceRecorder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceRecorder(PerformanceRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceRecorder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceRecorder(PerformanceRecorder const&) = delete;
+  PerformanceRecorder(PerformanceRecorderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6613 };
@@ -432,36 +454,47 @@ public:
   /// @brief Field kFramesCapacity offset 0xffffffff size 0x4
   static constexpr int32_t kFramesCapacity{ static_cast<int32_t>(0x11940) };
 
+  /// [CompilerGenerated]
   /// @brief Field <ReportDescriptor>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____ReportDescriptor_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <StartEnabled>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____StartEnabled_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SettingsManager>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____SettingsManager_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <PlayerSpecificSettings>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ____PlayerSpecificSettings_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <GameplayModifiers>k__BackingField, offset: 0x40, size: 0x2, def value: None
   ::GlobalNamespace::GameplayModifierMask ____GameplayModifiers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RecPlayState>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::BeatSaber::Automation::RecPlayBehaviourState* ____RecPlayState_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <GamePause>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____GamePause_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SceneSetupData>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____SceneSetupData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ObjectManager>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____ObjectManager_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CallbackController>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____CallbackController_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TimeSync>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____TimeSync_k__BackingField;
 

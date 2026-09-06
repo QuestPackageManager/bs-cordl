@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\FriendAccessAllowedAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/FriendAccessAllowedAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class FriendAccessAllowedAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::FriendAccessAllowedAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::FriendAccessAllowedAttribute*, "System.Runtime.CompilerServices", "FriendAccessAllowedAttribute");
+// [FriendAccessAllowed]
+// [AttributeUsage((System.AttributeTargets)2044, AllowMultiple = false, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr FriendAccessAllowedAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FriendAccessAllowedAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FriendAccessAllowedAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FriendAccessAllowedAttribute(FriendAccessAllowedAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FriendAccessAllowedAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FriendAccessAllowedAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FriendAccessAllowedAttribute(FriendAccessAllowedAttribute const&) = delete;
+  FriendAccessAllowedAttribute(FriendAccessAllowedAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3432 };

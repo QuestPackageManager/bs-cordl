@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DateTimeResult.hpp"
+// IWYU pragma private; include "System/DateTimeResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,8 @@ struct DateTimeResult;
 // Write type traits
 MARK_VAL_T(::System::DateTimeResult);
 DEFINE_IL2CPP_CLASS(::System::DateTimeResult, "System", "DateTimeResult");
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies System.DateTime, System.ParseFailureKind, System.ParseFlags, System.ReadOnlySpan`1<T>, System.TimeSpan
 namespace System {
 // Is value type: true
@@ -67,15 +69,16 @@ public:
   // @brief default ctor
   constexpr DateTimeResult();
 
-  // Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Minute", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "Second", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fraction", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "era", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::System::ParseFlags", modifiers: "", def_value: None }, CppParam { name: "timeZoneOffset", ty: "::System::TimeSpan", modifiers:
-  // "", def_value: None }, CppParam { name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: None }, CppParam { name: "parsedDate", ty: "::System::DateTime", modifiers:
-  // "", def_value: None }, CppParam { name: "failure", ty: "::System::ParseFailureKind", modifiers: "", def_value: None }, CppParam { name: "failureMessageID", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "failureArgumentName", ty: "::StringW", modifiers:
-  // "", def_value: None }, CppParam { name: "originalDateTimeString", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "failedFormatSpecifier", ty:
-  // "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Day", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "Minute", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Second", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fraction",
+  // ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty:
+  // "::System::ParseFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "timeZoneOffset", ty: "::System::TimeSpan", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: None, comment: None }, CppParam { name: "parsedDate", ty: "::System::DateTime", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "failure", ty: "::System::ParseFailureKind", modifiers: "", def_value: None, comment: None }, CppParam { name: "failureMessageID", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "failureArgumentName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "originalDateTimeString", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "failedFormatSpecifier", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }]
   constexpr DateTimeResult(int32_t Year, int32_t Month, int32_t Day, int32_t Hour, int32_t Minute, int32_t Second, double_t fraction, int32_t era, ::System::ParseFlags flags,
                            ::System::TimeSpan timeZoneOffset, ::System::Globalization::Calendar* calendar, ::System::DateTime parsedDate, ::System::ParseFailureKind failure,
                            ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument, ::StringW failureArgumentName, ::System::ReadOnlySpan_1<char16_t> originalDateTimeString,

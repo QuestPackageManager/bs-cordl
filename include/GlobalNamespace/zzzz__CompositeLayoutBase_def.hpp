@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeLayoutBase.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeLayoutBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,23 +88,27 @@ protected:
   constexpr CompositeLayoutBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLayoutBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLayoutBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeLayoutBase(CompositeLayoutBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLayoutBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLayoutBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeLayoutBase(CompositeLayoutBase const&) = delete;
+  CompositeLayoutBase(CompositeLayoutBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5822 };
 
+  /// [SerializeField]
   /// @brief Field _childParent, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____childParent;
 
+  /// [SerializeField]
   /// @brief Field _prefab, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____prefab;
 
+  /// [SerializeField]
+  /// [Range(1, 256)]
   /// @brief Field _count, offset: 0x20, size: 0x4, def value: None
   int32_t ____count;
 

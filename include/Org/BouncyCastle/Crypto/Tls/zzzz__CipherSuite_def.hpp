@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\CipherSuite.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/CipherSuite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ protected:
   constexpr CipherSuite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CipherSuite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CipherSuite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CipherSuite(CipherSuite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CipherSuite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CipherSuite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CipherSuite(CipherSuite const&) = delete;
+  CipherSuite(CipherSuiteconst&) = delete;
 
   /// @brief Field DRAFT_TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256 offset 0xffffffff size 0x4
   static constexpr int32_t DRAFT_TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256{ static_cast<int32_t>(0xccad) };

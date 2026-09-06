@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConventionAssemblySelectionBinder.hpp"
+// IWYU pragma private; include "Zenject/ConventionAssemblySelectionBinder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ConventionAssemblySelectionBinder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -383,7 +383,7 @@ template <typename T> inline void Zenject::ConventionAssemblySelectionBinder::Fr
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Zenject::ConventionAssemblySelectionBinder::FromAssembliesContaining(::ArrayW<::System::Type*> types) {
+inline void Zenject::ConventionAssemblySelectionBinder::FromAssembliesContaining(/* [ParamArray] */ ::ArrayW<::System::Type*> types) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionAssemblySelectionBinder*>(), { "FromAssembliesContaining", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, types);
@@ -403,7 +403,7 @@ inline void Zenject::ConventionAssemblySelectionBinder::FromAssembly(::System::R
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionAssemblySelectionBinder*>(), { "FromAssembly", {}, { ::i2c::type_of<::System::Reflection::Assembly*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, assembly);
 }
-inline void Zenject::ConventionAssemblySelectionBinder::FromAssemblies(::ArrayW<::System::Reflection::Assembly*> assemblies) {
+inline void Zenject::ConventionAssemblySelectionBinder::FromAssemblies(/* [ParamArray] */ ::ArrayW<::System::Reflection::Assembly*> assemblies) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::ConventionAssemblySelectionBinder*>(), { "FromAssemblies", {}, { ::i2c::type_of<::ArrayW<::System::Reflection::Assembly*>>() } })));

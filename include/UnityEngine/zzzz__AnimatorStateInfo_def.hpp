@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimatorStateInfo.hpp"
+// IWYU pragma private; include "UnityEngine/AnimatorStateInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ struct AnimatorStateInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::AnimatorStateInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AnimatorStateInfo, "UnityEngine", "AnimatorStateInfo");
+// [NativeHeader("Modules/Animation/AnimatorInfo.h")]
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -30,10 +32,11 @@ public:
   // @brief default ctor
   constexpr AnimatorStateInfo();
 
-  // Ctor Parameters [CppParam { name: "m_Name", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Path", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_FullPath", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_NormalizedTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Speed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_SpeedMultiplier", ty: "float_t", modifiers: "", def_value: None
-  // }, CppParam { name: "m_Tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Loop", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Name", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Path", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_FullPath", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NormalizedTime", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_Length", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Speed", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_SpeedMultiplier", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Tag", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Loop", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AnimatorStateInfo(int32_t m_Name, int32_t m_Path, int32_t m_FullPath, float_t m_NormalizedTime, float_t m_Length, float_t m_Speed, float_t m_SpeedMultiplier, int32_t m_Tag,
                               int32_t m_Loop) noexcept;
 

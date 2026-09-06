@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SimpleTemporalFiltering.hpp"
+// IWYU pragma private; include "GlobalNamespace/SimpleTemporalFiltering.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RenderTexture_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleTemporalFiltering_def.hpp"

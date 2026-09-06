@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElementStyleSheetSet.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementStyleSheetSet.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementStyleSheetSet_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -132,7 +132,7 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSh
 UnityEngine::UIElements::VisualElementStyleSheetSet::i___System__IEquatable_1___UnityEngine__UIElements__VisualElementStyleSheetSet_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualElementStyleSheetSet::VisualElementStyleSheetSet(::UnityEngine::UIElements::VisualElement* m_Element) noexcept {
   this->m_Element = m_Element;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\PanelAnimation.hpp"
+// IWYU pragma private; include "HMUI/PanelAnimation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::HMUI::PanelAnimation*);
 MARK_REF_T(::HMUI::PanelAnimation__AnimationCoroutine_d__1*);
 DEFINE_IL2CPP_CLASS(::HMUI::PanelAnimation*, "HMUI", "PanelAnimation");
 DEFINE_IL2CPP_CLASS(::HMUI::PanelAnimation__AnimationCoroutine_d__1*, "HMUI", "PanelAnimation/<AnimationCoroutine>d__1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -109,17 +110,22 @@ public:
   /// @brief Method MoveNext, addr 0x58759ac, size 0x2ac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::PanelAnimation__AnimationCoroutine_d__1* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5875c58, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5875c60, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5875c98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x58759a8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -201,6 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x587599c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -219,13 +226,13 @@ protected:
   constexpr PanelAnimation__AnimationCoroutine_d__1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation__AnimationCoroutine_d__1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation__AnimationCoroutine_d__1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PanelAnimation__AnimationCoroutine_d__1(PanelAnimation__AnimationCoroutine_d__1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation__AnimationCoroutine_d__1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation__AnimationCoroutine_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelAnimation__AnimationCoroutine_d__1(PanelAnimation__AnimationCoroutine_d__1 const&) = delete;
+  PanelAnimation__AnimationCoroutine_d__1(PanelAnimation__AnimationCoroutine_d__1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19019 };
@@ -310,6 +317,7 @@ public:
   // Declarations
   using _AnimationCoroutine_d__1 = ::HMUI::PanelAnimation__AnimationCoroutine_d__1;
 
+  /// [IteratorStateMachine(typeof(HMUI.PanelAnimation::<AnimationCoroutine>d__1))]
   /// @brief Method AnimationCoroutine, addr 0x58758ec, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimationCoroutine(float_t duration, ::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup,
                                                                 ::UnityEngine::AnimationCurve* scaleXAnimationCurve, ::UnityEngine::AnimationCurve* scaleYAnimationCurve,
@@ -332,13 +340,13 @@ protected:
   constexpr PanelAnimation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PanelAnimation(PanelAnimation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelAnimation(PanelAnimation const&) = delete;
+  PanelAnimation(PanelAnimationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19020 };

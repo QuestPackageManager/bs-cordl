@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLevelSelectionFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelSelectionFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -200,9 +200,11 @@ public:
   /// @brief Method .ctor, addr 0x5937750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishedEvent, addr 0x5936e08, size 0xac, virtual false, abstract: false, final false
   inline void add_didFinishedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectLevelEvent, addr 0x5936c88, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectLevelEvent(::System::Action_1<::GlobalNamespace::LevelSelectionFlowCoordinator_State*>* value);
 
@@ -233,9 +235,11 @@ public:
   /// @brief Method get_songPackMask, addr 0x5936f80, size 0x10, virtual true, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask get_songPackMask();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishedEvent, addr 0x5936eb4, size 0xac, virtual false, abstract: false, final false
   inline void remove_didFinishedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectLevelEvent, addr 0x5936d48, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelEvent(::System::Action_1<::GlobalNamespace::LevelSelectionFlowCoordinator_State*>* value);
 
@@ -245,26 +249,30 @@ protected:
   constexpr MultiplayerLevelSelectionFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelSelectionFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelSelectionFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLevelSelectionFlowCoordinator(MultiplayerLevelSelectionFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelSelectionFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelSelectionFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLevelSelectionFlowCoordinator(MultiplayerLevelSelectionFlowCoordinator const&) = delete;
+  MultiplayerLevelSelectionFlowCoordinator(MultiplayerLevelSelectionFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6852 };
 
+  /// [SerializeField]
   /// @brief Field _notAllowedCharacteristics, offset: 0xd8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> ____notAllowedCharacteristics;
 
+  /// [Inject]
   /// @brief Field _lobbyGameStateController, offset: 0xe0, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyGameStateController* ____lobbyGameStateController;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectLevelEvent, offset: 0xe8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::LevelSelectionFlowCoordinator_State*>* ___didSelectLevelEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishedEvent, offset: 0xf0, size: 0x8, def value: None
   ::System::Action* ___didFinishedEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\XRPassUniversal.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRPassUniversal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,27 +81,35 @@ public:
   /// @brief Method .ctor, addr 0x68e8d48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_canFoveateIntermediatePasses, addr 0x68e8d38, size 0x8, virtual false, abstract: false, final false
   inline bool get_canFoveateIntermediatePasses();
 
+  /// [CompilerGenerated]
   /// @brief Method get_canMarkLateLatch, addr 0x68e8d18, size 0x8, virtual false, abstract: false, final false
   inline bool get_canMarkLateLatch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasMarkedLateLatch, addr 0x68e8d28, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasMarkedLateLatch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isLateLatchEnabled, addr 0x68e8d08, size 0x8, virtual false, abstract: false, final false
   inline bool get_isLateLatchEnabled();
 
+  /// [CompilerGenerated]
   /// @brief Method set_canFoveateIntermediatePasses, addr 0x68e8d40, size 0x8, virtual false, abstract: false, final false
   inline void set_canFoveateIntermediatePasses(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_canMarkLateLatch, addr 0x68e8d20, size 0x8, virtual false, abstract: false, final false
   inline void set_canMarkLateLatch(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasMarkedLateLatch, addr 0x68e8d30, size 0x8, virtual false, abstract: false, final false
   inline void set_hasMarkedLateLatch(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isLateLatchEnabled, addr 0x68e8d10, size 0x8, virtual false, abstract: false, final false
   inline void set_isLateLatchEnabled(bool value);
 
@@ -111,26 +119,30 @@ protected:
   constexpr XRPassUniversal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRPassUniversal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRPassUniversal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRPassUniversal(XRPassUniversal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRPassUniversal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRPassUniversal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRPassUniversal(XRPassUniversal const&) = delete;
+  XRPassUniversal(XRPassUniversalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13050 };
 
+  /// [CompilerGenerated]
   /// @brief Field <isLateLatchEnabled>k__BackingField, offset: 0x734, size: 0x1, def value: None
   bool ____isLateLatchEnabled_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <canMarkLateLatch>k__BackingField, offset: 0x735, size: 0x1, def value: None
   bool ____canMarkLateLatch_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasMarkedLateLatch>k__BackingField, offset: 0x736, size: 0x1, def value: None
   bool ____hasMarkedLateLatch_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <canFoveateIntermediatePasses>k__BackingField, offset: 0x737, size: 0x1, def value: None
   bool ____canFoveateIntermediatePasses_k__BackingField;
 

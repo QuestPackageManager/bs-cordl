@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BinningConfig.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BinningConfig.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,8 +29,8 @@ public:
   // @brief default ctor
   constexpr BinningConfig();
 
-  // Ctor Parameters [CppParam { name: "viewCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportsCrossFade", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "supportsMotionCheck", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportsCrossFade", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "supportsMotionCheck", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr BinningConfig(int32_t viewCount, bool supportsCrossFade, bool supportsMotionCheck) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

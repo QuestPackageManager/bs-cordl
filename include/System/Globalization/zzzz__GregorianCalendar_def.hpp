@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\GregorianCalendar.hpp"
+// IWYU pragma private; include "System/Globalization/GregorianCalendar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class GregorianCalendar;
 // Write type traits
 MARK_REF_T(::System::Globalization::GregorianCalendar*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::GregorianCalendar*, "System.Globalization", "GregorianCalendar");
+// [ComVisible(true)]
 // Dependencies System.Globalization.Calendar, System.Globalization.GregorianCalendarTypes
 namespace System::Globalization {
 // Is value type: false
@@ -45,8 +46,10 @@ public:
 
   __declspec(property(get = get_Eras)) ::ArrayW<int32_t> Eras;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MinSupportedDateTime)) ::System::DateTime MinSupportedDateTime;
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
@@ -99,6 +102,7 @@ public:
 
   static inline ::System::Globalization::GregorianCalendar* New_ctor(::System::Globalization::GregorianCalendarTypes type);
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x5bc768c, size 0xc4, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
@@ -159,13 +163,13 @@ protected:
   constexpr GregorianCalendar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GregorianCalendar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GregorianCalendar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GregorianCalendar(GregorianCalendar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GregorianCalendar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GregorianCalendar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GregorianCalendar(GregorianCalendar const&) = delete;
+  GregorianCalendar(GregorianCalendarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3624 };

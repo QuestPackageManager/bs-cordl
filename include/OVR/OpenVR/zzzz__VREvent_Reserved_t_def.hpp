@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_Reserved_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Reserved_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,9 @@ public:
   // @brief default ctor
   constexpr VREvent_Reserved_t();
 
-  // Ctor Parameters [CppParam { name: "reserved0", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "reserved1", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "reserved2", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "reserved3", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "reserved0", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "reserved1", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "reserved2", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "reserved3", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr VREvent_Reserved_t(uint64_t reserved0, uint64_t reserved1, uint64_t reserved2, uint64_t reserved3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Texture3D.hpp"
+// IWYU pragma private; include "UnityEngine/Texture3D.hpp"
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__Texture3D_def.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -1038,7 +1038,7 @@ inline ::UnityEngine::Color UnityEngine::Texture3D::GetPixelBilinearImpl(int32_t
                                               { "GetPixelBilinearImpl", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, mip, u, v, w);
 }
-inline bool UnityEngine::Texture3D::Internal_CreateImpl(::UnityEngine::Texture3D* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount,
+inline bool UnityEngine::Texture3D::Internal_CreateImpl(/* [Writable] */ ::UnityEngine::Texture3D* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount,
                                                         ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
                                                         ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex) {
   static auto* ___internal_method =
@@ -1051,8 +1051,9 @@ inline bool UnityEngine::Texture3D::Internal_CreateImpl(::UnityEngine::Texture3D
                                            ::i2c::type_of<::UnityEngine::Experimental::Rendering::TextureCreationFlags>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, mono, w, h, d, mipCount, format, colorSpace, flags, nativeTex);
 }
-inline void UnityEngine::Texture3D::Internal_Create(::UnityEngine::Texture3D* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                                    ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex) {
+inline void UnityEngine::Texture3D::Internal_Create(/* [Writable] */ ::UnityEngine::Texture3D* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount,
+                                                    ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
+                                                    ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(),
@@ -1185,7 +1186,7 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, depth, format, flags);
 }
 inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                          ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
+                                          ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, /* [DefaultValue("Texture.GenerateAllMips")] */ int32_t mipCount) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(),
@@ -1203,7 +1204,8 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
           { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, depth, textureFormat, mipCount);
 }
-inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::System::IntPtr nativeTex) {
+inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount,
+                                          /* [DefaultValue("IntPtr.Zero")] */ ::System::IntPtr nativeTex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(), { ".ctor",
@@ -1212,8 +1214,8 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                                                             ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, depth, textureFormat, mipCount, nativeTex);
 }
-inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::System::IntPtr nativeTex,
-                                          bool createUninitialized) {
+inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount,
+                                          /* [DefaultValue("IntPtr.Zero")] */ ::System::IntPtr nativeTex, /* [DefaultValue("false")] */ bool createUninitialized) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(),
                                                            { ".ctor",
@@ -1230,7 +1232,8 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                        { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, depth, textureFormat, mipChain);
 }
-inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool createUninitialized) {
+inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain,
+                                          /* [DefaultValue("false")] */ bool createUninitialized) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(), { ".ctor",
                                                                                               {},
@@ -1238,7 +1241,8 @@ inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t
                                                                                                 ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, depth, textureFormat, mipChain, createUninitialized);
 }
-inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, ::System::IntPtr nativeTex) {
+inline void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain,
+                                          /* [DefaultValue("IntPtr.Zero")] */ ::System::IntPtr nativeTex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(), { ".ctor",
@@ -1257,7 +1261,7 @@ inline ::UnityW<::UnityEngine::Texture3D> UnityEngine::Texture3D::CreateExternal
                                                                             ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture3D>>(nullptr, ___internal_method, width, height, depth, format, mipChain, nativeTex);
 }
-inline void UnityEngine::Texture3D::Apply(bool updateMipmaps, bool makeNoLongerReadable) {
+inline void UnityEngine::Texture3D::Apply(/* [DefaultValue("true")] */ bool updateMipmaps, /* [DefaultValue("false")] */ bool makeNoLongerReadable) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(), { "Apply", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, updateMipmaps, makeNoLongerReadable);
@@ -1276,7 +1280,7 @@ inline void UnityEngine::Texture3D::SetPixel(int32_t x, int32_t y, int32_t z, ::
                                               { "SetPixel", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, z, color);
 }
-inline void UnityEngine::Texture3D::SetPixel(int32_t x, int32_t y, int32_t z, ::UnityEngine::Color color, int32_t mipLevel) {
+inline void UnityEngine::Texture3D::SetPixel(int32_t x, int32_t y, int32_t z, ::UnityEngine::Color color, /* [DefaultValue("0")] */ int32_t mipLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(),
@@ -1288,7 +1292,7 @@ inline ::UnityEngine::Color UnityEngine::Texture3D::GetPixel(int32_t x, int32_t 
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(), { "GetPixel", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, x, y, z);
 }
-inline ::UnityEngine::Color UnityEngine::Texture3D::GetPixel(int32_t x, int32_t y, int32_t z, int32_t mipLevel) {
+inline ::UnityEngine::Color UnityEngine::Texture3D::GetPixel(int32_t x, int32_t y, int32_t z, /* [DefaultValue("0")] */ int32_t mipLevel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(),
                                                            { "GetPixel", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
@@ -1300,20 +1304,22 @@ inline ::UnityEngine::Color UnityEngine::Texture3D::GetPixelBilinear(float_t u, 
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(), { "GetPixelBilinear", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, u, v, w);
 }
-inline ::UnityEngine::Color UnityEngine::Texture3D::GetPixelBilinear(float_t u, float_t v, float_t w, int32_t mipLevel) {
+inline ::UnityEngine::Color UnityEngine::Texture3D::GetPixelBilinear(float_t u, float_t v, float_t w, /* [DefaultValue("0")] */ int32_t mipLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(),
                                               { "GetPixelBilinear", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, u, v, w, mipLevel);
 }
-template <typename T> inline void UnityEngine::Texture3D::SetPixelData(::ArrayW<T> data, int32_t mipLevel, int32_t sourceDataStartIndex) {
+template <typename T> inline void UnityEngine::Texture3D::SetPixelData(::ArrayW<T> data, int32_t mipLevel, /* [DefaultValue("0")] */ int32_t sourceDataStartIndex) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(),
                                                            { "SetPixelData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, mipLevel, sourceDataStartIndex);
 }
-template <typename T> inline void UnityEngine::Texture3D::SetPixelData(::Unity::Collections::NativeArray_1<T> data, int32_t mipLevel, int32_t sourceDataStartIndex) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Texture3D::SetPixelData(::Unity::Collections::NativeArray_1<T> data, int32_t mipLevel, /* [DefaultValue("0")] */ int32_t sourceDataStartIndex) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(),
@@ -1321,7 +1327,9 @@ template <typename T> inline void UnityEngine::Texture3D::SetPixelData(::Unity::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, mipLevel, sourceDataStartIndex);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Texture3D::GetPixelData(int32_t mipLevel) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Texture3D::GetPixelData(int32_t mipLevel) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(), { "GetPixelData", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1483,40 +1491,50 @@ inline ::System::IntPtr UnityEngine::Texture3D::GetImageData_Injected(::System::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture3D*>(), { "GetImageData_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, _unity_self);
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
                                                                   ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, format, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
                                                                   ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, format, flags, mipCount));
 }
+/// [ExcludeFromDocs]
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                   ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, format, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
+                                                                  ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
+                                                                  /* [DefaultValue("Texture.GenerateAllMips")] */ int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, format, flags, mipCount));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipCount));
 }
 inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount,
-                                                                  ::System::IntPtr nativeTex) {
+                                                                  /* [DefaultValue("IntPtr.Zero")] */ ::System::IntPtr nativeTex) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipCount, nativeTex));
 }
 inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount,
-                                                                  ::System::IntPtr nativeTex, bool createUninitialized) {
+                                                                  /* [DefaultValue("IntPtr.Zero")] */ ::System::IntPtr nativeTex, /* [DefaultValue("false")] */ bool createUninitialized) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipCount, nativeTex, createUninitialized));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipChain));
 }
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool createUninitialized) {
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain,
+                                                                  /* [DefaultValue("false")] */ bool createUninitialized) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipChain, createUninitialized));
 }
-inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, ::System::IntPtr nativeTex) {
+inline ::UnityEngine::Texture3D* UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain,
+                                                                  /* [DefaultValue("IntPtr.Zero")] */ ::System::IntPtr nativeTex) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture3D*>(width, height, depth, textureFormat, mipChain, nativeTex));
 }
 // Ctor Parameters []

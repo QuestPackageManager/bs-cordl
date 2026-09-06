@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\ObjectInitializationData.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/ObjectInitializationData.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__SerializedType_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
@@ -108,8 +108,9 @@ UnityEngine::ResourceManagement::Util::ObjectInitializationData::GetAsyncInitHan
                                                            { "GetAsyncInitHandle", {}, { ::i2c::type_of<::UnityEngine::ResourceManagement::ResourceManager*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(*this, ___internal_method, rm, idOverride);
 }
-// Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ObjectType", ty: "::UnityEngine::ResourceManagement::Util::SerializedType",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ObjectType", ty:
+// "::UnityEngine::ResourceManagement::Util::SerializedType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData::ObjectInitializationData(::StringW m_Id, ::UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType,
                                                                                                       ::StringW m_Data) noexcept {
   this->m_Id = m_Id;

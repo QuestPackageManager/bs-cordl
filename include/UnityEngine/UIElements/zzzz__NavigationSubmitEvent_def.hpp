@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\NavigationSubmitEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationSubmitEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_REF_T(::UnityEngine::UIElements::NavigationSubmitEvent*);
 MARK_REF_T(::UnityEngine::UIElements::NavigationSubmitEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::NavigationSubmitEvent*, "UnityEngine.UIElements", "NavigationSubmitEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::NavigationSubmitEvent___c*, "UnityEngine.UIElements", "NavigationSubmitEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr NavigationSubmitEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationSubmitEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationSubmitEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationSubmitEvent___c(NavigationSubmitEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationSubmitEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationSubmitEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationSubmitEvent___c(NavigationSubmitEvent___c const&) = delete;
+  NavigationSubmitEvent___c(NavigationSubmitEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4523 };
@@ -86,13 +87,13 @@ protected:
   constexpr NavigationSubmitEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationSubmitEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationSubmitEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationSubmitEvent(NavigationSubmitEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationSubmitEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationSubmitEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationSubmitEvent(NavigationSubmitEvent const&) = delete;
+  NavigationSubmitEvent(NavigationSubmitEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4524 };

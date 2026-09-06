@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassFragmentData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassFragmentData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ struct PassFragmentData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "PassFragmentData");
+// [DebuggerDisplay("PassFragmentData: Res({resource.index}):{accessFlags}")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.AccessFlags, UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
@@ -26,16 +27,16 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method SameSubResource, addr 0x67f9434, size 0x9c, virtual false, abstract: false, final false
-  static inline bool SameSubResource(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> x,
-                                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> y);
+  static inline bool SameSubResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> x,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> y);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PassFragmentData();
 
-  // Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None }, CppParam { name: "accessFlags", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::AccessFlags", modifiers: "", def_value: None }, CppParam { name: "mipLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "depthSlice", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "accessFlags",
+  // ty: "::UnityEngine::Rendering::RenderGraphModule::AccessFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "mipLevel", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PassFragmentData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel,
                              int32_t depthSlice) noexcept;
 

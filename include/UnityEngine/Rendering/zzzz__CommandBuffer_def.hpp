@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CommandBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CommandBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,9 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -227,13 +229,13 @@ protected:
   constexpr CommandBuffer_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBuffer_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBuffer_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandBuffer_BindingsMarshaller(CommandBuffer_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBuffer_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBuffer_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandBuffer_BindingsMarshaller(CommandBuffer_BindingsMarshaller const&) = delete;
+  CommandBuffer_BindingsMarshaller(CommandBuffer_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10777 };
@@ -244,6 +246,11 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::CommandBuffer_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [UsedByNativeCode]
+// [NativeType("Runtime/Graphics/CommandBuffer/RenderingCommandBuffer.h")]
+// [NativeHeader("Runtime/Shaders/ComputeShader.h")]
+// [NativeHeader("Runtime/Shaders/RayTracing/RayTracingShader.h")]
+// [NativeHeader("Runtime/Export/Graphics/RenderingCommandBuffer.bindings.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -271,6 +278,7 @@ public:
                               int32_t depthAttachmentIndex, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SubPassDescriptor> subPasses,
                               ::System::ReadOnlySpan_1<uint8_t> debugNameUtf8);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::BeginRenderPass", HasExplicitThis = true)]
   /// @brief Method BeginRenderPass_Internal, addr 0x6b18384, size 0x18c, virtual false, abstract: false, final false
   inline void BeginRenderPass_Internal(int32_t width, int32_t height, int32_t volumeDepth, int32_t samples, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::AttachmentDescriptor> attachments,
                                        int32_t depthAttachmentIndex, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubPassDescriptor> subPasses, ::System::ReadOnlySpan_1<uint8_t> debugNameUtf8);
@@ -280,14 +288,16 @@ public:
                                                        ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> attachments, int32_t depthAttachmentIndex,
                                                        ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> subPasses, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> debugNameUtf8);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::BeginSample", HasExplicitThis = true)]
   /// @brief Method BeginSample, addr 0x6b149c4, size 0x14c, virtual false, abstract: false, final false
   inline void BeginSample(::StringW name);
 
   /// @brief Method BeginSample, addr 0x6b14ce4, size 0x4, virtual false, abstract: false, final false
   inline void BeginSample(::UnityEngine::Profiling::CustomSampler* sampler);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::BeginSample_CustomSampler", HasExplicitThis = true)]
   /// @brief Method BeginSample_CustomSampler, addr 0x6b14ce8, size 0xa0, virtual false, abstract: false, final false
-  inline void BeginSample_CustomSampler(::UnityEngine::Profiling::CustomSampler* sampler);
+  inline void BeginSample_CustomSampler(/* [NotNull] */ ::UnityEngine::Profiling::CustomSampler* sampler);
 
   /// @brief Method BeginSample_CustomSampler_Injected, addr 0x6b14e2c, size 0x44, virtual false, abstract: false, final false
   static inline void BeginSample_CustomSampler_Injected(::System::IntPtr _unity_self, ::System::IntPtr sampler);
@@ -307,6 +317,7 @@ public:
   /// @brief Method Blit, addr 0x6b1b808, size 0x84, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::Rendering::RenderTargetIdentifier dest, ::UnityEngine::Material* mat);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Blit_Identifier", HasExplicitThis = true)]
   /// @brief Method Blit_Identifier, addr 0x6b11d88, size 0xf8, virtual false, abstract: false, final false
   inline void Blit_Identifier(::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> source, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> dest, ::UnityEngine::Material* mat,
                               int32_t pass, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset, int32_t sourceDepthSlice, int32_t destDepthSlice);
@@ -316,6 +327,7 @@ public:
                                               ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> dest, ::System::IntPtr mat, int32_t pass, ::by_ref<::UnityEngine::Vector2> scale,
                                               ::by_ref<::UnityEngine::Vector2> offset, int32_t sourceDepthSlice, int32_t destDepthSlice);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Blit_Texture", HasExplicitThis = true)]
   /// @brief Method Blit_Texture, addr 0x6b11bc4, size 0x128, virtual false, abstract: false, final false
   inline void Blit_Texture(::UnityEngine::Texture* source, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> dest, ::UnityEngine::Material* mat, int32_t pass, ::UnityEngine::Vector2 scale,
                            ::UnityEngine::Vector2 offset, int32_t sourceDepthSlice, int32_t destDepthSlice);
@@ -333,9 +345,11 @@ public:
   /// @brief Method CheckThrowOnSetRenderTarget, addr 0x6b156a4, size 0x98, virtual false, abstract: false, final false
   static inline void CheckThrowOnSetRenderTarget();
 
+  /// [NativeMethod("ClearCommands")]
   /// @brief Method Clear, addr 0x6b0fe54, size 0x4c, virtual false, abstract: false, final false
   inline void Clear();
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::ClearRandomWriteTargets", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method ClearRandomWriteTargets, addr 0x6b117c4, size 0x4c, virtual false, abstract: false, final false
   inline void ClearRandomWriteTargets();
 
@@ -374,6 +388,7 @@ public:
   /// @brief Method Clear_Injected, addr 0x6b0fea0, size 0x3c, virtual false, abstract: false, final false
   static inline void Clear_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::ConfigureFoveatedRendering", HasExplicitThis = true)]
   /// @brief Method ConfigureFoveatedRendering, addr 0x6b1560c, size 0x54, virtual false, abstract: false, final false
   inline void ConfigureFoveatedRendering(::System::IntPtr platformData);
 
@@ -392,24 +407,28 @@ public:
   /// @brief Method CopyCounterValue, addr 0x6b1b69c, size 0x4, virtual false, abstract: false, final false
   inline void CopyCounterValue(::UnityEngine::GraphicsBuffer* src, ::UnityEngine::GraphicsBuffer* dst, uint32_t dstOffsetBytes);
 
+  /// [NativeMethod("AddCopyCounterValue")]
   /// @brief Method CopyCounterValueCC, addr 0x6b0f780, size 0x84, virtual false, abstract: false, final false
   inline void CopyCounterValueCC(::UnityEngine::ComputeBuffer* src, ::UnityEngine::ComputeBuffer* dst, uint32_t dstOffsetBytes);
 
   /// @brief Method CopyCounterValueCC_Injected, addr 0x6b0f804, size 0x5c, virtual false, abstract: false, final false
   static inline void CopyCounterValueCC_Injected(::System::IntPtr _unity_self, ::System::IntPtr src, ::System::IntPtr dst, uint32_t dstOffsetBytes);
 
+  /// [NativeMethod("AddCopyCounterValue")]
   /// @brief Method CopyCounterValueCG, addr 0x6b0f940, size 0x84, virtual false, abstract: false, final false
   inline void CopyCounterValueCG(::UnityEngine::ComputeBuffer* src, ::UnityEngine::GraphicsBuffer* dst, uint32_t dstOffsetBytes);
 
   /// @brief Method CopyCounterValueCG_Injected, addr 0x6b0f9c4, size 0x5c, virtual false, abstract: false, final false
   static inline void CopyCounterValueCG_Injected(::System::IntPtr _unity_self, ::System::IntPtr src, ::System::IntPtr dst, uint32_t dstOffsetBytes);
 
+  /// [NativeMethod("AddCopyCounterValue")]
   /// @brief Method CopyCounterValueGC, addr 0x6b0f860, size 0x84, virtual false, abstract: false, final false
   inline void CopyCounterValueGC(::UnityEngine::GraphicsBuffer* src, ::UnityEngine::ComputeBuffer* dst, uint32_t dstOffsetBytes);
 
   /// @brief Method CopyCounterValueGC_Injected, addr 0x6b0f8e4, size 0x5c, virtual false, abstract: false, final false
   static inline void CopyCounterValueGC_Injected(::System::IntPtr _unity_self, ::System::IntPtr src, ::System::IntPtr dst, uint32_t dstOffsetBytes);
 
+  /// [NativeMethod("AddCopyCounterValue")]
   /// @brief Method CopyCounterValueGG, addr 0x6b0fa20, size 0x84, virtual false, abstract: false, final false
   inline void CopyCounterValueGG(::UnityEngine::GraphicsBuffer* src, ::UnityEngine::GraphicsBuffer* dst, uint32_t dstOffsetBytes);
 
@@ -427,6 +446,7 @@ public:
   inline void CopyTexture(::UnityEngine::Rendering::RenderTargetIdentifier src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight,
                           ::UnityEngine::Rendering::RenderTargetIdentifier dst, int32_t dstElement, int32_t dstMip, int32_t dstX, int32_t dstY);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::CopyTexture_Internal", HasExplicitThis = true)]
   /// @brief Method CopyTexture_Internal, addr 0x6b11a24, size 0xd8, virtual false, abstract: false, final false
   inline void CopyTexture_Internal(::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight,
                                    ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> dst, int32_t dstElement, int32_t dstMip, int32_t dstX, int32_t dstY, int32_t mode);
@@ -439,6 +459,7 @@ public:
   /// @brief Method CreateAsyncGraphicsFence, addr 0x6b18ae0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GraphicsFence CreateAsyncGraphicsFence();
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::CreateGPUFence_Internal", HasExplicitThis = true)]
   /// @brief Method CreateGPUFence_Internal, addr 0x6b0c594, size 0x64, virtual false, abstract: false, final false
   inline ::System::IntPtr CreateGPUFence_Internal(::UnityEngine::Rendering::GraphicsFenceType fenceType, ::UnityEngine::Rendering::SynchronisationStageFlags stage);
 
@@ -449,12 +470,14 @@ public:
   /// @brief Method CreateGraphicsFence, addr 0x6b18aec, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GraphicsFence CreateGraphicsFence(::UnityEngine::Rendering::GraphicsFenceType fenceType, ::UnityEngine::Rendering::SynchronisationStageFlags stage);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::DisableComputeKeyword", HasExplicitThis = true)]
   /// @brief Method DisableComputeKeyword, addr 0x6b134fc, size 0xac, virtual false, abstract: false, final false
   inline void DisableComputeKeyword(::UnityEngine::ComputeShader* computeShader, ::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method DisableComputeKeyword_Injected, addr 0x6b135a8, size 0x54, virtual false, abstract: false, final false
   static inline void DisableComputeKeyword_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::DisableShaderKeyword", HasExplicitThis = true)]
   /// @brief Method DisableGlobalKeyword, addr 0x6b13358, size 0x60, virtual false, abstract: false, final false
   inline void DisableGlobalKeyword(::UnityEngine::Rendering::GlobalKeyword keyword);
 
@@ -462,26 +485,29 @@ public:
   static inline void DisableGlobalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
 
   /// @brief Method DisableKeyword, addr 0x6b13634, size 0x2c, virtual false, abstract: false, final false
-  inline void DisableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void DisableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method DisableKeyword, addr 0x6b135fc, size 0xc, virtual false, abstract: false, final false
-  inline void DisableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  inline void DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
 
   /// @brief Method DisableKeyword, addr 0x6b13608, size 0x2c, virtual false, abstract: false, final false
-  inline void DisableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void DisableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::DisableMaterialKeyword", HasExplicitThis = true)]
   /// @brief Method DisableMaterialKeyword, addr 0x6b133fc, size 0xac, virtual false, abstract: false, final false
   inline void DisableMaterialKeyword(::UnityEngine::Material* material, ::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method DisableMaterialKeyword_Injected, addr 0x6b134a8, size 0x54, virtual false, abstract: false, final false
   static inline void DisableMaterialKeyword_Injected(::System::IntPtr _unity_self, ::System::IntPtr material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::DisableScissorRect", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method DisableScissorRect, addr 0x6b1199c, size 0x4c, virtual false, abstract: false, final false
   inline void DisableScissorRect();
 
   /// @brief Method DisableScissorRect_Injected, addr 0x6b119e8, size 0x3c, virtual false, abstract: false, final false
   static inline void DisableScissorRect_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::DisableShaderKeyword", HasExplicitThis = true)]
   /// @brief Method DisableShaderKeyword, addr 0x6b131c8, size 0x14c, virtual false, abstract: false, final false
   inline void DisableShaderKeyword(::StringW keyword);
 
@@ -506,18 +532,21 @@ public:
   /// @brief Method Dispose, addr 0x6b18a1c, size 0x18, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
+  /// [ExcludeFromDocs]
   /// @brief Method DrawMesh, addr 0x6b19b50, size 0x38, virtual false, abstract: false, final false
   inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material);
 
+  /// [ExcludeFromDocs]
   /// @brief Method DrawMesh, addr 0x6b19b1c, size 0x34, virtual false, abstract: false, final false
   inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t submeshIndex);
 
+  /// [ExcludeFromDocs]
   /// @brief Method DrawMesh, addr 0x6b19aec, size 0x30, virtual false, abstract: false, final false
   inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass);
 
   /// @brief Method DrawMesh, addr 0x6b1989c, size 0x250, virtual false, abstract: false, final false
-  inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass,
-                       ::UnityEngine::MaterialPropertyBlock* properties);
+  inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, /* [DefaultValue("0")] */ int32_t submeshIndex,
+                       /* [DefaultValue("-1")] */ int32_t shaderPass, /* [DefaultValue("null")] */ ::UnityEngine::MaterialPropertyBlock* properties);
 
   /// @brief Method DrawMeshInstanced, addr 0x6b1adf4, size 0x28, virtual false, abstract: false, final false
   inline void DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, int32_t shaderPass, ::ArrayW<::UnityEngine::Matrix4x4> matrices);
@@ -555,9 +584,10 @@ public:
   inline void DrawMeshInstancedProcedural(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, int32_t shaderPass, int32_t count,
                                           ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [ExcludeFromDocs]
   /// @brief Method DrawMultipleMeshes, addr 0x6b19b88, size 0xa8, virtual false, abstract: false, final false
   inline void DrawMultipleMeshes(::ArrayW<::UnityEngine::Matrix4x4> matrices, ::ArrayW<::UnityEngine::Mesh*> meshes, ::ArrayW<int32_t> subsetIndices, int32_t count, ::UnityEngine::Material* material,
-                                 int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* properties);
+                                 int32_t shaderPass, /* [DefaultValue("null")] */ ::UnityEngine::MaterialPropertyBlock* properties);
 
   /// @brief Method DrawOcclusionMesh, addr 0x6b1b5d0, size 0x4, virtual false, abstract: false, final false
   inline void DrawOcclusionMesh(::UnityEngine::RectInt normalizedCamViewport);
@@ -574,15 +604,17 @@ public:
   inline void DrawProcedural(::UnityEngine::GraphicsBuffer* indexBuffer, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MeshTopology topology,
                              int32_t indexCount, int32_t instanceCount, ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [ExcludeFromDocs]
   /// @brief Method DrawProcedural, addr 0x6b19fc0, size 0x34, virtual false, abstract: false, final false
   inline void DrawProcedural(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MeshTopology topology, int32_t vertexCount);
 
+  /// [ExcludeFromDocs]
   /// @brief Method DrawProcedural, addr 0x6b19f90, size 0x30, virtual false, abstract: false, final false
   inline void DrawProcedural(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MeshTopology topology, int32_t vertexCount, int32_t instanceCount);
 
   /// @brief Method DrawProcedural, addr 0x6b19e58, size 0x138, virtual false, abstract: false, final false
-  inline void DrawProcedural(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MeshTopology topology, int32_t vertexCount, int32_t instanceCount,
-                             ::UnityEngine::MaterialPropertyBlock* properties);
+  inline void DrawProcedural(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MeshTopology topology, int32_t vertexCount,
+                             /* [DefaultValue("1")] */ int32_t instanceCount, /* [DefaultValue("null")] */ ::UnityEngine::MaterialPropertyBlock* properties);
 
   /// @brief Method DrawProceduralIndirect, addr 0x6b1a5c4, size 0x34, virtual false, abstract: false, final false
   inline void DrawProceduralIndirect(::UnityEngine::GraphicsBuffer* indexBuffer, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass,
@@ -632,24 +664,28 @@ public:
   inline void DrawProceduralIndirect(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MeshTopology topology,
                                      ::UnityEngine::GraphicsBuffer* bufferWithArgs, int32_t argsOffset, ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [ExcludeFromDocs]
   /// @brief Method DrawRenderer, addr 0x6b19e20, size 0xc, virtual false, abstract: false, final false
   inline void DrawRenderer(::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material);
 
+  /// [ExcludeFromDocs]
   /// @brief Method DrawRenderer, addr 0x6b19e18, size 0x8, virtual false, abstract: false, final false
   inline void DrawRenderer(::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material, int32_t submeshIndex);
 
   /// @brief Method DrawRenderer, addr 0x6b19c30, size 0x1e8, virtual false, abstract: false, final false
-  inline void DrawRenderer(::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass);
+  inline void DrawRenderer(::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material, /* [DefaultValue("0")] */ int32_t submeshIndex, /* [DefaultValue("-1")] */ int32_t shaderPass);
 
   /// @brief Method DrawRendererList, addr 0x6b19e2c, size 0x2c, virtual false, abstract: false, final false
   inline void DrawRendererList(::UnityEngine::Rendering::RendererList rendererList);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::EnableComputeKeyword", HasExplicitThis = true)]
   /// @brief Method EnableComputeKeyword, addr 0x6b13064, size 0xac, virtual false, abstract: false, final false
   inline void EnableComputeKeyword(::UnityEngine::ComputeShader* computeShader, ::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method EnableComputeKeyword_Injected, addr 0x6b13110, size 0x54, virtual false, abstract: false, final false
   static inline void EnableComputeKeyword_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::EnableShaderKeyword", HasExplicitThis = true)]
   /// @brief Method EnableGlobalKeyword, addr 0x6b12ec0, size 0x60, virtual false, abstract: false, final false
   inline void EnableGlobalKeyword(::UnityEngine::Rendering::GlobalKeyword keyword);
 
@@ -657,26 +693,29 @@ public:
   static inline void EnableGlobalKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
 
   /// @brief Method EnableKeyword, addr 0x6b1319c, size 0x2c, virtual false, abstract: false, final false
-  inline void EnableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void EnableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method EnableKeyword, addr 0x6b13164, size 0xc, virtual false, abstract: false, final false
-  inline void EnableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  inline void EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
 
   /// @brief Method EnableKeyword, addr 0x6b13170, size 0x2c, virtual false, abstract: false, final false
-  inline void EnableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void EnableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::EnableMaterialKeyword", HasExplicitThis = true)]
   /// @brief Method EnableMaterialKeyword, addr 0x6b12f64, size 0xac, virtual false, abstract: false, final false
   inline void EnableMaterialKeyword(::UnityEngine::Material* material, ::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method EnableMaterialKeyword_Injected, addr 0x6b13010, size 0x54, virtual false, abstract: false, final false
   static inline void EnableMaterialKeyword_Injected(::System::IntPtr _unity_self, ::System::IntPtr material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::EnableScissorRect", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method EnableScissorRect, addr 0x6b118f4, size 0x64, virtual false, abstract: false, final false
   inline void EnableScissorRect(::UnityEngine::Rect scissor);
 
   /// @brief Method EnableScissorRect_Injected, addr 0x6b11958, size 0x44, virtual false, abstract: false, final false
   static inline void EnableScissorRect_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> scissor);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::EnableShaderKeyword", HasExplicitThis = true)]
   /// @brief Method EnableShaderKeyword, addr 0x6b12d30, size 0x14c, virtual false, abstract: false, final false
   inline void EnableShaderKeyword(::StringW keyword);
 
@@ -686,20 +725,23 @@ public:
   /// @brief Method EndRenderPass, addr 0x6b187e0, size 0x20, virtual false, abstract: false, final false
   inline void EndRenderPass();
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::EndRenderPass", HasExplicitThis = true)]
   /// @brief Method EndRenderPass_Internal, addr 0x6b18758, size 0x4c, virtual false, abstract: false, final false
   inline void EndRenderPass_Internal();
 
   /// @brief Method EndRenderPass_Internal_Injected, addr 0x6b187a4, size 0x3c, virtual false, abstract: false, final false
   static inline void EndRenderPass_Internal_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::EndSample", HasExplicitThis = true)]
   /// @brief Method EndSample, addr 0x6b14b54, size 0x14c, virtual false, abstract: false, final false
   inline void EndSample(::StringW name);
 
   /// @brief Method EndSample, addr 0x6b14d88, size 0x4, virtual false, abstract: false, final false
   inline void EndSample(::UnityEngine::Profiling::CustomSampler* sampler);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::EndSample_CustomSampler", HasExplicitThis = true)]
   /// @brief Method EndSample_CustomSampler, addr 0x6b14d8c, size 0xa0, virtual false, abstract: false, final false
-  inline void EndSample_CustomSampler(::UnityEngine::Profiling::CustomSampler* sampler);
+  inline void EndSample_CustomSampler(/* [NotNull] */ ::UnityEngine::Profiling::CustomSampler* sampler);
 
   /// @brief Method EndSample_CustomSampler_Injected, addr 0x6b14e70, size 0x44, virtual false, abstract: false, final false
   static inline void EndSample_CustomSampler_Injected(::System::IntPtr _unity_self, ::System::IntPtr sampler);
@@ -737,11 +779,13 @@ public:
                              ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, bool enableRandomWrite, ::UnityEngine::RenderTextureMemoryless memorylessMode,
                              bool useDynamicScale);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::GetTemporaryRT", HasExplicitThis = true)]
   /// @brief Method GetTemporaryRT, addr 0x6b11f1c, size 0xd8, virtual false, abstract: false, final false
   inline void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, ::UnityEngine::FilterMode filter, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat,
                              ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat, int32_t antiAliasing, bool enableRandomWrite,
                              ::UnityEngine::RenderTextureMemoryless memorylessMode, bool useDynamicScale, ::UnityEngine::Rendering::ShadowSamplingMode shadowSamplingMode);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::GetTemporaryRTWithDescriptor", HasExplicitThis = true)]
   /// @brief Method GetTemporaryRTWithDescriptor, addr 0x6b122b4, size 0x6c, virtual false, abstract: false, final false
   inline void GetTemporaryRTWithDescriptor(int32_t nameID, ::UnityEngine::RenderTextureDescriptor desc, ::UnityEngine::FilterMode filter);
 
@@ -754,75 +798,88 @@ public:
                                              int32_t antiAliasing, bool enableRandomWrite, ::UnityEngine::RenderTextureMemoryless memorylessMode, bool useDynamicScale,
                                              ::UnityEngine::Rendering::ShadowSamplingMode shadowSamplingMode);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::IncrementUpdateCount", HasExplicitThis = true)]
   /// @brief Method IncrementUpdateCount, addr 0x6b153ac, size 0x54, virtual false, abstract: false, final false
   inline void IncrementUpdateCount(::UnityEngine::Rendering::RenderTargetIdentifier dest);
 
   /// @brief Method IncrementUpdateCount_Injected, addr 0x6b15400, size 0x44, virtual false, abstract: false, final false
   static inline void IncrementUpdateCount_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> dest);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::InitBuffer")]
   /// @brief Method InitBuffer, addr 0x6b0c56c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr InitBuffer();
 
+  /// [FreeFunction(Name = "RenderingCommandBuffer_Bindings::InternalSetGraphicsBufferCounterValue", HasExplicitThis = true)]
   /// @brief Method InternalSetComputeBufferCounterValue, addr 0x6b17940, size 0xa8, virtual false, abstract: false, final false
-  inline void InternalSetComputeBufferCounterValue(::UnityEngine::ComputeBuffer* buffer, uint32_t counterValue);
+  inline void InternalSetComputeBufferCounterValue(/* [NotNull] */ ::UnityEngine::ComputeBuffer* buffer, uint32_t counterValue);
 
   /// @brief Method InternalSetComputeBufferCounterValue_Injected, addr 0x6b17bc8, size 0x54, virtual false, abstract: false, final false
   static inline void InternalSetComputeBufferCounterValue_Injected(::System::IntPtr _unity_self, ::System::IntPtr buffer, uint32_t counterValue);
 
+  /// [FreeFunction(Name = "RenderingCommandBuffer_Bindings::InternalSetGraphicsBufferData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method InternalSetComputeBufferData, addr 0x6b17620, size 0xd8, virtual false, abstract: false, final false
-  inline void InternalSetComputeBufferData(::UnityEngine::ComputeBuffer* buffer, ::System::Array* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count,
-                                           int32_t elemSize);
+  inline void InternalSetComputeBufferData(/* [NotNull] */ ::UnityEngine::ComputeBuffer* buffer, ::System::Array* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex,
+                                           int32_t count, int32_t elemSize);
 
   /// @brief Method InternalSetComputeBufferData_Injected, addr 0x6b17b44, size 0x84, virtual false, abstract: false, final false
   static inline void InternalSetComputeBufferData_Injected(::System::IntPtr _unity_self, ::System::IntPtr buffer, ::System::Array* data, int32_t managedBufferStartIndex,
                                                            int32_t graphicsBufferStartIndex, int32_t count, int32_t elemSize);
 
+  /// [FreeFunction(Name = "RenderingCommandBuffer_Bindings::InternalSetGraphicsBufferNativeData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method InternalSetComputeBufferNativeData, addr 0x6b179e8, size 0xd8, virtual false, abstract: false, final false
-  inline void InternalSetComputeBufferNativeData(::UnityEngine::ComputeBuffer* buffer, ::System::IntPtr data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count,
-                                                 int32_t elemSize);
+  inline void InternalSetComputeBufferNativeData(/* [NotNull] */ ::UnityEngine::ComputeBuffer* buffer, ::System::IntPtr data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex,
+                                                 int32_t count, int32_t elemSize);
 
   /// @brief Method InternalSetComputeBufferNativeData_Injected, addr 0x6b17ac0, size 0x84, virtual false, abstract: false, final false
   static inline void InternalSetComputeBufferNativeData_Injected(::System::IntPtr _unity_self, ::System::IntPtr buffer, ::System::IntPtr data, int32_t nativeBufferStartIndex,
                                                                  int32_t graphicsBufferStartIndex, int32_t count, int32_t elemSize);
 
+  /// [FreeFunction(Name = "RenderingCommandBuffer_Bindings::InternalSetGraphicsBufferCounterValue", HasExplicitThis = true)]
   /// @brief Method InternalSetGraphicsBufferCounterValue, addr 0x6b180a8, size 0xa8, virtual false, abstract: false, final false
-  inline void InternalSetGraphicsBufferCounterValue(::UnityEngine::GraphicsBuffer* buffer, uint32_t counterValue);
+  inline void InternalSetGraphicsBufferCounterValue(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* buffer, uint32_t counterValue);
 
   /// @brief Method InternalSetGraphicsBufferCounterValue_Injected, addr 0x6b18330, size 0x54, virtual false, abstract: false, final false
   static inline void InternalSetGraphicsBufferCounterValue_Injected(::System::IntPtr _unity_self, ::System::IntPtr buffer, uint32_t counterValue);
 
+  /// [FreeFunction(Name = "RenderingCommandBuffer_Bindings::InternalSetGraphicsBufferData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method InternalSetGraphicsBufferData, addr 0x6b17d88, size 0xd8, virtual false, abstract: false, final false
-  inline void InternalSetGraphicsBufferData(::UnityEngine::GraphicsBuffer* buffer, ::System::Array* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count,
-                                            int32_t elemSize);
+  inline void InternalSetGraphicsBufferData(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* buffer, ::System::Array* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex,
+                                            int32_t count, int32_t elemSize);
 
   /// @brief Method InternalSetGraphicsBufferData_Injected, addr 0x6b182ac, size 0x84, virtual false, abstract: false, final false
   static inline void InternalSetGraphicsBufferData_Injected(::System::IntPtr _unity_self, ::System::IntPtr buffer, ::System::Array* data, int32_t managedBufferStartIndex,
                                                             int32_t graphicsBufferStartIndex, int32_t count, int32_t elemSize);
 
+  /// [FreeFunction(Name = "RenderingCommandBuffer_Bindings::InternalSetGraphicsBufferNativeData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method InternalSetGraphicsBufferNativeData, addr 0x6b18150, size 0xd8, virtual false, abstract: false, final false
-  inline void InternalSetGraphicsBufferNativeData(::UnityEngine::GraphicsBuffer* buffer, ::System::IntPtr data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count,
-                                                  int32_t elemSize);
+  inline void InternalSetGraphicsBufferNativeData(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* buffer, ::System::IntPtr data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex,
+                                                  int32_t count, int32_t elemSize);
 
   /// @brief Method InternalSetGraphicsBufferNativeData_Injected, addr 0x6b18228, size 0x84, virtual false, abstract: false, final false
   static inline void InternalSetGraphicsBufferNativeData_Injected(::System::IntPtr _unity_self, ::System::IntPtr buffer, ::System::IntPtr data, int32_t nativeBufferStartIndex,
                                                                   int32_t graphicsBufferStartIndex, int32_t count, int32_t elemSize);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_BuildRayTracingAccelerationStructure", HasExplicitThis = true)]
   /// @brief Method Internal_BuildRayTracingAccelerationStructure, addr 0x6b0f12c, size 0xb4, virtual false, abstract: false, final false
-  inline void Internal_BuildRayTracingAccelerationStructure(::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure,
+  inline void Internal_BuildRayTracingAccelerationStructure(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure,
                                                             ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings buildSettings);
 
   /// @brief Method Internal_BuildRayTracingAccelerationStructure_Injected, addr 0x6b0f1e0, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_BuildRayTracingAccelerationStructure_Injected(::System::IntPtr _unity_self, ::System::IntPtr accelerationStructure,
                                                                             ::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings> buildSettings);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DispatchCompute", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method Internal_DispatchCompute, addr 0x6b0dab0, size 0xe4, virtual false, abstract: false, final false
-  inline void Internal_DispatchCompute(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t threadGroupsX, int32_t threadGroupsY, int32_t threadGroupsZ);
+  inline void Internal_DispatchCompute(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t threadGroupsX, int32_t threadGroupsY, int32_t threadGroupsZ);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DispatchComputeIndirect", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method Internal_DispatchComputeIndirect, addr 0x6b0dc08, size 0xdc, virtual false, abstract: false, final false
-  inline void Internal_DispatchComputeIndirect(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, ::UnityEngine::ComputeBuffer* indirectBuffer, uint32_t argsOffset);
+  inline void Internal_DispatchComputeIndirect(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, ::UnityEngine::ComputeBuffer* indirectBuffer, uint32_t argsOffset);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DispatchComputeIndirect", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method Internal_DispatchComputeIndirectGraphicsBuffer, addr 0x6b0dd50, size 0xdc, virtual false, abstract: false, final false
-  inline void Internal_DispatchComputeIndirectGraphicsBuffer(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, ::UnityEngine::GraphicsBuffer* indirectBuffer, uint32_t argsOffset);
+  inline void Internal_DispatchComputeIndirectGraphicsBuffer(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, ::UnityEngine::GraphicsBuffer* indirectBuffer,
+                                                             uint32_t argsOffset);
 
   /// @brief Method Internal_DispatchComputeIndirectGraphicsBuffer_Injected, addr 0x6b0de2c, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_DispatchComputeIndirectGraphicsBuffer_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t kernelIndex, ::System::IntPtr indirectBuffer,
@@ -835,26 +892,31 @@ public:
   static inline void Internal_DispatchCompute_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t kernelIndex, int32_t threadGroupsX, int32_t threadGroupsY,
                                                        int32_t threadGroupsZ);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DispatchRays", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method Internal_DispatchRays, addr 0x6b0f4f4, size 0x208, virtual false, abstract: false, final false
-  inline void Internal_DispatchRays(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW rayGenShaderName, uint32_t width, uint32_t height, uint32_t depth,
+  inline void Internal_DispatchRays(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW rayGenShaderName, uint32_t width, uint32_t height, uint32_t depth,
                                     ::UnityEngine::Camera* camera);
 
   /// @brief Method Internal_DispatchRays_Injected, addr 0x6b0f6fc, size 0x84, virtual false, abstract: false, final false
   static inline void Internal_DispatchRays_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> rayGenShaderName,
                                                     uint32_t width, uint32_t height, uint32_t depth, ::System::IntPtr camera);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawMesh", HasExplicitThis = true)]
   /// @brief Method Internal_DrawMesh, addr 0x6b0fedc, size 0x124, virtual false, abstract: false, final false
-  inline void Internal_DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass,
+  inline void Internal_DrawMesh(/* [NotNull] */ ::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass,
                                 ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawMeshInstanced", HasExplicitThis = true)]
   /// @brief Method Internal_DrawMeshInstanced, addr 0x6b10e68, size 0x198, virtual false, abstract: false, final false
   inline void Internal_DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, int32_t shaderPass, ::ArrayW<::UnityEngine::Matrix4x4> matrices,
                                          int32_t count, ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawMeshInstancedIndirect", HasExplicitThis = true)]
   /// @brief Method Internal_DrawMeshInstancedIndirect, addr 0x6b11224, size 0x12c, virtual false, abstract: false, final false
   inline void Internal_DrawMeshInstancedIndirect(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::ComputeBuffer* bufferWithArgs,
                                                  int32_t argsOffset, ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawMeshInstancedIndirect", HasExplicitThis = true)]
   /// @brief Method Internal_DrawMeshInstancedIndirectGraphicsBuffer, addr 0x6b113dc, size 0x12c, virtual false, abstract: false, final false
   inline void Internal_DrawMeshInstancedIndirectGraphicsBuffer(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, int32_t shaderPass,
                                                                ::UnityEngine::GraphicsBuffer* bufferWithArgs, int32_t argsOffset, ::UnityEngine::MaterialPropertyBlock* properties);
@@ -867,6 +929,7 @@ public:
   static inline void Internal_DrawMeshInstancedIndirect_Injected(::System::IntPtr _unity_self, ::System::IntPtr mesh, int32_t submeshIndex, ::System::IntPtr material, int32_t shaderPass,
                                                                  ::System::IntPtr bufferWithArgs, int32_t argsOffset, ::System::IntPtr properties);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawMeshInstancedProcedural", HasExplicitThis = true)]
   /// @brief Method Internal_DrawMeshInstancedProcedural, addr 0x6b1108c, size 0x114, virtual false, abstract: false, final false
   inline void Internal_DrawMeshInstancedProcedural(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, int32_t shaderPass, int32_t count,
                                                    ::UnityEngine::MaterialPropertyBlock* properties);
@@ -883,6 +946,7 @@ public:
   static inline void Internal_DrawMesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr mesh, ::by_ref<::UnityEngine::Matrix4x4> matrix, ::System::IntPtr material, int32_t submeshIndex,
                                                 int32_t shaderPass, ::System::IntPtr properties);
 
+  /// [NativeMethod("AddDrawMultipleMeshes")]
   /// @brief Method Internal_DrawMultipleMeshes, addr 0x6b10084, size 0x1d0, virtual false, abstract: false, final false
   inline void Internal_DrawMultipleMeshes(::ArrayW<::UnityEngine::Matrix4x4> matrices, ::ArrayW<::UnityEngine::Mesh*> meshes, ::ArrayW<int32_t> subsetIndices, int32_t count,
                                           ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* properties);
@@ -892,25 +956,30 @@ public:
                                                           ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> subsetIndices, int32_t count, ::System::IntPtr material, int32_t shaderPass,
                                                           ::System::IntPtr properties);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawOcclusionMesh", HasExplicitThis = true)]
   /// @brief Method Internal_DrawOcclusionMesh, addr 0x6b11594, size 0x60, virtual false, abstract: false, final false
   inline void Internal_DrawOcclusionMesh(::UnityEngine::RectInt normalizedCamViewport);
 
   /// @brief Method Internal_DrawOcclusionMesh_Injected, addr 0x6b115f4, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_DrawOcclusionMesh_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::RectInt> normalizedCamViewport);
 
+  /// [NativeMethod("AddDrawProcedural")]
   /// @brief Method Internal_DrawProcedural, addr 0x6b104e8, size 0xf4, virtual false, abstract: false, final false
   inline void Internal_DrawProcedural(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MeshTopology topology, int32_t vertexCount,
                                       int32_t instanceCount, ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [NativeMethod("AddDrawProceduralIndexed")]
   /// @brief Method Internal_DrawProceduralIndexed, addr 0x6b10668, size 0x104, virtual false, abstract: false, final false
   inline void Internal_DrawProceduralIndexed(::UnityEngine::GraphicsBuffer* indexBuffer, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass,
                                              ::UnityEngine::MeshTopology topology, int32_t indexCount, int32_t instanceCount, ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawProceduralIndexedIndirect", HasExplicitThis = true)]
   /// @brief Method Internal_DrawProceduralIndexedIndirect, addr 0x6b10990, size 0x10c, virtual false, abstract: false, final false
   inline void Internal_DrawProceduralIndexedIndirect(::UnityEngine::GraphicsBuffer* indexBuffer, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass,
                                                      ::UnityEngine::MeshTopology topology, ::UnityEngine::ComputeBuffer* bufferWithArgs, int32_t argsOffset,
                                                      ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawProceduralIndexedIndirect", HasExplicitThis = true)]
   /// @brief Method Internal_DrawProceduralIndexedIndirectGraphicsBuffer, addr 0x6b10cc0, size 0x10c, virtual false, abstract: false, final false
   inline void Internal_DrawProceduralIndexedIndirectGraphicsBuffer(::UnityEngine::GraphicsBuffer* indexBuffer, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass,
                                                                    ::UnityEngine::MeshTopology topology, ::UnityEngine::GraphicsBuffer* bufferWithArgs, int32_t argsOffset,
@@ -930,10 +999,12 @@ public:
   static inline void Internal_DrawProceduralIndexed_Injected(::System::IntPtr _unity_self, ::System::IntPtr indexBuffer, ::by_ref<::UnityEngine::Matrix4x4> matrix, ::System::IntPtr material,
                                                              int32_t shaderPass, ::UnityEngine::MeshTopology topology, int32_t indexCount, int32_t instanceCount, ::System::IntPtr properties);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawProceduralIndirect", HasExplicitThis = true)]
   /// @brief Method Internal_DrawProceduralIndirect, addr 0x6b10808, size 0xfc, virtual false, abstract: false, final false
   inline void Internal_DrawProceduralIndirect(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MeshTopology topology,
                                               ::UnityEngine::ComputeBuffer* bufferWithArgs, int32_t argsOffset, ::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_DrawProceduralIndirect", HasExplicitThis = true)]
   /// @brief Method Internal_DrawProceduralIndirectGraphicsBuffer, addr 0x6b10b38, size 0xfc, virtual false, abstract: false, final false
   inline void Internal_DrawProceduralIndirectGraphicsBuffer(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MeshTopology topology,
                                                             ::UnityEngine::GraphicsBuffer* bufferWithArgs, int32_t argsOffset, ::UnityEngine::MaterialPropertyBlock* properties);
@@ -950,9 +1021,11 @@ public:
   static inline void Internal_DrawProcedural_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Matrix4x4> matrix, ::System::IntPtr material, int32_t shaderPass,
                                                       ::UnityEngine::MeshTopology topology, int32_t vertexCount, int32_t instanceCount, ::System::IntPtr properties);
 
+  /// [NativeMethod("AddDrawRenderer")]
   /// @brief Method Internal_DrawRenderer, addr 0x6b102e0, size 0x104, virtual false, abstract: false, final false
-  inline void Internal_DrawRenderer(::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass);
+  inline void Internal_DrawRenderer(/* [NotNull] */ ::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass);
 
+  /// [NativeMethod("AddDrawRendererList")]
   /// @brief Method Internal_DrawRendererList, addr 0x6b10450, size 0x54, virtual false, abstract: false, final false
   inline void Internal_DrawRendererList(::UnityEngine::Rendering::RendererList rendererList);
 
@@ -962,16 +1035,19 @@ public:
   /// @brief Method Internal_DrawRenderer_Injected, addr 0x6b103e4, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_DrawRenderer_Injected(::System::IntPtr _unity_self, ::System::IntPtr renderer, ::System::IntPtr material, int32_t submeshIndex, int32_t shaderPass);
 
+  /// [NativeMethod("AddRequestAsyncReadback")]
   /// @brief Method Internal_RequestAsyncReadback_1, addr 0x6b0b670, size 0xdc, virtual false, abstract: false, final false
-  inline void Internal_RequestAsyncReadback_1(::UnityEngine::ComputeBuffer* src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
+  inline void Internal_RequestAsyncReadback_1(/* [NotNull] */ ::UnityEngine::ComputeBuffer* src, /* [NotNull] */ ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
   /// @brief Method Internal_RequestAsyncReadback_1_Injected, addr 0x6b0b74c, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_RequestAsyncReadback_1_Injected(::System::IntPtr _unity_self, ::System::IntPtr src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
+  /// [NativeMethod("AddRequestAsyncReadback")]
   /// @brief Method Internal_RequestAsyncReadback_2, addr 0x6b0b7a8, size 0xf4, virtual false, abstract: false, final false
-  inline void Internal_RequestAsyncReadback_2(::UnityEngine::ComputeBuffer* src, int32_t size, int32_t offset, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
+  inline void Internal_RequestAsyncReadback_2(/* [NotNull] */ ::UnityEngine::ComputeBuffer* src, int32_t size, int32_t offset,
+                                              /* [NotNull] */ ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
   /// @brief Method Internal_RequestAsyncReadback_2_Injected, addr 0x6b0b89c, size 0x74, virtual false, abstract: false, final false
@@ -979,16 +1055,19 @@ public:
                                                               ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
+  /// [NativeMethod("AddRequestAsyncReadback")]
   /// @brief Method Internal_RequestAsyncReadback_3, addr 0x6b0b910, size 0xf0, virtual false, abstract: false, final false
-  inline void Internal_RequestAsyncReadback_3(::UnityEngine::Texture* src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
+  inline void Internal_RequestAsyncReadback_3(/* [NotNull] */ ::UnityEngine::Texture* src, /* [NotNull] */ ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
   /// @brief Method Internal_RequestAsyncReadback_3_Injected, addr 0x6b0ba00, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_RequestAsyncReadback_3_Injected(::System::IntPtr _unity_self, ::System::IntPtr src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
+  /// [NativeMethod("AddRequestAsyncReadback")]
   /// @brief Method Internal_RequestAsyncReadback_4, addr 0x6b0ba5c, size 0xf8, virtual false, abstract: false, final false
-  inline void Internal_RequestAsyncReadback_4(::UnityEngine::Texture* src, int32_t mipIndex, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
+  inline void Internal_RequestAsyncReadback_4(/* [NotNull] */ ::UnityEngine::Texture* src, int32_t mipIndex,
+                                              /* [NotNull] */ ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
   /// @brief Method Internal_RequestAsyncReadback_4_Injected, addr 0x6b0bb54, size 0x6c, virtual false, abstract: false, final false
@@ -996,27 +1075,33 @@ public:
                                                               ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
+  /// [NativeMethod("AddRequestAsyncReadback")]
   /// @brief Method Internal_RequestAsyncReadback_5, addr 0x6b0bbc0, size 0x108, virtual false, abstract: false, final false
-  inline void Internal_RequestAsyncReadback_5(::UnityEngine::Texture* src, int32_t mipIndex, ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat,
-                                              ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback, ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
+  inline void Internal_RequestAsyncReadback_5(/* [NotNull] */ ::UnityEngine::Texture* src, int32_t mipIndex, ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat,
+                                              /* [NotNull] */ ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
+                                              ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
   /// @brief Method Internal_RequestAsyncReadback_5_Injected, addr 0x6b0bcc8, size 0x74, virtual false, abstract: false, final false
   static inline void Internal_RequestAsyncReadback_5_Injected(::System::IntPtr _unity_self, ::System::IntPtr src, int32_t mipIndex, ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat,
                                                               ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
+  /// [NativeMethod("AddRequestAsyncReadback")]
   /// @brief Method Internal_RequestAsyncReadback_6, addr 0x6b0bd3c, size 0x17c, virtual false, abstract: false, final false
-  inline void Internal_RequestAsyncReadback_6(::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth,
-                                              ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback, ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
+  inline void Internal_RequestAsyncReadback_6(/* [NotNull] */ ::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth,
+                                              /* [NotNull] */ ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
+                                              ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
   /// @brief Method Internal_RequestAsyncReadback_6_Injected, addr 0x6b0beb8, size 0xa8, virtual false, abstract: false, final false
   static inline void Internal_RequestAsyncReadback_6_Injected(::System::IntPtr _unity_self, ::System::IntPtr src, int32_t mipIndex, int32_t x, int32_t width, int32_t y, int32_t height, int32_t z,
                                                               int32_t depth, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
+  /// [NativeMethod("AddRequestAsyncReadback")]
   /// @brief Method Internal_RequestAsyncReadback_7, addr 0x6b0bf60, size 0x184, virtual false, abstract: false, final false
-  inline void Internal_RequestAsyncReadback_7(::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth,
-                                              ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
+  inline void Internal_RequestAsyncReadback_7(/* [NotNull] */ ::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth,
+                                              ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat,
+                                              /* [NotNull] */ ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
   /// @brief Method Internal_RequestAsyncReadback_7_Injected, addr 0x6b0c0e4, size 0xb8, virtual false, abstract: false, final false
@@ -1025,16 +1110,19 @@ public:
                                                               ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
+  /// [NativeMethod("AddRequestAsyncReadback")]
   /// @brief Method Internal_RequestAsyncReadback_8, addr 0x6b0c19c, size 0xdc, virtual false, abstract: false, final false
-  inline void Internal_RequestAsyncReadback_8(::UnityEngine::GraphicsBuffer* src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
+  inline void Internal_RequestAsyncReadback_8(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* src, /* [NotNull] */ ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
   /// @brief Method Internal_RequestAsyncReadback_8_Injected, addr 0x6b0c278, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_RequestAsyncReadback_8_Injected(::System::IntPtr _unity_self, ::System::IntPtr src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
+  /// [NativeMethod("AddRequestAsyncReadback")]
   /// @brief Method Internal_RequestAsyncReadback_9, addr 0x6b0c2d4, size 0xf4, virtual false, abstract: false, final false
-  inline void Internal_RequestAsyncReadback_9(::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
+  inline void Internal_RequestAsyncReadback_9(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset,
+                                              /* [NotNull] */ ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
   /// @brief Method Internal_RequestAsyncReadback_9_Injected, addr 0x6b0c3c8, size 0x74, virtual false, abstract: false, final false
@@ -1042,168 +1130,198 @@ public:
                                                               ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback,
                                                               ::UnityEngine::Rendering::AsyncRequestNativeArrayData* nativeArrayData);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetComputeBufferParam, addr 0x6b0d41c, size 0xdc, virtual false, abstract: false, final false
-  inline void Internal_SetComputeBufferParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer);
+  inline void Internal_SetComputeBufferParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer);
 
   /// @brief Method Internal_SetComputeBufferParam_Injected, addr 0x6b0d4f8, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_SetComputeBufferParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t kernelIndex, int32_t nameID, ::System::IntPtr buffer);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeConstantBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetComputeConstantComputeBufferParam, addr 0x6b0d7f0, size 0xec, virtual false, abstract: false, final false
-  inline void Internal_SetComputeConstantComputeBufferParam(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer, int32_t offset, int32_t size);
+  inline void Internal_SetComputeConstantComputeBufferParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer, int32_t offset,
+                                                            int32_t size);
 
   /// @brief Method Internal_SetComputeConstantComputeBufferParam_Injected, addr 0x6b0d8dc, size 0x74, virtual false, abstract: false, final false
   static inline void Internal_SetComputeConstantComputeBufferParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, ::System::IntPtr buffer, int32_t offset,
                                                                             int32_t size);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeConstantBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetComputeConstantGraphicsBufferParam, addr 0x6b0d950, size 0xec, virtual false, abstract: false, final false
-  inline void Internal_SetComputeConstantGraphicsBufferParam(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer, int32_t offset, int32_t size);
+  inline void Internal_SetComputeConstantGraphicsBufferParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer, int32_t offset,
+                                                             int32_t size);
 
   /// @brief Method Internal_SetComputeConstantGraphicsBufferParam_Injected, addr 0x6b0da3c, size 0x74, virtual false, abstract: false, final false
   static inline void Internal_SetComputeConstantGraphicsBufferParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, ::System::IntPtr buffer, int32_t offset,
                                                                              int32_t size);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetComputeFloats", HasExplicitThis = true)]
   /// @brief Method Internal_SetComputeFloats, addr 0x6b0cf74, size 0x140, virtual false, abstract: false, final false
-  inline void Internal_SetComputeFloats(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<float_t> values);
+  inline void Internal_SetComputeFloats(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<float_t> values);
 
   /// @brief Method Internal_SetComputeFloats_Injected, addr 0x6b0d0b4, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetComputeFloats_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetComputeGraphicsBufferHandleParam, addr 0x6b0d564, size 0xd8, virtual false, abstract: false, final false
-  inline void Internal_SetComputeGraphicsBufferHandleParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID, ::UnityEngine::GraphicsBufferHandle bufferHandle);
+  inline void Internal_SetComputeGraphicsBufferHandleParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID,
+                                                           ::UnityEngine::GraphicsBufferHandle bufferHandle);
 
   /// @brief Method Internal_SetComputeGraphicsBufferHandleParam_Injected, addr 0x6b0d63c, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_SetComputeGraphicsBufferHandleParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t kernelIndex, int32_t nameID,
                                                                            ::by_ref<::UnityEngine::GraphicsBufferHandle> bufferHandle);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetComputeGraphicsBufferParam, addr 0x6b0d6a8, size 0xdc, virtual false, abstract: false, final false
-  inline void Internal_SetComputeGraphicsBufferParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer);
+  inline void Internal_SetComputeGraphicsBufferParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer);
 
   /// @brief Method Internal_SetComputeGraphicsBufferParam_Injected, addr 0x6b0d784, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_SetComputeGraphicsBufferParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t kernelIndex, int32_t nameID, ::System::IntPtr buffer);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetComputeInts", HasExplicitThis = true)]
   /// @brief Method Internal_SetComputeInts, addr 0x6b0d110, size 0x140, virtual false, abstract: false, final false
-  inline void Internal_SetComputeInts(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<int32_t> values);
+  inline void Internal_SetComputeInts(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<int32_t> values);
 
   /// @brief Method Internal_SetComputeInts_Injected, addr 0x6b0d250, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetComputeInts_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetComputeRayTracingAccelerationStructure", HasExplicitThis = true)]
   /// @brief Method Internal_SetComputeRayTracingAccelerationStructure, addr 0x6b0f388, size 0x100, virtual false, abstract: false, final false
-  inline void Internal_SetComputeRayTracingAccelerationStructure(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID,
-                                                                 ::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure);
+  inline void Internal_SetComputeRayTracingAccelerationStructure(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID,
+                                                                 /* [NotNull] */ ::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure);
 
   /// @brief Method Internal_SetComputeRayTracingAccelerationStructure_Injected, addr 0x6b0f488, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_SetComputeRayTracingAccelerationStructure_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t kernelIndex, int32_t nameID,
                                                                                  ::System::IntPtr accelerationStructure);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetComputeTextureParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetComputeTextureParam, addr 0x6b0d2ac, size 0xec, virtual false, abstract: false, final false
-  inline void Internal_SetComputeTextureParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt,
-                                              int32_t mipLevel, ::UnityEngine::Rendering::RenderTextureSubElement element);
+  inline void Internal_SetComputeTextureParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t nameID,
+                                              ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt, int32_t mipLevel, ::UnityEngine::Rendering::RenderTextureSubElement element);
 
   /// @brief Method Internal_SetComputeTextureParam_Injected, addr 0x6b0d398, size 0x84, virtual false, abstract: false, final false
   static inline void Internal_SetComputeTextureParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t kernelIndex, int32_t nameID,
                                                               ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt, int32_t mipLevel,
                                                               ::UnityEngine::Rendering::RenderTextureSubElement element);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingAccelerationStructure", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingAccelerationStructure, addr 0x6b0f234, size 0xf8, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingAccelerationStructure(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID,
-                                                          ::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure);
+  inline void Internal_SetRayTracingAccelerationStructure(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID,
+                                                          /* [NotNull] */ ::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure);
 
   /// @brief Method Internal_SetRayTracingAccelerationStructure_Injected, addr 0x6b0f32c, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingAccelerationStructure_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, ::System::IntPtr accelerationStructure);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingComputeBufferParam, addr 0x6b0de98, size 0xd4, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingComputeBufferParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer);
+  inline void Internal_SetRayTracingComputeBufferParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer);
 
   /// @brief Method Internal_SetRayTracingComputeBufferParam_Injected, addr 0x6b0df6c, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingComputeBufferParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, ::System::IntPtr buffer);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingConstantBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingConstantComputeBufferParam, addr 0x6b0e224, size 0xec, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingConstantComputeBufferParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer, int32_t offset,
-                                                               int32_t size);
+  inline void Internal_SetRayTracingConstantComputeBufferParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer,
+                                                               int32_t offset, int32_t size);
 
   /// @brief Method Internal_SetRayTracingConstantComputeBufferParam_Injected, addr 0x6b0e310, size 0x74, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingConstantComputeBufferParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, ::System::IntPtr buffer, int32_t offset,
                                                                                int32_t size);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingConstantBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingConstantGraphicsBufferParam, addr 0x6b0e384, size 0xec, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingConstantGraphicsBufferParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer, int32_t offset,
-                                                                int32_t size);
+  inline void Internal_SetRayTracingConstantGraphicsBufferParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer,
+                                                                int32_t offset, int32_t size);
 
   /// @brief Method Internal_SetRayTracingConstantGraphicsBufferParam_Injected, addr 0x6b0e470, size 0x74, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingConstantGraphicsBufferParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, ::System::IntPtr buffer,
                                                                                 int32_t offset, int32_t size);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingFloatParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingFloatParam, addr 0x6b0e60c, size 0xcc, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingFloatParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, float_t val);
+  inline void Internal_SetRayTracingFloatParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, float_t val);
 
   /// @brief Method Internal_SetRayTracingFloatParam_Injected, addr 0x6b0e6d8, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingFloatParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, float_t val);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingFloats", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingFloats, addr 0x6b0edf4, size 0x140, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingFloats(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<float_t> values);
+  inline void Internal_SetRayTracingFloats(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<float_t> values);
 
   /// @brief Method Internal_SetRayTracingFloats_Injected, addr 0x6b0ef34, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingFloats_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID,
                                                            ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingGraphicsBufferHandleParam, addr 0x6b0e0f8, size 0xd0, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingGraphicsBufferHandleParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::GraphicsBufferHandle bufferHandle);
+  inline void Internal_SetRayTracingGraphicsBufferHandleParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID,
+                                                              ::UnityEngine::GraphicsBufferHandle bufferHandle);
 
   /// @brief Method Internal_SetRayTracingGraphicsBufferHandleParam_Injected, addr 0x6b0e1c8, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingGraphicsBufferHandleParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID,
                                                                               ::by_ref<::UnityEngine::GraphicsBufferHandle> bufferHandle);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingBufferParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingGraphicsBufferParam, addr 0x6b0dfc8, size 0xd4, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingGraphicsBufferParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer);
+  inline void Internal_SetRayTracingGraphicsBufferParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer);
 
   /// @brief Method Internal_SetRayTracingGraphicsBufferParam_Injected, addr 0x6b0e09c, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingGraphicsBufferParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, ::System::IntPtr buffer);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingIntParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingIntParam, addr 0x6b0e73c, size 0xcc, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingIntParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, int32_t val);
+  inline void Internal_SetRayTracingIntParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, int32_t val);
 
   /// @brief Method Internal_SetRayTracingIntParam_Injected, addr 0x6b0e808, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingIntParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, int32_t val);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingInts", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingInts, addr 0x6b0ef90, size 0x140, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingInts(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<int32_t> values);
+  inline void Internal_SetRayTracingInts(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<int32_t> values);
 
   /// @brief Method Internal_SetRayTracingInts_Injected, addr 0x6b0f0d0, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingInts_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingMatrixArrayParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingMatrixArrayParam, addr 0x6b0ec58, size 0x140, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingMatrixArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<::UnityEngine::Matrix4x4> values);
+  inline void Internal_SetRayTracingMatrixArrayParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<::UnityEngine::Matrix4x4> values);
 
   /// @brief Method Internal_SetRayTracingMatrixArrayParam_Injected, addr 0x6b0ed98, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingMatrixArrayParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID,
                                                                      ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingMatrixParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingMatrixParam, addr 0x6b0eb30, size 0xcc, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingMatrixParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::Matrix4x4 val);
+  inline void Internal_SetRayTracingMatrixParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::Matrix4x4 val);
 
   /// @brief Method Internal_SetRayTracingMatrixParam_Injected, addr 0x6b0ebfc, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingMatrixParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, ::by_ref<::UnityEngine::Matrix4x4> val);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingTextureParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingTextureParam, addr 0x6b0e4e4, size 0xcc, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingTextureParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt);
+  inline void Internal_SetRayTracingTextureParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID,
+                                                 ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt);
 
   /// @brief Method Internal_SetRayTracingTextureParam_Injected, addr 0x6b0e5b0, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingTextureParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID,
                                                                  ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingVectorArrayParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingVectorArrayParam, addr 0x6b0e994, size 0x140, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingVectorArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<::UnityEngine::Vector4> values);
+  inline void Internal_SetRayTracingVectorArrayParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<::UnityEngine::Vector4> values);
 
   /// @brief Method Internal_SetRayTracingVectorArrayParam_Injected, addr 0x6b0ead4, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingVectorArrayParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID,
                                                                      ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetRayTracingVectorParam", HasExplicitThis = true)]
   /// @brief Method Internal_SetRayTracingVectorParam, addr 0x6b0e864, size 0xd4, virtual false, abstract: false, final false
-  inline void Internal_SetRayTracingVectorParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::Vector4 val);
+  inline void Internal_SetRayTracingVectorParam(/* [NotNull] */ ::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::Vector4 val);
 
   /// @brief Method Internal_SetRayTracingVectorParam_Injected, addr 0x6b0e938, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_SetRayTracingVectorParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr rayTracingShader, int32_t nameID, ::by_ref<::UnityEngine::Vector4> val);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::Internal_SetSinglePassStereo", HasExplicitThis = true)]
   /// @brief Method Internal_SetSinglePassStereo, addr 0x6b0c4d4, size 0x54, virtual false, abstract: false, final false
   inline void Internal_SetSinglePassStereo(::UnityEngine::Rendering::SinglePassStereoMode mode);
 
@@ -1213,6 +1331,7 @@ public:
   /// @brief Method InvokeOnRenderObjectCallbacks, addr 0x6b189b0, size 0x20, virtual false, abstract: false, final false
   inline void InvokeOnRenderObjectCallbacks();
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::InvokeOnRenderObjectCallbacks", HasExplicitThis = true)]
   /// @brief Method InvokeOnRenderObjectCallbacks_Internal, addr 0x6b18928, size 0x4c, virtual false, abstract: false, final false
   inline void InvokeOnRenderObjectCallbacks_Internal();
 
@@ -1223,6 +1342,7 @@ public:
   inline void IssuePluginCustomBlit(::System::IntPtr callback, uint32_t command, ::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier dest,
                                     uint32_t commandParam, uint32_t commandFlags);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::IssuePluginCustomBlitInternal", HasExplicitThis = true)]
   /// @brief Method IssuePluginCustomBlitInternal, addr 0x6b14f7c, size 0x94, virtual false, abstract: false, final false
   inline void IssuePluginCustomBlitInternal(::System::IntPtr callback, uint32_t command, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> source,
                                             ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> dest, uint32_t commandParam, uint32_t commandFlags);
@@ -1232,6 +1352,7 @@ public:
                                                             ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> source, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> dest,
                                                             uint32_t commandParam, uint32_t commandFlags);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::IssuePluginCustomTextureUpdateInternal", HasExplicitThis = true)]
   /// @brief Method IssuePluginCustomTextureUpdateInternal, addr 0x6b15094, size 0xc4, virtual false, abstract: false, final false
   inline void IssuePluginCustomTextureUpdateInternal(::System::IntPtr callback, ::UnityEngine::Texture* targetTexture, uint32_t userData, bool useNewUnityRenderingExtTextureUpdateParamsV2);
 
@@ -1248,18 +1369,21 @@ public:
   /// @brief Method IssuePluginEventAndData, addr 0x6b1c16c, size 0x94, virtual false, abstract: false, final false
   inline void IssuePluginEventAndData(::System::IntPtr callback, int32_t eventID, ::System::IntPtr data);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::IssuePluginEventAndDataInternal", HasExplicitThis = true)]
   /// @brief Method IssuePluginEventAndDataInternal, addr 0x6b14eb4, size 0x6c, virtual false, abstract: false, final false
   inline void IssuePluginEventAndDataInternal(::System::IntPtr callback, int32_t eventID, ::System::IntPtr data);
 
   /// @brief Method IssuePluginEventAndDataInternal_Injected, addr 0x6b14f20, size 0x5c, virtual false, abstract: false, final false
   static inline void IssuePluginEventAndDataInternal_Injected(::System::IntPtr _unity_self, ::System::IntPtr callback, int32_t eventID, ::System::IntPtr data);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::IssuePluginEventInternal", HasExplicitThis = true)]
   /// @brief Method IssuePluginEventInternal, addr 0x6b1490c, size 0x64, virtual false, abstract: false, final false
   inline void IssuePluginEventInternal(::System::IntPtr callback, int32_t eventID);
 
   /// @brief Method IssuePluginEventInternal_Injected, addr 0x6b14970, size 0x54, virtual false, abstract: false, final false
   static inline void IssuePluginEventInternal_Injected(::System::IntPtr _unity_self, ::System::IntPtr callback, int32_t eventID);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::MarkLateLatchMatrixShaderPropertyID", HasExplicitThis = true)]
   /// @brief Method MarkLateLatchMatrixShaderPropertyID, addr 0x6b144b4, size 0x64, virtual false, abstract: false, final false
   inline void MarkLateLatchMatrixShaderPropertyID(::UnityEngine::Rendering::CameraLateLatchMatrixType matrixPropertyType, int32_t shaderPropertyID);
 
@@ -1271,6 +1395,7 @@ public:
   /// @brief Method NextSubPass, addr 0x6b18738, size 0x20, virtual false, abstract: false, final false
   inline void NextSubPass();
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::NextSubPass", HasExplicitThis = true)]
   /// @brief Method NextSubPass_Internal, addr 0x6b186b0, size 0x4c, virtual false, abstract: false, final false
   inline void NextSubPass_Internal();
 
@@ -1280,12 +1405,14 @@ public:
   /// @brief Method Release, addr 0x6b18adc, size 0x4, virtual false, abstract: false, final false
   inline void Release();
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::ReleaseBuffer", HasExplicitThis = true, IsThreadSafe = true)]
   /// @brief Method ReleaseBuffer, addr 0x6b0c704, size 0x4c, virtual false, abstract: false, final false
   inline void ReleaseBuffer();
 
   /// @brief Method ReleaseBuffer_Injected, addr 0x6b0c750, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseBuffer_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::ReleaseTemporaryRT", HasExplicitThis = true)]
   /// @brief Method ReleaseTemporaryRT, addr 0x6b123b0, size 0x54, virtual false, abstract: false, final false
   inline void ReleaseTemporaryRT(int32_t nameID);
 
@@ -1294,57 +1421,68 @@ public:
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::ComputeBuffer* src,
                                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::ComputeBuffer* src, int32_t size, int32_t offset,
                                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::GraphicsBuffer* src,
                                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset,
                                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src,
                                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
                                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
                                                   ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex, ::UnityEngine::TextureFormat dstFormat,
                                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y,
                                                   int32_t height, int32_t z, int32_t depth, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y,
                                                   int32_t height, int32_t z, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat,
                                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// @brief Method RequestAsyncReadbackIntoNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex, int32_t x, int32_t width, int32_t y,
                                                   int32_t height, int32_t z, int32_t depth, ::UnityEngine::TextureFormat dstFormat,
                                                   ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
@@ -1362,17 +1500,23 @@ public:
   inline void SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::System::Array* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count);
 
   /// @brief Method SetBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::System::Collections::Generic::List_1<T>* data);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::System::Collections::Generic::List_1<T>* data);
 
   /// @brief Method SetBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::System::Collections::Generic::List_1<T>* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count);
 
   /// @brief Method SetBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data);
 
   /// @brief Method SetBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count);
 
   /// @brief Method SetBufferData, addr 0x6b17c1c, size 0x16c, virtual false, abstract: false, final false
@@ -1382,17 +1526,23 @@ public:
   inline void SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::System::Array* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count);
 
   /// @brief Method SetBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::System::Collections::Generic::List_1<T>* data);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::System::Collections::Generic::List_1<T>* data);
 
   /// @brief Method SetBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::System::Collections::Generic::List_1<T>* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count);
 
   /// @brief Method SetBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data);
 
   /// @brief Method SetBufferData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count);
 
   /// @brief Method SetComputeBufferParam, addr 0x6b18f7c, size 0x4c, virtual false, abstract: false, final false
@@ -1428,33 +1578,36 @@ public:
   /// @brief Method SetComputeFloatParam, addr 0x6b18c1c, size 0x44, virtual false, abstract: false, final false
   inline void SetComputeFloatParam(::UnityEngine::ComputeShader* computeShader, ::StringW name, float_t val);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeFloatParam", HasExplicitThis = true)]
   /// @brief Method SetComputeFloatParam, addr 0x6b0c78c, size 0xcc, virtual false, abstract: false, final false
-  inline void SetComputeFloatParam(::UnityEngine::ComputeShader* computeShader, int32_t nameID, float_t val);
+  inline void SetComputeFloatParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, float_t val);
 
   /// @brief Method SetComputeFloatParam_Injected, addr 0x6b0c858, size 0x64, virtual false, abstract: false, final false
   static inline void SetComputeFloatParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, float_t val);
 
   /// @brief Method SetComputeFloatParams, addr 0x6b18dd0, size 0x3c, virtual false, abstract: false, final false
-  inline void SetComputeFloatParams(::UnityEngine::ComputeShader* computeShader, ::StringW name, ::ArrayW<float_t> values);
+  inline void SetComputeFloatParams(::UnityEngine::ComputeShader* computeShader, ::StringW name, /* [ParamArray] */ ::ArrayW<float_t> values);
 
   /// @brief Method SetComputeFloatParams, addr 0x6b18e0c, size 0x4, virtual false, abstract: false, final false
-  inline void SetComputeFloatParams(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<float_t> values);
+  inline void SetComputeFloatParams(::UnityEngine::ComputeShader* computeShader, int32_t nameID, /* [ParamArray] */ ::ArrayW<float_t> values);
 
   /// @brief Method SetComputeIntParam, addr 0x6b18c60, size 0x3c, virtual false, abstract: false, final false
   inline void SetComputeIntParam(::UnityEngine::ComputeShader* computeShader, ::StringW name, int32_t val);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeIntParam", HasExplicitThis = true)]
   /// @brief Method SetComputeIntParam, addr 0x6b0c8bc, size 0xcc, virtual false, abstract: false, final false
-  inline void SetComputeIntParam(::UnityEngine::ComputeShader* computeShader, int32_t nameID, int32_t val);
+  inline void SetComputeIntParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, int32_t val);
 
   /// @brief Method SetComputeIntParam_Injected, addr 0x6b0c988, size 0x5c, virtual false, abstract: false, final false
   static inline void SetComputeIntParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, int32_t val);
 
   /// @brief Method SetComputeIntParams, addr 0x6b18e10, size 0x3c, virtual false, abstract: false, final false
-  inline void SetComputeIntParams(::UnityEngine::ComputeShader* computeShader, ::StringW name, ::ArrayW<int32_t> values);
+  inline void SetComputeIntParams(::UnityEngine::ComputeShader* computeShader, ::StringW name, /* [ParamArray] */ ::ArrayW<int32_t> values);
 
   /// @brief Method SetComputeIntParams, addr 0x6b18e4c, size 0x4, virtual false, abstract: false, final false
-  inline void SetComputeIntParams(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<int32_t> values);
+  inline void SetComputeIntParams(::UnityEngine::ComputeShader* computeShader, int32_t nameID, /* [ParamArray] */ ::ArrayW<int32_t> values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeKeyword", HasExplicitThis = true)]
   /// @brief Method SetComputeKeyword, addr 0x6b13834, size 0xbc, virtual false, abstract: false, final false
   inline void SetComputeKeyword(::UnityEngine::ComputeShader* computeShader, ::UnityEngine::Rendering::LocalKeyword keyword, bool value);
 
@@ -1464,8 +1617,9 @@ public:
   /// @brief Method SetComputeMatrixArrayParam, addr 0x6b18d94, size 0x3c, virtual false, abstract: false, final false
   inline void SetComputeMatrixArrayParam(::UnityEngine::ComputeShader* computeShader, ::StringW name, ::ArrayW<::UnityEngine::Matrix4x4> values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeMatrixArrayParam", HasExplicitThis = true)]
   /// @brief Method SetComputeMatrixArrayParam, addr 0x6b0cdd8, size 0x140, virtual false, abstract: false, final false
-  inline void SetComputeMatrixArrayParam(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<::UnityEngine::Matrix4x4> values);
+  inline void SetComputeMatrixArrayParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<::UnityEngine::Matrix4x4> values);
 
   /// @brief Method SetComputeMatrixArrayParam_Injected, addr 0x6b0cf18, size 0x5c, virtual false, abstract: false, final false
   static inline void SetComputeMatrixArrayParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
@@ -1473,8 +1627,9 @@ public:
   /// @brief Method SetComputeMatrixParam, addr 0x6b18d3c, size 0x58, virtual false, abstract: false, final false
   inline void SetComputeMatrixParam(::UnityEngine::ComputeShader* computeShader, ::StringW name, ::UnityEngine::Matrix4x4 val);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeMatrixParam", HasExplicitThis = true)]
   /// @brief Method SetComputeMatrixParam, addr 0x6b0ccb0, size 0xcc, virtual false, abstract: false, final false
-  inline void SetComputeMatrixParam(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::UnityEngine::Matrix4x4 val);
+  inline void SetComputeMatrixParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::UnityEngine::Matrix4x4 val);
 
   /// @brief Method SetComputeMatrixParam_Injected, addr 0x6b0cd7c, size 0x5c, virtual false, abstract: false, final false
   static inline void SetComputeMatrixParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, ::by_ref<::UnityEngine::Matrix4x4> val);
@@ -1502,8 +1657,9 @@ public:
   /// @brief Method SetComputeVectorArrayParam, addr 0x6b18d00, size 0x3c, virtual false, abstract: false, final false
   inline void SetComputeVectorArrayParam(::UnityEngine::ComputeShader* computeShader, ::StringW name, ::ArrayW<::UnityEngine::Vector4> values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeVectorArrayParam", HasExplicitThis = true)]
   /// @brief Method SetComputeVectorArrayParam, addr 0x6b0cb14, size 0x140, virtual false, abstract: false, final false
-  inline void SetComputeVectorArrayParam(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<::UnityEngine::Vector4> values);
+  inline void SetComputeVectorArrayParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<::UnityEngine::Vector4> values);
 
   /// @brief Method SetComputeVectorArrayParam_Injected, addr 0x6b0cc54, size 0x5c, virtual false, abstract: false, final false
   static inline void SetComputeVectorArrayParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values);
@@ -1511,18 +1667,21 @@ public:
   /// @brief Method SetComputeVectorParam, addr 0x6b18c9c, size 0x64, virtual false, abstract: false, final false
   inline void SetComputeVectorParam(::UnityEngine::ComputeShader* computeShader, ::StringW name, ::UnityEngine::Vector4 val);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetComputeVectorParam", HasExplicitThis = true)]
   /// @brief Method SetComputeVectorParam, addr 0x6b0c9e4, size 0xd4, virtual false, abstract: false, final false
-  inline void SetComputeVectorParam(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::UnityEngine::Vector4 val);
+  inline void SetComputeVectorParam(/* [NotNull] */ ::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::UnityEngine::Vector4 val);
 
   /// @brief Method SetComputeVectorParam_Injected, addr 0x6b0cab8, size 0x5c, virtual false, abstract: false, final false
   static inline void SetComputeVectorParam_Injected(::System::IntPtr _unity_self, ::System::IntPtr computeShader, int32_t nameID, ::by_ref<::UnityEngine::Vector4> val);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetExecutionFlags", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetExecutionFlags, addr 0x6b13c58, size 0x54, virtual false, abstract: false, final false
   inline void SetExecutionFlags(::UnityEngine::Rendering::CommandBufferExecutionFlags flags);
 
   /// @brief Method SetExecutionFlags_Injected, addr 0x6b13cac, size 0x44, virtual false, abstract: false, final false
   static inline void SetExecutionFlags_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::CommandBufferExecutionFlags flags);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetFoveatedRenderingMode", HasExplicitThis = true)]
   /// @brief Method SetFoveatedRenderingMode, addr 0x6b154dc, size 0x54, virtual false, abstract: false, final false
   inline void SetFoveatedRenderingMode(::UnityEngine::Rendering::FoveatedRenderingMode foveatedRenderingMode);
 
@@ -1541,6 +1700,7 @@ public:
   /// @brief Method SetGlobalBuffer, addr 0x6b1c038, size 0x4, virtual false, abstract: false, final false
   inline void SetGlobalBuffer(int32_t nameID, ::UnityEngine::GraphicsBuffer* value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalBuffer", HasExplicitThis = true)]
   /// @brief Method SetGlobalBufferInternal, addr 0x6b146cc, size 0x70, virtual false, abstract: false, final false
   inline void SetGlobalBufferInternal(int32_t nameID, ::UnityEngine::ComputeBuffer* value);
 
@@ -1550,6 +1710,7 @@ public:
   /// @brief Method SetGlobalColor, addr 0x6b1ba8c, size 0x54, virtual false, abstract: false, final false
   inline void SetGlobalColor(::StringW name, ::UnityEngine::Color value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalColor", HasExplicitThis = true)]
   /// @brief Method SetGlobalColor, addr 0x6b12bb8, size 0x6c, virtual false, abstract: false, final false
   inline void SetGlobalColor(int32_t nameID, ::UnityEngine::Color value);
 
@@ -1568,18 +1729,21 @@ public:
   /// @brief Method SetGlobalConstantBuffer, addr 0x6b1c08c, size 0x4, virtual false, abstract: false, final false
   inline void SetGlobalConstantBuffer(::UnityEngine::GraphicsBuffer* buffer, int32_t nameID, int32_t offset, int32_t size);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalConstantBuffer", HasExplicitThis = true)]
   /// @brief Method SetGlobalConstantBufferInternal, addr 0x6b151c4, size 0x88, virtual false, abstract: false, final false
   inline void SetGlobalConstantBufferInternal(::UnityEngine::ComputeBuffer* buffer, int32_t nameID, int32_t offset, int32_t size);
 
   /// @brief Method SetGlobalConstantBufferInternal_Injected, addr 0x6b1524c, size 0x6c, virtual false, abstract: false, final false
   static inline void SetGlobalConstantBufferInternal_Injected(::System::IntPtr _unity_self, ::System::IntPtr buffer, int32_t nameID, int32_t offset, int32_t size);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalConstantBuffer", HasExplicitThis = true)]
   /// @brief Method SetGlobalConstantGraphicsBufferInternal, addr 0x6b152b8, size 0x88, virtual false, abstract: false, final false
   inline void SetGlobalConstantGraphicsBufferInternal(::UnityEngine::GraphicsBuffer* buffer, int32_t nameID, int32_t offset, int32_t size);
 
   /// @brief Method SetGlobalConstantGraphicsBufferInternal_Injected, addr 0x6b15340, size 0x6c, virtual false, abstract: false, final false
   static inline void SetGlobalConstantGraphicsBufferInternal_Injected(::System::IntPtr _unity_self, ::System::IntPtr buffer, int32_t nameID, int32_t offset, int32_t size);
 
+  /// [NativeMethod("AddSetGlobalDepthBias")]
   /// @brief Method SetGlobalDepthBias, addr 0x6b13ba0, size 0x64, virtual false, abstract: false, final false
   inline void SetGlobalDepthBias(float_t bias, float_t slopeBias);
 
@@ -1589,11 +1753,13 @@ public:
   /// @brief Method SetGlobalFloat, addr 0x6b1b99c, size 0x34, virtual false, abstract: false, final false
   inline void SetGlobalFloat(::StringW name, float_t value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalFloat", HasExplicitThis = true)]
   /// @brief Method SetGlobalFloat, addr 0x6b128d0, size 0x64, virtual false, abstract: false, final false
   inline void SetGlobalFloat(int32_t nameID, float_t value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalFloatArray", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetGlobalFloatArray, addr 0x6b13f6c, size 0x104, virtual false, abstract: false, final false
-  inline void SetGlobalFloatArray(int32_t nameID, ::ArrayW<float_t> values);
+  inline void SetGlobalFloatArray(int32_t nameID, /* [NotNull] */ ::ArrayW<float_t> values);
 
   /// @brief Method SetGlobalFloatArray, addr 0x6b1bb64, size 0xe4, virtual false, abstract: false, final false
   inline void SetGlobalFloatArray(int32_t nameID, ::System::Collections::Generic::List_1<float_t>* values);
@@ -1604,6 +1770,7 @@ public:
   /// @brief Method SetGlobalFloatArray, addr 0x6b1bb30, size 0x34, virtual false, abstract: false, final false
   inline void SetGlobalFloatArray(::StringW propertyName, ::System::Collections::Generic::List_1<float_t>* values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalFloatArrayListImpl", HasExplicitThis = true)]
   /// @brief Method SetGlobalFloatArrayListImpl, addr 0x6b13d44, size 0x64, virtual false, abstract: false, final false
   inline void SetGlobalFloatArrayListImpl(int32_t nameID, ::System::Object* values);
 
@@ -1616,6 +1783,7 @@ public:
   /// @brief Method SetGlobalFloat_Injected, addr 0x6b12934, size 0x54, virtual false, abstract: false, final false
   static inline void SetGlobalFloat_Injected(::System::IntPtr _unity_self, int32_t nameID, float_t value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalBuffer", HasExplicitThis = true)]
   /// @brief Method SetGlobalGraphicsBufferInternal, addr 0x6b14790, size 0x70, virtual false, abstract: false, final false
   inline void SetGlobalGraphicsBufferInternal(int32_t nameID, ::UnityEngine::GraphicsBuffer* value);
 
@@ -1625,6 +1793,7 @@ public:
   /// @brief Method SetGlobalInt, addr 0x6b1b9d0, size 0x34, virtual false, abstract: false, final false
   inline void SetGlobalInt(::StringW name, int32_t value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalInt", HasExplicitThis = true)]
   /// @brief Method SetGlobalInt, addr 0x6b12988, size 0x64, virtual false, abstract: false, final false
   inline void SetGlobalInt(int32_t nameID, int32_t value);
 
@@ -1634,12 +1803,14 @@ public:
   /// @brief Method SetGlobalInteger, addr 0x6b1ba04, size 0x34, virtual false, abstract: false, final false
   inline void SetGlobalInteger(::StringW name, int32_t value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalInteger", HasExplicitThis = true)]
   /// @brief Method SetGlobalInteger, addr 0x6b12a40, size 0x64, virtual false, abstract: false, final false
   inline void SetGlobalInteger(int32_t nameID, int32_t value);
 
   /// @brief Method SetGlobalInteger_Injected, addr 0x6b12aa4, size 0x54, virtual false, abstract: false, final false
   static inline void SetGlobalInteger_Injected(::System::IntPtr _unity_self, int32_t nameID, int32_t value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetShaderKeyword", HasExplicitThis = true)]
   /// @brief Method SetGlobalKeyword, addr 0x6b13660, size 0x68, virtual false, abstract: false, final false
   inline void SetGlobalKeyword(::UnityEngine::Rendering::GlobalKeyword keyword, bool value);
 
@@ -1649,11 +1820,13 @@ public:
   /// @brief Method SetGlobalMatrix, addr 0x6b1bae0, size 0x50, virtual false, abstract: false, final false
   inline void SetGlobalMatrix(::StringW name, ::UnityEngine::Matrix4x4 value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalMatrix", HasExplicitThis = true)]
   /// @brief Method SetGlobalMatrix, addr 0x6b12c78, size 0x64, virtual false, abstract: false, final false
   inline void SetGlobalMatrix(int32_t nameID, ::UnityEngine::Matrix4x4 value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalMatrixArray", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetGlobalMatrixArray, addr 0x6b1421c, size 0x104, virtual false, abstract: false, final false
-  inline void SetGlobalMatrixArray(int32_t nameID, ::ArrayW<::UnityEngine::Matrix4x4> values);
+  inline void SetGlobalMatrixArray(int32_t nameID, /* [NotNull] */ ::ArrayW<::UnityEngine::Matrix4x4> values);
 
   /// @brief Method SetGlobalMatrixArray, addr 0x6b1bdfc, size 0xe4, virtual false, abstract: false, final false
   inline void SetGlobalMatrixArray(int32_t nameID, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* values);
@@ -1664,6 +1837,7 @@ public:
   /// @brief Method SetGlobalMatrixArray, addr 0x6b1bdc8, size 0x34, virtual false, abstract: false, final false
   inline void SetGlobalMatrixArray(::StringW propertyName, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalMatrixArrayListImpl", HasExplicitThis = true)]
   /// @brief Method SetGlobalMatrixArrayListImpl, addr 0x6b13eb4, size 0x64, virtual false, abstract: false, final false
   inline void SetGlobalMatrixArrayListImpl(int32_t nameID, ::System::Object* values);
 
@@ -1688,6 +1862,7 @@ public:
   /// @brief Method SetGlobalTexture, addr 0x6b1bf68, size 0x4, virtual false, abstract: false, final false
   inline void SetGlobalTexture(int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier value, ::UnityEngine::Rendering::RenderTextureSubElement element);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalTexture_Impl", HasExplicitThis = true)]
   /// @brief Method SetGlobalTexture_Impl, addr 0x6b14604, size 0x6c, virtual false, abstract: false, final false
   inline void SetGlobalTexture_Impl(int32_t nameID, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt, ::UnityEngine::Rendering::RenderTextureSubElement element);
 
@@ -1698,11 +1873,13 @@ public:
   /// @brief Method SetGlobalVector, addr 0x6b1ba38, size 0x54, virtual false, abstract: false, final false
   inline void SetGlobalVector(::StringW name, ::UnityEngine::Vector4 value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalVector", HasExplicitThis = true)]
   /// @brief Method SetGlobalVector, addr 0x6b12af8, size 0x6c, virtual false, abstract: false, final false
   inline void SetGlobalVector(int32_t nameID, ::UnityEngine::Vector4 value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalVectorArray", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetGlobalVectorArray, addr 0x6b140c4, size 0x104, virtual false, abstract: false, final false
-  inline void SetGlobalVectorArray(int32_t nameID, ::ArrayW<::UnityEngine::Vector4> values);
+  inline void SetGlobalVectorArray(int32_t nameID, /* [NotNull] */ ::ArrayW<::UnityEngine::Vector4> values);
 
   /// @brief Method SetGlobalVectorArray, addr 0x6b1bcb0, size 0xe4, virtual false, abstract: false, final false
   inline void SetGlobalVectorArray(int32_t nameID, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* values);
@@ -1713,6 +1890,7 @@ public:
   /// @brief Method SetGlobalVectorArray, addr 0x6b1bc7c, size 0x34, virtual false, abstract: false, final false
   inline void SetGlobalVectorArray(::StringW propertyName, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* values);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetGlobalVectorArrayListImpl", HasExplicitThis = true)]
   /// @brief Method SetGlobalVectorArrayListImpl, addr 0x6b13dfc, size 0x64, virtual false, abstract: false, final false
   inline void SetGlobalVectorArrayListImpl(int32_t nameID, ::System::Object* values);
 
@@ -1725,12 +1903,14 @@ public:
   /// @brief Method SetGlobalVector_Injected, addr 0x6b12b64, size 0x54, virtual false, abstract: false, final false
   static inline void SetGlobalVector_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector4> value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetInstanceMultiplier", HasExplicitThis = true)]
   /// @brief Method SetInstanceMultiplier, addr 0x6b15444, size 0x54, virtual false, abstract: false, final false
   inline void SetInstanceMultiplier(uint32_t multiplier);
 
   /// @brief Method SetInstanceMultiplier_Injected, addr 0x6b15498, size 0x44, virtual false, abstract: false, final false
   static inline void SetInstanceMultiplier_Injected(::System::IntPtr _unity_self, uint32_t multiplier);
 
+  /// [NativeMethod("AddSetInvertCulling")]
   /// @brief Method SetInvertCulling, addr 0x6b0c43c, size 0x54, virtual false, abstract: false, final false
   inline void SetInvertCulling(bool invertCulling);
 
@@ -1738,26 +1918,29 @@ public:
   static inline void SetInvertCulling_Injected(::System::IntPtr _unity_self, bool invertCulling);
 
   /// @brief Method SetKeyword, addr 0x6b1398c, size 0x2c, virtual false, abstract: false, final false
-  inline void SetKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  inline void SetKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
 
   /// @brief Method SetKeyword, addr 0x6b1394c, size 0x14, virtual false, abstract: false, final false
-  inline void SetKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value);
+  inline void SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value);
 
   /// @brief Method SetKeyword, addr 0x6b13960, size 0x2c, virtual false, abstract: false, final false
-  inline void SetKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  inline void SetKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetLateLatchProjectionMatrices", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetLateLatchProjectionMatrices, addr 0x6b14374, size 0xfc, virtual false, abstract: false, final false
-  inline void SetLateLatchProjectionMatrices(::ArrayW<::UnityEngine::Matrix4x4> projectionMat);
+  inline void SetLateLatchProjectionMatrices(/* [NotNull] */ ::ArrayW<::UnityEngine::Matrix4x4> projectionMat);
 
   /// @brief Method SetLateLatchProjectionMatrices_Injected, addr 0x6b14470, size 0x44, virtual false, abstract: false, final false
   static inline void SetLateLatchProjectionMatrices_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> projectionMat);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetMaterialKeyword", HasExplicitThis = true)]
   /// @brief Method SetMaterialKeyword, addr 0x6b1371c, size 0xbc, virtual false, abstract: false, final false
   inline void SetMaterialKeyword(::UnityEngine::Material* material, ::UnityEngine::Rendering::LocalKeyword keyword, bool value);
 
   /// @brief Method SetMaterialKeyword_Injected, addr 0x6b137d8, size 0x5c, virtual false, abstract: false, final false
   static inline void SetMaterialKeyword_Injected(::System::IntPtr _unity_self, ::System::IntPtr material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetProjectionMatrix", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetProjectionMatrix, addr 0x6b13a50, size 0x54, virtual false, abstract: false, final false
   inline void SetProjectionMatrix(::UnityEngine::Matrix4x4 proj);
 
@@ -1773,12 +1956,14 @@ public:
   /// @brief Method SetRandomWriteTarget, addr 0x6b1b5d4, size 0x38, virtual false, abstract: false, final false
   inline void SetRandomWriteTarget(int32_t index, ::UnityEngine::Rendering::RenderTargetIdentifier rt);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetRandomWriteTarget_Buffer", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetRandomWriteTarget_GraphicsBuffer, addr 0x6b116f0, size 0x78, virtual false, abstract: false, final false
   inline void SetRandomWriteTarget_GraphicsBuffer(int32_t index, ::UnityEngine::GraphicsBuffer* uav, bool preserveCounterValue);
 
   /// @brief Method SetRandomWriteTarget_GraphicsBuffer_Injected, addr 0x6b11768, size 0x5c, virtual false, abstract: false, final false
   static inline void SetRandomWriteTarget_GraphicsBuffer_Injected(::System::IntPtr _unity_self, int32_t index, ::System::IntPtr uav, bool preserveCounterValue);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetRandomWriteTarget_Texture", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetRandomWriteTarget_Texture, addr 0x6b11638, size 0x64, virtual false, abstract: false, final false
   inline void SetRandomWriteTarget_Texture(int32_t index, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt);
 
@@ -1838,10 +2023,10 @@ public:
   inline void SetRayTracingFloatParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, float_t val);
 
   /// @brief Method SetRayTracingFloatParams, addr 0x6b1966c, size 0x3c, virtual false, abstract: false, final false
-  inline void SetRayTracingFloatParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::ArrayW<float_t> values);
+  inline void SetRayTracingFloatParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, /* [ParamArray] */ ::ArrayW<float_t> values);
 
   /// @brief Method SetRayTracingFloatParams, addr 0x6b196a8, size 0x4, virtual false, abstract: false, final false
-  inline void SetRayTracingFloatParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<float_t> values);
+  inline void SetRayTracingFloatParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, /* [ParamArray] */ ::ArrayW<float_t> values);
 
   /// @brief Method SetRayTracingIntParam, addr 0x6b196ac, size 0x3c, virtual false, abstract: false, final false
   inline void SetRayTracingIntParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, int32_t val);
@@ -1850,16 +2035,16 @@ public:
   inline void SetRayTracingIntParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, int32_t val);
 
   /// @brief Method SetRayTracingIntParams, addr 0x6b196ec, size 0x3c, virtual false, abstract: false, final false
-  inline void SetRayTracingIntParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::ArrayW<int32_t> values);
+  inline void SetRayTracingIntParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, /* [ParamArray] */ ::ArrayW<int32_t> values);
 
   /// @brief Method SetRayTracingIntParams, addr 0x6b19728, size 0x4, virtual false, abstract: false, final false
-  inline void SetRayTracingIntParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<int32_t> values);
+  inline void SetRayTracingIntParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, /* [ParamArray] */ ::ArrayW<int32_t> values);
 
   /// @brief Method SetRayTracingMatrixArrayParam, addr 0x6b19858, size 0x3c, virtual false, abstract: false, final false
-  inline void SetRayTracingMatrixArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::ArrayW<::UnityEngine::Matrix4x4> values);
+  inline void SetRayTracingMatrixArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, /* [ParamArray] */ ::ArrayW<::UnityEngine::Matrix4x4> values);
 
   /// @brief Method SetRayTracingMatrixArrayParam, addr 0x6b19894, size 0x4, virtual false, abstract: false, final false
-  inline void SetRayTracingMatrixArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<::UnityEngine::Matrix4x4> values);
+  inline void SetRayTracingMatrixArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, /* [ParamArray] */ ::ArrayW<::UnityEngine::Matrix4x4> values);
 
   /// @brief Method SetRayTracingMatrixParam, addr 0x6b197d4, size 0x58, virtual false, abstract: false, final false
   inline void SetRayTracingMatrixParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::UnityEngine::Matrix4x4 val);
@@ -1874,10 +2059,10 @@ public:
   inline void SetRayTracingTextureParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier rt);
 
   /// @brief Method SetRayTracingVectorArrayParam, addr 0x6b19794, size 0x3c, virtual false, abstract: false, final false
-  inline void SetRayTracingVectorArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::ArrayW<::UnityEngine::Vector4> values);
+  inline void SetRayTracingVectorArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, /* [ParamArray] */ ::ArrayW<::UnityEngine::Vector4> values);
 
   /// @brief Method SetRayTracingVectorArrayParam, addr 0x6b197d0, size 0x4, virtual false, abstract: false, final false
-  inline void SetRayTracingVectorArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<::UnityEngine::Vector4> values);
+  inline void SetRayTracingVectorArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, /* [ParamArray] */ ::ArrayW<::UnityEngine::Vector4> values);
 
   /// @brief Method SetRayTracingVectorParam, addr 0x6b1972c, size 0x64, virtual false, abstract: false, final false
   inline void SetRayTracingVectorParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::UnityEngine::Vector4 val);
@@ -2000,6 +2185,7 @@ public:
   /// @brief Method SetShadowSamplingMode, addr 0x6b1c0dc, size 0x38, virtual false, abstract: false, final false
   inline void SetShadowSamplingMode(::UnityEngine::Rendering::RenderTargetIdentifier shadowmap, ::UnityEngine::Rendering::ShadowSamplingMode mode);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetShadowSamplingMode_Impl", HasExplicitThis = true)]
   /// @brief Method SetShadowSamplingMode_Impl, addr 0x6b14854, size 0x64, virtual false, abstract: false, final false
   inline void SetShadowSamplingMode_Impl(::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> shadowmap, ::UnityEngine::Rendering::ShadowSamplingMode mode);
 
@@ -2010,24 +2196,28 @@ public:
   /// @brief Method SetSinglePassStereo, addr 0x6b1c114, size 0x4, virtual false, abstract: false, final false
   inline void SetSinglePassStereo(::UnityEngine::Rendering::SinglePassStereoMode mode);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetViewMatrix", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetViewMatrix, addr 0x6b139b8, size 0x54, virtual false, abstract: false, final false
   inline void SetViewMatrix(::UnityEngine::Matrix4x4 view);
 
   /// @brief Method SetViewMatrix_Injected, addr 0x6b13a0c, size 0x44, virtual false, abstract: false, final false
   static inline void SetViewMatrix_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Matrix4x4> view);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetViewProjectionMatrices", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetViewProjectionMatrices, addr 0x6b13ae8, size 0x64, virtual false, abstract: false, final false
   inline void SetViewProjectionMatrices(::UnityEngine::Matrix4x4 view, ::UnityEngine::Matrix4x4 proj);
 
   /// @brief Method SetViewProjectionMatrices_Injected, addr 0x6b13b4c, size 0x54, virtual false, abstract: false, final false
   static inline void SetViewProjectionMatrices_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Matrix4x4> view, ::by_ref<::UnityEngine::Matrix4x4> proj);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetViewport", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetViewport, addr 0x6b1184c, size 0x64, virtual false, abstract: false, final false
   inline void SetViewport(::UnityEngine::Rect pixelRect);
 
   /// @brief Method SetViewport_Injected, addr 0x6b118b0, size 0x44, virtual false, abstract: false, final false
   static inline void SetViewport_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> pixelRect);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetWireframe", HasExplicitThis = true)]
   /// @brief Method SetWireframe, addr 0x6b15574, size 0x54, virtual false, abstract: false, final false
   inline void SetWireframe(bool enable);
 
@@ -2037,18 +2227,21 @@ public:
   /// @brief Method SetupCameraProperties, addr 0x6b188f8, size 0x30, virtual false, abstract: false, final false
   inline void SetupCameraProperties(::UnityEngine::Camera* camera);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::SetupCameraProperties", HasExplicitThis = true)]
   /// @brief Method SetupCameraProperties_Internal, addr 0x6b18800, size 0xb4, virtual false, abstract: false, final false
-  inline void SetupCameraProperties_Internal(::UnityEngine::Camera* camera);
+  inline void SetupCameraProperties_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera);
 
   /// @brief Method SetupCameraProperties_Internal_Injected, addr 0x6b188b4, size 0x44, virtual false, abstract: false, final false
   static inline void SetupCameraProperties_Internal_Injected(::System::IntPtr _unity_self, ::System::IntPtr camera);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::UnmarkLateLatchMatrix", HasExplicitThis = true)]
   /// @brief Method UnmarkLateLatchMatrix, addr 0x6b1456c, size 0x54, virtual false, abstract: false, final false
   inline void UnmarkLateLatchMatrix(::UnityEngine::Rendering::CameraLateLatchMatrixType matrixPropertyType);
 
   /// @brief Method UnmarkLateLatchMatrix_Injected, addr 0x6b145c0, size 0x44, virtual false, abstract: false, final false
   static inline void UnmarkLateLatchMatrix_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::CameraLateLatchMatrixType matrixPropertyType);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::ValidateAgainstExecutionFlags", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method ValidateAgainstExecutionFlags, addr 0x6b124f4, size 0x64, virtual false, abstract: false, final false
   inline bool ValidateAgainstExecutionFlags(::UnityEngine::Rendering::CommandBufferExecutionFlags requiredFlags, ::UnityEngine::Rendering::CommandBufferExecutionFlags invalidFlags);
 
@@ -2065,6 +2258,7 @@ public:
   /// @brief Method WaitOnAsyncGraphicsFence, addr 0x6b18b38, size 0xe4, virtual false, abstract: false, final false
   inline void WaitOnAsyncGraphicsFence(::UnityEngine::Rendering::GraphicsFence fence, ::UnityEngine::Rendering::SynchronisationStageFlags stage);
 
+  /// [FreeFunction("RenderingCommandBuffer_Bindings::WaitOnGPUFence_Internal", HasExplicitThis = true)]
   /// @brief Method WaitOnGPUFence_Internal, addr 0x6b0c64c, size 0x64, virtual false, abstract: false, final false
   inline void WaitOnGPUFence_Internal(::System::IntPtr fencePtr, ::UnityEngine::Rendering::SynchronisationStageFlags stage);
 
@@ -2088,6 +2282,7 @@ public:
   /// @brief Method get_name_Injected, addr 0x6b0fbf8, size 0x44, virtual false, abstract: false, final false
   static inline void get_name_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [NativeMethod("GetBufferSize")]
   /// @brief Method get_sizeInBytes, addr 0x6b0fdcc, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_sizeInBytes();
 
@@ -2111,13 +2306,13 @@ protected:
   constexpr CommandBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandBuffer(CommandBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandBuffer(CommandBuffer const&) = delete;
+  CommandBuffer(CommandBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10778 };

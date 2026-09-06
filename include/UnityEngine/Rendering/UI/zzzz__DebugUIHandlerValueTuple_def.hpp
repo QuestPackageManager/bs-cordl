@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerValueTuple.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerValueTuple.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr DebugUIHandlerValueTuple();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerValueTuple", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerValueTuple", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerValueTuple(DebugUIHandlerValueTuple&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerValueTuple", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerValueTuple", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerValueTuple(DebugUIHandlerValueTuple const&) = delete;
+  DebugUIHandlerValueTuple(DebugUIHandlerValueTupleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12542 };

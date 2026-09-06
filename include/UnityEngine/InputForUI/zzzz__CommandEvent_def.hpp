@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\CommandEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/CommandEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   // @brief default ctor
   constexpr CommandEvent_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CommandEvent_Type(int32_t value__) noexcept;
 
   /// @brief Field Execute value: I32(2)
@@ -151,7 +151,7 @@ public:
   // @brief default ctor
   constexpr CommandEvent_Command();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CommandEvent_Command(int32_t value__) noexcept;
 
   /// @brief Field ColorPickerChanged value: I32(21)
@@ -243,6 +243,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::CommandEvent_Command, value__)
 static_assert(sizeof(::UnityEngine::InputForUI::CommandEvent_Command) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies Unity.IntegerTime.DiscreteTime, UnityEngine.InputForUI.CommandEvent::Command, UnityEngine.InputForUI.CommandEvent::Type, UnityEngine.InputForUI.EventModifiers,
 // UnityEngine.InputForUI.EventSource
 namespace UnityEngine::InputForUI {
@@ -269,24 +270,32 @@ public:
   /// @brief Method ToString, addr 0x6b586d4, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_eventModifiers, addr 0x6b586c4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_eventSource, addr 0x6b586ac, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventModifiers, addr 0x6b586cc, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventSource, addr 0x6b586b4, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerId, addr 0x6b586bc, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_timestamp, addr 0x6b586a4, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
@@ -294,10 +303,11 @@ public:
   // @brief default ctor
   constexpr CommandEvent();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::CommandEvent_Type", modifiers: "", def_value: None }, CppParam { name: "command", ty:
-  // "::UnityEngine::InputForUI::CommandEvent_Command", modifiers: "", def_value: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "",
-  // def_value: None }, CppParam { name: "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: None }, CppParam { name: "_playerId_k__BackingField",
-  // ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::CommandEvent_Type", modifiers: "", def_value: None, comment: None }, CppParam { name: "command", ty:
+  // "::UnityEngine::InputForUI::CommandEvent_Command", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_eventModifiers_k__BackingField", ty:
+  // "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: None, comment: None }]
   constexpr CommandEvent(::UnityEngine::InputForUI::CommandEvent_Type type, ::UnityEngine::InputForUI::CommandEvent_Command command, ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField,
                          ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField, uint32_t _playerId_k__BackingField,
                          ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
@@ -314,15 +324,23 @@ public:
   /// @brief Field command, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::InputForUI::CommandEvent_Command command;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <timestamp>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <eventSource>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <playerId>k__BackingField, offset: 0x14, size: 0x4, def value: None
   uint32_t _playerId_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <eventModifiers>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField;
 

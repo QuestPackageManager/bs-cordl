@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CollisionPairFlags.hpp"
+// IWYU pragma private; include "UnityEngine/CollisionPairFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   // @brief default ctor
   constexpr CollisionPairFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr CollisionPairFlags(uint16_t value__) noexcept;
 
   /// @brief Field ActorPairHasFirstTouch value: U16(4)

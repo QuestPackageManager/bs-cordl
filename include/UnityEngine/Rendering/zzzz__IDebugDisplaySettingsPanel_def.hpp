@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IDebugDisplaySettingsPanel.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IDebugDisplaySettingsPanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,18 +32,18 @@ public:
 
   __declspec(property(get = get_Widgets)) ::ArrayW<::UnityEngine::Rendering::DebugUI_Widget*> Widgets;
 
-  /// @brief Method get_Flags, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::DebugUI_Flags get_Flags();
 
-  /// @brief Method get_PanelName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_PanelName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_PanelName();
 
-  /// @brief Method get_Widgets, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Widgets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::UnityEngine::Rendering::DebugUI_Widget*> get_Widgets();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDebugDisplaySettingsPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDebugDisplaySettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDebugDisplaySettingsPanel(IDebugDisplaySettingsPanel const&) = delete;
+  IDebugDisplaySettingsPanel(IDebugDisplaySettingsPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12044 };

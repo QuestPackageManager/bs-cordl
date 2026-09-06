@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IntCvar.hpp"
+// IWYU pragma private; include "GlobalNamespace/IntCvar.hpp"
 #include "GlobalNamespace/zzzz__Cvar_1_impl.hpp"
 #include "GlobalNamespace/zzzz__IntCvar_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IntCvar.Init

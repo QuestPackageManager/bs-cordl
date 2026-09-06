@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\GregorianCalendarTypes.hpp"
+// IWYU pragma private; include "System/Globalization/GregorianCalendarTypes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct GregorianCalendarTypes;
 // Write type traits
 MARK_VAL_T(::System::Globalization::GregorianCalendarTypes);
 DEFINE_IL2CPP_CLASS(::System::Globalization::GregorianCalendarTypes, "System.Globalization", "GregorianCalendarTypes");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Globalization {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr GregorianCalendarTypes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GregorianCalendarTypes(int32_t value__) noexcept;
 
   /// @brief Field Arabic value: I32(10)

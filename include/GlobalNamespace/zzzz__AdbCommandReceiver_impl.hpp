@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AdbCommandReceiver.hpp"
+// IWYU pragma private; include "GlobalNamespace/AdbCommandReceiver.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
 #include "GlobalNamespace/zzzz__AdbCommandReceiver_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderSpawnInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderSpawnInfoNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__ColorType_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
@@ -498,6 +498,7 @@ inline void GlobalNamespace::SliderSpawnInfoNetSerializable::Deserialize(::LiteN
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SliderSpawnInfoNetSerializable*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader);
 }
+/// @brief [Preserve]
 inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* GlobalNamespace::SliderSpawnInfoNetSerializable::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SliderSpawnInfoNetSerializable*>());
 }

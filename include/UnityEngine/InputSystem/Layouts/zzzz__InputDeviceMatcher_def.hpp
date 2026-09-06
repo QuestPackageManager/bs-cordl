@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Layouts\InputDeviceMatcher.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Layouts/InputDeviceMatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,8 @@ public:
   // @brief default ctor
   constexpr MatcherJson_InputDeviceMatcher_Capability();
 
-  // Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr MatcherJson_InputDeviceMatcher_Capability(::StringW path, ::StringW value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -139,12 +140,13 @@ public:
   // @brief default ctor
   constexpr InputDeviceMatcher_MatcherJson();
 
-  // Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "interfaces", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None },
-  // CppParam { name: "deviceClass", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "deviceClasses", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name:
-  // "manufacturer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "manufacturerContains", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "manufacturers",
-  // ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "products", ty: "::ArrayW<::StringW>",
-  // modifiers: "", def_value: None }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "versions", ty: "::ArrayW<::StringW>", modifiers: "", def_value:
-  // None }, CppParam { name: "capabilities", ty: "::ArrayW<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "interfaces", ty: "::ArrayW<::StringW>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "deviceClass", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "deviceClasses", ty: "::ArrayW<::StringW>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "manufacturerContains", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "manufacturers", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "product", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "products", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "version", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "versions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "capabilities", ty: "::ArrayW<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability>", modifiers: "", def_value: None, comment: None }]
   constexpr InputDeviceMatcher_MatcherJson(::StringW interface, ::ArrayW<::StringW> interfaces, ::StringW deviceClass, ::ArrayW<::StringW> deviceClasses, ::StringW manufacturer,
                                            ::StringW manufacturerContains, ::ArrayW<::StringW> manufacturers, ::StringW product, ::ArrayW<::StringW> products, ::StringW version,
                                            ::ArrayW<::StringW> versions, ::ArrayW<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability> capabilities) noexcept;
@@ -221,6 +223,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_M
 static_assert(sizeof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
@@ -256,13 +259,13 @@ protected:
   constexpr InputDeviceMatcher___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputDeviceMatcher___c(InputDeviceMatcher___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputDeviceMatcher___c(InputDeviceMatcher___c const&) = delete;
+  InputDeviceMatcher___c(InputDeviceMatcher___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9117 };
@@ -377,6 +380,7 @@ public:
   /// @brief Method get_empty, addr 0x64f7fb4, size 0x10, virtual false, abstract: false, final false
   inline bool get_empty();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.InputSystem.Layouts.InputDeviceMatcher::<get_patterns>d__4))]
   /// @brief Method get_patterns, addr 0x64f7fc4, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* get_patterns();
 
@@ -406,7 +410,7 @@ public:
   constexpr InputDeviceMatcher();
 
   // Ctor Parameters [CppParam { name: "m_Patterns", ty: "::ArrayW<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::InputSystem::Utilities::InternedString,::System::Object*>>", modifiers:
-  // "", def_value: None }]
+  // "", def_value: None, comment: None }]
   constexpr InputDeviceMatcher(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Object*>> m_Patterns) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -426,6 +430,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher, 
 static_assert(sizeof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object, UnityEngine.InputSystem.Layouts.InputDeviceMatcher
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
@@ -479,27 +484,34 @@ public:
   /// @brief Method MoveNext, addr 0x64f9a88, size 0x118, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher__get_patterns_d__4* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator, addr 0x64f9c44, size 0x98, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current, addr 0x64f9ba0, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x64f9cdc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x64f9bac, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x64f9be4, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x64f9a84, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -545,6 +557,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x64f8034, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -571,13 +584,13 @@ protected:
   constexpr InputDeviceMatcher__get_patterns_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher__get_patterns_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher__get_patterns_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputDeviceMatcher__get_patterns_d__4(InputDeviceMatcher__get_patterns_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher__get_patterns_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher__get_patterns_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputDeviceMatcher__get_patterns_d__4(InputDeviceMatcher__get_patterns_d__4 const&) = delete;
+  InputDeviceMatcher__get_patterns_d__4(InputDeviceMatcher__get_patterns_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9118 };

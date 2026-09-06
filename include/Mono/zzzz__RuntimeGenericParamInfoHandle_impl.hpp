@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeGenericParamInfoHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimeGenericParamInfoHandle.hpp"
 #include "Mono/zzzz__RuntimeGenericParamInfoHandle_def.hpp"
 #include "Mono/zzzz__RuntimeStructs_def.hpp"
 #include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
@@ -88,7 +88,7 @@ inline int32_t Mono::RuntimeGenericParamInfoHandle::GetConstraintsCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeGenericParamInfoHandle>(), { "GetConstraintsCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GenericParamInfo*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GenericParamInfo*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle(::Mono::RuntimeStructs_GenericParamInfo* value) noexcept {
   this->value = value;
 }

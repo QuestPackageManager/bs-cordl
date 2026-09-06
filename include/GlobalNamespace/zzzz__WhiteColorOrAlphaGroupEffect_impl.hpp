@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\WhiteColorOrAlphaGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/WhiteColorOrAlphaGroupEffect.hpp"
 #include "GlobalNamespace/zzzz__LightColorGroupEffect_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__WhiteColorOrAlphaGroupEffect_def.hpp"
@@ -77,6 +77,7 @@ inline ::UnityEngine::Color GlobalNamespace::WhiteColorOrAlphaGroupEffect::GetCo
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, colorType, colorBoost, brightness);
 }
+/// @brief [Inject]
 inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* GlobalNamespace::WhiteColorOrAlphaGroupEffect::New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData,
                                                                                                                 ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager,
                                                                                                                 ::Tweening::SongTimeTweeningManager* tweeningManager,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\RuntimeDebugger\RuntimeDebuggerOpenXRFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/RuntimeDebugger/RuntimeDebuggerOpenXRFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,13 +101,13 @@ protected:
   constexpr RuntimeDebuggerOpenXRFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeDebuggerOpenXRFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeDebuggerOpenXRFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeDebuggerOpenXRFeature(RuntimeDebuggerOpenXRFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeDebuggerOpenXRFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeDebuggerOpenXRFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeDebuggerOpenXRFeature(RuntimeDebuggerOpenXRFeature const&) = delete;
+  RuntimeDebuggerOpenXRFeature(RuntimeDebuggerOpenXRFeatureconst&) = delete;
 
   /// @brief Field Library offset 0xffffffff size 0x8
   static constexpr ::ConstString Library{ u"openxr_runtime_debugger" };

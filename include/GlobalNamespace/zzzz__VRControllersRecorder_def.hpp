@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRControllersRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRControllersRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -182,7 +182,7 @@ public:
   // @brief default ctor
   constexpr VRControllersRecorder_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VRControllersRecorder_Mode(int32_t value__) noexcept;
 
   /// @brief Field Off value: I32(2)
@@ -247,13 +247,13 @@ protected:
   constexpr VRControllersRecorder_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRControllersRecorder_InitData(VRControllersRecorder_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_InitData(VRControllersRecorder_InitData const&) = delete;
+  VRControllersRecorder_InitData(VRControllersRecorder_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6513 };
@@ -295,13 +295,13 @@ protected:
   constexpr VRControllersRecorder_TypeSerializationBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_TypeSerializationBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_TypeSerializationBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRControllersRecorder_TypeSerializationBinder(VRControllersRecorder_TypeSerializationBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_TypeSerializationBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_TypeSerializationBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_TypeSerializationBinder(VRControllersRecorder_TypeSerializationBinder const&) = delete;
+  VRControllersRecorder_TypeSerializationBinder(VRControllersRecorder_TypeSerializationBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6514 };
@@ -528,13 +528,13 @@ protected:
   constexpr SavedData_VRControllersRecorder_KeyframeSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SavedData_VRControllersRecorder_KeyframeSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SavedData_VRControllersRecorder_KeyframeSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SavedData_VRControllersRecorder_KeyframeSerializable(SavedData_VRControllersRecorder_KeyframeSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SavedData_VRControllersRecorder_KeyframeSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SavedData_VRControllersRecorder_KeyframeSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SavedData_VRControllersRecorder_KeyframeSerializable(SavedData_VRControllersRecorder_KeyframeSerializable const&) = delete;
+  SavedData_VRControllersRecorder_KeyframeSerializable(SavedData_VRControllersRecorder_KeyframeSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6515 };
@@ -684,13 +684,13 @@ protected:
   constexpr VRControllersRecorder_SavedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_SavedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_SavedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRControllersRecorder_SavedData(VRControllersRecorder_SavedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_SavedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_SavedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_SavedData(VRControllersRecorder_SavedData const&) = delete;
+  VRControllersRecorder_SavedData(VRControllersRecorder_SavedDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6516 };
@@ -845,13 +845,13 @@ protected:
   constexpr VRControllersRecorder_Keyframe();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_Keyframe", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_Keyframe", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRControllersRecorder_Keyframe(VRControllersRecorder_Keyframe&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_Keyframe", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_Keyframe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_Keyframe(VRControllersRecorder_Keyframe const&) = delete;
+  VRControllersRecorder_Keyframe(VRControllersRecorder_Keyframeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6518 };
@@ -897,6 +897,7 @@ static_assert(offsetof(::GlobalNamespace::VRControllersRecorder_Keyframe, ___tim
 static_assert(sizeof(::GlobalNamespace::VRControllersRecorder_Keyframe) == 0x68, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -932,13 +933,13 @@ protected:
   constexpr State_VRControllersRecorder___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "State_VRControllersRecorder___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "State_VRControllersRecorder___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   State_VRControllersRecorder___c(State_VRControllersRecorder___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "State_VRControllersRecorder___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "State_VRControllersRecorder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  State_VRControllersRecorder___c(State_VRControllersRecorder___c const&) = delete;
+  State_VRControllersRecorder___c(State_VRControllersRecorder___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6519 };
@@ -1053,13 +1054,13 @@ protected:
   constexpr VRControllersRecorder_State();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_State", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_State", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRControllersRecorder_State(VRControllersRecorder_State&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_State", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_State", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_State(VRControllersRecorder_State const&) = delete;
+  VRControllersRecorder_State(VRControllersRecorder_Stateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6520 };
@@ -1191,6 +1192,7 @@ public:
 
   __declspec(property(get = get_changeToNonVRCamera, put = set_changeToNonVRCamera)) bool changeToNonVRCamera;
 
+  /// @brief [TupleElementNames(new[] { "headPose", "leftHandPose", "rightHandPose" })]
   __declspec(property(get = get_currentPoses)) ::System::ValueTuple_3<::UnityEngine::Pose, ::UnityEngine::Pose, ::UnityEngine::Pose> currentPoses;
 
   __declspec(property(get = get_path)) ::StringW path;
@@ -1210,6 +1212,7 @@ public:
   /// @brief Method HandleControllerAnchorUpdate, addr 0x58dd980, size 0x1b4, virtual false, abstract: false, final false
   inline void HandleControllerAnchorUpdate(::GlobalNamespace::VRController* controller, ::UnityEngine::Pose poseOffset);
 
+  /// [Inject]
   /// @brief Method InjectDependencies, addr 0x58dcb54, size 0x34, virtual false, abstract: false, final false
   inline void InjectDependencies(::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController, ::GlobalNamespace::VRControllersRecorder_InitData* initData);
 
@@ -1446,13 +1449,13 @@ protected:
   constexpr VRControllersRecorder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRControllersRecorder(VRControllersRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder(VRControllersRecorder const&) = delete;
+  VRControllersRecorder(VRControllersRecorderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6521 };
@@ -1469,51 +1472,70 @@ public:
   /// @brief Field kSavedDataWithOffsetRecorderVersion offset 0xffffffff size 0x4
   static constexpr uint32_t kSavedDataWithOffsetRecorderVersion{ static_cast<uint32_t>(0x1u) };
 
+  /// [SerializeField]
   /// @brief Field _dontMoveHead, offset: 0x20, size: 0x1, def value: None
   bool ____dontMoveHead;
 
+  /// [SerializeField]
   /// @brief Field _changeToNonVRCamera, offset: 0x21, size: 0x1, def value: None
   bool ____changeToNonVRCamera;
 
+  /// [SerializeField]
   /// @brief Field _adjustSabersPositionBasedOnHeadPosition, offset: 0x22, size: 0x1, def value: None
   bool ____adjustSabersPositionBasedOnHeadPosition;
 
+  /// [SerializeField]
   /// @brief Field _headRotationOffset, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____headRotationOffset;
 
+  /// [SerializeField]
   /// @brief Field _headPositionOffset, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____headPositionOffset;
 
+  /// [SerializeField]
   /// @brief Field _headSmooth, offset: 0x3c, size: 0x4, def value: None
   float_t ____headSmooth;
 
+  /// [SerializeField]
   /// @brief Field _cameraFOV, offset: 0x40, size: 0x4, def value: None
   float_t ____cameraFOV;
 
+  /// [SerializeField]
   /// @brief Field _controllersTimeOffset, offset: 0x44, size: 0x4, def value: None
   float_t ____controllersTimeOffset;
 
+  /// [SerializeField]
   /// @brief Field _controllersSmooth, offset: 0x48, size: 0x4, def value: None
   float_t ____controllersSmooth;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _controller0, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____controller0;
 
+  /// [SerializeField]
   /// @brief Field _controller1, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____controller1;
 
+  /// [SerializeField]
   /// @brief Field _headTransform, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headTransform;
 
+  /// [SerializeField]
   /// @brief Field _camera, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _recorderCamera, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____recorderCamera;
 
+  /// [SerializeField]
   /// @brief Field _spawnRotationTransform, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____spawnRotationTransform;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _originTransform, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____originTransform;
 

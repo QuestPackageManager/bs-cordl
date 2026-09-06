@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PosesRecordingSaveData.hpp"
+// IWYU pragma private; include "GlobalNamespace/PosesRecordingSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,13 +120,13 @@ protected:
   constexpr PosesRecordingSaveData_PoseSaveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_PoseSaveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_PoseSaveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PosesRecordingSaveData_PoseSaveData(PosesRecordingSaveData_PoseSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_PoseSaveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_PoseSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingSaveData_PoseSaveData(PosesRecordingSaveData_PoseSaveData const&) = delete;
+  PosesRecordingSaveData_PoseSaveData(PosesRecordingSaveData_PoseSaveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6582 };
@@ -208,13 +208,13 @@ protected:
   constexpr PosesRecordingSaveData_TransformsSaveKeyframe();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_TransformsSaveKeyframe", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_TransformsSaveKeyframe", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PosesRecordingSaveData_TransformsSaveKeyframe(PosesRecordingSaveData_TransformsSaveKeyframe&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_TransformsSaveKeyframe", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_TransformsSaveKeyframe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingSaveData_TransformsSaveKeyframe(PosesRecordingSaveData_TransformsSaveKeyframe const&) = delete;
+  PosesRecordingSaveData_TransformsSaveKeyframe(PosesRecordingSaveData_TransformsSaveKeyframeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6583 };
@@ -298,13 +298,13 @@ protected:
   constexpr PosesRecordingSaveData_ExternalCameraCalibrationSaveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PosesRecordingSaveData_ExternalCameraCalibrationSaveData(PosesRecordingSaveData_ExternalCameraCalibrationSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_ExternalCameraCalibrationSaveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_ExternalCameraCalibrationSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingSaveData_ExternalCameraCalibrationSaveData(PosesRecordingSaveData_ExternalCameraCalibrationSaveData const&) = delete;
+  PosesRecordingSaveData_ExternalCameraCalibrationSaveData(PosesRecordingSaveData_ExternalCameraCalibrationSaveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6584 };
@@ -394,13 +394,13 @@ protected:
   constexpr PosesRecordingSaveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PosesRecordingSaveData(PosesRecordingSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingSaveData(PosesRecordingSaveData const&) = delete;
+  PosesRecordingSaveData(PosesRecordingSaveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6585 };

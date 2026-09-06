@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\ifa_ifu.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/ifa_ifu.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,8 +42,8 @@ public:
   // @brief default ctor
   constexpr ifa_ifu();
 
-  // Ctor Parameters [CppParam { name: "ifu_broadaddr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "ifu_dstaddr", ty: "::System::IntPtr", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "ifu_broadaddr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "ifu_dstaddr", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ifa_ifu(::System::IntPtr ifu_broadaddr, ::System::IntPtr ifu_dstaddr) noexcept;
 
 private:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\TrackedDevicePose_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/TrackedDevicePose_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ public:
   // @brief default ctor
   constexpr TrackedDevicePose_t();
 
-  // Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "vVelocity", ty:
-  // "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vAngularVelocity", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name:
-  // "eTrackingResult", ty: "::OVR::OpenVR::ETrackingResult", modifiers: "", def_value: None }, CppParam { name: "bPoseIsValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "bDeviceIsConnected", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vVelocity", ty:
+  // "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vAngularVelocity", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "eTrackingResult", ty: "::OVR::OpenVR::ETrackingResult", modifiers: "", def_value: None, comment: None }, CppParam { name: "bPoseIsValid", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "bDeviceIsConnected", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedDevicePose_t(::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking, ::OVR::OpenVR::HmdVector3_t vVelocity, ::OVR::OpenVR::HmdVector3_t vAngularVelocity,
                                 ::OVR::OpenVR::ETrackingResult eTrackingResult, bool bPoseIsValid, bool bDeviceIsConnected) noexcept;
 

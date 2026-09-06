@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugActionDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugActionDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr DebugActionDesc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugActionDesc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugActionDesc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugActionDesc(DebugActionDesc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugActionDesc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugActionDesc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugActionDesc(DebugActionDesc const&) = delete;
+  DebugActionDesc(DebugActionDescconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11984 };

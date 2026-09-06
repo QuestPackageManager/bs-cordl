@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CoroutineStarter.hpp"
+// IWYU pragma private; include "GlobalNamespace/CoroutineStarter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CoroutineStarter_def.hpp"
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"

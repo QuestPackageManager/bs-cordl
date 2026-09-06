@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\InlineStyleAccess.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/InlineStyleAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IConvertible_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleBackgroundSize_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleCursor_def.hpp"
@@ -85,7 +86,9 @@ namespace UnityEngine::UIElements {
 struct StyleCursor;
 }
 namespace UnityEngine::UIElements {
-template <typename T> struct StyleEnum_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct StyleEnum_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
@@ -182,9 +185,9 @@ public:
   // @brief default ctor
   constexpr InlineStyleAccess_InlineRule();
 
-  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "rule", ty:
-  // "::UnityEngine::UIElements::StyleRule*", modifiers: "", def_value: None }, CppParam { name: "propertyIds", ty: "::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None, comment: None }, CppParam { name: "rule", ty:
+  // "::UnityEngine::UIElements::StyleRule*", modifiers: "", def_value: None, comment: None }, CppParam { name: "propertyIds", ty: "::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr InlineStyleAccess_InlineRule(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleRule* rule,
                                          ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId> propertyIds) noexcept;
 
@@ -215,8 +218,8 @@ static_assert(offsetof(::UnityEngine::UIElements::InlineStyleAccess_InlineRule, 
 static_assert(sizeof(::UnityEngine::UIElements::InlineStyleAccess_InlineRule) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.InlineStyleAccess::InlineRule, UnityEngine.UIElements.StyleBackgroundSize, UnityEngine.UIElements.StyleCursor, UnityEngine.UIElements.StyleRotate,
-// UnityEngine.UIElements.StyleScale, UnityEngine.UIElements.StyleTextShadow, UnityEngine.UIElements.StyleTransformOrigin, UnityEngine.UIElements.StyleTranslate,
+// Dependencies System.IConvertible, UnityEngine.UIElements.InlineStyleAccess::InlineRule, UnityEngine.UIElements.StyleBackgroundSize, UnityEngine.UIElements.StyleCursor,
+// UnityEngine.UIElements.StyleRotate, UnityEngine.UIElements.StyleScale, UnityEngine.UIElements.StyleTextShadow, UnityEngine.UIElements.StyleTransformOrigin, UnityEngine.UIElements.StyleTranslate,
 // UnityEngine.UIElements.StyleValueCollection
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -623,7 +626,9 @@ public:
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleColor inlineValue);
 
   /// @brief Method SetStyleValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleEnum_1<T> inlineValue);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleEnum_1<T> inlineValue);
 
   /// @brief Method SetStyleValue, addr 0x6ddf4cc, size 0x130, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleFloat inlineValue);
@@ -1275,6 +1280,7 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyReader* getStaticF_s_StylePropertyReader();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ve, addr 0x6de2f50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_ve();
 
@@ -1283,6 +1289,7 @@ public:
 
   static inline void setStaticF_s_StylePropertyReader(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ve, addr 0x6de2f58, size 0x8, virtual false, abstract: false, final false
   inline void set_ve(::UnityEngine::UIElements::VisualElement* value);
 
@@ -1292,13 +1299,13 @@ protected:
   constexpr InlineStyleAccess();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccess", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccess", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InlineStyleAccess(InlineStyleAccess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccess(InlineStyleAccess const&) = delete;
+  InlineStyleAccess(InlineStyleAccessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4721 };
@@ -1306,6 +1313,8 @@ public:
   /// @brief Field m_ValuesManaged, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>* ___m_ValuesManaged;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <ve>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____ve_k__BackingField;
 

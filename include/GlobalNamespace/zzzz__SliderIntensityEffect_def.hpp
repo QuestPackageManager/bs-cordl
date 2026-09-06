@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderIntensityEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderIntensityEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,13 +122,13 @@ protected:
   constexpr SliderIntensityEffect_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderIntensityEffect_InitData(SliderIntensityEffect_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect_InitData(SliderIntensityEffect_InitData const&) = delete;
+  SliderIntensityEffect_InitData(SliderIntensityEffect_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5726 };
@@ -212,13 +212,13 @@ protected:
   constexpr SliderIntensityEffect_FadeElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_FadeElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_FadeElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderIntensityEffect_FadeElement(SliderIntensityEffect_FadeElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_FadeElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_FadeElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect_FadeElement(SliderIntensityEffect_FadeElement const&) = delete;
+  SliderIntensityEffect_FadeElement(SliderIntensityEffect_FadeElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5727 };
@@ -281,13 +281,13 @@ protected:
   constexpr SliderIntensityEffect_IntensityCalculationDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_IntensityCalculationDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_IntensityCalculationDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderIntensityEffect_IntensityCalculationDelegate(SliderIntensityEffect_IntensityCalculationDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_IntensityCalculationDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_IntensityCalculationDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect_IntensityCalculationDelegate(SliderIntensityEffect_IntensityCalculationDelegate const&) = delete;
+  SliderIntensityEffect_IntensityCalculationDelegate(SliderIntensityEffect_IntensityCalculationDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5728 };
@@ -298,6 +298,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::SliderIntensityEffect_IntensityCalculationDelegate) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -344,17 +345,22 @@ public:
   /// @brief Method MoveNext, addr 0x597ac74, size 0x36c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x597b094, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x597b09c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x597b0d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x597ac58, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -403,6 +409,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x597afe0, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x597aaa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -421,13 +428,13 @@ protected:
   constexpr SliderIntensityEffect__ProcessEffectCoroutine_d__27();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect__ProcessEffectCoroutine_d__27", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect__ProcessEffectCoroutine_d__27", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderIntensityEffect__ProcessEffectCoroutine_d__27(SliderIntensityEffect__ProcessEffectCoroutine_d__27&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect__ProcessEffectCoroutine_d__27", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect__ProcessEffectCoroutine_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect__ProcessEffectCoroutine_d__27(SliderIntensityEffect__ProcessEffectCoroutine_d__27 const&) = delete;
+  SliderIntensityEffect__ProcessEffectCoroutine_d__27(SliderIntensityEffect__ProcessEffectCoroutine_d__27const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5729 };
@@ -473,6 +480,7 @@ static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect__ProcessEffectCo
 static_assert(sizeof(::GlobalNamespace::SliderIntensityEffect__ProcessEffectCoroutine_d__27) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/SliderIntensityEffect")]
 // Dependencies SliderIntensityEffect::FadeElement, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -552,6 +560,7 @@ public:
 
   static inline ::GlobalNamespace::SliderIntensityEffect* New_ctor();
 
+  /// [IteratorStateMachine(typeof(SliderIntensityEffect::<ProcessEffectCoroutine>d__27))]
   /// @brief Method ProcessEffectCoroutine, addr 0x597aa44, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProcessEffectCoroutine(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect_FadeElement*>* fadeElements);
 
@@ -561,9 +570,11 @@ public:
   /// @brief Method StartIntensityFadeInEffect, addr 0x5979998, size 0x30, virtual false, abstract: false, final false
   inline void StartIntensityFadeInEffect();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__24_0, addr 0x597aac4, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__24_1, addr 0x597aae0, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_1();
 
@@ -660,6 +671,7 @@ public:
   /// @brief Method .ctor, addr 0x597aaac, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_fadeInDidStartEvent, addr 0x5978234, size 0xac, virtual false, abstract: false, final false
   inline void add_fadeInDidStartEvent(::System::Action* value);
 
@@ -669,6 +681,7 @@ public:
   /// @brief Method get_intensity, addr 0x5976794, size 0x24, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_fadeInDidStartEvent, addr 0x5978854, size 0xac, virtual false, abstract: false, final false
   inline void remove_fadeInDidStartEvent(::System::Action* value);
 
@@ -678,38 +691,47 @@ protected:
   constexpr SliderIntensityEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderIntensityEffect(SliderIntensityEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect(SliderIntensityEffect const&) = delete;
+  SliderIntensityEffect(SliderIntensityEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5730 };
 
+  /// [SerializeField]
   /// @brief Field _longSliderHeadIntensity, offset: 0x20, size: 0x4, def value: None
   float_t ____longSliderHeadIntensity;
 
+  /// [SerializeField]
   /// @brief Field _shortSliderHeadIntensity, offset: 0x24, size: 0x4, def value: None
   float_t ____shortSliderHeadIntensity;
 
+  /// [SerializeField]
   /// @brief Field _tailIntensity, offset: 0x28, size: 0x4, def value: None
   float_t ____tailIntensity;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _fadeOutDuration, offset: 0x2c, size: 0x4, def value: None
   float_t ____fadeOutDuration;
 
+  /// [SerializeField]
   /// @brief Field _stayOffDuration, offset: 0x30, size: 0x4, def value: None
   float_t ____stayOffDuration;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::SliderIntensityEffect_InitData* ____initData;
 
+  /// [CompilerGenerated]
   /// @brief Field fadeInDidStartEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___fadeInDidStartEvent;
 

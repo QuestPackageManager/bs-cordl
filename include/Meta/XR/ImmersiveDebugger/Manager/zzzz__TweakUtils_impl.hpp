@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\TweakUtils.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/TweakUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__TweakUtils_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__TweakEnum_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Time.hpp"
+// IWYU pragma private; include "UnityEngine/Time.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Time_def.hpp"
 #include "Unity/IntegerTime/zzzz__RationalTime_def.hpp"

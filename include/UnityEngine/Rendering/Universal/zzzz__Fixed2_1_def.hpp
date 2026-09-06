@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Fixed2_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Fixed2_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,15 +8,19 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(Fixed2_1)
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
-template <typename T> struct Fixed2_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Fixed2_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::Universal::Fixed2_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::Universal::Fixed2_1, "UnityEngine.Rendering.Universal", "Fixed2`1");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.Fixed2`1<T>
 struct CORDL_TYPE Fixed2_1 {
@@ -24,6 +28,7 @@ public:
   // Declarations
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CheckRange(int32_t index);
 
@@ -43,7 +48,7 @@ public:
   // @brief default ctor
   constexpr Fixed2_1();
 
-  // Ctor Parameters [CppParam { name: "item1", ty: "T", modifiers: "", def_value: None }, CppParam { name: "item2", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "item1", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "item2", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr Fixed2_1(T item1, T item2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

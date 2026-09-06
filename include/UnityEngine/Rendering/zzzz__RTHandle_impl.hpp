@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RTHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RTHandle.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandleProperties_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_impl.hpp"
@@ -565,7 +565,7 @@ constexpr void UnityEngine::Rendering::RTHandle::__cordl_internal_set__reference
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____referenceSize_k__BackingField = value;
 }
-inline void UnityEngine::Rendering::RTHandle::SetCustomHandleProperties(::by_ref<::UnityEngine::Rendering::RTHandleProperties> properties) {
+inline void UnityEngine::Rendering::RTHandle::SetCustomHandleProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandleProperties> properties) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandle*>(), { "SetCustomHandleProperties", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RTHandleProperties>>() } })));

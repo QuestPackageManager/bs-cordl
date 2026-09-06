@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UIKeyboardManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/UIKeyboardManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ MARK_REF_T(::GlobalNamespace::UIKeyboardManager*);
 MARK_REF_T(::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManager");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20*, "", "UIKeyboardManager/<SummonSystemKeyboardAndWaitForResponse>d__20");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -94,17 +95,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a05974, size 0x138, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a05aac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a05ab4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a05aec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a05970, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -132,6 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_input(::UnityW<::HMUI::InputFieldView> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a05964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -150,13 +157,13 @@ protected:
   constexpr UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20 const&) = delete;
+  UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6337 };
@@ -249,6 +256,7 @@ public:
   /// @brief Method Start, addr 0x5a04f88, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [IteratorStateMachine(typeof(UIKeyboardManager::<SummonSystemKeyboardAndWaitForResponse>d__20))]
   /// @brief Method SummonSystemKeyboardAndWaitForResponse, addr 0x5a0549c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SummonSystemKeyboardAndWaitForResponse(::HMUI::InputFieldView* input);
 
@@ -309,13 +317,13 @@ protected:
   constexpr UIKeyboardManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIKeyboardManager(UIKeyboardManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboardManager(UIKeyboardManager const&) = delete;
+  UIKeyboardManager(UIKeyboardManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6338 };
@@ -323,18 +331,23 @@ public:
   /// @brief Field kKeyboardTopOffset offset 0xffffffff size 0x4
   static constexpr float_t kKeyboardTopOffset{ static_cast<float_t>(5.0f) };
 
+  /// [SerializeField]
   /// @brief Field _uiKeyboard, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;
 
+  /// [SerializeField]
   /// @brief Field _keyboardModalView, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::ModalViewBase> ____keyboardModalView;
 
+  /// [SerializeField]
   /// @brief Field _keyboardContainerTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____keyboardContainerTransform;
 
+  /// [SerializeField]
   /// @brief Field _parentContainerTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____parentContainerTransform;
 
+  /// [Inject]
   /// @brief Field _vrInputModule, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IVRInputModule* ____vrInputModule;
 

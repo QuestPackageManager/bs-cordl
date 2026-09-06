@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\CommandLine\CommandLineParseException.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/CommandLineParseException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,8 +23,10 @@ namespace BGLib::DotnetExtension::CommandLine {
 class CORDL_TYPE CommandLineParseException : public ::System::Exception {
 public:
   // Declarations
+  /// @brief [NullableContext(1)]
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParseException* New_ctor(::StringW hint, ::System::Exception* innerException);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x33114b4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW hint, ::System::Exception* innerException);
 
@@ -34,13 +36,13 @@ protected:
   constexpr CommandLineParseException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParseException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParseException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandLineParseException(CommandLineParseException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParseException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParseException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandLineParseException(CommandLineParseException const&) = delete;
+  CommandLineParseException(CommandLineParseExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20520 };

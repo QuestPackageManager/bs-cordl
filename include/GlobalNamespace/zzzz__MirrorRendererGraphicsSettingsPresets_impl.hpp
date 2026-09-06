@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirrorRendererGraphicsSettingsPresets.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirrorRendererGraphicsSettingsPresets.hpp"
 #include "GlobalNamespace/zzzz__MirrorType_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedPresetsSO_impl.hpp"

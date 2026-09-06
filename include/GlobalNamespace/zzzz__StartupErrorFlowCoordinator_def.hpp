@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StartupErrorFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/StartupErrorFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,20 +59,22 @@ protected:
   constexpr StartupErrorFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StartupErrorFlowCoordinator(StartupErrorFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StartupErrorFlowCoordinator(StartupErrorFlowCoordinator const&) = delete;
+  StartupErrorFlowCoordinator(StartupErrorFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6372 };
 
+  /// [SerializeField]
   /// @brief Field _startupErrorViewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StartupErrorViewController> ____startupErrorViewController;
 
+  /// [Inject]
   /// @brief Field _startupErrorSceneSetupData, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::StartupErrorSceneSetupData* ____startupErrorSceneSetupData;
 

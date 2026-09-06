@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SegmentedControlCell.hpp"
+// IWYU pragma private; include "HMUI/SegmentedControlCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class SegmentedControlCell;
 // Write type traits
 MARK_REF_T(::HMUI::SegmentedControlCell*);
 DEFINE_IL2CPP_CLASS(::HMUI::SegmentedControlCell*, "HMUI", "SegmentedControlCell");
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies HMUI.SelectableCell
 namespace HMUI {
 // Is value type: false
@@ -54,9 +55,11 @@ public:
   /// @brief Method .ctor, addr 0x5f560f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cellNumber, addr 0x5f5718c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cellNumber();
 
+  /// [CompilerGenerated]
   /// @brief Method set_cellNumber, addr 0x5f57194, size 0x8, virtual false, abstract: false, final false
   inline void set_cellNumber(int32_t value);
 
@@ -66,17 +69,18 @@ protected:
   constexpr SegmentedControlCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControlCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControlCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SegmentedControlCell(SegmentedControlCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControlCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControlCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SegmentedControlCell(SegmentedControlCell const&) = delete;
+  SegmentedControlCell(SegmentedControlCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23139 };
 
+  /// [CompilerGenerated]
   /// @brief Field <cellNumber>k__BackingField, offset: 0x64, size: 0x4, def value: None
   int32_t ____cellNumber_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\StreamReader.hpp"
+// IWYU pragma private; include "System/IO/StreamReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,7 @@ MARK_VAL_T(::System::IO::StreamReader__ReadBufferAsync_d__69);
 DEFINE_IL2CPP_CLASS(::System::IO::StreamReader*, "System.IO", "StreamReader");
 DEFINE_IL2CPP_CLASS(::System::IO::StreamReader__ReadAsyncInternal_d__66, "System.IO", "StreamReader/<ReadAsyncInternal>d__66");
 DEFINE_IL2CPP_CLASS(::System::IO::StreamReader__ReadBufferAsync_d__69, "System.IO", "StreamReader/<ReadBufferAsync>d__69");
+// [CompilerGenerated]
 // Dependencies System.Memory`1<T>, System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1::ConfiguredValueTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace System::IO {
@@ -85,6 +86,7 @@ public:
   /// @brief Method MoveNext, addr 0x5bfd6b0, size 0xac4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5bfe174, size 0x5c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -95,14 +97,15 @@ public:
   // @brief default ctor
   constexpr StreamReader__ReadAsyncInternal_d__66();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::StreamReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "buffer", ty: "::System::Memory_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_charsRead_5__2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_readToUserBuffer_5__3", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_tmpByteBuffer_5__4", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "_tmpStream_5__5", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "_count_5__6", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_n_5__7", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::IO::StreamReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty: "::System::Memory_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_charsRead_5__2", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_readToUserBuffer_5__3", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_tmpByteBuffer_5__4", ty: "::ArrayW<uint8_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_tmpStream_5__5", ty: "::System::IO::Stream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_count_5__6",
+  // ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_n_5__7", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr StreamReader__ReadAsyncInternal_d__66(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> __t__builder, ::System::IO::StreamReader* __4__this,
                                                   ::System::Memory_1<char16_t> buffer, ::System::Threading::CancellationToken cancellationToken, int32_t _charsRead_5__2, bool _readToUserBuffer_5__3,
                                                   ::ArrayW<uint8_t> _tmpByteBuffer_5__4, ::System::IO::Stream* _tmpStream_5__5, int32_t _count_5__6,
@@ -186,6 +189,7 @@ static_assert(offsetof(::System::IO::StreamReader__ReadAsyncInternal_d__66, __u_
 static_assert(sizeof(::System::IO::StreamReader__ReadAsyncInternal_d__66) == 0x90, "Size mismatch!");
 
 } // namespace System::IO
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1::ConfiguredValueTaskAwaiter<TResult>
 namespace System::IO {
 // Is value type: true
@@ -199,6 +203,7 @@ public:
   /// @brief Method MoveNext, addr 0x5bfe1d0, size 0x64c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5bfe81c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -209,10 +214,11 @@ public:
   // @brief default ctor
   constexpr StreamReader__ReadBufferAsync_d__69();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::StreamReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "_tmpByteBuffer_5__2", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_tmpStream_5__3", ty: "::System::IO::Stream*", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::IO::StreamReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_tmpByteBuffer_5__2", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_tmpStream_5__3", ty: "::System::IO::Stream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr StreamReader__ReadBufferAsync_d__69(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, ::System::IO::StreamReader* __4__this,
                                                 ::ArrayW<uint8_t> _tmpByteBuffer_5__2, ::System::IO::Stream* _tmpStream_5__3,
                                                 ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<int32_t> __u__1) noexcept;
@@ -392,6 +398,7 @@ public:
   /// @brief Method ReadAsync, addr 0x5bfce40, size 0x2b4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
+  /// [AsyncStateMachine(typeof(System.IO.StreamReader::<ReadAsyncInternal>d__66))]
   /// @brief Method ReadAsyncInternal, addr 0x5bfd2d8, size 0x130, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsyncInternal(::System::Memory_1<char16_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
@@ -401,6 +408,7 @@ public:
   /// @brief Method ReadBuffer, addr 0x5bfc244, size 0x300, virtual false, abstract: false, final false
   inline int32_t ReadBuffer(::System::Span_1<char16_t> userBuffer, ::by_ref<bool> readToUserBuffer);
 
+  /// [AsyncStateMachine(typeof(System.IO.StreamReader::<ReadBufferAsync>d__69))]
   /// @brief Method ReadBufferAsync, addr 0x5bfd408, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadBufferAsync();
 
@@ -561,13 +569,13 @@ protected:
   constexpr StreamReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StreamReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StreamReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StreamReader(StreamReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StreamReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StreamReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StreamReader(StreamReader const&) = delete;
+  StreamReader(StreamReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3857 };

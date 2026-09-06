@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchCullingOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,8 @@ public:
   // @brief default ctor
   constexpr BatchCullingOutput();
 
-  // Ctor Parameters [CppParam { name: "drawCommands", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers: "", def_value: None }, CppParam {
-  // name: "customCullingResult", ty: "::Unity::Collections::NativeArray_1<::System::IntPtr>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "drawCommands", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "customCullingResult", ty: "::Unity::Collections::NativeArray_1<::System::IntPtr>", modifiers: "", def_value: None, comment: None }]
   constexpr BatchCullingOutput(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands> drawCommands,
                                ::Unity::Collections::NativeArray_1<::System::IntPtr> customCullingResult) noexcept;
 

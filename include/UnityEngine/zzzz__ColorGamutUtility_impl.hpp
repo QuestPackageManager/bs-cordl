@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ColorGamutUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ColorGamutUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ColorGamutUtility_def.hpp"
 #include "UnityEngine/zzzz__ColorGamut_def.hpp"

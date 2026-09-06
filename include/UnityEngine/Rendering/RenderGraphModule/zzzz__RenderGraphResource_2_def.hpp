@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphResource_2.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphResource_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,19 +10,25 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class IRenderGraphResourcePool;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type> class RenderGraphResourcePool_1;
+template <typename Type>
+  requires(::cordl_internals::reference_type_constraint<Type>)
+class RenderGraphResourcePool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename DescType, typename ResType> class RenderGraphResource_2;
+template <typename DescType, typename ResType>
+  requires(::cordl_internals::value_type_constraint<DescType> && ::cordl_internals::default_constructor_constraint<DescType> && ::cordl_internals::reference_type_constraint<ResType>)
+class RenderGraphResource_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphResource`2");
+// [DebuggerDisplay("Resource ({GetType().Name}:{GetName()})")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.IRenderGraphResource
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename DescType, typename ResType>
+  requires(::cordl_internals::value_type_constraint<DescType> && ::cordl_internals::default_constructor_constraint<DescType> && ::cordl_internals::reference_type_constraint<ResType>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphResource`2<DescType,ResType>
 class CORDL_TYPE RenderGraphResource_2 : public ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource {
@@ -90,13 +96,13 @@ protected:
   constexpr RenderGraphResource_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResource_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResource_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphResource_2(RenderGraphResource_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResource_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResource_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphResource_2(RenderGraphResource_2 const&) = delete;
+  RenderGraphResource_2(RenderGraphResource_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12460 };

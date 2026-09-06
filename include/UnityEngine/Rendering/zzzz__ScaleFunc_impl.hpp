@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ScaleFunc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ScaleFunc.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ScaleFunc_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"

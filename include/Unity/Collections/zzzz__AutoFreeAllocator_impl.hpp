@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\AutoFreeAllocator.hpp"
+// IWYU pragma private; include "Unity/Collections/AutoFreeAllocator.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -413,9 +413,10 @@ constexpr Unity::Collections::AutoFreeAllocator::operator ::System::IDisposable*
 constexpr ::System::IDisposable* Unity::Collections::AutoFreeAllocator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_allocated", ty: "::Unity::Collections::ArrayOfArrays_1<::System::IntPtr>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_tofree", ty:
-// "::Unity::Collections::ArrayOfArrays_1<::System::IntPtr>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_handle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_backingAllocatorHandle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_allocated", ty: "::Unity::Collections::ArrayOfArrays_1<::System::IntPtr>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_tofree",
+// ty: "::Unity::Collections::ArrayOfArrays_1<::System::IntPtr>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_handle", ty:
+// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_backingAllocatorHandle", ty:
+// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::AutoFreeAllocator::AutoFreeAllocator(::Unity::Collections::ArrayOfArrays_1<::System::IntPtr> m_allocated,
                                                                      ::Unity::Collections::ArrayOfArrays_1<::System::IntPtr> m_tofree, ::Unity::Collections::AllocatorManager_AllocatorHandle m_handle,
                                                                      ::Unity::Collections::AllocatorManager_AllocatorHandle m_backingAllocatorHandle) noexcept {

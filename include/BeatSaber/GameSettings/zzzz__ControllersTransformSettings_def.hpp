@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllersTransformSettings.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllersTransformSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class ControllersTransformSettings;
 // Write type traits
 MARK_REF_T(::BeatSaber::GameSettings::ControllersTransformSettings*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::GameSettings::ControllersTransformSettings*, "BeatSaber.GameSettings", "ControllersTransformSettings");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies UnityEngine.MonoBehaviour
 namespace BeatSaber::GameSettings {
 // Is value type: false
@@ -133,13 +135,13 @@ protected:
   constexpr ControllersTransformSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllersTransformSettings(ControllersTransformSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllersTransformSettings(ControllersTransformSettings const&) = delete;
+  ControllersTransformSettings(ControllersTransformSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22058 };
@@ -153,27 +155,36 @@ public:
   /// @brief Field kRotationStep offset 0xffffffff size 0x4
   static constexpr float_t kRotationStep{ static_cast<float_t>(1.0f) };
 
+  /// [SerializeField]
   /// @brief Field _isLeft, offset: 0x20, size: 0x1, def value: None
   bool ____isLeft;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _posXSlider, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::RangeValuesTextSlider> ____posXSlider;
 
+  /// [SerializeField]
   /// @brief Field _posYSlider, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::HMUI::RangeValuesTextSlider> ____posYSlider;
 
+  /// [SerializeField]
   /// @brief Field _posZSlider, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::HMUI::RangeValuesTextSlider> ____posZSlider;
 
+  /// [SerializeField]
   /// @brief Field _rotXSlider, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::HMUI::RangeValuesTextSlider> ____rotXSlider;
 
+  /// [SerializeField]
   /// @brief Field _rotYSlider, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::HMUI::RangeValuesTextSlider> ____rotYSlider;
 
+  /// [SerializeField]
   /// @brief Field _rotZSlider, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::HMUI::RangeValuesTextSlider> ____rotZSlider;
 
+  /// [Nullable(2)]
   /// @brief Field _selectedControllerProfile, offset: 0x58, size: 0x8, def value: None
   ::BeatSaber::GameSettings::ControllerProfile* ____selectedControllerProfile;
 

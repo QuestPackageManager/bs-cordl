@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\ScribeHelperUtility.hpp"
+// IWYU pragma private; include "OSCE/Analytics/ScribeHelperUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,13 +63,13 @@ protected:
   constexpr ScribeHelperUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScribeHelperUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScribeHelperUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScribeHelperUtility(ScribeHelperUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScribeHelperUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScribeHelperUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScribeHelperUtility(ScribeHelperUtility const&) = delete;
+  ScribeHelperUtility(ScribeHelperUtilityconst&) = delete;
 
   /// @brief Field DOUBLE_TYPE_SCRIBE_KEY offset 0xffffffff size 0x8
   static constexpr ::ConstString DOUBLE_TYPE_SCRIBE_KEY{ u"double" };

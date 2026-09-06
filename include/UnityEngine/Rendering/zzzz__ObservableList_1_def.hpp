@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ObservableList_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ObservableList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ template <typename T> class ObservableList_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ObservableList_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::ObservableList_1, "UnityEngine.Rendering", "ObservableList`1");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
@@ -75,7 +76,7 @@ public:
   inline void Add(T item);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(::ArrayW<T> items);
+  inline void Add(/* [ParamArray] */ ::ArrayW<T> items);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
@@ -108,7 +109,7 @@ public:
   inline bool Remove(T item);
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Remove(::ArrayW<T> items);
+  inline int32_t Remove(/* [ParamArray] */ ::ArrayW<T> items);
 
   /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
@@ -143,9 +144,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* collection);
 
+  /// [CompilerGenerated]
   /// @brief Method add_ItemAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_ItemAdded(::UnityEngine::Rendering::ListChangedEventHandler_1<T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_ItemRemoved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_ItemRemoved(::UnityEngine::Rendering::ListChangedEventHandler_1<T>* value);
 
@@ -170,9 +173,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_ItemAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_ItemAdded(::UnityEngine::Rendering::ListChangedEventHandler_1<T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_ItemRemoved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_ItemRemoved(::UnityEngine::Rendering::ListChangedEventHandler_1<T>* value);
 
@@ -185,13 +190,13 @@ protected:
   constexpr ObservableList_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObservableList_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObservableList_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObservableList_1(ObservableList_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObservableList_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObservableList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObservableList_1(ObservableList_1 const&) = delete;
+  ObservableList_1(ObservableList_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11935 };
@@ -199,9 +204,11 @@ public:
   /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<T>* ___m_List;
 
+  /// [CompilerGenerated]
   /// @brief Field ItemAdded, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::ListChangedEventHandler_1<T>* ___ItemAdded;
 
+  /// [CompilerGenerated]
   /// @brief Field ItemRemoved, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::ListChangedEventHandler_1<T>* ___ItemRemoved;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRChaperone.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRChaperone.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRChaperone_def.hpp"
 #include "OVR/OpenVR/zzzz__ChaperoneCalibrationState_def.hpp"
@@ -657,12 +657,13 @@ inline ::OVR::OpenVR::IVRChaperone__ForceBoundsVisible* OVR::OpenVR::IVRChaperon
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRChaperone__ForceBoundsVisible::IVRChaperone__ForceBoundsVisible() {}
-// Ctor Parameters [CppParam { name: "GetCalibrationState", ty: "::OVR::OpenVR::IVRChaperone__GetCalibrationState*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetPlayAreaSize", ty:
-// "::OVR::OpenVR::IVRChaperone__GetPlayAreaSize*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetPlayAreaRect", ty: "::OVR::OpenVR::IVRChaperone__GetPlayAreaRect*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "ReloadInfo", ty: "::OVR::OpenVR::IVRChaperone__ReloadInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetSceneColor", ty:
-// "::OVR::OpenVR::IVRChaperone__SetSceneColor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetBoundsColor", ty: "::OVR::OpenVR::IVRChaperone__GetBoundsColor*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "AreBoundsVisible", ty: "::OVR::OpenVR::IVRChaperone__AreBoundsVisible*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ForceBoundsVisible",
-// ty: "::OVR::OpenVR::IVRChaperone__ForceBoundsVisible*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "GetCalibrationState", ty: "::OVR::OpenVR::IVRChaperone__GetCalibrationState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetPlayAreaSize", ty: "::OVR::OpenVR::IVRChaperone__GetPlayAreaSize*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetPlayAreaRect", ty:
+// "::OVR::OpenVR::IVRChaperone__GetPlayAreaRect*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ReloadInfo", ty: "::OVR::OpenVR::IVRChaperone__ReloadInfo*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "SetSceneColor", ty: "::OVR::OpenVR::IVRChaperone__SetSceneColor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetBoundsColor", ty: "::OVR::OpenVR::IVRChaperone__GetBoundsColor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AreBoundsVisible", ty:
+// "::OVR::OpenVR::IVRChaperone__AreBoundsVisible*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ForceBoundsVisible", ty:
+// "::OVR::OpenVR::IVRChaperone__ForceBoundsVisible*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IVRChaperone::IVRChaperone(::OVR::OpenVR::IVRChaperone__GetCalibrationState* GetCalibrationState, ::OVR::OpenVR::IVRChaperone__GetPlayAreaSize* GetPlayAreaSize,
                                                     ::OVR::OpenVR::IVRChaperone__GetPlayAreaRect* GetPlayAreaRect, ::OVR::OpenVR::IVRChaperone__ReloadInfo* ReloadInfo,
                                                     ::OVR::OpenVR::IVRChaperone__SetSceneColor* SetSceneColor, ::OVR::OpenVR::IVRChaperone__GetBoundsColor* GetBoundsColor,

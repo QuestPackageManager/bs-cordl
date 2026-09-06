@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ExtensionDataGetter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ExtensionDataGetter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ExtensionDataGetter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -76,7 +76,7 @@ Newtonsoft::Json::Serialization::ExtensionDataGetter::Invoke(::System::Object* o
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>*>(
       this, ___internal_method, o);
 }
-inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::ExtensionDataGetter::BeginInvoke(::System::Object* o, ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::ExtensionDataGetter::BeginInvoke(/* [Nullable(1)] */ ::System::Object* o, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::ExtensionDataGetter*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, o, callback, object);

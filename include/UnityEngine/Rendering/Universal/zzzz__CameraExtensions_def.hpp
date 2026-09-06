@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\CameraExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/CameraExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class CameraExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::CameraExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::CameraExtensions*, "UnityEngine.Rendering.Universal", "CameraExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -34,28 +35,36 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE CameraExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method DestroyVolumeStack, addr 0x68c8288, size 0x14, virtual false, abstract: false, final false
   static inline void DestroyVolumeStack(::UnityEngine::Camera* camera);
 
+  /// [Extension]
   /// @brief Method DestroyVolumeStack, addr 0x68c829c, size 0x8c, virtual false, abstract: false, final false
   static inline void DestroyVolumeStack(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* cameraData);
 
+  /// [Extension]
   /// @brief Method GetUniversalAdditionalCameraData, addr 0x68c7c38, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> GetUniversalAdditionalCameraData(::UnityEngine::Camera* camera);
 
+  /// [Extension]
   /// @brief Method GetVolumeFrameworkUpdateMode, addr 0x68c7ce8, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode GetVolumeFrameworkUpdateMode(::UnityEngine::Camera* camera);
 
+  /// [Extension]
   /// @brief Method GetVolumeLayerMaskAndTrigger, addr 0x68c80ac, size 0x1dc, virtual false, abstract: false, final false
   static inline void GetVolumeLayerMaskAndTrigger(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* cameraData,
                                                   ::by_ref<::UnityEngine::LayerMask> layerMask, ::by_ref<::UnityEngine::Transform*> trigger);
 
+  /// [Extension]
   /// @brief Method SetVolumeFrameworkUpdateMode, addr 0x68c7d04, size 0x68, virtual false, abstract: false, final false
   static inline void SetVolumeFrameworkUpdateMode(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode mode);
 
+  /// [Extension]
   /// @brief Method UpdateVolumeStack, addr 0x68c7f48, size 0x1c, virtual false, abstract: false, final false
   static inline void UpdateVolumeStack(::UnityEngine::Camera* camera);
 
+  /// [Extension]
   /// @brief Method UpdateVolumeStack, addr 0x68c7df4, size 0x154, virtual false, abstract: false, final false
   static inline void UpdateVolumeStack(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* cameraData);
 
@@ -65,13 +74,13 @@ protected:
   constexpr CameraExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CameraExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CameraExtensions(CameraExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CameraExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CameraExtensions(CameraExtensions const&) = delete;
+  CameraExtensions(CameraExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12990 };

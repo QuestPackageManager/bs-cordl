@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Compression\DeflateStreamNative.hpp"
+// IWYU pragma private; include "System/IO/Compression/DeflateStreamNative.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ MARK_REF_T(::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite*)
 DEFINE_IL2CPP_CLASS(::System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");
 DEFINE_IL2CPP_CLASS(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*, "System.IO.Compression", "DeflateStreamNative/SafeDeflateStreamHandle");
 DEFINE_IL2CPP_CLASS(::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite*, "System.IO.Compression", "DeflateStreamNative/UnmanagedReadOrWrite");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace System::IO::Compression {
 // Is value type: false
@@ -70,13 +71,13 @@ protected:
   constexpr DeflateStreamNative_UnmanagedReadOrWrite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_UnmanagedReadOrWrite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_UnmanagedReadOrWrite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeflateStreamNative_UnmanagedReadOrWrite(DeflateStreamNative_UnmanagedReadOrWrite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_UnmanagedReadOrWrite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_UnmanagedReadOrWrite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStreamNative_UnmanagedReadOrWrite(DeflateStreamNative_UnmanagedReadOrWrite const&) = delete;
+  DeflateStreamNative_UnmanagedReadOrWrite(DeflateStreamNative_UnmanagedReadOrWriteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11439 };
@@ -113,13 +114,13 @@ protected:
   constexpr DeflateStreamNative_SafeDeflateStreamHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_SafeDeflateStreamHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_SafeDeflateStreamHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeflateStreamNative_SafeDeflateStreamHandle(DeflateStreamNative_SafeDeflateStreamHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_SafeDeflateStreamHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_SafeDeflateStreamHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStreamNative_SafeDeflateStreamHandle(DeflateStreamNative_SafeDeflateStreamHandle const&) = delete;
+  DeflateStreamNative_SafeDeflateStreamHandle(DeflateStreamNative_SafeDeflateStreamHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11440 };
@@ -198,12 +199,14 @@ public:
   /// @brief Method UnmanagedRead, addr 0x63f67e4, size 0x1a8, virtual false, abstract: false, final false
   inline int32_t UnmanagedRead(::System::IntPtr buffer, int32_t length);
 
+  /// [MonoPInvokeCallback(typeof(System.IO.Compression.DeflateStreamNative::UnmanagedReadOrWrite))]
   /// @brief Method UnmanagedRead, addr 0x63f6210, size 0x10c, virtual false, abstract: false, final false
   static inline int32_t UnmanagedRead(::System::IntPtr buffer, int32_t length, ::System::IntPtr data);
 
   /// @brief Method UnmanagedWrite, addr 0x63f698c, size 0x1dc, virtual false, abstract: false, final false
   inline int32_t UnmanagedWrite(::System::IntPtr buffer, int32_t length);
 
+  /// [MonoPInvokeCallback(typeof(System.IO.Compression.DeflateStreamNative::UnmanagedReadOrWrite))]
   /// @brief Method UnmanagedWrite, addr 0x63f631c, size 0x10c, virtual false, abstract: false, final false
   static inline int32_t UnmanagedWrite(::System::IntPtr buffer, int32_t length, ::System::IntPtr data);
 
@@ -264,13 +267,13 @@ protected:
   constexpr DeflateStreamNative();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeflateStreamNative(DeflateStreamNative&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStreamNative(DeflateStreamNative const&) = delete;
+  DeflateStreamNative(DeflateStreamNativeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11441 };

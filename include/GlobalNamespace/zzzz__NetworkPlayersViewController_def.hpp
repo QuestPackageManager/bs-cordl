@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkPlayersViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkPlayersViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,24 +107,28 @@ public:
   /// @brief Method .ctor, addr 0x5a1c190, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onInviteRequestEvent, addr 0x5a1b868, size 0xc0, virtual false, abstract: false, final false
   inline void add_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onJoinRequestEvent, addr 0x5a1b6e8, size 0xc0, virtual false, abstract: false, final false
   inline void add_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method get_myPartyTitle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_myPartyTitle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_myPartyTitle();
 
-  /// @brief Method get_networkPlayerModel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_networkPlayerModel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
 
-  /// @brief Method get_otherPlayersTitle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_otherPlayersTitle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_otherPlayersTitle();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onInviteRequestEvent, addr 0x5a1b928, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onJoinRequestEvent, addr 0x5a1b7a8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
@@ -134,26 +138,29 @@ protected:
   constexpr NetworkPlayersViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkPlayersViewController(NetworkPlayersViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayersViewController(NetworkPlayersViewController const&) = delete;
+  NetworkPlayersViewController(NetworkPlayersViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6451 };
 
+  /// [SerializeField]
   /// @brief Field _networkPlayersTableView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NetworkPlayersTableView> ____networkPlayersTableView;
 
   /// @brief Field _refreshIsNeeded, offset: 0x80, size: 0x1, def value: None
   bool ____refreshIsNeeded;
 
+  /// [CompilerGenerated]
   /// @brief Field onJoinRequestEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::INetworkPlayer*>* ___onJoinRequestEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onInviteRequestEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::INetworkPlayer*>* ___onInviteRequestEvent;
 

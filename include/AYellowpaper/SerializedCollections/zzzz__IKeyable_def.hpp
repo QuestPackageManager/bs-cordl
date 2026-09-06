@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AYellowpaper\SerializedCollections\IKeyable.hpp"
+// IWYU pragma private; include "AYellowpaper/SerializedCollections/IKeyable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,36 +30,36 @@ public:
   // Declarations
   __declspec(property(get = get_Keys)) ::System::Collections::IEnumerable* Keys;
 
-  /// @brief Method AddKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddKey(::System::Object* key);
 
-  /// @brief Method GetCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetCount();
 
-  /// @brief Method GetKeyAt, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetKeyAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetKeyAt(int32_t index);
 
-  /// @brief Method GetOccurences, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetOccurences, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* GetOccurences(::System::Object* key);
 
-  /// @brief Method RecalculateOccurences, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RecalculateOccurences, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RecalculateOccurences();
 
-  /// @brief Method RemoveAt, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method RemoveDuplicates, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RemoveDuplicates, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveDuplicates();
 
-  /// @brief Method RemoveKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RemoveKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveKey(::System::Object* key);
 
-  /// @brief Method get_Keys, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IEnumerable* get_Keys();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IKeyable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IKeyable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IKeyable(IKeyable const&) = delete;
+  IKeyable(IKeyableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23373 };

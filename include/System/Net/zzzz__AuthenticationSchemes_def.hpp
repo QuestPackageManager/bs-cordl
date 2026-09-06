@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\AuthenticationSchemes.hpp"
+// IWYU pragma private; include "System/Net/AuthenticationSchemes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct AuthenticationSchemes;
 // Write type traits
 MARK_VAL_T(::System::Net::AuthenticationSchemes);
 DEFINE_IL2CPP_CLASS(::System::Net::AuthenticationSchemes, "System.Net", "AuthenticationSchemes");
+// [Flags]
 // Dependencies
 namespace System::Net {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr AuthenticationSchemes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AuthenticationSchemes(int32_t value__) noexcept;
 
   /// @brief Field Anonymous value: I32(32768)

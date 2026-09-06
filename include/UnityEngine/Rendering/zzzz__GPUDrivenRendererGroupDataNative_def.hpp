@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenRendererGroupDataNative.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenRendererGroupDataNative.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ struct GPUDrivenRendererGroupDataNative;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative, "UnityEngine.Rendering", "GPUDrivenRendererGroupDataNative");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -48,24 +49,27 @@ public:
   // @brief default ctor
   constexpr GPUDrivenRendererGroupDataNative();
 
-  // Ctor Parameters [CppParam { name: "rendererGroupID", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "localBounds", ty: "::UnityEngine::Bounds*", modifiers: "", def_value: None
-  // }, CppParam { name: "lightmapScaleOffset", ty: "::UnityEngine::Vector4*", modifiers: "", def_value: None }, CppParam { name: "gameObjectLayer", ty: "int32_t*", modifiers: "", def_value: None },
-  // CppParam { name: "renderingLayerMask", ty: "uint32_t*", modifiers: "", def_value: None }, CppParam { name: "lodGroupID", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name:
-  // "motionVecGenMode", ty: "::UnityEngine::MotionVectorGenerationMode*", modifiers: "", def_value: None }, CppParam { name: "packedRendererData", ty:
-  // "::UnityEngine::Rendering::GPUDrivenPackedRendererData*", modifiers: "", def_value: None }, CppParam { name: "rendererPriority", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name:
-  // "meshIndex", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "subMeshStartIndex", ty: "int16_t*", modifiers: "", def_value: None }, CppParam { name: "materialsOffset", ty:
-  // "int32_t*", modifiers: "", def_value: None }, CppParam { name: "materialsCount", ty: "int16_t*", modifiers: "", def_value: None }, CppParam { name: "instancesOffset", ty: "int32_t*", modifiers:
-  // "", def_value: None }, CppParam { name: "instancesCount", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "editorData", ty:
-  // "::UnityEngine::Rendering::GPUDrivenRendererEditorData*", modifiers: "", def_value: None }, CppParam { name: "rendererGroupCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "invalidRendererGroupID", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "invalidRendererGroupIDCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4*", modifiers: "", def_value: None }, CppParam { name: "prevLocalToWorldMatrix", ty: "::UnityEngine::Matrix4x4*", modifiers: "", def_value: None
-  // }, CppParam { name: "rendererGroupIndex", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "meshID", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "subMeshCount", ty: "int16_t*", modifiers: "", def_value: None }, CppParam { name: "subMeshDescOffset", ty:
-  // "int32_t*", modifiers: "", def_value: None }, CppParam { name: "meshCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subMeshDesc", ty:
-  // "::UnityEngine::Rendering::SubMeshDescriptor*", modifiers: "", def_value: None }, CppParam { name: "subMeshDescCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "materialIndex", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "materialIndexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "materialID", ty:
-  // "int32_t*", modifiers: "", def_value: None }, CppParam { name: "packedMaterialData", ty: "::UnityEngine::Rendering::GPUDrivenPackedMaterialData*", modifiers: "", def_value: None }, CppParam {
-  // name: "materialFilterFlags", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "materialCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rendererGroupID", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "localBounds", ty: "::UnityEngine::Bounds*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "lightmapScaleOffset", ty: "::UnityEngine::Vector4*", modifiers: "", def_value: None, comment: None }, CppParam { name: "gameObjectLayer", ty:
+  // "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderingLayerMask", ty: "uint32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "lodGroupID", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "motionVecGenMode", ty: "::UnityEngine::MotionVectorGenerationMode*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "packedRendererData", ty: "::UnityEngine::Rendering::GPUDrivenPackedRendererData*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "rendererPriority", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "meshIndex", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "subMeshStartIndex", ty: "int16_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "materialsOffset", ty: "int32_t*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "materialsCount", ty: "int16_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "instancesOffset", ty: "int32_t*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "instancesCount", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "editorData", ty:
+  // "::UnityEngine::Rendering::GPUDrivenRendererEditorData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererGroupCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "invalidRendererGroupID", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "invalidRendererGroupIDCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "prevLocalToWorldMatrix", ty: "::UnityEngine::Matrix4x4*", modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererGroupIndex", ty: "int32_t*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "meshID", ty: "int32_t*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "subMeshCount", ty: "int16_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "subMeshDescOffset", ty: "int32_t*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "meshCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "subMeshDesc", ty:
+  // "::UnityEngine::Rendering::SubMeshDescriptor*", modifiers: "", def_value: None, comment: None }, CppParam { name: "subMeshDescCount", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "materialIndex", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "materialIndexCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "materialID", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "packedMaterialData", ty:
+  // "::UnityEngine::Rendering::GPUDrivenPackedMaterialData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "materialFilterFlags", ty: "int32_t*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "materialCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GPUDrivenRendererGroupDataNative(int32_t* rendererGroupID, ::UnityEngine::Bounds* localBounds, ::UnityEngine::Vector4* lightmapScaleOffset, int32_t* gameObjectLayer,
                                              uint32_t* renderingLayerMask, int32_t* lodGroupID, ::UnityEngine::MotionVectorGenerationMode* motionVecGenMode,
                                              ::UnityEngine::Rendering::GPUDrivenPackedRendererData* packedRendererData, int32_t* rendererPriority, int32_t* meshIndex, int16_t* subMeshStartIndex,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGazePointer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGazePointer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class OVRGazePointer;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRGazePointer*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRGazePointer*, "", "OVRGazePointer");
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-ovroverlay/#using-cylinder-overlays")]
 // Dependencies OVRCursor
 namespace GlobalNamespace {
 // Is value type: false
@@ -222,9 +223,11 @@ public:
   /// @brief Method get_SelectionProgress, addr 0x5efb1c0, size 0x7c, virtual false, abstract: false, final false
   inline float_t get_SelectionProgress();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentScale, addr 0x5efaeb0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentScale();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hidden, addr 0x5efaea0, size 0x8, virtual false, abstract: false, final false
   inline bool get_hidden();
 
@@ -239,9 +242,11 @@ public:
   /// @brief Method set_SelectionProgress, addr 0x5efb23c, size 0x84, virtual false, abstract: false, final false
   inline void set_SelectionProgress(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentScale, addr 0x5efaeb8, size 0x8, virtual false, abstract: false, final false
   inline void set_currentScale(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hidden, addr 0x5efaea8, size 0x8, virtual false, abstract: false, final false
   inline void set_hidden(bool value);
 
@@ -251,13 +256,13 @@ protected:
   constexpr OVRGazePointer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGazePointer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGazePointer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGazePointer(OVRGazePointer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGazePointer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGazePointer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGazePointer(OVRGazePointer const&) = delete;
+  OVRGazePointer(OVRGazePointerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7913 };
@@ -265,18 +270,23 @@ public:
   /// @brief Field gazeIcon, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___gazeIcon;
 
+  /// [Tooltip("Should the pointer be hidden when not over interactive objects.")]
   /// @brief Field hideByDefault, offset: 0x28, size: 0x1, def value: None
   bool ___hideByDefault;
 
+  /// [Tooltip("Time after leaving interactive object before pointer fades.")]
   /// @brief Field showTimeoutPeriod, offset: 0x2c, size: 0x4, def value: None
   float_t ___showTimeoutPeriod;
 
+  /// [Tooltip("Time after mouse pointer becoming inactive before pointer unfades.")]
   /// @brief Field hideTimeoutPeriod, offset: 0x30, size: 0x4, def value: None
   float_t ___hideTimeoutPeriod;
 
+  /// [Tooltip("Keep a faint version of the pointer visible while using a mouse")]
   /// @brief Field dimOnHideRequest, offset: 0x34, size: 0x1, def value: None
   bool ___dimOnHideRequest;
 
+  /// [Tooltip("Angular scale of pointer")]
   /// @brief Field depthScaleMultiplier, offset: 0x38, size: 0x4, def value: None
   float_t ___depthScaleMultiplier;
 
@@ -286,9 +296,11 @@ public:
   /// @brief Field rayTransform, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___rayTransform;
 
+  /// [CompilerGenerated]
   /// @brief Field <hidden>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____hidden_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentScale>k__BackingField, offset: 0x4c, size: 0x4, def value: None
   float_t ____currentScale_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Touchscreen.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Touchscreen.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ class Touchscreen;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Touchscreen*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Touchscreen*, "UnityEngine.InputSystem", "Touchscreen");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.LowLevel.TouchscreenState), isGenericTypeOfDevice = true)]
 // Dependencies Unity.Profiling.ProfilerMarker, UnityEngine.InputSystem.Pointer, UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<TValue>
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -158,15 +159,18 @@ public:
 
   static inline float_t getStaticF_s_TapTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6567600, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Touchscreen* get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_primaryTouch, addr 0x6567570, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::TouchControl* get_primaryTouch();
 
   /// @brief Method get_touchControlArray, addr 0x6567594, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::InputSystem::Controls::TouchControl*> get_touchControlArray();
 
+  /// [CompilerGenerated]
   /// @brief Method get_touches, addr 0x6567580, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> get_touches();
 
@@ -191,15 +195,18 @@ public:
 
   static inline void setStaticF_s_TapTime(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x656765c, size 0x60, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Touchscreen* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_primaryTouch, addr 0x6567578, size 0x8, virtual false, abstract: false, final false
   inline void set_primaryTouch(::UnityEngine::InputSystem::Controls::TouchControl* value);
 
   /// @brief Method set_touchControlArray, addr 0x656759c, size 0x64, virtual false, abstract: false, final false
   inline void set_touchControlArray(::ArrayW<::UnityEngine::InputSystem::Controls::TouchControl*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_touches, addr 0x656758c, size 0x8, virtual false, abstract: false, final false
   inline void set_touches(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> value);
 
@@ -209,20 +216,22 @@ protected:
   constexpr Touchscreen();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Touchscreen", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Touchscreen", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Touchscreen(Touchscreen&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Touchscreen", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Touchscreen", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Touchscreen(Touchscreen const&) = delete;
+  Touchscreen(Touchscreenconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8773 };
 
+  /// [CompilerGenerated]
   /// @brief Field <primaryTouch>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::TouchControl* ____primaryTouch_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <touches>k__BackingField, offset: 0x1c0, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> ____touches_k__BackingField;
 

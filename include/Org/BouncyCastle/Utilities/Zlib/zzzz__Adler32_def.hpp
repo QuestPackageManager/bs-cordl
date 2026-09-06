@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\Adler32.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/Adler32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ protected:
   constexpr Adler32();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Adler32", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Adler32", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Adler32(Adler32&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Adler32", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Adler32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Adler32(Adler32 const&) = delete;
+  Adler32(Adler32const&) = delete;
 
   /// @brief Field BASE offset 0xffffffff size 0x4
   static constexpr int32_t BASE{ static_cast<int32_t>(0xfff1) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalProjector.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalProjector.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalEntity_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalScaleMode_impl.hpp"

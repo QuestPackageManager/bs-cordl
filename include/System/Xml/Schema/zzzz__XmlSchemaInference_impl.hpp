@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaInference.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaInference.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaInference_def.hpp"
@@ -19,7 +19,7 @@
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption::XmlSchemaInference_InferenceOption(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\TrackDefinitions\EventTrackDefinitionSO.hpp"
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/EventTrackDefinitionSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "BeatSaber/TrackDefinitions/zzzz__EventTrackDefinitionSO_def.hpp"
 #include "BeatSaber/TrackDefinitions/zzzz__EventTrackDefinitionSO_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType::EventTrackDefinitionSO_DataTransformationType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -21,7 +21,7 @@ constexpr ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformati
 };
 constexpr ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType::ValueDuration{ static_cast<int32_t>(
     0x5) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_MarkerType::EventTrackDefinitionSO_MarkerType(int32_t value__) noexcept {
   this->value__ = value__;
 }

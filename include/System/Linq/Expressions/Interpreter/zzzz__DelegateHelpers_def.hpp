@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\DelegateHelpers.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/DelegateHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::System::Linq::Expressions::Interpreter::DelegateHelpers*);
 MARK_REF_T(::System::Linq::Expressions::Interpreter::DelegateHelpers___c*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::DelegateHelpers*, "System.Linq.Expressions.Interpreter", "DelegateHelpers");
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::DelegateHelpers___c*, "System.Linq.Expressions.Interpreter", "DelegateHelpers/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
@@ -62,13 +63,13 @@ protected:
   constexpr DelegateHelpers___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelegateHelpers___c(DelegateHelpers___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelegateHelpers___c(DelegateHelpers___c const&) = delete;
+  DelegateHelpers___c(DelegateHelpers___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16618 };
@@ -97,13 +98,13 @@ protected:
   constexpr DelegateHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelegateHelpers(DelegateHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelegateHelpers(DelegateHelpers const&) = delete;
+  DelegateHelpers(DelegateHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16619 };

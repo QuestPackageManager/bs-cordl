@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RectOffset.hpp"
+// IWYU pragma private; include "UnityEngine/RectOffset.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RectOffset_def.hpp"
@@ -589,6 +589,7 @@ inline void UnityEngine::RectOffset::Remove_Injected(::System::IntPtr _unity_sel
 inline ::UnityEngine::RectOffset* UnityEngine::RectOffset::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RectOffset*>());
 }
+/// @brief [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
 inline ::UnityEngine::RectOffset* UnityEngine::RectOffset::New_ctor(::System::Object* sourceStyle, ::System::IntPtr source) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RectOffset*>(sourceStyle, source));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialSwapGraphicViewStateTransition.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialSwapGraphicViewStateTransition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class MaterialSwapGraphicViewStateTransition;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MaterialSwapGraphicViewStateTransition*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MaterialSwapGraphicViewStateTransition*, "", "MaterialSwapGraphicViewStateTransition");
+// [AddComponentMenu("Transitions/Material Swap Transition")]
 // Dependencies BaseStateTransition`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -92,17 +93,19 @@ protected:
   constexpr MaterialSwapGraphicViewStateTransition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapGraphicViewStateTransition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapGraphicViewStateTransition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialSwapGraphicViewStateTransition(MaterialSwapGraphicViewStateTransition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapGraphicViewStateTransition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapGraphicViewStateTransition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialSwapGraphicViewStateTransition(MaterialSwapGraphicViewStateTransition const&) = delete;
+  MaterialSwapGraphicViewStateTransition(MaterialSwapGraphicViewStateTransitionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22364 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _transition, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialSwapTransitionSO> ____transition;
 

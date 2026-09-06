@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NtpPacket.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NtpPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,9 @@ namespace System {
 struct DateTime;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 struct TimeSpan;
@@ -145,12 +147,14 @@ public:
 
   static inline ::System::DateTime getStaticF_Epoch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Bytes, addr 0x58ac848, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Bytes();
 
   /// @brief Method get_CorrectionOffset, addr 0x58ad010, size 0x134, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_CorrectionOffset();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DestinationTimestamp, addr 0x58acdac, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> get_DestinationTimestamp();
 
@@ -198,9 +202,11 @@ public:
 
   static inline void setStaticF_Epoch(::System::DateTime value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Bytes, addr 0x58ac850, size 0x8, virtual false, abstract: false, final false
   inline void set_Bytes(::ArrayW<uint8_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DestinationTimestamp, addr 0x58acdb8, size 0x8, virtual false, abstract: false, final false
   inline void set_DestinationTimestamp(::System::Nullable_1<::System::DateTime> value);
 
@@ -219,20 +225,22 @@ protected:
   constexpr NtpPacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NtpPacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NtpPacket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NtpPacket(NtpPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NtpPacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NtpPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NtpPacket(NtpPacket const&) = delete;
+  NtpPacket(NtpPacketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20136 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Bytes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____Bytes_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DestinationTimestamp>k__BackingField, offset: 0x18, size: 0x10, def value: None
   ::System::Nullable_1<::System::DateTime> ____DestinationTimestamp_k__BackingField;
 

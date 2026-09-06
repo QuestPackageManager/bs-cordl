@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeComponentMenu.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeComponentMenu.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponentMenu_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponentMenu._ctor

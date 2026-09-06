@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioPlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioPlayableOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,11 @@ struct AudioPlayableOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Audio::AudioPlayableOutput);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
+// [NativeHeader("Modules/Audio/Public/Director/AudioPlayableOutput.h")]
+// [NativeHeader("Modules/Audio/Public/ScriptBindings/AudioPlayableOutput.bindings.h")]
+// [StaticAccessor("AudioPlayableOutputBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [RequiredByNativeCode]
+// [NativeHeader("Modules/Audio/Public/AudioSource.h")]
 // Dependencies UnityEngine.Playables.PlayableOutputHandle
 namespace UnityEngine::Audio {
 // Is value type: true
@@ -54,18 +59,22 @@ public:
   /// @brief Method GetTarget, addr 0x6a58e00, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioSource> GetTarget();
 
+  /// [NativeThrows]
   /// @brief Method InternalGetEvaluateOnSeek, addr 0x6a58ff0, size 0x3c, virtual false, abstract: false, final false
   static inline bool InternalGetEvaluateOnSeek(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> output);
 
+  /// [NativeThrows]
   /// @brief Method InternalGetTarget, addr 0x6a58e04, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioSource> InternalGetTarget(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> output);
 
   /// @brief Method InternalGetTarget_Injected, addr 0x6a590b4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr InternalGetTarget_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> output);
 
+  /// [NativeThrows]
   /// @brief Method InternalSetEvaluateOnSeek, addr 0x6a59070, size 0x44, virtual false, abstract: false, final false
   static inline void InternalSetEvaluateOnSeek(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> output, bool value);
 
+  /// [NativeThrows]
   /// @brief Method InternalSetTarget, addr 0x6a58f24, size 0x90, virtual false, abstract: false, final false
   static inline void InternalSetTarget(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> output, ::UnityEngine::AudioSource* target);
 
@@ -97,7 +106,7 @@ public:
   // @brief default ctor
   constexpr AudioPlayableOutput();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AudioPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IntersectionMaskCircle_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IntersectionMaskCircle_t.hpp"
 #include "OVR/OpenVR/zzzz__IntersectionMaskCircle_t_def.hpp"
-// Ctor Parameters [CppParam { name: "m_flCenterX", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_flCenterY", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_flRadius", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_flCenterX", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_flCenterY", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_flRadius", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IntersectionMaskCircle_t::IntersectionMaskCircle_t(float_t m_flCenterX, float_t m_flCenterY, float_t m_flRadius) noexcept {
   this->m_flCenterX = m_flCenterX;
   this->m_flCenterY = m_flCenterY;

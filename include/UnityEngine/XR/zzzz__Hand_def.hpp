@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Hand.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Hand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,12 @@ struct Hand;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::Hand);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");
+// [NativeConditional("ENABLE_VR")]
+// [NativeHeader("XRScriptingClasses.h")]
+// [NativeHeader("Modules/XR/XRPrefix.h")]
+// [RequiredByNativeCode]
+// [NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
+// [StaticAccessor("XRInputDevices::Get()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -55,7 +61,8 @@ public:
   // @brief default ctor
   constexpr Hand();
 
-  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr Hand(uint64_t m_DeviceId, uint32_t m_FeatureIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

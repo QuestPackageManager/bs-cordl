@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\TypeExtensions.hpp"
+// IWYU pragma private; include "ModestTree/TypeExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -103,6 +104,7 @@ DEFINE_IL2CPP_CLASS(::ModestTree::TypeExtensions___c__DisplayClass36_0*, "Modest
 DEFINE_IL2CPP_CLASS(::ModestTree::TypeExtensions___c__DisplayClass36_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass36_1");
 DEFINE_IL2CPP_CLASS(::ModestTree::TypeExtensions___c__DisplayClass40_0*, "ModestTree", "TypeExtensions/<>c__DisplayClass40_0");
 DEFINE_IL2CPP_CLASS(::ModestTree::TypeExtensions___c__DisplayClass40_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass40_1");
+// [CompilerGenerated]
 // Dependencies System.Object, System.Type
 namespace ModestTree {
 // Is value type: false
@@ -133,13 +135,13 @@ protected:
   constexpr TypeExtensions___c__DisplayClass36_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeExtensions___c__DisplayClass36_0(TypeExtensions___c__DisplayClass36_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions___c__DisplayClass36_0(TypeExtensions___c__DisplayClass36_0 const&) = delete;
+  TypeExtensions___c__DisplayClass36_0(TypeExtensions___c__DisplayClass36_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13969 };
@@ -155,6 +157,7 @@ static_assert(offsetof(::ModestTree::TypeExtensions___c__DisplayClass36_0, ___at
 static_assert(sizeof(::ModestTree::TypeExtensions___c__DisplayClass36_0) == 0x18, "Size mismatch!");
 
 } // namespace ModestTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
@@ -185,13 +188,13 @@ protected:
   constexpr TypeExtensions___c__DisplayClass36_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeExtensions___c__DisplayClass36_1(TypeExtensions___c__DisplayClass36_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions___c__DisplayClass36_1(TypeExtensions___c__DisplayClass36_1 const&) = delete;
+  TypeExtensions___c__DisplayClass36_1(TypeExtensions___c__DisplayClass36_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13970 };
@@ -207,6 +210,7 @@ static_assert(offsetof(::ModestTree::TypeExtensions___c__DisplayClass36_1, ___a)
 static_assert(sizeof(::ModestTree::TypeExtensions___c__DisplayClass36_1) == 0x18, "Size mismatch!");
 
 } // namespace ModestTree
+// [CompilerGenerated]
 // Dependencies System.Object, System.Type
 namespace ModestTree {
 // Is value type: false
@@ -237,13 +241,13 @@ protected:
   constexpr TypeExtensions___c__DisplayClass40_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeExtensions___c__DisplayClass40_0(TypeExtensions___c__DisplayClass40_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions___c__DisplayClass40_0(TypeExtensions___c__DisplayClass40_0 const&) = delete;
+  TypeExtensions___c__DisplayClass40_0(TypeExtensions___c__DisplayClass40_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13971 };
@@ -259,6 +263,7 @@ static_assert(offsetof(::ModestTree::TypeExtensions___c__DisplayClass40_0, ___at
 static_assert(sizeof(::ModestTree::TypeExtensions___c__DisplayClass40_0) == 0x18, "Size mismatch!");
 
 } // namespace ModestTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
@@ -289,13 +294,13 @@ protected:
   constexpr TypeExtensions___c__DisplayClass40_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeExtensions___c__DisplayClass40_1(TypeExtensions___c__DisplayClass40_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions___c__DisplayClass40_1(TypeExtensions___c__DisplayClass40_1 const&) = delete;
+  TypeExtensions___c__DisplayClass40_1(TypeExtensions___c__DisplayClass40_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13972 };
@@ -311,6 +316,7 @@ static_assert(offsetof(::ModestTree::TypeExtensions___c__DisplayClass40_1, ___a)
 static_assert(sizeof(::ModestTree::TypeExtensions___c__DisplayClass40_1) == 0x18, "Size mismatch!");
 
 } // namespace ModestTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
@@ -358,23 +364,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e41384, size 0x474, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::ModestTree::TypeExtensions__GetParentTypes_d__29* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x6e418f4, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x6e418ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e4198c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e418b4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e418ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e41368, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -417,6 +430,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6e417f8, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e40990, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -441,13 +455,13 @@ protected:
   constexpr TypeExtensions__GetParentTypes_d__29();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions__GetParentTypes_d__29", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions__GetParentTypes_d__29", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeExtensions__GetParentTypes_d__29(TypeExtensions__GetParentTypes_d__29&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions__GetParentTypes_d__29", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions__GetParentTypes_d__29", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions__GetParentTypes_d__29(TypeExtensions__GetParentTypes_d__29 const&) = delete;
+  TypeExtensions__GetParentTypes_d__29(TypeExtensions__GetParentTypes_d__29const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13973 };
@@ -488,7 +502,8 @@ static_assert(offsetof(::ModestTree::TypeExtensions__GetParentTypes_d__29, _____
 static_assert(sizeof(::ModestTree::TypeExtensions__GetParentTypes_d__29) == 0x40, "Size mismatch!");
 
 } // namespace ModestTree
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Attribute, System.Object
 namespace ModestTree {
 // Is value type: false
 // CS Name: ModestTree.TypeExtensions
@@ -517,116 +532,167 @@ public:
   /// @brief Field _isValueType, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__isValueType, put = setStaticF__isValueType)) ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* _isValueType;
 
+  /// [Extension]
   /// @brief Method AllAttributes, addr 0x6e40bb0, size 0x150, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* AllAttributes(::System::Reflection::MemberInfo* provider, ::ArrayW<::System::Type*> attributeTypes);
+  static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* AllAttributes(::System::Reflection::MemberInfo* provider,
+                                                                                                   /* [ParamArray] */ ::ArrayW<::System::Type*> attributeTypes);
 
+  /// [Extension]
   /// @brief Method AllAttributes, addr 0x6e40d8c, size 0x150, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* AllAttributes(::System::Reflection::ParameterInfo* provider, ::ArrayW<::System::Type*> attributeTypes);
+  static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* AllAttributes(::System::Reflection::ParameterInfo* provider,
+                                                                                                   /* [ParamArray] */ ::ArrayW<::System::Type*> attributeTypes);
 
+  /// [Extension]
   /// @brief Method AllAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* AllAttributes(::System::Reflection::MemberInfo* provider);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline ::System::Collections::Generic::IEnumerable_1<T>* AllAttributes(::System::Reflection::MemberInfo* provider);
 
+  /// [Extension]
   /// @brief Method AllAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* AllAttributes(::System::Reflection::ParameterInfo* provider);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline ::System::Collections::Generic::IEnumerable_1<T>* AllAttributes(::System::Reflection::ParameterInfo* provider);
 
+  /// [Extension]
   /// @brief Method BaseType, addr 0x6e405e8, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Type* BaseType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method Constructors, addr 0x6e4070c, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ConstructorInfo*> Constructors(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method ContainsGenericParameters, addr 0x6e4066c, size 0x1c, virtual false, abstract: false, final false
   static inline bool ContainsGenericParameters(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method DeclaredInstanceFields, addr 0x6e405c8, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::FieldInfo*> DeclaredInstanceFields(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method DeclaredInstanceMethods, addr 0x6e40588, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::MethodInfo*> DeclaredInstanceMethods(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method DeclaredInstanceProperties, addr 0x6e405a8, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::PropertyInfo*> DeclaredInstanceProperties(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method DerivesFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool DerivesFrom(::System::Type* a);
 
+  /// [Extension]
   /// @brief Method DerivesFrom, addr 0x6e3e5d8, size 0x98, virtual false, abstract: false, final false
   static inline bool DerivesFrom(::System::Type* a, ::System::Type* b);
 
+  /// [Extension]
   /// @brief Method DerivesFromOrEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool DerivesFromOrEqual(::System::Type* a);
 
+  /// [Extension]
   /// @brief Method DerivesFromOrEqual, addr 0x6e3e824, size 0x68, virtual false, abstract: false, final false
   static inline bool DerivesFromOrEqual(::System::Type* a, ::System::Type* b);
 
+  /// [Extension]
   /// @brief Method GenericArguments, addr 0x6e406f0, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*> GenericArguments(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetAttribute(::System::Reflection::MemberInfo* provider);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T GetAttribute(::System::Reflection::MemberInfo* provider);
 
+  /// [Extension]
   /// @brief Method GetDefaultValue, addr 0x6e4072c, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Object* GetDefaultValue(::System::Type* type);
 
+  /// [Extension]
+  /// [IteratorStateMachine(typeof(ModestTree.TypeExtensions::<GetParentTypes>d__29))]
   /// @brief Method GetParentTypes, addr 0x6e40920, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetParentTypes(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method HasAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool HasAttribute(::System::Reflection::MemberInfo* provider);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline bool HasAttribute(::System::Reflection::MemberInfo* provider);
 
+  /// [Extension]
   /// @brief Method HasAttribute, addr 0x6e40b28, size 0x88, virtual false, abstract: false, final false
-  static inline bool HasAttribute(::System::Reflection::MemberInfo* provider, ::ArrayW<::System::Type*> attributeTypes);
+  static inline bool HasAttribute(::System::Reflection::MemberInfo* provider, /* [ParamArray] */ ::ArrayW<::System::Type*> attributeTypes);
 
+  /// [Extension]
   /// @brief Method HasAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool HasAttribute(::System::Reflection::ParameterInfo* provider);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline bool HasAttribute(::System::Reflection::ParameterInfo* provider);
 
+  /// [Extension]
   /// @brief Method HasAttribute, addr 0x6e40d04, size 0x88, virtual false, abstract: false, final false
-  static inline bool HasAttribute(::System::Reflection::ParameterInfo* provider, ::ArrayW<::System::Type*> attributeTypes);
+  static inline bool HasAttribute(::System::Reflection::ParameterInfo* provider, /* [ParamArray] */ ::ArrayW<::System::Type*> attributeTypes);
 
+  /// [Extension]
   /// @brief Method Interfaces, addr 0x6e4031c, size 0x124, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*> Interfaces(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsAbstract, addr 0x6e40688, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAbstract(::System::Type* type);
 
   /// @brief Method IsAssignableToGenericType, addr 0x6e40164, size 0x1b8, virtual false, abstract: false, final false
   static inline bool IsAssignableToGenericType(::System::Type* givenType, ::System::Type* genericType);
 
+  /// [Extension]
   /// @brief Method IsClosedGenericType, addr 0x6e407a8, size 0x178, virtual false, abstract: false, final false
   static inline bool IsClosedGenericType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsEnum, addr 0x6e40440, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsEnum(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsGenericType, addr 0x6e40604, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsGenericType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsGenericTypeDefinition, addr 0x6e40620, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsGenericTypeDefinition(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsInterface, addr 0x6e40658, size 0x14, virtual false, abstract: false, final false
   static inline bool IsInterface(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsOpenGenericType, addr 0x6e409b0, size 0x178, virtual false, abstract: false, final false
   static inline bool IsOpenGenericType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsPrimitive, addr 0x6e4063c, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsSealed, addr 0x6e406b0, size 0x28, virtual false, abstract: false, final false
   static inline bool IsSealed(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsValueType, addr 0x6e4045c, size 0x12c, virtual false, abstract: false, final false
   static inline bool IsValueType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method Method, addr 0x6e406d8, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* Method(::System::Delegate* del);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e3ff9c, size 0x1c8, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
+  /// [Extension]
   /// @brief Method TryGetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T TryGetAttribute(::System::Reflection::MemberInfo* provider);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T TryGetAttribute(::System::Reflection::MemberInfo* provider);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::ArrayW<::System::Type*>>* getStaticF__interfaces();
 
@@ -650,13 +716,13 @@ protected:
   constexpr TypeExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeExtensions(TypeExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions(TypeExtensions const&) = delete;
+  TypeExtensions(TypeExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13974 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalTechniqueOption_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalSettings_def.hpp"

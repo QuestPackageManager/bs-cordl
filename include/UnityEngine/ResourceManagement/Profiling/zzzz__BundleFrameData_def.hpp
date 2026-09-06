@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\BundleFrameData.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/BundleFrameData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,11 @@ public:
   // @brief default ctor
   constexpr BundleFrameData();
 
-  // Ctor Parameters [CppParam { name: "BundleCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ReferenceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "PercentComplete", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Status", ty: "::UnityEngine::ResourceManagement::Profiling::ContentStatus", modifiers: "", def_value:
-  // None }, CppParam { name: "Source", ty: "::UnityEngine::ResourceManagement::Util::BundleSource", modifiers: "", def_value: None }, CppParam { name: "LoadingOptions", ty:
-  // "::UnityEngine::ResourceManagement::Profiling::BundleOptions", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "BundleCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ReferenceCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "PercentComplete", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Status", ty:
+  // "::UnityEngine::ResourceManagement::Profiling::ContentStatus", modifiers: "", def_value: None, comment: None }, CppParam { name: "Source", ty:
+  // "::UnityEngine::ResourceManagement::Util::BundleSource", modifiers: "", def_value: None, comment: None }, CppParam { name: "LoadingOptions", ty:
+  // "::UnityEngine::ResourceManagement::Profiling::BundleOptions", modifiers: "", def_value: None, comment: None }]
   constexpr BundleFrameData(int32_t BundleCode, int32_t ReferenceCount, float_t PercentComplete, ::UnityEngine::ResourceManagement::Profiling::ContentStatus Status,
                             ::UnityEngine::ResourceManagement::Util::BundleSource Source, ::UnityEngine::ResourceManagement::Profiling::BundleOptions LoadingOptions) noexcept;
 

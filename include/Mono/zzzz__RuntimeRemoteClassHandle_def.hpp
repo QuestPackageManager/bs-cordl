@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeRemoteClassHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimeRemoteClassHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   // @brief default ctor
   constexpr RuntimeRemoteClassHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_RemoteClass*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_RemoteClass*", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeRemoteClassHandle(::Mono::RuntimeStructs_RemoteClass* value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PosesRecordingData.hpp"
+// IWYU pragma private; include "GlobalNamespace/PosesRecordingData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"

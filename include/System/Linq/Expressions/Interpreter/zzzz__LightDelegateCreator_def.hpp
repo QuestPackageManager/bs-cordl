@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LightDelegateCreator.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LightDelegateCreator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,6 +65,7 @@ public:
   /// @brief Method .ctor, addr 0x5faf198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter, ::System::Linq::Expressions::LambdaExpression* lambda);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Interpreter, addr 0x5faf1a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::Interpreter* get_Interpreter();
 
@@ -74,13 +75,13 @@ protected:
   constexpr LightDelegateCreator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightDelegateCreator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightDelegateCreator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightDelegateCreator(LightDelegateCreator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightDelegateCreator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightDelegateCreator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightDelegateCreator(LightDelegateCreator const&) = delete;
+  LightDelegateCreator(LightDelegateCreatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16450 };
@@ -88,6 +89,7 @@ public:
   /// @brief Field _lambda, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::LambdaExpression* ____lambda;
 
+  /// [CompilerGenerated]
   /// @brief Field <Interpreter>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::Interpreter* ____Interpreter_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\PkcsObjectIdentifiers.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/PkcsObjectIdentifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -945,13 +945,13 @@ protected:
   constexpr PkcsObjectIdentifiers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkcsObjectIdentifiers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkcsObjectIdentifiers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkcsObjectIdentifiers(PkcsObjectIdentifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkcsObjectIdentifiers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkcsObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PkcsObjectIdentifiers(PkcsObjectIdentifiers const&) = delete;
+  PkcsObjectIdentifiers(PkcsObjectIdentifiersconst&) = delete;
 
   /// @brief Field BagTypes offset 0xffffffff size 0x8
   static constexpr ::ConstString BagTypes{ u"1.2.840.113549.1.12.10.1" };

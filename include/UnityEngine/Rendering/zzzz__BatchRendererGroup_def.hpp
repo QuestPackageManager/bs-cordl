@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchRendererGroup.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchRendererGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace System {
 template <typename T> struct Span_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -121,13 +123,13 @@ protected:
   constexpr BatchRendererGroup_OnPerformCulling();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnPerformCulling", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnPerformCulling", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchRendererGroup_OnPerformCulling(BatchRendererGroup_OnPerformCulling&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnPerformCulling", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnPerformCulling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRendererGroup_OnPerformCulling(BatchRendererGroup_OnPerformCulling const&) = delete;
+  BatchRendererGroup_OnPerformCulling(BatchRendererGroup_OnPerformCullingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10870 };
@@ -159,13 +161,13 @@ protected:
   constexpr BatchRendererGroup_OnFinishedCulling();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnFinishedCulling", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnFinishedCulling", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchRendererGroup_OnFinishedCulling(BatchRendererGroup_OnFinishedCulling&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnFinishedCulling", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnFinishedCulling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRendererGroup_OnFinishedCulling(BatchRendererGroup_OnFinishedCulling const&) = delete;
+  BatchRendererGroup_OnFinishedCulling(BatchRendererGroup_OnFinishedCullingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10871 };
@@ -192,13 +194,13 @@ protected:
   constexpr BatchRendererGroup_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchRendererGroup_BindingsMarshaller(BatchRendererGroup_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRendererGroup_BindingsMarshaller(BatchRendererGroup_BindingsMarshaller const&) = delete;
+  BatchRendererGroup_BindingsMarshaller(BatchRendererGroup_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10872 };
@@ -209,6 +211,9 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::BatchRendererGroup_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
+// [NativeHeader("Runtime/Math/Matrix4x4.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -245,7 +250,7 @@ public:
                                                   uint32_t windowSize, ::by_ref<::UnityEngine::Rendering::BatchID> ret);
 
   /// @brief Method Create, addr 0x6b2aa10, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create(::UnityEngine::Rendering::BatchRendererGroup* group, void* userContext);
+  static inline ::System::IntPtr Create(/* [Unmarshalled] */ ::UnityEngine::Rendering::BatchRendererGroup* group, void* userContext);
 
   /// @brief Method Destroy, addr 0x6b2aa9c, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr groupHandle);
@@ -256,15 +261,18 @@ public:
   /// @brief Method GetBufferTarget, addr 0x6b2b124, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BatchBufferTarget GetBufferTarget();
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeOnFinishedCulling, addr 0x6b2b3b8, size 0xd0, virtual false, abstract: false, final false
   static inline void InvokeOnFinishedCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ::System::IntPtr customCullingResult);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeOnPerformCulling, addr 0x6b2b174, size 0x244, virtual false, abstract: false, final false
   static inline void InvokeOnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ::by_ref<::UnityEngine::Rendering::BatchRendererCullingOutput> context,
                                             ::by_ref<::UnityEngine::Rendering::LODParameters> lodParameters, ::System::IntPtr userContext);
 
   static inline ::UnityEngine::Rendering::BatchRendererGroup* New_ctor(::UnityEngine::Rendering::BatchRendererGroupCreateInfo info);
 
+  /// [FreeFunction("BatchRendererGroup::OcclusionTestAABB", IsThreadSafe = true)]
   /// @brief Method OcclusionTestAABB, addr 0x6b2b488, size 0x44, virtual false, abstract: false, final false
   static inline bool OcclusionTestAABB(::System::IntPtr occlusionBuffer, ::UnityEngine::Bounds aabb);
 
@@ -339,13 +347,13 @@ protected:
   constexpr BatchRendererGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchRendererGroup(BatchRendererGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRendererGroup(BatchRendererGroup const&) = delete;
+  BatchRendererGroup(BatchRendererGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10873 };

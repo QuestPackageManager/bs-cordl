@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRow.hpp"
+// IWYU pragma private; include "System/Data/DataRow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ class DataRow;
 // Write type traits
 MARK_REF_T(::System::Data::DataRow*);
 DEFINE_IL2CPP_CLASS(::System::Data::DataRow*, "System.Data", "DataRow");
+// [DefaultMember("Item")]
 // Dependencies System.Data.DataRowAction, System.Object
 namespace System::Data {
 // Is value type: false
@@ -134,12 +135,14 @@ public:
   /// @brief Method AcceptChanges, addr 0x602b794, size 0x364, virtual false, abstract: false, final false
   inline void AcceptChanges();
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
   /// @brief Method BeginEdit, addr 0x602baf8, size 0x4, virtual false, abstract: false, final false
   inline void BeginEdit();
 
   /// @brief Method BeginEditInternal, addr 0x602b0ec, size 0xc4, virtual false, abstract: false, final false
   inline bool BeginEditInternal();
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
   /// @brief Method CancelEdit, addr 0x602b1e8, size 0x64, virtual false, abstract: false, final false
   inline void CancelEdit();
 
@@ -164,6 +167,7 @@ public:
   /// @brief Method Delete, addr 0x602bb34, size 0x60, virtual false, abstract: false, final false
   inline void Delete();
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
   /// @brief Method EndEdit, addr 0x602b24c, size 0xdc, virtual false, abstract: false, final false
   inline void EndEdit();
 
@@ -431,13 +435,13 @@ protected:
   constexpr DataRow();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRow", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRow", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataRow(DataRow&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRow", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRow(DataRow const&) = delete;
+  DataRow(DataRowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13777 };

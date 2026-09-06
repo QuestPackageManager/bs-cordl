@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LensFlareComponentSRP.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LensFlareComponentSRP.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +66,7 @@ public:
   // @brief default ctor
   constexpr LensFlareComponentSRP_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LensFlareComponentSRP_Version(int32_t value__) noexcept;
 
   /// @brief Field Initial value: I32(0)
@@ -89,6 +89,8 @@ static_assert(offsetof(::UnityEngine::Rendering::LensFlareComponentSRP_Version, 
 static_assert(sizeof(::UnityEngine::Rendering::LensFlareComponentSRP_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [ExecuteAlways]
+// [AddComponentMenu("Rendering/Lens Flare (SRP)")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Rendering.LensFlareComponentSRP::Version
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -331,29 +333,34 @@ protected:
   constexpr LensFlareComponentSRP();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareComponentSRP", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareComponentSRP", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LensFlareComponentSRP(LensFlareComponentSRP&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareComponentSRP", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareComponentSRP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareComponentSRP(LensFlareComponentSRP const&) = delete;
+  LensFlareComponentSRP(LensFlareComponentSRPconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12173 };
 
+  /// [SerializeField]
   /// @brief Field m_LensFlareData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::LensFlareDataSRP> ___m_LensFlareData;
 
+  /// [SerializeField]
   /// @brief Field version, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::Rendering::LensFlareComponentSRP_Version ___version;
 
+  /// [Min(0)]
   /// @brief Field intensity, offset: 0x2c, size: 0x4, def value: None
   float_t ___intensity;
 
+  /// [Min(0.00001)]
   /// @brief Field maxAttenuationDistance, offset: 0x30, size: 0x4, def value: None
   float_t ___maxAttenuationDistance;
 
+  /// [Min(0.00001)]
   /// @brief Field maxAttenuationScale, offset: 0x34, size: 0x4, def value: None
   float_t ___maxAttenuationScale;
 
@@ -372,30 +379,38 @@ public:
   /// @brief Field useOcclusion, offset: 0x58, size: 0x1, def value: None
   bool ___useOcclusion;
 
+  /// [Obsolete("Replaced by environmentOcclusion.")]
   /// @brief Field useBackgroundCloudOcclusion, offset: 0x59, size: 0x1, def value: None
   bool ___useBackgroundCloudOcclusion;
 
+  /// [FormerlySerializedAs("volumetricCloudOcclusion")]
+  /// [FormerlySerializedAs("useFogOpacityOcclusion")]
   /// @brief Field environmentOcclusion, offset: 0x5a, size: 0x1, def value: None
   bool ___environmentOcclusion;
 
+  /// [Obsolete("Replaced by environmentOcclusion.")]
   /// @brief Field useWaterOcclusion, offset: 0x5b, size: 0x1, def value: None
   bool ___useWaterOcclusion;
 
+  /// [Min(0)]
   /// @brief Field occlusionRadius, offset: 0x5c, size: 0x4, def value: None
   float_t ___occlusionRadius;
 
+  /// [Range(1, 64)]
   /// @brief Field sampleCount, offset: 0x60, size: 0x4, def value: None
   uint32_t ___sampleCount;
 
   /// @brief Field occlusionOffset, offset: 0x64, size: 0x4, def value: None
   float_t ___occlusionOffset;
 
+  /// [Min(0)]
   /// @brief Field scale, offset: 0x68, size: 0x4, def value: None
   float_t ___scale;
 
   /// @brief Field allowOffScreen, offset: 0x6c, size: 0x1, def value: None
   bool ___allowOffScreen;
 
+  /// [Obsolete("Please use environmentOcclusion instead.")]
   /// @brief Field volumetricCloudOcclusion, offset: 0x6d, size: 0x1, def value: None
   bool ___volumetricCloudOcclusion;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ShaderVariantsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/ShaderVariantsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,20 +84,22 @@ protected:
   constexpr ShaderVariant_ShaderVariantsSO_Variant();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariant_ShaderVariantsSO_Variant", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariant_ShaderVariantsSO_Variant", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderVariant_ShaderVariantsSO_Variant(ShaderVariant_ShaderVariantsSO_Variant&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariant_ShaderVariantsSO_Variant", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariant_ShaderVariantsSO_Variant", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderVariant_ShaderVariantsSO_Variant(ShaderVariant_ShaderVariantsSO_Variant const&) = delete;
+  ShaderVariant_ShaderVariantsSO_Variant(ShaderVariant_ShaderVariantsSO_Variantconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20692 };
 
+  /// [SerializeField]
   /// @brief Field _passType, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::PassType ____passType;
 
+  /// [SerializeField]
   /// @brief Field _keywords, offset: 0x18, size: 0x8, def value: None
   ::StringW ____keywords;
 
@@ -159,20 +161,22 @@ protected:
   constexpr ShaderVariantsSO_ShaderVariant();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO_ShaderVariant", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO_ShaderVariant", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderVariantsSO_ShaderVariant(ShaderVariantsSO_ShaderVariant&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO_ShaderVariant", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO_ShaderVariant", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderVariantsSO_ShaderVariant(ShaderVariantsSO_ShaderVariant const&) = delete;
+  ShaderVariantsSO_ShaderVariant(ShaderVariantsSO_ShaderVariantconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20693 };
 
+  /// [SerializeField]
   /// @brief Field _variants, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*> ____variants;
 
+  /// [SerializeField]
   /// @brief Field _shader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____shader;
 
@@ -223,17 +227,18 @@ protected:
   constexpr ShaderVariantsSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderVariantsSO(ShaderVariantsSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderVariantsSO(ShaderVariantsSO const&) = delete;
+  ShaderVariantsSO(ShaderVariantsSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20694 };
 
+  /// [SerializeField]
   /// @brief Field _shaderVariants, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*> ____shaderVariants;
 

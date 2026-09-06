@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ExpressionEvaluator.hpp"
+// IWYU pragma private; include "UnityEngine/ExpressionEvaluator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,13 +113,13 @@ protected:
   constexpr ExpressionEvaluator_Expression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Expression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Expression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpressionEvaluator_Expression(ExpressionEvaluator_Expression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Expression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Expression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionEvaluator_Expression(ExpressionEvaluator_Expression const&) = delete;
+  ExpressionEvaluator_Expression(ExpressionEvaluator_Expressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10106 };
@@ -166,7 +166,8 @@ public:
   // @brief default ctor
   constexpr ExpressionEvaluator_PcgRandom();
 
-  // Ctor Parameters [CppParam { name: "increment", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "increment", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "state", ty: "uint64_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ExpressionEvaluator_PcgRandom(uint64_t increment, uint64_t state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -234,7 +235,7 @@ public:
   // @brief default ctor
   constexpr ExpressionEvaluator_Op();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ExpressionEvaluator_Op(int32_t value__) noexcept;
 
   /// @brief Field Add value: I32(0)
@@ -331,7 +332,7 @@ public:
   // @brief default ctor
   constexpr ExpressionEvaluator_Associativity();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ExpressionEvaluator_Associativity(int32_t value__) noexcept;
 
   /// @brief Field Left value: I32(0)
@@ -412,13 +413,13 @@ protected:
   constexpr ExpressionEvaluator_Operator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Operator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Operator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpressionEvaluator_Operator(ExpressionEvaluator_Operator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Operator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Operator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionEvaluator_Operator(ExpressionEvaluator_Operator const&) = delete;
+  ExpressionEvaluator_Operator(ExpressionEvaluator_Operatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10110 };
@@ -449,6 +450,7 @@ static_assert(offsetof(::UnityEngine::ExpressionEvaluator_Operator, ___inputs) =
 static_assert(sizeof(::UnityEngine::ExpressionEvaluator_Operator) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -484,13 +486,13 @@ protected:
   constexpr ExpressionEvaluator___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpressionEvaluator___c(ExpressionEvaluator___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionEvaluator___c(ExpressionEvaluator___c const&) = delete;
+  ExpressionEvaluator___c(ExpressionEvaluator___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10111 };
@@ -501,6 +503,7 @@ public:
 static_assert(sizeof(::UnityEngine::ExpressionEvaluator___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [MovedFrom(true, "UnityEditor", "UnityEditor", null)]
 // Dependencies System.Object, UnityEngine.ExpressionEvaluator::PcgRandom
 namespace UnityEngine {
 // Is value type: false
@@ -585,13 +588,13 @@ protected:
   constexpr ExpressionEvaluator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpressionEvaluator(ExpressionEvaluator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionEvaluator(ExpressionEvaluator const&) = delete;
+  ExpressionEvaluator(ExpressionEvaluatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10112 };

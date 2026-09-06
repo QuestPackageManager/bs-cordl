@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_FontStyleStack.hpp"
+// IWYU pragma private; include "TMPro/TMP_FontStyleStack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,11 +36,11 @@ public:
   // @brief default ctor
   constexpr TMP_FontStyleStack();
 
-  // Ctor Parameters [CppParam { name: "bold", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "italic", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "underline", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "strikethrough", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "highlight", ty: "uint8_t",
-  // modifiers: "", def_value: None }, CppParam { name: "superscript", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "subscript", ty: "uint8_t", modifiers: "", def_value: None },
-  // CppParam { name: "uppercase", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "lowercase", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "smallcaps", ty:
-  // "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bold", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "italic", ty: "uint8_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "underline", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "strikethrough", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "highlight", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "superscript", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "subscript", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uppercase", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "lowercase", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "smallcaps", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_FontStyleStack(uint8_t bold, uint8_t italic, uint8_t underline, uint8_t strikethrough, uint8_t highlight, uint8_t superscript, uint8_t subscript, uint8_t uppercase, uint8_t lowercase,
                                uint8_t smallcaps) noexcept;
 

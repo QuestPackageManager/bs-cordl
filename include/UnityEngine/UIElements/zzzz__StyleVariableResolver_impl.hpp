@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleVariableResolver.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleVariableResolver.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueHandle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableResolver_def.hpp"
@@ -13,7 +13,7 @@
 #include "UnityEngine/UIElements/zzzz__StyleValueHandle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableResolver_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleVariableResolver_Result::StyleVariableResolver_Result(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -22,8 +22,8 @@ constexpr ::UnityEngine::UIElements::StyleVariableResolver_Result::StyleVariable
 constexpr ::UnityEngine::UIElements::StyleVariableResolver_Result UnityEngine::UIElements::StyleVariableResolver_Result::Valid{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::StyleVariableResolver_Result UnityEngine::UIElements::StyleVariableResolver_Result::Invalid{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::StyleVariableResolver_Result UnityEngine::UIElements::StyleVariableResolver_Result::NotFound{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("{}") }, CppParam { name: "handles", ty:
-// "::ArrayW<::UnityEngine::UIElements::StyleValueHandle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "handles", ty:
+// "::ArrayW<::UnityEngine::UIElements::StyleValueHandle>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleVariableResolver_ResolveContext::StyleVariableResolver_ResolveContext(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet,
                                                                                                                 ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles) noexcept {
   this->sheet = sheet;

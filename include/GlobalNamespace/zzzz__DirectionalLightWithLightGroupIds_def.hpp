@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DirectionalLightWithLightGroupIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/DirectionalLightWithLightGroupIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,17 +48,18 @@ protected:
   constexpr DirectionalLightWithLightGroupIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithLightGroupIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithLightGroupIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLightWithLightGroupIds(DirectionalLightWithLightGroupIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithLightGroupIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithLightGroupIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLightWithLightGroupIds(DirectionalLightWithLightGroupIds const&) = delete;
+  DirectionalLightWithLightGroupIds(DirectionalLightWithLightGroupIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19524 };
 
+  /// [SerializeField]
   /// @brief Field _directionalLight, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLight> ____directionalLight;
 

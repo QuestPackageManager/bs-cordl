@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScriptableRendererData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScriptableRendererData.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -446,7 +447,9 @@ inline void UnityEngine::Rendering::Universal::ScriptableRendererData::set_useNa
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), { "set_useNativeRenderPass", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T> inline bool UnityEngine::Rendering::Universal::ScriptableRendererData::TryGetRendererFeature(::by_ref<T> rendererFeature) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::Universal::ScriptableRendererFeature*>)
+inline bool UnityEngine::Rendering::Universal::ScriptableRendererData::TryGetRendererFeature(::by_ref<T> rendererFeature) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(),
                                                                                               { "TryGetRendererFeature", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

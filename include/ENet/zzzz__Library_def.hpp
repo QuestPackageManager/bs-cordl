@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\Library.hpp"
+// IWYU pragma private; include "ENet/Library.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ protected:
   constexpr Library();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Library", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Library", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Library(Library&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Library", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Library", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Library(Library const&) = delete;
+  Library(Libraryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21733 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextContainer.hpp"
+// IWYU pragma private; include "TMPro/TextContainer.hpp"
 #include "TMPro/zzzz__TextContainerAnchors_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"

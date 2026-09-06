@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\ManifestBasedResourceGroveler.hpp"
+// IWYU pragma private; include "System/Resources/ManifestBasedResourceGroveler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__ManifestBasedResourceGroveler_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

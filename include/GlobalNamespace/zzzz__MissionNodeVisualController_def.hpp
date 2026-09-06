@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionNodeVisualController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionNodeVisualController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -156,9 +156,11 @@ public:
   /// @brief Method .ctor, addr 0x593da1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_nodeWasDisplayedEvent, addr 0x593c398, size 0xc0, virtual false, abstract: false, final false
   inline void add_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_nodeWasSelectEvent, addr 0x593c2d8, size 0xc0, virtual false, abstract: false, final false
   inline void add_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
@@ -177,9 +179,11 @@ public:
   /// @brief Method get_selected, addr 0x593d564, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_nodeWasDisplayedEvent, addr 0x593c690, size 0xc0, virtual false, abstract: false, final false
   inline void remove_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_nodeWasSelectEvent, addr 0x593c5d0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
@@ -189,26 +193,30 @@ protected:
   constexpr MissionNodeVisualController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeVisualController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeVisualController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionNodeVisualController(MissionNodeVisualController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeVisualController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeVisualController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionNodeVisualController(MissionNodeVisualController const&) = delete;
+  MissionNodeVisualController(MissionNodeVisualControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6879 };
 
+  /// [SerializeField]
   /// @brief Field _missionToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionToggle> ____missionToggle;
 
+  /// [SerializeField]
   /// @brief Field _missionNode, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;
 
+  /// [CompilerGenerated]
   /// @brief Field nodeWasSelectEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* ___nodeWasSelectEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field nodeWasDisplayedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* ___nodeWasDisplayedEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509Extension.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Extension.hpp"
 #include "System/Security/Cryptography/zzzz__AsnEncodedData_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsnEncodedData_def.hpp"

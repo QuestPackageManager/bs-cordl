@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PreviousColorPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PreviousColorPanelController.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

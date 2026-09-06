@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventCallbackList.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventCallbackList.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackList_def.hpp"
@@ -166,12 +166,13 @@ inline void UnityEngine::UIElements::EventCallbackList::_ctor(::UnityEngine::UIE
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackList*>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventCallbackList*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, source);
 }
-inline ::UnityEngine::UIElements::EventCallbackFunctorBase* UnityEngine::UIElements::EventCallbackList::Find(int64_t eventTypeId, ::System::Delegate* callback) {
+inline ::UnityEngine::UIElements::EventCallbackFunctorBase* UnityEngine::UIElements::EventCallbackList::Find(int64_t eventTypeId, /* [NotNull] */ ::System::Delegate* callback) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackList*>(), { "Find", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::System::Delegate*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventCallbackFunctorBase*>(this, ___internal_method, eventTypeId, callback);
 }
-inline bool UnityEngine::UIElements::EventCallbackList::Remove(int64_t eventTypeId, ::System::Delegate* callback, ::by_ref<::UnityEngine::UIElements::EventCallbackFunctorBase*> removedFunctor) {
+inline bool UnityEngine::UIElements::EventCallbackList::Remove(int64_t eventTypeId, /* [NotNull] */ ::System::Delegate* callback,
+                                                               ::by_ref<::UnityEngine::UIElements::EventCallbackFunctorBase*> removedFunctor) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackList*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeGPtrArrayHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimeGPtrArrayHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct RuntimeGPtrArrayHandle;
 // Write type traits
 MARK_VAL_T(::Mono::RuntimeGPtrArrayHandle);
 DEFINE_IL2CPP_CLASS(::Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");
+// [DefaultMember("Item")]
 // Dependencies
 namespace Mono {
 // Is value type: true
@@ -52,7 +53,7 @@ public:
   // @brief default ctor
   constexpr RuntimeGPtrArrayHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GPtrArray*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GPtrArray*", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeGPtrArrayHandle(::Mono::RuntimeStructs_GPtrArray* value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CutoutAnimateEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/CutoutAnimateEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::GlobalNamespace::CutoutAnimateEffect*);
 MARK_REF_T(::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CutoutAnimateEffect*, "", "CutoutAnimateEffect");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7*, "", "CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -84,17 +85,22 @@ public:
   /// @brief Method MoveNext, addr 0x598096c, size 0x114, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5980a80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5980a88, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5980ac0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5980968, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -140,6 +146,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59808d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -158,13 +165,13 @@ protected:
   constexpr CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7(CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7(CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7 const&) = delete;
+  CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7(CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5758 };
@@ -210,6 +217,7 @@ static_assert(offsetof(::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCo
 static_assert(sizeof(::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/CutoutAnimateEffect")]
 // Dependencies CutoutEffect, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -233,6 +241,7 @@ public:
   /// @brief Method AnimateCutout, addr 0x597a4b8, size 0x54, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
+  /// [IteratorStateMachine(typeof(CutoutAnimateEffect::<AnimateToCutoutCoroutine>d__7))]
   /// @brief Method AnimateToCutoutCoroutine, addr 0x5980858, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimateToCutoutCoroutine(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
@@ -268,9 +277,11 @@ public:
   /// @brief Method .ctor, addr 0x5980934, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_animating, addr 0x59807e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_animating();
 
+  /// [CompilerGenerated]
   /// @brief Method set_animating, addr 0x59807e8, size 0x8, virtual false, abstract: false, final false
   inline void set_animating(bool value);
 
@@ -280,23 +291,26 @@ protected:
   constexpr CutoutAnimateEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CutoutAnimateEffect(CutoutAnimateEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CutoutAnimateEffect(CutoutAnimateEffect const&) = delete;
+  CutoutAnimateEffect(CutoutAnimateEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5759 };
 
+  /// [SerializeField]
   /// @brief Field _cuttoutEffects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::CutoutEffect>> ____cuttoutEffects;
 
+  /// [SerializeField]
   /// @brief Field _transitionCurve, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____transitionCurve;
 
+  /// [CompilerGenerated]
   /// @brief Field <animating>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____animating_k__BackingField;
 

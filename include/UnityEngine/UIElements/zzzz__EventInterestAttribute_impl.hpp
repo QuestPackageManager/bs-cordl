@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventInterestAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventInterestAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCategoryFlags_impl.hpp"
@@ -73,7 +73,7 @@ constexpr void UnityEngine::UIElements::EventInterestAttribute::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___categoryFlags = value;
 }
-inline void UnityEngine::UIElements::EventInterestAttribute::_ctor(::ArrayW<::System::Type*> eventTypes) {
+inline void UnityEngine::UIElements::EventInterestAttribute::_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> eventTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventInterestAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventTypes);
@@ -89,7 +89,7 @@ inline void UnityEngine::UIElements::EventInterestAttribute::_ctor(::UnityEngine
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventInterestOptionsInternal>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, interests);
 }
-inline ::UnityEngine::UIElements::EventInterestAttribute* UnityEngine::UIElements::EventInterestAttribute::New_ctor(::ArrayW<::System::Type*> eventTypes) {
+inline ::UnityEngine::UIElements::EventInterestAttribute* UnityEngine::UIElements::EventInterestAttribute::New_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> eventTypes) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::EventInterestAttribute*>(eventTypes));
 }
 inline ::UnityEngine::UIElements::EventInterestAttribute* UnityEngine::UIElements::EventInterestAttribute::New_ctor(::UnityEngine::UIElements::EventInterestOptions interests) {

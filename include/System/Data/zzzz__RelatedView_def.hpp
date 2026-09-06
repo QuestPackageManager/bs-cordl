@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\RelatedView.hpp"
+// IWYU pragma private; include "System/Data/RelatedView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,13 +121,13 @@ protected:
   constexpr RelatedView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RelatedView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RelatedView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RelatedView(RelatedView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RelatedView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RelatedView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RelatedView(RelatedView const&) = delete;
+  RelatedView(RelatedViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13849 };

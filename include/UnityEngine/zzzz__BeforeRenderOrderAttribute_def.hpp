@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BeforeRenderOrderAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/BeforeRenderOrderAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class BeforeRenderOrderAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::BeforeRenderOrderAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::BeforeRenderOrderAttribute*, "UnityEngine", "BeforeRenderOrderAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -36,9 +37,11 @@ public:
   /// @brief Method .ctor, addr 0x6a83858, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
+  /// [CompilerGenerated]
   /// @brief Method get_order, addr 0x6a83848, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
+  /// [CompilerGenerated]
   /// @brief Method set_order, addr 0x6a83850, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
@@ -48,17 +51,19 @@ protected:
   constexpr BeforeRenderOrderAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderOrderAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderOrderAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeforeRenderOrderAttribute(BeforeRenderOrderAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderOrderAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderOrderAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeforeRenderOrderAttribute(BeforeRenderOrderAttribute const&) = delete;
+  BeforeRenderOrderAttribute(BeforeRenderOrderAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10125 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <order>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____order_k__BackingField;
 

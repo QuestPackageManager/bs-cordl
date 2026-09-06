@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\ResourceReader.hpp"
+// IWYU pragma private; include "System/Resources/ResourceReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -166,13 +166,13 @@ protected:
   constexpr ResourceReader_ResourceEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader_ResourceEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader_ResourceEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceReader_ResourceEnumerator(ResourceReader_ResourceEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader_ResourceEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader_ResourceEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceReader_ResourceEnumerator(ResourceReader_ResourceEnumerator const&) = delete;
+  ResourceReader_ResourceEnumerator(ResourceReader_ResourceEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3459 };
@@ -203,6 +203,7 @@ static_assert(offsetof(::System::Resources::ResourceReader_ResourceEnumerator, _
 static_assert(sizeof(::System::Resources::ResourceReader_ResourceEnumerator) == 0x28, "Size mismatch!");
 
 } // namespace System::Resources
+// [ComVisible(true)]
 // Dependencies System.Object, System.RuntimeType
 namespace System::Resources {
 // Is value type: false
@@ -443,13 +444,13 @@ protected:
   constexpr ResourceReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceReader(ResourceReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceReader(ResourceReader const&) = delete;
+  ResourceReader(ResourceReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3460 };

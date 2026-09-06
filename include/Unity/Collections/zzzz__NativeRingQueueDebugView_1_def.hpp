@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeRingQueueDebugView_1.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeRingQueueDebugView_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,14 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(NativeRingQueueDebugView_1)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeRingQueue_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeRingQueue_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeRingQueue_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeRingQueue_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> class NativeRingQueueDebugView_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NativeRingQueueDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::NativeRingQueueDebugView_1);
@@ -23,6 +29,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::NativeRingQueueDebugView_1, "U
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.NativeRingQueueDebugView`1<T>
 class CORDL_TYPE NativeRingQueueDebugView_1 : public ::System::Object {
@@ -53,13 +60,13 @@ protected:
   constexpr NativeRingQueueDebugView_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeRingQueueDebugView_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeRingQueueDebugView_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeRingQueueDebugView_1(NativeRingQueueDebugView_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeRingQueueDebugView_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeRingQueueDebugView_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeRingQueueDebugView_1(NativeRingQueueDebugView_1 const&) = delete;
+  NativeRingQueueDebugView_1(NativeRingQueueDebugView_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15688 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SimpleRandom.hpp"
+// IWYU pragma private; include "GlobalNamespace/SimpleRandom.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleRandom_def.hpp"
 #include "GlobalNamespace/zzzz__IRandom_def.hpp"

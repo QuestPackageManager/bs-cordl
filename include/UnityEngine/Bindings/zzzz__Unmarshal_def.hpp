@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\Unmarshal.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/Unmarshal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(Unmarshal)
 namespace System::Runtime::InteropServices {
@@ -18,7 +19,8 @@ struct Unmarshal;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Bindings::Unmarshal);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::Unmarshal, "UnityEngine.Bindings", "Unmarshal");
-// Dependencies
+// [VisibleToOtherModules]
+// Dependencies UnityEngine.Object
 namespace UnityEngine::Bindings {
 // Is value type: true
 // CS Name: UnityEngine.Bindings.Unmarshal
@@ -30,7 +32,9 @@ public:
   static inline ::System::Runtime::InteropServices::GCHandle FromIntPtrUnsafe(::System::IntPtr gcHandle);
 
   /// @brief Method UnmarshalUnityObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T UnmarshalUnityObject(::System::IntPtr gcHandlePtr);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline T UnmarshalUnityObject(::System::IntPtr gcHandlePtr);
 
   // Ctor Parameters []
   // @brief default ctor

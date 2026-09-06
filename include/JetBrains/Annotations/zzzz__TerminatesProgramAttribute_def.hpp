@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\TerminatesProgramAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/TerminatesProgramAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class TerminatesProgramAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::TerminatesProgramAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::TerminatesProgramAttribute*, "JetBrains.Annotations", "TerminatesProgramAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
+// [Obsolete("Use [ContractAnnotation(\'=> halt\')] instead")]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr TerminatesProgramAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerminatesProgramAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerminatesProgramAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerminatesProgramAttribute(TerminatesProgramAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerminatesProgramAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerminatesProgramAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerminatesProgramAttribute(TerminatesProgramAttribute const&) = delete;
+  TerminatesProgramAttribute(TerminatesProgramAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22589 };

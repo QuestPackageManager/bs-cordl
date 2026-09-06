@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Awaitable.hpp"
+// IWYU pragma private; include "UnityEngine/Awaitable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,9 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine {
 template <typename T> class AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox;
@@ -162,7 +164,7 @@ public:
   // @brief default ctor
   constexpr Awaitable_AwaiterCompletionThreadAffinity();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Awaitable_AwaiterCompletionThreadAffinity(int32_t value__) noexcept;
 
   /// @brief Field BackgroundThread value: I32(2)
@@ -204,9 +206,9 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox const&) = delete;
+  AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10315 };
@@ -215,6 +217,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine
+// [ExcludeFromDocs]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -228,8 +231,8 @@ public:
   // @brief default ctor
   constexpr Awaitable_AwaitableAsyncMethodBuilder();
 
-  // Ctor Parameters [CppParam { name: "_stateMachineBox", ty: "::UnityEngine::AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox*", modifiers: "", def_value: None }, CppParam { name:
-  // "_resultingCoroutine", ty: "::UnityEngine::Awaitable*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_stateMachineBox", ty: "::UnityEngine::AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_resultingCoroutine", ty: "::UnityEngine::Awaitable*", modifiers: "", def_value: None, comment: None }]
   constexpr Awaitable_AwaitableAsyncMethodBuilder(::UnityEngine::AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox* _stateMachineBox, ::UnityEngine::Awaitable* _resultingCoroutine) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -269,9 +272,9 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox const&) = delete;
+  AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10317 };
@@ -280,6 +283,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine
+// [ExcludeFromDocs]
 // Dependencies
 namespace UnityEngine {
 // cpp template
@@ -295,8 +299,8 @@ public:
   // @brief default ctor
   constexpr Awaitable_AwaitableAsyncMethodBuilder_1();
 
-  // Ctor Parameters [CppParam { name: "_stateMachineBox", ty: "::UnityEngine::AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox<T>*", modifiers: "", def_value: None }, CppParam { name:
-  // "_resultingCoroutine", ty: "::UnityEngine::Awaitable_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_stateMachineBox", ty: "::UnityEngine::AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox<T>*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "_resultingCoroutine", ty: "::UnityEngine::Awaitable_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr Awaitable_AwaitableAsyncMethodBuilder_1(::UnityEngine::AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox<T>* _stateMachineBox,
                                                     ::UnityEngine::Awaitable_1<T>* _resultingCoroutine) noexcept;
 
@@ -327,9 +331,13 @@ public:
 
   __declspec(property(get = get_FrameIndex)) int32_t FrameIndex;
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Awaitable, addr 0x6adc684, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Awaitable* get_Awaitable();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_FrameIndex, addr 0x6adc68c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FrameIndex();
 
@@ -337,8 +345,8 @@ public:
   // @brief default ctor
   constexpr Awaitable_AwaitableAndFrameIndex();
 
-  // Ctor Parameters [CppParam { name: "_Awaitable_k__BackingField", ty: "::UnityEngine::Awaitable*", modifiers: "", def_value: None }, CppParam { name: "_FrameIndex_k__BackingField", ty: "int32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Awaitable_k__BackingField", ty: "::UnityEngine::Awaitable*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_FrameIndex_k__BackingField",
+  // ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Awaitable_AwaitableAndFrameIndex(::UnityEngine::Awaitable* _Awaitable_k__BackingField, int32_t _FrameIndex_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -347,9 +355,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Awaitable>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Awaitable* _Awaitable_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <FrameIndex>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _FrameIndex_k__BackingField;
 
@@ -406,13 +418,13 @@ protected:
   constexpr Awaitable_DoubleBufferedAwaitableList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_DoubleBufferedAwaitableList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_DoubleBufferedAwaitableList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Awaitable_DoubleBufferedAwaitableList(Awaitable_DoubleBufferedAwaitableList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_DoubleBufferedAwaitableList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable_DoubleBufferedAwaitableList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable_DoubleBufferedAwaitableList(Awaitable_DoubleBufferedAwaitableList const&) = delete;
+  Awaitable_DoubleBufferedAwaitableList(Awaitable_DoubleBufferedAwaitableListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10320 };
@@ -433,6 +445,7 @@ static_assert(offsetof(::UnityEngine::Awaitable_DoubleBufferedAwaitableList, ___
 static_assert(sizeof(::UnityEngine::Awaitable_DoubleBufferedAwaitableList) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine
+// [IsReadOnly]
 // Dependencies System.IntPtr
 namespace UnityEngine {
 // Is value type: true
@@ -474,7 +487,7 @@ public:
   // @brief default ctor
   constexpr Awaitable_AwaitableHandle();
 
-  // Ctor Parameters [CppParam { name: "_handle", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_handle", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr Awaitable_AwaitableHandle(::System::IntPtr _handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -494,6 +507,7 @@ static_assert(offsetof(::UnityEngine::Awaitable_AwaitableHandle, _handle) == 0x0
 static_assert(sizeof(::UnityEngine::Awaitable_AwaitableHandle) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -532,13 +546,13 @@ protected:
   constexpr Awaitable___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Awaitable___c(Awaitable___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable___c(Awaitable___c const&) = delete;
+  Awaitable___c(Awaitable___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10322 };
@@ -549,6 +563,10 @@ public:
 static_assert(sizeof(::UnityEngine::Awaitable___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Mono/DelayedCallAwaitable.h")]
+// [AsyncMethodBuilder(typeof(UnityEngine.Awaitable::AwaitableAsyncMethodBuilder))]
+// [NativeHeader("Runtime/Mono/Awaitable.h")]
+// [NativeHeader("Runtime/Mono/AsyncOperationAwaitable.h")]
 // Dependencies System.Nullable`1<T>, System.Object, System.Threading.CancellationTokenRegistration, System.Threading.SpinLock, UnityEngine.Awaitable::AwaitableHandle,
 // UnityEngine.Awaitable::AwaiterCompletionThreadAffinity
 namespace UnityEngine {
@@ -638,6 +656,7 @@ public:
   /// @brief Method DoRunContinuationOnSynchonizationContext, addr 0x6adb824, size 0x70, virtual false, abstract: false, final false
   static inline void DoRunContinuationOnSynchonizationContext(::System::Object* continuation);
 
+  /// [FreeFunction("Scripting::Awaitables::IsCompleted", IsThreadSafe = true)]
   /// @brief Method IsNativeAwaitableCompleted, addr 0x6adae4c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t IsNativeAwaitableCompleted(::System::IntPtr nativeAwaitable);
 
@@ -649,12 +668,15 @@ public:
 
   static inline ::UnityEngine::Awaitable* New_ctor();
 
+  /// [RequiredByNativeCode]
   /// @brief Method OnDelayedCallManagerCleared, addr 0x6adae88, size 0x7c, virtual false, abstract: false, final false
   static inline void OnDelayedCallManagerCleared();
 
+  /// [RequiredByNativeCode]
   /// @brief Method OnEndOfFrame, addr 0x6adb278, size 0x64, virtual false, abstract: false, final false
   static inline void OnEndOfFrame();
 
+  /// [RequiredByNativeCode]
   /// @brief Method OnUpdate, addr 0x6adaf7c, size 0x64, virtual false, abstract: false, final false
   static inline void OnUpdate();
 
@@ -667,15 +689,18 @@ public:
   /// @brief Method RaiseManagedCompletion, addr 0x6adb52c, size 0x184, virtual false, abstract: false, final false
   inline void RaiseManagedCompletion(::System::Exception* exception);
 
+  /// [FreeFunction("Scripting::Awaitables::Release", IsThreadSafe = true)]
   /// @brief Method ReleaseNativeAwaitable, addr 0x6adae10, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseNativeAwaitable(::System::IntPtr nativeAwaitable);
 
+  /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method RunContinuation, addr 0x6adacd8, size 0x138, virtual false, abstract: false, final false
   inline void RunContinuation();
 
   /// @brief Method RunOrScheduleContinuation, addr 0x6adb6b0, size 0x174, virtual false, abstract: false, final false
   inline void RunOrScheduleContinuation(::UnityEngine::Awaitable_AwaiterCompletionThreadAffinity awaiterCompletionThreadAffinity, ::System::Action* continuation);
 
+  /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method SetExceptionFromNative, addr 0x6adaba4, size 0x134, virtual false, abstract: false, final false
   inline void SetExceptionFromNative(::System::Exception* ex);
 
@@ -788,13 +813,13 @@ protected:
   constexpr Awaitable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Awaitable(Awaitable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Awaitable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Awaitable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable(Awaitable const&) = delete;
+  Awaitable(Awaitableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10323 };

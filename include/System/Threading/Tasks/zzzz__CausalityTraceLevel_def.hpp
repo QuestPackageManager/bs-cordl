@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\CausalityTraceLevel.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/CausalityTraceLevel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CausalityTraceLevel;
 // Write type traits
 MARK_VAL_T(::System::Threading::Tasks::CausalityTraceLevel);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::CausalityTraceLevel, "System.Threading.Tasks", "CausalityTraceLevel");
+// [FriendAccessAllowed]
 // Dependencies
 namespace System::Threading::Tasks {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr CausalityTraceLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CausalityTraceLevel(int32_t value__) noexcept;
 
   /// @brief Field Important value: I32(1)

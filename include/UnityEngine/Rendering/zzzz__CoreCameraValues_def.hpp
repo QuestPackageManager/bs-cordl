@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CoreCameraValues.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CoreCameraValues.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct CoreCameraValues;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CoreCameraValues);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CoreCameraValues, "UnityEngine.Rendering", "CoreCameraValues");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -45,8 +46,8 @@ public:
   // @brief default ctor
   constexpr CoreCameraValues();
 
-  // Ctor Parameters [CppParam { name: "filterMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cullingMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "instanceID", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "filterMode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingMask", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CoreCameraValues(int32_t filterMode, uint32_t cullingMask, int32_t instanceID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

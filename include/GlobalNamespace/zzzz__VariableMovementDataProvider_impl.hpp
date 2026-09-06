@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VariableMovementDataProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/VariableMovementDataProvider.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_impl.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -60,9 +60,9 @@ inline float_t GlobalNamespace::VariableMovementDataProvider_InterpolationData::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider_InterpolationData>(), { "GetValue", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method, time);
 }
-// Ctor Parameters [CppParam { name: "_fromValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_toValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_fromTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_duration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_easeType", ty:
-// "::GlobalNamespace::EaseType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_fromValue", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_toValue", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_fromTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_duration", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_easeType", ty: "::GlobalNamespace::EaseType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::VariableMovementDataProvider_InterpolationData::VariableMovementDataProvider_InterpolationData(float_t _fromValue, float_t _toValue, float_t _fromTime, float_t _duration,
                                                                                                                             ::GlobalNamespace::EaseType _easeType) noexcept {
   this->_fromValue = _fromValue;
@@ -683,7 +683,8 @@ inline ::UnityEngine::Vector3 GlobalNamespace::VariableMovementDataProvider::get
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_jumpEndPosition", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
-inline void GlobalNamespace::VariableMovementDataProvider::_ctor(::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
+inline void GlobalNamespace::VariableMovementDataProvider::_ctor(::GlobalNamespace::PlayerTransforms* playerTransforms,
+                                                                 /* [InjectOptional] */ ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(),
                                               { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::PlayerTransforms*>(), ::i2c::type_of<::GlobalNamespace::BeatmapCallbacksController*>() } })));
@@ -734,8 +735,9 @@ inline void GlobalNamespace::VariableMovementDataProvider::HandleNoteJumpMovemen
                                                            { "HandleNoteJumpMovementSpeedEvent", {}, { ::i2c::type_of<::GlobalNamespace::NoteJumpSpeedEventData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentEventData);
 }
-inline ::GlobalNamespace::VariableMovementDataProvider* GlobalNamespace::VariableMovementDataProvider::New_ctor(::GlobalNamespace::PlayerTransforms* playerTransforms,
-                                                                                                                ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
+inline ::GlobalNamespace::VariableMovementDataProvider*
+GlobalNamespace::VariableMovementDataProvider::New_ctor(::GlobalNamespace::PlayerTransforms* playerTransforms,
+                                                        /* [InjectOptional] */ ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::VariableMovementDataProvider*>(playerTransforms, beatmapCallbacksController));
 }
 /// @brief Convert operator to "::GlobalNamespace::IVariableMovementDataProvider"

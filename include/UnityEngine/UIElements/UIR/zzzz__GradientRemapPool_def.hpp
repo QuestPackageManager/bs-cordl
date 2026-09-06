@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\GradientRemapPool.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GradientRemapPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ MARK_REF_T(::UnityEngine::UIElements::UIR::GradientRemapPool*);
 MARK_REF_T(::UnityEngine::UIElements::UIR::GradientRemapPool___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::GradientRemapPool*, "UnityEngine.UIElements.UIR", "GradientRemapPool");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::GradientRemapPool___c*, "UnityEngine.UIElements.UIR", "GradientRemapPool/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
@@ -75,13 +76,13 @@ protected:
   constexpr GradientRemapPool___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GradientRemapPool___c(GradientRemapPool___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GradientRemapPool___c(GradientRemapPool___c const&) = delete;
+  GradientRemapPool___c(GradientRemapPool___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5363 };
@@ -112,13 +113,13 @@ protected:
   constexpr GradientRemapPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GradientRemapPool(GradientRemapPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GradientRemapPool(GradientRemapPool const&) = delete;
+  GradientRemapPool(GradientRemapPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5364 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\BeatmapSaveDataItem.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BeatmapSaveDataItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,17 +63,18 @@ protected:
   constexpr BeatmapSaveDataItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapSaveDataItem(BeatmapSaveDataItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapSaveDataItem(BeatmapSaveDataItem const&) = delete;
+  BeatmapSaveDataItem(BeatmapSaveDataItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15347 };
 
+  /// [SerializeField]
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
 

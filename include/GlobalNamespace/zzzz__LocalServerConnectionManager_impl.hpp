@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalServerConnectionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalServerConnectionManager.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalServerConnectionManager_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalServerConnectionManager_def.hpp"
@@ -31,7 +32,7 @@
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__IAsyncDisposable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LocalServerConnectionManager_ConnectionState::LocalServerConnectionManager_ConnectionState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1229,7 +1230,9 @@ inline void GlobalNamespace::LocalServerConnectionManager::SendToAll(::LiteNetLi
           { "SendToAll", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataWriter*>(), ::i2c::type_of<::BGNet::Core::DeliveryMethod>(), ::i2c::type_of<::GlobalNamespace::IConnection*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, deliveryMethod, excludingConnection);
 }
-template <typename T> inline bool GlobalNamespace::LocalServerConnectionManager::Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+inline bool GlobalNamespace::LocalServerConnectionManager::Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalServerConnectionManager*>(),
                                                            { "Init", { ::i2c::class_of<T>() }, { ::i2c::type_of<::GlobalNamespace::IConnectionInitParams_1<T>*>() } })));

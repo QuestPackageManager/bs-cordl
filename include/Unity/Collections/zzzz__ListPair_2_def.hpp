@@ -1,22 +1,26 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\ListPair_2.hpp"
+// IWYU pragma private; include "Unity/Collections/ListPair_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ListPair_2)
 // Forward declare root types
 namespace Unity::Collections {
-template <typename Key, typename Value> struct ListPair_2;
+template <typename Key, typename Value>
+  requires(::cordl_internals::type_constraint<Value, ::System::Collections::IList*>)
+struct ListPair_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::ListPair_2);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::ListPair_2, "Unity.Collections", "ListPair`2");
-// Dependencies
+// Dependencies System.Collections.IList
 namespace Unity::Collections {
 // cpp template
 template <typename Key, typename Value>
+  requires(::cordl_internals::type_constraint<Value, ::System::Collections::IList*>)
 // Is value type: true
 // CS Name: Unity.Collections.ListPair`2<Key,Value>
 struct CORDL_TYPE ListPair_2 {
@@ -32,7 +36,7 @@ public:
   // @brief default ctor
   constexpr ListPair_2();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "Key", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Value", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "key", ty: "Key", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "Value", modifiers: "", def_value: None, comment: None }]
   constexpr ListPair_2(Key key, Value value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

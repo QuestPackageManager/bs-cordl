@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\IncrementInstruction.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/IncrementInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,13 +152,13 @@ protected:
   constexpr IncrementInstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IncrementInstruction(IncrementInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IncrementInstruction(IncrementInstruction const&) = delete;
+  IncrementInstruction(IncrementInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16386 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IntPtr.hpp"
+// IWYU pragma private; include "System/IntPtr.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -473,7 +473,7 @@ constexpr System::IntPtr::operator ::System::IEquatable_1<::System::IntPtr>*() {
 constexpr ::System::IEquatable_1<::System::IntPtr>* System::IntPtr::i___System__IEquatable_1___System__IntPtr_() {
   return static_cast<::System::IEquatable_1<::System::IntPtr>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "void*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IntPtr::IntPtr(void* m_value) noexcept {
   this->m_value = m_value;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\HttpPersistentTransport.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/HttpPersistentTransport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,6 +127,7 @@ DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpPersistentTransport___
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2*, "OculusStudios.GraphQL.Client", "HttpPersistentTransport/<>c__DisplayClass17_2");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15, "OculusStudios.GraphQL.Client", "HttpPersistentTransport/<ExecuteAsync>d__15");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17, "OculusStudios.GraphQL.Client", "HttpPersistentTransport/<ReadFromStream>d__17");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
@@ -162,13 +163,13 @@ protected:
   constexpr HttpPersistentTransport___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpPersistentTransport___c(HttpPersistentTransport___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport___c(HttpPersistentTransport___c const&) = delete;
+  HttpPersistentTransport___c(HttpPersistentTransport___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20411 };
@@ -179,6 +180,7 @@ public:
 static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpPersistentTransport___c) == 0x10, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
@@ -206,13 +208,13 @@ protected:
   constexpr HttpPersistentTransport___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpPersistentTransport___c__DisplayClass17_0(HttpPersistentTransport___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport___c__DisplayClass17_0(HttpPersistentTransport___c__DisplayClass17_0 const&) = delete;
+  HttpPersistentTransport___c__DisplayClass17_0(HttpPersistentTransport___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20412 };
@@ -228,6 +230,7 @@ static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpPersistentTransport
 static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0) == 0x18, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
@@ -268,13 +271,13 @@ protected:
   constexpr HttpPersistentTransport___c__DisplayClass17_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpPersistentTransport___c__DisplayClass17_1(HttpPersistentTransport___c__DisplayClass17_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport___c__DisplayClass17_1(HttpPersistentTransport___c__DisplayClass17_1 const&) = delete;
+  HttpPersistentTransport___c__DisplayClass17_1(HttpPersistentTransport___c__DisplayClass17_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20413 };
@@ -295,6 +298,7 @@ static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpPersistentTransport
 static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1) == 0x20, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
@@ -335,13 +339,13 @@ protected:
   constexpr HttpPersistentTransport___c__DisplayClass17_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpPersistentTransport___c__DisplayClass17_2(HttpPersistentTransport___c__DisplayClass17_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport___c__DisplayClass17_2(HttpPersistentTransport___c__DisplayClass17_2 const&) = delete;
+  HttpPersistentTransport___c__DisplayClass17_2(HttpPersistentTransport___c__DisplayClass17_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20414 };
@@ -362,6 +366,7 @@ static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpPersistentTransport
 static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_2) == 0x20, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
@@ -375,6 +380,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f24c88, size 0x384, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f250f4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -385,12 +391,13 @@ public:
   // @brief default ctor
   constexpr HttpPersistentTransport__ExecuteAsync_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None }, CppParam { name: "graphQLRequest", ty:
-  // "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::HttpPersistentTransport*", modifiers:
-  // "", def_value: None }, CppParam { name: "MinimalMainThreadExecutor", ty: "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: None }, CppParam { name:
-  // "_responseStream_5__2", ty: "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "graphQLRequest", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::OculusStudios::GraphQL::Client::HttpPersistentTransport*", modifiers: "", def_value: None, comment: None }, CppParam { name: "MinimalMainThreadExecutor", ty:
+  // "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_responseStream_5__2", ty:
+  // "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HttpPersistentTransport__ExecuteAsync_d__15(int32_t __1__state,
                                                         ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
                                                         ::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest, ::OculusStudios::GraphQL::Client::HttpPersistentTransport* __4__this,
@@ -445,6 +452,7 @@ static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpPersistentTransport
 static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15) == 0x48, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationTokenRegistration, System.TimeSpan
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
@@ -458,6 +466,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f25174, size 0x13e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f26564, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -468,22 +477,23 @@ public:
   // @brief default ctor
   constexpr HttpPersistentTransport__ReadFromStream_d__17();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "responseStream", ty: "::OculusStudios::GraphQL::Client::GraphQLResponseStream*",
-  // modifiers: "", def_value: None }, CppParam { name: "liveQuery", ty: "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::OculusStudios::GraphQL::Client::HttpPersistentTransport*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0*", modifiers: "", def_value: None }, CppParam { name: "__8__2", ty:
-  // "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*", modifiers: "", def_value: None }, CppParam { name: "MinimalMainThreadExecutor", ty:
-  // "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: None }, CppParam { name: "_buf_5__2", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None },
-  // CppParam { name: "_total_len_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_b_5__4", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: None }, CppParam {
-  // name: "__7__wrap4", ty: "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None }, CppParam { name: "_stopWatch_5__6", ty: "::System::Diagnostics::Stopwatch*", modifiers:
-  // "", def_value: None }, CppParam { name: "_response_5__7", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "_latency_5__8", ty: "::System::TimeSpan",
-  // modifiers: "", def_value: None }, CppParam { name: "_body_5__9", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap9", ty:
-  // "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t>", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "responseStream", ty:
+  // "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "liveQuery", ty:
+  // "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::OculusStudios::GraphQL::Client::HttpPersistentTransport*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
+  // "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__2", ty:
+  // "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*", modifiers: "", def_value: None, comment: None }, CppParam { name: "MinimalMainThreadExecutor", ty:
+  // "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_buf_5__2", ty: "::ArrayW<char16_t>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_total_len_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_b_5__4", ty: "::System::Text::StringBuilder*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap4", ty: "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_stopWatch_5__6", ty:
+  // "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_response_5__7", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_latency_5__8", ty: "::System::TimeSpan", modifiers: "", def_value: None, comment: None }, CppParam { name: "_body_5__9", ty: "::System::IO::Stream*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::IO::Stream*>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__7__wrap9", ty: "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__4", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr HttpPersistentTransport__ReadFromStream_d__17(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::GraphQLResponseStream* responseStream,
       ::OculusStudios::GraphQL::Client::GraphQLLiveQuery* liveQuery, ::OculusStudios::GraphQL::Client::HttpPersistentTransport* __4__this,
@@ -664,6 +674,7 @@ public:
   /// @brief Method Dispose, addr 0x5f24aa0, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpPersistentTransport::<ExecuteAsync>d__15))]
   /// @brief Method ExecuteAsync, addr 0x5f23fc8, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*
   ExecuteAsync(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* MinimalMainThreadExecutor);
@@ -673,6 +684,7 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport* New_ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpPersistentTransport::<ReadFromStream>d__17))]
   /// @brief Method ReadFromStream, addr 0x5f249d8, size 0xc8, virtual false, abstract: false, final false
   inline void ReadFromStream(::OculusStudios::GraphQL::Client::GraphQLLiveQuery* liveQuery, ::OculusStudios::GraphQL::Client::GraphQLResponseStream* responseStream,
                              ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* MinimalMainThreadExecutor);
@@ -714,9 +726,11 @@ public:
 
   static inline ::StringW getStaticF_HeartbeatInterval();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AccessToken, addr 0x5f23e78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AccessToken();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Endpoint, addr 0x5f23e68, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Endpoint();
 
@@ -730,9 +744,11 @@ public:
 
   static inline void setStaticF_HeartbeatInterval(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_AccessToken, addr 0x5f23e80, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessToken(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Endpoint, addr 0x5f23e70, size 0x8, virtual false, abstract: false, final false
   inline void set_Endpoint(::StringW value);
 
@@ -742,13 +758,13 @@ protected:
   constexpr HttpPersistentTransport();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpPersistentTransport(HttpPersistentTransport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport(HttpPersistentTransport const&) = delete;
+  HttpPersistentTransport(HttpPersistentTransportconst&) = delete;
 
   /// @brief Field BUFF_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BUFF_SIZE{ static_cast<int32_t>(0x400) };
@@ -756,9 +772,11 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20417 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Endpoint>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Endpoint_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AccessToken>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____AccessToken_k__BackingField;
 

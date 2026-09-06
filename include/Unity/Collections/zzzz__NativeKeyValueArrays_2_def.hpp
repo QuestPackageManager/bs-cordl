@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeKeyValueArrays_2.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeKeyValueArrays_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,21 @@ struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeKeyValueArrays_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeKeyValueArrays_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeKeyValueArrays_2);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeKeyValueArrays_2, "Unity.Collections", "NativeKeyValueArrays`2");
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeKeyValueArrays`2<TKey,TValue>
 struct CORDL_TYPE NativeKeyValueArrays_2 {
@@ -68,8 +74,8 @@ public:
   // @brief default ctor
   constexpr NativeKeyValueArrays_2();
 
-  // Ctor Parameters [CppParam { name: "Keys", ty: "::Unity::Collections::NativeArray_1<TKey>", modifiers: "", def_value: None }, CppParam { name: "Values", ty:
-  // "::Unity::Collections::NativeArray_1<TValue>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Keys", ty: "::Unity::Collections::NativeArray_1<TKey>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Values", ty:
+  // "::Unity::Collections::NativeArray_1<TValue>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeKeyValueArrays_2(::Unity::Collections::NativeArray_1<TKey> Keys, ::Unity::Collections::NativeArray_1<TValue> Values) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

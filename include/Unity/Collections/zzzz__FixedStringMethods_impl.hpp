@@ -1,6 +1,8 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedStringMethods.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedStringMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__INativeList_1_impl.hpp"
+#include "Unity/Collections/zzzz__IUTF8Bytes_impl.hpp"
 #include "Unity/Collections/zzzz__FixedStringMethods_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeText_def.hpp"
@@ -372,27 +374,39 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Nat
     return ___internal_method;
   }
 };
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, rune);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, char16_t ch) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, char16_t ch) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                                                               { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<char16_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, ch);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendRawByte(::by_ref<T> fs, uint8_t a) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendRawByte(::by_ref<T> fs, uint8_t a) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "AppendRawByte", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<uint8_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, a);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune, int32_t count) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune, int32_t count) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -400,86 +414,135 @@ template <typename T> inline ::Unity::Collections::FormatError Unity::Collection
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, rune, count);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, int64_t input) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, int64_t input) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                                                               { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int64_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, input);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, int32_t input) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, int32_t input) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                                                               { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, input);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, uint64_t input) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, uint64_t input) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                                                               { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<uint64_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, input);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, uint32_t input) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, uint32_t input) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                                                               { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<uint32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, input);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, float_t input, char16_t decimalSeparator) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, float_t input, char16_t decimalSeparator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<char16_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, input, decimalSeparator);
 }
-template <typename T, typename T2> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, ::by_ref<T2> input) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> input) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "Append", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, input);
 }
-template <typename T, typename T2> inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFrom(::by_ref<T> fs, ::by_ref<T2> input) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFrom(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> input) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "CopyFrom", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::CopyError>(nullptr, ___internal_method, fs, input);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, uint8_t* utf8Bytes, int32_t utf8BytesLength) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, uint8_t* utf8Bytes, int32_t utf8BytesLength) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, utf8Bytes, utf8BytesLength);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, ::StringW s) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, ::StringW s) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                                                               { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, s);
 }
-template <typename T> inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFrom(::by_ref<T> fs, ::StringW s) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFrom(::by_ref<T> fs, ::StringW s) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "CopyFrom", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::CopyError>(nullptr, ___internal_method, fs, s);
 }
-template <typename T> inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFromTruncated(::by_ref<T> fs, ::StringW s) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFromTruncated(::by_ref<T> fs, ::StringW s) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "CopyFromTruncated", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::CopyError>(nullptr, ___internal_method, fs, s);
 }
-template <typename T, typename T2> inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFromTruncated(::by_ref<T> fs, ::by_ref<T2> input) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline ::Unity::Collections::CopyError Unity::Collections::FixedStringMethods::CopyFromTruncated(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> input) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                               { "CopyFromTruncated", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::CopyError>(nullptr, ___internal_method, fs, input);
 }
-template <typename T, typename U, typename T0> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0) {
+template <typename T, typename U, typename T0>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+           ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                                                               { "AppendFormat",
                                                                                                 { ::i2c::class_of<T>(), ::i2c::class_of<U>(), ::i2c::class_of<T0>() },
@@ -488,7 +551,16 @@ template <typename T, typename U, typename T0> inline ::Unity::Collections::Form
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0);
 }
 template <typename T, typename U, typename T0, typename T1>
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0, ::by_ref<T1> arg1) {
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+           ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> &&
+           ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "AppendFormat",
@@ -499,7 +571,18 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1);
 }
 template <typename T, typename U, typename T0, typename T1, typename T2>
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0, ::by_ref<T1> arg1, ::by_ref<T2> arg2) {
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+           ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> &&
+           ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -511,8 +594,21 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2);
 }
 template <typename T, typename U, typename T0, typename T1, typename T2, typename T3>
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0, ::by_ref<T1> arg1, ::by_ref<T2> arg2,
-                                                                                              ::by_ref<T3> arg3) {
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+           ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> &&
+           ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "AppendFormat",
@@ -524,8 +620,23 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2, arg3);
 }
 template <typename T, typename U, typename T0, typename T1, typename T2, typename T3, typename T4>
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0, ::by_ref<T1> arg1, ::by_ref<T2> arg2,
-                                                                                              ::by_ref<T3> arg3, ::by_ref<T4> arg4) {
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+           ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> &&
+           ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+           ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3> &&
+           ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -539,8 +650,23 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2, arg3, arg4);
 }
 template <typename T, typename U, typename T0, typename T1, typename T2, typename T3, typename T4, typename T5>
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0, ::by_ref<T1> arg1, ::by_ref<T2> arg2,
-                                                                                              ::by_ref<T3> arg3, ::by_ref<T4> arg4, ::by_ref<T5> arg5) {
+  requires(
+      ::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+      ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+      ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3> &&
+      ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4> && ::cordl_internals::type_constraint<T5, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T5, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T5> && ::cordl_internals::default_constructor_constraint<T5>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T5> arg5) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "AppendFormat",
@@ -554,8 +680,25 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2, arg3, arg4, arg5);
 }
 template <typename T, typename U, typename T0, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0, ::by_ref<T1> arg1, ::by_ref<T2> arg2,
-                                                                                              ::by_ref<T3> arg3, ::by_ref<T4> arg4, ::by_ref<T5> arg5, ::by_ref<T6> arg6) {
+  requires(
+      ::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+      ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+      ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3> &&
+      ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4> && ::cordl_internals::type_constraint<T5, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T5, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T5> && ::cordl_internals::default_constructor_constraint<T5> &&
+      ::cordl_internals::type_constraint<T6, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T6, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T6> && ::cordl_internals::default_constructor_constraint<T6>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -570,8 +713,26 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2, arg3, arg4, arg5, arg6);
 }
 template <typename T, typename U, typename T0, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0, ::by_ref<T1> arg1, ::by_ref<T2> arg2,
-                                                                                              ::by_ref<T3> arg3, ::by_ref<T4> arg4, ::by_ref<T5> arg5, ::by_ref<T6> arg6, ::by_ref<T7> arg7) {
+  requires(
+      ::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+      ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+      ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3> &&
+      ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4> && ::cordl_internals::type_constraint<T5, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T5, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T5> && ::cordl_internals::default_constructor_constraint<T5> &&
+      ::cordl_internals::type_constraint<T6, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T6, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T6> && ::cordl_internals::default_constructor_constraint<T6> && ::cordl_internals::type_constraint<T7, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T7, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T7> && ::cordl_internals::default_constructor_constraint<T7>)
+inline ::Unity::Collections::FormatError
+Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
+                                                     /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
+                                                     /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6, /* [IsReadOnly] */ ::by_ref<T7> arg7) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -586,9 +747,29 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7);
 }
 template <typename T, typename U, typename T0, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0, ::by_ref<T1> arg1, ::by_ref<T2> arg2,
-                                                                                              ::by_ref<T3> arg3, ::by_ref<T4> arg4, ::by_ref<T5> arg5, ::by_ref<T6> arg6, ::by_ref<T7> arg7,
-                                                                                              ::by_ref<T8> arg8) {
+  requires(
+      ::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+      ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+      ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3> &&
+      ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4> && ::cordl_internals::type_constraint<T5, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T5, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T5> && ::cordl_internals::default_constructor_constraint<T5> &&
+      ::cordl_internals::type_constraint<T6, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T6, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T6> && ::cordl_internals::default_constructor_constraint<T6> && ::cordl_internals::type_constraint<T7, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T7, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T7> && ::cordl_internals::default_constructor_constraint<T7> &&
+      ::cordl_internals::type_constraint<T8, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T8, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T8> && ::cordl_internals::default_constructor_constraint<T8>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T1> arg1, /* [IsReadOnly] */ ::by_ref<T2> arg2,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6,
+                                                                                              /* [IsReadOnly] */ ::by_ref<T7> arg7, /* [IsReadOnly] */ ::by_ref<T8> arg8) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "AppendFormat",
@@ -604,9 +785,30 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
 }
 template <typename T, typename U, typename T0, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
-inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, ::by_ref<U> format, ::by_ref<T0> arg0, ::by_ref<T1> arg1, ::by_ref<T2> arg2,
-                                                                                              ::by_ref<T3> arg3, ::by_ref<T4> arg4, ::by_ref<T5> arg5, ::by_ref<T6> arg6, ::by_ref<T7> arg7,
-                                                                                              ::by_ref<T8> arg8, ::by_ref<T9> arg9) {
+  requires(
+      ::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+      ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
+      ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3> &&
+      ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4> && ::cordl_internals::type_constraint<T5, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T5, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T5> && ::cordl_internals::default_constructor_constraint<T5> &&
+      ::cordl_internals::type_constraint<T6, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T6, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T6> && ::cordl_internals::default_constructor_constraint<T6> && ::cordl_internals::type_constraint<T7, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T7, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T7> && ::cordl_internals::default_constructor_constraint<T7> &&
+      ::cordl_internals::type_constraint<T8, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T8, ::Unity::Collections::IUTF8Bytes*> &&
+      ::cordl_internals::value_type_constraint<T8> && ::cordl_internals::default_constructor_constraint<T8> && ::cordl_internals::type_constraint<T9, ::Unity::Collections::INativeList_1<uint8_t>*> &&
+      ::cordl_internals::type_constraint<T9, ::Unity::Collections::IUTF8Bytes*> && ::cordl_internals::value_type_constraint<T9> && ::cordl_internals::default_constructor_constraint<T9>)
+inline ::Unity::Collections::FormatError
+Unity::Collections::FixedStringMethods::AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
+                                                     /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
+                                                     /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6, /* [IsReadOnly] */ ::by_ref<T7> arg7,
+                                                     /* [IsReadOnly] */ ::by_ref<T8> arg8, /* [IsReadOnly] */ ::by_ref<T9> arg9) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                               { "AppendFormat",
@@ -621,14 +823,20 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
                                                       ::i2c::class_of<T4>(), ::i2c::class_of<T5>(), ::i2c::class_of<T6>(), ::i2c::class_of<T7>(), ::i2c::class_of<T8>(), ::i2c::class_of<T9>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, dest, format, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, char16_t a, char16_t b) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, char16_t a, char16_t b) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<char16_t>(), ::i2c::type_of<char16_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, a, b);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, char16_t a, char16_t b, char16_t c) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, char16_t a, char16_t b, char16_t c) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -637,6 +845,8 @@ template <typename T> inline ::Unity::Collections::FormatError Unity::Collection
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, a, b, c);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Append(::by_ref<T> fs, char16_t a, char16_t b, char16_t c, char16_t d, char16_t e, char16_t f, char16_t g,
                                                                                         char16_t h) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -649,6 +859,8 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, a, b, c, d, e, f, g, h);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::AppendScientific(::by_ref<T> fs, char16_t* source, int32_t sourceLength, int32_t decimalExponent,
                                                                                                   char16_t decimalSeparator) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -659,7 +871,10 @@ inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, source, sourceLength, decimalExponent, decimalSeparator);
 }
-template <typename T> inline bool Unity::Collections::FixedStringMethods::Found(::by_ref<T> fs, ::by_ref<int32_t> offset, char16_t a, char16_t b, char16_t c) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::FixedStringMethods::Found(::by_ref<T> fs, ::by_ref<int32_t> offset, char16_t a, char16_t b, char16_t c) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -670,6 +885,8 @@ template <typename T> inline bool Unity::Collections::FixedStringMethods::Found(
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, offset, a, b, c);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline bool Unity::Collections::FixedStringMethods::Found(::by_ref<T> fs, ::by_ref<int32_t> offset, char16_t a, char16_t b, char16_t c, char16_t d, char16_t e, char16_t f, char16_t g, char16_t h) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -687,14 +904,20 @@ inline void Unity::Collections::FixedStringMethods::CheckSubstringInRange(int32_
                                                            { "CheckSubstringInRange", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, strLength, startIndex, length);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::Substring(::by_ref<T> str, int32_t startIndex, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::Substring(::by_ref<T> str, int32_t startIndex, int32_t length) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "Substring", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, str, startIndex, length);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::Substring(::by_ref<T> str, int32_t startIndex) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::Substring(::by_ref<T> str, int32_t startIndex) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "Substring", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>() } })));
@@ -731,21 +954,30 @@ inline ::Unity::Collections::NativeText Unity::Collections::FixedStringMethods::
                                                            { "Substring", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeText>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeText>(nullptr, ___internal_method, str, startIndex);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "IndexOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, rune);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "IndexOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, bytes, bytesLen);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen, int32_t startIndex, int32_t distance) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen, int32_t startIndex, int32_t distance) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -754,14 +986,24 @@ template <typename T> inline int32_t Unity::Collections::FixedStringMethods::Ind
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, bytes, bytesLen, startIndex, distance);
 }
-template <typename T, typename T2> inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, ::by_ref<T2> other) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "IndexOf", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other);
 }
-template <typename T, typename T2> inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, ::by_ref<T2> other, int32_t startIndex, int32_t distance) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline int32_t Unity::Collections::FixedStringMethods::IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other, int32_t startIndex, int32_t distance) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -770,28 +1012,42 @@ template <typename T, typename T2> inline int32_t Unity::Collections::FixedStrin
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other, startIndex, distance);
 }
-template <typename T, typename T2> inline bool Unity::Collections::FixedStringMethods::Contains(::by_ref<T> fs, ::by_ref<T2> other) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline bool Unity::Collections::FixedStringMethods::Contains(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "Contains", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, other);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "LastIndexOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, rune);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "LastIndexOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, bytes, bytesLen);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen, int32_t startIndex, int32_t distance) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen, int32_t startIndex, int32_t distance) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                               { "LastIndexOf",
@@ -800,14 +1056,24 @@ template <typename T> inline int32_t Unity::Collections::FixedStringMethods::Las
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, bytes, bytesLen, startIndex, distance);
 }
-template <typename T, typename T2> inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, ::by_ref<T2> other) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "LastIndexOf", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other);
 }
-template <typename T, typename T2> inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, ::by_ref<T2> other, int32_t startIndex, int32_t distance) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline int32_t Unity::Collections::FixedStringMethods::LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other, int32_t startIndex, int32_t distance) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "LastIndexOf",
@@ -816,48 +1082,73 @@ template <typename T, typename T2> inline int32_t Unity::Collections::FixedStrin
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other, startIndex, distance);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::CompareTo(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::CompareTo(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "CompareTo", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, bytes, bytesLen);
 }
-template <typename T, typename T2> inline int32_t Unity::Collections::FixedStringMethods::CompareTo(::by_ref<T> fs, ::by_ref<T2> other) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline int32_t Unity::Collections::FixedStringMethods::CompareTo(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "CompareTo", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, other);
 }
-template <typename T> inline bool Unity::Collections::FixedStringMethods::Equals(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::FixedStringMethods::Equals(::by_ref<T> fs, uint8_t* bytes, int32_t bytesLen) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "Equals", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, bytes, bytesLen);
 }
-template <typename T, typename T2> inline bool Unity::Collections::FixedStringMethods::Equals(::by_ref<T> fs, ::by_ref<T2> other) {
+template <typename T, typename T2>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
+inline bool Unity::Collections::FixedStringMethods::Equals(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "Equals", { ::i2c::class_of<T>(), ::i2c::class_of<T2>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T2>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<T2>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, other);
 }
-template <typename T> inline ::Unity::Collections::Unicode_Rune Unity::Collections::FixedStringMethods::Peek(::by_ref<T> fs, int32_t index) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::Unicode_Rune Unity::Collections::FixedStringMethods::Peek(::by_ref<T> fs, int32_t index) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                                                               { "Peek", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune>(nullptr, ___internal_method, fs, index);
 }
-template <typename T> inline ::Unity::Collections::Unicode_Rune Unity::Collections::FixedStringMethods::Read(::by_ref<T> fs, ::by_ref<int32_t> index) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::Unicode_Rune Unity::Collections::FixedStringMethods::Read(::by_ref<T> fs, ::by_ref<int32_t> index) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "Read", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Unicode_Rune>(nullptr, ___internal_method, fs, index);
 }
-template <typename T> inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Write(::by_ref<T> fs, ::by_ref<int32_t> index, ::Unity::Collections::Unicode_Rune rune) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::FormatError Unity::Collections::FixedStringMethods::Write(::by_ref<T> fs, ::by_ref<int32_t> index, ::Unity::Collections::Unicode_Rune rune) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -865,59 +1156,90 @@ template <typename T> inline ::Unity::Collections::FormatError Unity::Collection
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(nullptr, ___internal_method, fs, index, rune);
 }
-template <typename T> inline ::StringW Unity::Collections::FixedStringMethods::ConvertToString(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::StringW Unity::Collections::FixedStringMethods::ConvertToString(::by_ref<T> fs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "ConvertToString", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, fs);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::ComputeHashCode(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::ComputeHashCode(::by_ref<T> fs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "ComputeHashCode", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::EffectiveSizeOf(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::EffectiveSizeOf(::by_ref<T> fs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "EffectiveSizeOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs);
 }
-template <typename T> inline bool Unity::Collections::FixedStringMethods::StartsWith(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::FixedStringMethods::StartsWith(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "StartsWith", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, rune);
 }
-template <typename T, typename U> inline bool Unity::Collections::FixedStringMethods::StartsWith(::by_ref<T> fs, ::by_ref<U> other) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+inline bool Unity::Collections::FixedStringMethods::StartsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "StartsWith", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, other);
 }
-template <typename T> inline bool Unity::Collections::FixedStringMethods::EndsWith(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::FixedStringMethods::EndsWith(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "EndsWith", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::Unity::Collections::Unicode_Rune>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, rune);
 }
-template <typename T, typename U> inline bool Unity::Collections::FixedStringMethods::EndsWith(::by_ref<T> fs, ::by_ref<U> other) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+inline bool Unity::Collections::FixedStringMethods::EndsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U> other) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                                            { "EndsWith", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<U>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, other);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::TrimStartIndex(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::TrimStartIndex(::by_ref<T> fs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "TrimStartIndex", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::TrimStartIndex(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::TrimStartIndex(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -925,13 +1247,19 @@ template <typename T> inline int32_t Unity::Collections::FixedStringMethods::Tri
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, trimRunes);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::TrimEndIndex(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::TrimEndIndex(::by_ref<T> fs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "TrimEndIndex", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs);
 }
-template <typename T> inline int32_t Unity::Collections::FixedStringMethods::TrimEndIndex(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedStringMethods::TrimEndIndex(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -939,7 +1267,10 @@ template <typename T> inline int32_t Unity::Collections::FixedStringMethods::Tri
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, fs, trimRunes);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::TrimStart(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::TrimStart(::by_ref<T> fs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "TrimStart", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -962,7 +1293,10 @@ inline ::Unity::Collections::NativeText Unity::Collections::FixedStringMethods::
                           { "TrimStart", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeText>>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeText>(nullptr, ___internal_method, fs, allocator);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::TrimStart(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::TrimStart(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -993,7 +1327,10 @@ inline ::Unity::Collections::NativeText Unity::Collections::FixedStringMethods::
                                                                ::i2c::type_of<::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeText>(nullptr, ___internal_method, fs, allocator, trimRunes);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::TrimEnd(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::TrimEnd(::by_ref<T> fs) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "TrimEnd", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1016,7 +1353,10 @@ inline ::Unity::Collections::NativeText Unity::Collections::FixedStringMethods::
                                        { "TrimEnd", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeText>>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeText>(nullptr, ___internal_method, fs, allocator);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::TrimEnd(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::TrimEnd(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -1046,7 +1386,10 @@ inline ::Unity::Collections::NativeText Unity::Collections::FixedStringMethods::
                                                                ::i2c::type_of<::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeText>(nullptr, ___internal_method, fs, allocator, trimRunes);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::Trim(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::Trim(::by_ref<T> fs) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "Trim", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1068,7 +1411,10 @@ inline ::Unity::Collections::NativeText Unity::Collections::FixedStringMethods::
                                        { "Trim", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeText>>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeText>(nullptr, ___internal_method, fs, allocator);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::Trim(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::Trim(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -1098,7 +1444,10 @@ inline ::Unity::Collections::NativeText Unity::Collections::FixedStringMethods::
                                                                ::i2c::type_of<::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeText>(nullptr, ___internal_method, fs, allocator, trimRunes);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::ToLowerAscii(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::ToLowerAscii(::by_ref<T> fs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "ToLowerAscii", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1121,7 +1470,10 @@ inline ::Unity::Collections::NativeText Unity::Collections::FixedStringMethods::
                           { "ToLowerAscii", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeText>>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeText>(nullptr, ___internal_method, fs, allocator);
 }
-template <typename T> inline T Unity::Collections::FixedStringMethods::ToUpperAscii(::by_ref<T> fs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::FixedStringMethods::ToUpperAscii(::by_ref<T> fs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(), { "ToUpperAscii", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1144,7 +1496,10 @@ inline ::Unity::Collections::NativeText Unity::Collections::FixedStringMethods::
                           { "ToUpperAscii", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeText>>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeText>(nullptr, ___internal_method, fs, allocator);
 }
-template <typename T> inline bool Unity::Collections::FixedStringMethods::ParseLongInternal(::by_ref<T> fs, ::by_ref<int32_t> offset, ::by_ref<int64_t> value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::FixedStringMethods::ParseLongInternal(::by_ref<T> fs, ::by_ref<int32_t> offset, ::by_ref<int64_t> value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
@@ -1152,14 +1507,20 @@ template <typename T> inline bool Unity::Collections::FixedStringMethods::ParseL
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, fs, offset, value);
 }
-template <typename T> inline ::Unity::Collections::ParseError Unity::Collections::FixedStringMethods::Parse(::by_ref<T> fs, ::by_ref<int32_t> offset, ::by_ref<int32_t> output) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::ParseError Unity::Collections::FixedStringMethods::Parse(::by_ref<T> fs, ::by_ref<int32_t> offset, ::by_ref<int32_t> output) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                               { "Parse", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ParseError>(nullptr, ___internal_method, fs, offset, output);
 }
-template <typename T> inline ::Unity::Collections::ParseError Unity::Collections::FixedStringMethods::Parse(::by_ref<T> fs, ::by_ref<int32_t> offset, ::by_ref<uint32_t> output) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::ParseError Unity::Collections::FixedStringMethods::Parse(::by_ref<T> fs, ::by_ref<int32_t> offset, ::by_ref<uint32_t> output) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedStringMethods*>(),
                                               { "Parse", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
@@ -1167,6 +1528,8 @@ template <typename T> inline ::Unity::Collections::ParseError Unity::Collections
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::ParseError>(nullptr, ___internal_method, fs, offset, output);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T, ::Unity::Collections::IUTF8Bytes*> &&
+           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::ParseError Unity::Collections::FixedStringMethods::Parse(::by_ref<T> fs, ::by_ref<int32_t> offset, ::by_ref<float_t> output, char16_t decimalSeparator) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},

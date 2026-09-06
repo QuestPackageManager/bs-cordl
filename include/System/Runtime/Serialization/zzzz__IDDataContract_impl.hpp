@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\IDDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/IDDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__StringDataContract_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__IDDataContract_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::IDDataContract._ctor

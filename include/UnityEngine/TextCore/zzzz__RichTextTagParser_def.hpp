@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\RichTextTagParser.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/RichTextTagParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -170,7 +170,7 @@ public:
   // @brief default ctor
   constexpr RichTextTagParser_TagType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RichTextTagParser_TagType(int32_t value__) noexcept;
 
   /// @brief Field Align value: I32(1)
@@ -314,7 +314,7 @@ public:
   // @brief default ctor
   constexpr RichTextTagParser_TagValueType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RichTextTagParser_TagValueType(int32_t value__) noexcept;
 
   /// @brief Field ColorValue value: I32(4)
@@ -376,7 +376,7 @@ public:
   // @brief default ctor
   constexpr RichTextTagParser_TagUnitType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RichTextTagParser_TagUnitType(int32_t value__) noexcept;
 
   /// @brief Field FontUnits value: I32(1)
@@ -405,6 +405,8 @@ static_assert(offsetof(::UnityEngine::TextCore::RichTextTagParser_TagUnitType, v
 static_assert(sizeof(::UnityEngine::TextCore::RichTextTagParser_TagUnitType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore
+// [Nullable(0)]
+// [NullableContext(1)]
 // Dependencies System.Object, UnityEngine.TextCore.RichTextTagParser::TagType, UnityEngine.TextCore.RichTextTagParser::TagUnitType, UnityEngine.TextCore.RichTextTagParser::TagValueType
 namespace UnityEngine::TextCore {
 // Is value type: false
@@ -412,6 +414,7 @@ namespace UnityEngine::TextCore {
 class CORDL_TYPE RichTextTagParser_TagTypeInfo : public ::System::Object {
 public:
   // Declarations
+  /// @brief [CompilerGenerated]
   __declspec(property(get = get_EqualityContract)) ::System::Type* EqualityContract;
 
   /// @brief Field TagType, offset 0x10, size 0x4
@@ -429,12 +432,17 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>*() noexcept;
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method Equals, addr 0x6bc5b28, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method Equals, addr 0x6bc5bbc, size 0x194, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo* other);
 
+  /// [CompilerGenerated]
   /// @brief Method GetHashCode, addr 0x6bc599c, size 0x18c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -442,9 +450,11 @@ public:
                                                                                  ::UnityEngine::TextCore::RichTextTagParser_TagValueType valueType,
                                                                                  ::UnityEngine::TextCore::RichTextTagParser_TagUnitType unitType);
 
+  /// [CompilerGenerated]
   /// @brief Method PrintMembers, addr 0x6bc57c8, size 0x1d4, virtual true, abstract: false, final false
   inline bool PrintMembers(::System::Text::StringBuilder* builder);
 
+  /// [CompilerGenerated]
   /// @brief Method ToString, addr 0x6bc56dc, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
@@ -476,6 +486,7 @@ public:
   inline void _ctor(::UnityEngine::TextCore::RichTextTagParser_TagType tagType, ::StringW name, ::UnityEngine::TextCore::RichTextTagParser_TagValueType valueType,
                     ::UnityEngine::TextCore::RichTextTagParser_TagUnitType unitType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_EqualityContract, addr 0x6bc567c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_EqualityContract();
 
@@ -488,13 +499,13 @@ protected:
   constexpr RichTextTagParser_TagTypeInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagTypeInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagTypeInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RichTextTagParser_TagTypeInfo(RichTextTagParser_TagTypeInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagTypeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichTextTagParser_TagTypeInfo(RichTextTagParser_TagTypeInfo const&) = delete;
+  RichTextTagParser_TagTypeInfo(RichTextTagParser_TagTypeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17193 };
@@ -525,6 +536,8 @@ static_assert(offsetof(::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo, _
 static_assert(sizeof(::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore
+// [Nullable(0)]
+// [NullableContext(2)]
 // Dependencies System.Object, UnityEngine.Color, UnityEngine.TextCore.RichTextTagParser::TagValueType
 namespace UnityEngine::TextCore {
 // Is value type: false
@@ -534,6 +547,8 @@ public:
   // Declarations
   __declspec(property(get = get_ColorValue)) ::UnityEngine::Color ColorValue;
 
+  /// [Nullable(1)]
+  /// @brief [CompilerGenerated]
   __declspec(property(get = get_EqualityContract)) ::System::Type* EqualityContract;
 
   __declspec(property(get = get_NumericalValue)) float_t NumericalValue;
@@ -555,22 +570,30 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagValue*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagValue*>*() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method Equals, addr 0x6bc6034, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [CompilerGenerated]
   /// @brief Method Equals, addr 0x6bc60c8, size 0x19c, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::TextCore::RichTextTagParser_TagValue* other);
 
+  /// [CompilerGenerated]
   /// @brief Method GetHashCode, addr 0x6bc5ea4, size 0x190, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// @brief [NullableContext(1)]
   static inline ::UnityEngine::TextCore::RichTextTagParser_TagValue* New_ctor(::StringW value);
 
   static inline ::UnityEngine::TextCore::RichTextTagParser_TagValue* New_ctor(::UnityEngine::Color value);
 
+  /// [NullableContext(1)]
+  /// [CompilerGenerated]
   /// @brief Method PrintMembers, addr 0x6bc5e9c, size 0x8, virtual true, abstract: false, final false
   inline bool PrintMembers(::System::Text::StringBuilder* builder);
 
+  /// [NullableContext(1)]
+  /// [CompilerGenerated]
   /// @brief Method ToString, addr 0x6bc5db0, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
@@ -598,6 +621,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::TextCore::RichTextTagParser_TagValueType value);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x6bc36d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
@@ -607,6 +631,8 @@ public:
   /// @brief Method get_ColorValue, addr 0x6bc480c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_ColorValue();
 
+  /// [NullableContext(1)]
+  /// [CompilerGenerated]
   /// @brief Method get_EqualityContract, addr 0x6bc5d50, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_EqualityContract();
 
@@ -625,13 +651,13 @@ protected:
   constexpr RichTextTagParser_TagValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RichTextTagParser_TagValue(RichTextTagParser_TagValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichTextTagParser_TagValue(RichTextTagParser_TagValue const&) = delete;
+  RichTextTagParser_TagValue(RichTextTagParser_TagValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17196 };
@@ -673,9 +699,9 @@ public:
   // @brief default ctor
   constexpr RichTextTagParser_Tag();
 
-  // Ctor Parameters [CppParam { name: "tagType", ty: "::UnityEngine::TextCore::RichTextTagParser_TagType", modifiers: "", def_value: None }, CppParam { name: "isClosing", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value",
-  // ty: "::UnityEngine::TextCore::RichTextTagParser_TagValue*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "tagType", ty: "::UnityEngine::TextCore::RichTextTagParser_TagType", modifiers: "", def_value: None, comment: None }, CppParam { name: "isClosing", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "end", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "value", ty: "::UnityEngine::TextCore::RichTextTagParser_TagValue*", modifiers: "", def_value: None, comment: None }]
   constexpr RichTextTagParser_Tag(::UnityEngine::TextCore::RichTextTagParser_TagType tagType, bool isClosing, int32_t start, int32_t end,
                                   ::UnityEngine::TextCore::RichTextTagParser_TagValue* value) noexcept;
 
@@ -697,6 +723,7 @@ public:
   /// @brief Field end, offset: 0xc, size: 0x4, def value: None
   int32_t end;
 
+  /// [Nullable(2)]
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::TextCore::RichTextTagParser_TagValue* value;
 
@@ -727,8 +754,8 @@ public:
   // @brief default ctor
   constexpr RichTextTagParser_Segment();
 
-  // Ctor Parameters [CppParam { name: "tags", ty: "::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*", modifiers: "", def_value: None }, CppParam { name:
-  // "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "tags", ty: "::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "start", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RichTextTagParser_Segment(::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* tags, int32_t start, int32_t end) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -737,6 +764,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [Nullable(2)]
   /// @brief Field tags, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* tags;
 
@@ -758,6 +786,8 @@ static_assert(offsetof(::UnityEngine::TextCore::RichTextTagParser_Segment, end) 
 static_assert(sizeof(::UnityEngine::TextCore::RichTextTagParser_Segment) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore
+// [Nullable(0)]
+// [NullableContext(1)]
 // Dependencies System.Object
 namespace UnityEngine::TextCore {
 // Is value type: false
@@ -765,6 +795,7 @@ namespace UnityEngine::TextCore {
 class CORDL_TYPE RichTextTagParser_ParseError : public ::System::Object {
 public:
   // Declarations
+  /// @brief [CompilerGenerated]
   __declspec(property(get = get_EqualityContract)) ::System::Type* EqualityContract;
 
   /// @brief Field message, offset 0x18, size 0x8
@@ -776,20 +807,27 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>*() noexcept;
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method Equals, addr 0x6bc6580, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method Equals, addr 0x6bc6614, size 0x11c, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::TextCore::RichTextTagParser_ParseError* other);
 
+  /// [CompilerGenerated]
   /// @brief Method GetHashCode, addr 0x6bc647c, size 0x104, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::RichTextTagParser_ParseError* New_ctor(::StringW message, int32_t position);
 
+  /// [CompilerGenerated]
   /// @brief Method PrintMembers, addr 0x6bc63b0, size 0xcc, virtual true, abstract: false, final false
   inline bool PrintMembers(::System::Text::StringBuilder* builder);
 
+  /// [CompilerGenerated]
   /// @brief Method ToString, addr 0x6bc62c4, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
@@ -808,6 +846,7 @@ public:
   /// @brief Method .ctor, addr 0x6bc36b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t position);
 
+  /// [CompilerGenerated]
   /// @brief Method get_EqualityContract, addr 0x6bc6264, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_EqualityContract();
 
@@ -820,13 +859,13 @@ protected:
   constexpr RichTextTagParser_ParseError();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_ParseError", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_ParseError", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RichTextTagParser_ParseError(RichTextTagParser_ParseError&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_ParseError", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_ParseError", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichTextTagParser_ParseError(RichTextTagParser_ParseError const&) = delete;
+  RichTextTagParser_ParseError(RichTextTagParser_ParseErrorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17199 };
@@ -847,6 +886,7 @@ static_assert(offsetof(::UnityEngine::TextCore::RichTextTagParser_ParseError, __
 static_assert(sizeof(::UnityEngine::TextCore::RichTextTagParser_ParseError) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object, UnityEngine.TextCore.RichTextTagParser::TagTypeInfo
 namespace UnityEngine::TextCore {
 // Is value type: false
@@ -873,39 +913,48 @@ public:
   /// @brief Field TagsInfo, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_TagsInfo, put = setStaticF_TagsInfo)) ::ArrayW<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*> TagsInfo;
 
+  /// [NullableContext(1)]
   /// @brief Method AddLink, addr 0x6bc42a4, size 0x1cc, virtual false, abstract: false, final false
-  static inline int32_t AddLink(::UnityEngine::TextCore::RichTextTagParser_TagType type, ::StringW value,
-                                ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links);
+  static inline int32_t
+  AddLink(::UnityEngine::TextCore::RichTextTagParser_TagType type, ::StringW value,
+          /* [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links);
 
+  /// [NullableContext(1)]
   /// @brief Method ApplyStateToSegment, addr 0x6bc41d4, size 0xd0, virtual false, abstract: false, final false
   static inline void ApplyStateToSegment(::StringW input, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* tags,
                                          ::ArrayW<::UnityEngine::TextCore::RichTextTagParser_Segment> segments);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method CreateTextGenerationSettingsArray, addr 0x6bc4930, size 0x2b8, virtual false, abstract: false, final false
-  static inline void CreateTextGenerationSettingsArray(::by_ref<::UnityEngine::TextCore::NativeTextGenerationSettings> tgs,
-                                                       ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links,
-                                                       ::UnityEngine::Color hyperlinkColor);
+  static inline void CreateTextGenerationSettingsArray(
+      ::by_ref<::UnityEngine::TextCore::NativeTextGenerationSettings> tgs,
+      /* [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links,
+      ::UnityEngine::Color hyperlinkColor);
 
   /// @brief Method CreateTextSpan, addr 0x6bc4470, size 0x39c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::TextSpan
   CreateTextSpan(::UnityEngine::TextCore::RichTextTagParser_Segment segment, ::by_ref<::UnityEngine::TextCore::NativeTextGenerationSettings> tgs,
-                 ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links, ::UnityEngine::Color hyperlinkColor);
+                 /* [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links,
+                 ::UnityEngine::Color hyperlinkColor);
 
+  /// [NullableContext(1)]
   /// @brief Method FindTags, addr 0x6bc2b04, size 0xbb0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*
-  FindTags(::StringW inputStr, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>* errors);
+  FindTags(::StringW inputStr, /* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>* errors);
 
+  /// [NullableContext(1)]
   /// @brief Method GenerateSegments, addr 0x6bc3f24, size 0x2b0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::RichTextTagParser_Segment> GenerateSegments(::StringW input,
                                                                                               ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* tags);
 
+  /// [NullableContext(1)]
   /// @brief Method PickResultingTags, addr 0x6bc36e4, size 0x840, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*
   PickResultingTags(::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* allTags, ::StringW input, int32_t atPosition,
-                    ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* applicableTags);
+                    /* [Nullable(2)] */ ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* applicableTags);
 
   /// @brief Method SpanToEnum, addr 0x6bc2884, size 0x280, virtual false, abstract: false, final false
-  static inline bool SpanToEnum(::System::ReadOnlySpan_1<char16_t> tagCandidate, ::by_ref<::UnityEngine::TextCore::RichTextTagParser_TagType> tagType, ::by_ref<::StringW> error,
+  static inline bool SpanToEnum(::System::ReadOnlySpan_1<char16_t> tagCandidate, ::by_ref<::UnityEngine::TextCore::RichTextTagParser_TagType> tagType, /* [Nullable(2)] */ ::by_ref<::StringW> error,
                                 ::by_ref<::System::ReadOnlySpan_1<char16_t>> attribute);
 
   static inline ::ArrayW<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*> getStaticF_TagsInfo();
@@ -913,7 +962,7 @@ public:
   static inline void setStaticF_TagsInfo(::ArrayW<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*> value);
 
   /// @brief Method tagMatch, addr 0x6bc26e8, size 0x19c, virtual false, abstract: false, final false
-  static inline bool tagMatch(::System::ReadOnlySpan_1<char16_t> tagCandidate, ::StringW tagName);
+  static inline bool tagMatch(::System::ReadOnlySpan_1<char16_t> tagCandidate, /* [Nullable(1)] */ ::StringW tagName);
 
 protected:
   // Ctor Parameters []
@@ -921,13 +970,13 @@ protected:
   constexpr RichTextTagParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RichTextTagParser(RichTextTagParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichTextTagParser(RichTextTagParser const&) = delete;
+  RichTextTagParser(RichTextTagParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17200 };

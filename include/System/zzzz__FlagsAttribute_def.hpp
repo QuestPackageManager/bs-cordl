@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\FlagsAttribute.hpp"
+// IWYU pragma private; include "System/FlagsAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class FlagsAttribute;
 // Write type traits
 MARK_REF_T(::System::FlagsAttribute*);
 DEFINE_IL2CPP_CLASS(::System::FlagsAttribute*, "System", "FlagsAttribute");
+// [AttributeUsage((System.AttributeTargets)16, Inherited = false)]
 // Dependencies System.Attribute
 namespace System {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr FlagsAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlagsAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlagsAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlagsAttribute(FlagsAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlagsAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlagsAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlagsAttribute(FlagsAttribute const&) = delete;
+  FlagsAttribute(FlagsAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2383 };

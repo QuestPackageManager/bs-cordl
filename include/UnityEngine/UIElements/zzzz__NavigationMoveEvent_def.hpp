@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\NavigationMoveEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationMoveEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   // @brief default ctor
   constexpr NavigationMoveEvent_Direction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NavigationMoveEvent_Direction(int32_t value__) noexcept;
 
   /// @brief Field Down value: I32(4)
@@ -120,6 +120,7 @@ static_assert(offsetof(::UnityEngine::UIElements::NavigationMoveEvent_Direction,
 static_assert(sizeof(::UnityEngine::UIElements::NavigationMoveEvent_Direction) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -148,13 +149,13 @@ protected:
   constexpr NavigationMoveEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationMoveEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationMoveEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationMoveEvent___c(NavigationMoveEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationMoveEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationMoveEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationMoveEvent___c(NavigationMoveEvent___c const&) = delete;
+  NavigationMoveEvent___c(NavigationMoveEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4519 };
@@ -230,12 +231,15 @@ public:
   /// @brief Method .ctor, addr 0x6da1e20, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_direction, addr 0x6da1bb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::NavigationMoveEvent_Direction get_direction();
 
+  /// [CompilerGenerated]
   /// @brief Method set_direction, addr 0x6da1bb8, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::NavigationMoveEvent_Direction value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_move, addr 0x6da1bc0, size 0x8, virtual false, abstract: false, final false
   inline void set_move(::UnityEngine::Vector2 value);
 
@@ -245,20 +249,24 @@ protected:
   constexpr NavigationMoveEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationMoveEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationMoveEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationMoveEvent(NavigationMoveEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationMoveEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationMoveEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationMoveEvent(NavigationMoveEvent const&) = delete;
+  NavigationMoveEvent(NavigationMoveEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4520 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <direction>k__BackingField, offset: 0x6c, size: 0x4, def value: None
   ::UnityEngine::UIElements::NavigationMoveEvent_Direction ____direction_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <move>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____move_k__BackingField;
 

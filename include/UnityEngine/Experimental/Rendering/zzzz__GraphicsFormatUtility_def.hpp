@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\GraphicsFormatUtility.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/GraphicsFormatUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,9 @@ class GraphicsFormatUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*, "UnityEngine.Experimental.Rendering", "GraphicsFormatUtility");
+// [NativeHeader("Runtime/Graphics/GraphicsFormatUtility.bindings.h")]
+// [NativeHeader("Runtime/Graphics/Format.h")]
+// [NativeHeader("Runtime/Graphics/TextureFormat.h")]
 // Dependencies System.Object, UnityEngine.Experimental.Rendering.GraphicsFormat
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
@@ -56,18 +59,23 @@ public:
   /// @brief Method CanDecompressFormat, addr 0x6b31820, size 0x7c, virtual false, abstract: false, final false
   static inline bool CanDecompressFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method CanDecompressFormat, addr 0x6b317dc, size 0x44, virtual false, abstract: false, final false
   static inline bool CanDecompressFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format, bool wholeImage);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetAlphaComponentCount, addr 0x6b31564, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetAlphaComponentCount(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetBlockSize, addr 0x6b31ba8, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetBlockSize(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetComponentCount, addr 0x6b315a0, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetComponentCount(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetDepthBits, addr 0x6b31200, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetDepthBits(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
@@ -77,12 +85,15 @@ public:
   /// @brief Method GetDepthStencilFormat, addr 0x6b3123c, size 0x238, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormat(int32_t minimumDepthBits, int32_t minimumStencilBits);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetDepthStencilFormatFromBitsLegacy_Native, addr 0x6b3114c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormatFromBitsLegacy_Native(int32_t minimumDepthBits);
 
+  /// [FreeFunction("GetGraphicsFormat_Native_Texture")]
   /// @brief Method GetFormat, addr 0x6b30e08, size 0xcc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetFormat(::UnityEngine::Texture* texture);
+  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetFormat(/* [NotNull] */ ::UnityEngine::Texture* texture);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetFormatString, addr 0x6b315dc, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetFormatString(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
@@ -101,66 +112,86 @@ public:
   /// @brief Method GetGraphicsFormat, addr 0x6b30f10, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::TextureFormat format, bool isSRGB);
 
+  /// [FreeFunction(IsThreadSafe = false)]
   /// @brief Method GetGraphicsFormat_Native_RenderTextureFormat, addr 0x6b31064, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat_Native_RenderTextureFormat(::UnityEngine::RenderTextureFormat format, bool isSRGB);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetGraphicsFormat_Native_TextureFormat, addr 0x6b30f98, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat_Native_TextureFormat(::UnityEngine::TextureFormat format, bool isSRGB);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetLinearFormat, addr 0x6b314ec, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetLinearFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetRenderTextureFormat, addr 0x6b31528, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureFormat GetRenderTextureFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetSRGBFormat, addr 0x6b314b0, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetSRGBFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetSwizzleA, addr 0x6b31b6c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::FormatSwizzle GetSwizzleA(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetSwizzleB, addr 0x6b31b30, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::FormatSwizzle GetSwizzleB(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetSwizzleG, addr 0x6b31af4, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::FormatSwizzle GetSwizzleG(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetSwizzleR, addr 0x6b31ab8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::FormatSwizzle GetSwizzleR(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method HasAlphaChannel, addr 0x6b318d8, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasAlphaChannel(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method IsAlphaOnlyFormat, addr 0x6b3189c, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsAlphaOnlyFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
   /// @brief Method IsCompressedFormat, addr 0x6b31764, size 0x78, virtual false, abstract: false, final false
   static inline bool IsCompressedFormat(::UnityEngine::TextureFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method IsCompressedFormat_Native_TextureFormat, addr 0x6b31728, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsCompressedFormat_Native_TextureFormat(::UnityEngine::TextureFormat format);
 
+  /// [FreeFunction("IsCompressedCrunchTextureFormat", IsThreadSafe = true)]
   /// @brief Method IsCrunchFormat, addr 0x6b31a7c, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsCrunchFormat(::UnityEngine::TextureFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method IsDepthFormat, addr 0x6b31914, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDepthFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method IsDepthStencilFormat, addr 0x6b3198c, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDepthStencilFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method IsFloatFormat, addr 0x6b319c8, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsFloatFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method IsHalfFormat, addr 0x6b31a04, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsHalfFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method IsPVRTCFormat, addr 0x6b31a40, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsPVRTCFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method IsSRGBFormat, addr 0x6b31474, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsSRGBFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method IsStencilFormat, addr 0x6b31950, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsStencilFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
@@ -178,13 +209,13 @@ protected:
   constexpr GraphicsFormatUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicsFormatUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicsFormatUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphicsFormatUtility(GraphicsFormatUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicsFormatUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicsFormatUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphicsFormatUtility(GraphicsFormatUtility const&) = delete;
+  GraphicsFormatUtility(GraphicsFormatUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10927 };

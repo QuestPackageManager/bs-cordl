@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaResolver.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaResolver*);
 MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaResolver___c__DisplayClass5_0*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaResolver*, "Newtonsoft.Json.Schema", "JsonSchemaResolver");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaResolver___c__DisplayClass5_0*, "Newtonsoft.Json.Schema", "JsonSchemaResolver/<>c__DisplayClass5_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -60,13 +61,13 @@ protected:
   constexpr JsonSchemaResolver___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaResolver___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaResolver___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaResolver___c__DisplayClass5_0(JsonSchemaResolver___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaResolver___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaResolver___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaResolver___c__DisplayClass5_0(JsonSchemaResolver___c__DisplayClass5_0 const&) = delete;
+  JsonSchemaResolver___c__DisplayClass5_0(JsonSchemaResolver___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13555 };
@@ -82,6 +83,7 @@ static_assert(offsetof(::Newtonsoft::Json::Schema::JsonSchemaResolver___c__Displ
 static_assert(sizeof(::Newtonsoft::Json::Schema::JsonSchemaResolver___c__DisplayClass5_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Schema
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -111,9 +113,11 @@ public:
   /// @brief Method .ctor, addr 0x5d5d79c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LoadedSchemas, addr 0x5d67374, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* get_LoadedSchemas();
 
+  /// [CompilerGenerated]
   /// @brief Method set_LoadedSchemas, addr 0x5d6737c, size 0x8, virtual false, abstract: false, final false
   inline void set_LoadedSchemas(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
@@ -123,17 +127,18 @@ protected:
   constexpr JsonSchemaResolver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaResolver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaResolver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaResolver(JsonSchemaResolver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaResolver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaResolver(JsonSchemaResolver const&) = delete;
+  JsonSchemaResolver(JsonSchemaResolverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13556 };
 
+  /// [CompilerGenerated]
   /// @brief Field <LoadedSchemas>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* ____LoadedSchemas_k__BackingField;
 

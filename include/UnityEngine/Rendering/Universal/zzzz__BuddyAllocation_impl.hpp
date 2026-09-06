@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\BuddyAllocation.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/BuddyAllocation.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__BuddyAllocation_def.hpp"
 #include "Unity/Mathematics/zzzz__uint2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::BuddyAllocation._ctor
@@ -38,7 +38,8 @@ inline ::Unity::Mathematics::uint2 UnityEngine::Rendering::Universal::BuddyAlloc
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocation>(), { "get_index2D", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::uint2>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::BuddyAllocation::BuddyAllocation(int32_t level, int32_t index) noexcept {
   this->level = level;
   this->index = index;

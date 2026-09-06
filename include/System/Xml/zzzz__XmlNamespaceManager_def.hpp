@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlNamespaceManager.hpp"
+// IWYU pragma private; include "System/Xml/XmlNamespaceManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,8 +59,9 @@ public:
   // @brief default ctor
   constexpr XmlNamespaceManager_NamespaceDeclaration();
 
-  // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "scopeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "previousNsIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "scopeId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "previousNsIndex", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr XmlNamespaceManager_NamespaceDeclaration(::StringW prefix, ::StringW uri, int32_t scopeId, int32_t previousNsIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -241,13 +242,13 @@ protected:
   constexpr XmlNamespaceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNamespaceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNamespaceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlNamespaceManager(XmlNamespaceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNamespaceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNamespaceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlNamespaceManager(XmlNamespaceManager const&) = delete;
+  XmlNamespaceManager(XmlNamespaceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9458 };

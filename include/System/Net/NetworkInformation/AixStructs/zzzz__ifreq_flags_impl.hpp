@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\AixStructs\ifreq_flags.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/ifreq_flags.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer::ifreq_flags__ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -26,8 +26,8 @@ constexpr uint32_t const& System::Net::NetworkInformation::AixStructs::ifreq_fla
 constexpr void System::Net::NetworkInformation::AixStructs::ifreq_flags::__cordl_internal_set_ifru_flags(uint32_t value) {
   this->___ifru_flags = value;
 }
-// Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "ifru_flags", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "ifru_flags", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::NetworkInformation::AixStructs::ifreq_flags::ifreq_flags(::System::Net::NetworkInformation::AixStructs::ifreq_flags__ifr_name_e__FixedBuffer ifr_name,
                                                                                   uint32_t ifru_flags) noexcept {
   this->ifr_name = ifr_name;

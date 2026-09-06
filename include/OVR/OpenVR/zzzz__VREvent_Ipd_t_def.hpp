@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_Ipd_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Ipd_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // @brief default ctor
   constexpr VREvent_Ipd_t();
 
-  // Ctor Parameters [CppParam { name: "ipdMeters", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ipdMeters", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr VREvent_Ipd_t(float_t ipdMeters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

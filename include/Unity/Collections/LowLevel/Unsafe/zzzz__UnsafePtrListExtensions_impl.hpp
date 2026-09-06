@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafePtrListExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafePtrListExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafePtrListExtensions_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeList_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafePtrList_1_def.hpp"
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::System::IntPtr>>
 Unity::Collections::LowLevel::Unsafe::UnsafePtrListExtensions::ListData(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T>> from) {
   static auto* ___internal_method_base =
@@ -15,6 +16,7 @@ Unity::Collections::LowLevel::Unsafe::UnsafePtrListExtensions::ListData(::by_ref
   return ::cordl_internals::RunMethodRethrow<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::System::IntPtr>>>(nullptr, ___internal_method, from);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::System::IntPtr>
 Unity::Collections::LowLevel::Unsafe::UnsafePtrListExtensions::ListDataRO(::Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T> from) {
   static auto* ___internal_method_base =

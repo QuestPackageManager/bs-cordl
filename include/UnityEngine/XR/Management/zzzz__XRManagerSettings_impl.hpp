@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRManagerSettings.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRManagerSettings.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/XR/Management/zzzz__XRLoader_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagerSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -198,6 +199,7 @@ inline ::System::Object* UnityEngine::XR::Management::XRManagerSettings__Initial
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24* UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24*>(__1__state));
 }
@@ -690,7 +692,9 @@ inline void UnityEngine::XR::Management::XRManagerSettings::set_activeLoader(::U
                                                                                          { "set_activeLoader", {}, { ::i2c::type_of<::UnityEngine::XR::Management::XRLoader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T> inline T UnityEngine::XR::Management::XRManagerSettings::ActiveLoaderAs() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::XR::Management::XRLoader*>)
+inline T UnityEngine::XR::Management::XRManagerSettings::ActiveLoaderAs() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::Management::XRManagerSettings*>(), { "ActiveLoaderAs", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

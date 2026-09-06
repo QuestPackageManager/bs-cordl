@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ListChangedEventArgs.hpp"
+// IWYU pragma private; include "System/ComponentModel/ListChangedEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,12 +92,15 @@ public:
   /// @brief Method .ctor, addr 0x63c2dc0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, ::System::ComponentModel::PropertyDescriptor* propDesc);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ListChangedType, addr 0x63c2e2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::ListChangedType get_ListChangedType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_NewIndex, addr 0x63c2e34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NewIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_OldIndex, addr 0x63c2e3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OldIndex();
 
@@ -107,26 +110,30 @@ protected:
   constexpr ListChangedEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListChangedEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListChangedEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListChangedEventArgs(ListChangedEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListChangedEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListChangedEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListChangedEventArgs(ListChangedEventArgs const&) = delete;
+  ListChangedEventArgs(ListChangedEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11279 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ListChangedType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::ListChangedType ____ListChangedType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <NewIndex>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____NewIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <OldIndex>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____OldIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <PropertyDescriptor>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::ComponentModel::PropertyDescriptor* ____PropertyDescriptor_k__BackingField;
 

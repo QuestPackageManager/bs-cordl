@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlMoney.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlMoney.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlMoney_def.hpp"
 #include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBoolean_def.hpp"
@@ -780,7 +780,8 @@ constexpr System::Data::SqlTypes::SqlMoney::operator ::System::Xml::Serializatio
 constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlMoney::i___System__Xml__Serialization__IXmlSerializable() {
   return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Data::SqlTypes::SqlMoney::SqlMoney(bool _fNotNull, int64_t _value) noexcept {
   this->_fNotNull = _fNotNull;
   this->_value = _value;

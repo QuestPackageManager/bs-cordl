@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionGameplaySceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionGameplaySceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   __declspec(property(get = __cordl_internal_get_missionObjectives, put = __cordl_internal_set_missionObjectives)) ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives;
 
   static inline ::GlobalNamespace::MissionGameplaySceneSetupData* New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart,
-                                                                           ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                           /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                            ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
 
   constexpr bool const& __cordl_internal_get_autoRestart() const;
@@ -94,7 +94,7 @@ public:
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*> value);
 
   /// @brief Method .ctor, addr 0x5972700, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+  inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                     ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
 
 protected:
@@ -103,13 +103,13 @@ protected:
   constexpr MissionGameplaySceneSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionGameplaySceneSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionGameplaySceneSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionGameplaySceneSetupData(MissionGameplaySceneSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionGameplaySceneSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionGameplaySceneSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionGameplaySceneSetupData(MissionGameplaySceneSetupData const&) = delete;
+  MissionGameplaySceneSetupData(MissionGameplaySceneSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7027 };

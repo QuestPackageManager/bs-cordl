@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\MissingFeatureFlagException.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/MissingFeatureFlagException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__MissingFeatureFlagException_def.hpp"
 //  Writing Method size for method: ::BeatSaber::FeatureFlags::MissingFeatureFlagException._ctor

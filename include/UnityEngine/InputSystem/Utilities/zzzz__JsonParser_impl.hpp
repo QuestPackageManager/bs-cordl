@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\JsonParser.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/JsonParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__JsonParser_def.hpp"
@@ -11,7 +11,7 @@
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__JsonParser_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValueType::JsonParser_JsonValueType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -185,8 +185,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonPars
 UnityEngine::InputSystem::Utilities::JsonParser_JsonString::i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__JsonParser_JsonString_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::UnityEngine::InputSystem::Utilities::Substring", modifiers: "", def_value: Some("{}") }, CppParam { name: "hasEscapes", ty: "bool", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "text", ty: "::UnityEngine::InputSystem::Utilities::Substring", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hasEscapes", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::JsonParser_JsonString(::UnityEngine::InputSystem::Utilities::Substring text, bool hasEscapes) noexcept {
   this->text = text;
   this->hasEscapes = hasEscapes;
@@ -667,12 +667,12 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonPars
 UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::Utilities::JsonParser_JsonValueType", modifiers: "", def_value: Some("{}") }, CppParam { name: "boolValue", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "realValue", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "integerValue", ty: "int64_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "stringValue", ty: "::UnityEngine::InputSystem::Utilities::JsonParser_JsonString", modifiers: "", def_value: Some("{}") }, CppParam { name: "arrayValue",
-// ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "objectValue", ty:
-// "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "anyValue", ty:
-// "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::Utilities::JsonParser_JsonValueType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "boolValue",
+// ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "realValue", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "integerValue", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stringValue", ty: "::UnityEngine::InputSystem::Utilities::JsonParser_JsonString", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "arrayValue", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "objectValue", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "anyValue", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::JsonParser_JsonValue(
     ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValueType type, bool boolValue, double_t realValue, int64_t integerValue,
     ::UnityEngine::InputSystem::Utilities::JsonParser_JsonString stringValue, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>* arrayValue,
@@ -1027,9 +1027,9 @@ inline bool UnityEngine::InputSystem::Utilities::JsonParser::get_isAtEnd() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser>(), { "get_isAtEnd", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Text", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Position", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MatchAnyElementInArray", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_DryRun", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Text", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MatchAnyElementInArray", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_DryRun", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::JsonParser::JsonParser(::StringW m_Text, int32_t m_Length, int32_t m_Position, bool m_MatchAnyElementInArray, bool m_DryRun) noexcept {
   this->m_Text = m_Text;
   this->m_Length = m_Length;

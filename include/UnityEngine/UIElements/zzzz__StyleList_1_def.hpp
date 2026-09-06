@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleList_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,8 +95,8 @@ public:
   // @brief default ctor
   constexpr StyleList_1();
 
-  // Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty:
-  // "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Value", ty:
+  // "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr StyleList_1(::UnityEngine::UIElements::StyleKeyword m_Keyword, ::System::Collections::Generic::List_1<T>* m_Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

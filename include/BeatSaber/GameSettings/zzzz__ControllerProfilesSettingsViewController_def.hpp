@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfilesSettingsViewController.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfilesSettingsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,8 @@ class ControllerProfilesSettingsViewController;
 // Write type traits
 MARK_REF_T(::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*, "BeatSaber.GameSettings", "ControllerProfilesSettingsViewController");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.GameSettings.ControllersTransformSettings, HMUI.ViewController, UnityEngine.CanvasGroup
 namespace BeatSaber::GameSettings {
 // Is value type: false
@@ -198,11 +200,15 @@ public:
   /// @brief Method .ctor, addr 0x3294cf0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onRequestSelectProfileToCopyFrom, addr 0x3293b14, size 0xc0, virtual false, abstract: false, final false
-  inline void add_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>* value);
+  inline void add_onRequestSelectProfileToCopyFrom(
+      /* [TupleElementNames(new[] { "text", "index" })] [Nullable(new[] { 2, 1, 0, 1 })] */ ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onRequestSelectProfileToCopyFrom, addr 0x3293bd4, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>* value);
+  inline void remove_onRequestSelectProfileToCopyFrom(
+      /* [TupleElementNames(new[] { "text", "index" })] [Nullable(new[] { 2, 1, 0, 1 })] */ ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>* value);
 
 protected:
   // Ctor Parameters []
@@ -210,47 +216,59 @@ protected:
   constexpr ControllerProfilesSettingsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesSettingsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesSettingsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerProfilesSettingsViewController(ControllerProfilesSettingsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesSettingsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesSettingsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfilesSettingsViewController(ControllerProfilesSettingsViewController const&) = delete;
+  ControllerProfilesSettingsViewController(ControllerProfilesSettingsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22057 };
 
+  /// [SerializeField]
   /// @brief Field _profilesDropdown, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____profilesDropdown;
 
+  /// [SerializeField]
   /// @brief Field _handlingToggle, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____handlingToggle;
 
+  /// [SerializeField]
   /// @brief Field _interactableCanvasGroups, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>> ____interactableCanvasGroups;
 
+  /// [SerializeField]
   /// @brief Field _transformSettingsViewControllers, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>> ____transformSettingsViewControllers;
 
+  /// [SerializeField]
   /// @brief Field _buttonsContainer, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____buttonsContainer;
 
+  /// [SerializeField]
   /// @brief Field _copyFromLeftButton, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____copyFromLeftButton;
 
+  /// [SerializeField]
   /// @brief Field _copyFromRightButton, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____copyFromRightButton;
 
+  /// [SerializeField]
   /// @brief Field _copyFromProfileButton, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____copyFromProfileButton;
 
+  /// [Inject]
   /// @brief Field _profileModel, offset: 0xb8, size: 0x8, def value: None
   ::BeatSaber::GameSettings::ControllerProfilesModel* ____profileModel;
 
   /// @brief Field _toggleBinder, offset: 0xc0, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;
 
+  /// [TupleElementNames(new[] { "text", "index" })]
+  /// [Nullable(new[] { 2, 1, 0, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field onRequestSelectProfileToCopyFrom, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>>* ___onRequestSelectProfileToCopyFrom;
 

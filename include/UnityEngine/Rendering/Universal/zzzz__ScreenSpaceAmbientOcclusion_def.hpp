@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceAmbientOcclusion.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceAmbientOcclusion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,9 @@ class ScreenSpaceAmbientOcclusion;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion*, "UnityEngine.Rendering.Universal", "ScreenSpaceAmbientOcclusion");
+// [SupportedOnRenderer(typeof(UnityEngine.Rendering.Universal.UniversalRendererData))]
+// [DisallowMultipleRendererFeature("Screen Space Ambient Occlusion")]
+// [Tooltip("The Ambient Occlusion effect darkens creases, holes, intersections and surfaces that are close to each other.")]
 // Dependencies UnityEngine.Rendering.Universal.ScriptableRendererFeature, UnityEngine.Texture2D
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -113,13 +116,13 @@ protected:
   constexpr ScreenSpaceAmbientOcclusion();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusion", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusion", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceAmbientOcclusion(ScreenSpaceAmbientOcclusion&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusion", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceAmbientOcclusion(ScreenSpaceAmbientOcclusion const&) = delete;
+  ScreenSpaceAmbientOcclusion(ScreenSpaceAmbientOcclusionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12926 };
@@ -154,12 +157,19 @@ public:
   /// @brief Field k_SourceDepthNormalsKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString k_SourceDepthNormalsKeyword{ u"_SOURCE_DEPTH_NORMALS" };
 
+  /// [SerializeField]
   /// @brief Field m_Settings, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings* ___m_Settings;
 
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// [Reload("Textures/BlueNoise256/LDR_LLL1_{0}.png", 0, 7, (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field m_BlueNoise256Textures, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___m_BlueNoise256Textures;
 
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// [Reload("Shaders/Utils/ScreenSpaceAmbientOcclusion.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field m_Shader, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_Shader;
 

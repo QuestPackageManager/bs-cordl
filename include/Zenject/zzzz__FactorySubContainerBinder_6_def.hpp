@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FactorySubContainerBinder_6.hpp"
+// IWYU pragma private; include "Zenject/FactorySubContainerBinder_6.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,6 +83,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactorySubContainerBinder_6___c__DisplayC
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactorySubContainerBinder_6___c__DisplayClass2_0, "Zenject", "FactorySubContainerBinder`6/<>c__DisplayClass2_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactorySubContainerBinder_6___c__DisplayClass3_0, "Zenject", "FactorySubContainerBinder`6/<>c__DisplayClass3_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactorySubContainerBinder_6___c__DisplayClass4_0, "Zenject", "FactorySubContainerBinder`6/<>c__DisplayClass4_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -129,6 +130,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -141,13 +143,13 @@ protected:
   constexpr FactorySubContainerBinder_6___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinder_6___c__DisplayClass1_0(FactorySubContainerBinder_6___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinder_6___c__DisplayClass1_0(FactorySubContainerBinder_6___c__DisplayClass1_0 const&) = delete;
+  FactorySubContainerBinder_6___c__DisplayClass1_0(FactorySubContainerBinder_6___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14166 };
@@ -165,6 +167,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -211,6 +214,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -223,13 +227,13 @@ protected:
   constexpr FactorySubContainerBinder_6___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinder_6___c__DisplayClass2_0(FactorySubContainerBinder_6___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinder_6___c__DisplayClass2_0(FactorySubContainerBinder_6___c__DisplayClass2_0 const&) = delete;
+  FactorySubContainerBinder_6___c__DisplayClass2_0(FactorySubContainerBinder_6___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14167 };
@@ -247,6 +251,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -302,6 +307,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -314,13 +320,13 @@ protected:
   constexpr FactorySubContainerBinder_6___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinder_6___c__DisplayClass3_0(FactorySubContainerBinder_6___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinder_6___c__DisplayClass3_0(FactorySubContainerBinder_6___c__DisplayClass3_0 const&) = delete;
+  FactorySubContainerBinder_6___c__DisplayClass3_0(FactorySubContainerBinder_6___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14168 };
@@ -341,6 +347,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -396,6 +403,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -408,13 +416,13 @@ protected:
   constexpr FactorySubContainerBinder_6___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinder_6___c__DisplayClass4_0(FactorySubContainerBinder_6___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinder_6___c__DisplayClass4_0(FactorySubContainerBinder_6___c__DisplayClass4_0 const&) = delete;
+  FactorySubContainerBinder_6___c__DisplayClass4_0(FactorySubContainerBinder_6___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14169 };
@@ -435,6 +443,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies Zenject.FactorySubContainerBinderWithParams`1<TContract>
 namespace Zenject {
 // cpp template
@@ -479,13 +488,13 @@ protected:
   constexpr FactorySubContainerBinder_6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinder_6(FactorySubContainerBinder_6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinder_6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinder_6(FactorySubContainerBinder_6 const&) = delete;
+  FactorySubContainerBinder_6(FactorySubContainerBinder_6const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14170 };

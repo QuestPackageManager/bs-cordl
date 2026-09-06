@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\CryptoApiEntropySourceProvider.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/CryptoApiEntropySourceProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,13 +96,13 @@ protected:
   constexpr CryptoApiEntropySourceProvider_CryptoApiEntropySource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider_CryptoApiEntropySource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider_CryptoApiEntropySource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CryptoApiEntropySourceProvider_CryptoApiEntropySource(CryptoApiEntropySourceProvider_CryptoApiEntropySource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider_CryptoApiEntropySource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider_CryptoApiEntropySource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CryptoApiEntropySourceProvider_CryptoApiEntropySource(CryptoApiEntropySourceProvider_CryptoApiEntropySource const&) = delete;
+  CryptoApiEntropySourceProvider_CryptoApiEntropySource(CryptoApiEntropySourceProvider_CryptoApiEntropySourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1103 };
@@ -180,13 +180,13 @@ protected:
   constexpr CryptoApiEntropySourceProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CryptoApiEntropySourceProvider(CryptoApiEntropySourceProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CryptoApiEntropySourceProvider(CryptoApiEntropySourceProvider const&) = delete;
+  CryptoApiEntropySourceProvider(CryptoApiEntropySourceProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1104 };

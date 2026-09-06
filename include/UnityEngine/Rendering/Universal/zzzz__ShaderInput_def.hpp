@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderInput.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderInput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,8 @@ MARK_VAL_T(::UnityEngine::Rendering::Universal::ShaderInput_ShadowData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderInput*, "UnityEngine.Rendering.Universal", "ShaderInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderInput_LightData, "UnityEngine.Rendering.Universal", "ShaderInput/LightData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderInput_ShadowData, "UnityEngine.Rendering.Universal", "ShaderInput/ShadowData");
-// Dependencies UnityEngine.Matrix4x4, UnityEngine.Vector4
+// [Obsolete("ShaderInput.ShadowData was deprecated. Shadow slice matrices and per-light shadow parameters are now passed to the GPU using entries in buffers m_AdditionalLightsWorldToShadow_SSBO and
+// m_AdditionalShadowParams_SSBO", true)] Dependencies UnityEngine.Matrix4x4, UnityEngine.Vector4
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.ShaderInput/ShadowData
@@ -43,8 +44,8 @@ public:
   // @brief default ctor
   constexpr ShaderInput_ShadowData();
 
-  // Ctor Parameters [CppParam { name: "worldToShadowMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "shadowParams", ty: "::UnityEngine::Vector4",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "worldToShadowMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "shadowParams", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderInput_ShadowData(::UnityEngine::Matrix4x4 worldToShadowMatrix, ::UnityEngine::Vector4 shadowParams) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -69,7 +70,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ShaderInput_ShadowDa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ShaderInput_ShadowData) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
-// Dependencies UnityEngine.Vector4
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, false, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@bd2aa618476e\\ShaderLibrary\\ShaderTypes.cs")] Dependencies UnityEngine.Vector4
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.ShaderInput/LightData
@@ -80,9 +82,10 @@ public:
   // @brief default ctor
   constexpr ShaderInput_LightData();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-  // None }, CppParam { name: "attenuation", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "spotDirection", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-  // None }, CppParam { name: "occlusionProbeChannels", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Vector4", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "attenuation", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "spotDirection", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionProbeChannels", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "layerMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderInput_LightData(::UnityEngine::Vector4 position, ::UnityEngine::Vector4 color, ::UnityEngine::Vector4 attenuation, ::UnityEngine::Vector4 spotDirection,
                                   ::UnityEngine::Vector4 occlusionProbeChannels, uint32_t layerMask) noexcept;
 
@@ -145,13 +148,13 @@ protected:
   constexpr ShaderInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderInput(ShaderInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderInput(ShaderInput const&) = delete;
+  ShaderInput(ShaderInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23484 };

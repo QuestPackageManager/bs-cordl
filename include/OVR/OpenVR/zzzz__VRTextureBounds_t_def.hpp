@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VRTextureBounds_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VRTextureBounds_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr VRTextureBounds_t();
 
-  // Ctor Parameters [CppParam { name: "uMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "uMax", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "vMax", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "uMin", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vMin", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "uMax", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vMax", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr VRTextureBounds_t(float_t uMin, float_t vMin, float_t uMax, float_t vMax) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

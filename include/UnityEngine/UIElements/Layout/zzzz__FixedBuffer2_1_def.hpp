@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\FixedBuffer2_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/FixedBuffer2_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,15 +8,19 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(FixedBuffer2_1)
 // Forward declare root types
 namespace UnityEngine::UIElements::Layout {
-template <typename T> struct FixedBuffer2_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedBuffer2_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::Layout::FixedBuffer2_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::Layout::FixedBuffer2_1, "UnityEngine.UIElements.Layout", "FixedBuffer2`1");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Layout.FixedBuffer2`1<T>
 struct CORDL_TYPE FixedBuffer2_1 {
@@ -31,7 +35,7 @@ public:
   // @brief default ctor
   constexpr FixedBuffer2_1();
 
-  // Ctor Parameters [CppParam { name: "__0", ty: "T", modifiers: "", def_value: None }, CppParam { name: "__1", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__0", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "__1", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr FixedBuffer2_1(T __0, T __1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLUtils.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLUtils__DeserializeAsync_
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLUtils*, "OculusStudios.GraphQL.Client", "GraphQLUtils");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLUtils___c__DisplayClass6_0_1, "OculusStudios.GraphQL.Client", "GraphQLUtils/<>c__DisplayClass6_0`1");
 DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLUtils__DeserializeAsync_d__6_1, "OculusStudios.GraphQL.Client", "GraphQLUtils/<DeserializeAsync>d__6`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
@@ -80,13 +81,13 @@ protected:
   constexpr GraphQLUtils___c__DisplayClass6_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils___c__DisplayClass6_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils___c__DisplayClass6_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLUtils___c__DisplayClass6_0_1(GraphQLUtils___c__DisplayClass6_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils___c__DisplayClass6_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils___c__DisplayClass6_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLUtils___c__DisplayClass6_0_1(GraphQLUtils___c__DisplayClass6_0_1 const&) = delete;
+  GraphQLUtils___c__DisplayClass6_0_1(GraphQLUtils___c__DisplayClass6_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20398 };
@@ -98,6 +99,7 @@ public:
 };
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace OculusStudios::GraphQL::Client {
 // cpp template
@@ -113,6 +115,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -123,9 +126,9 @@ public:
   // @brief default ctor
   constexpr GraphQLUtils__DeserializeAsync_d__6_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<T>", modifiers: "", def_value: None, comment: None }]
   constexpr GraphQLUtils__DeserializeAsync_d__6_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder, ::StringW data,
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<T> __u__1) noexcept;
 
@@ -174,6 +177,7 @@ public:
   /// @brief Method ConvertString2Enum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T ConvertString2Enum(::StringW str);
 
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLUtils::<DeserializeAsync>d__6`1<T>))]
   /// @brief Method DeserializeAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* DeserializeAsync(::StringW data);
 
@@ -186,13 +190,13 @@ protected:
   constexpr GraphQLUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLUtils(GraphQLUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLUtils(GraphQLUtils const&) = delete;
+  GraphQLUtils(GraphQLUtilsconst&) = delete;
 
   /// @brief Field UNKNOWN_ENUM_VALUE offset 0xffffffff size 0x8
   static constexpr ::ConstString UNKNOWN_ENUM_VALUE{ u"__UnknownValue" };

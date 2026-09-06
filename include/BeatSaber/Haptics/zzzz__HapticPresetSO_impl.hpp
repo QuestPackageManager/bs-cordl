@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\HapticPresetSO.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/HapticPresetSO.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"

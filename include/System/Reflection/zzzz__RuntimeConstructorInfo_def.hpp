@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\RuntimeConstructorInfo.hpp"
+// IWYU pragma private; include "System/Reflection/RuntimeConstructorInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -144,10 +144,14 @@ public:
   /// @brief Method InternalInvoke, addr 0x5b8f484, size 0x164, virtual false, abstract: false, final false
   inline ::System::Object* InternalInvoke(::System::Object* obj, ::ArrayW<::System::Object*> parameters, bool wrapExceptions);
 
+  /// [DebuggerHidden]
+  /// [DebuggerStepThrough]
   /// @brief Method Invoke, addr 0x5b8f5e8, size 0x18, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
 
+  /// [DebuggerHidden]
+  /// [DebuggerStepThrough]
   /// @brief Method Invoke, addr 0x5b8f1c0, size 0x104, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
@@ -238,13 +242,13 @@ protected:
   constexpr RuntimeConstructorInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeConstructorInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeConstructorInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeConstructorInfo(RuntimeConstructorInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeConstructorInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeConstructorInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeConstructorInfo(RuntimeConstructorInfo const&) = delete;
+  RuntimeConstructorInfo(RuntimeConstructorInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3551 };

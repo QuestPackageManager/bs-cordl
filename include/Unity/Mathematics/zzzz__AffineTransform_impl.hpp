@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\AffineTransform.hpp"
+// IWYU pragma private; include "Unity/Mathematics/AffineTransform.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "Unity/Mathematics/zzzz__float3x3_impl.hpp"
 #include "Unity/Mathematics/zzzz__AffineTransform_def.hpp"
@@ -305,8 +305,8 @@ constexpr Unity::Mathematics::AffineTransform::operator ::System::IFormattable*(
 constexpr ::System::IFormattable* Unity::Mathematics::AffineTransform::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "rs", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: Some("{}") }, CppParam { name: "t", ty: "::Unity::Mathematics::float3", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rs", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "t", ty: "::Unity::Mathematics::float3",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::AffineTransform::AffineTransform(::Unity::Mathematics::float3x3 rs, ::Unity::Mathematics::float3 t) noexcept {
   this->rs = rs;
   this->t = t;

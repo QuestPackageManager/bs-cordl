@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\FastBitConverter.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/FastBitConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,8 @@ public:
   // @brief default ctor
   constexpr FastBitConverter_ConverterHelperDouble();
 
-  // Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr FastBitConverter_ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept;
 
 private:
@@ -139,7 +140,8 @@ public:
   // @brief default ctor
   constexpr FastBitConverter_ConverterHelperFloat();
 
-  // Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr FastBitConverter_ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept;
 
 private:
@@ -238,13 +240,13 @@ protected:
   constexpr FastBitConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FastBitConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FastBitConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FastBitConverter(FastBitConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FastBitConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FastBitConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FastBitConverter(FastBitConverter const&) = delete;
+  FastBitConverter(FastBitConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20089 };

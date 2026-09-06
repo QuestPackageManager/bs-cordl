@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RangeInt.hpp"
+// IWYU pragma private; include "UnityEngine/RangeInt.hpp"
 #include "UnityEngine/zzzz__RangeInt_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RangeInt.get_end
 template <>
@@ -35,7 +35,8 @@ inline void UnityEngine::RangeInt::_ctor(int32_t start, int32_t length) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RangeInt>(), { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, start, length);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::RangeInt::RangeInt(int32_t start, int32_t length) noexcept {
   this->start = start;
   this->length = length;

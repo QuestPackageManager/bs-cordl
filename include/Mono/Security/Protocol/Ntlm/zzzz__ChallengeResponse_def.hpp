@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\ChallengeResponse.hpp"
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/ChallengeResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +18,9 @@ class ChallengeResponse;
 // Write type traits
 MARK_REF_T(::Mono::Security::Protocol::Ntlm::ChallengeResponse*);
 DEFINE_IL2CPP_CLASS(::Mono::Security::Protocol::Ntlm::ChallengeResponse*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse");
-// Dependencies System.Object
+// [Obsolete("Use of this API is highly discouraged, it selects legacy-mode LM/NTLM authentication, which sends your password in very weak encryption over the wire even if the server supports the more
+// secure NTLMv2 / NTLMv2 Session. You need to use the new `Type3Message (Type2Message)\' constructor to use the more secure NTLMv2 / NTLMv2 Session authentication modes. These require the Type 2
+// message from the server to compute the response.")] Dependencies System.Object
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
 // CS Name: Mono.Security.Protocol.Ntlm.ChallengeResponse
@@ -135,13 +137,13 @@ protected:
   constexpr ChallengeResponse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChallengeResponse(ChallengeResponse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChallengeResponse(ChallengeResponse const&) = delete;
+  ChallengeResponse(ChallengeResponseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19300 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\HttpUtilities.hpp"
+// IWYU pragma private; include "System/Net/Http/HttpUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpUtilities_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::HttpUtilities.IsSupportedSecureScheme

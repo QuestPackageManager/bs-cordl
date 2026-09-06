@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Char.hpp"
+// IWYU pragma private; include "System/Char.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ struct Char;
 // Write type traits
 MARK_VAL_T(::System::Char);
 DEFINE_IL2CPP_CLASS(::System::Char, "System", "Char");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -104,6 +105,7 @@ public:
   /// @brief Method Equals, addr 0x5bb2cac, size 0x34, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NonVersionable]
   /// @brief Method Equals, addr 0x5bb2ce0, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(char16_t obj);
 
@@ -286,7 +288,7 @@ public:
   // @brief default ctor
   constexpr Char();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "char16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "char16_t", modifiers: "", def_value: None, comment: None }]
   constexpr Char(char16_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\MockedPlatformFactory.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/MockedPlatformFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::OculusStudios::Platform::Core::MockedPlatformFactory*);
 MARK_VAL_T(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::MockedPlatformFactory*, "OculusStudios.Platform.Core", "MockedPlatformFactory");
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1, "OculusStudios.Platform.Core", "MockedPlatformFactory/<CreateAsync>d__1");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::Platform::Core {
 // Is value type: true
@@ -55,6 +56,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f306b4, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f30964, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -65,10 +67,10 @@ public:
   // @brief default ctor
   constexpr MockedPlatformFactory__CreateAsync_d__1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None }, CppParam { name: "initParams", ty:
-  // "::OculusStudios::Platform::Core::PlatformInitParams*", modifiers: "", def_value: None }, CppParam { name: "_result_5__2", ty: "::OculusStudios::Platform::Core::MockedPlatform*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "initParams", ty:
+  // "::OculusStudios::Platform::Core::PlatformInitParams*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_result_5__2", ty: "::OculusStudios::Platform::Core::MockedPlatform*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr MockedPlatformFactory__CreateAsync_d__1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::IPlatform*> __t__builder,
                                                     ::OculusStudios::Platform::Core::PlatformInitParams* initParams, ::OculusStudios::Platform::Core::MockedPlatform* _result_5__2,
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -122,6 +124,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformFactory"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformFactory*() noexcept;
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Core.MockedPlatformFactory::<CreateAsync>d__1))]
   /// @brief Method CreateAsync, addr 0x5f305d0, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::IPlatform*>* CreateAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
@@ -143,13 +146,13 @@ protected:
   constexpr MockedPlatformFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockedPlatformFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockedPlatformFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockedPlatformFactory(MockedPlatformFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockedPlatformFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockedPlatformFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockedPlatformFactory(MockedPlatformFactory const&) = delete;
+  MockedPlatformFactory(MockedPlatformFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22472 };

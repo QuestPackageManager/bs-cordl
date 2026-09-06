@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\F2mCurve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/F2mCurve.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractECLookupTable_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__F2mCurve_def.hpp"
@@ -602,6 +602,7 @@ inline ::Org::BouncyCastle::Math::EC::ECLookupTable* Org::BouncyCastle::Math::EC
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Math::EC::F2mCurve*>(), 31 })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECLookupTable*>(this, ___internal_method, points, off, len);
 }
+/// @brief [Obsolete("Use constructor taking order/cofactor")]
 inline ::Org::BouncyCastle::Math::EC::F2mCurve* Org::BouncyCastle::Math::EC::F2mCurve::New_ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* a,
                                                                                                 ::Org::BouncyCastle::Math::BigInteger* b) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::F2mCurve*>(m, k, a, b));
@@ -611,6 +612,7 @@ inline ::Org::BouncyCastle::Math::EC::F2mCurve* Org::BouncyCastle::Math::EC::F2m
                                                                                                 ::Org::BouncyCastle::Math::BigInteger* cofactor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::F2mCurve*>(m, k, a, b, order, cofactor));
 }
+/// @brief [Obsolete("Use constructor taking order/cofactor")]
 inline ::Org::BouncyCastle::Math::EC::F2mCurve* Org::BouncyCastle::Math::EC::F2mCurve::New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* a,
                                                                                                 ::Org::BouncyCastle::Math::BigInteger* b) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::F2mCurve*>(m, k1, k2, k3, a, b));

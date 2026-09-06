@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Binding.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Binding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingUpdateTrigger_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Binding_def.hpp"
@@ -246,15 +246,15 @@ inline void UnityEngine::UIElements::Binding::ClearDirty() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Binding*>(), { "ClearDirty", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::Binding::OnActivated(::by_ref<::UnityEngine::UIElements::BindingActivationContext> context) {
+inline void UnityEngine::UIElements::Binding::OnActivated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingActivationContext> context) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Binding*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context);
 }
-inline void UnityEngine::UIElements::Binding::OnDeactivated(::by_ref<::UnityEngine::UIElements::BindingActivationContext> context) {
+inline void UnityEngine::UIElements::Binding::OnDeactivated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingActivationContext> context) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Binding*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context);
 }
-inline void UnityEngine::UIElements::Binding::OnDataSourceChanged(::by_ref<::UnityEngine::UIElements::DataSourceContextChanged> context) {
+inline void UnityEngine::UIElements::Binding::OnDataSourceChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContextChanged> context) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Binding*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context);
 }

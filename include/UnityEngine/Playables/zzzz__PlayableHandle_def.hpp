@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -39,7 +40,11 @@ struct PlayableHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Playables::PlayableHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");
-// Dependencies System.IntPtr
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Export/Director/PlayableHandle.bindings.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayableGraph.h")]
+// Dependencies System.IntPtr, UnityEngine.Playables.IPlayableBehaviour
 namespace UnityEngine::Playables {
 // Is value type: true
 // CS Name: UnityEngine.Playables.PlayableHandle
@@ -67,9 +72,13 @@ public:
   /// @brief Method Equals, addr 0x6b053d8, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* p);
 
+  /// [FreeFunction("PlayableHandleBindings::GetDuration", HasExplicitThis = true, ThrowsException = true)]
+  /// [VisibleToOtherModules]
   /// @brief Method GetDuration, addr 0x6b059dc, size 0x3c, virtual false, abstract: false, final false
   inline double_t GetDuration();
 
+  /// [FreeFunction("PlayableHandleBindings::GetGraph", HasExplicitThis = true, ThrowsException = true)]
+  /// [VisibleToOtherModules]
   /// @brief Method GetGraph, addr 0x6b05aa8, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableGraph GetGraph();
 
@@ -82,9 +91,12 @@ public:
   /// @brief Method GetInput, addr 0x6b04f4c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable GetInput(int32_t inputPort);
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::GetInputCount", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetInputCount, addr 0x6b05718, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetInputCount();
 
+  /// [FreeFunction("PlayableHandleBindings::GetInputHandle", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetInputHandle, addr 0x6b04fb4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableHandle GetInputHandle(int32_t index);
 
@@ -94,90 +106,134 @@ public:
   /// @brief Method GetInputWeight, addr 0x6b052e0, size 0xa4, virtual false, abstract: false, final false
   inline float_t GetInputWeight(int32_t inputIndex);
 
+  /// [FreeFunction("PlayableHandleBindings::GetInputWeightFromIndex", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetInputWeightFromIndex, addr 0x6b05384, size 0x44, virtual false, abstract: false, final false
   inline float_t GetInputWeightFromIndex(int32_t index);
 
   /// @brief Method GetObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetObject();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T>)
+  inline T GetObject();
 
   /// @brief Method GetOutput, addr 0x6b05054, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable GetOutput(int32_t outputPort);
 
+  /// [FreeFunction("PlayableHandleBindings::GetOutputHandle", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetOutputHandle, addr 0x6b050bc, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableHandle GetOutputHandle(int32_t index);
 
   /// @brief Method GetOutputHandle_Injected, addr 0x6b05e40, size 0x54, virtual false, abstract: false, final false
   static inline void GetOutputHandle_Injected(::by_ref<::UnityEngine::Playables::PlayableHandle> _unity_self, int32_t index, ::by_ref<::UnityEngine::Playables::PlayableHandle> ret);
 
+  /// [FreeFunction("PlayableHandleBindings::GetPlayState", HasExplicitThis = true, ThrowsException = true)]
+  /// [VisibleToOtherModules]
   /// @brief Method GetPlayState, addr 0x6b057d4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayState GetPlayState();
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::GetPlayableType", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetPlayableType, addr 0x6b04298, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Type* GetPlayableType();
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::GetPreviousTime", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetPreviousTime, addr 0x6b05cb0, size 0x3c, virtual false, abstract: false, final false
   inline double_t GetPreviousTime();
 
+  /// [FreeFunction("PlayableHandleBindings::GetScriptInstance", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetScriptInstance, addr 0x6b05db0, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Object* GetScriptInstance();
 
+  /// [FreeFunction("PlayableHandleBindings::GetTime", HasExplicitThis = true, ThrowsException = true)]
+  /// [VisibleToOtherModules]
   /// @brief Method GetTime, addr 0x6b058d4, size 0x3c, virtual false, abstract: false, final false
   inline double_t GetTime();
 
+  /// [FreeFunction("PlayableHandleBindings::GetTimeWrapMode", HasExplicitThis = true, ThrowsException = true)]
+  /// [VisibleToOtherModules]
   /// @brief Method GetTimeWrapMode, addr 0x6b05d30, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::DirectorWrapMode GetTimeWrapMode();
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::IsDone", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method IsDone, addr 0x6b0595c, size 0x3c, virtual false, abstract: false, final false
   inline bool IsDone();
 
+  /// [VisibleToOtherModules]
   /// @brief Method IsPlayableOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOfType();
 
+  /// [VisibleToOtherModules]
   /// @brief Method IsValid, addr 0x6b05754, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::Pause", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method Pause, addr 0x6b0584c, size 0x3c, virtual false, abstract: false, final false
   inline void Pause();
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::Play", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method Play, addr 0x6b05810, size 0x3c, virtual false, abstract: false, final false
   inline void Play();
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::SetDone", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetDone, addr 0x6b05998, size 0x44, virtual false, abstract: false, final false
   inline void SetDone(bool value);
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::SetDuration", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetDuration, addr 0x6b05a18, size 0x4c, virtual false, abstract: false, final false
   inline void SetDuration(double_t value);
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::SetInputCount", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetInputCount, addr 0x6b05b7c, size 0x44, virtual false, abstract: false, final false
   inline void SetInputCount(int32_t value);
 
   /// @brief Method SetInputWeight, addr 0x6b0515c, size 0xbc, virtual false, abstract: false, final false
   inline bool SetInputWeight(int32_t inputIndex, float_t weight);
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::SetInputWeight", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetInputWeight, addr 0x6b05bc0, size 0x9c, virtual false, abstract: false, final false
   inline void SetInputWeight(::UnityEngine::Playables::PlayableHandle input, float_t weight);
 
+  /// [FreeFunction("PlayableHandleBindings::SetInputWeightFromIndex", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetInputWeightFromIndex, addr 0x6b0528c, size 0x54, virtual false, abstract: false, final false
   inline void SetInputWeightFromIndex(int32_t index, float_t weight);
 
   /// @brief Method SetInputWeight_Injected, addr 0x6b05c5c, size 0x54, virtual false, abstract: false, final false
   static inline void SetInputWeight_Injected(::by_ref<::UnityEngine::Playables::PlayableHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> input, float_t weight);
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::SetPropagateSetTime", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetPropagateSetTime, addr 0x6b05a64, size 0x44, virtual false, abstract: false, final false
   inline void SetPropagateSetTime(bool value);
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::SetScriptInstance", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetScriptInstance, addr 0x6b05790, size 0x44, virtual false, abstract: false, final false
   inline void SetScriptInstance(::System::Object* scriptInstance);
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::SetSpeed", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetSpeed, addr 0x6b05888, size 0x4c, virtual false, abstract: false, final false
   inline void SetSpeed(double_t value);
 
+  /// [FreeFunction("PlayableHandleBindings::SetTime", HasExplicitThis = true, ThrowsException = true)]
+  /// [VisibleToOtherModules]
   /// @brief Method SetTime, addr 0x6b05910, size 0x4c, virtual false, abstract: false, final false
   inline void SetTime(double_t value);
 
+  /// [FreeFunction("PlayableHandleBindings::SetTimeWrapMode", HasExplicitThis = true, ThrowsException = true)]
+  /// [VisibleToOtherModules]
   /// @brief Method SetTimeWrapMode, addr 0x6b05d6c, size 0x44, virtual false, abstract: false, final false
   inline void SetTimeWrapMode(::UnityEngine::Playables::DirectorWrapMode mode);
 
+  /// [VisibleToOtherModules]
+  /// [FreeFunction("PlayableHandleBindings::SetTraversalMode", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetTraversalMode, addr 0x6b05cec, size 0x44, virtual false, abstract: false, final false
   inline void SetTraversalMode(::UnityEngine::Playables::PlayableTraversalMode mode);
 
@@ -198,7 +254,8 @@ public:
   // @brief default ctor
   constexpr PlayableHandle();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr PlayableHandle(::System::IntPtr m_Handle, uint32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

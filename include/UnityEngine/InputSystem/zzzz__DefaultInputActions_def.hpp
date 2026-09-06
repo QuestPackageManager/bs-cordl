@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\DefaultInputActions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/DefaultInputActions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
@@ -144,7 +146,7 @@ public:
   // @brief default ctor
   constexpr DefaultInputActions_PlayerActions();
 
-  // Ctor Parameters [CppParam { name: "m_Wrapper", ty: "::UnityEngine::InputSystem::DefaultInputActions*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Wrapper", ty: "::UnityEngine::InputSystem::DefaultInputActions*", modifiers: "", def_value: None, comment: None }]
   constexpr DefaultInputActions_PlayerActions(::UnityEngine::InputSystem::DefaultInputActions* m_Wrapper) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -248,7 +250,7 @@ public:
   // @brief default ctor
   constexpr DefaultInputActions_UIActions();
 
-  // Ctor Parameters [CppParam { name: "m_Wrapper", ty: "::UnityEngine::InputSystem::DefaultInputActions*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Wrapper", ty: "::UnityEngine::InputSystem::DefaultInputActions*", modifiers: "", def_value: None, comment: None }]
   constexpr DefaultInputActions_UIActions(::UnityEngine::InputSystem::DefaultInputActions* m_Wrapper) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -275,18 +277,18 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE DefaultInputActions_IPlayerActions {
 public:
   // Declarations
-  /// @brief Method OnFire, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnFire, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnFire(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnLook, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnLook, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnLook(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnMove, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnMove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnMove(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultInputActions_IPlayerActions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultInputActions_IPlayerActions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultInputActions_IPlayerActions(DefaultInputActions_IPlayerActions const&) = delete;
+  DefaultInputActions_IPlayerActions(DefaultInputActions_IPlayerActionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8794 };
@@ -302,39 +304,39 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE DefaultInputActions_IUIActions {
 public:
   // Declarations
-  /// @brief Method OnCancel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnCancel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnCancel(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnClick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnClick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnClick(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnMiddleClick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnMiddleClick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnMiddleClick(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnNavigate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnNavigate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnNavigate(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPoint(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnRightClick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnRightClick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnRightClick(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnScrollWheel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnScrollWheel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnScrollWheel(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnSubmit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSubmit(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnTrackedDeviceOrientation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnTrackedDeviceOrientation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnTrackedDeviceOrientation(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnTrackedDevicePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnTrackedDevicePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnTrackedDevicePosition(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultInputActions_IUIActions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultInputActions_IUIActions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultInputActions_IUIActions(DefaultInputActions_IUIActions const&) = delete;
+  DefaultInputActions_IUIActions(DefaultInputActions_IUIActionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8795 };
@@ -659,6 +661,7 @@ public:
   /// @brief Method get_XRScheme, addr 0x6578a20, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme get_XRScheme();
 
+  /// [CompilerGenerated]
   /// @brief Method get_asset, addr 0x65780e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> get_asset();
 
@@ -702,17 +705,18 @@ protected:
   constexpr DefaultInputActions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultInputActions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultInputActions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultInputActions(DefaultInputActions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultInputActions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultInputActions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultInputActions(DefaultInputActions const&) = delete;
+  DefaultInputActions(DefaultInputActionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8796 };
 
+  /// [CompilerGenerated]
   /// @brief Field <asset>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ____asset_k__BackingField;
 

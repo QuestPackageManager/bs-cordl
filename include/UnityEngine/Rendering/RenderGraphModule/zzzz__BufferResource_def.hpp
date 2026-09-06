@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BufferResource.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BufferResource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class BufferResource;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::BufferResource*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::BufferResource*, "UnityEngine.Rendering.RenderGraphModule", "BufferResource");
+// [DebuggerDisplay("BufferResource ({desc.name})")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.BufferDesc, UnityEngine.Rendering.RenderGraphModule.RenderGraphResource`2<DescType, ResType>
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: false
@@ -60,13 +61,13 @@ protected:
   constexpr BufferResource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferResource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferResource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferResource(BufferResource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferResource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferResource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferResource(BufferResource const&) = delete;
+  BufferResource(BufferResourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12441 };

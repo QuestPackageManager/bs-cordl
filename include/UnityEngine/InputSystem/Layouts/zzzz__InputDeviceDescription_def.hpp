@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Layouts\InputDeviceDescription.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Layouts/InputDeviceDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,9 +42,10 @@ public:
   // @brief default ctor
   constexpr InputDeviceDescription_DeviceDescriptionJson();
 
-  // Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "product", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "serial", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "version", ty: "::StringW", modifiers:
-  // "", def_value: None }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "capabilities", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "serial", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "capabilities", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr InputDeviceDescription_DeviceDescriptionJson(::StringW interface, ::StringW type, ::StringW product, ::StringW serial, ::StringW version, ::StringW manufacturer,
                                                          ::StringW capabilities) noexcept;
 
@@ -202,10 +203,10 @@ public:
   // @brief default ctor
   constexpr InputDeviceDescription();
 
-  // Ctor Parameters [CppParam { name: "m_InterfaceName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_DeviceClass", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "m_Manufacturer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Product", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Serial",
-  // ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Capabilities", ty: "::StringW", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_InterfaceName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DeviceClass", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_Manufacturer", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Product", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Serial", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Capabilities", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr InputDeviceDescription(::StringW m_InterfaceName, ::StringW m_DeviceClass, ::StringW m_Manufacturer, ::StringW m_Product, ::StringW m_Serial, ::StringW m_Version,
                                    ::StringW m_Capabilities) noexcept;
 
@@ -215,24 +216,31 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [SerializeField]
   /// @brief Field m_InterfaceName, offset: 0x0, size: 0x8, def value: None
   ::StringW m_InterfaceName;
 
+  /// [SerializeField]
   /// @brief Field m_DeviceClass, offset: 0x8, size: 0x8, def value: None
   ::StringW m_DeviceClass;
 
+  /// [SerializeField]
   /// @brief Field m_Manufacturer, offset: 0x10, size: 0x8, def value: None
   ::StringW m_Manufacturer;
 
+  /// [SerializeField]
   /// @brief Field m_Product, offset: 0x18, size: 0x8, def value: None
   ::StringW m_Product;
 
+  /// [SerializeField]
   /// @brief Field m_Serial, offset: 0x20, size: 0x8, def value: None
   ::StringW m_Serial;
 
+  /// [SerializeField]
   /// @brief Field m_Version, offset: 0x28, size: 0x8, def value: None
   ::StringW m_Version;
 
+  /// [SerializeField]
   /// @brief Field m_Capabilities, offset: 0x30, size: 0x8, def value: None
   ::StringW m_Capabilities;
 

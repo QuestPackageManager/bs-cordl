@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\Priority.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/Priority.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct Priority;
 // Write type traits
 MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::Priority);
 DEFINE_IL2CPP_CLASS(::Unity::IO::LowLevel::Unsafe::Priority, "Unity.IO.LowLevel.Unsafe", "Priority");
+// [RequiredByNativeCode]
 // Dependencies
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr Priority();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Priority(int32_t value__) noexcept;
 
   /// @brief Field PriorityHigh value: I32(1)

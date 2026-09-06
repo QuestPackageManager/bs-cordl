@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Mirror.hpp"
+// IWYU pragma private; include "GlobalNamespace/Mirror.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,8 @@ class Mirror;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::Mirror*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::Mirror*, "", "Mirror");
+// [ExecuteInEditMode]
+// [RequireComponent(typeof(UnityEngine.Renderer))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -137,6 +139,7 @@ public:
   /// @brief Method .ctor, addr 0x5f46fe4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x5f46958, size 0xc0, virtual false, abstract: false, final false
   inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
@@ -148,6 +151,7 @@ public:
   /// @brief Method get_canReflect, addr 0x5f4685c, size 0xd4, virtual false, abstract: false, final false
   inline bool get_canReflect();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isEnabled, addr 0x5f46948, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
@@ -160,11 +164,13 @@ public:
   /// @brief Method get_reflectionPlaneTransform, addr 0x5f46940, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_reflectionPlaneTransform();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x5f46a18, size 0xc0, virtual false, abstract: false, final false
   inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline void setStaticF__activeMirrors(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Mirror>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isEnabled, addr 0x5f46950, size 0x8, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
@@ -174,35 +180,44 @@ protected:
   constexpr Mirror();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Mirror(Mirror&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Mirror(Mirror const&) = delete;
+  Mirror(Mirrorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20649 };
 
+  /// [SerializeField]
   /// @brief Field _mirrorRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;
 
+  /// [SerializeField]
   /// @brief Field _renderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____renderer;
 
+  /// [SerializeField]
   /// @brief Field _mirrorMaterial, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____mirrorMaterial;
 
+  /// [SerializeField]
   /// @brief Field _noMirrorMaterial, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____noMirrorMaterial;
 
+  /// [SerializeField]
+  /// [Tooltip("Target reflection plane to use for rendering, default is track mirror because of the gameplay POV. When there are multiple mirrors in a single scene they have to target a single
+  /// transform for performance reasons.")]
   /// @brief Field _reflectionPlaneTransform, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____reflectionPlaneTransform;
 
+  /// [CompilerGenerated]
   /// @brief Field <isEnabled>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____isEnabled_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field mirrorDidChangeEnabledStateEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<bool>* ___mirrorDidChangeEnabledStateEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockFloatCurve.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockFloatCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class MaterialPropertyBlockFloatCurve;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MaterialPropertyBlockFloatCurve*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MaterialPropertyBlockFloatCurve*, "", "MaterialPropertyBlockFloatCurve");
+// [ExecuteAlways]
 // Dependencies MaterialPropertyBlockAnimator
 namespace GlobalNamespace {
 // Is value type: false
@@ -64,23 +65,27 @@ protected:
   constexpr MaterialPropertyBlockFloatCurve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatCurve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatCurve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatCurve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve const&) = delete;
+  MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurveconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19573 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _curve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____curve;
 
+  /// [SerializeField]
   /// @brief Field _valueMultiplier, offset: 0x40, size: 0x4, def value: None
   float_t ____valueMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _speedMultiplier, offset: 0x44, size: 0x4, def value: None
   float_t ____speedMultiplier;
 

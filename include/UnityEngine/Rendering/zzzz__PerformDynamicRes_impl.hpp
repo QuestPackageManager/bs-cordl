@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\PerformDynamicRes.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/PerformDynamicRes.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PerformDynamicRes_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"

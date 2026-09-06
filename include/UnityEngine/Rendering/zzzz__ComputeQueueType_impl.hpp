@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ComputeQueueType.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ComputeQueueType.hpp"
 #include "UnityEngine/Rendering/zzzz__ComputeQueueType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ComputeQueueType::ComputeQueueType(int32_t value__) noexcept {
   this->value__ = value__;
 }

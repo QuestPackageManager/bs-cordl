@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventCategoryFlags.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventCategoryFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct EventCategoryFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::EventCategoryFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::EventCategoryFlags, "UnityEngine.UIElements", "EventCategoryFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr EventCategoryFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EventCategoryFlags(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(-1)

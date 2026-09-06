@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\DllImportSearchPath.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/DllImportSearchPath.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DllImportSearchPath;
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::DllImportSearchPath);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::DllImportSearchPath, "System.Runtime.InteropServices", "DllImportSearchPath");
+// [Flags]
 // Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr DllImportSearchPath();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DllImportSearchPath(int32_t value__) noexcept;
 
   /// @brief Field ApplicationDirectory value: I32(512)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnumTableViewDataSource_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnumTableViewDataSource_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   /// @brief Method GetLabelForId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW GetLabelForId(int32_t id);
 
-  /// @brief Method GetLabelForValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetLabelForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetLabelForValue(T value);
 
   /// @brief Method GetValueForId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -102,13 +102,13 @@ protected:
   constexpr EnumTableViewDataSource_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumTableViewDataSource_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumTableViewDataSource_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumTableViewDataSource_1(EnumTableViewDataSource_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumTableViewDataSource_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumTableViewDataSource_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumTableViewDataSource_1(EnumTableViewDataSource_1 const&) = delete;
+  EnumTableViewDataSource_1(EnumTableViewDataSource_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6679 };
@@ -116,9 +116,11 @@ public:
   /// @brief Field kCellReuseIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellReuseIdentifier{ u"Cell" };
 
+  /// [SerializeField]
   /// @brief Field _cellPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TextOnlyTableCell> ____cellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _cellHeight, offset: 0x28, size: 0x4, def value: None
   float_t ____cellHeight;
 

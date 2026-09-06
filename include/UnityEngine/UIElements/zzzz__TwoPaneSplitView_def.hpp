@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TwoPaneSplitView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TwoPaneSplitView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,9 @@ namespace UnityEngine::UIElements {
 class TwoPaneSplitView_UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlIntAttributeDescription;
@@ -58,6 +60,7 @@ MARK_REF_T(::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TwoPaneSplitView*, "UnityEngine.UIElements", "TwoPaneSplitView");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TwoPaneSplitView_UxmlFactory*, "UnityEngine.UIElements", "TwoPaneSplitView/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits*, "UnityEngine.UIElements", "TwoPaneSplitView/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -76,13 +79,13 @@ protected:
   constexpr TwoPaneSplitView_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TwoPaneSplitView_UxmlFactory(TwoPaneSplitView_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TwoPaneSplitView_UxmlFactory(TwoPaneSplitView_UxmlFactory const&) = delete;
+  TwoPaneSplitView_UxmlFactory(TwoPaneSplitView_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4351 };
@@ -93,6 +96,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::TwoPaneSplitView_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -143,13 +147,13 @@ protected:
   constexpr TwoPaneSplitView_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TwoPaneSplitView_UxmlTraits(TwoPaneSplitView_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TwoPaneSplitView_UxmlTraits(TwoPaneSplitView_UxmlTraits const&) = delete;
+  TwoPaneSplitView_UxmlTraits(TwoPaneSplitView_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4352 };
@@ -194,11 +198,13 @@ public:
 
   __declspec(property(get = get_fixedPaneDimension, put = set_fixedPaneDimension)) float_t fixedPaneDimension;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_fixedPaneIndex, put = set_fixedPaneIndex)) int32_t fixedPaneIndex;
 
   /// @brief Field fixedPaneIndexProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_fixedPaneIndexProperty, put = setStaticF_fixedPaneIndexProperty)) ::UnityEngine::UIElements::BindingId fixedPaneIndexProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_fixedPaneInitialDimension, put = set_fixedPaneInitialDimension)) float_t fixedPaneInitialDimension;
 
   /// @brief Field fixedPaneInitialDimensionProperty, offset 0xffffffff, size 0x98
@@ -251,6 +257,7 @@ public:
   /// @brief Field m_RightPane, offset 0x4b0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RightPane, put = __cordl_internal_set_m_RightPane)) ::UnityEngine::UIElements::VisualElement* m_RightPane;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_orientation, put = set_orientation)) ::UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation;
 
   /// @brief Field orientationProperty, offset 0xffffffff, size 0x98
@@ -493,6 +500,7 @@ public:
 
   static inline void setStaticF_s_VerticalClassName(::StringW value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method set_fixedPaneDimension, addr 0x6d7bd1c, size 0x1c, virtual false, abstract: false, final false
   inline void set_fixedPaneDimension(float_t value);
 
@@ -511,13 +519,13 @@ protected:
   constexpr TwoPaneSplitView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TwoPaneSplitView(TwoPaneSplitView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TwoPaneSplitView(TwoPaneSplitView const&) = delete;
+  TwoPaneSplitView(TwoPaneSplitViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4353 };
@@ -534,6 +542,8 @@ public:
   /// @brief Field m_FlexedPane, offset: 0x4c0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_FlexedPane;
 
+  /// [SerializeField]
+  /// [DontCreateProperty]
   /// @brief Field m_FixedPaneDimension, offset: 0x4c8, size: 0x4, def value: None
   float_t ___m_FixedPaneDimension;
 
@@ -564,6 +574,7 @@ public:
   /// @brief Field m_FixedPaneInitialDimension, offset: 0x4f8, size: 0x4, def value: None
   float_t ___m_FixedPaneInitialDimension;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field m_Resizer, offset: 0x500, size: 0x8, def value: None
   ::UnityEngine::UIElements::TwoPaneSplitViewResizer* ___m_Resizer;
 

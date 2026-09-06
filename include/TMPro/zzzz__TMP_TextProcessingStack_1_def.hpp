@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_TextProcessingStack_1.hpp"
+// IWYU pragma private; include "TMPro/TMP_TextProcessingStack_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ template <typename T> struct TMP_TextProcessingStack_1;
 // Write type traits
 MARK_GEN_VAL_T(::TMPro::TMP_TextProcessingStack_1);
 DEFINE_IL2CPP_GEN_CLASS(::TMPro::TMP_TextProcessingStack_1, "TMPro", "TMP_TextProcessingStack`1");
+// [DebuggerDisplay("Item count = {m_Count}")]
 // Dependencies
 namespace TMPro {
 // cpp template
@@ -84,9 +85,10 @@ public:
   // @brief default ctor
   constexpr TMP_TextProcessingStack_1();
 
-  // Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_DefaultItem", ty: "T", modifiers: "", def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_RolloverSize", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_DefaultItem", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr TMP_TextProcessingStack_1(::ArrayW<T> itemStack, int32_t index, T m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize, int32_t m_Count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

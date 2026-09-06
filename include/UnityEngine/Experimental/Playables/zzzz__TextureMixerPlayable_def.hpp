@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Playables\TextureMixerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Playables/TextureMixerPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,11 @@ struct TextureMixerPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Playables::TextureMixerPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Playables::TextureMixerPlayable, "UnityEngine.Experimental.Playables", "TextureMixerPlayable");
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [NativeHeader("Runtime/Graphics/Director/TextureMixerPlayable.h")]
+// [RequiredByNativeCode]
+// [StaticAccessor("TextureMixerPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Runtime/Export/Director/TextureMixerPlayable.bindings.h")]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
@@ -51,7 +56,7 @@ public:
   // @brief default ctor
   constexpr TextureMixerPlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr TextureMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

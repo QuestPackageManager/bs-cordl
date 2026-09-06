@@ -1,20 +1,28 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue\GenericPriorityQueue_2.hpp"
+// IWYU pragma private; include "Priority_Queue/GenericPriorityQueue_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericPriorityQueue_2)
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class GenericPriorityQueue_2__GetEnumerator_d__25;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class GenericPriorityQueue_2__GetEnumerator_d__25;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class IFixedSizePriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class IPriorityQueue_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
@@ -42,20 +50,26 @@ class Object;
 }
 // Forward declare root types
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class GenericPriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class GenericPriorityQueue_2__GetEnumerator_d__25;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class GenericPriorityQueue_2__GetEnumerator_d__25;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::GenericPriorityQueue_2);
 MARK_GEN_REF_T_PTR(::Priority_Queue::GenericPriorityQueue_2__GetEnumerator_d__25);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::GenericPriorityQueue_2, "Priority_Queue", "GenericPriorityQueue`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::GenericPriorityQueue_2__GetEnumerator_d__25, "Priority_Queue", "GenericPriorityQueue`2/<GetEnumerator>d__25");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies Priority_Queue.GenericPriorityQueueNode`1<TPriority>, System.IComparable`1<T>, System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.GenericPriorityQueue`2/<GetEnumerator>d__25<TItem,TPriority>
 class CORDL_TYPE GenericPriorityQueue_2__GetEnumerator_d__25 : public ::System::Object {
@@ -89,17 +103,22 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Priority_Queue::GenericPriorityQueue_2__GetEnumerator_d__25<TItem, TPriority>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<TItem>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem System_Collections_Generic_IEnumerator_TItem__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -127,6 +146,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -145,13 +165,13 @@ protected:
   constexpr GenericPriorityQueue_2__GetEnumerator_d__25();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2__GetEnumerator_d__25", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2__GetEnumerator_d__25", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericPriorityQueue_2__GetEnumerator_d__25(GenericPriorityQueue_2__GetEnumerator_d__25&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2__GetEnumerator_d__25", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2__GetEnumerator_d__25", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericPriorityQueue_2__GetEnumerator_d__25(GenericPriorityQueue_2__GetEnumerator_d__25 const&) = delete;
+  GenericPriorityQueue_2__GetEnumerator_d__25(GenericPriorityQueue_2__GetEnumerator_d__25const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20488 };
@@ -162,6 +182,7 @@ public:
   /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
   TItem _____2__current;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* _____4__this;
 
@@ -172,10 +193,13 @@ public:
 };
 // Non member Declarations
 } // namespace Priority_Queue
-// Dependencies System.Object
+// [NullableContext(1)]
+// [Nullable(0)]
+// Dependencies Priority_Queue.GenericPriorityQueueNode`1<TPriority>, System.IComparable`1<T>, System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.GenericPriorityQueue`2<TItem,TPriority>
 class CORDL_TYPE GenericPriorityQueue_2 : public ::System::Object {
@@ -231,6 +255,7 @@ public:
   /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Enqueue(TItem node, TPriority priority);
 
+  /// [IteratorStateMachine(typeof(Priority_Queue.GenericPriorityQueue`2::<GetEnumerator>d__25<TItem, TPriority>))]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TItem>* GetEnumerator();
 
@@ -324,13 +349,13 @@ protected:
   constexpr GenericPriorityQueue_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericPriorityQueue_2(GenericPriorityQueue_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericPriorityQueue_2(GenericPriorityQueue_2 const&) = delete;
+  GenericPriorityQueue_2(GenericPriorityQueue_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20489 };

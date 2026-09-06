@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\EVRControllerAxisType.hpp"
+// IWYU pragma private; include "OVR/OpenVR/EVRControllerAxisType.hpp"
 #include "OVR/OpenVR/zzzz__EVRControllerAxisType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::EVRControllerAxisType::EVRControllerAxisType(int32_t value__) noexcept {
   this->value__ = value__;
 }

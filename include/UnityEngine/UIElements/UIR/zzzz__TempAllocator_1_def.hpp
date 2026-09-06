@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\TempAllocator_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TempAllocator_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,17 +15,25 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> struct TempAllocator_1_Page;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct TempAllocator_1_Page;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class TempAllocator_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class TempAllocator_1;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> struct TempAllocator_1_Page;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct TempAllocator_1_Page;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::TempAllocator_1);
@@ -36,6 +44,7 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::UIR::TempAllocator_1_Page, "U
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.TempAllocator`1/Page<T>
 struct CORDL_TYPE TempAllocator_1_Page {
@@ -45,8 +54,8 @@ public:
   // @brief default ctor
   constexpr TempAllocator_1_Page();
 
-  // Ctor Parameters [CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }, CppParam { name: "used", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "used", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TempAllocator_1_Page(::Unity::Collections::NativeArray_1<T> array, int32_t used) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -69,6 +78,7 @@ public:
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.TempAllocator`1<T>
 class CORDL_TYPE TempAllocator_1 : public ::System::Object {
@@ -159,12 +169,14 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t poolCapacity, int32_t excessMinCapacity, int32_t excessMaxCapacity);
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -174,13 +186,13 @@ protected:
   constexpr TempAllocator_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TempAllocator_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TempAllocator_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TempAllocator_1(TempAllocator_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TempAllocator_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TempAllocator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TempAllocator_1(TempAllocator_1 const&) = delete;
+  TempAllocator_1(TempAllocator_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5348 };
@@ -200,6 +212,8 @@ public:
   /// @brief Field m_NextExcessSize, offset: 0x38, size: 0x4, def value: None
   int32_t ___m_NextExcessSize;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x3c, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\RestrictionFlags.hpp"
+// IWYU pragma private; include "System/Xml/Schema/RestrictionFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RestrictionFlags;
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::RestrictionFlags);
 DEFINE_IL2CPP_CLASS(::System::Xml::Schema::RestrictionFlags, "System.Xml.Schema", "RestrictionFlags");
+// [Flags]
 // Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
@@ -52,7 +53,7 @@ public:
   // @brief default ctor
   constexpr RestrictionFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RestrictionFlags(int32_t value__) noexcept;
 
   /// @brief Field Enumeration value: I32(16)

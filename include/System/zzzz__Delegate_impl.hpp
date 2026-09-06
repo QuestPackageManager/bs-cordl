@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Delegate.hpp"
+// IWYU pragma private; include "System/Delegate.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Delegate_def.hpp"
@@ -734,7 +734,7 @@ inline ::System::Delegate* System::Delegate::CreateDelegate(::System::Type* type
                                        { "CreateDelegate", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Delegate*>(nullptr, ___internal_method, type, target, method, ignoreCase);
 }
-inline ::System::Object* System::Delegate::DynamicInvoke(::ArrayW<::System::Object*> args) {
+inline ::System::Object* System::Delegate::DynamicInvoke(/* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Delegate*>(), { "DynamicInvoke", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, args);
@@ -776,7 +776,7 @@ inline ::System::Delegate* System::Delegate::Combine(::System::Delegate* a, ::Sy
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Delegate*>(), { "Combine", {}, { ::i2c::type_of<::System::Delegate*>(), ::i2c::type_of<::System::Delegate*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Delegate*>(nullptr, ___internal_method, a, b);
 }
-inline ::System::Delegate* System::Delegate::Combine(::ArrayW<::System::Delegate*> delegates) {
+inline ::System::Delegate* System::Delegate::Combine(/* [ParamArray] */ ::ArrayW<::System::Delegate*> delegates) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Delegate*>(), { "Combine", {}, { ::i2c::type_of<::ArrayW<::System::Delegate*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Delegate*>(nullptr, ___internal_method, delegates);

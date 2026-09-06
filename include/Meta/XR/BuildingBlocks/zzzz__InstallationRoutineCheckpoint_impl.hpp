@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\InstallationRoutineCheckpoint.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/InstallationRoutineCheckpoint.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__InstallationRoutineCheckpoint_def.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__VariantCheckpoint_def.hpp"

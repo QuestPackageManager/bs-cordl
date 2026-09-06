@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
@@ -154,7 +154,7 @@ inline ::UnityEngine::Rendering::VolumeManager___c* UnityEngine::Rendering::Volu
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::VolumeManager___c::VolumeManager___c() {}
 // Ctor Parameters [CppParam { name: "componentsDefaultStateList", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*", modifiers: "", def_value:
-// Some("{}") }]
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::VolumeManager___c__DisplayClass58_0::VolumeManager___c__DisplayClass58_0(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* componentsDefaultStateList) noexcept {
   this->componentsDefaultStateList = componentsDefaultStateList;
@@ -1253,7 +1253,9 @@ inline void UnityEngine::Rendering::VolumeManager::Unregister(::UnityEngine::Ren
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeManager*>(), { "Unregister", {}, { ::i2c::type_of<::UnityEngine::Rendering::Volume*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, volume);
 }
-template <typename T> inline bool UnityEngine::Rendering::VolumeManager::IsComponentActiveInMask(::UnityEngine::LayerMask layerMask) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline bool UnityEngine::Rendering::VolumeManager::IsComponentActiveInMask(::UnityEngine::LayerMask layerMask) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeManager*>(), { "IsComponentActiveInMask", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::LayerMask>() } })));

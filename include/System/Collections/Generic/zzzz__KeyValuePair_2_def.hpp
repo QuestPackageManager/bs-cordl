@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\KeyValuePair_2.hpp"
+// IWYU pragma private; include "System/Collections/Generic/KeyValuePair_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ template <typename TKey, typename TValue> struct KeyValuePair_2;
 // Write type traits
 MARK_GEN_VAL_T(::System::Collections::Generic::KeyValuePair_2);
 DEFINE_IL2CPP_GEN_CLASS(::System::Collections::Generic::KeyValuePair_2, "System.Collections.Generic", "KeyValuePair`2");
+// [IsReadOnly]
 // Dependencies
 namespace System::Collections::Generic {
 // cpp template
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr KeyValuePair_2();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "key", ty: "TKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: None, comment: None }]
   constexpr KeyValuePair_2(TKey key, TValue value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarSystemCollection.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarSystemCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,6 +91,7 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarSystemCollection___c*, "BeatS
 DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22, "BeatSaber.AvatarCore",
                     "AvatarSystemCollection/<CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync>d__22");
 DEFINE_IL2CPP_CLASS(::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20, "BeatSaber.AvatarCore", "AvatarSystemCollection/<GetMultiplayerAvatarsData>d__20");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::AvatarCore {
 // Is value type: false
@@ -126,13 +127,13 @@ protected:
   constexpr AvatarSystemCollection___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemCollection___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemCollection___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarSystemCollection___c(AvatarSystemCollection___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemCollection___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemCollection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarSystemCollection___c(AvatarSystemCollection___c const&) = delete;
+  AvatarSystemCollection___c(AvatarSystemCollection___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21646 };
@@ -143,6 +144,7 @@ public:
 static_assert(sizeof(::BeatSaber::AvatarCore::AvatarSystemCollection___c) == 0x10, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::AvatarCore {
 // Is value type: true
@@ -156,6 +158,7 @@ public:
   /// @brief Method MoveNext, addr 0x326da14, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x326de48, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -166,10 +169,11 @@ public:
   // @brief default ctor
   constexpr AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::AvatarCore::AvatarSystemCollection*", modifiers:
-  // "", def_value: None }, CppParam { name: "__7__wrap1", ty: "::System::Collections::Generic::List_1_Enumerator<::BeatSaber::AvatarCore::IAvatarSystem*>", modifiers: "", def_value: None }, CppParam
-  // { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::AvatarCore::AvatarSystemCollection*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty:
+  // "::System::Collections::Generic::List_1_Enumerator<::BeatSaber::AvatarCore::IAvatarSystem*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::AvatarCore::AvatarSystemCollection* __4__this,
       ::System::Collections::Generic::List_1_Enumerator<::BeatSaber::AvatarCore::IAvatarSystem*> __7__wrap1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
@@ -211,6 +215,7 @@ static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDe
 static_assert(sizeof(::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22) == 0x48, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
+// [CompilerGenerated]
 // Dependencies MultiplayerAvatarsData, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::AvatarCore {
 // Is value type: true
@@ -224,6 +229,7 @@ public:
   /// @brief Method MoveNext, addr 0x326deb4, size 0x8fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x326e7b0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -234,10 +240,11 @@ public:
   // @brief default ctor
   constexpr AvatarSystemCollection__GetMultiplayerAvatarsData_d__20();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerAvatarsData>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::BeatSaber::AvatarCore::AvatarSystemCollection*", modifiers: "", def_value: None }, CppParam { name: "selectedAvatarTypeIdentifier", ty: "::StringW", modifiers: "", def_value: None }, CppParam
-  // { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::MultiplayerAvatarData>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerAvatarsData>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::AvatarCore::AvatarSystemCollection*", modifiers: "", def_value: None, comment: None }, CppParam { name: "selectedAvatarTypeIdentifier", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::MultiplayerAvatarData>>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr AvatarSystemCollection__GetMultiplayerAvatarsData_d__20(int32_t __1__state,
                                                                     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerAvatarsData> __t__builder,
                                                                     ::BeatSaber::AvatarCore::AvatarSystemCollection* __4__this, ::StringW selectedAvatarTypeIdentifier,
@@ -328,6 +335,7 @@ public:
   /// @brief Method AvatarSystemBySelectionSortOrder, addr 0x326d348, size 0x124, virtual false, abstract: false, final false
   static inline int32_t AvatarSystemBySelectionSortOrder(::BeatSaber::AvatarCore::IAvatarSystem* system1, ::BeatSaber::AvatarCore::IAvatarSystem* system2);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.AvatarCore.AvatarSystemCollection::<CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync>d__22))]
   /// @brief Method CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync, addr 0x326d7a0, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync();
 
@@ -346,6 +354,7 @@ public:
   /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0x326d6a4, size 0xcc, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider(::StringW selectedAvatarTypeIdentifier);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.AvatarCore.AvatarSystemCollection::<GetMultiplayerAvatarsData>d__20))]
   /// @brief Method GetMultiplayerAvatarsData, addr 0x326d5b4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarsData>* GetMultiplayerAvatarsData(::StringW selectedAvatarTypeIdentifier);
 
@@ -396,6 +405,7 @@ public:
   /// @brief Method .ctor, addr 0x326c808, size 0xb40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>* boundAvatarSystems);
 
+  /// [CompilerGenerated]
   /// @brief Method add_avatarDidChangeEvent, addr 0x326c698, size 0xac, virtual false, abstract: false, final false
   inline void add_avatarDidChangeEvent(::System::Action* value);
 
@@ -411,6 +421,7 @@ public:
   /// @brief Method get_supportedOptionalAvatarDataType, addr 0x326c800, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataType();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_avatarDidChangeEvent, addr 0x326c744, size 0xac, virtual false, abstract: false, final false
   inline void remove_avatarDidChangeEvent(::System::Action* value);
 
@@ -420,17 +431,18 @@ protected:
   constexpr AvatarSystemCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarSystemCollection(AvatarSystemCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarSystemCollection(AvatarSystemCollection const&) = delete;
+  AvatarSystemCollection(AvatarSystemCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21649 };
 
+  /// [CompilerGenerated]
   /// @brief Field avatarDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___avatarDidChangeEvent;
 

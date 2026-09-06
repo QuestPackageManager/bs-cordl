@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphObjectPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphObjectPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,19 +29,27 @@ namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphObjectPool_SharedObjectPoolBase;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename T> class RenderGraphObjectPool_SharedObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class RenderGraphObjectPool_SharedObjectPool_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename T> class SharedObjectPool_1_RenderGraphObjectPool___c;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class SharedObjectPool_1_RenderGraphObjectPool___c;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
@@ -54,10 +62,14 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphObjectPool_SharedObjectPoolBase;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename T> class RenderGraphObjectPool_SharedObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class RenderGraphObjectPool_SharedObjectPool_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename T> class SharedObjectPool_1_RenderGraphObjectPool___c;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class SharedObjectPool_1_RenderGraphObjectPool___c;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool*);
@@ -91,13 +103,13 @@ protected:
   constexpr RenderGraphObjectPool_SharedObjectPoolBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPoolBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPoolBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphObjectPool_SharedObjectPoolBase(RenderGraphObjectPool_SharedObjectPoolBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPoolBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPoolBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphObjectPool_SharedObjectPoolBase(RenderGraphObjectPool_SharedObjectPoolBase const&) = delete;
+  RenderGraphObjectPool_SharedObjectPoolBase(RenderGraphObjectPool_SharedObjectPoolBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12423 };
@@ -108,10 +120,12 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphObjectPool/SharedObjectPool`1/<>c<T>
 class CORDL_TYPE SharedObjectPool_1_RenderGraphObjectPool___c : public ::System::Object {
@@ -145,13 +159,13 @@ protected:
   constexpr SharedObjectPool_1_RenderGraphObjectPool___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedObjectPool_1_RenderGraphObjectPool___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedObjectPool_1_RenderGraphObjectPool___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedObjectPool_1_RenderGraphObjectPool___c(SharedObjectPool_1_RenderGraphObjectPool___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedObjectPool_1_RenderGraphObjectPool___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedObjectPool_1_RenderGraphObjectPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedObjectPool_1_RenderGraphObjectPool___c(SharedObjectPool_1_RenderGraphObjectPool___c const&) = delete;
+  SharedObjectPool_1_RenderGraphObjectPool___c(SharedObjectPool_1_RenderGraphObjectPool___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12424 };
@@ -164,6 +178,7 @@ public:
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphObjectPool/SharedObjectPool`1<T>
 class CORDL_TYPE RenderGraphObjectPool_SharedObjectPool_1 : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase {
@@ -201,13 +216,13 @@ protected:
   constexpr RenderGraphObjectPool_SharedObjectPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphObjectPool_SharedObjectPool_1(RenderGraphObjectPool_SharedObjectPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphObjectPool_SharedObjectPool_1(RenderGraphObjectPool_SharedObjectPool_1 const&) = delete;
+  RenderGraphObjectPool_SharedObjectPool_1(RenderGraphObjectPool_SharedObjectPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12425 };
@@ -225,7 +240,9 @@ public:
   // Declarations
   using SharedObjectPoolBase = ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase;
 
-  template <typename T> using SharedObjectPool_1 = ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>;
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using SharedObjectPool_1 = ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>;
 
   /// @brief Field m_AllocatedArrays, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AllocatedArrays, put = __cordl_internal_set_m_AllocatedArrays)) ::System::Collections::Generic::List_1<
@@ -249,7 +266,9 @@ public:
   inline void Cleanup();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Get();
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T Get();
 
   /// @brief Method GetTempArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T> GetTempArray(int32_t size);
@@ -260,7 +279,9 @@ public:
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* New_ctor();
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Release(T value);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Release(T value);
 
   /// @brief Method ReleaseAllTempAlloc, addr 0x67e0c58, size 0x2fc, virtual false, abstract: false, final false
   inline void ReleaseAllTempAlloc();
@@ -299,13 +320,13 @@ protected:
   constexpr RenderGraphObjectPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphObjectPool(RenderGraphObjectPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphObjectPool(RenderGraphObjectPool const&) = delete;
+  RenderGraphObjectPool(RenderGraphObjectPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12426 };

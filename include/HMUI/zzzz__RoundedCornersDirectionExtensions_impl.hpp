@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\RoundedCornersDirectionExtensions.hpp"
+// IWYU pragma private; include "HMUI/RoundedCornersDirectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__RoundedCornersDirectionExtensions_def.hpp"
 #include "HMUI/zzzz__RoundedCornersDirection_def.hpp"

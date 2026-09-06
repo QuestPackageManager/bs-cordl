@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextCoreSettings.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextCoreSettings.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextCoreSettings_def.hpp"
@@ -70,10 +70,10 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSetting
 UnityEngine::UIElements::UIR::TextCoreSettings::i___System__IEquatable_1___UnityEngine__UIElements__UIR__TextCoreSettings_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "faceColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "outlineColor", ty: "::UnityEngine::Color", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "outlineWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "underlayColor", ty: "::UnityEngine::Color", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "underlayOffset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "underlaySoftness", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "faceColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "outlineColor", ty: "::UnityEngine::Color",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "outlineWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "underlayColor", ty:
+// "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "underlayOffset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "underlaySoftness", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::TextCoreSettings::TextCoreSettings(::UnityEngine::Color faceColor, ::UnityEngine::Color outlineColor, float_t outlineWidth,
                                                                              ::UnityEngine::Color underlayColor, ::UnityEngine::Vector2 underlayOffset, float_t underlaySoftness) noexcept {
   this->faceColor = faceColor;

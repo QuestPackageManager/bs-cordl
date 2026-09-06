@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgesProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgesProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ MARK_REF_T(::GlobalNamespace::MultiplayerBadgesProvider*);
 MARK_REF_T(::GlobalNamespace::MultiplayerBadgesProvider___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerBadgesProvider*, "", "MultiplayerBadgesProvider");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerBadgesProvider___c*, "", "MultiplayerBadgesProvider/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -83,13 +84,13 @@ protected:
   constexpr MultiplayerBadgesProvider___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgesProvider___c(MultiplayerBadgesProvider___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBadgesProvider___c(MultiplayerBadgesProvider___c const&) = delete;
+  MultiplayerBadgesProvider___c(MultiplayerBadgesProvider___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15084 };
@@ -151,13 +152,13 @@ protected:
   constexpr MultiplayerBadgesProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgesProvider(MultiplayerBadgesProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBadgesProvider(MultiplayerBadgesProvider const&) = delete;
+  MultiplayerBadgesProvider(MultiplayerBadgesProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15085 };
@@ -174,12 +175,15 @@ public:
   /// @brief Field kTargetPositiveBadgesCount offset 0xffffffff size 0x4
   static constexpr int32_t kTargetPositiveBadgesCount{ static_cast<int32_t>(0x2) };
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _beatmapKey, offset: 0x18, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey;
 
+  /// [Inject]
   /// @brief Field _multiplayerBadgesModel, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> ____multiplayerBadgesModel;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionLevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionLevelScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupData_def.hpp"
@@ -204,7 +204,7 @@ constexpr void GlobalNamespace::MissionLevelScenesTransitionSetupData::__cordl_i
   this->____beatmapKey_k__BackingField = value;
 }
 inline void GlobalNamespace::MissionLevelScenesTransitionSetupData::add_didFinishEvent(
-    ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value) {
+    /* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -213,7 +213,7 @@ inline void GlobalNamespace::MissionLevelScenesTransitionSetupData::add_didFinis
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::MissionLevelScenesTransitionSetupData::remove_didFinishEvent(
-    ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value) {
+    /* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -241,12 +241,12 @@ inline void GlobalNamespace::MissionLevelScenesTransitionSetupData::set_beatmapK
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::MissionLevelScenesTransitionSetupData::Init(
-    ::StringW missionId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings,
-    ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
-    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
-    ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation,
-    ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::StringW backButtonText, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
-    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) {
+    ::StringW missionId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+    /* [Nullable(2)] */ ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives,
+    /* [Nullable(2)] */ ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+    ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
+    ::StringW backButtonText, /* [Nullable(2)] */ ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, /* [Nullable(2)] */ ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelScenesTransitionSetupData*>(),
                                               { "Init",

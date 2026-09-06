@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Analytics\Model\TelemetryModel.hpp"
+// IWYU pragma private; include "Analytics/Model/TelemetryModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ class TelemetryModel;
 // Write type traits
 MARK_REF_T(::Analytics::Model::TelemetryModel*);
 DEFINE_IL2CPP_CLASS(::Analytics::Model::TelemetryModel*, "Analytics.Model", "TelemetryModel");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Analytics::Model {
 // Is value type: false
@@ -42,12 +44,15 @@ public:
 
   static inline ::Analytics::Model::TelemetryModel* New_ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method SendAppLoadingEvent, addr 0x325720c, size 0x13c, virtual false, abstract: false, final false
   inline void SendAppLoadingEvent(::StringW eventName, int32_t msDuration);
 
+  /// [NullableContext(1)]
   /// @brief Method SendLevelLoadingEvent, addr 0x3257348, size 0x144, virtual false, abstract: false, final false
   inline void SendLevelLoadingEvent(::StringW eventName, ::StringW levelKey, int32_t msDuration, int32_t intValue);
 
+  /// [NullableContext(1)]
   /// @brief Method SendPromoEvent, addr 0x325748c, size 0x140, virtual false, abstract: false, final false
   inline void SendPromoEvent(::StringW eventName, ::StringW promoId, int32_t count);
 
@@ -78,13 +83,13 @@ protected:
   constexpr TelemetryModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TelemetryModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TelemetryModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TelemetryModel(TelemetryModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TelemetryModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TelemetryModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TelemetryModel(TelemetryModel const&) = delete;
+  TelemetryModel(TelemetryModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23434 };
@@ -92,6 +97,8 @@ public:
   /// @brief Field _analyticsEventDispatcher, offset: 0x10, size: 0x8, def value: None
   ::BeatGames::Analytics::AnalyticsEventsDispatcher* ____analyticsEventDispatcher;
 
+  /// [TupleElementNames(new[] { "eventName", "msDuration" })]
+  /// [Nullable(new[] { 1, 0, 1 })]
   /// @brief Field _queuedEvents, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, int32_t>>* ____queuedEvents;
 

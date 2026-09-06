@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\AddToCurrentGameObjectComponentProvider.hpp"
+// IWYU pragma private; include "Zenject/AddToCurrentGameObjectComponentProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::Zenject::AddToCurrentGameObjectComponentProvider*);
 MARK_REF_T(::Zenject::AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::AddToCurrentGameObjectComponentProvider*, "Zenject", "AddToCurrentGameObjectComponentProvider");
 DEFINE_IL2CPP_CLASS(::Zenject::AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0*, "Zenject", "AddToCurrentGameObjectComponentProvider/<>c__DisplayClass15_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -105,6 +106,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e85694, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e856d8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -117,13 +119,13 @@ protected:
   constexpr AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0(AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0(AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0 const&) = delete;
+  AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0(AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14534 };
@@ -154,6 +156,7 @@ static_assert(offsetof(::Zenject::AddToCurrentGameObjectComponentProvider___c__D
 static_assert(sizeof(::Zenject::AddToCurrentGameObjectComponentProvider___c__DisplayClass15_0) == 0x30, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -257,13 +260,13 @@ protected:
   constexpr AddToCurrentGameObjectComponentProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddToCurrentGameObjectComponentProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToCurrentGameObjectComponentProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddToCurrentGameObjectComponentProvider(AddToCurrentGameObjectComponentProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddToCurrentGameObjectComponentProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToCurrentGameObjectComponentProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddToCurrentGameObjectComponentProvider(AddToCurrentGameObjectComponentProvider const&) = delete;
+  AddToCurrentGameObjectComponentProvider(AddToCurrentGameObjectComponentProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14535 };

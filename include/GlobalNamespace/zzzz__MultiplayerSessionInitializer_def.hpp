@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerSessionInitializer.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerSessionInitializer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace GlobalNamespace {
 class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer> class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
+template <typename TConnectedPlayer>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
+class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
 }
 namespace GlobalNamespace {
 struct MultiplayerSessionType;
@@ -49,8 +51,8 @@ public:
   // @brief default ctor
   constexpr MultiplayerSessionInitializer();
 
-  // Ctor Parameters [CppParam { name: "_multiplayerSessionManager", ty: "::GlobalNamespace::IBeatSaberMultiplayerSessionManager*", modifiers: "", def_value: None }, CppParam { name:
-  // "_multiplayerSessionType", ty: "::GlobalNamespace::MultiplayerSessionType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_multiplayerSessionManager", ty: "::GlobalNamespace::IBeatSaberMultiplayerSessionManager*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_multiplayerSessionType", ty: "::GlobalNamespace::MultiplayerSessionType", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerSessionInitializer(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager,
                                           ::GlobalNamespace::MultiplayerSessionType _multiplayerSessionType) noexcept;
 

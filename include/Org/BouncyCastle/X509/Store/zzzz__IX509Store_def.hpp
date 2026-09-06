@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\X509\Store\IX509Store.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/X509/Store/IX509Store.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +24,12 @@ namespace Org::BouncyCastle::X509::Store {
 class CORDL_TYPE IX509Store {
 public:
   // Declarations
-  /// @brief Method GetMatches, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMatches, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::ICollection* GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IX509Store", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IX509Store", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IX509Store(IX509Store const&) = delete;
+  IX509Store(IX509Storeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1842 };

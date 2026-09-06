@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeAdjustmentVolume.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeAdjustmentVolume.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeAdjustmentVolume_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeAdjustmentVolume_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Shape::ProbeAdjustmentVolume_Shape(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -13,7 +13,7 @@ constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Shape::ProbeAdjustment
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Shape::ProbeAdjustmentVolume_Shape() {}
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Shape UnityEngine::Rendering::ProbeAdjustmentVolume_Shape::Box{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Shape UnityEngine::Rendering::ProbeAdjustmentVolume_Shape::Sphere{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Mode::ProbeAdjustmentVolume_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -27,7 +27,7 @@ constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Mode UnityEngine::Rend
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Mode UnityEngine::Rendering::ProbeAdjustmentVolume_Mode::OverrideSampleCount{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Mode UnityEngine::Rendering::ProbeAdjustmentVolume_Mode::OverrideRenderingLayerMask{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Mode UnityEngine::Rendering::ProbeAdjustmentVolume_Mode::IntensityScale{ static_cast<int32_t>(0x63) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_RenderingLayerMaskOperation::ProbeAdjustmentVolume_RenderingLayerMaskOperation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -36,7 +36,7 @@ constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_RenderingLayerMaskOper
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_RenderingLayerMaskOperation UnityEngine::Rendering::ProbeAdjustmentVolume_RenderingLayerMaskOperation::Override{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_RenderingLayerMaskOperation UnityEngine::Rendering::ProbeAdjustmentVolume_RenderingLayerMaskOperation::Add{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_RenderingLayerMaskOperation UnityEngine::Rendering::ProbeAdjustmentVolume_RenderingLayerMaskOperation::Remove{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Version::ProbeAdjustmentVolume_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }

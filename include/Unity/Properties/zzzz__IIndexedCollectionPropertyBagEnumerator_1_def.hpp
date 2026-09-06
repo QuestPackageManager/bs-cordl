@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IIndexedCollectionPropertyBagEnumerator_1.hpp"
+// IWYU pragma private; include "Unity/Properties/IIndexedCollectionPropertyBagEnumerator_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,21 +27,21 @@ template <typename TContainer>
 class CORDL_TYPE IIndexedCollectionPropertyBagEnumerator_1 {
 public:
   // Declarations
-  /// @brief Method GetCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetCount(::by_ref<TContainer> container);
 
-  /// @brief Method GetSharedProperty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetSharedProperty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Properties::IProperty_1<TContainer>* GetSharedProperty();
 
-  /// @brief Method GetSharedPropertyState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetSharedPropertyState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Properties::IndexedCollectionSharedPropertyState GetSharedPropertyState();
 
-  /// @brief Method SetSharedPropertyState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetSharedPropertyState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetSharedPropertyState(::Unity::Properties::IndexedCollectionSharedPropertyState state);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IIndexedCollectionPropertyBagEnumerator_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IIndexedCollectionPropertyBagEnumerator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IIndexedCollectionPropertyBagEnumerator_1(IIndexedCollectionPropertyBagEnumerator_1 const&) = delete;
+  IIndexedCollectionPropertyBagEnumerator_1(IIndexedCollectionPropertyBagEnumerator_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19653 };

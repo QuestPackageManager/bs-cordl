@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseListViewController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseListViewController.hpp"
 #include "UnityEngine/UIElements/zzzz__CollectionViewController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseListViewController_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

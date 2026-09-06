@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\VertexDataLayout.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/VertexDataLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VertexDataLayout;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::VertexDataLayout);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::VertexDataLayout, "UnityEngine.TextCore.Text", "VertexDataLayout");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr VertexDataLayout();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VertexDataLayout(int32_t value__) noexcept;
 
   /// @brief Field Mesh value: I32(0)

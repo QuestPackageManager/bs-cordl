@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaAttributeGroup.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAttributeGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,24 +36,35 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaAttributeGroup : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
+  /// @brief [XmlElement("anyAttribute")]
   __declspec(property(get = get_AnyAttribute, put = set_AnyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute* AnyAttribute;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_AttributeUses)) ::System::Xml::Schema::XmlSchemaObjectTable* AttributeUses;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_AttributeWildcard, put = set_AttributeWildcard)) ::System::Xml::Schema::XmlSchemaAnyAttribute* AttributeWildcard;
 
+  /// [XmlElement("attribute", typeof(System.Xml.Schema.XmlSchemaAttribute))]
+  /// @brief [XmlElement("attributeGroup", typeof(System.Xml.Schema.XmlSchemaAttributeGroupRef))]
   __declspec(property(get = get_Attributes)) ::System::Xml::Schema::XmlSchemaObjectCollection* Attributes;
 
+  /// @brief [XmlAttribute("name")]
   __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_NameAttribute, put = set_NameAttribute)) ::StringW NameAttribute;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_QualifiedName)) ::System::Xml::XmlQualifiedName* QualifiedName;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Redefined, put = set_Redefined)) ::System::Xml::Schema::XmlSchemaAttributeGroup* Redefined;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_RedefinedAttributeGroup)) ::System::Xml::Schema::XmlSchemaAttributeGroup* RedefinedAttributeGroup;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_SelfReferenceCount, put = set_SelfReferenceCount)) int32_t SelfReferenceCount;
 
   /// @brief Field anyAttribute, offset 0x60, size 0x8
@@ -193,13 +204,13 @@ protected:
   constexpr XmlSchemaAttributeGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttributeGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttributeGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaAttributeGroup(XmlSchemaAttributeGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttributeGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttributeGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaAttributeGroup(XmlSchemaAttributeGroup const&) = delete;
+  XmlSchemaAttributeGroup(XmlSchemaAttributeGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9747 };

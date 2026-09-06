@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\RenderedText.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/RenderedText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::RenderedText);
 MARK_VAL_T(::UnityEngine::TextCore::Text::RenderedText_Enumerator);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::RenderedText, "UnityEngine.TextCore.Text", "RenderedText");
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::RenderedText_Enumerator, "UnityEngine.TextCore.Text", "RenderedText/Enumerator");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEngine.IMGUIModule", "UnityEditor.GraphToolsFoundationModule" })]
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -88,9 +90,9 @@ public:
   // @brief default ctor
   constexpr RenderedText();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueStart", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "valueLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "suffix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "repeat", ty: "char16_t", modifiers:
-  // "", def_value: None }, CppParam { name: "repeatCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "valueStart", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "valueLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "suffix", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "repeat", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "repeatCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderedText(::StringW value, int32_t valueStart, int32_t valueLength, ::StringW suffix, char16_t repeat, int32_t repeatCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -148,7 +150,7 @@ public:
   inline bool MoveNext();
 
   /// @brief Method .ctor, addr 0x6c0747c, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::TextCore::Text::RenderedText> source);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> source);
 
   /// @brief Method get_Current, addr 0x6c077d4, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_Current();
@@ -157,8 +159,9 @@ public:
   // @brief default ctor
   constexpr RenderedText_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Source", ty: "::UnityEngine::TextCore::Text::RenderedText", modifiers: "", def_value: None }, CppParam { name: "m_Stage", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_StageIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Current", ty: "char16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Source", ty: "::UnityEngine::TextCore::Text::RenderedText", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Stage", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StageIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Current", ty: "char16_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr RenderedText_Enumerator(::UnityEngine::TextCore::Text::RenderedText m_Source, int32_t m_Stage, int32_t m_StageIndex, char16_t m_Current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FactoryToChoiceBinder_6.hpp"
+// IWYU pragma private; include "Zenject/FactoryToChoiceBinder_6.hpp"
 #include "Zenject/zzzz__FactoryFromBinder_6_impl.hpp"
 #include "Zenject/zzzz__FactoryToChoiceBinder_6_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
@@ -22,6 +22,7 @@ inline ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 template <typename TConcrete>
+  requires(::cordl_internals::type_constraint<TConcrete, TContract>)
 inline ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TConcrete>* Zenject::FactoryToChoiceBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>::To() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},

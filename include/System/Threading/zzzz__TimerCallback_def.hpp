@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\TimerCallback.hpp"
+// IWYU pragma private; include "System/Threading/TimerCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class TimerCallback;
 // Write type traits
 MARK_REF_T(::System::Threading::TimerCallback*);
 DEFINE_IL2CPP_CLASS(::System::Threading::TimerCallback*, "System.Threading", "TimerCallback");
+// [ComVisible(true)]
 // Dependencies System.MulticastDelegate
 namespace System::Threading {
 // Is value type: false
@@ -39,13 +40,13 @@ protected:
   constexpr TimerCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimerCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerCallback(TimerCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimerCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerCallback(TimerCallback const&) = delete;
+  TimerCallback(TimerCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2765 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShadowDrawingSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShadowDrawingSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingProjectionType_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingResults_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShadowSplitData_impl.hpp"
@@ -113,11 +113,12 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings
 UnityEngine::Rendering::ShadowDrawingSettings::i___System__IEquatable_1___UnityEngine__Rendering__ShadowDrawingSettings_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_CullingResults", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LightIndex", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SplitIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UseRenderingLayerMaskTest", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BatchLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SplitData", ty:
-// "::UnityEngine::Rendering::ShadowSplitData", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ObjectsFilter", ty: "::UnityEngine::ShadowObjectsFilter", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_ProjectionType", ty: "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_CullingResults", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LightIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SplitIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_UseRenderingLayerMaskTest", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BatchLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_SplitData", ty: "::UnityEngine::Rendering::ShadowSplitData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ObjectsFilter", ty:
+// "::UnityEngine::ShadowObjectsFilter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ProjectionType", ty: "::UnityEngine::Rendering::BatchCullingProjectionType",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ShadowDrawingSettings::ShadowDrawingSettings(::UnityEngine::Rendering::CullingResults m_CullingResults, int32_t m_LightIndex, int32_t m_SplitIndex,
                                                                                  int32_t m_UseRenderingLayerMaskTest, uint32_t m_BatchLayerMask, ::UnityEngine::Rendering::ShadowSplitData m_SplitData,
                                                                                  ::UnityEngine::ShadowObjectsFilter m_ObjectsFilter,

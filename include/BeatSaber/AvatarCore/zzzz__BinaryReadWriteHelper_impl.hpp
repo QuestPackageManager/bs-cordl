@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\BinaryReadWriteHelper.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/BinaryReadWriteHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__BinaryReadWriteHelper_def.hpp"
 #include "System/IO/zzzz__BinaryReader_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RaycastHit2D.hpp"
+// IWYU pragma private; include "UnityEngine/RaycastHit2D.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit2D_def.hpp"
 #include "UnityEngine/zzzz__Collider2D_def.hpp"
@@ -84,9 +84,10 @@ inline ::UnityW<::UnityEngine::Collider2D> UnityEngine::RaycastHit2D::get_collid
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit2D>(), { "get_collider", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Collider2D>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Centroid", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Point", ty: "::UnityEngine::Vector2", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_Fraction", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Centroid", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Point", ty: "::UnityEngine::Vector2",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Distance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Fraction", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_Collider", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RaycastHit2D::RaycastHit2D(::UnityEngine::Vector2 m_Centroid, ::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, float_t m_Distance, float_t m_Fraction,
                                                     int32_t m_Collider) noexcept {
   this->m_Centroid = m_Centroid;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceDataSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceDataSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAtomicCounter32_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
@@ -206,11 +206,11 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_QueryRendererGroupInstances
 constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::InstanceDataSystem_QueryRendererGroupInstancesCountJob::i___Unity__Jobs__IJobParallelForBatch() {
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstanceData", ty:
-// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererGroupInstanceMultiHash", ty:
-// "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererGroupIDs", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instancesCount", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty:
+// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererGroupInstanceMultiHash", ty:
+// "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererGroupIDs",
+// ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instancesCount", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_QueryRendererGroupInstancesCountJob::InstanceDataSystem_QueryRendererGroupInstancesCountJob(
     ::UnityEngine::Rendering::CPUInstanceData instanceData, ::UnityEngine::Rendering::CPUSharedInstanceData sharedInstanceData,
     ::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle> rendererGroupInstanceMultiHash, ::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
@@ -250,9 +250,9 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_ComputeInstancesOffsetAndRe
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::InstanceDataSystem_ComputeInstancesOffsetAndResizeInstancesArrayJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "instancesCount", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instancesOffset", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instancesCount", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instancesOffset",
+// ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instances", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_ComputeInstancesOffsetAndResizeInstancesArrayJob::InstanceDataSystem_ComputeInstancesOffsetAndResizeInstancesArrayJob(
     ::Unity::Collections::NativeArray_1<int32_t> instancesCount, ::Unity::Collections::NativeArray_1<int32_t> instancesOffset,
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances) noexcept {
@@ -290,9 +290,9 @@ constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::InstanceD
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "rendererGroupInstanceMultiHash", ty: "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "rendererGroupIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "atomicNonFoundInstancesCount", ty:
-// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}") }]
+// def_value: Some("{}"), comment: None }, CppParam { name: "rendererGroupIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "atomicNonFoundInstancesCount", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_QueryRendererGroupInstancesJob::InstanceDataSystem_QueryRendererGroupInstancesJob(
     ::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle> rendererGroupInstanceMultiHash, ::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances, ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 atomicNonFoundInstancesCount) noexcept {
@@ -331,11 +331,12 @@ constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::InstanceD
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "rendererGroupInstanceMultiHash", ty: "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "rendererGroupIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instancesOffsets", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instancesCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "atomicNonFoundSharedInstancesCount", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}") }, CppParam { name: "atomicNonFoundInstancesCount",
-// ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}") }]
+// def_value: Some("{}"), comment: None }, CppParam { name: "rendererGroupIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "instancesOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instancesCounts", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instances", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atomicNonFoundSharedInstancesCount", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atomicNonFoundInstancesCount", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_QueryRendererGroupInstancesMultiJob::InstanceDataSystem_QueryRendererGroupInstancesMultiJob(
     ::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle> rendererGroupInstanceMultiHash, ::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
     ::Unity::Collections::NativeArray_1<int32_t> instancesOffsets, ::Unity::Collections::NativeArray_1<int32_t> instancesCounts,
@@ -378,9 +379,10 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_QuerySortedMeshInstancesJob
 constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::InstanceDataSystem_QuerySortedMeshInstancesJob::i___Unity__Jobs__IJobParallelForBatch() {
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstanceData", ty:
-// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "sortedMeshID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "instances", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty:
+// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sortedMeshID", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instances", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_QuerySortedMeshInstancesJob::InstanceDataSystem_QuerySortedMeshInstancesJob(
     ::UnityEngine::Rendering::CPUInstanceData instanceData, ::UnityEngine::Rendering::CPUSharedInstanceData sharedInstanceData, ::Unity::Collections::NativeArray_1<int32_t> sortedMeshID,
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances) noexcept {
@@ -420,11 +422,11 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_CalculateInterpolatedLightA
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::InstanceDataSystem_CalculateInterpolatedLightAndOcclusionProbesBatchJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "probesCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightProbesQuery", ty: "::UnityEngine::LightProbesQuery", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "queryPostitions", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "compactTetrahedronCache", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "probesSphericalHarmonics", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SphericalHarmonicsL2>", modifiers: "", def_value: Some("{}") }, CppParam { name: "probesOcclusion", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "probesCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightProbesQuery", ty: "::UnityEngine::LightProbesQuery",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "queryPostitions", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "compactTetrahedronCache", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "probesSphericalHarmonics", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SphericalHarmonicsL2>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "probesOcclusion", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_CalculateInterpolatedLightAndOcclusionProbesBatchJob::InstanceDataSystem_CalculateInterpolatedLightAndOcclusionProbesBatchJob(
     int32_t probesCount, ::UnityEngine::LightProbesQuery lightProbesQuery, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> queryPostitions,
     ::Unity::Collections::NativeArray_1<int32_t> compactTetrahedronCache, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SphericalHarmonicsL2> probesSphericalHarmonics,
@@ -465,9 +467,9 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_ScatterTetrahedronCacheIndi
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::InstanceDataSystem_ScatterTetrahedronCacheIndicesJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "probeInstances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "compactTetrahedronCache", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty:
-// "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "probeInstances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "compactTetrahedronCache", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty:
+// "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_ScatterTetrahedronCacheIndicesJob::InstanceDataSystem_ScatterTetrahedronCacheIndicesJob(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> probeInstances, ::Unity::Collections::NativeArray_1<int32_t> compactTetrahedronCache,
     ::UnityEngine::Rendering::CPUInstanceData instanceData) noexcept {
@@ -504,15 +506,16 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_TransformUpdateJob::operato
 constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::InstanceDataSystem_TransformUpdateJob::i___Unity__Jobs__IJobParallelForBatch() {
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "initialize", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableBoundingSpheres", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "localToWorldMatrices",
-// ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "prevLocalToWorldMatrices", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "atomicTransformQueueCount", ty:
-// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstanceData", ty:
-// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "transformUpdateInstanceQueue", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "transformUpdateDataQueue", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::TransformUpdatePacket>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "boundingSpheresDataQueue", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "initialize", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enableBoundingSpheres", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "localToWorldMatrices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "prevLocalToWorldMatrices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atomicTransformQueueCount",
+// ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty:
+// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "transformUpdateInstanceQueue", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "transformUpdateDataQueue", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::TransformUpdatePacket>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "boundingSpheresDataQueue", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_TransformUpdateJob::InstanceDataSystem_TransformUpdateJob(
     bool initialize, bool enableBoundingSpheres, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices, ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices,
@@ -562,13 +565,13 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_ProbesUpdateJob::operator :
 constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::InstanceDataSystem_ProbesUpdateJob::i___Unity__Jobs__IJobParallelForBatch() {
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstanceData", ty:
-// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "atomicProbesQueueCount", ty:
-// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}") }, CppParam { name: "probeInstanceQueue", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "compactTetrahedronCache", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "probeQueryPosition", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty:
+// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atomicProbesQueueCount", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "probeInstanceQueue", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "compactTetrahedronCache", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "probeQueryPosition", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_ProbesUpdateJob::InstanceDataSystem_ProbesUpdateJob(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances, ::UnityEngine::Rendering::CPUInstanceData instanceData,
     ::UnityEngine::Rendering::CPUSharedInstanceData sharedInstanceData, ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 atomicProbesQueueCount,
@@ -611,9 +614,10 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_MotionUpdateJob::operator :
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::InstanceDataSystem_MotionUpdateJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "queueWriteBase", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "atomicUpdateQueueCount", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "transformUpdateInstanceQueue", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "queueWriteBase", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty:
+// "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atomicUpdateQueueCount", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "transformUpdateInstanceQueue", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_MotionUpdateJob::InstanceDataSystem_MotionUpdateJob(
     int32_t queueWriteBase, ::UnityEngine::Rendering::CPUInstanceData instanceData, ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 atomicUpdateQueueCount,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> transformUpdateInstanceQueue) noexcept {
@@ -651,14 +655,15 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_ReallocateInstancesJob::ope
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::InstanceDataSystem_ReallocateInstancesJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "implicitInstanceIndices", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererGroupIDs", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "packedRendererData", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceOffsets", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "instanceAllocators", ty: "::UnityEngine::Rendering::InstanceAllocators", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty:
-// "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstanceData", ty: "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rendererGroupInstanceMultiHash", ty: "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "implicitInstanceIndices", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererGroupIDs", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packedRendererData", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceOffsets", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceAllocators", ty: "::UnityEngine::Rendering::InstanceAllocators", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty:
+// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instances", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererGroupInstanceMultiHash", ty:
+// "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_ReallocateInstancesJob::InstanceDataSystem_ReallocateInstancesJob(
     bool implicitInstanceIndices, ::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> packedRendererData, ::Unity::Collections::NativeArray_1<int32_t> instanceOffsets,
@@ -703,10 +708,11 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_FreeInstancesJob::operator 
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::InstanceDataSystem_FreeInstancesJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "instanceAllocators", ty: "::UnityEngine::Rendering::InstanceAllocators", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstanceData", ty: "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rendererGroupInstanceMultiHash", ty: "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "instanceAllocators", ty: "::UnityEngine::Rendering::InstanceAllocators", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty:
+// "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty: "::UnityEngine::Rendering::CPUSharedInstanceData",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererGroupInstanceMultiHash", ty:
+// "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_FreeInstancesJob::InstanceDataSystem_FreeInstancesJob(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances, ::UnityEngine::Rendering::InstanceAllocators instanceAllocators,
     ::UnityEngine::Rendering::CPUInstanceData instanceData, ::UnityEngine::Rendering::CPUSharedInstanceData sharedInstanceData,
@@ -746,10 +752,11 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_FreeRendererGroupInstancesJ
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::InstanceDataSystem_FreeRendererGroupInstancesJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "rendererGroupsID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceAllocators", ty:
-// "::UnityEngine::Rendering::InstanceAllocators", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "sharedInstanceData", ty: "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rendererGroupInstanceMultiHash", ty: "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rendererGroupsID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "instanceAllocators", ty: "::UnityEngine::Rendering::InstanceAllocators", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty:
+// "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty: "::UnityEngine::Rendering::CPUSharedInstanceData",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererGroupInstanceMultiHash", ty:
+// "::Unity::Collections::NativeParallelMultiHashMap_2<int32_t,::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_FreeRendererGroupInstancesJob::InstanceDataSystem_FreeRendererGroupInstancesJob(
     ::Unity::Collections::NativeArray_1<int32_t> rendererGroupsID, ::UnityEngine::Rendering::InstanceAllocators instanceAllocators, ::UnityEngine::Rendering::CPUInstanceData instanceData,
     ::UnityEngine::Rendering::CPUSharedInstanceData sharedInstanceData,
@@ -789,12 +796,12 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_UpdateRendererInstancesJob:
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::InstanceDataSystem_UpdateRendererInstancesJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "implicitInstanceIndices", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererData", ty:
-// "::UnityEngine::Rendering::GPUDrivenRendererGroupData", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lodGroupDataMap", ty:
-// "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty:
-// "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstanceData", ty: "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "implicitInstanceIndices", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererData", ty:
+// "::UnityEngine::Rendering::GPUDrivenRendererGroupData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instances", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupDataMap", ty:
+// "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty:
+// "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty: "::UnityEngine::Rendering::CPUSharedInstanceData",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_UpdateRendererInstancesJob::InstanceDataSystem_UpdateRendererInstancesJob(
     bool implicitInstanceIndices, ::UnityEngine::Rendering::GPUDrivenRendererGroupData rendererData, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
     ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataMap, ::UnityEngine::Rendering::CPUInstanceData instanceData,
@@ -836,10 +843,10 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_CollectInstancesLODGroupsAn
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::InstanceDataSystem_CollectInstancesLODGroupsAndMasksJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstanceData", ty:
-// "::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly", modifiers: "", def_value: Some("{}") }, CppParam { name: "lodGroupAndMasks", ty: "::Unity::Collections::NativeArray_1<uint32_t>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty:
+// "::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupAndMasks", ty:
+// "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_CollectInstancesLODGroupsAndMasksJob::InstanceDataSystem_CollectInstancesLODGroupsAndMasksJob(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances, ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData,
     ::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly sharedInstanceData, ::Unity::Collections::NativeArray_1<uint32_t> lodGroupAndMasks) noexcept {
@@ -877,12 +884,13 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_GetVisibleNonProcessedTreeI
 constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::InstanceDataSystem_GetVisibleNonProcessedTreeInstancesJob::i___Unity__Jobs__IJobParallelForBatch() {
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharedInstanceData", ty:
-// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}") }, CppParam { name: "compactedVisibilityMasks", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "becomeVisible", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "processedBits", ty:
-// "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "atomicTreeInstancesCount", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty:
+// "::UnityEngine::Rendering::CPUSharedInstanceData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "compactedVisibilityMasks", ty:
+// "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "becomeVisible", ty: "bool", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "processedBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererIDs", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instances", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atomicTreeInstancesCount", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_GetVisibleNonProcessedTreeInstancesJob::InstanceDataSystem_GetVisibleNonProcessedTreeInstancesJob(
     ::UnityEngine::Rendering::CPUInstanceData instanceData, ::UnityEngine::Rendering::CPUSharedInstanceData sharedInstanceData, ::UnityEngine::Rendering::ParallelBitArray compactedVisibilityMasks,
     bool becomeVisible, ::UnityEngine::Rendering::ParallelBitArray processedBits, ::Unity::Collections::NativeArray_1<int32_t> rendererIDs,
@@ -925,8 +933,8 @@ constexpr UnityEngine::Rendering::InstanceDataSystem_UpdateCompactedInstanceVisi
 constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::InstanceDataSystem_UpdateCompactedInstanceVisibilityJob::i___Unity__Jobs__IJobParallelForBatch() {
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "compactedVisibilityMasks", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty:
-// "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "compactedVisibilityMasks", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceDataSystem_UpdateCompactedInstanceVisibilityJob::InstanceDataSystem_UpdateCompactedInstanceVisibilityJob(
     ::UnityEngine::Rendering::ParallelBitArray compactedVisibilityMasks, ::UnityEngine::Rendering::CPUInstanceData instanceData) noexcept {
   this->compactedVisibilityMasks = compactedVisibilityMasks;
@@ -1903,7 +1911,7 @@ inline void UnityEngine::Rendering::InstanceDataSystem::DispatchWindDataCopyHist
                                                   ::i2c::type_of<::UnityEngine::Rendering::RenderersParameters>(), ::i2c::type_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gpuInstanceIndices, renderersParameters, outputBuffer);
 }
-inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceMotionsData(::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
+inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceMotionsData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
                                                                                   ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1915,7 +1923,7 @@ inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceMotionsDat
 inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceTransformsData(bool initialize, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices,
-                                                                                     ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
+                                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
                                                                                      ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1928,7 +1936,7 @@ inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceTransforms
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initialize, instances, localToWorldMatrices, prevLocalToWorldMatrices, renderersParameters, outputBuffer);
 }
 inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceProbesData(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
-                                                                                 ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
                                                                                  ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystem*>(),
@@ -1949,7 +1957,7 @@ inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceWindDataHi
                                                   ::i2c::type_of<::UnityEngine::Rendering::RenderersParameters>(), ::i2c::type_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gpuInstanceIndices, renderersParameters, outputBuffer);
 }
-inline void UnityEngine::Rendering::InstanceDataSystem::ReallocateAndGetInstances(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+inline void UnityEngine::Rendering::InstanceDataSystem::ReallocateAndGetInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                                                   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystem*>(),
                                                                                          { "ReallocateAndGetInstances",
@@ -1971,7 +1979,7 @@ inline void UnityEngine::Rendering::InstanceDataSystem::FreeInstances(::Unity::C
 }
 inline ::Unity::Jobs::JobHandle
 UnityEngine::Rendering::InstanceDataSystem::ScheduleUpdateInstanceDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
-                                                                          ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                                           ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataMap) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystem*>(),
@@ -1982,7 +1990,7 @@ UnityEngine::Rendering::InstanceDataSystem::ScheduleUpdateInstanceDataJob(::Unit
                                                                ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(this, ___internal_method, instances, rendererData, lodGroupDataMap);
 }
-inline void UnityEngine::Rendering::InstanceDataSystem::UpdateAllInstanceProbes(::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
+inline void UnityEngine::Rendering::InstanceDataSystem::UpdateAllInstanceProbes(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
                                                                                 ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1994,7 +2002,7 @@ inline void UnityEngine::Rendering::InstanceDataSystem::UpdateAllInstanceProbes(
 inline void UnityEngine::Rendering::InstanceDataSystem::InitializeInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices,
-                                                                                     ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
+                                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
                                                                                      ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -2008,7 +2016,7 @@ inline void UnityEngine::Rendering::InstanceDataSystem::InitializeInstanceTransf
 }
 inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                                                  ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
-                                                                                 ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
                                                                                  ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystem*>(),
@@ -2019,7 +2027,7 @@ inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceTransforms
                                                   ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderersParameters>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, instances, localToWorldMatrices, renderersParameters, outputBuffer);
 }
-inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceMotions(::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
+inline void UnityEngine::Rendering::InstanceDataSystem::UpdateInstanceMotions(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
                                                                               ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -2088,8 +2096,8 @@ inline bool UnityEngine::Rendering::InstanceDataSystem::InternalSanityCheckState
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystem*>(), { "InternalSanityCheckStates", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::InstanceDataSystem::GetVisibleTreeInstances(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks,
-                                                                                ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits,
+inline void UnityEngine::Rendering::InstanceDataSystem::GetVisibleTreeInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits,
                                                                                 ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
                                                                                 ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> visibeTreeInstances,
                                                                                 bool becomeVisibleOnly, ::by_ref<int32_t> becomeVisibeTreeInstancesCount) {
@@ -2104,13 +2112,15 @@ inline void UnityEngine::Rendering::InstanceDataSystem::GetVisibleTreeInstances(
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, compactedVisibilityMasks, processedBits, visibeTreeRendererIDs, visibeTreeInstances, becomeVisibleOnly,
                                                    becomeVisibeTreeInstancesCount);
 }
-inline void UnityEngine::Rendering::InstanceDataSystem::UpdatePerFrameInstanceVisibility(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks) {
+inline void UnityEngine::Rendering::InstanceDataSystem::UpdatePerFrameInstanceVisibility(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystem*>(),
                                                            { "UpdatePerFrameInstanceVisibility", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ParallelBitArray>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, compactedVisibilityMasks);
 }
-template <typename T> inline int32_t UnityEngine::Rendering::InstanceDataSystem::AtomicAddLengthNoResize(::by_ref<::Unity::Collections::NativeList_1<T>> list, int32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t UnityEngine::Rendering::InstanceDataSystem::AtomicAddLengthNoResize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeList_1<T>> list, int32_t count) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystem*>(),

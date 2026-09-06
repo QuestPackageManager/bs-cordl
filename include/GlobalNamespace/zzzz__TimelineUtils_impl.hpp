@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TimelineUtils.hpp"
+// IWYU pragma private; include "GlobalNamespace/TimelineUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TimelineUtils_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineAsset_def.hpp"

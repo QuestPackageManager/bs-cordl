@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HashFNV1A32.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HashFNV1A32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,8 @@ struct HashFNV1A32;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::HashFNV1A32);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::HashFNV1A32, "UnityEngine.Rendering", "HashFNV1A32");
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -39,31 +41,33 @@ public:
   inline void Append(::System::Delegate* del);
 
   /// @brief Method Append, addr 0x67c5490, size 0x48, virtual false, abstract: false, final false
-  inline void Append(::by_ref<::UnityEngine::Vector2> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> input);
 
   /// @brief Method Append, addr 0x67c54d8, size 0x64, virtual false, abstract: false, final false
-  inline void Append(::by_ref<::UnityEngine::Vector3> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> input);
 
   /// @brief Method Append, addr 0x67c553c, size 0x84, virtual false, abstract: false, final false
-  inline void Append(::by_ref<::UnityEngine::Vector4> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> input);
 
   /// @brief Method Append, addr 0x67c5400, size 0x28, virtual false, abstract: false, final false
-  inline void Append(::by_ref<bool> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<bool> input);
 
   /// @brief Method Append, addr 0x67c5458, size 0x38, virtual false, abstract: false, final false
-  inline void Append(::by_ref<double_t> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<double_t> input);
 
   /// @brief Method Append, addr 0x67c5428, size 0x30, virtual false, abstract: false, final false
-  inline void Append(::by_ref<float_t> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<float_t> input);
 
   /// @brief Method Append, addr 0x67c53c0, size 0x20, virtual false, abstract: false, final false
-  inline void Append(::by_ref<int32_t> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<int32_t> input);
 
   /// @brief Method Append, addr 0x67c53e0, size 0x20, virtual false, abstract: false, final false
-  inline void Append(::by_ref<uint32_t> input);
+  inline void Append(/* [IsReadOnly] */ ::by_ref<uint32_t> input);
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Append(T input);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Append(T input);
 
   /// @brief Method Create, addr 0x67c53b4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::HashFNV1A32 Create();
@@ -81,7 +85,7 @@ public:
   // @brief default ctor
   constexpr HashFNV1A32();
 
-  // Ctor Parameters [CppParam { name: "m_Hash", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Hash", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HashFNV1A32(uint32_t m_Hash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutStyleData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutStyleData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ struct LayoutStyleData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutStyleData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutStyleData, "UnityEngine.UIElements.Layout", "LayoutStyleData");
+// [NativeHeader("Modules/UIElements/Core/Layout/Native/LayoutModel.h")]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.UIElements.Layout.FixedBuffer2`1<T>, UnityEngine.UIElements.Layout.FixedBuffer9`1<T>, UnityEngine.UIElements.Layout.LayoutAlign,
 // UnityEngine.UIElements.Layout.LayoutDirection, UnityEngine.UIElements.Layout.LayoutDisplay, UnityEngine.UIElements.Layout.LayoutFlexDirection, UnityEngine.UIElements.Layout.LayoutJustify,
 // UnityEngine.UIElements.Layout.LayoutOverflow, UnityEngine.UIElements.Layout.LayoutPositionType, UnityEngine.UIElements.Layout.LayoutValue, UnityEngine.UIElements.Layout.LayoutWrap
@@ -44,22 +46,23 @@ public:
   // @brief default ctor
   constexpr LayoutStyleData();
 
-  // Ctor Parameters [CppParam { name: "Direction", ty: "::UnityEngine::UIElements::Layout::LayoutDirection", modifiers: "", def_value: None }, CppParam { name: "FlexDirection", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutFlexDirection", modifiers: "", def_value: None }, CppParam { name: "JustifyContent", ty: "::UnityEngine::UIElements::Layout::LayoutJustify", modifiers:
-  // "", def_value: None }, CppParam { name: "AlignContent", ty: "::UnityEngine::UIElements::Layout::LayoutAlign", modifiers: "", def_value: None }, CppParam { name: "AlignItems", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutAlign", modifiers: "", def_value: None }, CppParam { name: "AlignSelf", ty: "::UnityEngine::UIElements::Layout::LayoutAlign", modifiers: "", def_value:
-  // None }, CppParam { name: "PositionType", ty: "::UnityEngine::UIElements::Layout::LayoutPositionType", modifiers: "", def_value: None }, CppParam { name: "AspectRatio", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "FlexWrap", ty: "::UnityEngine::UIElements::Layout::LayoutWrap", modifiers: "", def_value: None }, CppParam { name: "Overflow", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutOverflow", modifiers: "", def_value: None }, CppParam { name: "Display", ty: "::UnityEngine::UIElements::Layout::LayoutDisplay", modifiers: "",
-  // def_value: None }, CppParam { name: "FlexGrow", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "FlexShrink", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "FlexBasis", ty: "::UnityEngine::UIElements::Layout::LayoutValue", modifiers: "", def_value: None }, CppParam { name: "border", ty:
-  // "::UnityEngine::UIElements::Layout::FixedBuffer9_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None }, CppParam { name: "position", ty:
-  // "::UnityEngine::UIElements::Layout::FixedBuffer9_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None }, CppParam { name: "margin", ty:
-  // "::UnityEngine::UIElements::Layout::FixedBuffer9_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None }, CppParam { name: "padding", ty:
-  // "::UnityEngine::UIElements::Layout::FixedBuffer9_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None }, CppParam { name: "maxDimensions", ty:
-  // "::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None }, CppParam { name: "minDimensions", ty:
-  // "::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None }, CppParam { name: "dimensions", ty:
-  // "::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Direction", ty: "::UnityEngine::UIElements::Layout::LayoutDirection", modifiers: "", def_value: None, comment: None }, CppParam { name: "FlexDirection", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutFlexDirection", modifiers: "", def_value: None, comment: None }, CppParam { name: "JustifyContent", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutJustify", modifiers: "", def_value: None, comment: None }, CppParam { name: "AlignContent", ty: "::UnityEngine::UIElements::Layout::LayoutAlign",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "AlignItems", ty: "::UnityEngine::UIElements::Layout::LayoutAlign", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "AlignSelf", ty: "::UnityEngine::UIElements::Layout::LayoutAlign", modifiers: "", def_value: None, comment: None }, CppParam { name: "PositionType", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutPositionType", modifiers: "", def_value: None, comment: None }, CppParam { name: "AspectRatio", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "FlexWrap", ty: "::UnityEngine::UIElements::Layout::LayoutWrap", modifiers: "", def_value: None, comment: None }, CppParam { name: "Overflow", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutOverflow", modifiers: "", def_value: None, comment: None }, CppParam { name: "Display", ty: "::UnityEngine::UIElements::Layout::LayoutDisplay",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "FlexGrow", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "FlexShrink", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "FlexBasis", ty: "::UnityEngine::UIElements::Layout::LayoutValue", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "border", ty: "::UnityEngine::UIElements::Layout::FixedBuffer9_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "position", ty: "::UnityEngine::UIElements::Layout::FixedBuffer9_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None, comment: None }, CppParam { name: "margin",
+  // ty: "::UnityEngine::UIElements::Layout::FixedBuffer9_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None, comment: None }, CppParam { name: "padding", ty:
+  // "::UnityEngine::UIElements::Layout::FixedBuffer9_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxDimensions", ty:
+  // "::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None, comment: None }, CppParam { name: "minDimensions", ty:
+  // "::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None, comment: None }, CppParam { name: "dimensions", ty:
+  // "::UnityEngine::UIElements::Layout::FixedBuffer2_1<::UnityEngine::UIElements::Layout::LayoutValue>", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutStyleData(::UnityEngine::UIElements::Layout::LayoutDirection Direction, ::UnityEngine::UIElements::Layout::LayoutFlexDirection FlexDirection,
                             ::UnityEngine::UIElements::Layout::LayoutJustify JustifyContent, ::UnityEngine::UIElements::Layout::LayoutAlign AlignContent,
                             ::UnityEngine::UIElements::Layout::LayoutAlign AlignItems, ::UnityEngine::UIElements::Layout::LayoutAlign AlignSelf,

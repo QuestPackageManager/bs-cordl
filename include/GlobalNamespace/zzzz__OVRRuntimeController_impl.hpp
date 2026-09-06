@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRRuntimeController.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRRuntimeController.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -164,6 +164,7 @@ inline ::System::Object* GlobalNamespace::OVRRuntimeController__UpdateController
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16* GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16*>(__1__state));
 }

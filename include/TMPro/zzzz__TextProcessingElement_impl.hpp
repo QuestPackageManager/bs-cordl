@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextProcessingElement.hpp"
+// IWYU pragma private; include "TMPro/TextProcessingElement.hpp"
 #include "TMPro/zzzz__CharacterElement_impl.hpp"
 #include "TMPro/zzzz__MarkupElement_impl.hpp"
 #include "TMPro/zzzz__TextProcessingElementType_impl.hpp"
@@ -267,9 +267,10 @@ inline ::StringW TMPro::TextProcessingElement::DebuggerDisplay() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextProcessingElement>(), { "DebuggerDisplay", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_ElementType", ty: "::TMPro::TextProcessingElementType", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CharacterElement", ty: "::TMPro::CharacterElement", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_MarkupElement", ty: "::TMPro::MarkupElement", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ElementType", ty: "::TMPro::TextProcessingElementType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CharacterElement", ty:
+// "::TMPro::CharacterElement", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MarkupElement", ty: "::TMPro::MarkupElement", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::TMPro::TextProcessingElement::TextProcessingElement(::TMPro::TextProcessingElementType m_ElementType, int32_t m_StartIndex, int32_t m_Length, ::TMPro::CharacterElement m_CharacterElement,
                                                                 ::TMPro::MarkupElement m_MarkupElement) noexcept {
   this->m_ElementType = m_ElementType;

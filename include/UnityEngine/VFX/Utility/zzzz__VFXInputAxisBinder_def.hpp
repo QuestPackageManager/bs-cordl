@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXInputAxisBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXInputAxisBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ class VFXInputAxisBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXInputAxisBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXInputAxisBinder*, "UnityEngine.VFX.Utility", "VFXInputAxisBinder");
+// [AddComponentMenu("VFX/Property Binders/Input Axis Binder")]
+// [VFXBinder("Input/Axis")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -91,17 +93,20 @@ protected:
   constexpr VFXInputAxisBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXInputAxisBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXInputAxisBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXInputAxisBinder(VFXInputAxisBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXInputAxisBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXInputAxisBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXInputAxisBinder(VFXInputAxisBinder const&) = delete;
+  VFXInputAxisBinder(VFXInputAxisBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19992 };
 
+  /// [VFXPropertyBinding(new[] { "System.Single" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_AxisParameter")]
   /// @brief Field m_AxisProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_AxisProperty;
 

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimationEventSource.hpp"
+// IWYU pragma private; include "UnityEngine/AnimationEventSource.hpp"
 #include "UnityEngine/zzzz__AnimationEventSource_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::AnimationEventSource::AnimationEventSource(int32_t value__) noexcept {
   this->value__ = value__;
 }

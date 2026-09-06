@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Numerics\BigInteger.hpp"
+// IWYU pragma private; include "System/Numerics/BigInteger.hpp"
 #include "System/Numerics/zzzz__BigInteger_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
 #include "System/Numerics/zzzz__BigInteger_def.hpp"
@@ -12,7 +12,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Numerics::BigInteger_GetBytesMode::BigInteger_GetBytesMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1372,7 +1372,8 @@ constexpr System::Numerics::BigInteger::operator ::System::IEquatable_1<::System
 constexpr ::System::IEquatable_1<::System::Numerics::BigInteger>* System::Numerics::BigInteger::i___System__IEquatable_1___System__Numerics__BigInteger_() {
   return static_cast<::System::IEquatable_1<::System::Numerics::BigInteger>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_sign", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bits", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_sign", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_bits", ty: "::ArrayW<uint32_t>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::Numerics::BigInteger::BigInteger(int32_t _sign, ::ArrayW<uint32_t> _bits) noexcept {
   this->_sign = _sign;
   this->_bits = _bits;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LineLightManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/LineLightManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class LineLightManager;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LineLightManager*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LineLightManager*, "", "LineLightManager");
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector4
 namespace GlobalNamespace {
 // Is value type: false
@@ -108,13 +109,13 @@ protected:
   constexpr LineLightManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LineLightManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LineLightManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LineLightManager(LineLightManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LineLightManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LineLightManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LineLightManager(LineLightManager const&) = delete;
+  LineLightManager(LineLightManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19564 };

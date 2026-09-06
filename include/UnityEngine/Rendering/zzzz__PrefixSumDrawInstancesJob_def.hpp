@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\PrefixSumDrawInstancesJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/PrefixSumDrawInstancesJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ struct PrefixSumDrawInstancesJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::PrefixSumDrawInstancesJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::PrefixSumDrawInstancesJob, "UnityEngine.Rendering", "PrefixSumDrawInstancesJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.DrawBatch,
 // UnityEngine.Rendering.DrawRange, UnityEngine.Rendering.RangeKey
 namespace UnityEngine::Rendering {
@@ -43,10 +44,10 @@ public:
   // @brief default ctor
   constexpr PrefixSumDrawInstancesJob();
 
-  // Ctor Parameters [CppParam { name: "rangeHash", ty: "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "drawRanges", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: None }, CppParam { name: "drawBatches", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None }, CppParam { name: "drawBatchIndices", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rangeHash", ty: "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "drawRanges", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawBatches", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawBatchIndices", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr PrefixSumDrawInstancesJob(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> rangeHash,
                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> drawRanges,
                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches, ::Unity::Collections::NativeArray_1<int32_t> drawBatchIndices) noexcept;
@@ -57,6 +58,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
+  /// [ReadOnly]
   /// @brief Field rangeHash, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> rangeHash;
 

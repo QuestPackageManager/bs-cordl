@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FromBinderGeneric_1.hpp"
+// IWYU pragma private; include "Zenject/FromBinderGeneric_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__FromBinder_def.hpp"
+#include "Zenject/zzzz__IFactory_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(FromBinderGeneric_1)
 namespace System::Collections::Generic {
@@ -38,7 +39,9 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-template <typename TContract, typename TFactory> class FromBinderGeneric_1___c__1_1;
+template <typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
+class FromBinderGeneric_1___c__1_1;
 }
 namespace Zenject {
 template <typename TContract> class FromBinderGeneric_1___c__DisplayClass14_0;
@@ -69,7 +72,9 @@ namespace Zenject {
 template <typename TContract> class FromBinderGeneric_1;
 }
 namespace Zenject {
-template <typename TContract, typename TFactory> class FromBinderGeneric_1___c__1_1;
+template <typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
+class FromBinderGeneric_1___c__1_1;
 }
 namespace Zenject {
 template <typename TContract> class FromBinderGeneric_1___c__DisplayClass14_0;
@@ -91,10 +96,12 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinderGeneric_1___c__1_1, "Zenject", 
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinderGeneric_1___c__DisplayClass14_0, "Zenject", "FromBinderGeneric`1/<>c__DisplayClass14_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinderGeneric_1___c__DisplayClass15_0, "Zenject", "FromBinderGeneric`1/<>c__DisplayClass15_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinderGeneric_1___c__DisplayClass3_0, "Zenject", "FromBinderGeneric`1/<>c__DisplayClass3_0");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, Zenject.IFactory`1<TValue>
 namespace Zenject {
 // cpp template
 template <typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FromBinderGeneric`1/<>c__1`1<TContract,TFactory>
 class CORDL_TYPE FromBinderGeneric_1___c__1_1 : public ::System::Object {
@@ -114,6 +121,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -134,13 +142,13 @@ protected:
   constexpr FromBinderGeneric_1___c__1_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__1_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__1_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinderGeneric_1___c__1_1(FromBinderGeneric_1___c__1_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__1_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinderGeneric_1___c__1_1(FromBinderGeneric_1___c__1_1 const&) = delete;
+  FromBinderGeneric_1___c__1_1(FromBinderGeneric_1___c__1_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14264 };
@@ -149,6 +157,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -175,6 +184,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -187,13 +197,13 @@ protected:
   constexpr FromBinderGeneric_1___c__DisplayClass14_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinderGeneric_1___c__DisplayClass14_0(FromBinderGeneric_1___c__DisplayClass14_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinderGeneric_1___c__DisplayClass14_0(FromBinderGeneric_1___c__DisplayClass14_0 const&) = delete;
+  FromBinderGeneric_1___c__DisplayClass14_0(FromBinderGeneric_1___c__DisplayClass14_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14265 };
@@ -205,6 +215,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -231,6 +242,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -243,13 +255,13 @@ protected:
   constexpr FromBinderGeneric_1___c__DisplayClass15_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass15_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinderGeneric_1___c__DisplayClass15_0(FromBinderGeneric_1___c__DisplayClass15_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinderGeneric_1___c__DisplayClass15_0(FromBinderGeneric_1___c__DisplayClass15_0 const&) = delete;
+  FromBinderGeneric_1___c__DisplayClass15_0(FromBinderGeneric_1___c__DisplayClass15_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14266 };
@@ -261,6 +273,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -287,6 +300,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -299,13 +313,13 @@ protected:
   constexpr FromBinderGeneric_1___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinderGeneric_1___c__DisplayClass3_0(FromBinderGeneric_1___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinderGeneric_1___c__DisplayClass3_0(FromBinderGeneric_1___c__DisplayClass3_0 const&) = delete;
+  FromBinderGeneric_1___c__DisplayClass3_0(FromBinderGeneric_1___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14267 };
@@ -317,7 +331,8 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies Zenject.FromBinder
+// [NoReflectionBaking]
+// Dependencies Zenject.FromBinder, Zenject.IFactory`1<TValue>
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -344,7 +359,9 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<TContract, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TFactory> inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromFactory();
+  template <typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromFactory();
 
   /// @brief Method FromIFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromIFactory(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* factoryBindGenerator);
@@ -392,13 +409,13 @@ protected:
   constexpr FromBinderGeneric_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinderGeneric_1(FromBinderGeneric_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinderGeneric_1(FromBinderGeneric_1 const&) = delete;
+  FromBinderGeneric_1(FromBinderGeneric_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14268 };

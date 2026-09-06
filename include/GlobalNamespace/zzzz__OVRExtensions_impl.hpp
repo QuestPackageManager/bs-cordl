@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__OVREnumerable_1_def.hpp"
@@ -702,7 +702,7 @@ inline ::GlobalNamespace::OVRPlugin_SpaceStorageLocation GlobalNamespace::OVRExt
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRExtensions*>(), { "ToSpaceStorageLocation", {}, { ::i2c::type_of<::GlobalNamespace::OVRSpace_StorageLocation>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_SpaceStorageLocation>(nullptr, ___internal_method, storageLocation);
 }
-template <typename T> inline ::GlobalNamespace::OVREnumerable_1<T> GlobalNamespace::OVRExtensions::ToNonAlloc(::System::Collections::Generic::IEnumerable_1<T>* enumerable) {
+template <typename T> inline ::GlobalNamespace::OVREnumerable_1<T> GlobalNamespace::OVRExtensions::ToNonAlloc(/* [NoEnumeration] */ ::System::Collections::Generic::IEnumerable_1<T>* enumerable) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRExtensions*>(), { "ToNonAlloc", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<T>*>() } })));
@@ -710,6 +710,7 @@ template <typename T> inline ::GlobalNamespace::OVREnumerable_1<T> GlobalNamespa
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVREnumerable_1<T>>(nullptr, ___internal_method, enumerable);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T> GlobalNamespace::OVRExtensions::ToNativeArray(::System::Collections::Generic::IEnumerable_1<T>* enumerable, ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},

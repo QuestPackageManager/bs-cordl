@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\SpanHelpers.hpp"
+// IWYU pragma private; include "System/SpanHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpanHelpers)
@@ -10,7 +11,9 @@ namespace System::Globalization {
 class CompareInfo;
 }
 namespace System::Numerics {
-template <typename T> struct Vector_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Vector_1;
 }
 namespace System {
 struct IntPtr;
@@ -25,7 +28,8 @@ class SpanHelpers;
 // Write type traits
 MARK_REF_T(::System::SpanHelpers*);
 DEFINE_IL2CPP_CLASS(::System::SpanHelpers*, "System", "SpanHelpers");
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.IEquatable`1<T>, System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.SpanHelpers
@@ -48,10 +52,14 @@ public:
   static inline bool EndsWithOrdinalIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t IndexOf(::by_ref<T> searchSpace, int32_t searchSpaceLength, ::by_ref<T> value, int32_t valueLength);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+  static inline int32_t IndexOf(::by_ref<T> searchSpace, int32_t searchSpaceLength, ::by_ref<T> value, int32_t valueLength);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t IndexOf(::by_ref<T> searchSpace, T value, int32_t length);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+  static inline int32_t IndexOf(::by_ref<T> searchSpace, T value, int32_t length);
 
   /// @brief Method IndexOf, addr 0x5c5ca40, size 0x160, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::by_ref<char16_t> searchSpace, char16_t value, int32_t length);
@@ -63,7 +71,9 @@ public:
   static inline int32_t IndexOf(::by_ref<uint8_t> searchSpace, uint8_t value, int32_t length);
 
   /// @brief Method IndexOfAny, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t IndexOfAny(::by_ref<T> searchSpace, int32_t searchSpaceLength, ::by_ref<T> value, int32_t valueLength);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+  static inline int32_t IndexOfAny(::by_ref<T> searchSpace, int32_t searchSpaceLength, ::by_ref<T> value, int32_t valueLength);
 
   /// @brief Method IndexOfAny, addr 0x5c5c7f8, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t IndexOfAny(::by_ref<uint8_t> searchSpace, int32_t searchSpaceLength, ::by_ref<uint8_t> value, int32_t valueLength);
@@ -87,7 +97,9 @@ public:
   static inline int32_t SequenceCompareTo(::by_ref<char16_t> first, int32_t firstLength, ::by_ref<char16_t> second, int32_t secondLength);
 
   /// @brief Method SequenceEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool SequenceEqual(::by_ref<T> first, ::by_ref<T> second, int32_t length);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+  static inline bool SequenceEqual(::by_ref<T> first, ::by_ref<T> second, int32_t length);
 
   /// @brief Method SequenceEqual, addr 0x5c5c874, size 0x8c, virtual false, abstract: false, final false
   static inline bool SequenceEqual(::by_ref<uint8_t> first, ::by_ref<uint8_t> second, uint64_t length);
@@ -98,13 +110,13 @@ protected:
   constexpr SpanHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpanHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpanHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpanHelpers(SpanHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpanHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpanHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpanHelpers(SpanHelpers const&) = delete;
+  SpanHelpers(SpanHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2477 };

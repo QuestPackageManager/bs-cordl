@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLevelCompletionResults.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,7 +81,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState(int32_t value__) noexcept;
 
   /// @brief Field NotFinished value: I32(1)
@@ -145,7 +145,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason(int32_t value__) noexcept;
 
   /// @brief Field Cleared value: I32(0)
@@ -239,6 +239,7 @@ public:
   /// @brief Method HasAnyResult, addr 0x32b8800, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAnyResult(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState playerLevelEndState);
 
+  /// @brief [Preserve]
   static inline ::GlobalNamespace::MultiplayerLevelCompletionResults* New_ctor();
 
   static inline ::GlobalNamespace::MultiplayerLevelCompletionResults* New_ctor(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState playerLevelEndState,
@@ -266,6 +267,7 @@ public:
 
   constexpr void __cordl_internal_set__playerLevelEndState(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState value);
 
+  /// [Preserve]
   /// @brief Method .ctor, addr 0x32b8820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -304,13 +306,13 @@ protected:
   constexpr MultiplayerLevelCompletionResults();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelCompletionResults", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelCompletionResults", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLevelCompletionResults(MultiplayerLevelCompletionResults&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelCompletionResults", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelCompletionResults", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLevelCompletionResults(MultiplayerLevelCompletionResults const&) = delete;
+  MultiplayerLevelCompletionResults(MultiplayerLevelCompletionResultsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18954 };

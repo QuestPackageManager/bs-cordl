@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetShaderDefaults.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetShaderDefaults.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "GlobalNamespace/zzzz__SetShaderDefaults_def.hpp"
 #include "GlobalNamespace/zzzz__SetShaderDefaultsPass_def.hpp"

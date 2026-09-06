@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\FontWeightPair.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontWeightPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,8 @@ public:
   // @brief default ctor
   constexpr FontWeightPair();
 
-  // Ctor Parameters [CppParam { name: "regularTypeface", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }, CppParam { name: "italicTypeface", ty:
-  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "regularTypeface", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None, comment: None }, CppParam { name: "italicTypeface",
+  // ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None, comment: None }]
   constexpr FontWeightPair(::UnityW<::UnityEngine::TextCore::Text::FontAsset> regularTypeface, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> italicTypeface) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

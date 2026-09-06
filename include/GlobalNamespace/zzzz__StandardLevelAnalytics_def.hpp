@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelAnalytics.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelAnalytics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,26 +94,30 @@ protected:
   constexpr StandardLevelAnalytics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelAnalytics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelAnalytics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelAnalytics(StandardLevelAnalytics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelAnalytics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelAnalytics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelAnalytics(StandardLevelAnalytics const&) = delete;
+  StandardLevelAnalytics(StandardLevelAnalyticsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5548 };
 
+  /// [Inject]
   /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::StandardLevelScenesTransitionSetupData* ____standardLevelScenesTransitionSetupData;
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
+  /// [Inject]
   /// @brief Field _gameplayEventsDispatcher, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* ____gameplayEventsDispatcher;
 
+  /// [Inject]
   /// @brief Field _blockLevelGameplayAnalyticsEventsCache, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache* ____blockLevelGameplayAnalyticsEventsCache;
 

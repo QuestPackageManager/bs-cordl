@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyNodeChildren.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeChildren.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,8 @@ MARK_VAL_T(::Unity::Hierarchy::HierarchyNodeChildren);
 MARK_VAL_T(::Unity::Hierarchy::HierarchyNodeChildren_Enumerator);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyNodeChildren, "Unity.Hierarchy", "HierarchyNodeChildren");
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyNodeChildren_Enumerator, "Unity.Hierarchy", "HierarchyNodeChildren/Enumerator");
+// [IsReadOnly]
+// [DefaultMember("Item")]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -52,8 +54,9 @@ public:
   // @brief default ctor
   constexpr HierarchyNodeChildren();
 
-  // Ctor Parameters [CppParam { name: "m_Hierarchy", ty: "::Unity::Hierarchy::Hierarchy*", modifiers: "", def_value: None }, CppParam { name: "m_Ptr", ty: "::Unity::Hierarchy::HierarchyNode*",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Hierarchy", ty: "::Unity::Hierarchy::Hierarchy*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Ptr", ty:
+  // "::Unity::Hierarchy::HierarchyNode*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_Count", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyNodeChildren(::Unity::Hierarchy::Hierarchy* m_Hierarchy, ::Unity::Hierarchy::HierarchyNode* m_Ptr, int32_t m_Version, int32_t m_Count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -95,13 +98,14 @@ namespace Unity::Hierarchy {
 struct CORDL_TYPE HierarchyNodeChildren_Enumerator {
 public:
   // Declarations
+  /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::Unity::Hierarchy::HierarchyNode Current;
 
   /// @brief Method MoveNext, addr 0x6b36334, size 0x1c, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   /// @brief Method .ctor, addr 0x6b36224, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::Unity::Hierarchy::HierarchyNodeChildren> enumerable);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNodeChildren> enumerable);
 
   /// @brief Method get_Current, addr 0x6b362b4, size 0x80, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Hierarchy::HierarchyNode> get_Current();
@@ -110,8 +114,8 @@ public:
   // @brief default ctor
   constexpr HierarchyNodeChildren_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Enumerable", ty: "::Unity::Hierarchy::HierarchyNodeChildren", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Enumerable", ty: "::Unity::Hierarchy::HierarchyNodeChildren", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyNodeChildren_Enumerator(::Unity::Hierarchy::HierarchyNodeChildren m_Enumerable, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

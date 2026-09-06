@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeContainerNeedsThreadIndexAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeContainerNeedsThreadIndexAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,9 @@ class NativeContainerNeedsThreadIndexAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerNeedsThreadIndexAttribute");
+// [AttributeUsage((System.AttributeTargets)8)]
+// [Obsolete("Use NativeSetThreadIndexAttribute instead")]
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -25,13 +28,13 @@ protected:
   constexpr NativeContainerNeedsThreadIndexAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerNeedsThreadIndexAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerNeedsThreadIndexAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeContainerNeedsThreadIndexAttribute(NativeContainerNeedsThreadIndexAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerNeedsThreadIndexAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerNeedsThreadIndexAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeContainerNeedsThreadIndexAttribute(NativeContainerNeedsThreadIndexAttribute const&) = delete;
+  NativeContainerNeedsThreadIndexAttribute(NativeContainerNeedsThreadIndexAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10017 };

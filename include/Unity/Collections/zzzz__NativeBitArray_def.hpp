@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeBitArray.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeBitArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace Unity::Collections {
 struct NativeArrayOptions;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
 struct NativeBitArray_ReadOnly;
@@ -44,6 +46,8 @@ MARK_VAL_T(::Unity::Collections::NativeBitArray);
 MARK_VAL_T(::Unity::Collections::NativeBitArray_ReadOnly);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeBitArray, "Unity.Collections", "NativeBitArray");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeBitArray_ReadOnly, "Unity.Collections", "NativeBitArray/ReadOnly");
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeBitArray::ReadOnly
 namespace Unity::Collections {
 // Is value type: true
@@ -57,42 +61,55 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x64c3128, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [IsReadOnly]
   /// @brief Method CountBits, addr 0x64c30e8, size 0x20, virtual false, abstract: false, final false
   inline int32_t CountBits(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method Find, addr 0x64c3030, size 0xc, virtual false, abstract: false, final false
   inline int32_t Find(int32_t pos, int32_t count, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method Find, addr 0x64c3008, size 0x14, virtual false, abstract: false, final false
   inline int32_t Find(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method GetBits, addr 0x64c2f98, size 0x20, virtual false, abstract: false, final false
   inline uint64_t GetBits(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method IsSet, addr 0x64c2fd8, size 0x18, virtual false, abstract: false, final false
   inline bool IsSet(int32_t pos);
 
+  /// [IsReadOnly]
   /// @brief Method TestAll, addr 0x64c30a8, size 0x20, virtual false, abstract: false, final false
   inline bool TestAll(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method TestAny, addr 0x64c3068, size 0x20, virtual false, abstract: false, final false
   inline bool TestAny(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method TestNone, addr 0x64c3048, size 0x10, virtual false, abstract: false, final false
   inline bool TestNone(int32_t pos, int32_t numBits);
 
   /// @brief Method .ctor, addr 0x64c2f04, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::NativeBitArray> data);
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64c2f20, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x64c2f40, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
+  /// [IsReadOnly]
   /// @brief Method get_Length, addr 0x64c2f90, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
@@ -100,7 +117,7 @@ public:
   // @brief default ctor
   constexpr NativeBitArray_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "m_BitArray", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BitArray", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly", modifiers: "", def_value: None, comment: None }]
   constexpr NativeBitArray_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly m_BitArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -109,6 +126,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_BitArray, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly m_BitArray;
 
@@ -120,6 +138,9 @@ static_assert(offsetof(::Unity::Collections::NativeBitArray_ReadOnly, m_BitArray
 static_assert(sizeof(::Unity::Collections::NativeBitArray_ReadOnly) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [NativeContainer]
+// [DebuggerDisplay("Length = {Length}, IsCreated = {IsCreated}")]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections {
 // Is value type: true
@@ -143,18 +164,28 @@ public:
   /// @brief Convert operator to "::Unity::Collections::INativeDisposable"
   constexpr operator ::Unity::Collections::INativeDisposable*();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method AsNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> AsNativeArray();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeArray_1<T> AsNativeArray();
 
   /// @brief Method AsReadOnly, addr 0x64c2ef4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeBitArray_ReadOnly AsReadOnly();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x64c2f18, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckReadBounds, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void CheckReadBounds();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void CheckReadBounds();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckWrite, addr 0x64c2f1c, size 0x4, virtual false, abstract: false, final false
   inline void CheckWrite();
 
@@ -218,15 +249,19 @@ public:
   /// @brief Method .ctor, addr 0x64c23ac, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t numBits, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, ::Unity::Collections::NativeArrayOptions options);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x64c27c8, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64c249c, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x64c24cc, size 0x28, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
+  /// [IsReadOnly]
   /// @brief Method get_Length, addr 0x64c27b0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
@@ -240,8 +275,8 @@ public:
   // @brief default ctor
   constexpr NativeBitArray();
 
-  // Ctor Parameters [CppParam { name: "m_BitArray", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray*", modifiers: "", def_value: None }, CppParam { name: "m_Allocator", ty:
-  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BitArray", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Allocator", ty:
+  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr NativeBitArray(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray* m_BitArray, ::Unity::Collections::AllocatorManager_AllocatorHandle m_Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -250,6 +285,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_BitArray, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray* m_BitArray;
 

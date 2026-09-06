@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\NameTable.hpp"
+// IWYU pragma private; include "System/Xml/NameTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr NameTable_Entry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NameTable_Entry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameTable_Entry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameTable_Entry(NameTable_Entry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NameTable_Entry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameTable_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NameTable_Entry(NameTable_Entry const&) = delete;
+  NameTable_Entry(NameTable_Entryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9420 };
@@ -178,13 +178,13 @@ protected:
   constexpr NameTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NameTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameTable(NameTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NameTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NameTable(NameTable const&) = delete;
+  NameTable(NameTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9421 };

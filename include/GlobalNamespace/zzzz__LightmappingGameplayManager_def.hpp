@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightmappingGameplayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightmappingGameplayManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,17 +46,18 @@ protected:
   constexpr LightmappingGameplayManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightmappingGameplayManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmappingGameplayManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightmappingGameplayManager(LightmappingGameplayManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightmappingGameplayManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmappingGameplayManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmappingGameplayManager(LightmappingGameplayManager const&) = delete;
+  LightmappingGameplayManager(LightmappingGameplayManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5997 };
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

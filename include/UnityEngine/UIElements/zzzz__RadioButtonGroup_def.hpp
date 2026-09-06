@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RadioButtonGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RadioButtonGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,6 +94,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RadioButtonGroup*, "UnityEngine.U
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory*, "UnityEngine.UIElements", "RadioButtonGroup/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits*, "UnityEngine.UIElements", "RadioButtonGroup/UxmlTraits");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__9*, "UnityEngine.UIElements", "RadioButtonGroup/<get_choices>d__9");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -112,13 +113,13 @@ protected:
   constexpr RadioButtonGroup_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RadioButtonGroup_UxmlFactory(RadioButtonGroup_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButtonGroup_UxmlFactory(RadioButtonGroup_UxmlFactory const&) = delete;
+  RadioButtonGroup_UxmlFactory(RadioButtonGroup_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4296 };
@@ -129,6 +130,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -159,13 +161,13 @@ protected:
   constexpr RadioButtonGroup_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RadioButtonGroup_UxmlTraits(RadioButtonGroup_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButtonGroup_UxmlTraits(RadioButtonGroup_UxmlTraits const&) = delete;
+  RadioButtonGroup_UxmlTraits(RadioButtonGroup_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4297 };
@@ -181,6 +183,7 @@ static_assert(offsetof(::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits, _
 static_assert(sizeof(::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits) == 0xa8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -228,23 +231,30 @@ public:
   /// @brief Method MoveNext, addr 0x6d66bc4, size 0x1e4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x6d66e38, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x6d66df0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6d66ed0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6d66df8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6d66e30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6d66b68, size 0x5c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -287,6 +297,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6d66da8, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6d6576c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -311,13 +322,13 @@ protected:
   constexpr RadioButtonGroup__get_choices_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup__get_choices_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup__get_choices_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RadioButtonGroup__get_choices_d__9(RadioButtonGroup__get_choices_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup__get_choices_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup__get_choices_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButtonGroup__get_choices_d__9(RadioButtonGroup__get_choices_d__9 const&) = delete;
+  RadioButtonGroup__get_choices_d__9(RadioButtonGroup__get_choices_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4298 };
@@ -371,6 +382,7 @@ public:
 
   using _get_choices_d__9 = ::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__9;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_choices, put = set_choices)) ::System::Collections::Generic::IEnumerable_1<::StringW>* choices;
 
   /// @brief Field choicesProperty, offset 0xffffffff, size 0x98
@@ -448,6 +460,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UIElements.RadioButtonGroup::<get_choices>d__9))]
   /// @brief Method get_choices, addr 0x6d656fc, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_choices();
 
@@ -472,13 +485,13 @@ protected:
   constexpr RadioButtonGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RadioButtonGroup(RadioButtonGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButtonGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButtonGroup(RadioButtonGroup const&) = delete;
+  RadioButtonGroup(RadioButtonGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4299 };

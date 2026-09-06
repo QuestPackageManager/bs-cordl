@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSpatialAnchor.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSpatialAnchor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,10 +51,14 @@ namespace GlobalNamespace {
 struct OVRPose;
 }
 namespace GlobalNamespace {
-template <typename TStatus> struct OVRResult_1;
+template <typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_1;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus> struct OVRResult_2;
+template <typename TValue, typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_2;
 }
 namespace GlobalNamespace {
 struct OVRSpaceQuery_Options;
@@ -156,7 +160,9 @@ namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine {
 struct Pose;
@@ -264,9 +270,10 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor_MultiAnchorDelegatePair();
 
-  // Ctor Parameters [CppParam { name: "Anchors", ty: "::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*", modifiers: "", def_value: None }, CppParam { name:
-  // "Delegate", ty: "::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*,::GlobalNamespace::OVRSpatialAnchor_OperationResult>*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Anchors", ty: "::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Delegate", ty:
+  // "::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*,::GlobalNamespace::OVRSpatialAnchor_OperationResult>*", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr OVRSpatialAnchor_MultiAnchorDelegatePair(
       ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* Anchors,
       ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* Delegate) noexcept;
@@ -293,6 +300,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor_MultiAnchorDelegatePa
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor_MultiAnchorDelegatePair) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies OVRSpace, System.Guid
 namespace GlobalNamespace {
 // Is value type: true
@@ -304,6 +312,7 @@ public:
 
   __declspec(property(get = get_Localizing)) bool Localizing;
 
+  /// @brief [Obsolete("Use TryGetPose instead.")]
   __declspec(property(get = get_Pose)) ::UnityEngine::Pose Pose;
 
   __declspec(property(get = get_Uuid)) ::System::Guid Uuid;
@@ -311,6 +320,7 @@ public:
   /// @brief Method BindTo, addr 0x5edaf98, size 0x328, virtual false, abstract: false, final false
   inline void BindTo(::GlobalNamespace::OVRSpatialAnchor* spatialAnchor);
 
+  /// [Obsolete("Use LocalizeAsync instead.")]
   /// @brief Method Localize, addr 0x5edb2c0, size 0xdc, virtual false, abstract: false, final false
   inline void Localize(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor, bool>* onComplete, double_t timeout);
 
@@ -332,6 +342,7 @@ public:
   /// @brief Method get_Pose, addr 0x5edb39c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_Pose();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Uuid, addr 0x5eda9d0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_Uuid();
 
@@ -339,8 +350,8 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor_UnboundAnchor();
 
-  // Ctor Parameters [CppParam { name: "_space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "_Uuid_k__BackingField", ty: "::System::Guid", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Uuid_k__BackingField", ty: "::System::Guid",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor_UnboundAnchor(::GlobalNamespace::OVRSpace _space, ::System::Guid _Uuid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -352,6 +363,7 @@ public:
   /// @brief Field _space, offset: 0x0, size: 0x8, def value: None
   ::GlobalNamespace::OVRSpace _space;
 
+  /// [CompilerGenerated]
   /// @brief Field <Uuid>k__BackingField, offset: 0x8, size: 0x10, def value: None
   ::System::Guid _Uuid_k__BackingField;
 
@@ -394,7 +406,7 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor_MultiAnchorActionType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor_MultiAnchorActionType(int32_t value__) noexcept;
 
   /// @brief Field Save value: I32(0)
@@ -427,21 +439,31 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRSpatialAnchor_Development : public ::System::Object {
 public:
   // Declarations
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method Log, addr 0x5edb45c, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method LogError, addr 0x5edb574, size 0x8c, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
   /// @brief Method LogRequest, addr 0x5edb658, size 0x4, virtual false, abstract: false, final false
   static inline void LogRequest(uint64_t requestId, ::StringW message);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method LogRequestOrError, addr 0x5edb600, size 0x58, virtual false, abstract: false, final false
   static inline void LogRequestOrError(uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result, ::StringW successMessage, ::StringW failureMessage);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
   /// @brief Method LogRequestResult, addr 0x5edb65c, size 0x4, virtual false, abstract: false, final false
   static inline void LogRequestResult(uint64_t requestId, bool result, ::StringW successMessage, ::StringW failureMessage);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method LogWarning, addr 0x5edb4e8, size 0x8c, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);
 
@@ -451,13 +473,13 @@ protected:
   constexpr OVRSpatialAnchor_Development();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor_Development", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor_Development", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSpatialAnchor_Development(OVRSpatialAnchor_Development&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor_Development", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor_Development", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSpatialAnchor_Development(OVRSpatialAnchor_Development const&) = delete;
+  OVRSpatialAnchor_Development(OVRSpatialAnchor_Developmentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7712 };
@@ -468,6 +490,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor_Development) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRResultStatus]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -505,7 +528,7 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor_OperationResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor_OperationResult(int32_t value__) noexcept;
 
   /// @brief Field Failure value: I32(-1000)
@@ -555,6 +578,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor_OperationResult, valu
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor_OperationResult) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
@@ -584,8 +608,8 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor_InvertedCapture_2();
 
-  // Ctor Parameters [CppParam { name: "_capture", ty: "TCapture", modifiers: "", def_value: None }, CppParam { name: "_callback", ty: "::System::Action_2<TCapture,TResult>*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_capture", ty: "TCapture", modifiers: "", def_value: None, comment: None }, CppParam { name: "_callback", ty: "::System::Action_2<TCapture,TResult>*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor_InvertedCapture_2(TCapture _capture, ::System::Action_2<TCapture, TResult>* _callback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -604,6 +628,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [Obsolete("Use EraseAnchorAsync instead, which does not require you to provide EraseOptions.")]
 // Dependencies OVRSpace::StorageLocation
 namespace GlobalNamespace {
 // Is value type: true
@@ -615,7 +640,7 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor_EraseOptions();
 
-  // Ctor Parameters [CppParam { name: "Storage", ty: "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Storage", ty: "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor_EraseOptions(::GlobalNamespace::OVRSpace_StorageLocation Storage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -635,6 +660,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor_EraseOptions, Storage
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor_EraseOptions) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Obsolete("Use SaveAnchorAsync instead, which does not require you to provide SaveOptions.")]
 // Dependencies OVRSpace::StorageLocation
 namespace GlobalNamespace {
 // Is value type: true
@@ -646,7 +672,7 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor_SaveOptions();
 
-  // Ctor Parameters [CppParam { name: "Storage", ty: "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Storage", ty: "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor_SaveOptions(::GlobalNamespace::OVRSpace_StorageLocation Storage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -666,6 +692,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor_SaveOptions, Storage)
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor_SaveOptions) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Obsolete("Only for use with the obsolete version of LoadUnboundAnchorsAsync. Use the overload of LoadUnboundAnchorsAsync that accepts a collection of Guids")]
 // Dependencies OVRSpace::StorageLocation
 namespace GlobalNamespace {
 // Is value type: true
@@ -673,6 +700,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRSpatialAnchor_LoadOptions {
 public:
   // Declarations
+  /// @brief [Obsolete("This property is no longer required. MaxAnchorCount will be automatically set to the number of uuids to load.")]
   __declspec(property(get = get_MaxAnchorCount, put = set_MaxAnchorCount)) int32_t MaxAnchorCount;
 
   __declspec(property(get = get_StorageLocation, put = set_StorageLocation)) ::GlobalNamespace::OVRSpace_StorageLocation StorageLocation;
@@ -684,24 +712,33 @@ public:
   /// @brief Method ToQueryOptions, addr 0x5eda38c, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSpaceQuery_Options ToQueryOptions();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_MaxAnchorCount, addr 0x5edb670, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxAnchorCount();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_StorageLocation, addr 0x5edb660, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSpace_StorageLocation get_StorageLocation();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Timeout, addr 0x5edb680, size 0x8, virtual false, abstract: false, final false
   inline double_t get_Timeout();
 
   /// @brief Method get_Uuids, addr 0x5edb690, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Guid>* get_Uuids();
 
+  /// [CompilerGenerated]
   /// @brief Method set_MaxAnchorCount, addr 0x5edb678, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxAnchorCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_StorageLocation, addr 0x5edb668, size 0x8, virtual false, abstract: false, final false
   inline void set_StorageLocation(::GlobalNamespace::OVRSpace_StorageLocation value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Timeout, addr 0x5edb688, size 0x8, virtual false, abstract: false, final false
   inline void set_Timeout(double_t value);
 
@@ -712,9 +749,9 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor_LoadOptions();
 
-  // Ctor Parameters [CppParam { name: "_StorageLocation_k__BackingField", ty: "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: None }, CppParam { name:
-  // "_MaxAnchorCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_Timeout_k__BackingField", ty: "double_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_uuids", ty: "::System::Collections::Generic::IReadOnlyList_1<::System::Guid>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_StorageLocation_k__BackingField", ty: "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_MaxAnchorCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Timeout_k__BackingField", ty: "double_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_uuids", ty: "::System::Collections::Generic::IReadOnlyList_1<::System::Guid>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor_LoadOptions(::GlobalNamespace::OVRSpace_StorageLocation _StorageLocation_k__BackingField, int32_t _MaxAnchorCount_k__BackingField, double_t _Timeout_k__BackingField,
                                          ::System::Collections::Generic::IReadOnlyList_1<::System::Guid>* _uuids) noexcept;
 
@@ -727,12 +764,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
   /// @brief Field <StorageLocation>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::GlobalNamespace::OVRSpace_StorageLocation _StorageLocation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MaxAnchorCount>k__BackingField, offset: 0x4, size: 0x4, def value: None
   int32_t _MaxAnchorCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Timeout>k__BackingField, offset: 0x8, size: 0x8, def value: None
   double_t _Timeout_k__BackingField;
 
@@ -753,6 +793,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor_LoadOptions, _uuids) 
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor_LoadOptions) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -788,13 +829,13 @@ protected:
   constexpr OVRSpatialAnchor___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSpatialAnchor___c(OVRSpatialAnchor___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSpatialAnchor___c(OVRSpatialAnchor___c const&) = delete;
+  OVRSpatialAnchor___c(OVRSpatialAnchor___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7718 };
@@ -805,6 +846,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -847,13 +889,13 @@ protected:
   constexpr OVRSpatialAnchor___c__DisplayClass65_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c__DisplayClass65_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c__DisplayClass65_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSpatialAnchor___c__DisplayClass65_0(OVRSpatialAnchor___c__DisplayClass65_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c__DisplayClass65_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c__DisplayClass65_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSpatialAnchor___c__DisplayClass65_0(OVRSpatialAnchor___c__DisplayClass65_0 const&) = delete;
+  OVRSpatialAnchor___c__DisplayClass65_0(OVRSpatialAnchor___c__DisplayClass65_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7719 };
@@ -874,6 +916,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor___c__DisplayClass65_0
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor___c__DisplayClass65_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor, OVRAnchor::FetchOptions, OVRAnchor::FetchResult, OVRObjectPool::ListScope`1<T>, OVRResult`2<TValue, TStatus>, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -887,6 +930,7 @@ public:
   /// @brief Method MoveNext, addr 0x5edbb08, size 0x80c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5edc314, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -897,15 +941,16 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor__LoadUnboundAnchorsAsync_d__65();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>",
-  // modifiers: "", def_value: None }, CppParam { name: "unboundAnchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers: "", def_value:
-  // None }, CppParam { name: "resultsHandler", ty: "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*,int32_t>*", modifiers: "", def_value:
-  // None }, CppParam { name: "fetchOptions", ty: "::GlobalNamespace::OVRAnchor_FetchOptions", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::GlobalNamespace::OVRSpatialAnchor___c__DisplayClass65_0*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty:
-  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "unboundAnchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "resultsHandler", ty:
+  // "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*,int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "fetchOptions", ty: "::GlobalNamespace::OVRAnchor_FetchOptions", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
+  // "::GlobalNamespace::OVRSpatialAnchor___c__DisplayClass65_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty:
+  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>", modifiers:
-  // "", def_value: None }]
+  // "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor__LoadUnboundAnchorsAsync_d__65(
       int32_t __1__state,
       ::GlobalNamespace::OVRTaskBuilder_1<
@@ -971,6 +1016,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor__LoadUnboundAnchorsAs
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor__LoadUnboundAnchorsAsync_d__65) == 0x88, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor, OVRObjectPool::ListScope`1<T>, OVRPlugin::Result, OVRResult`2<TValue, TStatus>, OVRSpatialAnchor::OperationResult, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -984,6 +1030,7 @@ public:
   /// @brief Method MoveNext, addr 0x5edc350, size 0x7b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5edcb04, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -994,13 +1041,13 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor__LoadUnboundSharedAnchorsAsync_d__62();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>",
-  // modifiers: "", def_value: None }, CppParam { name: "uuids", ty: "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: None }, CppParam { name:
-  // "unboundAnchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers: "", def_value: None }, CppParam { name: "_anchorBuff_5__2", ty:
-  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty:
-  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "uuids", ty: "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "unboundAnchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_anchorBuff_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty:
+  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor__LoadUnboundSharedAnchorsAsync_d__62(
       int32_t __1__state,
       ::GlobalNamespace::OVRTaskBuilder_1<
@@ -1059,6 +1106,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor__LoadUnboundSharedAnc
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor__LoadUnboundSharedAnchorsAsync_d__62) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor, OVRObjectPool::ListScope`1<T>, OVRPlugin::Result, OVRResult`2<TValue, TStatus>, OVRSpatialAnchor::OperationResult, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>,
 // System.Guid
 namespace GlobalNamespace {
@@ -1073,6 +1121,7 @@ public:
   /// @brief Method MoveNext, addr 0x5edcb40, size 0x768, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5edd2a8, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1083,13 +1132,13 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor__LoadUnboundSharedAnchorsAsync_d__63();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>",
-  // modifiers: "", def_value: None }, CppParam { name: "unboundAnchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers: "", def_value:
-  // None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "_anchorBuff_5__2", ty:
-  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty:
-  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "unboundAnchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "_anchorBuff_5__2", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty:
+  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor__LoadUnboundSharedAnchorsAsync_d__63(
       int32_t __1__state,
       ::GlobalNamespace::OVRTaskBuilder_1<
@@ -1148,6 +1197,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor__LoadUnboundSharedAnc
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor__LoadUnboundSharedAnchorsAsync_d__63) == 0x60, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor, OVRObjectPool::ListScope`1<T>, OVRPlugin::Result, OVRResult`2<TValue, TStatus>, OVRSpatialAnchor::OperationResult, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>,
 // System.Guid
 namespace GlobalNamespace {
@@ -1162,6 +1212,7 @@ public:
   /// @brief Method MoveNext, addr 0x5edd2e4, size 0x7b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5edda9c, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1172,13 +1223,14 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor__LoadUnboundSharedAnchorsAsync_d__64();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>",
-  // modifiers: "", def_value: None }, CppParam { name: "allowedAnchorUuids", ty: "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: None }, CppParam { name:
-  // "unboundAnchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers: "", def_value: None }, CppParam { name: "groupUuid", ty:
-  // "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "_anchorBuff_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value:
-  // None }, CppParam { name: "__7__wrap2", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "allowedAnchorUuids", ty: "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "unboundAnchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "_anchorBuff_5__2", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty:
+  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor__LoadUnboundSharedAnchorsAsync_d__64(
       int32_t __1__state,
       ::GlobalNamespace::OVRTaskBuilder_1<
@@ -1242,6 +1294,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor__LoadUnboundSharedAnc
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor__LoadUnboundSharedAnchorsAsync_d__64) == 0x68, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRTaskBuilder`1<T>, System.Runtime.CompilerServices.YieldAwaitable::YieldAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -1255,6 +1308,7 @@ public:
   /// @brief Method MoveNext, addr 0x5eddad8, size 0x28c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5eddd64, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1265,9 +1319,9 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor__WhenCreatedAsync_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSpatialAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSpatialAnchor>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__u__1", ty: "::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor__WhenCreatedAsync_d__19(int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder, ::UnityW<::GlobalNamespace::OVRSpatialAnchor> __4__this,
                                                      ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter __u__1) noexcept;
 
@@ -1303,6 +1357,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor__WhenCreatedAsync_d__
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor__WhenCreatedAsync_d__19) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>, System.Runtime.CompilerServices.YieldAwaitable::YieldAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -1316,6 +1371,7 @@ public:
   /// @brief Method MoveNext, addr 0x5eddda0, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5ede16c, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1326,10 +1382,10 @@ public:
   // @brief default ctor
   constexpr OVRSpatialAnchor__WhenLocalizedAsync_d__22();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSpatialAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSpatialAnchor>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpatialAnchor__WhenLocalizedAsync_d__22(int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder, ::UnityW<::GlobalNamespace::OVRSpatialAnchor> __4__this,
                                                        ::GlobalNamespace::OVRTask_1_Awaiter<bool> __u__1, ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter __u__2) noexcept;
 
@@ -1370,6 +1426,9 @@ static_assert(offsetof(::GlobalNamespace::OVRSpatialAnchor__WhenLocalizedAsync_d
 static_assert(sizeof(::GlobalNamespace::OVRSpatialAnchor__WhenLocalizedAsync_d__22) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DisallowMultipleComponent]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-spatial-anchors-persist-content/#ovrspatialanchor-component")]
+// [Feature((Meta.XR.Util.Feature)0)]
 // Dependencies OVRAnchor, OVRSpatialAnchor::EraseOptions, OVRSpatialAnchor::SaveOptions, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -1439,6 +1498,7 @@ public:
       ::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>>*
       ShareRequests;
 
+  /// @brief [Obsolete("This property exposes an internal handle that should no longer be necessary. You can Save, Erase, and Share anchors using the methods in this class.")]
   __declspec(property(get = get_Space)) ::GlobalNamespace::OVRSpace Space;
 
   /// @brief Field SpatialAnchors, offset 0xffffffff, size 0x8
@@ -1481,9 +1541,11 @@ public:
   /// @brief Method CreateSpatialAnchor, addr 0x5ed66ac, size 0x188, virtual false, abstract: false, final false
   inline void CreateSpatialAnchor();
 
+  /// [Obsolete("Use EraseAsync instead.")]
   /// @brief Method Erase, addr 0x5ed9454, size 0xb8, virtual false, abstract: false, final false
   inline void Erase(::GlobalNamespace::OVRSpatialAnchor_EraseOptions eraseOptions, ::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
+  /// [Obsolete("Use EraseAsync instead.")]
   /// @brief Method Erase, addr 0x5ed9444, size 0x10, virtual false, abstract: false, final false
   inline void Erase(::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
@@ -1494,9 +1556,11 @@ public:
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>>
   EraseAnchorsAsync(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids);
 
+  /// [Obsolete("Use EraseAnchorAsync instead.")]
   /// @brief Method EraseAsync, addr 0x5ed9e8c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> EraseAsync();
 
+  /// [Obsolete("Use EraseAnchorAsync instead.")]
   /// @brief Method EraseAsync, addr 0x5ed950c, size 0x110, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> EraseAsync(::GlobalNamespace::OVRSpatialAnchor_EraseOptions eraseOptions);
 
@@ -1510,9 +1574,12 @@ public:
   /// @brief Method GetTrackingSpacePose, addr 0x5ed743c, size 0x114, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose GetTrackingSpacePose();
 
+  /// [Obsolete("You should use LoadUnboundAnchorsAsync to load previously saved anchors and AddComponent<OVRSpatialAnchor>() to create a new anchor. You should no longer need to use an OVRSpace
+  /// handle directly.")]
   /// @brief Method InitializeFromExisting, addr 0x5ed8be0, size 0x224, virtual false, abstract: false, final false
   inline void InitializeFromExisting(::GlobalNamespace::OVRSpace space, ::System::Guid uuid);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method InitializeOnLoad, addr 0x5ed76ec, size 0xe0, virtual false, abstract: false, final false
   static inline void InitializeOnLoad();
 
@@ -1525,12 +1592,15 @@ public:
   /// @brief Method LateUpdate, addr 0x5ed6858, size 0x54, virtual false, abstract: false, final false
   inline void LateUpdate();
 
+  /// [Obsolete("Use LoadUnboundAnchorsAsync instead.")]
   /// @brief Method LoadUnboundAnchors, addr 0x5ed961c, size 0x100, virtual false, abstract: false, final false
   static inline bool LoadUnboundAnchors(::GlobalNamespace::OVRSpatialAnchor_LoadOptions options, ::System::Action_1<::ArrayW<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>>* onComplete);
 
+  /// [Obsolete("Use the overload of LoadUnboundAnchorsAsync that accepts a collection of Guids instead.")]
   /// @brief Method LoadUnboundAnchorsAsync, addr 0x5ed971c, size 0x178, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::ArrayW<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>> LoadUnboundAnchorsAsync(::GlobalNamespace::OVRSpatialAnchor_LoadOptions options);
 
+  /// [AsyncStateMachine(typeof(OVRSpatialAnchor::<LoadUnboundAnchorsAsync>d__65))]
   /// @brief Method LoadUnboundAnchorsAsync, addr 0x5ed8494, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<
       ::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
@@ -1544,17 +1614,20 @@ public:
                           ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>* unboundAnchors,
                           ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*, int32_t>* onIncrementalResultsAvailable);
 
+  /// [AsyncStateMachine(typeof(OVRSpatialAnchor::<LoadUnboundSharedAnchorsAsync>d__64))]
   /// @brief Method LoadUnboundSharedAnchorsAsync, addr 0x5ed870c, size 0xe0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<
       ::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>
   LoadUnboundSharedAnchorsAsync(::System::Guid groupUuid, ::System::Collections::Generic::IEnumerable_1<::System::Guid>* allowedAnchorUuids,
                                 ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>* unboundAnchors);
 
+  /// [AsyncStateMachine(typeof(OVRSpatialAnchor::<LoadUnboundSharedAnchorsAsync>d__63))]
   /// @brief Method LoadUnboundSharedAnchorsAsync, addr 0x5ed863c, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<
       ::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>
   LoadUnboundSharedAnchorsAsync(::System::Guid groupUuid, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>* unboundAnchors);
 
+  /// [AsyncStateMachine(typeof(OVRSpatialAnchor::<LoadUnboundSharedAnchorsAsync>d__62))]
   /// @brief Method LoadUnboundSharedAnchorsAsync, addr 0x5ed8570, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<
       ::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>
@@ -1588,14 +1661,17 @@ public:
   /// @brief Method OnSpatialAnchorCreateComplete, addr 0x5ed81b8, size 0x1e4, virtual false, abstract: false, final false
   static inline void OnSpatialAnchorCreateComplete(uint64_t requestId, bool success, ::GlobalNamespace::OVRSpace space, ::System::Guid uuid);
 
+  /// [Obsolete("Use SaveAsync instead.")]
   /// @brief Method Save, addr 0x5ed9bf8, size 0x294, virtual false, abstract: false, final false
   static inline void
   Save(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions,
        ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
+  /// [Obsolete("Use SaveAsync instead.")]
   /// @brief Method Save, addr 0x5ed8e04, size 0x10, virtual false, abstract: false, final false
   inline void Save(::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
+  /// [Obsolete("Use SaveAsync instead.")]
   /// @brief Method Save, addr 0x5ed8e14, size 0xb8, virtual false, abstract: false, final false
   inline void Save(::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions, ::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
@@ -1606,38 +1682,48 @@ public:
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>>
   SaveAnchorsAsync(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors);
 
+  /// [Obsolete("Use SaveAnchorsAsync instead.")]
   /// @brief Method SaveAsync, addr 0x5ed9e9c, size 0x4f0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>
   SaveAsync(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions);
 
+  /// [Obsolete("Use SaveAnchorAsync instead.")]
   /// @brief Method SaveAsync, addr 0x5ed9e94, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SaveAsync();
 
+  /// [Obsolete("Use SaveAnchorAsync instead.")]
   /// @brief Method SaveAsync, addr 0x5ed8ecc, size 0x184, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SaveAsync(::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions);
 
+  /// [Obsolete]
   /// @brief Method SaveBatchAnchors, addr 0x5ed68ac, size 0x1e8, virtual false, abstract: false, final false
   static inline void SaveBatchAnchors();
 
+  /// [Obsolete("Use ShareAsync instead.")]
   /// @brief Method Share, addr 0x5ed6cfc, size 0x608, virtual false, abstract: false, final false
   static inline void
   Share(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpaceUser>* users,
         ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
+  /// [Obsolete("Use ShareAsync instead.")]
   /// @brief Method Share, addr 0x5ed90ac, size 0xa8, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user, ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
+  /// [Obsolete("Use ShareAsync instead.")]
   /// @brief Method Share, addr 0x5ed9154, size 0xb8, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
+  /// [Obsolete("Use ShareAsync instead.")]
   /// @brief Method Share, addr 0x5ed920c, size 0xc0, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::GlobalNamespace::OVRSpaceUser user3,
                     ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
+  /// [Obsolete("Use ShareAsync instead.")]
   /// @brief Method Share, addr 0x5ed92cc, size 0xd0, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::GlobalNamespace::OVRSpaceUser user3, ::GlobalNamespace::OVRSpaceUser user4,
                     ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
+  /// [Obsolete("Use ShareAsync instead.")]
   /// @brief Method Share, addr 0x5ed939c, size 0xa8, virtual false, abstract: false, final false
   inline void Share(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>* users, ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
@@ -1701,9 +1787,11 @@ public:
   /// @brief Method UpdateTransform, addr 0x5ed65a4, size 0xdc, virtual false, abstract: false, final false
   inline void UpdateTransform();
 
+  /// [AsyncStateMachine(typeof(OVRSpatialAnchor::<WhenCreatedAsync>d__19))]
   /// @brief Method WhenCreatedAsync, addr 0x5ed38f4, size 0xb8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> WhenCreatedAsync();
 
+  /// [AsyncStateMachine(typeof(OVRSpatialAnchor::<WhenLocalizedAsync>d__22))]
   /// @brief Method WhenLocalizedAsync, addr 0x5ed3a74, size 0xbc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> WhenLocalizedAsync();
 
@@ -1755,6 +1843,7 @@ public:
   /// @brief Method add_OnLocalize, addr 0x5ed3640, size 0x100, virtual false, abstract: false, final false
   inline void add_OnLocalize(::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add__onLocalize, addr 0x5ed3498, size 0xc0, virtual false, abstract: false, final false
   inline void add__onLocalize(::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
@@ -1788,12 +1877,14 @@ public:
   /// @brief Method get_Uuid, addr 0x5ed381c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Guid get_Uuid();
 
+  /// [CompilerGenerated]
   /// @brief Method get__anchor, addr 0x5ed3618, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRAnchor get__anchor();
 
   /// @brief Method remove_OnLocalize, addr 0x5ed3818, size 0x4, virtual false, abstract: false, final false
   inline void remove_OnLocalize(::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove__onLocalize, addr 0x5ed3558, size 0xc0, virtual false, abstract: false, final false
   inline void remove__onLocalize(::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
@@ -1812,6 +1903,7 @@ public:
 
   static inline void setStaticF_SpatialAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set__anchor, addr 0x5ed362c, size 0x14, virtual false, abstract: false, final false
   inline void set__anchor(::GlobalNamespace::OVRAnchor value);
 
@@ -1821,13 +1913,13 @@ protected:
   constexpr OVRSpatialAnchor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSpatialAnchor(OVRSpatialAnchor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSpatialAnchor(OVRSpatialAnchor const&) = delete;
+  OVRSpatialAnchor(OVRSpatialAnchorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7726 };
@@ -1841,15 +1933,19 @@ public:
   /// @brief Field _creationFailed, offset: 0x30, size: 0x1, def value: None
   bool ____creationFailed;
 
+  /// [CompilerGenerated]
   /// @brief Field _onLocalize, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* ____onLocalize;
 
+  /// [CompilerGenerated]
   /// @brief Field <_anchor>k__BackingField, offset: 0x40, size: 0x18, def value: None
   ::GlobalNamespace::OVRAnchor _____anchor_k__BackingField;
 
+  /// [Obsolete("See SaveAnchorAsync overload without SaveOptions")]
   /// @brief Field _defaultSaveOptions, offset: 0x58, size: 0x4, def value: None
   ::GlobalNamespace::OVRSpatialAnchor_SaveOptions ____defaultSaveOptions;
 
+  /// [Obsolete("See EraseAnchorAsync overload without EraseOptions")]
   /// @brief Field _defaultEraseOptions, offset: 0x5c, size: 0x4, def value: None
   ::GlobalNamespace::OVRSpatialAnchor_EraseOptions ____defaultEraseOptions;
 

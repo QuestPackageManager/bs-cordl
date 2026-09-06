@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Physics.hpp"
+// IWYU pragma private; include "UnityEngine/Physics.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Physics_def.hpp"
@@ -4456,7 +4456,7 @@ inline ::UnityEngine::PhysicsScene UnityEngine::Physics::get_defaultPhysicsScene
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "get_defaultPhysicsScene", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::PhysicsScene>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Physics::IgnoreCollision(::UnityEngine::Collider* collider1, ::UnityEngine::Collider* collider2, bool ignore) {
+inline void UnityEngine::Physics::IgnoreCollision(/* [NotNull] */ ::UnityEngine::Collider* collider1, /* [NotNull] */ ::UnityEngine::Collider* collider2, /* [DefaultValue("true")] */ bool ignore) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
                                               { "IgnoreCollision", {}, { ::i2c::type_of<::UnityEngine::Collider*>(), ::i2c::type_of<::UnityEngine::Collider*>(), ::i2c::type_of<bool>() } })));
@@ -4468,7 +4468,7 @@ inline void UnityEngine::Physics::IgnoreCollision(::UnityEngine::Collider* colli
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "IgnoreCollision", {}, { ::i2c::type_of<::UnityEngine::Collider*>(), ::i2c::type_of<::UnityEngine::Collider*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, collider1, collider2);
 }
-inline void UnityEngine::Physics::IgnoreLayerCollision(int32_t layer1, int32_t layer2, bool ignore) {
+inline void UnityEngine::Physics::IgnoreLayerCollision(int32_t layer1, int32_t layer2, /* [DefaultValue("true")] */ bool ignore) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "IgnoreLayerCollision", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
@@ -4484,14 +4484,15 @@ inline bool UnityEngine::Physics::GetIgnoreLayerCollision(int32_t layer1, int32_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetIgnoreLayerCollision", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, layer1, layer2);
 }
-inline bool UnityEngine::Physics::GetIgnoreCollision(::UnityEngine::Collider* collider1, ::UnityEngine::Collider* collider2) {
+inline bool UnityEngine::Physics::GetIgnoreCollision(/* [NotNull] */ ::UnityEngine::Collider* collider1, /* [NotNull] */ ::UnityEngine::Collider* collider2) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetIgnoreCollision", {}, { ::i2c::type_of<::UnityEngine::Collider*>(), ::i2c::type_of<::UnityEngine::Collider*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, collider1, collider2);
 }
-inline bool UnityEngine::Physics::Raycast(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, float_t maxDistance, int32_t layerMask,
-                                          ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::Raycast(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                          /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                          /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Raycast",
@@ -4552,7 +4553,8 @@ inline bool UnityEngine::Physics::Raycast(::UnityEngine::Vector3 origin, ::Unity
                           { "Raycast", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::by_ref<::UnityEngine::RaycastHit>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, origin, direction, hitInfo);
 }
-inline bool UnityEngine::Physics::Raycast(::UnityEngine::Ray ray, float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::Raycast(::UnityEngine::Ray ray, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                          /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -4575,8 +4577,9 @@ inline bool UnityEngine::Physics::Raycast(::UnityEngine::Ray ray) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Raycast", {}, { ::i2c::type_of<::UnityEngine::Ray>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, ray);
 }
-inline bool UnityEngine::Physics::Raycast(::UnityEngine::Ray ray, ::by_ref<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask,
-                                          ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::Raycast(::UnityEngine::Ray ray, ::by_ref<::UnityEngine::RaycastHit> hitInfo, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                          /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                          /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Raycast",
@@ -4604,7 +4607,8 @@ inline bool UnityEngine::Physics::Raycast(::UnityEngine::Ray ray, ::by_ref<::Uni
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Raycast", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<::by_ref<::UnityEngine::RaycastHit>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, ray, hitInfo);
 }
-inline bool UnityEngine::Physics::Linecast(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::Linecast(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                           /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Linecast",
                                                                                                          {},
@@ -4623,8 +4627,9 @@ inline bool UnityEngine::Physics::Linecast(::UnityEngine::Vector3 start, ::Unity
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Linecast", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, start, end);
 }
-inline bool UnityEngine::Physics::Linecast(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::RaycastHit> hitInfo, int32_t layerMask,
-                                           ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::Linecast(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<::UnityEngine::RaycastHit> hitInfo,
+                                           /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                           /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Linecast",
                                                                                                          {},
@@ -4648,8 +4653,9 @@ inline bool UnityEngine::Physics::Linecast(::UnityEngine::Vector3 start, ::Unity
                           { "Linecast", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::by_ref<::UnityEngine::RaycastHit>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, start, end, hitInfo);
 }
-inline bool UnityEngine::Physics::CapsuleCast(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction, float_t maxDistance, int32_t layerMask,
-                                              ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::CapsuleCast(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction,
+                                              /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                              /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
@@ -4685,7 +4691,9 @@ inline bool UnityEngine::Physics::CapsuleCast(::UnityEngine::Vector3 point1, ::U
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, point1, point2, radius, direction);
 }
 inline bool UnityEngine::Physics::CapsuleCast(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction,
-                                              ::by_ref<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+                                              ::by_ref<::UnityEngine::RaycastHit> hitInfo, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                              /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                              /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CapsuleCast",
@@ -4726,8 +4734,9 @@ inline bool UnityEngine::Physics::CapsuleCast(::UnityEngine::Vector3 point1, ::U
                                                                                        ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::by_ref<::UnityEngine::RaycastHit>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, point1, point2, radius, direction, hitInfo);
 }
-inline bool UnityEngine::Physics::SphereCast(::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, ::by_ref<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance,
-                                             int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::SphereCast(::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, ::by_ref<::UnityEngine::RaycastHit> hitInfo,
+                                             /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                             /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "SphereCast",
@@ -4764,7 +4773,9 @@ inline bool UnityEngine::Physics::SphereCast(::UnityEngine::Vector3 origin, floa
                                                                                               ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::by_ref<::UnityEngine::RaycastHit>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, origin, radius, direction, hitInfo);
 }
-inline bool UnityEngine::Physics::SphereCast(::UnityEngine::Ray ray, float_t radius, float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::SphereCast(::UnityEngine::Ray ray, float_t radius, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                             /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                             /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "SphereCast",
                                                                                                          {},
@@ -4789,8 +4800,9 @@ inline bool UnityEngine::Physics::SphereCast(::UnityEngine::Ray ray, float_t rad
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "SphereCast", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, ray, radius);
 }
-inline bool UnityEngine::Physics::SphereCast(::UnityEngine::Ray ray, float_t radius, ::by_ref<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask,
-                                             ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::SphereCast(::UnityEngine::Ray ray, float_t radius, ::by_ref<::UnityEngine::RaycastHit> hitInfo, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                             /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                             /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "SphereCast",
@@ -4822,8 +4834,10 @@ inline bool UnityEngine::Physics::SphereCast(::UnityEngine::Ray ray, float_t rad
                                               { "SphereCast", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::RaycastHit>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, ray, radius, hitInfo);
 }
-inline bool UnityEngine::Physics::BoxCast(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction, ::UnityEngine::Quaternion orientation,
-                                          float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::BoxCast(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction,
+                                          /* [DefaultValue("Quaternion.identity")] */ ::UnityEngine::Quaternion orientation, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                          /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                          /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "BoxCast",
@@ -4868,7 +4882,9 @@ inline bool UnityEngine::Physics::BoxCast(::UnityEngine::Vector3 center, ::Unity
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, center, halfExtents, direction);
 }
 inline bool UnityEngine::Physics::BoxCast(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction, ::by_ref<::UnityEngine::RaycastHit> hitInfo,
-                                          ::UnityEngine::Quaternion orientation, float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+                                          /* [DefaultValue("Quaternion.identity")] */ ::UnityEngine::Quaternion orientation, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                          /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                          /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "BoxCast",
@@ -4926,8 +4942,9 @@ inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::Internal_Raycas
                                                                                        ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit>>(nullptr, ___internal_method, physicsScene, ray, maxDistance, mask, queryTriggerInteraction);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::RaycastAll(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, float_t maxDistance, int32_t layerMask,
-                                                                            ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::RaycastAll(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                                                            /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                                                            /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "RaycastAll",
@@ -4955,8 +4972,9 @@ inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::RaycastAll(::Un
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "RaycastAll", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit>>(nullptr, ___internal_method, origin, direction);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::RaycastAll(::UnityEngine::Ray ray, float_t maxDistance, int32_t layerMask,
-                                                                            ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::RaycastAll(::UnityEngine::Ray ray, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                                                            /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                                                            /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -4979,8 +4997,9 @@ inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::RaycastAll(::Un
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "RaycastAll", {}, { ::i2c::type_of<::UnityEngine::Ray>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit>>(nullptr, ___internal_method, ray);
 }
-inline int32_t UnityEngine::Physics::RaycastNonAlloc(::UnityEngine::Ray ray, ::ArrayW<::UnityEngine::RaycastHit> results, float_t maxDistance, int32_t layerMask,
-                                                     ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline int32_t UnityEngine::Physics::RaycastNonAlloc(::UnityEngine::Ray ray, ::ArrayW<::UnityEngine::RaycastHit> results, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                                     /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                                     /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "RaycastNonAlloc",
@@ -5009,8 +5028,9 @@ inline int32_t UnityEngine::Physics::RaycastNonAlloc(::UnityEngine::Ray ray, ::A
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "RaycastNonAlloc", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<::ArrayW<::UnityEngine::RaycastHit>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, ray, results);
 }
-inline int32_t UnityEngine::Physics::RaycastNonAlloc(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, ::ArrayW<::UnityEngine::RaycastHit> results, float_t maxDistance,
-                                                     int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline int32_t UnityEngine::Physics::RaycastNonAlloc(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, ::ArrayW<::UnityEngine::RaycastHit> results,
+                                                     /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                                     /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "RaycastNonAlloc",
                                                                                                          {},
@@ -5056,8 +5076,10 @@ inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::Query_CapsuleCa
                               ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit>>(nullptr, ___internal_method, physicsScene, p0, p1, radius, direction, maxDistance, mask, queryTriggerInteraction);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::CapsuleCastAll(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction,
-                                                                                float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline ::ArrayW<::UnityEngine::RaycastHit>
+UnityEngine::Physics::CapsuleCastAll(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction,
+                                     /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                     /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
@@ -5106,8 +5128,10 @@ inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::Query_SphereCas
                                            ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit>>(nullptr, ___internal_method, physicsScene, origin, radius, direction, maxDistance, mask, queryTriggerInteraction);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::SphereCastAll(::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, float_t maxDistance, int32_t layerMask,
-                                                                               ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline ::ArrayW<::UnityEngine::RaycastHit>
+UnityEngine::Physics::SphereCastAll(::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                    /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                    /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "SphereCastAll",
@@ -5138,8 +5162,9 @@ inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::SphereCastAll(:
                                               { "SphereCastAll", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit>>(nullptr, ___internal_method, origin, radius, direction);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::SphereCastAll(::UnityEngine::Ray ray, float_t radius, float_t maxDistance, int32_t layerMask,
-                                                                               ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline ::ArrayW<::UnityEngine::RaycastHit>
+UnityEngine::Physics::SphereCastAll(::UnityEngine::Ray ray, float_t radius, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                    /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "SphereCastAll",
                                                                                                          {},
@@ -5174,8 +5199,9 @@ inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::Overlap
                                                                ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Collider>>>(nullptr, ___internal_method, physicsScene, point0, point1, radius, layerMask, queryTriggerInteraction);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::OverlapCapsule(::UnityEngine::Vector3 point0, ::UnityEngine::Vector3 point1, float_t radius, int32_t layerMask,
-                                                                                        ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline ::ArrayW<::UnityW<::UnityEngine::Collider>>
+UnityEngine::Physics::OverlapCapsule(::UnityEngine::Vector3 point0, ::UnityEngine::Vector3 point1, float_t radius, /* [DefaultValue("AllLayers")] */ int32_t layerMask,
+                                     /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapCapsule",
@@ -5207,8 +5233,9 @@ inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::Overlap
                                                                           ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Collider>>>(nullptr, ___internal_method, physicsScene, position, radius, layerMask, queryTriggerInteraction);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::OverlapSphere(::UnityEngine::Vector3 position, float_t radius, int32_t layerMask,
-                                                                                       ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline ::ArrayW<::UnityW<::UnityEngine::Collider>>
+UnityEngine::Physics::OverlapSphere(::UnityEngine::Vector3 position, float_t radius, /* [DefaultValue("AllLayers")] */ int32_t layerMask,
+                                    /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -5271,8 +5298,8 @@ inline void UnityEngine::Physics::set_reuseCollisionCallbacks(bool value) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_reuseCollisionCallbacks", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline bool UnityEngine::Physics::Query_ComputePenetration(::UnityEngine::Collider* colliderA, ::UnityEngine::Vector3 positionA, ::UnityEngine::Quaternion rotationA,
-                                                           ::UnityEngine::Collider* colliderB, ::UnityEngine::Vector3 positionB, ::UnityEngine::Quaternion rotationB,
+inline bool UnityEngine::Physics::Query_ComputePenetration(/* [NotNull] */ ::UnityEngine::Collider* colliderA, ::UnityEngine::Vector3 positionA, ::UnityEngine::Quaternion rotationA,
+                                                           /* [NotNull] */ ::UnityEngine::Collider* colliderB, ::UnityEngine::Vector3 positionB, ::UnityEngine::Quaternion rotationB,
                                                            ::by_ref<::UnityEngine::Vector3> direction, ::by_ref<float_t> distance) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
@@ -5294,7 +5321,7 @@ inline bool UnityEngine::Physics::ComputePenetration(::UnityEngine::Collider* co
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, colliderA, positionA, rotationA, colliderB, positionB, rotationB, direction, distance);
 }
-inline ::UnityEngine::Vector3 UnityEngine::Physics::Query_ClosestPoint(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
+inline ::UnityEngine::Vector3 UnityEngine::Physics::Query_ClosestPoint(/* [NotNull] */ ::UnityEngine::Collider* collider, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                        ::UnityEngine::Vector3 point) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Query_ClosestPoint",
@@ -5347,8 +5374,9 @@ inline void UnityEngine::Physics::set_clothGravity(::UnityEngine::Vector3 value)
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_clothGravity", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline int32_t UnityEngine::Physics::OverlapSphereNonAlloc(::UnityEngine::Vector3 position, float_t radius, ::ArrayW<::UnityEngine::Collider*> results, int32_t layerMask,
-                                                           ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline int32_t UnityEngine::Physics::OverlapSphereNonAlloc(::UnityEngine::Vector3 position, float_t radius, ::ArrayW<::UnityEngine::Collider*> results,
+                                                           /* [DefaultValue("AllLayers")] */ int32_t layerMask,
+                                                           /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapSphereNonAlloc",
@@ -5382,7 +5410,8 @@ inline bool UnityEngine::Physics::CheckSphere_Internal(::UnityEngine::PhysicsSce
                                                                           ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, physicsScene, position, radius, layerMask, queryTriggerInteraction);
 }
-inline bool UnityEngine::Physics::CheckSphere(::UnityEngine::Vector3 position, float_t radius, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::CheckSphere(::UnityEngine::Vector3 position, float_t radius, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                              /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -5402,8 +5431,9 @@ inline bool UnityEngine::Physics::CheckSphere(::UnityEngine::Vector3 position, f
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, position, radius);
 }
 inline int32_t UnityEngine::Physics::CapsuleCastNonAlloc(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction,
-                                                         ::ArrayW<::UnityEngine::RaycastHit> results, float_t maxDistance, int32_t layerMask,
-                                                         ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+                                                         ::ArrayW<::UnityEngine::RaycastHit> results, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                                         /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                                         /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CapsuleCastNonAlloc",
@@ -5445,7 +5475,8 @@ inline int32_t UnityEngine::Physics::CapsuleCastNonAlloc(::UnityEngine::Vector3 
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, point1, point2, radius, direction, results);
 }
 inline int32_t UnityEngine::Physics::SphereCastNonAlloc(::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, ::ArrayW<::UnityEngine::RaycastHit> results,
-                                                        float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+                                                        /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                                        /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "SphereCastNonAlloc",
@@ -5483,8 +5514,9 @@ inline int32_t UnityEngine::Physics::SphereCastNonAlloc(::UnityEngine::Vector3 o
                                                                                               ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::ArrayW<::UnityEngine::RaycastHit>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, origin, radius, direction, results);
 }
-inline int32_t UnityEngine::Physics::SphereCastNonAlloc(::UnityEngine::Ray ray, float_t radius, ::ArrayW<::UnityEngine::RaycastHit> results, float_t maxDistance, int32_t layerMask,
-                                                        ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline int32_t UnityEngine::Physics::SphereCastNonAlloc(::UnityEngine::Ray ray, float_t radius, ::ArrayW<::UnityEngine::RaycastHit> results, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                                        /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                                        /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "SphereCastNonAlloc",
@@ -5527,8 +5559,8 @@ inline bool UnityEngine::Physics::CheckCapsule_Internal(::UnityEngine::PhysicsSc
                                                                ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, physicsScene, start, end, radius, layerMask, queryTriggerInteraction);
 }
-inline bool UnityEngine::Physics::CheckCapsule(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t radius, int32_t layerMask,
-                                               ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::CheckCapsule(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t radius, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                               /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckCapsule",
@@ -5560,8 +5592,9 @@ inline bool UnityEngine::Physics::CheckBox_Internal(::UnityEngine::PhysicsScene 
                                                                ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, physicsScene, center, halfExtents, orientation, layermask, queryTriggerInteraction);
 }
-inline bool UnityEngine::Physics::CheckBox(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Quaternion orientation, int32_t layermask,
-                                           ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::CheckBox(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, /* [DefaultValue("Quaternion.identity")] */ ::UnityEngine::Quaternion orientation,
+                                           /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layermask,
+                                           /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
                                                            { "CheckBox",
@@ -5602,8 +5635,10 @@ inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::Overlap
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Collider>>>(nullptr, ___internal_method, physicsScene, center, halfExtents, orientation, layerMask,
                                                                                           queryTriggerInteraction);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::OverlapBox(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Quaternion orientation,
-                                                                                    int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline ::ArrayW<::UnityW<::UnityEngine::Collider>>
+UnityEngine::Physics::OverlapBox(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, /* [DefaultValue("Quaternion.identity")] */ ::UnityEngine::Quaternion orientation,
+                                 /* [DefaultValue("AllLayers")] */ int32_t layerMask,
+                                 /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
                                                            { "OverlapBox",
@@ -5635,7 +5670,8 @@ inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::Overlap
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Collider>>>(nullptr, ___internal_method, center, halfExtents);
 }
 inline int32_t UnityEngine::Physics::OverlapBoxNonAlloc(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::ArrayW<::UnityEngine::Collider*> results,
-                                                        ::UnityEngine::Quaternion orientation, int32_t mask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+                                                        /* [DefaultValue("Quaternion.identity")] */ ::UnityEngine::Quaternion orientation, /* [DefaultValue("AllLayers")] */ int32_t mask,
+                                                        /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
                                                            { "OverlapBoxNonAlloc",
@@ -5671,7 +5707,9 @@ inline int32_t UnityEngine::Physics::OverlapBoxNonAlloc(::UnityEngine::Vector3 c
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, center, halfExtents, results);
 }
 inline int32_t UnityEngine::Physics::BoxCastNonAlloc(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction, ::ArrayW<::UnityEngine::RaycastHit> results,
-                                                     ::UnityEngine::Quaternion orientation, float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+                                                     /* [DefaultValue("Quaternion.identity")] */ ::UnityEngine::Quaternion orientation, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                                     /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                                     /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "BoxCastNonAlloc",
@@ -5733,8 +5771,9 @@ inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::Internal_BoxCas
                                                                                   queryTriggerInteraction);
 }
 inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::BoxCastAll(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction,
-                                                                            ::UnityEngine::Quaternion orientation, float_t maxDistance, int32_t layerMask,
-                                                                            ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+                                                                            /* [DefaultValue("Quaternion.identity")] */ ::UnityEngine::Quaternion orientation,
+                                                                            /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance, /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask,
+                                                                            /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "BoxCastAll",
@@ -5780,8 +5819,9 @@ inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Physics::BoxCastAll(::Un
                                               { "BoxCastAll", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit>>(nullptr, ___internal_method, center, halfExtents, direction);
 }
-inline int32_t UnityEngine::Physics::OverlapCapsuleNonAlloc(::UnityEngine::Vector3 point0, ::UnityEngine::Vector3 point1, float_t radius, ::ArrayW<::UnityEngine::Collider*> results, int32_t layerMask,
-                                                            ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline int32_t UnityEngine::Physics::OverlapCapsuleNonAlloc(::UnityEngine::Vector3 point0, ::UnityEngine::Vector3 point1, float_t radius, ::ArrayW<::UnityEngine::Collider*> results,
+                                                            /* [DefaultValue("AllLayers")] */ int32_t layerMask,
+                                                            /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapCapsuleNonAlloc",
                                                                                                          {},
@@ -5963,7 +6003,8 @@ inline void UnityEngine::Physics::ReportContacts(::Unity::Collections::NativeArr
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "ReportContacts", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::ContactPairHeader>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array);
 }
-inline ::UnityEngine::Collision* UnityEngine::Physics::GetCollisionToReport(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair, bool flipped) {
+inline ::UnityEngine::Collision* UnityEngine::Physics::GetCollisionToReport(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header,
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair, bool flipped) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -5990,7 +6031,7 @@ inline void UnityEngine::Physics::get_defaultPhysicsScene_Injected(::by_ref<::Un
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "get_defaultPhysicsScene_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::Physics::IgnoreCollision_Injected(::System::IntPtr collider1, ::System::IntPtr collider2, bool ignore) {
+inline void UnityEngine::Physics::IgnoreCollision_Injected(::System::IntPtr collider1, ::System::IntPtr collider2, /* [DefaultValue("true")] */ bool ignore) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
                                                            { "IgnoreCollision_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>() } })));

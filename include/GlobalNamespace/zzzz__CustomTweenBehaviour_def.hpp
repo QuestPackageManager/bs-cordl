@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomTweenBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomTweenBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::GlobalNamespace::CustomTweenBehaviour*);
 MARK_REF_T(::GlobalNamespace::CustomTweenBehaviour___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CustomTweenBehaviour*, "", "CustomTweenBehaviour");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CustomTweenBehaviour___c*, "", "CustomTweenBehaviour/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -74,13 +75,13 @@ protected:
   constexpr CustomTweenBehaviour___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomTweenBehaviour___c(CustomTweenBehaviour___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomTweenBehaviour___c(CustomTweenBehaviour___c const&) = delete;
+  CustomTweenBehaviour___c(CustomTweenBehaviour___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6692 };
@@ -285,23 +286,26 @@ protected:
   constexpr CustomTweenBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomTweenBehaviour(CustomTweenBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomTweenBehaviour(CustomTweenBehaviour const&) = delete;
+  CustomTweenBehaviour(CustomTweenBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6693 };
 
+  /// [HideInInspector]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _transforms, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____transforms;
 
   /// @brief Field startLocationCurrentPosition, offset: 0x18, size: 0x1, def value: None
   bool ___startLocationCurrentPosition;
 
+  /// [DrawIf("startLocationCurrentPosition", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field startLocalPos, offset: 0x1c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___startLocalPos;
 
@@ -314,9 +318,11 @@ public:
   /// @brief Field endXRelativeToSelfRotation, offset: 0x38, size: 0x1, def value: None
   bool ___endXRelativeToSelfRotation;
 
+  /// [HideInInspector]
   /// @brief Field elementDelay, offset: 0x3c, size: 0x4, def value: None
   float_t ___elementDelay;
 
+  /// [Space]
   /// @brief Field _lockX, offset: 0x40, size: 0x1, def value: None
   bool ____lockX;
 

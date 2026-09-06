@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\InlinedArray_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/InlinedArray_1.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -20,7 +20,7 @@ template <typename TValue> inline void UnityEngine::InputSystem::Utilities::Inli
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>>(), { ".ctor", {}, { ::i2c::type_of<TValue>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>::_ctor(TValue firstValue, ::ArrayW<TValue> additionalValues) {
+template <typename TValue> inline void UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>::_ctor(TValue firstValue, /* [ParamArray] */ ::ArrayW<TValue> additionalValues) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<TValue>(), ::i2c::type_of<::ArrayW<TValue>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, firstValue, additionalValues);
@@ -160,8 +160,8 @@ template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::Inline
 template <typename TValue> constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstValue", ty: "TValue", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "additionalValues", ty: "::ArrayW<TValue>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstValue", ty: "TValue", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "additionalValues", ty: "::ArrayW<TValue>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TValue> constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>::InlinedArray_1(int32_t length, TValue firstValue, ::ArrayW<TValue> additionalValues) noexcept {
   this->length = length;
   this->firstValue = firstValue;
@@ -219,8 +219,8 @@ template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::Inline
 template <typename TValue> constexpr ::System::IDisposable* UnityEngine::InputSystem::Utilities::InlinedArray_1_Enumerator<TValue>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "index", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TValue>
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1_Enumerator<TValue>::InlinedArray_1_Enumerator(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array,
                                                                                                               int32_t index) noexcept {

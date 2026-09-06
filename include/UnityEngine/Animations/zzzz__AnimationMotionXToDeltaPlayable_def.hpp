@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationMotionXToDeltaPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationMotionXToDeltaPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,9 @@ struct AnimationMotionXToDeltaPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable, "UnityEngine.Animations", "AnimationMotionXToDeltaPlayable");
+// [RequiredByNativeCode]
+// [StaticAccessor("AnimationMotionXToDeltaPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationMotionXToDeltaPlayable.bindings.h")]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -50,6 +53,7 @@ public:
   /// @brief Method CreateHandle, addr 0x6a48800, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph);
 
+  /// [NativeThrows]
   /// @brief Method CreateHandleInternal, addr 0x6a48a20, size 0x90, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
@@ -65,6 +69,7 @@ public:
   /// @brief Method SetAbsoluteMotion, addr 0x6a48bc8, size 0x88, virtual false, abstract: false, final false
   inline void SetAbsoluteMotion(bool value);
 
+  /// [NativeThrows]
   /// @brief Method SetAbsoluteMotionInternal, addr 0x6a48c50, size 0x44, virtual false, abstract: false, final false
   static inline void SetAbsoluteMotionInternal(::by_ref<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
@@ -88,7 +93,7 @@ public:
   // @brief default ctor
   constexpr AnimationMotionXToDeltaPlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationMotionXToDeltaPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

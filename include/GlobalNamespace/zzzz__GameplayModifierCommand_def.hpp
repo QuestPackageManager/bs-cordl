@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifierCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ namespace GlobalNamespace {
 struct ConsoleMessage;
 }
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class OptionalArgument_1;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
@@ -28,6 +30,7 @@ class GameplayModifierCommand;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::GameplayModifierCommand*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayModifierCommand*, "", "GameplayModifierCommand");
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -95,17 +98,18 @@ protected:
   constexpr GameplayModifierCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifierCommand(GameplayModifierCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifierCommand(GameplayModifierCommand const&) = delete;
+  GameplayModifierCommand(GameplayModifierCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19392 };
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 

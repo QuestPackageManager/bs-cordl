@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RecordingToolConfigurationProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace/RecordingToolConfigurationProcessor.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigurationProcessor_def.hpp"
@@ -761,8 +761,9 @@ constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_int
   this->____beatmapLevelsModel = value;
 }
 inline void GlobalNamespace::RecordingToolConfigurationProcessor::_ctor(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult,
-                                                                        ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer,
-                                                                        ::GlobalNamespace::EnvironmentsListModel* environmentListModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
+                                                                        /* [Inject(Id = "RecordingTool")] */ ::GlobalNamespace::IBeatSaberLogger* logger,
+                                                                        ::GlobalNamespace::IPosesSerializer* posesSerializer, ::GlobalNamespace::EnvironmentsListModel* environmentListModel,
+                                                                        ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolConfigurationProcessor*>(),
                                                            { ".ctor",
@@ -843,9 +844,9 @@ inline ::GlobalNamespace::MenuDestination* GlobalNamespace::RecordingToolConfigu
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MenuDestination*>(this, ___internal_method, recordingSettings, quitAppAfterRun);
 }
 inline ::GlobalNamespace::RecordingToolConfigurationProcessor*
-GlobalNamespace::RecordingToolConfigurationProcessor::New_ctor(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult, ::GlobalNamespace::IBeatSaberLogger* logger,
-                                                               ::GlobalNamespace::IPosesSerializer* posesSerializer, ::GlobalNamespace::EnvironmentsListModel* environmentListModel,
-                                                               ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
+GlobalNamespace::RecordingToolConfigurationProcessor::New_ctor(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult,
+                                                               /* [Inject(Id = "RecordingTool")] */ ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer,
+                                                               ::GlobalNamespace::EnvironmentsListModel* environmentListModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
   return THROW_UNLESS(::i2c::no_logger{},
                       ::i2c::new_ctor<::GlobalNamespace::RecordingToolConfigurationProcessor*>(commandLineParserResult, logger, posesSerializer, environmentListModel, beatmapLevelsModel));
 }

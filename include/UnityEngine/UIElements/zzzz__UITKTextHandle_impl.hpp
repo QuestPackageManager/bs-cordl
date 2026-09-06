@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UITKTextHandle.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UITKTextHandle.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextHandle_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UITKTextHandle_def.hpp"
@@ -560,7 +560,7 @@ inline ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>*>(
       this, ___internal_method);
 }
-inline void UnityEngine::UIElements::UITKTextHandle::ComputeNativeTextSize(::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height) {
+inline void UnityEngine::UIElements::UITKTextHandle::ComputeNativeTextSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextHandle*>(),
@@ -645,7 +645,8 @@ inline void UnityEngine::UIElements::UITKTextHandle::set_ATGRoundedSizes(::Unity
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextHandle*>(), { "set_ATGRoundedSizes", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Vector2 UnityEngine::UIElements::UITKTextHandle::ComputeTextSize(::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height) {
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::UITKTextHandle::ComputeTextSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width,
+                                                                                       float_t height) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UITKTextHandle*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightWithIdManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightWithIdManager.hpp"
 #include "GlobalNamespace/zzzz__ILightWithId_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroup_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

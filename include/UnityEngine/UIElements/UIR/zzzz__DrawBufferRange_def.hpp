@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\DrawBufferRange.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/DrawBufferRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,9 @@ public:
   // @brief default ctor
   constexpr DrawBufferRange();
 
-  // Ctor Parameters [CppParam { name: "firstIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "minIndexVal", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertsReferenced", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "firstIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "minIndexVal", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertsReferenced", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr DrawBufferRange(int32_t firstIndex, int32_t indexCount, int32_t minIndexVal, int32_t vertsReferenced) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

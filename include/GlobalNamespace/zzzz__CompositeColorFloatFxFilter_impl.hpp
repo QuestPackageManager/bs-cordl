@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeColorFloatFxFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeColorFloatFxFilter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CompositeColorFloatFxFilter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CompositeColorFloatFxFilter._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceReport.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceReport.hpp"
 #include "GlobalNamespace/zzzz__PerformanceReport_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceReport_def.hpp"
@@ -307,7 +307,7 @@ inline ::StringW GlobalNamespace::PerformanceReport::CreateReportDescriptor(::St
           { "CreateReportDescriptor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, tag, environmentName, levelId, difficulty, characteristic);
 }
-inline ::StringW GlobalNamespace::PerformanceReport::ListMetrics(bool includeHeader, ::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*> metrics) {
+inline ::StringW GlobalNamespace::PerformanceReport::ListMetrics(bool includeHeader, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*> metrics) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport*>(),
                                                            { "ListMetrics", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*>>() } })));

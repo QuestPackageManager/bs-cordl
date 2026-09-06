@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\LinearColor.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LinearColor.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::GlobalIllumination::LinearColor.get_red
@@ -145,8 +145,9 @@ inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor UnityEngine:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LinearColor>(), { "Black", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Experimental::GlobalIllumination::LinearColor>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_red", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_green", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_blue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_intensity", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_red", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_green", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_blue", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_intensity", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LinearColor::LinearColor(float_t m_red, float_t m_green, float_t m_blue, float_t m_intensity) noexcept {
   this->m_red = m_red;
   this->m_green = m_green;

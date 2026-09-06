@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\BlockExpressionList.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/BlockExpressionList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ MARK_REF_T(::System::Linq::Expressions::BlockExpressionList*);
 MARK_REF_T(::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::BlockExpressionList*, "System.Linq.Expressions", "BlockExpressionList");
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18*, "System.Linq.Expressions", "BlockExpressionList/<GetEnumerator>d__18");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -88,17 +89,22 @@ public:
   /// @brief Method MoveNext, addr 0x5f7a340, size 0xc4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.Expressions.Expression>.get_Current, addr 0x5f7a404, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* System_Collections_Generic_IEnumerator_System_Linq_Expressions_Expression__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5f7a40c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5f7a444, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5f7a33c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -126,6 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5f7a330, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -145,13 +152,13 @@ protected:
   constexpr BlockExpressionList__GetEnumerator_d__18();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlockExpressionList__GetEnumerator_d__18", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockExpressionList__GetEnumerator_d__18", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlockExpressionList__GetEnumerator_d__18(BlockExpressionList__GetEnumerator_d__18&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlockExpressionList__GetEnumerator_d__18", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockExpressionList__GetEnumerator_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlockExpressionList__GetEnumerator_d__18(BlockExpressionList__GetEnumerator_d__18 const&) = delete;
+  BlockExpressionList__GetEnumerator_d__18(BlockExpressionList__GetEnumerator_d__18const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16150 };
@@ -182,6 +189,7 @@ static_assert(offsetof(::System::Linq::Expressions::BlockExpressionList__GetEnum
 static_assert(sizeof(::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18) == 0x30, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -193,6 +201,7 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
+  /// @brief [ExcludeFromCodeCoverage]
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
   __declspec(property(get = get_Item, put = set_Item)) ::System::Linq::Expressions::Expression* Item[];
@@ -215,9 +224,11 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method Add, addr 0x5f7a078, size 0x28, virtual true, abstract: false, final true
   inline void Add(::System::Linq::Expressions::Expression* item);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method Clear, addr 0x5f7a0a0, size 0x28, virtual true, abstract: false, final true
   inline void Clear();
 
@@ -227,20 +238,24 @@ public:
   /// @brief Method CopyTo, addr 0x5f7a0e0, size 0x190, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::System::Linq::Expressions::Expression*> array, int32_t index);
 
+  /// [IteratorStateMachine(typeof(System.Linq.Expressions.BlockExpressionList::<GetEnumerator>d__18))]
   /// @brief Method GetEnumerator, addr 0x5f7a2dc, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Expression*>* GetEnumerator();
 
   /// @brief Method IndexOf, addr 0x5f79f50, size 0x88, virtual true, abstract: false, final true
   inline int32_t IndexOf(::System::Linq::Expressions::Expression* item);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method Insert, addr 0x5f79fd8, size 0x28, virtual true, abstract: false, final true
   inline void Insert(int32_t index, ::System::Linq::Expressions::Expression* item);
 
   static inline ::System::Linq::Expressions::BlockExpressionList* New_ctor(::System::Linq::Expressions::BlockExpression* provider, ::System::Linq::Expressions::Expression* arg0);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method Remove, addr 0x5f7a2b4, size 0x28, virtual true, abstract: false, final true
   inline bool Remove(::System::Linq::Expressions::Expression* item);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method RemoveAt, addr 0x5f7a000, size 0x28, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
 
@@ -285,6 +300,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method set_Item, addr 0x5f7a050, size 0x28, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, ::System::Linq::Expressions::Expression* value);
 
@@ -294,13 +310,13 @@ protected:
   constexpr BlockExpressionList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlockExpressionList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockExpressionList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlockExpressionList(BlockExpressionList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlockExpressionList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockExpressionList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlockExpressionList(BlockExpressionList const&) = delete;
+  BlockExpressionList(BlockExpressionListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16151 };

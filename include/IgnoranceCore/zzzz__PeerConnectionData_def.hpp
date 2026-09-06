@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore\PeerConnectionData.hpp"
+// IWYU pragma private; include "IgnoranceCore/PeerConnectionData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr PeerConnectionData();
 
-  // Ctor Parameters [CppParam { name: "Port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "IP", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Port", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "IP", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr PeerConnectionData(uint16_t Port, uint32_t NativePeerId, ::StringW IP) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

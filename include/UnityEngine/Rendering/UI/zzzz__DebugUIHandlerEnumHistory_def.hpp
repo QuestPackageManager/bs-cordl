@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerEnumHistory.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerEnumHistory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory*);
 MARK_REF_T(::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory*, "UnityEngine.Rendering.UI", "DebugUIHandlerEnumHistory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4*, "UnityEngine.Rendering.UI", "DebugUIHandlerEnumHistory/<RefreshAfterSanitization>d__4");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::UI {
 // Is value type: false
@@ -72,17 +73,22 @@ public:
   /// @brief Method MoveNext, addr 0x6802f64, size 0xf0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6803054, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x680305c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6803094, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6802f60, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -104,6 +110,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6802f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -122,13 +129,13 @@ protected:
   constexpr DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4(DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4(DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4 const&) = delete;
+  DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4(DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12517 };
@@ -168,6 +175,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory* New_ctor();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory::<RefreshAfterSanitization>d__4))]
   /// @brief Method RefreshAfterSanitization, addr 0x6802f00, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RefreshAfterSanitization();
 
@@ -192,13 +200,13 @@ protected:
   constexpr DebugUIHandlerEnumHistory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerEnumHistory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerEnumHistory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerEnumHistory(DebugUIHandlerEnumHistory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerEnumHistory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerEnumHistory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerEnumHistory(DebugUIHandlerEnumHistory const&) = delete;
+  DebugUIHandlerEnumHistory(DebugUIHandlerEnumHistoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12518 };

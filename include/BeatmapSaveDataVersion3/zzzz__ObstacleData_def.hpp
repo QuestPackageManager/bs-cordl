@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\ObstacleData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/ObstacleData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,29 +102,34 @@ protected:
   constexpr ObstacleData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleData(ObstacleData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleData(ObstacleData const&) = delete;
+  ObstacleData(ObstacleDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15379 };
 
+  /// [SerializeField]
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;
 
+  /// [SerializeField]
   /// @brief Field y, offset: 0x18, size: 0x4, def value: None
   int32_t ___y;
 
+  /// [SerializeField]
   /// @brief Field d, offset: 0x1c, size: 0x4, def value: None
   float_t ___d;
 
+  /// [SerializeField]
   /// @brief Field w, offset: 0x20, size: 0x4, def value: None
   int32_t ___w;
 
+  /// [SerializeField]
   /// @brief Field h, offset: 0x24, size: 0x4, def value: None
   int32_t ___h;
 

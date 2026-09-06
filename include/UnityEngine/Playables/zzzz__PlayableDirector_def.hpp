@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableDirector.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableDirector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,9 @@ class PlayableDirector;
 // Write type traits
 MARK_REF_T(::UnityEngine::Playables::PlayableDirector*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::PlayableDirector*, "UnityEngine.Playables", "PlayableDirector");
+// [NativeHeader("Modules/Director/PlayableDirector.h")]
+// [NativeHeader("Runtime/Mono/MonoBehaviour.h")]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine::Playables {
 // Is value type: false
@@ -86,6 +89,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::IExposedPropertyTable"
   constexpr operator ::UnityEngine::IExposedPropertyTable*() noexcept;
 
+  /// [NativeMethod("ClearBindingFor")]
   /// @brief Method ClearGenericBinding, addr 0x6b346e0, size 0xc0, virtual false, abstract: false, final false
   inline void ClearGenericBinding(::UnityEngine::Object* key);
 
@@ -101,9 +105,11 @@ public:
   /// @brief Method DeferredEvaluate, addr 0x6b33390, size 0x4, virtual false, abstract: false, final false
   inline void DeferredEvaluate();
 
+  /// [NativeThrows]
   /// @brief Method Evaluate, addr 0x6b33d3c, size 0x80, virtual false, abstract: false, final false
   inline void Evaluate();
 
+  /// [NativeThrows]
   /// @brief Method EvaluateNextFrame, addr 0x6b33394, size 0x80, virtual false, abstract: false, final false
   inline void EvaluateNextFrame();
 
@@ -113,6 +119,7 @@ public:
   /// @brief Method Evaluate_Injected, addr 0x6b33dbc, size 0x3c, virtual false, abstract: false, final false
   static inline void Evaluate_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("GetBindingFor")]
   /// @brief Method GetGenericBinding, addr 0x6b34514, size 0x188, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetGenericBinding(::UnityEngine::Object* key);
 
@@ -149,6 +156,7 @@ public:
   /// @brief Method GetWrapMode_Injected, addr 0x6b34ae0, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::DirectorWrapMode GetWrapMode_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("HasBinding")]
   /// @brief Method HasGenericBinding, addr 0x6b3495c, size 0xc0, virtual false, abstract: false, final false
   inline bool HasGenericBinding(::UnityEngine::Object* key);
 
@@ -161,6 +169,7 @@ public:
   /// @brief Method Internal_GetPlayableAsset_Injected, addr 0x6b34cb4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_GetPlayableAsset_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeThrows]
   /// @brief Method Internal_SetGenericBinding, addr 0x6b336e0, size 0xe0, virtual false, abstract: false, final false
   inline void Internal_SetGenericBinding(::UnityEngine::Object* key, ::UnityEngine::Object* value);
 
@@ -175,6 +184,7 @@ public:
   /// @brief Method Pause_Injected, addr 0x6b33fb4, size 0x3c, virtual false, abstract: false, final false
   static inline void Pause_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeThrows]
   /// @brief Method Play, addr 0x6b3365c, size 0x80, virtual false, abstract: false, final false
   inline void Play();
 
@@ -187,6 +197,7 @@ public:
   /// @brief Method Play, addr 0x6b33414, size 0x8, virtual false, abstract: false, final false
   inline void Play(::UnityEngine::Playables::FrameRate frameRate);
 
+  /// [NativeThrows]
   /// @brief Method PlayOnFrame, addr 0x6b3341c, size 0x94, virtual false, abstract: false, final false
   inline void PlayOnFrame(::UnityEngine::Playables::FrameRate frameRate);
 
@@ -202,18 +213,22 @@ public:
   /// @brief Method ProcessPendingGraphChanges_Injected, addr 0x6b34920, size 0x3c, virtual false, abstract: false, final false
   static inline void ProcessPendingGraphChanges_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeThrows]
   /// @brief Method RebindPlayableGraphOutputs, addr 0x6b347e4, size 0x80, virtual false, abstract: false, final false
   inline void RebindPlayableGraphOutputs();
 
   /// @brief Method RebindPlayableGraphOutputs_Injected, addr 0x6b34864, size 0x3c, virtual false, abstract: false, final false
   static inline void RebindPlayableGraphOutputs_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeThrows]
   /// @brief Method RebuildGraph, addr 0x6b340ac, size 0x80, virtual false, abstract: false, final false
   inline void RebuildGraph();
 
   /// @brief Method RebuildGraph_Injected, addr 0x6b3412c, size 0x3c, virtual false, abstract: false, final false
   static inline void RebuildGraph_Injected(::System::IntPtr _unity_self);
 
+  /// [StaticAccessor("GetDirectorManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
+  /// [NativeHeader("Runtime/Director/Core/DirectorManager.h")]
   /// @brief Method ResetFrameTiming, addr 0x6b35170, size 0x28, virtual false, abstract: false, final false
   static inline void ResetFrameTiming();
 
@@ -223,12 +238,15 @@ public:
   /// @brief Method Resume_Injected, addr 0x6b34070, size 0x3c, virtual false, abstract: false, final false
   static inline void Resume_Injected(::System::IntPtr _unity_self);
 
+  /// [RequiredByNativeCode]
   /// @brief Method SendOnPlayableDirectorPause, addr 0x6b351b8, size 0x20, virtual false, abstract: false, final false
   inline void SendOnPlayableDirectorPause();
 
+  /// [RequiredByNativeCode]
   /// @brief Method SendOnPlayableDirectorPlay, addr 0x6b35198, size 0x20, virtual false, abstract: false, final false
   inline void SendOnPlayableDirectorPlay();
 
+  /// [RequiredByNativeCode]
   /// @brief Method SendOnPlayableDirectorStop, addr 0x6b351d8, size 0x20, virtual false, abstract: false, final false
   inline void SendOnPlayableDirectorStop();
 
@@ -286,12 +304,15 @@ public:
   /// @brief Method .ctor, addr 0x6b351f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_paused, addr 0x6b34e70, size 0xc0, virtual false, abstract: false, final false
   inline void add_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_played, addr 0x6b34cf0, size 0xc0, virtual false, abstract: false, final false
   inline void add_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_stopped, addr 0x6b34ff0, size 0xc0, virtual false, abstract: false, final false
   inline void add_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
@@ -337,12 +358,15 @@ public:
   /// @brief Convert to "::UnityEngine::IExposedPropertyTable"
   constexpr ::UnityEngine::IExposedPropertyTable* i___UnityEngine__IExposedPropertyTable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_paused, addr 0x6b34f30, size 0xc0, virtual false, abstract: false, final false
   inline void remove_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_played, addr 0x6b34db0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_stopped, addr 0x6b350b0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
@@ -379,23 +403,29 @@ protected:
   constexpr PlayableDirector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableDirector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableDirector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayableDirector(PlayableDirector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableDirector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableDirector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableDirector(PlayableDirector const&) = delete;
+  PlayableDirector(PlayableDirectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22616 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field played, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* ___played;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field paused, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* ___paused;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field stopped, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* ___stopped;
 

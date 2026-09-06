@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\ColorTween.hpp"
+// IWYU pragma private; include "TMPro/ColorTween.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   // @brief default ctor
   constexpr ColorTween_ColorTweenMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ColorTween_ColorTweenMode(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(0)
@@ -118,13 +118,13 @@ protected:
   constexpr ColorTween_ColorTweenCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorTween_ColorTweenCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorTween_ColorTweenCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorTween_ColorTweenCallback(ColorTween_ColorTweenCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorTween_ColorTweenCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorTween_ColorTweenCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorTween_ColorTweenCallback(ColorTween_ColorTweenCallback const&) = delete;
+  ColorTween_ColorTweenCallback(ColorTween_ColorTweenCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15895 };
@@ -211,10 +211,10 @@ public:
   // @brief default ctor
   constexpr ColorTween();
 
-  // Ctor Parameters [CppParam { name: "m_Target", ty: "::TMPro::ColorTween_ColorTweenCallback*", modifiers: "", def_value: None }, CppParam { name: "m_StartColor", ty: "::UnityEngine::Color",
-  // modifiers: "", def_value: None }, CppParam { name: "m_TargetColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_TweenMode", ty:
-  // "::TMPro::ColorTween_ColorTweenMode", modifiers: "", def_value: None }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_IgnoreTimeScale", ty:
-  // "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Target", ty: "::TMPro::ColorTween_ColorTweenCallback*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StartColor", ty:
+  // "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_TargetColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_TweenMode", ty: "::TMPro::ColorTween_ColorTweenMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ColorTween(::TMPro::ColorTween_ColorTweenCallback* m_Target, ::UnityEngine::Color m_StartColor, ::UnityEngine::Color m_TargetColor, ::TMPro::ColorTween_ColorTweenMode m_TweenMode,
                        float_t m_Duration, bool m_IgnoreTimeScale) noexcept;
 

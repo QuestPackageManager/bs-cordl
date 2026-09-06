@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlAsyncCheckReader.hpp"
+// IWYU pragma private; include "System/Xml/XmlAsyncCheckReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ class XmlAsyncCheckReader;
 // Write type traits
 MARK_REF_T(::System::Xml::XmlAsyncCheckReader*);
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlAsyncCheckReader*, "System.Xml", "XmlAsyncCheckReader");
+// [DefaultMember("Item")]
 // Dependencies System.Xml.XmlReader
 namespace System::Xml {
 // Is value type: false
@@ -368,13 +369,13 @@ protected:
   constexpr XmlAsyncCheckReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAsyncCheckReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAsyncCheckReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlAsyncCheckReader(XmlAsyncCheckReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAsyncCheckReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAsyncCheckReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlAsyncCheckReader(XmlAsyncCheckReader const&) = delete;
+  XmlAsyncCheckReader(XmlAsyncCheckReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9302 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\QueryKeyboardLayoutCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryKeyboardLayoutCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nam
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand, "UnityEngine.InputSystem.LowLevel", "QueryKeyboardLayoutCommand");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel",
                     "QueryKeyboardLayoutCommand/<nameBuffer>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -42,7 +44,7 @@ public:
   // @brief default ctor
   constexpr QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -122,8 +124,8 @@ public:
   // @brief default ctor
   constexpr QueryKeyboardLayoutCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "nameBuffer", ty:
-  // "::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name: "nameBuffer",
+  // ty: "::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr QueryKeyboardLayoutCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand,
                                        ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer nameBuffer) noexcept;
 
@@ -148,6 +150,7 @@ private:
     struct {
       /// @brief Padding field 0x8
       uint8_t ___nameBuffer_padding[0x8];
+      /// [FixedBuffer(typeof(System.Byte), 256)]
       /// @brief Field nameBuffer, offset: 0x8, size: 0x100, def value: None
       ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer ___nameBuffer;
     };
@@ -155,6 +158,7 @@ private:
     struct {
       /// @brief Padding field 0x8 for alignment
       uint8_t ___nameBuffer_padding_forAlignment[0x8];
+      /// [FixedBuffer(typeof(System.Byte), 256)]
       /// @brief Field nameBuffer, offset: 0x8, size: 0x100, def value: None
       ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer ___nameBuffer_forAlignment;
     };

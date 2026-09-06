@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XProcessingInstructionWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XProcessingInstructionWrapper.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XProcessingInstructionWrapper_def.hpp"
 #include "System/Xml/Linq/zzzz__XProcessingInstruction_def.hpp"
@@ -98,6 +98,7 @@ inline void Newtonsoft::Json::Converters::XProcessingInstructionWrapper::set_Val
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*>(), 20 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*
 Newtonsoft::Json::Converters::XProcessingInstructionWrapper::New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*>(processingInstruction));

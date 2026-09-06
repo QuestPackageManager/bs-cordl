@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SimpleLevelStarter.hpp"
+// IWYU pragma private; include "GlobalNamespace/SimpleLevelStarter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,9 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject> class AssetReferenceT_1;
+template <typename TObject>
+  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
+class AssetReferenceT_1;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -75,6 +77,7 @@ MARK_REF_T(::GlobalNamespace::SimpleLevelStarter*);
 MARK_REF_T(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*, "", "SimpleLevelStarter/<StartLevel>d__15");
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace GlobalNamespace {
 // Is value type: false
@@ -112,17 +115,22 @@ public:
   /// @brief Method MoveNext, addr 0x5916470, size 0x6d0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5916b40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5916b48, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5916b80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x591646c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -150,6 +158,7 @@ public:
 
   constexpr void __cordl_internal_set__handle_5__2(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5916230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -168,13 +177,13 @@ protected:
   constexpr SimpleLevelStarter__StartLevel_d__15();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__15", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__15", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleLevelStarter__StartLevel_d__15(SimpleLevelStarter__StartLevel_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__15", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleLevelStarter__StartLevel_d__15(SimpleLevelStarter__StartLevel_d__15 const&) = delete;
+  SimpleLevelStarter__StartLevel_d__15(SimpleLevelStarter__StartLevel_d__15const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6771 };
@@ -272,9 +281,11 @@ public:
   /// @brief Method OnDestroy, addr 0x5916184, size 0x58, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [IteratorStateMachine(typeof(SimpleLevelStarter::<StartLevel>d__15))]
   /// @brief Method StartLevel, addr 0x59161dc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevel();
 
+  /// [CompilerGenerated]
   /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|15_0, addr 0x59163dc, size 0x90, virtual false, abstract: false, final false
   inline void _StartLevel_g__AfterSceneSwitchCallback_15_0(::Zenject::DiContainer* container);
 
@@ -365,50 +376,65 @@ protected:
   constexpr SimpleLevelStarter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleLevelStarter(SimpleLevelStarter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleLevelStarter(SimpleLevelStarter const&) = delete;
+  SimpleLevelStarter(SimpleLevelStarterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6772 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapLevel, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____beatmapLevel;
 
+  /// [SerializeField]
   /// @brief Field _beatmapCharacteristic, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapCharacteristic ____beatmapCharacteristic;
 
+  /// [SerializeField]
   /// @brief Field _beatmapDifficulty, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____beatmapDifficulty;
 
+  /// [SerializeField]
   /// @brief Field _useTestNoteCutSoundEffects, offset: 0x30, size: 0x1, def value: None
   bool ____useTestNoteCutSoundEffects;
 
+  /// [SerializeField]
   /// @brief Field _overrideStrobeFilterSettingsToAllEffects, offset: 0x31, size: 0x1, def value: None
   bool ____overrideStrobeFilterSettingsToAllEffects;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _prefabBindings, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Component>> ____prefabBindings;
 
+  /// [Tooltip("Tread carefully. It forcibly sets the scriptable object to a different environment.")]
+  /// [SerializeField]
   /// @brief Field _forceOverrideEnvironment, offset: 0x40, size: 0x1, def value: None
   bool ____forceOverrideEnvironment;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _button, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 
+  /// [Inject]
   /// @brief Field _menuTransitionsHelper, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _environmentsListModel, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Activation\IActivator.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Activation/IActivator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class IActivator;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Activation::IActivator*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Activation::IActivator*, "System.Runtime.Remoting.Activation", "IActivator");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
@@ -26,15 +27,15 @@ public:
   // Declarations
   __declspec(property(get = get_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator* NextActivator;
 
-  /// @brief Method Activate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Activate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method get_NextActivator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_NextActivator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IActivator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IActivator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IActivator(IActivator const&) = delete;
+  IActivator(IActivatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3149 };

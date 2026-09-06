@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\SeedEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/SeedEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -153,13 +153,13 @@ protected:
   constexpr SeedEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SeedEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SeedEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SeedEngine(SeedEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SeedEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SeedEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SeedEngine(SeedEngine const&) = delete;
+  SeedEngine(SeedEngineconst&) = delete;
 
   /// @brief Field BlockSize offset 0xffffffff size 0x4
   static constexpr int32_t BlockSize{ static_cast<int32_t>(0x10) };

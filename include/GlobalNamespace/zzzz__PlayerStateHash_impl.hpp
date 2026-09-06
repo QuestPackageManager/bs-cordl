@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerStateHash.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerStateHash.hpp"
 #include "GlobalNamespace/zzzz__BitMask128_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerStateHash_def.hpp"
 #include "GlobalNamespace/zzzz__BitMask128_def.hpp"
@@ -332,7 +332,7 @@ constexpr GlobalNamespace::PlayerStateHash::operator ::System::IEquatable_1<::Gl
 constexpr ::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>* GlobalNamespace::PlayerStateHash::i___System__IEquatable_1___GlobalNamespace__PlayerStateHash_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlayerStateHash::PlayerStateHash(::GlobalNamespace::BitMask128 _bloomFilter) noexcept {
   this->_bloomFilter = _bloomFilter;
 }

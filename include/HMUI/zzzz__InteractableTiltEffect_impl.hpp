@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\InteractableTiltEffect.hpp"
+// IWYU pragma private; include "HMUI/InteractableTiltEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "HMUI/zzzz__InteractableTiltEffect_def.hpp"

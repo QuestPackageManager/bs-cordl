@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineHelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineHelpURLAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class TimelineHelpURLAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::TimelineHelpURLAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TimelineHelpURLAttribute*, "UnityEngine.Timeline", "TimelineHelpURLAttribute");
+// [Conditional("UNITY_EDITOR")]
 // Dependencies System.Attribute
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -33,13 +34,13 @@ protected:
   constexpr TimelineHelpURLAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineHelpURLAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineHelpURLAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineHelpURLAttribute(TimelineHelpURLAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineHelpURLAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineHelpURLAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineHelpURLAttribute(TimelineHelpURLAttribute const&) = delete;
+  TimelineHelpURLAttribute(TimelineHelpURLAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19186 };

@@ -1,6 +1,8 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncValueTaskMethodBuilder.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncValueTaskMethodBuilder.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncValueTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
@@ -79,7 +81,9 @@ inline ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder System::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder>(nullptr, ___internal_method);
 }
-template <typename TStateMachine> inline void System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::Start(::by_ref<TStateMachine> stateMachine) {
+template <typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline void System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::Start(::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder>(),
                                                                                               { "Start", { ::i2c::class_of<TStateMachine>() }, { ::i2c::type_of<::by_ref<TStateMachine>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TStateMachine>() })));
@@ -106,6 +110,8 @@ inline ::System::Threading::Tasks::ValueTask System::Runtime::CompilerServices::
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::ValueTask>(*this, ___internal_method);
 }
 template <typename TAwaiter, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+           ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 inline void System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder>(),
                                                                                               { "AwaitUnsafeOnCompleted",
@@ -114,8 +120,8 @@ inline void System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::Awai
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TAwaiter>(), ::i2c::class_of<TStateMachine>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, awaiter, stateMachine);
 }
-// Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "_haveResult", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_haveResult", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::AsyncValueTaskMethodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder _methodBuilder, bool _haveResult,
                                                                                                         bool _useBuilder) noexcept {
   this->_methodBuilder = _methodBuilder;

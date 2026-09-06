@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorNoteVisuals.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorNoteVisuals.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class ColorNoteVisuals;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ColorNoteVisuals*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ColorNoteVisuals*, "", "ColorNoteVisuals");
+// [AddComponentMenu("Beat Saber/Gameplay/ColorNoteVisuals")]
 // Dependencies MaterialPropertyBlockController, UnityEngine.Color, UnityEngine.MeshRenderer, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -154,6 +155,7 @@ public:
   /// @brief Method .ctor, addr 0x58d1770, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didInitEvent, addr 0x58d0f64, size 0xc0, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
@@ -168,6 +170,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didInitEvent, addr 0x58d1024, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
@@ -185,35 +188,44 @@ protected:
   constexpr ColorNoteVisuals();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteVisuals", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteVisuals", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorNoteVisuals(ColorNoteVisuals&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteVisuals", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteVisuals", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorNoteVisuals(ColorNoteVisuals const&) = delete;
+  ColorNoteVisuals(ColorNoteVisualsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5652 };
 
+  /// [SerializeField]
   /// @brief Field _defaultColorAlpha, offset: 0x20, size: 0x4, def value: None
   float_t ____defaultColorAlpha;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _noteController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteControllerBase> ____noteController;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockControllers, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> ____materialPropertyBlockControllers;
 
+  /// [SerializeField]
   /// @brief Field _arrowMeshRenderers, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>> ____arrowMeshRenderers;
 
+  /// [SerializeField]
   /// @brief Field _circleMeshRenderers, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>> ____circleMeshRenderers;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [CompilerGenerated]
   /// @brief Field didInitEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* ___didInitEvent;
 

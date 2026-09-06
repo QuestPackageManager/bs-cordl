@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\KeyedFactoryBase_2.hpp"
+// IWYU pragma private; include "Zenject/KeyedFactoryBase_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
@@ -160,6 +160,7 @@ template <typename TBase, typename TKey> inline void Zenject::KeyedFactoryBase_2
 }
 template <typename TBase, typename TKey>
 template <typename TDerived>
+  requires(::cordl_internals::type_constraint<TDerived, TBase>)
 inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::KeyedFactoryBase_2<TBase, TKey>::AddBindingInternal(::Zenject::DiContainer* container, TKey key) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>(),

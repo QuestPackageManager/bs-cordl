@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\InteropErrorExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/InteropErrorExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class InteropErrorExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::InteropErrorExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InteropErrorExtensions*, "", "InteropErrorExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -25,6 +26,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE InteropErrorExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Info, addr 0x5aad1f8, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Interop_ErrorInfo Info(::GlobalNamespace::Interop_Error error);
 
@@ -34,13 +36,13 @@ protected:
   constexpr InteropErrorExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InteropErrorExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InteropErrorExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InteropErrorExtensions(InteropErrorExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InteropErrorExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InteropErrorExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InteropErrorExtensions(InteropErrorExtensions const&) = delete;
+  InteropErrorExtensions(InteropErrorExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2220 };

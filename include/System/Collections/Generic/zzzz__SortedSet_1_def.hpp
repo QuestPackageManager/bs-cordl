@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\SortedSet_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/SortedSet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,6 +127,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::SortedSet_1___c__Dis
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0, "System.Collections.Generic", "SortedSet`1/TreeSubSet/<>c__DisplayClass9_0");
 DEFINE_IL2CPP_GEN_CLASS(::System::Collections::Generic::SortedSet_1_ElementCount, "System.Collections.Generic", "SortedSet`1/ElementCount");
 DEFINE_IL2CPP_GEN_CLASS(::System::Collections::Generic::SortedSet_1_Enumerator, "System.Collections.Generic", "SortedSet`1/Enumerator");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -159,13 +160,13 @@ protected:
   constexpr TreeSubSet_SortedSet_1___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TreeSubSet_SortedSet_1___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeSubSet_SortedSet_1___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TreeSubSet_SortedSet_1___c__DisplayClass9_0(TreeSubSet_SortedSet_1___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TreeSubSet_SortedSet_1___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeSubSet_SortedSet_1___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeSubSet_SortedSet_1___c__DisplayClass9_0(TreeSubSet_SortedSet_1___c__DisplayClass9_0 const&) = delete;
+  TreeSubSet_SortedSet_1___c__DisplayClass9_0(TreeSubSet_SortedSet_1___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11420 };
@@ -292,6 +293,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T item, ::System::Collections::Generic::NodeColor color);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Color, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::NodeColor get_Color();
 
@@ -307,24 +309,31 @@ public:
   /// @brief Method get_IsRed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsRed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Left, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::SortedSet_1_Node<T>* get_Left();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Right, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::SortedSet_1_Node<T>* get_Right();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Color, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Color(::System::Collections::Generic::NodeColor value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(T value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Left, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Left(::System::Collections::Generic::SortedSet_1_Node<T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Right, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Right(::System::Collections::Generic::SortedSet_1_Node<T>* value);
 
@@ -334,26 +343,30 @@ protected:
   constexpr SortedSet_1_Node();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1_Node", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1_Node", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedSet_1_Node(SortedSet_1_Node&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1_Node", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1_Node", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedSet_1_Node(SortedSet_1_Node const&) = delete;
+  SortedSet_1_Node(SortedSet_1_Nodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11422 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Item>k__BackingField, offset: 0x10, size: 0x8, def value: None
   T ____Item_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Left>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::SortedSet_1_Node<T>* ____Left_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Right>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::SortedSet_1_Node<T>* ____Right_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Color>k__BackingField, offset: 0x28, size: 0x1, def value: None
   ::System::Collections::Generic::NodeColor ____Color_k__BackingField;
 
@@ -453,9 +466,10 @@ public:
   // @brief default ctor
   constexpr SortedSet_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_tree", ty: "::System::Collections::Generic::SortedSet_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<::System::Collections::Generic::SortedSet_1_Node<T>*>*", modifiers: "", def_value: None }, CppParam {
-  // name: "_current", ty: "::System::Collections::Generic::SortedSet_1_Node<T>*", modifiers: "", def_value: None }, CppParam { name: "_reverse", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_tree", ty: "::System::Collections::Generic::SortedSet_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<::System::Collections::Generic::SortedSet_1_Node<T>*>*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_current", ty: "::System::Collections::Generic::SortedSet_1_Node<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_reverse", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr SortedSet_1_Enumerator(::System::Collections::Generic::SortedSet_1<T>* _tree, int32_t _version,
                                    ::System::Collections::Generic::Stack_1<::System::Collections::Generic::SortedSet_1_Node<T>*>* _stack, ::System::Collections::Generic::SortedSet_1_Node<T>* _current,
                                    bool _reverse) noexcept;
@@ -498,7 +512,8 @@ public:
   // @brief default ctor
   constexpr SortedSet_1_ElementCount();
 
-  // Ctor Parameters [CppParam { name: "UniqueCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "UnfoundCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "UniqueCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "UnfoundCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr SortedSet_1_ElementCount(int32_t UniqueCount, int32_t UnfoundCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -517,6 +532,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -567,13 +583,13 @@ protected:
   constexpr SortedSet_1___c__DisplayClass52_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass52_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass52_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedSet_1___c__DisplayClass52_0(SortedSet_1___c__DisplayClass52_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass52_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedSet_1___c__DisplayClass52_0(SortedSet_1___c__DisplayClass52_0 const&) = delete;
+  SortedSet_1___c__DisplayClass52_0(SortedSet_1___c__DisplayClass52_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11425 };
@@ -591,6 +607,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -632,13 +649,13 @@ protected:
   constexpr SortedSet_1___c__DisplayClass53_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass53_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass53_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedSet_1___c__DisplayClass53_0(SortedSet_1___c__DisplayClass53_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass53_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass53_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedSet_1___c__DisplayClass53_0(SortedSet_1___c__DisplayClass53_0 const&) = delete;
+  SortedSet_1___c__DisplayClass53_0(SortedSet_1___c__DisplayClass53_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11426 };
@@ -653,6 +670,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.ICollectionDebugView`1<T>))]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -1001,13 +1020,13 @@ protected:
   constexpr SortedSet_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedSet_1(SortedSet_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedSet_1(SortedSet_1 const&) = delete;
+  SortedSet_1(SortedSet_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11427 };

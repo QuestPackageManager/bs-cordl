@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\AccessRule.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/AccessRule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr AccessRule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AccessRule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AccessRule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AccessRule(AccessRule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AccessRule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AccessRule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AccessRule(AccessRule const&) = delete;
+  AccessRule(AccessRuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3031 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CvarIntCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/CvarIntCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class CvarIntCommand;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CvarIntCommand*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CvarIntCommand*, "", "CvarIntCommand");
+// [UsedImplicitly]
 // Dependencies CvarCommand`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -31,13 +32,13 @@ protected:
   constexpr CvarIntCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CvarIntCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CvarIntCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CvarIntCommand(CvarIntCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CvarIntCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CvarIntCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CvarIntCommand(CvarIntCommand const&) = delete;
+  CvarIntCommand(CvarIntCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19380 };

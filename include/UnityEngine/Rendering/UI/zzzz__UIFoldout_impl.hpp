@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\UIFoldout.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/UIFoldout.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__UIFoldout_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"

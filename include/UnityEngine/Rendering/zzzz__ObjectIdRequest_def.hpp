@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ObjectIdRequest.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ObjectIdRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__destination_k__BackingField(::UnityW<::UnityEngine::RenderTexture> value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_destination, addr 0x6b21c20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_destination();
 
@@ -43,17 +44,19 @@ protected:
   constexpr ObjectIdRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectIdRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectIdRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectIdRequest(ObjectIdRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectIdRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectIdRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectIdRequest(ObjectIdRequest const&) = delete;
+  ObjectIdRequest(ObjectIdRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10812 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <destination>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____destination_k__BackingField;
 

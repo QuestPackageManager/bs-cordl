@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LeaderboardTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/LeaderboardTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,27 +95,35 @@ public:
   /// @brief Method .ctor, addr 0x596ceb8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo);
 
+  /// [CompilerGenerated]
   /// @brief Method get_fullCombo, addr 0x596cea8, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
+  /// [CompilerGenerated]
   /// @brief Method get_playerName, addr 0x596ce88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rank, addr 0x596ce98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rank();
 
+  /// [CompilerGenerated]
   /// @brief Method get_score, addr 0x596ce78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_score();
 
+  /// [CompilerGenerated]
   /// @brief Method set_fullCombo, addr 0x596ceb0, size 0x8, virtual false, abstract: false, final false
   inline void set_fullCombo(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerName, addr 0x596ce90, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rank, addr 0x596cea0, size 0x8, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_score, addr 0x596ce80, size 0x8, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
@@ -125,26 +133,30 @@ protected:
   constexpr LeaderboardTableView_ScoreData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView_ScoreData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView_ScoreData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardTableView_ScoreData(LeaderboardTableView_ScoreData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView_ScoreData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView_ScoreData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardTableView_ScoreData(LeaderboardTableView_ScoreData const&) = delete;
+  LeaderboardTableView_ScoreData(LeaderboardTableView_ScoreDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7007 };
 
+  /// [CompilerGenerated]
   /// @brief Field <score>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____score_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <playerName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____playerName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rank>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____rank_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <fullCombo>k__BackingField, offset: 0x24, size: 0x1, def value: None
   bool ____fullCombo_k__BackingField;
 
@@ -245,13 +257,13 @@ protected:
   constexpr LeaderboardTableView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardTableView(LeaderboardTableView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardTableView(LeaderboardTableView const&) = delete;
+  LeaderboardTableView(LeaderboardTableViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7008 };
@@ -259,12 +271,15 @@ public:
   /// @brief Field kCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellIdentifier{ u"Cell" };
 
+  /// [SerializeField]
   /// @brief Field _cellPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardTableCell> ____cellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _tableView, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 
+  /// [SerializeField]
   /// @brief Field _rowHeight, offset: 0x30, size: 0x4, def value: None
   float_t ____rowHeight;
 

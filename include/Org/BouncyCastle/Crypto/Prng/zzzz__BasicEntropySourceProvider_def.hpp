@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\BasicEntropySourceProvider.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/BasicEntropySourceProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,13 +96,13 @@ protected:
   constexpr BasicEntropySourceProvider_BasicEntropySource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEntropySourceProvider_BasicEntropySource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEntropySourceProvider_BasicEntropySource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicEntropySourceProvider_BasicEntropySource(BasicEntropySourceProvider_BasicEntropySource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEntropySourceProvider_BasicEntropySource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEntropySourceProvider_BasicEntropySource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicEntropySourceProvider_BasicEntropySource(BasicEntropySourceProvider_BasicEntropySource const&) = delete;
+  BasicEntropySourceProvider_BasicEntropySource(BasicEntropySourceProvider_BasicEntropySourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1100 };
@@ -175,13 +175,13 @@ protected:
   constexpr BasicEntropySourceProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEntropySourceProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEntropySourceProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicEntropySourceProvider(BasicEntropySourceProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEntropySourceProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEntropySourceProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicEntropySourceProvider(BasicEntropySourceProvider const&) = delete;
+  BasicEntropySourceProvider(BasicEntropySourceProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1101 };

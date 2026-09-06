@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GridView.hpp"
+// IWYU pragma private; include "GlobalNamespace/GridView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -87,21 +88,21 @@ public:
 
   __declspec(property(get = get_numberOfCells)) int32_t numberOfCells;
 
-  /// @brief Method CellForIdx, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CellForIdx, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Component> CellForIdx(::GlobalNamespace::GridView* gridView, int32_t idx);
 
-  /// @brief Method get_cellHeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_cellHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_cellHeight();
 
-  /// @brief Method get_cellWidth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_cellWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_cellWidth();
 
-  /// @brief Method get_numberOfCells, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_numberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_numberOfCells();
 
-  // Ctor Parameters [CppParam { name: "", ty: "GridView_IDataSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridView_IDataSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridView_IDataSource(GridView_IDataSource const&) = delete;
+  GridView_IDataSource(GridView_IDataSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20931 };
@@ -110,6 +111,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.Dictionary`2::KeyCollection::Enumerator<TKey, TValue>, System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -151,17 +153,22 @@ public:
   /// @brief Method MoveNext, addr 0x32eef9c, size 0x310, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Component>.get_Current, addr 0x32ef33c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Component> System_Collections_Generic_IEnumerator_UnityEngine_Component__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32ef344, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32ef37c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32eee88, size 0x114, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -205,6 +212,7 @@ public:
   /// @brief Method <>m__Finally2, addr 0x32ef2ac, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32eee7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -223,13 +231,13 @@ protected:
   constexpr GridViewCellsEnumerator_GridView__GetEnumerator_d__1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GridViewCellsEnumerator_GridView__GetEnumerator_d__1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridViewCellsEnumerator_GridView__GetEnumerator_d__1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GridViewCellsEnumerator_GridView__GetEnumerator_d__1(GridViewCellsEnumerator_GridView__GetEnumerator_d__1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GridViewCellsEnumerator_GridView__GetEnumerator_d__1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridViewCellsEnumerator_GridView__GetEnumerator_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridViewCellsEnumerator_GridView__GetEnumerator_d__1(GridViewCellsEnumerator_GridView__GetEnumerator_d__1 const&) = delete;
+  GridViewCellsEnumerator_GridView__GetEnumerator_d__1(GridViewCellsEnumerator_GridView__GetEnumerator_d__1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20932 };
@@ -283,6 +291,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// [IteratorStateMachine(typeof(GridView::GridViewCellsEnumerator::<GetEnumerator>d__1))]
   /// @brief Method GetEnumerator, addr 0x32eee28, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Component>>* GetEnumerator();
 
@@ -312,13 +321,13 @@ protected:
   constexpr GridView_GridViewCellsEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GridView_GridViewCellsEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridView_GridViewCellsEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GridView_GridViewCellsEnumerator(GridView_GridViewCellsEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GridView_GridViewCellsEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridView_GridViewCellsEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridView_GridViewCellsEnumerator(GridView_GridViewCellsEnumerator const&) = delete;
+  GridView_GridViewCellsEnumerator(GridView_GridViewCellsEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20933 };
@@ -334,7 +343,7 @@ static_assert(offsetof(::GlobalNamespace::GridView_GridViewCellsEnumerator, ____
 static_assert(sizeof(::GlobalNamespace::GridView_GridViewCellsEnumerator) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.Component, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GridView
@@ -388,7 +397,9 @@ public:
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* GetActiveCellsForCellPrefab(::UnityEngine::Component* prefab);
 
   /// @brief Method GetReusableCellView, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetReusableCellView(::UnityEngine::Component* prefab);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  inline T GetReusableCellView(::UnityEngine::Component* prefab);
 
   static inline ::GlobalNamespace::GridView* New_ctor();
 
@@ -455,6 +466,7 @@ public:
   /// @brief Method .ctor, addr 0x32eed20, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cellsEnumerator, addr 0x32ee548, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GridView_GridViewCellsEnumerator* get_cellsEnumerator();
 
@@ -473,6 +485,7 @@ public:
   /// @brief Method get_visibleColumnCount, addr 0x32ee530, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_visibleColumnCount();
 
+  /// [CompilerGenerated]
   /// @brief Method set_cellsEnumerator, addr 0x32ee550, size 0x8, virtual false, abstract: false, final false
   inline void set_cellsEnumerator(::GlobalNamespace::GridView_GridViewCellsEnumerator* value);
 
@@ -482,23 +495,27 @@ protected:
   constexpr GridView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GridView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GridView(GridView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GridView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridView(GridView const&) = delete;
+  GridView(GridViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20934 };
 
+  /// [SerializeField]
   /// @brief Field _contentTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentTransform;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _columnCount, offset: 0x28, size: 0x4, def value: None
   int32_t ____columnCount;
 
+  /// [SerializeField]
   /// @brief Field _visibleColumnCount, offset: 0x2c, size: 0x4, def value: None
   int32_t ____visibleColumnCount;
 
@@ -514,6 +531,7 @@ public:
   /// @brief Field _spawnedCellsPerPrefabDictionary, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Component>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>*>* ____spawnedCellsPerPrefabDictionary;
 
+  /// [CompilerGenerated]
   /// @brief Field <cellsEnumerator>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::GridView_GridViewCellsEnumerator* ____cellsEnumerator_k__BackingField;
 

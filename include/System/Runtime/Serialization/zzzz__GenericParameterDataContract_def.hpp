@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\GenericParameterDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/GenericParameterDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ protected:
   constexpr GenericParameterDataContract_GenericParameterDataContractCriticalHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract_GenericParameterDataContractCriticalHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract_GenericParameterDataContractCriticalHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericParameterDataContract_GenericParameterDataContractCriticalHelper(GenericParameterDataContract_GenericParameterDataContractCriticalHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract_GenericParameterDataContractCriticalHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract_GenericParameterDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericParameterDataContract_GenericParameterDataContractCriticalHelper(GenericParameterDataContract_GenericParameterDataContractCriticalHelper const&) = delete;
+  GenericParameterDataContract_GenericParameterDataContractCriticalHelper(GenericParameterDataContract_GenericParameterDataContractCriticalHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17046 };
@@ -109,13 +109,13 @@ protected:
   constexpr GenericParameterDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericParameterDataContract(GenericParameterDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericParameterDataContract(GenericParameterDataContract const&) = delete;
+  GenericParameterDataContract(GenericParameterDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17047 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\LoggerAnalyticsBatch.hpp"
+// IWYU pragma private; include "OSCE/Analytics/LoggerAnalyticsBatch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,6 +101,7 @@ public:
   /// @brief Method get_Count, addr 0x5f3bf74, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CreatedByPool, addr 0x5f3d3cc, size 0x8, virtual true, abstract: false, final true
   inline bool get_CreatedByPool();
 
@@ -110,6 +111,7 @@ public:
   /// @brief Convert to "::OSCE::Networking::IPureCSharpPoolElement"
   constexpr ::OSCE::Networking::IPureCSharpPoolElement* i___OSCE__Networking__IPureCSharpPoolElement() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_CreatedByPool, addr 0x5f3d3d4, size 0x8, virtual true, abstract: false, final true
   inline void set_CreatedByPool(bool value);
 
@@ -119,13 +121,13 @@ protected:
   constexpr LoggerAnalyticsBatch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LoggerAnalyticsBatch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoggerAnalyticsBatch", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LoggerAnalyticsBatch(LoggerAnalyticsBatch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LoggerAnalyticsBatch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoggerAnalyticsBatch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LoggerAnalyticsBatch(LoggerAnalyticsBatch const&) = delete;
+  LoggerAnalyticsBatch(LoggerAnalyticsBatchconst&) = delete;
 
   /// @brief Field FAILED_BATCH_RETRIES offset 0xffffffff size 0x4
   static constexpr int32_t FAILED_BATCH_RETRIES{ static_cast<int32_t>(0x3) };
@@ -142,6 +144,7 @@ public:
   /// @brief Field _failedAttempts, offset: 0x20, size: 0x4, def value: None
   int32_t ____failedAttempts;
 
+  /// [CompilerGenerated]
   /// @brief Field <CreatedByPool>k__BackingField, offset: 0x24, size: 0x1, def value: None
   bool ____CreatedByPool_k__BackingField;
 

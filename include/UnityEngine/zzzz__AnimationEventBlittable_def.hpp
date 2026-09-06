@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimationEventBlittable.hpp"
+// IWYU pragma private; include "UnityEngine/AnimationEventBlittable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ struct AnimationEventBlittable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::AnimationEventBlittable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AnimationEventBlittable, "UnityEngine", "AnimationEventBlittable");
+// [RequiredByNativeCode]
 // Dependencies System.IntPtr, UnityEngine.AnimationEventSource, UnityEngine.AnimatorClipInfo, UnityEngine.AnimatorStateInfo
 namespace UnityEngine {
 // Is value type: true
@@ -50,6 +51,7 @@ public:
   /// @brief Method DisposeEvents, addr 0x6a39724, size 0x60, virtual false, abstract: false, final false
   static inline void DisposeEvents(::System::IntPtr animationEventBlittableArray, int32_t size);
 
+  /// [FreeFunction(Name = "AnimationClipBindings::FreeEventsInternal")]
   /// @brief Method FreeEventsInternal, addr 0x6a39910, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeEventsInternal(::System::IntPtr value);
 
@@ -59,6 +61,7 @@ public:
   /// @brief Method FromAnimationEvents, addr 0x6a39194, size 0x214, virtual false, abstract: false, final false
   static inline void FromAnimationEvents(::ArrayW<::UnityEngine::AnimationEvent*> animationEvents, ::UnityEngine::AnimationEventBlittable* animationEventBlittables);
 
+  /// [RequiredByNativeCode]
   /// @brief Method PointerToAnimationEvent, addr 0x6a393a8, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationEvent* PointerToAnimationEvent(::System::IntPtr animationEventBlittable);
 
@@ -79,12 +82,13 @@ public:
   // @brief default ctor
   constexpr AnimationEventBlittable();
 
-  // Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_FunctionName", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam
-  // { name: "m_StringParameter", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_ObjectReferenceParameter", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "m_FloatParameter", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_IntParameter", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_MessageOptions", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Source", ty: "::UnityEngine::AnimationEventSource", modifiers: "", def_value: None }, CppParam { name:
-  // "m_StateSender", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_AnimatorStateInfo", ty: "::UnityEngine::AnimatorStateInfo", modifiers: "", def_value: None },
-  // CppParam { name: "m_AnimatorClipInfo", ty: "::UnityEngine::AnimatorClipInfo", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FunctionName", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_StringParameter", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ObjectReferenceParameter", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FloatParameter", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_IntParameter", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MessageOptions", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_Source", ty: "::UnityEngine::AnimationEventSource", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StateSender", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_AnimatorStateInfo", ty: "::UnityEngine::AnimatorStateInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AnimatorClipInfo", ty:
+  // "::UnityEngine::AnimatorClipInfo", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationEventBlittable(float_t m_Time, ::System::IntPtr m_FunctionName, ::System::IntPtr m_StringParameter, ::System::IntPtr m_ObjectReferenceParameter, float_t m_FloatParameter,
                                     int32_t m_IntParameter, int32_t m_MessageOptions, ::UnityEngine::AnimationEventSource m_Source, ::System::IntPtr m_StateSender,
                                     ::UnityEngine::AnimatorStateInfo m_AnimatorStateInfo, ::UnityEngine::AnimatorClipInfo m_AnimatorClipInfo) noexcept;

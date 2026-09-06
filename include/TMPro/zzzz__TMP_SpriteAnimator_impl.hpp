@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_SpriteAnimator.hpp"
+// IWYU pragma private; include "TMPro/TMP_SpriteAnimator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_CharacterInfo_impl.hpp"
 #include "TMPro/zzzz__TMP_MeshInfo_impl.hpp"
@@ -317,6 +317,7 @@ inline ::System::Object* TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7* TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7*>(__1__state));
 }

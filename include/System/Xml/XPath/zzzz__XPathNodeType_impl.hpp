@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XPath\XPathNodeType.hpp"
+// IWYU pragma private; include "System/Xml/XPath/XPathNodeType.hpp"
 #include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XPath::XPathNodeType::XPathNodeType(int32_t value__) noexcept {
   this->value__ = value__;
 }

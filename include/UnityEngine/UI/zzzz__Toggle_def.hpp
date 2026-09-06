@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Toggle.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Toggle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,7 +90,7 @@ public:
   // @brief default ctor
   constexpr Toggle_ToggleTransition();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Toggle_ToggleTransition(int32_t value__) noexcept;
 
   /// @brief Field Fade value: I32(1)
@@ -134,13 +134,13 @@ protected:
   constexpr Toggle_ToggleEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle_ToggleEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_ToggleEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Toggle_ToggleEvent(Toggle_ToggleEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle_ToggleEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_ToggleEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle_ToggleEvent(Toggle_ToggleEvent const&) = delete;
+  Toggle_ToggleEvent(Toggle_ToggleEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17500 };
@@ -151,6 +151,8 @@ public:
 static_assert(sizeof(::UnityEngine::UI::Toggle_ToggleEvent) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("UI/Toggle", 30)]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.UI.Selectable, UnityEngine.UI.Toggle::ToggleTransition
 namespace UnityEngine::UI {
 // Is value type: false
@@ -306,13 +308,13 @@ protected:
   constexpr Toggle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Toggle(Toggle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle(Toggle const&) = delete;
+  Toggle(Toggleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17501 };
@@ -323,12 +325,15 @@ public:
   /// @brief Field graphic, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ___graphic;
 
+  /// [SerializeField]
   /// @brief Field m_Group, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::ToggleGroup> ___m_Group;
 
   /// @brief Field onValueChanged, offset: 0x118, size: 0x8, def value: None
   ::UnityEngine::UI::Toggle_ToggleEvent* ___onValueChanged;
 
+  /// [Tooltip("Is the toggle currently on or off?")]
+  /// [SerializeField]
   /// @brief Field m_IsOn, offset: 0x120, size: 0x1, def value: None
   bool ___m_IsOn;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NumericConvertInstruction_Unchecked.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NumericConvertInstruction_Unchecked.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,13 +59,13 @@ protected:
   constexpr NumericConvertInstruction_Unchecked();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction_Unchecked", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction_Unchecked", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NumericConvertInstruction_Unchecked(NumericConvertInstruction_Unchecked&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction_Unchecked", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction_Unchecked", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NumericConvertInstruction_Unchecked(NumericConvertInstruction_Unchecked const&) = delete;
+  NumericConvertInstruction_Unchecked(NumericConvertInstruction_Uncheckedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16553 };

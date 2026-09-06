@@ -1,8 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputControlExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputControlExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -23,7 +25,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlExtensions_Enumerate::InputControlExtensions_Enumerate(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -131,9 +133,10 @@ constexpr UnityEngine::InputSystem::InputControlExtensions_InputEventControlColl
 constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::InputControlExtensions_InputEventControlCollection::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EventPtr", ty:
-// "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputControlExtensions_Enumerate",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MagnitudeThreshold", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_EventPtr", ty:
+// "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty:
+// "::UnityEngine::InputSystem::InputControlExtensions_Enumerate", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MagnitudeThreshold", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlExtensions_InputEventControlCollection::InputControlExtensions_InputEventControlCollection(
     ::UnityEngine::InputSystem::InputDevice* m_Device, ::UnityEngine::InputSystem::LowLevel::InputEventPtr m_EventPtr, ::UnityEngine::InputSystem::InputControlExtensions_Enumerate m_Flags,
     float_t m_MagnitudeThreshold) noexcept {
@@ -338,16 +341,17 @@ constexpr UnityEngine::InputSystem::InputControlExtensions_InputEventControlEnum
 constexpr ::System::IDisposable* UnityEngine::InputSystem::InputControlExtensions_InputEventControlEnumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputControlExtensions_Enumerate", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Device", ty:
-// "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StateOffsetToControlIndex", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_StateOffsetToControlIndexLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AllControls", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DefaultState", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_CurrentState", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NoiseMask", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_EventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentControl", ty:
-// "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentIndexInStateOffsetToControlIndexMap", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_CurrentControlStateBitOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EventState", ty: "uint8_t*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_CurrentBitOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EndBitOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_MagnitudeThreshold", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputControlExtensions_Enumerate", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Device",
+// ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StateOffsetToControlIndex", ty: "::ArrayW<uint32_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_StateOffsetToControlIndexLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AllControls",
+// ty: "::ArrayW<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DefaultState", ty: "uint8_t*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_CurrentState", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NoiseMask", ty: "uint8_t*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_EventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_CurrentControl", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentIndexInStateOffsetToControlIndexMap",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentControlStateBitOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_EventState", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentBitOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_EndBitOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MagnitudeThreshold", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlExtensions_InputEventControlEnumerator::InputControlExtensions_InputEventControlEnumerator(
     ::UnityEngine::InputSystem::InputControlExtensions_Enumerate m_Flags, ::UnityEngine::InputSystem::InputDevice* m_Device, ::ArrayW<uint32_t> m_StateOffsetToControlIndex,
     int32_t m_StateOffsetToControlIndexLength, ::ArrayW<::UnityEngine::InputSystem::InputControl*> m_AllControls, uint8_t* m_DefaultState, uint8_t* m_CurrentState, uint8_t* m_NoiseMask,
@@ -721,6 +725,8 @@ UnityEngine::InputSystem::InputControlExtensions_ControlBuilder::WithMinAndMax(:
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder>(*this, ___internal_method, min, max);
 }
 template <typename TProcessor, typename TValue>
+  requires(::cordl_internals::type_constraint<TProcessor, ::UnityEngine::InputSystem::InputProcessor_1<TValue>*> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
 inline ::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder UnityEngine::InputSystem::InputControlExtensions_ControlBuilder::WithProcessor(TProcessor processor) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder>(),
@@ -752,7 +758,7 @@ inline void UnityEngine::InputSystem::InputControlExtensions_ControlBuilder::Fin
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder>(), { "Finish", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_control_k__BackingField", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_control_k__BackingField", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder::InputControlExtensions_ControlBuilder(::UnityEngine::InputSystem::InputControl* _control_k__BackingField) noexcept {
   this->_control_k__BackingField = _control_k__BackingField;
 }
@@ -1038,7 +1044,7 @@ inline void UnityEngine::InputSystem::InputControlExtensions_DeviceBuilder::Fini
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlExtensions_DeviceBuilder>(), { "Finish", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlExtensions_DeviceBuilder::InputControlExtensions_DeviceBuilder(::UnityEngine::InputSystem::InputDevice* _device_k__BackingField) noexcept {
   this->_device_k__BackingField = _device_k__BackingField;
 }
@@ -1347,6 +1353,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputContro
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlExtensions__GetAllButtonPresses_d__43*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputSystem::InputControlExtensions__GetAllButtonPresses_d__43* UnityEngine::InputSystem::InputControlExtensions__GetAllButtonPresses_d__43::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::InputControlExtensions__GetAllButtonPresses_d__43*>(__1__state));
 }
@@ -1876,7 +1883,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSyste
     return ___internal_method;
   }
 };
-template <typename TControl> inline TControl UnityEngine::InputSystem::InputControlExtensions::FindInParentChain(::UnityEngine::InputSystem::InputControl* control) {
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+inline TControl UnityEngine::InputSystem::InputControlExtensions::FindInParentChain(::UnityEngine::InputSystem::InputControl* control) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlExtensions*>(),
                                                            { "FindInParentChain", { ::i2c::class_of<TControl>() }, { ::i2c::type_of<::UnityEngine::InputSystem::InputControl*>() } })));
@@ -1912,6 +1921,7 @@ inline ::System::Object* UnityEngine::InputSystem::InputControlExtensions::ReadD
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, control);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline TValue UnityEngine::InputSystem::InputControlExtensions::ReadValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control,
                                                                                    ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1923,6 +1933,7 @@ inline TValue UnityEngine::InputSystem::InputControlExtensions::ReadValueFromEve
   return ::cordl_internals::RunMethodRethrow<TValue>(nullptr, ___internal_method, control, inputEvent);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline bool UnityEngine::InputSystem::InputControlExtensions::ReadValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control,
                                                                                  ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent, ::by_ref<TValue> value) {
   static auto* ___internal_method_base =
@@ -1944,6 +1955,7 @@ inline ::System::Object* UnityEngine::InputSystem::InputControlExtensions::ReadV
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, control, inputEvent);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline TValue UnityEngine::InputSystem::InputControlExtensions::ReadUnprocessedValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control,
                                                                                               ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1955,6 +1967,7 @@ inline TValue UnityEngine::InputSystem::InputControlExtensions::ReadUnprocessedV
   return ::cordl_internals::RunMethodRethrow<TValue>(nullptr, ___internal_method, control, eventPtr);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline bool UnityEngine::InputSystem::InputControlExtensions::ReadUnprocessedValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control,
                                                                                             ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent, ::by_ref<TValue> value) {
   static auto* ___internal_method_base =
@@ -1982,7 +1995,9 @@ inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoStat
                                                            { "WriteValueIntoState", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputControl*>(), ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, control, statePtr);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoState(::UnityEngine::InputSystem::InputControl* control, TValue value, void* statePtr) {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoState(::UnityEngine::InputSystem::InputControl* control, TValue value, void* statePtr) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -1992,6 +2007,7 @@ template <typename TValue> inline void UnityEngine::InputSystem::InputControlExt
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, control, value, statePtr);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, void* statePtr) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -2001,7 +2017,9 @@ inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoStat
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, control, value, statePtr);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, void* statePtr) {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, void* statePtr) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlExtensions*>(),
@@ -2010,6 +2028,9 @@ template <typename TValue> inline void UnityEngine::InputSystem::InputControlExt
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, control, statePtr);
 }
 template <typename TValue, typename TState>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+           ::cordl_internals::type_constraint<TState, ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*> && ::cordl_internals::value_type_constraint<TState> &&
+           ::cordl_internals::default_constructor_constraint<TState>)
 inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, ::by_ref<TState> state) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlExtensions*>(),
@@ -2020,6 +2041,7 @@ inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoStat
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, control, value, state);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoEvent(::UnityEngine::InputSystem::InputControl* control, TValue value,
                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -2032,6 +2054,7 @@ inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoEven
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, control, value, eventPtr);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline void UnityEngine::InputSystem::InputControlExtensions::WriteValueIntoEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value,
                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlExtensions*>(),
@@ -2048,7 +2071,10 @@ inline void UnityEngine::InputSystem::InputControlExtensions::CopyState(::UnityE
                                                            { "CopyState", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputDevice*>(), ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, device, buffer, bufferSizeInBytes);
 }
-template <typename TState> inline void UnityEngine::InputSystem::InputControlExtensions::CopyState(::UnityEngine::InputSystem::InputDevice* device, ::by_ref<TState> state) {
+template <typename TState>
+  requires(::cordl_internals::type_constraint<TState, ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*> && ::cordl_internals::value_type_constraint<TState> &&
+           ::cordl_internals::default_constructor_constraint<TState>)
+inline void UnityEngine::InputSystem::InputControlExtensions::CopyState(::UnityEngine::InputSystem::InputDevice* device, ::by_ref<TState> state) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlExtensions*>(),
                                               { "CopyState", { ::i2c::class_of<TState>() }, { ::i2c::type_of<::UnityEngine::InputSystem::InputDevice*>(), ::i2c::type_of<::by_ref<TState>>() } })));
@@ -2139,7 +2165,9 @@ inline bool UnityEngine::InputSystem::InputControlExtensions::ResetToDefaultStat
                        { "ResetToDefaultStateInEvent", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputControl*>(), ::i2c::type_of<::UnityEngine::InputSystem::LowLevel::InputEventPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, control, eventPtr);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::InputControlExtensions::QueueValueChange(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, double_t time) {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline void UnityEngine::InputSystem::InputControlExtensions::QueueValueChange(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, double_t time) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -2167,6 +2195,7 @@ inline void UnityEngine::InputSystem::InputControlExtensions::AccumulateValueInE
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, control, currentStatePtr, newState);
 }
 template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 inline void UnityEngine::InputSystem::InputControlExtensions::FindControlsRecursive(::UnityEngine::InputSystem::InputControl* parent, ::System::Collections::Generic::IList_1<TControl>* controls,
                                                                                     ::System::Func_2<TControl, bool>* predicate) {
   static auto* ___internal_method_base =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\LayoutElement.hpp"
+// IWYU pragma private; include "UnityEngine/UI/LayoutElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,9 @@ class LayoutElement;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::LayoutElement*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::LayoutElement*, "UnityEngine.UI", "LayoutElement");
+// [AddComponentMenu("Layout/Layout Element", 140)]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
+// [ExecuteAlways]
 // Dependencies UnityEngine.EventSystems.UIBehaviour
 namespace UnityEngine::UI {
 // Is value type: false
@@ -210,38 +213,46 @@ protected:
   constexpr LayoutElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutElement(LayoutElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutElement(LayoutElement const&) = delete;
+  LayoutElement(LayoutElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17459 };
 
+  /// [SerializeField]
   /// @brief Field m_IgnoreLayout, offset: 0x20, size: 0x1, def value: None
   bool ___m_IgnoreLayout;
 
+  /// [SerializeField]
   /// @brief Field m_MinWidth, offset: 0x24, size: 0x4, def value: None
   float_t ___m_MinWidth;
 
+  /// [SerializeField]
   /// @brief Field m_MinHeight, offset: 0x28, size: 0x4, def value: None
   float_t ___m_MinHeight;
 
+  /// [SerializeField]
   /// @brief Field m_PreferredWidth, offset: 0x2c, size: 0x4, def value: None
   float_t ___m_PreferredWidth;
 
+  /// [SerializeField]
   /// @brief Field m_PreferredHeight, offset: 0x30, size: 0x4, def value: None
   float_t ___m_PreferredHeight;
 
+  /// [SerializeField]
   /// @brief Field m_FlexibleWidth, offset: 0x34, size: 0x4, def value: None
   float_t ___m_FlexibleWidth;
 
+  /// [SerializeField]
   /// @brief Field m_FlexibleHeight, offset: 0x38, size: 0x4, def value: None
   float_t ___m_FlexibleHeight;
 
+  /// [SerializeField]
   /// @brief Field m_LayoutPriority, offset: 0x3c, size: 0x4, def value: None
   int32_t ___m_LayoutPriority;
 

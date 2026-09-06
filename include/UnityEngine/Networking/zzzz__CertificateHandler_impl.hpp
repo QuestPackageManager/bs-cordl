@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\CertificateHandler.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/CertificateHandler.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__CertificateHandler_def.hpp"
@@ -143,7 +143,7 @@ constexpr void UnityEngine::Networking::CertificateHandler::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }
-inline ::System::IntPtr UnityEngine::Networking::CertificateHandler::Create(::UnityEngine::Networking::CertificateHandler* obj) {
+inline ::System::IntPtr UnityEngine::Networking::CertificateHandler::Create(/* [Unmarshalled] */ ::UnityEngine::Networking::CertificateHandler* obj) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::CertificateHandler*>(), { "Create", {}, { ::i2c::type_of<::UnityEngine::Networking::CertificateHandler*>() } })));

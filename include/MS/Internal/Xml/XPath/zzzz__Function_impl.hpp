@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS\Internal\Xml\XPath\Function.hpp"
+// IWYU pragma private; include "MS/Internal/Xml/XPath/Function.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathResultType_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Function_def.hpp"
@@ -7,7 +7,7 @@
 #include "MS/Internal/Xml/XPath/zzzz__Function_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathResultType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::MS::Internal::Xml::XPath::Function_FunctionType::Function_FunctionType(int32_t value__) noexcept {
   this->value__ = value__;
 }

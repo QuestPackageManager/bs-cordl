@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ExclusiveFetchRequestAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/ExclusiveFetchRequestAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ExclusiveFetchRequestAttribute;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ExclusiveFetchRequestAttribute*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ExclusiveFetchRequestAttribute*, "", "ExclusiveFetchRequestAttribute");
+// [AttributeUsage((System.AttributeTargets)4, Inherited = true)]
 // Dependencies System.Attribute
 namespace GlobalNamespace {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr ExclusiveFetchRequestAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveFetchRequestAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveFetchRequestAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExclusiveFetchRequestAttribute(ExclusiveFetchRequestAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveFetchRequestAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveFetchRequestAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExclusiveFetchRequestAttribute(ExclusiveFetchRequestAttribute const&) = delete;
+  ExclusiveFetchRequestAttribute(ExclusiveFetchRequestAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22864 };

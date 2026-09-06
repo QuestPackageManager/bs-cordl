@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundColorsGradient.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundColorsGradient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace GlobalNamespace {
 class BloomPrePassBackgroundColorsGradient_Element;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine {
 struct Color32;
@@ -79,13 +81,13 @@ protected:
   constexpr BloomPrePassBackgroundColorsGradient_Element();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient_Element", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient_Element", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundColorsGradient_Element(BloomPrePassBackgroundColorsGradient_Element&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient_Element", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient_Element", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColorsGradient_Element(BloomPrePassBackgroundColorsGradient_Element const&) = delete;
+  BloomPrePassBackgroundColorsGradient_Element(BloomPrePassBackgroundColorsGradient_Elementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19448 };
@@ -151,17 +153,18 @@ protected:
   constexpr BloomPrePassBackgroundColorsGradient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundColorsGradient(BloomPrePassBackgroundColorsGradient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColorsGradient(BloomPrePassBackgroundColorsGradient const&) = delete;
+  BloomPrePassBackgroundColorsGradient(BloomPrePassBackgroundColorsGradientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19449 };
 
+  /// [SerializeField]
   /// @brief Field _elements, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*> ____elements;
 

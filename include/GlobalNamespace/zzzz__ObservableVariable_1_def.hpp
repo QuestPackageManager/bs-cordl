@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObservableVariable_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObservableVariable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void add_didChangeEvent(::System::Action* value);
 
@@ -76,6 +77,7 @@ public:
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T op_Implicit_T(::GlobalNamespace::ObservableVariable_1<T>* obj);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void remove_didChangeEvent(::System::Action* value);
 
@@ -88,17 +90,18 @@ protected:
   constexpr ObservableVariable_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObservableVariable_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObservableVariable_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObservableVariable_1(ObservableVariable_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObservableVariable_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObservableVariable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObservableVariable_1(ObservableVariable_1 const&) = delete;
+  ObservableVariable_1(ObservableVariable_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20779 };
 
+  /// [CompilerGenerated]
   /// @brief Field didChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___didChangeEvent;
 

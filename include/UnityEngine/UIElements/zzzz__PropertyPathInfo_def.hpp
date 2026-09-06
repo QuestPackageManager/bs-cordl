@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PropertyPathInfo.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PropertyPathInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ struct PropertyPathInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::PropertyPathInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PropertyPathInfo, "UnityEngine.UIElements", "PropertyPathInfo");
+// [IsReadOnly]
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies Unity.Properties.PropertyPath
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -27,14 +29,14 @@ struct CORDL_TYPE PropertyPathInfo {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x6c44dbc, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::Unity::Properties::PropertyPath> propertyPath, ::System::Type* type);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> propertyPath, ::System::Type* type);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PropertyPathInfo();
 
-  // Ctor Parameters [CppParam { name: "propertyPath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::System::Type*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "propertyPath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty: "::System::Type*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr PropertyPathInfo(::Unity::Properties::PropertyPath propertyPath, ::System::Type* type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

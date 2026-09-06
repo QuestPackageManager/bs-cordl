@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextGeneratorUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextGeneratorUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,8 @@ class TextGeneratorUtilities;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Text::TextGeneratorUtilities*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextGeneratorUtilities*, "UnityEngine.TextCore.Text", "TextGeneratorUtilities");
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
+// [Extension]
 // Dependencies System.Object, UnityEngine.Vector2
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -116,6 +118,7 @@ public:
   /// @brief Method GetAttributeParameters, addr 0x6c0c270, size 0xe8, virtual false, abstract: false, final false
   static inline int32_t GetAttributeParameters(::ArrayW<char16_t> chars, int32_t startIndex, int32_t length, ::by_ref<::ArrayW<float_t>> parameters);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method GetHorizontalAlignment, addr 0x6c0c020, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::HorizontalAlignment GetHorizontalAlignment(::UnityEngine::TextAnchor anchor);
 
@@ -146,6 +149,7 @@ public:
   /// @brief Method GetUTF32, addr 0x6c097a8, size 0x110, virtual false, abstract: false, final false
   static inline uint32_t GetUTF32(::UnityEngine::TextCore::Text::TextBackingContainer text, int32_t i);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method GetVerticalAlignment, addr 0x6c0c044, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::VerticalAlignment GetVerticalAlignment(::UnityEngine::TextAnchor anchor);
 
@@ -214,6 +218,7 @@ public:
   /// @brief Method LegacyStyleToNewStyle, addr 0x6c0bfec, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::FontStyles LegacyStyleToNewStyle(::UnityEngine::FontStyle fontStyle);
 
+  /// [Extension]
   /// @brief Method MinAlpha, addr 0x6c0c50c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color MinAlpha(::UnityEngine::Color c1, ::UnityEngine::Color c2);
 
@@ -274,13 +279,13 @@ protected:
   constexpr TextGeneratorUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextGeneratorUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGeneratorUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextGeneratorUtilities(TextGeneratorUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextGeneratorUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGeneratorUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextGeneratorUtilities(TextGeneratorUtilities const&) = delete;
+  TextGeneratorUtilities(TextGeneratorUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17267 };

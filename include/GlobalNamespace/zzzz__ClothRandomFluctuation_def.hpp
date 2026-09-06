@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ClothRandomFluctuation.hpp"
+// IWYU pragma private; include "GlobalNamespace/ClothRandomFluctuation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,13 +65,13 @@ protected:
   constexpr ClothRandomFluctuation_SineLayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation_SineLayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation_SineLayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClothRandomFluctuation_SineLayer(ClothRandomFluctuation_SineLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation_SineLayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation_SineLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClothRandomFluctuation_SineLayer(ClothRandomFluctuation_SineLayer const&) = delete;
+  ClothRandomFluctuation_SineLayer(ClothRandomFluctuation_SineLayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5537 };
@@ -194,38 +194,48 @@ protected:
   constexpr ClothRandomFluctuation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClothRandomFluctuation(ClothRandomFluctuation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClothRandomFluctuation(ClothRandomFluctuation const&) = delete;
+  ClothRandomFluctuation(ClothRandomFluctuationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5538 };
 
+  /// [SerializeField]
   /// @brief Field _cloth, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Cloth> ____cloth;
 
+  /// [Header("External Fluctuations")]
+  /// [SerializeField]
   /// @brief Field _useLocalExternalFluctuations, offset: 0x28, size: 0x1, def value: None
   bool ____useLocalExternalFluctuations;
 
+  /// [SerializeField]
   /// @brief Field _externalFluctuations, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____externalFluctuations;
 
+  /// [Header("Random Fluctuations")]
+  /// [SerializeField]
   /// @brief Field _useLocalRandomFluctuations, offset: 0x38, size: 0x1, def value: None
   bool ____useLocalRandomFluctuations;
 
+  /// [SerializeField]
   /// @brief Field _minFluctuations, offset: 0x3c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____minFluctuations;
 
+  /// [SerializeField]
   /// @brief Field _maxFluctuations, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____maxFluctuations;
 
+  /// [SerializeField]
   /// @brief Field _compoundSins, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>* ____compoundSins;
 
+  /// [SerializeField]
   /// @brief Field _speed, offset: 0x60, size: 0x4, def value: None
   float_t ____speed;
 

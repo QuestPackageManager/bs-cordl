@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphAnchorPoint.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphAnchorPoint.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphAnchorPoint_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint.get_xCoordinate
 template <>
@@ -69,7 +69,8 @@ inline void UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::set_yCoordinate(f
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint>(), { "set_yCoordinate", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_XCoordinate", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YCoordinate", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_XCoordinate", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YCoordinate", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::GlyphAnchorPoint(float_t m_XCoordinate, float_t m_YCoordinate) noexcept {
   this->m_XCoordinate = m_XCoordinate;
   this->m_YCoordinate = m_YCoordinate;

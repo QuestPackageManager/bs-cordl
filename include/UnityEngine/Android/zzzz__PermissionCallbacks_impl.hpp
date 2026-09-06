@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\PermissionCallbacks.hpp"
+// IWYU pragma private; include "UnityEngine/Android/PermissionCallbacks.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
 #include "UnityEngine/Android/zzzz__PermissionCallbacks_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/Android/zzzz__PermissionCallbacks_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Android::PermissionCallbacks_Result::PermissionCallbacks_Result(int32_t value__) noexcept {
   this->value__ = value__;
 }

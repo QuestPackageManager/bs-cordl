@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HableCurve.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HableCurve.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__HableCurve_def.hpp"
 #include "UnityEngine/Rendering/zzzz__HableCurve_def.hpp"
@@ -115,10 +115,10 @@ inline ::UnityEngine::Rendering::HableCurve_Segment* UnityEngine::Rendering::Hab
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::HableCurve_Segment::HableCurve_Segment() {}
-// Ctor Parameters [CppParam { name: "x0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "x1",
-// ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "W", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "overshootX", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "overshootY", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "gamma", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "x1", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y1", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "W", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overshootX", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "overshootY", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gamma", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::HableCurve_DirectParams::HableCurve_DirectParams(float_t x0, float_t y0, float_t x1, float_t y1, float_t W, float_t overshootX, float_t overshootY,
                                                                                      float_t gamma) noexcept {
   this->x0 = x0;

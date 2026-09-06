@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineGraphicsSettingsCollection.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineGraphicsSettingsCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,17 +50,18 @@ protected:
   constexpr RenderPipelineGraphicsSettingsCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipelineGraphicsSettingsCollection(RenderPipelineGraphicsSettingsCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipelineGraphicsSettingsCollection(RenderPipelineGraphicsSettingsCollection const&) = delete;
+  RenderPipelineGraphicsSettingsCollection(RenderPipelineGraphicsSettingsCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10774 };
 
+  /// [SerializeReference]
   /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* ___m_List;
 

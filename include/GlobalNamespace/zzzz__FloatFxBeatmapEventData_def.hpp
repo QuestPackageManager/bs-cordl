@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxBeatmapEventData.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxBeatmapEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,6 +109,7 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* getStaticF__defaults();
 
+  /// [CompilerGenerated]
   /// @brief Method get_easeType, addr 0x325a184, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
@@ -118,14 +119,17 @@ public:
   /// @brief Method get_previousSameTypeEventData, addr 0x325a07c, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::FloatFxBeatmapEventData* get_previousSameTypeEventData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_value, addr 0x325a174, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_easeType, addr 0x325a18c, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_value, addr 0x325a17c, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
@@ -135,13 +139,13 @@ protected:
   constexpr FloatFxBeatmapEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxBeatmapEventData(FloatFxBeatmapEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxBeatmapEventData(FloatFxBeatmapEventData const&) = delete;
+  FloatFxBeatmapEventData(FloatFxBeatmapEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21244 };
@@ -155,9 +159,11 @@ public:
   /// @brief Field usePreviousEventValue, offset: 0x40, size: 0x1, def value: None
   bool ___usePreviousEventValue;
 
+  /// [CompilerGenerated]
   /// @brief Field <value>k__BackingField, offset: 0x44, size: 0x4, def value: None
   float_t ____value_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <easeType>k__BackingField, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType_k__BackingField;
 

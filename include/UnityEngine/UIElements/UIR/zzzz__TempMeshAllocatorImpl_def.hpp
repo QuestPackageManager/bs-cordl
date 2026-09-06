@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\TempMeshAllocatorImpl.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TempMeshAllocatorImpl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,10 +19,14 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class TempAllocator_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class TempAllocator_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct TempMeshAllocatorImpl_ThreadData;
@@ -56,7 +60,7 @@ public:
   // @brief default ctor
   constexpr TempMeshAllocatorImpl_ThreadData();
 
-  // Ctor Parameters [CppParam { name: "allocations", ty: "::System::Collections::Generic::List_1<::System::IntPtr>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "allocations", ty: "::System::Collections::Generic::List_1<::System::IntPtr>*", modifiers: "", def_value: None, comment: None }]
   constexpr TempMeshAllocatorImpl_ThreadData(::System::Collections::Generic::List_1<::System::IntPtr>* allocations) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -107,7 +111,9 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeSlice_1<T> Allocate(int32_t count, int32_t alignment);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeSlice_1<T> Allocate(int32_t count, int32_t alignment);
 
   /// @brief Method AllocateTempMesh, addr 0x6cf1b5c, size 0x298, virtual false, abstract: false, final false
   inline void AllocateTempMesh(int32_t vertexCount, int32_t indexCount, ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertices,
@@ -160,12 +166,14 @@ public:
   /// @brief Method .ctor, addr 0x6cf1964, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cf202c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cf2034, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -175,13 +183,13 @@ protected:
   constexpr TempMeshAllocatorImpl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TempMeshAllocatorImpl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TempMeshAllocatorImpl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TempMeshAllocatorImpl(TempMeshAllocatorImpl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TempMeshAllocatorImpl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TempMeshAllocatorImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TempMeshAllocatorImpl(TempMeshAllocatorImpl const&) = delete;
+  TempMeshAllocatorImpl(TempMeshAllocatorImplconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5350 };
@@ -198,6 +206,8 @@ public:
   /// @brief Field m_IndexPool, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* ___m_IndexPool;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

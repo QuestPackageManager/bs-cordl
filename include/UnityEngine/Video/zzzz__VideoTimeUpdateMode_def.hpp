@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Video\VideoTimeUpdateMode.hpp"
+// IWYU pragma private; include "UnityEngine/Video/VideoTimeUpdateMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VideoTimeUpdateMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Video::VideoTimeUpdateMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Video::VideoTimeUpdateMode, "UnityEngine.Video", "VideoTimeUpdateMode");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::Video {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr VideoTimeUpdateMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VideoTimeUpdateMode(int32_t value__) noexcept;
 
   /// @brief Field DSPTime value: I32(0)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\EventSystemListener.hpp"
+// IWYU pragma private; include "HMUI/EventSystemListener.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class EventSystemListener;
 // Write type traits
 MARK_REF_T(::HMUI::EventSystemListener*);
 DEFINE_IL2CPP_CLASS(::HMUI::EventSystemListener*, "HMUI", "EventSystemListener");
+// [RequireComponent(typeof(UnityEngine.UI.Graphic))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
@@ -74,9 +75,11 @@ public:
   /// @brief Method .ctor, addr 0x5879850, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_pointerDidEnterEvent, addr 0x5879518, size 0xc0, virtual false, abstract: false, final false
   inline void add_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_pointerDidExitEvent, addr 0x5879698, size 0xc0, virtual false, abstract: false, final false
   inline void add_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
@@ -89,9 +92,11 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_pointerDidEnterEvent, addr 0x58795d8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_pointerDidExitEvent, addr 0x5879758, size 0xc0, virtual false, abstract: false, final false
   inline void remove_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
@@ -101,20 +106,22 @@ protected:
   constexpr EventSystemListener();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventSystemListener", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventSystemListener", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventSystemListener(EventSystemListener&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventSystemListener", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventSystemListener", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventSystemListener(EventSystemListener const&) = delete;
+  EventSystemListener(EventSystemListenerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19040 };
 
+  /// [CompilerGenerated]
   /// @brief Field pointerDidEnterEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* ___pointerDidEnterEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field pointerDidExitEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* ___pointerDidExitEvent;
 

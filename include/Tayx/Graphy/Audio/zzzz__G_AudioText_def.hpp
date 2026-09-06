@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Audio\G_AudioText.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Audio/G_AudioText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,17 +98,18 @@ protected:
   constexpr G_AudioText();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_AudioText", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_AudioText", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_AudioText(G_AudioText&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_AudioText", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_AudioText", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_AudioText(G_AudioText const&) = delete;
+  G_AudioText(G_AudioTextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21506 };
 
+  /// [SerializeField]
   /// @brief Field m_DBText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_DBText;
 

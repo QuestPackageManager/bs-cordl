@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BurstSliderGameNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BurstSliderGameNoteController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,13 +99,13 @@ protected:
   constexpr BurstSliderGameNoteController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Pool const&) = delete;
+  BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5649 };
@@ -206,7 +206,7 @@ public:
   inline void HiddenStateDidChange(bool hide);
 
   /// @brief Method Init, addr 0x58cfe7c, size 0x18c, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType,
+  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType,
                    float_t uniformScale);
 
   /// @brief Method ManualUpdate, addr 0x58d07f4, size 0x24, virtual true, abstract: false, final false
@@ -313,6 +313,7 @@ public:
   /// @brief Method .ctor, addr 0x58d0ea4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x58cfce4, size 0xc0, virtual true, abstract: false, final true
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
 
@@ -341,6 +342,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x58cfda4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
 
@@ -350,32 +352,38 @@ protected:
   constexpr BurstSliderGameNoteController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstSliderGameNoteController(BurstSliderGameNoteController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderGameNoteController(BurstSliderGameNoteController const&) = delete;
+  BurstSliderGameNoteController(BurstSliderGameNoteControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5650 };
 
+  /// [SerializeField]
   /// @brief Field _bigCuttableBySaberList, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>> ____bigCuttableBySaberList;
 
+  /// [SerializeField]
   /// @brief Field _smallCuttableBySaberList, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>> ____smallCuttableBySaberList;
 
+  /// [SerializeField]
   /// @brief Field _wrapperGO, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____wrapperGO;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
+  /// [CompilerGenerated]
   /// @brief Field cubeNoteControllerDidInitEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* ___cubeNoteControllerDidInitEvent;
 

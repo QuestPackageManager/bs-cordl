@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\IVerifier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IVerifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,15 +20,15 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IVerifier {
 public:
   // Declarations
-  /// @brief Method IsVerified, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsVerified, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsVerified(::ArrayW<uint8_t> data);
 
-  /// @brief Method IsVerified, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsVerified, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsVerified(::ArrayW<uint8_t> source, int32_t off, int32_t length);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVerifier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVerifier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVerifier(IVerifier const&) = delete;
+  IVerifier(IVerifierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1002 };

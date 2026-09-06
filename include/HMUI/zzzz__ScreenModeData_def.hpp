@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ScreenModeData.hpp"
+// IWYU pragma private; include "HMUI/ScreenModeData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,13 +99,13 @@ protected:
   constexpr ScreenModeData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenModeData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenModeData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenModeData(ScreenModeData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenModeData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenModeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenModeData(ScreenModeData const&) = delete;
+  ScreenModeData(ScreenModeDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20963 };
@@ -125,9 +125,11 @@ public:
   /// @brief Field offsetHeightByHeadPos, offset: 0x30, size: 0x1, def value: None
   bool ___offsetHeightByHeadPos;
 
+  /// [DrawIf("offsetHeightByHeadPos", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field yOffsetRelativeToHead, offset: 0x34, size: 0x4, def value: None
   float_t ___yOffsetRelativeToHead;
 
+  /// [DrawIf("offsetHeightByHeadPos", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field minYPos, offset: 0x38, size: 0x4, def value: None
   float_t ___minYPos;
 

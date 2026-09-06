@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NetPacketProcessor.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NetPacketProcessor.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NetPacketProcessor_def.hpp"
@@ -116,106 +117,146 @@ inline ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate* LiteNetLib::Ut
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::NetPacketProcessor_SubscribeDelegate() {}
-template <typename T> constexpr ::System::Func_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get_packetConstructor() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Func_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get_packetConstructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
-template <typename T> constexpr ::System::Func_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get_packetConstructor() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Func_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get_packetConstructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___packetConstructor = value;
 }
-template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get___4__this() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get___4__this() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get_onReceive() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Action_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
-template <typename T> constexpr ::System::Action_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get_onReceive() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Action_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_get_onReceive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onReceive = value;
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::_Subscribe_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::_Subscribe_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>*>(),
                                                            { "<Subscribe>b__0", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, userData);
 }
-template <typename T> inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::NetPacketProcessor___c__DisplayClass25_0_1() {}
-template <typename T, typename TUserData> constexpr ::System::Func_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get_packetConstructor() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>::NetPacketProcessor___c__DisplayClass25_0_1() {}
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Func_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get_packetConstructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::System::Func_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get_packetConstructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___packetConstructor = value;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T, typename TUserData> constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::System::Action_2<T, TUserData>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get_onReceive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onReceive = value;
 }
-template <typename T, typename TUserData> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::_ctor() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::_Subscribe_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>*>(),
@@ -223,109 +264,154 @@ inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUs
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, userData);
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>*>());
 }
 // Ctor Parameters []
-template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::NetPacketProcessor___c__DisplayClass26_0_2() {}
-template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get___4__this() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>::NetPacketProcessor___c__DisplayClass26_0_2() {}
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get___4__this() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T> constexpr T& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get_reference() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr T& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get_reference() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
-template <typename T> constexpr T const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get_reference() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr T const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get_reference() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_set_reference(T value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_set_reference(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reference = value;
 }
-template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get_onReceive() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Action_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
-template <typename T> constexpr ::System::Action_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get_onReceive() const {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Action_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_get_onReceive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onReceive = value;
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::_SubscribeReusable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::_SubscribeReusable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>*>(),
                                                            { "<SubscribeReusable>b__0", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, userData);
 }
-template <typename T> inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::NetPacketProcessor___c__DisplayClass27_0_1() {}
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>::NetPacketProcessor___c__DisplayClass27_0_1() {}
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T, typename TUserData> constexpr T& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get_reference() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr T& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get_reference() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
-template <typename T, typename TUserData> constexpr T const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get_reference() const {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr T const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get_reference() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
-template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_set_reference(T value) {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_set_reference(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reference = value;
 }
-template <typename T, typename TUserData> constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::System::Action_2<T, TUserData>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get_onReceive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onReceive = value;
 }
-template <typename T, typename TUserData> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::_ctor() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::_SubscribeReusable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>*>(),
@@ -333,45 +419,59 @@ inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUs
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, userData);
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>*>());
 }
 // Ctor Parameters []
-template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::NetPacketProcessor___c__DisplayClass28_0_2() {}
-template <typename T, typename TUserData> constexpr ::System::Func_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_get_packetConstructor() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>::NetPacketProcessor___c__DisplayClass28_0_2() {}
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr ::System::Func_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_get_packetConstructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Func_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_get_packetConstructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___packetConstructor = value;
 }
-template <typename T, typename TUserData> constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Action_2<T, TUserData>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_get_onReceive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onReceive = value;
 }
-template <typename T, typename TUserData> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::_ctor() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::_SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>*>(),
@@ -379,83 +479,118 @@ inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUs
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, userData);
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>*>());
 }
 // Ctor Parameters []
-template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::NetPacketProcessor___c__DisplayClass29_0_2() {}
-template <typename T> constexpr ::System::Func_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_get_packetConstructor() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>::NetPacketProcessor___c__DisplayClass29_0_2() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr ::System::Func_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_get_packetConstructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
-template <typename T> constexpr ::System::Func_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_get_packetConstructor() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr ::System::Func_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_get_packetConstructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___packetConstructor = value;
 }
-template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_get_onReceive() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr ::System::Action_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
-template <typename T> constexpr ::System::Action_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_get_onReceive() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr ::System::Action_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_get_onReceive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onReceive = value;
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::_SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>*>(),
                                                            { "<SubscribeNetSerializable>b__0", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, userData);
 }
-template <typename T> inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::NetPacketProcessor___c__DisplayClass30_0_1() {}
-template <typename T, typename TUserData> constexpr T& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_get_reference() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>::NetPacketProcessor___c__DisplayClass30_0_1() {}
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr T& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_get_reference() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
-template <typename T, typename TUserData> constexpr T const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_get_reference() const {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr T const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_get_reference() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
-template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_set_reference(T value) {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_set_reference(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reference = value;
 }
-template <typename T, typename TUserData> constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::System::Action_2<T, TUserData>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_get_onReceive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onReceive = value;
 }
-template <typename T, typename TUserData> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::_ctor() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
 inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::_SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>*>(),
@@ -463,51 +598,73 @@ inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUs
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, userData);
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>*>());
 }
 // Ctor Parameters []
-template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::NetPacketProcessor___c__DisplayClass31_0_2() {}
-template <typename T> constexpr T& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_get_reference() {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>::NetPacketProcessor___c__DisplayClass31_0_2() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr T& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_get_reference() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
-template <typename T> constexpr T const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_get_reference() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr T const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_get_reference() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_set_reference(T value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_set_reference(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reference = value;
 }
-template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_get_onReceive() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Action_1<T>*& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
-template <typename T> constexpr ::System::Action_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_get_onReceive() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::Action_1<T>* const& LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_get_onReceive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
-template <typename T> constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onReceive = value;
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
 inline void LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::_SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>*>(),
                                                            { "<SubscribeNetSerializable>b__0", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, userData);
 }
-template <typename T> inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>* LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::NetPacketProcessor___c__DisplayClass32_0_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>::NetPacketProcessor___c__DisplayClass32_0_1() {}
 //  Writing Method size for method: ::LiteNetLib::Utils::NetPacketProcessor._ctor
 template <>
 
@@ -667,7 +824,9 @@ template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::WriteHa
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(), { "RegisterNestedType", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -684,7 +843,9 @@ inline void LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType(::System::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writeDelegate, readDelegate);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType(::System::Func_1<T>* constructor) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType(::System::Func_1<T>* constructor) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(), { "RegisterNestedType", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Func_1<T>*>() } })));
@@ -707,7 +868,9 @@ inline void LiteNetLib::Utils::NetPacketProcessor::ReadPacket(::LiteNetLib::Util
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(), { "ReadPacket", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::Send(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::Send(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
@@ -715,7 +878,9 @@ template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::Send(::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, peer, packet, options);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::SendNetSerializable(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+inline void LiteNetLib::Utils::NetPacketProcessor::SendNetSerializable(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
@@ -723,7 +888,9 @@ template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::SendNet
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, peer, packet, options);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::Send(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::Send(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
@@ -731,7 +898,9 @@ template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::Send(::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, manager, packet, options);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::SendNetSerializable(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+inline void LiteNetLib::Utils::NetPacketProcessor::SendNetSerializable(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
@@ -739,27 +908,35 @@ template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::SendNet
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, manager, packet, options);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::Write(::LiteNetLib::Utils::NetDataWriter* writer, T packet) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::Write(::LiteNetLib::Utils::NetDataWriter* writer, T packet) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
                                                            { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<::LiteNetLib::Utils::NetDataWriter*>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, packet);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::WriteNetSerializable(::LiteNetLib::Utils::NetDataWriter* writer, T packet) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+inline void LiteNetLib::Utils::NetPacketProcessor::WriteNetSerializable(::LiteNetLib::Utils::NetDataWriter* writer, T packet) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
                                                            { "WriteNetSerializable", { ::i2c::class_of<T>() }, { ::i2c::type_of<::LiteNetLib::Utils::NetDataWriter*>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, packet);
 }
-template <typename T> inline ::ArrayW<uint8_t> LiteNetLib::Utils::NetPacketProcessor::Write(T packet) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::ArrayW<uint8_t> LiteNetLib::Utils::NetPacketProcessor::Write(T packet) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(), { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method, packet);
 }
-template <typename T> inline ::ArrayW<uint8_t> LiteNetLib::Utils::NetPacketProcessor::WriteNetSerializable(T packet) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+inline ::ArrayW<uint8_t> LiteNetLib::Utils::NetPacketProcessor::WriteNetSerializable(T packet) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(), { "WriteNetSerializable", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -771,14 +948,18 @@ inline void LiteNetLib::Utils::NetPacketProcessor::ReadPacket(::LiteNetLib::Util
                                                            { "ReadPacket", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, userData);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::Subscribe(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::Subscribe(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
                                                            { "Subscribe", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Action_1<T>*>(), ::i2c::type_of<::System::Func_1<T>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, onReceive, packetConstructor);
 }
-template <typename T, typename TUserData> inline void LiteNetLib::Utils::NetPacketProcessor::Subscribe(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor) {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::Subscribe(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
@@ -786,14 +967,18 @@ template <typename T, typename TUserData> inline void LiteNetLib::Utils::NetPack
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<TUserData>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, onReceive, packetConstructor);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeReusable(::System::Action_1<T>* onReceive) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeReusable(::System::Action_1<T>* onReceive) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(), { "SubscribeReusable", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Action_1<T>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, onReceive);
 }
-template <typename T, typename TUserData> inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeReusable(::System::Action_2<T, TUserData>* onReceive) {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeReusable(::System::Action_2<T, TUserData>* onReceive) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
                                                            { "SubscribeReusable", { ::i2c::class_of<T>(), ::i2c::class_of<TUserData>() }, { ::i2c::type_of<::System::Action_2<T, TUserData>*>() } })));
@@ -801,6 +986,7 @@ template <typename T, typename TUserData> inline void LiteNetLib::Utils::NetPack
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, onReceive);
 }
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
                                                                                               { "SubscribeNetSerializable",
@@ -809,21 +995,27 @@ inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable(::Sy
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<TUserData>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, onReceive, packetConstructor);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
                                               { "SubscribeNetSerializable", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Action_1<T>*>(), ::i2c::type_of<::System::Func_1<T>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, onReceive, packetConstructor);
 }
-template <typename T, typename TUserData> inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive) {
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
                                               { "SubscribeNetSerializable", { ::i2c::class_of<T>(), ::i2c::class_of<TUserData>() }, { ::i2c::type_of<::System::Action_2<T, TUserData>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<TUserData>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, onReceive);
 }
-template <typename T> inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable(::System::Action_1<T>* onReceive) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable(::System::Action_1<T>* onReceive) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(),
                                                                                               { "SubscribeNetSerializable", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Action_1<T>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

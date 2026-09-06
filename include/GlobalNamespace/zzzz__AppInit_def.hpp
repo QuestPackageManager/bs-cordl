@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AppInit.hpp"
+// IWYU pragma private; include "GlobalNamespace/AppInit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,6 +78,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::AppInit___c*, "", "AppInit/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AppInit__Awake_d__7, "", "AppInit/<Awake>d__7");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AppInit__InitializeAsync_d__10, "", "AppInit/<InitializeAsync>d__10");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AppInit__StartGameAsync_d__8, "", "AppInit/<StartGameAsync>d__8");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -113,13 +114,13 @@ protected:
   constexpr AppInit___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppInit___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppInit___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppInit___c(AppInit___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppInit___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppInit___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppInit___c(AppInit___c const&) = delete;
+  AppInit___c(AppInit___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21512 };
@@ -130,6 +131,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::AppInit___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -143,6 +145,7 @@ public:
   /// @brief Method MoveNext, addr 0x32ffc34, size 0x244, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32ffe78, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -153,9 +156,9 @@ public:
   // @brief default ctor
   constexpr AppInit__Awake_d__7();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr AppInit__Awake_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::AppInit> __4__this,
                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -191,6 +194,7 @@ static_assert(offsetof(::GlobalNamespace::AppInit__Awake_d__7, __u__1) == 0x30, 
 static_assert(sizeof(::GlobalNamespace::AppInit__Awake_d__7) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -204,6 +208,7 @@ public:
   /// @brief Method MoveNext, addr 0x32ffe80, size 0x5d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3300584, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -214,9 +219,9 @@ public:
   // @brief default ctor
   constexpr AppInit__InitializeAsync_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr AppInit__InitializeAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::AppInit> __4__this,
                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -252,6 +257,7 @@ static_assert(offsetof(::GlobalNamespace::AppInit__InitializeAsync_d__10, __u__1
 static_assert(sizeof(::GlobalNamespace::AppInit__InitializeAsync_d__10) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -265,6 +271,7 @@ public:
   /// @brief Method MoveNext, addr 0x33005f0, size 0x40c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3300cc8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -275,10 +282,10 @@ public:
   // @brief default ctor
   constexpr AppInit__StartGameAsync_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>", modifiers: "",
-  // def_value: None }, CppParam { name: "_currentInitialization_5__2", ty: "::BGLib::AppFlow::Initialization::InitializationTime*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_currentInitialization_5__2", ty: "::BGLib::AppFlow::Initialization::InitializationTime*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr AppInit__StartGameAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::AppInit> __4__this,
                                          ::BGLib::AppFlow::Initialization::InitializationTime* _currentInitialization_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -347,12 +354,14 @@ public:
 
   __declspec(property(get = get_gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> gameScenesManager;
 
+  /// [AsyncStateMachine(typeof(AppInit::<Awake>d__7))]
   /// @brief Method Awake, addr 0x32ff740, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
   /// @brief Method HandleBeforeDismissingScenes, addr 0x32ffae0, size 0xa0, virtual false, abstract: false, final false
   inline void HandleBeforeDismissingScenes(::System::Collections::Generic::IReadOnlyList_1<::StringW>* scenes);
 
+  /// [AsyncStateMachine(typeof(AppInit::<InitializeAsync>d__10))]
   /// @brief Method InitializeAsync, addr 0x32ff898, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync(::Zenject::DiContainer* container);
 
@@ -361,18 +370,20 @@ public:
   /// @brief Method OnDestroy, addr 0x32ff948, size 0xd8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PreInitializeAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PreInitializeAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* PreInitializeAsync(::Zenject::DiContainer* container);
 
-  /// @brief Method RepeatableSetupAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
+  /// [AsyncStateMachine(typeof(AppInit::<StartGameAsync>d__8))]
   /// @brief Method StartGameAsync, addr 0x32ff7e4, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartGameAsync();
 
-  /// @brief Method TransitionToNextSceneAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextSceneAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* TransitionToNextSceneAsync();
 
+  /// [CompilerGenerated]
   /// @brief Method <InitializeAsync>b__10_0, addr 0x32ffb84, size 0x20, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__10_0();
 
@@ -409,23 +420,26 @@ protected:
   constexpr AppInit();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppInit", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppInit", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppInit(AppInit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppInit", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppInit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppInit(AppInit const&) = delete;
+  AppInit(AppInitconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21516 };
 
+  /// [SerializeField]
   /// @brief Field _cameraGO, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____cameraGO;
 
+  /// [SerializeField]
   /// @brief Field _asyncSceneContext, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> ____asyncSceneContext;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 

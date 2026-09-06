@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SceneExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SceneExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SceneExtensions_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlEventCache.hpp"
+// IWYU pragma private; include "System/Xml/XmlEventCache.hpp"
 #include "System/Xml/Xsl/Runtime/zzzz__StringConcat_impl.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlEventCache_def.hpp"
@@ -8,7 +8,7 @@
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlEventCache_XmlEventType::XmlEventCache_XmlEventType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -251,9 +251,9 @@ inline ::System::Object* System::Xml::XmlEventCache_XmlEvent::get_Object() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlEventCache_XmlEvent>(), { "get_Object", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "eventType", ty: "::System::Xml::XmlEventCache_XmlEventType", modifiers: "", def_value: Some("{}") }, CppParam { name: "s1", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "s3", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "o", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "eventType", ty: "::System::Xml::XmlEventCache_XmlEventType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "s1", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "s3", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "o", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlEventCache_XmlEvent::XmlEventCache_XmlEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::System::Object* o) noexcept {
   this->eventType = eventType;
   this->s1 = s1;

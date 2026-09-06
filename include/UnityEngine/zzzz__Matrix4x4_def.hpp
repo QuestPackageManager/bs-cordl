@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Matrix4x4.hpp"
+// IWYU pragma private; include "UnityEngine/Matrix4x4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,12 @@ struct Matrix4x4;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Matrix4x4);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
+// [NativeHeader("Runtime/Math/MathScripting.h")]
+// [NativeType(Header = "Runtime/Math/Matrix4x4.h")]
+// [Il2CppEagerStaticClassConstruction]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [DefaultMember("Item")]
+// [NativeClass("Matrix4x4f")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -72,6 +78,7 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
+  /// [ThreadSafe]
   /// @brief Method DecomposeProjection, addr 0x6accf54, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::FrustumPlanes DecomposeProjection();
 
@@ -87,6 +94,7 @@ public:
   /// @brief Method Frustum, addr 0x6acd898, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Frustum(::UnityEngine::FrustumPlanes fp);
 
+  /// [FreeFunction("MatrixScripting::Frustum", IsThreadSafe = true)]
   /// @brief Method Frustum, addr 0x6acd768, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Frustum(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar);
 
@@ -99,6 +107,7 @@ public:
   /// @brief Method GetHashCode, addr 0x6acdb44, size 0x174, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [ThreadSafe]
   /// @brief Method GetLossyScale, addr 0x6acceb4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLossyScale();
 
@@ -108,6 +117,7 @@ public:
   /// @brief Method GetPosition, addr 0x6ace0c8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPosition();
 
+  /// [ThreadSafe]
   /// @brief Method GetRotation, addr 0x6acce18, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
@@ -117,9 +127,11 @@ public:
   /// @brief Method GetRow, addr 0x6acdff8, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetRow(int32_t index);
 
+  /// [FreeFunction("MatrixScripting::Inverse", IsThreadSafe = true)]
   /// @brief Method Inverse, addr 0x6acd1ec, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Inverse(::UnityEngine::Matrix4x4 m);
 
+  /// [FreeFunction("MatrixScripting::Inverse3DAffine", IsThreadSafe = true)]
   /// @brief Method Inverse3DAffine, addr 0x6acd164, size 0x44, virtual false, abstract: false, final false
   static inline bool Inverse3DAffine(::UnityEngine::Matrix4x4 input, ::by_ref<::UnityEngine::Matrix4x4> result);
 
@@ -129,6 +141,7 @@ public:
   /// @brief Method Inverse_Injected, addr 0x6acd258, size 0x44, virtual false, abstract: false, final false
   static inline void Inverse_Injected(::by_ref<::UnityEngine::Matrix4x4> m, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
+  /// [FreeFunction("MatrixScripting::LookAt", IsThreadSafe = true)]
   /// @brief Method LookAt, addr 0x6acd67c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 LookAt(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, ::UnityEngine::Vector3 up);
 
@@ -144,12 +157,14 @@ public:
   /// @brief Method MultiplyVector, addr 0x6ace230, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 MultiplyVector(::UnityEngine::Vector3 vector);
 
+  /// [FreeFunction("MatrixScripting::Ortho", IsThreadSafe = true)]
   /// @brief Method Ortho, addr 0x6acd44c, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Ortho(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar);
 
   /// @brief Method Ortho_Injected, addr 0x6acd4f8, size 0x84, virtual false, abstract: false, final false
   static inline void Ortho_Injected(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
+  /// [FreeFunction("MatrixScripting::Perspective", IsThreadSafe = true)]
   /// @brief Method Perspective, addr 0x6acd57c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Perspective(float_t fov, float_t aspect, float_t zNear, float_t zFar);
 
@@ -165,6 +180,7 @@ public:
   /// @brief Method SetColumn, addr 0x6ace0d4, size 0x78, virtual false, abstract: false, final false
   inline void SetColumn(int32_t index, ::UnityEngine::Vector4 column);
 
+  /// [FreeFunction("MatrixScripting::TRS", IsThreadSafe = true)]
   /// @brief Method TRS, addr 0x6acd078, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 TRS(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion q, ::UnityEngine::Vector3 s);
 
@@ -180,6 +196,7 @@ public:
   /// @brief Method Translate, addr 0x6ace2a4, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Translate(::UnityEngine::Vector3 vector);
 
+  /// [FreeFunction("MatrixScripting::Transpose", IsThreadSafe = true)]
   /// @brief Method Transpose, addr 0x6acd31c, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Transpose(::UnityEngine::Matrix4x4 m);
 
@@ -246,13 +263,14 @@ public:
   // @brief default ctor
   constexpr Matrix4x4();
 
-  // Ctor Parameters [CppParam { name: "m00", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m10", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m20", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "m30", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m01", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m11", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m21", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m31", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m02", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m12", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m22",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m32", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m03", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m13", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m23", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m33", ty: "float_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m00", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m10", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m20", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m30", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m01", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m11", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m21", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m31", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m02", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m12", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m22", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m32", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m03", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m13", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m23", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m33", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Matrix4x4(float_t m00, float_t m10, float_t m20, float_t m30, float_t m01, float_t m11, float_t m21, float_t m31, float_t m02, float_t m12, float_t m22, float_t m32, float_t m03,
                       float_t m13, float_t m23, float_t m33) noexcept;
 
@@ -262,51 +280,67 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
+  /// [NativeName("m_Data[0]")]
   /// @brief Field m00, offset: 0x0, size: 0x4, def value: None
   float_t m00;
 
+  /// [NativeName("m_Data[1]")]
   /// @brief Field m10, offset: 0x4, size: 0x4, def value: None
   float_t m10;
 
+  /// [NativeName("m_Data[2]")]
   /// @brief Field m20, offset: 0x8, size: 0x4, def value: None
   float_t m20;
 
+  /// [NativeName("m_Data[3]")]
   /// @brief Field m30, offset: 0xc, size: 0x4, def value: None
   float_t m30;
 
+  /// [NativeName("m_Data[4]")]
   /// @brief Field m01, offset: 0x10, size: 0x4, def value: None
   float_t m01;
 
+  /// [NativeName("m_Data[5]")]
   /// @brief Field m11, offset: 0x14, size: 0x4, def value: None
   float_t m11;
 
+  /// [NativeName("m_Data[6]")]
   /// @brief Field m21, offset: 0x18, size: 0x4, def value: None
   float_t m21;
 
+  /// [NativeName("m_Data[7]")]
   /// @brief Field m31, offset: 0x1c, size: 0x4, def value: None
   float_t m31;
 
+  /// [NativeName("m_Data[8]")]
   /// @brief Field m02, offset: 0x20, size: 0x4, def value: None
   float_t m02;
 
+  /// [NativeName("m_Data[9]")]
   /// @brief Field m12, offset: 0x24, size: 0x4, def value: None
   float_t m12;
 
+  /// [NativeName("m_Data[10]")]
   /// @brief Field m22, offset: 0x28, size: 0x4, def value: None
   float_t m22;
 
+  /// [NativeName("m_Data[11]")]
   /// @brief Field m32, offset: 0x2c, size: 0x4, def value: None
   float_t m32;
 
+  /// [NativeName("m_Data[12]")]
   /// @brief Field m03, offset: 0x30, size: 0x4, def value: None
   float_t m03;
 
+  /// [NativeName("m_Data[13]")]
   /// @brief Field m13, offset: 0x34, size: 0x4, def value: None
   float_t m13;
 
+  /// [NativeName("m_Data[14]")]
   /// @brief Field m23, offset: 0x38, size: 0x4, def value: None
   float_t m23;
 
+  /// [NativeName("m_Data[15]")]
   /// @brief Field m33, offset: 0x3c, size: 0x4, def value: None
   float_t m33;
 

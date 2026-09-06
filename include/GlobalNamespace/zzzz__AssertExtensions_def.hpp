@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AssertExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/AssertExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class AssertExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::AssertExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AssertExtensions*, "", "AssertExtensions");
+// [DebuggerStepThrough]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -24,9 +25,11 @@ public:
   /// @brief Method GetMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW GetMessage(::StringW pattern, T value, T other, ::StringW message);
 
+  /// [Conditional("UNITY_ASSERTIONS")]
   /// @brief Method GreaterOrEqual, addr 0x3321b98, size 0x4, virtual false, abstract: false, final false
   static inline void GreaterOrEqual(float_t value, float_t expectedLessValue, ::StringW message);
 
+  /// [Conditional("UNITY_ASSERTIONS")]
   /// @brief Method LessThan, addr 0x3321b94, size 0x4, virtual false, abstract: false, final false
   static inline void LessThan(float_t value, float_t expectedGreaterValue, ::StringW message);
 
@@ -36,13 +39,13 @@ protected:
   constexpr AssertExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssertExtensions(AssertExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssertExtensions(AssertExtensions const&) = delete;
+  AssertExtensions(AssertExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20718 };

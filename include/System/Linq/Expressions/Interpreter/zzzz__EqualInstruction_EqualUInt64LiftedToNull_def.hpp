@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\EqualInstruction_EqualUInt64LiftedToNull.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EqualInstruction_EqualUInt64LiftedToNull.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr EqualInstruction_EqualUInt64LiftedToNull();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualUInt64LiftedToNull", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualUInt64LiftedToNull", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EqualInstruction_EqualUInt64LiftedToNull(EqualInstruction_EqualUInt64LiftedToNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualUInt64LiftedToNull", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualUInt64LiftedToNull", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EqualInstruction_EqualUInt64LiftedToNull(EqualInstruction_EqualUInt64LiftedToNull const&) = delete;
+  EqualInstruction_EqualUInt64LiftedToNull(EqualInstruction_EqualUInt64LiftedToNullconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16335 };

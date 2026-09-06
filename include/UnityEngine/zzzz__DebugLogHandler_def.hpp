@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\DebugLogHandler.hpp"
+// IWYU pragma private; include "UnityEngine/DebugLogHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ class DebugLogHandler;
 // Write type traits
 MARK_REF_T(::UnityEngine::DebugLogHandler*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::DebugLogHandler*, "UnityEngine", "DebugLogHandler");
+// [NativeHeader("Runtime/Export/Debug/Debug.bindings.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -48,9 +49,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::ILogHandler"
   constexpr operator ::UnityEngine::ILogHandler*() noexcept;
 
+  /// [ThreadAndSerializationSafe]
   /// @brief Method Internal_Log, addr 0x6a7a8ec, size 0x17c, virtual false, abstract: false, final false
   static inline void Internal_Log(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::StringW msg, ::UnityEngine::Object* obj);
 
+  /// [ThreadAndSerializationSafe]
   /// @brief Method Internal_LogException, addr 0x6a7aac4, size 0x90, virtual false, abstract: false, final false
   static inline void Internal_LogException(::System::Exception* ex, ::UnityEngine::Object* obj);
 
@@ -64,10 +67,10 @@ public:
   inline void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
 
   /// @brief Method LogFormat, addr 0x6a7ab98, size 0x3c, virtual true, abstract: false, final true
-  inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*> args);
+  inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method LogFormat, addr 0x6a7abd4, size 0x40, virtual false, abstract: false, final false
-  inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::LogOption logOptions, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*> args);
+  inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::LogOption logOptions, ::UnityEngine::Object* context, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   static inline ::UnityEngine::DebugLogHandler* New_ctor();
 
@@ -83,13 +86,13 @@ protected:
   constexpr DebugLogHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugLogHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugLogHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugLogHandler(DebugLogHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugLogHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugLogHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugLogHandler(DebugLogHandler const&) = delete;
+  DebugLogHandler(DebugLogHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10102 };

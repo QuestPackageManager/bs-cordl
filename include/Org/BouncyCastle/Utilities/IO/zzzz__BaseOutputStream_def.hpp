@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\BaseOutputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/BaseOutputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,11 +54,11 @@ public:
   /// @brief Method SetLength, addr 0x368ab0c, size 0x38, virtual true, abstract: false, final true
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x368abc4, size 0x24, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t> buffer);
-
   /// @brief Method Write, addr 0x368ab44, size 0x80, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method Write, addr 0x368abc4, size 0x24, virtual true, abstract: false, final false
+  inline void Write(/* [ParamArray] */ ::ArrayW<uint8_t> buffer);
 
   /// @brief Method WriteByte, addr 0x368abe8, size 0x90, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
@@ -96,13 +96,13 @@ protected:
   constexpr BaseOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseOutputStream(BaseOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseOutputStream(BaseOutputStream const&) = delete;
+  BaseOutputStream(BaseOutputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 484 };

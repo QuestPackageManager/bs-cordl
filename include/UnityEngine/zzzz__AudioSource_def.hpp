@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AudioSource.hpp"
+// IWYU pragma private; include "UnityEngine/AudioSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,8 @@ class AudioSource;
 // Write type traits
 MARK_REF_T(::UnityEngine::AudioSource*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AudioSource*, "UnityEngine", "AudioSource");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [StaticAccessor("AudioSourceBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies UnityEngine.AudioBehaviour
 namespace UnityEngine {
 // Is value type: false
@@ -84,16 +86,19 @@ public:
 
   __declspec(property(get = get_maxDistance, put = set_maxDistance)) float_t maxDistance;
 
+  /// @brief [Obsolete("maxVolume is not supported anymore. Use min-, maxDistance and rolloffMode instead.", true)]
   __declspec(property(get = get_maxVolume, put = set_maxVolume)) float_t maxVolume;
 
   __declspec(property(get = get_minDistance, put = set_minDistance)) float_t minDistance;
 
+  /// @brief [Obsolete("minVolume is not supported anymore. Use min-, maxDistance and rolloffMode instead.", true)]
   __declspec(property(get = get_minVolume, put = set_minVolume)) float_t minVolume;
 
   __declspec(property(get = get_mute, put = set_mute)) bool mute;
 
   __declspec(property(get = get_outputAudioMixerGroup, put = set_outputAudioMixerGroup)) ::UnityW<::UnityEngine::Audio::AudioMixerGroup> outputAudioMixerGroup;
 
+  /// @brief [NativeProperty("StereoPan")]
   __declspec(property(get = get_panStereo, put = set_panStereo)) float_t panStereo;
 
   __declspec(property(get = get_pitch, put = set_pitch)) float_t pitch;
@@ -106,10 +111,12 @@ public:
 
   __declspec(property(get = get_reverbZoneMix, put = set_reverbZoneMix)) float_t reverbZoneMix;
 
+  /// @brief [Obsolete("rolloffFactor is not supported anymore. Use min-, maxDistance and rolloffMode instead.", true)]
   __declspec(property(get = get_rolloffFactor, put = set_rolloffFactor)) float_t rolloffFactor;
 
   __declspec(property(get = get_rolloffMode, put = set_rolloffMode)) ::UnityEngine::AudioRolloffMode rolloffMode;
 
+  /// @brief [NativeProperty("SpatialBlendMix")]
   __declspec(property(get = get_spatialBlend, put = set_spatialBlend)) float_t spatialBlend;
 
   __declspec(property(get = get_spatialize, put = set_spatialize)) bool spatialize;
@@ -118,8 +125,10 @@ public:
 
   __declspec(property(get = get_spread, put = set_spread)) float_t spread;
 
+  /// @brief [NativeProperty("SecPosition")]
   __declspec(property(get = get_time, put = set_time)) float_t time;
 
+  /// @brief [NativeProperty("SamplePosition")]
   __declspec(property(get = get_timeSamples, put = set_timeSamples)) int32_t timeSamples;
 
   __declspec(property(get = get_velocityUpdateMode, put = set_velocityUpdateMode)) ::UnityEngine::AudioVelocityUpdateMode velocityUpdateMode;
@@ -142,11 +151,12 @@ public:
   inline ::UnityEngine::AnimationCurve* GetCustomCurve(::UnityEngine::AudioSourceCurveType type);
 
   /// @brief Method GetCustomCurveHelper, addr 0x6a4f6a8, size 0xd0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationCurve* GetCustomCurveHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type);
+  static inline ::UnityEngine::AnimationCurve* GetCustomCurveHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type);
 
   /// @brief Method GetCustomCurveHelper_Injected, addr 0x6a4f778, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetCustomCurveHelper_Injected(::System::IntPtr source, ::UnityEngine::AudioSourceCurveType type);
 
+  /// [Obsolete("GetOutputData returning a float[] is deprecated, use GetOutputData and pass a pre allocated array instead.")]
   /// @brief Method GetOutputData, addr 0x6a52f94, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> GetOutputData(int32_t numSamples, int32_t channel);
 
@@ -154,13 +164,13 @@ public:
   inline void GetOutputData(::ArrayW<float_t> samples, int32_t channel);
 
   /// @brief Method GetOutputDataHelper, addr 0x6a4f7bc, size 0x190, virtual false, abstract: false, final false
-  static inline void GetOutputDataHelper(::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel);
+  static inline void GetOutputDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel);
 
   /// @brief Method GetOutputDataHelper_Injected, addr 0x6a4f94c, size 0x54, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper_Injected(::System::IntPtr source, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel);
 
   /// @brief Method GetPitch, addr 0x6a4ef94, size 0xa4, virtual false, abstract: false, final false
-  static inline float_t GetPitch(::UnityEngine::AudioSource* source);
+  static inline float_t GetPitch(/* [NotNull] */ ::UnityEngine::AudioSource* source);
 
   /// @brief Method GetPitch_Injected, addr 0x6a4f038, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetPitch_Injected(::System::IntPtr source);
@@ -171,14 +181,16 @@ public:
   /// @brief Method GetSpatializerFloat_Injected, addr 0x6a534e0, size 0x54, virtual false, abstract: false, final false
   static inline bool GetSpatializerFloat_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<float_t> value);
 
+  /// [Obsolete("GetSpectrumData returning a float[] is deprecated, use GetSpectrumData and pass a pre allocated array instead.")]
   /// @brief Method GetSpectrumData, addr 0x6a53010, size 0x88, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> GetSpectrumData(int32_t numSamples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   /// @brief Method GetSpectrumData, addr 0x6a53098, size 0x4, virtual false, abstract: false, final false
   inline void GetSpectrumData(::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
+  /// [NativeThrows]
   /// @brief Method GetSpectrumDataHelper, addr 0x6a4f9a0, size 0x1a0, virtual false, abstract: false, final false
-  static inline void GetSpectrumDataHelper(::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
+  static inline void GetSpectrumDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   /// @brief Method GetSpectrumDataHelper_Injected, addr 0x6a4fb40, size 0x5c, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper_Injected(::System::IntPtr source, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel, ::UnityEngine::FFTWindow window);
@@ -191,6 +203,7 @@ public:
   /// @brief Method Pause_Injected, addr 0x6a50964, size 0x3c, virtual false, abstract: false, final false
   static inline void Pause_Injected(::System::IntPtr _unity_self);
 
+  /// [ExcludeFromDocs]
   /// @brief Method Play, addr 0x6a505e8, size 0x8, virtual false, abstract: false, final false
   inline void Play();
 
@@ -198,31 +211,33 @@ public:
   inline void Play(double_t delay);
 
   /// @brief Method Play, addr 0x6a505f0, size 0x4, virtual false, abstract: false, final false
-  inline void Play(uint64_t delay);
+  inline void Play(/* [DefaultValue("0")] */ uint64_t delay);
 
+  /// [ExcludeFromDocs]
   /// @brief Method PlayClipAtPoint, addr 0x6a50e08, size 0x8, virtual false, abstract: false, final false
   static inline void PlayClipAtPoint(::UnityEngine::AudioClip* clip, ::UnityEngine::Vector3 position);
 
   /// @brief Method PlayClipAtPoint, addr 0x6a50e10, size 0x204, virtual false, abstract: false, final false
-  static inline void PlayClipAtPoint(::UnityEngine::AudioClip* clip, ::UnityEngine::Vector3 position, float_t volume);
+  static inline void PlayClipAtPoint(::UnityEngine::AudioClip* clip, ::UnityEngine::Vector3 position, /* [DefaultValue("1.0F")] */ float_t volume);
 
   /// @brief Method PlayDelayed, addr 0x6a505f4, size 0x24, virtual false, abstract: false, final false
   inline void PlayDelayed(float_t delay);
 
   /// @brief Method PlayHelper, addr 0x6a4f174, size 0xb4, virtual false, abstract: false, final false
-  static inline void PlayHelper(::UnityEngine::AudioSource* source, uint64_t delay);
+  static inline void PlayHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, uint64_t delay);
 
   /// @brief Method PlayHelper_Injected, addr 0x6a4f228, size 0x44, virtual false, abstract: false, final false
   static inline void PlayHelper_Injected(::System::IntPtr source, uint64_t delay);
 
+  /// [ExcludeFromDocs]
   /// @brief Method PlayOneShot, addr 0x6a50634, size 0x8, virtual false, abstract: false, final false
   inline void PlayOneShot(::UnityEngine::AudioClip* clip);
 
   /// @brief Method PlayOneShot, addr 0x6a5063c, size 0xe8, virtual false, abstract: false, final false
-  inline void PlayOneShot(::UnityEngine::AudioClip* clip, float_t volumeScale);
+  inline void PlayOneShot(::UnityEngine::AudioClip* clip, /* [DefaultValue("1.0F")] */ float_t volumeScale);
 
   /// @brief Method PlayOneShotHelper, addr 0x6a4f348, size 0x120, virtual false, abstract: false, final false
-  static inline void PlayOneShotHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioClip* clip, float_t volumeScale);
+  static inline void PlayOneShotHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, /* [NotNull] */ ::UnityEngine::AudioClip* clip, float_t volumeScale);
 
   /// @brief Method PlayOneShotHelper_Injected, addr 0x6a4f468, size 0x54, virtual false, abstract: false, final false
   static inline void PlayOneShotHelper_Injected(::System::IntPtr source, ::System::IntPtr clip, float_t volumeScale);
@@ -242,14 +257,15 @@ public:
   /// @brief Method SetCustomCurve, addr 0x6a51e34, size 0x4, virtual false, abstract: false, final false
   inline void SetCustomCurve(::UnityEngine::AudioSourceCurveType type, ::UnityEngine::AnimationCurve* curve);
 
+  /// [NativeThrows]
   /// @brief Method SetCustomCurveHelper, addr 0x6a4f590, size 0xc4, virtual false, abstract: false, final false
-  static inline void SetCustomCurveHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type, ::UnityEngine::AnimationCurve* curve);
+  static inline void SetCustomCurveHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type, ::UnityEngine::AnimationCurve* curve);
 
   /// @brief Method SetCustomCurveHelper_Injected, addr 0x6a4f654, size 0x54, virtual false, abstract: false, final false
   static inline void SetCustomCurveHelper_Injected(::System::IntPtr source, ::UnityEngine::AudioSourceCurveType type, ::System::IntPtr curve);
 
   /// @brief Method SetPitch, addr 0x6a4f074, size 0xb4, virtual false, abstract: false, final false
-  static inline void SetPitch(::UnityEngine::AudioSource* source, float_t pitch);
+  static inline void SetPitch(/* [NotNull] */ ::UnityEngine::AudioSource* source, float_t pitch);
 
   /// @brief Method SetPitch_Injected, addr 0x6a4f128, size 0x4c, virtual false, abstract: false, final false
   static inline void SetPitch_Injected(::System::IntPtr source, float_t pitch);
@@ -341,18 +357,21 @@ public:
   /// @brief Method get_ignoreListenerVolume_Injected, addr 0x6a512b4, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_ignoreListenerVolume_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("IsContainerPlaying")]
   /// @brief Method get_isContainerPlaying, addr 0x6a50bd4, size 0x80, virtual false, abstract: false, final false
   inline bool get_isContainerPlaying();
 
   /// @brief Method get_isContainerPlaying_Injected, addr 0x6a50c54, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isContainerPlaying_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("IsPlayingScripting")]
   /// @brief Method get_isPlaying, addr 0x6a50b18, size 0x80, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
   /// @brief Method get_isPlaying_Injected, addr 0x6a50b98, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isPlaying_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("GetLastVirtualState")]
   /// @brief Method get_isVirtual, addr 0x6a50d4c, size 0x80, virtual false, abstract: false, final false
   inline bool get_isVirtual();
 
@@ -464,6 +483,7 @@ public:
   /// @brief Method get_time, addr 0x6a4fd3c, size 0x80, virtual false, abstract: false, final false
   inline float_t get_time();
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method get_timeSamples, addr 0x6a4fed4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_timeSamples();
 
@@ -629,6 +649,7 @@ public:
   /// @brief Method set_time, addr 0x6a4fdf8, size 0x90, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method set_timeSamples, addr 0x6a4ff90, size 0x90, virtual false, abstract: false, final false
   inline void set_timeSamples(int32_t value);
 
@@ -656,13 +677,13 @@ protected:
   constexpr AudioSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioSource(AudioSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioSource(AudioSource const&) = delete;
+  AudioSource(AudioSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21073 };

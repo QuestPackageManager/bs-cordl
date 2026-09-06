@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_VertexDataUpdateFlags.hpp"
+// IWYU pragma private; include "TMPro/TMP_VertexDataUpdateFlags.hpp"
 #include "TMPro/zzzz__TMP_VertexDataUpdateFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_VertexDataUpdateFlags::TMP_VertexDataUpdateFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

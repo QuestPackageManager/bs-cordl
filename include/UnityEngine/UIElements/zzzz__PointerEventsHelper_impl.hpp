@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerEventsHelper.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerEventsHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventsHelper_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
@@ -24,6 +25,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
   }
 };
 template <typename TLeaveEvent, typename TEnterEvent>
+  requires(::cordl_internals::type_constraint<TLeaveEvent, ::UnityEngine::UIElements::PointerEventBase_1<TLeaveEvent>*> && ::cordl_internals::default_constructor_constraint<TLeaveEvent> &&
+           ::cordl_internals::type_constraint<TEnterEvent, ::UnityEngine::UIElements::PointerEventBase_1<TEnterEvent>*> && ::cordl_internals::default_constructor_constraint<TEnterEvent>)
 inline void UnityEngine::UIElements::PointerEventsHelper::SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer,
                                                                          ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer,
                                                                          ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId) {

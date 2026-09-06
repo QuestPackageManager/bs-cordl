@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\DTSweep.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/DTSweep.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweep*);
 MARK_REF_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweep___c__DisplayClass21_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Poly2Tri::DTSweep*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweep");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Poly2Tri::DTSweep___c__DisplayClass21_0*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweep/<>c__DisplayClass21_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
@@ -69,13 +70,13 @@ protected:
   constexpr DTSweep___c__DisplayClass21_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweep___c__DisplayClass21_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweep___c__DisplayClass21_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DTSweep___c__DisplayClass21_0(DTSweep___c__DisplayClass21_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweep___c__DisplayClass21_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweep___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DTSweep___c__DisplayClass21_0(DTSweep___c__DisplayClass21_0 const&) = delete;
+  DTSweep___c__DisplayClass21_0(DTSweep___c__DisplayClass21_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21763 };
@@ -233,19 +234,19 @@ protected:
   constexpr DTSweep();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweep", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweep", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DTSweep(DTSweep&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweep", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweep", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DTSweep(DTSweep const&) = delete;
+  DTSweep(DTSweepconst&) = delete;
 
   /// @brief Field PI_3div4 offset 0xffffffff size 0x8
-  static constexpr double_t PI_3div4{ static_cast<double_t>(2.4) };
+  static constexpr double_t PI_3div4{ static_cast<double_t>(2.356194490192345) };
 
   /// @brief Field PI_div2 offset 0xffffffff size 0x8
-  static constexpr double_t PI_div2{ static_cast<double_t>(1.6) };
+  static constexpr double_t PI_div2{ static_cast<double_t>(1.5707963267948966) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21764 };

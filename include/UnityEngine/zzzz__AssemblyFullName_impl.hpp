@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssemblyFullName.hpp"
+// IWYU pragma private; include "UnityEngine/AssemblyFullName.hpp"
 #include "UnityEngine/zzzz__AssemblyVersion_impl.hpp"
 #include "UnityEngine/zzzz__AssemblyFullName_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -54,8 +54,9 @@ inline ::StringW UnityEngine::AssemblyFullName::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::AssemblyFullName>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Version", ty: "::UnityEngine::AssemblyVersion", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "PublicKeyToken", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Culture", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Version", ty: "::UnityEngine::AssemblyVersion", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "PublicKeyToken", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Culture", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::AssemblyFullName::AssemblyFullName(::StringW Name, ::UnityEngine::AssemblyVersion Version, ::StringW PublicKeyToken, ::StringW Culture) noexcept {
   this->Name = Name;
   this->Version = Version;

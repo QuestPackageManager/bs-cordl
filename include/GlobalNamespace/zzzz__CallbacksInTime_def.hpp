@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CallbacksInTime.hpp"
+// IWYU pragma private; include "GlobalNamespace/CallbacksInTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,7 +77,9 @@ public:
   inline void CallCallbacks(int32_t typeId, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void EnsureCapacity(::System::Collections::Generic::List_1<T>* list, int32_t index);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline void EnsureCapacity(::System::Collections::Generic::List_1<T>* list, int32_t index);
 
   static inline ::GlobalNamespace::CallbacksInTime* New_ctor(float_t aheadTime);
 
@@ -148,13 +150,13 @@ protected:
   constexpr CallbacksInTime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallbacksInTime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallbacksInTime", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallbacksInTime(CallbacksInTime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallbacksInTime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallbacksInTime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallbacksInTime(CallbacksInTime const&) = delete;
+  CallbacksInTime(CallbacksInTimeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5622 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TexturePool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TexturePool.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphResourcePool_1_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TexturePool_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
@@ -90,12 +90,12 @@ inline void UnityEngine::Rendering::RenderGraphModule::TexturePool::ReleaseInter
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TexturePool*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, res);
 }
-inline ::StringW UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceName(::by_ref<::UnityEngine::Rendering::RTHandle*> res) {
+inline ::StringW UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TexturePool*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, res);
 }
-inline int64_t UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceSize(::by_ref<::UnityEngine::Rendering::RTHandle*> res) {
+inline int64_t UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TexturePool*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method, res);

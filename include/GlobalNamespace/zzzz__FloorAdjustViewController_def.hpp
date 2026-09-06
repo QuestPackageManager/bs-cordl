@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloorAdjustViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloorAdjustViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,9 +64,11 @@ public:
   /// @brief Method Update, addr 0x5a19ef0, size 0x1fc, virtual false, abstract: false, final false
   inline void Update();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_0, addr 0x5a1a0f0, size 0xc0, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_1, addr 0x5a1a1b0, size 0xc0, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
@@ -121,13 +123,13 @@ protected:
   constexpr FloorAdjustViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloorAdjustViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorAdjustViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloorAdjustViewController(FloorAdjustViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloorAdjustViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorAdjustViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloorAdjustViewController(FloorAdjustViewController const&) = delete;
+  FloorAdjustViewController(FloorAdjustViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6439 };
@@ -141,21 +143,28 @@ public:
   /// @brief Field kMoveStep offset 0xffffffff size 0x4
   static constexpr float_t kMoveStep{ static_cast<float_t>(0.05f) };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _yIncButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____yIncButton;
 
+  /// [SerializeField]
   /// @brief Field _yDecButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____yDecButton;
 
+  /// [SerializeField]
   /// @brief Field _playerHeightText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerHeightText;
 
+  /// [Inject]
   /// @brief Field _vrPlatformHelper, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [InjectOptional]
   /// @brief Field _settingsApplicator, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 

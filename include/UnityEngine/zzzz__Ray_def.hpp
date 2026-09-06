@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Ray.hpp"
+// IWYU pragma private; include "UnityEngine/Ray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,8 +69,8 @@ public:
   // @brief default ctor
   constexpr Ray();
 
-  // Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr Ray(::UnityEngine::Vector3 m_Origin, ::UnityEngine::Vector3 m_Direction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

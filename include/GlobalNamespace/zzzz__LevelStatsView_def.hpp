@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelStatsView.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelStatsView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   static inline ::GlobalNamespace::LevelStatsView* New_ctor();
 
   /// @brief Method ShowStats, addr 0x5a24d94, size 0x2c, virtual false, abstract: false, final false
-  inline void ShowStats(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
+  inline void ShowStats(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
 
   /// @brief Method ShowStats, addr 0x5a24dc0, size 0x170, virtual false, abstract: false, final false
   inline void ShowStats(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats);
@@ -79,13 +79,13 @@ protected:
   constexpr LevelStatsView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelStatsView(LevelStatsView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelStatsView(LevelStatsView const&) = delete;
+  LevelStatsView(LevelStatsViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6489 };
@@ -93,12 +93,15 @@ public:
   /// @brief Field kStatsFullComboLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kStatsFullComboLocalizationKey{ u"STATS_FULL_COMBO" };
 
+  /// [SerializeField]
   /// @brief Field _highScoreText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____highScoreText;
 
+  /// [SerializeField]
   /// @brief Field _maxComboText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____maxComboText;
 
+  /// [SerializeField]
   /// @brief Field _maxRankText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____maxRankText;
 

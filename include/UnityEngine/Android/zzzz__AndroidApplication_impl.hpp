@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidApplication.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidApplication.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidApplication_def.hpp"
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"

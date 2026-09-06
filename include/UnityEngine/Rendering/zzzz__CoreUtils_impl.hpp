@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CoreUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CoreUtils.hpp"
+#include "System/zzzz__IConvertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreUtils_def.hpp"
@@ -2160,7 +2161,9 @@ inline ::UnityW<::UnityEngine::Material> UnityEngine::Rendering::CoreUtils::Crea
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUtils*>(), { "CreateEngineMaterial", {}, { ::i2c::type_of<::UnityEngine::Shader*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>>(nullptr, ___internal_method, shader);
 }
-template <typename T> inline bool UnityEngine::Rendering::CoreUtils::HasFlag(T mask, T flag) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+inline bool UnityEngine::Rendering::CoreUtils::HasFlag(T mask, T flag) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUtils*>(), { "HasFlag", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\TrackDefinitions\EnvironmentTracksDefinitionSO.hpp"
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/EnvironmentTracksDefinitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,6 +81,7 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO
 DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*, "BeatSaber.TrackDefinitions", "EnvironmentTracksDefinitionSO/BasicEventTrackInfo");
 DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo*, "BeatSaber.TrackDefinitions", "EnvironmentTracksDefinitionSO/EventBoxGroupPageInfo");
 DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo*, "BeatSaber.TrackDefinitions", "EnvironmentTracksDefinitionSO/EventBoxGroupTrackInfo");
+// [NullableContext(0)]
 // Dependencies
 namespace BeatSaber::TrackDefinitions {
 // Is value type: true
@@ -111,7 +112,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentTracksDefinitionSO_BasicEventTrackPage();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentTracksDefinitionSO_BasicEventTrackPage(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(2)
@@ -140,6 +141,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitio
 static_assert(sizeof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackPage) == 0x4, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions
+// [NullableContext(0)]
 // Dependencies
 namespace BeatSaber::TrackDefinitions {
 // Is value type: true
@@ -171,7 +173,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentTracksDefinitionSO_OverrideDefaultLightAxis();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentTracksDefinitionSO_OverrideDefaultLightAxis(int32_t value__) noexcept;
 
   /// @brief Field NoOverride value: I32(0)
@@ -203,6 +205,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitio
 static_assert(sizeof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_OverrideDefaultLightAxis) == 0x4, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions
+// [Nullable(0)]
 // Dependencies BasicBeatmapEventType, BeatSaber.TrackDefinitions.DataModels.TrackToolbarType, BeatSaber.TrackDefinitions.EnvironmentTracksDefinitionSO::BasicEventTrackPage, System.Object
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
@@ -292,29 +295,34 @@ protected:
   constexpr EnvironmentTracksDefinitionSO_BasicEventTrackInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_BasicEventTrackInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_BasicEventTrackInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTracksDefinitionSO_BasicEventTrackInfo(EnvironmentTracksDefinitionSO_BasicEventTrackInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_BasicEventTrackInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_BasicEventTrackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTracksDefinitionSO_BasicEventTrackInfo(EnvironmentTracksDefinitionSO_BasicEventTrackInfo const&) = delete;
+  EnvironmentTracksDefinitionSO_BasicEventTrackInfo(EnvironmentTracksDefinitionSO_BasicEventTrackInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22950 };
 
+  /// [SerializeField]
   /// @brief Field _trackName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____trackName;
 
+  /// [SerializeField]
   /// @brief Field _beatmapEventType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEventType;
 
+  /// [SerializeField]
   /// @brief Field _trackToolbarType, offset: 0x1c, size: 0x4, def value: None
   ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType ____trackToolbarType;
 
+  /// [SerializeField]
   /// @brief Field _trackDefinition, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> ____trackDefinition;
 
+  /// [SerializeField]
   /// @brief Field _basicEventTrackPage, offset: 0x28, size: 0x4, def value: None
   ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackPage ____basicEventTrackPage;
 
@@ -334,6 +342,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitio
 static_assert(sizeof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
@@ -382,20 +391,22 @@ protected:
   constexpr EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo(EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo(EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo const&) = delete;
+  EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo(EnvironmentTracksDefinitionSO_EventBoxGroupPageInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22951 };
 
+  /// [SerializeField]
   /// @brief Field _eventBoxGroupPageName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____eventBoxGroupPageName;
 
+  /// [SerializeField]
   /// @brief Field _eventBoxGroupTrackInfos, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo*>* ____eventBoxGroupTrackInfos;
 
@@ -409,6 +420,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitio
 static_assert(sizeof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo) == 0x20, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions
+// [Nullable(0)]
 // Dependencies BeatSaber.TrackDefinitions.EnvironmentTracksDefinitionSO::OverrideDefaultLightAxis, LightGroupSO, System.Object
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
@@ -652,59 +664,80 @@ protected:
   constexpr EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo(EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo(EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo const&) = delete;
+  EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo(EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22952 };
 
+  /// [SerializeField]
   /// @brief Field _groupName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____groupName;
 
+  /// [SerializeField]
   /// @brief Field _lightGroup, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroup;
 
+  /// [Header("Color Track")]
+  /// [SerializeField]
   /// @brief Field _showColorTrack, offset: 0x20, size: 0x1, def value: None
   bool ____showColorTrack;
 
+  /// [Header("Rotation Track")]
+  /// [SerializeField]
   /// @brief Field _showRotationXTrack, offset: 0x21, size: 0x1, def value: None
   bool ____showRotationXTrack;
 
+  /// [SerializeField]
   /// @brief Field _showRotationYTrack, offset: 0x22, size: 0x1, def value: None
   bool ____showRotationYTrack;
 
+  /// [SerializeField]
   /// @brief Field _showRotationZTrack, offset: 0x23, size: 0x1, def value: None
   bool ____showRotationZTrack;
 
+  /// [SerializeField]
   /// @brief Field _overrideDefaultRotationAxis, offset: 0x24, size: 0x4, def value: None
   ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_OverrideDefaultLightAxis ____overrideDefaultRotationAxis;
 
+  /// [Header("Translation Track")]
+  /// [SerializeField]
   /// @brief Field _showTranslationXTrack, offset: 0x28, size: 0x1, def value: None
   bool ____showTranslationXTrack;
 
+  /// [SerializeField]
   /// @brief Field _showTranslationYTrack, offset: 0x29, size: 0x1, def value: None
   bool ____showTranslationYTrack;
 
+  /// [SerializeField]
   /// @brief Field _showTranslationZTrack, offset: 0x2a, size: 0x1, def value: None
   bool ____showTranslationZTrack;
 
+  /// [SerializeField]
   /// @brief Field _overrideDefaultTranslationAxis, offset: 0x2c, size: 0x4, def value: None
   ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_OverrideDefaultLightAxis ____overrideDefaultTranslationAxis;
 
+  /// [Header("VFX Track")]
+  /// [SerializeField]
   /// @brief Field _showFloatFxTrack, offset: 0x30, size: 0x1, def value: None
   bool ____showFloatFxTrack;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _enableDuplicate, offset: 0x31, size: 0x1, def value: None
   bool ____enableDuplicate;
 
+  /// [SerializeField]
   /// @brief Field _duplicationGroup, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup> ____duplicationGroup;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field _targetLightGroups, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>> ____targetLightGroups;
 
@@ -744,6 +777,8 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitio
 static_assert(sizeof(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo) == 0x48, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.TrackDefinitions.EnvironmentTracksDefinitionSO::BasicEventTrackInfo, PersistentScriptableObject
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
@@ -819,23 +854,28 @@ protected:
   constexpr EnvironmentTracksDefinitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTracksDefinitionSO(EnvironmentTracksDefinitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTracksDefinitionSO(EnvironmentTracksDefinitionSO const&) = delete;
+  EnvironmentTracksDefinitionSO(EnvironmentTracksDefinitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22953 };
 
+  /// [SerializeField]
   /// @brief Field _environmentInfo, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ____environmentInfo;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _basicEventTrackInfos, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*> ____basicEventTrackInfos;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _eventBoxGroupPageInfos, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo*>* ____eventBoxGroupPageInfos;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PropertyPathPart.hpp"
+// IWYU pragma private; include "Unity/Properties/PropertyPathPart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ struct PropertyPathPart;
 // Write type traits
 MARK_VAL_T(::Unity::Properties::PropertyPathPart);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::PropertyPathPart, "Unity.Properties", "PropertyPathPart");
+// [IsReadOnly]
 // Dependencies Unity.Properties.PropertyPathPartKind
 namespace Unity::Properties {
 // Is value type: true
@@ -95,8 +96,9 @@ public:
   // @brief default ctor
   constexpr PropertyPathPart();
 
-  // Ctor Parameters [CppParam { name: "m_Kind", ty: "::Unity::Properties::PropertyPathPartKind", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Key", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Kind", ty: "::Unity::Properties::PropertyPathPartKind", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Name", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Key", ty: "::System::Object*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr PropertyPathPart(::Unity::Properties::PropertyPathPartKind m_Kind, ::StringW m_Name, int32_t m_Index, ::System::Object* m_Key) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

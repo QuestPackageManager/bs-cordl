@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Internal\ReflectionTypeAnalyzer.hpp"
+// IWYU pragma private; include "Zenject/Internal/ReflectionTypeAnalyzer.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/Internal/zzzz__ReflectionTypeAnalyzer_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -1122,7 +1123,9 @@ inline void Zenject::Internal::ReflectionTypeAnalyzer::NoDomainReloadInit() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::Internal::ReflectionTypeAnalyzer*>(), { "NoDomainReloadInit", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-template <typename T> inline void Zenject::Internal::ReflectionTypeAnalyzer::AddCustomInjectAttribute() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline void Zenject::Internal::ReflectionTypeAnalyzer::AddCustomInjectAttribute() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::Internal::ReflectionTypeAnalyzer*>(), { "AddCustomInjectAttribute", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

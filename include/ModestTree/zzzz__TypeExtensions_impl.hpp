@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\TypeExtensions.hpp"
+// IWYU pragma private; include "ModestTree/TypeExtensions.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "ModestTree/zzzz__TypeExtensions_def.hpp"
@@ -467,6 +468,7 @@ inline ::System::Collections::IEnumerator* ModestTree::TypeExtensions__GetParent
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__29*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::ModestTree::TypeExtensions__GetParentTypes_d__29* ModestTree::TypeExtensions__GetParentTypes_d__29::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::ModestTree::TypeExtensions__GetParentTypes_d__29*>(__1__state));
 }
@@ -1060,34 +1062,42 @@ inline bool ModestTree::TypeExtensions::IsOpenGenericType(::System::Type* type) 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsOpenGenericType", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-template <typename T> inline T ModestTree::TypeExtensions::GetAttribute(::System::Reflection::MemberInfo* provider) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T ModestTree::TypeExtensions::GetAttribute(::System::Reflection::MemberInfo* provider) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "GetAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, provider);
 }
-template <typename T> inline T ModestTree::TypeExtensions::TryGetAttribute(::System::Reflection::MemberInfo* provider) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T ModestTree::TypeExtensions::TryGetAttribute(::System::Reflection::MemberInfo* provider) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "TryGetAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, provider);
 }
-inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::MemberInfo* provider, ::ArrayW<::System::Type*> attributeTypes) {
+inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::MemberInfo* provider, /* [ParamArray] */ ::ArrayW<::System::Type*> attributeTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
                                                            { "HasAttribute", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, provider, attributeTypes);
 }
-template <typename T> inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::MemberInfo* provider) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::MemberInfo* provider) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "HasAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, provider);
 }
-template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::MemberInfo* provider) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::System::Collections::Generic::IEnumerable_1<T>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::MemberInfo* provider) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "AllAttributes", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
@@ -1095,26 +1105,30 @@ template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* M
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*>(nullptr, ___internal_method, provider);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::MemberInfo* provider,
-                                                                                                                      ::ArrayW<::System::Type*> attributeTypes) {
+                                                                                                                      /* [ParamArray] */ ::ArrayW<::System::Type*> attributeTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
                                                            { "AllAttributes", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*>(nullptr, ___internal_method, provider, attributeTypes);
 }
-inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::ParameterInfo* provider, ::ArrayW<::System::Type*> attributeTypes) {
+inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::ParameterInfo* provider, /* [ParamArray] */ ::ArrayW<::System::Type*> attributeTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
                                                            { "HasAttribute", {}, { ::i2c::type_of<::System::Reflection::ParameterInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, provider, attributeTypes);
 }
-template <typename T> inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::ParameterInfo* provider) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline bool ModestTree::TypeExtensions::HasAttribute(::System::Reflection::ParameterInfo* provider) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "HasAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::ParameterInfo*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, provider);
 }
-template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::ParameterInfo* provider) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::System::Collections::Generic::IEnumerable_1<T>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::ParameterInfo* provider) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "AllAttributes", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::ParameterInfo*>() } })));
@@ -1122,7 +1136,7 @@ template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* M
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*>(nullptr, ___internal_method, provider);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* ModestTree::TypeExtensions::AllAttributes(::System::Reflection::ParameterInfo* provider,
-                                                                                                                      ::ArrayW<::System::Type*> attributeTypes) {
+                                                                                                                      /* [ParamArray] */ ::ArrayW<::System::Type*> attributeTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(),
                                                            { "AllAttributes", {}, { ::i2c::type_of<::System::Reflection::ParameterInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));

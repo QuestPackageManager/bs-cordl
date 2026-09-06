@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OrderedSet_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OrderedSet_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OrderedSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__OrderedSet_1_def.hpp"
@@ -11,7 +11,7 @@
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::GlobalNamespace::OrderedSet_1_ProcessOrder<T>::OrderedSet_1_ProcessOrder(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -167,6 +167,7 @@ template <typename T> inline ::System::Object* GlobalNamespace::OrderedSet_1__Ge
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OrderedSet_1__GetEnumerator_d__23<T>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename T> inline ::GlobalNamespace::OrderedSet_1__GetEnumerator_d__23<T>* GlobalNamespace::OrderedSet_1__GetEnumerator_d__23<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OrderedSet_1__GetEnumerator_d__23<T>*>(__1__state));
 }

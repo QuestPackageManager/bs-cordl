@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\TypeData.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/TypeData.hpp"
 #include "System/Xml/Serialization/zzzz__SchemaTypes_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__TypeData_def.hpp"

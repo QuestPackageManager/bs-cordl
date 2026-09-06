@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SyncStateId.hpp"
+// IWYU pragma private; include "GlobalNamespace/SyncStateId.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_def.hpp"
@@ -283,7 +283,7 @@ constexpr GlobalNamespace::SyncStateId::operator ::System::IEquatable_1<::Global
 constexpr ::System::IEquatable_1<::GlobalNamespace::SyncStateId>* GlobalNamespace::SyncStateId::i___System__IEquatable_1___GlobalNamespace__SyncStateId_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::SyncStateId>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_id", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_id", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SyncStateId::SyncStateId(uint8_t _id) noexcept {
   this->_id = _id;
 }

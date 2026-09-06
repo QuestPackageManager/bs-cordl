@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ColorPage.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ColorPage.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ColorPage_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
@@ -43,7 +43,8 @@ inline ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage UnityEngine:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ColorPage>(), { "ToNativeColorPage", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "pageAndID", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pageAndID", ty: "::UnityEngine::Color32", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::ColorPage::ColorPage(bool isValid, ::UnityEngine::Color32 pageAndID) noexcept {
   this->isValid = isValid;
   this->pageAndID = pageAndID;

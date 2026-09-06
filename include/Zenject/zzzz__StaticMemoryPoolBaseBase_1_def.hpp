@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\StaticMemoryPoolBaseBase_1.hpp"
+// IWYU pragma private; include "Zenject/StaticMemoryPoolBaseBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,15 +29,19 @@ class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TValue> class StaticMemoryPoolBaseBase_1;
+template <typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue>)
+class StaticMemoryPoolBaseBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::StaticMemoryPoolBaseBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::StaticMemoryPoolBaseBase_1, "Zenject", "StaticMemoryPoolBaseBase`1");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue>)
 // Is value type: false
 // CS Name: Zenject.StaticMemoryPoolBaseBase`1<TValue>
 class CORDL_TYPE StaticMemoryPoolBaseBase_1 : public ::System::Object {
@@ -71,7 +75,7 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
-  /// @brief Method Alloc, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Alloc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Alloc();
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -157,13 +161,13 @@ protected:
   constexpr StaticMemoryPoolBaseBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPoolBaseBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPoolBaseBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticMemoryPoolBaseBase_1(StaticMemoryPoolBaseBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPoolBaseBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPoolBaseBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticMemoryPoolBaseBase_1(StaticMemoryPoolBaseBase_1 const&) = delete;
+  StaticMemoryPoolBaseBase_1(StaticMemoryPoolBaseBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14438 };

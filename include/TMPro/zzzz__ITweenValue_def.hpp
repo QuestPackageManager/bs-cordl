@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\ITweenValue.hpp"
+// IWYU pragma private; include "TMPro/ITweenValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,21 +23,21 @@ public:
 
   __declspec(property(get = get_ignoreTimeScale)) bool ignoreTimeScale;
 
-  /// @brief Method TweenValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TweenValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method ValidTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ValidTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ValidTarget();
 
-  /// @brief Method get_duration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_duration();
 
-  /// @brief Method get_ignoreTimeScale, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ignoreTimeScale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ignoreTimeScale();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITweenValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITweenValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITweenValue(ITweenValue const&) = delete;
+  ITweenValue(ITweenValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15893 };

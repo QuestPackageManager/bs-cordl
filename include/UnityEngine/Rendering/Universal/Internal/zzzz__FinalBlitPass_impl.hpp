@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\FinalBlitPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/FinalBlitPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
@@ -26,7 +26,7 @@
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitPassNames::FinalBlitPass_BlitPassNames() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType::FinalBlitPass_BlitType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -35,8 +35,8 @@ constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType:
 constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType::Core{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType::HDR{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType::Count{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "nearestSamplerPass", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "bilinearSamplerPass", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nearestSamplerPass", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bilinearSamplerPass", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitMaterialData::FinalBlitPass_BlitMaterialData(::UnityW<::UnityEngine::Material> material, int32_t nearestSamplerPass,
                                                                                                                         int32_t bilinearSamplerPass) noexcept {
   this->material = material;
@@ -532,8 +532,8 @@ inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::InitPass
 inline void UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                ::UnityEngine::Rendering::ContextContainer* frameData,
                                                                                ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                                               ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> src,
-                                                                               ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dest,
+                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> src,
+                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dest,
                                                                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\CspParameters.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/CspParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class CspParameters;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::CspParameters*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::CspParameters*, "System.Security.Cryptography", "CspParameters");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -104,13 +105,13 @@ protected:
   constexpr CspParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CspParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CspParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CspParameters(CspParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CspParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CspParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CspParameters(CspParameters const&) = delete;
+  CspParameters(CspParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2943 };

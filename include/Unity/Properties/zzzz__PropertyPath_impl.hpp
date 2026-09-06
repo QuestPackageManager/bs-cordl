@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PropertyPath.hpp"
+// IWYU pragma private; include "Unity/Properties/PropertyPath.hpp"
 #include "Unity/Properties/zzzz__PropertyPathPart_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,8 +9,9 @@
 #include "Unity/Properties/zzzz__IProperty_def.hpp"
 #include "Unity/Properties/zzzz__PropertyPathPart_def.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_def.hpp"
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "state", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "state", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::Unity::Properties::PropertyPath___c__DisplayClass36_0::PropertyPath___c__DisplayClass36_0(int32_t index, int32_t length, ::StringW path, int32_t state) noexcept {
   this->index = index;
   this->length = length;
@@ -419,20 +420,20 @@ inline void Unity::Properties::PropertyPath::_ctor(::StringW path) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, path);
 }
-inline void Unity::Properties::PropertyPath::_ctor(::by_ref<::Unity::Properties::PropertyPathPart> part) {
+inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, part);
 }
-inline void Unity::Properties::PropertyPath::_ctor(::by_ref<::Unity::Properties::PropertyPathPart> part0, ::by_ref<::Unity::Properties::PropertyPathPart> part1) {
+inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part0, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part1) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
                                        { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, part0, part1);
 }
-inline void Unity::Properties::PropertyPath::_ctor(::by_ref<::Unity::Properties::PropertyPathPart> part0, ::by_ref<::Unity::Properties::PropertyPathPart> part1,
-                                                   ::by_ref<::Unity::Properties::PropertyPathPart> part2) {
+inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part0, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part1,
+                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part2) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
                                                            { ".ctor",
@@ -441,8 +442,8 @@ inline void Unity::Properties::PropertyPath::_ctor(::by_ref<::Unity::Properties:
                                                                ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, part0, part1, part2);
 }
-inline void Unity::Properties::PropertyPath::_ctor(::by_ref<::Unity::Properties::PropertyPathPart> part0, ::by_ref<::Unity::Properties::PropertyPathPart> part1,
-                                                   ::by_ref<::Unity::Properties::PropertyPathPart> part2, ::by_ref<::Unity::Properties::PropertyPathPart> part3) {
+inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part0, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part1,
+                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part2, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part3) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
                                               { ".ctor",
@@ -461,37 +462,40 @@ inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::FromIn
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "FromIndex", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, index);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::Combine(::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::Unity::Properties::PropertyPath> pathToAppend) {
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::Combine(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> pathToAppend) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
                                               { "Combine", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, pathToAppend);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendPart(::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::Unity::Properties::PropertyPathPart> part) {
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendPart(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
+                                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
                                        { "AppendPart", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, part);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendIndex(::by_ref<::Unity::Properties::PropertyPath> path, int32_t index) {
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendIndex(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, int32_t index) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "AppendIndex", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, index);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendProperty(::by_ref<::Unity::Properties::PropertyPath> path, ::Unity::Properties::IProperty* property) {
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendProperty(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
+                                                                                         ::Unity::Properties::IProperty* property) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
                                               { "AppendProperty", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::Unity::Properties::IProperty*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, property);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::Pop(::by_ref<::Unity::Properties::PropertyPath> path) {
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::Pop(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "Pop", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::SubPath(::by_ref<::Unity::Properties::PropertyPath> path, int32_t startIndex, int32_t length) {
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::SubPath(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, int32_t startIndex, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
                                               { "SubPath", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
@@ -501,13 +505,14 @@ inline ::StringW Unity::Properties::PropertyPath::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Properties::PropertyPath>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-inline void Unity::Properties::PropertyPath::AppendToBuilder(::by_ref<::Unity::Properties::PropertyPathPart> part, ::System::Text::StringBuilder* builder) {
+inline void Unity::Properties::PropertyPath::AppendToBuilder(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part, ::System::Text::StringBuilder* builder) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
                                               { "AppendToBuilder", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, part, builder);
 }
-inline void Unity::Properties::PropertyPath::GetParts(::by_ref<::Unity::Properties::PropertyPath> path, ::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>* parts) {
+inline void Unity::Properties::PropertyPath::GetParts(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
+                                                      ::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>* parts) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -565,10 +570,11 @@ constexpr Unity::Properties::PropertyPath::operator ::System::IEquatable_1<::Uni
 constexpr ::System::IEquatable_1<::Unity::Properties::PropertyPath>* Unity::Properties::PropertyPath::i___System__IEquatable_1___Unity__Properties__PropertyPath_() {
   return static_cast<::System::IEquatable_1<::Unity::Properties::PropertyPath>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Part0", ty: "::Unity::Properties::PropertyPathPart", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Part1", ty:
-// "::Unity::Properties::PropertyPathPart", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Part2", ty: "::Unity::Properties::PropertyPathPart", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Part3", ty: "::Unity::Properties::PropertyPathPart", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AdditionalParts", ty:
-// "::ArrayW<::Unity::Properties::PropertyPathPart>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Length_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Part0", ty: "::Unity::Properties::PropertyPathPart", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Part1", ty:
+// "::Unity::Properties::PropertyPathPart", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Part2", ty: "::Unity::Properties::PropertyPathPart", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Part3", ty: "::Unity::Properties::PropertyPathPart", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AdditionalParts",
+// ty: "::ArrayW<::Unity::Properties::PropertyPathPart>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Length_k__BackingField", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::Unity::Properties::PropertyPath::PropertyPath(::Unity::Properties::PropertyPathPart m_Part0, ::Unity::Properties::PropertyPathPart m_Part1, ::Unity::Properties::PropertyPathPart m_Part2,
                                                           ::Unity::Properties::PropertyPathPart m_Part3, ::ArrayW<::Unity::Properties::PropertyPathPart> m_AdditionalParts,
                                                           int32_t _Length_k__BackingField) noexcept {

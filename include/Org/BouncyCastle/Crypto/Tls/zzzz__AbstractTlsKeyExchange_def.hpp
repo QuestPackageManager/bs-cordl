@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\AbstractTlsKeyExchange.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsKeyExchange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,10 +59,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*() noexcept;
 
-  /// @brief Method GenerateClientKeyExchange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  /// @brief Method GeneratePremasterSecret, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GeneratePremasterSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> GeneratePremasterSecret();
 
   /// @brief Method GenerateServerKeyExchange, addr 0x343688c, size 0x5c, virtual true, abstract: false, final false
@@ -79,7 +79,7 @@ public:
   /// @brief Method ProcessClientCertificate, addr 0x343699c, size 0x4, virtual true, abstract: false, final false
   inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate);
 
-  /// @brief Method ProcessClientCredentials, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCredentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
   /// @brief Method ProcessClientKeyExchange, addr 0x34369a0, size 0x3c, virtual true, abstract: false, final false
@@ -97,13 +97,13 @@ public:
   /// @brief Method SkipClientCredentials, addr 0x3436998, size 0x4, virtual true, abstract: false, final false
   inline void SkipClientCredentials();
 
-  /// @brief Method SkipServerCredentials, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SkipServerCredentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SkipServerCredentials();
 
   /// @brief Method SkipServerKeyExchange, addr 0x34368e8, size 0x58, virtual true, abstract: false, final false
   inline void SkipServerKeyExchange();
 
-  /// @brief Method ValidateCertificateRequest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificateRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* const& __cordl_internal_get_mContext() const;
@@ -139,13 +139,13 @@ protected:
   constexpr AbstractTlsKeyExchange();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsKeyExchange", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsKeyExchange", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractTlsKeyExchange(AbstractTlsKeyExchange&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsKeyExchange", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsKeyExchange", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractTlsKeyExchange(AbstractTlsKeyExchange const&) = delete;
+  AbstractTlsKeyExchange(AbstractTlsKeyExchangeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1171 };

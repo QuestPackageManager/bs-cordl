@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerSensitivityDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerSensitivityDropdown.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityDropdown_def.hpp"

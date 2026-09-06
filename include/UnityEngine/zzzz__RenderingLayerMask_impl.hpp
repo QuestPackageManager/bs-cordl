@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RenderingLayerMask.hpp"
+// IWYU pragma private; include "UnityEngine/RenderingLayerMask.hpp"
 #include "UnityEngine/zzzz__RenderingLayerMask_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RenderingLayerMask.op_Implicit_uint32_t
@@ -115,7 +115,7 @@ inline int32_t UnityEngine::RenderingLayerMask::NameToRenderingLayer_Injected(::
       (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderingLayerMask>(), { "NameToRenderingLayer_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, layerName);
 }
-// Ctor Parameters [CppParam { name: "m_Bits", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Bits", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RenderingLayerMask::RenderingLayerMask(uint32_t m_Bits) noexcept {
   this->m_Bits = m_Bits;
 }

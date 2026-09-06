@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MultiColumnTreeView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MultiColumnTreeView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,10 +60,14 @@ namespace UnityEngine::UIElements {
 class SortColumnDescriptions;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlObjectAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class UxmlObjectAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -85,6 +89,7 @@ MARK_REF_T(::UnityEngine::UIElements::MultiColumnTreeView_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MultiColumnTreeView*, "UnityEngine.UIElements", "MultiColumnTreeView");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MultiColumnTreeView_UxmlFactory*, "UnityEngine.UIElements", "MultiColumnTreeView/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MultiColumnTreeView_UxmlTraits*, "UnityEngine.UIElements", "MultiColumnTreeView/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -104,13 +109,13 @@ protected:
   constexpr MultiColumnTreeView_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnTreeView_UxmlFactory(MultiColumnTreeView_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnTreeView_UxmlFactory(MultiColumnTreeView_UxmlFactory const&) = delete;
+  MultiColumnTreeView_UxmlFactory(MultiColumnTreeView_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4272 };
@@ -121,6 +126,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::MultiColumnTreeView_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseTreeView::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -173,13 +179,13 @@ protected:
   constexpr MultiColumnTreeView_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnTreeView_UxmlTraits(MultiColumnTreeView_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnTreeView_UxmlTraits(MultiColumnTreeView_UxmlTraits const&) = delete;
+  MultiColumnTreeView_UxmlTraits(MultiColumnTreeView_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4273 };
@@ -219,6 +225,7 @@ public:
   /// @brief Field columnSortingChanged, offset 0x5c8, size 0x8
   __declspec(property(get = __cordl_internal_get_columnSortingChanged, put = __cordl_internal_set_columnSortingChanged)) ::System::Action* columnSortingChanged;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_columns, put = set_columns)) ::UnityEngine::UIElements::Columns* columns;
 
   /// @brief Field columnsProperty, offset 0xffffffff, size 0x98
@@ -243,11 +250,13 @@ public:
   /// @brief Field m_SortingMode, offset 0x5b0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_SortingMode, put = __cordl_internal_set_m_SortingMode)) ::UnityEngine::UIElements::ColumnSortingMode m_SortingMode;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_sortColumnDescriptions, put = set_sortColumnDescriptions)) ::UnityEngine::UIElements::SortColumnDescriptions* sortColumnDescriptions;
 
   /// @brief Field sortColumnDescriptionsProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_sortColumnDescriptionsProperty, put = setStaticF_sortColumnDescriptionsProperty)) ::UnityEngine::UIElements::BindingId sortColumnDescriptionsProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_sortingMode, put = set_sortingMode)) ::UnityEngine::UIElements::ColumnSortingMode sortingMode;
 
   /// @brief Field sortingModeProperty, offset 0xffffffff, size 0x98
@@ -358,13 +367,13 @@ protected:
   constexpr MultiColumnTreeView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnTreeView(MultiColumnTreeView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnTreeView(MultiColumnTreeView const&) = delete;
+  MultiColumnTreeView(MultiColumnTreeViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4274 };
@@ -381,9 +390,13 @@ public:
   /// @brief Field m_SortedColumns, offset: 0x5c0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* ___m_SortedColumns;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field columnSortingChanged, offset: 0x5c8, size: 0x8, def value: None
   ::System::Action* ___columnSortingChanged;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field headerContextMenuPopulateEvent, offset: 0x5d0, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>* ___headerContextMenuPopulateEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\RuntimeSettings.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/RuntimeSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,7 @@ public:
   // @brief default ctor
   constexpr RuntimeSettings_DistanceOption();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeSettings_DistanceOption(int32_t value__) noexcept;
 
   /// @brief Field Close value: I32(0)
@@ -266,6 +266,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x5a4236c, size 0x5c, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -448,6 +449,7 @@ public:
   /// @brief Method .ctor, addr 0x5a428ec, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnImmersiveDebuggerEnabledChanged, addr 0x5a424d8, size 0xf0, virtual false, abstract: false, final false
   static inline void add_OnImmersiveDebuggerEnabledChanged(::System::Action* value);
 
@@ -541,6 +543,7 @@ public:
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnImmersiveDebuggerEnabledChanged, addr 0x5a425c8, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_OnImmersiveDebuggerEnabledChanged(::System::Action* value);
 
@@ -634,98 +637,125 @@ protected:
   constexpr RuntimeSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeSettings(RuntimeSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeSettings(RuntimeSettings const&) = delete;
+  RuntimeSettings(RuntimeSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18335 };
 
+  /// [SerializeField]
   /// @brief Field debugTypes, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugData*>* ___debugTypes;
 
   /// @brief Field debugTypesDict, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* ___debugTypesDict;
 
+  /// [SerializeField]
   /// @brief Field immersiveDebuggerEnabled, offset: 0x28, size: 0x1, def value: None
   bool ___immersiveDebuggerEnabled;
 
+  /// [SerializeField]
   /// @brief Field immersiveDebuggerDisplayAtStartup, offset: 0x29, size: 0x1, def value: None
   bool ___immersiveDebuggerDisplayAtStartup;
 
+  /// [SerializeField]
   /// @brief Field showInspectors, offset: 0x2a, size: 0x1, def value: None
   bool ___showInspectors;
 
+  /// [SerializeField]
   /// @brief Field showConsole, offset: 0x2b, size: 0x1, def value: None
   bool ___showConsole;
 
+  /// [SerializeField]
   /// @brief Field followOverride, offset: 0x2c, size: 0x1, def value: None
   bool ___followOverride;
 
+  /// [SerializeField]
   /// @brief Field rotateOverride, offset: 0x2d, size: 0x1, def value: None
   bool ___rotateOverride;
 
+  /// [SerializeField]
   /// @brief Field showInfoLog, offset: 0x2e, size: 0x1, def value: None
   bool ___showInfoLog;
 
+  /// [SerializeField]
   /// @brief Field showWarningLog, offset: 0x2f, size: 0x1, def value: None
   bool ___showWarningLog;
 
+  /// [SerializeField]
   /// @brief Field showErrorLog, offset: 0x30, size: 0x1, def value: None
   bool ___showErrorLog;
 
+  /// [SerializeField]
   /// @brief Field collapsedIdenticalLogEntries, offset: 0x31, size: 0x1, def value: None
   bool ___collapsedIdenticalLogEntries;
 
+  /// [SerializeField]
   /// @brief Field maximumNumberOfLogEntries, offset: 0x34, size: 0x4, def value: None
   int32_t ___maximumNumberOfLogEntries;
 
+  /// [SerializeField]
   /// @brief Field panelDistance, offset: 0x38, size: 0x4, def value: None
   ::Meta::XR::ImmersiveDebugger::RuntimeSettings_DistanceOption ___panelDistance;
 
+  /// [SerializeField]
   /// @brief Field createEventSystem, offset: 0x3c, size: 0x1, def value: None
   bool ___createEventSystem;
 
+  /// [SerializeField]
   /// @brief Field automaticLayerCullingUpdate, offset: 0x3d, size: 0x1, def value: None
   bool ___automaticLayerCullingUpdate;
 
+  /// [SerializeField]
   /// @brief Field panelLayer, offset: 0x40, size: 0x4, def value: None
   int32_t ___panelLayer;
 
+  /// [SerializeField]
   /// @brief Field meshRendererLayer, offset: 0x44, size: 0x4, def value: None
   int32_t ___meshRendererLayer;
 
+  /// [SerializeField]
   /// @brief Field overlayDepth, offset: 0x48, size: 0x4, def value: None
   int32_t ___overlayDepth;
 
+  /// [SerializeField]
   /// @brief Field inspectedDataEnabled, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<bool>* ___inspectedDataEnabled;
 
+  /// [SerializeField]
   /// @brief Field inspectedDataAssets, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::InspectedData>>* ___inspectedDataAssets;
 
+  /// [SerializeField]
   /// @brief Field useCustomIntegrationConfig, offset: 0x60, size: 0x1, def value: None
   bool ___useCustomIntegrationConfig;
 
+  /// [SerializeField]
   /// @brief Field customIntegrationConfigClassName, offset: 0x68, size: 0x8, def value: None
   ::StringW ___customIntegrationConfigClassName;
 
+  /// [SerializeField]
   /// @brief Field hierarchyViewShowsPrivateMembers, offset: 0x70, size: 0x1, def value: None
   bool ___hierarchyViewShowsPrivateMembers;
 
+  /// [SerializeField]
   /// @brief Field clickButton, offset: 0x74, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_Button ___clickButton;
 
+  /// [SerializeField]
   /// @brief Field toggleFollowTranslationButton, offset: 0x78, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_Button ___toggleFollowTranslationButton;
 
+  /// [SerializeField]
   /// @brief Field toggleFollowRotationButton, offset: 0x7c, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_Button ___toggleFollowRotationButton;
 
+  /// [SerializeField]
   /// @brief Field immersiveDebuggerToggleDisplayButton, offset: 0x80, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_Button ___immersiveDebuggerToggleDisplayButton;
 

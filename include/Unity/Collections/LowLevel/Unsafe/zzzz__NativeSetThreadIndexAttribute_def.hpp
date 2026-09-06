@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeSetThreadIndexAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeSetThreadIndexAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class NativeSetThreadIndexAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeSetThreadIndexAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeSetThreadIndexAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeSetThreadIndexAttribute");
+// [AttributeUsage((System.AttributeTargets)256)]
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr NativeSetThreadIndexAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeSetThreadIndexAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeSetThreadIndexAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeSetThreadIndexAttribute(NativeSetThreadIndexAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeSetThreadIndexAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeSetThreadIndexAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeSetThreadIndexAttribute(NativeSetThreadIndexAttribute const&) = delete;
+  NativeSetThreadIndexAttribute(NativeSetThreadIndexAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10016 };

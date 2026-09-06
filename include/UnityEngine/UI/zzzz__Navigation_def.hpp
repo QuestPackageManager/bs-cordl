@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Navigation.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Navigation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_VAL_T(::UnityEngine::UI::Navigation_Mode);
 MARK_VAL_T(::UnityEngine::UI::Navigation);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::Navigation_Mode, "UnityEngine.UI", "Navigation/Mode");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::Navigation, "UnityEngine.UI", "Navigation");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UI {
 // Is value type: true
@@ -59,7 +60,7 @@ public:
   // @brief default ctor
   constexpr Navigation_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Navigation_Mode(int32_t value__) noexcept;
 
   /// @brief Field Automatic value: I32(3)
@@ -167,10 +168,10 @@ public:
   // @brief default ctor
   constexpr Navigation();
 
-  // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UI::Navigation_Mode", modifiers: "", def_value: None }, CppParam { name: "m_WrapAround", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "m_SelectOnUp", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: None }, CppParam { name: "m_SelectOnDown", ty:
-  // "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: None }, CppParam { name: "m_SelectOnLeft", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: None },
-  // CppParam { name: "m_SelectOnRight", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UI::Navigation_Mode", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_WrapAround", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_SelectOnUp", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_SelectOnDown", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SelectOnLeft", ty: "::UnityW<::UnityEngine::UI::Selectable>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SelectOnRight", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: None, comment: None }]
   constexpr Navigation(::UnityEngine::UI::Navigation_Mode m_Mode, bool m_WrapAround, ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnUp, ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnDown,
                        ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnLeft, ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnRight) noexcept;
 
@@ -180,21 +181,28 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [SerializeField]
   /// @brief Field m_Mode, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UI::Navigation_Mode m_Mode;
 
+  /// [Tooltip("Enables navigation to wrap around from last to first or first to last element. Does not work for automatic grid navigation")]
+  /// [SerializeField]
   /// @brief Field m_WrapAround, offset: 0x4, size: 0x1, def value: None
   bool m_WrapAround;
 
+  /// [SerializeField]
   /// @brief Field m_SelectOnUp, offset: 0x8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnUp;
 
+  /// [SerializeField]
   /// @brief Field m_SelectOnDown, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnDown;
 
+  /// [SerializeField]
   /// @brief Field m_SelectOnLeft, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnLeft;
 
+  /// [SerializeField]
   /// @brief Field m_SelectOnRight, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnRight;
 

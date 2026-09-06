@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardGameplaySceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardGameplaySceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class StandardGameplaySceneSetupData;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StandardGameplaySceneSetupData*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandardGameplaySceneSetupData*, "", "StandardGameplaySceneSetupData");
+// [ZenjectAllowDuringValidation]
 // Dependencies BeatmapKey, SceneSetupData
 namespace GlobalNamespace {
 // Is value type: false
@@ -41,8 +42,8 @@ public:
   /// @brief Field gameplayModifiers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                            ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                            ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr bool const& __cordl_internal_get_autoRestart() const;
 
@@ -69,7 +70,8 @@ public:
   constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
   /// @brief Method .ctor, addr 0x590dd8c, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(bool autoRestart, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  inline void _ctor(bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
 protected:
   // Ctor Parameters []
@@ -77,13 +79,13 @@ protected:
   constexpr StandardGameplaySceneSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardGameplaySceneSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardGameplaySceneSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardGameplaySceneSetupData(StandardGameplaySceneSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardGameplaySceneSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardGameplaySceneSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardGameplaySceneSetupData(StandardGameplaySceneSetupData const&) = delete;
+  StandardGameplaySceneSetupData(StandardGameplaySceneSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6728 };

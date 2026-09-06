@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineGlobalSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineGlobalSettings.hpp"
+#include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineGlobalSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -150,7 +151,10 @@ inline bool UnityEngine::Rendering::RenderPipelineGlobalSettings::TryGet(::Syste
                                               { "TryGet", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type, settings);
 }
-template <typename TSettingsInterfaceType> inline bool UnityEngine::Rendering::RenderPipelineGlobalSettings::TryGetFirstSettingsImplementingInterface(::by_ref<TSettingsInterfaceType> settings) {
+template <typename TSettingsInterfaceType>
+  requires(::cordl_internals::type_constraint<TSettingsInterfaceType, ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> &&
+           ::cordl_internals::reference_type_constraint<TSettingsInterfaceType>)
+inline bool UnityEngine::Rendering::RenderPipelineGlobalSettings::TryGetFirstSettingsImplementingInterface(::by_ref<TSettingsInterfaceType> settings) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderPipelineGlobalSettings*>(),
                                               { "TryGetFirstSettingsImplementingInterface", { ::i2c::class_of<TSettingsInterfaceType>() }, { ::i2c::type_of<::by_ref<TSettingsInterfaceType>>() } })));
@@ -158,6 +162,8 @@ template <typename TSettingsInterfaceType> inline bool UnityEngine::Rendering::R
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, settings);
 }
 template <typename TSettingsInterfaceType>
+  requires(::cordl_internals::type_constraint<TSettingsInterfaceType, ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> &&
+           ::cordl_internals::reference_type_constraint<TSettingsInterfaceType>)
 inline bool UnityEngine::Rendering::RenderPipelineGlobalSettings::GetSettingsImplementingInterface(::by_ref<::System::Collections::Generic::List_1<TSettingsInterfaceType>*> settings) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderPipelineGlobalSettings*>(),
                                                                                               { "GetSettingsImplementingInterface",

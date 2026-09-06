@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerDisconnectedPacket.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerDisconnectedPacket.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerDisconnectedPacket_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ListViewDragger.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ListViewDragger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,9 +89,10 @@ public:
   // @brief default ctor
   constexpr ListViewDragger_DragPosition();
 
-  // Ctor Parameters [CppParam { name: "insertAtIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "childIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "recycledItem", ty: "::UnityEngine::UIElements::ReusableCollectionItem*", modifiers: "", def_value: None },
-  // CppParam { name: "dropPosition", ty: "::UnityEngine::UIElements::DragAndDropPosition", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "insertAtIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "childIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "recycledItem", ty:
+  // "::UnityEngine::UIElements::ReusableCollectionItem*", modifiers: "", def_value: None, comment: None }, CppParam { name: "dropPosition", ty: "::UnityEngine::UIElements::DragAndDropPosition",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ListViewDragger_DragPosition(int32_t insertAtIndex, int32_t parentId, int32_t childIndex, ::UnityEngine::UIElements::ReusableCollectionItem* recycledItem,
                                          ::UnityEngine::UIElements::DragAndDropPosition dropPosition) noexcept;
 
@@ -233,6 +234,7 @@ public:
   /// @brief Method UpdateDrag, addr 0x6d8c980, size 0x1d4, virtual true, abstract: false, final false
   inline void UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
+  /// [CompilerGenerated]
   /// @brief Method <ApplyDragAndDropUI>g__GeometryChangedCallback|31_0, addr 0x6d8f778, size 0x224, virtual false, abstract: false, final false
   inline void _ApplyDragAndDropUI_g__GeometryChangedCallback_31_0(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
@@ -287,6 +289,7 @@ public:
   /// @brief Method .ctor, addr 0x6d8c004, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
+  /// [CompilerGenerated]
   /// @brief Method get_dragAndDropController, addr 0x6d8bc54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ICollectionDragAndDropController* get_dragAndDropController();
 
@@ -299,6 +302,7 @@ public:
   /// @brief Method get_targetView, addr 0x6d8bbb8, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVerticalCollectionView* get_targetView();
 
+  /// [CompilerGenerated]
   /// @brief Method set_dragAndDropController, addr 0x6d8bc5c, size 0x8, virtual false, abstract: false, final false
   inline void set_dragAndDropController(::UnityEngine::UIElements::ICollectionDragAndDropController* value);
 
@@ -311,13 +315,13 @@ protected:
   constexpr ListViewDragger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListViewDragger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDragger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListViewDragger(ListViewDragger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListViewDragger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDragger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListViewDragger(ListViewDragger const&) = delete;
+  ListViewDragger(ListViewDraggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4407 };
@@ -343,6 +347,8 @@ public:
   /// @brief Field m_Enabled, offset: 0x70, size: 0x1, def value: None
   bool ___m_Enabled;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <dragAndDropController>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::UIElements::ICollectionDragAndDropController* ____dragAndDropController_k__BackingField;
 

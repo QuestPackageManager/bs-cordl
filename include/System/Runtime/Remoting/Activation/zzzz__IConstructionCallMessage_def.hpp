@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Activation\IConstructionCallMessage.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Activation/IConstructionCallMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class IConstructionCallMessage;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Activation::IConstructionCallMessage*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Activation::IConstructionCallMessage*, "System.Runtime.Remoting.Activation", "IConstructionCallMessage");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
@@ -60,19 +61,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
-  /// @brief Method get_ActivationType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ActivationType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ActivationType();
 
-  /// @brief Method get_ActivationTypeName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ActivationTypeName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_ActivationTypeName();
 
-  /// @brief Method get_Activator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Activator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Activation::IActivator* get_Activator();
 
-  /// @brief Method get_CallSiteActivationAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_CallSiteActivationAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*> get_CallSiteActivationAttributes();
 
-  /// @brief Method get_ContextProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ContextProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IList* get_ContextProperties();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
@@ -84,12 +85,12 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
 
-  /// @brief Method set_Activator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Activator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Activator(::System::Runtime::Remoting::Activation::IActivator* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IConstructionCallMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IConstructionCallMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IConstructionCallMessage(IConstructionCallMessage const&) = delete;
+  IConstructionCallMessage(IConstructionCallMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3150 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CreateDrawBatchesJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CreateDrawBatchesJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ struct CreateDrawBatchesJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CreateDrawBatchesJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CreateDrawBatchesJob, "UnityEngine.Rendering", "CreateDrawBatchesJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2::ReadOnly<TKey, TValue>,
 // Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.BatchMaterialID, UnityEngine.Rendering.BatchMeshID, UnityEngine.Rendering.DrawBatch,
 // UnityEngine.Rendering.DrawInstance, UnityEngine.Rendering.DrawKey, UnityEngine.Rendering.DrawRange, UnityEngine.Rendering.GPUDrivenPackedMaterialData,
@@ -58,10 +59,11 @@ public:
   constexpr operator ::Unity::Jobs::IJob*();
 
   /// @brief Method EditDrawBatch, addr 0x681ce88, size 0x1ac, virtual false, abstract: false, final false
-  inline ::by_ref<::UnityEngine::Rendering::DrawBatch> EditDrawBatch(::by_ref<::UnityEngine::Rendering::DrawKey> key, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> subMeshDescriptor);
+  inline ::by_ref<::UnityEngine::Rendering::DrawBatch> EditDrawBatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::DrawKey> key,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> subMeshDescriptor);
 
   /// @brief Method EditDrawRange, addr 0x681cd10, size 0x178, virtual false, abstract: false, final false
-  inline ::by_ref<::UnityEngine::Rendering::DrawRange> EditDrawRange(::by_ref<::UnityEngine::Rendering::RangeKey> key);
+  inline ::by_ref<::UnityEngine::Rendering::DrawRange> EditDrawRange(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RangeKey> key);
 
   /// @brief Method Execute, addr 0x681d6d0, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
@@ -76,17 +78,17 @@ public:
   // @brief default ctor
   constexpr CreateDrawBatchesJob();
 
-  // Ctor Parameters [CppParam { name: "implicitInstanceIndices", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instances", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: None }, CppParam { name: "rendererData", ty:
-  // "::UnityEngine::Rendering::GPUDrivenRendererGroupData", modifiers: "", def_value: None }, CppParam { name: "batchMeshHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMeshID>", modifiers: "", def_value: None }, CppParam { name: "batchMaterialHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMaterialID>", modifiers: "", def_value: None }, CppParam { name: "packedMaterialDataHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None }, CppParam { name: "rangeHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>", modifiers: "", def_value: None }, CppParam { name: "drawRanges", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: None }, CppParam { name: "batchHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>", modifiers: "", def_value: None }, CppParam { name: "drawBatches", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None }, CppParam { name: "drawInstances", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "implicitInstanceIndices", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "instances", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererData", ty:
+  // "::UnityEngine::Rendering::GPUDrivenRendererGroupData", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchMeshHash", ty:
+  // "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMeshID>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchMaterialHash", ty:
+  // "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMaterialID>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "packedMaterialDataHash", ty: "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "rangeHash", ty: "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "drawRanges", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchHash", ty:
+  // "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawBatches", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawInstances", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: None, comment: None }]
   constexpr CreateDrawBatchesJob(bool implicitInstanceIndices, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                  ::UnityEngine::Rendering::GPUDrivenRendererGroupData rendererData,
                                  ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::BatchMeshID> batchMeshHash,
@@ -104,21 +106,27 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x240 };
 
+  /// [ReadOnly]
   /// @brief Field implicitInstanceIndices, offset: 0x0, size: 0x1, def value: None
   bool implicitInstanceIndices;
 
+  /// [ReadOnly]
   /// @brief Field instances, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances;
 
+  /// [ReadOnly]
   /// @brief Field rendererData, offset: 0x18, size: 0x1c0, def value: None
   ::UnityEngine::Rendering::GPUDrivenRendererGroupData rendererData;
 
+  /// [ReadOnly]
   /// @brief Field batchMeshHash, offset: 0x1d8, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::BatchMeshID> batchMeshHash;
 
+  /// [ReadOnly]
   /// @brief Field batchMaterialHash, offset: 0x1e8, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::BatchMaterialID> batchMaterialHash;
 
+  /// [ReadOnly]
   /// @brief Field packedMaterialDataHash, offset: 0x1f8, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDataHash;
 
@@ -134,6 +142,7 @@ public:
   /// @brief Field drawBatches, offset: 0x230, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches;
 
+  /// [WriteOnly]
   /// @brief Field drawInstances, offset: 0x238, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances;
 

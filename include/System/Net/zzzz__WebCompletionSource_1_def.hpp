@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\WebCompletionSource_1.hpp"
+// IWYU pragma private; include "System/Net/WebCompletionSource_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
   // @brief default ctor
   constexpr WebCompletionSource_1_Status();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr WebCompletionSource_1_Status(int32_t value__) noexcept;
 
   /// @brief Field Canceled value: I32(2)
@@ -177,12 +177,15 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebCompletionSource_1_Status<T> state, ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Argument, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Argument();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Error, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Status, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Net::WebCompletionSource_1_Status<T> get_Status();
 
@@ -195,23 +198,26 @@ protected:
   constexpr WebCompletionSource_1_Result();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1_Result", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1_Result", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebCompletionSource_1_Result(WebCompletionSource_1_Result&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1_Result", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1_Result", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebCompletionSource_1_Result(WebCompletionSource_1_Result const&) = delete;
+  WebCompletionSource_1_Result(WebCompletionSource_1_Resultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11634 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Status>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Net::WebCompletionSource_1_Status<T> ____Status_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Error>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* ____Error_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Argument>k__BackingField, offset: 0x20, size: 0x8, def value: None
   T ____Argument_k__BackingField;
 
@@ -219,6 +225,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace System::Net {
 // cpp template
@@ -234,6 +241,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -244,10 +252,10 @@ public:
   // @brief default ctor
   constexpr WebCompletionSource_1__WaitForCompletion_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebCompletionSource_1<T>*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebCompletionSource_1_Result<T>*>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::WebCompletionSource_1<T>*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebCompletionSource_1_Result<T>*>", modifiers: "", def_value: None, comment: None }]
   constexpr WebCompletionSource_1__WaitForCompletion_d__15(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder, ::System::Net::WebCompletionSource_1<T>* __4__this,
       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebCompletionSource_1_Result<T>*> __u__1) noexcept;
@@ -320,6 +328,7 @@ public:
   /// @brief Method TrySetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetException(::System::Exception* error);
 
+  /// [AsyncStateMachine(typeof(System.Net.WebCompletionSource`1::<WaitForCompletion>d__15<T>))]
   /// @brief Method WaitForCompletion, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<T>* WaitForCompletion();
 
@@ -350,13 +359,13 @@ protected:
   constexpr WebCompletionSource_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebCompletionSource_1(WebCompletionSource_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebCompletionSource_1(WebCompletionSource_1 const&) = delete;
+  WebCompletionSource_1(WebCompletionSource_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11636 };

@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "Mono\Math\BigInteger.hpp"
+// IWYU pragma private; include "Mono/Math/BigInteger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Math/zzzz__BigInteger_def.hpp"
 #include "Mono/Math/zzzz__BigInteger_def.hpp"
 #include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Math::BigInteger_Sign::BigInteger_Sign(int32_t value__) noexcept {
   this->value__ = value__;
 }

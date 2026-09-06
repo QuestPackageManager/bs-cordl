@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_ObjectPool_1.hpp"
+// IWYU pragma private; include "TMPro/TMP_ObjectPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ template <typename T0> class UnityAction_1;
 }
 // Forward declare root types
 namespace TMPro {
-template <typename T> class TMP_ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class TMP_ObjectPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::TMPro::TMP_ObjectPool_1);
@@ -23,6 +25,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::TMPro::TMP_ObjectPool_1, "TMPro", "TMP_ObjectPool`
 namespace TMPro {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: TMPro.TMP_ObjectPool`1<T>
 class CORDL_TYPE TMP_ObjectPool_1 : public ::System::Object {
@@ -84,12 +87,14 @@ public:
   /// @brief Method get_countActive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_countAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countAll();
 
   /// @brief Method get_countInactive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countInactive();
 
+  /// [CompilerGenerated]
   /// @brief Method set_countAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_countAll(int32_t value);
 
@@ -99,13 +104,13 @@ protected:
   constexpr TMP_ObjectPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ObjectPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ObjectPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_ObjectPool_1(TMP_ObjectPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ObjectPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ObjectPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_ObjectPool_1(TMP_ObjectPool_1 const&) = delete;
+  TMP_ObjectPool_1(TMP_ObjectPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15965 };
@@ -119,6 +124,7 @@ public:
   /// @brief Field m_ActionOnRelease, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction_1<T>* ___m_ActionOnRelease;
 
+  /// [CompilerGenerated]
   /// @brief Field <countAll>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____countAll_k__BackingField;
 

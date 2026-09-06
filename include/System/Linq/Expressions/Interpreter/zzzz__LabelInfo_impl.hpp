@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LabelInfo.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LabelInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LabelInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -356,7 +356,9 @@ inline bool System::Linq::Expressions::Interpreter::LabelInfo::get_HasMultipleDe
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LabelInfo*>(), { "get_HasMultipleDefinitions", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T> inline T System::Linq::Expressions::Interpreter::LabelInfo::CommonNode(T first, T second, ::System::Func_2<T, T>* parent) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Linq::Expressions::Interpreter::LabelInfo::CommonNode(T first, T second, ::System::Func_2<T, T>* parent) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LabelInfo*>(),
                                                            { "CommonNode", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<T>(), ::i2c::type_of<::System::Func_2<T, T>*>() } })));

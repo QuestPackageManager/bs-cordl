@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\ApplicationVersion.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/ApplicationVersion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,13 +89,13 @@ protected:
   constexpr ApplicationVersion();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ApplicationVersion", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ApplicationVersion", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ApplicationVersion(ApplicationVersion&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ApplicationVersion", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ApplicationVersion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ApplicationVersion(ApplicationVersion const&) = delete;
+  ApplicationVersion(ApplicationVersionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18018 };

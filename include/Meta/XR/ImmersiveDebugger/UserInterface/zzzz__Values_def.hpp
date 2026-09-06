@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Values.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Values.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,6 +75,7 @@ public:
   /// @brief Method get_GetValues, addr 0x5a57b80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Value>>* get_GetValues();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Watch, addr 0x5a57b88, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Watch* get_Watch();
 
@@ -84,6 +85,7 @@ public:
   /// @brief Method set_TextStyle, addr 0x5a57cac, size 0x120, virtual false, abstract: false, final false
   inline void set_TextStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Watch, addr 0x5a57b90, size 0x8, virtual false, abstract: false, final false
   inline void set_Watch(::Meta::XR::ImmersiveDebugger::Manager::Watch* value);
 
@@ -93,13 +95,13 @@ protected:
   constexpr Values();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Values", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Values", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Values(Values&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Values", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Values", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Values(Values const&) = delete;
+  Values(Valuesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18387 };
@@ -107,6 +109,7 @@ public:
   /// @brief Field _values, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Value>>* ____values;
 
+  /// [CompilerGenerated]
   /// @brief Field <Watch>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::Watch* ____Watch_k__BackingField;
 

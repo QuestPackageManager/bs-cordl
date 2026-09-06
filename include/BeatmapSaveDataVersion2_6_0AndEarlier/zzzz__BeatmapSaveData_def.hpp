@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\BeatmapSaveData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/BeatmapSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -166,13 +166,13 @@ protected:
   constexpr BeatmapSaveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapSaveData(BeatmapSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapSaveData(BeatmapSaveData const&) = delete;
+  BeatmapSaveData(BeatmapSaveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15380 };
@@ -180,24 +180,31 @@ public:
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"2.6.0" };
 
+  /// [SerializeField]
   /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
   ::StringW ____version;
 
+  /// [SerializeField]
   /// @brief Field _events, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* ____events;
 
+  /// [SerializeField]
   /// @brief Field _notes, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* ____notes;
 
+  /// [SerializeField]
   /// @brief Field _sliders, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* ____sliders;
 
+  /// [SerializeField]
   /// @brief Field _waypoints, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* ____waypoints;
 
+  /// [SerializeField]
   /// @brief Field _obstacles, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* ____obstacles;
 
+  /// [SerializeField]
   /// @brief Field _specialEventsKeywordFilters, offset: 0x40, size: 0x8, def value: None
   ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* ____specialEventsKeywordFilters;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightTranslationBeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightTranslationBeatmapEventDataBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,6 +72,7 @@ MARK_REF_T(::GlobalNamespace::LightTranslationBeatmapEventDataBox*);
 MARK_REF_T(::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightTranslationBeatmapEventDataBox*, "", "LightTranslationBeatmapEventDataBox");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9*, "", "LightTranslationBeatmapEventDataBox/<Unpack>d__9");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -180,23 +181,30 @@ public:
   /// @brief Method MoveNext, addr 0x371bf58, size 0x838, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x371c940, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x371c8f8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x371ca18, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x371c900, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x371c938, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x371beac, size 0xac, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -356,6 +364,7 @@ public:
   /// @brief Method <>m__Finally2, addr 0x371c790, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x371be8c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -380,13 +389,13 @@ protected:
   constexpr LightTranslationBeatmapEventDataBox__Unpack_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventDataBox__Unpack_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventDataBox__Unpack_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationBeatmapEventDataBox__Unpack_d__9(LightTranslationBeatmapEventDataBox__Unpack_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventDataBox__Unpack_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventDataBox__Unpack_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightTranslationBeatmapEventDataBox__Unpack_d__9(LightTranslationBeatmapEventDataBox__Unpack_d__9 const&) = delete;
+  LightTranslationBeatmapEventDataBox__Unpack_d__9(LightTranslationBeatmapEventDataBox__Unpack_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14936 };
@@ -555,6 +564,7 @@ public:
            bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType,
            ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
+  /// [IteratorStateMachine(typeof(LightTranslationBeatmapEventDataBox::<Unpack>d__9))]
   /// @brief Method Unpack, addr 0x371bdc0, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex,
                                                                                                      int32_t distributionOrderIndex, float_t maxBeat,
@@ -603,13 +613,13 @@ protected:
   constexpr LightTranslationBeatmapEventDataBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventDataBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventDataBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationBeatmapEventDataBox(LightTranslationBeatmapEventDataBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventDataBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventDataBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightTranslationBeatmapEventDataBox(LightTranslationBeatmapEventDataBox const&) = delete;
+  LightTranslationBeatmapEventDataBox(LightTranslationBeatmapEventDataBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14937 };

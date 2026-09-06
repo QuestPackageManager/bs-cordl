@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,6 +99,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeManager*, "UnityEngine.Rende
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeManager___c*, "UnityEngine.Rendering", "VolumeManager/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeManager___c__DisplayClass58_1*, "UnityEngine.Rendering", "VolumeManager/<>c__DisplayClass58_1");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeManager___c__DisplayClass58_0, "UnityEngine.Rendering", "VolumeManager/<>c__DisplayClass58_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -157,13 +158,13 @@ protected:
   constexpr VolumeManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeManager___c(VolumeManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeManager___c(VolumeManager___c const&) = delete;
+  VolumeManager___c(VolumeManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12064 };
@@ -174,6 +175,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::VolumeManager___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -185,8 +187,8 @@ public:
   // @brief default ctor
   constexpr VolumeManager___c__DisplayClass58_0();
 
-  // Ctor Parameters [CppParam { name: "componentsDefaultStateList", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "componentsDefaultStateList", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr VolumeManager___c__DisplayClass58_0(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* componentsDefaultStateList) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -206,6 +208,7 @@ static_assert(offsetof(::UnityEngine::Rendering::VolumeManager___c__DisplayClass
 static_assert(sizeof(::UnityEngine::Rendering::VolumeManager___c__DisplayClass58_0) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -236,13 +239,13 @@ protected:
   constexpr VolumeManager___c__DisplayClass58_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c__DisplayClass58_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c__DisplayClass58_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeManager___c__DisplayClass58_1(VolumeManager___c__DisplayClass58_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c__DisplayClass58_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c__DisplayClass58_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeManager___c__DisplayClass58_1(VolumeManager___c__DisplayClass58_1 const&) = delete;
+  VolumeManager___c__DisplayClass58_1(VolumeManager___c__DisplayClass58_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12066 };
@@ -298,6 +301,7 @@ public:
 
   __declspec(property(get = get_baseComponentTypeArray, put = set_baseComponentTypeArray)) ::ArrayW<::System::Type*> baseComponentTypeArray;
 
+  /// @brief [Obsolete("Please use baseComponentTypeArray instead.")]
   __declspec(property(get = get_baseComponentTypes)) ::System::Collections::Generic::IEnumerable_1<::System::Type*>* baseComponentTypes;
 
   __declspec(property(get = get_customDefaultProfiles,
@@ -353,9 +357,11 @@ public:
   /// @brief Method BuildVolumeComponentDisplayList, addr 0x67708c4, size 0x3b4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>* BuildVolumeComponentDisplayList(::ArrayW<::System::Type*> types);
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckDefaultVolumeState, addr 0x6772790, size 0x94, virtual false, abstract: false, final false
   inline void CheckDefaultVolumeState();
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckStack, addr 0x6772824, size 0x1d4, virtual false, abstract: false, final false
   inline void CheckStack(::UnityEngine::Rendering::VolumeStack* stack);
 
@@ -393,7 +399,9 @@ public:
   inline void InitializeVolumeComponents();
 
   /// @brief Method IsComponentActiveInMask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool IsComponentActiveInMask(::UnityEngine::LayerMask layerMask);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline bool IsComponentActiveInMask(::UnityEngine::LayerMask layerMask);
 
   /// @brief Method IsSupportedByObsoleteVolumeComponentMenuForRenderPipeline, addr 0x677201c, size 0x1ec, virtual false, abstract: false, final false
   inline bool IsSupportedByObsoleteVolumeComponentMenuForRenderPipeline(::System::Type* t, ::System::Type* pipelineAssetType);
@@ -418,6 +426,7 @@ public:
   /// @brief Method Register, addr 0x6770098, size 0x50, virtual false, abstract: false, final false
   inline void Register(::UnityEngine::Rendering::Volume* volume);
 
+  /// [Obsolete("Please use the Register without a given layer index #from(6000.0)", false)]
   /// @brief Method Register, addr 0x676fe44, size 0x254, virtual false, abstract: false, final false
   inline void Register(::UnityEngine::Rendering::Volume* volume, int32_t layer);
 
@@ -442,6 +451,7 @@ public:
   /// @brief Method Unregister, addr 0x677033c, size 0x50, virtual false, abstract: false, final false
   inline void Unregister(::UnityEngine::Rendering::Volume* volume);
 
+  /// [Obsolete("Please use the Register without a given layer index #from(6000.0)", false)]
   /// @brief Method Unregister, addr 0x67700e8, size 0x254, virtual false, abstract: false, final false
   inline void Unregister(::UnityEngine::Rendering::Volume* volume, int32_t layer);
 
@@ -454,6 +464,7 @@ public:
   /// @brief Method UpdateVolumeLayer, addr 0x6772418, size 0x18, virtual false, abstract: false, final false
   inline void UpdateVolumeLayer(::UnityEngine::Rendering::Volume* volume, int32_t prevLayer, int32_t newLayer);
 
+  /// [CompilerGenerated]
   /// @brief Method <EvaluateVolumeDefaultState>g__ApplyDefaultProfile|58_0, addr 0x6772208, size 0x1f8, virtual false, abstract: false, final false
   static inline void _EvaluateVolumeDefaultState_g__ApplyDefaultProfile_58_0(::UnityEngine::Rendering::VolumeProfile* profile,
                                                                              ::by_ref<::UnityEngine::Rendering::VolumeManager___c__DisplayClass58_0> _cordl_fixed_empty_name_whitespace);
@@ -544,27 +555,33 @@ public:
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>*>*
   getStaticF_s_SupportedVolumeComponentsForRenderPipeline();
 
+  /// [CompilerGenerated]
   /// @brief Method get_baseComponentTypeArray, addr 0x6770c78, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_baseComponentTypeArray();
 
   /// @brief Method get_baseComponentTypes, addr 0x677039c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_baseComponentTypes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_customDefaultProfiles, addr 0x6770ca8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityW<::UnityEngine::Rendering::VolumeProfile>>* get_customDefaultProfiles();
 
+  /// [CompilerGenerated]
   /// @brief Method get_globalDefaultProfile, addr 0x6770c88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_globalDefaultProfile();
 
   /// @brief Method get_instance, addr 0x675d554, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::VolumeManager* get_instance();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isInitialized, addr 0x6770eb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
+  /// [CompilerGenerated]
   /// @brief Method get_qualityDefaultProfile, addr 0x6770c98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_qualityDefaultProfile();
 
+  /// [CompilerGenerated]
   /// @brief Method get_stack, addr 0x677038c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VolumeStack* get_stack();
 
@@ -579,21 +596,27 @@ public:
   static inline void setStaticF_s_SupportedVolumeComponentsForRenderPipeline(
       ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_baseComponentTypeArray, addr 0x6770c80, size 0x8, virtual false, abstract: false, final false
   inline void set_baseComponentTypeArray(::ArrayW<::System::Type*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_customDefaultProfiles, addr 0x6770cb0, size 0x8, virtual false, abstract: false, final false
   inline void set_customDefaultProfiles(::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityW<::UnityEngine::Rendering::VolumeProfile>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_globalDefaultProfile, addr 0x6770c90, size 0x8, virtual false, abstract: false, final false
   inline void set_globalDefaultProfile(::UnityEngine::Rendering::VolumeProfile* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isInitialized, addr 0x6770ec0, size 0x8, virtual false, abstract: false, final false
   inline void set_isInitialized(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_qualityDefaultProfile, addr 0x6770ca0, size 0x8, virtual false, abstract: false, final false
   inline void set_qualityDefaultProfile(::UnityEngine::Rendering::VolumeProfile* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_stack, addr 0x6770394, size 0x8, virtual false, abstract: false, final false
   inline void set_stack(::UnityEngine::Rendering::VolumeStack* value);
 
@@ -603,29 +626,34 @@ protected:
   constexpr VolumeManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeManager(VolumeManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeManager(VolumeManager const&) = delete;
+  VolumeManager(VolumeManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12067 };
 
+  /// [CompilerGenerated]
   /// @brief Field <stack>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::VolumeStack* ____stack_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <baseComponentTypeArray>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::System::Type*> ____baseComponentTypeArray_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <globalDefaultProfile>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::VolumeProfile> ____globalDefaultProfile_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <qualityDefaultProfile>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::VolumeProfile> ____qualityDefaultProfile_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <customDefaultProfiles>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityW<::UnityEngine::Rendering::VolumeProfile>>* ____customDefaultProfiles_k__BackingField;
 
@@ -647,6 +675,7 @@ public:
   /// @brief Field m_CreatedVolumeStacks, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>* ___m_CreatedVolumeStacks;
 
+  /// [CompilerGenerated]
   /// @brief Field <isInitialized>k__BackingField, offset: 0x68, size: 0x1, def value: None
   bool ____isInitialized_k__BackingField;
 

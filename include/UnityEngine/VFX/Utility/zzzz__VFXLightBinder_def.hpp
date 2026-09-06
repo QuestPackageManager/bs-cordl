@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXLightBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXLightBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class VFXLightBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXLightBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXLightBinder*, "UnityEngine.VFX.Utility", "VFXLightBinder");
+// [AddComponentMenu("VFX/Property Binders/Light Binder")]
+// [VFXBinder("Utility/Light")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -136,23 +138,32 @@ protected:
   constexpr VFXLightBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXLightBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXLightBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXLightBinder(VFXLightBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXLightBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXLightBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXLightBinder(VFXLightBinder const&) = delete;
+  VFXLightBinder(VFXLightBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19998 };
 
+  /// [VFXPropertyBinding(new[] { "UnityEngine.Color" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_ColorParameter")]
   /// @brief Field m_ColorProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_ColorProperty;
 
+  /// [VFXPropertyBinding(new[] { "System.Single" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_BrightnessParameter")]
   /// @brief Field m_BrightnessProperty, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_BrightnessProperty;
 
+  /// [VFXPropertyBinding(new[] { "System.Single" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_RadiusParameter")]
   /// @brief Field m_RadiusProperty, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_RadiusProperty;
 

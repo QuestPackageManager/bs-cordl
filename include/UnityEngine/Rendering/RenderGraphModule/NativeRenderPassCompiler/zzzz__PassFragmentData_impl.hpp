@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassFragmentData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassFragmentData.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__AccessFlags_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassFragmentData_def.hpp"
@@ -43,8 +43,8 @@ inline int32_t UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompil
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
 inline bool UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::SameSubResource(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> x,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> y) {
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> x,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> y) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>(),
                                                            { "SameSubResource",
@@ -53,9 +53,9 @@ inline bool UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, x, y);
 }
-// Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "accessFlags", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::AccessFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "mipLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "depthSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "accessFlags", ty: "::UnityEngine::Rendering::RenderGraphModule::AccessFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mipLevel", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::PassFragmentData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource,
                                                                                                                     ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags,
                                                                                                                     int32_t mipLevel, int32_t depthSlice) noexcept {

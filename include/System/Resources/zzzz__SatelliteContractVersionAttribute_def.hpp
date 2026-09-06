@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\SatelliteContractVersionAttribute.hpp"
+// IWYU pragma private; include "System/Resources/SatelliteContractVersionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class SatelliteContractVersionAttribute;
 // Write type traits
 MARK_REF_T(::System::Resources::SatelliteContractVersionAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Resources::SatelliteContractVersionAttribute*, "System.Resources", "SatelliteContractVersionAttribute");
+// [AttributeUsage((System.AttributeTargets)1, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System::Resources {
 // Is value type: false
@@ -36,6 +37,7 @@ public:
   /// @brief Method .ctor, addr 0x5b74dd0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW version);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Version, addr 0x5b74e28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
@@ -45,17 +47,18 @@ protected:
   constexpr SatelliteContractVersionAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SatelliteContractVersionAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SatelliteContractVersionAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SatelliteContractVersionAttribute(SatelliteContractVersionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SatelliteContractVersionAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SatelliteContractVersionAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SatelliteContractVersionAttribute(SatelliteContractVersionAttribute const&) = delete;
+  SatelliteContractVersionAttribute(SatelliteContractVersionAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3449 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Version>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Version_k__BackingField;
 

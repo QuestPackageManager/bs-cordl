@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenPackedRendererData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenPackedRendererData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ struct GPUDrivenPackedRendererData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::GPUDrivenPackedRendererData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUDrivenPackedRendererData, "UnityEngine.Rendering", "GPUDrivenPackedRendererData");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -76,7 +77,7 @@ public:
   // @brief default ctor
   constexpr GPUDrivenPackedRendererData();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GPUDrivenPackedRendererData(uint32_t data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

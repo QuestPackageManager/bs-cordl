@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RecordingToolConfigViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/RecordingToolConfigViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigViewController_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"

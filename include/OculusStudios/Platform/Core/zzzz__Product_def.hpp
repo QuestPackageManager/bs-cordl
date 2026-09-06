@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\Product.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/Product.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::OculusStudios::Platform::Core::Product*);
 MARK_REF_T(::OculusStudios::Platform::Core::Product___c*);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::Product*, "OculusStudios.Platform.Core", "Product");
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::Product___c*, "OculusStudios.Platform.Core", "Product/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::Platform::Core {
 // Is value type: false
@@ -85,13 +86,13 @@ protected:
   constexpr Product___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Product___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Product___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Product___c(Product___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Product___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Product___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Product___c(Product___c const&) = delete;
+  Product___c(Product___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22438 };
@@ -196,13 +197,13 @@ protected:
   constexpr Product();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Product(Product&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Product(Product const&) = delete;
+  Product(Productconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22439 };

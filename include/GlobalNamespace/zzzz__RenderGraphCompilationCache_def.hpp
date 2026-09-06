@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RenderGraphCompilationCache.hpp"
+// IWYU pragma private; include "GlobalNamespace/RenderGraphCompilationCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderGraphCompilationCache)
@@ -11,7 +12,9 @@ namespace GlobalNamespace {
 template <typename T> struct RenderGraphCompilationCache_HashEntry_1;
 }
 namespace GlobalNamespace {
-template <typename T> class RenderGraphCompilationCache___c__11_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+class RenderGraphCompilationCache___c__11_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
@@ -23,17 +26,23 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph_CompiledGraph;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1_SortComparer;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1_SortComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class RenderGraphCompilationCache;
 }
 namespace GlobalNamespace {
-template <typename T> class RenderGraphCompilationCache___c__11_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+class RenderGraphCompilationCache___c__11_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct RenderGraphCompilationCache_HashEntry_1;
@@ -58,8 +67,8 @@ public:
   // @brief default ctor
   constexpr RenderGraphCompilationCache_HashEntry_1();
 
-  // Ctor Parameters [CppParam { name: "hash", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastFrameUsed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "compiledGraph", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hash", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastFrameUsed", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "compiledGraph", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraphCompilationCache_HashEntry_1(int32_t hash, int32_t lastFrameUsed, T compiledGraph) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -81,10 +90,12 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.Rendering.RenderGraphModule.RenderGraph::ICompiledGraph
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
 // Is value type: false
 // CS Name: RenderGraphCompilationCache/<>c__11`1<T>
 class CORDL_TYPE RenderGraphCompilationCache___c__11_1 : public ::System::Object {
@@ -118,13 +129,13 @@ protected:
   constexpr RenderGraphCompilationCache___c__11_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache___c__11_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache___c__11_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphCompilationCache___c__11_1(RenderGraphCompilationCache___c__11_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache___c__11_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache___c__11_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphCompilationCache___c__11_1(RenderGraphCompilationCache___c__11_1 const&) = delete;
+  RenderGraphCompilationCache___c__11_1(RenderGraphCompilationCache___c__11_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11845 };
@@ -133,7 +144,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.Rendering.RenderGraphModule.RenderGraph::ICompiledGraph
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: RenderGraphCompilationCache
@@ -142,7 +153,9 @@ public:
   // Declarations
   template <typename T> using HashEntry_1 = ::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>;
 
-  template <typename T> using __c__11_1 = ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+  using __c__11_1 = ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>;
 
   /// @brief Field m_CompiledGraphPool, offset 0x20, size 0x8
   __declspec(property(
@@ -185,6 +198,7 @@ public:
 
   /// @brief Method GetCompilationCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
   inline bool
   GetCompilationCache(int32_t hash, int32_t frameIndex, ::by_ref<T> outGraph, ::UnityEngine::Rendering::DynamicArray_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>* hashEntries,
                       ::System::Collections::Generic::Stack_1<T>* pool, ::UnityEngine::Rendering::DynamicArray_1_SortComparer<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>* comparer);
@@ -246,13 +260,13 @@ protected:
   constexpr RenderGraphCompilationCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphCompilationCache(RenderGraphCompilationCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphCompilationCache(RenderGraphCompilationCache const&) = delete;
+  RenderGraphCompilationCache(RenderGraphCompilationCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11846 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextElement.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,6 +122,7 @@ MARK_REF_T(::UnityEngine::UIElements::TextElement_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TextElement*, "UnityEngine.UIElements", "TextElement");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TextElement_UxmlFactory*, "UnityEngine.UIElements", "TextElement/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TextElement_UxmlTraits*, "UnityEngine.UIElements", "TextElement/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -140,13 +141,13 @@ protected:
   constexpr TextElement_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextElement_UxmlFactory(TextElement_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextElement_UxmlFactory(TextElement_UxmlFactory const&) = delete;
+  TextElement_UxmlFactory(TextElement_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5100 };
@@ -157,6 +158,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::TextElement_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BindableElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -255,13 +257,13 @@ protected:
   constexpr TextElement_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextElement_UxmlTraits(TextElement_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextElement_UxmlTraits(TextElement_UxmlTraits const&) = delete;
+  TextElement_UxmlTraits(TextElement_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5101 };
@@ -454,31 +456,37 @@ public:
   __declspec(property(get = __cordl_internal_get__uitkTextHandle_k__BackingField,
                       put = __cordl_internal_set__uitkTextHandle_k__BackingField)) ::UnityEngine::UIElements::UITKTextHandle* _uitkTextHandle_k__BackingField;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_autoCorrection, put = set_autoCorrection)) bool autoCorrection;
 
   /// @brief Field autoCorrectionProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_autoCorrectionProperty, put = setStaticF_autoCorrectionProperty)) ::UnityEngine::UIElements::BindingId autoCorrectionProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_cursorColor, put = set_cursorColor)) ::UnityEngine::Color cursorColor;
 
   /// @brief Field cursorColorProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_cursorColorProperty, put = setStaticF_cursorColorProperty)) ::UnityEngine::UIElements::BindingId cursorColorProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_cursorIndex, put = set_cursorIndex)) int32_t cursorIndex;
 
   /// @brief Field cursorIndexProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_cursorIndexProperty, put = setStaticF_cursorIndexProperty)) ::UnityEngine::UIElements::BindingId cursorIndexProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_cursorPosition)) ::UnityEngine::Vector2 cursorPosition;
 
   /// @brief Field cursorPositionProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_cursorPositionProperty, put = setStaticF_cursorPositionProperty)) ::UnityEngine::UIElements::BindingId cursorPositionProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_displayTooltipWhenElided, put = set_displayTooltipWhenElided)) bool displayTooltipWhenElided;
 
   /// @brief Field displayTooltipWhenElidedProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_displayTooltipWhenElidedProperty, put = setStaticF_displayTooltipWhenElidedProperty)) ::UnityEngine::UIElements::BindingId displayTooltipWhenElidedProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_doubleClickSelectsWord, put = set_doubleClickSelectsWord)) bool doubleClickSelectsWord;
 
   /// @brief Field doubleClickSelectsWordProperty, offset 0xffffffff, size 0x98
@@ -493,11 +501,13 @@ public:
   /// @brief Field elidedText, offset 0x4d0, size 0x8
   __declspec(property(get = __cordl_internal_get_elidedText, put = __cordl_internal_set_elidedText)) ::StringW elidedText;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_emojiFallbackSupport, put = set_emojiFallbackSupport)) bool emojiFallbackSupport;
 
   /// @brief Field emojiFallbackSupportProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_emojiFallbackSupportProperty, put = setStaticF_emojiFallbackSupportProperty)) ::UnityEngine::UIElements::BindingId emojiFallbackSupportProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_enableRichText, put = set_enableRichText)) bool enableRichText;
 
   /// @brief Field enableRichTextProperty, offset 0xffffffff, size 0x98
@@ -505,11 +515,13 @@ public:
 
   __declspec(property(get = get_hasFocus)) bool hasFocus;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_hideMobileInput, put = set_hideMobileInput)) bool hideMobileInput;
 
   /// @brief Field hideMobileInputProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_hideMobileInputProperty, put = setStaticF_hideMobileInputProperty)) ::UnityEngine::UIElements::BindingId hideMobileInputProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_isElided, put = set_isElided)) bool isElided;
 
   /// @brief Field isElidedProperty, offset 0xffffffff, size 0x98
@@ -518,16 +530,19 @@ public:
   /// @brief Field isInputField, offset 0x4e8, size 0x1
   __declspec(property(get = __cordl_internal_get_isInputField, put = __cordl_internal_set_isInputField)) bool isInputField;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_isPassword, put = set_isPassword)) bool isPassword;
 
   /// @brief Field isPasswordProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_isPasswordProperty, put = setStaticF_isPasswordProperty)) ::UnityEngine::UIElements::BindingId isPasswordProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_isReadOnly, put = set_isReadOnly)) bool isReadOnly;
 
   /// @brief Field isReadOnlyProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_isReadOnlyProperty, put = setStaticF_isReadOnlyProperty)) ::UnityEngine::UIElements::BindingId isReadOnlyProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_isSelectable, put = set_isSelectable)) bool isSelectable;
 
   /// @brief Field isSelectableProperty, offset 0xffffffff, size 0x98
@@ -536,6 +551,7 @@ public:
   /// @brief Field k_EllipsisText, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_EllipsisText, put = setStaticF_k_EllipsisText)) ::StringW k_EllipsisText;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_keyboardType, put = set_keyboardType)) ::UnityEngine::TouchScreenKeyboardType keyboardType;
 
   /// @brief Field keyboardTypeProperty, offset 0xffffffff, size 0x98
@@ -626,11 +642,13 @@ public:
   /// @brief Field m_WasElided, offset 0x4d8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_WasElided, put = __cordl_internal_set_m_WasElided)) bool m_WasElided;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_maskChar, put = set_maskChar)) char16_t maskChar;
 
   /// @brief Field maskCharProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_maskCharProperty, put = setStaticF_maskCharProperty)) ::UnityEngine::UIElements::BindingId maskCharProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_maxLength, put = set_maxLength)) int32_t maxLength;
 
   /// @brief Field maxLengthProperty, offset 0xffffffff, size 0x98
@@ -641,6 +659,7 @@ public:
 
   __declspec(property(get = get_originalText)) ::StringW originalText;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_parseEscapeSequences, put = set_parseEscapeSequences)) bool parseEscapeSequences;
 
   /// @brief Field parseEscapeSequencesProperty, offset 0xffffffff, size 0x98
@@ -648,16 +667,19 @@ public:
 
   __declspec(property(get = get_renderedText)) ::UnityEngine::TextCore::Text::RenderedText renderedText;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_selectAllOnFocus, put = set_selectAllOnFocus)) bool selectAllOnFocus;
 
   /// @brief Field selectAllOnFocusProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_selectAllOnFocusProperty, put = setStaticF_selectAllOnFocusProperty)) ::UnityEngine::UIElements::BindingId selectAllOnFocusProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_selectAllOnMouseUp, put = set_selectAllOnMouseUp)) bool selectAllOnMouseUp;
 
   /// @brief Field selectAllOnMouseUpProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_selectAllOnMouseUpProperty, put = setStaticF_selectAllOnMouseUpProperty)) ::UnityEngine::UIElements::BindingId selectAllOnMouseUpProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_selectIndex, put = set_selectIndex)) int32_t selectIndex;
 
   /// @brief Field selectIndexProperty, offset 0xffffffff, size 0x98
@@ -668,8 +690,10 @@ public:
 
   __declspec(property(get = get_selectingManipulator)) ::UnityEngine::UIElements::TextSelectingManipulator* selectingManipulator;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_selection)) ::UnityEngine::UIElements::ITextSelection* selection;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_selectionColor, put = set_selectionColor)) ::UnityEngine::Color selectionColor;
 
   /// @brief Field selectionColorProperty, offset 0xffffffff, size 0x98
@@ -680,11 +704,13 @@ public:
 
   __declspec(property(get = get_showPlaceholderText)) bool showPlaceholderText;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
   /// @brief Field textProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_textProperty, put = setStaticF_textProperty)) ::UnityEngine::UIElements::BindingId textProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_tripleClickSelectsLine, put = set_tripleClickSelectsLine)) bool tripleClickSelectsLine;
 
   /// @brief Field tripleClickSelectsLineProperty, offset 0xffffffff, size 0x98
@@ -695,6 +721,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_value, put = set_value)) ::StringW value;
 
   /// @brief Field valueProperty, offset 0xffffffff, size 0x98
@@ -749,6 +776,11 @@ public:
   /// @brief Method GetLastCharacterAt, addr 0x6cb0db8, size 0x140, virtual false, abstract: false, final false
   inline int32_t GetLastCharacterAt(int32_t lineIndex);
 
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.ContextualMenuPopulateEvent), typeof(UnityEngine.UIElements.KeyDownEvent), typeof(UnityEngine.UIElements.KeyUpEvent),
+  /// typeof(UnityEngine.UIElements.ValidateCommandEvent), typeof(UnityEngine.UIElements.ExecuteCommandEvent), typeof(UnityEngine.UIElements.FocusEvent), typeof(UnityEngine.UIElements.BlurEvent),
+  /// typeof(UnityEngine.UIElements.FocusInEvent), typeof(UnityEngine.UIElements.FocusOutEvent), typeof(UnityEngine.UIElements.PointerDownEvent), typeof(UnityEngine.UIElements.PointerUpEvent),
+  /// typeof(UnityEngine.UIElements.PointerMoveEvent), typeof(UnityEngine.UIElements.NavigationMoveEvent), typeof(UnityEngine.UIElements.NavigationSubmitEvent),
+  /// typeof(UnityEngine.UIElements.NavigationCancelEvent) })]
   /// @brief Method HandleEventBubbleUp, addr 0x6cade0c, size 0x358, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
@@ -806,21 +838,27 @@ public:
   /// @brief Method UnityEngine.UIElements.ITextEdition.UpdateText, addr 0x6cae664, size 0x26c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_UpdateText(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.get_AcceptCharacter, addr 0x6cae5f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Func_2<char16_t, bool>* UnityEngine_UIElements_ITextEdition_get_AcceptCharacter();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.get_GetDefaultValueType, addr 0x6cae654, size 0x8, virtual true, abstract: false, final true
   inline ::System::Func_1<::StringW>* UnityEngine_UIElements_ITextEdition_get_GetDefaultValueType();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.get_MoveFocusToCompositeRoot, addr 0x6cae634, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_MoveFocusToCompositeRoot();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateScrollOffset, addr 0x6cae604, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action_1<bool>* UnityEngine_UIElements_ITextEdition_get_UpdateScrollOffset();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateTextFromValue, addr 0x6cae624, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_UpdateTextFromValue();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateValueFromText, addr 0x6cae614, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_UpdateValueFromText();
 
@@ -833,6 +871,7 @@ public:
   /// @brief Method UnityEngine.UIElements.ITextEdition.get_hidePlaceholderOnFocus, addr 0x6caef14, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextEdition_get_hidePlaceholderOnFocus();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.get_isDelayed, addr 0x6cae5ac, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextEdition_get_isDelayed();
 
@@ -857,21 +896,27 @@ public:
   /// @brief Method UnityEngine.UIElements.ITextEdition.get_placeholder, addr 0x6cae400, size 0x8, virtual true, abstract: false, final true
   inline ::StringW UnityEngine_UIElements_ITextEdition_get_placeholder();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.set_AcceptCharacter, addr 0x6cae5fc, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_AcceptCharacter(::System::Func_2<char16_t, bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.set_GetDefaultValueType, addr 0x6cae65c, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_GetDefaultValueType(::System::Func_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.set_MoveFocusToCompositeRoot, addr 0x6cae63c, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_MoveFocusToCompositeRoot(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateScrollOffset, addr 0x6cae60c, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_UpdateScrollOffset(::System::Action_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateTextFromValue, addr 0x6cae62c, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_UpdateTextFromValue(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateValueFromText, addr 0x6cae61c, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_UpdateValueFromText(::System::Action* value);
 
@@ -884,6 +929,7 @@ public:
   /// @brief Method UnityEngine.UIElements.ITextEdition.set_hidePlaceholderOnFocus, addr 0x6caef1c, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_hidePlaceholderOnFocus(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.ITextEdition.set_isDelayed, addr 0x6cae5b4, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_isDelayed(bool value);
 
@@ -1297,6 +1343,7 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_valueProperty();
 
+  /// [CompilerGenerated]
   /// @brief Method get_OnPlaceholderChanged, addr 0x6cae644, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_OnPlaceholderChanged();
 
@@ -1318,6 +1365,7 @@ public:
   /// @brief Method get_doubleClickSelectsWord, addr 0x6cafec8, size 0xa4, virtual false, abstract: false, final false
   inline bool get_doubleClickSelectsWord();
 
+  /// [CompilerGenerated]
   /// @brief Method get_editingManipulator, addr 0x6cacd7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextEditingManipulator* get_editingManipulator();
 
@@ -1339,6 +1387,7 @@ public:
   /// @brief Method get_hideMobileInput, addr 0x6cad184, size 0xa4, virtual false, abstract: false, final false
   inline bool get_hideMobileInput();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isElided, addr 0x6caab40, size 0x8, virtual false, abstract: false, final false
   inline bool get_isElided();
 
@@ -1378,6 +1427,7 @@ public:
   /// @brief Method get_selectIndex, addr 0x6cafa5c, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_selectIndex();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_selectingManipulator, addr 0x6ca4014, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextSelectingManipulator* get_selectingManipulator();
 
@@ -1396,6 +1446,7 @@ public:
   /// @brief Method get_tripleClickSelectsLine, addr 0x6cb00bc, size 0xa4, virtual false, abstract: false, final false
   inline bool get_tripleClickSelectsLine();
 
+  /// [CompilerGenerated]
   /// @brief Method get_uitkTextHandle, addr 0x6caa5a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UITKTextHandle* get_uitkTextHandle();
 
@@ -1470,6 +1521,7 @@ public:
 
   static inline void setStaticF_valueProperty(::UnityEngine::UIElements::BindingId value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_OnPlaceholderChanged, addr 0x6cae64c, size 0x8, virtual false, abstract: false, final false
   inline void set_OnPlaceholderChanged(::System::Action* value);
 
@@ -1488,6 +1540,7 @@ public:
   /// @brief Method set_doubleClickSelectsWord, addr 0x6caff6c, size 0xb4, virtual false, abstract: false, final false
   inline void set_doubleClickSelectsWord(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_editingManipulator, addr 0x6cacd84, size 0x8, virtual false, abstract: false, final false
   inline void set_editingManipulator(::UnityEngine::UIElements::TextEditingManipulator* value);
 
@@ -1500,6 +1553,7 @@ public:
   /// @brief Method set_hideMobileInput, addr 0x6cad228, size 0xb4, virtual false, abstract: false, final false
   inline void set_hideMobileInput(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isElided, addr 0x6caab48, size 0x8, virtual false, abstract: false, final false
   inline void set_isElided(bool value);
 
@@ -1542,6 +1596,7 @@ public:
   /// @brief Method set_tripleClickSelectsLine, addr 0x6cb0160, size 0xb4, virtual false, abstract: false, final false
   inline void set_tripleClickSelectsLine(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_uitkTextHandle, addr 0x6caa5b0, size 0x8, virtual false, abstract: false, final false
   inline void set_uitkTextHandle(::UnityEngine::UIElements::UITKTextHandle* value);
 
@@ -1554,13 +1609,13 @@ protected:
   constexpr TextElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextElement(TextElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextElement(TextElement const&) = delete;
+  TextElement(TextElementconst&) = delete;
 
   /// @brief Field ZeroWidthSpace offset 0xffffffff size 0x8
   static constexpr ::ConstString ZeroWidthSpace{ u"\u{200b}" };
@@ -1568,6 +1623,8 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5102 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <uitkTextHandle>k__BackingField, offset: 0x4b8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UITKTextHandle* ____uitkTextHandle_k__BackingField;
 
@@ -1586,6 +1643,8 @@ public:
   /// @brief Field m_DisplayTooltipWhenElided, offset: 0x4cb, size: 0x1, def value: None
   bool ___m_DisplayTooltipWhenElided;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isElided>k__BackingField, offset: 0x4cc, size: 0x1, def value: None
   bool ____isElided_k__BackingField;
 
@@ -1595,6 +1654,8 @@ public:
   /// @brief Field m_WasElided, offset: 0x4d8, size: 0x1, def value: None
   bool ___m_WasElided;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <editingManipulator>k__BackingField, offset: 0x4e0, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextEditingManipulator* ____editingManipulator_k__BackingField;
 
@@ -1625,27 +1686,43 @@ public:
   /// @brief Field m_PlaceholderText, offset: 0x510, size: 0x8, def value: None
   ::StringW ___m_PlaceholderText;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.UIElements.ITextEdition.isDelayed>k__BackingField, offset: 0x518, size: 0x1, def value: None
   bool ____UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <UnityEngine.UIElements.ITextEdition.AcceptCharacter>k__BackingField, offset: 0x520, size: 0x8, def value: None
   ::System::Func_2<char16_t, bool>* ____UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateScrollOffset>k__BackingField, offset: 0x528, size: 0x8, def value: None
   ::System::Action_1<bool>* ____UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateValueFromText>k__BackingField, offset: 0x530, size: 0x8, def value: None
   ::System::Action* ____UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateTextFromValue>k__BackingField, offset: 0x538, size: 0x8, def value: None
   ::System::Action* ____UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.UIElements.ITextEdition.MoveFocusToCompositeRoot>k__BackingField, offset: 0x540, size: 0x8, def value: None
   ::System::Action* ____UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <OnPlaceholderChanged>k__BackingField, offset: 0x548, size: 0x8, def value: None
   ::System::Action* ____OnPlaceholderChanged_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <UnityEngine.UIElements.ITextEdition.GetDefaultValueType>k__BackingField, offset: 0x550, size: 0x8, def value: None
   ::System::Func_1<::StringW>* ____UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField;
 

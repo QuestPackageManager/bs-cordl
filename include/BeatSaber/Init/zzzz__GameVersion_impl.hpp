@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Init\GameVersion.hpp"
+// IWYU pragma private; include "BeatSaber/Init/GameVersion.hpp"
 #include "BeatSaber/Init/zzzz__RuntimePlatformType_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -12,7 +12,7 @@
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Init::GameVersion_PreReleasePrefix::GameVersion_PreReleasePrefix(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -185,8 +185,8 @@ constexpr BeatSaber::Init::GameVersion_Content::operator ::System::IEquatable_1<
 constexpr ::System::IEquatable_1<::BeatSaber::Init::GameVersion_Content>* BeatSaber::Init::GameVersion_Content::i___System__IEquatable_1___BeatSaber__Init__GameVersion_Content_() {
   return static_cast<::System::IEquatable_1<::BeatSaber::Init::GameVersion_Content>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "major", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minor", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "patch", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "major", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minor", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "patch", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Init::GameVersion_Content::GameVersion_Content(uint32_t major, uint32_t minor, uint32_t patch) noexcept {
   this->major = major;
   this->minor = minor;
@@ -232,7 +232,8 @@ inline void BeatSaber::Init::PreReleaseLabel_GameVersion___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::PreReleaseLabel_GameVersion___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW BeatSaber::Init::PreReleaseLabel_GameVersion___c::__cctor_b__16_0(::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> el) {
+inline ::StringW BeatSaber::Init::PreReleaseLabel_GameVersion___c::__cctor_b__16_0(
+    /* [TupleElementNames(new[] { "prefix", "label" })] */ ::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> el) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::PreReleaseLabel_GameVersion___c*>(),
                                                            { "<.cctor>b__16_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW>>() } })));
@@ -289,7 +290,8 @@ inline void BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass10_0::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass10_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass10_0::_Parse_b__0(::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple) {
+inline bool BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass10_0::_Parse_b__0(
+    /* [TupleElementNames(new[] { "prefix", "label" })] */ ::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass10_0*>(),
                                                            { "<Parse>b__0", {}, { ::i2c::type_of<::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW>>() } })));
@@ -346,7 +348,8 @@ inline void BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass11_0::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass11_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass11_0::_GetPrefixText_b__0(::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple) {
+inline bool BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass11_0::_GetPrefixText_b__0(
+    /* [TupleElementNames(new[] { "prefix", "label" })] */ ::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass11_0*>(),
                                                            { "<GetPrefixText>b__0", {}, { ::i2c::type_of<::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW>>() } })));
@@ -538,8 +541,8 @@ constexpr ::System::IEquatable_1<::BeatSaber::Init::GameVersion_PreReleaseLabel>
 BeatSaber::Init::GameVersion_PreReleaseLabel::i___System__IEquatable_1___BeatSaber__Init__GameVersion_PreReleaseLabel_() {
   return static_cast<::System::IEquatable_1<::BeatSaber::Init::GameVersion_PreReleaseLabel>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::BeatSaber::Init::GameVersion_PreReleasePrefix", modifiers: "", def_value: Some("{}") }, CppParam { name: "label", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefix", ty: "::BeatSaber::Init::GameVersion_PreReleasePrefix", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "label", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Init::GameVersion_PreReleaseLabel::GameVersion_PreReleaseLabel(::BeatSaber::Init::GameVersion_PreReleasePrefix prefix, ::StringW label) noexcept {
   this->prefix = prefix;
   this->label = label;
@@ -705,9 +708,9 @@ constexpr BeatSaber::Init::GameVersion_BuildInfo::operator ::System::IEquatable_
 constexpr ::System::IEquatable_1<::BeatSaber::Init::GameVersion_BuildInfo>* BeatSaber::Init::GameVersion_BuildInfo::i___System__IEquatable_1___BeatSaber__Init__GameVersion_BuildInfo_() {
   return static_cast<::System::IEquatable_1<::BeatSaber::Init::GameVersion_BuildInfo>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "buildId", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "platform", ty: "::BeatSaber::Init::RuntimePlatformType", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "platformId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "platformIdIntValue", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "buildId", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "platform", ty: "::BeatSaber::Init::RuntimePlatformType",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "platformId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "platformIdIntValue",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Init::GameVersion_BuildInfo::GameVersion_BuildInfo(uint64_t buildId, ::BeatSaber::Init::RuntimePlatformType platform, ::StringW platformId,
                                                                           int32_t platformIdIntValue) noexcept {
   this->buildId = buildId;
@@ -857,7 +860,7 @@ inline ::BeatSaber::Init::GameVersion_Metadata BeatSaber::Init::GameVersion_Meta
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::GameVersion_Metadata>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::Init::GameVersion_Metadata>(nullptr, ___internal_method, versionMetadata);
 }
-inline void BeatSaber::Init::GameVersion_Metadata::ExtractSubStrings(::StringW versionMetadata, ::by_ref<::StringW> preReleaseLabelString, ::by_ref<::StringW> buildInfoString) {
+inline void BeatSaber::Init::GameVersion_Metadata::ExtractSubStrings(/* [Nullable(1)] */ ::StringW versionMetadata, ::by_ref<::StringW> preReleaseLabelString, ::by_ref<::StringW> buildInfoString) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::GameVersion_Metadata>(),
                                               { "ExtractSubStrings", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
@@ -889,8 +892,8 @@ constexpr BeatSaber::Init::GameVersion_Metadata::operator ::System::IEquatable_1
 constexpr ::System::IEquatable_1<::BeatSaber::Init::GameVersion_Metadata>* BeatSaber::Init::GameVersion_Metadata::i___System__IEquatable_1___BeatSaber__Init__GameVersion_Metadata_() {
   return static_cast<::System::IEquatable_1<::BeatSaber::Init::GameVersion_Metadata>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "preReleaseLabel", ty: "::BeatSaber::Init::GameVersion_PreReleaseLabel", modifiers: "", def_value: Some("{}") }, CppParam { name: "buildInfo", ty:
-// "::System::Nullable_1<::BeatSaber::Init::GameVersion_BuildInfo>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "preReleaseLabel", ty: "::BeatSaber::Init::GameVersion_PreReleaseLabel", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "buildInfo", ty:
+// "::System::Nullable_1<::BeatSaber::Init::GameVersion_BuildInfo>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Init::GameVersion_Metadata::GameVersion_Metadata(::BeatSaber::Init::GameVersion_PreReleaseLabel preReleaseLabel,
                                                                         ::System::Nullable_1<::BeatSaber::Init::GameVersion_BuildInfo> buildInfo) noexcept {
   this->preReleaseLabel = preReleaseLabel;

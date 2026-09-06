@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InitializableManager.hpp"
+// IWYU pragma private; include "Zenject/InitializableManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,6 +89,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e92c48, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e92d3c, size 0x2c8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -101,13 +102,13 @@ protected:
   constexpr InitializableManager_InitializableInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager_InitializableInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager_InitializableInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializableManager_InitializableInfo(InitializableManager_InitializableInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager_InitializableInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager_InitializableInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializableManager_InitializableInfo(InitializableManager_InitializableInfo const&) = delete;
+  InitializableManager_InitializableInfo(InitializableManager_InitializableInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14671 };
@@ -128,6 +129,7 @@ static_assert(offsetof(::Zenject::InitializableManager_InitializableInfo, ___Pri
 static_assert(sizeof(::Zenject::InitializableManager_InitializableInfo) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -155,6 +157,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e93084, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e930c8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -179,13 +182,13 @@ protected:
   constexpr InitializableManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializableManager___c(InitializableManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializableManager___c(InitializableManager___c const&) = delete;
+  InitializableManager___c(InitializableManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14672 };
@@ -196,6 +199,7 @@ public:
 static_assert(sizeof(::Zenject::InitializableManager___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -220,6 +224,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e932ec, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e93330, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -232,13 +237,13 @@ protected:
   constexpr InitializableManager___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializableManager___c__DisplayClass2_0(InitializableManager___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializableManager___c__DisplayClass2_0(InitializableManager___c__DisplayClass2_0 const&) = delete;
+  InitializableManager___c__DisplayClass2_0(InitializableManager___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14673 };
@@ -283,8 +288,10 @@ public:
   /// @brief Method Initialize, addr 0x6e92460, size 0x3e4, virtual false, abstract: false, final false
   inline void Initialize();
 
-  static inline ::Zenject::InitializableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
-                                                          ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
+  /// @brief [Inject]
+  static inline ::Zenject::InitializableManager*
+  New_ctor(/* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
+           /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
   constexpr bool const& __cordl_internal_get__hasInitialized() const;
 
@@ -301,12 +308,14 @@ public:
   /// @brief Method __zenCreate, addr 0x6e92844, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e92968, size 0x2e0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// [Inject]
   /// @brief Method .ctor, addr 0x6e91f4c, size 0x404, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
-                    ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
+  inline void _ctor(/* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
+                    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
 protected:
   // Ctor Parameters []
@@ -314,13 +323,13 @@ protected:
   constexpr InitializableManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializableManager(InitializableManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializableManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializableManager(InitializableManager const&) = delete;
+  InitializableManager(InitializableManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14674 };

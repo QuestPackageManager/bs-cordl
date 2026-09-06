@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\NamedValue.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/NamedValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,9 @@ public:
   inline bool Equals(::UnityEngine::InputSystem::Utilities::NamedValue other);
 
   /// @brief Method From, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline ::UnityEngine::InputSystem::Utilities::NamedValue From(::StringW name, TValue value);
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline ::UnityEngine::InputSystem::Utilities::NamedValue From(::StringW name, TValue value);
 
   /// @brief Method GetHashCode, addr 0x6506048, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
@@ -77,12 +79,16 @@ public:
   /// @brief Method ToString, addr 0x6505bd0, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_name, addr 0x6505c84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Method get_type, addr 0x6505ca8, size 0x8, virtual false, abstract: false, final false
   inline ::System::TypeCode get_type();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_value, addr 0x6505c94, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue get_value();
 
@@ -95,9 +101,11 @@ public:
   /// @brief Method op_Inequality, addr 0x650611c, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::NamedValue left, ::UnityEngine::InputSystem::Utilities::NamedValue right);
 
+  /// [CompilerGenerated]
   /// @brief Method set_name, addr 0x6505c8c, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_value, addr 0x6505ca0, size 0x8, virtual false, abstract: false, final false
   inline void set_value(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
@@ -105,8 +113,8 @@ public:
   // @brief default ctor
   constexpr NamedValue();
 
-  // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_value_k__BackingField", ty:
-  // "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_value_k__BackingField", ty:
+  // "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None, comment: None }]
   constexpr NamedValue(::StringW _name_k__BackingField, ::UnityEngine::InputSystem::Utilities::PrimitiveValue _value_k__BackingField) noexcept;
 
   /// @brief Field Separator offset 0xffffffff size 0x8
@@ -118,9 +126,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
   /// @brief Field <name>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _name_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <value>k__BackingField, offset: 0x8, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::PrimitiveValue _value_k__BackingField;
 

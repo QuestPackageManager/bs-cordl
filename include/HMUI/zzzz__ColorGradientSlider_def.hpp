@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ColorGradientSlider.hpp"
+// IWYU pragma private; include "HMUI/ColorGradientSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -148,6 +148,7 @@ public:
   /// @brief Method .ctor, addr 0x587e00c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_colorDidChangeEvent, addr 0x587d270, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
@@ -159,6 +160,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_colorDidChangeEvent, addr 0x587d330, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
@@ -170,35 +172,43 @@ protected:
   constexpr ColorGradientSlider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradientSlider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradientSlider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorGradientSlider(ColorGradientSlider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradientSlider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradientSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGradientSlider(ColorGradientSlider const&) = delete;
+  ColorGradientSlider(ColorGradientSliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19058 };
 
+  /// [SerializeField]
   /// @brief Field _textPrefix, offset: 0x148, size: 0x8, def value: None
   ::StringW ____textPrefix;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _color0, offset: 0x150, size: 0x10, def value: None
   ::UnityEngine::Color ____color0;
 
+  /// [SerializeField]
   /// @brief Field _color1, offset: 0x160, size: 0x10, def value: None
   ::UnityEngine::Color ____color1;
 
+  /// [SerializeField]
   /// @brief Field _gradientImages, offset: 0x170, size: 0x8, def value: None
   ::ArrayW<::UnityW<::HMUI::ImageViewBase>> ____gradientImages;
 
+  /// [SerializeField]
   /// @brief Field _darkColor, offset: 0x178, size: 0x10, def value: None
   ::UnityEngine::Color ____darkColor;
 
+  /// [SerializeField]
   /// @brief Field _lightColor, offset: 0x188, size: 0x10, def value: None
   ::UnityEngine::Color ____lightColor;
 
+  /// [CompilerGenerated]
   /// @brief Field colorDidChangeEvent, offset: 0x198, size: 0x8, def value: None
   ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* ___colorDidChangeEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\InternedString.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/InternedString.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -385,8 +385,8 @@ constexpr ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::Interne
 UnityEngine::InputSystem::Utilities::InternedString::i___System__IComparable_1___UnityEngine__InputSystem__Utilities__InternedString_() {
   return static_cast<::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_StringOriginalCase", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StringLowerCase", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_StringOriginalCase", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StringLowerCase", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString::InternedString(::StringW m_StringOriginalCase, ::StringW m_StringLowerCase) noexcept {
   this->m_StringOriginalCase = m_StringOriginalCase;
   this->m_StringLowerCase = m_StringLowerCase;

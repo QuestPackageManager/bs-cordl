@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Custom\Sec\SecT131R2Curve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/Sec/SecT131R2Curve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,13 +102,13 @@ protected:
   constexpr SecT131R2Curve_SecT131R2LookupTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecT131R2Curve_SecT131R2LookupTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT131R2Curve_SecT131R2LookupTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecT131R2Curve_SecT131R2LookupTable(SecT131R2Curve_SecT131R2LookupTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecT131R2Curve_SecT131R2LookupTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT131R2Curve_SecT131R2LookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecT131R2Curve_SecT131R2LookupTable(SecT131R2Curve_SecT131R2LookupTable const&) = delete;
+  SecT131R2Curve_SecT131R2LookupTable(SecT131R2Curve_SecT131R2LookupTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1456 };
@@ -229,13 +229,13 @@ protected:
   constexpr SecT131R2Curve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecT131R2Curve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT131R2Curve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecT131R2Curve(SecT131R2Curve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecT131R2Curve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT131R2Curve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecT131R2Curve(SecT131R2Curve const&) = delete;
+  SecT131R2Curve(SecT131R2Curveconst&) = delete;
 
   /// @brief Field SECT131R2_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t SECT131R2_DEFAULT_COORDS{ static_cast<int32_t>(0x6) };

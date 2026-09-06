@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\AbuseReportType.hpp"
+// IWYU pragma private; include "Oculus/Platform/AbuseReportType.hpp"
 #include "Oculus/Platform/zzzz__AbuseReportType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::AbuseReportType::AbuseReportType(int32_t value__) noexcept {
   this->value__ = value__;
 }

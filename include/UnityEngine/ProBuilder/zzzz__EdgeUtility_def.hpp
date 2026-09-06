@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\EdgeUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/EdgeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::EdgeUtility*);
 MARK_REF_T(::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::EdgeUtility*, "UnityEngine.ProBuilder", "EdgeUtility");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0*, "UnityEngine.ProBuilder", "EdgeUtility/<>c__DisplayClass0_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -70,13 +71,13 @@ protected:
   constexpr EdgeUtility___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EdgeUtility___c__DisplayClass0_0(EdgeUtility___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EdgeUtility___c__DisplayClass0_0(EdgeUtility___c__DisplayClass0_0 const&) = delete;
+  EdgeUtility___c__DisplayClass0_0(EdgeUtility___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16731 };
@@ -92,6 +93,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0
 static_assert(sizeof(::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -101,28 +103,36 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0;
 
+  /// [Extension]
   /// @brief Method AllTriangles, addr 0x66bc228, size 0xc0, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> AllTriangles(::ArrayW<::UnityEngine::ProBuilder::Edge> edges);
 
+  /// [Extension]
   /// @brief Method Contains, addr 0x66bbf14, size 0xe8, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<::UnityEngine::ProBuilder::Edge> edges, ::UnityEngine::ProBuilder::Edge edge);
 
+  /// [Extension]
   /// @brief Method Contains, addr 0x66bbffc, size 0x80, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<::UnityEngine::ProBuilder::Edge> edges, int32_t x, int32_t y);
 
+  /// [Extension]
   /// @brief Method GetEdgeWithSharedVertexHandles, addr 0x66bbc44, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge GetEdgeWithSharedVertexHandles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
+  /// [Extension]
   /// @brief Method GetFace, addr 0x66bc2e8, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* GetFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
+  /// [Extension]
   /// @brief Method GetSharedVertexHandleEdge, addr 0x66bbba8, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge GetSharedVertexHandleEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
+  /// [Extension]
   /// @brief Method GetSharedVertexHandleEdges, addr 0x66bba94, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
   GetSharedVertexHandleEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
+  /// [Extension]
   /// @brief Method IndexOf, addr 0x66bc07c, size 0x1ac, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges, ::UnityEngine::ProBuilder::Edge edge);
 
@@ -136,13 +146,13 @@ protected:
   constexpr EdgeUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EdgeUtility(EdgeUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EdgeUtility(EdgeUtility const&) = delete;
+  EdgeUtility(EdgeUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16732 };

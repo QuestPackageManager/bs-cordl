@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XContainer.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -145,13 +145,13 @@ protected:
   constexpr XContainer_ContentReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XContainer_ContentReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XContainer_ContentReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XContainer_ContentReader(XContainer_ContentReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XContainer_ContentReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XContainer_ContentReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XContainer_ContentReader(XContainer_ContentReader const&) = delete;
+  XContainer_ContentReader(XContainer_ContentReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21969 };
@@ -187,6 +187,7 @@ static_assert(offsetof(::System::Xml::Linq::XContainer_ContentReader, ____baseUr
 static_assert(sizeof(::System::Xml::Linq::XContainer_ContentReader) == 0x48, "Size mismatch!");
 
 } // namespace System::Xml::Linq
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Xml::Linq {
 // Is value type: false
@@ -232,23 +233,30 @@ public:
   /// @brief Method MoveNext, addr 0x61a7c2c, size 0x90, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Xml::Linq::XContainer__Nodes_d__18* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>.GetEnumerator, addr 0x61a7d04, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>* System_Collections_Generic_IEnumerable_System_Xml_Linq_XNode__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Xml.Linq.XNode>.get_Current, addr 0x61a7cbc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Linq::XNode* System_Collections_Generic_IEnumerator_System_Xml_Linq_XNode__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x61a7d9c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x61a7cc4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x61a7cfc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x61a7c28, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -282,6 +290,7 @@ public:
 
   constexpr void __cordl_internal_set__n_5__2(::System::Xml::Linq::XNode* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x61a5780, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -306,13 +315,13 @@ protected:
   constexpr XContainer__Nodes_d__18();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XContainer__Nodes_d__18", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XContainer__Nodes_d__18", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XContainer__Nodes_d__18(XContainer__Nodes_d__18&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XContainer__Nodes_d__18", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XContainer__Nodes_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XContainer__Nodes_d__18(XContainer__Nodes_d__18 const&) = delete;
+  XContainer__Nodes_d__18(XContainer__Nodes_d__18const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21970 };
@@ -407,6 +416,7 @@ public:
 
   static inline ::System::Xml::Linq::XContainer* New_ctor(::System::Xml::Linq::XContainer* other);
 
+  /// [IteratorStateMachine(typeof(System.Xml.Linq.XContainer::<Nodes>d__18))]
   /// @brief Method Nodes, addr 0x61a5710, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>* Nodes();
 
@@ -455,13 +465,13 @@ protected:
   constexpr XContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XContainer(XContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XContainer(XContainer const&) = delete;
+  XContainer(XContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21971 };

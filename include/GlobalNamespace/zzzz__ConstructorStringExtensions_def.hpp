@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConstructorStringExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConstructorStringExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IConstructorStringGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(ConstructorStringExtensions)
@@ -25,7 +26,8 @@ class ConstructorStringExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ConstructorStringExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConstructorStringExtensions*, "", "ConstructorStringExtensions");
-// Dependencies System.Object
+// [Extension]
+// Dependencies IConstructorStringGenerator, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ConstructorStringExtensions
@@ -33,14 +35,19 @@ class CORDL_TYPE ConstructorStringExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method ToConstructorString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::StringW ToConstructorString(::System::Collections::Generic::List_1<T>* list);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConstructorStringGenerator*>)
+  static inline ::StringW ToConstructorString(::System::Collections::Generic::List_1<T>* list);
 
+  /// [Extension]
   /// @brief Method ToConstructorString, addr 0x3323480, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Pose pose);
 
+  /// [Extension]
   /// @brief Method ToConstructorString, addr 0x33232dc, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Quaternion quaternion);
 
+  /// [Extension]
   /// @brief Method ToConstructorString, addr 0x3323200, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Vector3 vector);
 
@@ -50,13 +57,13 @@ protected:
   constexpr ConstructorStringExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConstructorStringExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstructorStringExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConstructorStringExtensions(ConstructorStringExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConstructorStringExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstructorStringExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConstructorStringExtensions(ConstructorStringExtensions const&) = delete;
+  ConstructorStringExtensions(ConstructorStringExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20732 };

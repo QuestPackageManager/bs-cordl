@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PhysicMaterialCombine.hpp"
+// IWYU pragma private; include "UnityEngine/PhysicMaterialCombine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct PhysicMaterialCombine;
 // Write type traits
 MARK_VAL_T(::UnityEngine::PhysicMaterialCombine);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PhysicMaterialCombine, "UnityEngine", "PhysicMaterialCombine");
+// [Obsolete("PhysicMaterialCombine has been renamed to PhysicsMaterialCombine. Please use PhysicsMaterialCombine instead. (UnityUpgradable) -> PhysicsMaterialCombine", true)]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr PhysicMaterialCombine();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PhysicMaterialCombine(int32_t value__) noexcept;
 
   /// @brief Field Average value: I32(0)

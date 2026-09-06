@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BinaryReadWriteExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/BinaryReadWriteExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ class BinaryReadWriteExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BinaryReadWriteExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BinaryReadWriteExtensions*, "", "BinaryReadWriteExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -49,33 +50,43 @@ namespace GlobalNamespace {
 class CORDL_TYPE BinaryReadWriteExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ReadColor, addr 0x3322bdc, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ReadColor(::System::IO::BinaryReader* binaryReader);
 
+  /// [Extension]
   /// @brief Method ReadListOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::List_1<T>* ReadListOf(::System::IO::BinaryReader* binaryReader, ::System::Func_2<::System::IO::BinaryReader*, T>* elementReader);
 
+  /// [Extension]
   /// @brief Method ReadPose, addr 0x3322e88, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose ReadPose(::System::IO::BinaryReader* binaryReader);
 
+  /// [Extension]
   /// @brief Method ReadQuaternion, addr 0x3322dc4, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion ReadQuaternion(::System::IO::BinaryReader* binaryReader);
 
+  /// [Extension]
   /// @brief Method ReadVector3, addr 0x3322cd0, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ReadVector3(::System::IO::BinaryReader* binaryReader);
 
+  /// [Extension]
   /// @brief Method Write, addr 0x3322b54, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color);
 
+  /// [Extension]
   /// @brief Method Write, addr 0x3322e54, size 0x34, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Pose pose);
 
+  /// [Extension]
   /// @brief Method Write, addr 0x3322d3c, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Quaternion quaternion);
 
+  /// [Extension]
   /// @brief Method Write, addr 0x3322c6c, size 0x64, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Vector3 vector);
 
+  /// [Extension]
   /// @brief Method WriteListOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline void WriteListOf(::System::IO::BinaryWriter* binaryWriter, ::System::Collections::Generic::IList_1<T>* list, ::System::Action_2<::System::IO::BinaryWriter*, T>* elementWriter);
@@ -86,13 +97,13 @@ protected:
   constexpr BinaryReadWriteExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryReadWriteExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryReadWriteExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryReadWriteExtensions(BinaryReadWriteExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryReadWriteExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryReadWriteExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryReadWriteExtensions(BinaryReadWriteExtensions const&) = delete;
+  BinaryReadWriteExtensions(BinaryReadWriteExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20729 };

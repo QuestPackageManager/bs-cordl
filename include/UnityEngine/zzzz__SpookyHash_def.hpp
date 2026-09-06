@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpookyHash.hpp"
+// IWYU pragma private; include "UnityEngine/SpookyHash.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,8 +72,8 @@ public:
   // @brief default ctor
   constexpr SpookyHash_U();
 
-  // Ctor Parameters [CppParam { name: "p8", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "p32", ty: "uint32_t*", modifiers: "", def_value: None }, CppParam { name: "p64", ty:
-  // "uint64_t*", modifiers: "", def_value: None }, CppParam { name: "i", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "p8", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "p32", ty: "uint32_t*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "p64", ty: "uint64_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "i", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr SpookyHash_U(uint8_t* p8, uint32_t* p32, uint64_t* p64, uint64_t i) noexcept;
 
 private:
@@ -205,13 +205,13 @@ protected:
   constexpr SpookyHash();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpookyHash", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpookyHash", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpookyHash(SpookyHash&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpookyHash", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpookyHash", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpookyHash(SpookyHash const&) = delete;
+  SpookyHash(SpookyHashconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10237 };

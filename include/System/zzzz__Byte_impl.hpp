@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Byte.hpp"
+// IWYU pragma private; include "System/Byte.hpp"
 #include "System/zzzz__Byte_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
@@ -656,7 +656,7 @@ constexpr System::Byte::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::Byte::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Byte::Byte(uint8_t m_value) noexcept {
   this->m_value = m_value;
 }

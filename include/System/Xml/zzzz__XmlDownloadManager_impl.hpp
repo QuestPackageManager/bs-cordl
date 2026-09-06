@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlDownloadManager.hpp"
+// IWYU pragma private; include "System/Xml/XmlDownloadManager.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -111,12 +111,13 @@ constexpr System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5::operator 
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "uri", ty: "::System::Uri*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "credentials", ty: "::System::Net::ICredentials*", modifiers: "", def_value: Some("{}") }, CppParam { name: "proxy", ty: "::System::Net::IWebProxy*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "cachePolicy", ty: "::System::Net::Cache::RequestCachePolicy*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::System::Xml::XmlDownloadManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_req_5__2", ty: "::System::Net::WebRequest*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uri", ty: "::System::Uri*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "credentials", ty: "::System::Net::ICredentials*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "proxy", ty: "::System::Net::IWebProxy*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cachePolicy", ty: "::System::Net::Cache::RequestCachePolicy*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::System::Xml::XmlDownloadManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_req_5__2",
+// ty: "::System::Net::WebRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5::XmlDownloadManager__GetNonFileStreamAsync_d__5(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder, ::System::Uri* uri, ::System::Net::ICredentials* credentials,
     ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy, ::System::Xml::XmlDownloadManager* __4__this, ::System::Net::WebRequest* _req_5__2,

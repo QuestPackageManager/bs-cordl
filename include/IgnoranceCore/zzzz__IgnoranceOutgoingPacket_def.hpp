@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore\IgnoranceOutgoingPacket.hpp"
+// IWYU pragma private; include "IgnoranceCore/IgnoranceOutgoingPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr IgnoranceOutgoingPacket();
 
-  // Ctor Parameters [CppParam { name: "Channel", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Payload", ty: "::ENet::Packet", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Channel", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "Payload", ty: "::ENet::Packet", modifiers: "", def_value: None, comment: None }]
   constexpr IgnoranceOutgoingPacket(uint8_t Channel, uint32_t NativePeerId, ::ENet::Packet Payload) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

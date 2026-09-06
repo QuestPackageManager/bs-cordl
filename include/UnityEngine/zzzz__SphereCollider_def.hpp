@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SphereCollider.hpp"
+// IWYU pragma private; include "UnityEngine/SphereCollider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class SphereCollider;
 // Write type traits
 MARK_REF_T(::UnityEngine::SphereCollider*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SphereCollider*, "UnityEngine", "SphereCollider");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeHeader("Modules/Physics/SphereCollider.h")]
 // Dependencies UnityEngine.Collider
 namespace UnityEngine {
 // Is value type: false
@@ -65,13 +67,13 @@ protected:
   constexpr SphereCollider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SphereCollider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SphereCollider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SphereCollider(SphereCollider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SphereCollider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SphereCollider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SphereCollider(SphereCollider const&) = delete;
+  SphereCollider(SphereColliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18691 };

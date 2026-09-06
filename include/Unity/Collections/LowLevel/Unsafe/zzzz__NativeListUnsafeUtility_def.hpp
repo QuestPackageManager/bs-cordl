@@ -1,12 +1,14 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeListUnsafeUtility.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeListUnsafeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NativeListUnsafeUtility)
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -15,6 +17,8 @@ class NativeListUnsafeUtility;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeListUnsafeUtility*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeListUnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "NativeListUnsafeUtility");
+// [Extension]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -22,14 +26,25 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE NativeListUnsafeUtility : public ::System::Object {
 public:
   // Declarations
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method GetInternalListDataPtrUnchecked, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void* GetInternalListDataPtrUnchecked(::by_ref<::Unity::Collections::NativeList_1<T>> list);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void* GetInternalListDataPtrUnchecked(::by_ref<::Unity::Collections::NativeList_1<T>> list);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method GetUnsafePtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* GetUnsafePtr(::Unity::Collections::NativeList_1<T> list);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T* GetUnsafePtr(::Unity::Collections::NativeList_1<T> list);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method GetUnsafeReadOnlyPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* GetUnsafeReadOnlyPtr(::Unity::Collections::NativeList_1<T> list);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T* GetUnsafeReadOnlyPtr(::Unity::Collections::NativeList_1<T> list);
 
 protected:
   // Ctor Parameters []
@@ -37,13 +52,13 @@ protected:
   constexpr NativeListUnsafeUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeListUnsafeUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeListUnsafeUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeListUnsafeUtility(NativeListUnsafeUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeListUnsafeUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeListUnsafeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeListUnsafeUtility(NativeListUnsafeUtility const&) = delete;
+  NativeListUnsafeUtility(NativeListUnsafeUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15754 };

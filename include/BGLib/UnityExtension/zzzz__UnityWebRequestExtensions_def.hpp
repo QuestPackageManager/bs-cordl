@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\UnityWebRequestExtensions.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/UnityWebRequestExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ MARK_VAL_T(::BGLib::UnityExtension::UnityWebRequestExtensions__SendWebRequestAsy
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::UnityWebRequestExtensions*, "BGLib.UnityExtension", "UnityWebRequestExtensions");
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0*, "BGLib.UnityExtension", "UnityWebRequestExtensions/<>c__DisplayClass1_0");
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::UnityWebRequestExtensions__SendWebRequestAsync_d__0, "BGLib.UnityExtension", "UnityWebRequestExtensions/<SendWebRequestAsync>d__0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::UnityExtension {
 // Is value type: false
@@ -105,13 +106,13 @@ protected:
   constexpr UnityWebRequestExtensions___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestExtensions___c__DisplayClass1_0(UnityWebRequestExtensions___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequestExtensions___c__DisplayClass1_0(UnityWebRequestExtensions___c__DisplayClass1_0 const&) = delete;
+  UnityWebRequestExtensions___c__DisplayClass1_0(UnityWebRequestExtensions___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20819 };
@@ -132,6 +133,7 @@ static_assert(offsetof(::BGLib::UnityExtension::UnityWebRequestExtensions___c__D
 static_assert(sizeof(::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0) == 0x20, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Runtime.CompilerServices.ValueTaskAwaiter,
 // System.Threading.CancellationToken, System.Threading.CancellationTokenRegistration, UnityEngine.Networking.UnityWebRequest::Result
 namespace BGLib::UnityExtension {
@@ -146,6 +148,7 @@ public:
   /// @brief Method MoveNext, addr 0x332ade8, size 0x65c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x332b444, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -156,14 +159,14 @@ public:
   // @brief default ctor
   constexpr UnityWebRequestExtensions__SendWebRequestAsync_d__0();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "request", ty: "::UnityEngine::Networking::UnityWebRequest*", modifiers: "", def_value: None },
-  // CppParam { name: "_cancellationTokenRegistration_5__2", ty: "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty: "::System::Object*",
-  // modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty:
-  // "::UnityEngine::Networking::UnityWebRequest_Result", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ValueTaskAwaiter", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "request", ty: "::UnityEngine::Networking::UnityWebRequest*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_cancellationTokenRegistration_5__2", ty: "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__7__wrap2", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__7__wrap4", ty: "::UnityEngine::Networking::UnityWebRequest_Result", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ValueTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr UnityWebRequestExtensions__SendWebRequestAsync_d__0(int32_t __1__state,
                                                                 ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Networking::UnityWebRequest_Result> __t__builder,
                                                                 ::System::Threading::CancellationToken cancellationToken, ::UnityEngine::Networking::UnityWebRequest* request,
@@ -234,6 +237,7 @@ static_assert(offsetof(::BGLib::UnityExtension::UnityWebRequestExtensions__SendW
 static_assert(sizeof(::BGLib::UnityExtension::UnityWebRequestExtensions__SendWebRequestAsync_d__0) == 0x70, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
+// [Extension]
 // Dependencies System.Object
 namespace BGLib::UnityExtension {
 // Is value type: false
@@ -245,10 +249,13 @@ public:
 
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0;
 
+  /// [Extension]
   /// @brief Method GetAwaiter, addr 0x3328ce8, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>
   GetAwaiter(::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation);
 
+  /// [AsyncStateMachine(typeof(BGLib.UnityExtension.UnityWebRequestExtensions::<SendWebRequestAsync>d__0))]
+  /// [Extension]
   /// @brief Method SendWebRequestAsync, addr 0x332ac18, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityEngine::Networking::UnityWebRequest_Result>* SendWebRequestAsync(::UnityEngine::Networking::UnityWebRequest* request,
                                                                                                                            ::System::Threading::CancellationToken cancellationToken);
@@ -259,13 +266,13 @@ protected:
   constexpr UnityWebRequestExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestExtensions(UnityWebRequestExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequestExtensions(UnityWebRequestExtensions const&) = delete;
+  UnityWebRequestExtensions(UnityWebRequestExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20821 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EulaViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EulaViewController.hpp"
 #include "GlobalNamespace/zzzz__CompletableViewController_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EulaViewController_def.hpp"
@@ -14,7 +14,7 @@
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EulaViewController_ButtonType::EulaViewController_ButtonType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -208,6 +208,7 @@ inline ::System::Object* GlobalNamespace::EulaViewController__EnableButtonsCorou
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17* GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17*>(__1__state));
 }

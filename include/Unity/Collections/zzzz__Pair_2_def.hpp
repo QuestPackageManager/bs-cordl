@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Pair_2.hpp"
+// IWYU pragma private; include "Unity/Collections/Pair_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   // @brief default ctor
   constexpr Pair_2();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "Key", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Value", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "key", ty: "Key", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "Value", modifiers: "", def_value: None, comment: None }]
   constexpr Pair_2(Key key, Value value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,6 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\InternalUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/InternalUtility.hpp"
+#include "System/zzzz__IConvertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__InternalUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__InternalUtility_def.hpp"
@@ -122,13 +124,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_
     return ___internal_method;
   }
 };
-template <typename T> inline ::ArrayW<T> UnityEngine::ProBuilder::InternalUtility::GetComponents(::UnityEngine::GameObject* go) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline ::ArrayW<T> UnityEngine::ProBuilder::InternalUtility::GetComponents(::UnityEngine::GameObject* go) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility*>(),
                                                                                               { "GetComponents", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(nullptr, ___internal_method, go);
 }
-template <typename T> inline ::ArrayW<T> UnityEngine::ProBuilder::InternalUtility::GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline ::ArrayW<T> UnityEngine::ProBuilder::InternalUtility::GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility*>(),
@@ -152,7 +158,9 @@ inline ::UnityW<::UnityEngine::GameObject> UnityEngine::ProBuilder::InternalUtil
                                                                ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, name, t, mesh, mat, inheritParent);
 }
-template <typename T> inline T UnityEngine::ProBuilder::InternalUtility::NextEnumValue(T current) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+inline T UnityEngine::ProBuilder::InternalUtility::NextEnumValue(T current) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility*>(), { "NextEnumValue", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -168,13 +176,17 @@ inline bool UnityEngine::ProBuilder::InternalUtility::TryParseColor(::StringW va
                                                                                          { "TryParseColor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, value, col);
 }
-template <typename T> inline T UnityEngine::ProBuilder::InternalUtility::DemandComponent(::UnityEngine::Component* component) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T UnityEngine::ProBuilder::InternalUtility::DemandComponent(::UnityEngine::Component* component) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility*>(),
                                                                                               { "DemandComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Component*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, component);
 }
-template <typename T> inline T UnityEngine::ProBuilder::InternalUtility::DemandComponent(::UnityEngine::GameObject* gameObject) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T UnityEngine::ProBuilder::InternalUtility::DemandComponent(::UnityEngine::GameObject* gameObject) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility*>(),
                                                                                               { "DemandComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

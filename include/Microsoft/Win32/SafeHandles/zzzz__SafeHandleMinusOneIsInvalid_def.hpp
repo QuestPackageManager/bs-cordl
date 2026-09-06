@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafeHandleMinusOneIsInvalid.hpp"
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeHandleMinusOneIsInvalid.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,8 +21,10 @@ public:
   // Declarations
   __declspec(property(get = get_IsInvalid)) bool IsInvalid;
 
+  /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   static inline ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid* New_ctor(bool ownsHandle);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method .ctor, addr 0x5ac7580, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool ownsHandle);
 
@@ -35,13 +37,13 @@ protected:
   constexpr SafeHandleMinusOneIsInvalid();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeHandleMinusOneIsInvalid", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeHandleMinusOneIsInvalid", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeHandleMinusOneIsInvalid(SafeHandleMinusOneIsInvalid&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeHandleMinusOneIsInvalid", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeHandleMinusOneIsInvalid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeHandleMinusOneIsInvalid(SafeHandleMinusOneIsInvalid const&) = delete;
+  SafeHandleMinusOneIsInvalid(SafeHandleMinusOneIsInvalidconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2302 };

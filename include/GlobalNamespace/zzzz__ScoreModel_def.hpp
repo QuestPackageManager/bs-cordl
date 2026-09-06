@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScoreModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScoreModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,13 +134,13 @@ protected:
   constexpr ScoreModel_NoteScoreDefinition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_NoteScoreDefinition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_NoteScoreDefinition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreModel_NoteScoreDefinition(ScoreModel_NoteScoreDefinition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_NoteScoreDefinition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_NoteScoreDefinition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreModel_NoteScoreDefinition(ScoreModel_NoteScoreDefinition const&) = delete;
+  ScoreModel_NoteScoreDefinition(ScoreModel_NoteScoreDefinitionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15247 };
@@ -226,13 +226,13 @@ protected:
   constexpr ScoreModel_MaxScoreCounterElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_MaxScoreCounterElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_MaxScoreCounterElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreModel_MaxScoreCounterElement(ScoreModel_MaxScoreCounterElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_MaxScoreCounterElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_MaxScoreCounterElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreModel_MaxScoreCounterElement(ScoreModel_MaxScoreCounterElement const&) = delete;
+  ScoreModel_MaxScoreCounterElement(ScoreModel_MaxScoreCounterElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15248 };
@@ -311,13 +311,13 @@ protected:
   constexpr ScoreModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreModel(ScoreModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreModel(ScoreModel const&) = delete;
+  ScoreModel(ScoreModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15249 };

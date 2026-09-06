@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DynamicResolutionHandler.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DynamicResolutionHandler.hpp"
 #include "UnityEngine/Rendering/zzzz__DynamicResScalePolicyType_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DynamicResolutionHandler_def.hpp"
 #include "UnityEngine/Rendering/zzzz__PerformDynamicRes_def.hpp"
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::Rendering::DynamicResScalePolicyType", modifiers: "", def_value: Some("{}") }, CppParam { name: "method", ty:
-// "::UnityEngine::Rendering::PerformDynamicRes*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::Rendering::DynamicResScalePolicyType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "method", ty:
+// "::UnityEngine::Rendering::PerformDynamicRes*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DynamicResolutionHandler_ScalerContainer::DynamicResolutionHandler_ScalerContainer(::UnityEngine::Rendering::DynamicResScalePolicyType type,
                                                                                                                        ::UnityEngine::Rendering::PerformDynamicRes* method) noexcept {
   this->type = type;
@@ -12,7 +12,7 @@ constexpr ::UnityEngine::Rendering::DynamicResolutionHandler_ScalerContainer::Dy
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DynamicResolutionHandler_ScalerContainer::DynamicResolutionHandler_ScalerContainer() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DynamicResolutionHandler_UpsamplerScheduleType::DynamicResolutionHandler_UpsamplerScheduleType(int32_t value__) noexcept {
   this->value__ = value__;
 }

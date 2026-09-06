@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DefaultShaderType.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DefaultShaderType.hpp"
 #include "UnityEngine/Rendering/zzzz__DefaultShaderType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DefaultShaderType::DefaultShaderType(int32_t value__) noexcept {
   this->value__ = value__;
 }

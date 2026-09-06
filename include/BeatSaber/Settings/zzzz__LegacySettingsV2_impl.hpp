@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\LegacySettingsV2.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/LegacySettingsV2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "Unity/Mathematics/zzzz__int2_impl.hpp"
@@ -494,7 +494,7 @@ inline ::BeatSaber::Settings::LegacySettingsV2_DebugSettings* BeatSaber::Setting
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Settings::LegacySettingsV2_DebugSettings::LegacySettingsV2_DebugSettings() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Settings::LegacySettingsV2_WindowMode::LegacySettingsV2_WindowMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -571,7 +571,7 @@ inline ::BeatSaber::Settings::LegacySettingsV2_GraphicSettings* BeatSaber::Setti
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Settings::LegacySettingsV2_GraphicSettings::LegacySettingsV2_GraphicSettings() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset::LegacySettingsV2_BloomPrepassTextureEffectPreset(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -580,7 +580,7 @@ constexpr ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPrese
 constexpr ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset::HD{ static_cast<int32_t>(0x0) };
 constexpr ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset::HDWithoutToneMapping{ static_cast<int32_t>(
     0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel::LegacySettingsV2_FoveatedRenderingLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -591,7 +591,7 @@ constexpr ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel BeatSab
 constexpr ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel::Medium{ static_cast<int32_t>(0x2) };
 constexpr ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel::High{ static_cast<int32_t>(0x3) };
 constexpr ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel::HighTop{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset::LegacySettingsV2_MainEffectPreset(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -600,7 +600,7 @@ constexpr ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset::LegacySettin
 constexpr ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset BeatSaber::Settings::LegacySettingsV2_MainEffectPreset::Off{ static_cast<int32_t>(0x0) };
 constexpr ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset BeatSaber::Settings::LegacySettingsV2_MainEffectPreset::Pyramid{ static_cast<int32_t>(0x1) };
 constexpr ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset BeatSaber::Settings::LegacySettingsV2_MainEffectPreset::PyramidForBaking{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset::LegacySettingsV2_MirrorQualityPreset(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -610,7 +610,7 @@ constexpr ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset BeatSaber:
 constexpr ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset::Fake{ static_cast<int32_t>(0x1) };
 constexpr ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset::RenderedLQ{ static_cast<int32_t>(0x2) };
 constexpr ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset::RenderedHQ{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality::LegacySettingsV2_ObstaclesQuality(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -620,7 +620,7 @@ constexpr ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality BeatSaber::Se
 constexpr ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality::TexturedObstacle{ static_cast<int32_t>(0x1) };
 constexpr ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality::ObstacleLW{ static_cast<int32_t>(0x2) };
 constexpr ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality::ObstacleHW{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel::LegacySettingsV2_ProcessorPerformanceLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }

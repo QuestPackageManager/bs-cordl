@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PrefabInstantiator.hpp"
+// IWYU pragma private; include "Zenject/PrefabInstantiator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ MARK_REF_T(::Zenject::PrefabInstantiator*);
 MARK_REF_T(::Zenject::PrefabInstantiator___c__DisplayClass15_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::PrefabInstantiator*, "Zenject", "PrefabInstantiator");
 DEFINE_IL2CPP_CLASS(::Zenject::PrefabInstantiator___c__DisplayClass15_0*, "Zenject", "PrefabInstantiator/<>c__DisplayClass15_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -126,6 +127,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e88ac0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e88b04, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -138,13 +140,13 @@ protected:
   constexpr PrefabInstantiator___c__DisplayClass15_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator___c__DisplayClass15_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabInstantiator___c__DisplayClass15_0(PrefabInstantiator___c__DisplayClass15_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabInstantiator___c__DisplayClass15_0(PrefabInstantiator___c__DisplayClass15_0 const&) = delete;
+  PrefabInstantiator___c__DisplayClass15_0(PrefabInstantiator___c__DisplayClass15_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14582 };
@@ -180,6 +182,7 @@ static_assert(offsetof(::Zenject::PrefabInstantiator___c__DisplayClass15_0, ___s
 static_assert(sizeof(::Zenject::PrefabInstantiator___c__DisplayClass15_0) == 0x38, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -298,13 +301,13 @@ protected:
   constexpr PrefabInstantiator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabInstantiator(PrefabInstantiator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabInstantiator(PrefabInstantiator const&) = delete;
+  PrefabInstantiator(PrefabInstantiatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14583 };

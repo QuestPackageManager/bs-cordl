@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\ControllerButtonsMapper.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/ControllerButtonsMapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr ButtonClickAction_ControllerButtonsMapper_ButtonClickMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ButtonClickAction_ControllerButtonsMapper_ButtonClickMode(int32_t value__) noexcept;
 
   /// @brief Field OnButton value: I32(2)
@@ -125,11 +125,11 @@ public:
   // @brief default ctor
   constexpr ControllerButtonsMapper_ButtonClickAction();
 
-  // Ctor Parameters [CppParam { name: "Title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Button", ty: "::GlobalNamespace::OVRInput_Button", modifiers: "", def_value: None
-  // }, CppParam { name: "ButtonMode", ty: "::Meta::XR::BuildingBlocks::ButtonClickAction_ControllerButtonsMapper_ButtonClickMode", modifiers: "", def_value: None }, CppParam { name:
-  // "InputActionReference", ty: "::UnityW<::UnityEngine::InputSystem::InputActionReference>", modifiers: "", def_value: None }, CppParam { name: "CallbackWithContext", ty:
-  // "::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*", modifiers: "", def_value: None }, CppParam { name: "Callback", ty:
-  // "::UnityEngine::Events::UnityEvent*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Title", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Button", ty: "::GlobalNamespace::OVRInput_Button", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ButtonMode", ty: "::Meta::XR::BuildingBlocks::ButtonClickAction_ControllerButtonsMapper_ButtonClickMode", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "InputActionReference", ty: "::UnityW<::UnityEngine::InputSystem::InputActionReference>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "CallbackWithContext", ty: "::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "Callback", ty: "::UnityEngine::Events::UnityEvent*", modifiers: "", def_value: None, comment: None }]
   constexpr ControllerButtonsMapper_ButtonClickAction(::StringW Title, ::GlobalNamespace::OVRInput_Button Button,
                                                       ::Meta::XR::BuildingBlocks::ButtonClickAction_ControllerButtonsMapper_ButtonClickMode ButtonMode,
                                                       ::UnityW<::UnityEngine::InputSystem::InputActionReference> InputActionReference,
@@ -236,13 +236,13 @@ protected:
   constexpr ControllerButtonsMapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerButtonsMapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerButtonsMapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerButtonsMapper(ControllerButtonsMapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerButtonsMapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerButtonsMapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerButtonsMapper(ControllerButtonsMapper const&) = delete;
+  ControllerButtonsMapper(ControllerButtonsMapperconst&) = delete;
 
   /// @brief Field UseLegacyInputSystem offset 0xffffffff size 0x1
   static constexpr bool UseLegacyInputSystem{ true };
@@ -253,6 +253,7 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21356 };
 
+  /// [SerializeField]
   /// @brief Field _buttonClickActions, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>* ____buttonClickActions;
 

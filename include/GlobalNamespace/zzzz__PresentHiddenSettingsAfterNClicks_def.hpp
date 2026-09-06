@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PresentHiddenSettingsAfterNClicks.hpp"
+// IWYU pragma private; include "GlobalNamespace/PresentHiddenSettingsAfterNClicks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ public:
   /// @brief Method OnEnable, addr 0x59448c8, size 0xa0, virtual false, abstract: false, final false
   inline void OnEnable();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__6_0, addr 0x59449e4, size 0x3c, virtual false, abstract: false, final false
   inline void _OnEnable_b__6_0();
 
@@ -108,26 +109,30 @@ protected:
   constexpr PresentHiddenSettingsAfterNClicks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PresentHiddenSettingsAfterNClicks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PresentHiddenSettingsAfterNClicks", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PresentHiddenSettingsAfterNClicks(PresentHiddenSettingsAfterNClicks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PresentHiddenSettingsAfterNClicks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PresentHiddenSettingsAfterNClicks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PresentHiddenSettingsAfterNClicks(PresentHiddenSettingsAfterNClicks const&) = delete;
+  PresentHiddenSettingsAfterNClicks(PresentHiddenSettingsAfterNClicksconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6905 };
 
+  /// [SerializeField]
   /// @brief Field _hiddenSettingsButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____hiddenSettingsButton;
 
+  /// [SerializeField]
   /// @brief Field _hiddenSettingsViewController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____hiddenSettingsViewController;
 
+  /// [SerializeField]
   /// @brief Field _numberOfClicksRequired, offset: 0x30, size: 0x4, def value: None
   int32_t ____numberOfClicksRequired;
 
+  /// [Inject]
   /// @brief Field _settingsFlowCoordinator, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> ____settingsFlowCoordinator;
 

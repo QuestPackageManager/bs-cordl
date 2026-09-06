@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUResidentDrawerSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUResidentDrawerSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,11 @@ public:
   // @brief default ctor
   constexpr GPUResidentDrawerSettings();
 
-  // Ctor Parameters [CppParam { name: "mode", ty: "::UnityEngine::Rendering::GPUResidentDrawerMode", modifiers: "", def_value: None }, CppParam { name: "supportDitheringCrossFade", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "enableOcclusionCulling", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "allowInEditMode", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "smallMeshScreenPercentage", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "errorShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers:
-  // "", def_value: None }, CppParam { name: "loadingShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "mode", ty: "::UnityEngine::Rendering::GPUResidentDrawerMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportDitheringCrossFade", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "enableOcclusionCulling", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "allowInEditMode", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "smallMeshScreenPercentage", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "errorShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "loadingShader", ty: "::UnityW<::UnityEngine::Shader>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr GPUResidentDrawerSettings(::UnityEngine::Rendering::GPUResidentDrawerMode mode, bool supportDitheringCrossFade, bool enableOcclusionCulling, bool allowInEditMode,
                                       float_t smallMeshScreenPercentage, ::UnityW<::UnityEngine::Shader> errorShader, ::UnityW<::UnityEngine::Shader> loadingShader) noexcept;
 

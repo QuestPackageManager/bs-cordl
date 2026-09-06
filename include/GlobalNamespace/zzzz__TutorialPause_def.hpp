@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialPause.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialPause.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,12 +118,15 @@ public:
   /// @brief Method .ctor, addr 0x59f90e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPauseEvent, addr 0x59f8b80, size 0xac, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didResumeEvent, addr 0x59f8e30, size 0xac, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_willResumeEvent, addr 0x59f8cd8, size 0xac, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
@@ -133,12 +136,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPauseEvent, addr 0x59f8c2c, size 0xac, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didResumeEvent, addr 0x59f8edc, size 0xac, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_willResumeEvent, addr 0x59f8d84, size 0xac, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
@@ -148,32 +154,38 @@ protected:
   constexpr TutorialPause();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialPause", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialPause", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialPause(TutorialPause&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialPause", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialPause", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialPause(TutorialPause const&) = delete;
+  TutorialPause(TutorialPauseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6285 };
 
+  /// [Inject]
   /// @brief Field _tutorialSongController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TutorialSongController> ____tutorialSongController;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _audioListenerController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioListenerController> ____audioListenerController;
 
+  /// [CompilerGenerated]
   /// @brief Field didPauseEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___didPauseEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field willResumeEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___willResumeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didResumeEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action* ___didResumeEvent;
 

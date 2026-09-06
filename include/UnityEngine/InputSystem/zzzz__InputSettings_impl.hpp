@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputSettings.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputSettings.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSettings_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputSettings_UpdateMode::InputSettings_UpdateMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -14,7 +14,7 @@ constexpr ::UnityEngine::InputSystem::InputSettings_UpdateMode::InputSettings_Up
 constexpr ::UnityEngine::InputSystem::InputSettings_UpdateMode UnityEngine::InputSystem::InputSettings_UpdateMode::ProcessEventsInDynamicUpdate{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::InputSettings_UpdateMode UnityEngine::InputSystem::InputSettings_UpdateMode::ProcessEventsInFixedUpdate{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputSystem::InputSettings_UpdateMode UnityEngine::InputSystem::InputSettings_UpdateMode::ProcessEventsManually{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior::InputSettings_ScrollDeltaBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -22,7 +22,7 @@ constexpr ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior::InputSe
 constexpr ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior::InputSettings_ScrollDeltaBehavior() {}
 constexpr ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior::UniformAcrossAllPlatforms{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior::KeepPlatformSpecificInputRange{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior::InputSettings_BackgroundBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -31,7 +31,7 @@ constexpr ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior::InputSet
 constexpr ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior UnityEngine::InputSystem::InputSettings_BackgroundBehavior::ResetAndDisableNonBackgroundDevices{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior UnityEngine::InputSystem::InputSettings_BackgroundBehavior::ResetAndDisableAllDevices{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior UnityEngine::InputSystem::InputSettings_BackgroundBehavior::IgnoreFocus{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode::InputSettings_EditorInputBehaviorInPlayMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -46,7 +46,7 @@ constexpr ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMod
 constexpr ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode::AllDeviceInputAlwaysGoesToGameView{
   static_cast<int32_t>(0x2)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode::InputSettings_InputActionPropertyDrawerMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TemporalAA.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TemporalAA.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
@@ -311,11 +311,11 @@ inline ::UnityEngine::Rendering::Universal::TemporalAA_Settings UnityEngine::Ren
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TemporalAA_Settings>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::TemporalAA_Settings>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Quality", ty: "::UnityEngine::Rendering::Universal::TemporalAAQuality", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FrameInfluence", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_JitterScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MipBias", ty: "float_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_VarianceClampScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ContrastAdaptiveSharpening", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "resetHistoryFrames", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "jitterFrameCountOffset", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Quality", ty: "::UnityEngine::Rendering::Universal::TemporalAAQuality", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_FrameInfluence", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_JitterScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_MipBias", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_VarianceClampScale", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_ContrastAdaptiveSharpening", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "resetHistoryFrames", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "jitterFrameCountOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::TemporalAA_Settings::TemporalAA_Settings(::UnityEngine::Rendering::Universal::TemporalAAQuality m_Quality, float_t m_FrameInfluence,
                                                                                         float_t m_JitterScale, float_t m_MipBias, float_t m_VarianceClampScale, float_t m_ContrastAdaptiveSharpening,
                                                                                         int32_t resetHistoryFrames, int32_t jitterFrameCountOffset) noexcept {

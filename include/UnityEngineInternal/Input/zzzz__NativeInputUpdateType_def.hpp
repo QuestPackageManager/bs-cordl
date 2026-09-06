@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngineInternal\Input\NativeInputUpdateType.hpp"
+// IWYU pragma private; include "UnityEngineInternal/Input/NativeInputUpdateType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct NativeInputUpdateType;
 // Write type traits
 MARK_VAL_T(::UnityEngineInternal::Input::NativeInputUpdateType);
 DEFINE_IL2CPP_CLASS(::UnityEngineInternal::Input::NativeInputUpdateType, "UnityEngineInternal.Input", "NativeInputUpdateType");
+// [Flags]
 // Dependencies
 namespace UnityEngineInternal::Input {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr NativeInputUpdateType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NativeInputUpdateType(int32_t value__) noexcept;
 
   /// @brief Field BeforeRender value: I32(4)

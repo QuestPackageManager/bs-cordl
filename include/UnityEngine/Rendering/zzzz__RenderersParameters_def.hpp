@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderersParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderersParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderersParameters_Flags, "UnityE
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderersParameters_ParamNames*, "UnityEngine.Rendering", "RenderersParameters/ParamNames");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderersParameters, "UnityEngine.Rendering", "RenderersParameters");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderersParameters_ParamInfo, "UnityEngine.Rendering", "RenderersParameters/ParamInfo");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -74,7 +75,7 @@ public:
   // @brief default ctor
   constexpr RenderersParameters_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderersParameters_Flags(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -190,13 +191,13 @@ protected:
   constexpr RenderersParameters_ParamNames();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderersParameters_ParamNames", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderersParameters_ParamNames", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderersParameters_ParamNames(RenderersParameters_ParamNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderersParameters_ParamNames", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderersParameters_ParamNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderersParameters_ParamNames(RenderersParameters_ParamNames const&) = delete;
+  RenderersParameters_ParamNames(RenderersParameters_ParamNamesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };
@@ -223,8 +224,8 @@ public:
   // @brief default ctor
   constexpr RenderersParameters_ParamInfo();
 
-  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "gpuAddress", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "uintOffset", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gpuAddress", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "uintOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderersParameters_ParamInfo(int32_t index, int32_t gpuAddress, int32_t uintOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -272,14 +273,15 @@ public:
 
   /// @brief Method CreateInstanceDataBuffer, addr 0x68371ec, size 0x3c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* CreateInstanceDataBuffer(::UnityEngine::Rendering::RenderersParameters_Flags flags,
-                                                                                          ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>g__GetParamInfo|14_0, addr 0x6838308, size 0xd0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RenderersParameters_ParamInfo __ctor_g__GetParamInfo_14_0(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer, int32_t paramNameIdx,
-                                                                                                    bool assertOnFail);
+  static inline ::UnityEngine::Rendering::RenderersParameters_ParamInfo __ctor_g__GetParamInfo_14_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer,
+                                                                                                    int32_t paramNameIdx, bool assertOnFail);
 
   /// @brief Method .ctor, addr 0x68375b4, size 0x29c, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer);
 
   static inline int32_t getStaticF_s_uintSize();
 
@@ -289,13 +291,15 @@ public:
   // @brief default ctor
   constexpr RenderersParameters();
 
-  // Ctor Parameters [CppParam { name: "lightmapScale", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None }, CppParam { name: "localToWorld", ty:
-  // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None }, CppParam { name: "worldToLocal", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo",
-  // modifiers: "", def_value: None }, CppParam { name: "matrixPreviousM", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None }, CppParam { name:
-  // "matrixPreviousMI", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None }, CppParam { name: "shCoefficients", ty:
-  // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None }, CppParam { name: "boundingSphere", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo",
-  // modifiers: "", def_value: None }, CppParam { name: "windParams", ty: "::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo>", modifiers: "", def_value: None }, CppParam { name:
-  // "windHistoryParams", ty: "::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "lightmapScale", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "localToWorld",
+  // ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldToLocal", ty:
+  // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "matrixPreviousM", ty:
+  // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "matrixPreviousMI", ty:
+  // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "shCoefficients", ty:
+  // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "boundingSphere", ty:
+  // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "windParams", ty:
+  // "::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo>", modifiers: "", def_value: None, comment: None }, CppParam { name: "windHistoryParams", ty:
+  // "::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo>", modifiers: "", def_value: None, comment: None }]
   constexpr RenderersParameters(::UnityEngine::Rendering::RenderersParameters_ParamInfo lightmapScale, ::UnityEngine::Rendering::RenderersParameters_ParamInfo localToWorld,
                                 ::UnityEngine::Rendering::RenderersParameters_ParamInfo worldToLocal, ::UnityEngine::Rendering::RenderersParameters_ParamInfo matrixPreviousM,
                                 ::UnityEngine::Rendering::RenderersParameters_ParamInfo matrixPreviousMI, ::UnityEngine::Rendering::RenderersParameters_ParamInfo shCoefficients,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerGameplayAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerGameplayAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,35 +136,44 @@ protected:
   constexpr MultiplayerConnectedPlayerGameplayAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerGameplayAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerGameplayAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerGameplayAnimator(MultiplayerConnectedPlayerGameplayAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerGameplayAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerGameplayAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerGameplayAnimator(MultiplayerConnectedPlayerGameplayAnimator const&) = delete;
+  MultiplayerConnectedPlayerGameplayAnimator(MultiplayerConnectedPlayerGameplayAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6057 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _bigAvatarAnimator, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> ____bigAvatarAnimator;
 
+  /// [SerializeField]
   /// @brief Field _avatarScaleAnimator, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScaleAnimator> ____avatarScaleAnimator;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _defaultLightsWidth, offset: 0x80, size: 0x4, def value: None
   float_t ____defaultLightsWidth;
 
+  /// [SerializeField]
   /// @brief Field _observedLightsWidth, offset: 0x84, size: 0x4, def value: None
   float_t ____observedLightsWidth;
 
+  /// [Inject]
   /// @brief Field _failController, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> ____failController;
 
+  /// [Inject]
   /// @brief Field _multiplayerLayoutProvider, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____multiplayerLayoutProvider;
 
+  /// [Inject]
   /// @brief Field _playerSpectatingSpot, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> ____playerSpectatingSpot;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessParams.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessParams.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PostProcessParams_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
@@ -19,8 +19,8 @@ inline ::UnityEngine::Rendering::Universal::PostProcessParams UnityEngine::Rende
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessParams>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::PostProcessParams>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "blitMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "requestColorFormat", ty:
-// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "blitMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestColorFormat", ty:
+// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::PostProcessParams::PostProcessParams(::UnityW<::UnityEngine::Material> blitMaterial,
                                                                                     ::UnityEngine::Experimental::Rendering::GraphicsFormat requestColorFormat) noexcept {
   this->blitMaterial = blitMaterial;

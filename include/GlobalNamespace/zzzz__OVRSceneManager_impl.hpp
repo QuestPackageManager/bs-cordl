@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneManager.hpp"
+#include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRObjectPool_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRResult_2_impl.hpp"
@@ -267,7 +268,7 @@ inline void GlobalNamespace::OVRSceneManager_Development::LogError(::StringW con
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneManager_Development::OVRSceneManager_Development() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager_LoadSceneModelResult::OVRSceneManager_LoadSceneModelResult(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -300,9 +301,10 @@ inline ::GlobalNamespace::OVRSceneManager_Metrics GlobalNamespace::OVRSceneManag
                                               { "op_Addition", {}, { ::i2c::type_of<::GlobalNamespace::OVRSceneManager_Metrics>(), ::i2c::type_of<::GlobalNamespace::OVRSceneManager_Metrics>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRSceneManager_Metrics>(nullptr, ___internal_method, lhs, rhs);
 }
-// Ctor Parameters [CppParam { name: "TotalRoomCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "CandidateRoomCount", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "Loaded", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Failed", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "SkippedUserNotInRoom", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SkippedAlreadyInstantiated", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "TotalRoomCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CandidateRoomCount", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Loaded", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Failed", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "SkippedUserNotInRoom", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SkippedAlreadyInstantiated",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager_Metrics::OVRSceneManager_Metrics(int32_t TotalRoomCount, int32_t CandidateRoomCount, int32_t Loaded, int32_t Failed, int32_t SkippedUserNotInRoom,
                                                                               int32_t SkippedAlreadyInstantiated) noexcept {
   this->TotalRoomCount = TotalRoomCount;
@@ -314,8 +316,8 @@ constexpr ::GlobalNamespace::OVRSceneManager_Metrics::OVRSceneManager_Metrics(in
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneManager_Metrics::OVRSceneManager_Metrics() {}
-// Ctor Parameters [CppParam { name: "Floor", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "Ceiling", ty: "::System::Guid", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Walls", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Floor", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Ceiling", ty: "::System::Guid", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Walls", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager_RoomLayoutUuids::OVRSceneManager_RoomLayoutUuids(::System::Guid Floor, ::System::Guid Ceiling, ::ArrayW<::System::Guid> Walls) noexcept {
   this->Floor = Floor;
   this->Ceiling = Ceiling;
@@ -369,11 +371,11 @@ constexpr GlobalNamespace::OVRSceneManager___LoadSceneModel_g__AwaitTask_40_0_d:
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRSceneManager___LoadSceneModel_g__AwaitTask_40_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty:
-// "::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityW<::GlobalNamespace::OVRSceneManager>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "task", ty:
+// "::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::OVRSceneManager>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager___LoadSceneModel_g__AwaitTask_40_0_d::OVRSceneManager___LoadSceneModel_g__AwaitTask_40_0_d(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult> task,
     ::UnityW<::GlobalNamespace::OVRSceneManager> __4__this, ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult> __u__1) noexcept {
@@ -601,30 +603,39 @@ inline ::GlobalNamespace::OVRSceneManager___c__DisplayClass54_0* GlobalNamespace
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneManager___c__DisplayClass54_0::OVRSceneManager___c__DisplayClass54_0() {}
-template <typename T> inline void GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::MoveNext() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename T> constexpr GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "incrementalResultsCallback", ty: "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "anchors", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "incrementalResultsCallback", ty:
+// "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::OVRSceneManager__FetchAnchorsAsync_d__36_1(
     int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors,
     ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback,
@@ -637,7 +648,9 @@ constexpr ::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::OVRS
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::OVRSceneManager__FetchAnchorsAsync_d__36_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>::OVRSceneManager__FetchAnchorsAsync_d__36_1() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__37.MoveNext
 template <>
 
@@ -682,11 +695,12 @@ constexpr GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__37::operator ::
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__37::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "uuids", ty: "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "anchors", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uuids", ty:
+// "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>", modifiers:
-// "", def_value: Some("{}") }]
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__37::OVRSceneManager__FetchAnchorsAsync_d__37(
     int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors,
     ::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids,
@@ -744,17 +758,18 @@ constexpr GlobalNamespace::OVRSceneManager__FilterByActiveRoom_d__46::operator :
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRSceneManager__FilterByActiveRoom_d__46::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::GlobalNamespace::OVRTaskBuilder_1<::System::ValueTuple_2<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult,int32_t>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rooms", ty:
-// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "layouts", ty:
-// "::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRAnchor,::GlobalNamespace::OVRSceneManager_RoomLayoutUuids>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_skipped_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_userPosition_5__3", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_floorAndCeilingAnchors_5__4", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap4", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap5", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<::System::Guid>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__7__wrap6", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap7", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<bool>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::GlobalNamespace::OVRTaskBuilder_1<::System::ValueTuple_2<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult,int32_t>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "rooms", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "layouts", ty:
+// "::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRAnchor,::GlobalNamespace::OVRSceneManager_RoomLayoutUuids>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_skipped_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_userPosition_5__3", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_floorAndCeilingAnchors_5__4", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__7__wrap4", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "__7__wrap5", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::System::Guid>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap6", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<bool>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap7", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<bool>>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*>", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager__FilterByActiveRoom_d__46::OVRSceneManager__FilterByActiveRoom_d__46(
     int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<::System::ValueTuple_2<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult, int32_t>> __t__builder,
     ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* rooms,
@@ -823,15 +838,16 @@ constexpr GlobalNamespace::OVRSceneManager__LoadSceneModelAsync_d__45::operator 
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRSceneManager__LoadSceneModelAsync_d__45::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityW<::GlobalNamespace::OVRSceneManager>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty: "::GlobalNamespace::OVRSceneManager___c__DisplayClass45_0*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_taskResults_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneManager_Metrics>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__7__wrap2", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRSceneManager_Metrics>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap3",
-// ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSceneManager_Metrics>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap4",
-// ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_result_5__6", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneManager_Metrics>*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::OVRSceneManager>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::OVRSceneManager___c__DisplayClass45_0*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_taskResults_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneManager_Metrics>*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRSceneManager_Metrics>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__7__wrap3", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSceneManager_Metrics>>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap4", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_result_5__6", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneManager_Metrics>*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager__LoadSceneModelAsync_d__45::OVRSceneManager__LoadSceneModelAsync_d__45(
     int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult> __t__builder, ::UnityW<::GlobalNamespace::OVRSceneManager> __4__this,
     ::GlobalNamespace::OVRSceneManager___c__DisplayClass45_0* __8__1, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneManager_Metrics>* _taskResults_5__2,
@@ -897,12 +913,12 @@ constexpr GlobalNamespace::OVRSceneManager__OnApplicationPause_d__38::operator :
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRSceneManager__OnApplicationPause_d__38::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPaused", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSceneManager>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_anchors_5__2", ty:
-// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap2", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isPaused", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSceneManager>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_anchors_5__2", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty:
+// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager__OnApplicationPause_d__38::OVRSceneManager__OnApplicationPause_d__38(int32_t __1__state,
                                                                                                                   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                                                   bool isPaused, ::UnityW<::GlobalNamespace::OVRSceneManager> __4__this,
@@ -962,20 +978,20 @@ constexpr GlobalNamespace::OVRSceneManager__ProcessBatch_d__44::operator ::Syste
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRSceneManager__ProcessBatch_d__44::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRSceneManager_Metrics>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rooms", ty:
-// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "startingIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSceneManager>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_metrics_5__2", ty:
-// "::GlobalNamespace::OVRSceneManager_Metrics", modifiers: "", def_value: Some("{}") }, CppParam { name: "_candidateRooms_5__3", ty:
-// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap3", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_layoutUuids_5__5", ty:
-// "::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRAnchor,::GlobalNamespace::OVRSceneManager_RoomLayoutUuids>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__7__wrap5", ty: "::GlobalNamespace::OVRObjectPool_DictionaryScope_2<::GlobalNamespace::OVRAnchor,::GlobalNamespace::OVRSceneManager_RoomLayoutUuids>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::System::ValueTuple_2<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult,int32_t>>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_taskResults_5__7", ty: "::System::Collections::Generic::List_1<bool>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap7", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap8", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<bool>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRSceneManager_Metrics>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rooms", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "startingIndex", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSceneManager>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_metrics_5__2", ty: "::GlobalNamespace::OVRSceneManager_Metrics", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_candidateRooms_5__3", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap3", ty:
+// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_layoutUuids_5__5", ty:
+// "::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRAnchor,::GlobalNamespace::OVRSceneManager_RoomLayoutUuids>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "__7__wrap5", ty: "::GlobalNamespace::OVRObjectPool_DictionaryScope_2<::GlobalNamespace::OVRAnchor,::GlobalNamespace::OVRSceneManager_RoomLayoutUuids>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::System::ValueTuple_2<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult,int32_t>>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_taskResults_5__7", ty: "::System::Collections::Generic::List_1<bool>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "__7__wrap7", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap8", ty:
+// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<bool>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager__ProcessBatch_d__44::OVRSceneManager__ProcessBatch_d__44(
     int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRSceneManager_Metrics> __t__builder, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* rooms,
     int32_t startingIndex, ::UnityW<::GlobalNamespace::OVRSceneManager> __4__this, ::GlobalNamespace::OVRSceneManager_Metrics _metrics_5__2,
@@ -1050,11 +1066,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::OVRSceneManager__QueryForExistingAnchorsTransform_d__39::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap2", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<::System::Guid>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap1", ty:
+// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty:
+// "::GlobalNamespace::OVRObjectPool_ListScope_1<::System::Guid>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneManager__QueryForExistingAnchorsTransform_d__39::OVRSceneManager__QueryForExistingAnchorsTransform_d__39(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor> __7__wrap1,
     ::GlobalNamespace::OVRObjectPool_ListScope_1<::System::Guid> __7__wrap2, ::GlobalNamespace::OVRTask_1_Awaiter<bool> __u__1) noexcept {
@@ -1927,6 +1943,7 @@ inline void GlobalNamespace::OVRSceneManager::LogResult(::GlobalNamespace::OVRAn
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::GlobalNamespace::OVRTask_1<bool>
 GlobalNamespace::OVRSceneManager::FetchAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                     ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback) {

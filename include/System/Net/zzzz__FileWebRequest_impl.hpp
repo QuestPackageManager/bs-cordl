@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FileWebRequest.hpp"
+// IWYU pragma private; include "System/Net/FileWebRequest.hpp"
 #include "System/IO/zzzz__FileAccess_impl.hpp"
 #include "System/Net/zzzz__WebRequest_impl.hpp"
 #include "System/Net/zzzz__FileWebRequest_def.hpp"
@@ -798,6 +798,7 @@ inline void System::Net::FileWebRequest::Abort() {
 inline ::System::Net::FileWebRequest* System::Net::FileWebRequest::New_ctor(::System::Uri* uri) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::FileWebRequest*>(uri));
 }
+/// @brief [Obsolete("Serialization is obsoleted for this type. http://go.microsoft.com/fwlink/?linkid=14202")]
 inline ::System::Net::FileWebRequest* System::Net::FileWebRequest::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                             ::System::Runtime::Serialization::StreamingContext streamingContext) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::FileWebRequest*>(serializationInfo, streamingContext));

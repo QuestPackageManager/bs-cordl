@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeLightIntensityTrack.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeLightIntensityTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,9 @@ class TubeLightIntensityTrack;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TubeLightIntensityTrack*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TubeLightIntensityTrack*, "", "TubeLightIntensityTrack");
+// [TrackClipType(typeof(TubeLightIntensityAsset))]
+// [TrackBindingType(typeof(TimelineArrayReference))]
+// [TrackColor(0, 0.75, 1)]
 // Dependencies UnityEngine.Timeline.TrackAsset
 namespace GlobalNamespace {
 // Is value type: false
@@ -30,13 +33,13 @@ protected:
   constexpr TubeLightIntensityTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TubeLightIntensityTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeLightIntensityTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeLightIntensityTrack(TubeLightIntensityTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TubeLightIntensityTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeLightIntensityTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeLightIntensityTrack(TubeLightIntensityTrack const&) = delete;
+  TubeLightIntensityTrack(TubeLightIntensityTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };

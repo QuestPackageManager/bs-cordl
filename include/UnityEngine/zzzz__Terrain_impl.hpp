@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Terrain.hpp"
+// IWYU pragma private; include "UnityEngine/Terrain.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

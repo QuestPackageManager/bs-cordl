@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IShaderVariantSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IShaderVariantSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class IShaderVariantSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::IShaderVariantSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::IShaderVariantSettings*, "UnityEngine.Rendering", "IShaderVariantSettings");
+// [Obsolete("Use GraphicsSettings.GetRenderPipelineSettings<ShaderStrippingSetting>(). #from(23.3)")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -27,27 +28,27 @@ public:
 
   __declspec(property(get = get_stripDebugVariants, put = set_stripDebugVariants)) bool stripDebugVariants;
 
-  /// @brief Method get_exportShaderVariants, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_exportShaderVariants, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_exportShaderVariants();
 
-  /// @brief Method get_shaderVariantLogLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_shaderVariantLogLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::ShaderVariantLogLevel get_shaderVariantLogLevel();
 
   /// @brief Method get_stripDebugVariants, addr 0x676fe30, size 0x8, virtual true, abstract: false, final false
   inline bool get_stripDebugVariants();
 
-  /// @brief Method set_exportShaderVariants, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_exportShaderVariants, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_exportShaderVariants(bool value);
 
-  /// @brief Method set_shaderVariantLogLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_shaderVariantLogLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_shaderVariantLogLevel(::UnityEngine::Rendering::ShaderVariantLogLevel value);
 
   /// @brief Method set_stripDebugVariants, addr 0x676fe38, size 0x4, virtual true, abstract: false, final false
   inline void set_stripDebugVariants(bool value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IShaderVariantSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IShaderVariantSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IShaderVariantSettings(IShaderVariantSettings const&) = delete;
+  IShaderVariantSettings(IShaderVariantSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12062 };

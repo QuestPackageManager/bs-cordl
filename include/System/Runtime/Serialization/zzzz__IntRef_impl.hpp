@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\IntRef.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/IntRef.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__IntRef_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::IntRef._ctor

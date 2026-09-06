@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\Leaderboards\GraphQLErrorCode.hpp"
+// IWYU pragma private; include "BeatSaber/Main/Leaderboards/GraphQLErrorCode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ protected:
   constexpr GraphQLErrorCode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLErrorCode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLErrorCode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLErrorCode(GraphQLErrorCode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLErrorCode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLErrorCode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLErrorCode(GraphQLErrorCode const&) = delete;
+  GraphQLErrorCode(GraphQLErrorCodeconst&) = delete;
 
   /// @brief Field BEAT_GAMES__CLIENT_VERSION_DEPRECATED offset 0xffffffff size 0x4
   static constexpr int32_t BEAT_GAMES__CLIENT_VERSION_DEPRECATED{ static_cast<int32_t>(0x39d0e0) };

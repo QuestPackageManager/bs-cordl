@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\FileHandle.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/FileHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct FileHandle;
 // Write type traits
 MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::FileHandle);
 DEFINE_IL2CPP_CLASS(::Unity::IO::LowLevel::Unsafe::FileHandle, "Unity.IO.LowLevel.Unsafe", "FileHandle");
+// [IsReadOnly]
 // Dependencies System.IntPtr
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
@@ -29,14 +30,16 @@ public:
   /// @brief Method Close, addr 0x6a5ef60, size 0xa8, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Close(::Unity::Jobs::JobHandle dependency);
 
+  /// [FreeFunction("AsyncReadManagerManaged::GetJobFenceFromManagedHandle")]
   /// @brief Method GetJobHandle_Internal, addr 0x6a5eed0, size 0x54, virtual false, abstract: false, final false
-  static inline ::Unity::Jobs::JobHandle GetJobHandle_Internal(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle);
+  static inline ::Unity::Jobs::JobHandle GetJobHandle_Internal(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle);
 
   /// @brief Method GetJobHandle_Internal_Injected, addr 0x6a5f064, size 0x44, virtual false, abstract: false, final false
-  static inline void GetJobHandle_Internal_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle, ::by_ref<::Unity::Jobs::JobHandle> ret);
+  static inline void GetJobHandle_Internal_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
+  /// [FreeFunction("AsyncReadManagerManaged::IsFileHandleValid")]
   /// @brief Method IsFileHandleValid, addr 0x6a5ee94, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsFileHandleValid(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle);
+  static inline bool IsFileHandleValid(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle);
 
   /// @brief Method IsValid, addr 0x6a5ef24, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
@@ -48,7 +51,8 @@ public:
   // @brief default ctor
   constexpr FileHandle();
 
-  // Ctor Parameters [CppParam { name: "fileCommandPtr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "fileCommandPtr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr FileHandle(::System::IntPtr fileCommandPtr, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -57,6 +61,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field fileCommandPtr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr fileCommandPtr;
 

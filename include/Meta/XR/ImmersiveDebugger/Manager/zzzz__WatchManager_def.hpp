@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\WatchManager.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/WatchManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::WatchManager*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::WatchManager___c*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::WatchManager*, "Meta.XR.ImmersiveDebugger.Manager", "WatchManager");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::WatchManager___c*, "Meta.XR.ImmersiveDebugger.Manager", "WatchManager/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -110,13 +111,13 @@ protected:
   constexpr WatchManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WatchManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WatchManager___c(WatchManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WatchManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WatchManager___c(WatchManager___c const&) = delete;
+  WatchManager___c(WatchManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18464 };
@@ -211,13 +212,13 @@ protected:
   constexpr WatchManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WatchManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WatchManager(WatchManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WatchManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WatchManager(WatchManager const&) = delete;
+  WatchManager(WatchManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18465 };

@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\Addressables.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Addressables.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -33,7 +34,7 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::AddressableAssets::Addressables_MergeMode::Addressables_MergeMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1332,7 +1333,7 @@ inline void UnityEngine::AddressableAssets::Addressables::InternalSafeSerializat
                                                            { "InternalSafeSerializationLog", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::LogType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, msg, logType);
 }
-inline void UnityEngine::AddressableAssets::Addressables::InternalSafeSerializationLogFormat(::StringW format, ::UnityEngine::LogType logType, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AddressableAssets::Addressables::InternalSafeSerializationLogFormat(::StringW format, ::UnityEngine::LogType logType, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Addressables*>(),
@@ -1344,7 +1345,7 @@ inline void UnityEngine::AddressableAssets::Addressables::Log(::StringW msg) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Addressables*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, msg);
 }
-inline void UnityEngine::AddressableAssets::Addressables::LogFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AddressableAssets::Addressables::LogFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Addressables*>(),
                                                                                          { "LogFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, args);
@@ -1354,7 +1355,7 @@ inline void UnityEngine::AddressableAssets::Addressables::LogWarning(::StringW m
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Addressables*>(), { "LogWarning", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, msg);
 }
-inline void UnityEngine::AddressableAssets::Addressables::LogWarningFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AddressableAssets::Addressables::LogWarningFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Addressables*>(),
                                                                                          { "LogWarningFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, args);
@@ -1376,7 +1377,7 @@ inline void UnityEngine::AddressableAssets::Addressables::LogException(::System:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Addressables*>(), { "LogException", {}, { ::i2c::type_of<::System::Exception*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ex);
 }
-inline void UnityEngine::AddressableAssets::Addressables::LogErrorFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AddressableAssets::Addressables::LogErrorFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Addressables*>(),
                                                                                          { "LogErrorFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, args);
@@ -1961,6 +1962,7 @@ UnityEngine::AddressableAssets::Addressables::CleanBundleCache(::System::Collect
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>>(nullptr, ___internal_method, catalogsIds);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
 inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
 UnityEngine::AddressableAssets::Addressables::CreateCatalogLocationWithHashDependencies(::StringW remoteCatalogPath) {
   static auto* ___internal_method_base =
@@ -1970,6 +1972,7 @@ UnityEngine::AddressableAssets::Addressables::CreateCatalogLocationWithHashDepen
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(nullptr, ___internal_method, remoteCatalogPath);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
 inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
 UnityEngine::AddressableAssets::Addressables::CreateCatalogLocationWithHashDependencies(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteCatalogLocation) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1980,6 +1983,7 @@ UnityEngine::AddressableAssets::Addressables::CreateCatalogLocationWithHashDepen
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(nullptr, ___internal_method, remoteCatalogLocation);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
 inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* UnityEngine::AddressableAssets::Addressables::CreateCatalogLocationWithHashDependencies(::StringW remoteCatalogPath,
                                                                                                                                                                            ::StringW remoteHashPath) {
   static auto* ___internal_method_base =

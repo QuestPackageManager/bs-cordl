@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ConfigurableJoint.hpp"
+// IWYU pragma private; include "UnityEngine/ConfigurableJoint.hpp"
 #include "UnityEngine/zzzz__Joint_impl.hpp"
 #include "UnityEngine/zzzz__ConfigurableJoint_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

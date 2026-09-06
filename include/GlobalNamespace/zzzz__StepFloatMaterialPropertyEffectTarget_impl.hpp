@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StepFloatMaterialPropertyEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/StepFloatMaterialPropertyEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__StepFloatMaterialPropertyEffectTarget_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"

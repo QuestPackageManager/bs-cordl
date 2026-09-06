@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\CustomErrorsModes.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/CustomErrorsModes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CustomErrorsModes;
 // Write type traits
 MARK_VAL_T(::System::Runtime::Remoting::CustomErrorsModes);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::CustomErrorsModes, "System.Runtime.Remoting", "CustomErrorsModes");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr CustomErrorsModes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CustomErrorsModes(int32_t value__) noexcept;
 
   /// @brief Field Off value: I32(1)

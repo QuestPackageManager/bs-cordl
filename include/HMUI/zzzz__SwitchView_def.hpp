@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SwitchView.hpp"
+// IWYU pragma private; include "HMUI/SwitchView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr SwitchView_AnimationType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SwitchView_AnimationType(int32_t value__) noexcept;
 
   /// @brief Field OnOff value: I32(0)
@@ -86,6 +86,8 @@ static_assert(offsetof(::HMUI::SwitchView_AnimationType, value__) == 0x0, "Offse
 static_assert(sizeof(::HMUI::SwitchView_AnimationType) == 0x4, "Size mismatch!");
 
 } // namespace HMUI
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(HMUI.ToggleWithCallbacks))]
 // Dependencies HMUI.SwitchView::AnimationType, UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
@@ -215,41 +217,59 @@ protected:
   constexpr SwitchView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SwitchView(SwitchView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SwitchView(SwitchView const&) = delete;
+  SwitchView(SwitchViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19123 };
 
+  /// [SerializeField]
   /// @brief Field _animationType, offset: 0x20, size: 0x4, def value: None
   ::HMUI::SwitchView_AnimationType ____animationType;
 
+  /// [SerializeField]
   /// @brief Field _normalAnimationClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____normalAnimationClip;
 
+  /// [SerializeField]
   /// @brief Field _highlightedAnimationClip, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____highlightedAnimationClip;
 
+  /// [SerializeField]
   /// @brief Field _pressedAnimationClip, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____pressedAnimationClip;
 
+  /// [SerializeField]
   /// @brief Field _disabledAnimationClip, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____disabledAnimationClip;
 
+  /// [Space]
+  /// [DrawIf("_animationType", (HMUI.SwitchView::AnimationType)0, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_animationType", (ComparisonOperation)1, (HMUI.SwitchView::AnimationType)0, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _onAnimationClip, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____onAnimationClip;
 
+  /// [DrawIf("_animationType", (HMUI.SwitchView::AnimationType)0, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_animationType", (ComparisonOperation)1, (HMUI.SwitchView::AnimationType)0, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _offAnimationClip, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____offAnimationClip;
 
+  /// [DrawIf("_animationType", (HMUI.SwitchView::AnimationType)1, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_animationType", (ComparisonOperation)1, (HMUI.SwitchView::AnimationType)1, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _selectedAnimationClip, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____selectedAnimationClip;
 
+  /// [DrawIf("_animationType", (HMUI.SwitchView::AnimationType)1, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_animationType", (ComparisonOperation)1, (HMUI.SwitchView::AnimationType)1, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedAnimationClip, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____selectedAndHighlightedAnimationClip;
 

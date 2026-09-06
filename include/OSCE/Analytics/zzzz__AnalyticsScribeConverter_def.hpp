@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\AnalyticsScribeConverter.hpp"
+// IWYU pragma private; include "OSCE/Analytics/AnalyticsScribeConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::OSCE::Analytics::AnalyticsScribeConverter*);
 MARK_REF_T(::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0*);
 DEFINE_IL2CPP_CLASS(::OSCE::Analytics::AnalyticsScribeConverter*, "OSCE.Analytics", "AnalyticsScribeConverter");
 DEFINE_IL2CPP_CLASS(::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0*, "OSCE.Analytics", "AnalyticsScribeConverter/<>c__DisplayClass4_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OSCE::Analytics {
 // Is value type: false
@@ -80,13 +81,13 @@ protected:
   constexpr AnalyticsScribeConverter___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnalyticsScribeConverter___c__DisplayClass4_0(AnalyticsScribeConverter___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnalyticsScribeConverter___c__DisplayClass4_0(AnalyticsScribeConverter___c__DisplayClass4_0 const&) = delete;
+  AnalyticsScribeConverter___c__DisplayClass4_0(AnalyticsScribeConverter___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21910 };
@@ -147,13 +148,13 @@ protected:
   constexpr AnalyticsScribeConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnalyticsScribeConverter(AnalyticsScribeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnalyticsScribeConverter(AnalyticsScribeConverter const&) = delete;
+  AnalyticsScribeConverter(AnalyticsScribeConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21911 };

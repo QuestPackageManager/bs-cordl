@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\FourCC.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/FourCC.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
   // @brief default ctor
   constexpr FourCC();
 
-  // Ctor Parameters [CppParam { name: "m_Code", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Code", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FourCC(int32_t m_Code) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

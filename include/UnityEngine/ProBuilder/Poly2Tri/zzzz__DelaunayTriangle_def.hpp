@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\DelaunayTriangle.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/DelaunayTriangle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -200,9 +200,11 @@ public:
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2,
                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p3);
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsInterior, addr 0x66ac02c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInterior();
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsInterior, addr 0x66ac034, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInterior(bool value);
 
@@ -212,13 +214,13 @@ protected:
   constexpr DelaunayTriangle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelaunayTriangle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelaunayTriangle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelaunayTriangle(DelaunayTriangle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelaunayTriangle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelaunayTriangle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelaunayTriangle(DelaunayTriangle const&) = delete;
+  DelaunayTriangle(DelaunayTriangleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21760 };
@@ -235,6 +237,7 @@ public:
   /// @brief Field EdgeIsDelaunay, offset: 0x43, size: 0x3, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 ___EdgeIsDelaunay;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsInterior>k__BackingField, offset: 0x46, size: 0x1, def value: None
   bool ____IsInterior_k__BackingField;
 

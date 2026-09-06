@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ClearTargetsPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ClearTargetsPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RTClearFlags_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\PalmPoseInteraction.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/PalmPoseInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,6 +65,8 @@ MARK_REF_T(::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteractio
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction*, "UnityEngine.XR.OpenXR.Features.Interactions", "PalmPoseInteraction");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose*, "UnityEngine.XR.OpenXR.Features.Interactions", "PalmPoseInteraction/PalmPose");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction___c*, "UnityEngine.XR.OpenXR.Features.Interactions", "PalmPoseInteraction/<>c");
+// [Preserve]
+// [InputControlLayout(displayName = "Palm Pose (OpenXR)", commonUsages = new[] { "LeftHand", "RightHand" })]
 // Dependencies UnityEngine.InputSystem.XR.XRController
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
@@ -100,18 +102,32 @@ public:
   __declspec(property(get = __cordl_internal_get__trackingState_k__BackingField,
                       put = __cordl_internal_set__trackingState_k__BackingField)) ::UnityEngine::InputSystem::Controls::IntegerControl* _trackingState_k__BackingField;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 8, noisy = true, alias = "palmPosition")]
   __declspec(property(get = get_devicePosition, put = set_devicePosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* devicePosition;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 20, noisy = true, alias = "palmRotation")]
   __declspec(property(get = get_deviceRotation, put = set_deviceRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* deviceRotation;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 0)]
   __declspec(property(get = get_isTracked, put = set_isTracked)) ::UnityEngine::InputSystem::Controls::ButtonControl* isTracked;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 0)]
   __declspec(property(get = get_palmPose, put = set_palmPose)) ::UnityEngine::XR::OpenXR::Input::PoseControl* palmPose;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 8, noisy = true)]
   __declspec(property(get = get_palmPosition, put = set_palmPosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* palmPosition;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 20, noisy = true)]
   __declspec(property(get = get_palmRotation, put = set_palmRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* palmRotation;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 4)]
   __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
   /// @brief Method FinishSetup, addr 0x6a1b374, size 0x7c, virtual true, abstract: false, final false
@@ -164,45 +180,59 @@ public:
   /// @brief Method .ctor, addr 0x6a1b3f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_devicePosition, addr 0x6a1b334, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deviceRotation, addr 0x6a1b344, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isTracked, addr 0x6a1b314, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
+  /// [CompilerGenerated]
   /// @brief Method get_palmPose, addr 0x6a1b304, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_palmPose();
 
+  /// [CompilerGenerated]
   /// @brief Method get_palmPosition, addr 0x6a1b354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_palmPosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_palmRotation, addr 0x6a1b364, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_palmRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackingState, addr 0x6a1b324, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
+  /// [CompilerGenerated]
   /// @brief Method set_devicePosition, addr 0x6a1b33c, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deviceRotation, addr 0x6a1b34c, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isTracked, addr 0x6a1b31c, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_palmPose, addr 0x6a1b30c, size 0x8, virtual false, abstract: false, final false
   inline void set_palmPose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_palmPosition, addr 0x6a1b35c, size 0x8, virtual false, abstract: false, final false
   inline void set_palmPosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_palmRotation, addr 0x6a1b36c, size 0x8, virtual false, abstract: false, final false
   inline void set_palmRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackingState, addr 0x6a1b32c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
@@ -212,35 +242,42 @@ protected:
   constexpr PalmPoseInteraction_PalmPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction_PalmPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction_PalmPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PalmPoseInteraction_PalmPose(PalmPoseInteraction_PalmPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction_PalmPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction_PalmPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PalmPoseInteraction_PalmPose(PalmPoseInteraction_PalmPose const&) = delete;
+  PalmPoseInteraction_PalmPose(PalmPoseInteraction_PalmPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18593 };
 
+  /// [CompilerGenerated]
   /// @brief Field <palmPose>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____palmPose_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isTracked>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____isTracked_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackingState>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____trackingState_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <devicePosition>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____devicePosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <deviceRotation>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____deviceRotation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <palmPosition>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____palmPosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <palmRotation>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____palmRotation_k__BackingField;
 
@@ -264,6 +301,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::Interactions::PalmPo
 static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose) == 0x1e0, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Features::Interactions
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
@@ -309,13 +347,13 @@ protected:
   constexpr PalmPoseInteraction___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PalmPoseInteraction___c(PalmPoseInteraction___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PalmPoseInteraction___c(PalmPoseInteraction___c const&) = delete;
+  PalmPoseInteraction___c(PalmPoseInteraction___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18594 };
@@ -375,13 +413,13 @@ protected:
   constexpr PalmPoseInteraction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PalmPoseInteraction(PalmPoseInteraction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PalmPoseInteraction(PalmPoseInteraction const&) = delete;
+  PalmPoseInteraction(PalmPoseInteractionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18595 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlBaseWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlBaseWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -171,13 +171,13 @@ protected:
   constexpr XmlBaseWriter_Element();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter_Element", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter_Element", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlBaseWriter_Element(XmlBaseWriter_Element&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter_Element", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter_Element", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseWriter_Element(XmlBaseWriter_Element const&) = delete;
+  XmlBaseWriter_Element(XmlBaseWriter_Elementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16964 };
@@ -234,7 +234,7 @@ public:
   // @brief default ctor
   constexpr XmlBaseWriter_DocumentState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlBaseWriter_DocumentState(uint8_t value__) noexcept;
 
   /// @brief Field Document value: U8(1)
@@ -338,13 +338,13 @@ protected:
   constexpr NamespaceManager_XmlBaseWriter_XmlAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamespaceManager_XmlBaseWriter_XmlAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamespaceManager_XmlBaseWriter_XmlAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamespaceManager_XmlBaseWriter_XmlAttribute(NamespaceManager_XmlBaseWriter_XmlAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamespaceManager_XmlBaseWriter_XmlAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamespaceManager_XmlBaseWriter_XmlAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamespaceManager_XmlBaseWriter_XmlAttribute(NamespaceManager_XmlBaseWriter_XmlAttribute const&) = delete;
+  NamespaceManager_XmlBaseWriter_XmlAttribute(NamespaceManager_XmlBaseWriter_XmlAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16966 };
@@ -473,13 +473,13 @@ protected:
   constexpr NamespaceManager_XmlBaseWriter_Namespace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamespaceManager_XmlBaseWriter_Namespace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamespaceManager_XmlBaseWriter_Namespace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamespaceManager_XmlBaseWriter_Namespace(NamespaceManager_XmlBaseWriter_Namespace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamespaceManager_XmlBaseWriter_Namespace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamespaceManager_XmlBaseWriter_Namespace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamespaceManager_XmlBaseWriter_Namespace(NamespaceManager_XmlBaseWriter_Namespace const&) = delete;
+  NamespaceManager_XmlBaseWriter_Namespace(NamespaceManager_XmlBaseWriter_Namespaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16967 };
@@ -688,13 +688,13 @@ protected:
   constexpr XmlBaseWriter_NamespaceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter_NamespaceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter_NamespaceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlBaseWriter_NamespaceManager(XmlBaseWriter_NamespaceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter_NamespaceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter_NamespaceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseWriter_NamespaceManager(XmlBaseWriter_NamespaceManager const&) = delete;
+  XmlBaseWriter_NamespaceManager(XmlBaseWriter_NamespaceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16968 };
@@ -1190,13 +1190,13 @@ protected:
   constexpr XmlBaseWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlBaseWriter(XmlBaseWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlBaseWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseWriter(XmlBaseWriter const&) = delete;
+  XmlBaseWriter(XmlBaseWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16969 };

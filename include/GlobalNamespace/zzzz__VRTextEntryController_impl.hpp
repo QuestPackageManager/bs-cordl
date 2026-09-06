@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRTextEntryController.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRTextEntryController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -173,6 +173,7 @@ inline ::System::Object* GlobalNamespace::VRTextEntryController__BlinkCursor_d__
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23* GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23*>(__1__state));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RefreshRate.hpp"
+// IWYU pragma private; include "UnityEngine/RefreshRate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ struct RefreshRate;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RefreshRate);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RefreshRate, "UnityEngine", "RefreshRate");
+// [NativeType("Runtime/Graphics/RefreshRate.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -58,7 +59,8 @@ public:
   // @brief default ctor
   constexpr RefreshRate();
 
-  // Ctor Parameters [CppParam { name: "numerator", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "denominator", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "numerator", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "denominator", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr RefreshRate(uint32_t numerator, uint32_t denominator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

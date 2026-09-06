@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LeaderboardViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LeaderboardViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LeaderboardViewController::SetData(::by_ref<::GlobalNamespace::BeatmapKey> previewDifficultyBeatmap) {
+inline void GlobalNamespace::LeaderboardViewController::SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> previewDifficultyBeatmap) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::LeaderboardViewController*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, previewDifficultyBeatmap);

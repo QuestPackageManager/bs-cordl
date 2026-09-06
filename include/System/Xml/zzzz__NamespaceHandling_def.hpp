@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\NamespaceHandling.hpp"
+// IWYU pragma private; include "System/Xml/NamespaceHandling.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct NamespaceHandling;
 // Write type traits
 MARK_VAL_T(::System::Xml::NamespaceHandling);
 DEFINE_IL2CPP_CLASS(::System::Xml::NamespaceHandling, "System.Xml", "NamespaceHandling");
+// [Flags]
 // Dependencies
 namespace System::Xml {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr NamespaceHandling();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NamespaceHandling(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(0)

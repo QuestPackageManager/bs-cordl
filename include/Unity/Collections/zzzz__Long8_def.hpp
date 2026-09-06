@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Long8.hpp"
+// IWYU pragma private; include "Unity/Collections/Long8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +24,10 @@ public:
   // @brief default ctor
   constexpr Long8();
 
-  // Ctor Parameters [CppParam { name: "f0", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "f1", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "f2", ty:
-  // "int64_t", modifiers: "", def_value: None }, CppParam { name: "f3", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "f4", ty: "int64_t", modifiers: "", def_value: None },
-  // CppParam { name: "f5", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "f6", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "f7", ty: "int64_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "f0", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "f1", ty: "int64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "f2", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "f3", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "f4", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "f5", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "f6", ty: "int64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "f7", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr Long8(int64_t f0, int64_t f1, int64_t f2, int64_t f3, int64_t f4, int64_t f5, int64_t f6, int64_t f7) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice\NoteCutFloorLightStreakTileEffectSpawner.hpp"
+// IWYU pragma private; include "Ice/NoteCutFloorLightStreakTileEffectSpawner.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawner_def.hpp"
@@ -151,7 +151,8 @@ inline void Ice::NoteCutFloorLightStreakTileEffectSpawner::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>(), { "OnDestroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Ice::NoteCutFloorLightStreakTileEffectSpawner::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void Ice::NoteCutFloorLightStreakTileEffectSpawner::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController,
+                                                                            /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>(),
                                               { "HandleNoteWasCut", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));

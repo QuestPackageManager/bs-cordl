@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LightCompiler.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LightCompiler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,9 @@ namespace System::Linq::Expressions::Interpreter {
 class DebugInfo;
 }
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue> class HybridReferenceDictionary_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey>)
+class HybridReferenceDictionary_2;
 }
 namespace System::Linq::Expressions::Interpreter {
 class InstructionList;
@@ -212,13 +214,13 @@ protected:
   constexpr LightCompiler_QuoteVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler_QuoteVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler_QuoteVisitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightCompiler_QuoteVisitor(LightCompiler_QuoteVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler_QuoteVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler_QuoteVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCompiler_QuoteVisitor(LightCompiler_QuoteVisitor const&) = delete;
+  LightCompiler_QuoteVisitor(LightCompiler_QuoteVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16441 };
@@ -239,6 +241,7 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightCompiler_Q
 static_assert(sizeof(::System::Linq::Expressions::Interpreter::LightCompiler_QuoteVisitor) == 0x20, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
@@ -295,13 +298,13 @@ protected:
   constexpr LightCompiler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightCompiler___c(LightCompiler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCompiler___c(LightCompiler___c const&) = delete;
+  LightCompiler___c(LightCompiler___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16442 };
@@ -699,13 +702,13 @@ protected:
   constexpr LightCompiler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightCompiler(LightCompiler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCompiler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCompiler(LightCompiler const&) = delete;
+  LightCompiler(LightCompilerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16443 };

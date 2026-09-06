@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\GraphQLClientProviderInstallerSO.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/GraphQLClientProviderInstallerSO.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "BeatSaber/GraphQL/zzzz__GraphQLClientProviderInstallerSO_def.hpp"
 //  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO.get_devServerPath

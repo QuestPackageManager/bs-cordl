@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\Intrinsics\V64DebugView.hpp"
+// IWYU pragma private; include "Unity/Burst/Intrinsics/V64DebugView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,24 +26,34 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE V64DebugView : public ::System::Object {
 public:
   // Declarations
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_Byte)) ::ArrayW<uint8_t> Byte;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_Double)) ::ArrayW<double_t> Double;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_Float)) ::ArrayW<float_t> Float;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_SByte)) ::ArrayW<int8_t> SByte;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_SInt)) ::ArrayW<int32_t> SInt;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_SLong)) ::ArrayW<int64_t> SLong;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_SShort)) ::ArrayW<int16_t> SShort;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_UInt)) ::ArrayW<uint32_t> UInt;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_ULong)) ::ArrayW<uint64_t> ULong;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)2)]
   __declspec(property(get = get_UShort)) ::ArrayW<uint16_t> UShort;
 
   /// @brief Field m_Value, offset 0x10, size 0x8
@@ -96,13 +106,13 @@ protected:
   constexpr V64DebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "V64DebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "V64DebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   V64DebugView(V64DebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "V64DebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "V64DebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  V64DebugView(V64DebugView const&) = delete;
+  V64DebugView(V64DebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17340 };

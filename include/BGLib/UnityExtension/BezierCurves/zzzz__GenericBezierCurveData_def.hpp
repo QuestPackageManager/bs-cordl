@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\GenericBezierCurveData.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/GenericBezierCurveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,20 +77,22 @@ protected:
   constexpr GenericBezierCurveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericBezierCurveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericBezierCurveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericBezierCurveData(GenericBezierCurveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericBezierCurveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericBezierCurveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericBezierCurveData(GenericBezierCurveData const&) = delete;
+  GenericBezierCurveData(GenericBezierCurveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20831 };
 
+  /// [SerializeField]
   /// @brief Field _startPoint, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startPoint;
 
+  /// [SerializeField]
   /// @brief Field _endPoint, offset: 0x34, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____endPoint;
 

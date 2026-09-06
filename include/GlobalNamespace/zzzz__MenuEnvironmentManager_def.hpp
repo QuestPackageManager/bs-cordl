@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MenuEnvironmentManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MenuEnvironmentManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   // @brief default ctor
   constexpr MenuEnvironmentManager_MenuEnvironmentType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MenuEnvironmentManager_MenuEnvironmentType(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(1)
@@ -141,20 +141,22 @@ protected:
   constexpr MenuEnvironmentManager_MenuEnvironmentObjects();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager_MenuEnvironmentObjects", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager_MenuEnvironmentObjects", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuEnvironmentManager_MenuEnvironmentObjects(MenuEnvironmentManager_MenuEnvironmentObjects&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager_MenuEnvironmentObjects", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager_MenuEnvironmentObjects", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuEnvironmentManager_MenuEnvironmentObjects(MenuEnvironmentManager_MenuEnvironmentObjects const&) = delete;
+  MenuEnvironmentManager_MenuEnvironmentObjects(MenuEnvironmentManager_MenuEnvironmentObjectsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5604 };
 
+  /// [SerializeField]
   /// @brief Field _menuEnvironmentType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType ____menuEnvironmentType;
 
+  /// [SerializeField]
   /// @brief Field _wrapper, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____wrapper;
 
@@ -215,17 +217,18 @@ protected:
   constexpr MenuEnvironmentManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuEnvironmentManager(MenuEnvironmentManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuEnvironmentManager(MenuEnvironmentManager const&) = delete;
+  MenuEnvironmentManager(MenuEnvironmentManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5605 };
 
+  /// [SerializeField]
   /// @brief Field _data, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects*> ____data;
 

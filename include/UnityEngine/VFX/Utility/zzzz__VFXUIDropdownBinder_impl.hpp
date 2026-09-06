@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXUIDropdownBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXUIDropdownBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXUIDropdownBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Dropdown_def.hpp"

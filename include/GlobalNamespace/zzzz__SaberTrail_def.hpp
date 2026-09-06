@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberTrail.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberTrail.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -270,13 +270,13 @@ protected:
   constexpr SaberTrail();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberTrail", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberTrail", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberTrail(SaberTrail&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberTrail", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberTrail", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberTrail(SaberTrail const&) = delete;
+  SaberTrail(SaberTrailconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23204 };
@@ -290,33 +290,50 @@ public:
   /// @brief Field kSnapshotCapacityMargin offset 0xffffffff size 0x4
   static constexpr int32_t kSnapshotCapacityMargin{ static_cast<int32_t>(0x3) };
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x28, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
+  /// [Inject]
   /// @brief Field _determinismConfig, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
 
+  /// [SerializeField]
   /// @brief Field _trailRendererPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTrailRenderer> ____trailRendererPrefab;
 
+  /// [Header("Trail Settings")]
+  /// [Tooltip("Age of most distant segment of trail")]
+  /// [SerializeField]
   /// @brief Field _trailDuration, offset: 0x40, size: 0x4, def value: None
   float_t ____trailDuration;
 
+  /// [Tooltip("Saber position snapshots taken per second")]
+  /// [SerializeField]
   /// @brief Field _samplingFrequency, offset: 0x44, size: 0x4, def value: None
   int32_t ____samplingFrequency;
 
+  /// [Tooltip("Segments count in final trail mesh")]
+  /// [SerializeField]
   /// @brief Field _granularity, offset: 0x48, size: 0x4, def value: None
   int32_t ____granularity;
 
+  /// [Range(0, 1)]
+  /// [Tooltip("Duration of most distant segment of trail section that gradients from white to movementData color")]
+  /// [SerializeField]
   /// @brief Field _whiteSectionMaxDuration, offset: 0x4c, size: 0x4, def value: None
   float_t ____whiteSectionMaxDuration;
 
+  /// [SerializeField]
   /// @brief Field _colorOverwrite, offset: 0x50, size: 0x1, def value: None
   bool ____colorOverwrite;
 
+  /// [SerializeField]
+  /// [DrawIf("_colorOverwrite", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _forcedColor, offset: 0x54, size: 0x10, def value: None
   ::UnityEngine::Color ____forcedColor;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HydraulicCarJumpEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/HydraulicCarJumpEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,6 +91,8 @@ public:
   /// @brief Method OnEnable, addr 0x3288a94, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
+  /// [Inject]
+  /// [UsedImplicitly]
   /// @brief Method OnInject, addr 0x3288948, size 0x4, virtual false, abstract: false, final false
   inline void OnInject();
 
@@ -175,38 +177,48 @@ protected:
   constexpr HydraulicCarJumpEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarJumpEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarJumpEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HydraulicCarJumpEffect(HydraulicCarJumpEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarJumpEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarJumpEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HydraulicCarJumpEffect(HydraulicCarJumpEffect const&) = delete;
+  HydraulicCarJumpEffect(HydraulicCarJumpEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23523 };
 
+  /// [SerializeField]
   /// @brief Field _event, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
 
+  /// [SerializeField]
   /// @brief Field _eventValues, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<int32_t> ____eventValues;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _impulse, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____impulse;
 
+  /// [SerializeField]
   /// @brief Field _randomness, offset: 0x3c, size: 0x4, def value: None
   float_t ____randomness;
 
+  /// [SerializeField]
   /// @brief Field _position, offset: 0x40, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____position;
 
+  /// [SerializeField]
   /// @brief Field _minDelayBetweenEvents, offset: 0x4c, size: 0x4, def value: None
   float_t ____minDelayBetweenEvents;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _rigidbody, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rigidbody> ____rigidbody;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

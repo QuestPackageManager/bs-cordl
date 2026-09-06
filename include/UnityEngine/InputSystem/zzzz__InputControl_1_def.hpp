@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputControl_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputControl_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControl_1)
@@ -15,19 +16,24 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem {
-template <typename TValue> class InputProcessor_1;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class InputProcessor_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-template <typename TValue> class InputControl_1;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class InputControl_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::InputControl_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::InputControl_1, "UnityEngine.InputSystem", "InputControl`1");
-// Dependencies UnityEngine.InputSystem.InputControl, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
+// Dependencies UnityEngine.InputSystem.InputControl, UnityEngine.InputSystem.InputProcessor`1<TValue>, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputControl`1<TValue>
 class CORDL_TYPE InputControl_1 : public ::UnityEngine::InputSystem::InputControl {
@@ -49,8 +55,10 @@ public:
 
   __declspec(property(get = get_processors)) ::ArrayW<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> processors;
 
+  /// @brief [IsReadOnly]
   __declspec(property(get = get_unprocessedValue)) TValue unprocessedValue;
 
+  /// @brief [IsReadOnly]
   __declspec(property(get = get_value)) TValue value;
 
   __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
@@ -83,7 +91,7 @@ public:
   /// @brief Method ReadUnprocessedValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadUnprocessedValue();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue ReadUnprocessedValueFromState(void* statePtr);
 
   /// @brief Method ReadUnprocessedValueFromStateWithCaching, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -111,7 +119,9 @@ public:
   inline TValue ReadValueFromStateWithCaching(void* statePtr);
 
   /// @brief Method TryGetProcessor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TProcessor> inline TProcessor TryGetProcessor();
+  template <typename TProcessor>
+    requires(::cordl_internals::type_constraint<TProcessor, ::UnityEngine::InputSystem::InputProcessor_1<TValue>*>)
+  inline TProcessor TryGetProcessor();
 
   /// @brief Method WriteValueFromBufferIntoState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteValueFromBufferIntoState(void* bufferPtr, int32_t bufferSize, void* statePtr);
@@ -170,13 +180,13 @@ protected:
   constexpr InputControl_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputControl_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControl_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputControl_1(InputControl_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputControl_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControl_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControl_1(InputControl_1 const&) = delete;
+  InputControl_1(InputControl_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8698 };

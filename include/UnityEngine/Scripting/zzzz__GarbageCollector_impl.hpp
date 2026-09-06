@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Scripting\GarbageCollector.hpp"
+// IWYU pragma private; include "UnityEngine/Scripting/GarbageCollector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Scripting/zzzz__GarbageCollector_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/Scripting/zzzz__GarbageCollector_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Scripting::GarbageCollector_Mode::GarbageCollector_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }

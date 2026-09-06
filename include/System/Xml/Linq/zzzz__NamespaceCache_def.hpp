@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\NamespaceCache.hpp"
+// IWYU pragma private; include "System/Xml/Linq/NamespaceCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,8 +30,8 @@ public:
   // @brief default ctor
   constexpr NamespaceCache();
 
-  // Ctor Parameters [CppParam { name: "_ns", ty: "::System::Xml::Linq::XNamespace*", modifiers: "", def_value: None }, CppParam { name: "_namespaceName", ty: "::StringW", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "_ns", ty: "::System::Xml::Linq::XNamespace*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_namespaceName", ty: "::StringW", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr NamespaceCache(::System::Xml::Linq::XNamespace* _ns, ::StringW _namespaceName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

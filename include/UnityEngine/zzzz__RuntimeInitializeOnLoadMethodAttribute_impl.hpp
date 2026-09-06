@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RuntimeInitializeOnLoadMethodAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/RuntimeInitializeOnLoadMethodAttribute.hpp"
 #include "UnityEngine/Scripting/zzzz__PreserveAttribute_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeInitializeLoadType_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeInitializeOnLoadMethodAttribute_def.hpp"

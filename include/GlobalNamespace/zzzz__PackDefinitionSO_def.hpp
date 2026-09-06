@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PackDefinitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PackDefinitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,9 @@ namespace UnityEngine::AddressableAssets {
 class AssetReferenceGameObject;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject> class AssetReferenceT_1;
+template <typename TObject>
+  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
+class AssetReferenceT_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,6 +73,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionSO*, "", "PackDefinitionSO"
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionSO_Credits*, "", "PackDefinitionSO/Credits");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionSO_LeaderboardIds*, "", "PackDefinitionSO/LeaderboardIds");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionSO_LevelProductPacks*, "", "PackDefinitionSO/LevelProductPacks");
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -102,7 +105,7 @@ public:
   // @brief default ctor
   constexpr PackDefinitionSO_Tags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PackDefinitionSO_Tags(int32_t value__) noexcept;
 
   /// @brief Field BuiltIn value: I32(1)
@@ -203,23 +206,29 @@ protected:
   constexpr PackDefinitionSO_LeaderboardIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LeaderboardIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LeaderboardIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionSO_LeaderboardIds(PackDefinitionSO_LeaderboardIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LeaderboardIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LeaderboardIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionSO_LeaderboardIds(PackDefinitionSO_LeaderboardIds const&) = delete;
+  PackDefinitionSO_LeaderboardIds(PackDefinitionSO_LeaderboardIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15019 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _riftLeaderboardIds, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardIdsSO> ____riftLeaderboardIds;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _questLeaderboardIds, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardIdsSO> ____questLeaderboardIds;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _steamLeaderboardIds, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardIdsSO> ____steamLeaderboardIds;
 
@@ -289,20 +298,24 @@ protected:
   constexpr PackDefinitionSO_LevelProductPacks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LevelProductPacks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LevelProductPacks", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionSO_LevelProductPacks(PackDefinitionSO_LevelProductPacks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LevelProductPacks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LevelProductPacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionSO_LevelProductPacks(PackDefinitionSO_LevelProductPacks const&) = delete;
+  PackDefinitionSO_LevelProductPacks(PackDefinitionSO_LevelProductPacksconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15020 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _steamLevelProductPacks, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> ____steamLevelProductPacks;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _oculusLevelProductPacks, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> ____oculusLevelProductPacks;
 
@@ -352,13 +365,13 @@ protected:
   constexpr PackDefinitionSO_Credits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_Credits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_Credits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionSO_Credits(PackDefinitionSO_Credits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_Credits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_Credits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionSO_Credits(PackDefinitionSO_Credits const&) = delete;
+  PackDefinitionSO_Credits(PackDefinitionSO_Creditsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15021 };
@@ -600,41 +613,53 @@ protected:
   constexpr PackDefinitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionSO(PackDefinitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionSO(PackDefinitionSO const&) = delete;
+  PackDefinitionSO(PackDefinitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15022 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapLevelPack, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> ____beatmapLevelPack;
 
+  /// [SerializeField]
   /// @brief Field _allowUnsortedLevels, offset: 0x20, size: 0x1, def value: None
   bool ____allowUnsortedLevels;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _order, offset: 0x24, size: 0x4, def value: None
   int32_t ____order;
 
+  /// [WillNotBeUsed]
+  /// [SerializeField]
   /// @brief Field _leaderboardIds, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::PackDefinitionSO_LeaderboardIds* ____leaderboardIds;
 
+  /// [SerializeField]
   /// @brief Field _levelProductPacks, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::PackDefinitionSO_LevelProductPacks* ____levelProductPacks;
 
+  /// [SerializeField]
   /// @brief Field _tags, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::PackDefinitionSO_Tags ____tags;
 
+  /// [SerializeField]
+  /// [NullAllowedIf("isDLC", false, (NullAllowedContext)0)]
   /// @brief Field _packPromoInfoReference, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>* ____packPromoInfoReference;
 
+  /// [SerializeField]
   /// @brief Field _perceivedLoudnessPerLevel, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> ____perceivedLoudnessPerLevel;
 
+  /// [SerializeField]
   /// @brief Field _credits, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::PackDefinitionSO_Credits* ____credits;
 

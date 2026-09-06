@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\NoopGameplayEventsDispatcher.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/NoopGameplayEventsDispatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class NoopGameplayEventsDispatcher;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher*, "BeatSaber.Analytics.Gameplay", "NoopGameplayEventsDispatcher");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: false
@@ -81,12 +83,15 @@ public:
   /// @brief Method .ctor, addr 0x3263c78, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_beatmapAttempt, addr 0x3263bcc, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* get_beatmapAttempt();
 
+  /// [CompilerGenerated]
   /// @brief Method get_blockLevel, addr 0x3263bd4, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* get_blockLevel();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hmdSession, addr 0x3263bdc, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* get_hmdSession();
 
@@ -99,23 +104,26 @@ protected:
   constexpr NoopGameplayEventsDispatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoopGameplayEventsDispatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoopGameplayEventsDispatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoopGameplayEventsDispatcher(NoopGameplayEventsDispatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoopGameplayEventsDispatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoopGameplayEventsDispatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoopGameplayEventsDispatcher(NoopGameplayEventsDispatcher const&) = delete;
+  NoopGameplayEventsDispatcher(NoopGameplayEventsDispatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22261 };
 
+  /// [CompilerGenerated]
   /// @brief Field <beatmapAttempt>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* ____beatmapAttempt_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <blockLevel>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* ____blockLevel_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hmdSession>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* ____hmdSession_k__BackingField;
 

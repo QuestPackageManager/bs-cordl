@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\UIFoldout.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/UIFoldout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class UIFoldout;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::UI::UIFoldout*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::UIFoldout*, "UnityEngine.Rendering.UI", "UIFoldout");
+// [ExecuteAlways]
 // Dependencies UnityEngine.UI.Toggle
 namespace UnityEngine::Rendering::UI {
 // Is value type: false
@@ -72,13 +73,13 @@ protected:
   constexpr UIFoldout();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIFoldout", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIFoldout", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIFoldout(UIFoldout&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIFoldout", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIFoldout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIFoldout(UIFoldout const&) = delete;
+  UIFoldout(UIFoldoutconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12548 };

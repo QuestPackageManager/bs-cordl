@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Signal.hpp"
+// IWYU pragma private; include "GlobalNamespace/Signal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,9 +45,11 @@ public:
   /// @brief Method .ctor, addr 0x5858e40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add__event, addr 0x5858ca0, size 0xac, virtual false, abstract: false, final false
   inline void add__event(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove__event, addr 0x5858d4c, size 0xac, virtual false, abstract: false, final false
   inline void remove__event(::System::Action* value);
 
@@ -57,17 +59,18 @@ protected:
   constexpr Signal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Signal(Signal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Signal(Signal const&) = delete;
+  Signal(Signalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21433 };
 
+  /// [CompilerGenerated]
   /// @brief Field _event, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ____event;
 

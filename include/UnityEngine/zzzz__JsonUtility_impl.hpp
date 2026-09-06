@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JsonUtility.hpp"
+// IWYU pragma private; include "UnityEngine/JsonUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__JsonUtility_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
     return ___internal_method;
   }
 };
-inline ::StringW UnityEngine::JsonUtility::ToJsonInternal(::System::Object* obj, bool prettyPrint) {
+inline ::StringW UnityEngine::JsonUtility::ToJsonInternal(/* [NotNull] */ ::System::Object* obj, bool prettyPrint) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JsonUtility*>(), { "ToJsonInternal", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, obj, prettyPrint);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTask.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTask.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTask_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTask_impl.hpp"
@@ -70,7 +70,9 @@ inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> GlobalN
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_Builder>(), { "ToTask", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result>>(*this, ___internal_method);
 }
-template <typename TStatus> inline ::GlobalNamespace::OVRTask_1<TStatus> GlobalNamespace::OVRTask_Builder::ToTask() {
+template <typename TStatus>
+  requires(::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+inline ::GlobalNamespace::OVRTask_1<TStatus> GlobalNamespace::OVRTask_Builder::ToTask() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_Builder>(), { "ToTask", { ::i2c::class_of<TStatus>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TStatus>() })));
@@ -82,26 +84,32 @@ template <typename TResult> inline ::GlobalNamespace::OVRTask_1<TResult> GlobalN
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TResult>() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<TResult>>(*this, ___internal_method, failureValue);
 }
-template <typename TStatus> inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<TStatus>> GlobalNamespace::OVRTask_Builder::ToResultTask() {
+template <typename TStatus>
+  requires(::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<TStatus>> GlobalNamespace::OVRTask_Builder::ToResultTask() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_Builder>(), { "ToResultTask", { ::i2c::class_of<TStatus>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TStatus>() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<TStatus>>>(*this, ___internal_method);
 }
-template <typename TValue, typename TStatus> inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<TValue, TStatus>> GlobalNamespace::OVRTask_Builder::ToTask() {
+template <typename TValue, typename TStatus>
+  requires(::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<TValue, TStatus>> GlobalNamespace::OVRTask_Builder::ToTask() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_Builder>(), { "ToTask", { ::i2c::class_of<TValue>(), ::i2c::class_of<TStatus>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>(), ::i2c::class_of<TStatus>() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<TValue, TStatus>>>(*this, ___internal_method);
 }
-template <typename TResult> inline TResult GlobalNamespace::OVRTask_Builder::CastResult() {
+template <typename TResult>
+  requires(::cordl_internals::value_type_constraint<TResult> && ::cordl_internals::default_constructor_constraint<TResult>)
+inline TResult GlobalNamespace::OVRTask_Builder::CastResult() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_Builder>(), { "CastResult", { ::i2c::class_of<TResult>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TResult>() })));
   return ::cordl_internals::RunMethodRethrow<TResult>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_synchronousResult", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: Some("{}") }, CppParam { name: "_taskId", ty: "::System::Guid",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_synchronousResult", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_taskId", ty:
+// "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTask_Builder::OVRTask_Builder(::GlobalNamespace::OVRPlugin_Result _synchronousResult, ::System::Guid _taskId) noexcept {
   this->_synchronousResult = _synchronousResult;
   this->_taskId = _taskId;

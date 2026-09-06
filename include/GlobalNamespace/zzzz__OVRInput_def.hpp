@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRInput.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRInput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -353,6 +353,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRInput_OVRControllerTouch*, "", "OVRInp
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRInput_HapticsAmplitudeEnvelopeVibration, "", "OVRInput/HapticsAmplitudeEnvelopeVibration");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRInput_HapticsPcmVibration, "", "OVRInput/HapticsPcmVibration");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRInput_OpenVRControllerDetails, "", "OVRInput/OpenVRControllerDetails");
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -414,7 +415,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_Button();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_Button(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(-1)
@@ -536,6 +537,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_Button, value__) == 0x0, "Off
 static_assert(sizeof(::GlobalNamespace::OVRInput_Button) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -593,7 +595,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_RawButton();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_RawButton(int32_t value__) noexcept;
 
   /// @brief Field A value: I32(1)
@@ -703,6 +705,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_RawButton, value__) == 0x0, "
 static_assert(sizeof(::GlobalNamespace::OVRInput_RawButton) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -744,7 +747,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_Touch();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_Touch(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(-1)
@@ -806,6 +809,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_Touch, value__) == 0x0, "Offs
 static_assert(sizeof(::GlobalNamespace::OVRInput_Touch) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -847,7 +851,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_RawTouch();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_RawTouch(int32_t value__) noexcept;
 
   /// @brief Field A value: I32(1)
@@ -909,6 +913,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_RawTouch, value__) == 0x0, "O
 static_assert(sizeof(::GlobalNamespace::OVRInput_RawTouch) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -942,7 +947,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_NearTouch();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_NearTouch(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(-1)
@@ -980,6 +985,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_NearTouch, value__) == 0x0, "
 static_assert(sizeof(::GlobalNamespace::OVRInput_NearTouch) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -1013,7 +1019,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_RawNearTouch();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_RawNearTouch(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(-1)
@@ -1051,6 +1057,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_RawNearTouch, value__) == 0x0
 static_assert(sizeof(::GlobalNamespace::OVRInput_RawNearTouch) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -1094,7 +1101,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_Axis1D();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_Axis1D(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(-1)
@@ -1162,6 +1169,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_Axis1D, value__) == 0x0, "Off
 static_assert(sizeof(::GlobalNamespace::OVRInput_Axis1D) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -1205,7 +1213,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_RawAxis1D();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_RawAxis1D(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(-1)
@@ -1273,6 +1281,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_RawAxis1D, value__) == 0x0, "
 static_assert(sizeof(::GlobalNamespace::OVRInput_RawAxis1D) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -1306,7 +1315,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_Axis2D();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_Axis2D(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(-1)
@@ -1344,6 +1353,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_Axis2D, value__) == 0x0, "Off
 static_assert(sizeof(::GlobalNamespace::OVRInput_Axis2D) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -1377,7 +1387,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_RawAxis2D();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_RawAxis2D(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(-1)
@@ -1415,6 +1425,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_RawAxis2D, value__) == 0x0, "
 static_assert(sizeof(::GlobalNamespace::OVRInput_RawAxis2D) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -1446,7 +1457,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_OpenVRButton();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_OpenVRButton(uint64_t value__) noexcept;
 
   /// @brief Field Grip value: U64(4)
@@ -1478,6 +1489,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_OpenVRButton, value__) == 0x0
 static_assert(sizeof(::GlobalNamespace::OVRInput_OpenVRButton) == 0x8, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -1516,7 +1528,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_Controller();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_Controller(int32_t value__) noexcept;
 
   /// @brief Field Active value: I32(-2147483648)
@@ -1599,7 +1611,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_Handedness();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_Handedness(int32_t value__) noexcept;
 
   /// @brief Field LeftHanded value: I32(1)
@@ -1659,7 +1671,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_HapticsLocation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_HapticsLocation(int32_t value__) noexcept;
 
   /// @brief Field Hand value: I32(1)
@@ -1722,7 +1734,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_InteractionProfile();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_InteractionProfile(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -1784,7 +1796,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_Hand();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_Hand(int32_t value__) noexcept;
 
   /// @brief Field HandLeft value: I32(0)
@@ -1845,7 +1857,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_InputDeviceShowState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_InputDeviceShowState(int32_t value__) noexcept;
 
   /// @brief Field Always value: I32(0)
@@ -1910,7 +1922,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_ControllerInHandState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_ControllerInHandState(int32_t value__) noexcept;
 
   /// @brief Field ControllerInHand value: I32(1)
@@ -1950,8 +1962,8 @@ public:
   // @brief default ctor
   constexpr OVRInput_HapticsAmplitudeEnvelopeVibration();
 
-  // Ctor Parameters [CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Samples", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam
-  // { name: "Duration", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Samples", ty: "::ArrayW<float_t>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "Duration", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_HapticsAmplitudeEnvelopeVibration(int32_t SamplesCount, ::ArrayW<float_t> Samples, float_t Duration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1992,8 +2004,9 @@ public:
   // @brief default ctor
   constexpr OVRInput_HapticsPcmVibration();
 
-  // Ctor Parameters [CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Samples", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam
-  // { name: "SampleRateHz", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Append", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Samples", ty: "::ArrayW<float_t>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "SampleRateHz", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Append", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr OVRInput_HapticsPcmVibration(int32_t SamplesCount, ::ArrayW<float_t> Samples, float_t SampleRateHz, bool Append) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -2028,6 +2041,7 @@ static_assert(offsetof(::GlobalNamespace::OVRInput_HapticsPcmVibration, Append) 
 static_assert(sizeof(::GlobalNamespace::OVRInput_HapticsPcmVibration) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -2059,7 +2073,7 @@ public:
   // @brief default ctor
   constexpr OVRInput_OpenVRController();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRInput_OpenVRController(uint64_t value__) noexcept;
 
   /// @brief Field OculusTouch value: U64(1)
@@ -2102,9 +2116,10 @@ public:
   // @brief default ctor
   constexpr OVRInput_OpenVRControllerDetails();
 
-  // Ctor Parameters [CppParam { name: "state", ty: "::OVR::OpenVR::VRControllerState_t", modifiers: "", def_value: None }, CppParam { name: "controllerType", ty:
-  // "::GlobalNamespace::OVRInput_OpenVRController", modifiers: "", def_value: None }, CppParam { name: "deviceID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "localPosition",
-  // ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "localOrientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "state", ty: "::OVR::OpenVR::VRControllerState_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "controllerType", ty:
+  // "::GlobalNamespace::OVRInput_OpenVRController", modifiers: "", def_value: None, comment: None }, CppParam { name: "deviceID", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "localPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "localOrientation", ty: "::UnityEngine::Quaternion", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr OVRInput_OpenVRControllerDetails(::OVR::OpenVR::VRControllerState_t state, ::GlobalNamespace::OVRInput_OpenVRController controllerType, uint32_t deviceID,
                                              ::UnityEngine::Vector3 localPosition, ::UnityEngine::Quaternion localOrientation) noexcept;
 
@@ -2208,13 +2223,13 @@ protected:
   constexpr OVRInput_HapticInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_HapticInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_HapticInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_HapticInfo(OVRInput_HapticInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_HapticInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_HapticInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_HapticInfo(OVRInput_HapticInfo const&) = delete;
+  OVRInput_HapticInfo(OVRInput_HapticInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7208 };
@@ -2568,13 +2583,13 @@ protected:
   constexpr OVRControllerBase_OVRInput_VirtualButtonMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualButtonMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualButtonMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerBase_OVRInput_VirtualButtonMap(OVRControllerBase_OVRInput_VirtualButtonMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualButtonMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualButtonMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualButtonMap(OVRControllerBase_OVRInput_VirtualButtonMap const&) = delete;
+  OVRControllerBase_OVRInput_VirtualButtonMap(OVRControllerBase_OVRInput_VirtualButtonMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7209 };
@@ -2888,13 +2903,13 @@ protected:
   constexpr OVRControllerBase_OVRInput_VirtualTouchMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualTouchMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualTouchMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerBase_OVRInput_VirtualTouchMap(OVRControllerBase_OVRInput_VirtualTouchMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualTouchMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualTouchMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualTouchMap(OVRControllerBase_OVRInput_VirtualTouchMap const&) = delete;
+  OVRControllerBase_OVRInput_VirtualTouchMap(OVRControllerBase_OVRInput_VirtualTouchMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7210 };
@@ -3036,13 +3051,13 @@ protected:
   constexpr OVRControllerBase_OVRInput_VirtualNearTouchMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualNearTouchMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualNearTouchMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerBase_OVRInput_VirtualNearTouchMap(OVRControllerBase_OVRInput_VirtualNearTouchMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualNearTouchMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualNearTouchMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualNearTouchMap(OVRControllerBase_OVRInput_VirtualNearTouchMap const&) = delete;
+  OVRControllerBase_OVRInput_VirtualNearTouchMap(OVRControllerBase_OVRInput_VirtualNearTouchMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7211 };
@@ -3234,13 +3249,13 @@ protected:
   constexpr OVRControllerBase_OVRInput_VirtualAxis1DMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis1DMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis1DMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerBase_OVRInput_VirtualAxis1DMap(OVRControllerBase_OVRInput_VirtualAxis1DMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis1DMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis1DMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualAxis1DMap(OVRControllerBase_OVRInput_VirtualAxis1DMap const&) = delete;
+  OVRControllerBase_OVRInput_VirtualAxis1DMap(OVRControllerBase_OVRInput_VirtualAxis1DMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7212 };
@@ -3392,13 +3407,13 @@ protected:
   constexpr OVRControllerBase_OVRInput_VirtualAxis2DMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis2DMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis2DMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerBase_OVRInput_VirtualAxis2DMap(OVRControllerBase_OVRInput_VirtualAxis2DMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis2DMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis2DMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualAxis2DMap(OVRControllerBase_OVRInput_VirtualAxis2DMap const&) = delete;
+  OVRControllerBase_OVRInput_VirtualAxis2DMap(OVRControllerBase_OVRInput_VirtualAxis2DMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7213 };
@@ -3481,21 +3496,22 @@ public:
   /// @brief Field touchMap, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_touchMap, put = __cordl_internal_set_touchMap)) ::GlobalNamespace::OVRControllerBase_OVRInput_VirtualTouchMap* touchMap;
 
-  /// @brief Method ConfigureAxis1DMap, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConfigureTouchMap();
 
+  /// [Obsolete("Deprecated. The controller battery percentage data is no longer supported in OpenXR", false)]
   /// @brief Method GetBatteryPercentRemaining, addr 0x5e61948, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
@@ -3606,13 +3622,13 @@ protected:
   constexpr OVRInput_OVRControllerBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerBase(OVRInput_OVRControllerBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerBase(OVRInput_OVRControllerBase const&) = delete;
+  OVRInput_OVRControllerBase(OVRInput_OVRControllerBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7214 };
@@ -3695,6 +3711,7 @@ public:
   /// @brief Method ConfigureTouchMap, addr 0x5e61e38, size 0x38, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
+  /// [Obsolete("Deprecated. The controller battery percentage data is no longer supported in OpenXR", false)]
   /// @brief Method GetBatteryPercentRemaining, addr 0x5e61f08, size 0x14, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
@@ -3709,13 +3726,13 @@ protected:
   constexpr OVRInput_OVRControllerTouch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerTouch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerTouch", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerTouch(OVRInput_OVRControllerTouch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerTouch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerTouch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerTouch(OVRInput_OVRControllerTouch const&) = delete;
+  OVRInput_OVRControllerTouch(OVRInput_OVRControllerTouchconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7215 };
@@ -3748,6 +3765,7 @@ public:
   /// @brief Method ConfigureTouchMap, addr 0x5e61f84, size 0x30, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
+  /// [Obsolete("Deprecated. The controller battery percentage data is no longer supported in OpenXR", false)]
   /// @brief Method GetBatteryPercentRemaining, addr 0x5e62040, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
@@ -3762,13 +3780,13 @@ protected:
   constexpr OVRInput_OVRControllerLTouch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLTouch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLTouch", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerLTouch(OVRInput_OVRControllerLTouch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLTouch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLTouch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerLTouch(OVRInput_OVRControllerLTouch const&) = delete;
+  OVRInput_OVRControllerLTouch(OVRInput_OVRControllerLTouchconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7216 };
@@ -3801,6 +3819,7 @@ public:
   /// @brief Method ConfigureTouchMap, addr 0x5e620b0, size 0x30, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
+  /// [Obsolete("Deprecated. The controller battery percentage data is no longer supported in OpenXR", false)]
   /// @brief Method GetBatteryPercentRemaining, addr 0x5e6216c, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
@@ -3815,13 +3834,13 @@ protected:
   constexpr OVRInput_OVRControllerRTouch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRTouch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRTouch", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerRTouch(OVRInput_OVRControllerRTouch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRTouch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRTouch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerRTouch(OVRInput_OVRControllerRTouch const&) = delete;
+  OVRInput_OVRControllerRTouch(OVRInput_OVRControllerRTouchconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7217 };
@@ -3854,6 +3873,7 @@ public:
   /// @brief Method ConfigureTouchMap, addr 0x5e621c0, size 0x24, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
+  /// [Obsolete("Deprecated. The controller battery percentage data is no longer supported in OpenXR", false)]
   /// @brief Method GetBatteryPercentRemaining, addr 0x5e62240, size 0x14, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
@@ -3868,13 +3888,13 @@ protected:
   constexpr OVRInput_OVRControllerHands();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerHands", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerHands", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerHands(OVRInput_OVRControllerHands&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerHands", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerHands", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerHands(OVRInput_OVRControllerHands const&) = delete;
+  OVRInput_OVRControllerHands(OVRInput_OVRControllerHandsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7218 };
@@ -3907,6 +3927,7 @@ public:
   /// @brief Method ConfigureTouchMap, addr 0x5e622a0, size 0x24, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
+  /// [Obsolete("Deprecated. The controller battery percentage data is no longer supported in OpenXR", false)]
   /// @brief Method GetBatteryPercentRemaining, addr 0x5e62320, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
@@ -3921,13 +3942,13 @@ protected:
   constexpr OVRInput_OVRControllerLHand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLHand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLHand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerLHand(OVRInput_OVRControllerLHand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLHand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLHand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerLHand(OVRInput_OVRControllerLHand const&) = delete;
+  OVRInput_OVRControllerLHand(OVRInput_OVRControllerLHandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7219 };
@@ -3960,6 +3981,7 @@ public:
   /// @brief Method ConfigureTouchMap, addr 0x5e62374, size 0x24, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
+  /// [Obsolete("Deprecated. The controller battery percentage data is no longer supported in OpenXR", false)]
   /// @brief Method GetBatteryPercentRemaining, addr 0x5e623f4, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
@@ -3974,13 +3996,13 @@ protected:
   constexpr OVRInput_OVRControllerRHand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRHand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRHand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerRHand(OVRInput_OVRControllerRHand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRHand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRHand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerRHand(OVRInput_OVRControllerRHand const&) = delete;
+  OVRInput_OVRControllerRHand(OVRInput_OVRControllerRHandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7220 };
@@ -4024,13 +4046,13 @@ protected:
   constexpr OVRInput_OVRControllerRemote();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRemote", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRemote", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerRemote(OVRInput_OVRControllerRemote&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRemote", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRemote", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerRemote(OVRInput_OVRControllerRemote const&) = delete;
+  OVRInput_OVRControllerRemote(OVRInput_OVRControllerRemoteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7221 };
@@ -4074,13 +4096,13 @@ protected:
   constexpr OVRInput_OVRControllerGamepadPC();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadPC", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadPC", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerGamepadPC(OVRInput_OVRControllerGamepadPC&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadPC", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadPC", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerGamepadPC(OVRInput_OVRControllerGamepadPC const&) = delete;
+  OVRInput_OVRControllerGamepadPC(OVRInput_OVRControllerGamepadPCconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7222 };
@@ -4124,13 +4146,13 @@ protected:
   constexpr OVRInput_OVRControllerGamepadAndroid();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadAndroid", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadAndroid", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput_OVRControllerGamepadAndroid(OVRInput_OVRControllerGamepadAndroid&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadAndroid", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadAndroid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerGamepadAndroid(OVRInput_OVRControllerGamepadAndroid const&) = delete;
+  OVRInput_OVRControllerGamepadAndroid(OVRInput_OVRControllerGamepadAndroidconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7223 };
@@ -4141,6 +4163,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRInput_OVRControllerGamepadAndroid) == 0x128, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-ovrinput/")]
 // Dependencies OVRInput::Controller, OVRInput::HapticInfo, OVRInput::OpenVRControllerDetails, OVRPlugin::Step, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -4332,6 +4355,7 @@ public:
   /// @brief Method GetConnectedControllers, addr 0x5e5fa10, size 0x5c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRInput_Controller GetConnectedControllers();
 
+  /// [Obsolete("Deprecated. The controller battery percentage data is no longer supported in OpenXR", false)]
   /// @brief Method GetControllerBatteryPercentRemaining, addr 0x5e60818, size 0x138, virtual false, abstract: false, final false
   static inline uint8_t GetControllerBatteryPercentRemaining(::GlobalNamespace::OVRInput_Controller controllerMask);
 
@@ -4377,9 +4401,11 @@ public:
   /// @brief Method GetDown, addr 0x5e5e0f8, size 0x6c, virtual false, abstract: false, final false
   static inline bool GetDown(::GlobalNamespace::OVRInput_Touch virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
+  /// [Obsolete("Deprecated. Acceleration is not supported in OpenXR", false)]
   /// @brief Method GetLocalControllerAcceleration, addr 0x5e5c8dc, size 0x25c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetLocalControllerAcceleration(::GlobalNamespace::OVRInput_Controller controllerType);
 
+  /// [Obsolete("Deprecated. Acceleration is not supported in OpenXR", false)]
   /// @brief Method GetLocalControllerAngularAcceleration, addr 0x5e5d2b0, size 0x25c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetLocalControllerAngularAcceleration(::GlobalNamespace::OVRInput_Controller controllerType);
 
@@ -4580,13 +4606,13 @@ protected:
   constexpr OVRInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRInput(OVRInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput(OVRInput const&) = delete;
+  OVRInput(OVRInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7224 };

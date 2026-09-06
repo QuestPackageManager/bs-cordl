@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeQueueDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeQueueDisposeJob.hpp"
 #include "Unity/Collections/zzzz__NativeQueueDispose_impl.hpp"
 #include "Unity/Collections/zzzz__NativeQueueDisposeJob_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
@@ -27,7 +27,7 @@ constexpr Unity::Collections::NativeQueueDisposeJob::operator ::Unity::Jobs::IJo
 constexpr ::Unity::Jobs::IJob* Unity::Collections::NativeQueueDisposeJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeQueueDispose", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeQueueDispose", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeQueueDisposeJob::NativeQueueDisposeJob(::Unity::Collections::NativeQueueDispose Data) noexcept {
   this->Data = Data;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\AsymmetricSignatureDeformatter.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/AsymmetricSignatureDeformatter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class AsymmetricSignatureDeformatter;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::AsymmetricSignatureDeformatter*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::AsymmetricSignatureDeformatter*, "System.Security.Cryptography", "AsymmetricSignatureDeformatter");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -27,13 +28,13 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::AsymmetricSignatureDeformatter* New_ctor();
 
-  /// @brief Method SetHashAlgorithm, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetHashAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetHashAlgorithm(::StringW strName);
 
-  /// @brief Method SetKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method VerifySignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
 
   /// @brief Method .ctor, addr 0x5af91ec, size 0x4, virtual false, abstract: false, final false
@@ -45,13 +46,13 @@ protected:
   constexpr AsymmetricSignatureDeformatter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureDeformatter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureDeformatter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsymmetricSignatureDeformatter(AsymmetricSignatureDeformatter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureDeformatter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureDeformatter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsymmetricSignatureDeformatter(AsymmetricSignatureDeformatter const&) = delete;
+  AsymmetricSignatureDeformatter(AsymmetricSignatureDeformatterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2935 };

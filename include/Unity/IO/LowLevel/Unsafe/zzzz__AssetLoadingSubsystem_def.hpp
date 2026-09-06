@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\AssetLoadingSubsystem.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/AssetLoadingSubsystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
   // @brief default ctor
   constexpr AssetLoadingSubsystem();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AssetLoadingSubsystem(int32_t value__) noexcept;
 
   /// @brief Field Audio value: I32(4)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LobbySetupViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LobbySetupViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -155,21 +155,27 @@ public:
   /// @brief Method Setup, addr 0x5961ed8, size 0x238, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, bool isPartyOwner, bool allowSongSelection, bool allowModifierSelection, bool isManaged, bool isQuickStart);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__44_0, addr 0x5962ad8, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__44_1, addr 0x5962af4, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__44_2, addr 0x5962b10, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__44_3, addr 0x5962b2c, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_3();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__44_4, addr 0x5962b48, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_4();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__44_5, addr 0x5962b64, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_5();
 
@@ -302,39 +308,51 @@ public:
   /// @brief Method .ctor, addr 0x5962a74, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_cancelGameOrUnreadyEvent, addr 0x5961ad0, size 0xac, virtual false, abstract: false, final false
   inline void add_cancelGameOrUnreadyEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_clearSuggestedBeatmapEvent, addr 0x5961c28, size 0xac, virtual false, abstract: false, final false
   inline void add_clearSuggestedBeatmapEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_clearSuggestedModifiersEvent, addr 0x5961d80, size 0xac, virtual false, abstract: false, final false
   inline void add_clearSuggestedModifiersEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectBeatmapEvent, addr 0x59616c8, size 0xac, virtual false, abstract: false, final false
   inline void add_selectBeatmapEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectModifiersEvent, addr 0x5961820, size 0xac, virtual false, abstract: false, final false
   inline void add_selectModifiersEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_startGameOrReadyEvent, addr 0x5961978, size 0xac, virtual false, abstract: false, final false
   inline void add_startGameOrReadyEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_cancelGameOrUnreadyEvent, addr 0x5961b7c, size 0xac, virtual false, abstract: false, final false
   inline void remove_cancelGameOrUnreadyEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_clearSuggestedBeatmapEvent, addr 0x5961cd4, size 0xac, virtual false, abstract: false, final false
   inline void remove_clearSuggestedBeatmapEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_clearSuggestedModifiersEvent, addr 0x5961e2c, size 0xac, virtual false, abstract: false, final false
   inline void remove_clearSuggestedModifiersEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectBeatmapEvent, addr 0x5961774, size 0xac, virtual false, abstract: false, final false
   inline void remove_selectBeatmapEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectModifiersEvent, addr 0x59618cc, size 0xac, virtual false, abstract: false, final false
   inline void remove_selectModifiersEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_startGameOrReadyEvent, addr 0x5961a24, size 0xac, virtual false, abstract: false, final false
   inline void remove_startGameOrReadyEvent(::System::Action* value);
 
@@ -344,13 +362,13 @@ protected:
   constexpr LobbySetupViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LobbySetupViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbySetupViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LobbySetupViewController(LobbySetupViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LobbySetupViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbySetupViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbySetupViewController(LobbySetupViewController const&) = delete;
+  LobbySetupViewController(LobbySetupViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6978 };
@@ -370,60 +388,79 @@ public:
   /// @brief Field kUnreadyTextKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kUnreadyTextKey{ u"BUTTON_UNREADY" };
 
+  /// [SerializeField]
   /// @brief Field _startGameReadyButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____startGameReadyButton;
 
+  /// [SerializeField]
   /// @brief Field _cancelGameUnreadyButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____cancelGameUnreadyButton;
 
+  /// [SerializeField]
   /// @brief Field _startReadyText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> ____startReadyText;
 
+  /// [SerializeField]
   /// @brief Field _cancelUnreadyText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> ____cancelUnreadyText;
 
+  /// [SerializeField]
   /// @brief Field _serverSettings, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServersFilterText> ____serverSettings;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _suggestionHeader, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____suggestionHeader;
 
+  /// [SerializeField]
   /// @brief Field _beatmapSelectionView, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EditableBeatmapSelectionView> ____beatmapSelectionView;
 
+  /// [SerializeField]
   /// @brief Field _modifiersSelectionView, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EditableModifiersSelectionView> ____modifiersSelectionView;
 
+  /// [SerializeField]
   /// @brief Field _cantStartGameHoverHint, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____cantStartGameHoverHint;
 
+  /// [SerializeField]
   /// @brief Field _playerMissingLevelHoverHintWrapper, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____playerMissingLevelHoverHintWrapper;
 
+  /// [SerializeField]
   /// @brief Field _playersMissingLevelHoverHint, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____playersMissingLevelHoverHint;
 
+  /// [SerializeField]
   /// @brief Field _spectatorWarningTextWrapper, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____spectatorWarningTextWrapper;
 
   /// @brief Field _toggleBinder, offset: 0xd8, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;
 
+  /// [CompilerGenerated]
   /// @brief Field selectBeatmapEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action* ___selectBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field selectModifiersEvent, offset: 0xe8, size: 0x8, def value: None
   ::System::Action* ___selectModifiersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field startGameOrReadyEvent, offset: 0xf0, size: 0x8, def value: None
   ::System::Action* ___startGameOrReadyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field cancelGameOrUnreadyEvent, offset: 0xf8, size: 0x8, def value: None
   ::System::Action* ___cancelGameOrUnreadyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field clearSuggestedBeatmapEvent, offset: 0x100, size: 0x8, def value: None
   ::System::Action* ___clearSuggestedBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field clearSuggestedModifiersEvent, offset: 0x108, size: 0x8, def value: None
   ::System::Action* ___clearSuggestedModifiersEvent;
 

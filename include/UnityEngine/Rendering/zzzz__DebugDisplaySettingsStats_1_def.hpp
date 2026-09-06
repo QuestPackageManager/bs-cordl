@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplaySettingsStats_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplaySettingsStats_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DebugDisplaySettingsStats_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DebugDisplaySettingsStats_1_StatsPanel);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettingsStats_1, "UnityEngine.Rendering", "DebugDisplaySettingsStats`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettingsStats_1_StatsPanel, "UnityEngine.Rendering", "DebugDisplaySettingsStats`1/StatsPanel");
+// [DisplayInfo(name = "Display Stats", order = -2147483648)]
 // Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel
 namespace UnityEngine::Rendering {
 // cpp template
@@ -73,13 +74,13 @@ protected:
   constexpr DebugDisplaySettingsStats_1_StatsPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1_StatsPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1_StatsPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsStats_1_StatsPanel(DebugDisplaySettingsStats_1_StatsPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1_StatsPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1_StatsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsStats_1_StatsPanel(DebugDisplaySettingsStats_1_StatsPanel const&) = delete;
+  DebugDisplaySettingsStats_1_StatsPanel(DebugDisplaySettingsStats_1_StatsPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11953 };
@@ -133,6 +134,7 @@ public:
   /// @brief Method get_AreAnySettingsActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_debugDisplayStats, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugDisplayStats_1<TProfileId>* get_debugDisplayStats();
 
@@ -148,17 +150,18 @@ protected:
   constexpr DebugDisplaySettingsStats_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsStats_1(DebugDisplaySettingsStats_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsStats_1(DebugDisplaySettingsStats_1 const&) = delete;
+  DebugDisplaySettingsStats_1(DebugDisplaySettingsStats_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };
 
+  /// [CompilerGenerated]
   /// @brief Field <debugDisplayStats>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplayStats_1<TProfileId>* ____debugDisplayStats_k__BackingField;
 

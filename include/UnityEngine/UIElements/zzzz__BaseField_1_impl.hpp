@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseField_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseField_1.hpp"
 #include "UnityEngine/UIElements/zzzz__BindableElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_impl.hpp"
@@ -517,6 +517,7 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseField_1<TValueType>*>(), 132 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+/// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 template <typename TValueType> inline ::UnityEngine::UIElements::BaseField_1<TValueType>* UnityEngine::UIElements::BaseField_1<TValueType>::New_ctor(::StringW label) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseField_1<TValueType>*>(label));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeArrayReadOnlyDebugView_1.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeArrayReadOnlyDebugView_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,7 +7,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(NativeArrayReadOnlyDebugView_1)
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> class NativeArrayReadOnlyDebugView_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NativeArrayReadOnlyDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::NativeArrayReadOnlyDebugView_1);
@@ -16,6 +18,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::NativeArrayReadOnlyDebugView_1
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.NativeArrayReadOnlyDebugView`1<T>
 class CORDL_TYPE NativeArrayReadOnlyDebugView_1 : public ::System::Object {
@@ -27,13 +30,13 @@ protected:
   constexpr NativeArrayReadOnlyDebugView_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayReadOnlyDebugView_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayReadOnlyDebugView_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeArrayReadOnlyDebugView_1(NativeArrayReadOnlyDebugView_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayReadOnlyDebugView_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayReadOnlyDebugView_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeArrayReadOnlyDebugView_1(NativeArrayReadOnlyDebugView_1 const&) = delete;
+  NativeArrayReadOnlyDebugView_1(NativeArrayReadOnlyDebugView_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10000 };

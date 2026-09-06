@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\LowLevel\MarkerFlags.hpp"
+// IWYU pragma private; include "Unity/Profiling/LowLevel/MarkerFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MarkerFlags;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::LowLevel::MarkerFlags);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::LowLevel::MarkerFlags, "Unity.Profiling.LowLevel", "MarkerFlags");
+// [Flags]
 // Dependencies
 namespace Unity::Profiling::LowLevel {
 // Is value type: true
@@ -49,7 +50,7 @@ public:
   // @brief default ctor
   constexpr MarkerFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr MarkerFlags(uint16_t value__) noexcept;
 
   /// @brief Field AvailabilityEditor value: U16(4)

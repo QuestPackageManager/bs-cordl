@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\SurrogateChar.hpp"
+// IWYU pragma private; include "System/Text/SurrogateChar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,8 @@ public:
   // @brief default ctor
   constexpr SurrogateChar();
 
-  // Ctor Parameters [CppParam { name: "lowChar", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "highChar", ty: "char16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "lowChar", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "highChar", ty: "char16_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SurrogateChar(char16_t lowChar, char16_t highChar) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

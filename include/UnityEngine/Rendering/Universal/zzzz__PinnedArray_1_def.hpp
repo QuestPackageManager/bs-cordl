@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PinnedArray_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PinnedArray_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
-template <typename T> struct PinnedArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct PinnedArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::Universal::PinnedArray_1);
@@ -23,6 +25,7 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::Universal::PinnedArray_1, "Uni
 namespace UnityEngine::Rendering::Universal {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.PinnedArray`1<T>
 struct CORDL_TYPE PinnedArray_1 {
@@ -49,8 +52,9 @@ public:
   // @brief default ctor
   constexpr PinnedArray_1();
 
-  // Ctor Parameters [CppParam { name: "managedArray", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers:
-  // "", def_value: None }, CppParam { name: "nativeArray", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "managedArray", ty: "::ArrayW<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "handle", ty:
+  // "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "nativeArray", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr PinnedArray_1(::ArrayW<T> managedArray, ::System::Runtime::InteropServices::GCHandle handle, ::Unity::Collections::NativeArray_1<T> nativeArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

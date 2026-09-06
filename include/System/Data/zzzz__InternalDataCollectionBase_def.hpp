@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\InternalDataCollectionBase.hpp"
+// IWYU pragma private; include "System/Data/InternalDataCollectionBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,12 +45,15 @@ namespace System::Data {
 class CORDL_TYPE InternalDataCollectionBase : public ::System::Object {
 public:
   // Declarations
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_Count)) int32_t Count;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
   __declspec(property(get = get_List)) ::System::Collections::ArrayList* List;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
   /// @brief Field s_refreshEventArgs, offset 0xffffffff, size 0x8
@@ -104,13 +107,13 @@ protected:
   constexpr InternalDataCollectionBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternalDataCollectionBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalDataCollectionBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalDataCollectionBase(InternalDataCollectionBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternalDataCollectionBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalDataCollectionBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalDataCollectionBase(InternalDataCollectionBase const&) = delete;
+  InternalDataCollectionBase(InternalDataCollectionBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13755 };

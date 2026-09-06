@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputManager.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,6 +8,8 @@ CORDL_MODULE_INIT
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventStream_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputMetrics_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateBuffers_def.hpp"
@@ -18,6 +20,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__DynamicBitfield_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSettings_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -60,7 +63,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -141,7 +146,9 @@ namespace UnityEngine::InputSystem {
 struct InputControlLayoutChange;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
@@ -177,7 +184,9 @@ namespace UnityEngine::InputSystem {
 class InputManager___c;
 }
 namespace UnityEngine::InputSystem {
-template <typename TDevice> class InputManager___c__82_1;
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+class InputManager___c__82_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputSettings_ScrollDeltaBehavior;
@@ -199,7 +208,9 @@ namespace UnityEngine::InputSystem {
 class InputManager___c;
 }
 namespace UnityEngine::InputSystem {
-template <typename TDevice> class InputManager___c__82_1;
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+class InputManager___c__82_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputManager_AvailableDevice;
@@ -262,7 +273,7 @@ public:
   // @brief default ctor
   constexpr InputManager_DeviceDisableScope();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputManager_DeviceDisableScope(int32_t value__) noexcept;
 
   /// @brief Field Everywhere value: I32(0)
@@ -302,8 +313,9 @@ public:
   // @brief default ctor
   constexpr InputManager_AvailableDevice();
 
-  // Ctor Parameters [CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: None }, CppParam { name: "deviceId", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "isNative", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRemoved", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: None, comment: None }, CppParam { name: "deviceId",
+  // ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "isNative", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isRemoved", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr InputManager_AvailableDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, int32_t deviceId, bool isNative, bool isRemoved) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -349,9 +361,9 @@ public:
   // @brief default ctor
   constexpr InputManager_StateChangeMonitorTimeout();
 
-  // Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value:
-  // None }, CppParam { name: "monitor", ty: "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: None }, CppParam { name: "monitorIndex", ty: "int64_t",
-  // modifiers: "", def_value: None }, CppParam { name: "timerIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None, comment: None }, CppParam { name: "time", ty: "double_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "monitor", ty: "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "monitorIndex", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "timerIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputManager_StateChangeMonitorTimeout(::UnityEngine::InputSystem::InputControl* control, double_t time, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor,
                                                    int64_t monitorIndex, int32_t timerIndex) noexcept;
 
@@ -403,9 +415,9 @@ public:
   // @brief default ctor
   constexpr InputManager_StateChangeMonitorListener();
 
-  // Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None }, CppParam { name: "monitor", ty:
-  // "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: None }, CppParam { name: "monitorIndex", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "groupIndex", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None, comment: None }, CppParam { name: "monitor", ty:
+  // "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: None, comment: None }, CppParam { name: "monitorIndex", ty: "int64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "groupIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputManager_StateChangeMonitorListener(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex,
                                                     uint32_t groupIndex) noexcept;
 
@@ -475,10 +487,10 @@ public:
   // @brief default ctor
   constexpr InputManager_StateChangeMonitorsForDevice();
 
-  // Ctor Parameters [CppParam { name: "memoryRegions", ty: "::ArrayW<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>", modifiers: "", def_value: None }, CppParam { name: "listeners",
-  // ty: "::ArrayW<::UnityEngine::InputSystem::InputManager_StateChangeMonitorListener>", modifiers: "", def_value: None }, CppParam { name: "signalled", ty:
-  // "::UnityEngine::InputSystem::DynamicBitfield", modifiers: "", def_value: None }, CppParam { name: "needToUpdateOrderingOfMonitors", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "needToCompactArrays", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "memoryRegions", ty: "::ArrayW<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "listeners", ty: "::ArrayW<::UnityEngine::InputSystem::InputManager_StateChangeMonitorListener>", modifiers: "", def_value: None, comment: None }, CppParam { name: "signalled", ty:
+  // "::UnityEngine::InputSystem::DynamicBitfield", modifiers: "", def_value: None, comment: None }, CppParam { name: "needToUpdateOrderingOfMonitors", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "needToCompactArrays", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr InputManager_StateChangeMonitorsForDevice(::ArrayW<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion> memoryRegions,
                                                       ::ArrayW<::UnityEngine::InputSystem::InputManager_StateChangeMonitorListener> listeners, ::UnityEngine::InputSystem::DynamicBitfield signalled,
                                                       bool needToUpdateOrderingOfMonitors, bool needToCompactArrays) noexcept;
@@ -520,6 +532,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputManager_StateChangeMonit
 static_assert(sizeof(::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -555,13 +568,13 @@ protected:
   constexpr InputManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputManager___c(InputManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManager___c(InputManager___c const&) = delete;
+  InputManager___c(InputManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8782 };
@@ -572,10 +585,12 @@ public:
 static_assert(sizeof(::UnityEngine::InputSystem::InputManager___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.InputSystem.InputDevice
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputManager/<>c__82`1<TDevice>
 class CORDL_TYPE InputManager___c__82_1 : public ::System::Object {
@@ -609,13 +624,13 @@ protected:
   constexpr InputManager___c__82_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputManager___c__82_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManager___c__82_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputManager___c__82_1(InputManager___c__82_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputManager___c__82_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManager___c__82_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManager___c__82_1(InputManager___c__82_1 const&) = delete;
+  InputManager___c__82_1(InputManager___c__82_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8783 };
@@ -624,6 +639,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.Dictionary`2::Enumerator<TKey, TValue>, System.Object, UnityEngine.InputSystem.Utilities.InternedString
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -690,23 +706,30 @@ public:
   /// @brief Method MoveNext, addr 0x6576a20, size 0x960, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x6577578, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x6577530, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6577618, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6577538, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6577570, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x65768f4, size 0x12c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -793,6 +816,7 @@ public:
   /// @brief Method <>m__Finally6, addr 0x65774e8, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally6();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x65768d4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -817,13 +841,13 @@ protected:
   constexpr InputManager__ListControlLayouts_d__97();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputManager__ListControlLayouts_d__97", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManager__ListControlLayouts_d__97", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputManager__ListControlLayouts_d__97(InputManager__ListControlLayouts_d__97&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputManager__ListControlLayouts_d__97", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManager__ListControlLayouts_d__97", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManager__ListControlLayouts_d__97(InputManager__ListControlLayouts_d__97 const&) = delete;
+  InputManager__ListControlLayouts_d__97(InputManager__ListControlLayouts_d__97const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8784 };
@@ -885,11 +909,12 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputManager__ListControlLayo
 static_assert(sizeof(::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97) == 0xe0, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Dependencies System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.InputSystem.InputDevice, UnityEngine.InputSystem.InputManager::AvailableDevice,
+// Dependencies System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.InputSystem.InputControl, UnityEngine.InputSystem.InputDevice, UnityEngine.InputSystem.InputManager::AvailableDevice,
 // UnityEngine.InputSystem.InputManager::StateChangeMonitorTimeout, UnityEngine.InputSystem.InputManager::StateChangeMonitorsForDevice, UnityEngine.InputSystem.InputSettings::ScrollDeltaBehavior,
-// UnityEngine.InputSystem.Layouts.InputControlLayout::Collection, UnityEngine.InputSystem.LowLevel.InputEventStream, UnityEngine.InputSystem.LowLevel.InputMetrics,
-// UnityEngine.InputSystem.LowLevel.InputStateBuffers, UnityEngine.InputSystem.LowLevel.InputUpdateType, UnityEngine.InputSystem.Utilities.CallbackArray`1<TDelegate>,
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>, UnityEngine.InputSystem.Utilities.TypeTable
+// UnityEngine.InputSystem.Layouts.InputControlLayout::Collection, UnityEngine.InputSystem.LowLevel.IInputDeviceCommandInfo, UnityEngine.InputSystem.LowLevel.IInputEventTypeInfo,
+// UnityEngine.InputSystem.LowLevel.InputEventStream, UnityEngine.InputSystem.LowLevel.InputMetrics, UnityEngine.InputSystem.LowLevel.InputStateBuffers,
+// UnityEngine.InputSystem.LowLevel.InputUpdateType, UnityEngine.InputSystem.Utilities.CallbackArray`1<TDelegate>, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>,
+// UnityEngine.InputSystem.Utilities.TypeTable
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputManager
@@ -910,7 +935,9 @@ public:
 
   using __c = ::UnityEngine::InputSystem::InputManager___c;
 
-  template <typename TDevice> using __c__82_1 = ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>;
+  template <typename TDevice>
+    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+  using __c__82_1 = ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>;
 
   __declspec(property(get = get_actions, put = set_actions)) ::UnityW<::UnityEngine::InputSystem::InputActionAsset> actions;
 
@@ -1205,6 +1232,7 @@ public:
   /// @brief Method AssignUniqueDeviceId, addr 0x656db28, size 0x178, virtual false, abstract: false, final false
   inline void AssignUniqueDeviceId(::UnityEngine::InputSystem::InputDevice* device);
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckAllDevicesOptimizedControlsHaveValidState, addr 0x6574b88, size 0x18c, virtual false, abstract: false, final false
   inline void CheckAllDevicesOptimizedControlsHaveValidState();
 
@@ -1218,7 +1246,10 @@ public:
   inline void EnableOrDisableDevice(::UnityEngine::InputSystem::InputDevice* device, bool enable, ::UnityEngine::InputSystem::InputManager_DeviceDisableScope scope);
 
   /// @brief Method ExecuteGlobalCommand, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TCommand> inline int64_t ExecuteGlobalCommand(::by_ref<TCommand> command);
+  template <typename TCommand>
+    requires(::cordl_internals::type_constraint<TCommand, ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*> && ::cordl_internals::value_type_constraint<TCommand> &&
+             ::cordl_internals::default_constructor_constraint<TCommand>)
+  inline int64_t ExecuteGlobalCommand(::by_ref<TCommand> command);
 
   /// @brief Method FindOrRegisterDeviceLayoutForType, addr 0x656d430, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString FindOrRegisterDeviceLayoutForType(::System::Type* type);
@@ -1236,7 +1267,9 @@ public:
   inline void FlushDisconnectedDevices();
 
   /// @brief Method GetControls, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TControl> inline int32_t GetControls(::StringW path, ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls);
+  template <typename TControl>
+    requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+  inline int32_t GetControls(::StringW path, ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls);
 
   /// @brief Method GetDevice, addr 0x656f2a8, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* GetDevice(::StringW nameOrLayout);
@@ -1280,6 +1313,7 @@ public:
   /// @brief Method IsDeviceLayoutMarkedAsSupportedInSettings, addr 0x656d4b4, size 0x108, virtual false, abstract: false, final false
   inline bool IsDeviceLayoutMarkedAsSupportedInSettings(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.InputSystem.InputManager::<ListControlLayouts>d__97))]
   /// @brief Method ListControlLayouts, addr 0x656d5bc, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* ListControlLayouts(::StringW basedOn);
 
@@ -1324,7 +1358,10 @@ public:
   inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr);
 
   /// @brief Method QueueEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TEvent> inline void QueueEvent(::by_ref<TEvent> inputEvent);
+  template <typename TEvent>
+    requires(::cordl_internals::type_constraint<TEvent, ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*> && ::cordl_internals::value_type_constraint<TEvent> &&
+             ::cordl_internals::default_constructor_constraint<TEvent>)
+  inline void QueueEvent(::by_ref<TEvent> inputEvent);
 
   /// @brief Method QueueEvent, addr 0x656458c, size 0x4, virtual false, abstract: false, final false
   inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
@@ -1363,7 +1400,9 @@ public:
   inline void RegisterCustomTypes(::ArrayW<::System::Type*> types);
 
   /// @brief Method RegisterPrecompiledLayout, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevice> inline void RegisterPrecompiledLayout(::StringW metadata);
+  template <typename TDevice>
+    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+  inline void RegisterPrecompiledLayout(::StringW metadata);
 
   /// @brief Method RemoveControlLayout, addr 0x656cfcc, size 0x278, virtual false, abstract: false, final false
   inline void RemoveControlLayout(::StringW name);
@@ -1456,6 +1495,7 @@ public:
                                ::by_ref<::UnityEngine::InputSystem::LowLevel::InputStateBlock> deviceStateBlock, uint32_t stateOffsetInDevice, void* statePtr, uint32_t stateSizeInBytes,
                                bool flippedBuffers);
 
+  /// [CompilerGenerated]
   /// @brief Method <TryFindMatchingControlLayout>b__94_0, addr 0x65761f4, size 0x78, virtual false, abstract: false, final false
   inline int64_t _TryFindMatchingControlLayout_b__94_0(::by_ref<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandRef);
 
@@ -1930,13 +1970,13 @@ protected:
   constexpr InputManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputManager(InputManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManager(InputManager const&) = delete;
+  InputManager(InputManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8785 };

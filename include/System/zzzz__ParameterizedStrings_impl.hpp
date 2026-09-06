@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ParameterizedStrings.hpp"
+// IWYU pragma private; include "System/ParameterizedStrings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ParameterizedStrings_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -108,7 +108,8 @@ inline ::System::Object* System::ParameterizedStrings_FormatParam::get_Object() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings_FormatParam>(), { "get_Object", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_int32", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_string", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_int32", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_string", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::ParameterizedStrings_FormatParam::ParameterizedStrings_FormatParam(int32_t _int32, ::StringW _string) noexcept {
   this->_int32 = _int32;
   this->_string = _string;
@@ -350,7 +351,7 @@ inline void System::ParameterizedStrings::setStaticF__cachedStack(::System::Para
 inline ::System::ParameterizedStrings_LowLevelStack* System::ParameterizedStrings::getStaticF__cachedStack() {
   return ::cordl_internals::getStaticField<::System::ParameterizedStrings_LowLevelStack*, "_cachedStack", ::System::ParameterizedStrings*>();
 }
-inline ::StringW System::ParameterizedStrings::Evaluate(::StringW format, ::ArrayW<::System::ParameterizedStrings_FormatParam> args) {
+inline ::StringW System::ParameterizedStrings::Evaluate(::StringW format, /* [ParamArray] */ ::ArrayW<::System::ParameterizedStrings_FormatParam> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings*>(),
                                                            { "Evaluate", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::ParameterizedStrings_FormatParam>>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\EntityTagHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/EntityTagHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,9 +93,11 @@ public:
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* getStaticF_any();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsWeak, addr 0x60e69b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsWeak();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Tag, addr 0x60e69c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Tag();
 
@@ -104,9 +106,11 @@ public:
 
   static inline void setStaticF_any(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsWeak, addr 0x60e69c0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsWeak(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Tag, addr 0x60e69d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Tag(::StringW value);
 
@@ -116,20 +120,22 @@ protected:
   constexpr EntityTagHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EntityTagHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntityTagHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EntityTagHeaderValue(EntityTagHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EntityTagHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntityTagHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EntityTagHeaderValue(EntityTagHeaderValue const&) = delete;
+  EntityTagHeaderValue(EntityTagHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20300 };
 
+  /// [CompilerGenerated]
   /// @brief Field <IsWeak>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____IsWeak_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Tag>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Tag_k__BackingField;
 

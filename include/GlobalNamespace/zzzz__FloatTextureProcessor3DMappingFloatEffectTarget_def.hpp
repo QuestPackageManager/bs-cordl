@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DMappingFloatEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DMappingFloatEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   // @brief default ctor
   constexpr FloatTextureProcessor3DMappingFloatEffectTarget_TextureProcessor3DMapping();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FloatTextureProcessor3DMappingFloatEffectTarget_TextureProcessor3DMapping(int32_t value__) noexcept;
 
   /// @brief Field EmissiveModulationStrength value: I32(4)
@@ -195,35 +195,44 @@ protected:
   constexpr FloatTextureProcessor3DMappingFloatEffectTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMappingFloatEffectTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMappingFloatEffectTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatTextureProcessor3DMappingFloatEffectTarget(FloatTextureProcessor3DMappingFloatEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMappingFloatEffectTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMappingFloatEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatTextureProcessor3DMappingFloatEffectTarget(FloatTextureProcessor3DMappingFloatEffectTarget const&) = delete;
+  FloatTextureProcessor3DMappingFloatEffectTarget(FloatTextureProcessor3DMappingFloatEffectTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5867 };
 
+  /// [SerializeField]
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 
+  /// [SerializeField]
   /// @brief Field _useSlave, offset: 0x28, size: 0x1, def value: None
   bool ____useSlave;
 
+  /// [SerializeField]
   /// @brief Field _slaveMaterial, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____slaveMaterial;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _mapping, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget_TextureProcessor3DMapping ____mapping;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _valueBounds, offset: 0x3c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____valueBounds;
 
+  /// [SerializeField]
   /// @brief Field _invertAxis, offset: 0x44, size: 0x1, def value: None
   bool ____invertAxis;
 
+  /// [SerializeField]
   /// @brief Field _invertAxisSlave, offset: 0x45, size: 0x1, def value: None
   bool ____invertAxisSlave;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\IPlayerEditorConnectionNative.hpp"
+// IWYU pragma private; include "UnityEngine/IPlayerEditorConnectionNative.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,33 +23,33 @@ namespace UnityEngine {
 class CORDL_TYPE IPlayerEditorConnectionNative {
 public:
   // Declarations
-  /// @brief Method DisconnectAll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DisconnectAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DisconnectAll();
 
-  /// @brief Method Initialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Initialize();
 
-  /// @brief Method IsConnected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsConnected();
 
-  /// @brief Method Poll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Poll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Poll();
 
-  /// @brief Method RegisterInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterInternal(::System::Guid messageId);
 
-  /// @brief Method SendMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendMessage(::System::Guid messageId, ::ArrayW<uint8_t> data, int32_t playerId);
 
-  /// @brief Method TrySendMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TrySendMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TrySendMessage(::System::Guid messageId, ::ArrayW<uint8_t> data, int32_t playerId);
 
-  /// @brief Method UnregisterInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnregisterInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterInternal(::System::Guid messageId);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPlayerEditorConnectionNative", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPlayerEditorConnectionNative", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPlayerEditorConnectionNative(IPlayerEditorConnectionNative const&) = delete;
+  IPlayerEditorConnectionNative(IPlayerEditorConnectionNativeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10272 };

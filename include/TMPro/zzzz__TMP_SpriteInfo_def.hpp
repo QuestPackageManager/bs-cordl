@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_SpriteInfo.hpp"
+// IWYU pragma private; include "TMPro/TMP_SpriteInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr TMP_SpriteInfo();
 
-  // Ctor Parameters [CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "characterIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_SpriteInfo(int32_t spriteIndex, int32_t characterIndex, int32_t vertexIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

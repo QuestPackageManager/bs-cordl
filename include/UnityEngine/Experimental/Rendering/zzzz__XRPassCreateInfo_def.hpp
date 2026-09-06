@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRPassCreateInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRPassCreateInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,14 +34,15 @@ public:
   // @brief default ctor
   constexpr XRPassCreateInfo();
 
-  // Ctor Parameters [CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "renderTargetDesc", ty:
-  // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "",
-  // def_value: None }, CppParam { name: "motionVectorRenderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "cullingParameters", ty:
-  // "::UnityEngine::Rendering::ScriptableCullingParameters", modifiers: "", def_value: None }, CppParam { name: "occlusionMeshMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "",
-  // def_value: None }, CppParam { name: "occlusionMeshScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "foveatedRenderingInfo", ty: "::System::IntPtr", modifiers: "",
-  // def_value: None }, CppParam { name: "multipassId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cullingPassId", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "copyDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "xrSdkRenderPass", ty:
-  // "::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderTargetDesc", ty:
+  // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None, comment: None }, CppParam { name: "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "motionVectorRenderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "cullingParameters", ty: "::UnityEngine::Rendering::ScriptableCullingParameters", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionMeshMaterial", ty:
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionMeshScale", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "foveatedRenderingInfo", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "multipassId", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "cullingPassId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "copyDepth", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "xrSdkRenderPass", ty:
+  // "::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass", modifiers: "", def_value: None, comment: None }]
   constexpr XRPassCreateInfo(::UnityEngine::Rendering::RenderTargetIdentifier renderTarget, ::UnityEngine::RenderTextureDescriptor renderTargetDesc,
                              ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget, ::UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc,
                              ::UnityEngine::Rendering::ScriptableCullingParameters cullingParameters, ::UnityW<::UnityEngine::Material> occlusionMeshMaterial, float_t occlusionMeshScale,

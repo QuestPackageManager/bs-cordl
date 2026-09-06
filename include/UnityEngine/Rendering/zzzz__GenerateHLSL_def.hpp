@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GenerateHLSL.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GenerateHLSL.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class GenerateHLSL;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::GenerateHLSL*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GenerateHLSL*, "UnityEngine.Rendering", "GenerateHLSL");
+// [AttributeUsage((System.AttributeTargets)28)]
 // Dependencies System.Attribute, UnityEngine.Rendering.PackingRules
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -56,7 +57,8 @@ public:
   __declspec(property(get = __cordl_internal_get_sourcePath, put = __cordl_internal_set_sourcePath)) ::StringW sourcePath;
 
   static inline ::UnityEngine::Rendering::GenerateHLSL* New_ctor(::UnityEngine::Rendering::PackingRules rules, bool needAccessors, bool needSetters, bool needParamDebug, int32_t paramDefinesStart,
-                                                                 bool omitStructDeclaration, bool containsPackedFields, bool generateCBuffer, int32_t constantRegister, ::StringW sourcePath);
+                                                                 bool omitStructDeclaration, bool containsPackedFields, bool generateCBuffer, int32_t constantRegister,
+                                                                 /* [CallerFilePath] */ ::StringW sourcePath);
 
   constexpr int32_t const& __cordl_internal_get_constantRegister() const;
 
@@ -120,7 +122,7 @@ public:
 
   /// @brief Method .ctor, addr 0x67a323c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::PackingRules rules, bool needAccessors, bool needSetters, bool needParamDebug, int32_t paramDefinesStart, bool omitStructDeclaration,
-                    bool containsPackedFields, bool generateCBuffer, int32_t constantRegister, ::StringW sourcePath);
+                    bool containsPackedFields, bool generateCBuffer, int32_t constantRegister, /* [CallerFilePath] */ ::StringW sourcePath);
 
 protected:
   // Ctor Parameters []
@@ -128,13 +130,13 @@ protected:
   constexpr GenerateHLSL();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenerateHLSL", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenerateHLSL", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenerateHLSL(GenerateHLSL&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenerateHLSL", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenerateHLSL", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenerateHLSL(GenerateHLSL const&) = delete;
+  GenerateHLSL(GenerateHLSLconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12201 };

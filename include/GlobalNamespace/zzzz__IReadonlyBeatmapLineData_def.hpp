@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IReadonlyBeatmapLineData.hpp"
+// IWYU pragma private; include "GlobalNamespace/IReadonlyBeatmapLineData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,12 +26,12 @@ public:
   // Declarations
   __declspec(property(get = get_beatmapObjectsData)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectsData;
 
-  /// @brief Method get_beatmapObjectsData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_beatmapObjectsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IReadonlyBeatmapLineData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IReadonlyBeatmapLineData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IReadonlyBeatmapLineData(IReadonlyBeatmapLineData const&) = delete;
+  IReadonlyBeatmapLineData(IReadonlyBeatmapLineDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21260 };

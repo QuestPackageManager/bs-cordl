@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\InputPoseActionData_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/InputPoseActionData_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr InputPoseActionData_t();
 
-  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "pose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "pose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputPoseActionData_t(bool bActive, uint64_t activeOrigin, ::OVR::OpenVR::TrackedDevicePose_t pose) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

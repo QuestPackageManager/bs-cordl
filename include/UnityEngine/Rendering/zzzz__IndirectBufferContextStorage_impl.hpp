@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferContextStorage.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferContextStorage.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeHashMap_2_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
@@ -515,7 +515,8 @@ inline ::UnityEngine::Rendering::IndirectBufferAllocInfo UnityEngine::Rendering:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IndirectBufferContextStorage>(), { "GetAllocInfo", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::IndirectBufferAllocInfo>(*this, ___internal_method, contextIndex);
 }
-inline void UnityEngine::Rendering::IndirectBufferContextStorage::CopyFromStaging(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo> allocInfo) {
+inline void UnityEngine::Rendering::IndirectBufferContextStorage::CopyFromStaging(::UnityEngine::Rendering::CommandBuffer* cmd,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo> allocInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IndirectBufferContextStorage>(),
@@ -546,15 +547,16 @@ constexpr UnityEngine::Rendering::IndirectBufferContextStorage::operator ::Syste
 constexpr ::System::IDisposable* UnityEngine::Rendering::IndirectBufferContextStorage::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_BufferLimits", ty: "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InstanceBuffer", ty:
-// "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InstanceInfoBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_InstanceInfoStaging", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ArgsBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DrawInfoBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_DrawInfoStaging", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ContextAllocCounter", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ContextIndexFromViewID", ty: "::Unity::Collections::NativeHashMap_2<int32_t,int32_t>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_Contexts", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::IndirectBufferContext>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_ContextAllocInfo", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_AllocationCounters", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_BufferLimits", ty: "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InstanceBuffer",
+// ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InstanceInfoBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_InstanceInfoStaging", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_ArgsBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DrawInfoBuffer", ty:
+// "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DrawInfoStaging", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ContextAllocCounter", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ContextIndexFromViewID", ty: "::Unity::Collections::NativeHashMap_2<int32_t,int32_t>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Contexts", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::IndirectBufferContext>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_ContextAllocInfo", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_AllocationCounters", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::IndirectBufferContextStorage::IndirectBufferContextStorage(
     ::UnityEngine::Rendering::IndirectBufferLimits m_BufferLimits, ::UnityEngine::GraphicsBuffer* m_InstanceBuffer, ::UnityEngine::GraphicsBuffer* m_InstanceInfoBuffer,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo> m_InstanceInfoStaging, ::UnityEngine::GraphicsBuffer* m_ArgsBuffer,

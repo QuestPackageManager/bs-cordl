@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\Physics2DRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/Physics2DRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ class Physics2DRaycaster;
 // Write type traits
 MARK_REF_T(::UnityEngine::EventSystems::Physics2DRaycaster*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::Physics2DRaycaster*, "UnityEngine.EventSystems", "Physics2DRaycaster");
+// [AddComponentMenu("Event/Physics 2D Raycaster")]
+// [RequireComponent(typeof(UnityEngine.Camera))]
 // Dependencies UnityEngine.EventSystems.PhysicsRaycaster, UnityEngine.RaycastHit2D
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -53,13 +55,13 @@ protected:
   constexpr Physics2DRaycaster();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Physics2DRaycaster", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Physics2DRaycaster", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Physics2DRaycaster(Physics2DRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Physics2DRaycaster", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Physics2DRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Physics2DRaycaster(Physics2DRaycaster const&) = delete;
+  Physics2DRaycaster(Physics2DRaycasterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17579 };

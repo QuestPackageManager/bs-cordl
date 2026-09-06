@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InjectAttribute.hpp"
+// IWYU pragma private; include "Zenject/InjectAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class InjectAttribute;
 // Write type traits
 MARK_REF_T(::Zenject::InjectAttribute*);
 DEFINE_IL2CPP_CLASS(::Zenject::InjectAttribute*, "Zenject", "InjectAttribute");
+// [AttributeUsage((System.AttributeTargets)2528, AllowMultiple = false)]
 // Dependencies Zenject.InjectAttributeBase
 namespace Zenject {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr InjectAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectAttribute(InjectAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectAttribute(InjectAttribute const&) = delete;
+  InjectAttribute(InjectAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22510 };

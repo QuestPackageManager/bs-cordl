@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformExtensions.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "OculusStudios/Platform/Core/zzzz__IRichPresenceDefinition_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlatformExtensions)
 namespace OculusStudios::Platform::Core {
@@ -15,15 +16,20 @@ class PlatformExtensions;
 // Write type traits
 MARK_REF_T(::OculusStudios::Platform::Core::PlatformExtensions*);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::PlatformExtensions*, "OculusStudios.Platform.Core", "PlatformExtensions");
-// Dependencies System.Object
+// [Extension]
+// Dependencies OculusStudios.Platform.Core.IRichPresenceDefinition, System.Object
 namespace OculusStudios::Platform::Core {
 // Is value type: false
 // CS Name: OculusStudios.Platform.Core.PlatformExtensions
 class CORDL_TYPE PlatformExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method SetRichPresenceStatus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void SetRichPresenceStatus(::OculusStudios::Platform::Core::IPlatform* platform);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::OculusStudios::Platform::Core::IRichPresenceDefinition*> && ::cordl_internals::reference_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline void SetRichPresenceStatus(::OculusStudios::Platform::Core::IPlatform* platform);
 
 protected:
   // Ctor Parameters []
@@ -31,13 +37,13 @@ protected:
   constexpr PlatformExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformExtensions(PlatformExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformExtensions(PlatformExtensions const&) = delete;
+  PlatformExtensions(PlatformExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22457 };

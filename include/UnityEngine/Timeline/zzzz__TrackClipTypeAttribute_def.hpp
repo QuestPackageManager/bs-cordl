@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TrackClipTypeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TrackClipTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class TrackClipTypeAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::TrackClipTypeAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TrackClipTypeAttribute*, "UnityEngine.Timeline", "TrackClipTypeAttribute");
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -56,13 +57,13 @@ protected:
   constexpr TrackClipTypeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackClipTypeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackClipTypeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackClipTypeAttribute(TrackClipTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackClipTypeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackClipTypeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackClipTypeAttribute(TrackClipTypeAttribute const&) = delete;
+  TrackClipTypeAttribute(TrackClipTypeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19239 };

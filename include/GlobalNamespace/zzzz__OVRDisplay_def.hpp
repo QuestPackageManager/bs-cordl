@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRDisplay.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRDisplay.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,8 +61,8 @@ public:
   // @brief default ctor
   constexpr OVRDisplay_EyeFov();
 
-  // Ctor Parameters [CppParam { name: "UpFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "DownFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "LeftFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "RightFov", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "UpFov", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "DownFov", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "LeftFov", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "RightFov", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDisplay_EyeFov(float_t UpFov, float_t DownFov, float_t LeftFov, float_t RightFov) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -108,8 +108,8 @@ public:
   // @brief default ctor
   constexpr OVRDisplay_EyeRenderDesc();
 
-  // Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
-  // None }, CppParam { name: "fullFov", ty: "::GlobalNamespace::OVRDisplay_EyeFov", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "fullFov", ty: "::GlobalNamespace::OVRDisplay_EyeFov", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDisplay_EyeRenderDesc(::UnityEngine::Vector2 resolution, ::UnityEngine::Vector2 fov, ::GlobalNamespace::OVRDisplay_EyeFov fullFov) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -150,9 +150,9 @@ public:
   // @brief default ctor
   constexpr OVRDisplay_LatencyData();
 
-  // Ctor Parameters [CppParam { name: "render", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeWarp", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "postPresent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderError", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeWarpError", ty: "float_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "render", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "timeWarp", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "postPresent", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderError", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "timeWarpError", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDisplay_LatencyData(float_t render, float_t timeWarp, float_t postPresent, float_t renderError, float_t timeWarpError) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -192,6 +192,7 @@ static_assert(offsetof(::GlobalNamespace::OVRDisplay_LatencyData, timeWarpError)
 static_assert(sizeof(::GlobalNamespace::OVRDisplay_LatencyData) == 0x14, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/reference/unity/v67/class_o_v_r_display")]
 // Dependencies OVRDisplay::EyeRenderDesc, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -208,8 +209,10 @@ public:
   /// @brief Field RecenteredPose, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_RecenteredPose, put = __cordl_internal_set_RecenteredPose)) ::System::Action* RecenteredPose;
 
+  /// @brief [Obsolete("Deprecated. Acceleration is not supported in OpenXR", false)]
   __declspec(property(get = get_acceleration)) ::UnityEngine::Vector3 acceleration;
 
+  /// @brief [Obsolete("Deprecated. Acceleration is not supported in OpenXR", false)]
   __declspec(property(get = get_angularAcceleration)) ::UnityEngine::Vector3 angularAcceleration;
 
   __declspec(property(get = get_angularVelocity)) ::UnityEngine::Vector3 angularVelocity;
@@ -297,6 +300,7 @@ public:
   /// @brief Method .ctor, addr 0x5e1eecc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_RecenteredPose, addr 0x5e1f104, size 0xac, virtual false, abstract: false, final false
   inline void add_RecenteredPose(::System::Action* value);
 
@@ -327,6 +331,7 @@ public:
   /// @brief Method get_velocity, addr 0x5e1f5b8, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_velocity();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_RecenteredPose, addr 0x5e1f1b0, size 0xac, virtual false, abstract: false, final false
   inline void remove_RecenteredPose(::System::Action* value);
 
@@ -339,13 +344,13 @@ protected:
   constexpr OVRDisplay();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRDisplay", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRDisplay", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRDisplay(OVRDisplay&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRDisplay", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRDisplay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRDisplay(OVRDisplay const&) = delete;
+  OVRDisplay(OVRDisplayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7141 };
@@ -365,6 +370,7 @@ public:
   /// @brief Field localTrackingSpaceRecenterCount, offset: 0x28, size: 0x4, def value: None
   int32_t ___localTrackingSpaceRecenterCount;
 
+  /// [CompilerGenerated]
   /// @brief Field RecenteredPose, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___RecenteredPose;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlayerSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlayerSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -358,68 +358,88 @@ protected:
   constexpr MockPlayerSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlayerSettings(MockPlayerSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayerSettings(MockPlayerSettings const&) = delete;
+  MockPlayerSettings(MockPlayerSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6120 };
 
+  /// [SerializeField]
   /// @brief Field _userName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____userName;
 
+  /// [SerializeField]
   /// @brief Field _userId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____userId;
 
+  /// [SerializeField]
   /// @brief Field _sortIndex, offset: 0x20, size: 0x4, def value: None
   int32_t ____sortIndex;
 
+  /// [SerializeField]
   /// @brief Field _latency, offset: 0x28, size: 0x8, def value: None
   int64_t ____latency;
 
+  /// [SerializeField]
   /// @brief Field _autoConnect, offset: 0x30, size: 0x1, def value: None
   bool ____autoConnect;
 
+  /// [SerializeField]
   /// @brief Field _inactiveByDefault, offset: 0x31, size: 0x1, def value: None
   bool ____inactiveByDefault;
 
+  /// [SerializeField]
   /// @brief Field _movementType, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::MockPlayerMovementType ____movementType;
 
+  /// [SerializeField]
   /// @brief Field _avatarType, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::MockPlayerAvatarType ____avatarType;
 
+  /// [SerializeField]
   /// @brief Field _platformUserId, offset: 0x40, size: 0x8, def value: None
   uint64_t ____platformUserId;
 
+  /// [SerializeField]
   /// @brief Field _recodingFile, offset: 0x48, size: 0x8, def value: None
   ::StringW ____recodingFile;
 
+  /// [SerializeField]
   /// @brief Field _aiCubeHitChance, offset: 0x50, size: 0x4, def value: None
   float_t ____aiCubeHitChance;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _leftHanded, offset: 0x54, size: 0x1, def value: None
   bool ____leftHanded;
 
+  /// [SerializeField]
   /// @brief Field _saberAColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____saberAColor;
 
+  /// [SerializeField]
   /// @brief Field _saberBColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____saberBColor;
 
+  /// [SerializeField]
   /// @brief Field _obstaclesColor, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____obstaclesColor;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _beatmapDifficulty, offset: 0x88, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____beatmapDifficulty;
 
+  /// [SerializeField]
   /// @brief Field _beatmapLevelId, offset: 0x90, size: 0x8, def value: None
   ::StringW ____beatmapLevelId;
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiers, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 

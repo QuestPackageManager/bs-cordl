@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Decimal.hpp"
+// IWYU pragma private; include "System/Decimal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -144,7 +144,7 @@ public:
   // @brief default ctor
   constexpr DecCalc_Decimal_RoundingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DecCalc_Decimal_RoundingMode(int32_t value__) noexcept;
 
   /// @brief Field AwayFromZero value: I32(1)
@@ -193,7 +193,7 @@ public:
   // @brief default ctor
   constexpr DecCalc_Decimal_PowerOvfl();
 
-  // Ctor Parameters [CppParam { name: "Hi", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "MidLo", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Hi", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "MidLo", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr DecCalc_Decimal_PowerOvfl(uint32_t Hi, uint64_t MidLo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -290,9 +290,9 @@ public:
   // @brief default ctor
   constexpr DecCalc_Decimal_Buf12();
 
-  // Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "U2", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulo64LE", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "U2", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ulo64LE", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr DecCalc_Decimal_Buf12(uint32_t U0, uint32_t U1, uint32_t U2, uint64_t ulo64LE, uint64_t uhigh64LE) noexcept;
 
 private:
@@ -464,9 +464,9 @@ public:
   // @brief default ctor
   constexpr DecCalc_Decimal_Buf16();
 
-  // Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "U2", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "U3", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulo64LE", ty: "uint64_t", modifiers: "", def_value: None
-  // }, CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "U2", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "U3", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "ulo64LE", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr DecCalc_Decimal_Buf16(uint32_t U0, uint32_t U1, uint32_t U2, uint32_t U3, uint64_t ulo64LE, uint64_t uhigh64LE) noexcept;
 
 private:
@@ -681,10 +681,11 @@ public:
   // @brief default ctor
   constexpr DecCalc_Decimal_Buf24();
 
-  // Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "U2", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "U3", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "U4", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "U5", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulo64LE", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "umid64LE", ty: "uint64_t",
-  // modifiers: "", def_value: None }, CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "U2", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "U3", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "U4", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "U5", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ulo64LE", ty:
+  // "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "umid64LE", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uhigh64LE", ty:
+  // "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr DecCalc_Decimal_Buf24(uint32_t U0, uint32_t U1, uint32_t U2, uint32_t U3, uint32_t U4, uint32_t U5, uint64_t ulo64LE, uint64_t umid64LE, uint64_t uhigh64LE) noexcept;
 
 private:
@@ -916,7 +917,7 @@ public:
   static inline uint32_t GetExponent(float_t f);
 
   /// @brief Method GetHashCode, addr 0x5ca3894, size 0x14c, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::by_ref<::System::Decimal> d);
+  static inline int32_t GetHashCode(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d);
 
   /// @brief Method IncreaseScale, addr 0x5ca74f8, size 0x8c, virtual false, abstract: false, final false
   static inline uint32_t IncreaseScale(::by_ref<::System::DecCalc_Decimal_Buf12> bufNum, uint32_t power);
@@ -949,10 +950,10 @@ public:
   static inline void Unscale(::by_ref<uint32_t> low, ::by_ref<uint64_t> high64, ::by_ref<int32_t> scale);
 
   /// @brief Method VarDecCmp, addr 0x5ca2af0, size 0x148, virtual false, abstract: false, final false
-  static inline int32_t VarDecCmp(::by_ref<::System::Decimal> d1, ::by_ref<::System::Decimal> d2);
+  static inline int32_t VarDecCmp(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal> d2);
 
   /// @brief Method VarDecCmpSub, addr 0x5ca861c, size 0x1d4, virtual false, abstract: false, final false
-  static inline int32_t VarDecCmpSub(::by_ref<::System::Decimal> d1, ::by_ref<::System::Decimal> d2);
+  static inline int32_t VarDecCmpSub(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal> d2);
 
   /// @brief Method VarDecDiv, addr 0x5ca2eac, size 0x81c, virtual false, abstract: false, final false
   static inline void VarDecDiv(::by_ref<::System::Decimal_DecCalc> d1, ::by_ref<::System::Decimal_DecCalc> d2);
@@ -967,10 +968,10 @@ public:
   static inline void VarDecMul(::by_ref<::System::Decimal_DecCalc> d1, ::by_ref<::System::Decimal_DecCalc> d2);
 
   /// @brief Method VarR4FromDec, addr 0x5ca5b0c, size 0x60, virtual false, abstract: false, final false
-  static inline float_t VarR4FromDec(::by_ref<::System::Decimal> value);
+  static inline float_t VarR4FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal> value);
 
   /// @brief Method VarR8FromDec, addr 0x5ca5484, size 0x110, virtual false, abstract: false, final false
-  static inline double_t VarR8FromDec(::by_ref<::System::Decimal> value);
+  static inline double_t VarR8FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal> value);
 
   constexpr uint32_t const& __cordl_internal_get_uflags() const;
 
@@ -1049,9 +1050,9 @@ public:
   // @brief default ctor
   constexpr Decimal_DecCalc();
 
-  // Ctor Parameters [CppParam { name: "uflags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "uhi", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulo", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "umid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulomidLE", ty: "uint64_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "uflags", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uhi", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "ulo", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "umid", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "ulomidLE", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr Decimal_DecCalc(uint32_t uflags, uint32_t uhi, uint32_t ulo, uint32_t umid, uint64_t ulomidLE) noexcept;
 
 private:
@@ -1142,6 +1143,7 @@ public:
 static_assert(sizeof(::System::Decimal_DecCalc) == 0x10, "Size mismatch!");
 
 } // namespace System
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -1343,6 +1345,7 @@ public:
   /// @brief Method ToInt64, addr 0x5ca5594, size 0x1c0, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::System::Decimal d);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5ca4f50, size 0x180, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::System::Decimal value);
 
@@ -1358,12 +1361,15 @@ public:
   /// @brief Method ToString, addr 0x5ca3a90, size 0xc0, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5ca5754, size 0x180, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::System::Decimal value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5ca4db0, size 0x1a0, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::System::Decimal d);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5ca58d4, size 0x1b4, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Decimal d);
 
@@ -1413,7 +1419,7 @@ public:
   inline void _ctor(::ArrayW<int32_t> bits);
 
   /// @brief Method .ctor, addr 0x5ca22b8, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::System::Decimal> d, int32_t flags);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d, int32_t flags);
 
   /// @brief Method .ctor, addr 0x5ca2170, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t lo, int32_t mid, int32_t hi, bool isNegative, uint8_t scale);
@@ -1430,9 +1436,11 @@ public:
   /// @brief Method .ctor, addr 0x5ca16ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5ca16a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5ca16cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
@@ -1512,6 +1520,7 @@ public:
   /// @brief Method op_Explicit, addr 0x5ca5eb0, size 0x68, virtual false, abstract: false, final false
   static inline int64_t op_Explicit_int64_t(::System::Decimal value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Explicit, addr 0x5ca5f18, size 0x68, virtual false, abstract: false, final false
   static inline uint64_t op_Explicit_uint64_t(::System::Decimal value);
 
@@ -1533,15 +1542,19 @@ public:
   /// @brief Method op_Implicit, addr 0x5ca5da0, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x5ca5d34, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x5ca5d5c, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x5ca5d90, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x5ca5db4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Decimal op_Implicit___System__Decimal(uint64_t value);
 
@@ -1583,9 +1596,9 @@ public:
   // @brief default ctor
   constexpr Decimal();
 
-  // Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hi", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lo", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "mid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ulomidLE", ty: "uint64_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "hi", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "lo", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "mid", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "ulomidLE", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr Decimal(int32_t flags, int32_t hi, int32_t lo, int32_t mid, uint64_t ulomidLE) noexcept;
 
 private:

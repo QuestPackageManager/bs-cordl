@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_GlyphValueRecord.hpp"
+// IWYU pragma private; include "TMPro/TMP_GlyphValueRecord.hpp"
 #include "TMPro/zzzz__TMP_GlyphValueRecord_def.hpp"
 #include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
@@ -207,8 +207,9 @@ inline ::TMPro::TMP_GlyphValueRecord TMPro::TMP_GlyphValueRecord::op_Addition(::
                                                            { "op_Addition", {}, { ::i2c::type_of<::TMPro::TMP_GlyphValueRecord>(), ::i2c::type_of<::TMPro::TMP_GlyphValueRecord>() } })));
   return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_GlyphValueRecord>(nullptr, ___internal_method, a, b);
 }
-// Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_GlyphValueRecord::TMP_GlyphValueRecord(float_t m_XPlacement, float_t m_YPlacement, float_t m_XAdvance, float_t m_YAdvance) noexcept {
   this->m_XPlacement = m_XPlacement;
   this->m_YPlacement = m_YPlacement;

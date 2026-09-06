@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\F2mCurve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/F2mCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,13 +103,13 @@ protected:
   constexpr F2mCurve_DefaultF2mLookupTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve_DefaultF2mLookupTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve_DefaultF2mLookupTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   F2mCurve_DefaultF2mLookupTable(F2mCurve_DefaultF2mLookupTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve_DefaultF2mLookupTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve_DefaultF2mLookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  F2mCurve_DefaultF2mLookupTable(F2mCurve_DefaultF2mLookupTable const&) = delete;
+  F2mCurve_DefaultF2mLookupTable(F2mCurve_DefaultF2mLookupTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1567 };
@@ -193,11 +193,13 @@ public:
   /// @brief Method IsTrinomial, addr 0x35257ac, size 0x20, virtual false, abstract: false, final false
   inline bool IsTrinomial();
 
+  /// @brief [Obsolete("Use constructor taking order/cofactor")]
   static inline ::Org::BouncyCastle::Math::EC::F2mCurve* New_ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
   static inline ::Org::BouncyCastle::Math::EC::F2mCurve* New_ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
                                                                   ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
+  /// @brief [Obsolete("Use constructor taking order/cofactor")]
   static inline ::Org::BouncyCastle::Math::EC::F2mCurve* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
   static inline ::Org::BouncyCastle::Math::EC::F2mCurve* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
@@ -240,6 +242,7 @@ public:
 
   constexpr void __cordl_internal_set_m_infinity(::Org::BouncyCastle::Math::EC::F2mPoint* value);
 
+  /// [Obsolete("Use constructor taking order/cofactor")]
   /// @brief Method .ctor, addr 0x3524ebc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
@@ -247,6 +250,7 @@ public:
   inline void _ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* order,
                     ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
+  /// [Obsolete("Use constructor taking order/cofactor")]
   /// @brief Method .ctor, addr 0x35250f8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
@@ -282,13 +286,13 @@ protected:
   constexpr F2mCurve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   F2mCurve(F2mCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  F2mCurve(F2mCurve const&) = delete;
+  F2mCurve(F2mCurveconst&) = delete;
 
   /// @brief Field F2M_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t F2M_DEFAULT_COORDS{ static_cast<int32_t>(0x6) };

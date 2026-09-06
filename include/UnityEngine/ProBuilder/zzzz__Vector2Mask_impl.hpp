@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Vector2Mask.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Vector2Mask.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Vector2Mask_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -196,7 +196,7 @@ inline ::UnityEngine::Vector2 UnityEngine::ProBuilder::Vector2Mask::op_Multiply(
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Vector2Mask>(), { "op_Multiply", {}, { ::i2c::type_of<::UnityEngine::ProBuilder::Vector2Mask>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, mask, value);
 }
-// Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::Vector2Mask::Vector2Mask(uint8_t m_Mask) noexcept {
   this->m_Mask = m_Mask;
 }

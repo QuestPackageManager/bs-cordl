@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObjectsMovementRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObjectsMovementRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,7 +103,7 @@ public:
   // @brief default ctor
   constexpr ObjectsMovementRecorder_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ObjectsMovementRecorder_Mode(int32_t value__) noexcept;
 
   /// @brief Field Off value: I32(2)
@@ -161,7 +161,7 @@ public:
   // @brief default ctor
   constexpr ObjectsMovementRecorder_CameraView();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ObjectsMovementRecorder_CameraView(int32_t value__) noexcept;
 
   /// @brief Field FirstPerson value: I32(0)
@@ -321,13 +321,13 @@ protected:
   constexpr ObjectsMovementRecorder_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectsMovementRecorder_InitData(ObjectsMovementRecorder_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectsMovementRecorder_InitData(ObjectsMovementRecorder_InitData const&) = delete;
+  ObjectsMovementRecorder_InitData(ObjectsMovementRecorder_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6566 };
@@ -398,6 +398,7 @@ static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___l
 static_assert(sizeof(::GlobalNamespace::ObjectsMovementRecorder_InitData) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DefaultExecutionOrder(-4900)]
 // Dependencies ObjectsMovementRecorder::CameraView, ObjectsMovementRecorder::Mode, PlaybackRenderer::PlaybackScreenshot, PoseObject, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -468,6 +469,7 @@ public:
   /// @brief Method HandleGameStateChanged, addr 0x58e8388, size 0x74, virtual false, abstract: false, final false
   inline void HandleGameStateChanged();
 
+  /// [Inject]
   /// @brief Method Init, addr 0x58e7324, size 0x6b0, virtual false, abstract: false, final false
   inline void Init();
 
@@ -587,44 +589,57 @@ protected:
   constexpr ObjectsMovementRecorder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectsMovementRecorder(ObjectsMovementRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectsMovementRecorder(ObjectsMovementRecorder const&) = delete;
+  ObjectsMovementRecorder(ObjectsMovementRecorderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6567 };
 
+  /// [SerializeField]
   /// @brief Field _poseObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::PoseObject*> ____poseObjects;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _livPoseObjectId, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PoseObjectIdSO> ____livPoseObjectId;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _recorder, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PosesRecorder> ____recorder;
 
+  /// [SerializeField]
   /// @brief Field _playback, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PosesPlayback> ____playback;
 
+  /// [SerializeField]
   /// @brief Field _playbackScreenshotRecorder, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder> ____playbackScreenshotRecorder;
 
+  /// [SerializeField]
   /// @brief Field _playbackRender, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlaybackRenderer> ____playbackRender;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _externalCameraPrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____externalCameraPrefab;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _hmdCamera, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____hmdCamera;
 
+  /// [InjectOptional]
   /// @brief Field _initData, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::ObjectsMovementRecorder_InitData* ____initData;
 

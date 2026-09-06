@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\SynchronizationContext.hpp"
+// IWYU pragma private; include "System/Threading/SynchronizationContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,9 +60,14 @@ public:
   /// @brief Method SetSynchronizationContext, addr 0x5cb20dc, size 0x30, virtual false, abstract: false, final false
   static inline void SetSynchronizationContext(::System::Threading::SynchronizationContext* syncContext);
 
+  /// [CLSCompliant(false)]
+  /// [PrePrepareMethod]
   /// @brief Method Wait, addr 0x5cb1ff0, size 0x60, virtual true, abstract: false, final false
   inline int32_t Wait(::ArrayW<::System::IntPtr> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
+  /// [PrePrepareMethod]
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
+  /// [CLSCompliant(false)]
   /// @brief Method WaitHelper, addr 0x5cb2050, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t WaitHelper(::ArrayW<::System::IntPtr> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
@@ -81,6 +86,7 @@ public:
   /// @brief Method get_CurrentExplicit, addr 0x5cb2278, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentExplicit();
 
+  /// [FriendAccessAllowed]
   /// @brief Method get_CurrentNoFlow, addr 0x5cb215c, size 0x34, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentNoFlow();
 
@@ -90,13 +96,13 @@ protected:
   constexpr SynchronizationContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SynchronizationContext(SynchronizationContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SynchronizationContext(SynchronizationContext const&) = delete;
+  SynchronizationContext(SynchronizationContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2730 };

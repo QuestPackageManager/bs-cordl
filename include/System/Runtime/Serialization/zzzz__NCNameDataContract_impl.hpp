@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\NCNameDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/NCNameDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__StringDataContract_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__NCNameDataContract_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::NCNameDataContract._ctor

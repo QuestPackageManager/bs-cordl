@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ReadOnlyAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/ReadOnlyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class ReadOnlyAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::ReadOnlyAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::ReadOnlyAttribute*, "System.ComponentModel", "ReadOnlyAttribute");
+// [AttributeUsage((System.AttributeTargets)32767)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -63,6 +64,7 @@ public:
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* getStaticF_Yes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x63b4d4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReadOnly();
 
@@ -78,17 +80,18 @@ protected:
   constexpr ReadOnlyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReadOnlyAttribute(ReadOnlyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyAttribute(ReadOnlyAttribute const&) = delete;
+  ReadOnlyAttribute(ReadOnlyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11233 };
 
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 

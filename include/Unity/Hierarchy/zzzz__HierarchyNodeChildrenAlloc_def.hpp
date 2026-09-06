@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyNodeChildrenAlloc.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeChildrenAlloc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ MARK_VAL_T(::Unity::Hierarchy::HierarchyNodeChildrenAlloc);
 MARK_VAL_T(::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyNodeChildrenAlloc, "Unity.Hierarchy", "HierarchyNodeChildrenAlloc");
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer, "Unity.Hierarchy", "HierarchyNodeChildrenAlloc/<Reserved>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -36,7 +38,7 @@ public:
   // @brief default ctor
   constexpr HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -119,9 +121,9 @@ public:
   // @brief default ctor
   constexpr HierarchyNodeChildrenAlloc();
 
-  // Ctor Parameters [CppParam { name: "Ptr", ty: "::Unity::Hierarchy::HierarchyNode*", modifiers: "", def_value: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "RemovedCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Reserved", ty:
-  // "::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Ptr", ty: "::Unity::Hierarchy::HierarchyNode*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "RemovedCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Reserved", ty: "::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyNodeChildrenAlloc(::Unity::Hierarchy::HierarchyNode* Ptr, int32_t Size, int32_t Capacity, int32_t RemovedCount,
                                        ::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer Reserved) noexcept;
 
@@ -188,6 +190,7 @@ private:
     struct {
       /// @brief Padding field 0x14
       uint8_t ___Reserved_padding[0x14];
+      /// [FixedBuffer(typeof(System.Int32), 3)]
       /// @brief Field Reserved, offset: 0x14, size: 0xc, def value: None
       ::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer ___Reserved;
     };
@@ -195,6 +198,7 @@ private:
     struct {
       /// @brief Padding field 0x14 for alignment
       uint8_t ___Reserved_padding_forAlignment[0x14];
+      /// [FixedBuffer(typeof(System.Int32), 3)]
       /// @brief Field Reserved, offset: 0x14, size: 0xc, def value: None
       ::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer ___Reserved_forAlignment;
     };

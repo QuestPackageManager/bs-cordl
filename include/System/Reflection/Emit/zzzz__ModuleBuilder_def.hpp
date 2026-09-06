@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Emit\ModuleBuilder.hpp"
+// IWYU pragma private; include "System/Reflection/Emit/ModuleBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ protected:
   constexpr ModuleBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModuleBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModuleBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ModuleBuilder(ModuleBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModuleBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModuleBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModuleBuilder(ModuleBuilder const&) = delete;
+  ModuleBuilder(ModuleBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3571 };

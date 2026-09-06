@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AuthenticationToken.hpp"
+// IWYU pragma private; include "GlobalNamespace/AuthenticationToken.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::AuthenticationToken_PlatformType::AuthenticationToken_PlatformType(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -212,9 +212,9 @@ constexpr GlobalNamespace::AuthenticationToken::operator ::LiteNetLib::Utils::IN
 constexpr ::LiteNetLib::Utils::INetImmutableSerializable* GlobalNamespace::AuthenticationToken::i___LiteNetLib__Utils__INetImmutableSerializable() {
   return static_cast<::LiteNetLib::Utils::INetImmutableSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: Some("{}") }, CppParam { name: "userId", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "sessionToken", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "userId", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "sessionToken", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::AuthenticationToken::AuthenticationToken(::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW userId, ::StringW userName,
                                                                       ::StringW sessionToken) noexcept {
   this->platform = platform;

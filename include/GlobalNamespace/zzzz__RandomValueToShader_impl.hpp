@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RandomValueToShader.hpp"
+// IWYU pragma private; include "GlobalNamespace/RandomValueToShader.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomValueToShader_def.hpp"
 #include "GlobalNamespace/zzzz__IRandom_def.hpp"

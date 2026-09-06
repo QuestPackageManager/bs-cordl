@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\VerticalAlignment.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/VerticalAlignment.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VerticalAlignment;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::VerticalAlignment);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::VerticalAlignment, "UnityEngine.TextCore", "VerticalAlignment");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies
 namespace UnityEngine::TextCore {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr VerticalAlignment();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VerticalAlignment(int32_t value__) noexcept;
 
   /// @brief Field Bottom value: I32(2)

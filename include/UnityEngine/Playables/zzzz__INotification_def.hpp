@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\INotification.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/INotification.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +23,12 @@ public:
   // Declarations
   __declspec(property(get = get_id)) ::UnityEngine::PropertyName id;
 
-  /// @brief Method get_id, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::PropertyName get_id();
 
-  // Ctor Parameters [CppParam { name: "", ty: "INotification", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INotification", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INotification(INotification const&) = delete;
+  INotification(INotificationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10665 };

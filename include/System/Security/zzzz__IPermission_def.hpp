@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\IPermission.hpp"
+// IWYU pragma private; include "System/Security/IPermission.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,18 +24,18 @@ public:
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
-  /// @brief Method Demand, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Demand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Demand();
 
-  /// @brief Method IsSubsetOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
   /// @brief Convert to "::System::Security::ISecurityEncodable"
   constexpr ::System::Security::ISecurityEncodable* i___System__Security__ISecurityEncodable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPermission", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPermission", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPermission(IPermission const&) = delete;
+  IPermission(IPermissionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2897 };

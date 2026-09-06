@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LabelScopeInfo.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LabelScopeInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,7 +7,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LabelScopeInfo)
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue> class HybridReferenceDictionary_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey>)
+class HybridReferenceDictionary_2;
 }
 namespace System::Linq::Expressions::Interpreter {
 class LabelInfo;
@@ -90,13 +92,13 @@ protected:
   constexpr LabelScopeInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LabelScopeInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelScopeInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LabelScopeInfo(LabelScopeInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LabelScopeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelScopeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LabelScopeInfo(LabelScopeInfo const&) = delete;
+  LabelScopeInfo(LabelScopeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16399 };

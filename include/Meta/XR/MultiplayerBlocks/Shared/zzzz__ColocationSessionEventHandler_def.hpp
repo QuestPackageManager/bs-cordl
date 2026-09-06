@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\ColocationSessionEventHandler.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/ColocationSessionEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEven
                     "ColocationSessionEventHandler/<OnSessionCreated>d__7");
 DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionDiscovered_d__8, "Meta.XR.MultiplayerBlocks.Shared",
                     "ColocationSessionEventHandler/<OnSessionDiscovered>d__8");
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: true
@@ -75,6 +76,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a71ae0, size 0x32c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a720d0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -85,11 +87,11 @@ public:
   // @brief default ctor
   constexpr ColocationSessionEventHandler__OnSessionCreated_d__7();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler>", modifiers: "", def_value: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler>", modifiers: "", def_value: None, comment: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr ColocationSessionEventHandler__OnSessionCreated_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                  ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler> __4__this, ::System::Guid groupUuid,
                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>> __u__1,
@@ -137,6 +139,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionE
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionCreated_d__7) == 0x50, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: true
@@ -150,6 +153,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a720d8, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a72584, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -160,11 +164,12 @@ public:
   // @brief default ctor
   constexpr ColocationSessionEventHandler__OnSessionDiscovered_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler>", modifiers: "", def_value: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler>", modifiers: "", def_value: None, comment: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ColocationSessionEventHandler__OnSessionDiscovered_d__8(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler> __4__this,
       ::System::Guid groupUuid, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*> __u__1) noexcept;
@@ -243,9 +248,11 @@ public:
   /// @brief Method OnDestroy, addr 0x5a719a0, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.ColocationSessionEventHandler::<OnSessionCreated>d__7))]
   /// @brief Method OnSessionCreated, addr 0x5a71830, size 0xb8, virtual false, abstract: false, final false
   inline void OnSessionCreated(::System::Guid groupUuid);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.ColocationSessionEventHandler::<OnSessionDiscovered>d__8))]
   /// @brief Method OnSessionDiscovered, addr 0x5a718e8, size 0xb8, virtual false, abstract: false, final false
   inline void OnSessionDiscovered(::System::Guid groupUuid);
 
@@ -291,17 +298,18 @@ protected:
   constexpr ColocationSessionEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColocationSessionEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColocationSessionEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColocationSessionEventHandler(ColocationSessionEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColocationSessionEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColocationSessionEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColocationSessionEventHandler(ColocationSessionEventHandler const&) = delete;
+  ColocationSessionEventHandler(ColocationSessionEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20844 };
 
+  /// [SerializeField]
   /// @brief Field AnchorPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___AnchorPrefab;
 

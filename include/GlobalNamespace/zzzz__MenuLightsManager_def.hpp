@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MenuLightsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MenuLightsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ MARK_REF_T(::GlobalNamespace::MenuLightsManager*);
 MARK_REF_T(::GlobalNamespace::MenuLightsManager__Start_d__8*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MenuLightsManager*, "", "MenuLightsManager");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MenuLightsManager__Start_d__8*, "", "MenuLightsManager/<Start>d__8");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -88,17 +89,22 @@ public:
   /// @brief Method MoveNext, addr 0x5985914, size 0x260, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MenuLightsManager__Start_d__8* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5985b74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5985b7c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5985bb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5985910, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -120,6 +126,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuLightsManager> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5985040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -138,13 +145,13 @@ protected:
   constexpr MenuLightsManager__Start_d__8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuLightsManager__Start_d__8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuLightsManager__Start_d__8", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuLightsManager__Start_d__8(MenuLightsManager__Start_d__8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuLightsManager__Start_d__8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuLightsManager__Start_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuLightsManager__Start_d__8(MenuLightsManager__Start_d__8 const&) = delete;
+  MenuLightsManager__Start_d__8(MenuLightsManager__Start_d__8const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5787 };
@@ -170,6 +177,7 @@ static_assert(offsetof(::GlobalNamespace::MenuLightsManager__Start_d__8, _____4_
 static_assert(sizeof(::GlobalNamespace::MenuLightsManager__Start_d__8) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MenuLightsManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -239,6 +247,7 @@ public:
   /// @brief Method SetTargetColors, addr 0x5985264, size 0x78, virtual false, abstract: false, final false
   inline void SetTargetColors();
 
+  /// [IteratorStateMachine(typeof(MenuLightsManager::<Start>d__8))]
   /// @brief Method Start, addr 0x5984fec, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
@@ -299,13 +308,13 @@ protected:
   constexpr MenuLightsManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuLightsManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuLightsManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuLightsManager(MenuLightsManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuLightsManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuLightsManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuLightsManager(MenuLightsManager const&) = delete;
+  MenuLightsManager(MenuLightsManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5788 };
@@ -313,12 +322,15 @@ public:
   /// @brief Field kDefaultAnimationDuration offset 0xffffffff size 0x4
   static constexpr float_t kDefaultAnimationDuration{ static_cast<float_t>(0.5f) };
 
+  /// [SerializeField]
   /// @brief Field _defaultPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultPreset;
 
+  /// [Inject]
   /// @brief Field _lightManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

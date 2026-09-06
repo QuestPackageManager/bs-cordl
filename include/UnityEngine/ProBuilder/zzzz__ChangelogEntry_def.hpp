@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ChangelogEntry.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ChangelogEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,20 +65,22 @@ protected:
   constexpr ChangelogEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChangelogEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangelogEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChangelogEntry(ChangelogEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChangelogEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangelogEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChangelogEntry(ChangelogEntry const&) = delete;
+  ChangelogEntry(ChangelogEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16718 };
 
+  /// [SerializeField]
   /// @brief Field m_VersionInfo, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::SemVer* ___m_VersionInfo;
 
+  /// [SerializeField]
   /// @brief Field m_ReleaseNotes, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_ReleaseNotes;
 

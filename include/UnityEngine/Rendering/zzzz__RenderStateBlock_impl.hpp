@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderStateBlock.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderStateBlock.hpp"
 #include "UnityEngine/Rendering/zzzz__BlendState_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DepthState_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RasterState_impl.hpp"
@@ -276,10 +276,11 @@ constexpr UnityEngine::Rendering::RenderStateBlock::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>* UnityEngine::Rendering::RenderStateBlock::i___System__IEquatable_1___UnityEngine__Rendering__RenderStateBlock_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_BlendState", ty: "::UnityEngine::Rendering::BlendState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RasterState", ty:
-// "::UnityEngine::Rendering::RasterState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DepthState", ty: "::UnityEngine::Rendering::DepthState", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_StencilState", ty: "::UnityEngine::Rendering::StencilState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StencilReference", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Mask", ty: "::UnityEngine::Rendering::RenderStateMask", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_BlendState", ty: "::UnityEngine::Rendering::BlendState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RasterState", ty:
+// "::UnityEngine::Rendering::RasterState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DepthState", ty: "::UnityEngine::Rendering::DepthState", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_StencilState", ty: "::UnityEngine::Rendering::StencilState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_StencilReference", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Mask", ty: "::UnityEngine::Rendering::RenderStateMask", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderStateBlock::RenderStateBlock(::UnityEngine::Rendering::BlendState m_BlendState, ::UnityEngine::Rendering::RasterState m_RasterState,
                                                                        ::UnityEngine::Rendering::DepthState m_DepthState, ::UnityEngine::Rendering::StencilState m_StencilState,
                                                                        int32_t m_StencilReference, ::UnityEngine::Rendering::RenderStateMask m_Mask) noexcept {

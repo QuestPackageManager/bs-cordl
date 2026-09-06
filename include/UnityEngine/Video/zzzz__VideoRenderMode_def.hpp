@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Video\VideoRenderMode.hpp"
+// IWYU pragma private; include "UnityEngine/Video/VideoRenderMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VideoRenderMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Video::VideoRenderMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Video::VideoRenderMode, "UnityEngine.Video", "VideoRenderMode");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::Video {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr VideoRenderMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VideoRenderMode(int32_t value__) noexcept;
 
   /// @brief Field APIOnly value: I32(4)

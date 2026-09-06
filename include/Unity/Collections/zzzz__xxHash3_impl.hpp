@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\xxHash3.hpp"
+// IWYU pragma private; include "Unity/Collections/xxHash3.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -29,7 +29,8 @@ inline void Unity::Collections::xxHash3_ulong2::_ctor(uint64_t x, uint64_t y) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_ulong2>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, x, y);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::Unity::Collections::xxHash3_ulong2::xxHash3_ulong2(uint64_t x, uint64_t y) noexcept {
   this->x = x;
   this->y = y;
@@ -117,10 +118,11 @@ constexpr uint8_t const& Unity::Collections::StreamingState_xxHash3_StreamingSta
 constexpr void Unity::Collections::StreamingState_xxHash3_StreamingStateData::__cordl_internal_set__PadEnd(uint8_t value) {
   this->____PadEnd = value;
 }
-// Ctor Parameters [CppParam { name: "Acc", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buffer", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "IsHash64", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "BufferedSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NbStripesSoFar", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "TotalLength", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Seed", ty: "uint64_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "SecretKey", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_PadEnd", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Acc", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buffer", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "IsHash64", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BufferedSize", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "NbStripesSoFar", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TotalLength", ty: "int64_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Seed", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SecretKey", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_PadEnd", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::StreamingState_xxHash3_StreamingStateData::StreamingState_xxHash3_StreamingStateData(uint64_t Acc, uint8_t Buffer, int32_t IsHash64, int32_t BufferedSize,
                                                                                                                      int32_t NbStripesSoFar, int64_t TotalLength, uint64_t Seed, uint8_t SecretKey,
                                                                                                                      uint8_t _PadEnd) noexcept {
@@ -319,7 +321,9 @@ inline void Unity::Collections::xxHash3_StreamingState::Update(void* input, int3
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "Update", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input, length);
 }
-template <typename T> inline void Unity::Collections::xxHash3_StreamingState::Update(::by_ref<T> input) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::xxHash3_StreamingState::Update(/* [IsReadOnly] */ ::by_ref<T> input) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "Update", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -364,7 +368,7 @@ inline void Unity::Collections::xxHash3_StreamingState::CheckKeySize(int32_t isH
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "CheckKeySize", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, isHash64);
 }
-// Ctor Parameters [CppParam { name: "State", ty: "::Unity::Collections::StreamingState_xxHash3_StreamingStateData", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "State", ty: "::Unity::Collections::StreamingState_xxHash3_StreamingStateData", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::xxHash3_StreamingState::xxHash3_StreamingState(::Unity::Collections::StreamingState_xxHash3_StreamingStateData State) noexcept {
   this->State = State;
 }
@@ -1462,7 +1466,9 @@ inline ::Unity::Mathematics::uint2 Unity::Collections::xxHash3::Hash64(void* inp
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Hash64", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::uint2>(nullptr, ___internal_method, input, length);
 }
-template <typename T> inline ::Unity::Mathematics::uint2 Unity::Collections::xxHash3::Hash64(::by_ref<T> input) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Mathematics::uint2 Unity::Collections::xxHash3::Hash64(/* [IsReadOnly] */ ::by_ref<T> input) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Hash64", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1479,7 +1485,9 @@ inline ::Unity::Mathematics::uint4 Unity::Collections::xxHash3::Hash128(void* in
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Hash128", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::uint4>(nullptr, ___internal_method, input, length);
 }
-template <typename T> inline ::Unity::Mathematics::uint4 Unity::Collections::xxHash3::Hash128(::by_ref<T> input) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Mathematics::uint4 Unity::Collections::xxHash3::Hash128(/* [IsReadOnly] */ ::by_ref<T> input) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Hash128", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

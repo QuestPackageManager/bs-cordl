@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\DefaultGameObjectKernel.hpp"
+// IWYU pragma private; include "Zenject/DefaultGameObjectKernel.hpp"
 #include "Zenject/zzzz__MonoKernel_impl.hpp"
 #include "Zenject/zzzz__DefaultGameObjectKernel_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ILightTransformGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/ILightTransformGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,33 +42,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILightGroup"
   constexpr operator ::GlobalNamespace::ILightGroup*() noexcept;
 
-  /// @brief Method get_mirrorX, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_mirrorX, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_mirrorX();
 
-  /// @brief Method get_mirrorY, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_mirrorY, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_mirrorY();
 
-  /// @brief Method get_mirrorZ, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_mirrorZ, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_mirrorZ();
 
-  /// @brief Method get_transformGroupType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_transformGroupType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::LightTransformGroupType get_transformGroupType();
 
-  /// @brief Method get_xTransformsCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_xTransformsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_xTransformsCount();
 
-  /// @brief Method get_yTransformsCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_yTransformsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_yTransformsCount();
 
-  /// @brief Method get_zTransformsCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_zTransformsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_zTransformsCount();
 
   /// @brief Convert to "::GlobalNamespace::ILightGroup"
   constexpr ::GlobalNamespace::ILightGroup* i___GlobalNamespace__ILightGroup() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILightTransformGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ILightTransformGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILightTransformGroup(ILightTransformGroup const&) = delete;
+  ILightTransformGroup(ILightTransformGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5915 };

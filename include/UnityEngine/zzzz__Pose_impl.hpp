@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Pose.hpp"
+// IWYU pragma private; include "UnityEngine/Pose.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
@@ -153,8 +153,8 @@ constexpr UnityEngine::Pose::operator ::System::IEquatable_1<::UnityEngine::Pose
 constexpr ::System::IEquatable_1<::UnityEngine::Pose>* UnityEngine::Pose::i___System__IEquatable_1___UnityEngine__Pose_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Pose>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Pose::Pose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) noexcept {
   this->position = position;
   this->rotation = rotation;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Specialized\BitVector32.hpp"
+// IWYU pragma private; include "System/Collections/Specialized/BitVector32.hpp"
 #include "System/Collections/Specialized/zzzz__BitVector32_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Collections::Specialized::BitVector32.get_Item
@@ -145,7 +145,7 @@ inline ::StringW System::Collections::Specialized::BitVector32::ToString() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Collections::Specialized::BitVector32>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_data", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_data", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Collections::Specialized::BitVector32::BitVector32(uint32_t _data) noexcept {
   this->_data = _data;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ManipulatorActivationFilter.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ManipulatorActivationFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,21 +64,29 @@ public:
   /// @brief Method Matches, addr 0x6db631c, size 0x154, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::UIElements::IPointerEvent* e);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_button, addr 0x6db61f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseButton get_button();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_clickCount, addr 0x6db6218, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clickCount();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_modifiers, addr 0x6db6208, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* i___System__IEquatable_1___UnityEngine__UIElements__ManipulatorActivationFilter_();
 
+  /// [CompilerGenerated]
   /// @brief Method set_button, addr 0x6db6200, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::UIElements::MouseButton value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_modifiers, addr 0x6db6210, size 0x8, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
@@ -86,8 +94,9 @@ public:
   // @brief default ctor
   constexpr ManipulatorActivationFilter();
 
-  // Ctor Parameters [CppParam { name: "_button_k__BackingField", ty: "::UnityEngine::UIElements::MouseButton", modifiers: "", def_value: None }, CppParam { name: "_modifiers_k__BackingField", ty:
-  // "::UnityEngine::EventModifiers", modifiers: "", def_value: None }, CppParam { name: "_clickCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_button_k__BackingField", ty: "::UnityEngine::UIElements::MouseButton", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_modifiers_k__BackingField", ty: "::UnityEngine::EventModifiers", modifiers: "", def_value: None, comment: None }, CppParam { name: "_clickCount_k__BackingField", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ManipulatorActivationFilter(::UnityEngine::UIElements::MouseButton _button_k__BackingField, ::UnityEngine::EventModifiers _modifiers_k__BackingField,
                                         int32_t _clickCount_k__BackingField) noexcept;
 
@@ -97,12 +106,18 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <button>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::MouseButton _button_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <modifiers>k__BackingField, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::EventModifiers _modifiers_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <clickCount>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _clickCount_k__BackingField;
 

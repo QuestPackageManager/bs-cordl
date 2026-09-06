@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\IFeatureFlagService.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/IFeatureFlagService.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace BeatSaber::FeatureFlags {
@@ -27,15 +29,15 @@ namespace BeatSaber::FeatureFlags {
 class CORDL_TYPE IFeatureFlagService {
 public:
   // Declarations
-  /// @brief Method IsFeatureEnabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsFeatureEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Nullable_1<bool> IsFeatureEnabled(::BeatSaber::FeatureFlags::Feature feature);
 
-  /// @brief Method IsFeatureEnabledAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsFeatureEnabledAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* IsFeatureEnabledAsync(::BeatSaber::FeatureFlags::Feature feature);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IFeatureFlagService", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IFeatureFlagService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IFeatureFlagService(IFeatureFlagService const&) = delete;
+  IFeatureFlagService(IFeatureFlagServiceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22917 };

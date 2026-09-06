@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PathVisitor.hpp"
+// IWYU pragma private; include "Unity/Properties/PathVisitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::Unity::Properties::PathVisitor*);
 MARK_VAL_T(::Unity::Properties::PathVisitor_PropertyScope);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::PathVisitor*, "Unity.Properties", "PathVisitor");
 DEFINE_IL2CPP_CLASS(::Unity::Properties::PathVisitor_PropertyScope, "Unity.Properties", "PathVisitor/PropertyScope");
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Properties {
 // Is value type: true
@@ -71,8 +72,8 @@ public:
   // @brief default ctor
   constexpr PathVisitor_PropertyScope();
 
-  // Ctor Parameters [CppParam { name: "m_Visitor", ty: "::Unity::Properties::PathVisitor*", modifiers: "", def_value: None }, CppParam { name: "m_Property", ty: "::Unity::Properties::IProperty*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Visitor", ty: "::Unity::Properties::PathVisitor*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Property", ty:
+  // "::Unity::Properties::IProperty*", modifiers: "", def_value: None, comment: None }]
   constexpr PathVisitor_PropertyScope(::Unity::Properties::PathVisitor* m_Visitor, ::Unity::Properties::IProperty* m_Property) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -182,15 +183,19 @@ public:
   /// @brief Method .ctor, addr 0x6b9e290, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Path, addr 0x6ba2008, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_Path();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Property, addr 0x6ba2024, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Properties::IProperty* get_Property();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReadonlyVisit, addr 0x6ba2034, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadonlyVisit();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReturnCode, addr 0x6ba2044, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Properties::VisitReturnCode get_ReturnCode();
 
@@ -200,15 +205,19 @@ public:
   /// @brief Convert to "::Unity::Properties::IPropertyVisitor"
   constexpr ::Unity::Properties::IPropertyVisitor* i___Unity__Properties__IPropertyVisitor() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Path, addr 0x6ba2018, size 0xc, virtual false, abstract: false, final false
   inline void set_Path(::Unity::Properties::PropertyPath value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Property, addr 0x6ba202c, size 0x8, virtual false, abstract: false, final false
   inline void set_Property(::Unity::Properties::IProperty* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReadonlyVisit, addr 0x6ba203c, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadonlyVisit(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReturnCode, addr 0x6ba204c, size 0x8, virtual false, abstract: false, final false
   inline void set_ReturnCode(::Unity::Properties::VisitReturnCode value);
 
@@ -218,13 +227,13 @@ protected:
   constexpr PathVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PathVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PathVisitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PathVisitor(PathVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PathVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PathVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PathVisitor(PathVisitor const&) = delete;
+  PathVisitor(PathVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19689 };
@@ -232,15 +241,23 @@ public:
   /// @brief Field m_PathIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_PathIndex;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Path>k__BackingField, offset: 0x18, size: 0x90, def value: None
   ::Unity::Properties::PropertyPath ____Path_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Property>k__BackingField, offset: 0xa8, size: 0x8, def value: None
   ::Unity::Properties::IProperty* ____Property_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ReadonlyVisit>k__BackingField, offset: 0xb0, size: 0x1, def value: None
   bool ____ReadonlyVisit_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ReturnCode>k__BackingField, offset: 0xb4, size: 0x4, def value: None
   ::Unity::Properties::VisitReturnCode ____ReturnCode_k__BackingField;
 

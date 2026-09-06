@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LobbyPlayerPermissionsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/LobbyPlayerPermissionsModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -135,39 +135,51 @@ public:
   /// @brief Method .ctor, addr 0x3737c88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_permissionsChangedEvent, addr 0x373789c, size 0xac, virtual false, abstract: false, final false
   inline void add_permissionsChangedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasInvitePermission, addr 0x373788c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasInvitePermission();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasKickVotePermission, addr 0x373787c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasKickVotePermission();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasRecommendBeatmapPermission, addr 0x373785c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendBeatmapPermission();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasRecommendModifiersPermission, addr 0x373786c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendModifiersPermission();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isPartyOwner, addr 0x373784c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPartyOwner();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_permissionsChangedEvent, addr 0x3737948, size 0xac, virtual false, abstract: false, final false
   inline void remove_permissionsChangedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasInvitePermission, addr 0x3737894, size 0x8, virtual false, abstract: false, final false
   inline void set_hasInvitePermission(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasKickVotePermission, addr 0x3737884, size 0x8, virtual false, abstract: false, final false
   inline void set_hasKickVotePermission(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasRecommendBeatmapPermission, addr 0x3737864, size 0x8, virtual false, abstract: false, final false
   inline void set_hasRecommendBeatmapPermission(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasRecommendModifiersPermission, addr 0x3737874, size 0x8, virtual false, abstract: false, final false
   inline void set_hasRecommendModifiersPermission(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isPartyOwner, addr 0x3737854, size 0x8, virtual false, abstract: false, final false
   inline void set_isPartyOwner(bool value);
 
@@ -177,38 +189,46 @@ protected:
   constexpr LobbyPlayerPermissionsModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayerPermissionsModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayerPermissionsModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LobbyPlayerPermissionsModel(LobbyPlayerPermissionsModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayerPermissionsModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayerPermissionsModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyPlayerPermissionsModel(LobbyPlayerPermissionsModel const&) = delete;
+  LobbyPlayerPermissionsModel(LobbyPlayerPermissionsModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15104 };
 
+  /// [Inject]
   /// @brief Field _menuRpcManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMenuRpcManager* ____menuRpcManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [CompilerGenerated]
   /// @brief Field <isPartyOwner>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____isPartyOwner_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasRecommendBeatmapPermission>k__BackingField, offset: 0x21, size: 0x1, def value: None
   bool ____hasRecommendBeatmapPermission_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasRecommendModifiersPermission>k__BackingField, offset: 0x22, size: 0x1, def value: None
   bool ____hasRecommendModifiersPermission_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasKickVotePermission>k__BackingField, offset: 0x23, size: 0x1, def value: None
   bool ____hasKickVotePermission_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasInvitePermission>k__BackingField, offset: 0x24, size: 0x1, def value: None
   bool ____hasInvitePermission_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field permissionsChangedEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___permissionsChangedEvent;
 

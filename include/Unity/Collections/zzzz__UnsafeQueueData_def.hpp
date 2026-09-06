@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnsafeQueueData.hpp"
+// IWYU pragma private; include "Unity/Collections/UnsafeQueueData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ struct UnsafeQueueData;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::UnsafeQueueData);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::UnsafeQueueData, "Unity.Collections", "UnsafeQueueData");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.IntPtr
 namespace Unity::Collections {
 // Is value type: true
@@ -30,11 +31,16 @@ namespace Unity::Collections {
 struct CORDL_TYPE UnsafeQueueData {
 public:
   // Declarations
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method AllocateQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void AllocateQueue(::Unity::Collections::AllocatorManager_AllocatorHandle label, ::by_ref<::Unity::Collections::UnsafeQueueData*> outBuf);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void AllocateQueue(::Unity::Collections::AllocatorManager_AllocatorHandle label, ::by_ref<::Unity::Collections::UnsafeQueueData*> outBuf);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method AllocateWriteBlockMT, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Collections::UnsafeQueueBlockHeader* AllocateWriteBlockMT(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::UnsafeQueueBlockPoolData* pool,
                                                                                    int32_t threadIndex);
 
@@ -52,9 +58,9 @@ public:
   // @brief default ctor
   constexpr UnsafeQueueData();
 
-  // Ctor Parameters [CppParam { name: "m_FirstBlock", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_LastBlock", ty: "::System::IntPtr", modifiers: "", def_value: None
-  // }, CppParam { name: "m_MaxItems", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CurrentRead", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_CurrentWriteBlockTLS", ty: "uint8_t*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_FirstBlock", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LastBlock", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_MaxItems", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentRead", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_CurrentWriteBlockTLS", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeQueueData(::System::IntPtr m_FirstBlock, ::System::IntPtr m_LastBlock, int32_t m_MaxItems, int32_t m_CurrentRead, uint8_t* m_CurrentWriteBlockTLS) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

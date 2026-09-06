@@ -1,11 +1,13 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputControlExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputControlExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -73,7 +75,9 @@ namespace UnityEngine::InputSystem {
 class InputControlExtensions__GetAllButtonPresses_d__43;
 }
 namespace UnityEngine::InputSystem {
-template <typename TValue> class InputControl_1;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class InputControl_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
@@ -121,6 +125,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputControlExtensions_ControlBu
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputControlExtensions_DeviceBuilder, "UnityEngine.InputSystem", "InputControlExtensions/DeviceBuilder");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputControlExtensions_InputEventControlCollection, "UnityEngine.InputSystem", "InputControlExtensions/InputEventControlCollection");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputControlExtensions_InputEventControlEnumerator, "UnityEngine.InputSystem", "InputControlExtensions/InputEventControlEnumerator");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -153,7 +158,7 @@ public:
   // @brief default ctor
   constexpr InputControlExtensions_Enumerate();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputControlExtensions_Enumerate(int32_t value__) noexcept;
 
   /// @brief Field IgnoreControlsInCurrentState value: I32(2)
@@ -225,9 +230,10 @@ public:
   // @brief default ctor
   constexpr InputControlExtensions_InputEventControlCollection();
 
-  // Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }, CppParam { name: "m_EventPtr", ty:
-  // "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputControlExtensions_Enumerate", modifiers:
-  // "", def_value: None }, CppParam { name: "m_MagnitudeThreshold", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_EventPtr", ty:
+  // "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Flags", ty:
+  // "::UnityEngine::InputSystem::InputControlExtensions_Enumerate", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MagnitudeThreshold", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr InputControlExtensions_InputEventControlCollection(::UnityEngine::InputSystem::InputDevice* m_Device, ::UnityEngine::InputSystem::LowLevel::InputEventPtr m_EventPtr,
                                                                ::UnityEngine::InputSystem::InputControlExtensions_Enumerate m_Flags, float_t m_MagnitudeThreshold) noexcept;
 
@@ -321,15 +327,16 @@ public:
   // @brief default ctor
   constexpr InputControlExtensions_InputEventControlEnumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputControlExtensions_Enumerate", modifiers: "", def_value: None }, CppParam { name: "m_Device", ty:
-  // "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }, CppParam { name: "m_StateOffsetToControlIndex", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None }, CppParam
-  // { name: "m_StateOffsetToControlIndexLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_AllControls", ty: "::ArrayW<::UnityEngine::InputSystem::InputControl*>",
-  // modifiers: "", def_value: None }, CppParam { name: "m_DefaultState", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentState", ty: "uint8_t*", modifiers: "", def_value:
-  // None }, CppParam { name: "m_NoiseMask", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_EventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "",
-  // def_value: None }, CppParam { name: "m_CurrentControl", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_CurrentIndexInStateOffsetToControlIndexMap", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CurrentControlStateBitOffset", ty: "uint32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "m_EventState", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentBitOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_EndBitOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_MagnitudeThreshold", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputControlExtensions_Enumerate", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Device", ty:
+  // "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StateOffsetToControlIndex", ty: "::ArrayW<uint32_t>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_StateOffsetToControlIndexLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllControls", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DefaultState", ty: "uint8_t*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_CurrentState", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NoiseMask", ty: "uint8_t*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_EventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentControl",
+  // ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentIndexInStateOffsetToControlIndexMap", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_CurrentControlStateBitOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_EventState", ty:
+  // "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentBitOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_EndBitOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MagnitudeThreshold", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputControlExtensions_InputEventControlEnumerator(::UnityEngine::InputSystem::InputControlExtensions_Enumerate m_Flags, ::UnityEngine::InputSystem::InputDevice* m_Device,
                                                                ::ArrayW<uint32_t> m_StateOffsetToControlIndex, int32_t m_StateOffsetToControlIndexLength,
                                                                ::ArrayW<::UnityEngine::InputSystem::InputControl*> m_AllControls, uint8_t* m_DefaultState, uint8_t* m_CurrentState,
@@ -430,7 +437,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputControlExtensions_InputE
 static_assert(sizeof(::UnityEngine::InputSystem::InputControlExtensions_InputEventControlEnumerator) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Dependencies
+// Dependencies UnityEngine.InputSystem.InputProcessor`1<TValue>
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.InputControlExtensions/ControlBuilder
@@ -483,7 +490,10 @@ public:
   inline ::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder WithParent(::UnityEngine::InputSystem::InputControl* parent);
 
   /// @brief Method WithProcessor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TProcessor, typename TValue> inline ::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder WithProcessor(TProcessor processor);
+  template <typename TProcessor, typename TValue>
+    requires(::cordl_internals::type_constraint<TProcessor, ::UnityEngine::InputSystem::InputProcessor_1<TValue>*> && ::cordl_internals::value_type_constraint<TValue> &&
+             ::cordl_internals::default_constructor_constraint<TValue>)
+  inline ::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder WithProcessor(TProcessor processor);
 
   /// @brief Method WithShortDisplayName, addr 0x651b1d4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder WithShortDisplayName(::StringW shortDisplayName);
@@ -494,9 +504,12 @@ public:
   /// @brief Method WithUsages, addr 0x651b24c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder WithUsages(int32_t startIndex, int32_t count);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_control, addr 0x651b07c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
+  /// [CompilerGenerated]
   /// @brief Method set_control, addr 0x651b084, size 0x8, virtual false, abstract: false, final false
   inline void set_control(::UnityEngine::InputSystem::InputControl* value);
 
@@ -504,7 +517,7 @@ public:
   // @brief default ctor
   constexpr InputControlExtensions_ControlBuilder();
 
-  // Ctor Parameters [CppParam { name: "_control_k__BackingField", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_control_k__BackingField", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None, comment: None }]
   constexpr InputControlExtensions_ControlBuilder(::UnityEngine::InputSystem::InputControl* _control_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -513,6 +526,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <control>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputControl* _control_k__BackingField;
 
@@ -570,9 +584,12 @@ public:
   /// @brief Method WithStateOffsetToControlIndexMap, addr 0x651b6d0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlExtensions_DeviceBuilder WithStateOffsetToControlIndexMap(::ArrayW<uint32_t> map);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_device, addr 0x651b464, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
+  /// [CompilerGenerated]
   /// @brief Method set_device, addr 0x651b46c, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
@@ -580,7 +597,7 @@ public:
   // @brief default ctor
   constexpr InputControlExtensions_DeviceBuilder();
 
-  // Ctor Parameters [CppParam { name: "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None, comment: None }]
   constexpr InputControlExtensions_DeviceBuilder(::UnityEngine::InputSystem::InputDevice* _device_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -589,6 +606,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <device>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField;
 
@@ -600,6 +618,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputControlExtensions_Device
 static_assert(sizeof(::UnityEngine::InputSystem::InputControlExtensions_DeviceBuilder) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.InputSystem.InputControlExtensions::InputEventControlEnumerator, UnityEngine.InputSystem.LowLevel.InputEventPtr
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -660,23 +679,30 @@ public:
   /// @brief Method MoveNext, addr 0x651bb1c, size 0x234, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::InputSystem::InputControlExtensions__GetAllButtonPresses_d__43* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputControl>.GetEnumerator, addr 0x651bda8, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputControl*>* System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputControl__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputControl>.get_Current, addr 0x651bd60, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputControl* System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputControl__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x651be50, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x651bd68, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x651bda0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x651baf8, size 0x24, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -743,6 +769,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x651bd50, size 0x10, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x651a660, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -769,13 +796,13 @@ protected:
   constexpr InputControlExtensions__GetAllButtonPresses_d__43();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions__GetAllButtonPresses_d__43", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions__GetAllButtonPresses_d__43", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputControlExtensions__GetAllButtonPresses_d__43(InputControlExtensions__GetAllButtonPresses_d__43&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions__GetAllButtonPresses_d__43", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions__GetAllButtonPresses_d__43", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlExtensions__GetAllButtonPresses_d__43(InputControlExtensions__GetAllButtonPresses_d__43 const&) = delete;
+  InputControlExtensions__GetAllButtonPresses_d__43(InputControlExtensions__GetAllButtonPresses_d__43const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8704 };
@@ -836,7 +863,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputControlExtensions__GetAl
 static_assert(sizeof(::UnityEngine::InputSystem::InputControlExtensions__GetAllButtonPresses_d__43) == 0xb8, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, UnityEngine.InputSystem.InputControl, UnityEngine.InputSystem.LowLevel.IInputStateTypeInfo
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputControlExtensions
@@ -855,151 +883,223 @@ public:
 
   using _GetAllButtonPresses_d__43 = ::UnityEngine::InputSystem::InputControlExtensions__GetAllButtonPresses_d__43;
 
+  /// [Extension]
   /// @brief Method AccumulateValueInEvent, addr 0x6519bfc, size 0x120, virtual false, abstract: false, final false
   static inline void AccumulateValueInEvent(::UnityEngine::InputSystem::InputControl_1<::UnityEngine::Vector2>* control, void* currentStatePtr,
                                             ::UnityEngine::InputSystem::LowLevel::InputEventPtr newState);
 
+  /// [Extension]
   /// @brief Method AccumulateValueInEvent, addr 0x6519ae0, size 0x11c, virtual false, abstract: false, final false
   static inline void AccumulateValueInEvent(::UnityEngine::InputSystem::InputControl_1<float_t>* control, void* currentStatePtr, ::UnityEngine::InputSystem::LowLevel::InputEventPtr newState);
 
+  /// [Extension]
   /// @brief Method BuildPath, addr 0x6519d1c, size 0x2e0, virtual false, abstract: false, final false
   static inline ::StringW BuildPath(::UnityEngine::InputSystem::InputControl* control, ::StringW deviceLayout, ::System::Text::StringBuilder* builder);
 
+  /// [Extension]
   /// @brief Method CheckStateIsAtDefault, addr 0x65188e4, size 0x74, virtual false, abstract: false, final false
   static inline bool CheckStateIsAtDefault(::UnityEngine::InputSystem::InputControl* control);
 
+  /// [Extension]
   /// @brief Method CheckStateIsAtDefault, addr 0x6518fc8, size 0xdc, virtual false, abstract: false, final false
   static inline bool CheckStateIsAtDefault(::UnityEngine::InputSystem::InputControl* control, void* statePtr, void* maskPtr);
 
+  /// [Extension]
   /// @brief Method CheckStateIsAtDefaultIgnoringNoise, addr 0x6519218, size 0x70, virtual false, abstract: false, final false
   static inline bool CheckStateIsAtDefaultIgnoringNoise(::UnityEngine::InputSystem::InputControl* control);
 
+  /// [Extension]
   /// @brief Method CheckStateIsAtDefaultIgnoringNoise, addr 0x6519288, size 0xd4, virtual false, abstract: false, final false
   static inline bool CheckStateIsAtDefaultIgnoringNoise(::UnityEngine::InputSystem::InputControl* control, void* statePtr);
 
+  /// [Extension]
   /// @brief Method CompareState, addr 0x65190a4, size 0x174, virtual false, abstract: false, final false
   static inline bool CompareState(::UnityEngine::InputSystem::InputControl* control, void* firstStatePtr, void* secondStatePtr, void* maskPtr);
 
+  /// [Extension]
   /// @brief Method CompareState, addr 0x6519444, size 0xac, virtual false, abstract: false, final false
   static inline bool CompareState(::UnityEngine::InputSystem::InputControl* control, void* statePtr, void* maskPtr);
 
+  /// [Extension]
   /// @brief Method CompareStateIgnoringNoise, addr 0x651935c, size 0xe8, virtual false, abstract: false, final false
   static inline bool CompareStateIgnoringNoise(::UnityEngine::InputSystem::InputControl* control, void* statePtr);
 
+  /// [Extension]
   /// @brief Method CopyState, addr 0x6518e24, size 0x1a4, virtual false, abstract: false, final false
   static inline void CopyState(::UnityEngine::InputSystem::InputDevice* device, void* buffer, int32_t bufferSizeInBytes);
 
+  /// [Extension]
   /// @brief Method CopyState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TState> static inline void CopyState(::UnityEngine::InputSystem::InputDevice* device, ::by_ref<TState> state);
+  template <typename TState>
+    requires(::cordl_internals::type_constraint<TState, ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*> && ::cordl_internals::value_type_constraint<TState> &&
+             ::cordl_internals::default_constructor_constraint<TState>)
+  static inline void CopyState(::UnityEngine::InputSystem::InputDevice* device, ::by_ref<TState> state);
 
+  /// [Extension]
   /// @brief Method EnumerateChangedControls, addr 0x651a1d0, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlExtensions_InputEventControlCollection EnumerateChangedControls(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                                                                                                         ::UnityEngine::InputSystem::InputDevice* device, float_t magnitudeThreshold);
 
+  /// [Extension]
   /// @brief Method EnumerateControls, addr 0x6519ffc, size 0x1d4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlExtensions_InputEventControlCollection EnumerateControls(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                                                                                                  ::UnityEngine::InputSystem::InputControlExtensions_Enumerate flags,
                                                                                                                  ::UnityEngine::InputSystem::InputDevice* device, float_t magnitudeThreshold);
 
+  /// [Extension]
   /// @brief Method FindControlsRecursive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl>
+    requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
   static inline void FindControlsRecursive(::UnityEngine::InputSystem::InputControl* parent, ::System::Collections::Generic::IList_1<TControl>* controls, ::System::Func_2<TControl, bool>* predicate);
 
+  /// [Extension]
   /// @brief Method FindInParentChain, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TControl> static inline TControl FindInParentChain(::UnityEngine::InputSystem::InputControl* control);
+  template <typename TControl>
+    requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+  static inline TControl FindInParentChain(::UnityEngine::InputSystem::InputControl* control);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.InputSystem.InputControlExtensions::<GetAllButtonPresses>d__43))]
+  /// [Extension]
   /// @brief Method GetAllButtonPresses, addr 0x651a5d0, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>* GetAllButtonPresses(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                                                                                                               float_t magnitude, bool buttonControlsOnly);
 
+  /// [Extension]
   /// @brief Method GetFirstButtonPressOrNull, addr 0x65164b8, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControl* GetFirstButtonPressOrNull(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, float_t magnitude, bool buttonControlsOnly);
 
+  /// [Extension]
   /// @brief Method GetStatePtrFromStateEvent, addr 0x6518b34, size 0x80, virtual false, abstract: false, final false
   static inline void* GetStatePtrFromStateEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
+  /// [Extension]
   /// @brief Method GetStatePtrFromStateEventUnchecked, addr 0x6519660, size 0x2cc, virtual false, abstract: false, final false
   static inline void* GetStatePtrFromStateEventUnchecked(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                                                          ::UnityEngine::InputSystem::Utilities::FourCC eventType);
 
+  /// [Extension]
   /// @brief Method HasButtonPress, addr 0x651a208, size 0x18, virtual false, abstract: false, final false
   static inline bool HasButtonPress(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, float_t magnitude, bool buttonControlsOnly);
 
+  /// [Extension]
   /// @brief Method HasValueChangeInEvent, addr 0x651959c, size 0xc4, virtual false, abstract: false, final false
   static inline bool HasValueChangeInEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
+  /// [Extension]
   /// @brief Method HasValueChangeInState, addr 0x65194f0, size 0xac, virtual false, abstract: false, final false
   static inline bool HasValueChangeInState(::UnityEngine::InputSystem::InputControl* control, void* statePtr);
 
+  /// [Extension]
   /// @brief Method IsActuated, addr 0x65187ac, size 0x138, virtual false, abstract: false, final false
   static inline bool IsActuated(::UnityEngine::InputSystem::InputControl* control, float_t threshold);
 
+  /// [Extension]
   /// @brief Method IsPressed, addr 0x6518660, size 0x14c, virtual false, abstract: false, final false
   static inline bool IsPressed(::UnityEngine::InputSystem::InputControl* control, float_t buttonPressPoint);
 
+  /// [Extension]
   /// @brief Method QueueValueChange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void QueueValueChange(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, double_t time);
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline void QueueValueChange(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, double_t time);
 
+  /// [Extension]
   /// @brief Method ReadDefaultValueAsObject, addr 0x6518a0c, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Object* ReadDefaultValueAsObject(::UnityEngine::InputSystem::InputControl* control);
 
+  /// [Extension]
   /// @brief Method ReadUnprocessedValueFromEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
   static inline TValue ReadUnprocessedValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
+  /// [Extension]
   /// @brief Method ReadUnprocessedValueFromEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
   static inline bool ReadUnprocessedValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent, ::by_ref<TValue> value);
 
+  /// [Extension]
   /// @brief Method ReadValueAsObject, addr 0x6517470, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Object* ReadValueAsObject(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ReadValueFromEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline TValue ReadValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent);
-
+  /// [Extension]
   /// @brief Method ReadValueFromEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline TValue ReadValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent);
+
+  /// [Extension]
+  /// @brief Method ReadValueFromEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
   static inline bool ReadValueFromEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent, ::by_ref<TValue> value);
 
+  /// [Extension]
   /// @brief Method ReadValueFromEventAsObject, addr 0x6518ab4, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Object* ReadValueFromEventAsObject(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent);
 
+  /// [Extension]
   /// @brief Method ReadValueIntoBuffer, addr 0x6518958, size 0xb4, virtual false, abstract: false, final false
   static inline void ReadValueIntoBuffer(::UnityEngine::InputSystem::InputControl* control, void* buffer, int32_t bufferSize);
 
+  /// [Extension]
   /// @brief Method ResetToDefaultStateInEvent, addr 0x6519938, size 0x1a8, virtual false, abstract: false, final false
   static inline bool ResetToDefaultStateInEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
+  /// [Extension]
   /// @brief Method Setup, addr 0x651a680, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlExtensions_ControlBuilder Setup(::UnityEngine::InputSystem::InputControl* control);
 
+  /// [Extension]
   /// @brief Method Setup, addr 0x651a744, size 0x1fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlExtensions_DeviceBuilder Setup(::UnityEngine::InputSystem::InputDevice* device, int32_t controlCount, int32_t usageCount, int32_t aliasCount);
 
+  /// [Extension]
   /// @brief Method WriteValueFromObjectIntoEvent, addr 0x6518bb4, size 0x90, virtual false, abstract: false, final false
   static inline void WriteValueFromObjectIntoEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::System::Object* value);
 
-  /// @brief Method WriteValueIntoEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void WriteValueIntoEvent(::UnityEngine::InputSystem::InputControl* control, TValue value, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
-
+  /// [Extension]
   /// @brief Method WriteValueIntoEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline void WriteValueIntoEvent(::UnityEngine::InputSystem::InputControl* control, TValue value, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
+
+  /// [Extension]
+  /// @brief Method WriteValueIntoEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
   static inline void WriteValueIntoEvent(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
+  /// [Extension]
   /// @brief Method WriteValueIntoState, addr 0x6518c44, size 0x1e0, virtual false, abstract: false, final false
   static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl* control, void* statePtr);
 
+  /// [Extension]
   /// @brief Method WriteValueIntoState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl* control, TValue value, void* statePtr);
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl* control, TValue value, void* statePtr);
 
+  /// [Extension]
   /// @brief Method WriteValueIntoState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, void* statePtr);
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, void* statePtr);
 
+  /// [Extension]
   /// @brief Method WriteValueIntoState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue, typename TState> static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, ::by_ref<TState> state);
+  template <typename TValue, typename TState>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+             ::cordl_internals::type_constraint<TState, ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*> && ::cordl_internals::value_type_constraint<TState> &&
+             ::cordl_internals::default_constructor_constraint<TState>)
+  static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, ::by_ref<TState> state);
 
+  /// [Extension]
   /// @brief Method WriteValueIntoState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, void* statePtr);
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline void WriteValueIntoState(::UnityEngine::InputSystem::InputControl_1<TValue>* control, TValue value, void* statePtr);
 
 protected:
   // Ctor Parameters []
@@ -1007,13 +1107,13 @@ protected:
   constexpr InputControlExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputControlExtensions(InputControlExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlExtensions(InputControlExtensions const&) = delete;
+  InputControlExtensions(InputControlExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8705 };

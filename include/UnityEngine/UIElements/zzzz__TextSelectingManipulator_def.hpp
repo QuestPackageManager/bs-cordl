@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextSelectingManipulator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextSelectingManipulator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ class TextSelectingManipulator;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::TextSelectingManipulator*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TextSelectingManipulator*, "UnityEngine.UIElements", "TextSelectingManipulator");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -218,13 +219,13 @@ protected:
   constexpr TextSelectingManipulator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingManipulator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingManipulator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextSelectingManipulator(TextSelectingManipulator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingManipulator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingManipulator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextSelectingManipulator(TextSelectingManipulator const&) = delete;
+  TextSelectingManipulator(TextSelectingManipulatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5093 };
@@ -232,6 +233,7 @@ public:
   /// @brief Field k_DragThresholdSqr offset 0xffffffff size 0x4
   static constexpr int32_t k_DragThresholdSqr{ static_cast<int32_t>(0x10) };
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field m_SelectingUtilities, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::TextSelectingUtilities* ___m_SelectingUtilities;
 

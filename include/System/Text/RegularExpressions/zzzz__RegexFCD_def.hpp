@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexFCD.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexFCD.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,9 @@ namespace System::Text::RegularExpressions {
 class RegexTree;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 template <typename T> struct Span_1;
@@ -35,6 +37,8 @@ struct RegexFCD;
 // Write type traits
 MARK_VAL_T(::System::Text::RegularExpressions::RegexFCD);
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::RegexFCD, "System.Text.RegularExpressions", "RegexFCD");
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies System.Collections.Generic.ValueListBuilder`1<T>
 namespace System::Text::RegularExpressions {
 // Is value type: true
@@ -94,9 +98,10 @@ public:
   // @brief default ctor
   constexpr RegexFCD();
 
-  // Ctor Parameters [CppParam { name: "_fcStack", ty: "::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexFC*>*", modifiers: "", def_value: None }, CppParam { name:
-  // "_intStack", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_skipAllChildren", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "_skipchild", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_failed", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_fcStack", ty: "::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexFC*>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_intStack", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_skipAllChildren", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_skipchild", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_failed", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr RegexFCD(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexFC*>* _fcStack, ::System::Collections::Generic::ValueListBuilder_1<int32_t> _intStack,
                      bool _skipAllChildren, bool _skipchild, bool _failed) noexcept;
 

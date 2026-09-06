@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainSystemInit.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainSystemInit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -147,6 +147,7 @@ MARK_REF_T(::GlobalNamespace::MainSystemInit___c__DisplayClass27_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MainSystemInit*, "", "MainSystemInit");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MainSystemInit___c*, "", "MainSystemInit/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MainSystemInit___c__DisplayClass27_0*, "", "MainSystemInit/<>c__DisplayClass27_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -218,13 +219,13 @@ protected:
   constexpr MainSystemInit___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainSystemInit___c(MainSystemInit___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSystemInit___c(MainSystemInit___c const&) = delete;
+  MainSystemInit___c(MainSystemInit___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21029 };
@@ -235,6 +236,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::MainSystemInit___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -265,13 +267,13 @@ protected:
   constexpr MainSystemInit___c__DisplayClass27_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c__DisplayClass27_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c__DisplayClass27_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainSystemInit___c__DisplayClass27_0(MainSystemInit___c__DisplayClass27_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c__DisplayClass27_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c__DisplayClass27_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSystemInit___c__DisplayClass27_0(MainSystemInit___c__DisplayClass27_0 const&) = delete;
+  MainSystemInit___c__DisplayClass27_0(MainSystemInit___c__DisplayClass27_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21030 };
@@ -580,92 +582,126 @@ protected:
   constexpr MainSystemInit();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainSystemInit(MainSystemInit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSystemInit(MainSystemInit const&) = delete;
+  MainSystemInit(MainSystemInitconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21031 };
 
+  /// [SerializeField]
   /// @brief Field _songPackMasksModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPackMasksModelSO> ____songPackMasksModel;
 
+  /// [SerializeField]
   /// @brief Field _playerDataFileManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataFileManagerSO> ____playerDataFileManager;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _playerDataModelPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModelPrefab;
 
+  /// [SerializeField]
   /// @brief Field _campaignProgressModelPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignProgressModel> ____campaignProgressModelPrefab;
 
+  /// [SerializeField]
   /// @brief Field _customLevelLoaderPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CustomLevelLoader> ____customLevelLoaderPrefab;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerSessionManagerPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatSaberMultiplayerSessionManager> ____multiplayerSessionManagerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _gameLiftNetworkPlayerModelPrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameLiftNetworkPlayerModel> ____gameLiftNetworkPlayerModelPrefab;
 
+  /// [SerializeField]
   /// @brief Field _localServerNetworkPlayerModelPrefab, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalServerNetworkPlayerModel> ____localServerNetworkPlayerModelPrefab;
 
+  /// [SerializeField]
   /// @brief Field _networkPlayerEntitlementCheckerPrefab, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker> ____networkPlayerEntitlementCheckerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _tweeningManagerPrefab, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManagerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _lightsUpdateSystemPrefab, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassLightsUpdateSystem> ____lightsUpdateSystemPrefab;
 
+  /// [SerializeField]
   /// @brief Field _environmentAudioEffectsPlayerPrefab, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> ____environmentAudioEffectsPlayerPrefab;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _nodePoseSyncStateManagerPrefab, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NodePoseSyncStateManager> ____nodePoseSyncStateManagerPrefab;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _unityXRHelperPrefab, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UnityXRHelper> ____unityXRHelperPrefab;
 
+  /// [SerializeField]
   /// @brief Field _devicelessVRHelperPrefab, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DevicelessVRHelper> ____devicelessVRHelperPrefab;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _richPresenceManagerPrefab, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RichPresenceManager> ____richPresenceManagerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _dlcPromoPanelData, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> ____dlcPromoPanelData;
 
+  /// [SerializeField]
   /// @brief Field _beatmapLevelsPromoData, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelsPromoDataSO> ____beatmapLevelsPromoData;
 
+  /// [Space]
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _leaderboardScoreUploader, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> ____leaderboardScoreUploader;
 
+  /// [SerializeField]
   /// @brief Field _platformLeaderboardsModel, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> ____platformLeaderboardsModel;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _coroutineStarter, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CoroutineStarter> ____coroutineStarter;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _defaultMaxCachedBeatmapLevels, offset: 0xc8, size: 0x4, def value: None
   int32_t ____defaultMaxCachedBeatmapLevels;
 
+  /// [SerializeField]
   /// @brief Field _persistentAudioNoisePrefab, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PersistentAudioNoiseController> ____persistentAudioNoisePrefab;
 
+  /// [SerializeField]
   /// @brief Field _hapticFeedbackControllerPrefab, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _audioManagerConfig, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioManagerConfigSO> ____audioManagerConfig;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0xe8, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

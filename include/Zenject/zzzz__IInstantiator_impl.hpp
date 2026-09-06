@@ -1,5 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Zenject\IInstantiator.hpp"
+// IWYU pragma private; include "Zenject/IInstantiator.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Zenject/zzzz__IInstantiator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -220,12 +222,15 @@ inline ::System::Object* Zenject::IInstantiator::Instantiate(::System::Type* con
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, concreteType, extraArgs);
 }
-template <typename TContract> inline TContract Zenject::IInstantiator::InstantiateComponent(::UnityEngine::GameObject* gameObject) {
+template <typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*>)
+inline TContract Zenject::IInstantiator::InstantiateComponent(::UnityEngine::GameObject* gameObject) {
   auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 4 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContract>() }));
   return ::cordl_internals::RunMethodRethrow<TContract>(this, ___internal_method, gameObject);
 }
 template <typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*>)
 inline TContract Zenject::IInstantiator::InstantiateComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
   auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 5 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContract>() }));
@@ -240,22 +245,30 @@ inline ::UnityW<::UnityEngine::Component> Zenject::IInstantiator::InstantiateCom
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Component>>(this, ___internal_method, componentType, gameObject, extraArgs);
 }
-template <typename T> inline T Zenject::IInstantiator::InstantiateComponentOnNewGameObject() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::IInstantiator::InstantiateComponentOnNewGameObject() {
   auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 8 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline T Zenject::IInstantiator::InstantiateComponentOnNewGameObject(::StringW gameObjectName) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::IInstantiator::InstantiateComponentOnNewGameObject(::StringW gameObjectName) {
   auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 9 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, gameObjectName);
 }
-template <typename T> inline T Zenject::IInstantiator::InstantiateComponentOnNewGameObject(::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::IInstantiator::InstantiateComponentOnNewGameObject(::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
   auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 10 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, extraArgs);
 }
-template <typename T> inline T Zenject::IInstantiator::InstantiateComponentOnNewGameObject(::StringW gameObjectName, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::IInstantiator::InstantiateComponentOnNewGameObject(::StringW gameObjectName, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
   auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 11 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, gameObjectName, extraArgs);
@@ -368,12 +381,16 @@ inline ::System::Object* Zenject::IInstantiator::InstantiatePrefabResourceForCom
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 31 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, concreteType, resourcePath, parentTransform, extraArgs);
 }
-template <typename T> inline T Zenject::IInstantiator::InstantiateScriptableObjectResource(::StringW resourcePath) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
+inline T Zenject::IInstantiator::InstantiateScriptableObjectResource(::StringW resourcePath) {
   auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 32 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, resourcePath);
 }
-template <typename T> inline T Zenject::IInstantiator::InstantiateScriptableObjectResource(::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
+inline T Zenject::IInstantiator::InstantiateScriptableObjectResource(::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
   auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Zenject::IInstantiator*>(), 33 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, resourcePath, extraArgs);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RandomizedPitch.hpp"
+// IWYU pragma private; include "GlobalNamespace/RandomizedPitch.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomizedPitch_def.hpp"
@@ -170,6 +170,7 @@ inline ::System::Object* GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9* GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9*>(__1__state));
 }
@@ -361,6 +362,7 @@ inline ::System::Object* GlobalNamespace::RandomizedPitch__RestorePitchWithDelay
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10* GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10*>(__1__state));
 }

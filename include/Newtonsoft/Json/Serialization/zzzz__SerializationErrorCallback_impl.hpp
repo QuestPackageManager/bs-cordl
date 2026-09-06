@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\SerializationErrorCallback.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/SerializationErrorCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__SerializationErrorCallback_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ErrorContext_def.hpp"
@@ -76,8 +76,9 @@ inline void Newtonsoft::Json::Serialization::SerializationErrorCallback::Invoke(
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, o, context, errorContext);
 }
-inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::SerializationErrorCallback::BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context,
-                                                                                                        ::Newtonsoft::Json::Serialization::ErrorContext* errorContext,
+inline ::System::IAsyncResult* Newtonsoft::Json::Serialization::SerializationErrorCallback::BeginInvoke(/* [Nullable(1)] */ ::System::Object* o,
+                                                                                                        ::System::Runtime::Serialization::StreamingContext context,
+                                                                                                        /* [Nullable(1)] */ ::Newtonsoft::Json::Serialization::ErrorContext* errorContext,
                                                                                                         ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>(), 14 })));

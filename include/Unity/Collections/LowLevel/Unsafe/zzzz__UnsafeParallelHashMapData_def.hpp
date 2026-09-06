@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapData.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,10 +13,15 @@ namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeKeyValueArrays_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeKeyValueArrays_2;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -25,6 +30,7 @@ struct UnsafeParallelHashMapData;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData, "Unity.Collections.LowLevel.Unsafe", "UnsafeParallelHashMapData");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -55,15 +61,23 @@ public:
   /// @brief Field values, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) uint8_t* values;
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method AllocateHashMap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue>
+    requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+             ::cordl_internals::default_constructor_constraint<TValue>)
   static inline void AllocateHashMap(int32_t length, int32_t bucketLength, ::Unity::Collections::AllocatorManager_AllocatorHandle label,
                                      ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*> outBuf);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method CalculateDataSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue>
+    requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+             ::cordl_internals::default_constructor_constraint<TValue>)
   static inline int32_t CalculateDataSize(int32_t length, int32_t bucketLength, ::by_ref<int32_t> keyOffset, ::by_ref<int32_t> nextOffset, ::by_ref<int32_t> bucketOffset);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckHashMapReallocateDoesNotShrink, addr 0x64ceeec, size 0x68, virtual false, abstract: false, final false
   static inline void CheckHashMapReallocateDoesNotShrink(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, int32_t newCapacity);
 
@@ -79,15 +93,24 @@ public:
   /// @brief Method GetCount, addr 0x64ced78, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetCount(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method GetKeyArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TKey> static inline void GetKeyArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::Unity::Collections::NativeArray_1<TKey> result);
+  template <typename TKey>
+    requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
+  static inline void GetKeyArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::Unity::Collections::NativeArray_1<TKey> result);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method GetKeyValueArrays, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue>
+    requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+             ::cordl_internals::default_constructor_constraint<TValue>)
   static inline void GetKeyValueArrays(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::Unity::Collections::NativeKeyValueArrays_2<TKey, TValue> result);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method GetValueArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void GetValueArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::Unity::Collections::NativeArray_1<TValue> result);
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline void GetValueArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::Unity::Collections::NativeArray_1<TValue> result);
 
   /// @brief Method GrowCapacity, addr 0x64cec80, size 0x10, virtual false, abstract: false, final false
   static inline int32_t GrowCapacity(int32_t capacity);
@@ -101,8 +124,11 @@ public:
   /// @brief Method MoveNextSearch, addr 0x64cee28, size 0x74, virtual false, abstract: false, final false
   static inline bool MoveNextSearch(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::by_ref<int32_t> bucketIndex, ::by_ref<int32_t> nextIndex, ::by_ref<int32_t> index);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method ReallocateHashMap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue>
+    requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+             ::cordl_internals::default_constructor_constraint<TValue>)
   static inline void ReallocateHashMap(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, int32_t newCapacity, int32_t newBucketCapacity,
                                        ::Unity::Collections::AllocatorManager_AllocatorHandle label);
 
@@ -155,10 +181,10 @@ public:
   // @brief default ctor
   constexpr UnsafeParallelHashMapData();
 
-  // Ctor Parameters [CppParam { name: "values", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "keys", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "next",
-  // ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "buckets", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "keyCapacity", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "bucketCapacityMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allocatedIndexLength", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "values", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "keys", ty: "uint8_t*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "next", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "buckets", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "keyCapacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bucketCapacityMask", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "allocatedIndexLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeParallelHashMapData(uint8_t* values, uint8_t* keys, uint8_t* next, uint8_t* buckets, int32_t keyCapacity, int32_t bucketCapacityMask, int32_t allocatedIndexLength) noexcept;
 
 private:

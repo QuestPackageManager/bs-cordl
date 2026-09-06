@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\Util\ValuePair_4.hpp"
+// IWYU pragma private; include "ModestTree/Util/ValuePair_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,13 +86,13 @@ protected:
   constexpr ValuePair_4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValuePair_4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValuePair_4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValuePair_4(ValuePair_4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValuePair_4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValuePair_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValuePair_4(ValuePair_4 const&) = delete;
+  ValuePair_4(ValuePair_4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13981 };

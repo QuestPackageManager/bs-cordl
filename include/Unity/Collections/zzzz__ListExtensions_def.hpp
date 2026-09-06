@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\ListExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/ListExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,10 +16,14 @@ namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -28,6 +32,7 @@ class ListExtensions;
 // Write type traits
 MARK_REF_T(::Unity::Collections::ListExtensions*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::ListExtensions*, "Unity.Collections", "ListExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace Unity::Collections {
 // Is value type: false
@@ -35,21 +40,28 @@ namespace Unity::Collections {
 class CORDL_TYPE ListExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method RemoveAtSwapBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void RemoveAtSwapBack(::System::Collections::Generic::List_1<T>* list, int32_t index);
 
+  /// [Extension]
   /// @brief Method RemoveSwapBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool RemoveSwapBack(::System::Collections::Generic::List_1<T>* list, ::System::Predicate_1<T>* matcher);
 
+  /// [Extension]
   /// @brief Method RemoveSwapBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool RemoveSwapBack(::System::Collections::Generic::List_1<T>* list, T value);
 
+  /// [Extension]
   /// @brief Method ToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::System::Collections::Generic::List_1<T>* list, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [Extension]
   /// @brief Method ToNativeList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Collections::NativeList_1<T> ToNativeList(::System::Collections::Generic::List_1<T>* list, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
 protected:
@@ -58,13 +70,13 @@ protected:
   constexpr ListExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListExtensions(ListExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListExtensions(ListExtensions const&) = delete;
+  ListExtensions(ListExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15626 };

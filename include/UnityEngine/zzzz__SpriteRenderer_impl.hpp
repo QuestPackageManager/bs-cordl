@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpriteRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/SpriteRenderer.hpp"
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -913,7 +913,7 @@ inline ::UnityEngine::Bounds UnityEngine::SpriteRenderer::Internal_GetSpriteBoun
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "Internal_GetSpriteBounds", {}, { ::i2c::type_of<::UnityEngine::SpriteDrawMode>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds>(this, ___internal_method, mode);
 }
-inline void UnityEngine::SpriteRenderer::GetSecondaryTextureProperties(::UnityEngine::MaterialPropertyBlock* mbp) {
+inline void UnityEngine::SpriteRenderer::GetSecondaryTextureProperties(/* [NotNull] */ ::UnityEngine::MaterialPropertyBlock* mbp) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "GetSecondaryTextureProperties", {}, { ::i2c::type_of<::UnityEngine::MaterialPropertyBlock*>() } })));

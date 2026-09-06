@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGLTFLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFLoader.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFScene_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTextureQualityFiltering_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
@@ -284,6 +284,7 @@ inline ::System::Object* GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26* GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26*>(__1__state));
 }
@@ -532,6 +533,7 @@ inline ::System::Object* GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::System_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37* GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37*>(__1__state));
 }
@@ -745,6 +747,7 @@ inline ::System::Object* GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48* GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48*>(__1__state));
 }
@@ -1055,6 +1058,7 @@ inline ::System::Object* GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::Syst
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38* GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38*>(__1__state));
 }
@@ -1749,7 +1753,7 @@ inline void GlobalNamespace::OVRGLTFLoader::SetMipMapBias(float_t loadedTextures
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "SetMipMapBias", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, loadedTexturesMipmapBiasing);
 }
-inline ::GlobalNamespace::OVRTextureQualityFiltering GlobalNamespace::OVRGLTFLoader::DetectTextureQuality(::by_ref<::UnityEngine::Texture2D*> srcTexture) {
+inline ::GlobalNamespace::OVRTextureQualityFiltering GlobalNamespace::OVRGLTFLoader::DetectTextureQuality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Texture2D*> srcTexture) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "DetectTextureQuality", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Texture2D*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTextureQualityFiltering>(nullptr, ___internal_method, srcTexture);

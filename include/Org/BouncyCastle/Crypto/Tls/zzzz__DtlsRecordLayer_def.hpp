@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DtlsRecordLayer.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DtlsRecordLayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -314,13 +314,13 @@ protected:
   constexpr DtlsRecordLayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsRecordLayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsRecordLayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsRecordLayer(DtlsRecordLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsRecordLayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsRecordLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsRecordLayer(DtlsRecordLayer const&) = delete;
+  DtlsRecordLayer(DtlsRecordLayerconst&) = delete;
 
   /// @brief Field MAX_FRAGMENT_LENGTH offset 0xffffffff size 0x4
   static constexpr int32_t MAX_FRAGMENT_LENGTH{ static_cast<int32_t>(0x4000) };

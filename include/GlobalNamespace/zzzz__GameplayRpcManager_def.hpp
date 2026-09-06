@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayRpcManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayRpcManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,11 @@ namespace GlobalNamespace {
 class PlayerSpecificSettingsNetSerializable;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer> class RpcHandler_3;
+template <typename TMessageType, typename TType, typename TConnectedPlayer>
+  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
+           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
+           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
+class RpcHandler_3;
 }
 namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;
@@ -244,7 +248,7 @@ public:
   // @brief default ctor
   constexpr GameplayRpcManager_RpcType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameplayRpcManager_RpcType(uint8_t value__) noexcept;
 
   /// @brief Field GetGameplaySceneReady value: U8(2)
@@ -327,13 +331,13 @@ protected:
   constexpr GameplayRpcManager_SetGameplaySceneSyncFinishedRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySceneSyncFinishedRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySceneSyncFinishedRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_SetGameplaySceneSyncFinishedRpc(GameplayRpcManager_SetGameplaySceneSyncFinishedRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySceneSyncFinishedRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySceneSyncFinishedRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_SetGameplaySceneSyncFinishedRpc(GameplayRpcManager_SetGameplaySceneSyncFinishedRpc const&) = delete;
+  GameplayRpcManager_SetGameplaySceneSyncFinishedRpc(GameplayRpcManager_SetGameplaySceneSyncFinishedRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18871 };
@@ -362,13 +366,13 @@ protected:
   constexpr GameplayRpcManager_SetGameplaySceneReadyRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySceneReadyRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySceneReadyRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_SetGameplaySceneReadyRpc(GameplayRpcManager_SetGameplaySceneReadyRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySceneReadyRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySceneReadyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_SetGameplaySceneReadyRpc(GameplayRpcManager_SetGameplaySceneReadyRpc const&) = delete;
+  GameplayRpcManager_SetGameplaySceneReadyRpc(GameplayRpcManager_SetGameplaySceneReadyRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18872 };
@@ -397,13 +401,13 @@ protected:
   constexpr GameplayRpcManager_GetGameplaySceneReadyRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_GetGameplaySceneReadyRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_GetGameplaySceneReadyRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_GetGameplaySceneReadyRpc(GameplayRpcManager_GetGameplaySceneReadyRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_GetGameplaySceneReadyRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_GetGameplaySceneReadyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_GetGameplaySceneReadyRpc(GameplayRpcManager_GetGameplaySceneReadyRpc const&) = delete;
+  GameplayRpcManager_GetGameplaySceneReadyRpc(GameplayRpcManager_GetGameplaySceneReadyRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18873 };
@@ -433,13 +437,13 @@ protected:
   constexpr GameplayRpcManager_SetPlayerDidConnectLateRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetPlayerDidConnectLateRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetPlayerDidConnectLateRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_SetPlayerDidConnectLateRpc(GameplayRpcManager_SetPlayerDidConnectLateRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetPlayerDidConnectLateRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetPlayerDidConnectLateRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_SetPlayerDidConnectLateRpc(GameplayRpcManager_SetPlayerDidConnectLateRpc const&) = delete;
+  GameplayRpcManager_SetPlayerDidConnectLateRpc(GameplayRpcManager_SetPlayerDidConnectLateRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18874 };
@@ -468,13 +472,13 @@ protected:
   constexpr GameplayRpcManager_SetGameplaySongReadyRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySongReadyRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySongReadyRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_SetGameplaySongReadyRpc(GameplayRpcManager_SetGameplaySongReadyRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySongReadyRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetGameplaySongReadyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_SetGameplaySongReadyRpc(GameplayRpcManager_SetGameplaySongReadyRpc const&) = delete;
+  GameplayRpcManager_SetGameplaySongReadyRpc(GameplayRpcManager_SetGameplaySongReadyRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18875 };
@@ -503,13 +507,13 @@ protected:
   constexpr GameplayRpcManager_GetGameplaySongReadyRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_GetGameplaySongReadyRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_GetGameplaySongReadyRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_GetGameplaySongReadyRpc(GameplayRpcManager_GetGameplaySongReadyRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_GetGameplaySongReadyRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_GetGameplaySongReadyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_GetGameplaySongReadyRpc(GameplayRpcManager_GetGameplaySongReadyRpc const&) = delete;
+  GameplayRpcManager_GetGameplaySongReadyRpc(GameplayRpcManager_GetGameplaySongReadyRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18876 };
@@ -538,13 +542,13 @@ protected:
   constexpr GameplayRpcManager_SetSongStartTimeRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetSongStartTimeRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetSongStartTimeRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_SetSongStartTimeRpc(GameplayRpcManager_SetSongStartTimeRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetSongStartTimeRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SetSongStartTimeRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_SetSongStartTimeRpc(GameplayRpcManager_SetSongStartTimeRpc const&) = delete;
+  GameplayRpcManager_SetSongStartTimeRpc(GameplayRpcManager_SetSongStartTimeRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18877 };
@@ -573,13 +577,13 @@ protected:
   constexpr GameplayRpcManager_NoteSpawnedRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteSpawnedRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteSpawnedRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_NoteSpawnedRpc(GameplayRpcManager_NoteSpawnedRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteSpawnedRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteSpawnedRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_NoteSpawnedRpc(GameplayRpcManager_NoteSpawnedRpc const&) = delete;
+  GameplayRpcManager_NoteSpawnedRpc(GameplayRpcManager_NoteSpawnedRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18878 };
@@ -608,13 +612,13 @@ protected:
   constexpr GameplayRpcManager_ObstacleSpawnedRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_ObstacleSpawnedRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_ObstacleSpawnedRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_ObstacleSpawnedRpc(GameplayRpcManager_ObstacleSpawnedRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_ObstacleSpawnedRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_ObstacleSpawnedRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_ObstacleSpawnedRpc(GameplayRpcManager_ObstacleSpawnedRpc const&) = delete;
+  GameplayRpcManager_ObstacleSpawnedRpc(GameplayRpcManager_ObstacleSpawnedRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18879 };
@@ -643,13 +647,13 @@ protected:
   constexpr GameplayRpcManager_SliderSpawnedRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SliderSpawnedRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SliderSpawnedRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_SliderSpawnedRpc(GameplayRpcManager_SliderSpawnedRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SliderSpawnedRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_SliderSpawnedRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_SliderSpawnedRpc(GameplayRpcManager_SliderSpawnedRpc const&) = delete;
+  GameplayRpcManager_SliderSpawnedRpc(GameplayRpcManager_SliderSpawnedRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18880 };
@@ -678,13 +682,13 @@ protected:
   constexpr GameplayRpcManager_NoteCutRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteCutRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteCutRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_NoteCutRpc(GameplayRpcManager_NoteCutRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteCutRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteCutRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_NoteCutRpc(GameplayRpcManager_NoteCutRpc const&) = delete;
+  GameplayRpcManager_NoteCutRpc(GameplayRpcManager_NoteCutRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18881 };
@@ -713,13 +717,13 @@ protected:
   constexpr GameplayRpcManager_NoteMissedRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteMissedRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteMissedRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_NoteMissedRpc(GameplayRpcManager_NoteMissedRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteMissedRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_NoteMissedRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_NoteMissedRpc(GameplayRpcManager_NoteMissedRpc const&) = delete;
+  GameplayRpcManager_NoteMissedRpc(GameplayRpcManager_NoteMissedRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18882 };
@@ -748,13 +752,13 @@ protected:
   constexpr GameplayRpcManager_LevelFinishedRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_LevelFinishedRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_LevelFinishedRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_LevelFinishedRpc(GameplayRpcManager_LevelFinishedRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_LevelFinishedRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_LevelFinishedRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_LevelFinishedRpc(GameplayRpcManager_LevelFinishedRpc const&) = delete;
+  GameplayRpcManager_LevelFinishedRpc(GameplayRpcManager_LevelFinishedRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18883 };
@@ -783,13 +787,13 @@ protected:
   constexpr GameplayRpcManager_ReturnToMenuRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_ReturnToMenuRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_ReturnToMenuRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_ReturnToMenuRpc(GameplayRpcManager_ReturnToMenuRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_ReturnToMenuRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_ReturnToMenuRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_ReturnToMenuRpc(GameplayRpcManager_ReturnToMenuRpc const&) = delete;
+  GameplayRpcManager_ReturnToMenuRpc(GameplayRpcManager_ReturnToMenuRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18884 };
@@ -818,13 +822,13 @@ protected:
   constexpr GameplayRpcManager_RequestReturnToMenuRpc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_RequestReturnToMenuRpc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_RequestReturnToMenuRpc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager_RequestReturnToMenuRpc(GameplayRpcManager_RequestReturnToMenuRpc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_RequestReturnToMenuRpc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager_RequestReturnToMenuRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager_RequestReturnToMenuRpc(GameplayRpcManager_RequestReturnToMenuRpc const&) = delete;
+  GameplayRpcManager_RequestReturnToMenuRpc(GameplayRpcManager_RequestReturnToMenuRpcconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18885 };
@@ -1152,48 +1156,63 @@ public:
   /// @brief Method .ctor, addr 0x32aeb6c, size 0x7b8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getGameplaySceneReadyEvent, addr 0x32af78c, size 0xc0, virtual true, abstract: false, final true
   inline void add_getGameplaySceneReadyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_getGameplaySongReadyEvent, addr 0x32afd84, size 0xc0, virtual true, abstract: false, final true
   inline void add_getGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelFinishedEvent, addr 0x32b0bc4, size 0xc0, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_noteWasCutEvent, addr 0x32b07a4, size 0xc0, virtual true, abstract: false, final true
   inline void add_noteWasCutEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_noteWasMissedEvent, addr 0x32b09b4, size 0xc0, virtual true, abstract: false, final true
   inline void add_noteWasMissedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_noteWasSpawnedEvent, addr 0x32b0174, size 0xc0, virtual true, abstract: false, final true
   inline void add_noteWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_obstacleWasSpawnedEvent, addr 0x32b0384, size 0xc0, virtual true, abstract: false, final true
   inline void add_obstacleWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_requestReturnToMenuEvent, addr 0x32b0fb4, size 0xc0, virtual true, abstract: false, final true
   inline void add_requestReturnToMenuEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_returnToMenuEvent, addr 0x32b0dc4, size 0xc0, virtual true, abstract: false, final true
   inline void add_returnToMenuEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setGameplaySceneReadyEvent, addr 0x32af58c, size 0xc0, virtual true, abstract: false, final true
   inline void add_setGameplaySceneReadyEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setGameplaySceneSyncFinishedEvent, addr 0x32af384, size 0xc0, virtual true, abstract: false, final true
   inline void add_setGameplaySceneSyncFinishedEvent(::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setGameplaySongReadyEvent, addr 0x32afb94, size 0xc0, virtual true, abstract: false, final true
   inline void add_setGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setPlayerDidConnectLateEvent, addr 0x32af97c, size 0xc0, virtual true, abstract: false, final true
   inline void add_setPlayerDidConnectLateEvent(::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setSongStartTimeEvent, addr 0x32aff74, size 0xc0, virtual true, abstract: false, final true
   inline void add_setSongStartTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_sliderWasSpawnedEvent, addr 0x32b0594, size 0xc0, virtual true, abstract: false, final true
   inline void add_sliderWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
@@ -1206,48 +1225,63 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getGameplaySceneReadyEvent, addr 0x32af84c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getGameplaySceneReadyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_getGameplaySongReadyEvent, addr 0x32afe44, size 0xc0, virtual true, abstract: false, final true
   inline void remove_getGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelFinishedEvent, addr 0x32b0c84, size 0xc0, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_noteWasCutEvent, addr 0x32b0864, size 0xc0, virtual true, abstract: false, final true
   inline void remove_noteWasCutEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_noteWasMissedEvent, addr 0x32b0a74, size 0xc0, virtual true, abstract: false, final true
   inline void remove_noteWasMissedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_noteWasSpawnedEvent, addr 0x32b0234, size 0xc0, virtual true, abstract: false, final true
   inline void remove_noteWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_obstacleWasSpawnedEvent, addr 0x32b0444, size 0xc0, virtual true, abstract: false, final true
   inline void remove_obstacleWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_requestReturnToMenuEvent, addr 0x32b1074, size 0xc0, virtual true, abstract: false, final true
   inline void remove_requestReturnToMenuEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_returnToMenuEvent, addr 0x32b0e84, size 0xc0, virtual true, abstract: false, final true
   inline void remove_returnToMenuEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setGameplaySceneReadyEvent, addr 0x32af64c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setGameplaySceneReadyEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setGameplaySceneSyncFinishedEvent, addr 0x32af444, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setGameplaySceneSyncFinishedEvent(::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setGameplaySongReadyEvent, addr 0x32afc54, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setPlayerDidConnectLateEvent, addr 0x32afa3c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setPlayerDidConnectLateEvent(::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setSongStartTimeEvent, addr 0x32b0034, size 0xc0, virtual true, abstract: false, final true
   inline void remove_setSongStartTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_sliderWasSpawnedEvent, addr 0x32b0654, size 0xc0, virtual true, abstract: false, final true
   inline void remove_sliderWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
@@ -1260,13 +1294,13 @@ protected:
   constexpr GameplayRpcManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayRpcManager(GameplayRpcManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayRpcManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayRpcManager(GameplayRpcManager const&) = delete;
+  GameplayRpcManager(GameplayRpcManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18886 };
@@ -1280,48 +1314,63 @@ public:
   /// @brief Field _rpcHandler, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::RpcHandler_3<::GlobalNamespace::NetworkMessageType, ::GlobalNamespace::GameplayRpcManager_RpcType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>* ____rpcHandler;
 
+  /// [CompilerGenerated]
   /// @brief Field setGameplaySceneSyncFinishedEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* ___setGameplaySceneSyncFinishedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setGameplaySceneReadyEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* ___setGameplaySceneReadyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getGameplaySceneReadyEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getGameplaySceneReadyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setPlayerDidConnectLateEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* ___setPlayerDidConnectLateEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setGameplaySongReadyEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___setGameplaySongReadyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field getGameplaySongReadyEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___getGameplaySongReadyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field setSongStartTimeEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_2<::StringW, int64_t>* ___setSongStartTimeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field noteWasSpawnedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* ___noteWasSpawnedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field obstacleWasSpawnedEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* ___obstacleWasSpawnedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field sliderWasSpawnedEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* ___sliderWasSpawnedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field noteWasCutEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* ___noteWasCutEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field noteWasMissedEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* ___noteWasMissedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field levelFinishedEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* ___levelFinishedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field returnToMenuEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___returnToMenuEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field requestReturnToMenuEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___requestReturnToMenuEvent;
 

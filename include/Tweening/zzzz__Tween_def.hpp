@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tweening\Tween.hpp"
+// IWYU pragma private; include "Tweening/Tween.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,13 +102,13 @@ public:
   /// @brief Method Resume, addr 0x64494e8, size 0x8, virtual false, abstract: false, final false
   inline void Resume();
 
-  /// @brief Method Sample, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Sample, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Sample(float_t t);
 
   /// @brief Method SetStartTimeAndEndTime, addr 0x64494f0, size 0xc, virtual false, abstract: false, final false
   inline void SetStartTimeAndEndTime(float_t startTime, float_t endTime);
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update(float_t currentTime);
 
   constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__animationCurve() const;
@@ -240,13 +240,13 @@ protected:
   constexpr Tween();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tween", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tween", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tween(Tween&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tween", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tween", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tween(Tween const&) = delete;
+  Tween(Tweenconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22983 };

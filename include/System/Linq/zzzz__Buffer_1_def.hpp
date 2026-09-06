@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Buffer_1.hpp"
+// IWYU pragma private; include "System/Linq/Buffer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,8 @@ public:
   // @brief default ctor
   constexpr Buffer_1();
 
-  // Ctor Parameters [CppParam { name: "items", ty: "::ArrayW<TElement>", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "items", ty: "::ArrayW<TElement>", modifiers: "", def_value: None, comment: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr Buffer_1(::ArrayW<TElement> items, int32_t count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

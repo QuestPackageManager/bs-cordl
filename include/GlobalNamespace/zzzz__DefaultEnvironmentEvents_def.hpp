@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DefaultEnvironmentEvents.hpp"
+// IWYU pragma private; include "GlobalNamespace/DefaultEnvironmentEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,23 +129,27 @@ protected:
   constexpr DefaultEnvironmentEvents_BasicBeatmapEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_BasicBeatmapEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_BasicBeatmapEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEnvironmentEvents_BasicBeatmapEvent(DefaultEnvironmentEvents_BasicBeatmapEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_BasicBeatmapEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_BasicBeatmapEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents_BasicBeatmapEvent(DefaultEnvironmentEvents_BasicBeatmapEvent const&) = delete;
+  DefaultEnvironmentEvents_BasicBeatmapEvent(DefaultEnvironmentEvents_BasicBeatmapEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14831 };
 
+  /// [SerializeField]
   /// @brief Field _eventType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____eventType;
 
+  /// [SerializeField]
+  /// [Tooltip("For Environment Color 0 use 5, for Environment Color 1 use 1")]
   /// @brief Field _value, offset: 0x14, size: 0x4, def value: None
   int32_t ____value;
 
+  /// [SerializeField]
   /// @brief Field _floatValue, offset: 0x18, size: 0x4, def value: None
   float_t ____floatValue;
 
@@ -222,23 +226,26 @@ protected:
   constexpr DefaultEnvironmentEvents_LightGroupDistribution();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupDistribution", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupDistribution", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEnvironmentEvents_LightGroupDistribution(DefaultEnvironmentEvents_LightGroupDistribution&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupDistribution", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupDistribution", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents_LightGroupDistribution(DefaultEnvironmentEvents_LightGroupDistribution const&) = delete;
+  DefaultEnvironmentEvents_LightGroupDistribution(DefaultEnvironmentEvents_LightGroupDistributionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14832 };
 
+  /// [SerializeField]
   /// @brief Field _useDistribution, offset: 0x10, size: 0x1, def value: None
   bool ____useDistribution;
 
+  /// [SerializeField]
   /// @brief Field _distributionParam, offset: 0x14, size: 0x4, def value: None
   float_t ____distributionParam;
 
+  /// [SerializeField]
   /// @brief Field _distributionParamType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType ____distributionParamType;
 
@@ -356,32 +363,38 @@ protected:
   constexpr DefaultEnvironmentEvents_LightGroupFiltering();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupFiltering", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupFiltering", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEnvironmentEvents_LightGroupFiltering(DefaultEnvironmentEvents_LightGroupFiltering&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupFiltering", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupFiltering", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents_LightGroupFiltering(DefaultEnvironmentEvents_LightGroupFiltering const&) = delete;
+  DefaultEnvironmentEvents_LightGroupFiltering(DefaultEnvironmentEvents_LightGroupFilteringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14833 };
 
+  /// [SerializeField]
   /// @brief Field _useFiltering, offset: 0x10, size: 0x1, def value: None
   bool ____useFiltering;
 
+  /// [SerializeField]
   /// @brief Field _randomType, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::IndexFilter_IndexFilterRandomType ____randomType;
 
+  /// [SerializeField]
   /// @brief Field _limit, offset: 0x18, size: 0x4, def value: None
   float_t ____limit;
 
+  /// [SerializeField]
   /// @brief Field _alsoAffectType, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType ____alsoAffectType;
 
+  /// [SerializeField]
   /// @brief Field _seed, offset: 0x20, size: 0x4, def value: None
   int32_t ____seed;
 
+  /// [SerializeField]
   /// @brief Field _chunks, offset: 0x24, size: 0x4, def value: None
   int32_t ____chunks;
 
@@ -740,80 +753,106 @@ protected:
   constexpr DefaultEnvironmentEvents_LightGroupEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEnvironmentEvents_LightGroupEvent(DefaultEnvironmentEvents_LightGroupEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents_LightGroupEvent(DefaultEnvironmentEvents_LightGroupEvent const&) = delete;
+  DefaultEnvironmentEvents_LightGroupEvent(DefaultEnvironmentEvents_LightGroupEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14834 };
 
+  /// [SerializeField]
   /// @brief Field _lightGroup, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroup;
 
+  /// [Header("Color")]
+  /// [SerializeField]
   /// @brief Field _environmentColorType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentColorType ____environmentColorType;
 
+  /// [SerializeField]
   /// @brief Field _brightness, offset: 0x1c, size: 0x4, def value: None
   float_t ____brightness;
 
+  /// [SerializeField]
   /// @brief Field _brightnessDistribution, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* ____brightnessDistribution;
 
+  /// [SerializeField]
   /// @brief Field _brightnessFiltering, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* ____brightnessFiltering;
 
+  /// [Header("Rotation")]
+  /// [SerializeField]
   /// @brief Field _rotationX, offset: 0x30, size: 0x4, def value: None
   float_t ____rotationX;
 
+  /// [SerializeField]
   /// @brief Field _rotationY, offset: 0x34, size: 0x4, def value: None
   float_t ____rotationY;
 
+  /// [SerializeField]
   /// @brief Field _rotationZ, offset: 0x38, size: 0x4, def value: None
   float_t ____rotationZ;
 
+  /// [SerializeField]
   /// @brief Field _rotationXDistribution, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* ____rotationXDistribution;
 
+  /// [SerializeField]
   /// @brief Field _rotationYDistribution, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* ____rotationYDistribution;
 
+  /// [SerializeField]
   /// @brief Field _rotationZDistribution, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* ____rotationZDistribution;
 
+  /// [SerializeField]
   /// @brief Field _rotationFiltering, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* ____rotationFiltering;
 
+  /// [Header("Translation")]
+  /// [SerializeField]
   /// @brief Field _translationX, offset: 0x60, size: 0x4, def value: None
   float_t ____translationX;
 
+  /// [SerializeField]
   /// @brief Field _translationY, offset: 0x64, size: 0x4, def value: None
   float_t ____translationY;
 
+  /// [SerializeField]
   /// @brief Field _translationZ, offset: 0x68, size: 0x4, def value: None
   float_t ____translationZ;
 
+  /// [SerializeField]
   /// @brief Field _translationXDistribution, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* ____translationXDistribution;
 
+  /// [SerializeField]
   /// @brief Field _translationYDistribution, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* ____translationYDistribution;
 
+  /// [SerializeField]
   /// @brief Field _translationZDistribution, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* ____translationZDistribution;
 
+  /// [SerializeField]
   /// @brief Field _translationFiltering, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* ____translationFiltering;
 
+  /// [Header("Float FX")]
+  /// [SerializeField]
   /// @brief Field _floatFxValue, offset: 0x90, size: 0x4, def value: None
   float_t ____floatFxValue;
 
+  /// [SerializeField]
   /// @brief Field _floatFxDistribution, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* ____floatFxDistribution;
 
+  /// [SerializeField]
   /// @brief Field _floatFxFiltering, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* ____floatFxFiltering;
 
@@ -928,20 +967,22 @@ protected:
   constexpr DefaultEnvironmentEvents();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEnvironmentEvents(DefaultEnvironmentEvents&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents(DefaultEnvironmentEvents const&) = delete;
+  DefaultEnvironmentEvents(DefaultEnvironmentEventsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14835 };
 
+  /// [SerializeField]
   /// @brief Field _basicBeatmapEvents, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent*> ____basicBeatmapEvents;
 
+  /// [SerializeField]
   /// @brief Field _lightGroupEvents, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent*> ____lightGroupEvents;
 

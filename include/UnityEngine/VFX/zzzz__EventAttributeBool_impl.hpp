@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\EventAttributeBool.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/EventAttributeBool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeValue_1_impl.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeBool_def.hpp"

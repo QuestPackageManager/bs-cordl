@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AnnotatedBeatmapLevelCollectionCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/AnnotatedBeatmapLevelCollectionCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ MARK_REF_T(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*);
 MARK_VAL_T(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*, "", "AnnotatedBeatmapLevelCollectionCell");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23, "", "AnnotatedBeatmapLevelCollectionCell/<RefreshAvailabilityAsync>d__23");
+// [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Collections.Generic.List`1::Enumerator<T>, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
 // System.Threading.CancellationToken
 namespace GlobalNamespace {
@@ -73,6 +74,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a010d0, size 0x5e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a016b0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -83,13 +85,14 @@ public:
   // @brief default ctor
   constexpr AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell>", modifiers: "", def_value: None }, CppParam { name: "entitlementModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers:
-  // "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_numberOfOwnedLevels_5__3",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_error_5__4", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty:
-  // "::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::BeatmapLevel*>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell>", modifiers: "", def_value: None, comment: None }, CppParam { name: "entitlementModel", ty:
+  // "::GlobalNamespace::IEntitlementModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_numberOfOwnedLevels_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_error_5__4", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap4", ty: "::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::BeatmapLevel*>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                 ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell> __4__this,
                                                                                 ::GlobalNamespace::IEntitlementModel* entitlementModel, ::System::Threading::CancellationToken _cancellationToken_5__2,
@@ -221,6 +224,7 @@ public:
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell* New_ctor();
 
+  /// [AsyncStateMachine(typeof(AnnotatedBeatmapLevelCollectionCell::<RefreshAvailabilityAsync>d__23))]
   /// @brief Method RefreshAvailabilityAsync, addr 0x5a00fc8, size 0xb4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync(::GlobalNamespace::IEntitlementModel* entitlementModel);
 
@@ -323,9 +327,11 @@ public:
   /// @brief Method .ctor, addr 0x5a010a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cellIndex, addr 0x5a00bb8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cellIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method set_cellIndex, addr 0x5a00bc0, size 0x8, virtual false, abstract: false, final false
   inline void set_cellIndex(int32_t value);
 
@@ -335,50 +341,65 @@ protected:
   constexpr AnnotatedBeatmapLevelCollectionCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnnotatedBeatmapLevelCollectionCell(AnnotatedBeatmapLevelCollectionCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnnotatedBeatmapLevelCollectionCell(AnnotatedBeatmapLevelCollectionCell const&) = delete;
+  AnnotatedBeatmapLevelCollectionCell(AnnotatedBeatmapLevelCollectionCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6320 };
 
+  /// [SerializeField]
   /// @brief Field _infoText, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____infoText;
 
+  /// [SerializeField]
   /// @brief Field _coverImage, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____coverImage;
 
+  /// [SerializeField]
   /// @brief Field _selectionImage, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____selectionImage;
 
+  /// [SerializeField]
   /// @brief Field _downloadIconObject, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____downloadIconObject;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _newBadgeObject, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____newBadgeObject;
 
+  /// [SerializeField]
   /// @brief Field _updatedBadgeObject, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____updatedBadgeObject;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _selectedColor0, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedColor0;
 
+  /// [SerializeField]
   /// @brief Field _selectedColor1, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedColor1;
 
+  /// [SerializeField]
   /// @brief Field _highlightedColor0, offset: 0xb8, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightedColor0;
 
+  /// [SerializeField]
   /// @brief Field _highlightedColor1, offset: 0xc8, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightedColor1;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _defaultCoverSprite, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____defaultCoverSprite;
 
+  /// [CompilerGenerated]
   /// @brief Field <cellIndex>k__BackingField, offset: 0xe0, size: 0x4, def value: None
   int32_t ____cellIndex_k__BackingField;
 

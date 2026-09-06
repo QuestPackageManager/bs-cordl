@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Dropdown.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Dropdown.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/UI/zzzz__Dropdown_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -786,6 +787,7 @@ inline ::System::Object* UnityEngine::UI::Dropdown__DelayedDestroyDropdownList_d
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Dropdown__DelayedDestroyDropdownList_d__75*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UI::Dropdown__DelayedDestroyDropdownList_d__75* UnityEngine::UI::Dropdown__DelayedDestroyDropdownList_d__75::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UI::Dropdown__DelayedDestroyDropdownList_d__75*>(__1__state));
 }
@@ -1738,7 +1740,9 @@ inline void UnityEngine::UI::Dropdown::SetupTemplate(::UnityEngine::Canvas* root
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Dropdown*>(), { "SetupTemplate", {}, { ::i2c::type_of<::UnityEngine::Canvas*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rootCanvas);
 }
-template <typename T> inline T UnityEngine::UI::Dropdown::GetOrAddComponent(::UnityEngine::GameObject* go) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T UnityEngine::UI::Dropdown::GetOrAddComponent(::UnityEngine::GameObject* go) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Dropdown*>(), { "GetOrAddComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

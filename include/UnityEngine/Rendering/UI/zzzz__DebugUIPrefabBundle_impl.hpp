@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIPrefabBundle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIPrefabBundle.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIPrefabBundle_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"

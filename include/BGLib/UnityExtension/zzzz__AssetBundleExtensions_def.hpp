@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\AssetBundleExtensions.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/AssetBundleExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ MARK_REF_T(::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0*)
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::AssetBundleExtensions*, "BGLib.UnityExtension", "AssetBundleExtensions");
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0*, "BGLib.UnityExtension", "AssetBundleExtensions/<>c__DisplayClass0_0");
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0*, "BGLib.UnityExtension", "AssetBundleExtensions/<>c__DisplayClass1_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::UnityExtension {
 // Is value type: false
@@ -89,13 +90,13 @@ protected:
   constexpr AssetBundleExtensions___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleExtensions___c__DisplayClass0_0(AssetBundleExtensions___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleExtensions___c__DisplayClass0_0(AssetBundleExtensions___c__DisplayClass0_0 const&) = delete;
+  AssetBundleExtensions___c__DisplayClass0_0(AssetBundleExtensions___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20788 };
@@ -116,6 +117,7 @@ static_assert(offsetof(::BGLib::UnityExtension::AssetBundleExtensions___c__Displ
 static_assert(sizeof(::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0) == 0x20, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::UnityExtension {
 // Is value type: false
@@ -156,13 +158,13 @@ protected:
   constexpr AssetBundleExtensions___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleExtensions___c__DisplayClass1_0(AssetBundleExtensions___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleExtensions___c__DisplayClass1_0(AssetBundleExtensions___c__DisplayClass1_0 const&) = delete;
+  AssetBundleExtensions___c__DisplayClass1_0(AssetBundleExtensions___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20789 };
@@ -183,6 +185,7 @@ static_assert(offsetof(::BGLib::UnityExtension::AssetBundleExtensions___c__Displ
 static_assert(sizeof(::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0) == 0x20, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
+// [Extension]
 // Dependencies System.Object
 namespace BGLib::UnityExtension {
 // Is value type: false
@@ -194,9 +197,11 @@ public:
 
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0;
 
+  /// [Extension]
   /// @brief Method GetAwaiter, addr 0x33280d0, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>> GetAwaiter(::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest);
 
+  /// [Extension]
   /// @brief Method GetAwaiter, addr 0x3328214, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> GetAwaiter(::UnityEngine::ResourceRequest* resourceRequest);
 
@@ -206,13 +211,13 @@ protected:
   constexpr AssetBundleExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleExtensions(AssetBundleExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleExtensions(AssetBundleExtensions const&) = delete;
+  AssetBundleExtensions(AssetBundleExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20790 };

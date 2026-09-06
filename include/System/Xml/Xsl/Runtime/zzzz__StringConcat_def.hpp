@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Xsl\Runtime\StringConcat.hpp"
+// IWYU pragma private; include "System/Xml/Xsl/Runtime/StringConcat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct StringConcat;
 // Write type traits
 MARK_VAL_T(::System::Xml::Xsl::Runtime::StringConcat);
 DEFINE_IL2CPP_CLASS(::System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");
+// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
 // Dependencies
 namespace System::Xml::Xsl::Runtime {
 // Is value type: true
@@ -42,10 +43,10 @@ public:
   // @brief default ctor
   constexpr StringConcat();
 
-  // Ctor Parameters [CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s3", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "s4", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "delimiter", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "strList", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "idxStr", ty: "int32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "s3", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "s4", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "delimiter", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "strList", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "idxStr", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StringConcat(::StringW s1, ::StringW s2, ::StringW s3, ::StringW s4, ::StringW delimiter, ::System::Collections::Generic::List_1<::StringW>* strList, int32_t idxStr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

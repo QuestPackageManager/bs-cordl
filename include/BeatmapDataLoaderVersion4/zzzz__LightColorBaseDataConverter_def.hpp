@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4\LightColorBaseDataConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/LightColorBaseDataConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ protected:
   constexpr LightColorBaseDataConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseDataConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseDataConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightColorBaseDataConverter(LightColorBaseDataConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseDataConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseDataConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightColorBaseDataConverter(LightColorBaseDataConverter const&) = delete;
+  LightColorBaseDataConverter(LightColorBaseDataConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15443 };

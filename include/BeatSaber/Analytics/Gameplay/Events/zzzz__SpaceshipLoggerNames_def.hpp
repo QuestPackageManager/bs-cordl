@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipLoggerNames.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipLoggerNames.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class SpaceshipLoggerNames;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::Events::SpaceshipLoggerNames*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::Events::SpaceshipLoggerNames*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipLoggerNames");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay::Events {
 // Is value type: false
@@ -26,13 +28,13 @@ protected:
   constexpr SpaceshipLoggerNames();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipLoggerNames", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipLoggerNames", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpaceshipLoggerNames(SpaceshipLoggerNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipLoggerNames", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipLoggerNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipLoggerNames(SpaceshipLoggerNames const&) = delete;
+  SpaceshipLoggerNames(SpaceshipLoggerNamesconst&) = delete;
 
   /// @brief Field Custom offset 0xffffffff size 0x8
   static constexpr ::ConstString Custom{ u"OCSpaceshipFirstPartyCustomEventsFunctionalLogger" };

@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\URPDefaultVolumeProfileSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/URPDefaultVolumeProfileSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPDefaultVolumeProfileSettings_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPDefaultVolumeProfileSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IDefaultVolumeProfileSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeProfile_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings_Version::URPDefaultVolumeProfileSettings_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }

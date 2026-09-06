@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\LowLevelListWithIList_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/LowLevelListWithIList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,8 +102,9 @@ public:
   // @brief default ctor
   constexpr LowLevelListWithIList_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LowLevelListWithIList_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LowLevelListWithIList_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_current", ty: "T",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr LowLevelListWithIList_1_Enumerator(::System::Collections::Generic::LowLevelListWithIList_1<T>* _list, int32_t _index, int32_t _version, T _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -190,13 +191,13 @@ protected:
   constexpr LowLevelListWithIList_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LowLevelListWithIList_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LowLevelListWithIList_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LowLevelListWithIList_1(LowLevelListWithIList_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LowLevelListWithIList_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LowLevelListWithIList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LowLevelListWithIList_1(LowLevelListWithIList_1 const&) = delete;
+  LowLevelListWithIList_1(LowLevelListWithIList_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3801 };

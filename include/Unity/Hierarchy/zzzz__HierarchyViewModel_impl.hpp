@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyViewModel.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyViewModel.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyViewModel_def.hpp"
@@ -85,10 +85,10 @@ inline bool Unity::Hierarchy::HierarchyViewModel_Enumerator::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel_Enumerator>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_ViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_HierarchyFlattened", ty:
-// "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NodesPtr", ty: "int32_t*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_NodesCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_HierarchyFlattened", ty:
+// "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NodesPtr", ty: "int32_t*", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "m_NodesCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyViewModel_Enumerator::HierarchyViewModel_Enumerator(::Unity::Hierarchy::HierarchyViewModel* m_ViewModel,
                                                                                            ::Unity::Hierarchy::HierarchyFlattened* m_HierarchyFlattened, int32_t* m_NodesPtr, int32_t m_NodesCount,
                                                                                            int32_t m_Version, int32_t m_Index) noexcept {
@@ -854,36 +854,36 @@ inline ::by_ref<::Unity::Hierarchy::HierarchyNode> Unity::Hierarchy::HierarchyVi
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::Unity::Hierarchy::HierarchyNode>>(this, ___internal_method, index);
 }
-inline int32_t Unity::Hierarchy::HierarchyViewModel::IndexOf(::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline int32_t Unity::Hierarchy::HierarchyViewModel::IndexOf(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "IndexOf", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, node);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::Contains(::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline bool Unity::Hierarchy::HierarchyViewModel::Contains(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "Contains", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node);
 }
-inline int32_t Unity::Hierarchy::HierarchyViewModel::GetChildrenCount(::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline int32_t Unity::Hierarchy::HierarchyViewModel::GetChildrenCount(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "GetChildrenCount", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, node);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::SetFlags(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
+inline void Unity::Hierarchy::HierarchyViewModel::SetFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                           { "SetFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags, recurse);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlags(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                               { "HasAllFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::ClearFlags(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
+inline void Unity::Hierarchy::HierarchyViewModel::ClearFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
@@ -925,7 +925,7 @@ inline void Unity::Hierarchy::HierarchyViewModel::Destroy(::System::IntPtr nativ
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "Destroy", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, nativePtr);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
+inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -933,13 +933,13 @@ inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode(::by_ref<::Unity:
                        { "SetFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags, recurse);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                               { "HasAllFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
+inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -979,19 +979,19 @@ inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor* Unity::Hierarchy::Hie
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "get_Query_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(nullptr, ___internal_method, _unity_self);
 }
-inline int32_t Unity::Hierarchy::HierarchyViewModel::IndexOf_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline int32_t Unity::Hierarchy::HierarchyViewModel::IndexOf_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                            { "IndexOf_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, _unity_self, node);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::Contains_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline bool Unity::Hierarchy::HierarchyViewModel::Contains_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                            { "Contains_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, node);
 }
-inline int32_t Unity::Hierarchy::HierarchyViewModel::GetChildrenCount_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline int32_t Unity::Hierarchy::HierarchyViewModel::GetChildrenCount_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                               { "GetChildrenCount_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
@@ -1012,8 +1012,8 @@ inline ::System::IntPtr Unity::Hierarchy::HierarchyViewModel::Create_Injected(::
                                                                ::i2c::type_of<::by_ref<::System::IntPtr>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, handlePtr, hierarchyFlattened, defaultFlags, nodesPtr, nodesCount, version);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
-                                                                        bool recurse) {
+inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+                                                                        ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                                                          { "SetFlagsNode_Injected",
                                                                                            {},
@@ -1021,7 +1021,7 @@ inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode_Injected(::System
                                                                                              ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, node, flags, recurse);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
                                                                            ::Unity::Hierarchy::HierarchyNodeFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1031,8 +1031,8 @@ inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode_Injected(::Sys
                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
-                                                                          bool recurse) {
+inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+                                                                          ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                                                          { "ClearFlagsNode_Injected",
                                                                                            {},

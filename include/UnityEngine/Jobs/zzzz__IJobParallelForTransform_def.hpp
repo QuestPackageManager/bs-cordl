@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Jobs\IJobParallelForTransform.hpp"
+// IWYU pragma private; include "UnityEngine/Jobs/IJobParallelForTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class IJobParallelForTransform;
 // Write type traits
 MARK_REF_T(::UnityEngine::Jobs::IJobParallelForTransform*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Jobs::IJobParallelForTransform*, "UnityEngine.Jobs", "IJobParallelForTransform");
+// [JobProducerType(typeof(UnityEngine.Jobs.IJobParallelForTransformExtensions::TransformParallelForLoopStruct`1<T>))]
 // Dependencies
 namespace UnityEngine::Jobs {
 // Is value type: false
@@ -22,12 +23,12 @@ namespace UnityEngine::Jobs {
 class CORDL_TYPE IJobParallelForTransform {
 public:
   // Declarations
-  /// @brief Method Execute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobParallelForTransform(IJobParallelForTransform const&) = delete;
+  IJobParallelForTransform(IJobParallelForTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10432 };

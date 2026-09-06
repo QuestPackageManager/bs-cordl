@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRDisplaySubsystem.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRDisplaySubsystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
   // @brief default ctor
   constexpr XRDisplaySubsystem_LateLatchNode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XRDisplaySubsystem_LateLatchNode(int32_t value__) noexcept;
 
   /// @brief Field Head value: I32(0)
@@ -121,6 +121,7 @@ static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_LateLatchNode, valu
 static_assert(sizeof(::UnityEngine::XR::XRDisplaySubsystem_LateLatchNode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::XR
+// [Flags]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -151,7 +152,7 @@ public:
   // @brief default ctor
   constexpr XRDisplaySubsystem_TextureLayout();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XRDisplaySubsystem_TextureLayout(int32_t value__) noexcept;
 
   /// @brief Field SeparateTexture2Ds value: I32(4)
@@ -180,6 +181,7 @@ static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_TextureLayout, valu
 static_assert(sizeof(::UnityEngine::XR::XRDisplaySubsystem_TextureLayout) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::XR
+// [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
 // Dependencies UnityEngine.Matrix4x4, UnityEngine.Rect
 namespace UnityEngine::XR {
 // Is value type: true
@@ -191,10 +193,11 @@ public:
   // @brief default ctor
   constexpr XRDisplaySubsystem_XRRenderParameter();
 
-  // Ctor Parameters [CppParam { name: "view", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "projection", ty: "::UnityEngine::Matrix4x4", modifiers: "",
-  // def_value: None }, CppParam { name: "viewport", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "occlusionMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "",
-  // def_value: None }, CppParam { name: "textureArraySlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "previousView", ty: "::UnityEngine::Matrix4x4", modifiers: "",
-  // def_value: None }, CppParam { name: "isPreviousViewValid", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "view", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "projection", ty: "::UnityEngine::Matrix4x4",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "viewport", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionMesh", ty:
+  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "textureArraySlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "previousView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "isPreviousViewValid", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr XRDisplaySubsystem_XRRenderParameter(::UnityEngine::Matrix4x4 view, ::UnityEngine::Matrix4x4 projection, ::UnityEngine::Rect viewport, ::UnityW<::UnityEngine::Mesh> occlusionMesh,
                                                  int32_t textureArraySlice, ::UnityEngine::Matrix4x4 previousView, bool isPreviousViewValid) noexcept;
 
@@ -245,6 +248,9 @@ static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, 
 static_assert(sizeof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter) == 0xe0, "Size mismatch!");
 
 } // namespace UnityEngine::XR
+// [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
+// [NativeHeader("Runtime/Graphics/CommandBuffer/RenderingCommandBuffer.h")]
+// [NativeHeader("Runtime/Graphics/RenderTextureDesc.h")]
 // Dependencies System.IntPtr, UnityEngine.RenderTextureDescriptor, UnityEngine.Rendering.RenderTargetIdentifier
 namespace UnityEngine::XR {
 // Is value type: true
@@ -252,9 +258,13 @@ namespace UnityEngine::XR {
 struct CORDL_TYPE XRDisplaySubsystem_XRRenderPass {
 public:
   // Declarations
+  /// [NativeMethod(Name = "XRRenderPassScriptApi::GetRenderParameter", IsFreeFunction = true, HasExplicitThis = true, ThrowsException = true)]
+  /// [NativeConditional("ENABLE_XR")]
   /// @brief Method GetRenderParameter, addr 0x6e38ed4, size 0xa8, virtual false, abstract: false, final false
   inline void GetRenderParameter(::UnityEngine::Camera* camera, int32_t renderParameterIndex, ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter> renderParameter);
 
+  /// [NativeMethod(Name = "XRRenderPassScriptApi::GetRenderParameterCount", IsFreeFunction = true, HasExplicitThis = true)]
+  /// [NativeConditional("ENABLE_XR")]
   /// @brief Method GetRenderParameterCount, addr 0x6e38fd8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetRenderParameterCount();
 
@@ -266,12 +276,13 @@ public:
   // @brief default ctor
   constexpr XRDisplaySubsystem_XRRenderPass();
 
-  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "renderPassIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "renderTargetDesc", ty:
-  // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "motionVectorRenderTargetDesc", ty:
-  // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "shouldFillOutDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "foveatedRenderingInfo", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderPassIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "renderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None, comment: None }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "motionVectorRenderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldFillOutDepth", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "foveatedRenderingInfo", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr XRDisplaySubsystem_XRRenderPass(::System::IntPtr displaySubsystemInstance, int32_t renderPassIndex, ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget,
                                             ::UnityEngine::RenderTextureDescriptor renderTargetDesc, bool hasMotionVectorPass,
                                             ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget, ::UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc,
@@ -339,6 +350,8 @@ static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, fovea
 static_assert(sizeof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass) == 0xe0, "Size mismatch!");
 
 } // namespace UnityEngine::XR
+// [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
+// [NativeHeader("Runtime/Graphics/RenderTexture.h")]
 // Dependencies System.IntPtr, UnityEngine.ColorGamut, UnityEngine.Rect
 namespace UnityEngine::XR {
 // Is value type: true
@@ -350,10 +363,11 @@ public:
   // @brief default ctor
   constexpr XRDisplaySubsystem_XRBlitParams();
 
-  // Ctor Parameters [CppParam { name: "srcTex", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "srcTexArraySlice", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "srcRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "destRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None
-  // }, CppParam { name: "foveatedRenderingInfo", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "srcHdrEncoded", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "srcHdrColorGamut", ty: "::UnityEngine::ColorGamut", modifiers: "", def_value: None }, CppParam { name: "srcHdrMaxLuminance", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "srcTex", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "srcTexArraySlice", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "srcRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "destRect", ty:
+  // "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "foveatedRenderingInfo", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "srcHdrEncoded", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "srcHdrColorGamut", ty: "::UnityEngine::ColorGamut", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "srcHdrMaxLuminance", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XRDisplaySubsystem_XRBlitParams(::UnityW<::UnityEngine::RenderTexture> srcTex, int32_t srcTexArraySlice, ::UnityEngine::Rect srcRect, ::UnityEngine::Rect destRect,
                                             ::System::IntPtr foveatedRenderingInfo, bool srcHdrEncoded, ::UnityEngine::ColorGamut srcHdrColorGamut, int32_t srcHdrMaxLuminance) noexcept;
 
@@ -409,6 +423,7 @@ static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRBlitParams, srcHd
 static_assert(sizeof(::UnityEngine::XR::XRDisplaySubsystem_XRBlitParams) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::XR
+// [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
 // Dependencies System.IntPtr
 namespace UnityEngine::XR {
 // Is value type: true
@@ -416,6 +431,8 @@ namespace UnityEngine::XR {
 struct CORDL_TYPE XRDisplaySubsystem_XRMirrorViewBlitDesc {
 public:
   // Declarations
+  /// [NativeMethod(Name = "XRMirrorViewBlitDescScriptApi::GetBlitParameter", IsFreeFunction = true, HasExplicitThis = true)]
+  /// [NativeConditional("ENABLE_XR")]
   /// @brief Method GetBlitParameter, addr 0x6e39014, size 0x54, virtual false, abstract: false, final false
   inline void GetBlitParameter(int32_t blitParameterIndex, ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRBlitParams> blitParameter);
 
@@ -423,8 +440,9 @@ public:
   // @brief default ctor
   constexpr XRDisplaySubsystem_XRMirrorViewBlitDesc();
 
-  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "nativeBlitAvailable", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "nativeBlitInvalidStates", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "blitParamsCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "nativeBlitAvailable", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "nativeBlitInvalidStates", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "blitParamsCount", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XRDisplaySubsystem_XRMirrorViewBlitDesc(::System::IntPtr displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -475,13 +493,13 @@ protected:
   constexpr XRDisplaySubsystem_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystem_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystem_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRDisplaySubsystem_BindingsMarshaller(XRDisplaySubsystem_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystem_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystem_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRDisplaySubsystem_BindingsMarshaller(XRDisplaySubsystem_BindingsMarshaller const&) = delete;
+  XRDisplaySubsystem_BindingsMarshaller(XRDisplaySubsystem_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22177 };

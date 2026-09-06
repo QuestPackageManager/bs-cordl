@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ModifiableContact.hpp"
+// IWYU pragma private; include "UnityEngine/ModifiableContact.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,11 +26,12 @@ public:
   // @brief default ctor
   constexpr ModifiableContact();
 
-  // Ctor Parameters [CppParam { name: "contact", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "separation", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "targetVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "maxImpulse", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "restitution", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "materialFlags", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "materialIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "otherMaterialIndex", ty: "uint16_t", modifiers:
-  // "", def_value: None }, CppParam { name: "staticFriction", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "dynamicFriction", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "contact", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "separation", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "targetVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxImpulse", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "restitution", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "materialFlags", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "materialIndex", ty:
+  // "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "otherMaterialIndex", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "staticFriction", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "dynamicFriction", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ModifiableContact(::UnityEngine::Vector3 contact, float_t separation, ::UnityEngine::Vector3 targetVelocity, float_t maxImpulse, ::UnityEngine::Vector3 normal, float_t restitution,
                               uint32_t materialFlags, uint16_t materialIndex, uint16_t otherMaterialIndex, float_t staticFriction, float_t dynamicFriction) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerBeatmapObjectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerBeatmapObjectManager.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -462,9 +462,11 @@ inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Obstac
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::_ctor(
     ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* beatmapObjectEventManager,
-    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* gameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderHeadGameNotePool,
-    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderGameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* bombNotePool,
-    ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* obstaclePool, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider) {
+    /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* gameNotePool,
+    /* [Inject(Id = (NoteData::GameplayType)2)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderHeadGameNotePool,
+    /* [Inject(Id = (NoteData::GameplayType)3)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderGameNotePool,
+    ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* bombNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* obstaclePool,
+    ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -484,19 +486,20 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::Dis
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData,
-                                                                                                 ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
+                                                                                                 /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obstacleData, obstacleSpawnData);
 }
-inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
+inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::ProcessNoteData(::GlobalNamespace::NoteData* noteData,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
                                                                                              bool forceIsFirstNoteBehaviour) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNoteBehaviour);
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::ProcessSliderData(::GlobalNamespace::SliderData* sliderData,
-                                                                                               ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
+                                                                                               /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderData, sliderSpawnData);
@@ -552,9 +555,11 @@ inline bool GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::Are
 }
 inline ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager* GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::New_ctor(
     ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* beatmapObjectEventManager,
-    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* gameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderHeadGameNotePool,
-    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderGameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* bombNotePool,
-    ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* obstaclePool, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider) {
+    /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* gameNotePool,
+    /* [Inject(Id = (NoteData::GameplayType)2)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderHeadGameNotePool,
+    /* [Inject(Id = (NoteData::GameplayType)3)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderGameNotePool,
+    ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* bombNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* obstaclePool,
+    ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider) {
   return THROW_UNLESS(::i2c::no_logger{},
                       ::i2c::new_ctor<::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*>(initData, beatmapObjectEventManager, gameNotePool, burstSliderHeadGameNotePool,
                                                                                                           burstSliderGameNotePool, bombNotePool, obstaclePool, variableMovementDataProvider));

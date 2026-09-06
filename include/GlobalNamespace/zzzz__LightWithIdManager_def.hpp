@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightWithIdManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightWithIdManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,13 +94,13 @@ protected:
   constexpr LightWithIdManager_LightMapData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager_LightMapData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager_LightMapData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightWithIdManager_LightMapData(LightWithIdManager_LightMapData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager_LightMapData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager_LightMapData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightWithIdManager_LightMapData(LightWithIdManager_LightMapData const&) = delete;
+  LightWithIdManager_LightMapData(LightWithIdManager_LightMapDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19540 };
@@ -126,6 +126,7 @@ static_assert(offsetof(::GlobalNamespace::LightWithIdManager_LightMapData, ___ha
 static_assert(sizeof(::GlobalNamespace::LightWithIdManager_LightMapData) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -161,13 +162,13 @@ protected:
   constexpr LightWithIdManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightWithIdManager___c(LightWithIdManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightWithIdManager___c(LightWithIdManager___c const&) = delete;
+  LightWithIdManager___c(LightWithIdManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19541 };
@@ -178,6 +179,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::LightWithIdManager___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteAlways]
 // Dependencies LightGroup, LightWithIdManager::LightMapData, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -269,9 +271,11 @@ public:
   /// @brief Method .ctor, addr 0x586efc0, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didChangeSomeColorsThisFrameEvent, addr 0x586de70, size 0xac, virtual false, abstract: false, final false
   inline void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didChangeSomeColorsThisFrameEvent, addr 0x586df1c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
@@ -281,13 +285,13 @@ protected:
   constexpr LightWithIdManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightWithIdManager(LightWithIdManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightWithIdManager(LightWithIdManager const&) = delete;
+  LightWithIdManager(LightWithIdManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19542 };
@@ -295,9 +299,11 @@ public:
   /// @brief Field kMaxLightId offset 0xffffffff size 0x4
   static constexpr int32_t kMaxLightId{ static_cast<int32_t>(0x226) };
 
+  /// [CompilerGenerated]
   /// @brief Field didChangeSomeColorsThisFrameEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___didChangeSomeColorsThisFrameEvent;
 
+  /// [Inject]
   /// @brief Field _lightGroups, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>> ____lightGroups;
 

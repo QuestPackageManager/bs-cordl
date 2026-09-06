@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectSpawnCenter.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectSpawnCenter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,20 +73,22 @@ protected:
   constexpr BeatmapObjectSpawnCenter_PlayerCountToDistance();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter_PlayerCountToDistance", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter_PlayerCountToDistance", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectSpawnCenter_PlayerCountToDistance(BeatmapObjectSpawnCenter_PlayerCountToDistance&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter_PlayerCountToDistance", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter_PlayerCountToDistance", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectSpawnCenter_PlayerCountToDistance(BeatmapObjectSpawnCenter_PlayerCountToDistance const&) = delete;
+  BeatmapObjectSpawnCenter_PlayerCountToDistance(BeatmapObjectSpawnCenter_PlayerCountToDistanceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5626 };
 
+  /// [SerializeField]
   /// @brief Field _playerCount, offset: 0x10, size: 0x4, def value: None
   int32_t ____playerCount;
 
+  /// [SerializeField]
   /// @brief Field _distance, offset: 0x14, size: 0x4, def value: None
   float_t ____distance;
 
@@ -170,6 +172,7 @@ public:
   /// @brief Method .ctor, addr 0x58c9ce0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_spawnCenterDistanceWasFoundEvent, addr 0x58c99bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
@@ -179,6 +182,7 @@ public:
   /// @brief Method get_spawnCenterDistanceWasFound, addr 0x58c99b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_spawnCenterDistanceWasFound();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_spawnCenterDistanceWasFoundEvent, addr 0x58c9a7c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
@@ -188,23 +192,26 @@ protected:
   constexpr BeatmapObjectSpawnCenter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectSpawnCenter(BeatmapObjectSpawnCenter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnCenter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectSpawnCenter(BeatmapObjectSpawnCenter const&) = delete;
+  BeatmapObjectSpawnCenter(BeatmapObjectSpawnCenterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5627 };
 
+  /// [SerializeField]
   /// @brief Field _distances, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*> ____distances;
 
+  /// [SerializeField]
   /// @brief Field _defaultDistnace, offset: 0x28, size: 0x4, def value: None
   float_t ____defaultDistnace;
 
+  /// [CompilerGenerated]
   /// @brief Field spawnCenterDistanceWasFoundEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___spawnCenterDistanceWasFoundEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Web\REST.hpp"
+// IWYU pragma private; include "OSCE/Web/REST.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,6 +133,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f37cb8, size 0x760, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f38418, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -143,14 +144,14 @@ public:
   // @brief default ctor
   constexpr __c__DisplayClass10_0_REST___PostAsync_b__0_d();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST___c__DisplayClass10_0*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancelToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_client_5__2", ty:
-  // "::System::Net::Http::HttpClient*", modifiers: "", def_value: None }, CppParam { name: "_httpContent_5__3", ty: "::System::Net::Http::StringContent*", modifiers: "", def_value: None }, CppParam {
-  // name: "_uri_5__4", ty: "::System::Uri*", modifiers: "", def_value: None }, CppParam { name: "_result_5__5", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Uri*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST___c__DisplayClass10_0*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancelToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_client_5__2", ty: "::System::Net::Http::HttpClient*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_httpContent_5__3", ty: "::System::Net::Http::StringContent*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_uri_5__4", ty: "::System::Uri*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_result_5__5", ty:
+  // "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Uri*>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr __c__DisplayClass10_0_REST___PostAsync_b__0_d(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                           ::OSCE::Web::REST___c__DisplayClass10_0* __4__this, ::System::Threading::CancellationToken cancelToken,
                                                           ::System::Net::Http::HttpClient* _client_5__2, ::System::Net::Http::StringContent* _httpContent_5__3, ::System::Uri* _uri_5__4,
@@ -225,6 +226,7 @@ static_assert(offsetof(::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_
 static_assert(sizeof(::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d) == 0x68, "Size mismatch!");
 
 } // namespace OSCE::Web
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OSCE::Web {
 // Is value type: false
@@ -254,6 +256,7 @@ public:
 
   static inline ::OSCE::Web::REST___c__DisplayClass10_0* New_ctor();
 
+  /// [AsyncStateMachine(typeof(OSCE.Web.REST::<>c__DisplayClass10_0::<<PostAsync>b__0>d))]
   /// @brief Method <PostAsync>b__0, addr 0x5f37bf0, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _PostAsync_b__0(::System::Threading::CancellationToken cancelToken);
 
@@ -302,13 +305,13 @@ protected:
   constexpr REST___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "REST___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "REST___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   REST___c__DisplayClass10_0(REST___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "REST___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "REST___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  REST___c__DisplayClass10_0(REST___c__DisplayClass10_0 const&) = delete;
+  REST___c__DisplayClass10_0(REST___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21890 };
@@ -349,6 +352,7 @@ static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___response) == 
 static_assert(sizeof(::OSCE::Web::REST___c__DisplayClass10_0) == 0x40, "Size mismatch!");
 
 } // namespace OSCE::Web
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OSCE::Web {
 // Is value type: true
@@ -362,6 +366,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f38484, size 0x314, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f38798, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -372,11 +377,11 @@ public:
   // @brief default ctor
   constexpr REST__BuildQueryString_d__12();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "query", ty:
-  // "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None }, CppParam { name: "isFirstParameter", ty: "bool", modifiers: "", def_value: None }, CppParam
-  // { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "query", ty:
+  // "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "isFirstParameter", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr REST__BuildQueryString_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
                                          ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query, bool isFirstParameter, ::StringW __7__wrap1, ::StringW __7__wrap2,
                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
@@ -428,6 +433,7 @@ static_assert(offsetof(::OSCE::Web::REST__BuildQueryString_d__12, __u__1) == 0x4
 static_assert(sizeof(::OSCE::Web::REST__BuildQueryString_d__12) == 0x48, "Size mismatch!");
 
 } // namespace OSCE::Web
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OSCE::Web {
 // Is value type: true
@@ -441,6 +447,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f38818, size 0x418, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f38c74, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -451,11 +458,11 @@ public:
   // @brief default ctor
   constexpr REST__BuildUri_d__11();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Uri*>", modifiers: "", def_value: None }, CppParam { name: "auth", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "query", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Uri*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "auth", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "query", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr REST__BuildUri_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Uri*> __t__builder, ::StringW auth,
                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query, ::StringW path, ::StringW __7__wrap1,
                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
@@ -507,6 +514,7 @@ static_assert(offsetof(::OSCE::Web::REST__BuildUri_d__11, __u__1) == 0x40, "Offs
 static_assert(sizeof(::OSCE::Web::REST__BuildUri_d__11) == 0x48, "Size mismatch!");
 
 } // namespace OSCE::Web
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace OSCE::Web {
 // Is value type: true
@@ -520,6 +528,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f38cf4, size 0x474, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f39168, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -530,15 +539,16 @@ public:
   // @brief default ctor
   constexpr REST__PostAsync_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST*", modifiers: "", def_value:
-  // None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "auth", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "queryParams", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None }, CppParam
-  // { name: "attempts", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cancel", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name:
-  // "__8__1", ty: "::OSCE::Web::REST___c__DisplayClass10_0*", modifiers: "", def_value: None }, CppParam { name: "batchToSend", ty: "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "",
-  // def_value: None }, CppParam { name: "onFail", ty: "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: None }, CppParam { name: "onSucceed", ty:
-  // "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "auth", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "queryParams", ty:
+  // "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "attempts", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "cancel", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
+  // "::OSCE::Web::REST___c__DisplayClass10_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchToSend", ty: "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "onFail", ty: "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "onSucceed", ty: "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr REST__PostAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::OSCE::Web::REST* __4__this, ::StringW json,
                                   ::StringW path, ::StringW auth, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams, int32_t attempts,
                                   ::System::Threading::CancellationToken cancel, ::OSCE::Web::REST___c__DisplayClass10_0* __8__1, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
@@ -627,6 +637,7 @@ static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, __u__1) == 0x78, "Off
 static_assert(sizeof(::OSCE::Web::REST__PostAsync_d__10) == 0x80, "Size mismatch!");
 
 } // namespace OSCE::Web
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OSCE::Web {
 // Is value type: true
@@ -640,6 +651,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f391e8, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f3948c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -650,13 +662,14 @@ public:
   // @brief default ctor
   constexpr REST__PostRequest_d__7();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "authToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "batchToSend", ty:
-  // "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "", def_value: None }, CppParam { name: "onSucceed", ty: "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*",
-  // modifiers: "", def_value: None }, CppParam { name: "onFail", ty: "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: None }, CppParam { name:
-  // "attempts", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "queryParams", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "authToken", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "batchToSend", ty: "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "", def_value: None, comment: None }, CppParam { name: "onSucceed", ty:
+  // "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "onFail", ty:
+  // "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "attempts", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "queryParams", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr REST__PostRequest_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::StringW path, ::StringW authToken, ::StringW json,
                                    ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                                    ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail, int32_t attempts,
@@ -761,9 +774,11 @@ public:
   /// @brief Field _timer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer)) ::System::Diagnostics::Stopwatch* _timer;
 
+  /// [AsyncStateMachine(typeof(OSCE.Web.REST::<BuildQueryString>d__12))]
   /// @brief Method BuildQueryString, addr 0x5f37a9c, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* BuildQueryString(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query, bool isFirstParameter);
 
+  /// [AsyncStateMachine(typeof(OSCE.Web.REST::<BuildUri>d__11))]
   /// @brief Method BuildUri, addr 0x5f379a8, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Uri*>* BuildUri(::StringW path, ::StringW auth, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query);
 
@@ -775,12 +790,14 @@ public:
 
   static inline ::OSCE::Web::REST* New_ctor();
 
+  /// [AsyncStateMachine(typeof(OSCE.Web.REST::<PostAsync>d__10))]
   /// @brief Method PostAsync, addr 0x5f37868, size 0x140, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* PostAsync(::StringW path, ::StringW auth, ::StringW json, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                                                   ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                                                                   ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail, ::System::Threading::CancellationToken cancel,
                                                                   int32_t attempts, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams);
 
+  /// [AsyncStateMachine(typeof(OSCE.Web.REST::<PostRequest>d__7))]
   /// @brief Method PostRequest, addr 0x5f373a0, size 0xf4, virtual false, abstract: false, final false
   static inline void PostRequest(::StringW path, ::StringW authToken, ::StringW json, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                  ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed, ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail,
@@ -821,13 +838,13 @@ protected:
   constexpr REST();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "REST", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "REST", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   REST(REST&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "REST", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "REST", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  REST(REST const&) = delete;
+  REST(RESTconst&) = delete;
 
   /// @brief Field EXPIRE_SECONDS offset 0xffffffff size 0x4
   static constexpr int32_t EXPIRE_SECONDS{ static_cast<int32_t>(0x78) };

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Authentication\ExtendedProtection\PolicyEnforcement.hpp"
+// IWYU pragma private; include "System/Security/Authentication/ExtendedProtection/PolicyEnforcement.hpp"
 #include "System/Security/Authentication/ExtendedProtection/zzzz__PolicyEnforcement_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Security::Authentication::ExtendedProtection::PolicyEnforcement::PolicyEnforcement(int32_t value__) noexcept {
   this->value__ = value__;
 }

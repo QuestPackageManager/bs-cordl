@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls\VRGraphicRaycaster.hpp"
+// IWYU pragma private; include "VRUIControls/VRGraphicRaycaster.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
@@ -45,9 +45,9 @@ inline void VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult::_ctor(::Uni
           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UI::Graphic*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, graphic, distance, position, insideRootCanvasPosition);
 }
-// Ctor Parameters [CppParam { name: "graphic", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: Some("{}") }, CppParam { name: "distance", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "insideRootCanvasPosition", ty:
-// "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "graphic", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "distance", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "insideRootCanvasPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult::VRGraphicRaycaster_VRGraphicRaycastResult(::UnityW<::UnityEngine::UI::Graphic> graphic, float_t distance,
                                                                                                                ::UnityEngine::Vector3 position,
                                                                                                                ::UnityEngine::Vector2 insideRootCanvasPosition) noexcept {

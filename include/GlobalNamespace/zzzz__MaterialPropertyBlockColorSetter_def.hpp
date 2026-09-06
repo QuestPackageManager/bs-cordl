@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockColorSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockColorSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,7 @@ public:
   __declspec(property(get = get_materialPropertyBlockController, put = set_materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       materialPropertyBlockController;
 
+  /// [Button("Add Necessary Components")]
   /// @brief Method AddNecessaryComponents, addr 0x5871ec8, size 0xfc, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
 
@@ -178,41 +179,58 @@ protected:
   constexpr MaterialPropertyBlockColorSetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockColorSetter(MaterialPropertyBlockColorSetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockColorSetter(MaterialPropertyBlockColorSetter const&) = delete;
+  MaterialPropertyBlockColorSetter(MaterialPropertyBlockColorSetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19568 };
 
+  /// [SerializeField]
   /// @brief Field _useTestColor, offset: 0x20, size: 0x1, def value: None
   bool ____useTestColor;
 
+  /// [SerializeField]
+  /// [DrawIf("_useTestColor", true, (DrawIfAttribute::DisablingType)1)]
+  /// [ColorUsage(true, true)]
   /// @brief Field _testColor, offset: 0x24, size: 0x10, def value: None
   ::UnityEngine::Color ____testColor;
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromProperty("_materialPropertyBlockController", "_renderers", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)1)]
   /// @brief Field _property, offset: 0x38, size: 0x8, def value: None
   ::StringW ____property;
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [SerializeField]
   /// @brief Field _inverseAlpha, offset: 0x48, size: 0x1, def value: None
   bool ____inverseAlpha;
 
+  /// [SerializeField]
   /// @brief Field _disableOnZeroAlpha, offset: 0x49, size: 0x1, def value: None
   bool ____disableOnZeroAlpha;
 
+  /// [SerializeField]
   /// @brief Field _sendAlphaToProperty, offset: 0x4a, size: 0x1, def value: None
   bool ____sendAlphaToProperty;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
+  /// [DrawIf("_sendAlphaToProperty", true, (DrawIfAttribute::DisablingType)1)]
+  /// [ShaderPropertyIDFromProperty("_materialPropertyBlockController", "_renderers", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)3)]
   /// @brief Field _alphaProperty, offset: 0x50, size: 0x8, def value: None
   ::StringW ____alphaProperty;
 
+  /// [InfoBox("Will be deprecated - functionality now in InstancedMaterialLightWithId", (BGLib.UnityExtension.InfoBoxAttribute::Type)1)]
+  /// [Tooltip("Will be deprecated - functionality now in InstancedMaterialLightWithId")]
+  /// [SerializeField]
   /// @brief Field _multiplyWithAlpha, offset: 0x58, size: 0x1, def value: None
   bool ____multiplyWithAlpha;
 

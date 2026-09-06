@@ -1,9 +1,15 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRLoaderHelper.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRLoaderHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__ISubsystem_def.hpp"
+#include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
+#include "UnityEngine/zzzz__SubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__Subsystem_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(XRLoaderHelper)
 namespace System::Collections::Generic {
@@ -25,7 +31,8 @@ class XRLoaderHelper;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::Management::XRLoaderHelper*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::Management::XRLoaderHelper*, "UnityEngine.XR.Management", "XRLoaderHelper");
-// Dependencies UnityEngine.XR.Management.XRLoader
+// Dependencies UnityEngine.ISubsystem, UnityEngine.ISubsystemDescriptor, UnityEngine.IntegratedSubsystem, UnityEngine.IntegratedSubsystemDescriptor, UnityEngine.Subsystem,
+// UnityEngine.SubsystemDescriptor, UnityEngine.XR.Management.XRLoader
 namespace UnityEngine::XR::Management {
 // Is value type: false
 // CS Name: UnityEngine.XR.Management.XRLoaderHelper
@@ -36,31 +43,47 @@ public:
   __declspec(property(get = __cordl_internal_get_m_SubsystemInstanceMap,
                       put = __cordl_internal_set_m_SubsystemInstanceMap)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* m_SubsystemInstanceMap;
 
+  /// [Obsolete("This method is obsolete. Please use the geenric CreateSubsystem method.", false)]
   /// @brief Method CreateIntegratedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDescriptor, typename TSubsystem> inline void CreateIntegratedSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
+  template <typename TDescriptor, typename TSubsystem>
+    requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::IntegratedSubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::IntegratedSubsystem*>)
+  inline void CreateIntegratedSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
+  /// [Obsolete("This method is obsolete. Please use the generic CreateSubsystem method.", false)]
   /// @brief Method CreateStandaloneSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDescriptor, typename TSubsystem> inline void CreateStandaloneSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
+  template <typename TDescriptor, typename TSubsystem>
+    requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::SubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::Subsystem*>)
+  inline void CreateStandaloneSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
   /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
+  template <typename TDescriptor, typename TSubsystem>
+    requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::ISubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::ISubsystem*>)
+  inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
   /// @brief Method Deinitialize, addr 0x69ea8b8, size 0x5c, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void DestroySubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void DestroySubsystem();
 
   /// @brief Method GetLoadedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T> inline T GetLoadedSubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline T GetLoadedSubsystem();
 
   static inline ::UnityEngine::XR::Management::XRLoaderHelper* New_ctor();
 
   /// @brief Method StartSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void StartSubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void StartSubsystem();
 
   /// @brief Method StopSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void StopSubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void StopSubsystem();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* const& __cordl_internal_get_m_SubsystemInstanceMap() const;
 
@@ -77,13 +100,13 @@ protected:
   constexpr XRLoaderHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRLoaderHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRLoaderHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRLoaderHelper(XRLoaderHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRLoaderHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRLoaderHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRLoaderHelper(XRLoaderHelper const&) = delete;
+  XRLoaderHelper(XRLoaderHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23042 };

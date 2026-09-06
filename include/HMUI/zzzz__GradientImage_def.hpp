@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\GradientImage.hpp"
+// IWYU pragma private; include "HMUI/GradientImage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -198,20 +198,22 @@ protected:
   constexpr GradientImage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GradientImage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientImage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GradientImage(GradientImage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GradientImage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientImage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GradientImage(GradientImage const&) = delete;
+  GradientImage(GradientImageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19084 };
 
+  /// [SerializeField]
   /// @brief Field _color0, offset: 0x110, size: 0x10, def value: None
   ::UnityEngine::Color ____color0;
 
+  /// [SerializeField]
   /// @brief Field _color1, offset: 0x120, size: 0x10, def value: None
   ::UnityEngine::Color ____color1;
 

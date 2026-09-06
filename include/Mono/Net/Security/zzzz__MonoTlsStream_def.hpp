@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\MonoTlsStream.hpp"
+// IWYU pragma private; include "Mono/Net/Security/MonoTlsStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,6 +68,7 @@ MARK_REF_T(::Mono::Net::Security::MonoTlsStream*);
 MARK_VAL_T(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18);
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::MonoTlsStream*, "Mono.Net.Security", "MonoTlsStream");
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, "Mono.Net.Security", "MonoTlsStream/<CreateStream>d__18");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace Mono::Net::Security {
 // Is value type: true
@@ -81,6 +82,7 @@ public:
   /// @brief Method MoveNext, addr 0x5fde53c, size 0x724, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5fdec60, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -91,11 +93,12 @@ public:
   // @brief default ctor
   constexpr MonoTlsStream__CreateStream_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Mono::Net::Security::MonoTlsStream*", modifiers: "", def_value: None }, CppParam { name: "tunnel", ty: "::System::Net::WebConnectionTunnel*", modifiers: "", def_value: None }, CppParam { name:
-  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_socket_5__2", ty: "::System::Net::Sockets::Socket*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Mono::Net::Security::MonoTlsStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "tunnel", ty: "::System::Net::WebConnectionTunnel*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_socket_5__2", ty:
+  // "::System::Net::Sockets::Socket*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr MonoTlsStream__CreateStream_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder,
                                               ::Mono::Net::Security::MonoTlsStream* __4__this, ::System::Net::WebConnectionTunnel* tunnel, ::System::Threading::CancellationToken cancellationToken,
                                               ::System::Net::Sockets::Socket* _socket_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -193,6 +196,7 @@ public:
   /// @brief Method CloseSslStream, addr 0x5fde468, size 0xd4, virtual false, abstract: false, final false
   inline void CloseSslStream();
 
+  /// [AsyncStateMachine(typeof(Mono.Net.Security.MonoTlsStream::<CreateStream>d__18))]
   /// @brief Method CreateStream, addr 0x5fde36c, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* CreateStream(::System::Net::WebConnectionTunnel* tunnel, ::System::Threading::CancellationToken cancellationToken);
 
@@ -252,6 +256,7 @@ public:
   /// @brief Method .ctor, addr 0x5fde1c0, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream);
 
+  /// [CompilerGenerated]
   /// @brief Method get_CertificateValidationFailed, addr 0x5fde1b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_CertificateValidationFailed();
 
@@ -264,6 +269,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_CertificateValidationFailed, addr 0x5fde1b8, size 0x8, virtual false, abstract: false, final false
   inline void set_CertificateValidationFailed(bool value);
 
@@ -273,13 +279,13 @@ protected:
   constexpr MonoTlsStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoTlsStream(MonoTlsStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoTlsStream(MonoTlsStream const&) = delete;
+  MonoTlsStream(MonoTlsStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11035 };
@@ -305,6 +311,7 @@ public:
   /// @brief Field status, offset: 0x40, size: 0x4, def value: None
   ::System::Net::WebExceptionStatus ___status;
 
+  /// [CompilerGenerated]
   /// @brief Field <CertificateValidationFailed>k__BackingField, offset: 0x44, size: 0x1, def value: None
   bool ____CertificateValidationFailed_k__BackingField;
 

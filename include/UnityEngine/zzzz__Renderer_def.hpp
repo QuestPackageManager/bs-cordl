@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Renderer.hpp"
+// IWYU pragma private; include "UnityEngine/Renderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,10 @@ class Renderer;
 // Write type traits
 MARK_REF_T(::UnityEngine::Renderer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Renderer*, "UnityEngine", "Renderer");
+// [UsedByNativeCode]
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeHeader("Runtime/Graphics/Renderer.h")]
+// [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -56,6 +60,7 @@ public:
   // Declarations
   __declspec(property(put = set_allowGPUDrivenRendering)) bool allowGPUDrivenRendering;
 
+  /// @brief [NativeProperty("IsDynamicOccludee")]
   __declspec(property(put = set_allowOcclusionWhenDynamic)) bool allowOcclusionWhenDynamic;
 
   __declspec(property(get = get_bounds, put = set_bounds)) ::UnityEngine::Bounds bounds;
@@ -98,21 +103,25 @@ public:
 
   __declspec(property(get = get_sortingOrder, put = set_sortingOrder)) int32_t sortingOrder;
 
+  /// [FreeFunction(Name = "RendererScripting::GetSharedMaterialArray", HasExplicitThis = true)]
   /// @brief Method CopySharedMaterialArray, addr 0x6a8ecfc, size 0x90, virtual false, abstract: false, final false
   inline void CopySharedMaterialArray(::by_ref<::ArrayW<::UnityEngine::Material*>> m);
 
   /// @brief Method CopySharedMaterialArray_Injected, addr 0x6a8ed8c, size 0x44, virtual false, abstract: false, final false
   static inline void CopySharedMaterialArray_Injected(::System::IntPtr _unity_self, ::by_ref<::ArrayW<::UnityEngine::Material*>> m);
 
+  /// [NativeName("GetLightmapST")]
   /// @brief Method GetLightmapST, addr 0x6a8ff40, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetLightmapST(::UnityEngineInternal::LightmapType lt);
 
   /// @brief Method GetLightmapST_Injected, addr 0x6a8ffec, size 0x54, virtual false, abstract: false, final false
   static inline void GetLightmapST_Injected(::System::IntPtr _unity_self, ::UnityEngineInternal::LightmapType lt, ::by_ref<::UnityEngine::Vector4> ret);
 
+  /// [FreeFunction(Name = "RendererScripting::GetMaterial", HasExplicitThis = true)]
   /// @brief Method GetMaterial, addr 0x6a8e824, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial();
 
+  /// [FreeFunction(Name = "RendererScripting::GetMaterialArray", HasExplicitThis = true)]
   /// @brief Method GetMaterialArray, addr 0x6a8ec40, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>> GetMaterialArray();
 
@@ -131,9 +140,11 @@ public:
   /// @brief Method GetPropertyBlock, addr 0x6a8f0fc, size 0x4, virtual false, abstract: false, final false
   inline void GetPropertyBlock(::UnityEngine::MaterialPropertyBlock* properties);
 
+  /// [FreeFunction(Name = "RendererScripting::GetSharedMaterial", HasExplicitThis = true)]
   /// @brief Method GetSharedMaterial, addr 0x6a8e9b0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetSharedMaterial();
 
+  /// [NativeName("GetMaterialArray")]
   /// @brief Method GetSharedMaterialArray, addr 0x6a90104, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>> GetSharedMaterialArray();
 
@@ -146,12 +157,14 @@ public:
   /// @brief Method GetSharedMaterials, addr 0x6a901e0, size 0xf8, virtual false, abstract: false, final false
   inline void GetSharedMaterials(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* m);
 
+  /// [FreeFunction(Name = "RendererScripting::GetPropertyBlock", HasExplicitThis = true)]
   /// @brief Method Internal_GetPropertyBlock, addr 0x6a8efe4, size 0xd0, virtual false, abstract: false, final false
-  inline void Internal_GetPropertyBlock(::UnityEngine::MaterialPropertyBlock* dest);
+  inline void Internal_GetPropertyBlock(/* [NotNull] */ ::UnityEngine::MaterialPropertyBlock* dest);
 
   /// @brief Method Internal_GetPropertyBlock_Injected, addr 0x6a8f0b4, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_GetPropertyBlock_Injected(::System::IntPtr _unity_self, ::System::IntPtr dest);
 
+  /// [FreeFunction(Name = "RendererScripting::SetPropertyBlock", HasExplicitThis = true)]
   /// @brief Method Internal_SetPropertyBlock, addr 0x6a8ef08, size 0x98, virtual false, abstract: false, final false
   inline void Internal_SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* properties);
 
@@ -160,14 +173,16 @@ public:
 
   static inline ::UnityEngine::Renderer* New_ctor();
 
+  /// [FreeFunction(Name = "RendererScripting::SetMaterial", HasExplicitThis = true)]
   /// @brief Method SetMaterial, addr 0x6a8eb3c, size 0xc0, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* m);
 
   /// @brief Method SetMaterialArray, addr 0x6a8eee8, size 0x20, virtual false, abstract: false, final false
   inline void SetMaterialArray(::ArrayW<::UnityEngine::Material*> m);
 
+  /// [FreeFunction(Name = "RendererScripting::SetMaterialArray", HasExplicitThis = true)]
   /// @brief Method SetMaterialArray, addr 0x6a8edd0, size 0xc4, virtual false, abstract: false, final false
-  inline void SetMaterialArray(::ArrayW<::UnityEngine::Material*> m, int32_t length);
+  inline void SetMaterialArray(/* [NotNull] */ ::ArrayW<::UnityEngine::Material*> m, int32_t length);
 
   /// @brief Method SetMaterialArray_Injected, addr 0x6a8ee94, size 0x54, virtual false, abstract: false, final false
   static inline void SetMaterialArray_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::Material*> m, int32_t length);
@@ -181,6 +196,7 @@ public:
   /// @brief Method .ctor, addr 0x6a8cd10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [FreeFunction(Name = "RendererScripting::GetWorldBounds", HasExplicitThis = true)]
   /// @brief Method get_bounds, addr 0x6a8e588, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
@@ -193,12 +209,14 @@ public:
   /// @brief Method get_enabled_Injected, addr 0x6a8f180, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_enabled_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("IsPartOfStaticBatch")]
   /// @brief Method get_isPartOfStaticBatch, addr 0x6a8fe84, size 0x80, virtual false, abstract: false, final false
   inline bool get_isPartOfStaticBatch();
 
   /// @brief Method get_isPartOfStaticBatch_Injected, addr 0x6a8ff04, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isPartOfStaticBatch_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("IsVisibleInScene")]
   /// @brief Method get_isVisible, addr 0x6a8f290, size 0x80, virtual false, abstract: false, final false
   inline bool get_isVisible();
 
@@ -256,6 +274,7 @@ public:
   /// @brief Method set_allowOcclusionWhenDynamic_Injected, addr 0x6a8fe40, size 0x44, virtual false, abstract: false, final false
   static inline void set_allowOcclusionWhenDynamic_Injected(::System::IntPtr _unity_self, bool value);
 
+  /// [NativeName("SetWorldAABB")]
   /// @brief Method set_bounds, addr 0x6a8e67c, size 0x90, virtual false, abstract: false, final false
   inline void set_bounds(::UnityEngine::Bounds value);
 
@@ -274,6 +293,7 @@ public:
   /// @brief Method set_lightProbeUsage_Injected, addr 0x6a8f800, size 0x44, virtual false, abstract: false, final false
   static inline void set_lightProbeUsage_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::LightProbeUsage value);
 
+  /// [NativeName("SetLocalAABB")]
   /// @brief Method set_localBounds, addr 0x6a8e750, size 0x90, virtual false, abstract: false, final false
   inline void set_localBounds(::UnityEngine::Bounds value);
 
@@ -340,13 +360,13 @@ protected:
   constexpr Renderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Renderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Renderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Renderer(Renderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Renderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Renderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Renderer(Renderer const&) = delete;
+  Renderer(Rendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10158 };

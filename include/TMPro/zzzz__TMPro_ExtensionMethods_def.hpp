@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMPro_ExtensionMethods.hpp"
+// IWYU pragma private; include "TMPro/TMPro_ExtensionMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -31,67 +32,88 @@ class TMPro_ExtensionMethods;
 // Write type traits
 MARK_REF_T(::TMPro::TMPro_ExtensionMethods*);
 DEFINE_IL2CPP_CLASS(::TMPro::TMPro_ExtensionMethods*, "TMPro", "TMPro_ExtensionMethods");
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, UnityEngine.Object
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.TMPro_ExtensionMethods
 class CORDL_TYPE TMPro_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ArrayToString, addr 0x6948d30, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW ArrayToString(::ArrayW<char16_t> chars);
 
+  /// [Extension]
   /// @brief Method Compare, addr 0x6949070, size 0x28, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::Color a, ::UnityEngine::Color b);
 
+  /// [Extension]
   /// @brief Method Compare, addr 0x6949050, size 0x10, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
 
+  /// [Extension]
   /// @brief Method Compare, addr 0x69494ec, size 0x68, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::Quaternion q1, ::UnityEngine::Quaternion q2, int32_t accuracy);
 
+  /// [Extension]
   /// @brief Method Compare, addr 0x694946c, size 0x80, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, int32_t accuracy);
 
+  /// [Extension]
   /// @brief Method CompareRGB, addr 0x6949098, size 0x24, virtual false, abstract: false, final false
   static inline bool CompareRGB(::UnityEngine::Color a, ::UnityEngine::Color b);
 
+  /// [Extension]
   /// @brief Method CompareRGB, addr 0x6949060, size 0x10, virtual false, abstract: false, final false
   static inline bool CompareRGB(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
 
+  /// [Extension]
   /// @brief Method FindInstanceID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t FindInstanceID(::System::Collections::Generic::List_1<T>* list, T target);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline int32_t FindInstanceID(::System::Collections::Generic::List_1<T>* list, T target);
 
+  /// [Extension]
   /// @brief Method GammaToLinear, addr 0x694936c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 GammaToLinear(::UnityEngine::Color32 c);
 
   /// @brief Method GammaToLinear, addr 0x69493c0, size 0xa0, virtual false, abstract: false, final false
   static inline uint8_t GammaToLinear(uint8_t value);
 
+  /// [Extension]
   /// @brief Method IntToString, addr 0x6948de8, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW IntToString(::ArrayW<int32_t> unicodes);
 
+  /// [Extension]
   /// @brief Method IntToString, addr 0x6948f5c, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW IntToString(::ArrayW<int32_t> unicodes, int32_t start, int32_t length);
 
+  /// [Extension]
   /// @brief Method MinAlpha, addr 0x6949460, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color MinAlpha(::UnityEngine::Color c1, ::UnityEngine::Color c2);
 
+  /// [Extension]
   /// @brief Method Multiply, addr 0x69490bc, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Multiply(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2);
 
+  /// [Extension]
   /// @brief Method TagToInt, addr 0x6948c18, size 0x68, virtual false, abstract: false, final false
   static inline int32_t TagToInt(::StringW s);
 
+  /// [Extension]
   /// @brief Method Tint, addr 0x69491a0, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Tint(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2);
 
+  /// [Extension]
   /// @brief Method Tint, addr 0x6949284, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Tint(::UnityEngine::Color32 c1, float_t tint);
 
+  /// [Extension]
   /// @brief Method ToIntArray, addr 0x6948c80, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> ToIntArray(::StringW text);
 
+  /// [Extension]
   /// @brief Method UintToString, addr 0x6948e7c, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW UintToString(::System::Collections::Generic::List_1<uint32_t>* unicodes);
 
@@ -101,13 +123,13 @@ protected:
   constexpr TMPro_ExtensionMethods();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMPro_ExtensionMethods", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMPro_ExtensionMethods", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMPro_ExtensionMethods(TMPro_ExtensionMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMPro_ExtensionMethods", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMPro_ExtensionMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMPro_ExtensionMethods(TMPro_ExtensionMethods const&) = delete;
+  TMPro_ExtensionMethods(TMPro_ExtensionMethodsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15870 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\TypeValuePair.hpp"
+// IWYU pragma private; include "Zenject/TypeValuePair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ struct TypeValuePair;
 // Write type traits
 MARK_VAL_T(::Zenject::TypeValuePair);
 DEFINE_IL2CPP_CLASS(::Zenject::TypeValuePair, "Zenject", "TypeValuePair");
+// [DebuggerStepThrough]
 // Dependencies
 namespace Zenject {
 // Is value type: true
@@ -32,7 +33,8 @@ public:
   // @brief default ctor
   constexpr TypeValuePair();
 
-  // Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr TypeValuePair(::System::Type* Type, ::System::Object* Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

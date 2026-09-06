@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventDispatcherGate.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventDispatcherGate.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcherGate_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -115,7 +115,7 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>
 UnityEngine::UIElements::EventDispatcherGate::i___System__IEquatable_1___UnityEngine__UIElements__EventDispatcherGate_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::EventDispatcherGate::EventDispatcherGate(::UnityEngine::UIElements::EventDispatcher* m_Dispatcher) noexcept {
   this->m_Dispatcher = m_Dispatcher;
 }

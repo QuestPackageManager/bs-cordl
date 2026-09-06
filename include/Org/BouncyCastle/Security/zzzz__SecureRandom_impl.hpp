@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\SecureRandom.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/SecureRandom.hpp"
 #include "System/zzzz__Random_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__DigestRandomGenerator_def.hpp"
@@ -415,6 +415,7 @@ inline int64_t Org::BouncyCastle::Security::SecureRandom::NextLong() {
 inline ::Org::BouncyCastle::Security::SecureRandom* Org::BouncyCastle::Security::SecureRandom::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Security::SecureRandom*>());
 }
+/// @brief [Obsolete("Use GetInstance/SetSeed instead")]
 inline ::Org::BouncyCastle::Security::SecureRandom* Org::BouncyCastle::Security::SecureRandom::New_ctor(::ArrayW<uint8_t> seed) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Security::SecureRandom*>(seed));
 }

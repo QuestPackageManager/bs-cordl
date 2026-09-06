@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DomainReloadInitOutsourceAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/DomainReloadInitOutsourceAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,9 @@ class DomainReloadInitOutsourceAttribute;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::DomainReloadInitOutsourceAttribute*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DomainReloadInitOutsourceAttribute*, "", "DomainReloadInitOutsourceAttribute");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [AttributeUsage((System.AttributeTargets)256)]
 // Dependencies System.Attribute
 namespace GlobalNamespace {
 // Is value type: false
@@ -38,6 +41,7 @@ public:
   /// @brief Method .ctor, addr 0x330b424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* outsourceType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_OutsourceType, addr 0x330b42c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_OutsourceType();
 
@@ -47,17 +51,18 @@ protected:
   constexpr DomainReloadInitOutsourceAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DomainReloadInitOutsourceAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DomainReloadInitOutsourceAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DomainReloadInitOutsourceAttribute(DomainReloadInitOutsourceAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DomainReloadInitOutsourceAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DomainReloadInitOutsourceAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DomainReloadInitOutsourceAttribute(DomainReloadInitOutsourceAttribute const&) = delete;
+  DomainReloadInitOutsourceAttribute(DomainReloadInitOutsourceAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23505 };
 
+  /// [CompilerGenerated]
   /// @brief Field <OutsourceType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____OutsourceType_k__BackingField;
 

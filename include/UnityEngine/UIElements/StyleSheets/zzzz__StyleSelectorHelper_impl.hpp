@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleSelectorHelper.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSelectorHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StyleSelectorHelper_def.hpp"
@@ -35,8 +35,8 @@ inline void UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWo
                                                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet_OrderedSelectorType>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, type, input);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheet_OrderedSelectorType", modifiers: "", def_value: Some("{}") }, CppParam { name: "input", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheet_OrderedSelectorType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "input", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem::StyleSelectorHelper_SelectorWorkItem(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType type,
                                                                                                                              ::StringW input) noexcept {
   this->type = type;

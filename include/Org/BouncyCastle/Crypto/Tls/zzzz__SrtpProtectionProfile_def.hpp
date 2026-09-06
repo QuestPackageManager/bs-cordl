@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\SrtpProtectionProfile.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/SrtpProtectionProfile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr SrtpProtectionProfile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SrtpProtectionProfile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SrtpProtectionProfile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SrtpProtectionProfile(SrtpProtectionProfile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SrtpProtectionProfile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SrtpProtectionProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SrtpProtectionProfile(SrtpProtectionProfile const&) = delete;
+  SrtpProtectionProfile(SrtpProtectionProfileconst&) = delete;
 
   /// @brief Field SRTP_AEAD_AES_128_GCM offset 0xffffffff size 0x4
   static constexpr int32_t SRTP_AEAD_AES_128_GCM{ static_cast<int32_t>(0x7) };

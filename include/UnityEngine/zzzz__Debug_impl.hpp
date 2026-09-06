@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Debug.hpp"
+// IWYU pragma private; include "UnityEngine/Debug.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Debug_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -412,7 +412,8 @@ inline void UnityEngine::Debug::DrawLine(::UnityEngine::Vector3 start, ::UnityEn
                                               { "DrawLine", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, start, end, color);
 }
-inline void UnityEngine::Debug::DrawLine(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Color color, float_t duration, bool depthTest) {
+inline void UnityEngine::Debug::DrawLine(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, /* [DefaultValue("Color.white")] */ ::UnityEngine::Color color,
+                                         /* [DefaultValue("0.0f")] */ float_t duration, /* [DefaultValue("true")] */ bool depthTest) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "DrawLine",
                                                                                           {},
@@ -439,12 +440,13 @@ inline void UnityEngine::Debug::Log(::System::Object* message, ::UnityEngine::Ob
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "Log", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, context);
 }
-inline void UnityEngine::Debug::LogFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::Debug::LogFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "LogFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, args);
 }
-inline void UnityEngine::Debug::LogFormat(::UnityEngine::LogType logType, ::UnityEngine::LogOption logOptions, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::Debug::LogFormat(::UnityEngine::LogType logType, ::UnityEngine::LogOption logOptions, ::UnityEngine::Object* context, ::StringW format,
+                                          /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "LogFormat",
@@ -462,12 +464,12 @@ inline void UnityEngine::Debug::LogError(::System::Object* message, ::UnityEngin
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "LogError", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, context);
 }
-inline void UnityEngine::Debug::LogErrorFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::Debug::LogErrorFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "LogErrorFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, args);
 }
-inline void UnityEngine::Debug::LogErrorFormat(::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::Debug::LogErrorFormat(::UnityEngine::Object* context, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(),
                                               { "LogErrorFormat", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -492,12 +494,12 @@ inline void UnityEngine::Debug::LogWarning(::System::Object* message, ::UnityEng
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "LogWarning", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message, context);
 }
-inline void UnityEngine::Debug::LogWarningFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::Debug::LogWarningFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "LogWarningFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, args);
 }
-inline void UnityEngine::Debug::LogWarningFormat(::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::Debug::LogWarningFormat(::UnityEngine::Object* context, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(),
                                               { "LogWarningFormat", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -516,7 +518,7 @@ inline void UnityEngine::Debug::LogAssertion(::System::Object* message) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "LogAssertion", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, message);
 }
-inline void UnityEngine::Debug::LogAssertionFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::Debug::LogAssertionFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "LogAssertionFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, format, args);
@@ -535,8 +537,9 @@ inline bool UnityEngine::Debug::IsLoggingEnabled() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "IsLoggingEnabled", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Debug::DrawLine_Injected(::by_ref<::UnityEngine::Vector3> start, ::by_ref<::UnityEngine::Vector3> end, ::by_ref<::UnityEngine::Color> color, float_t duration,
-                                                  bool depthTest) {
+inline void UnityEngine::Debug::DrawLine_Injected(::by_ref<::UnityEngine::Vector3> start, ::by_ref<::UnityEngine::Vector3> end,
+                                                  /* [DefaultValue("Color.white")] */ ::by_ref<::UnityEngine::Color> color, /* [DefaultValue("0.0f")] */ float_t duration,
+                                                  /* [DefaultValue("true")] */ bool depthTest) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Debug*>(), { "DrawLine_Injected",
                                                                                           {},

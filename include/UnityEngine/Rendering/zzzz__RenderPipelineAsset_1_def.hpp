@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineAsset_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineAsset_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__RenderPipelineAsset_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(RenderPipelineAsset_1)
 namespace System {
@@ -11,15 +12,18 @@ class Type;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename TRenderPipeline> class RenderPipelineAsset_1;
+template <typename TRenderPipeline>
+  requires(::cordl_internals::type_constraint<TRenderPipeline, ::UnityEngine::Rendering::RenderPipeline*>)
+class RenderPipelineAsset_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderPipelineAsset_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderPipelineAsset_1, "UnityEngine.Rendering", "RenderPipelineAsset`1");
-// Dependencies UnityEngine.Rendering.RenderPipelineAsset
+// Dependencies UnityEngine.Rendering.RenderPipeline, UnityEngine.Rendering.RenderPipelineAsset
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename TRenderPipeline>
+  requires(::cordl_internals::type_constraint<TRenderPipeline, ::UnityEngine::Rendering::RenderPipeline*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderPipelineAsset`1<TRenderPipeline>
 class CORDL_TYPE RenderPipelineAsset_1 : public ::UnityEngine::Rendering::RenderPipelineAsset {
@@ -29,6 +33,7 @@ public:
 
   __declspec(property(get = get_renderPipelineShaderTag)) ::StringW renderPipelineShaderTag;
 
+  /// @brief [Obsolete("This property is obsolete. Use pipelineType instead. #from(23.2)", false)]
   __declspec(property(get = get_renderPipelineType)) ::System::Type* renderPipelineType;
 
   static inline ::UnityEngine::Rendering::RenderPipelineAsset_1<TRenderPipeline>* New_ctor();
@@ -51,13 +56,13 @@ protected:
   constexpr RenderPipelineAsset_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineAsset_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineAsset_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipelineAsset_1(RenderPipelineAsset_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineAsset_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineAsset_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipelineAsset_1(RenderPipelineAsset_1 const&) = delete;
+  RenderPipelineAsset_1(RenderPipelineAsset_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10819 };

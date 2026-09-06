@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlSerializationReader.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializationReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -153,13 +153,13 @@ protected:
   constexpr XmlSerializationReader_WriteCallbackInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_WriteCallbackInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_WriteCallbackInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSerializationReader_WriteCallbackInfo(XmlSerializationReader_WriteCallbackInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_WriteCallbackInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_WriteCallbackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationReader_WriteCallbackInfo(XmlSerializationReader_WriteCallbackInfo const&) = delete;
+  XmlSerializationReader_WriteCallbackInfo(XmlSerializationReader_WriteCallbackInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9527 };
@@ -268,13 +268,13 @@ protected:
   constexpr XmlSerializationReader_CollectionFixup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionFixup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionFixup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSerializationReader_CollectionFixup(XmlSerializationReader_CollectionFixup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionFixup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionFixup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationReader_CollectionFixup(XmlSerializationReader_CollectionFixup const&) = delete;
+  XmlSerializationReader_CollectionFixup(XmlSerializationReader_CollectionFixupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9528 };
@@ -365,13 +365,13 @@ protected:
   constexpr XmlSerializationReader_Fixup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_Fixup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_Fixup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSerializationReader_Fixup(XmlSerializationReader_Fixup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_Fixup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_Fixup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationReader_Fixup(XmlSerializationReader_Fixup const&) = delete;
+  XmlSerializationReader_Fixup(XmlSerializationReader_Fixupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9529 };
@@ -457,13 +457,13 @@ protected:
   constexpr XmlSerializationReader_CollectionItemFixup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionItemFixup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionItemFixup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSerializationReader_CollectionItemFixup(XmlSerializationReader_CollectionItemFixup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionItemFixup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionItemFixup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationReader_CollectionItemFixup(XmlSerializationReader_CollectionItemFixup const&) = delete;
+  XmlSerializationReader_CollectionItemFixup(XmlSerializationReader_CollectionItemFixupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9530 };
@@ -489,6 +489,7 @@ static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_Coll
 static_assert(sizeof(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup) == 0x28, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
+// [MonoTODO]
 // Dependencies System.Xml.Serialization.XmlSerializationGeneratedCode
 namespace System::Xml::Serialization {
 // Is value type: false
@@ -634,10 +635,10 @@ public:
   /// @brief Method GetXsiType, addr 0x62fe228, size 0x220, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* GetXsiType();
 
-  /// @brief Method InitCallbacks, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InitCallbacks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InitCallbacks();
 
-  /// @brief Method InitIDs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InitIDs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InitIDs();
 
   /// @brief Method Initialize, addr 0x62fd310, size 0x354, virtual false, abstract: false, final false
@@ -894,13 +895,13 @@ protected:
   constexpr XmlSerializationReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSerializationReader(XmlSerializationReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationReader(XmlSerializationReader const&) = delete;
+  XmlSerializationReader(XmlSerializationReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9531 };

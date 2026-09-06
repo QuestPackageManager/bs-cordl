@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataCallbackWrapper.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataCallbackWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,10 +40,10 @@ public:
   /// @brief Field subtypeIdentifiers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_subtypeIdentifiers, put = __cordl_internal_set_subtypeIdentifiers)) ::ArrayW<int32_t> subtypeIdentifiers;
 
-  /// @brief Method CallCallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CallCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CallCallback(::GlobalNamespace::BeatmapDataItem* beatmapData);
 
-  static inline ::GlobalNamespace::BeatmapDataCallbackWrapper* New_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers);
+  static inline ::GlobalNamespace::BeatmapDataCallbackWrapper* New_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, /* [ParamArray] */ ::ArrayW<int32_t> subtypeIdentifiers);
 
   constexpr ::System::Type* const& __cordl_internal_get_BasicBeatmapEventType() const;
 
@@ -70,7 +70,7 @@ public:
   constexpr void __cordl_internal_set_subtypeIdentifiers(::ArrayW<int32_t> value);
 
   /// @brief Method .ctor, addr 0x58c40fc, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers);
+  inline void _ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, /* [ParamArray] */ ::ArrayW<int32_t> subtypeIdentifiers);
 
 protected:
   // Ctor Parameters []
@@ -78,13 +78,13 @@ protected:
   constexpr BeatmapDataCallbackWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCallbackWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCallbackWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataCallbackWrapper(BeatmapDataCallbackWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCallbackWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCallbackWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataCallbackWrapper(BeatmapDataCallbackWrapper const&) = delete;
+  BeatmapDataCallbackWrapper(BeatmapDataCallbackWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5620 };

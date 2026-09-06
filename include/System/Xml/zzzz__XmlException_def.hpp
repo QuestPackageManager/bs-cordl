@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlException.hpp"
+// IWYU pragma private; include "System/Xml/XmlException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -227,13 +227,13 @@ protected:
   constexpr XmlException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlException(XmlException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlException(XmlException const&) = delete;
+  XmlException(XmlExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9454 };
@@ -250,6 +250,7 @@ public:
   /// @brief Field linePosition, offset: 0xa4, size: 0x4, def value: None
   int32_t ___linePosition;
 
+  /// [OptionalField]
   /// @brief Field sourceUri, offset: 0xa8, size: 0x8, def value: None
   ::StringW ___sourceUri;
 

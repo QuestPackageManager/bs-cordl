@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Utils\ValueStruct_1.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Utils/ValueStruct_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,8 @@ public:
   // @brief default ctor
   constexpr ValueStruct_1();
 
-  // Ctor Parameters [CppParam { name: "ValueName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ValueName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Value", ty: "T", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr ValueStruct_1(::StringW ValueName, T Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

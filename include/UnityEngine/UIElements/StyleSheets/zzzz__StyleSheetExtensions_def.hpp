@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleSheetExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSheetExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class StyleSheetExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions*, "UnityEngine.UIElements.StyleSheets", "StyleSheetExtensions");
+// [Extension]
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
@@ -26,9 +28,11 @@ namespace UnityEngine::UIElements::StyleSheets {
 class CORDL_TYPE StyleSheetExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method IsVarFunction, addr 0x6d16844, size 0x14, virtual false, abstract: false, final false
   static inline bool IsVarFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [Extension]
   /// @brief Method ReadAsString, addr 0x6d132bc, size 0x344, virtual false, abstract: false, final false
   static inline ::StringW ReadAsString(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleValueHandle handle);
 
@@ -38,13 +42,13 @@ protected:
   constexpr StyleSheetExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSheetExtensions(StyleSheetExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSheetExtensions(StyleSheetExtensions const&) = delete;
+  StyleSheetExtensions(StyleSheetExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5467 };

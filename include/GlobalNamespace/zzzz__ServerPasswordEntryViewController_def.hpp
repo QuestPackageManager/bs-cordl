@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ServerPasswordEntryViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ServerPasswordEntryViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,9 +88,11 @@ public:
   /// @brief Method .ctor, addr 0x596436c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5963fa8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5964068, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
@@ -100,23 +102,27 @@ protected:
   constexpr ServerPasswordEntryViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServerPasswordEntryViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerPasswordEntryViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerPasswordEntryViewController(ServerPasswordEntryViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServerPasswordEntryViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerPasswordEntryViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServerPasswordEntryViewController(ServerPasswordEntryViewController const&) = delete;
+  ServerPasswordEntryViewController(ServerPasswordEntryViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6984 };
 
+  /// [Header("Password Field")]
+  /// [SerializeField]
   /// @brief Field _passwordInput, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____passwordInput;
 
+  /// [SerializeField]
   /// @brief Field _uiKeyboard, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* ___didFinishEvent;
 

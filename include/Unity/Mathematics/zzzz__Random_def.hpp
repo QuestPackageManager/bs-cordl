@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\Random.hpp"
+// IWYU pragma private; include "Unity/Mathematics/Random.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ struct Random;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::Random);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::Random, "Unity.Mathematics", "Random");
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies
 namespace Unity::Mathematics {
 // Is value type: true
@@ -69,21 +70,27 @@ namespace Unity::Mathematics {
 struct CORDL_TYPE Random {
 public:
   // Declarations
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckIndexForHash, addr 0x6683ac4, size 0x58, virtual false, abstract: false, final false
   static inline void CheckIndexForHash(uint32_t index);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckInitState, addr 0x6683ac0, size 0x4, virtual false, abstract: false, final false
   inline void CheckInitState();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckNextIntMax, addr 0x6683b20, size 0x4, virtual false, abstract: false, final false
   inline void CheckNextIntMax(int32_t max);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckNextIntMinMax, addr 0x6683b24, size 0x4, virtual false, abstract: false, final false
   inline void CheckNextIntMinMax(int32_t min, int32_t max);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckNextUIntMinMax, addr 0x6683b28, size 0x4, virtual false, abstract: false, final false
   inline void CheckNextUIntMinMax(uint32_t min, uint32_t max);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckState, addr 0x6683b1c, size 0x4, virtual false, abstract: false, final false
   inline void CheckState();
 
@@ -277,7 +284,7 @@ public:
   // @brief default ctor
   constexpr Random();
 
-  // Ctor Parameters [CppParam { name: "state", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "state", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Random(uint32_t state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

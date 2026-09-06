@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ListLogger.hpp"
+// IWYU pragma private; include "GlobalNamespace/ListLogger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   // @brief default ctor
   constexpr ListLogger_LogType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ListLogger_LogType(int32_t value__) noexcept;
 
   /// @brief Field Error value: I32(2)
@@ -154,13 +154,13 @@ protected:
   constexpr ListLogger_LogMessage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListLogger_LogMessage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListLogger_LogMessage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListLogger_LogMessage(ListLogger_LogMessage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListLogger_LogMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListLogger_LogMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListLogger_LogMessage(ListLogger_LogMessage const&) = delete;
+  ListLogger_LogMessage(ListLogger_LogMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6555 };
@@ -252,13 +252,13 @@ protected:
   constexpr ListLogger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListLogger(ListLogger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListLogger(ListLogger const&) = delete;
+  ListLogger(ListLoggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6556 };

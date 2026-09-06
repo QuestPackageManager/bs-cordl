@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PlaceholderFactory_7.hpp"
+// IWYU pragma private; include "Zenject/PlaceholderFactory_7.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactoryBase_1_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_7_def.hpp"
@@ -132,6 +132,7 @@ inline ::Zenject::InjectTypeInfo* Zenject::PlaceholderFactory_7__get_ParamTypes_
                                                            { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 inline ::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
 Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::New_ctor(int32_t __1__state) {

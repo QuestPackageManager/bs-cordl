@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\LowLevel\Unsafe\ProfilerCategoryDescription.hpp"
+// IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerCategoryDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct ProfilerCategoryDescription;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription, "Unity.Profiling.LowLevel.Unsafe", "ProfilerCategoryDescription");
+// [IsReadOnly]
 // Dependencies UnityEngine.Color32
 namespace Unity::Profiling::LowLevel::Unsafe {
 // Is value type: true
@@ -80,9 +81,9 @@ public:
   // @brief default ctor
   constexpr ProfilerCategoryDescription();
 
-  // Ctor Parameters [CppParam { name: "Id", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Flags", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Color", ty:
-  // "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "reserved0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NameUtf8Len", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "NameUtf8", ty: "uint8_t*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Id", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Flags", ty: "uint16_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "reserved0", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "NameUtf8Len", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "NameUtf8", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerCategoryDescription(uint16_t Id, uint16_t Flags, ::UnityEngine::Color32 Color, int32_t reserved0, int32_t NameUtf8Len, uint8_t* NameUtf8) noexcept;
 
 private:

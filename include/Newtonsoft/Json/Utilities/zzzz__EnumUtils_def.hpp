@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\EnumUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/EnumUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,9 @@ namespace Newtonsoft::Json::Utilities {
 class EnumUtils___c;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class EnumUtils___c__4_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class EnumUtils___c__4_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T1, typename T2> struct StructMultiKey_2;
@@ -39,7 +41,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -58,7 +62,9 @@ namespace Newtonsoft::Json::Utilities {
 class EnumUtils___c;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class EnumUtils___c__4_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class EnumUtils___c__4_1;
 }
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Utilities::EnumUtils*);
@@ -67,6 +73,7 @@ MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Utilities::EnumUtils___c__4_1);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::EnumUtils*, "Newtonsoft.Json.Utilities", "EnumUtils");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::EnumUtils___c*, "Newtonsoft.Json.Utilities", "EnumUtils/<>c");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::EnumUtils___c__4_1, "Newtonsoft.Json.Utilities", "EnumUtils/<>c__4`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -82,6 +89,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::EnumUtils___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <InitializeValuesAndNames>b__3_0, addr 0x5d27a10, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _InitializeValuesAndNames_b__3_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
 
@@ -102,13 +110,13 @@ protected:
   constexpr EnumUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumUtils___c(EnumUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumUtils___c(EnumUtils___c const&) = delete;
+  EnumUtils___c(EnumUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13416 };
@@ -119,10 +127,12 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::Utilities::EnumUtils___c) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Utilities.EnumUtils/<>c__4`1<T>
 class CORDL_TYPE EnumUtils___c__4_1 : public ::System::Object {
@@ -156,13 +166,13 @@ protected:
   constexpr EnumUtils___c__4_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c__4_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c__4_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumUtils___c__4_1(EnumUtils___c__4_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c__4_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c__4_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumUtils___c__4_1(EnumUtils___c__4_1 const&) = delete;
+  EnumUtils___c__4_1(EnumUtils___c__4_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13417 };
@@ -171,6 +181,8 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -180,7 +192,9 @@ public:
   // Declarations
   using __c = ::Newtonsoft::Json::Utilities::EnumUtils___c;
 
-  template <typename T> using __c__4_1 = ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using __c__4_1 = ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>;
 
   /// @brief Field ValuesAndNamesPerEnum, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ValuesAndNamesPerEnum, put = setStaticF_ValuesAndNamesPerEnum)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
@@ -195,12 +209,15 @@ public:
   /// @brief Method GetEnumValuesAndNames, addr 0x5d26e94, size 0xa0, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::EnumInfo* GetEnumValuesAndNames(::System::Type* enumType);
 
+  /// [NullableContext(0)]
   /// @brief Method GetFlagsValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::IList_1<T>* GetFlagsValues(T value);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::System::Collections::Generic::IList_1<T>* GetFlagsValues(T value);
 
   /// @brief Method InitializeValuesAndNames, addr 0x5d26380, size 0x4dc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::EnumInfo*
-  InitializeValuesAndNames(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*> key);
+  InitializeValuesAndNames(/* [Nullable(new[] { 0, 1, 2 })] */ ::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*> key);
 
   /// @brief Method InternalFlagsFormat, addr 0x5d26ce8, size 0x1ac, virtual false, abstract: false, final false
   static inline ::StringW InternalFlagsFormat(::Newtonsoft::Json::Utilities::EnumInfo* entry, uint64_t result);
@@ -210,16 +227,17 @@ public:
                                                         ::System::StringComparison comparison);
 
   /// @brief Method ParseEnum, addr 0x5d26f34, size 0x7a0, virtual false, abstract: false, final false
-  static inline ::System::Object* ParseEnum(::System::Type* enumType, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::StringW value, bool disallowNumber);
+  static inline ::System::Object* ParseEnum(::System::Type* enumType, /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::StringW value, bool disallowNumber);
 
   /// @brief Method ToUInt64, addr 0x5d2685c, size 0x280, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Object* value);
 
   /// @brief Method TryToString, addr 0x5d26adc, size 0xa4, virtual false, abstract: false, final false
-  static inline bool TryToString(::System::Type* enumType, ::System::Object* value, bool camelCase, ::by_ref<::StringW> name);
+  static inline bool TryToString(::System::Type* enumType, ::System::Object* value, bool camelCase, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::StringW> name);
 
   /// @brief Method TryToString, addr 0x5d26b80, size 0x168, virtual false, abstract: false, final false
-  static inline bool TryToString(::System::Type* enumType, ::System::Object* value, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::by_ref<::StringW> name);
+  static inline bool TryToString(::System::Type* enumType, ::System::Object* value, /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy,
+                                 /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::StringW> name);
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>,
                                                                  ::Newtonsoft::Json::Utilities::EnumInfo*>*
@@ -239,13 +257,13 @@ protected:
   constexpr EnumUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumUtils(EnumUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumUtils(EnumUtils const&) = delete;
+  EnumUtils(EnumUtilsconst&) = delete;
 
   /// @brief Field EnumSeparatorChar offset 0xffffffff size 0x2
   static constexpr char16_t EnumSeparatorChar{ u',' };

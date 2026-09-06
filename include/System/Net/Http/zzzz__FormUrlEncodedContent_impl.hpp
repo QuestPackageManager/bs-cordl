@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\FormUrlEncodedContent.hpp"
+// IWYU pragma private; include "System/Net/Http/FormUrlEncodedContent.hpp"
 #include "System/Net/Http/zzzz__ByteArrayContent_impl.hpp"
 #include "System/Net/Http/zzzz__FormUrlEncodedContent_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

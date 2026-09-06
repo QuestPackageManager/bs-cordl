@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\NavigationEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/NavigationEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   // @brief default ctor
   constexpr NavigationEvent_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NavigationEvent_Type(int32_t value__) noexcept;
 
   /// @brief Field Cancel value: I32(3)
@@ -142,7 +142,7 @@ public:
   // @brief default ctor
   constexpr NavigationEvent_Direction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NavigationEvent_Direction(int32_t value__) noexcept;
 
   /// @brief Field Down value: I32(4)
@@ -183,6 +183,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::NavigationEvent_Direction, val
 static_assert(sizeof(::UnityEngine::InputForUI::NavigationEvent_Direction) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies Unity.IntegerTime.DiscreteTime, UnityEngine.InputForUI.EventModifiers, UnityEngine.InputForUI.EventSource, UnityEngine.InputForUI.NavigationEvent::Direction,
 // UnityEngine.InputForUI.NavigationEvent::Type
 namespace UnityEngine::InputForUI {
@@ -212,24 +213,32 @@ public:
   /// @brief Method ToString, addr 0x6b59e50, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_eventModifiers, addr 0x6b59e40, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_eventSource, addr 0x6b59e28, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventModifiers, addr 0x6b59e48, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventSource, addr 0x6b59e30, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerId, addr 0x6b59e38, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_timestamp, addr 0x6b59e20, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
@@ -237,11 +246,11 @@ public:
   // @brief default ctor
   constexpr NavigationEvent();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::NavigationEvent_Type", modifiers: "", def_value: None }, CppParam { name: "direction", ty:
-  // "::UnityEngine::InputForUI::NavigationEvent_Direction", modifiers: "", def_value: None }, CppParam { name: "shouldBeUsed", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: None }, CppParam { name: "_eventSource_k__BackingField", ty:
-  // "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: None }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::NavigationEvent_Type", modifiers: "", def_value: None, comment: None }, CppParam { name: "direction", ty:
+  // "::UnityEngine::InputForUI::NavigationEvent_Direction", modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldBeUsed", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "_eventSource_k__BackingField", ty:
+  // "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: None, comment: None }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: None, comment: None }]
   constexpr NavigationEvent(::UnityEngine::InputForUI::NavigationEvent_Type type, ::UnityEngine::InputForUI::NavigationEvent_Direction direction, bool shouldBeUsed,
                             ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField, ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField, uint32_t _playerId_k__BackingField,
                             ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
@@ -261,15 +270,23 @@ public:
   /// @brief Field shouldBeUsed, offset: 0x8, size: 0x1, def value: None
   bool shouldBeUsed;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <timestamp>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <eventSource>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <playerId>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   uint32_t _playerId_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <eventModifiers>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField;
 

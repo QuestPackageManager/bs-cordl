@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\SslConfiguration.hpp"
+// IWYU pragma private; include "ENet/SslConfiguration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,7 +126,7 @@ public:
   // @brief default ctor
   constexpr SslConfiguration();
 
-  // Ctor Parameters [CppParam { name: "nativeSslConfiguration", ty: "::ENet::ENetSslConfiguration", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nativeSslConfiguration", ty: "::ENet::ENetSslConfiguration", modifiers: "", def_value: None, comment: None }]
   constexpr SslConfiguration(::ENet::ENetSslConfiguration nativeSslConfiguration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SceneTransitionAudioFadeController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SceneTransitionAudioFadeController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneTransitionAudioFadeController_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManager_def.hpp"

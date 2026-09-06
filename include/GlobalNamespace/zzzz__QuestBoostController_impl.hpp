@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuestBoostController.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuestBoostController.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__QuestBoostController_def.hpp"
@@ -9,7 +9,7 @@
 #include "GlobalNamespace/zzzz__IPerformanceBoostController_def.hpp"
 #include "GlobalNamespace/zzzz__IntCvar_def.hpp"
 #include "GlobalNamespace/zzzz__QuestBoostController_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::QuestBoostController_BoostModeReason::QuestBoostController_BoostModeReason(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputValue.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class InputValue;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::InputValue*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputValue*, "UnityEngine.InputSystem", "InputValue");
+// [DebuggerDisplay("Value = {Get()}")]
 // Dependencies System.Nullable`1<T>, System.Object, UnityEngine.InputSystem.InputAction::CallbackContext
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -33,7 +34,9 @@ public:
   inline ::System::Object* Get();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> inline TValue Get();
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  inline TValue Get();
 
   static inline ::UnityEngine::InputSystem::InputValue* New_ctor();
 
@@ -55,13 +58,13 @@ protected:
   constexpr InputValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputValue(InputValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputValue(InputValue const&) = delete;
+  InputValue(InputValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8797 };

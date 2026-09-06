@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\TrialOfferList.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/TrialOfferList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__TrialOfferList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__TrialOffer_def.hpp"

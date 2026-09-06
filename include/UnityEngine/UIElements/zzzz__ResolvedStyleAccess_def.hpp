@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ResolvedStyleAccess.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ResolvedStyleAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -516,6 +516,7 @@ public:
   /// @brief Method get_unityTextOverflowPosition, addr 0x6c6c260, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TextOverflowPosition get_unityTextOverflowPosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ve, addr 0x6c6c300, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_ve();
 
@@ -540,17 +541,19 @@ protected:
   constexpr ResolvedStyleAccess();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResolvedStyleAccess", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResolvedStyleAccess", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResolvedStyleAccess(ResolvedStyleAccess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResolvedStyleAccess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResolvedStyleAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResolvedStyleAccess(ResolvedStyleAccess const&) = delete;
+  ResolvedStyleAccess(ResolvedStyleAccessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4831 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <ve>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____ve_k__BackingField;
 

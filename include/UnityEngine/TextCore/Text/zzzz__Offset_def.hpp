@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\Offset.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/Offset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,8 +73,8 @@ public:
   // @brief default ctor
   constexpr Offset();
 
-  // Ctor Parameters [CppParam { name: "m_Left", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Right", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Top",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Bottom", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Left", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Right", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Top", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Bottom", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Offset(float_t m_Left, float_t m_Right, float_t m_Top, float_t m_Bottom) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

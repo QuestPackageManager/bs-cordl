@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightsAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightsAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::GlobalNamespace::LightsAnimator*);
 MARK_REF_T(::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightsAnimator*, "", "LightsAnimator");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11*, "", "LightsAnimator/<DisableDirectionalLightsCoroutine>d__11");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -85,17 +86,22 @@ public:
   /// @brief Method MoveNext, addr 0x59be26c, size 0xf4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59be360, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59be368, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59be3a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59be268, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -123,6 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59be25c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -141,13 +148,13 @@ protected:
   constexpr LightsAnimator__DisableDirectionalLightsCoroutine_d__11();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator__DisableDirectionalLightsCoroutine_d__11", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator__DisableDirectionalLightsCoroutine_d__11", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator__DisableDirectionalLightsCoroutine_d__11", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator__DisableDirectionalLightsCoroutine_d__11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11 const&) = delete;
+  LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6078 };
@@ -178,6 +185,7 @@ static_assert(offsetof(::GlobalNamespace::LightsAnimator__DisableDirectionalLigh
 static_assert(sizeof(::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/LightsAnimator")]
 // Dependencies DirectionalLight, TubeBloomPrePassLight, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -208,6 +216,7 @@ public:
   /// @brief Method DisableDirectionalLights, addr 0x59be1c4, size 0x34, virtual false, abstract: false, final false
   inline void DisableDirectionalLights(float_t delay);
 
+  /// [IteratorStateMachine(typeof(LightsAnimator::<DisableDirectionalLightsCoroutine>d__11))]
   /// @brief Method DisableDirectionalLightsCoroutine, addr 0x59be1f8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float_t delay);
 
@@ -258,23 +267,26 @@ protected:
   constexpr LightsAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightsAnimator(LightsAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightsAnimator(LightsAnimator const&) = delete;
+  LightsAnimator(LightsAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6079 };
 
+  /// [SerializeField]
   /// @brief Field _lights, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> ____lights;
 
+  /// [SerializeField]
   /// @brief Field _directionalLights, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>> ____directionalLights;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

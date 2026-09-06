@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlCharType.hpp"
+// IWYU pragma private; include "System/Xml/XmlCharType.hpp"
 #include "System/Xml/zzzz__XmlCharType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlCharType.get_StaticLock
@@ -488,7 +488,7 @@ inline bool System::Xml::XmlCharType::InRange(int32_t value, int32_t start, int3
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCharType>(), { "InRange", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, value, start, end);
 }
-// Ctor Parameters [CppParam { name: "charProperties", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "charProperties", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlCharType::XmlCharType(::ArrayW<uint8_t> charProperties) noexcept {
   this->charProperties = charProperties;
 }

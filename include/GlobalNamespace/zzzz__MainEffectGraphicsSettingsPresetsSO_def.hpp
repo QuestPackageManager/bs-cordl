@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectGraphicsSettingsPresetsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectGraphicsSettingsPresetsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr MainEffectGraphicsSettingsPresetsSO_Preset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectGraphicsSettingsPresetsSO_Preset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectGraphicsSettingsPresetsSO_Preset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectGraphicsSettingsPresetsSO_Preset(MainEffectGraphicsSettingsPresetsSO_Preset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectGraphicsSettingsPresetsSO_Preset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectGraphicsSettingsPresetsSO_Preset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectGraphicsSettingsPresetsSO_Preset(MainEffectGraphicsSettingsPresetsSO_Preset const&) = delete;
+  MainEffectGraphicsSettingsPresetsSO_Preset(MainEffectGraphicsSettingsPresetsSO_Presetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15053 };
@@ -116,17 +116,18 @@ protected:
   constexpr MainEffectGraphicsSettingsPresetsSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectGraphicsSettingsPresetsSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectGraphicsSettingsPresetsSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectGraphicsSettingsPresetsSO(MainEffectGraphicsSettingsPresetsSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectGraphicsSettingsPresetsSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectGraphicsSettingsPresetsSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectGraphicsSettingsPresetsSO(MainEffectGraphicsSettingsPresetsSO const&) = delete;
+  MainEffectGraphicsSettingsPresetsSO(MainEffectGraphicsSettingsPresetsSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15054 };
 
+  /// [SerializeField]
   /// @brief Field _presets, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*> ____presets;
 

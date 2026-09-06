@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class BeatmapCharacteristicExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatmapCharacteristicExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapCharacteristicExtensions*, "", "BeatmapCharacteristicExtensions");
+// [Extension]
 // Dependencies BeatmapCharacteristic, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -35,45 +36,58 @@ public:
   /// @brief Field kAllBeatmapCharacteristics, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kAllBeatmapCharacteristics, put = setStaticF_kAllBeatmapCharacteristics)) ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> kAllBeatmapCharacteristics;
 
+  /// [Extension]
   /// @brief Method AsEnum, addr 0x370f0bc, size 0x214, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapCharacteristic AsEnum(::GlobalNamespace::BeatmapCharacteristicSO* so);
 
+  /// [Extension]
   /// @brief Method BeatmapCharacteristicFromSerializedName, addr 0x370f5f4, size 0x170, virtual false, abstract: false, final false
   static inline bool BeatmapCharacteristicFromSerializedName(::StringW name, ::by_ref<::GlobalNamespace::BeatmapCharacteristic> characteristic);
 
+  /// [Extension]
   /// @brief Method CompoundIdPartName, addr 0x370f764, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW CompoundIdPartName(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
+  /// [Extension]
   /// @brief Method ContainsRotationEvents, addr 0x3709f58, size 0x10, virtual false, abstract: false, final false
   static inline bool ContainsRotationEvents(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
   /// @brief Method GetAllBeatmapCharacteristics, addr 0x370f57c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<::GlobalNamespace::BeatmapCharacteristic> GetAllBeatmapCharacteristics();
 
+  /// [Extension]
   /// @brief Method HintLocalizationKey, addr 0x370f9dc, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW HintLocalizationKey(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
+  /// [Extension]
   /// @brief Method LocalizedHint, addr 0x370f97c, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW LocalizedHint(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
+  /// [Extension]
   /// @brief Method LocalizedName, addr 0x370f850, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW LocalizedName(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
+  /// [Extension]
   /// @brief Method NameLocalizationKey, addr 0x370f8b0, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW NameLocalizationKey(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
+  /// [Extension]
   /// @brief Method NumberOfColors, addr 0x370f840, size 0x10, virtual false, abstract: false, final false
   static inline int32_t NumberOfColors(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
+  /// [Extension]
   /// @brief Method Requires360Movement, addr 0x370f834, size 0xc, virtual false, abstract: false, final false
   static inline bool Requires360Movement(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
+  /// [Extension]
   /// @brief Method SerializedName, addr 0x370f3f0, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
+  /// [Extension]
   /// @brief Method SerializedName, addr 0x370faa8, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapCharacteristicSO* so);
 
+  /// [Extension]
   /// @brief Method SortingOrder, addr 0x370f830, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SortingOrder(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
@@ -87,13 +101,13 @@ protected:
   constexpr BeatmapCharacteristicExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicExtensions(BeatmapCharacteristicExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicExtensions(BeatmapCharacteristicExtensions const&) = delete;
+  BeatmapCharacteristicExtensions(BeatmapCharacteristicExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14879 };

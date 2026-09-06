@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\HashUtility.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/HashUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class HashUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::HashUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::HashUtility*, "UnityEngine.Timeline", "HashUtility");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -21,6 +22,7 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE HashUtility : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method CombineHash, addr 0x69cd7f0, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2);
 
@@ -48,13 +50,13 @@ protected:
   constexpr HashUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HashUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HashUtility(HashUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HashUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HashUtility(HashUtility const&) = delete;
+  HashUtility(HashUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19256 };

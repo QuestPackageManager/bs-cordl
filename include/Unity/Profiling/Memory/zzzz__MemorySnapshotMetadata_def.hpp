@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\Memory\MemorySnapshotMetadata.hpp"
+// IWYU pragma private; include "Unity/Profiling/Memory/MemorySnapshotMetadata.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,12 +49,15 @@ public:
   /// @brief Method .ctor, addr 0x6a5e774, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Data, addr 0x6a5e76c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Data();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Description, addr 0x6a5e75c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Description, addr 0x6a5e764, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
@@ -64,20 +67,24 @@ protected:
   constexpr MemorySnapshotMetadata();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemorySnapshotMetadata", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemorySnapshotMetadata", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemorySnapshotMetadata(MemorySnapshotMetadata&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemorySnapshotMetadata", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemorySnapshotMetadata", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemorySnapshotMetadata(MemorySnapshotMetadata const&) = delete;
+  MemorySnapshotMetadata(MemorySnapshotMetadataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9962 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Description>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Description_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Data>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____Data_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\OpenXRInput.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/OpenXRInput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -154,8 +154,8 @@ public:
   // @brief default ctor
   constexpr OpenXRInput_SerializedGuid();
 
-  // Ctor Parameters [CppParam { name: "guid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "ulong1", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "ulong2", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "guid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "ulong1", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "ulong2", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRInput_SerializedGuid(::System::Guid guid, uint64_t ulong1, uint64_t ulong2) noexcept;
 
 private:
@@ -229,7 +229,8 @@ public:
   // @brief default ctor
   constexpr OpenXRInput_SerializedBinding();
 
-  // Ctor Parameters [CppParam { name: "actionId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "actionId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr OpenXRInput_SerializedBinding(uint64_t actionId, ::StringW path) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -254,6 +255,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedB
 static_assert(sizeof(::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedBinding) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Input
+// [Flags]
 // Dependencies
 namespace UnityEngine::XR::OpenXR::Input {
 // Is value type: true
@@ -285,7 +287,7 @@ public:
   // @brief default ctor
   constexpr OpenXRInput_InputSourceNameFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRInput_InputSourceNameFlags(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(7)
@@ -364,8 +366,8 @@ public:
   // @brief default ctor
   constexpr OpenXRInput_GetInternalDeviceIdCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "deviceId", ty: "uint32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name: "deviceId", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRInput_GetInternalDeviceIdCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint32_t deviceId) noexcept;
 
 private:
@@ -421,6 +423,7 @@ public:
 static_assert(sizeof(::UnityEngine::XR::OpenXR::Input::OpenXRInput_GetInternalDeviceIdCommand) == 0xc, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Input
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR::Input {
 // Is value type: false
@@ -499,13 +502,13 @@ protected:
   constexpr OpenXRInput___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRInput___c(OpenXRInput___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInput___c(OpenXRInput___c const&) = delete;
+  OpenXRInput___c(OpenXRInput___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18548 };
@@ -707,13 +710,13 @@ protected:
   constexpr OpenXRInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRInput(OpenXRInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInput(OpenXRInput const&) = delete;
+  OpenXRInput(OpenXRInputconst&) = delete;
 
   /// @brief Field Library offset 0xffffffff size 0x8
   static constexpr ::ConstString Library{ u"UnityOpenXR" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationHumanStream.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationHumanStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,10 @@ struct AnimationHumanStream;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationHumanStream);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
+// [MovedFrom("UnityEngine.Experimental.Animations")]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationHumanStream.bindings.h")]
+// [NativeHeader("Modules/Animation/Director/AnimationHumanStream.h")]
+// [RequiredByNativeCode]
 // Dependencies System.IntPtr
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -24,7 +28,7 @@ public:
   // @brief default ctor
   constexpr AnimationHumanStream();
 
-  // Ctor Parameters [CppParam { name: "stream", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "stream", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationHumanStream(::System::IntPtr stream) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

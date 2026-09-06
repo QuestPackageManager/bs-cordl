@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceAmbientOcclusionPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceAmbientOcclusionPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceAmbientOcclusionSettings_impl.hpp"
@@ -27,7 +27,7 @@
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_BlurTypes::ScreenSpaceAmbientOcclusionPass_BlurTypes(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -39,7 +39,7 @@ constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_B
     0x1) };
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_BlurTypes UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_BlurTypes::Kawase{ static_cast<int32_t>(
     0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses::ScreenSpaceAmbientOcclusionPass_ShaderPasses(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -120,12 +120,13 @@ UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialP
                                                            { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "orthographicCamera", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "aoBlueNoise", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "aoInterleavedGradient", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "sampleCountHigh", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "sampleCountMedium", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "sampleCountLow", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "sourceDepthNormals", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "sourceDepthHigh", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "sourceDepthMedium", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "sourceDepthLow", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "ssaoParams", ty:
-// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "orthographicCamera", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "aoBlueNoise", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "aoInterleavedGradient", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sampleCountHigh", ty: "bool", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "sampleCountMedium", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sampleCountLow", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sourceDepthNormals", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sourceDepthHigh",
+// ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sourceDepthMedium", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "sourceDepthLow", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ssaoParams", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams(
     bool orthographicCamera, bool aoBlueNoise, bool aoInterleavedGradient, bool sampleCountHigh, bool sampleCountMedium, bool sampleCountLow, bool sourceDepthNormals, bool sourceDepthHigh,
     bool sourceDepthMedium, bool sourceDepthLow, ::UnityEngine::Vector4 ssaoParams) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\AssemblyTitleAttribute.hpp"
+// IWYU pragma private; include "System/Reflection/AssemblyTitleAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AssemblyTitleAttribute;
 // Write type traits
 MARK_REF_T(::System::Reflection::AssemblyTitleAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::AssemblyTitleAttribute*, "System.Reflection", "AssemblyTitleAttribute");
+// [AttributeUsage((System.AttributeTargets)1, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Reflection {
 // Is value type: false
@@ -40,17 +41,18 @@ protected:
   constexpr AssemblyTitleAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyTitleAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyTitleAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyTitleAttribute(AssemblyTitleAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyTitleAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyTitleAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyTitleAttribute(AssemblyTitleAttribute const&) = delete;
+  AssemblyTitleAttribute(AssemblyTitleAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3476 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Title>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Title_k__BackingField;
 

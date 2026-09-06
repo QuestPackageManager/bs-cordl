@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\AppContext.hpp"
+// IWYU pragma private; include "System/AppContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ MARK_VAL_T(::System::AppContext_SwitchValueState);
 MARK_REF_T(::System::AppContext*);
 DEFINE_IL2CPP_CLASS(::System::AppContext_SwitchValueState, "System", "AppContext/SwitchValueState");
 DEFINE_IL2CPP_CLASS(::System::AppContext*, "System", "AppContext");
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -57,7 +58,7 @@ public:
   // @brief default ctor
   constexpr AppContext_SwitchValueState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AppContext_SwitchValueState(int32_t value__) noexcept;
 
   /// @brief Field HasFalseValue value: I32(1)
@@ -124,13 +125,13 @@ protected:
   constexpr AppContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppContext(AppContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppContext(AppContext const&) = delete;
+  AppContext(AppContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2549 };

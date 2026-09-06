@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\AudioTrack.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/AudioTrack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
@@ -219,6 +219,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::Timeline::AudioTrack__ge
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AudioTrack__get_outputs_d__4*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::Timeline::AudioTrack__get_outputs_d__4* UnityEngine::Timeline::AudioTrack__get_outputs_d__4::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Timeline::AudioTrack__get_outputs_d__4*>(__1__state));
 }

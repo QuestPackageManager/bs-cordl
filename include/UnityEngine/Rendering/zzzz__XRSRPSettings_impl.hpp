@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\XRSRPSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/XRSRPSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__XRSRPSettings_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"

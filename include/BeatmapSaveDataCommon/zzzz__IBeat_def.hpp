@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon\IBeat.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon/IBeat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +31,15 @@ public:
   /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x375feb4, size 0x168, virtual true, abstract: false, final true
   inline int32_t System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo(::BeatmapSaveDataCommon::IBeat* other);
 
-  /// @brief Method get_beat, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_beat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_beat();
 
   /// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBeat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBeat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBeat(IBeat const&) = delete;
+  IBeat(IBeatconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15404 };

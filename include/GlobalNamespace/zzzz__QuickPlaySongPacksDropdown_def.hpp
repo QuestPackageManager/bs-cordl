@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuickPlaySongPacksDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuickPlaySongPacksDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,13 +124,13 @@ protected:
   constexpr QuickPlaySongPacksDropdown_SongPackMaskItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown_SongPackMaskItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown_SongPackMaskItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySongPacksDropdown_SongPackMaskItem(QuickPlaySongPacksDropdown_SongPackMaskItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown_SongPackMaskItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown_SongPackMaskItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksDropdown_SongPackMaskItem(QuickPlaySongPacksDropdown_SongPackMaskItem const&) = delete;
+  QuickPlaySongPacksDropdown_SongPackMaskItem(QuickPlaySongPacksDropdown_SongPackMaskItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6901 };
@@ -161,6 +161,7 @@ static_assert(offsetof(::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMas
 static_assert(sizeof(::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -220,13 +221,13 @@ protected:
   constexpr QuickPlaySongPacksDropdown___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySongPacksDropdown___c(QuickPlaySongPacksDropdown___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksDropdown___c(QuickPlaySongPacksDropdown___c const&) = delete;
+  QuickPlaySongPacksDropdown___c(QuickPlaySongPacksDropdown___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6902 };
@@ -237,6 +238,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::QuickPlaySongPacksDropdown___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -267,13 +269,13 @@ protected:
   constexpr QuickPlaySongPacksDropdown___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySongPacksDropdown___c__DisplayClass13_0(QuickPlaySongPacksDropdown___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksDropdown___c__DisplayClass13_0(QuickPlaySongPacksDropdown___c__DisplayClass13_0 const&) = delete;
+  QuickPlaySongPacksDropdown___c__DisplayClass13_0(QuickPlaySongPacksDropdown___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6903 };
@@ -345,9 +347,11 @@ public:
   /// @brief Method Start, addr 0x5943d18, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [CompilerGenerated]
   /// @brief Method <LazyInit>b__15_0, addr 0x59444dc, size 0xac, virtual false, abstract: false, final false
   inline ::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem* _LazyInit_b__15_0(::StringW serializedName);
 
+  /// [CompilerGenerated]
   /// @brief Method <LazyInit>b__15_1, addr 0x594458c, size 0xb8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem* _LazyInit_b__15_1(::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack* pack);
 
@@ -390,9 +394,11 @@ public:
   /// @brief Method .ctor, addr 0x59444d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x5943b98, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x5943c58, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
@@ -402,23 +408,26 @@ protected:
   constexpr QuickPlaySongPacksDropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySongPacksDropdown(QuickPlaySongPacksDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksDropdown(QuickPlaySongPacksDropdown const&) = delete;
+  QuickPlaySongPacksDropdown(QuickPlaySongPacksDropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6904 };
 
+  /// [SerializeField]
   /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
+  /// [Inject]
   /// @brief Field _songPackMasksModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___didSelectCellWithIdxEvent;
 

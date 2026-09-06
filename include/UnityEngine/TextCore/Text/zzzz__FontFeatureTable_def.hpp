@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\FontFeatureTable.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontFeatureTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::UnityEngine::TextCore::Text::FontFeatureTable*);
 MARK_REF_T(::UnityEngine::TextCore::Text::FontFeatureTable___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::FontFeatureTable*, "UnityEngine.TextCore.Text", "FontFeatureTable");
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::FontFeatureTable___c*, "UnityEngine.TextCore.Text", "FontFeatureTable/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -130,13 +131,13 @@ protected:
   constexpr FontFeatureTable___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FontFeatureTable___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontFeatureTable___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontFeatureTable___c(FontFeatureTable___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FontFeatureTable___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontFeatureTable___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontFeatureTable___c(FontFeatureTable___c const&) = delete;
+  FontFeatureTable___c(FontFeatureTable___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17209 };
@@ -291,29 +292,34 @@ protected:
   constexpr FontFeatureTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FontFeatureTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontFeatureTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontFeatureTable(FontFeatureTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FontFeatureTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontFeatureTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontFeatureTable(FontFeatureTable const&) = delete;
+  FontFeatureTable(FontFeatureTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17210 };
 
+  /// [SerializeField]
   /// @brief Field m_MultipleSubstitutionRecords, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MultipleSubstitutionRecord>* ___m_MultipleSubstitutionRecords;
 
+  /// [SerializeField]
   /// @brief Field m_LigatureSubstitutionRecords, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>* ___m_LigatureSubstitutionRecords;
 
+  /// [SerializeField]
   /// @brief Field m_GlyphPairAdjustmentRecords, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* ___m_GlyphPairAdjustmentRecords;
 
+  /// [SerializeField]
   /// @brief Field m_MarkToBaseAdjustmentRecords, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>* ___m_MarkToBaseAdjustmentRecords;
 
+  /// [SerializeField]
   /// @brief Field m_MarkToMarkAdjustmentRecords, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>* ___m_MarkToMarkAdjustmentRecords;
 

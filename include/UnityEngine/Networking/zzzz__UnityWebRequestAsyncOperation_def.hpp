@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\UnityWebRequestAsyncOperation.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/UnityWebRequestAsyncOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ protected:
   constexpr UnityWebRequestAsyncOperation_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAsyncOperation_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAsyncOperation_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestAsyncOperation_BindingsMarshaller(UnityWebRequestAsyncOperation_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAsyncOperation_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAsyncOperation_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequestAsyncOperation_BindingsMarshaller(UnityWebRequestAsyncOperation_BindingsMarshaller const&) = delete;
+  UnityWebRequestAsyncOperation_BindingsMarshaller(UnityWebRequestAsyncOperation_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22298 };
@@ -60,6 +60,9 @@ public:
 static_assert(sizeof(::UnityEngine::Networking::UnityWebRequestAsyncOperation_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
+// [UsedByNativeCode]
+// [NativeHeader("UnityWebRequestScriptingClasses.h")]
+// [NativeHeader("Modules/UnityWebRequest/Public/UnityWebRequestAsyncOperation.h")]
 // Dependencies UnityEngine.AsyncOperation
 namespace UnityEngine::Networking {
 // Is value type: false
@@ -86,9 +89,11 @@ public:
   /// @brief Method .ctor, addr 0x6e29108, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
+  /// [CompilerGenerated]
   /// @brief Method get_webRequest, addr 0x6e29154, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_webRequest();
 
+  /// [CompilerGenerated]
   /// @brief Method set_webRequest, addr 0x6e2915c, size 0x8, virtual false, abstract: false, final false
   inline void set_webRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
@@ -98,17 +103,19 @@ protected:
   constexpr UnityWebRequestAsyncOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAsyncOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAsyncOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAsyncOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAsyncOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperation const&) = delete;
+  UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22299 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <webRequest>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ____webRequest_k__BackingField;
 

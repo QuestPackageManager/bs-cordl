@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IncludeAdditionalRPAssets.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IncludeAdditionalRPAssets.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   // @brief default ctor
   constexpr IncludeAdditionalRPAssets_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IncludeAdditionalRPAssets_Version(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(1)
@@ -85,6 +85,9 @@ static_assert(offsetof(::UnityEngine::Rendering::IncludeAdditionalRPAssets_Versi
 static_assert(sizeof(::UnityEngine::Rendering::IncludeAdditionalRPAssets_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [SupportedOnRenderPipeline(new[] {  })]
+// [CategoryInfo(Name = "H: RP Assets Inclusion", Order = 990)]
+// [HideInInspector]
 // Dependencies System.Object, UnityEngine.Rendering.IncludeAdditionalRPAssets::Version
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -176,26 +179,31 @@ protected:
   constexpr IncludeAdditionalRPAssets();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IncludeAdditionalRPAssets", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncludeAdditionalRPAssets", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IncludeAdditionalRPAssets(IncludeAdditionalRPAssets&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IncludeAdditionalRPAssets", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncludeAdditionalRPAssets", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IncludeAdditionalRPAssets(IncludeAdditionalRPAssets const&) = delete;
+  IncludeAdditionalRPAssets(IncludeAdditionalRPAssetsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12194 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::IncludeAdditionalRPAssets_Version ___m_version;
 
+  /// [SerializeField]
   /// @brief Field m_IncludeReferencedInScenes, offset: 0x14, size: 0x1, def value: None
   bool ___m_IncludeReferencedInScenes;
 
+  /// [SerializeField]
   /// @brief Field m_IncludeAssetsByLabel, offset: 0x15, size: 0x1, def value: None
   bool ___m_IncludeAssetsByLabel;
 
+  /// [SerializeField]
   /// @brief Field m_LabelToInclude, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_LabelToInclude;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\ConnectElements.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/ConnectElements.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,6 +86,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ConnectElements*,
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass2_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass3_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass3_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -257,13 +258,13 @@ protected:
   constexpr ConnectElements___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectElements___c(ConnectElements___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectElements___c(ConnectElements___c const&) = delete;
+  ConnectElements___c(ConnectElements___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16862 };
@@ -274,6 +275,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -316,13 +318,13 @@ protected:
   constexpr ConnectElements___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectElements___c__DisplayClass2_0(ConnectElements___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectElements___c__DisplayClass2_0(ConnectElements___c__DisplayClass2_0 const&) = delete;
+  ConnectElements___c__DisplayClass2_0(ConnectElements___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16863 };
@@ -343,6 +345,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ConnectElement
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass2_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -373,13 +376,13 @@ protected:
   constexpr ConnectElements___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectElements___c__DisplayClass3_0(ConnectElements___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectElements___c__DisplayClass3_0(ConnectElements___c__DisplayClass3_0 const&) = delete;
+  ConnectElements___c__DisplayClass3_0(ConnectElements___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16864 };
@@ -395,6 +398,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ConnectElement
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass3_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -408,18 +412,22 @@ public:
 
   using __c__DisplayClass3_0 = ::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass3_0;
 
+  /// [Extension]
   /// @brief Method Connect, addr 0x671e374, size 0x2d8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
+  /// [Extension]
   /// @brief Method Connect, addr 0x671ff4c, size 0x10a8, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
+  /// [Extension]
   /// @brief Method Connect, addr 0x671e64c, size 0x1880, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                                                  ::by_ref<::ArrayW<::UnityEngine::ProBuilder::Face*>> addedFaces, ::by_ref<::ArrayW<::UnityEngine::ProBuilder::Edge>> connections,
                                                                  bool returnFaces, bool returnEdges, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faceMask);
 
+  /// [Extension]
   /// @brief Method Connect, addr 0x671fecc, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::SimpleTuple_2<::ArrayW<::UnityEngine::ProBuilder::Face*>, ::ArrayW<::UnityEngine::ProBuilder::Edge>>
   Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
@@ -456,13 +464,13 @@ protected:
   constexpr ConnectElements();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectElements(ConnectElements&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectElements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectElements(ConnectElements const&) = delete;
+  ConnectElements(ConnectElementsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16865 };

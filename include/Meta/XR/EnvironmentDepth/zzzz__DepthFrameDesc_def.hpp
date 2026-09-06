@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\EnvironmentDepth\DepthFrameDesc.hpp"
+// IWYU pragma private; include "Meta/XR/EnvironmentDepth/DepthFrameDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,11 @@ public:
   // @brief default ctor
   constexpr DepthFrameDesc();
 
-  // Ctor Parameters [CppParam { name: "createPoseLocation", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "createPoseRotation", ty: "::UnityEngine::Quaternion",
-  // modifiers: "", def_value: None }, CppParam { name: "fovLeftAngleTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fovRightAngleTangent", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "fovTopAngleTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fovDownAngleTangent", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "createPoseLocation", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "createPoseRotation", ty:
+  // "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "fovLeftAngleTangent", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "fovRightAngleTangent", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fovTopAngleTangent", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "fovDownAngleTangent", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr DepthFrameDesc(::UnityEngine::Vector3 createPoseLocation, ::UnityEngine::Quaternion createPoseRotation, float_t fovLeftAngleTangent, float_t fovRightAngleTangent,
                            float_t fovTopAngleTangent, float_t fovDownAngleTangent, float_t nearZ, float_t farZ) noexcept;
 

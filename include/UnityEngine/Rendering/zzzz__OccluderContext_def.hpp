@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,9 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph;
@@ -112,13 +114,13 @@ protected:
   constexpr OccluderContext_ShaderIDs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OccluderContext_ShaderIDs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OccluderContext_ShaderIDs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OccluderContext_ShaderIDs(OccluderContext_ShaderIDs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OccluderContext_ShaderIDs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OccluderContext_ShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OccluderContext_ShaderIDs(OccluderContext_ShaderIDs const&) = delete;
+  OccluderContext_ShaderIDs(OccluderContext_ShaderIDsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17742 };
@@ -150,9 +152,9 @@ public:
   inline void AllocateTexturesIfNecessary(bool debugOverlayEnabled);
 
   /// @brief Method CreateFarDepthPyramid, addr 0x682f40c, size 0x4f8, virtual false, abstract: false, final false
-  inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+  inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
-                                    ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> silhouettePlanes,
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> silhouettePlanes,
                                     ::UnityEngine::ComputeShader* occluderDepthPyramidCS, int32_t occluderDepthDownscaleKernel);
 
   /// @brief Method Dispose, addr 0x682ea9c, size 0x128, virtual true, abstract: false, final true
@@ -168,10 +170,11 @@ public:
   inline bool IsSubviewValid(int32_t subviewIndex);
 
   /// @brief Method PrepareOccluders, addr 0x682f9ac, size 0x10c, virtual false, abstract: false, final false
-  inline void PrepareOccluders(::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams);
+  inline void PrepareOccluders(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams);
 
   /// @brief Method SetKeyword, addr 0x682efe0, size 0x2c, virtual false, abstract: false, final false
-  static inline void SetKeyword(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  static inline void SetKeyword(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword,
+                                bool value);
 
   /// @brief Method SetupFarDepthPyramidConstants, addr 0x682f00c, size 0x400, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OccluderDepthPyramidConstants SetupFarDepthPyramidConstants(::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
@@ -193,14 +196,16 @@ public:
   // @brief default ctor
   constexpr OccluderContext();
 
-  // Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depthBufferSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None
-  // }, CppParam { name: "subviewData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDerivedData>", modifiers: "", def_value: None }, CppParam { name: "subviewValidMask",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occluderMipBounds", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderMipBounds>", modifiers: "",
-  // def_value: None }, CppParam { name: "occluderMipLayoutSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "occluderDepthPyramidSize", ty:
-  // "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None }, CppParam {
-  // name: "occlusionDebugOverlaySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occlusionDebugOverlay", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None
-  // }, CppParam { name: "debugNeedsClear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "constantBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None },
-  // CppParam { name: "constantBufferData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDepthPyramidConstants>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "depthBufferSize", ty: "::UnityEngine::Vector2Int", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "subviewData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDerivedData>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "subviewValidMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occluderMipBounds", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderMipBounds>", modifiers: "", def_value: None, comment: None }, CppParam { name: "occluderMipLayoutSize", ty:
+  // "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "occluderDepthPyramidSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionDebugOverlaySize",
+  // ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionDebugOverlay", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "debugNeedsClear", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "constantBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "constantBufferData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDepthPyramidConstants>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr OccluderContext(int32_t version, ::UnityEngine::Vector2Int depthBufferSize, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDerivedData> subviewData,
                             int32_t subviewValidMask, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderMipBounds> occluderMipBounds,
                             ::UnityEngine::Vector2Int occluderMipLayoutSize, ::UnityEngine::Vector2Int occluderDepthPyramidSize, ::UnityEngine::Rendering::RTHandle* occluderDepthPyramid,

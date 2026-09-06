@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\HebrewNumber.hpp"
+// IWYU pragma private; include "System/Globalization/HebrewNumber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,7 +84,7 @@ public:
   // @brief default ctor
   constexpr HebrewNumber_HebrewToken();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: None, comment: None }]
   constexpr HebrewNumber_HebrewToken(int16_t value__) noexcept;
 
   /// @brief Field Digit1 value: I16(4)
@@ -151,8 +151,8 @@ public:
   // @brief default ctor
   constexpr HebrewNumber_HebrewValue();
 
-  // Ctor Parameters [CppParam { name: "token", ty: "::System::Globalization::HebrewNumber_HebrewToken", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int16_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "token", ty: "::System::Globalization::HebrewNumber_HebrewToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "int16_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HebrewNumber_HebrewValue(::System::Globalization::HebrewNumber_HebrewToken token, int16_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -223,7 +223,7 @@ public:
   // @brief default ctor
   constexpr HebrewNumber_HS();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: None, comment: None }]
   constexpr HebrewNumber_HS(int8_t value__) noexcept;
 
   /// @brief Field END value: I8(100)
@@ -349,13 +349,13 @@ protected:
   constexpr HebrewNumber();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HebrewNumber", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HebrewNumber", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HebrewNumber(HebrewNumber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HebrewNumber", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HebrewNumber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HebrewNumber(HebrewNumber const&) = delete;
+  HebrewNumber(HebrewNumberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3604 };

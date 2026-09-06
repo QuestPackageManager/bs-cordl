@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Smoothing.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Smoothing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::Smoothing*);
 MARK_REF_T(::UnityEngine::ProBuilder::Smoothing___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Smoothing*, "UnityEngine.ProBuilder", "Smoothing");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Smoothing___c*, "UnityEngine.ProBuilder", "Smoothing/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -92,13 +93,13 @@ protected:
   constexpr Smoothing___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Smoothing___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Smoothing___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Smoothing___c(Smoothing___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Smoothing___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Smoothing___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Smoothing___c(Smoothing___c const&) = delete;
+  Smoothing___c(Smoothing___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16814 };
@@ -148,13 +149,13 @@ protected:
   constexpr Smoothing();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Smoothing", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Smoothing", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Smoothing(Smoothing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Smoothing", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Smoothing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Smoothing(Smoothing const&) = delete;
+  Smoothing(Smoothingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16815 };

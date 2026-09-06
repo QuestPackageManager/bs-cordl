@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetFrustumPlanesPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetFrustumPlanesPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace GlobalNamespace {
 class SetFrustumPlanesPass___c;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -87,13 +89,13 @@ protected:
   constexpr SetFrustumPlanesPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetFrustumPlanesPass_PassData(SetFrustumPlanesPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetFrustumPlanesPass_PassData(SetFrustumPlanesPass_PassData const&) = delete;
+  SetFrustumPlanesPass_PassData(SetFrustumPlanesPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20685 };
@@ -114,6 +116,7 @@ static_assert(offsetof(::GlobalNamespace::SetFrustumPlanesPass_PassData, ___visu
 static_assert(sizeof(::GlobalNamespace::SetFrustumPlanesPass_PassData) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -153,13 +156,13 @@ protected:
   constexpr SetFrustumPlanesPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetFrustumPlanesPass___c(SetFrustumPlanesPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetFrustumPlanesPass___c(SetFrustumPlanesPass___c const&) = delete;
+  SetFrustumPlanesPass___c(SetFrustumPlanesPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20686 };
@@ -228,13 +231,13 @@ protected:
   constexpr SetFrustumPlanesPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetFrustumPlanesPass(SetFrustumPlanesPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetFrustumPlanesPass(SetFrustumPlanesPass const&) = delete;
+  SetFrustumPlanesPass(SetFrustumPlanesPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20687 };

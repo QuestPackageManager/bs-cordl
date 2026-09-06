@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BottleneckHistory.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BottleneckHistory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BottleneckHistogram_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BottleneckHistory_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSpaceUser.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSpaceUser.hpp"
 #include "GlobalNamespace/zzzz__OVRSpaceUser_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSpaceUser.TryCreate
@@ -114,7 +114,7 @@ constexpr GlobalNamespace::OVRSpaceUser::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* GlobalNamespace::OVRSpaceUser::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_handle", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_handle", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSpaceUser::OVRSpaceUser(uint64_t _handle) noexcept {
   this->_handle = _handle;
 }

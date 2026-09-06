@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRCenterAdjust.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRCenterAdjust.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRCenterAdjust_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"

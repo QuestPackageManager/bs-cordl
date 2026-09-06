@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Watermark.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Watermark.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__Watermark_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Watermark.IsVisible

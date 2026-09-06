@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerResultsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerResultsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,15 +140,19 @@ public:
   /// @brief Method .ctor, addr 0x5963a1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_backToLobbyPressedEvent, addr 0x59633f4, size 0xc0, virtual false, abstract: false, final false
   inline void add_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_backToMenuPressedEvent, addr 0x5963574, size 0xc0, virtual false, abstract: false, final false
   inline void add_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_backToLobbyPressedEvent, addr 0x59634b4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_backToMenuPressedEvent, addr 0x5963634, size 0xc0, virtual false, abstract: false, final false
   inline void remove_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
@@ -158,41 +162,50 @@ protected:
   constexpr MultiplayerResultsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerResultsViewController(MultiplayerResultsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerResultsViewController(MultiplayerResultsViewController const&) = delete;
+  MultiplayerResultsViewController(MultiplayerResultsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6981 };
 
+  /// [SerializeField]
   /// @brief Field _levelClearedGO, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____levelClearedGO;
 
+  /// [SerializeField]
   /// @brief Field _levelFailedGO, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____levelFailedGO;
 
+  /// [SerializeField]
   /// @brief Field _levelResultsGO, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____levelResultsGO;
 
+  /// [SerializeField]
   /// @brief Field _levelBar, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
+  /// [SerializeField]
   /// @brief Field _resultsTableView, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ResultsTableView> ____resultsTableView;
 
+  /// [SerializeField]
   /// @brief Field _backToLobbyButton, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____backToLobbyButton;
 
+  /// [SerializeField]
   /// @brief Field _backToMenuButton, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____backToMenuButton;
 
+  /// [CompilerGenerated]
   /// @brief Field backToLobbyPressedEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* ___backToLobbyPressedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field backToMenuPressedEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* ___backToMenuPressedEvent;
 

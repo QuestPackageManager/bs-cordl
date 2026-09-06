@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SettingsNavigationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SettingsNavigationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   // @brief default ctor
   constexpr SettingsNavigationController_FinishAction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SettingsNavigationController_FinishAction(int32_t value__) noexcept;
 
   /// @brief Field Apply value: I32(2)
@@ -117,12 +117,15 @@ public:
 
   static inline ::GlobalNamespace::SettingsNavigationController* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__7_0, addr 0x5a22858, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__7_1, addr 0x5a22878, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__7_2, addr 0x5a22898, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
@@ -153,9 +156,11 @@ public:
   /// @brief Method .ctor, addr 0x5a2284c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5a224f0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5a225b0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* value);
 
@@ -165,26 +170,30 @@ protected:
   constexpr SettingsNavigationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsNavigationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsNavigationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsNavigationController(SettingsNavigationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsNavigationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsNavigationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsNavigationController(SettingsNavigationController const&) = delete;
+  SettingsNavigationController(SettingsNavigationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6474 };
 
+  /// [SerializeField]
   /// @brief Field _okButton, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
+  /// [SerializeField]
   /// @brief Field _applyButton, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____applyButton;
 
+  /// [SerializeField]
   /// @brief Field _cancelButton, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____cancelButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* ___didFinishEvent;
 

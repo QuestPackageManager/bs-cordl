@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal\Cryptography\Pal\CertificateData.hpp"
+// IWYU pragma private; include "Internal/Cryptography/Pal/CertificateData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +87,8 @@ public:
   // @brief default ctor
   constexpr CertificateData_AlgorithmIdentifier();
 
-  // Ctor Parameters [CppParam { name: "AlgorithmId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Parameters", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "AlgorithmId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Parameters", ty: "::ArrayW<uint8_t>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr CertificateData_AlgorithmIdentifier(::StringW AlgorithmId, ::ArrayW<uint8_t> Parameters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,6 +113,7 @@ static_assert(offsetof(::Internal::Cryptography::Pal::CertificateData_AlgorithmI
 static_assert(sizeof(::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier) == 0x10, "Size mismatch!");
 
 } // namespace Internal::Cryptography::Pal
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace Internal::Cryptography::Pal {
 // Is value type: false
@@ -166,27 +168,34 @@ public:
   /// @brief Method MoveNext, addr 0x5fe3e98, size 0x288, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x5fe41c4, size 0x98, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x5fe4120, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5fe425c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5fe412c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5fe4164, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5fe3e94, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -232,6 +241,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5fe3e74, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -258,13 +268,13 @@ protected:
   constexpr CertificateData__ReadReverseRdns_d__21();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateData__ReadReverseRdns_d__21", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateData__ReadReverseRdns_d__21", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateData__ReadReverseRdns_d__21(CertificateData__ReadReverseRdns_d__21&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateData__ReadReverseRdns_d__21", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateData__ReadReverseRdns_d__21", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateData__ReadReverseRdns_d__21(CertificateData__ReadReverseRdns_d__21 const&) = delete;
+  CertificateData__ReadReverseRdns_d__21(CertificateData__ReadReverseRdns_d__21const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11048 };
@@ -330,6 +340,7 @@ public:
   /// @brief Method GetSimpleNameInfo, addr 0x5fe3840, size 0x410, virtual false, abstract: false, final false
   static inline ::StringW GetSimpleNameInfo(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
+  /// [IteratorStateMachine(typeof(Internal.Cryptography.Pal.CertificateData::<ReadReverseRdns>d__21))]
   /// @brief Method ReadReverseRdns, addr 0x5fe3e04, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   ReadReverseRdns(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
@@ -341,17 +352,18 @@ public:
   // @brief default ctor
   constexpr CertificateData();
 
-  // Ctor Parameters [CppParam { name: "RawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "SubjectPublicKeyInfo", ty: "::ArrayW<uint8_t>", modifiers: "", def_value:
-  // None }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SerialNumber", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "TbsSignature", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "Issuer", ty:
-  // "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: None }, CppParam { name: "NotBefore", ty: "::System::DateTime", modifiers: "", def_value:
-  // None }, CppParam { name: "NotAfter", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "Subject", ty:
-  // "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: None }, CppParam { name: "PublicKeyAlgorithm", ty:
-  // "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "PublicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None },
-  // CppParam { name: "IssuerUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "SubjectUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None },
-  // CppParam { name: "Extensions", ty: "::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509Extension*>*", modifiers: "", def_value: None }, CppParam {
-  // name: "SignatureAlgorithm", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "SignatureValue", ty: "::ArrayW<uint8_t>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "SubjectPublicKeyInfo", ty: "::ArrayW<uint8_t>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SerialNumber", ty: "::ArrayW<uint8_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "TbsSignature", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "Issuer", ty: "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "NotBefore", ty: "::System::DateTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "NotAfter", ty: "::System::DateTime", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Subject", ty: "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "PublicKeyAlgorithm", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: None, comment: None }, CppParam { name: "PublicKey", ty:
+  // "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "IssuerUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "SubjectUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Extensions", ty:
+  // "::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509Extension*>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "SignatureAlgorithm", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: None, comment: None }, CppParam { name: "SignatureValue", ty:
+  // "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr CertificateData(::ArrayW<uint8_t> RawData, ::ArrayW<uint8_t> SubjectPublicKeyInfo, int32_t Version, ::ArrayW<uint8_t> SerialNumber,
                             ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier TbsSignature, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* Issuer,
                             ::System::DateTime NotBefore, ::System::DateTime NotAfter, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* Subject,

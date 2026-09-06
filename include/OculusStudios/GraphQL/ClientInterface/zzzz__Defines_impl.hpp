@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\Defines.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/Defines.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__Defines_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::ClientInterface::Defines._ctor

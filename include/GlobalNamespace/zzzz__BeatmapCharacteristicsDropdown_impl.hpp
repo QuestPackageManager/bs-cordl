@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicsDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicsDropdown.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -287,7 +287,7 @@ inline void GlobalNamespace::BeatmapCharacteristicsDropdown::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(), { "OnDisable", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BeatmapCharacteristicsDropdown::SetNotAllowedCharacteristics(::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>> notAllowedCharacteristics) {
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown::SetNotAllowedCharacteristics(/* [IsReadOnly] */ ::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>> notAllowedCharacteristics) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
                                                            { "SetNotAllowedCharacteristics", {}, { ::i2c::type_of<::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>>() } })));

@@ -1,5 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\ArrayHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ArrayHelpers.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_impl.hpp"
+#include "System/zzzz__ICloneable_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ArrayHelpers_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -10,35 +13,48 @@
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ArrayHelpers_def.hpp"
-template <typename TValue> constexpr TValue& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_get_secondValue() {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
+constexpr TValue& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_get_secondValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secondValue;
 }
-template <typename TValue> constexpr TValue const& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_get_secondValue() const {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
+constexpr TValue const& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_get_secondValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secondValue;
 }
-template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_set_secondValue(TValue value) {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
+constexpr void UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_set_secondValue(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___secondValue = value;
 }
-template <typename TValue> inline void UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::_ctor() {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
+inline void UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValue> inline bool UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::_Merge_b__0(TValue x) {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
+inline bool UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::_Merge_b__0(TValue x) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>*>(), { "<Merge>b__0", {}, { ::i2c::type_of<TValue>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
 template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
 inline ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>* UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>*>());
 }
 // Ctor Parameters []
-template <typename TValue> constexpr ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::ArrayHelpers___c__DisplayClass33_0_1() {}
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
+constexpr ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::ArrayHelpers___c__DisplayClass33_0_1() {}
 template <typename TValue>
 constexpr ::System::Collections::Generic::IEqualityComparer_1<TValue>*& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>::__cordl_internal_get_comparer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -165,14 +181,18 @@ template <typename TValue> inline bool UnityEngine::InputSystem::Utilities::Arra
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, array, value);
 }
-template <typename TValue> inline bool UnityEngine::InputSystem::Utilities::ArrayHelpers::ContainsReference(::ArrayW<TValue> array, TValue value) {
+template <typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue>)
+inline bool UnityEngine::InputSystem::Utilities::ArrayHelpers::ContainsReference(::ArrayW<TValue> array, TValue value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
                                                            { "ContainsReference", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<::ArrayW<TValue>>(), ::i2c::type_of<TValue>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, array, value);
 }
-template <typename TFirst, typename TSecond> inline bool UnityEngine::InputSystem::Utilities::ArrayHelpers::ContainsReference(::ArrayW<TFirst> array, int32_t count, TSecond value) {
+template <typename TFirst, typename TSecond>
+  requires(::cordl_internals::type_constraint<TFirst, TSecond> && ::cordl_internals::reference_type_constraint<TSecond>)
+inline bool UnityEngine::InputSystem::Utilities::ArrayHelpers::ContainsReference(::ArrayW<TFirst> array, int32_t count, TSecond value) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
                                                                                               { "ContainsReference",
                                                                                                 { ::i2c::class_of<TFirst>(), ::i2c::class_of<TSecond>() },
@@ -181,6 +201,7 @@ template <typename TFirst, typename TSecond> inline bool UnityEngine::InputSyste
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, array, count, value);
 }
 template <typename TFirst, typename TSecond>
+  requires(::cordl_internals::type_constraint<TFirst, TSecond> && ::cordl_internals::reference_type_constraint<TSecond>)
 inline bool UnityEngine::InputSystem::Utilities::ArrayHelpers::ContainsReference(::ArrayW<TFirst> array, int32_t startIndex, int32_t count, TSecond value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
@@ -231,7 +252,9 @@ inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::IndexOf(::Arra
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, predicate, startIndex, count);
 }
-template <typename TFirst, typename TSecond> inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::IndexOfReference(::ArrayW<TFirst> array, TSecond value, int32_t count) {
+template <typename TFirst, typename TSecond>
+  requires(::cordl_internals::type_constraint<TFirst, TSecond> && ::cordl_internals::reference_type_constraint<TSecond>)
+inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::IndexOfReference(::ArrayW<TFirst> array, TSecond value, int32_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
                                                                                               { "IndexOfReference",
                                                                                                 { ::i2c::class_of<TFirst>(), ::i2c::class_of<TSecond>() },
@@ -240,6 +263,7 @@ template <typename TFirst, typename TSecond> inline int32_t UnityEngine::InputSy
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, value, count);
 }
 template <typename TFirst, typename TSecond>
+  requires(::cordl_internals::type_constraint<TFirst, TSecond> && ::cordl_internals::reference_type_constraint<TSecond>)
 inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::IndexOfReference(::ArrayW<TFirst> array, TSecond value, int32_t startIndex, int32_t count) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
@@ -249,7 +273,9 @@ inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::IndexOfReferen
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TFirst>(), ::i2c::class_of<TSecond>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, value, startIndex, count);
 }
-template <typename TValue> inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::IndexOfValue(::ArrayW<TValue> array, TValue value, int32_t startIndex, int32_t count) {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::IndexOfValue(::ArrayW<TValue> array, TValue value, int32_t startIndex, int32_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
@@ -258,6 +284,7 @@ template <typename TValue> inline int32_t UnityEngine::InputSystem::Utilities::A
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, value, startIndex, count);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline void UnityEngine::InputSystem::Utilities::ArrayHelpers::Resize(::by_ref<::Unity::Collections::NativeArray_1<TValue>> array, int32_t newSize, ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -301,6 +328,7 @@ inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::AppendWithCapa
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, count, value, capacityIncrement);
 }
 template <typename TValue, typename TValues>
+  requires(::cordl_internals::type_constraint<TValues, ::System::Collections::Generic::IReadOnlyList_1<TValue>*>)
 inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::AppendListWithCapacity(::by_ref<::ArrayW<TValue>> array, ::by_ref<int32_t> length, TValues values, int32_t capacityIncrement) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
@@ -311,6 +339,7 @@ inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::AppendListWith
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, length, values, capacityIncrement);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::AppendWithCapacity(::by_ref<::Unity::Collections::NativeArray_1<TValue>> array, ::by_ref<int32_t> count, TValue value,
                                                                                      int32_t capacityIncrement, ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method_base =
@@ -357,6 +386,7 @@ template <typename TValue> inline int32_t UnityEngine::InputSystem::Utilities::A
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, count);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::GrowBy(::by_ref<::Unity::Collections::NativeArray_1<TValue>> array, int32_t count, ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -378,6 +408,7 @@ inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::GrowWithCapaci
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, count, growBy, capacityIncrement);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::GrowWithCapacity(::by_ref<::Unity::Collections::NativeArray_1<TValue>> array, ::by_ref<int32_t> count, int32_t growBy,
                                                                                    int32_t capacityIncrement, ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method_base =
@@ -389,14 +420,16 @@ inline int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::GrowWithCapaci
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, array, count, growBy, capacityIncrement, allocator);
 }
-template <typename TValue> inline ::ArrayW<TValue> UnityEngine::InputSystem::Utilities::ArrayHelpers::Join(TValue value, ::ArrayW<TValue> values) {
+template <typename TValue> inline ::ArrayW<TValue> UnityEngine::InputSystem::Utilities::ArrayHelpers::Join(TValue value, /* [ParamArray] */ ::ArrayW<TValue> values) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
                                                            { "Join", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<TValue>(), ::i2c::type_of<::ArrayW<TValue>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<TValue>>(nullptr, ___internal_method, value, values);
 }
-template <typename TValue> inline ::ArrayW<TValue> UnityEngine::InputSystem::Utilities::ArrayHelpers::Merge(::ArrayW<TValue> first, ::ArrayW<TValue> second) {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
+inline ::ArrayW<TValue> UnityEngine::InputSystem::Utilities::ArrayHelpers::Merge(::ArrayW<TValue> first, ::ArrayW<TValue> second) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
                                                            { "Merge", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<::ArrayW<TValue>>(), ::i2c::type_of<::ArrayW<TValue>>() } })));
@@ -431,6 +464,7 @@ template <typename TValue> inline void UnityEngine::InputSystem::Utilities::Arra
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, count, index);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline void UnityEngine::InputSystem::Utilities::ArrayHelpers::EraseAtWithCapacity(::Unity::Collections::NativeArray_1<TValue> array, ::by_ref<int32_t> count, int32_t index) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),
@@ -462,7 +496,9 @@ template <typename TValue> inline ::ArrayW<TValue> UnityEngine::InputSystem::Uti
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<TValue>>(nullptr, ___internal_method, array);
 }
-template <typename TValue> inline ::ArrayW<TValue> UnityEngine::InputSystem::Utilities::ArrayHelpers::Clone(::ArrayW<TValue> array) {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::ICloneable*>)
+inline ::ArrayW<TValue> UnityEngine::InputSystem::Utilities::ArrayHelpers::Clone(::ArrayW<TValue> array) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(), { "Clone", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<::ArrayW<TValue>>() } })));
@@ -509,7 +545,9 @@ template <typename TValue> inline void UnityEngine::InputSystem::Utilities::Arra
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array, index1, index2);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::Utilities::ArrayHelpers::SwapElements(::Unity::Collections::NativeArray_1<TValue> array, int32_t index1, int32_t index2) {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline void UnityEngine::InputSystem::Utilities::ArrayHelpers::SwapElements(::Unity::Collections::NativeArray_1<TValue> array, int32_t index1, int32_t index2) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers*>(),

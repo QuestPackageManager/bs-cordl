@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NetSocket.hpp"
+// IWYU pragma private; include "LiteNetLib/NetSocket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -148,6 +148,7 @@ public:
 
   static inline ::System::Net::IPAddress* getStaticF_MulticastAddressV6();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LocalPort, addr 0x58a6338, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalPort();
 
@@ -158,6 +159,7 @@ public:
 
   static inline void setStaticF_MulticastAddressV6(::System::Net::IPAddress* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LocalPort, addr 0x58a6340, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalPort(int32_t value);
 
@@ -170,13 +172,13 @@ protected:
   constexpr NetSocket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSocket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSocket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSocket(NetSocket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSocket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSocket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSocket(NetSocket const&) = delete;
+  NetSocket(NetSocketconst&) = delete;
 
   /// @brief Field ReceivePollingTime offset 0xffffffff size 0x4
   static constexpr int32_t ReceivePollingTime{ static_cast<int32_t>(0x7a120) };
@@ -202,6 +204,7 @@ public:
   /// @brief Field _listener, offset: 0x30, size: 0x8, def value: None
   ::LiteNetLib::INetSocketListener* ____listener;
 
+  /// [CompilerGenerated]
   /// @brief Field <LocalPort>k__BackingField, offset: 0x38, size: 0x4, def value: None
   int32_t ____LocalPort_k__BackingField;
 

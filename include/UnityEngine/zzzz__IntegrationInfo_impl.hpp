@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\IntegrationInfo.hpp"
+// IWYU pragma private; include "UnityEngine/IntegrationInfo.hpp"
 #include "UnityEngine/zzzz__IntegrationInfo_def.hpp"
 #include "UnityEngine/zzzz__IntegrationInfo_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::IntegrationInfo_SupportedUnityFeatures::IntegrationInfo_SupportedUnityFeatures(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -15,25 +15,25 @@ constexpr ::UnityEngine::IntegrationInfo_SupportedUnityFeatures UnityEngine::Int
 constexpr ::UnityEngine::IntegrationInfo_SupportedUnityFeatures UnityEngine::IntegrationInfo_SupportedUnityFeatures::ImmediateModeSupport{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::IntegrationInfo_SupportedUnityFeatures UnityEngine::IntegrationInfo_SupportedUnityFeatures::VehicleSupport{ static_cast<int32_t>(0x20) };
 constexpr ::UnityEngine::IntegrationInfo_SupportedUnityFeatures UnityEngine::IntegrationInfo_SupportedUnityFeatures::CharacterControllerSupport{ static_cast<int32_t>(0x40) };
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer::IntegrationInfo__IntegrationVersion_e__FixedBuffer(uint16_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer::IntegrationInfo__IntegrationVersion_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer::IntegrationInfo__SdkVersion_e__FixedBuffer(uint16_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer::IntegrationInfo__SdkVersion_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer::IntegrationInfo__m_Desc_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer::IntegrationInfo__m_Desc_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer::IntegrationInfo__m_Name_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -125,11 +125,12 @@ inline ::StringW UnityEngine::IntegrationInfo::get_Description() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_Description", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Id", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "IntegrationVersion", ty:
-// "::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "SdkVersion", ty:
-// "::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Features", ty: "::UnityEngine::IntegrationInfo_SupportedUnityFeatures",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Name", ty: "::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Desc",
-// ty: "::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Id", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IntegrationVersion", ty:
+// "::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SdkVersion", ty:
+// "::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Features", ty:
+// "::UnityEngine::IntegrationInfo_SupportedUnityFeatures", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Name", ty:
+// "::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Desc", ty:
+// "::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::IntegrationInfo::IntegrationInfo(uint32_t Id, ::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer IntegrationVersion,
                                                           ::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer SdkVersion, ::UnityEngine::IntegrationInfo_SupportedUnityFeatures m_Features,
                                                           ::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer m_Name, ::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer m_Desc) noexcept {

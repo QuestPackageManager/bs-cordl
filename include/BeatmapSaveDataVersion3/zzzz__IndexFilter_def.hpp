@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\IndexFilter.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/IndexFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -187,41 +187,50 @@ protected:
   constexpr IndexFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IndexFilter(IndexFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexFilter(IndexFilter const&) = delete;
+  IndexFilter(IndexFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15361 };
 
+  /// [SerializeField]
   /// @brief Field f, offset: 0x10, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::IndexFilterType ___f;
 
+  /// [SerializeField]
   /// @brief Field p, offset: 0x14, size: 0x4, def value: None
   int32_t ___p;
 
+  /// [SerializeField]
   /// @brief Field t, offset: 0x18, size: 0x4, def value: None
   int32_t ___t;
 
+  /// [SerializeField]
   /// @brief Field r, offset: 0x1c, size: 0x4, def value: None
   int32_t ___r;
 
+  /// [SerializeField]
   /// @brief Field c, offset: 0x20, size: 0x4, def value: None
   int32_t ___c;
 
+  /// [SerializeField]
   /// @brief Field n, offset: 0x24, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::IndexFilterRandomType ___n;
 
+  /// [SerializeField]
   /// @brief Field s, offset: 0x28, size: 0x4, def value: None
   int32_t ___s;
 
+  /// [SerializeField]
   /// @brief Field l, offset: 0x2c, size: 0x4, def value: None
   float_t ___l;
 
+  /// [SerializeField]
   /// @brief Field d, offset: 0x30, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType ___d;
 

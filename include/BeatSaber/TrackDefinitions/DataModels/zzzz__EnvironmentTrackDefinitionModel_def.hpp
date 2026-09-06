@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\TrackDefinitions\DataModels\EnvironmentTrackDefinitionModel.hpp"
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/DataModels/EnvironmentTrackDefinitionModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,6 +93,7 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackD
 DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack*, "BeatSaber.TrackDefinitions.DataModels",
                     "EnvironmentTrackDefinitionModel/SpawnableEventBoxGroupTypeTrack");
 DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c*, "BeatSaber.TrackDefinitions.DataModels", "EnvironmentTrackDefinitionModel/<>c");
+// [Nullable(0)]
 // Dependencies BeatSaber.TrackDefinitions.DataModels.EventBoxGroupType, System.Object
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: false
@@ -139,13 +140,13 @@ protected:
   constexpr EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack const&) = delete;
+  EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22958 };
@@ -171,6 +172,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTra
 static_assert(sizeof(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack) == 0x28, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions::DataModels
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: false
@@ -232,13 +234,13 @@ protected:
   constexpr EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack const&) = delete;
+  EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22959 };
@@ -269,6 +271,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTra
 static_assert(sizeof(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions::DataModels
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: false
@@ -321,33 +324,42 @@ public:
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__11_0, addr 0x32ede10, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__11_0(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* info);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__11_1, addr 0x32ede30, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventType __ctor_b__11_1(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* trackInfo);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__11_2, addr 0x32ede44, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* __ctor_b__11_2(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* trackInfo);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__11_3, addr 0x32ede4c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> __ctor_b__11_3(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* trackInfo);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__11_4, addr 0x32ede60, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> __ctor_b__11_4(
       ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__11_5, addr 0x32edf00, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*> __ctor_b__11_5(
       ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__11_6, addr 0x32edf4c, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType __ctor_b__11_6(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* info);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__11_7, addr 0x32edf60, size 0xa0, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType
   __ctor_b__11_7(::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__11_8, addr 0x32ee000, size 0xe4, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack*
   __ctor_b__11_8(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo* trackInfo);
@@ -425,13 +437,13 @@ protected:
   constexpr EnvironmentTrackDefinitionModel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTrackDefinitionModel___c(EnvironmentTrackDefinitionModel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionModel___c(EnvironmentTrackDefinitionModel___c const&) = delete;
+  EnvironmentTrackDefinitionModel___c(EnvironmentTrackDefinitionModel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22960 };
@@ -442,6 +454,9 @@ public:
 static_assert(sizeof(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c) == 0x10, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions::DataModels
+// [NullableContext(1)]
+// [Nullable(0)]
+// [DefaultMember("Item")]
 // Dependencies BeatSaber.TrackDefinitions.DataModels.TrackToolbarType, BeatSaber.TrackDefinitions.EnvironmentTracksDefinitionSO::BasicEventTrackInfo, System.Collections.Generic.List`1<T>,
 // System.Object
 namespace BeatSaber::TrackDefinitions::DataModels {
@@ -458,6 +473,7 @@ public:
 
   __declspec(property(get = get_Item)) ::ArrayW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*> Item[];
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_Item)) ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* Item[];
 
   __declspec(property(get = get_Item)) ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* Item[];
@@ -613,6 +629,7 @@ public:
   /// @brief Method get_Item, addr 0x32ed8ac, size 0x64, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*> get_Item(::BeatSaber::TrackDefinitions::EventTrackDefinitionSO* trackDefinition);
 
+  /// [NullableContext(2)]
   /// @brief Method get_Item, addr 0x32ed838, size 0x74, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* get_Item(::GlobalNamespace::BasicBeatmapEventType type);
 
@@ -647,13 +664,13 @@ protected:
   constexpr EnvironmentTrackDefinitionModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTrackDefinitionModel(EnvironmentTrackDefinitionModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionModel(EnvironmentTrackDefinitionModel const&) = delete;
+  EnvironmentTrackDefinitionModel(EnvironmentTrackDefinitionModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22961 };

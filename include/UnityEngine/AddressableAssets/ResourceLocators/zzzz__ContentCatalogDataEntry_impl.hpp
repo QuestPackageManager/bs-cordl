@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\ResourceLocators\ContentCatalogDataEntry.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/ResourceLocators/ContentCatalogDataEntry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogDataEntry_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

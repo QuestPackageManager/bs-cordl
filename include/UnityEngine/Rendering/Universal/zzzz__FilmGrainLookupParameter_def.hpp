@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\FilmGrainLookupParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/FilmGrainLookupParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ protected:
   constexpr FilmGrainLookupParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FilmGrainLookupParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FilmGrainLookupParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FilmGrainLookupParameter(FilmGrainLookupParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FilmGrainLookupParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FilmGrainLookupParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FilmGrainLookupParameter(FilmGrainLookupParameter const&) = delete;
+  FilmGrainLookupParameter(FilmGrainLookupParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12798 };

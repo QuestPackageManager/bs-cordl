@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames\Analytics\Events\CommonFieldProviders.hpp"
+// IWYU pragma private; include "BeatGames/Analytics/Events/CommonFieldProviders.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatGames/Analytics/Events/zzzz__CommonFieldProviders_def.hpp"
 //  Writing Method size for method: ::BeatGames::Analytics::Events::CommonFieldProviders.get_RuntimePlatform

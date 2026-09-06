@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AlphabetScrollInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/AlphabetScrollInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,13 +57,13 @@ protected:
   constexpr AlphabetScrollInfo_Data();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo_Data", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo_Data", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlphabetScrollInfo_Data(AlphabetScrollInfo_Data&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo_Data", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo_Data", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlphabetScrollInfo_Data(AlphabetScrollInfo_Data const&) = delete;
+  AlphabetScrollInfo_Data(AlphabetScrollInfo_Dataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19003 };
@@ -104,13 +104,13 @@ protected:
   constexpr AlphabetScrollInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlphabetScrollInfo(AlphabetScrollInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlphabetScrollInfo(AlphabetScrollInfo const&) = delete;
+  AlphabetScrollInfo(AlphabetScrollInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19004 };

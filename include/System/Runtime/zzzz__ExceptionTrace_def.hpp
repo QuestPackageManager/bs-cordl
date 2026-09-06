@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\ExceptionTrace.hpp"
+// IWYU pragma private; include "System/Runtime/ExceptionTrace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(ExceptionTrace)
@@ -28,7 +29,7 @@ class ExceptionTrace;
 // Write type traits
 MARK_REF_T(::System::Runtime::ExceptionTrace*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::ExceptionTrace*, "System.Runtime", "ExceptionTrace");
-// Dependencies System.Object
+// Dependencies System.Exception, System.Object
 namespace System::Runtime {
 // Is value type: false
 // CS Name: System.Runtime.ExceptionTrace
@@ -50,10 +51,14 @@ public:
   static inline ::System::Runtime::ExceptionTrace* New_ctor(::StringW eventSourceName, ::System::Runtime::Diagnostics::EtwDiagnosticTrace* diagnosticTrace);
 
   /// @brief Method TraceException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TException> inline TException TraceException(TException exception);
+  template <typename TException>
+    requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
+  inline TException TraceException(TException exception);
 
   /// @brief Method TraceException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TException> inline TException TraceException(TException exception, ::StringW eventSource);
+  template <typename TException>
+    requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
+  inline TException TraceException(TException exception, ::StringW eventSource);
 
   /// @brief Method TraceHandledException, addr 0x6185a64, size 0x238, virtual false, abstract: false, final false
   inline void TraceHandledException(::System::Exception* exception, ::System::Diagnostics::TraceEventType traceEventType);
@@ -79,13 +84,13 @@ protected:
   constexpr ExceptionTrace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionTrace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionTrace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExceptionTrace(ExceptionTrace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionTrace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExceptionTrace(ExceptionTrace const&) = delete;
+  ExceptionTrace(ExceptionTraceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21300 };

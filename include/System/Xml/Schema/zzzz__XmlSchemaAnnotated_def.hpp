@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaAnnotated.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAnnotated.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +28,16 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaAnnotated : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
+  /// @brief [XmlElement("annotation", typeof(System.Xml.Schema.XmlSchemaAnnotation))]
   __declspec(property(get = get_Annotation, put = set_Annotation)) ::System::Xml::Schema::XmlSchemaAnnotation* Annotation;
 
+  /// @brief [XmlAttribute("id", DataType = "ID")]
   __declspec(property(get = get_Id, put = set_Id)) ::StringW Id;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IdAttribute, put = set_IdAttribute)) ::StringW IdAttribute;
 
+  /// @brief [XmlAnyAttribute]
   __declspec(property(get = get_UnhandledAttributes, put = set_UnhandledAttributes)) ::ArrayW<::System::Xml::XmlAttribute*> UnhandledAttributes;
 
   /// @brief Field annotation, offset 0x40, size 0x8
@@ -104,13 +108,13 @@ protected:
   constexpr XmlSchemaAnnotated();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAnnotated", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAnnotated", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaAnnotated(XmlSchemaAnnotated&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAnnotated", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAnnotated", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaAnnotated(XmlSchemaAnnotated const&) = delete;
+  XmlSchemaAnnotated(XmlSchemaAnnotatedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9741 };

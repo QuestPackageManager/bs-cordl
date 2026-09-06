@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Vector3TransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/Vector3TransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,32 +118,38 @@ protected:
   constexpr Vector3TransitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3TransitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3TransitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector3TransitionSO(Vector3TransitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3TransitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3TransitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector3TransitionSO(Vector3TransitionSO const&) = delete;
+  Vector3TransitionSO(Vector3TransitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22386 };
 
+  /// [SerializeField]
   /// @brief Field _normalState, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____normalState;
 
+  /// [SerializeField]
   /// @brief Field _highlightedState, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____highlightedState;
 
+  /// [SerializeField]
   /// @brief Field _pressedState, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____pressedState;
 
+  /// [SerializeField]
   /// @brief Field _disabledState, offset: 0x44, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____disabledState;
 
+  /// [SerializeField]
   /// @brief Field _selectedState, offset: 0x50, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____selectedState;
 
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedState, offset: 0x5c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____selectedAndHighlightedState;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\PickerOptions.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/PickerOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,9 +48,13 @@ public:
   /// @brief Method get_Default, addr 0x66e3690, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::PickerOptions get_Default();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_depthTest, addr 0x66e3670, size 0x8, virtual false, abstract: false, final false
   inline bool get_depthTest();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_rectSelectMode, addr 0x66e3680, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::RectSelectMode get_rectSelectMode();
 
@@ -62,9 +66,11 @@ public:
 
   static inline void setStaticF_k_Default(::UnityEngine::ProBuilder::PickerOptions value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_depthTest, addr 0x66e3678, size 0x8, virtual false, abstract: false, final false
   inline void set_depthTest(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rectSelectMode, addr 0x66e3688, size 0x8, virtual false, abstract: false, final false
   inline void set_rectSelectMode(::UnityEngine::ProBuilder::RectSelectMode value);
 
@@ -72,8 +78,8 @@ public:
   // @brief default ctor
   constexpr PickerOptions();
 
-  // Ctor Parameters [CppParam { name: "_depthTest_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_rectSelectMode_k__BackingField", ty:
-  // "::UnityEngine::ProBuilder::RectSelectMode", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_depthTest_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_rectSelectMode_k__BackingField", ty:
+  // "::UnityEngine::ProBuilder::RectSelectMode", modifiers: "", def_value: None, comment: None }]
   constexpr PickerOptions(bool _depthTest_k__BackingField, ::UnityEngine::ProBuilder::RectSelectMode _rectSelectMode_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -82,9 +88,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <depthTest>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _depthTest_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rectSelectMode>k__BackingField, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::RectSelectMode _rectSelectMode_k__BackingField;
 

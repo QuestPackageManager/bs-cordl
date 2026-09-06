@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerBinder.hpp"
+// IWYU pragma private; include "Zenject/SubContainerBinder.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__InstallerBase_impl.hpp"
 #include "Zenject/zzzz__SubContainerBinder_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -1591,7 +1592,9 @@ Zenject::SubContainerBinder::ByInstanceGetter(::System::Func_2<::Zenject::Inject
       (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerBinder*>(), { "ByInstanceGetter", {}, { ::i2c::type_of<::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, ___internal_method, subContainerGetter);
 }
-template <typename TInstaller> inline ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::SubContainerBinder::ByInstaller() {
+template <typename TInstaller>
+  requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::InstallerBase*>)
+inline ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::SubContainerBinder::ByInstaller() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerBinder*>(), { "ByInstaller", { ::i2c::class_of<TInstaller>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TInstaller>() })));
@@ -1619,7 +1622,9 @@ inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zen
                                                            { "ByNewPrefabMethod", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, ___internal_method, prefab, installerMethod);
 }
-template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::SubContainerBinder::ByNewGameObjectInstaller() {
+template <typename TInstaller>
+  requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::InstallerBase*>)
+inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::SubContainerBinder::ByNewGameObjectInstaller() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerBinder*>(), { "ByNewGameObjectInstaller", { ::i2c::class_of<TInstaller>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TInstaller>() })));
@@ -1630,7 +1635,9 @@ inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zen
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerBinder*>(), { "ByNewGameObjectInstaller", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, ___internal_method, installerType);
 }
-template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::SubContainerBinder::ByNewPrefabInstaller(::UnityEngine::Object* prefab) {
+template <typename TInstaller>
+  requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::InstallerBase*>)
+inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::SubContainerBinder::ByNewPrefabInstaller(::UnityEngine::Object* prefab) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerBinder*>(), { "ByNewPrefabInstaller", { ::i2c::class_of<TInstaller>() }, { ::i2c::type_of<::UnityEngine::Object*>() } })));
@@ -1650,7 +1657,9 @@ inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zen
                                                            { "ByNewPrefabResourceMethod", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, ___internal_method, resourcePath, installerMethod);
 }
-template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::SubContainerBinder::ByNewPrefabResourceInstaller(::StringW resourcePath) {
+template <typename TInstaller>
+  requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::InstallerBase*>)
+inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::SubContainerBinder::ByNewPrefabResourceInstaller(::StringW resourcePath) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerBinder*>(), { "ByNewPrefabResourceInstaller", { ::i2c::class_of<TInstaller>() }, { ::i2c::type_of<::StringW>() } })));

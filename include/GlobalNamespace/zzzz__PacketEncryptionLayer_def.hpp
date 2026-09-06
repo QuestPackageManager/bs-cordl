@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PacketEncryptionLayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/PacketEncryptionLayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,9 @@ namespace GlobalNamespace {
 class EncryptionUtility_IEncryptionState;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> class ExpiringDictionary_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
+class ExpiringDictionary_2;
 }
 namespace GlobalNamespace {
 class PacketEncryptionLayer_EncryptionStatistics;
@@ -272,13 +274,13 @@ protected:
   constexpr PacketEncryptionLayer_EncryptionStatistics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_EncryptionStatistics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_EncryptionStatistics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PacketEncryptionLayer_EncryptionStatistics(PacketEncryptionLayer_EncryptionStatistics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_EncryptionStatistics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_EncryptionStatistics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PacketEncryptionLayer_EncryptionStatistics(PacketEncryptionLayer_EncryptionStatistics const&) = delete;
+  PacketEncryptionLayer_EncryptionStatistics(PacketEncryptionLayer_EncryptionStatisticsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18243 };
@@ -329,6 +331,7 @@ static_assert(offsetof(::GlobalNamespace::PacketEncryptionLayer_EncryptionStatis
 static_assert(sizeof(::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -370,13 +373,13 @@ protected:
   constexpr PendingEncryptionStateList_PacketEncryptionLayer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PendingEncryptionStateList_PacketEncryptionLayer___c(PendingEncryptionStateList_PacketEncryptionLayer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PendingEncryptionStateList_PacketEncryptionLayer___c(PendingEncryptionStateList_PacketEncryptionLayer___c const&) = delete;
+  PendingEncryptionStateList_PacketEncryptionLayer___c(PendingEncryptionStateList_PacketEncryptionLayer___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18244 };
@@ -387,6 +390,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -417,13 +421,13 @@ protected:
   constexpr PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0 const&) = delete;
+  PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18245 };
@@ -439,6 +443,7 @@ static_assert(offsetof(::GlobalNamespace::PendingEncryptionStateList_PacketEncry
 static_assert(sizeof(::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -469,13 +474,13 @@ protected:
   constexpr PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0 const&) = delete;
+  PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18246 };
@@ -555,13 +560,13 @@ protected:
   constexpr PacketEncryptionLayer_PendingEncryptionStateList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_PendingEncryptionStateList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_PendingEncryptionStateList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PacketEncryptionLayer_PendingEncryptionStateList(PacketEncryptionLayer_PendingEncryptionStateList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_PendingEncryptionStateList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_PendingEncryptionStateList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PacketEncryptionLayer_PendingEncryptionStateList(PacketEncryptionLayer_PendingEncryptionStateList const&) = delete;
+  PacketEncryptionLayer_PendingEncryptionStateList(PacketEncryptionLayer_PendingEncryptionStateListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18247 };
@@ -577,6 +582,7 @@ static_assert(offsetof(::GlobalNamespace::PacketEncryptionLayer_PendingEncryptio
 static_assert(sizeof(::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -590,6 +596,7 @@ public:
   /// @brief Method MoveNext, addr 0x333e370, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x333e734, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -600,12 +607,13 @@ public:
   // @brief default ctor
   constexpr PacketEncryptionLayer__AddEncryptedEndpointAsync_d__25();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::PacketEncryptionLayer*", modifiers: "", def_value: None }, CppParam { name: "preMasterSecret", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "serverRandom", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "clientRandom", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "isClient",
-  // ty: "bool", modifiers: "", def_value: None }, CppParam { name: "endPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__4__this", ty: "::GlobalNamespace::PacketEncryptionLayer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "preMasterSecret", ty: "::ArrayW<uint8_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "serverRandom", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "clientRandom", ty:
+  // "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "isClient", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "endPoint", ty:
+  // "::System::Net::IPEndPoint*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>", modifiers: "", def_value: None, comment: None }]
   constexpr PacketEncryptionLayer__AddEncryptedEndpointAsync_d__25(int32_t __1__state,
                                                                    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*> __t__builder,
                                                                    ::GlobalNamespace::PacketEncryptionLayer* __4__this, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverRandom,
@@ -669,6 +677,7 @@ static_assert(offsetof(::GlobalNamespace::PacketEncryptionLayer__AddEncryptedEnd
 static_assert(sizeof(::GlobalNamespace::PacketEncryptionLayer__AddEncryptedEndpointAsync_d__25) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -682,6 +691,7 @@ public:
   /// @brief Method MoveNext, addr 0x333e7b4, size 0x4a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x333ec58, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -692,12 +702,12 @@ public:
   // @brief default ctor
   constexpr PacketEncryptionLayer__AddPendingEncryptedEndpointAsync_d__27();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::PacketEncryptionLayer*", modifiers: "",
-  // def_value: None }, CppParam { name: "preMasterSecret", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "serverRandom", ty: "::ArrayW<uint8_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "clientRandom", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "isClient", ty: "bool", modifiers: "", def_value: None }, CppParam
-  // { name: "endPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::PacketEncryptionLayer*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "preMasterSecret", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "serverRandom", ty:
+  // "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "clientRandom", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "isClient", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "endPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>", modifiers: "", def_value: None, comment: None }]
   constexpr PacketEncryptionLayer__AddPendingEncryptedEndpointAsync_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                           ::GlobalNamespace::PacketEncryptionLayer* __4__this, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverRandom,
                                                                           ::ArrayW<uint8_t> clientRandom, bool isClient, ::System::Net::IPEndPoint* endPoint,
@@ -811,14 +821,17 @@ public:
   inline ::GlobalNamespace::EncryptionUtility_IEncryptionState* AddEncryptedEndpoint(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverRandom,
                                                                                      ::ArrayW<uint8_t> clientRandom, bool isClient);
 
+  /// [AsyncStateMachine(typeof(PacketEncryptionLayer::<AddEncryptedEndpointAsync>d__25))]
   /// @brief Method AddEncryptedEndpointAsync, addr 0x333cd18, size 0x124, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>*
   AddEncryptedEndpointAsync(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> clientRandom, bool isClient);
 
+  /// [AsyncStateMachine(typeof(PacketEncryptionLayer::<AddPendingEncryptedEndpointAsync>d__27))]
   /// @brief Method AddPendingEncryptedEndpointAsync, addr 0x333cefc, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* AddPendingEncryptedEndpointAsync(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverRandom,
                                                                             ::ArrayW<uint8_t> clientRandom, bool isClient);
 
+  /// [Conditional("BG_VERBOSE_LOGGING")]
   /// @brief Method Log, addr 0x333de8c, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
@@ -912,17 +925,21 @@ public:
 
   static inline ::System::Diagnostics::Stopwatch* getStaticF__stopwatch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_enableStatistics, addr 0x333c16c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableStatistics();
 
+  /// [CompilerGenerated]
   /// @brief Method get_filterUnencryptedTraffic, addr 0x333c15c, size 0x8, virtual false, abstract: false, final false
   inline bool get_filterUnencryptedTraffic();
 
   static inline void setStaticF__stopwatch(::System::Diagnostics::Stopwatch* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_enableStatistics, addr 0x333c174, size 0x8, virtual false, abstract: false, final false
   inline void set_enableStatistics(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_filterUnencryptedTraffic, addr 0x333c164, size 0x8, virtual false, abstract: false, final false
   inline void set_filterUnencryptedTraffic(bool value);
 
@@ -932,13 +949,13 @@ protected:
   constexpr PacketEncryptionLayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PacketEncryptionLayer(PacketEncryptionLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PacketEncryptionLayer(PacketEncryptionLayer const&) = delete;
+  PacketEncryptionLayer(PacketEncryptionLayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18250 };
@@ -970,9 +987,11 @@ public:
   /// @brief Field _unencryptedTrafficFilter, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____unencryptedTrafficFilter;
 
+  /// [CompilerGenerated]
   /// @brief Field <filterUnencryptedTraffic>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____filterUnencryptedTraffic_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <enableStatistics>k__BackingField, offset: 0x41, size: 0x1, def value: None
   bool ____enableStatistics_k__BackingField;
 

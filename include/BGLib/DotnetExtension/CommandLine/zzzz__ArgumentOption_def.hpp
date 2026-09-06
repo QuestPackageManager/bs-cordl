@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\CommandLine\ArgumentOption.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/ArgumentOption.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,9 @@ struct ArgumentOption;
 // Write type traits
 MARK_VAL_T(::BGLib::DotnetExtension::CommandLine::ArgumentOption);
 DEFINE_IL2CPP_CLASS(::BGLib::DotnetExtension::CommandLine::ArgumentOption, "BGLib.DotnetExtension.CommandLine", "ArgumentOption");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [IsReadOnly]
 // Dependencies BGLib.DotnetExtension.CommandLine.ArgumentType
 namespace BGLib::DotnetExtension::CommandLine {
 // Is value type: true
@@ -42,6 +45,7 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>"
   constexpr operator ::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*();
 
+  /// [NullableContext(2)]
   /// @brief Method Equals, addr 0x33112d4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
@@ -58,7 +62,7 @@ public:
   inline void ValidateArgumentValue(::StringW value);
 
   /// @brief Method .ctor, addr 0x3310e08, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, ::ArrayW<::StringW> identifiers);
+  inline void _ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, /* [ParamArray] */ ::ArrayW<::StringW> identifiers);
 
   /// @brief Method get_expectsValue, addr 0x3310e2c, size 0x14, virtual false, abstract: false, final false
   inline bool get_expectsValue();
@@ -73,8 +77,9 @@ public:
   // @brief default ctor
   constexpr ArgumentOption();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "identifiers", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam
-  // { name: "hint", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::BGLib::DotnetExtension::CommandLine::ArgumentType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "identifiers", ty: "::ArrayW<::StringW>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "hint", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty:
+  // "::BGLib::DotnetExtension::CommandLine::ArgumentType", modifiers: "", def_value: None, comment: None }]
   constexpr ArgumentOption(::StringW name, ::ArrayW<::StringW> identifiers, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

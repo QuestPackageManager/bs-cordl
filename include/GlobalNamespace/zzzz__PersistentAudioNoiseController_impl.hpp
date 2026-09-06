@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PersistentAudioNoiseController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PersistentAudioNoiseController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentAudioNoiseController_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"

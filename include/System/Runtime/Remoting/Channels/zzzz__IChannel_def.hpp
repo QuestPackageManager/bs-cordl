@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Channels\IChannel.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/IChannel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class IChannel;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Channels::IChannel*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Channels::IChannel*, "System.Runtime.Remoting.Channels", "IChannel");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
@@ -24,15 +25,15 @@ public:
 
   __declspec(property(get = get_ChannelPriority)) int32_t ChannelPriority;
 
-  /// @brief Method get_ChannelName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ChannelName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_ChannelName();
 
-  /// @brief Method get_ChannelPriority, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ChannelPriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ChannelPriority();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IChannel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IChannel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IChannel(IChannel const&) = delete;
+  IChannel(IChannelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3137 };

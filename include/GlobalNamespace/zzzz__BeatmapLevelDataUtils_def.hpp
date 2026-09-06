@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelDataUtils.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelDataUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,9 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_ReadOnly;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;
@@ -77,6 +79,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0*, "", "BeatmapLevelDataUtils/<>c__DisplayClass8_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0*, "", "BeatmapLevelDataUtils/<>c__DisplayClass9_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8, "", "BeatmapLevelDataUtils/<ReadAllTextFromUrlAsync>d__8");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -89,6 +92,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <ReadAllTextFromPathAsync>b__0, addr 0x37249fc, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW _ReadAllTextFromPathAsync_b__0();
 
@@ -107,17 +111,18 @@ protected:
   constexpr BeatmapLevelDataUtils___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0 const&) = delete;
+  BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14972 };
 
+  /// [Nullable(0)]
   /// @brief Field path, offset: 0x10, size: 0x8, def value: None
   ::StringW ___path;
 
@@ -129,6 +134,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -141,6 +147,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <ReadAllTextFromUrlAsync>b__0, addr 0x3724a5c, size 0x80, virtual false, abstract: false, final false
   inline ::StringW _ReadAllTextFromUrlAsync_b__0();
 
@@ -159,17 +166,18 @@ protected:
   constexpr BeatmapLevelDataUtils___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0 const&) = delete;
+  BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14973 };
 
+  /// [Nullable(0)]
   /// @brief Field www, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ___www;
 
@@ -181,6 +189,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object, Unity.Collections.NativeArray`1::ReadOnly<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -193,6 +202,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <ReadAllTextFromDataAsync>b__0, addr 0x3724adc, size 0x60, virtual false, abstract: false, final false
   inline ::StringW _ReadAllTextFromDataAsync_b__0();
 
@@ -211,17 +221,18 @@ protected:
   constexpr BeatmapLevelDataUtils___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0 const&) = delete;
+  BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14974 };
 
+  /// [Nullable(0)]
   /// @brief Field inputData, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> ___inputData;
 
@@ -233,6 +244,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken,
 // UnityEngine.Networking.UnityWebRequest::Result
 namespace GlobalNamespace {
@@ -247,8 +259,9 @@ public:
   /// @brief Method MoveNext, addr 0x3724b3c, size 0x4e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3725020, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -257,12 +270,12 @@ public:
   // @brief default ctor
   constexpr BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam
-  // { name: "__8__1", ty: "::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::StringW path,
                                                                 ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0* __8__1, ::System::Threading::CancellationToken cancellationToken,
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1,
@@ -277,21 +290,26 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field path, offset: 0x20, size: 0x8, def value: None
   ::StringW path;
 
+  /// [Nullable(0)]
   /// @brief Field <>8__1, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0* __8__1;
 
   /// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__2;
 
@@ -315,6 +333,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataUtils__ReadAllTextFrom
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -366,9 +386,11 @@ public:
   /// @brief Method IsCompressed, addr 0x37238e4, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsCompressed(::ArrayW<uint8_t> data);
 
+  /// [NullableContext(0)]
   /// @brief Method ReadAllTextFromData, addr 0x3722dd4, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW ReadAllTextFromData(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> inputData);
 
+  /// [NullableContext(0)]
   /// @brief Method ReadAllTextFromDataAsync, addr 0x37147bc, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromDataAsync(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> inputData);
 
@@ -378,6 +400,7 @@ public:
   /// @brief Method ReadAllTextFromPathAsync, addr 0x3723d80, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromPathAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(BeatmapLevelDataUtils::<ReadAllTextFromUrlAsync>d__8))]
   /// @brief Method ReadAllTextFromUrlAsync, addr 0x3723f10, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromUrlAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
@@ -402,13 +425,13 @@ protected:
   constexpr BeatmapLevelDataUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelDataUtils(BeatmapLevelDataUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils(BeatmapLevelDataUtils const&) = delete;
+  BeatmapLevelDataUtils(BeatmapLevelDataUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14976 };

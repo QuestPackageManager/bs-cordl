@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Numerics\BigNumber.hpp"
+// IWYU pragma private; include "System/Numerics/BigNumber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,8 +58,9 @@ public:
   // @brief default ctor
   constexpr BigNumber_BigNumberBuffer();
 
-  // Ctor Parameters [CppParam { name: "digits", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: None }, CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sign", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "digits", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: None, comment: None }, CppParam { name: "precision", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sign", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BigNumber_BigNumberBuffer(::System::Text::StringBuilder* digits, int32_t precision, int32_t scale, bool sign) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -142,13 +143,13 @@ protected:
   constexpr BigNumber();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BigNumber", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigNumber", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BigNumber(BigNumber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BigNumber", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigNumber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BigNumber(BigNumber const&) = delete;
+  BigNumber(BigNumberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21846 };

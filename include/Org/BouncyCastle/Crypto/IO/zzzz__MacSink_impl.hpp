@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\IO\MacSink.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IO/MacSink.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__MacSink_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"

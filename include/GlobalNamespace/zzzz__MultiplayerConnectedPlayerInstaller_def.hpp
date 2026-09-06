@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -172,47 +172,59 @@ protected:
   constexpr MultiplayerConnectedPlayerInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerInstaller(MultiplayerConnectedPlayerInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerInstaller(MultiplayerConnectedPlayerInstaller const&) = delete;
+  MultiplayerConnectedPlayerInstaller(MultiplayerConnectedPlayerInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6058 };
 
+  /// [SerializeField]
   /// @brief Field _connectedPlayerAudioTimeSyncControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> ____connectedPlayerAudioTimeSyncControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _connectedPlayerBeatmapObjectEventManagerPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager> ____connectedPlayerBeatmapObjectEventManagerPrefab;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _multiplayerGameNoteControllerPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> ____multiplayerGameNoteControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerBurstSliderHeadGameNoteControllerPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> ____multiplayerBurstSliderHeadGameNoteControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerBurstSliderGameNoteControllerPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> ____multiplayerBurstSliderGameNoteControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerBombNoteControllerPrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController> ____multiplayerBombNoteControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerObstacleControllerPrefab, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController> ____multiplayerObstacleControllerPrefab;
 
+  /// [Inject]
   /// @brief Field _connectedPlayer, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
+  /// [Inject]
   /// @brief Field _localPlayerStartState, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlayerStartState ____localPlayerStartState;
 
+  /// [Inject]
   /// @brief Field _sceneSetupData, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
+  /// [Inject]
   /// @brief Field _playersSpecificSettingsAtGameStartModel, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* ____playersSpecificSettingsAtGameStartModel;
 

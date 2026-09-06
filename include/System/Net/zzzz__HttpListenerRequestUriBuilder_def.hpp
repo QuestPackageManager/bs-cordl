@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HttpListenerRequestUriBuilder.hpp"
+// IWYU pragma private; include "System/Net/HttpListenerRequestUriBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr HttpListenerRequestUriBuilder_ParsingResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HttpListenerRequestUriBuilder_ParsingResult(int32_t value__) noexcept;
 
   /// @brief Field EncodingError value: I32(2)
@@ -138,7 +138,7 @@ public:
   // @brief default ctor
   constexpr HttpListenerRequestUriBuilder_EncodingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HttpListenerRequestUriBuilder_EncodingType(int32_t value__) noexcept;
 
   /// @brief Field Primary value: I32(0)
@@ -251,7 +251,7 @@ public:
   static inline ::System::Uri* GetRequestUri(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
   /// @brief Method LogWarning, addr 0x640c61c, size 0x4, virtual false, abstract: false, final false
-  inline void LogWarning(::StringW methodName, ::StringW message, ::ArrayW<::System::Object*> args);
+  inline void LogWarning(::StringW methodName, ::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   static inline ::System::Net::HttpListenerRequestUriBuilder* New_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
@@ -333,13 +333,13 @@ protected:
   constexpr HttpListenerRequestUriBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpListenerRequestUriBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpListenerRequestUriBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpListenerRequestUriBuilder(HttpListenerRequestUriBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpListenerRequestUriBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpListenerRequestUriBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpListenerRequestUriBuilder(HttpListenerRequestUriBuilder const&) = delete;
+  HttpListenerRequestUriBuilder(HttpListenerRequestUriBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11490 };

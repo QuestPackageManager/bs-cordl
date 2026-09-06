@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\xxHash3.hpp"
+// IWYU pragma private; include "Unity/Collections/xxHash3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +104,7 @@ public:
   // @brief default ctor
   constexpr xxHash3_ulong2();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr xxHash3_ulong2(uint64_t x, uint64_t y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -221,10 +221,11 @@ public:
   // @brief default ctor
   constexpr StreamingState_xxHash3_StreamingStateData();
 
-  // Ctor Parameters [CppParam { name: "Acc", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Buffer", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "IsHash64",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "BufferedSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NbStripesSoFar", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "TotalLength", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "Seed", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "SecretKey", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_PadEnd", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Acc", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Buffer", ty: "uint8_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "IsHash64", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "BufferedSize", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "NbStripesSoFar", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "TotalLength", ty: "int64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Seed", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SecretKey", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_PadEnd", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr StreamingState_xxHash3_StreamingStateData(uint64_t Acc, uint8_t Buffer, int32_t IsHash64, int32_t BufferedSize, int32_t NbStripesSoFar, int64_t TotalLength, uint64_t Seed,
                                                       uint8_t SecretKey, uint8_t _PadEnd) noexcept;
 
@@ -372,6 +373,7 @@ public:
 static_assert(sizeof(::Unity::Collections::StreamingState_xxHash3_StreamingStateData) == 0x220, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.xxHash3::StreamingState::StreamingStateData
 namespace Unity::Collections {
 // Is value type: true
@@ -399,6 +401,8 @@ public:
 
   __declspec(property(get = get_SecretKey)) uint8_t* SecretKey;
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckKeySize, addr 0x64ccd04, size 0xa4, virtual false, abstract: false, final false
   inline void CheckKeySize(int32_t isHash64);
 
@@ -417,8 +421,11 @@ public:
   /// @brief Method Reset, addr 0x64cc134, size 0x204, virtual false, abstract: false, final false
   inline void Reset(bool isHash64, uint64_t seed);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Update(::by_ref<T> input);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Update(/* [IsReadOnly] */ ::by_ref<T> input);
 
   /// @brief Method Update, addr 0x64cc344, size 0x2a4, virtual false, abstract: false, final false
   inline void Update(void* input, int32_t length);
@@ -434,12 +441,15 @@ public:
 
   static inline int32_t getStaticF_SECRET_LIMIT();
 
+  /// [DebuggerStepThrough]
   /// @brief Method get_Acc, addr 0x64cc338, size 0x4, virtual false, abstract: false, final false
   inline uint64_t* get_Acc();
 
+  /// [DebuggerStepThrough]
   /// @brief Method get_Buffer, addr 0x64cc5e8, size 0x8, virtual false, abstract: false, final false
   inline uint8_t* get_Buffer();
 
+  /// [DebuggerStepThrough]
   /// @brief Method get_SecretKey, addr 0x64cc33c, size 0x8, virtual false, abstract: false, final false
   inline uint8_t* get_SecretKey();
 
@@ -455,7 +465,7 @@ public:
   // @brief default ctor
   constexpr xxHash3_StreamingState();
 
-  // Ctor Parameters [CppParam { name: "State", ty: "::Unity::Collections::StreamingState_xxHash3_StreamingStateData", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "State", ty: "::Unity::Collections::StreamingState_xxHash3_StreamingStateData", modifiers: "", def_value: None, comment: None }]
   constexpr xxHash3_StreamingState(::Unity::Collections::StreamingState_xxHash3_StreamingStateData State) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -475,6 +485,7 @@ static_assert(offsetof(::Unity::Collections::xxHash3_StreamingState, State) == 0
 static_assert(sizeof(::Unity::Collections::xxHash3_StreamingState) == 0x220, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Unity::Collections {
 // Is value type: false
@@ -504,13 +515,13 @@ protected:
   constexpr xxHash3_Hash64Long_00000A73$PostfixBurstDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$PostfixBurstDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$PostfixBurstDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   xxHash3_Hash64Long_00000A73$PostfixBurstDelegate(xxHash3_Hash64Long_00000A73$PostfixBurstDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$PostfixBurstDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3_Hash64Long_00000A73$PostfixBurstDelegate(xxHash3_Hash64Long_00000A73$PostfixBurstDelegate const&) = delete;
+  xxHash3_Hash64Long_00000A73$PostfixBurstDelegate(xxHash3_Hash64Long_00000A73$PostfixBurstDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15745 };
@@ -534,6 +545,7 @@ public:
   /// @brief Method GetFunctionPointer, addr 0x64cd024, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
+  /// [BurstDiscard]
   /// @brief Method GetFunctionPointerDiscard, addr 0x64ccf18, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
@@ -550,13 +562,13 @@ protected:
   constexpr xxHash3_Hash64Long_00000A73$BurstDirectCall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$BurstDirectCall", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$BurstDirectCall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   xxHash3_Hash64Long_00000A73$BurstDirectCall(xxHash3_Hash64Long_00000A73$BurstDirectCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$BurstDirectCall", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3_Hash64Long_00000A73$BurstDirectCall(xxHash3_Hash64Long_00000A73$BurstDirectCall const&) = delete;
+  xxHash3_Hash64Long_00000A73$BurstDirectCall(xxHash3_Hash64Long_00000A73$BurstDirectCallconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15746 };
@@ -567,6 +579,7 @@ public:
 static_assert(sizeof(::Unity::Collections::xxHash3_Hash64Long_00000A73$BurstDirectCall) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Unity::Collections {
 // Is value type: false
@@ -596,13 +609,13 @@ protected:
   constexpr xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate(xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate(xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate const&) = delete;
+  xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate(xxHash3_Hash128Long_00000A7A$PostfixBurstDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15747 };
@@ -626,6 +639,7 @@ public:
   /// @brief Method GetFunctionPointer, addr 0x64cd2ac, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
+  /// [BurstDiscard]
   /// @brief Method GetFunctionPointerDiscard, addr 0x64cd1a0, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
@@ -642,13 +656,13 @@ protected:
   constexpr xxHash3_Hash128Long_00000A7A$BurstDirectCall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$BurstDirectCall", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$BurstDirectCall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   xxHash3_Hash128Long_00000A7A$BurstDirectCall(xxHash3_Hash128Long_00000A7A$BurstDirectCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$BurstDirectCall", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3_Hash128Long_00000A7A$BurstDirectCall(xxHash3_Hash128Long_00000A7A$BurstDirectCall const&) = delete;
+  xxHash3_Hash128Long_00000A7A$BurstDirectCall(xxHash3_Hash128Long_00000A7A$BurstDirectCallconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15748 };
@@ -659,6 +673,10 @@ public:
 static_assert(sizeof(::Unity::Collections::xxHash3_Hash128Long_00000A7A$BurstDirectCall) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility]
+// [BurstCompile]
+// [GenerateTestsForBurstCompatibility]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.Object
 namespace Unity::Collections {
 // Is value type: false
@@ -711,8 +729,11 @@ public:
   /// @brief Method EncodeSecretKey, addr 0x64ca890, size 0x34, virtual false, abstract: false, final false
   static inline void EncodeSecretKey(uint8_t* dst, uint8_t* secret, uint64_t seed);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Hash128, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Mathematics::uint4 Hash128(::by_ref<T> input);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Mathematics::uint4 Hash128(/* [IsReadOnly] */ ::by_ref<T> input);
 
   /// @brief Method Hash128, addr 0x64ca174, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint4 Hash128(void* input, void* destination, int64_t length);
@@ -747,14 +768,20 @@ public:
   /// @brief Method Hash128Len9To16, addr 0x64cb4c8, size 0x11c, virtual false, abstract: false, final false
   static inline void Hash128Len9To16(uint8_t* input, int64_t len, uint8_t* secret, uint64_t seed, ::by_ref<::Unity::Mathematics::uint4> result);
 
+  /// [BurstCompile]
+  /// [MonoPInvokeCallback(typeof(Unity.Collections.Unity.Collections.xxHash3::Hash128Long_00000A7A$PostfixBurstDelegate))]
   /// @brief Method Hash128Long, addr 0x64c9bc0, size 0x4, virtual false, abstract: false, final false
   static inline void Hash128Long(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::by_ref<::Unity::Mathematics::uint4> result);
 
+  /// [BurstCompile]
   /// @brief Method Hash128Long$BurstManaged, addr 0x64cbf7c, size 0x138, virtual false, abstract: false, final false
   static inline void Hash128Long$BurstManaged(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret, ::by_ref<::Unity::Mathematics::uint4> result);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Hash64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Mathematics::uint2 Hash64(::by_ref<T> input);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Mathematics::uint2 Hash64(/* [IsReadOnly] */ ::by_ref<T> input);
 
   /// @brief Method Hash64, addr 0x64c9bd4, size 0x98, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint2 Hash64(void* input, int64_t length);
@@ -783,9 +810,12 @@ public:
   /// @brief Method Hash64Len9To16, addr 0x64cb128, size 0x94, virtual false, abstract: false, final false
   static inline uint64_t Hash64Len9To16(uint8_t* input, int64_t length, uint8_t* secret, uint64_t seed);
 
+  /// [BurstCompile]
+  /// [MonoPInvokeCallback(typeof(Unity.Collections.Unity.Collections.xxHash3::Hash64Long_00000A73$PostfixBurstDelegate))]
   /// @brief Method Hash64Long, addr 0x64c9bbc, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t Hash64Long(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret);
 
+  /// [BurstCompile]
   /// @brief Method Hash64Long$BurstManaged, addr 0x64cbe6c, size 0x110, virtual false, abstract: false, final false
   static inline uint64_t Hash64Long$BurstManaged(uint8_t* input, uint8_t* dest, int64_t length, uint8_t* secret);
 
@@ -849,13 +879,13 @@ protected:
   constexpr xxHash3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   xxHash3(xxHash3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "xxHash3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "xxHash3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3(xxHash3 const&) = delete;
+  xxHash3(xxHash3const&) = delete;
 
   /// @brief Field ACC_NB offset 0xffffffff size 0x4
   static constexpr int32_t ACC_NB{ static_cast<int32_t>(0x8) };

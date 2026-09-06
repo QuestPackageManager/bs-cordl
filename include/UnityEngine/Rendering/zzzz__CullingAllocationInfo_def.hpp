@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CullingAllocationInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CullingAllocationInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,11 @@ public:
   // @brief default ctor
   constexpr CullingAllocationInfo();
 
-  // Ctor Parameters [CppParam { name: "visibleLightsPtr", ty: "::UnityEngine::Rendering::VisibleLight*", modifiers: "", def_value: None }, CppParam { name: "visibleOffscreenVertexLightsPtr", ty:
-  // "::UnityEngine::Rendering::VisibleLight*", modifiers: "", def_value: None }, CppParam { name: "visibleReflectionProbesPtr", ty: "::UnityEngine::Rendering::VisibleReflectionProbe*", modifiers: "",
-  // def_value: None }, CppParam { name: "visibleLightCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleOffscreenVertexLightCount", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "visibleReflectionProbeCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "visibleLightsPtr", ty: "::UnityEngine::Rendering::VisibleLight*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "visibleOffscreenVertexLightsPtr", ty: "::UnityEngine::Rendering::VisibleLight*", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleReflectionProbesPtr", ty:
+  // "::UnityEngine::Rendering::VisibleReflectionProbe*", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleLightCount", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "visibleOffscreenVertexLightCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleReflectionProbeCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr CullingAllocationInfo(::UnityEngine::Rendering::VisibleLight* visibleLightsPtr, ::UnityEngine::Rendering::VisibleLight* visibleOffscreenVertexLightsPtr,
                                   ::UnityEngine::Rendering::VisibleReflectionProbe* visibleReflectionProbesPtr, int32_t visibleLightCount, int32_t visibleOffscreenVertexLightCount,
                                   int32_t visibleReflectionProbeCount) noexcept;

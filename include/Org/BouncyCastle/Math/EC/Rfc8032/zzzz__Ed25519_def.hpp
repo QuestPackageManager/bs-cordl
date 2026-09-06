@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Rfc8032\Ed25519.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Rfc8032/Ed25519.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +86,7 @@ public:
   // @brief default ctor
   constexpr Ed25519_Algorithm();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Ed25519_Algorithm(int32_t value__) noexcept;
 
   /// @brief Field Ed25519 value: I32(0)
@@ -178,13 +178,13 @@ protected:
   constexpr Ed25519_PointAccum();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointAccum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointAccum", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed25519_PointAccum(Ed25519_PointAccum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointAccum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointAccum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519_PointAccum(Ed25519_PointAccum const&) = delete;
+  Ed25519_PointAccum(Ed25519_PointAccumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1557 };
@@ -274,13 +274,13 @@ protected:
   constexpr Ed25519_PointExt();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointExt", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointExt", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed25519_PointExt(Ed25519_PointExt&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointExt", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointExt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519_PointExt(Ed25519_PointExt const&) = delete;
+  Ed25519_PointExt(Ed25519_PointExtconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1558 };
@@ -356,13 +356,13 @@ protected:
   constexpr Ed25519_PointPrecomp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointPrecomp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointPrecomp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed25519_PointPrecomp(Ed25519_PointPrecomp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointPrecomp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointPrecomp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519_PointPrecomp(Ed25519_PointPrecomp const&) = delete;
+  Ed25519_PointPrecomp(Ed25519_PointPrecompconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1559 };
@@ -694,13 +694,13 @@ protected:
   constexpr Ed25519();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed25519(Ed25519&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519(Ed25519 const&) = delete;
+  Ed25519(Ed25519const&) = delete;
 
   /// @brief Field L0 offset 0xffffffff size 0x4
   static constexpr int32_t L0{ static_cast<int32_t>(0xfcf5d3ed) };

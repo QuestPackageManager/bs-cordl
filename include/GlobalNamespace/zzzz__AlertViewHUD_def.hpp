@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AlertViewHUD.hpp"
+// IWYU pragma private; include "GlobalNamespace/AlertViewHUD.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   // @brief default ctor
   constexpr AlertViewHUD_MessageType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AlertViewHUD_MessageType(int32_t value__) noexcept;
 
   /// @brief Field Error value: I32(2)
@@ -287,6 +287,7 @@ public:
   /// @brief Method get_HideAfterSec, addr 0x5a31188, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_HideAfterSec();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Instance, addr 0x5a310ec, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::AlertViewHUD> get_Instance();
 
@@ -298,6 +299,7 @@ public:
   /// @brief Method set_HideAfterSec, addr 0x5a31190, size 0x8, virtual false, abstract: false, final false
   inline void set_HideAfterSec(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Instance, addr 0x5a31138, size 0x50, virtual false, abstract: false, final false
   static inline void set_Instance(::GlobalNamespace::AlertViewHUD* value);
 
@@ -307,41 +309,51 @@ protected:
   constexpr AlertViewHUD();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlertViewHUD", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlertViewHUD", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlertViewHUD(AlertViewHUD&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlertViewHUD", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlertViewHUD", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlertViewHUD(AlertViewHUD const&) = delete;
+  AlertViewHUD(AlertViewHUDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21339 };
 
+  /// [Tooltip("Set -1 to show always.")]
+  /// [SerializeField]
   /// @brief Field _hideAfterSec, offset: 0x20, size: 0x4, def value: None
   int32_t ____hideAfterSec;
 
+  /// [SerializeField]
   /// @brief Field _centerInCamera, offset: 0x24, size: 0x1, def value: None
   bool ____centerInCamera;
 
+  /// [SerializeField]
   /// @brief Field _panel, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____panel;
 
+  /// [SerializeField]
   /// @brief Field _warningIcon, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____warningIcon;
 
+  /// [SerializeField]
   /// @brief Field _errorIcon, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____errorIcon;
 
+  /// [SerializeField]
   /// @brief Field _infoIcon, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____infoIcon;
 
+  /// [SerializeField]
   /// @brief Field _messageTextField, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ____messageTextField;
 
+  /// [SerializeField]
   /// @brief Field _messageTypeTextField, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ____messageTypeTextField;
 
+  /// [SerializeField]
   /// @brief Field _messageTypeIconField, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____messageTypeIconField;
 

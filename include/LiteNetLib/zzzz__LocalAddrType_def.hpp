@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\LocalAddrType.hpp"
+// IWYU pragma private; include "LiteNetLib/LocalAddrType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct LocalAddrType;
 // Write type traits
 MARK_VAL_T(::LiteNetLib::LocalAddrType);
 DEFINE_IL2CPP_CLASS(::LiteNetLib::LocalAddrType, "LiteNetLib", "LocalAddrType");
+// [Flags]
 // Dependencies
 namespace LiteNetLib {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr LocalAddrType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LocalAddrType(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(3)

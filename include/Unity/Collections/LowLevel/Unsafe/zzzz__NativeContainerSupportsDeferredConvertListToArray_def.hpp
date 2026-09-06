@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeContainerSupportsDeferredConvertListToArray.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeContainerSupportsDeferredConvertListToArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class NativeContainerSupportsDeferredConvertListToArray;
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray*, "Unity.Collections.LowLevel.Unsafe",
                     "NativeContainerSupportsDeferredConvertListToArray");
+// [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)8)]
 // Dependencies System.Attribute
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -31,13 +33,13 @@ protected:
   constexpr NativeContainerSupportsDeferredConvertListToArray();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsDeferredConvertListToArray", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsDeferredConvertListToArray", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeContainerSupportsDeferredConvertListToArray(NativeContainerSupportsDeferredConvertListToArray&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsDeferredConvertListToArray", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsDeferredConvertListToArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeContainerSupportsDeferredConvertListToArray(NativeContainerSupportsDeferredConvertListToArray const&) = delete;
+  NativeContainerSupportsDeferredConvertListToArray(NativeContainerSupportsDeferredConvertListToArrayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10015 };

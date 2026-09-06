@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\SP800SecureRandomBuilder.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/SP800SecureRandomBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,13 +129,13 @@ protected:
   constexpr SP800SecureRandomBuilder_HashDrbgProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HashDrbgProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HashDrbgProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SP800SecureRandomBuilder_HashDrbgProvider(SP800SecureRandomBuilder_HashDrbgProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HashDrbgProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HashDrbgProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SP800SecureRandomBuilder_HashDrbgProvider(SP800SecureRandomBuilder_HashDrbgProvider const&) = delete;
+  SP800SecureRandomBuilder_HashDrbgProvider(SP800SecureRandomBuilder_HashDrbgProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1113 };
@@ -230,13 +230,13 @@ protected:
   constexpr SP800SecureRandomBuilder_HMacDrbgProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HMacDrbgProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HMacDrbgProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SP800SecureRandomBuilder_HMacDrbgProvider(SP800SecureRandomBuilder_HMacDrbgProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HMacDrbgProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HMacDrbgProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SP800SecureRandomBuilder_HMacDrbgProvider(SP800SecureRandomBuilder_HMacDrbgProvider const&) = delete;
+  SP800SecureRandomBuilder_HMacDrbgProvider(SP800SecureRandomBuilder_HMacDrbgProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1114 };
@@ -340,13 +340,13 @@ protected:
   constexpr SP800SecureRandomBuilder_CtrDrbgProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_CtrDrbgProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_CtrDrbgProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SP800SecureRandomBuilder_CtrDrbgProvider(SP800SecureRandomBuilder_CtrDrbgProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_CtrDrbgProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_CtrDrbgProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SP800SecureRandomBuilder_CtrDrbgProvider(SP800SecureRandomBuilder_CtrDrbgProvider const&) = delete;
+  SP800SecureRandomBuilder_CtrDrbgProvider(SP800SecureRandomBuilder_CtrDrbgProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1115 };
@@ -480,13 +480,13 @@ protected:
   constexpr SP800SecureRandomBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SP800SecureRandomBuilder(SP800SecureRandomBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SP800SecureRandomBuilder(SP800SecureRandomBuilder const&) = delete;
+  SP800SecureRandomBuilder(SP800SecureRandomBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1116 };

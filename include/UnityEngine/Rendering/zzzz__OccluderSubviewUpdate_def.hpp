@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderSubviewUpdate.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderSubviewUpdate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,11 @@ public:
   // @brief default ctor
   constexpr OccluderSubviewUpdate();
 
-  // Ctor Parameters [CppParam { name: "subviewIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depthSliceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "depthOffset", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "viewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam {
-  // name: "invViewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "gpuProjMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None },
-  // CppParam { name: "viewOffsetWorldSpace", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "subviewIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "depthSliceIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "depthOffset", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewMatrix", ty:
+  // "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "invViewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "gpuProjMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewOffsetWorldSpace", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OccluderSubviewUpdate(int32_t subviewIndex, int32_t depthSliceIndex, ::UnityEngine::Vector2Int depthOffset, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 invViewMatrix,
                                   ::UnityEngine::Matrix4x4 gpuProjMatrix, ::UnityEngine::Vector3 viewOffsetWorldSpace) noexcept;
 

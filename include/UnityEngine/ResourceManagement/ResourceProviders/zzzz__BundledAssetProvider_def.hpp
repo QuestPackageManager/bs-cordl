@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\BundledAssetProvider.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/BundledAssetProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IAssetBundleResource_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -46,7 +47,7 @@ MARK_REF_T(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetPro
 MARK_REF_T(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "BundledAssetProvider");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "BundledAssetProvider/InternalOp");
-// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
+// Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource, UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider/InternalOp
@@ -96,7 +97,9 @@ public:
   static inline bool IsDownloadOnly(::System::Collections::Generic::IList_1<::System::Object*>* results);
 
   /// @brief Method LoadBundleFromDependecies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::System::Object*>* results);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*> && ::cordl_internals::reference_type_constraint<T>)
+  static inline T LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::System::Object*>* results);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp* New_ctor();
 
@@ -109,6 +112,7 @@ public:
   /// @brief Method WaitForCompletionHandler, addr 0x691f418, size 0x108, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
+  /// [CompilerGenerated]
   /// @brief Method <Start>b__8_0, addr 0x691f8a4, size 0x4, virtual false, abstract: false, final false
   inline void _Start_b__8_0(::UnityEngine::AsyncOperation* operation);
 
@@ -157,13 +161,13 @@ protected:
   constexpr BundledAssetProvider_InternalOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider_InternalOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider_InternalOp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BundledAssetProvider_InternalOp(BundledAssetProvider_InternalOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider_InternalOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider_InternalOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BundledAssetProvider_InternalOp(BundledAssetProvider_InternalOp const&) = delete;
+  BundledAssetProvider_InternalOp(BundledAssetProvider_InternalOpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18774 };
@@ -204,6 +208,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Bun
 static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
+// [DisplayName("Assets from Bundles Provider")]
 // Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
@@ -227,13 +232,13 @@ protected:
   constexpr BundledAssetProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BundledAssetProvider(BundledAssetProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BundledAssetProvider(BundledAssetProvider const&) = delete;
+  BundledAssetProvider(BundledAssetProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18775 };

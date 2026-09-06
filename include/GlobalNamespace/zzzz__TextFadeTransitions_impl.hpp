@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextFadeTransitions.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextFadeTransitions.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
 #include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TextFadeTransitions_State::TextFadeTransitions_State(int32_t value__) noexcept {
   this->value__ = value__;
 }

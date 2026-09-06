@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BTSCharacterSpawnAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BTSCharacterSpawnAnimationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -217,6 +217,7 @@ public:
   /// @brief Method .ctor, addr 0x3285350, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_animationFinishedEvent, addr 0x3284900, size 0xac, virtual false, abstract: false, final false
   inline void add_animationFinishedEvent(::System::Action* value);
 
@@ -229,6 +230,7 @@ public:
   /// @brief Method get_isCharacterVisible, addr 0x32848d8, size 0x28, virtual false, abstract: false, final false
   inline bool get_isCharacterVisible();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_animationFinishedEvent, addr 0x32849ac, size 0xac, virtual false, abstract: false, final false
   inline void remove_animationFinishedEvent(::System::Action* value);
 
@@ -238,13 +240,13 @@ protected:
   constexpr BTSCharacterSpawnAnimationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnAnimationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnAnimationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterSpawnAnimationController(BTSCharacterSpawnAnimationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnAnimationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnAnimationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterSpawnAnimationController(BTSCharacterSpawnAnimationController const&) = delete;
+  BTSCharacterSpawnAnimationController(BTSCharacterSpawnAnimationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22012 };
@@ -252,30 +254,41 @@ public:
   /// @brief Field kCharacterActivationStreamName offset 0xffffffff size 0x8
   static constexpr ::ConstString kCharacterActivationStreamName{ u"CharacterActivationTrack" };
 
+  /// [SerializeField]
   /// @brief Field _spawnCharacterPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____spawnCharacterPlayableDirector;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _jumpReceiver, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::JumpReceiver> ____jumpReceiver;
 
+  /// [SerializeField]
   /// @brief Field _appearAnimationEndTime, offset: 0x30, size: 0x4, def value: None
   float_t ____appearAnimationEndTime;
 
+  /// [SerializeField]
   /// @brief Field _disappearAnimationStartTime, offset: 0x34, size: 0x4, def value: None
   float_t ____disappearAnimationStartTime;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _rimLightColorSetter, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____rimLightColorSetter;
 
+  /// [SerializeField]
   /// @brief Field _rimLightIntensityAnimator, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> ____rimLightIntensityAnimator;
 
+  /// [SerializeField]
   /// @brief Field _rimLightEdgeStartAnimator, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> ____rimLightEdgeStartAnimator;
 
+  /// [Inject]
   /// @brief Field _songSpeedData, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::SongSpeedData* ____songSpeedData;
 
+  /// [CompilerGenerated]
   /// @brief Field animationFinishedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___animationFinishedEvent;
 

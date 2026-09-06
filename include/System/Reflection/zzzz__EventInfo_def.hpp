@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\EventInfo.hpp"
+// IWYU pragma private; include "System/Reflection/EventInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +67,13 @@ protected:
   constexpr EventInfo_AddEventAdapter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventInfo_AddEventAdapter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventInfo_AddEventAdapter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventInfo_AddEventAdapter(EventInfo_AddEventAdapter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventInfo_AddEventAdapter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventInfo_AddEventAdapter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventInfo_AddEventAdapter(EventInfo_AddEventAdapter const&) = delete;
+  EventInfo_AddEventAdapter(EventInfo_AddEventAdapterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3485 };
@@ -106,7 +106,7 @@ public:
   /// @brief Method GetAddMethod, addr 0x5b7dc54, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetAddMethod();
 
-  /// @brief Method GetAddMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAddMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodInfo* GetAddMethod(bool nonPublic);
 
   /// @brief Method GetEventFromHandle, addr 0x5b7de38, size 0x80, virtual false, abstract: false, final false
@@ -115,13 +115,13 @@ public:
   /// @brief Method GetHashCode, addr 0x5b7dda4, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetRaiseMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetRaiseMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodInfo* GetRaiseMethod(bool nonPublic);
 
   /// @brief Method GetRemoveMethod, addr 0x5b7dc68, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetRemoveMethod();
 
-  /// @brief Method GetRemoveMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetRemoveMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodInfo* GetRemoveMethod(bool nonPublic);
 
   static inline ::System::Reflection::EventInfo* New_ctor();
@@ -156,13 +156,13 @@ protected:
   constexpr EventInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventInfo(EventInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventInfo(EventInfo const&) = delete;
+  EventInfo(EventInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3486 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\ExposedProperty.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/ExposedProperty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,17 +70,18 @@ protected:
   constexpr ExposedProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExposedProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExposedProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExposedProperty(ExposedProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExposedProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExposedProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExposedProperty(ExposedProperty const&) = delete;
+  ExposedProperty(ExposedPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19984 };
 
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
 

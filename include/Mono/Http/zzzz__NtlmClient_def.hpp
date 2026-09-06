@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Http\NtlmClient.hpp"
+// IWYU pragma private; include "Mono/Http/NtlmClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,14 @@ namespace System::Net {
 class WebRequest;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2_CreateValueCallback;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2_CreateValueCallback;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2;
 }
 // Forward declare root types
 namespace Mono::Http {
@@ -45,6 +49,7 @@ MARK_REF_T(::Mono::Http::NtlmClient*);
 MARK_REF_T(::Mono::Http::NtlmClient___c*);
 DEFINE_IL2CPP_CLASS(::Mono::Http::NtlmClient*, "Mono.Http", "NtlmClient");
 DEFINE_IL2CPP_CLASS(::Mono::Http::NtlmClient___c*, "Mono.Http", "NtlmClient/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Mono::Http {
 // Is value type: false
@@ -81,13 +86,13 @@ protected:
   constexpr NtlmClient___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NtlmClient___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NtlmClient___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NtlmClient___c(NtlmClient___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NtlmClient___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NtlmClient___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NtlmClient___c(NtlmClient___c const&) = delete;
+  NtlmClient___c(NtlmClient___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11042 };
@@ -142,13 +147,13 @@ protected:
   constexpr NtlmClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NtlmClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NtlmClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NtlmClient(NtlmClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NtlmClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NtlmClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NtlmClient(NtlmClient const&) = delete;
+  NtlmClient(NtlmClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11043 };

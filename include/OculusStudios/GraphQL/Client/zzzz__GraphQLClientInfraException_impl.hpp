@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLClientInfraException.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLClientInfraException.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLException_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLClientInfraException_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLClientInfraException._ctor

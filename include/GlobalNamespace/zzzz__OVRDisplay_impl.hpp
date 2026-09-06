@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRDisplay.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRDisplay.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
@@ -7,8 +7,9 @@
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "UpFov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "DownFov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "LeftFov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RightFov", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "UpFov", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DownFov", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "LeftFov", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RightFov", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::OVRDisplay_EyeFov::OVRDisplay_EyeFov(float_t UpFov, float_t DownFov, float_t LeftFov, float_t RightFov) noexcept {
   this->UpFov = UpFov;
   this->DownFov = DownFov;
@@ -17,8 +18,8 @@ constexpr ::GlobalNamespace::OVRDisplay_EyeFov::OVRDisplay_EyeFov(float_t UpFov,
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRDisplay_EyeFov::OVRDisplay_EyeFov() {}
-// Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "fullFov", ty: "::GlobalNamespace::OVRDisplay_EyeFov", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "fullFov", ty: "::GlobalNamespace::OVRDisplay_EyeFov", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRDisplay_EyeRenderDesc::OVRDisplay_EyeRenderDesc(::UnityEngine::Vector2 resolution, ::UnityEngine::Vector2 fov, ::GlobalNamespace::OVRDisplay_EyeFov fullFov) noexcept {
   this->resolution = resolution;
   this->fov = fov;
@@ -26,9 +27,9 @@ constexpr ::GlobalNamespace::OVRDisplay_EyeRenderDesc::OVRDisplay_EyeRenderDesc(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRDisplay_EyeRenderDesc::OVRDisplay_EyeRenderDesc() {}
-// Ctor Parameters [CppParam { name: "render", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "timeWarp", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "postPresent", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderError", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "timeWarpError",
-// ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "render", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "timeWarp", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "postPresent", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderError", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "timeWarpError", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRDisplay_LatencyData::OVRDisplay_LatencyData(float_t render, float_t timeWarp, float_t postPresent, float_t renderError, float_t timeWarpError) noexcept {
   this->render = render;
   this->timeWarp = timeWarp;

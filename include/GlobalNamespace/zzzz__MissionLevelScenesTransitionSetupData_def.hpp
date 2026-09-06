@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionLevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionLevelScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,8 @@ class MissionLevelScenesTransitionSetupData;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MissionLevelScenesTransitionSetupData*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionLevelScenesTransitionSetupData*, "", "MissionLevelScenesTransitionSetupData");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatmapKey, LevelScenesTransitionSetupData
 namespace GlobalNamespace {
 // Is value type: false
@@ -89,13 +91,13 @@ public:
   inline void Finish(::GlobalNamespace::MissionCompletionResults* levelCompletionResults);
 
   /// @brief Method Init, addr 0x59728c0, size 0x3fc, virtual false, abstract: false, final false
-  inline void Init(::StringW missionId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                   ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives,
-                   ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+  inline void Init(::StringW missionId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                   /* [Nullable(2)] */ ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives,
+                   /* [Nullable(2)] */ ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                    ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::SettingsManager* settingsManager,
                    ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::StringW backButtonText,
-                   ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
+                   /* [Nullable(2)] */ ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, /* [Nullable(2)] */ ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   static inline ::GlobalNamespace::MissionLevelScenesTransitionSetupData* New_ctor();
 
@@ -120,21 +122,29 @@ public:
   /// @brief Method .ctor, addr 0x5972ce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x597271c, size 0xc0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
+  inline void
+  add_didFinishEvent(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_beatmapKey, addr 0x59728ac, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_missionId, addr 0x597289c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x59727dc, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
+  inline void
+  remove_didFinishEvent(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_beatmapKey, addr 0x59728b8, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_missionId, addr 0x59728a4, size 0x8, virtual false, abstract: false, final false
   inline void set_missionId(::StringW value);
 
@@ -144,23 +154,27 @@ protected:
   constexpr MissionLevelScenesTransitionSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelScenesTransitionSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelScenesTransitionSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelScenesTransitionSetupData(MissionLevelScenesTransitionSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelScenesTransitionSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelScenesTransitionSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelScenesTransitionSetupData(MissionLevelScenesTransitionSetupData const&) = delete;
+  MissionLevelScenesTransitionSetupData(MissionLevelScenesTransitionSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7028 };
 
+  /// [Nullable(new[] { 2, 1, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* ___didFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <missionId>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::StringW ____missionId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <beatmapKey>k__BackingField, offset: 0x48, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey_k__BackingField;
 

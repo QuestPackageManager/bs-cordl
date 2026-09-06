@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\SegmentState.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/SegmentState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class SegmentState;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::SegmentState*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::SegmentState*, "BeatSaber.Analytics.Gameplay", "SegmentState");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: false
@@ -64,13 +66,13 @@ protected:
   constexpr SegmentState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SegmentState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SegmentState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SegmentState(SegmentState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SegmentState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SegmentState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SegmentState(SegmentState const&) = delete;
+  SegmentState(SegmentStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22254 };
@@ -78,6 +80,7 @@ public:
   /// @brief Field Type, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* ___Type;
 
+  /// [Nullable(2)]
   /// @brief Field Settings, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* ___Settings;
 

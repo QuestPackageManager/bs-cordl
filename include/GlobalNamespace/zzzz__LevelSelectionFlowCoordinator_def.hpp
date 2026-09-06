@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelSelectionFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelSelectionFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,9 @@ namespace System {
 class Action;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +104,8 @@ public:
   static inline ::GlobalNamespace::LevelSelectionFlowCoordinator_State* New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::LevelSelectionFlowCoordinator_State* New_ctor(::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> levelCategory,
-                                                                                 ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
-                                                                                 ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+                                                                                 ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
 
@@ -137,7 +139,7 @@ public:
 
   /// @brief Method .ctor, addr 0x59264a4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> levelCategory, ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack,
-                    ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
 protected:
   // Ctor Parameters []
@@ -145,13 +147,13 @@ protected:
   constexpr LevelSelectionFlowCoordinator_State();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator_State", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator_State", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelSelectionFlowCoordinator_State(LevelSelectionFlowCoordinator_State&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator_State", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator_State", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelSelectionFlowCoordinator_State(LevelSelectionFlowCoordinator_State const&) = delete;
+  LevelSelectionFlowCoordinator_State(LevelSelectionFlowCoordinator_Stateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6833 };
@@ -301,7 +303,7 @@ public:
   inline void Refresh();
 
   /// @brief Method SelectionDidChange, addr 0x5925aa4, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// @brief Method Setup, addr 0x5925aa8, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::LevelSelectionFlowCoordinator_State* state);
@@ -399,13 +401,13 @@ protected:
   constexpr LevelSelectionFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelSelectionFlowCoordinator(LevelSelectionFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelSelectionFlowCoordinator(LevelSelectionFlowCoordinator const&) = delete;
+  LevelSelectionFlowCoordinator(LevelSelectionFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6834 };
@@ -416,15 +418,19 @@ public:
   /// @brief Field kTitleFilterParametersLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitleFilterParametersLocalizationKey{ u"TITLE_FILTER_PARAMETERS" };
 
+  /// [Inject]
   /// @brief Field playerDataModel, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ___playerDataModel;
 
+  /// [Inject]
   /// @brief Field levelSelectionNavigationController, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelSelectionNavigationController> ___levelSelectionNavigationController;
 
+  /// [Inject]
   /// @brief Field _searchFilterParamsViewController, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SearchFilterParamsViewController> ____searchFilterParamsViewController;
 
+  /// [Inject]
   /// @brief Field _levelSearchViewController, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelSearchViewController> ____levelSearchViewController;
 

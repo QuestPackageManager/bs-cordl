@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\Poly1305KeyGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/Poly1305KeyGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ protected:
   constexpr Poly1305KeyGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Poly1305KeyGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Poly1305KeyGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Poly1305KeyGenerator(Poly1305KeyGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Poly1305KeyGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Poly1305KeyGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Poly1305KeyGenerator(Poly1305KeyGenerator const&) = delete;
+  Poly1305KeyGenerator(Poly1305KeyGeneratorconst&) = delete;
 
   /// @brief Field R_MASK_HIGH_4 offset 0xffffffff size 0x1
   static constexpr uint8_t R_MASK_HIGH_4{ static_cast<uint8_t>(0xfu) };

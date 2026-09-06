@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BitMask128.hpp"
+// IWYU pragma private; include "GlobalNamespace/BitMask128.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ struct BitMask128;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::BitMask128);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BitMask128, "", "BitMask128");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -108,34 +109,34 @@ public:
   constexpr ::System::IEquatable_1<::GlobalNamespace::BitMask128>* i___System__IEquatable_1___GlobalNamespace__BitMask128_();
 
   /// @brief Method op_BitwiseAnd, addr 0x377b808, size 0x18, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask128 op_BitwiseAnd(::by_ref<::GlobalNamespace::BitMask128> a, ::by_ref<::GlobalNamespace::BitMask128> b);
+  static inline ::GlobalNamespace::BitMask128 op_BitwiseAnd(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b);
 
   /// @brief Method op_BitwiseOr, addr 0x377b7f0, size 0x18, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask128 op_BitwiseOr(::by_ref<::GlobalNamespace::BitMask128> a, ::by_ref<::GlobalNamespace::BitMask128> b);
+  static inline ::GlobalNamespace::BitMask128 op_BitwiseOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b);
 
   /// @brief Method op_Equality, addr 0x377b8a0, size 0x2c, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::GlobalNamespace::BitMask128> a, ::by_ref<::GlobalNamespace::BitMask128> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b);
 
   /// @brief Method op_ExclusiveOr, addr 0x377b820, size 0x18, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask128 op_ExclusiveOr(::by_ref<::GlobalNamespace::BitMask128> a, ::by_ref<::GlobalNamespace::BitMask128> b);
+  static inline ::GlobalNamespace::BitMask128 op_ExclusiveOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b);
 
   /// @brief Method op_Implicit, addr 0x377b8f8, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask128 op_Implicit___GlobalNamespace__BitMask128(uint64_t value);
 
   /// @brief Method op_Inequality, addr 0x377b8cc, size 0x2c, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::by_ref<::GlobalNamespace::BitMask128> a, ::by_ref<::GlobalNamespace::BitMask128> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b);
 
   /// @brief Method op_LeftShift, addr 0x377b838, size 0x34, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask128 op_LeftShift(::by_ref<::GlobalNamespace::BitMask128> a, int32_t bits);
+  static inline ::GlobalNamespace::BitMask128 op_LeftShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, int32_t bits);
 
   /// @brief Method op_RightShift, addr 0x377b86c, size 0x34, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask128 op_RightShift(::by_ref<::GlobalNamespace::BitMask128> a, int32_t bits);
+  static inline ::GlobalNamespace::BitMask128 op_RightShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, int32_t bits);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BitMask128();
 
-  // Ctor Parameters [CppParam { name: "_d0", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "_d1", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_d0", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_d1", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr BitMask128(uint64_t _d0, uint64_t _d1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

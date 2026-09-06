@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FactoryToChoiceBinder_6.hpp"
+// IWYU pragma private; include "Zenject/FactoryToChoiceBinder_6.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::FactoryToChoiceBinder_6);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryToChoiceBinder_6, "Zenject", "FactoryToChoiceBinder`6");
+// [NoReflectionBaking]
 // Dependencies Zenject.FactoryFromBinder`6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>
 namespace Zenject {
 // cpp template
@@ -37,7 +38,9 @@ public:
                                                                                                                      ::Zenject::FactoryBindInfo* factoryBindInfo);
 
   /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TConcrete> inline ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TConcrete>* To();
+  template <typename TConcrete>
+    requires(::cordl_internals::type_constraint<TConcrete, TContract>)
+  inline ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TConcrete>* To();
 
   /// @brief Method ToSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* ToSelf();
@@ -51,13 +54,13 @@ protected:
   constexpr FactoryToChoiceBinder_6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceBinder_6", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceBinder_6", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryToChoiceBinder_6(FactoryToChoiceBinder_6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceBinder_6", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceBinder_6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryToChoiceBinder_6(FactoryToChoiceBinder_6 const&) = delete;
+  FactoryToChoiceBinder_6(FactoryToChoiceBinder_6const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14207 };

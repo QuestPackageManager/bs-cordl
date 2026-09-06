@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CullingGroupEvent.hpp"
+// IWYU pragma private; include "UnityEngine/CullingGroupEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr CullingGroupEvent();
 
-  // Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_PrevState", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_ThisState", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PrevState", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_ThisState", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr CullingGroupEvent(int32_t m_Index, uint8_t m_PrevState, uint8_t m_ThisState) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

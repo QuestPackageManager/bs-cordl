@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\ObjectReader.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/ObjectReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,13 +130,13 @@ protected:
   constexpr ObjectReader_TypeNAssembly();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TypeNAssembly", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TypeNAssembly", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectReader_TypeNAssembly(ObjectReader_TypeNAssembly&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TypeNAssembly", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TypeNAssembly", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectReader_TypeNAssembly(ObjectReader_TypeNAssembly const&) = delete;
+  ObjectReader_TypeNAssembly(ObjectReader_TypeNAssemblyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3299 };
@@ -187,13 +187,13 @@ protected:
   constexpr ObjectReader_TopLevelAssemblyTypeResolver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TopLevelAssemblyTypeResolver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TopLevelAssemblyTypeResolver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectReader_TopLevelAssemblyTypeResolver(ObjectReader_TopLevelAssemblyTypeResolver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TopLevelAssemblyTypeResolver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TopLevelAssemblyTypeResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectReader_TopLevelAssemblyTypeResolver(ObjectReader_TopLevelAssemblyTypeResolver const&) = delete;
+  ObjectReader_TopLevelAssemblyTypeResolver(ObjectReader_TopLevelAssemblyTypeResolverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3300 };
@@ -554,13 +554,13 @@ protected:
   constexpr ObjectReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectReader(ObjectReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectReader(ObjectReader const&) = delete;
+  ObjectReader(ObjectReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3301 };

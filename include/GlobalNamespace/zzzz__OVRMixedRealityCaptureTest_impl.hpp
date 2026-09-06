@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMixedRealityCaptureTest.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMixedRealityCaptureTest.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureTest_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureTest_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRMixedRealityCaptureTest_CameraMode::OVRMixedRealityCaptureTest_CameraMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

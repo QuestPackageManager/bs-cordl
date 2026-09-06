@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BaseTerminalViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BaseTerminalViewController.hpp"
 #include "GlobalNamespace/zzzz__AutocompleteResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseTerminalViewController_def.hpp"

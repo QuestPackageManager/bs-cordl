@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\RazorInjectionAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/RazorInjectionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class RazorInjectionAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::RazorInjectionAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::RazorInjectionAttribute*, "JetBrains.Annotations", "RazorInjectionAttribute");
+// [AttributeUsage((System.AttributeTargets)1, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -20,8 +21,10 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE RazorInjectionAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [NotNull]
   __declspec(property(get = get_FieldName, put = set_FieldName)) ::StringW FieldName;
 
+  /// @brief [NotNull]
   __declspec(property(get = get_Type, put = set_Type)) ::StringW Type;
 
   /// @brief Field <FieldName>k__BackingField, offset 0x18, size 0x8
@@ -30,7 +33,7 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::StringW _Type_k__BackingField;
 
-  static inline ::JetBrains::Annotations::RazorInjectionAttribute* New_ctor(::StringW type, ::StringW fieldName);
+  static inline ::JetBrains::Annotations::RazorInjectionAttribute* New_ctor(/* [NotNull] */ ::StringW type, /* [NotNull] */ ::StringW fieldName);
 
   constexpr ::StringW const& __cordl_internal_get__FieldName_k__BackingField() const;
 
@@ -45,17 +48,21 @@ public:
   constexpr void __cordl_internal_set__Type_k__BackingField(::StringW value);
 
   /// @brief Method .ctor, addr 0x6e3e27c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW type, ::StringW fieldName);
+  inline void _ctor(/* [NotNull] */ ::StringW type, /* [NotNull] */ ::StringW fieldName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_FieldName, addr 0x6e3e294, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FieldName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x6e3e284, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
+  /// [CompilerGenerated]
   /// @brief Method set_FieldName, addr 0x6e3e29c, size 0x8, virtual false, abstract: false, final false
   inline void set_FieldName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Type, addr 0x6e3e28c, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
@@ -65,20 +72,22 @@ protected:
   constexpr RazorInjectionAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RazorInjectionAttribute(RazorInjectionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RazorInjectionAttribute(RazorInjectionAttribute const&) = delete;
+  RazorInjectionAttribute(RazorInjectionAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22603 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FieldName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____FieldName_k__BackingField;
 

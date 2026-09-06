@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AndroidJavaObjectUnityOwned.hpp"
+// IWYU pragma private; include "UnityEngine/AndroidJavaObjectUnityOwned.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +36,13 @@ protected:
   constexpr AndroidJavaObjectUnityOwned();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaObjectUnityOwned", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaObjectUnityOwned", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidJavaObjectUnityOwned(AndroidJavaObjectUnityOwned&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaObjectUnityOwned", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaObjectUnityOwned", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidJavaObjectUnityOwned(AndroidJavaObjectUnityOwned const&) = delete;
+  AndroidJavaObjectUnityOwned(AndroidJavaObjectUnityOwnedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20160 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Slider.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Slider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -142,6 +142,7 @@ public:
   /// @brief Method .ctor, addr 0x5a5e088, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Tweak, addr 0x5a5d9e0, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* get_Tweak();
 
@@ -160,6 +161,7 @@ public:
   /// @brief Method set_FillBackgroundStyle, addr 0x5a5da90, size 0xa0, virtual false, abstract: false, final false
   inline void set_FillBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Tweak, addr 0x5a5d9e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Tweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak* value);
 
@@ -169,13 +171,13 @@ protected:
   constexpr Slider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Slider(Slider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Slider(Slider const&) = delete;
+  Slider(Sliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18406 };
@@ -189,6 +191,7 @@ public:
   /// @brief Field _pill, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon> ____pill;
 
+  /// [CompilerGenerated]
   /// @brief Field <Tweak>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::Tweak* ____Tweak_k__BackingField;
 

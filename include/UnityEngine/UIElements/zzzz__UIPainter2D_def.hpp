@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIPainter2D.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIPainter2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class UIPainter2D;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIPainter2D*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIPainter2D*, "UnityEngine.UIElements", "UIPainter2D");
+// [NativeHeader("Modules/UIElements/Core/Native/Renderer/UIPainter2D.bindings.h")]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -35,6 +36,7 @@ public:
   /// @brief Method Destroy, addr 0x6db69e0, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr handle);
 
+  /// [ThreadSafe]
   /// @brief Method ExecuteSnapshotFromJob, addr 0x6db6a94, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface ExecuteSnapshotFromJob(::System::IntPtr painterHandle, int32_t i);
 
@@ -50,13 +52,13 @@ protected:
   constexpr UIPainter2D();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIPainter2D", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIPainter2D", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIPainter2D(UIPainter2D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIPainter2D", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIPainter2D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIPainter2D(UIPainter2D const&) = delete;
+  UIPainter2D(UIPainter2Dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4625 };

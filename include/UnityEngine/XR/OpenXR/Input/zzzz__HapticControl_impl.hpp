@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\HapticControl.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/HapticControl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__Haptic_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__HapticControl_def.hpp"

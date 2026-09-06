@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\NumericFieldDraggerUtility.hpp"
+// IWYU pragma private; include "UnityEngine/NumericFieldDraggerUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class NumericFieldDraggerUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::NumericFieldDraggerUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::NumericFieldDraggerUtility*, "UnityEngine", "NumericFieldDraggerUtility");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEditor.UIBuilderModule" })]
+// [MovedFrom("UnityEditor")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -61,13 +63,13 @@ protected:
   constexpr NumericFieldDraggerUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NumericFieldDraggerUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumericFieldDraggerUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NumericFieldDraggerUtility(NumericFieldDraggerUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NumericFieldDraggerUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumericFieldDraggerUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NumericFieldDraggerUtility(NumericFieldDraggerUtility const&) = delete;
+  NumericFieldDraggerUtility(NumericFieldDraggerUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10271 };

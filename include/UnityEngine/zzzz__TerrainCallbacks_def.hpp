@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TerrainCallbacks.hpp"
+// IWYU pragma private; include "UnityEngine/TerrainCallbacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +66,13 @@ protected:
   constexpr TerrainCallbacks_HeightmapChangedCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks_HeightmapChangedCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks_HeightmapChangedCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainCallbacks_HeightmapChangedCallback(TerrainCallbacks_HeightmapChangedCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks_HeightmapChangedCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks_HeightmapChangedCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerrainCallbacks_HeightmapChangedCallback(TerrainCallbacks_HeightmapChangedCallback const&) = delete;
+  TerrainCallbacks_HeightmapChangedCallback(TerrainCallbacks_HeightmapChangedCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22735 };
@@ -104,13 +104,13 @@ protected:
   constexpr TerrainCallbacks_TextureChangedCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks_TextureChangedCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks_TextureChangedCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainCallbacks_TextureChangedCallback(TerrainCallbacks_TextureChangedCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks_TextureChangedCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks_TextureChangedCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerrainCallbacks_TextureChangedCallback(TerrainCallbacks_TextureChangedCallback const&) = delete;
+  TerrainCallbacks_TextureChangedCallback(TerrainCallbacks_TextureChangedCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22736 };
@@ -121,6 +121,7 @@ public:
 static_assert(sizeof(::UnityEngine::TerrainCallbacks_TextureChangedCallback) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine
+// [MovedFrom("UnityEngine.Experimental.TerrainAPI")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -138,9 +139,11 @@ public:
   /// @brief Field textureChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_textureChanged, put = setStaticF_textureChanged)) ::UnityEngine::TerrainCallbacks_TextureChangedCallback* textureChanged;
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeHeightmapChangedCallback, addr 0x6bb99b8, size 0xec, virtual false, abstract: false, final false
   static inline void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* terrainData, ::UnityEngine::RectInt heightRegion, bool synched);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeTextureChangedCallback, addr 0x6bb9b4c, size 0xfc, virtual false, abstract: false, final false
   static inline void InvokeTextureChangedCallback(::UnityEngine::TerrainData* terrainData, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
@@ -158,13 +161,13 @@ protected:
   constexpr TerrainCallbacks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainCallbacks(TerrainCallbacks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TerrainCallbacks(TerrainCallbacks const&) = delete;
+  TerrainCallbacks(TerrainCallbacksconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22737 };

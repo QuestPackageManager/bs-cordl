@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Emit\UnmanagedMarshal.hpp"
+// IWYU pragma private; include "System/Reflection/Emit/UnmanagedMarshal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class UnmanagedMarshal;
 // Write type traits
 MARK_REF_T(::System::Reflection::Emit::UnmanagedMarshal*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::Emit::UnmanagedMarshal*, "System.Reflection.Emit", "UnmanagedMarshal");
+// [Obsolete("An alternate API is available: Emit the MarshalAs custom attribute instead.")]
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Reflection::Emit {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr UnmanagedMarshal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMarshal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMarshal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnmanagedMarshal(UnmanagedMarshal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMarshal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMarshal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnmanagedMarshal(UnmanagedMarshal const&) = delete;
+  UnmanagedMarshal(UnmanagedMarshalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3576 };

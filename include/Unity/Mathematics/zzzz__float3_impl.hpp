@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\float3.hpp"
+// IWYU pragma private; include "Unity/Mathematics/float3.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Mathematics/zzzz__float3_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -3508,8 +3508,8 @@ constexpr Unity::Mathematics::float3::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* Unity::Mathematics::float3::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::float3::float3(float_t x, float_t y, float_t z) noexcept {
   this->x = x;
   this->y = y;

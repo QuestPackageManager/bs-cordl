@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceOcclusionEventStats.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceOcclusionEventStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,11 @@ public:
   // @brief default ctor
   constexpr InstanceOcclusionEventStats();
 
-  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "eventType", ty: "::UnityEngine::Rendering::InstanceOcclusionEventType",
-  // modifiers: "", def_value: None }, CppParam { name: "occluderVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subviewMask", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "occlusionTest", ty: "::UnityEngine::Rendering::OcclusionTest", modifiers: "", def_value: None }, CppParam { name: "visibleInstances", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "culledInstances", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "eventType", ty:
+  // "::UnityEngine::Rendering::InstanceOcclusionEventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "occluderVersion", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "subviewMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionTest", ty: "::UnityEngine::Rendering::OcclusionTest",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleInstances", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "culledInstances", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceOcclusionEventStats(int32_t viewInstanceID, ::UnityEngine::Rendering::InstanceOcclusionEventType eventType, int32_t occluderVersion, int32_t subviewMask,
                                         ::UnityEngine::Rendering::OcclusionTest occlusionTest, int32_t visibleInstances, int32_t culledInstances) noexcept;
 

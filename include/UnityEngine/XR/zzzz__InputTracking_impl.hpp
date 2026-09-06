@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\InputTracking.hpp"
+// IWYU pragma private; include "UnityEngine/XR/InputTracking.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputTracking_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -8,7 +8,7 @@
 #include "UnityEngine/XR/zzzz__InputTracking_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNodeState_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::InputTracking_TrackingStateEventType::InputTracking_TrackingStateEventType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -212,7 +212,7 @@ inline void UnityEngine::XR::InputTracking::GetNodeStates(::System::Collections:
                                                            { "GetNodeStates", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, nodeStates);
 }
-inline void UnityEngine::XR::InputTracking::GetNodeStates_Internal(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates) {
+inline void UnityEngine::XR::InputTracking::GetNodeStates_Internal(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputTracking*>(),
                                                            { "GetNodeStates_Internal", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*>() } })));

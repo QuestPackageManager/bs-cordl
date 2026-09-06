@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\CloseExState.hpp"
+// IWYU pragma private; include "System/Net/CloseExState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CloseExState;
 // Write type traits
 MARK_VAL_T(::System::Net::CloseExState);
 DEFINE_IL2CPP_CLASS(::System::Net::CloseExState, "System.Net", "CloseExState");
+// [Flags]
 // Dependencies
 namespace System::Net {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr CloseExState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CloseExState(int32_t value__) noexcept;
 
   /// @brief Field Abort value: I32(1)

@@ -1,5 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputBindingCompositeContext.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputBindingCompositeContext.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_impl.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionState_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
@@ -89,8 +91,8 @@ inline void UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding::
                                                                                          { "set_control", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputControl*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_part_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_control_k__BackingField", ty:
-// "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_part_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_control_k__BackingField", ty:
+// "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding::InputBindingCompositeContext_PartBinding(int32_t _part_k__BackingField,
                                                                                                                          ::UnityEngine::InputSystem::InputControl* _control_k__BackingField) noexcept {
   this->_part_k__BackingField = _part_k__BackingField;
@@ -98,23 +100,30 @@ constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding::InputBindingCompositeContext_PartBinding() {}
-template <typename TValue> inline int32_t UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::Compare(TValue x, TValue y) {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
+inline int32_t UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::Compare(TValue x, TValue y) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>>(),
                                                                                          { "Compare", {}, { ::i2c::type_of<TValue>(), ::i2c::type_of<TValue>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, x, y);
 }
 /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<TValue>"
-template <typename TValue> constexpr UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::operator ::System::Collections::Generic::IComparer_1<TValue>*() {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
+constexpr UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::operator ::System::Collections::Generic::IComparer_1<TValue>*() {
   return static_cast<::System::Collections::Generic::IComparer_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Collections::Generic::IComparer_1<TValue>"
 template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
 constexpr ::System::Collections::Generic::IComparer_1<TValue>*
 UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::i___System__Collections__Generic__IComparer_1_TValue_() {
   return static_cast<::System::Collections::Generic::IComparer_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters []
-template <typename TValue> constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::InputBindingCompositeContext_DefaultComparer_1() {}
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
+constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::InputBindingCompositeContext_DefaultComparer_1() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputBindingCompositeContext.get_controls
 template <>
 
@@ -207,21 +216,30 @@ inline float_t UnityEngine::InputSystem::InputBindingCompositeContext::EvaluateM
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingCompositeContext>(), { "EvaluateMagnitude", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method, partNumber);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::InputBindingCompositeContext::ReadValue(int32_t partNumber) {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
+inline TValue UnityEngine::InputSystem::InputBindingCompositeContext::ReadValue(int32_t partNumber) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingCompositeContext>(), { "ReadValue", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<TValue>(*this, ___internal_method, partNumber);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::InputBindingCompositeContext::ReadValue(int32_t partNumber, ::by_ref<::UnityEngine::InputSystem::InputControl*> sourceControl) {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
+inline TValue UnityEngine::InputSystem::InputBindingCompositeContext::ReadValue(int32_t partNumber, ::by_ref<::UnityEngine::InputSystem::InputControl*> sourceControl) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingCompositeContext>(),
                                               { "ReadValue", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::InputSystem::InputControl*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<TValue>(*this, ___internal_method, partNumber, sourceControl);
 }
-template <typename TValue, typename TComparer> inline TValue UnityEngine::InputSystem::InputBindingCompositeContext::ReadValue(int32_t partNumber, TComparer comparer) {
+template <typename TValue, typename TComparer>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+           ::cordl_internals::type_constraint<TComparer, ::System::Collections::Generic::IComparer_1<TValue>*>)
+inline TValue UnityEngine::InputSystem::InputBindingCompositeContext::ReadValue(int32_t partNumber, TComparer comparer) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingCompositeContext>(),
                                                            { "ReadValue", { ::i2c::class_of<TValue>(), ::i2c::class_of<TComparer>() }, { ::i2c::type_of<int32_t>(), ::i2c::type_of<TComparer>() } })));
@@ -229,6 +247,8 @@ template <typename TValue, typename TComparer> inline TValue UnityEngine::InputS
   return ::cordl_internals::RunMethodRethrow<TValue>(*this, ___internal_method, partNumber, comparer);
 }
 template <typename TValue, typename TComparer>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+           ::cordl_internals::type_constraint<TComparer, ::System::Collections::Generic::IComparer_1<TValue>*>)
 inline TValue UnityEngine::InputSystem::InputBindingCompositeContext::ReadValue(int32_t partNumber, ::by_ref<::UnityEngine::InputSystem::InputControl*> sourceControl, TComparer comparer) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingCompositeContext>(),
@@ -258,8 +278,8 @@ inline double_t UnityEngine::InputSystem::InputBindingCompositeContext::GetPress
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingCompositeContext>(), { "GetPressTime", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<double_t>(*this, ___internal_method, partNumber);
 }
-// Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingIndex", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BindingIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext::InputBindingCompositeContext(::UnityEngine::InputSystem::InputActionState* m_State, int32_t m_BindingIndex) noexcept {
   this->m_State = m_State;
   this->m_BindingIndex = m_BindingIndex;
@@ -556,6 +576,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputBindin
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingCompositeContext__get_controls_d__2*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputSystem::InputBindingCompositeContext__get_controls_d__2* UnityEngine::InputSystem::InputBindingCompositeContext__get_controls_d__2::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::InputBindingCompositeContext__get_controls_d__2*>(__1__state));
 }

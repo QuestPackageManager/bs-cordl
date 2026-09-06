@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderGraphUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderGraphUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderGraphUtils)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class IRasterRenderGraphBuilder;
@@ -88,13 +90,13 @@ protected:
   constexpr RenderGraphUtils_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphUtils_PassData(RenderGraphUtils_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils_PassData(RenderGraphUtils_PassData const&) = delete;
+  RenderGraphUtils_PassData(RenderGraphUtils_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13015 };
@@ -115,6 +117,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderGraphUtils_Pas
 static_assert(sizeof(::UnityEngine::Rendering::Universal::RenderGraphUtils_PassData) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -155,13 +158,13 @@ protected:
   constexpr RenderGraphUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphUtils___c(RenderGraphUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils___c(RenderGraphUtils___c const&) = delete;
+  RenderGraphUtils___c(RenderGraphUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13016 };
@@ -189,7 +192,7 @@ public:
 
   /// @brief Method SetGlobalTexture, addr 0x68d7b24, size 0x4e4, virtual false, abstract: false, final false
   static inline void SetGlobalTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, int32_t nameId, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle handle,
-                                      ::StringW passName, ::StringW file, int32_t line);
+                                      ::StringW passName, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method UseDBufferIfValid, addr 0x68d83b4, size 0x1f8, virtual false, abstract: false, final false
   static inline void UseDBufferIfValid(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder* builder, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData);
@@ -204,13 +207,13 @@ protected:
   constexpr RenderGraphUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphUtils(RenderGraphUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils(RenderGraphUtils const&) = delete;
+  RenderGraphUtils(RenderGraphUtilsconst&) = delete;
 
   /// @brief Field DBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t DBufferSize{ static_cast<int32_t>(0x3) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerCategory.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerCategory.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCategory_def.hpp"
 //  Writing Method size for method: ::Unity::Profiling::ProfilerCategory._ctor
 template <>
@@ -157,7 +157,7 @@ inline uint16_t Unity::Profiling::ProfilerCategory::op_Implicit_uint16_t(::Unity
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), { "op_Implicit", {}, { ::i2c::type_of<::Unity::Profiling::ProfilerCategory>() } })));
   return ::cordl_internals::RunMethodRethrow<uint16_t>(nullptr, ___internal_method, category);
 }
-// Ctor Parameters [CppParam { name: "m_CategoryId", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_CategoryId", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::ProfilerCategory::ProfilerCategory(uint16_t m_CategoryId) noexcept {
   this->m_CategoryId = m_CategoryId;
 }

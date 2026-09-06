@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SettingsIO.hpp"
+// IWYU pragma private; include "GlobalNamespace/SettingsIO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::SettingsIO*, "", "SettingsIO");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SettingsIO__LoadAsync_d__15, "", "SettingsIO/<LoadAsync>d__15");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SettingsIO__SaveAsync_d__14, "", "SettingsIO/<SaveAsync>d__14");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SettingsIO__WipeAsync_d__13, "", "SettingsIO/<WipeAsync>d__13");
+// [CompilerGenerated]
 // Dependencies BeatSaber.Settings.Settings, HardwareCategory, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter,
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
@@ -81,8 +82,9 @@ public:
   /// @brief Method MoveNext, addr 0x328f020, size 0x10a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32900c8, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -91,12 +93,13 @@ public:
   // @brief default ctor
   constexpr SettingsIO__LoadAsync_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::Settings::Settings>", modifiers: "", def_value: None }, CppParam { name: "platform", ty:
-  // "::GlobalNamespace::HardwareCategory", modifiers: "", def_value: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "", def_value: None }, CppParam { name:
-  // "_settings_5__2", ty: "::BeatSaber::Settings::Settings", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "_mainData_5__3", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::Settings::Settings>", modifiers: "", def_value: None, comment: None }, CppParam { name: "platform", ty:
+  // "::GlobalNamespace::HardwareCategory", modifiers: "", def_value: None, comment: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_settings_5__2", ty: "::BeatSaber::Settings::Settings", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_mainData_5__3", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr SettingsIO__LoadAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::Settings::Settings> __t__builder,
                                         ::GlobalNamespace::HardwareCategory platform, ::GlobalNamespace::IFileStorage* fileStorage, ::BeatSaber::Settings::Settings _settings_5__2,
                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2,
@@ -111,12 +114,14 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::Settings::Settings> __t__builder;
 
   /// @brief Field platform, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::HardwareCategory platform;
 
+  /// [Nullable(0)]
   /// @brief Field fileStorage, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* fileStorage;
 
@@ -126,12 +131,15 @@ public:
   /// @brief Field <>u__1, offset: 0x120, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x128, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__3, offset: 0x130, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__3;
 
+  /// [Nullable(0)]
   /// @brief Field <mainData>5__3, offset: 0x138, size: 0x8, def value: None
   ::StringW _mainData_5__3;
 
@@ -159,6 +167,7 @@ static_assert(offsetof(::GlobalNamespace::SettingsIO__LoadAsync_d__15, _mainData
 static_assert(sizeof(::GlobalNamespace::SettingsIO__LoadAsync_d__15) == 0x140, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatSaber.Settings.Settings, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -172,8 +181,9 @@ public:
   /// @brief Method MoveNext, addr 0x3290148, size 0x77c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32908c4, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -182,11 +192,11 @@ public:
   // @brief default ctor
   constexpr SettingsIO__SaveAsync_d__14();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::BeatSaber::Settings::Settings", modifiers: "", def_value: None
-  // }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "", def_value: None }, CppParam { name: "_data_5__2", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "settings", ty: "::BeatSaber::Settings::Settings", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_data_5__2", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr SettingsIO__SaveAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::Settings::Settings settings,
                                         ::GlobalNamespace::IFileStorage* fileStorage, ::StringW _data_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
@@ -206,15 +216,18 @@ public:
   /// @brief Field settings, offset: 0x20, size: 0xf0, def value: None
   ::BeatSaber::Settings::Settings settings;
 
+  /// [Nullable(0)]
   /// @brief Field fileStorage, offset: 0x110, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* fileStorage;
 
+  /// [Nullable(0)]
   /// @brief Field <data>5__2, offset: 0x118, size: 0x8, def value: None
   ::StringW _data_5__2;
 
   /// @brief Field <>u__1, offset: 0x120, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x128, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
@@ -238,6 +251,7 @@ static_assert(offsetof(::GlobalNamespace::SettingsIO__SaveAsync_d__14, __u__2) =
 static_assert(sizeof(::GlobalNamespace::SettingsIO__SaveAsync_d__14) == 0x130, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -251,8 +265,9 @@ public:
   /// @brief Method MoveNext, addr 0x3290930, size 0x1168, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3291a98, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -261,10 +276,10 @@ public:
   // @brief default ctor
   constexpr SettingsIO__WipeAsync_d__13();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr SettingsIO__WipeAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::IFileStorage* fileStorage,
                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
@@ -280,12 +295,14 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field fileStorage, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* fileStorage;
 
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
@@ -305,6 +322,8 @@ static_assert(offsetof(::GlobalNamespace::SettingsIO__WipeAsync_d__13, __u__2) =
 static_assert(sizeof(::GlobalNamespace::SettingsIO__WipeAsync_d__13) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies StoragePreference, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -324,24 +343,29 @@ public:
   /// @brief Field _settingsPath, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__settingsPath, put = setStaticF__settingsPath)) ::StringW _settingsPath;
 
+  /// [NullableContext(2)]
   /// @brief Method Decode, addr 0x328ebe4, size 0x12c, virtual false, abstract: false, final false
   static inline bool Decode(::by_ref<::BeatSaber::Settings::Settings> settings, ::StringW text);
 
   /// @brief Method Encode, addr 0x328ee18, size 0x160, virtual false, abstract: false, final false
-  static inline ::StringW Encode(::by_ref<::BeatSaber::Settings::Settings> settings);
+  static inline ::StringW Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x328e2d8, size 0x78, virtual false, abstract: false, final false
   static inline void Init();
 
   /// @brief Method Load, addr 0x328e5cc, size 0x534, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::Settings Load(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::HardwareCategory platform);
 
+  /// [AsyncStateMachine(typeof(SettingsIO::<LoadAsync>d__15))]
   /// @brief Method LoadAsync, addr 0x328e4d8, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::BeatSaber::Settings::Settings>* LoadAsync(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::HardwareCategory platform);
 
+  /// [AsyncStateMachine(typeof(SettingsIO::<SaveAsync>d__14))]
   /// @brief Method SaveAsync, addr 0x328e404, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* SaveAsync(::GlobalNamespace::IFileStorage* fileStorage, ::BeatSaber::Settings::Settings settings);
 
+  /// [AsyncStateMachine(typeof(SettingsIO::<WipeAsync>d__13))]
   /// @brief Method WipeAsync, addr 0x328e350, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WipeAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
@@ -349,6 +373,7 @@ public:
 
   static inline ::StringW getStaticF__settingsPath();
 
+  /// [NullableContext(2)]
   /// @brief Method get_SettingsPath, addr 0x328e088, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW get_SettingsPath();
 
@@ -356,6 +381,7 @@ public:
 
   static inline void setStaticF__settingsPath(::StringW value);
 
+  /// [NullableContext(2)]
   /// @brief Method set_SettingsPath, addr 0x328e19c, size 0x13c, virtual false, abstract: false, final false
   static inline void set_SettingsPath(::StringW value);
 
@@ -365,13 +391,13 @@ protected:
   constexpr SettingsIO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsIO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsIO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsIO(SettingsIO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsIO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsIO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsIO(SettingsIO const&) = delete;
+  SettingsIO(SettingsIOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22042 };

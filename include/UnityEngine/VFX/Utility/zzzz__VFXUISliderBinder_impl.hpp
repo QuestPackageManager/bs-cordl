@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXUISliderBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXUISliderBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXUISliderBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Slider_def.hpp"

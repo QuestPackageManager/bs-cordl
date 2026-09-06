@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\IResourceGroveler.hpp"
+// IWYU pragma private; include "System/Resources/IResourceGroveler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,14 +31,14 @@ namespace System::Resources {
 class CORDL_TYPE IResourceGroveler {
 public:
   // Declarations
-  /// @brief Method GrovelForResourceSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GrovelForResourceSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Resources::ResourceSet* GrovelForResourceSet(::System::Globalization::CultureInfo* culture,
                                                                 ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* localResourceSets, bool tryParents,
                                                                 bool createIfNotExists, ::by_ref<::System::Threading::StackCrawlMark> stackMark);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IResourceGroveler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IResourceGroveler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IResourceGroveler(IResourceGroveler const&) = delete;
+  IResourceGroveler(IResourceGrovelerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3453 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Utils\InstanceHandle.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Utils/InstanceHandle.hpp"
 #include "Meta/XR/ImmersiveDebugger/Utils/zzzz__InstanceHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -209,8 +209,9 @@ constexpr ::System::IEquatable_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceH
 Meta::XR::ImmersiveDebugger::Utils::InstanceHandle::i___System__IEquatable_1___Meta__XR__ImmersiveDebugger__Utils__InstanceHandle_() {
   return static_cast<::System::IEquatable_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_Instance_k__BackingField", ty: "::UnityW<::UnityEngine::Object>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Type_k__BackingField", ty:
-// "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_InstanceId_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Instance_k__BackingField", ty: "::UnityW<::UnityEngine::Object>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_Type_k__BackingField", ty: "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_InstanceId_k__BackingField", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle::InstanceHandle(::UnityW<::UnityEngine::Object> _Instance_k__BackingField, ::System::Type* _Type_k__BackingField,
                                                                                int32_t _InstanceId_k__BackingField) noexcept {
   this->_Instance_k__BackingField = _Instance_k__BackingField;

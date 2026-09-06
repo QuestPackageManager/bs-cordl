@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsCompression.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsCompression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +21,15 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsCompression {
 public:
   // Declarations
-  /// @brief Method Compress, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Compress, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Decompress, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsCompression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsCompression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsCompression(TlsCompression const&) = delete;
+  TlsCompression(TlsCompressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1294 };

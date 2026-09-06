@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LookDev\Sky.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LookDev/Sky.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr Sky();
 
-  // Ctor Parameters [CppParam { name: "cubemap", ty: "::UnityW<::UnityEngine::Cubemap>", modifiers: "", def_value: None }, CppParam { name: "longitudeOffset", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "exposure", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cubemap", ty: "::UnityW<::UnityEngine::Cubemap>", modifiers: "", def_value: None, comment: None }, CppParam { name: "longitudeOffset", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "exposure", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Sky(::UnityW<::UnityEngine::Cubemap> cubemap, float_t longitudeOffset, float_t exposure) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_CharacterInfo.hpp"
+// IWYU pragma private; include "TMPro/TMP_CharacterInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ struct TMP_CharacterInfo;
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_CharacterInfo);
 DEFINE_IL2CPP_CLASS(::TMPro::TMP_CharacterInfo, "TMPro", "TMP_CharacterInfo");
+// [DebuggerDisplay("Unicode \'{character}\'  ({((uint)character).ToString(\"X\")})")]
 // Dependencies TMPro.FontStyles, TMPro.HighlightState, TMPro.TMP_TextElementType, TMPro.TMP_Vertex, UnityEngine.Color32, UnityEngine.Vector3
 namespace TMPro {
 // Is value type: true
@@ -43,26 +44,29 @@ public:
   // @brief default ctor
   constexpr TMP_CharacterInfo();
 
-  // Ctor Parameters [CppParam { name: "elementType", ty: "::TMPro::TMP_TextElementType", modifiers: "", def_value: None }, CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: None
-  // }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stringLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textElement", ty:
-  // "::TMPro::TMP_TextElement*", modifiers: "", def_value: None }, CppParam { name: "alternativeGlyph", ty: "::UnityEngine::TextCore::Glyph*", modifiers: "", def_value: None }, CppParam { name:
-  // "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None },
-  // CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "pointSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageNumber", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertex_BL", ty: "::TMPro::TMP_Vertex", modifiers: "",
-  // def_value: None }, CppParam { name: "vertex_TL", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: None }, CppParam { name: "vertex_TR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value:
-  // None }, CppParam { name: "vertex_BR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: None }, CppParam { name: "topLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
-  // CppParam { name: "bottomLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "topRight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
-  // CppParam { name: "bottomRight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "origin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "xAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "baseLine", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "adjustedAscender", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "adjustedDescender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "adjustedHorizontalAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "aspectRatio", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "color", ty:
-  // "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "underlineColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name:
-  // "underlineVertexIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "strikethroughColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name:
-  // "strikethroughVertexIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "highlightColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name:
-  // "highlightState", ty: "::TMPro::HighlightState", modifiers: "", def_value: None }, CppParam { name: "style", ty: "::TMPro::FontStyles", modifiers: "", def_value: None }, CppParam { name:
-  // "isVisible", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "elementType", ty: "::TMPro::TMP_TextElementType", modifiers: "", def_value: None, comment: None }, CppParam { name: "character", ty: "char16_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "stringLength", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "textElement", ty: "::TMPro::TMP_TextElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "alternativeGlyph", ty:
+  // "::UnityEngine::TextCore::Glyph*", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "pointSize", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pageNumber", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertex_BL", ty:
+  // "::TMPro::TMP_Vertex", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertex_TL", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "vertex_TR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertex_BR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "topLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "topRight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomRight", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "origin", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "xAdvance", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "baseLine", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "adjustedAscender", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "adjustedDescender", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "adjustedHorizontalAdvance", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "aspectRatio", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "underlineColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "underlineVertexIndex", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "strikethroughColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "strikethroughVertexIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "highlightColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "highlightState", ty: "::TMPro::HighlightState", modifiers: "", def_value: None, comment: None }, CppParam { name: "style", ty: "::TMPro::FontStyles", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "isVisible", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_CharacterInfo(::TMPro::TMP_TextElementType elementType, char16_t character, int32_t index, int32_t stringLength, ::TMPro::TMP_TextElement* textElement,
                               ::UnityEngine::TextCore::Glyph* alternativeGlyph, ::UnityW<::TMPro::TMP_FontAsset> fontAsset, ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex,
                               bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber, int32_t vertexIndex, ::TMPro::TMP_Vertex vertex_BL,

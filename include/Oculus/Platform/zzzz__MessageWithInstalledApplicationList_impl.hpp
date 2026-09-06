@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\MessageWithInstalledApplicationList.hpp"
+// IWYU pragma private; include "Oculus/Platform/MessageWithInstalledApplicationList.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithInstalledApplicationList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__InstalledApplicationList_def.hpp"

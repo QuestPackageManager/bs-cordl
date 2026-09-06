@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextMeshPro.hpp"
+// IWYU pragma private; include "TMPro/TextMeshPro.hpp"
 #include "TMPro/zzzz__MaskingTypes_impl.hpp"
 #include "TMPro/zzzz__TMP_SubMesh_impl.hpp"
 #include "TMPro/zzzz__TMP_Text_impl.hpp"

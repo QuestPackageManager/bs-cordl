@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\EdgeLookup.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/EdgeLookup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::EdgeLookup___c__DisplayClass16_0*);
 MARK_VAL_T(::UnityEngine::ProBuilder::EdgeLookup);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::EdgeLookup___c__DisplayClass16_0*, "UnityEngine.ProBuilder", "EdgeLookup/<>c__DisplayClass16_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::EdgeLookup, "UnityEngine.ProBuilder", "EdgeLookup");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -72,13 +73,13 @@ protected:
   constexpr EdgeLookup___c__DisplayClass16_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EdgeLookup___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EdgeLookup___c__DisplayClass16_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EdgeLookup___c__DisplayClass16_0(EdgeLookup___c__DisplayClass16_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EdgeLookup___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EdgeLookup___c__DisplayClass16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EdgeLookup___c__DisplayClass16_0(EdgeLookup___c__DisplayClass16_0 const&) = delete;
+  EdgeLookup___c__DisplayClass16_0(EdgeLookup___c__DisplayClass16_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16729 };
@@ -161,8 +162,8 @@ public:
   // @brief default ctor
   constexpr EdgeLookup();
 
-  // Ctor Parameters [CppParam { name: "m_Local", ty: "::UnityEngine::ProBuilder::Edge", modifiers: "", def_value: None }, CppParam { name: "m_Common", ty: "::UnityEngine::ProBuilder::Edge",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Local", ty: "::UnityEngine::ProBuilder::Edge", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Common", ty:
+  // "::UnityEngine::ProBuilder::Edge", modifiers: "", def_value: None, comment: None }]
   constexpr EdgeLookup(::UnityEngine::ProBuilder::Edge m_Local, ::UnityEngine::ProBuilder::Edge m_Common) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

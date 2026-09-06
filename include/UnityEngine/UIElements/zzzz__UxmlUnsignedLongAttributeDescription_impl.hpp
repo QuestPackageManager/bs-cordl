@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlUnsignedLongAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlUnsignedLongAttributeDescription.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlUnsignedLongAttributeDescription_def.hpp"

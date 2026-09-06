@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\VRDeviceAnalyticAspect.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/VRDeviceAnalyticAspect.hpp"
 #include "UnityEngine/Analytics/zzzz__VRDeviceAnalyticBase_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__VRDeviceAnalyticAspect_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Analytics::VRDeviceAnalyticAspect.CreateVRDeviceAnalyticAspect

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\SupportedOnRendererAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/SupportedOnRendererAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__SupportedOnRendererAttribute_def.hpp"
@@ -69,7 +69,7 @@ inline void UnityEngine::Rendering::Universal::SupportedOnRendererAttribute::_ct
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer);
 }
-inline void UnityEngine::Rendering::Universal::SupportedOnRendererAttribute::_ctor(::ArrayW<::System::Type*> renderers) {
+inline void UnityEngine::Rendering::Universal::SupportedOnRendererAttribute::_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
@@ -78,7 +78,8 @@ inline void UnityEngine::Rendering::Universal::SupportedOnRendererAttribute::_ct
 inline ::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute* UnityEngine::Rendering::Universal::SupportedOnRendererAttribute::New_ctor(::System::Type* renderer) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute*>(renderer));
 }
-inline ::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute* UnityEngine::Rendering::Universal::SupportedOnRendererAttribute::New_ctor(::ArrayW<::System::Type*> renderers) {
+inline ::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute*
+UnityEngine::Rendering::Universal::SupportedOnRendererAttribute::New_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderers) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute*>(renderers));
 }
 // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedHandle.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,15 +82,19 @@ public:
   /// @brief Method .ctor, addr 0x5a403e0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::ImmersiveDebugger::DebugInspector* owner, ::System::Type* type);
 
+  /// [CompilerGenerated]
   /// @brief Method get_InstanceHandle, addr 0x5a41738, size 0x14, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle get_InstanceHandle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5a41760, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
+  /// [CompilerGenerated]
   /// @brief Method set_InstanceHandle, addr 0x5a4174c, size 0x14, virtual false, abstract: false, final false
   inline void set_InstanceHandle(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Type, addr 0x5a41768, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::System::Type* value);
 
@@ -100,23 +104,26 @@ protected:
   constexpr InspectedHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectedHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InspectedHandle(InspectedHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectedHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectedHandle(InspectedHandle const&) = delete;
+  InspectedHandle(InspectedHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18331 };
 
+  /// [SerializeField]
   /// @brief Field inspectedMembers, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* ___inspectedMembers;
 
+  /// [CompilerGenerated]
   /// @brief Field <InstanceHandle>k__BackingField, offset: 0x30, size: 0x18, def value: None
   ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle ____InstanceHandle_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 

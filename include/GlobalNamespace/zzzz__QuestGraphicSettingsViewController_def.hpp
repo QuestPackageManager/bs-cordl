@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuestGraphicSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuestGraphicSettingsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ MARK_REF_T(::GlobalNamespace::QuestGraphicSettingsViewController*);
 MARK_REF_T(::GlobalNamespace::QuestGraphicSettingsViewController___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::QuestGraphicSettingsViewController*, "", "QuestGraphicSettingsViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::QuestGraphicSettingsViewController___c*, "", "QuestGraphicSettingsViewController/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -69,13 +70,13 @@ protected:
   constexpr QuestGraphicSettingsViewController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuestGraphicSettingsViewController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuestGraphicSettingsViewController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuestGraphicSettingsViewController___c(QuestGraphicSettingsViewController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuestGraphicSettingsViewController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuestGraphicSettingsViewController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuestGraphicSettingsViewController___c(QuestGraphicSettingsViewController___c const&) = delete;
+  QuestGraphicSettingsViewController___c(QuestGraphicSettingsViewController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6466 };
@@ -148,23 +149,26 @@ protected:
   constexpr QuestGraphicSettingsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuestGraphicSettingsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuestGraphicSettingsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuestGraphicSettingsViewController(QuestGraphicSettingsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuestGraphicSettingsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuestGraphicSettingsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuestGraphicSettingsViewController(QuestGraphicSettingsViewController const&) = delete;
+  QuestGraphicSettingsViewController(QuestGraphicSettingsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6467 };
 
+  /// [SerializeField]
   /// @brief Field _mirror, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PresetsSettingsController> ____mirror;
 
+  /// [SerializeField]
   /// @brief Field _120HzMode, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____120HzMode;
 
+  /// [SerializeField]
   /// @brief Field _stinsonOnlyEntries, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____stinsonOnlyEntries;
 

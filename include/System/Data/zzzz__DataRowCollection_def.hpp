@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRowCollection.hpp"
+// IWYU pragma private; include "System/Data/DataRowCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr DataRowCollection_DataRowTree();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection_DataRowTree", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection_DataRowTree", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataRowCollection_DataRowTree(DataRowCollection_DataRowTree&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection_DataRowTree", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection_DataRowTree", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRowCollection_DataRowTree(DataRowCollection_DataRowTree const&) = delete;
+  DataRowCollection_DataRowTree(DataRowCollection_DataRowTreeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13782 };
@@ -79,6 +79,7 @@ public:
 static_assert(sizeof(::System::Data::DataRowCollection_DataRowTree) == 0x40, "Size mismatch!");
 
 } // namespace System::Data
+// [DefaultMember("Item")]
 // Dependencies System.Data.InternalDataCollectionBase
 namespace System::Data {
 // Is value type: false
@@ -105,7 +106,7 @@ public:
   inline void Add(::System::Data::DataRow* row);
 
   /// @brief Method AddWithColumnEvents, addr 0x602de1c, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Data::DataRow* AddWithColumnEvents(::ArrayW<::System::Object*> values);
+  inline ::System::Data::DataRow* AddWithColumnEvents(/* [ParamArray] */ ::ArrayW<::System::Object*> values);
 
   /// @brief Method ArrayAdd, addr 0x602de80, size 0x74, virtual false, abstract: false, final false
   inline void ArrayAdd(::System::Data::DataRow* row);
@@ -169,13 +170,13 @@ protected:
   constexpr DataRowCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataRowCollection(DataRowCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRowCollection(DataRowCollection const&) = delete;
+  DataRowCollection(DataRowCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13783 };

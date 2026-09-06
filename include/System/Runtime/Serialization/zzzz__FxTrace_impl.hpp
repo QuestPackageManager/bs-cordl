@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\FxTrace.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/FxTrace.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__FxTrace_def.hpp"
 #include "System/Runtime/Diagnostics/zzzz__EtwDiagnosticTrace_def.hpp"

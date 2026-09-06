@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerData.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
@@ -2088,20 +2088,18 @@ inline void GlobalNamespace::PlayerData::_ctor(::StringW playerId, ::StringW pla
                                                                ::i2c::type_of<::GlobalNamespace::ColorSchemesSettings*>(), ::i2c::type_of<::GlobalNamespace::OverrideEnvironmentSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, playerId, playerName, lastSelectedBeatmapCharacteristic, colorSchemesSettings, overrideEnvironmentSettings);
 }
-inline void GlobalNamespace::PlayerData::_ctor(::StringW playerId, ::StringW playerName, bool shouldShowTutorialPrompt, bool shouldShow360Warning, bool agreedToEula, bool didSelectLanguage,
-                                               bool agreedToMultiplayerDisclaimer, int32_t didSelectRegionVersion, ::StringW selectedAvatarSystemTypeId,
-                                               ::GlobalNamespace::PlayerAgreements* playerAgreements, ::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty,
-                                               ::GlobalNamespace::BeatmapCharacteristic lastSelectedBeatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                               ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
-                                               ::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData,
-                                               ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* levelsStatsData,
-                                               ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* missionsStatsData,
-                                               ::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds, ::System::Collections::Generic::List_1<::StringW>* guestPlayerNames,
-                                               ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings,
-                                               ::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings,
-                                               int32_t currentDlcPromoDisplayCount, ::StringW currentDlcPromoId, ::OculusStudios::Platform::Core::UserAgeCategory userAgeCategory,
-                                               ::GlobalNamespace::PlayerSensitivityFlag desiredSensitivityFlag,
-                                               ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, int32_t>>* promoCounters) {
+inline void GlobalNamespace::PlayerData::_ctor(
+    ::StringW playerId, ::StringW playerName, bool shouldShowTutorialPrompt, bool shouldShow360Warning, bool agreedToEula, bool didSelectLanguage, bool agreedToMultiplayerDisclaimer,
+    int32_t didSelectRegionVersion, ::StringW selectedAvatarSystemTypeId, ::GlobalNamespace::PlayerAgreements* playerAgreements, ::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty,
+    ::GlobalNamespace::BeatmapCharacteristic lastSelectedBeatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData,
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* levelsStatsData,
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* missionsStatsData, ::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds,
+    ::System::Collections::Generic::List_1<::StringW>* guestPlayerNames, ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings,
+    ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds,
+    ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings, int32_t currentDlcPromoDisplayCount, ::StringW currentDlcPromoId,
+    ::OculusStudios::Platform::Core::UserAgeCategory userAgeCategory, ::GlobalNamespace::PlayerSensitivityFlag desiredSensitivityFlag,
+    /* [TupleElementNames(new[] { "key", "counter" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, int32_t>>* promoCounters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerData*>(), { ".ctor",
@@ -2175,13 +2173,13 @@ inline int32_t GlobalNamespace::PlayerData::IncreasePromoClickCount(::StringW pr
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerData*>(), { "IncreasePromoClickCount", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, promoId);
 }
-inline ::GlobalNamespace::PlayerLevelStatsData* GlobalNamespace::PlayerData::GetOrCreatePlayerLevelStatsData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::GlobalNamespace::PlayerLevelStatsData* GlobalNamespace::PlayerData::GetOrCreatePlayerLevelStatsData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerData*>(), { "GetOrCreatePlayerLevelStatsData", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerLevelStatsData*>(this, ___internal_method, beatmapKey);
 }
-inline ::GlobalNamespace::PlayerLevelStatsData* GlobalNamespace::PlayerData::TryGetPlayerLevelStatsData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::GlobalNamespace::PlayerLevelStatsData* GlobalNamespace::PlayerData::TryGetPlayerLevelStatsData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerData*>(), { "TryGetPlayerLevelStatsData", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerLevelStatsData*>(this, ___internal_method, beatmapKey);
@@ -2326,7 +2324,7 @@ inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerData::New_ctor(
     ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds,
     ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings, int32_t currentDlcPromoDisplayCount, ::StringW currentDlcPromoId,
     ::OculusStudios::Platform::Core::UserAgeCategory userAgeCategory, ::GlobalNamespace::PlayerSensitivityFlag desiredSensitivityFlag,
-    ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, int32_t>>* promoCounters) {
+    /* [TupleElementNames(new[] { "key", "counter" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, int32_t>>* promoCounters) {
   return THROW_UNLESS(::i2c::no_logger{},
                       ::i2c::new_ctor<::GlobalNamespace::PlayerData*>(
                           playerId, playerName, shouldShowTutorialPrompt, shouldShow360Warning, agreedToEula, didSelectLanguage, agreedToMultiplayerDisclaimer, didSelectRegionVersion,

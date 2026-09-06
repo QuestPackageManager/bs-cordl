@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLeadPlayerProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLeadPlayerProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,9 +136,11 @@ public:
   /// @brief Method .ctor, addr 0x59db544, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_newLeaderWasSelectedEvent, addr 0x59d7d88, size 0xc0, virtual false, abstract: false, final false
   inline void add_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_newLeaderWasSelectedEvent, addr 0x59d7b78, size 0xc0, virtual false, abstract: false, final false
   inline void remove_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
@@ -148,29 +150,34 @@ protected:
   constexpr MultiplayerLeadPlayerProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeadPlayerProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeadPlayerProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLeadPlayerProvider(MultiplayerLeadPlayerProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeadPlayerProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeadPlayerProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLeadPlayerProvider(MultiplayerLeadPlayerProvider const&) = delete;
+  MultiplayerLeadPlayerProvider(MultiplayerLeadPlayerProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6151 };
 
+  /// [SerializeField]
   /// @brief Field _timeToGainFirstLead, offset: 0x20, size: 0x4, def value: None
   float_t ____timeToGainFirstLead;
 
+  /// [SerializeField]
   /// @brief Field _timeToLooseLead, offset: 0x24, size: 0x4, def value: None
   float_t ____timeToLooseLead;
 
+  /// [Inject]
   /// @brief Field _scoreProvider, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
+  /// [Inject]
   /// @brief Field _multiplayerController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
+  /// [CompilerGenerated]
   /// @brief Field newLeaderWasSelectedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___newLeaderWasSelectedEvent;
 

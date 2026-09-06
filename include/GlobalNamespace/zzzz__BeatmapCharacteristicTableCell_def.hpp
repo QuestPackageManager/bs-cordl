@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,32 +112,39 @@ protected:
   constexpr BeatmapCharacteristicTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicTableCell(BeatmapCharacteristicTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicTableCell(BeatmapCharacteristicTableCell const&) = delete;
+  BeatmapCharacteristicTableCell(BeatmapCharacteristicTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6816 };
 
+  /// [SerializeField]
   /// @brief Field _nameText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
+  /// [SerializeField]
   /// @brief Field _iconImage, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____iconImage;
 
+  /// [SerializeField]
   /// @brief Field _bgImage, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
+  /// [SerializeField]
   /// @brief Field _selectionImage, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____selectionImage;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _bgNormalColor, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____bgNormalColor;
 
+  /// [SerializeField]
   /// @brief Field _bgHighlightColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____bgHighlightColor;
 

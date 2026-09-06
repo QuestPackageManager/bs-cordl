@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonPosition.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonPosition.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerType_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonPosition_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
@@ -109,7 +109,7 @@ inline int32_t Newtonsoft::Json::JsonPosition::CalculateLength() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPosition>(), { "CalculateLength", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonPosition::WriteTo(::System::Text::StringBuilder* sb, ::by_ref<::System::IO::StringWriter*> writer, ::by_ref<::ArrayW<char16_t>> buffer) {
+inline void Newtonsoft::Json::JsonPosition::WriteTo(/* [Nullable(1)] */ ::System::Text::StringBuilder* sb, ::by_ref<::System::IO::StringWriter*> writer, ::by_ref<::ArrayW<char16_t>> buffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -131,14 +131,15 @@ inline ::StringW Newtonsoft::Json::JsonPosition::BuildPath(::System::Collections
                                                                                                        ::i2c::type_of<::System::Nullable_1<::Newtonsoft::Json::JsonPosition>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, positions, currentPosition);
 }
-inline ::StringW Newtonsoft::Json::JsonPosition::FormatMessage(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message) {
+inline ::StringW Newtonsoft::Json::JsonPosition::FormatMessage(/* [Nullable(2)] */ ::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPosition>(),
                                               { "FormatMessage", {}, { ::i2c::type_of<::Newtonsoft::Json::IJsonLineInfo*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, lineInfo, path, message);
 }
-// Ctor Parameters [CppParam { name: "Type", ty: "::Newtonsoft::Json::JsonContainerType", modifiers: "", def_value: Some("{}") }, CppParam { name: "Position", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "PropertyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "HasIndex", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::Newtonsoft::Json::JsonContainerType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Position", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "PropertyName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "HasIndex", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::JsonPosition::JsonPosition(::Newtonsoft::Json::JsonContainerType Type, int32_t Position, ::StringW PropertyName, bool HasIndex) noexcept {
   this->Type = Type;
   this->Position = Position;

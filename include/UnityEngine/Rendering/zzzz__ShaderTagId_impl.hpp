@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderTagId.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderTagId.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -158,7 +158,7 @@ constexpr UnityEngine::Rendering::ShaderTagId::operator ::System::IEquatable_1<:
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>* UnityEngine::Rendering::ShaderTagId::i___System__IEquatable_1___UnityEngine__Rendering__ShaderTagId_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ShaderTagId::ShaderTagId(int32_t m_Id) noexcept {
   this->m_Id = m_Id;
 }

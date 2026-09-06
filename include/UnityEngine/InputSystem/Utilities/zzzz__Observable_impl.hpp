@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\Observable.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Observable.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Observable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -103,6 +104,7 @@ UnityEngine::InputSystem::Utilities::Observable::ForDevice(::System::IObservable
   return ::cordl_internals::RunMethodRethrow<::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>(nullptr, ___internal_method, source, device);
 }
 template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
 inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*
 UnityEngine::InputSystem::Utilities::Observable::ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source) {
   static auto* ___internal_method_base = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeDilationSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeDilationSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,9 +34,9 @@ public:
   // @brief default ctor
   constexpr ProbeDilationSettings();
 
-  // Ctor Parameters [CppParam { name: "enableDilation", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dilationDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "dilationValidityThreshold", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "dilationIterations", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "squaredDistWeighting", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "enableDilation", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "dilationDistance", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "dilationValidityThreshold", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "dilationIterations", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "squaredDistWeighting", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeDilationSettings(bool enableDilation, float_t dilationDistance, float_t dilationValidityThreshold, int32_t dilationIterations, bool squaredDistWeighting) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

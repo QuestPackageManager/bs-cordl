@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockBeatmapDataConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockBeatmapDataConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_REF_T(::GlobalNamespace::MockBeatmapDataConverter*);
 MARK_REF_T(::GlobalNamespace::MockBeatmapDataConverter___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MockBeatmapDataConverter*, "", "MockBeatmapDataConverter");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MockBeatmapDataConverter___c*, "", "MockBeatmapDataConverter/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -136,13 +137,13 @@ protected:
   constexpr MockBeatmapDataConverter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockBeatmapDataConverter___c(MockBeatmapDataConverter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockBeatmapDataConverter___c(MockBeatmapDataConverter___c const&) = delete;
+  MockBeatmapDataConverter___c(MockBeatmapDataConverter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6108 };
@@ -153,6 +154,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::MockBeatmapDataConverter___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -162,12 +164,15 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::MockBeatmapDataConverter___c;
 
+  /// [Extension]
   /// @brief Method ToMockBeatmapData, addr 0x59c9710, size 0x918, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MockBeatmapData* ToMockBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
+  /// [Extension]
   /// @brief Method ToMockNoteData, addr 0x59ca028, size 0x78, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MockNoteData* ToMockNoteData(::GlobalNamespace::NoteData* noteData);
 
+  /// [Extension]
   /// @brief Method ToMockObstacleData, addr 0x59ca0a0, size 0x78, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MockObstacleData* ToMockObstacleData(::GlobalNamespace::ObstacleData* obstacleData);
 
@@ -177,13 +182,13 @@ protected:
   constexpr MockBeatmapDataConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockBeatmapDataConverter(MockBeatmapDataConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockBeatmapDataConverter(MockBeatmapDataConverter const&) = delete;
+  MockBeatmapDataConverter(MockBeatmapDataConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6109 };

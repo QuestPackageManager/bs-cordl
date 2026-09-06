@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScoreMultiplierCounter.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScoreMultiplierCounter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   // @brief default ctor
   constexpr ScoreMultiplierCounter_MultiplierEventType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScoreMultiplierCounter_MultiplierEventType(int32_t value__) noexcept;
 
   /// @brief Field Negative value: I32(2)
@@ -145,13 +145,13 @@ protected:
   constexpr ScoreMultiplierCounter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreMultiplierCounter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreMultiplierCounter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreMultiplierCounter(ScoreMultiplierCounter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreMultiplierCounter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreMultiplierCounter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreMultiplierCounter(ScoreMultiplierCounter const&) = delete;
+  ScoreMultiplierCounter(ScoreMultiplierCounterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15251 };

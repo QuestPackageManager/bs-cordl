@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\UIKeyboard.hpp"
+// IWYU pragma private; include "HMUI/UIKeyboard.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ MARK_REF_T(::HMUI::UIKeyboard*);
 MARK_REF_T(::HMUI::UIKeyboard___c__DisplayClass24_0*);
 DEFINE_IL2CPP_CLASS(::HMUI::UIKeyboard*, "HMUI", "UIKeyboard");
 DEFINE_IL2CPP_CLASS(::HMUI::UIKeyboard___c__DisplayClass24_0*, "HMUI", "UIKeyboard/<>c__DisplayClass24_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -92,13 +93,13 @@ protected:
   constexpr UIKeyboard___c__DisplayClass24_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard___c__DisplayClass24_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard___c__DisplayClass24_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIKeyboard___c__DisplayClass24_0(UIKeyboard___c__DisplayClass24_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard___c__DisplayClass24_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboard___c__DisplayClass24_0(UIKeyboard___c__DisplayClass24_0 const&) = delete;
+  UIKeyboard___c__DisplayClass24_0(UIKeyboard___c__DisplayClass24_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19048 };
@@ -192,12 +193,15 @@ public:
   /// @brief Method Update, addr 0x587b560, size 0x144, virtual false, abstract: false, final false
   inline void Update();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__24_0, addr 0x587bb6c, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__24_1, addr 0x587bb88, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__24_2, addr 0x587bba4, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_2();
 
@@ -270,15 +274,19 @@ public:
   /// @brief Method .ctor, addr 0x587bb10, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_capsLockStateChangedEvent, addr 0x587afb8, size 0xc0, virtual false, abstract: false, final false
   inline void add_capsLockStateChangedEvent(::System::Action_1<::HMUI::CapsLockState>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_deleteButtonWasPressedEvent, addr 0x587ae60, size 0xac, virtual false, abstract: false, final false
   inline void add_deleteButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_keyWasPressedEvent, addr 0x587ace0, size 0xc0, virtual false, abstract: false, final false
   inline void add_keyWasPressedEvent(::System::Action_1<char16_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_okButtonWasPressedEvent, addr 0x587ab88, size 0xac, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
@@ -288,15 +296,19 @@ public:
   /// @brief Method get_shouldCapitalize, addr 0x587b138, size 0x10, virtual false, abstract: false, final false
   inline bool get_shouldCapitalize();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_capsLockStateChangedEvent, addr 0x587b078, size 0xc0, virtual false, abstract: false, final false
   inline void remove_capsLockStateChangedEvent(::System::Action_1<::HMUI::CapsLockState>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x587af0c, size 0xac, virtual false, abstract: false, final false
   inline void remove_deleteButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_keyWasPressedEvent, addr 0x587ada0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_keyWasPressedEvent(::System::Action_1<char16_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_okButtonWasPressedEvent, addr 0x587ac34, size 0xac, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
@@ -306,13 +318,13 @@ protected:
   constexpr UIKeyboard();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIKeyboard(UIKeyboard&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboard(UIKeyboard const&) = delete;
+  UIKeyboard(UIKeyboardconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19049 };
@@ -320,24 +332,32 @@ public:
   /// @brief Field kCapsLockPressWindowToToggleUppercase offset 0xffffffff size 0x4
   static constexpr float_t kCapsLockPressWindowToToggleUppercase{ static_cast<float_t>(0.2f) };
 
+  /// [WillNotBeUsed]
+  /// [SerializeField]
   /// @brief Field _okButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
+  /// [SerializeField]
   /// @brief Field _startsCapsLockState, offset: 0x28, size: 0x4, def value: None
   ::HMUI::CapsLockState ____startsCapsLockState;
 
+  /// [SerializeField]
   /// @brief Field _allowAtRuntime, offset: 0x2c, size: 0x1, def value: None
   bool ____allowAtRuntime;
 
+  /// [CompilerGenerated]
   /// @brief Field okButtonWasPressedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___okButtonWasPressedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field keyWasPressedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<char16_t>* ___keyWasPressedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field deleteButtonWasPressedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___deleteButtonWasPressedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field capsLockStateChangedEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::HMUI::CapsLockState>* ___capsLockStateChangedEvent;
 

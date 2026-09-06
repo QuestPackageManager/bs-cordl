@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicsDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicsDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapCharacteristicsDropdown*);
 MARK_REF_T(::GlobalNamespace::BeatmapCharacteristicsDropdown___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapCharacteristicsDropdown*, "", "BeatmapCharacteristicsDropdown");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapCharacteristicsDropdown___c*, "", "BeatmapCharacteristicsDropdown/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -81,13 +82,13 @@ protected:
   constexpr BeatmapCharacteristicsDropdown___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicsDropdown___c(BeatmapCharacteristicsDropdown___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicsDropdown___c(BeatmapCharacteristicsDropdown___c const&) = delete;
+  BeatmapCharacteristicsDropdown___c(BeatmapCharacteristicsDropdown___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6887 };
@@ -147,7 +148,7 @@ public:
   inline void SelectCellWithBeatmapCharacteristic(::StringW serializedName);
 
   /// @brief Method SetNotAllowedCharacteristics, addr 0x593eddc, size 0xc, virtual false, abstract: false, final false
-  inline void SetNotAllowedCharacteristics(::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>> notAllowedCharacteristics);
+  inline void SetNotAllowedCharacteristics(/* [IsReadOnly] */ ::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>> notAllowedCharacteristics);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
@@ -182,9 +183,11 @@ public:
   /// @brief Method .ctor, addr 0x593f088, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x593e970, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x593ea30, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
@@ -194,23 +197,26 @@ protected:
   constexpr BeatmapCharacteristicsDropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicsDropdown(BeatmapCharacteristicsDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicsDropdown(BeatmapCharacteristicsDropdown const&) = delete;
+  BeatmapCharacteristicsDropdown(BeatmapCharacteristicsDropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6888 };
 
+  /// [SerializeField]
   /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
+  /// [Inject]
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* ___didSelectCellWithIdxEvent;
 

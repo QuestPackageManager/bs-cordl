@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,8 @@ class PlayableAsset;
 // Write type traits
 MARK_REF_T(::UnityEngine::Playables::PlayableAsset*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::PlayableAsset*, "UnityEngine.Playables", "PlayableAsset");
+// [RequiredByNativeCode]
+// [AssetFileNameExtension("playable", new[] {  })]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Playables {
 // Is value type: false
@@ -48,12 +50,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableAsset"
   constexpr operator ::UnityEngine::Playables::IPlayableAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
+  /// [RequiredByNativeCode]
   /// @brief Method Internal_CreatePlayable, addr 0x6b0457c, size 0xe0, virtual false, abstract: false, final false
   static inline void Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset* asset, ::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, ::System::IntPtr ptr);
 
+  /// [RequiredByNativeCode]
   /// @brief Method Internal_GetPlayableAssetDuration, addr 0x6b0465c, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset* asset, ::System::IntPtr ptrToDouble);
 
@@ -77,13 +81,13 @@ protected:
   constexpr PlayableAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayableAsset(PlayableAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableAsset(PlayableAsset const&) = delete;
+  PlayableAsset(PlayableAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10673 };

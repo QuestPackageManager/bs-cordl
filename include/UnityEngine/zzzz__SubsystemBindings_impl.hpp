@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SubsystemBindings.hpp"
+// IWYU pragma private; include "UnityEngine/SubsystemBindings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SubsystemBindings_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

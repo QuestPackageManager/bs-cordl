@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TempMeshAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TempMeshAllocator.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TempMeshAllocator_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
@@ -60,7 +60,7 @@ inline void UnityEngine::UIElements::TempMeshAllocator::AllocateTempMesh(int32_t
                                            ::i2c::type_of<::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, vertexCount, indexCount, vertices, indices);
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TempMeshAllocator::TempMeshAllocator(::System::Runtime::InteropServices::GCHandle m_Handle) noexcept {
   this->m_Handle = m_Handle;
 }

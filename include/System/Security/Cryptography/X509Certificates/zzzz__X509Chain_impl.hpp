@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509Chain.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
@@ -268,6 +268,7 @@ inline ::System::Security::Cryptography::X509Certificates::X509Chain*
 System::Security::Cryptography::X509Certificates::X509Chain::New_ctor(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Cryptography::X509Certificates::X509Chain*>(impl));
 }
+/// @brief [MonoTODO("Mono\'s X509Chain is fully managed. All handles are invalid.")]
 inline ::System::Security::Cryptography::X509Certificates::X509Chain* System::Security::Cryptography::X509Certificates::X509Chain::New_ctor(::System::IntPtr chainContext) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Cryptography::X509Certificates::X509Chain*>(chainContext));
 }

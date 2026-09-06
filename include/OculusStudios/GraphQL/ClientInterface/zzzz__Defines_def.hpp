@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\Defines.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/Defines.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr Defines();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Defines(Defines&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Defines(Defines const&) = delete;
+  Defines(Definesconst&) = delete;
 
   /// @brief Field BaseTimeoutMs offset 0xffffffff size 0x4
   static constexpr int32_t BaseTimeoutMs{ static_cast<int32_t>(0x1f40) };

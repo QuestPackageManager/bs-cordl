@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerObjectIdentifier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -142,13 +142,13 @@ protected:
   constexpr DerObjectIdentifier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerObjectIdentifier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerObjectIdentifier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerObjectIdentifier(DerObjectIdentifier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerObjectIdentifier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerObjectIdentifier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerObjectIdentifier(DerObjectIdentifier const&) = delete;
+  DerObjectIdentifier(DerObjectIdentifierconst&) = delete;
 
   /// @brief Field LONG_LIMIT offset 0xffffffff size 0x8
   static constexpr int64_t LONG_LIMIT{ static_cast<int64_t>(0xffffffffffff80) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\ImuSample_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/ImuSample_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,9 @@ public:
   // @brief default ctor
   constexpr ImuSample_t();
 
-  // Ctor Parameters [CppParam { name: "fSampleTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "vAccel", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None },
-  // CppParam { name: "vGyro", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None }, CppParam { name: "unOffScaleFlags", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "fSampleTime", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vAccel", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "vGyro", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unOffScaleFlags", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ImuSample_t(double_t fSampleTime, ::OVR::OpenVR::HmdVector3d_t vAccel, ::OVR::OpenVR::HmdVector3d_t vGyro, uint32_t unOffScaleFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

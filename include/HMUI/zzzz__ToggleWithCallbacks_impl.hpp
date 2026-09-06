@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ToggleWithCallbacks.hpp"
+// IWYU pragma private; include "HMUI/ToggleWithCallbacks.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::ToggleWithCallbacks_SelectionState::ToggleWithCallbacks_SelectionState(int32_t value__) noexcept {
   this->value__ = value__;
 }

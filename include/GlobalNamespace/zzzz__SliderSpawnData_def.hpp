@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderSpawnData.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderSpawnData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct SliderSpawnData;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::SliderSpawnData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SliderSpawnData, "", "SliderSpawnData");
+// [IsReadOnly]
 // Dependencies UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
@@ -31,8 +32,9 @@ public:
   // @brief default ctor
   constexpr SliderSpawnData();
 
-  // Ctor Parameters [CppParam { name: "headNoteOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "headGravityBase", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "tailNoteOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tailGravityBase", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "headNoteOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "headGravityBase", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "tailNoteOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "tailGravityBase", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr SliderSpawnData(::UnityEngine::Vector3 headNoteOffset, float_t headGravityBase, ::UnityEngine::Vector3 tailNoteOffset, float_t tailGravityBase) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

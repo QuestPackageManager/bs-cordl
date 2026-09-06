@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxGroup.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroup_def.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_def.hpp"

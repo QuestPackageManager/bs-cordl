@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\MonoPropertyInfo.hpp"
+// IWYU pragma private; include "System/Reflection/MonoPropertyInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   // @brief default ctor
   constexpr MonoPropertyInfo();
 
-  // Ctor Parameters [CppParam { name: "parent", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "declaring_type", ty: "::System::Type*", modifiers: "", def_value: None },
-  // CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "get_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam {
-  // name: "set_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::System::Reflection::PropertyAttributes", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "parent", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "declaring_type", ty: "::System::Type*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "get_method", ty:
+  // "::System::Reflection::MethodInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "set_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "attrs", ty: "::System::Reflection::PropertyAttributes", modifiers: "", def_value: None, comment: None }]
   constexpr MonoPropertyInfo(::System::Type* parent, ::System::Type* declaring_type, ::StringW name, ::System::Reflection::MethodInfo* get_method, ::System::Reflection::MethodInfo* set_method,
                              ::System::Reflection::PropertyAttributes attrs) noexcept;
 

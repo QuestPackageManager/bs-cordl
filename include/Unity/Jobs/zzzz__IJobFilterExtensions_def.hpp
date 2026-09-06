@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\IJobFilterExtensions.hpp"
+// IWYU pragma private; include "Unity/Jobs/IJobFilterExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,6 +8,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Burst/zzzz__SharedStatic_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_def.hpp"
+#include "Unity/Jobs/zzzz__IJobFilter_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IJobFilterExtensions)
@@ -24,19 +25,27 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
 namespace Unity::Jobs {
-template <typename T> struct IJobFilterExtensions_JobFilterProducer_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobFilterExtensions_JobFilterProducer_1;
 }
 namespace Unity::Jobs {
-template <typename T> class JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T> struct JobFilterProducer_1_IJobFilterExtensions_JobWrapper;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct JobFilterProducer_1_IJobFilterExtensions_JobWrapper;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -46,13 +55,19 @@ namespace Unity::Jobs {
 class IJobFilterExtensions;
 }
 namespace Unity::Jobs {
-template <typename T> class JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T> struct IJobFilterExtensions_JobFilterProducer_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobFilterExtensions_JobFilterProducer_1;
 }
 namespace Unity::Jobs {
-template <typename T> struct JobFilterProducer_1_IJobFilterExtensions_JobWrapper;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct JobFilterProducer_1_IJobFilterExtensions_JobWrapper;
 }
 // Write type traits
 MARK_REF_T(::Unity::Jobs::IJobFilterExtensions*);
@@ -63,10 +78,11 @@ DEFINE_IL2CPP_CLASS(::Unity::Jobs::IJobFilterExtensions*, "Unity.Jobs", "IJobFil
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction, "Unity.Jobs", "IJobFilterExtensions/JobFilterProducer`1/ExecuteJobFunction");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1, "Unity.Jobs", "IJobFilterExtensions/JobFilterProducer`1");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper, "Unity.Jobs", "IJobFilterExtensions/JobFilterProducer`1/JobWrapper");
-// Dependencies Unity.Collections.NativeList`1<T>
+// Dependencies Unity.Collections.NativeList`1<T>, Unity.Jobs.IJobFilter
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobFilterExtensions/JobFilterProducer`1/JobWrapper<T>
 struct CORDL_TYPE JobFilterProducer_1_IJobFilterExtensions_JobWrapper {
@@ -76,8 +92,8 @@ public:
   // @brief default ctor
   constexpr JobFilterProducer_1_IJobFilterExtensions_JobWrapper();
 
-  // Ctor Parameters [CppParam { name: "outputIndices", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "appendCount", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "JobData", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "outputIndices", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "appendCount", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "JobData", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr JobFilterProducer_1_IJobFilterExtensions_JobWrapper(::Unity::Collections::NativeList_1<int32_t> outputIndices, int32_t appendCount, T JobData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -86,6 +102,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [NativeDisableParallelForRestriction]
   /// @brief Field outputIndices, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<int32_t> outputIndices;
 
@@ -99,10 +116,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.MulticastDelegate
+// Dependencies System.MulticastDelegate, Unity.Jobs.IJobFilter
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Jobs.IJobFilterExtensions/JobFilterProducer`1/ExecuteJobFunction<T>
 class CORDL_TYPE JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction : public ::System::MulticastDelegate {
@@ -132,13 +150,13 @@ protected:
   constexpr JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction(JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction(JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction const&) = delete;
+  JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction(JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15508 };
@@ -147,10 +165,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>
+// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>, Unity.Jobs.IJobFilter
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobFilterExtensions/JobFilterProducer`1<T>
 #pragma pack(push, 0)
@@ -174,6 +193,7 @@ public:
   /// @brief Method ExecuteFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ExecuteFilter(::by_ref<::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>> jobWrapper, ::System::IntPtr bufferRangePatchData);
 
+  /// [BurstDiscard]
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Initialize();
 
@@ -196,45 +216,75 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, Unity.Jobs.IJobFilter
 namespace Unity::Jobs {
 // Is value type: false
 // CS Name: Unity.Jobs.IJobFilterExtensions
 class CORDL_TYPE IJobFilterExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using JobFilterProducer_1 = ::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using JobFilterProducer_1 = ::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>;
 
   /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void EarlyJobInit();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void EarlyJobInit();
 
   /// @brief Method GetReflectionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::IntPtr GetReflectionData();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::System::IntPtr GetReflectionData();
 
+  /// [Extension]
   /// @brief Method RunAppend, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void RunAppend(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t arrayLength);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void RunAppend(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t arrayLength);
 
+  /// [Extension]
   /// @brief Method RunAppendByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void RunAppendByRef(::by_ref<T> jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t arrayLength);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void RunAppendByRef(::by_ref<T> jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t arrayLength);
 
+  /// [Extension]
   /// @brief Method RunFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void RunFilter(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void RunFilter(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices);
 
+  /// [Extension]
   /// @brief Method RunFilterByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void RunFilterByRef(::by_ref<T> jobData, ::Unity::Collections::NativeList_1<int32_t> indices);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void RunFilterByRef(::by_ref<T> jobData, ::Unity::Collections::NativeList_1<int32_t> indices);
 
+  /// [Extension]
   /// @brief Method ScheduleAppend, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleAppend(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t arrayLength, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleAppend(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t arrayLength, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
   /// @brief Method ScheduleAppendByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Jobs::JobHandle ScheduleAppendByRef(::by_ref<T> jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t arrayLength, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
   /// @brief Method ScheduleFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleFilter(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleFilter(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
   /// @brief Method ScheduleFilterByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleFilterByRef(::by_ref<T> jobData, ::Unity::Collections::NativeList_1<int32_t> indices, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleFilterByRef(::by_ref<T> jobData, ::Unity::Collections::NativeList_1<int32_t> indices, ::Unity::Jobs::JobHandle dependsOn);
 
 protected:
   // Ctor Parameters []
@@ -242,13 +292,13 @@ protected:
   constexpr IJobFilterExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IJobFilterExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobFilterExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IJobFilterExtensions(IJobFilterExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJobFilterExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobFilterExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobFilterExtensions(IJobFilterExtensions const&) = delete;
+  IJobFilterExtensions(IJobFilterExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15510 };

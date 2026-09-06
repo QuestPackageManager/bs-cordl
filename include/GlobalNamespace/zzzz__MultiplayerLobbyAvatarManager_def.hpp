@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyAvatarManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyAvatarManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_REF_T(::GlobalNamespace::MultiplayerLobbyAvatarManager*);
 MARK_REF_T(::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLobbyAvatarManager*, "", "MultiplayerLobbyAvatarManager");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13*, "", "MultiplayerLobbyAvatarManager/<RemovePlayerAndDestroy>d__13");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -95,17 +96,22 @@ public:
   /// @brief Method MoveNext, addr 0x59dcb88, size 0x13c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59dccc4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59dcccc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59dcd04, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59dcb84, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -139,6 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_userId(::StringW value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59dca8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -157,13 +164,13 @@ protected:
   constexpr MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13(MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13(MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13 const&) = delete;
+  MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13(MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6157 };
@@ -254,6 +261,7 @@ public:
   /// @brief Method RemovePlayer, addr 0x59dc6e0, size 0x178, virtual false, abstract: false, final false
   inline void RemovePlayer(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
+  /// [IteratorStateMachine(typeof(MultiplayerLobbyAvatarManager::<RemovePlayerAndDestroy>d__13))]
   /// @brief Method RemovePlayerAndDestroy, addr 0x59dca24, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RemovePlayerAndDestroy(::StringW userId, ::GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar);
 
@@ -302,20 +310,22 @@ protected:
   constexpr MultiplayerLobbyAvatarManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyAvatarManager(MultiplayerLobbyAvatarManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarManager(MultiplayerLobbyAvatarManager const&) = delete;
+  MultiplayerLobbyAvatarManager(MultiplayerLobbyAvatarManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6158 };
 
+  /// [Inject]
   /// @brief Field _lobbyStateDataModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;
 
+  /// [Inject]
   /// @brief Field _avatarControllerFactory, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLobbyAvatarController_Factory* ____avatarControllerFactory;
 

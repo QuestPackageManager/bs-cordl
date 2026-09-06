@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\InputDigitalActionData_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/InputDigitalActionData_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr InputDigitalActionData_t();
 
-  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "bState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fUpdateTime", ty: "float_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "bState", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "bChanged", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "fUpdateTime", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputDigitalActionData_t(bool bActive, uint64_t activeOrigin, bool bState, bool bChanged, float_t fUpdateTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

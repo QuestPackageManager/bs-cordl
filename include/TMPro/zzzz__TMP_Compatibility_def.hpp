@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Compatibility.hpp"
+// IWYU pragma private; include "TMPro/TMP_Compatibility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   // @brief default ctor
   constexpr TMP_Compatibility_AnchorPositions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_Compatibility_AnchorPositions(int32_t value__) noexcept;
 
   /// @brief Field BaseLine value: I32(9)
@@ -134,13 +134,13 @@ protected:
   constexpr TMP_Compatibility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Compatibility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Compatibility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Compatibility(TMP_Compatibility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Compatibility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Compatibility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Compatibility(TMP_Compatibility const&) = delete;
+  TMP_Compatibility(TMP_Compatibilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15892 };

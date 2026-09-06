@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\MemoryHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/MemoryHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_def.hpp"
@@ -80,7 +80,8 @@ UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::Overlap(::UnityEng
                                                                                          { "Overlap", {}, { ::i2c::type_of<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>(*this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "bitOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sizeInBits", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "bitOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sizeInBits", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::MemoryHelpers_BitRegion(uint32_t bitOffset, uint32_t sizeInBits) noexcept {
   this->bitOffset = bitOffset;
   this->sizeInBits = sizeInBits;

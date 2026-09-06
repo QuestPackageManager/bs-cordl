@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\ExternalProcessHelper.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/ExternalProcessHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class ExternalProcessHelper;
 // Write type traits
 MARK_REF_T(::BGLib::DotnetExtension::ExternalProcessHelper*);
 DEFINE_IL2CPP_CLASS(::BGLib::DotnetExtension::ExternalProcessHelper*, "BGLib.DotnetExtension", "ExternalProcessHelper");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BGLib::DotnetExtension {
 // Is value type: false
@@ -38,13 +40,13 @@ protected:
   constexpr ExternalProcessHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExternalProcessHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExternalProcessHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExternalProcessHelper(ExternalProcessHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExternalProcessHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExternalProcessHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExternalProcessHelper(ExternalProcessHelper const&) = delete;
+  ExternalProcessHelper(ExternalProcessHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20511 };

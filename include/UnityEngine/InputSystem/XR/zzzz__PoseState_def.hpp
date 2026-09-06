@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\PoseState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/PoseState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,10 +120,10 @@ public:
   // @brief default ctor
   constexpr PoseState();
 
-  // Ctor Parameters [CppParam { name: "isTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "trackingState", ty: "::UnityEngine::XR::InputTrackingState", modifiers: "",
-  // def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-  // def_value: None }, CppParam { name: "velocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "angularVelocity", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "isTracked", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "trackingState", ty: "::UnityEngine::XR::InputTrackingState",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty:
+  // "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "velocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "angularVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr PoseState(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 velocity,
                       ::UnityEngine::Vector3 angularVelocity) noexcept;
 
@@ -134,6 +134,7 @@ private:
     struct {
       /// @brief Padding field 0x0
       uint8_t ___isTracked_padding[0x0];
+      /// [InputControl(displayName = "Is Tracked", layout = "Button", sizeInBits = 8)]
       /// @brief Field isTracked, offset: 0x0, size: 0x1, def value: None
       bool ___isTracked;
     };
@@ -141,6 +142,7 @@ private:
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___isTracked_padding_forAlignment[0x0];
+      /// [InputControl(displayName = "Is Tracked", layout = "Button", sizeInBits = 8)]
       /// @brief Field isTracked, offset: 0x0, size: 0x1, def value: None
       bool ___isTracked_forAlignment;
     };
@@ -148,6 +150,7 @@ private:
     struct {
       /// @brief Padding field 0x4
       uint8_t ___trackingState_padding[0x4];
+      /// [InputControl(displayName = "Tracking State", layout = "Integer")]
       /// @brief Field trackingState, offset: 0x4, size: 0x4, def value: None
       ::UnityEngine::XR::InputTrackingState ___trackingState;
     };
@@ -155,6 +158,7 @@ private:
     struct {
       /// @brief Padding field 0x4 for alignment
       uint8_t ___trackingState_padding_forAlignment[0x4];
+      /// [InputControl(displayName = "Tracking State", layout = "Integer")]
       /// @brief Field trackingState, offset: 0x4, size: 0x4, def value: None
       ::UnityEngine::XR::InputTrackingState ___trackingState_forAlignment;
     };
@@ -162,6 +166,7 @@ private:
     struct {
       /// @brief Padding field 0x8
       uint8_t ___position_padding[0x8];
+      /// [InputControl(displayName = "Position", noisy = true)]
       /// @brief Field position, offset: 0x8, size: 0xc, def value: None
       ::UnityEngine::Vector3 ___position;
     };
@@ -169,6 +174,7 @@ private:
     struct {
       /// @brief Padding field 0x8 for alignment
       uint8_t ___position_padding_forAlignment[0x8];
+      /// [InputControl(displayName = "Position", noisy = true)]
       /// @brief Field position, offset: 0x8, size: 0xc, def value: None
       ::UnityEngine::Vector3 ___position_forAlignment;
     };
@@ -176,6 +182,7 @@ private:
     struct {
       /// @brief Padding field 0x14
       uint8_t ___rotation_padding[0x14];
+      /// [InputControl(displayName = "Rotation", noisy = true)]
       /// @brief Field rotation, offset: 0x14, size: 0x10, def value: None
       ::UnityEngine::Quaternion ___rotation;
     };
@@ -183,6 +190,7 @@ private:
     struct {
       /// @brief Padding field 0x14 for alignment
       uint8_t ___rotation_padding_forAlignment[0x14];
+      /// [InputControl(displayName = "Rotation", noisy = true)]
       /// @brief Field rotation, offset: 0x14, size: 0x10, def value: None
       ::UnityEngine::Quaternion ___rotation_forAlignment;
     };
@@ -190,6 +198,7 @@ private:
     struct {
       /// @brief Padding field 0x24
       uint8_t ___velocity_padding[0x24];
+      /// [InputControl(displayName = "Velocity", noisy = true)]
       /// @brief Field velocity, offset: 0x24, size: 0xc, def value: None
       ::UnityEngine::Vector3 ___velocity;
     };
@@ -197,6 +206,7 @@ private:
     struct {
       /// @brief Padding field 0x24 for alignment
       uint8_t ___velocity_padding_forAlignment[0x24];
+      /// [InputControl(displayName = "Velocity", noisy = true)]
       /// @brief Field velocity, offset: 0x24, size: 0xc, def value: None
       ::UnityEngine::Vector3 ___velocity_forAlignment;
     };
@@ -204,6 +214,7 @@ private:
     struct {
       /// @brief Padding field 0x30
       uint8_t ___angularVelocity_padding[0x30];
+      /// [InputControl(displayName = "Angular Velocity", noisy = true)]
       /// @brief Field angularVelocity, offset: 0x30, size: 0xc, def value: None
       ::UnityEngine::Vector3 ___angularVelocity;
     };
@@ -211,6 +222,7 @@ private:
     struct {
       /// @brief Padding field 0x30 for alignment
       uint8_t ___angularVelocity_padding_forAlignment[0x30];
+      /// [InputControl(displayName = "Angular Velocity", noisy = true)]
       /// @brief Field angularVelocity, offset: 0x30, size: 0xc, def value: None
       ::UnityEngine::Vector3 ___angularVelocity_forAlignment;
     };

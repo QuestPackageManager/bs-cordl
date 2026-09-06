@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\InvokeBaselineFunctionDelegate.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/InvokeBaselineFunctionDelegate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class InvokeBaselineFunctionDelegate;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::Layout::InvokeBaselineFunctionDelegate*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::InvokeBaselineFunctionDelegate*, "UnityEngine.UIElements.Layout", "InvokeBaselineFunctionDelegate");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace UnityEngine::UIElements::Layout {
 // Is value type: false
@@ -43,13 +44,13 @@ protected:
   constexpr InvokeBaselineFunctionDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeBaselineFunctionDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeBaselineFunctionDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvokeBaselineFunctionDelegate(InvokeBaselineFunctionDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeBaselineFunctionDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeBaselineFunctionDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokeBaselineFunctionDelegate(InvokeBaselineFunctionDelegate const&) = delete;
+  InvokeBaselineFunctionDelegate(InvokeBaselineFunctionDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5400 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleRule.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleRule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class StyleRule;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::StyleRule*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleRule*, "UnityEngine.UIElements", "StyleRule");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.UIElements.StyleProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -68,23 +69,27 @@ protected:
   constexpr StyleRule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleRule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleRule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleRule(StyleRule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleRule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleRule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleRule(StyleRule const&) = delete;
+  StyleRule(StyleRuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5063 };
 
+  /// [SerializeField]
   /// @brief Field m_Properties, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleProperty*> ___m_Properties;
 
+  /// [SerializeField]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field line, offset: 0x18, size: 0x4, def value: None
   int32_t ___line;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field customPropertiesCount, offset: 0x1c, size: 0x4, def value: None
   int32_t ___customPropertiesCount;
 

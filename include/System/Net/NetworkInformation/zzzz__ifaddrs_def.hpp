@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\ifaddrs.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/ifaddrs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,11 @@ public:
   // @brief default ctor
   constexpr ifaddrs();
 
-  // Ctor Parameters [CppParam { name: "ifa_next", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "ifa_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "ifa_flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ifa_addr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "ifa_netmask", ty:
-  // "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "ifa_ifu", ty: "::System::Net::NetworkInformation::ifa_ifu", modifiers: "", def_value: None }, CppParam { name: "ifa_data",
-  // ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ifa_next", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "ifa_name", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "ifa_flags", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ifa_addr", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ifa_netmask", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "ifa_ifu", ty:
+  // "::System::Net::NetworkInformation::ifa_ifu", modifiers: "", def_value: None, comment: None }, CppParam { name: "ifa_data", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr ifaddrs(::System::IntPtr ifa_next, ::StringW ifa_name, uint32_t ifa_flags, ::System::IntPtr ifa_addr, ::System::IntPtr ifa_netmask, ::System::Net::NetworkInformation::ifa_ifu ifa_ifu,
                     ::System::IntPtr ifa_data) noexcept;
 

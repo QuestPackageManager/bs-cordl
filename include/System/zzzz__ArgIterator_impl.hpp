@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ArgIterator.hpp"
+// IWYU pragma private; include "System/ArgIterator.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__ArgIterator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -35,8 +35,9 @@ inline int32_t System::ArgIterator::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::ArgIterator>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sig", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "next_arg", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "num_args", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sig", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "next_arg", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "num_args", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::ArgIterator::ArgIterator(::System::IntPtr sig, ::System::IntPtr args, int32_t next_arg, int32_t num_args) noexcept {
   this->sig = sig;
   this->args = args;

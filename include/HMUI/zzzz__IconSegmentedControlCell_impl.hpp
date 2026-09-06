@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\IconSegmentedControlCell.hpp"
+// IWYU pragma private; include "HMUI/IconSegmentedControlCell.hpp"
 #include "HMUI/zzzz__SegmentedControlCell_impl.hpp"
 #include "HMUI/zzzz__IconSegmentedControlCell_def.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"

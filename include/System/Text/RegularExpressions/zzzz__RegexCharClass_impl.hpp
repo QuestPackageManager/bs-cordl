@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexCharClass.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexCharClass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -30,8 +30,9 @@ inline void System::Text::RegularExpressions::RegexCharClass_LowerCaseMapping::_
                                                            { ".ctor", {}, { ::i2c::type_of<char16_t>(), ::i2c::type_of<char16_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, chMin, chMax, lcOp, data);
 }
-// Ctor Parameters [CppParam { name: "ChMin", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ChMax", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "LcOp", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Data", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ChMin", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ChMax", ty: "char16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "LcOp", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Data", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Text::RegularExpressions::RegexCharClass_LowerCaseMapping::RegexCharClass_LowerCaseMapping(char16_t ChMin, char16_t ChMax, int32_t LcOp, int32_t Data) noexcept {
   this->ChMin = ChMin;
   this->ChMax = ChMax;
@@ -128,7 +129,8 @@ inline void System::Text::RegularExpressions::RegexCharClass_SingleRange::_ctor(
                                                                                          { ".ctor", {}, { ::i2c::type_of<char16_t>(), ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, first, last);
 }
-// Ctor Parameters [CppParam { name: "First", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Last", ty: "char16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "First", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Last", ty: "char16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Text::RegularExpressions::RegexCharClass_SingleRange::RegexCharClass_SingleRange(char16_t First, char16_t Last) noexcept {
   this->First = First;
   this->Last = Last;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\FileHandle.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/FileHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__FileHandle_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
@@ -99,25 +99,26 @@ inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::Close(:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "Close", {}, { ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, dependency);
 }
-inline bool Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle) {
+inline bool Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
                                                                                          { "IsFileHandleValid", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle);
 }
-inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle) {
+inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
                                                                                          { "GetJobHandle_Internal", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(nullptr, ___internal_method, handle);
 }
-inline void Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle, ::by_ref<::Unity::Jobs::JobHandle> ret) {
+inline void Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle,
+                                                                                    ::by_ref<::Unity::Jobs::JobHandle> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
                           { "GetJobHandle_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, ret);
 }
-// Ctor Parameters [CppParam { name: "fileCommandPtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "fileCommandPtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "version", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Unity::IO::LowLevel::Unsafe::FileHandle::FileHandle(::System::IntPtr fileCommandPtr, int32_t version) noexcept {
   this->fileCommandPtr = fileCommandPtr;
   this->version = version;

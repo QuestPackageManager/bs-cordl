@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SortingCriteria.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SortingCriteria.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct SortingCriteria;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::SortingCriteria);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SortingCriteria, "UnityEngine.Rendering", "SortingCriteria");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr SortingCriteria();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SortingCriteria(int32_t value__) noexcept;
 
   /// @brief Field BackToFront value: I32(4)

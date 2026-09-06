@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleValueHandle.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleValueHandle.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueHandle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueType_def.hpp"
@@ -41,8 +41,8 @@ inline void UnityEngine::UIElements::StyleValueHandle::set_valueType(::UnityEngi
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueHandle>(), { "set_valueType", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleValueType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_ValueType", ty: "::UnityEngine::UIElements::StyleValueType", modifiers: "", def_value: Some("{}") }, CppParam { name: "valueIndex", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ValueType", ty: "::UnityEngine::UIElements::StyleValueType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "valueIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleValueHandle::StyleValueHandle(::UnityEngine::UIElements::StyleValueType m_ValueType, int32_t valueIndex) noexcept {
   this->m_ValueType = m_ValueType;
   this->valueIndex = valueIndex;

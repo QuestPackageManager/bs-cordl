@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FontDefinition.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FontDefinition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,8 +117,8 @@ public:
   // @brief default ctor
   constexpr FontDefinition();
 
-  // Ctor Parameters [CppParam { name: "m_Font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "m_FontAsset", ty:
-  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FontAsset", ty:
+  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None, comment: None }]
   constexpr FontDefinition(::UnityW<::UnityEngine::Font> m_Font, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> m_FontAsset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -183,9 +183,11 @@ public:
   /// @brief Method .ctor, addr 0x6dddf98, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6dde068, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6dde060, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -195,20 +197,24 @@ protected:
   constexpr PropertyBag_FontDefinition_FontProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_FontDefinition_FontProperty(PropertyBag_FontDefinition_FontProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_FontDefinition_FontProperty(PropertyBag_FontDefinition_FontProperty const&) = delete;
+  PropertyBag_FontDefinition_FontProperty(PropertyBag_FontDefinition_FontPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4714 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -262,9 +268,11 @@ public:
   /// @brief Method .ctor, addr 0x6dddffc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6dde08c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6dde084, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -274,20 +282,24 @@ protected:
   constexpr PropertyBag_FontDefinition_FontAssetProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontAssetProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontAssetProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_FontDefinition_FontAssetProperty(PropertyBag_FontDefinition_FontAssetProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontAssetProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontAssetProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_FontDefinition_FontAssetProperty(PropertyBag_FontDefinition_FontAssetProperty const&) = delete;
+  PropertyBag_FontDefinition_FontAssetProperty(PropertyBag_FontDefinition_FontAssetPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4715 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -323,13 +335,13 @@ protected:
   constexpr FontDefinition_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FontDefinition_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontDefinition_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontDefinition_PropertyBag(FontDefinition_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FontDefinition_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontDefinition_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontDefinition_PropertyBag(FontDefinition_PropertyBag const&) = delete;
+  FontDefinition_PropertyBag(FontDefinition_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4716 };

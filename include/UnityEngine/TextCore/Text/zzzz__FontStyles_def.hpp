@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\FontStyles.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontStyles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FontStyles;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::FontStyles);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::FontStyles, "UnityEngine.TextCore.Text", "FontStyles");
+// [Flags]
 // Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -51,7 +52,7 @@ public:
   // @brief default ctor
   constexpr FontStyles();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FontStyles(int32_t value__) noexcept;
 
   /// @brief Field Bold value: I32(1)

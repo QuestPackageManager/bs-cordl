@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicsTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicsTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,12 +152,14 @@ public:
   /// @brief Method .ctor, addr 0x596b418, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectCharacteristic, addr 0x596acac, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCharacteristic(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectCharacteristic, addr 0x596ad6c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCharacteristic(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
@@ -167,29 +169,34 @@ protected:
   constexpr BeatmapCharacteristicsTableView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsTableView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsTableView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicsTableView(BeatmapCharacteristicsTableView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsTableView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicsTableView(BeatmapCharacteristicsTableView const&) = delete;
+  BeatmapCharacteristicsTableView(BeatmapCharacteristicsTableViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7000 };
 
+  /// [SerializeField]
   /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 
+  /// [SerializeField]
   /// @brief Field _cellPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicTableCell> ____cellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _cellReuseIdentifier, offset: 0x30, size: 0x8, def value: None
   ::StringW ____cellReuseIdentifier;
 
+  /// [SerializeField]
   /// @brief Field _cellWidth, offset: 0x38, size: 0x4, def value: None
   float_t ____cellWidth;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectCharacteristic, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* ___didSelectCharacteristic;
 

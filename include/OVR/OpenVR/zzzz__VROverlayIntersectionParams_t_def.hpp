@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VROverlayIntersectionParams_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VROverlayIntersectionParams_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr VROverlayIntersectionParams_t();
 
-  // Ctor Parameters [CppParam { name: "vSource", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vDirection", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "",
-  // def_value: None }, CppParam { name: "eOrigin", ty: "::OVR::OpenVR::ETrackingUniverseOrigin", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vSource", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vDirection", ty: "::OVR::OpenVR::HmdVector3_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "eOrigin", ty: "::OVR::OpenVR::ETrackingUniverseOrigin", modifiers: "", def_value: None, comment: None }]
   constexpr VROverlayIntersectionParams_t(::OVR::OpenVR::HmdVector3_t vSource, ::OVR::OpenVR::HmdVector3_t vDirection, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

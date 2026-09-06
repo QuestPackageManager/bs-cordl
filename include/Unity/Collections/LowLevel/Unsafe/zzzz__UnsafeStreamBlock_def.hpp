@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeStreamBlock.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeStreamBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock);
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock__Data_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock, "Unity.Collections.LowLevel.Unsafe", "UnsafeStreamBlock");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock__Data_e__FixedBuffer, "Unity.Collections.LowLevel.Unsafe", "UnsafeStreamBlock/<Data>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -33,7 +35,7 @@ public:
   // @brief default ctor
   constexpr UnsafeStreamBlock__Data_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeStreamBlock__Data_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -54,6 +56,7 @@ static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock__Data_e__FixedBuffer) == 0x1, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeStreamBlock::<Data>e__FixedBuffer
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -67,8 +70,8 @@ public:
   // @brief default ctor
   constexpr UnsafeStreamBlock();
 
-  // Ctor Parameters [CppParam { name: "Next", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None }, CppParam { name: "Data", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock__Data_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Next", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Data", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock__Data_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeStreamBlock(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* Next, ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock__Data_e__FixedBuffer Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,6 +83,7 @@ public:
   /// @brief Field Next, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* Next;
 
+  /// [FixedBuffer(typeof(System.Byte), 1)]
   /// @brief Field Data, offset: 0x8, size: 0x1, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock__Data_e__FixedBuffer Data;
 

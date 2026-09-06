@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityAsyncHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityAsyncHelper.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -183,6 +183,7 @@ inline ::System::Object* GlobalNamespace::__c__DisplayClass5_0_UnityAsyncHelper_
                                                            { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d*
 GlobalNamespace::__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d*>(__1__state));
@@ -443,6 +444,7 @@ inline ::System::Object* GlobalNamespace::__c__DisplayClass6_0_UnityAsyncHelper_
                                                            { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d*
 GlobalNamespace::__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d*>(__1__state));
@@ -582,9 +584,10 @@ constexpr GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__0::operator ::System:
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__0::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "asyncTask", ty: "::System::Func_1<::System::Threading::Tasks::Task*>*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "asyncTask", ty:
+// "::System::Func_1<::System::Threading::Tasks::Task*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__0::UnityAsyncHelper__InvokeSafe_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                                   ::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask,
                                                                                                   ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -613,10 +616,10 @@ template <typename A>
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__1_1<A>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "asyncTask", ty: "::System::Func_2<A,::System::Threading::Tasks::Task*>*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "asyncTask", ty:
+// "::System::Func_2<A,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename A>
 constexpr ::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__1_1<A>::UnityAsyncHelper__InvokeSafe_d__1_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                                          ::System::Func_2<A, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter,
@@ -647,10 +650,11 @@ template <typename A, typename B>
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__2_2<A, B>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "asyncTask", ty: "::System::Func_3<A,B,::System::Threading::Tasks::Task*>*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: Some("{}") }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "asyncTask", ty:
+// "::System::Func_3<A,B,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename A, typename B>
 constexpr ::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__2_2<A, B>::UnityAsyncHelper__InvokeSafe_d__2_2(int32_t __1__state,
                                                                                                             ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
@@ -684,11 +688,11 @@ template <typename A, typename B, typename C>
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__3_3<A, B, C>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "asyncTask", ty:
-// "::System::Func_4<A,B,C,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "secondParameter", ty: "B", modifiers: "", def_value: Some("{}") }, CppParam { name: "thirdParameter", ty: "C", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "asyncTask", ty:
+// "::System::Func_4<A,B,C,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "thirdParameter", ty: "C", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename A, typename B, typename C>
 constexpr ::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__3_3<A, B, C>::UnityAsyncHelper__InvokeSafe_d__3_3(int32_t __1__state,
                                                                                                                ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
@@ -726,11 +730,12 @@ template <typename A, typename B, typename C, typename D>
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__4_4<A, B, C, D>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "asyncTask", ty:
-// "::System::Func_5<A,B,C,D,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "secondParameter", ty: "B", modifiers: "", def_value: Some("{}") }, CppParam { name: "thirdParameter", ty: "C", modifiers: "", def_value: Some("{}") }, CppParam { name: "fourthParameter",
-// ty: "D", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "asyncTask", ty:
+// "::System::Func_5<A,B,C,D,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "thirdParameter", ty: "C", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "fourthParameter", ty: "D", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename A, typename B, typename C, typename D>
 constexpr ::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__4_4<A, B, C, D>::UnityAsyncHelper__InvokeSafe_d__4_4(int32_t __1__state,
                                                                                                                   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,

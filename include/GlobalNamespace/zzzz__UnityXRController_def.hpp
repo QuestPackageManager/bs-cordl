@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityXRController.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityXRController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,15 +128,19 @@ public:
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction, ::UnityEngine::InputSystem::InputAction* rotationAction,
                     ::UnityEngine::InputSystem::InputAction* thumbstickAction, ::UnityEngine::InputSystem::InputAction* triggerAction);
 
+  /// [CompilerGenerated]
   /// @brief Method get_hapticsHandler, addr 0x591d12c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Haptics::IHapticImpulseTransmitter* get_hapticsHandler();
 
+  /// [CompilerGenerated]
   /// @brief Method get_manufacturer, addr 0x591d13c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRControllerManufacturer get_manufacturer();
 
+  /// [CompilerGenerated]
   /// @brief Method set_hapticsHandler, addr 0x591d134, size 0x8, virtual false, abstract: false, final false
   inline void set_hapticsHandler(::BeatSaber::Haptics::IHapticImpulseTransmitter* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_manufacturer, addr 0x591d144, size 0x8, virtual false, abstract: false, final false
   inline void set_manufacturer(::GlobalNamespace::VRControllerManufacturer value);
 
@@ -146,13 +150,13 @@ protected:
   constexpr UnityXRController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityXRController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityXRController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityXRController(UnityXRController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityXRController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityXRController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityXRController(UnityXRController const&) = delete;
+  UnityXRController(UnityXRControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6805 };
@@ -172,9 +176,11 @@ public:
   /// @brief Field node, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::XR::XRNode ___node;
 
+  /// [CompilerGenerated]
   /// @brief Field <hapticsHandler>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::BeatSaber::Haptics::IHapticImpulseTransmitter* ____hapticsHandler_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <manufacturer>k__BackingField, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::VRControllerManufacturer ____manufacturer_k__BackingField;
 

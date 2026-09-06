@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Haptics\DualMotorRumble.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Haptics/DualMotorRumble.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,18 +41,24 @@ public:
   /// @brief Method SetMotorSpeeds, addr 0x65ad53c, size 0x124, virtual false, abstract: false, final false
   inline void SetMotorSpeeds(::UnityEngine::InputSystem::InputDevice* device, float_t lowFrequency, float_t highFrequency);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_highFrequencyMotorSpeed, addr 0x65ad2d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highFrequencyMotorSpeed();
 
   /// @brief Method get_isRumbling, addr 0x65ad2e0, size 0xbc, virtual false, abstract: false, final false
   inline bool get_isRumbling();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_lowFrequencyMotorSpeed, addr 0x65ad2c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lowFrequencyMotorSpeed();
 
+  /// [CompilerGenerated]
   /// @brief Method set_highFrequencyMotorSpeed, addr 0x65ad2d8, size 0x8, virtual false, abstract: false, final false
   inline void set_highFrequencyMotorSpeed(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lowFrequencyMotorSpeed, addr 0x65ad2c8, size 0x8, virtual false, abstract: false, final false
   inline void set_lowFrequencyMotorSpeed(float_t value);
 
@@ -60,8 +66,8 @@ public:
   // @brief default ctor
   constexpr DualMotorRumble();
 
-  // Ctor Parameters [CppParam { name: "_lowFrequencyMotorSpeed_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_highFrequencyMotorSpeed_k__BackingField", ty:
-  // "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_lowFrequencyMotorSpeed_k__BackingField", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_highFrequencyMotorSpeed_k__BackingField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr DualMotorRumble(float_t _lowFrequencyMotorSpeed_k__BackingField, float_t _highFrequencyMotorSpeed_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -70,9 +76,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <lowFrequencyMotorSpeed>k__BackingField, offset: 0x0, size: 0x4, def value: None
   float_t _lowFrequencyMotorSpeed_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <highFrequencyMotorSpeed>k__BackingField, offset: 0x4, size: 0x4, def value: None
   float_t _highFrequencyMotorSpeed_k__BackingField;
 

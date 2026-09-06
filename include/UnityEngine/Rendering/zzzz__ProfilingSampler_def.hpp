@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProfilingSampler.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProfilingSampler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class ProfilingSampler;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ProfilingSampler*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProfilingSampler*, "UnityEngine.Rendering", "ProfilingSampler");
+// [IgnoredByDeepProfiler]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -137,24 +138,30 @@ public:
   /// @brief Method get_inlineCpuSampleCount, addr 0x676dd6c, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_inlineCpuSampleCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_inlineSampler, addr 0x676db50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Profiling::CustomSampler* get_inlineSampler();
 
+  /// [CompilerGenerated]
   /// @brief Method get_name, addr 0x676db60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
+  /// [CompilerGenerated]
   /// @brief Method get_sampler, addr 0x676db40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Profiling::CustomSampler* get_sampler();
 
   /// @brief Method set_enableRecording, addr 0x676db70, size 0x3c, virtual false, abstract: false, final false
   inline void set_enableRecording(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_inlineSampler, addr 0x676db58, size 0x8, virtual false, abstract: false, final false
   inline void set_inlineSampler(::UnityEngine::Profiling::CustomSampler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_name, addr 0x676db68, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_sampler, addr 0x676db48, size 0x8, virtual false, abstract: false, final false
   inline void set_sampler(::UnityEngine::Profiling::CustomSampler* value);
 
@@ -164,23 +171,26 @@ protected:
   constexpr ProfilingSampler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilingSampler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilingSampler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProfilingSampler(ProfilingSampler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilingSampler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilingSampler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfilingSampler(ProfilingSampler const&) = delete;
+  ProfilingSampler(ProfilingSamplerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12051 };
 
+  /// [CompilerGenerated]
   /// @brief Field <sampler>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Profiling::CustomSampler* ____sampler_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <inlineSampler>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Profiling::CustomSampler* ____inlineSampler_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <name>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
 

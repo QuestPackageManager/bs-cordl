@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataCallbackWrapper.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataCallbackWrapper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
@@ -81,7 +81,7 @@ constexpr void GlobalNamespace::BeatmapDataCallbackWrapper::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___subtypeIdentifiers = value;
 }
-inline void GlobalNamespace::BeatmapDataCallbackWrapper::_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers) {
+inline void GlobalNamespace::BeatmapDataCallbackWrapper::_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, /* [ParamArray] */ ::ArrayW<int32_t> subtypeIdentifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataCallbackWrapper*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<int32_t>>() } })));
@@ -93,7 +93,7 @@ inline void GlobalNamespace::BeatmapDataCallbackWrapper::CallCallback(::GlobalNa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapData);
 }
 inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapDataCallbackWrapper::New_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType,
-                                                                                                            ::ArrayW<int32_t> subtypeIdentifiers) {
+                                                                                                            /* [ParamArray] */ ::ArrayW<int32_t> subtypeIdentifiers) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapDataCallbackWrapper*>(aheadTime, BasicBeatmapEventType, subtypeIdentifiers));
 }
 // Ctor Parameters []

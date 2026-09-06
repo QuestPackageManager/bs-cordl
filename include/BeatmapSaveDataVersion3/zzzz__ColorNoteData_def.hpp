@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\ColorNoteData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/ColorNoteData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,29 +111,34 @@ protected:
   constexpr ColorNoteData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorNoteData(ColorNoteData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorNoteData(ColorNoteData const&) = delete;
+  ColorNoteData(ColorNoteDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15372 };
 
+  /// [SerializeField]
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;
 
+  /// [SerializeField]
   /// @brief Field y, offset: 0x18, size: 0x4, def value: None
   int32_t ___y;
 
+  /// [SerializeField]
   /// @brief Field a, offset: 0x1c, size: 0x4, def value: None
   int32_t ___a;
 
+  /// [SerializeField]
   /// @brief Field c, offset: 0x20, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteColorType ___c;
 
+  /// [SerializeField]
   /// @brief Field d, offset: 0x24, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteCutDirection ___d;
 

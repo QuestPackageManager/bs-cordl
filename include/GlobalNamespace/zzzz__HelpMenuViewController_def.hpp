@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HelpMenuViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/HelpMenuViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -146,9 +146,11 @@ public:
   /// @brief Method .ctor, addr 0x5949a40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x59492e8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x59493a8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
@@ -158,13 +160,13 @@ protected:
   constexpr HelpMenuViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HelpMenuViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpMenuViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpMenuViewController(HelpMenuViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HelpMenuViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpMenuViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpMenuViewController(HelpMenuViewController const&) = delete;
+  HelpMenuViewController(HelpMenuViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6915 };
@@ -184,27 +186,35 @@ public:
   /// @brief Field kPrivacyPolicyMenu offset 0xffffffff size 0x8
   static constexpr ::ConstString kPrivacyPolicyMenu{ u"PRIVACY_POLICY_MENU" };
 
+  /// [SerializeField]
   /// @brief Field _helpMenuSegmentedControl, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____helpMenuSegmentedControl;
 
+  /// [Inject]
   /// @brief Field _howToPlayViewController, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HowToPlayViewController> ____howToPlayViewController;
 
+  /// [Inject]
   /// @brief Field _privacyPolicyDisplayViewController, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController> ____privacyPolicyDisplayViewController;
 
+  /// [Inject]
   /// @brief Field _healthWarningDisplayViewController, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HealthWarningDisplayViewController> ____healthWarningDisplayViewController;
 
+  /// [Inject]
   /// @brief Field _eulaDisplayViewController, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EulaDisplayViewController> ____eulaDisplayViewController;
 
+  /// [Inject]
   /// @brief Field _licensesDisplayViewController, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LicensesDisplayViewController> ____licensesDisplayViewController;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectHelpSubMenuEvent, offset: 0xa8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::HMUI::ViewController>>* ___didSelectHelpSubMenuEvent;
 
+  /// [TupleElementNames(new[] { "viewController", "localizationKey" })]
   /// @brief Field _viewControllers, offset: 0xb0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* ____viewControllers;
 

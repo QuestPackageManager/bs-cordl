@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\JsonExtension\JsonSettings.hpp"
+// IWYU pragma private; include "BGLib/JsonExtension/JsonSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class JsonSettings;
 // Write type traits
 MARK_REF_T(::BGLib::JsonExtension::JsonSettings*);
 DEFINE_IL2CPP_CLASS(::BGLib::JsonExtension::JsonSettings*, "BGLib.JsonExtension", "JsonSettings");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonConverter, System.Object
 namespace BGLib::JsonExtension {
 // Is value type: false
@@ -58,13 +60,13 @@ protected:
   constexpr JsonSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSettings(JsonSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSettings(JsonSettings const&) = delete;
+  JsonSettings(JsonSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23393 };

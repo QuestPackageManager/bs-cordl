@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\IfNotBoundBinder.hpp"
+// IWYU pragma private; include "Zenject/IfNotBoundBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class IfNotBoundBinder;
 // Write type traits
 MARK_REF_T(::Zenject::IfNotBoundBinder*);
 DEFINE_IL2CPP_CLASS(::Zenject::IfNotBoundBinder*, "Zenject", "IfNotBoundBinder");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -41,9 +42,11 @@ public:
   /// @brief Method .ctor, addr 0x6e5cc60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BindInfo, addr 0x6e5cc68, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::BindInfo* get_BindInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BindInfo, addr 0x6e5cc70, size 0x8, virtual false, abstract: false, final false
   inline void set_BindInfo(::Zenject::BindInfo* value);
 
@@ -53,17 +56,18 @@ protected:
   constexpr IfNotBoundBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IfNotBoundBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IfNotBoundBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IfNotBoundBinder(IfNotBoundBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IfNotBoundBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IfNotBoundBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IfNotBoundBinder(IfNotBoundBinder const&) = delete;
+  IfNotBoundBinder(IfNotBoundBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14276 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BindInfo>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Zenject::BindInfo* ____BindInfo_k__BackingField;
 

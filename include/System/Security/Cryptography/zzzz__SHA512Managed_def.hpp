@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\SHA512Managed.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/SHA512Managed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class SHA512Managed;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::SHA512Managed*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::SHA512Managed*, "System.Security.Cryptography", "SHA512Managed");
+// [ComVisible(true)]
 // Dependencies System.Security.Cryptography.SHA512
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -120,13 +121,13 @@ protected:
   constexpr SHA512Managed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SHA512Managed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SHA512Managed", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SHA512Managed(SHA512Managed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SHA512Managed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SHA512Managed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SHA512Managed(SHA512Managed const&) = delete;
+  SHA512Managed(SHA512Managedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2981 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AsyncHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/AsyncHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::GlobalNamespace::AsyncHelper*);
 MARK_VAL_T(::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AsyncHelper*, "", "AsyncHelper");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2, "", "AsyncHelper/<AnyTaskTrueNonAlloc>d__2");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -52,8 +53,9 @@ public:
   /// @brief Method MoveNext, addr 0x330b980, size 0x364, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x330bce4, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -62,10 +64,10 @@ public:
   // @brief default ctor
   constexpr AsyncHelper__AnyTaskTrueNonAlloc_d__2();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "tasks", ty:
-  // "::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task_1<bool>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tasks", ty:
+  // "::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task_1<bool>*>", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncHelper__AnyTaskTrueNonAlloc_d__2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                   ::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>* tasks,
                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task_1<bool>*> __u__1) noexcept;
@@ -79,12 +81,15 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field tasks, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>* tasks;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task_1<bool>*> __u__1;
 
@@ -102,6 +107,8 @@ static_assert(offsetof(::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2,
 static_assert(sizeof(::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -111,6 +118,7 @@ public:
   // Declarations
   using _AnyTaskTrueNonAlloc_d__2 = ::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2;
 
+  /// [AsyncStateMachine(typeof(AsyncHelper::<AnyTaskTrueNonAlloc>d__2))]
   /// @brief Method AnyTaskTrueNonAlloc, addr 0x330b8a4, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* AnyTaskTrueNonAlloc(::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>* tasks);
 
@@ -126,13 +134,13 @@ protected:
   constexpr AsyncHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncHelper(AsyncHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncHelper(AsyncHelper const&) = delete;
+  AsyncHelper(AsyncHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20454 };

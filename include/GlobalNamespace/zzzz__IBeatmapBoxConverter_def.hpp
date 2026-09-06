@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IBeatmapBoxConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace/IBeatmapBoxConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,16 +35,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE IBeatmapBoxConverter {
 public:
   // Declarations
-  /// @brief Method ConvertBoxEventGroupId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConvertBoxEventGroupId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConvertBoxEventGroupId(::System::Collections::Generic::List_1<::System::ValueTuple_2<int32_t, int32_t>>* output, int32_t groupId, int32_t boxEventType);
 
-  /// @brief Method ConvertRotationEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConvertRotationEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::LightRotationBaseData* ConvertRotationEvent(float_t beat, ::BeatmapSaveDataVersion4::LightRotationEvent lightRotationEvent,
                                                                         ::BeatmapSaveDataVersion4::LightRotationEventBox eventBox);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBeatmapBoxConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBeatmapBoxConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBeatmapBoxConverter(IBeatmapBoxConverter const&) = delete;
+  IBeatmapBoxConverter(IBeatmapBoxConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15043 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRFaceExpressions.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRFaceExpressions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,12 +101,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRFaceExpressions_WeightProvider {
 public:
   // Declarations
-  /// @brief Method GetWeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetWeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetWeight(::GlobalNamespace::OVRFaceExpressions_FaceExpression expression);
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRFaceExpressions_WeightProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRFaceExpressions_WeightProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRFaceExpressions_WeightProvider(OVRFaceExpressions_WeightProvider const&) = delete;
+  OVRFaceExpressions_WeightProvider(OVRFaceExpressions_WeightProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7142 };
@@ -145,7 +145,7 @@ public:
   // @brief default ctor
   constexpr OVRFaceExpressions_FaceRegionConfidence();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRFaceExpressions_FaceRegionConfidence(int32_t value__) noexcept;
 
   /// @brief Field Lower value: I32(0)
@@ -204,7 +204,7 @@ public:
   // @brief default ctor
   constexpr OVRFaceExpressions_FaceTrackingDataSource();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRFaceExpressions_FaceTrackingDataSource(int32_t value__) noexcept;
 
   /// @brief Field Audio value: I32(1)
@@ -332,7 +332,7 @@ public:
   // @brief default ctor
   constexpr OVRFaceExpressions_FaceExpression();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRFaceExpressions_FaceExpression(int32_t value__) noexcept;
 
   /// @brief Field BrowLowererL value: I32(0)
@@ -619,8 +619,8 @@ public:
   // @brief default ctor
   constexpr OVRFaceExpressions_FaceExpressionsEnumerator();
 
-  // Ctor Parameters [CppParam { name: "_faceExpressions", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_faceExpressions", ty: "::ArrayW<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRFaceExpressions_FaceExpressionsEnumerator(::ArrayW<float_t> _faceExpressions, int32_t _index, int32_t _count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -694,7 +694,7 @@ public:
   // @brief default ctor
   constexpr OVRFaceExpressions_FaceViseme();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRFaceExpressions_FaceViseme(int32_t value__) noexcept;
 
   /// @brief Field AA value: I32(10)
@@ -765,6 +765,9 @@ static_assert(offsetof(::GlobalNamespace::OVRFaceExpressions_FaceViseme, value__
 static_assert(sizeof(::GlobalNamespace::OVRFaceExpressions_FaceViseme) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DefaultMember("Item")]
+// [HelpURL("https://developer.oculus.com/documentation/unity/move-face-tracking/")]
+// [Feature((Meta.XR.Util.Feature)3)]
 // Dependencies OVRPermissionsRequester::Permission, OVRPlugin::FaceState, OVRPlugin::FaceVisemesState, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -939,12 +942,14 @@ public:
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AreVisemesValid, addr 0x5e1ffa0, size 0x8, virtual false, abstract: false, final false
   inline bool get_AreVisemesValid();
 
   /// @brief Method get_Count, addr 0x5e20e40, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
+  /// [CompilerGenerated]
   /// @brief Method get_EyeFollowingBlendshapesValid, addr 0x5e1ff90, size 0x8, virtual false, abstract: false, final false
   inline bool get_EyeFollowingBlendshapesValid();
 
@@ -954,6 +959,7 @@ public:
   /// @brief Method get_Item, addr 0x5e2049c, size 0xf8, virtual false, abstract: false, final false
   inline float_t get_Item(::GlobalNamespace::OVRFaceExpressions_FaceExpression expression);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ValidExpressions, addr 0x5e1ff80, size 0x8, virtual false, abstract: false, final false
   inline bool get_ValidExpressions();
 
@@ -971,12 +977,15 @@ public:
 
   static inline void setStaticF__trackingInstanceCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_AreVisemesValid, addr 0x5e1ffa8, size 0x8, virtual false, abstract: false, final false
   inline void set_AreVisemesValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_EyeFollowingBlendshapesValid, addr 0x5e1ff98, size 0x8, virtual false, abstract: false, final false
   inline void set_EyeFollowingBlendshapesValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ValidExpressions, addr 0x5e1ff88, size 0x8, virtual false, abstract: false, final false
   inline void set_ValidExpressions(bool value);
 
@@ -986,13 +995,13 @@ protected:
   constexpr OVRFaceExpressions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRFaceExpressions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRFaceExpressions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRFaceExpressions(OVRFaceExpressions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRFaceExpressions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRFaceExpressions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRFaceExpressions(OVRFaceExpressions const&) = delete;
+  OVRFaceExpressions(OVRFaceExpressionsconst&) = delete;
 
   /// @brief Field FaceTrackingPermission value: I32(0)
   static ::GlobalNamespace::OVRPermissionsRequester_Permission const FaceTrackingPermission;
@@ -1003,15 +1012,18 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7148 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ValidExpressions>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____ValidExpressions_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <EyeFollowingBlendshapesValid>k__BackingField, offset: 0x21, size: 0x1, def value: None
   bool ____EyeFollowingBlendshapesValid_k__BackingField;
 
   /// @brief Field _currentFaceState, offset: 0x28, size: 0x20, def value: None
   ::GlobalNamespace::OVRPlugin_FaceState ____currentFaceState;
 
+  /// [CompilerGenerated]
   /// @brief Field <AreVisemesValid>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____AreVisemesValid_k__BackingField;
 

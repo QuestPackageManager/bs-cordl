@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BlockLevelGameplayAnalyticsEventsCache.hpp"
+// IWYU pragma private; include "GlobalNamespace/BlockLevelGameplayAnalyticsEventsCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,6 +86,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_Bo
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData, "", "BlockLevelGameplayAnalyticsEventsCache/GoodHitBlockData");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData, "", "BlockLevelGameplayAnalyticsEventsCache/MissedBlockData");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData, "", "BlockLevelGameplayAnalyticsEventsCache/ObstacleHitData");
+// [IsReadOnly]
 // Dependencies System.Nullable`1<T>
 namespace GlobalNamespace {
 // Is value type: true
@@ -101,9 +104,10 @@ public:
   // @brief default ctor
   constexpr BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData();
 
-  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Score", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ColorType",
-  // ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "LineIndex", ty:
-  // "::System::Nullable_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "LineLayer", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Score", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "ColorType", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "LineIndex", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "LineLayer", ty: "::System::Nullable_1<uint8_t>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData(float_t Beat, float_t Score, uint8_t ColorType, uint8_t GameplayType, ::System::Nullable_1<uint8_t> LineIndex,
                                                                     ::System::Nullable_1<uint8_t> LineLayer) noexcept;
 
@@ -149,6 +153,7 @@ static_assert(offsetof(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache
 static_assert(sizeof(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies System.Nullable`1<T>
 namespace GlobalNamespace {
 // Is value type: true
@@ -166,9 +171,10 @@ public:
   // @brief default ctor
   constexpr BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData();
 
-  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "FailReason", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "ColorType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "LineIndex", ty:
-  // "::System::Nullable_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "LineLayer", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "FailReason", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "ColorType", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "LineIndex", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "LineLayer", ty: "::System::Nullable_1<uint8_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData(float_t Beat, uint8_t FailReason, uint8_t ColorType, uint8_t GameplayType, ::System::Nullable_1<uint8_t> LineIndex,
                                                                    ::System::Nullable_1<uint8_t> LineLayer) noexcept;
 
@@ -214,6 +220,7 @@ static_assert(offsetof(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache
 static_assert(sizeof(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData) == 0xc, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies System.Nullable`1<T>
 namespace GlobalNamespace {
 // Is value type: true
@@ -231,9 +238,9 @@ public:
   // @brief default ctor
   constexpr BlockLevelGameplayAnalyticsEventsCache_MissedBlockData();
 
-  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ColorType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "GameplayType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "LineIndex", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "LineLayer",
-  // ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ColorType", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "LineIndex", ty: "::System::Nullable_1<uint8_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "LineLayer", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr BlockLevelGameplayAnalyticsEventsCache_MissedBlockData(float_t Beat, uint8_t ColorType, uint8_t GameplayType, ::System::Nullable_1<uint8_t> LineIndex,
                                                                    ::System::Nullable_1<uint8_t> LineLayer) noexcept;
 
@@ -274,6 +281,7 @@ static_assert(offsetof(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache
 static_assert(sizeof(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData) == 0xc, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -291,7 +299,7 @@ public:
   // @brief default ctor
   constexpr BlockLevelGameplayAnalyticsEventsCache_BombHitData();
 
-  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr BlockLevelGameplayAnalyticsEventsCache_BombHitData(float_t Beat) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -311,6 +319,7 @@ static_assert(offsetof(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache
 static_assert(sizeof(::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -328,7 +337,8 @@ public:
   // @brief default ctor
   constexpr BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData();
 
-  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Duration", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Duration", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData(float_t Beat, float_t Duration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -485,13 +495,13 @@ protected:
   constexpr BlockLevelGameplayAnalyticsEventsCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlockLevelGameplayAnalyticsEventsCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockLevelGameplayAnalyticsEventsCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlockLevelGameplayAnalyticsEventsCache(BlockLevelGameplayAnalyticsEventsCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlockLevelGameplayAnalyticsEventsCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockLevelGameplayAnalyticsEventsCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlockLevelGameplayAnalyticsEventsCache(BlockLevelGameplayAnalyticsEventsCache const&) = delete;
+  BlockLevelGameplayAnalyticsEventsCache(BlockLevelGameplayAnalyticsEventsCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6251 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\LightCookieManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/LightCookieManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShaderBitArray_impl.hpp"
@@ -98,7 +98,7 @@ inline int32_t UnityEngine::Rendering::Universal::LightCookieManager_ShaderPrope
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::LightCookieManager_ShaderProperty::LightCookieManager_ShaderProperty() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderFormat::LightCookieManager_LightCookieShaderFormat(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -150,8 +150,8 @@ inline bool UnityEngine::Rendering::Universal::Settings_LightCookieManager_Atlas
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings>(), { "get_isSquare", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "format", ty:
-// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "format", ty:
+// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings::Settings_LightCookieManager_AtlasSettings(
     ::UnityEngine::Vector2Int resolution, ::UnityEngine::Experimental::Rendering::GraphicsFormat format) noexcept {
   this->resolution = resolution;
@@ -176,9 +176,9 @@ inline ::UnityEngine::Rendering::Universal::LightCookieManager_Settings UnityEng
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieManager_Settings>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::LightCookieManager_Settings>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "atlas", ty: "::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "maxAdditionalLights", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cubeOctahedralSizeScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "useStructuredBuffer", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "atlas", ty: "::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "maxAdditionalLights", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cubeOctahedralSizeScale", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "useStructuredBuffer", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::LightCookieManager_Settings::LightCookieManager_Settings(::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings atlas,
                                                                                                         int32_t maxAdditionalLights, float_t cubeOctahedralSizeScale,
                                                                                                         bool useStructuredBuffer) noexcept {
@@ -304,8 +304,8 @@ UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping::getSta
       ::System::Func_3<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping, ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping, int32_t>*,
       "s_CompareByBufferIndex", ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>();
 }
-// Ctor Parameters [CppParam { name: "visibleLightIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightBufferIndex", ty: "uint16_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "light", ty: "::UnityW<::UnityEngine::Light>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "visibleLightIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightBufferIndex", ty: "uint16_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "light", ty: "::UnityW<::UnityEngine::Light>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping::LightCookieManager_LightCookieMapping(uint16_t visibleLightIndex, uint16_t lightBufferIndex,
                                                                                                                             ::UnityW<::UnityEngine::Light> light) noexcept {
   this->visibleLightIndex = visibleLightIndex;
@@ -349,8 +349,8 @@ template <typename T> inline void UnityEngine::Rendering::Universal::LightCookie
                                                                                          { "Sort", {}, { ::i2c::type_of<::System::Func_3<T, T, int32_t>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, compare);
 }
-// Ctor Parameters [CppParam { name: "m_Data", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Start", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Data", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Start", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<T>::LightCookieManager_WorkSlice_1(::ArrayW<T> m_Data, int32_t m_Start, int32_t m_Length) noexcept {
   this->m_Data = m_Data;
   this->m_Start = m_Start;

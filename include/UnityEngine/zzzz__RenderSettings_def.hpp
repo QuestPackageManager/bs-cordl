@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RenderSettings.hpp"
+// IWYU pragma private; include "UnityEngine/RenderSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,9 @@ class RenderSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::RenderSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RenderSettings*, "UnityEngine", "RenderSettings");
+// [StaticAccessor("GetRenderSettings()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [NativeHeader("Runtime/Camera/RenderSettings.h")]
+// [NativeHeader("Runtime/Graphics/QualitySettingsTypes.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -54,6 +57,7 @@ namespace UnityEngine {
 class CORDL_TYPE RenderSettings : public ::UnityEngine::Object {
 public:
   // Declarations
+  /// [FreeFunction("GetRenderSettings")]
   /// @brief Method GetRenderSettings, addr 0x6a917e8, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> GetRenderSettings();
 
@@ -62,6 +66,7 @@ public:
 
   static inline ::UnityEngine::RenderSettings* New_ctor();
 
+  /// [StaticAccessor("RenderSettingsScripting", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method Reset, addr 0x6a91924, size 0x28, virtual false, abstract: false, final false
   static inline void Reset();
 
@@ -92,6 +97,7 @@ public:
   /// @brief Method get_ambientMode, addr 0x6a906dc, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::AmbientMode get_ambientMode();
 
+  /// [NativeMethod("GetFinalAmbientProbe")]
   /// @brief Method get_ambientProbe, addr 0x6a91044, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL2 get_ambientProbe();
 
@@ -221,9 +227,11 @@ public:
   /// @brief Method set_ambientSkyboxAmount, addr 0x6a90328, size 0x38, virtual false, abstract: false, final false
   static inline void set_ambientSkyboxAmount(float_t value);
 
+  /// [NativeThrows]
   /// @brief Method set_customReflection, addr 0x6a91318, size 0x4, virtual false, abstract: false, final false
   static inline void set_customReflection(::UnityEngine::Cubemap* value);
 
+  /// [NativeThrows]
   /// @brief Method set_customReflectionTexture, addr 0x6a9131c, size 0x80, virtual false, abstract: false, final false
   static inline void set_customReflectionTexture(::UnityEngine::Texture* value);
 
@@ -296,13 +304,13 @@ protected:
   constexpr RenderSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderSettings(RenderSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderSettings(RenderSettings const&) = delete;
+  RenderSettings(RenderSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10159 };

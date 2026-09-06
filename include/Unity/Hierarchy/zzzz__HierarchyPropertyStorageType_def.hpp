@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyPropertyStorageType.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyPropertyStorageType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct HierarchyPropertyStorageType;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchyPropertyStorageType);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyPropertyStorageType, "Unity.Hierarchy", "HierarchyPropertyStorageType");
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchyPropertyStorageType.h")]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr HierarchyPropertyStorageType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyPropertyStorageType(int32_t value__) noexcept;
 
   /// @brief Field Blob value: I32(2)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Box.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Box.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ MARK_REF_T(::UnityEngine::UIElements::Box*);
 MARK_REF_T(::UnityEngine::UIElements::Box_UxmlFactory*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Box*, "UnityEngine.UIElements", "Box");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Box_UxmlFactory*, "UnityEngine.UIElements", "Box/UxmlFactory");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`1<TCreatedType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -40,13 +41,13 @@ protected:
   constexpr Box_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Box_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Box_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Box_UxmlFactory(Box_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Box_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Box_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Box_UxmlFactory(Box_UxmlFactory const&) = delete;
+  Box_UxmlFactory(Box_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4141 };
@@ -84,13 +85,13 @@ protected:
   constexpr Box();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Box", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Box", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Box(Box&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Box", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Box", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Box(Box const&) = delete;
+  Box(Boxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4142 };

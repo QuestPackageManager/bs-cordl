@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnableUnpremultipliedAlpha.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnableUnpremultipliedAlpha.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnableUnpremultipliedAlpha_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnableUnpremultipliedAlpha.Start

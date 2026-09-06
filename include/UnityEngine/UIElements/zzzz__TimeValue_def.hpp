@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TimeValue.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TimeValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,8 +113,8 @@ public:
   // @brief default ctor
   constexpr TimeValue();
 
-  // Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::TimeUnit", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::TimeUnit", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TimeValue(float_t m_Value, ::UnityEngine::UIElements::TimeUnit m_Unit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -179,9 +179,11 @@ public:
   /// @brief Method .ctor, addr 0x6c956b4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c95784, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c9577c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -191,20 +193,24 @@ protected:
   constexpr PropertyBag_TimeValue_ValueProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TimeValue_ValueProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TimeValue_ValueProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_TimeValue_ValueProperty(PropertyBag_TimeValue_ValueProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TimeValue_ValueProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TimeValue_ValueProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TimeValue_ValueProperty(PropertyBag_TimeValue_ValueProperty const&) = delete;
+  PropertyBag_TimeValue_ValueProperty(PropertyBag_TimeValue_ValuePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4988 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -258,9 +264,11 @@ public:
   /// @brief Method .ctor, addr 0x6c95718, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c957a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c9579c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -270,20 +278,24 @@ protected:
   constexpr PropertyBag_TimeValue_UnitProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TimeValue_UnitProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TimeValue_UnitProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_TimeValue_UnitProperty(PropertyBag_TimeValue_UnitProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TimeValue_UnitProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TimeValue_UnitProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TimeValue_UnitProperty(PropertyBag_TimeValue_UnitProperty const&) = delete;
+  PropertyBag_TimeValue_UnitProperty(PropertyBag_TimeValue_UnitPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4989 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -319,13 +331,13 @@ protected:
   constexpr TimeValue_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeValue_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeValue_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeValue_PropertyBag(TimeValue_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeValue_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeValue_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeValue_PropertyBag(TimeValue_PropertyBag const&) = delete;
+  TimeValue_PropertyBag(TimeValue_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4990 };

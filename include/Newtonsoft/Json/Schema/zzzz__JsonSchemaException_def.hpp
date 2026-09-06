@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaException.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class JsonSchemaException;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaException*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaException*, "Newtonsoft.Json.Schema", "JsonSchemaException");
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies Newtonsoft.Json.JsonException
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -88,12 +89,15 @@ public:
   /// @brief Method .ctor, addr 0x5d631b8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::StringW path, int32_t lineNumber, int32_t linePosition);
 
+  /// [CompilerGenerated]
   /// @brief Method get_LineNumber, addr 0x5d63180, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LinePosition, addr 0x5d63188, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Path, addr 0x5d63190, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
@@ -103,23 +107,26 @@ protected:
   constexpr JsonSchemaException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaException(JsonSchemaException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaException(JsonSchemaException const&) = delete;
+  JsonSchemaException(JsonSchemaExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13546 };
 
+  /// [CompilerGenerated]
   /// @brief Field <LineNumber>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   int32_t ____LineNumber_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <LinePosition>k__BackingField, offset: 0x90, size: 0x4, def value: None
   int32_t ____LinePosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Path>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::StringW ____Path_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerBigAvatarInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBigAvatarInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,23 +70,26 @@ protected:
   constexpr MultiplayerBigAvatarInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBigAvatarInstaller(MultiplayerBigAvatarInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBigAvatarInstaller(MultiplayerBigAvatarInstaller const&) = delete;
+  MultiplayerBigAvatarInstaller(MultiplayerBigAvatarInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6127 };
 
+  /// [Inject]
   /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
+  /// [Inject]
   /// @brief Field _saberManagerInitData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SaberManager_InitData* ____saberManagerInitData;
 
+  /// [Inject]
   /// @brief Field _playerSpecificSettings, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* ____playerSpecificSettings;
 

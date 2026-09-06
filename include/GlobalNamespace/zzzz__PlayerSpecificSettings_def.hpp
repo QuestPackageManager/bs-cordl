@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerSpecificSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerSpecificSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,9 @@ namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -366,13 +368,13 @@ protected:
   constexpr PlayerSpecificSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSpecificSettings(PlayerSpecificSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSpecificSettings(PlayerSpecificSettings const&) = delete;
+  PlayerSpecificSettings(PlayerSpecificSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15172 };
@@ -380,63 +382,83 @@ public:
   /// @brief Field kHeightBucketMeters offset 0xffffffff size 0x4
   static constexpr float_t kHeightBucketMeters{ static_cast<float_t>(0.1f) };
 
+  /// [SerializeField]
   /// @brief Field _leftHanded, offset: 0x10, size: 0x1, def value: None
   bool ____leftHanded;
 
+  /// [SerializeField]
   /// @brief Field _playerHeight, offset: 0x14, size: 0x4, def value: None
   float_t ____playerHeight;
 
+  /// [SerializeField]
   /// @brief Field _automaticPlayerHeight, offset: 0x18, size: 0x1, def value: None
   bool ____automaticPlayerHeight;
 
+  /// [SerializeField]
   /// @brief Field _sfxVolume, offset: 0x1c, size: 0x4, def value: None
   float_t ____sfxVolume;
 
+  /// [SerializeField]
   /// @brief Field _reduceDebris, offset: 0x20, size: 0x1, def value: None
   bool ____reduceDebris;
 
+  /// [SerializeField]
   /// @brief Field _noTextsAndHuds, offset: 0x21, size: 0x1, def value: None
   bool ____noTextsAndHuds;
 
+  /// [SerializeField]
   /// @brief Field _noFailEffects, offset: 0x22, size: 0x1, def value: None
   bool ____noFailEffects;
 
+  /// [SerializeField]
   /// @brief Field _advancedHud, offset: 0x23, size: 0x1, def value: None
   bool ____advancedHud;
 
+  /// [SerializeField]
   /// @brief Field _autoRestart, offset: 0x24, size: 0x1, def value: None
   bool ____autoRestart;
 
+  /// [SerializeField]
   /// @brief Field _saberTrailIntensity, offset: 0x28, size: 0x4, def value: None
   float_t ____saberTrailIntensity;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpDurationTypeSettings, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::NoteJumpDurationTypeSettings ____noteJumpDurationTypeSettings;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpFixedDuration, offset: 0x30, size: 0x4, def value: None
   float_t ____noteJumpFixedDuration;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpStartBeatOffset, offset: 0x34, size: 0x4, def value: None
   float_t ____noteJumpStartBeatOffset;
 
+  /// [SerializeField]
   /// @brief Field _hideNoteSpawnEffect, offset: 0x38, size: 0x1, def value: None
   bool ____hideNoteSpawnEffect;
 
+  /// [SerializeField]
   /// @brief Field _adaptiveSfx, offset: 0x39, size: 0x1, def value: None
   bool ____adaptiveSfx;
 
+  /// [SerializeField]
   /// @brief Field _arcsHapticFeedback, offset: 0x3a, size: 0x1, def value: None
   bool ____arcsHapticFeedback;
 
+  /// [SerializeField]
   /// @brief Field _arcsVisible, offset: 0x3c, size: 0x4, def value: None
   ::GlobalNamespace::ArcVisibilityType ____arcsVisible;
 
+  /// [SerializeField]
   /// @brief Field _environmentEffectsFilterDefaultPreset, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentEffectsFilterPreset ____environmentEffectsFilterDefaultPreset;
 
+  /// [SerializeField]
   /// @brief Field _environmentEffectsFilterExpertPlusPreset, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentEffectsFilterPreset ____environmentEffectsFilterExpertPlusPreset;
 
+  /// [SerializeField]
   /// @brief Field _headsetHapticIntensity, offset: 0x48, size: 0x4, def value: None
   float_t ____headsetHapticIntensity;
 

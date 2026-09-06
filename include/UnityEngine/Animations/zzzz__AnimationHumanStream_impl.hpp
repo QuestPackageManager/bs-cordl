@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationHumanStream.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationHumanStream.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationHumanStream_def.hpp"
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "stream", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Animations::AnimationHumanStream::AnimationHumanStream(::System::IntPtr stream) noexcept {
   this->stream = stream;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\LoopAndDelay.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/LoopAndDelay.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,23 +77,26 @@ protected:
   constexpr LoopAndDelay_InputProperties();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay_InputProperties", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay_InputProperties", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LoopAndDelay_InputProperties(LoopAndDelay_InputProperties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay_InputProperties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay_InputProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LoopAndDelay_InputProperties(LoopAndDelay_InputProperties const&) = delete;
+  LoopAndDelay_InputProperties(LoopAndDelay_InputPropertiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19923 };
 
+  /// [Tooltip("Number of Loops (< 0 for infinite), evaluated when Context Start is hit")]
   /// @brief Field LoopCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___LoopCount;
 
+  /// [Tooltip("Duration of one loop, evaluated every loop")]
   /// @brief Field LoopDuration, offset: 0x14, size: 0x4, def value: None
   float_t ___LoopDuration;
 
+  /// [Tooltip("Duration of in-between delay (after each loop), evaluated every loop")]
   /// @brief Field Delay, offset: 0x18, size: 0x4, def value: None
   float_t ___Delay;
 
@@ -186,13 +189,13 @@ protected:
   constexpr LoopAndDelay();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LoopAndDelay(LoopAndDelay&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LoopAndDelay(LoopAndDelay const&) = delete;
+  LoopAndDelay(LoopAndDelayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19924 };

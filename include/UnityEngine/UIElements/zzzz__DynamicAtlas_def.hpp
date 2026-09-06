@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DynamicAtlas.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DynamicAtlas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +18,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class LinkedPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
+class LinkedPool_1;
 }
 namespace UnityEngine::UIElements {
 class DynamicAtlasCustomFilter;
@@ -135,13 +137,13 @@ protected:
   constexpr DynamicAtlas_TextureInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas_TextureInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas_TextureInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicAtlas_TextureInfo(DynamicAtlas_TextureInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas_TextureInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas_TextureInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicAtlas_TextureInfo(DynamicAtlas_TextureInfo const&) = delete;
+  DynamicAtlas_TextureInfo(DynamicAtlas_TextureInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4001 };
@@ -351,13 +353,13 @@ protected:
   constexpr DynamicAtlas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicAtlas(DynamicAtlas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicAtlas(DynamicAtlas const&) = delete;
+  DynamicAtlas(DynamicAtlasconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4002 };

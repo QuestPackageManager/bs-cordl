@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Macs\Dstu7624Mac.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/Dstu7624Mac.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -149,13 +149,13 @@ protected:
   constexpr Dstu7624Mac();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dstu7624Mac", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dstu7624Mac", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dstu7624Mac(Dstu7624Mac&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dstu7624Mac", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dstu7624Mac", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dstu7624Mac(Dstu7624Mac const&) = delete;
+  Dstu7624Mac(Dstu7624Macconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 940 };

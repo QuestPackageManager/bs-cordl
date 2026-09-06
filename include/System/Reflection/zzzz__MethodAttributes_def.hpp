@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\MethodAttributes.hpp"
+// IWYU pragma private; include "System/Reflection/MethodAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MethodAttributes;
 // Write type traits
 MARK_VAL_T(::System::Reflection::MethodAttributes);
 DEFINE_IL2CPP_CLASS(::System::Reflection::MethodAttributes, "System.Reflection", "MethodAttributes");
+// [Flags]
 // Dependencies
 namespace System::Reflection {
 // Is value type: true
@@ -64,7 +65,7 @@ public:
   // @brief default ctor
   constexpr MethodAttributes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MethodAttributes(int32_t value__) noexcept;
 
   /// @brief Field Abstract value: I32(1024)

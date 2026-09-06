@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SilhouettePlaneCache.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SilhouettePlaneCache.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
@@ -27,8 +27,9 @@ inline void UnityEngine::Rendering::SilhouettePlaneCache_Slot::_ctor(int32_t vie
                                                                                          { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, viewInstanceID, planeCount, frameIndex);
 }
-// Ctor Parameters [CppParam { name: "isActive", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "planeCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastUsedFrameIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "isActive", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "planeCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastUsedFrameIndex", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SilhouettePlaneCache_Slot::SilhouettePlaneCache_Slot(bool isActive, int32_t viewInstanceID, int32_t planeCount, int32_t lastUsedFrameIndex) noexcept {
   this->isActive = isActive;
   this->viewInstanceID = viewInstanceID;
@@ -138,10 +139,10 @@ constexpr UnityEngine::Rendering::SilhouettePlaneCache::operator ::System::IDisp
 constexpr ::System::IDisposable* UnityEngine::Rendering::SilhouettePlaneCache::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_SubviewIDToIndexMap", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_SlotFreeList", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Slots", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::SilhouettePlaneCache_Slot>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PlaneStorage", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_SubviewIDToIndexMap", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_SlotFreeList", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Slots", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::SilhouettePlaneCache_Slot>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PlaneStorage", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SilhouettePlaneCache::SilhouettePlaneCache(::Unity::Collections::NativeParallelHashMap_2<int32_t, int32_t> m_SubviewIDToIndexMap,
                                                                                ::Unity::Collections::NativeList_1<int32_t> m_SlotFreeList,
                                                                                ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::SilhouettePlaneCache_Slot> m_Slots,

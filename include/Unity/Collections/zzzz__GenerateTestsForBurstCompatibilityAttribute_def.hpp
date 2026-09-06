@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\GenerateTestsForBurstCompatibilityAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/GenerateTestsForBurstCompatibilityAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   // @brief default ctor
   constexpr GenerateTestsForBurstCompatibilityAttribute_BurstCompatibleCompileTarget();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GenerateTestsForBurstCompatibilityAttribute_BurstCompatibleCompileTarget(int32_t value__) noexcept;
 
   /// @brief Field Editor value: I32(1)
@@ -88,6 +88,7 @@ static_assert(offsetof(::Unity::Collections::GenerateTestsForBurstCompatibilityA
 static_assert(sizeof(::Unity::Collections::GenerateTestsForBurstCompatibilityAttribute_BurstCompatibleCompileTarget) == 0x4, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [AttributeUsage((System.AttributeTargets)236, AllowMultiple = true)]
 // Dependencies System.Attribute, System.Type, Unity.Collections.GenerateTestsForBurstCompatibilityAttribute::BurstCompatibleCompileTarget
 namespace Unity::Collections {
 // Is value type: false
@@ -133,9 +134,11 @@ public:
   /// @brief Method .ctor, addr 0x64c2058, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_GenericTypeArguments, addr 0x64c2048, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_GenericTypeArguments();
 
+  /// [CompilerGenerated]
   /// @brief Method set_GenericTypeArguments, addr 0x64c2050, size 0x8, virtual false, abstract: false, final false
   inline void set_GenericTypeArguments(::ArrayW<::System::Type*> value);
 
@@ -145,17 +148,18 @@ protected:
   constexpr GenerateTestsForBurstCompatibilityAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenerateTestsForBurstCompatibilityAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenerateTestsForBurstCompatibilityAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenerateTestsForBurstCompatibilityAttribute(GenerateTestsForBurstCompatibilityAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenerateTestsForBurstCompatibilityAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenerateTestsForBurstCompatibilityAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenerateTestsForBurstCompatibilityAttribute(GenerateTestsForBurstCompatibilityAttribute const&) = delete;
+  GenerateTestsForBurstCompatibilityAttribute(GenerateTestsForBurstCompatibilityAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15624 };
 
+  /// [CompilerGenerated]
   /// @brief Field <GenericTypeArguments>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*> ____GenericTypeArguments_k__BackingField;
 

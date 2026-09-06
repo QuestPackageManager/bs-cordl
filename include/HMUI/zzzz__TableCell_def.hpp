@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\TableCell.hpp"
+// IWYU pragma private; include "HMUI/TableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class TableCell;
 // Write type traits
 MARK_REF_T(::HMUI::TableCell*);
 DEFINE_IL2CPP_CLASS(::HMUI::TableCell*, "HMUI", "TableCell");
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies HMUI.SelectableCell
 namespace HMUI {
 // Is value type: false
@@ -77,6 +78,7 @@ public:
   /// @brief Method .ctor, addr 0x588e5b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_idx, addr 0x588e300, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_idx();
 
@@ -86,6 +88,7 @@ public:
   /// @brief Method get_tableCellOwner, addr 0x588e310, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ITableCellOwner* get_tableCellOwner();
 
+  /// [CompilerGenerated]
   /// @brief Method set_idx, addr 0x588e308, size 0x8, virtual false, abstract: false, final false
   inline void set_idx(int32_t value);
 
@@ -98,17 +101,18 @@ protected:
   constexpr TableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TableCell(TableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TableCell(TableCell const&) = delete;
+  TableCell(TableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19129 };
 
+  /// [CompilerGenerated]
   /// @brief Field <idx>k__BackingField, offset: 0x64, size: 0x4, def value: None
   int32_t ____idx_k__BackingField;
 

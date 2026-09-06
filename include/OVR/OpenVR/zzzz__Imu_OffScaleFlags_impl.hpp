@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\Imu_OffScaleFlags.hpp"
+// IWYU pragma private; include "OVR/OpenVR/Imu_OffScaleFlags.hpp"
 #include "OVR/OpenVR/zzzz__Imu_OffScaleFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::Imu_OffScaleFlags::Imu_OffScaleFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

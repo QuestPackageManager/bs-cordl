@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PaniniProjection.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PaniniProjection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class PaniniProjection;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::PaniniProjection*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::PaniniProjection*, "UnityEngine.Rendering.Universal", "PaniniProjection");
+// [VolumeComponentMenu("Post-processing/Panini Projection")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -37,6 +39,7 @@ public:
   /// @brief Method IsActive, addr 0x687f254, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687f284, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -66,20 +69,22 @@ protected:
   constexpr PaniniProjection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PaniniProjection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PaniniProjection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PaniniProjection(PaniniProjection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PaniniProjection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PaniniProjection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PaniniProjection(PaniniProjection const&) = delete;
+  PaniniProjection(PaniniProjectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12806 };
 
+  /// [Tooltip("Panini projection distance.")]
   /// @brief Field distance, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___distance;
 
+  /// [Tooltip("Panini projection crop to fit.")]
   /// @brief Field cropToFit, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___cropToFit;
 

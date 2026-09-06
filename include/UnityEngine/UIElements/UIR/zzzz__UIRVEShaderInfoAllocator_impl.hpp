@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\UIRVEShaderInfoAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/UIRVEShaderInfoAllocator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BitmapAllocator32_impl.hpp"

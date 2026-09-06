@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerRecorderOptions.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerRecorderOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ProfilerRecorderOptions;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::ProfilerRecorderOptions);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::ProfilerRecorderOptions, "Unity.Profiling", "ProfilerRecorderOptions");
+// [Flags]
 // Dependencies
 namespace Unity::Profiling {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr ProfilerRecorderOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerRecorderOptions(int32_t value__) noexcept;
 
   /// @brief Field CollectOnlyOnCurrentThread value: I32(4)

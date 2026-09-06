@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DateTime.hpp"
+// IWYU pragma private; include "System/DateTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,6 +79,7 @@ struct DateTime;
 // Write type traits
 MARK_VAL_T(::System::DateTime);
 DEFINE_IL2CPP_CLASS(::System::DateTime, "System", "DateTime");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -492,7 +493,7 @@ public:
   // @brief default ctor
   constexpr DateTime();
 
-  // Ctor Parameters [CppParam { name: "_dateData", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_dateData", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr DateTime(uint64_t _dateData) noexcept;
 
   /// @brief Field DateDataField offset 0xffffffff size 0x8

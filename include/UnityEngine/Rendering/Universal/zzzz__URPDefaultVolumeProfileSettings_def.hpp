@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\URPDefaultVolumeProfileSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/URPDefaultVolumeProfileSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   // @brief default ctor
   constexpr URPDefaultVolumeProfileSettings_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr URPDefaultVolumeProfileSettings_Version(int32_t value__) noexcept;
 
   /// @brief Field Initial value: I32(0)
@@ -82,6 +82,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::URPDefaultVolumeProf
 static_assert(sizeof(::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "Volume", Order = 0)]
 // Dependencies System.Object, UnityEngine.Rendering.Universal.URPDefaultVolumeProfileSettings::Version
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -145,20 +147,23 @@ protected:
   constexpr URPDefaultVolumeProfileSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "URPDefaultVolumeProfileSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "URPDefaultVolumeProfileSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   URPDefaultVolumeProfileSettings(URPDefaultVolumeProfileSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "URPDefaultVolumeProfileSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "URPDefaultVolumeProfileSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  URPDefaultVolumeProfileSettings(URPDefaultVolumeProfileSettings const&) = delete;
+  URPDefaultVolumeProfileSettings(URPDefaultVolumeProfileSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12952 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings_Version ___m_Version;
 
+  /// [SerializeField]
   /// @brief Field m_VolumeProfile, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::VolumeProfile> ___m_VolumeProfile;
 

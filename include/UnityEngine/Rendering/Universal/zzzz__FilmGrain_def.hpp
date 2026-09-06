@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\FilmGrain.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/FilmGrain.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class FilmGrain;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::FilmGrain*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::FilmGrain*, "UnityEngine.Rendering.Universal", "FilmGrain");
+// [VolumeComponentMenu("Post-processing/Film Grain")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -49,6 +51,7 @@ public:
   /// @brief Method IsActive, addr 0x687eac0, size 0xdc, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687eb9c, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -90,26 +93,30 @@ protected:
   constexpr FilmGrain();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FilmGrain", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FilmGrain", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FilmGrain(FilmGrain&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FilmGrain", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FilmGrain", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FilmGrain(FilmGrain const&) = delete;
+  FilmGrain(FilmGrainconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12797 };
 
+  /// [Tooltip("The type of grain to use. You can select a preset or provide your own texture by selecting Custom.")]
   /// @brief Field type, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::FilmGrainLookupParameter* ___type;
 
+  /// [Tooltip("Use the slider to set the strength of the Film Grain effect.")]
   /// @brief Field intensity, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___intensity;
 
+  /// [Tooltip("Controls the noisiness response curve based on scene luminance. Higher values mean less noise in light areas.")]
   /// @brief Field response, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___response;
 
+  /// [Tooltip("A tileable texture to use for the grain. The neutral value is 0.5 where no grain is applied.")]
   /// @brief Field texture, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::NoInterpTextureParameter* ___texture;
 

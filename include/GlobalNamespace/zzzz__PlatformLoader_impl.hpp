@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformLoader.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncLoader_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
@@ -126,11 +126,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "platform", ty: "::OculusStudios::Platform::Core::IPlatform*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "analyticsManager", ty: "::UnityW<::OSCE::Analytics::AnalyticsManager>", modifiers: "", def_value: Some("{}") }, CppParam { name: "telemetry", ty:
-// "::Analytics::Model::TelemetryModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "platform", ty: "::OculusStudios::Platform::Core::IPlatform*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "analyticsManager", ty: "::UnityW<::OSCE::Analytics::AnalyticsManager>", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "telemetry", ty: "::Analytics::Model::TelemetryModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15::PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::OculusStudios::Platform::Core::IPlatform* platform,
     ::UnityW<::OSCE::Analytics::AnalyticsManager> analyticsManager, ::Analytics::Model::TelemetryModel* telemetry, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
@@ -189,10 +189,10 @@ constexpr GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13::
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13::PlatformLoader__InitializeMockedPlatformAsync_d__13(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PlatformLoader> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__1) noexcept {
@@ -248,12 +248,12 @@ constexpr GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11::operat
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "useMock", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers: "", def_value: Some("{}") }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "useMock", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "container", ty:
+// "::Zenject::DiContainer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11::PlatformLoader__InitializePlatformAsync_d__11(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, bool useMock, ::UnityW<::GlobalNamespace::PlatformLoader> __4__this,
     ::Zenject::DiContainer* container, ::System::Diagnostics::Stopwatch* _stopwatch_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
@@ -312,11 +312,12 @@ constexpr GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10::operator ::S
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "registry", ty:
-// "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_useMock_5__2", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::PlatformLoader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "registry", ty: "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_useMock_5__2", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10::PlatformLoader__LoadInternalAsync_d__10(int32_t __1__state,
                                                                                                               ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                               ::UnityW<::GlobalNamespace::PlatformLoader> __4__this, ::Zenject::DiContainer* container,

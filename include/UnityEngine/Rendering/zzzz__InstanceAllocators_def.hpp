@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceAllocators.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceAllocators.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,9 +64,9 @@ public:
   // @brief default ctor
   constexpr InstanceAllocators();
 
-  // Ctor Parameters [CppParam { name: "m_InstanceAlloc_MeshRenderer", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None }, CppParam { name:
-  // "m_InstanceAlloc_SpeedTree", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None }, CppParam { name: "m_SharedInstanceAlloc", ty:
-  // "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_InstanceAlloc_MeshRenderer", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_InstanceAlloc_SpeedTree", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SharedInstanceAlloc", ty:
+  // "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceAllocators(::UnityEngine::Rendering::InstanceAllocator m_InstanceAlloc_MeshRenderer, ::UnityEngine::Rendering::InstanceAllocator m_InstanceAlloc_SpeedTree,
                                ::UnityEngine::Rendering::InstanceAllocator m_SharedInstanceAlloc) noexcept;
 

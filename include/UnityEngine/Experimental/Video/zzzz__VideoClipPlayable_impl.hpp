@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Video\VideoClipPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Video/VideoClipPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Experimental/Video/zzzz__VideoClipPlayable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -58,7 +58,7 @@ constexpr ::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPl
 UnityEngine::Experimental::Video::VideoClipPlayable::i___System__IEquatable_1___UnityEngine__Experimental__Video__VideoClipPlayable_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Experimental::Video::VideoClipPlayable::VideoClipPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept {
   this->m_Handle = m_Handle;
 }

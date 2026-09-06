@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ProviderBindingFinalizer.hpp"
+// IWYU pragma private; include "Zenject/ProviderBindingFinalizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ MARK_REF_T(::Zenject::ProviderBindingFinalizer*);
 MARK_REF_T(::Zenject::ProviderBindingFinalizer___c*);
 DEFINE_IL2CPP_CLASS(::Zenject::ProviderBindingFinalizer*, "Zenject", "ProviderBindingFinalizer");
 DEFINE_IL2CPP_CLASS(::Zenject::ProviderBindingFinalizer___c*, "Zenject", "ProviderBindingFinalizer/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -91,6 +92,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e670a4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e670e8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -119,13 +121,13 @@ protected:
   constexpr ProviderBindingFinalizer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProviderBindingFinalizer___c(ProviderBindingFinalizer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProviderBindingFinalizer___c(ProviderBindingFinalizer___c const&) = delete;
+  ProviderBindingFinalizer___c(ProviderBindingFinalizer___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14319 };
@@ -136,6 +138,7 @@ public:
 static_assert(sizeof(::Zenject::ProviderBindingFinalizer___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -166,7 +169,7 @@ public:
 
   static inline ::Zenject::ProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method OnFinalizeBinding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   /// @brief Method RegisterProvider, addr 0x6e66504, size 0x2b4, virtual false, abstract: false, final false
@@ -210,6 +213,7 @@ public:
   /// @brief Method .ctor, addr 0x6e632d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BindInfo, addr 0x6e65d70, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::BindInfo* get_BindInfo();
 
@@ -219,6 +223,7 @@ public:
   /// @brief Convert to "::Zenject::IBindingFinalizer"
   constexpr ::Zenject::IBindingFinalizer* i___Zenject__IBindingFinalizer() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_BindInfo, addr 0x6e65d78, size 0x8, virtual false, abstract: false, final false
   inline void set_BindInfo(::Zenject::BindInfo* value);
 
@@ -228,13 +233,13 @@ protected:
   constexpr ProviderBindingFinalizer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProviderBindingFinalizer(ProviderBindingFinalizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProviderBindingFinalizer(ProviderBindingFinalizer const&) = delete;
+  ProviderBindingFinalizer(ProviderBindingFinalizerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14320 };
@@ -242,6 +247,7 @@ public:
   /// @brief Field _skipDisposableForIfNotBound, offset: 0x10, size: 0x1, def value: None
   bool ____skipDisposableForIfNotBound;
 
+  /// [CompilerGenerated]
   /// @brief Field <BindInfo>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Zenject::BindInfo* ____BindInfo_k__BackingField;
 

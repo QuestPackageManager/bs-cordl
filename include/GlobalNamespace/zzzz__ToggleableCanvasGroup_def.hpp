@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ToggleableCanvasGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/ToggleableCanvasGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class ToggleableCanvasGroup;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ToggleableCanvasGroup*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ToggleableCanvasGroup*, "", "ToggleableCanvasGroup");
+// [RequireComponent(typeof(UnityEngine.CanvasGroup))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -75,23 +76,27 @@ protected:
   constexpr ToggleableCanvasGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleableCanvasGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleableCanvasGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleableCanvasGroup(ToggleableCanvasGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleableCanvasGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleableCanvasGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleableCanvasGroup(ToggleableCanvasGroup const&) = delete;
+  ToggleableCanvasGroup(ToggleableCanvasGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19014 };
 
+  /// [SerializeField]
   /// @brief Field _canvasGroup, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _toggle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _invertToggle, offset: 0x30, size: 0x1, def value: None
   bool ____invertToggle;
 

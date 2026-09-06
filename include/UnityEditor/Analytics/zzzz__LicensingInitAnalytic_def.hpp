@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\LicensingInitAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/LicensingInitAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ class LicensingInitAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::LicensingInitAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::LicensingInitAnalytic*, "UnityEditor.Analytics", "LicensingInitAnalytic");
+// [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -42,6 +44,7 @@ public:
   /// @brief Field sessionId, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_sessionId, put = __cordl_internal_set_sessionId)) ::StringW sessionId;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateLicensingInitAnalytic, addr 0x6e24ff4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::LicensingInitAnalytic* CreateLicensingInitAnalytic();
 
@@ -98,13 +101,13 @@ protected:
   constexpr LicensingInitAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LicensingInitAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LicensingInitAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LicensingInitAnalytic(LicensingInitAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LicensingInitAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LicensingInitAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LicensingInitAnalytic(LicensingInitAnalytic const&) = delete;
+  LicensingInitAnalytic(LicensingInitAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23003 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalUpdateCachedSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalUpdateCachedSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem*);
 MARK_VAL_T(::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem*, "UnityEngine.Rendering.Universal", "DecalUpdateCachedSystem");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob, "UnityEngine.Rendering.Universal", "DecalUpdateCachedSystem/UpdateTransformsJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Mathematics.float3, Unity.Mathematics.float4x4, Unity.Mathematics.quaternion, UnityEngine.BoundingSphere,
 // UnityEngine.Rendering.Universal.DecalScaleMode
 namespace UnityEngine::Rendering::Universal {
@@ -90,14 +91,15 @@ public:
   // @brief default ctor
   constexpr DecalUpdateCachedSystem_UpdateTransformsJob();
 
-  // Ctor Parameters [CppParam { name: "positions", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3>", modifiers: "", def_value: None }, CppParam { name: "rotations", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::quaternion>", modifiers: "", def_value: None }, CppParam { name: "scales", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3>", modifiers: "", def_value: None }, CppParam { name: "dirty", ty: "::Unity::Collections::NativeArray_1<bool>", modifiers: "",
-  // def_value: None }, CppParam { name: "scaleModes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalScaleMode>", modifiers: "", def_value: None }, CppParam {
-  // name: "sizeOffsets", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "decalToWorlds", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "normalToWorlds", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "boundingSpheres", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::BoundingSphere>", modifiers: "", def_value: None }, CppParam { name: "minDistance", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "positions", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "rotations", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::quaternion>", modifiers: "", def_value: None, comment: None }, CppParam { name: "scales", ty:
+  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "dirty", ty: "::Unity::Collections::NativeArray_1<bool>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "scaleModes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalScaleMode>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "sizeOffsets", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "decalToWorlds", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "normalToWorlds",
+  // ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "boundingSpheres", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::BoundingSphere>", modifiers: "", def_value: None, comment: None }, CppParam { name: "minDistance", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr DecalUpdateCachedSystem_UpdateTransformsJob(::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3> positions,
                                                         ::Unity::Collections::NativeArray_1<::Unity::Mathematics::quaternion> rotations,
                                                         ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float3> scales, ::Unity::Collections::NativeArray_1<bool> dirty,
@@ -125,18 +127,23 @@ public:
   /// @brief Field dirty, offset: 0x30, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<bool> dirty;
 
+  /// [ReadOnly]
   /// @brief Field scaleModes, offset: 0x40, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalScaleMode> scaleModes;
 
+  /// [ReadOnly]
   /// @brief Field sizeOffsets, offset: 0x50, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> sizeOffsets;
 
+  /// [WriteOnly]
   /// @brief Field decalToWorlds, offset: 0x60, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> decalToWorlds;
 
+  /// [WriteOnly]
   /// @brief Field normalToWorlds, offset: 0x70, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> normalToWorlds;
 
+  /// [WriteOnly]
   /// @brief Field boundingSpheres, offset: 0x80, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::BoundingSphere> boundingSpheres;
 
@@ -222,13 +229,13 @@ protected:
   constexpr DecalUpdateCachedSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalUpdateCachedSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalUpdateCachedSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalUpdateCachedSystem(DecalUpdateCachedSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalUpdateCachedSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalUpdateCachedSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalUpdateCachedSystem(DecalUpdateCachedSystem const&) = delete;
+  DecalUpdateCachedSystem(DecalUpdateCachedSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12705 };

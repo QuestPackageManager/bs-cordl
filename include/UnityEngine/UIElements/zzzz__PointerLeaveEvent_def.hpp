@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerLeaveEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerLeaveEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::UnityEngine::UIElements::PointerLeaveEvent*);
 MARK_REF_T(::UnityEngine::UIElements::PointerLeaveEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerLeaveEvent*, "UnityEngine.UIElements", "PointerLeaveEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerLeaveEvent___c*, "UnityEngine.UIElements", "PointerLeaveEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -55,13 +56,13 @@ protected:
   constexpr PointerLeaveEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerLeaveEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerLeaveEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerLeaveEvent___c(PointerLeaveEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerLeaveEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerLeaveEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerLeaveEvent___c(PointerLeaveEvent___c const&) = delete;
+  PointerLeaveEvent___c(PointerLeaveEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4552 };
@@ -72,6 +73,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::PointerLeaveEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)4)]
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -104,13 +106,13 @@ protected:
   constexpr PointerLeaveEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerLeaveEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerLeaveEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerLeaveEvent(PointerLeaveEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerLeaveEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerLeaveEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerLeaveEvent(PointerLeaveEvent const&) = delete;
+  PointerLeaveEvent(PointerLeaveEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4553 };

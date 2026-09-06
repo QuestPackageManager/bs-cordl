@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\AvatarDataModel.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarDataModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,6 +69,7 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::BeatAvatarSDK::AvatarDataModel*, "BeatSaber.Bea
 DEFINE_IL2CPP_CLASS(::BeatSaber::BeatAvatarSDK::AvatarDataModel__DeleteAsyncInternal_d__23, "BeatSaber.BeatAvatarSDK", "AvatarDataModel/<DeleteAsyncInternal>d__23");
 DEFINE_IL2CPP_CLASS(::BeatSaber::BeatAvatarSDK::AvatarDataModel__LoadInternalAsync_d__19, "BeatSaber.BeatAvatarSDK", "AvatarDataModel/<LoadInternalAsync>d__19");
 DEFINE_IL2CPP_CLASS(::BeatSaber::BeatAvatarSDK::AvatarDataModel__SaveInternalAsync_d__17, "BeatSaber.BeatAvatarSDK", "AvatarDataModel/<SaveInternalAsync>d__17");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: true
@@ -82,6 +83,7 @@ public:
   /// @brief Method MoveNext, addr 0x327b49c, size 0x2ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x327b748, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -92,9 +94,10 @@ public:
   // @brief default ctor
   constexpr AvatarDataModel__DeleteAsyncInternal_d__23();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::BeatAvatarSDK::AvatarDataModel*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::BeatAvatarSDK::AvatarDataModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr AvatarDataModel__DeleteAsyncInternal_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                        ::BeatSaber::BeatAvatarSDK::AvatarDataModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -130,6 +133,7 @@ static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarDataModel__DeleteAsyncI
 static_assert(sizeof(::BeatSaber::BeatAvatarSDK::AvatarDataModel__DeleteAsyncInternal_d__23) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: true
@@ -143,6 +147,7 @@ public:
   /// @brief Method MoveNext, addr 0x327b7c8, size 0x26c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x327ba34, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -153,10 +158,10 @@ public:
   // @brief default ctor
   constexpr AvatarDataModel__LoadInternalAsync_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::BeatAvatarSDK::AvatarDataModel*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::BeatAvatarSDK::AvatarDataModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>", modifiers: "", def_value: None, comment: None }]
   constexpr AvatarDataModel__LoadInternalAsync_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                      ::BeatSaber::BeatAvatarSDK::AvatarDataModel* __4__this,
                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::BeatAvatarSDK::AvatarSaveData*> __u__1) noexcept;
@@ -193,6 +198,7 @@ static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarDataModel__LoadInternal
 static_assert(sizeof(::BeatSaber::BeatAvatarSDK::AvatarDataModel__LoadInternalAsync_d__19) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: true
@@ -206,6 +212,7 @@ public:
   /// @brief Method MoveNext, addr 0x327bab4, size 0x394, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x327be4c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -216,9 +223,10 @@ public:
   // @brief default ctor
   constexpr AvatarDataModel__SaveInternalAsync_d__17();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::BeatAvatarSDK::AvatarDataModel*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::BeatAvatarSDK::AvatarDataModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr AvatarDataModel__SaveInternalAsync_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                      ::BeatSaber::BeatAvatarSDK::AvatarDataModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -297,9 +305,12 @@ public:
   /// @brief Method DeleteAsync, addr 0x327b1a0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DeleteAsync();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.BeatAvatarSDK.AvatarDataModel::<DeleteAsyncInternal>d__23))]
   /// @brief Method DeleteAsyncInternal, addr 0x327b1b8, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* DeleteAsyncInternal();
 
+  /// [Inject]
+  /// [UsedImplicitly]
   /// @brief Method Init, addr 0x327ac68, size 0xf4, virtual false, abstract: false, final false
   inline void Init();
 
@@ -315,6 +326,7 @@ public:
   /// @brief Method LoadFromSaveDataAsync, addr 0x327af4c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>* LoadFromSaveDataAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.BeatAvatarSDK.AvatarDataModel::<LoadInternalAsync>d__19))]
   /// @brief Method LoadInternalAsync, addr 0x327ae70, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* LoadInternalAsync();
 
@@ -329,6 +341,7 @@ public:
   /// @brief Method SaveAsync, addr 0x327ad64, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.BeatAvatarSDK.AvatarDataModel::<SaveInternalAsync>d__17))]
   /// @brief Method SaveInternalAsync, addr 0x327ad7c, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* SaveInternalAsync();
 
@@ -371,18 +384,22 @@ public:
   /// @brief Method .ctor, addr 0x327b420, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didChangeAvatarDataEvent, addr 0x327a990, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSaveAvatarDataEvent, addr 0x327ab10, size 0xac, virtual false, abstract: false, final false
   inline void add_didSaveAvatarDataEvent(::System::Action* value);
 
   /// @brief Method get_avatarData, addr 0x327a8f0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarData* get_avatarData();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didChangeAvatarDataEvent, addr 0x327aa50, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSaveAvatarDataEvent, addr 0x327abbc, size 0xac, virtual false, abstract: false, final false
   inline void remove_didSaveAvatarDataEvent(::System::Action* value);
 
@@ -395,13 +412,13 @@ protected:
   constexpr AvatarDataModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarDataModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarDataModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarDataModel(AvatarDataModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarDataModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarDataModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarDataModel(AvatarDataModel const&) = delete;
+  AvatarDataModel(AvatarDataModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22330 };
@@ -409,15 +426,19 @@ public:
   /// @brief Field kAvatarDataFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kAvatarDataFileName{ u"AvatarData.dat" };
 
+  /// [CompilerGenerated]
   /// @brief Field didChangeAvatarDataEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* ___didChangeAvatarDataEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didSaveAvatarDataEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___didSaveAvatarDataEvent;
 
+  /// [Inject]
   /// @brief Field _avatarPartsModel, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* ____avatarPartsModel;
 
+  /// [Inject]
   /// @brief Field _fileStorage, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ____fileStorage;
 

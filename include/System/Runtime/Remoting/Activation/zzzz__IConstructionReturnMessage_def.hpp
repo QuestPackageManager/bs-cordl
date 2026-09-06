@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Activation\IConstructionReturnMessage.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Activation/IConstructionReturnMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class IConstructionReturnMessage;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Activation::IConstructionReturnMessage*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Activation::IConstructionReturnMessage*, "System.Runtime.Remoting.Activation", "IConstructionReturnMessage");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
@@ -45,9 +46,9 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IConstructionReturnMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IConstructionReturnMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IConstructionReturnMessage(IConstructionReturnMessage const&) = delete;
+  IConstructionReturnMessage(IConstructionReturnMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3151 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ComboUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ComboUIController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class ComboUIController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ComboUIController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ComboUIController*, "", "ComboUIController");
+// [AddComponentMenu("Beat Saber/Gameplay/ComboUIController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -106,23 +107,26 @@ protected:
   constexpr ComboUIController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ComboUIController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComboUIController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComboUIController(ComboUIController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ComboUIController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComboUIController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ComboUIController(ComboUIController const&) = delete;
+  ComboUIController(ComboUIControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6005 };
 
+  /// [SerializeField]
   /// @brief Field _comboText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____comboText;
 
+  /// [SerializeField]
   /// @brief Field _animator, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 
+  /// [Inject]
   /// @brief Field _comboController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IComboController* ____comboController;
 

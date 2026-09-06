@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ComponentExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ComponentExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "GlobalNamespace/zzzz__ComponentExtensions_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
-template <typename T> inline T GlobalNamespace::ComponentExtensions::GetComponentInParentOnly(::UnityEngine::Component* c) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T GlobalNamespace::ComponentExtensions::GetComponentInParentOnly(::UnityEngine::Component* c) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComponentExtensions*>(), { "GetComponentInParentOnly", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Component*>() } })));

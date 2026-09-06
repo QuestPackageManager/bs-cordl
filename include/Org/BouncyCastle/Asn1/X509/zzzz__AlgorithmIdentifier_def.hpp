@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\AlgorithmIdentifier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/AlgorithmIdentifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ public:
   // Declarations
   __declspec(property(get = get_Algorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Algorithm;
 
+  /// @brief [Obsolete("Use \'Algorithm\' property instead")]
   __declspec(property(get = get_ObjectID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ObjectID;
 
   __declspec(property(get = get_Parameters)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Parameters;
@@ -60,6 +61,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
+  /// @brief [Obsolete("Use version taking a DerObjectIdentifier")]
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* New_ctor(::StringW algorithm);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -85,6 +87,7 @@ public:
   /// @brief Method .ctor, addr 0x3462740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
+  /// [Obsolete("Use version taking a DerObjectIdentifier")]
   /// @brief Method .ctor, addr 0x34626d4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm);
 
@@ -106,13 +109,13 @@ protected:
   constexpr AlgorithmIdentifier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlgorithmIdentifier(AlgorithmIdentifier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlgorithmIdentifier(AlgorithmIdentifier const&) = delete;
+  AlgorithmIdentifier(AlgorithmIdentifierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 235 };

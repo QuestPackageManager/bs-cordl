@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceComponentDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceComponentDesc.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceComponentGroup_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceType_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceComponentDesc_def.hpp"
@@ -33,10 +33,10 @@ inline void UnityEngine::Rendering::GPUInstanceComponentDesc::_ctor(int32_t inPr
                                                                ::i2c::type_of<::UnityEngine::Rendering::InstanceType>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceComponentGroup>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, inPropertyID, inByteSize, inIsOverriden, inPerInstance, inInstanceType, inComponentType);
 }
-// Ctor Parameters [CppParam { name: "propertyID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "byteSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "isOverriden", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPerInstance", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceType", ty:
-// "::UnityEngine::Rendering::InstanceType", modifiers: "", def_value: Some("{}") }, CppParam { name: "componentGroup", ty: "::UnityEngine::Rendering::InstanceComponentGroup", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "propertyID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "byteSize", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "isOverriden", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isPerInstance", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "instanceType", ty: "::UnityEngine::Rendering::InstanceType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "componentGroup", ty: "::UnityEngine::Rendering::InstanceComponentGroup", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUInstanceComponentDesc::GPUInstanceComponentDesc(int32_t propertyID, int32_t byteSize, bool isOverriden, bool isPerInstance,
                                                                                        ::UnityEngine::Rendering::InstanceType instanceType,
                                                                                        ::UnityEngine::Rendering::InstanceComponentGroup componentGroup) noexcept {

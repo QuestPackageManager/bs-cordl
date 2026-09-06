@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerSettingsPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerSettingsPanelController.hpp"
 #include "GlobalNamespace/zzzz__ArcVisibilityType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
@@ -22,7 +22,7 @@
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout::PlayerSettingsPanelController_PlayerSettingsPanelLayout(int32_t value__) noexcept {
   this->value__ = value__;
 }

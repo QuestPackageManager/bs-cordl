@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScoreUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScoreUIController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   // @brief default ctor
   constexpr ScoreUIController_ScoreDisplayType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScoreUIController_ScoreDisplayType(int32_t value__) noexcept;
 
   /// @brief Field ModifiedScore value: I32(1)
@@ -122,13 +122,13 @@ protected:
   constexpr ScoreUIController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreUIController_InitData(ScoreUIController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreUIController_InitData(ScoreUIController_InitData const&) = delete;
+  ScoreUIController_InitData(ScoreUIController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6017 };
@@ -144,6 +144,7 @@ static_assert(offsetof(::GlobalNamespace::ScoreUIController_InitData, ___scoreDi
 static_assert(sizeof(::GlobalNamespace::ScoreUIController_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/ScoreUIController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -229,13 +230,13 @@ protected:
   constexpr ScoreUIController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreUIController(ScoreUIController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreUIController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreUIController(ScoreUIController const&) = delete;
+  ScoreUIController(ScoreUIControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6019 };
@@ -243,12 +244,15 @@ public:
   /// @brief Field kMaxNumberOfDigits offset 0xffffffff size 0x4
   static constexpr int32_t kMaxNumberOfDigits{ static_cast<int32_t>(0x9) };
 
+  /// [SerializeField]
   /// @brief Field _scoreText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
+  /// [Inject]
   /// @brief Field _scoreController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;
 
+  /// [InjectOptional]
   /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ScoreUIController_InitData* ____initData;
 

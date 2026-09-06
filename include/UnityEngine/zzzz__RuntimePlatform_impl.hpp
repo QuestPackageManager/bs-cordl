@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RuntimePlatform.hpp"
+// IWYU pragma private; include "UnityEngine/RuntimePlatform.hpp"
 #include "UnityEngine/zzzz__RuntimePlatform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RuntimePlatform::RuntimePlatform(int32_t value__) noexcept {
   this->value__ = value__;
 }

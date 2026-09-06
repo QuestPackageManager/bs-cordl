@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEventStream.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventStream.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventStream_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_def.hpp"
@@ -210,14 +210,15 @@ inline ::UnityEngine::InputSystem::LowLevel::InputEvent* UnityEngine::InputSyste
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputEventStream>(), { "Peek", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputEvent*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_NativeBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_CurrentNativeEventReadPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentNativeEventWritePtr", ty:
-// "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RemainingNativeEventCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_MaxAppendedEvents", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AppendBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentAppendEventReadPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_CurrentAppendEventWritePtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RemainingAppendEventCount", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NumEventsRetainedInBuffer", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IsOpen", ty: "bool", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_NativeBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_CurrentNativeEventReadPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentNativeEventWritePtr", ty:
+// "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RemainingNativeEventCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_MaxAppendedEvents", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AppendBuffer", ty:
+// "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentAppendEventReadPtr", ty:
+// "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentAppendEventWritePtr", ty:
+// "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RemainingAppendEventCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_NumEventsRetainedInBuffer", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IsOpen", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventStream::InputEventStream(::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_NativeBuffer,
                                                                                    ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentNativeEventReadPtr,
                                                                                    ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentNativeEventWritePtr, int32_t m_RemainingNativeEventCount,

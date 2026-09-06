@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\SurrogateChar.hpp"
+// IWYU pragma private; include "System/Text/SurrogateChar.hpp"
 #include "System/Text/zzzz__SurrogateChar_def.hpp"
 //  Writing Method size for method: ::System::Text::SurrogateChar._ctor
 template <>
@@ -83,7 +83,8 @@ inline int32_t System::Text::SurrogateChar::get_Char() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::SurrogateChar>(), { "get_Char", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "lowChar", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "highChar", ty: "char16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "lowChar", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "highChar", ty: "char16_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::Text::SurrogateChar::SurrogateChar(char16_t lowChar, char16_t highChar) noexcept {
   this->lowChar = lowChar;
   this->highChar = highChar;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\MacOsStructs\in6_addr.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/MacOsStructs/in6_addr.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   // @brief default ctor
   constexpr in6_addr();
 
-  // Ctor Parameters [CppParam { name: "u6_addr8", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "u6_addr8", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr in6_addr(::ArrayW<uint8_t> u6_addr8) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

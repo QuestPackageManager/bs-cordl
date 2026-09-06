@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\SynchronizationContextAwaitTaskContinuation.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/SynchronizationContextAwaitTaskContinuation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuati
 MARK_REF_T(::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation___c*);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation");
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation___c*, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr SynchronizationContextAwaitTaskContinuation___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SynchronizationContextAwaitTaskContinuation___c(SynchronizationContextAwaitTaskContinuation___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SynchronizationContextAwaitTaskContinuation___c(SynchronizationContextAwaitTaskContinuation___c const&) = delete;
+  SynchronizationContextAwaitTaskContinuation___c(SynchronizationContextAwaitTaskContinuation___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2819 };
@@ -137,13 +138,13 @@ protected:
   constexpr SynchronizationContextAwaitTaskContinuation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwaitTaskContinuation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwaitTaskContinuation const&) = delete;
+  SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwaitTaskContinuationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2820 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\ClassInterfaceType.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/ClassInterfaceType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ClassInterfaceType;
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::ClassInterfaceType);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::ClassInterfaceType, "System.Runtime.InteropServices", "ClassInterfaceType");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ClassInterfaceType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ClassInterfaceType(int32_t value__) noexcept;
 
   /// @brief Field AutoDispatch value: I32(1)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\NegativeIntegerDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/NegativeIntegerDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__LongDataContract_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__NegativeIntegerDataContract_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::NegativeIntegerDataContract._ctor

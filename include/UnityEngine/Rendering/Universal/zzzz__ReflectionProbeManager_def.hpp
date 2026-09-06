@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ReflectionProbeManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ReflectionProbeManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,6 +84,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::CachedProbe_ReflectionP
                     "ReflectionProbeManager/CachedProbe/<levels>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ReflectionProbeManager, "UnityEngine.Rendering.Universal", "ReflectionProbeManager");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ReflectionProbeManager_CachedProbe, "UnityEngine.Rendering.Universal", "ReflectionProbeManager/CachedProbe");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -96,7 +98,7 @@ public:
   // @brief default ctor
   constexpr CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -120,6 +122,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::CachedProbe_Reflecti
 static_assert(sizeof(::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer) == 0x1c, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -132,7 +136,7 @@ public:
   // @brief default ctor
   constexpr CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -172,12 +176,12 @@ public:
   // @brief default ctor
   constexpr ReflectionProbeManager_CachedProbe();
 
-  // Ctor Parameters [CppParam { name: "updateCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "imageContentsHash", ty: "::UnityEngine::Hash128", modifiers: "", def_value:
-  // None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dataIndices", ty:
-  // "::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "levels", ty:
-  // "::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "texture", ty:
-  // "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "lastUsed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hdrData", ty:
-  // "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "updateCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "imageContentsHash", ty: "::UnityEngine::Hash128", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "dataIndices", ty: "::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "levels", ty: "::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastUsed", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "hdrData", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr ReflectionProbeManager_CachedProbe(uint32_t updateCount, ::UnityEngine::Hash128 imageContentsHash, int32_t size, int32_t mipCount,
                                                ::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer dataIndices,
                                                ::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer levels, ::UnityW<::UnityEngine::Texture> texture,
@@ -201,9 +205,11 @@ public:
   /// @brief Field mipCount, offset: 0x1c, size: 0x4, def value: None
   int32_t mipCount;
 
+  /// [FixedBuffer(typeof(System.Int32), 7)]
   /// @brief Field dataIndices, offset: 0x20, size: 0x1c, def value: None
   ::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer dataIndices;
 
+  /// [FixedBuffer(typeof(System.Int32), 7)]
   /// @brief Field levels, offset: 0x3c, size: 0x1c, def value: None
   ::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer levels;
 
@@ -295,13 +301,13 @@ protected:
   constexpr ReflectionProbeManager_ShaderProperties();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeManager_ShaderProperties", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeManager_ShaderProperties", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionProbeManager_ShaderProperties(ReflectionProbeManager_ShaderProperties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeManager_ShaderProperties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeManager_ShaderProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionProbeManager_ShaderProperties(ReflectionProbeManager_ShaderProperties const&) = delete;
+  ReflectionProbeManager_ShaderProperties(ReflectionProbeManager_ShaderPropertiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12902 };
@@ -358,16 +364,16 @@ public:
   // @brief default ctor
   constexpr ReflectionProbeManager();
 
-  // Ctor Parameters [CppParam { name: "m_Resolution", ty: "::Unity::Mathematics::int2", modifiers: "", def_value: None }, CppParam { name: "m_AtlasTexture0", ty:
-  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "m_AtlasTexture1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None },
-  // CppParam { name: "m_AtlasTexture0Handle", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None }, CppParam { name: "m_AtlasAllocator", ty:
-  // "::UnityEngine::Rendering::Universal::BuddyAllocator", modifiers: "", def_value: None }, CppParam { name: "m_Cache", ty:
-  // "::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::Universal::ReflectionProbeManager_CachedProbe>*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_WarningCache", ty: "::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*", modifiers: "", def_value: None }, CppParam { name: "m_NeedsUpdate", ty:
-  // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None }, CppParam { name: "m_NeedsRemove", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "",
-  // def_value: None }, CppParam { name: "m_BoxMax", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None }, CppParam { name: "m_BoxMin", ty: "::ArrayW<::UnityEngine::Vector4>",
-  // modifiers: "", def_value: None }, CppParam { name: "m_ProbePosition", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None }, CppParam { name: "m_MipScaleOffset", ty:
-  // "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Resolution", ty: "::Unity::Mathematics::int2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AtlasTexture0", ty:
+  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AtlasTexture1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_AtlasTexture0Handle", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_AtlasAllocator", ty: "::UnityEngine::Rendering::Universal::BuddyAllocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Cache", ty:
+  // "::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::Universal::ReflectionProbeManager_CachedProbe>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_WarningCache", ty: "::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NeedsUpdate", ty:
+  // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NeedsRemove", ty: "::System::Collections::Generic::List_1<int32_t>*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BoxMax", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BoxMin",
+  // ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ProbePosition", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_MipScaleOffset", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment: None }]
   constexpr ReflectionProbeManager(::Unity::Mathematics::int2 m_Resolution, ::UnityW<::UnityEngine::RenderTexture> m_AtlasTexture0, ::UnityW<::UnityEngine::RenderTexture> m_AtlasTexture1,
                                    ::UnityEngine::Rendering::RTHandle* m_AtlasTexture0Handle, ::UnityEngine::Rendering::Universal::BuddyAllocator m_AtlasAllocator,
                                    ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::Universal::ReflectionProbeManager_CachedProbe>* m_Cache,

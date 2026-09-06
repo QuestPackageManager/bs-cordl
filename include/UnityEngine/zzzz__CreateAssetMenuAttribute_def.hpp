@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CreateAssetMenuAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/CreateAssetMenuAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class CreateAssetMenuAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::CreateAssetMenuAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CreateAssetMenuAttribute*, "UnityEngine", "CreateAssetMenuAttribute");
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = false, Inherited = false)]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -59,12 +60,15 @@ public:
   /// @brief Method .ctor, addr 0x6adaae0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_fileName, addr 0x6adaad0, size 0x8, virtual false, abstract: false, final false
   inline void set_fileName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_menuName, addr 0x6adaac8, size 0x8, virtual false, abstract: false, final false
   inline void set_menuName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_order, addr 0x6adaad8, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
@@ -74,23 +78,29 @@ protected:
   constexpr CreateAssetMenuAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreateAssetMenuAttribute(CreateAssetMenuAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreateAssetMenuAttribute(CreateAssetMenuAttribute const&) = delete;
+  CreateAssetMenuAttribute(CreateAssetMenuAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10305 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <menuName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____menuName_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <fileName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____fileName_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <order>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____order_k__BackingField;
 

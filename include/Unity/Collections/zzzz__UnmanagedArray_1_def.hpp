@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnmanagedArray_1.hpp"
+// IWYU pragma private; include "Unity/Collections/UnmanagedArray_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,15 +16,19 @@ struct AllocatorManager_AllocatorHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct UnmanagedArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnmanagedArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::UnmanagedArray_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::UnmanagedArray_1, "Unity.Collections", "UnmanagedArray`1");
+// [DefaultMember("Item")]
 // Dependencies System.IntPtr, Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnmanagedArray`1<T>
 struct CORDL_TYPE UnmanagedArray_1 {
@@ -59,8 +63,8 @@ public:
   // @brief default ctor
   constexpr UnmanagedArray_1();
 
-  // Ctor Parameters [CppParam { name: "m_pointer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_pointer", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_length", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr UnmanagedArray_1(::System::IntPtr m_pointer, int32_t m_length, ::Unity::Collections::AllocatorManager_AllocatorHandle m_allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

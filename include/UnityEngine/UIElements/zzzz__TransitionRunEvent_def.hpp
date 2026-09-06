@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TransitionRunEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TransitionRunEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_REF_T(::UnityEngine::UIElements::TransitionRunEvent*);
 MARK_REF_T(::UnityEngine::UIElements::TransitionRunEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TransitionRunEvent*, "UnityEngine.UIElements", "TransitionRunEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TransitionRunEvent___c*, "UnityEngine.UIElements", "TransitionRunEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr TransitionRunEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionRunEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionRunEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransitionRunEvent___c(TransitionRunEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionRunEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionRunEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransitionRunEvent___c(TransitionRunEvent___c const&) = delete;
+  TransitionRunEvent___c(TransitionRunEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4567 };
@@ -86,13 +87,13 @@ protected:
   constexpr TransitionRunEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionRunEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionRunEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransitionRunEvent(TransitionRunEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionRunEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionRunEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransitionRunEvent(TransitionRunEvent const&) = delete;
+  TransitionRunEvent(TransitionRunEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4568 };

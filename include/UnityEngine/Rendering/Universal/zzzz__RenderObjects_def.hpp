@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderObjects.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderObjects.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +104,7 @@ public:
   // @brief default ctor
   constexpr RenderObjectsSettings_RenderObjects_OverrideMaterialMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderObjectsSettings_RenderObjects_OverrideMaterialMode(int32_t value__) noexcept;
 
   /// @brief Field Material value: I32(1)
@@ -272,13 +272,13 @@ protected:
   constexpr RenderObjects_RenderObjectsSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_RenderObjectsSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_RenderObjectsSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderObjects_RenderObjectsSettings(RenderObjects_RenderObjectsSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_RenderObjectsSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_RenderObjectsSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjects_RenderObjectsSettings(RenderObjects_RenderObjectsSettings const&) = delete;
+  RenderObjects_RenderObjectsSettings(RenderObjects_RenderObjectsSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12916 };
@@ -399,13 +399,13 @@ protected:
   constexpr RenderObjects_FilterSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_FilterSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_FilterSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderObjects_FilterSettings(RenderObjects_FilterSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_FilterSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_FilterSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjects_FilterSettings(RenderObjects_FilterSettings const&) = delete;
+  RenderObjects_FilterSettings(RenderObjects_FilterSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12917 };
@@ -485,13 +485,13 @@ protected:
   constexpr RenderObjects_CustomCameraSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_CustomCameraSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_CustomCameraSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderObjects_CustomCameraSettings(RenderObjects_CustomCameraSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_CustomCameraSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_CustomCameraSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjects_CustomCameraSettings(RenderObjects_CustomCameraSettings const&) = delete;
+  RenderObjects_CustomCameraSettings(RenderObjects_CustomCameraSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12918 };
@@ -522,6 +522,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjects_Custom
 static_assert(sizeof(::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [ExcludeFromPreset]
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.Universal", null, null)]
+// [Tooltip("Render Objects simplifies the injection of additional render passes by exposing a selection of commonly used settings.")]
 // Dependencies UnityEngine.Rendering.Universal.ScriptableRendererFeature
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -573,13 +576,13 @@ protected:
   constexpr RenderObjects();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderObjects(RenderObjects&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderObjects", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjects(RenderObjects const&) = delete;
+  RenderObjects(RenderObjectsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12919 };

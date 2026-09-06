@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRVirtualKeyboardSampleControls.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboardSampleControls.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,16 +87,18 @@ public:
   // @brief default ctor
   constexpr OVRVirtualKeyboardSampleControls_OVRVirtualKeyboardBackup();
 
-  // Ctor Parameters [CppParam { name: "_position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-  // def_value: None }, CppParam { name: "_scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_rightControllerDirectTransform", ty:
-  // "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "_rightControllerRootTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None
-  // }, CppParam { name: "_leftControllerDirectTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "_leftControllerRootTransform", ty:
-  // "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "_controllerRayInteraction", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "_controllerDirectInteraction", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_handLeft", ty: "::UnityW<::GlobalNamespace::OVRHand>", modifiers: "", def_value: None }, CppParam
-  // { name: "_handRight", ty: "::UnityW<::GlobalNamespace::OVRHand>", modifiers: "", def_value: None }, CppParam { name: "_handRayInteraction", ty: "bool", modifiers: "", def_value: None }, CppParam
-  // { name: "_handDirectInteraction", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_controllerRaycaster", ty: "::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>",
-  // modifiers: "", def_value: None }, CppParam { name: "_handRaycaster", ty: "::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>", modifiers: "", def_value: None }, CppParam { name:
-  // "_textHandlerField", ty: "::UnityW<::UnityEngine::UI::InputField>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "_rotation", ty: "::UnityEngine::Quaternion",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_rightControllerDirectTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_rightControllerRootTransform", ty:
+  // "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_leftControllerDirectTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_leftControllerRootTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_controllerRayInteraction", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_controllerDirectInteraction", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_handLeft", ty: "::UnityW<::GlobalNamespace::OVRHand>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_handRight", ty:
+  // "::UnityW<::GlobalNamespace::OVRHand>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_handRayInteraction", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_handDirectInteraction", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_controllerRaycaster", ty:
+  // "::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_handRaycaster", ty:
+  // "::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_textHandlerField", ty: "::UnityW<::UnityEngine::UI::InputField>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRVirtualKeyboardSampleControls_OVRVirtualKeyboardBackup(
       ::UnityEngine::Vector3 _position, ::UnityEngine::Quaternion _rotation, ::UnityEngine::Vector3 _scale, ::UnityW<::UnityEngine::Transform> _rightControllerDirectTransform,
       ::UnityW<::UnityEngine::Transform> _rightControllerRootTransform, ::UnityW<::UnityEngine::Transform> _leftControllerDirectTransform,
@@ -196,6 +198,7 @@ static_assert(offsetof(::GlobalNamespace::OVRVirtualKeyboardSampleControls_OVRVi
 static_assert(sizeof(::GlobalNamespace::OVRVirtualKeyboardSampleControls_OVRVirtualKeyboardBackup) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -231,17 +234,22 @@ public:
   /// @brief Method MoveNext, addr 0x5eeeeb0, size 0x35c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5eef20c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5eef214, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5eef24c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5eeeeac, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -269,6 +277,7 @@ public:
 
   constexpr void __cordl_internal_set__showButtonText_5__2(::UnityW<::UnityEngine::UI::Text> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5eee2c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -287,13 +296,13 @@ protected:
   constexpr OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19(OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19(OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19 const&) = delete;
+  OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19(OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7819 };
@@ -324,6 +333,9 @@ static_assert(offsetof(::GlobalNamespace::OVRVirtualKeyboardSampleControls__Crea
 static_assert(sizeof(::GlobalNamespace::OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [RequireComponent(typeof(OVRVirtualKeyboardSampleInputHandler))]
+// [HelpURL("https://developer.oculus.com/documentation/unity/VK-unity-sample/")]
+// [Feature((Meta.XR.Util.Feature)9)]
 // Dependencies OVRVirtualKeyboardSampleControls::OVRVirtualKeyboardBackup, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -378,6 +390,7 @@ public:
   /// @brief Field keyboardScale_, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_keyboardScale_, put = __cordl_internal_set_keyboardScale_)) float_t keyboardScale_;
 
+  /// [IteratorStateMachine(typeof(OVRVirtualKeyboardSampleControls::<CreateKeyboard>d__19))]
   /// @brief Method CreateKeyboard, addr 0x5eedc60, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CreateKeyboard();
 
@@ -509,13 +522,13 @@ protected:
   constexpr OVRVirtualKeyboardSampleControls();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRVirtualKeyboardSampleControls(OVRVirtualKeyboardSampleControls&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardSampleControls(OVRVirtualKeyboardSampleControls const&) = delete;
+  OVRVirtualKeyboardSampleControls(OVRVirtualKeyboardSampleControlsconst&) = delete;
 
   /// @brief Field THUMBSTICK_DEADZONE offset 0xffffffff size 0x4
   static constexpr float_t THUMBSTICK_DEADZONE{ static_cast<float_t>(0.2f) };
@@ -523,27 +536,35 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7820 };
 
+  /// [SerializeField]
   /// @brief Field ShowButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___ShowButton;
 
+  /// [SerializeField]
   /// @brief Field MoveButton, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___MoveButton;
 
+  /// [SerializeField]
   /// @brief Field HideButton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___HideButton;
 
+  /// [SerializeField]
   /// @brief Field MoveNearButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___MoveNearButton;
 
+  /// [SerializeField]
   /// @brief Field MoveFarButton, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___MoveFarButton;
 
+  /// [SerializeField]
   /// @brief Field DestroyKeyboardButton, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___DestroyKeyboardButton;
 
+  /// [SerializeField]
   /// @brief Field keyboard, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> ___keyboard;
 
+  /// [SerializeField]
   /// @brief Field keyboardPrefab, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> ___keyboardPrefab;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlMoney.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlMoney.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ struct SqlMoney;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlMoney);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlMoney, "System.Data.SqlTypes", "SqlMoney");
+// [XmlSchemaProvider("GetXsdType")]
 // Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -273,7 +274,8 @@ public:
   // @brief default ctor
   constexpr SqlMoney();
 
-  // Ctor Parameters [CppParam { name: "_fNotNull", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_fNotNull", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr SqlMoney(bool _fNotNull, int64_t _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyNode.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyNode.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNode_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -157,14 +157,14 @@ inline void Unity::Hierarchy::HierarchyNode::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNode>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline bool Unity::Hierarchy::HierarchyNode::op_Equality(::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs) {
+inline bool Unity::Hierarchy::HierarchyNode::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNode>(),
                                        { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
 }
-inline bool Unity::Hierarchy::HierarchyNode::op_Inequality(::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs) {
+inline bool Unity::Hierarchy::HierarchyNode::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNode>(),
@@ -196,7 +196,8 @@ constexpr Unity::Hierarchy::HierarchyNode::operator ::System::IEquatable_1<::Uni
 constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyNode>* Unity::Hierarchy::HierarchyNode::i___System__IEquatable_1___Unity__Hierarchy__HierarchyNode_() {
   return static_cast<::System::IEquatable_1<::Unity::Hierarchy::HierarchyNode>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyNode::HierarchyNode(int32_t m_Id, int32_t m_Version) noexcept {
   this->m_Id = m_Id;
   this->m_Version = m_Version;

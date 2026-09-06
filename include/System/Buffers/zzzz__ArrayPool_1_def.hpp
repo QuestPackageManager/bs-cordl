@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Buffers\ArrayPool_1.hpp"
+// IWYU pragma private; include "System/Buffers/ArrayPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
 
   static inline ::System::Buffers::ArrayPool_1<T>* New_ctor();
 
-  /// @brief Method Rent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Rent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<T> Rent(int32_t minimumLength);
 
-  /// @brief Method Return, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Return(::ArrayW<T> array, bool clearArray);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -39,6 +39,7 @@ public:
 
   static inline ::System::Buffers::ArrayPool_1<T>* getStaticF__Shared_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Shared, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Buffers::ArrayPool_1<T>* get_Shared();
 
@@ -50,13 +51,13 @@ protected:
   constexpr ArrayPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayPool_1(ArrayPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayPool_1(ArrayPool_1 const&) = delete;
+  ArrayPool_1(ArrayPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3820 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,9 +92,11 @@ public:
   /// @brief Method .ctor, addr 0x586bd34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didRefreshContentEvent, addr 0x586b77c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_respawnEvent, addr 0x586b5fc, size 0xc0, virtual false, abstract: false, final false
   inline void add_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
@@ -116,9 +118,11 @@ public:
   /// @brief Method get_startLightId, addr 0x586b3f4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didRefreshContentEvent, addr 0x586b83c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_respawnEvent, addr 0x586b6bc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
@@ -128,26 +132,30 @@ protected:
   constexpr LightGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroup(LightGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightGroup(LightGroup const&) = delete;
+  LightGroup(LightGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19504 };
 
+  /// [SerializeField]
   /// @brief Field _lightGroupSO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroupSO;
 
+  /// [Inject]
   /// @brief Field _lightWithIdManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightWithIdManager;
 
+  /// [CompilerGenerated]
   /// @brief Field respawnEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___respawnEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didRefreshContentEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___didRefreshContentEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NatPunchModule.hpp"
+// IWYU pragma private; include "LiteNetLib/NatPunchModule.hpp"
 #include "LiteNetLib/zzzz__NatAddressType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NatPunchModule_def.hpp"
@@ -12,8 +12,8 @@
 #include "LiteNetLib/zzzz__NetSocket_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-// Ctor Parameters [CppParam { name: "LocalEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: Some("{}") }, CppParam { name: "RemoteEndPoint", ty: "::System::Net::IPEndPoint*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "LocalEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RemoteEndPoint", ty:
+// "::System::Net::IPEndPoint*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::LiteNetLib::NatPunchModule_RequestEventData::NatPunchModule_RequestEventData(::System::Net::IPEndPoint* LocalEndPoint, ::System::Net::IPEndPoint* RemoteEndPoint,
                                                                                          ::StringW Token) noexcept {
   this->LocalEndPoint = LocalEndPoint;
@@ -22,8 +22,8 @@ constexpr ::LiteNetLib::NatPunchModule_RequestEventData::NatPunchModule_RequestE
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NatPunchModule_RequestEventData::NatPunchModule_RequestEventData() {}
-// Ctor Parameters [CppParam { name: "TargetEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Type", ty: "::LiteNetLib::NatAddressType", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "TargetEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Type", ty:
+// "::LiteNetLib::NatAddressType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::LiteNetLib::NatPunchModule_SuccessEventData::NatPunchModule_SuccessEventData(::System::Net::IPEndPoint* TargetEndPoint, ::LiteNetLib::NatAddressType Type, ::StringW Token) noexcept {
   this->TargetEndPoint = TargetEndPoint;
   this->Type = Type;
@@ -670,7 +670,9 @@ inline void LiteNetLib::NatPunchModule::Init(::LiteNetLib::INatPunchListener* li
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NatPunchModule*>(), { "Init", {}, { ::i2c::type_of<::LiteNetLib::INatPunchListener*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, listener);
 }
-template <typename T> inline void LiteNetLib::NatPunchModule::Send(T packet, ::System::Net::IPEndPoint* target) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::NatPunchModule::Send(T packet, ::System::Net::IPEndPoint* target) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::LiteNetLib::NatPunchModule*>(), { "Send", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<::System::Net::IPEndPoint*>() } })));

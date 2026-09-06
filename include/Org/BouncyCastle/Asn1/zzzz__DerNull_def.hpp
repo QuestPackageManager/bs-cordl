@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerNull.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerNull.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ public:
   /// @brief Method Encode, addr 0x3689620, size 0x1c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
+  /// @brief [Obsolete("Use static Instance object")]
   static inline ::Org::BouncyCastle::Asn1::DerNull* New_ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* New_ctor(int32_t dummy);
@@ -52,6 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_zeroBytes(::ArrayW<uint8_t> value);
 
+  /// [Obsolete("Use static Instance object")]
   /// @brief Method .ctor, addr 0x3689578, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -68,13 +70,13 @@ protected:
   constexpr DerNull();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerNull", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerNull", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerNull(DerNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerNull", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerNull", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerNull(DerNull const&) = delete;
+  DerNull(DerNullconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 477 };

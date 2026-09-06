@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TupleExtensions.hpp"
+// IWYU pragma private; include "System/TupleExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class TupleExtensions;
 // Write type traits
 MARK_REF_T(::System::TupleExtensions*);
 DEFINE_IL2CPP_CLASS(::System::TupleExtensions*, "System", "TupleExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -22,6 +23,7 @@ namespace System {
 class CORDL_TYPE TupleExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Deconstruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2> static inline void Deconstruct(::System::Tuple_2<T1, T2>* value, ::by_ref<T1> item1, ::by_ref<T2> item2);
 
@@ -31,13 +33,13 @@ protected:
   constexpr TupleExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TupleExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TupleExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TupleExtensions(TupleExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TupleExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TupleExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TupleExtensions(TupleExtensions const&) = delete;
+  TupleExtensions(TupleExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2498 };

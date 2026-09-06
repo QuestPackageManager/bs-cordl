@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\InheritedData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/InheritedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,16 +78,17 @@ public:
   // @brief default ctor
   constexpr InheritedData();
 
-  // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-  // def_value: None }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "textShadow", ty:
-  // "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: None }, CppParam { name: "unityEditorTextRenderingMode", ty: "::UnityEngine::UIElements::EditorTextRenderingMode", modifiers:
-  // "", def_value: None }, CppParam { name: "unityFont", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "unityFontDefinition", ty:
-  // "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: None }, CppParam { name: "unityFontStyleAndWeight", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None },
-  // CppParam { name: "unityParagraphSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "unityTextAlign", ty: "::UnityEngine::TextAnchor", modifiers:
-  // "", def_value: None }, CppParam { name: "unityTextGenerator", ty: "::UnityEngine::TextGeneratorType", modifiers: "", def_value: None }, CppParam { name: "unityTextOutlineColor", ty:
-  // "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "unityTextOutlineWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "visibility", ty:
-  // "::UnityEngine::UIElements::Visibility", modifiers: "", def_value: None }, CppParam { name: "whiteSpace", ty: "::UnityEngine::UIElements::WhiteSpace", modifiers: "", def_value: None }, CppParam {
-  // name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontSize", ty: "::UnityEngine::UIElements::Length",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "textShadow", ty: "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: None, comment: None }, CppParam { name: "unityEditorTextRenderingMode", ty:
+  // "::UnityEngine::UIElements::EditorTextRenderingMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "unityFont", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "unityFontDefinition", ty: "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "unityFontStyleAndWeight", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None, comment: None }, CppParam { name: "unityParagraphSpacing", ty: "::UnityEngine::UIElements::Length",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "unityTextAlign", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "unityTextGenerator", ty: "::UnityEngine::TextGeneratorType", modifiers: "", def_value: None, comment: None }, CppParam { name: "unityTextOutlineColor", ty: "::UnityEngine::Color", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "unityTextOutlineWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibility", ty:
+  // "::UnityEngine::UIElements::Visibility", modifiers: "", def_value: None, comment: None }, CppParam { name: "whiteSpace", ty: "::UnityEngine::UIElements::WhiteSpace", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }]
   constexpr InheritedData(::UnityEngine::Color color, ::UnityEngine::UIElements::Length fontSize, ::UnityEngine::UIElements::Length letterSpacing, ::UnityEngine::UIElements::TextShadow textShadow,
                           ::UnityEngine::UIElements::EditorTextRenderingMode unityEditorTextRenderingMode, ::UnityW<::UnityEngine::Font> unityFont,
                           ::UnityEngine::UIElements::FontDefinition unityFontDefinition, ::UnityEngine::FontStyle unityFontStyleAndWeight, ::UnityEngine::UIElements::Length unityParagraphSpacing,

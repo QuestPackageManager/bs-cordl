@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\Event.hpp"
+// IWYU pragma private; include "ENet/Event.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
   // @brief default ctor
   constexpr Event();
 
-  // Ctor Parameters [CppParam { name: "nativeEvent", ty: "::ENet::ENetEvent", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nativeEvent", ty: "::ENet::ENetEvent", modifiers: "", def_value: None, comment: None }]
   constexpr Event(::ENet::ENetEvent nativeEvent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

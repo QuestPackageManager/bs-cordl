@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StylePropertyId.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StylePropertyId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct StylePropertyId;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StylePropertyId);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::StylePropertyId, "UnityEngine.UIElements.StyleSheets", "StylePropertyId");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
@@ -136,7 +137,7 @@ public:
   // @brief default ctor
   constexpr StylePropertyId();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StylePropertyId(int32_t value__) noexcept;
 
   /// @brief Field AlignContent value: I32(131072)

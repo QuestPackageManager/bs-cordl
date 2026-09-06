@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HttpConnection.hpp"
+// IWYU pragma private; include "System/Net/HttpConnection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpConnection_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
@@ -23,7 +23,7 @@
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::HttpConnection_InputState::HttpConnection_InputState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -31,7 +31,7 @@ constexpr ::System::Net::HttpConnection_InputState::HttpConnection_InputState(in
 constexpr ::System::Net::HttpConnection_InputState::HttpConnection_InputState() {}
 constexpr ::System::Net::HttpConnection_InputState System::Net::HttpConnection_InputState::RequestLine{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::HttpConnection_InputState System::Net::HttpConnection_InputState::Headers{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::HttpConnection_LineState::HttpConnection_LineState(int32_t value__) noexcept {
   this->value__ = value__;
 }

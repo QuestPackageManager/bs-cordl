@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\SceneInstance.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/SceneInstance.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -139,8 +139,8 @@ inline bool UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::E
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "m_Scene", ty: "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ReleaseOnSceneUnloaded", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_Operation", ty: "::UnityEngine::AsyncOperation*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Scene", ty: "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ReleaseOnSceneUnloaded", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Operation", ty: "::UnityEngine::AsyncOperation*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::SceneInstance(::UnityEngine::SceneManagement::Scene m_Scene, bool m_ReleaseOnSceneUnloaded,
                                                                                              ::UnityEngine::AsyncOperation* m_Operation) noexcept {
   this->m_Scene = m_Scene;

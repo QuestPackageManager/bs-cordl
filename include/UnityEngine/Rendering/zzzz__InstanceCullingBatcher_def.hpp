@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceCullingBatcher.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceCullingBatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,10 +19,15 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -146,7 +151,8 @@ public:
 
   /// @brief Method BuildBatch, addr 0x6820230, size 0x210, virtual false, abstract: false, final false
   inline void BuildBatch(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances, ::Unity::Collections::NativeArray_1<int32_t> usedMaterialIDs,
-                         ::Unity::Collections::NativeArray_1<int32_t> usedMeshIDs, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, bool registerMaterialsAndMeshes);
+                         ::Unity::Collections::NativeArray_1<int32_t> usedMeshIDs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+                         bool registerMaterialsAndMeshes);
 
   /// @brief Method DestroyDrawInstances, addr 0x681f310, size 0x1c, virtual false, abstract: false, final false
   inline void DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
@@ -196,7 +202,7 @@ public:
   inline void PostCullBeginCameraRendering(::UnityEngine::Rendering::RenderRequestBatcherContext context);
 
   /// @brief Method RegisterBatchMaterials, addr 0x681fc28, size 0x510, virtual false, abstract: false, final false
-  inline void RegisterBatchMaterials(::by_ref<::Unity::Collections::NativeArray_1<int32_t>> usedMaterialIDs);
+  inline void RegisterBatchMaterials(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> usedMaterialIDs);
 
   /// @brief Method RegisterBatchMeshes, addr 0x681f794, size 0x494, virtual false, abstract: false, final false
   inline void RegisterBatchMeshes(::Unity::Collections::NativeArray_1<int32_t> meshIDs);
@@ -293,13 +299,13 @@ protected:
   constexpr InstanceCullingBatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceCullingBatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstanceCullingBatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstanceCullingBatcher(InstanceCullingBatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceCullingBatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstanceCullingBatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceCullingBatcher(InstanceCullingBatcher const&) = delete;
+  InstanceCullingBatcher(InstanceCullingBatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17676 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\IMessageCtrl.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/IMessageCtrl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,6 +11,7 @@ class IMessageCtrl;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Messaging::IMessageCtrl*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Messaging::IMessageCtrl*, "System.Runtime.Remoting.Messaging", "IMessageCtrl");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
@@ -18,9 +19,9 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE IMessageCtrl {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IMessageCtrl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMessageCtrl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMessageCtrl(IMessageCtrl const&) = delete;
+  IMessageCtrl(IMessageCtrlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3185 };

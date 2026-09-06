@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionMap.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionMap.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
@@ -34,7 +34,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_Flags::InputActionMap_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -125,8 +125,8 @@ inline bool UnityEngine::InputSystem::InputActionMap_DeviceArray::Set(::System::
                                        { "Set", {}, { ::i2c::type_of<::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, devices);
 }
-// Ctor Parameters [CppParam { name: "m_HaveValue", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DeviceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_DeviceArray", ty: "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_HaveValue", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DeviceCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_DeviceArray", ty: "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_DeviceArray::InputActionMap_DeviceArray(bool m_HaveValue, int32_t m_DeviceCount,
                                                                                              ::ArrayW<::UnityEngine::InputSystem::InputDevice*> m_DeviceArray) noexcept {
   this->m_HaveValue = m_HaveValue;
@@ -135,7 +135,8 @@ constexpr ::UnityEngine::InputSystem::InputActionMap_DeviceArray::InputActionMap
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionMap_DeviceArray::InputActionMap_DeviceArray() {}
-// Ctor Parameters [CppParam { name: "bindings", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "bindings", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson>*", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_BindingOverrideListJson::InputActionMap_BindingOverrideListJson(
     ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson>* bindings) noexcept {
   this->bindings = bindings;
@@ -203,9 +204,9 @@ UnityEngine::InputSystem::InputActionMap_BindingOverrideJson::ToBinding(::UnityE
                                                                                          { "ToBinding", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputBinding>(nullptr, ___internal_method, bindingOverride);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "processors", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "action", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson::InputActionMap_BindingOverrideJson(::StringW action, ::StringW id, ::StringW path, ::StringW interactions,
                                                                                                              ::StringW processors) noexcept {
   this->action = action;
@@ -252,11 +253,11 @@ inline ::UnityEngine::InputSystem::InputActionMap_BindingJson UnityEngine::Input
                                                                                          { "FromBinding", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputSystem::InputBinding>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionMap_BindingJson>(nullptr, ___internal_method, binding);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "processors", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "groups", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "action", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "isComposite", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPartOfComposite", ty: "bool", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "groups", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "action", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isComposite", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "isPartOfComposite", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_BindingJson::InputActionMap_BindingJson(::StringW name, ::StringW id, ::StringW path, ::StringW interactions, ::StringW processors,
                                                                                              ::StringW groups, ::StringW action, bool isComposite, bool isPartOfComposite) noexcept {
   this->name = name;
@@ -290,11 +291,12 @@ inline ::UnityEngine::InputSystem::InputAction* UnityEngine::InputSystem::InputA
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionMap_ReadActionJson>(), { "ToAction", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputAction*>(*this, ___internal_method, actionName);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "expectedControlLayout", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "interactions", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "passThrough", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "initialStateCheck",
-// ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "bindings", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "expectedControlLayout", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "processors", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "passThrough", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "initialStateCheck", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bindings",
+// ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_ReadActionJson::InputActionMap_ReadActionJson(::StringW name, ::StringW type, ::StringW id, ::StringW expectedControlType,
                                                                                                    ::StringW expectedControlLayout, ::StringW processors, ::StringW interactions, bool passThrough,
                                                                                                    bool initialStateCheck,
@@ -331,10 +333,10 @@ inline ::UnityEngine::InputSystem::InputActionMap_WriteActionJson UnityEngine::I
                                                                                          { "FromAction", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputAction*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionMap_WriteActionJson>(nullptr, ___internal_method, action);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "processors", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "initialStateCheck", ty: "bool",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "initialStateCheck", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_WriteActionJson::InputActionMap_WriteActionJson(::StringW name, ::StringW type, ::StringW id, ::StringW expectedControlType, ::StringW processors,
                                                                                                      ::StringW interactions, bool initialStateCheck) noexcept {
   this->name = name;
@@ -347,9 +349,9 @@ constexpr ::UnityEngine::InputSystem::InputActionMap_WriteActionJson::InputActio
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionMap_WriteActionJson::InputActionMap_WriteActionJson() {}
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson>", modifiers: "", def_value: Some("{}") }, CppParam { name: "bindings", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "bindings", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_ReadMapJson::InputActionMap_ReadMapJson(::StringW name, ::StringW id, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson> actions,
                                                                                              ::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson> bindings) noexcept {
   this->name = name;
@@ -378,9 +380,9 @@ inline ::UnityEngine::InputSystem::InputActionMap_WriteMapJson UnityEngine::Inpu
                                                                                          { "FromMap", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputActionMap*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>(nullptr, ___internal_method, map);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteActionJson>", modifiers: "", def_value: Some("{}") }, CppParam { name: "bindings", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteActionJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "bindings", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_WriteMapJson::InputActionMap_WriteMapJson(::StringW name, ::StringW id,
                                                                                                ::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteActionJson> actions,
                                                                                                ::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson> bindings) noexcept {
@@ -432,7 +434,7 @@ UnityEngine::InputSystem::InputActionMap_WriteFileJson::FromMaps(::System::Colle
                                                            { "FromMaps", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputActionMap*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionMap_WriteFileJson>(nullptr, ___internal_method, maps);
 }
-// Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_WriteFileJson::InputActionMap_WriteFileJson(::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson> maps) noexcept {
   this->maps = maps;
 }
@@ -455,8 +457,8 @@ inline ::ArrayW<::UnityEngine::InputSystem::InputActionMap*> UnityEngine::InputS
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionMap_ReadFileJson>(), { "ToMaps", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::InputSystem::InputActionMap*>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson>", modifiers: "", def_value: Some("{}") }, CppParam { name: "maps", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionMap_ReadFileJson::InputActionMap_ReadFileJson(::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson> actions,
                                                                                                ::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson> maps) noexcept {
   this->actions = actions;

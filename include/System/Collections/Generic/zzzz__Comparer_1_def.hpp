@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\Comparer_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/Comparer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ template <typename T> class Comparer_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::Generic::Comparer_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::Comparer_1, "System.Collections.Generic", "Comparer`1");
+// [TypeDependency("System.Collections.Generic.ObjectComparer`1")]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -40,7 +41,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(T x, T y);
 
   /// @brief Method CreateComparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -73,13 +74,13 @@ protected:
   constexpr Comparer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Comparer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Comparer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Comparer_1(Comparer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Comparer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Comparer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Comparer_1(Comparer_1 const&) = delete;
+  Comparer_1(Comparer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3805 };

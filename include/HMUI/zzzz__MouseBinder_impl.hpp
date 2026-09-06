@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\MouseBinder.hpp"
+// IWYU pragma private; include "HMUI/MouseBinder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__MouseBinder_def.hpp"
 #include "HMUI/zzzz__MouseBinder_def.hpp"
@@ -8,7 +8,7 @@
 #include "System/zzzz__ValueTuple_3_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::MouseBinder_MouseEventType::MouseBinder_MouseEventType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -17,7 +17,7 @@ constexpr ::HMUI::MouseBinder_MouseEventType::MouseBinder_MouseEventType() {}
 constexpr ::HMUI::MouseBinder_MouseEventType HMUI::MouseBinder_MouseEventType::ButtonDown{ static_cast<int32_t>(0x0) };
 constexpr ::HMUI::MouseBinder_MouseEventType HMUI::MouseBinder_MouseEventType::ButtonUp{ static_cast<int32_t>(0x1) };
 constexpr ::HMUI::MouseBinder_MouseEventType HMUI::MouseBinder_MouseEventType::ButtonPress{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::MouseBinder_ButtonType::MouseBinder_ButtonType(int32_t value__) noexcept {
   this->value__ = value__;
 }

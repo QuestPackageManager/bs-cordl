@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\F2mFieldElement.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/F2mFieldElement.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mFieldElement_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__F2mFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
@@ -682,9 +682,11 @@ inline int32_t Org::BouncyCastle::Math::EC::F2mFieldElement::GetHashCode() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Math::EC::F2mFieldElement*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
+/// @brief [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
 inline ::Org::BouncyCastle::Math::EC::F2mFieldElement* Org::BouncyCastle::Math::EC::F2mFieldElement::New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* x) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::F2mFieldElement*>(m, k1, k2, k3, x));
 }
+/// @brief [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
 inline ::Org::BouncyCastle::Math::EC::F2mFieldElement* Org::BouncyCastle::Math::EC::F2mFieldElement::New_ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* x) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::F2mFieldElement*>(m, k, x));
 }

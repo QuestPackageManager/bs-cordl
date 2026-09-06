@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\VisitParameters.hpp"
+// IWYU pragma private; include "Unity/Properties/VisitParameters.hpp"
 #include "Unity/Properties/zzzz__VisitExceptionKind_impl.hpp"
 #include "Unity/Properties/zzzz__VisitParameters_def.hpp"
 #include "Unity/Properties/zzzz__VisitExceptionKind_def.hpp"
@@ -20,7 +20,7 @@ inline ::Unity::Properties::VisitExceptionKind Unity::Properties::VisitParameter
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::VisitParameters>(), { "get_IgnoreExceptions", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::VisitExceptionKind>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_IgnoreExceptions_k__BackingField", ty: "::Unity::Properties::VisitExceptionKind", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_IgnoreExceptions_k__BackingField", ty: "::Unity::Properties::VisitExceptionKind", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Properties::VisitParameters::VisitParameters(::Unity::Properties::VisitExceptionKind _IgnoreExceptions_k__BackingField) noexcept {
   this->_IgnoreExceptions_k__BackingField = _IgnoreExceptions_k__BackingField;
 }

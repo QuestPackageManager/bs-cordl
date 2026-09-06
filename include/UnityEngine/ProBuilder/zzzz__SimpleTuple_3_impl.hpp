@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\SimpleTuple_3.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/SimpleTuple_3.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SimpleTuple_3_def.hpp"
 template <typename T1, typename T2, typename T3> inline T1 UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>::get_item1() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>>(), { "get_item1", {}, {} })));
@@ -38,8 +38,8 @@ template <typename T1, typename T2, typename T3> inline ::StringW UnityEngine::P
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Item1", ty: "T1", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Item2", ty: "T2", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Item3", ty: "T3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Item1", ty: "T1", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Item2", ty: "T2", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_Item3", ty: "T3", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T1, typename T2, typename T3> constexpr ::UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>::SimpleTuple_3(T1 m_Item1, T2 m_Item2, T3 m_Item3) noexcept {
   this->m_Item1 = m_Item1;
   this->m_Item2 = m_Item2;

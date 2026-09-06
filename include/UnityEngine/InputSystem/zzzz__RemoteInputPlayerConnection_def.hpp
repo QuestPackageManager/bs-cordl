@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\RemoteInputPlayerConnection.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/RemoteInputPlayerConnection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,13 +93,13 @@ protected:
   constexpr RemoteInputPlayerConnection_Subscriber();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection_Subscriber", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection_Subscriber", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemoteInputPlayerConnection_Subscriber(RemoteInputPlayerConnection_Subscriber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection_Subscriber", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection_Subscriber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemoteInputPlayerConnection_Subscriber(RemoteInputPlayerConnection_Subscriber const&) = delete;
+  RemoteInputPlayerConnection_Subscriber(RemoteInputPlayerConnection_Subscriberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8756 };
@@ -273,23 +273,25 @@ protected:
   constexpr RemoteInputPlayerConnection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemoteInputPlayerConnection(RemoteInputPlayerConnection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemoteInputPlayerConnection(RemoteInputPlayerConnection const&) = delete;
+  RemoteInputPlayerConnection(RemoteInputPlayerConnectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8757 };
 
+  /// [SerializeField]
   /// @brief Field m_Connection, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* ___m_Connection;
 
   /// @brief Field m_Subscribers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber*> ___m_Subscribers;
 
+  /// [SerializeField]
   /// @brief Field m_ConnectedIds, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_ConnectedIds;
 

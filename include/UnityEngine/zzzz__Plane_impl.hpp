@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Plane.hpp"
+// IWYU pragma private; include "UnityEngine/Plane.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -208,8 +208,8 @@ constexpr UnityEngine::Plane::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::Plane::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Plane::Plane(::UnityEngine::Vector3 m_Normal, float_t m_Distance) noexcept {
   this->m_Normal = m_Normal;
   this->m_Distance = m_Distance;

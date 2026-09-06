@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\ObjectInitializationData.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/ObjectInitializationData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,8 +58,9 @@ public:
   // @brief default ctor
   constexpr ObjectInitializationData();
 
-  // Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_ObjectType", ty: "::UnityEngine::ResourceManagement::Util::SerializedType",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ObjectType", ty:
+  // "::UnityEngine::ResourceManagement::Util::SerializedType", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ObjectInitializationData(::StringW m_Id, ::UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType, ::StringW m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -68,12 +69,18 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
+  /// [FormerlySerializedAs("m_id")]
+  /// [SerializeField]
   /// @brief Field m_Id, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Id;
 
+  /// [FormerlySerializedAs("m_objectType")]
+  /// [SerializeField]
   /// @brief Field m_ObjectType, offset: 0x8, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType;
 
+  /// [FormerlySerializedAs("m_data")]
+  /// [SerializeField]
   /// @brief Field m_Data, offset: 0x28, size: 0x8, def value: None
   ::StringW m_Data;
 

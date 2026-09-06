@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeStreamBlockData.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeStreamBlockData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct UnsafeStreamBlockData;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlockData);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlockData, "Unity.Collections.LowLevel.Unsafe", "UnsafeStreamBlockData");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle, Unity.Collections.AllocatorManager::Block
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -34,9 +35,10 @@ public:
   // @brief default ctor
   constexpr UnsafeStreamBlockData();
 
-  // Ctor Parameters [CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }, CppParam { name: "Blocks", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None }, CppParam { name: "BlockCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Ranges", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None }, CppParam { name: "RangeCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "Blocks", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name: "BlockCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "Ranges", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None, comment: None }, CppParam { name: "RangeCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeStreamBlockData(::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* Blocks, int32_t BlockCount,
                                   ::Unity::Collections::AllocatorManager_Block Ranges, int32_t RangeCount) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\ObjectModel\KeyedCollection_2.hpp"
+// IWYU pragma private; include "System/Collections/ObjectModel/KeyedCollection_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,9 @@ template <typename TKey, typename TItem> class KeyedCollection_2;
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::ObjectModel::KeyedCollection_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::ObjectModel::KeyedCollection_2, "System.Collections.ObjectModel", "KeyedCollection`2");
+// [DebuggerDisplay("Count = {Count}")]
+// [DefaultMember("Item")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.CollectionDebugView`1<T>))]
 // Dependencies System.Collections.ObjectModel.Collection`1<T>
 namespace System::Collections::ObjectModel {
 // cpp template
@@ -64,7 +67,7 @@ public:
   /// @brief Method CreateDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CreateDictionary();
 
-  /// @brief Method GetKeyForItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetKeyForItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TKey GetKeyForItem(TItem item);
 
   /// @brief Method InsertItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -136,13 +139,13 @@ protected:
   constexpr KeyedCollection_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyedCollection_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyedCollection_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyedCollection_2(KeyedCollection_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyedCollection_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyedCollection_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyedCollection_2(KeyedCollection_2 const&) = delete;
+  KeyedCollection_2(KeyedCollection_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3750 };

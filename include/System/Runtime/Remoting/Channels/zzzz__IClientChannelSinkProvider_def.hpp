@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Channels\IClientChannelSinkProvider.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/IClientChannelSinkProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,6 +11,7 @@ class IClientChannelSinkProvider;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Channels::IClientChannelSinkProvider*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Channels::IClientChannelSinkProvider*, "System.Runtime.Remoting.Channels", "IClientChannelSinkProvider");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
@@ -20,12 +21,12 @@ public:
   // Declarations
   __declspec(property(put = set_Next)) ::System::Runtime::Remoting::Channels::IClientChannelSinkProvider* Next;
 
-  /// @brief Method set_Next, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Next, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Next(::System::Runtime::Remoting::Channels::IClientChannelSinkProvider* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IClientChannelSinkProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IClientChannelSinkProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IClientChannelSinkProvider(IClientChannelSinkProvider const&) = delete;
+  IClientChannelSinkProvider(IClientChannelSinkProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3141 };

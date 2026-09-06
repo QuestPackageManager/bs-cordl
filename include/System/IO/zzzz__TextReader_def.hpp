@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\TextReader.hpp"
+// IWYU pragma private; include "System/IO/TextReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::System::IO::TextReader*);
 MARK_REF_T(::System::IO::TextReader___c*);
 DEFINE_IL2CPP_CLASS(::System::IO::TextReader*, "System.IO", "TextReader");
 DEFINE_IL2CPP_CLASS(::System::IO::TextReader___c*, "System.IO", "TextReader/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::IO {
 // Is value type: false
@@ -89,13 +90,13 @@ protected:
   constexpr TextReader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextReader___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextReader___c(TextReader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextReader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextReader___c(TextReader___c const&) = delete;
+  TextReader___c(TextReader___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3866 };
@@ -179,13 +180,13 @@ protected:
   constexpr TextReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextReader(TextReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextReader(TextReader const&) = delete;
+  TextReader(TextReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3867 };

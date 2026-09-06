@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rect.hpp"
+// IWYU pragma private; include "UnityEngine/Rect.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -715,8 +715,9 @@ constexpr UnityEngine::Rect::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::Rect::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_XMin", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YMin", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Width", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Height", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_XMin", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YMin", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_Width", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Height", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rect::Rect(float_t m_XMin, float_t m_YMin, float_t m_Width, float_t m_Height) noexcept {
   this->m_XMin = m_XMin;
   this->m_YMin = m_YMin;

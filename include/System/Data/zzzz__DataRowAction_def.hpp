@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRowAction.hpp"
+// IWYU pragma private; include "System/Data/DataRowAction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DataRowAction;
 // Write type traits
 MARK_VAL_T(::System::Data::DataRowAction);
 DEFINE_IL2CPP_CLASS(::System::Data::DataRowAction, "System.Data", "DataRowAction");
+// [Flags]
 // Dependencies
 namespace System::Data {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr DataRowAction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DataRowAction(int32_t value__) noexcept;
 
   /// @brief Field Add value: I32(16)

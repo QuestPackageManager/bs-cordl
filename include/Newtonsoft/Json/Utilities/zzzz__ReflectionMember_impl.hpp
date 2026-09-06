@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ReflectionMember.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ReflectionMember.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionMember_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
@@ -146,7 +146,7 @@ inline ::System::Func_2<::System::Object*, ::System::Object*>* Newtonsoft::Json:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionMember*>(), { "get_Getter", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Func_2<::System::Object*, ::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::ReflectionMember::set_Getter(::System::Func_2<::System::Object*, ::System::Object*>* value) {
+inline void Newtonsoft::Json::Utilities::ReflectionMember::set_Getter(/* [Nullable(new[] { 2, 1, 2 })] */ ::System::Func_2<::System::Object*, ::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionMember*>(),
                                                                                          { "set_Getter", {}, { ::i2c::type_of<::System::Func_2<::System::Object*, ::System::Object*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
@@ -155,7 +155,7 @@ inline ::System::Action_2<::System::Object*, ::System::Object*>* Newtonsoft::Jso
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionMember*>(), { "get_Setter", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Action_2<::System::Object*, ::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::ReflectionMember::set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* value) {
+inline void Newtonsoft::Json::Utilities::ReflectionMember::set_Setter(/* [Nullable(new[] { 2, 1, 2 })] */ ::System::Action_2<::System::Object*, ::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionMember*>(),
                                                                                          { "set_Setter", {}, { ::i2c::type_of<::System::Action_2<::System::Object*, ::System::Object*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);

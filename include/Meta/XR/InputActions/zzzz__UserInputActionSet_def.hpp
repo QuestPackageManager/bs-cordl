@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\InputActions\UserInputActionSet.hpp"
+// IWYU pragma private; include "Meta/XR/InputActions/UserInputActionSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,20 +59,23 @@ protected:
   constexpr UserInputActionSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UserInputActionSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UserInputActionSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserInputActionSet(UserInputActionSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UserInputActionSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UserInputActionSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UserInputActionSet(UserInputActionSet const&) = delete;
+  UserInputActionSet(UserInputActionSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8575 };
 
+  /// [InlineLink("https://registry.khronos.org/OpenXR/specs/1.0/html/xrspec.html#semantic-path-interaction-profiles")]
+  /// [Tooltip("The interaction profile of the device these actions should be applied to.")]
   /// @brief Field InteractionProfile, offset: 0x10, size: 0x8, def value: None
   ::StringW ___InteractionProfile;
 
+  /// [Tooltip("A list of the different Input Actions that this device supports.")]
   /// @brief Field InputActionDefinitions, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* ___InputActionDefinitions;
 

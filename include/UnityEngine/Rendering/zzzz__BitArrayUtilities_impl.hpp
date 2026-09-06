@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BitArrayUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BitArrayUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BitArrayUtilities_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Get8

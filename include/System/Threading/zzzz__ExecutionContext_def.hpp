@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ExecutionContext.hpp"
+// IWYU pragma private; include "System/Threading/ExecutionContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,7 +120,7 @@ public:
   // @brief default ctor
   constexpr ExecutionContext_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ExecutionContext_Flags(int32_t value__) noexcept;
 
   /// @brief Field IsFlowSuppressed value: I32(2)
@@ -200,7 +200,7 @@ public:
   // @brief default ctor
   constexpr ExecutionContext_Reader();
 
-  // Ctor Parameters [CppParam { name: "m_ec", ty: "::System::Threading::ExecutionContext*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ec", ty: "::System::Threading::ExecutionContext*", modifiers: "", def_value: None, comment: None }]
   constexpr ExecutionContext_Reader(::System::Threading::ExecutionContext* m_ec) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -220,6 +220,7 @@ static_assert(offsetof(::System::Threading::ExecutionContext_Reader, m_ec) == 0x
 static_assert(sizeof(::System::Threading::ExecutionContext_Reader) == 0x8, "Size mismatch!");
 
 } // namespace System::Threading
+// [Flags]
 // Dependencies
 namespace System::Threading {
 // Is value type: true
@@ -250,7 +251,7 @@ public:
   // @brief default ctor
   constexpr ExecutionContext_CaptureOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ExecutionContext_CaptureOptions(int32_t value__) noexcept;
 
   /// @brief Field IgnoreSyncCtx value: I32(1)
@@ -363,6 +364,7 @@ public:
   /// @brief Method EstablishCopyOnWriteScope, addr 0x5cb1484, size 0x8c, virtual false, abstract: false, final false
   static inline void EstablishCopyOnWriteScope(::by_ref<::System::Threading::ExecutionContextSwitcher> ecsw);
 
+  /// [FriendAccessAllowed]
   /// @brief Method FastCapture, addr 0x5cb1908, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Threading::ExecutionContext* FastCapture();
 
@@ -375,34 +377,41 @@ public:
   /// @brief Method IsFlowSuppressed, addr 0x5cb1760, size 0x34, virtual false, abstract: false, final false
   static inline bool IsFlowSuppressed();
 
+  /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   static inline ::System::Threading::ExecutionContext* New_ctor();
 
   static inline ::System::Threading::ExecutionContext* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   static inline ::System::Threading::ExecutionContext* New_ctor(bool isPreAllocatedDefault);
 
+  /// [HandleProcessCorruptedStateExceptions]
   /// @brief Method OnAsyncLocalContextChanged, addr 0x5cb06ac, size 0x41c, virtual false, abstract: false, final false
   static inline void OnAsyncLocalContextChanged(::System::Threading::ExecutionContext* previous, ::System::Threading::ExecutionContext* current);
 
   /// @brief Method Run, addr 0x5cad7ac, size 0xdc, virtual false, abstract: false, final false
   static inline void Run(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state);
 
+  /// [FriendAccessAllowed]
   /// @brief Method Run, addr 0x5cb0f54, size 0x80, virtual false, abstract: false, final false
   static inline void Run(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state, bool preserveSyncCtx);
 
   /// @brief Method RunInternal, addr 0x5cb11c0, size 0x74, virtual false, abstract: false, final false
   static inline void RunInternal(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state);
 
+  /// [HandleProcessCorruptedStateExceptions]
   /// @brief Method RunInternal, addr 0x5cb0fd4, size 0x1ec, virtual false, abstract: false, final false
   static inline void RunInternal(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::System::Object* state, bool preserveSyncCtx);
 
   /// @brief Method RunInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState> static inline void RunInternal(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback_1<TState>* callback, ::by_ref<TState> state);
 
+  /// [HandleProcessCorruptedStateExceptions]
   /// @brief Method RunInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState>
   static inline void RunInternal(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback_1<TState>* callback, ::by_ref<TState> state, bool preserveSyncCtx);
 
+  /// [HandleProcessCorruptedStateExceptions]
   /// @brief Method SetExecutionContext, addr 0x5cb1318, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::Threading::ExecutionContextSwitcher SetExecutionContext(::System::Threading::ExecutionContext* executionContext, bool preserveSyncCtx);
 
@@ -451,12 +460,14 @@ public:
 
   constexpr void __cordl_internal_set__syncContextNoFlow(::System::Threading::SynchronizationContext* value);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method .ctor, addr 0x5cb0b24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x5cb1a78, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method .ctor, addr 0x5cb0b28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isPreAllocatedDefault);
 
@@ -473,9 +484,11 @@ public:
   /// @brief Method get_LogicalCallContext, addr 0x5cb0e70, size 0x58, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_SynchronizationContext, addr 0x5cb0f30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContext();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_SynchronizationContextNoFlow, addr 0x5cb0f40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
 
@@ -501,9 +514,11 @@ public:
   /// @brief Method set_LogicalCallContext, addr 0x5cb0ec8, size 0x8, virtual false, abstract: false, final false
   inline void set_LogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method set_SynchronizationContext, addr 0x5cb0f38, size 0x8, virtual false, abstract: false, final false
   inline void set_SynchronizationContext(::System::Threading::SynchronizationContext* value);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method set_SynchronizationContextNoFlow, addr 0x5cb0f48, size 0x8, virtual false, abstract: false, final false
   inline void set_SynchronizationContextNoFlow(::System::Threading::SynchronizationContext* value);
 
@@ -519,13 +534,13 @@ protected:
   constexpr ExecutionContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExecutionContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecutionContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExecutionContext(ExecutionContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExecutionContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecutionContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExecutionContext(ExecutionContext const&) = delete;
+  ExecutionContext(ExecutionContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2727 };

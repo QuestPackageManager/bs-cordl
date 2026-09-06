@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberConnectedPlayerManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberConnectedPlayerManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,12 @@ namespace GlobalNamespace {
 class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class IConnectedPlayerFactory_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class IConnectedPlayerFactory_3;
 }
 namespace GlobalNamespace {
 class IConnectionManager;
@@ -41,7 +46,9 @@ namespace GlobalNamespace {
 struct MultiplayerAvatarsData;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData> class NetworkPacketSerializer_2;
+template <typename TType, typename TData>
+  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
+class NetworkPacketSerializer_2;
 }
 namespace GlobalNamespace {
 class PlayerAvatarPacket;
@@ -93,7 +100,7 @@ public:
   // @brief default ctor
   constexpr BeatSaberConnectedPlayerManager_BeatSaberMessageType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatSaberConnectedPlayerManager_BeatSaberMessageType(uint8_t value__) noexcept;
 
   /// @brief Field PlayerAvatarUpdate value: U8(0)
@@ -225,15 +232,19 @@ public:
                     ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                  ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* connectedPlayerFactory);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerAvatarChangedEvent, addr 0x32a7400, size 0xc0, virtual false, abstract: false, final false
   inline void add_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerControllerDataChangedEvent, addr 0x32a7580, size 0xc0, virtual false, abstract: false, final false
   inline void add_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerAvatarChangedEvent, addr 0x32a74c0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerControllerDataChangedEvent, addr 0x32a7640, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
@@ -243,20 +254,22 @@ protected:
   constexpr BeatSaberConnectedPlayerManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayerManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayerManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatSaberConnectedPlayerManager(BeatSaberConnectedPlayerManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayerManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayerManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberConnectedPlayerManager(BeatSaberConnectedPlayerManager const&) = delete;
+  BeatSaberConnectedPlayerManager(BeatSaberConnectedPlayerManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18839 };
 
+  /// [CompilerGenerated]
   /// @brief Field playerAvatarChangedEvent, offset: 0x108, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* ___playerAvatarChangedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerControllerDataChangedEvent, offset: 0x110, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* ___playerControllerDataChangedEvent;
 

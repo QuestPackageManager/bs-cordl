@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Users\InputUser.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Users/InputUser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -80,7 +82,9 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T> class SavedStructState_1_TypedRestore;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class SavedStructState_1_TypedRestore;
 }
 namespace UnityEngine::InputSystem {
 class IInputActionCollection;
@@ -89,7 +93,9 @@ namespace UnityEngine::InputSystem {
 struct InputActionChange;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputControlScheme_MatchResult;
@@ -162,7 +168,7 @@ public:
   // @brief default ctor
   constexpr InputUser_ControlSchemeChangeSyntax();
 
-  // Ctor Parameters [CppParam { name: "m_UserIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_UserIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputUser_ControlSchemeChangeSyntax(int32_t m_UserIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -182,6 +188,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::InputUser_ControlSchem
 static_assert(sizeof(::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Users
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
@@ -211,7 +218,7 @@ public:
   // @brief default ctor
   constexpr InputUser_UserFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputUser_UserFlags(int32_t value__) noexcept;
 
   /// @brief Field BindToAllDevices value: I32(1)
@@ -249,14 +256,14 @@ public:
   // @brief default ctor
   constexpr InputUser_UserData();
 
-  // Ctor Parameters [CppParam { name: "platformUserAccountHandle", ty: "::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>", modifiers: "", def_value: None }, CppParam {
-  // name: "platformUserAccountName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformUserAccountId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "deviceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "deviceStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "actions", ty:
-  // "::UnityEngine::InputSystem::IInputActionCollection*", modifiers: "", def_value: None }, CppParam { name: "controlScheme", ty:
-  // "::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme>", modifiers: "", def_value: None }, CppParam { name: "controlSchemeMatch", ty:
-  // "::UnityEngine::InputSystem::InputControlScheme_MatchResult", modifiers: "", def_value: None }, CppParam { name: "lostDeviceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "lostDeviceStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::InputSystem::Users::InputUser_UserFlags", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "platformUserAccountHandle", ty: "::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "platformUserAccountName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "platformUserAccountId", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "deviceCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "deviceStartIndex", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "actions", ty: "::UnityEngine::InputSystem::IInputActionCollection*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "controlScheme", ty: "::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme>", modifiers: "", def_value: None, comment: None }, CppParam { name: "controlSchemeMatch", ty:
+  // "::UnityEngine::InputSystem::InputControlScheme_MatchResult", modifiers: "", def_value: None, comment: None }, CppParam { name: "lostDeviceCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "lostDeviceStartIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty:
+  // "::UnityEngine::InputSystem::Users::InputUser_UserFlags", modifiers: "", def_value: None, comment: None }]
   constexpr InputUser_UserData(::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> platformUserAccountHandle, ::StringW platformUserAccountName,
                                ::StringW platformUserAccountId, int32_t deviceCount, int32_t deviceStartIndex, ::UnityEngine::InputSystem::IInputActionCollection* actions,
                                ::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> controlScheme, ::UnityEngine::InputSystem::InputControlScheme_MatchResult controlSchemeMatch,
@@ -352,7 +359,7 @@ public:
   // @brief default ctor
   constexpr InputUser_CompareDevicesByUserAccount();
 
-  // Ctor Parameters [CppParam { name: "platformUserAccountHandle", ty: "::UnityEngine::InputSystem::Users::InputUserAccountHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "platformUserAccountHandle", ty: "::UnityEngine::InputSystem::Users::InputUserAccountHandle", modifiers: "", def_value: None, comment: None }]
   constexpr InputUser_CompareDevicesByUserAccount(::UnityEngine::InputSystem::Users::InputUserAccountHandle platformUserAccountHandle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -383,8 +390,8 @@ public:
   // @brief default ctor
   constexpr InputUser_OngoingAccountSelection();
 
-  // Ctor Parameters [CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "uint32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None, comment: None }, CppParam { name: "userId", ty: "uint32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr InputUser_OngoingAccountSelection(::UnityEngine::InputSystem::InputDevice* device, uint32_t userId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -697,7 +704,7 @@ public:
   // @brief default ctor
   constexpr InputUser();
 
-  // Ctor Parameters [CppParam { name: "m_Id", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Id", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputUser(uint32_t m_Id) noexcept;
 
   /// @brief Field InvalidId offset 0xffffffff size 0x4
@@ -732,23 +739,26 @@ public:
   // @brief default ctor
   constexpr InputUser_GlobalState();
 
-  // Ctor Parameters [CppParam { name: "pairingStateVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastUserId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "allUserCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allPairedDeviceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "allLostDeviceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allUsers", ty: "::ArrayW<::UnityEngine::InputSystem::Users::InputUser>", modifiers: "", def_value: None },
-  // CppParam { name: "allUserData", ty: "::ArrayW<::UnityEngine::InputSystem::Users::InputUser_UserData>", modifiers: "", def_value: None }, CppParam { name: "allPairedDevices", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: None }, CppParam { name: "allLostDevices", ty: "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "",
-  // def_value: None }, CppParam { name: "ongoingAccountSelections", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Users::InputUser_OngoingAccountSelection>",
-  // modifiers: "", def_value: None }, CppParam { name: "onChange", ty:
+  // Ctor Parameters [CppParam { name: "pairingStateVersion", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastUserId", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "allUserCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "allPairedDeviceCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "allLostDeviceCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "allUsers", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::Users::InputUser>", modifiers: "", def_value: None, comment: None }, CppParam { name: "allUserData", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::Users::InputUser_UserData>", modifiers: "", def_value: None, comment: None }, CppParam { name: "allPairedDevices", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "allLostDevices", ty: "::ArrayW<::UnityEngine::InputSystem::InputDevice*>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "ongoingAccountSelections", ty:
+  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Users::InputUser_OngoingAccountSelection>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "onChange", ty:
   // "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_3<::UnityEngine::InputSystem::Users::InputUser,::UnityEngine::InputSystem::Users::InputUserChange,::UnityEngine::InputSystem::InputDevice*>*>",
-  // modifiers: "", def_value: None }, CppParam { name: "onUnpairedDeviceUsed", ty:
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "onUnpairedDeviceUsed", ty:
   // "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputControl*,::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "onPreFilterUnpairedDeviceUsed", ty:
+  // def_value: None, comment: None }, CppParam { name: "onPreFilterUnpairedDeviceUsed", ty:
   // "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_3<::UnityEngine::InputSystem::InputDevice*,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "actionChangeDelegate", ty: "::System::Action_2<::System::Object*,::UnityEngine::InputSystem::InputActionChange>*", modifiers: "", def_value: None }, CppParam
-  // { name: "onDeviceChangeDelegate", ty: "::System::Action_2<::UnityEngine::InputSystem::InputDevice*,::UnityEngine::InputSystem::InputDeviceChange>*", modifiers: "", def_value: None }, CppParam {
-  // name: "onEventDelegate", ty: "::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr,::UnityEngine::InputSystem::InputDevice*>*", modifiers: "", def_value: None }, CppParam {
-  // name: "onActionChangeHooked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "onDeviceChangeHooked", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "onEventHooked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "listenForUnpairedDeviceActivity", ty: "int32_t", modifiers: "", def_value: None }]
+  // def_value: None, comment: None }, CppParam { name: "actionChangeDelegate", ty: "::System::Action_2<::System::Object*,::UnityEngine::InputSystem::InputActionChange>*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "onDeviceChangeDelegate", ty: "::System::Action_2<::UnityEngine::InputSystem::InputDevice*,::UnityEngine::InputSystem::InputDeviceChange>*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "onEventDelegate", ty: "::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr,::UnityEngine::InputSystem::InputDevice*>*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "onActionChangeHooked", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "onDeviceChangeHooked", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "onEventHooked", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "listenForUnpairedDeviceActivity", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputUser_GlobalState(
       int32_t pairingStateVersion, uint32_t lastUserId, int32_t allUserCount, int32_t allPairedDeviceCount, int32_t allLostDeviceCount, ::ArrayW<::UnityEngine::InputSystem::Users::InputUser> allUsers,
       ::ArrayW<::UnityEngine::InputSystem::Users::InputUser_UserData> allUserData, ::ArrayW<::UnityEngine::InputSystem::InputDevice*> allPairedDevices,
@@ -880,6 +890,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::InputUser_GlobalState,
 static_assert(sizeof(::UnityEngine::InputSystem::Users::InputUser_GlobalState) == 0x168, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Users
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Users {
 // Is value type: false
@@ -926,13 +937,13 @@ protected:
   constexpr InputUser___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputUser___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputUser___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputUser___c(InputUser___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputUser___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputUser___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputUser___c(InputUser___c const&) = delete;
+  InputUser___c(InputUser___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8851 };

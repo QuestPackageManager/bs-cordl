@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\InitializationTime.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/InitializationTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 struct TimeSpan;
@@ -35,6 +37,7 @@ MARK_REF_T(::BGLib::AppFlow::Initialization::InitializationTime*);
 MARK_REF_T(::BGLib::AppFlow::Initialization::InitializationTime___c*);
 DEFINE_IL2CPP_CLASS(::BGLib::AppFlow::Initialization::InitializationTime*, "BGLib.AppFlow.Initialization", "InitializationTime");
 DEFINE_IL2CPP_CLASS(::BGLib::AppFlow::Initialization::InitializationTime___c*, "BGLib.AppFlow.Initialization", "InitializationTime/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
@@ -54,10 +57,10 @@ public:
   static inline ::BGLib::AppFlow::Initialization::InitializationTime___c* New_ctor();
 
   /// @brief Method <ToString>b__20_0, addr 0x330b1ec, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW _ToString_b__20_0(::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple);
+  inline ::StringW _ToString_b__20_0(/* [TupleElementNames(new[] { "header", "duration" })] */ ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple);
 
   /// @brief Method <ToString>b__20_1, addr 0x330b1f4, size 0x198, virtual false, abstract: false, final false
-  inline ::StringW _ToString_b__20_1(::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple);
+  inline ::StringW _ToString_b__20_1(/* [TupleElementNames(new[] { "header", "duration" })] */ ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple);
 
   /// @brief Method .ctor, addr 0x330b1e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -80,13 +83,13 @@ protected:
   constexpr InitializationTime___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationTime___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationTime___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializationTime___c(InitializationTime___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationTime___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationTime___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationTime___c(InitializationTime___c const&) = delete;
+  InitializationTime___c(InitializationTime___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21565 };
@@ -142,9 +145,11 @@ public:
   /// @brief Method InitializeWithEditorTimestamp, addr 0x330a2d4, size 0xc4, virtual false, abstract: false, final false
   static inline void InitializeWithEditorTimestamp();
 
+  /// [Conditional("LOG_EACH_EVENT")]
   /// @brief Method LogEventName, addr 0x330b104, size 0x4, virtual false, abstract: false, final false
   static inline void LogEventName(::StringW eventName);
 
+  /// [Conditional("BG_VERBOSE_LOGGING")]
   /// @brief Method LogVerbose, addr 0x330b108, size 0x8c, virtual false, abstract: false, final false
   static inline void LogVerbose(::StringW log);
 
@@ -165,6 +170,7 @@ public:
   /// @brief Method ReportSceneContextEnded, addr 0x3300c10, size 0x5c, virtual false, abstract: false, final false
   inline void ReportSceneContextEnded();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)3)]
   /// @brief Method RunBeforeInitialization, addr 0x330a410, size 0x134, virtual false, abstract: false, final false
   static inline void RunBeforeInitialization();
 
@@ -230,11 +236,13 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::InitializationTime* getStaticF__Current_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Current, addr 0x330a238, size 0x4c, virtual false, abstract: false, final false
   static inline ::BGLib::AppFlow::Initialization::InitializationTime* get_Current();
 
   static inline void setStaticF__Current_k__BackingField(::BGLib::AppFlow::Initialization::InitializationTime* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Current, addr 0x330a284, size 0x50, virtual false, abstract: false, final false
   static inline void set_Current(::BGLib::AppFlow::Initialization::InitializationTime* value);
 
@@ -244,13 +252,13 @@ protected:
   constexpr InitializationTime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationTime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationTime", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializationTime(InitializationTime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationTime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationTime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationTime(InitializationTime const&) = delete;
+  InitializationTime(InitializationTimeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21566 };

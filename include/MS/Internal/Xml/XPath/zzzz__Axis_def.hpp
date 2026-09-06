@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS\Internal\Xml\XPath\Axis.hpp"
+// IWYU pragma private; include "MS/Internal/Xml/XPath/Axis.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,7 +77,7 @@ public:
   // @brief default ctor
   constexpr Axis_AxisType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Axis_AxisType(int32_t value__) noexcept;
 
   /// @brief Field Ancestor value: I32(0)
@@ -279,13 +279,13 @@ protected:
   constexpr Axis();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Axis", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Axis", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Axis(Axis&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Axis", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Axis", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Axis(Axis const&) = delete;
+  Axis(Axisconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9865 };

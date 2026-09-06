@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberX509CertificateUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberX509CertificateUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +56,13 @@ protected:
   constexpr BeatSaberX509CertificateUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberX509CertificateUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberX509CertificateUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatSaberX509CertificateUtility(BeatSaberX509CertificateUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberX509CertificateUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberX509CertificateUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberX509CertificateUtility(BeatSaberX509CertificateUtility const&) = delete;
+  BeatSaberX509CertificateUtility(BeatSaberX509CertificateUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18846 };

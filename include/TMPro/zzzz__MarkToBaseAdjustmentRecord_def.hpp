@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\MarkToBaseAdjustmentRecord.hpp"
+// IWYU pragma private; include "TMPro/MarkToBaseAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,9 +64,9 @@ public:
   // @brief default ctor
   constexpr MarkToBaseAdjustmentRecord();
 
-  // Ctor Parameters [CppParam { name: "m_BaseGlyphID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_BaseGlyphAnchorPoint", ty: "::TMPro::GlyphAnchorPoint", modifiers: "",
-  // def_value: None }, CppParam { name: "m_MarkGlyphID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_MarkPositionAdjustment", ty: "::TMPro::MarkPositionAdjustment",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BaseGlyphID", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BaseGlyphAnchorPoint", ty: "::TMPro::GlyphAnchorPoint",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MarkGlyphID", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MarkPositionAdjustment",
+  // ty: "::TMPro::MarkPositionAdjustment", modifiers: "", def_value: None, comment: None }]
   constexpr MarkToBaseAdjustmentRecord(uint32_t m_BaseGlyphID, ::TMPro::GlyphAnchorPoint m_BaseGlyphAnchorPoint, uint32_t m_MarkGlyphID,
                                        ::TMPro::MarkPositionAdjustment m_MarkPositionAdjustment) noexcept;
 
@@ -76,15 +76,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [SerializeField]
   /// @brief Field m_BaseGlyphID, offset: 0x0, size: 0x4, def value: None
   uint32_t m_BaseGlyphID;
 
+  /// [SerializeField]
   /// @brief Field m_BaseGlyphAnchorPoint, offset: 0x4, size: 0x8, def value: None
   ::TMPro::GlyphAnchorPoint m_BaseGlyphAnchorPoint;
 
+  /// [SerializeField]
   /// @brief Field m_MarkGlyphID, offset: 0xc, size: 0x4, def value: None
   uint32_t m_MarkGlyphID;
 
+  /// [SerializeField]
   /// @brief Field m_MarkPositionAdjustment, offset: 0x10, size: 0x8, def value: None
   ::TMPro::MarkPositionAdjustment m_MarkPositionAdjustment;
 

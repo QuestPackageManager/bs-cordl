@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceShadowsSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceShadowsSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceShadowsSettings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsSettings._ctor

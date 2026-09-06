@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\IntegrationInfo.hpp"
+// IWYU pragma private; include "UnityEngine/IntegrationInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedB
 DEFINE_IL2CPP_CLASS(::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer, "UnityEngine", "IntegrationInfo/<SdkVersion>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer, "UnityEngine", "IntegrationInfo/<m_Desc>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer, "UnityEngine", "IntegrationInfo/<m_Name>e__FixedBuffer");
+// [Flags]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -88,7 +89,7 @@ public:
   // @brief default ctor
   constexpr IntegrationInfo_SupportedUnityFeatures();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IntegrationInfo_SupportedUnityFeatures(int32_t value__) noexcept;
 
   /// @brief Field ArticulationSupport value: I32(8)
@@ -129,6 +130,8 @@ static_assert(offsetof(::UnityEngine::IntegrationInfo_SupportedUnityFeatures, va
 static_assert(sizeof(::UnityEngine::IntegrationInfo_SupportedUnityFeatures) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -141,7 +144,7 @@ public:
   // @brief default ctor
   constexpr IntegrationInfo__IntegrationVersion_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr IntegrationInfo__IntegrationVersion_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -165,6 +168,8 @@ static_assert(offsetof(::UnityEngine::IntegrationInfo__IntegrationVersion_e__Fix
 static_assert(sizeof(::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer) == 0x6, "Size mismatch!");
 
 } // namespace UnityEngine
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -177,7 +182,7 @@ public:
   // @brief default ctor
   constexpr IntegrationInfo__SdkVersion_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr IntegrationInfo__SdkVersion_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -201,6 +206,8 @@ static_assert(offsetof(::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer
 static_assert(sizeof(::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer) == 0x6, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -213,7 +220,7 @@ public:
   // @brief default ctor
   constexpr IntegrationInfo__m_Desc_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr IntegrationInfo__m_Desc_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -237,6 +244,8 @@ static_assert(offsetof(::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer, Fi
 static_assert(sizeof(::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer) == 0xdc, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -249,7 +258,7 @@ public:
   // @brief default ctor
   constexpr IntegrationInfo__m_Name_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr IntegrationInfo__m_Name_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -360,11 +369,11 @@ public:
   // @brief default ctor
   constexpr IntegrationInfo();
 
-  // Ctor Parameters [CppParam { name: "Id", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "IntegrationVersion", ty:
-  // "::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "SdkVersion", ty:
-  // "::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "m_Features", ty: "::UnityEngine::IntegrationInfo_SupportedUnityFeatures",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "m_Desc", ty:
-  // "::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Id", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "IntegrationVersion", ty:
+  // "::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "SdkVersion", ty:
+  // "::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Features", ty:
+  // "::UnityEngine::IntegrationInfo_SupportedUnityFeatures", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Name", ty: "::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Desc", ty: "::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr IntegrationInfo(uint32_t Id, ::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer IntegrationVersion, ::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer SdkVersion,
                             ::UnityEngine::IntegrationInfo_SupportedUnityFeatures m_Features, ::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer m_Name,
                             ::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer m_Desc) noexcept;
@@ -390,6 +399,7 @@ private:
     struct {
       /// @brief Padding field 0x4
       uint8_t ___IntegrationVersion_padding[0x4];
+      /// [FixedBuffer(typeof(System.UInt16), 3)]
       /// @brief Field IntegrationVersion, offset: 0x4, size: 0x6, def value: None
       ::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer ___IntegrationVersion;
     };
@@ -397,6 +407,7 @@ private:
     struct {
       /// @brief Padding field 0x4 for alignment
       uint8_t ___IntegrationVersion_padding_forAlignment[0x4];
+      /// [FixedBuffer(typeof(System.UInt16), 3)]
       /// @brief Field IntegrationVersion, offset: 0x4, size: 0x6, def value: None
       ::UnityEngine::IntegrationInfo__IntegrationVersion_e__FixedBuffer ___IntegrationVersion_forAlignment;
     };
@@ -404,6 +415,7 @@ private:
     struct {
       /// @brief Padding field 0xa
       uint8_t ___SdkVersion_padding[0xa];
+      /// [FixedBuffer(typeof(System.UInt16), 3)]
       /// @brief Field SdkVersion, offset: 0xa, size: 0x6, def value: None
       ::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer ___SdkVersion;
     };
@@ -411,6 +423,7 @@ private:
     struct {
       /// @brief Padding field 0xa for alignment
       uint8_t ___SdkVersion_padding_forAlignment[0xa];
+      /// [FixedBuffer(typeof(System.UInt16), 3)]
       /// @brief Field SdkVersion, offset: 0xa, size: 0x6, def value: None
       ::UnityEngine::IntegrationInfo__SdkVersion_e__FixedBuffer ___SdkVersion_forAlignment;
     };
@@ -432,6 +445,7 @@ private:
     struct {
       /// @brief Padding field 0x14
       uint8_t ___m_Name_padding[0x14];
+      /// [FixedBuffer(typeof(System.Byte), 16)]
       /// @brief Field m_Name, offset: 0x14, size: 0x10, def value: None
       ::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer ___m_Name;
     };
@@ -439,6 +453,7 @@ private:
     struct {
       /// @brief Padding field 0x14 for alignment
       uint8_t ___m_Name_padding_forAlignment[0x14];
+      /// [FixedBuffer(typeof(System.Byte), 16)]
       /// @brief Field m_Name, offset: 0x14, size: 0x10, def value: None
       ::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer ___m_Name_forAlignment;
     };
@@ -446,6 +461,7 @@ private:
     struct {
       /// @brief Padding field 0x24
       uint8_t ___m_Desc_padding[0x24];
+      /// [FixedBuffer(typeof(System.Byte), 220)]
       /// @brief Field m_Desc, offset: 0x24, size: 0xdc, def value: None
       ::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer ___m_Desc;
     };
@@ -453,6 +469,7 @@ private:
     struct {
       /// @brief Padding field 0x24 for alignment
       uint8_t ___m_Desc_padding_forAlignment[0x24];
+      /// [FixedBuffer(typeof(System.Byte), 220)]
       /// @brief Field m_Desc, offset: 0x24, size: 0xdc, def value: None
       ::UnityEngine::IntegrationInfo__m_Desc_e__FixedBuffer ___m_Desc_forAlignment;
     };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorSchemeIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorSchemeIdAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeIdAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSchemeIdAttribute._ctor

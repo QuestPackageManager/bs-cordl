@@ -1,9 +1,15 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeParallelMultiHashMapExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeParallelMultiHashMapExtensions.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelMultiHashMapExtensions_def.hpp"
 #include "Unity/Collections/zzzz__NativeParallelMultiHashMap_2_def.hpp"
 template <typename TKey, typename TValue, typename U>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+           ::cordl_internals::default_constructor_constraint<U>)
 inline void Unity::Collections::NativeParallelMultiHashMapExtensions::Initialize(::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue>> container, int32_t capacity,
                                                                                  ::by_ref<U> allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(

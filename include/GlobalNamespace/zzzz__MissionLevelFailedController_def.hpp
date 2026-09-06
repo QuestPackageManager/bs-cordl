@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionLevelFailedController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionLevelFailedController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,13 +96,13 @@ protected:
   constexpr MissionLevelFailedController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelFailedController_InitData(MissionLevelFailedController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelFailedController_InitData(MissionLevelFailedController_InitData const&) = delete;
+  MissionLevelFailedController_InitData(MissionLevelFailedController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6782 };
@@ -118,6 +118,7 @@ static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController_InitData,
 static_assert(sizeof(::GlobalNamespace::MissionLevelFailedController_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -154,17 +155,22 @@ public:
   /// @brief Method MoveNext, addr 0x5918b74, size 0x178, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5918cec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5918cf4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5918d2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5918b70, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -192,6 +198,7 @@ public:
 
   constexpr void __cordl_internal_set__missionCompletionResults_5__2(::GlobalNamespace::MissionCompletionResults* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5918b5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -210,13 +217,13 @@ protected:
   constexpr MissionLevelFailedController__LevelFailedCoroutine_d__13();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController__LevelFailedCoroutine_d__13", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController__LevelFailedCoroutine_d__13", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelFailedController__LevelFailedCoroutine_d__13(MissionLevelFailedController__LevelFailedCoroutine_d__13&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController__LevelFailedCoroutine_d__13", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController__LevelFailedCoroutine_d__13", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelFailedController__LevelFailedCoroutine_d__13(MissionLevelFailedController__LevelFailedCoroutine_d__13 const&) = delete;
+  MissionLevelFailedController__LevelFailedCoroutine_d__13(MissionLevelFailedController__LevelFailedCoroutine_d__13const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6783 };
@@ -293,6 +300,7 @@ public:
   /// @brief Method HandleLevelFailed, addr 0x5918ae8, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
+  /// [IteratorStateMachine(typeof(MissionLevelFailedController::<LevelFailedCoroutine>d__13))]
   /// @brief Method LevelFailedCoroutine, addr 0x5918b08, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LevelFailedCoroutine();
 
@@ -367,41 +375,50 @@ protected:
   constexpr MissionLevelFailedController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelFailedController(MissionLevelFailedController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelFailedController(MissionLevelFailedController const&) = delete;
+  MissionLevelFailedController(MissionLevelFailedControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6784 };
 
+  /// [SerializeField]
   /// @brief Field _levelFailedTextEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelFailedTextEffect> ____levelFailedTextEffect;
 
+  /// [SerializeField]
   /// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
+  /// [SerializeField]
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::MissionLevelFailedController_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectSpawnController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> ____beatmapObjectSpawnController;
 
+  /// [Inject]
   /// @brief Field _gameSongController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
 
+  /// [Inject]
   /// @brief Field _gameplayManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _missionLevelSceneSetupData, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::MissionLevelScenesTransitionSetupData* ____missionLevelSceneSetupData;
 

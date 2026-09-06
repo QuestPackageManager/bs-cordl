@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\InputActions\RuntimeSettings.hpp"
+// IWYU pragma private; include "Meta/XR/InputActions/RuntimeSettings.hpp"
 #include "GlobalNamespace/zzzz__OVRRuntimeAssetsBase_impl.hpp"
 #include "Meta/XR/InputActions/zzzz__RuntimeSettings_def.hpp"
 #include "Meta/XR/InputActions/zzzz__InputActionSet_def.hpp"

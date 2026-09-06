@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerHeightDetector.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerHeightDetector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +76,13 @@ protected:
   constexpr PlayerHeightDetector_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerHeightDetector_InitData(PlayerHeightDetector_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerHeightDetector_InitData(PlayerHeightDetector_InitData const&) = delete;
+  PlayerHeightDetector_InitData(PlayerHeightDetector_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6214 };
@@ -103,6 +103,7 @@ static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector_InitData, ___star
 static_assert(sizeof(::GlobalNamespace::PlayerHeightDetector_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/PlayerHeightDetector")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -223,12 +224,14 @@ public:
   /// @brief Method .ctor, addr 0x59ed5b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerHeightDidChangeEvent, addr 0x59ed0e4, size 0xc0, virtual false, abstract: false, final false
   inline void add_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
   /// @brief Method get_playerHeight, addr 0x59ed264, size 0x8, virtual false, abstract: false, final false
   inline float_t get_playerHeight();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerHeightDidChangeEvent, addr 0x59ed1a4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
@@ -238,29 +241,34 @@ protected:
   constexpr PlayerHeightDetector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerHeightDetector(PlayerHeightDetector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerHeightDetector(PlayerHeightDetector const&) = delete;
+  PlayerHeightDetector(PlayerHeightDetectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6215 };
 
+  /// [Inject]
   /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayerHeightDetector_InitData* ____initData;
 
+  /// [CompilerGenerated]
   /// @brief Field playerHeightDidChangeEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___playerHeightDidChangeEvent;
 

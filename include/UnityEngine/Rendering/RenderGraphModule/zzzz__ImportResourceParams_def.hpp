@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\ImportResourceParams.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/ImportResourceParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr ImportResourceParams();
 
-  // Ctor Parameters [CppParam { name: "clearOnFirstUse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None },
-  // CppParam { name: "discardOnLastUse", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "clearOnFirstUse", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "discardOnLastUse", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ImportResourceParams(bool clearOnFirstUse, ::UnityEngine::Color clearColor, bool discardOnLastUse) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

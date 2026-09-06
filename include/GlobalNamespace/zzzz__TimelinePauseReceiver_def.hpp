@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TimelinePauseReceiver.hpp"
+// IWYU pragma private; include "GlobalNamespace/TimelinePauseReceiver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,12 +54,14 @@ public:
   /// @brief Method .ctor, addr 0x585978c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_timelinePauseEvent, addr 0x5859590, size 0xac, virtual false, abstract: false, final false
   inline void add_timelinePauseEvent(::System::Action* value);
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_timelinePauseEvent, addr 0x585963c, size 0xac, virtual false, abstract: false, final false
   inline void remove_timelinePauseEvent(::System::Action* value);
 
@@ -69,17 +71,18 @@ protected:
   constexpr TimelinePauseReceiver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelinePauseReceiver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelinePauseReceiver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelinePauseReceiver(TimelinePauseReceiver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelinePauseReceiver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelinePauseReceiver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelinePauseReceiver(TimelinePauseReceiver const&) = delete;
+  TimelinePauseReceiver(TimelinePauseReceiverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21444 };
 
+  /// [CompilerGenerated]
   /// @brief Field timelinePauseEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___timelinePauseEvent;
 

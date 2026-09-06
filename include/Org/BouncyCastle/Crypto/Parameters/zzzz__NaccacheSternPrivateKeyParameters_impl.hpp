@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\NaccacheSternPrivateKeyParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/NaccacheSternPrivateKeyParameters.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternKeyParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternPrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
@@ -144,6 +144,7 @@ inline ::System::Collections::IList* Org::BouncyCastle::Crypto::Parameters::Nacc
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters*>(), { "get_SmallPrimesList", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IList*>(this, ___internal_method);
 }
+/// @brief [Obsolete]
 inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters*
 Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound,
                                                                                    ::System::Collections::ArrayList* smallPrimes, ::Org::BouncyCastle::Math::BigInteger* phiN) {

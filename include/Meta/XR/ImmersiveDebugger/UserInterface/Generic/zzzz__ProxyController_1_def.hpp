@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ProxyController_1.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ProxyController_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Controller_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ProxyController_1)
 namespace System::Collections::Generic {
@@ -10,15 +11,18 @@ template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
-template <typename ControllerType> class ProxyController_1;
+template <typename ControllerType>
+  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>)
+class ProxyController_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "ProxyController`1");
-// Dependencies System.Object
+// Dependencies Meta.XR.ImmersiveDebugger.UserInterface.Generic.Controller, System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // cpp template
 template <typename ControllerType>
+  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>)
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.ProxyController`1<ControllerType>
 class CORDL_TYPE ProxyController_1 : public ::System::Object {
@@ -29,7 +33,7 @@ public:
   /// @brief Field <Target>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Target_k__BackingField, put = __cordl_internal_set__Target_k__BackingField)) ControllerType _Target_k__BackingField;
 
-  /// @brief Method Fill, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Fill();
 
   /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -47,9 +51,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Target, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ControllerType get_Target();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Target, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Target(ControllerType value);
 
@@ -59,17 +65,18 @@ protected:
   constexpr ProxyController_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyController_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyController_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProxyController_1(ProxyController_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyController_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyController_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProxyController_1(ProxyController_1 const&) = delete;
+  ProxyController_1(ProxyController_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18413 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Target>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ControllerType ____Target_k__BackingField;
 

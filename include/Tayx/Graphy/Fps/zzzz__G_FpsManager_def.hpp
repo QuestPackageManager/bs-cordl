@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Fps\G_FpsManager.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Fps/G_FpsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -208,23 +208,26 @@ protected:
   constexpr G_FpsManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_FpsManager(G_FpsManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_FpsManager(G_FpsManager const&) = delete;
+  G_FpsManager(G_FpsManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21499 };
 
+  /// [SerializeField]
   /// @brief Field m_fpsGraphGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_fpsGraphGameObject;
 
+  /// [SerializeField]
   /// @brief Field m_nonBasicTextGameObjects, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ___m_nonBasicTextGameObjects;
 
+  /// [SerializeField]
   /// @brief Field m_backgroundImages, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* ___m_backgroundImages;
 

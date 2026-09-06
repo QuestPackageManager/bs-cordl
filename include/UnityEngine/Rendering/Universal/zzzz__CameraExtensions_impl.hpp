@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\CameraExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/CameraExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__CameraExtensions_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalAdditionalCameraData_def.hpp"

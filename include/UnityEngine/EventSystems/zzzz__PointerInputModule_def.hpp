@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\PointerInputModule.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/PointerInputModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,13 +120,13 @@ protected:
   constexpr PointerInputModule_ButtonState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_ButtonState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_ButtonState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerInputModule_ButtonState(PointerInputModule_ButtonState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_ButtonState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_ButtonState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerInputModule_ButtonState(PointerInputModule_ButtonState const&) = delete;
+  PointerInputModule_ButtonState(PointerInputModule_ButtonStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17569 };
@@ -188,13 +188,13 @@ protected:
   constexpr PointerInputModule_MouseState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_MouseState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_MouseState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerInputModule_MouseState(PointerInputModule_MouseState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_MouseState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_MouseState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerInputModule_MouseState(PointerInputModule_MouseState const&) = delete;
+  PointerInputModule_MouseState(PointerInputModule_MouseStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17570 };
@@ -252,13 +252,13 @@ protected:
   constexpr PointerInputModule_MouseButtonEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_MouseButtonEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_MouseButtonEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerInputModule_MouseButtonEventData(PointerInputModule_MouseButtonEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_MouseButtonEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule_MouseButtonEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerInputModule_MouseButtonEventData(PointerInputModule_MouseButtonEventData const&) = delete;
+  PointerInputModule_MouseButtonEventData(PointerInputModule_MouseButtonEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17571 };
@@ -367,13 +367,13 @@ protected:
   constexpr PointerInputModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerInputModule(PointerInputModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerInputModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerInputModule(PointerInputModule const&) = delete;
+  PointerInputModule(PointerInputModuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17572 };

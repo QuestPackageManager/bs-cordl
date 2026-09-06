@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXMouseEventBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXMouseEventBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   // @brief default ctor
   constexpr VFXMouseEventBinder_Activation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VFXMouseEventBinder_Activation(int32_t value__) noexcept;
 
   /// @brief Field OnMouseDown value: I32(1)
@@ -112,6 +112,7 @@ static_assert(offsetof(::UnityEngine::VFX::Utility::VFXMouseEventBinder_Activati
 static_assert(sizeof(::UnityEngine::VFX::Utility::VFXMouseEventBinder_Activation) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::VFX::Utility
+// [RequireComponent(typeof(UnityEngine.Collider))]
 // Dependencies UnityEngine.VFX.Utility.VFXEventBinderBase, UnityEngine.VFX.Utility.VFXMouseEventBinder::Activation
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -195,9 +196,11 @@ public:
   /// @brief Method SetEventAttribute, addr 0x69e06f4, size 0x10c, virtual true, abstract: false, final false
   inline void SetEventAttribute(::ArrayW<::System::Object*> parameters);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__12_0, addr 0x69e13e4, size 0x80, virtual false, abstract: false, final false
   inline void _Awake_b__12_0(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__12_1, addr 0x69e1464, size 0x80, virtual false, abstract: false, final false
   inline void _Awake_b__12_1(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
@@ -270,13 +273,13 @@ protected:
   constexpr VFXMouseEventBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXMouseEventBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXMouseEventBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXMouseEventBinder(VFXMouseEventBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXMouseEventBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXMouseEventBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXMouseEventBinder(VFXMouseEventBinder const&) = delete;
+  VFXMouseEventBinder(VFXMouseEventBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19976 };
@@ -287,6 +290,7 @@ public:
   /// @brief Field position, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___position;
 
+  /// [Tooltip("Computes intersection in world space and sets it to the position EventAttribute")]
   /// @brief Field RaycastMousePosition, offset: 0x48, size: 0x1, def value: None
   bool ___RaycastMousePosition;
 

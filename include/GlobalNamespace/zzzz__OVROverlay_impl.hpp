@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVROverlay.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVROverlay.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
@@ -30,7 +30,7 @@
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVROverlay_OverlayShape::OVROverlay_OverlayShape(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -46,7 +46,7 @@ constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay
 constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::Fisheye{ static_cast<int32_t>(0x9) };
 constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::KeyboardHandsPassthrough{ static_cast<int32_t>(0xa) };
 constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::KeyboardMaskedHandsPassthrough{ static_cast<int32_t>(0xb) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVROverlay_OverlayType::OVROverlay_OverlayType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -135,9 +135,9 @@ inline ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated* GlobalNamespa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::OVROverlay_ExternalSurfaceObjectCreated() {}
-// Ctor Parameters [CppParam { name: "appTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "appTexturePtr", ty: "::System::IntPtr", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "swapChain", ty: "::ArrayW<::UnityW<::UnityEngine::Texture>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "swapChainPtr", ty:
-// "::ArrayW<::System::IntPtr>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "appTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "appTexturePtr", ty:
+// "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "swapChain", ty: "::ArrayW<::UnityW<::UnityEngine::Texture>>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "swapChainPtr", ty: "::ArrayW<::System::IntPtr>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVROverlay_LayerTexture::OVROverlay_LayerTexture(::UnityW<::UnityEngine::Texture> appTexture, ::System::IntPtr appTexturePtr,
                                                                               ::ArrayW<::UnityW<::UnityEngine::Texture>> swapChain, ::ArrayW<::System::IntPtr> swapChainPtr) noexcept {
   this->appTexture = appTexture;

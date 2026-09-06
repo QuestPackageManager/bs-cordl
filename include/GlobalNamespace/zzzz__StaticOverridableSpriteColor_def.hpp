@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StaticOverridableSpriteColor.hpp"
+// IWYU pragma private; include "GlobalNamespace/StaticOverridableSpriteColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,29 +92,35 @@ protected:
   constexpr StaticOverridableSpriteColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticOverridableSpriteColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticOverridableSpriteColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticOverridableSpriteColor(StaticOverridableSpriteColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticOverridableSpriteColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticOverridableSpriteColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticOverridableSpriteColor(StaticOverridableSpriteColor const&) = delete;
+  StaticOverridableSpriteColor(StaticOverridableSpriteColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6678 };
 
+  /// [SerializeField]
   /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x28, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
   /// @brief Field _minAlpha, offset: 0x2c, size: 0x4, def value: None
   float_t ____minAlpha;
 
+  /// [SerializeField]
   /// @brief Field _colorType, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ____colorType;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 

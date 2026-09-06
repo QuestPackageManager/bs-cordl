@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionTestComputeShader.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionTestComputeShader.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionTestComputeShader_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
@@ -22,8 +22,8 @@ inline void UnityEngine::Rendering::OcclusionTestComputeShader::Init(::UnityEngi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionTestComputeShader>(), { "Init", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cs);
 }
-// Ctor Parameters [CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}") }, CppParam { name: "occlusionDebugKeyword", ty:
-// "::UnityEngine::Rendering::LocalKeyword", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occlusionDebugKeyword", ty:
+// "::UnityEngine::Rendering::LocalKeyword", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OcclusionTestComputeShader::OcclusionTestComputeShader(::UnityW<::UnityEngine::ComputeShader> cs,
                                                                                            ::UnityEngine::Rendering::LocalKeyword occlusionDebugKeyword) noexcept {
   this->cs = cs;

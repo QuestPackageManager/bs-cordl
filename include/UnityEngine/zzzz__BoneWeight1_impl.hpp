@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BoneWeight1.hpp"
+// IWYU pragma private; include "UnityEngine/BoneWeight1.hpp"
 #include "UnityEngine/zzzz__BoneWeight1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -93,7 +93,8 @@ constexpr UnityEngine::BoneWeight1::operator ::System::IEquatable_1<::UnityEngin
 constexpr ::System::IEquatable_1<::UnityEngine::BoneWeight1>* UnityEngine::BoneWeight1::i___System__IEquatable_1___UnityEngine__BoneWeight1_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::BoneWeight1>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BoneIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BoneIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::BoneWeight1::BoneWeight1(float_t m_Weight, int32_t m_BoneIndex) noexcept {
   this->m_Weight = m_Weight;
   this->m_BoneIndex = m_BoneIndex;

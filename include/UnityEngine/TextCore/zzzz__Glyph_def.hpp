@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Glyph.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Glyph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ class Glyph;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Glyph*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");
+// [UsedByNativeCode]
 // Dependencies System.Object, UnityEngine.TextCore.GlyphClassDefinitionType, UnityEngine.TextCore.GlyphMetrics, UnityEngine.TextCore.GlyphRect
 namespace UnityEngine::TextCore {
 // Is value type: false
@@ -149,32 +150,44 @@ protected:
   constexpr Glyph();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Glyph", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Glyph", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Glyph(Glyph&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Glyph", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Glyph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Glyph(Glyph const&) = delete;
+  Glyph(Glyphconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21858 };
 
+  /// [NativeName("index")]
+  /// [SerializeField]
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   uint32_t ___m_Index;
 
+  /// [NativeName("metrics")]
+  /// [SerializeField]
   /// @brief Field m_Metrics, offset: 0x14, size: 0x14, def value: None
   ::UnityEngine::TextCore::GlyphMetrics ___m_Metrics;
 
+  /// [NativeName("glyphRect")]
+  /// [SerializeField]
   /// @brief Field m_GlyphRect, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::TextCore::GlyphRect ___m_GlyphRect;
 
+  /// [NativeName("scale")]
+  /// [SerializeField]
   /// @brief Field m_Scale, offset: 0x38, size: 0x4, def value: None
   float_t ___m_Scale;
 
+  /// [NativeName("atlasIndex")]
+  /// [SerializeField]
   /// @brief Field m_AtlasIndex, offset: 0x3c, size: 0x4, def value: None
   int32_t ___m_AtlasIndex;
 
+  /// [NativeName("type")]
+  /// [SerializeField]
   /// @brief Field m_ClassDefinitionType, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::TextCore::GlyphClassDefinitionType ___m_ClassDefinitionType;
 

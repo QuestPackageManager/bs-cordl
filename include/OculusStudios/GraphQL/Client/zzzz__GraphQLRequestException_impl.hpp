@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLRequestException.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLRequestException.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLException_impl.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__GraphErrorCode_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLRequestException_def.hpp"

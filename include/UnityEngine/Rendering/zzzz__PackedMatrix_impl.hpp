@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\PackedMatrix.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/PackedMatrix.hpp"
 #include "Unity/Mathematics/zzzz__float4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PackedMatrix_def.hpp"
 #include "Unity/Mathematics/zzzz__float4x4_def.hpp"
@@ -30,18 +30,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     return ___internal_method;
   }
 };
-inline ::UnityEngine::Rendering::PackedMatrix UnityEngine::Rendering::PackedMatrix::FromMatrix4x4(::by_ref<::UnityEngine::Matrix4x4> m) {
+inline ::UnityEngine::Rendering::PackedMatrix UnityEngine::Rendering::PackedMatrix::FromMatrix4x4(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PackedMatrix>(), { "FromMatrix4x4", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::PackedMatrix>(nullptr, ___internal_method, m);
 }
-inline ::UnityEngine::Rendering::PackedMatrix UnityEngine::Rendering::PackedMatrix::FromFloat4x4(::by_ref<::Unity::Mathematics::float4x4> m) {
+inline ::UnityEngine::Rendering::PackedMatrix UnityEngine::Rendering::PackedMatrix::FromFloat4x4(/* [IsReadOnly] */ ::by_ref<::Unity::Mathematics::float4x4> m) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PackedMatrix>(), { "FromFloat4x4", {}, { ::i2c::type_of<::by_ref<::Unity::Mathematics::float4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::PackedMatrix>(nullptr, ___internal_method, m);
 }
-// Ctor Parameters [CppParam { name: "packed0", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}") }, CppParam { name: "packed1", ty: "::Unity::Mathematics::float4", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "packed2", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "packed0", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packed1", ty:
+// "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packed2", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::Rendering::PackedMatrix::PackedMatrix(::Unity::Mathematics::float4 packed0, ::Unity::Mathematics::float4 packed1, ::Unity::Mathematics::float4 packed2) noexcept {
   this->packed0 = packed0;
   this->packed1 = packed1;

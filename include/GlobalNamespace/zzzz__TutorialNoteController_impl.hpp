@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialNoteController.hpp"
 #include "GlobalNamespace/zzzz__NoteController_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
@@ -275,7 +275,7 @@ inline ::GlobalNamespace::NoteData_GameplayType GlobalNamespace::TutorialNoteCon
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialNoteController*>(), { "get_gameplayType", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteData_GameplayType>(this, ___internal_method);
 }
-inline void GlobalNamespace::TutorialNoteController::Init(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t cutAngleTolerance,
+inline void GlobalNamespace::TutorialNoteController::Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t cutAngleTolerance,
                                                           float_t uniformScale) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},

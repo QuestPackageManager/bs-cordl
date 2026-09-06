@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentIdFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentIdFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct EnvironmentIdFilter;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::EnvironmentIdFilter);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentIdFilter, "", "EnvironmentIdFilter");
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentIdFilter();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentIdFilter(int32_t value__) noexcept;
 
   /// @brief Field ExcludeMultiplayer value: I32(2)

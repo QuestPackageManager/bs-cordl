@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityXRSystemState.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityXRSystemState.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityXRSystemState_def.hpp"
 #include "GlobalNamespace/zzzz__IXRSystemState_def.hpp"
@@ -347,7 +347,8 @@ inline bool GlobalNamespace::UnityXRSystemState::get_hasHmdMounted() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRSystemState*>(), { "get_hasHmdMounted", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void GlobalNamespace::UnityXRSystemState::AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks) {
+inline void GlobalNamespace::UnityXRSystemState::AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener,
+                                                             /* [ParamArray] */ ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRSystemState*>(),

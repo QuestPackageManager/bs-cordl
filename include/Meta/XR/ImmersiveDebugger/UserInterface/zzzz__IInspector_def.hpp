@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\IInspector.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/IInspector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface {
 class CORDL_TYPE IInspector {
 public:
   // Declarations
-  /// @brief Method GetMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::IMember* GetMember(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method RegisterMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::IMember* RegisterMember(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IInspector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IInspector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IInspector(IInspector const&) = delete;
+  IInspector(IInspectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18369 };

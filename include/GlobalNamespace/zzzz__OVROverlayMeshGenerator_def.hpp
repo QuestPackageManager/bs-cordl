@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVROverlayMeshGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVROverlayMeshGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +104,7 @@ public:
   // @brief default ctor
   constexpr OVROverlayMeshGenerator_CubeFace();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVROverlayMeshGenerator_CubeFace(int32_t value__) noexcept;
 
   /// @brief Field Back value: I32(2)
@@ -145,6 +145,10 @@ static_assert(offsetof(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace, valu
 static_assert(sizeof(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [RequireComponent(typeof(UnityEngine.MeshFilter))]
+// [RequireComponent(typeof(UnityEngine.MeshRenderer))]
+// [ExecuteAlways]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-sf-stereo180video/")]
 // Dependencies OVROverlay::OverlayShape, UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Rect, UnityEngine.Rendering.TextureDimension, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -251,8 +255,8 @@ public:
   inline void Initialize();
 
   /// @brief Method InverseTransformVert, addr 0x5e9c95c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 InverseTransformVert(::by_ref<::UnityEngine::Vector3> vert, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> scale,
-                                                            float_t worldScale);
+  static inline ::UnityEngine::Vector3 InverseTransformVert(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> vert, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> position,
+                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> scale, float_t worldScale);
 
   static inline ::GlobalNamespace::OVROverlayMeshGenerator* New_ctor();
 
@@ -395,13 +399,13 @@ protected:
   constexpr OVROverlayMeshGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayMeshGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayMeshGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVROverlayMeshGenerator(OVROverlayMeshGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayMeshGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayMeshGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVROverlayMeshGenerator(OVROverlayMeshGenerator const&) = delete;
+  OVROverlayMeshGenerator(OVROverlayMeshGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7268 };

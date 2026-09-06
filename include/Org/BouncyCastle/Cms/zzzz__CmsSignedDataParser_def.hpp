@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsSignedDataParser.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsSignedDataParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -240,13 +240,13 @@ protected:
   constexpr CmsSignedDataParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsSignedDataParser(CmsSignedDataParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataParser(CmsSignedDataParser const&) = delete;
+  CmsSignedDataParser(CmsSignedDataParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 652 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,9 @@ namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct ChainBuilderStats;
@@ -92,8 +94,9 @@ public:
   // @brief default ctor
   constexpr EntryProcessor_MaskMesh();
 
-  // Ctor Parameters [CppParam { name: "vertices", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: None }, CppParam { name: "indices", ty:
-  // "::Unity::Collections::NativeSlice_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "indexOffset", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vertices", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "indices", ty: "::Unity::Collections::NativeSlice_1<uint16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexOffset", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr EntryProcessor_MaskMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices,
                                     int32_t indexOffset) noexcept;
 
@@ -560,15 +563,19 @@ public:
 
   static inline ::UnityW<::UnityEngine::Shader> getStaticF_s_blitShader();
 
+  /// [CompilerGenerated]
   /// @brief Method get_firstHeadCommand, addr 0x6cd9e4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_firstHeadCommand();
 
+  /// [CompilerGenerated]
   /// @brief Method get_firstTailCommand, addr 0x6cd9e6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_firstTailCommand();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lastHeadCommand, addr 0x6cd9e5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastHeadCommand();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lastTailCommand, addr 0x6cd9e7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastTailCommand();
 
@@ -580,15 +587,19 @@ public:
 
   static inline void setStaticF_s_blitShader(::UnityW<::UnityEngine::Shader> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_firstHeadCommand, addr 0x6cd9e54, size 0x8, virtual false, abstract: false, final false
   inline void set_firstHeadCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_firstTailCommand, addr 0x6cd9e74, size 0x8, virtual false, abstract: false, final false
   inline void set_firstTailCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lastHeadCommand, addr 0x6cd9e64, size 0x8, virtual false, abstract: false, final false
   inline void set_lastHeadCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lastTailCommand, addr 0x6cd9e84, size 0x8, virtual false, abstract: false, final false
   inline void set_lastTailCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
@@ -598,13 +609,13 @@ protected:
   constexpr EntryProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EntryProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntryProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EntryProcessor(EntryProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EntryProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntryProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EntryProcessor(EntryProcessor const&) = delete;
+  EntryProcessor(EntryProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5292 };
@@ -711,15 +722,23 @@ public:
   /// @brief Field m_LastCommand, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* ___m_LastCommand;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <firstHeadCommand>k__BackingField, offset: 0x128, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* ____firstHeadCommand_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <lastHeadCommand>k__BackingField, offset: 0x130, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* ____lastHeadCommand_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <firstTailCommand>k__BackingField, offset: 0x138, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* ____firstTailCommand_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <lastTailCommand>k__BackingField, offset: 0x140, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* ____lastTailCommand_k__BackingField;
 

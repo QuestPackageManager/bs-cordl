@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\InputTrackingState.hpp"
+// IWYU pragma private; include "UnityEngine/XR/InputTrackingState.hpp"
 #include "UnityEngine/XR/zzzz__InputTrackingState_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::InputTrackingState::InputTrackingState(uint32_t value__) noexcept {
   this->value__ = value__;
 }

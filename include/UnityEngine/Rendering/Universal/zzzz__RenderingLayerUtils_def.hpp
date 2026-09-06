@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderingLayerUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderingLayerUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr RenderingLayerUtils_Event();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderingLayerUtils_Event(int32_t value__) noexcept;
 
   /// @brief Field DepthNormalPrePass value: I32(0)
@@ -137,7 +137,7 @@ public:
   // @brief default ctor
   constexpr RenderingLayerUtils_MaskSize();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderingLayerUtils_MaskSize(int32_t value__) noexcept;
 
   /// @brief Field Bits16 value: I32(1)
@@ -228,13 +228,13 @@ protected:
   constexpr RenderingLayerUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderingLayerUtils(RenderingLayerUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderingLayerUtils(RenderingLayerUtils const&) = delete;
+  RenderingLayerUtils(RenderingLayerUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12937 };

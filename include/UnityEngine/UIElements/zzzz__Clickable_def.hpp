@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Clickable.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Clickable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -224,36 +224,44 @@ public:
   /// @brief Method .ctor, addr 0x6c4a300, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::UnityEngine::UIElements::EventBase*>* handler);
 
+  /// [CompilerGenerated]
   /// @brief Method add_clicked, addr 0x6c4a014, size 0xac, virtual false, abstract: false, final false
   inline void add_clicked(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_clickedWithEventInfo, addr 0x6c49e94, size 0xc0, virtual false, abstract: false, final false
   inline void add_clickedWithEventInfo(::System::Action_1<::UnityEngine::UIElements::EventBase*>* value);
 
   /// @brief Method get_acceptClicksIfDisabled, addr 0x6c4a18c, size 0x8, virtual false, abstract: false, final false
   inline bool get_acceptClicksIfDisabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_active, addr 0x6c4a16c, size 0x8, virtual false, abstract: false, final false
   inline bool get_active();
 
   /// @brief Method get_invokePolicy, addr 0x6c4a1fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InvokePolicy get_invokePolicy();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lastMousePosition, addr 0x6c4a17c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_lastMousePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_clicked, addr 0x6c4a0c0, size 0xac, virtual false, abstract: false, final false
   inline void remove_clicked(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_clickedWithEventInfo, addr 0x6c49f54, size 0xc0, virtual false, abstract: false, final false
   inline void remove_clickedWithEventInfo(::System::Action_1<::UnityEngine::UIElements::EventBase*>* value);
 
   /// @brief Method set_acceptClicksIfDisabled, addr 0x6c4a194, size 0x68, virtual false, abstract: false, final false
   inline void set_acceptClicksIfDisabled(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_active, addr 0x6c4a174, size 0x8, virtual false, abstract: false, final false
   inline void set_active(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lastMousePosition, addr 0x6c4a184, size 0x8, virtual false, abstract: false, final false
   inline void set_lastMousePosition(::UnityEngine::Vector2 value);
 
@@ -263,20 +271,24 @@ protected:
   constexpr Clickable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Clickable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Clickable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Clickable(Clickable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Clickable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Clickable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Clickable(Clickable const&) = delete;
+  Clickable(Clickableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4071 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field clickedWithEventInfo, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::EventBase*>* ___clickedWithEventInfo;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field clicked, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___clicked;
 
@@ -286,9 +298,13 @@ public:
   /// @brief Field m_Interval, offset: 0x40, size: 0x8, def value: None
   int64_t ___m_Interval;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <active>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____active_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <lastMousePosition>k__BackingField, offset: 0x4c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____lastMousePosition_k__BackingField;
 

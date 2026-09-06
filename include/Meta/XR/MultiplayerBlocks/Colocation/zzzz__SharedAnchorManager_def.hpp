@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\SharedAnchorManager.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/SharedAnchorManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -209,6 +209,7 @@ DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManag
                     "SharedAnchorManager/<ShareAnchorsWithGroup>d__26");
 DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithUser_d__27, "Meta.XR.MultiplayerBlocks.Colocation",
                     "SharedAnchorManager/<ShareAnchorsWithUser>d__27");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: false
@@ -252,13 +253,13 @@ protected:
   constexpr SharedAnchorManager___c__DisplayClass21_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass21_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass21_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedAnchorManager___c__DisplayClass21_0(SharedAnchorManager___c__DisplayClass21_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass21_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass21_0(SharedAnchorManager___c__DisplayClass21_0 const&) = delete;
+  SharedAnchorManager___c__DisplayClass21_0(SharedAnchorManager___c__DisplayClass21_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20904 };
@@ -279,6 +280,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass21_0) == 0x20, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: false
@@ -322,13 +324,13 @@ protected:
   constexpr SharedAnchorManager___c__DisplayClass23_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass23_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedAnchorManager___c__DisplayClass23_0(SharedAnchorManager___c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass23_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass23_0(SharedAnchorManager___c__DisplayClass23_0 const&) = delete;
+  SharedAnchorManager___c__DisplayClass23_0(SharedAnchorManager___c__DisplayClass23_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20905 };
@@ -349,6 +351,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass23_0) == 0x20, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: false
@@ -392,13 +395,13 @@ protected:
   constexpr SharedAnchorManager___c__DisplayClass24_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass24_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass24_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedAnchorManager___c__DisplayClass24_0(SharedAnchorManager___c__DisplayClass24_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass24_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass24_0(SharedAnchorManager___c__DisplayClass24_0 const&) = delete;
+  SharedAnchorManager___c__DisplayClass24_0(SharedAnchorManager___c__DisplayClass24_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20906 };
@@ -419,6 +422,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass24_0) == 0x20, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: false
@@ -459,13 +463,13 @@ protected:
   constexpr SharedAnchorManager___c__DisplayClass26_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass26_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass26_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedAnchorManager___c__DisplayClass26_0(SharedAnchorManager___c__DisplayClass26_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass26_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass26_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass26_0(SharedAnchorManager___c__DisplayClass26_0 const&) = delete;
+  SharedAnchorManager___c__DisplayClass26_0(SharedAnchorManager___c__DisplayClass26_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20907 };
@@ -486,6 +490,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass26_0) == 0x20, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: false
@@ -526,13 +531,13 @@ protected:
   constexpr SharedAnchorManager___c__DisplayClass27_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass27_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass27_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedAnchorManager___c__DisplayClass27_0(SharedAnchorManager___c__DisplayClass27_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass27_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass27_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass27_0(SharedAnchorManager___c__DisplayClass27_0 const&) = delete;
+  SharedAnchorManager___c__DisplayClass27_0(SharedAnchorManager___c__DisplayClass27_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20908 };
@@ -553,6 +558,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass27_0) == 0x20, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: false
@@ -583,13 +589,13 @@ protected:
   constexpr SharedAnchorManager___c__DisplayClass29_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass29_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass29_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedAnchorManager___c__DisplayClass29_0(SharedAnchorManager___c__DisplayClass29_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass29_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass29_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass29_0(SharedAnchorManager___c__DisplayClass29_0 const&) = delete;
+  SharedAnchorManager___c__DisplayClass29_0(SharedAnchorManager___c__DisplayClass29_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20909 };
@@ -605,6 +611,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass29_0) == 0x18, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies OVRSpatialAnchor::OperationResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.ValueTuple`2<T1,
 // T2>, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace Meta::XR::MultiplayerBlocks::Colocation {
@@ -619,6 +626,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7ef04, size 0x480, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7f384, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -629,13 +637,14 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__AnchorCreationTask_d__21();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name:
-  // "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name:
-  // "__8__1", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass21_0*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__8__1", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass21_0*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>", modifiers: "",
-  // def_value: None }]
+  // def_value: None, comment: None }]
   constexpr SharedAnchorManager__AnchorCreationTask_d__21(
       int32_t __1__state,
       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>
@@ -692,6 +701,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__AnchorCreationTask_d__21) == 0x58, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -705,6 +715,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7f404, size 0x240, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7f644, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -715,10 +726,10 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__CheckIfRetrievingAnchorServiceHung_d__25();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr SharedAnchorManager__CheckIfRetrievingAnchorServiceHung_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                           ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* __4__this,
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -755,6 +766,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfRetrievingAnchorServiceHung_d__25) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -768,6 +780,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7f64c, size 0x224, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7f870, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -778,10 +791,10 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__CheckIfSavingAnchorsServiceHung_d__22();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr SharedAnchorManager__CheckIfSavingAnchorsServiceHung_d__22(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                        ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* __4__this,
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -818,6 +831,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSavingAnchorsServiceHung_d__22) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -831,6 +845,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7f878, size 0x240, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7fab8, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -841,10 +856,10 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__CheckIfSharingAnchorServiceHung_d__28();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr SharedAnchorManager__CheckIfSharingAnchorServiceHung_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                        ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* __4__this,
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -881,6 +896,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSharingAnchorServiceHung_d__28) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies OVRSpatialAnchor::OperationResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.ValueTuple`2<T1,
 // T2>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
@@ -895,6 +911,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7fac0, size 0x4e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7ffa8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -905,11 +922,11 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__CreateAlignmentAnchor_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>", modifiers: "",
-  // def_value: None }]
+  // def_value: None, comment: None }]
   constexpr SharedAnchorManager__CreateAlignmentAnchor_d__19(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>> __t__builder,
       ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* __4__this,
@@ -947,6 +964,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAlignmentAnchor_d__19) == 0x30, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies OVRSpatialAnchor::OperationResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.ValueTuple`2<T1,
 // T2>, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace Meta::XR::MultiplayerBlocks::Colocation {
@@ -961,6 +979,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a80028, size 0x4d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a80500, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -971,12 +990,13 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__CreateAnchor_d__20();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name:
-  // "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>",
-  // modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>,::GlobalNamespace::OVRSpatialAnchor_OperationResult>>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr SharedAnchorManager__CreateAnchor_d__20(
       int32_t __1__state,
       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>
@@ -1027,6 +1047,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAnchor_d__20) == 0x50, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -1040,6 +1061,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a80580, size 0x4dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a80a5c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1050,12 +1072,13 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__RetrieveAnchors_d__24();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers: "", def_value: None },
-  // CppParam { name: "__4__this", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name: "anchorIds", ty:
-  // "::System::Collections::Generic::List_1<::System::Guid>*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass24_0*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__4__this", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "anchorIds", ty: "::System::Collections::Generic::List_1<::System::Guid>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass24_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SharedAnchorManager__RetrieveAnchors_d__24(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*> __t__builder,
       ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* __4__this, ::System::Collections::Generic::List_1<::System::Guid>* anchorIds,
@@ -1104,6 +1127,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchors_d__24) == 0x40, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -1117,6 +1141,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a80adc, size 0x464, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a80f40, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1127,12 +1152,13 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__RetrieveAnchorsFromGroup_d__23();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers: "", def_value: None },
-  // CppParam { name: "__4__this", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name: "groupUuid", ty: "::System::Guid",
-  // modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass23_0*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__4__this", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "groupUuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass23_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SharedAnchorManager__RetrieveAnchorsFromGroup_d__23(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*> __t__builder,
       ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* __4__this, ::System::Guid groupUuid, ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass23_0* __8__1,
@@ -1180,6 +1206,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchorsFromGroup_d__23) == 0x48, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -1193,6 +1220,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a80fc0, size 0x46c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a8142c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1203,11 +1231,11 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__ShareAnchorsWithGroup_d__26();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam
-  // { name: "__8__1", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass26_0*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__8__1", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass26_0*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr SharedAnchorManager__ShareAnchorsWithGroup_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                              ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* __4__this, ::System::Guid groupUuid,
                                                              ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass26_0* __8__1,
@@ -1255,6 +1283,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorMa
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithGroup_d__26) == 0x48, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Colocation
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Colocation {
 // Is value type: true
@@ -1268,6 +1297,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a814ac, size 0x6d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a81b80, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1278,11 +1308,11 @@ public:
   // @brief default ctor
   constexpr SharedAnchorManager__ShareAnchorsWithUser_d__27();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "__8__1", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass27_0*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "userId", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__8__1", ty: "::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass27_0*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr SharedAnchorManager__ShareAnchorsWithUser_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                             ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* __4__this, uint64_t userId,
                                                             ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass27_0* __8__1,
@@ -1408,38 +1438,48 @@ public:
   /// @brief Field _userShareList, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__userShareList, put = __cordl_internal_set__userShareList)) ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRSpaceUser>* _userShareList;
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<AnchorCreationTask>d__21))]
   /// @brief Method AnchorCreationTask, addr 0x5a7e634, size 0x130, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>*
   AnchorCreationTask(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CheckIfRetrievingAnchorServiceHung>d__25))]
   /// @brief Method CheckIfRetrievingAnchorServiceHung, addr 0x5a7e808, size 0xa4, virtual false, abstract: false, final false
   inline void CheckIfRetrievingAnchorServiceHung();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CheckIfSavingAnchorsServiceHung>d__22))]
   /// @brief Method CheckIfSavingAnchorsServiceHung, addr 0x5a7e764, size 0xa4, virtual false, abstract: false, final false
   inline void CheckIfSavingAnchorsServiceHung();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CheckIfSharingAnchorServiceHung>d__28))]
   /// @brief Method CheckIfSharingAnchorServiceHung, addr 0x5a7e8ac, size 0xa4, virtual false, abstract: false, final false
   inline void CheckIfSharingAnchorServiceHung();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CreateAlignmentAnchor>d__19))]
   /// @brief Method CreateAlignmentAnchor, addr 0x5a71e0c, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* CreateAlignmentAnchor();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CreateAnchor>d__20))]
   /// @brief Method CreateAnchor, addr 0x5a7e508, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>*
   CreateAnchor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation);
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* New_ctor(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore* ssaCore);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<RetrieveAnchors>d__24))]
   /// @brief Method RetrieveAnchors, addr 0x5a7cfc4, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>*
   RetrieveAnchors(::System::Collections::Generic::List_1<::System::Guid>* anchorIds);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<RetrieveAnchorsFromGroup>d__23))]
   /// @brief Method RetrieveAnchorsFromGroup, addr 0x5a72464, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>* RetrieveAnchorsFromGroup(::System::Guid groupUuid);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<ShareAnchorsWithGroup>d__26))]
   /// @brief Method ShareAnchorsWithGroup, addr 0x5a71ee8, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ShareAnchorsWithGroup(::System::Guid groupUuid);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<ShareAnchorsWithUser>d__27))]
   /// @brief Method ShareAnchorsWithUser, addr 0x5a7d604, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ShareAnchorsWithUser(uint64_t userId);
 
@@ -1509,12 +1549,14 @@ public:
   /// @brief Method .ctor, addr 0x5a7174c, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore* ssaCore);
 
+  /// [CompilerGenerated]
   /// @brief Method get_AnchorPrefab, addr 0x5a7e4f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_AnchorPrefab();
 
   /// @brief Method get_LocalAnchors, addr 0x5a7e500, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* get_LocalAnchors();
 
+  /// [CompilerGenerated]
   /// @brief Method set_AnchorPrefab, addr 0x5a7e4f8, size 0x8, virtual false, abstract: false, final false
   inline void set_AnchorPrefab(::UnityEngine::GameObject* value);
 
@@ -1524,13 +1566,13 @@ protected:
   constexpr SharedAnchorManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedAnchorManager(SharedAnchorManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager(SharedAnchorManager const&) = delete;
+  SharedAnchorManager(SharedAnchorManagerconst&) = delete;
 
   /// @brief Field RetrieveAnchorWaitTimeThreshold offset 0xffffffff size 0x4
   static constexpr int32_t RetrieveAnchorWaitTimeThreshold{ static_cast<int32_t>(0x2710) };
@@ -1568,6 +1610,7 @@ public:
   /// @brief Field _localizationTcsList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Threading::Tasks::TaskCompletionSource_1<bool>*>* ____localizationTcsList;
 
+  /// [CompilerGenerated]
   /// @brief Field <AnchorPrefab>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____AnchorPrefab_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SkinnedMeshRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/SkinnedMeshRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,8 @@ class SkinnedMeshRenderer;
 // Write type traits
 MARK_REF_T(::UnityEngine::SkinnedMeshRenderer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SkinnedMeshRenderer*, "UnityEngine", "SkinnedMeshRenderer");
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/Graphics/Mesh/SkinnedMeshRenderer.h")]
 // Dependencies UnityEngine.Renderer
 namespace UnityEngine {
 // Is value type: false
@@ -48,8 +50,10 @@ public:
 
   __declspec(property(get = get_rootBone, put = set_rootBone)) ::UnityW<::UnityEngine::Transform> rootBone;
 
+  /// @brief [NativeProperty("Mesh")]
   __declspec(property(get = get_sharedMesh, put = set_sharedMesh)) ::UnityW<::UnityEngine::Mesh> sharedMesh;
 
+  /// @brief [NativeProperty("SkinnedMeshMotionVectors")]
   __declspec(property(get = get_skinnedMotionVectors, put = set_skinnedMotionVectors)) bool skinnedMotionVectors;
 
   __declspec(property(get = get_updateWhenOffscreen, put = set_updateWhenOffscreen)) bool updateWhenOffscreen;
@@ -60,7 +64,7 @@ public:
   inline void BakeMesh(::UnityEngine::Mesh* mesh);
 
   /// @brief Method BakeMesh, addr 0x6aa5ec8, size 0xec, virtual false, abstract: false, final false
-  inline void BakeMesh(::UnityEngine::Mesh* mesh, bool useScale);
+  inline void BakeMesh(/* [NotNull] */ ::UnityEngine::Mesh* mesh, bool useScale);
 
   /// @brief Method BakeMesh_Injected, addr 0x6aa5fb4, size 0x54, virtual false, abstract: false, final false
   static inline void BakeMesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr mesh, bool useScale);
@@ -74,6 +78,7 @@ public:
   /// @brief Method GetPreviousVertexBuffer, addr 0x6aa613c, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetPreviousVertexBuffer();
 
+  /// [FreeFunction(Name = "SkinnedMeshRendererScripting::GetPreviousVertexBufferPtr", HasExplicitThis = true)]
   /// @brief Method GetPreviousVertexBufferImpl, addr 0x6aa61dc, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetPreviousVertexBufferImpl();
 
@@ -83,6 +88,7 @@ public:
   /// @brief Method GetVertexBuffer, addr 0x6aa6008, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetVertexBuffer();
 
+  /// [FreeFunction(Name = "SkinnedMeshRendererScripting::GetVertexBufferPtr", HasExplicitThis = true)]
   /// @brief Method GetVertexBufferImpl, addr 0x6aa60a8, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetVertexBufferImpl();
 
@@ -202,13 +208,13 @@ protected:
   constexpr SkinnedMeshRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkinnedMeshRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkinnedMeshRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkinnedMeshRenderer(SkinnedMeshRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkinnedMeshRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkinnedMeshRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkinnedMeshRenderer(SkinnedMeshRenderer const&) = delete;
+  SkinnedMeshRenderer(SkinnedMeshRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10210 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIElementsInitialization.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIElementsInitialization.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIElementsInitialization_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIElementsInitialization.InitializeUIElementsManaged

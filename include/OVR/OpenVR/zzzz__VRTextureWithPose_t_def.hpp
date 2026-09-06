@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VRTextureWithPose_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VRTextureWithPose_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // @brief default ctor
   constexpr VRTextureWithPose_t();
 
-  // Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None, comment: None }]
   constexpr VRTextureWithPose_t(::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpOnePassSignatureList.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpOnePassSignatureList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class PgpOnePassSignatureList;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList*, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpOnePassSignatureList");
+// [DefaultMember("Item")]
 // Dependencies Org.BouncyCastle.Bcpg.OpenPgp.PgpObject, Org.BouncyCastle.Bcpg.OpenPgp.PgpOnePassSignature
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
@@ -31,11 +32,13 @@ public:
 
   __declspec(property(get = get_Item)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* Item[];
 
+  /// @brief [Obsolete("Use \'Count\' property instead")]
   __declspec(property(get = get_Size)) int32_t Size;
 
   /// @brief Field sigs, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_sigs, put = __cordl_internal_set_sigs)) ::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*> sigs;
 
+  /// [Obsolete("Use \'object[index]\' syntax instead")]
   /// @brief Method Get, addr 0x3588018, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* Get(int32_t index);
 
@@ -73,13 +76,13 @@ protected:
   constexpr PgpOnePassSignatureList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpOnePassSignatureList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpOnePassSignatureList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpOnePassSignatureList(PgpOnePassSignatureList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpOnePassSignatureList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpOnePassSignatureList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpOnePassSignatureList(PgpOnePassSignatureList const&) = delete;
+  PgpOnePassSignatureList(PgpOnePassSignatureListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1655 };

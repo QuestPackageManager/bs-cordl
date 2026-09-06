@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\bool2x2.hpp"
+// IWYU pragma private; include "Unity/Mathematics/bool2x2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ struct bool2x2;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::bool2x2);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::bool2x2, "Unity.Mathematics", "bool2x2");
+// [DefaultMember("Item")]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies Unity.Mathematics.bool2
 namespace Unity::Mathematics {
 // Is value type: true
@@ -118,8 +120,8 @@ public:
   // @brief default ctor
   constexpr bool2x2();
 
-  // Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: None }, CppParam { name: "c1", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: None, comment: None }, CppParam { name: "c1", ty: "::Unity::Mathematics::bool2", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr bool2x2(::Unity::Mathematics::bool2 c0, ::Unity::Mathematics::bool2 c1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

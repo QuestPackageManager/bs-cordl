@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplayGPUResidentDrawer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplayGPUResidentDrawer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -204,13 +204,13 @@ protected:
   constexpr DebugDisplayGPUResidentDrawer_Strings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_Strings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_Strings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayGPUResidentDrawer_Strings(DebugDisplayGPUResidentDrawer_Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_Strings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer_Strings(DebugDisplayGPUResidentDrawer_Strings const&) = delete;
+  DebugDisplayGPUResidentDrawer_Strings(DebugDisplayGPUResidentDrawer_Stringsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17598 };
@@ -227,6 +227,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -332,13 +333,13 @@ protected:
   constexpr SettingsPanel_DebugDisplayGPUResidentDrawer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsPanel_DebugDisplayGPUResidentDrawer___c(SettingsPanel_DebugDisplayGPUResidentDrawer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplayGPUResidentDrawer___c(SettingsPanel_DebugDisplayGPUResidentDrawer___c const&) = delete;
+  SettingsPanel_DebugDisplayGPUResidentDrawer___c(SettingsPanel_DebugDisplayGPUResidentDrawer___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17599 };
@@ -349,6 +350,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -439,13 +441,13 @@ protected:
   constexpr SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0 const&) = delete;
+  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17600 };
@@ -461,6 +463,7 @@ static_assert(offsetof(::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPURe
 static_assert(sizeof(::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -497,13 +500,13 @@ protected:
   constexpr SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0 const&) = delete;
+  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17601 };
@@ -519,6 +522,7 @@ static_assert(offsetof(::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPURe
 static_assert(sizeof(::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -549,13 +553,13 @@ protected:
   constexpr SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0 const&) = delete;
+  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17602 };
@@ -571,6 +575,7 @@ static_assert(offsetof(::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPURe
 static_assert(sizeof(::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [DisplayInfo(name = "GPU Resident Drawer", order = 5)]
 // Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -613,13 +618,13 @@ protected:
   constexpr DebugDisplayGPUResidentDrawer_SettingsPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_SettingsPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_SettingsPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayGPUResidentDrawer_SettingsPanel(DebugDisplayGPUResidentDrawer_SettingsPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_SettingsPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer_SettingsPanel(DebugDisplayGPUResidentDrawer_SettingsPanel const&) = delete;
+  DebugDisplayGPUResidentDrawer_SettingsPanel(DebugDisplayGPUResidentDrawer_SettingsPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17603 };
@@ -630,6 +635,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -675,13 +681,13 @@ protected:
   constexpr DebugDisplayGPUResidentDrawer___c__DisplayClass29_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass29_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass29_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayGPUResidentDrawer___c__DisplayClass29_0(DebugDisplayGPUResidentDrawer___c__DisplayClass29_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass29_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass29_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer___c__DisplayClass29_0(DebugDisplayGPUResidentDrawer___c__DisplayClass29_0 const&) = delete;
+  DebugDisplayGPUResidentDrawer___c__DisplayClass29_0(DebugDisplayGPUResidentDrawer___c__DisplayClass29_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17604 };
@@ -697,6 +703,7 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer__
 static_assert(sizeof(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -748,13 +755,13 @@ protected:
   constexpr DebugDisplayGPUResidentDrawer___c__DisplayClass34_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass34_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass34_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayGPUResidentDrawer___c__DisplayClass34_0(DebugDisplayGPUResidentDrawer___c__DisplayClass34_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass34_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass34_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer___c__DisplayClass34_0(DebugDisplayGPUResidentDrawer___c__DisplayClass34_0 const&) = delete;
+  DebugDisplayGPUResidentDrawer___c__DisplayClass34_0(DebugDisplayGPUResidentDrawer___c__DisplayClass34_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17605 };
@@ -770,6 +777,7 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer__
 static_assert(sizeof(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -809,13 +817,13 @@ protected:
   constexpr DebugDisplayGPUResidentDrawer___c__DisplayClass35_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass35_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass35_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayGPUResidentDrawer___c__DisplayClass35_0(DebugDisplayGPUResidentDrawer___c__DisplayClass35_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass35_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass35_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer___c__DisplayClass35_0(DebugDisplayGPUResidentDrawer___c__DisplayClass35_0 const&) = delete;
+  DebugDisplayGPUResidentDrawer___c__DisplayClass35_0(DebugDisplayGPUResidentDrawer___c__DisplayClass35_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17606 };
@@ -890,7 +898,7 @@ public:
   static inline ::UnityEngine::Rendering::Table_DebugUI_Row* AddOcclusionContextDataRow(int32_t index);
 
   /// @brief Method CulledInstancesString, addr 0x680ba0c, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::Object* CulledInstancesString(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* CulledInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
 
   /// @brief Method GetInstanceCullerViewCount, addr 0x680b188, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetInstanceCullerViewCount();
@@ -916,10 +924,10 @@ public:
   static inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* New_ctor();
 
   /// @brief Method OccluderVersionString, addr 0x680b890, size 0x80, virtual false, abstract: false, final false
-  static inline ::System::Object* OccluderVersionString(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* OccluderVersionString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
 
   /// @brief Method OcclusionTestString, addr 0x680b910, size 0x88, virtual false, abstract: false, final false
-  static inline ::System::Object* OcclusionTestString(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* OcclusionTestString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
 
   /// @brief Method TryGetScreenClearColor, addr 0x680c710, size 0x8, virtual true, abstract: false, final true
   inline bool TryGetScreenClearColor(::by_ref<::UnityEngine::Color> color);
@@ -928,7 +936,7 @@ public:
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
   /// @brief Method VisibleInstancesString, addr 0x680b998, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::Object* VisibleInstancesString(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
+  static inline ::System::Object* VisibleInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats);
 
   constexpr bool const& __cordl_internal_get_occluderContextStats() const;
 
@@ -1002,13 +1010,13 @@ protected:
   constexpr DebugDisplayGPUResidentDrawer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplayGPUResidentDrawer(DebugDisplayGPUResidentDrawer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer(DebugDisplayGPUResidentDrawer const&) = delete;
+  DebugDisplayGPUResidentDrawer(DebugDisplayGPUResidentDrawerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17607 };

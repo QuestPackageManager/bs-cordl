@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\IPoolable_11.hpp"
+// IWYU pragma private; include "Zenject/IPoolable_11.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,15 +23,15 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 class CORDL_TYPE IPoolable_11 {
 public:
   // Declarations
-  /// @brief Method OnDespawned, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDespawned();
 
-  /// @brief Method OnSpawned, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7, TParam8 p8, TParam9 p9, TParam10 p10, TParam11 p11);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPoolable_11", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPoolable_11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPoolable_11(IPoolable_11 const&) = delete;
+  IPoolable_11(IPoolable_11const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22532 };

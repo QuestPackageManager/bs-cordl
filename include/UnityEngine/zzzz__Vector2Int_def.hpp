@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Vector2Int.hpp"
+// IWYU pragma private; include "UnityEngine/Vector2Int.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,10 @@ struct Vector2Int;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Vector2Int);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
+// [UsedByNativeCode]
+// [Il2CppEagerStaticClassConstruction]
+// [NativeType("Runtime/Math/Vector2Int.h")]
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -164,7 +168,7 @@ public:
   // @brief default ctor
   constexpr Vector2Int();
 
-  // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector2Int(int32_t m_X, int32_t m_Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

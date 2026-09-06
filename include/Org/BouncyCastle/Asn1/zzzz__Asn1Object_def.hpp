@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1Object.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Object.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE Asn1Object : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Method Asn1Equals, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Asn1GetHashCode();
 
   /// @brief Method CallAsn1Equals, addr 0x334637c, size 0xc, virtual false, abstract: false, final false
@@ -39,7 +39,7 @@ public:
   /// @brief Method CallAsn1GetHashCode, addr 0x3346258, size 0xc, virtual false, abstract: false, final false
   inline int32_t CallAsn1GetHashCode();
 
-  /// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   /// @brief Method FromByteArray, addr 0x334cdd4, size 0x228, virtual false, abstract: false, final false
@@ -62,13 +62,13 @@ protected:
   constexpr Asn1Object();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Object", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Object", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Object(Asn1Object&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Object", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Object", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Object(Asn1Object const&) = delete;
+  Asn1Object(Asn1Objectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 31 };

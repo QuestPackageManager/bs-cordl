@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\SceneProviderExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/SceneProviderExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class SceneProviderExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions*, "UnityEngine.ResourceManagement.ResourceProviders", "SceneProviderExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
@@ -34,6 +35,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class CORDL_TYPE SceneProviderExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ReleaseScene, addr 0x6920118, size 0x210, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ReleaseScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* provider, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
@@ -46,13 +48,13 @@ protected:
   constexpr SceneProviderExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneProviderExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneProviderExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneProviderExtensions(SceneProviderExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneProviderExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneProviderExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneProviderExtensions(SceneProviderExtensions const&) = delete;
+  SceneProviderExtensions(SceneProviderExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18786 };

@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UQuery.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UQuery.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__HierarchyTraversal_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQuery)
 namespace System::Collections::Generic {
@@ -32,7 +33,9 @@ namespace UnityEngine::UIElements {
 class UQuery_IVisualPredicateWrapper;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UQuery_IsOfType_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+class UQuery_IsOfType_1;
 }
 namespace UnityEngine::UIElements {
 class UQuery_SingleQueryMatcher;
@@ -57,7 +60,9 @@ namespace UnityEngine::UIElements {
 class UQuery_IVisualPredicateWrapper;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UQuery_IsOfType_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+class UQuery_IsOfType_1;
 }
 namespace UnityEngine::UIElements {
 class UQuery_SingleQueryMatcher;
@@ -87,12 +92,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UQuery_IVisualPredicateWrapper {
 public:
   // Declarations
-  /// @brief Method Predicate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Predicate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Predicate(::System::Object* e);
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery_IVisualPredicateWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery_IVisualPredicateWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_IVisualPredicateWrapper(UQuery_IVisualPredicateWrapper const&) = delete;
+  UQuery_IVisualPredicateWrapper(UQuery_IVisualPredicateWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5121 };
@@ -101,10 +106,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UQuery/IsOfType`1<T>
 class CORDL_TYPE UQuery_IsOfType_1 : public ::System::Object {
@@ -137,13 +143,13 @@ protected:
   constexpr UQuery_IsOfType_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery_IsOfType_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery_IsOfType_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UQuery_IsOfType_1(UQuery_IsOfType_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery_IsOfType_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery_IsOfType_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_IsOfType_1(UQuery_IsOfType_1 const&) = delete;
+  UQuery_IsOfType_1(UQuery_IsOfType_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5122 };
@@ -152,6 +158,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -188,13 +195,13 @@ protected:
   constexpr UQueryMatcher_UQuery___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryMatcher_UQuery___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQueryMatcher_UQuery___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UQueryMatcher_UQuery___c(UQueryMatcher_UQuery___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryMatcher_UQuery___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQueryMatcher_UQuery___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQueryMatcher_UQuery___c(UQueryMatcher_UQuery___c const&) = delete;
+  UQueryMatcher_UQuery___c(UQueryMatcher_UQuery___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5123 };
@@ -249,13 +256,13 @@ protected:
   constexpr UQuery_UQueryMatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery_UQueryMatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery_UQueryMatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UQuery_UQueryMatcher(UQuery_UQueryMatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery_UQueryMatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery_UQueryMatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_UQueryMatcher(UQuery_UQueryMatcher const&) = delete;
+  UQuery_UQueryMatcher(UQuery_UQueryMatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5124 };
@@ -283,7 +290,7 @@ public:
 
   __declspec(property(get = get_match, put = set_match)) ::UnityEngine::UIElements::VisualElement* match;
 
-  /// @brief Method CreateNew, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::UQuery_SingleQueryMatcher* CreateNew();
 
   /// @brief Method IsInUse, addr 0x6cba8c0, size 0x10, virtual false, abstract: false, final false
@@ -303,9 +310,11 @@ public:
   /// @brief Method .ctor, addr 0x6cba8d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_match, addr 0x6cba888, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_match();
 
+  /// [CompilerGenerated]
   /// @brief Method set_match, addr 0x6cba890, size 0x8, virtual false, abstract: false, final false
   inline void set_match(::UnityEngine::UIElements::VisualElement* value);
 
@@ -315,17 +324,19 @@ protected:
   constexpr UQuery_SingleQueryMatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery_SingleQueryMatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery_SingleQueryMatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UQuery_SingleQueryMatcher(UQuery_SingleQueryMatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery_SingleQueryMatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery_SingleQueryMatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_SingleQueryMatcher(UQuery_SingleQueryMatcher const&) = delete;
+  UQuery_SingleQueryMatcher(UQuery_SingleQueryMatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5125 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <match>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____match_k__BackingField;
 
@@ -368,13 +379,13 @@ protected:
   constexpr UQuery_FirstQueryMatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery_FirstQueryMatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery_FirstQueryMatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UQuery_FirstQueryMatcher(UQuery_FirstQueryMatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery_FirstQueryMatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery_FirstQueryMatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_FirstQueryMatcher(UQuery_FirstQueryMatcher const&) = delete;
+  UQuery_FirstQueryMatcher(UQuery_FirstQueryMatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5126 };
@@ -396,7 +407,9 @@ public:
 
   using IVisualPredicateWrapper = ::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper;
 
-  template <typename T> using IsOfType_1 = ::UnityEngine::UIElements::UQuery_IsOfType_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+  using IsOfType_1 = ::UnityEngine::UIElements::UQuery_IsOfType_1<T>;
 
   using SingleQueryMatcher = ::UnityEngine::UIElements::UQuery_SingleQueryMatcher;
 
@@ -408,13 +421,13 @@ protected:
   constexpr UQuery();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UQuery(UQuery&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQuery", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQuery", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery(UQuery const&) = delete;
+  UQuery(UQueryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5127 };

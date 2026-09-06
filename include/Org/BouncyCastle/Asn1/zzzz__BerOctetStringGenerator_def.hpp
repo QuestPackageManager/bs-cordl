@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerOctetStringGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerOctetStringGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr BerOctetStringGenerator_BufferedBerOctetStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator_BufferedBerOctetStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator_BufferedBerOctetStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerOctetStringGenerator_BufferedBerOctetStream(BerOctetStringGenerator_BufferedBerOctetStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator_BufferedBerOctetStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator_BufferedBerOctetStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerOctetStringGenerator_BufferedBerOctetStream(BerOctetStringGenerator_BufferedBerOctetStream const&) = delete;
+  BerOctetStringGenerator_BufferedBerOctetStream(BerOctetStringGenerator_BufferedBerOctetStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 482 };
@@ -163,13 +163,13 @@ protected:
   constexpr BerOctetStringGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerOctetStringGenerator(BerOctetStringGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerOctetStringGenerator(BerOctetStringGenerator const&) = delete;
+  BerOctetStringGenerator(BerOctetStringGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 483 };

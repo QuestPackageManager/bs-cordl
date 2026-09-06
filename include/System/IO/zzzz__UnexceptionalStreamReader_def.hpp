@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\UnexceptionalStreamReader.hpp"
+// IWYU pragma private; include "System/IO/UnexceptionalStreamReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,13 +71,13 @@ protected:
   constexpr UnexceptionalStreamReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnexceptionalStreamReader(UnexceptionalStreamReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnexceptionalStreamReader(UnexceptionalStreamReader const&) = delete;
+  UnexceptionalStreamReader(UnexceptionalStreamReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3919 };

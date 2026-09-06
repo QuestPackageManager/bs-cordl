@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BottleneckHistogram.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BottleneckHistogram.hpp"
 #include "UnityEngine/Rendering/zzzz__BottleneckHistogram_def.hpp"
-// Ctor Parameters [CppParam { name: "PresentLimited", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "CPU", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "GPU", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Balanced", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "PresentLimited", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CPU", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "GPU", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Balanced", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BottleneckHistogram::BottleneckHistogram(float_t PresentLimited, float_t CPU, float_t GPU, float_t Balanced) noexcept {
   this->PresentLimited = PresentLimited;
   this->CPU = CPU;

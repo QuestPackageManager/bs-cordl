@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AttributeHelperEngine.hpp"
+// IWYU pragma private; include "UnityEngine/AttributeHelperEngine.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__DisallowMultipleComponent_impl.hpp"
 #include "UnityEngine/zzzz__ExecuteInEditMode_impl.hpp"
@@ -117,7 +118,9 @@ inline int32_t UnityEngine::AttributeHelperEngine::GetDefaultExecutionOrderFor(:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AttributeHelperEngine*>(), { "GetDefaultExecutionOrderFor", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, klass);
 }
-template <typename T> inline T UnityEngine::AttributeHelperEngine::GetCustomAttributeOfType(::System::Type* klass) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T UnityEngine::AttributeHelperEngine::GetCustomAttributeOfType(::System::Type* klass) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::AttributeHelperEngine*>(), { "GetCustomAttributeOfType", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Type*>() } })));

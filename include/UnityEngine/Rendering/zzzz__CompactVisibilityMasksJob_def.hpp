@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CompactVisibilityMasksJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CompactVisibilityMasksJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ struct CompactVisibilityMasksJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CompactVisibilityMasksJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CompactVisibilityMasksJob, "UnityEngine.Rendering", "CompactVisibilityMasksJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Rendering.ParallelBitArray
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -38,8 +39,8 @@ public:
   // @brief default ctor
   constexpr CompactVisibilityMasksJob();
 
-  // Ctor Parameters [CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "compactedVisibilityMasks", ty:
-  // "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "compactedVisibilityMasks", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None, comment: None }]
   constexpr CompactVisibilityMasksJob(::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::UnityEngine::Rendering::ParallelBitArray compactedVisibilityMasks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -51,9 +52,12 @@ public:
   /// @brief Field k_BatchSize offset 0xffffffff size 0x4
   static constexpr int32_t k_BatchSize{ static_cast<int32_t>(0x40) };
 
+  /// [ReadOnly]
   /// @brief Field rendererVisibilityMasks, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field compactedVisibilityMasks, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::Rendering::ParallelBitArray compactedVisibilityMasks;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LowLevel\PlayerLoopSystemInternal.hpp"
+// IWYU pragma private; include "UnityEngine/LowLevel/PlayerLoopSystemInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,9 @@ struct PlayerLoopSystemInternal;
 // Write type traits
 MARK_VAL_T(::UnityEngine::LowLevel::PlayerLoopSystemInternal);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");
+// [NativeType(Header = "Runtime/Misc/PlayerLoop.h")]
+// [MovedFrom("UnityEngine.Experimental.LowLevel")]
+// [RequiredByNativeCode]
 // Dependencies System.IntPtr
 namespace UnityEngine::LowLevel {
 // Is value type: true
@@ -31,9 +34,10 @@ public:
   // @brief default ctor
   constexpr PlayerLoopSystemInternal();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "updateDelegate", ty:
-  // "::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*", modifiers: "", def_value: None }, CppParam { name: "updateFunction", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "numSubSystems", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "updateDelegate", ty:
+  // "::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*", modifiers: "", def_value: None, comment: None }, CppParam { name: "updateFunction", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "numSubSystems", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr PlayerLoopSystemInternal(::System::Type* type, ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* updateDelegate, ::System::IntPtr updateFunction,
                                      ::System::IntPtr loopConditionFunction, int32_t numSubSystems) noexcept;
 

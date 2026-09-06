@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -168,7 +168,7 @@ public:
   // @brief default ctor
   constexpr TimelineAsset_Versions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimelineAsset_Versions(int32_t value__) noexcept;
 
   /// @brief Field Initial value: I32(0)
@@ -204,13 +204,13 @@ protected:
   constexpr TimelineAsset_TimelineAssetUpgrade();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_TimelineAssetUpgrade", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_TimelineAssetUpgrade", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineAsset_TimelineAssetUpgrade(TimelineAsset_TimelineAssetUpgrade&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_TimelineAssetUpgrade", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_TimelineAssetUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineAsset_TimelineAssetUpgrade(TimelineAsset_TimelineAssetUpgrade const&) = delete;
+  TimelineAsset_TimelineAssetUpgrade(TimelineAsset_TimelineAssetUpgradeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19174 };
@@ -221,6 +221,7 @@ public:
 static_assert(sizeof(::UnityEngine::Timeline::TimelineAsset_TimelineAssetUpgrade) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [Obsolete("MediaType has been deprecated. It is no longer required, and will be removed in a future release.", false)]
 // Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: true
@@ -255,7 +256,7 @@ public:
   // @brief default ctor
   constexpr TimelineAsset_MediaType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimelineAsset_MediaType(int32_t value__) noexcept;
 
   /// @brief Field Animation value: I32(0)
@@ -325,7 +326,7 @@ public:
   // @brief default ctor
   constexpr TimelineAsset_DurationMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimelineAsset_DurationMode(int32_t value__) noexcept;
 
   /// @brief Field BasedOnClips value: I32(0)
@@ -358,6 +359,7 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TimelineAsset_EditorSettings : public ::System::Object {
 public:
   // Declarations
+  /// @brief [Obsolete("EditorSettings.fps has been deprecated. Use editorSettings.frameRate instead.", false)]
   __declspec(property(get = get_fps, put = set_fps)) float_t fps;
 
   __declspec(property(get = get_frameRate, put = set_frameRate)) double_t frameRate;
@@ -435,20 +437,25 @@ protected:
   constexpr TimelineAsset_EditorSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_EditorSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_EditorSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineAsset_EditorSettings(TimelineAsset_EditorSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_EditorSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_EditorSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineAsset_EditorSettings(TimelineAsset_EditorSettings const&) = delete;
+  TimelineAsset_EditorSettings(TimelineAsset_EditorSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19177 };
 
+  /// [HideInInspector]
+  /// [SerializeField]
+  /// [FrameRateField]
   /// @brief Field m_Framerate, offset: 0x10, size: 0x8, def value: None
   double_t ___m_Framerate;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_ScenePreview, offset: 0x18, size: 0x1, def value: None
   bool ___m_ScenePreview;
 
@@ -462,6 +469,7 @@ static_assert(offsetof(::UnityEngine::Timeline::TimelineAsset_EditorSettings, __
 static_assert(sizeof(::UnityEngine::Timeline::TimelineAsset_EditorSettings) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Playables.PlayableBinding
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -512,23 +520,30 @@ public:
   /// @brief Method MoveNext, addr 0x69b85c8, size 0x474, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Timeline::TimelineAsset__get_outputs_d__27* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x69b8c50, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x69b8ba4, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69b8ce8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69b8bb4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69b8bec, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69b851c, size 0xac, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -574,6 +589,7 @@ public:
   /// @brief Method <>m__Finally2, addr 0x69b8a3c, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69b5104, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -600,13 +616,13 @@ protected:
   constexpr TimelineAsset__get_outputs_d__27();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset__get_outputs_d__27", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset__get_outputs_d__27", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineAsset__get_outputs_d__27(TimelineAsset__get_outputs_d__27&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset__get_outputs_d__27", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset__get_outputs_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineAsset__get_outputs_d__27(TimelineAsset__get_outputs_d__27 const&) = delete;
+  TimelineAsset__get_outputs_d__27(TimelineAsset__get_outputs_d__27const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19178 };
@@ -647,6 +663,7 @@ static_assert(offsetof(::UnityEngine::Timeline::TimelineAsset__get_outputs_d__27
 static_assert(sizeof(::UnityEngine::Timeline::TimelineAsset__get_outputs_d__27) == 0x58, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.TimelineAsset::DurationMode, UnityEngine.Timeline.TrackAsset
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -748,13 +765,19 @@ public:
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> CreateTrack(::System::Type* type, ::UnityEngine::Timeline::TrackAsset* parent, ::StringW name);
 
   /// @brief Method CreateTrack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T CreateTrack();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::TrackAsset*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T CreateTrack();
 
   /// @brief Method CreateTrack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T CreateTrack(::UnityEngine::Timeline::TrackAsset* parent, ::StringW trackName);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::TrackAsset*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T CreateTrack(::UnityEngine::Timeline::TrackAsset* parent, ::StringW trackName);
 
   /// @brief Method CreateTrack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T CreateTrack(::StringW trackName);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::TrackAsset*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T CreateTrack(::StringW trackName);
 
   /// @brief Method DeleteClip, addr 0x69b7548, size 0x1dc, virtual false, abstract: false, final false
   inline bool DeleteClip(::UnityEngine::Timeline::TimelineClip* clip);
@@ -905,6 +928,7 @@ public:
   /// @brief Method get_outputTrackCount, addr 0x69b5464, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_outputTrackCount();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.Timeline.TimelineAsset::<get_outputs>d__27))]
   /// @brief Method get_outputs, addr 0x69b5094, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
@@ -935,13 +959,13 @@ protected:
   constexpr TimelineAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineAsset(TimelineAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineAsset(TimelineAsset const&) = delete;
+  TimelineAsset(TimelineAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19179 };
@@ -949,30 +973,44 @@ public:
   /// @brief Field k_LatestVersion offset 0xffffffff size 0x4
   static constexpr int32_t k_LatestVersion{ static_cast<int32_t>(0x0) };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_Tracks, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* ___m_Tracks;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_FixedDuration, offset: 0x28, size: 0x8, def value: None
   double_t ___m_FixedDuration;
 
+  /// [HideInInspector]
   /// @brief Field m_CacheOutputTracks, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>> ___m_CacheOutputTracks;
 
+  /// [HideInInspector]
   /// @brief Field m_CacheRootTracks, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* ___m_CacheRootTracks;
 
+  /// [HideInInspector]
   /// @brief Field m_CacheFlattenedTracks, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>> ___m_CacheFlattenedTracks;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_EditorSettings, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Timeline::TimelineAsset_EditorSettings* ___m_EditorSettings;
 
+  /// [SerializeField]
   /// @brief Field m_DurationMode, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::Timeline::TimelineAsset_DurationMode ___m_DurationMode;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_MarkerTrack, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Timeline::MarkerTrack> ___m_MarkerTrack;
 

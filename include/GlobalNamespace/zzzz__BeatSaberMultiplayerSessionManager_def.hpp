@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberMultiplayerSessionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberMultiplayerSessionManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,16 +23,29 @@ namespace GlobalNamespace {
 class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer> class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
+template <typename TConnectedPlayer>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
+class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer> class IMultiplayerSessionManager_1;
+template <typename TConnectedPlayer>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
+class IMultiplayerSessionManager_1;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayerManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class IMultiplayerSessionManager_4;
+template <typename TConnectedPlayerManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayerManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class IMultiplayerSessionManager_4;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TConnectedPlayer> class IMultiplayerSessionMessageProcessor_2;
+template <typename TMessageType, typename TConnectedPlayer>
+  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
+           ::cordl_internals::default_constructor_constraint<TMessageType> && ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
+class IMultiplayerSessionMessageProcessor_2;
 }
 namespace GlobalNamespace {
 struct NetworkMessageType;
@@ -114,9 +127,11 @@ public:
   /// @brief Method .ctor, addr 0x32a878c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerAvatarChangedEvent, addr 0x32a81ac, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerControllerDataChangedEvent, addr 0x32a832c, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
@@ -137,9 +152,11 @@ public:
   constexpr ::GlobalNamespace::IMultiplayerSessionMessageProcessor_2<::GlobalNamespace::NetworkMessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>*
   i___GlobalNamespace__IMultiplayerSessionMessageProcessor_2___GlobalNamespace__NetworkMessageType___GlobalNamespace__IBeatSaberConnectedPlayer__() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerAvatarChangedEvent, addr 0x32a826c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerControllerDataChangedEvent, addr 0x32a83ec, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
@@ -149,20 +166,22 @@ protected:
   constexpr BeatSaberMultiplayerSessionManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberMultiplayerSessionManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberMultiplayerSessionManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatSaberMultiplayerSessionManager(BeatSaberMultiplayerSessionManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberMultiplayerSessionManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberMultiplayerSessionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberMultiplayerSessionManager(BeatSaberMultiplayerSessionManager const&) = delete;
+  BeatSaberMultiplayerSessionManager(BeatSaberMultiplayerSessionManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18843 };
 
+  /// [CompilerGenerated]
   /// @brief Field playerAvatarChangedEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* ___playerAvatarChangedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerControllerDataChangedEvent, offset: 0xc0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* ___playerControllerDataChangedEvent;
 

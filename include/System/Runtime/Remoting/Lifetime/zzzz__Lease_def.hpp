@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Lifetime\Lease.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Lifetime/Lease.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,13 +81,13 @@ protected:
   constexpr Lease_RenewalDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Lease_RenewalDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lease_RenewalDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Lease_RenewalDelegate(Lease_RenewalDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Lease_RenewalDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lease_RenewalDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Lease_RenewalDelegate(Lease_RenewalDelegate const&) = delete;
+  Lease_RenewalDelegate(Lease_RenewalDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3108 };
@@ -229,13 +229,13 @@ protected:
   constexpr Lease();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Lease", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lease", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Lease(Lease&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Lease", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lease", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Lease(Lease const&) = delete;
+  Lease(Leaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3109 };

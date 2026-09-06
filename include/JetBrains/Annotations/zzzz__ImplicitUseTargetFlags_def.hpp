@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\ImplicitUseTargetFlags.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/ImplicitUseTargetFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ImplicitUseTargetFlags;
 // Write type traits
 MARK_VAL_T(::JetBrains::Annotations::ImplicitUseTargetFlags);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::ImplicitUseTargetFlags, "JetBrains.Annotations", "ImplicitUseTargetFlags");
+// [Flags]
 // Dependencies
 namespace JetBrains::Annotations {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr ImplicitUseTargetFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ImplicitUseTargetFlags(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(1)

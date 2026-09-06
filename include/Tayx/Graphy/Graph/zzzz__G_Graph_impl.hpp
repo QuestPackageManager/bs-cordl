@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Graph\G_Graph.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Graph/G_Graph.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Graph/zzzz__G_Graph_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Graph::G_Graph.UpdateGraph

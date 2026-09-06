@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\MulInstruction_MulDouble.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/MulInstruction_MulDouble.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr MulInstruction_MulDouble();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulDouble", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulDouble", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MulInstruction_MulDouble(MulInstruction_MulDouble&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulDouble", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulDouble", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulInstruction_MulDouble(MulInstruction_MulDouble const&) = delete;
+  MulInstruction_MulDouble(MulInstruction_MulDoubleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16496 };

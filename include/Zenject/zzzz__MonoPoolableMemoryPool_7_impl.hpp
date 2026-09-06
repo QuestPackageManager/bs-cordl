@@ -1,32 +1,44 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MonoPoolableMemoryPool_7.hpp"
+// IWYU pragma private; include "Zenject/MonoPoolableMemoryPool_7.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
+#include "Zenject/zzzz__IPoolable_6_impl.hpp"
 #include "Zenject/zzzz__MemoryPool_7_impl.hpp"
 #include "Zenject/zzzz__MonoPoolableMemoryPool_7_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 constexpr ::UnityW<::UnityEngine::Transform>& Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get__originalParent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalParent;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 constexpr ::UnityW<::UnityEngine::Transform> const& Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get__originalParent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalParent;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 constexpr void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_set__originalParent(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____originalParent = value;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 inline void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 inline void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::OnCreated(TValue item) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
@@ -34,6 +46,8 @@ inline void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 inline void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::OnDestroyed(TValue item) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
@@ -41,6 +55,8 @@ inline void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 inline void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::OnDespawned(TValue item) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
@@ -48,6 +64,8 @@ inline void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 inline void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6,
                                                                                                                           TValue item) {
   auto* ___internal_method =
@@ -56,6 +74,8 @@ inline void Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, p1, p2, p3, p4, p5, p6, item);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 inline ::System::Object* Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>(),
@@ -63,17 +83,24 @@ inline ::System::Object* Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TPa
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 inline ::Zenject::InjectTypeInfo* Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
+/// @brief [Inject]
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 inline ::Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
 Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 constexpr ::Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::MonoPoolableMemoryPool_7() {}

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\ChallengeResponse2.hpp"
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/ChallengeResponse2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +76,13 @@ protected:
   constexpr ChallengeResponse2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChallengeResponse2(ChallengeResponse2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChallengeResponse2(ChallengeResponse2 const&) = delete;
+  ChallengeResponse2(ChallengeResponse2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19301 };

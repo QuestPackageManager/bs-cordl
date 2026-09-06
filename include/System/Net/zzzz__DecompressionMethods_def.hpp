@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\DecompressionMethods.hpp"
+// IWYU pragma private; include "System/Net/DecompressionMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DecompressionMethods;
 // Write type traits
 MARK_VAL_T(::System::Net::DecompressionMethods);
 DEFINE_IL2CPP_CLASS(::System::Net::DecompressionMethods, "System.Net", "DecompressionMethods");
+// [Flags]
 // Dependencies
 namespace System::Net {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr DecompressionMethods();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DecompressionMethods(int32_t value__) noexcept;
 
   /// @brief Field Deflate value: I32(2)

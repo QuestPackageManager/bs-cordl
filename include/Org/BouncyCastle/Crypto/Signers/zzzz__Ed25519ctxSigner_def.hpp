@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Signers\Ed25519ctxSigner.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/Ed25519ctxSigner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,13 +63,13 @@ protected:
   constexpr Ed25519ctxSigner_Buffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519ctxSigner_Buffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519ctxSigner_Buffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed25519ctxSigner_Buffer(Ed25519ctxSigner_Buffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519ctxSigner_Buffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519ctxSigner_Buffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519ctxSigner_Buffer(Ed25519ctxSigner_Buffer const&) = delete;
+  Ed25519ctxSigner_Buffer(Ed25519ctxSigner_Bufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1131 };
@@ -174,13 +174,13 @@ protected:
   constexpr Ed25519ctxSigner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519ctxSigner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519ctxSigner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed25519ctxSigner(Ed25519ctxSigner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ed25519ctxSigner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519ctxSigner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519ctxSigner(Ed25519ctxSigner const&) = delete;
+  Ed25519ctxSigner(Ed25519ctxSignerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1132 };

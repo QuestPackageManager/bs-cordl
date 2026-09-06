@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerEventBase_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerEventBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,15 +62,19 @@ struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class PointerEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class PointerEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::PointerEventBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::PointerEventBase_1, "UnityEngine.UIElements", "PointerEventBase`1");
+// [EventCategory((UnityEngine.UIElements.EventCategory)1)]
 // Dependencies UnityEngine.EventModifiers, UnityEngine.PenStatus, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.PointerEventBase`1<T>
 class CORDL_TYPE PointerEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
@@ -284,18 +288,23 @@ public:
   /// @brief Method TiltToAzimuth, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline float_t TiltToAzimuth(::UnityEngine::Vector2 tilt);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IPointerEventInternal.get_compatibilityMouseEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IMouseEvent* UnityEngine_UIElements_IPointerEventInternal_get_compatibilityMouseEvent();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IPointerEventInternal_get_triggeredByOS();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IPointerEventInternal.set_compatibilityMouseEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IPointerEventInternal_set_compatibilityMouseEvent(::UnityEngine::UIElements::IMouseEvent* value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IPointerEventInternal.set_displayIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IPointerEventInternal_set_displayIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IPointerEventInternal_set_triggeredByOS(bool value);
 
@@ -470,9 +479,11 @@ public:
   /// @brief Method get_azimuthAngle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline float_t get_azimuthAngle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_button, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_button();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clickCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_clickCount();
 
@@ -485,54 +496,69 @@ public:
   /// @brief Method get_currentTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* get_currentTarget();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deltaPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_deltaPosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deltaTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline float_t get_deltaTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isPrimary, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isPrimary();
 
+  /// [CompilerGenerated]
   /// @brief Method get_localPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_localPosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_penStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::PenStatus get_penStatus();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_pointerId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointerType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_pointerType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_position();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pressedButtons, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_pressedButtons();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pressure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline float_t get_pressure();
 
+  /// [CompilerGenerated]
   /// @brief Method get_radius, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_radius();
 
+  /// [CompilerGenerated]
   /// @brief Method get_radiusVariance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_radiusVariance();
 
   /// @brief Method get_shiftKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_shiftKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tangentialPressure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline float_t get_tangentialPressure();
 
   /// @brief Method get_tilt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_tilt();
 
+  /// [CompilerGenerated]
   /// @brief Method get_twist, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline float_t get_twist();
 
@@ -551,60 +577,77 @@ public:
   /// @brief Method set_azimuthAngle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_azimuthAngle(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_button, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_button(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clickCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_clickCount(int32_t value);
 
   /// @brief Method set_currentTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_currentTarget(::UnityEngine::UIElements::IEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deltaPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_deltaPosition(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deltaTime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_deltaTime(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isPrimary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isPrimary(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_localPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_modifiers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_penStatus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_penStatus(::UnityEngine::PenStatus value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pointerId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_pointerId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pointerType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_pointerType(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_position, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pressedButtons, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_pressedButtons(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pressure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_pressure(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_radius, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_radiusVariance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_radiusVariance(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tangentialPressure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_tangentialPressure(float_t value);
 
   /// @brief Method set_tilt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_tilt(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_twist, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_twist(float_t value);
 
@@ -614,13 +657,13 @@ protected:
   constexpr PointerEventBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEventBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEventBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerEventBase_1(PointerEventBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEventBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEventBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerEventBase_1(PointerEventBase_1 const&) = delete;
+  PointerEventBase_1(PointerEventBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4539 };
@@ -646,63 +689,103 @@ public:
   /// @brief Field m_Tilt, offset: 0x74, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_Tilt;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <pointerId>k__BackingField, offset: 0x7c, size: 0x4, def value: None
   int32_t ____pointerId_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <pointerType>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::StringW ____pointerType_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isPrimary>k__BackingField, offset: 0x88, size: 0x1, def value: None
   bool ____isPrimary_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <button>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   int32_t ____button_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <pressedButtons>k__BackingField, offset: 0x90, size: 0x4, def value: None
   int32_t ____pressedButtons_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <position>k__BackingField, offset: 0x94, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____position_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <localPosition>k__BackingField, offset: 0xa0, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localPosition_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <deltaPosition>k__BackingField, offset: 0xac, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____deltaPosition_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <deltaTime>k__BackingField, offset: 0xb8, size: 0x4, def value: None
   float_t ____deltaTime_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <clickCount>k__BackingField, offset: 0xbc, size: 0x4, def value: None
   int32_t ____clickCount_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <pressure>k__BackingField, offset: 0xc0, size: 0x4, def value: None
   float_t ____pressure_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <tangentialPressure>k__BackingField, offset: 0xc4, size: 0x4, def value: None
   float_t ____tangentialPressure_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <twist>k__BackingField, offset: 0xc8, size: 0x4, def value: None
   float_t ____twist_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <penStatus>k__BackingField, offset: 0xcc, size: 0x4, def value: None
   ::UnityEngine::PenStatus ____penStatus_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <radius>k__BackingField, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radius_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <radiusVariance>k__BackingField, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radiusVariance_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <modifiers>k__BackingField, offset: 0xe0, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField, offset: 0xe4, size: 0x1, def value: None
   bool ____UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.compatibilityMouseEvent>k__BackingField, offset: 0xe8, size: 0x8, def value: None
   ::UnityEngine::UIElements::IMouseEvent* ____UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.displayIndex>k__BackingField, offset: 0xf0, size: 0x4, def value: None
   int32_t ____UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField;
 

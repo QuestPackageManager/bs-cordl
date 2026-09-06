@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeAppendBuffer.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeAppendBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -37,6 +39,7 @@ MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer);
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer, "Unity.Collections.LowLevel.Unsafe", "UnsafeAppendBuffer");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader, "Unity.Collections.LowLevel.Unsafe", "UnsafeAppendBuffer/Reader");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -46,23 +49,37 @@ public:
   // Declarations
   __declspec(property(get = get_EndOfBuffer)) bool EndOfBuffer;
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckBounds, addr 0x64cdb28, size 0xac, virtual false, abstract: false, final false
   inline void CheckBounds(int32_t structSize);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ReadNext, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T ReadNext();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T ReadNext();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ReadNext, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void ReadNext(::by_ref<::Unity::Collections::NativeArray_1<T>> value, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void ReadNext(::by_ref<::Unity::Collections::NativeArray_1<T>> value, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ReadNext, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void ReadNext(::by_ref<T> value);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void ReadNext(::by_ref<T> value);
 
   /// @brief Method ReadNext, addr 0x64cdb0c, size 0x1c, virtual false, abstract: false, final false
   inline void* ReadNext(int32_t structSize);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ReadNextArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void* ReadNextArray(::by_ref<int32_t> length);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void* ReadNextArray(::by_ref<int32_t> length);
 
   /// @brief Method .ctor, addr 0x64cda50, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer);
@@ -77,8 +94,8 @@ public:
   // @brief default ctor
   constexpr UnsafeAppendBuffer_Reader();
 
-  // Ctor Parameters [CppParam { name: "Ptr", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Offset", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Ptr", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeAppendBuffer_Reader(uint8_t* Ptr, int32_t Size, int32_t Offset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -108,6 +125,7 @@ static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffe
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -130,18 +148,29 @@ public:
   /// @brief Method Add, addr 0x64cd948, size 0x80, virtual false, abstract: false, final false
   inline void Add(void* ptr, int32_t structSize);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Add(::Unity::Collections::NativeArray_1<T> value);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Add(::Unity::Collections::NativeArray_1<T> value);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Add(T value);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Add(T value);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method AddArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void AddArray(void* ptr, int32_t length);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void AddArray(void* ptr, int32_t length);
 
   /// @brief Method AsReader, addr 0x64cda40, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader AsReader();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckAlignment, addr 0x64cda64, size 0x8c, virtual false, abstract: false, final false
   static inline void CheckAlignment(int32_t alignment);
 
@@ -151,8 +180,11 @@ public:
   /// @brief Method Dispose, addr 0x64cd7b4, size 0x9c, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Pop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Pop();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T Pop();
 
   /// @brief Method Pop, addr 0x64cd9c8, size 0x78, virtual false, abstract: false, final false
   inline void Pop(void* ptr, int32_t structSize);
@@ -172,9 +204,11 @@ public:
   /// @brief Method .ctor, addr 0x64cd714, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(void* ptr, int32_t length);
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64cd7a4, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x64cd794, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
@@ -188,9 +222,9 @@ public:
   // @brief default ctor
   constexpr UnsafeAppendBuffer();
 
-  // Ctor Parameters [CppParam { name: "Ptr", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Capacity",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }, CppParam { name:
-  // "Alignment", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Ptr", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Alignment", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeAppendBuffer(uint8_t* Ptr, int32_t Length, int32_t Capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t Alignment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -199,6 +233,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Ptr, offset: 0x0, size: 0x8, def value: None
   uint8_t* Ptr;
 

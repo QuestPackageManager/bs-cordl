@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animation.hpp"
+// IWYU pragma private; include "UnityEngine/Animation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
@@ -1475,7 +1475,7 @@ inline bool UnityEngine::Animation::Play() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "Play", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::Animation::Play(::UnityEngine::PlayMode mode) {
+inline bool UnityEngine::Animation::Play(/* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "Play", {}, { ::i2c::type_of<::UnityEngine::PlayMode>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, mode);
 }
@@ -1488,7 +1488,7 @@ inline bool UnityEngine::Animation::Play(::StringW animation) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "Play", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, animation);
 }
-inline bool UnityEngine::Animation::Play(::StringW animation, ::UnityEngine::PlayMode mode) {
+inline bool UnityEngine::Animation::Play(::StringW animation, /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "Play", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::PlayMode>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, animation, mode);
@@ -1502,7 +1502,7 @@ inline void UnityEngine::Animation::CrossFade(::StringW animation, float_t fadeL
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "CrossFade", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, animation, fadeLength);
 }
-inline void UnityEngine::Animation::CrossFade(::StringW animation, float_t fadeLength, ::UnityEngine::PlayMode mode) {
+inline void UnityEngine::Animation::CrossFade(::StringW animation, /* [DefaultValue("0.3F")] */ float_t fadeLength, /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "CrossFade", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::PlayMode>() } })));
@@ -1517,7 +1517,7 @@ inline void UnityEngine::Animation::Blend(::StringW animation, float_t targetWei
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "Blend", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, animation, targetWeight);
 }
-inline void UnityEngine::Animation::Blend(::StringW animation, float_t targetWeight, float_t fadeLength) {
+inline void UnityEngine::Animation::Blend(::StringW animation, /* [DefaultValue("1.0F")] */ float_t targetWeight, /* [DefaultValue("0.3F")] */ float_t fadeLength) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "Blend", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, animation, targetWeight, fadeLength);
@@ -1537,7 +1537,9 @@ inline ::UnityEngine::AnimationState* UnityEngine::Animation::CrossFadeQueued(::
                                                            { "CrossFadeQueued", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::QueueMode>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AnimationState*>(this, ___internal_method, animation, fadeLength, queue);
 }
-inline ::UnityEngine::AnimationState* UnityEngine::Animation::CrossFadeQueued(::StringW animation, float_t fadeLength, ::UnityEngine::QueueMode queue, ::UnityEngine::PlayMode mode) {
+inline ::UnityEngine::AnimationState* UnityEngine::Animation::CrossFadeQueued(::StringW animation, /* [DefaultValue("0.3F")] */ float_t fadeLength,
+                                                                              /* [DefaultValue("QueueMode.CompleteOthers")] */ ::UnityEngine::QueueMode queue,
+                                                                              /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -1554,7 +1556,8 @@ inline ::UnityEngine::AnimationState* UnityEngine::Animation::PlayQueued(::Strin
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "PlayQueued", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::QueueMode>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AnimationState*>(this, ___internal_method, animation, queue);
 }
-inline ::UnityEngine::AnimationState* UnityEngine::Animation::PlayQueued(::StringW animation, ::UnityEngine::QueueMode queue, ::UnityEngine::PlayMode mode) {
+inline ::UnityEngine::AnimationState* UnityEngine::Animation::PlayQueued(::StringW animation, /* [DefaultValue("QueueMode.CompleteOthers")] */ ::UnityEngine::QueueMode queue,
+                                                                         /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(),
                                               { "PlayQueued", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::QueueMode>(), ::i2c::type_of<::UnityEngine::PlayMode>() } })));
@@ -1572,7 +1575,8 @@ inline void UnityEngine::Animation::AddClip(::UnityEngine::AnimationClip* clip, 
                                        { "AddClip", {}, { ::i2c::type_of<::UnityEngine::AnimationClip*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, clip, newName, firstFrame, lastFrame);
 }
-inline void UnityEngine::Animation::AddClip(::UnityEngine::AnimationClip* clip, ::StringW newName, int32_t firstFrame, int32_t lastFrame, bool addLoopFrame) {
+inline void UnityEngine::Animation::AddClip(/* [NotNull] */ ::UnityEngine::AnimationClip* clip, ::StringW newName, int32_t firstFrame, int32_t lastFrame,
+                                            /* [DefaultValue("false")] */ bool addLoopFrame) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -1580,7 +1584,7 @@ inline void UnityEngine::Animation::AddClip(::UnityEngine::AnimationClip* clip, 
           { "AddClip", {}, { ::i2c::type_of<::UnityEngine::AnimationClip*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, clip, newName, firstFrame, lastFrame, addLoopFrame);
 }
-inline void UnityEngine::Animation::RemoveClip(::UnityEngine::AnimationClip* clip) {
+inline void UnityEngine::Animation::RemoveClip(/* [NotNull] */ ::UnityEngine::AnimationClip* clip) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "RemoveClip", {}, { ::i2c::type_of<::UnityEngine::AnimationClip*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, clip);
@@ -1754,7 +1758,8 @@ inline bool UnityEngine::Animation::PlayDefaultAnimation_Injected(::System::IntP
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "PlayDefaultAnimation_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::PlayMode>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, mode);
 }
-inline bool UnityEngine::Animation::Play_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, ::UnityEngine::PlayMode mode) {
+inline bool UnityEngine::Animation::Play_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation,
+                                                  /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -1762,8 +1767,8 @@ inline bool UnityEngine::Animation::Play_Injected(::System::IntPtr _unity_self, 
           { "Play_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::UnityEngine::PlayMode>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, animation, mode);
 }
-inline void UnityEngine::Animation::CrossFade_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, float_t fadeLength,
-                                                       ::UnityEngine::PlayMode mode) {
+inline void UnityEngine::Animation::CrossFade_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, /* [DefaultValue("0.3F")] */ float_t fadeLength,
+                                                       /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "CrossFade_Injected",
@@ -1772,7 +1777,8 @@ inline void UnityEngine::Animation::CrossFade_Injected(::System::IntPtr _unity_s
                                                                                          ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::PlayMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, animation, fadeLength, mode);
 }
-inline void UnityEngine::Animation::Blend_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, float_t targetWeight, float_t fadeLength) {
+inline void UnityEngine::Animation::Blend_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, /* [DefaultValue("1.0F")] */ float_t targetWeight,
+                                                   /* [DefaultValue("0.3F")] */ float_t fadeLength) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(),
@@ -1782,7 +1788,9 @@ inline void UnityEngine::Animation::Blend_Injected(::System::IntPtr _unity_self,
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, animation, targetWeight, fadeLength);
 }
 inline ::UnityEngine::AnimationState* UnityEngine::Animation::CrossFadeQueued_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation,
-                                                                                       float_t fadeLength, ::UnityEngine::QueueMode queue, ::UnityEngine::PlayMode mode) {
+                                                                                       /* [DefaultValue("0.3F")] */ float_t fadeLength,
+                                                                                       /* [DefaultValue("QueueMode.CompleteOthers")] */ ::UnityEngine::QueueMode queue,
+                                                                                       /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "CrossFadeQueued_Injected",
@@ -1792,7 +1800,8 @@ inline ::UnityEngine::AnimationState* UnityEngine::Animation::CrossFadeQueued_In
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AnimationState*>(nullptr, ___internal_method, _unity_self, animation, fadeLength, queue, mode);
 }
 inline ::UnityEngine::AnimationState* UnityEngine::Animation::PlayQueued_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation,
-                                                                                  ::UnityEngine::QueueMode queue, ::UnityEngine::PlayMode mode) {
+                                                                                  /* [DefaultValue("QueueMode.CompleteOthers")] */ ::UnityEngine::QueueMode queue,
+                                                                                  /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "PlayQueued_Injected",
@@ -1802,7 +1811,7 @@ inline ::UnityEngine::AnimationState* UnityEngine::Animation::PlayQueued_Injecte
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AnimationState*>(nullptr, ___internal_method, _unity_self, animation, queue, mode);
 }
 inline void UnityEngine::Animation::AddClip_Injected(::System::IntPtr _unity_self, ::System::IntPtr clip, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> newName, int32_t firstFrame,
-                                                     int32_t lastFrame, bool addLoopFrame) {
+                                                     int32_t lastFrame, /* [DefaultValue("false")] */ bool addLoopFrame) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animation*>(), { "AddClip_Injected",
                                                                                                            {},

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PopupField_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PopupField_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::PopupField_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::PopupField_1, "UnityEngine.UIElements", "PopupField`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0, "UnityEngine.UIElements", "PopupField`1/<>c__DisplayClass27_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
@@ -68,13 +69,13 @@ protected:
   constexpr PopupField_1___c__DisplayClass27_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1___c__DisplayClass27_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1___c__DisplayClass27_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PopupField_1___c__DisplayClass27_0(PopupField_1___c__DisplayClass27_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1___c__DisplayClass27_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1___c__DisplayClass27_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PopupField_1___c__DisplayClass27_0(PopupField_1___c__DisplayClass27_0 const&) = delete;
+  PopupField_1___c__DisplayClass27_0(PopupField_1___c__DisplayClass27_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4284 };
@@ -89,6 +90,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.UIElements.BasePopupField`2<TValueType, TValueChoice>, UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // cpp template
@@ -100,6 +102,7 @@ public:
   // Declarations
   using __c__DisplayClass27_0 = ::UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_index, put = set_index)) int32_t index;
 
   /// @brief Field indexProperty, offset 0xffffffff, size 0x98
@@ -179,13 +182,13 @@ protected:
   constexpr PopupField_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PopupField_1(PopupField_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupField_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PopupField_1(PopupField_1 const&) = delete;
+  PopupField_1(PopupField_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4285 };

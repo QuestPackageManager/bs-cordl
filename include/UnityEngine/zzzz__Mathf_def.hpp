@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Mathf.hpp"
+// IWYU pragma private; include "UnityEngine/Mathf.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,10 @@ struct Mathf;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Mathf);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Mathf, "UnityEngine", "Mathf");
+// [Il2CppEagerStaticClassConstruction]
+// [NativeHeader("Runtime/Math/ColorSpaceConversion.h")]
+// [NativeHeader("Runtime/Math/FloatConversion.h")]
+// [NativeHeader("Runtime/Math/PerlinNoise.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -65,15 +69,19 @@ public:
   /// @brief Method Clamp01, addr 0x6ad1cc8, size 0x1c, virtual false, abstract: false, final false
   static inline float_t Clamp01(float_t value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method ClampToFloat, addr 0x6ad1fc0, size 0x6c, virtual false, abstract: false, final false
   static inline float_t ClampToFloat(double_t value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEditor.UIBuilderModule" })]
   /// @brief Method ClampToInt, addr 0x6ad202c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t ClampToInt(int64_t value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method ClampToUInt, addr 0x6ad2048, size 0x18, virtual false, abstract: false, final false
   static inline uint32_t ClampToUInt(int64_t value);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method CorrelatedColorTemperatureToRGB, addr 0x6ad112c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color CorrelatedColorTemperatureToRGB(float_t kelvin);
 
@@ -92,6 +100,7 @@ public:
   /// @brief Method Exp, addr 0x6ad1784, size 0x68, virtual false, abstract: false, final false
   static inline float_t Exp(float_t power);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method FloatToHalf, addr 0x6ad11d0, size 0x38, virtual false, abstract: false, final false
   static inline uint16_t FloatToHalf(float_t val);
 
@@ -101,6 +110,7 @@ public:
   /// @brief Method FloorToInt, addr 0x6ad1b34, size 0x78, virtual false, abstract: false, final false
   static inline int32_t FloorToInt(float_t f);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GammaToLinearSpace, addr 0x6acad68, size 0x38, virtual false, abstract: false, final false
   static inline float_t GammaToLinearSpace(float_t value);
 
@@ -122,6 +132,7 @@ public:
   /// @brief Method LerpUnclamped, addr 0x6ad1d0c, size 0x10, virtual false, abstract: false, final false
   static inline float_t LerpUnclamped(float_t a, float_t b, float_t t);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method LinearToGammaSpace, addr 0x6acae50, size 0x38, virtual false, abstract: false, final false
   static inline float_t LinearToGammaSpace(float_t value);
 
@@ -138,7 +149,7 @@ public:
   static inline float_t Max(float_t a, float_t b);
 
   /// @brief Method Max, addr 0x6ad16b8, size 0x50, virtual false, abstract: false, final false
-  static inline float_t Max(::ArrayW<float_t> values);
+  static inline float_t Max(/* [ParamArray] */ ::ArrayW<float_t> values);
 
   /// @brief Method Max, addr 0x6ad1708, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Max(int32_t a, int32_t b);
@@ -147,7 +158,7 @@ public:
   static inline float_t Min(float_t a, float_t b);
 
   /// @brief Method Min, addr 0x6ad1650, size 0x50, virtual false, abstract: false, final false
-  static inline float_t Min(::ArrayW<float_t> values);
+  static inline float_t Min(/* [ParamArray] */ ::ArrayW<float_t> values);
 
   /// @brief Method Min, addr 0x6ad16a0, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Min(int32_t a, int32_t b);
@@ -158,6 +169,7 @@ public:
   /// @brief Method NextPowerOfTwo, addr 0x6ad2310, size 0x20, virtual false, abstract: false, final false
   static inline int32_t NextPowerOfTwo(int32_t value);
 
+  /// [FreeFunction("PerlinNoise::NoiseNormalized", IsThreadSafe = true)]
   /// @brief Method PerlinNoise, addr 0x6ad1208, size 0x40, virtual false, abstract: false, final false
   static inline float_t PerlinNoise(float_t x, float_t y);
 
@@ -170,6 +182,7 @@ public:
   /// @brief Method Round, addr 0x6ad19f0, size 0xcc, virtual false, abstract: false, final false
   static inline float_t Round(float_t f);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method RoundBasedOnMinimumDifference, addr 0x6ad20f8, size 0x9c, virtual false, abstract: false, final false
   static inline double_t RoundBasedOnMinimumDifference(double_t valueToRound, double_t minDifference);
 
@@ -183,7 +196,8 @@ public:
   static inline float_t Sin(float_t f);
 
   /// @brief Method SmoothDamp, addr 0x6ad1e40, size 0xd0, virtual false, abstract: false, final false
-  static inline float_t SmoothDamp(float_t current, float_t target, ::by_ref<float_t> currentVelocity, float_t smoothTime, float_t maxSpeed, float_t deltaTime);
+  static inline float_t SmoothDamp(float_t current, float_t target, ::by_ref<float_t> currentVelocity, float_t smoothTime, /* [DefaultValue("Mathf.Infinity")] */ float_t maxSpeed,
+                                   /* [DefaultValue("Time.deltaTime")] */ float_t deltaTime);
 
   /// @brief Method Sqrt, addr 0x6ad1528, size 0x60, virtual false, abstract: false, final false
   static inline float_t Sqrt(float_t f);

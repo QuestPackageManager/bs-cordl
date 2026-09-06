@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RangeKey.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RangeKey.hpp"
 #include "UnityEngine/Rendering/zzzz__ShadowCastingMode_impl.hpp"
 #include "UnityEngine/zzzz__MotionVectorGenerationMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RangeKey_def.hpp"
@@ -47,10 +47,11 @@ constexpr UnityEngine::Rendering::RangeKey::operator ::System::IEquatable_1<::Un
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RangeKey>* UnityEngine::Rendering::RangeKey::i___System__IEquatable_1___UnityEngine__Rendering__RangeKey_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RangeKey>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "layer", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "motionMode", ty: "::UnityEngine::MotionVectorGenerationMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "shadowCastingMode", ty:
-// "::UnityEngine::Rendering::ShadowCastingMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "staticShadowCaster", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rendererPriority", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportsIndirect", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "layer", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "motionMode", ty: "::UnityEngine::MotionVectorGenerationMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "shadowCastingMode", ty: "::UnityEngine::Rendering::ShadowCastingMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "staticShadowCaster", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "rendererPriority", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "supportsIndirect", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RangeKey::RangeKey(uint8_t layer, uint32_t renderingLayerMask, ::UnityEngine::MotionVectorGenerationMode motionMode,
                                                        ::UnityEngine::Rendering::ShadowCastingMode shadowCastingMode, bool staticShadowCaster, int32_t rendererPriority,
                                                        bool supportsIndirect) noexcept {

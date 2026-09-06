@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\Utility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Utility.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
@@ -17,7 +17,7 @@
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBufferType::Utility_GPUBufferType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -25,53 +25,76 @@ constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBufferType::Utility_GPUBuff
 constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBufferType::Utility_GPUBufferType() {}
 constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBufferType UnityEngine::UIElements::UIR::Utility_GPUBufferType::Vertex{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBufferType UnityEngine::UIElements::UIR::Utility_GPUBufferType::Index{ static_cast<int32_t>(0x1) };
-template <typename T> constexpr ::System::IntPtr& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_buffer() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::IntPtr& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_buffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
-template <typename T> constexpr ::System::IntPtr const& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_buffer() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::IntPtr const& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_buffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_set_buffer(::System::IntPtr value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_set_buffer(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buffer = value;
 }
-template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_elemCount() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr int32_t& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_elemCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemCount;
 }
-template <typename T> constexpr int32_t const& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_elemCount() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr int32_t const& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_elemCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemCount;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_set_elemCount(int32_t value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_set_elemCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elemCount = value;
 }
-template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_elemStride() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr int32_t& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_elemStride() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemStride;
 }
-template <typename T> constexpr int32_t const& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_elemStride() const {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr int32_t const& UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_get_elemStride() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemStride;
 }
-template <typename T> constexpr void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_set_elemStride(int32_t value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::__cordl_internal_set_elemStride(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elemStride = value;
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::_ctor(int32_t elementCount, ::UnityEngine::UIElements::UIR::Utility_GPUBufferType type) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::_ctor(int32_t elementCount, ::UnityEngine::UIElements::UIR::Utility_GPUBufferType type) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::UIR::Utility_GPUBufferType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, elementCount, type);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::Dispose() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::UpdateRanges(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> ranges, int32_t rangesMin,
                                                                                int32_t rangesMax) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -82,29 +105,40 @@ inline void UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::UpdateRanges(:
                             { ::i2c::type_of<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ranges, rangesMin, rangesMax);
 }
-template <typename T> inline int32_t UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::get_ElementStride() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::get_ElementStride() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>*>(), { "get_ElementStride", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-template <typename T> inline ::System::IntPtr UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::get_BufferPointer() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::System::IntPtr UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::get_BufferPointer() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>*>(), { "get_BufferPointer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>* UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::New_ctor(int32_t elementCount,
                                                                                                                               ::UnityEngine::UIElements::UIR::Utility_GPUBufferType type) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>*>(elementCount, type));
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::operator ::System::IDisposable*() noexcept {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::i___System__IDisposable() noexcept {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::Utility_GPUBuffer_1() {}
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>::Utility_GPUBuffer_1() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Utility.add_GraphicsResourcesRecreate
 template <>
 

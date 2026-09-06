@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Nullable_1.hpp"
+// IWYU pragma private; include "System/Nullable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,15 +12,19 @@ class Object;
 }
 // Forward declare root types
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Nullable_1);
 DEFINE_IL2CPP_GEN_CLASS(::System::Nullable_1, "System", "Nullable`1");
+// [NonVersionable]
 // Dependencies
 namespace System {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: System.Nullable`1<T>
 struct CORDL_TYPE Nullable_1 {
@@ -39,9 +43,11 @@ public:
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [NonVersionable]
   /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValueOrDefault();
 
+  /// [NonVersionable]
   /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValueOrDefault(T defaultValue);
 
@@ -54,9 +60,11 @@ public:
   /// @brief Method UnboxExact, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<T> UnboxExact(::System::Object* o);
 
+  /// [NonVersionable]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value);
 
+  /// [NonVersionable]
   /// @brief Method get_HasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_HasValue();
 
@@ -67,7 +75,7 @@ public:
   // @brief default ctor
   constexpr Nullable_1();
 
-  // Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr Nullable_1(bool hasValue, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

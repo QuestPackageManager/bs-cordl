@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextureId.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextureId.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TextureId._ctor
@@ -130,7 +130,7 @@ inline bool UnityEngine::UIElements::TextureId::op_Inequality(::UnityEngine::UIE
                                               { "op_Inequality", {}, { ::i2c::type_of<::UnityEngine::UIElements::TextureId>(), ::i2c::type_of<::UnityEngine::UIElements::TextureId>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, left, right);
 }
-// Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TextureId::TextureId(int32_t m_Index) noexcept {
   this->m_Index = m_Index;
 }

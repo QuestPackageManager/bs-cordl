@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\TransformScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject/TransformScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ class TransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 // Write type traits
 MARK_REF_T(::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*);
 DEFINE_IL2CPP_CLASS(::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "TransformScopeConcreteIdArgConditionCopyNonLazyBinder");
+// [NoReflectionBaking]
 // Dependencies Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
 namespace Zenject {
 // Is value type: false
@@ -64,9 +65,11 @@ public:
   /// @brief Method .ctor, addr 0x6e5cb9c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
+  /// [CompilerGenerated]
   /// @brief Method get_GameObjectInfo, addr 0x6e5cbc8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method set_GameObjectInfo, addr 0x6e5cbd0, size 0x8, virtual false, abstract: false, final false
   inline void set_GameObjectInfo(::Zenject::GameObjectCreationParameters* value);
 
@@ -76,17 +79,18 @@ protected:
   constexpr TransformScopeConcreteIdArgConditionCopyNonLazyBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransformScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransformScopeConcreteIdArgConditionCopyNonLazyBinder(TransformScopeConcreteIdArgConditionCopyNonLazyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransformScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransformScopeConcreteIdArgConditionCopyNonLazyBinder(TransformScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
+  TransformScopeConcreteIdArgConditionCopyNonLazyBinder(TransformScopeConcreteIdArgConditionCopyNonLazyBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14273 };
 
+  /// [CompilerGenerated]
   /// @brief Field <GameObjectInfo>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ____GameObjectInfo_k__BackingField;
 

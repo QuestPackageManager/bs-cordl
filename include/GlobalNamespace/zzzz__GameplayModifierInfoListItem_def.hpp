@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifierInfoListItem.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierInfoListItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,20 +60,22 @@ protected:
   constexpr GameplayModifierInfoListItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierInfoListItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierInfoListItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifierInfoListItem(GameplayModifierInfoListItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierInfoListItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierInfoListItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifierInfoListItem(GameplayModifierInfoListItem const&) = delete;
+  GameplayModifierInfoListItem(GameplayModifierInfoListItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23639 };
 
+  /// [SerializeField]
   /// @brief Field _hoverHint, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____hoverHint;
 
+  /// [SerializeField]
   /// @brief Field _iconImage, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____iconImage;
 

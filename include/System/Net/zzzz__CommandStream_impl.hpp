@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\CommandStream.hpp"
+// IWYU pragma private; include "System/Net/CommandStream.hpp"
 #include "System/Net/zzzz__NetworkStreamWrapper_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CommandStream_def.hpp"
@@ -17,7 +17,7 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::CommandStream_PipelineInstruction::CommandStream_PipelineInstruction(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -28,7 +28,7 @@ constexpr ::System::Net::CommandStream_PipelineInstruction System::Net::CommandS
 constexpr ::System::Net::CommandStream_PipelineInstruction System::Net::CommandStream_PipelineInstruction::Pause{ static_cast<int32_t>(0x2) };
 constexpr ::System::Net::CommandStream_PipelineInstruction System::Net::CommandStream_PipelineInstruction::Reread{ static_cast<int32_t>(0x3) };
 constexpr ::System::Net::CommandStream_PipelineInstruction System::Net::CommandStream_PipelineInstruction::GiveStream{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::CommandStream_PipelineEntryFlags::CommandStream_PipelineEntryFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

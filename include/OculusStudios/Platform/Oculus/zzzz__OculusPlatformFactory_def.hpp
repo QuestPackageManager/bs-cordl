@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Oculus\OculusPlatformFactory.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Oculus/OculusPlatformFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::OculusStudios::Platform::Oculus::OculusPlatformFactory*);
 MARK_VAL_T(::OculusStudios::Platform::Oculus::OculusPlatformFactory__CreateAsync_d__0);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::OculusPlatformFactory*, "OculusStudios.Platform.Oculus", "OculusPlatformFactory");
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::OculusPlatformFactory__CreateAsync_d__0, "OculusStudios.Platform.Oculus", "OculusPlatformFactory/<CreateAsync>d__0");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
@@ -55,6 +56,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f34600, size 0x2b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f348b8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -65,10 +67,10 @@ public:
   // @brief default ctor
   constexpr OculusPlatformFactory__CreateAsync_d__0();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None }, CppParam { name: "initParams", ty:
-  // "::OculusStudios::Platform::Core::PlatformInitParams*", modifiers: "", def_value: None }, CppParam { name: "_result_5__2", ty: "::OculusStudios::Platform::Oculus::OculusPlatform*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "initParams", ty:
+  // "::OculusStudios::Platform::Core::PlatformInitParams*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_result_5__2", ty: "::OculusStudios::Platform::Oculus::OculusPlatform*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr OculusPlatformFactory__CreateAsync_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::IPlatform*> __t__builder,
                                                     ::OculusStudios::Platform::Core::PlatformInitParams* initParams, ::OculusStudios::Platform::Oculus::OculusPlatform* _result_5__2,
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -122,6 +124,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformFactory"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformFactory*() noexcept;
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.OculusPlatformFactory::<CreateAsync>d__0))]
   /// @brief Method CreateAsync, addr 0x5f34514, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::IPlatform*>* CreateAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
@@ -143,13 +146,13 @@ protected:
   constexpr OculusPlatformFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformFactory(OculusPlatformFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformFactory(OculusPlatformFactory const&) = delete;
+  OculusPlatformFactory(OculusPlatformFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22140 };

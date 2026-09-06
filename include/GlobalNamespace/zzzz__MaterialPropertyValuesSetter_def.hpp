@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyValuesSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyValuesSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,9 +97,11 @@ public:
   /// @brief Method .ctor, addr 0x5872c0c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_propertyId, addr 0x5872bfc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_propertyId();
 
+  /// [CompilerGenerated]
   /// @brief Method set_propertyId, addr 0x5872c04, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyId(int32_t value);
 
@@ -109,20 +111,22 @@ protected:
   constexpr MaterialPropertyValuesSetter_PropertyValuePairBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyValuePairBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyValuePairBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyValuesSetter_PropertyValuePairBase(MaterialPropertyValuesSetter_PropertyValuePairBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyValuePairBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyValuePairBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyValuesSetter_PropertyValuePairBase(MaterialPropertyValuesSetter_PropertyValuePairBase const&) = delete;
+  MaterialPropertyValuesSetter_PropertyValuePairBase(MaterialPropertyValuesSetter_PropertyValuePairBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19578 };
 
+  /// [SerializeField]
   /// @brief Field _propertyName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____propertyName;
 
+  /// [CompilerGenerated]
   /// @brief Field <propertyId>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____propertyId_k__BackingField;
 
@@ -163,13 +167,13 @@ protected:
   constexpr MaterialPropertyValuesSetter_PropertyNameFloatValuePair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameFloatValuePair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameFloatValuePair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyValuesSetter_PropertyNameFloatValuePair(MaterialPropertyValuesSetter_PropertyNameFloatValuePair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameFloatValuePair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameFloatValuePair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyValuesSetter_PropertyNameFloatValuePair(MaterialPropertyValuesSetter_PropertyNameFloatValuePair const&) = delete;
+  MaterialPropertyValuesSetter_PropertyNameFloatValuePair(MaterialPropertyValuesSetter_PropertyNameFloatValuePairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19579 };
@@ -212,13 +216,13 @@ protected:
   constexpr MaterialPropertyValuesSetter_PropertyNameIntValuePair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameIntValuePair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameIntValuePair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyValuesSetter_PropertyNameIntValuePair(MaterialPropertyValuesSetter_PropertyNameIntValuePair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameIntValuePair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameIntValuePair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyValuesSetter_PropertyNameIntValuePair(MaterialPropertyValuesSetter_PropertyNameIntValuePair const&) = delete;
+  MaterialPropertyValuesSetter_PropertyNameIntValuePair(MaterialPropertyValuesSetter_PropertyNameIntValuePairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19580 };
@@ -261,13 +265,13 @@ protected:
   constexpr MaterialPropertyValuesSetter_PropertyNameVectorValuePair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameVectorValuePair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameVectorValuePair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyValuesSetter_PropertyNameVectorValuePair(MaterialPropertyValuesSetter_PropertyNameVectorValuePair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameVectorValuePair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameVectorValuePair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyValuesSetter_PropertyNameVectorValuePair(MaterialPropertyValuesSetter_PropertyNameVectorValuePair const&) = delete;
+  MaterialPropertyValuesSetter_PropertyNameVectorValuePair(MaterialPropertyValuesSetter_PropertyNameVectorValuePairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19581 };
@@ -310,13 +314,13 @@ protected:
   constexpr MaterialPropertyValuesSetter_PropertyNameColorValuePair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameColorValuePair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameColorValuePair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyValuesSetter_PropertyNameColorValuePair(MaterialPropertyValuesSetter_PropertyNameColorValuePair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameColorValuePair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter_PropertyNameColorValuePair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyValuesSetter_PropertyNameColorValuePair(MaterialPropertyValuesSetter_PropertyNameColorValuePair const&) = delete;
+  MaterialPropertyValuesSetter_PropertyNameColorValuePair(MaterialPropertyValuesSetter_PropertyNameColorValuePairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19582 };
@@ -420,29 +424,34 @@ protected:
   constexpr MaterialPropertyValuesSetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyValuesSetter(MaterialPropertyValuesSetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyValuesSetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyValuesSetter(MaterialPropertyValuesSetter const&) = delete;
+  MaterialPropertyValuesSetter(MaterialPropertyValuesSetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19583 };
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [SerializeField]
   /// @brief Field _floats, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameFloatValuePair*> ____floats;
 
+  /// [SerializeField]
   /// @brief Field _vectors, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameVectorValuePair*> ____vectors;
 
+  /// [SerializeField]
   /// @brief Field _colors, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameColorValuePair*> ____colors;
 
+  /// [SerializeField]
   /// @brief Field _ints, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameIntValuePair*> ____ints;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PauseAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PauseAnimationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class PauseAnimationController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PauseAnimationController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PauseAnimationController*, "", "PauseAnimationController");
+// [AddComponentMenu("Beat Saber/Gameplay/PauseAnimationController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -64,9 +65,11 @@ public:
   /// @brief Method .ctor, addr 0x327f010, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_resumeFromPauseAnimationDidFinishEvent, addr 0x327ed18, size 0xac, virtual false, abstract: false, final false
   inline void add_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent, addr 0x327edc4, size 0xac, virtual false, abstract: false, final false
   inline void remove_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
@@ -76,20 +79,22 @@ protected:
   constexpr PauseAnimationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PauseAnimationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseAnimationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PauseAnimationController(PauseAnimationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PauseAnimationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseAnimationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseAnimationController(PauseAnimationController const&) = delete;
+  PauseAnimationController(PauseAnimationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23551 };
 
+  /// [SerializeField]
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 
+  /// [CompilerGenerated]
   /// @brief Field resumeFromPauseAnimationDidFinishEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___resumeFromPauseAnimationDidFinishEvent;
 

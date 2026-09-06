@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputBinding.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputBinding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -9,7 +9,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions::InputBinding_DisplayStringOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -19,14 +19,14 @@ constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions UnityEng
 constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions UnityEngine::InputSystem::InputBinding_DisplayStringOptions::DontOmitDevice{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions UnityEngine::InputSystem::InputBinding_DisplayStringOptions::DontIncludeInteractions{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions UnityEngine::InputSystem::InputBinding_DisplayStringOptions::IgnoreBindingOverrides{ static_cast<int32_t>(0x8) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputBinding_MatchOptions::InputBinding_MatchOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputBinding_MatchOptions::InputBinding_MatchOptions() {}
 constexpr ::UnityEngine::InputSystem::InputBinding_MatchOptions UnityEngine::InputSystem::InputBinding_MatchOptions::EmptyGroupMatchesAny{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputBinding_Flags::InputBinding_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -829,7 +829,7 @@ inline ::UnityEngine::InputSystem::InputBinding UnityEngine::InputSystem::InputB
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBinding>(), { "MaskByGroup", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputBinding>(nullptr, ___internal_method, group);
 }
-inline ::UnityEngine::InputSystem::InputBinding UnityEngine::InputSystem::InputBinding::MaskByGroups(::ArrayW<::StringW> groups) {
+inline ::UnityEngine::InputSystem::InputBinding UnityEngine::InputSystem::InputBinding::MaskByGroups(/* [ParamArray] */ ::ArrayW<::StringW> groups) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBinding>(), { "MaskByGroups", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputBinding>(nullptr, ___internal_method, groups);
@@ -922,12 +922,13 @@ constexpr UnityEngine::InputSystem::InputBinding::operator ::System::IEquatable_
 constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>* UnityEngine::InputSystem::InputBinding::i___System__IEquatable_1___UnityEngine__InputSystem__InputBinding_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Interactions", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Processors",
-// ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Groups", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Action", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputBinding_Flags", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverridePath",
-// ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverrideInteractions", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverrideProcessors",
-// ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_Path", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Interactions", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Processors", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Groups", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_Action", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty:
+// "::UnityEngine::InputSystem::InputBinding_Flags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OverridePath", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_OverrideInteractions", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OverrideProcessors", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputBinding::InputBinding(::StringW m_Name, ::StringW m_Id, ::StringW m_Path, ::StringW m_Interactions, ::StringW m_Processors, ::StringW m_Groups,
                                                                  ::StringW m_Action, ::UnityEngine::InputSystem::InputBinding_Flags m_Flags, ::StringW m_OverridePath, ::StringW m_OverrideInteractions,
                                                                  ::StringW m_OverrideProcessors) noexcept {

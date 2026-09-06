@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomNetworkConfig.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomNetworkConfig.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -196,51 +196,65 @@ public:
   /// @brief Method .ctor, addr 0x32a91e0, size 0x578, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift);
 
+  /// [CompilerGenerated]
   /// @brief Method get_customLocation, addr 0x32a91c8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_customLocation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_discoveryPort, addr 0x32a9114, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_discoveryPort();
 
+  /// [CompilerGenerated]
   /// @brief Method get_forceGameLift, addr 0x32a91b8, size 0x8, virtual true, abstract: false, final true
   inline bool get_forceGameLift();
 
+  /// [CompilerGenerated]
   /// @brief Method get_graphAccessToken, addr 0x32a91a8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphAccessToken();
 
+  /// [CompilerGenerated]
   /// @brief Method get_graphAppId, addr 0x32a91b0, size 0x8, virtual true, abstract: false, final true
   inline uint64_t get_graphAppId();
 
   /// @brief Method get_graphQLUrl, addr 0x32a9158, size 0x50, virtual true, abstract: false, final true
   inline ::StringW get_graphQLUrl();
 
+  /// [CompilerGenerated]
   /// @brief Method get_graphUrl, addr 0x32a9150, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphUrl();
 
+  /// [CompilerGenerated]
   /// @brief Method get_localServerPort, addr 0x32a91d8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_localServerPort();
 
+  /// [CompilerGenerated]
   /// @brief Method get_masterServerPort, addr 0x32a912c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_masterServerPort();
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxPartySize, addr 0x32a910c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPartySize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_multiplayerPort, addr 0x32a9124, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multiplayerPort();
 
+  /// [CompilerGenerated]
   /// @brief Method get_multiplayerStatusUrl, addr 0x32a9134, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerStatusUrl();
 
+  /// [CompilerGenerated]
   /// @brief Method get_partyPort, addr 0x32a911c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_partyPort();
 
   /// @brief Method get_quickPlaySetupUrl, addr 0x32a913c, size 0x14, virtual true, abstract: false, final true
   inline ::StringW get_quickPlaySetupUrl();
 
+  /// [CompilerGenerated]
   /// @brief Method get_serviceEnvironment, addr 0x32a91c0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
+  /// [CompilerGenerated]
   /// @brief Method get_useLocalServer, addr 0x32a91d0, size 0x8, virtual true, abstract: false, final true
   inline bool get_useLocalServer();
 
@@ -253,56 +267,70 @@ protected:
   constexpr CustomNetworkConfig();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomNetworkConfig", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomNetworkConfig", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomNetworkConfig(CustomNetworkConfig&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomNetworkConfig", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomNetworkConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomNetworkConfig(CustomNetworkConfig const&) = delete;
+  CustomNetworkConfig(CustomNetworkConfigconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18851 };
 
+  /// [CompilerGenerated]
   /// @brief Field <maxPartySize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____maxPartySize_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <discoveryPort>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____discoveryPort_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <partyPort>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____partyPort_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <multiplayerPort>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____multiplayerPort_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <masterServerPort>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____masterServerPort_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <multiplayerStatusUrl>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____multiplayerStatusUrl_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <graphUrl>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____graphUrl_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <graphAccessToken>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____graphAccessToken_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <graphAppId>k__BackingField, offset: 0x40, size: 0x8, def value: None
   uint64_t ____graphAppId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <forceGameLift>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____forceGameLift_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <serviceEnvironment>k__BackingField, offset: 0x4c, size: 0x4, def value: None
   ::GlobalNamespace::ServiceEnvironment ____serviceEnvironment_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <customLocation>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::StringW ____customLocation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <useLocalServer>k__BackingField, offset: 0x58, size: 0x1, def value: None
   bool ____useLocalServer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <localServerPort>k__BackingField, offset: 0x5c, size: 0x4, def value: None
   int32_t ____localServerPort_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Outline.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Outline.hpp"
 #include "UnityEngine/UI/zzzz__Shadow_impl.hpp"
 #include "UnityEngine/UI/zzzz__Outline_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"

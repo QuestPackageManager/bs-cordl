@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\InlineLinkAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/InlineLinkAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__InlineLinkAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InlineLinkAttribute._ctor

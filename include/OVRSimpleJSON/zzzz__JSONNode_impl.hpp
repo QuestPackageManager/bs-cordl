@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVRSimpleJSON\JSONNode.hpp"
+// IWYU pragma private; include "OVRSimpleJSON/JSONNode.hpp"
 #include "OVRSimpleJSON/zzzz__JSONContainerType_impl.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
@@ -29,7 +29,7 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVRSimpleJSON::Enumerator_JSONNode_Type::Enumerator_JSONNode_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -129,9 +129,9 @@ inline bool OVRSimpleJSON::JSONNode_Enumerator::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNode_Enumerator>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::OVRSimpleJSON::Enumerator_JSONNode_Type", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Object", ty:
-// "::System::Collections::Generic::Dictionary_2_Enumerator<::StringW,::OVRSimpleJSON::JSONNode*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Array", ty:
-// "::System::Collections::Generic::List_1_Enumerator<::OVRSimpleJSON::JSONNode*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::OVRSimpleJSON::Enumerator_JSONNode_Type", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Object", ty:
+// "::System::Collections::Generic::Dictionary_2_Enumerator<::StringW,::OVRSimpleJSON::JSONNode*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Array", ty:
+// "::System::Collections::Generic::List_1_Enumerator<::OVRSimpleJSON::JSONNode*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVRSimpleJSON::JSONNode_Enumerator::JSONNode_Enumerator(::OVRSimpleJSON::Enumerator_JSONNode_Type type,
                                                                     ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*> m_Object,
                                                                     ::System::Collections::Generic::List_1_Enumerator<::OVRSimpleJSON::JSONNode*> m_Array) noexcept {
@@ -250,7 +250,7 @@ inline ::OVRSimpleJSON::JSONNode_ValueEnumerator OVRSimpleJSON::JSONNode_ValueEn
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNode_ValueEnumerator>(), { "GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::OVRSimpleJSON::JSONNode_ValueEnumerator>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::OVRSimpleJSON::JSONNode_Enumerator", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::OVRSimpleJSON::JSONNode_Enumerator", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVRSimpleJSON::JSONNode_ValueEnumerator::JSONNode_ValueEnumerator(::OVRSimpleJSON::JSONNode_Enumerator m_Enumerator) noexcept {
   this->m_Enumerator = m_Enumerator;
 }
@@ -365,7 +365,7 @@ inline ::OVRSimpleJSON::JSONNode_KeyEnumerator OVRSimpleJSON::JSONNode_KeyEnumer
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNode_KeyEnumerator>(), { "GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::OVRSimpleJSON::JSONNode_KeyEnumerator>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::OVRSimpleJSON::JSONNode_Enumerator", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::OVRSimpleJSON::JSONNode_Enumerator", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVRSimpleJSON::JSONNode_KeyEnumerator::JSONNode_KeyEnumerator(::OVRSimpleJSON::JSONNode_Enumerator m_Enumerator) noexcept {
   this->m_Enumerator = m_Enumerator;
 }
@@ -769,6 +769,7 @@ inline ::System::Collections::IEnumerator* OVRSimpleJSON::JSONNode__get_Children
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNode__get_Children_d__43*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::OVRSimpleJSON::JSONNode__get_Children_d__43* OVRSimpleJSON::JSONNode__get_Children_d__43::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVRSimpleJSON::JSONNode__get_Children_d__43*>(__1__state));
 }
@@ -1068,6 +1069,7 @@ inline ::System::Collections::IEnumerator* OVRSimpleJSON::JSONNode__get_DeepChil
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNode__get_DeepChildren_d__45*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::OVRSimpleJSON::JSONNode__get_DeepChildren_d__45* OVRSimpleJSON::JSONNode__get_DeepChildren_d__45::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVRSimpleJSON::JSONNode__get_DeepChildren_d__45*>(__1__state));
 }

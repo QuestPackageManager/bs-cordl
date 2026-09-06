@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuestSettingsApplicatorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuestSettingsApplicatorSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ class CORDL_TYPE QuestSettingsApplicatorSO : public ::GlobalNamespace::SettingsA
 public:
   // Declarations
   /// @brief Method ApplyGraphicSettings, addr 0x5901470, size 0x2a4, virtual true, abstract: false, final false
-  inline void ApplyGraphicSettings(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
+  inline void ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
 
   static inline ::GlobalNamespace::QuestSettingsApplicatorSO* New_ctor();
 
@@ -39,13 +39,13 @@ protected:
   constexpr QuestSettingsApplicatorSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuestSettingsApplicatorSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuestSettingsApplicatorSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuestSettingsApplicatorSO(QuestSettingsApplicatorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuestSettingsApplicatorSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuestSettingsApplicatorSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuestSettingsApplicatorSO(QuestSettingsApplicatorSO const&) = delete;
+  QuestSettingsApplicatorSO(QuestSettingsApplicatorSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6664 };

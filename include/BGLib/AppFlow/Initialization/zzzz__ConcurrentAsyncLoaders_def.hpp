@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\ConcurrentAsyncLoaders.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/ConcurrentAsyncLoaders.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,17 +54,18 @@ protected:
   constexpr ConcurrentAsyncLoaders();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentAsyncLoaders", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentAsyncLoaders", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentAsyncLoaders(ConcurrentAsyncLoaders&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentAsyncLoaders", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentAsyncLoaders", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentAsyncLoaders(ConcurrentAsyncLoaders const&) = delete;
+  ConcurrentAsyncLoaders(ConcurrentAsyncLoadersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21561 };
 
+  /// [SerializeField]
   /// @brief Field _asyncLoaders, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>>* ____asyncLoaders;
 

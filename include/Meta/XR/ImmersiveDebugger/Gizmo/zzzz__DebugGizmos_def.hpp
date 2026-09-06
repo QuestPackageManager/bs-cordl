@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\DebugGizmos.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/DebugGizmos.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr DebugGizmos_ColorScope();
 
-  // Ctor Parameters [CppParam { name: "_savedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_savedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }]
   constexpr DebugGizmos_ColorScope(::UnityEngine::Color _savedColor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -100,6 +100,7 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorSc
 static_assert(sizeof(::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorScope) == 0x10, "Size mismatch!");
 
 } // namespace Meta::XR::ImmersiveDebugger::Gizmo
+// [ExecuteAlways]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace Meta::XR::ImmersiveDebugger::Gizmo {
 // Is value type: false
@@ -186,6 +187,7 @@ public:
   /// @brief Method DrawWireCube, addr 0x5a6bf54, size 0x36c, virtual false, abstract: false, final false
   static inline void DrawWireCube(::UnityEngine::Vector3 center, float_t size, ::UnityEngine::Transform* t);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x5a6ab00, size 0x88, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -286,13 +288,13 @@ protected:
   constexpr DebugGizmos();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugGizmos", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugGizmos", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugGizmos(DebugGizmos&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugGizmos", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugGizmos", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugGizmos(DebugGizmos const&) = delete;
+  DebugGizmos(DebugGizmosconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18475 };

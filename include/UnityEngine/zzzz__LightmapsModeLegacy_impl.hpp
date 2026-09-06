@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightmapsModeLegacy.hpp"
+// IWYU pragma private; include "UnityEngine/LightmapsModeLegacy.hpp"
 #include "UnityEngine/zzzz__LightmapsModeLegacy_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::LightmapsModeLegacy::LightmapsModeLegacy(int32_t value__) noexcept {
   this->value__ = value__;
 }

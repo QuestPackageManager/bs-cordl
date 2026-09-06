@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ArgIterator.hpp"
+// IWYU pragma private; include "System/ArgIterator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,8 +34,9 @@ public:
   // @brief default ctor
   constexpr ArgIterator();
 
-  // Ctor Parameters [CppParam { name: "sig", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam {
-  // name: "next_arg", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "num_args", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sig", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "next_arg", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "num_args", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ArgIterator(::System::IntPtr sig, ::System::IntPtr args, int32_t next_arg, int32_t num_args) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

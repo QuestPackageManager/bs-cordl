@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\LazyDerSequence.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/LazyDerSequence.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class LazyDerSequence;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Asn1::LazyDerSequence*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Asn1::LazyDerSequence*, "Org.BouncyCastle.Asn1", "LazyDerSequence");
+// [DefaultMember("Item")]
 // Dependencies Org.BouncyCastle.Asn1.DerSequence
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
@@ -69,13 +70,13 @@ protected:
   constexpr LazyDerSequence();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LazyDerSequence", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyDerSequence", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LazyDerSequence(LazyDerSequence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LazyDerSequence", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyDerSequence", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LazyDerSequence(LazyDerSequence const&) = delete;
+  LazyDerSequence(LazyDerSequenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 525 };

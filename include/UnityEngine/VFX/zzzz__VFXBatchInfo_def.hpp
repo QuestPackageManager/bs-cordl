@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXBatchInfo.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXBatchInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VFXBatchInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::VFX::VFXBatchInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXBatchInfo, "UnityEngine.VFX", "VFXBatchInfo");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::VFX {
 // Is value type: true
@@ -24,7 +25,8 @@ public:
   // @brief default ctor
   constexpr VFXBatchInfo();
 
-  // Ctor Parameters [CppParam { name: "capacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "activeInstanceCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "capacity", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "activeInstanceCount", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr VFXBatchInfo(uint32_t capacity, uint32_t activeInstanceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PosesSerializer.hpp"
+// IWYU pragma private; include "GlobalNamespace/PosesSerializer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   /// @brief Method LoadRecordingFromDirectory, addr 0x58eb350, size 0x2dc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingData* LoadRecordingFromDirectory(::StringW path);
 
-  static inline ::GlobalNamespace::PosesSerializer* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
+  static inline ::GlobalNamespace::PosesSerializer* New_ctor(/* [Inject(Id = "RecordingTool")] */ ::GlobalNamespace::IBeatSaberLogger* logger);
 
   /// @brief Method RecordingCanBeCreated, addr 0x58ebc20, size 0x524, virtual true, abstract: false, final true
   inline bool RecordingCanBeCreated(::StringW path);
@@ -98,7 +98,7 @@ public:
   constexpr void __cordl_internal_set__recordingConverter(::GlobalNamespace::RecordingConverter* value);
 
   /// @brief Method .ctor, addr 0x58ea4d8, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
+  inline void _ctor(/* [Inject(Id = "RecordingTool")] */ ::GlobalNamespace::IBeatSaberLogger* logger);
 
   /// @brief Convert to "::GlobalNamespace::IPosesSerializer"
   constexpr ::GlobalNamespace::IPosesSerializer* i___GlobalNamespace__IPosesSerializer() noexcept;
@@ -109,13 +109,13 @@ protected:
   constexpr PosesSerializer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PosesSerializer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesSerializer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PosesSerializer(PosesSerializer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PosesSerializer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PosesSerializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesSerializer(PosesSerializer const&) = delete;
+  PosesSerializer(PosesSerializerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6588 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\TypeExtensions.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/TypeExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,9 @@ class TypeExtensions;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Utilities::TypeExtensions*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::TypeExtensions*, "Newtonsoft.Json.Utilities", "TypeExtensions");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -38,57 +41,75 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE TypeExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Assembly, addr 0x5d349a0, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* Assembly(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method AssignableToTypeName, addr 0x5d34bf0, size 0x18, virtual false, abstract: false, final false
   static inline bool AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, bool searchInterfaces);
 
+  /// [Extension]
   /// @brief Method AssignableToTypeName, addr 0x5d34ac4, size 0x12c, virtual false, abstract: false, final false
-  static inline bool AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, bool searchInterfaces, ::by_ref<::System::Type*> match);
+  static inline bool AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, bool searchInterfaces, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Type*> match);
 
+  /// [Extension]
   /// @brief Method BaseType, addr 0x5d34984, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Type* BaseType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method ContainsGenericParameters, addr 0x5d3491c, size 0x1c, virtual false, abstract: false, final false
   static inline bool ContainsGenericParameters(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method ImplementInterface, addr 0x5d34c08, size 0x38c, virtual false, abstract: false, final false
   static inline bool ImplementInterface(::System::Type* type, ::System::Type* interfaceType);
 
+  /// [Extension]
   /// @brief Method IsAbstract, addr 0x5d34a50, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAbstract(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsClass, addr 0x5d349d8, size 0x50, virtual false, abstract: false, final false
   static inline bool IsClass(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsEnum, addr 0x5d349bc, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsEnum(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsGenericType, addr 0x5d3494c, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsGenericType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsGenericTypeDefinition, addr 0x5d34968, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsGenericTypeDefinition(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsInterface, addr 0x5d34938, size 0x14, virtual false, abstract: false, final false
   static inline bool IsInterface(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsPrimitive, addr 0x5d34aa8, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsSealed, addr 0x5d34a28, size 0x28, virtual false, abstract: false, final false
   static inline bool IsSealed(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsValueType, addr 0x5d34a8c, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsValueType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsVisible, addr 0x5d34a78, size 0x14, virtual false, abstract: false, final false
   static inline bool IsVisible(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method MemberType, addr 0x5d34904, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Reflection::MemberTypes MemberType(::System::Reflection::MemberInfo* memberInfo);
 
+  /// [Extension]
   /// @brief Method Method, addr 0x5d348ec, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* Method(::System::Delegate* d);
 
@@ -98,13 +119,13 @@ protected:
   constexpr TypeExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeExtensions(TypeExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions(TypeExtensions const&) = delete;
+  TypeExtensions(TypeExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13467 };

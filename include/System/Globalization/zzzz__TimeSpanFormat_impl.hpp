@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\TimeSpanFormat.hpp"
+// IWYU pragma private; include "System/Globalization/TimeSpanFormat.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__TimeSpanFormat_def.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
@@ -9,7 +9,7 @@
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanFormat_Pattern::TimeSpanFormat_Pattern(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -160,10 +160,10 @@ inline void System::Globalization::TimeSpanFormat_FormatLiterals::Init(::System:
                                                                                          { "Init", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, format, useInvariantFieldLengths);
 }
-// Ctor Parameters [CppParam { name: "AppCompatLiteral", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "dd", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "hh", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "mm", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ss", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "ff", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_literals", ty: "::ArrayW<::StringW>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "AppCompatLiteral", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dd", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "hh", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mm", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "ss", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ff", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_literals", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::TimeSpanFormat_FormatLiterals::TimeSpanFormat_FormatLiterals(::StringW AppCompatLiteral, int32_t dd, int32_t hh, int32_t mm, int32_t ss, int32_t ff,
                                                                                                 ::ArrayW<::StringW> _literals) noexcept {
   this->AppCompatLiteral = AppCompatLiteral;

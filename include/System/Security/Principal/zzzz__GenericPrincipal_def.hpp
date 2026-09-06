@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Principal\GenericPrincipal.hpp"
+// IWYU pragma private; include "System/Security/Principal/GenericPrincipal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class GenericPrincipal;
 // Write type traits
 MARK_REF_T(::System::Security::Principal::GenericPrincipal*);
 DEFINE_IL2CPP_CLASS(::System::Security::Principal::GenericPrincipal*, "System.Security.Principal", "GenericPrincipal");
+// [ComVisible(true)]
 // Dependencies System.Security.Claims.ClaimsPrincipal
 namespace System::Security::Principal {
 // Is value type: false
@@ -53,13 +54,13 @@ protected:
   constexpr GenericPrincipal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPrincipal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPrincipal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericPrincipal(GenericPrincipal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPrincipal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPrincipal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericPrincipal(GenericPrincipal const&) = delete;
+  GenericPrincipal(GenericPrincipalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3014 };

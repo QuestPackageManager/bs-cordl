@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   // @brief default ctor
   constexpr MissionObjectiveChecker_Status();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MissionObjectiveChecker_Status(int32_t value__) noexcept;
 
   /// @brief Field Cleared value: I32(3)
@@ -140,7 +140,7 @@ public:
   __declspec(property(get = __cordl_internal_get_statusDidChangeEvent,
                       put = __cordl_internal_set_statusDidChangeEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* statusDidChangeEvent;
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MissionObjectiveChecker* New_ctor();
@@ -193,9 +193,11 @@ public:
   /// @brief Method .ctor, addr 0x5919c14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_checkedValueDidChangeEvent, addr 0x591a558, size 0xc0, virtual false, abstract: false, final false
   inline void add_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_statusDidChangeEvent, addr 0x591a3d8, size 0xc0, virtual false, abstract: false, final false
   inline void add_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
@@ -214,9 +216,11 @@ public:
   /// @brief Method get_status, addr 0x591a6f8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjectiveChecker_Status get_status();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_checkedValueDidChangeEvent, addr 0x591a618, size 0xc0, virtual false, abstract: false, final false
   inline void remove_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_statusDidChangeEvent, addr 0x591a498, size 0xc0, virtual false, abstract: false, final false
   inline void remove_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
@@ -235,23 +239,26 @@ protected:
   constexpr MissionObjectiveChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjectiveChecker(MissionObjectiveChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveChecker(MissionObjectiveChecker const&) = delete;
+  MissionObjectiveChecker(MissionObjectiveCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6795 };
 
+  /// [SerializeField]
   /// @brief Field _missionObjectiveType, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> ____missionObjectiveType;
 
+  /// [CompilerGenerated]
   /// @brief Field statusDidChangeEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* ___statusDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field checkedValueDidChangeEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* ___checkedValueDidChangeEvent;
 

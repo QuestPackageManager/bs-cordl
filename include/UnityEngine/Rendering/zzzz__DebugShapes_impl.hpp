@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugShapes.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugShapes.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugShapes_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"

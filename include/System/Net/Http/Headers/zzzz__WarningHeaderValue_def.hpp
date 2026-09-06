@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\WarningHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/WarningHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,9 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -118,30 +120,38 @@ public:
   /// @brief Method .ctor, addr 0x60f0f78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Agent, addr 0x60f0f7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Agent();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Code, addr 0x60f0f8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Code();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Date, addr 0x60f0f9c, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Text, addr 0x60f0fc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Text();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Agent, addr 0x60f0f84, size 0x8, virtual false, abstract: false, final false
   inline void set_Agent(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Code, addr 0x60f0f94, size 0x8, virtual false, abstract: false, final false
   inline void set_Code(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Date, addr 0x60f0fb0, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Text, addr 0x60f0fcc, size 0x8, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
@@ -151,26 +161,30 @@ protected:
   constexpr WarningHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WarningHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WarningHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WarningHeaderValue(WarningHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WarningHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WarningHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WarningHeaderValue(WarningHeaderValue const&) = delete;
+  WarningHeaderValue(WarningHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20346 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Agent>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Agent_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Code>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____Code_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Date>k__BackingField, offset: 0x20, size: 0x18, def value: None
   ::System::Nullable_1<::System::DateTimeOffset> ____Date_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Text>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____Text_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\double2.hpp"
+// IWYU pragma private; include "Unity/Mathematics/double2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Mathematics/zzzz__double2_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -1833,7 +1833,8 @@ constexpr Unity::Mathematics::double2::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* Unity::Mathematics::double2::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "x", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "double_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::Unity::Mathematics::double2::double2(double_t x, double_t y) noexcept {
   this->x = x;
   this->y = y;

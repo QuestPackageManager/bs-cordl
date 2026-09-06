@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\CurvedTextMeshPro.hpp"
+// IWYU pragma private; include "HMUI/CurvedTextMeshPro.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   // @brief default ctor
   constexpr CurvedTextMeshPro_CurvedMeshInfo();
 
-  // Ctor Parameters [CppParam { name: "uvs3", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "uvs3", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: None, comment: None }]
   constexpr CurvedTextMeshPro_CurvedMeshInfo(::ArrayW<::UnityEngine::Vector2> uvs3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -76,6 +76,8 @@ static_assert(offsetof(::HMUI::CurvedTextMeshPro_CurvedMeshInfo, uvs3) == 0x0, "
 static_assert(sizeof(::HMUI::CurvedTextMeshPro_CurvedMeshInfo) == 0x8, "Size mismatch!");
 
 } // namespace HMUI
+// [DisallowMultipleComponent]
+// [ExecuteAlways]
 // Dependencies HMUI.CurvedTextMeshPro::CurvedMeshInfo, TMPro.TextMeshProUGUI
 namespace HMUI {
 // Is value type: false
@@ -172,20 +174,23 @@ protected:
   constexpr CurvedTextMeshPro();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurvedTextMeshPro", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurvedTextMeshPro", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurvedTextMeshPro(CurvedTextMeshPro&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurvedTextMeshPro", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurvedTextMeshPro", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurvedTextMeshPro(CurvedTextMeshPro const&) = delete;
+  CurvedTextMeshPro(CurvedTextMeshProconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20988 };
 
+  /// [SerializeField]
   /// @brief Field _useScriptableObjectColors, offset: 0x7c0, size: 0x1, def value: None
   bool ____useScriptableObjectColors;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _colorSo, offset: 0x7c8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____colorSo;
 

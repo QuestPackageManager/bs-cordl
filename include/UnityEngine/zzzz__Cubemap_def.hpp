@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Cubemap.hpp"
+// IWYU pragma private; include "UnityEngine/Cubemap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -50,6 +52,8 @@ class Cubemap;
 // Write type traits
 MARK_REF_T(::UnityEngine::Cubemap*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Cubemap*, "UnityEngine", "Cubemap");
+// [NativeHeader("Runtime/Graphics/CubemapTexture.h")]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Texture
 namespace UnityEngine {
 // Is value type: false
@@ -77,21 +81,25 @@ public:
 
   __declspec(property(get = get_streamingMipmapsPriority)) int32_t streamingMipmapsPriority;
 
+  /// [ExcludeFromDocs]
   /// @brief Method Apply, addr 0x6abef78, size 0xc, virtual false, abstract: false, final false
   inline void Apply();
 
+  /// [ExcludeFromDocs]
   /// @brief Method Apply, addr 0x6abef70, size 0x8, virtual false, abstract: false, final false
   inline void Apply(bool updateMipmaps);
 
   /// @brief Method Apply, addr 0x6abef0c, size 0x64, virtual false, abstract: false, final false
-  inline void Apply(bool updateMipmaps, bool makeNoLongerReadable);
+  inline void Apply(/* [DefaultValue("true")] */ bool updateMipmaps, /* [DefaultValue("false")] */ bool makeNoLongerReadable);
 
+  /// [FreeFunction(Name = "CubemapScripting::Apply", HasExplicitThis = true)]
   /// @brief Method ApplyImpl, addr 0x6abcc34, size 0x98, virtual false, abstract: false, final false
   inline void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable);
 
   /// @brief Method ApplyImpl_Injected, addr 0x6abcccc, size 0x54, virtual false, abstract: false, final false
   static inline void ApplyImpl_Injected(::System::IntPtr _unity_self, bool updateMipmaps, bool makeNoLongerReadable);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().ClearRequestedMipmapLevel", HasExplicitThis = true)]
   /// @brief Method ClearRequestedMipmapLevel, addr 0x6abe3c0, size 0x80, virtual false, abstract: false, final false
   inline void ClearRequestedMipmapLevel();
 
@@ -108,12 +116,14 @@ public:
   inline void CopyPixels(::UnityEngine::Texture* src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight, ::UnityEngine::CubemapFace dstFace,
                          int32_t dstMip, int32_t dstX, int32_t dstY);
 
+  /// [FreeFunction(Name = "CubemapScripting::CopyPixels", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method CopyPixels_Full, addr 0x6abd714, size 0xc0, virtual false, abstract: false, final false
   inline void CopyPixels_Full(::UnityEngine::Texture* src);
 
   /// @brief Method CopyPixels_Full_Injected, addr 0x6abd7d4, size 0x44, virtual false, abstract: false, final false
   static inline void CopyPixels_Full_Injected(::System::IntPtr _unity_self, ::System::IntPtr src);
 
+  /// [FreeFunction(Name = "CubemapScripting::CopyPixels", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method CopyPixels_Region, addr 0x6abd97c, size 0x128, virtual false, abstract: false, final false
   inline void CopyPixels_Region(::UnityEngine::Texture* src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight, int32_t dstFace, int32_t dstMip,
                                 int32_t dstX, int32_t dstY);
@@ -122,6 +132,7 @@ public:
   static inline void CopyPixels_Region_Injected(::System::IntPtr _unity_self, ::System::IntPtr src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight,
                                                 int32_t dstFace, int32_t dstMip, int32_t dstX, int32_t dstY);
 
+  /// [FreeFunction(Name = "CubemapScripting::CopyPixels", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method CopyPixels_Slice, addr 0x6abd818, size 0xf0, virtual false, abstract: false, final false
   inline void CopyPixels_Slice(::UnityEngine::Texture* src, int32_t srcElement, int32_t srcMip, int32_t dstFace, int32_t dstMip);
 
@@ -131,15 +142,19 @@ public:
   /// @brief Method CreateExternalTexture, addr 0x6abecc0, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Cubemap> CreateExternalTexture(int32_t width, ::UnityEngine::TextureFormat format, bool mipmap, ::System::IntPtr nativeTex);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetPixel, addr 0x6abee88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetPixel(::UnityEngine::CubemapFace face, int32_t x, int32_t y);
 
   /// @brief Method GetPixel, addr 0x6abee90, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color GetPixel(::UnityEngine::CubemapFace face, int32_t x, int32_t y, int32_t mip);
+  inline ::UnityEngine::Color GetPixel(::UnityEngine::CubemapFace face, int32_t x, int32_t y, /* [DefaultValue("0")] */ int32_t mip);
 
   /// @brief Method GetPixelData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetPixelData(int32_t mipLevel, ::UnityEngine::CubemapFace face);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeArray_1<T> GetPixelData(int32_t mipLevel, ::UnityEngine::CubemapFace face);
 
+  /// [NativeName("GetPixel")]
   /// @brief Method GetPixelImpl, addr 0x6abcfec, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetPixelImpl(int32_t image, int32_t mip, int32_t x, int32_t y);
 
@@ -149,6 +164,7 @@ public:
   /// @brief Method GetPixels, addr 0x6abd2f4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color> GetPixels(::UnityEngine::CubemapFace face);
 
+  /// [FreeFunction(Name = "CubemapScripting::GetPixels", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetPixels, addr 0x6abd208, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color> GetPixels(::UnityEngine::CubemapFace face, int32_t miplevel);
 
@@ -162,54 +178,66 @@ public:
   static inline ::System::IntPtr GetWritableImageData_Injected(::System::IntPtr _unity_self, int32_t frame);
 
   /// @brief Method Internal_Create, addr 0x6abcb60, size 0xd4, virtual false, abstract: false, final false
-  static inline void Internal_Create(::UnityEngine::Cubemap* mono, int32_t ext, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
+  static inline void Internal_Create(/* [Writable] */ ::UnityEngine::Cubemap* mono, int32_t ext, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                      ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex);
 
+  /// [FreeFunction("CubemapScripting::Create")]
   /// @brief Method Internal_CreateImpl, addr 0x6abcadc, size 0x84, virtual false, abstract: false, final false
-  static inline bool Internal_CreateImpl(::UnityEngine::Cubemap* mono, int32_t ext, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
+  static inline bool Internal_CreateImpl(/* [Writable] */ ::UnityEngine::Cubemap* mono, int32_t ext, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                          ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, ::System::IntPtr nativeTex);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().IsRequestedMipmapLevelLoaded", HasExplicitThis = true)]
   /// @brief Method IsRequestedMipmapLevelLoaded, addr 0x6abe47c, size 0x80, virtual false, abstract: false, final false
   inline bool IsRequestedMipmapLevelLoaded();
 
   /// @brief Method IsRequestedMipmapLevelLoaded_Injected, addr 0x6abe4fc, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsRequestedMipmapLevelLoaded_Injected(::System::IntPtr _unity_self);
 
+  /// @brief [ExcludeFromDocs]
   static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
+  /// @brief [ExcludeFromDocs]
   static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                                                  int32_t mipCount);
 
+  /// [RequiredByNativeCode]
+  /// @brief [ExcludeFromDocs]
   static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
+  /// @brief [ExcludeFromDocs]
   static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                                                  int32_t mipCount);
 
   static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::TextureFormat format, int32_t mipCount);
 
-  static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::TextureFormat format, int32_t mipCount, bool createUninitialized);
+  static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::TextureFormat format, int32_t mipCount, /* [DefaultValue("false")] */ bool createUninitialized);
 
   static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
-  static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool createUninitialized);
+  static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::TextureFormat textureFormat, bool mipChain, /* [DefaultValue("false")] */ bool createUninitialized);
 
   static inline ::UnityEngine::Cubemap* New_ctor(int32_t width, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::System::IntPtr nativeTex, bool createUninitialized);
 
+  /// [ExcludeFromDocs]
   /// @brief Method SetPixel, addr 0x6abedd4, size 0x8, virtual false, abstract: false, final false
   inline void SetPixel(::UnityEngine::CubemapFace face, int32_t x, int32_t y, ::UnityEngine::Color color);
 
   /// @brief Method SetPixel, addr 0x6abeddc, size 0xac, virtual false, abstract: false, final false
-  inline void SetPixel(::UnityEngine::CubemapFace face, int32_t x, int32_t y, ::UnityEngine::Color color, int32_t mip);
+  inline void SetPixel(::UnityEngine::CubemapFace face, int32_t x, int32_t y, ::UnityEngine::Color color, /* [DefaultValue("0")] */ int32_t mip);
 
   /// @brief Method SetPixelData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetPixelData(::ArrayW<T> data, int32_t mipLevel, ::UnityEngine::CubemapFace face, int32_t sourceDataStartIndex);
+  template <typename T> inline void SetPixelData(::ArrayW<T> data, int32_t mipLevel, ::UnityEngine::CubemapFace face, /* [DefaultValue("0")] */ int32_t sourceDataStartIndex);
 
   /// @brief Method SetPixelData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetPixelData(::Unity::Collections::NativeArray_1<T> data, int32_t mipLevel, ::UnityEngine::CubemapFace face, int32_t sourceDataStartIndex);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SetPixelData(::Unity::Collections::NativeArray_1<T> data, int32_t mipLevel, ::UnityEngine::CubemapFace face, /* [DefaultValue("0")] */ int32_t sourceDataStartIndex);
 
+  /// [FreeFunction(Name = "CubemapScripting::SetPixelData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetPixelDataImpl, addr 0x6abd5c0, size 0xc8, virtual false, abstract: false, final false
   inline bool SetPixelDataImpl(::System::IntPtr data, int32_t mipLevel, int32_t face, int32_t elementSize, int32_t dataArraySize, int32_t sourceDataStartIndex);
 
+  /// [FreeFunction(Name = "CubemapScripting::SetPixelDataArray", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetPixelDataImplArray, addr 0x6abd474, size 0xc8, virtual false, abstract: false, final false
   inline bool SetPixelDataImplArray(::System::Array* data, int32_t mipLevel, int32_t face, int32_t elementSize, int32_t dataArraySize, int32_t sourceDataStartIndex);
 
@@ -221,6 +249,7 @@ public:
   static inline bool SetPixelDataImpl_Injected(::System::IntPtr _unity_self, ::System::IntPtr data, int32_t mipLevel, int32_t face, int32_t elementSize, int32_t dataArraySize,
                                                int32_t sourceDataStartIndex);
 
+  /// [NativeName("SetPixel")]
   /// @brief Method SetPixelImpl, addr 0x6abceb0, size 0xc8, virtual false, abstract: false, final false
   inline void SetPixelImpl(int32_t image, int32_t mip, int32_t x, int32_t y, ::UnityEngine::Color color);
 
@@ -230,6 +259,7 @@ public:
   /// @brief Method SetPixels, addr 0x6abd70c, size 0x8, virtual false, abstract: false, final false
   inline void SetPixels(::ArrayW<::UnityEngine::Color> colors, ::UnityEngine::CubemapFace face);
 
+  /// [FreeFunction(Name = "CubemapScripting::SetPixels", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetPixels, addr 0x6abd2fc, size 0x11c, virtual false, abstract: false, final false
   inline void SetPixels(::ArrayW<::UnityEngine::Color> colors, ::UnityEngine::CubemapFace face, int32_t miplevel);
 
@@ -239,12 +269,14 @@ public:
   /// @brief Method SmoothEdges, addr 0x6abd200, size 0x8, virtual false, abstract: false, final false
   inline void SmoothEdges();
 
+  /// [NativeName("FixupEdges")]
   /// @brief Method SmoothEdges, addr 0x6abd12c, size 0x90, virtual false, abstract: false, final false
-  inline void SmoothEdges(int32_t smoothRegionWidthInPixels);
+  inline void SmoothEdges(/* [DefaultValue("1")] */ int32_t smoothRegionWidthInPixels);
 
   /// @brief Method SmoothEdges_Injected, addr 0x6abd1bc, size 0x44, virtual false, abstract: false, final false
-  static inline void SmoothEdges_Injected(::System::IntPtr _unity_self, int32_t smoothRegionWidthInPixels);
+  static inline void SmoothEdges_Injected(::System::IntPtr _unity_self, /* [DefaultValue("1")] */ int32_t smoothRegionWidthInPixels);
 
+  /// [FreeFunction("CubemapScripting::UpdateExternalTexture", HasExplicitThis = true)]
   /// @brief Method UpdateExternalTexture, addr 0x6abcd20, size 0x90, virtual false, abstract: false, final false
   inline void UpdateExternalTexture(::System::IntPtr nativeTexture);
 
@@ -260,15 +292,20 @@ public:
   /// @brief Method ValidateIsNotCrunched, addr 0x6abe990, size 0x54, virtual false, abstract: false, final false
   static inline void ValidateIsNotCrunched(::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
+  /// [ExcludeFromDocs]
   /// @brief Method .ctor, addr 0x6abe750, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
+  /// [ExcludeFromDocs]
   /// @brief Method .ctor, addr 0x6abe840, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount);
 
+  /// [RequiredByNativeCode]
+  /// [ExcludeFromDocs]
   /// @brief Method .ctor, addr 0x6abe7b4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
+  /// [ExcludeFromDocs]
   /// @brief Method .ctor, addr 0x6abe8b4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount);
 
@@ -276,23 +313,25 @@ public:
   inline void _ctor(int32_t width, ::UnityEngine::TextureFormat format, int32_t mipCount);
 
   /// @brief Method .ctor, addr 0x6abecb4, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(int32_t width, ::UnityEngine::TextureFormat format, int32_t mipCount, bool createUninitialized);
+  inline void _ctor(int32_t width, ::UnityEngine::TextureFormat format, int32_t mipCount, /* [DefaultValue("false")] */ bool createUninitialized);
 
   /// @brief Method .ctor, addr 0x6abeb6c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
   /// @brief Method .ctor, addr 0x6abec08, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(int32_t width, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool createUninitialized);
+  inline void _ctor(int32_t width, ::UnityEngine::TextureFormat textureFormat, bool mipChain, /* [DefaultValue("false")] */ bool createUninitialized);
 
   /// @brief Method .ctor, addr 0x6abe9e4, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::System::IntPtr nativeTex, bool createUninitialized);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().GetDesiredMipmapLevel", HasExplicitThis = true)]
   /// @brief Method get_desiredMipmapLevel, addr 0x6abe18c, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_desiredMipmapLevel();
 
   /// @brief Method get_desiredMipmapLevel_Injected, addr 0x6abe20c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_desiredMipmapLevel_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("GetTextureFormat")]
   /// @brief Method get_format, addr 0x6abca20, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureFormat get_format();
 
@@ -311,24 +350,28 @@ public:
   /// @brief Method get_isReadable_Injected, addr 0x6abce74, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isReadable_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().GetLoadAllMips", HasExplicitThis = true)]
   /// @brief Method get_loadAllMips, addr 0x6abdffc, size 0x80, virtual false, abstract: false, final false
   inline bool get_loadAllMips();
 
   /// @brief Method get_loadAllMips_Injected, addr 0x6abe07c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_loadAllMips_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().GetLoadedMipmapLevel", HasExplicitThis = true)]
   /// @brief Method get_loadedMipmapLevel, addr 0x6abe304, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_loadedMipmapLevel();
 
   /// @brief Method get_loadedMipmapLevel_Injected, addr 0x6abe384, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_loadedMipmapLevel_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().GetLoadingMipmapLevel", HasExplicitThis = true)]
   /// @brief Method get_loadingMipmapLevel, addr 0x6abe248, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_loadingMipmapLevel();
 
   /// @brief Method get_loadingMipmapLevel_Injected, addr 0x6abe2c8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_loadingMipmapLevel_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().GetRequestedMipmapLevel", HasExplicitThis = true)]
   /// @brief Method get_requestedMipmapLevel, addr 0x6abde6c, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_requestedMipmapLevel();
 
@@ -347,12 +390,14 @@ public:
   /// @brief Method get_streamingMipmaps_Injected, addr 0x6abdd74, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_streamingMipmaps_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().SetLoadAllMips", HasExplicitThis = true)]
   /// @brief Method set_loadAllMips, addr 0x6abe0b8, size 0x90, virtual false, abstract: false, final false
   inline void set_loadAllMips(bool value);
 
   /// @brief Method set_loadAllMips_Injected, addr 0x6abe148, size 0x44, virtual false, abstract: false, final false
   static inline void set_loadAllMips_Injected(::System::IntPtr _unity_self, bool value);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().SetRequestedMipmapLevel", HasExplicitThis = true)]
   /// @brief Method set_requestedMipmapLevel, addr 0x6abdf28, size 0x90, virtual false, abstract: false, final false
   inline void set_requestedMipmapLevel(int32_t value);
 
@@ -365,13 +410,13 @@ protected:
   constexpr Cubemap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Cubemap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cubemap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cubemap(Cubemap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Cubemap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cubemap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cubemap(Cubemap const&) = delete;
+  Cubemap(Cubemapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10225 };

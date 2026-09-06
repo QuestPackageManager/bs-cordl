@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Keyboard.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Keyboard.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,8 @@ class Keyboard;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Keyboard*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Keyboard*, "UnityEngine.InputSystem", "Keyboard");
+// [DefaultMember("Item")]
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.LowLevel.KeyboardState), isGenericTypeOfDevice = true)]
 // Dependencies UnityEngine.InputSystem.Controls.KeyControl, UnityEngine.InputSystem.InputDevice, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -449,9 +451,11 @@ public:
   /// @brief Method get_allKeys, addr 0x65228f0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::KeyControl*> get_allKeys();
 
+  /// [CompilerGenerated]
   /// @brief Method get_altKey, addr 0x65228d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_altKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_anyKey, addr 0x652247c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AnyKeyControl* get_anyKey();
 
@@ -479,9 +483,11 @@ public:
   /// @brief Method get_contextMenuKey, addr 0x6522710, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_contextMenuKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ctrlKey, addr 0x65228c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_ctrlKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6522948, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Keyboard* get_current();
 
@@ -590,6 +596,7 @@ public:
   /// @brief Method get_iKey, addr 0x65225c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_iKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_imeSelected, addr 0x65228e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_imeSelected();
 
@@ -782,6 +789,7 @@ public:
   /// @brief Method get_semicolonKey, addr 0x6522538, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_semicolonKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_shiftKey, addr 0x65228b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_shiftKey();
 
@@ -829,18 +837,23 @@ public:
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Keyboard* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_altKey, addr 0x65228d8, size 0x8, virtual false, abstract: false, final false
   inline void set_altKey(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_anyKey, addr 0x6522484, size 0x8, virtual false, abstract: false, final false
   inline void set_anyKey(::UnityEngine::InputSystem::Controls::AnyKeyControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ctrlKey, addr 0x65228c8, size 0x8, virtual false, abstract: false, final false
   inline void set_ctrlKey(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6522994, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Keyboard* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_imeSelected, addr 0x65228e8, size 0x8, virtual false, abstract: false, final false
   inline void set_imeSelected(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
@@ -850,6 +863,7 @@ public:
   /// @brief Method set_keys, addr 0x652419c, size 0x8, virtual false, abstract: false, final false
   inline void set_keys(::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_shiftKey, addr 0x65228b8, size 0x8, virtual false, abstract: false, final false
   inline void set_shiftKey(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
@@ -859,13 +873,13 @@ protected:
   constexpr Keyboard();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Keyboard", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Keyboard", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Keyboard(Keyboard&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Keyboard", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Keyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Keyboard(Keyboard const&) = delete;
+  Keyboard(Keyboardconst&) = delete;
 
   /// @brief Field KeyCount offset 0xffffffff size 0x4
   static constexpr int32_t KeyCount{ static_cast<int32_t>(0x6e) };
@@ -873,18 +887,23 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8727 };
 
+  /// [CompilerGenerated]
   /// @brief Field <anyKey>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AnyKeyControl* ____anyKey_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <shiftKey>k__BackingField, offset: 0x190, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____shiftKey_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ctrlKey>k__BackingField, offset: 0x198, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____ctrlKey_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <altKey>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____altKey_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <imeSelected>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____imeSelected_k__BackingField;
 

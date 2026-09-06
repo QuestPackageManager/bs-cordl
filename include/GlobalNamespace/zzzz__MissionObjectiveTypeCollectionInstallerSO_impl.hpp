@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjectiveTypeCollectionInstallerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveTypeCollectionInstallerSO.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveTypeSO_impl.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveTypeCollectionInstallerSO_def.hpp"

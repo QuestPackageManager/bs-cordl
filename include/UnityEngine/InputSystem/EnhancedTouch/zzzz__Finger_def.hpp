@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\EnhancedTouch\Finger.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/EnhancedTouch/Finger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> class InputStateHistory_1;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputStateHistory_Record;
@@ -114,6 +116,7 @@ public:
   /// @brief Method get_currentTouch, addr 0x65a6668, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_currentTouch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_index, addr 0x65a65e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
@@ -123,6 +126,7 @@ public:
   /// @brief Method get_lastTouch, addr 0x65a6854, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_lastTouch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_screen, addr 0x65a65dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Touchscreen* get_screen();
 
@@ -138,20 +142,22 @@ protected:
   constexpr Finger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Finger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Finger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Finger(Finger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Finger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Finger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Finger(Finger const&) = delete;
+  Finger(Fingerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8907 };
 
+  /// [CompilerGenerated]
   /// @brief Field <screen>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Touchscreen* ____screen_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <index>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____index_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXInputButtonBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXInputButtonBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ class VFXInputButtonBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXInputButtonBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXInputButtonBinder*, "UnityEngine.VFX.Utility", "VFXInputButtonBinder");
+// [AddComponentMenu("VFX/Property Binders/Input Button Binder")]
+// [VFXBinder("Input/Button")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -120,20 +122,26 @@ protected:
   constexpr VFXInputButtonBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXInputButtonBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXInputButtonBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXInputButtonBinder(VFXInputButtonBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXInputButtonBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXInputButtonBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXInputButtonBinder(VFXInputButtonBinder const&) = delete;
+  VFXInputButtonBinder(VFXInputButtonBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19993 };
 
+  /// [VFXPropertyBinding(new[] { "System.Boolean" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_ButtonParameter")]
   /// @brief Field m_ButtonProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_ButtonProperty;
 
+  /// [VFXPropertyBinding(new[] { "System.Single" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_ButtonSmoothParameter")]
   /// @brief Field m_ButtonSmoothProperty, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_ButtonSmoothProperty;
 

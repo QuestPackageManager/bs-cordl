@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexFC.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexFC.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,9 +76,11 @@ public:
   /// @brief Method .ctor, addr 0x638af50, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool nullable);
 
+  /// [CompilerGenerated]
   /// @brief Method get_CaseInsensitive, addr 0x638b1dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
+  /// [CompilerGenerated]
   /// @brief Method set_CaseInsensitive, addr 0x638b1e4, size 0x8, virtual false, abstract: false, final false
   inline void set_CaseInsensitive(bool value);
 
@@ -88,13 +90,13 @@ protected:
   constexpr RegexFC();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexFC(RegexFC&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexFC(RegexFC const&) = delete;
+  RegexFC(RegexFCconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11115 };
@@ -105,6 +107,7 @@ public:
   /// @brief Field _nullable, offset: 0x18, size: 0x1, def value: None
   bool ____nullable;
 
+  /// [CompilerGenerated]
   /// @brief Field <CaseInsensitive>k__BackingField, offset: 0x19, size: 0x1, def value: None
   bool ____CaseInsensitive_k__BackingField;
 

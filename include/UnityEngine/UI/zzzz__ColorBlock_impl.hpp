@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\ColorBlock.hpp"
+// IWYU pragma private; include "UnityEngine/UI/ColorBlock.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UI/zzzz__ColorBlock_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -346,10 +346,11 @@ constexpr UnityEngine::UI::ColorBlock::operator ::System::IEquatable_1<::UnityEn
 constexpr ::System::IEquatable_1<::UnityEngine::UI::ColorBlock>* UnityEngine::UI::ColorBlock::i___System__IEquatable_1___UnityEngine__UI__ColorBlock_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UI::ColorBlock>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_NormalColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_HighlightedColor", ty: "::UnityEngine::Color", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_PressedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SelectedColor", ty: "::UnityEngine::Color",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DisabledColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ColorMultiplier", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FadeDuration", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_NormalColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_HighlightedColor", ty:
+// "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PressedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_SelectedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DisabledColor", ty: "::UnityEngine::Color", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_ColorMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FadeDuration", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::ColorBlock::ColorBlock(::UnityEngine::Color m_NormalColor, ::UnityEngine::Color m_HighlightedColor, ::UnityEngine::Color m_PressedColor,
                                                     ::UnityEngine::Color m_SelectedColor, ::UnityEngine::Color m_DisabledColor, float_t m_ColorMultiplier, float_t m_FadeDuration) noexcept {
   this->m_NormalColor = m_NormalColor;

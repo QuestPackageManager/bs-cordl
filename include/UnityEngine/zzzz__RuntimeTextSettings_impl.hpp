@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RuntimeTextSettings.hpp"
+// IWYU pragma private; include "UnityEngine/RuntimeTextSettings.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeTextSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

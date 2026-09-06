@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelOrPackPromoInfoIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelOrPackPromoInfoIdAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelOrPackPromoInfoIdAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelOrPackPromoInfoIdAttribute._ctor

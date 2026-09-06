@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\TaskCreationOptions.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/TaskCreationOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TaskCreationOptions;
 // Write type traits
 MARK_VAL_T(::System::Threading::Tasks::TaskCreationOptions);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::TaskCreationOptions, "System.Threading.Tasks", "TaskCreationOptions");
+// [Flags]
 // Dependencies
 namespace System::Threading::Tasks {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr TaskCreationOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TaskCreationOptions(int32_t value__) noexcept;
 
   /// @brief Field AttachedToParent value: I32(4)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\DebuggerBrowsableAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/DebuggerBrowsableAttribute.hpp"
 #include "System/Diagnostics/zzzz__DebuggerBrowsableState_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__DebuggerBrowsableAttribute_def.hpp"

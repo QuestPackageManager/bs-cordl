@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\Queue_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/Queue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,8 +106,9 @@ public:
   // @brief default ctor
   constexpr Queue_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_q", ty: "::System::Collections::Generic::Queue_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentElement", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_q", ty: "::System::Collections::Generic::Queue_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_currentElement", ty: "T", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr Queue_1_Enumerator(::System::Collections::Generic::Queue_1<T>* _q, int32_t _version, int32_t _index, T _currentElement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -132,6 +133,9 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.QueueDebugView`1<T>))]
+// [DebuggerDisplay("Count = {Count}")]
+// [TypeForwardedFrom("System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -302,13 +306,13 @@ protected:
   constexpr Queue_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Queue_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Queue_1(Queue_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Queue_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Queue_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Queue_1(Queue_1 const&) = delete;
+  Queue_1(Queue_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3792 };

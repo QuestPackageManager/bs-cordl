@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FSRUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FSRUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ protected:
   constexpr FSRUtils_ShaderConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils_ShaderConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils_ShaderConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FSRUtils_ShaderConstants(FSRUtils_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils_ShaderConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FSRUtils_ShaderConstants(FSRUtils_ShaderConstants const&) = delete;
+  FSRUtils_ShaderConstants(FSRUtils_ShaderConstantsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12280 };
@@ -134,13 +134,13 @@ protected:
   constexpr FSRUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FSRUtils(FSRUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FSRUtils(FSRUtils const&) = delete;
+  FSRUtils(FSRUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12281 };

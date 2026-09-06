@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\SemVer.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/SemVer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -226,13 +226,13 @@ protected:
   constexpr SemVer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SemVer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SemVer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SemVer(SemVer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SemVer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SemVer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SemVer(SemVer const&) = delete;
+  SemVer(SemVerconst&) = delete;
 
   /// @brief Field DefaultStringFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString DefaultStringFormat{ u"M.m.p-t.b" };
@@ -240,24 +240,31 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16805 };
 
+  /// [SerializeField]
   /// @brief Field m_Major, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Major;
 
+  /// [SerializeField]
   /// @brief Field m_Minor, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_Minor;
 
+  /// [SerializeField]
   /// @brief Field m_Patch, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_Patch;
 
+  /// [SerializeField]
   /// @brief Field m_Build, offset: 0x1c, size: 0x4, def value: None
   int32_t ___m_Build;
 
+  /// [SerializeField]
   /// @brief Field m_Type, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_Type;
 
+  /// [SerializeField]
   /// @brief Field m_Metadata, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_Metadata;
 
+  /// [SerializeField]
   /// @brief Field m_Date, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_Date;
 

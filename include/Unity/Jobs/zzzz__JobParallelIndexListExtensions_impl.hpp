@@ -1,10 +1,12 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\JobParallelIndexListExtensions.hpp"
+// IWYU pragma private; include "Unity/Jobs/JobParallelIndexListExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Jobs/zzzz__IJobFilter_impl.hpp"
 #include "Unity/Jobs/zzzz__JobParallelIndexListExtensions_def.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Jobs::JobHandle Unity::Jobs::JobParallelIndexListExtensions::ScheduleAppend(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t arrayLength,
                                                                                             int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependsOn) {
   static auto* ___internal_method_base =
@@ -17,6 +19,7 @@ inline ::Unity::Jobs::JobHandle Unity::Jobs::JobParallelIndexListExtensions::Sch
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(nullptr, ___internal_method, jobData, indices, arrayLength, innerloopBatchCount, dependsOn);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Jobs::JobHandle Unity::Jobs::JobParallelIndexListExtensions::ScheduleFilter(T jobData, ::Unity::Collections::NativeList_1<int32_t> indices, int32_t innerloopBatchCount,
                                                                                             ::Unity::Jobs::JobHandle dependsOn) {
   static auto* ___internal_method_base = THROW_UNLESS(

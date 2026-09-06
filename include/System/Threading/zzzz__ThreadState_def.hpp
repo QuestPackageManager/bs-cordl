@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ThreadState.hpp"
+// IWYU pragma private; include "System/Threading/ThreadState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ThreadState;
 // Write type traits
 MARK_VAL_T(::System::Threading::ThreadState);
 DEFINE_IL2CPP_CLASS(::System::Threading::ThreadState, "System.Threading", "ThreadState");
+// [Flags]
 // Dependencies
 namespace System::Threading {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr ThreadState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ThreadState(int32_t value__) noexcept;
 
   /// @brief Field AbortRequested value: I32(128)

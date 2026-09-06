@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\StaticAccessorAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/StaticAccessorAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__StaticAccessorType_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__StaticAccessorAttribute_def.hpp"
@@ -106,6 +106,7 @@ inline void UnityEngine::Bindings::StaticAccessorAttribute::_ctor(::StringW name
                                                            { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Bindings::StaticAccessorType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, type);
 }
+/// @brief [VisibleToOtherModules]
 inline ::UnityEngine::Bindings::StaticAccessorAttribute* UnityEngine::Bindings::StaticAccessorAttribute::New_ctor(::StringW name) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Bindings::StaticAccessorAttribute*>(name));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LightLambda.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LightLambda.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,13 +152,13 @@ protected:
   constexpr LightLambda_DebugViewPrinter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightLambda_DebugViewPrinter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda_DebugViewPrinter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightLambda_DebugViewPrinter(LightLambda_DebugViewPrinter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightLambda_DebugViewPrinter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda_DebugViewPrinter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightLambda_DebugViewPrinter(LightLambda_DebugViewPrinter const&) = delete;
+  LightLambda_DebugViewPrinter(LightLambda_DebugViewPrinterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16451 };
@@ -194,6 +194,7 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda_Deb
 static_assert(sizeof(::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter) == 0x38, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
@@ -233,13 +234,13 @@ protected:
   constexpr LightLambda___c__DisplayClass74_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightLambda___c__DisplayClass74_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda___c__DisplayClass74_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightLambda___c__DisplayClass74_0(LightLambda___c__DisplayClass74_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightLambda___c__DisplayClass74_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda___c__DisplayClass74_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightLambda___c__DisplayClass74_0(LightLambda___c__DisplayClass74_0 const&) = delete;
+  LightLambda___c__DisplayClass74_0(LightLambda___c__DisplayClass74_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16452 };
@@ -424,7 +425,7 @@ public:
                                                                                 ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> closure);
 
   /// @brief Method Run, addr 0x5fb10c4, size 0x170, virtual false, abstract: false, final false
-  inline ::System::Object* Run(::ArrayW<::System::Object*> arguments);
+  inline ::System::Object* Run(/* [ParamArray] */ ::ArrayW<::System::Object*> arguments);
 
   /// @brief Method Run0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TRet> inline TRet Run0();
@@ -485,7 +486,7 @@ public:
   inline TRet Run9(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8);
 
   /// @brief Method RunVoid, addr 0x5fb1234, size 0x164, virtual false, abstract: false, final false
-  inline ::System::Object* RunVoid(::ArrayW<::System::Object*> arguments);
+  inline ::System::Object* RunVoid(/* [ParamArray] */ ::ArrayW<::System::Object*> arguments);
 
   /// @brief Method RunVoid0, addr 0x5faf2e8, size 0xd4, virtual false, abstract: false, final false
   inline void RunVoid0();
@@ -582,13 +583,13 @@ protected:
   constexpr LightLambda();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightLambda", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightLambda(LightLambda&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightLambda", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightLambda(LightLambda const&) = delete;
+  LightLambda(LightLambdaconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16453 };

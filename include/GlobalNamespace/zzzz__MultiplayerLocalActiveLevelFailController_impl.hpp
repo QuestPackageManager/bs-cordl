@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActiveLevelFailController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActiveLevelFailController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActiveLevelFailController_def.hpp"
@@ -170,6 +170,7 @@ inline ::System::Object* GlobalNamespace::MultiplayerLocalActiveLevelFailControl
                                                                                          { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8*
 GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8*>(__1__state));

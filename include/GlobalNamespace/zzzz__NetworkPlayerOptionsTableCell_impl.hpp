@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkPlayerOptionsTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkPlayerOptionsTableCell.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_impl.hpp"
 #include "UnityEngine/UI/zzzz__Button_impl.hpp"

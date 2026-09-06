@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\TypeBinaryExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/TypeBinaryExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class TypeBinaryExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::TypeBinaryExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::TypeBinaryExpression*, "System.Linq.Expressions", "TypeBinaryExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::TypeBinaryExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression, System.Linq.Expressions.ExpressionType
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -81,15 +82,18 @@ public:
   /// @brief Method .ctor, addr 0x5f896c0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* typeOperand, ::System::Linq::Expressions::ExpressionType nodeType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Expression, addr 0x5f89770, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
+  /// [CompilerGenerated]
   /// @brief Method get_NodeType, addr 0x5f89768, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
   /// @brief Method get_Type, addr 0x5f89738, size 0x30, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TypeOperand, addr 0x5f89778, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_TypeOperand();
 
@@ -99,23 +103,26 @@ protected:
   constexpr TypeBinaryExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeBinaryExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeBinaryExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeBinaryExpression(TypeBinaryExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeBinaryExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeBinaryExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeBinaryExpression(TypeBinaryExpression const&) = delete;
+  TypeBinaryExpression(TypeBinaryExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16233 };
 
+  /// [CompilerGenerated]
   /// @brief Field <NodeType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Linq::Expressions::ExpressionType ____NodeType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Expression>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Expression_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TypeOperand>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ____TypeOperand_k__BackingField;
 

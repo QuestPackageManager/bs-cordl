@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\RandomizeAvatarColorMap.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/RandomizeAvatarColorMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,9 +51,11 @@ public:
   inline void _ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex, int32_t facialHairColorIndex, int32_t handsColorIndex,
                     int32_t clothesPrimaryColorIndex, int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex);
 
+  /// [CompilerGenerated]
   /// @brief Method get_colorIndices, addr 0x327d054, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_colorIndices();
 
+  /// [CompilerGenerated]
   /// @brief Method get_totalIndices, addr 0x327d04c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalIndices();
 
@@ -63,20 +65,22 @@ protected:
   constexpr RandomizeAvatarColorMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RandomizeAvatarColorMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomizeAvatarColorMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RandomizeAvatarColorMap(RandomizeAvatarColorMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RandomizeAvatarColorMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomizeAvatarColorMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RandomizeAvatarColorMap(RandomizeAvatarColorMap const&) = delete;
+  RandomizeAvatarColorMap(RandomizeAvatarColorMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22339 };
 
+  /// [CompilerGenerated]
   /// @brief Field <totalIndices>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____totalIndices_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <colorIndices>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<int32_t> ____colorIndices_k__BackingField;
 

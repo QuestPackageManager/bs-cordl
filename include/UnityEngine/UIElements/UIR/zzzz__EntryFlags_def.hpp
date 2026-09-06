@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryFlags.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct EntryFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::EntryFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::EntryFlags, "UnityEngine.UIElements.UIR", "EntryFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
@@ -41,7 +42,7 @@ public:
   // @brief default ctor
   constexpr EntryFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr EntryFlags(uint16_t value__) noexcept;
 
   /// @brief Field UsesTextCoreSettings value: U16(1)

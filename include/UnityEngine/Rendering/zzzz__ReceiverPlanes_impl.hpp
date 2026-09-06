@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ReceiverPlanes.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ReceiverPlanes.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ReceiverPlanes_def.hpp"
@@ -113,14 +113,15 @@ inline void UnityEngine::Rendering::ReceiverPlanes::Dispose(::Unity::Jobs::JobHa
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverPlanes>(), { "Dispose", {}, { ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, job);
 }
-inline ::UnityEngine::Rendering::ReceiverPlanes UnityEngine::Rendering::ReceiverPlanes::Create(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator) {
+inline ::UnityEngine::Rendering::ReceiverPlanes UnityEngine::Rendering::ReceiverPlanes::Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
+                                                                                               ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverPlanes>(),
                                               { "Create", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ReceiverPlanes>(nullptr, ___internal_method, cc, allocator);
 }
-// Ctor Parameters [CppParam { name: "planes", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightFacingPlaneCount", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "planes", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "lightFacingPlaneCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ReceiverPlanes::ReceiverPlanes(::Unity::Collections::NativeList_1<::UnityEngine::Plane> planes, int32_t lightFacingPlaneCount) noexcept {
   this->planes = planes;
   this->lightFacingPlaneCount = lightFacingPlaneCount;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\PreferenceKeys.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/PreferenceKeys.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ protected:
   constexpr PreferenceKeys();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreferenceKeys", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreferenceKeys", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreferenceKeys(PreferenceKeys&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreferenceKeys", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreferenceKeys", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreferenceKeys(PreferenceKeys const&) = delete;
+  PreferenceKeys(PreferenceKeysconst&) = delete;
 
   /// @brief Field CMD_ALT offset 0xffffffff size 0x2
   static constexpr char16_t CMD_ALT{ u'\u{2387}' };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EffectPoolsManualInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/EffectPoolsManualInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,35 +121,44 @@ protected:
   constexpr EffectPoolsManualInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EffectPoolsManualInstaller(EffectPoolsManualInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EffectPoolsManualInstaller(EffectPoolsManualInstaller const&) = delete;
+  EffectPoolsManualInstaller(EffectPoolsManualInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6302 };
 
+  /// [SerializeField]
   /// @brief Field _flyingTextEffectPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingTextEffect> ____flyingTextEffectPrefab;
 
+  /// [SerializeField]
   /// @brief Field _flyingScoreEffectPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingScoreEffect> ____flyingScoreEffectPrefab;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _beatEffectPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatEffect> ____beatEffectPrefab;
 
+  /// [SerializeField]
   /// @brief Field _shortBeatEffectPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatEffect> ____shortBeatEffectPrefab;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _noteCutSoundEffectPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteCutSoundEffect> ____noteCutSoundEffectPrefab;
 
+  /// [SerializeField]
   /// @brief Field _bombCutSoundEffectPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BombCutSoundEffect> ____bombCutSoundEffectPrefab;
 
+  /// [SerializeField]
   /// @brief Field _flyingSpriteEffectPrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingSpriteEffect> ____flyingSpriteEffectPrefab;
 

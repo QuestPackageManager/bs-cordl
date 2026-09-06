@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UQueryExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UQueryExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryExtensions_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryBuilder_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
@@ -99,13 +100,16 @@ inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::Visua
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>, "SingleElementTypeAndNameAndClassQuery",
                                            ::UnityEngine::UIElements::UQueryExtensions*>();
 }
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::UQueryExtensions::Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::ArrayW<::StringW> classes) {
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::UQueryExtensions::Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name,
+                                                                                              /* [ParamArray] */ ::ArrayW<::StringW> classes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryExtensions*>(),
                                               { "Q", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(nullptr, ___internal_method, e, name, classes);
 }
-template <typename T> inline T UnityEngine::UIElements::UQueryExtensions::Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+inline T UnityEngine::UIElements::UQueryExtensions::Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryExtensions*>(),
@@ -120,7 +124,9 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::UQuery
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(nullptr, ___internal_method, e, name, className);
 }
 template <typename T>
-inline ::UnityEngine::UIElements::UQueryBuilder_1<T> UnityEngine::UIElements::UQueryExtensions::Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::ArrayW<::StringW> classes) {
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+inline ::UnityEngine::UIElements::UQueryBuilder_1<T> UnityEngine::UIElements::UQueryExtensions::Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name,
+                                                                                                      /* [ParamArray] */ ::ArrayW<::StringW> classes) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryExtensions*>(),
@@ -129,6 +135,7 @@ inline ::UnityEngine::UIElements::UQueryBuilder_1<T> UnityEngine::UIElements::UQ
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UQueryBuilder_1<T>>(nullptr, ___internal_method, e, name, classes);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
 inline ::UnityEngine::UIElements::UQueryBuilder_1<T> UnityEngine::UIElements::UQueryExtensions::Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},

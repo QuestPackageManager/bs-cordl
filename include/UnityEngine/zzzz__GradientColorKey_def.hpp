@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GradientColorKey.hpp"
+// IWYU pragma private; include "UnityEngine/GradientColorKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct GradientColorKey;
 // Write type traits
 MARK_VAL_T(::UnityEngine::GradientColorKey);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GradientColorKey, "UnityEngine", "GradientColorKey");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Color
 namespace UnityEngine {
 // Is value type: true
@@ -31,7 +32,8 @@ public:
   // @brief default ctor
   constexpr GradientColorKey();
 
-  // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr GradientColorKey(::UnityEngine::Color color, float_t time) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

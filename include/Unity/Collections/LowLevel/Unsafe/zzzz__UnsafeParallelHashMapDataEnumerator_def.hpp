@@ -1,13 +1,17 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapDataEnumerator.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapDataEnumerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnsafeParallelHashMapDataEnumerator)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue> struct KeyValue_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct KeyValue_2;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 struct UnsafeParallelHashMapData;
@@ -19,7 +23,7 @@ struct UnsafeParallelHashMapDataEnumerator;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator, "Unity.Collections.LowLevel.Unsafe", "UnsafeParallelHashMapDataEnumerator");
-// Dependencies
+// Dependencies System.IEquatable`1<T>
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
@@ -27,10 +31,15 @@ struct CORDL_TYPE UnsafeParallelHashMapDataEnumerator {
 public:
   // Declarations
   /// @brief Method GetCurrent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TKey, typename TValue> inline ::Unity::Collections::LowLevel::Unsafe::KeyValue_2<TKey, TValue> GetCurrent();
+  template <typename TKey, typename TValue>
+    requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+             ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  inline ::Unity::Collections::LowLevel::Unsafe::KeyValue_2<TKey, TValue> GetCurrent();
 
   /// @brief Method GetCurrentKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TKey> inline TKey GetCurrentKey();
+  template <typename TKey>
+    requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
+  inline TKey GetCurrentKey();
 
   /// @brief Method MoveNext, addr 0x64cef8c, size 0x48, virtual false, abstract: false, final false
   inline bool MoveNext();
@@ -45,9 +54,9 @@ public:
   // @brief default ctor
   constexpr UnsafeParallelHashMapDataEnumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BucketIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_NextIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BucketIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_NextIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeParallelHashMapDataEnumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer, int32_t m_Index, int32_t m_BucketIndex, int32_t m_NextIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -56,6 +65,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer;
 

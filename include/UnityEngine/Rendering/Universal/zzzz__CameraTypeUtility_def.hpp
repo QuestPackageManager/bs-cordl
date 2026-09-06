@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\CameraTypeUtility.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/CameraTypeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class CameraTypeUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::CameraTypeUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::CameraTypeUtility*, "UnityEngine.Rendering.Universal", "CameraTypeUtility");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -27,6 +28,7 @@ public:
   /// @brief Field s_CameraTypeNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_CameraTypeNames, put = setStaticF_s_CameraTypeNames)) ::ArrayW<::StringW> s_CameraTypeNames;
 
+  /// [Extension]
   /// @brief Method GetName, addr 0x68c846c, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW GetName(::UnityEngine::Rendering::Universal::CameraRenderType type);
 
@@ -40,13 +42,13 @@ protected:
   constexpr CameraTypeUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CameraTypeUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraTypeUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CameraTypeUtility(CameraTypeUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CameraTypeUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraTypeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CameraTypeUtility(CameraTypeUtility const&) = delete;
+  CameraTypeUtility(CameraTypeUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12991 };

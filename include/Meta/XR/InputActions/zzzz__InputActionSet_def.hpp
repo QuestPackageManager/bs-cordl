@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\InputActions\InputActionSet.hpp"
+// IWYU pragma private; include "Meta/XR/InputActions/InputActionSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class InputActionSet;
 // Write type traits
 MARK_REF_T(::Meta::XR::InputActions::InputActionSet*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::InputActions::InputActionSet*, "Meta.XR.InputActions", "InputActionSet");
+// [CreateAssetMenu(menuName = "Meta/Action Set")]
 // Dependencies UnityEngine.ScriptableObject
 namespace Meta::XR::InputActions {
 // Is value type: false
@@ -59,20 +60,23 @@ protected:
   constexpr InputActionSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputActionSet(InputActionSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionSet(InputActionSet const&) = delete;
+  InputActionSet(InputActionSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8573 };
 
+  /// [InlineLink("https://registry.khronos.org/OpenXR/specs/1.0/html/xrspec.html#semantic-path-interaction-profiles")]
+  /// [Tooltip("The interaction profile of the device these actions should be applied to.")]
   /// @brief Field InteractionProfile, offset: 0x18, size: 0x8, def value: None
   ::StringW ___InteractionProfile;
 
+  /// [Tooltip("A list of the different Input Actions that this device supports.")]
   /// @brief Field InputActionDefinitions, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* ___InputActionDefinitions;
 

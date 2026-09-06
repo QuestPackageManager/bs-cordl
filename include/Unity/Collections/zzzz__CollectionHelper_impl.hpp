@@ -1,6 +1,8 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\CollectionHelper.hpp"
+// IWYU pragma private; include "Unity/Collections/CollectionHelper.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/zzzz__CollectionHelper_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -29,7 +31,8 @@ constexpr double_t const& Unity::Collections::CollectionHelper_LongDoubleUnion::
 constexpr void Unity::Collections::CollectionHelper_LongDoubleUnion::__cordl_internal_set_doubleValue(double_t value) {
   this->___doubleValue = value;
 }
-// Ctor Parameters [CppParam { name: "longValue", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "doubleValue", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "longValue", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "doubleValue", ty: "double_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::Unity::Collections::CollectionHelper_LongDoubleUnion::CollectionHelper_LongDoubleUnion(int64_t longValue, double_t doubleValue) noexcept {
   this->longValue = longValue;
   this->doubleValue = doubleValue;
@@ -357,6 +360,9 @@ inline void Unity::Collections::CollectionHelper::CheckCapacityInRange(int32_t c
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, capacity, length);
 }
 template <typename T, typename U>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+           ::cordl_internals::default_constructor_constraint<U>)
 inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelper::CreateNativeArray(int32_t length, ::by_ref<U> allocator, ::Unity::Collections::NativeArrayOptions options) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(),
@@ -367,6 +373,7 @@ inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelp
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(nullptr, ___internal_method, length, allocator, options);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelper::CreateNativeArray(int32_t length, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                                                                       ::Unity::Collections::NativeArrayOptions options) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -379,6 +386,7 @@ inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelp
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(nullptr, ___internal_method, length, allocator, options);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelper::CreateNativeArray(::Unity::Collections::NativeArray_1<T> array,
                                                                                                       ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -390,6 +398,7 @@ inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelp
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(nullptr, ___internal_method, array, allocator);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelper::CreateNativeArray(::ArrayW<T> array, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -398,7 +407,11 @@ inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelp
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(nullptr, ___internal_method, array, allocator);
 }
-template <typename T, typename U> inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelper::CreateNativeArray(::ArrayW<T> array, ::by_ref<U> allocator) {
+template <typename T, typename U>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+           ::cordl_internals::default_constructor_constraint<U>)
+inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelper::CreateNativeArray(::ArrayW<T> array, ::by_ref<U> allocator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(),
                                                            { "CreateNativeArray", { ::i2c::class_of<T>(), ::i2c::class_of<U>() }, { ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<::by_ref<U>>() } })));
@@ -406,6 +419,7 @@ template <typename T, typename U> inline ::Unity::Collections::NativeArray_1<T> 
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(nullptr, ___internal_method, array, allocator);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::CollectionHelper::DisposeNativeArray(::Unity::Collections::NativeArray_1<T> nativeArray, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -415,19 +429,24 @@ inline void Unity::Collections::CollectionHelper::DisposeNativeArray(::Unity::Co
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, nativeArray, allocator);
 }
-template <typename T> inline void Unity::Collections::CollectionHelper::Dispose(::Unity::Collections::NativeArray_1<T> nativeArray) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::CollectionHelper::Dispose(::Unity::Collections::NativeArray_1<T> nativeArray) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(),
                                                                                               { "Dispose", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, nativeArray);
 }
-template <typename T> inline void Unity::Collections::CollectionHelper::CheckConvertArguments(int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::CollectionHelper::CheckConvertArguments(int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "CheckConvertArguments", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, length);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T>
 Unity::Collections::CollectionHelper::ConvertExistingDataToNativeArray(void* dataPointer, int32_t length, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, bool setTempMemoryHandle) {
   static auto* ___internal_method_base =
@@ -440,6 +459,7 @@ Unity::Collections::CollectionHelper::ConvertExistingDataToNativeArray(void* dat
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(nullptr, ___internal_method, dataPointer, length, allocator, setTempMemoryHandle);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelper::ConvertExistingNativeListToNativeArray(::by_ref<::Unity::Collections::NativeList_1<T>> nativeList, int32_t length,
                                                                                                                            ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base =
@@ -452,6 +472,10 @@ inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::CollectionHelp
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(nullptr, ___internal_method, nativeList, length, allocator);
 }
 template <typename TKey, typename TValue, typename U>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+           ::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+           ::cordl_internals::default_constructor_constraint<U>)
 inline ::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue> Unity::Collections::CollectionHelper::CreateNativeParallelMultiHashMap(int32_t length, ::by_ref<U> allocator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "CreateNativeParallelMultiHashMap",

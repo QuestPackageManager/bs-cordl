@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\Telemetry.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/Telemetry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class Telemetry;
 // Write type traits
 MARK_REF_T(::Meta::XR::BuildingBlocks::Telemetry*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::Telemetry*, "Meta.XR.BuildingBlocks", "Telemetry");
+// [Extension]
 // Dependencies System.Object
 namespace Meta::XR::BuildingBlocks {
 // Is value type: false
@@ -31,15 +32,19 @@ namespace Meta::XR::BuildingBlocks {
 class CORDL_TYPE Telemetry : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AddBlockInfo, addr 0x5a338ec, size 0x18c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::BuildingBlock* block);
 
+  /// [Extension]
   /// @brief Method AddBlockVariantInfo, addr 0x5a3bf44, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockVariantInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::BuildingBlock* block);
 
+  /// [Extension]
   /// @brief Method AddInstallationRoutineInfo, addr 0x5a3c004, size 0x32c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddInstallationRoutineInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* checkpoint);
 
+  /// [Extension]
   /// @brief Method AddSceneInfo, addr 0x5a3c330, size 0x10c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddSceneInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::UnityEngine::SceneManagement::Scene scene);
 
@@ -49,13 +54,13 @@ protected:
   constexpr Telemetry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Telemetry(Telemetry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry(Telemetry const&) = delete;
+  Telemetry(Telemetryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21381 };

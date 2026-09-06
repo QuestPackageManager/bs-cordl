@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceShadows.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceShadows.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenSpaceShadows)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -156,13 +158,13 @@ protected:
   constexpr ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData const&) = delete;
+  ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPass_ScreenSpaceShadows_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12928 };
@@ -188,6 +190,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -228,13 +231,13 @@ protected:
   constexpr ScreenSpaceShadowsPass_ScreenSpaceShadows___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceShadowsPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPass_ScreenSpaceShadows___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadowsPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPass_ScreenSpaceShadows___c const&) = delete;
+  ScreenSpaceShadowsPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPass_ScreenSpaceShadows___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12929 };
@@ -275,6 +278,7 @@ public:
   /// @brief Method Dispose, addr 0x68b0578, size 0x14, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68b1080, size 0x210, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -287,6 +291,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass* New_ctor();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x68b05f0, size 0x17c, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -335,13 +340,13 @@ protected:
   constexpr ScreenSpaceShadows_ScreenSpaceShadowsPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceShadows_ScreenSpaceShadowsPass(ScreenSpaceShadows_ScreenSpaceShadowsPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadows_ScreenSpaceShadowsPass(ScreenSpaceShadows_ScreenSpaceShadowsPass const&) = delete;
+  ScreenSpaceShadows_ScreenSpaceShadowsPass(ScreenSpaceShadows_ScreenSpaceShadowsPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12930 };
@@ -413,13 +418,13 @@ protected:
   constexpr ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData const&) = delete;
+  ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12931 };
@@ -440,6 +445,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPo
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -480,13 +486,13 @@ protected:
   constexpr ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c const&) = delete;
+  ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPostPass_ScreenSpaceShadows___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12932 };
@@ -511,9 +517,11 @@ public:
   /// @brief Field k_CurrentActive, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_CurrentActive, put = setStaticF_k_CurrentActive)) ::UnityEngine::Rendering::RTHandle* k_CurrentActive;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Configure, addr 0x68b1370, size 0x68, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68b149c, size 0x140, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -538,13 +546,13 @@ protected:
   constexpr ScreenSpaceShadows_ScreenSpaceShadowsPostPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPostPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPostPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceShadows_ScreenSpaceShadowsPostPass(ScreenSpaceShadows_ScreenSpaceShadowsPostPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPostPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPostPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadows_ScreenSpaceShadowsPostPass(ScreenSpaceShadows_ScreenSpaceShadowsPostPass const&) = delete;
+  ScreenSpaceShadows_ScreenSpaceShadowsPostPass(ScreenSpaceShadows_ScreenSpaceShadowsPostPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12933 };
@@ -555,6 +563,9 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass) == 0xb8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [SupportedOnRenderer(typeof(UnityEngine.Rendering.Universal.UniversalRendererData))]
+// [DisallowMultipleRendererFeature("Screen Space Shadows")]
+// [Tooltip("Screen Space Shadows")]
 // Dependencies UnityEngine.Rendering.Universal.ScriptableRendererFeature
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -636,13 +647,13 @@ protected:
   constexpr ScreenSpaceShadows();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceShadows(ScreenSpaceShadows&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadows(ScreenSpaceShadows const&) = delete;
+  ScreenSpaceShadows(ScreenSpaceShadowsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12934 };
@@ -650,9 +661,12 @@ public:
   /// @brief Field k_ShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_ShaderName{ u"Hidden/Universal Render Pipeline/ScreenSpaceShadows" };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Shader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_Shader;
 
+  /// [SerializeField]
   /// @brief Field m_Settings, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsSettings* ___m_Settings;
 

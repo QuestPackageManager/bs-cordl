@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeStreamDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeStreamDisposeJob.hpp"
 #include "Unity/Collections/zzzz__NativeStreamDispose_impl.hpp"
 #include "Unity/Collections/zzzz__NativeStreamDisposeJob_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
@@ -27,7 +27,7 @@ constexpr Unity::Collections::NativeStreamDisposeJob::operator ::Unity::Jobs::IJ
 constexpr ::Unity::Jobs::IJob* Unity::Collections::NativeStreamDisposeJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeStreamDispose", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeStreamDispose", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeStreamDisposeJob::NativeStreamDisposeJob(::Unity::Collections::NativeStreamDispose Data) noexcept {
   this->Data = Data;
 }

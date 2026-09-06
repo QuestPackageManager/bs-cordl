@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue\GenericPriorityQueueNode_1.hpp"
+// IWYU pragma private; include "Priority_Queue/GenericPriorityQueueNode_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ template <typename TPriority> class GenericPriorityQueueNode_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::GenericPriorityQueueNode_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::GenericPriorityQueueNode_1, "Priority_Queue", "GenericPriorityQueueNode`1");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
@@ -60,21 +62,27 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_InsertionIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int64_t get_InsertionIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Priority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPriority get_Priority();
 
+  /// [CompilerGenerated]
   /// @brief Method get_QueueIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_QueueIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method set_InsertionIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_InsertionIndex(int64_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Priority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Priority(TPriority value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_QueueIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_QueueIndex(int32_t value);
 
@@ -84,23 +92,26 @@ protected:
   constexpr GenericPriorityQueueNode_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueueNode_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueueNode_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericPriorityQueueNode_1(GenericPriorityQueueNode_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueueNode_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueueNode_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericPriorityQueueNode_1(GenericPriorityQueueNode_1 const&) = delete;
+  GenericPriorityQueueNode_1(GenericPriorityQueueNode_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20490 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Priority>k__BackingField, offset: 0x10, size: 0x8, def value: None
   TPriority ____Priority_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <QueueIndex>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____QueueIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <InsertionIndex>k__BackingField, offset: 0x20, size: 0x8, def value: None
   int64_t ____InsertionIndex_k__BackingField;
 

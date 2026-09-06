@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedDataRegistry.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedDataRegistry.hpp"
+#include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__InspectedDataRegistry_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__DebugMember_def.hpp"
@@ -57,6 +58,7 @@ inline void Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Reset() {
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Reflection::MemberInfo*>)
 inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<T, ::Meta::XR::ImmersiveDebugger::DebugMember*>>*
 Meta::XR::ImmersiveDebugger::InspectedDataRegistry::GetMembersForType(::System::Type* type, ::System::Func_3<T, ::Meta::XR::ImmersiveDebugger::DebugMember*, bool>* filterCallback) {
   static auto* ___internal_method_base = THROW_UNLESS(

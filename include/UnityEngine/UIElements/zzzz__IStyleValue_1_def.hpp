@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IStyleValue_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IStyleValue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,21 +27,21 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) T value;
 
-  /// @brief Method get_keyword, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_keyword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_value();
 
-  /// @brief Method set_keyword, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_keyword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_value(T value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IStyleValue_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IStyleValue_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IStyleValue_1(IStyleValue_1 const&) = delete;
+  IStyleValue_1(IStyleValue_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4982 };

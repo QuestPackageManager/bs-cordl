@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextInputBaseField_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextInputBaseField_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,7 +64,9 @@ namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlIntAttributeDescription;
@@ -101,6 +103,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::TextInputBaseField_1, "UnityEngine.UIElements", "TextInputBaseField`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase, "UnityEngine.UIElements", "TextInputBaseField`1/TextInputBase");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits, "UnityEngine.UIElements", "TextInputBaseField`1/UxmlTraits");
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // cpp template
@@ -275,13 +278,13 @@ protected:
   constexpr TextInputBaseField_1_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextInputBaseField_1_UxmlTraits(TextInputBaseField_1_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextInputBaseField_1_UxmlTraits(TextInputBaseField_1_UxmlTraits const&) = delete;
+  TextInputBaseField_1_UxmlTraits(TextInputBaseField_1_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4228 };
@@ -555,6 +558,7 @@ public:
   /// @brief Method get_textEdition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ITextEdition* get_textEdition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_textElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextElement* get_textElement();
 
@@ -579,12 +583,14 @@ public:
 
   static inline void setStaticF_verticalVariantInnerTextElementUssClassName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isDragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isDragging(bool value);
 
   /// @brief Method set_text, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_textElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_textElement(::UnityEngine::UIElements::TextElement* value);
 
@@ -594,17 +600,19 @@ protected:
   constexpr TextInputBaseField_1_TextInputBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_TextInputBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_TextInputBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextInputBaseField_1_TextInputBase(TextInputBaseField_1_TextInputBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_TextInputBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_TextInputBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextInputBaseField_1_TextInputBase(TextInputBaseField_1_TextInputBase const&) = delete;
+  TextInputBaseField_1_TextInputBase(TextInputBaseField_1_TextInputBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4229 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <textElement>k__BackingField, offset: 0x4a8, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextElement* ____textElement_k__BackingField;
 
@@ -614,6 +622,8 @@ public:
   /// @brief Field multilineContainer, offset: 0x4b8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___multilineContainer;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <isDragging>k__BackingField, offset: 0x4c0, size: 0x1, def value: None
   bool ____isDragging_k__BackingField;
 
@@ -646,41 +656,49 @@ public:
 
   using UxmlTraits = ::UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_autoCorrection, put = set_autoCorrection)) bool autoCorrection;
 
   /// @brief Field autoCorrectionProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_autoCorrectionProperty, put = setStaticF_autoCorrectionProperty)) ::UnityEngine::UIElements::BindingId autoCorrectionProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_cursorColor)) ::UnityEngine::Color cursorColor;
 
   /// @brief Field cursorColorProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_cursorColorProperty, put = setStaticF_cursorColorProperty)) ::UnityEngine::UIElements::BindingId cursorColorProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_cursorIndex, put = set_cursorIndex)) int32_t cursorIndex;
 
   /// @brief Field cursorIndexProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_cursorIndexProperty, put = setStaticF_cursorIndexProperty)) ::UnityEngine::UIElements::BindingId cursorIndexProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_cursorPosition)) ::UnityEngine::Vector2 cursorPosition;
 
   /// @brief Field cursorPositionProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_cursorPositionProperty, put = setStaticF_cursorPositionProperty)) ::UnityEngine::UIElements::BindingId cursorPositionProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_doubleClickSelectsWord, put = set_doubleClickSelectsWord)) bool doubleClickSelectsWord;
 
   /// @brief Field doubleClickSelectsWordProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_doubleClickSelectsWordProperty, put = setStaticF_doubleClickSelectsWordProperty)) ::UnityEngine::UIElements::BindingId doubleClickSelectsWordProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_emojiFallbackSupport, put = set_emojiFallbackSupport)) bool emojiFallbackSupport;
 
   /// @brief Field emojiFallbackSupportProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_emojiFallbackSupportProperty, put = setStaticF_emojiFallbackSupportProperty)) ::UnityEngine::UIElements::BindingId emojiFallbackSupportProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_hideMobileInput, put = set_hideMobileInput)) bool hideMobileInput;
 
   /// @brief Field hideMobileInputProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_hideMobileInputProperty, put = setStaticF_hideMobileInputProperty)) ::UnityEngine::UIElements::BindingId hideMobileInputProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_hidePlaceholderOnFocus, put = set_hidePlaceholderOnFocus)) bool hidePlaceholderOnFocus;
 
   /// @brief Field hidePlaceholderOnFocusProperty, offset 0xffffffff, size 0x98
@@ -689,21 +707,25 @@ public:
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_isDelayed, put = set_isDelayed)) bool isDelayed;
 
   /// @brief Field isDelayedProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_isDelayedProperty, put = setStaticF_isDelayedProperty)) ::UnityEngine::UIElements::BindingId isDelayedProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_isPasswordField, put = set_isPasswordField)) bool isPasswordField;
 
   /// @brief Field isPasswordFieldProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_isPasswordFieldProperty, put = setStaticF_isPasswordFieldProperty)) ::UnityEngine::UIElements::BindingId isPasswordFieldProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_isReadOnly, put = set_isReadOnly)) bool isReadOnly;
 
   /// @brief Field isReadOnlyProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_isReadOnlyProperty, put = setStaticF_isReadOnlyProperty)) ::UnityEngine::UIElements::BindingId isReadOnlyProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_keyboardType, put = set_keyboardType)) ::UnityEngine::TouchScreenKeyboardType keyboardType;
 
   /// @brief Field keyboardTypeProperty, offset 0xffffffff, size 0x98
@@ -716,11 +738,13 @@ public:
   __declspec(property(get = __cordl_internal_get_m_TextInputBase,
                       put = __cordl_internal_set_m_TextInputBase)) ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* m_TextInputBase;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_maskChar, put = set_maskChar)) char16_t maskChar;
 
   /// @brief Field maskCharProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_maskCharProperty, put = setStaticF_maskCharProperty)) ::UnityEngine::UIElements::BindingId maskCharProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_maxLength, put = set_maxLength)) int32_t maxLength;
 
   /// @brief Field maxLengthProperty, offset 0xffffffff, size 0x98
@@ -739,6 +763,7 @@ public:
 
   __declspec(property(put = set_password)) bool password;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_placeholderText, put = set_placeholderText)) ::StringW placeholderText;
 
   /// @brief Field placeholderTextProperty, offset 0xffffffff, size 0x98
@@ -756,21 +781,25 @@ public:
   __declspec(property(get = getStaticF_s_SelectionColorProperty, put = setStaticF_s_SelectionColorProperty)) ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color>
       s_SelectionColorProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_selectAllOnFocus, put = set_selectAllOnFocus)) bool selectAllOnFocus;
 
   /// @brief Field selectAllOnFocusProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_selectAllOnFocusProperty, put = setStaticF_selectAllOnFocusProperty)) ::UnityEngine::UIElements::BindingId selectAllOnFocusProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_selectAllOnMouseUp, put = set_selectAllOnMouseUp)) bool selectAllOnMouseUp;
 
   /// @brief Field selectAllOnMouseUpProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_selectAllOnMouseUpProperty, put = setStaticF_selectAllOnMouseUpProperty)) ::UnityEngine::UIElements::BindingId selectAllOnMouseUpProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_selectIndex, put = set_selectIndex)) int32_t selectIndex;
 
   /// @brief Field selectIndexProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_selectIndexProperty, put = setStaticF_selectIndexProperty)) ::UnityEngine::UIElements::BindingId selectIndexProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_selectionColor)) ::UnityEngine::Color selectionColor;
 
   /// @brief Field selectionColorProperty, offset 0xffffffff, size 0x98
@@ -781,6 +810,7 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_textEdition)) ::UnityEngine::UIElements::ITextEdition* textEdition;
 
   /// @brief Field textEditionProperty, offset 0xffffffff, size 0x98
@@ -791,11 +821,13 @@ public:
   /// @brief Field textInputUssName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_textInputUssName, put = setStaticF_textInputUssName)) ::StringW textInputUssName;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_textSelection)) ::UnityEngine::UIElements::ITextSelection* textSelection;
 
   /// @brief Field textSelectionProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_textSelectionProperty, put = setStaticF_textSelectionProperty)) ::UnityEngine::UIElements::BindingId textSelectionProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_tripleClickSelectsLine, put = set_tripleClickSelectsLine)) bool tripleClickSelectsLine;
 
   /// @brief Field tripleClickSelectsLineProperty, offset 0xffffffff, size 0x98
@@ -804,6 +836,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_verticalScrollerVisibility, put = set_verticalScrollerVisibility)) ::UnityEngine::UIElements::ScrollerVisibility verticalScrollerVisibility;
 
   /// @brief Field verticalScrollerVisibilityProperty, offset 0xffffffff, size 0x98
@@ -813,6 +846,8 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IDelayedField"
   constexpr operator ::UnityEngine::UIElements::IDelayedField*() noexcept;
 
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.NavigationSubmitEvent), typeof(UnityEngine.UIElements.FocusInEvent), typeof(UnityEngine.UIElements.FocusEvent),
+  /// typeof(UnityEngine.UIElements.FocusOutEvent), typeof(UnityEngine.UIElements.BlurEvent) })]
   /// @brief Method HandleEventBubbleUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
@@ -825,7 +860,7 @@ public:
   /// @brief Method OnPlaceholderChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnPlaceholderChanged();
 
-  /// @brief Method StringToValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValueType StringToValue(::StringW str);
 
   /// @brief Method UpdateMixedValueContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -840,7 +875,7 @@ public:
   /// @brief Method UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateValueFromText();
 
-  /// @brief Method ValueToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ValueToString(TValueType value);
 
   constexpr ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* const& __cordl_internal_get_m_TextInputBase() const;
@@ -1111,6 +1146,7 @@ public:
   /// @brief Method set_password, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_password(bool value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method set_placeholderText, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_placeholderText(::StringW value);
 
@@ -1126,6 +1162,7 @@ public:
   /// @brief Method set_selectIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_selectIndex(int32_t value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method set_text, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
@@ -1141,13 +1178,13 @@ protected:
   constexpr TextInputBaseField_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextInputBaseField_1(TextInputBaseField_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextInputBaseField_1(TextInputBaseField_1 const&) = delete;
+  TextInputBaseField_1(TextInputBaseField_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4230 };

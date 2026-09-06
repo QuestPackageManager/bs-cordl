@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\SharedStatic.hpp"
+// IWYU pragma private; include "Unity/Burst/SharedStatic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ protected:
   constexpr SharedStatic_PreserveAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic_PreserveAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic_PreserveAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedStatic_PreserveAttribute(SharedStatic_PreserveAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic_PreserveAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic_PreserveAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatic_PreserveAttribute(SharedStatic_PreserveAttribute const&) = delete;
+  SharedStatic_PreserveAttribute(SharedStatic_PreserveAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17334 };
@@ -66,12 +66,15 @@ public:
   // Declarations
   using PreserveAttribute = ::Unity::Burst::SharedStatic_PreserveAttribute;
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckResult, addr 0x6478510, size 0x54, virtual false, abstract: false, final false
   static inline void CheckResult(void* result);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckSizeOf, addr 0x64784a4, size 0x6c, virtual false, abstract: false, final false
   static inline void CheckSizeOf(uint32_t sizeOf);
 
+  /// [SharedStatic::Preserve]
   /// @brief Method GetOrCreateSharedStaticInternal, addr 0x6478564, size 0x58, virtual false, abstract: false, final false
   static inline void* GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
 
@@ -81,13 +84,13 @@ protected:
   constexpr SharedStatic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedStatic(SharedStatic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatic(SharedStatic const&) = delete;
+  SharedStatic(SharedStaticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17335 };

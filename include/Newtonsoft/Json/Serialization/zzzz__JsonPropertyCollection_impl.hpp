@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonPropertyCollection.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonPropertyCollection.hpp"
 #include "System/Collections/ObjectModel/zzzz__KeyedCollection_2_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
@@ -135,7 +135,8 @@ inline ::Newtonsoft::Json::Serialization::JsonProperty* Newtonsoft::Json::Serial
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonPropertyCollection*>(), { "GetClosestMatchProperty", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::JsonProperty*>(this, ___internal_method, propertyName);
 }
-inline bool Newtonsoft::Json::Serialization::JsonPropertyCollection::TryGetProperty(::StringW key, ::by_ref<::Newtonsoft::Json::Serialization::JsonProperty*> item) {
+inline bool Newtonsoft::Json::Serialization::JsonPropertyCollection::TryGetProperty(::StringW key,
+                                                                                    /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::Newtonsoft::Json::Serialization::JsonProperty*> item) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonPropertyCollection*>(),
                                                            { "TryGetProperty", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::Newtonsoft::Json::Serialization::JsonProperty*>>() } })));

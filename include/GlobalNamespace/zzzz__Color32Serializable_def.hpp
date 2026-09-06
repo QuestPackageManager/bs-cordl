@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Color32Serializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/Color32Serializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
   // @brief default ctor
   constexpr Color32Serializable();
 
-  // Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }]
   constexpr Color32Serializable(::UnityEngine::Color32 _color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

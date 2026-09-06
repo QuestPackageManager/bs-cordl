@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\LazyAsyncResult.hpp"
+// IWYU pragma private; include "System/Net/LazyAsyncResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +66,13 @@ protected:
   constexpr LazyAsyncResult_ThreadContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LazyAsyncResult_ThreadContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyAsyncResult_ThreadContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LazyAsyncResult_ThreadContext(LazyAsyncResult_ThreadContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LazyAsyncResult_ThreadContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyAsyncResult_ThreadContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LazyAsyncResult_ThreadContext(LazyAsyncResult_ThreadContext const&) = delete;
+  LazyAsyncResult_ThreadContext(LazyAsyncResult_ThreadContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11530 };
@@ -266,13 +266,13 @@ protected:
   constexpr LazyAsyncResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LazyAsyncResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyAsyncResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LazyAsyncResult(LazyAsyncResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LazyAsyncResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyAsyncResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LazyAsyncResult(LazyAsyncResult const&) = delete;
+  LazyAsyncResult(LazyAsyncResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11531 };

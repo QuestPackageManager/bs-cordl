@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidHingeAngle.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidHingeAngle.hpp"
 #include "UnityEngine/InputSystem/zzzz__HingeAngle_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidHingeAngle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidHingeAngle._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SignalOnToggleChange.hpp"
+// IWYU pragma private; include "GlobalNamespace/SignalOnToggleChange.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalOnToggleChange_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"

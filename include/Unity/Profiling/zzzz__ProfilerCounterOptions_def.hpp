@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerCounterOptions.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerCounterOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ProfilerCounterOptions;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::ProfilerCounterOptions);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::ProfilerCounterOptions, "Unity.Profiling", "ProfilerCounterOptions");
+// [Flags]
 // Dependencies
 namespace Unity::Profiling {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ProfilerCounterOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerCounterOptions(uint16_t value__) noexcept;
 
   /// @brief Field FlushOnEndOfFrame value: U16(2)

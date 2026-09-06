@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\DatatypeImplementation.hpp"
+// IWYU pragma private; include "System/Xml/Schema/DatatypeImplementation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -164,13 +164,13 @@ protected:
   constexpr DatatypeImplementation_SchemaDatatypeMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation_SchemaDatatypeMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation_SchemaDatatypeMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DatatypeImplementation_SchemaDatatypeMap(DatatypeImplementation_SchemaDatatypeMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation_SchemaDatatypeMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation_SchemaDatatypeMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DatatypeImplementation_SchemaDatatypeMap(DatatypeImplementation_SchemaDatatypeMap const&) = delete;
+  DatatypeImplementation_SchemaDatatypeMap(DatatypeImplementation_SchemaDatatypeMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9612 };
@@ -812,7 +812,7 @@ public:
   /// @brief Method get_HasValueFacets, addr 0x61c232c, size 0x28, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_ListValueType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ListValueType();
 
   /// @brief Method get_Restriction, addr 0x61c22fc, size 0x8, virtual true, abstract: false, final false
@@ -827,7 +827,7 @@ public:
   /// @brief Method get_UntypedAtomicType, addr 0x61c1040, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* get_UntypedAtomicType();
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
 
   /// @brief Method get_ValueConverter, addr 0x61c2280, size 0x34, virtual true, abstract: false, final false
@@ -1017,13 +1017,13 @@ protected:
   constexpr DatatypeImplementation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DatatypeImplementation(DatatypeImplementation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DatatypeImplementation(DatatypeImplementation const&) = delete;
+  DatatypeImplementation(DatatypeImplementationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9613 };

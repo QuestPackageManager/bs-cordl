@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerPositionDisplay.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerPositionDisplay.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -215,41 +215,50 @@ protected:
   constexpr MultiplayerPositionDisplay();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionDisplay", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionDisplay", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerPositionDisplay(MultiplayerPositionDisplay&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionDisplay", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionDisplay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerPositionDisplay(MultiplayerPositionDisplay const&) = delete;
+  MultiplayerPositionDisplay(MultiplayerPositionDisplayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6177 };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;
 
+  /// [SerializeField]
   /// @brief Field _normalColor, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ____normalColor;
 
+  /// [SerializeField]
   /// @brief Field _leadingColor, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Color ____leadingColor;
 
+  /// [SerializeField]
   /// @brief Field _failedColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____failedColor;
 
+  /// [SerializeField]
   /// @brief Field _fadeInDuration, offset: 0x58, size: 0x4, def value: None
   float_t ____fadeInDuration;
 
+  /// [SerializeField]
   /// @brief Field _crossFadeDuration, offset: 0x5c, size: 0x4, def value: None
   float_t ____crossFadeDuration;
 
+  /// [SerializeField]
   /// @brief Field _fadeOutDuration, offset: 0x60, size: 0x4, def value: None
   float_t ____fadeOutDuration;
 
+  /// [Inject]
   /// @brief Field _scoreProvider, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
+  /// [Inject]
   /// @brief Field _connectedPlayer, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 

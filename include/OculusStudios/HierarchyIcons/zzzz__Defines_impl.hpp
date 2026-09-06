@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\HierarchyIcons\Defines.hpp"
+// IWYU pragma private; include "OculusStudios/HierarchyIcons/Defines.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/HierarchyIcons/zzzz__Defines_def.hpp"
 #include "OculusStudios/HierarchyIcons/zzzz__Icon_def.hpp"

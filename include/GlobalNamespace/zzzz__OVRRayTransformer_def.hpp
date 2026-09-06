@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRRayTransformer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRRayTransformer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVRRayTransformer* New_ctor();
 
-  /// @brief Method TransformRay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TransformRay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Ray TransformRay(::UnityEngine::Ray ray);
 
   /// @brief Method .ctor, addr 0x5f0bf7c, size 0x4, virtual false, abstract: false, final false
@@ -36,13 +36,13 @@ protected:
   constexpr OVRRayTransformer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRayTransformer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRayTransformer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRRayTransformer(OVRRayTransformer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRayTransformer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRayTransformer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRRayTransformer(OVRRayTransformer const&) = delete;
+  OVRRayTransformer(OVRRayTransformerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7972 };

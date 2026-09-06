@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BombExplosionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/BombExplosionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class BombExplosionEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BombExplosionEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BombExplosionEffect*, "", "BombExplosionEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/BombExplosionEffect")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem::EmitParams
 namespace GlobalNamespace {
 // Is value type: false
@@ -101,26 +102,30 @@ protected:
   constexpr BombExplosionEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BombExplosionEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombExplosionEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BombExplosionEffect(BombExplosionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BombExplosionEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombExplosionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombExplosionEffect(BombExplosionEffect const&) = delete;
+  BombExplosionEffect(BombExplosionEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5757 };
 
+  /// [SerializeField]
   /// @brief Field _debrisPS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____debrisPS;
 
+  /// [SerializeField]
   /// @brief Field _explosionPS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____explosionPS;
 
+  /// [SerializeField]
   /// @brief Field _debrisCount, offset: 0x30, size: 0x4, def value: None
   int32_t ____debrisCount;
 
+  /// [SerializeField]
   /// @brief Field _explosionParticlesCount, offset: 0x34, size: 0x4, def value: None
   int32_t ____explosionParticlesCount;
 

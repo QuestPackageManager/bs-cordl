@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SelectLevelCategoryViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SelectLevelCategoryViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,7 +102,7 @@ public:
   // @brief default ctor
   constexpr SelectLevelCategoryViewController_LevelCategory();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SelectLevelCategoryViewController_LevelCategory(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(4)
@@ -182,13 +182,13 @@ protected:
   constexpr SelectLevelCategoryViewController_LevelCategoryInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController_LevelCategoryInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController_LevelCategoryInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectLevelCategoryViewController_LevelCategoryInfo(SelectLevelCategoryViewController_LevelCategoryInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController_LevelCategoryInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController_LevelCategoryInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectLevelCategoryViewController_LevelCategoryInfo(SelectLevelCategoryViewController_LevelCategoryInfo const&) = delete;
+  SelectLevelCategoryViewController_LevelCategoryInfo(SelectLevelCategoryViewController_LevelCategoryInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6944 };
@@ -214,6 +214,7 @@ static_assert(offsetof(::GlobalNamespace::SelectLevelCategoryViewController_Leve
 static_assert(sizeof(::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -262,13 +263,13 @@ protected:
   constexpr SelectLevelCategoryViewController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectLevelCategoryViewController___c(SelectLevelCategoryViewController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectLevelCategoryViewController___c(SelectLevelCategoryViewController___c const&) = delete;
+  SelectLevelCategoryViewController___c(SelectLevelCategoryViewController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6945 };
@@ -279,6 +280,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::SelectLevelCategoryViewController___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies SelectLevelCategoryViewController::LevelCategory, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -311,13 +313,13 @@ protected:
   constexpr SelectLevelCategoryViewController___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectLevelCategoryViewController___c__DisplayClass12_0(SelectLevelCategoryViewController___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectLevelCategoryViewController___c__DisplayClass12_0(SelectLevelCategoryViewController___c__DisplayClass12_0 const&) = delete;
+  SelectLevelCategoryViewController___c__DisplayClass12_0(SelectLevelCategoryViewController___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6946 };
@@ -432,6 +434,7 @@ public:
   /// @brief Method .ctor, addr 0x5958870, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectLevelCategoryEvent, addr 0x5952e50, size 0xc0, virtual false, abstract: false, final false
   inline void
   add_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
@@ -439,6 +442,7 @@ public:
   /// @brief Method get_selectedLevelCategory, addr 0x59521d0, size 0x4c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory get_selectedLevelCategory();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x5953674, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
@@ -449,26 +453,30 @@ protected:
   constexpr SelectLevelCategoryViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectLevelCategoryViewController(SelectLevelCategoryViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectLevelCategoryViewController(SelectLevelCategoryViewController const&) = delete;
+  SelectLevelCategoryViewController(SelectLevelCategoryViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6947 };
 
+  /// [SerializeField]
   /// @brief Field _allLevelCategoryInfos, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo*> ____allLevelCategoryInfos;
 
+  /// [SerializeField]
   /// @brief Field _levelFilterCategoryIconSegmentedControl, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControl> ____levelFilterCategoryIconSegmentedControl;
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectLevelCategoryEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* ___didSelectLevelCategoryEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\DebugInspector.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/DebugInspector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,17 +69,18 @@ protected:
   constexpr DebugInspector_InspectionRegistry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInspector_InspectionRegistry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInspector_InspectionRegistry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugInspector_InspectionRegistry(DebugInspector_InspectionRegistry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInspector_InspectionRegistry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInspector_InspectionRegistry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInspector_InspectionRegistry(DebugInspector_InspectionRegistry const&) = delete;
+  DebugInspector_InspectionRegistry(DebugInspector_InspectionRegistryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18325 };
 
+  /// [SerializeField]
   /// @brief Field handles, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedHandle*>* ___handles;
 
@@ -91,6 +92,7 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::DebugInspector_InspectionR
 static_assert(sizeof(::Meta::XR::ImmersiveDebugger::DebugInspector_InspectionRegistry) == 0x18, "Size mismatch!");
 
 } // namespace Meta::XR::ImmersiveDebugger
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace Meta::XR::ImmersiveDebugger {
 // Is value type: false
@@ -151,20 +153,23 @@ protected:
   constexpr DebugInspector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInspector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInspector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugInspector(DebugInspector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInspector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInspector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInspector(DebugInspector const&) = delete;
+  DebugInspector(DebugInspectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18326 };
 
+  /// [Tooltip("Defines a default category for all inspected data handled by this component. These can still be overriden by specifying another category individually in the inspected data
+  /// properties.")] [SerializeField]
   /// @brief Field _category, offset: 0x20, size: 0x8, def value: None
   ::StringW ____category;
 
+  /// [SerializeField]
   /// @brief Field registry, offset: 0x28, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::DebugInspector_InspectionRegistry* ___registry;
 

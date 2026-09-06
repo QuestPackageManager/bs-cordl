@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\EdgeLookup.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/EdgeLookup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EdgeLookup_def.hpp"
@@ -346,8 +346,8 @@ constexpr UnityEngine::ProBuilder::EdgeLookup::operator ::System::IEquatable_1<:
 constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>* UnityEngine::ProBuilder::EdgeLookup::i___System__IEquatable_1___UnityEngine__ProBuilder__EdgeLookup_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Local", ty: "::UnityEngine::ProBuilder::Edge", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Common", ty: "::UnityEngine::ProBuilder::Edge",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Local", ty: "::UnityEngine::ProBuilder::Edge", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Common", ty:
+// "::UnityEngine::ProBuilder::Edge", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::EdgeLookup::EdgeLookup(::UnityEngine::ProBuilder::Edge m_Local, ::UnityEngine::ProBuilder::Edge m_Common) noexcept {
   this->m_Local = m_Local;
   this->m_Common = m_Common;

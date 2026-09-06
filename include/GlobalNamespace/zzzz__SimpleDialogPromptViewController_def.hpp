@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SimpleDialogPromptViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SimpleDialogPromptViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_REF_T(::GlobalNamespace::SimpleDialogPromptViewController*);
 MARK_REF_T(::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SimpleDialogPromptViewController*, "", "SimpleDialogPromptViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*, "", "SimpleDialogPromptViewController/<>c__DisplayClass5_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -71,13 +72,13 @@ protected:
   constexpr SimpleDialogPromptViewController___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleDialogPromptViewController___c__DisplayClass5_0(SimpleDialogPromptViewController___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleDialogPromptViewController___c__DisplayClass5_0(SimpleDialogPromptViewController___c__DisplayClass5_0 const&) = delete;
+  SimpleDialogPromptViewController___c__DisplayClass5_0(SimpleDialogPromptViewController___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6476 };
@@ -178,26 +179,30 @@ protected:
   constexpr SimpleDialogPromptViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleDialogPromptViewController(SimpleDialogPromptViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleDialogPromptViewController(SimpleDialogPromptViewController const&) = delete;
+  SimpleDialogPromptViewController(SimpleDialogPromptViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6477 };
 
+  /// [SerializeField]
   /// @brief Field _titleText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
+  /// [SerializeField]
   /// @brief Field _messageText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____messageText;
 
+  /// [SerializeField]
   /// @brief Field _buttons, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Button>> ____buttons;
 
+  /// [SerializeField]
   /// @brief Field _buttonTexts, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>> ____buttonTexts;
 

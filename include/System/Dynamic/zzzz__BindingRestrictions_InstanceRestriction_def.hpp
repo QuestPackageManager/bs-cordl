@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\BindingRestrictions_InstanceRestriction.hpp"
+// IWYU pragma private; include "System/Dynamic/BindingRestrictions_InstanceRestriction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,13 +64,13 @@ protected:
   constexpr BindingRestrictions_InstanceRestriction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_InstanceRestriction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_InstanceRestriction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingRestrictions_InstanceRestriction(BindingRestrictions_InstanceRestriction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_InstanceRestriction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_InstanceRestriction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions_InstanceRestriction(BindingRestrictions_InstanceRestriction const&) = delete;
+  BindingRestrictions_InstanceRestriction(BindingRestrictions_InstanceRestrictionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16644 };

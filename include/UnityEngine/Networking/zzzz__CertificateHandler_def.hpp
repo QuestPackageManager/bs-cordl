@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\CertificateHandler.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/CertificateHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ protected:
   constexpr CertificateHandler_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshaller const&) = delete;
+  CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22293 };
@@ -62,6 +62,7 @@ public:
 static_assert(sizeof(::UnityEngine::Networking::CertificateHandler_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
+// [NativeHeader("Modules/UnityWebRequest/Public/CertificateHandler/CertificateHandlerScript.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Networking {
 // Is value type: false
@@ -78,7 +79,7 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method Create, addr 0x6e283bc, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create(::UnityEngine::Networking::CertificateHandler* obj);
+  static inline ::System::IntPtr Create(/* [Unmarshalled] */ ::UnityEngine::Networking::CertificateHandler* obj);
 
   /// @brief Method Dispose, addr 0x6e2851c, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
@@ -88,6 +89,7 @@ public:
 
   static inline ::UnityEngine::Networking::CertificateHandler* New_ctor();
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method ReleaseFromScripting, addr 0x6e283f8, size 0x50, virtual false, abstract: false, final false
   inline void ReleaseFromScripting();
 
@@ -97,6 +99,7 @@ public:
   /// @brief Method ValidateCertificate, addr 0x6e2853c, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::ArrayW<uint8_t> certificateData);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ValidateCertificateNative, addr 0x6e28544, size 0xc, virtual false, abstract: false, final false
   inline bool ValidateCertificateNative(::ArrayW<uint8_t> certificateData);
 
@@ -118,13 +121,13 @@ protected:
   constexpr CertificateHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateHandler(CertificateHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateHandler(CertificateHandler const&) = delete;
+  CertificateHandler(CertificateHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22294 };

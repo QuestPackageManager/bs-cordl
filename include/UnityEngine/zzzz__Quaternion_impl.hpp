@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Quaternion.hpp"
+// IWYU pragma private; include "UnityEngine/Quaternion.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -710,7 +710,7 @@ inline ::UnityEngine::Quaternion UnityEngine::Quaternion::AngleAxis(float_t angl
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "AngleAxis", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(nullptr, ___internal_method, angle, axis);
 }
-inline ::UnityEngine::Quaternion UnityEngine::Quaternion::LookRotation(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 upwards) {
+inline ::UnityEngine::Quaternion UnityEngine::Quaternion::LookRotation(::UnityEngine::Vector3 forward, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 upwards) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "LookRotation", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
@@ -770,7 +770,7 @@ inline void UnityEngine::Quaternion::SetLookRotation(::UnityEngine::Vector3 view
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "SetLookRotation", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, view);
 }
-inline void UnityEngine::Quaternion::SetLookRotation(::UnityEngine::Vector3 view, ::UnityEngine::Vector3 up) {
+inline void UnityEngine::Quaternion::SetLookRotation(::UnityEngine::Vector3 view, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 up) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "SetLookRotation", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
@@ -917,7 +917,8 @@ inline void UnityEngine::Quaternion::AngleAxis_Injected(float_t angle, ::by_ref<
                           { "AngleAxis_Injected", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, angle, axis, ret);
 }
-inline void UnityEngine::Quaternion::LookRotation_Injected(::by_ref<::UnityEngine::Vector3> forward, ::by_ref<::UnityEngine::Vector3> upwards, ::by_ref<::UnityEngine::Quaternion> ret) {
+inline void UnityEngine::Quaternion::LookRotation_Injected(::by_ref<::UnityEngine::Vector3> forward, /* [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3> upwards,
+                                                           ::by_ref<::UnityEngine::Quaternion> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "LookRotation_Injected",
                                                                                               {},
@@ -941,8 +942,8 @@ constexpr UnityEngine::Quaternion::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::Quaternion::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Quaternion::Quaternion(float_t x, float_t y, float_t z, float_t w) noexcept {
   this->x = x;
   this->y = y;

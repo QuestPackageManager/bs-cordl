@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS\Internal\Xml\Cache\XPathNode.hpp"
+// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,10 +119,10 @@ public:
   // @brief default ctor
   constexpr XPathNode();
 
-  // Ctor Parameters [CppParam { name: "_info", ty: "::MS::Internal::Xml::Cache::XPathNodeInfoAtom*", modifiers: "", def_value: None }, CppParam { name: "_idxSibling", ty: "uint16_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_idxParent", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_idxSimilar", ty: "uint16_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_posOffset", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_props", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::StringW",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_info", ty: "::MS::Internal::Xml::Cache::XPathNodeInfoAtom*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_idxSibling", ty: "uint16_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_idxParent", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_idxSimilar", ty: "uint16_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_posOffset", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_props", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_value", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr XPathNode(::MS::Internal::Xml::Cache::XPathNodeInfoAtom* _info, uint16_t _idxSibling, uint16_t _idxParent, uint16_t _idxSimilar, uint16_t _posOffset, uint32_t _props,
                       ::StringW _value) noexcept;
 

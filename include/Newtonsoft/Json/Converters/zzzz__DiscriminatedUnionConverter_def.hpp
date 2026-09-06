@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\DiscriminatedUnionConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/DiscriminatedUnionConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,6 +79,7 @@ DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase*, "Newtonsoft.Json.Converters", "DiscriminatedUnionConverter/UnionCase");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass8_0*, "Newtonsoft.Json.Converters", "DiscriminatedUnionConverter/<>c__DisplayClass8_0");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass9_0*, "Newtonsoft.Json.Converters", "DiscriminatedUnionConverter/<>c__DisplayClass9_0");
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -117,13 +118,13 @@ protected:
   constexpr DiscriminatedUnionConverter_Union();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_Union", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_Union", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiscriminatedUnionConverter_Union(DiscriminatedUnionConverter_Union&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_Union", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_Union", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter_Union(DiscriminatedUnionConverter_Union const&) = delete;
+  DiscriminatedUnionConverter_Union(DiscriminatedUnionConverter_Unionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13655 };
@@ -144,6 +145,7 @@ static_assert(offsetof(::Newtonsoft::Json::Converters::DiscriminatedUnionConvert
 static_assert(sizeof(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_Union) == 0x20, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
+// [Nullable(0)]
 // Dependencies System.Object, System.Reflection.PropertyInfo
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -210,13 +212,13 @@ protected:
   constexpr DiscriminatedUnionConverter_UnionCase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_UnionCase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_UnionCase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiscriminatedUnionConverter_UnionCase(DiscriminatedUnionConverter_UnionCase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_UnionCase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_UnionCase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter_UnionCase(DiscriminatedUnionConverter_UnionCase const&) = delete;
+  DiscriminatedUnionConverter_UnionCase(DiscriminatedUnionConverter_UnionCaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13656 };
@@ -252,6 +254,7 @@ static_assert(offsetof(::Newtonsoft::Json::Converters::DiscriminatedUnionConvert
 static_assert(sizeof(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase) == 0x38, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -264,6 +267,7 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass8_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <WriteJson>b__0, addr 0x5d9a61c, size 0x20, virtual false, abstract: false, final false
   inline bool _WriteJson_b__0(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase* c);
 
@@ -282,13 +286,13 @@ protected:
   constexpr DiscriminatedUnionConverter___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiscriminatedUnionConverter___c__DisplayClass8_0(DiscriminatedUnionConverter___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter___c__DisplayClass8_0(DiscriminatedUnionConverter___c__DisplayClass8_0 const&) = delete;
+  DiscriminatedUnionConverter___c__DisplayClass8_0(DiscriminatedUnionConverter___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13657 };
@@ -304,6 +308,7 @@ static_assert(offsetof(::Newtonsoft::Json::Converters::DiscriminatedUnionConvert
 static_assert(sizeof(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass8_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -319,6 +324,7 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass9_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <ReadJson>b__0, addr 0x5d9a63c, size 0x1c, virtual false, abstract: false, final false
   inline bool _ReadJson_b__0(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase* c);
 
@@ -343,20 +349,22 @@ protected:
   constexpr DiscriminatedUnionConverter___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiscriminatedUnionConverter___c__DisplayClass9_0(DiscriminatedUnionConverter___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter___c__DisplayClass9_0(DiscriminatedUnionConverter___c__DisplayClass9_0 const&) = delete;
+  DiscriminatedUnionConverter___c__DisplayClass9_0(DiscriminatedUnionConverter___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13658 };
 
+  /// [Nullable(0)]
   /// @brief Field caseName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___caseName;
 
+  /// [Nullable(0)]
   /// @brief Field <>9__0, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase*, bool>* _____9__0;
 
@@ -370,6 +378,8 @@ static_assert(offsetof(::Newtonsoft::Json::Converters::DiscriminatedUnionConvert
 static_assert(sizeof(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass9_0) == 0x20, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Converters
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -405,10 +415,11 @@ public:
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter* New_ctor();
 
   /// @brief Method ReadJson, addr 0x5d99b8c, size 0x67c, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
+                                    ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method WriteJson, addr 0x5d99690, size 0x4f8, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method .ctor, addr 0x5d9a498, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -427,13 +438,13 @@ protected:
   constexpr DiscriminatedUnionConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiscriminatedUnionConverter(DiscriminatedUnionConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter(DiscriminatedUnionConverter const&) = delete;
+  DiscriminatedUnionConverter(DiscriminatedUnionConverterconst&) = delete;
 
   /// @brief Field CasePropertyName offset 0xffffffff size 0x8
   static constexpr ::ConstString CasePropertyName{ u"Case" };

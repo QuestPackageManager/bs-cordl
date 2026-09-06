@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\GizmoHook.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/GizmoHook.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,9 +64,11 @@ public:
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute,
                     ::System::Action_1<bool>* setState, ::System::Func_1<bool>* getState);
 
+  /// [CompilerGenerated]
   /// @brief Method get_GetState, addr 0x5a646c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<bool>* get_GetState();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SetState, addr 0x5a646bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<bool>* get_SetState();
 
@@ -76,20 +78,22 @@ protected:
   constexpr GizmoHook();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoHook", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoHook", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GizmoHook(GizmoHook&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoHook", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoHook", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoHook(GizmoHook const&) = delete;
+  GizmoHook(GizmoHookconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18437 };
 
+  /// [CompilerGenerated]
   /// @brief Field <SetState>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<bool>* ____SetState_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <GetState>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Func_1<bool>* ____GetState_k__BackingField;
 

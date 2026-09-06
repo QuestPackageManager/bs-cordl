@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncMethodBuilderCore.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncMethodBuilderCore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,13 +125,13 @@ protected:
   constexpr AsyncMethodBuilderCore_MoveNextRunner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_MoveNextRunner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_MoveNextRunner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncMethodBuilderCore_MoveNextRunner(AsyncMethodBuilderCore_MoveNextRunner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_MoveNextRunner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_MoveNextRunner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncMethodBuilderCore_MoveNextRunner(AsyncMethodBuilderCore_MoveNextRunner const&) = delete;
+  AsyncMethodBuilderCore_MoveNextRunner(AsyncMethodBuilderCore_MoveNextRunnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3419 };
@@ -201,13 +201,13 @@ protected:
   constexpr AsyncMethodBuilderCore_ContinuationWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_ContinuationWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_ContinuationWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncMethodBuilderCore_ContinuationWrapper(AsyncMethodBuilderCore_ContinuationWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_ContinuationWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_ContinuationWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncMethodBuilderCore_ContinuationWrapper(AsyncMethodBuilderCore_ContinuationWrapper const&) = delete;
+  AsyncMethodBuilderCore_ContinuationWrapper(AsyncMethodBuilderCore_ContinuationWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3420 };
@@ -233,6 +233,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::AsyncMethodBuilderCo
 static_assert(sizeof(::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper) == 0x28, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -272,13 +273,13 @@ protected:
   constexpr AsyncMethodBuilderCore___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncMethodBuilderCore___c__DisplayClass5_0(AsyncMethodBuilderCore___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncMethodBuilderCore___c__DisplayClass5_0(AsyncMethodBuilderCore___c__DisplayClass5_0 const&) = delete;
+  AsyncMethodBuilderCore___c__DisplayClass5_0(AsyncMethodBuilderCore___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3421 };
@@ -299,6 +300,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::AsyncMethodBuilderCo
 static_assert(sizeof(::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0) == 0x20, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -344,13 +346,13 @@ protected:
   constexpr AsyncMethodBuilderCore___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncMethodBuilderCore___c(AsyncMethodBuilderCore___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncMethodBuilderCore___c(AsyncMethodBuilderCore___c const&) = delete;
+  AsyncMethodBuilderCore___c(AsyncMethodBuilderCore___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3422 };
@@ -403,8 +405,8 @@ public:
   // @brief default ctor
   constexpr AsyncMethodBuilderCore();
 
-  // Ctor Parameters [CppParam { name: "m_stateMachine", ty: "::System::Runtime::CompilerServices::IAsyncStateMachine*", modifiers: "", def_value: None }, CppParam { name: "m_defaultContextAction",
-  // ty: "::System::Action*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_stateMachine", ty: "::System::Runtime::CompilerServices::IAsyncStateMachine*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_defaultContextAction", ty: "::System::Action*", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncMethodBuilderCore(::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine, ::System::Action* m_defaultContextAction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

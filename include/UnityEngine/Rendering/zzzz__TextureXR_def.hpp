@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\TextureXR.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/TextureXR.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -253,13 +253,13 @@ protected:
   constexpr TextureXR();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureXR", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureXR", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureXR(TextureXR&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureXR", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureXR", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureXR(TextureXR const&) = delete;
+  TextureXR(TextureXRconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12253 };

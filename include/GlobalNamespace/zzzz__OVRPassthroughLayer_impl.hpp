@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPassthroughLayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPassthroughLayer.hpp"
 #include "GlobalNamespace/zzzz__OVROverlay_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPassthroughLayer_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
@@ -26,7 +26,7 @@
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPassthroughLayer_ProjectionSurfaceType::OVRPassthroughLayer_ProjectionSurfaceType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -34,7 +34,7 @@ constexpr ::GlobalNamespace::OVRPassthroughLayer_ProjectionSurfaceType::OVRPasst
 constexpr ::GlobalNamespace::OVRPassthroughLayer_ProjectionSurfaceType::OVRPassthroughLayer_ProjectionSurfaceType() {}
 constexpr ::GlobalNamespace::OVRPassthroughLayer_ProjectionSurfaceType GlobalNamespace::OVRPassthroughLayer_ProjectionSurfaceType::Reconstructed{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPassthroughLayer_ProjectionSurfaceType GlobalNamespace::OVRPassthroughLayer_ProjectionSurfaceType::UserDefined{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPassthroughLayer_ColorMapEditorType::OVRPassthroughLayer_ColorMapEditorType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -78,11 +78,12 @@ inline void GlobalNamespace::OVRPassthroughLayer_Settings::_ctor(::UnityEngine::
                                            ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Gradient*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, colorLutTargetTexture, colorLutSourceTexture, saturation, posterize, brightness, contrast, gradient, lutWeight, flipLutY);
 }
-// Ctor Parameters [CppParam { name: "colorLutTargetTexture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorLutSourceTexture", ty:
-// "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "saturation", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "posterize", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "contrast", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "gradient", ty: "::UnityEngine::Gradient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "lutWeight", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "flipLutY", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "colorLutTargetTexture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "colorLutSourceTexture",
+// ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "saturation", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "posterize", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "contrast", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gradient", ty: "::UnityEngine::Gradient*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "lutWeight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flipLutY", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPassthroughLayer_Settings::OVRPassthroughLayer_Settings(::UnityW<::UnityEngine::Texture2D> colorLutTargetTexture,
                                                                                         ::UnityW<::UnityEngine::Texture2D> colorLutSourceTexture, float_t saturation, float_t posterize,
                                                                                         float_t brightness, float_t contrast, ::UnityEngine::Gradient* gradient, float_t lutWeight,
@@ -99,8 +100,9 @@ constexpr ::GlobalNamespace::OVRPassthroughLayer_Settings::OVRPassthroughLayer_S
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPassthroughLayer_Settings::OVRPassthroughLayer_Settings() {}
-// Ctor Parameters [CppParam { name: "meshHandle", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceHandle", ty: "uint64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "updateTransform", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "localToWorld", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "meshHandle", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceHandle", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "updateTransform", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localToWorld", ty: "::UnityEngine::Matrix4x4",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPassthroughLayer_PassthroughMeshInstance::OVRPassthroughLayer_PassthroughMeshInstance(uint64_t meshHandle, uint64_t instanceHandle, bool updateTransform,
                                                                                                                       ::UnityEngine::Matrix4x4 localToWorld) noexcept {
   this->meshHandle = meshHandle;
@@ -110,8 +112,8 @@ constexpr ::GlobalNamespace::OVRPassthroughLayer_PassthroughMeshInstance::OVRPas
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPassthroughLayer_PassthroughMeshInstance::OVRPassthroughLayer_PassthroughMeshInstance() {}
-// Ctor Parameters [CppParam { name: "meshFilter", ty: "::UnityW<::UnityEngine::MeshFilter>", modifiers: "", def_value: Some("{}") }, CppParam { name: "updateTransform", ty: "bool", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "meshFilter", ty: "::UnityW<::UnityEngine::MeshFilter>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "updateTransform", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPassthroughLayer_SerializedSurfaceGeometry::OVRPassthroughLayer_SerializedSurfaceGeometry(::UnityW<::UnityEngine::MeshFilter> meshFilter,
                                                                                                                           bool updateTransform) noexcept {
   this->meshFilter = meshFilter;
@@ -119,8 +121,8 @@ constexpr ::GlobalNamespace::OVRPassthroughLayer_SerializedSurfaceGeometry::OVRP
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPassthroughLayer_SerializedSurfaceGeometry::OVRPassthroughLayer_SerializedSurfaceGeometry() {}
-// Ctor Parameters [CppParam { name: "gameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: Some("{}") }, CppParam { name: "updateTransform", ty: "bool", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "gameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "updateTransform", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPassthroughLayer_DeferredPassthroughMeshAddition::OVRPassthroughLayer_DeferredPassthroughMeshAddition(::UnityW<::UnityEngine::GameObject> gameObject,
                                                                                                                                       bool updateTransform) noexcept {
   this->gameObject = gameObject;

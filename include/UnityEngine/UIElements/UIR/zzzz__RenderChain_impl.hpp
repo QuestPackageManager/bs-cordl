@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\RenderChain.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderChain.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ChainBuilderStats_impl.hpp"
@@ -132,10 +132,10 @@ inline void UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking>(), { "Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "heads", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "tails", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "minDepths", ty: "::ArrayW<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "maxDepths", ty: "::ArrayW<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "dirtyID", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "heads", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "tails", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minDepths", ty:
+// "::ArrayW<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxDepths", ty: "::ArrayW<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "dirtyID", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking::RenderChain_DepthOrderedDirtyTracking(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* heads, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* tails,
     ::ArrayW<int32_t> minDepths, ::ArrayW<int32_t> maxDepths, uint32_t dirtyID) noexcept {
@@ -147,7 +147,7 @@ constexpr ::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::RenderChain_DepthOrderedDirtyTracking::RenderChain_DepthOrderedDirtyTracking() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_VisualsProcessingType::VisualChangesProcessor_RenderChain_VisualsProcessingType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -159,9 +159,9 @@ constexpr ::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_Vis
 constexpr ::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_VisualsProcessingType UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_VisualsProcessingType::Tail{
   static_cast<int32_t>(0x1)
 };
-// Ctor Parameters [CppParam { name: "visualElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty:
-// "::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_VisualsProcessingType", modifiers: "", def_value: Some("{}") }, CppParam { name: "rootEntry", ty:
-// "::UnityEngine::UIElements::UIR::Entry*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "visualElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty:
+// "::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_VisualsProcessingType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rootEntry", ty:
+// "::UnityEngine::UIElements::UIR::Entry*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_EntryProcessingInfo::VisualChangesProcessor_RenderChain_EntryProcessingInfo(
     ::UnityEngine::UIElements::VisualElement* visualElement, ::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_VisualsProcessingType type,
     ::UnityEngine::UIElements::UIR::Entry* rootEntry) noexcept {

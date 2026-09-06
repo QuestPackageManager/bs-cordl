@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonArrayContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonArrayContract.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonArrayContract_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
@@ -423,7 +423,7 @@ inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonArrayContract*>(), { "get_OverrideCreator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::JsonArrayContract::set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value) {
+inline void Newtonsoft::Json::Serialization::JsonArrayContract::set_OverrideCreator(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonArrayContract*>(),
                                                            { "set_OverrideCreator", {}, { ::i2c::type_of<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>() } })));
@@ -465,6 +465,7 @@ inline void Newtonsoft::Json::Serialization::JsonArrayContract::StoreFSharpListC
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonArrayContract*>(), { "StoreFSharpListCreatorIfNecessary", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, underlyingType);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Serialization::JsonArrayContract* Newtonsoft::Json::Serialization::JsonArrayContract::New_ctor(::System::Type* underlyingType) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Serialization::JsonArrayContract*>(underlyingType));
 }

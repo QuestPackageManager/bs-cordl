@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XProcessingInstructionWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XProcessingInstructionWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class XProcessingInstructionWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*, "Newtonsoft.Json.Converters", "XProcessingInstructionWrapper");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.XObjectWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -25,18 +27,22 @@ public:
   // Declarations
   __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_ProcessingInstruction)) ::System::Xml::Linq::XProcessingInstruction* ProcessingInstruction;
 
   __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5da0ea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
   /// @brief Method get_LocalName, addr 0x5da1984, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
+  /// [NullableContext(1)]
   /// @brief Method get_ProcessingInstruction, addr 0x5da1908, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
 
@@ -52,13 +58,13 @@ protected:
   constexpr XProcessingInstructionWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstructionWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstructionWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XProcessingInstructionWrapper(XProcessingInstructionWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstructionWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstructionWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XProcessingInstructionWrapper(XProcessingInstructionWrapper const&) = delete;
+  XProcessingInstructionWrapper(XProcessingInstructionWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13684 };

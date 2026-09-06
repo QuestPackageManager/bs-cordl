@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon\DistributionParamType.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon/DistributionParamType.hpp"
 #include "BeatmapSaveDataCommon/zzzz__DistributionParamType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatmapSaveDataCommon::DistributionParamType::DistributionParamType(int32_t value__) noexcept {
   this->value__ = value__;
 }

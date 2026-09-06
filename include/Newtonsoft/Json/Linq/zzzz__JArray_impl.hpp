@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JArray.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JArray.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
@@ -59,7 +59,7 @@ inline void Newtonsoft::Json::Linq::JArray__LoadAsync_d__2::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray__LoadAsync_d__2>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::JArray__LoadAsync_d__2::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void Newtonsoft::Json::Linq::JArray__LoadAsync_d__2::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray__LoadAsync_d__2>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
@@ -72,12 +72,13 @@ constexpr Newtonsoft::Json::Linq::JArray__LoadAsync_d__2::operator ::System::Run
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::Linq::JArray__LoadAsync_d__2::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JArray*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "reader", ty:
-// "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "settings", ty: "::Newtonsoft::Json::Linq::JsonLoadSettings*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_a_5__2", ty: "::Newtonsoft::Json::Linq::JArray*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JArray*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reader", ty:
+// "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "settings", ty: "::Newtonsoft::Json::Linq::JsonLoadSettings*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_a_5__2", ty: "::Newtonsoft::Json::Linq::JArray*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Linq::JArray__LoadAsync_d__2::JArray__LoadAsync_d__2(int32_t __1__state,
                                                                                    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JArray*> __t__builder,
                                                                                    ::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken,
@@ -125,7 +126,7 @@ inline void Newtonsoft::Json::Linq::JArray__WriteToAsync_d__0::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray__WriteToAsync_d__0>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::JArray__WriteToAsync_d__0::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void Newtonsoft::Json::Linq::JArray__WriteToAsync_d__0::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray__WriteToAsync_d__0>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
@@ -138,12 +139,12 @@ constexpr Newtonsoft::Json::Linq::JArray__WriteToAsync_d__0::operator ::System::
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::Linq::JArray__WriteToAsync_d__0::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "writer", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::Linq::JArray*", modifiers: "", def_value: Some("{}") }, CppParam { name: "converters", ty: "::ArrayW<::Newtonsoft::Json::JsonConverter*>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "_i_5__2", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "writer", ty: "::Newtonsoft::Json::JsonWriter*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "__4__this", ty: "::Newtonsoft::Json::Linq::JArray*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "converters", ty: "::ArrayW<::Newtonsoft::Json::JsonConverter*>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_i_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Linq::JArray__WriteToAsync_d__0::JArray__WriteToAsync_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                          ::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
                                                                                          ::Newtonsoft::Json::Linq::JArray* __4__this, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters,
@@ -658,7 +659,7 @@ constexpr void Newtonsoft::Json::Linq::JArray::__cordl_internal_set__values(::Sy
   this->____values = value;
 }
 inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Linq::JArray::WriteToAsync(::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
-                                                                                      ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+                                                                                      /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, writer, cancellationToken, converters);
 }
@@ -669,8 +670,9 @@ inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JArray*>* Ne
                                                            { "LoadAsync", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JArray*>*>(nullptr, ___internal_method, reader, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JArray*>*
-Newtonsoft::Json::Linq::JArray::LoadAsync(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings, ::System::Threading::CancellationToken cancellationToken) {
+inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JArray*>* Newtonsoft::Json::Linq::JArray::LoadAsync(::Newtonsoft::Json::JsonReader* reader,
+                                                                                                                        /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings,
+                                                                                                                        ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), { "LoadAsync",
@@ -696,13 +698,13 @@ inline void Newtonsoft::Json::Linq::JArray::_ctor(::Newtonsoft::Json::Linq::JArr
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), { ".ctor", {}, { ::i2c::type_of<::Newtonsoft::Json::Linq::JArray*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, other);
 }
-inline void Newtonsoft::Json::Linq::JArray::_ctor(::Newtonsoft::Json::Linq::JArray* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
+inline void Newtonsoft::Json::Linq::JArray::_ctor(::Newtonsoft::Json::Linq::JArray* other, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::Newtonsoft::Json::Linq::JArray*>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonCloneSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, other, settings);
 }
-inline void Newtonsoft::Json::Linq::JArray::_ctor(::ArrayW<::System::Object*> content) {
+inline void Newtonsoft::Json::Linq::JArray::_ctor(/* [ParamArray] */ ::ArrayW<::System::Object*> content) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, content);
@@ -716,7 +718,7 @@ inline bool Newtonsoft::Json::Linq::JArray::DeepEquals(::Newtonsoft::Json::Linq:
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JArray::CloneToken(::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JArray::CloneToken(/* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(this, ___internal_method, settings);
 }
@@ -725,7 +727,7 @@ inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::Load(::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), { "Load", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JArray*>(nullptr, ___internal_method, reader);
 }
-inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::Load(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::Load(::Newtonsoft::Json::JsonReader* reader, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(),
                                                            { "Load", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>() } })));
@@ -735,7 +737,7 @@ inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::Parse(:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JArray*>(nullptr, ___internal_method, json);
 }
-inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::Parse(::StringW json, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::Parse(::StringW json, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), { "Parse", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>() } })));
@@ -752,7 +754,7 @@ inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::FromObj
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), { "FromObject", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::Newtonsoft::Json::JsonSerializer*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JArray*>(nullptr, ___internal_method, o, jsonSerializer);
 }
-inline void Newtonsoft::Json::Linq::JArray::WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+inline void Newtonsoft::Json::Linq::JArray::WriteTo(::Newtonsoft::Json::JsonWriter* writer, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), 24 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, converters);
 }
@@ -760,7 +762,7 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JArray::get_Ite
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(this, ___internal_method, key);
 }
-inline void Newtonsoft::Json::Linq::JArray::set_Item(::System::Object* key, ::Newtonsoft::Json::Linq::JToken* value) {
+inline void Newtonsoft::Json::Linq::JArray::set_Item(::System::Object* key, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JToken* value) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key, value);
 }
@@ -778,7 +780,7 @@ inline int32_t Newtonsoft::Json::Linq::JArray::IndexOfItem(::Newtonsoft::Json::L
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), 80 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, item);
 }
-inline void Newtonsoft::Json::Linq::JArray::MergeItem(::System::Object* content, ::Newtonsoft::Json::Linq::JsonMergeSettings* settings) {
+inline void Newtonsoft::Json::Linq::JArray::MergeItem(::System::Object* content, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonMergeSettings* settings) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JArray*>(), 92 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, content, settings);
 }
@@ -840,10 +842,10 @@ inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::New_cto
 inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::New_ctor(::Newtonsoft::Json::Linq::JArray* other) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JArray*>(other));
 }
-inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::New_ctor(::Newtonsoft::Json::Linq::JArray* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
+inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::New_ctor(::Newtonsoft::Json::Linq::JArray* other, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JArray*>(other, settings));
 }
-inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::New_ctor(::ArrayW<::System::Object*> content) {
+inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::New_ctor(/* [ParamArray] */ ::ArrayW<::System::Object*> content) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JArray*>(content));
 }
 inline ::Newtonsoft::Json::Linq::JArray* Newtonsoft::Json::Linq::JArray::New_ctor(::System::Object* content) {

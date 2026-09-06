@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ToggleBinder.hpp"
+// IWYU pragma private; include "HMUI/ToggleBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ MARK_REF_T(::HMUI::ToggleBinder*);
 MARK_REF_T(::HMUI::ToggleBinder___c__DisplayClass7_0*);
 DEFINE_IL2CPP_CLASS(::HMUI::ToggleBinder*, "HMUI", "ToggleBinder");
 DEFINE_IL2CPP_CLASS(::HMUI::ToggleBinder___c__DisplayClass7_0*, "HMUI", "ToggleBinder/<>c__DisplayClass7_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr ToggleBinder___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleBinder___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleBinder___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleBinder___c__DisplayClass7_0(ToggleBinder___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleBinder___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleBinder___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleBinder___c__DisplayClass7_0(ToggleBinder___c__DisplayClass7_0 const&) = delete;
+  ToggleBinder___c__DisplayClass7_0(ToggleBinder___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19032 };
@@ -170,13 +171,13 @@ protected:
   constexpr ToggleBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleBinder(ToggleBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleBinder(ToggleBinder const&) = delete;
+  ToggleBinder(ToggleBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19033 };

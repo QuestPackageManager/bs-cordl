@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\DerSequenceReader.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/DerSequenceReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DerSequenceReader_def.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
@@ -7,7 +7,7 @@
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Security::Cryptography::DerSequenceReader_DerTag::DerSequenceReader_DerTag(uint8_t value__) noexcept {
   this->value__ = value__;
 }

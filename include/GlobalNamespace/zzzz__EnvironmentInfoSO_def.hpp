@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentInfoSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentInfoSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_VAL_T(::GlobalNamespace::EnvironmentInfoSO_Tags);
 MARK_REF_T(::GlobalNamespace::EnvironmentInfoSO*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentInfoSO_Tags, "", "EnvironmentInfoSO/Tags");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentInfoSO*, "", "EnvironmentInfoSO");
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -83,7 +84,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentInfoSO_Tags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentInfoSO_Tags(int32_t value__) noexcept;
 
   /// @brief Field Branded value: I32(1)
@@ -309,13 +310,13 @@ protected:
   constexpr EnvironmentInfoSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentInfoSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentInfoSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentInfoSO(EnvironmentInfoSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentInfoSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentInfoSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentInfoSO(EnvironmentInfoSO const&) = delete;
+  EnvironmentInfoSO(EnvironmentInfoSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14837 };
@@ -326,39 +327,55 @@ public:
   /// @brief Field kLightGroupSubDir offset 0xffffffff size 0x8
   static constexpr ::ConstString kLightGroupSubDir{ u"LightGroups" };
 
+  /// [SerializeField]
   /// @brief Field _environmentName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____environmentName;
 
+  /// [SerializeField]
   /// @brief Field _colorScheme, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeSO> ____colorScheme;
 
+  /// [Tooltip("Must match the scene name of the environment")]
+  /// [SceneId((BeatmapSceneIdFilter)4)]
+  /// [SerializeField]
   /// @brief Field _serializedName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____serializedName;
 
+  /// [SerializeField]
   /// @brief Field _tags, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentInfoSO_Tags ____tags;
 
+  /// [SerializeField]
   /// @brief Field _environmentType, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentType ____environmentType;
 
+  /// [SerializeField]
   /// @brief Field _environmentSizeData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentSizeData* ____environmentSizeData;
 
+  /// [SerializeField]
   /// @brief Field _environmentIntensityReductionOptions, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentIntensityReductionOptions* ____environmentIntensityReductionOptions;
 
+  /// [SerializeField]
   /// @brief Field _environmentKeywords, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____environmentKeywords;
 
+  /// [SerializeField]
   /// @brief Field _lightGroups, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentLightGroups* ____lightGroups;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _defaultLightshowAsset, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ____defaultLightshowAsset;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _order, offset: 0x60, size: 0x4, def value: None
   int32_t ____order;
 
+  /// [SerializeField]
   /// @brief Field _nextGroupId, offset: 0x64, size: 0x4, def value: None
   int32_t ____nextGroupId;
 

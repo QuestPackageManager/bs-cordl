@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VisibleReflectionProbe.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VisibleReflectionProbe.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -209,11 +209,12 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::VisibleReflectionProb
 UnityEngine::Rendering::VisibleReflectionProbe::i___System__IEquatable_1___UnityEngine__Rendering__VisibleReflectionProbe_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::VisibleReflectionProbe>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Bounds", ty: "::UnityEngine::Bounds", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LocalToWorldMatrix", ty: "::UnityEngine::Matrix4x4",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_HdrData", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Center", ty:
-// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlendDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Importance", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BoxProjection", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InstanceId", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TextureId", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Bounds", ty: "::UnityEngine::Bounds", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LocalToWorldMatrix", ty:
+// "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_HdrData", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_Center", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BlendDistance", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Importance", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BoxProjection", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_InstanceId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TextureId", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::VisibleReflectionProbe::VisibleReflectionProbe(::UnityEngine::Bounds m_Bounds, ::UnityEngine::Matrix4x4 m_LocalToWorldMatrix, ::UnityEngine::Vector4 m_HdrData,
                                                                                    ::UnityEngine::Vector3 m_Center, float_t m_BlendDistance, int32_t m_Importance, int32_t m_BoxProjection,
                                                                                    int32_t m_InstanceId, int32_t m_TextureId) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_TextUtilities.hpp"
+// IWYU pragma private; include "TMPro/TMP_TextUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "TMPro/zzzz__TMP_TextUtilities_def.hpp"
@@ -30,8 +30,8 @@ inline void TMPro::TMP_TextUtilities_LineSegment::_ctor(::UnityEngine::Vector3 p
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, p1, p2);
 }
-// Ctor Parameters [CppParam { name: "Point1", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "Point2", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "Point1", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Point2", ty: "::UnityEngine::Vector3", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_TextUtilities_LineSegment::TMP_TextUtilities_LineSegment(::UnityEngine::Vector3 Point1, ::UnityEngine::Vector3 Point2) noexcept {
   this->Point1 = Point1;
   this->Point2 = Point2;

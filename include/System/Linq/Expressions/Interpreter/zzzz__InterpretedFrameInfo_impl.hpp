@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InterpretedFrameInfo.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InterpretedFrameInfo.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrameInfo_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DebugInfo_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo._ctor
@@ -42,8 +42,8 @@ inline ::StringW System::Linq::Expressions::Interpreter::InterpretedFrameInfo::T
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_methodName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_debugInfo", ty: "::System::Linq::Expressions::Interpreter::DebugInfo*",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_methodName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_debugInfo", ty:
+// "::System::Linq::Expressions::Interpreter::DebugInfo*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::InterpretedFrameInfo(::StringW _methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* _debugInfo) noexcept {
   this->_methodName = _methodName;
   this->_debugInfo = _debugInfo;

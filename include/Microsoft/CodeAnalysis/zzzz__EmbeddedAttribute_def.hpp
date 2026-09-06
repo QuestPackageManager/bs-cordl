@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft\CodeAnalysis\EmbeddedAttribute.hpp"
+// IWYU pragma private; include "Microsoft/CodeAnalysis/EmbeddedAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class EmbeddedAttribute;
 // Write type traits
 MARK_REF_T(::Microsoft::CodeAnalysis::EmbeddedAttribute*);
 DEFINE_IL2CPP_CLASS(::Microsoft::CodeAnalysis::EmbeddedAttribute*, "Microsoft.CodeAnalysis", "EmbeddedAttribute");
+// [CompilerGenerated]
+// [Embedded]
 // Dependencies System.Attribute
 namespace Microsoft::CodeAnalysis {
 // Is value type: false
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::Microsoft::CodeAnalysis::EmbeddedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6839c60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b35994, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -30,16 +32,16 @@ protected:
   constexpr EmbeddedAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EmbeddedAttribute(EmbeddedAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EmbeddedAttribute(EmbeddedAttribute const&) = delete;
+  EmbeddedAttribute(EmbeddedAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

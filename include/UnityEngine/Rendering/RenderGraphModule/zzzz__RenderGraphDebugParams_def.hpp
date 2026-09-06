@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphDebugParams.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphDebugParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,13 +105,13 @@ protected:
   constexpr RenderGraphDebugParams_Strings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams_Strings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams_Strings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphDebugParams_Strings(RenderGraphDebugParams_Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams_Strings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphDebugParams_Strings(RenderGraphDebugParams_Strings const&) = delete;
+  RenderGraphDebugParams_Strings(RenderGraphDebugParams_Stringsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12380 };
@@ -180,42 +180,55 @@ public:
   /// @brief Method UnRegisterDebug, addr 0x67d0a70, size 0x68, virtual false, abstract: false, final false
   inline void UnRegisterDebug(::StringW name);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_0, addr 0x67d0b14, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_1, addr 0x67d0b1c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_1(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_10, addr 0x67d0b74, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_10(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_11, addr 0x67d0b7c, size 0x88, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_11();
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_12, addr 0x67d0c04, size 0x88, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_12();
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_2, addr 0x67d0b24, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_3, addr 0x67d0b2c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_3(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_4, addr 0x67d0b34, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_4();
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_5, addr 0x67d0b3c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_5(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_6, addr 0x67d0b44, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_6();
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_7, addr 0x67d0b4c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_7(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_8, addr 0x67d0b54, size 0x18, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_8();
 
+  /// [CompilerGenerated]
   /// @brief Method <GetWidgetList>b__11_9, addr 0x67d0b6c, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_9();
 
@@ -288,13 +301,13 @@ protected:
   constexpr RenderGraphDebugParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphDebugParams(RenderGraphDebugParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphDebugParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphDebugParams(RenderGraphDebugParams const&) = delete;
+  RenderGraphDebugParams(RenderGraphDebugParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12381 };

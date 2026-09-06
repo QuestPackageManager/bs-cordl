@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DisableForVisualTestComparator.hpp"
+// IWYU pragma private; include "GlobalNamespace/DisableForVisualTestComparator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ public:
   __declspec(property(get = __cordl_internal_get__disableSpecificComponents,
                       put = __cordl_internal_set__disableSpecificComponents)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* _disableSpecificComponents;
 
+  /// [Inject]
   /// @brief Method Init, addr 0x5980d2c, size 0x9c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DeterminismConfig* determinismConfig);
 
@@ -76,13 +77,13 @@ protected:
   constexpr DisableForVisualTestComparator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisableForVisualTestComparator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisableForVisualTestComparator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisableForVisualTestComparator(DisableForVisualTestComparator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisableForVisualTestComparator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisableForVisualTestComparator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisableForVisualTestComparator(DisableForVisualTestComparator const&) = delete;
+  DisableForVisualTestComparator(DisableForVisualTestComparatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5761 };
@@ -90,9 +91,11 @@ public:
   /// @brief Field _determinismConfig, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
 
+  /// [SerializeField]
   /// @brief Field _disableEntireGameObject, offset: 0x28, size: 0x1, def value: None
   bool ____disableEntireGameObject;
 
+  /// [SerializeField]
   /// @brief Field _disableSpecificComponents, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* ____disableSpecificComponents;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Interface\MonoTlsConnectionInfo.hpp"
+// IWYU pragma private; include "Mono/Security/Interface/MonoTlsConnectionInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ namespace Mono::Security::Interface {
 class CORDL_TYPE MonoTlsConnectionInfo : public ::System::Object {
 public:
   // Declarations
+  /// @brief [CLSCompliant(false)]
   __declspec(property(get = get_CipherSuiteCode, put = set_CipherSuiteCode)) ::Mono::Security::Interface::CipherSuiteCode CipherSuiteCode;
 
   __declspec(property(put = set_PeerDomainName)) ::StringW PeerDomainName;
@@ -71,18 +72,23 @@ public:
   /// @brief Method .ctor, addr 0x5a9e040, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CipherSuiteCode, addr 0x5a9df38, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ProtocolVersion, addr 0x5a9df48, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method set_CipherSuiteCode, addr 0x5a9df40, size 0x8, virtual false, abstract: false, final false
   inline void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_PeerDomainName, addr 0x5a9df58, size 0x8, virtual false, abstract: false, final false
   inline void set_PeerDomainName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ProtocolVersion, addr 0x5a9df50, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
 
@@ -92,23 +98,26 @@ protected:
   constexpr MonoTlsConnectionInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsConnectionInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsConnectionInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoTlsConnectionInfo(MonoTlsConnectionInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsConnectionInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsConnectionInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoTlsConnectionInfo(MonoTlsConnectionInfo const&) = delete;
+  MonoTlsConnectionInfo(MonoTlsConnectionInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19315 };
 
+  /// [CompilerGenerated]
   /// @brief Field <CipherSuiteCode>k__BackingField, offset: 0x10, size: 0x2, def value: None
   ::Mono::Security::Interface::CipherSuiteCode ____CipherSuiteCode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ProtocolVersion>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::Mono::Security::Interface::TlsProtocols ____ProtocolVersion_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <PeerDomainName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____PeerDomainName_k__BackingField;
 

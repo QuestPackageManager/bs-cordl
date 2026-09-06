@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\AppStatus.hpp"
+// IWYU pragma private; include "Oculus/Platform/AppStatus.hpp"
 #include "Oculus/Platform/zzzz__AppStatus_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::AppStatus::AppStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }

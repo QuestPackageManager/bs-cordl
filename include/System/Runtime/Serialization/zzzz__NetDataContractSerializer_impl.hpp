@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\NetDataContractSerializer.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/NetDataContractSerializer.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlObjectSerializer_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"

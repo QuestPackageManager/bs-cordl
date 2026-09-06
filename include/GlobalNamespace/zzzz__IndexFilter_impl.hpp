@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IndexFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/IndexFilter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_3_impl.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
@@ -13,7 +13,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/zzzz__ValueTuple_3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::IndexFilter_IndexFilterRandomType::IndexFilter_IndexFilterRandomType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -22,7 +22,7 @@ constexpr ::GlobalNamespace::IndexFilter_IndexFilterRandomType::IndexFilter_Inde
 constexpr ::GlobalNamespace::IndexFilter_IndexFilterRandomType GlobalNamespace::IndexFilter_IndexFilterRandomType::NoRandom{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::IndexFilter_IndexFilterRandomType GlobalNamespace::IndexFilter_IndexFilterRandomType::KeepOrder{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::IndexFilter_IndexFilterRandomType GlobalNamespace::IndexFilter_IndexFilterRandomType::RandomElements{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType::IndexFilter_IndexFilterLimitAlsoAffectType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -257,6 +257,7 @@ inline ::System::Object* GlobalNamespace::IndexFilter__GetEnumerator_d__23::Syst
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter__GetEnumerator_d__23*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::IndexFilter__GetEnumerator_d__23* GlobalNamespace::IndexFilter__GetEnumerator_d__23::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::IndexFilter__GetEnumerator_d__23*>(__1__state));
 }
@@ -507,6 +508,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::IndexFilter__GetValu
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter__GetValues_d__24*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::IndexFilter__GetValues_d__24* GlobalNamespace::IndexFilter__GetValues_d__24::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::IndexFilter__GetValues_d__24*>(__1__state));
 }

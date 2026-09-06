@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlSerializerFactory.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializerFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,13 +64,13 @@ protected:
   constexpr XmlSerializerFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializerFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializerFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSerializerFactory(XmlSerializerFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializerFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializerFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializerFactory(XmlSerializerFactory const&) = delete;
+  XmlSerializerFactory(XmlSerializerFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9542 };

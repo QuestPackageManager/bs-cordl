@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\DebugPanel.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/DebugPanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,12 +72,14 @@ public:
   /// @brief Method .ctor, addr 0x5a4c924, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Icon, addr 0x5a4f47c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_Icon();
 
   /// @brief Method get_Title, addr 0x5a4f48c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Title();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Icon, addr 0x5a4f484, size 0x8, virtual false, abstract: false, final false
   inline void set_Icon(::UnityEngine::Texture2D* value);
 
@@ -90,13 +92,13 @@ protected:
   constexpr DebugPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugPanel(DebugPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugPanel(DebugPanel const&) = delete;
+  DebugPanel(DebugPanelconst&) = delete;
 
   /// @brief Field DynamicPixelsPerUnit offset 0xffffffff size 0x4
   static constexpr float_t DynamicPixelsPerUnit{ static_cast<float_t>(10.0f) };
@@ -110,6 +112,7 @@ public:
   /// @brief Field _closeIcon, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithIcon> ____closeIcon;
 
+  /// [CompilerGenerated]
   /// @brief Field <Icon>k__BackingField, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____Icon_k__BackingField;
 

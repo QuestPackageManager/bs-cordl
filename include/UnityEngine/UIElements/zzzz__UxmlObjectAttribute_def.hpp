@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlObjectAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlObjectAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class UxmlObjectAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UxmlObjectAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlObjectAttribute*, "UnityEngine.UIElements", "UxmlObjectAttribute");
+// [AttributeUsage((System.AttributeTargets)4, Inherited = false)]
 // Dependencies System.Attribute
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr UxmlObjectAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlObjectAttribute(UxmlObjectAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlObjectAttribute(UxmlObjectAttribute const&) = delete;
+  UxmlObjectAttribute(UxmlObjectAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5175 };

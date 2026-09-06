@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchFilterSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchFilterSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,12 +60,12 @@ public:
   // @brief default ctor
   constexpr BatchFilterSettings();
 
-  // Ctor Parameters [CppParam { name: "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "rendererPriority", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "layer", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_batchLayer", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_motionMode", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_shadowMode", ty: "uint8_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_receiveShadows", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_staticShadowCaster", ty: "uint8_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_allDepthSorted", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_isSceneCullingMaskSet", ty: "uint8_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererPriority", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "layer", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_batchLayer", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_motionMode", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_shadowMode", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_receiveShadows", ty: "uint8_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_staticShadowCaster", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_allDepthSorted", ty: "uint8_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_isSceneCullingMaskSet", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr BatchFilterSettings(uint32_t renderingLayerMask, int32_t rendererPriority, uint64_t m_sceneCullingMask, uint8_t layer, uint8_t m_batchLayer, uint8_t m_motionMode, uint8_t m_shadowMode,
                                 uint8_t m_receiveShadows, uint8_t m_staticShadowCaster, uint8_t m_allDepthSorted, uint8_t m_isSceneCullingMaskSet) noexcept;
 

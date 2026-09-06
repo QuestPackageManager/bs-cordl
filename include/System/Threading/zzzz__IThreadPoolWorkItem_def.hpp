@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\IThreadPoolWorkItem.hpp"
+// IWYU pragma private; include "System/Threading/IThreadPoolWorkItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +21,15 @@ namespace System::Threading {
 class CORDL_TYPE IThreadPoolWorkItem {
 public:
   // Declarations
-  /// @brief Method ExecuteWorkItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExecuteWorkItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExecuteWorkItem();
 
-  /// @brief Method MarkAborted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarkAborted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarkAborted(::System::Threading::ThreadAbortException* tae);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IThreadPoolWorkItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IThreadPoolWorkItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IThreadPoolWorkItem(IThreadPoolWorkItem const&) = delete;
+  IThreadPoolWorkItem(IThreadPoolWorkItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2740 };

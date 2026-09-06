@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\MessageBase.hpp"
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/MessageBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   /// @brief Method Decode, addr 0x5a9c574, size 0x188, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t> message);
 
-  /// @brief Method GetBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> GetBytes();
 
   static inline ::Mono::Security::Protocol::Ntlm::MessageBase* New_ctor(int32_t messageType);
@@ -86,13 +86,13 @@ protected:
   constexpr MessageBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MessageBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageBase(MessageBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MessageBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MessageBase(MessageBase const&) = delete;
+  MessageBase(MessageBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19302 };

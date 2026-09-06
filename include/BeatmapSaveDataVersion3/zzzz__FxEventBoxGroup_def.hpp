@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\FxEventBoxGroup.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/FxEventBoxGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,17 +57,18 @@ protected:
   constexpr FxEventBoxGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FxEventBoxGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FxEventBoxGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FxEventBoxGroup(FxEventBoxGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FxEventBoxGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FxEventBoxGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FxEventBoxGroup(FxEventBoxGroup const&) = delete;
+  FxEventBoxGroup(FxEventBoxGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15350 };
 
+  /// [SerializeField]
   /// @brief Field t, offset: 0x20, size: 0x4, def value: None
   ::BeatmapSaveDataVersion3::FxEventType ___t;
 

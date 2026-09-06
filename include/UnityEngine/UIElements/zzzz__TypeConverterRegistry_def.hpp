@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TypeConverterRegistry.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TypeConverterRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,13 +73,13 @@ protected:
   constexpr TypeConverterRegistry_ConverterKeyComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterRegistry_ConverterKeyComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterRegistry_ConverterKeyComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeConverterRegistry_ConverterKeyComparer(TypeConverterRegistry_ConverterKeyComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterRegistry_ConverterKeyComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterRegistry_ConverterKeyComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverterRegistry_ConverterKeyComparer(TypeConverterRegistry_ConverterKeyComparer const&) = delete;
+  TypeConverterRegistry_ConverterKeyComparer(TypeConverterRegistry_ConverterKeyComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4031 };
@@ -90,6 +90,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -104,8 +105,8 @@ public:
   // @brief default ctor
   constexpr TypeConverterRegistry_ConverterKey();
 
-  // Ctor Parameters [CppParam { name: "SourceType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "DestinationType", ty: "::System::Type*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "SourceType", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "DestinationType", ty: "::System::Type*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TypeConverterRegistry_ConverterKey(::System::Type* SourceType, ::System::Type* DestinationType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -130,6 +131,7 @@ static_assert(offsetof(::UnityEngine::UIElements::TypeConverterRegistry_Converte
 static_assert(sizeof(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -184,7 +186,7 @@ public:
   constexpr TypeConverterRegistry();
 
   // Ctor Parameters [CppParam { name: "m_Converters", ty: "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey,::System::Delegate*>*",
-  // modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }]
   constexpr TypeConverterRegistry(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey, ::System::Delegate*>* m_Converters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

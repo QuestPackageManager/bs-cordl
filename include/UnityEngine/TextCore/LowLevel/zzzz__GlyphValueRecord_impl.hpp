@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphValueRecord.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphValueRecord.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -231,8 +231,9 @@ constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRe
 UnityEngine::TextCore::LowLevel::GlyphValueRecord::i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphValueRecord_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphValueRecord::GlyphValueRecord(float_t m_XPlacement, float_t m_YPlacement, float_t m_XAdvance, float_t m_YAdvance) noexcept {
   this->m_XPlacement = m_XPlacement;
   this->m_YPlacement = m_YPlacement;

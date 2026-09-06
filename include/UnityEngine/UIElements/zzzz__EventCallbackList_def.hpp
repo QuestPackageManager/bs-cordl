@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventCallbackList.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventCallbackList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class EventCallbackList;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::EventCallbackList*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::EventCallbackList*, "UnityEngine.UIElements", "EventCallbackList");
+// [DefaultMember("Item")]
 // Dependencies System.Object, UnityEngine.UIElements.EventCallbackFunctorBase
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -55,14 +56,14 @@ public:
   inline void Clear();
 
   /// @brief Method Find, addr 0x6d98dc8, size 0xb0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventCallbackFunctorBase* Find(int64_t eventTypeId, ::System::Delegate* callback);
+  inline ::UnityEngine::UIElements::EventCallbackFunctorBase* Find(int64_t eventTypeId, /* [NotNull] */ ::System::Delegate* callback);
 
   static inline ::UnityEngine::UIElements::EventCallbackList* New_ctor();
 
   static inline ::UnityEngine::UIElements::EventCallbackList* New_ctor(::UnityEngine::UIElements::EventCallbackList* source);
 
   /// @brief Method Remove, addr 0x6d98e78, size 0x104, virtual false, abstract: false, final false
-  inline bool Remove(int64_t eventTypeId, ::System::Delegate* callback, ::by_ref<::UnityEngine::UIElements::EventCallbackFunctorBase*> removedFunctor);
+  inline bool Remove(int64_t eventTypeId, /* [NotNull] */ ::System::Delegate* callback, ::by_ref<::UnityEngine::UIElements::EventCallbackFunctorBase*> removedFunctor);
 
   constexpr ::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*> const& __cordl_internal_get_m_Array() const;
 
@@ -99,13 +100,13 @@ protected:
   constexpr EventCallbackList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventCallbackList(EventCallbackList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventCallbackList(EventCallbackList const&) = delete;
+  EventCallbackList(EventCallbackListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4459 };

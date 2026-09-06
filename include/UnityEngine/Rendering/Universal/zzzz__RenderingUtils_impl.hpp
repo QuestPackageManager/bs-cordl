@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderingUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderingUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AttachmentDescriptor_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderStateBlock_impl.hpp"
@@ -948,7 +948,7 @@ inline void UnityEngine::Rendering::Universal::RenderingUtils::SetViewAndProject
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, viewMatrix, projectionMatrix, setInverseMatrices);
 }
 inline void UnityEngine::Rendering::Universal::RenderingUtils::SetScaleBiasRt(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
-                                                                              ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData,
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData,
                                                                               ::UnityEngine::Rendering::RTHandle* rTHandle) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingUtils*>(),
@@ -959,7 +959,7 @@ inline void UnityEngine::Rendering::Universal::RenderingUtils::SetScaleBiasRt(::
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cameraData, rTHandle);
 }
 inline void UnityEngine::Rendering::Universal::RenderingUtils::SetScaleBiasRt(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
-                                                                              ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -1180,7 +1180,7 @@ inline bool UnityEngine::Rendering::Universal::RenderingUtils::MultisampleDepthR
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
 inline bool UnityEngine::Rendering::Universal::RenderingUtils::RTHandleNeedsReAlloc(::UnityEngine::Rendering::RTHandle* handle,
-                                                                                    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> descriptor, bool scaled) {
+                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> descriptor, bool scaled) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingUtils*>(),
                                                            { "RTHandleNeedsReAlloc",
@@ -1196,9 +1196,9 @@ UnityEngine::Rendering::Universal::RenderingUtils::GetCameraTargetIdentifier(::b
                                                            { "GetCameraTargetIdentifier", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderTargetIdentifier>(nullptr, ___internal_method, renderingData);
 }
-inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
-                                                                                  ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel,
-                                                                                  float_t mipMapBias, ::StringW name) {
+inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
+                                                                                  ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingUtils*>(),
                                                            { "ReAllocateIfNeeded",
@@ -1209,7 +1209,7 @@ inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateIfNeede
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle, descriptor, filterMode, wrapMode, isShadowMap, anisoLevel, mipMapBias, name);
 }
 inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::UnityEngine::Vector2 scaleFactor,
-                                                                                  ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
                                                                                   ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1222,7 +1222,7 @@ inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateIfNeede
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle, scaleFactor, descriptor, filterMode, wrapMode, isShadowMap, anisoLevel, mipMapBias, name);
 }
 inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::UnityEngine::Rendering::ScaleFunc* scaleFunc,
-                                                                                  ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
                                                                                   ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1235,8 +1235,9 @@ inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateIfNeede
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle, scaleFunc, descriptor, filterMode, wrapMode, isShadowMap, anisoLevel, mipMapBias, name);
 }
 inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateHandleIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle,
-                                                                                        ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
-                                                                                        ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel, float_t mipMapBias, ::StringW name) {
+                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+                                                                                        ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel,
+                                                                                        float_t mipMapBias, ::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingUtils*>(),
                                                            { "ReAllocateHandleIfNeeded",
@@ -1247,8 +1248,9 @@ inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateHandleI
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle, descriptor, filterMode, wrapMode, anisoLevel, mipMapBias, name);
 }
 inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateHandleIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::UnityEngine::Vector2 scaleFactor,
-                                                                                        ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
-                                                                                        ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel, float_t mipMapBias, ::StringW name) {
+                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+                                                                                        ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel,
+                                                                                        float_t mipMapBias, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingUtils*>(),
                                               { "ReAllocateHandleIfNeeded",
@@ -1259,8 +1261,9 @@ inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateHandleI
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle, scaleFactor, descriptor, filterMode, wrapMode, anisoLevel, mipMapBias, name);
 }
 inline bool UnityEngine::Rendering::Universal::RenderingUtils::ReAllocateHandleIfNeeded(::by_ref<::UnityEngine::Rendering::RTHandle*> handle, ::UnityEngine::Rendering::ScaleFunc* scaleFunc,
-                                                                                        ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
-                                                                                        ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel, float_t mipMapBias, ::StringW name) {
+                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+                                                                                        ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel,
+                                                                                        float_t mipMapBias, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingUtils*>(),
                                               { "ReAllocateHandleIfNeeded",

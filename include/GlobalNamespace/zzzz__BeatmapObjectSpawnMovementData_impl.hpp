@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectSpawnMovementData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectSpawnMovementData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
@@ -14,7 +14,7 @@
 #include "GlobalNamespace/zzzz__SliderSpawnData_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType::BeatmapObjectSpawnMovementData_NoteJumpValueType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXOutputEventAbstractHandler.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXOutputEventAbstractHandler.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXOutputEventAbstractHandler_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"

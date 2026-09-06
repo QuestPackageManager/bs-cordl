@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FireworkItemController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FireworkItemController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,13 +152,13 @@ protected:
   constexpr FireworkItemController_FireworkItemParticleSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_FireworkItemParticleSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_FireworkItemParticleSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FireworkItemController_FireworkItemParticleSystem(FireworkItemController_FireworkItemParticleSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_FireworkItemParticleSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_FireworkItemParticleSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworkItemController_FireworkItemParticleSystem(FireworkItemController_FireworkItemParticleSystem const&) = delete;
+  FireworkItemController_FireworkItemParticleSystem(FireworkItemController_FireworkItemParticleSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5763 };
@@ -172,9 +172,11 @@ public:
   /// @brief Field _useMainColor, offset: 0x19, size: 0x1, def value: None
   bool ____useMainColor;
 
+  /// [DrawIf("_useMainColor", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _useOwnGradient, offset: 0x1a, size: 0x1, def value: None
   bool ____useOwnGradient;
 
+  /// [DrawIf("_useOwnGradient", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _particleColorGradient, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Gradient* ____particleColorGradient;
 
@@ -217,13 +219,13 @@ protected:
   constexpr FireworkItemController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FireworkItemController_Pool(FireworkItemController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworkItemController_Pool(FireworkItemController_Pool const&) = delete;
+  FireworkItemController_Pool(FireworkItemController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5764 };
@@ -234,6 +236,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::FireworkItemController_Pool) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -275,17 +278,22 @@ public:
   /// @brief Method MoveNext, addr 0x59819f0, size 0x248, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FireworkItemController__FireCoroutine_d__29* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5981c38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5981c40, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5981c78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59819ec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -325,6 +333,7 @@ public:
 
   constexpr void __cordl_internal_set__soundTimeToCenter_5__2(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x598156c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -343,13 +352,13 @@ protected:
   constexpr FireworkItemController__FireCoroutine_d__29();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController__FireCoroutine_d__29", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController__FireCoroutine_d__29", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FireworkItemController__FireCoroutine_d__29(FireworkItemController__FireCoroutine_d__29&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController__FireCoroutine_d__29", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController__FireCoroutine_d__29", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworkItemController__FireCoroutine_d__29(FireworkItemController__FireCoroutine_d__29 const&) = delete;
+  FireworkItemController__FireCoroutine_d__29(FireworkItemController__FireCoroutine_d__29const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5765 };
@@ -390,6 +399,7 @@ static_assert(offsetof(::GlobalNamespace::FireworkItemController__FireCoroutine_
 static_assert(sizeof(::GlobalNamespace::FireworkItemController__FireCoroutine_d__29) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/FireworkItemController")]
 // Dependencies FireworkItemController::FireworkItemParticleSystem, TubeBloomPrePassLight, UnityEngine.AudioClip, UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -469,6 +479,7 @@ public:
   /// @brief Method Fire, addr 0x59814f8, size 0x20, virtual false, abstract: false, final false
   inline void Fire();
 
+  /// [IteratorStateMachine(typeof(FireworkItemController::<FireCoroutine>d__29))]
   /// @brief Method FireCoroutine, addr 0x5981518, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FireCoroutine();
 
@@ -597,9 +608,11 @@ public:
   /// @brief Method .ctor, addr 0x5981988, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5981194, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5981254, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
@@ -615,53 +628,76 @@ protected:
   constexpr FireworkItemController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FireworkItemController(FireworkItemController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworkItemController(FireworkItemController const&) = delete;
+  FireworkItemController(FireworkItemControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5766 };
 
+  /// [Header("Particle Systems")]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _particleSystems, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::FireworkItemController_FireworkItemParticleSystem*> ____particleSystems;
 
+  /// [Header("Other")]
+  /// [SerializeField]
   /// @brief Field _lights, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> ____lights;
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _lightFlashDuration, offset: 0x38, size: 0x4, def value: None
   float_t ____lightFlashDuration;
 
+  /// [SerializeField]
   /// @brief Field _lightIntensityCurve, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____lightIntensityCurve;
 
+  /// [SerializeField]
   /// @brief Field _lightIntensityMultiplier, offset: 0x48, size: 0x4, def value: None
   float_t ____lightIntensityMultiplier;
 
+  /// [Header("Color")]
+  /// [SerializeField]
   /// @brief Field _randomizeColor, offset: 0x4c, size: 0x1, def value: None
   bool ____randomizeColor;
 
+  /// [SerializeField]
+  /// [DrawIf("_randomizeColor", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _lightsColor, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____lightsColor;
 
+  /// [SerializeField]
+  /// [DrawIf("_randomizeColor", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _lightsColorGradient, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Gradient* ____lightsColorGradient;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _randomizeSpeed, offset: 0x68, size: 0x1, def value: None
   bool ____randomizeSpeed;
 
+  /// [SerializeField]
+  /// [DrawIf("_randomizeSpeed", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _minSpeedMultiplier, offset: 0x6c, size: 0x4, def value: None
   float_t ____minSpeedMultiplier;
 
+  /// [SerializeField]
+  /// [DrawIf("_randomizeSpeed", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _maxSpeedMultiplier, offset: 0x70, size: 0x4, def value: None
   float_t ____maxSpeedMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _explosionClips, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____explosionClips;
 
@@ -677,6 +713,7 @@ public:
   /// @brief Field _initialized, offset: 0x94, size: 0x1, def value: None
   bool ____initialized;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* ___didFinishEvent;
 

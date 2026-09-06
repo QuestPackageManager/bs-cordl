@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\TypeDescriptionProviderAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/TypeDescriptionProviderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__TypeDescriptionProviderAttribute_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::TypeDescriptionProviderAttribute._ctor

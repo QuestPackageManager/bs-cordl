@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GamePause.hpp"
+// IWYU pragma private; include "GlobalNamespace/GamePause.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -169,12 +169,15 @@ public:
   /// @brief Method .ctor, addr 0x59af8f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPauseEvent, addr 0x59af1e0, size 0xac, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didResumeEvent, addr 0x59af490, size 0xac, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_willResumeEvent, addr 0x59af338, size 0xac, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
@@ -184,12 +187,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPauseEvent, addr 0x59af28c, size 0xac, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didResumeEvent, addr 0x59af53c, size 0xac, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_willResumeEvent, addr 0x59af3e4, size 0xac, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
@@ -199,44 +205,54 @@ protected:
   constexpr GamePause();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GamePause", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GamePause", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GamePause(GamePause&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GamePause", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GamePause", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GamePause(GamePause const&) = delete;
+  GamePause(GamePauseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6023 };
 
+  /// [CompilerGenerated]
   /// @brief Field didPauseEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___didPauseEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field willResumeEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___willResumeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didResumeEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___didResumeEvent;
 
+  /// [Inject]
   /// @brief Field _gameEnergyCounter, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameEnergyCounter> ____gameEnergyCounter;
 
+  /// [Inject]
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
+  /// [Inject]
   /// @brief Field _scoreController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectExecutionRatingsRecorder, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> ____beatmapObjectExecutionRatingsRecorder;
 
+  /// [Inject]
   /// @brief Field _songController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongController> ____songController;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _audioListenerController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioListenerController> ____audioListenerController;
 

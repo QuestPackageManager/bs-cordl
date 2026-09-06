@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ScalableBufferManager.hpp"
+// IWYU pragma private; include "UnityEngine/ScalableBufferManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScalableBufferManager_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ScalableBufferManager.get_widthScaleFactor

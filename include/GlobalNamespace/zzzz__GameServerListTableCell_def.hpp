@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServerListTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServerListTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,32 +99,38 @@ protected:
   constexpr GameServerListTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerListTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerListTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerListTableCell(GameServerListTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerListTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerListTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerListTableCell(GameServerListTableCell const&) = delete;
+  GameServerListTableCell(GameServerListTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6323 };
 
+  /// [SerializeField]
   /// @brief Field _serverName, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____serverName;
 
+  /// [SerializeField]
   /// @brief Field _difficultiesText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____difficultiesText;
 
+  /// [SerializeField]
   /// @brief Field _musicPackText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____musicPackText;
 
+  /// [SerializeField]
   /// @brief Field _playerCount, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____playerCount;
 
+  /// [SerializeField]
   /// @brief Field _passwordProtected, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____passwordProtected;
 
+  /// [Inject]
   /// @brief Field _songPackMasksModel, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;
 

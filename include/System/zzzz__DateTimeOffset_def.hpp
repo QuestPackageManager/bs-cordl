@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DateTimeOffset.hpp"
+// IWYU pragma private; include "System/DateTimeOffset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ struct DateTimeOffset;
 // Write type traits
 MARK_VAL_T(::System::DateTimeOffset);
 DEFINE_IL2CPP_CLASS(::System::DateTimeOffset, "System", "DateTimeOffset");
+// [IsReadOnly]
 // Dependencies System.DateTime
 namespace System {
 // Is value type: true
@@ -334,7 +335,8 @@ public:
   // @brief default ctor
   constexpr DateTimeOffset();
 
-  // Ctor Parameters [CppParam { name: "_dateTime", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "_offsetMinutes", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_dateTime", ty: "::System::DateTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "_offsetMinutes", ty: "int16_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr DateTimeOffset(::System::DateTime _dateTime, int16_t _offsetMinutes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRNotifications.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRNotifications.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRNotifications_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
@@ -182,8 +182,8 @@ inline ::OVR::OpenVR::IVRNotifications__RemoveNotification* OVR::OpenVR::IVRNoti
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRNotifications__RemoveNotification::IVRNotifications__RemoveNotification() {}
-// Ctor Parameters [CppParam { name: "CreateNotification", ty: "::OVR::OpenVR::IVRNotifications__CreateNotification*", modifiers: "", def_value: Some("{}") }, CppParam { name: "RemoveNotification",
-// ty: "::OVR::OpenVR::IVRNotifications__RemoveNotification*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "CreateNotification", ty: "::OVR::OpenVR::IVRNotifications__CreateNotification*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "RemoveNotification", ty: "::OVR::OpenVR::IVRNotifications__RemoveNotification*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IVRNotifications::IVRNotifications(::OVR::OpenVR::IVRNotifications__CreateNotification* CreateNotification,
                                                             ::OVR::OpenVR::IVRNotifications__RemoveNotification* RemoveNotification) noexcept {
   this->CreateNotification = CreateNotification;

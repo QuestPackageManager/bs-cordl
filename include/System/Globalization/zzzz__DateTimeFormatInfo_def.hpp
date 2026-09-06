@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\DateTimeFormatInfo.hpp"
+// IWYU pragma private; include "System/Globalization/DateTimeFormatInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,13 +117,13 @@ protected:
   constexpr DateTimeFormatInfo_TokenHashValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo_TokenHashValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo_TokenHashValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeFormatInfo_TokenHashValue(DateTimeFormatInfo_TokenHashValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo_TokenHashValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo_TokenHashValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeFormatInfo_TokenHashValue(DateTimeFormatInfo_TokenHashValue const&) = delete;
+  DateTimeFormatInfo_TokenHashValue(DateTimeFormatInfo_TokenHashValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3590 };
@@ -988,13 +988,13 @@ protected:
   constexpr DateTimeFormatInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeFormatInfo(DateTimeFormatInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeFormatInfo(DateTimeFormatInfo const&) = delete;
+  DateTimeFormatInfo(DateTimeFormatInfoconst&) = delete;
 
   /// @brief Field CJKDaySuff offset 0xffffffff size 0x8
   static constexpr ::ConstString CJKDaySuff{ u"\u{65e5}" };

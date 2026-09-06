@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,21 +122,27 @@ public:
   /// @brief Method .ctor, addr 0x6c32660, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Binding, addr 0x6c32668, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataBinding* get_Binding();
 
+  /// [CompilerGenerated]
   /// @brief Method get_bindingContext, addr 0x6c32678, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingContext get_bindingContext();
 
+  /// [CompilerGenerated]
   /// @brief Method get_result, addr 0x6c32694, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult get_result();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Binding, addr 0x6c32670, size 0x8, virtual false, abstract: false, final false
   inline void set_Binding(::UnityEngine::UIElements::DataBinding* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_bindingContext, addr 0x6c32688, size 0xc, virtual false, abstract: false, final false
   inline void set_bindingContext(::UnityEngine::UIElements::BindingContext value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_result, addr 0x6c326a0, size 0x8, virtual false, abstract: false, final false
   inline void set_result(::UnityEngine::UIElements::BindingResult value);
 
@@ -146,23 +152,29 @@ protected:
   constexpr BindingUpdater_CastDataSourceVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_CastDataSourceVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_CastDataSourceVisitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingUpdater_CastDataSourceVisitor(BindingUpdater_CastDataSourceVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_CastDataSourceVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_CastDataSourceVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingUpdater_CastDataSourceVisitor(BindingUpdater_CastDataSourceVisitor const&) = delete;
+  BindingUpdater_CastDataSourceVisitor(BindingUpdater_CastDataSourceVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4027 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Binding>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::DataBinding* ____Binding_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <bindingContext>k__BackingField, offset: 0x18, size: 0x138, def value: None
   ::UnityEngine::UIElements::BindingContext ____bindingContext_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <result>k__BackingField, offset: 0x150, size: 0x10, def value: None
   ::UnityEngine::UIElements::BindingResult ____result_k__BackingField;
 
@@ -242,27 +254,35 @@ public:
   /// @brief Method .ctor, addr 0x6c32664, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_binding, addr 0x6c326a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataBinding* get_binding();
 
+  /// [CompilerGenerated]
   /// @brief Method get_bindingContext, addr 0x6c326c8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingContext get_bindingContext();
 
+  /// [CompilerGenerated]
   /// @brief Method get_direction, addr 0x6c326b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingUpdateStage get_direction();
 
+  /// [CompilerGenerated]
   /// @brief Method get_result, addr 0x6c326e4, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult get_result();
 
+  /// [CompilerGenerated]
   /// @brief Method set_binding, addr 0x6c326b0, size 0x8, virtual false, abstract: false, final false
   inline void set_binding(::UnityEngine::UIElements::DataBinding* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_bindingContext, addr 0x6c326d8, size 0xc, virtual false, abstract: false, final false
   inline void set_bindingContext(::UnityEngine::UIElements::BindingContext value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_direction, addr 0x6c326c0, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::BindingUpdateStage value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_result, addr 0x6c326f4, size 0xc, virtual false, abstract: false, final false
   inline void set_result(::UnityEngine::UIElements::BindingResult value);
 
@@ -272,26 +292,34 @@ protected:
   constexpr BindingUpdater_UIPathVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_UIPathVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_UIPathVisitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingUpdater_UIPathVisitor(BindingUpdater_UIPathVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_UIPathVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_UIPathVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingUpdater_UIPathVisitor(BindingUpdater_UIPathVisitor const&) = delete;
+  BindingUpdater_UIPathVisitor(BindingUpdater_UIPathVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4028 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <binding>k__BackingField, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::UIElements::DataBinding* ____binding_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <direction>k__BackingField, offset: 0xc0, size: 0x4, def value: None
   ::UnityEngine::UIElements::BindingUpdateStage ____direction_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <bindingContext>k__BackingField, offset: 0xc8, size: 0x138, def value: None
   ::UnityEngine::UIElements::BindingContext ____bindingContext_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <result>k__BackingField, offset: 0x200, size: 0x10, def value: None
   ::UnityEngine::UIElements::BindingResult ____result_k__BackingField;
 
@@ -329,13 +357,13 @@ public:
                       put = setStaticF_s_VisitDataSourceAtPathVisitor)) ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* s_VisitDataSourceAtPathVisitor;
 
   /// @brief Method GetExtractValueErrorString, addr 0x6c3229c, size 0x224, virtual false, abstract: false, final false
-  static inline ::StringW GetExtractValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* target, ::by_ref<::Unity::Properties::PropertyPath> path);
+  static inline ::StringW GetExtractValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* target, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
 
   /// @brief Method GetRootDataSourceError, addr 0x6c324c0, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW GetRootDataSourceError(::System::Object* target);
 
   /// @brief Method GetVisitationErrorString, addr 0x6c3207c, size 0x220, virtual false, abstract: false, final false
-  static inline ::StringW GetVisitationErrorString(::Unity::Properties::VisitReturnCode returnCode, ::by_ref<::UnityEngine::UIElements::BindingContext> context);
+  static inline ::StringW GetVisitationErrorString(::Unity::Properties::VisitReturnCode returnCode, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context);
 
   static inline ::UnityEngine::UIElements::BindingUpdater* New_ctor();
 
@@ -349,36 +377,37 @@ public:
   static inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::DataBinding* dataBinding, ::UnityEngine::UIElements::BindingUpdateStage stage, bool versionChanged, bool dirty);
 
   /// @brief Method TryUpdateUIWithNonContainer, addr 0x6c31724, size 0x824, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::BindingResult TryUpdateUIWithNonContainer(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* binding,
-                                                                                     ::System::Object* value);
+  static inline ::UnityEngine::UIElements::BindingResult TryUpdateUIWithNonContainer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
+                                                                                     ::UnityEngine::UIElements::DataBinding* binding, ::System::Object* value);
 
   /// @brief Method UpdateDataSource, addr 0x6c31718, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::CustomBinding* customBinding);
+  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
+                                                                   ::UnityEngine::UIElements::CustomBinding* customBinding);
 
   /// @brief Method UpdateDataSource, addr 0x6c314a8, size 0x270, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
+  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
 
   /// @brief Method UpdateSource, addr 0x6c31328, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateSource(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
+  inline ::UnityEngine::UIElements::BindingResult UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
 
   /// @brief Method UpdateUI, addr 0x6c30f00, size 0x184, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateUI(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
+  inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
 
   /// @brief Method UpdateUI, addr 0x6c31308, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateUI(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::CustomBinding* customBinding);
+  inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::CustomBinding* customBinding);
 
   /// @brief Method UpdateUI, addr 0x6c31084, size 0x284, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateUI(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
+  inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
 
   /// @brief Method VisitAtPath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer>
   static inline ::System::ValueTuple_4<bool, ::Unity::Properties::VisitReturnCode, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>
   VisitAtPath(::UnityEngine::UIElements::DataBinding* dataBinding, ::UnityEngine::UIElements::BindingUpdateStage direction, ::by_ref<TContainer> container,
-              ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::UnityEngine::UIElements::BindingContext> context);
+              /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context);
 
   /// @brief Method VisitRoot, addr 0x6c31f48, size 0x134, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_3<bool, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>
-  VisitRoot(::UnityEngine::UIElements::DataBinding* dataBinding, ::by_ref<::System::Object*> container, ::by_ref<::UnityEngine::UIElements::BindingContext> context);
+  VisitRoot(::UnityEngine::UIElements::DataBinding* dataBinding, ::by_ref<::System::Object*> container, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context);
 
   /// @brief Method .ctor, addr 0x6c325c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -397,13 +426,13 @@ protected:
   constexpr BindingUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingUpdater(BindingUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingUpdater(BindingUpdater const&) = delete;
+  BindingUpdater(BindingUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4029 };

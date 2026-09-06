@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalRendererFeature.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalRendererFeature.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalTechnique_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalRendererFeature_def.hpp"
@@ -699,7 +699,7 @@ inline bool UnityEngine::Rendering::Universal::DecalRendererFeature::IsAutomatic
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool UnityEngine::Rendering::Universal::DecalRendererFeature::RecreateSystemsIfNeeded(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
-                                                                                             ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(),
@@ -709,7 +709,7 @@ inline bool UnityEngine::Rendering::Universal::DecalRendererFeature::RecreateSys
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, renderer, cameraData);
 }
 inline void UnityEngine::Rendering::Universal::DecalRendererFeature::OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
-                                                                                     ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+                                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, cameraData);
@@ -726,7 +726,7 @@ inline bool UnityEngine::Rendering::Universal::DecalRendererFeature::SupportsNat
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::Universal::DecalRendererFeature::SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
-                                                                                       ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalRendererFeature*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);

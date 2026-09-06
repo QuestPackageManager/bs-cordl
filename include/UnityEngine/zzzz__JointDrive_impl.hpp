@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JointDrive.hpp"
+// IWYU pragma private; include "UnityEngine/JointDrive.hpp"
 #include "UnityEngine/zzzz__JointDrive_def.hpp"
 #include "UnityEngine/zzzz__JointDriveMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::JointDrive.get_positionSpring
@@ -164,8 +164,9 @@ inline void UnityEngine::JointDrive::set_mode(::UnityEngine::JointDriveMode valu
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointDrive>(), { "set_mode", {}, { ::i2c::type_of<::UnityEngine::JointDriveMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_PositionSpring", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PositionDamper", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_MaximumForce", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UseAcceleration", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_PositionSpring", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PositionDamper", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_MaximumForce", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UseAcceleration", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::JointDrive::JointDrive(float_t m_PositionSpring, float_t m_PositionDamper, float_t m_MaximumForce, int32_t m_UseAcceleration) noexcept {
   this->m_PositionSpring = m_PositionSpring;
   this->m_PositionDamper = m_PositionDamper;

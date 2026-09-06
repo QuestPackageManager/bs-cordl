@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioLatencyViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioLatencyViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioLatencyViewController_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManager_def.hpp"

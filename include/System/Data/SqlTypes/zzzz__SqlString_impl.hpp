@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlString.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlString.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlCompareOptions_impl.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlString_def.hpp"
@@ -618,9 +618,10 @@ constexpr System::Data::SqlTypes::SqlString::operator ::System::Xml::Serializati
 constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlString::i___System__Xml__Serialization__IXmlSerializable() {
   return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_cmpInfo", ty: "::System::Globalization::CompareInfo*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_lcid", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_flag", ty: "::System::Data::SqlTypes::SqlCompareOptions", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_cmpInfo", ty: "::System::Globalization::CompareInfo*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_lcid", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_flag", ty:
+// "::System::Data::SqlTypes::SqlCompareOptions", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::System::Data::SqlTypes::SqlString::SqlString(::StringW m_value, ::System::Globalization::CompareInfo* m_cmpInfo, int32_t m_lcid, ::System::Data::SqlTypes::SqlCompareOptions m_flag,
                                                          bool m_fNotNull) noexcept {
   this->m_value = m_value;

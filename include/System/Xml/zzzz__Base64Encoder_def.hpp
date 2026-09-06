@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Base64Encoder.hpp"
+// IWYU pragma private; include "System/Xml/Base64Encoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
 
   static inline ::System::Xml::Base64Encoder* New_ctor();
 
-  /// @brief Method WriteChars, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteChars(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
   constexpr ::ArrayW<char16_t> const& __cordl_internal_get_charsLine() const;
@@ -68,13 +68,13 @@ protected:
   constexpr Base64Encoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Base64Encoder(Base64Encoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Base64Encoder(Base64Encoder const&) = delete;
+  Base64Encoder(Base64Encoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9243 };

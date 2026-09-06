@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\CultureData.hpp"
+// IWYU pragma private; include "System/Globalization/CultureData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,18 +45,19 @@ public:
   // @brief default ctor
   constexpr CultureData_NumberFormatEntryManaged();
 
-  // Ctor Parameters [CppParam { name: "currency_decimal_digits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_decimal_separator", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "currency_group_separator", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_group_sizes0", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "currency_group_sizes1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_negative_pattern", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "currency_positive_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currency_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "nan_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "negative_infinity_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "negative_sign", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "number_decimal_digits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "number_decimal_separator", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "number_group_separator", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "number_group_sizes0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "number_group_sizes1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "number_negative_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "per_mille_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "percent_negative_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "percent_positive_pattern", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "percent_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "positive_infinity_symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "positive_sign",
-  // ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "currency_decimal_digits", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "currency_decimal_separator", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "currency_group_separator", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "currency_group_sizes0", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "currency_group_sizes1", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "currency_negative_pattern", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "currency_positive_pattern", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "currency_symbol", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nan_symbol", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "negative_infinity_symbol", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "negative_sign", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "number_decimal_digits", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "number_decimal_separator", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "number_group_separator", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "number_group_sizes0", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "number_group_sizes1", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "number_negative_pattern", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "per_mille_symbol", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "percent_negative_pattern", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "percent_positive_pattern", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "percent_symbol", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "positive_infinity_symbol", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "positive_sign", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CultureData_NumberFormatEntryManaged(int32_t currency_decimal_digits, int32_t currency_decimal_separator, int32_t currency_group_separator, int32_t currency_group_sizes0,
                                                  int32_t currency_group_sizes1, int32_t currency_negative_pattern, int32_t currency_positive_pattern, int32_t currency_symbol, int32_t nan_symbol,
                                                  int32_t negative_infinity_symbol, int32_t negative_sign, int32_t number_decimal_digits, int32_t number_decimal_separator,
@@ -565,13 +566,13 @@ protected:
   constexpr CultureData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CultureData(CultureData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CultureData(CultureData const&) = delete;
+  CultureData(CultureDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3640 };

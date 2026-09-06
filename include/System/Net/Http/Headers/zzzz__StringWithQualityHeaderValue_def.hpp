@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\StringWithQualityHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/StringWithQualityHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,9 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -90,18 +92,22 @@ public:
   /// @brief Method .ctor, addr 0x60efabc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Quality, addr 0x60efac0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_Quality();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Value, addr 0x60efad4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Quality, addr 0x60efacc, size 0x8, virtual false, abstract: false, final false
   inline void set_Quality(::System::Nullable_1<double_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Value, addr 0x60efadc, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
@@ -111,20 +117,22 @@ protected:
   constexpr StringWithQualityHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringWithQualityHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringWithQualityHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringWithQualityHeaderValue(StringWithQualityHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringWithQualityHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringWithQualityHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringWithQualityHeaderValue(StringWithQualityHeaderValue const&) = delete;
+  StringWithQualityHeaderValue(StringWithQualityHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20342 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Quality>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Nullable_1<double_t> ____Quality_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Value_k__BackingField;
 

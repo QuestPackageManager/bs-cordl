@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedList512BytesExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedList512BytesExtensions.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__FixedList512BytesExtensions_def.hpp"
 #include "Unity/Collections/zzzz__FixedList512Bytes_1_def.hpp"
-template <typename T, typename U> inline int32_t Unity::Collections::FixedList512BytesExtensions::IndexOf(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> list, U value) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::FixedList512BytesExtensions::IndexOf(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> list, U value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList512BytesExtensions*>(),
@@ -11,7 +14,9 @@ template <typename T, typename U> inline int32_t Unity::Collections::FixedList51
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, list, value);
 }
-template <typename T, typename U> inline bool Unity::Collections::FixedList512BytesExtensions::Contains(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> list, U value) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::FixedList512BytesExtensions::Contains(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> list, U value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList512BytesExtensions*>(),
@@ -19,7 +24,9 @@ template <typename T, typename U> inline bool Unity::Collections::FixedList512By
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, list, value);
 }
-template <typename T, typename U> inline bool Unity::Collections::FixedList512BytesExtensions::Remove(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> list, U value) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::FixedList512BytesExtensions::Remove(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> list, U value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList512BytesExtensions*>(),
@@ -27,7 +34,9 @@ template <typename T, typename U> inline bool Unity::Collections::FixedList512By
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, list, value);
 }
-template <typename T, typename U> inline bool Unity::Collections::FixedList512BytesExtensions::RemoveSwapBack(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> list, U value) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::FixedList512BytesExtensions::RemoveSwapBack(::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> list, U value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList512BytesExtensions*>(),

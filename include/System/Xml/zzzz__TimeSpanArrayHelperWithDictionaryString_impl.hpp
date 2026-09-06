@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\TimeSpanArrayHelperWithDictionaryString.hpp"
+// IWYU pragma private; include "System/Xml/TimeSpanArrayHelperWithDictionaryString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Xml/zzzz__TimeSpanArrayHelperWithDictionaryString_def.hpp"

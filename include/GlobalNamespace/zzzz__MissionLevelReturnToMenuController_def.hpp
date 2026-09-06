@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionLevelReturnToMenuController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionLevelReturnToMenuController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class MissionLevelReturnToMenuController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MissionLevelReturnToMenuController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionLevelReturnToMenuController*, "", "MissionLevelReturnToMenuController");
+// [AddComponentMenu("Beat Saber/Gameplay/MissionLevelReturnToMenuController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -82,23 +83,26 @@ protected:
   constexpr MissionLevelReturnToMenuController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelReturnToMenuController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelReturnToMenuController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelReturnToMenuController(MissionLevelReturnToMenuController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelReturnToMenuController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelReturnToMenuController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelReturnToMenuController(MissionLevelReturnToMenuController const&) = delete;
+  MissionLevelReturnToMenuController(MissionLevelReturnToMenuControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6787 };
 
+  /// [SerializeField]
   /// @brief Field _prepareLevelCompletionResults, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
+  /// [SerializeField]
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
+  /// [Inject]
   /// @brief Field _missionLevelSceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::MissionLevelScenesTransitionSetupData* ____missionLevelSceneSetupData;
 

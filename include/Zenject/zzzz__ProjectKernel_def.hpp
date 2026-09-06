@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ProjectKernel.hpp"
+// IWYU pragma private; include "Zenject/ProjectKernel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::Zenject::ProjectKernel*);
 MARK_REF_T(::Zenject::ProjectKernel___c__DisplayClass4_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
 DEFINE_IL2CPP_CLASS(::Zenject::ProjectKernel___c__DisplayClass4_0*, "Zenject", "ProjectKernel/<>c__DisplayClass4_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -80,6 +81,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e95430, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e95474, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -92,13 +94,13 @@ protected:
   constexpr ProjectKernel___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProjectKernel___c__DisplayClass4_0(ProjectKernel___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProjectKernel___c__DisplayClass4_0(ProjectKernel___c__DisplayClass4_0 const&) = delete;
+  ProjectKernel___c__DisplayClass4_0(ProjectKernel___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14678 };
@@ -157,6 +159,7 @@ public:
 
   constexpr void __cordl_internal_set__settings(::Zenject::ZenjectSettings* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e95040, size 0x354, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -175,20 +178,22 @@ protected:
   constexpr ProjectKernel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProjectKernel(ProjectKernel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProjectKernel(ProjectKernel const&) = delete;
+  ProjectKernel(ProjectKernelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14679 };
 
+  /// [Inject]
   /// @brief Field _settings, offset: 0x40, size: 0x8, def value: None
   ::Zenject::ZenjectSettings* ____settings;
 
+  /// [Inject]
   /// @brief Field _contextRegistry, offset: 0x48, size: 0x8, def value: None
   ::Zenject::SceneContextRegistry* ____contextRegistry;
 

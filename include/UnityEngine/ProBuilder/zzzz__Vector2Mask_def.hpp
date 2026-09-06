@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Vector2Mask.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Vector2Mask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   // @brief default ctor
   constexpr Vector2Mask();
 
-  // Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector2Mask(uint8_t m_Mask) noexcept;
 
   /// @brief Field X offset 0xffffffff size 0x1

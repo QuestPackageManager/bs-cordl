@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LODGroupRenderingUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LODGroupRenderingUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class LODGroupRenderingUtils;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::LODGroupRenderingUtils*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LODGroupRenderingUtils*, "UnityEngine.Rendering", "LODGroupRenderingUtils");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -44,12 +45,15 @@ public:
   /// @brief Method CalculateSqrPerspectiveDistance, addr 0x6832208, size 0x28, virtual false, abstract: false, final false
   static inline float_t CalculateSqrPerspectiveDistance(::UnityEngine::Vector3 objPosition, ::UnityEngine::Vector3 camPosition, float_t sqrScreenRelativeMetric);
 
+  /// [Extension]
   /// @brief Method GetWorldReferencePoint, addr 0x6832230, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetWorldReferencePoint(::UnityEngine::LODGroup* lodGroup);
 
+  /// [Extension]
   /// @brief Method GetWorldSpaceScale, addr 0x6832274, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetWorldSpaceScale(::UnityEngine::LODGroup* lodGroup);
 
+  /// [Extension]
   /// @brief Method GetWorldSpaceSize, addr 0x68322b8, size 0x38, virtual false, abstract: false, final false
   static inline float_t GetWorldSpaceSize(::UnityEngine::LODGroup* lodGroup);
 
@@ -59,13 +63,13 @@ protected:
   constexpr LODGroupRenderingUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LODGroupRenderingUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroupRenderingUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LODGroupRenderingUtils(LODGroupRenderingUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LODGroupRenderingUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LODGroupRenderingUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LODGroupRenderingUtils(LODGroupRenderingUtils const&) = delete;
+  LODGroupRenderingUtils(LODGroupRenderingUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17763 };

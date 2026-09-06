@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutInfoNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ class NoteCutInfoNetSerializable;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NoteCutInfoNetSerializable*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteCutInfoNetSerializable*, "", "NoteCutInfoNetSerializable");
+// [Preserve]
 // Dependencies ColorType, NoteData::GameplayType, NoteLineLayer, PoolableSerializable, QuaternionSerializable, Vector3Serializable
 namespace GlobalNamespace {
 // Is value type: false
@@ -98,12 +99,14 @@ public:
   /// @brief Field timeToNextColorNote, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_timeToNextColorNote, put = __cordl_internal_set_timeToNextColorNote)) float_t timeToNextColorNote;
 
+  /// [Preserve]
   /// @brief Method Deserialize, addr 0x377efec, size 0x158, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method Init, addr 0x377f53c, size 0xd4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition,
-                                                             ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
+  inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData,
+                                                             ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
+                                                             ::UnityEngine::Vector3 moveVec);
 
   /// @brief Method Init, addr 0x377f610, size 0x208, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(float_t saberSpeed, bool cutWasOk, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
@@ -111,11 +114,13 @@ public:
                                                              int32_t noteLineIndex, float_t noteTime, float_t timeToNextColorNote, ::UnityEngine::Vector3 notePosition,
                                                              ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
 
+  /// @brief [Preserve]
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* New_ctor();
 
   /// @brief Method Obtain, addr 0x377ef80, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* Obtain();
 
+  /// [Preserve]
   /// @brief Method Serialize, addr 0x377f224, size 0x1c4, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
@@ -209,6 +214,7 @@ public:
 
   constexpr void __cordl_internal_set_timeToNextColorNote(float_t value);
 
+  /// [Preserve]
   /// @brief Method .ctor, addr 0x377f4e0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -218,13 +224,13 @@ protected:
   constexpr NoteCutInfoNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutInfoNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutInfoNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutInfoNetSerializable(NoteCutInfoNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutInfoNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutInfoNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutInfoNetSerializable(NoteCutInfoNetSerializable const&) = delete;
+  NoteCutInfoNetSerializable(NoteCutInfoNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21198 };

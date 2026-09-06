@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LODParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LODParameters.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -129,9 +129,9 @@ constexpr UnityEngine::Rendering::LODParameters::operator ::System::IEquatable_1
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>* UnityEngine::Rendering::LODParameters::i___System__IEquatable_1___UnityEngine__Rendering__LODParameters_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_FieldOfView", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OrthoSize", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_CameraPixelHeight", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FieldOfView", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OrthoSize", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CameraPixelHeight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::LODParameters::LODParameters(int32_t m_IsOrthographic, ::UnityEngine::Vector3 m_CameraPosition, float_t m_FieldOfView, float_t m_OrthoSize,
                                                                  int32_t m_CameraPixelHeight) noexcept {
   this->m_IsOrthographic = m_IsOrthographic;

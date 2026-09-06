@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ParameterizedStrings.hpp"
+// IWYU pragma private; include "System/ParameterizedStrings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,8 @@ public:
   // @brief default ctor
   constexpr ParameterizedStrings_FormatParam();
 
-  // Ctor Parameters [CppParam { name: "_int32", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_string", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_int32", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_string", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ParameterizedStrings_FormatParam(int32_t _int32, ::StringW _string) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -143,13 +144,13 @@ protected:
   constexpr ParameterizedStrings_LowLevelStack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings_LowLevelStack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings_LowLevelStack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParameterizedStrings_LowLevelStack(ParameterizedStrings_LowLevelStack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings_LowLevelStack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings_LowLevelStack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParameterizedStrings_LowLevelStack(ParameterizedStrings_LowLevelStack const&) = delete;
+  ParameterizedStrings_LowLevelStack(ParameterizedStrings_LowLevelStackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2631 };
@@ -191,7 +192,7 @@ public:
   static inline int32_t AsInt(bool b);
 
   /// @brief Method Evaluate, addr 0x5c9b808, size 0x1a8, virtual false, abstract: false, final false
-  static inline ::StringW Evaluate(::StringW format, ::ArrayW<::System::ParameterizedStrings_FormatParam> args);
+  static inline ::StringW Evaluate(::StringW format, /* [ParamArray] */ ::ArrayW<::System::ParameterizedStrings_FormatParam> args);
 
   /// @brief Method EvaluateInternal, addr 0x5c9d34c, size 0x7c4, virtual false, abstract: false, final false
   static inline ::StringW EvaluateInternal(::StringW format, ::by_ref<int32_t> pos, ::ArrayW<::System::ParameterizedStrings_FormatParam> args, ::System::ParameterizedStrings_LowLevelStack* stack,
@@ -223,13 +224,13 @@ protected:
   constexpr ParameterizedStrings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParameterizedStrings(ParameterizedStrings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParameterizedStrings(ParameterizedStrings const&) = delete;
+  ParameterizedStrings(ParameterizedStringsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2632 };

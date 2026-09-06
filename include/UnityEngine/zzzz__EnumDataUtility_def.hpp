@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EnumDataUtility.hpp"
+// IWYU pragma private; include "UnityEngine/EnumDataUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,7 +98,7 @@ public:
   // @brief default ctor
   constexpr EnumDataUtility_CachedType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnumDataUtility_CachedType(int32_t value__) noexcept;
 
   /// @brief Field ExcludeObsolete value: I32(0)
@@ -127,6 +127,7 @@ static_assert(offsetof(::UnityEngine::EnumDataUtility_CachedType, value__) == 0x
 static_assert(sizeof(::UnityEngine::EnumDataUtility_CachedType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -202,13 +203,13 @@ protected:
   constexpr EnumDataUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumDataUtility___c(EnumDataUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataUtility___c(EnumDataUtility___c const&) = delete;
+  EnumDataUtility___c(EnumDataUtility___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10339 };
@@ -219,6 +220,7 @@ public:
 static_assert(sizeof(::UnityEngine::EnumDataUtility___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -249,13 +251,13 @@ protected:
   constexpr EnumDataUtility___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumDataUtility___c__DisplayClass2_0(EnumDataUtility___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataUtility___c__DisplayClass2_0(EnumDataUtility___c__DisplayClass2_0 const&) = delete;
+  EnumDataUtility___c__DisplayClass2_0(EnumDataUtility___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10340 };
@@ -271,6 +273,7 @@ static_assert(offsetof(::UnityEngine::EnumDataUtility___c__DisplayClass2_0, ___n
 static_assert(sizeof(::UnityEngine::EnumDataUtility___c__DisplayClass2_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -282,8 +285,8 @@ public:
   // @brief default ctor
   constexpr EnumDataUtility___c__DisplayClass8_0();
 
-  // Ctor Parameters [CppParam { name: "nicifyName", ty: "::System::Func_2<::StringW,::StringW>*", modifiers: "", def_value: None }, CppParam { name: "field", ty: "::System::Reflection::FieldInfo*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nicifyName", ty: "::System::Func_2<::StringW,::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "field", ty:
+  // "::System::Reflection::FieldInfo*", modifiers: "", def_value: None, comment: None }]
   constexpr EnumDataUtility___c__DisplayClass8_0(::System::Func_2<::StringW, ::StringW>* nicifyName, ::System::Reflection::FieldInfo* field) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -308,6 +311,7 @@ static_assert(offsetof(::UnityEngine::EnumDataUtility___c__DisplayClass8_0, fiel
 static_assert(sizeof(::UnityEngine::EnumDataUtility___c__DisplayClass8_0) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -344,6 +348,7 @@ public:
   /// @brief Method HandleInspectorOrderAttribute, addr 0x6adf50c, size 0x4ac, virtual false, abstract: false, final false
   static inline void HandleInspectorOrderAttribute(::System::Type* enumType, ::by_ref<::UnityEngine::EnumData> enumData);
 
+  /// [CompilerGenerated]
   /// @brief Method <EnumNameFromEnumField>g__NicifyName|8_0, addr 0x6adfcc4, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW _EnumNameFromEnumField_g__NicifyName_8_0(::by_ref<::UnityEngine::EnumDataUtility___c__DisplayClass8_0> _cordl_fixed_empty_name_whitespace);
 
@@ -358,13 +363,13 @@ protected:
   constexpr EnumDataUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumDataUtility(EnumDataUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataUtility(EnumDataUtility const&) = delete;
+  EnumDataUtility(EnumDataUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10342 };

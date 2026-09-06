@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\TimeSpanFormat.hpp"
+// IWYU pragma private; include "System/Globalization/TimeSpanFormat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr TimeSpanFormat_Pattern();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimeSpanFormat_Pattern(int32_t value__) noexcept;
 
   /// @brief Field Full value: I32(2)
@@ -156,9 +156,10 @@ public:
   // @brief default ctor
   constexpr TimeSpanFormat_FormatLiterals();
 
-  // Ctor Parameters [CppParam { name: "AppCompatLiteral", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "dd", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "hh", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mm", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ss", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "ff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_literals", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "AppCompatLiteral", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "dd", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "hh", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "mm", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "ss", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ff", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_literals", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr TimeSpanFormat_FormatLiterals(::StringW AppCompatLiteral, int32_t dd, int32_t hh, int32_t mm, int32_t ss, int32_t ff, ::ArrayW<::StringW> _literals) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -262,13 +263,13 @@ protected:
   constexpr TimeSpanFormat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanFormat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanFormat", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeSpanFormat(TimeSpanFormat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanFormat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanFormat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeSpanFormat(TimeSpanFormat const&) = delete;
+  TimeSpanFormat(TimeSpanFormatconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3609 };

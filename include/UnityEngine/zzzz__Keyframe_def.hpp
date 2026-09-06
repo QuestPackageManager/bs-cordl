@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Keyframe.hpp"
+// IWYU pragma private; include "UnityEngine/Keyframe.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct Keyframe;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Keyframe);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Keyframe, "UnityEngine", "Keyframe");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -90,9 +91,10 @@ public:
   // @brief default ctor
   constexpr Keyframe();
 
-  // Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_InTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_WeightedMode", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_InWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutWeight", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_InTangent", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OutTangent", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_WeightedMode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_InWeight", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_OutWeight", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Keyframe(float_t m_Time, float_t m_Value, float_t m_InTangent, float_t m_OutTangent, int32_t m_WeightedMode, float_t m_InWeight, float_t m_OutWeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

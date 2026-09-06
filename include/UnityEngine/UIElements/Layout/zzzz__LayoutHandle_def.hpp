@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutHandle.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct LayoutHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutHandle, "UnityEngine.UIElements.Layout", "LayoutHandle");
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -42,7 +43,8 @@ public:
   // @brief default ctor
   constexpr LayoutHandle();
 
-  // Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr LayoutHandle(int32_t Index, int32_t Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

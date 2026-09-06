@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CommandBufferOwners.hpp"
+// IWYU pragma private; include "GlobalNamespace/CommandBufferOwners.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"

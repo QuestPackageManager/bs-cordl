@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RareData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RareData.hpp"
 #include "UnityEngine/UIElements/zzzz__Cursor_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__OverflowClipBox_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflowPosition_impl.hpp"
@@ -132,12 +132,13 @@ constexpr UnityEngine::UIElements::RareData::operator ::System::IEquatable_1<::U
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::RareData>* UnityEngine::UIElements::RareData::i___System__IEquatable_1___UnityEngine__UIElements__RareData_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::RareData>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "cursor", ty: "::UnityEngine::UIElements::Cursor", modifiers: "", def_value: Some("{}") }, CppParam { name: "textOverflow", ty:
-// "::UnityEngine::UIElements::TextOverflow", modifiers: "", def_value: Some("{}") }, CppParam { name: "unityBackgroundImageTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "unityOverflowClipBox", ty: "::UnityEngine::UIElements::OverflowClipBox", modifiers: "", def_value: Some("{}") }, CppParam { name: "unitySliceBottom", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "unitySliceLeft", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unitySliceRight", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "unitySliceScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unitySliceTop", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "unityTextOverflowPosition", ty: "::UnityEngine::UIElements::TextOverflowPosition", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "cursor", ty: "::UnityEngine::UIElements::Cursor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "textOverflow", ty:
+// "::UnityEngine::UIElements::TextOverflow", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityBackgroundImageTintColor", ty: "::UnityEngine::Color", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "unityOverflowClipBox", ty: "::UnityEngine::UIElements::OverflowClipBox", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "unitySliceBottom", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unitySliceLeft", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "unitySliceRight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unitySliceScale", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "unitySliceTop", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextOverflowPosition", ty:
+// "::UnityEngine::UIElements::TextOverflowPosition", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::RareData::RareData(::UnityEngine::UIElements::Cursor cursor, ::UnityEngine::UIElements::TextOverflow textOverflow,
                                                         ::UnityEngine::Color unityBackgroundImageTintColor, ::UnityEngine::UIElements::OverflowClipBox unityOverflowClipBox, int32_t unitySliceBottom,
                                                         int32_t unitySliceLeft, int32_t unitySliceRight, float_t unitySliceScale, int32_t unitySliceTop,

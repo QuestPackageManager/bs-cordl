@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\DiagnosticsEventProvider.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/DiagnosticsEventProvider.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Diagnostics/zzzz__DiagnosticsEventProvider_def.hpp"
@@ -10,7 +10,7 @@
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Diagnostics::DiagnosticsEventProvider_WriteEventErrorCode::DiagnosticsEventProvider_WriteEventErrorCode(int32_t value__) noexcept {
   this->value__ = value__;
 }

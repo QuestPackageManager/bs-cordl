@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ReflectionDelegateFactory.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ReflectionDelegateFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,8 @@ class ReflectionDelegateFactory;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Utilities::ReflectionDelegateFactory*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ReflectionDelegateFactory*, "Newtonsoft.Json.Utilities", "ReflectionDelegateFactory");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -52,31 +54,31 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE ReflectionDelegateFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateDefaultConstructor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateDefaultConstructor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::System::Func_1<T>* CreateDefaultConstructor(::System::Type* type);
 
-  /// @brief Method CreateGet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::System::Func_2<T, ::System::Object*>* CreateGet(::System::Reflection::FieldInfo* fieldInfo);
 
   /// @brief Method CreateGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Func_2<T, ::System::Object*>* CreateGet(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method CreateGet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::System::Func_2<T, ::System::Object*>* CreateGet(::System::Reflection::PropertyInfo* propertyInfo);
 
-  /// @brief Method CreateMethodCall, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateMethodCall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::Newtonsoft::Json::Utilities::MethodCall_2<T, ::System::Object*>* CreateMethodCall(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateParameterizedConstructor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateParameterizedConstructor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* CreateParameterizedConstructor(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::System::Action_2<T, ::System::Object*>* CreateSet(::System::Reflection::FieldInfo* fieldInfo);
 
   /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Action_2<T, ::System::Object*>* CreateSet(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method CreateSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::System::Action_2<T, ::System::Object*>* CreateSet(::System::Reflection::PropertyInfo* propertyInfo);
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* New_ctor();
@@ -90,13 +92,13 @@ protected:
   constexpr ReflectionDelegateFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionDelegateFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionDelegateFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionDelegateFactory(ReflectionDelegateFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionDelegateFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionDelegateFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionDelegateFactory(ReflectionDelegateFactory const&) = delete;
+  ReflectionDelegateFactory(ReflectionDelegateFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13447 };

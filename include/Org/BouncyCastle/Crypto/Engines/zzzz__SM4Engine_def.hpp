@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\SM4Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/SM4Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,13 +115,13 @@ protected:
   constexpr SM4Engine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SM4Engine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SM4Engine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SM4Engine(SM4Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SM4Engine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SM4Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SM4Engine(SM4Engine const&) = delete;
+  SM4Engine(SM4Engineconst&) = delete;
 
   /// @brief Field BlockSize offset 0xffffffff size 0x4
   static constexpr int32_t BlockSize{ static_cast<int32_t>(0x10) };

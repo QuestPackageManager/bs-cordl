@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\LazyInitializer.hpp"
+// IWYU pragma private; include "System/Threading/LazyInitializer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,28 +26,40 @@ class CORDL_TYPE LazyInitializer : public ::System::Object {
 public:
   // Declarations
   /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitialized(::by_ref<T> target);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T EnsureInitialized(::by_ref<T> target);
 
   /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitialized(::by_ref<T> target, ::by_ref<bool> initialized, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitialized(::by_ref<T> target, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T EnsureInitialized(::by_ref<T> target, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitialized(::by_ref<T> target, ::System::Func_1<T>* valueFactory);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T EnsureInitialized(::by_ref<T> target, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitializedCore(::by_ref<T> target);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T EnsureInitializedCore(::by_ref<T> target);
 
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitializedCore(::by_ref<T> target, ::by_ref<bool> initialized, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitializedCore(::by_ref<T> target, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T EnsureInitializedCore(::by_ref<T> target, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitializedCore(::by_ref<T> target, ::System::Func_1<T>* valueFactory);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T EnsureInitializedCore(::by_ref<T> target, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureLockInitialized, addr 0x5ca8bf4, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* EnsureLockInitialized(::by_ref<::System::Object*> syncLock);
@@ -58,13 +70,13 @@ protected:
   constexpr LazyInitializer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LazyInitializer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyInitializer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LazyInitializer(LazyInitializer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LazyInitializer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyInitializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LazyInitializer(LazyInitializer const&) = delete;
+  LazyInitializer(LazyInitializerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2674 };

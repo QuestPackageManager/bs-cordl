@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentsListModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentsListModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ MARK_REF_T(::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentsListModel*, "", "EnvironmentsListModel");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentsListModel___c*, "", "EnvironmentsListModel/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0*, "", "EnvironmentsListModel/<>c__DisplayClass22_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -93,9 +94,11 @@ public:
   /// @brief Method <CreateFromAddressables>b__15_0, addr 0x370a014, size 0x4, virtual false, abstract: false, final false
   inline void _CreateFromAddressables_b__15_0(::GlobalNamespace::EnvironmentInfoSO* _);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__14_0, addr 0x3709fc4, size 0x14, virtual false, abstract: false, final false
   inline int32_t __ctor_b__14_0(::GlobalNamespace::EnvironmentInfoSO* envInfo);
 
+  /// [NullableContext(0)]
   /// @brief Method <.ctor>b__14_1, addr 0x370a000, size 0x14, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__14_1(::GlobalNamespace::EnvironmentInfoSO* envInfo);
 
@@ -138,13 +141,13 @@ protected:
   constexpr EnvironmentsListModel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentsListModel___c(EnvironmentsListModel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsListModel___c(EnvironmentsListModel___c const&) = delete;
+  EnvironmentsListModel___c(EnvironmentsListModel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14849 };
@@ -155,6 +158,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::EnvironmentsListModel___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies EnvironmentType, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -167,6 +171,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <AddEnvironmentNames>b__0, addr 0x370a018, size 0x20, virtual false, abstract: false, final false
   inline bool _AddEnvironmentNames_b__0(::GlobalNamespace::EnvironmentInfoSO* e);
 
@@ -185,13 +190,13 @@ protected:
   constexpr EnvironmentsListModel___c__DisplayClass22_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c__DisplayClass22_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentsListModel___c__DisplayClass22_0(EnvironmentsListModel___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c__DisplayClass22_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsListModel___c__DisplayClass22_0(EnvironmentsListModel___c__DisplayClass22_0 const&) = delete;
+  EnvironmentsListModel___c__DisplayClass22_0(EnvironmentsListModel___c__DisplayClass22_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14850 };
@@ -207,6 +212,8 @@ static_assert(offsetof(::GlobalNamespace::EnvironmentsListModel___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies EnvironmentInfoSO, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -270,9 +277,11 @@ public:
   /// @brief Method GetEnvironmentSerializedNamesByCharacteristic, addr 0x3708f90, size 0x70, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetEnvironmentSerializedNamesByCharacteristic(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
+  /// [NullableContext(2)]
   /// @brief Method GetFirstEnvironmentInfoWithType, addr 0x3709e98, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetFirstEnvironmentInfoWithType(::GlobalNamespace::EnvironmentType environmentType);
 
+  /// [NullableContext(2)]
   /// @brief Method GetLastEnvironmentInfoWithType, addr 0x3709ef8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetLastEnvironmentInfoWithType(::GlobalNamespace::EnvironmentType environmentType);
 
@@ -326,13 +335,13 @@ protected:
   constexpr EnvironmentsListModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentsListModel(EnvironmentsListModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsListModel(EnvironmentsListModel const&) = delete;
+  EnvironmentsListModel(EnvironmentsListModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14851 };

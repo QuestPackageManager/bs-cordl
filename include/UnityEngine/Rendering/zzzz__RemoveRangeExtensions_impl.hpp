@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RemoveRangeExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RemoveRangeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RemoveRangeExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 template <typename TValue>
-inline bool UnityEngine::Rendering::RemoveRangeExtensions::TryRemoveElementsInRange(::System::Collections::Generic::IList_1<TValue>* list, int32_t index, int32_t count,
-                                                                                    ::by_ref<::System::Exception*> error) {
+inline bool UnityEngine::Rendering::RemoveRangeExtensions::TryRemoveElementsInRange(/* [DisallowNull] */ ::System::Collections::Generic::IList_1<TValue>* list, int32_t index, int32_t count,
+                                                                                    /* [NotNullWhen(false)] */ ::by_ref<::System::Exception*> error) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RemoveRangeExtensions*>(),
                                                                                               { "TryRemoveElementsInRange",
                                                                                                 { ::i2c::class_of<TValue>() },

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\ExposedProperty.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/ExposedProperty.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"
 //  Writing Method size for method: ::UnityEngine::VFX::Utility::ExposedProperty.op_Implicit___UnityEngine__VFX__Utility__ExposedProperty_

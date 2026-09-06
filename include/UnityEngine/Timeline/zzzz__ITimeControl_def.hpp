@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\ITimeControl.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/ITimeControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,18 +19,18 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE ITimeControl {
 public:
   // Declarations
-  /// @brief Method OnControlTimeStart, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnControlTimeStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnControlTimeStart();
 
-  /// @brief Method OnControlTimeStop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnControlTimeStop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnControlTimeStop();
 
-  /// @brief Method SetTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetTime(double_t time);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITimeControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITimeControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITimeControl(ITimeControl const&) = delete;
+  ITimeControl(ITimeControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19229 };

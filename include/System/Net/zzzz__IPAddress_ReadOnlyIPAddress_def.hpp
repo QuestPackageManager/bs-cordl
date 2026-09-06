@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\IPAddress_ReadOnlyIPAddress.hpp"
+// IWYU pragma private; include "System/Net/IPAddress_ReadOnlyIPAddress.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr IPAddress_ReadOnlyIPAddress();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddress_ReadOnlyIPAddress", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddress_ReadOnlyIPAddress", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IPAddress_ReadOnlyIPAddress(IPAddress_ReadOnlyIPAddress&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddress_ReadOnlyIPAddress", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddress_ReadOnlyIPAddress", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPAddress_ReadOnlyIPAddress(IPAddress_ReadOnlyIPAddress const&) = delete;
+  IPAddress_ReadOnlyIPAddress(IPAddress_ReadOnlyIPAddressconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11453 };

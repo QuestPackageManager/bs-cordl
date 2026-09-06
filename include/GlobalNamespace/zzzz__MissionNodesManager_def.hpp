@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionNodesManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionNodesManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -240,32 +240,38 @@ protected:
   constexpr MissionNodesManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodesManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodesManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionNodesManager(MissionNodesManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodesManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodesManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionNodesManager(MissionNodesManager const&) = delete;
+  MissionNodesManager(MissionNodesManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6877 };
 
+  /// [SerializeField]
   /// @brief Field _rootMissionNode, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____rootMissionNode;
 
+  /// [SerializeField]
   /// @brief Field _finalMissionNode, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____finalMissionNode;
 
+  /// [SerializeField]
   /// @brief Field _missionStagesManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionStagesManager> ____missionStagesManager;
 
+  /// [SerializeField]
   /// @brief Field _connectionsParentObject, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____connectionsParentObject;
 
+  /// [SerializeField]
   /// @brief Field _missionNodesParentObject, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____missionNodesParentObject;
 
+  /// [Inject]
   /// @brief Field _missionProgressModel, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignProgressModel> ____missionProgressModel;
 

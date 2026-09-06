@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerSongTimeSyncController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerSongTimeSyncController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr MultiplayerConnectedPlayerSongTimeSyncController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerSongTimeSyncController_InitData(MultiplayerConnectedPlayerSongTimeSyncController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerSongTimeSyncController_InitData(MultiplayerConnectedPlayerSongTimeSyncController_InitData const&) = delete;
+  MultiplayerConnectedPlayerSongTimeSyncController_InitData(MultiplayerConnectedPlayerSongTimeSyncController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6061 };
@@ -112,6 +112,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSync
 static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerConnectedPlayerSongTimeSyncController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -279,6 +280,7 @@ public:
   /// @brief Method get_isReady, addr 0x59bc964, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lastFrameDeltaSongTime, addr 0x59bc934, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
@@ -288,6 +290,7 @@ public:
   /// @brief Method get_songLength, addr 0x59bc950, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
+  /// [CompilerGenerated]
   /// @brief Method get_songTime, addr 0x59bc924, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
@@ -300,9 +303,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_lastFrameDeltaSongTime, addr 0x59bc93c, size 0x8, virtual false, abstract: false, final false
   inline void set_lastFrameDeltaSongTime(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_songTime, addr 0x59bc92c, size 0x8, virtual false, abstract: false, final false
   inline void set_songTime(float_t value);
 
@@ -312,41 +317,50 @@ protected:
   constexpr MultiplayerConnectedPlayerSongTimeSyncController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedPlayerSongTimeSyncController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedPlayerSongTimeSyncController const&) = delete;
+  MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedPlayerSongTimeSyncControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6062 };
 
+  /// [SerializeField]
   /// @brief Field _audioSyncLerpSpeed, offset: 0x20, size: 0x4, def value: None
   float_t ____audioSyncLerpSpeed;
 
+  /// [SerializeField]
   /// @brief Field _forcedSyncDeltaTime, offset: 0x24, size: 0x4, def value: None
   float_t ____forcedSyncDeltaTime;
 
+  /// [SerializeField]
   /// @brief Field _startSyncDeltaTime, offset: 0x28, size: 0x4, def value: None
   float_t ____startSyncDeltaTime;
 
+  /// [SerializeField]
   /// @brief Field _stopSyncDeltaTime, offset: 0x2c, size: 0x4, def value: None
   float_t ____stopSyncDeltaTime;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _connectedPlayer, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
+  /// [CompilerGenerated]
   /// @brief Field <songTime>k__BackingField, offset: 0x48, size: 0x4, def value: None
   float_t ____songTime_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <lastFrameDeltaSongTime>k__BackingField, offset: 0x4c, size: 0x4, def value: None
   float_t ____lastFrameDeltaSongTime_k__BackingField;
 

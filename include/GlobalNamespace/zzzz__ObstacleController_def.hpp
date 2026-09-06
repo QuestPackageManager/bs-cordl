@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,13 +128,13 @@ protected:
   constexpr ObstacleController_Layers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Layers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Layers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleController_Layers(ObstacleController_Layers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Layers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Layers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleController_Layers(ObstacleController_Layers const&) = delete;
+  ObstacleController_Layers(ObstacleController_Layersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5700 };
@@ -175,17 +175,18 @@ protected:
   constexpr ObstacleController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleController_Pool(ObstacleController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleController_Pool(ObstacleController_Pool const&) = delete;
+  ObstacleController_Pool(ObstacleController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5701 };
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
@@ -197,6 +198,7 @@ static_assert(offsetof(::GlobalNamespace::ObstacleController_Pool, ____settingsM
 static_assert(sizeof(::GlobalNamespace::ObstacleController_Pool) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -232,17 +234,22 @@ public:
   /// @brief Method MoveNext, addr 0x58daa80, size 0xe0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58dab60, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58dab68, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58daba0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x58daa7c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -270,6 +277,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x58da85c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -288,13 +296,13 @@ protected:
   constexpr ObstacleController__DissolveCoroutine_d__66();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController__DissolveCoroutine_d__66", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController__DissolveCoroutine_d__66", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleController__DissolveCoroutine_d__66(ObstacleController__DissolveCoroutine_d__66&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController__DissolveCoroutine_d__66", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController__DissolveCoroutine_d__66", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleController__DissolveCoroutine_d__66(ObstacleController__DissolveCoroutine_d__66 const&) = delete;
+  ObstacleController__DissolveCoroutine_d__66(ObstacleController__DissolveCoroutine_d__66const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5702 };
@@ -460,6 +468,7 @@ public:
   /// @brief Method Dissolve, addr 0x58da864, size 0x34, virtual true, abstract: false, final true
   inline void Dissolve(float_t duration);
 
+  /// [IteratorStateMachine(typeof(ObstacleController::<DissolveCoroutine>d__66))]
   /// @brief Method DissolveCoroutine, addr 0x58da7f8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DissolveCoroutine(float_t duration);
 
@@ -473,7 +482,7 @@ public:
   inline void Hide(bool hide);
 
   /// @brief Method Init, addr 0x58d9e20, size 0x4b8, virtual true, abstract: false, final false
-  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
+  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
   /// @brief Method InitGraphics, addr 0x58da2d8, size 0x110, virtual false, abstract: false, final false
   inline void InitGraphics(::BeatSaber::Settings::Settings settings);
@@ -678,18 +687,23 @@ public:
   /// @brief Method .ctor, addr 0x58da8a8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didDissolveEvent, addr 0x58c8a68, size 0xc0, virtual false, abstract: false, final false
   inline void add_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didUpdateProgress, addr 0x58d9c58, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_finishedMovementEvent, addr 0x58c8828, size 0xc0, virtual false, abstract: false, final false
   inline void add_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_passedAvoidedMarkEvent, addr 0x58c89a8, size 0xc0, virtual false, abstract: false, final false
   inline void add_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_passedThreeQuartersOfJumpDurationEvent, addr 0x58c88e8, size 0xc0, virtual false, abstract: false, final false
   inline void add_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
@@ -720,18 +734,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapObjectController"
   constexpr ::GlobalNamespace::IBeatmapObjectController* i___GlobalNamespace__IBeatmapObjectController() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didDissolveEvent, addr 0x58c8ebc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didUpdateProgress, addr 0x58d9d18, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_finishedMovementEvent, addr 0x58c8c7c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_passedAvoidedMarkEvent, addr 0x58c8dfc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_passedThreeQuartersOfJumpDurationEvent, addr 0x58c8d3c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
@@ -741,13 +760,13 @@ protected:
   constexpr ObstacleController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleController(ObstacleController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleController(ObstacleController const&) = delete;
+  ObstacleController(ObstacleControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5703 };
@@ -755,39 +774,52 @@ public:
   /// @brief Field kAvoidMarkTimeOffset offset 0xffffffff size 0x4
   static constexpr float_t kAvoidMarkTimeOffset{ static_cast<float_t>(0.15f) };
 
+  /// [SerializeField]
   /// @brief Field _layerSwitch, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____layerSwitch;
 
+  /// [SerializeField]
   /// @brief Field _stretchableObstacle, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StretchableObstacle> ____stretchableObstacle;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _endDistanceOffset, offset: 0x48, size: 0x4, def value: None
   float_t ____endDistanceOffset;
 
+  /// [SerializeField]
   /// @brief Field _visualWrappers, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____visualWrappers;
 
+  /// [SerializeField]
   /// @brief Field _obstacleMaterialSetter, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleMaterialSetter> ____obstacleMaterialSetter;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [CompilerGenerated]
   /// @brief Field finishedMovementEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___finishedMovementEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field passedThreeQuartersOfJumpDurationEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___passedThreeQuartersOfJumpDurationEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field passedAvoidedMarkEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___passedAvoidedMarkEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didDissolveEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___didDissolveEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didUpdateProgress, offset: 0x90, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* ___didUpdateProgress;
 

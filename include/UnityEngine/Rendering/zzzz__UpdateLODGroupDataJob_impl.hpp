@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UpdateLODGroupDataJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UpdateLODGroupDataJob.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAtomicCounter32_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenLODGroupData_impl.hpp"
@@ -34,11 +34,11 @@ constexpr UnityEngine::Rendering::UpdateLODGroupDataJob::operator ::Unity::Jobs:
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::UpdateLODGroupDataJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "lodGroupInstances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "inputData", ty: "::UnityEngine::Rendering::GPUDrivenLODGroupData", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportDitheringCrossFade", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "lodGroupsData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "lodGroupsCullingData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererCount", ty:
-// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "lodGroupInstances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "inputData", ty: "::UnityEngine::Rendering::GPUDrivenLODGroupData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "supportDitheringCrossFade", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupsData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "lodGroupsCullingData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "rendererCount", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::UpdateLODGroupDataJob::UpdateLODGroupDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> lodGroupInstances,
                                                                                  ::UnityEngine::Rendering::GPUDrivenLODGroupData inputData, bool supportDitheringCrossFade,
                                                                                  ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupData> lodGroupsData,

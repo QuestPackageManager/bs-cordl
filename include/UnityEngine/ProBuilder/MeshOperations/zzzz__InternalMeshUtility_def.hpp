@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\InternalMeshUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/InternalMeshUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility*);
 MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility*, "UnityEngine.ProBuilder.MeshOperations", "InternalMeshUtility");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c*, "UnityEngine.ProBuilder.MeshOperations", "InternalMeshUtility/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -144,13 +145,13 @@ protected:
   constexpr InternalMeshUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalMeshUtility___c(InternalMeshUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalMeshUtility___c(InternalMeshUtility___c const&) = delete;
+  InternalMeshUtility___c(InternalMeshUtility___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16876 };
@@ -189,13 +190,13 @@ protected:
   constexpr InternalMeshUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalMeshUtility(InternalMeshUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalMeshUtility(InternalMeshUtility const&) = delete;
+  InternalMeshUtility(InternalMeshUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16877 };

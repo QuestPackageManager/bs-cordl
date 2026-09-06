@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\AspectRatioFitter.hpp"
+// IWYU pragma private; include "UnityEngine/UI/AspectRatioFitter.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_impl.hpp"
 #include "UnityEngine/UI/zzzz__AspectRatioFitter_def.hpp"
@@ -8,7 +8,7 @@
 #include "UnityEngine/UI/zzzz__ILayoutSelfController_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode::AspectRatioFitter_AspectMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

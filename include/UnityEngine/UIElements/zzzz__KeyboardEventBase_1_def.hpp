@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\KeyboardEventBase_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/KeyboardEventBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,19 @@ struct KeyCode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class KeyboardEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class KeyboardEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::KeyboardEventBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::KeyboardEventBase_1, "UnityEngine.UIElements", "KeyboardEventBase`1");
+// [EventCategory((UnityEngine.UIElements.EventCategory)6)]
 // Dependencies UnityEngine.EventModifiers, UnityEngine.KeyCode, UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.KeyboardEventBase`1<T>
 class CORDL_TYPE KeyboardEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
@@ -112,6 +116,7 @@ public:
   /// @brief Method get_altKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_altKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_character, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline char16_t get_character();
 
@@ -124,9 +129,11 @@ public:
   /// @brief Method get_functionKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_functionKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_keyCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::KeyCode get_keyCode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();
 
@@ -136,12 +143,15 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IKeyboardEvent"
   constexpr ::UnityEngine::UIElements::IKeyboardEvent* i___UnityEngine__UIElements__IKeyboardEvent() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_character, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_character(char16_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_keyCode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_keyCode(::UnityEngine::KeyCode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_modifiers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
@@ -151,23 +161,29 @@ protected:
   constexpr KeyboardEventBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardEventBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardEventBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyboardEventBase_1(KeyboardEventBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardEventBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardEventBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyboardEventBase_1(KeyboardEventBase_1 const&) = delete;
+  KeyboardEventBase_1(KeyboardEventBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4478 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <modifiers>k__BackingField, offset: 0x64, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <character>k__BackingField, offset: 0x68, size: 0x2, def value: None
   char16_t ____character_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <keyCode>k__BackingField, offset: 0x6c, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode_k__BackingField;
 

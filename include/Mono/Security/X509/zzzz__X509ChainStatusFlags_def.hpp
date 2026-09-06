@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\X509\X509ChainStatusFlags.hpp"
+// IWYU pragma private; include "Mono/Security/X509/X509ChainStatusFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct X509ChainStatusFlags;
 // Write type traits
 MARK_VAL_T(::Mono::Security::X509::X509ChainStatusFlags);
 DEFINE_IL2CPP_CLASS(::Mono::Security::X509::X509ChainStatusFlags, "Mono.Security.X509", "X509ChainStatusFlags");
+// [Flags]
 // Dependencies
 namespace Mono::Security::X509 {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr X509ChainStatusFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr X509ChainStatusFlags(int32_t value__) noexcept;
 
   /// @brief Field InvalidBasicConstraints value: I32(1024)

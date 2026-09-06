@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\IPAddressInformation.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/IPAddressInformation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   /// @brief Method .ctor, addr 0x6352294, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Address, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Address, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::IPAddress* get_Address();
 
 protected:
@@ -38,13 +38,13 @@ protected:
   constexpr IPAddressInformation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IPAddressInformation(IPAddressInformation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPAddressInformation(IPAddressInformation const&) = delete;
+  IPAddressInformation(IPAddressInformationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11672 };

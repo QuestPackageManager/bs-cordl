@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayersMissingEntitlementsNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayersMissingEntitlementsNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ public:
   /// @brief Method Init, addr 0x3780f5c, size 0xbc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Init(::System::Collections::Generic::IEnumerable_1<::StringW>* playersWithoutEntitlements);
 
+  /// @brief [Preserve]
   static inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* New_ctor();
 
   /// @brief Method Obtain, addr 0x3780e4c, size 0x6c, virtual false, abstract: false, final false
@@ -58,6 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__playersWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>* value);
 
+  /// [Preserve]
   /// @brief Method .ctor, addr 0x3780eb8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -70,13 +72,13 @@ protected:
   constexpr PlayersMissingEntitlementsNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayersMissingEntitlementsNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayersMissingEntitlementsNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayersMissingEntitlementsNetSerializable(PlayersMissingEntitlementsNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayersMissingEntitlementsNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayersMissingEntitlementsNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayersMissingEntitlementsNetSerializable(PlayersMissingEntitlementsNetSerializable const&) = delete;
+  PlayersMissingEntitlementsNetSerializable(PlayersMissingEntitlementsNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21204 };

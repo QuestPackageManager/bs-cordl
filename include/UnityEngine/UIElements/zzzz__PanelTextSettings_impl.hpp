@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PanelTextSettings.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PanelTextSettings.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelTextSettings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PanelTextSettings.get_defaultPanelTextSettings

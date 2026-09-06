@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutter.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,13 +90,13 @@ protected:
   constexpr NoteCutter_CuttableBySaberSortParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter_CuttableBySaberSortParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter_CuttableBySaberSortParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutter_CuttableBySaberSortParams(NoteCutter_CuttableBySaberSortParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter_CuttableBySaberSortParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter_CuttableBySaberSortParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutter_CuttableBySaberSortParams(NoteCutter_CuttableBySaberSortParams const&) = delete;
+  NoteCutter_CuttableBySaberSortParams(NoteCutter_CuttableBySaberSortParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6224 };
@@ -149,13 +149,13 @@ protected:
   constexpr NoteCutter_CuttableBySaberSortParamsComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter_CuttableBySaberSortParamsComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter_CuttableBySaberSortParamsComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutter_CuttableBySaberSortParamsComparer(NoteCutter_CuttableBySaberSortParamsComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter_CuttableBySaberSortParamsComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter_CuttableBySaberSortParamsComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutter_CuttableBySaberSortParamsComparer(NoteCutter_CuttableBySaberSortParamsComparer const&) = delete;
+  NoteCutter_CuttableBySaberSortParamsComparer(NoteCutter_CuttableBySaberSortParamsComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6225 };
@@ -219,13 +219,13 @@ protected:
   constexpr NoteCutter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutter(NoteCutter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutter(NoteCutter const&) = delete;
+  NoteCutter(NoteCutterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6226 };

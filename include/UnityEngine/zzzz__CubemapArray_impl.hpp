@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CubemapArray.hpp"
+// IWYU pragma private; include "UnityEngine/CubemapArray.hpp"
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__CubemapArray_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -349,7 +349,7 @@ inline bool UnityEngine::CubemapArray::get_isReadable() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::CubemapArray*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::CubemapArray::Internal_CreateImpl(::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount,
+inline bool UnityEngine::CubemapArray::Internal_CreateImpl(/* [Writable] */ ::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount,
                                                            ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
                                                            ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   static auto* ___internal_method =
@@ -361,8 +361,9 @@ inline bool UnityEngine::CubemapArray::Internal_CreateImpl(::UnityEngine::Cubema
                                                                ::i2c::type_of<::UnityEngine::Experimental::Rendering::TextureCreationFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, mono, ext, count, mipCount, format, colorSpace, flags);
 }
-inline void UnityEngine::CubemapArray::Internal_Create(::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                                       ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
+inline void UnityEngine::CubemapArray::Internal_Create(/* [Writable] */ ::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount,
+                                                       ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
+                                                       ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CubemapArray*>(),
                                                            { "Internal_Create",
@@ -402,7 +403,7 @@ inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, cubemapCount, format, flags);
 }
 inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
-                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
+                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, /* [DefaultValue("Texture.GenerateAllMips")] */ int32_t mipCount) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CubemapArray*>(),
                                                            { ".ctor",
@@ -422,7 +423,7 @@ inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, cubemapCount, format, flags);
 }
 inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
+                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, /* [DefaultValue("Texture.GenerateAllMips")] */ int32_t mipCount) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CubemapArray*>(),
                                                            { ".ctor",
@@ -431,7 +432,8 @@ inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount
                                                                ::i2c::type_of<::UnityEngine::Experimental::Rendering::TextureCreationFlags>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, cubemapCount, format, flags, mipCount);
 }
-inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized) {
+inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear,
+                                             /* [DefaultValue("false")] */ bool createUninitialized) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CubemapArray*>(), { ".ctor",
                                                                                                  {},
@@ -447,7 +449,8 @@ inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount
                        { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, cubemapCount, textureFormat, mipCount, linear);
 }
-inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear, bool createUninitialized) {
+inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, /* [DefaultValue("false")] */ bool linear,
+                                             /* [DefaultValue("false")] */ bool createUninitialized) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CubemapArray*>(), { ".ctor",
                                                                                                  {},
@@ -455,7 +458,7 @@ inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount
                                                                                                    ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, cubemapCount, textureFormat, mipChain, linear, createUninitialized);
 }
-inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) {
+inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, /* [DefaultValue("false")] */ bool linear) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::CubemapArray*>(),
@@ -468,7 +471,7 @@ inline void UnityEngine::CubemapArray::_ctor(int32_t width, int32_t cubemapCount
                                               { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, cubemapCount, textureFormat, mipChain);
 }
-inline void UnityEngine::CubemapArray::Apply(bool updateMipmaps, bool makeNoLongerReadable) {
+inline void UnityEngine::CubemapArray::Apply(/* [DefaultValue("true")] */ bool updateMipmaps, /* [DefaultValue("false")] */ bool makeNoLongerReadable) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CubemapArray*>(), { "Apply", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, updateMipmaps, makeNoLongerReadable);
@@ -504,34 +507,42 @@ inline void UnityEngine::CubemapArray::SetPixels_Injected(::System::IntPtr _unit
                                                                                             ::i2c::type_of<::UnityEngine::CubemapFace>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, colors, face, arrayElement, miplevel);
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
                                                                         ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::CubemapArray*>(width, cubemapCount, format, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
-                                                                        ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
+                                                                        ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
+                                                                        /* [DefaultValue("Texture.GenerateAllMips")] */ int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::CubemapArray*>(width, cubemapCount, format, flags, mipCount));
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                         ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::CubemapArray*>(width, cubemapCount, format, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
-                                                                        ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
+                                                                        ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
+                                                                        /* [DefaultValue("Texture.GenerateAllMips")] */ int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::CubemapArray*>(width, cubemapCount, format, flags, mipCount));
 }
 inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear,
-                                                                        bool createUninitialized) {
+                                                                        /* [DefaultValue("false")] */ bool createUninitialized) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::CubemapArray*>(width, cubemapCount, textureFormat, mipCount, linear, createUninitialized));
 }
 inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::CubemapArray*>(width, cubemapCount, textureFormat, mipCount, linear));
 }
-inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear,
-                                                                        bool createUninitialized) {
+inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain,
+                                                                        /* [DefaultValue("false")] */ bool linear, /* [DefaultValue("false")] */ bool createUninitialized) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::CubemapArray*>(width, cubemapCount, textureFormat, mipChain, linear, createUninitialized));
 }
-inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) {
+/// @brief [ExcludeFromDocs]
+inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain,
+                                                                        /* [DefaultValue("false")] */ bool linear) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::CubemapArray*>(width, cubemapCount, textureFormat, mipChain, linear));
 }
 inline ::UnityEngine::CubemapArray* UnityEngine::CubemapArray::New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain) {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Syntax\StyleSyntaxToken.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/StyleSyntaxToken.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxTokenType_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxToken_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxTokenType_def.hpp"
@@ -65,8 +65,8 @@ inline void UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::_cto
                                                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, type, number);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType", modifiers: "", def_value: Some("{}") }, CppParam { name: "text", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "number", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "text",
+// ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "number", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::StyleSyntaxToken(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text,
                                                                                              int32_t number) noexcept {
   this->type = type;

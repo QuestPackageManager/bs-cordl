@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SR.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SR.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SR_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -46,13 +46,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>
     return ___internal_method;
   }
 };
-inline ::StringW System::Runtime::Serialization::SR::GetString(::StringW name, ::ArrayW<::System::Object*> args) {
+inline ::StringW System::Runtime::Serialization::SR::GetString(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SR*>(), { "GetString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, name, args);
 }
-inline ::StringW System::Runtime::Serialization::SR::GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::System::Object*> args) {
+inline ::StringW System::Runtime::Serialization::SR::GetString(::System::Globalization::CultureInfo* culture, ::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SR*>(),

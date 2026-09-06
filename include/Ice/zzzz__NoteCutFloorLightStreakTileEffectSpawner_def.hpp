@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice\NoteCutFloorLightStreakTileEffectSpawner.hpp"
+// IWYU pragma private; include "Ice/NoteCutFloorLightStreakTileEffectSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   __declspec(property(get = get_spawnColor, put = set_spawnColor)) ::UnityEngine::Color spawnColor;
 
   /// @brief Method HandleNoteWasCut, addr 0x328a508, size 0x64, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawner* New_ctor();
 
@@ -103,23 +103,26 @@ protected:
   constexpr NoteCutFloorLightStreakTileEffectSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutFloorLightStreakTileEffectSpawner(NoteCutFloorLightStreakTileEffectSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutFloorLightStreakTileEffectSpawner(NoteCutFloorLightStreakTileEffectSpawner const&) = delete;
+  NoteCutFloorLightStreakTileEffectSpawner(NoteCutFloorLightStreakTileEffectSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23250 };
 
+  /// [SerializeField]
   /// @brief Field _floorLightStreakTileEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Ice::FloorLightStreakTileEffect> ____floorLightStreakTileEffect;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 

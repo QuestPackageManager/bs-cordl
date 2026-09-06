@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\Drbg\HashSP800Drbg.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/Drbg/HashSP800Drbg.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -170,13 +170,13 @@ protected:
   constexpr HashSP800Drbg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HashSP800Drbg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashSP800Drbg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HashSP800Drbg(HashSP800Drbg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HashSP800Drbg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashSP800Drbg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HashSP800Drbg(HashSP800Drbg const&) = delete;
+  HashSP800Drbg(HashSP800Drbgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1097 };

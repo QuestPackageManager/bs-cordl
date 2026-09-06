@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\UserNotice.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/UserNotice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
+  /// @brief [Obsolete("Use GetInstance() instead")]
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// @brief Method ToAsn1Object, addr 0x3669320, size 0x138, virtual true, abstract: false, final false
@@ -75,6 +76,7 @@ public:
   /// @brief Method .ctor, addr 0x366901c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
+  /// [Obsolete("Use GetInstance() instead")]
   /// @brief Method .ctor, addr 0x3669088, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -90,13 +92,13 @@ protected:
   constexpr UserNotice();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UserNotice", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UserNotice", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserNotice(UserNotice&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UserNotice", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UserNotice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UserNotice(UserNotice const&) = delete;
+  UserNotice(UserNoticeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 395 };

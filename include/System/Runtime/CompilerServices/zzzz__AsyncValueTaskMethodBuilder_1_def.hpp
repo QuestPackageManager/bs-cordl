@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncValueTaskMethodBuilder_1.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncValueTaskMethodBuilder_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncValueTaskMethodBuilder_1)
 namespace System::Runtime::CompilerServices {
@@ -22,7 +24,7 @@ template <typename TResult> struct AsyncValueTaskMethodBuilder_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1);
 DEFINE_IL2CPP_GEN_CLASS(::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1, "System.Runtime.CompilerServices", "AsyncValueTaskMethodBuilder`1");
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.ICriticalNotifyCompletion
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
@@ -34,7 +36,10 @@ public:
   __declspec(property(get = get_Task)) ::System::Threading::Tasks::ValueTask_1<TResult> Task;
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<TResult> Create();
@@ -49,7 +54,9 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TStateMachine> inline void Start(::by_ref<TStateMachine> stateMachine);
+  template <typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void Start(::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<TResult> get_Task();
@@ -58,9 +65,9 @@ public:
   // @brief default ctor
   constexpr AsyncValueTaskMethodBuilder_1();
 
-  // Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>", modifiers: "", def_value: None }, CppParam { name: "_result", ty:
-  // "TResult", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_result", ty: "TResult", modifiers: "", def_value: None, comment: None }, CppParam { name: "_haveResult", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_useBuilder", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncValueTaskMethodBuilder_1(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> _methodBuilder, TResult _result, bool _haveResult, bool _useBuilder) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

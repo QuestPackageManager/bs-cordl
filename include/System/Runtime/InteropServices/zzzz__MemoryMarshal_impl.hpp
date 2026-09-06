@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\MemoryMarshal.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/MemoryMarshal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__MemoryMarshal_def.hpp"
 #include "System/zzzz__ArraySegment_1_def.hpp"
@@ -7,14 +7,18 @@
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-template <typename T> inline ::System::Span_1<uint8_t> System::Runtime::InteropServices::MemoryMarshal::AsBytes(::System::Span_1<T> span) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::System::Span_1<uint8_t> System::Runtime::InteropServices::MemoryMarshal::AsBytes(::System::Span_1<T> span) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::MemoryMarshal*>(), { "AsBytes", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Span_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Span_1<uint8_t>>(nullptr, ___internal_method, span);
 }
-template <typename T> inline ::System::ReadOnlySpan_1<uint8_t> System::Runtime::InteropServices::MemoryMarshal::AsBytes(::System::ReadOnlySpan_1<T> span) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::System::ReadOnlySpan_1<uint8_t> System::Runtime::InteropServices::MemoryMarshal::AsBytes(::System::ReadOnlySpan_1<T> span) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::MemoryMarshal*>(),
                                                                                               { "AsBytes", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::ReadOnlySpan_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

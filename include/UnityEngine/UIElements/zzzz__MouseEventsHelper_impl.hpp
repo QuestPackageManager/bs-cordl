@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseEventsHelper.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseEventsHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventsHelper_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
@@ -24,6 +25,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
   }
 };
 template <typename TLeaveEvent, typename TEnterEvent>
+  requires(::cordl_internals::type_constraint<TLeaveEvent, ::UnityEngine::UIElements::MouseEventBase_1<TLeaveEvent>*> && ::cordl_internals::default_constructor_constraint<TLeaveEvent> &&
+           ::cordl_internals::type_constraint<TEnterEvent, ::UnityEngine::UIElements::MouseEventBase_1<TEnterEvent>*> && ::cordl_internals::default_constructor_constraint<TEnterEvent>)
 inline void UnityEngine::UIElements::MouseEventsHelper::SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderMouse,
                                                                        ::UnityEngine::UIElements::VisualElement* currentTopElementUnderMouse, ::UnityEngine::UIElements::IMouseEvent* triggerEvent,
                                                                        ::UnityEngine::Vector2 mousePosition) {

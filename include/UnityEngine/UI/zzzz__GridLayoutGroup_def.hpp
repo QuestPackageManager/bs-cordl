@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\GridLayoutGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UI/GridLayoutGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
   // @brief default ctor
   constexpr GridLayoutGroup_Corner();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GridLayoutGroup_Corner(int32_t value__) noexcept;
 
   /// @brief Field LowerLeft value: I32(2)
@@ -134,7 +134,7 @@ public:
   // @brief default ctor
   constexpr GridLayoutGroup_Axis();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GridLayoutGroup_Axis(int32_t value__) noexcept;
 
   /// @brief Field Horizontal value: I32(0)
@@ -190,7 +190,7 @@ public:
   // @brief default ctor
   constexpr GridLayoutGroup_Constraint();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GridLayoutGroup_Constraint(int32_t value__) noexcept;
 
   /// @brief Field FixedColumnCount value: I32(1)
@@ -219,6 +219,7 @@ static_assert(offsetof(::UnityEngine::UI::GridLayoutGroup_Constraint, value__) =
 static_assert(sizeof(::UnityEngine::UI::GridLayoutGroup_Constraint) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("Layout/Grid Layout Group", 152)]
 // Dependencies UnityEngine.UI.GridLayoutGroup::Axis, UnityEngine.UI.GridLayoutGroup::Constraint, UnityEngine.UI.GridLayoutGroup::Corner, UnityEngine.UI.LayoutGroup, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
@@ -360,32 +361,38 @@ protected:
   constexpr GridLayoutGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GridLayoutGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridLayoutGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GridLayoutGroup(GridLayoutGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GridLayoutGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridLayoutGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridLayoutGroup(GridLayoutGroup const&) = delete;
+  GridLayoutGroup(GridLayoutGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17451 };
 
+  /// [SerializeField]
   /// @brief Field m_StartCorner, offset: 0x60, size: 0x4, def value: None
   ::UnityEngine::UI::GridLayoutGroup_Corner ___m_StartCorner;
 
+  /// [SerializeField]
   /// @brief Field m_StartAxis, offset: 0x64, size: 0x4, def value: None
   ::UnityEngine::UI::GridLayoutGroup_Axis ___m_StartAxis;
 
+  /// [SerializeField]
   /// @brief Field m_CellSize, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_CellSize;
 
+  /// [SerializeField]
   /// @brief Field m_Spacing, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_Spacing;
 
+  /// [SerializeField]
   /// @brief Field m_Constraint, offset: 0x78, size: 0x4, def value: None
   ::UnityEngine::UI::GridLayoutGroup_Constraint ___m_Constraint;
 
+  /// [SerializeField]
   /// @brief Field m_ConstraintCount, offset: 0x7c, size: 0x4, def value: None
   int32_t ___m_ConstraintCount;
 

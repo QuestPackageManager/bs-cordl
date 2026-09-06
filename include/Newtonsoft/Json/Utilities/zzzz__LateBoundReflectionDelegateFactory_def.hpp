@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\LateBoundReflectionDelegateFactory.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/LateBoundReflectionDelegateFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,6 +112,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::LateBoundReflectionDe
                             "LateBoundReflectionDelegateFactory/<>c__DisplayClass8_0`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1, "Newtonsoft.Json.Utilities",
                             "LateBoundReflectionDelegateFactory/<>c__DisplayClass9_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -128,10 +129,10 @@ public:
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0* New_ctor();
 
   /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x5d2d614, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _CreateParameterizedConstructor_b__0(::ArrayW<::System::Object*> a);
+  inline ::System::Object* _CreateParameterizedConstructor_b__0(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a);
 
   /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x5d2d644, size 0x34, virtual false, abstract: false, final false
-  inline ::System::Object* _CreateParameterizedConstructor_b__1(::ArrayW<::System::Object*> a);
+  inline ::System::Object* _CreateParameterizedConstructor_b__1(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a);
 
   constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get_c() const;
 
@@ -154,20 +155,22 @@ protected:
   constexpr LateBoundReflectionDelegateFactory___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LateBoundReflectionDelegateFactory___c__DisplayClass3_0(LateBoundReflectionDelegateFactory___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LateBoundReflectionDelegateFactory___c__DisplayClass3_0(LateBoundReflectionDelegateFactory___c__DisplayClass3_0 const&) = delete;
+  LateBoundReflectionDelegateFactory___c__DisplayClass3_0(LateBoundReflectionDelegateFactory___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13435 };
 
+  /// [Nullable(0)]
   /// @brief Field c, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ___c;
 
+  /// [Nullable(0)]
   /// @brief Field method, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::MethodBase* ___method;
 
@@ -181,6 +184,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegat
 static_assert(sizeof(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0) == 0x20, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -198,11 +202,13 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <CreateMethodCall>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Object* _CreateMethodCall_b__0(T o, ::ArrayW<::System::Object*> a);
+  inline ::System::Object* _CreateMethodCall_b__0(T o, /* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a);
 
+  /// [NullableContext(0)]
   /// @brief Method <CreateMethodCall>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Object* _CreateMethodCall_b__1(T o, ::ArrayW<::System::Object*> a);
+  inline ::System::Object* _CreateMethodCall_b__1(T o, /* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a);
 
   constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get_c() const;
 
@@ -225,20 +231,22 @@ protected:
   constexpr LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1 const&) = delete;
+  LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13436 };
 
+  /// [Nullable(0)]
   /// @brief Field c, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ___c;
 
+  /// [Nullable(0)]
   /// @brief Field method, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::MethodBase* ___method;
 
@@ -246,6 +254,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -263,9 +272,11 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <CreateDefaultConstructor>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _CreateDefaultConstructor_b__0();
 
+  /// [NullableContext(0)]
   /// @brief Method <CreateDefaultConstructor>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _CreateDefaultConstructor_b__1();
 
@@ -290,20 +301,22 @@ protected:
   constexpr LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1 const&) = delete;
+  LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13437 };
 
+  /// [Nullable(0)]
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 
+  /// [Nullable(0)]
   /// @brief Field constructorInfo, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ___constructorInfo;
 
@@ -311,6 +324,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -325,6 +339,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <CreateGet>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* _CreateGet_b__0(T o);
 
@@ -343,17 +358,18 @@ protected:
   constexpr LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1 const&) = delete;
+  LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13438 };
 
+  /// [Nullable(0)]
   /// @brief Field propertyInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___propertyInfo;
 
@@ -361,6 +377,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -375,6 +392,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <CreateGet>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* _CreateGet_b__0(T o);
 
@@ -393,17 +411,18 @@ protected:
   constexpr LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1 const&) = delete;
+  LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13439 };
 
+  /// [Nullable(0)]
   /// @brief Field fieldInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ___fieldInfo;
 
@@ -411,6 +430,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -425,8 +445,9 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <CreateSet>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _CreateSet_b__0(T o, ::System::Object* v);
+  inline void _CreateSet_b__0(T o, /* [Nullable(2)] */ ::System::Object* v);
 
   constexpr ::System::Reflection::FieldInfo* const& __cordl_internal_get_fieldInfo() const;
 
@@ -443,17 +464,18 @@ protected:
   constexpr LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1 const&) = delete;
+  LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13440 };
 
+  /// [Nullable(0)]
   /// @brief Field fieldInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ___fieldInfo;
 
@@ -461,6 +483,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -475,8 +498,9 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <CreateSet>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _CreateSet_b__0(T o, ::System::Object* v);
+  inline void _CreateSet_b__0(T o, /* [Nullable(2)] */ ::System::Object* v);
 
   constexpr ::System::Reflection::PropertyInfo* const& __cordl_internal_get_propertyInfo() const;
 
@@ -493,17 +517,18 @@ protected:
   constexpr LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1 const&) = delete;
+  LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13441 };
 
+  /// [Nullable(0)]
   /// @brief Field propertyInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___propertyInfo;
 
@@ -511,6 +536,8 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Utilities.ReflectionDelegateFactory
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -574,13 +601,13 @@ protected:
   constexpr LateBoundReflectionDelegateFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LateBoundReflectionDelegateFactory(LateBoundReflectionDelegateFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LateBoundReflectionDelegateFactory(LateBoundReflectionDelegateFactory const&) = delete;
+  LateBoundReflectionDelegateFactory(LateBoundReflectionDelegateFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13442 };

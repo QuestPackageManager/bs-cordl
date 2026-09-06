@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextShaderUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextShaderUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class TextShaderUtilities;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Text::TextShaderUtilities*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextShaderUtilities*, "UnityEngine.TextCore.Text", "TextShaderUtilities");
+// [ExcludeFromDocs]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -411,9 +412,11 @@ public:
   /// @brief Method get_ShaderRef_MobileBitmap, addr 0x6c13b6c, size 0x1dc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method get_ShaderRef_MobileSDF, addr 0x6c13884, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
   /// @brief Method get_ShaderRef_MobileSDF_IMGUI, addr 0x6c13a00, size 0x16c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF_IMGUI();
 
@@ -578,13 +581,13 @@ protected:
   constexpr TextShaderUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextShaderUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextShaderUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextShaderUtilities(TextShaderUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextShaderUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextShaderUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextShaderUtilities(TextShaderUtilities const&) = delete;
+  TextShaderUtilities(TextShaderUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17287 };

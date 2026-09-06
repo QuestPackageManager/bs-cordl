@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Smime\SmimeCapabilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Smime/SmimeCapabilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,7 @@ public:
   /// @brief Method DoGetCapabilitiesForOid, addr 0x354af90, size 0x5d0, virtual false, abstract: false, final false
   inline void DoGetCapabilitiesForOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, ::System::Collections::IList* list);
 
+  /// [Obsolete("Use \'GetCapabilitiesForOid\' instead")]
   /// @brief Method GetCapabilities, addr 0x354af18, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetCapabilities(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
 
@@ -149,13 +150,13 @@ protected:
   constexpr SmimeCapabilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmimeCapabilities(SmimeCapabilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmimeCapabilities(SmimeCapabilities const&) = delete;
+  SmimeCapabilities(SmimeCapabilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 292 };

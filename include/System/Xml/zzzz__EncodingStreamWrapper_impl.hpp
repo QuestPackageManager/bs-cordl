@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\EncodingStreamWrapper.hpp"
+// IWYU pragma private; include "System/Xml/EncodingStreamWrapper.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Xml/zzzz__EncodingStreamWrapper_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
@@ -10,7 +10,7 @@
 #include "System/Text/zzzz__UTF8Encoding_def.hpp"
 #include "System/Text/zzzz__UnicodeEncoding_def.hpp"
 #include "System/Xml/zzzz__EncodingStreamWrapper_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::EncodingStreamWrapper_SupportedEncoding::EncodingStreamWrapper_SupportedEncoding(int32_t value__) noexcept {
   this->value__ = value__;
 }

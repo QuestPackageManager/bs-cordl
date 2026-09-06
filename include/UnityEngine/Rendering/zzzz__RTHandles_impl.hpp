@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RTHandles.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RTHandles.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandles_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
@@ -744,8 +744,9 @@ inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::RTHandles::Al
                                                            { "Alloc", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RTHandleAllocInfo>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RTHandle*>(nullptr, ___internal_method, width, height, info);
 }
-inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::RTHandles::Alloc(::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
-                                                                                    ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name) {
+inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::RTHandles::Alloc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+                                                                                    ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel,
+                                                                                    float_t mipMapBias, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandles*>(),
@@ -818,7 +819,7 @@ inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::RTHandles::Al
                                                                                   useMipMap, autoGenerateMips, isShadowMap, anisoLevel, mipMapBias, msaaSamples, bindTextureMS, useDynamicScale,
                                                                                   useDynamicScaleExplicit, memoryless, vrUsage, name);
 }
-inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::RTHandles::Alloc(::UnityEngine::Vector2 scaleFactor, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::RTHandles::Alloc(::UnityEngine::Vector2 scaleFactor, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
                                                                                     ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel,
                                                                                     float_t mipMapBias, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -891,7 +892,8 @@ inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::RTHandles::Al
                                                                                   autoGenerateMips, isShadowMap, anisoLevel, mipMapBias, msaaSamples, bindTextureMS, useDynamicScale,
                                                                                   useDynamicScaleExplicit, memoryless, vrUsage, name);
 }
-inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::RTHandles::Alloc(::UnityEngine::Rendering::ScaleFunc* scaleFunc, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::RTHandles::Alloc(::UnityEngine::Rendering::ScaleFunc* scaleFunc,
+                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
                                                                                     ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel,
                                                                                     float_t mipMapBias, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(

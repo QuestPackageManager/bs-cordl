@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\Samples\SampleMetadata.hpp"
+// IWYU pragma private; include "Meta/XR/Samples/SampleMetadata.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class SampleMetadata;
 // Write type traits
 MARK_REF_T(::Meta::XR::Samples::SampleMetadata*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::Samples::SampleMetadata*, "Meta.XR.Samples", "SampleMetadata");
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace Meta::XR::Samples {
 // Is value type: false
@@ -56,13 +57,13 @@ protected:
   constexpr SampleMetadata();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SampleMetadata", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SampleMetadata", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SampleMetadata(SampleMetadata&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SampleMetadata", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SampleMetadata", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SampleMetadata(SampleMetadata const&) = delete;
+  SampleMetadata(SampleMetadataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8567 };

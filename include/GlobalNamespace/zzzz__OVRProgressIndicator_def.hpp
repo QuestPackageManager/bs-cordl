@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRProgressIndicator.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRProgressIndicator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class OVRProgressIndicator;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRProgressIndicator*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRProgressIndicator*, "", "OVRProgressIndicator");
+// [HelpURL("https://developer.oculus.com/reference/unity/latest/class_o_v_r_progress_indicator")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -58,13 +59,13 @@ protected:
   constexpr OVRProgressIndicator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRProgressIndicator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRProgressIndicator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRProgressIndicator(OVRProgressIndicator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRProgressIndicator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRProgressIndicator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRProgressIndicator(OVRProgressIndicator const&) = delete;
+  OVRProgressIndicator(OVRProgressIndicatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7966 };
@@ -72,6 +73,7 @@ public:
   /// @brief Field progressImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ___progressImage;
 
+  /// [Range(0, 1)]
   /// @brief Field currentProgress, offset: 0x28, size: 0x4, def value: None
   float_t ___currentProgress;
 

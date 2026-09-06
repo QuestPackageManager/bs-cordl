@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapTypeConverters.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapTypeConverters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -155,13 +155,13 @@ protected:
   constexpr BeatmapTypeConverters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapTypeConverters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapTypeConverters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapTypeConverters(BeatmapTypeConverters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapTypeConverters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapTypeConverters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapTypeConverters(BeatmapTypeConverters const&) = delete;
+  BeatmapTypeConverters(BeatmapTypeConvertersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14901 };

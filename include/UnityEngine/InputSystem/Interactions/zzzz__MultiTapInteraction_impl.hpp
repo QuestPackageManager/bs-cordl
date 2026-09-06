@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Interactions\MultiTapInteraction.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Interactions/MultiTapInteraction.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__MultiTapInteraction_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Interactions::MultiTapInteraction_TapPhase::MultiTapInteraction_TapPhase(int32_t value__) noexcept {
   this->value__ = value__;
 }

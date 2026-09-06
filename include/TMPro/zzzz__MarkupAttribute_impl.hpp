@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\MarkupAttribute.hpp"
+// IWYU pragma private; include "TMPro/MarkupAttribute.hpp"
 #include "TMPro/zzzz__MarkupAttribute_def.hpp"
 //  Writing Method size for method: ::TMPro::MarkupAttribute.get_NameHashCode
 template <>
@@ -129,8 +129,9 @@ inline void TMPro::MarkupAttribute::set_ValueLength(int32_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupAttribute>(), { "set_ValueLength", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_NameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ValueHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_ValueStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ValueLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_NameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ValueHashCode", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_ValueStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ValueLength", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::MarkupAttribute::MarkupAttribute(int32_t m_NameHashCode, int32_t m_ValueHashCode, int32_t m_ValueStartIndex, int32_t m_ValueLength) noexcept {
   this->m_NameHashCode = m_NameHashCode;
   this->m_ValueHashCode = m_ValueHashCode;

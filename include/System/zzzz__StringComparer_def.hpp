@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\StringComparer.hpp"
+// IWYU pragma private; include "System/StringComparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
   /// @brief Method Compare, addr 0x5c5dacc, size 0x180, virtual true, abstract: false, final true
@@ -81,13 +81,13 @@ public:
   /// @brief Method Create, addr 0x5c5d9bc, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::StringComparer* Create(::System::Globalization::CultureInfo* culture, bool ignoreCase);
 
-  /// @brief Method Equals, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(::StringW x, ::StringW y);
 
   /// @brief Method Equals, addr 0x5c5dc4c, size 0x60, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(::StringW obj);
 
   /// @brief Method GetHashCode, addr 0x5c5dcac, size 0x80, virtual true, abstract: false, final true
@@ -141,13 +141,13 @@ protected:
   constexpr StringComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringComparer(StringComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringComparer(StringComparer const&) = delete;
+  StringComparer(StringComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2479 };

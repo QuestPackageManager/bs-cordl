@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\WhiteColorOrAlphaGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/WhiteColorOrAlphaGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,23 +85,26 @@ protected:
   constexpr WhiteColorOrAlphaGroupEffectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WhiteColorOrAlphaGroupEffectManager(WhiteColorOrAlphaGroupEffectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WhiteColorOrAlphaGroupEffectManager(WhiteColorOrAlphaGroupEffectManager const&) = delete;
+  WhiteColorOrAlphaGroupEffectManager(WhiteColorOrAlphaGroupEffectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5897 };
 
+  /// [SerializeField]
   /// @brief Field _lightGroup, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>> ____lightGroup;
 
+  /// [SerializeField]
   /// @brief Field _color, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x38, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Vector3Int.hpp"
+// IWYU pragma private; include "UnityEngine/Vector3Int.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,9 @@ struct Vector3Int;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Vector3Int);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Vector3Int, "UnityEngine", "Vector3Int");
+// [UsedByNativeCode]
+// [Il2CppEagerStaticClassConstruction]
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -180,8 +183,8 @@ public:
   // @brief default ctor
   constexpr Vector3Int();
 
-  // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Z", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Z", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector3Int(int32_t m_X, int32_t m_Y, int32_t m_Z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

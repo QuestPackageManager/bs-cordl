@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\PlatformInit_.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/PlatformInit_.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__PlatformInit__def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::PlatformInit_._ctor

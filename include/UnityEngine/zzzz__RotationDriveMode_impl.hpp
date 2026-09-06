@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RotationDriveMode.hpp"
+// IWYU pragma private; include "UnityEngine/RotationDriveMode.hpp"
 #include "UnityEngine/zzzz__RotationDriveMode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RotationDriveMode::RotationDriveMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

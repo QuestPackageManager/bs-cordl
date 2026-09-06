@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\ProductHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/ProductHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,18 +85,22 @@ public:
   /// @brief Method .ctor, addr 0x60ed4dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x60ed4e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Version, addr 0x60ed4f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x60ed4e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Version, addr 0x60ed4f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::StringW value);
 
@@ -106,20 +110,22 @@ protected:
   constexpr ProductHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProductHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProductHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProductHeaderValue(ProductHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProductHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProductHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProductHeaderValue(ProductHeaderValue const&) = delete;
+  ProductHeaderValue(ProductHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20336 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Version>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Version_k__BackingField;
 

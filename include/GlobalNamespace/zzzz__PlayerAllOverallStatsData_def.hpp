@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerAllOverallStatsData.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerAllOverallStatsData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -182,36 +182,47 @@ public:
   inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount,
                     int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore);
 
+  /// [CompilerGenerated]
   /// @brief Method get_badCutsCount, addr 0x3746cb8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_badCutsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clearedLevelsCount, addr 0x3746cf8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clearedLevelsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_failedLevelsCount, addr 0x3746d08, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_failedLevelsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fullComboCount, addr 0x3746d18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fullComboCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_goodCutsCount, addr 0x3746ca8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_goodCutsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_handDistanceTravelled, addr 0x3746d38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handDistanceTravelled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_missedCutsCount, addr 0x3746cc8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_missedCutsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_playedLevelsCount, addr 0x3746ce8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playedLevelsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_timePlayed, addr 0x3746d28, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timePlayed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_totalCutScore, addr 0x3746d48, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_totalCutScore();
 
+  /// [CompilerGenerated]
   /// @brief Method get_totalScore, addr 0x3746cd8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_totalScore();
 
@@ -219,36 +230,47 @@ public:
   static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* op_Addition(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* a,
                                                                                                  ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* b);
 
+  /// [CompilerGenerated]
   /// @brief Method set_badCutsCount, addr 0x3746cc0, size 0x8, virtual false, abstract: false, final false
   inline void set_badCutsCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clearedLevelsCount, addr 0x3746d00, size 0x8, virtual false, abstract: false, final false
   inline void set_clearedLevelsCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_failedLevelsCount, addr 0x3746d10, size 0x8, virtual false, abstract: false, final false
   inline void set_failedLevelsCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_fullComboCount, addr 0x3746d20, size 0x8, virtual false, abstract: false, final false
   inline void set_fullComboCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_goodCutsCount, addr 0x3746cb0, size 0x8, virtual false, abstract: false, final false
   inline void set_goodCutsCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_handDistanceTravelled, addr 0x3746d40, size 0x8, virtual false, abstract: false, final false
   inline void set_handDistanceTravelled(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_missedCutsCount, addr 0x3746cd0, size 0x8, virtual false, abstract: false, final false
   inline void set_missedCutsCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playedLevelsCount, addr 0x3746cf0, size 0x8, virtual false, abstract: false, final false
   inline void set_playedLevelsCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_timePlayed, addr 0x3746d30, size 0x8, virtual false, abstract: false, final false
   inline void set_timePlayed(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_totalCutScore, addr 0x3746d50, size 0x8, virtual false, abstract: false, final false
   inline void set_totalCutScore(int64_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_totalScore, addr 0x3746ce0, size 0x8, virtual false, abstract: false, final false
   inline void set_totalScore(int64_t value);
 
@@ -258,47 +280,58 @@ protected:
   constexpr PlayerAllOverallStatsData_PlayerOverallStatsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData_PlayerOverallStatsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData_PlayerOverallStatsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerAllOverallStatsData_PlayerOverallStatsData(PlayerAllOverallStatsData_PlayerOverallStatsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData_PlayerOverallStatsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData_PlayerOverallStatsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerAllOverallStatsData_PlayerOverallStatsData(PlayerAllOverallStatsData_PlayerOverallStatsData const&) = delete;
+  PlayerAllOverallStatsData_PlayerOverallStatsData(PlayerAllOverallStatsData_PlayerOverallStatsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15158 };
 
+  /// [CompilerGenerated]
   /// @brief Field <goodCutsCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____goodCutsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <badCutsCount>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____badCutsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <missedCutsCount>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____missedCutsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <totalScore>k__BackingField, offset: 0x20, size: 0x8, def value: None
   int64_t ____totalScore_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <playedLevelsCount>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____playedLevelsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <clearedLevelsCount>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____clearedLevelsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <failedLevelsCount>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____failedLevelsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <fullComboCount>k__BackingField, offset: 0x34, size: 0x4, def value: None
   int32_t ____fullComboCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <timePlayed>k__BackingField, offset: 0x38, size: 0x4, def value: None
   float_t ____timePlayed_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <handDistanceTravelled>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   int32_t ____handDistanceTravelled_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <totalCutScore>k__BackingField, offset: 0x40, size: 0x8, def value: None
   int64_t ____totalCutScore_k__BackingField;
 
@@ -454,36 +487,46 @@ public:
                     ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* partyFreePlayOverallStatsData,
                     ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* onlinePlayOverallStatsData);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didUpdateCampaignOverallStatsDataEvent, addr 0x3746818, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x3746698, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x3746518, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
   /// @brief Method get_allOverallStatsData, addr 0x37463e4, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_allOverallStatsData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_campaignOverallStatsData, addr 0x37464f8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_campaignOverallStatsData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_onlinePlayOverallStatsData, addr 0x3746510, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_onlinePlayOverallStatsData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_partyFreePlayOverallStatsData, addr 0x3746508, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_partyFreePlayOverallStatsData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_soloFreePlayOverallStatsData, addr 0x3746500, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_soloFreePlayOverallStatsData();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didUpdateCampaignOverallStatsDataEvent, addr 0x37468d8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x3746758, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x37465d8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
@@ -493,35 +536,42 @@ protected:
   constexpr PlayerAllOverallStatsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerAllOverallStatsData(PlayerAllOverallStatsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerAllOverallStatsData(PlayerAllOverallStatsData const&) = delete;
+  PlayerAllOverallStatsData(PlayerAllOverallStatsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15159 };
 
+  /// [CompilerGenerated]
   /// @brief Field <campaignOverallStatsData>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ____campaignOverallStatsData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <soloFreePlayOverallStatsData>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ____soloFreePlayOverallStatsData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <partyFreePlayOverallStatsData>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ____partyFreePlayOverallStatsData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <onlinePlayOverallStatsData>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ____onlinePlayOverallStatsData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field didUpdateSoloFreePlayOverallStatsDataEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* ___didUpdateSoloFreePlayOverallStatsDataEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didUpdatePartyFreePlayOverallStatsDataEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* ___didUpdatePartyFreePlayOverallStatsDataEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didUpdateCampaignOverallStatsDataEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* ___didUpdateCampaignOverallStatsDataEvent;
 

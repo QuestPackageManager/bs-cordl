@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandaloneSettingsApplicatorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandaloneSettingsApplicatorSO.hpp"
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneSettingsApplicatorSO_def.hpp"
 #include "BeatSaber/Settings/zzzz__WindowSettings_def.hpp"
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::StandaloneSettingsApplicatorSO::ApplyWindowSettings(::by_ref<::BeatSaber::Settings::WindowSettings> settings) {
+inline void GlobalNamespace::StandaloneSettingsApplicatorSO::ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings> settings) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::StandaloneSettingsApplicatorSO*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimatorClipInfo.hpp"
+// IWYU pragma private; include "UnityEngine/AnimatorClipInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,9 @@ struct AnimatorClipInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::AnimatorClipInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");
+// [NativeHeader("Modules/Animation/ScriptBindings/Animation.bindings.h")]
+// [NativeHeader("Modules/Animation/AnimatorInfo.h")]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -25,7 +28,8 @@ public:
   // @brief default ctor
   constexpr AnimatorClipInfo();
 
-  // Ctor Parameters [CppParam { name: "m_ClipInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ClipInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr AnimatorClipInfo(int32_t m_ClipInstanceID, float_t m_Weight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\IFormatterConverter.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/IFormatterConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class IFormatterConverter;
 // Write type traits
 MARK_REF_T(::System::Runtime::Serialization::IFormatterConverter*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::IFormatterConverter*, "System.Runtime.Serialization", "IFormatterConverter");
+// [CLSCompliant(false)]
 // Dependencies
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -27,27 +28,27 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE IFormatterConverter {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Convert(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method ToBoolean, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToInt32, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(::System::Object* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IFormatterConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IFormatterConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IFormatterConverter(IFormatterConverter const&) = delete;
+  IFormatterConverter(IFormatterConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3211 };

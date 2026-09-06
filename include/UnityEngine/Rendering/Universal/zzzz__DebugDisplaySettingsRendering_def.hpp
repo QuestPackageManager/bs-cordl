@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugDisplaySettingsRendering.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugDisplaySettingsRendering.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -349,7 +349,7 @@ public:
   // @brief default ctor
   constexpr DebugDisplaySettingsRendering_TaaDebugMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugDisplaySettingsRendering_TaaDebugMode(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -556,13 +556,13 @@ protected:
   constexpr DebugDisplaySettingsRendering_Strings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_Strings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_Strings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsRendering_Strings(DebugDisplaySettingsRendering_Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_Strings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRendering_Strings(DebugDisplaySettingsRendering_Strings const&) = delete;
+  DebugDisplaySettingsRendering_Strings(DebugDisplaySettingsRendering_Stringsconst&) = delete;
 
   /// @brief Field RangeValidationSettingsContainerName offset 0xffffffff size 0x8
   static constexpr ::ConstString RangeValidationSettingsContainerName{ u"Pixel Range Settings" };
@@ -576,6 +576,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_Strings) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -741,13 +742,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c(WidgetFactory_DebugDisplaySettingsRendering___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c(WidgetFactory_DebugDisplaySettingsRendering___c const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c(WidgetFactory_DebugDisplaySettingsRendering___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12638 };
@@ -758,6 +759,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -797,13 +799,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12639 };
@@ -819,6 +821,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -858,13 +861,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12640 };
@@ -880,6 +883,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -916,13 +920,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12641 };
@@ -938,6 +942,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -974,13 +979,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12642 };
@@ -996,6 +1001,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1035,13 +1041,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12643 };
@@ -1057,6 +1063,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1090,13 +1097,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12644 };
@@ -1112,6 +1119,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1145,13 +1153,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12645 };
@@ -1167,6 +1175,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1206,13 +1215,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12646 };
@@ -1228,6 +1237,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1267,13 +1277,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12647 };
@@ -1289,6 +1299,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1328,13 +1339,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12648 };
@@ -1350,6 +1361,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1383,13 +1395,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12649 };
@@ -1405,6 +1417,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1447,13 +1460,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12650 };
@@ -1469,6 +1482,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1502,13 +1516,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12651 };
@@ -1524,6 +1538,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1557,13 +1572,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12652 };
@@ -1579,6 +1594,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1618,13 +1634,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12653 };
@@ -1640,6 +1656,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1670,13 +1687,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12654 };
@@ -1692,6 +1709,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1731,13 +1749,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12655 };
@@ -1753,6 +1771,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1789,13 +1808,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12656 };
@@ -1811,6 +1830,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1850,13 +1870,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12657 };
@@ -1872,6 +1892,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1935,13 +1956,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12658 };
@@ -2077,13 +2098,13 @@ protected:
   constexpr DebugDisplaySettingsRendering_WidgetFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_WidgetFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_WidgetFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsRendering_WidgetFactory(DebugDisplaySettingsRendering_WidgetFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_WidgetFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_WidgetFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRendering_WidgetFactory(DebugDisplaySettingsRendering_WidgetFactory const&) = delete;
+  DebugDisplaySettingsRendering_WidgetFactory(DebugDisplaySettingsRendering_WidgetFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12659 };
@@ -2094,6 +2115,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_WidgetFactory) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -2124,13 +2146,13 @@ protected:
   constexpr SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0 const&) = delete;
+  SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12660 };
@@ -2146,6 +2168,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::SettingsPanel_DebugD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [DisplayInfo(name = "Rendering", order = 1)]
 // Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel`1<T>
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -2166,13 +2189,13 @@ protected:
   constexpr DebugDisplaySettingsRendering_SettingsPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_SettingsPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_SettingsPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsRendering_SettingsPanel(DebugDisplaySettingsRendering_SettingsPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_SettingsPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRendering_SettingsPanel(DebugDisplaySettingsRendering_SettingsPanel const&) = delete;
+  DebugDisplaySettingsRendering_SettingsPanel(DebugDisplaySettingsRendering_SettingsPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12661 };
@@ -2318,6 +2341,7 @@ public:
 
   __declspec(property(get = get_mipInfoMode, put = set_mipInfoMode)) ::UnityEngine::Rendering::Universal::DebugMipInfoMode mipInfoMode;
 
+  /// @brief [Obsolete("overdraw has been deprecated. Use overdrawMode instead.", true)]
   __declspec(property(get = get_overdraw, put = set_overdraw)) bool overdraw;
 
   __declspec(property(get = get_overdrawMode, put = set_overdrawMode)) ::UnityEngine::Rendering::Universal::DebugOverdrawMode overdrawMode;
@@ -2518,39 +2542,51 @@ public:
   /// @brief Method get_canAggregateData, addr 0x68462b8, size 0x14, virtual false, abstract: false, final false
   inline bool get_canAggregateData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_enableHDR, addr 0x68462fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableHDR();
 
+  /// [CompilerGenerated]
   /// @brief Method get_enableMsaa, addr 0x68462ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableMsaa();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fullScreenDebugMode, addr 0x6846208, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugFullScreenMode get_fullScreenDebugMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fullScreenDebugModeOutputSizeScreenPercent, addr 0x6846228, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fullScreenDebugModeOutputSizeScreenPercent();
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxOverdrawCount, addr 0x68461f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxOverdrawCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mipDebugMaterialTextureSlot, addr 0x6846298, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mipDebugMaterialTextureSlot();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mipDebugOpacity, addr 0x6846278, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mipDebugOpacity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mipDebugRecentUpdateCooldown, addr 0x6846288, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mipDebugRecentUpdateCooldown();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mipDebugStatusMode, addr 0x6846268, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode get_mipDebugStatusMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mipDebugStatusShowCode, addr 0x6846258, size 0x8, virtual false, abstract: false, final false
   inline bool get_mipDebugStatusShowCode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mipDebugTerrainTexture, addr 0x68462cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture get_mipDebugTerrainTexture();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mipInfoMode, addr 0x6846248, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugMipInfoMode get_mipInfoMode();
 
@@ -2560,30 +2596,39 @@ public:
   /// @brief Method get_overdrawMode, addr 0x68461cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugOverdrawMode get_overdrawMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_postProcessingDebugMode, addr 0x68462dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugPostProcessingMode get_postProcessingDebugMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_sceneOverrideMode, addr 0x6846238, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode get_sceneOverrideMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_showInfoForAllSlots, addr 0x68462a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_showInfoForAllSlots();
 
+  /// [CompilerGenerated]
   /// @brief Method get_stpDebugViewIndex, addr 0x6846218, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stpDebugViewIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_taaDebugMode, addr 0x684630c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode get_taaDebugMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_validationChannels, addr 0x684632c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::PixelValidationChannels get_validationChannels();
 
+  /// [CompilerGenerated]
   /// @brief Method get_validationMode, addr 0x684631c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugValidationMode get_validationMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_validationRangeMax, addr 0x684634c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_validationRangeMax();
 
+  /// [CompilerGenerated]
   /// @brief Method get_validationRangeMin, addr 0x684633c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_validationRangeMin();
 
@@ -2596,39 +2641,51 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_enableHDR, addr 0x6846304, size 0x8, virtual false, abstract: false, final false
   inline void set_enableHDR(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_enableMsaa, addr 0x68462f4, size 0x8, virtual false, abstract: false, final false
   inline void set_enableMsaa(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_fullScreenDebugMode, addr 0x6846210, size 0x8, virtual false, abstract: false, final false
   inline void set_fullScreenDebugMode(::UnityEngine::Rendering::Universal::DebugFullScreenMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_fullScreenDebugModeOutputSizeScreenPercent, addr 0x6846230, size 0x8, virtual false, abstract: false, final false
   inline void set_fullScreenDebugModeOutputSizeScreenPercent(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_maxOverdrawCount, addr 0x6846200, size 0x8, virtual false, abstract: false, final false
   inline void set_maxOverdrawCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mipDebugMaterialTextureSlot, addr 0x68462a0, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugMaterialTextureSlot(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mipDebugOpacity, addr 0x6846280, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugOpacity(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mipDebugRecentUpdateCooldown, addr 0x6846290, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugRecentUpdateCooldown(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mipDebugStatusMode, addr 0x6846270, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugStatusMode(::UnityEngine::Rendering::Universal::DebugMipMapStatusMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mipDebugStatusShowCode, addr 0x6846260, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugStatusShowCode(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mipDebugTerrainTexture, addr 0x68462d4, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugTerrainTexture(::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mipInfoMode, addr 0x6846250, size 0x8, virtual false, abstract: false, final false
   inline void set_mipInfoMode(::UnityEngine::Rendering::Universal::DebugMipInfoMode value);
 
@@ -2638,30 +2695,39 @@ public:
   /// @brief Method set_overdrawMode, addr 0x68461d4, size 0x24, virtual false, abstract: false, final false
   inline void set_overdrawMode(::UnityEngine::Rendering::Universal::DebugOverdrawMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_postProcessingDebugMode, addr 0x68462e4, size 0x8, virtual false, abstract: false, final false
   inline void set_postProcessingDebugMode(::UnityEngine::Rendering::Universal::DebugPostProcessingMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_sceneOverrideMode, addr 0x6846240, size 0x8, virtual false, abstract: false, final false
   inline void set_sceneOverrideMode(::UnityEngine::Rendering::Universal::DebugSceneOverrideMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_showInfoForAllSlots, addr 0x68462b0, size 0x8, virtual false, abstract: false, final false
   inline void set_showInfoForAllSlots(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_stpDebugViewIndex, addr 0x6846220, size 0x8, virtual false, abstract: false, final false
   inline void set_stpDebugViewIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_taaDebugMode, addr 0x6846314, size 0x8, virtual false, abstract: false, final false
   inline void set_taaDebugMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_validationChannels, addr 0x6846334, size 0x8, virtual false, abstract: false, final false
   inline void set_validationChannels(::UnityEngine::Rendering::Universal::PixelValidationChannels value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_validationMode, addr 0x6846324, size 0x8, virtual false, abstract: false, final false
   inline void set_validationMode(::UnityEngine::Rendering::Universal::DebugValidationMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_validationRangeMax, addr 0x6846354, size 0x8, virtual false, abstract: false, final false
   inline void set_validationRangeMax(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_validationRangeMin, addr 0x6846344, size 0x8, virtual false, abstract: false, final false
   inline void set_validationRangeMin(float_t value);
 
@@ -2674,13 +2740,13 @@ protected:
   constexpr DebugDisplaySettingsRendering();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsRendering(DebugDisplaySettingsRendering&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRendering(DebugDisplaySettingsRendering const&) = delete;
+  DebugDisplaySettingsRendering(DebugDisplaySettingsRenderingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12662 };
@@ -2694,66 +2760,87 @@ public:
   /// @brief Field m_OverdrawMode, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugOverdrawMode ___m_OverdrawMode;
 
+  /// [CompilerGenerated]
   /// @brief Field <maxOverdrawCount>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____maxOverdrawCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <fullScreenDebugMode>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugFullScreenMode ____fullScreenDebugMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <stpDebugViewIndex>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t ____stpDebugViewIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <fullScreenDebugModeOutputSizeScreenPercent>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____fullScreenDebugModeOutputSizeScreenPercent_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <sceneOverrideMode>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode ____sceneOverrideMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mipInfoMode>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugMipInfoMode ____mipInfoMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mipDebugStatusShowCode>k__BackingField, offset: 0x34, size: 0x1, def value: None
   bool ____mipDebugStatusShowCode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mipDebugStatusMode>k__BackingField, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode ____mipDebugStatusMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mipDebugOpacity>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   float_t ____mipDebugOpacity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mipDebugRecentUpdateCooldown>k__BackingField, offset: 0x40, size: 0x4, def value: None
   float_t ____mipDebugRecentUpdateCooldown_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mipDebugMaterialTextureSlot>k__BackingField, offset: 0x44, size: 0x4, def value: None
   int32_t ____mipDebugMaterialTextureSlot_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <showInfoForAllSlots>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____showInfoForAllSlots_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mipDebugTerrainTexture>k__BackingField, offset: 0x4c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture ____mipDebugTerrainTexture_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <postProcessingDebugMode>k__BackingField, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugPostProcessingMode ____postProcessingDebugMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <enableMsaa>k__BackingField, offset: 0x54, size: 0x1, def value: None
   bool ____enableMsaa_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <enableHDR>k__BackingField, offset: 0x55, size: 0x1, def value: None
   bool ____enableHDR_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <taaDebugMode>k__BackingField, offset: 0x58, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode ____taaDebugMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <validationMode>k__BackingField, offset: 0x5c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugValidationMode ____validationMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <validationChannels>k__BackingField, offset: 0x60, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::PixelValidationChannels ____validationChannels_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <validationRangeMin>k__BackingField, offset: 0x64, size: 0x4, def value: None
   float_t ____validationRangeMin_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <validationRangeMax>k__BackingField, offset: 0x68, size: 0x4, def value: None
   float_t ____validationRangeMax_k__BackingField;
 

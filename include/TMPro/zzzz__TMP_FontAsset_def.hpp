@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_FontAsset.hpp"
+// IWYU pragma private; include "TMPro/TMP_FontAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> class WeakReference_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class WeakReference_1;
 }
 namespace TMPro {
 struct AtlasPopulationMode;
@@ -106,6 +108,7 @@ MARK_REF_T(::TMPro::TMP_FontAsset*);
 MARK_REF_T(::TMPro::TMP_FontAsset___c*);
 DEFINE_IL2CPP_CLASS(::TMPro::TMP_FontAsset*, "TMPro", "TMP_FontAsset");
 DEFINE_IL2CPP_CLASS(::TMPro::TMP_FontAsset___c*, "TMPro", "TMP_FontAsset/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -151,13 +154,13 @@ protected:
   constexpr TMP_FontAsset___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_FontAsset___c(TMP_FontAsset___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_FontAsset___c(TMP_FontAsset___c const&) = delete;
+  TMP_FontAsset___c(TMP_FontAsset___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15914 };
@@ -168,6 +171,7 @@ public:
 static_assert(sizeof(::TMPro::TMP_FontAsset___c) == 0x10, "Size mismatch!");
 
 } // namespace TMPro
+// [ExcludeFromPreset]
 // Dependencies TMPro.AtlasPopulationMode, TMPro.FontAssetCreationSettings, TMPro.TMP_Asset, TMPro.TMP_FontWeightPair, Unity.Profiling.ProfilerMarker, UnityEngine.TextCore.LowLevel.GlyphRenderMode,
 // UnityEngine.Texture2D
 namespace TMPro {
@@ -227,6 +231,7 @@ public:
 
   __declspec(property(get = get_fontFeatureTable, put = set_fontFeatureTable)) ::TMPro::TMP_FontFeatureTable* fontFeatureTable;
 
+  /// @brief [Obsolete("The fontInfo property and underlying type is now obsolete. Please use the faceInfo property and FaceInfo type instead.")]
   __declspec(property(get = get_fontInfo)) ::TMPro::FaceInfo_Legacy* fontInfo;
 
   __declspec(property(get = get_fontWeightTable, put = set_fontWeightTable)) ::ArrayW<::TMPro::TMP_FontWeightPair> fontWeightTable;
@@ -1211,32 +1216,38 @@ protected:
   constexpr TMP_FontAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_FontAsset(TMP_FontAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_FontAsset(TMP_FontAsset const&) = delete;
+  TMP_FontAsset(TMP_FontAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15915 };
 
+  /// [SerializeField]
   /// @brief Field m_SourceFontFileGUID, offset: 0x98, size: 0x8, def value: None
   ::StringW ___m_SourceFontFileGUID;
 
+  /// [SerializeField]
   /// @brief Field m_CreationSettings, offset: 0xa0, size: 0x60, def value: None
   ::TMPro::FontAssetCreationSettings ___m_CreationSettings;
 
+  /// [SerializeField]
   /// @brief Field m_SourceFontFile, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Font> ___m_SourceFontFile;
 
+  /// [SerializeField]
   /// @brief Field m_SourceFontFilePath, offset: 0x108, size: 0x8, def value: None
   ::StringW ___m_SourceFontFilePath;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasPopulationMode, offset: 0x110, size: 0x4, def value: None
   ::TMPro::AtlasPopulationMode ___m_AtlasPopulationMode;
 
+  /// [SerializeField]
   /// @brief Field InternalDynamicOS, offset: 0x114, size: 0x1, def value: None
   bool ___InternalDynamicOS;
 
@@ -1246,12 +1257,14 @@ public:
   /// @brief Field m_StyleNameHashCode, offset: 0x11c, size: 0x4, def value: None
   int32_t ___m_StyleNameHashCode;
 
+  /// [SerializeField]
   /// @brief Field m_GlyphTable, offset: 0x120, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* ___m_GlyphTable;
 
   /// @brief Field m_GlyphLookupDictionary, offset: 0x128, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* ___m_GlyphLookupDictionary;
 
+  /// [SerializeField]
   /// @brief Field m_CharacterTable, offset: 0x130, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::TMPro::TMP_Character*>* ___m_CharacterTable;
 
@@ -1261,51 +1274,67 @@ public:
   /// @brief Field m_AtlasTexture, offset: 0x140, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_AtlasTexture;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasTextures, offset: 0x148, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___m_AtlasTextures;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasTextureIndex, offset: 0x150, size: 0x4, def value: None
   int32_t ___m_AtlasTextureIndex;
 
+  /// [SerializeField]
   /// @brief Field m_IsMultiAtlasTexturesEnabled, offset: 0x154, size: 0x1, def value: None
   bool ___m_IsMultiAtlasTexturesEnabled;
 
+  /// [SerializeField]
   /// @brief Field m_GetFontFeatures, offset: 0x155, size: 0x1, def value: None
   bool ___m_GetFontFeatures;
 
+  /// [SerializeField]
   /// @brief Field m_ClearDynamicDataOnBuild, offset: 0x156, size: 0x1, def value: None
   bool ___m_ClearDynamicDataOnBuild;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasWidth, offset: 0x158, size: 0x4, def value: None
   int32_t ___m_AtlasWidth;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasHeight, offset: 0x15c, size: 0x4, def value: None
   int32_t ___m_AtlasHeight;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasPadding, offset: 0x160, size: 0x4, def value: None
   int32_t ___m_AtlasPadding;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasRenderMode, offset: 0x164, size: 0x4, def value: None
   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode ___m_AtlasRenderMode;
 
+  /// [SerializeField]
   /// @brief Field m_UsedGlyphRects, offset: 0x168, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* ___m_UsedGlyphRects;
 
+  /// [SerializeField]
   /// @brief Field m_FreeGlyphRects, offset: 0x170, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* ___m_FreeGlyphRects;
 
+  /// [SerializeField]
   /// @brief Field m_FontFeatureTable, offset: 0x178, size: 0x8, def value: None
   ::TMPro::TMP_FontFeatureTable* ___m_FontFeatureTable;
 
+  /// [SerializeField]
   /// @brief Field m_ShouldReimportFontFeatures, offset: 0x180, size: 0x1, def value: None
   bool ___m_ShouldReimportFontFeatures;
 
+  /// [SerializeField]
   /// @brief Field m_FallbackFontAssetTable, offset: 0x188, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* ___m_FallbackFontAssetTable;
 
+  /// [SerializeField]
   /// @brief Field m_FontWeightTable, offset: 0x190, size: 0x8, def value: None
   ::ArrayW<::TMPro::TMP_FontWeightPair> ___m_FontWeightTable;
 
+  /// [SerializeField]
   /// @brief Field fontWeights, offset: 0x198, size: 0x8, def value: None
   ::ArrayW<::TMPro::TMP_FontWeightPair> ___fontWeights;
 
@@ -1330,18 +1359,24 @@ public:
   /// @brief Field IsFontAssetLookupTablesDirty, offset: 0x1b2, size: 0x1, def value: None
   bool ___IsFontAssetLookupTablesDirty;
 
+  /// [SerializeField]
   /// @brief Field m_fontInfo, offset: 0x1b8, size: 0x8, def value: None
   ::TMPro::FaceInfo_Legacy* ___m_fontInfo;
 
+  /// [SerializeField]
   /// @brief Field m_glyphInfoList, offset: 0x1c0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::TMPro::TMP_Glyph*>* ___m_glyphInfoList;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_kerningInfo")]
   /// @brief Field m_KerningTable, offset: 0x1c8, size: 0x8, def value: None
   ::TMPro::KerningTable* ___m_KerningTable;
 
+  /// [SerializeField]
   /// @brief Field fallbackFontAssets, offset: 0x1d0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* ___fallbackFontAssets;
 
+  /// [SerializeField]
   /// @brief Field atlas, offset: 0x1d8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___atlas;
 

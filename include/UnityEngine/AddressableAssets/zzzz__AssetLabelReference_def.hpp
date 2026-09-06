@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\AssetLabelReference.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/AssetLabelReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,17 +72,19 @@ protected:
   constexpr AssetLabelReference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetLabelReference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetLabelReference", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetLabelReference(AssetLabelReference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetLabelReference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetLabelReference", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetLabelReference(AssetLabelReference const&) = delete;
+  AssetLabelReference(AssetLabelReferenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19816 };
 
+  /// [FormerlySerializedAs("m_labelString")]
+  /// [SerializeField]
   /// @brief Field m_LabelString, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_LabelString;
 

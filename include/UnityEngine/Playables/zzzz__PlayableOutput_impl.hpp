@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableOutput.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableOutput_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -78,7 +79,9 @@ inline ::UnityEngine::Playables::PlayableOutputHandle UnityEngine::Playables::Pl
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutput>(), { "GetHandle", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::PlayableOutputHandle>(*this, ___internal_method);
 }
-template <typename T> inline bool UnityEngine::Playables::PlayableOutput::IsPlayableOutputOfType() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableOutput*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool UnityEngine::Playables::PlayableOutput::IsPlayableOutputOfType() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutput>(), { "IsPlayableOutputOfType", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -105,7 +108,7 @@ constexpr UnityEngine::Playables::PlayableOutput::operator ::System::IEquatable_
 constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>* UnityEngine::Playables::PlayableOutput::i___System__IEquatable_1___UnityEngine__Playables__PlayableOutput_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Playables::PlayableOutput::PlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept {
   this->m_Handle = m_Handle;
 }

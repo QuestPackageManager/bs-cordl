@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonContainerAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonContainerAttribute.hpp"
 #include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__TypeNameHandling_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
@@ -535,7 +535,7 @@ inline ::ArrayW<::System::Object*> Newtonsoft::Json::JsonContainerAttribute::get
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonContainerAttribute*>(), { "get_ItemConverterParameters", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*>>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonContainerAttribute::set_ItemConverterParameters(::ArrayW<::System::Object*> value) {
+inline void Newtonsoft::Json::JsonContainerAttribute::set_ItemConverterParameters(/* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonContainerAttribute*>(), { "set_ItemConverterParameters", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -554,7 +554,7 @@ inline ::ArrayW<::System::Object*> Newtonsoft::Json::JsonContainerAttribute::get
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonContainerAttribute*>(), { "get_NamingStrategyParameters", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*>>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonContainerAttribute::set_NamingStrategyParameters(::ArrayW<::System::Object*> value) {
+inline void Newtonsoft::Json::JsonContainerAttribute::set_NamingStrategyParameters(/* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonContainerAttribute*>(), { "set_NamingStrategyParameters", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -618,6 +618,7 @@ inline void Newtonsoft::Json::JsonContainerAttribute::_ctor(::StringW id) {
 inline ::Newtonsoft::Json::JsonContainerAttribute* Newtonsoft::Json::JsonContainerAttribute::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonContainerAttribute*>());
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::JsonContainerAttribute* Newtonsoft::Json::JsonContainerAttribute::New_ctor(::StringW id) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonContainerAttribute*>(id));
 }

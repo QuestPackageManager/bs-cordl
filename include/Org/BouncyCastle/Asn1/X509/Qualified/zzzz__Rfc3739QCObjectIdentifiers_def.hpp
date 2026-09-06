@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\Qualified\Rfc3739QCObjectIdentifiers.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Qualified/Rfc3739QCObjectIdentifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ protected:
   constexpr Rfc3739QCObjectIdentifiers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Rfc3739QCObjectIdentifiers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rfc3739QCObjectIdentifiers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Rfc3739QCObjectIdentifiers(Rfc3739QCObjectIdentifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Rfc3739QCObjectIdentifiers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rfc3739QCObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Rfc3739QCObjectIdentifiers(Rfc3739QCObjectIdentifiers const&) = delete;
+  Rfc3739QCObjectIdentifiers(Rfc3739QCObjectIdentifiersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 332 };

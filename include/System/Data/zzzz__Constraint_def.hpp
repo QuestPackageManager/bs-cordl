@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Constraint.hpp"
+// IWYU pragma private; include "System/Data/Constraint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,8 @@ class Constraint;
 // Write type traits
 MARK_REF_T(::System::Data::Constraint*);
 DEFINE_IL2CPP_CLASS(::System::Data::Constraint*, "System.Data", "Constraint");
+// [TypeConverter(typeof(System.Data.ConstraintConverter))]
+// [DefaultProperty("ConstraintName")]
 // Dependencies System.Object
 namespace System::Data {
 // Is value type: false
@@ -41,8 +43,10 @@ namespace System::Data {
 class CORDL_TYPE Constraint : public ::System::Object {
 public:
   // Declarations
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_ConstraintName, put = set_ConstraintName)) ::StringW ConstraintName;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_ExtendedProperties)) ::System::Data::PropertyCollection* ExtendedProperties;
 
   __declspec(property(get = get_InCollection, put = set_InCollection)) bool InCollection;
@@ -51,6 +55,7 @@ public:
 
   __declspec(property(get = get_Table)) ::System::Data::DataTable* Table;
 
+  /// @brief [CLSCompliant(false)]
   __declspec(property(get = get__DataSet)) ::System::Data::DataSet* _DataSet;
 
   /// @brief Field _dataSet, offset 0x20, size 0x8
@@ -68,37 +73,37 @@ public:
   /// @brief Field _schemaName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__schemaName, put = __cordl_internal_set__schemaName)) ::StringW _schemaName;
 
-  /// @brief Method CanBeRemovedFromCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CanBeRemovedFromCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanBeRemovedFromCollection(::System::Data::ConstraintCollection* constraint, bool fThrowException);
 
-  /// @brief Method CanEnableConstraint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CanEnableConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanEnableConstraint();
 
-  /// @brief Method CheckCanAddToCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CheckCanAddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CheckCanAddToCollection(::System::Data::ConstraintCollection* constraint);
 
   /// @brief Method CheckConstraint, addr 0x601d778, size 0x54, virtual false, abstract: false, final false
   inline void CheckConstraint();
 
-  /// @brief Method CheckConstraint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CheckConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CheckConstraint(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
 
-  /// @brief Method CheckState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CheckState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CheckState();
 
   /// @brief Method CheckStateForProperty, addr 0x601d7cc, size 0xf8, virtual false, abstract: false, final false
   inline void CheckStateForProperty();
 
-  /// @brief Method Clone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Data::Constraint* Clone(::System::Data::DataSet* destination);
 
-  /// @brief Method Clone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Data::Constraint* Clone(::System::Data::DataSet* destination, bool ignoreNSforTableLookup);
 
-  /// @brief Method ContainsColumn, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ContainsColumn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ContainsColumn(::System::Data::DataColumn* column);
 
-  /// @brief Method IsConstraintViolated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsConstraintViolated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsConstraintViolated();
 
   static inline ::System::Data::Constraint* New_ctor();
@@ -151,7 +156,7 @@ public:
   /// @brief Method get_SchemaName, addr 0x601d68c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_SchemaName();
 
-  /// @brief Method get_Table, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Table, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Data::DataTable* get_Table();
 
   /// @brief Method get__DataSet, addr 0x601d8c4, size 0x8, virtual true, abstract: false, final false
@@ -172,13 +177,13 @@ protected:
   constexpr Constraint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Constraint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Constraint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Constraint(Constraint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Constraint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Constraint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Constraint(Constraint const&) = delete;
+  Constraint(Constraintconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13758 };

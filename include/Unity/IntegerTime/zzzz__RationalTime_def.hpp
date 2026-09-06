@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IntegerTime\RationalTime.hpp"
+// IWYU pragma private; include "Unity/IntegerTime/RationalTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,15 +79,18 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::IntegerTime::RationalTime_TicksPerSecond>"
   constexpr operator ::System::IEquatable_1<::Unity::IntegerTime::RationalTime_TicksPerSecond>*();
 
+  /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6a5ccb0, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* rhs);
 
+  /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6a5cc88, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::Unity::IntegerTime::RationalTime_TicksPerSecond rhs);
 
   /// @brief Method Gcd, addr 0x6a5cdc4, size 0x30, virtual false, abstract: false, final false
   static inline uint32_t Gcd(uint32_t a, uint32_t b);
 
+  /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6a5cd48, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -156,7 +159,8 @@ public:
   // @brief default ctor
   constexpr RationalTime_TicksPerSecond();
 
-  // Ctor Parameters [CppParam { name: "m_Numerator", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Denominator", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Numerator", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Denominator", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr RationalTime_TicksPerSecond(uint32_t m_Numerator, uint32_t m_Denominator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -165,9 +169,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [SerializeField]
   /// @brief Field m_Numerator, offset: 0x0, size: 0x4, def value: None
   uint32_t m_Numerator;
 
+  /// [SerializeField]
   /// @brief Field m_Denominator, offset: 0x4, size: 0x4, def value: None
   uint32_t m_Denominator;
 
@@ -181,6 +187,7 @@ static_assert(offsetof(::Unity::IntegerTime::RationalTime_TicksPerSecond, m_Deno
 static_assert(sizeof(::Unity::IntegerTime::RationalTime_TicksPerSecond) == 0x8, "Size mismatch!");
 
 } // namespace Unity::IntegerTime
+// [NativeHeader("Runtime/Input/RationalTime.h")]
 // Dependencies Unity.IntegerTime.RationalTime::TicksPerSecond
 namespace Unity::IntegerTime {
 // Is value type: true
@@ -202,8 +209,8 @@ public:
   // @brief default ctor
   constexpr RationalTime();
 
-  // Ctor Parameters [CppParam { name: "m_Count", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "m_TicksPerSecond", ty: "::Unity::IntegerTime::RationalTime_TicksPerSecond",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Count", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_TicksPerSecond", ty:
+  // "::Unity::IntegerTime::RationalTime_TicksPerSecond", modifiers: "", def_value: None, comment: None }]
   constexpr RationalTime(int64_t m_Count, ::Unity::IntegerTime::RationalTime_TicksPerSecond m_TicksPerSecond) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -212,9 +219,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field m_Count, offset: 0x0, size: 0x8, def value: None
   int64_t m_Count;
 
+  /// [SerializeField]
   /// @brief Field m_TicksPerSecond, offset: 0x8, size: 0x8, def value: None
   ::Unity::IntegerTime::RationalTime_TicksPerSecond m_TicksPerSecond;
 

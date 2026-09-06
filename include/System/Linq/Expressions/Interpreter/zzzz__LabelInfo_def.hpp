@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LabelInfo.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LabelInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_REF_T(::System::Linq::Expressions::Interpreter::LabelInfo*);
 MARK_REF_T(::System::Linq::Expressions::Interpreter::LabelInfo___c*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::LabelInfo*, "System.Linq.Expressions.Interpreter", "LabelInfo");
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::LabelInfo___c*, "System.Linq.Expressions.Interpreter", "LabelInfo/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr LabelInfo___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LabelInfo___c(LabelInfo___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LabelInfo___c(LabelInfo___c const&) = delete;
+  LabelInfo___c(LabelInfo___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16396 };
@@ -127,7 +128,9 @@ public:
   inline void AddDefinition(::System::Linq::Expressions::Interpreter::LabelScopeInfo* scope);
 
   /// @brief Method CommonNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T CommonNode(T first, T second, ::System::Func_2<T, T>* parent);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T CommonNode(T first, T second, ::System::Func_2<T, T>* parent);
 
   /// @brief Method Define, addr 0x5f9ef64, size 0x1c0, virtual false, abstract: false, final false
   inline void Define(::System::Linq::Expressions::Interpreter::LabelScopeInfo* block);
@@ -200,13 +203,13 @@ protected:
   constexpr LabelInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LabelInfo(LabelInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LabelInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LabelInfo(LabelInfo const&) = delete;
+  LabelInfo(LabelInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16397 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ObjectIdRequest.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ObjectIdRequest.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ObjectIdRequest_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"

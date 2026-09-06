@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\XmlReadMode.hpp"
+// IWYU pragma private; include "System/Data/XmlReadMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   // @brief default ctor
   constexpr XmlReadMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlReadMode(int32_t value__) noexcept;
 
   /// @brief Field Auto value: I32(0)

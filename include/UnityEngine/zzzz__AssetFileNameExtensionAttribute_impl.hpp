@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssetFileNameExtensionAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/AssetFileNameExtensionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__AssetFileNameExtensionAttribute_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -42,13 +42,13 @@ constexpr void UnityEngine::AssetFileNameExtensionAttribute::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____otherExtensions_k__BackingField = value;
 }
-inline void UnityEngine::AssetFileNameExtensionAttribute::_ctor(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions) {
+inline void UnityEngine::AssetFileNameExtensionAttribute::_ctor(::StringW preferredExtension, /* [ParamArray] */ ::ArrayW<::StringW> otherExtensions) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::AssetFileNameExtensionAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, preferredExtension, otherExtensions);
 }
-inline ::UnityEngine::AssetFileNameExtensionAttribute* UnityEngine::AssetFileNameExtensionAttribute::New_ctor(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions) {
+inline ::UnityEngine::AssetFileNameExtensionAttribute* UnityEngine::AssetFileNameExtensionAttribute::New_ctor(::StringW preferredExtension, /* [ParamArray] */ ::ArrayW<::StringW> otherExtensions) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AssetFileNameExtensionAttribute*>(preferredExtension, otherExtensions));
 }
 // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LowLevel\PlayerLoopSystem.hpp"
+// IWYU pragma private; include "UnityEngine/LowLevel/PlayerLoopSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ protected:
   constexpr PlayerLoopSystem_UpdateFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoopSystem_UpdateFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoopSystem_UpdateFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerLoopSystem_UpdateFunction(PlayerLoopSystem_UpdateFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoopSystem_UpdateFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoopSystem_UpdateFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerLoopSystem_UpdateFunction(PlayerLoopSystem_UpdateFunction const&) = delete;
+  PlayerLoopSystem_UpdateFunction(PlayerLoopSystem_UpdateFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10494 };
@@ -71,6 +71,7 @@ public:
 static_assert(sizeof(::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::LowLevel
+// [MovedFrom("UnityEngine.Experimental.LowLevel")]
 // Dependencies System.IntPtr
 namespace UnityEngine::LowLevel {
 // Is value type: true
@@ -87,9 +88,10 @@ public:
   // @brief default ctor
   constexpr PlayerLoopSystem();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "subSystemList", ty: "::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem>",
-  // modifiers: "", def_value: None }, CppParam { name: "updateDelegate", ty: "::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*", modifiers: "", def_value: None }, CppParam { name:
-  // "updateFunction", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "subSystemList", ty:
+  // "::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem>", modifiers: "", def_value: None, comment: None }, CppParam { name: "updateDelegate", ty:
+  // "::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*", modifiers: "", def_value: None, comment: None }, CppParam { name: "updateFunction", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr PlayerLoopSystem(::System::Type* type, ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem> subSystemList, ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* updateDelegate,
                              ::System::IntPtr updateFunction, ::System::IntPtr loopConditionFunction) noexcept;
 

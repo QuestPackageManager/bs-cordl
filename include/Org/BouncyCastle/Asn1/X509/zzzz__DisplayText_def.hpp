@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\DisplayText.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/DisplayText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,13 +87,13 @@ protected:
   constexpr DisplayText();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisplayText", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisplayText", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisplayText(DisplayText&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisplayText", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisplayText", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisplayText(DisplayText const&) = delete;
+  DisplayText(DisplayTextconst&) = delete;
 
   /// @brief Field ContentTypeBmpString offset 0xffffffff size 0x4
   static constexpr int32_t ContentTypeBmpString{ static_cast<int32_t>(0x1) };

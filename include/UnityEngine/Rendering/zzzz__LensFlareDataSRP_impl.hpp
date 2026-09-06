@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LensFlareDataSRP.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LensFlareDataSRP.hpp"
 #include "UnityEngine/Rendering/zzzz__LensFlareDataElementSRP_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LensFlareDataSRP_def.hpp"

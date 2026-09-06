@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsProcessableFile.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsProcessableFile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
+  /// [Obsolete]
   /// @brief Method GetContent, addr 0x36b0660, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
@@ -90,13 +91,13 @@ protected:
   constexpr CmsProcessableFile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableFile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableFile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsProcessableFile(CmsProcessableFile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableFile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableFile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsProcessableFile(CmsProcessableFile const&) = delete;
+  CmsProcessableFile(CmsProcessableFileconst&) = delete;
 
   /// @brief Field DefaultBufSize offset 0xffffffff size 0x4
   static constexpr int32_t DefaultBufSize{ static_cast<int32_t>(0x8000) };

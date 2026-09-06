@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlyingObjectEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlyingObjectEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,7 +85,7 @@ public:
   /// @brief Method InitAndPresent, addr 0x5982890, size 0xe8, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingObjectEffect* New_ctor();
@@ -183,26 +183,30 @@ protected:
   constexpr FlyingObjectEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingObjectEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingObjectEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingObjectEffect(FlyingObjectEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingObjectEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingObjectEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingObjectEffect(FlyingObjectEffect const&) = delete;
+  FlyingObjectEffect(FlyingObjectEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5772 };
 
+  /// [SerializeField]
   /// @brief Field _moveAnimationCurve, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____moveAnimationCurve;
 
+  /// [SerializeField]
   /// @brief Field _shakeFrequency, offset: 0x28, size: 0x4, def value: None
   float_t ____shakeFrequency;
 
+  /// [SerializeField]
   /// @brief Field _shakeStrength, offset: 0x2c, size: 0x4, def value: None
   float_t ____shakeStrength;
 
+  /// [SerializeField]
   /// @brief Field _shakeStrengthAnimationCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____shakeStrengthAnimationCurve;
 

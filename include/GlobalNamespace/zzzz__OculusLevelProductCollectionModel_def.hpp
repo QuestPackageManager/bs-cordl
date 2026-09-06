@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OculusLevelProductCollectionModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/OculusLevelProductCollectionModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace GlobalNamespace {
 struct BeatmapLevelDataVersion;
 }
 namespace GlobalNamespace {
-template <typename TLevelProductData> class ILevelPackProductData_1;
+template <typename TLevelProductData>
+  requires(::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
+class ILevelPackProductData_1;
 }
 namespace GlobalNamespace {
 class ILevelProductData;
@@ -103,13 +105,13 @@ protected:
   constexpr OculusLevelProductCollectionModel_AdditionalSkus();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_AdditionalSkus", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_AdditionalSkus", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusLevelProductCollectionModel_AdditionalSkus(OculusLevelProductCollectionModel_AdditionalSkus&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_AdditionalSkus", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_AdditionalSkus", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel_AdditionalSkus(OculusLevelProductCollectionModel_AdditionalSkus const&) = delete;
+  OculusLevelProductCollectionModel_AdditionalSkus(OculusLevelProductCollectionModel_AdditionalSkusconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15136 };
@@ -196,23 +198,26 @@ protected:
   constexpr OculusLevelProductCollectionModel_LevelProductData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelProductData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelProductData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusLevelProductCollectionModel_LevelProductData(OculusLevelProductCollectionModel_LevelProductData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelProductData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelProductData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel_LevelProductData(OculusLevelProductCollectionModel_LevelProductData const&) = delete;
+  OculusLevelProductCollectionModel_LevelProductData(OculusLevelProductCollectionModel_LevelProductDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15137 };
 
+  /// [SerializeField]
   /// @brief Field _levelId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelId;
 
+  /// [SerializeField]
   /// @brief Field _sku, offset: 0x18, size: 0x8, def value: None
   ::StringW ____sku;
 
+  /// [SerializeField]
   /// @brief Field _additionalSkus, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* ____additionalSkus;
 
@@ -311,26 +316,30 @@ protected:
   constexpr OculusLevelProductCollectionModel_LevelPackProductData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackProductData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackProductData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusLevelProductCollectionModel_LevelPackProductData(OculusLevelProductCollectionModel_LevelPackProductData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackProductData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackProductData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel_LevelPackProductData(OculusLevelProductCollectionModel_LevelPackProductData const&) = delete;
+  OculusLevelProductCollectionModel_LevelPackProductData(OculusLevelProductCollectionModel_LevelPackProductDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15138 };
 
+  /// [SerializeField]
   /// @brief Field _levelPackId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelPackId;
 
+  /// [SerializeField]
   /// @brief Field _sku, offset: 0x18, size: 0x8, def value: None
   ::StringW ____sku;
 
+  /// [SerializeField]
   /// @brief Field _additionalSkus, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* ____additionalSkus;
 
+  /// [SerializeField]
   /// @brief Field _levelProductsData, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*> ____levelProductsData;
 
@@ -422,26 +431,31 @@ protected:
   constexpr OculusLevelProductCollectionModel_LevelPackRedirectionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackRedirectionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackRedirectionData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusLevelProductCollectionModel_LevelPackRedirectionData(OculusLevelProductCollectionModel_LevelPackRedirectionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackRedirectionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackRedirectionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel_LevelPackRedirectionData(OculusLevelProductCollectionModel_LevelPackRedirectionData const&) = delete;
+  OculusLevelProductCollectionModel_LevelPackRedirectionData(OculusLevelProductCollectionModel_LevelPackRedirectionDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15139 };
 
+  /// [SerializeField]
   /// @brief Field _targetLevelPackId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____targetLevelPackId;
 
+  /// [SerializeField]
   /// @brief Field _shouldOwnLevelPackId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____shouldOwnLevelPackId;
 
+  /// [SerializeField]
   /// @brief Field _redirectedSku, offset: 0x20, size: 0x8, def value: None
   ::StringW ____redirectedSku;
 
+  /// [SerializeField]
+  /// [Tooltip("Format: yyyy-MM-dd")]
   /// @brief Field _validUntilDate, offset: 0x28, size: 0x8, def value: None
   ::StringW ____validUntilDate;
 
@@ -544,13 +558,13 @@ protected:
   constexpr OculusLevelProductCollectionModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusLevelProductCollectionModel(OculusLevelProductCollectionModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel(OculusLevelProductCollectionModel const&) = delete;
+  OculusLevelProductCollectionModel(OculusLevelProductCollectionModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15140 };

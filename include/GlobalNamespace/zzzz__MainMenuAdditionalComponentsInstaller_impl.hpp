@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainMenuAdditionalComponentsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainMenuAdditionalComponentsInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MainMenuAdditionalComponentsInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainMenuAdditionalComponentsInstaller.InstallBindings

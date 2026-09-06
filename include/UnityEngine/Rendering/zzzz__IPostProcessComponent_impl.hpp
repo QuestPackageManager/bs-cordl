@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IPostProcessComponent.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IPostProcessComponent.hpp"
 #include "UnityEngine/Rendering/zzzz__IPostProcessComponent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IPostProcessComponent.IsActive
 template <>

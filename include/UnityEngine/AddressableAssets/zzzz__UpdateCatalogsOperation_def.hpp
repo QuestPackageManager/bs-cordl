@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\UpdateCatalogsOperation.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/UpdateCatalogsOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ MARK_REF_T(::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__Displa
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::UpdateCatalogsOperation*, "UnityEngine.AddressableAssets", "UpdateCatalogsOperation");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*, "UnityEngine.AddressableAssets", "UpdateCatalogsOperation/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0*, "UnityEngine.AddressableAssets", "UpdateCatalogsOperation/<>c__DisplayClass11_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -96,13 +97,13 @@ protected:
   constexpr UpdateCatalogsOperation___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UpdateCatalogsOperation___c(UpdateCatalogsOperation___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UpdateCatalogsOperation___c(UpdateCatalogsOperation___c const&) = delete;
+  UpdateCatalogsOperation___c(UpdateCatalogsOperation___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19829 };
@@ -113,6 +114,7 @@ public:
 static_assert(sizeof(::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -153,13 +155,13 @@ protected:
   constexpr UpdateCatalogsOperation___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UpdateCatalogsOperation___c__DisplayClass11_0(UpdateCatalogsOperation___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UpdateCatalogsOperation___c__DisplayClass11_0(UpdateCatalogsOperation___c__DisplayClass11_0 const&) = delete;
+  UpdateCatalogsOperation___c__DisplayClass11_0(UpdateCatalogsOperation___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19830 };
@@ -278,13 +280,13 @@ protected:
   constexpr UpdateCatalogsOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UpdateCatalogsOperation(UpdateCatalogsOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UpdateCatalogsOperation(UpdateCatalogsOperation const&) = delete;
+  UpdateCatalogsOperation(UpdateCatalogsOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19831 };

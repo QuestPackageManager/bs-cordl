@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Assets\OVR\Scripts\FixMethodDelegate.hpp"
+// IWYU pragma private; include "Assets/OVR/Scripts/FixMethodDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Assets/OVR/Scripts/zzzz__FixMethodDelegate_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"

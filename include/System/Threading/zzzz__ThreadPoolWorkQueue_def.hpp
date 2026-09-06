@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ThreadPoolWorkQueue.hpp"
+// IWYU pragma private; include "System/Threading/ThreadPoolWorkQueue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,9 @@ namespace System::Threading {
 class ThreadPoolWorkQueue_QueueSegment;
 }
 namespace System::Threading {
-template <typename T> class ThreadPoolWorkQueue_SparseArray_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ThreadPoolWorkQueue_SparseArray_1;
 }
 namespace System::Threading {
 class ThreadPoolWorkQueue_WorkStealingQueue;
@@ -32,7 +34,9 @@ namespace System::Threading {
 class ThreadPoolWorkQueue_QueueSegment;
 }
 namespace System::Threading {
-template <typename T> class ThreadPoolWorkQueue_SparseArray_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ThreadPoolWorkQueue_SparseArray_1;
 }
 namespace System::Threading {
 class ThreadPoolWorkQueue_WorkStealingQueue;
@@ -50,6 +54,7 @@ DEFINE_IL2CPP_CLASS(::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*,
 namespace System::Threading {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Threading.ThreadPoolWorkQueue/SparseArray`1<T>
 class CORDL_TYPE ThreadPoolWorkQueue_SparseArray_1 : public ::System::Object {
@@ -86,13 +91,13 @@ protected:
   constexpr ThreadPoolWorkQueue_SparseArray_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_SparseArray_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_SparseArray_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPoolWorkQueue_SparseArray_1(ThreadPoolWorkQueue_SparseArray_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_SparseArray_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_SparseArray_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolWorkQueue_SparseArray_1(ThreadPoolWorkQueue_SparseArray_1 const&) = delete;
+  ThreadPoolWorkQueue_SparseArray_1(ThreadPoolWorkQueue_SparseArray_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2744 };
@@ -182,13 +187,13 @@ protected:
   constexpr ThreadPoolWorkQueue_WorkStealingQueue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_WorkStealingQueue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_WorkStealingQueue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPoolWorkQueue_WorkStealingQueue(ThreadPoolWorkQueue_WorkStealingQueue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_WorkStealingQueue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_WorkStealingQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolWorkQueue_WorkStealingQueue(ThreadPoolWorkQueue_WorkStealingQueue const&) = delete;
+  ThreadPoolWorkQueue_WorkStealingQueue(ThreadPoolWorkQueue_WorkStealingQueueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2745 };
@@ -249,6 +254,7 @@ public:
   /// @brief Method IsUsedUp, addr 0x5cb5c50, size 0x30, virtual false, abstract: false, final false
   inline bool IsUsedUp();
 
+  /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   static inline ::System::Threading::ThreadPoolWorkQueue_QueueSegment* New_ctor();
 
   /// @brief Method TryDequeue, addr 0x5cb5b20, size 0x130, virtual false, abstract: false, final false
@@ -275,6 +281,7 @@ public:
 
   constexpr void __cordl_internal_set_nodes(::ArrayW<::System::Threading::IThreadPoolWorkItem*> value);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method .ctor, addr 0x5cb4894, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -284,13 +291,13 @@ protected:
   constexpr ThreadPoolWorkQueue_QueueSegment();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_QueueSegment", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_QueueSegment", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPoolWorkQueue_QueueSegment(ThreadPoolWorkQueue_QueueSegment&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_QueueSegment", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_QueueSegment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolWorkQueue_QueueSegment(ThreadPoolWorkQueue_QueueSegment const&) = delete;
+  ThreadPoolWorkQueue_QueueSegment(ThreadPoolWorkQueue_QueueSegmentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2746 };
@@ -325,7 +332,9 @@ public:
   // Declarations
   using QueueSegment = ::System::Threading::ThreadPoolWorkQueue_QueueSegment;
 
-  template <typename T> using SparseArray_1 = ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>;
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  using SparseArray_1 = ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>;
 
   using WorkStealingQueue = ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue;
 
@@ -396,13 +405,13 @@ protected:
   constexpr ThreadPoolWorkQueue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPoolWorkQueue(ThreadPoolWorkQueue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolWorkQueue(ThreadPoolWorkQueue const&) = delete;
+  ThreadPoolWorkQueue(ThreadPoolWorkQueueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2747 };

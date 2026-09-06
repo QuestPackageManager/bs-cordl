@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkcs\X509CertificateEntry.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/X509CertificateEntry.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Entry_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__X509CertificateEntry_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
@@ -137,6 +137,7 @@ inline int32_t Org::BouncyCastle::Pkcs::X509CertificateEntry::GetHashCode() {
 inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* Org::BouncyCastle::Pkcs::X509CertificateEntry::New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Pkcs::X509CertificateEntry*>(cert));
 }
+/// @brief [Obsolete]
 inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* Org::BouncyCastle::Pkcs::X509CertificateEntry::New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert,
                                                                                                                 ::System::Collections::Hashtable* attributes) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Pkcs::X509CertificateEntry*>(cert, attributes));

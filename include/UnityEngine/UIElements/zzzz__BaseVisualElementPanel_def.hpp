@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseVisualElementPanel.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseVisualElementPanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,6 +127,7 @@ class BaseVisualElementPanel;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::BaseVisualElementPanel*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseVisualElementPanel*, "UnityEngine.UIElements", "BaseVisualElementPanel");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.UIElements.Layout.LayoutConfig, UnityEngine.UIElements.PanelClearSettings
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -264,7 +265,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IPanel"
   constexpr operator ::UnityEngine::UIElements::IPanel*() noexcept;
 
-  /// @brief Method ApplyStyles, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyles, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyStyles();
 
   /// @brief Method ClearCachedElementUnderPointer, addr 0x6db8060, size 0x24, virtual false, abstract: false, final false
@@ -282,7 +283,8 @@ public:
   /// @brief Method GetTopElementUnderPointer, addr 0x6db7d84, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(int32_t pointerId);
 
-  /// @brief Method GetUpdater, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+  /// @brief Method GetUpdater, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* GetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
   /// @brief Method InvokeAtlasChanged, addr 0x6db84a0, size 0x1c, virtual false, abstract: false, final false
@@ -297,13 +299,13 @@ public:
 
   static inline ::UnityEngine::UIElements::BaseVisualElementPanel* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::VersionChangeType changeTypeFlag);
 
-  /// @brief Method Pick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Pick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* Pick(::UnityEngine::Vector2 point);
 
-  /// @brief Method PickAll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PickAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* PickAll(::UnityEngine::Vector2 point, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked);
 
   /// @brief Method RecomputeTopElementUnderPointer, addr 0x6db7d9c, size 0x2c4, virtual false, abstract: false, final false
@@ -312,7 +314,7 @@ public:
   /// @brief Method Render, addr 0x6db8850, size 0xa8, virtual true, abstract: false, final false
   inline void Render();
 
-  /// @brief Method Repaint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Repaint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Repaint(::UnityEngine::Event* e);
 
   /// @brief Method SendEvent, addr 0x6db7c90, size 0xe4, virtual false, abstract: false, final false
@@ -321,7 +323,7 @@ public:
   /// @brief Method SetSpecializedHierarchyFlagsUpdater, addr 0x6db8240, size 0x108, virtual false, abstract: false, final false
   inline void SetSpecializedHierarchyFlagsUpdater();
 
-  /// @brief Method SetUpdater, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetUpdater, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetUpdater(::UnityEngine::UIElements::IVisualTreeUpdater* updater, ::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
   /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x6db8848, size 0x4, virtual true, abstract: false, final true
@@ -330,19 +332,19 @@ public:
   /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x6db884c, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBox_OnOptionRemoved(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UpdateAnimations, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateAnimations, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAnimations();
 
-  /// @brief Method UpdateBindings, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateBindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateBindings();
 
   /// @brief Method UpdateElementUnderPointers, addr 0x6db8650, size 0x1f8, virtual false, abstract: false, final false
   inline void UpdateElementUnderPointers();
 
-  /// @brief Method ValidateFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ValidateFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ValidateFocus();
 
-  /// @brief Method ValidateLayout, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ValidateLayout, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ValidateLayout();
 
   constexpr ::UnityEngine::UIElements::PanelClearSettings const& __cordl_internal_get__clearSettings_k__BackingField() const;
@@ -468,76 +470,88 @@ public:
   /// @brief Method .ctor, addr 0x6db7840, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_atlasChanged, addr 0x6db8348, size 0xac, virtual false, abstract: false, final false
   inline void add_atlasChanged(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_hierarchyChanged, addr 0x6db84bc, size 0xac, virtual false, abstract: false, final false
   inline void add_hierarchyChanged(::UnityEngine::UIElements::HierarchyEvent* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_isFlatChanged, addr 0x6db80e0, size 0xac, virtual false, abstract: false, final false
   inline void add_isFlatChanged(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_panelDisposed, addr 0x6db10a0, size 0xc0, virtual false, abstract: false, final false
   inline void add_panelDisposed(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method get_IMGUIContainersCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IMGUIContainersCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_IMGUIContainersCount();
 
-  /// @brief Method get_IMGUIEventInterests, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IMGUIEventInterests, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::EventInterests get_IMGUIEventInterests();
 
-  /// @brief Method get_atlas, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::AtlasBase* get_atlas();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clearSettings, addr 0x6db7c18, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PanelClearSettings get_clearSettings();
 
-  /// @brief Method get_contextType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_contextType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::ContextType get_contextType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_contextualMenuManager, addr 0x6db7c70, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::ContextualMenuManager* get_contextualMenuManager();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cursorManager, addr 0x6db7c60, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ICursorManager* get_cursorManager();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dataBindingManager, addr 0x6db7c80, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DataBindingManager* get_dataBindingManager();
 
-  /// @brief Method get_dispatcher, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_dispatcher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::EventDispatcher* get_dispatcher();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6db7d74, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_duringLayoutPhase, addr 0x6db7c40, size 0x8, virtual false, abstract: false, final false
   inline bool get_duringLayoutPhase();
 
-  /// @brief Method get_focusController, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_focusController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
-  /// @brief Method get_getViewDataDictionary, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_getViewDataDictionary, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::GetViewDataDictionary* get_getViewDataDictionary();
 
-  /// @brief Method get_hierarchyVersion, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_hierarchyVersion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint32_t get_hierarchyVersion();
 
   /// @brief Method get_isFlat, addr 0x6db8238, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFlat();
 
-  /// @brief Method get_ownerObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ownerObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::ScriptableObject> get_ownerObject();
 
+  /// [CompilerGenerated]
   /// @brief Method get_referenceSpritePixelsPerUnit, addr 0x6db7c08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_referenceSpritePixelsPerUnit();
 
+  /// [CompilerGenerated]
   /// @brief Method get_repaintData, addr 0x6db7c50, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::RepaintData* get_repaintData();
 
-  /// @brief Method get_rootIMGUIContainer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_rootIMGUIContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IMGUIContainer* get_rootIMGUIContainer();
 
-  /// @brief Method get_saveViewData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_saveViewData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::SavePersistentViewData* get_saveViewData();
 
   /// @brief Method get_scale, addr 0x6db7bf0, size 0x8, virtual false, abstract: false, final false
@@ -546,19 +560,19 @@ public:
   /// @brief Method get_scaledPixelsPerPoint, addr 0x6db7bf8, size 0x10, virtual true, abstract: false, final true
   inline float_t get_scaledPixelsPerPoint();
 
-  /// @brief Method get_scheduler, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_scheduler, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IScheduler* get_scheduler();
 
-  /// @brief Method get_styleAnimationSystem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_styleAnimationSystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IStylePropertyAnimationSystem* get_styleAnimationSystem();
 
   /// @brief Method get_uiElementsBridge, addr 0x6db77e8, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIElementsBridge* get_uiElementsBridge();
 
-  /// @brief Method get_version, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint32_t get_version();
 
-  /// @brief Method get_visualTree, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_visualTree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
   /// @brief Convert to "::System::IDisposable"
@@ -570,67 +584,80 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IPanel"
   constexpr ::UnityEngine::UIElements::IPanel* i___UnityEngine__UIElements__IPanel() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_atlasChanged, addr 0x6db83f4, size 0xac, virtual false, abstract: false, final false
   inline void remove_atlasChanged(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_hierarchyChanged, addr 0x6db8568, size 0xac, virtual false, abstract: false, final false
   inline void remove_hierarchyChanged(::UnityEngine::UIElements::HierarchyEvent* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_isFlatChanged, addr 0x6db818c, size 0xac, virtual false, abstract: false, final false
   inline void remove_isFlatChanged(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_panelDisposed, addr 0x6db1304, size 0xc0, virtual false, abstract: false, final false
   inline void remove_panelDisposed(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method set_IMGUIContainersCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_IMGUIContainersCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_IMGUIContainersCount(int32_t value);
 
-  /// @brief Method set_IMGUIEventInterests, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_IMGUIEventInterests, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_IMGUIEventInterests(::UnityEngine::EventInterests value);
 
-  /// @brief Method set_atlas, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_atlas, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_atlas(::UnityEngine::UIElements::AtlasBase* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clearSettings, addr 0x6db7c2c, size 0x14, virtual false, abstract: false, final false
   inline void set_clearSettings(::UnityEngine::UIElements::PanelClearSettings value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_contextualMenuManager, addr 0x6db7c78, size 0x8, virtual false, abstract: false, final false
   inline void set_contextualMenuManager(::UnityEngine::UIElements::ContextualMenuManager* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_cursorManager, addr 0x6db7c68, size 0x8, virtual true, abstract: false, final false
   inline void set_cursorManager(::UnityEngine::UIElements::ICursorManager* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dataBindingManager, addr 0x6db7c88, size 0x8, virtual true, abstract: false, final false
   inline void set_dataBindingManager(::UnityEngine::UIElements::DataBindingManager* value);
 
-  /// @brief Method set_dispatcher, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_dispatcher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_dispatcher(::UnityEngine::UIElements::EventDispatcher* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6db7d7c, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_duringLayoutPhase, addr 0x6db7c48, size 0x8, virtual false, abstract: false, final false
   inline void set_duringLayoutPhase(bool value);
 
-  /// @brief Method set_focusController, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_focusController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_focusController(::UnityEngine::UIElements::FocusController* value);
 
   /// @brief Method set_isFlat, addr 0x6dad05c, size 0x44, virtual false, abstract: false, final false
   inline void set_isFlat(bool value);
 
-  /// @brief Method set_ownerObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_ownerObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ownerObject(::UnityEngine::ScriptableObject* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_referenceSpritePixelsPerUnit, addr 0x6db7c10, size 0x8, virtual false, abstract: false, final false
   inline void set_referenceSpritePixelsPerUnit(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_repaintData, addr 0x6db7c58, size 0x8, virtual true, abstract: false, final false
   inline void set_repaintData(::UnityEngine::UIElements::RepaintData* value);
 
   /// @brief Method set_scale, addr 0x6daceec, size 0x138, virtual false, abstract: false, final false
   inline void set_scale(float_t value);
 
-  /// @brief Method set_styleAnimationSystem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+  /// @brief Method set_styleAnimationSystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_styleAnimationSystem(::UnityEngine::UIElements::IStylePropertyAnimationSystem* value);
 
 protected:
@@ -639,17 +666,19 @@ protected:
   constexpr BaseVisualElementPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualElementPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualElementPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseVisualElementPanel(BaseVisualElementPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualElementPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualElementPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseVisualElementPanel(BaseVisualElementPanel const&) = delete;
+  BaseVisualElementPanel(BaseVisualElementPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4643 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field panelDisposed, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* ___panelDisposed;
 
@@ -665,48 +694,72 @@ public:
   /// @brief Field m_PixelsPerPoint, offset: 0x58, size: 0x4, def value: None
   float_t ___m_PixelsPerPoint;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <referenceSpritePixelsPerUnit>k__BackingField, offset: 0x5c, size: 0x4, def value: None
   float_t ____referenceSpritePixelsPerUnit_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <clearSettings>k__BackingField, offset: 0x60, size: 0x14, def value: None
   ::UnityEngine::UIElements::PanelClearSettings ____clearSettings_k__BackingField;
 
   /// @brief Field panelRenderer, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanelRenderer* ___panelRenderer;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <duringLayoutPhase>k__BackingField, offset: 0x80, size: 0x1, def value: None
   bool ____duringLayoutPhase_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <repaintData>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::RepaintData* ____repaintData_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <cursorManager>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::ICursorManager* ____cursorManager_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <contextualMenuManager>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::ContextualMenuManager* ____contextualMenuManager_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dataBindingManager>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::DataBindingManager* ____dataBindingManager_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0xa8, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
   /// @brief Field m_TopElementUnderPointers, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::UIElements::ElementUnderPointer* ___m_TopElementUnderPointers;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field isFlatChanged, offset: 0xb8, size: 0x8, def value: None
   ::System::Action* ___isFlatChanged;
 
   /// @brief Field m_IsFlat, offset: 0xc0, size: 0x1, def value: None
   bool ___m_IsFlat;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field atlasChanged, offset: 0xc8, size: 0x8, def value: None
   ::System::Action* ___atlasChanged;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field hierarchyChanged, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::UIElements::HierarchyEvent* ___hierarchyChanged;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field beforeUpdate, offset: 0xd8, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::IPanel*>* ___beforeUpdate;
 

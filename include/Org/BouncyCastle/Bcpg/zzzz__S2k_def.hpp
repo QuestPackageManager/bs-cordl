@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\S2k.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/S2k.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ public:
   /// @brief Method GetIV, addr 0x369fd48, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetIV();
 
+  /// [Obsolete("Use \'IterationCount\' property instead")]
   /// @brief Method GetIterationCount, addr 0x369fda8, size 0xc, virtual false, abstract: false, final false
   inline int64_t GetIterationCount();
 
@@ -131,13 +132,13 @@ protected:
   constexpr S2k();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "S2k", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "S2k", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   S2k(S2k&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "S2k", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "S2k", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  S2k(S2k const&) = delete;
+  S2k(S2kconst&) = delete;
 
   /// @brief Field ExpBias offset 0xffffffff size 0x4
   static constexpr int32_t ExpBias{ static_cast<int32_t>(0x6) };

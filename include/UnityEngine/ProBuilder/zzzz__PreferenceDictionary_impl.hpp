@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\PreferenceDictionary.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/PreferenceDictionary.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PreferenceDictionary_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

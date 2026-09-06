@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnableOnVisible.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnableOnVisible.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,9 +56,11 @@ public:
   /// @brief Method .ctor, addr 0x585668c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_VisibilityChangedEvent, addr 0x58563bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_VisibilityChangedEvent, addr 0x585647c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
@@ -68,17 +70,18 @@ protected:
   constexpr EnableOnVisible();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnableOnVisible", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnableOnVisible", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnableOnVisible(EnableOnVisible&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnableOnVisible", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnableOnVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnableOnVisible(EnableOnVisible const&) = delete;
+  EnableOnVisible(EnableOnVisibleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21408 };
 
+  /// [CompilerGenerated]
   /// @brief Field VisibilityChangedEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<bool>* ___VisibilityChangedEvent;
 

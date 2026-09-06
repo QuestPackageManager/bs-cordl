@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\ParticleControlPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/ParticleControlPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,10 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+struct ScriptPlayable_1;
 }
 namespace UnityEngine {
 class ParticleSystem;
@@ -102,9 +105,11 @@ public:
   /// @brief Method .ctor, addr 0x69c9728, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_particleSystem, addr 0x69c9334, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ParticleSystem> get_particleSystem();
 
+  /// [CompilerGenerated]
   /// @brief Method set_particleSystem, addr 0x69c933c, size 0x8, virtual false, abstract: false, final false
   inline void set_particleSystem(::UnityEngine::ParticleSystem* value);
 
@@ -114,13 +119,13 @@ protected:
   constexpr ParticleControlPlayable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleControlPlayable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleControlPlayable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleControlPlayable(ParticleControlPlayable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleControlPlayable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleControlPlayable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleControlPlayable(ParticleControlPlayable const&) = delete;
+  ParticleControlPlayable(ParticleControlPlayableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19231 };
@@ -137,6 +142,7 @@ public:
   /// @brief Field m_RandomSeed, offset: 0x18, size: 0x4, def value: None
   uint32_t ___m_RandomSeed;
 
+  /// [CompilerGenerated]
   /// @brief Field <particleSystem>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem_k__BackingField;
 

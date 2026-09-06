@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Custom\Sec\SecT239Field.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/Sec/SecT239Field.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,13 +98,13 @@ protected:
   constexpr SecT239Field();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecT239Field", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT239Field", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecT239Field(SecT239Field&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecT239Field", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecT239Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecT239Field(SecT239Field const&) = delete;
+  SecT239Field(SecT239Fieldconst&) = delete;
 
   /// @brief Field M47 offset 0xffffffff size 0x8
   static constexpr uint64_t M47{ static_cast<uint64_t>(0x7fffffffffffu) };

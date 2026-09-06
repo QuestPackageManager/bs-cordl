@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameObjectSwitchEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameObjectSwitchEventEffect.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameObjectSwitchEventEffect_def.hpp"

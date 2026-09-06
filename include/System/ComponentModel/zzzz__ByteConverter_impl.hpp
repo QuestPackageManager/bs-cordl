@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ByteConverter.hpp"
+// IWYU pragma private; include "System/ComponentModel/ByteConverter.hpp"
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__ByteConverter_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"

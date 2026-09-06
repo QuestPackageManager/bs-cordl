@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonDictionaryAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonDictionaryAttribute.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonDictionaryAttribute_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonDictionaryAttribute._ctor
@@ -39,6 +39,7 @@ inline void Newtonsoft::Json::JsonDictionaryAttribute::_ctor(::StringW id) {
 inline ::Newtonsoft::Json::JsonDictionaryAttribute* Newtonsoft::Json::JsonDictionaryAttribute::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonDictionaryAttribute*>());
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::JsonDictionaryAttribute* Newtonsoft::Json::JsonDictionaryAttribute::New_ctor(::StringW id) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonDictionaryAttribute*>(id));
 }

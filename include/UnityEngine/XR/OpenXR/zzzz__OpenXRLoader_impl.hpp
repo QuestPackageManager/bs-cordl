@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRLoader.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRLoader.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderBase_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoader_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::OpenXRLoader._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRProfile.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRProfile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ MARK_VAL_T(::GlobalNamespace::OVRProfile_State);
 MARK_REF_T(::GlobalNamespace::OVRProfile*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRProfile_State, "", "OVRProfile/State");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRProfile*, "", "OVRProfile");
+// [Obsolete]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -55,7 +56,7 @@ public:
   // @brief default ctor
   constexpr OVRProfile_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRProfile_State(int32_t value__) noexcept;
 
   /// @brief Field ERROR value: I32(3)
@@ -87,6 +88,7 @@ static_assert(offsetof(::GlobalNamespace::OVRProfile_State, value__) == 0x0, "Of
 static_assert(sizeof(::GlobalNamespace::OVRProfile_State) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/reference/unity/latest/class_o_v_r_profile")]
 // Dependencies UnityEngine.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -100,16 +102,20 @@ public:
 
   __declspec(property(get = get_eyeHeight)) float_t eyeHeight;
 
+  /// @brief [Obsolete]
   __declspec(property(get = get_id)) ::StringW id;
 
   __declspec(property(get = get_ipd)) float_t ipd;
 
+  /// @brief [Obsolete]
   __declspec(property(get = get_locale)) ::StringW locale;
 
   __declspec(property(get = get_neckHeight)) float_t neckHeight;
 
+  /// @brief [Obsolete]
   __declspec(property(get = get_state)) ::GlobalNamespace::OVRProfile_State state;
 
+  /// @brief [Obsolete]
   __declspec(property(get = get_userName)) ::StringW userName;
 
   static inline ::GlobalNamespace::OVRProfile* New_ctor();
@@ -147,13 +153,13 @@ protected:
   constexpr OVRProfile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRProfile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRProfile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRProfile(OVRProfile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRProfile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRProfile(OVRProfile const&) = delete;
+  OVRProfile(OVRProfileconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7649 };

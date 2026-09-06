@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VisibleLight.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VisibleLight.hpp"
 #include "UnityEngine/Rendering/zzzz__VisibleLightFlags_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__LightType_impl.hpp"
@@ -168,11 +168,11 @@ constexpr UnityEngine::Rendering::VisibleLight::operator ::System::IEquatable_1<
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::VisibleLight>* UnityEngine::Rendering::VisibleLight::i___System__IEquatable_1___UnityEngine__Rendering__VisibleLight_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::VisibleLight>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_LightType", ty: "::UnityEngine::LightType", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FinalColor", ty: "::UnityEngine::Color", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_ScreenRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LocalToWorldMatrix", ty: "::UnityEngine::Matrix4x4",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Range", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SpotAngle", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_InstanceId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::VisibleLightFlags", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_LightType", ty: "::UnityEngine::LightType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FinalColor", ty: "::UnityEngine::Color",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ScreenRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_LocalToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Range", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_SpotAngle", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InstanceId", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::VisibleLightFlags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::VisibleLight::VisibleLight(::UnityEngine::LightType m_LightType, ::UnityEngine::Color m_FinalColor, ::UnityEngine::Rect m_ScreenRect,
                                                                ::UnityEngine::Matrix4x4 m_LocalToWorldMatrix, float_t m_Range, float_t m_SpotAngle, int32_t m_InstanceId,
                                                                ::UnityEngine::Rendering::VisibleLightFlags m_Flags) noexcept {

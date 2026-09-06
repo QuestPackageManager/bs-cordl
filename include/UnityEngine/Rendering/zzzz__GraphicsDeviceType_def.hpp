@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GraphicsDeviceType.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GraphicsDeviceType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct GraphicsDeviceType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::GraphicsDeviceType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GraphicsDeviceType, "UnityEngine.Rendering", "GraphicsDeviceType");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -66,7 +67,7 @@ public:
   // @brief default ctor
   constexpr GraphicsDeviceType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphicsDeviceType(int32_t value__) noexcept;
 
   /// @brief Field Direct3D11 value: I32(2)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\GravitySensor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/GravitySensor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class GravitySensor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::GravitySensor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::GravitySensor*, "UnityEngine.InputSystem", "GravitySensor");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.LowLevel.GravityState), displayName = "Gravity")]
 // Dependencies UnityEngine.InputSystem.Sensor
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -53,17 +54,21 @@ public:
 
   static inline ::UnityEngine::InputSystem::GravitySensor* getStaticF__current_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6565e4c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::GravitySensor* get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_gravity, addr 0x6565e3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_gravity();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::GravitySensor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6565e98, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::GravitySensor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_gravity, addr 0x6565e44, size 0x8, virtual false, abstract: false, final false
   inline void set_gravity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
@@ -73,17 +78,18 @@ protected:
   constexpr GravitySensor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GravitySensor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GravitySensor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GravitySensor(GravitySensor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GravitySensor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GravitySensor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GravitySensor(GravitySensor const&) = delete;
+  GravitySensor(GravitySensorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8761 };
 
+  /// [CompilerGenerated]
   /// @brief Field <gravity>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____gravity_k__BackingField;
 

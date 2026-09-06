@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirroredObstacleController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirroredObstacleController.hpp"
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredObstacleController_def.hpp"

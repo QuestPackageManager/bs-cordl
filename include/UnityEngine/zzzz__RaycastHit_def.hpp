@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RaycastHit.hpp"
+// IWYU pragma private; include "UnityEngine/RaycastHit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,10 @@ struct RaycastHit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RaycastHit);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");
+// [NativeHeader("PhysicsScriptingClasses.h")]
+// [NativeHeader("Runtime/Interfaces/IRaycast.h")]
+// [UsedByNativeCode]
+// [NativeHeader("Modules/Physics/RaycastHit.h")]
 // Dependencies UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -61,6 +65,8 @@ public:
 
   __declspec(property(get = get_textureCoord)) ::UnityEngine::Vector2 textureCoord;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("Use textureCoord2 instead. (UnityUpgradable) -> textureCoord2")]
   __declspec(property(get = get_textureCoord1)) ::UnityEngine::Vector2 textureCoord1;
 
   __declspec(property(get = get_textureCoord2)) ::UnityEngine::Vector2 textureCoord2;
@@ -69,6 +75,7 @@ public:
 
   __declspec(property(get = get_triangleIndex)) int32_t triangleIndex;
 
+  /// [NativeMethod("CalculateRaycastTexCoord", true, true)]
   /// @brief Method CalculateRaycastTexCoord, addr 0x6b98ae8, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 CalculateRaycastTexCoord(int32_t colliderInstanceID, ::UnityEngine::Vector2 uv, ::UnityEngine::Vector3 pos, uint32_t face, int32_t textcoord);
 
@@ -134,9 +141,10 @@ public:
   // @brief default ctor
   constexpr RaycastHit();
 
-  // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "m_FaceID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UV", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_FaceID", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_UV", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr RaycastHit(::UnityEngine::Vector3 m_Point, ::UnityEngine::Vector3 m_Normal, uint32_t m_FaceID, float_t m_Distance, ::UnityEngine::Vector2 m_UV, int32_t m_Collider) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -145,21 +153,27 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };
 
+  /// [NativeName("point")]
   /// @brief Field m_Point, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Point;
 
+  /// [NativeName("normal")]
   /// @brief Field m_Normal, offset: 0xc, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Normal;
 
+  /// [NativeName("faceID")]
   /// @brief Field m_FaceID, offset: 0x18, size: 0x4, def value: None
   uint32_t m_FaceID;
 
+  /// [NativeName("distance")]
   /// @brief Field m_Distance, offset: 0x1c, size: 0x4, def value: None
   float_t m_Distance;
 
+  /// [NativeName("uv")]
   /// @brief Field m_UV, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_UV;
 
+  /// [NativeName("collider")]
   /// @brief Field m_Collider, offset: 0x28, size: 0x4, def value: None
   int32_t m_Collider;
 

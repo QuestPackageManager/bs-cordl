@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\IDerivationParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IDerivationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,9 +18,9 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IDerivationParameters {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IDerivationParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDerivationParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDerivationParameters(IDerivationParameters const&) = delete;
+  IDerivationParameters(IDerivationParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 723 };

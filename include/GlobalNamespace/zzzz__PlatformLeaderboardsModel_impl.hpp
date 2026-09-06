@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformLeaderboardsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -21,7 +21,7 @@
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_State::PlatformLeaderboardsModel_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -30,7 +30,7 @@ constexpr ::GlobalNamespace::PlatformLeaderboardsModel_State::PlatformLeaderboar
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_State GlobalNamespace::PlatformLeaderboardsModel_State::NotInitialized{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_State GlobalNamespace::PlatformLeaderboardsModel_State::Initializing{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_State GlobalNamespace::PlatformLeaderboardsModel_State::Initialized{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult::PlatformLeaderboardsModel_GetScoresResult(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -39,7 +39,7 @@ constexpr ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult::Platform
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult::Ok{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult::Failed{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult::FailedTooManyRequests{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult::PlatformLeaderboardsModel_UploadScoreResult(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -48,7 +48,7 @@ constexpr ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult::Platfo
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult::Ok{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult::Failed{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult::FailedTooManyRequests{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope::PlatformLeaderboardsModel_ScoresScope(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -994,7 +994,7 @@ inline void GlobalNamespace::PlatformLeaderboardsModel::HandleAllScoresDidUpload
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardsModel*>(), { "HandleAllScoresDidUpload", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsModel::GetScores(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
+inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsModel::GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
                                                                                                 ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardsModel*>(),
@@ -1005,7 +1005,7 @@ inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsM
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::HMAsyncRequest*>(this, ___internal_method, beatmapKey, count, fromRank, completionHandler);
 }
 inline ::GlobalNamespace::HMAsyncRequest*
-GlobalNamespace::PlatformLeaderboardsModel::GetScoresAroundPlayer(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
+GlobalNamespace::PlatformLeaderboardsModel::GetScoresAroundPlayer(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
                                                                   ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardsModel*>(),
                                                                                          { "GetScoresAroundPlayer",
@@ -1014,7 +1014,8 @@ GlobalNamespace::PlatformLeaderboardsModel::GetScoresAroundPlayer(::by_ref<::Glo
                                                                                              ::i2c::type_of<::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::HMAsyncRequest*>(this, ___internal_method, beatmapKey, count, completionHandler);
 }
-inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsModel::GetFriendsScores(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
+inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsModel::GetFriendsScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
+                                                                                                       int32_t fromRank,
                                                                                                        ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardsModel*>(),
@@ -1024,7 +1025,7 @@ inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsM
                                                                ::i2c::type_of<::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::HMAsyncRequest*>(this, ___internal_method, beatmapKey, count, fromRank, completionHandler);
 }
-inline void GlobalNamespace::PlatformLeaderboardsModel::UploadScore(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore,
+inline void GlobalNamespace::PlatformLeaderboardsModel::UploadScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore,
                                                                     int32_t maxPossibleMultipliedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount,
                                                                     int32_t maxCombo, float_t energy, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method =

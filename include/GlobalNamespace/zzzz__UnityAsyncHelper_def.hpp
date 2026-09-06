@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityAsyncHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityAsyncHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -164,17 +164,22 @@ public:
   /// @brief Method MoveNext, addr 0x3327540, size 0xd0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3327610, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3327618, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3327650, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x332753c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -196,6 +201,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass5_0* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3327534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -214,13 +220,13 @@ protected:
   constexpr __c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d const&) = delete;
+  __c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20758 };
@@ -246,6 +252,7 @@ static_assert(offsetof(::GlobalNamespace::__c__DisplayClass5_0_UnityAsyncHelper_
 static_assert(sizeof(::GlobalNamespace::__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -263,6 +270,7 @@ public:
 
   static inline ::GlobalNamespace::UnityAsyncHelper___c__DisplayClass5_0* New_ctor();
 
+  /// [IteratorStateMachine(typeof(UnityAsyncHelper::<>c__DisplayClass5_0::<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d))]
   /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x3327334, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* _WaitUntilAsync_g__WaitUntilPredicateTrue_0();
 
@@ -287,13 +295,13 @@ protected:
   constexpr UnityAsyncHelper___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityAsyncHelper___c__DisplayClass5_0(UnityAsyncHelper___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityAsyncHelper___c__DisplayClass5_0(UnityAsyncHelper___c__DisplayClass5_0 const&) = delete;
+  UnityAsyncHelper___c__DisplayClass5_0(UnityAsyncHelper___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20759 };
@@ -346,17 +354,22 @@ public:
   /// @brief Method MoveNext, addr 0x3327664, size 0xd0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3327734, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x332773c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3327774, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3327660, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -378,6 +391,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3327658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -396,13 +410,13 @@ protected:
   constexpr __c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d const&) = delete;
+  __c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20760 };
@@ -428,6 +442,7 @@ static_assert(offsetof(::GlobalNamespace::__c__DisplayClass6_0_UnityAsyncHelper_
 static_assert(sizeof(::GlobalNamespace::__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -445,6 +460,7 @@ public:
 
   static inline ::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0* New_ctor();
 
+  /// [IteratorStateMachine(typeof(UnityAsyncHelper::<>c__DisplayClass6_0::<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d))]
   /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x33274e0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* _WaitUntilAsync_g__WaitUntilPredicateTrue_0();
 
@@ -469,13 +485,13 @@ protected:
   constexpr UnityAsyncHelper___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityAsyncHelper___c__DisplayClass6_0(UnityAsyncHelper___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityAsyncHelper___c__DisplayClass6_0(UnityAsyncHelper___c__DisplayClass6_0 const&) = delete;
+  UnityAsyncHelper___c__DisplayClass6_0(UnityAsyncHelper___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20761 };
@@ -496,6 +512,7 @@ static_assert(offsetof(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0,
 static_assert(sizeof(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -509,6 +526,7 @@ public:
   /// @brief Method MoveNext, addr 0x332777c, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x33279cc, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -519,9 +537,10 @@ public:
   // @brief default ctor
   constexpr UnityAsyncHelper__InvokeSafe_d__0();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "asyncTask", ty: "::System::Func_1<::System::Threading::Tasks::Task*>*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "asyncTask", ty:
+  // "::System::Func_1<::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr UnityAsyncHelper__InvokeSafe_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                               ::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -557,6 +576,7 @@ static_assert(offsetof(::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__0, __u
 static_assert(sizeof(::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__0) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // cpp template
@@ -572,6 +592,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -582,10 +603,10 @@ public:
   // @brief default ctor
   constexpr UnityAsyncHelper__InvokeSafe_d__1_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "asyncTask", ty: "::System::Func_2<A,::System::Threading::Tasks::Task*>*",
-  // modifiers: "", def_value: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "asyncTask", ty:
+  // "::System::Func_2<A,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr UnityAsyncHelper__InvokeSafe_d__1_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                 ::System::Func_2<A, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -614,6 +635,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // cpp template
@@ -629,6 +651,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -639,10 +662,11 @@ public:
   // @brief default ctor
   constexpr UnityAsyncHelper__InvokeSafe_d__2_2();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "asyncTask", ty: "::System::Func_3<A,B,::System::Threading::Tasks::Task*>*",
-  // modifiers: "", def_value: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: None }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "asyncTask", ty:
+  // "::System::Func_3<A,B,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr UnityAsyncHelper__InvokeSafe_d__2_2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                 ::System::Func_3<A, B, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, B secondParameter,
                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -675,6 +699,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // cpp template
@@ -690,6 +715,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -700,10 +726,11 @@ public:
   // @brief default ctor
   constexpr UnityAsyncHelper__InvokeSafe_d__3_3();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "asyncTask", ty: "::System::Func_4<A,B,C,::System::Threading::Tasks::Task*>*",
-  // modifiers: "", def_value: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: None }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value: None },
-  // CppParam { name: "thirdParameter", ty: "C", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "asyncTask", ty:
+  // "::System::Func_4<A,B,C,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value: None, comment: None }, CppParam { name: "thirdParameter", ty: "C", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr UnityAsyncHelper__InvokeSafe_d__3_3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                 ::System::Func_4<A, B, C, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, B secondParameter, C thirdParameter,
                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -739,6 +766,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // cpp template
@@ -754,6 +782,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -764,11 +793,12 @@ public:
   // @brief default ctor
   constexpr UnityAsyncHelper__InvokeSafe_d__4_4();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "asyncTask", ty: "::System::Func_5<A,B,C,D,::System::Threading::Tasks::Task*>*",
-  // modifiers: "", def_value: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: None }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value: None },
-  // CppParam { name: "thirdParameter", ty: "C", modifiers: "", def_value: None }, CppParam { name: "fourthParameter", ty: "D", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "asyncTask", ty:
+  // "::System::Func_5<A,B,C,D,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstParameter", ty: "A", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "secondParameter", ty: "B", modifiers: "", def_value: None, comment: None }, CppParam { name: "thirdParameter", ty: "C", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "fourthParameter", ty: "D", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr UnityAsyncHelper__InvokeSafe_d__4_4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                 ::System::Func_5<A, B, C, D, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, B secondParameter, C thirdParameter, D fourthParameter,
                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -828,19 +858,24 @@ public:
 
   using __c__DisplayClass6_0 = ::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0;
 
+  /// [AsyncStateMachine(typeof(UnityAsyncHelper::<InvokeSafe>d__0))]
   /// @brief Method InvokeSafe, addr 0x33271a0, size 0xa4, virtual false, abstract: false, final false
   static inline void InvokeSafe(::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask);
 
+  /// [AsyncStateMachine(typeof(UnityAsyncHelper::<InvokeSafe>d__1`1<A>))]
   /// @brief Method InvokeSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename A> static inline void InvokeSafe(::System::Func_2<A, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter);
 
+  /// [AsyncStateMachine(typeof(UnityAsyncHelper::<InvokeSafe>d__2`2<A, B>))]
   /// @brief Method InvokeSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename A, typename B> static inline void InvokeSafe(::System::Func_3<A, B, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, B secondParameter);
 
+  /// [AsyncStateMachine(typeof(UnityAsyncHelper::<InvokeSafe>d__3`3<A, B, C>))]
   /// @brief Method InvokeSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename A, typename B, typename C>
   static inline void InvokeSafe(::System::Func_4<A, B, C, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, B secondParameter, C thirdParameter);
 
+  /// [AsyncStateMachine(typeof(UnityAsyncHelper::<InvokeSafe>d__4`4<A, B, C, D>))]
   /// @brief Method InvokeSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename A, typename B, typename C, typename D>
   static inline void InvokeSafe(::System::Func_5<A, B, C, D, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, B secondParameter, C thirdParameter, D fourthParameter);
@@ -857,13 +892,13 @@ protected:
   constexpr UnityAsyncHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityAsyncHelper(UnityAsyncHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityAsyncHelper(UnityAsyncHelper const&) = delete;
+  UnityAsyncHelper(UnityAsyncHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20767 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\CurveData.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/CurveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,9 +40,9 @@ public:
   // @brief default ctor
   constexpr CurveData();
 
-  // Ctor Parameters [CppParam { name: "startPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "endPoint", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "startControlPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "endControlPoint", ty: "::UnityEngine::Vector3",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "startPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "endPoint", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "startControlPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "endControlPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr CurveData(::UnityEngine::Vector3 startPoint, ::UnityEngine::Vector3 endPoint, ::UnityEngine::Vector3 startControlPoint, ::UnityEngine::Vector3 endControlPoint) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

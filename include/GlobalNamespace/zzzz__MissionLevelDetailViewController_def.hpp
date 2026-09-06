@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionLevelDetailViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionLevelDetailViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ MARK_REF_T(::GlobalNamespace::MissionLevelDetailViewController*);
 MARK_REF_T(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionLevelDetailViewController*, "", "MissionLevelDetailViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0*, "", "MissionLevelDetailViewController/<>c__DisplayClass15_0");
+// [CompilerGenerated]
 // Dependencies MissionObjective, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -104,13 +105,13 @@ protected:
   constexpr MissionLevelDetailViewController___c__DisplayClass15_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController___c__DisplayClass15_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelDetailViewController___c__DisplayClass15_0(MissionLevelDetailViewController___c__DisplayClass15_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelDetailViewController___c__DisplayClass15_0(MissionLevelDetailViewController___c__DisplayClass15_0 const&) = delete;
+  MissionLevelDetailViewController___c__DisplayClass15_0(MissionLevelDetailViewController___c__DisplayClass15_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6960 };
@@ -235,12 +236,14 @@ public:
   /// @brief Method .ctor, addr 0x595e41c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressPlayButtonEvent, addr 0x595df28, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
   /// @brief Method get_missionNode, addr 0x595e0a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_missionNode();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressPlayButtonEvent, addr 0x595dfe8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
@@ -250,13 +253,13 @@ protected:
   constexpr MissionLevelDetailViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelDetailViewController(MissionLevelDetailViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelDetailViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelDetailViewController(MissionLevelDetailViewController const&) = delete;
+  MissionLevelDetailViewController(MissionLevelDetailViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6961 };
@@ -264,24 +267,32 @@ public:
   /// @brief Field kCampaignFinishLevelLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kCampaignFinishLevelLocalizationKey{ u"CAMPAIGN_FINISH_LEVEL" };
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _playButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____playButton;
 
+  /// [SerializeField]
   /// @brief Field _levelBar, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
+  /// [SerializeField]
   /// @brief Field _objectiveListItems, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObjectiveListItemsList> ____objectiveListItems;
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifierInfoListItemsList, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> ____gameplayModifierInfoListItemsList;
 
+  /// [SerializeField]
   /// @brief Field _modifiersPanelGO, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____modifiersPanelGO;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressPlayButtonEvent, offset: 0xa8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* ___didPressPlayButtonEvent;
 

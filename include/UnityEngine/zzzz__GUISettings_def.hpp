@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUISettings.hpp"
+// IWYU pragma private; include "UnityEngine/GUISettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class GUISettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::GUISettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GUISettings*, "UnityEngine", "GUISettings");
+// [NativeHeader("Modules/IMGUI/GUISkin.bindings.h")]
 // Dependencies System.Object, UnityEngine.Color
 namespace UnityEngine {
 // Is value type: false
@@ -77,29 +78,34 @@ protected:
   constexpr GUISettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUISettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUISettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUISettings(GUISettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUISettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUISettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUISettings(GUISettings const&) = delete;
+  GUISettings(GUISettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19882 };
 
+  /// [SerializeField]
   /// @brief Field m_DoubleClickSelectsWord, offset: 0x10, size: 0x1, def value: None
   bool ___m_DoubleClickSelectsWord;
 
+  /// [SerializeField]
   /// @brief Field m_TripleClickSelectsLine, offset: 0x11, size: 0x1, def value: None
   bool ___m_TripleClickSelectsLine;
 
+  /// [SerializeField]
   /// @brief Field m_CursorColor, offset: 0x14, size: 0x10, def value: None
   ::UnityEngine::Color ___m_CursorColor;
 
+  /// [SerializeField]
   /// @brief Field m_CursorFlashSpeed, offset: 0x24, size: 0x4, def value: None
   float_t ___m_CursorFlashSpeed;
 
+  /// [SerializeField]
   /// @brief Field m_SelectionColor, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ___m_SelectionColor;
 

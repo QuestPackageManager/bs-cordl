@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Channels\CrossAppDomainSink.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/CrossAppDomainSink.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__CrossAppDomainSink_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
@@ -11,8 +11,8 @@
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "arrResponse", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cadMrm", ty:
-// "::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "arrResponse", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cadMrm", ty:
+// "::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Remoting::Channels::CrossAppDomainSink_ProcessMessageRes::CrossAppDomainSink_ProcessMessageRes(
     ::ArrayW<uint8_t> arrResponse, ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm) noexcept {
   this->arrResponse = arrResponse;

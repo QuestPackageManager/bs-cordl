@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutHapticEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutHapticEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
 #include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"
 #include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::NoteCutHapticEffect_Type::NoteCutHapticEffect_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }

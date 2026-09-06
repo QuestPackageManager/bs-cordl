@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEditorSceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEditorSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
@@ -82,7 +82,7 @@ constexpr void GlobalNamespace::BeatmapEditorSceneSetupData::__cordl_internal_se
   this->___startLevel = value;
 }
 inline void
-GlobalNamespace::BeatmapEditorSceneSetupData::_ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+GlobalNamespace::BeatmapEditorSceneSetupData::_ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder, /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */
                                                     ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorSceneSetupData*>(),
@@ -93,7 +93,7 @@ GlobalNamespace::BeatmapEditorSceneSetupData::_ctor(bool goStraightToEditor, ::S
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, goStraightToEditor, projectPath, ignoreTempFolder, startLevel);
 }
 inline ::GlobalNamespace::BeatmapEditorSceneSetupData*
-GlobalNamespace::BeatmapEditorSceneSetupData::New_ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+GlobalNamespace::BeatmapEditorSceneSetupData::New_ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder, /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */
                                                        ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapEditorSceneSetupData*>(goStraightToEditor, projectPath, ignoreTempFolder, startLevel));
 }

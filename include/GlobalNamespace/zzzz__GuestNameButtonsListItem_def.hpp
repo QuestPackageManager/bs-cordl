@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GuestNameButtonsListItem.hpp"
+// IWYU pragma private; include "GlobalNamespace/GuestNameButtonsListItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ public:
 
   static inline ::GlobalNamespace::GuestNameButtonsListItem* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__7_0, addr 0x5a0f2a0, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__7_0();
 
@@ -83,20 +84,22 @@ protected:
   constexpr GuestNameButtonsListItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuestNameButtonsListItem(GuestNameButtonsListItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GuestNameButtonsListItem(GuestNameButtonsListItem const&) = delete;
+  GuestNameButtonsListItem(GuestNameButtonsListItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6373 };
 
+  /// [SerializeField]
   /// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
+  /// [SerializeField]
   /// @brief Field _button, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 

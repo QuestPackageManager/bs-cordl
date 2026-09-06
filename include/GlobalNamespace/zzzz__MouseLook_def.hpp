@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MouseLook.hpp"
+// IWYU pragma private; include "GlobalNamespace/MouseLook.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -167,38 +167,46 @@ protected:
   constexpr MouseLook();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseLook", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseLook", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseLook(MouseLook&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseLook", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseLook", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseLook(MouseLook const&) = delete;
+  MouseLook(MouseLookconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6559 };
 
+  /// [SerializeField]
   /// @brief Field _xSensitivity, offset: 0x10, size: 0x4, def value: None
   float_t ____xSensitivity;
 
+  /// [SerializeField]
   /// @brief Field _ySensitivity, offset: 0x14, size: 0x4, def value: None
   float_t ____ySensitivity;
 
+  /// [SerializeField]
   /// @brief Field _clampVerticalRotation, offset: 0x18, size: 0x1, def value: None
   bool ____clampVerticalRotation;
 
+  /// [SerializeField]
   /// @brief Field _minimumX, offset: 0x1c, size: 0x4, def value: None
   float_t ____minimumX;
 
+  /// [SerializeField]
   /// @brief Field _maximumX, offset: 0x20, size: 0x4, def value: None
   float_t ____maximumX;
 
+  /// [SerializeField]
   /// @brief Field _smooth, offset: 0x24, size: 0x1, def value: None
   bool ____smooth;
 
+  /// [SerializeField]
   /// @brief Field _smoothTime, offset: 0x28, size: 0x4, def value: None
   float_t ____smoothTime;
 
+  /// [SerializeField]
   /// @brief Field _lockCursor, offset: 0x2c, size: 0x1, def value: None
   bool ____lockCursor;
 

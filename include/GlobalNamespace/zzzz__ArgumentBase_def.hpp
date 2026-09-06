@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ArgumentBase.hpp"
+// IWYU pragma private; include "GlobalNamespace/ArgumentBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +42,10 @@ public:
 
   static inline ::GlobalNamespace::ArgumentBase* New_ctor();
 
-  /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
-  /// @brief Method TryParseWithValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryParseWithValue(::StringW inValue, ::by_ref<::StringW> outError);
 
   constexpr ::ArrayW<::StringW> const& __cordl_internal_get_autocompleteValues() const;
@@ -75,7 +75,7 @@ public:
   /// @brief Method .ctor, addr 0x32cc770, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isOptional, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isOptional, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isOptional();
 
   /// @brief Method get_supportsAutocomplete, addr 0x32cbebc, size 0x20, virtual false, abstract: false, final false
@@ -87,13 +87,13 @@ protected:
   constexpr ArgumentBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArgumentBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArgumentBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArgumentBase(ArgumentBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArgumentBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArgumentBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArgumentBase(ArgumentBase const&) = delete;
+  ArgumentBase(ArgumentBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19371 };

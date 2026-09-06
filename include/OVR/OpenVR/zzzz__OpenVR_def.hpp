@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\OpenVR.hpp"
+// IWYU pragma private; include "OVR/OpenVR/OpenVR.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -250,13 +250,13 @@ protected:
   constexpr OpenVR_COpenVRContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenVR_COpenVRContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenVR_COpenVRContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenVR_COpenVRContext(OpenVR_COpenVRContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenVR_COpenVRContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenVR_COpenVRContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenVR_COpenVRContext(OpenVR_COpenVRContext const&) = delete;
+  OpenVR_COpenVRContext(OpenVR_COpenVRContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8546 };
@@ -431,6 +431,7 @@ public:
   /// @brief Method get_TrackedCamera, addr 0x5e49414, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRTrackedCamera* get_TrackedCamera();
 
+  /// [CompilerGenerated]
   /// @brief Method get_VRToken, addr 0x5e48ab0, size 0x4c, virtual false, abstract: false, final false
   static inline uint32_t get_VRToken();
 
@@ -438,6 +439,7 @@ public:
 
   static inline void setStaticF__VRToken_k__BackingField(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_VRToken, addr 0x5e48afc, size 0x50, virtual false, abstract: false, final false
   static inline void set_VRToken(uint32_t value);
 
@@ -447,13 +449,13 @@ protected:
   constexpr OpenVR();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenVR", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenVR", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenVR(OpenVR&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenVR", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenVR", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenVR(OpenVR const&) = delete;
+  OpenVR(OpenVRconst&) = delete;
 
   /// @brief Field FnTable_Prefix offset 0xffffffff size 0x8
   static constexpr ::ConstString FnTable_Prefix{ u"FnTable:" };

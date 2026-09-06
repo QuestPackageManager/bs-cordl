@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerTaggedObjectParser.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerTaggedObjectParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ public:
   /// @brief Method GetObjectParser, addr 0x368cc50, size 0x94, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
+  /// @brief [Obsolete]
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
@@ -82,6 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__tagNumber(int32_t value);
 
+  /// [Obsolete]
   /// @brief Method .ctor, addr 0x368cbac, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 
@@ -106,13 +108,13 @@ protected:
   constexpr BerTaggedObjectParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerTaggedObjectParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerTaggedObjectParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerTaggedObjectParser(BerTaggedObjectParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerTaggedObjectParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerTaggedObjectParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerTaggedObjectParser(BerTaggedObjectParser const&) = delete;
+  BerTaggedObjectParser(BerTaggedObjectParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 497 };

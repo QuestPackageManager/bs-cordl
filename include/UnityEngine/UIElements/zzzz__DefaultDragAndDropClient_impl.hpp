@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DefaultDragAndDropClient.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DefaultDragAndDropClient.hpp"
 #include "UnityEngine/UIElements/zzzz__DragAndDropData_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DragVisualMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DefaultDragAndDropClient_def.hpp"

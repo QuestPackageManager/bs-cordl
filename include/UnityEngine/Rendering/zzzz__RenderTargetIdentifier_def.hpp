@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderTargetIdentifier.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,10 +106,10 @@ public:
   // @brief default ctor
   constexpr RenderTargetIdentifier();
 
-  // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::Rendering::BuiltinRenderTextureType", modifiers: "", def_value: None }, CppParam { name: "m_NameID", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_InstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BufferPointer", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "m_MipLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CubeFace", ty: "::UnityEngine::CubemapFace", modifiers: "", def_value: None }, CppParam { name:
-  // "m_DepthSlice", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::Rendering::BuiltinRenderTextureType", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NameID", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_InstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BufferPointer", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MipLevel", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CubeFace",
+  // ty: "::UnityEngine::CubemapFace", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DepthSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType m_Type, int32_t m_NameID, int32_t m_InstanceID, ::System::IntPtr m_BufferPointer, int32_t m_MipLevel,
                                    ::UnityEngine::CubemapFace m_CubeFace, int32_t m_DepthSlice) noexcept;
 

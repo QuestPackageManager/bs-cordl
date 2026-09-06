@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\ObjectReferenceStack.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/ObjectReferenceStack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,9 +49,9 @@ public:
   // @brief default ctor
   constexpr ObjectReferenceStack();
 
-  // Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "objectArray", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: None },
-  // CppParam { name: "isReferenceArray", ty: "::ArrayW<bool>", modifiers: "", def_value: None }, CppParam { name: "objectDictionary", ty:
-  // "::System::Collections::Generic::Dictionary_2<::System::Object*,::System::Object*>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "objectArray", ty: "::ArrayW<::System::Object*>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "isReferenceArray", ty: "::ArrayW<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "objectDictionary", ty:
+  // "::System::Collections::Generic::Dictionary_2<::System::Object*,::System::Object*>*", modifiers: "", def_value: None, comment: None }]
   constexpr ObjectReferenceStack(int32_t count, ::ArrayW<::System::Object*> objectArray, ::ArrayW<bool> isReferenceArray,
                                  ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* objectDictionary) noexcept;
 

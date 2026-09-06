@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Monitor.hpp"
+// IWYU pragma private; include "System/Threading/Monitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ public:
   /// @brief Method Enter, addr 0x5caa6e4, size 0x1c, virtual false, abstract: false, final false
   static inline void Enter(::System::Object* obj, ::by_ref<bool> lockTaken);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Exit, addr 0x5cad968, size 0x4, virtual false, abstract: false, final false
   static inline void Exit(::System::Object* obj);
 
@@ -86,13 +87,13 @@ protected:
   constexpr Monitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Monitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Monitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Monitor(Monitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Monitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Monitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Monitor(Monitor const&) = delete;
+  Monitor(Monitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2728 };

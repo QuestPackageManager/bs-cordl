@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongRunningHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongRunningHelper.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_impl.hpp"
@@ -75,16 +75,16 @@ inline void GlobalNamespace::SongRunningHelper_QueuedSongParams::_ctor(
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, beatmapLevel, characteristic, difficulty, advancedHud, songSpeed, playmodeOptions, recordingRelativePath, profileSong,
                                                    reportDescriptor, zenMode, disablePause, songFinishedCallback, startTimeSec, clearNotesOnStart, playDurationSec);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "difficulty", ty:
-// "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: Some("{}") }, CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "advancedHud", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "songSpeed", ty: "::GlobalNamespace::GameplayModifiers_SongSpeed", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "playmodeOptions", ty: "::GlobalNamespace::PlaymodeOptions", modifiers: "", def_value: Some("{}") }, CppParam { name: "recordingRelativePath", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "profileSong", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "reportDescriptor", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "songFinishedCallback", ty:
-// "::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*,::GlobalNamespace::LevelCompletionResults*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "zenMode", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "disablePause", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "startTimeSec", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "clearNotesOnStart", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "playDurationSec", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "difficulty", ty:
+// "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "advancedHud", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "songSpeed", ty:
+// "::GlobalNamespace::GameplayModifiers_SongSpeed", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "playmodeOptions", ty: "::GlobalNamespace::PlaymodeOptions", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "recordingRelativePath", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "profileSong", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reportDescriptor", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "songFinishedCallback", ty: "::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*,::GlobalNamespace::LevelCompletionResults*>*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "zenMode", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "disablePause", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "startTimeSec", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clearNotesOnStart", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "playDurationSec", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams::SongRunningHelper_QueuedSongParams(
     ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic characteristic, bool advancedHud,
     ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong, ::StringW reportDescriptor,
@@ -283,6 +283,7 @@ inline ::System::Object* GlobalNamespace::__c__DisplayClass13_0_SongRunningHelpe
                                                            { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*
 GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(__1__state));
@@ -688,6 +689,7 @@ inline ::System::Object* GlobalNamespace::SongRunningHelper__StartLevel_d__13::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::SongRunningHelper__StartLevel_d__13* GlobalNamespace::SongRunningHelper__StartLevel_d__13::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(__1__state));
 }

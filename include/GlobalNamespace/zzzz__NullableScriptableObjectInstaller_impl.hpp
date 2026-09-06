@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NullableScriptableObjectInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/NullableScriptableObjectInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__NullableScriptableObjectInstaller_def.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"

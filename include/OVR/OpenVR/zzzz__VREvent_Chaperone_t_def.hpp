@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_Chaperone_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Chaperone_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr VREvent_Chaperone_t();
 
-  // Ctor Parameters [CppParam { name: "m_nPreviousUniverse", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_nCurrentUniverse", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_nPreviousUniverse", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_nCurrentUniverse", ty: "uint64_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr VREvent_Chaperone_t(uint64_t m_nPreviousUniverse, uint64_t m_nCurrentUniverse) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

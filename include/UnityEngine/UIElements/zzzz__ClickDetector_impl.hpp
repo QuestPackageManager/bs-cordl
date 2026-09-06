@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ClickDetector.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ClickDetector.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ClickDetector_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -255,7 +256,9 @@ inline void UnityEngine::UIElements::ClickDetector::CancelClickTracking(::UnityE
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ClickDetector*>(), { "CancelClickTracking", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TEvent> inline void UnityEngine::UIElements::ClickDetector::ProcessEvent(::UnityEngine::UIElements::PointerEventBase_1<TEvent>* evt) {
+template <typename TEvent>
+  requires(::cordl_internals::type_constraint<TEvent, ::UnityEngine::UIElements::PointerEventBase_1<TEvent>*> && ::cordl_internals::default_constructor_constraint<TEvent>)
+inline void UnityEngine::UIElements::ClickDetector::ProcessEvent(::UnityEngine::UIElements::PointerEventBase_1<TEvent>* evt) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ClickDetector*>(),
                                                            { "ProcessEvent", { ::i2c::class_of<TEvent>() }, { ::i2c::type_of<::UnityEngine::UIElements::PointerEventBase_1<TEvent>*>() } })));

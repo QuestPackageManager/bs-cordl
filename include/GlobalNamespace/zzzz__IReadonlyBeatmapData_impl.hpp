@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IReadonlyBeatmapData.hpp"
+// IWYU pragma private; include "GlobalNamespace/IReadonlyBeatmapData.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_impl.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
@@ -277,7 +278,9 @@ inline ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDa
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IReadonlyBeatmapData*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>*>(this, ___internal_method);
 }
-template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::IReadonlyBeatmapData::GetBeatmapDataItems(int32_t subtypeGroupIdentifier) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+inline ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::IReadonlyBeatmapData::GetBeatmapDataItems(int32_t subtypeGroupIdentifier) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IReadonlyBeatmapData*>(), 8 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));

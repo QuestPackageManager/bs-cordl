@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ScriptableRenderContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace System {
 class Type;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering {
 struct AttachmentDescriptor;
@@ -112,9 +114,10 @@ public:
   // @brief default ctor
   constexpr ScriptableRenderContext_CullShadowCastersContext();
 
-  // Ctor Parameters [CppParam { name: "cullResults", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "splitBuffer", ty: "::UnityEngine::Rendering::ShadowSplitData*",
-  // modifiers: "", def_value: None }, CppParam { name: "splitBufferLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "perLightInfos", ty:
-  // "::UnityEngine::Rendering::LightShadowCasterCullingInfo*", modifiers: "", def_value: None }, CppParam { name: "perLightInfoCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cullResults", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "splitBuffer", ty:
+  // "::UnityEngine::Rendering::ShadowSplitData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "splitBufferLength", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "perLightInfos", ty: "::UnityEngine::Rendering::LightShadowCasterCullingInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "perLightInfoCount", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptableRenderContext_CullShadowCastersContext(::System::IntPtr cullResults, ::UnityEngine::Rendering::ShadowSplitData* splitBuffer, int32_t splitBufferLength,
                                                              ::UnityEngine::Rendering::LightShadowCasterCullingInfo* perLightInfos, int32_t perLightInfoCount) noexcept;
 
@@ -155,6 +158,12 @@ static_assert(offsetof(::UnityEngine::Rendering::ScriptableRenderContext_CullSha
 static_assert(sizeof(::UnityEngine::Rendering::ScriptableRenderContext_CullShadowCastersContext) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [NativeHeader("Runtime/Export/RenderPipeline/ScriptableRenderPipeline.bindings.h")]
+// [NativeHeader("Modules/UI/CanvasManager.h")]
+// [NativeType("Runtime/Graphics/ScriptableRenderLoop/ScriptableRenderContext.h")]
+// [NativeHeader("Runtime/Graphics/ScriptableRenderLoop/ScriptableDrawRenderersUtility.h")]
+// [NativeHeader("Modules/UI/Canvas.h")]
+// [NativeHeader("Runtime/Export/RenderPipeline/ScriptableRenderContext.bindings.h")]
 // Dependencies System.IntPtr, UnityEngine.Rendering.ShaderTagId
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -174,6 +183,7 @@ public:
   inline void BeginRenderPass(int32_t width, int32_t height, int32_t samples, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AttachmentDescriptor> attachments,
                               int32_t depthAttachmentIndex);
 
+  /// [FreeFunction("ScriptableRenderContext::BeginRenderPass")]
   /// @brief Method BeginRenderPass_Internal, addr 0x6b25840, size 0x8c, virtual false, abstract: false, final false
   static inline void BeginRenderPass_Internal(::System::IntPtr self, int32_t width, int32_t height, int32_t volumeDepth, int32_t samples, ::System::IntPtr colors, int32_t colorCount,
                                               int32_t depthAttachmentIndex);
@@ -184,6 +194,7 @@ public:
   /// @brief Method BeginSubPass, addr 0x6b26e08, size 0xc4, virtual false, abstract: false, final false
   inline void BeginSubPass(::Unity::Collections::NativeArray_1<int32_t> colors, bool isDepthStencilReadOnly);
 
+  /// [FreeFunction("ScriptableRenderContext::BeginSubPass")]
   /// @brief Method BeginSubPass_Internal, addr 0x6b258cc, size 0x84, virtual false, abstract: false, final false
   static inline void BeginSubPass_Internal(::System::IntPtr self, ::System::IntPtr colors, int32_t colorCount, ::System::IntPtr inputs, int32_t inputCount, bool isDepthReadOnly,
                                            bool isStencilReadOnly);
@@ -192,7 +203,7 @@ public:
   inline ::UnityEngine::Rendering::RendererList CreateGizmoRendererList(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::GizmoSubset gizmoSubset);
 
   /// @brief Method CreateGizmoRendererList_Internal, addr 0x6b2670c, size 0x114, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RendererList CreateGizmoRendererList_Internal(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::GizmoSubset gizmoSubset);
+  inline ::UnityEngine::Rendering::RendererList CreateGizmoRendererList_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::GizmoSubset gizmoSubset);
 
   /// @brief Method CreateGizmoRendererList_Internal_Injected, addr 0x6b26820, size 0x5c, virtual false, abstract: false, final false
   static inline void CreateGizmoRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera,
@@ -233,8 +244,8 @@ public:
                                                                          ::UnityEngine::Matrix4x4 projectionMatrixR, ::UnityEngine::Matrix4x4 viewMatrixR);
 
   /// @brief Method CreateSkyboxRendererList_Internal, addr 0x6b2653c, size 0x144, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList_Internal(::UnityEngine::Camera* camera, int32_t mode, ::UnityEngine::Matrix4x4 proj, ::UnityEngine::Matrix4x4 view,
-                                                                                  ::UnityEngine::Matrix4x4 projR, ::UnityEngine::Matrix4x4 viewR);
+  inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera, int32_t mode, ::UnityEngine::Matrix4x4 proj,
+                                                                                  ::UnityEngine::Matrix4x4 view, ::UnityEngine::Matrix4x4 projR, ::UnityEngine::Matrix4x4 viewR);
 
   /// @brief Method CreateSkyboxRendererList_Internal_Injected, addr 0x6b26680, size 0x8c, virtual false, abstract: false, final false
   static inline void CreateSkyboxRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera, int32_t mode,
@@ -248,7 +259,7 @@ public:
   inline ::UnityEngine::Rendering::RendererList CreateUIOverlayRendererList(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::UISubset uiSubset);
 
   /// @brief Method CreateUIOverlayRendererList_Internal, addr 0x6b2687c, size 0x114, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RendererList CreateUIOverlayRendererList_Internal(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::UISubset uiSubset);
+  inline ::UnityEngine::Rendering::RendererList CreateUIOverlayRendererList_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::UISubset uiSubset);
 
   /// @brief Method CreateUIOverlayRendererList_Internal_Injected, addr 0x6b26990, size 0x5c, virtual false, abstract: false, final false
   static inline void CreateUIOverlayRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera,
@@ -258,7 +269,7 @@ public:
   inline ::UnityEngine::Rendering::RendererList CreateWireOverlayRendererList(::UnityEngine::Camera* camera);
 
   /// @brief Method CreateWireOverlayRendererList_Internal, addr 0x6b269ec, size 0x108, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RendererList CreateWireOverlayRendererList_Internal(::UnityEngine::Camera* camera);
+  inline ::UnityEngine::Rendering::RendererList CreateWireOverlayRendererList_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera);
 
   /// @brief Method CreateWireOverlayRendererList_Internal_Injected, addr 0x6b26af4, size 0x54, virtual false, abstract: false, final false
   static inline void CreateWireOverlayRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera,
@@ -274,11 +285,12 @@ public:
   inline void DrawWireOverlay(::UnityEngine::Camera* camera);
 
   /// @brief Method DrawWireOverlay_Impl, addr 0x6b26164, size 0xdc, virtual false, abstract: false, final false
-  inline void DrawWireOverlay_Impl(::UnityEngine::Camera* camera);
+  inline void DrawWireOverlay_Impl(/* [NotNull] */ ::UnityEngine::Camera* camera);
 
   /// @brief Method DrawWireOverlay_Impl_Injected, addr 0x6b26240, size 0x44, virtual false, abstract: false, final false
   static inline void DrawWireOverlay_Impl_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera);
 
+  /// [FreeFunction("PlayerEmitCanvasGeometryForCamera")]
   /// @brief Method EmitGeometryForCamera, addr 0x6b25d70, size 0xa8, virtual false, abstract: false, final false
   static inline void EmitGeometryForCamera(::UnityEngine::Camera* camera);
 
@@ -288,12 +300,14 @@ public:
   /// @brief Method EndRenderPass, addr 0x6b26f48, size 0x7c, virtual false, abstract: false, final false
   inline void EndRenderPass();
 
+  /// [FreeFunction("ScriptableRenderContext::EndRenderPass")]
   /// @brief Method EndRenderPass_Internal, addr 0x6b2598c, size 0x3c, virtual false, abstract: false, final false
   static inline void EndRenderPass_Internal(::System::IntPtr self);
 
   /// @brief Method EndSubPass, addr 0x6b26ecc, size 0x7c, virtual false, abstract: false, final false
   inline void EndSubPass();
 
+  /// [FreeFunction("ScriptableRenderContext::EndSubPass")]
   /// @brief Method EndSubPass_Internal, addr 0x6b25950, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSubPass_Internal(::System::IntPtr self);
 
@@ -309,6 +323,7 @@ public:
   /// @brief Method ExecuteCommandBufferAsync, addr 0x6b27210, size 0xf8, virtual false, abstract: false, final false
   inline void ExecuteCommandBufferAsync(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Rendering::ComputeQueueType queueType);
 
+  /// [NativeThrows]
   /// @brief Method ExecuteCommandBufferAsync_Internal, addr 0x6b25f28, size 0x98, virtual false, abstract: false, final false
   inline void ExecuteCommandBufferAsync_Internal(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Rendering::ComputeQueueType queueType);
 
@@ -316,6 +331,7 @@ public:
   static inline void ExecuteCommandBufferAsync_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr commandBuffer,
                                                                  ::UnityEngine::Rendering::ComputeQueueType queueType);
 
+  /// [NativeThrows]
   /// @brief Method ExecuteCommandBuffer_Internal, addr 0x6b25e54, size 0x90, virtual false, abstract: false, final false
   inline void ExecuteCommandBuffer_Internal(::UnityEngine::Rendering::CommandBuffer* commandBuffer);
 
@@ -334,18 +350,22 @@ public:
   /// @brief Method HasInvokeOnRenderObjectCallbacks, addr 0x6b270b4, size 0x6c, virtual false, abstract: false, final false
   inline bool HasInvokeOnRenderObjectCallbacks();
 
+  /// [FreeFunction("ScriptableRenderContext::HasInvokeOnRenderObjectCallbacks")]
   /// @brief Method HasInvokeOnRenderObjectCallbacks_Internal, addr 0x6b259c8, size 0x28, virtual false, abstract: false, final false
   static inline bool HasInvokeOnRenderObjectCallbacks_Internal();
 
+  /// [FreeFunction("InitializeSortSettings")]
   /// @brief Method InitializeSortSettings, addr 0x6b25ba8, size 0xb8, virtual false, abstract: false, final false
   static inline void InitializeSortSettings(::UnityEngine::Camera* camera, ::by_ref<::UnityEngine::Rendering::SortingSettings> sortingSettings);
 
   /// @brief Method InitializeSortSettings_Injected, addr 0x6b25c60, size 0x44, virtual false, abstract: false, final false
   static inline void InitializeSortSettings_Injected(::System::IntPtr camera, ::by_ref<::UnityEngine::Rendering::SortingSettings> sortingSettings);
 
+  /// [FreeFunction("ScriptableRenderPipeline_Bindings::Internal_Cull")]
   /// @brief Method Internal_Cull, addr 0x6b259f0, size 0x94, virtual false, abstract: false, final false
   static inline void Internal_Cull(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> parameters, ::UnityEngine::Rendering::ScriptableRenderContext renderLoop, ::System::IntPtr results);
 
+  /// [FreeFunction("ScriptableRenderPipeline_Bindings::Internal_CullShadowCasters")]
   /// @brief Method Internal_CullShadowCasters, addr 0x6b25ad8, size 0x8c, virtual false, abstract: false, final false
   static inline void Internal_CullShadowCasters(::UnityEngine::Rendering::ScriptableRenderContext renderLoop, ::System::IntPtr context);
 
@@ -382,7 +402,7 @@ public:
   inline void SetupCameraProperties(::UnityEngine::Camera* camera, bool stereoSetup, int32_t eye);
 
   /// @brief Method SetupCameraProperties_Internal, addr 0x6b26014, size 0xf4, virtual false, abstract: false, final false
-  inline void SetupCameraProperties_Internal(::UnityEngine::Camera* camera, bool stereoSetup, int32_t eye);
+  inline void SetupCameraProperties_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera, bool stereoSetup, int32_t eye);
 
   /// @brief Method SetupCameraProperties_Internal_Injected, addr 0x6b26108, size 0x5c, virtual false, abstract: false, final false
   static inline void SetupCameraProperties_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera, bool stereoSetup, int32_t eye);
@@ -413,7 +433,7 @@ public:
   // @brief default ctor
   constexpr ScriptableRenderContext();
 
-  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptableRenderContext(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

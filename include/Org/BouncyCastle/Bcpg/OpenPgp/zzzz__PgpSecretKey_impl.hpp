@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpSecretKey.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpSecretKey.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSecretKey_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpKeyPair_def.hpp"
@@ -1458,6 +1458,7 @@ inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey* Org::BouncyCastle::Bcpg
   return THROW_UNLESS(::i2c::no_logger{},
                       ::i2c::new_ctor<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey*>(privKey, pubKey, encAlgorithm, rawPassPhrase, clearPassPhrase, useSha1, rand, isMasterKey));
 }
+/// @brief [Obsolete("Use the constructor taking an explicit \'useSha1\' parameter instead")]
 inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey* Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey::New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* keyPair,
                                                                                                                   ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
                                                                                                                   ::ArrayW<char16_t> passPhrase,

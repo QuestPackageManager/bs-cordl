@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "DataModels\RemoteLocalizationModel.hpp"
+// IWYU pragma private; include "DataModels/RemoteLocalizationModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::DataModels::RemoteLocalizationModel*);
 MARK_VAL_T(::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6);
 DEFINE_IL2CPP_CLASS(::DataModels::RemoteLocalizationModel*, "DataModels", "RemoteLocalizationModel");
 DEFINE_IL2CPP_CLASS(::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6, "DataModels", "RemoteLocalizationModel/<LoadAdditionalLocalizationAsync>d__6");
+// [CompilerGenerated]
 // Dependencies System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
 // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace DataModels {
@@ -62,8 +63,9 @@ public:
   /// @brief Method MoveNext, addr 0x3760304, size 0x898, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3760b9c, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -72,12 +74,13 @@ public:
   // @brief default ctor
   constexpr RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "prevLoadingTask", ty: "::System::Threading::Tasks::Task*", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::DataModels::RemoteLocalizationModel*", modifiers: "", def_value: None }, CppParam { name: "_loadAdditionalLocalizationHandle_5__2", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "prevLoadingTask", ty: "::System::Threading::Tasks::Task*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::DataModels::RemoteLocalizationModel*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_loadAdditionalLocalizationHandle_5__2", ty:
   // "::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>", modifiers: "", def_value: None }]
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>", modifiers: "", def_value: None, comment: None }]
   constexpr RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* prevLoadingTask, ::DataModels::RemoteLocalizationModel* __4__this,
       ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>>
@@ -97,12 +100,15 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field prevLoadingTask, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* prevLoadingTask;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::DataModels::RemoteLocalizationModel* __4__this;
 
+  /// [Nullable(new[] { 0, 1, 1 })]
   /// @brief Field <loadAdditionalLocalizationHandle>5__2, offset: 0x30, size: 0x20, def value: None
   ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>>
       _loadAdditionalLocalizationHandle_5__2;
@@ -110,6 +116,7 @@ public:
   /// @brief Field <>u__1, offset: 0x50, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x58, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> __u__2;
 
@@ -133,6 +140,8 @@ static_assert(offsetof(::DataModels::RemoteLocalizationModel__LoadAdditionalLoca
 static_assert(sizeof(::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6) == 0x60, "Size mismatch!");
 
 } // namespace DataModels
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace DataModels {
 // Is value type: false
@@ -161,8 +170,9 @@ public:
   /// @brief Method Initialize, addr 0x37601fc, size 0x28, virtual true, abstract: false, final true
   inline void Initialize();
 
+  /// [AsyncStateMachine(typeof(DataModels.RemoteLocalizationModel::<LoadAdditionalLocalizationAsync>d__6))]
   /// @brief Method LoadAdditionalLocalizationAsync, addr 0x3760224, size 0xc4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* LoadAdditionalLocalizationAsync(::System::Threading::Tasks::Task* prevLoadingTask);
+  inline ::System::Threading::Tasks::Task* LoadAdditionalLocalizationAsync(/* [Nullable(2)] */ ::System::Threading::Tasks::Task* prevLoadingTask);
 
   static inline ::DataModels::RemoteLocalizationModel* New_ctor(::BGLib::Polyglot::LocalizationModel* localizationModel, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager);
 
@@ -196,13 +206,13 @@ protected:
   constexpr RemoteLocalizationModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteLocalizationModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteLocalizationModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemoteLocalizationModel(RemoteLocalizationModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteLocalizationModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemoteLocalizationModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemoteLocalizationModel(RemoteLocalizationModel const&) = delete;
+  RemoteLocalizationModel(RemoteLocalizationModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15424 };
@@ -213,6 +223,7 @@ public:
   /// @brief Field _metaRemoteAssetsManager, offset: 0x18, size: 0x8, def value: None
   ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* ____metaRemoteAssetsManager;
 
+  /// [Nullable(2)]
   /// @brief Field _loadingTask, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____loadingTask;
 

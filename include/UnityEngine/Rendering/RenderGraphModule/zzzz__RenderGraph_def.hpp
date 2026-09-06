@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraph.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,9 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 class NativePassCompiler;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct BufferDesc;
@@ -187,7 +189,9 @@ namespace UnityEngine::Rendering {
 class DebugUI_Widget;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1;
 }
 namespace UnityEngine::Rendering {
 struct GizmoSubset;
@@ -336,9 +340,9 @@ public:
   // @brief default ctor
   constexpr RenderGraph_CompiledResourceInfo();
 
-  // Ctor Parameters [CppParam { name: "producers", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None }, CppParam { name: "consumers", ty:
-  // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None }, CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "imported",
-  // ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "producers", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "consumers", ty:
+  // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "imported", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraph_CompiledResourceInfo(::System::Collections::Generic::List_1<int32_t>* producers, ::System::Collections::Generic::List_1<int32_t>* consumers, int32_t refCount,
                                              bool imported) noexcept;
 
@@ -374,6 +378,7 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule
+// [DebuggerDisplay("RenderPass: {name} (Index:{index} Async:{enableAsyncCompute})")]
 // Dependencies System.Collections.Generic.List`1<T>, UnityEngine.Rendering.GraphicsFence
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -388,14 +393,15 @@ public:
   // @brief default ctor
   constexpr RenderGraph_CompiledPassInfo();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "resourceCreateList", ty: "::ArrayW<::System::Collections::Generic::List_1<int32_t>*>", modifiers: "", def_value: None }, CppParam { name: "resourceReleaseList", ty:
-  // "::ArrayW<::System::Collections::Generic::List_1<int32_t>*>", modifiers: "", def_value: None }, CppParam { name: "fence", ty: "::UnityEngine::Rendering::GraphicsFence", modifiers: "", def_value:
-  // None }, CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "syncToPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "syncFromPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "enableAsyncCompute", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "allowPassCulling", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "needGraphicsFence", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "culled", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "culledByRendererList", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasSideEffect", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "enableFoveatedRasterization", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "resourceCreateList", ty: "::ArrayW<::System::Collections::Generic::List_1<int32_t>*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "resourceReleaseList", ty: "::ArrayW<::System::Collections::Generic::List_1<int32_t>*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "fence", ty:
+  // "::UnityEngine::Rendering::GraphicsFence", modifiers: "", def_value: None, comment: None }, CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "syncToPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "syncFromPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "enableAsyncCompute", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "allowPassCulling", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "needGraphicsFence", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "culled", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "culledByRendererList", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "hasSideEffect", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "enableFoveatedRasterization", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraph_CompiledPassInfo(::StringW name, int32_t index, ::ArrayW<::System::Collections::Generic::List_1<int32_t>*> resourceCreateList,
                                          ::ArrayW<::System::Collections::Generic::List_1<int32_t>*> resourceReleaseList, ::UnityEngine::Rendering::GraphicsFence fence, int32_t refCount,
                                          int32_t syncToPassIndex, int32_t syncFromPassIndex, bool enableAsyncCompute, bool allowPassCulling, bool needGraphicsFence, bool culled,
@@ -495,12 +501,12 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE RenderGraph_ICompiledGraph {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_ICompiledGraph", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_ICompiledGraph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_ICompiledGraph(RenderGraph_ICompiledGraph const&) = delete;
+  RenderGraph_ICompiledGraph(RenderGraph_ICompiledGraphconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12390 };
@@ -576,13 +582,13 @@ protected:
   constexpr RenderGraph_CompiledGraph();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_CompiledGraph", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_CompiledGraph", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraph_CompiledGraph(RenderGraph_CompiledGraph&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_CompiledGraph", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_CompiledGraph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_CompiledGraph(RenderGraph_CompiledGraph const&) = delete;
+  RenderGraph_CompiledGraph(RenderGraph_CompiledGraphconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12391 };
@@ -635,13 +641,13 @@ protected:
   constexpr RenderGraph_ProfilingScopePassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_ProfilingScopePassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_ProfilingScopePassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraph_ProfilingScopePassData(RenderGraph_ProfilingScopePassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_ProfilingScopePassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_ProfilingScopePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_ProfilingScopePassData(RenderGraph_ProfilingScopePassData const&) = delete;
+  RenderGraph_ProfilingScopePassData(RenderGraph_ProfilingScopePassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12392 };
@@ -684,13 +690,13 @@ protected:
   constexpr RenderGraph_OnGraphRegisteredDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnGraphRegisteredDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnGraphRegisteredDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraph_OnGraphRegisteredDelegate(RenderGraph_OnGraphRegisteredDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnGraphRegisteredDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnGraphRegisteredDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_OnGraphRegisteredDelegate(RenderGraph_OnGraphRegisteredDelegate const&) = delete;
+  RenderGraph_OnGraphRegisteredDelegate(RenderGraph_OnGraphRegisteredDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12393 };
@@ -728,13 +734,13 @@ protected:
   constexpr RenderGraph_OnExecutionRegisteredDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnExecutionRegisteredDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnExecutionRegisteredDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraph_OnExecutionRegisteredDelegate(RenderGraph_OnExecutionRegisteredDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnExecutionRegisteredDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnExecutionRegisteredDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_OnExecutionRegisteredDelegate(RenderGraph_OnExecutionRegisteredDelegate const&) = delete;
+  RenderGraph_OnExecutionRegisteredDelegate(RenderGraph_OnExecutionRegisteredDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12394 };
@@ -818,13 +824,13 @@ protected:
   constexpr NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo(NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo(NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo const&) = delete;
+  NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo(NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12395 };
@@ -876,7 +882,8 @@ public:
   // @brief default ctor
   constexpr NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_PassCompatibilityInfo();
 
-  // Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isCompatible", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "isCompatible", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_PassCompatibilityInfo(::StringW message, bool isCompatible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -968,13 +975,13 @@ protected:
   constexpr NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo(NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo(NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo const&) = delete;
+  NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo(NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12397 };
@@ -1099,13 +1106,13 @@ protected:
   constexpr PassData_DebugData_RenderGraph_NRPInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PassData_DebugData_RenderGraph_NRPInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PassData_DebugData_RenderGraph_NRPInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PassData_DebugData_RenderGraph_NRPInfo(PassData_DebugData_RenderGraph_NRPInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PassData_DebugData_RenderGraph_NRPInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PassData_DebugData_RenderGraph_NRPInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PassData_DebugData_RenderGraph_NRPInfo(PassData_DebugData_RenderGraph_NRPInfo const&) = delete;
+  PassData_DebugData_RenderGraph_NRPInfo(PassData_DebugData_RenderGraph_NRPInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12398 };
@@ -1156,6 +1163,7 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::PassData_Deb
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::PassData_DebugData_RenderGraph_NRPInfo) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule
+// [DebuggerDisplay("PassDebug: {name}")]
 // Dependencies System.Collections.Generic.List`1<T>, UnityEngine.Rendering.RenderGraphModule.RenderGraphPassType
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -1169,13 +1177,15 @@ public:
   // @brief default ctor
   constexpr DebugData_RenderGraph_PassData();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType",
-  // modifiers: "", def_value: None }, CppParam { name: "resourceReadLists", ty: "::ArrayW<::System::Collections::Generic::List_1<int32_t>*>", modifiers: "", def_value: None }, CppParam { name:
-  // "resourceWriteLists", ty: "::ArrayW<::System::Collections::Generic::List_1<int32_t>*>", modifiers: "", def_value: None }, CppParam { name: "culled", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "async", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nativeSubPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "syncToPassIndex",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "syncFromPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "generateDebugData", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "nrpInfo", ty: "::UnityEngine::Rendering::RenderGraphModule::PassData_DebugData_RenderGraph_NRPInfo*", modifiers: "", def_value: None },
-  // CppParam { name: "scriptInfo", ty: "::UnityEngine::Rendering::RenderGraphModule::DebugData_RenderGraph_PassScriptInfo*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType", modifiers: "", def_value: None, comment: None }, CppParam { name: "resourceReadLists", ty:
+  // "::ArrayW<::System::Collections::Generic::List_1<int32_t>*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "resourceWriteLists", ty:
+  // "::ArrayW<::System::Collections::Generic::List_1<int32_t>*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "culled", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "async", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "nativeSubPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "syncToPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "syncFromPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "generateDebugData", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "nrpInfo", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::PassData_DebugData_RenderGraph_NRPInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "scriptInfo", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::DebugData_RenderGraph_PassScriptInfo*", modifiers: "", def_value: None, comment: None }]
   constexpr DebugData_RenderGraph_PassData(::StringW name, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType type,
                                            ::ArrayW<::System::Collections::Generic::List_1<int32_t>*> resourceReadLists, ::ArrayW<::System::Collections::Generic::List_1<int32_t>*> resourceWriteLists,
                                            bool culled, bool async, int32_t nativeSubPassIndex, int32_t syncToPassIndex, int32_t syncFromPassIndex, bool generateDebugData,
@@ -1308,13 +1318,13 @@ protected:
   constexpr DebugData_RenderGraph_BufferResourceData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_BufferResourceData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_BufferResourceData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugData_RenderGraph_BufferResourceData(DebugData_RenderGraph_BufferResourceData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_BufferResourceData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_BufferResourceData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugData_RenderGraph_BufferResourceData(DebugData_RenderGraph_BufferResourceData const&) = delete;
+  DebugData_RenderGraph_BufferResourceData(DebugData_RenderGraph_BufferResourceDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12400 };
@@ -1426,13 +1436,13 @@ protected:
   constexpr DebugData_RenderGraph_TextureResourceData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_TextureResourceData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_TextureResourceData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugData_RenderGraph_TextureResourceData(DebugData_RenderGraph_TextureResourceData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_TextureResourceData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_TextureResourceData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugData_RenderGraph_TextureResourceData(DebugData_RenderGraph_TextureResourceData const&) = delete;
+  DebugData_RenderGraph_TextureResourceData(DebugData_RenderGraph_TextureResourceDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12401 };
@@ -1478,6 +1488,7 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::DebugData_Re
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::DebugData_RenderGraph_TextureResourceData) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule
+// [DebuggerDisplay("ResourceDebug: {name} [{creationPassIndex}:{releasePassIndex}]")]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -1489,12 +1500,12 @@ public:
   // @brief default ctor
   constexpr DebugData_RenderGraph_ResourceData();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "imported", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "creationPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "releasePassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "consumerList", ty:
-  // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None }, CppParam { name: "producerList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "",
-  // def_value: None }, CppParam { name: "memoryless", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "textureData", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::DebugData_RenderGraph_TextureResourceData*", modifiers: "", def_value: None }, CppParam { name: "bufferData", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::DebugData_RenderGraph_BufferResourceData*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "imported", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "creationPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "releasePassIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "consumerList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "producerList", ty:
+  // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "memoryless", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "textureData", ty: "::UnityEngine::Rendering::RenderGraphModule::DebugData_RenderGraph_TextureResourceData*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "bufferData", ty: "::UnityEngine::Rendering::RenderGraphModule::DebugData_RenderGraph_BufferResourceData*", modifiers: "", def_value: None, comment: None }]
   constexpr DebugData_RenderGraph_ResourceData(::StringW name, bool imported, int32_t creationPassIndex, int32_t releasePassIndex, ::System::Collections::Generic::List_1<int32_t>* consumerList,
                                                ::System::Collections::Generic::List_1<int32_t>* producerList, bool memoryless,
                                                ::UnityEngine::Rendering::RenderGraphModule::DebugData_RenderGraph_TextureResourceData* textureData,
@@ -1593,13 +1604,13 @@ protected:
   constexpr DebugData_RenderGraph_PassScriptInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_PassScriptInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_PassScriptInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugData_RenderGraph_PassScriptInfo(DebugData_RenderGraph_PassScriptInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_PassScriptInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_PassScriptInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugData_RenderGraph_PassScriptInfo(DebugData_RenderGraph_PassScriptInfo const&) = delete;
+  DebugData_RenderGraph_PassScriptInfo(DebugData_RenderGraph_PassScriptInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12403 };
@@ -1690,13 +1701,13 @@ protected:
   constexpr RenderGraph_DebugData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_DebugData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_DebugData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraph_DebugData(RenderGraph_DebugData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_DebugData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_DebugData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_DebugData(RenderGraph_DebugData const&) = delete;
+  RenderGraph_DebugData(RenderGraph_DebugDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12404 };
@@ -1722,6 +1733,7 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: false
@@ -1778,13 +1790,13 @@ protected:
   constexpr RenderGraph___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraph___c(RenderGraph___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph___c(RenderGraph___c const&) = delete;
+  RenderGraph___c(RenderGraph___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12405 };
@@ -1795,6 +1807,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::RenderGraph___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies System.Collections.Generic.List`1<T>, System.Object, UnityEngine.Rendering.RenderTargetIdentifier
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: false
@@ -1977,41 +1990,56 @@ public:
 
   /// @brief Method AddComputePass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename PassData>
-  inline ::UnityEngine::Rendering::RenderGraphModule::IComputeRenderGraphBuilder* AddComputePass(::StringW passName, ::by_ref<PassData> passData, ::StringW file, int32_t line);
+    requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+  inline ::UnityEngine::Rendering::RenderGraphModule::IComputeRenderGraphBuilder* AddComputePass(::StringW passName, ::by_ref<PassData> passData, /* [CallerFilePath] */ ::StringW file,
+                                                                                                 /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method AddComputePass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename PassData>
+    requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
   inline ::UnityEngine::Rendering::RenderGraphModule::IComputeRenderGraphBuilder* AddComputePass(::StringW passName, ::by_ref<PassData> passData, ::UnityEngine::Rendering::ProfilingSampler* sampler,
-                                                                                                 ::StringW file, int32_t line);
+                                                                                                 /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method AddPassDebugMetadata, addr 0x67dab4c, size 0x14c, virtual false, abstract: false, final false
   inline void AddPassDebugMetadata(::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* renderPass, ::StringW file, int32_t line);
 
   /// @brief Method AddRasterRenderPass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename PassData>
-  inline ::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder* AddRasterRenderPass(::StringW passName, ::by_ref<PassData> passData, ::StringW file, int32_t line);
+    requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+  inline ::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder* AddRasterRenderPass(::StringW passName, ::by_ref<PassData> passData, /* [CallerFilePath] */ ::StringW file,
+                                                                                                     /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method AddRasterRenderPass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename PassData>
+    requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
   inline ::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder* AddRasterRenderPass(::StringW passName, ::by_ref<PassData> passData,
-                                                                                                     ::UnityEngine::Rendering::ProfilingSampler* sampler, ::StringW file, int32_t line);
-
-  /// @brief Method AddRenderPass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename PassData> inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder AddRenderPass(::StringW passName, ::by_ref<PassData> passData, ::StringW file, int32_t line);
+                                                                                                     ::UnityEngine::Rendering::ProfilingSampler* sampler, /* [CallerFilePath] */ ::StringW file,
+                                                                                                     /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method AddRenderPass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename PassData>
+    requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+  inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder AddRenderPass(::StringW passName, ::by_ref<PassData> passData, /* [CallerFilePath] */ ::StringW file,
+                                                                                       /* [CallerLineNumber] */ int32_t line);
+
+  /// @brief Method AddRenderPass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename PassData>
+    requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder AddRenderPass(::StringW passName, ::by_ref<PassData> passData, ::UnityEngine::Rendering::ProfilingSampler* sampler,
-                                                                                       ::StringW file, int32_t line);
+                                                                                       /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method AddUnsafePass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename PassData>
-  inline ::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* AddUnsafePass(::StringW passName, ::by_ref<PassData> passData, ::StringW file, int32_t line);
+    requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+  inline ::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* AddUnsafePass(::StringW passName, ::by_ref<PassData> passData, /* [CallerFilePath] */ ::StringW file,
+                                                                                               /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method AddUnsafePass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename PassData>
+    requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
   inline ::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* AddUnsafePass(::StringW passName, ::by_ref<PassData> passData, ::UnityEngine::Rendering::ProfilingSampler* sampler,
-                                                                                               ::StringW file, int32_t line);
+                                                                                               /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method AllGlobals, addr 0x67daa7c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2_ValueCollection<int32_t, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle>* AllGlobals();
@@ -2023,10 +2051,10 @@ public:
   inline bool AreRendererListsEmpty(::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>* rendererLists);
 
   /// @brief Method BeginProfilingSampler, addr 0x67d36a8, size 0x210, virtual false, abstract: false, final false
-  inline void BeginProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* sampler, ::StringW file, int32_t line);
+  inline void BeginProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* sampler, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method BeginRecording, addr 0x67d2a38, size 0x2c4, virtual false, abstract: false, final false
-  inline void BeginRecording(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphParameters> parameters);
+  inline void BeginRecording(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphParameters> parameters);
 
   /// @brief Method Cleanup, addr 0x67d1e7c, size 0x110, virtual false, abstract: false, final false
   inline void Cleanup();
@@ -2043,6 +2071,7 @@ public:
   /// @brief Method ClearGlobalBindings, addr 0x67d34c8, size 0x1e0, virtual false, abstract: false, final false
   inline void ClearGlobalBindings();
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ClearPassDebugMetadata, addr 0x67dac98, size 0x80, virtual false, abstract: false, final false
   inline void ClearPassDebugMetadata();
 
@@ -2065,19 +2094,20 @@ public:
   inline void CountReferences();
 
   /// @brief Method CreateBuffer, addr 0x67c3a18, size 0x28, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateBuffer(::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> desc);
+  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> desc);
 
   /// @brief Method CreateBuffer, addr 0x67d297c, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateBuffer(::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> graphicsBuffer);
+  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> graphicsBuffer);
 
   /// @brief Method CreateGizmoRendererList, addr 0x67d2744, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateGizmoRendererList(::by_ref<::UnityEngine::Camera*> camera, ::by_ref<::UnityEngine::Rendering::GizmoSubset> gizmoSubset);
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateGizmoRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera*> camera,
+                                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GizmoSubset> gizmoSubset);
 
   /// @brief Method CreateRendererList, addr 0x67d26ec, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateRendererList(::by_ref<::UnityEngine::Rendering::RendererListParams> desc);
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererListParams> desc);
 
   /// @brief Method CreateRendererList, addr 0x67d26c8, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateRendererList(::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc);
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc);
 
   /// @brief Method CreateRendererLists, addr 0x67d5fd4, size 0x148, virtual false, abstract: false, final false
   inline void CreateRendererLists();
@@ -2086,37 +2116,40 @@ public:
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateShadowRendererList(::by_ref<::UnityEngine::Rendering::ShadowDrawingSettings> shadowDrawingSettings);
 
   /// @brief Method CreateSharedTexture, addr 0x67d2364, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateSharedTexture(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc, bool explicitRelease);
+  inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateSharedTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc,
+                                                                                        bool explicitRelease);
 
   /// @brief Method CreateSkyboxRendererList, addr 0x67d2828, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyboxRendererList(::by_ref<::UnityEngine::Camera*> camera);
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyboxRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera*> camera);
 
   /// @brief Method CreateSkyboxRendererList, addr 0x67d285c, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyboxRendererList(::by_ref<::UnityEngine::Camera*> camera, ::UnityEngine::Matrix4x4 projectionMatrix,
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyboxRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera*> camera, ::UnityEngine::Matrix4x4 projectionMatrix,
                                                                                                   ::UnityEngine::Matrix4x4 viewMatrix);
 
   /// @brief Method CreateSkyboxRendererList, addr 0x67d28c4, size 0x90, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyboxRendererList(::by_ref<::UnityEngine::Camera*> camera, ::UnityEngine::Matrix4x4 projectionMatrixL,
-                                                                                                  ::UnityEngine::Matrix4x4 viewMatrixL, ::UnityEngine::Matrix4x4 projectionMatrixR,
-                                                                                                  ::UnityEngine::Matrix4x4 viewMatrixR);
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyboxRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera*> camera,
+                                                                                                  ::UnityEngine::Matrix4x4 projectionMatrixL, ::UnityEngine::Matrix4x4 viewMatrixL,
+                                                                                                  ::UnityEngine::Matrix4x4 projectionMatrixR, ::UnityEngine::Matrix4x4 viewMatrixR);
 
   /// @brief Method CreateTexture, addr 0x67d2348, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTexture(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc);
+  inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc);
 
   /// @brief Method CreateTexture, addr 0x67d2488, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle texture);
 
   /// @brief Method CreateTextureIfInvalid, addr 0x67d24ec, size 0x140, virtual false, abstract: false, final false
-  inline void CreateTextureIfInvalid(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> texture);
+  inline void CreateTextureIfInvalid(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc,
+                                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> texture);
 
   /// @brief Method CreateUIOverlayRendererList, addr 0x67d277c, size 0x40, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateUIOverlayRendererList(::by_ref<::UnityEngine::Camera*> camera);
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateUIOverlayRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera*> camera);
 
   /// @brief Method CreateUIOverlayRendererList, addr 0x67d27bc, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateUIOverlayRendererList(::by_ref<::UnityEngine::Camera*> camera, ::by_ref<::UnityEngine::Rendering::UISubset> uiSubset);
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateUIOverlayRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera*> camera,
+                                                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UISubset> uiSubset);
 
   /// @brief Method CreateWireOverlayRendererList, addr 0x67d27f4, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateWireOverlayRendererList(::by_ref<::UnityEngine::Camera*> camera);
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateWireOverlayRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera*> camera);
 
   /// @brief Method CullRendererLists, addr 0x67d7384, size 0x118, virtual false, abstract: false, final false
   inline void CullRendererLists();
@@ -2128,7 +2161,7 @@ public:
   inline void EndFrame();
 
   /// @brief Method EndProfilingSampler, addr 0x67d38b8, size 0x210, virtual false, abstract: false, final false
-  inline void EndProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* sampler, ::StringW file, int32_t line);
+  inline void EndProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* sampler, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method EndRecordingAndExecute, addr 0x67d2f30, size 0x4, virtual false, abstract: false, final false
   inline void EndRecordingAndExecute();
@@ -2149,7 +2182,7 @@ public:
   inline void ExecuteRenderGraph();
 
   /// @brief Method FindTextureProducer, addr 0x67d5bc4, size 0x12c, virtual false, abstract: false, final false
-  inline int32_t FindTextureProducer(int32_t consumerPass, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info, ::by_ref<int32_t> index);
+  inline int32_t FindTextureProducer(int32_t consumerPass, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info, ::by_ref<int32_t> index);
 
   /// @brief Method GenerateCompilerDebugData, addr 0x67d975c, size 0x10f8, virtual false, abstract: false, final false
   inline void GenerateCompilerDebugData(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData*> debugData);
@@ -2158,7 +2191,7 @@ public:
   inline void GenerateDebugData();
 
   /// @brief Method GetBufferDesc, addr 0x67d29d0, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::BufferDesc GetBufferDesc(::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> graphicsBuffer);
+  inline ::UnityEngine::Rendering::RenderGraphModule::BufferDesc GetBufferDesc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> graphicsBuffer);
 
   /// @brief Method GetCompiledPassInfos, addr 0x67d3ac8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledPassInfo>* GetCompiledPassInfos();
@@ -2170,10 +2203,10 @@ public:
   inline ::UnityEngine::Rendering::ProfilingSampler* GetDefaultProfilingSampler(::StringW name);
 
   /// @brief Method GetFirstValidConsumerIndex, addr 0x67d5a68, size 0x15c, virtual false, abstract: false, final false
-  inline int32_t GetFirstValidConsumerIndex(int32_t passIndex, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
+  inline int32_t GetFirstValidConsumerIndex(int32_t passIndex, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
 
   /// @brief Method GetFirstValidWriteIndex, addr 0x67d5de0, size 0x104, virtual false, abstract: false, final false
-  inline int32_t GetFirstValidWriteIndex(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
+  inline int32_t GetFirstValidWriteIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
 
   /// @brief Method GetGlobal, addr 0x67daad0, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle GetGlobal(int32_t globalPropertyId);
@@ -2182,13 +2215,13 @@ public:
   inline bool GetImportedFallback(::UnityEngine::Rendering::RenderGraphModule::TextureDesc desc, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> fallback);
 
   /// @brief Method GetLatestProducerIndex, addr 0x67d58f8, size 0x170, virtual false, abstract: false, final false
-  inline int32_t GetLatestProducerIndex(int32_t passIndex, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
+  inline int32_t GetLatestProducerIndex(int32_t passIndex, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
 
   /// @brief Method GetLatestValidReadIndex, addr 0x67d5cf0, size 0xf0, virtual false, abstract: false, final false
-  inline int32_t GetLatestValidReadIndex(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
+  inline int32_t GetLatestValidReadIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
 
   /// @brief Method GetLatestValidWriteIndex, addr 0x67d5ee4, size 0xf0, virtual false, abstract: false, final false
-  inline int32_t GetLatestValidWriteIndex(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
+  inline int32_t GetLatestValidWriteIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> info);
 
   /// @brief Method GetRegisteredRenderGraphs, addr 0x67d202c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>* GetRegisteredRenderGraphs();
@@ -2215,7 +2248,7 @@ public:
 
   /// @brief Method ImportRayTracingAccelerationStructure, addr 0x67d2a14, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle
-  ImportRayTracingAccelerationStructure(::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure*> accelStruct, ::StringW name);
+  ImportRayTracingAccelerationStructure(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure*> accelStruct, ::StringW name);
 
   /// @brief Method ImportTexture, addr 0x67d21d0, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ImportTexture(::UnityEngine::Rendering::RTHandle* rt);
@@ -2244,7 +2277,7 @@ public:
   inline void LogFrameInformation();
 
   /// @brief Method LogRenderPassBegin, addr 0x67d8124, size 0x348, virtual false, abstract: false, final false
-  inline void LogRenderPassBegin(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledPassInfo> passInfo);
+  inline void LogRenderPassBegin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledPassInfo> passInfo);
 
   /// @brief Method LogRendererListsCreation, addr 0x67d749c, size 0x114, virtual false, abstract: false, final false
   inline void LogRendererListsCreation();
@@ -2259,15 +2292,15 @@ public:
                                     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext);
 
   /// @brief Method PreRenderPassExecute, addr 0x67d846c, size 0x30c, virtual false, abstract: false, final false
-  inline void PreRenderPassExecute(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledPassInfo> passInfo, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* pass,
-                                   ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext);
+  inline void PreRenderPassExecute(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledPassInfo> passInfo,
+                                   ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* pass, ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext);
 
   /// @brief Method PreRenderPassSetRenderTargets, addr 0x67d8b24, size 0x5a8, virtual false, abstract: false, final false
-  inline void PreRenderPassSetRenderTargets(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledPassInfo> passInfo,
+  inline void PreRenderPassSetRenderTargets(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledPassInfo> passInfo,
                                             ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* pass, ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext);
 
   /// @brief Method RefreshSharedTextureDesc, addr 0x67d23d4, size 0x34, virtual false, abstract: false, final false
-  inline void RefreshSharedTextureDesc(::UnityEngine::Rendering::RenderGraphModule::TextureHandle handle, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc);
+  inline void RefreshSharedTextureDesc(::UnityEngine::Rendering::RenderGraphModule::TextureHandle handle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc);
 
   /// @brief Method RegisterDebug, addr 0x67d1ff8, size 0x20, virtual false, abstract: false, final false
   inline void RegisterDebug(::UnityEngine::Rendering::DebugUI_Panel* panel);
@@ -2309,7 +2342,7 @@ public:
 
   /// @brief Method UpdateResourceSynchronization, addr 0x67d57bc, size 0x13c, virtual false, abstract: false, final false
   inline void UpdateResourceSynchronization(::by_ref<int32_t> lastGraphicsPipeSync, ::by_ref<int32_t> lastComputePipeSync, int32_t currentPassIndex,
-                                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> resource);
+                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledResourceInfo> resource);
 
   constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
 
@@ -2506,18 +2539,23 @@ public:
   /// @brief Method .ctor, addr 0x67d16f8, size 0x784, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onDebugDataCaptured, addr 0x67d450c, size 0xf0, virtual false, abstract: false, final false
   static inline void add_onDebugDataCaptured(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onExecutionRegistered, addr 0x67d414c, size 0xf0, virtual false, abstract: false, final false
   static inline void add_onExecutionRegistered(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_OnExecutionRegisteredDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onExecutionUnregistered, addr 0x67d432c, size 0xf0, virtual false, abstract: false, final false
   static inline void add_onExecutionUnregistered(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_OnExecutionRegisteredDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onGraphRegistered, addr 0x67d3d8c, size 0xf0, virtual false, abstract: false, final false
   static inline void add_onGraphRegistered(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_OnGraphRegisteredDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onGraphUnregistered, addr 0x67d3f6c, size 0xf0, virtual false, abstract: false, final false
   static inline void add_onGraphUnregistered(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_OnGraphRegisteredDelegate* value);
 
@@ -2548,30 +2586,39 @@ public:
   /// @brief Method get_defaultResources, addr 0x67d16f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* get_defaultResources();
 
+  /// [CompilerGenerated]
   /// @brief Method get_enableValidityChecks, addr 0x67d1630, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enableValidityChecks();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isRenderGraphViewerActive, addr 0x67d1570, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_isRenderGraphViewerActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_name, addr 0x67d1558, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
+  /// [CompilerGenerated]
   /// @brief Method get_nativeRenderPassesEnabled, addr 0x67d1548, size 0x8, virtual false, abstract: false, final false
   inline bool get_nativeRenderPassesEnabled();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onDebugDataCaptured, addr 0x67d45fc, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_onDebugDataCaptured(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onExecutionRegistered, addr 0x67d423c, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_onExecutionRegistered(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_OnExecutionRegisteredDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onExecutionUnregistered, addr 0x67d441c, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_onExecutionUnregistered(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_OnExecutionRegisteredDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onGraphRegistered, addr 0x67d3e7c, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_onGraphRegistered(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_OnGraphRegisteredDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onGraphUnregistered, addr 0x67d405c, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_onGraphUnregistered(::UnityEngine::Rendering::RenderGraphModule::RenderGraph_OnGraphRegisteredDelegate* value);
 
@@ -2593,15 +2640,19 @@ public:
 
   static inline void setStaticF_s_RegisteredGraphs(::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_enableValidityChecks, addr 0x67d168c, size 0x64, virtual false, abstract: false, final false
   static inline void set_enableValidityChecks(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isRenderGraphViewerActive, addr 0x67d15cc, size 0x64, virtual false, abstract: false, final false
   static inline void set_isRenderGraphViewerActive(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_name, addr 0x67d1560, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_nativeRenderPassesEnabled, addr 0x67d1550, size 0x8, virtual false, abstract: false, final false
   inline void set_nativeRenderPassesEnabled(bool value);
 
@@ -2611,13 +2662,13 @@ protected:
   constexpr RenderGraph();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraph(RenderGraph&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph(RenderGraph const&) = delete;
+  RenderGraph(RenderGraphconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12406 };
@@ -2631,6 +2682,7 @@ public:
   /// @brief Field nativeCompiler, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler* ___nativeCompiler;
 
+  /// [CompilerGenerated]
   /// @brief Field <nativeRenderPassesEnabled>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____nativeRenderPassesEnabled_k__BackingField;
 
@@ -2715,6 +2767,7 @@ public:
   /// @brief Field m_DebugData, offset: 0xc8, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData*>* ___m_DebugData;
 
+  /// [CompilerGenerated]
   /// @brief Field <name>k__BackingField, offset: 0xd0, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
 

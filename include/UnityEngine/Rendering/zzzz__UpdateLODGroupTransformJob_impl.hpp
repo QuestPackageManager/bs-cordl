@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UpdateLODGroupTransformJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UpdateLODGroupTransformJob.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAtomicCounter32_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
@@ -36,13 +36,14 @@ constexpr UnityEngine::Rendering::UpdateLODGroupTransformJob::operator ::Unity::
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::UpdateLODGroupTransformJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "lodGroupDataHash", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "lodGroupIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "worldSpaceReferencePoints", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "worldSpaceSizes", ty: "::Unity::Collections::NativeArray_1<float_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "requiresGPUUpload", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportDitheringCrossFade", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "lodGroupData", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "lodGroupCullingData", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "atomicUpdateCount", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "lodGroupDataHash", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "lodGroupIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "worldSpaceReferencePoints", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldSpaceSizes", ty:
+// "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requiresGPUUpload", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "supportDitheringCrossFade", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupData", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupCullingData", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atomicUpdateCount", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::UpdateLODGroupTransformJob::UpdateLODGroupTransformJob(
     ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataHash, ::Unity::Collections::NativeArray_1<int32_t> lodGroupIDs,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> worldSpaceReferencePoints, ::Unity::Collections::NativeArray_1<float_t> worldSpaceSizes, bool requiresGPUUpload,

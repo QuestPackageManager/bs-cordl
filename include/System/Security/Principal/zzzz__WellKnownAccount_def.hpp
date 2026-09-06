@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Principal\WellKnownAccount.hpp"
+// IWYU pragma private; include "System/Security/Principal/WellKnownAccount.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,35 +111,45 @@ public:
 
   static inline ::ArrayW<::System::Security::Principal::WellKnownAccount*> getStaticF_accounts();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsAbsolute, addr 0x5b15098, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAbsolute();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x5b150c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SddlForm, addr 0x5b150d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SddlForm();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Sid, addr 0x5b150a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Sid();
 
   static inline void setStaticF_accounts(::ArrayW<::System::Security::Principal::WellKnownAccount*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsAbsolute, addr 0x5b150a0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsAbsolute(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x5b150c8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Rid, addr 0x5b150b8, size 0x8, virtual false, abstract: false, final false
   inline void set_Rid(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SddlForm, addr 0x5b150d8, size 0x8, virtual false, abstract: false, final false
   inline void set_SddlForm(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Sid, addr 0x5b150b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Sid(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_WellKnownValue, addr 0x5b15090, size 0x8, virtual false, abstract: false, final false
   inline void set_WellKnownValue(::System::Security::Principal::WellKnownSidType value);
 
@@ -149,32 +159,38 @@ protected:
   constexpr WellKnownAccount();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WellKnownAccount", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WellKnownAccount", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WellKnownAccount(WellKnownAccount&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WellKnownAccount", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WellKnownAccount", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WellKnownAccount(WellKnownAccount const&) = delete;
+  WellKnownAccount(WellKnownAccountconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3019 };
 
+  /// [CompilerGenerated]
   /// @brief Field <WellKnownValue>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Security::Principal::WellKnownSidType ____WellKnownValue_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsAbsolute>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool ____IsAbsolute_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Sid>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Sid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Rid>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Rid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SddlForm>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____SddlForm_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyAvatarPlaceManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyAvatarPlaceManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,20 +104,22 @@ protected:
   constexpr MultiplayerLobbyAvatarPlaceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlaceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlaceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyAvatarPlaceManager(MultiplayerLobbyAvatarPlaceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlaceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlaceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarPlaceManager(MultiplayerLobbyAvatarPlaceManager const&) = delete;
+  MultiplayerLobbyAvatarPlaceManager(MultiplayerLobbyAvatarPlaceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6161 };
 
+  /// [Inject]
   /// @brief Field _lobbyStateDataModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;
 
+  /// [Inject]
   /// @brief Field _avatarPlacesPool, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool* ____avatarPlacesPool;
 

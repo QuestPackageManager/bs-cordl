@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeRotationSpreadLayout.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeRotationSpreadLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,20 +59,22 @@ protected:
   constexpr CompositeRotationSpreadLayout();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeRotationSpreadLayout", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeRotationSpreadLayout", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeRotationSpreadLayout(CompositeRotationSpreadLayout&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeRotationSpreadLayout", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeRotationSpreadLayout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeRotationSpreadLayout(CompositeRotationSpreadLayout const&) = delete;
+  CompositeRotationSpreadLayout(CompositeRotationSpreadLayoutconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5833 };
 
+  /// [SerializeField]
   /// @brief Field _rotationStep, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rotationStep;
 
+  /// [SerializeField]
   /// @brief Field _startFromCenter, offset: 0x30, size: 0x1, def value: None
   bool ____startFromCenter;
 

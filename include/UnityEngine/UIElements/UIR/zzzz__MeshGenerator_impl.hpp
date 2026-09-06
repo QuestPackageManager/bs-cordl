@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\MeshGenerator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshGenerator.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPosition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundRepeat_impl.hpp"
@@ -28,16 +28,16 @@
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::MeshGenerator_RepeatRectUV::MeshGenerator_RepeatRectUV(::UnityEngine::Rect rect, ::UnityEngine::Rect uv) noexcept {
   this->rect = rect;
   this->uv = uv;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::MeshGenerator_RepeatRectUV::MeshGenerator_RepeatRectUV() {}
-// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance::MeshGenerator_BackgroundRepeatInstance(::UnityEngine::Rect rect, ::UnityEngine::Rect backgroundRepeatRect,
                                                                                                                          ::UnityEngine::Rect uv) noexcept {
   this->rect = rect;
@@ -64,16 +64,17 @@ inline ::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams UnityEngi
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams>(), { "ToNativeParams", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "leftColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "topColor", ty: "::UnityEngine::Color", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "rightColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomColor", ty: "::UnityEngine::Color", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "leftWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "topWidth", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rightWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "leftColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: Some("{}") }, CppParam { name: "topColorPage", ty:
-// "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: Some("{}") }, CppParam { name: "rightColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "bottomColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "leftColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "topColor",
+// ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "bottomColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "leftWidth", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "topWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightWidth", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "bottomWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "leftColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "topColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightColorPage", ty: "::UnityEngine::UIElements::ColorPage",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bottomColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams::MeshGenerator_BorderParams(
     ::UnityEngine::Rect rect, ::UnityEngine::Color playmodeTintColor, ::UnityEngine::Color leftColor, ::UnityEngine::Color topColor, ::UnityEngine::Color rightColor, ::UnityEngine::Color bottomColor,
     float_t leftWidth, float_t topWidth, float_t rightWidth, float_t bottomWidth, ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius,
@@ -394,25 +395,28 @@ inline ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams UnityEngine
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams>(), { "ToNativeParams", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "subRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "backgroundRepeatInstanceList", ty:
-// "::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "backgroundRepeatInstanceListStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "backgroundRepeatInstanceListEndIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "backgroundPositionX", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: Some("{}") }, CppParam { name: "backgroundPositionY", ty:
-// "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: Some("{}") }, CppParam { name: "backgroundRepeat", ty: "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "backgroundSize", ty: "::UnityEngine::UIElements::BackgroundSize", modifiers: "", def_value: Some("{}") }, CppParam { name: "texture", ty:
-// "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: Some("{}") }, CppParam { name: "scaleMode", ty: "::UnityEngine::ScaleMode", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomRightRadius", ty:
-// "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "contentSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "textureSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "leftSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "topSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rightSlice", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sliceScale", ty: "float_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "spriteGeomRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "rectInset", ty: "::UnityEngine::Vector4",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "colorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: Some("{}") }, CppParam { name: "meshFlags", ty:
-// "::UnityEngine::UIElements::MeshGenerationContext_MeshFlags", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "subRect", ty:
+// "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "backgroundRepeatInstanceList", ty: "::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance>*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "backgroundRepeatInstanceListStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "backgroundRepeatInstanceListEndIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "backgroundPositionX", ty:
+// "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "backgroundPositionY", ty: "::UnityEngine::UIElements::BackgroundPosition",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "backgroundRepeat", ty: "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "backgroundSize", ty: "::UnityEngine::UIElements::BackgroundSize", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "texture", ty:
+// "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scaleMode", ty:
+// "::UnityEngine::ScaleMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "contentSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "textureSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "leftSlice", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "topSlice", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightSlice", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bottomSlice", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "sliceScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "spriteGeomRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "rectInset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "colorPage", ty: "::UnityEngine::UIElements::ColorPage",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "meshFlags", ty: "::UnityEngine::UIElements::MeshGenerationContext_MeshFlags", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::MeshGenerator_RectangleParams(
     ::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Color color, ::UnityEngine::Rect subRect, ::UnityEngine::Rect backgroundRepeatRect,
     ::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance>* backgroundRepeatInstanceList,
@@ -458,10 +462,10 @@ constexpr ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::MeshGen
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::MeshGenerator_RectangleParams() {}
-// Ctor Parameters [CppParam { name: "isBorderJob", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "rectParams", ty:
-// "::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams", modifiers: "", def_value: Some("{}") }, CppParam { name: "borderParams", ty:
-// "::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams", modifiers: "", def_value: Some("{}") }, CppParam { name: "node", ty: "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "isBorderJob", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rectParams", ty:
+// "::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "borderParams", ty:
+// "::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "node", ty:
+// "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters::MeshGenerator_TessellationJobParameters(bool isBorderJob,
                                                                                                                            ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams rectParams,
                                                                                                                            ::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams borderParams,
@@ -567,7 +571,9 @@ inline void UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::Execute
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob>(), { "Execute", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, i);
 }
-template <typename T> inline T UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::ExtractHandle(::System::IntPtr handlePtr) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::ExtractHandle(::System::IntPtr handlePtr) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob>(),
                                                                                               { "ExtractHandle", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::IntPtr>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -623,8 +629,8 @@ constexpr UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::operator 
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "allocator", ty: "::UnityEngine::UIElements::TempMeshAllocator", modifiers: "", def_value: Some("{}") }, CppParam { name: "jobParameters", ty:
-// "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "allocator", ty: "::UnityEngine::UIElements::TempMeshAllocator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "jobParameters", ty:
+// "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::MeshGenerator_TessellationJob(
     ::UnityEngine::UIElements::TempMeshAllocator allocator, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters> jobParameters) noexcept {
   this->allocator = allocator;
